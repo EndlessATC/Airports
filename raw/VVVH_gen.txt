@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = N18.7376003265, E105.67099762
+magneticvar = -0.574
+beacons =
+	VIN, N18.73410, E105.66800, 0, Vinh
+	XW, N18.79030, E105.66700, 0, Vinh
+
+line1 =
+	N17.74688, E106.37051
+	N17.76504, E106.35586
+
+line2 =
+	N17.87368, E106.45938
+	N17.94644, E106.49902
+	N18.05317, E106.41191
+	N18.22070, E106.23955
+	N18.25942, E106.14453
+	N18.31636, E106.06563
+	N18.50249, E105.88828
+	N18.57417, E105.83926
+	N18.64585, E105.80820
+	N18.74629, E105.74424
+	N18.77930, E105.73203
+	N18.96631, E105.62178
+	N19.05718, E105.63906
+	N19.12778, E105.71641
+	N19.29419, E105.79111
+	N19.37886, E105.78535
+	N19.46699, E105.81211
+	N19.58745, E105.81396
+
+[airport1]
+name = Vinh Airport
+code = VVVH
+runways =
+	rwy1, 17, N18.7483, E105.669, 172.6, 7875, 0, 0, 14

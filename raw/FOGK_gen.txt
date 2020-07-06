@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1070
+center = S1.18461000919, E12.4413003922
+magneticvar = -3.006
+beacons =
+	KL, S1.16968, E12.43180, 0, Koulamoutou
+	LV, S0.83288, E12.74900, 0, Lastourville
+	ND, S1.53003, E13.26710, 0, Moanda
+
+[airport1]
+name = Koulamoutou Mabimbi Airport
+code = FOGK
+runways =
+	rwy1, 15, S1.17758, E12.4374, 151.0, 5841, 0, 0, 0

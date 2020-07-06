@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 91
+center = N15.4526, W87.923599
+magneticvar = 1.253
+beacons =
+	LMS, N15.44890, W87.93240, 0, La Mesa
+	LMS, N15.46980, W87.90850, 0, La Mesa
+	IOS, N15.73680, W88.58880, 0, Puerto Barrios
+	BAR, N15.73670, W88.59500, 0, Puerto Barrios
+
+line1 =
+	N15.79424, W86.75703
+	N15.76235, W86.90723
+	N15.83442, W87.28589
+	N15.82646, W87.37749
+	N15.79019, W87.48691
+	N15.83237, W87.54497
+	N15.90986, W87.61816
+	N15.91064, W87.70186
+	N15.87935, W87.87495
+	N15.86260, W87.90703
+	N15.78618, W88.01040
+	N15.76484, W88.05459
+	N15.70103, W88.13110
+	N15.72900, W88.22832
+	N15.95029, W88.59395
+	N15.92734, W88.59800
+	N15.90107, W88.57158
+	N15.84961, W88.53623
+	N15.76416, W88.60337
+	N15.80654, W88.70864
+	N15.86250, W88.79834
+	N15.86899, W88.83999
+	N15.89062, W88.89404
+	N15.95601, W88.91172
+	N16.01665, W88.87910
+	N16.24766, W88.69517
+	N16.29043, W88.56230
+	N16.43379, W88.46113
+
+line2 =
+	N15.71187, W88.87769
+	N15.67778, W88.92456
+	N15.63638, W88.97041
+	N15.57280, W88.99736
+	N15.48931, W89.02236
+	N15.44360, W89.07861
+
+line3 =
+	N15.60210, W89.10537
+	N15.68760, W88.97061
+	N15.76440, W88.86177
+	N15.76533, W88.84277
+	N15.74146, W88.85215
+	N15.71187, W88.87769
+	N15.71187, W88.87769
+	N15.71187, W88.87769
+	N15.71187, W88.87769
+
+[airport1]
+name = Ramón Villeda Morales International Airport
+code = MHLM
+runways =
+	rwy1, 04, N15.4423, W87.9326, 40.0, 9203, 656, 0, 91

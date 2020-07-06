@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = S17.3526000977, W145.509994507
+magneticvar = 12.445
+beacons =
+	AA, S17.35560, W145.48199, 0, Anaa
+
+[airport1]
+name = Anaa Airport
+code = NTGA
+runways =
+	rwy1, 14, S17.3467, W145.514, 149.7, 4921, 0, 0, 7

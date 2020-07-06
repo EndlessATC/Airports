@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 630
+center = S36.588299, W64.275703
+magneticvar = -0.380
+beacons =
+	OSA, S36.58370, W64.27280, 0, Santa Rosa
+	O, S36.56830, W64.27000, 0, Santa Rosa
+
+[airport1]
+name = Santa Rosa Airport
+code = SAZR
+runways =
+	rwy1, 1, S36.5985, W64.2782, 11.2, 7546, 0, 0, 620

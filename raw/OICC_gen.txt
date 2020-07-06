@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4307
+center = N34.3459014893, E47.1581001282
+magneticvar = 3.487
+beacons =
+	KMS, N34.33970, E47.16910, 0, Kermanshah
+	KMS, N34.32720, E47.20180, 0, Kermanshah
+	KSH, N34.31110, E47.02780, 0, Kermanshah
+	ILM, N33.58480, E46.41210, 0, Ilam
+	ILM, N33.57840, E46.41540, 0, Ilam
+
+[airport1]
+name = Shahid Ashrafi Esfahani Airport
+code = OICC
+runways =
+	rwy1, 11, N34.3526, E47.1414, 116.0, 11213, 1335, 0, 4307

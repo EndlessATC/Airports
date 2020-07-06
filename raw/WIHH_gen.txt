@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 84
+center = S6.26661014557, E106.89099884
+magneticvar = 0.513
+beacons =
+	HLM, S6.27194, E106.88700, 0, Halim Perdanakusuma
+	CB, S6.34982, E106.76800, 0, Pondok Cabe
+	AL, S6.19396, E107.04000, 0, Halim Perdanakusuma
+	AS, S6.53833, E106.75500, 0, Atang Senjaya
+	BTO, S6.29248, E106.58300, 0, Budiarto
+	TN, S6.29023, E106.56800, 0, Tangerang
+	DKI, S5.96119, E107.03600, 0, Jakarta
+	CKG, S6.18789, E106.53000, 0, Cengkareng
+	PW, S6.56667, E107.45000, 0, Purwakarta
+	BND, S6.88208, E107.51200, 0, Bandung
+	OY, S6.92342, E107.64800, 0, Bandung
+
+line1 =
+	S6.27695, E108.00879
+	S6.23330, E107.88379
+	S6.21895, E107.77607
+	S6.21582, E107.66680
+	S6.18271, E107.56299
+	S6.12178, E107.47471
+	S6.00762, E107.37393
+	S5.97813, E107.33184
+	S5.95713, E107.16211
+	S5.90420, E107.04629
+	S6.00850, E107.01162
+	S6.07344, E106.93164
+	S6.09199, E106.87793
+	S6.09824, E106.82520
+	S6.03838, E106.67588
+	S6.02188, E106.56875
+	S6.01758, E106.45908
+	S5.98408, E106.34971
+	S5.96475, E106.16582
+	S5.91416, E106.07500
+	S5.93428, E106.02881
+	S6.01699, E105.93613
+	S6.11641, E105.86826
+	S6.45693, E105.78691
+	S6.48037, E105.75742
+
+line2 =
+	S6.84609, E105.72480
+	S6.84580, E105.83477
+	S6.85898, E105.94434
+	S6.92783, E106.19824
+	S7.05371, E106.51973
+	S7.11387, E106.49150
+	S7.17676, E106.44844
+	S7.23936, E106.41689
+
+line3 =
+	S5.67656, E105.81611
+	S5.71641, E105.80273
+	S5.81826, E105.74834
+
+[airport1]
+name = Halim Perdanakusuma International Airport
+code = WIHH
+runways =
+	rwy1, 06, S6.27223, E106.879, 65.5, 9843, 0, 650, 79
+
+[airport2]
+name = Soekarno-Hatta International Airport
+code = II
+runways =
+	rwy2, 07L, S6.12106, E106.639, 68.3, 11812, 0, 0, 29
+	rwy3, 07R, S6.1426, E106.644, 68.3, 12008, 0, 0, 34
+inboundbeacon = CKG

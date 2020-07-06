@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2643
+usa = true
+transition = 18001
+center = N32.1161003113, W110.941001892
+magneticvar = 11.226
+beacons =
+	TUS, N32.09520, W110.91500, 0, Tucson
+	DMA, N32.15990, W110.88100, 0, Davis Monthan
+	RYN, N32.13840, W111.16200, 0, Ryan
+	RBJ, N32.07400, W111.36000, 0, Robles
+	AVQ, N32.41180, W111.21600, 0, Marana
+	ENZ, N31.42140, W110.84600, 0, Nogales
+	OLS, N31.41500, W110.84900, 0, Nogales
+	FHU, N31.58970, W110.35500, 0, Sierra Vista Muni/Libby Aaf
+	DAO, N31.58570, W110.34400, 0, Dragoo
+	ARH, N31.58560, W110.33900, 0, Libby
+	TFD, N32.88590, W111.90900, 0, Stanfield
+
+line1 =
+	N33.10426, W111.24938
+	N33.03977, W111.45477
+	N33.05416, W111.64835
+
+line2 =
+	N32.85285, W109.59132
+	N32.85037, W109.69529
+	N32.93246, W109.84556
+	N33.09907, W110.04219
+
+line3 =
+	N33.05617, W110.69357
+	N33.03814, W110.81450
+	N33.09534, W110.91630
+
+[airport1]
+name = Tucson International Airport
+code = KTUS
+runways =
+	rwy1, 03, N32.1172, W110.959, 45.0, 7000, 841, 0, 2564
+	rwy2, 11L, N32.1234, W110.948, 135.0, 10996, 0, 0, 2578
+	rwy3, 11R, N32.1221, W110.95, 135.2, 8408, 1410, 0, 2585

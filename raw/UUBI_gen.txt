@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 410
+center = N56.9393997192, E40.9407997131
+magneticvar = 11.107
+beacons =
+	VA, N56.26670, E40.60000, 0, Dobrynskoye
+	RG, N57.58170, E40.23830, 0, Tunoshna
+
+line1 =
+	N57.40957, E42.87431
+	N57.43120, E42.72383
+	N57.41546, E42.57583
+
+line2 =
+	N57.49329, E41.34252
+	N57.51708, E41.20610
+	N57.58791, E41.09923
+	N57.71369, E40.97634
+	N57.78420, E40.88916
+	N57.79947, E40.83759
+	N57.78963, E40.70597
+	N57.75474, E40.49441
+	N57.69464, E40.29318
+	N57.56667, E40.00710
+
+line3 =
+	N57.49308, E41.34366
+	N57.44755, E41.71531
+	N57.45122, E41.88921
+	N57.48895, E41.98915
+	N57.48471, E42.17327
+	N57.41546, E42.57583
+	N57.56667, E40.00710
+	N57.66883, E39.85331
+	N57.72521, E39.79812
+	N57.76988, E39.79037
+	N57.83130, E39.69663
+	N57.90944, E39.51710
+
+[airport1]
+name = Ivanovo South Airport
+code = UUBI

@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 412
+center = N26.6812000275, E88.3285980225
+magneticvar = -0.116
+beacons =
+	BBD, N26.68760, E88.32600, 0, Bagdogra
+	BD, N26.68790, E88.32640, 0, Bagdogra
+	JPA, N26.57000, E88.07750, 0, Chandragadhi
+	KG, N26.10130, E87.94180, 0, Kishanganj
+
+[airport1]
+name = Bagdogra Airport
+code = VEBD
+runways =
+	rwy1, 18, N26.6936, E88.3289, 181.0, 9035, 0, 0, 0

@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 350
+center = N26.7318, W11.6847
+magneticvar = -4.524
+beacons =
+	MBA, N26.73670, W11.66790, 0, Smara
+
+[airport1]
+name = Smara Airport
+code = GMMA
+runways =
+	rwy1, 16, N26.7436, W11.6919, 151.5, 9850, 0, 0, 0

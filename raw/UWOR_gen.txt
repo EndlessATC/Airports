@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 909
+center = N51.0724983215, E58.5956001282
+magneticvar = 10.123
+beacons =
+	OR, N51.08330, E58.67000, 0, Orsk
+	SF, N51.06000, E58.51830, 0, Orsk
+
+line1 =
+	N52.07150, E58.78166
+	N51.97641, E58.76688
+	N51.86970, E58.77277
+	N51.78604, E58.73955
+	N51.69509, E58.63087
+
+line2 =
+	N51.69509, E58.63087
+	N51.61881, E58.62849
+	N51.56104, E58.65929
+	N51.49634, E58.72255
+	N51.42485, E58.75081
+	N51.34656, E58.74409
+	N51.28736, E58.71262
+	N51.24726, E58.65650
+	N51.20127, E58.52710
+	N51.14933, E58.32464
+	N51.10639, E58.20929
+	N51.07244, E58.18118
+	N51.06887, E58.04517
+	N51.09580, E57.80126
+	N51.16453, E57.53569
+	N51.27517, E57.24847
+	N51.35330, E56.90643
+
+[airport1]
+name = Orsk Airport
+code = UWOR
+runways =
+	rwy1, 01, N51.073, E58.5829, 16.5, 1980, 0, 0, 0
+	rwy2, 07, N51.0695, E58.5754, 76.7, 9550, 0, 0, 909
+	rwy3, 07R, N51.071, E58.5914, 76.7, 5840, 0, 0, 0
+	rwy4, 16, N51.0782, E58.5853, 172.0, 2030, 0, 0, 0

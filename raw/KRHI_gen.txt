@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1624
+usa = true
+transition = 18001
+center = N45.6311988831, W89.4674987793
+magneticvar = -1.257
+beacons =
+	RHI, N45.63380, W89.45780, 0, Rhinelander
+	RH, N45.62810, W89.61890, 0, Arsha
+	DO, N45.83450, W89.73040, 0, Dougy
+	EGV, N45.93270, W89.26320, 0, Eagle River
+	ARV, N45.92680, W89.72850, 0, Arbor Vitae
+	RRL, N45.19860, W89.70430, 0, Merrill
+	AIG, N45.15860, W89.11380, 0, Antigo
+	LNL, N46.14970, W89.21050, 0, Land O Lakes
+	MHA, N46.12300, W89.88270, 0, Manitowish
+	PBH, N45.70330, W90.41290, 0, Phillips
+	FZK, N44.92780, W89.62530, 0, Wausau
+	PKF, N45.95310, W90.42610, 0, Park Falls
+	AUW, N44.84680, W89.58660, 0, Wausau
+	MDZ, N45.10540, W90.30870, 0, Medford
+
+line1 =
+	N44.69233, W87.99780
+	N44.76372, W87.95156
+	N44.88037, W87.85679
+	N44.90830, W87.85356
+	N44.94248, W87.83027
+
+line2 =
+	N46.60249, W90.34136
+	N46.58413, W90.46885
+	N46.59937, W90.53613
+
+line3 =
+	N46.60308, W90.92300
+	N46.61899, W90.94351
+
+[airport1]
+name = Rhinelander Oneida County Airport
+code = KRHI
+runways =
+	rwy1, 05, N45.6255, W89.4701, 52.7, 5600, 0, 0, 1607
+	rwy2, 09, N45.6303, W89.4866, 88.3, 6800, 0, 0, 1623
+	rwy3, 15, N45.6373, W89.4633, 148.0, 4504, 0, 0, 1598

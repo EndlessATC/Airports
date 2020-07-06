@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 738
+metric = true
+center = N50.2458, E57.206699
+magneticvar = 9.445
+beacons =
+	AKB, N50.26310, E57.18390, 0, Aktyubinsk
+	TU, N50.21110, E57.26070, 0, Aktyubinsk Lom
+	AT, N50.28090, E57.15230, 0, Aktyubinsk Lom
+
+line1 =
+	N51.20127, E58.52710
+	N51.14933, E58.32464
+	N51.10639, E58.20929
+	N51.07244, E58.18118
+	N51.06887, E58.04517
+	N51.09580, E57.80126
+	N51.16453, E57.53569
+
+[airport1]
+name = Aktobe Airport
+code = UATT
+runways =
+	rwy1, 13, N50.2555, E57.1918, 135.0, 10160, 0, 0, 719

@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5709
+center = N20.546, W100.887001
+magneticvar = 6.514
+beacons =
+	QET, N20.61750, W100.19400, 0, Queretaro
+	MLM, N19.84380, W101.03700, 0, Morelia
+	BJX, N20.99730, W101.48300, 0, Leon
+
+[airport1]
+name = Captain Rogelio Castillo National Airport
+code = MMCY
+runways =
+	rwy1, 08, N20.5467, W100.896, 95.0, 6284, 0, 0, 0

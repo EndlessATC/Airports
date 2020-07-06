@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 336
+usa = true
+transition = 18001
+center = N36.7761993408, W119.718002319
+magneticvar = 14.030
+beacons =
+	FCH, N36.72390, W119.83400, 0, Chandler
+	CZQ, N36.88430, W119.81500, 0, Clovis
+	FRA, N37.10440, W119.59500, 0, Friant
+	VIS, N36.36730, W119.48200, 0, Visalia
+	NLC, N36.34410, W119.96600, 0, Lemoore
+	VI, N36.25480, W119.31500, 0, Vilia
+	HYP, N37.21940, W120.40000, 0, El Nido
+	ROM, N36.14040, W120.66500, 0, Priest
+
+line1 =
+	N37.05742, W119.60303
+	N37.05083, W119.59805
+	N37.03096, W119.60303
+	N37.00781, W119.64102
+	N36.99956, W119.69312
+	N37.02764, W119.67163
+	N37.04585, W119.62285
+	N37.05742, W119.60303
+	N37.05742, W119.60303
+	N37.05742, W119.60303
+
+line2 =
+	N37.00043, W119.69791
+	N37.06234, W119.60081
+
+line3 =
+	N37.00043, W119.69796
+	N36.89661, W119.77966
+	N36.84307, W119.93957
+	N36.80520, W120.20488
+	N36.86558, W120.39309
+	N37.02415, W120.50419
+	N37.11820, W120.60470
+	N37.14766, W120.69462
+	N37.28470, W120.85569
+
+line4 =
+	N37.09598, W118.73673
+	N37.20321, W118.80819
+	N37.41214, W119.10769
+	N37.44107, W119.15321
+	N37.45596, W119.18794
+	N37.43777, W119.22267
+	N37.40542, W119.24613
+	N37.25266, W119.32333
+	N37.16709, W119.40395
+	N37.14874, W119.48795
+	N37.12032, W119.54763
+	N37.06249, W119.60073
+
+[airport1]
+name = Fresno Yosemite International Airport
+code = KFAT
+runways =
+	rwy1, 11L, N36.7835, W119.729, 125.4, 9217, 0, 312, 333
+	rwy2, 11R, N36.782, W119.73, 125.0, 7205, 1448, 0, 331

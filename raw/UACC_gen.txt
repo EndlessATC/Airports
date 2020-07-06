@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1165
+metric = true
+center = N51.0222015381, E71.4669036865
+magneticvar = 9.193
+beacons =
+	AST, N51.00110, E71.43420, 0, Astana
+	AK, N51.06000, E71.52610, 0, Astana
+	MO, N50.98420, E71.40780, 0, Astana
+
+[airport1]
+name = Astana International Airport
+code = UACC
+runways =
+	rwy1, 04, N51.011, E71.4496, 44.7, 11484, 0, 0, 1165

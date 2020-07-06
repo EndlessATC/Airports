@@ -1,0 +1,76 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 984
+usa = true
+transition = 18001
+center = N41.3032, W95.894096
+magneticvar = 2.519
+beacons =
+	OM, N41.36690, W95.95640, 0, Gerfi
+	PP, N41.40170, W95.89330, 0, Flick
+	EN, N41.21960, W95.81790, 0, Rikky
+	OVR, N41.16730, W95.73670, 0, Omaha
+	OFF, N41.11720, W95.90000, 0, Offutt
+	MLE, N41.19490, W96.11400, 0, Millard
+	PMV, N40.94380, W95.91250, 0, Plattsmouth
+	HNR, N41.57910, W95.34060, 0, Harlan
+	TQE, N41.75960, W96.17860, 0, Tekamah
+	AHQ, N41.23920, W96.59840, 0, Wahoo
+	RDK, N41.01610, W95.25330, 0, Red Oak
+	SCB, N41.60530, W96.62860, 0, Scribner
+	AIO, N41.40400, W95.04630, 0, Atlantic
+	SDA, N40.75170, W95.40750, 0, Shenandoah
+	AFK, N40.60560, W95.86080, 0, Nebraska City
+	LNK, N40.92380, W96.74200, 0, Lincoln
+	DNS, N41.98400, W95.37940, 0, Denison
+	ADU, N41.69030, W94.91000, 0, Audubon
+	LN, N40.74710, W96.76240, 0, Potts
+	ICL, N40.72670, W95.02750, 0, Clarinda
+	CEK, N40.62410, W96.92760, 0, Crete
+	CIN, N42.04500, W94.78520, 0, Carroll
+
+line1 =
+	N42.26013, W96.35610
+	N42.13291, W96.29533
+	N42.03612, W96.20138
+	N41.96529, W96.15420
+	N41.92044, W96.15376
+	N41.87243, W96.13123
+	N41.82138, W96.08664
+	N41.73433, W96.06881
+	N41.61128, W96.07777
+	N41.54578, W96.05863
+	N41.53788, W96.01140
+	N41.52049, W95.99096
+	N41.49364, W95.99736
+	N41.47380, W95.98158
+	N41.46093, W95.94357
+	N41.42546, W95.93298
+	N41.36742, W95.94972
+	N41.33099, W95.93602
+	N41.31616, W95.89194
+	N41.28756, W95.88363
+	N41.24518, W95.91117
+	N41.21196, W95.90691
+	N41.18782, W95.87089
+	N41.08034, W95.84660
+	N40.88949, W95.83402
+	N40.77774, W95.83815
+	N40.74511, W95.85900
+	N40.67617, W95.82611
+	N40.57086, W95.73955
+	N40.46637, W95.68470
+	N40.36276, W95.66157
+
+[airport1]
+name = Eppley Airfield
+code = KOMA
+runways =
+	rwy1, 14L, N41.3135, W95.9004, 144.4, 8500, 0, 0, 982
+	rwy2, 14R, N41.3138, W95.9061, 144.4, 9502, 0, 0, 983
+	rwy3, 18, N41.3134, W95.8945, 180.0, 8153, 140, 0, 981

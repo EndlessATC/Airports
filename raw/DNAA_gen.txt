@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1123
+center = N9.00679016113, E7.26316976547
+magneticvar = -2.059
+beacons =
+	AG, N9.02804, E7.27704, 0, Abuja
+	ABC, N9.03780, E7.28510, 0, Abuja
+	MNA, N9.64317, E6.44973, 0, Minna
+
+line1 =
+	N8.74246, E6.15873
+	N8.71017, E6.29133
+	N8.62844, E6.38460
+	N8.49734, E6.43845
+	N8.37724, E6.52118
+	N8.26813, E6.63270
+	N8.14436, E6.71590
+
+[airport1]
+name = Nnamdi Azikiwe International Airport
+code = DNAA
+runways =
+	rwy1, 04, N8.99344, E7.25374, 35.0, 11842, 0, 0, 1087

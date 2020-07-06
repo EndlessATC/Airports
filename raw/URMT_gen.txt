@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1486
+center = N45.1091995239, E42.1128005981
+magneticvar = 6.264
+beacons =
+	OP, N45.09830, E42.05000, 0, Stavropol
+	KT, N45.12170, E42.18170, 0, Stavropol
+	SN, N44.59170, E42.66670, 0, Sultanskoye
+
+[airport1]
+name = Stavropol Shpakovskoye Airport
+code = URMT
+runways =
+	rwy1, 07, N45.1064, E42.0966, 76.1, 8631, 0, 0, 1486

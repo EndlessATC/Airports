@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 266
+center = N55.0374984741, W1.69166994095
+magneticvar = -3.185
+beacons =
+	NEW, N55.03840, W1.69837, 0, Newcastle
+	NT, N55.05040, W1.64268, 0, Newcastle
+	TD, N54.56030, W1.33344, 0, Teesside
+	LEE, N54.29710, W1.53687, 0, Leeming
+
+line1 =
+	N56.02764, W3.36226
+	N56.03281, W3.48042
+
+line2 =
+	N56.01602, W3.60781
+	N55.95195, W3.04873
+	N55.95859, W3.01509
+	N56.02627, W2.83687
+	N56.02729, W2.59932
+	N55.90298, W2.14707
+	N55.80796, W2.01685
+	N55.67173, W1.83027
+	N55.61855, W1.72876
+	N55.57036, W1.65537
+	N55.49810, W1.61016
+	N55.25952, W1.52256
+	N55.02642, W1.42266
+	N54.77388, W1.29175
+	N54.70371, W1.23242
+	N54.65449, W1.15439
+	N54.54141, W0.75933
+	N54.50391, W0.67139
+	N54.39512, W0.51812
+	N54.27920, W0.37036
+	N54.19014, W0.23286
+	N54.11807, W0.08437
+	N54.08062, W0.15630
+
+line3 =
+	N54.04385, W2.86240
+	N54.13530, W2.84648
+	N54.17725, W2.86758
+	N54.17051, W2.99351
+	N54.15342, W3.05474
+	N54.12632, W3.10967
+	N54.12793, W3.16597
+	N54.22910, W3.32153
+	N54.30562, W3.41025
+	N54.46758, W3.56938
+	N54.56436, W3.59204
+	N54.77310, W3.46460
+	N54.90659, W3.26792
+	N54.95308, W3.03623
+	N54.96196, W3.08105
+	N54.96377, W3.43408
+	N54.94741, W3.55044
+	N54.89287, W3.65830
+	N54.87612, W3.71924
+
+[airport1]
+name = Newcastle Airport
+code = EGNT
+runways =
+	rwy1, 07, N55.0335, W1.70634, 65.0, 7642, 394, 446, 263

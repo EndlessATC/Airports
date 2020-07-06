@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 84
+center = N14.1038999557, E98.2035980225
+magneticvar = -0.404
+beacons =
+	DWI, N14.09820, E98.19970, 0, Dawei
+	DWI, N14.11540, E98.20300, 0, Dawei
+
+line1 =
+	N13.20225, E98.26533
+	N13.18857, E98.25459
+	N13.10439, E98.25078
+
+line2 =
+	N13.15166, E98.29863
+	N13.18936, E98.26855
+	N13.20225, E98.26533
+
+line3 =
+	N14.85894, E97.81230
+	N14.73872, E97.86914
+	N14.76392, E97.93652
+	N14.65259, E98.01875
+	N14.69556, E97.92930
+	N14.65269, E97.90977
+	N14.46147, E97.97656
+	N14.33530, E97.99844
+	N14.16152, E98.10020
+	N13.98647, E98.07266
+	N13.89834, E98.09824
+	N13.71289, E98.11064
+	N13.64761, E98.14951
+	N13.98018, E98.20039
+	N13.93447, E98.23896
+	N13.84038, E98.24844
+	N13.73350, E98.24541
+	N13.48379, E98.42129
+	N13.29307, E98.48711
+	N13.16191, E98.57598
+
+[airport1]
+name = Dawei Airport
+code = VYDW
+runways =
+	rwy1, 16, N14.1128, E98.1997, 157.0, 7005, 0, 0, 84

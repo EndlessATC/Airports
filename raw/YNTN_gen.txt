@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 73
+usa = true
+center = S17.68409, E141.069664
+magneticvar = 6.099
+beacons =
+	NTN, S17.69580, E141.07300, 0, Normanton
+
+line1 =
+	S17.61133, E139.89453
+	S17.65361, E139.94600
+	S17.70264, E140.03584
+	S17.70439, E140.20967
+	S17.62451, E140.51113
+	S17.54375, E140.64844
+	S17.41445, E140.83047
+	S17.19258, E140.91582
+	S17.01455, E140.96602
+
+[airport1]
+name = Normanton Airport
+code = YNTN
+runways =
+	rwy1, 14, S17.6808, E141.067, 146.0, 5499, 0, 0, 28

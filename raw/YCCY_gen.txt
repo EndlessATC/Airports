@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 616
+usa = true
+center = S20.6686000824, E140.503997803
+magneticvar = 6.266
+beacons =
+	CCY, S20.66560, E140.50101, 0, Cloncurry
+
+[airport1]
+name = Cloncurry Airport
+code = YCCY
+runways =
+	rwy1, 06, S20.6703, E140.499, 68.0, 3796, 0, 0, 611
+	rwy2, 12, S20.6602, E140.5, 128.0, 6562, 0, 0, 612

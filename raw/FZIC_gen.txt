@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1417
+center = N0.481638997793, E25.3379993439
+magneticvar = 0.099
+beacons =
+	KIS, N0.46397, E25.35010, 0, Bangoka
+	KGI, N0.49258, E25.31340, 0, Bangoka
+
+line1 =
+	N0.78171, E24.29230
+	N0.92372, E24.17819
+
+line2 =
+	S0.38597, E25.44349
+	S0.20448, E25.52524
+	S0.03560, E25.55361
+	N0.12066, E25.52860
+	N0.23549, E25.48943
+	N0.34566, E25.40944
+	N0.45925, E25.25534
+	N0.50746, E25.13638
+	N0.53857, E24.93360
+	N0.57681, E24.79077
+	N0.62797, E24.69020
+	N0.70476, E24.58427
+	N0.75277, E24.47161
+	N0.78171, E24.29230
+
+[airport1]
+name = Bangoka International Airport
+code = FZIC
+runways =
+	rwy1, 13, N0.490667, E25.3251, 125.0, 11483, 0, 0, 1407

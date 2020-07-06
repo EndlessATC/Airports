@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 186
+center = S20.430201, E57.683601
+magneticvar = -18.345
+beacons =
+	MS, S20.44020, E57.69080, 0, Plaisance
+	PLS, S20.42000, E57.66230, 0, Plaisance
+	FF, S20.28160, E57.37170, 0, Flic -eE --lFc
+	GBY, S20.01470, E57.60140, 0, Grand Bay
+
+line1 =
+	S20.09844, E57.73721
+	S19.98994, E57.65654
+	S19.99717, E57.57578
+	S20.05596, E57.51504
+	S20.14395, E57.48643
+	S20.18379, E57.41602
+	S20.22861, E57.38574
+	S20.33760, E57.36211
+	S20.40645, E57.36514
+	S20.42764, E57.31768
+	S20.45000, E57.32832
+	S20.50371, E57.38330
+	S20.51318, E57.52480
+	S20.48486, E57.65127
+	S20.43486, E57.70664
+	S20.36885, E57.72500
+	S20.32695, E57.78066
+	S20.21260, E57.79199
+	S20.09844, E57.73721
+
+[airport1]
+name = Sir Seewoosagur Ramgoolam International Airport
+code = FIMP
+runways =
+	rwy1, 14, S20.4233, E57.6693, 117.1, 11056, 1082, 0, 183

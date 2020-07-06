@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 56
+usa = true
+center = S17.9447002411, E122.232002258
+magneticvar = 2.289
+beacons =
+	BRM, S17.94640, E122.23500, 0, Broome
+
+line1 =
+	S18.91514, E121.58945
+	S18.81660, E121.63066
+	S18.65996, E121.72197
+	S18.53594, E121.78486
+	S18.47705, E121.83379
+	S18.39365, E122.00625
+	S18.15908, E122.26211
+	S18.11191, E122.34541
+	S18.03691, E122.36094
+	S17.99492, E122.30576
+	S17.96855, E122.23740
+	S17.72031, E122.19131
+	S17.54902, E122.14746
+	S17.42842, E122.14316
+	S17.31367, E122.16025
+	S17.13574, E122.26094
+	S17.05938, E122.33271
+	S16.97041, E122.43203
+
+line2 =
+	S17.03682, E123.26592
+	S17.29277, E123.38320
+
+[airport1]
+name = Broome International Airport
+code = YBRM
+runways =
+	rwy1, 10, S17.9456, E122.216, 105.0, 8064, 295, 689, 56

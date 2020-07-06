@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2582
+center = S3.32401990891, E29.3185005188
+magneticvar = 0.016
+beacons =
+	BJA, S3.34634, E29.32200, 0, Bujumbura
+	BN, S3.24850, E29.30630, 0, Bujumbura
+	KW, S3.13217, E29.28850, 0, Bujumbura
+	RG, S2.91651, E29.51870, 0, Rwegura
+	GI, S3.41962, E29.91470, 0, Gitega
+	DO, S2.54577, E30.10420, 0, Kirundo
+
+line1 =
+	S2.34492, E29.07666
+	S2.35537, E29.04746
+	S2.36006, E28.99453
+	S2.43281, E28.91025
+	S2.44785, E28.85029
+	S2.37148, E28.85664
+
+line2 =
+	S2.98437, E29.59347
+	S3.04710, E29.82663
+	S3.09082, E29.90110
+	S3.13660, E29.89459
+	S3.15965, E29.90870
+	S3.16017, E29.94332
+	S3.18415, E29.97577
+	S3.25556, E30.02114
+	S3.31468, E29.99045
+	S3.34465, E29.99029
+	S3.36501, E30.01045
+	S3.31540, E30.10496
+	S3.19562, E30.27374
+	S3.08767, E30.39063
+	S2.99150, E30.45543
+	S2.92039, E30.46975
+	S2.87450, E30.43347
+	S2.82407, E30.42401
+	S2.76908, E30.44127
+
+[airport1]
+name = Bujumbura International Airport
+code = HBBA
+runways =
+	rwy1, 17, S3.30799, E29.316, 172.0, 11811, 0, 0, 2582

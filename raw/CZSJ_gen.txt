@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 951
+usa = true
+transition = 18001
+center = N53.064201355, W93.3443984985
+magneticvar = 0.539
+beacons =
+	ZSJ, N53.06840, W93.34460, 0, Sandy Lake
+	YVZ, N52.64890, W94.05710, 0, Deer Lake
+	IV, N53.85340, W94.65330, 0, Island Lake
+	YIV, N53.85390, W94.65330, 0, Island Lake
+
+line1 =
+	N53.73442, W94.23628
+	N53.73013, W94.35083
+	N53.71958, W94.44570
+	N53.70962, W94.51763
+	N53.71318, W94.55264
+	N53.73345, W94.68193
+	N53.78569, W94.85518
+	N53.82666, W94.93335
+	N53.85928, W94.94863
+	N53.90239, W94.93794
+	N53.93311, W94.93335
+	N53.94551, W94.88936
+	N53.95596, W94.85146
+	N53.97549, W94.82241
+	N53.98901, W94.75376
+	N53.98623, W94.63408
+	N53.97168, W94.60142
+	N53.94531, W94.62075
+	N53.91528, W94.68560
+	N53.89692, W94.68926
+	N53.87598, W94.65425
+	N53.85845, W94.59014
+	N53.86411, W94.47661
+	N53.87437, W94.34595
+	N53.88257, W94.22935
+	N53.89214, W94.13076
+	N53.88223, W94.04775
+	N53.84663, W94.00215
+	N53.79849, W94.01396
+	N53.75879, W94.10273
+	N53.74170, W94.17964
+	N53.73442, W94.23628
+	N53.73442, W94.23628
+	N53.73442, W94.23628
+	N53.73442, W94.23628
+
+[airport1]
+name = Sandy Lake Airport
+code = CZSJ

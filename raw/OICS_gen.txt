@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4522
+center = N35.2458992004, E47.0092010498
+magneticvar = 4.078
+beacons =
+	SNJ, N35.23890, E47.00780, 0, Sanandaj
+	SNJ, N35.26370, E47.00930, 0, Sanandaj
+
+[airport1]
+name = Sanandaj Airport
+code = OICS
+runways =
+	rwy1, 01, N35.2346, E47.0047, 18.0, 8660, 0, 0, 4479

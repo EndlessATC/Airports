@@ -1,0 +1,80 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 177
+center = N30.9176998138, E29.6963996887
+magneticvar = 3.200
+beacons =
+	D, N30.89830, E29.71250, 0, Inner Beacon
+	DJ, N30.87670, E29.73170, 0, Borg El Arab
+	NOZ, N31.18767, E29.95071, 0, Alexandria
+	AXD, N31.19490, E29.95250, 0, Alexandria
+
+line1 =
+	N31.59155, E31.05195
+	N31.50757, E31.03086
+	N31.46279, E31.00176
+	N31.43989, E30.84141
+	N31.40386, E30.70049
+	N31.41699, E30.56299
+	N31.52236, E30.88418
+	N31.56685, E30.92354
+	N31.47300, E30.57100
+	N31.45762, E30.39512
+	N31.40273, E30.34375
+	N31.35703, E30.31230
+	N31.31685, E30.26230
+	N31.25840, E30.22266
+	N31.25566, E30.12754
+	N31.26543, E30.04941
+	N31.22749, E29.92979
+	N31.01152, E29.59160
+	N30.92744, E29.42852
+	N30.86694, E29.27891
+	N30.83457, E29.15996
+	N30.83027, E29.07207
+	N30.85674, E28.97275
+	N30.94268, E28.80693
+	N31.05044, E28.51484
+
+line2 =
+	N30.19240, E31.05250
+	N30.24544, E30.97246
+	N30.30588, E30.93535
+	N30.33549, E30.89582
+	N30.35437, E30.85479
+	N30.38414, E30.85810
+	N30.47067, E30.84817
+	N30.66645, E30.78596
+	N30.78003, E30.77019
+	N30.81078, E30.78534
+	N30.84385, E30.77211
+	N30.86613, E30.76208
+	N30.94436, E30.76301
+	N31.01061, E30.74735
+	N31.06487, E30.71521
+	N31.11810, E30.65563
+	N31.17024, E30.56871
+	N31.22926, E30.52344
+	N31.29509, E30.51982
+	N31.35685, E30.48820
+	N31.45762, E30.39508
+
+[airport1]
+name = Borg El Arab International Airport
+code = HEBA
+runways =
+	rwy1, 14, N30.9304, E29.6851, 142.8, 11156, 0, 0, 177
+	rwy2, 14R, N30.9183, E29.6792, 142.6, 1347, 0, 0, 0
+	rwy3, 14S, N30.9047, E29.6915, 142.8, 1347, 0, 0, 0
+
+[airport2]
+name = El Nouzha Airport
+code = AX
+runways =
+	rwy4, 04, N31.1747, E29.9381, 45.1, 7221, 0, 0, -8
+inboundbeacon = NOZ

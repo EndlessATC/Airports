@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 228
+center = N41.2481002808, W8.68138980865
+magneticvar = -3.416
+beacons =
+	PRT, N41.27310, W8.68778, 0, Porto
+	POR, N41.34810, W8.70806, 0, Porto
+	PG, N41.07810, W8.63667, 0, Porto
+	OVR, N40.88700, W8.64335, 0, Ovar
+	VR, N41.21530, W7.74389, 0, Vila Real
+	VIS, N40.72330, W7.88583, 0, Viseu
+
+line1 =
+	N42.21060, W8.77246
+	N42.10527, W8.88721
+	N41.94687, W8.87832
+	N41.92690, W8.85234
+	N41.94106, W8.77715
+	N41.83208, W8.87822
+	N41.76460, W8.88760
+	N41.70518, W8.84639
+	N41.69839, W8.75542
+	N41.65195, W8.81084
+	N41.56001, W8.80566
+	N41.28467, W8.73838
+	N41.15449, W8.67461
+	N41.08628, W8.65981
+	N41.02949, W8.65557
+	N40.91650, W8.67397
+	N40.75254, W8.68462
+	N40.65093, W8.73159
+	N40.60566, W8.77241
+	N40.25908, W8.87266
+
+line2 =
+	N41.18942, W7.24438
+	N41.18121, W7.65121
+	N41.09183, W8.23481
+	N41.08421, W8.42548
+	N41.12757, W8.55549
+	N41.15449, W8.67461
+
+[airport1]
+name = Francisco de Sá Carneiro Airport
+code = LPPR
+runways =
+	rwy1, 17, N41.2633, W8.68524, 172.8, 11417, 984, 492, 151

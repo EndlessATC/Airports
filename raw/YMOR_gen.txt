@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 701
+usa = true
+center = S29.4988994598, E149.845001221
+magneticvar = 11.022
+beacons =
+	MOR, S29.49730, E149.85201, 0, Moree
+	NBR, S30.32070, E149.83099, 0, Narrabri
+
+line1 =
+	S28.65040, E150.46961
+	S28.56389, E150.34083
+	S28.55810, E150.14952
+	S28.60435, E149.85259
+	S28.61195, E149.67689
+	S28.56539, E149.59493
+	S28.57929, E149.51184
+	S28.60812, E149.46708
+	S28.65660, E149.43308
+	S28.72269, E149.33531
+	S28.80651, E149.17398
+	S28.87483, E149.08147
+	S28.92769, E149.05801
+	S28.98609, E148.99321
+	S29.05001, E148.88717
+	S29.18809, E148.79622
+	S29.40027, E148.72026
+	S29.52786, E148.64098
+	S29.57086, E148.55841
+
+line2 =
+	S28.85126, E151.11815
+	S28.80480, E151.05779
+	S28.75819, E151.04962
+	S28.70998, E150.98250
+	S28.66006, E150.85630
+	S28.63892, E150.71228
+	S28.65040, E150.46961
+
+[airport1]
+name = Moree Airport
+code = YMOR
+runways =
+	rwy1, 01, S29.5063, E149.843, 17.0, 5292, 0, 0, 697
+	rwy2, 05, S29.5008, E149.837, 58.0, 3205, 0, 0, 690

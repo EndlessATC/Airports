@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1165
+center = N43.3222999573, E45.0125999451
+magneticvar = 6.092
+beacons =
+	CH, N43.21500, E44.53830, 0, Vladikavkaz
+
+[airport1]
+name = Magas Airport
+code = URMS
+
+[airport2]
+name = Beslan Airport
+code = MO
+runways =
+	rwy1, 10, N43.2078, E44.5886, 101.5, 9843, 0, 0, 1634
+inboundbeacon = CH

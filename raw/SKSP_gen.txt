@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+center = N12.5836, W81.7112
+magneticvar = -2.055
+beacons =
+	SPP, N12.58220, W81.70560, 0, San Andres
+	SPP, N12.59190, W81.70190, 0, San Andres
+
+[airport1]
+name = Gustavo Rojas Pinilla International Airport
+code = SKSP
+runways =
+	rwy1, 06, N12.5782, W81.7206, 59.3, 7808, 0, 0, 8

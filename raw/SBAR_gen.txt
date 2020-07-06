@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = S10.984000206, W37.0703010559
+magneticvar = -22.589
+beacons =
+	ACJ, S10.98400, W37.07140, 0, Aracaju
+	ACJ, S10.98810, W37.07370, 0, Aracaju
+
+line1 =
+	S11.65361, W37.46934
+	S11.49727, W37.41182
+	S11.39375, W37.43848
+	S11.25254, W37.35923
+	S11.21514, W37.32178
+	S11.26660, W37.32080
+	S11.30986, W37.33164
+	S11.35049, W37.35488
+	S11.40391, W37.35601
+	S11.37598, W37.31514
+	S11.18750, W37.18120
+	S11.06846, W37.18281
+	S11.08496, W37.12549
+	S11.05479, W37.09336
+	S10.82041, W36.93779
+	S10.67168, W36.76831
+	S10.58994, W36.63574
+	S10.48994, W36.41162
+	S10.48408, W36.39834
+	S10.22510, W36.22354
+	S10.07578, W36.05498
+
+line2 =
+	S10.01360, W36.95637
+	S10.08367, W36.93968
+	S10.15370, W36.87978
+	S10.22356, W36.77674
+	S10.25731, W36.69902
+	S10.25488, W36.64672
+	S10.29291, W36.60704
+	S10.37136, W36.57993
+	S10.41058, W36.53846
+	S10.41058, W36.48255
+	S10.43197, W36.44296
+	S10.48995, W36.41160
+
+[airport1]
+name = Santa Maria Airport
+code = SBAR

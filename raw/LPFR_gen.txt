@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 24
+center = N37.0144004822, W7.96590995789
+magneticvar = -3.496
+beacons =
+	VFA, N37.01350, W7.97501, 0, Faro
+	FAR, N37.00870, W7.92593, 0, Faro
+	SGR, N37.08390, W8.94639, 0, Sagres
+
+line1 =
+	N37.95869, W8.87896
+	N37.87187, W8.82266
+	N37.73281, W8.79185
+	N37.59243, W8.81855
+	N37.43081, W8.81416
+	N37.16606, W8.92627
+	N37.03228, W8.99780
+	N37.01602, W8.93535
+	N37.07568, W8.84844
+	N37.07461, W8.73911
+	N37.12134, W8.59766
+	N37.10005, W8.48433
+	N37.07705, W8.13677
+	N37.00542, W7.93970
+	N37.00571, W7.83413
+	N37.16831, W7.49360
+	N37.17944, W7.40615
+	N37.20879, W7.17495
+	N37.19844, W6.97466
+	N37.21494, W6.92949
+	N37.27891, W6.86377
+	N37.24917, W6.85938
+	N37.19424, W6.88462
+
+[airport1]
+name = Faro Airport
+code = LPFR
+runways =
+	rwy1, 10, N37.0173, W7.98609, 100.0, 8169, 148, 148, 24

@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 869
+center = N24.2616996765, E55.6091995239
+magneticvar = 1.176
+beacons =
+	ALN, N24.25980, E55.60640, 0, Al Ain
+	AIN, N24.24860, E55.60430, 0, Al Ain
+
+line1 =
+	N24.33457, E56.77412
+	N24.47031, E56.64062
+	N24.71636, E56.48984
+	N24.97920, E56.38799
+	N25.01831, E56.37285
+
+line2 =
+	N25.23682, E55.30352
+	N25.04160, E55.09814
+	N24.81045, E54.74678
+	N24.71553, E54.65898
+	N24.62129, E54.62412
+	N24.56353, E54.58047
+	N24.53096, E54.53467
+	N24.46270, E54.49883
+	N24.35825, E54.45840
+	N24.27817, E54.39707
+
+line3 =
+	N24.47104, E54.42656
+	N24.50635, E54.39834
+	N24.50459, E54.37891
+	N24.47104, E54.33477
+	N24.44277, E54.35771
+	N24.42510, E54.42842
+	N24.42334, E54.45664
+	N24.44277, E54.46543
+	N24.47104, E54.42656
+
+[airport1]
+name = Al Ain International Airport
+code = OMAL
+runways =
+	rwy1, 01, N24.2438, E55.6066, 7.0, 13123, 0, 0, 869

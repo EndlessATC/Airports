@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2977
+usa = true
+transition = 18001
+center = N48.3105010986, W114.255996704
+magneticvar = 16.022
+beacons =
+	FCA, N48.21410, W114.17600, 0, Kalispell
+	SAK, N48.10830, W114.46100, 0, Smith Lake
+	LYI, N48.30440, W115.49500, 0, Libby
+	EUR, N48.96390, W115.09200, 0, Eureka
+
+line1 =
+	N47.93262, W114.15562
+	N48.02212, W114.18018
+	N48.03955, W114.19858
+	N48.06934, W114.19312
+	N48.09136, W114.13359
+	N48.01533, W114.04648
+	N47.93423, W114.02437
+	N47.78491, W114.00459
+	N47.75625, W114.02114
+	N47.71104, W114.05640
+	N47.71768, W114.11812
+	N47.71436, W114.15010
+	N47.73984, W114.16328
+	N47.78379, W114.12583
+	N47.81245, W114.14790
+	N47.82568, W114.19312
+	N47.83662, W114.24961
+	N47.85786, W114.25400
+	N47.89072, W114.19419
+	N47.93262, W114.15562
+	N47.93262, W114.15562
+	N47.93262, W114.15562
+
+[airport1]
+name = Glacier Park International Airport
+code = KGPI
+runways =
+	rwy1, 02, N48.2988, W114.268, 35.0, 9007, 0, 0, 2962
+	rwy2, 07, N48.3125, W114.264, 90.0, 3043, 0, 0, 0
+	rwy3, 12, N48.3179, W114.258, 136.0, 3504, 0, 0, 2973

@@ -1,0 +1,76 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 31
+center = N22.5771007538, E120.349998474
+magneticvar = -2.545
+beacons =
+	SK, N22.57780, E120.32600, 0, Sk
+	PIT, N22.67070, E120.46000, 0, Pingtung South
+	TWS, N22.94990, E120.20500, 0, Tainan
+	MR, N22.97830, E120.29000, 0, Kueijen
+	NN, N23.12470, E120.20200, 0, Shikang
+	TNN, N23.13560, E120.20600, 0, Shikang
+	KT, N22.04380, E120.73100, 0, Hengchun
+	KTG, N22.04380, E120.73100, 0, Hengchun
+	ZN, N22.75990, E121.15900, 0, Taitung
+	KW, N21.93170, E120.83900, 0, Hengchun
+	HCN, N21.92810, E120.84400, 0, Hengchun
+
+line1 =
+	N23.52661, E120.12539
+	N23.39907, E120.14297
+	N23.30518, E120.12119
+	N23.21206, E120.08555
+	N23.14976, E120.07246
+	N23.09370, E120.08340
+	N23.03701, E120.12158
+	N22.97490, E120.15010
+	N22.71792, E120.23281
+	N22.62744, E120.27285
+	N22.54243, E120.32559
+	N22.54761, E120.31621
+	N22.48452, E120.38760
+	N22.44189, E120.47979
+	N22.35640, E120.58125
+	N22.31255, E120.60762
+	N22.15967, E120.67803
+	N22.03311, E120.69014
+	N21.95601, E120.74277
+	N21.92500, E120.83984
+	N22.03267, E120.86426
+	N22.14155, E120.87842
+	N22.26221, E120.87734
+	N22.37915, E120.89736
+	N22.50308, E120.94688
+	N22.62036, E121.00879
+	N22.77637, E121.16123
+	N22.96660, E121.29590
+	N23.06729, E121.35225
+	N23.17251, E121.39746
+	N23.42407, E121.47715
+
+[airport1]
+name = Kaohsiung International Airport
+code = RCKH
+runways =
+	rwy1, 09, N22.5776, E120.335, 91.9, 10335, 525, 1477, 20
+
+[airport2]
+name = Pingtung North Airport
+code = SQ
+runways =
+	rwy4, 08, N22.6977, E120.471, 78.0, 8012, 0, 0, 84
+inboundbeacon = PIT
+
+[airport3]
+name = Tainan Airport
+code = NN
+runways =
+	rwy2, 18L, N22.9643, E120.207, 178.7, 10007, 0, 0, 63
+	rwy3, 18R, N22.9641, E120.204, 178.6, 10007, 0, 0, 56
+inboundbeacon = TWS

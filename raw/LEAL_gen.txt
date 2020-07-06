@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 142
+center = N38.2821998596, W0.558156013489
+magneticvar = -1.190
+beacons =
+	ALT, N38.26830, W0.57011, 0, Alicante
+	ATE, N38.28610, W0.58660, 0, Alicante
+	VSJ, N37.77990, W0.81289, 0, Murcia/San Javier
+	VSJ, N37.77980, W0.81278, 0, Murcia/San Javier
+	O, N37.76180, W0.82906, 0, Murcia/San Javier
+	TRL, N37.95110, W1.22917, 0, Alcantarilla
+	ATR, N37.94990, W1.23042, 0, Alcantarilla
+	LCZ, N37.67630, W0.93928, 0, Murcia/San Javier
+
+line1 =
+	N37.38696, W1.64097
+	N37.56113, W1.32754
+	N37.57134, W0.93809
+	N37.58076, W0.82217
+	N37.59624, W0.77187
+	N37.63105, W0.72158
+	N37.71162, W0.82310
+	N37.76992, W0.81465
+	N37.85024, W0.75273
+	N37.88613, W0.74155
+	N37.99204, W0.68320
+	N38.15186, W0.64678
+	N38.20312, W0.55068
+	N38.31729, W0.52080
+	N38.43564, W0.38125
+	N38.58569, W0.05273
+	N38.69678, E0.13633
+	N38.75918, E0.20156
+	N38.82466, E0.15488
+	N38.89121, W0.03413
+	N38.96948, W0.13379
+	N39.06260, W0.20493
+
+[airport1]
+name = Alicante International Airport
+code = LEAL
+runways =
+	rwy1, 10, N38.2845, W0.574997, 99.7, 9842, 0, 0, 142

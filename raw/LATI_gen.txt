@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 126
+center = N41.4146995544, E19.7206001282
+magneticvar = 3.101
+beacons =
+	TRN, N41.41610, E19.71820, 0, Tirana
+	TR, N41.41830, E19.71170, 0, Tr
+	TR, N41.46320, E19.71410, 0, Tirana
+	OHR, N41.17240, E20.73640, 0, Ohrid
+	IZD, N41.34280, E20.82060, 0, Ohrid
+
+line1 =
+	N42.39839, E18.61904
+	N42.37808, E18.63291
+	N42.24946, E18.89424
+	N42.06050, E19.12227
+	N41.94863, E19.18643
+	N41.86909, E19.34238
+	N41.85615, E19.46826
+	N41.78750, E19.57754
+	N41.64043, E19.57568
+	N41.59683, E19.54580
+	N41.56270, E19.49736
+	N41.42476, E19.44063
+	N41.32100, E19.45342
+	N41.23638, E19.48008
+	N41.10605, E19.45605
+	N40.93330, E19.46123
+	N40.79072, E19.38389
+	N40.66382, E19.33750
+	N40.62207, E19.34463
+	N40.47026, E19.43926
+
+[airport1]
+name = Tirana International Airport Mother Teresa
+code = LATI
+runways =
+	rwy1, 17, N41.427, E19.7189, 174.0, 9022, 0, 0, 109

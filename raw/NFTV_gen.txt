@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 236
+center = S18.5853004456, W173.962005615
+magneticvar = 12.391
+beacons =
+	TV, S18.58560, W173.97000, 0, Vavau
+
+line1 =
+	S18.64023, W174.06914
+	S18.66338, W174.05312
+	S18.69775, W174.00933
+	S18.69863, W173.99131
+	S18.63936, W173.95352
+	S18.60850, W173.92397
+	S18.58857, W173.92188
+	S18.56533, W173.96807
+	S18.57070, W174.00244
+	S18.64023, W174.06914
+
+[airport1]
+name = Vava'u International Airport
+code = NFTV
+runways =
+	rwy1, 08, S18.5843, W173.97, 96.2, 5593, 980, 1655, 221

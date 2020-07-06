@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 91
+center = N9.49891, E138.082993
+magneticvar = 1.090
+beacons =
+	YP, N9.48560, E138.08000, 0, Yap
+
+line1 =
+	N9.49458, E138.08506
+	N9.44575, E138.06191
+	N9.41904, E138.06709
+	N9.50068, E138.14268
+	N9.50737, E138.18252
+	N9.54722, E138.21357
+	N9.59331, E138.18584
+	N9.58359, E138.14697
+	N9.55020, E138.11689
+	N9.49458, E138.08506
+
+[airport1]
+name = Yap International Airport
+code = PTYA
+runways =
+	rwy1, 07, N9.49631, E138.075, 72.0, 6000, 0, 0, 91

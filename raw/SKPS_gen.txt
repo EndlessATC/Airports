@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5951
+center = N1.39625, W77.2915
+magneticvar = -3.004
+beacons =
+	PSO, N1.39799, W77.28990, 0, Pasto
+	PSO, N1.39493, W77.28920, 0, Pasto
+	MER, N1.78833, W77.15080, 0, Mercaderes
+	IPI, N0.85920, W77.67320, 0, Ipiales
+	SLI, N0.85599, W77.67500, 0, San Luis
+	TLC, N0.82389, W77.68720, 0, Tulcan
+	ORI, N0.66667, W76.81670, 0, Orito
+
+line1 =
+	N1.32982, W76.53315
+	N1.13910, W76.53581
+	N1.05709, W76.50796
+	N1.00175, W76.42161
+	N0.97953, W76.26286
+	N0.98774, W76.14496
+
+line2 =
+	N1.94267, W76.50734
+	N1.89609, W76.28126
+	N1.89751, W76.17878
+
+[airport1]
+name = Antonio Narino Airport
+code = SKPS
+runways =
+	rwy1, 02, N1.3862, W77.2943, 16.0, 7585, 200, 170, 5840

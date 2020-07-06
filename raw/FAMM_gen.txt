@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4181
+center = S25.7984008789, E25.5480003357
+magneticvar = -16.382
+beacons =
+	MMV, S25.82590, E25.53510, 0, Mafikeng
+	MH, S25.74140, E25.57500, 0, Mafikeng
+
+[airport1]
+name = Mmabatho International Airport
+code = FAMM
+runways =
+	rwy1, 04, S25.8176, E25.539, 23.0, 15157, 197, 197, 4172

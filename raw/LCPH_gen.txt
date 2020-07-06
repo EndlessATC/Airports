@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 41
+center = N34.7179985046, E32.4856987
+magneticvar = 3.515
+beacons =
+	PHA, N34.71830, E32.47830, 0, Pafos
+	PHA, N34.73510, E32.48420, 0, Pafos
+	PHA, N34.71170, E32.50670, 0, Pafos
+	AKR, N34.57940, E32.96280, 0, Akrotiri
+
+line1 =
+	N35.35415, E33.60762
+	N35.33589, E33.45879
+	N35.34150, E33.30781
+	N35.35820, E33.12344
+	N35.39043, E32.94160
+	N35.27808, E32.92637
+	N35.18057, E32.87988
+	N35.15957, E32.77236
+	N35.17104, E32.71270
+	N35.18267, E32.65234
+	N35.15576, E32.55596
+	N35.08999, E32.47500
+	N35.04980, E32.39092
+	N35.08296, E32.30098
+	N34.95332, E32.31719
+	N34.77803, E32.41377
+	N34.72944, E32.44902
+	N34.70625, E32.50557
+	N34.64937, E32.69297
+	N34.64780, E32.75010
+	N34.66113, E32.86719
+	N34.63550, E32.91426
+	N34.57588, E32.94180
+	N34.56958, E33.00791
+	N34.60000, E33.02393
+	N34.63691, E33.02490
+	N34.67480, E33.06230
+	N34.69556, E33.11553
+	N34.69805, E33.17607
+	N34.71772, E33.29658
+	N34.75088, E33.41494
+	N34.80645, E33.51445
+	N34.96987, E33.69941
+	N34.97324, E33.75898
+	N34.96592, E33.82246
+
+[airport1]
+name = Paphos International Airport
+code = LCPH
+runways =
+	rwy1, 11, N34.7223, E32.4719, 110.0, 8858, 0, 0, 41

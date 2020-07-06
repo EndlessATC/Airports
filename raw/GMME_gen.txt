@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 276
+center = N34.051498, W6.75152
+magneticvar = -3.160
+beacons =
+	RBT, N34.05000, W6.74639, 0, Rabat
+	SBI, N34.17640, W6.66428, 0, Rabat
+	CNL, N34.28720, W6.62056, 0, Kenitra
+	CAE, N33.61580, W7.11333, 0, Ben Slimane
+	BNS, N33.64180, W7.20800, 0, Ben Slimane
+	SMN, N34.23250, W6.05056, 0, Sidi Slimane
+	CBA, N33.52150, W7.67719, 0, Casablanca
+	BRC, N33.27860, W7.55733, 0, Casablanca
+
+line1 =
+	N34.77607, W6.35312
+	N34.13291, W6.75576
+	N33.96904, W6.90098
+	N33.83032, W7.14468
+	N33.64028, W7.56235
+
+[airport1]
+name = Rabat-Salé Airport
+code = GMME
+runways =
+	rwy1, 04, N34.038, W6.76139, 31.0, 11483, 0, 0, 273

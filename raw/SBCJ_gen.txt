@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2064
+center = S6.11527776718, W50.0013885498
+magneticvar = -19.295
+beacons =
+	CRJ, S6.11933, W50.00220, 0, Carajas
+	CRJ, S6.11133, W50.00400, 0, Carajas
+
+line1 =
+	S5.21792, W49.28014
+	S5.30309, W49.20963
+	S5.33492, W49.11506
+	S5.30288, W48.93721
+
+line2 =
+	S7.00562, W49.20978
+	S6.85617, W49.07956
+
+[airport1]
+name = Carajás Airport
+code = SBCJ

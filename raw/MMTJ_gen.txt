@@ -1,0 +1,81 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 489
+center = N32.5410995483, W116.970001221
+magneticvar = 12.466
+beacons =
+	TIJ, N32.54040, W116.95300, 0, Tijuana
+	PGY, N32.61030, W116.97900, 0, Poggi
+	NRS, N32.56420, W117.11000, 0, Imperial Beach
+	MY, N32.77990, W117.04500, 0, Deoro
+	NZY, N32.70260, W117.21600, 0, North Island
+	AN, N32.73990, W117.21600, 0, Boing
+	MZB, N32.78220, W117.22500, 0, Mission Bay
+	NKX, N32.86970, W117.15500, 0, Miramar
+	JLI, N33.14050, W116.58600, 0, Julian
+	OCN, N33.24060, W117.41800, 0, Oceanside
+	ENS, N31.79590, W116.60700, 0, Ensenada
+	NFG, N33.27440, W117.38700, 0, Camp Pendleton
+
+line1 =
+	N33.31211, W118.29746
+	N33.38574, W118.34795
+
+line2 =
+	N33.53848, W117.78853
+	N33.29551, W117.46743
+	N33.10005, W117.31885
+	N32.93887, W117.26299
+	N32.87339, W117.25576
+	N32.80625, W117.27070
+	N32.66401, W117.24346
+	N32.68789, W117.18374
+	N32.64917, W117.13740
+	N32.53975, W117.13047
+	N32.53335, W117.12827
+	N32.34360, W117.06313
+	N32.30503, W117.03477
+	N32.19854, W116.91367
+	N31.99736, W116.84800
+	N31.85107, W116.62080
+	N31.75801, W116.62388
+	N31.74033, W116.65210
+	N31.74365, W116.70171
+	N31.73457, W116.72207
+	N31.69863, W116.66846
+	N31.56489, W116.66216
+
+line3 =
+	N33.27446, W115.61162
+	N33.22261, W115.61606
+	N33.13828, W115.69790
+	N33.14658, W115.78887
+	N33.30254, W115.91133
+	N33.43262, W116.06172
+	N33.50210, W116.05347
+	N33.52192, W116.01045
+	N33.51943, W115.94844
+	N33.45166, W115.88394
+	N33.32080, W115.65996
+	N33.27446, W115.61162
+	N33.27446, W115.61162
+	N33.27446, W115.61162
+	N33.27446, W115.61162
+
+[airport1]
+name = General Abelardo L. Rodríguez International Airport
+code = MMTJ
+runways =
+	rwy1, 09, N32.5431, W116.986, 99.0, 9711, 0, 0, 487
+
+[airport2]
+name = San Diego International Airport
+code = AN
+runways =
+	rwy2, 09, N32.7371, W117.204, 106.0, 9401, 700, 1810, 14
+inboundbeacon = AN

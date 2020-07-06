@@ -1,0 +1,82 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1649
+center = N49.9487, E7.26389
+magneticvar = 0.468
+beacons =
+	HND, N49.94560, E7.26767, 0, Hahn
+	HAN, N49.96490, E7.28088, 0, Hahn
+	KIR, N49.85020, E7.36958, 0, Kirn
+	BUE, N50.17870, E7.06950, 0, Buchel
+	SPA, N49.97900, E6.69770, 0, Spangdahlem
+	NMN, N50.36780, E7.31367, 0, Mendig
+	NTM, N50.01590, E6.53179, 0, Nattenheim
+	RMS, N49.43470, E7.58565, 0, Ramstein
+	ELU, N49.67970, E6.35528, 0, Luxembourg
+	TAU, N50.25050, E8.16252, 0, Taunus
+	WIB, N50.04620, E8.31083, 0, Wiesbaden
+	WBD, N50.04900, E8.32867, 0, Wiesbaden
+	LUX, N49.63940, E6.24722, 0, Luxembourg
+	ZWN, N49.22910, E7.41789, 0, Zweibrucken
+	ZBN, N49.22760, E7.41658, 0, Zweibrucken
+	SR, N49.21780, E7.21951, 0, Ensheim
+	DIK, N49.86140, E6.12972, 0, Diekirch
+	DIK, N49.86140, E6.12972, 0, Diekirch
+	SBN, N49.21890, E7.11834, 0, Saarbrucken
+	SAD, N49.21250, E7.11607, 0, Saarbrucken
+	ZND, N49.20930, E7.39578, 0, Zweibrucken
+	FW, N50.00500, E8.42955, 0, Frankfurt
+	HDM, N49.53450, E8.39050, 0, Coleman
+	RID, N49.78170, E8.54149, 0, Ried
+	HDM, N49.56560, E8.46381, 0, Coleman
+	WLU, N49.56780, E6.05417, 0, Luxembourg
+	SLD, N50.70680, E8.07851, 0, Siegerland
+	SIL, N50.68000, E8.13850, 0, Siegerland
+	MND, N49.47060, E8.51598, 0, Mannheim
+
+line1 =
+	N48.96544, E8.23002
+	N49.21400, E8.41730
+	N49.33037, E8.48592
+	N49.39740, E8.49822
+	N49.43621, E8.48892
+	N49.44675, E8.45781
+	N49.50509, E8.42184
+	N49.61124, E8.38081
+	N49.69007, E8.38939
+	N49.72849, E8.43140
+	N49.76720, E8.43683
+	N49.81523, E8.40148
+	N49.91137, E8.35735
+	N49.98067, E8.30464
+	N50.02310, E8.24335
+	N50.02640, E8.12904
+	N49.99070, E7.96161
+	N50.04209, E7.80322
+	N50.18066, E7.65388
+	N50.22236, E7.60675
+	N50.26644, E7.61119
+	N50.32380, E7.62882
+	N50.36664, E7.60784
+	N50.40008, E7.55662
+	N50.43279, E7.44366
+	N50.48583, E7.34367
+	N50.55916, E7.25675
+	N50.62161, E7.20362
+	N50.67319, E7.18450
+	N50.73422, E7.12507
+	N50.80468, E7.02544
+	N50.85261, E6.99454
+	N50.90402, E6.99454
+	N50.93834, E6.97325
+
+[airport1]
+name = Frankfurt-Hahn Airport
+code = EDFH
+runways =
+	rwy1, 03, N49.9314, E7.24688, 32.0, 12467, 3461, 984, 1645

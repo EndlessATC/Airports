@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 26
+center = S36.772701, W73.063103
+magneticvar = 6.198
+beacons =
+	CAR, S36.75550, W73.05310, 0, Concepcion
+	CE, S36.85750, W73.11390, 0, Concepcion
+	MAD, S37.40670, W72.42470, 0, Los Angeles
+	CHI, S36.58310, W72.03580, 0, Chillan
+	CHI, S36.58890, W72.02920, 0, Chillan
+
+line1 =
+	S35.87695, W72.68340
+	S35.97852, W72.77842
+	S36.39043, W72.87456
+	S36.53779, W72.96782
+	S36.64346, W73.00659
+	S36.68838, W73.11807
+	S36.79990, W73.13779
+	S36.87617, W73.15127
+	S37.05352, W73.17285
+	S37.16689, W73.21597
+	S37.20742, W73.27109
+	S37.22432, W73.37456
+	S37.18848, W73.60166
+	S37.25547, W73.63364
+	S37.34102, W73.66240
+	S37.47910, W73.60342
+	S37.59043, W73.66460
+	S37.69854, W73.66182
+
+line2 =
+	S37.75361, W71.75409
+	S37.72100, W71.82954
+	S37.71398, W71.91819
+	S37.73243, W72.02007
+	S37.71920, W72.09025
+	S37.65160, W72.14805
+	S37.59342, W72.25592
+	S37.56846, W72.35537
+	S37.55740, W72.48239
+	S37.53089, W72.57598
+	S37.48893, W72.63613
+	S37.40557, W72.69109
+	S37.28082, W72.74088
+	S37.20502, W72.80726
+	S37.17804, W72.89025
+	S37.11520, W72.94058
+	S37.01640, W72.95836
+	S36.92653, W72.99879
+	S36.84550, W73.06192
+	S36.80287, W73.11173
+	S36.79476, W73.13349
+
+[airport1]
+name = Carriel Sur Airport
+code = SCIE
+runways =
+	rwy1, 02, S36.782, W73.0686, 25.0, 7540, 0, 0, 26

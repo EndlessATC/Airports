@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 59
+center = N13.0956001282, E103.223999023
+magneticvar = -0.282
+beacons =
+	BB, N13.09170, E103.22300, 0, Battambang
+	SIR, N13.39810, E103.80300, 0, Siem Reap
+	SRE, N13.41500, E103.82200, 0, Siem Reap
+
+line1 =
+	N12.14165, E102.31885
+	N12.15186, E102.27744
+	N12.11934, E102.27334
+
+line2 =
+	N12.53188, E102.03438
+	N12.44302, E102.13418
+	N12.33164, E102.22959
+	N12.36143, E102.24844
+	N12.39434, E102.25908
+	N12.25259, E102.34316
+	N12.17925, E102.43408
+	N12.10923, E102.54023
+	N12.15781, E102.57480
+	N12.20303, E102.59414
+	N12.14883, E102.65488
+
+line3 =
+	N12.50850, E104.40137
+	N12.56387, E104.25781
+	N12.67114, E104.14033
+	N12.78862, E104.10459
+	N12.80396, E104.00752
+	N12.86694, E103.89541
+	N12.94687, E103.80645
+	N13.03901, E103.75469
+	N13.12139, E103.72373
+	N13.20703, E103.69912
+	N13.24990, E103.73105
+	N13.23467, E103.84209
+	N13.17920, E103.98066
+	N13.03555, E104.09961
+	N12.84482, E104.19902
+	N12.76401, E104.23477
+	N12.73862, E104.26777
+	N12.74697, E104.36973
+
+[airport1]
+name = Battambang Airport
+code = VDBG
+runways =
+	rwy1, 07, N13.093, E103.218, 69.0, 5250, 0, 0, 59

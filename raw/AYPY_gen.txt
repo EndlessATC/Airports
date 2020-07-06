@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 146
+center = S9.44338035583, E147.220001221
+magneticvar = 6.101
+beacons =
+	PY, S9.45296, E147.21500, 0, Port Moresby
+	PY, S9.46105, E147.23300, 0, Port Moresby
+	JSN, S9.37615, E147.17700, 0, Jackson
+	PRE, S9.32667, E147.14000, 0, Parer
+	TVI, S9.71797, E147.47200, 0, Tavai
+	KUB, S8.69305, E146.75500, 0, Kubuna
+
+line1 =
+	S8.45967, E148.22998
+	S8.50957, E148.23359
+	S8.55430, E148.24688
+
+line2 =
+	S10.18545, E148.38340
+	S10.12822, E148.26875
+	S10.10732, E148.15049
+	S10.12451, E148.10127
+	S10.12832, E148.05137
+	S10.08740, E147.89014
+	S10.07012, E147.76865
+	S10.01309, E147.66885
+	S9.95977, E147.61436
+	S9.91240, E147.55313
+	S9.79043, E147.49648
+	S9.67471, E147.40830
+	S9.57959, E147.29893
+	S9.42607, E147.06445
+	S9.38789, E147.01719
+	S9.24717, E146.92539
+	S9.15391, E146.93037
+	S9.05957, E146.96377
+	S9.09170, E146.91328
+	S9.08770, E146.85625
+	S9.02539, E146.69658
+	S8.95117, E146.63086
+	S8.74971, E146.52412
+	S8.64355, E146.45586
+	S8.45557, E146.29648
+
+[airport1]
+name = Port Moresby Jacksons International Airport
+code = AYPY
+runways =
+	rwy1, 14L, S9.43087, E147.214, 148.4, 9022, 0, 0, 103
+	rwy2, 14R, S9.43471, E147.213, 148.5, 6777, 0, 0, 104

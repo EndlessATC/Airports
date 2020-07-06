@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 203
+usa = true
+transition = 18001
+center = N30.7824993134, W83.2767028809
+magneticvar = -5.027
+beacons =
+	OTK, N30.78040, W83.27970, 0, Valdosta
+	VAD, N30.96010, W83.19340, 0, Moody
+	GEF, N30.55130, W83.78310, 0, Greenville
+	GTP, N30.95760, W83.82670, 0, Patten
+	HOE, N31.05550, W82.77210, 0, Homerville
+	MGR, N31.08230, W83.80420, 0, Moultrie
+	TM, N31.36330, W83.44400, 0, Tifto
+	IFM, N31.42870, W83.48890, 0, Tift Myers
+	TAY, N30.50460, W82.55290, 0, Taylor
+	OWC, N31.40480, W82.92380, 0, Coffee County
+	CYR, N30.88820, W84.15930, 0, Caidy
+	AYS, N31.26940, W82.55640, 0, Waycross
+	FPY, N29.99610, W83.58630, 0, Foley
+	SUR, N31.61300, W83.29070, 0, Fitzgerald
+	LCQ, N30.18530, W82.57860, 0, Lake City
+	PL, N30.39140, W84.23570, 0, Palee
+	AY, N31.32560, W82.39810, 0, Wiket
+	CXU, N31.21460, W84.23680, 0, Camilla
+	AMG, N31.53650, W82.50810, 0, Alma
+
+line1 =
+	N29.89785, W84.55000
+	N29.91016, W84.45405
+	N29.90737, W84.38281
+	N29.92939, W84.35869
+	N29.98228, W84.37534
+	N30.02900, W84.35562
+	N30.06475, W84.30967
+	N30.10381, W84.04424
+	N29.92598, W83.69438
+
+[airport1]
+name = Valdosta Regional Airport
+code = KVLD
+runways =
+	rwy1, 04, N30.7779, W83.2852, 36.0, 5598, 0, 0, 199
+	rwy2, 13, N30.784, W83.2818, 126.0, 3636, 0, 0, 201
+	rwy3, 17, N30.7905, W83.2752, 171.0, 8002, 0, 0, 196

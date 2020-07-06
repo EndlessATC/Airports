@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3085
+usa = true
+transition = 18001
+center = N52.1831016541, W122.054000854
+magneticvar = 19.428
+beacons =
+	YWL, N52.23690, W122.17000, 0, Williams Lake
+	J7, N51.74330, W121.33700, 0, One Hunderd Eight Mile
+	YQZ, N52.96060, W122.48600, 0, Quesnel
+
+line1 =
+	N53.15345, W122.64003
+	N53.04214, W122.53047
+	N52.93176, W122.47536
+	N52.79833, W122.45696
+	N52.64185, W122.47528
+	N52.50754, W122.43632
+	N52.39536, W122.34007
+	N52.25857, W122.28457
+	N52.09718, W122.26982
+	N51.98990, W122.27168
+	N51.93678, W122.29008
+	N51.90154, W122.32124
+	N51.88412, W122.36506
+	N51.84614, W122.39216
+	N51.75824, W122.40772
+	N51.51851, W122.26801
+	N51.40725, W122.22512
+	N51.34451, W122.23246
+	N51.22137, W122.14259
+
+[airport1]
+name = Williams Lake Airport
+code = CYWL
+runways =
+	rwy1, 11, N52.1892, W122.064, 135.0, 7000, 0, 0, 3082

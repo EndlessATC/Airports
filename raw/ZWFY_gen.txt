@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3081
+metric = true
+center = N46.804169, E89.512006
+
+line1 =
+	N47.65017, E90.32537
+	N47.49090, E90.28382
+	N47.43039, E90.25261
+	N47.40801, E90.20052
+	N47.40119, E90.13241
+	N47.35571, E90.06399
+	N47.26926, E89.97252
+	N47.21296, E89.87232
+	N47.18673, E89.76329
+	N47.12591, E89.65451
+	N47.03041, E89.54609
+	N46.99018, E89.40553
+	N47.00522, E89.23303
+	N47.06147, E89.03243
+	N47.15898, E88.80381
+	N47.23303, E88.51499
+	N47.28373, E88.16597
+	N47.34822, E87.84728
+
+[airport1]
+name = Fuyun Koktokay Airport
+code = ZWFY

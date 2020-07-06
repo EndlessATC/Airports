@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 104
+center = N40.995098114, E39.7896995544
+magneticvar = 5.176
+beacons =
+	TBN, N40.99530, E39.79560, 0, Trabzon
+	TBN, N40.99530, E39.79560, 0, Trabzon
+	AKC, N41.08940, E39.46920, 0, Trabzon
+
+line1 =
+	N41.26118, E41.08359
+	N41.21162, E40.95947
+	N41.19023, E40.81953
+	N41.10742, E40.68750
+	N40.96133, E40.26523
+	N40.94302, E40.12842
+	N40.97715, E40.00020
+	N40.96646, E39.91113
+	N40.98252, E39.80791
+	N41.10645, E39.42637
+	N41.01768, E38.85215
+	N40.93652, E38.55693
+	N40.92451, E38.38105
+
+[airport1]
+name = Trabzon International Airport
+code = LTCG
+runways =
+	rwy1, 11, N40.9995, E39.7752, 112.2, 8661, 0, 0, 104

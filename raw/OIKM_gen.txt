@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3231
+center = N29.0841999054, E58.4500007629
+magneticvar = 1.565
+beacons =
+	BAM, N29.07790, E58.45430, 0, Bam
+	BAM, N29.07750, E58.45760, 0, Bam
+	JIR, N28.73140, E57.67210, 0, Jiroft
+
+[airport1]
+name = Bam Airport
+code = OIKM
+runways =
+	rwy1, 12, N29.0924, E58.4354, 122.6, 11107, 0, 0, 3231

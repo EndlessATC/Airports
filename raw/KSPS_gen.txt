@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1019
+usa = true
+transition = 18001
+center = N33.9888, W98.491898
+magneticvar = 6.080
+beacons =
+	SHP, N33.98260, W98.48730, 0, Sheppard
+	SP, N33.91070, W98.45460, 0, Shawn
+	SPS, N33.98730, W98.59350, 0, Wichita Falls
+	SKB, N33.79010, W98.48640, 0, Scotland
+	LAW, N34.49620, W98.41310, 0, Lawton
+	FDR, N34.35380, W98.98650, 0, Frederick
+	DUC, N34.38450, W97.91680, 0, Duncan
+	PFL, N34.60890, W98.40380, 0, Post
+	ONY, N33.35120, W98.81620, 0, Olney
+	VRT, N34.22590, W99.27930, 0, Wilbarger
+	GMZ, N33.60540, W97.77340, 0, Grindstone Mountain
+	UKW, N33.53590, W97.82130, 0, Bowie
+	OFZ, N34.78140, W98.40230, 0, Trail
+	GHX, N33.16590, W98.49660, 0, Graham
+	LTS, N34.66290, W99.27120, 0, Altus
+
+line1 =
+	N33.43476, W99.89139
+	N33.53201, W99.67861
+	N33.58167, W99.49384
+	N33.58374, W99.33711
+	N33.55568, W99.24742
+	N33.49749, W99.22482
+	N33.46752, W99.18435
+	N33.46581, W99.12601
+	N33.43765, W99.08131
+	N33.38305, W99.05031
+	N33.36137, W99.02178
+	N33.37264, W98.99584
+	N33.35450, W98.97287
+	N33.30693, W98.95287
+	N33.24634, W98.88205
+	N33.13601, W98.69960
+	N33.08201, W98.71239
+	N33.03928, W98.69327
+	N32.98985, W98.64651
+
+line2 =
+	N33.03194, W98.57687
+	N33.03338, W98.51871
+	N32.99173, W98.43324
+
+[airport1]
+name = Sheppard Air Force Base-Wichita Falls Municipal Airport
+code = KSPS
+runways =
+	rwy1, 15C, N34.0063, W98.4971, 158.3, 10003, 0, 0, 1002
+	rwy2, 15L, N34.0112, W98.4933, 158.3, 6000, 0, 0, 1019
+	rwy3, 15R, N34.0039, W98.4995, 158.3, 13101, 0, 0, 1000
+	rwy4, 17, N33.9824, W98.4958, 180.5, 7021, 0, 0, 1001

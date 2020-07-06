@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 43
+usa = true
+center = S10.586400032, E142.289993286
+magneticvar = 5.287
+beacons =
+	HID, S10.59190, E142.29201, 0, Horn Island
+
+line1 =
+	S11.27324, E142.13896
+	S10.94658, E142.16836
+	S10.88418, E142.32646
+	S10.80225, E142.40684
+	S10.70732, E142.45645
+	S10.70732, E142.54482
+	S10.74824, E142.60508
+	S10.81943, E142.56543
+	S10.87441, E142.55273
+	S11.01045, E142.72305
+	S11.11533, E142.77969
+	S11.21396, E142.80332
+	S11.30693, E142.83682
+	S11.43223, E142.85293
+
+line2 =
+	S10.59199, E142.19795
+	S10.64062, E142.13105
+	S10.66846, E142.12549
+	S10.73193, E142.13721
+	S10.76201, E142.19141
+	S10.70479, E142.27480
+	S10.59199, E142.19795
+
+line3 =
+	S10.14941, E142.21875
+	S10.19932, E142.19512
+	S10.23564, E142.21621
+	S10.25420, E142.27939
+	S10.19219, E142.33896
+	S10.14043, E142.29873
+	S10.14941, E142.21875
+
+line4 =
+	S10.05176, E142.14883
+	S10.12178, E142.09766
+	S10.18125, E142.14199
+	S10.15410, E142.16758
+	S10.08525, E142.19199
+	S10.05176, E142.14883
+
+[airport1]
+name = Horn Island Airport
+code = YHID
+runways =
+	rwy1, 08, S10.5867, E142.281, 85.0, 4557, 0, 459, 12
+	rwy2, 14, S10.581, E142.289, 140.0, 4052, 0, 0, 8

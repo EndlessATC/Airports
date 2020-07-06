@@ -1,0 +1,79 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8
+center = N26.745300293, W77.3912963867
+magneticvar = -7.433
+beacons =
+	ZTC, N26.73480, W77.37920, 0, Treasure Cay
+	ZMH, N26.51110, W77.07690, 0, Marsh Harbour
+
+line1 =
+	N26.84600, W77.51060
+	N26.61836, W77.32993
+	N26.56113, W77.23862
+	N26.48896, W77.20605
+	N26.42471, W77.23013
+	N26.36177, W77.22109
+	N26.28906, W77.24775
+	N26.15635, W77.24678
+	N26.09551, W77.29395
+	N26.02471, W77.40317
+	N25.99561, W77.33325
+	N25.89546, W77.24644
+	N25.90420, W77.22563
+	N25.95547, W77.19102
+	N26.24033, W77.16729
+	N26.33345, W77.03828
+	N26.53018, W77.06636
+	N26.59727, W77.16211
+	N26.63882, W77.25718
+	N26.66304, W77.26929
+	N26.68882, W77.26592
+	N26.71167, W77.29590
+	N26.74761, W77.36875
+	N26.83643, W77.44941
+	N26.90342, W77.53389
+	N26.91392, W77.67212
+	N26.93564, W77.78755
+	N26.94009, W77.86255
+	N26.90356, W77.94375
+	N26.90127, W77.79600
+	N26.84600, W77.51060
+
+line2 =
+	N26.63735, W78.23389
+	N26.66338, W77.92612
+	N26.69111, W77.92246
+	N26.74424, W77.94395
+	N26.71431, W78.08867
+	N26.72266, W78.26792
+	N26.70220, W78.30684
+	N26.69795, W78.37173
+	N26.72905, W78.49287
+	N26.79795, W78.59712
+	N26.72617, W78.63296
+	N26.70464, W78.62114
+	N26.65918, W78.63325
+
+line3 =
+	N26.50654, W78.67095
+	N26.55937, W78.51621
+	N26.63735, W78.23389
+
+[airport1]
+name = Treasure Cay Airport
+code = MYAT
+runways =
+	rwy1, 14, N26.7519, W77.3991, 133.0, 7001, 0, 0, 8
+
+[airport2]
+name = Leonard M Thompson International Airport
+code = AM
+runways =
+	rwy2, 09, N26.5112, W77.0911, 88.0, 4998, 0, 0, 6
+inboundbeacon = ZMH

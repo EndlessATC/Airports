@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 21
+center = N5.38263988495, E103.102996826
+magneticvar = -0.069
+beacons =
+	VKT, N5.38583, E103.10300, 0, Kuala Terengganu
+	TU, N5.38300, E103.10700, 0, Kuala Terengganu
+	GK, N5.79806, E102.49000, 0, Gong Kedak
+	VGK, N5.79732, E102.47900, 0, Gong Kedak
+	VKB, N6.16342, E102.31400, 0, Kota Bharu
+
+line1 =
+	N4.39326, E103.46875
+	N4.66948, E103.45391
+	N4.85029, E103.41582
+	N5.26216, E103.19697
+	N5.40845, E103.09707
+	N5.52495, E102.98242
+	N5.56377, E102.89854
+	N5.64492, E102.79023
+	N5.86255, E102.53438
+	N6.17202, E102.34014
+	N6.20342, E102.27402
+	N6.24224, E102.10107
+
+[airport1]
+name = Sultan Mahmud Airport
+code = WMKN
+runways =
+	rwy1, 04, N5.37619, E103.097, 44.6, 6600, 0, 0, 19

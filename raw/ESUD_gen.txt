@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 915
+center = N64.960899353, E17.6965999603
+magneticvar = 5.398
+beacons =
+	SUM, N64.95540, E17.70830, 0, Storuman
+	NV, N64.56010, E17.03230, 0, Vilhelmina
+	AN, N65.63390, E19.14300, 0, Arvidsjaur
+
+[airport1]
+name = Storuman Airport
+code = ESUD
+runways =
+	rwy1, 15, N64.9699, E17.6851, 151.0, 7490, 0, 0, 894
+
+[airport2]
+name = Vilhelmina Airport
+code = NV
+runways =
+	rwy2, 10, N64.5806, E16.8183, 103.2, 4928, 0, 793, 1138
+inboundbeacon = NV

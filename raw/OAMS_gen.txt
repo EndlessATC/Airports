@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1284
+center = N36.7069015503, E67.2097015381
+magneticvar = 3.338
+beacons =
+	TRZ, N37.28500, E67.30670, 0, Termez
+	N, N37.29330, E67.33670, 0, Termez
+	NO, N37.30000, E67.36500, 0, Termez
+
+line1 =
+	N37.02151, E68.21210
+	N36.94981, E68.06781
+	N36.97201, E67.95795
+	N37.06420, E67.83444
+	N37.14011, E67.76602
+	N37.19980, E67.75290
+	N37.22726, E67.69998
+	N37.22251, E67.60738
+	N37.23566, E67.54650
+	N37.26667, E67.51725
+	N37.25798, E67.44170
+	N37.20959, E67.31975
+	N37.23520, E67.19546
+	N37.33483, E67.06886
+	N37.37131, E66.82768
+	N37.34472, E66.47184
+	N37.41477, E66.10845
+
+line2 =
+	N37.22447, E68.63698
+	N37.18347, E68.54655
+	N37.13748, E68.38686
+	N37.08843, E68.29953
+	N37.03634, E68.28475
+	N37.01309, E68.26098
+	N37.02151, E68.21210
+
+[airport1]
+name = Mazar I Sharif Airport
+code = OAMS
+runways =
+	rwy1, 06L, N36.701, E67.1935, 65.8, 10437, 535, 1733, 1278

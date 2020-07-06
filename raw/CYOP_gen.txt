@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1759
+usa = true
+transition = 18001
+center = N58.4914016724, W119.407997131
+magneticvar = 21.275
+beacons =
+	Z2, N58.49500, W119.41300, 0, Rainbow Lake
+	1K, N59.02330, W118.84300, 0, Zama Lake
+
+[airport1]
+name = Rainbow Lake Airport
+code = CYOP
+runways =
+	rwy1, 09, N58.4935, W119.419, 110.0, 4539, 0, 0, 1759

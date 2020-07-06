@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7841
+center = S0.129166666667, W78.3575
+magneticvar = -1.278
+beacons =
+	ZUI, S0.08333, W78.29390, 0, Ascazubi
+	UIO, S0.17472, W78.48310, 0, Quito
+	QMS, S0.23556, W78.47780, 0, Monjas Sur
+	QIT, S0.03861, W78.51140, 0, Condorcocha
+	OLM, N0.16333, W78.06060, 0, Olmedo
+	LTV, S0.92419, W78.61750, 0, Latacunga
+
+[airport1]
+name = Mariscal Sucre International Airport
+code = SEQM

@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 789
+center = N46.460201, E11.3264
+magneticvar = 1.471
+beacons =
+	BZO, N46.46360, E11.32190, 0, Bolzano
+	OZE, N46.40480, E11.29260, 0, Bolzano
+	INN, N47.23000, E11.40190, 0, Innsbruck
+	KTI, N47.21550, E11.02780, 0, Kuhtai
+	VIC, N45.63730, E11.67640, 0, Vicenza
+	VIC, N45.63690, E11.67470, 0, Vicenza
+	AVI, N45.92430, E12.42850, 0, Aviano
+	ISA, N45.68750, E12.11690, 0, Istrana
+	ISA, N45.69860, E12.22830, 0, Istrana
+
+line1 =
+	N45.49199, E12.35381
+	N45.54629, E12.49180
+	N45.54492, E12.53613
+	N45.46792, E12.43213
+	N45.46167, E12.49756
+	N45.49722, E12.61172
+	N45.54429, E12.76123
+	N45.61079, E12.90303
+
+[airport1]
+name = Bolzano Airport
+code = LIPB
+runways =
+	rwy1, 01, N46.4544, E11.3249, 10.0, 4255, 0, 200, 771
+	rwy2, 01R, N46.4546, E11.3265, 10.6, 2290, 0, 0, 773

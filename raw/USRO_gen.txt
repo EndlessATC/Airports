@@ -1,0 +1,16 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 446
+center = N63.1833000183, E75.2699966431
+magneticvar = 17.533
+beacons =
+	ZE, N63.18330, E75.27000, 0, Noyarsk
+
+[airport1]
+name = Noyabrsk Airport
+code = USRO

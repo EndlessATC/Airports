@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 90
+center = N18.4041996002, W76.96900177
+magneticvar = -6.144
+beacons =
+	KIN, N17.96640, W76.87500, 0, Kingston
+	MLY, N17.93020, W76.77760, 0, Manley
+
+line1 =
+	N18.15186, W76.34985
+	N18.25718, W76.70073
+	N18.30430, W76.79326
+	N18.39043, W76.90820
+	N18.40186, W76.95937
+	N18.40293, W77.01377
+	N18.42148, W77.13955
+	N18.45742, W77.26147
+	N18.46646, W77.35425
+	N18.46704, W77.45161
+	N18.52222, W77.87344
+	N18.50068, W77.92686
+	N18.46782, W77.97817
+	N18.44482, W78.09453
+
+line2 =
+	N18.19116, W78.07363
+	N18.17383, W78.04448
+	N18.04756, W77.96299
+	N18.01904, W77.88130
+	N17.98750, W77.84941
+	N17.87739, W77.76816
+	N17.85972, W77.67075
+	N17.85605, W77.46387
+	N17.83369, W77.36143
+	N17.77954, W77.27988
+	N17.71494, W77.20498
+	N17.84507, W77.15840
+	N17.88008, W77.11948
+	N17.90127, W77.07129
+	N17.85410, W77.03594
+	N17.84878, W76.94414
+	N17.90410, W76.89624
+	N17.97373, W76.85322
+	N17.97632, W76.79482
+	N17.96489, W76.74829
+	N17.94043, W76.77432
+	N17.92764, W76.66938
+	N17.90098, W76.62539
+	N17.86621, W76.52461
+	N17.86821, W76.41553
+	N17.87983, W76.30146
+	N17.91353, W76.21079
+	N17.97031, W76.23276
+	N18.15186, W76.34985
+
+[airport1]
+name = Boscobel Aerodrome
+code = MKBS
+runways =
+	rwy1, 09, N18.4039, W76.9733, 85.8, 3000, 0, 0, 0
+
+[airport2]
+name = Tinson Pen Airport
+code = TP
+runways =
+	rwy2, 14, N17.9924, W76.8284, 131.1, 4300, 800, 700, 13
+inboundbeacon = KIN

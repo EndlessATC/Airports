@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 145
+center = S25.920799, E32.572601
+magneticvar = -17.581
+beacons =
+	VMA, S25.86890, E32.60500, 0, Maputo
+	TSO, S25.44030, E31.67500, 0, Malelane
+
+line1 =
+	S26.84932, E32.88613
+	S26.83047, E32.88916
+	S26.25234, E32.93359
+	S26.08359, E32.95488
+	S26.08691, E32.91641
+	S26.12988, E32.89404
+	S26.26807, E32.84883
+	S26.24141, E32.80391
+	S26.20303, E32.76963
+	S26.15850, E32.70352
+	S26.09199, E32.64746
+	S26.00410, E32.59043
+	S25.90176, E32.65586
+	S25.82090, E32.72256
+	S25.64434, E32.79219
+	S25.49043, E32.96113
+	S25.26094, E33.34746
+	S25.18887, E33.53008
+	S25.06797, E33.83604
+
+line2 =
+	S24.94897, E33.63126
+	S25.04059, E33.61369
+	S25.09764, E33.54455
+	S25.14244, E33.51478
+	S25.18885, E33.53008
+
+[airport1]
+name = Maputo Airport
+code = FQMA
+runways =
+	rwy1, 05, S25.9249, E32.5701, 29.0, 12008, 0, 0, 118
+	rwy2, 10, S25.9212, E32.5664, 86.0, 5577, 0, 0, 118

@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 361
+center = N62.110001, E65.614998
+
+line1 =
+	N61.62012, E67.77946
+	N61.71158, E67.58578
+	N61.79364, E67.55270
+	N61.91870, E67.45478
+	N62.08665, E67.29200
+	N62.19992, E67.04266
+	N62.25845, E66.70676
+	N62.31839, E66.51070
+	N62.37976, E66.45458
+	N62.41955, E66.39004
+	N62.44683, E66.28074
+	N62.48208, E65.98825
+	N62.62210, E65.67974
+	N62.87864, E65.25755
+	N62.99636, E65.16319
+	N63.07248, E65.14014
+
+[airport1]
+name = Nyagan Airport
+code = USHN

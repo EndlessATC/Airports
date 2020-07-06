@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7348
+center = S3.73956, E137.031998
+magneticvar = 3.223
+beacons =
+	TMK, S4.51700, E136.86700, 0, Timika
+	ZF, S4.53534, E136.89000, 0, Timika
+	ZG, S4.04358, E136.27499, 0, Waghete
+
+line1 =
+	S4.70127, E136.39375
+	S4.65068, E136.21064
+	S4.58477, E136.09746
+	S4.53086, E135.97969
+
+line2 =
+	S2.90410, E135.92617
+	S2.76426, E135.99072
+
+[airport1]
+name = Bilogai-Sugapa Airport
+code = ID-ZGP

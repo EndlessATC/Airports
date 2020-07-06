@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = S12.4792, E13.4869
+magneticvar = -7.229
+beacons =
+	LB, S12.36670, E13.53330, 0, Lobito
+	BG, S12.60810, E13.40540, 0, Benguela
+
+line1 =
+	S11.48799, E13.78428
+	S11.81279, E13.78535
+	S12.12383, E13.68555
+	S12.28613, E13.59795
+	S12.52041, E13.41699
+	S12.65215, E13.16270
+	S12.77568, E12.98320
+	S13.02773, E12.89766
+	S13.43779, E12.55049
+
+[airport1]
+name = Catumbela Airport
+code = FNCT

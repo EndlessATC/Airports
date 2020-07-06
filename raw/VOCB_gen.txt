@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1324
+center = N11.029999733, E77.0434036255
+magneticvar = -2.093
+beacons =
+	CCB, N11.03380, E77.04810, 0, Coimbatore
+	CB, N11.02380, E77.04720, 0, Coimbatore
+
+line1 =
+	N10.78408, E75.92256
+	N10.40225, E76.09609
+	N10.32700, E76.12334
+	N10.20063, E76.20146
+	N10.16377, E76.19268
+	N10.08613, E76.19561
+
+[airport1]
+name = Coimbatore International Airport
+code = VOCB
+runways =
+	rwy1, 05, N11.0219, E77.0349, 46.0, 8480, 0, 0, 1323

@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1732
+center = N62.4570007324, E155.744995117
+
+line1 =
+	N61.48062, E156.68027
+	N61.52964, E156.79063
+	N61.56519, E156.89180
+	N61.67568, E157.08418
+	N61.74707, E157.37070
+	N61.79893, E157.46934
+	N61.79526, E157.79932
+	N61.75361, E158.07012
+	N61.76484, E158.15156
+
+[airport1]
+name = Omsukchan Airport
+code = UHMF

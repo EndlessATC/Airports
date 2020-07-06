@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2310
+center = S32.8316993713, W68.7929000854
+magneticvar = 1.312
+beacons =
+	DOZ, S32.83190, W68.79080, 0, Mendoza
+	D, S32.85490, W68.79260, 0, El Plumerillo
+
+line1 =
+	S32.23803, W70.13644
+	S32.33425, W70.04252
+	S32.35477, W69.97043
+	S32.33162, W69.88886
+	S32.28077, W69.83312
+	S32.20217, W69.80325
+	S32.14377, W69.79555
+	S32.10559, W69.81000
+	S32.03272, W69.78734
+	S31.87149, W69.69773
+
+line2 =
+	S31.88317, W68.34913
+	S31.97918, W68.29415
+	S32.04430, W68.27963
+	S32.07241, W68.26970
+	S32.08357, W68.22578
+	S32.07396, W68.08915
+	S32.11163, W67.97365
+	S32.19674, W67.87918
+	S32.24956, W67.74359
+	S32.27002, W67.56685
+	S32.30754, W67.44931
+
+[airport1]
+name = El Plumerillo Airport
+code = SAME
+runways =
+	rwy1, 18, S32.8192, W68.7927, 181.0, 9301, 0, 0, 2290

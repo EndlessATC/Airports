@@ -1,0 +1,112 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 779
+center = N45.6380996704, E5.88022994995
+beacons =
+	CBY, N45.88190, E5.75731, 0, Chambery
+	LNP, N45.48980, E5.44000, 0, Tour Du Pin
+	LTP, N45.48900, E5.43906, 0, La Tour Du Pin
+	AMU, N45.98860, E5.33125, 0, Amberieu
+	PAS, N46.16370, E5.99992, 0, Passeiry
+	LSE, N45.74550, E5.09058, 0, Lyon/Saint Exupery
+	GVA, N46.25390, E6.13222, 0, Geneva Cointrin
+	VNE, N45.55640, E4.88342, 0, Vienne
+	GLA, N46.40870, E6.24425, 0, Gland
+	SPR, N46.46870, E6.44806, 0, St-Prex
+	VE, N44.84900, E4.95550, 0, Chabeuil
+
+line1 =
+	N46.43223, E6.87363
+	N46.40259, E6.86641
+	N46.38481, E6.84502
+	N46.40244, E6.66533
+	N46.38857, E6.46885
+	N46.36094, E6.33643
+	N46.20508, E6.15703
+	N46.20459, E6.13330
+	N46.30244, E6.15840
+	N46.45762, E6.34395
+	N46.52881, E6.58818
+	N46.46562, E6.81885
+	N46.43223, E6.87363
+	N46.43223, E6.87363
+	N46.43223, E6.87363
+
+line2 =
+	N46.20460, E6.13330
+	N46.33262, E6.23469
+	N46.39371, E6.32192
+	N46.43050, E6.42889
+	N46.43737, E6.57823
+	N46.40280, E6.86607
+
+line3 =
+	N44.70601, E7.11019
+	N44.66482, E7.32558
+	N44.68694, E7.42351
+	N44.79453, E7.50180
+
+line4 =
+	N46.20460, E6.13330
+	N46.12261, E5.90220
+	N46.01332, E5.81446
+	N45.84948, E5.79306
+	N45.73711, E5.74697
+	N45.67618, E5.67627
+	N45.70429, E5.57292
+	N45.82139, E5.43701
+	N45.84671, E5.34978
+	N45.81227, E5.28519
+	N45.79894, E5.19103
+	N45.81738, E5.05843
+	N45.80806, E4.95177
+	N45.77095, E4.87095
+	N45.71253, E4.82351
+	N45.63280, E4.80945
+	N45.58213, E4.81932
+	N45.56053, E4.85312
+	N45.51278, E4.84139
+	N45.43896, E4.78403
+	N45.28892, E4.78971
+	N45.06268, E4.85824
+	N44.91101, E4.86382
+	N44.83396, E4.80635
+	N44.76117, E4.78057
+	N44.69270, E4.78646
+
+line5 =
+	N46.27749, E7.47120
+	N46.17801, E7.20497
+	N46.15176, E7.08916
+	N46.19682, E7.02048
+	N46.40259, E6.86638
+
+line6 =
+	N45.74457, E4.21251
+	N45.62802, E4.21869
+	N45.47658, E4.25576
+
+[airport1]
+name = Chambéry-Savoie Airport
+code = LFLB
+runways =
+	rwy1, 18, N45.6471, E5.87948, 176.0, 6628, 755, 460, 769
+
+[airport2]
+name = Annecy-Haute-Savoie-Mont Blanc Airport
+code = LP
+runways =
+	rwy2, 04, N45.9235, E6.09216, 39.0, 5348, 820, 755, 1489
+inboundbeacon = PAS
+
+[airport3]
+name = Grenoble-Isère Airport
+code = LS
+runways =
+	rwy3, 09, N45.363, E5.30991, 90.0, 10007, 0, 0, 1224
+inboundbeacon = LTP

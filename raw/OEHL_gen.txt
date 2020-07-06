@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3331
+center = N27.437901, E41.686298
+magneticvar = 3.093
+beacons =
+	HIL, N27.42510, E41.68280, 0, Hail
+
+[airport1]
+name = Ha'il Airport
+code = OEHL
+runways =
+	rwy1, 18, N27.4547, E41.6875, 184.0, 12204, 0, 1164, 3299

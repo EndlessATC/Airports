@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1278
+center = N25.7784996033, W100.107002258
+magneticvar = 6.432
+beacons =
+	MTY, N25.77290, W100.10400, 0, Monterrey
+	ADN, N25.86540, W100.23900, 0, Roberto
+	SLW, N25.54610, W100.93000, 0, Saltillo
+
+line1 =
+	N26.76193, W99.22993
+	N26.56414, W99.17208
+
+line2 =
+	N26.56414, W99.17208
+	N26.44691, W99.10777
+	N26.39896, W99.01527
+	N26.38123, W98.87321
+
+[airport1]
+name = General Mariano Escobedo International Airport
+code = MMMY
+runways =
+	rwy1, 11, N25.7841, W100.117, 121.0, 9843, 0, 0, 1277
+	rwy2, 16, N25.7881, W100.11, 165.0, 5909, 0, 0, 1271

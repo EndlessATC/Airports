@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4390
+center = N27.6966, E85.3591
+magneticvar = 0.098
+beacons =
+	KAM, N27.69390, E85.35360, 0, Kathmandu
+	KTM, N27.67470, E85.34920, 0, Kathmandu
+	LNC, N27.65030, E85.46500, 0, Nalinchowk
+	BDA, N27.53560, E85.28940, 0, Bhattedanda
+	SIM, N27.16580, E84.98330, 0, Simara
+	SMR, N27.16420, E84.98220, 0, Simara
+	BHP, N27.67940, E84.42970, 0, Bharatpur
+
+[airport1]
+name = Tribhuvan International Airport
+code = VNKT
+runways =
+	rwy1, 02, N27.6838, E85.3534, 21.6, 10007, 0, 400, 4313

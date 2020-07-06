@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 70
+center = N36.8438987732, W2.37010002136
+magneticvar = -1.401
+beacons =
+	AMN, N36.84840, W2.37916, 0, Almeria
+	AMR, N36.83320, W2.25942, 0, Almeria
+	AM, N36.87580, W2.23991, 0, Almeria
+
+line1 =
+	N36.75605, W3.82778
+	N36.73984, W3.57881
+	N36.70791, W3.43125
+	N36.75576, W3.25913
+	N36.75850, W3.14917
+	N36.74316, W2.90186
+	N36.71475, W2.78755
+	N36.74756, W2.67061
+	N36.80649, W2.59570
+	N36.83115, W2.45283
+	N36.81982, W2.30557
+	N36.74546, W2.18770
+	N36.77666, W2.11152
+	N36.94585, W1.93931
+	N37.23286, W1.79761
+	N37.38696, W1.64097
+	N37.56113, W1.32754
+	N37.57134, W0.93809
+
+[airport1]
+name = Almería International Airport
+code = LEAM
+runways =
+	rwy1, 08, N36.8397, W2.38726, 73.0, 10499, 492, 0, 26

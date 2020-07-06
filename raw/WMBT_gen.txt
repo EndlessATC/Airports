@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 15
+center = N2.81818008423, E104.160003662
+magneticvar = 0.070
+beacons =
+	VPT, N2.91094, E104.10100, 0, Pulau Tioman
+	VMR, N2.38833, E103.87200, 0, Mersing
+	PK, N3.38306, E103.42300, 0, Pekan
+
+line1 =
+	N2.87173, E104.18477
+	N2.85684, E104.16982
+	N2.76724, E104.12910
+	N2.72822, E104.14688
+	N2.72134, E104.17334
+	N2.73174, E104.22158
+	N2.77422, E104.22324
+	N2.87173, E104.18477
+
+line2 =
+	N2.26123, E103.96777
+	N2.50850, E103.83232
+	N2.58047, E103.81221
+	N2.77476, E103.53730
+	N2.83657, E103.48516
+	N2.93311, E103.43945
+	N3.26060, E103.44502
+	N3.37856, E103.42949
+	N3.52061, E103.45352
+	N3.67109, E103.37334
+	N3.76914, E103.36201
+
+[airport1]
+name = Pulau Tioman Airport
+code = WMBT
+runways =
+	rwy1, 02, N2.81416, E104.158, 26.0, 3255, 0, 0, 13

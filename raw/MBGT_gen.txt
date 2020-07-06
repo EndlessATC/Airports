@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = N21.4444999695, W71.1423034668
+magneticvar = -10.073
+beacons =
+	GT, N21.43720, W71.14600, 0, Grand Turk
+	GTK, N21.44070, W71.13440, 0, Grand Turk
+	SC, N21.51250, W71.53750, 0, South Caicos
+
+line1 =
+	N21.79023, W71.72178
+	N21.75171, W71.66538
+	N21.76523, W71.66143
+	N21.78755, W71.63691
+	N21.83345, W71.66836
+	N21.85210, W71.80615
+	N21.84346, W71.84766
+	N21.79062, W71.83042
+	N21.79023, W71.72178
+
+line2 =
+	N21.86440, W71.95547
+	N21.82988, W71.89746
+	N21.84043, W71.87993
+	N21.86250, W71.89961
+	N21.95190, W71.93154
+	N21.95044, W72.01064
+	N21.91826, W72.01904
+	N21.89341, W71.98452
+	N21.89204, W71.96377
+	N21.86440, W71.95547
+
+line3 =
+	N21.76978, W72.19067
+	N21.78003, W72.18154
+	N21.79272, W72.14434
+	N21.80449, W72.14980
+	N21.79629, W72.21865
+	N21.85137, W72.33281
+	N21.79531, W72.34238
+	N21.75801, W72.33545
+	N21.75522, W72.30088
+	N21.76978, W72.19067
+
+[airport1]
+name = JAGS McCartney International Airport
+code = MBGT
+runways =
+	rwy1, 11, N21.4467, W71.1514, 104.0, 6362, 797, 0, 11
+
+[airport2]
+name = South Caicos Airport
+code = SC
+runways =
+	rwy2, 11, N21.5169, W71.5373, 97.9, 5991, 0, 0, 4
+inboundbeacon = SC

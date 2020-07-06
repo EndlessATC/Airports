@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 105
+center = N41.6102981567, E41.5997009277
+magneticvar = 5.449
+beacons =
+	LU, N41.60080, E41.61390, 0, Batumi
+	TIG, N42.17330, E42.45470, 0, Kutaisi
+	KTS, N42.17350, E42.45610, 0, Kutaisi
+	UY, N42.18460, E42.54400, 0, Kutaisi
+
+line1 =
+	N42.39785, E41.57773
+	N42.14687, E41.66328
+	N41.97002, E41.76299
+	N41.88486, E41.76074
+	N41.81714, E41.75879
+	N41.70542, E41.70176
+	N41.51748, E41.51006
+	N41.42363, E41.41436
+	N41.26118, E41.08359
+	N41.21162, E40.95947
+	N41.19023, E40.81953
+	N41.10742, E40.68750
+	N40.96133, E40.26523
+	N40.94302, E40.12842
+
+[airport1]
+name = Batumi International Airport
+code = UGSB
+runways =
+	rwy1, 13, N41.6162, E41.5902, 130.7, 8202, 0, 0, 86

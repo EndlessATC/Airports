@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 311
+center = N36.181098938, E133.324996948
+magneticvar = -7.231
+beacons =
+	OIE, N36.17670, E133.32300, 0, Oki
+	JEC, N35.53110, E133.09399, 0, Miho
+	YVE, N35.49340, E133.23300, 0, Yonago
+	XZE, N35.41720, E132.89200, 0, Izumo
+	TRE, N35.52730, E134.16499, 0, Tottori
+
+line1 =
+	N35.30684, E132.61904
+	N35.41831, E132.69766
+	N35.44902, E132.74658
+	N35.51128, E132.92295
+	N35.55884, E133.15693
+	N35.55654, E133.26719
+	N35.45884, E133.37646
+	N35.47222, E133.43535
+	N35.49746, E133.49492
+	N35.51143, E133.61543
+	N35.49526, E133.73936
+	N35.49487, E133.86025
+	N35.50723, E133.98125
+	N35.53926, E134.21406
+	N35.57793, E134.33652
+	N35.62793, E134.45605
+
+line2 =
+	N36.29341, E133.20615
+	N36.23262, E133.18994
+	N36.17876, E133.23926
+	N36.16650, E133.32471
+	N36.20386, E133.37051
+	N36.24639, E133.38125
+	N36.34014, E133.29570
+	N36.29341, E133.20615
+
+[airport1]
+name = Oki Airport
+code = RJNO
+runways =
+	rwy1, 08, N36.175, E133.313, 60.0, 6531, 0, 0, 253

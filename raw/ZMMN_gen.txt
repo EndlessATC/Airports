@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4272
+metric = true
+center = N49.6632995605, E100.098999023
+magneticvar = -0.553
+beacons =
+	MU, N49.65290, E100.17400, 0, Muren
+
+line1 =
+	N50.65894, E100.44521
+	N50.62510, E100.47344
+	N50.60322, E100.47256
+	N50.56812, E100.44434
+	N50.53833, E100.37002
+	N50.49380, E100.19336
+	N50.53130, E100.17949
+	N50.59404, E100.19385
+	N50.65386, E100.22813
+
+line2 =
+	N48.72974, E98.54678
+	N48.69692, E98.92288
+
+line3 =
+	N48.72493, E99.58837
+	N48.95815, E100.15164
+	N49.07561, E100.47255
+	N49.07726, E100.55100
+	N49.09845, E100.61311
+	N49.13907, E100.65890
+	N49.18532, E100.68619
+	N49.26309, E100.69962
+
+line4 =
+	N49.26309, E100.69962
+	N49.34557, E101.06053
+	N49.40959, E101.16424
+	N49.43905, E101.25571
+	N49.45533, E101.36950
+	N49.44453, E101.46681
+	N49.40665, E101.54773
+	N49.39078, E101.69563
+
+line5 =
+	N50.62699, E98.80899
+	N50.55666, E98.98510
+	N50.55247, E99.06308
+	N50.61024, E99.12091
+
+[airport1]
+name = Mörön Airport
+code = ZMMN
+runways =
+	rwy1, 10, N49.6656, E100.083, 102.2, 8005, 0, 0, 4273

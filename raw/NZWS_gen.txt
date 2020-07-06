@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = S41.7380981445, E171.580993652
+magneticvar = 21.555
+beacons =
+	WS, S41.74240, E171.58000, 0, Westport
+
+line1 =
+	S41.27930, E173.11533
+	S41.18584, E173.06865
+	S41.07861, E173.05215
+	S40.95361, E173.04229
+	S40.84824, E172.98867
+	S40.82031, E172.86914
+	S40.77344, E172.76680
+
+line2 =
+	S40.75869, E172.27275
+	S40.94727, E172.13945
+	S41.20156, E172.09336
+	S41.44473, E172.01074
+	S41.53867, E171.94805
+	S41.65518, E171.83066
+	S41.71963, E171.73164
+	S41.74473, E171.67217
+	S41.75752, E171.53633
+	S41.79473, E171.48623
+	S41.97305, E171.42061
+	S42.07998, E171.36025
+	S42.18906, E171.32266
+	S42.30254, E171.29648
+	S42.40195, E171.25225
+	S42.43057, E171.29609
+	S42.46016, E171.31338
+	S42.46533, E171.25703
+	S42.47861, E171.22129
+	S42.50049, E171.18955
+	S42.69609, E171.02773
+
+[airport1]
+name = Westport Airport
+code = NZWS
+runways =
+	rwy1, 04, S41.7417, E171.573, 57.8, 4200, 0, 0, 13

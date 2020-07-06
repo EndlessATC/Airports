@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1836
+usa = true
+transition = 18001
+center = N54.304199, W110.744003
+magneticvar = 15.474
+beacons =
+	V4, N54.30530, W110.74400, 0, Bonnyville
+	Y3, N54.30640, W110.74400, 0, Bonnyville
+	UOD, N54.40860, W110.29600, 0, Cold Lake
+	YOD, N54.39690, W110.27200, 0, Cold Lake
+	8M, N53.89030, W110.76800, 0, Elk Point
+	8H, N53.99190, W111.39100, 0, St Paul
+
+line1 =
+	N55.00047, W112.73348
+	N55.02765, W112.73864
+
+line2 =
+	N54.03184, W112.73185
+	N54.00298, W112.54964
+	N54.00611, W112.41001
+	N54.04130, W112.31291
+	N54.02190, W112.19294
+	N53.94795, W112.05011
+	N53.90782, W111.91978
+	N53.90157, W111.80196
+	N53.86968, W111.73744
+	N53.81217, W111.72628
+	N53.77393, W111.57763
+	N53.75496, W111.29155
+	N53.77202, W111.09427
+	N53.82498, W110.98580
+	N53.85077, W110.85827
+	N53.84937, W110.71166
+	N53.80142, W110.56252
+	N53.70690, W110.41090
+	N53.66835, W110.30174
+	N53.68577, W110.23500
+	N53.66078, W110.12332
+	N53.59345, W109.96664
+	N53.56412, W109.82624
+	N53.57280, W109.70201
+	N53.54872, W109.61255
+	N53.49188, W109.55778
+	N53.45167, W109.53452
+	N53.42821, W109.54277
+	N53.40868, W109.48192
+	N53.39315, W109.35200
+	N53.35969, W109.23645
+	N53.30832, W109.13522
+
+[airport1]
+name = Bonnyville Airport
+code = CYBF
+runways =
+	rwy1, 07, N54.3042, W110.754, 90.0, 4433, 0, 512, 0

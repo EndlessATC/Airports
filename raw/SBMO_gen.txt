@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 387
+center = S9.51080989838, W35.7916984558
+magneticvar = -22.442
+beacons =
+	MCE, S9.50989, W35.78690, 0, Zumbi
+	MCO, S9.51167, W35.80450, 0, Maceio
+
+line1 =
+	S10.48994, W36.41162
+	S10.48408, W36.39834
+	S10.22510, W36.22354
+	S10.07578, W36.05498
+	S9.84766, W35.88545
+	S9.77246, W35.84775
+	S9.68701, W35.89082
+	S9.71904, W35.83013
+	S9.70254, W35.76396
+	S9.54063, W35.59707
+	S9.23066, W35.34087
+	S8.93057, W35.15776
+
+line2 =
+	S10.01360, W36.95637
+	S10.08367, W36.93968
+	S10.15370, W36.87978
+	S10.22356, W36.77674
+	S10.25731, W36.69902
+	S10.25488, W36.64672
+	S10.29291, W36.60704
+	S10.37136, W36.57993
+	S10.41058, W36.53846
+	S10.41058, W36.48255
+	S10.43197, W36.44296
+	S10.48995, W36.41160
+
+[airport1]
+name = Zumbi dos Palmares Airport
+code = SBMO

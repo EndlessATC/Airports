@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 203
+center = S49.3068, W67.8026
+magneticvar = 10.474
+beacons =
+	SJU, S49.30980, W67.81290, 0, San Julian
+	Z, S50.01170, W68.54330, 0, Santa Cruz
+	SCZ, S50.02170, W68.57940, 0, Santa Cruz
+
+line1 =
+	S50.28115, W68.74985
+	S50.22520, W68.58936
+	S50.19473, W68.46543
+	S50.15791, W68.42188
+	S50.09141, W68.47373
+	S50.03613, W68.53257
+	S50.00947, W68.59795
+	S49.98770, W68.75269
+	S50.00303, W68.97959
+	S49.96875, W68.91299
+	S49.93574, W68.66162
+	S49.86299, W68.63848
+	S49.79346, W68.67266
+	S49.75254, W68.66758
+	S49.86699, W68.56929
+	S49.97793, W68.48789
+	S50.04268, W68.40464
+	S50.10459, W68.25723
+	S50.09141, W68.14565
+	S49.98447, W67.91396
+	S49.91963, W67.82598
+	S49.85889, W67.78350
+	S49.34219, W67.66196
+	S49.30400, W67.69370
+	S49.24668, W67.68486
+	S48.95176, W67.46631
+	S48.81426, W67.26333
+	S48.68789, W67.13096
+	S48.62773, W67.03311
+	S48.52295, W66.78281
+	S48.41953, W66.59629
+	S48.34238, W66.39336
+
+line2 =
+	S50.08640, W69.51598
+	S50.11451, W69.29450
+	S50.10066, W69.14110
+	S50.01715, W69.01309
+	S50.00299, W68.97961
+
+[airport1]
+name = Capitan D Daniel Vazquez Airport
+code = SAWJ
+runways =
+	rwy1, 7, S49.3085, W67.8161, 78.9, 6562, 0, 0, 0

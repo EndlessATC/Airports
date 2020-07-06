@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 239
+center = S6.569803, E146.725977
+magneticvar = 5.566
+beacons =
+	NZ, S6.56833, E146.70900, 0, Nadzab
+	NZ, S6.57000, E146.70799, 0, Nadzab
+	LAE, S6.73727, E146.99800, 0, Lae
+
+line1 =
+	S5.61660, E146.40342
+	S5.91924, E147.03428
+	S5.94502, E147.12090
+	S5.95479, E147.24824
+	S5.95078, E147.37666
+	S5.96621, E147.42275
+	S6.02109, E147.51855
+	S6.05693, E147.56670
+	S6.15479, E147.65303
+	S6.26113, E147.73008
+	S6.29150, E147.76289
+	S6.31523, E147.80205
+	S6.37305, E147.82451
+	S6.55117, E147.85449
+	S6.66240, E147.84551
+	S6.70361, E147.81045
+	S6.72363, E147.70957
+	S6.74238, E147.35576
+	S6.72168, E147.11914
+	S6.83408, E146.95361
+	S6.88311, E146.94922
+	S6.92881, E146.96074
+	S7.16699, E147.10488
+	S7.37813, E147.19004
+	S7.46406, E147.26016
+	S7.53379, E147.36533
+
+line2 =
+	S5.62725, E147.78105
+	S5.74922, E147.87451
+
+[airport1]
+name = Nadzab Airport
+code = AYNZ
+runways =
+	rwy1, 09, S6.56887, E146.715, 95.0, 8004, 0, 0, 239

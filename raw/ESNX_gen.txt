@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1245
+center = N65.5903015137, E19.2819004059
+magneticvar = 4.491
+beacons =
+	AN, N65.63390, E19.14300, 0, Arvidsjaur
+	SUM, N64.95540, E17.70830, 0, Storuman
+
+line1 =
+	N64.62935, E21.33154
+	N64.72471, E21.27930
+	N64.77432, E21.20498
+	N64.80869, E21.13818
+	N64.87690, E21.19590
+	N64.94126, E21.29375
+	N65.01270, E21.42490
+	N65.12578, E21.57393
+	N65.16079, E21.58066
+	N65.20698, E21.54600
+	N65.24536, E21.50635
+	N65.28296, E21.43779
+	N65.31743, E21.41035
+	N65.32085, E21.44688
+	N65.25454, E21.56689
+	N65.26138, E21.60918
+	N65.29912, E21.61270
+	N65.31655, E21.59600
+	N65.33115, E21.54521
+	N65.35859, E21.52344
+	N65.38657, E21.53262
+	N65.40811, E21.56553
+	N65.40337, E21.68066
+	N65.42402, E21.87959
+	N65.43711, E21.91348
+	N65.47036, E21.95000
+	N65.50835, E21.90313
+	N65.53237, E21.92012
+	N65.53022, E22.08672
+
+line2 =
+	N65.58379, E22.09629
+	N65.61094, E22.08623
+
+[airport1]
+name = Arvidsjaur Airport
+code = ESNX
+runways =
+	rwy1, 12, N65.5986, E19.2562, 128.2, 8201, 0, 0, 1241

@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9765
+center = N0.861925, W77.6718
+magneticvar = -2.522
+beacons =
+	IPI, N0.85920, W77.67320, 0, Ipiales
+	SLI, N0.85599, W77.67500, 0, San Luis
+	TLC, N0.82389, W77.68720, 0, Tulcan
+	PSO, N1.39493, W77.28920, 0, Pasto
+	PSO, N1.39799, W77.28990, 0, Pasto
+	OLM, N0.16333, W78.06060, 0, Olmedo
+	LAG, N0.06667, W76.90330, 0, Lago Agrio
+	LAR, N0.08389, W76.88030, 0, Lago Agrio
+	LAV, N0.10222, W76.85640, 0, Lago Agrio
+
+line1 =
+	N1.77378, W78.57690
+	N1.84873, W78.79297
+
+line2 =
+	N1.32982, W76.53315
+	N1.13910, W76.53581
+	N1.05709, W76.50796
+
+[airport1]
+name = San Luis Airport
+code = SKIP
+runways =
+	rwy1, 06, N0.858081, W77.6787, 61.2, 5774, 0, 0, 9723
+
+[airport2]
+name = Teniente Coronel Luis a Mantilla Airport
+code = TU
+runways =
+	rwy2, 05, N0.803083, W77.7171, 55.0, 8071, 0, 0, 9646
+inboundbeacon = TLC

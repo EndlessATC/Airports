@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6230
+metric = true
+center = N23.7381000519, E100.025001526
+magneticvar = -0.517
+beacons =
+	GMA, N23.53170, E99.41170, 0, Gengma
+	QK, N23.53330, E99.40000, 0, Gengma
+
+line1 =
+	N24.54010, E101.29183
+	N24.53845, E101.23799
+	N24.65539, E101.11758
+
+line2 =
+	N24.71779, E100.08653
+	N24.68658, E100.10627
+	N24.68971, E100.13971
+	N24.72720, E100.18673
+
+line3 =
+	N24.68221, E100.41835
+	N24.54486, E100.51090
+	N24.38779, E100.54769
+	N24.21098, E100.52899
+	N24.10762, E100.48516
+	N24.07773, E100.41623
+	N24.02608, E100.38822
+	N23.95265, E100.40103
+	N23.85413, E100.35556
+	N23.73046, E100.25179
+	N23.61975, E100.18451
+	N23.47312, E100.13852
+	N23.27760, E100.06679
+	N23.14913, E100.10622
+	N23.02252, E100.23283
+	N22.88734, E100.31318
+	N22.74368, E100.34739
+
+line4 =
+	N24.72299, E98.98024
+	N24.67692, E99.02985
+	N24.59426, E99.03580
+	N24.47504, E98.99807
+	N24.38259, E99.01569
+	N24.31704, E99.08876
+	N24.24798, E99.05765
+	N24.17548, E98.92247
+	N24.11607, E98.76439
+
+[airport1]
+name = Lintsang Airfield
+code = CN-0040

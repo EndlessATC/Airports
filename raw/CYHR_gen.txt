@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 39
+usa = true
+transition = 18001
+center = N50.4688987732, W59.6366996765
+magneticvar = -22.268
+beacons =
+	YHR, N50.46470, W59.63440, 0, Chevery
+	IHR, N50.47470, W59.62580, 0, Chevery
+	YIF, N51.18890, W58.65190, 0, St Augustin
+	IIF, N51.19940, W58.65470, 0, St-Augustin
+
+line1 =
+	N50.20195, W61.28975
+	N50.19150, W61.18071
+	N50.20542, W60.95630
+	N50.24980, W60.80723
+	N50.22114, W60.60820
+	N50.23887, W60.43809
+	N50.25459, W60.08018
+	N50.31641, W59.88633
+	N50.41826, W59.81533
+	N50.49209, W59.61191
+	N50.67544, W59.37803
+	N50.77988, W59.16538
+	N50.87910, W59.05493
+	N51.17168, W58.63760
+	N51.23706, W58.61475
+	N51.25713, W58.59326
+	N51.29507, W58.51035
+	N51.30591, W58.44229
+	N51.29521, W58.27046
+	N51.31099, W58.08940
+	N51.32207, W58.02266
+	N51.39951, W57.85376
+
+line2 =
+	N49.70083, W57.92617
+	N49.66841, W57.92905
+	N49.60039, W57.89746
+
+line3 =
+	N49.47383, W57.85605
+	N49.53154, W57.96123
+	N49.54248, W58.01582
+	N49.49971, W58.10742
+
+[airport1]
+name = Chevery Airport
+code = CYHR
+runways =
+	rwy1, 08, N50.4654, W59.6446, 55.0, 4500, 0, 0, 31

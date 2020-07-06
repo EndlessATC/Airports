@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 123
+center = S0.348868995905, E111.748001099
+magneticvar = 0.556
+beacons =
+	NH, S0.34922, E111.74800, 0, Nanga Pinoh
+	SG, N0.06750, E111.46700, 0, Susilo
+
+line1 =
+	N0.63562, E112.02828
+	N0.59867, E111.94958
+	N0.54648, E111.94545
+	N0.50255, E111.91661
+	N0.46214, E111.83972
+	N0.43000, E111.82060
+	N0.40809, E111.82685
+	N0.37455, E111.80220
+	N0.33006, E111.73574
+	N0.32148, E111.68050
+	N0.31094, E111.64531
+	N0.27244, E111.63182
+	N0.24226, E111.61828
+	N0.24195, E111.57953
+	N0.22071, E111.55555
+	N0.15756, E111.54175
+	N0.10361, E111.50082
+	N0.09824, E111.46496
+	N0.10589, E111.40388
+	N0.08935, E111.36750
+	N0.09824, E111.32915
+	N0.10206, E111.30404
+	N0.08160, E111.28171
+	N0.08832, E111.26259
+	N0.10589, E111.23190
+	N0.08883, E111.20642
+	N0.07870, E111.15614
+	N0.09193, E111.07728
+	N0.08170, E111.02406
+	N0.04790, E110.99656
+	N0.02331, E110.93280
+	N0.00796, E110.83265
+	N0.02904, E110.77249
+	N0.04635, E110.73250
+	N0.03312, E110.69612
+	N0.04305, E110.65312
+	N0.05958, E110.61343
+
+[airport1]
+name = Nanga Pinoh Airport
+code = WIOG
+runways =
+	rwy1, 10, S0.348125, E111.743, 99.4, 3272, 0, 0, 0
+
+[airport2]
+name = Sintang(Susilo) Airport
+code = OS
+runways =
+	rwy2, 08, N0.062786, E111.468, 81.8, 4256, 0, 0, 102
+inboundbeacon = SG

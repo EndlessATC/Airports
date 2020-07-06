@@ -1,0 +1,83 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 979
+usa = true
+transition = 18001
+center = N38.0364990234, W84.6059036255
+magneticvar = -5.478
+beacons =
+	LE, N37.98700, W84.66050, 0, Blayd
+	GN, N38.12460, W84.50700, 0, Bridl
+	HYK, N37.96640, W84.47250, 0, Lexington
+	FEU, N38.21470, W84.81980, 0, Arnold
+	FFT, N38.18240, W84.90860, 0, Frankfort
+	DVK, N37.57640, W84.76400, 0, Goodall
+	IOB, N38.06000, W83.98150, 0, Mount Sterling
+	IKY, N37.63460, W85.23660, 0, Springfield
+	FLM, N38.64950, W84.31060, 0, Falmouth
+	IIU, N38.10350, W85.57740, 0, Louisville
+	TYC, N37.40190, W85.24370, 0, Taylor Co
+	LK, N38.14490, W85.63330, 0, Laang
+	FGX, N38.53810, W83.74690, 0, Flemingsburg
+	XW, N38.57360, W83.64700, 0, Flmng
+	ABB, N38.58880, W85.63600, 0, Nabb
+	IMS, N38.76090, W85.46050, 0, Madison
+	AMT, N38.85590, W83.56380, 0, West Union
+
+line1 =
+	N38.69366, W85.18604
+	N38.70412, W85.21112
+	N38.72704, W85.24663
+	N38.73720, W85.30675
+	N38.72996, W85.40543
+	N38.68309, W85.44478
+	N38.59658, W85.42483
+	N38.53021, W85.45868
+	N38.48401, W85.54632
+	N38.42303, W85.60890
+	N38.34730, W85.64642
+	N38.30136, W85.70629
+	N38.28521, W85.78845
+	N38.21503, W85.85493
+	N38.09091, W85.90568
+	N38.01401, W85.96116
+	N37.98435, W86.02133
+
+line2 =
+	N38.63891, W83.20347
+	N38.62741, W83.35697
+	N38.67950, W83.46058
+	N38.69986, W83.53838
+	N38.68278, W83.61631
+	N38.64953, W83.68987
+	N38.66937, W83.75227
+	N38.73123, W83.82808
+	N38.77422, W83.94838
+	N38.79838, W84.11323
+	N38.86520, W84.22728
+	N38.97470, W84.29043
+
+line3 =
+	N38.99604, W84.83549
+	N38.96057, W84.83660
+	N38.93323, W84.86388
+	N38.91290, W84.85417
+	N38.89954, W84.80745
+	N38.86838, W84.78963
+	N38.81939, W84.80074
+	N38.76957, W84.90125
+	N38.71355, W85.09390
+	N38.69725, W85.13552
+	N38.69038, W85.16989
+	N38.69366, W85.18611
+
+[airport1]
+name = Blue Grass Airport
+code = KLEX
+runways =
+	rwy1, 04, N38.0277, W84.6151, 42.0, 7003, 0, 45, 944

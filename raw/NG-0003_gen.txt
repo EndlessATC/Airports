@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1590
+center = N10.2983333333, E10.8963888889
+
+line1 =
+	N9.49056, E11.92406
+	N9.49653, E11.78350
+	N9.40909, E11.57405
+
+[airport1]
+name = Gombe Lawanti International Airport
+code = NG-0003

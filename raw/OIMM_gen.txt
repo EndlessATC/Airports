@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3263
+center = N36.2351989746, E59.6409988403
+magneticvar = 3.431
+beacons =
+	MSD, N36.23310, E59.64850, 0, Mashhad
+	MSD, N36.22860, E59.63720, 0, Mashhad
+	MSD, N36.23120, E59.65060, 0, Mashhad
+
+[airport1]
+name = Mashhad International Airport
+code = OIMM
+runways =
+	rwy1, 13L, N36.2478, E59.6264, 133.6, 12503, 0, 0, 3226
+	rwy2, 13R, N36.2468, E59.6244, 133.6, 12877, 0, 0, 3231

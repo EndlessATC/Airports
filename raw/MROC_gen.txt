@@ -1,0 +1,81 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3021
+center = N9.99386024475, W84.2088012695
+magneticvar = -0.358
+beacons =
+	TIO, N9.98361, W84.23610, 0, El Coco
+	HOR, N9.96053, W84.29350, 0, Horcones
+	PAR, N9.51750, W84.31690, 0, Parrita
+	FIO, N10.44830, W84.46670, 0, Fiora
+	COL, N10.75330, W83.58330, 0, Barra Del Colorado
+
+line1 =
+	N9.81094, W85.31455
+	N9.62007, W85.15400
+	N9.58179, W85.11450
+	N9.60195, W85.07705
+	N9.66831, W85.05972
+	N9.69927, W85.00127
+	N9.82095, W84.88643
+	N9.88457, W84.90835
+	N9.93345, W84.96279
+	N10.01743, W85.16074
+	N10.10737, W85.23652
+	N10.25664, W85.26318
+	N10.24209, W85.23564
+	N10.19531, W85.19844
+	N10.11572, W85.02505
+	N9.89941, W84.71494
+	N9.78940, W84.64307
+	N9.70288, W84.67046
+	N9.64668, W84.65889
+	N9.56836, W84.58159
+	N9.52617, W84.48267
+	N9.46250, W84.22236
+	N9.37944, W84.11787
+	N9.27642, W83.89556
+	N9.15029, W83.73691
+	N9.03535, W83.63726
+
+line2 =
+	N9.99126, W83.02852
+	N10.04160, W83.12461
+	N10.31538, W83.34683
+	N10.46592, W83.44824
+	N10.73472, W83.57529
+	N10.81499, W83.58818
+	N10.87749, W83.61729
+	N10.91724, W83.64199
+	N10.93384, W83.71406
+
+line3 =
+	N10.97990, W84.34828
+	N10.90073, W84.25555
+	N10.84133, W84.20496
+	N10.80172, W84.19659
+	N10.78035, W84.16835
+	N10.77570, W84.09621
+	N10.73537, W83.91929
+	N10.74325, W83.81118
+	N10.78588, W83.71295
+	N10.83686, W83.65894
+	N10.91476, W83.64148
+
+[airport1]
+name = Juan Santamaria International Airport
+code = MROC
+runways =
+	rwy1, 07, N9.989, W84.2219, 69.1, 9882, 0, 1969, 2936
+
+[airport2]
+name = Tobias Bolanos International Airport
+code = PV
+runways =
+	rwy2, 09, N9.9577, W84.1471, 95.0, 5250, 200, 0, 3238
+inboundbeacon = TIO

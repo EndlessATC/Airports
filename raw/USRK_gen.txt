@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 220
+center = N62.1903991699, E74.5337982178
+magneticvar = 17.100
+beacons =
+	OL, N62.14500, E74.51830, 0, Kogalym
+	KG, N62.24670, E74.55500, 0, Kogalym
+
+line1 =
+	N61.25497, E72.04442
+	N61.26445, E72.22281
+	N61.29285, E72.34652
+	N61.28840, E72.46600
+	N61.25120, E72.58134
+	N61.24267, E72.67839
+	N61.26282, E72.75704
+	N61.26344, E72.90669
+	N61.23513, E73.23742
+	N61.19642, E73.56624
+	N61.19590, E73.71036
+	N61.22063, E73.77930
+	N61.21435, E73.87661
+
+line2 =
+	N61.20714, E74.22289
+	N61.20066, E74.31358
+
+line3 =
+	N61.21316, E74.51455
+	N61.21544, E74.64529
+	N61.20247, E74.75009
+
+[airport1]
+name = Kogalym International Airport
+code = USRK
+runways =
+	rwy1, 17, N62.2015, E74.538, 189.9, 8225, 0, 0, 220

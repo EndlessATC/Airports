@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3556
+usa = true
+center = S30.5280990601, E151.617004395
+magneticvar = 11.340
+beacons =
+	ARM, S30.52780, E151.61501, 0, Armidale
+	PLO, S30.49250, E152.35899, 0, Point Lookout
+	PLO, S30.48210, E152.39700, 0, Point Lookout
+	IVL, S29.88470, E151.14000, 0, Inverell
+	TW, S31.06620, E150.83000, 0, Tamworth
+	TW, S31.07120, E150.83099, 0, Tamworth
+
+[airport1]
+name = Armidale Airport
+code = YARM
+runways =
+	rwy1, 05, S30.533, E151.609, 58.0, 5702, 0, 0, 3530
+	rwy2, 09, S30.5241, E151.61, 97.0, 3661, 0, 0, 3522

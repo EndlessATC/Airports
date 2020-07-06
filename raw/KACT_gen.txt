@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 516
+usa = true
+transition = 18001
+center = N31.6112995148, W97.2304992676
+magneticvar = 5.271
+beacons =
+	ACT, N31.66230, W97.26900, 0, Waco
+	AC, N31.69400, W97.20380, 0, Coffi
+	ROB, N31.50380, W97.06960, 0, Robinson
+	CN, N31.74090, W97.07820, 0, Leroi
+	TPL, N31.20930, W97.42500, 0, Temple
+	GNL, N31.58150, W96.54910, 0, Groesbeck
+	LXY, N31.63960, W96.51220, 0, Mexia
+	HLR, N31.12910, W97.71140, 0, Hood
+	GR, N31.16780, W97.87820, 0, Starn
+	IL, N31.02400, W97.70800, 0, Iresh
+	GRK, N31.03290, W97.81380, 0, Gray
+	JEN, N32.15960, W97.87770, 0, Glen Rose
+	MNZ, N31.62020, W98.14750, 0, Hamilton
+	CGQ, N32.06400, W96.42800, 0, Powell
+	CRS, N32.02770, W96.39530, 0, Corsicana
+	LZZ, N31.18550, W98.14190, 0, Lampasas
+
+line1 =
+	N32.57359, W97.85043
+	N32.47884, W97.78754
+	N32.41564, W97.71623
+	N32.38402, W97.63649
+	N32.35772, W97.62300
+	N32.33679, W97.67582
+	N32.30348, W97.69550
+	N32.25785, W97.68207
+	N32.21256, W97.63236
+	N32.16760, W97.54637
+	N32.15685, W97.49789
+	N32.16760, W97.47392
+	N32.16264, W97.46399
+	N32.15243, W97.46151
+	N32.08980, W97.46627
+	N32.00306, W97.41738
+	N31.89229, W97.31486
+	N31.80865, W97.26277
+	N31.75217, W97.26106
+	N31.66282, W97.19347
+	N31.54056, W97.06004
+	N31.42061, W96.97097
+	N31.24414, W96.90395
+	N30.79068, W96.65428
+
+[airport1]
+name = Waco Regional Airport
+code = KACT
+runways =
+	rwy1, 01, N31.6035, W97.23, 14.2, 6596, 0, 0, 508
+	rwy2, 14, N31.6171, W97.2389, 149.2, 5896, 0, 0, 509

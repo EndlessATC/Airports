@@ -1,0 +1,91 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 885
+center = N47.59, E7.529167
+magneticvar = 0.513
+beacons =
+	BLM, N47.63280, E7.49950, 0, Bale Mulhouse
+	BN, N47.66170, E7.47908, 0, Bale Mulhouse
+	HOC, N47.46660, E7.66544, 0, Hochwald
+	CLR, N47.92930, E7.39997, 0, Colmar
+	GRE, N47.18320, E7.41818, 0, Grenchen
+	GRE, N47.18340, E7.41460, 0, Grenchen
+	WIL, N47.17830, E7.90592, 0, Willisau
+	HR, N47.56170, E6.73225, 0, Hericourt
+	SHU, N47.02180, E7.39194, 0, Schupberg
+	TRA, N47.68950, E8.43695, 0, Trasadingen
+	MUR, N46.94610, E7.46687, 0, Muri
+	BER, N46.89910, E7.51048, 0, Bern
+	KLO, N47.45710, E8.54558, 0, Kloten
+	LPS, N47.08370, E6.79389, 0, Les Eplatures
+	DON, N47.96070, E8.52255, 0, Donaueschingen
+	DVI, N47.96070, E8.52271, 0, Donaueschingen
+	LHR, N48.34870, E7.81116, 0, Lahr
+	LRD, N48.36410, E7.82752, 0, Lahr
+	LXI, N47.79660, E6.37519, 0, Luxeuil
+	LXI, N47.78320, E6.35711, 0, Luxeuil
+	LUL, N47.68830, E6.29558, 0, Luxeuil
+	FRI, N46.77760, E7.22350, 0, Fribourg
+	SUL, N48.38160, E8.64484, 0, Sulz
+
+line1 =
+	N47.59795, E9.25029
+	N47.67070, E9.18281
+	N47.77212, E9.11318
+	N47.78218, E9.13203
+	N47.73330, E9.23076
+
+line2 =
+	N47.67068, E9.12754
+	N47.65639, E8.88114
+	N47.67068, E9.18283
+
+line3 =
+	N48.04681, E8.21979
+	N47.93072, E8.49006
+	N47.93630, E8.69583
+	N47.97635, E8.83587
+	N48.05270, E8.97871
+	N48.08642, E9.13188
+
+line4 =
+	N46.67632, E8.75082
+	N46.75777, E9.04558
+
+line5 =
+	N47.67068, E9.12754
+	N47.67068, E9.18283
+
+line6 =
+	N47.65639, E8.88114
+	N47.68629, E8.70017
+	N47.66236, E8.61976
+	N47.59467, E8.57966
+	N47.57617, E8.48230
+	N47.60691, E8.32779
+	N47.60691, E8.19829
+	N47.57617, E8.09380
+	N47.56384, E7.92709
+	N47.56989, E7.69806
+	N47.60655, E7.56546
+	N47.67389, E7.52939
+	N47.77362, E7.53859
+	N47.90566, E7.59326
+	N48.00257, E7.60846
+	N48.06430, E7.58417
+	N48.15680, E7.61662
+	N48.28005, E7.70571
+	N48.41002, E7.76514
+	N48.54683, E7.79480
+
+[airport1]
+name = EuroAirport Basel-Mulhouse-Freiburg Airport
+code = LFSB
+runways =
+	rwy1, 08, N47.588, E7.51692, 77.0, 5969, 0, 722, 881
+	rwy2, 15, N47.6177, E7.50987, 155.0, 12795, 0, 0, 865

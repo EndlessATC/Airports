@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 341
+center = N33.0733985901, W16.3500003815
+magneticvar = -6.335
+beacons =
+	PST, N33.06860, W16.35830, 0, Porto Santo
+	STO, N33.07530, W16.36570, 0, Porto Santo
+	SNT, N33.09030, W16.35060, 0, Porto Santo
+	MAD, N32.74810, W16.70650, 0, Madeira
+	FUN, N32.74700, W16.70570, 0, Madeira
+
+line1 =
+	N32.75801, W16.69326
+	N32.77354, W16.77397
+	N32.84141, W16.92920
+	N32.81587, W17.05449
+	N32.86860, W17.19087
+	N32.80737, W17.24102
+	N32.76685, W17.22603
+	N32.72187, W17.17119
+	N32.66279, W17.01826
+	N32.64829, W16.83740
+	N32.70972, W16.76528
+	N32.75801, W16.69326
+
+[airport1]
+name = Porto Santo Airport
+code = LPPS
+runways =
+	rwy1, 18, N33.087, W16.3505, 178.0, 9861, 0, 0, 240
+
+[airport2]
+name = Madeira Airport
+code = MA
+runways =
+	rwy2, 05, N32.689, W16.7848, 44.7, 9110, 480, 490, 147
+inboundbeacon = FUN

@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 690
+center = N16.6998996735, E98.5450973511
+magneticvar = -0.421
+beacons =
+	MST, N16.69870, E98.54210, 0, Mae Sot
+	MS, N16.70190, E98.53980, 0, Mae Sot
+	TK, N16.89950, E99.25220, 0, Tak
+
+line1 =
+	N16.48604, E97.57900
+	N16.50508, E97.54199
+	N16.49688, E97.51641
+	N16.46104, E97.46914
+	N16.30571, E97.48037
+	N16.24014, E97.53721
+	N16.25322, E97.57500
+	N16.39736, E97.58936
+	N16.42954, E97.59961
+	N16.46079, E97.59326
+	N16.48604, E97.57900
+
+line2 =
+	N16.67178, E97.33105
+	N16.52295, E97.37588
+	N16.52529, E97.50508
+	N16.53721, E97.61963
+	N16.55161, E97.66846
+	N16.56855, E97.72598
+	N16.52046, E97.66465
+	N16.45767, E97.63369
+	N16.25386, E97.64062
+	N16.14385, E97.60928
+	N16.01958, E97.58428
+	N15.87554, E97.71035
+
+line3 =
+	N17.57146, E97.75541
+	N17.44392, E97.74941
+	N17.36359, E97.69970
+	N17.25130, E97.65857
+	N17.10712, E97.62601
+	N16.94736, E97.60865
+	N16.77200, E97.60648
+	N16.65198, E97.62239
+	N16.55163, E97.66844
+
+[airport1]
+name = Mae Sot Airport
+code = VTPM
+runways =
+	rwy1, 09, N16.6998, E98.538, 89.1, 4921, 0, 0, 690

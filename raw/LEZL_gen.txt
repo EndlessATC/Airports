@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 112
+center = N37.4179992676, W5.89310979843
+magneticvar = -2.296
+beacons =
+	SPP, N37.41810, W5.79552, 0, Sevilla
+	SVL, N37.42790, W5.76221, 0, Sevilla
+	EEC, N37.31540, W6.00131, 0, El Copero
+	MNF, N37.29460, W5.56214, 0, Moron
+	MRN, N37.17510, W5.61892, 0, Moron
+	MRN, N37.17320, W5.61964, 0, Moron
+	JER, N36.83450, W6.01622, 0, Jerez
+	JRZ, N36.81520, W6.02654, 0, Jerez
+	MAR, N37.05530, W4.93989, 0, Martin
+	AOG, N36.64210, W6.31681, 0, Rota
+	AOG, N36.64790, W6.34906, 0, Rota
+	COR, N37.84270, W4.84681, 0, Cordoba
+	CDB, N37.84590, W4.84498, 0, Cordoba
+
+line1 =
+	N37.20879, W7.17495
+	N37.19844, W6.97466
+	N37.21494, W6.92949
+	N37.27891, W6.86377
+	N37.24917, W6.85938
+	N37.19424, W6.88462
+	N36.95464, W6.49243
+	N36.83164, W6.39619
+	N36.90850, W6.32095
+	N36.91357, W6.21680
+	N36.89897, W6.25942
+	N36.84814, W6.32832
+	N36.72886, W6.41226
+	N36.63701, W6.38413
+	N36.59673, W6.26895
+	N36.56484, W6.25771
+	N36.52651, W6.26592
+	N36.42646, W6.22627
+
+line2 =
+	N36.42378, W5.17148
+	N36.50205, W4.93530
+	N36.50645, W4.67412
+	N36.62915, W4.50225
+	N36.70024, W4.43486
+
+[airport1]
+name = Sevilla Airport
+code = LEZL
+runways =
+	rwy1, 09, N37.4179, W5.91208, 89.7, 11024, 0, 0, 83

@@ -1,0 +1,76 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = S3.441986, W79.996957
+magneticvar = -0.187
+beacons =
+	MHV, S3.29500, W79.94420, 0, Machala
+	MHL, S3.26861, W79.96390, 0, Machala
+	BES, S3.54944, W80.38170, 0, Tumbes
+	BES, S3.54444, W80.38920, 0, Tumbes
+	NIR, S2.71861, W80.24890, 0, Nir
+	LOJ, S3.99722, W79.37060, 0, Loja
+
+line1 =
+	S2.75313, W80.22368
+	S2.81191, W80.24980
+	S2.95176, W80.27217
+	S2.99590, W80.27295
+	S3.00830, W80.24570
+	S3.01172, W80.15068
+	S2.97314, W80.13159
+	S2.84590, W80.09341
+	S2.83379, W80.07119
+	S2.81953, W80.01323
+	S2.72559, W79.90903
+	S2.67383, W79.99727
+	S2.66885, W80.08076
+	S2.69629, W80.14570
+	S2.75313, W80.22368
+
+line2 =
+	S2.62598, W80.45010
+	S2.66797, W80.37856
+	S2.70674, W80.28472
+	S2.66465, W80.25527
+	S2.63057, W80.24863
+	S2.52842, W80.12715
+
+line3 =
+	S2.55674, W80.03018
+	S2.57871, W79.98901
+	S2.54854, W79.92559
+
+line4 =
+	S2.48467, W79.74551
+	S2.57910, W79.72988
+	S2.77695, W79.82271
+	S3.09014, W79.92158
+	S3.15771, W79.96333
+	S3.22813, W80.02666
+	S3.27402, W80.10034
+	S3.32432, W80.15986
+	S3.37480, W80.30312
+	S3.38789, W80.32466
+	S3.49609, W80.50366
+	S3.63818, W80.65273
+	S3.73105, W80.79858
+	S3.88164, W80.89194
+
+[airport1]
+name = Santa Rosa International Airport
+code = SERO
+runways =
+	rwy1, 07, S3.4461, W80.007, 68.0, 8625, 220, 320, 20
+
+[airport2]
+name = Capitan FAP Pedro Canga Rodriguez Airport
+code = ME
+runways =
+	rwy2, 14, S3.54376, W80.3884, 141.3, 8202, 0, 0, 115
+inboundbeacon = BES

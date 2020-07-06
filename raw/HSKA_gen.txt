@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1671
+center = N15.3874998093, E36.3288002014
+
+line1 =
+	N14.93537, E35.92414
+	N14.86346, E35.90017
+	N14.61962, E35.89541
+
+line2 =
+	N16.00003, E35.58339
+	N16.31254, E35.35229
+
+line3 =
+	N16.00375, E35.58566
+	N15.71566, E35.61279
+	N15.46937, E35.71444
+	N15.16889, E35.89955
+	N15.04461, E35.95040
+	N14.99875, E35.95840
+	N14.93537, E35.92414
+
+line4 =
+	N14.45374, E37.25724
+	N14.44599, E37.18520
+	N14.40607, E37.13265
+
+line5 =
+	N14.42491, E35.86456
+	N14.61962, E35.89541
+
+[airport1]
+name = Kassala Airport
+code = HSKA
+runways =
+	rwy1, 02, N15.3754, E36.3238, 22.0, 8202, 0, 0, 1671

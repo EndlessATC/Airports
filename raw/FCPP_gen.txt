@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 55
+center = S4.81603002548, E11.8865995407
+magneticvar = -4.004
+beacons =
+	IT, S4.82322, E11.88740, 0, Pointe Noire
+	CA, S5.58484, E12.18940, 0, Cabinda
+	VCA, S5.61667, E12.20000, 0, Cabinda
+	LO, S4.21285, E12.66750, 0, Dolisie
+
+line1 =
+	S3.82646, E11.03203
+	S3.91631, E11.13018
+	S4.13057, E11.36445
+	S4.20029, E11.39385
+	S4.43428, E11.66807
+	S4.56582, E11.77754
+	S4.67656, E11.78086
+	S4.70518, E11.80127
+	S4.75547, E11.82070
+	S4.86572, E11.89326
+	S4.95439, E11.96680
+	S4.98203, E12.00273
+	S5.00430, E12.01836
+	S5.03516, E12.03994
+	S5.19717, E12.11055
+	S5.32480, E12.17715
+	S5.46826, E12.20654
+	S5.53867, E12.18008
+	S5.63271, E12.15547
+	S5.73193, E12.19902
+	S5.75869, E12.21367
+	S5.80732, E12.24043
+
+[airport1]
+name = Pointe Noire Airport
+code = FCPP
+runways =
+	rwy1, 17, S4.80462, E11.8838, 166.0, 8530, 0, 0, 54

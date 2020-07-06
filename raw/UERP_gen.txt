@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1660
+center = N66.4003982544, E112.029998779
+magneticvar = -8.438
+beacons =
+	WN, N66.37000, E112.06700, 0, Poliarny
+
+line1 =
+	N67.13048, E109.29238
+	N67.14086, E109.33672
+	N67.16711, E109.37134
+	N67.17541, E109.44751
+	N67.15885, E109.57577
+	N67.16593, E109.77256
+	N67.19662, E110.03797
+	N67.23455, E110.12809
+	N67.26091, E110.14509
+	N67.27822, E110.16804
+	N67.28018, E110.23098
+	N67.28623, E110.27020
+	N67.29636, E110.28581
+	N67.30995, E110.27650
+	N67.33090, E110.26085
+	N67.35408, E110.25666
+	N67.39118, E110.31919
+
+[airport1]
+name = Polyarny Airport
+code = UERP
+runways =
+	rwy1, 17, N66.4137, E112.021, 163.7, 10170, 0, 0, 1657

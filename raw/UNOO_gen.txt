@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 311
+center = N54.966999054, E73.3105010986
+magneticvar = 12.024
+beacons =
+	RM, N54.95670, E73.23000, 0, Omsk
+	TK, N54.97830, E73.40670, 0, Omsk
+	LF, N55.63330, E73.10000, 0, Bazhenovo
+
+line1 =
+	N53.98559, E74.99359
+	N54.00280, E74.91835
+	N54.02761, E74.90362
+	N54.06577, E74.92440
+	N54.12789, E74.87153
+	N54.21393, E74.74513
+	N54.29142, E74.66028
+	N54.36035, E74.61708
+	N54.39973, E74.55848
+	N54.40955, E74.48437
+	N54.44851, E74.39993
+	N54.51657, E74.30495
+	N54.58641, E74.12522
+	N54.69377, E73.72824
+	N54.69377, E73.72194
+	N54.80534, E73.53890
+	N54.84502, E73.43431
+	N54.84993, E73.34708
+	N54.88812, E73.31762
+	N54.95954, E73.34605
+	N55.00884, E73.30791
+	N55.03607, E73.20332
+	N55.09741, E73.15743
+	N55.19291, E73.17035
+	N55.24221, E73.12756
+	N55.24531, E73.02927
+	N55.26621, E72.99320
+	N55.30494, E73.01955
+	N55.38902, E73.16296
+	N55.51842, E73.42351
+	N55.61841, E73.66179
+	N55.68885, E73.87780
+	N55.72913, E74.08114
+	N55.73921, E74.27183
+	N55.83303, E74.46877
+
+[airport1]
+name = Omsk Central Airport
+code = UNOO
+runways =
+	rwy1, 06, N54.9663, E73.289, 77.1, 9435, 0, 0, 0
+	rwy2, 07, N54.9645, E73.2915, 76.9, 8202, 0, 0, 311
+	rwy3, 15, N54.9654, E73.3396, 164.6, 2380, 0, 0, 0

@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 374
+center = N23.1518001556, W109.721000671
+magneticvar = 9.231
+beacons =
+	SJD, N23.14620, W109.72200, 0, Cabos
+
+line1 =
+	N24.14756, W109.82676
+	N24.15107, W109.80508
+
+line2 =
+	N23.97026, W110.89556
+	N23.87700, W110.76489
+	N23.73730, W110.62998
+	N23.60493, W110.36270
+	N23.51768, W110.28877
+	N23.41226, W110.24409
+	N23.34150, W110.18062
+	N23.00547, W110.08604
+	N22.89404, W110.00625
+	N22.88589, W109.92344
+	N22.92217, W109.82305
+	N22.98184, W109.72842
+	N23.07866, W109.63047
+	N23.15981, W109.49570
+	N23.21475, W109.45806
+	N23.40557, W109.41499
+	N23.48013, W109.42085
+	N23.59790, W109.50962
+	N23.66157, W109.67656
+	N23.80381, W109.71055
+	N23.86489, W109.77598
+	N23.93901, W109.81133
+	N24.03301, W109.89316
+	N24.10938, W109.98252
+
+line3 =
+	N24.13945, W110.31997
+	N24.10049, W110.36743
+	N24.13096, W110.40962
+
+[airport1]
+name = Los Cabos International Airport
+code = MMSD
+runways =
+	rwy1, 16, N23.1653, W109.723, 173.7, 9843, 0, 0, 374

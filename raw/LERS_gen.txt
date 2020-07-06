@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 233
+center = N41.1473999023, E1.16717004776
+magneticvar = -0.368
+beacons =
+	RES, N41.14970, E1.17112, 0, Reus
+	RUS, N41.14780, E1.14614, 0, Reus
+	VLA, N41.34260, E1.54770, 0, Villafranca
+	VNV, N41.21060, E1.70584, 0, Villanueva
+	LRD, N41.55290, E0.64802, 0, Lerida
+	PRA, N41.28310, E2.08186, 0, El Prat
+	BCN, N41.30710, E2.10781, 0, Barcelona
+	MLA, N41.12960, E0.16524, 0, Maella
+	SBD, N41.51940, E2.10305, 0, Sabadell
+	SLL, N41.51990, E2.10975, 0, Sabadell
+
+line1 =
+	N40.31904, E0.36367
+	N40.61450, E0.59609
+	N40.62222, E0.62715
+	N40.61333, E0.66006
+	N40.63047, E0.72061
+	N40.68623, E0.85918
+	N40.72236, E0.89111
+	N40.80381, E0.79609
+	N40.82285, E0.71465
+	N40.89160, E0.81689
+	N41.06206, E1.03291
+	N41.09756, E1.20586
+	N41.19561, E1.56660
+	N41.28740, E2.08262
+	N41.32075, E2.14561
+	N41.46650, E2.31094
+
+line2 =
+	N41.30942, W0.30109
+	N41.28420, W0.09707
+	N41.30606, E0.04034
+	N41.37499, E0.11114
+	N41.41065, E0.16710
+	N41.41313, E0.20813
+	N41.39889, E0.26275
+	N41.36797, E0.33086
+	N41.32843, E0.36221
+	N41.28027, E0.35675
+	N41.25573, E0.36430
+	N41.25430, E0.39502
+	N41.24890, E0.52543
+	N41.21963, E0.58987
+	N41.16470, E0.63172
+	N41.11920, E0.65250
+	N41.08313, E0.65198
+	N41.03752, E0.61384
+	N40.98238, E0.53788
+	N40.90389, E0.51705
+	N40.80203, E0.55126
+	N40.74462, E0.65059
+	N40.72235, E0.89114
+
+[airport1]
+name = Reus Air Base
+code = LERS
+runways =
+	rwy1, 07, N41.1441, E1.15586, 68.9, 8054, 853, 0, 231
+	rwy2, 12, N41.1431, E1.15458, 111.0, 1117, 0, 0, 226

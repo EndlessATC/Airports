@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = N8.53962039948, E99.9447021484
+magneticvar = -0.309
+beacons =
+	NKS, N8.54165, E99.94690, 0, Nakhon Si Thammarat
+	NK, N8.54669, E99.94070, 0, Nakhon Si Thammarat
+	NS, N8.46167, E99.96170, 0, Cha Ian
+	SR, N9.13314, E99.14550, 0, Surat Thani
+	STN, N9.12951, E99.13480, 0, Surat Thani
+	SRT, N9.13304, E99.13160, 0, Surat Thani
+
+line1 =
+	N9.47607, E99.93125
+	N9.42163, E99.96240
+	N9.46143, E100.05371
+	N9.52944, E100.07529
+
+line2 =
+	N7.59185, E99.07842
+	N7.63652, E99.04512
+	N7.62573, E99.03809
+	N7.54849, E99.03770
+
+line3 =
+	N8.05981, E98.78867
+	N8.02393, E98.87246
+	N7.96279, E98.97393
+	N7.88784, E99.05107
+	N7.76562, E99.04268
+	N7.71807, E99.07764
+	N7.71807, E99.18340
+	N7.61904, E99.26367
+	N7.56133, E99.30039
+
+line4 =
+	N7.59927, E100.16074
+	N7.72812, E100.15820
+	N7.77490, E100.25664
+	N7.71597, E100.31738
+	N7.64419, E100.32432
+	N7.58433, E100.27998
+	N7.55151, E100.28379
+	N7.55288, E100.34297
+	N7.54150, E100.38037
+
+line5 =
+	N8.26851, E100.27939
+	N8.42471, E100.22871
+	N8.50840, E100.16348
+	N8.47378, E100.15889
+	N8.44297, E100.15410
+	N8.42808, E100.12930
+	N8.51113, E100.05625
+	N8.58921, E99.98955
+	N8.67124, E99.96064
+	N9.11289, E99.90469
+	N9.19463, E99.87754
+	N9.28838, E99.83555
+	N9.31421, E99.72383
+	N9.21372, E99.39385
+	N9.22544, E99.33545
+	N9.26523, E99.25391
+	N9.35298, E99.26504
+	N9.41460, E99.28828
+
+[airport1]
+name = Nakhon Si Thammarat Airport
+code = VTSF
+runways =
+	rwy1, 01, N8.53014, E99.9437, 6.0, 6890, 0, 0, 13

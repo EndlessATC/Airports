@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 870
+center = N48.9821014404, E6.25131988525
+magneticvar = -0.144
+beacons =
+	MET, N49.06690, E6.12939, 0, Metz
+	GTQ, N48.98640, E6.71622, 0, Grostenquin
+	NAY, N48.58360, E5.95183, 0, Nancy
+	WLU, N49.56780, E6.05417, 0, Luxembourg
+	SAD, N49.21250, E7.11607, 0, Saarbrucken
+	SBN, N49.21890, E7.11834, 0, Saarbrucken
+	LUX, N49.63940, E6.24722, 0, Luxembourg
+	EPL, N48.31780, E6.05942, 0, Epinal
+	SR, N49.21780, E7.21951, 0, Ensheim
+	ELU, N49.67970, E6.35528, 0, Luxembourg
+	ZND, N49.20930, E7.39578, 0, Zweibrucken
+	ZBN, N49.22760, E7.41658, 0, Zweibrucken
+	ZWN, N49.22910, E7.41789, 0, Zweibrucken
+	SAV, N48.79620, E7.44798, 0, Saverne
+	MMD, N49.39130, E5.12442, 0, Montmedy
+
+line1 =
+	N48.00257, E7.60846
+	N48.06430, E7.58417
+	N48.15680, E7.61662
+	N48.28005, E7.70571
+	N48.41002, E7.76514
+	N48.54683, E7.79480
+	N48.63605, E7.83795
+	N48.69853, E7.92275
+
+[airport1]
+name = Metz-Nancy-Lorraine Airport
+code = LFJL
+runways =
+	rwy1, 04, N48.9734, E6.24054, 39.1, 8202, 0, 0, 865

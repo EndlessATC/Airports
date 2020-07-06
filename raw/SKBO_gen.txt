@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8361
+center = N4.70159, W74.1469
+magneticvar = -6.009
+beacons =
+	DR, N4.71913, W74.15970, 0, Delta Romeo
+	R, N4.67611, W74.10250, 0, Romeo
+	TEH, N4.62889, W74.14810, 0, Techo
+	ED, N4.76508, W74.22050, 0, Echo Delta
+	SOA, N4.60306, W74.27310, 0, Soacha
+	BOG, N4.84611, W74.32280, 0, Bogota
+	BOG, N4.84540, W74.32460, 0, Bogota
+	ZIP, N5.01806, W73.98670, 0, Zipaquira
+	ABL, N4.78389, W74.76750, 0, Ambalema
+	PY, N4.07464, W73.54200, 0, Apiay
+	BUV, N5.53222, W73.85860, 0, Buvis
+	GIR, N4.19167, W74.86580, 0, Girardot
+	AP, N4.07500, W73.47500, 0, Apiay
+	MQU, N5.20722, W74.92420, 0, Mariquita
+	VVC, N4.06833, W73.38310, 0, Villavicencio
+	VVC, N4.06694, W73.38220, 0, Villavicencio
+
+line1 =
+	N3.79339, W74.97115
+	N4.03779, W74.85809
+	N4.19427, W74.82005
+	N4.27426, W74.82359
+	N4.27778, W74.86871
+	N4.42169, W74.86108
+	N4.84805, W74.77052
+	N5.18870, W74.75561
+	N5.36740, W74.72316
+	N5.49770, W74.66828
+	N5.61511, W74.64627
+
+line2 =
+	N4.66997, W73.87220
+	N4.60807, W73.90853
+	N4.54068, W73.91657
+	N4.44720, W73.90845
+	N4.36495, W73.88610
+	N4.25847, W73.83125
+	N4.19323, W73.74136
+	N4.14197, W73.71872
+	N4.08290, W73.73330
+	N4.02239, W73.57129
+	N3.96048, W73.23271
+	N3.95774, W73.03443
+	N4.01423, W72.97639
+
+[airport1]
+name = El Dorado International Airport
+code = SKBO
+runways =
+	rwy1, 13L, N4.71339, W74.1521, 127.0, 12467, 0, 0, 8354
+	rwy2, 13R, N4.7105, W74.1692, 127.0, 12467, 0, 0, 8350

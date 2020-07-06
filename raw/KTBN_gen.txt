@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1159
+usa = true
+transition = 18001
+center = N37.74160004, W92.14070129
+magneticvar = 1.495
+beacons =
+	TBN, N37.74240, W92.13900, 0, Forney
+	BHN, N37.69750, W92.10380, 0, Buckhorn
+	MAP, N37.59080, W91.78860, 0, Maples
+	IEB, N37.57140, W92.65820, 0, Lebanon
+	SHY, N38.04060, W92.60240, 0, Sunshine
+	AIZ, N38.09660, W92.55310, 0, Kaiser
+	VIH, N38.15410, W91.70680, 0, Vichy
+	UBX, N38.06530, W91.42740, 0, Cuba
+	JE, N38.54800, W92.07170, 0, Algoa
+	MNF, N36.99390, W91.71260, 0, Mountain View
+	AOV, N36.96980, W92.67740, 0, Bilmart
+	UUV, N38.23540, W91.16400, 0, Sullivan
+	DGD, N37.02350, W92.87690, 0, Dogwood
+
+line1 =
+	N38.65888, W92.29291
+	N38.58609, W92.12365
+	N38.59785, W91.97849
+	N38.66989, W91.80098
+	N38.70627, W91.61905
+	N38.70694, W91.43271
+	N38.66658, W91.23755
+	N38.58519, W91.03359
+	N38.57881, W90.87173
+	N38.64751, W90.75205
+
+[airport1]
+name = Waynesville-St. Robert Regional Forney field
+code = KTBN
+runways =
+	rwy1, 14, N37.748, W92.1474, 140.0, 6038, 501, 526, 1158

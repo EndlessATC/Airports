@@ -1,0 +1,108 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 96
+usa = true
+transition = 18001
+center = N28.4293994904, W81.3089981079
+magneticvar = -4.476
+beacons =
+	ORL, N28.54270, W81.33500, 0, Orlando
+	OR, N28.50730, W81.43420, 0, Herny
+	ISM, N28.28940, W81.43420, 0, Kissimmee
+	SFB, N28.78490, W81.24330, 0, Sanford
+	GGL, N28.59310, W80.81640, 0, Geiger Lake
+	COI, N28.34080, W80.68840, 0, Merritt Island
+	TTS, N28.62620, W80.69580, 0, Kennedy Space Center
+	LEE, N28.81820, W81.80730, 0, Leesburg
+	SQT, N28.09950, W80.70080, 0, Satellite
+	COF, N28.23770, W80.61180, 0, Patrick
+	MLB, N28.10530, W80.63530, 0, Melbourne
+	EVB, N29.05420, W80.94140, 0, New Smyrna Beach
+	DA, N29.14410, W81.14770, 0, Tomok
+	LAL, N27.98620, W82.01390, 0, Lakeland
+	RHZ, N28.22710, W82.15710, 0, Zephyrhills
+	LA, N27.93540, W82.07580, 0, Wirey
+	PCM, N28.00250, W82.15670, 0, Plant City
+	OC, N29.05640, W82.22320, 0, Jumpi
+	VRB, N27.67840, W80.48960, 0, Vero Beach
+	VEP, N27.66410, W80.41960, 0, Vero Beach
+	OCF, N29.17750, W82.22630, 0, Ocala
+
+line1 =
+	N27.67861, W80.35552
+	N27.79453, W80.39575
+	N27.85054, W80.43691
+	N27.64341, W80.37607
+
+line2 =
+	N27.74600, W82.62603
+	N27.77725, W82.61099
+	N27.87324, W82.59658
+	N27.89775, W82.63379
+
+line3 =
+	N27.95845, W82.57959
+	N27.87788, W82.52061
+	N27.86792, W82.49814
+	N27.90283, W82.44570
+	N27.86289, W82.40576
+	N27.83540, W82.40054
+	N27.77114, W82.43052
+	N27.67827, W82.52085
+
+line4 =
+	N28.18091, W80.65010
+	N28.27217, W80.68638
+	N28.38101, W80.74863
+	N28.56064, W80.78721
+	N28.63560, W80.81841
+	N28.75767, W80.83818
+	N28.75894, W80.80869
+	N28.73247, W80.77100
+	N28.68296, W80.77988
+	N28.63281, W80.76592
+	N28.60093, W80.70024
+	N28.57852, W80.68848
+	N28.51621, W80.72905
+	N28.46289, W80.73174
+	N28.34497, W80.69351
+	N28.37490, W80.66548
+	N28.45220, W80.65391
+	N28.51802, W80.63286
+	N28.52290, W80.60693
+	N28.32036, W80.62285
+	N28.17759, W80.61001
+	N27.93447, W80.49956
+	N27.90068, W80.45688
+	N28.07007, W80.53315
+	N28.18086, W80.57285
+	N28.27158, W80.58496
+	N28.36470, W80.58115
+	N28.42646, W80.56782
+	N28.48608, W80.52412
+	N28.55640, W80.56431
+	N29.04985, W80.90000
+
+[airport1]
+name = Orlando International Airport
+code = KMCO
+runways =
+	rwy1, 17L, N28.4437, W81.2826, 179.5, 9000, 0, 0, 90
+	rwy2, 17R, N28.4356, W81.2959, 179.0, 10000, 0, 0, 90
+	rwy3, 18L, N28.4483, W81.3223, 179.0, 12005, 0, 0, 93
+	rwy4, 18R, N28.4483, W81.327, 179.0, 12004, 0, 0, 93
+
+[airport2]
+name = Orlando Sanford International Airport
+code = FB
+runways =
+	rwy5, 09C, N28.7785, W81.2455, 90.0, 3578, 0, 0, 52
+	rwy6, 09L, N28.7817, W81.256, 90.0, 9600, 1000, 600, 55
+	rwy7, 09R, N28.7699, W81.2356, 89.9, 3500, 0, 0, 46
+	rwy8, 18, N28.7833, W81.2348, 180.0, 6003, 0, 0, 49
+inboundbeacon = SFB

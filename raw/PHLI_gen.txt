@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 153
+usa = true
+transition = 18001
+center = N21.9759998322, W159.339004517
+magneticvar = 9.574
+beacons =
+	LIH, N21.96530, W159.33800, 0, Lihue
+	SOK, N21.90040, W159.52901, 0, South Kauai
+	NBS, N22.03760, W159.78500, 0, Barking Sands
+
+line1 =
+	N21.89727, W160.22090
+	N21.84307, W160.24346
+	N21.80366, W160.23472
+	N21.79688, W160.20024
+	N21.84106, W160.18003
+	N21.87876, W160.15342
+	N21.90742, W160.08003
+	N21.95811, W160.07671
+	N22.00464, W160.04873
+	N22.01523, W160.10063
+	N21.94404, W160.16387
+	N21.89727, W160.22090
+
+line2 =
+	N21.60024, W158.12310
+	N21.58525, W158.27314
+	N21.53306, W158.23867
+	N21.48936, W158.23911
+	N21.37715, W158.13784
+	N21.31860, W158.11035
+
+line3 =
+	N22.22314, W159.57920
+	N22.14019, W159.72661
+	N22.04180, W159.78916
+	N21.98984, W159.74800
+	N21.95176, W159.64639
+	N21.90952, W159.60884
+	N21.90039, W159.51187
+	N21.87612, W159.46069
+	N21.93237, W159.37275
+	N21.97363, W159.34375
+	N22.05068, W159.33018
+	N22.10527, W159.30068
+	N22.15405, W159.30479
+	N22.21958, W159.35205
+	N22.22314, W159.57920
+
+[airport1]
+name = Lihue Airport
+code = PHLI
+runways =
+	rwy1, 03, N21.9729, W159.349, 45.0, 6500, 0, 205, 153
+	rwy2, 17, N21.9817, W159.336, 180.0, 6500, 0, 0, 92

@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 230
+center = N14.9245004654, W23.4934997559
+magneticvar = -11.237
+beacons =
+	PRA, N14.92260, W23.49620, 0, Praia
+	SNT, N14.93910, W23.48210, 0, Praia
+
+line1 =
+	N15.01948, W24.32949
+	N15.03828, W24.39199
+	N14.98027, W24.49687
+	N14.93125, W24.51709
+	N14.87422, W24.49219
+	N14.83481, W24.44053
+	N14.81821, W24.38613
+	N14.85630, W24.30825
+	N14.92954, W24.29580
+	N15.01948, W24.32949
+
+line2 =
+	N15.32354, W23.21025
+	N15.25698, W23.24717
+	N15.24053, W23.24248
+	N15.17812, W23.25181
+	N15.13311, W23.20996
+	N15.13677, W23.18213
+	N15.16665, W23.11587
+	N15.26841, W23.11934
+	N15.31772, W23.13774
+	N15.32354, W23.21025
+
+line3 =
+	N15.13926, W23.53525
+	N15.16089, W23.57998
+	N15.27163, W23.70063
+	N15.31689, W23.70723
+	N15.32852, W23.74810
+	N15.31079, W23.75937
+	N15.24355, W23.75449
+	N15.16611, W23.78252
+	N15.07690, W23.78501
+	N14.96133, W23.70537
+	N14.92349, W23.63721
+	N14.91611, W23.50469
+	N15.00796, W23.44424
+	N15.13926, W23.53525
+
+[airport1]
+name = Praia International Airport
+code = GVNP
+runways =
+	rwy1, 03L, N14.9192, W23.4957, 22.0, 4209, 0, 0, 0
+	rwy2, 03R, N14.9319, W23.4885, 22.0, 6876, 650, 0, 0
+
+[airport2]
+name = Maio Airport
+code = MA
+runways =
+	rwy3, 02, N15.1505, W23.2139, 2.0, 3924, 0, 0, 0
+inboundbeacon = SNT

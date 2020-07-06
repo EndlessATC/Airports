@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2122
+center = S22.1968994141, W49.926399231
+magneticvar = -18.100
+beacons =
+	MRA, S22.19480, W49.92930, 0, Marilia
+	LNS, S21.66350, W49.73370, 0, Lins
+	TUP, S21.89380, W50.50220, 0, Tupa
+	ASS, S22.64480, W50.45300, 0, Assis
+	BRU, S22.31400, W49.10720, 0, Bauru
+	ORH, S22.97350, W49.91230, 0, Ourinhos
+
+[airport1]
+name = Frank Miloye Milenkowichi–Marília State Airport
+code = SBML

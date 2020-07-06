@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5112
+metric = true
+center = N27.9890995026, E102.183998108
+magneticvar = -1.177
+beacons =
+	XIC, N27.99830, E102.18000, 0, Xichang
+	SB, N27.73670, E102.16300, 0, Hexi
+
+line1 =
+	N27.01267, E102.89742
+	N27.18868, E102.88998
+	N27.31270, E102.90331
+	N27.38471, E102.93752
+	N27.41202, E102.96915
+	N27.39466, E102.99829
+	N27.39807, E103.04640
+	N27.43435, E103.14702
+	N27.53367, E103.20019
+	N27.57204, E103.23745
+	N27.58253, E103.27641
+	N27.60095, E103.29300
+	N27.62725, E103.28706
+	N27.67030, E103.32592
+	N27.73004, E103.40958
+	N27.81381, E103.47924
+
+line2 =
+	N28.02560, E103.47144
+	N28.06521, E103.44441
+	N28.11100, E103.45134
+	N28.16118, E103.48395
+
+[airport1]
+name = Xichang Qingshan Airport
+code = ZUXC
+runways =
+	rwy1, 18, N28.0053, E102.184, 178.4, 11811, 0, 0, 5112

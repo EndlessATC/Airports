@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 117
+metric = true
+center = N39.224098, E125.669998
+magneticvar = -8.212
+beacons =
+	GK, N39.23390, E125.67300, 0, Pyongyang
+	WK, N39.32220, E125.67700, 0, Pyongyang
+	KP, N39.60910, E125.67100, 0, Anju
+	GG, N39.59670, E126.34500, 0, Bucha
+
+line1 =
+	N39.60210, E124.88955
+	N39.55889, E124.84609
+	N39.50757, E124.84893
+	N39.53628, E124.90527
+	N39.60781, E124.93457
+	N39.60210, E124.88955
+
+line2 =
+	N39.92417, E124.26748
+	N40.01157, E124.35000
+	N40.00405, E124.36211
+	N39.99614, E124.37510
+	N39.90688, E124.34863
+	N39.86553, E124.40381
+	N39.79058, E124.55742
+	N39.71694, E124.60762
+	N39.61509, E124.63828
+	N39.63237, E124.69922
+	N39.65220, E124.73223
+	N39.74150, E124.73887
+	N39.75806, E124.77529
+	N39.70181, E124.86787
+	N39.59033, E125.10010
+	N39.58350, E125.18008
+	N39.52661, E125.36084
+	N39.42764, E125.37363
+	N39.32627, E125.41318
+	N39.28838, E125.40967
+	N38.87153, E125.15732
+	N38.80552, E125.16885
+	N38.74297, E125.29893
+	N38.74687, E125.42422
+	N38.72778, E125.48867
+	N38.68623, E125.55449
+	N38.67612, E125.49180
+	N38.68042, E125.41533
+	N38.66538, E125.30967
+	N38.55674, E125.06738
+	N38.48013, E124.97373
+	N38.34165, E124.88057
+	N38.29497, E124.88271
+	N38.23340, E124.87451
+
+[airport1]
+name = Pyongyang Sunan International Airport
+code = ZKPY
+runways =
+	rwy1, 01, N39.2277, E125.676, 0.7, 12475, 0, 0, 89
+	rwy2, 17, N39.2204, E125.664, 163.0, 11490, 0, 0, 96

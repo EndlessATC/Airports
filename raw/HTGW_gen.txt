@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4412
+center = S8.919942, E33.273981
+magneticvar = -2.181
+beacons =
+	MB, S8.91459, E33.45820, 0, Mbeya
+
+line1 =
+	S9.87402, E33.94121
+	S9.84277, E33.91865
+	S9.80176, E33.90664
+	S9.75098, E33.90508
+	S9.71250, E33.91592
+	S9.65820, E33.95371
+	S9.62734, E33.95938
+	S9.56533, E33.94961
+	S9.53174, E33.96211
+	S9.49541, E33.99561
+	S9.53779, E34.08857
+	S9.73154, E34.32090
+	S9.75654, E34.32783
+
+line2 =
+	S8.03896, E32.51387
+	S8.06953, E32.53047
+	S8.09043, E32.52129
+	S8.03301, E32.36289
+	S7.96338, E32.17100
+
+line3 =
+	S7.98906, E32.44814
+	S8.03896, E32.51387
+	S8.03896, E32.51387
+	S8.03896, E32.51387
+	S8.03896, E32.51387
+
+[airport1]
+name = Songwe Airport
+code = HTGW

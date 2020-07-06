@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 638
+usa = true
+center = S22.3635997772, E143.085998535
+magneticvar = 7.219
+beacons =
+	WTN, S22.36530, E143.08400, 0, Winton
+
+[airport1]
+name = Winton Airport
+code = YWTN
+runways =
+	rwy1, 05, S22.3639, E143.077, 60.0, 2920, 0, 0, 628
+	rwy2, 14, S22.3571, E143.083, 149.0, 4600, 0, 0, 638

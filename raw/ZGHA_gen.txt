@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 217
+metric = true
+center = N28.1891994476, E113.220001221
+magneticvar = -3.063
+beacons =
+	CSX, N28.20330, E113.21700, 0, Changsha
+	ZK, N28.01670, E112.96500, 0, Datuopu
+	LZ, N27.63330, E113.53300, 0, Liling
+	LIG, N27.62670, E113.52700, 0, Liling
+
+line1 =
+	N29.03138, E112.90487
+	N28.92723, E112.80116
+	N28.87431, E112.69264
+	N28.83793, E112.54474
+	N28.86098, E112.35131
+	N28.98472, E111.99289
+	N29.14745, E112.99355
+
+line2 =
+	N28.98485, E111.99289
+	N29.03138, E112.90487
+	N29.14745, E112.99355
+
+[airport1]
+name = Changsha Huanghua International Airport
+code = ZGHA
+runways =
+	rwy1, 18, N28.2009, E113.219, 177.0, 8530, 0, 0, 217

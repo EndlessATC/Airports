@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 74
+center = N10.9126033783, W63.9665985107
+magneticvar = -12.273
+beacons =
+	MTA, N10.92340, W63.96140, 0, Margarita
+	MTA, N10.92060, W63.95670, 0, Margarita
+	MT, N10.89590, W64.04720, 0, Giles
+	CUM, N10.44730, W64.13810, 0, Cumana
+	CUP, N10.66030, W63.25760, 0, Carupano
+	BNA, N10.13310, W64.70560, 0, Barcelona
+
+line1 =
+	N11.06846, W64.00732
+	N11.00186, W64.02832
+	N11.00566, W64.11279
+	N11.04297, W64.18481
+	N11.08613, W64.21367
+	N11.08032, W64.24976
+	N11.05190, W64.34863
+	N10.98159, W64.40234
+	N10.96152, W64.36250
+	N10.94160, W64.21895
+	N10.95879, W64.16089
+	N10.90142, W64.10117
+	N10.88433, W64.05469
+	N10.88120, W63.99355
+	N10.88755, W63.91763
+	N10.97583, W63.82710
+	N11.00034, W63.81729
+	N11.13101, W63.84937
+	N11.16724, W63.89312
+	N11.06846, W64.00732
+
+line2 =
+	N10.39922, W62.78125
+	N10.39990, W62.81294
+	N10.41792, W62.84302
+	N10.50723, W62.84297
+	N10.53149, W62.91357
+
+line3 =
+	N10.70708, W62.94673
+	N10.72012, W63.03550
+	N10.70918, W63.18989
+	N10.64326, W63.49678
+	N10.66377, W63.87344
+	N10.63267, W64.20195
+	N10.63516, W64.29819
+	N10.54258, W64.24751
+	N10.57925, W64.15791
+	N10.55815, W63.86270
+	N10.50342, W63.73188
+	N10.47192, W63.77905
+	N10.44854, W63.83369
+	N10.45781, W64.18833
+	N10.09810, W64.85049
+	N10.09502, W64.94404
+	N10.07666, W65.02329
+	N10.07007, W65.12910
+
+[airport1]
+name = Del Caribe Santiago Mariño International Airport
+code = SVMG
+runways =
+	rwy1, 09, N10.9093, W63.9809, 78.0, 10499, 0, 0, 74
+	rwy2, 09L, N10.9109, W63.982, 78.0, 9958, 0, 0, 0

@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 15
+center = N19.757900238, W70.5699996948
+magneticvar = -10.178
+beacons =
+	PTA, N19.75930, W70.57040, 0, Puerto Plata
+	PPA, N19.75240, W70.57030, 0, Puerto Plata
+	SGO, N19.40730, W70.60380, 0, Santiago
+
+line1 =
+	N19.08608, W69.39526
+	N19.10762, W69.50835
+	N19.11782, W69.62363
+	N19.16050, W69.62324
+	N19.20649, W69.60596
+	N19.21201, W69.51973
+
+line2 =
+	N19.29922, W69.73940
+	N19.36714, W69.82344
+	N19.47329, W69.87832
+	N19.58975, W69.89121
+	N19.67188, W69.95684
+	N19.67295, W70.01406
+	N19.63613, W70.12944
+	N19.63804, W70.19385
+	N19.67607, W70.30474
+	N19.77124, W70.43643
+	N19.77695, W70.47935
+	N19.77563, W70.63618
+	N19.79326, W70.68594
+	N19.85088, W70.78525
+	N19.88726, W70.83389
+	N19.91396, W70.95415
+	N19.89048, W71.08193
+	N19.84814, W71.23594
+	N19.84736, W71.28135
+	N19.89399, W71.44170
+	N19.89536, W71.55776
+	N19.87744, W71.61597
+	N19.84863, W71.66738
+	N19.79517, W71.70605
+	N19.73511, W71.73511
+	N19.71816, W71.77925
+
+[airport1]
+name = Gregorio Luperon International Airport
+code = MDPP
+runways =
+	rwy1, 08, N19.7538, W70.5841, 73.0, 10108, 0, 0, 17
+
+[airport2]
+name = Cibao International Airport
+code = ST
+runways =
+	rwy2, 11, N19.4088, W70.6169, 103.0, 8595, 0, 0, 565
+inboundbeacon = SGO

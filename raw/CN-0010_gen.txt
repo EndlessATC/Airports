@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N38.322758, E106.393214
+magneticvar = -2.578
+beacons =
+	YNC, N38.32330, E106.39700, 0, Yinchuan
+
+line1 =
+	N37.41539, E104.95693
+	N37.46149, E104.99786
+	N37.48278, E105.15196
+	N37.49471, E105.43277
+	N37.52200, E105.64898
+	N37.56474, E105.80040
+	N37.66080, E105.90530
+	N37.81025, E105.96359
+	N37.91570, E106.03687
+	N37.97709, E106.12503
+	N38.06414, E106.19639
+	N38.17689, E106.25086
+	N38.28169, E106.33783
+	N38.37848, E106.45720
+	N38.49778, E106.53100
+	N38.63953, E106.55911
+	N38.77970, E106.63993
+	N38.91830, E106.77357
+	N39.01684, E106.85067
+	N39.07529, E106.87134
+	N39.18311, E106.84870
+
+[airport1]
+name = Yinchuan Hedong International Airport
+code = CN-0010

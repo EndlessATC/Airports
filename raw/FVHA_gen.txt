@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4887
+center = S17.931801, E31.0928
+magneticvar = -8.060
+beacons =
+	SI, S17.95380, E31.06990, 0, Harare
+	VSB, S17.90720, E31.11850, 0, Harare
+	OL, S17.99430, E31.02760, 0, Harare
+	CP, S17.75140, E30.92660, 0, Charles Prince
+	BZ, S18.06730, E31.33930, 0, Harare
+	NZ, S17.89570, E30.68190, 0, Norton
+	KU, S17.52450, E31.25780, 0, Makumbi
+
+[airport1]
+name = Robert Gabriel Mugabe International Airport
+code = FVHA
+runways =
+	rwy1, 05, S17.9469, E31.0771, 46.0, 15502, 3557, 0, 4793

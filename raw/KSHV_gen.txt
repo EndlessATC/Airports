@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 258
+usa = true
+transition = 18001
+center = N32.446602, W93.8256
+magneticvar = 3.247
+beacons =
+	SH, N32.50180, W93.87810, 0, Crakk
+	DTN, N32.53990, W93.74130, 0, Downtown
+	BAD, N32.50330, W93.66780, 0, Barksdale
+	EMG, N32.40020, W93.59510, 0, Elm Grove
+	EIC, N32.77140, W93.80990, 0, Belcher
+	MSD, N32.06430, W93.76450, 0, Mansfield
+	VIV, N32.85960, W94.01020, 0, Vivian
+	RPF, N32.18020, W94.29630, 0, Carthage
+	MNE, N32.64080, W93.30210, 0, Minden
+	SPH, N32.92030, W93.40940, 0, Springhill
+	CZJ, N31.83290, W94.15380, 0, Amason
+	ATA, N33.10370, W94.19050, 0, Atlanta
+	HMQ, N32.79010, W93.00070, 0, Homer
+	GGG, N32.41780, W94.75320, 0, Gregg Co
+	GG, N32.45560, W94.79760, 0, Veels
+	IE, N31.65740, W93.07760, 0, Campi
+	GXD, N31.64850, W94.70550, 0, Nacogdoches
+
+[airport1]
+name = Shreveport Regional Airport
+code = KSHV
+runways =
+	rwy1, 06, N32.4451, W93.8329, 60.8, 6202, 0, 0, 237
+	rwy2, 14, N32.4538, W93.8349, 143.0, 8351, 0, 375, 258

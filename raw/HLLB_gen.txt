@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 433
+center = N32.0968017578, E20.2695007324
+magneticvar = 2.246
+beacons =
+	BNA, N32.08940, E20.26140, 0, Benina
+	BNA, N32.12500, E20.25330, 0, Benina
+
+line1 =
+	N32.93730, E21.63594
+	N32.79917, E21.42471
+	N32.77769, E21.31875
+	N32.77554, E21.06230
+	N32.58018, E20.62109
+	N32.43076, E20.37061
+	N32.21875, E20.12148
+	N32.10786, E20.03096
+	N31.99907, E19.97344
+	N31.81753, E19.92637
+	N31.55601, E19.96123
+	N31.41064, E20.02002
+	N31.30054, E20.10381
+	N31.19551, E20.14111
+
+[airport1]
+name = Benina International Airport
+code = HLLB
+runways =
+	rwy1, 15L, N32.1116, E20.2615, 150.5, 11732, 0, 0, 372
+	rwy2, 15R, N32.1102, E20.2587, 150.5, 11731, 0, 0, 372

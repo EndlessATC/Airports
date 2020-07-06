@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3783
+center = N39.7102012634, E39.5270004272
+magneticvar = 5.002
+beacons =
+	ERN, N39.70830, E39.52920, 0, Erzincan
+	ERN, N39.70830, E39.52920, 0, Erzincan
+
+line1 =
+	N38.81283, E38.76779
+	N38.87499, E38.81265
+	N39.07844, E38.73958
+
+line2 =
+	N38.81283, E38.76779
+	N38.76802, E38.55463
+	N38.71374, E38.44988
+
+line3 =
+	N39.94371, E40.98471
+	N39.92805, E40.76979
+	N39.94511, E40.56898
+	N39.94221, E40.39622
+	N39.91937, E40.25142
+	N39.89488, E40.16936
+	N39.86873, E40.14983
+	N39.82382, E40.16993
+	N39.76016, E40.22957
+	N39.69437, E40.24047
+	N39.62647, E40.20264
+	N39.58441, E40.16326
+	N39.56823, E40.12223
+	N39.59536, E39.93899
+	N39.66580, E39.61343
+	N39.68344, E39.41458
+	N39.64825, E39.34254
+	N39.61854, E39.19630
+	N39.59430, E38.97605
+	N39.53648, E38.73979
+	N39.44506, E38.48750
+	N39.34246, E38.42601
+	N39.22861, E38.55530
+	N39.17027, E38.64279
+	N39.16743, E38.68857
+	N39.14412, E38.71849
+	N39.07849, E38.73958
+
+[airport1]
+name = Erzincan Airport
+code = LTCD
+runways =
+	rwy1, 11, N39.7158, E39.5106, 111.0, 9842, 0, 0, 3783
+	rwy2, 13, N39.7152, E39.5069, 127.1, 5800, 0, 0, 0

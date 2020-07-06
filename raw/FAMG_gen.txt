@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 495
+center = S30.8574008942, E30.343000412
+magneticvar = -25.356
+beacons =
+	UR, S30.80420, E30.36940, 0, Margate
+	SI, S31.28330, E29.51670, 0, Lusikisi
+	DU, S30.02560, E30.90580, 0, Durban
+	PJ, S31.63560, E29.55030, 0, Port St Johns
+
+line1 =
+	S31.67471, E29.48291
+	S31.47041, E29.73516
+	S31.42383, E29.83027
+	S31.32207, E29.97119
+	S30.97012, E30.28867
+	S30.71455, E30.47227
+	S30.43418, E30.66357
+	S30.07109, E30.87764
+	S29.90088, E31.02334
+
+[airport1]
+name = Margate Airport
+code = FAMG
+runways =
+	rwy1, 05, S30.863, E30.3403, 22.0, 4495, 0, 0, 0

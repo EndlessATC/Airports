@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 14219
+metric = true
+center = N30.5536003113, E97.1082992554
+magneticvar = -0.398
+beacons =
+	RG, N31.15170, E97.17670, 0, Changdu
+
+line1 =
+	N31.52831, E97.17519
+	N31.46309, E97.20681
+	N31.38082, E97.21518
+	N31.32522, E97.20392
+	N31.29618, E97.17281
+	N31.23256, E97.16754
+	N31.13435, E97.18790
+	N31.04971, E97.24288
+	N30.97863, E97.33228
+	N30.89031, E97.37745
+	N30.78468, E97.37817
+	N30.61834, E97.49548
+	N30.27774, E97.84626
+	N30.16240, E97.96273
+	N30.04602, E98.03725
+	N29.89017, E98.10856
+	N29.81022, E98.16065
+	N29.80624, E98.19362
+	N29.76289, E98.24236
+	N29.68020, E98.30695
+	N29.56822, E98.36328
+
+line2 =
+	N30.44791, E96.59558
+	N30.44331, E96.67527
+	N30.40561, E96.70689
+	N30.33327, E96.71713
+	N30.24523, E96.85360
+	N30.14152, E97.11643
+	N30.03240, E97.29042
+	N29.91789, E97.37548
+	N29.81663, E97.42416
+	N29.72868, E97.43636
+	N29.63504, E97.47713
+
+line3 =
+	N30.98989, E95.79904
+	N30.97806, E95.96244
+	N30.92093, E96.15747
+	N30.87334, E96.28325
+	N30.83525, E96.33958
+	N30.72053, E96.41094
+	N30.52920, E96.49724
+	N30.43711, E96.55419
+	N30.44791, E96.59558
+
+[airport1]
+name = Qamdo Bangda Airport
+code = ZUBD

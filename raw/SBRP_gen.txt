@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1806
+center = S21.1363887787, W47.7766685486
+magneticvar = -19.235
+beacons =
+	RPR, S21.14270, W47.77600, 0, Ribeirao
+	FRC, S20.58370, W47.38250, 0, Franca
+	AAQ, S21.81300, W48.13950, 0, Araraquara
+	BRT, S20.58220, W48.59670, 0, Barretos
+
+line1 =
+	S20.28434, W47.07327
+	S20.47973, W46.74104
+	S20.56438, W46.61950
+	S20.62282, W46.58707
+
+line2 =
+	S20.62282, W46.58707
+	S20.28419, W47.07348
+
+line3 =
+	S20.13924, W48.36100
+	S20.14389, W48.71570
+	S20.15903, W48.81198
+	S20.23277, W48.85836
+	S20.37007, W48.88698
+	S20.42919, W48.91838
+	S20.41012, W48.95248
+	S20.33824, W48.97796
+	S20.21370, W48.99470
+
+[airport1]
+name = Leite Lopes Airport
+code = SBRP

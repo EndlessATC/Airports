@@ -1,0 +1,96 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 861
+usa = true
+transition = 18001
+center = N42.7787017822, W84.5874023438
+magneticvar = -5.116
+beacons =
+	LA, N42.77760, W84.49760, 0, Artda
+	LAN, N42.71740, W84.69770, 0, Lansing
+	OZW, N42.63390, W83.98770, 0, Howell
+	JX, N42.31780, W84.36550, 0, Jakso
+	JXN, N42.25920, W84.45850, 0, Jackson
+	FN, N42.96810, W83.89010, 0, Petli
+	AMN, N43.32340, W84.78520, 0, Alma
+	GR, N42.89570, W85.37850, 0, Knobs
+	BT, N42.36190, W85.18420, 0, Batol
+	FNT, N42.96680, W83.74700, 0, Flint
+	VIO, N42.78670, W85.49710, 0, Victory
+	BTL, N42.30980, W85.25230, 0, Battle Creek
+	LFD, N42.06250, W84.76510, 0, Litchfield
+	MB, N43.46160, W84.17960, 0, Olste
+	PSI, N42.70090, W83.53280, 0, Pontiac
+	SVM, N42.40890, W83.59410, 0, Salem
+	MBS, N43.53160, W84.07720, 0, Saginaw
+	HYX, N43.43150, W83.85810, 0, Browne
+	AZO, N42.23700, W85.55320, 0, Kalamazoo
+	YI, N42.17420, W83.62150, 0, Yipps
+	AZ, N42.13110, W85.52980, 0, Austn
+	HAI, N41.95840, W85.59170, 0, Three Rivers
+	CRL, N42.04810, W83.45760, 0, Carleton
+	HIC, N43.57490, W85.71620, 0, White Cloud
+
+line1 =
+	N42.28643, W83.10483
+	N42.27549, W83.07646
+	N42.21519, W83.10454
+	N42.11978, W83.11724
+	N42.07100, W83.10786
+	N42.05020, W83.06123
+
+line2 =
+	N41.87988, W83.36206
+	N41.92329, W83.31616
+	N41.93506, W83.29722
+	N41.93457, W83.27251
+	N41.94639, W83.26182
+	N41.97056, W83.26523
+	N41.98560, W83.25557
+	N42.02705, W83.20479
+	N42.04893, W83.17656
+	N42.08340, W83.18843
+	N42.14629, W83.17524
+	N42.22764, W83.14214
+	N42.28643, W83.10483
+
+line3 =
+	N42.27549, W83.07646
+	N42.28643, W83.10483
+	N42.32266, W83.06338
+	N42.34712, W83.01650
+
+line4 =
+	N42.31187, W83.01362
+	N42.29702, W83.04668
+	N42.27549, W83.07646
+
+line5 =
+	N43.75845, W83.44736
+	N43.75845, W83.44736
+	N43.75845, W83.44736
+	N43.75845, W83.44736
+	N43.75845, W83.44736
+	N43.75845, W83.44736
+	N43.73091, W83.46890
+	N43.72090, W83.52603
+	N43.69712, W83.57310
+	N43.63647, W83.62158
+	N43.62100, W83.66787
+	N43.62666, W83.73521
+	N43.66362, W83.84800
+	N43.70059, W83.91567
+	N43.73755, W83.93828
+
+[airport1]
+name = Capital City Airport
+code = KLAN
+runways =
+	rwy1, 06, N42.7732, W84.601, 53.0, 5001, 0, 0, 859
+	rwy2, 10L, N42.7819, W84.585, 90.6, 3601, 0, 0, 846
+	rwy3, 10R, N42.7782, W84.6011, 90.6, 7251, 0, 0, 861

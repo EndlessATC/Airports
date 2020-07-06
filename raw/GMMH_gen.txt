@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = N23.7183, W15.932
+magneticvar = -6.441
+beacons =
+	DKA, N23.70470, W15.93280, 0, Dakhla
+	DKH, N23.73980, W15.92630, 0, Dakhla
+
+line1 =
+	N24.54883, W15.03887
+	N24.47881, W15.18862
+	N24.07275, W15.58633
+	N23.95293, W15.77778
+	N23.84443, W15.89932
+	N23.74082, W15.95283
+	N23.67031, W15.98071
+	N23.72759, W15.91255
+	N23.80034, W15.85518
+	N23.84224, W15.80166
+	N23.79287, W15.78926
+	N23.74951, W15.80596
+	N23.55264, W15.94263
+	N23.42549, W15.99673
+	N23.22754, W16.11367
+	N23.09790, W16.21025
+	N23.03193, W16.16973
+	N22.94536, W16.20186
+	N22.83481, W16.30430
+
+[airport1]
+name = Dakhla Airport
+code = GMMH
+runways =
+	rwy1, 03, N23.7058, W15.9377, 22.7, 9842, 0, 0, 36

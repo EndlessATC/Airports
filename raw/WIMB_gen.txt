@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = N1.16638, E97.704697
+magneticvar = -0.446
+beacons =
+	GI, N1.16417, E97.70580, 0, Nias
+	NIS, N1.16866, E97.70170, 0, Nias
+
+line1 =
+	N1.49463, E98.79639
+	N1.70195, E98.70254
+	N1.86460, E98.59531
+	N1.90215, E98.56426
+
+line2 =
+	N1.14590, E97.78643
+	N1.18374, E97.69834
+	N1.46509, E97.48154
+	N1.53975, E97.35596
+	N1.52793, E97.34277
+	N1.48164, E97.32441
+	N1.42363, E97.24424
+	N1.42549, E97.07920
+	N1.18735, E97.29688
+	N1.05693, E97.36885
+	N0.94697, E97.40537
+	N0.94141, E97.46123
+	N0.83389, E97.60391
+	N0.64106, E97.68252
+	N0.59609, E97.68398
+	N0.56445, E97.82041
+	N0.62832, E97.87646
+	N0.88423, E97.90205
+	N0.97393, E97.93193
+	N1.01826, E97.90322
+	N1.14590, E97.78643
+
+line3 =
+	N2.15850, E97.22510
+	N2.05327, E97.32832
+	N2.07563, E97.33418
+	N2.14854, E97.32871
+
+[airport1]
+name = Binaka Airport
+code = WIMB
+runways =
+	rwy1, 09, N1.16662, E97.6986, 92.3, 4445, 0, 0, 0

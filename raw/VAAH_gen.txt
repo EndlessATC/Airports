@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 189
+center = N23.0771999359, E72.6346969604
+magneticvar = -0.188
+beacons =
+	AAE, N23.07220, E72.62500, 0, Ahmedabad
+	AH, N23.14140, E72.69970, 0, Ahmedabad
+	QZ, N22.33480, E73.20930, 0, Vadodara
+	QQZ, N22.33280, E73.22510, 0, Vadodara
+
+line1 =
+	N22.08975, E72.27441
+	N22.18921, E72.30645
+	N22.24517, E72.24258
+	N22.26973, E72.18281
+	N22.27021, E72.33262
+	N22.24810, E72.45596
+	N22.27813, E72.59014
+	N22.26362, E72.70195
+	N22.23330, E72.80918
+	N22.20718, E72.70879
+	N22.19961, E72.62793
+	N22.15996, E72.55303
+
+[airport1]
+name = Sardar Vallabhbhai Patel International Airport
+code = VAAH
+runways =
+	rwy1, 05, N23.066, E72.6227, 45.0, 11447, 0, 0, 180

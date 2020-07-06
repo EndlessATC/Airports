@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 34
+center = N19.8167991638, W90.5002975464
+magneticvar = 1.546
+beacons =
+	CPE, N19.83080, W90.50390, 0, Campeche
+
+line1 =
+	N20.75752, W90.43516
+	N20.71372, W90.45845
+	N20.55635, W90.48413
+	N20.37998, W90.47832
+	N20.22402, W90.48638
+	N20.02573, W90.48242
+	N19.94678, W90.49170
+	N19.91187, W90.50708
+	N19.79595, W90.65010
+	N19.72988, W90.69316
+	N19.35225, W90.73926
+	N19.15166, W90.95503
+	N19.09819, W91.05894
+	N19.03750, W91.13594
+	N18.88979, W91.43667
+	N18.86465, W91.45786
+	N18.83301, W91.46919
+	N18.83281, W91.44556
+	N18.90059, W91.34307
+	N18.87681, W91.33423
+
+[airport1]
+name = Ingeniero Alberto Acuña Ongay International Airport
+code = MMCP
+runways =
+	rwy1, 16, N19.8278, W90.5032, 166.1, 8202, 0, 0, 34

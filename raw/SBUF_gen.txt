@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 883
+center = S9.40087985992, W38.2505989075
+magneticvar = -22.377
+beacons =
+	PAF, S9.40200, W38.25280, 0, Paulo Afonso
+	PAF, S9.39903, W38.24560, 0, Paulo Afonso
+
+line1 =
+	S8.56614, W39.32700
+	S8.64035, W39.25659
+	S8.71838, W39.09257
+	S8.80029, W38.83501
+	S8.87987, W38.70546
+	S8.89605, W38.66771
+	S8.89605, W38.61916
+	S8.86618, W38.58425
+	S8.83114, W38.54428
+	S8.83496, W38.50470
+	S8.87770, W38.48400
+	S8.95950, W38.48225
+	S9.00364, W38.43292
+	S9.01025, W38.33600
+	S9.04301, W38.29422
+	S9.10213, W38.30755
+	S9.20362, W38.28316
+	S9.34765, W38.22110
+	S9.53787, W37.93822
+	S9.89263, W37.18269
+
+[airport1]
+name = Paulo Afonso Airport
+code = SBUF

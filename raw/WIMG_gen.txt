@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = S0.874989, E100.351997
+magneticvar = -0.184
+beacons =
+	PDG, S0.87111, E100.35300, 0, Padang
+	OQ, S0.92555, E100.35700, 0, Padang
+	MKB, S0.78700, E100.27800, 0, Minangkabau
+
+line1 =
+	S1.29912, E100.48652
+	S1.10127, E100.39395
+	S0.82666, E100.30820
+	S0.79883, E100.28906
+	S0.55293, E100.08789
+	S0.47422, E100.01670
+	S0.40020, E99.93066
+	S0.31377, E99.86006
+	S0.03296, E99.72129
+	N0.04507, E99.66982
+	N0.10244, E99.59766
+
+line2 =
+	S1.73848, E99.27148
+	S1.62773, E99.26729
+	S1.55928, E99.21035
+
+line3 =
+	S0.56555, E100.55007
+	S0.57216, E100.66024
+	S0.60188, E100.72443
+	S0.65676, E100.77941
+	S0.67495, E100.83951
+	S0.64709, E100.93733
+	S0.65851, E101.00663
+	S0.63836, E101.04317
+	S0.59040, E101.07004
+	S0.58555, E101.11536
+	S0.62379, E101.17913
+	S0.63593, E101.25923
+	S0.62193, E101.35560
+	S0.62668, E101.42418
+	S0.63164, E101.48335
+
+[airport1]
+name = Tabing Airport
+code = WIMG
+runways =
+	rwy1, 16, S0.865847, E100.349, 160.1, 7040, 0, 0, 9
+
+[airport2]
+name = Minangkabau International Airport
+code = PT
+runways =
+	rwy2, 15, S0.775647, E100.276, 155.0, 9020, 0, 0, 18
+inboundbeacon = MKB

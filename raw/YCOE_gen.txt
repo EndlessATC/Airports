@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 532
+usa = true
+center = S13.761133, E143.113311
+magneticvar = 6.053
+beacons =
+	COE, S13.76610, E143.11700, 0, Coen
+
+line1 =
+	S12.85576, E143.45771
+	S13.09453, E143.51201
+	S13.30381, E143.52949
+	S13.44365, E143.58662
+	S13.74102, E143.54844
+	S13.86279, E143.58926
+	S13.96367, E143.64336
+	S14.16455, E143.70723
+	S14.34883, E143.75635
+	S14.40107, E143.82236
+	S14.46289, E143.96182
+	S14.39453, E144.10586
+	S14.30195, E144.20986
+
+[airport1]
+name = Coen Airport
+code = YCOE
+runways =
+	rwy1, 11, S13.7606, E143.112, 113.1, 4107, 0, 0, 522

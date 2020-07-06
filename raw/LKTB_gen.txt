@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 778
+center = N49.1512985229, E16.6944007874
+magneticvar = 2.401
+beacons =
+	BNO, N49.15010, E16.69260, 0, Brno
+	BNO, N49.14480, E16.76860, 0, Brno
+	LA, N49.13650, E16.17960, 0, Namest
+	XU, N49.19730, E16.06680, 0, Namest
+	CK, N49.40710, E17.33920, 0, Prerov
+	KNE, N49.04650, E17.45220, 0, Kunovice
+	KUN, N49.11390, E17.50140, 0, Kunovice
+	GT, N49.19310, E17.51780, 0, Otrokovice
+	HLV, N49.32290, E17.52840, 0, Holesov
+	TBV, N49.79580, E16.67890, 0, Trebova
+	RP, N48.47440, E17.15250, 0, Malacky
+	OKF, N48.96920, E15.54560, 0, Desna
+	WGM, N48.32390, E16.49100, 0, Wagram
+	STO, N48.41710, E16.01860, 0, Stockerau
+	TR, N48.86110, E17.94170, 0, Trencin
+	PNY, N48.60810, E17.82230, 0, Centr
+	CN, N48.57080, E17.80840, 0, Piestany
+	CF, N49.90400, E15.43290, 0, Caslav
+
+line1 =
+	N48.16709, E17.02866
+	N48.17179, E16.87807
+	N48.16063, E16.65907
+	N48.21254, E16.48647
+	N48.32749, E16.36048
+	N48.37958, E16.20948
+	N48.36883, E16.03368
+	N48.37937, E15.86139
+	N48.41128, E15.69272
+	N48.42371, E15.57303
+	N48.41668, E15.50234
+	N48.37090, E15.43118
+	N48.28630, E15.35956
+	N48.22879, E15.26473
+	N48.19835, E15.14670
+	N48.19789, E15.03575
+	N48.22739, E14.93188
+
+line2 =
+	N50.10697, E15.81721
+	N50.05193, E15.67742
+	N50.03142, E15.39992
+	N50.03470, E15.23559
+	N50.07521, E15.15880
+
+line3 =
+	N49.73939, E17.61797
+	N49.65402, E17.84695
+	N49.63707, E17.94643
+	N49.67175, E18.01578
+	N49.72988, E18.14166
+	N49.79474, E18.22486
+	N49.88564, E18.30734
+	N49.97240, E18.31659
+	N50.05503, E18.25261
+	N50.13746, E18.23101
+
+[airport1]
+name = Brno-Tuřany Airport
+code = LKTB
+runways =
+	rwy1, 08, N49.1504, E16.6965, 94.0, 2624, 0, 0, 0
+	rwy2, 09, N49.1529, E16.6759, 94.0, 8694, 0, 0, 764

@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 22
+center = N36.8510017395, E10.2271995544
+magneticvar = 1.219
+beacons =
+	TUC, N36.85160, E10.23030, 0, Tunis
+	KDN, N36.82490, E10.30960, 0, Tunis
+	TS, N36.93980, E10.25120, 0, Tunis
+	BIZ, N37.23530, E9.76556, 0, Bizerte
+	BC, N37.33000, E9.83611, 0, Cap Blanc
+	CBN, N36.89560, E11.08830, 0, Cap Bon
+
+line1 =
+	N35.88726, E10.59082
+	N36.03242, E10.50576
+	N36.17515, E10.47656
+	N36.25488, E10.48799
+	N36.32334, E10.52568
+	N36.41963, E10.64238
+	N36.49312, E10.79814
+	N36.74302, E10.96719
+	N36.84146, E11.05654
+	N36.87407, E11.12666
+	N36.96670, E11.07705
+	N37.07251, E11.05391
+	N37.05928, E10.95137
+	N36.93027, E10.76621
+	N36.87944, E10.57129
+	N36.79136, E10.51816
+	N36.73184, E10.41230
+	N36.78149, E10.29326
+	N36.86538, E10.33408
+	N37.03389, E10.18877
+	N37.20586, E10.19639
+	N37.25127, E10.08740
+	N37.25776, E9.98809
+	N37.25415, E9.87559
+	N37.21284, E9.87939
+	N37.18164, E9.89639
+	N37.13535, E9.83027
+	N37.21143, E9.78398
+	N37.25464, E9.81553
+	N37.30898, E9.83848
+	N37.33027, E9.75889
+	N37.34038, E9.68799
+	N37.19463, E9.14199
+	N37.15586, E9.05889
+	N36.99761, E8.82354
+
+[airport1]
+name = Tunis Carthage International Airport
+code = DTTA
+runways =
+	rwy1, 01, N36.8391, E10.2238, 12.3, 10499, 0, 0, 13
+	rwy2, 11, N36.8543, E10.2177, 112.5, 9318, 0, 657, 19

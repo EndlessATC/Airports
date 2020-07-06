@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 47
+usa = true
+transition = 18001
+center = N19.738783, W156.045603
+magneticvar = 9.561
+beacons =
+	KOA, N19.71724, W156.04492, 0, Kona
+	BSF, N19.76340, W155.59399, 0, Bradshaw
+	MUE, N19.99810, W155.67000, 0, Kamuela
+	UPP, N20.20050, W155.84300, 0, Upolu Point
+
+line1 =
+	N19.64463, W154.95259
+	N19.73198, W154.98901
+	N19.74819, W155.06592
+	N19.87563, W155.08608
+	N19.99438, W155.19878
+	N20.16343, W155.62207
+	N20.27583, W155.83164
+	N20.25981, W155.87427
+	N20.16738, W155.89277
+	N20.01416, W155.82031
+	N19.89473, W155.90889
+	N19.83159, W155.98843
+	N19.74995, W156.04868
+	N19.59082, W155.96582
+	N19.38252, W155.89072
+	N19.12583, W155.90562
+	N19.07051, W155.88130
+	N18.96768, W155.68076
+	N18.96392, W155.62563
+	N19.01201, W155.58135
+	N19.10908, W155.53525
+	N19.26016, W155.30962
+	N19.31919, W155.05347
+	N19.45410, W154.85029
+
+line2 =
+	N19.56816, W154.84136
+	N19.64463, W154.95259
+
+line3 =
+	N20.70625, W156.44888
+	N20.61787, W156.43823
+	N20.60518, W156.40879
+	N20.59878, W156.30996
+	N20.62861, W156.23477
+	N20.64478, W156.10713
+	N20.71479, W156.01357
+
+[airport1]
+name = Ellison Onizuka Kona International At Keahole Airport
+code = PHKO
+runways =
+	rwy1, 17, N19.7539, W156.044, 185.0, 11000, 0, 0, 47
+
+[airport2]
+name = Waimea Kohala Airport
+code = MU
+runways =
+	rwy2, 04, N19.9969, W155.674, 52.0, 5197, 0, 0, 2662
+inboundbeacon = MUE

@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 724
+usa = true
+center = S31.5382995605, E145.794006348
+magneticvar = 10.054
+beacons =
+	CBA, S31.54000, E145.79900, 0, Cobar
+
+line1 =
+	S30.57550, E145.07541
+	S30.62619, E145.00772
+	S30.66247, E144.90633
+	S30.73301, E144.81331
+	S30.83796, E144.72846
+	S30.90049, E144.62211
+	S30.92054, E144.49426
+
+[airport1]
+name = Cobar Airport
+code = YCBA
+runways =
+	rwy1, 05, S31.5415, E145.787, 55.0, 4984, 0, 0, 704
+	rwy2, 17, S31.5353, E145.795, 175.0, 4006, 0, 0, 711

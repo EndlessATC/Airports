@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1847
+center = N28.0515, E9.64291
+magneticvar = 0.403
+beacons =
+	ZAR, N28.05060, E9.63111, 0, Zarzaitine
+	IMN, N28.07000, E9.66528, 0, In Amenas
+
+[airport1]
+name = In Aménas Airport
+code = DAUZ
+runways =
+	rwy1, 05, N28.0451, E9.63511, 47.0, 9843, 0, 0, 1837
+	rwy2, 15, N28.069, E9.6292, 145.0, 7218, 0, 0, 1841

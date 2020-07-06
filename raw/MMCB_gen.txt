@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4277
+center = N18.8348007202, W99.2612991333
+magneticvar = 5.426
+beacons =
+	CVJ, N18.83140, W99.25940, 0, Cuernavaca
+	TEQ, N18.67610, W99.25530, 0, Tequesquitengo
+	CUA, N18.78530, W98.90080, 0, Cuautla
+	MW, N19.39370, W99.14950, 0, Plaza
+	TLC, N19.35240, W99.57160, 0, Toluca
+	MEX, N19.43930, W99.06680, 0, Mexico
+	SMO, N19.55570, W99.22830, 0, Mateo
+	TPX, N19.61140, W98.96040, 0, Tepexpan
+	PTJ, N19.64570, W99.79800, 0, Pasteje
+	APN, N19.63720, W98.39860, 0, Apan
+
+[airport1]
+name = General Mariano Matamoros Airport
+code = MMCB
+runways =
+	rwy1, 02, N18.8237, W99.2684, 31.0, 9439, 0, 260, 4277

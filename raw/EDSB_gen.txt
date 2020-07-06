@@ -1,0 +1,90 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 408
+center = N48.7793998718, E8.08049964905
+magneticvar = 0.502
+beacons =
+	KBD, N48.78020, E8.08849, 0, Karlsruhe Baden Baden
+	KBA, N48.79800, E8.09755, 0, Karlsruhe Baden Baden
+	KRH, N48.99290, E8.58424, 0, Karlsruhe
+	SAV, N48.79620, E7.44798, 0, Saverne
+	STR, N48.50540, E7.57197, 0, Strasbourg
+	LRD, N48.36410, E7.82752, 0, Lahr
+	LHR, N48.34870, E7.81116, 0, Lahr
+	SUL, N48.38160, E8.64484, 0, Sulz
+	ZND, N49.20930, E7.39578, 0, Zweibrucken
+	ZBN, N49.22760, E7.41658, 0, Zweibrucken
+	ZWN, N49.22910, E7.41789, 0, Zweibrucken
+	SY, N48.66920, E9.11420, 0, Stuttgart
+	HDL, N49.38600, E8.59676, 0, Heidelberg
+	NKR, N49.33670, E8.73291, 0, Neckar
+	SR, N49.21780, E7.21951, 0, Ensheim
+	RMS, N49.43470, E7.58565, 0, Ramstein
+	MND, N49.47060, E8.51598, 0, Mannheim
+	SGD, N48.68790, E9.22411, 0, Stuttgart
+	SAD, N49.21250, E7.11607, 0, Saarbrucken
+	SBN, N49.21890, E7.11834, 0, Saarbrucken
+	HDM, N49.53450, E8.39050, 0, Coleman
+	TGO, N48.61840, E9.25921, 0, Tango
+	HDM, N49.56560, E8.46381, 0, Coleman
+	SG, N48.71130, E9.33504, 0, Stuttgart
+	LBU, N48.91300, E9.34023, 0, Luburg
+	DON, N47.96070, E8.52255, 0, Donaueschingen
+	DVI, N47.96070, E8.52271, 0, Donaueschingen
+
+line1 =
+	N48.04681, E8.21979
+	N47.93072, E8.49006
+	N47.93630, E8.69583
+	N47.97635, E8.83587
+	N48.05270, E8.97871
+	N48.08642, E9.13188
+	N48.07753, E9.29538
+	N48.11613, E9.42106
+	N48.20233, E9.50880
+	N48.24395, E9.58870
+	N48.24098, E9.66073
+	N48.28909, E9.78403
+
+line2 =
+	N47.90566, E7.59326
+	N48.00257, E7.60846
+	N48.06430, E7.58417
+	N48.15680, E7.61662
+	N48.28005, E7.70571
+	N48.41002, E7.76514
+	N48.54683, E7.79480
+	N48.63605, E7.83795
+	N48.69853, E7.92275
+	N48.96544, E8.23002
+
+line3 =
+	N48.96544, E8.23002
+	N49.21400, E8.41730
+	N49.33037, E8.48592
+	N49.39740, E8.49822
+	N49.43621, E8.48892
+	N49.44675, E8.45781
+	N49.50509, E8.42184
+	N49.61124, E8.38081
+	N49.69007, E8.38939
+	N49.72849, E8.43140
+	N49.76720, E8.43683
+
+[airport1]
+name = Karlsruhe Baden-Baden Airport
+code = EDSB
+runways =
+	rwy1, 03, N48.7679, E8.06976, 32.0, 9787, 830, 830, 405
+
+[airport2]
+name = Strasbourg Airport
+code = ST
+runways =
+	rwy2, 05, N48.5312, E7.61603, 48.7, 7874, 0, 0, 503
+inboundbeacon = STR

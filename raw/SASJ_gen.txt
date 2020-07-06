@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3019
+center = S24.392799, W65.097801
+magneticvar = -5.079
+beacons =
+	JUJ, S24.39360, W65.09280, 0, Jujuy
+	J, S24.41600, W65.08330, 0, Jujuy
+	OJ, S24.46080, W65.05540, 0, Jujuy
+	SAL, S24.85230, W65.48390, 0, Salta
+	L, S24.86360, W65.49740, 0, Salta
+	OL, S24.89670, W65.54420, 0, Salta
+
+line1 =
+	S24.20839, W65.86510
+	S24.41670, W65.82001
+	S24.52951, W65.85471
+	S24.64160, W65.83073
+	S24.79063, W65.75968
+	S24.92546, W65.64880
+	S25.04596, W65.49814
+	S25.13557, W65.42414
+	S25.19428, W65.42672
+	S25.23505, W65.38208
+	S25.25789, W65.29020
+	S25.22756, W65.20477
+	S25.14405, W65.12581
+	S25.11852, W65.04884
+	S25.15097, W64.97383
+	S25.20192, W64.92303
+	S25.27138, W64.89647
+	S25.32109, W64.82955
+	S25.35086, W64.72227
+	S25.32941, W64.60088
+	S25.25675, W64.46539
+	S25.18497, W64.36829
+	S25.11407, W64.30948
+	S25.08627, W64.25320
+	S25.10157, W64.19951
+	S25.22725, W64.11696
+
+[airport1]
+name = Gobernador Horacio Guzman International Airport
+code = SASJ
+runways =
+	rwy1, 16, S24.3812, W65.1051, 149.0, 9698, 0, 0, 3019

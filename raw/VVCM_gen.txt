@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6
+center = N9.177667, E105.177778
+magneticvar = -0.105
+beacons =
+	QL, N9.17611, E105.17700, 0, Camau
+	RG, N9.94972, E105.13400, 0, Rachgia
+
+line1 =
+	N10.02920, E104.01846
+	N10.06104, E104.04834
+	N10.11074, E104.03682
+
+line2 =
+	N10.11479, E104.87324
+	N10.10059, E104.96582
+	N10.06743, E105.02783
+	N9.99570, E105.08447
+	N9.94526, E105.09492
+	N9.90098, E105.09258
+	N9.86865, E104.98711
+	N9.81626, E104.90322
+	N9.60615, E104.84521
+	N9.18550, E104.81465
+	N8.80186, E104.81855
+	N8.74663, E104.89629
+	N8.59766, E104.77041
+	N8.58325, E104.89189
+	N8.62920, E105.11436
+	N8.71133, E105.19121
+	N8.80112, E105.32227
+	N8.96240, E105.40137
+	N9.09321, E105.50098
+	N9.39673, E106.16836
+	N9.44780, E106.19258
+	N9.50234, E106.20615
+	N9.59414, E106.15859
+	N9.67358, E106.11250
+	N10.00073, E105.83096
+	N9.96172, E105.92568
+	N9.67544, E106.20400
+
+[airport1]
+name = Cà Mau Airport
+code = VVCM

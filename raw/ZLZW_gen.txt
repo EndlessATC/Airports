@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8202
+metric = true
+center = N37.573125, E105.154454
+
+line1 =
+	N36.62758, E104.71348
+	N36.67073, E104.71979
+	N36.72750, E104.69039
+	N36.79794, E104.62517
+	N36.85008, E104.52843
+	N36.88390, E104.40007
+	N36.94552, E104.32658
+	N37.03492, E104.30788
+	N37.09345, E104.31387
+	N37.17388, E104.35273
+	N37.19698, E104.44606
+	N37.24132, E104.52027
+	N37.30690, E104.57556
+	N37.35860, E104.69163
+	N37.41539, E104.95693
+	N37.46149, E104.99786
+	N37.48278, E105.15196
+	N37.49471, E105.43277
+	N37.52200, E105.64898
+	N37.56474, E105.80040
+	N37.66080, E105.90530
+	N37.81025, E105.96359
+	N37.91570, E106.03687
+	N37.97709, E106.12503
+	N38.06414, E106.19639
+	N38.17689, E106.25086
+	N38.28169, E106.33783
+	N38.37848, E106.45720
+	N38.49778, E106.53100
+
+[airport1]
+name = Zhongwei Shapotou Airport
+code = ZLZW

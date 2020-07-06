@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 540
+center = N28.1035995483, E81.6669998169
+magneticvar = 0.253
+beacons =
+	NPJ, N28.09810, E81.65580, 0, Nepalgunj
+	NGJ, N28.10140, E81.65080, 0, Nepalgunj
+	SKT, N28.58780, E81.63500, 0, Surkhet
+	DNG, N28.11170, E82.29170, 0, Dang
+	RKM, N28.62690, E82.19310, 0, Chaurijhari
+
+[airport1]
+name = Nepalgunj Airport
+code = VNNG
+runways =
+	rwy1, 08, N28.1026, E81.6594, 80.9, 4935, 0, 0, 500

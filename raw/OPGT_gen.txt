@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4796
+center = N35.918800354, E74.3336029053
+magneticvar = 2.355
+beacons =
+	GT, N35.92030, E74.33510, 0, Gilgit
+
+line1 =
+	N35.32095, E75.68781
+	N35.35709, E75.56772
+	N35.44298, E75.43109
+	N35.51086, E75.35285
+	N35.56070, E75.33311
+	N35.58966, E75.26386
+	N35.59772, E75.14521
+	N35.63235, E75.00072
+	N35.69353, E74.83040
+	N35.75348, E74.74007
+	N35.81218, E74.72973
+	N35.83637, E74.70105
+	N35.82603, E74.65403
+	N35.74753, E74.63103
+	N35.60082, E74.63207
+	N35.50003, E74.57532
+	N35.44512, E74.46081
+	N35.41458, E74.34247
+	N35.40841, E74.22031
+	N35.43587, E74.05846
+	N35.49696, E73.85692
+	N35.53101, E73.64520
+	N35.53804, E73.42330
+	N35.47117, E73.30160
+	N35.33040, E73.28021
+	N35.20426, E73.17510
+	N35.09274, E72.98638
+
+[airport1]
+name = Gilgit Airport
+code = OPGT
+runways =
+	rwy1, 07, N35.9164, E74.325, 72.0, 5400, 0, 0, 4794
+	rwy2, 09, N35.918, E74.3428, 90.0, 983, 0, 65, 0

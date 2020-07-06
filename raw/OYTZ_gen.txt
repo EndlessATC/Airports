@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4838
+center = N13.6859998703, E44.1390991211
+magneticvar = 1.326
+beacons =
+	TZ, N13.68890, E44.13750, 0, Taiz
+	TAZ, N13.69710, E44.13830, 0, Taiz
+
+line1 =
+	N12.70859, E43.11670
+	N12.82461, E43.08291
+	N12.89951, E42.99902
+	N12.80835, E42.96953
+
+line2 =
+	N14.55488, E43.02109
+	N14.52080, E43.01875
+	N14.48311, E43.00625
+	N14.34155, E43.04482
+	N14.20366, E43.09336
+	N14.01099, E43.08906
+	N13.85894, E43.23408
+	N13.69253, E43.28242
+	N13.63984, E43.28262
+	N13.26709, E43.23193
+	N12.83901, E43.47529
+	N12.69883, E43.48760
+	N12.74448, E43.63438
+
+line3 =
+	N12.81724, E44.61777
+	N12.76377, E44.75527
+	N12.78418, E44.88984
+	N12.81587, E45.03867
+	N12.93857, E45.10977
+	N12.99829, E45.16387
+
+[airport1]
+name = Ta'izz International Airport
+code = OYTZ
+runways =
+	rwy1, 01, N13.6723, E44.1372, 8.0, 10040, 0, 0, 4709

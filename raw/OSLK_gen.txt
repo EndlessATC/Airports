@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 157
+center = N35.4011001587, E35.9486999512
+magneticvar = 4.015
+beacons =
+	LTK, N35.39940, E35.95070, 0, Bassel Al Assad
+	LTK, N35.48030, E35.94230, 0, Bassel Al Assad
+	BAN, N35.22830, E35.95790, 0, Banias
+	RA, N34.59900, E36.08300, 0, Rene Mouawad
+
+line1 =
+	N36.30986, E35.81094
+	N36.15908, E35.88711
+	N35.99814, E35.95693
+	N35.91655, E35.89268
+	N35.84922, E35.83965
+	N35.57158, E35.76445
+	N35.42070, E35.90244
+	N35.35054, E35.91602
+	N35.29951, E35.91807
+	N35.22383, E35.94307
+	N35.06030, E35.88994
+	N34.94863, E35.88789
+	N34.85210, E35.89932
+	N34.62920, E35.97627
+	N34.54741, E35.97793
+	N34.49331, E35.92139
+	N34.43740, E35.80430
+
+[airport1]
+name = Bassel Al-Assad International Airport
+code = OSLK
+runways =
+	rwy1, 17, N35.4139, E35.9475, 177.0, 9175, 0, 590, 157

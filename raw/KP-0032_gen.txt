@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 12
+metric = true
+center = N41.428538, E129.647555
+
+line1 =
+	N40.49106, E129.10977
+	N40.66104, E129.24512
+	N40.72632, E129.34111
+	N40.85732, E129.70869
+	N40.93228, E129.74199
+	N41.12368, E129.71211
+	N41.30386, E129.76582
+	N41.39150, E129.75898
+	N41.49434, E129.68242
+	N41.59497, E129.68633
+	N41.71226, E129.75635
+	N41.80552, E129.87637
+	N41.89673, E129.92822
+	N41.99116, E130.00732
+	N42.04575, E130.06826
+	N42.09697, E130.17988
+	N42.18320, E130.23574
+	N42.21411, E130.31475
+	N42.30171, E130.45752
+	N42.29170, E130.56924
+	N42.27485, E130.63652
+	N42.30254, E130.68730
+	N42.32578, E130.72988
+
+[airport1]
+name = Orang Airport
+code = KP-0032

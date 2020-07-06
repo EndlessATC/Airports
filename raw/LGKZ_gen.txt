@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2059
+center = N40.2860984802, E21.8407993317
+magneticvar = 3.176
+beacons =
+	KOZ, N40.28510, E21.84040, 0, Kozani
+	KZN, N40.28900, E21.84200, 0, Kozani
+	KSO, N40.44470, E21.27940, 0, Kastoria
+	KAS, N40.45100, E21.27540, 0, Kastoria
+	GDA, N40.64470, E22.48920, 0, Alexandria
+	LSA, N39.64540, E22.46160, 0, Larisa
+	LAR, N39.65460, E22.50660, 0, Larisa
+	YNN, N39.70140, E20.82000, 0, Ioannina
+	IOA, N39.69890, E20.81610, 0, Ioannina
+	STF, N39.46570, E22.74930, 0, Stefanovikion
+	STV, N39.48010, E22.77160, 0, Stefanovikion
+
+line1 =
+	N39.30635, E22.92139
+	N39.33105, E22.99287
+
+line2 =
+	N39.28882, E23.28848
+	N39.35845, E23.23340
+	N39.49204, E23.10342
+	N39.56382, E22.97881
+	N39.62891, E22.91904
+	N39.80059, E22.83574
+	N40.03691, E22.59219
+	N40.11934, E22.56934
+	N40.27642, E22.60547
+	N40.36660, E22.64268
+	N40.42861, E22.62490
+	N40.49556, E22.62949
+	N40.53647, E22.74189
+	N40.57861, E22.81143
+	N40.59087, E22.92227
+	N40.52427, E22.89287
+	N40.49062, E22.85137
+	N40.39990, E22.89648
+	N40.30430, E23.09814
+	N40.21646, E23.31201
+	N40.08994, E23.32822
+
+[airport1]
+name = Filippos Airport
+code = LGKZ
+runways =
+	rwy1, 14, N40.2917, E21.8337, 143.0, 5978, 594, 0, 2050

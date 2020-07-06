@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1071
+center = N49.8125, E23.9561004639
+magneticvar = 4.559
+beacons =
+	LIV, N49.81160, E23.95100, 0, Lviv
+	V, N49.79740, E23.97680, 0, Lviv
+	O, N49.82720, E23.93180, 0, Lviv
+	LV, N49.77940, E24.00350, 0, Lviv
+	LO, N49.84850, E23.89990, 0, Lviv
+	BB, N49.64300, E24.27990, 0, Bibrka
+	ZL, N49.80300, E24.90150, 0, Zolochiv
+
+line1 =
+	N49.26707, E22.84660
+	N49.46065, E23.08234
+	N49.55403, E23.38837
+	N49.56475, E23.60738
+	N49.52398, E23.84126
+	N49.48101, E24.01862
+	N49.43592, E24.13923
+	N49.37236, E24.22661
+	N49.29035, E24.28067
+	N49.24521, E24.36046
+	N49.23705, E24.46598
+	N49.18191, E24.59429
+	N49.07980, E24.74539
+	N49.02786, E24.85118
+	N49.02600, E24.91164
+	N48.99820, E24.98693
+	N48.91763, E25.12212
+	N48.87846, E25.15452
+	N48.88187, E25.18537
+	N48.88451, E25.21053
+	N48.86425, E25.23027
+	N48.84190, E25.25074
+	N48.84190, E25.30190
+	N48.83247, E25.33900
+	N48.84529, E25.39765
+
+[airport1]
+name = Lviv International Airport
+code = UKLL
+runways =
+	rwy1, 13, N49.8208, E23.9439, 136.0, 10843, 0, 0, 1071

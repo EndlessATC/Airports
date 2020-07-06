@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 440
+center = S18.975301, W57.820599
+magneticvar = -13.428
+beacons =
+	PSZ, S18.98190, W57.81840, 0, Puerto Suarez
+	CUB, S19.01670, W57.66330, 0, Corumba
+
+line1 =
+	S18.04505, W57.43230
+	S18.32059, W57.38590
+	S18.49665, W57.40698
+	S18.57323, W57.49555
+	S18.66393, W57.54888
+	S18.76883, W57.56697
+	S18.83838, W57.60653
+	S18.87270, W57.66759
+	S18.91905, W57.68823
+	S18.97755, W57.66849
+	S19.01863, W57.58824
+	S19.04220, W57.44752
+	S19.07041, W57.36528
+	S19.10307, W57.34151
+	S19.23257, W57.30402
+	S19.29737, W57.30004
+	S19.35143, W57.30908
+	S19.41406, W57.34510
+	S19.48517, W57.40804
+	S19.52914, W57.42726
+	S19.54604, W57.40287
+	S19.58697, W57.41311
+	S19.65208, W57.45799
+	S19.69673, W57.52240
+	S19.72091, W57.60637
+	S19.75156, W57.64862
+	S19.78871, W57.64919
+	S19.86147, W57.71120
+	S19.96989, W57.83466
+
+[airport1]
+name = Capitán Av. Salvador Ogaya G. airport
+code = SLPS
+runways =
+	rwy1, 04, S18.983, W57.8256, 31.7, 6562, 0, 0, 439
+
+[airport2]
+name = Corumbá International Airport
+code = CR
+inboundbeacon = CUB

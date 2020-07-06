@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 906
+center = N14.5128002167, W4.07955980301
+magneticvar = -3.474
+beacons =
+	MO, N14.51100, W4.08789, 0, Mopti/Ambodedjo
+	MTI, N14.52610, W4.06472, 0, Mopti/Ambodedjo
+
+line1 =
+	N15.28124, W3.97954
+	N15.36506, W4.16633
+	N15.42149, W4.24741
+	N15.50696, W4.30389
+
+line2 =
+	N14.00814, W5.21415
+	N14.07862, W5.16356
+	N14.15467, W4.99620
+	N14.23629, W4.71214
+	N14.26636, W4.54899
+	N14.27432, W4.48693
+	N14.31331, W4.41448
+	N14.55071, W4.20054
+	N14.77176, W4.11693
+	N14.88483, W4.04210
+	N14.96361, W3.94815
+	N15.07257, W3.92076
+	N15.28119, W3.97949
+	N15.29028, W3.95415
+	N15.30677, W3.91368
+	N15.35359, W3.85224
+	N15.39524, W3.82028
+	N15.43175, W3.81785
+	N15.45580, W3.85345
+	N15.46743, W3.92712
+	N15.50352, W3.92293
+
+[airport1]
+name = Mopti Airport
+code = GAMB
+runways =
+	rwy1, 05, N14.505, W4.08823, 47.0, 8340, 0, 0, 905

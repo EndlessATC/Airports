@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2472
+center = S29.1970996857, W51.1875
+magneticvar = -15.158
+beacons =
+	CXS, S29.19800, W51.18870, 0, Do Sul
+	CXS, S29.14400, W51.23420, 0, Do Sul
+	TQA, S29.66850, W50.78180, 0, Taquara
+	OAS, S29.94470, W51.13730, 0, Canoas
+	COA, S29.95030, W51.14580, 0, Canoas
+	PAG, S29.99320, W51.17380, 0, Porto Alegre
+	IA, S29.99400, W51.19580, 0, Pestana
+	PA, S29.99520, W51.14330, 0, Salgado
+	POR, S29.99600, W51.16520, 0, Porto Alegre
+	IP, S29.99300, W51.28170, 0, Guaiba
+	KRI, S29.78970, W51.83080, 0, Quari
+	FGR, S29.99820, W50.97520, 0, Figueiras
+
+line1 =
+	S30.14102, W51.29502
+	S30.03486, W51.29805
+	S30.05996, W51.24985
+	S30.12139, W51.23359
+
+line2 =
+	S28.44808, W49.93847
+	S28.44436, W50.06880
+	S28.45289, W50.14096
+	S28.47371, W50.15492
+	S28.46860, W50.23303
+	S28.42204, W50.44648
+	S28.38617, W50.57753
+	S28.23595, W50.73607
+
+[airport1]
+name = Hugo Cantergiani Regional Airport
+code = SBCX
+runways =
+	rwy1, 15, S29.1925, W51.1928, 134.0, 5479, 876, 0, 2472

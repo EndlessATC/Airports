@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1302
+usa = true
+transition = 18001
+center = N45.4491004944, W98.4217987061
+magneticvar = 4.543
+beacons =
+	ABR, N45.41740, W98.36870, 0, Aberdeen
+	AB, N45.38600, W98.32840, 0, Reney
+	BTN, N45.81920, W97.74560, 0, Britton
+	GWR, N46.22330, W97.64340, 0, Gwinner
+
+[airport1]
+name = Aberdeen Regional Airport
+code = KABR
+runways =
+	rwy1, 13, N45.4552, W98.428, 135.1, 6901, 0, 0, 1302
+	rwy2, 17, N45.4556, W98.4274, 180.0, 5500, 0, 0, 1302

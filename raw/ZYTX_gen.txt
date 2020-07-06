@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 198
+metric = true
+center = N41.6398010254, E123.483001709
+magneticvar = -8.129
+beacons =
+	SEY, N41.63830, E123.48000, 0, Shenyang
+	PU, N41.50670, E123.29300, 0, Dongyangjiao
+	KY, N41.70500, E123.74700, 0, Wangbingou
+	LCH, N40.86170, E123.13300, 0, Longchang
+
+line1 =
+	N42.57639, E123.71186
+	N42.50381, E123.77356
+	N42.44247, E123.79630
+	N42.40612, E123.83061
+	N42.32713, E123.77056
+	N42.20306, E123.51270
+	N42.14942, E123.35018
+	N42.16611, E123.28289
+	N42.14461, E123.17701
+	N42.08487, E123.03262
+	N41.95723, E122.89294
+	N41.76174, E122.75807
+	N41.57917, E122.67699
+	N41.32476, E122.63596
+	N41.21371, E122.45726
+	N41.13320, E122.40062
+	N41.05455, E122.44031
+	N41.00261, E122.40941
+	N40.96334, E122.32595
+	N40.89838, E122.29422
+	N40.85159, E122.23634
+	N40.82291, E122.15232
+	N40.77979, E122.14741
+	N40.68816, E122.14038
+
+[airport1]
+name = Taoxian Airport
+code = ZYTX
+runways =
+	rwy1, 06, N41.6304, E123.469, 48.7, 10499, 0, 0, 171

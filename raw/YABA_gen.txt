@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 233
+usa = true
+center = S34.9432983398, E117.808998108
+magneticvar = -2.034
+beacons =
+	ABA, S34.95220, E117.81100, 0, Albany
+
+line1 =
+	S34.45938, E119.08135
+	S34.47988, E118.89531
+	S34.73711, E118.52012
+	S34.98662, E118.13555
+	S35.01328, E118.00645
+	S35.05498, E117.86309
+	S35.07490, E117.67539
+	S35.09775, E117.58193
+	S35.03369, E117.14395
+	S35.02656, E116.86543
+	S34.98789, E116.51719
+
+[airport1]
+name = Albany Airport
+code = YABA
+runways =
+	rwy1, 05, S34.9471, E117.806, 45.0, 3596, 0, 0, 223
+	rwy2, 14, S34.9403, E117.804, 134.0, 5906, 0, 0, 226

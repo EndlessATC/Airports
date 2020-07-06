@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2170
+center = S23.0074005127, W47.1344985962
+magneticvar = -19.524
+beacons =
+	CPN, S23.00870, W47.12900, 0, Campinas
+	IP, S22.99280, W47.15520, 0, Jardim
+	KP, S23.05390, W47.06960, 0, Grama
+	IK, S22.95750, W47.20420, 0, Bento
+	STN, S23.48750, W46.92330, 0, Santana
+	BGC, S22.95310, W46.56810, 0, Braganca
+	PER, S23.42060, W46.75590, 0, Perus
+	BGC, S22.97080, W46.54780, 0, Braganca
+	SCB, S23.50700, W47.37820, 0, Sorocaba
+	SCB, S23.48320, W47.48470, 0, Sorocaba
+	TPV, S23.56550, W46.92270, 0, Itapevi
+	IS, S23.54480, W46.71170, 0, Mada
+	MAE, S23.50680, W46.63650, 0, Marte
+	IG, S23.46220, W46.57330, 0, Tuca
+	RCL, S22.43087, W47.56554, 0, Rio Claro
+	SPO, S23.61020, W46.66750, 0, Sao Paulo
+	CGO, S23.62750, W46.65470, 0, Congonhas
+	PP, S23.64380, W46.64430, 0, Metro
+	IB, S23.40770, W46.38720, 0, Bonsucesso
+	BCO, S23.40630, W46.38550, 0, Bonsucesso
+	DAD, S23.70570, W46.60130, 0, Diadema
+
+line1 =
+	S23.36488, W45.93360
+	S23.39273, W45.96063
+	S23.39614, W45.98964
+	S23.37516, W46.02067
+	S23.30891, W46.00445
+	S23.19750, W45.94096
+
+[airport1]
+name = Viracopos International Airport
+code = SBKP
+runways =
+	rwy1, 15, S22.9985, W47.147, 128.0, 10630, 0, 0, 2139

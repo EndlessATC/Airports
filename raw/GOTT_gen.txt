@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 161
+center = N13.7368001938, W13.6531000137
+magneticvar = -7.252
+beacons =
+	STD, N13.73570, W13.66310, 0, Tambacounda
+	TD, N13.72770, W13.66400, 0, Tambacounda
+	SMI, N13.04960, W13.29980, 0, Simenti
+
+[airport1]
+name = Tambacounda Airport
+code = GOTT
+runways =
+	rwy1, 06, N13.7309, W13.6601, 49.0, 6562, 0, 0, 157

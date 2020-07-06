@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 97
+center = S6.78747987747, W79.8281021118
+magneticvar = 0.361
+beacons =
+	HIC, S6.77935, W79.82970, 0, Chiclayo
+	CLA, S6.71722, W79.81920, 0, Chiclayo
+
+line1 =
+	S5.84082, W80.93066
+	S5.86094, W80.99165
+
+line2 =
+	S6.28223, W80.81162
+	S6.64961, W80.11025
+	S6.76895, W79.99497
+	S6.90166, W79.90469
+	S7.06650, W79.76196
+	S7.29561, W79.61772
+	S7.41895, W79.58887
+
+[airport1]
+name = Capitan FAP Jose A Quinones Gonzales International Airport
+code = SPHI
+runways =
+	rwy1, 01, S6.79868, W79.8295, 7.0, 8266, 0, 0, 94

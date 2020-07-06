@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7119
+metric = true
+center = N36.5275, E102.042999
+
+line1 =
+	N36.81089, E100.75273
+	N36.78110, E100.74570
+	N36.74502, E100.72266
+	N36.67280, E100.72256
+	N36.58936, E100.70430
+	N36.55684, E100.62754
+
+line2 =
+	N36.81089, E100.75273
+	N36.81089, E100.75273
+	N36.81089, E100.75273
+	N36.81089, E100.75273
+
+line3 =
+	N36.04984, E100.74355
+	N36.14167, E100.89785
+	N36.14485, E101.00880
+	N36.13506, E101.07117
+	N36.11227, E101.08492
+	N36.08891, E101.17572
+	N36.06488, E101.34341
+	N36.08576, E101.49482
+	N36.15149, E101.62969
+	N36.15159, E101.76250
+	N36.08601, E101.89304
+	N35.99747, E101.99350
+	N35.88590, E102.06378
+	N35.84453, E102.18460
+	N35.87337, E102.35585
+	N35.86040, E102.61031
+	N35.80557, E102.94775
+	N35.81156, E103.17720
+	N35.87833, E103.29864
+	N35.93122, E103.31677
+	N35.97026, E103.23171
+	N36.03956, E103.25559
+	N36.13911, E103.38840
+
+[airport1]
+name = Xining Caojiabu Airport
+code = ZLXN

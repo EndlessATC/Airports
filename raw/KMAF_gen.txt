@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2871
+usa = true
+transition = 18001
+center = N31.9424991608, W102.202003479
+magneticvar = 7.288
+beacons =
+	MAF, N32.00930, W102.19000, 0, Midland
+	MA, N31.98800, W102.32500, 0, Farly
+	ANR, N32.34860, W102.53600, 0, Andrews
+	BGS, N32.38560, W101.48400, 0, Big Spring
+	GNC, N32.67170, W102.64600, 0, Gaines County
+	LSA, N32.75840, W101.91600, 0, Lamesa
+
+[airport1]
+name = Midland International Airport
+code = KMAF
+runways =
+	rwy1, 04, N31.9317, W102.204, 53.7, 4605, 0, 0, 2850
+	rwy2, 10, N31.9476, W102.216, 113.6, 8302, 0, 692, 2868
+	rwy3, 16L, N31.9465, W102.197, 177.0, 4339, 0, 0, 2863
+	rwy4, 16R, N31.9594, W102.206, 175.0, 9501, 0, 0, 2871

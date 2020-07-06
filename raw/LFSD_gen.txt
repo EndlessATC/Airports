@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 726
+center = N47.268902, E5.09
+magneticvar = 0.134
+beacons =
+	DIJ, N47.27190, E5.09153, 0, Dijon
+	DJL, N47.27080, E5.09733, 0, Dijon
+	RLP, N47.90630, E5.24917, 0, Rolampont
+	ATN, N46.80590, E4.25914, 0, Autun
+	MM, N46.60140, E4.33139, 0, Montceau-Les-Mines
+	LUL, N47.68830, E6.29558, 0, Luxeuil
+
+line1 =
+	N46.40244, E6.66533
+	N46.38857, E6.46885
+	N46.36094, E6.33643
+
+line2 =
+	N46.30244, E6.15840
+	N46.45762, E6.34395
+	N46.52881, E6.58818
+
+line3 =
+	N46.33262, E6.23469
+	N46.39371, E6.32192
+	N46.43050, E6.42889
+	N46.43737, E6.57823
+
+line4 =
+	N47.57787, E4.70765
+	N47.73964, E4.58425
+	N47.81248, E4.55355
+	N47.85036, E4.57433
+	N47.89147, E4.56502
+	N47.95805, E4.50591
+	N48.08182, E4.40839
+	N48.14528, E4.32183
+	N48.18967, E4.21362
+
+line5 =
+	N46.82913, E3.48954
+	N46.74027, E3.62549
+	N46.63855, E3.72435
+	N46.55788, E3.74907
+	N46.50687, E3.86029
+	N46.46006, E3.98388
+	N46.37913, E3.99006
+
+[airport1]
+name = Dijon-Bourgogne Airport
+code = LFSD
+runways =
+	rwy1, 02, N47.2642, E5.08205, 15.0, 5905, 0, 0, 719
+	rwy2, 18, N47.2766, E5.09359, 175.1, 7874, 0, 0, 726
+
+[airport2]
+name = Dole-Tavaux Airport
+code = GJ
+runways =
+	rwy3, 05, N47.0331, E5.41534, 55.0, 7318, 0, 0, 639
+inboundbeacon = DJL

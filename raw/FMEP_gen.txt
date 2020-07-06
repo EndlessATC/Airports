@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 59
+center = S21.3208999634, E55.4249992371
+magneticvar = -19.263
+beacons =
+	PRF, S21.31640, E55.41720, 0, St Pierre Pierrefonds
+	SP, S21.27760, E55.36230, 0, Pierrefonds/Etang
+	FXR, S20.89270, E55.52620, 0, St Denis Gillot
+	SDG, S20.88480, E55.50980, 0, St Denis Gillot
+
+line1 =
+	S20.90625, E55.66191
+	S20.87959, E55.59648
+	S20.86514, E55.45049
+	S20.90410, E55.31133
+	S21.00244, E55.25000
+	S21.05840, E55.23281
+	S21.21738, E55.31035
+	S21.27363, E55.36270
+	S21.35830, E55.55762
+	S21.36904, E55.65615
+	S21.33936, E55.79736
+	S21.27783, E55.82246
+	S21.13857, E55.83906
+	S21.02148, E55.73916
+	S20.90625, E55.66191
+
+[airport1]
+name = Pierrefonds Airport
+code = FMEP
+runways =
+	rwy1, 15, S21.3166, E55.4193, 129.0, 7000, 0, 0, 59

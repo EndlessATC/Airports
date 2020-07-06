@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = S27.6702785492, W48.5525016785
+magneticvar = -17.540
+beacons =
+	XRO, S27.67030, W48.54670, 0, Florianopolis
+	IL, S27.66150, W48.55920, 0, Cariano
+	FLN, S27.69170, W48.49810, 0, Florianopolis
+	BKO, S27.62180, W48.63250, 0, Boko
+	NVG, S26.87570, W48.65280, 0, Navegantes
+
+line1 =
+	S27.57480, W48.54219
+	S27.81221, W48.55459
+	S27.76699, W48.48589
+	S27.70703, W48.49678
+	S27.56631, W48.40957
+	S27.45146, W48.37793
+	S27.39961, W48.41489
+	S27.43633, W48.46475
+	S27.49551, W48.50518
+	S27.57480, W48.54219
+
+line2 =
+	S28.57529, W48.79966
+	S28.44268, W48.79727
+	S28.31016, W48.69321
+	S28.20723, W48.64844
+	S28.07559, W48.62080
+	S27.82520, W48.60566
+	S27.55791, W48.64258
+	S27.37275, W48.57197
+	S27.26387, W48.59551
+	S27.19600, W48.55415
+	S27.12344, W48.56836
+	S27.05801, W48.59341
+	S26.87813, W48.61567
+	S26.70293, W48.67773
+
+line3 =
+	S28.51139, W49.73673
+	S28.46529, W49.83915
+
+[airport1]
+name = Hercílio Luz International Airport
+code = SBFL
+runways =
+	rwy1, 14, S27.6657, W48.5512, 159.0, 7546, 0, 0, 17

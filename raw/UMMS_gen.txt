@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 670
+center = N53.8824996948, E28.0307006836
+magneticvar = 6.096
+beacons =
+	MNS, N53.88500, E28.02170, 0, Minsk-2
+	VX, N53.92170, E27.97500, 0, Minsk-2
+	GH, N53.84330, E28.09170, 0, Minsk-2
+	NE, N53.83670, E27.60670, 0, Minsk-1
+	QM, N53.82000, E27.55330, 0, Machulishchi
+	WN, N53.72330, E27.60670, 0, Machulishchi
+	GK, N53.89330, E27.47330, 0, Minsk-1
+	KI, N53.88330, E26.73330, 0, Ivenets
+
+[airport1]
+name = Minsk National Airport
+code = UMMS
+runways =
+	rwy1, 13, N53.895, E28.0129, 138.8, 11946, 0, 0, 640

@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5200
+center = S1.406111, E35.008057
+
+line1 =
+	S0.46436, E34.47510
+	S0.49512, E34.45635
+	S0.50215, E34.42480
+	S0.45879, E34.37568
+	S0.45938, E34.32852
+	S0.44502, E34.27539
+	S0.44150, E34.21719
+	S0.47012, E34.17480
+	S0.57949, E34.07930
+	S0.64492, E34.06006
+	S0.72480, E34.06826
+	S0.79814, E34.10576
+	S0.87920, E34.16279
+	S0.93984, E34.14404
+	S0.97471, E34.12129
+	S0.99746, E34.07012
+	S1.03369, E34.06318
+	S1.18779, E33.93164
+	S1.24697, E33.90273
+	S1.27813, E33.90693
+	S1.32090, E33.95176
+	S1.33955, E33.94199
+	S1.34209, E33.84355
+
+line2 =
+	S1.49502, E33.91533
+	S1.51377, E33.92090
+	S1.51270, E33.88916
+
+[airport1]
+name = Mara Serena Lodge Airstrip
+code = HKMS

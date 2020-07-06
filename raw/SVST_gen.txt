@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 861
+center = N8.94514656067, W64.1510848999
+magneticvar = -12.570
+beacons =
+	SOM, N8.94392, W64.15640, 0, San Tome
+	SOM, N8.95225, W64.14340, 0, San Tome
+	URC, N9.70364, W63.99980, 0, Urica
+	CBL, N8.12419, W63.53140, 0, Ciudad Bolivar
+	CBL, N8.11725, W63.53390, 0, Ciudad Bolivar
+
+line1 =
+	N7.97845, W64.53097
+	N7.99938, W64.48094
+	N8.00571, W64.39531
+	N8.02773, W64.33082
+	N8.06540, W64.28752
+	N8.05687, W64.22163
+	N8.00535, W64.15461
+	N7.98055, W64.11409
+	N7.97484, W64.08900
+	N7.97145, W64.04960
+	N7.97388, W63.99309
+	N8.01290, W63.92387
+	N8.09155, W63.84935
+	N8.13573, W63.72750
+	N8.14534, W63.55831
+	N8.19097, W63.39894
+	N8.27257, W63.24949
+	N8.30355, W63.10087
+
+[airport1]
+name = San Tomé Airport
+code = SVST
+runways =
+	rwy1, 08, N8.94193, W64.1592, 68.3, 6299, 0, 0, 0
+	rwy2, 18, N8.95442, W64.1481, 171.4, 1785, 0, 0, 0

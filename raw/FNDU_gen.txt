@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2451
+center = S7.4008898735, E20.8185005188
+magneticvar = -2.387
+beacons =
+	CH, S7.40000, E20.81670, 0, Chitato
+
+line1 =
+	S8.34114, E21.89585
+	S8.11191, E21.80087
+	S7.86541, E21.78010
+	S7.60165, E21.83363
+	S7.42099, E21.84159
+	S7.27454, E21.78526
+	S7.10918, E21.69225
+	S6.96366, E21.54740
+	S6.69236, E21.20587
+	S6.53485, E20.93901
+
+[airport1]
+name = Dundo Airport
+code = FNDU
+runways =
+	rwy1, 03, S7.40768, E20.8127, 40.0, 6468, 0, 0, 0

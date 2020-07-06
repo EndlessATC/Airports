@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 21
+usa = true
+center = S28.1644001007, E153.505004883
+magneticvar = 11.053
+beacons =
+	CG, S28.16490, E153.50101, 0, Coolangatta
+	CG, S28.16890, E153.50400, 0, Coolangatta
+	JCW, S27.76140, E153.33400, 0, Jacobs Well
+	LAV, S28.08980, E152.92500, 0, Laravale
+	BML, S27.96610, E152.90100, 0, Bromelton
+	BNA, S28.83440, E153.56200, 0, Ballina
+	LIS, S28.82310, E153.25800, 0, Lismore
+	AF, S27.57030, E153.01601, 0, Archerfield
+	AMB, S27.64890, E152.72400, 0, Amberley
+	BN, S27.36580, E153.13901, 0, Brisbane
+	AMB, S27.64170, E152.71600, 0, Amberley
+
+line1 =
+	S27.19443, E153.11680
+	S27.40469, E153.19795
+	S27.76855, E153.38574
+	S27.89766, E153.42842
+	S28.04834, E153.45488
+	S28.24053, E153.57568
+	S28.53340, E153.56914
+	S28.67305, E153.61689
+	S28.85449, E153.60459
+	S29.05020, E153.46221
+
+line2 =
+	S27.50566, E153.40088
+	S27.66504, E153.39580
+	S27.70645, E153.42656
+	S27.71172, E153.45273
+	S27.43643, E153.53877
+	S27.42246, E153.52188
+	S27.40537, E153.43545
+	S27.50566, E153.40088
+
+line3 =
+	S27.23535, E153.37656
+	S27.33096, E153.42090
+	S27.31602, E153.44248
+	S27.20146, E153.42637
+
+[airport1]
+name = Gold Coast Airport
+code = YBCG
+runways =
+	rwy1, 14, S28.1565, E153.501, 150.0, 6699, 0, 1480, 21
+	rwy2, 17, S28.1644, E153.507, 184.0, 1909, 0, 0, 17

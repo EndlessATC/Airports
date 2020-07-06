@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 203
+center = N33.5113983154, E6.77679014206
+magneticvar = 0.190
+beacons =
+	ELO, N33.51060, E6.78056, 0, El Oued
+	ELO, N33.50630, E6.78777, 0, El Oued
+	TGU, N33.05690, E6.08861, 0, Touggourt
+
+[airport1]
+name = Guemar Airport
+code = DAUO
+runways =
+	rwy1, 02, N33.4955, E6.77591, 18.0, 6562, 0, 0, 203
+	rwy2, 13, N33.5275, E6.76194, 130.0, 9843, 0, 0, 194

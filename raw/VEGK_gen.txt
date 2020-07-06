@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 259
+center = N26.7397003174, E83.4496994019
+magneticvar = 0.111
+beacons =
+	GH, N26.73360, E83.44560, 0, Gorakhpur
+	BWA, N27.50330, E83.43280, 0, Bhairahawa
+	BHW, N27.50860, E83.42670, 0, Bhairahawa
+
+line1 =
+	N25.74375, E84.34289
+	N25.74716, E84.42847
+
+[airport1]
+name = Gorakhpur Airport
+code = VEGK
+runways =
+	rwy1, 11, N26.7446, E83.437, 113.1, 9000, 0, 0, 0

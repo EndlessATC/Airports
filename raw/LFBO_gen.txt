@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 499
+center = N43.629101, E1.36382
+magneticvar = -1.024
+beacons =
+	TOU, N43.68080, E1.30981, 0, Toulouse
+	TLU, N43.54850, E1.36822, 0, Toulouse/Francazal
+	TS, N43.50730, E1.48678, 0, Toulouse
+	TW, N43.53060, E1.02528, 0, Toulouse
+	TOE, N43.48110, E1.67989, 0, Toulouse
+	AGN, N43.88800, E0.87286, 0, Agen
+	GAI, N43.95410, E1.82417, 0, Gaillac
+	CSM, N44.08710, E1.13078, 0, Castelsarrasin Moissac
+
+line1 =
+	N42.69305, E1.82493
+	N42.73217, E1.79139
+	N42.78349, E1.67497
+	N42.85645, E1.61626
+	N42.97009, E1.59353
+	N43.14863, E1.58722
+	N43.29762, E1.54040
+	N43.41527, E1.45447
+
+line2 =
+	N43.41527, E1.45447
+	N43.41704, E1.45317
+	N43.51368, E1.40935
+	N43.58762, E1.40883
+	N43.68860, E1.36150
+	N43.88073, E1.22001
+	N44.03101, E1.08234
+	N44.12583, E0.86065
+	N44.21523, E0.50899
+	N44.29533, E0.32347
+	N44.36608, E0.30415
+	N44.42212, E0.25508
+	N44.48406, E0.13690
+	N44.56087, E0.00324
+	N44.58687, W0.10208
+	N44.58761, W0.22362
+
+[airport1]
+name = Toulouse-Blagnac Airport
+code = LFBO
+runways =
+	rwy1, 14L, N43.6374, E1.35762, 143.0, 9843, 0, 0, 490
+	rwy2, 14R, N43.6441, E1.34593, 143.0, 11483, 0, 0, 488

@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8405
+center = S16.3411006927, W71.5830993652
+magneticvar = -2.267
+beacons =
+	EQU, S16.33890, W71.59750, 0, Arequipa
+	UAS, S16.37110, W72.13360, 0, Sihuas
+
+line1 =
+	S16.61455, W72.79395
+	S16.70811, W72.46768
+	S16.77500, W72.36250
+	S16.87617, W72.26860
+	S17.00254, W72.11128
+	S17.06406, W71.96689
+	S17.15107, W71.86836
+	S17.19883, W71.77446
+	S17.29434, W71.53223
+
+[airport1]
+name = Rodríguez Ballón International Airport
+code = SPQU
+runways =
+	rwy1, 09, S16.3398, W71.5847, 93.0, 9777, 0, 1467, 8270

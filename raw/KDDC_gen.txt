@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2594
+usa = true
+transition = 18001
+center = N37.7634010315, W99.9655990601
+magneticvar = 7.109
+beacons =
+	DDC, N37.85060, W100.00600, 0, Dodge City
+	GC, N37.82900, W100.72400, 0, Pieve
+	GCK, N37.91910, W100.72500, 0, Garden City
+	LQR, N38.20450, W99.08760, 0, Larned
+	TQK, N38.48010, W100.88800, 0, Scott City
+	LBL, N37.04440, W100.97100, 0, Liberal
+	LB, N36.96460, W100.95600, 0, Panck
+
+line1 =
+	N38.34598, W98.63312
+	N38.34934, W98.72759
+	N38.30820, W98.85362
+	N38.22253, W99.01124
+	N38.05478, W99.21789
+	N37.80488, W99.47356
+	N37.69687, W99.69779
+	N37.74772, W99.98697
+	N37.93500, W100.77607
+	N37.97099, W101.12739
+	N37.91815, W101.30394
+
+[airport1]
+name = Dodge City Regional Airport
+code = KDDC
+runways =
+	rwy1, 02, N37.7554, W99.9678, 32.0, 4649, 0, 0, 2594
+	rwy2, 14, N37.7732, W99.972, 154.0, 6899, 0, 570, 2583

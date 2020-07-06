@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 245
+center = N43.4683333, W1.5311111
+magneticvar = -1.314
+beacons =
+	BTZ, N43.46660, W1.51028, 0, Biarritz
+	BZ, N43.47050, W1.40369, 0, Biarritz
+	HIG, N43.38630, W1.79589, 0, San Sebastian
+	SSN, N43.31120, W1.83039, 0, San Sebastian
+	NO, N42.75000, W1.63167, 0, Pamplona
+	PPN, N42.73370, W1.70200, 0, Pamplona
+	PAM, N42.71420, W1.63904, 0, Pamplona
+	PAP, N42.68840, W1.66078, 0, Pamplona
+	MDM, N43.90990, W0.50439, 0, Mont De Marsan
+
+line1 =
+	N44.02021, W1.34600
+	N43.56377, W1.48486
+	N43.43804, W1.63145
+	N43.40732, W1.79404
+	N43.40083, W1.82852
+	N43.34507, W1.99131
+	N43.32192, W2.19668
+	N43.32803, W2.33711
+	N43.41274, W2.60708
+	N43.45444, W2.87505
+	N43.43970, W2.94771
+	N43.37158, W3.04561
+
+line2 =
+	N42.75522, W3.01090
+	N42.69528, W2.90542
+	N42.64417, W2.84279
+	N42.60184, W2.82305
+	N42.55968, W2.75580
+	N42.51761, W2.64102
+	N42.50686, W2.56315
+	N42.52733, W2.52219
+	N42.51379, W2.39543
+
+[airport1]
+name = Biarritz-Anglet-Bayonne Airport
+code = LFBZ
+runways =
+	rwy1, 09, N43.4682, W1.53723, 89.0, 7382, 656, 0, 242
+
+[airport2]
+name = San Sebastian Airport
+code = SO
+runways =
+	rwy2, 04, N43.3504, W1.7974, 39.0, 4780, 0, 0, 10
+inboundbeacon = HIG

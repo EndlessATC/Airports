@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 15
+center = N8.48211956024, E76.9200973511
+magneticvar = -2.359
+beacons =
+	TVM, N8.47481, E76.92470, 0, Trivandrum
+
+line1 =
+	N9.45210, E76.32461
+	N9.23682, E76.40312
+	N9.20781, E76.41904
+	N9.18877, E76.45234
+	N9.16084, E76.47178
+	N9.09077, E76.48291
+	N8.90278, E76.55342
+	N8.84707, E76.61729
+	N8.40728, E76.96689
+	N8.31592, E77.06592
+	N8.14531, E77.30146
+	N8.07832, E77.51758
+	N8.12988, E77.58721
+	N8.18984, E77.77031
+	N8.38457, E78.06016
+
+[airport1]
+name = Trivandrum International Airport
+code = VOTV
+runways =
+	rwy1, 14, N8.49315, E76.9094, 136.0, 11148, 1332, 522, 14

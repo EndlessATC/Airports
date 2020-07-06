@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6
+center = N8.53851032257, E81.1819000244
+magneticvar = -2.285
+beacons =
+	CHB, N8.53356, E81.18530, 0, China Bay
+	MIN, N8.05026, E80.98530, 0, Minneriya
+	VNA, N8.73972, E80.48810, 0, Vavuniya
+	AN, N8.30361, E80.42970, 0, Anuradhapura
+
+line1 =
+	N7.62500, E81.72734
+	N7.68447, E81.68291
+	N7.71094, E81.67627
+	N7.74155, E81.67871
+	N7.78247, E81.66543
+	N8.11890, E81.43594
+	N8.14785, E81.42217
+	N8.21523, E81.42217
+	N8.43145, E81.37285
+	N8.47207, E81.33398
+	N8.48359, E81.27461
+	N8.50552, E81.22695
+	N8.54941, E81.21621
+	N8.60840, E81.21924
+	N8.66196, E81.19824
+	N8.93262, E81.01602
+	N8.95693, E80.97920
+	N8.97148, E80.93545
+	N9.02451, E80.91006
+	N9.08589, E80.89346
+	N9.36636, E80.71113
+
+line2 =
+	N9.48096, E80.42832
+	N9.48047, E80.36797
+	N9.46543, E80.31797
+	N9.49478, E80.25645
+	N9.53813, E80.19609
+
+line3 =
+	N9.45327, E80.11094
+	N9.32686, E80.11836
+	N9.20996, E80.09961
+	N9.09565, E80.06484
+
+[airport1]
+name = China Bay Airport
+code = VCCT
+runways =
+	rwy1, 06, N8.533, E81.1725, 59.3, 7850, 0, 0, 6

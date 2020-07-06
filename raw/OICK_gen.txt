@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3782
+center = N33.4353981018, E48.2829017639
+magneticvar = 3.401
+beacons =
+	KRD, N33.43510, E48.28910, 0, Khoram Abad
+	KRD, N33.38520, E48.43440, 0, Khoram Abad
+
+[airport1]
+name = Khoram Abad Airport
+code = OICK
+runways =
+	rwy1, 11, N33.441, E48.267, 113.0, 10498, 0, 700, 3782

@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 267
+center = N31.0634994507, E16.5949993134
+magneticvar = 1.529
+beacons =
+	SRT, N31.05910, E16.59800, 0, Sirte
+	SRT, N31.19330, E16.60000, 0, Sirte
+
+line1 =
+	N30.85190, E17.94932
+	N30.92759, E17.83047
+	N31.08149, E17.34922
+	N31.21475, E16.78154
+	N31.22729, E16.45098
+	N31.26445, E16.12305
+	N31.36099, E15.83223
+	N31.42642, E15.70596
+	N31.53110, E15.59580
+	N31.65679, E15.49639
+	N31.83423, E15.41406
+	N31.97119, E15.36309
+
+[airport1]
+name = Gardabya Airport
+code = HLGD
+runways =
+	rwy1, 13, N31.0678, E16.5898, 134.2, 11807, 0, 0, 0
+	rwy2, 18, N31.0751, E16.5949, 179.6, 11807, 0, 0, 0

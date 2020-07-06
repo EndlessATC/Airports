@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2575
+metric = true
+center = N38.5433006287, E68.8249969482
+magneticvar = 3.364
+beacons =
+	DNB, N38.54170, E68.81170, 0, Dushanbe
+	WG, N38.54330, E68.88500, 0, Dushanbe
+	FN, N38.54330, E68.75500, 0, Dushanbe
+	SX, N38.84330, E68.84000, 0, Pugus
+	PR, N38.53330, E68.40170, 0, Oktyabrsky
+	JD, N38.54330, E69.31330, 0, Fayzabad
+	HU, N38.08330, E69.33330, 0, Dangara
+	CG, N37.94170, E69.79000, 0, Kulyab
+
+line1 =
+	N37.98481, E70.31326
+	N37.94120, E70.23874
+	N37.92443, E70.21466
+	N37.88601, E70.19947
+	N37.76537, E70.25497
+	N37.66419, E70.25145
+	N37.58249, E70.18872
+	N37.54350, E70.11983
+	N37.54722, E70.04470
+	N37.56616, E69.98496
+	N37.60029, E69.94062
+	N37.60959, E69.82089
+	N37.59404, E69.62576
+	N37.55306, E69.49212
+
+[airport1]
+name = Dushanbe Airport
+code = UTDD
+runways =
+	rwy1, 09, N38.5435, E68.8068, 90.0, 10170, 0, 1335, 2575

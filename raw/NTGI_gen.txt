@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 14
+center = S14.4368000031, W146.070007324
+magneticvar = 12.002
+beacons =
+	MH, S14.43280, W146.06200, 0, Manihi
+	TP, S14.71470, W145.25301, 0, Takapoto
+
+[airport1]
+name = Manihi Airport
+code = NTGI
+runways =
+	rwy1, 05, S14.4391, W146.074, 56.1, 3051, 0, 0, 14
+
+[airport2]
+name = Ahe Airport
+code = HE
+runways =
+	rwy2, 06, S14.4299, W146.262, 70.8, 4068, 0, 0, 4
+inboundbeacon = MH

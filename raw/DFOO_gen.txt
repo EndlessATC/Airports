@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1511
+center = N11.1600999832, W4.33096981049
+magneticvar = -4.323
+beacons =
+	BD, N11.14500, W4.35086, 0, Bobo Dioulasso
+	BDO, N11.17530, W4.31036, 0, Bobo Dioulasso
+
+line1 =
+	N11.13880, W5.26316
+	N11.12449, W5.18482
+	N11.15438, W5.12562
+	N11.22373, W5.05948
+	N11.26435, W4.98953
+	N11.28218, W4.87895
+	N11.40602, W4.71462
+	N11.43202, W4.63855
+	N11.40153, W4.59592
+	N11.41331, W4.53943
+	N11.46739, W4.46910
+	N11.50741, W4.38161
+	N11.53330, W4.27702
+	N11.69673, W4.12395
+	N11.99767, W3.92239
+
+[airport1]
+name = Bobo Dioulasso Airport
+code = DFOO
+runways =
+	rwy1, 06, N11.1511, W4.34291, 53.0, 10826, 0, 0, 1417

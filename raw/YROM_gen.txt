@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1032
+usa = true
+center = S26.5450000763, E148.774993896
+magneticvar = 9.441
+beacons =
+	ROM, S26.54310, E148.78200, 0, Roma
+
+[airport1]
+name = Roma Airport
+code = YROM
+runways =
+	rwy1, 09, S26.5441, E148.766, 102.0, 2628, 0, 0, 1030
+	rwy2, 18, S26.5377, E148.777, 192.0, 4934, 0, 0, 999

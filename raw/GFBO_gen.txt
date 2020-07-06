@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 328
+center = N7.94439983368, W11.7609996796
+
+line1 =
+	N7.63721, W12.61523
+	N7.62202, W12.85439
+
+line2 =
+	N7.47451, W12.60718
+	N7.41025, W12.54062
+	N7.43633, W12.52607
+	N7.53511, W12.50063
+	N7.58242, W12.51250
+	N7.60737, W12.54419
+	N7.63721, W12.61523
+
+line3 =
+	N8.65625, W12.90400
+	N8.62979, W12.89409
+	N8.58154, W12.91294
+
+line4 =
+	N8.05518, W12.92515
+	N7.85664, W12.88096
+	N7.81870, W12.85088
+	N7.79111, W12.78193
+	N7.71587, W12.69761
+	N7.70059, W12.57021
+	N7.75337, W12.51045
+	N7.75327, W12.48027
+	N7.66572, W12.51045
+	N7.54502, W12.43271
+	N7.44248, W12.48066
+	N7.38628, W12.48564
+	N7.34180, W12.34663
+	N7.18354, W11.92920
+	N7.08857, W11.73345
+	N6.94697, W11.54751
+
+[airport1]
+name = Bo Airport
+code = GFBO

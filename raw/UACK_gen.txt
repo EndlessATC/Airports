@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 900
+metric = true
+center = N53.329102, E69.594597
+magneticvar = 11.037
+beacons =
+	OT, N53.31670, E69.60000, 0, Kokshetau
+	KW, N53.37190, E69.64030, 0, Kokshetau
+
+[airport1]
+name = Kokshetau Airport
+code = UACK
+runways =
+	rwy1, 02, N53.3194, E69.5846, 32.0, 8325, 0, 0, 0

@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 42
+center = S20.5463008881, E164.255996704
+magneticvar = 11.214
+beacons =
+	KC, S20.54370, E164.25900, 0, Koumac
+	KE, S21.08880, E164.84700, 0, Kone
+	BL, S19.72210, E163.66299, 0, Ile Art
+
+line1 =
+	S21.08057, E165.44717
+	S21.04277, E165.42051
+	S20.98135, E165.41250
+	S20.93584, E165.38057
+	S20.88701, E165.30664
+	S20.81797, E165.25234
+	S20.76885, E165.19180
+	S20.74453, E165.11191
+	S20.68105, E164.97568
+	S20.38115, E164.58809
+	S20.28223, E164.43594
+	S20.30889, E164.31514
+	S20.24609, E164.20234
+	S20.14150, E164.05967
+	S20.17285, E164.04053
+	S20.23359, E164.03730
+	S20.27861, E164.06504
+	S20.30488, E164.12363
+	S20.34795, E164.15811
+	S20.41494, E164.15215
+	S20.48018, E164.16973
+	S20.63271, E164.31289
+	S20.73926, E164.37451
+	S20.82910, E164.45469
+	S20.90586, E164.55947
+	S20.99209, E164.65566
+	S21.20156, E164.85527
+	S21.28984, E164.92744
+	S21.32686, E165.01016
+	S21.52549, E165.24199
+
+[airport1]
+name = Koumac Airport
+code = NWWK
+runways =
+	rwy1, 06, S20.5482, E164.251, 67.5, 3616, 0, 0, 23

@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1620
+metric = true
+center = N26.32217, E109.1499
+magneticvar = -2.110
+beacons =
+	RO, N25.76830, E109.60700, 0, Sanjiang
+
+line1 =
+	N26.56401, E107.89960
+	N26.61677, E107.95923
+	N26.68788, E108.00522
+	N26.75289, E108.07183
+	N26.81180, E108.15891
+	N26.83906, E108.25089
+	N26.83467, E108.34763
+	N26.81676, E108.39600
+	N26.78529, E108.39610
+	N26.72504, E108.45346
+	N26.63600, E108.56808
+	N26.61770, E108.64477
+	N26.67026, E108.68342
+	N26.69599, E108.71784
+	N26.69501, E108.74792
+	N26.67925, E108.76192
+	N26.64876, E108.75975
+	N26.61414, E108.79535
+	N26.57538, E108.86863
+	N26.57337, E108.96129
+	N26.60820, E109.07322
+	N26.67868, E109.19430
+	N26.83787, E109.38984
+	N26.89355, E109.43780
+	N26.95422, E109.44389
+	N27.03840, E109.42405
+	N27.07990, E109.44064
+	N27.07868, E109.49366
+	N27.10711, E109.55603
+	N27.16514, E109.62776
+	N27.17733, E109.66734
+	N27.14369, E109.67489
+	N27.12832, E109.69194
+	N27.13121, E109.71871
+	N27.15188, E109.73979
+	N27.19038, E109.75530
+	N27.18883, E109.82299
+	N27.14721, E109.94298
+	N27.19036, E110.05052
+
+[airport1]
+name = Liping Airport
+code = ZUNP

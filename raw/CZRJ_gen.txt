@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 974
+usa = true
+transition = 18001
+center = N52.9435997009, W91.3127975464
+magneticvar = -3.318
+beacons =
+	ZRJ, N52.94890, W91.32400, 0, Round Lake
+	2M, N52.60310, W90.37440, 0, Opapimiskan Lake
+
+line1 =
+	N52.88267, W89.52231
+	N52.89702, W89.47104
+	N52.91768, W89.43408
+	N52.94824, W89.42207
+
+line2 =
+	N52.86836, W89.47783
+	N52.88267, W89.52231
+	N52.88267, W89.52231
+	N52.88267, W89.52231
+
+line3 =
+	N53.76606, W90.35718
+	N53.78901, W90.34365
+	N53.83491, W90.32109
+	N53.86797, W90.28989
+	N53.87007, W90.25176
+	N53.85625, W90.22695
+	N53.84062, W90.20083
+	N53.83789, W90.17129
+	N53.85391, W90.14492
+	N53.87080, W90.10068
+	N53.88120, W90.04624
+	N53.88633, W90.00186
+	N53.86323, W89.92764
+	N53.83354, W89.86187
+	N53.81489, W89.84673
+	N53.79131, W89.72910
+	N53.77153, W89.60859
+	N53.73306, W89.67793
+	N53.68994, W89.81392
+	N53.67876, W89.93867
+	N53.68521, W90.03379
+	N53.71665, W90.10303
+	N53.74663, W90.16689
+	N53.75654, W90.27456
+	N53.76606, W90.35718
+	N53.76606, W90.35718
+	N53.76606, W90.35718
+	N53.76606, W90.35718
+
+line4 =
+	N51.97388, W92.29914
+	N51.94784, W92.23723
+	N51.95125, W92.15496
+	N51.98752, W91.97017
+
+[airport1]
+name = Round Lake (Weagamow Lake) Airport
+code = CZRJ

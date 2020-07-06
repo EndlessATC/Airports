@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2267
+usa = true
+transition = 18001
+center = N53.8894004822, W122.679000854
+magneticvar = 20.057
+beacons =
+	XS, N53.82830, W122.65400, 0, Prince George
+	ZXS, N53.96750, W122.69000, 0, Northwood
+	YXS, N53.89420, W122.45600, 0, Prince George
+
+line1 =
+	N53.77811, W121.02382
+	N53.88891, W121.39646
+	N53.92989, W121.58430
+	N53.96291, W121.64921
+	N54.00167, W121.65381
+	N54.06117, W121.73843
+	N54.14142, W121.90307
+	N54.20119, W122.08854
+	N54.24041, W122.29478
+	N54.24511, W122.43505
+	N54.21524, W122.50936
+	N54.17395, W122.55099
+	N54.12130, W122.55998
+	N54.04554, W122.61086
+	N53.94678, W122.70367
+	N53.81568, W122.74439
+	N53.65228, W122.73302
+	N53.53415, W122.70814
+	N53.46134, W122.66969
+	N53.39914, W122.70938
+	N53.34762, W122.82715
+	N53.26572, W122.80405
+	N53.15345, W122.64003
+	N53.04214, W122.53047
+	N52.93176, W122.47536
+
+[airport1]
+name = Prince George Airport
+code = CYXS
+runways =
+	rwy1, 01, N53.8859, W122.678, 31.0, 3769, 984, 373, 2235
+	rwy2, 06, N53.8857, W122.693, 79.0, 5628, 0, 407, 2267
+	rwy3, 15, N53.9003, W122.671, 170.0, 11450, 0, 500, 2232

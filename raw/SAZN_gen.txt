@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 895
+center = S38.949001, W68.155701
+magneticvar = 3.458
+beacons =
+	NEU, S38.95030, W68.15470, 0, Neuquen
+	N, S38.95000, W68.18710, 0, Presidente Peron
+	ON, S38.94990, W68.25780, 0, Presidente Peron
+	GNR, S38.98310, W67.60110, 0, General Roca
+
+line1 =
+	S37.96859, W67.86627
+	S38.02223, W67.85836
+	S38.05571, W67.82446
+	S38.06925, W67.76457
+	S38.12243, W67.68953
+	S38.21534, W67.59930
+	S38.25203, W67.45983
+	S38.23245, W67.27111
+	S38.26924, W67.15003
+	S38.36246, W67.09665
+	S38.43590, W66.99309
+	S38.51631, W66.76253
+
+line2 =
+	S38.97473, W68.01403
+	S39.05162, W67.75650
+	S39.07436, W67.59827
+	S39.06857, W67.45350
+	S39.08469, W67.31408
+	S39.12273, W67.17995
+	S39.12914, W66.98704
+	S39.10397, W66.73528
+
+line3 =
+	S38.43481, W69.60404
+	S38.53754, W69.45211
+	S38.59170, W69.32532
+	S38.59728, W69.22373
+	S38.54344, W69.10211
+	S38.43016, W68.96051
+	S38.37115, W68.84938
+	S38.36639, W68.76869
+	S38.44721, W68.60271
+	S38.61361, W68.35138
+	S38.76626, W68.17281
+	S38.97473, W68.01403
+
+[airport1]
+name = Presidente Peron Airport
+code = SAZN
+runways =
+	rwy1, 9, S38.949, W68.1705, 90.2, 8432, 0, 0, 895

@@ -1,0 +1,89 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7
+center = N8.53332996368, W83.3000030518
+magneticvar = -0.339
+beacons =
+	COT, N8.60278, W82.96810, 0, Coto 47
+
+line1 =
+	N9.33408, W82.24443
+	N9.38071, W82.23350
+	N9.43027, W82.25942
+	N9.43188, W82.27578
+	N9.41812, W82.32173
+	N9.33408, W82.24443
+
+line2 =
+	N9.46250, W84.22236
+	N9.37944, W84.11787
+	N9.27642, W83.89556
+	N9.15029, W83.73691
+	N9.03535, W83.63726
+	N8.95981, W83.61616
+	N8.80405, W83.61372
+	N8.72891, W83.64219
+	N8.61445, W83.73408
+	N8.48032, W83.60474
+	N8.44585, W83.54375
+	N8.43848, W83.45205
+	N8.41489, W83.37681
+	N8.40601, W83.29150
+	N8.46382, W83.28955
+	N8.50688, W83.29775
+	N8.61924, W83.42178
+	N8.70684, W83.46973
+	N8.71772, W83.39141
+	N8.66436, W83.28579
+	N8.58818, W83.16240
+	N8.50547, W83.12959
+	N8.35308, W83.12334
+	N8.28774, W83.04146
+	N8.18174, W82.94727
+	N8.07065, W82.87935
+	N8.09951, W82.85435
+	N8.24634, W82.86611
+	N8.30352, W82.78115
+	N8.32197, W82.67954
+	N8.28740, W82.53096
+	N8.27485, W82.36484
+	N8.31104, W82.23545
+	N8.23037, W82.22432
+	N8.19482, W82.15986
+
+line3 =
+	N8.98008, W82.13330
+	N9.03149, W82.24419
+	N9.14165, W82.23545
+	N9.16812, W82.20068
+	N9.19175, W82.18813
+	N9.21543, W82.20488
+	N9.19062, W82.27246
+	N9.20918, W82.33975
+	N9.33726, W82.37539
+	N9.38193, W82.36318
+	N9.42856, W82.37080
+	N9.52324, W82.50034
+
+[airport1]
+name = Puerto Jimenez Airport
+code = MRPJ
+
+[airport2]
+name = Golfito Airport
+code = GF
+runways =
+	rwy2, 13, N8.65852, W83.1867, 135.1, 4593, 0, 0, 0
+inboundbeacon = COT
+
+[airport3]
+name = Coto 47 Airport
+code = CC
+runways =
+	rwy1, 18, N8.60612, W82.9686, 180.4, 3281, 0, 0, 0
+inboundbeacon = COT

@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 811
+center = N18.2709007263, E99.5042037964
+magneticvar = -0.448
+beacons =
+	LPN, N18.27690, E99.50240, 0, Lampang
+	LP, N18.27800, E99.50750, 0, Lampang
+	PR, N18.12950, E100.16100, 0, Phrae
+	PAE, N18.13410, E100.16600, 0, Phrae
+	CGM, N18.75980, E98.96720, 0, Chiang Mai
+	CHM, N18.77120, E98.96680, 0, Chiang Mai
+	CMA, N18.76610, E98.96130, 0, Chiang Mai
+
+[airport1]
+name = Lampang Airport
+code = VTCL
+runways =
+	rwy1, 18, N18.2798, E99.5035, 175.4, 6465, 660, 330, 789

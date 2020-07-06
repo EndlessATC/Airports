@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 80
+center = N13.955, E109.042
+magneticvar = -0.351
+beacons =
+	PCA, N13.95720, E109.04300, 0, Phucat
+	PC, N13.86560, E109.10600, 0, Phucat
+
+line1 =
+	N12.95596, E109.42393
+	N13.02549, E109.37676
+	N13.21919, E109.30957
+	N13.27935, E109.27188
+	N13.45078, E109.28809
+	N13.59053, E109.25205
+	N13.85474, E109.24707
+	N13.76504, E109.28809
+	N13.85645, E109.30332
+	N14.05342, E109.24463
+	N14.09668, E109.22393
+	N14.15430, E109.20732
+	N14.27046, E109.19141
+	N14.38413, E109.13730
+	N14.55259, E109.08701
+	N14.71616, E109.08486
+	N14.80283, E109.02246
+
+[airport1]
+name = Phu Cat Airport
+code = VVPC
+runways =
+	rwy1, 15, N13.9665, E109.035, 146.7, 10010, 0, 0, 102

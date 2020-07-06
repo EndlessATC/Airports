@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 43
+center = N25.4433002472, E60.3820991516
+magneticvar = 1.010
+beacons =
+	CBH, N25.44540, E60.42130, 0, Chah Bahar
+
+line1 =
+	N25.42773, E59.22725
+	N25.48149, E59.45605
+	N25.40327, E59.61602
+	N25.40088, E59.81836
+	N25.36182, E59.89707
+	N25.38413, E60.02471
+	N25.31157, E60.40020
+	N25.43706, E60.51055
+	N25.41353, E60.58750
+	N25.32983, E60.61514
+	N25.28223, E60.66387
+	N25.18389, E61.10859
+	N25.14199, E61.24297
+	N25.10210, E61.41221
+	N25.15366, E61.49033
+	N25.19551, E61.53311
+
+[airport1]
+name = Konarak Airport
+code = OIZC
+runways =
+	rwy1, 09L, N25.4457, E60.3652, 90.9, 12514, 0, 0, 22
+	rwy2, 09R, N25.4415, E60.3652, 90.9, 9844, 0, 0, 24

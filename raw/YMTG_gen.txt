@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 212
+usa = true
+center = S37.7456016541, E140.785003662
+magneticvar = 10.108
+beacons =
+	MTG, S37.75140, E140.78500, 0, Mount Gambier
+	MTG, S37.75260, E140.77901, 0, Mount Gambier
+	NRC, S36.97820, E140.72400, 0, Naracoorte
+	POD, S38.31440, E141.47301, 0, Portland
+
+line1 =
+	S38.39941, E142.18770
+	S38.28379, E141.92471
+	S38.27139, E141.72500
+	S38.38779, E141.59395
+	S38.37979, E141.49180
+	S38.36348, E141.42422
+	S38.17197, E141.21387
+	S38.07695, E141.01094
+	S38.02842, E140.62725
+	S37.89668, E140.39043
+	S37.64219, E140.21211
+	S37.35205, E139.87480
+	S37.24580, E139.78428
+	S37.14170, E139.74229
+	S37.05957, E139.73848
+	S36.90264, E139.78389
+	S36.74805, E139.84658
+
+[airport1]
+name = Mount Gambier Airport
+code = YMTG
+runways =
+	rwy1, 06, S37.7495, E140.78, 64.0, 2776, 0, 0, 199
+	rwy2, 11, S37.746, E140.78, 121.0, 3025, 0, 0, 203
+	rwy3, 18, S37.7403, E140.79, 186.0, 5000, 0, 0, 212

@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 604
+center = N51.7219009399, E19.3980998993
+magneticvar = 4.139
+beacons =
+	LDZ, N51.80010, E19.65610, 0, Lodz
+	TZ, N51.53830, E19.25040, 0, Lask
+	T, N51.54530, E19.21180, 0, Lask
+	KRN, N51.94620, E20.44460, 0, Karnice
+	WAR, N52.25910, E20.65710, 0, Zaborowek
+
+line1 =
+	N51.87725, E21.27646
+	N51.91833, E21.24122
+	N51.94381, E21.26540
+	N51.99347, E21.25873
+	N52.06731, E21.22122
+	N52.17012, E21.12629
+	N52.30185, E20.97384
+	N52.38393, E20.84196
+	N52.41639, E20.73055
+	N52.41892, E20.52405
+	N52.39163, E20.22236
+	N52.42078, E19.96357
+	N52.54927, E19.63956
+	N52.64394, E19.20175
+
+[airport1]
+name = Łódź Władysław Reymont Airport
+code = EPLL
+runways =
+	rwy1, 07L, N51.7162, E19.3722, 71.0, 8022, 968, 1020, 586
+	rwy2, 07R, N51.7193, E19.3967, 71.0, 2296, 0, 0, 579

@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1017
+center = N32.233611, E75.634444
+magneticvar = 1.280
+beacons =
+	PK, N32.24050, E75.63310, 0, Pathankot
+	KN, N32.16990, E76.26370, 0, Kangra
+	JA, N32.69960, E74.84900, 0, Jammu
+	JJU, N32.69160, E74.83760, 0, Jammu
+	AR, N31.70860, E74.81430, 0, Amritsar
+	AAR, N31.70690, E74.80080, 0, Amritsar
+
+line1 =
+	N31.40863, E76.76465
+	N31.33364, E76.74356
+	N31.29845, E76.71483
+	N31.27799, E76.67132
+	N31.30636, E76.59598
+	N31.42227, E76.43506
+
+line2 =
+	N32.59326, E76.93983
+	N32.67108, E76.76744
+	N32.73588, E76.55205
+	N32.84174, E76.43733
+	N32.98863, E76.42338
+	N33.12240, E76.33811
+
+line3 =
+	N33.20169, E75.80150
+	N33.17131, E75.78786
+	N33.15209, E75.67665
+	N33.14395, E75.46788
+	N33.17351, E75.30830
+
+line4 =
+	N33.19051, E75.08031
+	N33.17028, E74.99923
+	N33.18567, E74.87861
+	N33.12299, E74.80870
+	N32.98233, E74.78947
+	N32.78880, E74.58277
+
+line5 =
+	N31.33677, E76.95161
+	N31.38023, E76.88288
+	N31.40312, E76.88371
+	N31.41307, E76.85425
+	N31.40863, E76.76465
+	N31.42227, E76.43506
+	N31.40739, E76.38379
+	N31.38656, E76.36958
+	N31.35488, E76.37527
+
+[airport1]
+name = Pathankot Airport
+code = VIPK
+runways =
+	rwy1, 01, N32.2215, E75.6323, 9.2, 8970, 0, 0, 0

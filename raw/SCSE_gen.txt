@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 481
+center = S29.916201, W71.199501
+magneticvar = 2.366
+beacons =
+	SER, S29.91550, W71.19700, 0, La Serena
+	SER, S29.90890, W71.21700, 0, La Serena
+	TOY, S30.26310, W71.47970, 0, Tongoy
+	TOY, S30.27640, W71.47360, 0, Tongoy
+
+line1 =
+	S28.92646, W71.51924
+	S29.19824, W71.48584
+	S29.35039, W71.35327
+	S29.44316, W71.32671
+	S29.64971, W71.31572
+	S29.93320, W71.34805
+	S30.14297, W71.40039
+	S30.33037, W71.66948
+	S30.62803, W71.70894
+	S30.75928, W71.70566
+
+[airport1]
+name = La Florida Airport
+code = SCSE
+runways =
+	rwy1, 12, S29.9124, W71.2085, 115.9, 6358, 0, 0, 436

@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = S17.8554992676, E36.8690986633
+magneticvar = -9.575
+beacons =
+	VQL, S17.85120, E36.86680, 0, Quelimane
+	QL, S17.82120, E36.86680, 0, Quelimane
+
+line1 =
+	S18.71963, E36.26289
+	S18.79316, E36.32725
+	S18.76973, E36.40371
+	S18.69297, E36.41221
+	S18.57578, E36.49805
+	S18.51816, E36.54014
+	S18.30732, E36.75615
+	S18.12900, E36.89961
+	S18.08008, E36.91924
+	S17.99346, E36.93936
+	S17.93496, E36.99951
+	S17.90928, E37.05059
+	S17.73994, E37.24453
+	S17.57070, E37.51230
+	S17.39316, E37.83945
+	S17.32139, E38.04824
+	S17.27598, E38.08691
+
+line2 =
+	S18.33723, E36.03892
+	S18.42435, E36.10522
+	S18.53608, E36.14025
+	S18.62041, E36.14537
+	S18.67746, E36.12046
+	S18.71963, E36.12894
+	S18.74966, E36.15023
+	S18.79477, E36.15343
+	S18.84236, E36.12496
+	S18.33723, E36.03892
+	S18.57577, E36.49801
+
+line3 =
+	S18.07998, E35.75470
+	S18.14592, E35.84637
+	S18.21103, E35.87727
+	S18.27480, E35.94146
+	S18.33723, E36.03892
+
+[airport1]
+name = Quelimane Airport
+code = FQQL
+runways =
+	rwy1, 09, S17.8513, E36.8657, 85.0, 2980, 0, 0, 0
+	rwy2, 18, S17.8474, E36.8683, 174.0, 5905, 0, 0, 36

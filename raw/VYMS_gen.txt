@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1875
+center = N20.5167999268, E99.2567977905
+magneticvar = -0.493
+beacons =
+	MS, N20.53440, E99.26270, 0, Mong Hsat
+	TL, N20.47040, E99.93060, 0, Tachileik
+	CT, N19.95970, E99.88310, 0, Chiang Rai
+	CTR, N19.94820, E99.88340, 0, Chiang Rai
+	KG, N21.30270, E99.63270, 0, Kengtung
+
+line1 =
+	N20.81299, E100.49333
+	N20.82323, E100.40744
+	N20.79568, E100.32610
+	N20.73026, E100.24931
+	N20.58911, E100.18389
+	N20.37222, E100.12963
+	N20.25768, E100.11495
+	N20.24543, E100.13976
+	N20.27277, E100.17412
+	N20.33959, E100.21805
+	N20.37731, E100.26600
+	N20.38589, E100.31799
+	N20.34036, E100.37313
+	N20.24073, E100.43152
+	N20.18409, E100.49157
+
+line2 =
+	N21.48272, E98.59484
+	N21.42097, E98.64703
+	N21.33720, E98.68062
+	N21.23139, E98.69561
+	N21.14473, E98.72646
+	N21.07716, E98.77307
+	N21.02037, E98.72424
+	N20.95125, E98.50792
+
+line3 =
+	N20.95125, E98.50792
+	N20.82837, E98.50234
+	N20.71179, E98.53779
+	N20.56055, E98.61251
+	N20.41405, E98.65975
+	N20.27230, E98.67949
+	N20.14859, E98.55226
+	N19.99002, E98.14081
+
+[airport1]
+name = Mong Hsat Airport
+code = VYMS
+runways =
+	rwy1, 12, N20.5205, E99.2507, 123.0, 5000, 0, 0, 0

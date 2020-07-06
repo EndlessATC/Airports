@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 22
+center = S18.109500885, E49.3925018311
+magneticvar = -15.270
+beacons =
+	VSM, S18.11800, E49.39720, 0, Toamasina
+	MT, S18.12430, E49.39420, 0, Toamasina
+	MV, S18.09140, E49.39050, 0, Toamasina
+	TO, S18.04070, E49.38500, 0, Toamasina
+	MMY, S18.80590, E49.03180, 0, Maromamy
+
+line1 =
+	S17.24063, E49.44932
+	S17.34668, E49.43711
+	S17.66953, E49.49365
+	S17.89854, E49.47783
+	S18.33633, E49.36289
+	S18.54404, E49.29688
+	S18.79229, E49.20332
+
+[airport1]
+name = Toamasina Airport
+code = FMMT
+runways =
+	rwy1, 01, S18.1194, E49.3937, 354.0, 7218, 0, 0, 19

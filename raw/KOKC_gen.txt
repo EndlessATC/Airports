@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1295
+usa = true
+transition = 18001
+center = N35.3931007385, W97.6007003784
+magneticvar = 5.374
+beacons =
+	IRW, N35.35860, W97.60920, 0, Will Rogers
+	OK, N35.47140, W97.60550, 0, Tuloo
+	RG, N35.29510, W97.58870, 0, Gally
+	PWA, N35.53290, W97.64720, 0, Wiley Post
+	OUN, N35.24810, W97.47000, 0, Norman
+	TIK, N35.43650, W97.37970, 0, Tinker
+	RQO, N35.47870, W98.00890, 0, El Reno
+	HMY, N35.02900, W97.23050, 0, Muldrow
+	LCY, N35.84560, W97.41580, 0, Logan County
+	IFI, N35.80530, W98.00390, 0, Kingfisher
+	HN, N35.44990, W96.94300, 0, Suybe
+	CQB, N35.72230, W96.81860, 0, Tilghman
+	GGU, N35.51670, W96.71860, 0, Prague
+	PVJ, N34.71540, W97.22890, 0, Pauls Valley
+	SRE, N35.27170, W96.67470, 0, Seminole
+	JWG, N35.86200, W98.42530, 0, Watonga
+	CUH, N35.89440, W96.78110, 0, Cushing
+	OFZ, N34.78140, W98.40230, 0, Trail
+	SWO, N36.22430, W97.08130, 0, Stillwater
+	ADH, N34.80260, W96.67010, 0, Ada
+	PFL, N34.60890, W98.40380, 0, Post
+
+line1 =
+	N36.15348, W96.19924
+	N36.17392, W96.25978
+	N36.21296, W96.26603
+	N36.25608, W96.31564
+	N36.30331, W96.40866
+	N36.32194, W96.47703
+	N36.31197, W96.52077
+	N36.33194, W96.54172
+	N36.38186, W96.53986
+
+[airport1]
+name = Will Rogers World Airport
+code = KOKC
+runways =
+	rwy1, 13, N35.4046, W97.6159, 135.1, 7800, 0, 0, 1279
+	rwy2, 17L, N35.4052, W97.5889, 180.0, 9802, 0, 0, 1286
+	rwy3, 17R, N35.4059, W97.6057, 180.0, 9800, 0, 0, 1282
+	rwy4, 18, N35.3935, W97.6077, 180.0, 3079, 0, 0, 1275

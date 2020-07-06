@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4068
+metric = true
+center = N27.81638, E106.33268
+magneticvar = -1.469
+beacons =
+	QNX, N27.04170, E106.03000, 0, Qianxi
+	XYO, N28.17000, E105.42300, 0, Xuyong
+
+line1 =
+	N28.74574, E105.04266
+	N28.72437, E105.09134
+	N28.73215, E105.12798
+	N28.76905, E105.15258
+	N28.78649, E105.20865
+	N28.78452, E105.29619
+	N28.80506, E105.35102
+
+[airport1]
+name = Zunyi Maotai Airport
+code = ZUMT

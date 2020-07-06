@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3295
+usa = true
+transition = 18001
+center = N32.3375015259, W104.263000488
+magneticvar = 8.504
+beacons =
+	CNM, N32.25660, W104.22600, 0, Carlsbad
+	CV, N32.26680, W104.33900, 0, Carlz
+	ATS, N32.85260, W104.46200, 0, Artesia
+	SFL, N31.74810, W105.08700, 0, Salt Flat
+
+[airport1]
+name = Cavern City Air Terminal
+code = KCNM
+runways =
+	rwy1, 03, N32.3227, W104.274, 44.1, 7854, 0, 0, 3295
+	rwy2, 08, N32.3423, W104.271, 90.0, 5333, 0, 0, 3270
+	rwy3, 14L, N32.3518, W104.26, 156.2, 4615, 0, 616, 3241
+	rwy4, 14R, N32.3429, W104.271, 154.0, 5839, 0, 0, 3269

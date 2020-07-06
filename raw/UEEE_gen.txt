@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 325
+center = N62.0932998657, E129.770996094
+magneticvar = -15.455
+beacons =
+	UD, N62.13330, E129.81000, 0, Yakutsk
+	MF, N62.13330, E129.83501, 0, Yakutsk
+	VD, N62.05170, E129.70700, 0, Yakutsk
+
+line1 =
+	N63.03393, E129.62230
+	N62.97076, E129.69537
+	N62.85802, E129.76389
+	N62.69576, E129.82766
+	N62.56936, E129.90941
+	N62.47882, E130.00894
+	N62.39640, E130.05132
+	N62.32214, E130.03654
+	N62.26989, E129.99737
+	N62.23972, E129.93381
+	N62.16008, E129.89246
+	N62.03099, E129.87324
+	N61.89348, E129.78849
+	N61.74760, E129.63832
+	N61.63076, E129.47626
+	N61.49919, E129.21561
+	N61.32313, E128.75145
+	N61.26603, E128.48077
+	N61.26918, E128.24900
+	N61.22774, E127.89310
+	N61.14169, E127.41303
+
+[airport1]
+name = Yakutsk Airport
+code = UEEE
+runways =
+	rwy1, 05L, N62.0827, E129.754, 29.6, 8202, 0, 3400, 322
+	rwy2, 05R, N62.0819, E129.757, 36.9, 11155, 0, 0, 322

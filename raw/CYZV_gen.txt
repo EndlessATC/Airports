@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 180
+usa = true
+transition = 18001
+center = N50.2233009338, W66.2656021118
+magneticvar = -20.490
+beacons =
+	UZV, N50.22390, W66.26610, 0, Sept Iles
+	YZV, N50.23210, W66.27390, 0, Sept Iles
+	ZZV, N50.21200, W66.30100, 0, Monoghan
+	ZV, N50.20390, W66.15150, 0, Sept Iles
+
+line1 =
+	N49.26206, W65.39614
+	N49.26616, W65.52339
+	N49.22568, W65.88281
+
+line2 =
+	N49.25679, W68.05625
+	N49.33228, W67.54927
+	N49.33462, W67.46924
+	N49.34844, W67.37202
+	N49.45117, W67.26191
+	N49.60176, W67.23438
+	N49.99370, W66.94116
+	N50.06553, W66.74087
+	N50.15542, W66.62173
+	N50.16118, W66.55005
+	N50.21187, W66.49551
+	N50.22427, W66.41108
+	N50.20664, W66.36885
+	N50.22036, W66.24219
+	N50.20103, W66.12554
+	N50.29414, W65.95537
+	N50.25928, W65.76245
+	N50.32002, W65.26860
+	N50.29790, W65.18091
+	N50.27549, W64.86787
+	N50.30894, W64.50894
+
+[airport1]
+name = Sept-Îles Airport
+code = CYZV
+runways =
+	rwy1, 05, N50.2172, W66.2782, 29.5, 5900, 0, 0, 164
+	rwy2, 09, N50.2172, W66.2792, 69.5, 6552, 0, 0, 164
+	rwy3, 13, N50.2297, W66.2769, 109.5, 5771, 0, 0, 170

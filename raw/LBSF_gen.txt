@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1742
+center = N42.6966934204, E23.4114360809
+magneticvar = 3.276
+beacons =
+	SOF, N42.69810, E23.38940, 0, Sofia
+	S, N42.69440, E23.43560, 0, Sofia
+	F, N42.69720, E23.37610, 0, Sofia
+	SOF, N42.69220, E23.46670, 0, Sofia
+	SF, N42.69810, E23.30560, 0, Sofia
+	BOZ, N42.77000, E23.19110, 0, Bozhourishte
+	WAK, N42.59170, E23.70440, 0, Vakarel
+	BLO, N42.66720, E23.81390, 0, Bailovo
+	KAL, N42.94920, E22.87500, 0, Kalotina
+	GOL, N43.09500, E24.22060, 0, Golyama
+	SIN, N41.98080, E22.36560, 0, Sinko
+
+[airport1]
+name = Sofia Airport
+code = LBSF
+runways =
+	rwy1, 09, N42.6975, E23.3995, 95.0, 11811, 0, 0, 1739

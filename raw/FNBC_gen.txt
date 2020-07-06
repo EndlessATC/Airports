@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1860
+center = S6.26989984512, E14.2469997406
+magneticvar = -4.183
+beacons =
+	BC, S6.26667, E14.25000, 0, Mbanza Congo
+	MTI, S5.83549, E13.46620, 0, Matadi
+	MS, S5.81882, E13.44950, 0, Matadi
+
+line1 =
+	S5.27823, E13.86280
+	S5.30097, E13.83169
+	S5.30288, E13.80901
+	S5.27870, E13.77655
+	S5.27870, E13.75180
+	S5.30288, E13.73475
+	S5.30991, E13.69191
+	S5.29968, E13.62339
+	S5.31590, E13.57367
+	S5.35854, E13.54298
+	S5.41378, E13.55001
+	S5.48158, E13.59476
+	S5.51294, E13.59073
+	S5.53129, E13.56520
+	S5.57604, E13.55311
+	S5.65500, E13.56354
+	S5.74342, E13.51213
+	S5.84140, E13.39875
+	S5.88186, E13.30263
+	S5.85628, E13.18434
+
+[airport1]
+name = Mbanza Congo Airport
+code = FNBC
+runways =
+	rwy1, 16, S6.26246, E14.2436, 155.0, 5905, 0, 0, 1860

@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2467
+center = N19.277, W103.577002
+magneticvar = 7.308
+beacons =
+	COL, N19.27510, W103.57900, 0, Colima
+
+line1 =
+	N19.15288, W104.60298
+	N19.09121, W104.40518
+	N19.01099, W104.27700
+	N18.91182, W104.04565
+	N18.82847, W103.91245
+	N18.63296, W103.69893
+	N18.48438, W103.58027
+	N18.32539, W103.44160
+
+line2 =
+	N20.19370, W102.71060
+	N20.18164, W102.70029
+	N20.16182, W102.71265
+	N20.13901, W102.74438
+	N20.12388, W102.78574
+	N20.13896, W102.85171
+	N20.16831, W102.93418
+	N20.18350, W103.00781
+	N20.18062, W103.08926
+	N20.17891, W103.17041
+	N20.19956, W103.25547
+	N20.23135, W103.34038
+	N20.26016, W103.37212
+
+line3 =
+	N20.19839, W102.76963
+	N20.19785, W102.74355
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+
+[airport1]
+name = Licenciado Miguel de la Madrid Airport
+code = MMIA
+runways =
+	rwy1, 07, N19.2741, W103.588, 73.9, 7546, 0, 0, 2467

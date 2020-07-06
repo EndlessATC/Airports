@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1555
+center = S33.3930015564, W70.7857971191
+magneticvar = 3.518
+beacons =
+	PDH, S33.41470, W70.80140, 0, Pudahuel
+	AMB, S33.41970, W70.78440, 0, Santiago
+	UE, S33.30490, W70.79000, 0, Lo Castro
+	STI, S33.50220, W70.70290, 0, Los Cerrillos
+	CHE, S33.58530, W70.77370, 0, Chena
+	TAL, S33.68310, W70.93280, 0, Talagante
+	PIL, S33.67750, W71.22310, 0, Melipilla
+	TBN, S32.91830, W70.83720, 0, Tabon
+	SNO, S33.65110, W71.61280, 0, Santo Domingo
+	SAL, S32.98570, W71.53390, 0, Salinas
+	SNO, S33.66580, W71.61940, 0, Santo Domingo
+	VTN, S32.73860, W71.49610, 0, Ventanas
+	ERO, S32.73890, W71.49670, 0, Quintero
+
+line1 =
+	S32.53789, W71.46143
+	S32.65957, W71.45225
+	S32.96953, W71.59204
+	S33.02256, W71.63555
+	S33.09512, W71.74297
+	S33.28906, W71.69658
+	S33.42900, W71.69551
+	S33.51924, W71.63628
+	S33.65264, W71.66436
+	S33.81953, W71.83096
+	S33.88955, W71.85396
+	S34.01562, W71.92686
+	S34.16533, W72.00283
+	S34.28848, W71.99150
+
+[airport1]
+name = Comodoro Arturo Merino Benítez International Airport
+code = SCEL
+runways =
+	rwy1, 17L, S33.3761, W70.7867, 178.0, 12303, 0, 1800, 1550
+	rwy2, 17R, S33.3719, W70.8037, 177.0, 12303, 0, 0, 1551

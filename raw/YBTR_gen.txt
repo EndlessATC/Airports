@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 657
+usa = true
+center = S23.603099823, E148.807006836
+magneticvar = 8.545
+beacons =
+	EML, S23.56750, E148.17101, 0, Emerald
+
+[airport1]
+name = Blackwater Airport
+code = YBTR
+runways =
+	rwy1, 18, S23.5963, E148.807, 187.0, 5023, 0, 0, 620

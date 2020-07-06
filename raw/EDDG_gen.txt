@@ -1,0 +1,81 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 160
+center = N52.134601593, E7.68483018875
+magneticvar = 0.011
+beacons =
+	MOD, N52.13800, E7.68724, 0, Munster
+	MST, N52.11010, E7.57171, 0, Greven
+	MYN, N52.15930, E7.79999, 0, Munster
+	BET, N52.28780, E7.38567, 0, Rheine Bentlage
+	HMM, N51.85690, E7.70829, 0, Hamm
+	OSN, N52.20010, E8.28552, 0, Osnabruck
+	OSB, N52.20170, E8.28550, 0, Osnabruck
+	DOM, N51.70950, E7.58713, 0, Dortmund
+	TWN, N52.27450, E6.89153, 0, Twenthe
+	TWN, N52.26790, E6.87616, 0, Twenthe
+	RKN, N52.13320, E6.76388, 0, Rekken
+	DWI, N51.52610, E7.63439, 0, Dortmund
+	DOR, N51.52530, E7.63106, 0, Wickede
+	DP, N52.59170, E8.45342, 0, Diepholz
+	BOT, N51.58580, E7.02301, 0, Bottrop
+	PAD, N51.62360, E8.63944, 0, Paderborn/Lippstadt
+	BAM, N51.32780, E7.17698, 0, Barmen
+	LI, N51.34700, E6.89128, 0, Dusseldorf
+	LMA, N51.37080, E6.39500, 0, Lima
+
+line1 =
+	N52.56318, E5.86719
+	N52.56318, E5.86719
+	N52.56318, E5.86719
+	N52.56318, E5.86719
+	N52.48535, E5.87002
+	N52.42769, E5.79512
+
+line2 =
+	N52.60928, E5.83545
+	N52.56318, E5.86719
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.50225, E5.83418
+	N52.53545, E5.82949
+	N52.56460, E5.79746
+
+line3 =
+	N51.87218, E6.03863
+	N51.96055, E5.92246
+
+line4 =
+	N51.13884, E6.84747
+	N51.16887, E6.81631
+	N51.18726, E6.75750
+	N51.22726, E6.75972
+	N51.26819, E6.74112
+	N51.30276, E6.68955
+	N51.36446, E6.69838
+	N51.42182, E6.70717
+	N51.45782, E6.69761
+	N51.48678, E6.69342
+	N51.52440, E6.68748
+	N51.55923, E6.62392
+	N51.59184, E6.59301
+	N51.63747, E6.59580
+	N51.77503, E6.35721
+	N51.83699, E6.21175
+	N51.86921, E6.07976
+	N51.87218, E6.03863
+	N51.87673, E5.97527
+	N51.85957, E5.89817
+
+[airport1]
+name = Münster Osnabrück Airport
+code = EDDG
+runways =
+	rwy1, 07, N52.1315, E7.67006, 71.0, 7119, 0, 656, 156

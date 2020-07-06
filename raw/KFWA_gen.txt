@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 814
+usa = true
+transition = 18001
+center = N40.97850037, W85.19509888
+magneticvar = -4.170
+beacons =
+	FWA, N40.97910, W85.18810, 0, Fort Wayne
+	FW, N40.93050, W85.11960, 0, Hoagy
+	HHG, N40.85570, W85.46430, 0, Huntington
+	OLK, N41.24690, W85.49740, 0, Wolf Lake
+	VFU, N40.86250, W84.61380, 0, Stanley
+	IWH, N40.76370, W85.79770, 0, Wabash
+	PLD, N40.45370, W84.98360, 0, Portland
+	MZZ, N40.49340, W85.67920, 0, Marion
+	ANQ, N41.63980, W85.08690, 0, Angola
+	DFI, N41.33450, W84.42690, 0, Defiance
+	CQA, N40.48200, W84.56440, 0, Lakefield
+	BYN, N41.47980, W84.46610, 0, Bryan
+	MIE, N40.23730, W85.39400, 0, Muncie
+	OKK, N40.52780, W86.05800, 0, Kokomo
+	GUS, N40.64490, W86.15170, 0, Grissom
+	JN, N40.18090, W85.32070, 0, Balll
+	GSH, N41.52520, W86.02800, 0, Goshen
+	VES, N40.20620, W84.52270, 0, Versailles
+	USE, N41.60920, W84.13270, 0, Fulton
+	SB, N41.70570, W86.21900, 0, Misha
+
+line1 =
+	N41.91133, W86.63247
+	N41.85337, W86.69155
+
+line2 =
+	N40.35896, W84.75467
+	N40.35565, W84.64695
+	N40.37139, W84.63932
+	N40.42193, W84.72413
+	N40.43983, W84.75748
+	N40.48324, W84.76678
+	N40.52453, W84.75934
+	N40.56734, W84.79360
+	N40.58817, W84.88642
+	N40.64961, W85.00723
+	N40.75167, W85.15614
+	N40.82567, W85.31698
+	N40.87161, W85.48979
+	N40.86340, W85.67657
+	N40.80102, W85.87736
+	N40.76320, W86.11270
+	N40.74981, W86.38258
+	N40.65995, W86.61758
+
+[airport1]
+name = Fort Wayne International Airport
+code = KFWA
+runways =
+	rwy1, 05, N40.9627, W85.2127, 44.3, 12000, 0, 0, 815
+	rwy2, 09, N40.9759, W85.1988, 90.1, 4001, 0, 0, 798
+	rwy3, 14, N40.9935, W85.2037, 134.7, 8001, 0, 0, 802

@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1749
+usa = true
+transition = 18001
+center = N44.91400146, W97.15470123
+magneticvar = 5.298
+beacons =
+	ATY, N44.97970, W97.14170, 0, Watertown
+	AT, N44.80330, W97.15010, 0, Lican
+	VVV, N45.30160, W96.42140, 0, Ortonville
+	BKX, N44.30320, W96.81510, 0, Brookings
+	DXX, N44.98410, W96.17920, 0, Dawson-Madison
+	AQP, N45.22850, W96.00950, 0, Appleton
+	HON, N44.44010, W98.31110, 0, Huron
+	AB, N45.38600, W98.32840, 0, Reney
+
+[airport1]
+name = Watertown Regional Airport
+code = KATY
+runways =
+	rwy1, 12, N44.9222, W97.1693, 124.6, 6900, 0, 300, 1747
+	rwy2, 17, N44.9206, W97.151, 180.3, 6895, 0, 0, 1739

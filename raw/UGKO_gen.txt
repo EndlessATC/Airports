@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 223
+center = N42.176700592, E42.4826011658
+magneticvar = 5.327
+beacons =
+	KTS, N42.17350, E42.45610, 0, Kutaisi
+	TIG, N42.17330, E42.45470, 0, Kutaisi
+	UY, N42.18460, E42.54400, 0, Kutaisi
+	DA, N42.60000, E41.78330, 0, Gali
+	LU, N41.60080, E41.61390, 0, Batumi
+
+line1 =
+	N42.93086, E41.06162
+	N42.82812, E41.12871
+	N42.73765, E41.41943
+	N42.65933, E41.48877
+	N42.39785, E41.57773
+	N42.14687, E41.66328
+	N41.97002, E41.76299
+	N41.88486, E41.76074
+	N41.81714, E41.75879
+	N41.70542, E41.70176
+	N41.51748, E41.51006
+	N41.42363, E41.41436
+	N41.26118, E41.08359
+	N41.21162, E40.95947
+
+[airport1]
+name = Kopitnari Airport
+code = UGKO
+runways =
+	rwy1, 08, N42.1748, E42.4677, 80.6, 8202, 0, 0, 197

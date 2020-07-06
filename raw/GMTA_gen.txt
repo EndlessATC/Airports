@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 95
+center = N35.1771011353, W3.83951997757
+magneticvar = -1.510
+beacons =
+	ALU, N35.18120, W3.84456, 0, Al Hoceima
+	ALM, N35.19110, W3.84173, 0, Al Hoceima
+	ARW, N34.98970, W3.04417, 0, El Aroui
+	ARI, N34.98670, W3.02917, 0, Nador Arwi
+	MEL, N35.28040, W2.95817, 0, Melilla
+	MIA, N35.30780, W2.95552, 0, Melilla
+	MLL, N35.30740, W2.95542, 0, Melilla
+
+line1 =
+	N35.12349, W2.42373
+	N35.11270, W2.63682
+	N35.13521, W2.73140
+	N35.12783, W2.83994
+	N35.17266, W2.86953
+	N35.28711, W2.92598
+	N35.31514, W2.95361
+	N35.36309, W2.95796
+	N35.40728, W2.97222
+	N35.31724, W3.06309
+	N35.23911, W3.20601
+	N35.21182, W3.39473
+	N35.22832, W3.59062
+	N35.27998, W3.69326
+	N35.24492, W3.78799
+	N35.24341, W3.98242
+	N35.16147, W4.32998
+	N35.20640, W4.62832
+	N35.28130, W4.83721
+	N35.46777, W5.10537
+	N35.61475, W5.25269
+
+[airport1]
+name = Cherif Al Idrissi Airport
+code = GMTA
+runways =
+	rwy1, 18, N35.1885, W3.84132, 173.0, 8202, 0, 0, 21

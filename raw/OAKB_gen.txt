@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5877
+center = N34.565899, E69.212303
+magneticvar = 2.201
+beacons =
+	OKB, N34.56330, E69.21600, 0, Kabul
+	KBL, N34.54560, E69.29040, 0, Kabul
+	KIA, N34.56250, E69.38900, 0, Kabul
+	BGM, N34.94300, E69.26150, 0, Bagram
+	PC, N33.90540, E70.07240, 0, Parachinar
+
+line1 =
+	N34.51296, E68.21179
+	N34.49275, E68.30682
+	N34.50740, E68.37622
+	N34.57164, E68.48929
+
+[airport1]
+name = Hamid Karzai International Airport
+code = OAKB
+runways =
+	rwy1, 11, N34.5705, E69.1943, 107.0, 11483, 80, 2325, 5869

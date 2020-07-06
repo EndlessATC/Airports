@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 457
+center = S26.6874008179, E15.2428998947
+
+line1 =
+	S25.72568, E14.84521
+	S25.95820, E14.93125
+	S26.31807, E14.96777
+	S26.42578, E15.09658
+	S26.50801, E15.13906
+	S26.60020, E15.16328
+	S26.66787, E15.12373
+	S26.78760, E15.13281
+	S26.99512, E15.21572
+	S27.27500, E15.28760
+	S27.38652, E15.34150
+
+[airport1]
+name = Luderitz Airport
+code = FYLZ
+runways =
+	rwy1, 04, S26.6917, E15.2414, 17.0, 6004, 0, 0, 420
+	rwy2, 12, S26.6873, E15.242, 99.0, 3830, 0, 0, 421

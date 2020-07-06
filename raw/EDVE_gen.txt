@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 295
+center = N52.319199, E10.5561
+magneticvar = 1.395
+beacons =
+	BRU, N52.32220, E10.60620, 0, Braunschweig
+	HLZ, N52.36340, E10.79520, 0, Hehlingen
+	DLE, N52.25030, E9.88350, 0, Leine
+	CEL, N52.58970, E10.02950, 0, Celle
+	HA, N52.46410, E9.80508, 0, Hannover
+	HAD, N52.46880, E9.69481, 0, Hannover
+	HBD, N52.45530, E9.65937, 0, Hannover
+	HAE, N52.45760, E9.56732, 0, Hannover
+	HW, N52.46850, E9.54644, 0, Hannover
+	FSB, N52.91580, E10.18810, 0, Fassberg
+	WUN, N52.45930, E9.45466, 0, Wunstorf
+	WUN, N52.46030, E9.44483, 0, Wunstorf
+	MGD, N52.07710, E11.63090, 0, Magdeburg
+	MU, N52.07410, E11.64830, 0, Magdeburg
+	NIE, N52.62590, E9.37199, 0, Nienburg
+	MAG, N51.99500, E11.79430, 0, Magdeburg
+	BKD, N53.03450, E11.54620, 0, Brunkendorf
+
+line1 =
+	N51.88097, E12.38170
+	N51.87378, E12.14699
+	N51.90869, E11.99475
+	N51.98564, E11.92519
+	N52.03129, E11.84334
+	N52.04566, E11.74939
+	N52.07160, E11.69084
+	N52.10907, E11.66779
+	N52.15529, E11.66821
+	N52.21020, E11.69208
+	N52.27275, E11.75725
+	N52.37797, E11.91693
+	N52.43773, E11.97790
+	N52.56186, E12.00343
+	N52.77032, E12.01377
+	N52.91848, E11.92054
+	N53.00627, E11.72386
+	N53.05418, E11.55509
+	N53.06219, E11.41432
+	N53.09304, E11.29691
+	N53.14683, E11.20297
+	N53.16629, E11.13930
+	N53.15146, E11.10592
+	N53.20011, E10.99435
+	N53.31217, E10.80449
+
+[airport1]
+name = Braunschweig-Wolfsburg Airport
+code = EDVE
+runways =
+	rwy1, 08, N52.3184, E10.5421, 85.0, 7546, 0, 591, 273
+	rwy2, 08R, N52.3174, E10.5485, 85.0, 2953, 0, 0, 0

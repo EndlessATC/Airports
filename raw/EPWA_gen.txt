@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 362
+center = N52.1656990051, E20.9671001434
+magneticvar = 3.547
+beacons =
+	OKE, N52.16980, E20.96010, 0, Okecie
+	AY, N52.17540, E20.93250, 0, Warszawa
+	W, N52.14160, E20.98820, 0, Warszawa
+	WAO, N52.09770, E21.02660, 0, Warszawa
+	WAG, N52.21060, E20.80660, 0, Warszawa
+	PNO, N52.05350, E21.06270, 0, Piaseczno
+	WAR, N52.25910, E20.65710, 0, Zaborowek
+	LIN, N51.93290, E21.15850, 0, Linin
+	KRN, N51.94620, E20.44460, 0, Karnice
+	SIE, N52.15540, E22.20080, 0, Siedlce
+	LDZ, N51.80010, E19.65610, 0, Lodz
+
+line1 =
+	N51.18835, E21.78382
+	N51.23909, E21.80501
+	N51.28793, E21.85554
+	N51.33480, E21.93523
+	N51.38632, E21.96102
+	N51.44244, E21.93280
+	N51.47298, E21.89709
+	N51.47794, E21.85399
+	N51.50099, E21.82960
+	N51.54207, E21.82402
+	N51.59080, E21.73173
+	N51.64718, E21.55262
+	N51.70452, E21.45195
+	N51.76286, E21.42963
+	N51.82043, E21.37113
+	N51.87725, E21.27646
+	N51.91833, E21.24122
+	N51.94381, E21.26540
+	N51.99347, E21.25873
+	N52.06731, E21.22122
+	N52.17012, E21.12629
+	N52.30185, E20.97384
+	N52.38393, E20.84196
+	N52.41639, E20.73055
+	N52.41892, E20.52405
+	N52.39163, E20.22236
+	N52.42078, E19.96357
+	N52.54927, E19.63956
+	N52.64394, E19.20175
+
+[airport1]
+name = Warsaw Chopin Airport
+code = EPWA
+runways =
+	rwy1, 11, N52.1715, E20.9467, 114.8, 9186, 0, 1640, 361
+	rwy2, 15, N52.1786, E20.9559, 151.6, 12106, 0, 0, 351
+
+[airport2]
+name = Modlin Airport
+code = MO
+runways =
+	rwy3, 08, N52.4495, E20.6336, 82.0, 8202, 0, 0, 338
+inboundbeacon = WAR

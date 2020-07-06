@@ -1,0 +1,102 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 425
+center = N51.5182991028, E7.61223983765
+magneticvar = 0.106
+beacons =
+	DOR, N51.52530, E7.63106, 0, Wickede
+	DWI, N51.52610, E7.63439, 0, Dortmund
+	DOM, N51.70950, E7.58713, 0, Dortmund
+	BAM, N51.32780, E7.17698, 0, Barmen
+	HMM, N51.85690, E7.70829, 0, Hamm
+	BOT, N51.58580, E7.02301, 0, Bottrop
+	GMH, N51.17050, E7.89204, 0, Germinghausen
+	LI, N51.34700, E6.89128, 0, Dusseldorf
+	WYP, N51.04840, E7.28000, 0, Wipper
+	DUS, N51.28320, E6.75373, 0, Dusseldorf
+	MST, N52.11010, E7.57171, 0, Greven
+	MOD, N52.13800, E7.68724, 0, Munster
+	PAD, N51.62360, E8.63944, 0, Paderborn/Lippstadt
+	MYN, N52.15930, E7.79999, 0, Munster
+	LW, N50.89830, E7.25285, 0, Koln/Bonn
+	LJ, N50.92710, E7.06229, 0, Koln/Bonn
+	KBO, N50.86170, E7.14552, 0, Koln/Bonn
+	COL, N50.78350, E7.59419, 0, Cola
+	MGB, N51.22730, E6.50541, 0, Monchengladbach
+	LV, N50.80420, E7.24022, 0, Koln/Bonn
+	MHD, N51.23490, E6.49197, 0, Monchengladbach
+	MHV, N51.23730, E6.49024, 0, Monchengladbach
+	LMA, N51.37080, E6.39500, 0, Lima
+	BET, N52.28780, E7.38567, 0, Rheine Bentlage
+	OSN, N52.20010, E8.28552, 0, Osnabruck
+	OSB, N52.20170, E8.28550, 0, Osnabruck
+	RKN, N52.13320, E6.76388, 0, Rekken
+	SLD, N50.70680, E8.07851, 0, Siegerland
+	TWN, N52.26790, E6.87616, 0, Twenthe
+	TWN, N52.27450, E6.89153, 0, Twenthe
+
+line1 =
+	N52.48535, E5.87002
+	N52.42769, E5.79512
+
+line2 =
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.50225, E5.83418
+
+line3 =
+	N52.42900, E5.74102
+	N52.46577, E5.80088
+
+line4 =
+	N51.87218, E6.03863
+	N51.96055, E5.92246
+	N51.98138, E5.74748
+
+line5 =
+	N50.55916, E7.25675
+	N50.62161, E7.20362
+	N50.67319, E7.18450
+	N50.73422, E7.12507
+	N50.80468, E7.02544
+	N50.85261, E6.99454
+	N50.90402, E6.99454
+	N50.93834, E6.97325
+	N50.99808, E6.96839
+	N51.04009, E6.93770
+	N51.06427, E6.88106
+	N51.09719, E6.85098
+	N51.13884, E6.84747
+	N51.16887, E6.81631
+	N51.18726, E6.75750
+	N51.22726, E6.75972
+	N51.26819, E6.74112
+	N51.30276, E6.68955
+	N51.36446, E6.69838
+	N51.42182, E6.70717
+	N51.45782, E6.69761
+	N51.48678, E6.69342
+	N51.52440, E6.68748
+	N51.55923, E6.62392
+	N51.59184, E6.59301
+	N51.63747, E6.59580
+	N51.77503, E6.35721
+	N51.83699, E6.21175
+	N51.86921, E6.07976
+	N51.87218, E6.03863
+	N51.87673, E5.97527
+	N51.85957, E5.89817
+	N51.86340, E5.78045
+
+[airport1]
+name = Dortmund Airport
+code = EDLW
+runways =
+	rwy1, 06, N51.5147, E7.6019, 61.0, 6562, 984, 984, 418

@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2782
+center = S28.39909935, E21.2602005005
+magneticvar = -19.193
+beacons =
+	UPV, S28.40170, E21.26040, 0, Upington
+	UN, S28.47850, E21.30300, 0, Upington
+
+line1 =
+	S29.34276, E22.34988
+	S29.26762, E22.26648
+	S29.17734, E22.25707
+	S29.06086, E22.20886
+	S28.91818, E22.12194
+	S28.85359, E22.05636
+	S28.86713, E22.01223
+	S28.85772, E21.96283
+	S28.82548, E21.90815
+	S28.72104, E21.83549
+	S28.54446, E21.74465
+	S28.44007, E21.66155
+	S28.40783, E21.58600
+	S28.40033, E21.48627
+	S28.41749, E21.36214
+	S28.49371, E21.23563
+	S28.62895, E21.10665
+	S28.71385, E20.97033
+	S28.74848, E20.82677
+	S28.75964, E20.70404
+	S28.74744, E20.60224
+	S28.69205, E20.48498
+	S28.59345, E20.35238
+	S28.51366, E20.20975
+	S28.45268, E20.05731
+
+[airport1]
+name = Pierre Van Ryneveld Airport
+code = FAUP
+runways =
+	rwy1, 08, S28.4049, E21.2581, 59.0, 2736, 0, 0, 2748
+	rwy2, 17, S28.3799, E21.252, 153.0, 16076, 0, 0, 2782

@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 655
+usa = true
+transition = 18001
+center = N43.879002, W91.256699
+magneticvar = -1.265
+beacons =
+	LSE, N43.87610, W91.25600, 0, La Crosse
+	LS, N44.00400, W91.26080, 0, Mindi
+	ODI, N43.91240, W91.46760, 0, Nodine
+	CHU, N43.58690, W91.49040, 0, Caledonia
+	ONA, N44.07620, W91.70570, 0, Winona
+	CMY, N43.93780, W90.64190, 0, Mc Coy
+	BCK, N44.25470, W90.84900, 0, Black River Falls
+	UKN, N43.28010, W91.53740, 0, Waukon
+	DEH, N43.27570, W91.73650, 0, Decorah
+	HBW, N43.65520, W90.33310, 0, Kickapoo
+	VOK, N43.94290, W90.25900, 0, Volk
+	CJJ, N43.36600, W92.13100, 0, Cresco
+	RS, N43.85440, W92.41170, 0, Mingo
+	VIQ, N44.55720, W90.51510, 0, Neillsville
+	LNR, N43.29440, W90.13310, 0, Lone Rock
+	MFI, N44.64090, W90.18770, 0, Marshfield
+
+line1 =
+	N42.88165, W91.11759
+	N42.98621, W91.14815
+	N43.10233, W91.16133
+	N43.19959, W91.14758
+	N43.27803, W91.10697
+	N43.33115, W91.11720
+	N43.35893, W91.17836
+	N43.39528, W91.21869
+	N43.44024, W91.23828
+	N43.79743, W91.27843
+	N43.93628, W91.31992
+	N43.99080, W91.38269
+	N44.05421, W91.51485
+	N44.12645, W91.71644
+	N44.19415, W91.84098
+	N44.28887, W91.91229
+	N44.39982, W92.05512
+	N44.44525, W92.14858
+	N44.46214, W92.24031
+	N44.49780, W92.31309
+	N44.55227, W92.36694
+	N44.58658, W92.44159
+	N44.60079, W92.53703
+	N44.64534, W92.64354
+	N44.75779, W92.81988
+
+[airport1]
+name = La Crosse Municipal Airport
+code = KLSE
+runways =
+	rwy1, 04, N43.87, W91.2598, 36.0, 5299, 0, 0, 647
+	rwy2, 13, N43.8848, W91.2649, 134.0, 6050, 0, 750, 653
+	rwy3, 18, N43.8932, W91.2589, 179.0, 8537, 0, 924, 652

@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 365
+usa = true
+transition = 18001
+center = N32.3839988708, W94.7115020752
+magneticvar = 3.556
+beacons =
+	GGG, N32.41780, W94.75320, 0, Gregg Co
+	GG, N32.45560, W94.79760, 0, Veels
+	HNO, N32.18790, W94.86100, 0, Henderson
+	ABG, N32.58540, W95.11300, 0, Ambassador
+	RPF, N32.18020, W94.29630, 0, Carthage
+	TYR, N32.35590, W95.40350, 0, Tyler
+	TY, N32.41580, W95.46960, 0, Indoo
+	JSO, N31.87020, W95.21550, 0, Cherokee Co
+	SH, N32.50180, W93.87810, 0, Crakk
+	CZJ, N31.83290, W94.15380, 0, Amason
+	GXD, N31.64850, W94.70550, 0, Nacogdoches
+	UIM, N32.88040, W95.36680, 0, Quitman
+	FZT, N32.07460, W95.53080, 0, Frankston
+	VIV, N32.85960, W94.01020, 0, Vivian
+	MSA, N33.12850, W94.97410, 0, Mount Pleasant
+	DTN, N32.53990, W93.74130, 0, Downtown
+	ATA, N33.10370, W94.19050, 0, Atlanta
+	EIC, N32.77140, W93.80990, 0, Belcher
+	MSD, N32.06430, W93.76450, 0, Mansfield
+	SLR, N33.19860, W95.54260, 0, Sulphur Springs
+	BHG, N33.15840, W95.61830, 0, Brashear
+
+[airport1]
+name = East Texas Regional Airport
+code = KGGG
+runways =
+	rwy1, 13, N32.3925, W94.7201, 133.8, 10000, 0, 0, 357
+	rwy2, 18, N32.394, W94.7167, 179.0, 6109, 0, 0, 354

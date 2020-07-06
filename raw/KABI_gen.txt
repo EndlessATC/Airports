@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1791
+usa = true
+transition = 18001
+center = N32.4113006592, W99.6819000244
+magneticvar = 5.544
+beacons =
+	AB, N32.29890, W99.67420, 0, Tomhi
+	DYS, N32.41850, W99.85710, 0, Dyess
+	ABI, N32.48130, W99.86350, 0, Abilene
+	TQA, N32.23570, W99.81680, 0, Tuscola
+	TMV, N32.86860, W99.73370, 0, Stamford
+	IEW, N31.94600, W99.98800, 0, Winters
+	COM, N31.84130, W99.40620, 0, Coleman
+	SWW, N32.46160, W100.46600, 0, Sweetwater
+	OIP, N32.39850, W98.81030, 0, Old Rip
+	BKD, N32.74730, W98.89120, 0, Breckenridge
+	UBC, N31.68050, W99.97490, 0, Ballinger
+	AKL, N33.19110, W99.72000, 0, Haskell
+	BWD, N31.89260, W98.95750, 0, Brownwood
+
+line1 =
+	N32.90468, W100.50135
+	N32.95680, W100.44128
+	N32.99424, W100.31906
+	N33.03434, W100.11463
+	N33.09111, W99.99759
+	N33.16459, W99.96785
+	N33.24753, W99.96418
+	N33.33993, W99.98658
+
+line2 =
+	N33.38305, W99.05031
+	N33.36137, W99.02178
+	N33.37264, W98.99584
+	N33.35450, W98.97287
+	N33.30693, W98.95287
+	N33.24634, W98.88205
+	N33.13601, W98.69960
+	N33.08201, W98.71239
+	N33.03928, W98.69327
+	N32.98985, W98.64651
+	N32.98739, W98.60770
+	N33.03194, W98.57687
+	N33.03338, W98.51871
+	N32.99173, W98.43324
+	N32.95212, W98.40600
+	N32.91458, W98.43706
+	N32.87918, W98.43476
+	N32.84593, W98.39918
+	N32.83727, W98.34037
+
+line3 =
+	N33.13950, W100.99541
+	N33.10289, W100.83216
+	N33.04418, W100.70865
+	N32.90468, W100.50135
+
+[airport1]
+name = Abilene Regional Airport
+code = KABI
+runways =
+	rwy1, 04, N32.4196, W99.6948, 52.0, 3678, 0, 0, 1751
+	rwy2, 17L, N32.4085, W99.6748, 180.0, 7198, 0, 0, 1791
+	rwy3, 17R, N32.4281, W99.6849, 180.0, 7202, 0, 0, 1757

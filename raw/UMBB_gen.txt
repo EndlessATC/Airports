@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 468
+center = N52.108299, E23.8981
+magneticvar = 5.079
+beacons =
+	CP, N52.12670, E23.83000, 0, Brest
+	BY, N52.09000, E23.96670, 0, Brest
+	RUD, N52.83050, E23.70710, 0, Skupowo
+
+[airport1]
+name = Brest Airport
+code = UMBB
+runways =
+	rwy1, 11, N52.113, E23.8788, 113.9, 8596, 0, 0, 453

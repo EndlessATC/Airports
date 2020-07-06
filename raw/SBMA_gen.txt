@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 357
+center = S5.36858987808, W49.1380004883
+magneticvar = -19.479
+beacons =
+	MRB, S5.36817, W49.13520, 0, Maraba
+	MRB, S5.37129, W49.13470, 0, Maraba
+
+line1 =
+	S4.54623, W49.54630
+	S4.96564, W49.39238
+	S5.21792, W49.28014
+	S5.30309, W49.20963
+	S5.33492, W49.11506
+	S5.30288, W48.93721
+
+line2 =
+	S6.35331, W48.47065
+	S6.35754, W48.41017
+	S6.30892, W48.39118
+	S6.20742, W48.41376
+	S6.14190, W48.38983
+	S6.11244, W48.31945
+	S6.06728, W48.29661
+	S6.00661, W48.32123
+	S5.96589, W48.30715
+	S5.94522, W48.25434
+	S5.88858, W48.24529
+	S5.79587, W48.28002
+	S5.72368, W48.25865
+	S5.67200, W48.18124
+	S5.61924, W48.15925
+	S5.56550, W48.19266
+	S5.53325, W48.23137
+	S5.52250, W48.27537
+	S5.48623, W48.31728
+	S5.42442, W48.35707
+	S5.39838, W48.42166
+	S5.40809, W48.51106
+	S5.39858, W48.59762
+	S5.35538, W48.72314
+	S5.30288, W48.93721
+
+line3 =
+	S5.26299, W48.05944
+	S5.24066, W48.16897
+	S5.18940, W48.28162
+	S5.16950, W48.37805
+	S5.18087, W48.45815
+	S5.22040, W48.52357
+	S5.28815, W48.57432
+	S5.33037, W48.63054
+	S5.35538, W48.72314
+
+[airport1]
+name = João Correa da Rocha Airport
+code = SBMA

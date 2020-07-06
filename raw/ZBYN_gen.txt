@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2575
+metric = true
+center = N37.7468986511, E112.627998352
+magneticvar = -4.437
+beacons =
+	TYN, N37.75170, E112.62000, 0, Taiyuan
+	WD, N37.65830, E112.78200, 0, Zhonghao
+	LO, N37.87670, E112.41200, 0, Wolong
+
+[airport1]
+name = Taiyuan Wusu Airport
+code = ZBYN
+runways =
+	rwy1, 13, N37.7556, E112.614, 127.0, 10500, 0, 0, 2546

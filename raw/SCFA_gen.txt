@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 455
+center = S23.444501, W70.445099
+magneticvar = -1.288
+beacons =
+	FAG, S23.46690, W70.44780, 0, Antofagasta
+	R, S23.47020, W70.44850, 0, Antofagasta
+	MJL, S23.10920, W70.44310, 0, Mejillones
+
+line1 =
+	S22.55605, W70.25952
+	S22.84863, W70.33169
+	S22.96963, W70.38916
+	S23.03418, W70.44966
+	S23.05703, W70.56318
+	S23.17334, W70.56885
+	S23.25547, W70.59336
+	S23.36836, W70.58813
+	S23.48281, W70.51196
+	S23.52852, W70.41963
+	S23.56592, W70.39233
+	S23.65557, W70.40996
+	S23.78174, W70.48779
+	S23.88574, W70.50742
+	S23.96855, W70.52007
+	S24.12969, W70.50742
+	S24.33164, W70.54644
+
+[airport1]
+name = Andrés Sabella Gálvez International Airport
+code = SCFA
+runways =
+	rwy1, 01, S23.4561, W70.4466, 6.9, 8527, 0, 0, 352

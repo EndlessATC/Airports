@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1390
+center = N10.4513998032, E14.257399559
+magneticvar = -0.274
+beacons =
+	TJL, N10.46220, E14.24410, 0, Maroua/Salak
+	TJP, N10.09600, E14.44330, 0, Kaele
+
+line1 =
+	N11.10485, E15.43309
+	N11.21415, E15.42317
+	N11.34437, E15.38622
+
+[airport1]
+name = Salak Airport
+code = FKKL
+runways =
+	rwy1, 13, N10.4574, E14.25, 130.0, 6890, 0, 0, 1390

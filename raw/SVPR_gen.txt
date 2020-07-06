@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 472
+center = N8.28853034973, W62.7603988647
+magneticvar = -13.480
+beacons =
+	GNA, N8.29614, W62.75170, 0, Guayana
+	GNA, N8.29975, W62.73370, 0, Guayana
+	MOI, N8.82142, W63.09200, 0, Morichal
+	GRI, N7.75086, W63.08560, 0, Tocomita
+	CBL, N8.12419, W63.53140, 0, Ciudad Bolivar
+	CBL, N8.11725, W63.53390, 0, Ciudad Bolivar
+	TUC, N9.08586, W62.09840, 0, Tucupita
+
+line1 =
+	N8.01290, W63.92387
+	N8.09155, W63.84935
+	N8.13573, W63.72750
+	N8.14534, W63.55831
+	N8.19097, W63.39894
+	N8.27257, W63.24949
+	N8.30355, W63.10087
+	N8.28389, W62.95310
+	N8.33386, W62.79110
+	N8.45354, W62.61480
+	N8.55328, W62.42934
+	N8.63307, W62.23472
+	N8.64203, W62.15201
+	N8.64203, W62.15201
+	N8.64846, W62.09230
+	N8.59953, W62.00208
+	N8.58211, W61.88033
+	N8.60330, W61.65039
+	N8.59749, W61.61869
+
+line2 =
+	N9.03632, W62.06331
+	N8.97529, W62.07732
+	N8.92845, W62.06471
+	N8.89579, W62.02548
+	N8.82783, W62.03877
+	N8.67296, W62.13739
+	N8.64203, W62.15201
+
+line3 =
+	N9.15153, W61.92394
+	N9.05516, W62.04437
+	N9.03632, W62.06331
+
+line4 =
+	N9.24476, W62.27710
+	N9.13417, W62.18026
+	N9.08926, W62.09763
+	N9.03632, W62.06331
+
+[airport1]
+name = General Manuel Carlos Piar International Airport
+code = SVPR
+runways =
+	rwy1, 07, N8.2845, W62.7687, 64.0, 6726, 0, 0, 472

@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5425
+metric = true
+center = N42.58792, E76.713046
+magneticvar = 4.453
+beacons =
+	BL, N42.43330, E76.13330, 0, Balykchi
+	LM, N43.32050, E76.97700, 0, Almaty
+	L, N43.33490, E77.00590, 0, Almaty
+	A, N43.36860, E77.07390, 0, Almaty
+	ALM, N43.37440, E77.08580, 0, Almaty
+	AL, N43.38260, E77.10210, 0, Almaty
+
+line1 =
+	N42.56406, E78.29238
+	N42.55010, E78.15801
+	N42.48745, E78.01416
+	N42.42827, E77.87070
+	N42.40220, E77.85176
+	N42.36665, E77.85391
+	N42.24038, E77.71621
+	N42.20039, E77.59502
+	N42.18184, E77.51455
+	N42.16816, E77.13652
+	N42.17305, E77.02295
+	N42.19043, E76.92148
+	N42.29136, E76.57773
+	N42.31953, E76.43213
+	N42.32998, E76.32871
+	N42.32759, E76.26309
+	N42.38892, E76.22725
+	N42.43521, E76.21543
+	N42.46060, E76.22646
+	N42.48857, E76.45283
+	N42.56533, E76.74707
+	N42.61226, E76.96504
+	N42.64687, E77.19023
+	N42.66968, E77.33740
+	N42.65132, E77.53486
+	N42.70181, E77.68408
+	N42.72666, E78.06377
+	N42.73374, E78.24883
+	N42.67178, E78.15137
+	N42.64150, E78.11895
+	N42.60767, E78.13633
+
+line2 =
+	N41.87964, E77.73720
+	N41.86869, E77.97765
+	N41.83626, E78.01863
+	N41.74991, E77.90112
+	N41.62376, E77.76283
+
+[airport1]
+name = Issyk-Kul International Airport
+code = UAFL
+runways =
+	rwy1, 07, N42.585, E76.7017, 73.8, 6562, 0, 0, 5414

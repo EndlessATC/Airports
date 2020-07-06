@@ -1,0 +1,15 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2074
+center = N4.20412015915, E34.3482017517
+
+[airport1]
+name = Lokichoggio Airport
+code = HKLK
+runways =
+	rwy1, 09, N4.20435, E34.3397, 92.0, 6195, 0, 0, 1510

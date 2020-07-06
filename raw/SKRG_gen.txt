@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6955
+center = N6.16454, W75.4231
+magneticvar = -4.388
+beacons =
+	DE, N6.13988, W75.42280, 0, Rionegro
+	LI, N6.20727, W75.42190, 0, Medellin
+	MRN, N6.17639, W75.32390, 0, Marinilla
+	MD, N6.05553, W75.42250, 0, Rionegro
+	RNG, N5.98056, W75.41830, 0, Rionegro
+	JDN, N5.60417, W75.81110, 0, Jardin
+
+line1 =
+	N5.18870, W74.75561
+	N5.36740, W74.72316
+	N5.49770, W74.66828
+	N5.61511, W74.64627
+	N5.71963, W74.65717
+	N5.82931, W74.64055
+	N5.94413, W74.59642
+	N6.05513, W74.57575
+	N6.16231, W74.57854
+	N6.26473, W74.53097
+	N6.36251, W74.43300
+	N6.46511, W74.38465
+	N6.57252, W74.38592
+	N6.66724, W74.31709
+
+[airport1]
+name = Jose Maria Córdova International Airport
+code = SKRG
+runways =
+	rwy1, 19, N6.18036, W75.4232, 180.0, 11483, 0, 0, 7025
+
+[airport2]
+name = Enrique Olaya Herrera Airport
+code = MD
+runways =
+	rwy2, 02, N6.20875, W75.5926, 16.0, 8202, 1312, 984, 4915
+inboundbeacon = LI

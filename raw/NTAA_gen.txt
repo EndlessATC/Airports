@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5
+center = S17.553699, W149.606995
+magneticvar = 12.434
+beacons =
+	FA, S17.55300, W149.61400, 0, Tahiti Faaa
+	TAF, S17.54710, W149.60201, 0, Tahiti Faaa
+	MO, S17.47830, W149.77400, 0, Moorea
+
+line1 =
+	S17.54502, W149.81367
+	S17.48779, W149.78242
+	S17.47393, W149.80879
+	S17.46953, W149.90215
+	S17.50117, W149.91182
+	S17.52773, W149.90513
+	S17.55283, W149.88657
+	S17.57109, W149.84492
+	S17.54502, W149.81367
+
+line2 =
+	S17.69004, W149.32153
+	S17.58896, W149.33008
+	S17.52236, W149.37920
+	S17.49639, W149.50811
+	S17.53164, W149.61143
+	S17.56426, W149.63501
+	S17.61758, W149.63281
+	S17.73496, W149.57891
+	S17.75273, W149.48169
+	S17.73242, W149.34111
+	S17.82246, W149.29048
+	S17.84990, W149.25449
+	S17.86230, W149.18179
+	S17.81211, W149.15088
+	S17.73662, W149.17769
+	S17.69004, W149.32153
+
+[airport1]
+name = Faa'a International Airport
+code = NTAA
+runways =
+	rwy1, 04, S17.5629, W149.62, 54.3, 11360, 1120, 390, 5
+
+[airport2]
+name = Moorea Airport
+code = TM
+runways =
+	rwy2, 12, S17.4862, W149.766, 135.1, 3871, 80, 0, 8
+inboundbeacon = MO

@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 200
+center = N16.9298992157, E121.752998352
+magneticvar = -1.599
+beacons =
+	CUY, N16.93160, E121.74800, 0, Cauayan
+	BA, N16.61790, E121.25300, 0, Bagabag
+	TUG, N17.63330, E121.73600, 0, Tuguegarao
+
+line1 =
+	N17.75649, E122.15098
+	N17.66440, E122.15234
+	N17.57568, E122.17520
+	N17.43486, E122.23682
+	N17.39526, E122.26904
+	N17.34487, E122.36230
+	N17.30679, E122.38750
+	N17.23838, E122.39287
+	N17.17812, E122.40752
+	N17.15513, E122.46787
+	N17.12485, E122.51914
+	N17.05801, E122.50000
+	N16.99004, E122.46797
+	N16.82266, E122.42578
+	N16.43521, E122.22588
+	N16.35151, E122.21416
+	N16.18481, E122.13516
+	N16.15791, E121.97471
+	N16.07744, E121.78867
+	N16.01475, E121.68516
+	N15.93325, E121.59531
+
+[airport1]
+name = Cauayan Airport
+code = RPUY
+runways =
+	rwy1, 12, N16.9337, E121.747, 126.0, 6890, 1110, 1180, 0

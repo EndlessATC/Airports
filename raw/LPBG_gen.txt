@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2241
+center = N41.8578, W6.70713
+magneticvar = -3.052
+beacons =
+	BRG, N41.79670, W6.72528, 0, Braganca
+	BRB, N41.93210, W5.66689, 0, Barcial Del Barco
+	ZMR, N41.52840, W5.65174, 0, Zamora
+	ZMR, N41.53020, W5.63970, 0, Zamora
+	VR, N41.21530, W7.74389, 0, Vila Real
+	LEN, N42.58660, W5.64806, 0, Leon
+	EON, N42.59380, W5.64614, 0, Leon
+
+line1 =
+	N41.46352, W5.30691
+	N41.51599, W5.37827
+	N41.52747, W5.51803
+	N41.49793, W5.72610
+	N41.49214, W5.83757
+	N41.47359, W5.88780
+	N41.49039, W5.97092
+	N41.54284, W6.09195
+	N41.54963, W6.17802
+	N41.51592, W6.24432
+	N41.45504, W6.28935
+	N41.37541, W6.40314
+	N41.30373, W6.56592
+	N41.21449, W6.69015
+	N41.10772, W6.77578
+	N41.06240, W6.88280
+	N41.07853, W7.01127
+	N41.11299, W7.08481
+	N41.16576, W7.10349
+	N41.18942, W7.24438
+	N41.18121, W7.65121
+	N41.09183, W8.23481
+
+[airport1]
+name = Bragança Airport
+code = LPBG
+runways =
+	rwy1, 02, N41.8503, W6.70957, 14.0, 5600, 210, 180, 0

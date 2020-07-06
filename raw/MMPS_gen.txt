@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 294
+center = N15.8769, W97.089103
+magneticvar = 5.049
+beacons =
+	PXM, N15.87510, W97.08170, 0, Escondido
+	HUX, N15.77780, W96.26140, 0, Huatulco
+
+line1 =
+	N16.20630, W98.13896
+	N15.96685, W97.75479
+	N15.90928, W97.18467
+	N15.72642, W96.80796
+	N15.65190, W96.51084
+	N15.68311, W96.40864
+	N15.69307, W96.21357
+
+[airport1]
+name = Puerto Escondido International Airport
+code = MMPS
+runways =
+	rwy1, 09, N15.8774, W97.0999, 92.7, 7546, 0, 0, 294

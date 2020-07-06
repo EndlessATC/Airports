@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 436
+center = N48.1702003479, E17.2126998901
+magneticvar = 3.010
+beacons =
+	OKR, N48.17660, E17.22480, 0, Stefanik
+	D, N48.18640, E17.23620, 0, David
+	B, N48.15070, E17.24270, 0, Barka
+	OKR, N48.22390, E17.29030, 0, Stefanik North
+	OB, N48.11480, E17.29840, 0, Stefanik South
+	JAN, N48.17860, E17.54470, 0, Janovce
+	RP, N48.47440, E17.15250, 0, Malacky
+	BRK, N48.06290, E16.71670, 0, Bruck
+	FMD, N48.10510, E16.62930, 0, Fischamend
+	WO, N48.14740, E16.45760, 0, Schwechat
+	WGM, N48.32390, E16.49100, 0, Wagram
+	CN, N48.57080, E17.80840, 0, Piestany
+	NIT, N48.29040, E18.05060, 0, Nitra
+	NIT, N48.29840, E18.05240, 0, Nitra
+	PNY, N48.60810, E17.82230, 0, Centr
+	GYR, N47.66000, E17.71790, 0, Gyor
+	GYR, N47.65910, E17.72440, 0, Gyor
+	STE, N48.21060, E16.24710, 0, Steinhof
+	SNU, N47.87490, E16.28840, 0, Sollenau
+	TF, N47.84100, E16.28170, 0, Wierner Neustadt East
+	PC, N47.40730, E17.47860, 0, Parduc
+	TUN, N48.30940, E15.98110, 0, Tulln
+	TUN, N48.30970, E15.98080, 0, Tulln
+	STO, N48.41710, E16.01860, 0, Stockerau
+	TR, N48.86110, E17.94170, 0, Trencin
+	C, N47.34550, E17.51170, 0, Parduc
+
+line1 =
+	N48.06110, E17.20642
+	N47.88762, E17.48062
+	N47.80990, E17.63529
+	N47.77016, E17.76189
+	N47.76342, E18.14559
+	N47.78838, E18.75362
+	N47.80943, E18.79454
+
+line2 =
+	N47.36468, E18.95882
+	N47.25998, E18.90720
+
+line3 =
+	N48.06110, E17.20642
+	N48.11743, E17.16550
+	N48.14647, E17.11082
+	N48.16709, E17.02866
+	N48.17179, E16.87807
+	N48.16063, E16.65907
+	N48.21254, E16.48647
+	N48.32749, E16.36048
+	N48.37958, E16.20948
+	N48.36883, E16.03368
+	N48.37937, E15.86139
+	N48.41128, E15.69272
+	N48.42371, E15.57303
+	N48.41668, E15.50234
+
+[airport1]
+name = M. R. Štefánik Airport
+code = LZIB
+runways =
+	rwy1, 04, N48.1608, E17.1994, 44.0, 9515, 0, 0, 436
+	rwy2, 13, N48.1757, E17.204, 134.0, 10466, 0, 777, 433

@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 453
+metric = true
+center = N54.7747001648, E69.1838989258
+magneticvar = 12.045
+beacons =
+	RP, N54.78330, E69.18330, 0, Petropavlovsk
+	PT, N54.79250, E69.25360, 0, Petropavlovsk
+
+line1 =
+	N55.76479, E67.60840
+	N55.74976, E67.59414
+	N55.71304, E67.50371
+	N55.71802, E67.39619
+	N55.74526, E67.29785
+
+[airport1]
+name = Petropavlosk South Airport
+code = UACP
+runways =
+	rwy1, 05, N54.7697, E69.1663, 66.0, 8190, 0, 0, 0

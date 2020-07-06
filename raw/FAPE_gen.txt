@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 226
+center = S33.9849014282, E25.6173000336
+magneticvar = -26.345
+beacons =
+	PEV, S33.99250, E25.60570, 0, Port Elizabeth
+
+line1 =
+	S34.17451, E24.59551
+	S34.16895, E24.82715
+	S34.05977, E24.90557
+	S33.97363, E25.00293
+	S33.96074, E25.16973
+	S34.02813, E25.47725
+	S34.03535, E25.57422
+	S34.01113, E25.63818
+	S33.84961, E25.65244
+	S33.73711, E25.80586
+	S33.71133, E25.98955
+	S33.75957, E26.42949
+	S33.70742, E26.61367
+
+[airport1]
+name = Port Elizabeth Airport
+code = FAPE
+runways =
+	rwy1, 08, S33.993, E25.6016, 58.0, 6496, 0, 0, 226
+	rwy2, 10, S33.9891, E25.6056, 81.0, 3865, 0, 0, 211
+	rwy3, 17, S33.9838, E25.6164, 146.0, 5502, 0, 0, 192

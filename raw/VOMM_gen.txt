@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 52
+center = N12.9900054932, E80.1692962646
+magneticvar = -1.422
+beacons =
+	MMV, N12.99340, E80.17070, 0, Chennai
+	MA, N12.95560, E80.07490, 0, Chennai
+	KKP, N12.78490, E79.71310, 0, Kancheepuram
+	TTP, N13.63440, E79.53910, 0, Tirupati
+
+line1 =
+	N12.23545, E79.98174
+	N12.29580, E80.03750
+	N12.45200, E80.14307
+	N12.69033, E80.22910
+	N13.36133, E80.34238
+	N13.43672, E80.29033
+	N13.52871, E80.11426
+	N13.60625, E80.06211
+	N13.71377, E80.15625
+	N13.60576, E80.23340
+	N13.52129, E80.26562
+	N13.48506, E80.30654
+	N13.68584, E80.24580
+	N13.77349, E80.24414
+	N13.85820, E80.22441
+
+[airport1]
+name = Chennai International Airport
+code = VOMM
+runways =
+	rwy1, 07, N12.9841, E80.153, 69.0, 12001, 0, 0, 40
+	rwy2, 12, N13.0019, E80.1658, 117.6, 6708, 0, 787, 30

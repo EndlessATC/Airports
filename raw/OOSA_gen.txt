@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 73
+center = N17.0387001038, E54.0913009644
+magneticvar = 0.298
+beacons =
+	SLL, N17.04440, E54.09420, 0, Salalah
+	SAN, N17.02850, E54.08580, 0, Salalah
+	TMR, N17.66820, E54.02570, 0, Thumrait
+
+line1 =
+	N16.64839, E53.08564
+	N16.72334, E53.29775
+	N16.75996, E53.60986
+	N16.85571, E53.77539
+	N16.91782, E53.95439
+	N17.00552, E54.06816
+	N17.03364, E54.37695
+	N17.03125, E54.56650
+	N17.00889, E54.66465
+	N16.96465, E54.77188
+	N17.03892, E55.06416
+	N17.15762, E55.17373
+	N17.32090, E55.27520
+	N17.38159, E55.29561
+	N17.44624, E55.28145
+	N17.50474, E55.23818
+	N17.58564, E55.25537
+
+[airport1]
+name = Salalah Airport
+code = OOSA
+runways =
+	rwy1, 07, N17.0337, E54.0765, 71.0, 10965, 0, 0, 63
+	rwy2, 17, N17.0403, E54.1013, 174.1, 4196, 0, 0, 70

@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 505
+center = N42.7332992554, E143.216995239
+magneticvar = -8.400
+beacons =
+	OBE, N42.73400, E143.22000, 0, Obihiro
+	OB, N42.65610, E143.25700, 0, Obihiro
+	OH, N42.89970, E143.15800, 0, Tokachi
+	KS, N43.03600, E144.20100, 0, Kushiro
+	KSE, N43.03380, E144.20399, 0, Kushiro
+	KQ, N43.13450, E144.14400, 0, Akan
+
+line1 =
+	N42.57905, E141.85137
+	N42.47173, E142.08789
+	N42.25796, E142.50820
+	N42.11836, E142.90635
+	N42.02222, E143.11172
+	N42.00020, E143.23652
+	N42.03784, E143.27871
+	N42.08433, E143.31367
+	N42.15103, E143.32715
+	N42.22036, E143.33213
+	N42.32515, E143.36865
+	N42.41890, E143.42949
+	N42.59873, E143.58096
+	N42.74814, E143.76211
+	N42.88140, E143.96934
+	N42.97363, E144.19727
+	N42.98442, E144.30156
+	N42.94360, E144.51621
+	N42.94692, E144.63076
+
+line2 =
+	N43.64829, E141.94294
+	N43.62251, E141.90915
+	N43.56427, E141.88450
+	N43.42825, E141.86114
+	N43.32898, E141.70993
+	N43.25374, E141.64400
+
+[airport1]
+name = Tokachi-Obihiro Airport
+code = RJCB
+runways =
+	rwy1, 17, N42.7441, E143.212, 159.3, 8202, 0, 0, 470

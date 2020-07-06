@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 12
+center = N41.2971, E2.07846
+magneticvar = -0.268
+beacons =
+	PRA, N41.28310, E2.08186, 0, El Prat
+	BCN, N41.30710, E2.10781, 0, Barcelona
+	SBD, N41.51940, E2.10305, 0, Sabadell
+	SLL, N41.51990, E2.10975, 0, Sabadell
+	VNV, N41.21060, E1.70584, 0, Villanueva
+	VLA, N41.34260, E1.54770, 0, Villafranca
+	CLE, N41.64000, E2.63467, 0, Calella
+	RES, N41.14970, E1.17112, 0, Reus
+	RUS, N41.14780, E1.14614, 0, Reus
+	GIR, N41.93120, E2.77197, 0, Gerona
+	GRN, N42.02500, E2.80721, 0, Gerona
+
+line1 =
+	N40.61450, E0.59609
+	N40.62222, E0.62715
+	N40.61333, E0.66006
+	N40.63047, E0.72061
+	N40.68623, E0.85918
+	N40.72236, E0.89111
+	N40.80381, E0.79609
+	N40.82285, E0.71465
+	N40.89160, E0.81689
+	N41.06206, E1.03291
+	N41.09756, E1.20586
+	N41.19561, E1.56660
+	N41.28740, E2.08262
+	N41.32075, E2.14561
+	N41.46650, E2.31094
+	N41.76743, E3.00488
+	N41.86104, E3.14688
+	N41.94424, E3.24805
+	N42.08223, E3.23809
+	N42.11113, E3.22461
+	N42.13599, E3.17520
+	N42.16245, E3.15039
+	N42.25649, E3.16641
+	N42.26035, E3.21865
+	N42.28896, E3.30674
+
+line2 =
+	N41.21963, E0.58987
+	N41.16470, E0.63172
+	N41.11920, E0.65250
+	N41.08313, E0.65198
+	N41.03752, E0.61384
+	N40.98238, E0.53788
+
+line3 =
+	N40.80203, E0.55126
+	N40.74462, E0.65059
+	N40.72235, E0.89114
+
+[airport1]
+name = Barcelona International Airport
+code = LEBL
+runways =
+	rwy1, 02, N41.2878, E2.08484, 19.0, 8333, 131, 0, 7
+	rwy2, 07L, N41.2925, E2.06511, 65.6, 11654, 295, 0, 8
+	rwy3, 07R, N41.2823, E2.07435, 65.6, 8727, 0, 0, 8

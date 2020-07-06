@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 656
+center = N60.397499, E120.471001
+magneticvar = -13.045
+beacons =
+	ON, N60.40500, E120.56000, 0, Olekminsk
+
+line1 =
+	N60.40347, E120.64838
+	N60.39621, E120.34344
+	N60.34970, E120.18427
+	N60.26159, E120.06924
+	N60.22911, E119.87411
+	N60.25232, E119.59888
+	N60.19142, E119.35476
+	N60.04646, E119.14175
+	N59.96559, E118.95856
+	N59.94880, E118.80529
+	N59.91701, E118.67754
+	N59.87025, E118.57533
+	N59.82382, E118.51021
+	N59.77780, E118.48210
+	N59.74478, E118.41957
+	N59.72480, E118.32252
+
+line2 =
+	N60.57537, E122.29686
+	N60.59754, E121.65338
+	N60.64250, E121.42476
+	N60.62235, E121.16183
+	N60.53708, E120.86449
+	N60.47254, E120.70036
+	N60.40670, E120.65386
+
+[airport1]
+name = Olyokminsk Airport
+code = UEMO

@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N39.7827987671, E116.388000488
+magneticvar = -6.229
+beacons =
+	JR, N39.72330, E116.09800, 0, Liangxiang
+	PEK, N40.05000, E116.60000, 0, Beijing
+	SZY, N40.10170, E116.46200, 0, Shaziying
+	CU, N40.12500, E116.37000, 0, Shahe
+	O, N40.09700, E116.59400, 0, Capital
+	L, N40.11180, E116.56800, 0, Beijing
+	WF, N39.95000, E116.86700, 0, Xiliuhetun
+	CD, N40.00830, E115.80000, 0, Qingbaikou
+	OB, N40.28330, E116.53300, 0, Huairou
+	VYK, N39.19170, E116.57200, 0, Dawangzhuang
+	YK, N39.19170, E116.57200, 0, Dawangzhuang
+	HUR, N40.33000, E116.74800, 0, Huairou
+	VM, N39.30000, E116.90000, 0, Shigezhuang
+	JB, N39.04330, E116.19800, 0, Zangangzhen
+	KM, N40.39330, E115.49200, 0, Huailai
+	JS, N39.17040, E117.31700, 0, Tianjin
+	J, N39.14620, E117.33300, 0, Tianjin
+	TAJ, N39.10670, E117.35800, 0, Tianjin
+	CG, N39.07330, E117.37800, 0, Tianjin
+
+line1 =
+	N38.85288, E117.61670
+	N39.13447, E117.78467
+	N39.19126, E117.86572
+
+[airport1]
+name = Beijing Nanyuan Airport
+code = ZBNY
+
+[airport2]
+name = Beijing Capital International Airport
+code = AA
+runways =
+	rwy1, 01, N40.0589, E116.618, 353.0, 12468, 0, 0, 94
+	rwy2, 18L, N40.0894, E116.595, 173.0, 12468, 0, 0, 110
+	rwy3, 18R, N40.1021, E116.57, 173.0, 10499, 0, 0, 116
+inboundbeacon = O

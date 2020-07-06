@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 761
+center = N23.7033004761, W98.9564971924
+magneticvar = 6.124
+beacons =
+	CVM, N23.70550, W98.95900, 0, Victoria
+	TTM, N22.96780, W99.77270, 0, Noria
+
+line1 =
+	N22.77632, W97.81670
+	N22.88604, W97.75835
+	N22.94238, W97.74521
+	N23.30615, W97.76587
+	N23.73223, W97.72739
+	N23.76064, W97.74268
+	N23.78794, W97.72861
+	N23.98062, W97.71704
+
+line2 =
+	N24.47637, W97.68711
+	N24.25464, W97.72007
+	N23.91484, W97.75781
+	N23.91670, W97.76543
+	N24.08213, W97.77549
+	N24.15874, W97.75903
+	N24.26362, W97.75000
+	N24.39092, W97.74097
+	N24.43613, W97.76826
+	N24.44404, W97.80469
+	N24.47656, W97.82832
+	N24.51709, W97.83315
+	N24.54443, W97.82417
+	N24.54600, W97.80034
+	N24.50171, W97.74170
+	N24.50127, W97.72520
+	N24.66348, W97.68857
+
+[airport1]
+name = General Pedro Jose Mendez International Airport
+code = MMCV
+runways =
+	rwy1, 15, N23.7125, W98.9608, 156.5, 7218, 0, 0, 761
+	rwy2, 17, N23.7165, W98.9664, 180.8, 4659, 0, 0, 0

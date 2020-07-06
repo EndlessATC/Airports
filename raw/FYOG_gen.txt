@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 14
+center = S28.5847, E16.446699
+magneticvar = -19.183
+beacons =
+	AB, S28.61890, E16.48000, 0, Alexander Bay
+	ABV, S28.57070, E16.53390, 0, Alexander Bay
+
+line1 =
+	S27.96582, E15.71904
+	S28.15254, E15.89092
+	S28.23174, E16.00713
+	S28.53652, E16.33506
+	S28.61758, E16.44756
+	S28.64150, E16.48076
+	S29.00938, E16.73945
+	S29.40342, E16.95000
+
+line2 =
+	S28.76832, E17.69931
+	S28.74310, E17.61679
+	S28.69814, E17.44796
+	S28.62104, E17.41571
+	S28.56265, E17.39587
+	S28.50115, E17.34781
+	S28.45165, E17.34259
+	S28.41392, E17.38031
+	S28.35320, E17.38569
+	S28.26944, E17.35871
+	S28.22861, E17.31205
+	S28.23089, E17.24580
+	S28.19885, E17.20456
+	S28.13249, E17.18844
+	S28.08226, E17.14937
+	S28.03100, E17.05625
+	S28.06966, E16.93331
+	S28.12795, E16.87528
+	S28.21890, E16.84117
+	S28.26458, E16.81012
+	S28.34085, E16.79456
+	S28.39470, E16.78748
+	S28.45216, E16.75575
+	S28.47552, E16.72304
+	S28.46498, E16.68945
+	S28.48792, E16.62620
+	S28.57288, E16.48709
+	S28.61753, E16.44755
+
+[airport1]
+name = Oranjemund Airport
+code = FYOG
+runways =
+	rwy1, 02, S28.5919, E16.4467, 360.0, 5252, 0, 0, 14
+	rwy2, 07, S28.5905, E16.4429, 48.0, 3000, 0, 0, 0
+	rwy3, 16, S28.5846, E16.4415, 141.0, 3500, 0, 0, 0

@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 663
+center = N24.2646999359, E120.621002197
+magneticvar = -3.430
+beacons =
+	CCK, N24.26260, E120.61800, 0, Ching Chuan Kang
+	TCK, N24.25360, E120.61900, 0, Taichung
+	TC, N24.25350, E120.61900, 0, Taichung
+	MSNN, N24.19440, E120.65400, 0, Msnn
+	SN, N24.13630, E120.65500, 0, Sn
+	WK, N24.23330, E120.82300, 0, Hsinshie
+	HLG, N24.64000, E120.78300, 0, Houlung
+	HL, N24.64640, E120.77400, 0, Houlung
+	HSU, N24.82170, E120.93800, 0, Hsinchu
+	KU, N23.58420, E120.38900, 0, Chiayi
+	CHI, N23.46490, E120.39100, 0, Chiayi
+	RA, N24.86170, E121.25300, 0, Lungtang
+	KS, N25.05580, E121.21700, 0, Ks
+	TYN, N25.06250, E121.24500, 0, Taoyuan
+	TIA, N25.08840, E121.23300, 0, Chiang Kai Shek
+	SW, N24.99480, E121.49100, 0, Sw
+	LK, N25.07430, E121.42400, 0, Lk
+	LKU, N25.07610, E121.42700, 0, Sungshan
+	SG, N25.07040, E121.53000, 0, Sg
+
+line1 =
+	N25.10444, E121.85283
+	N25.15410, E121.73330
+	N25.18159, E121.68711
+	N25.23242, E121.64307
+
+line2 =
+	N25.24902, E121.44961
+	N25.15918, E121.36543
+	N25.06509, E121.09541
+	N25.03281, E121.04063
+	N24.92798, E120.96406
+	N24.81328, E120.90156
+	N24.72266, E120.83594
+	N24.64229, E120.75742
+	N24.47852, E120.62969
+	N23.70903, E120.15898
+	N23.65293, E120.13213
+	N23.52661, E120.12539
+	N23.39907, E120.14297
+	N23.30518, E120.12119
+
+line3 =
+	N23.42407, E121.47715
+	N23.66826, E121.52607
+	N23.86089, E121.58340
+	N24.05273, E121.61309
+	N24.13008, E121.63936
+	N24.28525, E121.73701
+	N24.53437, E121.82803
+	N24.64053, E121.82637
+	N24.74634, E121.81338
+	N24.82451, E121.82012
+	N24.89526, E121.85625
+
+[airport1]
+name = Taichung Ching Chuang Kang Airport
+code = RCMQ
+runways =
+	rwy1, 18, N24.2815, E120.62, 176.5, 12000, 0, 0, 653

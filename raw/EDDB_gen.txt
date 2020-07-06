@@ -1,0 +1,91 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 157
+center = N52.380001, E13.5225
+magneticvar = 2.307
+beacons =
+	SDD, N52.37450, E13.50370, 0, Schonefeld
+	SLN, N52.39260, E13.57000, 0, Schonefeld
+	DIP, N52.47290, E13.46830, 0, Planter
+	TOF, N52.47310, E13.40540, 0, Tempelhof
+	DBR, N52.46830, E13.29530, 0, Helmholtz
+	GL, N52.57230, E13.42620, 0, Tegel East
+	TGL, N52.56150, E13.28760, 0, Tegel
+	DLS, N52.61390, E13.36360, 0, Lubars
+	RW, N52.54510, E13.15100, 0, Tegel West
+	KLF, N52.01940, E13.56340, 0, Klasdorf
+	FWE, N52.41130, E14.13060, 0, Furstenwalde
+	LWB, N52.91030, E13.13460, 0, Lowenberg
+	HOZ, N51.76670, E13.19900, 0, Holzdorf
+	SUI, N52.37990, E14.58560, 0, Subi
+	HOZ, N51.76980, E13.09750, 0, Holzdorf
+	CDD, N51.88700, E14.53200, 0, Drewitz
+	DRW, N51.89670, E14.56250, 0, Drewitz
+
+line1 =
+	N51.38245, E13.22620
+	N51.47363, E13.18434
+	N51.47363, E13.19116
+	N51.62259, E12.93423
+	N51.71142, E12.84204
+	N51.78971, E12.82891
+	N51.84278, E12.74158
+	N51.87063, E12.57994
+	N51.88097, E12.38170
+	N51.87378, E12.14699
+	N51.90869, E11.99475
+	N51.98564, E11.92519
+	N52.03129, E11.84334
+	N52.04566, E11.74939
+	N52.07160, E11.69084
+	N52.10907, E11.66779
+	N52.15529, E11.66821
+	N52.21020, E11.69208
+	N52.27275, E11.75725
+	N52.37797, E11.91693
+	N52.43773, E11.97790
+	N52.56186, E12.00343
+	N52.77032, E12.01377
+	N52.91848, E11.92054
+	N53.00627, E11.72386
+
+line2 =
+	N52.04576, E15.42379
+	N52.07692, E14.76089
+	N52.11020, E14.70461
+	N52.15005, E14.69236
+	N52.20746, E14.70539
+	N52.24999, E14.67986
+	N52.27764, E14.61568
+	N52.31417, E14.57392
+	N52.35965, E14.55460
+	N52.43109, E14.56968
+	N52.52850, E14.61940
+	N52.64562, E14.51403
+	N52.78251, E14.25368
+	N52.87822, E14.12863
+	N52.93287, E14.13886
+	N52.98235, E14.19369
+	N53.02674, E14.29322
+	N53.10554, E14.36856
+	N53.27548, E14.44556
+
+[airport1]
+name = Berlin-Schönefeld Airport
+code = EDDB
+runways =
+	rwy1, 07L, N52.3667, E13.4809, 69.0, 11811, 986, 984, 148
+	rwy2, 07R, N52.3454, E13.4684, 69.0, 9843, 0, 0, 153
+
+[airport2]
+name = Berlin-Tegel Airport
+code = DT
+runways =
+	rwy3, 08L, N52.5576, E13.2657, 81.0, 9918, 0, 0, 110
+	rwy4, 08R, N52.5567, E13.275, 81.0, 7966, 341, 722, 109
+inboundbeacon = TGL

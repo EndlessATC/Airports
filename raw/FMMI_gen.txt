@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4198
+center = S18.7969, E47.478802
+magneticvar = -15.105
+beacons =
+	IA, S18.79340, E47.45490, 0, Antananarivo Ivato
+	TNV, S18.80330, E47.51870, 0, Ivato
+	TAN, S18.83470, E47.47200, 0, Antanetibe
+	IO, S18.78410, E47.39290, 0, Antananarivo Ivato
+	NT, S18.81560, E47.60450, 0, Antananarivo Ivato
+	TN, S18.31610, E47.11380, 0, Ankazobe
+	TE, S18.95340, E48.22550, 0, Moramanga
+	TW, S19.17340, E46.73500, 0, Soavinandriana
+
+[airport1]
+name = Ivato Airport
+code = FMMI
+runways =
+	rwy1, 11, S18.7948, E47.4643, 99.0, 10171, 0, 0, 4197

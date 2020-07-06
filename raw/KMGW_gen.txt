@@ -1,0 +1,83 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1248
+usa = true
+transition = 18001
+center = N39.64289856, W79.91629791
+magneticvar = -9.498
+beacons =
+	MGW, N39.55670, W79.86040, 0, Morgantown
+	VV, N39.88280, W79.74470, 0, Camor
+	CKB, N39.25320, W80.26790, 0, Clarksburg
+	IHD, N39.97420, W79.35840, 0, Indian Head
+	AGC, N40.27870, W80.04090, 0, Allegheny
+	GRV, N39.63500, W79.05050, 0, Grantsville
+	MKP, N40.35070, W79.78130, 0, Mckeesport
+	EKN, N38.91440, W80.09930, 0, Elkins
+	RQY, N38.89400, W79.85940, 0, Randolph Co
+	HL, N40.10960, W80.68870, 0, Dorch
+	AIR, N40.01700, W80.81730, 0, Bellaire
+	HLG, N40.25990, W80.56860, 0, Wheeling
+	ESL, N39.22550, W78.98950, 0, Kessel
+	BHU, N40.37550, W79.27170, 0, Benje
+	SYS, N40.08570, W78.91650, 0, Stoystown
+	JST, N40.31670, W78.83420, 0, Johnstown
+
+line1 =
+	N40.63680, W79.69826
+	N40.51941, W79.82980
+	N40.45608, W79.94617
+	N40.44771, W79.99087
+
+line2 =
+	N40.44771, W79.99087
+	N40.52158, W80.14898
+	N40.58447, W80.22267
+
+line3 =
+	N40.60326, W80.63753
+	N40.56298, W80.65905
+	N40.51156, W80.62319
+	N40.44521, W80.60409
+	N40.36389, W80.60182
+	N40.18525, W80.66827
+	N39.90914, W80.80351
+	N39.73551, W80.87219
+	N39.66430, W80.87431
+	N39.57112, W80.96330
+	N39.45599, W81.13912
+	N39.38654, W81.26250
+	N39.36282, W81.33335
+	N39.36483, W81.39242
+
+line4 =
+	N38.90062, W79.25312
+	N38.99873, W79.16307
+	N39.01684, W79.07119
+	N39.12412, W78.95618
+	N39.32049, W78.81803
+	N39.44723, W78.70545
+	N39.53286, W78.57497
+	N39.53335, W78.49554
+	N39.55614, W78.46027
+	N39.60146, W78.44270
+	N39.62787, W78.40676
+
+[airport1]
+name = Morgantown Municipal Walter L. Bill Hart Field
+code = KMGW
+runways =
+	rwy1, 05, N39.6389, W79.9175, 44.9, 2769, 0, 0, 1241
+	rwy2, 18, N39.6507, W79.9188, 172.4, 5199, 0, 0, 1236
+
+[airport2]
+name = North Central West Virginia Airport
+code = KB
+runways =
+	rwy3, 03, N39.2878, W80.2329, 23.0, 7800, 0, 0, 1183
+inboundbeacon = CKB

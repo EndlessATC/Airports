@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 141
+center = N42.359402, E19.2519
+magneticvar = 2.562
+beacons =
+	POD, N42.38620, E19.25460, 0, Podgorica
+	POD, N42.38860, E19.25490, 0, Podgorica
+	DAN, N42.54500, E19.12350, 0, Podgorica
+	TAZ, N42.28200, E18.80040, 0, Tivat
+	NIK, N42.77640, E18.92420, 0, Niksic
+	MOJ, N42.94460, E19.57550, 0, Mojkovac
+	BRN, N42.87120, E19.90340, 0, Berane
+	GR, N42.54060, E18.32080, 0, Dubrovnik
+	DBK, N42.55380, E18.27740, 0, Dubrovnik
+	CV, N42.58520, E18.21260, 0, Dubrovnik
+	GAC, N43.14290, E18.55830, 0, Gacko
+
+line1 =
+	N42.79741, E17.82383
+	N42.63403, E18.16064
+	N42.52788, E18.33301
+	N42.43291, E18.51748
+	N42.42852, E18.55352
+	N42.44419, E18.59160
+	N42.44272, E18.64590
+	N42.42314, E18.63340
+	N42.39839, E18.61904
+	N42.37808, E18.63291
+	N42.24946, E18.89424
+	N42.06050, E19.12227
+	N41.94863, E19.18643
+	N41.86909, E19.34238
+	N41.85615, E19.46826
+	N41.78750, E19.57754
+	N41.64043, E19.57568
+	N41.59683, E19.54580
+	N41.56270, E19.49736
+	N41.42476, E19.44063
+
+[airport1]
+name = Podgorica Airport
+code = LYPG
+runways =
+	rwy1, 08, N42.3758, E19.2864, 85.8, 7145, 0, 0, 0
+	rwy2, 18, N42.3706, E19.253, 184.3, 8202, 0, 0, 118
+
+[airport2]
+name = Tivat Airport
+code = TV
+runways =
+	rwy3, 14, N42.4131, E18.7133, 139.0, 8208, 0, 0, 7
+inboundbeacon = TAZ

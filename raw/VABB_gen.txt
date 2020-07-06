@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 39
+center = N19.0886993408, E72.8678970337
+magneticvar = -0.504
+beacons =
+	BBB, N19.08540, E72.87540, 0, Mumbai
+
+line1 =
+	N20.07803, E72.70898
+	N19.83096, E72.66777
+	N19.79795, E72.67598
+	N19.75713, E72.69746
+	N19.57827, E72.72656
+	N19.51982, E72.79941
+	N19.45054, E72.75645
+	N19.41318, E72.76396
+	N19.36299, E72.78789
+	N19.27744, E72.98721
+	N19.29893, E72.81162
+	N19.25210, E72.79453
+	N19.21875, E72.80273
+	N19.07930, E72.80303
+	N18.97559, E72.83467
+	N19.01450, E72.90068
+	N19.15332, E72.97207
+	N19.02109, E73.00557
+	N18.92720, E72.97686
+	N18.77896, E72.89873
+	N18.68306, E72.87090
+	N18.64282, E72.87549
+	N18.57612, E72.91719
+	N18.36562, E72.94316
+	N18.25928, E72.97207
+	N18.09771, E72.99395
+
+line2 =
+	N20.01278, E73.65249
+	N19.99020, E73.88865
+	N19.99888, E73.98983
+	N20.03134, E74.03469
+	N20.03635, E74.08357
+
+[airport1]
+name = Chhatrapati Shivaji International Airport
+code = VABB
+runways =
+	rwy1, 09, N19.0884, E72.848, 89.2, 11312, 465, 1581, 15
+	rwy2, 14, N19.0985, E72.8573, 134.2, 9419, 1238, 853, 37

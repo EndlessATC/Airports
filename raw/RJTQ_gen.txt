@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 67
+center = N34.073600769, E139.559997559
+magneticvar = -6.399
+beacons =
+	MOE, N34.07100, E139.56100, 0, Oyama
+	MJE, N34.11900, E139.49800, 0, Miyakejima
+	NJC, N34.34810, E139.27100, 0, Niijima
+	XA, N34.68880, E139.39700, 0, Oshima
+	XAC, N34.71230, E139.41400, 0, Oshima
+	OSE, N34.78770, E139.36501, 0, Mihara
+
+line1 =
+	N35.03828, E140.05918
+	N34.94731, E139.95977
+	N34.89961, E139.92041
+	N34.91489, E139.84395
+	N34.95693, E139.79922
+	N35.00986, E139.84326
+	N35.07217, E139.82969
+
+line2 =
+	N34.95649, E139.12197
+	N34.83916, E139.08604
+	N34.73604, E139.01562
+	N34.69839, E138.98262
+	N34.62842, E138.89668
+	N34.61924, E138.83750
+	N34.65103, E138.79512
+	N34.69922, E138.76104
+	N34.87573, E138.80449
+	N34.97480, E138.80273
+	N35.02524, E138.90361
+
+line3 =
+	N35.04414, E138.53701
+	N34.98716, E138.50957
+	N34.91519, E138.43311
+	N34.84771, E138.34863
+	N34.73267, E138.25322
+	N34.59634, E138.18906
+
+line4 =
+	N33.09351, E139.87363
+	N33.12925, E139.80889
+	N33.12515, E139.77744
+	N33.10718, E139.76895
+	N33.07822, E139.77568
+
+line5 =
+	N34.77544, E139.37002
+	N34.72051, E139.36689
+	N34.68989, E139.39238
+	N34.67954, E139.44570
+	N34.72651, E139.45645
+	N34.77588, E139.42617
+	N34.77544, E139.37002
+
+[airport1]
+name = Miyakejima Airport
+code = RJTQ
+runways =
+	rwy1, 02, N34.0664, E139.558, 17.0, 4350, 193, 220, 67

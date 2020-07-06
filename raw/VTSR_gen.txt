@@ -1,0 +1,87 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 57
+center = N9.77762031555, E98.5855026245
+magneticvar = -0.309
+beacons =
+	RAN, N9.77866, E98.58390, 0, Ranong
+	RN, N9.78331, E98.59100, 0, Ranong
+	KT, N10.05180, E98.54970, 0, Kawthoung
+	SRT, N9.13304, E99.13160, 0, Surat Thani
+	STN, N9.12951, E99.13480, 0, Surat Thani
+	SR, N9.13314, E99.14550, 0, Surat Thani
+
+line1 =
+	N9.04082, E98.25078
+	N9.05146, E98.30752
+	N9.08037, E98.31250
+	N9.13911, E98.30117
+	N9.12988, E98.27363
+	N9.09541, E98.25840
+	N9.04082, E98.25078
+
+line2 =
+	N10.74443, E98.25176
+	N10.73989, E98.27148
+	N10.75312, E98.28438
+
+line3 =
+	N10.04521, E98.22070
+	N9.97466, E98.14023
+	N9.87788, E98.11807
+	N9.87539, E98.13438
+	N9.93345, E98.18262
+	N9.95396, E98.23125
+	N10.00762, E98.28340
+	N10.05132, E98.29170
+	N10.04521, E98.22070
+
+line4 =
+	N10.74067, E98.53564
+	N10.71895, E98.50098
+	N10.67583, E98.46494
+	N10.35312, E98.52305
+	N10.18252, E98.49687
+	N10.10723, E98.52129
+	N10.03496, E98.56260
+	N10.17905, E98.65801
+	N10.19038, E98.70254
+	N9.83750, E98.56191
+	N9.56143, E98.49297
+	N9.49282, E98.44316
+	N9.29053, E98.37139
+	N8.96895, E98.32598
+
+line5 =
+	N9.31421, E99.72383
+	N9.21372, E99.39385
+	N9.22544, E99.33545
+	N9.26523, E99.25391
+	N9.35298, E99.26504
+	N9.41460, E99.28828
+	N9.62715, E99.19131
+	N9.73403, E99.16074
+	N9.93418, E99.16934
+	N10.17544, E99.19463
+	N10.26587, E99.19033
+	N10.31982, E99.16504
+	N10.38813, E99.23730
+	N10.56914, E99.28477
+
+[airport1]
+name = Ranong Airport
+code = VTSR
+runways =
+	rwy1, 02, N9.76934, E98.5818, 23.8, 6562, 0, 0, 36
+
+[airport2]
+name = Kawthoung Airport
+code = KT
+runways =
+	rwy2, 02, N10.0414, E98.5354, 17.8, 6000, 0, 0, 0
+inboundbeacon = KT

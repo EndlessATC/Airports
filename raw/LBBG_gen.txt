@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 135
+center = N42.5695991516, E27.5151996613
+magneticvar = 4.257
+beacons =
+	BGS, N42.57110, E27.51990, 0, Burgas
+	B, N42.55350, E27.49330, 0, Burgas
+	U, N42.58720, E27.53780, 0, Burgas
+	BU, N42.51890, E27.44610, 0, Burgas
+	BGS, N42.62690, E27.58940, 0, Burgas
+	DWN, N43.25000, E27.65420, 0, Devnya
+	WN, N43.24120, E27.74230, 0, Varna
+	W, N43.23450, E27.79650, 0, Varna
+	WRN, N43.23140, E27.81720, 0, Varna
+	R, N43.22930, E27.85660, 0, Varna
+	WR, N43.22420, E27.90680, 0, Varna
+
+line1 =
+	N41.72915, E28.05029
+	N41.85488, E27.98730
+	N41.96904, E28.01445
+	N42.04741, E27.98271
+	N42.20801, E27.82139
+	N42.34995, E27.70820
+	N42.40098, E27.63955
+	N42.46807, E27.48477
+	N42.70654, E27.75371
+	N42.71665, E27.81836
+	N42.74971, E27.88887
+	N43.02070, E27.89648
+	N43.18613, E27.92891
+	N43.23052, E27.97930
+	N43.26826, E28.03516
+	N43.39561, E28.13369
+	N43.42686, E28.31963
+	N43.38931, E28.46543
+	N43.50132, E28.56182
+
+[airport1]
+name = Burgas Airport
+code = LBBG
+runways =
+	rwy1, 04, N42.5598, E27.5016, 44.0, 10499, 0, 0, 89

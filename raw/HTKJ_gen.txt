@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2932
+center = S3.42940998077, E37.0745010376
+magneticvar = -0.307
+beacons =
+	KV, S3.42788, E37.10660, 0, Kilimanjaro
+	KO, S3.43291, E36.99340, 0, Kilimanjaro
+	KL, S3.43597, E36.92480, 0, Kilimanjaro
+	KB, S3.58162, E36.69460, 0, Kilimanjaro
+	AR, S3.36779, E36.62040, 0, Arusha
+
+[airport1]
+name = Kilimanjaro International Airport
+code = HTKJ
+runways =
+	rwy1, 09, S3.43016, E37.0583, 87.0, 11834, 0, 0, 2932

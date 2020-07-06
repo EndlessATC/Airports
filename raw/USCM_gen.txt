@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1430
+center = N53.3931007385, E58.7556991577
+magneticvar = 11.350
+beacons =
+	MGR, N53.40330, E58.75670, 0, Magnitogorsk
+	CP, N53.44000, E58.78000, 0, Magnitogorsk
+	RF, N53.34500, E58.73330, 0, Magnitogorsk
+
+line1 =
+	N54.32464, E59.19409
+	N54.27782, E59.16174
+	N54.23638, E59.17218
+	N54.17476, E59.14981
+	N54.09295, E59.09472
+	N54.01216, E59.10226
+	N53.93237, E59.17265
+	N53.86346, E59.19042
+	N53.80540, E59.15570
+	N53.74623, E59.16851
+	N53.68595, E59.22897
+	N53.64045, E59.25357
+	N53.60980, E59.24251
+	N53.57327, E59.18210
+	N53.53089, E59.07245
+	N53.46439, E59.02134
+	N53.37380, E59.02878
+	N53.30721, E59.06692
+	N53.26471, E59.13565
+	N53.21717, E59.12965
+	N53.16456, E59.04893
+	N53.07071, E58.97400
+	N52.93558, E58.90507
+	N52.81083, E58.90414
+	N52.69653, E58.97142
+	N52.62025, E58.99566
+	N52.59974, E58.98568
+	N52.56945, E58.98992
+	N52.54584, E59.01028
+	N52.52677, E59.05793
+	N52.51323, E59.08252
+	N52.46982, E59.08035
+	N52.41995, E59.06216
+
+[airport1]
+name = Magnitogorsk International Airport
+code = USCM
+runways =
+	rwy1, 01, N53.3791, E58.7488, 16.2, 10663, 0, 0, 1430

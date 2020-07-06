@@ -1,0 +1,85 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 600
+center = N48.1102981567, E16.5697002411
+magneticvar = 3.011
+beacons =
+	FMD, N48.10510, E16.62930, 0, Fischamend
+	WO, N48.14740, E16.45760, 0, Schwechat
+	BRK, N48.06290, E16.71670, 0, Bruck
+	WGM, N48.32390, E16.49100, 0, Wagram
+	STE, N48.21060, E16.24710, 0, Steinhof
+	SNU, N47.87490, E16.28840, 0, Sollenau
+	TF, N47.84100, E16.28170, 0, Wierner Neustadt East
+	TUN, N48.30940, E15.98110, 0, Tulln
+	TUN, N48.30970, E15.98080, 0, Tulln
+	OKR, N48.17660, E17.22480, 0, Stefanik
+	B, N48.15070, E17.24270, 0, Barka
+	D, N48.18640, E17.23620, 0, David
+	STO, N48.41710, E16.01860, 0, Stockerau
+	OB, N48.11480, E17.29840, 0, Stefanik South
+	OKR, N48.22390, E17.29030, 0, Stefanik North
+	RP, N48.47440, E17.15250, 0, Malacky
+	JAN, N48.17860, E17.54470, 0, Janovce
+	GYR, N47.66000, E17.71790, 0, Gyor
+	GYR, N47.65910, E17.72440, 0, Gyor
+	PC, N47.40730, E17.47860, 0, Parduc
+	CN, N48.57080, E17.80840, 0, Piestany
+	C, N47.34550, E17.51170, 0, Parduc
+	CP, N47.32020, E17.52530, 0, Parduc
+
+line1 =
+	N48.06110, E17.20642
+	N47.88762, E17.48062
+	N47.80990, E17.63529
+	N47.77016, E17.76189
+	N47.76342, E18.14559
+
+line2 =
+	N48.06110, E17.20642
+	N48.11743, E17.16550
+	N48.14647, E17.11082
+	N48.16709, E17.02866
+	N48.17179, E16.87807
+	N48.16063, E16.65907
+	N48.21254, E16.48647
+	N48.32749, E16.36048
+	N48.37958, E16.20948
+	N48.36883, E16.03368
+	N48.37937, E15.86139
+	N48.41128, E15.69272
+	N48.42371, E15.57303
+	N48.41668, E15.50234
+	N48.37090, E15.43118
+	N48.28630, E15.35956
+	N48.22879, E15.26473
+	N48.19835, E15.14670
+	N48.19789, E15.03575
+	N48.22739, E14.93188
+	N48.22721, E14.82879
+
+line3 =
+	N47.24526, E14.86062
+	N47.31892, E14.94610
+	N47.37101, E15.06201
+	N47.40016, E15.14515
+	N47.40153, E15.20846
+	N47.39367, E15.30302
+	N47.34742, E15.34571
+	N47.31621, E15.35248
+	N47.30006, E15.32344
+	N47.25257, E15.31558
+	N47.17371, E15.32891
+	N47.12110, E15.36137
+
+[airport1]
+name = Vienna International Airport
+code = LOWW
+runways =
+	rwy1, 11, N48.1228, E16.5334, 116.0, 11483, 0, 0, 575
+	rwy2, 16, N48.1198, E16.5782, 164.0, 11811, 0, 0, 597

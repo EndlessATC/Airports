@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 483
+center = N10.435, W73.2495
+magneticvar = -7.479
+beacons =
+	VUP, N10.43210, W73.24680, 0, Valledupar
+	VVP, N10.33780, W73.26250, 0, Valledupar
+	CJN, N11.23250, W72.50680, 0, Cerrejon
+	CJN, N11.23120, W72.49290, 0, Cerrejon
+
+line1 =
+	N11.29575, W73.31338
+	N11.27148, W73.67690
+	N11.27568, W73.79570
+	N11.30889, W73.90957
+	N11.34062, W74.05913
+	N11.32085, W74.14292
+	N11.26572, W74.20020
+	N11.10532, W74.21914
+	N10.95225, W74.29995
+	N10.81372, W74.35020
+	N10.76523, W74.40088
+
+line2 =
+	N10.96719, W74.40957
+	N10.97466, W74.35239
+	N10.99668, W74.33022
+
+[airport1]
+name = Alfonso López Pumarejo Airport
+code = SKVP
+runways =
+	rwy1, 02, N10.4257, W73.2511, 9.5, 6890, 0, 0, 449

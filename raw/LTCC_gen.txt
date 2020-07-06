@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2251
+center = N37.893901825, E40.2010002136
+magneticvar = 4.475
+beacons =
+	DIY, N37.90300, E40.19230, 0, Diyarbakir
+	DYB, N37.87080, E40.20860, 0, Diyarbakir
+	DYB, N37.87080, E40.20860, 0, Diyarbakir
+	BAT, N37.91540, E41.10550, 0, Batman
+	BAT, N37.93750, E41.11970, 0, Batman
+	BAT, N37.93750, E41.11970, 0, Batman
+	MRD, N37.22770, E40.63860, 0, Mardin
+	MRD, N37.22770, E40.63860, 0, Mardin
+	EZS, N38.60650, E39.29880, 0, Elazig
+	EZS, N38.70690, E39.22440, 0, Elazig
+
+line1 =
+	N38.81283, E38.76779
+	N38.87499, E38.81265
+
+line2 =
+	N38.41559, E39.64309
+	N38.34774, E40.01847
+	N38.30562, E40.02436
+	N38.26872, E40.06756
+	N38.22304, E40.14993
+	N38.17863, E40.17825
+	N38.13550, E40.15252
+	N38.10630, E40.17143
+	N38.09111, E40.23499
+	N38.02326, E40.26186
+	N37.90275, E40.25194
+	N37.83201, E40.42738
+	N37.80048, E40.96859
+	N37.75733, E41.15535
+	N37.74405, E41.35828
+	N37.74635, E41.63971
+
+line3 =
+	N38.43546, E38.78009
+	N38.41290, E38.84717
+	N38.35797, E38.92055
+	N38.33378, E38.99662
+	N38.34030, E39.07548
+	N38.30588, E39.11485
+	N38.23046, E39.11485
+	N38.18950, E39.14927
+	N38.18299, E39.21821
+	N38.15380, E39.24813
+	N38.10202, E39.23913
+	N38.03360, E39.17056
+	N37.94854, E39.04240
+	N37.88707, E38.97822
+	N37.84919, E38.97801
+	N37.81986, E38.95569
+	N37.79723, E38.94887
+	N37.74529, E38.92365
+	N37.71310, E38.84148
+	N37.69031, E38.82888
+	N37.66556, E38.83849
+	N37.64468, E38.81275
+
+[airport1]
+name = Diyarbakir Airport
+code = LTCC
+runways =
+	rwy1, 16, N37.9092, E40.195, 162.6, 11644, 0, 0, 2251

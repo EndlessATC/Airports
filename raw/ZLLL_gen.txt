@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6388
+metric = true
+center = N36.5152015686, E103.620002747
+magneticvar = -2.122
+beacons =
+	ZGC, N36.51500, E103.62500, 0, Lanzhou
+	YM, N36.23500, E103.80000, 0, Zhonghe
+	PT, N37.19330, E104.06800, 0, Jingtai
+	JTA, N37.19500, E104.08000, 0, Jingtai
+
+line1 =
+	N35.84453, E102.18460
+	N35.87337, E102.35585
+	N35.86040, E102.61031
+	N35.80557, E102.94775
+	N35.81156, E103.17720
+	N35.87833, E103.29864
+	N35.93122, E103.31677
+	N35.97026, E103.23171
+	N36.03956, E103.25559
+	N36.13911, E103.38840
+	N36.15784, E103.56022
+	N36.09568, E103.77106
+	N36.06808, E103.91596
+	N36.07506, E103.99508
+	N36.10446, E104.03063
+	N36.15629, E104.02267
+	N36.22877, E104.07223
+	N36.32184, E104.17920
+	N36.42780, E104.35211
+	N36.54661, E104.59096
+	N36.62758, E104.71348
+	N36.67073, E104.71979
+	N36.72750, E104.69039
+	N36.79794, E104.62517
+	N36.85008, E104.52843
+	N36.88390, E104.40007
+	N36.94552, E104.32658
+	N37.03492, E104.30788
+	N37.09345, E104.31387
+	N37.17388, E104.35273
+	N37.19698, E104.44606
+	N37.24132, E104.52027
+	N37.30690, E104.57556
+	N37.35860, E104.69163
+	N37.41539, E104.95693
+	N37.46149, E104.99786
+
+[airport1]
+name = Lanzhou Zhongchuan Airport
+code = ZLLL
+runways =
+	rwy1, 18, N36.5315, E103.619, 177.4, 11811, 0, 0, 6388

@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 43
+center = S43.8100013733, W176.457000732
+magneticvar = 24.403
+beacons =
+	CI, S43.95700, W176.56599, 0, Chatham Islands
+
+line1 =
+	S43.76484, W176.27485
+	S43.76631, W176.21353
+	S43.74033, W176.17764
+	S43.71758, W176.56611
+	S43.76514, W176.66724
+	S43.75791, W176.76108
+	S43.82393, W176.84766
+	S43.83457, W176.80796
+	S43.82021, W176.63457
+	S43.85195, W176.55513
+	S43.90098, W176.52378
+	S43.95410, W176.56274
+	S44.00625, W176.63154
+	S44.03613, W176.62935
+	S44.10723, W176.59800
+	S44.11494, W176.57153
+	S44.11660, W176.51553
+	S44.07686, W176.45278
+	S44.04844, W176.33384
+	S44.02529, W176.33359
+	S43.95146, W176.38545
+	S43.95469, W176.43911
+	S43.86016, W176.50015
+	S43.81611, W176.44126
+	S43.80488, W176.45493
+	S43.78477, W176.51655
+	S43.76807, W176.49912
+	S43.76094, W176.40737
+	S43.79063, W176.37524
+	S43.86680, W176.38174
+	S43.76484, W176.27485
+
+line2 =
+	S44.23672, W176.22930
+	S44.27354, W176.21460
+	S44.33057, W176.22080
+	S44.32168, W176.17646
+	S44.26846, W176.12256
+	S44.22451, W176.15469
+	S44.23672, W176.22930
+
+[airport1]
+name = Chatham Islands-Tuuta Airport
+code = NZCI
+runways =
+	rwy1, 05, S43.8138, W176.473, 72.1, 4462, 0, 0, 43

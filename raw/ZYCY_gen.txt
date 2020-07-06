@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 568
+metric = true
+center = N41.538101, E120.434998
+magneticvar = -7.478
+beacons =
+	CHG, N41.53670, E120.43300, 0, Chaoyang
+	FJ, N41.58330, E120.43300, 0, Chaoyang
+
+line1 =
+	N40.58906, E120.77070
+	N40.64922, E120.84131
+	N40.68311, E120.92227
+	N40.74912, E121.00293
+	N40.84160, E121.08594
+	N40.90127, E121.17451
+	N40.87842, E121.53711
+	N40.84341, E121.59893
+	N40.84614, E121.72930
+	N40.87588, E121.76562
+	N40.96851, E121.80859
+	N40.97427, E121.83486
+	N40.84209, E121.85879
+
+[airport1]
+name = Chaoyang Airport
+code = ZYCY

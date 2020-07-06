@@ -1,0 +1,88 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1503
+usa = true
+transition = 18001
+center = N40.29639816, W78.31999969
+magneticvar = -9.283
+beacons =
+	AOO, N40.32540, W78.30370, 0, Altoona
+	JST, N40.31670, W78.83420, 0, Johnstown
+	REC, N40.54650, W78.74700, 0, Revloc
+	TON, N40.73510, W78.33130, 0, Tyrone
+	THS, N39.93320, W77.95090, 0, St Thomas
+	SYS, N40.08570, W78.91650, 0, Stoystown
+	RV, N40.61470, W77.71790, 0, Stroh
+	INP, N40.63190, W79.06590, 0, Indiana
+	PSB, N40.91630, W77.99270, 0, Philipsburg
+	HGR, N39.69770, W77.85570, 0, Hagerstown
+	PS, N40.98570, W78.14460, 0, Ports
+	CBE, N39.64820, W78.74730, 0, Cumberland
+	BHU, N40.37550, W79.27170, 0, Benje
+	UN, N40.91030, W77.74180, 0, Penue
+	IHD, N39.97420, W79.35840, 0, Indian Head
+	GRV, N39.63500, W79.05050, 0, Grantsville
+
+line1 =
+	N41.26420, W79.81641
+	N41.22069, W79.74557
+	N41.15470, W79.68151
+	N41.06633, W79.62426
+	N41.01212, W79.60384
+	N40.99212, W79.62020
+	N40.96592, W79.58746
+	N40.93854, W79.52276
+	N40.90562, W79.51496
+	N40.82376, W79.54256
+	N40.63680, W79.69826
+	N40.51941, W79.82980
+
+line2 =
+	N39.63921, W78.32537
+	N39.68574, W78.18114
+	N39.67789, W78.09779
+	N39.63122, W78.02720
+	N39.60880, W77.95570
+	N39.61071, W77.88325
+	N39.59970, W77.85542
+	N39.57578, W77.87217
+	N39.54834, W77.85307
+	N39.51728, W77.79814
+	N39.48834, W77.77959
+	N39.46147, W77.79744
+	N39.44178, W77.79171
+	N39.42925, W77.76235
+	N39.40010, W77.74484
+	N39.35434, W77.73905
+	N39.30954, W77.66882
+
+line3 =
+	N39.32049, W78.81803
+	N39.44723, W78.70545
+	N39.53286, W78.57497
+	N39.53335, W78.49554
+	N39.55614, W78.46027
+	N39.60146, W78.44270
+	N39.62787, W78.40676
+	N39.63921, W78.32537
+
+[airport1]
+name = Altoona Blair County Airport
+code = KAOO
+runways =
+	rwy1, 03, N40.2887, W78.3231, 16.0, 5466, 0, 0, 1504
+	rwy2, 12, N40.2986, W78.3256, 108.4, 3668, 0, 0, 1473
+
+[airport2]
+name = John Murtha Johnstown Cambria County Airport
+code = ST
+runways =
+	rwy3, 05, N40.3104, W78.8393, 39.4, 4386, 0, 0, 2270
+	rwy4, 10, N40.3175, W78.8385, 87.0, 3700, 0, 0, 2268
+	rwy5, 15, N40.3237, W78.8422, 144.1, 7003, 0, 0, 2270
+inboundbeacon = JST

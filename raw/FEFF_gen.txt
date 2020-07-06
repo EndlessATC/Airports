@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1208
+center = N4.39847993851, E18.5188007355
+magneticvar = -0.349
+beacons =
+	BP, N4.37869, E18.52470, 0, Bangui M Poko
+	MPK, N4.37614, E18.52540, 0, Bangui M Poko
+	PK, N4.32433, E18.53910, 0, Bangui M Poko
+	BN, N4.49050, E18.49560, 0, Bangui M Poko
+	LIB, N3.63038, E18.63300, 0, Libenge
+
+line1 =
+	N5.12139, E19.68606
+	N5.12749, E19.50096
+	N5.07075, E19.32340
+	N4.89141, E19.06853
+	N4.52345, E18.83175
+	N4.38260, E18.69992
+	N4.34622, E18.59419
+	N4.25757, E18.56748
+	N4.11662, E18.61988
+	N3.95428, E18.63373
+	N3.67869, E18.59673
+
+[airport1]
+name = Bangui M'Poko International Airport
+code = FEFF
+runways =
+	rwy1, 17, N4.40983, E18.5159, 165.0, 8530, 0, 0, 1208

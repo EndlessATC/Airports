@@ -1,0 +1,85 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 639
+usa = true
+transition = 18001
+center = N38.1385993958, W78.4529037476
+magneticvar = -10.239
+beacons =
+	AZS, N38.01020, W78.51810, 0, Azalea Park
+	GVE, N38.01360, W78.15290, 0, Gordonsville
+	SH, N38.20180, W78.95730, 0, Staut
+	VBW, N38.36560, W78.96120, 0, Bridgewater
+	IQK, N38.02040, W77.85920, 0, Louisa
+	MSQ, N38.45433, W77.90529, 0, Nailr
+	LUA, N38.69960, W78.47170, 0, Caverns
+	MOL, N37.90050, W79.10690, 0, Montebello
+	CSN, N38.64120, W77.86550, 0, Casanova
+	LDN, N38.85440, W78.20560, 0, Linden
+	FAK, N37.52850, W77.82820, 0, Flat Rock
+	FVX, N37.35290, W78.43800, 0, Farmville
+	EZF, N38.26640, W77.45080, 0, Shannon
+	LJK, N37.77320, W77.47970, 0, Ashey
+	IA, N38.84720, W77.43780, 0, Tille
+	AML, N38.93460, W77.46670, 0, Armel
+
+line1 =
+	N37.27104, W77.00195
+	N37.29570, W77.19619
+	N37.30908, W77.22705
+	N37.32920, W77.25088
+	N37.31768, W77.00698
+
+line2 =
+	N38.16567, W77.11108
+	N38.16719, W77.07065
+
+line3 =
+	N38.35669, W77.04678
+	N38.37012, W77.10991
+	N38.34004, W77.23193
+	N38.35176, W77.27324
+	N38.39663, W77.31367
+	N38.52920, W77.28379
+	N38.60000, W77.26040
+	N38.67656, W77.16465
+	N38.71953, W77.09189
+	N38.77578, W77.04561
+	N38.88926, W77.03037
+	N38.77773, W77.01816
+	N38.70581, W77.05391
+	N38.65010, W77.13491
+	N38.54097, W77.22090
+	N38.49482, W77.24160
+	N38.40771, W77.23252
+	N38.39712, W77.15591
+	N38.44175, W77.07671
+	N38.44526, W77.00117
+	N38.39390, W76.98838
+
+line4 =
+	N39.11296, W77.48092
+	N39.05338, W77.30109
+	N38.96904, W77.19030
+	N38.93597, W77.10183
+	N38.91530, W77.05304
+	N38.88925, W77.03036
+
+line5 =
+	N38.41455, W79.57090
+	N38.63356, W79.38538
+	N38.90062, W79.25312
+	N38.99873, W79.16307
+	N39.01684, W79.07119
+	N39.12412, W78.95618
+
+[airport1]
+name = Charlottesville Albemarle Airport
+code = KCHO
+runways =
+	rwy1, 03, N38.131, W78.4568, 22.0, 6001, 0, 0, 639

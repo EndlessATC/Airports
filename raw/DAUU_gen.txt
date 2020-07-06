@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 492
+center = N31.9172000885, E5.41277980804
+magneticvar = 0.162
+beacons =
+	HME, N31.66430, E6.13618, 0, Hassi Messaoud
+	HMD, N31.64880, E6.13829, 0, Hassi Messaoud
+
+[airport1]
+name = Ain el Beida Airport
+code = DAUU
+runways =
+	rwy1, 02, N31.9057, E5.40465, 15.9, 9843, 0, 0, 492
+	rwy2, 18, N31.9301, E5.41646, 179.0, 10171, 350, 0, 0

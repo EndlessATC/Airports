@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 11
+center = N7.46187019348, E151.843002319
+magneticvar = 4.354
+beacons =
+	TKK, N7.45717, E151.84000, 0, Truk
+
+line1 =
+	N7.37925, E151.59287
+	N7.37539, E151.60781
+	N7.35723, E151.60430
+	N7.35132, E151.57510
+	N7.34551, E151.56973
+	N7.33809, E151.57832
+	N7.33301, E151.63945
+	N7.34619, E151.64775
+	N7.36284, E151.65049
+	N7.37925, E151.64326
+	N7.39043, E151.62949
+	N7.38872, E151.60566
+	N7.37925, E151.59287
+
+line2 =
+	N7.46709, E151.88184
+	N7.46616, E151.86533
+	N7.45737, E151.85996
+	N7.43179, E151.85596
+	N7.42676, E151.86426
+	N7.43203, E151.88145
+	N7.45386, E151.91260
+	N7.46016, E151.91055
+	N7.46709, E151.88184
+
+[airport1]
+name = Chuuk International Airport
+code = PTKK
+runways =
+	rwy1, 04, N7.45614, E151.837, 46.0, 6006, 0, 0, 10

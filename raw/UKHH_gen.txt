@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 508
+center = N49.9248008728, E36.2900009155
+magneticvar = 6.571
+beacons =
+	KHR, N49.92680, E36.28530, 0, Kharkiv
+	R, N49.92460, E36.26300, 0, Kharkiv
+	A, N49.92430, E36.31970, 0, Kharkiv
+	HR, N49.92460, E36.22160, 0, Kharkiv
+	HA, N49.92460, E36.35940, 0, Kharkiv
+	KW, N49.91650, E35.54330, 0, Koviahy
+	LI, N49.36820, E36.20670, 0, Lykhacheve
+	BX, N50.62170, E36.65830, 0, Belgorod
+	AN, N50.66500, E36.52670, 0, Belgorod
+	GR, N49.38820, E35.44670, 0, Krasnohrad
+
+[airport1]
+name = Kharkiv International Airport
+code = UKHH
+runways =
+	rwy1, 08, N49.9249, E36.2745, 90.4, 7285, 0, 0, 494

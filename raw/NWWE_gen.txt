@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 315
+center = S22.5888996124, E167.455993652
+magneticvar = 12.397
+beacons =
+	IP, S22.59000, E167.45100, 0, Ile Des Pins
+
+line1 =
+	S22.09014, E166.94238
+	S22.01699, E166.82012
+	S21.95303, E166.68965
+	S21.87285, E166.58750
+	S21.78281, E166.49297
+	S21.63721, E166.30332
+
+line2 =
+	S22.15508, E166.29229
+	S22.19619, E166.41641
+	S22.23154, E166.43770
+	S22.25605, E166.46797
+	S22.24922, E166.52217
+	S22.26553, E166.57061
+	S22.37617, E166.77412
+	S22.35547, E166.83496
+	S22.35332, E166.90000
+	S22.32285, E166.97031
+	S22.26152, E167.00430
+	S22.09014, E166.94238
+
+line3 =
+	S21.60576, E167.94131
+	S21.64160, E167.96680
+	S21.64316, E168.00645
+	S21.61582, E168.12070
+
+line4 =
+	S22.54141, E167.44346
+	S22.61855, E167.42207
+	S22.63916, E167.44375
+	S22.65332, E167.47344
+	S22.66113, E167.51270
+	S22.62324, E167.54443
+	S22.57920, E167.52949
+	S22.54141, E167.44346
+
+[airport1]
+name = Île des Pins Airport
+code = NWWE
+runways =
+	rwy1, 10, S22.5868, E167.451, 114.1, 3608, 0, 0, 315

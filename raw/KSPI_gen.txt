@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 598
+usa = true
+transition = 18001
+center = N39.84410095, W89.67790222
+magneticvar = -0.235
+beacons =
+	SPI, N39.83970, W89.67770, 0, Spinner
+	CJ, N39.79710, W89.59200, 0, Calde
+	LQ, N39.91200, W89.60310, 0, Licol
+	SP, N39.77310, W89.75990, 0, Huskk
+	AAA, N40.16010, W89.33780, 0, Abraham
+	TAZ, N39.53610, W89.32360, 0, Taylorville
+	IJX, N39.77640, W90.23870, 0, Jacksonville
+	DE, N39.79050, W88.95380, 0, Elwin
+	AXC, N39.73752, W88.85643, 0, Decatur
+	LTD, N39.16620, W89.66900, 0, Litchfield
+	PI, N40.60570, W89.59310, 0, Tungg
+	SYZ, N39.40670, W88.84370, 0, Shelbyville
+	CTK, N40.56590, W90.07710, 0, Canton
+	VLA, N39.09370, W89.16250, 0, Vandalia
+	BMI, N40.48080, W88.93120, 0, Bloomington
+	LH, N40.56040, W88.87460, 0, Egrow
+	JZY, N40.51840, W90.56040, 0, Macomb
+
+line1 =
+	N38.84667, W90.13421
+	N38.85990, W90.14992
+	N38.89768, W90.22007
+	N38.93021, W90.35435
+	N38.94811, W90.47796
+	N38.90961, W90.57708
+	N38.98749, W90.66353
+	N39.18179, W90.73722
+	N39.38690, W90.91938
+
+line2 =
+	N38.85951, W90.31639
+	N38.84497, W90.25642
+
+[airport1]
+name = Abraham Lincoln Capital Airport
+code = KSPI
+runways =
+	rwy1, 04, N39.8369, W89.6864, 41.5, 7999, 0, 0, 587
+	rwy2, 13, N39.8495, W89.6876, 127.0, 7000, 600, 0, 589
+	rwy3, 18, N39.8503, W89.6795, 180.0, 5300, 0, 0, 590

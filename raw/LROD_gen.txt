@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 465
+center = N47.0252990723, E21.9025001526
+magneticvar = 4.108
+beacons =
+	ORA, N47.10030, E21.92410, 0, Oradea
+	DC, N47.45670, E21.56300, 0, Debrecen
+	C, N47.47530, E21.59310, 0, Debrecen
+	BKS, N46.79510, E21.07810, 0, Bekes
+	BKS, N46.80000, E21.07390, 0, Bekes
+	SAT, N47.72360, E22.89250, 0, Satu Mare
+	SAT, N47.72740, E22.89390, 0, Satu Mare
+
+line1 =
+	N48.00580, E21.18163
+	N47.94421, E21.10350
+	N47.83465, E21.05709
+	N47.68996, E20.87121
+	N47.51012, E20.54575
+	N47.38222, E20.40003
+	N47.30626, E20.43403
+	N47.26957, E20.42628
+	N47.27215, E20.37677
+	N47.24151, E20.30598
+	N47.17774, E20.21378
+
+line2 =
+	N47.03754, E20.21797
+	N47.00990, E20.19208
+
+line3 =
+	N46.36001, E20.20748
+	N46.28265, E20.21709
+
+[airport1]
+name = Oradea International Airport
+code = LROD
+runways =
+	rwy1, 01, N47.0174, E21.9001, 11.0, 5906, 0, 0, 465

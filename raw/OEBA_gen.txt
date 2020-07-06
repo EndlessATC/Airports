@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5486
+center = N20.2961006165, E41.6343002319
+magneticvar = 2.283
+beacons =
+	BHA, N20.29250, E41.62910, 0, Al Baha
+
+line1 =
+	N19.99346, E40.48223
+	N19.82236, E40.61592
+	N19.75547, E40.75918
+	N19.71689, E40.77705
+	N19.64639, E40.79160
+	N19.55527, E40.84785
+	N19.49014, E40.91328
+
+[airport1]
+name = Al Baha Airport
+code = OEBA
+runways =
+	rwy1, 07, N20.2912, E41.6191, 70.8, 10991, 787, 787, 5482

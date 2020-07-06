@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4848
+center = N21.483001, E40.543442
+magneticvar = 2.396
+beacons =
+	TIF, N21.48650, E40.54720, 0, Taif
+
+line1 =
+	N20.73701, E39.49121
+	N20.51768, E39.61367
+
+[airport1]
+name = Ta’if Regional Airport
+code = OETF
+runways =
+	rwy1, 07, N21.4773, E40.5206, 74.7, 12254, 0, 0, 4848
+	rwy2, 17, N21.5064, E40.5409, 172.2, 10991, 0, 0, 4753

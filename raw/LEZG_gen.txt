@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 863
+center = N41.6661987305, W1.04155004025
+magneticvar = -1.333
+beacons =
+	ZAR, N41.65790, W1.03086, 0, Zaragoza
+	ZZA, N41.67720, W1.05853, 0, Zaragoza
+	ZRZ, N41.73050, W1.19331, 0, Zaragoza
+	ZZA, N41.59890, W0.87796, 0, Zaragoza
+	TON, N41.92790, W0.51384, 0, Torralba De Aragon
+	CCH, N40.90240, W1.29831, 0, Calamocha
+	CMA, N40.86730, W1.29805, 0, Calamocha
+
+line1 =
+	N41.84995, W2.54193
+	N41.79678, W2.44401
+	N41.74252, W2.44527
+	N41.68787, W2.42370
+	N41.60532, W2.35709
+	N41.52145, W2.49832
+
+line2 =
+	N42.50686, W2.56315
+	N42.52733, W2.52219
+	N42.51379, W2.39543
+	N42.46625, W2.18294
+	N42.39085, W1.99442
+	N42.23592, W1.74761
+	N41.97826, W1.40521
+	N41.80210, W1.11019
+	N41.62152, W0.74840
+	N41.47892, W0.52642
+	N41.37432, W0.44423
+	N41.30942, W0.30109
+	N41.28420, W0.09707
+	N41.30606, E0.04034
+	N41.37499, E0.11114
+	N41.41065, E0.16710
+	N41.41313, E0.20813
+	N41.39889, E0.26275
+	N41.36797, E0.33086
+	N41.32843, E0.36221
+	N41.28027, E0.35675
+	N41.25573, E0.36430
+	N41.25430, E0.39502
+
+line3 =
+	N40.74485, W2.06010
+	N40.79741, W2.14428
+	N40.81120, W2.24239
+	N40.72439, W2.57681
+
+[airport1]
+name = Zaragoza Air Base
+code = LEZG
+runways =
+	rwy1, 12L, N41.6691, W1.03983, 120.0, 9843, 0, 0, 823
+	rwy2, 12R, N41.6802, W1.08237, 120.0, 12198, 0, 0, 834

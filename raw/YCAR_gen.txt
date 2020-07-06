@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+usa = true
+center = S24.880211, E113.67174
+magneticvar = -0.105
+beacons =
+	CAR, S24.88190, E113.67300, 0, Carnarvon
+	CAR, S24.88670, E113.66900, 0, Carnarvon
+
+line1 =
+	S25.71328, E113.39531
+	S25.64717, E113.39736
+	S25.59912, E113.45137
+	S25.62520, E113.53945
+	S25.73164, E113.62119
+	S25.83076, E113.71309
+
+line2 =
+	S25.85156, E114.21426
+	S25.54482, E113.99277
+	S25.16572, E113.79238
+	S24.97705, E113.67080
+	S24.69297, E113.56924
+	S24.59463, E113.50352
+	S24.43564, E113.41768
+	S24.25400, E113.41299
+	S24.13232, E113.42129
+
+line3 =
+	S25.81504, E113.09629
+	S25.52021, E112.98242
+	S25.53154, E112.94707
+	S25.56982, E112.90820
+	S25.78311, E112.96426
+
+[airport1]
+name = Carnarvon Airport
+code = YCAR
+runways =
+	rwy1, 04, S24.8867, E113.664, 43.0, 5509, 0, 122, 7
+	rwy2, 18, S24.8787, E113.666, 180.0, 3740, 0, 0, 9

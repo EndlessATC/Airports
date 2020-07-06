@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 265
+center = N41.432899, E15.535
+magneticvar = 2.256
+beacons =
+	FOG, N41.43080, E15.53140, 0, Foggia
+	FOG, N41.42950, E15.53140, 0, Foggia
+	MNL, N41.53790, E15.71000, 0, Amendola
+	ORT, N41.39970, E15.78420, 0, Ortanova
+	AME, N41.50000, E15.83780, 0, Amendola
+	VIE, N41.91290, E16.04910, 0, Vieste
+	VIE, N41.91330, E16.05110, 0, Vieste
+
+line1 =
+	N40.87031, E14.04766
+	N40.81226, E14.04434
+	N40.79395, E14.07588
+	N40.82715, E14.10234
+	N40.82070, E14.14717
+	N40.81265, E14.30889
+	N40.75933, E14.42813
+	N40.72871, E14.46055
+	N40.59883, E14.33994
+	N40.59985, E14.38271
+	N40.63271, E14.45938
+	N40.62642, E14.55693
+	N40.64478, E14.61123
+	N40.66841, E14.76572
+	N40.62998, E14.83955
+	N40.55605, E14.90693
+	N40.46934, E14.94766
+
+line2 =
+	N40.45806, E16.92822
+	N40.51348, E17.03125
+
+line3 =
+	N41.23203, E16.55186
+	N41.43540, E16.01260
+	N41.51206, E15.90049
+	N41.62085, E15.91377
+	N41.70078, E16.03369
+	N41.75850, E16.15127
+	N41.81401, E16.18916
+	N41.89619, E16.16465
+	N41.92812, E16.06152
+	N41.93945, E15.96406
+	N41.91323, E15.40498
+	N41.93403, E15.16875
+	N42.05254, E14.86611
+	N42.24429, E14.54072
+
+[airport1]
+name = Foggia "Gino Lisa" Airport
+code = LIBF
+runways =
+	rwy1, 15, N41.4389, E15.5316, 156.0, 4724, 0, 384, 260

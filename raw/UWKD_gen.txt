@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 411
+center = N55.6062011719, E49.2787017822
+magneticvar = 11.327
+beacons =
+	KZN, N55.60500, E49.27170, 0, Kazan
+	AM, N55.63170, E49.20830, 0, Kazan
+	PS, N55.63500, E49.20670, 0, Kazan
+	DJ, N55.57830, E49.35830, 0, Kazan
+	BL, N55.57670, E49.35670, 0, Kazan
+	RD, N54.88330, E49.91670, 0, Bazarnye Mataki
+	YK, N54.98330, E48.26670, 0, Buinsk
+
+line1 =
+	N55.50265, E51.21306
+	N55.48273, E51.13452
+	N55.46760, E51.07935
+	N55.46638, E50.98022
+	N55.45631, E50.83445
+	N55.42011, E50.68838
+	N55.40119, E50.41187
+	N55.38112, E50.07803
+	N55.33466, E49.82217
+	N55.26061, E49.53223
+	N55.17182, E49.38232
+	N55.11302, E49.24808
+
+line2 =
+	N55.48266, E49.05895
+	N55.23441, E49.28509
+	N55.11302, E49.24808
+	N55.03576, E49.02350
+	N54.90993, E48.90020
+	N54.73557, E48.87829
+	N54.61698, E48.78196
+
+line3 =
+	N56.14541, E47.82895
+	N56.12177, E47.88610
+	N56.07335, E47.92739
+	N55.99227, E47.97194
+	N55.92532, E48.06692
+	N55.87246, E48.21233
+	N55.82527, E48.45971
+	N55.78383, E48.80904
+	N55.69298, E49.00252
+	N55.48266, E49.05895
+
+[airport1]
+name = Kazan International Airport
+code = UWKD
+runways =
+	rwy1, 11L, N55.6187, E49.2524, 126.4, 12218, 837, 0, 349
+	rwy2, 11R, N55.6106, E49.2668, 124.4, 8196, 0, 0, 371

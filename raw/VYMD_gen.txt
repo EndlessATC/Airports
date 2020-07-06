@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 300
+center = N21.7021999359, E95.977897644
+magneticvar = -0.434
+beacons =
+	MIA, N21.71090, E95.97470, 0, Mandalay
+	MIA, N21.68930, E95.98310, 0, Mandalay
+	MDY, N21.93430, E96.12980, 0, Mandalay
+	MKT, N20.93430, E95.91310, 0, Meiktila
+
+line1 =
+	N22.66275, E95.92348
+	N22.57376, E95.96802
+	N22.49511, E95.98363
+	N22.42669, E95.97040
+	N22.37734, E95.97603
+	N22.34701, E96.00048
+	N22.22975, E96.01991
+	N22.02556, E96.03417
+	N21.90667, E96.00936
+	N21.87303, E95.94565
+	N21.87505, E95.87945
+	N21.91272, E95.81082
+	N21.92802, E95.71037
+	N21.92099, E95.57807
+	N21.87138, E95.48071
+	N21.77919, E95.41829
+	N21.66581, E95.37287
+	N21.53119, E95.34439
+	N21.45755, E95.31494
+	N21.43843, E95.26915
+	N21.34503, E95.17350
+	N21.28650, E95.06105
+	N21.23173, E94.89992
+	N21.14636, E94.81962
+	N21.03034, E94.82014
+	N20.93273, E94.79357
+	N20.85351, E94.73993
+
+[airport1]
+name = Mandalay International Airport
+code = VYMD
+runways =
+	rwy1, 17, N21.72, E95.9744, 170.5, 14003, 0, 0, 300

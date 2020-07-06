@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 922
+center = N1.4001, E99.430496
+magneticvar = -0.309
+beacons =
+	AG, N1.39834, E99.42900, 0, Aek Godang
+	SIX, N1.55227, E98.89140, 0, Pinang Sore
+	SK, N1.55500, E98.89030, 0, Pinang Sore
+
+line1 =
+	N0.45894, E99.11172
+	N0.68638, E99.05957
+	N1.03193, E98.93555
+	N1.49463, E98.79639
+	N1.70195, E98.70254
+	N1.86460, E98.59531
+	N1.90215, E98.56426
+
+line2 =
+	N2.33164, E100.40117
+	N2.25742, E100.45703
+	N2.18916, E100.52383
+
+[airport1]
+name = Aek Godang Airport
+code = WIME
+runways =
+	rwy1, 11, N1.40255, E99.4247, 113.0, 4580, 0, 0, 0

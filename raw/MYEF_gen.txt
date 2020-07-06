@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = N23.5625991821, W75.8779983521
+magneticvar = -8.167
+beacons =
+	ZEF, N23.55530, W75.86500, 0, Great Exuma
+	ZLS, N23.58060, W75.26390, 0, Stella Maris
+
+line1 =
+	N23.64741, W75.94863
+	N23.67139, W76.01045
+	N23.60278, W76.03711
+	N23.59229, W75.95596
+	N23.47065, W75.78101
+	N23.44424, W75.70635
+	N23.45015, W75.66455
+	N23.48999, W75.75425
+	N23.54253, W75.80752
+	N23.64741, W75.94863
+
+line2 =
+	N23.26792, W75.13057
+	N23.20464, W75.14111
+	N23.19272, W75.20439
+	N23.16533, W75.22334
+	N23.11709, W75.13213
+	N23.06855, W74.97334
+	N22.86870, W74.84687
+	N22.89434, W74.84048
+	N22.99990, W74.84561
+	N23.08813, W74.93711
+	N23.15020, W75.06421
+	N23.33281, W75.10879
+	N23.43867, W75.17529
+	N23.54678, W75.21660
+	N23.66836, W75.31597
+	N23.58984, W75.30981
+	N23.56826, W75.28823
+	N23.47461, W75.24126
+	N23.33638, W75.15757
+	N23.26792, W75.13057
+
+line3 =
+	N24.52939, W75.63906
+	N24.49126, W75.59277
+	N24.33042, W75.49390
+	N24.26577, W75.40894
+	N24.22095, W75.41240
+	N24.17388, W75.48105
+	N24.13906, W75.50322
+	N24.13960, W75.46763
+	N24.15947, W75.36875
+	N24.14917, W75.30176
+	N24.20000, W75.30840
+	N24.42734, W75.51816
+	N24.44951, W75.52646
+
+[airport1]
+name = Exuma International Airport
+code = MYEF
+runways =
+	rwy1, 12, N23.5669, W75.8869, 118.0, 7051, 0, 0, 9

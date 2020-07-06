@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5350
+usa = true
+transition = 18001
+center = N42.908001, W106.463997
+magneticvar = 10.408
+beacons =
+	CP, N42.90720, W106.57000, 0, Johno
+	DDY, N43.09090, W106.27700, 0, Muddy Mountain
+
+[airport1]
+name = Casper-Natrona County International Airport
+code = KCPR
+runways =
+	rwy1, 03, N42.8934, W106.475, 43.9, 10164, 0, 0, 5321
+	rwy2, 08, N42.9085, W106.482, 88.9, 8679, 0, 0, 5341
+	rwy3, 12, N42.92, W106.47, 133.9, 6484, 0, 0, 5348
+	rwy4, 17, N42.9201, W106.47, 178.9, 7696, 0, 0, 5348

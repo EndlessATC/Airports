@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1057
+usa = true
+transition = 18001
+center = N39.1409988403, W96.6707992554
+magneticvar = 5.098
+beacons =
+	MHK, N39.14540, W96.66870, 0, Manhattan
+	MQD, N39.11740, W96.62930, 0, Mc Dowell Creek
+	CVY, N39.02600, W96.79450, 0, Cavalry
+	FRI, N38.97020, W96.86100, 0, Fort Riley
+	CYW, N39.38070, W97.16120, 0, Clay Center
+	HRU, N38.69280, W96.81110, 0, Herington
+	DBX, N39.76170, W97.04230, 0, Morrison
+	MYZ, N39.85280, W96.63340, 0, Marysville
+	TO, N39.12040, W95.68710, 0, Biloy
+	SLN, N38.92510, W97.62140, 0, Salina
+	FOE, N38.94740, W95.66120, 0, Forbes
+	CNK, N39.55330, W97.65120, 0, Concordia
+	SL, N38.68150, W97.64510, 0, Flory
+	RPB, N39.81320, W97.65820, 0, Republican
+	MPR, N38.34830, W97.68730, 0, Mc Pherson
+
+line1 =
+	N40.09598, W95.43430
+	N40.01032, W95.36247
+
+[airport1]
+name = Manhattan Regional Airport
+code = KMHK
+runways =
+	rwy1, 03, N39.1324, W96.6793, 40.0, 7000, 0, 0, 1054
+	rwy2, 13, N39.1473, W96.6739, 142.0, 3800, 0, 0, 1057

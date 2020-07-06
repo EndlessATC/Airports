@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 188
+center = S3.38294005394, W64.7240982056
+magneticvar = -11.034
+beacons =
+	TFE, S3.37933, W64.72130, 0, Tefe
+	TFE, S3.38783, W64.72800, 0, Tefe
+
+line1 =
+	S3.85387, W63.57322
+	S3.87186, W63.65381
+	S3.86839, W63.74745
+	S3.84343, W63.85421
+	S3.76458, W64.03549
+	S3.63187, W64.29129
+	S3.52366, W64.45831
+	S3.39819, W64.57561
+	S3.22239, W64.79028
+	S3.12844, W64.90505
+	S2.97052, W65.06974
+	S2.83450, W65.17950
+	S2.74676, W65.28779
+	S2.70728, W65.39463
+	S2.66345, W65.45869
+	S2.61550, W65.47998
+	S2.59431, W65.55819
+	S2.60299, W65.76097
+
+line2 =
+	S2.47205, W65.06556
+	S2.60568, W65.00908
+	S2.66656, W65.01094
+	S2.70893, W64.97931
+	S2.73280, W64.91412
+	S2.77725, W64.88882
+	S2.84220, W64.90345
+	S2.92695, W64.87456
+	S3.03149, W64.80227
+	S3.10916, W64.77372
+	S3.22239, W64.79028
+
+[airport1]
+name = Tefé Airport
+code = SBTF

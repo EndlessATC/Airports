@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 777
+center = N28.5665, E77.103104
+magneticvar = 0.321
+beacons =
+	DPN, N28.56670, E77.09490, 0, Delhi
+	LM, N28.55620, E77.13380, 0, Delhi
+	PL, N28.54230, E77.19730, 0, Delhi
+	DH, N28.56450, E77.20230, 0, Delhi
+	DP, N28.58340, E76.99870, 0, Delhi
+	SAM, N28.82250, E76.82380, 0, Sampla
+	CHI, N28.34760, E76.66600, 0, Chillerki
+	SSB, N28.39340, E77.70810, 0, Sikandrabad
+	SKA, N27.84840, E77.00820, 0, Sakaras
+
+line1 =
+	N29.49184, E78.02219
+	N29.33154, E78.08555
+	N29.18088, E78.10601
+	N29.03983, E78.08359
+	N28.88211, E78.09831
+	N28.62050, E78.17603
+	N28.52172, E78.24249
+	N28.44333, E78.27102
+	N28.35238, E78.28373
+	N28.25342, E78.33685
+	N28.14642, E78.43039
+
+line2 =
+	N29.53763, E77.07367
+	N29.50177, E77.10478
+	N29.46911, E77.10664
+	N29.45040, E77.09434
+	N29.42748, E77.09274
+	N29.40128, E77.12054
+	N29.34033, E77.14462
+	N29.19106, E77.13749
+	N29.06593, E77.15563
+	N28.96495, E77.19904
+	N28.85803, E77.22126
+	N28.74517, E77.22219
+	N28.64652, E77.24886
+	N28.51976, E77.32740
+	N28.42493, E77.45463
+	N28.37382, E77.48936
+	N28.33478, E77.47406
+	N28.28168, E77.48445
+	N28.21461, E77.52052
+	N28.14748, E77.52088
+	N28.08041, E77.48564
+	N27.98452, E77.49587
+	N27.85980, E77.55168
+	N27.79743, E77.60718
+	N27.79732, E77.66227
+	N27.74921, E77.68123
+	N27.65309, E77.66397
+	N27.60077, E77.66795
+	N27.59224, E77.69307
+	N27.56971, E77.70040
+
+[airport1]
+name = Indira Gandhi International Airport
+code = VIDP
+runways =
+	rwy1, 09, N28.5705, E77.088, 91.5, 9229, 0, 499, 717
+	rwy2, 10, N28.5672, E77.0848, 104.6, 12500, 0, 0, 719
+	rwy3, 11, N28.5472, E77.0655, 113.0, 14534, 2100, 4790, 720

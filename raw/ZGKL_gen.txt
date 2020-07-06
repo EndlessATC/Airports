@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 570
+metric = true
+center = N25.2180995941, E110.039001465
+magneticvar = -2.121
+beacons =
+	KWL, N25.21000, E110.03800, 0, Guilin
+	PA, N25.40500, E110.06000, 0, Wutong
+	JW, N25.00670, E110.01800, 0, Yongfu
+	Y, N25.16830, E110.32200, 0, Qifengling
+	VQ, N25.55830, E110.47800, 0, Darongjiang
+	RO, N25.76830, E109.60700, 0, Sanjiang
+	QP, N24.65670, E110.79300, 0, Ertang
+
+[airport1]
+name = Guilin Liangjiang International Airport
+code = ZGKL
+runways =
+	rwy1, 01, N25.2055, E110.038, 5.0, 9186, 0, 0, 571

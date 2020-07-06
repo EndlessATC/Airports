@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 24
+center = N20.9330997467, W17.0300006866
+magneticvar = -7.314
+beacons =
+	PE, N20.91440, W17.03500, 0, Nouadhibou
+
+line1 =
+	N21.90000, W16.93086
+	N21.37710, W17.00962
+	N20.85688, W17.09878
+	N20.80615, W17.04805
+	N21.03970, W16.99824
+	N21.07646, W16.97114
+	N21.11479, W16.92793
+	N21.08613, W16.87607
+	N20.80615, W16.72837
+	N20.63418, W16.62251
+	N20.60415, W16.56270
+	N20.65400, W16.53491
+	N20.70952, W16.53042
+	N20.68979, W16.47920
+	N20.65234, W16.42979
+	N20.41587, W16.33374
+	N20.22793, W16.21045
+	N20.14126, W16.24116
+	N20.00098, W16.23320
+
+[airport1]
+name = Nouadhibou International Airport
+code = GQPP
+runways =
+	rwy1, 02, N20.9223, W17.0328, 14.0, 7961, 0, 0, 4

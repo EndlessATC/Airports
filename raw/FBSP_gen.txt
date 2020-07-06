@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2925
+center = S22.0583, E27.8288
+magneticvar = -12.253
+beacons =
+	SP, S22.05300, E27.80430, 0, Selebi Phikwe
+
+line1 =
+	S23.03358, E27.93135
+	S22.98702, E27.93507
+	S22.87369, E28.02798
+	S22.69365, E28.21020
+	S22.59340, E28.38176
+	S22.57294, E28.54289
+	S22.53542, E28.69554
+	S22.48085, E28.83982
+	S22.39517, E28.94581
+	S22.27843, E29.01351
+
+[airport1]
+name = Selebi Phikwe Airport
+code = FBSP
+runways =
+	rwy1, 12, S22.0567, E27.8203, 102.0, 5840, 0, 0, 2938

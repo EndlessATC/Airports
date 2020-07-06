@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1027
+center = N67.1324005127, E20.8145999908
+magneticvar = 6.472
+beacons =
+	OG, N67.10390, E20.95200, 0, Gallivare
+	NAT, N66.74650, E21.32240, 0, Natta
+	KRA, N67.81920, E20.33750, 0, Kiruna
+	OP, N67.88750, E20.45270, 0, Kiruna
+
+line1 =
+	N67.47803, E18.18398
+	N67.58599, E17.83828
+
+line2 =
+	N67.56094, E18.11602
+	N67.53291, E18.20312
+	N67.46196, E18.39580
+	N67.41909, E18.42793
+	N67.47803, E18.18398
+	N67.47803, E18.18398
+	N67.47803, E18.18398
+
+[airport1]
+name = Gällivare Airport
+code = ESNG
+runways =
+	rwy1, 12, N67.136, E20.7972, 117.9, 5623, 0, 0, 1027

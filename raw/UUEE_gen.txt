@@ -1,0 +1,91 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 622
+center = N55.972599, E37.4146
+magneticvar = 9.345
+beacons =
+	M, N55.96670, E37.37330, 0, Sheremetyevo
+	N, N55.96500, E37.37330, 0, Sheremetyevo
+	A, N55.98000, E37.46170, 0, Sheremetyevo
+	B, N55.97830, E37.46500, 0, Sheremetyevo
+	MR, N55.96170, E37.34830, 0, Sheremetyevo
+	NL, N55.95830, E37.32830, 0, Sheremetyevo
+	AD, N55.98670, E37.50170, 0, Sheremetyevo
+	MR, N55.96000, E37.32500, 0, Sheremetyevo
+	BW, N55.98500, E37.51000, 0, Sheremetyevo
+	KS, N55.83330, E37.26670, 0, Opalikha
+	BP, N55.90000, E37.68330, 0, Chelobityevo
+	UM, N55.86670, E36.91670, 0, Ivanovskoye
+	TQ, N55.63830, E37.29670, 0, Vnukovo
+	AR, N55.98330, E36.80000, 0, Buzharovo
+	T, N55.62000, E37.28330, 0, Vnukovo
+	OB, N55.61170, E37.35170, 0, Vnukovo
+	KN, N56.30000, E37.71670, 0, Kostino
+	O, N55.60170, E37.30670, 0, Vnukovo
+	SW, N56.36670, E37.43330, 0, Savelovo
+	G, N55.58330, E37.22830, 0, Vnukovo
+	W, N55.57830, E37.25170, 0, Vnukovo
+	GG, N55.57500, E37.18670, 0, Vnukovo
+	WM, N55.55500, E37.23330, 0, Vnukovo
+	WT, N55.58330, E37.78330, 0, Kartino
+	RW, N55.70000, E38.21670, 0, Maryino
+	DM, N55.45170, E37.83830, 0, Domodedovo
+	DW, N55.45330, E37.87500, 0, Domodedovo
+	M, N55.43000, E37.86500, 0, Domodedovo
+	W, N55.43170, E37.90000, 0, Domodedovo
+	LO, N55.35000, E37.53330, 0, Klimovsk
+	O, N55.38670, E37.91500, 0, Domodedovo
+	E, N55.38830, E37.95170, 0, Domodedovo
+	DO, N55.36500, E37.94170, 0, Domodedovo
+	DE, N55.36670, E37.97830, 0, Domodedovo
+	DR, N55.21670, E37.36670, 0, Skurygino
+	WZ, N55.21670, E37.00000, 0, Kamenka
+	DK, N55.16170, E37.80170, 0, Glotayevo
+	QO, N55.15000, E38.29000, 0, Aksinyino
+
+line1 =
+	N56.75344, E37.15115
+	N56.78294, E36.88181
+	N56.74992, E36.73608
+	N56.66429, E36.62415
+	N56.64269, E36.51982
+	N56.70636, E36.37456
+
+line2 =
+	N56.75240, E37.14825
+	N56.86165, E37.39196
+	N56.93477, E37.47743
+
+line3 =
+	N56.70326, E35.33390
+	N56.74227, E35.42180
+	N56.76005, E35.52339
+	N56.79111, E35.60680
+	N56.83545, E35.67201
+	N56.86066, E35.77252
+	N56.86676, E35.90833
+	N56.84622, E36.06574
+	N56.79901, E36.24485
+	N56.75814, E36.34438
+	N56.70636, E36.37456
+
+[airport1]
+name = Sheremetyevo International Airport
+code = UUEE
+runways =
+	rwy1, 06C, N55.9698, E37.3867, 75.0, 11647, 0, 0, 620
+	rwy2, 06L, N55.981, E37.3289, 75.0, 10498, 0, 0, 597
+	rwy3, 06R, N55.9671, E37.3863, 75.1, 12139, 0, 0, 617
+
+[airport2]
+name = Vnukovo International Airport
+code = WW
+runways =
+	rwy4, 01, N55.5865, E37.2576, 14.4, 10039, 0, 0, 633
+	rwy5, 06, N55.588, E37.246, 68.3, 11483, 0, 0, 637
+inboundbeacon = W

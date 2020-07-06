@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 380
+center = N24.7443008423, E84.9512023926
+magneticvar = -0.151
+beacons =
+	GGC, N24.74190, E84.94390, 0, Gaya
+
+line1 =
+	N25.60702, E83.66965
+	N25.59032, E83.71275
+	N25.54162, E83.75223
+	N25.51893, E83.80339
+	N25.52232, E83.86623
+	N25.57704, E83.95909
+	N25.68319, E84.08198
+	N25.72210, E84.17102
+	N25.69383, E84.22621
+	N25.70104, E84.28352
+	N25.74375, E84.34289
+
+line2 =
+	N25.71125, E84.53999
+	N25.70833, E84.63414
+	N25.73833, E84.71093
+
+line3 =
+	N25.73440, E84.98141
+	N25.68257, E85.11897
+	N25.59156, E85.23917
+	N25.54397, E85.33849
+	N25.53480, E85.41244
+	N25.53777, E85.45611
+	N25.54490, E85.50081
+	N25.54363, E85.55512
+	N25.49374, E85.61775
+	N25.47379, E85.69661
+	N25.49457, E85.78601
+	N25.46222, E85.88006
+	N25.37669, E85.97897
+	N25.32362, E86.09783
+
+[airport1]
+name = Gaya Airport
+code = VEGY
+runways =
+	rwy1, 10, N24.7468, E84.9402, 103.7, 7500, 0, 245, 355

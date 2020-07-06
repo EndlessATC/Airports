@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 12
+usa = true
+center = S31.4358005524, E152.863006592
+magneticvar = 12.204
+beacons =
+	PMQ, S31.43560, E152.86700, 0, Port Macquarie
+	KMP, S31.05830, E152.78999, 0, Kempsey
+	TRE, S31.88950, E152.50900, 0, Taree
+
+line1 =
+	S30.56338, E153.03057
+	S30.72012, E153.02373
+	S30.90713, E153.04785
+	S31.08662, E153.02158
+	S31.20879, E152.98223
+	S31.43486, E152.94395
+	S31.78633, E152.78584
+	S32.04570, E152.55928
+	S32.24307, E152.54531
+	S32.33018, E152.51660
+
+[airport1]
+name = Port Macquarie Airport
+code = YPMQ
+runways =
+	rwy1, 03, S31.4413, E152.858, 30.0, 5203, 0, 0, 11
+	rwy2, 10, S31.4326, E152.866, 114.0, 2283, 0, 0, 12

@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 39
+center = N16.316799, W86.523003
+magneticvar = 0.279
+beacons =
+	ROA, N16.31660, W86.52180, 0, Roatan
+	ROA, N16.31580, W86.52940, 0, Roatan
+	CTL, N16.00720, W85.97390, 0, Punta Castilla
+	BTO, N15.73680, W86.86400, 0, Bonito
+	LCE, N15.73820, W86.89050, 0, La Ceiba
+
+line1 =
+	N16.43921, W86.33784
+	N16.42822, W86.25552
+	N16.37837, W86.41992
+	N16.30024, W86.58027
+	N16.30176, W86.63042
+	N16.36211, W86.55693
+	N16.41387, W86.43828
+	N16.43921, W86.33784
+
+line2 =
+	N15.89951, W85.48369
+	N16.00283, W85.78398
+	N16.02417, W85.98564
+	N16.00225, W85.95391
+	N15.95342, W85.93628
+	N15.90566, W86.06855
+	N15.88516, W86.18120
+	N15.78320, W86.35664
+	N15.80107, W86.48081
+	N15.79424, W86.75703
+	N15.76235, W86.90723
+	N15.83442, W87.28589
+	N15.82646, W87.37749
+	N15.79019, W87.48691
+	N15.83237, W87.54497
+	N15.90986, W87.61816
+	N15.91064, W87.70186
+
+line3 =
+	N16.42969, W85.96099
+	N16.40361, W85.94722
+	N16.46152, W85.87095
+	N16.48774, W85.84443
+	N16.51089, W85.83379
+	N16.51396, W85.87822
+	N16.48330, W85.92422
+	N16.42969, W85.96099
+
+[airport1]
+name = Juan Manuel Galvez International Airport
+code = MHRO
+runways =
+	rwy1, 07, N16.3126, W86.5325, 66.0, 7349, 200, 0, 9

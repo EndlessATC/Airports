@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 35
+center = N36.635799408, E53.1935997009
+magneticvar = 4.131
+beacons =
+	DNZ, N36.64460, E53.19040, 0, Dasht-E-Naz
+	DNZ, N36.67010, E53.17770, 0, Dasht-E-Naz
+
+line1 =
+	N37.41357, E53.89785
+	N37.34355, E53.91416
+	N37.18174, E53.95195
+	N36.95249, E54.01719
+	N36.90132, E54.02383
+	N36.84966, E54.01621
+	N36.81831, E53.97012
+	N36.81270, E53.90625
+	N36.81846, E53.76875
+	N36.85312, E53.67949
+	N36.88120, E53.82744
+	N36.93032, E53.91543
+	N36.93032, E53.76768
+	N36.86875, E53.37412
+	N36.62173, E52.19014
+	N36.61450, E51.76201
+
+[airport1]
+name = Dasht-e Naz Airport
+code = OINZ
+runways =
+	rwy1, 16, N36.6559, E53.1838, 161.0, 8688, 0, 1687, 4

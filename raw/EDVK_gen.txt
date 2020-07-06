@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 820
+center = N51.417273, E9.384967
+magneticvar = 0.356
+beacons =
+	KSL, N51.46480, E9.45740, 0, Kassel
+	WRB, N51.50570, E9.11091, 0, Warburg
+	LAU, N51.20430, E9.69099, 0, Lichtenau
+	FTZ, N51.08430, E9.41524, 0, Fritzlar
+	PAD, N51.62360, E8.63944, 0, Paderborn/Lippstadt
+	FUL, N50.59250, E9.57217, 0, Fulda
+	GIN, N50.63560, E8.81932, 0, Giessen
+	DLE, N52.25030, E9.88350, 0, Leine
+	OSN, N52.20010, E8.28552, 0, Osnabruck
+	OSB, N52.20170, E8.28550, 0, Osnabruck
+	SIL, N50.68000, E8.13850, 0, Siegerland
+	SLD, N50.70680, E8.07851, 0, Siegerland
+
+[airport1]
+name = Kassel-Calden Airport
+code = EDVK
+runways =
+	rwy1, 04, N51.4023, E9.36913, 41.0, 4921, 0, 0, 898
+	rwy2, 04L, N51.4062, E9.37097, 41.0, 2297, 0, 0, 0
+	rwy3, 09, N51.4218, E9.37423, 93.0, 8202, 0, 0, 861

@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 490
+metric = true
+center = N23.7206001282, E106.959999084
+magneticvar = -1.336
+beacons =
+	BSE, N23.89500, E106.64800, 0, Bose
+	OX, N23.89830, E106.65000, 0, Bose
+
+line1 =
+	N24.60261, E107.36242
+	N24.41652, E107.46732
+	N24.31836, E107.54194
+	N24.30813, E107.58628
+	N24.28064, E107.60845
+	N24.23596, E107.60845
+	N24.18886, E107.57775
+	N24.13935, E107.51626
+	N24.08657, E107.49435
+	N24.03055, E107.51192
+	N23.98626, E107.54747
+	N23.95371, E107.60111
+	N23.94541, E107.64318
+	N23.96143, E107.67377
+	N23.90490, E107.73299
+	N23.77581, E107.82094
+	N23.72201, E107.90166
+	N23.74351, E107.97515
+	N23.78155, E108.03922
+	N23.83612, E108.09369
+	N23.85658, E108.13142
+	N23.84302, E108.15229
+	N23.88921, E108.22278
+
+line2 =
+	N24.70694, E105.94220
+	N24.66353, E105.99439
+	N24.68883, E106.06508
+
+[airport1]
+name = Baise Youjiang Airport
+code = CN-0082

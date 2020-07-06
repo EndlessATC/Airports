@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 772
+center = N19.1539001465, E30.4300994873
+magneticvar = 2.320
+beacons =
+	DOG, N19.18260, E30.42730, 0, Dongola
+
+line1 =
+	N18.25697, E30.74399
+	N18.39733, E30.71650
+	N18.49903, E30.67382
+	N18.56197, E30.61584
+	N18.66020, E30.56153
+	N18.79374, E30.51078
+	N18.98799, E30.48623
+	N19.24306, E30.48789
+	N19.47111, E30.45791
+	N19.67218, E30.39642
+	N19.78639, E30.34996
+	N19.82176, E30.34774
+	N19.85693, E30.36981
+	N19.91413, E30.49977
+	N19.96728, E30.57501
+	N20.01583, E30.59434
+	N20.09813, E30.59966
+
+[airport1]
+name = Dongola Airport
+code = HSDN
+runways =
+	rwy1, 17, N19.1674, E30.4288, 173.0, 9843, 0, 0, 771

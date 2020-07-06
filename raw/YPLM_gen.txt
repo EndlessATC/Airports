@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+usa = true
+center = S22.2355995178, E114.088996887
+magneticvar = 0.336
+beacons =
+	LM, S22.23470, E114.09400, 0, Learmonth
+	LM, S22.24140, E114.09600, 0, Learmonth
+
+line1 =
+	S23.18047, E113.76484
+	S23.02363, E113.79492
+	S22.91455, E113.79512
+	S22.81289, E113.76787
+	S22.63779, E113.68281
+	S22.33213, E113.79502
+	S21.93916, E113.95840
+	S21.88145, E114.02285
+	S21.82861, E114.12393
+	S21.90977, E114.14258
+	S22.18135, E114.09277
+	S22.32334, E114.16387
+	S22.48311, E114.14160
+	S22.45586, E114.20518
+	S22.42539, E114.30352
+	S22.34150, E114.37773
+	S22.26104, E114.41699
+	S21.94219, E114.60283
+	S21.82344, E114.70928
+	S21.73594, E114.85908
+	S21.63057, E115.16172
+
+[airport1]
+name = Learmonth Airport
+code = YPLM
+runways =
+	rwy1, 18, S22.22, E114.091, 184.0, 9997, 0, 0, 13

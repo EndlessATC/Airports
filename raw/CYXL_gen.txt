@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1258
+usa = true
+transition = 18001
+center = N50.113899231, W91.9052963257
+magneticvar = -0.024
+beacons =
+	XL, N50.11780, W91.89860, 0, Sioux Lookout
+	YXL, N50.11810, W91.89790, 0, Sioux Lookout
+	ZHD, N49.80110, W92.64490, 0, Barclay
+	IHD, N49.83500, W92.74970, 0, Dryden Regional
+	YHD, N49.86450, W92.84910, 0, Dryden Regional
+
+line1 =
+	N50.96885, W91.34531
+	N51.03550, W91.30215
+	N51.06899, W91.27437
+	N51.06631, W91.21387
+	N51.03765, W91.09106
+	N51.01113, W90.97622
+	N51.03745, W90.91133
+	N51.07251, W90.84434
+	N51.09429, W90.79463
+
+line2 =
+	N51.06807, W90.52778
+	N51.01411, W90.74702
+	N50.95444, W90.93652
+	N50.94556, W91.11982
+	N50.93374, W91.23818
+	N50.91846, W91.31797
+	N50.93047, W91.36709
+	N50.96885, W91.34531
+	N50.96885, W91.34531
+	N50.96885, W91.34531
+
+line3 =
+	N51.07119, W93.16450
+	N51.05493, W93.18179
+	N51.03857, W93.19961
+	N51.03350, W93.23540
+	N51.07461, W93.31958
+
+line4 =
+	N51.07119, W93.16450
+	N51.07119, W93.16450
+	N51.07119, W93.16450
+
+line5 =
+	N51.06272, W91.31225
+	N50.99849, W91.07498
+	N51.01363, W90.87527
+	N51.08670, W90.63405
+
+line6 =
+	N51.06882, W91.41759
+	N51.06272, W91.31225
+	N51.09228, W90.41647
+
+line7 =
+	N49.32913, W90.50349
+	N49.21927, W90.61333
+	N49.16858, W90.59005
+	N49.12992, W90.60061
+
+[airport1]
+name = Sioux Lookout Airport
+code = CYXL
+runways =
+	rwy1, 03, N50.1153, W91.9033, 31.2, 2200, 0, 0, 0
+	rwy2, 16, N50.1209, W91.9097, 156.2, 5300, 300, 0, 1245

@@ -1,0 +1,81 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 127
+center = N18.2048, W63.055099
+magneticvar = -13.564
+beacons =
+	ANG, N18.20520, W63.09260, 0, Wallblake
+	PJD, N18.03850, W63.11720, 0, St.mMarten
+	PJM, N18.03810, W63.11830, 0, St.mMarten
+	PJE, N17.48710, W62.99170, 0, St.eEstatius
+
+line1 =
+	N18.09072, W63.11499
+	N18.06431, W63.12471
+	N18.04141, W63.09043
+	N18.01919, W63.02305
+	N18.04541, W63.01230
+	N18.10430, W63.00942
+	N18.11309, W63.02480
+	N18.11533, W63.06309
+	N18.09072, W63.11499
+
+line2 =
+	N17.35327, W62.71372
+	N17.40259, W62.79463
+	N17.38643, W62.82705
+	N17.36533, W62.83940
+	N17.34707, W62.84048
+	N17.33926, W62.83892
+	N17.30283, W62.77554
+	N17.28604, W62.70200
+	N17.22441, W62.65649
+	N17.23999, W62.63066
+	N17.26230, W62.64053
+	N17.29092, W62.67578
+	N17.35327, W62.71372
+
+line3 =
+	N18.17139, W63.16001
+	N18.22178, W63.00122
+	N18.26479, W62.97959
+	N18.26973, W63.02603
+	N18.20029, W63.15332
+	N18.17139, W63.16001
+
+line4 =
+	N17.71406, W61.85244
+	N17.70430, W61.86616
+	N17.68545, W61.86875
+	N17.59614, W61.84380
+
+[airport1]
+name = Clayton J Lloyd International Airport
+code = TQPF
+runways =
+	rwy1, 10, N18.2049, W63.0617, 91.0, 5462, 492, 492, 122
+
+[airport2]
+name = L'Espérance Airport
+code = FG
+runways =
+	rwy2, 12, N18.1015, W63.0527, 107.2, 3937, 197, 525, 7
+inboundbeacon = PJD
+
+[airport3]
+name = Princess Juliana International Airport
+code = CM
+runways =
+	rwy3, 09, N18.0393, W63.1202, 81.0, 7708, 162, 394, 11
+	rwy4, 10, N18.0394, W63.1197, 81.0, 7152, 0, 0, 12
+inboundbeacon = PJD
+
+[airport4]
+name = Gustaf III Airport
+code = FJ
+inboundbeacon = PJD

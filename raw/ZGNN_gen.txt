@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 421
+metric = true
+center = N22.6082992554, E108.17199707
+magneticvar = -1.346
+beacons =
+	NNG, N22.62500, E108.19700, 0, Nanning
+
+line1 =
+	N21.62192, E108.30215
+	N21.69351, E108.32480
+	N21.69692, E108.35459
+	N21.67920, E108.38281
+
+line2 =
+	N21.63345, E108.50215
+	N21.67139, E108.52568
+	N21.73940, E108.49258
+	N21.82881, E108.48086
+	N21.90464, E108.47988
+	N21.90103, E108.59375
+	N21.86890, E108.61582
+	N21.81597, E108.58936
+	N21.77046, E108.61582
+	N21.72466, E108.67451
+	N21.65127, E108.74395
+	N21.63047, E108.77168
+	N21.63447, E108.84639
+	N21.62441, E108.92178
+	N21.62651, E109.03057
+
+[airport1]
+name = Nanning Wuxu Airport
+code = ZGNN
+runways =
+	rwy1, 05, N22.5996, E108.163, 46.8, 8858, 0, 0, 417

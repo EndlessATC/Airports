@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 65
+center = N38.175999, E13.091
+magneticvar = 1.387
+beacons =
+	PRS, N38.17210, E13.08000, 0, Raisi
+	PRS, N38.18940, E13.10910, 0, Raisi
+	PAL, N38.03430, E13.17740, 0, Palermo
+	PAL, N38.03400, E13.17740, 0, Palermo
+	TRP, N37.89600, E12.51320, 0, Trapani
+	TRP, N37.91430, E12.49300, 0, Trapani
+
+line1 =
+	N38.04551, E14.50596
+	N38.04258, E14.41621
+	N38.01685, E14.28770
+	N38.04053, E14.05000
+	N38.02417, E13.93662
+	N37.98120, E13.78887
+	N37.98403, E13.73486
+	N38.00073, E13.68154
+	N38.10312, E13.49131
+	N38.11025, E13.43350
+	N38.12681, E13.38350
+	N38.18052, E13.35166
+	N38.19146, E13.29111
+	N38.19033, E13.15996
+	N38.13091, E13.05684
+	N38.08408, E13.04902
+	N38.04131, E12.95547
+	N38.03486, E12.90273
+	N38.06372, E12.85068
+	N38.18306, E12.73438
+	N38.14170, E12.70234
+	N38.10791, E12.66436
+	N38.08496, E12.60166
+	N38.05293, E12.54766
+	N37.93872, E12.48682
+	N37.81978, E12.43555
+	N37.77378, E12.45439
+	N37.66953, E12.52676
+	N37.59434, E12.64023
+	N37.57183, E12.69902
+	N37.56738, E12.75732
+	N37.57520, E12.87119
+	N37.57051, E12.92412
+	N37.50654, E13.04033
+	N37.47930, E13.16992
+	N37.45181, E13.22109
+	N37.41035, E13.26494
+	N37.34873, E13.36094
+	N37.25415, E13.58711
+
+[airport1]
+name = Falcone–Borsellino Airport
+code = LICJ
+runways =
+	rwy1, 02, N38.1661, E13.0856, 24.0, 6804, 10, 10, 42
+	rwy2, 07, N38.1743, E13.0865, 66.9, 10912, 404, 679, 33

@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2334
+center = S21.8120002747, W48.1329994202
+magneticvar = -20.800
+beacons =
+	AAQ, S21.81300, W48.13950, 0, Araraquara
+	RPR, S21.14270, W47.77600, 0, Ribeirao
+	PSN, S21.98450, W47.34420, 0, Piracununga
+	PSN, S21.98600, W47.33750, 0, Piracununga
+	IS, S22.00250, W47.34110, 0, Fonte
+	IY, S22.06750, W47.34070, 0, Pira
+	RCL, S22.43087, W47.56554, 0, Rio Claro
+
+[airport1]
+name = Araraquara Airport
+code = SBAQ
+runways =
+	rwy1, 17, S21.8049, W48.1377, 186.0, 5907, 0, 0, 2275

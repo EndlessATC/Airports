@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 938
+usa = true
+transition = 18001
+center = N37.3266983032, W79.2004013062
+magneticvar = -9.396
+beacons =
+	LY, N37.26250, W79.24330, 0, Bojar
+	LYH, N37.25460, W79.23650, 0, Lynchburg
+	VIT, N37.20400, W79.88170, 0, Vinton
+	MOL, N37.90050, W79.10690, 0, Montebello
+	FVX, N37.35290, W78.43800, 0, Farmville
+	ODR, N37.32440, W79.97900, 0, Woodrum
+	SBV, N36.67500, W79.01450, 0, South Boston
+	ROA, N37.34340, W80.07040, 0, Roanoke
+	CNQ, N37.26140, W80.15810, 0, Callahan
+	DAN, N36.56890, W79.33670, 0, Danville
+	HS, N37.98650, W79.75950, 0, Duran
+	AZS, N38.01020, W78.51810, 0, Azalea Park
+	UV, N36.58990, W79.91730, 0, Bales
+	GVE, N38.01360, W78.15290, 0, Gordonsville
+
+[airport1]
+name = Lynchburg Regional Preston Glenn Field
+code = KLYH
+runways =
+	rwy1, 04, N37.3179, W79.2059, 27.8, 5799, 0, 0, 899
+	rwy2, 17, N37.3341, W79.2009, 161.1, 3387, 0, 0, 918

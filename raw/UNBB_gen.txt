@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 837
+center = N53.3638000488, E83.5384979248
+magneticvar = 7.456
+beacons =
+	AR, N53.38000, E83.61170, 0, Barnaul
+	BU, N53.34500, E83.46500, 0, Barnaul
+	SR, N53.30000, E83.00000, 0, Pavlovsk
+
+line1 =
+	N54.35836, E82.00397
+	N54.32960, E81.86227
+	N54.26894, E81.74052
+	N54.17633, E81.63867
+
+line2 =
+	N52.57824, E85.39172
+	N52.53380, E85.22832
+	N52.43360, E85.05623
+
+line3 =
+	N52.43360, E85.05623
+	N52.42187, E84.58908
+	N52.39256, E84.34734
+
+line4 =
+	N52.41427, E83.72810
+	N52.48902, E83.69410
+	N52.59219, E83.68257
+	N52.78949, E83.69890
+	N52.96150, E83.65751
+	N53.04033, E83.65751
+	N53.08332, E83.68510
+	N53.10942, E83.81719
+	N53.17471, E83.86024
+	N53.19934, E83.84856
+	N53.35328, E83.83760
+	N53.41881, E83.71192
+	N53.42878, E83.49271
+	N53.45671, E83.33153
+	N53.50265, E83.22849
+	N53.50505, E83.12808
+	N53.46387, E83.03021
+	N53.43736, E82.89694
+	N53.42542, E82.72816
+	N53.44594, E82.58062
+	N53.49885, E82.45443
+	N53.54510, E82.38756
+	N53.58469, E82.38002
+	N53.63084, E82.32989
+	N53.68365, E82.23698
+	N53.71796, E82.11362
+	N53.73372, E81.95973
+	N53.75755, E81.86708
+	N53.78943, E81.83555
+	N53.79961, E81.72703
+
+[airport1]
+name = Barnaul Airport
+code = UNBB
+runways =
+	rwy1, 06, N53.3588, E83.5188, 67.2, 9350, 1148, 0, 825

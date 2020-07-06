@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3982
+center = N17.6114006042, E44.4192008972
+magneticvar = 1.565
+beacons =
+	NEJ, N17.60690, E44.41560, 0, Nejran
+	SYE, N16.96670, E43.72780, 0, Saadah
+
+[airport1]
+name = Nejran Airport
+code = OENG
+runways =
+	rwy1, 06, N17.6045, E44.4067, 60.0, 10007, 0, 0, 3982

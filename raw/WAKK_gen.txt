@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = S8.52029037476, E140.417999268
+magneticvar = 4.482
+beacons =
+	MKE, S8.52261, E140.41701, 0, Merauke
+	ZP, S8.51069, E140.41000, 0, Merauke
+
+line1 =
+	S8.84678, E140.66152
+	S8.72832, E140.58105
+	S8.62041, E140.48975
+	S8.30059, E140.10166
+	S8.19551, E140.00293
+	S8.16650, E139.98330
+	S8.13936, E139.99258
+	S8.08398, E140.03740
+	S7.92373, E140.11699
+	S8.02275, E140.03379
+	S8.10117, E139.93477
+	S8.10635, E139.79082
+	S8.12539, E139.64941
+	S8.17275, E139.51855
+	S8.18906, E139.38564
+	S8.16582, E139.31914
+	S8.10693, E139.27910
+	S8.04658, E139.25830
+	S7.98242, E139.24883
+
+line2 =
+	S9.19014, E141.51875
+	S9.15068, E141.40566
+	S9.16816, E141.29365
+	S9.21445, E141.21699
+	S9.22129, E141.13320
+	S9.08506, E140.92461
+	S8.97373, E140.78652
+	S8.84678, E140.66152
+
+[airport1]
+name = Mopah Airport
+code = WAKK
+runways =
+	rwy1, 16, S8.51242, E140.416, 160.4, 6070, 0, 0, 10

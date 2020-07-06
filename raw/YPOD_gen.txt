@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 265
+usa = true
+center = S38.3180999756, E141.470993042
+magneticvar = 10.166
+beacons =
+	POD, S38.31440, E141.47301, 0, Portland
+	WBL, S38.28740, E142.45399, 0, Warrnambool
+	MTG, S37.75140, E140.78500, 0, Mount Gambier
+	MTG, S37.75260, E140.77901, 0, Mount Gambier
+	HML, S37.64920, E142.05800, 0, Hamilton
+
+line1 =
+	S38.58086, E142.84023
+	S38.45166, E142.61211
+	S38.38633, E142.45586
+	S38.37217, E142.34453
+	S38.39941, E142.18770
+	S38.28379, E141.92471
+	S38.27139, E141.72500
+	S38.38779, E141.59395
+	S38.37979, E141.49180
+	S38.36348, E141.42422
+	S38.17197, E141.21387
+	S38.07695, E141.01094
+	S38.02842, E140.62725
+	S37.89668, E140.39043
+	S37.64219, E140.21211
+
+[airport1]
+name = Portland Airport
+code = YPOD
+runways =
+	rwy1, 08, S38.3195, E141.463, 87.0, 5302, 0, 0, 256
+	rwy2, 17, S38.3137, E141.466, 177.0, 3871, 0, 0, 265

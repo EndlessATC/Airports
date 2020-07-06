@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 177
+center = N36.898701, E30.800501
+magneticvar = 3.550
+beacons =
+	LRA, N36.87890, E30.80690, 0, Lara
+	AYT, N36.91560, E30.78280, 0, Antalya
+	AYT, N36.92140, E30.79690, 0, Antalya
+	YT, N36.87620, E30.78910, 0, Antalya
+	ANT, N36.87560, E30.78920, 0, Antalya
+	GEY, N36.87620, E30.45520, 0, Antalya
+
+line1 =
+	N36.25884, E29.34834
+	N36.15669, E29.68906
+	N36.16807, E29.78926
+	N36.24937, E30.08320
+	N36.30732, E30.23164
+	N36.28770, E30.29541
+	N36.24326, E30.38730
+	N36.26987, E30.44609
+	N36.31040, E30.48359
+	N36.45112, E30.50605
+	N36.52583, E30.55850
+	N36.79717, E30.58203
+	N36.86567, E30.64404
+	N36.84868, E30.95029
+	N36.82173, E31.24063
+	N36.80107, E31.35254
+	N36.61279, E31.77793
+	N36.53530, E32.02197
+	N36.44912, E32.13057
+
+[airport1]
+name = Antalya International Airport
+code = LTAI
+runways =
+	rwy1, 18C, N36.9155, E30.7947, 186.0, 11155, 0, 0, 176
+	rwy2, 18L, N36.9114, E30.8114, 186.0, 11155, 0, 0, 176
+	rwy3, 18R, N36.9157, E30.7924, 186.0, 9811, 0, 0, 172

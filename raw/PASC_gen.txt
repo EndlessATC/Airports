@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 65
+usa = true
+transition = 18001
+center = N70.19470215, W148.4649963
+magneticvar = 24.002
+beacons =
+	SCC, N70.19920, W148.41600, 0, Deadhorse
+	PVQ, N70.22270, W148.41600, 0, Put River
+	PYC, N70.32800, W149.63499, 0, Pitsand
+
+line1 =
+	N70.00869, W145.19736
+	N70.03394, W145.23682
+	N70.05093, W145.44009
+	N70.16006, W145.82314
+	N70.15625, W146.05767
+	N70.18613, W146.28125
+	N70.19175, W146.74487
+	N70.17041, W147.06294
+	N70.21724, W147.70537
+	N70.24014, W147.79058
+	N70.30327, W147.86953
+	N70.31548, W148.03906
+	N70.35547, W148.14272
+	N70.35674, W148.24878
+	N70.31499, W148.37114
+	N70.31792, W148.47920
+	N70.41631, W148.68838
+	N70.42520, W148.84478
+	N70.50078, W149.26943
+	N70.49141, W149.41060
+	N70.51289, W149.54404
+	N70.50967, W149.87012
+	N70.44370, W150.15249
+	N70.43433, W150.27363
+	N70.44390, W150.40322
+	N70.49014, W150.54351
+	N70.50991, W150.66265
+	N70.46470, W150.97905
+	N70.45161, W151.12803
+	N70.41875, W151.22480
+
+line2 =
+	N70.51133, W151.81963
+	N70.53804, W151.79990
+	N70.56016, W151.76904
+
+[airport1]
+name = Deadhorse Airport
+code = PASC
+runways =
+	rwy1, 05, N70.1925, W148.49, 75.0, 6500, 0, 0, 64

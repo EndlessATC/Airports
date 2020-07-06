@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 93
+center = S28.7244434357, W49.4213905334
+magneticvar = -16.194
+beacons =
+	CRY, S28.72130, W49.42210, 0, Criciuma
+	SW, S28.60380, W48.81380, 0, Santa Marta
+	TOR, S29.41430, W49.80670, 0, Torres
+
+line1 =
+	S27.81221, W48.55459
+	S27.76699, W48.48589
+
+line2 =
+	S29.36318, W49.74600
+	S29.07539, W49.49990
+	S28.87119, W49.27129
+	S28.69863, W49.02358
+	S28.57529, W48.79966
+	S28.44268, W48.79727
+	S28.31016, W48.69321
+	S28.20723, W48.64844
+	S28.07559, W48.62080
+	S27.82520, W48.60566
+
+line3 =
+	S28.51139, W49.73673
+	S28.46529, W49.83915
+	S28.44808, W49.93847
+	S28.44436, W50.06880
+	S28.45289, W50.14096
+	S28.47371, W50.15492
+	S28.46860, W50.23303
+	S28.42204, W50.44648
+	S28.38617, W50.57753
+	S28.23595, W50.73607
+
+[airport1]
+name = Diomício Freitas Airport
+code = SBCM

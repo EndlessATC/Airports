@@ -1,0 +1,110 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 56
+usa = true
+transition = 18001
+center = N33.67570114, W117.8679962
+magneticvar = 12.386
+beacons =
+	NA, N33.68880, W117.86000, 0, Maagg
+	ELB, N33.67600, W117.73100, 0, El Toro
+	SLI, N33.78330, W118.05500, 0, Seal Beach
+	LG, N33.75670, W118.07700, 0, Becca
+	PDZ, N33.91830, W117.53000, 0, Paradise
+	CPM, N33.88890, W118.24700, 0, Compton
+	POM, N34.07840, W117.78700, 0, Pomona
+	EMT, N34.08830, W118.03100, 0, El Monte
+	RAL, N33.95200, W117.44900, 0, Riverside
+	OS, N33.96430, W118.27800, 0, Romen
+	LAX, N33.93310, W118.43200, 0, Los Angeles
+	RIV, N33.90650, W117.27500, 0, March
+	SXC, N33.37510, W118.42000, 0, Santa Catalina
+	SB, N34.05650, W117.36600, 0, Petis
+	NFG, N33.27440, W117.38700, 0, Camp Pendleton
+	OCN, N33.24060, W117.41800, 0, Oceanside
+	HDF, N33.77630, W117.18500, 0, Homeland
+	SMO, N34.01020, W118.45700, 0, Santa Monica
+	SJY, N33.79490, W116.99900, 0, San Jacinto
+	PAI, N34.25970, W118.41300, 0, Pacoima
+	VNY, N34.22340, W118.49200, 0, Van Nuys
+	NUC, N33.02690, W118.58000, 0, San Clemente
+	NSD, N32.88000, W118.44100, 0, Beaver
+	NKX, N32.86970, W117.15500, 0, Miramar
+
+line1 =
+	N32.95991, W118.50747
+	N33.03267, W118.55708
+	N33.01118, W118.59019
+	N32.93560, W118.52891
+	N32.83892, W118.47319
+	N32.81851, W118.40859
+	N32.82759, W118.35039
+	N32.84946, W118.38320
+	N32.95991, W118.50747
+
+line2 =
+	N33.35713, W118.46934
+	N33.31709, W118.44629
+	N33.32124, W118.37021
+	N33.31211, W118.29746
+	N33.38574, W118.34795
+	N33.41509, W118.39170
+	N33.47710, W118.55483
+	N33.46416, W118.56943
+	N33.43706, W118.56333
+	N33.43198, W118.55942
+	N33.42700, W118.50732
+	N33.41279, W118.49204
+	N33.35713, W118.46934
+
+line3 =
+	N34.25742, W119.26768
+	N34.16411, W119.23584
+	N34.11201, W119.14375
+	N34.02446, W118.83203
+	N34.03501, W118.59883
+	N34.01738, W118.50620
+	N33.85830, W118.39297
+	N33.74395, W118.41045
+	N33.71230, W118.29419
+	N33.75859, W118.26440
+	N33.75068, W118.16191
+	N33.72217, W118.08052
+	N33.61963, W117.95210
+	N33.53848, W117.78853
+	N33.29551, W117.46743
+	N33.10005, W117.31885
+	N32.93887, W117.26299
+	N32.87339, W117.25576
+	N32.80625, W117.27070
+
+[airport1]
+name = John Wayne Airport-Orange County Airport
+code = KSNA
+runways =
+	rwy1, 02L, N33.6678, W117.874, 27.8, 5700, 0, 0, 54
+	rwy2, 02R, N33.674, W117.868, 27.8, 2887, 0, 0, 52
+
+[airport2]
+name = Long Beach /Daugherty Field/ Airport
+code = GB
+runways =
+	rwy3, 07L, N33.8228, W118.164, 90.2, 6192, 1305, 531, 52
+	rwy4, 07R, N33.8138, W118.161, 89.9, 5420, 0, 0, 50
+	rwy5, 12, N33.8262, W118.162, 134.7, 10000, 1341, 1989, 52
+	rwy6, 16L, N33.823, W118.148, 180.2, 4267, 415, 292, 40
+	rwy7, 16R, N33.8249, W118.156, 179.9, 4470, 310, 0, 50
+inboundbeacon = LG
+
+[airport3]
+name = Ontario International Airport
+code = NT
+runways =
+	rwy8, 08L, N34.0569, W117.623, 90.0, 12198, 998, 0, 943
+	rwy9, 08R, N34.055, W117.616, 90.0, 10200, 0, 0, 935
+inboundbeacon = PDZ

@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 259
+center = N37.7411994934, W25.6979007721
+magneticvar = -9.551
+beacons =
+	PD, N37.73500, W25.67500, 0, Ponta Delgada
+	MGL, N37.74140, W25.58390, 0, Ponta Delgada
+	VMG, N37.84610, W25.75810, 0, Sao Miguel
+	SMA, N36.99670, W25.17560, 0, Santa Maria
+	VSM, N36.96280, W25.16640, 0, Santa Maria
+
+line1 =
+	N37.01855, W25.16353
+	N36.99653, W25.19839
+	N36.94336, W25.15991
+	N36.94888, W25.08838
+	N36.94155, W25.03154
+	N36.95996, W25.02734
+	N37.00020, W25.04434
+	N37.02402, W25.08291
+	N37.01855, W25.16353
+
+line2 =
+	N38.63403, W27.09531
+	N38.64346, W27.07524
+	N38.67891, W27.04199
+
+line3 =
+	N37.83403, W25.58550
+	N37.84092, W25.64897
+	N37.91113, W25.78374
+	N37.89404, W25.84590
+	N37.87241, W25.84785
+	N37.82607, W25.83369
+	N37.76289, W25.73447
+	N37.71533, W25.43901
+	N37.73501, W25.25112
+	N37.76436, W25.19072
+	N37.83789, W25.18193
+	N37.84863, W25.26660
+	N37.83403, W25.58550
+
+[airport1]
+name = João Paulo II Airport
+code = LPPD
+runways =
+	rwy1, 12, N37.7462, W25.7109, 111.6, 8192, 0, 787, 259

@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2296
+center = N25.1455993652, E10.1426000595
+magneticvar = 0.316
+beacons =
+	GHT, N25.14680, E10.13890, 0, Ghat
+	GHT, N25.18860, E10.13780, 0, Ghat
+
+[airport1]
+name = Ghat Airport
+code = HLGT
+runways =
+	rwy1, 06, N25.1436, E10.1388, 60.8, 6643, 1665, 0, 0
+	rwy2, 17, N25.1516, E10.1417, 171.5, 11811, 0, 0, 2296

@@ -1,0 +1,84 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = N35.4921989441, E133.235992432
+magneticvar = -7.061
+beacons =
+	YVE, N35.49340, E133.23300, 0, Yonago
+	JEC, N35.53110, E133.09399, 0, Miho
+	XZE, N35.41720, E132.89200, 0, Izumo
+	OIE, N36.17670, E133.32300, 0, Oki
+	TRE, N35.52730, E134.16499, 0, Tottori
+	OYE, N34.75040, E133.83501, 0, Kibi
+	OKC, N34.67140, E134.01500, 0, Okayama
+
+line1 =
+	N34.72632, E131.85605
+	N34.80937, E131.96309
+	N34.90000, E132.06475
+	N34.96650, E132.15820
+	N35.02231, E132.25957
+	N35.15630, E132.41406
+	N35.30684, E132.61904
+	N35.41831, E132.69766
+	N35.44902, E132.74658
+	N35.51128, E132.92295
+	N35.55884, E133.15693
+	N35.55654, E133.26719
+	N35.45884, E133.37646
+	N35.47222, E133.43535
+	N35.49746, E133.49492
+	N35.51143, E133.61543
+	N35.49526, E133.73936
+	N35.49487, E133.86025
+	N35.50723, E133.98125
+	N35.53926, E134.21406
+	N35.57793, E134.33652
+	N35.62793, E134.45605
+
+line2 =
+	N34.77061, E134.58379
+	N34.75479, E134.47227
+	N34.72368, E134.36270
+	N34.71387, E134.24688
+	N34.69766, E134.20830
+	N34.59312, E134.07451
+	N34.52729, E133.96826
+	N34.49463, E133.87637
+
+line3 =
+	N34.51924, E134.18213
+	N34.49634, E134.18828
+
+line4 =
+	N34.52236, E134.37227
+	N34.53437, E134.32598
+	N34.51924, E134.18213
+
+line5 =
+	N36.29341, E133.20615
+	N36.23262, E133.18994
+	N36.17876, E133.23926
+	N36.16650, E133.32471
+	N36.20386, E133.37051
+	N36.24639, E133.38125
+	N36.34014, E133.29570
+	N36.29341, E133.20615
+
+[airport1]
+name = Miho Yonago Airport
+code = RJOH
+runways =
+	rwy1, 07, N35.4875, E133.226, 63.9, 8202, 0, 0, 10
+
+[airport2]
+name = Izumo Airport
+code = OC
+runways =
+	rwy2, 07, N35.4091, E132.88, 59.2, 6562, 0, 0, 6
+inboundbeacon = XZE

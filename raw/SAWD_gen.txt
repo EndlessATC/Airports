@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 268
+center = S47.7353, W65.9041
+magneticvar = 7.234
+beacons =
+	ADO, S47.73330, W65.90940, 0, Puerto Deseado
+
+line1 =
+	S48.68789, W67.13096
+	S48.62773, W67.03311
+	S48.52295, W66.78281
+	S48.41953, W66.59629
+	S48.34238, W66.39336
+	S48.08428, W66.01719
+	S48.01934, W65.94341
+	S47.97676, W65.91216
+	S47.94111, W65.81006
+	S47.85322, W65.86367
+	S47.82676, W65.93423
+	S47.85322, W66.09736
+	S47.85762, W66.17236
+	S47.82676, W66.22524
+	S47.78330, W66.04062
+	S47.70156, W65.88633
+	S47.63818, W65.81431
+	S47.56836, W65.77539
+	S47.34492, W65.73809
+	S47.25674, W65.76909
+	S47.15674, W65.85366
+	S47.09375, W65.99854
+	S47.04531, W66.65039
+	S47.00586, W66.77686
+
+[airport1]
+name = Puerto Deseado Airport
+code = SAWD
+runways =
+	rwy1, 6, S47.7381, W65.9132, 65.0, 4921, 0, 0, 0

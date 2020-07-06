@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1028
+center = N5.31911, W72.384
+magneticvar = -6.229
+beacons =
+	EYP, N5.27694, W72.42580, 0, El Yopal
+	SOG, N5.67694, W72.96780, 0, Sogamoso
+	UPI, N4.57639, W72.97720, 0, Barranca De Upia
+
+line1 =
+	N4.33157, W72.47896
+	N4.35576, W72.37281
+	N4.39188, W72.34000
+	N4.42009, W72.28021
+	N4.44045, W72.19342
+	N4.43761, W72.11559
+	N4.41157, W72.04673
+	N4.44337, W71.96162
+	N4.53303, W71.86023
+	N4.63729, W71.66097
+	N4.75614, W71.36388
+
+[airport1]
+name = El Yopal Airport
+code = SKYP
+runways =
+	rwy1, 05, N5.31088, W72.3922, 45.1, 8448, 492, 574, 1006

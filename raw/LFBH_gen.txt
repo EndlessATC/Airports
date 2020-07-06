@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 74
+center = N46.1791992188, W1.19527995586
+magneticvar = -1.371
+beacons =
+	YN, N46.68910, W1.28631, 0, La Roche Sur Yon
+	CGC, N45.66930, W0.30619, 0, Cognac
+	CNA, N45.65960, W0.31164, 0, Cognac
+	CGC, N45.66150, W0.30786, 0, Cognac
+
+line1 =
+	N46.05039, W1.38867
+	N46.03296, W1.38887
+	N45.96768, W1.36870
+	N45.89712, W1.28027
+	N45.81660, W1.21357
+	N45.90405, W1.17832
+	N46.00269, W1.28506
+	N46.05039, W1.38867
+
+line2 =
+	N47.16294, W2.19707
+	N47.12632, W2.14355
+	N47.11162, W2.08193
+	N47.03765, W2.01890
+	N46.92051, W2.09028
+	N46.86504, W2.09248
+	N46.81030, W2.05937
+	N46.68481, W1.92144
+	N46.51484, W1.78652
+	N46.35010, W1.39248
+	N46.32690, W1.31279
+	N46.32451, W1.23882
+	N46.31138, W1.14629
+	N46.25269, W1.13203
+	N46.20483, W1.13638
+	N45.92534, W1.10439
+	N45.80566, W1.06602
+	N45.77266, W1.04150
+	N45.74106, W1.03174
+	N45.76851, W1.11436
+	N45.77090, W1.20996
+	N45.71445, W1.19600
+	N45.68594, W1.16997
+	N45.53818, W0.88066
+	N45.46802, W0.79077
+	N45.38462, W0.73311
+
+line3 =
+	N45.31436, W0.76665
+	N45.38066, W0.82632
+	N45.45708, W0.94175
+	N45.53242, W1.08101
+	N45.34263, W1.14907
+
+[airport1]
+name = La Rochelle-Île de Ré Airport
+code = LFBH
+runways =
+	rwy1, 09, N46.1797, W1.21101, 93.0, 7398, 1033, 1532, 59

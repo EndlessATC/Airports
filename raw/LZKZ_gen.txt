@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 755
+center = N48.6631011963, E21.2411003113
+magneticvar = 3.438
+beacons =
+	KSC, N48.68310, E21.24820, 0, Kosice
+	KE, N48.58810, E21.21510, 0, Kosice
+	PE, N49.06270, E20.44240, 0, Tatry
+	SAG, N48.00800, E20.99630, 0, Sajohidveg
+	SAG, N47.99720, E20.98770, 0, Sajohidveg
+	PPD, N49.06480, E20.35000, 0, Tatry
+	PPD, N49.06820, E20.35350, 0, Tatry
+	NCS, N47.96090, E21.53030, 0, Nagycserkesz
+	NYR, N47.99120, E21.69260, 0, Nyiregyhaza
+	Y, N47.96810, E21.69290, 0, Nyiregyhaza
+	PW, N49.08010, E20.07250, 0, Tatry
+
+line1 =
+	N48.02632, E21.34643
+	N48.00580, E21.18163
+	N47.94421, E21.10350
+	N47.83465, E21.05709
+	N47.68996, E20.87121
+
+line2 =
+	N48.10575, E22.99553
+	N48.09138, E22.88515
+	N48.11148, E22.81497
+	N48.10701, E22.70154
+	N48.07802, E22.54496
+	N48.09536, E22.41954
+	N48.15897, E22.32518
+	N48.24403, E22.27635
+	N48.35049, E22.27294
+	N48.40738, E22.25376
+	N48.41472, E22.21893
+	N48.37374, E22.13325
+	N48.28449, E21.99683
+	N48.22176, E21.86898
+	N48.18559, E21.74981
+	N48.16993, E21.63664
+	N48.17476, E21.52967
+	N48.14554, E21.46518
+	N48.08223, E21.44337
+	N48.04454, E21.40906
+	N48.02632, E21.33899
+
+[airport1]
+name = Košice Airport
+code = LZKZ
+runways =
+	rwy1, 01, N48.6494, E21.2364, 13.0, 10171, 0, 0, 739

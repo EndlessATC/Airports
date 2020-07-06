@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 41
+center = N12.0041999817, W61.7862014771
+magneticvar = -14.217
+beacons =
+	GND, N12.00130, W61.78540, 0, Point Salines
+	GND, N12.00930, W61.78100, 0, Point Salines
+	CAI, N12.69620, W61.33930, 0, Canouan
+
+line1 =
+	N11.27725, W60.70894
+	N11.20840, W60.80430
+	N11.16860, W60.81064
+	N11.17852, W60.75630
+
+line2 =
+	N12.23730, W61.66045
+	N12.18506, W61.71504
+	N12.10854, W61.74966
+	N12.04570, W61.75596
+	N12.00820, W61.78208
+	N12.01265, W61.71543
+	N12.05420, W61.62710
+	N12.22339, W61.60679
+	N12.23730, W61.66045
+
+[airport1]
+name = Point Salines International Airport
+code = TGPY
+runways =
+	rwy1, 10, N12.0043, W61.7988, 90.3, 9003, 0, 0, 21

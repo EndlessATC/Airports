@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 475
+center = N25.383600235, E97.3518981934
+magneticvar = -0.440
+beacons =
+	MK, N25.38740, E97.35620, 0, Myitkyina
+	MKA, N25.35070, E97.27950, 0, Myitkyina West
+
+line1 =
+	N25.70102, E97.51904
+	N25.68965, E97.50798
+	N25.66794, E97.51491
+	N25.58976, E97.50571
+	N25.41674, E97.44897
+	N25.33696, E97.39378
+	N25.35044, E97.34024
+	N25.31003, E97.29208
+	N25.21572, E97.24929
+	N25.15250, E97.24970
+	N25.12035, E97.29321
+	N25.09981, E97.28980
+	N25.09092, E97.23937
+	N25.06410, E97.21611
+	N25.01935, E97.21994
+	N24.98101, E97.19565
+	N24.93297, E97.11700
+	N24.83531, E97.05545
+	N24.75492, E97.05509
+	N24.65924, E97.09540
+	N24.55168, E97.11710
+	N24.43220, E97.12010
+
+line2 =
+	N26.03014, E98.15797
+	N25.86679, E98.09627
+	N25.81530, E98.05503
+	N25.73988, E97.97632
+	N25.64055, E97.86026
+	N25.62009, E97.77474
+	N25.67843, E97.71985
+	N25.70590, E97.64084
+	N25.70316, E97.55790
+	N25.70102, E97.51904
+
+[airport1]
+name = Myitkyina Airport
+code = VYMK
+runways =
+	rwy1, 04, N25.3768, E97.3465, 38.2, 6100, 0, 0, 0

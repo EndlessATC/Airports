@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 33
+center = N9.97649002075, W85.6529998779
+magneticvar = 0.348
+beacons =
+	LIB, N10.59330, W85.54670, 0, Liberia
+
+line1 =
+	N10.92129, W85.88740
+	N10.89756, W85.90801
+	N10.84995, W85.83286
+	N10.79058, W85.71484
+	N10.74502, W85.66724
+	N10.67979, W85.67144
+	N10.63545, W85.66333
+	N10.56348, W85.70312
+	N10.39814, W85.83062
+	N10.29204, W85.84966
+	N10.13286, W85.79648
+	N9.95859, W85.68101
+	N9.90244, W85.62485
+	N9.81094, W85.31455
+	N9.62007, W85.15400
+	N9.58179, W85.11450
+	N9.60195, W85.07705
+	N9.66831, W85.05972
+	N9.69927, W85.00127
+	N9.82095, W84.88643
+	N9.88457, W84.90835
+	N9.93345, W84.96279
+	N10.01743, W85.16074
+	N10.10737, W85.23652
+	N10.25664, W85.26318
+	N10.24209, W85.23564
+	N10.19531, W85.19844
+	N10.11572, W85.02505
+	N9.89941, W84.71494
+	N9.78940, W84.64307
+	N9.70288, W84.67046
+	N9.64668, W84.65889
+	N9.56836, W84.58159
+	N9.52617, W84.48267
+
+[airport1]
+name = Nosara Airport
+code = MRNS
+runways =
+	rwy1, 03, N9.97283, W85.6556, 35.8, 3281, 656, 0, 0

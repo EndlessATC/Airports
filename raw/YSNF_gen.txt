@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 371
+center = S29.0415992737, E167.938995361
+magneticvar = 14.502
+beacons =
+	NF, S29.04730, E167.93201, 0, Norfolk Island
+	NF, S29.00720, E167.92101, 0, Norfolk Island
+
+[airport1]
+name = Norfolk Island International Airport
+code = YSNF
+runways =
+	rwy1, 04, S29.0466, E167.933, 50.0, 4708, 0, 0, 325
+	rwy2, 11, S29.0364, E167.93, 122.0, 6398, 197, 197, 321

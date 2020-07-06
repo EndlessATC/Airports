@@ -1,0 +1,81 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1574
+metric = true
+center = N41.3126983643, E69.3914031982
+magneticvar = 4.437
+beacons =
+	FD, N41.26460, E69.34370, 0, Tashkent
+	F, N41.26140, E69.31020, 0, Yuzhny
+	TKT, N41.26000, E69.29000, 0, Tashkent
+	Z, N41.25280, E69.24790, 0, Yuzhny
+	ZW, N41.25000, E69.21830, 0, Tashkent
+	NG, N41.25170, E69.21500, 0, Tashkent
+	SR, N41.18330, E69.20000, 0, Sergeli
+	UA, N40.98330, E69.38330, 0, Toytepa
+	VQ, N41.38330, E68.80000, 0, Komintern
+	SW, N40.91670, E69.80000, 0, Karakhtay
+	CV, N40.81670, E68.68330, 0, Syrdarya
+
+line1 =
+	N40.43536, E70.35501
+	N40.37118, E70.31853
+	N40.33051, E70.18650
+
+line2 =
+	N41.10677, E68.45580
+	N41.12953, E68.17318
+	N41.16524, E68.05045
+	N41.21237, E68.00270
+	N41.25472, E67.99082
+
+line3 =
+	N40.75638, E70.86341
+	N40.66116, E70.69835
+	N40.43536, E70.35501
+
+line4 =
+	N40.33800, E69.15230
+	N40.46120, E69.10114
+	N40.53918, E69.08693
+	N40.57721, E69.09370
+	N40.59866, E69.08176
+	N40.65783, E69.01964
+	N40.79686, E68.81655
+	N40.89833, E68.70163
+	N40.96228, E68.67486
+	N41.02238, E68.61006
+	N41.10677, E68.45580
+	N41.25472, E67.99082
+	N41.28549, E68.00823
+	N41.33598, E68.06926
+	N41.46259, E68.08652
+	N41.65826, E68.05148
+	N41.83424, E68.06730
+	N41.99051, E68.13386
+	N42.08110, E68.18564
+	N42.09916, E68.20114
+	N42.13221, E68.20713
+	N42.15024, E68.19215
+	N42.18166, E68.18765
+	N42.23696, E68.25473
+	N42.30212, E68.28460
+
+[airport1]
+name = Tashkent East Airport
+code = UTTP
+runways =
+	rwy1, 08, N41.3106, E69.3724, 82.0, 10630, 0, 0, 0
+
+[airport2]
+name = Tashkent International Airport
+code = TT
+runways =
+	rwy2, 08L, N41.2567, E69.2617, 83.7, 13123, 820, 820, 1368
+	rwy3, 08R, N41.2533, E69.2617, 81.0, 12812, 650, 680, 1368
+inboundbeacon = TKT

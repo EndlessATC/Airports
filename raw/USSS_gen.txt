@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 764
+center = N56.7430992126, E60.8027000427
+magneticvar = 13.240
+beacons =
+	EL, N56.74500, E60.71830, 0, Koltsovo
+	KQ, N56.74500, E60.71830, 0, Koltsovo
+	KU, N56.74500, E60.89170, 0, Koltsovo
+	ED, N56.73670, E60.91000, 0, Koltsovo
+	AR, N57.33330, E61.91670, 0, Artemovsky
+	NZ, N56.05000, E59.58330, 0, Nyazepetrovsk
+
+[airport1]
+name = Koltsovo Airport
+code = USSS
+runways =
+	rwy1, 08L, N56.7448, E60.7814, 90.1, 8192, 0, 0, 738
+	rwy2, 08R, N56.7424, E60.7791, 94.1, 9925, 0, 1066, 735

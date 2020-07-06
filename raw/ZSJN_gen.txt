@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 76
+metric = true
+center = N36.8572006226, E117.216003418
+magneticvar = -5.487
+beacons =
+	YQG, N36.83000, E117.21700, 0, Jinan
+
+line1 =
+	N35.88034, E115.87089
+	N35.91006, E115.86572
+	N35.93863, E115.88329
+	N35.96602, E115.92360
+	N35.97620, E115.96618
+	N36.07103, E116.03574
+	N36.10973, E116.07780
+	N36.14296, E116.11594
+	N36.20136, E116.22715
+	N36.33851, E116.45065
+	N36.43969, E116.58082
+	N36.48950, E116.59260
+	N36.56149, E116.64407
+	N36.65570, E116.73513
+	N36.72613, E116.86194
+	N36.77290, E117.02441
+	N36.86204, E117.15050
+	N36.99361, E117.24011
+	N37.08187, E117.35178
+	N37.12675, E117.48542
+	N37.17546, E117.57094
+	N37.22801, E117.60836
+	N37.25612, E117.69290
+	N37.25984, E117.82467
+	N37.29008, E117.96968
+	N37.34687, E118.12791
+	N37.43053, E118.23752
+	N37.54107, E118.29839
+	N37.60391, E118.38516
+	N37.61894, E118.49781
+	N37.67752, E118.64488
+
+[airport1]
+name = Yaoqiang Airport
+code = ZSJN
+runways =
+	rwy1, 01, N36.841, E117.216, 360.0, 11812, 0, 0, 76

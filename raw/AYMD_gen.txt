@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = S5.20707988739, E145.789001465
+magneticvar = 5.280
+beacons =
+	MD, S5.21285, E145.78400, 0, Madang
+	MD, S5.21163, E145.77699, 0, Madang
+
+line1 =
+	S4.27549, E145.00840
+	S4.34912, E145.08779
+	S4.38027, E145.20801
+	S4.38525, E145.33457
+	S4.82305, E145.76699
+	S4.89062, E145.78809
+	S5.17793, E145.79287
+	S5.40244, E145.74521
+	S5.47129, E145.85283
+	S5.49707, E145.99941
+	S5.54512, E146.20537
+	S5.61660, E146.40342
+
+line2 =
+	S4.60420, E145.90020
+	S4.66748, E145.88359
+	S4.73301, E145.90400
+	S4.75576, E145.95234
+	S4.72617, E146.01934
+	S4.64014, E146.05342
+	S4.57314, E146.03740
+	S4.53926, E145.99580
+	S4.55430, E145.95879
+	S4.60420, E145.90020
+
+[airport1]
+name = Madang Airport
+code = AYMD
+runways =
+	rwy1, 07, S5.20893, E145.782, 75.0, 5174, 205, 0, 20

@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 320
+metric = true
+center = N41.5843009949, E60.6417007446
+magneticvar = 5.406
+beacons =
+	URG, N41.58330, E60.65000, 0, Urgench
+	RG, N41.62000, E60.60170, 0, Urgench
+	NU, N41.54330, E60.68830, 0, Urgench
+	VH, N41.76000, E59.89170, 0, Dashoguz
+	RP, N41.76170, E59.76500, 0, Dashoguz
+
+line1 =
+	N40.68331, E62.09500
+	N40.89378, E62.01759
+	N41.03060, E61.95356
+	N41.09369, E61.90282
+	N41.16343, E61.79988
+	N41.23986, E61.64454
+	N41.27609, E61.49695
+	N41.27211, E61.35711
+	N41.30009, E61.26306
+	N41.35998, E61.21500
+	N41.48677, E61.03062
+	N41.68040, E60.71002
+	N41.82458, E60.52698
+	N41.91920, E60.48151
+	N41.97754, E60.42006
+	N41.99961, E60.34265
+	N42.04028, E60.29113
+	N42.09960, E60.26560
+	N42.16352, E60.20256
+	N42.23205, E60.10220
+	N42.29137, E59.94955
+	N42.34150, E59.74481
+	N42.41627, E59.58668
+	N42.51578, E59.47516
+	N42.57404, E59.38700
+
+[airport1]
+name = Urgench Airport
+code = UTNU
+runways =
+	rwy1, 13, N41.5945, E60.63, 139.5, 11065, 0, 0, 319

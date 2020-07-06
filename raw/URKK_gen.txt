@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 118
+center = N45.0346984863, E39.170501709
+magneticvar = 6.333
+beacons =
+	BA, N45.06330, E39.20170, 0, Krasnodar
+	KR, N45.00500, E39.13330, 0, Krasnodar
+	WP, N45.00830, E39.10330, 0, Krasnodar
+	LD, N45.06500, E39.24670, 0, Krasnodar
+	XT, N44.96670, E39.56670, 0, Ryazanskaya
+	SM, N44.78330, E38.80000, 0, Smolenskaya
+	NZ, N45.21670, E39.66670, 0, Ust-Labinsk
+	RF, N45.28330, E39.91670, 0, Ladozhskaya
+	DV, N44.31670, E38.70000, 0, Dzhubga
+	MA, N44.61830, E40.14830, 0, Maykop
+	UH, N45.83330, E40.08330, 0, Tikhoretsk
+	ND, N45.76670, E40.23330, 0, Bolshevik
+
+line1 =
+	N46.00283, E38.13281
+	N45.93481, E38.07959
+	N45.96987, E38.06973
+	N46.01709, E38.07383
+
+line2 =
+	N46.00171, E37.93311
+	N45.79956, E37.84092
+	N45.65405, E37.66924
+	N45.56470, E37.61240
+	N45.49951, E37.60996
+	N45.48633, E37.63438
+	N45.48838, E37.67188
+	N45.42974, E37.67295
+	N45.37720, E37.64717
+
+line3 =
+	N44.67085, E37.57246
+	N44.66138, E37.70488
+	N44.69883, E37.85146
+	N44.41968, E38.18125
+	N44.37446, E38.31182
+	N44.31802, E38.63584
+	N44.28809, E38.71729
+
+[airport1]
+name = Krasnodar Pashkovsky International Airport
+code = URKK
+runways =
+	rwy1, 05L, N45.0291, E39.1414, 53.0, 7218, 0, 0, 107
+	rwy2, 05R, N45.026, E39.1734, 53.0, 9835, 0, 0, 111

@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2812
+center = N56.913898468, E124.914001465
+magneticvar = -13.252
+beacons =
+	NRG, N56.90830, E124.87700, 0, Chulman
+	RQ, N56.89330, E124.81500, 0, Chulman
+
+line1 =
+	N56.52771, E123.56613
+	N56.56102, E123.20471
+	N56.55833, E123.10135
+	N56.57998, E123.06570
+	N56.62512, E123.06332
+	N56.68029, E123.08616
+	N56.74553, E123.13432
+	N56.83653, E123.16977
+	N56.95332, E123.19262
+	N57.09062, E123.29411
+	N57.24850, E123.47436
+	N57.34133, E123.55538
+	N57.36919, E123.53730
+	N57.40681, E123.55151
+	N57.45417, E123.59812
+	N57.48512, E123.59042
+	N57.49969, E123.52831
+	N57.53897, E123.50526
+	N57.60294, E123.52117
+	N57.65069, E123.54608
+	N57.68227, E123.57988
+	N57.68459, E123.63031
+	N57.65772, E123.69729
+	N57.66888, E123.75723
+	N57.71808, E123.81005
+	N57.78908, E123.80384
+	N57.88197, E123.73863
+
+[airport1]
+name = Chulman Airport
+code = UELL
+runways =
+	rwy1, 08, N56.9081, E124.886, 68.9, 11811, 0, 0, 2812

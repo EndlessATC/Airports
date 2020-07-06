@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7
+center = S17.0939006805, E49.8157997131
+magneticvar = -13.405
+beacons =
+	SM, S17.08910, E49.81650, 0, Sainte Marie
+
+line1 =
+	S16.12148, E49.74229
+	S16.15908, E49.78594
+	S16.25586, E49.83105
+	S16.48652, E49.83906
+	S16.60303, E49.81133
+	S16.70303, E49.73398
+	S16.75840, E49.73857
+	S16.81514, E49.76719
+	S16.84941, E49.73975
+	S16.89287, E49.63691
+	S16.93115, E49.59521
+	S17.03291, E49.53955
+	S17.24063, E49.44932
+	S17.34668, E49.43711
+	S17.66953, E49.49365
+	S17.89854, E49.47783
+
+line2 =
+	S16.93320, E49.85566
+	S17.08652, E49.82402
+	S16.90293, E49.93643
+	S16.69531, E50.02305
+	S16.71240, E49.98594
+	S16.93320, E49.85566
+
+[airport1]
+name = Sainte Marie Airport
+code = FMMS
+runways =
+	rwy1, 01, S17.099, E49.8167, 353.9, 3451, 0, 290, 0

@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5429
+center = N33.9870986938, E74.7742004395
+magneticvar = 2.039
+beacons =
+	SNG, N33.98280, E74.78230, 0, Srinagar
+	SNG, N34.00200, E74.75460, 0, Srinagar
+	RT, N33.84770, E73.79920, 0, Rawalakot
+
+line1 =
+	N33.32324, E76.02020
+	N33.36311, E75.85390
+	N33.37093, E75.75944
+	N33.34680, E75.73660
+	N33.30525, E75.74600
+	N33.24634, E75.78755
+	N33.20169, E75.80150
+	N33.17131, E75.78786
+	N33.15209, E75.67665
+	N33.14395, E75.46788
+	N33.17351, E75.30830
+	N33.24071, E75.19792
+	N33.24639, E75.12196
+	N33.19051, E75.08031
+	N33.17028, E74.99923
+	N33.18567, E74.87861
+	N33.12299, E74.80870
+
+[airport1]
+name = Sheikh ul Alam Airport
+code = VISR
+runways =
+	rwy1, 13, N33.999, E74.7607, 136.0, 12090, 0, 0, 5427

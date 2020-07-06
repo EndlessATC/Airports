@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 256
+center = S29.7821998596, W57.0382003784
+magneticvar = -10.497
+beacons =
+	URG, S29.78600, W57.03670, 0, Uruguaiana
+	LIB, S29.69470, W57.14810, 0, Paso De Los Libres
+	L, S29.66940, W57.15580, 0, Paso De Los Libres
+	MCS, S30.26670, W57.63830, 0, Monte Caseros
+	AT, S30.40290, W56.48710, 0, Artigas
+
+line1 =
+	S28.85245, W56.32234
+	S28.99725, W56.39324
+	S29.09249, W56.47600
+	S29.13807, W56.57068
+	S29.20302, W56.63584
+	S29.28736, W56.67152
+	S29.41789, W56.77245
+	S29.59483, W56.93861
+	S29.71617, W57.08935
+	S29.78211, W57.22464
+	S29.85652, W57.30071
+	S29.93941, W57.31750
+	S30.03393, W57.40522
+	S30.13997, W57.56387
+	S30.22699, W57.64575
+	S30.29500, W57.65089
+	S30.38445, W57.71272
+	S30.49524, W57.83122
+	S30.59105, W57.87251
+	S30.71198, W57.81856
+
+[airport1]
+name = Rubem Berta Airport
+code = SBUG

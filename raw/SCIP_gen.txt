@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 227
+center = S27.1648006439, W109.42199707
+magneticvar = 15.244
+beacons =
+	IPA, S27.15400, W109.42100, 0, Isla De Pascua
+	IPA, S27.16390, W109.40600, 0, Isla De Pascua
+
+line1 =
+	S27.06836, W109.39048
+	S27.11621, W109.42915
+	S27.17129, W109.43413
+	S27.14043, W109.27998
+	S27.10107, W109.22285
+	S27.09590, W109.27646
+	S27.06836, W109.39048
+
+[airport1]
+name = Mataveri Airport
+code = SCIP
+runways =
+	rwy1, 10, S27.158, W109.437, 117.2, 10827, 0, 0, 127

@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 63
+usa = true
+center = S12.6786003113, E141.925003052
+magneticvar = 5.402
+beacons =
+	WP, S12.67330, E141.92300, 0, Weipa
+	WP, S12.66170, E141.89900, 0, Weipa
+
+line1 =
+	S13.55381, E141.53418
+	S13.42510, E141.58877
+	S13.25908, E141.64541
+	S12.94346, E141.61357
+	S12.83350, E141.73457
+	S12.77871, E141.78223
+	S12.77822, E141.87578
+	S12.80293, E141.92031
+	S12.73984, E141.92979
+	S12.68135, E141.89287
+	S12.61328, E141.87832
+	S12.57871, E141.85215
+	S12.56660, E141.79453
+	S12.52939, E141.74668
+	S12.49141, E141.67773
+	S12.35107, E141.68857
+	S12.08008, E141.80576
+	S11.97559, E141.87051
+	S12.01924, E141.91299
+	S12.05430, E141.96113
+	S11.97627, E141.96777
+	S11.89619, E141.95156
+
+line2 =
+	S11.82139, E142.87256
+	S11.88076, E142.93398
+	S11.91904, E142.98848
+	S11.92412, E143.06641
+
+line3 =
+	S12.16963, E143.10469
+	S12.22598, E143.09902
+	S12.30352, E143.11025
+
+[airport1]
+name = Weipa Airport
+code = YBWP
+runways =
+	rwy1, 12, S12.6733, E141.916, 124.0, 5397, 0, 0, 57

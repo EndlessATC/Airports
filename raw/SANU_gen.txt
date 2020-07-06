@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1958
+center = S31.571501, W68.418198
+magneticvar = 0.307
+beacons =
+	JUA, S31.56390, W68.42140, 0, San Juan
+	J, S31.54330, W68.41670, 0, San Juan
+
+line1 =
+	S32.03272, W69.78734
+	S31.87149, W69.69773
+	S31.78219, W69.58916
+	S31.69285, W69.52120
+	S31.57373, W69.45764
+	S31.45508, W69.42684
+	S31.30434, W69.42937
+	S31.28279, W69.41816
+
+line2 =
+	S31.28279, W69.41816
+	S31.27664, W69.39664
+	S31.26884, W69.18456
+	S31.29478, W69.07818
+	S31.35266, W69.02896
+	S31.41467, W69.00364
+	S31.48071, W69.00222
+	S31.51864, W68.94377
+	S31.52857, W68.82822
+	S31.51461, W68.69332
+	S31.47679, W68.53909
+	S31.47152, W68.45088
+	S31.51244, W68.41760
+	S31.57280, W68.36732
+	S31.65352, W68.35709
+	S31.77465, W68.37011
+	S31.88317, W68.34913
+	S31.97918, W68.29415
+	S32.04430, W68.27963
+	S32.07241, W68.26970
+	S32.08357, W68.22578
+	S32.07396, W68.08915
+	S32.11163, W67.97365
+	S32.19674, W67.87918
+	S32.24956, W67.74359
+	S32.27002, W67.56685
+	S32.30754, W67.44931
+	S32.38950, W67.36180
+
+[airport1]
+name = Domingo Faustino Sarmiento Airport
+code = SANU
+runways =
+	rwy1, 18, S31.5604, W68.4183, 179.6, 8071, 0, 0, 1959

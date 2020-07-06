@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 18
+usa = true
+center = S19.2525005341, E146.76499939
+magneticvar = 7.451
+beacons =
+	TVL, S19.24690, E146.76199, 0, Townsville
+	TL, S19.24500, E146.75800, 0, Townsville
+	TVL, S19.27830, E146.74300, 0, Townsville
+
+line1 =
+	S18.27285, E146.03223
+	S18.50986, E146.22305
+	S18.55371, E146.33320
+	S18.66670, E146.31172
+	S18.84121, E146.29688
+	S18.97705, E146.38340
+	S19.07871, E146.48115
+	S19.13945, E146.58730
+	S19.18740, E146.69199
+	S19.23574, E146.82900
+	S19.25605, E147.00264
+	S19.33262, E147.09277
+	S19.39316, E147.13877
+	S19.41416, E147.27813
+	S19.40293, E147.34150
+	S19.37813, E147.41855
+	S19.41934, E147.47090
+	S19.47412, E147.50977
+	S19.62275, E147.58604
+	S19.77012, E147.74238
+	S19.79473, E147.85322
+	S19.86924, E147.91563
+
+line2 =
+	S18.29238, E146.11621
+	S18.36289, E146.19131
+	S18.45078, E146.23564
+	S18.48477, E146.29883
+	S18.44863, E146.32705
+	S18.40010, E146.34199
+	S18.32607, E146.29883
+
+[airport1]
+name = Townsville Airport
+code = YBTL
+runways =
+	rwy1, 01, S19.2583, E146.765, 24.0, 7999, 0, 0, 18
+	rwy2, 07, S19.2558, E146.756, 74.0, 3609, 0, 0, 12

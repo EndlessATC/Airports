@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 125
+center = N25.7591991425, E88.9088973999
+magneticvar = -0.090
+beacons =
+	SDP, N25.75450, E88.90990, 0, Saidpur
+	SD, N25.76450, E88.90970, 0, Saidpur
+	CO, N26.33040, E89.48240, 0, Cooch Behar
+	JPA, N26.57000, E88.07750, 0, Chandragadhi
+
+line1 =
+	N26.06523, E90.08818
+	N25.90126, E89.89010
+	N25.68236, E89.76184
+	N25.49012, E89.69895
+	N25.32455, E89.70143
+	N25.16841, E89.68014
+	N25.02633, E89.62123
+	N24.94837, E89.61265
+	N24.89486, E89.61957
+
+line2 =
+	N25.25696, E87.64373
+	N25.23740, E87.73375
+	N25.19319, E87.77932
+	N25.12436, E87.78046
+	N25.06436, E87.82433
+	N25.01320, E87.91105
+	N24.95594, E87.94242
+	N24.89264, E87.91854
+	N24.82505, E87.91983
+
+[airport1]
+name = Saidpur Airport
+code = VGSD
+runways =
+	rwy1, 16, N25.767, E88.9057, 159.6, 6000, 0, 0, 125

@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2450
+center = N22.9778995514, E97.7521972656
+magneticvar = -0.459
+beacons =
+	LSO, N22.97920, E97.75450, 0, Lashio
+	LSO, N22.98420, E97.74620, 0, Lashio
+
+line1 =
+	N23.93296, E98.42002
+	N23.87198, E98.43666
+	N23.78333, E98.49593
+	N23.66703, E98.59794
+	N23.56326, E98.63835
+	N23.47211, E98.61737
+	N23.41692, E98.63515
+	N23.39769, E98.69189
+	N23.35666, E98.72124
+	N23.29377, E98.72320
+	N23.24814, E98.65406
+	N23.21972, E98.51371
+	N23.17326, E98.47381
+	N23.10869, E98.53448
+	N23.06795, E98.54843
+	N23.05094, E98.51588
+	N23.02438, E98.50410
+	N22.98826, E98.51309
+	N22.95291, E98.55448
+	N22.91839, E98.62817
+	N22.87127, E98.62926
+	N22.81150, E98.55774
+	N22.70621, E98.55262
+	N22.55542, E98.61391
+	N22.43207, E98.62564
+	N22.33616, E98.58771
+	N22.25105, E98.58745
+	N22.17663, E98.62476
+	N22.11462, E98.67618
+	N22.06501, E98.74160
+	N21.99499, E98.71804
+
+[airport1]
+name = Lashio Airport
+code = VYLS
+runways =
+	rwy1, 01, N22.9706, E97.7516, 4.4, 5285, 0, 0, 0

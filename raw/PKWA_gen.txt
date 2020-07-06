@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = N8.72012042999, E167.731994629
+magneticvar = 7.456
+beacons =
+	NDJ, N8.72120, E167.72900, 0, Bucholz
+	NDJ, N8.72087, E167.72800, 0, Bucholz
+	ROI, N9.39541, E167.47400, 0, Roi Namur
+
+[airport1]
+name = Bucholz Army Air Field
+code = PKWA
+runways =
+	rwy1, 06, N8.7174, E167.723, 73.0, 6668, 0, 0, 9

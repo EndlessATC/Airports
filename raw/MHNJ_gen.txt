@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 49
+center = N16.4454, W85.906601
+magneticvar = 0.097
+beacons =
+	CTL, N16.00720, W85.97390, 0, Punta Castilla
+	ROA, N16.31660, W86.52180, 0, Roatan
+	ROA, N16.31580, W86.52940, 0, Roatan
+
+line1 =
+	N16.43921, W86.33784
+	N16.42822, W86.25552
+	N16.37837, W86.41992
+	N16.30024, W86.58027
+	N16.30176, W86.63042
+	N16.36211, W86.55693
+	N16.41387, W86.43828
+	N16.43921, W86.33784
+
+line2 =
+	N15.98989, W84.97373
+	N15.97397, W85.04824
+	N15.91816, W85.16367
+	N15.89951, W85.48369
+	N16.00283, W85.78398
+	N16.02417, W85.98564
+	N16.00225, W85.95391
+	N15.95342, W85.93628
+	N15.90566, W86.06855
+	N15.88516, W86.18120
+	N15.78320, W86.35664
+	N15.80107, W86.48081
+	N15.79424, W86.75703
+	N15.76235, W86.90723
+
+line3 =
+	N16.42969, W85.96099
+	N16.40361, W85.94722
+	N16.46152, W85.87095
+	N16.48774, W85.84443
+	N16.51089, W85.83379
+	N16.51396, W85.87822
+	N16.48330, W85.92422
+	N16.42969, W85.96099
+
+[airport1]
+name = La Laguna Airport
+code = MHNJ
+runways =
+	rwy1, 12, N16.4477, W85.9118, 115.2, 3990, 0, 0, 0

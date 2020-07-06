@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 297
+center = N0.835578024387, E112.93699646
+magneticvar = 0.544
+beacons =
+	PB, N0.83506, E112.93700, 0, Pangsuma
+
+line1 =
+	N1.20137, E113.46504
+	N0.96464, E113.23333
+	N0.85473, E112.95381
+	N0.82346, E112.79377
+	N0.83432, E112.66013
+	N0.80233, E112.53585
+	N0.72755, E112.42102
+	N0.67200, E112.25184
+	N0.63562, E112.02828
+	N0.59867, E111.94958
+	N0.54648, E111.94545
+	N0.50255, E111.91661
+	N0.46214, E111.83972
+	N0.43000, E111.82060
+	N0.40809, E111.82685
+	N0.37455, E111.80220
+
+[airport1]
+name = Pangsuma Airport
+code = WIOP
+runways =
+	rwy1, 10, N0.836864, E112.933, 106.0, 3294, 0, 0, 0

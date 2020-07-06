@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = S16.1639003754, E49.7737998962
+magneticvar = -11.521
+beacons =
+	VSL, S15.43330, E49.68330, 0, Maroantsetra
+
+line1 =
+	S15.38564, E50.48271
+	S15.62910, E50.40459
+	S15.85850, E50.29150
+	S15.90156, E50.26230
+	S15.96045, E50.20898
+	S15.95781, E50.18496
+	S15.89863, E50.09443
+	S15.80176, E50.02041
+	S15.57354, E49.92656
+	S15.45771, E49.89258
+	S15.43945, E49.85332
+	S15.44951, E49.74375
+	S15.52158, E49.66436
+	S15.56699, E49.64990
+	S15.69570, E49.66699
+	S15.81143, E49.69707
+	S15.92891, E49.71045
+	S16.07676, E49.71279
+	S16.12148, E49.74229
+	S16.15908, E49.78594
+	S16.25586, E49.83105
+	S16.48652, E49.83906
+	S16.60303, E49.81133
+	S16.70303, E49.73398
+	S16.75840, E49.73857
+	S16.81514, E49.76719
+	S16.84941, E49.73975
+	S16.89287, E49.63691
+	S16.93115, E49.59521
+	S17.03291, E49.53955
+
+line2 =
+	S16.93320, E49.85566
+	S17.08652, E49.82402
+	S16.90293, E49.93643
+	S16.69531, E50.02305
+	S16.71240, E49.98594
+	S16.93320, E49.85566
+
+[airport1]
+name = Mananara Nord Airport
+code = FMNC
+runways =
+	rwy1, 11, S16.1633, E49.7679, 98.0, 4101, 0, 0, 0

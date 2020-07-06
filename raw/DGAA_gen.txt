@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 205
+center = N5.60518980026, W0.166786000133
+magneticvar = -4.416
+beacons =
+	ACC, N5.63411, W0.15534, 0, Accra
+	AA, N5.67617, W0.13803, 0, Accra
+
+line1 =
+	N5.18267, W1.06431
+	N5.22671, W0.79771
+	N5.31855, W0.66943
+	N5.39424, W0.48545
+	N5.50078, W0.34873
+	N5.56816, W0.12651
+	N5.75732, E0.25967
+	N5.75972, E0.67188
+	N5.76011, E0.74883
+	N5.81025, E0.94971
+
+line2 =
+	N6.59702, E0.15371
+	N6.57021, E0.15078
+	N6.53828, E0.14668
+	N6.50532, E0.14043
+	N6.44956, E0.13291
+	N6.36597, E0.13809
+	N6.33818, E0.10332
+	N6.35264, E0.08096
+	N6.40405, E0.07329
+	N6.40518, E0.04111
+	N6.37939, W0.01099
+	N6.40820, W0.03345
+	N6.45166, W0.05991
+	N6.48994, W0.09932
+	N6.53271, W0.17480
+	N6.58550, W0.25527
+
+line3 =
+	N6.55069, E0.10760
+	N6.33819, E0.10336
+
+line4 =
+	N6.33819, E0.10336
+	N6.18812, E0.09871
+	N6.11368, E0.15656
+	N6.06490, E0.27531
+	N6.04222, E0.37985
+	N6.04563, E0.47018
+	N6.02108, E0.54362
+	N5.96847, E0.60015
+	N5.89680, E0.63927
+	N5.75970, E0.67182
+
+[airport1]
+name = Kotoka International Airport
+code = DGAA
+runways =
+	rwy1, 03, N5.59096, W0.172636, 22.0, 11165, 0, 1349, 177

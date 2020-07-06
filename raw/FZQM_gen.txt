@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5007
+center = S10.7658996582, E25.5056991577
+magneticvar = -3.063
+beacons =
+	KWZ, S10.71840, E25.49980, 0, Kolwezi
+
+line1 =
+	S11.74290, E26.24928
+	S11.67169, E26.16572
+	S11.65800, E26.11854
+	S11.67820, E26.07989
+	S11.67955, E26.02997
+	S11.65350, E25.93829
+	S11.62280, E25.88610
+	S11.54720, E25.83990
+	S11.41656, E25.78213
+	S11.33094, E25.71526
+	S11.29021, E25.63929
+	S11.24670, E25.60229
+	S11.20035, E25.60436
+	S11.16898, E25.59020
+	S11.15265, E25.55981
+	S11.11421, E25.55186
+	S11.05364, E25.56643
+	S11.00537, E25.61056
+	S10.96941, E25.68436
+	S10.87789, E25.72590
+	S10.73077, E25.73520
+	S10.60726, E25.69645
+	S10.50721, E25.60973
+	S10.46691, E25.54090
+	S10.48623, E25.49016
+	S10.48468, E25.44887
+	S10.46205, E25.41714
+	S10.40701, E25.41440
+	S10.31942, E25.44075
+	S10.22950, E25.44024
+	S10.13721, E25.41305
+	S10.03613, E25.44137
+	S9.92637, E25.52519
+	S9.81144, E25.54669
+
+line2 =
+	S11.31068, E24.32682
+	S11.23895, E24.33410
+
+[airport1]
+name = Kolwezi Airport
+code = FZQM
+runways =
+	rwy1, 11, S10.7644, E25.4979, 101.0, 5741, 0, 0, 4918

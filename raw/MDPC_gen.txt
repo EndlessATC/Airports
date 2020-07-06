@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 47
+center = N18.5673999786, W68.3634033203
+magneticvar = -11.056
+beacons =
+	PCA, N18.56430, W68.37140, 0, Punta Cana
+	PNA, N18.56730, W68.38330, 0, Punta Cana
+	LRN, N18.45400, W68.91180, 0, La Romana
+	LRN, N18.45090, W68.92120, 0, La Romana
+
+line1 =
+	N18.49922, W67.15864
+	N18.43579, W67.17178
+	N18.39360, W67.21338
+	N18.36460, W67.26406
+	N18.32065, W67.23896
+	N18.28340, W67.20415
+	N18.22422, W67.17246
+	N18.15254, W67.17432
+	N17.99419, W67.19687
+	N17.96670, W67.14238
+
+line2 =
+	N18.90479, W68.68477
+	N18.98848, W68.90137
+	N19.01318, W69.03130
+	N19.02847, W69.16304
+	N19.05190, W69.28022
+	N19.08608, W69.39526
+	N19.10762, W69.50835
+
+line3 =
+	N19.21201, W69.51973
+	N19.20107, W69.32275
+	N19.22568, W69.26426
+	N19.27183, W69.23247
+	N19.32773, W69.32495
+
+line4 =
+	N18.41567, W69.51943
+	N18.42012, W69.39697
+	N18.43984, W69.27451
+	N18.39922, W69.07227
+	N18.40801, W68.93496
+	N18.33931, W68.81953
+	N18.26611, W68.77847
+	N18.21841, W68.72100
+	N18.21494, W68.68740
+	N18.22202, W68.65884
+	N18.30625, W68.61221
+	N18.35547, W68.56377
+	N18.37900, W68.49321
+	N18.41772, W68.44482
+	N18.53809, W68.35928
+	N18.61152, W68.33916
+	N18.67114, W68.38140
+	N18.71445, W68.44541
+	N18.90479, W68.68477
+
+[airport1]
+name = Punta Cana International Airport
+code = MDPC
+runways =
+	rwy1, 08, N18.5703, W68.3831, 74.0, 10171, 0, 0, 43
+	rwy2, 09, N18.5661, W68.3781, 83.0, 10171, 0, 0, 47

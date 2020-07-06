@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = N7.70576, E81.678802
+magneticvar = -2.236
+beacons =
+	BAT, N7.70362, E81.68020, 0, Batticaloa
+	MIN, N8.05026, E80.98530, 0, Minneriya
+	CHB, N8.53356, E81.18530, 0, China Bay
+
+line1 =
+	N7.42842, E81.83203
+	N7.46479, E81.79668
+	N7.62500, E81.72734
+	N7.68447, E81.68291
+	N7.71094, E81.67627
+	N7.74155, E81.67871
+	N7.78247, E81.66543
+	N8.11890, E81.43594
+	N8.14785, E81.42217
+	N8.21523, E81.42217
+	N8.43145, E81.37285
+	N8.47207, E81.33398
+	N8.48359, E81.27461
+	N8.50552, E81.22695
+	N8.54941, E81.21621
+	N8.60840, E81.21924
+	N8.66196, E81.19824
+
+line2 =
+	N6.75620, E81.81855
+	N6.90127, E81.86143
+	N7.02046, E81.87695
+	N7.28833, E81.87412
+	N7.42842, E81.83203
+
+[airport1]
+name = Batticaloa Airport
+code = VCCB
+runways =
+	rwy1, 06, N7.70338, E81.6744, 61.4, 3592, 0, 0, 0

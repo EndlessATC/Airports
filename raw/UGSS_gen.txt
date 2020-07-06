@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 53
+center = N42.8582000732, E41.1281013489
+magneticvar = 5.487
+beacons =
+	AV, N42.85330, E41.12170, 0, Sukhumi
+	DA, N42.60000, E41.78330, 0, Gali
+
+line1 =
+	N43.47280, E39.87363
+	N43.41982, E39.97832
+	N43.31240, E40.19063
+	N43.14570, E40.46211
+	N43.12104, E40.52402
+	N43.06348, E40.83662
+	N42.93086, E41.06162
+	N42.82812, E41.12871
+	N42.73765, E41.41943
+	N42.65933, E41.48877
+	N42.39785, E41.57773
+	N42.14687, E41.66328
+	N41.97002, E41.76299
+	N41.88486, E41.76074
+
+[airport1]
+name = Sukhumi Dranda Airport
+code = UGSS
+runways =
+	rwy1, 12, N42.8671, E41.1093, 122.6, 12012, 0, 0, 20

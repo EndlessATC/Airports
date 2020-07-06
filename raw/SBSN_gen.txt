@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 198
+center = S2.42472195625, W54.7858314514
+magneticvar = -17.154
+beacons =
+	STM, S2.42767, W54.79170, 0, Santarem
+	STM, S2.42650, W54.81750, 0, Santarem
+
+line1 =
+	S1.89151, W53.63887
+	S1.95812, W53.84330
+	S2.03827, W53.97107
+	S2.14121, W54.04468
+	S2.26704, W54.06416
+	S2.35753, W54.18669
+	S2.44021, W54.46765
+	S2.44032, W54.52512
+	S2.44052, W54.56413
+	S2.41934, W54.63901
+	S2.35929, W54.67619
+	S2.25335, W54.67456
+	S2.18410, W54.69381
+	S2.15165, W54.73391
+	S2.11982, W54.79352
+	S2.08861, W54.87259
+	S2.10421, W54.95664
+	S2.16674, W55.04563
+	S2.18028, W55.14973
+	S2.14483, W55.26900
+	S2.08271, W55.37517
+	S1.98680, W55.45808
+	S1.94949, W55.51485
+	S1.92396, W55.55482
+	S1.91838, W55.60585
+	S1.92655, W55.66936
+	S1.96355, W55.73571
+	S1.98996, W55.83971
+
+line2 =
+	S3.27866, W55.23298
+	S2.98173, W55.14528
+	S2.61984, W55.07718
+	S2.42316, W54.99201
+	S2.39153, W54.88974
+	S2.38492, W54.79823
+	S2.41934, W54.63901
+
+[airport1]
+name = Maestro Wilson Fonseca Airport
+code = SBSN

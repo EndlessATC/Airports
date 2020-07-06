@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2313
+center = N41.18, E20.7423
+magneticvar = 3.207
+beacons =
+	OHR, N41.17240, E20.73640, 0, Ohrid
+	IZD, N41.34280, E20.82060, 0, Ohrid
+	PEP, N41.33780, E21.44860, 0, Prilep
+	TRN, N41.41610, E19.71820, 0, Tirana
+	TR, N41.41830, E19.71170, 0, Tr
+	TR, N41.46320, E19.71410, 0, Tirana
+	KAS, N40.45100, E21.27540, 0, Kastoria
+	KSO, N40.44470, E21.27940, 0, Kastoria
+	BU, N41.73170, E21.69500, 0, Skopje
+	PT, N41.91420, E21.63810, 0, Skopje
+	SKJ, N41.93500, E21.63060, 0, Skopje
+
+line1 =
+	N41.86909, E19.34238
+	N41.85615, E19.46826
+	N41.78750, E19.57754
+	N41.64043, E19.57568
+	N41.59683, E19.54580
+	N41.56270, E19.49736
+	N41.42476, E19.44063
+	N41.32100, E19.45342
+	N41.23638, E19.48008
+	N41.10605, E19.45605
+	N40.93330, E19.46123
+	N40.79072, E19.38389
+	N40.66382, E19.33750
+	N40.62207, E19.34463
+	N40.47026, E19.43926
+	N40.40537, E19.45918
+	N40.37568, E19.44053
+	N40.39370, E19.39453
+	N40.40874, E19.35859
+	N40.40708, E19.32227
+	N40.34771, E19.36016
+	N40.28486, E19.39814
+	N40.20996, E19.48457
+
+[airport1]
+name = Ohrid St. Paul the Apostle Airport
+code = LWOH
+runways =
+	rwy1, 02, N41.169, E20.7377, 18.0, 8366, 0, 0, 2284

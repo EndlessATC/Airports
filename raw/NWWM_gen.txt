@@ -1,0 +1,80 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = S22.2583007812, E166.473007202
+magneticvar = 12.171
+beacons =
+	MG, S22.26990, E166.47301, 0, Magenta
+	MGA, S22.31540, E166.47301, 0, Ouere
+	MD, S22.47800, E166.46700, 0, Magenta
+	AV, S22.03650, E166.25200, 0, La Tontouta
+	LTO, S22.00510, E166.21201, 0, La Tontouta
+	FND, S22.00020, E166.18800, 0, La Tontouta
+	NW, S21.93780, E166.07600, 0, La Tontouta
+
+line1 =
+	S22.09014, E166.94238
+	S22.01699, E166.82012
+	S21.95303, E166.68965
+	S21.87285, E166.58750
+	S21.78281, E166.49297
+	S21.63721, E166.30332
+	S21.48389, E166.05781
+	S21.44238, E165.94951
+	S21.38916, E165.88535
+	S21.36377, E165.82285
+	S21.31172, E165.77461
+	S21.26719, E165.66279
+
+line2 =
+	S21.52549, E165.24199
+	S21.58008, E165.32861
+	S21.61504, E165.42764
+	S21.72422, E165.62021
+	S21.77734, E165.74385
+	S21.85381, E165.82344
+	S21.90801, E165.93301
+	S21.95664, E166.09609
+	S21.98877, E166.12373
+	S22.04443, E166.14316
+	S22.08916, E166.17666
+	S22.15508, E166.29229
+	S22.19619, E166.41641
+	S22.23154, E166.43770
+	S22.25605, E166.46797
+	S22.24922, E166.52217
+	S22.26553, E166.57061
+	S22.37617, E166.77412
+	S22.35547, E166.83496
+	S22.35332, E166.90000
+	S22.32285, E166.97031
+	S22.26152, E167.00430
+	S22.09014, E166.94238
+
+line3 =
+	S22.54141, E167.44346
+	S22.61855, E167.42207
+	S22.63916, E167.44375
+	S22.65332, E167.47344
+	S22.66113, E167.51270
+	S22.62324, E167.54443
+	S22.57920, E167.52949
+	S22.54141, E167.44346
+
+[airport1]
+name = Nouméa Magenta Airport
+code = NWWM
+runways =
+	rwy1, 17, S22.2526, E166.473, 178.6, 4101, 685, 500, 9
+
+[airport2]
+name = La Tontouta International Airport
+code = WW
+runways =
+	rwy2, 11, S22.007, E166.199, 121.1, 10663, 0, 0, 30
+inboundbeacon = LTO

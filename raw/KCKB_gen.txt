@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1217
+usa = true
+transition = 18001
+center = N39.2966003418, W80.2281036377
+magneticvar = -9.206
+beacons =
+	CKB, N39.25320, W80.26790, 0, Clarksburg
+	MGW, N39.55670, W79.86040, 0, Morgantown
+	EKN, N38.91440, W80.09930, 0, Elkins
+	RQY, N38.89400, W79.85940, 0, Randolph Co
+	VV, N39.88280, W79.74470, 0, Camor
+	AIR, N40.01700, W80.81730, 0, Bellaire
+	HL, N40.10960, W80.68870, 0, Dorch
+	IHD, N39.97420, W79.35840, 0, Indian Head
+
+line1 =
+	N40.18525, W80.66827
+	N39.90914, W80.80351
+	N39.73551, W80.87219
+	N39.66430, W80.87431
+	N39.57112, W80.96330
+	N39.45599, W81.13912
+	N39.38654, W81.26250
+	N39.36282, W81.33335
+	N39.36483, W81.39242
+	N39.39256, W81.43965
+	N39.37362, W81.49272
+	N39.30804, W81.55163
+	N39.27414, W81.60646
+	N39.27197, W81.65721
+	N39.22947, W81.70059
+
+line2 =
+	N38.41455, W79.57090
+	N38.63356, W79.38538
+	N38.90062, W79.25312
+	N38.99873, W79.16307
+	N39.01684, W79.07119
+	N39.12412, W78.95618
+	N39.32049, W78.81803
+
+[airport1]
+name = North Central West Virginia Airport
+code = KCKB
+runways =
+	rwy1, 03, N39.2878, W80.2329, 23.0, 7800, 0, 0, 1183
+
+[airport2]
+name = Morgantown Municipal Walter L. Bill Hart Field
+code = GW
+runways =
+	rwy2, 05, N39.6389, W79.9175, 44.9, 2769, 0, 0, 1241
+	rwy3, 18, N39.6507, W79.9188, 172.4, 5199, 0, 0, 1236
+inboundbeacon = MGW

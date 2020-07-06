@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4728
+center = N31.3584003448, E69.4636001587
+magneticvar = 1.429
+beacons =
+	ZB, N31.35570, E69.45970, 0, Zhob
+	ZB, N31.39760, E69.45480, 0, Zhob
+
+line1 =
+	N31.29969, E70.80077
+	N30.91984, E70.82899
+	N30.81076, E70.76977
+	N30.71629, E70.77452
+	N30.60010, E70.82351
+	N30.48548, E70.82951
+	N30.37241, E70.79251
+
+[airport1]
+name = Zhob Airport
+code = OPZB
+runways =
+	rwy1, 09, N31.3598, E69.4545, 100.0, 6001, 0, 0, 4645

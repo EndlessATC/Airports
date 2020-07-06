@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 627
+center = N29.0958995819, W111.047996521
+magneticvar = 10.311
+beacons =
+	HMO, N29.09550, W111.05200, 0, Hermosillo
+
+line1 =
+	N29.00532, W112.20308
+	N29.12598, W112.24873
+	N29.20679, W112.26343
+	N29.24043, W112.28506
+
+line2 =
+	N28.77314, W112.35527
+	N28.76934, W112.27842
+	N29.00532, W112.20308
+
+line3 =
+	N29.34771, W112.37822
+	N29.32290, W112.30142
+	N29.26948, W112.22349
+	N29.11797, W112.19204
+	N29.01890, W112.16177
+	N28.89590, W112.04487
+	N28.82319, W111.94082
+	N28.79790, W111.91860
+	N28.75249, W111.90703
+	N28.64814, W111.83242
+	N28.56396, W111.74722
+	N28.47056, W111.68008
+	N28.38398, W111.47168
+	N28.11523, W111.28242
+
+[airport1]
+name = General Ignacio P. Garcia International Airport
+code = MMHO
+runways =
+	rwy1, 05, N29.088, W111.063, 59.0, 7546, 0, 0, 626
+	rwy2, 11, N29.0999, W111.054, 126.0, 3609, 0, 0, 616

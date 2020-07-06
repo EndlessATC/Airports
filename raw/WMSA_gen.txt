@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 90
+center = N3.13057994843, E101.549003601
+magneticvar = -0.042
+beacons =
+	SM, N3.08814, E101.57400, 0, Kuala Lumpur
+	NM, N3.19981, E101.50800, 0, Kuala Lumpur
+	KL, N3.01139, E101.62000, 0, Kayell
+	CE, N3.29508, E101.45200, 0, Caledonian
+	VBA, N3.32481, E101.45700, 0, Batu Arang
+	VKL, N2.72444, E101.73800, 0, Kuala Lumpur
+
+line1 =
+	N2.14019, E100.81689
+	N2.19424, E100.81777
+	N2.24258, E100.82822
+	N2.28330, E100.87705
+	N2.29473, E100.93594
+	N2.25747, E101.04619
+
+line2 =
+	N2.33164, E100.40117
+	N2.25742, E100.45703
+	N2.18916, E100.52383
+	N2.13696, E100.60361
+
+line3 =
+	N2.97041, E101.26807
+	N2.98848, E101.31855
+	N3.04761, E101.32842
+	N3.06738, E101.31123
+	N3.03281, E101.27422
+	N2.99648, E101.26543
+	N2.97041, E101.26807
+
+line4 =
+	N4.09722, E100.76025
+	N4.02339, E100.79551
+	N4.00181, E100.75703
+	N3.96621, E100.71543
+	N3.86445, E100.78184
+	N3.77671, E100.85127
+	N3.62471, E101.02480
+	N3.47202, E101.11543
+	N3.25327, E101.29990
+	N3.14248, E101.33018
+	N3.01113, E101.35430
+	N2.88521, E101.29551
+	N2.83896, E101.35137
+	N2.81348, E101.40684
+	N2.68364, E101.51973
+	N2.57358, E101.78125
+	N2.44941, E101.88994
+	N2.24849, E102.14561
+
+[airport1]
+name = Sultan Abdul Aziz Shah International Airport
+code = WMSA
+runways =
+	rwy1, 15, N3.14533, E101.541, 149.7, 12401, 0, 0, 70
+
+[airport2]
+name = Kuala Lumpur International Airport
+code = KK
+runways =
+	rwy2, 14L, N2.77828, E101.702, 145.9, 13530, 0, 344, 55
+	rwy3, 14R, N2.74351, E101.698, 146.0, 13288, 184, 0, 54
+inboundbeacon = VKL

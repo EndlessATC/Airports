@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 135
+center = N6.57737016678, E3.32116007805
+magneticvar = -3.084
+beacons =
+	LA, N6.60648, E3.32793, 0, Lagos
+	LOS, N6.54278, E3.31367, 0, Lagos
+	LAG, N6.70846, E3.32745, 0, Lagos
+	IBA, N7.34744, E3.96572, 0, Ibadan
+	IN, N7.37802, E3.99149, 0, Ibadan
+
+line1 =
+	N6.32808, E2.28691
+	N6.36924, E2.70645
+	N6.37573, E2.77246
+	N6.39692, E3.33555
+	N6.52500, E3.43018
+	N6.53135, E3.50332
+	N6.59795, E3.71699
+	N6.58384, E3.75166
+	N6.47744, E3.54609
+	N6.45728, E3.48994
+	N6.42705, E3.45078
+	N6.40894, E3.48662
+	N6.41138, E4.12588
+	N6.34858, E4.43135
+
+[airport1]
+name = Murtala Muhammed International Airport
+code = DNMM
+runways =
+	rwy1, 18L, N6.59701, E3.32914, 180.0, 8997, 0, 0, 135
+	rwy2, 18R, N6.58778, E3.31356, 180.0, 12794, 0, 0, 64

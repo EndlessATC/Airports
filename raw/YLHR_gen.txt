@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 77
+usa = true
+center = S12.7869, E143.304993
+magneticvar = 5.597
+beacons =
+	LHR, S12.78830, E143.30299, 0, Lockhart River
+
+line1 =
+	S11.82139, E142.87256
+	S11.88076, E142.93398
+	S11.91904, E142.98848
+	S11.92412, E143.06641
+	S11.95449, E143.17891
+	S12.07588, E143.15293
+	S12.16963, E143.10469
+	S12.22598, E143.09902
+	S12.30352, E143.11025
+	S12.36123, E143.19063
+	S12.39766, E143.25410
+	S12.49883, E143.28965
+	S12.63994, E143.40156
+	S12.73613, E143.39756
+	S12.85576, E143.45771
+	S13.09453, E143.51201
+	S13.30381, E143.52949
+	S13.44365, E143.58662
+	S13.74102, E143.54844
+
+[airport1]
+name = Lockhart River Airport
+code = YLHR
+runways =
+	rwy1, 12, S12.7837, E143.301, 125.0, 4919, 0, 0, 46

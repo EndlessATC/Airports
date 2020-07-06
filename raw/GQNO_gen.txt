@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = N18.31, W15.9697222
+magneticvar = -7.315
+beacons =
+	KC, N18.09160, W15.94830, 0, Nouakchott
+	NH, N18.07930, W15.96320, 0, Nouakchott
+
+line1 =
+	N19.28506, W16.47617
+	N19.15381, W16.30591
+	N19.00332, W16.21309
+	N18.71816, W16.15010
+	N18.52119, W16.08496
+	N18.22314, W16.04673
+	N17.88794, W16.03032
+	N17.54585, W16.07891
+
+[airport1]
+name = Nouakchott–Oumtounsy International Airport
+code = GQNO
+runways =
+	rwy1, 06, N18.2948, W15.9924, 50.0, 7875, 0, 0, 9
+	rwy2, 16, N18.3163, W15.9736, 150.0, 11155, 0, 0, 9

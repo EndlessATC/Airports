@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1429
+usa = true
+transition = 18001
+center = N43.5820007324, W96.741897583
+magneticvar = 3.556
+beacons =
+	FSD, N43.64950, W96.78120, 0, Sioux Falls
+	FS, N43.49420, W96.82880, 0, Rokky
+	MDS, N44.01390, W97.08840, 0, Wentworth
+	PQN, N43.98610, W96.29640, 0, Pipestone
+	SOY, N43.13300, W96.18980, 0, Sioux Center
+	BKX, N44.30320, W96.81510, 0, Brookings
+	ISB, N43.36800, W95.75250, 0, Sibley
+	SHL, N43.21410, W95.83380, 0, Sheldon
+	DDL, N43.21210, W95.83390, 0, Sheldon
+	ORC, N42.99140, W96.06060, 0, Orange City
+	YKN, N42.91840, W97.38500, 0, Yankton
+	VMR, N42.76330, W96.93450, 0, Vermillion
+	YK, N42.84360, W97.30200, 0, Cagur
+	LRJ, N42.77440, W96.19250, 0, Le Mars
+
+line1 =
+	N42.85227, W98.14328
+	N42.80586, W97.96495
+	N42.84958, W97.88092
+	N42.87464, W97.69814
+	N42.88100, W97.41666
+	N42.86054, W97.23879
+	N42.81320, W97.16448
+	N42.76018, W97.01973
+	N42.70142, W96.80452
+	N42.63760, W96.67554
+
+[airport1]
+name = Joe Foss Field Airport
+code = KFSD
+runways =
+	rwy1, 03, N43.5726, W96.7537, 34.9, 8999, 0, 0, 1423
+	rwy2, 09, N43.578, W96.7475, 103.2, 3152, 0, 0, 1422
+	rwy3, 15, N43.5931, W96.7461, 155.0, 8000, 0, 0, 1426

@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 52
+center = N14.0472002029, W83.3867034912
+magneticvar = -1.191
+beacons =
+	PZA, N14.04520, W83.38830, 0, Puerto Cabezas
+
+line1 =
+	N13.32031, W83.56733
+	N13.73882, W83.49375
+	N13.99648, W83.41230
+	N14.05698, W83.34658
+	N14.15361, W83.28081
+	N14.26714, W83.21172
+	N14.34009, W83.18774
+	N14.74902, W83.29922
+	N14.76528, W83.34072
+	N14.76611, W83.37485
+	N14.82534, W83.41372
+	N14.87065, W83.38901
+	N14.90210, W83.34438
+	N14.89053, W83.30635
+	N14.80210, W83.30200
+	N14.81279, W83.27988
+	N14.93237, W83.21592
+	N14.95640, W83.18535
+	N14.99307, W83.15752
+	N15.04229, W83.22559
+
+line2 =
+	N14.63342, W84.53765
+	N14.64368, W84.45355
+	N14.69177, W84.39365
+	N14.70634, W84.33978
+	N14.68737, W84.29193
+	N14.69812, W84.26666
+	N14.73853, W84.26397
+	N14.74783, W84.23922
+	N14.72603, W84.19240
+	N14.72042, W84.15080
+	N14.73101, W84.11442
+	N14.75062, W84.10031
+	N14.77091, W84.09295
+	N14.78607, W84.06579
+	N14.77109, W83.97226
+	N14.79450, W83.86730
+	N14.85625, W83.75093
+	N14.88356, W83.67365
+	N14.87643, W83.63548
+	N14.90757, W83.58975
+	N14.97702, W83.53652
+	N15.00805, W83.41503
+	N14.99306, W83.15753
+
+[airport1]
+name = Puerto Cabezas Airport
+code = MNPC
+runways =
+	rwy1, 09, N14.0463, W83.3981, 92.1, 8130, 0, 0, 0

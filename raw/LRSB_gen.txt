@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1496
+center = N45.7855987549, E24.091299057
+magneticvar = 3.564
+beacons =
+	SIB, N45.78500, E24.15260, 0, Sibiu
+	TGM, N46.44690, E24.30660, 0, Targu Mures
+	DVA, N45.82800, E22.96890, 0, Deva
+	TGJ, N45.06080, E23.33410, 0, Targu Jiu
+
+[airport1]
+name = Sibiu International Airport
+code = LRSB
+runways =
+	rwy1, 09, N45.7858, E24.0786, 91.0, 6562, 0, 0, 1496

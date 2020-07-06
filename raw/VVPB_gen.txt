@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 48
+center = N16.4015007019, E107.70300293
+magneticvar = -0.478
+beacons =
+	HUE, N16.40110, E107.70300, 0, Phubai
+	PB, N16.39580, E107.77200, 0, Phubai
+	DAN, N16.05280, E108.19800, 0, Danang
+	D, N16.01710, E108.20400, 0, Danang
+	DJ, N15.97760, E108.20700, 0, Danang
+
+line1 =
+	N15.42661, E108.74277
+	N15.48359, E108.67422
+	N15.58472, E108.57783
+	N15.76270, E108.44746
+	N15.87246, E108.39531
+	N15.98906, E108.28604
+	N16.02905, E108.27402
+	N16.08979, E108.26738
+	N16.10078, E108.24082
+	N16.09106, E108.20898
+	N16.16367, E108.16973
+	N16.24272, E108.08799
+	N16.33110, E108.02939
+	N16.33711, E107.99072
+	N16.32939, E107.93633
+	N16.30962, E107.88203
+	N16.32246, E107.83379
+	N16.40308, E107.80313
+	N16.48784, E107.72412
+	N16.56807, E107.59346
+	N16.60864, E107.54082
+	N16.64258, E107.54932
+	N16.79375, E107.35508
+	N16.89795, E107.18037
+	N17.05552, E107.11992
+	N17.22139, E106.92617
+	N17.36719, E106.73574
+
+[airport1]
+name = Phu Bai Airport
+code = VVPB
+runways =
+	rwy1, 09, N16.4022, E107.69, 93.1, 8775, 0, 0, 0

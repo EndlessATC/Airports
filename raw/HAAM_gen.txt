@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3901
+center = N6.03939008713, E37.5904998779
+magneticvar = 1.235
+beacons =
+	AM, N6.05769, E37.60240, 0, Arba Minch
+
+line1 =
+	N6.57769, E38.05508
+	N6.57588, E38.10195
+	N6.57725, E38.13770
+	N6.55991, E38.14346
+	N6.51909, E38.12949
+	N6.47310, E38.11641
+	N6.44902, E38.10654
+	N6.42285, E38.08740
+	N6.38047, E38.05811
+	N6.30708, E38.01426
+	N6.20181, E37.94365
+	N6.10850, E37.87480
+	N6.07314, E37.84277
+	N6.04946, E37.80195
+	N6.01362, E37.73867
+	N6.01460, E37.70068
+	N6.04385, E37.69551
+	N6.08848, E37.70908
+	N6.13594, E37.74473
+	N6.17192, E37.79043
+	N6.18857, E37.82607
+	N6.22046, E37.86523
+	N6.26328, E37.88672
+	N6.36045, E37.87520
+	N6.45527, E37.86309
+	N6.49077, E37.86885
+	N6.54761, E37.93594
+	N6.58926, E38.01719
+	N6.57769, E38.05508
+	N6.57769, E38.05508
+	N6.57769, E38.05508
+	N6.57769, E38.05508
+
+line2 =
+	N6.54092, E38.72366
+	N6.45304, E38.76004
+
+line3 =
+	N6.95772, E37.43010
+	N6.89265, E37.39599
+	N6.87682, E37.34959
+	N6.82064, E37.30003
+	N6.72416, E37.24742
+	N6.65918, E37.16526
+	N6.62575, E37.05353
+	N6.63290, E36.98320
+	N6.68070, E36.95416
+	N6.70626, E36.87768
+	N6.70951, E36.75365
+	N6.63458, E36.57940
+
+[airport1]
+name = Arba Minch Airport
+code = HAAM
+runways =
+	rwy1, 03, N6.02869, E37.5837, 32.0, 9170, 0, 0, 3895

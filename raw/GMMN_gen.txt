@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 656
+center = N33.3675003052, W7.58997011185
+magneticvar = -2.588
+beacons =
+	BRC, N33.27860, W7.55733, 0, Casablanca
+	CBA, N33.52150, W7.67719, 0, Casablanca
+	BNS, N33.64180, W7.20800, 0, Ben Slimane
+	CAE, N33.61580, W7.11333, 0, Ben Slimane
+	CSD, N32.93360, W8.06500, 0, Daouarat
+	RBT, N34.05000, W6.74639, 0, Rabat
+	SBI, N34.17640, W6.66428, 0, Rabat
+
+line1 =
+	N34.13291, W6.75576
+	N33.96904, W6.90098
+	N33.83032, W7.14468
+	N33.64028, W7.56235
+	N33.37437, W8.30117
+	N33.25244, W8.51284
+	N33.18716, W8.59629
+	N32.92046, W8.83623
+
+[airport1]
+name = Mohammed V International Airport
+code = GMMN
+runways =
+	rwy1, 17L, N33.384, W7.59352, 164.0, 12205, 0, 0, 633
+	rwy2, 17R, N33.3831, W7.59743, 164.0, 12205, 0, 0, 636

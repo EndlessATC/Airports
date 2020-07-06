@@ -1,0 +1,117 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 659
+center = N50.6374015808, E5.44322013855
+magneticvar = -0.405
+beacons =
+	LG, N50.65010, E5.46677, 0, Liege
+	LGE, N50.65390, E5.47056, 0, Liege
+	ONL, N50.70110, E5.54917, 0, Liege
+	SPI, N50.51470, E5.62333, 0, Sprimont
+	LNO, N50.58580, E5.71028, 0, Olno
+	FLO, N50.87670, E5.13444, 0, Flora
+	GUL, N50.80730, E5.89546, 0, Gull
+	SLV, N50.47810, E5.91306, 0, Spa
+	ZL, N50.93400, E5.79261, 0, Maastricht Locator Zl
+	BBE, N50.75640, E4.76806, 0, Beauvechain
+	MAS, N50.97190, E5.96043, 0, Maastricht
+	NW, N51.01940, E5.87834, 0, Maastricht
+	GIX, N50.96330, E6.04520, 0, Geilenkirchen
+	HUL, N50.74940, E4.64167, 0, Huldenberg
+	BBL, N51.17030, E5.46639, 0, Kleine Brogel
+	ONT, N51.21330, E5.55750, 0, Kleine Brogel
+	ONC, N50.48940, E4.55528, 0, Charleroi
+	OB, N50.92030, E4.61639, 0, Brussels
+	THN, N51.18340, E5.83339, 0, Thorn
+	BUN, N51.11860, E4.84194, 0, Bruno
+	CC, N50.46890, E4.48472, 0, Charleroi Lctr
+	BUB, N50.90220, E4.53806, 0, Brussels
+	BFS, N50.24140, E4.65306, 0, Florennes
+	OZ, N50.82690, E4.46694, 0, Brussels
+	GSY, N50.45390, E4.44139, 0, Gosly
+	ONW, N51.16750, E4.56639, 0, Antwerpen
+	EHV, N51.44810, E5.37500, 0, Eindhoven
+	ANT, N51.19060, E4.47250, 0, Antwerpen
+	EHN, N51.46780, E5.39500, 0, Eindhoven
+	AFI, N50.90780, E4.13889, 0, Affligem
+	DIK, N49.86140, E6.12972, 0, Diekirch
+	DIK, N49.86140, E6.12972, 0, Diekirch
+	MHD, N51.23490, E6.49197, 0, Monchengladbach
+	MHV, N51.23730, E6.49024, 0, Monchengladbach
+	MGB, N51.22730, E6.50541, 0, Monchengladbach
+	NTM, N50.01590, E6.53179, 0, Nattenheim
+	LMA, N51.37080, E6.39500, 0, Lima
+	NIK, N51.16500, E4.18389, 0, Nicky
+	SPA, N49.97900, E6.69770, 0, Spangdahlem
+	DUS, N51.28320, E6.75373, 0, Dusseldorf
+	WDT, N51.44750, E4.34389, 0, Woensdrecht
+
+line1 =
+	N51.63345, E4.15801
+	N51.61030, E4.18262
+	N51.59585, E4.00479
+	N51.55112, E4.08047
+	N51.51929, E4.17549
+	N51.50391, E4.23936
+	N51.47163, E4.27412
+	N51.45669, E4.20576
+	N51.45576, E4.14131
+	N51.57422, E3.88604
+	N51.59604, E3.74395
+
+line2 =
+	N51.44990, E3.69355
+	N51.40937, E3.82188
+	N51.44321, E4.00654
+	N51.40151, E4.13887
+	N51.38647, E4.22617
+	N51.36064, E4.11152
+	N51.39595, E4.01104
+	N51.35449, E3.88340
+	N51.36914, E3.71650
+
+line3 =
+	N50.55916, E7.25675
+	N50.62161, E7.20362
+	N50.67319, E7.18450
+	N50.73422, E7.12507
+	N50.80468, E7.02544
+	N50.85261, E6.99454
+	N50.90402, E6.99454
+	N50.93834, E6.97325
+	N50.99808, E6.96839
+	N51.04009, E6.93770
+	N51.06427, E6.88106
+	N51.09719, E6.85098
+	N51.13884, E6.84747
+	N51.16887, E6.81631
+	N51.18726, E6.75750
+	N51.22726, E6.75972
+	N51.26819, E6.74112
+	N51.30276, E6.68955
+	N51.36446, E6.69838
+	N51.42182, E6.70717
+	N51.45782, E6.69761
+	N51.48678, E6.69342
+	N51.52440, E6.68748
+	N51.55923, E6.62392
+	N51.59184, E6.59301
+
+[airport1]
+name = Liège Airport
+code = EBLG
+runways =
+	rwy1, 04L, N50.6313, E5.43014, 45.0, 7677, 0, 0, 637
+	rwy2, 04R, N50.6271, E5.42792, 45.0, 12106, 774, 0, 652
+
+[airport2]
+name = Maastricht Aachen Airport
+code = BK
+runways =
+	rwy3, 03, N50.9018, E5.76005, 33.0, 8202, 820, 820, 365
+inboundbeacon = ZL

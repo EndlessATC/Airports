@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1385
+metric = true
+center = N42.364200592, E69.4788970947
+magneticvar = 5.159
+beacons =
+	SMK, N42.35860, E69.50470, 0, Shymkent
+	E, N42.37020, E69.45160, 0, Shymkent
+	I, N42.35830, E69.50670, 0, Shymkent
+	EN, N42.37760, E69.41690, 0, Shymkent
+	IM, N42.35050, E69.54250, 0, Shymkent
+
+line1 =
+	N41.46259, E68.08652
+	N41.65826, E68.05148
+	N41.83424, E68.06730
+	N41.99051, E68.13386
+	N42.08110, E68.18564
+	N42.09916, E68.20114
+	N42.13221, E68.20713
+	N42.15024, E68.19215
+	N42.18166, E68.18765
+	N42.23696, E68.25473
+	N42.30212, E68.28460
+	N42.37716, E68.27726
+	N42.44340, E68.25292
+	N42.50082, E68.21148
+	N42.55389, E68.20806
+	N42.60262, E68.24269
+	N42.66295, E68.25483
+	N42.73496, E68.24460
+	N42.76907, E68.22905
+	N42.79424, E68.22398
+	N42.82511, E68.20005
+	N42.86638, E68.13484
+	N42.90798, E68.11897
+	N42.94660, E68.12905
+	N42.99094, E68.08890
+	N43.03133, E67.92860
+
+[airport1]
+name = Shymkent Airport
+code = UAII
+runways =
+	rwy1, 10, N42.3678, E69.4628, 106.7, 9186, 0, 0, 1319

@@ -1,0 +1,83 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 97
+center = N44.194801, E12.0701
+magneticvar = 1.296
+beacons =
+	CEV, N44.26770, E12.18010, 0, Cervia
+	FOR, N44.24810, E11.92470, 0, Forli
+	CEV, N44.20650, E12.35720, 0, Cervia
+	RIM, N44.07900, E12.50600, 0, Rimini
+	RIM, N44.01520, E12.61660, 0, Rimini
+	BOA, N44.53700, E11.29070, 0, Bologna
+	FER, N44.81440, E11.61640, 0, Ferrara
+	BOA, N44.56730, E11.20020, 0, Bologna
+	PRT, N43.81040, E11.20150, 0, Peretola
+	FRZ, N44.02720, E11.00330, 0, Firenze
+
+line1 =
+	N43.37119, E10.44756
+	N43.20381, E10.52080
+
+line2 =
+	N43.38989, E13.69326
+	N43.57129, E13.56416
+	N43.61167, E13.50820
+	N43.68608, E13.29531
+	N43.92119, E12.90703
+	N43.99473, E12.69111
+	N44.13423, E12.48682
+	N44.22388, E12.39629
+	N44.42944, E12.30498
+	N44.72251, E12.24834
+	N44.83223, E12.27891
+	N44.83311, E12.31904
+	N44.79834, E12.38447
+	N44.84521, E12.46357
+	N44.89941, E12.49795
+	N44.96797, E12.52344
+	N45.03979, E12.39248
+
+line3 =
+	N45.16343, E13.61348
+	N45.10820, E13.62930
+
+line4 =
+	N44.93480, E10.49061
+	N44.92829, E10.55670
+	N44.95284, E10.62770
+	N44.98614, E10.66600
+	N45.02821, E10.67147
+	N45.05691, E10.73974
+	N45.07224, E10.87069
+	N45.07477, E11.02034
+	N45.06454, E11.18850
+	N45.02896, E11.31242
+	N44.96800, E11.39189
+	N44.92687, E11.47928
+	N44.90558, E11.57447
+	N44.91752, E11.68392
+	N44.98521, E11.86949
+	N45.01989, E12.08498
+	N45.01299, E12.19887
+	N44.97604, E12.28290
+	N44.96069, E12.37716
+	N44.96795, E12.52340
+
+[airport1]
+name = Forlì Airport
+code = LIPK
+runways =
+	rwy1, 12, N44.1998, E12.0567, 117.0, 7907, 0, 0, 97
+
+[airport2]
+name = Federico Fellini International Airport
+code = PR
+runways =
+	rwy2, 13, N44.0285, E12.597, 128.0, 9828, 1030, 1006, 21
+inboundbeacon = RIM

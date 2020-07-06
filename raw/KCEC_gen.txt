@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 61
+usa = true
+transition = 18001
+center = N41.78020096, W124.2369995
+magneticvar = 15.531
+beacons =
+	CEC, N41.77960, W124.24100, 0, Crescent City
+	ACV, N40.98140, W124.10800, 0, Arcata
+	CV, N40.96450, W124.09900, 0, Abeta
+
+line1 =
+	N42.67021, W124.44380
+	N42.58369, W124.40615
+	N42.38101, W124.42051
+	N42.30435, W124.41001
+	N42.12290, W124.35527
+	N42.00078, W124.22842
+	N41.98462, W124.21167
+	N41.88857, W124.20874
+	N41.78794, W124.24463
+	N41.71899, W124.16323
+	N41.62173, W124.11768
+	N41.45952, W124.07192
+	N41.38418, W124.06851
+	N41.15591, W124.14004
+	N40.96978, W124.13311
+	N40.82207, W124.19990
+	N40.79072, W124.21919
+
+line2 =
+	N41.27686, W123.77986
+	N41.30244, W123.83711
+	N41.36249, W123.88352
+	N41.46553, W123.93814
+	N41.52258, W123.99116
+	N41.53914, W124.06836
+	N41.53964, W124.09301
+
+line3 =
+	N41.88943, W122.73832
+	N41.89202, W122.81229
+	N41.86564, W122.88221
+	N41.82561, W122.99933
+	N41.83026, W123.09982
+	N41.86623, W123.22271
+	N41.81130, W123.34205
+	N41.66547, W123.45786
+	N41.53204, W123.51150
+	N41.41096, W123.50292
+	N41.31489, W123.53527
+	N41.24379, W123.60855
+	N41.22542, W123.67888
+	N41.27696, W123.77983
+
+[airport1]
+name = Jack Mc Namara Field Airport
+code = KCEC
+runways =
+	rwy1, 11, N41.785, W124.242, 133.0, 5002, 0, 0, 53
+	rwy2, 17, N41.7867, W124.236, 193.2, 5002, 0, 0, 57

@@ -1,0 +1,75 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = N41.8002778, E12.2388889
+magneticvar = 1.418
+beacons =
+	OST, N41.80380, E12.23750, 0, Ostia
+	OST, N41.80520, E12.23640, 0, Ostia
+	FW, N41.88090, E12.19880, 0, Fiumicino
+	FE, N41.83140, E12.35110, 0, Fiumicino
+	FN, N41.91070, E12.23460, 0, Fiumicino
+	PRA, N41.67970, E12.45280, 0, Pratica Di Mare
+	URB, N41.94510, E12.49010, 0, Urbe
+	CIA, N41.86490, E12.56080, 0, Ciampino
+	ROM, N41.80460, E12.58810, 0, Roma
+	TPR, N41.62160, E12.49380, 0, Pratica Di Mare
+	CMP, N42.12380, E12.38150, 0, Campagnano
+	CMP, N42.12500, E12.38040, 0, Campagnano
+	GUI, N41.99970, E12.73890, 0, Guidonia
+	TAQ, N42.21500, E11.73250, 0, Tarquinia
+	TAQ, N42.21400, E11.72890, 0, Tarquinia
+	LAT, N41.54110, E12.91810, 0, Latina
+	ITA, N41.54120, E12.91960, 0, Latina
+	LAT, N41.52440, E12.94360, 0, Latina
+	VIB, N42.44000, E12.05690, 0, Viterbo
+	FRS, N41.64390, E13.28970, 0, Frosinone
+	FRS, N41.64220, E13.29500, 0, Frosinone
+	BOL, N42.61830, E12.04860, 0, Bolsena
+
+line1 =
+	N42.73872, E10.93779
+	N42.53516, E11.16777
+	N42.45659, E11.18477
+	N42.44409, E11.14180
+	N42.41660, E11.10322
+	N42.38989, E11.14121
+	N42.39312, E11.18887
+	N42.41572, E11.24971
+	N42.42329, E11.29629
+	N42.36294, E11.49844
+	N42.28755, E11.63730
+	N42.08203, E11.80703
+	N41.94087, E12.07529
+	N41.81265, E12.20566
+	N41.46968, E12.63086
+	N41.40874, E12.84922
+	N41.30093, E13.02422
+	N41.26621, E13.04102
+	N41.24385, E13.08867
+	N41.27769, E13.18340
+	N41.28887, E13.24688
+	N41.27852, E13.36191
+	N41.23218, E13.55479
+	N41.25449, E13.66973
+	N41.23564, E13.73340
+
+[airport1]
+name = Leonardo da Vinci–Fiumicino Airport
+code = LIRF
+runways =
+	rwy1, 07, N41.7993, E12.2321, 70.0, 10849, 1365, 0, 7
+	rwy2, 16L, N41.846, E12.2615, 163.0, 12795, 0, 0, 14
+	rwy3, 16R, N41.8155, E12.2264, 163.0, 12795, 0, 1053, 7
+
+[airport2]
+name = Ciampino–G. B. Pastine International Airport
+code = RA
+runways =
+	rwy4, 15, N41.8081, E12.5888, 152.7, 7242, 0, 0, 341
+inboundbeacon = ROM

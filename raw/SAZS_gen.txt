@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2774
+center = S41.151199, W71.157501
+magneticvar = 8.063
+beacons =
+	B, S41.14260, W71.18250, 0, San Carlos De Bariloche
+	BAR, S41.14030, W71.18890, 0, San Carlos De Bariloche
+	OB, S41.12420, W71.24850, 0, San Carlos De Bariloche
+
+line1 =
+	S41.65938, W72.66978
+	S41.68408, W72.60083
+	S41.69063, W72.54238
+	S41.64590, W72.42773
+	S41.51387, W72.35947
+	S41.49902, W72.31826
+	S41.64912, W72.36040
+	S41.72207, W72.48604
+	S41.74248, W72.65986
+
+line2 =
+	S42.01055, W72.62397
+	S41.98086, W72.49941
+
+line3 =
+	S41.02578, W72.70322
+	S41.09961, W72.63940
+	S41.18359, W72.59902
+	S41.21445, W72.62944
+
+line4 =
+	S40.26025, W72.26519
+	S40.29219, W72.26289
+	S40.30215, W72.27285
+	S40.29932, W72.33096
+	S40.29287, W72.45728
+	S40.27207, W72.54741
+	S40.23457, W72.55801
+	S40.20117, W72.55229
+	S40.17168, W72.52861
+
+line5 =
+	S40.16631, W72.27329
+	S40.19160, W72.26665
+	S40.22148, W72.26953
+	S40.26025, W72.26519
+	S40.26025, W72.26519
+	S40.26025, W72.26519
+
+[airport1]
+name = San Carlos De Bariloche Airport
+code = SAZS
+runways =
+	rwy1, 11, S41.1468, W71.1703, 115.0, 7703, 0, 0, 2749

@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 966
+usa = true
+transition = 18001
+center = N40.09349823, W92.5448989868
+magneticvar = 2.058
+beacons =
+	IRK, N40.13500, W92.59170, 0, Kirksville
+	MCM, N39.65410, W92.48220, 0, Macon
+	BZK, N39.76420, W93.10910, 0, Brookfield
+	TVK, N40.68710, W92.89990, 0, Centerville
+	BEX, N40.74500, W92.43050, 0, Bloomfield
+	CHT, N39.77710, W93.49420, 0, Chillicothe
+	TRX, N40.08030, W93.59300, 0, Trenton
+
+line1 =
+	N39.60280, W91.20991
+	N39.74941, W91.37873
+	N39.82682, W91.42586
+	N39.94286, W91.46681
+	N40.09753, W91.50164
+	N40.22602, W91.49978
+	N40.37945, W91.44196
+	N40.39712, W91.39077
+	N40.44756, W91.38054
+	N40.53665, W91.39418
+	N40.60398, W91.33904
+	N40.64956, W91.21512
+	N40.74979, W91.10213
+
+line2 =
+	N39.15363, W94.02823
+	N39.18960, W93.91455
+	N39.21099, W93.77295
+	N39.21781, W93.60351
+	N39.23745, W93.51281
+	N39.26985, W93.50085
+	N39.27073, W93.46938
+	N39.24009, W93.41840
+	N39.27011, W93.34298
+	N39.36085, W93.24314
+	N39.35904, W93.10842
+	N39.26468, W92.93882
+	N39.19200, W92.87663
+	N39.14102, W92.92179
+
+[airport1]
+name = Kirksville Regional Airport
+code = KIRK
+runways =
+	rwy1, 09, N40.0978, W92.5501, 91.0, 1393, 0, 0, 0
+	rwy2, 18, N40.1007, W92.5442, 180.0, 6005, 0, 0, 966

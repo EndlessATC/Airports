@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+center = N71.9279022217, E114.080001831
+
+line1 =
+	N72.87832, E113.31152
+	N72.80586, E113.21553
+	N72.73887, E113.29814
+	N72.71104, E113.39141
+	N72.67710, E113.63008
+	N72.65415, E113.71191
+	N72.63452, E113.66455
+	N72.65737, E113.31221
+	N72.73018, E113.18613
+	N72.76948, E113.15820
+	N72.83066, E113.12783
+	N72.89722, E113.24736
+
+[airport1]
+name = Saskylakh Airport
+code = UERS

@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+center = N6.35723018646, E2.38435006142
+magneticvar = -3.476
+beacons =
+	TYE, N6.36214, E2.39325, 0, Cotonou
+	CO, N6.37081, E2.40250, 0, Cotonou
+
+line1 =
+	N6.14687, E1.31064
+	N6.21680, E1.62266
+	N6.26064, E1.81816
+	N6.32808, E2.28691
+	N6.36924, E2.70645
+	N6.37573, E2.77246
+	N6.39692, E3.33555
+	N6.52500, E3.43018
+	N6.53135, E3.50332
+
+line2 =
+	N6.47744, E3.54609
+	N6.45728, E3.48994
+	N6.42705, E3.45078
+	N6.40894, E3.48662
+
+[airport1]
+name = Cadjehoun Airport
+code = DBBB
+runways =
+	rwy1, 06, N6.35071, E2.37567, 53.0, 7874, 125, 0, 16

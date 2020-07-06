@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1289
+usa = true
+transition = 18001
+center = N44.3852005005, W98.2285003662
+magneticvar = 4.335
+beacons =
+	HON, N44.44010, W98.31110, 0, Huron
+	HO, N44.44390, W98.33680, 0, Beady
+	MHE, N43.77700, W98.03760, 0, Mitchell
+	AT, N44.80330, W97.15010, 0, Lican
+	MDS, N44.01390, W97.08840, 0, Wentworth
+	ATY, N44.97970, W97.14170, 0, Watertown
+
+line1 =
+	N43.99091, W99.36489
+	N43.89396, W99.32760
+	N43.81761, W99.35339
+	N43.72948, W99.42982
+	N43.67449, W99.44191
+	N43.65268, W99.38969
+	N43.59946, W99.34662
+	N43.51486, W99.31272
+	N43.41482, W99.19608
+
+line2 =
+	N44.12248, W99.80426
+	N44.11312, W99.68469
+	N44.13209, W99.64699
+	N44.17927, W99.69117
+	N44.20459, W99.68425
+	N44.20800, W99.62621
+	N44.17818, W99.58748
+	N44.11509, W99.56810
+	N44.06031, W99.50989
+	N43.99060, W99.36442
+
+[airport1]
+name = Huron Regional Airport
+code = KHON
+runways =
+	rwy1, 12, N44.3924, W98.2414, 128.1, 7201, 0, 0, 1288
+	rwy2, 17, N44.3904, W98.2257, 179.6, 5000, 0, 0, 1282

@@ -1,0 +1,91 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 782
+center = N45.673901, E9.70417
+magneticvar = 1.014
+beacons =
+	BEG, N45.66947, E9.70919, 0, BERGAMO
+	ORI, N45.64380, E9.84167, 0, Orio Al Serio
+	TZO, N45.55850, E9.50930, 0, Trezzo
+	TZO, N45.55930, E9.50719, 0, Trezzo
+	LIN, N45.46120, E9.27532, 0, Linate
+	LIN, N45.34430, E9.28858, 0, Linate
+	COD, N45.22630, E9.54117, 0, Codogno
+	GHE, N45.44030, E10.27670, 0, Ghedi
+	SRN, N45.64680, E9.02285, 0, Saronno
+	SRN, N45.64610, E9.02164, 0, Saronno
+	BSA, N45.43800, E10.31600, 0, Montichiari
+	MAL, N45.54580, E8.75626, 0, Malpensa
+	MAL, N45.64270, E8.73456, 0, Malpensa
+	NOV, N45.42410, E8.79386, 0, Novara
+	CAM, N45.57020, E8.65753, 0, Cameri
+	CAM, N45.42860, E8.70078, 0, Cameri
+	CVA, N46.41810, E9.82167, 0, Corvatsch
+	PIA, N44.91720, E9.72056, 0, Piacenza
+	GAZ, N45.20170, E10.60410, 0, Gazoldo
+	PIA, N44.87170, E9.82667, 0, Piacenza
+	VIL, N45.32440, E10.78600, 0, Villafranca
+	VOG, N44.96400, E8.97150, 0, Voghera
+	VOG, N44.96440, E8.97028, 0, Voghera
+
+line1 =
+	N45.21876, E8.18537
+	N45.19921, E8.36004
+	N45.16107, E8.49967
+	N45.11265, E8.59434
+	N45.05399, E8.64405
+	N45.05361, E8.80776
+	N45.14050, E9.22448
+	N45.09952, E9.46240
+	N45.09337, E9.50498
+	N45.11567, E9.54953
+	N45.12908, E9.60699
+	N45.11430, E9.65190
+	N45.08619, E9.69872
+	N45.08278, E9.73267
+	N45.10402, E9.75385
+	N45.10304, E9.78166
+	N45.07973, E9.81628
+	N45.08459, E9.84584
+	N45.11750, E9.87044
+	N45.13265, E9.90868
+	N45.12991, E9.96046
+	N45.10577, E10.00769
+	N45.06020, E10.05037
+	N45.02583, E10.15352
+	N45.00273, E10.31713
+	N44.97237, E10.42952
+	N44.93480, E10.49061
+	N44.92829, E10.55670
+	N44.95284, E10.62770
+	N44.98614, E10.66600
+	N45.02821, E10.67147
+	N45.05691, E10.73974
+	N45.07224, E10.87069
+	N45.07477, E11.02034
+	N45.06454, E11.18850
+	N45.02896, E11.31242
+
+line2 =
+	N46.48228, E8.25048
+	N46.37412, E8.06827
+
+[airport1]
+name = Il Caravaggio International Airport
+code = LIME
+runways =
+	rwy1, 10, N45.6712, E9.68906, 105.0, 9636, 312, 427, 779
+	rwy2, 12, N45.6782, E9.70152, 121.0, 2552, 210, 328, 782
+
+[airport2]
+name = Milano Linate Airport
+code = ML
+runways =
+	rwy3, 17, N45.458, E9.26826, 176.0, 1972, 0, 0, 353
+	rwy4, 18, N45.4562, E9.27587, 176.0, 8005, 0, 0, 353
+inboundbeacon = LIN

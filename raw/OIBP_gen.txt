@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 27
+center = N27.379601, E52.737701
+magneticvar = 1.589
+beacons =
+	PRG, N27.39320, E52.72500, 0, Persian Gulf
+	ASL, N27.48190, E52.61610, 0, Asaloyeh
+	LAM, N27.37280, E53.18400, 0, Lamerd
+	LAM, N27.36710, E53.19520, 0, Lamerd
+	JAM, N27.82180, E52.34290, 0, Jam
+	JAM, N27.82320, E52.33960, 0, Jam
+	LVA, N26.81210, E53.35590, 0, Lavan Island
+	LVA, N26.80000, E53.38630, 0, Lavan Island
+
+line1 =
+	N27.91001, E51.51855
+	N27.86421, E51.58906
+	N27.84497, E51.66631
+	N27.84824, E51.84199
+	N27.82441, E52.03076
+	N27.71729, E52.19189
+	N27.61650, E52.47588
+	N27.49336, E52.60264
+	N27.39199, E52.63818
+	N27.32339, E52.69160
+	N27.14194, E52.98252
+	N27.00449, E53.34170
+	N26.94326, E53.45498
+	N26.85176, E53.50713
+	N26.72559, E53.70576
+	N26.70771, E53.82256
+
+[airport1]
+name = Persian Gulf International Airport
+code = OIBP
+runways =
+	rwy1, 13, N27.3909, E52.7219, 128.8, 13115, 0, 0, 18

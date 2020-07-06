@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 967
+usa = true
+transition = 18001
+center = N48.5696983337, W81.376701355
+magneticvar = -11.281
+beacons =
+	YTS, N48.57190, W81.37000, 0, Timmins
+	TS, N48.56530, W81.45250, 0, Timmins
+	7P, N48.70840, W80.73590, 0, Iroquois Falls
+
+[airport1]
+name = Timmins/Victor M. Power
+code = CYTS
+runways =
+	rwy1, 03, N48.5631, W81.3789, 21.1, 6000, 0, 0, 955
+	rwy2, 10, N48.5697, W81.3867, 90.0, 4903, 0, 0, 959

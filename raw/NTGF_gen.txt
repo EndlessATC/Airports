@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = S16.0541000366, W145.656997681
+magneticvar = 12.221
+beacons =
+	FK, S16.05560, W145.65401, 0, Fakarava
+
+line1 =
+	S15.90107, W145.05767
+	S15.85605, W145.05137
+	S15.76201, W145.13354
+	S15.75703, W145.16074
+	S15.78809, W145.13794
+	S15.85762, W145.07642
+	S15.90107, W145.05767
+
+line2 =
+	S16.34678, W145.48223
+	S16.32979, W145.48667
+	S16.27783, W145.51699
+	S16.22461, W145.54233
+	S16.15986, W145.57710
+	S16.07920, W145.61382
+	S16.13184, W145.61279
+	S16.16523, W145.60913
+	S16.20146, W145.57671
+	S16.25117, W145.55312
+	S16.29512, W145.53984
+	S16.34580, W145.50273
+	S16.34678, W145.48223
+
+[airport1]
+name = Fakarava Airport
+code = NTGF
+runways =
+	rwy1, 05, S16.0564, W145.662, 64.6, 3871, 0, 0, 7

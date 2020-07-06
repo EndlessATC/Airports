@@ -1,0 +1,82 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 618
+usa = true
+transition = 18001
+center = N38.748697, W90.370003
+magneticvar = -1.152
+beacons =
+	CSX, N38.75270, W90.36090, 0, Cardinal
+	ST, N38.78810, W90.27890, 0, Zumay
+	LM, N38.80030, W90.47470, 0, Oblio
+	STL, N38.86070, W90.48240, 0, St Louis
+	FZ, N38.67700, W90.54760, 0, Eaves
+	CVM, N38.89230, W90.05630, 0, Civic Mem
+	SU, N38.63930, W90.76710, 0, Snoop
+	CP, N38.51980, W90.05950, 0, Acore
+	TOY, N38.73920, W89.91860, 0, Troy
+	AL, N38.85510, W89.93820, 0, Alpos
+	SKE, N38.54540, W89.85160, 0, Scott
+	FTZ, N38.69450, W90.97130, 0, Foristell
+	FES, N38.19590, W90.38760, 0, Festus
+	BL, N38.46470, W89.75640, 0, Belleville
+	JD, N38.47790, W89.73800, 0, Gooey
+	LTD, N39.16620, W89.66900, 0, Litchfield
+	GRE, N38.83420, W89.37230, 0, Greenville
+	SAR, N38.14530, W89.70230, 0, Sparta
+	UUV, N38.23540, W91.16400, 0, Sullivan
+	UBX, N38.06530, W91.42740, 0, Cuba
+	TAZ, N39.53610, W89.32360, 0, Taylorville
+
+line1 =
+	N37.88410, W89.82296
+	N37.96854, W89.96983
+	N38.00052, W90.06388
+	N38.06905, W90.17359
+	N38.17400, W90.29900
+	N38.25425, W90.36577
+	N38.30975, W90.37399
+	N38.45781, W90.31660
+	N38.78053, W90.15075
+	N38.81864, W90.13219
+	N38.83262, W90.12677
+	N38.84667, W90.13421
+	N38.85990, W90.14992
+	N38.89768, W90.22007
+	N38.93021, W90.35435
+	N38.94811, W90.47796
+	N38.90961, W90.57708
+	N38.98749, W90.66353
+	N39.18179, W90.73722
+	N39.38690, W90.91938
+	N39.60280, W91.20991
+
+line2 =
+	N38.66989, W91.80098
+	N38.70627, W91.61905
+	N38.70694, W91.43271
+	N38.66658, W91.23755
+	N38.58519, W91.03359
+	N38.57881, W90.87173
+	N38.64751, W90.75205
+	N38.68146, W90.66095
+	N38.68064, W90.59842
+	N38.73172, W90.51274
+	N38.83471, W90.40383
+	N38.85951, W90.31639
+	N38.84497, W90.25642
+	N38.81903, W90.13312
+
+[airport1]
+name = St Louis Lambert International Airport
+code = KSTL
+runways =
+	rwy1, 06, N38.7467, W90.3812, 63.0, 7602, 0, 0, 551
+	rwy2, 11, N38.76, W90.4099, 122.2, 9001, 0, 0, 618
+	rwy3, 12L, N38.7518, W90.3663, 122.0, 9003, 0, 0, 528
+	rwy4, 12R, N38.7539, W90.3792, 122.0, 11019, 467, 201, 540

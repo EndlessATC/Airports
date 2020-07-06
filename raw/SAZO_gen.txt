@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 72
+center = S38.4831, W58.8172
+
+line1 =
+	S38.83818, W59.82832
+	S38.79668, W59.67627
+	S38.67334, W59.00723
+	S38.43584, W58.17920
+	S38.16963, W57.64561
+	S38.08564, W57.54697
+	S37.90928, W57.50728
+	S37.74463, W57.39575
+
+[airport1]
+name = Necochea Airport
+code = SAZO
+runways =
+	rwy1, 13, S38.4897, W58.8143, 130.0, 2621, 0, 0, 0
+	rwy2, 17, S38.4851, W58.8092, 175.0, 3609, 0, 0, 0
+	rwy3, 18, S38.4829, W58.8156, 183.0, 4921, 0, 0, 0

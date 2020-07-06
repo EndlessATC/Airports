@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1133
+usa = true
+transition = 18001
+center = N50.7022018433, W120.444000244
+magneticvar = 17.468
+beacons =
+	XPP, N50.70610, W120.46000, 0, Kamloops
+	YKA, N50.68360, W120.33500, 0, Kamloops
+	YZA, N50.70170, W121.32200, 0, Ashcroft
+	V6, N50.68610, W119.23300, 0, Salmon Arm
+	6K, N50.35000, W119.26000, 0, Vernon Bc
+	LW, N50.06080, W119.41600, 0, Kelowna
+	EX, N49.93970, W119.37600, 0, Rutland
+
+line1 =
+	N51.51851, W122.26801
+	N51.40725, W122.22512
+	N51.34451, W122.23246
+	N51.22137, W122.14259
+	N51.03782, W121.95547
+	N50.90144, W121.85780
+	N50.81225, W121.84956
+	N50.76600, W121.86550
+	N50.76264, W121.90560
+	N50.74006, W121.92374
+	N50.69828, W121.91992
+	N50.61531, W121.86013
+	N50.49113, W121.74445
+	N50.30179, W121.62764
+	N50.04733, W121.50971
+	N49.79086, W121.44891
+
+[airport1]
+name = Kamloops Airport
+code = CYKA
+runways =
+	rwy1, 04, N50.6992, W120.443, 61.0, 2074, 0, 0, 1129
+	rwy2, 09, N50.7039, W120.456, 103.0, 8000, 0, 0, 1130

@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 809
+usa = true
+transition = 18001
+center = N29.533700943, W98.4698028564
+magneticvar = 5.119
+beacons =
+	SA, N29.47460, W98.51860, 0, Bluie
+	SAT, N29.64400, W98.46130, 0, San Antonio
+	AN, N29.60490, W98.57140, 0, Alamo
+	RND, N29.51920, W98.28520, 0, Randolph
+	KSY, N29.39160, W98.58100, 0, Kelly
+	DHK, N29.53690, W98.26780, 0, Randolph
+	SSF, N29.25840, W98.44350, 0, Stinson
+	CVB, N29.34610, W98.84920, 0, Castroville
+	HHH, N29.13830, W98.93930, 0, Devine
+	PEZ, N28.95500, W98.51860, 0, Pleasanton
+	ER, N29.91500, W99.00940, 0, Shein
+	RU, N29.95880, W97.94900, 0, Garys
+	HMA, N29.37340, W99.17200, 0, Hondo
+	HDO, N29.34910, W99.17790, 0, Hondo
+	STV, N30.20680, W98.70580, 0, Stonewall
+	CSI, N29.92230, W99.21450, 0, Center Point
+	AU, N30.23570, W97.62570, 0, Austi
+	GF, N30.28760, W97.68180, 0, Birdy
+
+[airport1]
+name = San Antonio International Airport
+code = KSAT
+runways =
+	rwy1, 03, N29.5232, W98.4699, 40.8, 7505, 0, 0, 786
+	rwy2, 12L, N29.5403, W98.4777, 131.6, 5519, 0, 0, 797
+	rwy3, 12R, N29.5427, W98.4855, 131.6, 8502, 0, 0, 809

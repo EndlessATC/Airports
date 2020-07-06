@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 534
+usa = true
+transition = 18001
+center = N46.688999, W68.0448
+magneticvar = -18.129
+beacons =
+	PQ, N46.61020, W68.01870, 0, Excal
+	PQI, N46.77420, W68.09450, 0, Presque Isle
+	YSL, N47.20780, W67.86970, 0, St Leonard
+	FVE, N47.26810, W68.25670, 0, Frenchville
+	HUL, N46.03950, W67.83420, 0, Houlton
+
+line1 =
+	N46.69953, W69.72915
+	N46.94251, W69.44891
+	N47.08020, W69.26148
+	N47.11260, W69.16683
+	N47.12198, W69.09640
+	N47.10834, W69.05017
+	N47.13547, W68.96093
+	N47.20332, W68.82871
+	N47.25345, W68.66854
+	N47.28580, W68.48039
+	N47.31616, W68.37691
+	N47.34453, W68.35802
+	N47.35447, W68.31089
+	N47.34595, W68.23549
+	N47.27484, W68.09679
+	N47.07418, W67.79374
+	N46.98385, W67.71134
+	N46.86794, W67.69772
+	N46.69637, W67.72542
+	N46.58450, W67.70204
+	N46.53230, W67.62757
+	N46.49153, W67.59868
+	N46.46213, W67.61543
+	N46.40722, W67.59783
+	N46.32673, W67.54595
+	N46.22726, W67.52822
+	N46.10871, W67.54466
+	N46.03047, W67.49732
+	N45.99254, W67.38622
+	N45.97730, W67.29168
+	N45.98474, W67.21364
+	N45.96371, W67.12305
+	N45.91420, W67.01991
+	N45.91247, W66.93464
+	N45.95851, W66.86720
+	N45.98236, W66.79610
+	N45.98489, W66.68393
+	N45.89854, W66.52351
+	N45.85782, W66.39351
+
+[airport1]
+name = Presque Isle International Airport
+code = KPQI
+runways =
+	rwy1, 01, N46.6812, W68.0456, 346.4, 7440, 0, 0, 454
+	rwy2, 10, N46.6843, W68.0508, 75.6, 5994, 0, 0, 473

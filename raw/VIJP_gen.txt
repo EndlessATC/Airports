@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1263
+center = N26.8242, E75.812202
+magneticvar = 0.304
+beacons =
+	JJP, N26.82490, E75.80070, 0, Jaipur
+	TRR, N27.36680, E75.56560, 0, Reengus/Asovo
+
+[airport1]
+name = Jaipur International Airport
+code = VIJP
+runways =
+	rwy1, 09, N26.8229, E75.7982, 84.0, 9177, 0, 0, 1262
+	rwy2, 15, N26.8351, E75.7946, 144.1, 5223, 0, 0, 0

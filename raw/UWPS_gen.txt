@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 676
+center = N54.1251296997, E45.2122573853
+magneticvar = 11.101
+beacons =
+	BK, N53.56670, E45.20000, 0, Lunino
+	FI, N53.60000, E44.11670, 0, Golitsyno
+	BT, N54.81670, E46.58330, 0, Alatyr
+
+[airport1]
+name = Saransk Airport
+code = UWPS

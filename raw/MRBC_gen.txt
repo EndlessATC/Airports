@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3
+center = N10.768699646, W83.5856018066
+magneticvar = -0.017
+beacons =
+	COL, N10.75330, W83.58330, 0, Barra Del Colorado
+	LIO, N9.96333, W83.02670, 0, Limon
+	TIO, N9.98361, W84.23610, 0, El Coco
+	HOR, N9.96053, W84.29350, 0, Horcones
+
+line1 =
+	N9.89941, W84.71494
+	N9.78940, W84.64307
+
+line2 =
+	N9.77095, W82.86631
+	N9.99126, W83.02852
+	N10.04160, W83.12461
+	N10.31538, W83.34683
+	N10.46592, W83.44824
+	N10.73472, W83.57529
+	N10.81499, W83.58818
+	N10.87749, W83.61729
+	N10.91724, W83.64199
+	N10.93384, W83.71406
+	N11.01025, W83.76792
+	N11.13052, W83.83184
+	N11.30005, W83.86787
+	N11.35366, W83.85908
+	N11.42817, W83.82939
+	N11.50396, W83.77661
+	N11.56650, W83.74497
+	N11.64204, W83.65176
+	N11.72388, W83.66431
+
+line3 =
+	N11.11769, W84.76914
+	N11.04403, W84.48827
+	N10.97990, W84.34828
+	N10.90073, W84.25555
+	N10.84133, W84.20496
+	N10.80172, W84.19659
+	N10.78035, W84.16835
+	N10.77570, W84.09621
+	N10.73537, W83.91929
+	N10.74325, W83.81118
+	N10.78588, W83.71295
+	N10.83686, W83.65894
+	N10.91476, W83.64148
+
+[airport1]
+name = Barra del Colorado Airport
+code = MRBC
+runways =
+	rwy1, 16, N10.7731, W83.5868, 164.4, 3281, 0, 0, 0
+
+[airport2]
+name = Aerotortuguero Airport
+code = AO
+runways =
+	rwy2, 02, N10.4137, W83.6014, 19.6, 3118, 0, 0, 0
+inboundbeacon = COL

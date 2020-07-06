@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N41.129722, E113.108056
+magneticvar = -5.423
+beacons =
+	TMR, N41.84500, E113.15000, 0, Tumurtai
+	HD, N41.86670, E113.15000, 0, Tumurtai
+	SZ, N40.52500, E112.49200, 0, Liangcheng
+	TZH, N40.41170, E114.05000, 0, Tianzhen
+	ZN, N40.44000, E114.08700, 0, Tianzhen
+
+[airport1]
+name = Ulanqab Jining Airport
+code = ZBUC

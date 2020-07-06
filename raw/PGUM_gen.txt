@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 298
+center = N13.4834003448, E144.796005249
+magneticvar = 1.220
+beacons =
+	AJA, N13.45490, E144.73700, 0, Mt Macajna
+	UNZ, N13.45450, E144.73300, 0, Nimitz
+	UAM, N13.59120, E144.94701, 0, Andersen
+	GRO, N14.17170, E145.24001, 0, Rota
+
+line1 =
+	N14.16362, E145.15215
+	N14.13691, E145.15742
+	N14.12100, E145.17959
+	N14.11133, E145.21533
+	N14.15811, E145.26484
+	N14.18022, E145.26543
+	N14.18945, E145.23242
+	N14.16362, E145.15215
+
+line2 =
+	N13.52686, E144.79033
+	N13.42871, E144.64932
+	N13.31348, E144.65000
+	N13.29106, E144.66279
+	N13.25752, E144.69951
+	N13.25928, E144.74180
+	N13.41113, E144.77988
+	N13.57031, E144.94082
+	N13.59902, E144.90967
+	N13.61465, E144.87539
+	N13.62236, E144.83672
+	N13.52686, E144.79033
+
+[airport1]
+name = Antonio B. Won Pat International Airport
+code = PGUM
+runways =
+	rwy1, 06L, N13.4789, E144.784, 65.0, 12015, 0, 0, 239
+	rwy2, 06R, N13.4772, E144.785, 65.0, 10014, 0, 0, 231

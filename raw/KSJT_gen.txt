@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1919
+usa = true
+transition = 18001
+center = N31.3577003479, W100.496002197
+magneticvar = 6.201
+beacons =
+	SJT, N31.37500, W100.45500, 0, San Angelo
+	SJ, N31.27990, W100.57600, 0, Woole
+	UBC, N31.68050, W99.97490, 0, Ballinger
+	IEW, N31.94600, W99.98800, 0, Winters
+	SOA, N30.58180, W100.64700, 0, Sonora
+	JCT, N30.59800, W99.81750, 0, Junction
+
+[airport1]
+name = San Angelo Regional Mathis Field
+code = KSJT
+runways =
+	rwy1, 03, N31.3497, W100.5, 43.2, 5939, 0, 0, 1917
+	rwy2, 09, N31.3612, W100.502, 97.5, 4402, 0, 0, 1903
+	rwy3, 18, N31.3688, W100.498, 187.3, 8049, 889, 0, 1899

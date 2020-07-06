@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1450
+metric = true
+center = N40.2154006958, E69.6947021484
+magneticvar = 4.437
+beacons =
+	HD, N40.20830, E69.63670, 0, Khudzhand
+	HV, N40.22170, E69.75830, 0, Khudzhand
+	FC, N40.40000, E69.28330, 0, Dalverzin
+	PF, N40.05000, E68.95000, 0, Ura Tyube
+	SW, N40.91670, E69.80000, 0, Karakhtay
+	UA, N40.98330, E69.38330, 0, Toytepa
+	CV, N40.81670, E68.68330, 0, Syrdarya
+
+line1 =
+	N40.43536, E70.35501
+	N40.37118, E70.31853
+	N40.33051, E70.18650
+	N40.27268, E69.82698
+	N41.10677, E68.45580
+	N41.12953, E68.17318
+
+line2 =
+	N40.84180, E71.10122
+	N40.82195, E71.06153
+	N40.80862, E71.02639
+	N40.79622, E70.96480
+	N40.75638, E70.86341
+	N40.66116, E70.69835
+	N40.43536, E70.35501
+
+line3 =
+	N40.27268, E69.82698
+	N40.30183, E69.68446
+	N40.28571, E69.56250
+	N40.23398, E69.41368
+	N40.22519, E69.29895
+	N40.25935, E69.21824
+	N40.33800, E69.15230
+	N40.46120, E69.10114
+	N40.53918, E69.08693
+	N40.57721, E69.09370
+	N40.59866, E69.08176
+	N40.65783, E69.01964
+	N40.79686, E68.81655
+	N40.89833, E68.70163
+	N40.96228, E68.67486
+	N41.02238, E68.61006
+	N41.10677, E68.45580
+
+[airport1]
+name = Khudzhand Airport
+code = UTDL
+runways =
+	rwy1, 08, N40.2135, E69.6762, 82.2, 10450, 975, 975, 1450

@@ -1,0 +1,81 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 144
+center = N42.740398407, E2.87067008018
+magneticvar = -0.202
+beacons =
+	PPG, N42.75050, E2.86714, 0, Perpignan
+	GRN, N42.02500, E2.80721, 0, Gerona
+	GIR, N41.93120, E2.77197, 0, Gerona
+	BAG, N41.95150, E3.20307, 0, Bagur
+	BGR, N41.94770, E3.20886, 0, Bagur
+
+line1 =
+	N41.76743, E3.00488
+	N41.86104, E3.14688
+	N41.94424, E3.24805
+	N42.08223, E3.23809
+	N42.11113, E3.22461
+	N42.13599, E3.17520
+	N42.16245, E3.15039
+	N42.25649, E3.16641
+	N42.26035, E3.21865
+	N42.28896, E3.30674
+	N42.34370, E3.28789
+	N42.36787, E3.23984
+	N42.43115, E3.21143
+	N42.46118, E3.19785
+	N42.59087, E3.09092
+	N42.83789, E3.04307
+	N42.91514, E3.05176
+	N43.08076, E3.16289
+	N43.19321, E3.25889
+	N43.46162, E3.78477
+	N43.51636, E3.86162
+	N43.56309, E3.91084
+	N43.59307, E4.05264
+	N43.58184, E4.07510
+	N43.56304, E4.11309
+	N43.50366, E4.16279
+	N43.47964, E4.22422
+	N43.45640, E4.37617
+	N43.44722, E4.40977
+
+line2 =
+	N42.62696, E1.80902
+	N42.69305, E1.82493
+	N42.73217, E1.79139
+	N42.78349, E1.67497
+	N42.85645, E1.61626
+	N42.97009, E1.59353
+	N43.14863, E1.58722
+	N43.29762, E1.54040
+	N43.41527, E1.45447
+
+line3 =
+	N43.65020, E4.44017
+	N43.62690, E4.43563
+	N43.61326, E4.44374
+	N43.59103, E4.43377
+	N43.56029, E4.37889
+	N43.52814, E4.37124
+	N43.44722, E4.40974
+
+line4 =
+	N43.41527, E1.45447
+	N43.41704, E1.45317
+	N43.51368, E1.40935
+	N43.58762, E1.40883
+	N43.68860, E1.36150
+
+[airport1]
+name = Perpignan-Rivesaltes (Llabanère) Airport
+code = LFMP
+runways =
+	rwy1, 13, N42.7398, E2.86544, 127.0, 4150, 404, 1158, 143
+	rwy2, 15, N42.7541, E2.86171, 148.0, 8202, 0, 557, 130

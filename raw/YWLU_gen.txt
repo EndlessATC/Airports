@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1649
+usa = true
+center = S26.6291999817, E120.221000671
+magneticvar = 1.283
+beacons =
+	WLU, S26.62470, E120.22000, 0, Wiluna
+	MNE, S27.28690, E120.54900, 0, Mount Keith
+
+[airport1]
+name = Wiluna Airport
+code = YWLU
+runways =
+	rwy1, 03, S26.6372, E120.216, 34.0, 3999, 0, 0, 1639
+	rwy2, 15, S26.6266, E120.217, 147.0, 5942, 0, 0, 1649

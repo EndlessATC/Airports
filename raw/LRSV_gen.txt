@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1375
+center = N47.6875, E26.3540992737
+magneticvar = 5.005
+beacons =
+	SCV, N47.67230, E26.36080, 0, Suceava
+	CR, N48.21300, E26.01490, 0, Chernivtsi
+	R, N48.24130, E26.01490, 0, Chernivtsi
+	N, N48.27630, E25.96660, 0, Chernivtsi
+	CN, N48.29800, E25.94830, 0, Chernivtsi
+	IAS, N47.23430, E27.57970, 0, Iasi
+
+line1 =
+	N48.65892, E25.73123
+	N48.65987, E25.78058
+	N48.64918, E25.82698
+	N48.60752, E25.89406
+	N48.60194, E25.95793
+	N48.61380, E26.00542
+	N48.61724, E26.03663
+	N48.57228, E26.07193
+	N48.56267, E26.09291
+	N48.57215, E26.13037
+	N48.54724, E26.16872
+	N48.52944, E26.25311
+	N48.53513, E26.39790
+	N48.51668, E26.49847
+	N48.47410, E26.55479
+	N48.46629, E26.59107
+	N48.49327, E26.60730
+	N48.50422, E26.63882
+	N48.51657, E26.66838
+	N48.53900, E26.69432
+	N48.54996, E26.72047
+	N48.56184, E26.75871
+	N48.56479, E26.78403
+	N48.57908, E26.80377
+	N48.58256, E26.83498
+	N48.55825, E26.88356
+	N48.56034, E26.99668
+	N48.60055, E27.27191
+	N48.58365, E27.43298
+	N48.50960, E27.47990
+	N48.46490, E27.57375
+	N48.44950, E27.71441
+	N48.41627, E27.82004
+	N48.36521, E27.89063
+	N48.33356, E27.96339
+	N48.32129, E28.03842
+	N48.29581, E28.08013
+
+[airport1]
+name = Suceava Stefan cel Mare Airport
+code = LRSV
+runways =
+	rwy1, 16, N47.6952, E26.3506, 163.0, 5906, 0, 0, 1375

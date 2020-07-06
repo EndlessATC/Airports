@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 761
+metric = true
+center = N50.351295, E80.234398
+magneticvar = 7.064
+beacons =
+	S, N50.35410, E80.27360, 0, Semipalatinsk
+	SP, N50.35700, E80.31660, 0, Semipalatinsk
+
+line1 =
+	N50.20231, E81.95317
+	N50.22758, E81.77457
+	N50.29484, E81.61417
+	N50.32520, E81.48245
+	N50.31869, E81.37941
+	N50.33778, E81.24830
+	N50.38245, E81.08904
+	N50.39217, E80.96294
+	N50.36698, E80.87003
+	N50.36044, E80.69102
+	N50.37253, E80.42592
+	N50.40995, E80.24185
+	N50.47273, E80.13871
+	N50.49578, E80.01871
+	N50.47914, E79.88187
+	N50.51671, E79.70194
+	N50.60844, E79.47900
+	N50.66208, E79.31281
+	N50.67758, E79.20336
+	N50.66701, E79.11593
+	N50.63035, E79.05030
+	N50.65086, E78.89950
+	N50.76729, E78.54531
+
+[airport1]
+name = Semipalatinsk Airport
+code = UASS
+runways =
+	rwy1, 02, N50.3453, E80.2305, 23.5, 3270, 0, 0, 695
+	rwy2, 08, N50.3498, E80.2127, 84.1, 10159, 0, 0, 761

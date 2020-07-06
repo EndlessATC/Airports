@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5956
+center = N20.9935, W101.481003
+magneticvar = 7.097
+beacons =
+	BJX, N20.99730, W101.48300, 0, Leon
+	AGU, N21.71140, W102.31900, 0, Aguascalientes
+
+line1 =
+	N20.19370, W102.71060
+	N20.18164, W102.70029
+	N20.16182, W102.71265
+
+line2 =
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+
+[airport1]
+name = Del Bajío International Airport
+code = MMLO
+runways =
+	rwy1, 13, N21.0044, W101.493, 134.0, 11483, 0, 0, 5956

@@ -1,0 +1,75 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 98
+center = N18.5725002289, W69.9856033325
+magneticvar = -10.404
+beacons =
+	HGR, N18.57170, W69.98410, 0, Higuero
+	HER, N18.46760, W69.97020, 0, Herrera
+	HIJ, N18.51420, W69.76580, 0, San Isidro
+	SIS, N18.50440, W69.76250, 0, San Isidro
+	LAS, N18.57810, W69.72440, 0, Guerra
+	CDO, N18.43290, W69.66730, 0, Punta Caucedo
+
+line1 =
+	N18.98848, W68.90137
+	N19.01318, W69.03130
+	N19.02847, W69.16304
+	N19.05190, W69.28022
+	N19.08608, W69.39526
+	N19.10762, W69.50835
+	N19.11782, W69.62363
+	N19.16050, W69.62324
+	N19.20649, W69.60596
+	N19.21201, W69.51973
+	N19.20107, W69.32275
+	N19.22568, W69.26426
+	N19.27183, W69.23247
+	N19.32773, W69.32495
+	N19.29922, W69.73940
+	N19.36714, W69.82344
+	N19.47329, W69.87832
+
+line2 =
+	N18.07002, W71.10601
+	N18.12837, W71.08262
+	N18.22437, W71.08223
+	N18.25034, W71.06997
+	N18.27319, W71.02783
+	N18.29248, W70.92432
+	N18.34561, W70.75884
+	N18.33623, W70.64468
+	N18.26758, W70.56543
+	N18.21729, W70.47993
+	N18.25176, W70.18311
+	N18.27710, W70.14160
+	N18.34565, W70.06333
+	N18.37363, W70.01831
+	N18.41772, W69.89639
+	N18.44355, W69.77065
+	N18.43638, W69.64473
+	N18.41567, W69.51943
+	N18.42012, W69.39697
+	N18.43984, W69.27451
+	N18.39922, W69.07227
+	N18.40801, W68.93496
+	N18.33931, W68.81953
+	N18.26611, W68.77847
+
+[airport1]
+name = La Isabela International Airport
+code = MDJB
+runways =
+	rwy1, 01, N18.5651, W69.9865, 6.4, 5412, 0, 0, 38
+
+[airport2]
+name = Las Américas International Airport
+code = SD
+runways =
+	rwy2, 17, N18.444, W69.6742, 161.0, 11000, 0, 0, 39
+inboundbeacon = CDO

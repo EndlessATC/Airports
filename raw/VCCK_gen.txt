@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N5.99368000031, E80.3202972412
+magneticvar = -2.527
+beacons =
+	KG, N5.99500, E80.32330, 0, Koggala
+
+line1 =
+	N6.82930, E79.85938
+	N6.58452, E79.94697
+	N6.36440, E80.00723
+	N6.15317, E80.09531
+	N6.00977, E80.26738
+	N5.94937, E80.49580
+	N5.97905, E80.72412
+	N6.08838, E80.97109
+	N6.20386, E81.30625
+	N6.24092, E81.37998
+
+[airport1]
+name = Koggala Airport
+code = VCCK
+runways =
+	rwy1, 07, N5.99218, E80.3162, 69.7, 3142, 0, 0, 0

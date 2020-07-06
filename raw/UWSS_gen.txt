@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 499
+center = N51.5649986267, E46.0466995239
+magneticvar = 9.105
+beacons =
+	SA, N51.57670, E46.02500, 0, Saratov
+	DK, N51.54330, E46.09830, 0, Saratov
+	OH, N51.59170, E45.98500, 0, Saratov
+	US, N51.81330, E46.39330, 0, Elshanka
+	KR, N51.04330, E45.64830, 0, Krasnoarmeysk
+
+line1 =
+	N50.56684, E45.73342
+	N50.64657, E45.67983
+	N50.69649, E45.67518
+	N50.74176, E45.74370
+	N50.78248, E45.88550
+	N50.82406, E45.98089
+	N50.86648, E46.02988
+	N50.92503, E46.04378
+	N50.99968, E46.02260
+	N51.06590, E45.96782
+	N51.12362, E45.87945
+	N51.18819, E45.83579
+	N51.25956, E45.83672
+	N51.32191, E45.86969
+	N51.37518, E45.93470
+	N51.42275, E45.97118
+	N51.46466, E45.97934
+	N51.50616, E46.03267
+	N51.54719, E46.13138
+	N51.61432, E46.21840
+	N51.70754, E46.29385
+	N51.74581, E46.36537
+	N51.77325, E46.47719
+	N51.75214, E46.56577
+	N51.74395, E46.67966
+	N51.74793, E46.77464
+
+line2 =
+	N52.12480, E47.90083
+	N52.06631, E47.77505
+	N52.04303, E47.64363
+	N52.05491, E47.50659
+	N51.98096, E47.27270
+	N51.91880, E47.11426
+	N51.83017, E46.97081
+	N51.77296, E46.84255
+	N51.74793, E46.77464
+
+[airport1]
+name = Saratov Central Airport
+code = UWSS
+runways =
+	rwy1, 12, N51.5717, E46.0333, 131.0, 7485, 0, 0, 440

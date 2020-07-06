@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1096
+center = N7.92757, W72.5115
+magneticvar = -6.399
+beacons =
+	CUC, N7.93346, W72.51350, 0, Cucuta
+	UC, N7.95306, W72.52920, 0, Cucuta
+	CU, N8.03694, W72.57970, 0, Cucuta
+	PRM, N7.80306, W72.19980, 0, Paramillo
+	LFA, N8.24472, W72.26810, 0, La Fria
+	STD, N7.56972, W72.01870, 0, Santo Domingo
+	EPL, N7.51861, W71.96370, 0, El Pinal
+	BGA, N7.13156, W73.18440, 0, Bucaramanga
+
+[airport1]
+name = Camilo Daza International Airport
+code = SKCC
+runways =
+	rwy1, 02, N7.91789, W72.5145, 17.0, 6341, 0, 0, 1046
+	rwy2, 16, N7.94034, W72.5196, 148.0, 7700, 0, 0, 1098
+
+[airport2]
+name = San Antonio Del Tachira Airport
+code = SA
+runways =
+	rwy3, 17, N7.84901, W72.4419, 165.5, 6135, 0, 0, 0
+inboundbeacon = CUC

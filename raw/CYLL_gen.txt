@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2193
+usa = true
+transition = 18001
+center = N53.3092002869, W110.072998047
+magneticvar = 15.474
+beacons =
+	1T, N53.31330, W110.08000, 0, Lloydminster
+	YLL, N53.31310, W110.08200, 0, Lloydminster
+	YWV, N52.98140, W110.83300, 0, Wainwright
+	8M, N53.89030, W110.76800, 0, Elk Point
+	8H, N53.99190, W111.39100, 0, St Paul
+
+line1 =
+	N53.90782, W111.91978
+	N53.90157, W111.80196
+	N53.86968, W111.73744
+	N53.81217, W111.72628
+	N53.77393, W111.57763
+	N53.75496, W111.29155
+	N53.77202, W111.09427
+	N53.82498, W110.98580
+	N53.85077, W110.85827
+	N53.84937, W110.71166
+	N53.80142, W110.56252
+	N53.70690, W110.41090
+	N53.66835, W110.30174
+	N53.68577, W110.23500
+	N53.66078, W110.12332
+	N53.59345, W109.96664
+	N53.56412, W109.82624
+	N53.57280, W109.70201
+	N53.54872, W109.61255
+	N53.49188, W109.55778
+	N53.45167, W109.53452
+	N53.42821, W109.54277
+	N53.40868, W109.48192
+	N53.39315, W109.35200
+	N53.35969, W109.23645
+	N53.30832, W109.13522
+	N53.21582, W109.02218
+	N53.08224, W108.89733
+	N52.97088, W108.70966
+	N52.88184, W108.45924
+	N52.81853, W108.34343
+	N52.78107, W108.36235
+	N52.75528, W108.36080
+	N52.73425, W108.32780
+	N52.73425, W108.33400
+
+[airport1]
+name = Lloydminster Airport
+code = CYLL
+runways =
+	rwy1, 08, N53.3092, W110.085, 90.0, 5577, 0, 0, 2193
+	rwy2, 11, N53.3113, W110.091, 122.0, 1500, 0, 0, 2187

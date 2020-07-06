@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 129
+center = S5.09236001968, E39.0712013245
+magneticvar = -1.455
+beacons =
+	TG, S5.09393, E39.07200, 0, Tanga
+	PA, S5.25804, E39.81450, 0, Pemba
+
+line1 =
+	S5.95117, E39.36826
+	S5.81152, E39.35723
+	S5.72197, E39.30898
+	S5.85313, E39.26699
+	S5.93105, E39.19238
+	S6.08320, E39.20625
+
+line2 =
+	S5.44385, E39.74932
+	S5.39443, E39.79590
+	S5.25547, E39.85303
+	S5.15518, E39.85898
+	S5.00400, E39.85566
+	S4.95654, E39.87100
+	S4.90615, E39.86504
+	S4.94492, E39.78076
+	S4.92705, E39.67344
+	S5.11367, E39.70107
+	S5.36855, E39.64678
+	S5.40664, E39.67344
+	S5.42949, E39.70762
+	S5.44385, E39.74932
+
+line3 =
+	S6.07012, E38.80469
+	S5.87764, E38.81924
+	S5.62598, E38.91104
+	S5.51855, E38.97822
+	S5.23154, E39.05830
+	S5.16543, E39.08799
+	S5.06543, E39.11875
+	S4.98047, E39.12324
+	S4.77646, E39.20186
+	S4.69238, E39.22178
+	S4.66553, E39.22813
+	S4.60859, E39.28750
+	S4.62549, E39.37695
+	S4.47842, E39.49092
+	S4.15283, E39.63711
+	S4.11914, E39.65801
+
+[airport1]
+name = Tanga Airport
+code = HTTG
+runways =
+	rwy1, 06, S5.09507, E39.0661, 62.0, 4160, 0, 0, 128

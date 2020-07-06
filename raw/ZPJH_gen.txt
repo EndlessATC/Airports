@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1815
+metric = true
+center = N21.9738998413, E100.760002136
+magneticvar = -0.551
+beacons =
+	BNN, N21.98460, E100.75200, 0, Xishuangbanna
+	JHG, N21.86330, E100.93200, 0, Ganlanba
+
+line1 =
+	N22.88734, E100.31318
+	N22.74368, E100.34739
+	N22.63562, E100.41530
+	N22.56317, E100.51700
+	N22.50157, E100.56692
+	N22.45083, E100.56506
+	N22.39781, E100.58790
+	N22.34254, E100.63554
+	N22.30582, E100.64681
+	N22.28758, E100.62180
+	N22.26815, E100.63182
+	N22.24743, E100.67688
+	N22.20518, E100.70474
+	N22.14139, E100.71538
+	N22.04734, E100.77000
+	N21.92311, E100.86860
+	N21.84497, E100.98374
+	N21.81296, E101.11541
+	N21.78942, E101.16559
+	N21.77438, E101.13427
+	N21.70511, E101.12817
+	N21.58163, E101.14729
+	N21.46866, E101.08037
+	N21.36622, E100.92751
+	N21.31420, E100.81951
+	N21.31265, E100.75662
+	N21.25139, E100.70314
+	N21.13039, E100.65921
+	N21.05934, E100.61368
+	N21.03817, E100.56666
+	N20.99239, E100.53617
+
+[airport1]
+name = Xishuangbanna Gasa Airport
+code = ZPJH
+runways =
+	rwy1, 16, N21.9833, E100.756, 160.0, 7218, 0, 0, 1808

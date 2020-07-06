@@ -1,0 +1,75 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1481
+center = S9.76879024506, W139.011001587
+magneticvar = 10.398
+beacons =
+	HV, S9.77139, W139.01601, 0, Hiva Oa
+	AN, S9.75222, W139.00101, 0, Hiva Oa
+	UK, S8.93581, W139.55099, 0, Ua Huka
+
+line1 =
+	S9.69521, W139.02432
+	S9.77021, W139.16646
+	S9.82949, W139.13408
+	S9.84570, W139.07368
+	S9.82070, W139.02427
+	S9.79287, W138.87495
+	S9.74160, W138.82734
+	S9.74717, W138.87446
+	S9.69521, W139.02432
+
+line2 =
+	S9.92627, W139.13423
+	S10.00957, W139.13398
+	S9.93135, W139.05972
+	S9.91543, W139.08315
+	S9.91543, W139.10747
+	S9.92627, W139.13423
+
+line3 =
+	S10.53242, W138.68774
+	S10.51533, W138.65112
+	S10.49219, W138.63237
+	S10.46299, W138.62446
+	S10.44590, W138.64292
+	S10.42559, W138.69038
+	S10.53242, W138.68774
+
+line4 =
+	S8.93398, W140.17056
+	S8.91045, W140.07261
+	S8.87363, W140.04614
+	S8.83848, W140.04370
+	S8.80146, W140.05767
+
+line5 =
+	S9.35938, W140.14438
+	S9.38438, W140.13804
+	S9.44414, W140.09736
+	S9.42598, W140.07563
+	S9.34473, W140.03110
+	S9.32812, W140.07095
+	S9.35938, W140.14438
+
+line6 =
+	S8.87539, W139.53457
+	S8.86006, W139.58398
+	S8.87236, W139.61177
+	S8.89854, W139.63179
+	S8.94795, W139.62100
+	S8.94023, W139.55620
+	S8.91563, W139.50991
+	S8.89707, W139.50835
+	S8.87539, W139.53457
+
+[airport1]
+name = Hiva Oa-Atuona Airport
+code = NTMN
+runways =
+	rwy1, 02, S9.77344, W139.014, 31.3, 3986, 0, 0, 1428

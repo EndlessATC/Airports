@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3627
+center = S17.9564990997, E19.7194004059
+
+line1 =
+	S17.57004, E18.58815
+	S17.70326, E18.71806
+	S17.76631, E18.82601
+	S17.80356, E18.95531
+	S17.81767, E19.07649
+	S17.80847, E19.18945
+	S17.82547, E19.37714
+	S17.86862, E19.63935
+	S17.88134, E19.91179
+	S17.86366, E20.19435
+	S17.88743, E20.39300
+	S17.95255, E20.50762
+	S17.99668, E20.62513
+	S18.01978, E20.74554
+	S18.00608, E20.90832
+
+[airport1]
+name = Rundu Airport
+code = FYRU
+runways =
+	rwy1, 08, S17.9612, E19.7044, 72.0, 11004, 0, 0, 3627
+	rwy2, 18, S17.949, E19.7222, 171.0, 4806, 0, 0, 0

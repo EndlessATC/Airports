@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 919
+center = N27.837600708, W0.186414003372
+magneticvar = -1.160
+beacons =
+	ADR, N27.81700, W0.20587, 0, Adrar
+	ADR, N27.78530, W0.23028, 0, Adrar
+
+[airport1]
+name = Touat Cheikh Sidi Mohamed Belkebir Airport
+code = DAUA
+runways =
+	rwy1, 04, N27.8272, W0.196111, 40.0, 9843, 0, 0, 915

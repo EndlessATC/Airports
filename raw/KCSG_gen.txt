@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 397
+usa = true
+transition = 18001
+center = N32.5163002014, W84.9389038086
+magneticvar = -4.065
+beacons =
+	CS, N32.45200, W85.04190, 0, Fenix
+	CSG, N32.61530, W85.01760, 0, Columbus
+	LSF, N32.33240, W84.99330, 0, Lawson
+	AWS, N32.29320, W85.02330, 0, Lawson
+	PIM, N32.84290, W84.87240, 0, Pine Mountain
+	AU, N32.50930, W85.43720, 0, Opole
+	LGC, N33.04910, W85.20620, 0, Lagrange
+	EUF, N31.95020, W85.13050, 0, Eufaula
+	TGE, N32.48460, W85.66930, 0, Tuskegee
+	OP, N32.91930, W84.18710, 0, Yates
+	EQQ, N33.25680, W84.71270, 0, Coweta County
+	LKG, N32.17450, W84.10820, 0, Lindbergh
+	IZS, N32.36740, W84.00740, 0, Montezuma
+	FF, N33.30060, W84.48640, 0, Pecat
+	JHH, N33.18430, W84.22750, 0, Griffin
+
+line1 =
+	N31.63538, W85.06721
+	N31.77677, W85.12482
+	N31.88053, W85.12413
+	N32.05052, W85.06441
+
+line2 =
+	N32.62248, W86.26817
+	N32.52690, W86.24251
+	N32.46205, W86.30989
+
+line3 =
+	N31.63518, W85.06705
+	N31.57267, W85.05488
+
+line4 =
+	N33.49581, W84.92119
+	N33.39626, W85.03710
+	N33.32329, W85.07720
+	N33.25247, W85.08894
+	N33.18374, W85.07219
+	N33.10739, W85.09632
+	N33.02344, W85.16133
+	N32.93716, W85.18451
+	N32.80428, W85.15653
+	N32.52615, W85.01504
+	N32.40929, W84.97390
+	N32.36094, W84.98597
+	N32.31981, W84.96850
+	N32.28588, W84.92153
+	N32.24656, W84.92969
+	N32.20183, W84.99297
+	N32.14737, W85.03462
+	N32.05104, W85.06457
+
+[airport1]
+name = Columbus Metropolitan Airport
+code = KCSG
+runways =
+	rwy1, 06, N32.5112, W84.9453, 53.8, 6997, 0, 0, 376
+	rwy2, 13, N32.5187, W84.9488, 127.0, 3997, 0, 0, 397

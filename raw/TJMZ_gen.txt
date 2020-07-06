@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 28
+center = N18.2556991577, W67.1484985352
+magneticvar = -12.256
+beacons =
+	MAZ, N18.25650, W67.15100, 0, Mayaguez
+	BQN, N18.49800, W67.10840, 0, Borinquen
+	PSE, N17.99250, W66.51920, 0, Ponce
+	DDP, N18.46830, W66.41240, 0, Dorado
+
+line1 =
+	N18.46899, W66.07041
+	N18.46899, W66.09268
+	N18.42803, W66.06841
+	N18.42520, W66.09849
+	N18.44492, W66.12939
+	N18.47065, W66.15308
+	N18.47578, W66.18857
+	N18.49253, W66.81289
+	N18.52217, W67.05962
+	N18.51479, W67.11304
+	N18.49922, W67.15864
+	N18.43579, W67.17178
+	N18.39360, W67.21338
+	N18.36460, W67.26406
+	N18.32065, W67.23896
+	N18.28340, W67.20415
+	N18.22422, W67.17246
+	N18.15254, W67.17432
+	N17.99419, W67.19687
+	N17.96670, W67.14238
+	N17.96787, W67.01333
+	N17.95376, W66.96123
+	N17.94790, W66.90000
+	N17.95508, W66.83760
+	N17.98657, W66.77241
+	N17.97788, W66.59844
+	N17.98701, W66.51079
+	N17.95059, W66.40854
+	N17.96416, W66.32578
+	N17.94995, W66.28589
+	N17.94727, W66.24502
+	N17.94946, W66.13550
+	N17.97437, W65.97080
+
+line2 =
+	N18.53809, W68.35928
+	N18.61152, W68.33916
+
+[airport1]
+name = Eugenio Maria De Hostos Airport
+code = TJMZ
+runways =
+	rwy1, 09, N18.254, W67.1555, 76.0, 4998, 0, 0, 28
+
+[airport2]
+name = Rafael Hernandez Airport
+code = BQ
+runways =
+	rwy2, 08, N18.49, W67.1454, 72.0, 11702, 0, 0, 237
+inboundbeacon = BQN

@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 82
+center = N67.4372024536, E86.6219024658
+magneticvar = 17.006
+beacons =
+	IGR, N67.43000, E86.64170, 0, Igarka
+
+line1 =
+	N68.38053, E86.40137
+	N68.30245, E86.52364
+	N68.21369, E86.53563
+	N68.11432, E86.43734
+	N68.01564, E86.43641
+	N67.92821, E86.48013
+	N67.84041, E86.45083
+	N67.74847, E86.34742
+	N67.65995, E86.28613
+	N67.57314, E86.28820
+	N67.48797, E86.35342
+	N67.43676, E86.44669
+	N67.41955, E86.56793
+	N67.35899, E86.61821
+	N67.25517, E86.59764
+	N67.18419, E86.61769
+	N67.14611, E86.67856
+	N67.09309, E86.69841
+	N67.02511, E86.67743
+	N66.94243, E86.68807
+	N66.84502, E86.73034
+	N66.74662, E86.63030
+	N66.64730, E86.38794
+	N66.58457, E86.28634
+	N66.55831, E86.32572
+	N66.56382, E86.47734
+	N66.60108, E86.74146
+	N66.55682, E87.03245
+
+[airport1]
+name = Igarka Airport
+code = UOII

@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 89
+usa = true
+transition = 18001
+center = N31.3274002075, W92.5497970581
+magneticvar = 2.356
+beacons =
+	AEX, N31.25670, W92.50100, 0, Alexandria
+	ESF, N31.44750, W92.32190, 0, Esler
+	ES, N31.39210, W92.18200, 0, Andra
+	MKV, N31.09550, W92.07260, 0, Marksville
+	BWK, N30.86540, W92.23410, 0, Bunkie
+	IE, N31.65740, W93.07760, 0, Campi
+	FXU, N31.11160, W93.21790, 0, Polk
+	GUV, N31.02820, W93.18490, 0, Gator
+	IFJ, N31.96290, W92.65710, 0, Winnfield
+	SWB, N31.97320, W92.67710, 0, Sawmill
+	LRR, N30.64120, W92.68920, 0, Allen Parish
+	VED, N31.10240, W93.34190, 0, Leesville
+	ECY, N30.55980, W92.44810, 0, Eunice
+	OPL, N30.65550, W92.09840, 0, St Landry
+	DR, N30.75210, W93.33470, 0, Idder
+
+line1 =
+	N30.32817, W91.18725
+	N30.35179, W91.19513
+	N30.36843, W91.22561
+	N30.40249, W91.23528
+	N30.47946, W91.21792
+	N30.50486, W91.22644
+	N30.53408, W91.25807
+	N30.56521, W91.25703
+	N30.61457, W91.27603
+	N30.70619, W91.33832
+	N30.74381, W91.38767
+	N30.75334, W91.42266
+	N30.75598, W91.52908
+	N30.78003, W91.55707
+	N30.81473, W91.54660
+	N30.85378, W91.52327
+	N30.87104, W91.52637
+	N30.90835, W91.54560
+	N30.93811, W91.61836
+	N30.95243, W91.64629
+	N30.97201, W91.65970
+	N30.99599, W91.65722
+	N31.02955, W91.65262
+	N31.06490, W91.61104
+	N31.10991, W91.59637
+	N31.21760, W91.63081
+	N31.27695, W91.61825
+	N31.28791, W91.55870
+	N31.34519, W91.52896
+	N31.44875, W91.52901
+	N31.51870, W91.50573
+	N31.55497, W91.45909
+	N31.63998, W91.41470
+	N31.77372, W91.37253
+	N31.88397, W91.28649
+
+[airport1]
+name = Alexandria International Airport
+code = KAEX
+runways =
+	rwy1, 14, N31.3379, W92.5592, 144.0, 9352, 0, 0, 84
+	rwy2, 18, N31.3367, W92.5443, 189.0, 7001, 0, 0, 84

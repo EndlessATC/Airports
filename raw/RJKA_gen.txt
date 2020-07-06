@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 27
+center = N28.4305992126, E129.712997437
+magneticvar = -4.565
+beacons =
+	AME, N28.43470, E129.71100, 0, Kasari
+	ALC, N28.44370, E129.58400, 0, Amami
+	KI, N28.31780, E129.92400, 0, Kikai
+	TKE, N27.82480, E128.88200, 0, Tokunoshima
+
+line1 =
+	N27.91025, E128.95166
+	N27.89800, E128.90762
+	N27.84243, E128.88281
+	N27.72778, E128.90000
+	N27.70249, E128.95625
+	N27.72080, E128.99814
+	N27.77021, E129.01641
+	N27.81113, E128.98975
+	N27.91025, E128.95166
+
+line2 =
+	N28.47588, E129.59805
+	N28.46128, E129.57715
+	N28.43105, E129.56055
+	N28.39751, E129.50967
+	N28.39526, E129.46455
+	N28.35962, E129.32246
+	N28.31357, E129.25088
+	N28.28252, E129.24785
+	N28.26294, E129.21709
+	N28.24976, E129.16465
+	N28.20088, E129.27490
+	N28.12773, E129.36641
+	N28.20898, E129.45254
+	N28.25479, E129.43906
+	N28.27231, E129.45674
+	N28.29873, E129.51270
+	N28.36118, E129.57461
+	N28.41128, E129.64170
+	N28.43213, E129.71045
+	N28.46963, E129.71465
+	N28.51748, E129.68955
+	N28.47588, E129.59805
+
+line3 =
+	N28.17617, E129.25742
+	N28.19248, E129.19248
+	N28.10112, E129.23242
+	N28.08159, E129.33057
+	N28.10493, E129.32402
+	N28.14473, E129.27734
+	N28.17617, E129.25742
+
+[airport1]
+name = Amami Airport
+code = RJKA
+runways =
+	rwy1, 03, N28.4225, E129.708, 26.0, 6560, 0, 0, 27
+
+[airport2]
+name = Kikai Airport
+code = KI
+runways =
+	rwy2, 07, N28.3184, E129.921, 65.9, 4307, 185, 185, 21
+inboundbeacon = KI

@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 49
+center = N43.616299, E13.3623
+magneticvar = 1.474
+beacons =
+	FAL, N43.62820, E13.37350, 0, Falconara
+	FAL, N43.57690, E13.29950, 0, Falconara
+	ANC, N43.58640, E13.47110, 0, Ancona
+	ANC, N43.58670, E13.47220, 0, Ancona
+	RIM, N44.01520, E12.61660, 0, Rimini
+	RIM, N44.07900, E12.50600, 0, Rimini
+	PRU, N43.10170, E12.51190, 0, Perugia
+	CEV, N44.20650, E12.35720, 0, Cervia
+
+line1 =
+	N44.54473, E14.88467
+	N44.48584, E14.91279
+
+line2 =
+	N44.11719, E14.95254
+	N44.16797, E14.86504
+	N44.12554, E14.89131
+
+line3 =
+	N42.68955, E14.01045
+	N42.85156, E13.92490
+	N43.18037, E13.80469
+	N43.38989, E13.69326
+	N43.57129, E13.56416
+	N43.61167, E13.50820
+	N43.68608, E13.29531
+	N43.92119, E12.90703
+	N43.99473, E12.69111
+	N44.13423, E12.48682
+	N44.22388, E12.39629
+	N44.42944, E12.30498
+
+[airport1]
+name = Ancona Falconara Airport
+code = LIPY
+runways =
+	rwy1, 04, N43.6069, E13.3494, 45.0, 9718, 641, 492, 47

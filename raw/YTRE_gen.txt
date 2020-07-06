@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 38
+usa = true
+center = S31.8885993958, E152.514007568
+magneticvar = 12.087
+beacons =
+	TRE, S31.88950, E152.50900, 0, Taree
+	PMQ, S31.43560, E152.86700, 0, Port Macquarie
+	KMP, S31.05830, E152.78999, 0, Kempsey
+
+line1 =
+	S30.90713, E153.04785
+	S31.08662, E153.02158
+	S31.20879, E152.98223
+	S31.43486, E152.94395
+	S31.78633, E152.78584
+	S32.04570, E152.55928
+	S32.24307, E152.54531
+	S32.33018, E152.51660
+	S32.43906, E152.47041
+	S32.55752, E152.33125
+	S32.60869, E152.24746
+	S32.67813, E152.21572
+	S32.67813, E152.13652
+	S32.69990, E152.13457
+	S32.72168, E152.18809
+	S32.75742, E152.16426
+	S32.82031, E151.95430
+
+[airport1]
+name = Taree Airport
+code = YTRE
+runways =
+	rwy1, 04, S31.8928, E152.51, 45.0, 4934, 377, 0, 32
+	rwy2, 12, S31.8845, E152.508, 138.0, 1850, 308, 0, 34

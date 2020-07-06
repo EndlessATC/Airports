@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 48
+center = N42.431702, E14.1811
+magneticvar = 1.548
+beacons =
+	PES, N42.43610, E14.18440, 0, Pescara
+	FRS, N41.64220, E13.29500, 0, Frosinone
+	FRS, N41.64390, E13.28970, 0, Frosinone
+
+line1 =
+	N41.91323, E15.40498
+	N41.93403, E15.16875
+	N42.05254, E14.86611
+	N42.24429, E14.54072
+	N42.50645, E14.18271
+	N42.68955, E14.01045
+	N42.85156, E13.92490
+	N43.18037, E13.80469
+	N43.38989, E13.69326
+
+[airport1]
+name = Pescara International Airport
+code = LIBP
+runways =
+	rwy1, 04, N42.4228, E14.172, 37.5, 7933, 344, 617, 46

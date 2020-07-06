@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3962
+center = N35.689201355, E51.3134002686
+magneticvar = 3.555
+beacons =
+	TRN, N35.69700, E51.28380, 0, Tehran
+	THR, N35.69890, E51.28030, 0, Tehran
+	AA, N35.63370, E51.41780, 0, Aliabad
+	KAZ, N35.51670, E51.36690, 0, Kahrizak
+	IKA, N35.40970, E51.17850, 0, Imam Khomeini
+	PIM, N35.76200, E50.85160, 0, Payam
+	PIM, N35.76180, E50.84940, 0, Payam
+	RUS, N35.44510, E50.90130, 0, Rudeshur
+	VR, N35.34270, E51.63720, 0, Varamin
+	SAV, N35.01860, E50.37140, 0, Saveh
+
+line1 =
+	N36.62173, E52.19014
+	N36.61450, E51.76201
+
+[airport1]
+name = Mehrabad International Airport
+code = OIII
+runways =
+	rwy1, 09, N35.6987, E51.3238, 89.0, 1554, 0, 0, 0
+	rwy2, 11L, N35.6966, E51.2922, 109.0, 13098, 0, 0, 3962
+	rwy3, 11R, N35.6947, E51.2916, 109.0, 13248, 3075, 0, 3949
+
+[airport2]
+name = Imam Khomeini International Airport
+code = IE
+runways =
+	rwy4, 11L, N35.4253, E51.1222, 109.0, 13772, 0, 0, 3305
+	rwy5, 11R, N35.4237, E51.1215, 108.8, 13940, 0, 1972, 3305
+inboundbeacon = IKA
+
+[airport3]
+name = Payam International Airport
+code = IP
+runways =
+	rwy6, 12, N35.7861, E50.8109, 128.0, 12005, 0, 0, 4164
+inboundbeacon = PIM

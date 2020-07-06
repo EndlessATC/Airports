@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = N32.8941001892, E13.2760000229
+magneticvar = 1.327
+beacons =
+	MTG, N32.89280, E13.27110, 0, Mitiga
+	TPI, N32.66250, E13.15560, 0, Tripoli
+	TRO, N32.79580, E12.82780, 0, Joday
+	ABU, N32.46280, E13.16940, 0, Abu Argub
+	ZAW, N32.77860, E12.64640, 0, Zawia
+	KDR, N32.36670, E13.61670, 0, Kadra
+
+line1 =
+	N32.51108, E14.51338
+	N32.55029, E14.42383
+	N32.68125, E14.23711
+	N32.70977, E14.15566
+	N32.79180, E13.83535
+	N32.79883, E13.64775
+	N32.82427, E13.53633
+	N32.91465, E13.28350
+	N32.89736, E13.13809
+	N32.80107, E12.75352
+	N32.82910, E12.42705
+	N32.85854, E12.27988
+
+[airport1]
+name = Mitiga Airport
+code = HLLM
+runways =
+	rwy1, 03, N32.8919, E13.2731, 29.9, 6000, 0, 0, 36
+	rwy2, 11, N32.8952, E13.2695, 105.4, 11076, 0, 0, 32
+
+[airport2]
+name = Tripoli International Airport
+code = LT
+runways =
+	rwy3, 09, N32.6631, E13.1288, 90.0, 11815, 0, 0, 262
+	rwy4, 18, N32.6798, E13.1581, 177.3, 8650, 0, 375, 240
+inboundbeacon = TPI

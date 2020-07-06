@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = S14.2785997391, E50.1747016907
+magneticvar = -11.368
+beacons =
+	SA, S14.27870, E50.17720, 0, Sambava
+	AH, S14.99890, E50.31790, 0, Antalaha
+
+line1 =
+	S13.57793, E50.07344
+	S14.04023, E50.17383
+	S14.51445, E50.20459
+	S14.73203, E50.23535
+	S14.93682, E50.31348
+	S15.14932, E50.44131
+
+[airport1]
+name = Sambava Airport
+code = FMNS
+runways =
+	rwy1, 16, S14.2739, E50.1717, 151.9, 4577, 0, 0, 20

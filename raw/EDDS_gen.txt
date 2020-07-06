@@ -1,0 +1,87 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1276
+center = N48.6898994446, E9.22196006775
+magneticvar = 1.187
+beacons =
+	SGD, N48.68790, E9.22411, 0, Stuttgart
+	SY, N48.66920, E9.11420, 0, Stuttgart
+	TGO, N48.61840, E9.25921, 0, Tango
+	SG, N48.71130, E9.33504, 0, Stuttgart
+	LBU, N48.91300, E9.34023, 0, Luburg
+	SUL, N48.38160, E8.64484, 0, Sulz
+	KRH, N48.99290, E8.58424, 0, Karlsruhe
+	SHD, N49.11650, E9.77816, 0, Schwabisch
+	MEG, N48.05440, E9.36755, 0, Mengen
+	LUP, N48.21800, E9.91087, 0, Laupheim
+	NKR, N49.33670, E8.73291, 0, Neckar
+	KBA, N48.79800, E8.09755, 0, Karlsruhe Baden Baden
+	KBD, N48.78020, E8.08849, 0, Karlsruhe Baden Baden
+	NDG, N48.82940, E10.41870, 0, Nordlingen
+	HDL, N49.38600, E8.59676, 0, Heidelberg
+	DKB, N49.14280, E10.23830, 0, Dinkelsbuhl
+	NSN, N49.39480, E9.96500, 0, Niederstetten
+	DVI, N47.96070, E8.52271, 0, Donaueschingen
+	DON, N47.96070, E8.52255, 0, Donaueschingen
+	MND, N49.47060, E8.51598, 0, Mannheim
+	ILM, N49.47190, E10.38790, 0, Illesheim
+
+line1 =
+	N47.77212, E9.11318
+	N47.78218, E9.13203
+	N47.73330, E9.23076
+
+line2 =
+	N48.04681, E8.21979
+	N47.93072, E8.49006
+	N47.93630, E8.69583
+	N47.97635, E8.83587
+	N48.05270, E8.97871
+	N48.08642, E9.13188
+	N48.07753, E9.29538
+	N48.11613, E9.42106
+	N48.20233, E9.50880
+	N48.24395, E9.58870
+	N48.24098, E9.66073
+	N48.28909, E9.78403
+	N48.38826, E9.95880
+	N48.45291, E10.12717
+	N48.48309, E10.28912
+	N48.51621, E10.38503
+	N48.55233, E10.41469
+	N48.60670, E10.52358
+	N48.67941, E10.71157
+
+line3 =
+	N47.77362, E7.53859
+	N47.90566, E7.59326
+	N48.00257, E7.60846
+	N48.06430, E7.58417
+	N48.15680, E7.61662
+	N48.28005, E7.70571
+	N48.41002, E7.76514
+	N48.54683, E7.79480
+	N48.63605, E7.83795
+	N48.69853, E7.92275
+	N48.96544, E8.23002
+
+line4 =
+	N48.96544, E8.23002
+	N49.21400, E8.41730
+	N49.33037, E8.48592
+	N49.39740, E8.49822
+	N49.43621, E8.48892
+	N49.44675, E8.45781
+	N49.50509, E8.42184
+	N49.61124, E8.38081
+
+[airport1]
+name = Stuttgart Airport
+code = EDDS
+runways =
+	rwy1, 07, N48.6857, E9.20013, 74.0, 10974, 984, 0, 1267

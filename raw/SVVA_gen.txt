@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1411
+center = N10.1497325897, W67.9283981323
+magneticvar = -10.035
+beacons =
+	VAL, N10.14790, W67.92280, 0, Valencia
+	VLC, N10.15200, W67.94240, 0, Valencia
+	PBL, N10.48700, W68.07650, 0, Puerto Cabello
+	BAL, N10.18610, W67.54700, 0, El Libertador
+	SSB, N9.95919, W67.15090, 0, San Sebastian
+	NOL, N10.43970, W67.15900, 0, No Leon
+	SPE, N10.28470, W68.75400, 0, San Felipe
+
+line1 =
+	N10.61064, W66.98906
+	N10.57041, W67.13330
+	N10.52373, W67.58135
+	N10.47207, W67.87163
+	N10.49272, W68.13994
+	N10.56914, W68.23408
+	N10.68936, W68.29629
+	N10.80874, W68.32471
+	N10.88003, W68.27207
+	N10.94932, W68.32480
+	N11.05283, W68.34316
+
+[airport1]
+name = Arturo Michelena International Airport
+code = SVVA
+runways =
+	rwy1, 10, N10.1504, W67.942, 92.8, 9842, 0, 0, 1415
+
+[airport2]
+name = Escuela Mariscal Sucre Airport
+code = BS
+runways =
+	rwy2, 06, N10.2453, W67.6551, 50.8, 4453, 0, 0, 0
+	rwy3, 11, N10.253, W67.6615, 104.1, 6846, 0, 0, 0
+inboundbeacon = BAL

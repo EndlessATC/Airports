@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 162
+center = N26.1061000824, E91.585899353
+magneticvar = -0.245
+beacons =
+	GGT, N26.10190, E91.58570, 0, Guwahati
+	GT, N26.10880, E91.60270, 0, Guwahati
+	BR, N25.70610, E91.97570, 0, Barapani
+	BPN, N25.70650, E91.97870, 0, Barapani
+
+line1 =
+	N26.61205, E92.78703
+	N26.57957, E92.65593
+	N26.53823, E92.61510
+	N26.52143, E92.54384
+	N26.52929, E92.44214
+	N26.49492, E92.31243
+	N26.41839, E92.15472
+	N26.36092, E92.07110
+	N26.32250, E92.06170
+	N26.27046, E91.96579
+	N26.16388, E91.64384
+	N26.14781, E91.54679
+	N26.15065, E91.43626
+	N26.18321, E91.25038
+	N26.20471, E91.15240
+	N26.19153, E91.05225
+	N26.15081, E90.91717
+	N26.15504, E90.75976
+	N26.20429, E90.57993
+	N26.17435, E90.35607
+
+[airport1]
+name = Lokpriya Gopinath Bordoloi International Airport
+code = VEGT
+runways =
+	rwy1, 02, N26.0947, E91.5806, 22.8, 9000, 0, 0, 162
+
+[airport2]
+name = Shillong Airport
+code = BI
+runways =
+	rwy2, 04, N25.6973, E91.973, 39.0, 6000, 1000, 0, 2911
+inboundbeacon = BPN

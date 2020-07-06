@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7316
+center = N19.4363, W99.072098
+magneticvar = 5.485
+beacons =
+	MEX, N19.43930, W99.06680, 0, Mexico
+	MW, N19.39370, W99.14950, 0, Plaza
+	SMO, N19.55570, W99.22830, 0, Mateo
+	TPX, N19.61140, W98.96040, 0, Tepexpan
+	SLM, N19.74280, W99.02980, 0, Lucia
+	OTU, N19.68310, W98.77640, 0, Otumba
+	TLC, N19.35240, W99.57160, 0, Toluca
+	CVJ, N18.83140, W99.25940, 0, Cuernavaca
+	APN, N19.63720, W98.39860, 0, Apan
+	CUA, N18.78530, W98.90080, 0, Cuautla
+	PTJ, N19.64570, W99.79800, 0, Pasteje
+	PBC, N19.16090, W98.37020, 0, Puebla
+	TEQ, N18.67610, W99.25530, 0, Tequesquitengo
+	PCA, N20.13180, W98.68440, 0, Pachuca
+
+[airport1]
+name = Licenciado Benito Juarez International Airport
+code = MMMX
+runways =
+	rwy1, 05L, N19.4276, W99.0905, 59.4, 12966, 1034, 1641, 7309
+	rwy2, 05R, N19.427, W99.0858, 59.4, 12795, 1493, 0, 7316

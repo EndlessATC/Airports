@@ -1,0 +1,86 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 132
+usa = true
+transition = 18001
+center = N47.990799, W66.330299
+magneticvar = -19.367
+beacons =
+	CL, N48.00890, W66.43690, 0, Charlo
+	2F, N47.63140, W65.74440, 0, Bathurst
+	1F, N47.63060, W65.74470, 0, Manta
+
+line1 =
+	N47.87246, W64.59111
+	N47.86304, W64.66328
+	N47.79355, W64.66050
+	N47.75361, W64.68457
+	N47.74761, W64.66465
+	N47.75190, W64.62129
+
+line2 =
+	N47.06079, W64.83140
+	N47.08618, W64.94243
+	N47.08882, W65.04238
+	N47.04956, W65.19209
+	N47.06924, W65.26021
+	N47.10122, W65.31890
+	N47.23379, W65.08613
+	N47.36865, W64.91221
+	N47.56987, W64.85215
+	N47.67349, W64.76631
+	N47.72485, W64.70322
+	N47.79722, W64.87397
+	N47.79302, W65.04639
+	N47.84683, W65.00166
+	N47.81128, W65.22817
+	N47.76792, W65.34395
+	N47.68701, W65.48350
+	N47.67002, W65.60723
+	N47.69614, W65.66646
+	N47.85977, W65.75571
+	N47.91104, W65.84941
+	N47.98857, W66.21021
+	N48.06064, W66.35962
+	N48.06694, W66.42881
+	N48.01108, W66.63154
+	N48.02246, W66.70439
+	N48.11963, W66.44897
+	N48.09790, W66.32427
+	N48.11733, W66.24863
+	N48.10269, W66.08311
+	N48.14668, W66.01255
+	N48.18887, W65.92671
+	N48.11167, W65.75469
+	N48.03149, W65.47588
+	N48.01113, W65.36001
+	N48.02124, W65.25942
+	N48.10625, W65.03608
+	N48.15986, W64.95991
+	N48.19648, W64.82207
+	N48.22808, W64.76450
+	N48.31060, W64.70576
+	N48.36050, W64.63315
+
+line3 =
+	N48.96416, W67.11748
+	N48.85596, W67.56089
+	N48.73091, W67.88901
+
+[airport1]
+name = Charlo Airport
+code = CYCL
+runways =
+	rwy1, 12, N47.9925, W66.3433, 105.0, 6000, 0, 0, 132
+
+[airport2]
+name = Bathurst Airport
+code = BF
+runways =
+	rwy2, 10, N47.6288, W65.748, 82.0, 4500, 0, 0, 193
+inboundbeacon = 1F

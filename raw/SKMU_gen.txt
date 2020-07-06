@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 680
+center = N1.25366, W70.2339
+magneticvar = -7.461
+beacons =
+	MTU, N1.25601, W70.23010, 0, Mitu
+	MTU, N1.24234, W70.23650, 0, Mitu
+
+line1 =
+	N2.05812, W70.33614
+	N2.10995, W69.96683
+	N2.15904, W69.68331
+	N2.20444, W69.52637
+
+[airport1]
+name = Fabio Alberto Leon Bentley Airport
+code = SKMU
+runways =
+	rwy1, 02, N1.2457, W70.2355, 11.0, 5889, 0, 0, 526

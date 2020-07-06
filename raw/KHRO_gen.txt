@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1365
+usa = true
+transition = 18001
+center = N36.2615013123, W93.1547012329
+magneticvar = 2.204
+beacons =
+	HR, N36.19110, W93.16020, 0, Bakky
+	HRO, N36.31830, W93.21330, 0, Harrison
+	PLK, N36.62760, W93.22990, 0, Point Lookout
+	FLP, N36.29960, W92.45840, 0, Flippin
+	RO, N36.46120, W94.06950, 0, Rogrs
+	RZC, N36.24640, W94.12140, 0, Razorback
+	DGD, N37.02350, W92.87690, 0, Dogwood
+	AOV, N36.96980, W92.67740, 0, Bilmart
+	CZE, N35.46920, W93.42350, 0, Clarksville
+
+line1 =
+	N35.36332, W93.35815
+	N35.41500, W93.52137
+	N35.39944, W93.68249
+	N35.42073, W93.79657
+	N35.47882, W93.86364
+	N35.49422, W93.95752
+	N35.46685, W94.07823
+	N35.43406, W94.13944
+	N35.39582, W94.14110
+	N35.37332, W94.16208
+	N35.36655, W94.20236
+	N35.38533, W94.26752
+	N35.42962, W94.35762
+	N35.41513, W94.42966
+	N35.34182, W94.48361
+	N35.31366, W94.52926
+	N35.33071, W94.56657
+
+[airport1]
+name = Boone County Airport
+code = KHRO
+runways =
+	rwy1, 18, N36.2699, W93.1537, 186.0, 6161, 0, 0, 1363

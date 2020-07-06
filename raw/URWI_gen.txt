@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 501
+center = N46.3739013672, E44.3308982849
+magneticvar = 7.102
+beacons =
+	SA, N46.38000, E44.27000, 0, Elista
+	BV, N46.36830, E44.39500, 0, Elista
+
+[airport1]
+name = Elista Airport
+code = URWI
+runways =
+	rwy1, 09, N46.3752, E44.3173, 97.8, 6562, 0, 0, 501
+	rwy2, 09L, N46.3758, E44.3171, 97.5, 7555, 0, 0, 0

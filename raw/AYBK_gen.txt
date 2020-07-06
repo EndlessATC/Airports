@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 11
+center = S5.42231988907, E154.67300415
+magneticvar = 7.199
+beacons =
+	BUK, S5.44302, E154.66701, 0, Buka
+
+line1 =
+	S6.38047, E155.82256
+	S6.29570, E155.73418
+	S6.22080, E155.63848
+	S6.19619, E155.58105
+	S6.18154, E155.51934
+	S6.14512, E155.46699
+	S5.97441, E155.37256
+	S5.93174, E155.32305
+	S5.86523, E155.22754
+	S5.82832, E155.19785
+	S5.77695, E155.18672
+	S5.62021, E155.09385
+	S5.53994, E154.99707
+	S5.52139, E154.87051
+	S5.49404, E154.81846
+	S5.45410, E154.77266
+	S5.44443, E154.72930
+	S5.54531, E154.74111
+	S5.74707, E154.70898
+	S5.81650, E154.72109
+	S5.93135, E154.75928
+	S5.97070, E154.78193
+	S6.06143, E154.87031
+	S6.10615, E154.94023
+	S6.20977, E155.01016
+	S6.23369, E155.04463
+	S6.30762, E155.20215
+	S6.41162, E155.23447
+
+line2 =
+	S5.05400, E154.68203
+	S5.01387, E154.63262
+	S5.03496, E154.60557
+	S5.11084, E154.54004
+	S5.15195, E154.56279
+	S5.22090, E154.57617
+	S5.31445, E154.58389
+	S5.44063, E154.62734
+	S5.43271, E154.64727
+	S5.38281, E154.69844
+	S5.21807, E154.72715
+	S5.14268, E154.68916
+	S5.05400, E154.68203
+
+[airport1]
+name = Buka Airport
+code = AYBK
+runways =
+	rwy1, 04, S5.42701, E154.667, 48.0, 5125, 0, 0, 11

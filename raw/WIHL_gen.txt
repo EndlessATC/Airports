@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 69
+center = S7.64506006241, E109.033996582
+magneticvar = 0.576
+beacons =
+	CP, S7.64242, E109.03500, 0, Cilacap
+	CLP, S7.64753, E109.03600, 0, Cilacap
+	NW, S7.72039, E108.49000, 0, Nusawiru
+
+line1 =
+	S6.89512, E110.19844
+	S6.89873, E110.06709
+	S6.91582, E109.93623
+	S6.90244, E109.82100
+	S6.84258, E109.58691
+	S6.81016, E109.50059
+	S6.86016, E109.40371
+	S6.86699, E109.29424
+	S6.81729, E109.01836
+	S6.80840, E108.89941
+	S6.80830, E108.77969
+	S6.79053, E108.67783
+	S6.72920, E108.60361
+
+line2 =
+	S7.72412, E107.91748
+	S7.78232, E108.22051
+	S7.79404, E108.33555
+	S7.79697, E108.45176
+	S7.73604, E108.51797
+	S7.70723, E108.57051
+	S7.66709, E108.74121
+	S7.66787, E108.85625
+	S7.70410, E108.98672
+	S7.69492, E109.19355
+	S7.70488, E109.28164
+	S7.82842, E109.85264
+	S7.89053, E110.03867
+
+[airport1]
+name = Tunggul Wulung Airport
+code = WIHL
+runways =
+	rwy1, 13, S7.64074, E109.029, 132.8, 4570, 0, 0, 70

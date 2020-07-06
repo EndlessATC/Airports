@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N47.11, E132.660278
+
+line1 =
+	N48.09717, E133.46837
+	N48.10153, E133.30115
+	N48.10564, E133.14405
+	N48.06441, E133.02013
+	N47.97909, E132.87709
+	N47.94007, E132.77281
+	N47.94725, E132.70718
+	N47.89010, E132.63690
+	N47.76851, E132.56186
+	N47.71497, E132.47629
+	N47.72949, E132.38017
+	N47.71797, E132.14979
+	N47.68050, E131.78527
+	N47.68203, E131.55676
+	N47.72262, E131.46425
+	N47.72781, E131.31935
+	N47.69763, E131.12185
+	N47.69146, E131.00278
+	N47.70931, E130.96196
+
+line2 =
+	N47.76851, E132.56186
+	N47.56676, E132.41412
+	N47.48023, E132.30038
+	N47.40039, E132.14215
+	N47.33375, E132.04448
+	N47.28032, E132.00737
+	N47.23743, E131.70496
+	N47.20508, E131.13725
+
+[airport1]
+name = Jiansanjiang Airport
+code = ZYJS

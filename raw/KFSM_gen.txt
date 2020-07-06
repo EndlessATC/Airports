@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 469
+usa = true
+transition = 18001
+center = N35.3366012573, W94.367401123
+magneticvar = 3.403
+beacons =
+	GK, N35.32270, W94.47420, 0, Jembo
+	FSM, N35.38840, W94.27150, 0, Fort Smith
+	FS, N35.35420, W94.21710, 0, Wizer
+	IQS, N35.39860, W94.79440, 0, Sallisaw
+	PGO, N34.68050, W94.60900, 0, Rich Mountain
+	DAK, N36.04290, W94.19760, 0, Drake
+	CZE, N35.46920, W93.42350, 0, Clarksville
+	TQH, N35.92650, W95.00580, 0, Tahlequah
+	MKO, N35.59480, W95.28720, 0, Muskogee
+	VM, N34.53910, W94.07300, 0, Meana
+	MEE, N35.66320, W95.36770, 0, Davis
+
+line1 =
+	N35.18467, W93.05026
+	N35.24446, W93.19283
+	N35.36332, W93.35815
+	N35.41500, W93.52137
+	N35.39944, W93.68249
+	N35.42073, W93.79657
+	N35.47882, W93.86364
+	N35.49422, W93.95752
+	N35.46685, W94.07823
+	N35.43406, W94.13944
+	N35.39582, W94.14110
+	N35.37332, W94.16208
+	N35.36655, W94.20236
+	N35.38533, W94.26752
+	N35.42962, W94.35762
+	N35.41513, W94.42966
+	N35.34182, W94.48361
+	N35.31366, W94.52926
+	N35.33071, W94.56657
+	N35.32513, W94.60192
+	N35.29692, W94.63530
+	N35.29971, W94.66602
+	N35.33345, W94.69403
+	N35.37531, W94.79160
+	N35.42523, W94.95867
+	N35.48830, W95.07427
+	N35.56452, W95.13837
+	N35.60349, W95.19008
+	N35.60519, W95.22935
+	N35.63692, W95.24465
+	N35.69867, W95.23602
+	N35.74650, W95.25126
+	N35.78045, W95.29043
+	N35.79479, W95.38825
+	N35.78957, W95.54468
+	N35.81616, W95.62974
+	N35.87455, W95.64338
+	N35.92494, W95.72146
+
+[airport1]
+name = Fort Smith Regional Airport
+code = KFSM
+runways =
+	rwy1, 01, N35.3323, W94.3693, 21.0, 5002, 0, 0, 449
+	rwy2, 07, N35.3336, W94.3814, 81.2, 8000, 0, 0, 469

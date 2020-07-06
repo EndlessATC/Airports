@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 548
+center = N43.388302, E45.698601
+magneticvar = 6.278
+beacons =
+	KZ, N43.83330, E46.71670, 0, Kizlyar
+
+line1 =
+	N44.19238, E47.22988
+	N44.26167, E47.12266
+	N44.34326, E47.02363
+	N44.38716, E46.91572
+
+[airport1]
+name = Grozny North Airport
+code = RU-0035

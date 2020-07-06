@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 913
+usa = true
+transition = 18001
+center = N44.8657989502, W91.4842987061
+magneticvar = -1.257
+beacons =
+	EAU, N44.89770, W91.47850, 0, Eau Claire
+	EA, N44.94470, W91.37370, 0, Maggs
+	RPD, N45.41520, W91.77800, 0, Rice Lake
+	RIE, N45.47960, W91.72070, 0, Rice Lake
+	RCX, N45.50180, W91.00110, 0, Rusk County
+	UBE, N45.50920, W91.97670, 0, Cumberland
+	VIQ, N44.55720, W90.51510, 0, Neillsville
+	AHH, N45.28140, W92.37130, 0, Ameron
+	BCK, N44.25470, W90.84900, 0, Black River Falls
+	RGK, N44.58890, W92.49210, 0, Red Wing
+	RNH, N45.14730, W92.53340, 0, New Richmond
+	ONA, N44.07620, W91.70570, 0, Winona
+	MDZ, N45.10540, W90.30870, 0, Medford
+
+line1 =
+	N43.93628, W91.31992
+	N43.99080, W91.38269
+	N44.05421, W91.51485
+	N44.12645, W91.71644
+	N44.19415, W91.84098
+	N44.28887, W91.91229
+	N44.39982, W92.05512
+	N44.44525, W92.14858
+	N44.46214, W92.24031
+	N44.49780, W92.31309
+	N44.55227, W92.36694
+	N44.58658, W92.44159
+	N44.60079, W92.53703
+	N44.64534, W92.64354
+	N44.75779, W92.81988
+	N44.79019, W92.96256
+	N44.83814, W93.03021
+	N44.91240, W93.07041
+	N44.93746, W93.11876
+
+[airport1]
+name = Chippewa Valley Regional Airport
+code = KEAU
+runways =
+	rwy1, 04, N44.8593, W91.4927, 45.0, 8101, 800, 0, 887
+	rwy2, 14, N44.8688, W91.4948, 139.0, 4999, 0, 0, 883

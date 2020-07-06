@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 29
+center = N13.9362001419, W90.8358001709
+magneticvar = 2.363
+beacons =
+	SJO, N13.93500, W90.85170, 0, San Jose
+	SGA, N13.93370, W90.86140, 0, San Jose
+	IZP, N13.93090, W90.73170, 0, Iztapa
+	GUA, N14.58580, W90.53110, 0, Guatemala City
+	AUR, N14.59100, W90.52600, 0, La Aurora
+
+line1 =
+	N14.22822, W91.81909
+	N14.11494, W91.64092
+	N13.99019, W91.37734
+	N13.92559, W91.14604
+	N13.92900, W90.60693
+	N13.90093, W90.47910
+	N13.73652, W90.09521
+	N13.68315, W89.97046
+	N13.56011, W89.80420
+
+[airport1]
+name = San José Airport
+code = MGSJ
+runways =
+	rwy1, 15, N13.9446, W90.8395, 156.7, 6595, 0, 0, 30

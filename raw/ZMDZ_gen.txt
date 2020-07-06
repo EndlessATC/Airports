@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4787
+metric = true
+center = N43.5917015076, E104.430000305
+magneticvar = -2.441
+beacons =
+	UG, N43.60900, E104.44200, 0, Dalanzadgad
+
+[airport1]
+name = Dalanzadgad Airport
+code = ZMDZ
+runways =
+	rwy1, 03, N43.5823, E104.423, 26.5, 7545, 0, 0, 4787

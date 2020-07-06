@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 26
+center = N24.144199, E38.0634
+
+line1 =
+	N25.07344, E37.24346
+	N24.96006, E37.26631
+	N24.87334, E37.22041
+	N24.82002, E37.18086
+	N24.61582, E37.33848
+	N24.45903, E37.43096
+	N24.29165, E37.54307
+	N24.27773, E37.63818
+	N24.27441, E37.71338
+	N24.18750, E37.82100
+	N24.18540, E37.91973
+	N24.12456, E37.97783
+	N24.05801, E38.09863
+	N23.91099, E38.28887
+	N23.71187, E38.46416
+	N23.55791, E38.54229
+	N23.30552, E38.70605
+	N23.19429, E38.75703
+
+[airport1]
+name = Prince Abdulmohsin Bin Abdulaziz Airport
+code = OEYN
+runways =
+	rwy1, 10, N24.1475, E38.048, 103.2, 10532, 0, 0, 18

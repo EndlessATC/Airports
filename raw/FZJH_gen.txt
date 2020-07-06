@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2438
+center = N2.82761001587, E27.588300705
+magneticvar = 0.493
+beacons =
+	IRO, N2.83961, E27.57130, 0, Isiro
+
+line1 =
+	N3.59580, E28.58599
+	N3.64743, E28.42956
+	N3.65032, E28.34828
+	N3.62169, E28.29009
+	N3.63652, E28.23862
+	N3.69476, E28.19407
+	N3.72933, E28.14126
+	N3.74024, E28.08018
+	N3.72032, E27.97827
+	N3.66965, E27.83533
+	N3.64391, E27.69591
+	N3.64309, E27.56000
+	N3.69621, E27.43112
+	N3.80328, E27.30948
+
+line2 =
+	N3.78876, E27.16954
+	N3.69843, E27.18028
+	N3.61673, E27.15336
+	N3.54356, E27.08877
+	N3.51650, E27.04003
+	N3.53560, E27.00717
+	N3.53508, E26.95353
+	N3.51501, E26.87922
+	N3.58363, E26.83348
+	N3.74096, E26.81643
+
+[airport1]
+name = Matari Airport
+code = FZJH
+runways =
+	rwy1, 13, N2.83488, E27.5796, 130.0, 8202, 0, 650, 2415

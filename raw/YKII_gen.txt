@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 132
+usa = true
+center = S39.8774986267, E143.878005981
+magneticvar = 11.491
+beacons =
+	KII, S39.88910, E143.87500, 0, King Island
+
+line1 =
+	S40.78291, E144.70967
+	S40.67227, E144.71855
+	S40.72168, E144.81855
+	S40.78672, E145.04297
+	S40.79063, E145.15869
+	S40.76514, E145.22432
+	S40.76992, E145.28301
+	S40.82637, E145.34941
+
+line2 =
+	S40.47021, E144.75117
+	S40.48525, E144.71016
+	S40.58945, E144.74805
+	S40.50674, E144.78438
+	S40.44033, E144.79082
+	S40.43486, E144.78340
+	S40.47021, E144.75117
+
+line3 =
+	S39.78525, E144.12090
+	S39.63809, E144.09131
+	S39.58018, E144.00078
+	S39.58369, E143.94883
+	S39.65811, E143.93936
+	S39.70000, E143.87939
+	S39.73799, E143.86182
+	S39.82422, E143.86523
+	S39.90410, E143.83857
+	S39.98359, E143.88760
+	S40.06396, E143.87578
+	S40.12021, E143.89873
+	S40.11611, E143.92793
+	S40.07822, E144.03506
+	S40.02207, E144.11191
+	S39.95381, E144.14102
+	S39.87402, E144.10605
+	S39.78525, E144.12090
+
+[airport1]
+name = King Island Airport
+code = YKII
+runways =
+	rwy1, 06, S39.8779, E143.879, 74.0, 2626, 0, 0, 124
+	rwy2, 10, S39.8734, E143.87, 115.0, 5198, 0, 0, 107
+	rwy3, 17, S39.8728, E143.885, 185.0, 3632, 0, 0, 96

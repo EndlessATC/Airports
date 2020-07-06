@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 49
+center = N11.5473003387, E43.1595001221
+magneticvar = 1.270
+beacons =
+	ABI, N11.54950, E43.15460, 0, Djibouti/Ambouli
+	DJ, N11.54730, E43.17960, 0, Djibouti/Ambouli
+	DTI, N11.54880, E43.09310, 0, Djibouti/Ambouli
+
+line1 =
+	N10.55078, E44.15820
+	N10.78428, E43.85273
+	N11.03545, E43.63115
+	N11.34644, E43.44121
+	N11.49980, E43.24600
+	N11.56602, E43.16172
+	N11.58848, E43.04277
+	N11.58662, E42.91152
+	N11.56172, E42.78975
+	N11.50957, E42.65273
+	N11.49678, E42.58379
+	N11.50430, E42.53975
+	N11.57217, E42.52178
+	N11.56011, E42.64004
+	N11.73940, E42.79902
+	N11.82905, E43.04805
+	N11.96953, E43.27207
+	N12.02700, E43.33672
+	N12.09126, E43.38027
+	N12.18994, E43.40977
+	N12.36704, E43.35352
+	N12.46387, E43.29863
+
+line2 =
+	N11.67725, E42.44688
+	N11.64004, E42.44102
+	N11.62930, E42.41709
+	N11.64502, E42.39893
+	N11.67173, E42.39590
+	N11.69336, E42.39863
+	N11.71201, E42.41133
+	N11.69712, E42.43613
+	N11.67725, E42.44688
+	N11.67725, E42.44688
+	N11.67725, E42.44688
+
+[airport1]
+name = Djibouti-Ambouli Airport
+code = HDAM
+runways =
+	rwy1, 09, N11.5475, E43.1451, 90.8, 10335, 0, 728, 49

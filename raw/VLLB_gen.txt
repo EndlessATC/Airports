@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 955
+center = N19.8973007202, E102.161003113
+magneticvar = -0.517
+beacons =
+	LPB, N19.89940, E102.16000, 0, Luang Phabang
+	BK, N19.86610, E102.10900, 0, Luang Phabang
+
+line1 =
+	N19.84856, E100.95852
+	N19.84783, E101.03665
+	N19.87548, E101.09133
+	N19.87230, E101.15344
+	N19.83832, E101.22310
+	N19.82189, E101.33328
+	N19.82298, E101.48407
+	N19.88977, E101.69935
+	N20.02227, E101.97923
+	N20.08658, E102.13705
+	N20.08265, E102.17281
+	N20.05756, E102.20465
+	N20.01126, E102.23255
+	N19.90349, E102.14098
+	N19.73430, E101.92983
+	N19.60405, E101.82348
+	N19.51279, E101.82172
+	N19.45116, E101.84224
+	N19.41923, E101.88492
+	N19.37223, E101.88580
+	N19.31017, E101.84477
+	N19.18074, E101.81904
+	N18.98401, E101.80849
+
+[airport1]
+name = Luang Phabang International Airport
+code = VLLB
+runways =
+	rwy1, 06, N19.8925, E102.152, 61.2, 7218, 0, 0, 955

@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 282
+center = S5.240556, E105.175556
+magneticvar = 0.309
+beacons =
+	TF, S5.24491, E105.17800, 0, Bandar Lampung
+	TKG, S5.26017, E105.19400, 0, Bandar Lampung
+	AK, S4.61242, E105.23100, 0, Astra Kesetra
+
+line1 =
+	S5.96475, E106.16582
+	S5.91416, E106.07500
+	S5.93428, E106.02881
+	S6.01699, E105.93613
+	S6.11641, E105.86826
+
+line2 =
+	S4.55391, E105.88652
+	S4.65977, E105.89053
+	S4.79365, E105.87930
+	S5.00957, E105.88721
+	S5.67656, E105.81611
+	S5.71641, E105.80273
+	S5.81826, E105.74834
+	S5.81758, E105.67656
+	S5.79961, E105.61855
+	S5.76064, E105.57793
+	S5.71230, E105.55557
+	S5.67275, E105.52266
+	S5.54951, E105.34941
+	S5.57002, E105.30400
+	S5.72285, E105.12813
+	S5.74551, E105.08135
+	S5.72686, E105.02266
+	S5.68115, E104.93027
+	S5.52041, E104.63955
+	S5.57178, E104.62168
+	S5.64150, E104.61816
+	S5.81621, E104.67598
+	S5.89268, E104.68398
+	S5.90791, E104.63105
+	S5.90459, E104.60156
+	S5.80313, E104.48086
+	S5.69072, E104.36953
+	S5.53887, E104.24297
+	S5.46660, E104.15049
+	S5.38594, E104.06680
+
+[airport1]
+name = Radin Inten II (Branti) Airport
+code = WILL
+runways =
+	rwy1, 14, S5.23597, E105.174, 139.6, 8202, 0, 0, 263

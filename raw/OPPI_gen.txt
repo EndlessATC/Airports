@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 33
+center = N25.2905006409, E63.3451004028
+magneticvar = 0.546
+beacons =
+	PI, N25.28810, E63.34890, 0, Pasni
+	TU, N25.99010, E63.02980, 0, Turbat
+
+line1 =
+	N25.15532, E62.08945
+	N25.20664, E62.15215
+	N25.22485, E62.19863
+	N25.19736, E62.24873
+	N25.13491, E62.31533
+	N25.15254, E62.39121
+	N25.19727, E62.44473
+	N25.25474, E62.57246
+	N25.26479, E62.66475
+	N25.22466, E63.01504
+	N25.25488, E63.17002
+	N25.22759, E63.28574
+	N25.21084, E63.49141
+	N25.29751, E63.49570
+	N25.35317, E63.55664
+	N25.38589, E63.72090
+	N25.34253, E63.93555
+	N25.35117, E63.98730
+	N25.40293, E64.05938
+	N25.37393, E64.12490
+	N25.33345, E64.15205
+	N25.23667, E64.54375
+	N25.20630, E64.59404
+
+[airport1]
+name = Pasni Airport
+code = OPPI
+runways =
+	rwy1, 06, N25.2837, E63.3329, 58.4, 8999, 0, 0, 12

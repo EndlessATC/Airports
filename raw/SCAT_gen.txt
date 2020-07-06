@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 670
+center = S27.2611999512, W70.7791976929
+magneticvar = 0.319
+beacons =
+	DAT, S27.27940, W70.77610, 0, Atacama
+	CLD, S27.07690, W70.81860, 0, Caldera
+
+line1 =
+	S26.32939, W70.64658
+	S26.42178, W70.68696
+	S26.59697, W70.70840
+	S26.84092, W70.80293
+	S26.95059, W70.81274
+	S27.18750, W70.89790
+	S27.30791, W70.91426
+	S27.50518, W70.90928
+	S27.58867, W70.92578
+	S27.61787, W70.94580
+	S27.72734, W71.05264
+	S27.81445, W71.08652
+	S28.06406, W71.15449
+
+[airport1]
+name = Desierto de Atacama Airport
+code = SCAT
+runways =
+	rwy1, 17, S27.2514, W70.7801, 175.3, 7218, 0, 0, 620

@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 342
+center = N61.6469993591, E50.8451004028
+magneticvar = 16.216
+beacons =
+	PW, N61.60500, E50.80830, 0, Syktyvkar
+	SR, N61.69500, E50.88500, 0, Syktyvkar
+
+line1 =
+	N61.78972, E53.25001
+	N61.83292, E53.18965
+	N61.86522, E53.03421
+	N61.89736, E52.65832
+	N61.93059, E52.58276
+	N61.93886, E52.45208
+	N61.93322, E52.24113
+	N61.91462, E52.07587
+	N61.88304, E51.95629
+	N61.85421, E51.89381
+	N61.82798, E51.88854
+	N61.82326, E51.77858
+	N61.84005, E51.56391
+	N61.81494, E51.30667
+	N61.74801, E51.00674
+	N61.71926, E50.87693
+	N61.75096, E50.80298
+	N61.83586, E50.78008
+	N61.87509, E50.76644
+	N61.96552, E50.76200
+	N62.00505, E50.70009
+	N62.01715, E50.54599
+	N62.00056, E50.31293
+	N62.04128, E50.24218
+	N62.07714, E50.24720
+	N62.12967, E50.29825
+	N62.16659, E50.34337
+	N62.20765, E50.33107
+	N62.22145, E50.25877
+	N62.21848, E50.08142
+	N62.17403, E49.86562
+	N62.08810, E49.61127
+	N62.07358, E49.37872
+	N62.13057, E49.16778
+	N62.09846, E48.90196
+	N61.97730, E48.58125
+	N61.87917, E48.40018
+
+[airport1]
+name = Syktyvkar Airport
+code = UUYY
+runways =
+	rwy1, 01, N61.6366, E50.8363, 21.6, 8203, 0, 0, 335

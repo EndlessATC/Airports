@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 357
+center = N47.4322013855, E0.727605998516
+magneticvar = -1.109
+beacons =
+	TUR, N47.42220, E0.73089, 0, Tours
+	TUR, N47.56590, E0.78261, 0, Tours
+	AMB, N47.41820, E1.04100, 0, Amboise
+	AMB, N47.42890, E1.06444, 0, Amboise
+	SR, N47.25950, W0.11436, 0, Saumur
+	LM, N47.89360, E0.17139, 0, Le Mans
+	RTN, N47.31980, E1.68803, 0, Romorantin
+	PI, N46.70390, E0.40697, 0, Poitiers
+	CDN, N48.06240, E1.36364, 0, Châteaudun
+	VMP, N48.05890, E1.38889, 0, Châteaudun
+	CTX, N46.93660, E1.80114, 0, Châteauroux
+	OAN, N47.98940, E1.75958, 0, Orléans
+	OAN, N48.00130, E1.76872, 0, Orléans
+
+line1 =
+	N47.80359, E2.35989
+	N47.87126, E2.14538
+	N47.89418, E1.97082
+	N47.89253, E1.84519
+	N47.86628, E1.76850
+	N47.76437, E1.60820
+	N47.58689, E1.36439
+	N47.47374, E1.15820
+	N47.42501, E0.98974
+	N47.39582, E0.81543
+	N47.38626, E0.63529
+	N47.34062, E0.42776
+	N47.24404, E0.20741
+	N47.21818, E0.07540
+	N47.24903, W0.03831
+	N47.36424, W0.21636
+	N47.40243, W0.41803
+	N47.37096, W0.73124
+
+[airport1]
+name = Tours-Val-de-Loire Airport
+code = LFOT
+runways =
+	rwy1, 02, N47.4218, E0.723408, 15.0, 7887, 0, 0, 351

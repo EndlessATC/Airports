@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = N12.1309995651, W68.2685012817
+magneticvar = -10.086
+beacons =
+	PJB, N12.13280, W68.28100, 0, Bonaire
+	HTO, N12.19000, W68.95500, 0, Hato
+	PJG, N12.20120, W69.00950, 0, Curacao
+
+line1 =
+	N12.30195, W68.36924
+	N12.25752, W68.37109
+	N12.22808, W68.34844
+	N12.20674, W68.30713
+	N12.17173, W68.28726
+	N12.08228, W68.28223
+	N12.03208, W68.25435
+	N12.14458, W68.20581
+	N12.23125, W68.21948
+	N12.30195, W68.36924
+
+line2 =
+	N12.15854, W68.82739
+	N12.23135, W69.01313
+	N12.34204, W69.07676
+	N12.37324, W69.11846
+	N12.38027, W69.15889
+	N12.29844, W69.15381
+	N12.14185, W68.99512
+	N12.04546, W68.80332
+	N12.05977, W68.75107
+	N12.15854, W68.82739
+
+line3 =
+	N11.16099, W68.39863
+	N11.30937, W68.61621
+	N11.43174, W68.82798
+	N11.46104, W69.05459
+	N11.51846, W69.23257
+
+[airport1]
+name = Flamingo International Airport
+code = TNCB
+runways =
+	rwy1, 10, N12.1314, W68.2818, 91.7, 9449, 0, 0, 14

@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 656
+center = N66.450861, E143.261551
+
+line1 =
+	N65.46148, E142.63691
+	N65.51543, E142.60332
+	N65.59222, E142.61758
+	N65.69186, E142.67969
+	N65.78901, E142.81075
+	N65.88373, E143.01073
+	N66.01711, E143.14690
+	N66.18914, E143.21914
+	N66.30923, E143.22271
+	N66.37734, E143.15760
+	N66.46576, E143.10592
+	N66.57444, E143.06758
+	N66.65020, E142.98722
+	N66.69293, E142.86475
+	N66.81277, E142.75380
+	N67.00966, E142.65448
+	N67.16029, E142.61500
+	N67.26468, E142.63546
+	N67.31447, E142.59861
+	N67.34083, E142.57412
+	N67.36343, E142.57789
+	N67.39490, E142.61830
+	N67.42498, E142.63639
+
+[airport1]
+name = Moma Airport
+code = UEMA

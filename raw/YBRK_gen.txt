@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 34
+usa = true
+center = S23.3819007874, E150.475006104
+magneticvar = 9.449
+beacons =
+	RK, S23.38280, E150.47200, 0, Rockhampton
+	RK, S23.37080, E150.47501, 0, Rockhampton
+	GLA, S23.86530, E151.20399, 0, Gladstone
+	GLA, S23.87190, E151.22600, 0, Gladstone
+
+line1 =
+	S22.44053, E149.70391
+	S22.42627, E149.77158
+	S22.38984, E149.82246
+	S22.50137, E149.92031
+	S22.55068, E149.97441
+	S22.52158, E150.00557
+
+line2 =
+	S22.46895, E150.40508
+	S22.55908, E150.54131
+	S22.55576, E150.57959
+	S22.48613, E150.56436
+	S22.38398, E150.56855
+
+line3 =
+	S22.41816, E150.67246
+	S22.57617, E150.76387
+	S22.90293, E150.78281
+	S23.17656, E150.78301
+	S23.45801, E150.84316
+	S23.53193, E150.93105
+	S23.60176, E150.98877
+	S23.69609, E151.08770
+	S23.78408, E151.15381
+	S23.82500, E151.23633
+	S24.01240, E151.50078
+	S24.03359, E151.57539
+	S24.03838, E151.69092
+
+line4 =
+	S23.59492, E151.22881
+	S23.52969, E151.24014
+	S23.51309, E151.21201
+	S23.51621, E151.18076
+	S23.49082, E151.14658
+	S23.46055, E151.05996
+	S23.53018, E151.03330
+	S23.74072, E151.18418
+	S23.77578, E151.23828
+	S23.76230, E151.26152
+	S23.72031, E151.29580
+	S23.66846, E151.27432
+	S23.59492, E151.22881
+
+[airport1]
+name = Rockhampton Airport
+code = YBRK
+runways =
+	rwy1, 04, S23.3825, E150.465, 52.5, 5397, 0, 0, 31
+	rwy2, 15, S23.3687, E150.47, 159.0, 8622, 0, 0, 33

@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 542
+usa = true
+center = S22.9132995605, E139.899993896
+magneticvar = 6.371
+beacons =
+	BOU, S22.91470, E139.90700, 0, Boulia
+
+[airport1]
+name = Boulia Airport
+code = YBOU
+runways =
+	rwy1, 14, S22.9075, E139.898, 150.0, 4180, 0, 0, 542

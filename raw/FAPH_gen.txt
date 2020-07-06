@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1432
+center = S23.9372005463, E31.1553993225
+magneticvar = -14.436
+beacons =
+	PW, S23.91740, E31.15390, 0, Phalaborwa
+	PHV, S23.90080, E31.15200, 0, Phalaborwa
+	HA, S24.33850, E31.03450, 0, Hoedspruit
+	HSV, S24.34720, E31.04760, 0, Hoedspruit
+	JP, S23.90000, E30.68330, 0, Gravelotte
+	MP, S24.54140, E30.86940, 0, Mariepskop
+	TZ, S23.80230, E30.36080, 0, Tzaneen
+	GI, S23.32610, E30.68060, 0, Giyani
+
+line1 =
+	S23.03596, E32.11879
+	S23.07647, E32.18814
+	S23.13280, E32.23104
+	S23.20504, E32.24747
+	S23.30209, E32.30245
+	S23.42400, E32.39609
+
+[airport1]
+name = Hendrik Van Eck Airport
+code = FAPH
+runways =
+	rwy1, 01, S23.9424, E31.1567, 354.0, 4491, 0, 0, 1396

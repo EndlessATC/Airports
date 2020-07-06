@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = S40.8692, W63.0004
+magneticvar = 0.460
+beacons =
+	VIE, S40.86720, W63.00080, 0, Viedma
+	VIE, S40.86250, W63.00670, 0, Viedma
+	V, S40.86500, W63.02500, 0, Viedma
+
+line1 =
+	S40.92246, W64.38345
+	S41.00781, W64.12319
+	S41.15000, W63.77300
+	S41.15977, W63.62178
+	S41.15244, W63.21284
+	S41.10967, W62.95903
+	S41.04717, W62.79800
+	S40.89082, W62.39502
+	S40.81465, W62.30186
+	S40.67461, W62.24634
+	S40.45879, W62.39360
+	S40.35596, W62.42700
+	S40.19658, W62.40186
+	S39.95068, W62.32397
+	S39.89531, W62.28691
+	S39.88047, W62.25396
+
+line2 =
+	S40.07843, W64.50265
+	S40.07399, W64.37123
+	S40.16592, W64.17192
+	S40.35428, W63.90472
+	S40.45536, W63.73753
+	S40.46900, W63.67035
+	S40.53422, W63.57449
+	S40.70919, W63.38755
+	S40.74284, W63.17425
+	S40.82593, W63.02778
+	S40.94753, W62.85980
+	S41.04716, W62.79800
+
+[airport1]
+name = Gobernador Castello Airport
+code = SAVV
+runways =
+	rwy1, 10, S40.867, W63.0111, 105.6, 8366, 0, 0, 20
+	rwy2, 2, S40.8709, W63.0014, 25.7, 4954, 0, 0, 0

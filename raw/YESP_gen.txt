@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 470
+usa = true
+center = S33.684399, E121.822998
+magneticvar = 0.360
+beacons =
+	ESP, S33.68060, E121.82400, 0, Esperance
+	ESP, S33.68690, E121.82700, 0, Esperance
+
+line1 =
+	S33.98828, E123.20762
+	S33.90059, E123.06758
+	S33.88379, E122.95566
+	S33.89082, E122.77754
+	S33.99180, E122.15098
+	S33.87441, E122.06113
+	S33.85674, E121.94639
+	S33.86250, E121.72969
+	S33.82676, E121.40508
+	S33.87129, E120.81455
+	S33.91973, E120.53057
+
+[airport1]
+name = Esperance Airport
+code = YESP
+runways =
+	rwy1, 03, S33.6892, E121.821, 28.0, 3865, 0, 0, 449
+	rwy2, 11, S33.6803, E121.816, 111.0, 4921, 0, 0, 444

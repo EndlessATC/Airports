@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 233
+metric = true
+center = N38.2807006836, E114.696998596
+magneticvar = -5.374
+beacons =
+	SJW, N38.28000, E114.70200, 0, Zhengding
+	O, N38.30000, E114.68200, 0, Zhengdeng
+	FL, N38.24670, E114.89200, 0, Wuji
+	OC, N38.45170, E114.55700, 0, Xingtang
+	HG, N37.72330, E115.71000, 0, Hengshui
+
+[airport1]
+name = Shijiazhuang Daguocun International Airport
+code = ZBSJ
+runways =
+	rwy1, 15, N38.2936, E114.687, 147.4, 11155, 0, 0, 233

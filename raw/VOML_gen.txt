@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 337
+center = N12.9612998962, E74.8900985718
+magneticvar = -1.512
+beacons =
+	ML, N12.96320, E74.89190, 0, Mangalore
+	MML, N12.96130, E74.92160, 0, Mangalore
+
+line1 =
+	N13.84966, E74.60850
+	N13.66763, E74.67090
+	N13.58374, E74.68164
+	N13.50693, E74.68232
+	N13.07734, E74.77051
+	N12.97686, E74.80293
+	N12.84458, E74.86826
+	N12.56455, E74.94551
+	N12.05752, E75.19668
+	N12.02334, E75.22979
+
+[airport1]
+name = Mangalore International Airport
+code = VOML
+runways =
+	rwy1, 09, N12.9612, E74.8826, 89.2, 5300, 0, 0, 321

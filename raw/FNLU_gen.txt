@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 243
+center = S8.85837, E13.2312
+magneticvar = -5.322
+beacons =
+	VNA, S8.84548, E13.24750, 0, Luanda
+	LU, S8.79264, E13.30390, 0, Luanda
+
+line1 =
+	S8.36973, E13.37852
+	S8.46924, E13.36641
+	S8.55479, E13.36807
+	S8.62471, E13.37832
+	S8.68721, E13.35898
+	S9.00684, E13.05381
+	S8.97520, E13.04658
+	S8.93428, E13.07725
+	S8.89971, E13.09277
+	S8.92227, E13.04678
+	S8.99102, E12.99854
+	S9.04805, E12.99854
+	S9.23037, E13.07598
+	S9.38965, E13.15566
+	S9.55068, E13.19688
+	S9.70322, E13.20938
+	S9.82676, E13.28750
+
+[airport1]
+name = Quatro de Fevereiro Airport
+code = FNLU
+runways =
+	rwy1, 05, S8.87688, E13.2139, 47.0, 12190, 0, 500, 235
+	rwy2, 07, S8.85561, E13.2257, 68.0, 8530, 0, 0, 240

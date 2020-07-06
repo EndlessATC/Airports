@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -70
+center = N36.9099006653, E50.679599762
+magneticvar = 4.175
+beacons =
+	RSR, N36.90350, E50.68040, 0, Ramsar
+	NSR, N36.65330, E51.50470, 0, Noshahr
+
+line1 =
+	N36.61450, E51.76201
+	N36.74258, E51.11855
+	N36.81021, E50.92744
+	N37.01367, E50.53320
+	N37.14917, E50.33789
+	N37.33960, E50.21406
+	N37.38052, E50.17627
+	N37.40713, E50.13047
+	N37.44487, E49.98066
+	N37.48052, E49.72695
+	N37.49668, E49.47012
+	N37.51997, E49.37246
+
+[airport1]
+name = Ramsar Airport
+code = OINR
+runways =
+	rwy1, 13, N36.9143, E50.6732, 130.3, 4920, 0, 0, -70

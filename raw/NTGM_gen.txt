@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3
+center = S16.5839004517, W143.658004761
+magneticvar = 12.317
+beacons =
+	MK, S16.59030, W143.65100, 0, Makemo
+
+line1 =
+	S16.10713, W142.52959
+	S16.02773, W142.50684
+	S16.01777, W142.48120
+	S16.09629, W142.51182
+	S16.10713, W142.52959
+
+line2 =
+	S16.66885, W143.38618
+	S16.61973, W143.44058
+	S16.61357, W143.46470
+	S16.61230, W143.51558
+	S16.62109, W143.55068
+	S16.63545, W143.45854
+	S16.66885, W143.38618
+
+line3 =
+	S16.63477, W143.57114
+	S16.61807, W143.61479
+	S16.58086, W143.67021
+	S16.58086, W143.70742
+	S16.64043, W143.61064
+	S16.63477, W143.57114
+
+[airport1]
+name = Makemo Airport
+code = NTGM
+runways =
+	rwy1, 11, S16.5802, W143.664, 123.4, 4920, 0, 330, 3

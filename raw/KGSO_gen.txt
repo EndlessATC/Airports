@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 925
+usa = true
+transition = 18001
+center = N36.0978012085, W79.9373016357
+magneticvar = -7.241
+beacons =
+	GSO, N36.04570, W79.97640, 0, Greensboro
+	GS, N36.16700, W80.03560, 0, Marky
+	IN, N36.07090, W80.16680, 0, Reeno
+	HB, N35.97820, W79.58470, 0, Himun
+	SIF, N36.38220, W79.76330, 0, Slammer
+	CQJ, N35.71620, W79.86530, 0, City Lake
+	LIB, N35.81160, W79.61260, 0, Liberty
+	DVZ, N35.91350, W80.45620, 0, Davie
+	UV, N36.58990, W79.91730, 0, Bales
+	TOX, N35.76150, W79.46220, 0, Siler City
+	AZW, N36.38100, W80.54020, 0, Mt  iAy
+	RU, N35.73310, W80.48960, 0, Rovdy
+	VU, N35.48850, W80.08030, 0, Aller
+	ZEF, N36.31320, W80.72340, 0, Zephyr
+	DAN, N36.56890, W79.33670, 0, Danville
+	HUR, N36.23330, W79.06590, 0, Person
+	TT, N35.49730, W79.13990, 0, Leeco
+	SBV, N36.67500, W79.01450, 0, South Boston
+	HLX, N36.76220, W80.82200, 0, Hillsville
+
+line1 =
+	N36.23231, W80.46377
+	N36.20601, W80.45588
+	N36.09304, W80.48100
+	N36.01072, W80.45852
+	N35.94313, W80.39204
+	N35.89300, W80.36535
+	N35.86029, W80.37842
+	N35.84283, W80.40563
+	N35.84055, W80.44692
+	N35.81740, W80.46516
+	N35.77337, W80.46035
+	N35.74216, W80.42317
+	N35.72371, W80.35362
+	N35.65240, W80.26975
+	N35.46605, W80.12247
+	N35.40125, W80.07105
+	N35.31170, W80.05539
+	N35.17573, W80.05834
+	N35.10943, W80.02744
+	N35.11274, W79.96263
+
+line2 =
+	N36.10586, W81.34890
+	N36.22549, W80.89917
+	N36.25867, W80.67411
+	N36.24228, W80.49030
+	N36.23231, W80.46377
+
+[airport1]
+name = Piedmont Triad International Airport
+code = KGSO
+runways =
+	rwy1, 05L, N36.0993, W79.9591, 46.0, 9000, 0, 0, 916
+	rwy2, 05R, N36.0911, W79.9447, 46.0, 10001, 0, 0, 900
+	rwy3, 14, N36.0995, W79.9524, 135.1, 6380, 0, 0, 926

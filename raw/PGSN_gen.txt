@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 215
+center = N15.119, E145.729004
+magneticvar = 1.122
+beacons =
+	SN, N15.11150, E145.71001, 0, Saipan
+
+line1 =
+	N14.16362, E145.15215
+	N14.13691, E145.15742
+	N14.12100, E145.17959
+
+line2 =
+	N14.15811, E145.26484
+	N14.18022, E145.26543
+	N14.18945, E145.23242
+	N14.16362, E145.15215
+
+line3 =
+	N15.21528, E145.71318
+	N15.12510, E145.68428
+	N15.11353, E145.69824
+	N15.10723, E145.74922
+	N15.13315, E145.75195
+	N15.17461, E145.78232
+	N15.22266, E145.78857
+	N15.26538, E145.82188
+	N15.25688, E145.78633
+	N15.21528, E145.71318
+
+line4 =
+	N15.03081, E145.58672
+	N14.99883, E145.59160
+	N14.91953, E145.62100
+	N14.97051, E145.66230
+	N15.05947, E145.64736
+	N15.06016, E145.62480
+	N15.03081, E145.58672
+
+[airport1]
+name = Saipan International Airport
+code = PGSN
+runways =
+	rwy1, 07, N15.1145, E145.718, 68.0, 8700, 0, 0, 215

@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2395
+metric = true
+center = N43.556702, E122.199997
+magneticvar = -8.473
+beacons =
+	TGO, N43.56000, E122.19800, 0, Tongliao
+
+line1 =
+	N43.48350, E123.55394
+	N43.39854, E123.61378
+	N43.28955, E123.60406
+	N43.12822, E123.54474
+	N43.01944, E123.53378
+	N42.96327, E123.57130
+	N42.87687, E123.58267
+	N42.76034, E123.56810
+	N42.66016, E123.61109
+	N42.57639, E123.71186
+
+line2 =
+	N43.42345, E120.75855
+	N43.50944, E121.05910
+	N43.51685, E121.34932
+	N43.47435, E121.72935
+	N43.52075, E122.02990
+	N43.65604, E122.25107
+	N43.74759, E122.44899
+	N43.79539, E122.62376
+	N43.81547, E122.76939
+	N43.80777, E122.88612
+	N43.76508, E123.01702
+	N43.68736, E123.16202
+	N43.64666, E123.26910
+	N43.64297, E123.33824
+	N43.62752, E123.40459
+	N43.60018, E123.46815
+	N43.56078, E123.51347
+	N43.48350, E123.55394
+
+[airport1]
+name = Tongliao Airport
+code = ZBTL

@@ -1,0 +1,75 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 102
+center = N25.6135005951, E55.9388008118
+magneticvar = 1.384
+beacons =
+	RAV, N25.58830, E55.94640, 0, Ras Al Khaimah
+	SHJ, N25.33030, E55.52060, 0, Sharjah
+	DUB, N25.25450, E55.36570, 0, Dubai
+	FUJ, N25.10220, E56.35060, 0, Fujairah
+	FJR, N25.10170, E56.35190, 0, Fujairah
+	ABM, N25.87780, E55.02290, 0, Abumusa Island
+
+line1 =
+	N26.59263, E55.31152
+	N26.58574, E55.34043
+	N26.58311, E55.42373
+
+line2 =
+	N24.71636, E56.48984
+	N24.97920, E56.38799
+	N25.01831, E56.37285
+	N25.56938, E56.36348
+	N25.65068, E56.29785
+	N25.70933, E56.30723
+	N25.75195, E56.32930
+	N25.80459, E56.37363
+	N26.10874, E56.41641
+	N26.20815, E56.41777
+	N26.32720, E56.42979
+	N26.35117, E56.41309
+	N26.35635, E56.37871
+	N26.31362, E56.34648
+	N26.23521, E56.30557
+	N26.21978, E56.22842
+	N26.22920, E56.19727
+	N26.20703, E56.16445
+	N26.06265, E56.08047
+	N26.05278, E56.07461
+	N25.91602, E56.02520
+	N25.79399, E55.94121
+	N25.49814, E55.52285
+	N25.39448, E55.43340
+	N25.29980, E55.32168
+	N25.23682, E55.30352
+	N25.04160, E55.09814
+	N24.81045, E54.74678
+	N24.71553, E54.65898
+
+line3 =
+	N26.50508, E54.75928
+	N26.55669, E54.89580
+
+line4 =
+	N26.37144, E57.10430
+	N26.15884, E57.20137
+	N26.03721, E57.20557
+
+[airport1]
+name = Ras Al Khaimah International Airport
+code = OMRK
+runways =
+	rwy1, 16, N25.6297, E55.9339, 164.8, 12336, 0, 0, 72
+
+[airport2]
+name = Sharjah International Airport
+code = SJ
+runways =
+	rwy2, 12, N25.3383, E55.5003, 122.0, 13320, 0, 984, 92
+inboundbeacon = SHJ

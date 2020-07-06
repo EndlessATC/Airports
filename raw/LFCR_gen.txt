@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1910
+center = N44.4079017639, E2.48267006874
+magneticvar = -0.339
+beacons =
+	MEN, N44.60830, E3.16242, 0, Mende
+	GAI, N43.95410, E1.82417, 0, Gaillac
+	SFC, N45.06650, E2.99075, 0, Saint Flour/Coltines
+
+line1 =
+	N43.46162, E3.78477
+	N43.51636, E3.86162
+	N43.56309, E3.91084
+	N43.59307, E4.05264
+	N43.58184, E4.07510
+	N43.56304, E4.11309
+
+line2 =
+	N43.41527, E1.45447
+	N43.41704, E1.45317
+	N43.51368, E1.40935
+	N43.58762, E1.40883
+	N43.68860, E1.36150
+	N43.88073, E1.22001
+	N44.03101, E1.08234
+	N44.12583, E0.86065
+
+line3 =
+	N45.23777, E4.08274
+	N45.19859, E3.95298
+	N45.11581, E3.90973
+	N45.03726, E3.92209
+	N44.97173, E3.90355
+	N44.87110, E3.92827
+	N44.80975, E4.07039
+
+[airport1]
+name = Rodez-Marcillac Airport
+code = LFCR
+runways =
+	rwy1, 13, N44.4137, E2.47266, 130.0, 6693, 0, 164, 1910

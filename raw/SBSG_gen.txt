@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 272
+center = S5.768056, W35.376111
+magneticvar = -21.395
+beacons =
+	NTL, S5.90000, W35.24630, 0, Natal
+	NTL, S5.90832, W35.24860, 0, Natal
+	MXN, S5.38617, W35.53100, 0, Maxaranguape
+	DA, S5.16117, W35.48650, 0, Calcanhar
+
+line1 =
+	S6.39375, W34.98818
+	S6.18535, W35.09546
+	S5.91719, W35.14175
+	S5.56670, W35.23545
+	S5.25088, W35.39258
+	S5.16602, W35.48169
+	S5.12939, W35.54941
+	S5.05439, W35.97988
+	S5.09375, W36.16177
+	S5.08428, W36.38672
+
+[airport1]
+name = Governador Aluízio Alves International Airport
+code = SBSG

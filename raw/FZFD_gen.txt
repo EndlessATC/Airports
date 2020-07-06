@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1509
+center = N4.25321006775, E20.9752998352
+magneticvar = 0.073
+beacons =
+	BLT, N4.24699, E20.96640, 0, Gbadolite
+	BLT, N4.29699, E21.04970, 0, Gbadolite
+	KOT, N4.16886, E21.75080, 0, Kotakoli
+
+line1 =
+	N4.25390, E21.90815
+	N4.28139, E21.68698
+	N4.24481, E21.53763
+	N4.31137, E21.35020
+	N4.32310, E21.26840
+	N4.30222, E21.22974
+	N4.33219, E21.12556
+	N4.41312, E20.95575
+	N4.44730, E20.79297
+	N4.43562, E20.64745
+	N4.46270, E20.55810
+	N4.54153, E20.48648
+	N4.68617, E20.39352
+	N4.82963, E20.22634
+	N4.94471, E20.00238
+	N5.03130, E19.86249
+	N5.08933, E19.80657
+
+[airport1]
+name = Gbadolite Airport
+code = FZFD
+runways =
+	rwy1, 07, N4.2489, E20.9615, 73.1, 10499, 0, 0, 1505

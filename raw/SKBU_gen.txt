@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 48
+center = N3.81963, W76.9898
+magneticvar = -4.036
+beacons =
+	BUN, N3.82553, W76.99540, 0, Buenaventura
+	PL, N3.59988, W76.37130, 0, Palma
+	AS, N3.51990, W76.38570, 0, Cali
+	CLO, N3.40194, W76.40560, 0, Cali
+	CLO, N3.40194, W76.40560, 0, Cali
+	ULQ, N4.09000, W76.22360, 0, Tulua
+
+line1 =
+	N4.78467, W77.30654
+	N4.72173, W77.28633
+	N4.59385, W77.31367
+	N4.47500, W77.32832
+	N4.39829, W77.35352
+	N4.34761, W77.41426
+	N4.30103, W77.44585
+	N4.25630, W77.51553
+	N4.21279, W77.52070
+	N4.24775, W77.40874
+	N4.20078, W77.40449
+	N4.13096, W77.43354
+	N4.06045, W77.42729
+	N3.94473, W77.35820
+	N4.05850, W77.27803
+	N4.04097, W77.24839
+	N3.89321, W77.26353
+	N3.86743, W77.21201
+	N3.86226, W77.16660
+	N3.90605, W77.12686
+	N3.91328, W77.07681
+	N3.58535, W77.24277
+	N3.47476, W77.32441
+	N3.34858, W77.35654
+	N3.34180, W77.41714
+	N3.23379, W77.47222
+	N3.16025, W77.52026
+	N3.07598, W77.55913
+	N3.05117, W77.63203
+	N3.03994, W77.69365
+	N3.00757, W77.70098
+	N2.91934, W77.67109
+	N2.87886, W77.67002
+
+[airport1]
+name = Gerardo Tobar López Airport
+code = SKBU
+runways =
+	rwy1, 09, N3.81924, W76.9952, 86.0, 3945, 0, 0, 40

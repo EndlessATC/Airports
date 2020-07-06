@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = N13.0495996475, E109.333999634
+magneticvar = -0.351
+beacons =
+	TH, N13.04500, E109.33500, 0, Tuyhoa
+	NG, N12.22640, E109.20100, 0, Nhatrang
+	PC, N13.86560, E109.10600, 0, Phucat
+
+line1 =
+	N12.07290, E109.21572
+	N12.41538, E109.20684
+	N12.39116, E109.30469
+	N12.64580, E109.21895
+	N12.70903, E109.27402
+	N12.75190, E109.33555
+	N12.67075, E109.38145
+	N12.59961, E109.44492
+	N12.71904, E109.42002
+	N12.95596, E109.42393
+	N13.02549, E109.37676
+	N13.21919, E109.30957
+	N13.27935, E109.27188
+	N13.45078, E109.28809
+	N13.59053, E109.25205
+	N13.85474, E109.24707
+	N13.76504, E109.28809
+	N13.85645, E109.30332
+
+[airport1]
+name = Dong Tac Airport
+code = VVTH
+runways =
+	rwy1, 02, N13.0471, E109.331, 31.6, 2770, 0, 0, 0
+	rwy2, 03L, N13.0372, E109.327, 29.8, 9520, 0, 0, 0
+	rwy3, 03R, N13.0361, E109.33, 29.9, 9300, 0, 0, 0

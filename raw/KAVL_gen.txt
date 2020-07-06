@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2165
+usa = true
+transition = 18001
+center = N35.4361991882, W82.5418014526
+magneticvar = -6.191
+beacons =
+	IM, N35.53280, W82.58740, 0, Keans
+	BRA, N35.27280, W82.47100, 0, Broad River
+	SUG, N35.40650, W82.26860, 0, Sugarloaf Mt
+	RFE, N35.34900, W81.95290, 0, Rutherford
+	SOT, N35.79010, W83.05240, 0, Snowbird
+	LQK, N34.81120, W82.70350, 0, Lake Keowee
+	SPA, N35.03370, W81.92710, 0, Spartanburg
+	GS, N34.81550, W82.28010, 0, Greer
+	GM, N34.78010, W82.34980, 0, Judky
+	FRT, N34.90240, W81.98480, 0, Fairmont
+	GY, N34.69100, W82.44360, 0, Dyana
+	DYQ, N36.13590, W82.89040, 0, Dulaney
+	FIQ, N35.71020, W81.67130, 0, Fiddlers
+	SLP, N35.25270, W81.59880, 0, First River
+	CEU, N34.67380, W82.88680, 0, Clemson
+	BAR, N36.15350, W81.87980, 0, Hemlock
+	ODF, N34.69590, W83.29770, 0, Foothills
+	JXT, N36.11000, W83.47520, 0, Jefferson
+	UOT, N34.68400, W81.64230, 0, Union County
+
+line1 =
+	N34.59853, W83.16590
+	N34.51087, W83.05278
+	N34.47640, W82.97568
+	N34.46580, W82.89682
+	N34.43692, W82.84773
+
+line2 =
+	N34.71566, W83.74625
+	N34.70016, W83.69137
+	N34.65892, W83.66075
+	N34.58667, W83.63610
+	N34.50384, W83.67207
+
+line3 =
+	N35.07626, W83.12058
+	N35.00055, W83.12135
+	N34.93291, W83.17040
+	N34.80565, W83.31672
+	N34.70832, W83.35558
+
+line4 =
+	N36.40124, W82.93589
+	N36.36985, W83.02552
+	N36.32367, W83.19344
+	N36.25650, W83.38653
+	N36.19983, W83.45369
+	N36.07617, W83.74716
+	N35.97832, W83.89971
+
+line5 =
+	N34.70832, W83.35558
+	N34.59959, W83.16652
+
+line6 =
+	N36.07366, W81.57636
+	N36.04705, W81.52238
+	N36.05511, W81.46549
+	N36.10586, W81.34890
+
+[airport1]
+name = Asheville Regional Airport
+code = KAVL
+runways =
+	rwy1, 16, N35.4465, W82.5464, 159.8, 8001, 0, 0, 2165

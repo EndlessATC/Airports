@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 648
+center = N54.634102, E25.285801
+magneticvar = 5.377
+beacons =
+	VNO, N54.63610, E25.29360, 0, Vilnius
+	AVN, N54.65340, E25.29900, 0, Vilnius
+	KUS, N54.96580, E24.12190, 0, Kaunas
+	KNA, N54.95980, E24.06530, 0, Kaunas
+
+[airport1]
+name = Vilnius International Airport
+code = EYVI
+runways =
+	rwy1, 02, N54.6237, E25.2785, 22.0, 8251, 0, 0, 594

@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 18
+usa = true
+center = S30.3206005096, E153.115997314
+magneticvar = 11.306
+beacons =
+	CH, S30.31920, E153.11600, 0, Coffs Harbour
+	CH, S30.31220, E153.11700, 0, Coffs Harbour
+	GFN, S29.75970, E153.02699, 0, Grafton
+	PLO, S30.48210, E152.39700, 0, Point Lookout
+	PLO, S30.49250, E152.35899, 0, Point Lookout
+	KMP, S31.05830, E152.78999, 0, Kempsey
+	GBA, S29.59670, E152.17799, 0, Gibraltar
+
+line1 =
+	S29.49658, E153.34697
+	S29.89248, E153.27236
+	S29.99863, E153.22383
+	S30.16387, E153.18818
+	S30.56338, E153.03057
+	S30.72012, E153.02373
+	S30.90713, E153.04785
+	S31.08662, E153.02158
+	S31.20879, E152.98223
+
+[airport1]
+name = Coffs Harbour Airport
+code = YSCH
+runways =
+	rwy1, 03, S30.3384, E153.107, 41.0, 6824, 0, 0, 14
+	rwy2, 10, S30.3165, E153.114, 107.0, 2785, 406, 0, 9

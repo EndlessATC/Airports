@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2588
+center = N39.809898, E30.5194
+magneticvar = 4.142
+beacons =
+	ESR, N39.81310, E30.52110, 0, Eskisehir
+	ESR, N39.81310, E30.50970, 0, Eskisehir
+	ESK, N39.78370, E30.60630, 0, Eskisehir
+	KUT, N39.42990, E30.01290, 0, Kutahya
+	SYT, N39.44590, E31.37410, 0, Sivrihisar
+	BRY, N40.26250, E29.59400, 0, Yenisehir
+	BRY, N40.26250, E29.59400, 0, Yenisehir
+	YEN, N40.26010, E29.57450, 0, Yenisehir
+
+line1 =
+	N40.80928, E29.36475
+	N40.76016, E29.80059
+	N40.76011, E29.84922
+	N40.73809, E29.84492
+	N40.70840, E29.50762
+	N40.64912, E29.05410
+
+line2 =
+	N40.42417, E29.05518
+	N40.38975, E29.00713
+
+[airport1]
+name = Anadolu Airport
+code = LTBY
+runways =
+	rwy1, 09, N39.8105, E30.5047, 93.0, 8261, 0, 0, 2593

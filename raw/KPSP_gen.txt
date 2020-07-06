@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 477
+usa = true
+transition = 18001
+center = N33.82970047, W116.507003784
+magneticvar = 13.042
+beacons =
+	PSP, N33.87000, W116.43000, 0, Palm Springs
+	TRM, N33.62810, W116.16000, 0, Thermal
+	SJY, N33.79490, W116.99900, 0, San Jacinto
+	NXP, N34.29670, W116.15700, 0, Coyote
+	HDF, N33.77630, W117.18500, 0, Homeland
+	RIV, N33.90650, W117.27500, 0, March
+	TNP, N34.11220, W115.77000, 0, Twentynine Palms
+	JLI, N33.14050, W116.58600, 0, Julian
+	SB, N34.05650, W117.36600, 0, Petis
+	RAL, N33.95200, W117.44900, 0, Riverside
+	NFG, N33.27440, W117.38700, 0, Camp Pendleton
+	OCN, N33.24060, W117.41800, 0, Oceanside
+	VCV, N34.59420, W117.39000, 0, Victorville
+
+line1 =
+	N33.53848, W117.78853
+	N33.29551, W117.46743
+	N33.10005, W117.31885
+	N32.93887, W117.26299
+	N32.87339, W117.25576
+
+line2 =
+	N33.27446, W115.61162
+	N33.22261, W115.61606
+	N33.13828, W115.69790
+	N33.14658, W115.78887
+	N33.30254, W115.91133
+	N33.43262, W116.06172
+	N33.50210, W116.05347
+	N33.52192, W116.01045
+	N33.51943, W115.94844
+	N33.45166, W115.88394
+	N33.32080, W115.65996
+	N33.27446, W115.61162
+	N33.27446, W115.61162
+	N33.27446, W115.61162
+	N33.27446, W115.61162
+
+[airport1]
+name = Palm Springs International Airport
+code = KPSP
+runways =
+	rwy1, 13L, N33.8352, W116.51, 143.5, 4952, 0, 0, 449
+	rwy2, 13R, N33.8407, W116.517, 143.5, 10000, 3000, 1500, 451

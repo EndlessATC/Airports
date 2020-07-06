@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 528
+center = N9.33274, W75.2856
+magneticvar = -5.114
+beacons =
+	MGN, N9.28741, W74.84720, 0, Magangue
+	MTR, N8.81556, W75.81780, 0, Monteria
+
+line1 =
+	N10.32773, W75.55371
+	N10.19634, W75.67090
+	N10.14341, W75.70835
+	N10.17217, W75.64219
+	N10.23643, W75.55840
+	N10.20518, W75.53857
+	N10.12583, W75.59590
+	N9.99272, W75.59268
+	N9.83428, W75.63711
+	N9.72979, W75.68003
+	N9.65781, W75.63535
+	N9.53848, W75.60361
+	N9.45044, W75.63936
+	N9.41562, W75.75557
+	N9.43091, W75.90503
+	N9.36577, W76.02725
+	N9.26562, W76.13550
+	N8.98911, W76.27686
+
+line2 =
+	N9.10355, W74.22272
+	N9.21280, W74.36148
+	N9.26130, W74.45630
+	N9.24902, W74.50731
+	N9.27770, W74.55873
+	N9.34729, W74.61061
+	N9.39111, W74.66303
+	N9.41824, W74.74241
+	N9.44097, W74.78553
+	N9.49423, W74.79530
+	N9.58559, W74.78610
+	N9.69093, W74.80564
+	N9.81020, W74.85400
+	N9.90870, W74.85974
+	N9.98642, W74.82290
+	N10.06034, W74.84031
+	N10.13049, W74.91204
+	N10.27545, W74.89240
+
+[airport1]
+name = Las Brujas Airport
+code = SKCZ
+runways =
+	rwy1, 02, N9.32636, W75.2879, 19.8, 4930, 0, 227, 0

@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7
+center = N3.90871, E108.388
+magneticvar = 0.281
+beacons =
+	RN, N3.90542, E108.39200, 0, Ranai
+
+line1 =
+	N2.99897, E108.88574
+	N2.99189, E108.86709
+
+line2 =
+	N3.98618, E108.39287
+	N4.15176, E108.25557
+	N4.21714, E108.24834
+	N4.20049, E108.20195
+	N4.04258, E108.00352
+	N3.98286, E108.00234
+	N3.88896, E108.04453
+	N3.85210, E108.08848
+	N3.81035, E108.24326
+	N3.78457, E108.23613
+	N3.77217, E108.21641
+	N3.76797, E108.18613
+	N3.70454, E108.10039
+	N3.65308, E108.17959
+	N3.68965, E108.31602
+	N3.83618, E108.39355
+	N3.87598, E108.39883
+	N3.98618, E108.39287
+
+[airport1]
+name = Ranai Airport
+code = WION
+runways =
+	rwy1, 18, N3.9203, E108.388, 182.2, 8410, 0, 0, 0

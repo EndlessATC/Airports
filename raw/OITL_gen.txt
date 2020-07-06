@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4315
+center = N38.3256988525, E48.4244003296
+magneticvar = 4.496
+beacons =
+	ARB, N38.33070, E48.41540, 0, Ardabil
+	ARB, N38.30310, E48.44100, 0, Ardabil
+
+line1 =
+	N37.48052, E49.72695
+	N37.49668, E49.47012
+	N37.51997, E49.37246
+	N37.60059, E49.17119
+	N37.66758, E49.08096
+	N37.77607, E49.01533
+	N37.89014, E48.95996
+	N38.01514, E48.92510
+	N38.14365, E48.90137
+	N38.39253, E48.87070
+	N38.43550, E48.86875
+	N38.81533, E48.85088
+	N38.83882, E48.85449
+	N38.96177, E48.92617
+	N39.07876, E48.96172
+	N39.13398, E49.01348
+	N39.08472, E49.11133
+	N39.02905, E49.10869
+	N39.00391, E49.12100
+	N39.03027, E49.16533
+	N39.07266, E49.19980
+	N39.28516, E49.26934
+
+[airport1]
+name = Ardabil Airport
+code = OITL
+runways =
+	rwy1, 15, N38.3385, E48.4149, 149.9, 10823, 0, 0, 4305

@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1247
+center = N12.5335, W7.94994
+magneticvar = -5.272
+beacons =
+	BM, N12.52150, W7.96867, 0, Bamako/Senou
+	BKO, N12.54610, W7.93047, 0, Bamako/Senou
+
+line1 =
+	N11.62025, W8.75918
+	N11.71887, W8.65097
+	N11.80083, W8.52720
+	N11.90488, W8.43268
+	N12.03100, W8.36742
+	N12.14365, W8.28143
+	N12.24279, W8.17472
+	N12.37472, W8.09808
+	N12.53939, W8.05142
+	N12.62652, W7.96434
+	N12.63605, W7.83685
+	N12.74666, W7.66637
+	N12.95833, W7.45292
+	N13.10401, W7.27906
+	N13.22353, W7.07768
+	N13.32477, W6.94921
+	N13.36177, W6.78793
+
+[airport1]
+name = Modibo Keita International Airport
+code = GABS
+runways =
+	rwy1, 06, N12.5268, W7.96035, 57.0, 10498, 0, 0, 1187

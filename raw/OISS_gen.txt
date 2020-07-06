@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4920
+center = N29.5391998291, E52.5898017883
+magneticvar = 2.351
+beacons =
+	SYZ, N29.54020, E52.58880, 0, Shiraz Shahid Dastghaib
+	SYZ, N29.54220, E52.58430, 0, Shiraz Shahid Dastghaib
+	SR, N29.50460, E52.67150, 0, Shiraz Shahid Dastghaib
+
+[airport1]
+name = Shiraz Shahid Dastghaib International Airport
+code = OISS
+runways =
+	rwy1, 11L, N29.5493, E52.5701, 114.4, 14345, 0, 0, 4910
+	rwy2, 11R, N29.5453, E52.5688, 114.3, 14051, 0, 0, 4920

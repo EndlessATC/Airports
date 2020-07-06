@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 452
+usa = true
+center = S25.4130992889, E142.667007446
+magneticvar = 7.468
+beacons =
+	WDH, S25.41080, E142.66299, 0, Windorah
+
+[airport1]
+name = Windorah Airport
+code = YWDH
+runways =
+	rwy1, 04, S25.4145, E142.663, 50.0, 4508, 0, 0, 430

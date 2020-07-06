@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1572
+center = S5.03576993942, E18.7856006622
+magneticvar = -2.250
+beacons =
+	KKW, S5.03556, E18.81630, 0, Kikwit
+
+line1 =
+	S4.16228, E19.90362
+	S4.08135, E19.74188
+	S4.07164, E19.66002
+
+[airport1]
+name = Kikwit Airport
+code = FZCA
+runways =
+	rwy1, 06, S5.04069, E18.7805, 46.2, 5151, 0, 0, 0

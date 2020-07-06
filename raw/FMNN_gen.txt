@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = S13.3121004105, E48.3148002625
+magneticvar = -9.253
+beacons =
+	VSN, S13.31990, E48.31010, 0, Fascene
+	NSB, S13.30560, E48.32310, 0, Fascene
+
+line1 =
+	S14.06729, E47.95518
+	S14.00430, E47.95693
+	S13.98486, E47.98320
+	S13.96045, E47.99551
+	S13.85820, E47.90137
+	S13.80752, E47.88359
+	S13.73066, E47.89600
+	S13.66240, E47.94102
+	S13.61465, E47.98184
+	S13.59629, E48.03984
+	S13.62256, E48.08594
+	S13.70654, E48.18711
+	S13.71934, E48.25527
+	S13.63867, E48.33770
+	S13.53799, E48.40508
+	S13.46875, E48.50645
+	S13.42598, E48.62139
+	S13.26748, E48.79648
+	S12.93584, E48.91035
+	S12.83906, E48.91943
+	S12.72168, E48.89424
+	S12.61016, E48.85381
+	S12.47090, E48.78633
+	S12.44004, E48.80391
+	S12.45850, E48.89961
+	S12.43906, E48.93174
+	S12.31582, E49.03574
+
+line2 =
+	S13.30957, E48.35107
+	S13.19824, E48.30889
+	S13.20459, E48.26973
+	S13.25605, E48.25566
+	S13.25996, E48.19121
+	S13.38525, E48.21191
+	S13.40039, E48.34355
+	S13.36387, E48.34219
+	S13.30957, E48.35107
+
+[airport1]
+name = Fascene Airport
+code = FMNN
+runways =
+	rwy1, 05, S13.3193, E48.3079, 43.0, 7185, 0, 0, 37

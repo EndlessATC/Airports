@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 289
+center = S2.5769500733, E140.51600647
+magneticvar = 4.091
+beacons =
+	ZN, S2.56824, E140.50700, 0, Jayapura
+	JPA, S2.58769, E140.53101, 0, Jayapura
+	VNO, S2.67890, E141.30299, 0, Vanimo
+
+line1 =
+	S2.21182, E139.48184
+	S2.34824, E139.78955
+	S2.35645, E139.86836
+	S2.35000, E140.15459
+	S2.37568, E140.20400
+	S2.41201, E140.25098
+	S2.42041, E140.29463
+	S2.44580, E140.62256
+	S2.47207, E140.67305
+	S2.50811, E140.72051
+	S2.60713, E140.74746
+	S2.61133, E141.10479
+	S2.62783, E141.18564
+
+line2 =
+	S3.55239, E139.78897
+	S3.52836, E139.68355
+	S3.53146, E139.57492
+	S3.49317, E139.52180
+	S3.47111, E139.48702
+	S3.48056, E139.41560
+	S3.47333, E139.38439
+
+[airport1]
+name = Sentani International Airport
+code = WAJJ
+runways =
+	rwy1, 12, S2.57111, E140.509, 126.5, 7161, 0, 0, 292

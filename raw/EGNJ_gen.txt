@@ -1,0 +1,87 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 121
+center = N53.5744018555, W0.350832998753
+magneticvar = -3.058
+beacons =
+	OTR, N53.69830, W0.10361, 0, Ottringham
+	BV, N53.72540, W0.58148, 0, Brough
+	FNY, N53.47480, W1.00172, 0, Doncaster
+	SBY, N53.31000, E0.17617, 0, Strubby
+	WAD, N53.16530, W0.52683, 0, Waddington
+	GAM, N53.28140, W0.94722, 0, Gamston
+	CGY, N53.09100, W0.16897, 0, Coningsby
+	CWZ, N53.02860, W0.48550, 0, Cranwell
+	CWL, N53.02630, W0.48898, 0, Cranwell
+	SFH, N53.39300, W1.38314, 0, Sheffield City
+	SMF, N53.39260, W1.38314, 0, Sheffield City
+	LOO, N54.05050, W1.24904, 0, Linton On Ouse
+	NOT, N52.92170, W1.07933, 0, Nottingham
+	LBA, N53.86500, W1.65289, 0, Leeds Bradford
+	FNL, N52.74160, W0.02794, 0, Fenland
+	TNT, N53.05390, W1.67000, 0, Trent
+	LEE, N54.29710, W1.53687, 0, Leeming
+	LIC, N52.74670, W1.71944, 0, Lichfield
+
+line1 =
+	N54.54141, W0.75933
+	N54.50391, W0.67139
+	N54.39512, W0.51812
+	N54.27920, W0.37036
+	N54.19014, W0.23286
+	N54.11807, W0.08437
+	N54.08062, W0.15630
+	N54.02173, W0.20557
+	N53.94165, W0.16875
+	N53.86519, W0.10825
+	N53.74282, E0.01055
+	N53.60928, E0.11533
+	N53.62944, E0.07671
+	N53.64053, E0.03608
+	N53.63721, W0.01943
+	N53.64365, W0.07373
+	N53.68545, W0.17383
+	N53.73677, W0.27002
+	N53.71616, W0.46138
+	N53.72539, W0.56768
+	N53.72402, W0.65991
+	N53.69438, W0.48506
+	N53.69233, W0.29370
+	N53.46826, E0.12832
+	N53.33550, E0.27100
+	N53.15996, E0.35576
+	N53.08110, E0.29805
+	N53.03003, E0.20820
+	N52.97158, E0.12441
+	N52.90562, E0.04590
+	N52.80869, E0.27979
+	N52.81162, E0.33018
+	N52.82520, E0.38193
+	N52.85815, E0.43164
+	N52.93838, E0.51553
+	N52.96694, E0.55879
+	N52.97725, E0.70449
+	N52.97109, E0.82676
+	N52.95337, E0.94854
+	N52.95898, E1.05557
+	N52.92456, E1.27129
+	N52.89351, E1.38213
+
+[airport1]
+name = Humberside Airport
+code = EGNJ
+runways =
+	rwy1, 02, N53.5653, W0.357058, 22.0, 7205, 0, 806, 121
+	rwy2, 08, N53.5758, W0.353469, 82.0, 3458, 0, 647, 87
+
+[airport2]
+name = Robin Hood Doncaster Sheffield Airport
+code = CN
+runways =
+	rwy3, 02, N53.4624, W1.01115, 18.0, 9491, 714, 281, 52
+inboundbeacon = FNY

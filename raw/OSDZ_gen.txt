@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 700
+center = N35.2854, E40.175999
+magneticvar = 4.137
+beacons =
+	DRZ, N35.28920, E40.18740, 0, Deir Zzor
+	DRZ, N35.29190, E40.15380, 0, Deir Zzor
+
+line1 =
+	N35.91274, E38.91574
+	N35.88076, E39.22709
+	N35.78371, E39.61260
+	N35.68325, E39.83321
+	N35.57943, E39.88891
+	N35.47256, E40.00431
+	N35.36270, E40.17928
+	N35.29754, E40.26341
+	N35.27707, E40.25659
+	N35.25304, E40.29432
+	N35.22540, E40.37658
+	N35.16741, E40.42444
+	N35.07905, E40.43777
+	N35.01580, E40.47477
+	N34.97766, E40.53544
+	N34.91818, E40.58386
+	N34.83725, E40.62014
+	N34.75222, E40.71052
+	N34.66308, E40.85490
+	N34.58096, E40.92797
+	N34.50588, E40.92973
+	N34.45836, E40.94606
+	N34.42847, E40.99257
+
+line2 =
+	N34.42847, E40.99257
+	N34.38772, E41.11907
+	N34.39289, E41.17690
+	N34.43041, E41.20821
+	N34.44286, E41.27586
+	N34.43025, E41.37993
+	N34.43604, E41.43006
+	N34.43989, E41.44825
+	N34.44916, E41.47052
+	N34.43604, E41.50179
+	N34.44834, E41.59072
+
+[airport1]
+name = Deir ez-Zor Air Base
+code = OSDZ
+runways =
+	rwy1, 10L, N35.29, E40.1605, 110.0, 9843, 0, 0, 0
+	rwy2, 10R, N35.2866, E40.1529, 109.0, 11000, 0, 0, 0

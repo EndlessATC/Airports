@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5587
+center = S12.8088998795, E15.7604999542
+magneticvar = -6.349
+beacons =
+	VHU, S12.80860, E15.74950, 0, Huambo
+	HU, S12.80000, E15.71130, 0, Huambo
+
+line1 =
+	S12.65406, E16.14509
+	S12.63360, E16.19160
+	S12.65954, E16.23413
+	S12.72511, E16.28818
+	S12.82103, E16.32761
+	S13.01032, E16.36482
+	S13.43623, E16.43133
+	S13.71115, E16.41412
+
+[airport1]
+name = Nova Lisboa Airport
+code = FNHU
+runways =
+	rwy1, 11, S12.8067, E15.7485, 100.0, 8727, 0, 0, 5587

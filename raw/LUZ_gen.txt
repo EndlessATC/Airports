@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 633
+center = N51.240278, E22.713611
+
+line1 =
+	N50.30732, E20.88320
+	N50.32639, E21.08195
+	N50.38556, E21.28927
+	N50.48488, E21.50528
+	N50.58590, E21.67008
+	N50.68859, E21.78366
+	N50.84571, E21.82361
+	N51.05722, E21.79002
+	N51.18835, E21.78382
+	N51.23909, E21.80501
+	N51.28793, E21.85554
+	N51.33480, E21.93523
+	N51.38632, E21.96102
+	N51.44244, E21.93280
+	N51.47298, E21.89709
+	N51.47794, E21.85399
+	N51.50099, E21.82960
+	N51.54207, E21.82402
+	N51.59080, E21.73173
+	N51.64718, E21.55262
+	N51.70452, E21.45195
+	N51.76286, E21.42963
+	N51.82043, E21.37113
+	N51.87725, E21.27646
+	N51.91833, E21.24122
+	N51.94381, E21.26540
+	N51.99347, E21.25873
+	N52.06731, E21.22122
+	N52.17012, E21.12629
+
+[airport1]
+name = Lublin Airport
+code = LUZ

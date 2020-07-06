@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 300
+center = N23.6225, E87.243
+magneticvar = -0.312
+beacons =
+	TK, N22.90070, E88.03070, 0, Tarkeshwar
+
+line1 =
+	N22.98648, E88.43975
+	N22.86796, E88.38502
+	N22.73525, E88.34668
+	N22.62927, E88.34379
+
+line2 =
+	N24.38926, E88.39696
+	N24.26139, E88.51013
+
+line3 =
+	N24.38926, E88.39696
+	N24.34663, E88.49856
+
+line4 =
+	N24.54253, E88.01884
+	N24.38880, E88.17460
+	N24.23426, E88.23806
+	N24.07897, E88.20901
+	N23.94469, E88.20540
+	N23.83141, E88.22700
+	N23.73964, E88.21542
+	N23.70010, E88.18338
+	N23.63675, E88.21372
+	N23.58735, E88.27185
+	N23.54267, E88.30379
+	N23.53032, E88.34461
+	N23.46056, E88.36074
+	N23.33336, E88.35216
+	N23.25543, E88.37521
+	N23.22677, E88.42998
+	N23.18613, E88.46688
+	N23.13352, E88.48605
+	N23.02748, E88.45871
+	N22.98648, E88.43975
+
+line5 =
+	N24.54992, E88.07905
+	N24.48579, E88.14545
+	N24.46063, E88.22503
+	N24.47975, E88.28715
+	N24.45386, E88.33753
+	N24.38926, E88.39696
+
+[airport1]
+name = Kazi Nazrul Islam Airport
+code = VEDG

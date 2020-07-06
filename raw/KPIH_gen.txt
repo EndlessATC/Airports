@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4452
+usa = true
+transition = 18001
+center = N42.9098014832, W112.596000671
+magneticvar = 13.583
+beacons =
+	PIH, N42.87040, W112.65200, 0, Pocatello
+	PI, N42.96650, W112.51900, 0, Tyhee
+	SWU, N43.43220, W112.16300, 0, Sweden
+	MLD, N42.19990, W112.45100, 0, Malad City
+	IDA, N43.51900, W112.06400, 0, Idaho Falls
+	ID, N43.59780, W111.98100, 0, Uconn
+	AOC, N43.59900, W113.34200, 0, Arco
+
+line1 =
+	N42.03281, W111.28823
+	N41.94912, W111.30771
+
+line2 =
+	N41.93740, W111.39414
+	N41.98760, W111.40737
+	N42.06162, W111.40273
+	N42.13081, W111.39341
+	N42.15239, W111.34443
+	N42.14810, W111.31274
+	N42.10918, W111.28535
+	N42.05874, W111.28247
+	N42.03281, W111.28823
+	N42.03281, W111.28823
+	N42.03281, W111.28823
+
+line3 =
+	N42.65362, W113.31628
+	N42.67502, W113.47222
+	N42.81305, W112.86367
+	N43.02347, W112.63953
+	N43.20651, W111.04787
+	N43.23372, W111.09339
+	N43.33829, W111.18595
+
+line4 =
+	N42.67476, W113.47392
+	N42.57792, W113.62378
+	N42.53766, W113.78519
+	N42.52167, W114.00805
+
+line5 =
+	N42.81191, W112.86440
+	N42.68595, W113.02229
+	N42.64639, W113.13526
+	N42.65362, W113.31628
+	N43.33888, W111.18812
+	N43.44797, W111.34826
+	N43.50995, W111.40937
+	N43.56127, W111.42480
+	N43.63470, W111.58649
+	N43.73035, W111.89443
+	N43.70798, W112.04341
+	N43.56757, W112.03339
+	N43.44603, W112.07186
+	N43.34330, W112.15883
+	N43.22486, W112.31156
+	N43.02358, W112.63929
+
+[airport1]
+name = Pocatello Regional Airport
+code = KPIH
+runways =
+	rwy1, 03, N42.9017, W112.601, 45.0, 9060, 0, 0, 4442
+	rwy2, 17, N42.9187, W112.605, 180.0, 7150, 0, 0, 4447

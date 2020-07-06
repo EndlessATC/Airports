@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 271
+center = N28.3838996887, E70.2796020508
+magneticvar = 0.584
+beacons =
+	RK, N28.36560, E70.27320, 0, Rahim Yar Khan
+	RK, N28.41130, E70.30350, 0, Rahim Yar Khan
+
+line1 =
+	N29.32625, E71.01415
+	N29.27480, E70.98743
+	N29.23775, E70.95508
+	N29.22057, E70.91167
+	N29.22333, E70.85741
+	N29.17791, E70.79736
+	N29.08437, E70.73153
+	N29.03740, E70.68378
+	N29.02311, E70.61164
+
+line2 =
+	N29.35348, E70.70233
+	N29.26124, E70.66626
+	N29.17602, E70.65122
+	N29.09786, E70.65711
+	N29.02311, E70.61164
+	N28.95180, E70.51459
+	N28.91575, E70.44297
+	N28.91501, E70.39677
+	N28.83545, E70.28737
+	N28.67711, E70.11487
+	N28.57572, E69.96201
+	N28.53128, E69.82879
+	N28.44439, E69.71495
+	N28.31496, E69.62059
+	N28.24577, E69.53491
+	N28.23688, E69.45801
+	N28.21239, E69.40944
+	N28.17239, E69.38918
+	N28.15673, E69.35631
+	N28.16541, E69.31084
+	N28.14136, E69.24893
+	N28.08454, E69.17059
+	N28.05777, E69.10729
+	N28.06105, E69.05902
+	N28.04005, E69.02590
+	N27.99478, E69.00791
+	N27.97517, E68.97985
+
+line3 =
+	N29.38239, E71.56481
+	N29.37185, E71.49959
+	N29.38208, E71.41810
+
+[airport1]
+name = Shaikh Zaid Airport
+code = OPRK
+runways =
+	rwy1, 01, N28.3708, E70.2757, 14.6, 9842, 0, 0, 264

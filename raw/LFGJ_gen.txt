@@ -1,0 +1,88 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 645
+center = N47.042686, E5.435063
+magneticvar = 0.145
+beacons =
+	DJL, N47.27080, E5.09733, 0, Dijon
+	DIJ, N47.27190, E5.09153, 0, Dijon
+	LAP, N46.67610, E6.41333, 0, La Praz
+	ATN, N46.80590, E4.25914, 0, Autun
+	GLA, N46.40870, E6.24425, 0, Gland
+	MM, N46.60140, E4.33139, 0, Montceau-Les-Mines
+	LUL, N47.68830, E6.29558, 0, Luxeuil
+	SPR, N46.46870, E6.44806, 0, St-Prex
+	GVA, N46.25390, E6.13222, 0, Geneva Cointrin
+	LXI, N47.78320, E6.35711, 0, Luxeuil
+	LXI, N47.79660, E6.37519, 0, Luxeuil
+
+line1 =
+	N46.43223, E6.87363
+	N46.40259, E6.86641
+	N46.38481, E6.84502
+	N46.40244, E6.66533
+	N46.38857, E6.46885
+	N46.36094, E6.33643
+	N46.20508, E6.15703
+	N46.20459, E6.13330
+	N46.30244, E6.15840
+	N46.45762, E6.34395
+	N46.52881, E6.58818
+	N46.46562, E6.81885
+	N46.43223, E6.87363
+	N46.43223, E6.87363
+	N46.43223, E6.87363
+
+line2 =
+	N46.20460, E6.13330
+	N46.33262, E6.23469
+	N46.39371, E6.32192
+	N46.43050, E6.42889
+	N46.43737, E6.57823
+	N46.40280, E6.86607
+
+line3 =
+	N46.20460, E6.13330
+	N46.12261, E5.90220
+
+line4 =
+	N46.15176, E7.08916
+	N46.19682, E7.02048
+	N46.40259, E6.86638
+
+line5 =
+	N47.57787, E4.70765
+	N47.73964, E4.58425
+	N47.81248, E4.55355
+	N47.85036, E4.57433
+	N47.89147, E4.56502
+	N47.95805, E4.50591
+
+line6 =
+	N46.63855, E3.72435
+	N46.55788, E3.74907
+	N46.50687, E3.86029
+	N46.46006, E3.98388
+	N46.37913, E3.99006
+	N46.23827, E4.03949
+	N46.16557, E4.10128
+	N46.06276, E4.10128
+
+[airport1]
+name = Dole-Tavaux Airport
+code = LFGJ
+runways =
+	rwy1, 05, N47.0331, E5.41534, 55.0, 7318, 0, 0, 639
+
+[airport2]
+name = Dijon-Bourgogne Airport
+code = SD
+runways =
+	rwy2, 02, N47.2642, E5.08205, 15.0, 5905, 0, 0, 719
+	rwy3, 18, N47.2766, E5.09359, 175.1, 7874, 0, 0, 726
+inboundbeacon = DIJ

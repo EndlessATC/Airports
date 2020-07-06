@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5462
+center = N39.6545410156, E43.0259780884
+magneticvar = 5.205
+beacons =
+	ARI, N39.66910, E43.02200, 0, Agri
+	ARI, N39.67170, E43.02060, 0, Agri
+	TLN, N40.38550, E43.89110, 0, Talin
+
+line1 =
+	N38.69219, E42.45801
+	N38.74517, E42.52598
+	N38.78208, E42.72285
+	N38.79399, E42.84502
+	N38.79419, E42.93477
+	N38.80933, E43.07939
+	N38.84619, E43.16279
+	N38.86899, E43.15879
+	N38.88184, E43.12646
+	N38.88140, E43.08760
+	N38.91611, E43.07520
+	N38.94756, E43.15215
+	N38.96357, E43.28496
+	N38.98784, E43.43594
+	N38.97764, E43.56016
+	N38.94702, E43.61074
+	N38.89751, E43.53105
+	N38.83608, E43.38281
+	N38.81279, E43.29189
+	N38.71592, E43.20996
+
+[airport1]
+name = Ağrı Airport
+code = LTCO
+runways =
+	rwy1, 16, N39.6632, E43.0241, 164.7, 6562, 0, 0, 5419

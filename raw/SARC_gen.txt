@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 202
+center = S27.4455, W58.7619
+magneticvar = -9.531
+beacons =
+	CRR, S27.43720, W58.76170, 0, Corrientes
+	C, S27.42820, W58.75890, 0, Corrientes
+	N, S27.42430, W59.04510, 0, Resistencia
+	SIS, S27.44690, W59.05720, 0, Resistencia
+	SIS, S27.46420, W59.06970, 0, Resistancia
+
+line1 =
+	S27.31435, W58.60484
+	S27.43786, W58.81620
+	S27.51196, W58.87756
+	S27.61077, W58.85023
+	S27.71820, W58.82387
+	S27.82636, W58.83059
+	S27.97106, W58.86165
+	S28.07637, W58.92976
+	S28.14231, W59.03502
+	S28.28825, W59.08750
+
+line2 =
+	S27.31663, W57.81223
+	S27.27343, W58.16825
+	S27.31435, W58.60484
+
+line3 =
+	S26.47657, W58.20520
+	S26.59254, W58.18794
+	S26.63000, W58.19130
+	S26.64995, W58.22205
+	S26.67687, W58.23936
+	S26.73103, W58.24556
+	S26.77072, W58.27168
+	S26.79594, W58.31770
+	S26.82493, W58.33465
+	S26.85764, W58.32256
+	S26.88999, W58.35643
+	S26.92197, W58.43630
+	S26.96843, W58.48524
+	S27.02951, W58.50325
+	S27.08403, W58.54771
+	S27.13209, W58.61861
+	S27.19612, W58.64176
+	S27.31435, W58.60484
+
+[airport1]
+name = Corrientes Airport
+code = SARC
+runways =
+	rwy1, 2, S27.4548, W58.7633, 8.0, 6890, 0, 0, 202
+
+[airport2]
+name = Resistencia International Airport
+code = RE
+runways =
+	rwy2, 3, S27.4617, W59.0611, 20.9, 9088, 0, 0, 171
+inboundbeacon = SIS

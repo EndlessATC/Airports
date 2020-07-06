@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 677
+center = S0.889839, W52.6022
+magneticvar = -18.143
+beacons =
+	MDD, S0.88333, W52.60300, 0, Dourado
+
+line1 =
+	S0.64961, W51.54604
+	S0.85508, W51.67827
+	S1.08613, W51.68003
+	S1.20254, W51.80205
+	S1.45264, W51.93838
+	S1.43379, W51.83252
+	S1.34189, W51.63770
+	S1.21113, W51.46514
+
+line2 =
+	S1.35410, W51.53120
+	S1.39434, W51.64629
+	S1.58672, W51.94756
+	S1.64014, W52.19668
+	S1.55957, W52.31030
+	S1.55176, W52.66416
+	S1.51406, W52.55342
+	S1.36250, W52.22925
+	S1.39902, W52.02046
+	S1.36797, W51.98081
+	S1.32031, W51.93447
+	S1.18086, W51.92163
+	S1.11777, W51.81914
+	S1.01846, W51.72061
+	S0.85547, W51.72153
+	S0.76230, W51.70264
+	S0.54912, W51.55503
+	S0.50947, W51.49629
+
+line3 =
+	S1.55179, W52.66417
+	S1.61112, W52.87361
+	S1.66806, W52.99999
+	S1.76387, W53.14489
+	S1.83839, W53.35785
+
+line4 =
+	S1.74620, W52.25084
+	S1.68336, W52.23099
+	S1.64016, W52.19668
+
+[airport1]
+name = Monte Dourado Airport
+code = SBMD

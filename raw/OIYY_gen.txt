@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4054
+center = N31.9048995972, E54.2765007019
+magneticvar = 2.551
+beacons =
+	YZD, N31.89760, E54.28270, 0, Yazd Shahid Sadooghi
+	YZD, N31.90360, E54.28730, 0, Yazd Shahid Sadooghi
+	YZD, N31.88530, E54.30080, 0, Yazd Shahid Sadooghi
+
+[airport1]
+name = Shahid Sadooghi Airport
+code = OIYY
+runways =
+	rwy1, 13, N31.9175, E54.2607, 133.0, 13446, 0, 0, 3984

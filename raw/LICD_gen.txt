@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 70
+center = N35.497898, E12.6181
+magneticvar = 1.338
+beacons =
+	LPD, N35.50040, E12.61590, 0, Lampedusa
+	LPD, N35.49970, E12.63100, 0, Lampedusa
+
+line1 =
+	N34.75381, E11.27803
+	N34.80220, E11.28105
+	N34.82031, E11.25488
+
+[airport1]
+name = Lampedusa Airport
+code = LICD
+runways =
+	rwy1, 08, N35.4966, E12.6083, 81.0, 5906, 0, 0, 48

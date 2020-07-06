@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2460
+metric = true
+center = N47.7498855591, E88.0858078003
+magneticvar = 3.399
+beacons =
+	VZ, N47.72000, E88.16170, 0, Altay
+
+line1 =
+	N47.18673, E89.76329
+	N47.12591, E89.65451
+	N47.03041, E89.54609
+	N46.99018, E89.40553
+	N47.00522, E89.23303
+	N47.06147, E89.03243
+	N47.15898, E88.80381
+	N47.23303, E88.51499
+	N47.28373, E88.16597
+	N47.34822, E87.84728
+	N47.42656, E87.55903
+	N47.49540, E87.38700
+	N47.55472, E87.33129
+	N47.58020, E87.26571
+	N47.57183, E87.19016
+	N47.59076, E87.10024
+	N47.66011, E86.94356
+	N47.83235, E86.60725
+	N47.87759, E86.43341
+
+[airport1]
+name = Altay Air Base
+code = CN-0113

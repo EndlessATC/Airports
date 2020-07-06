@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3497
+center = S15.8691673279, W47.9208335876
+magneticvar = -20.340
+beacons =
+	XMA, S15.87830, W47.92180, 0, Gama
+	IR, S15.86420, W47.93730, 0, Trevo
+	CH, S15.86080, W47.88530, 0, Cocho
+	BRS, S15.87370, W48.02140, 0, Brasilia
+	BRS, S15.86970, W48.02170, 0, Brasilia
+	LUZ, S16.25860, W47.96960, 0, Luziania
+	LUZ, S16.26090, W47.97100, 0, Luziania
+	FRM, S15.55760, W47.34710, 0, Formosa
+	FRM, S15.55130, W47.34620, 0, Formosa
+
+[airport1]
+name = Presidente Juscelino Kubistschek International Airport
+code = SBBR

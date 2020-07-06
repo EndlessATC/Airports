@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1942
+center = N18.5820999146, E73.9197006226
+magneticvar = -0.568
+beacons =
+	PO, N18.58430, E73.91590, 0, Pune
+	PUN, N18.57970, E73.91420, 0, Pune
+
+line1 =
+	N19.57827, E72.72656
+	N19.51982, E72.79941
+	N19.45054, E72.75645
+	N19.41318, E72.76396
+	N19.36299, E72.78789
+	N19.27744, E72.98721
+	N19.29893, E72.81162
+	N19.25210, E72.79453
+	N19.21875, E72.80273
+	N19.07930, E72.80303
+	N18.97559, E72.83467
+	N19.01450, E72.90068
+	N19.15332, E72.97207
+	N19.02109, E73.00557
+	N18.92720, E72.97686
+	N18.77896, E72.89873
+	N18.68306, E72.87090
+	N18.64282, E72.87549
+	N18.57612, E72.91719
+	N18.36562, E72.94316
+	N18.25928, E72.97207
+	N18.09771, E72.99395
+	N17.90674, E73.04717
+	N17.62192, E73.15605
+
+line2 =
+	N17.99182, E73.79646
+	N17.93066, E73.89769
+	N17.85431, E73.96203
+	N17.68644, E74.05370
+	N17.63275, E74.11799
+
+[airport1]
+name = Pune Airport
+code = VAPO
+runways =
+	rwy1, 10, N18.5829, E73.9063, 94.0, 8329, 0, 0, 0
+	rwy2, 14, N18.585, E73.9164, 134.0, 5893, 425, 470, 0

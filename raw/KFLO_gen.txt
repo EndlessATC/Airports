@@ -1,0 +1,91 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 146
+usa = true
+transition = 18001
+center = N34.1853981018, W79.7238998413
+magneticvar = -7.038
+beacons =
+	FLO, N34.23290, W79.65710, 0, Florence
+	FL, N34.17400, W79.85250, 0, Alcot
+	UDG, N34.44320, W79.88730, 0, Darlington
+	MAO, N34.18520, W79.33330, 0, Marion
+	CFY, N33.85600, W79.76590, 0, Evans
+	HVS, N34.40710, W80.11530, 0, Hartsville
+	DLC, N34.45010, W79.36880, 0, Dillon
+	BES, N34.62020, W79.73320, 0, Bennettsville
+	CKI, N33.71780, W79.85500, 0, Kingstree
+	HEK, N33.72850, W79.52510, 0, Stuckey
+	SMS, N33.99080, W80.36000, 0, Sumter
+	CQW, N34.74180, W79.86560, 0, Cheraw
+	ME, N34.73400, W79.44430, 0, Maxtn
+	JB, N34.54600, W79.13840, 0, Jigel
+	HYW, N33.82330, W79.12820, 0, Horry
+	SSC, N33.97780, W80.46620, 0, Shaw
+	CTF, N34.65050, W80.27490, 0, Chesterfield
+	RCZ, N34.85270, W79.69370, 0, Roscoe
+	RSY, N34.61350, W79.05980, 0, Robeson
+	LBT, N34.61070, W79.05480, 0, Lumberton
+	CDN, N34.28350, W80.56150, 0, Camden
+	MNI, N33.58820, W80.20620, 0, Manning
+	PHH, N33.45150, W79.52720, 0, Andrews
+	PYG, N34.74500, W80.33810, 0, Pageland
+	CRE, N33.81380, W78.72450, 0, Grand Strand
+	VAN, N33.47480, W80.44860, 0, Vance
+	GR, N34.91240, W78.93970, 0, Doone
+	FAY, N34.98550, W78.87510, 0, Fayetteville
+	TWL, N34.95290, W80.70520, 0, Wesley
+
+line1 =
+	N33.31543, W79.28135
+	N33.40488, W79.22646
+	N33.36318, W79.22734
+	N33.31216, W79.23838
+	N33.24414, W79.19380
+	N33.40591, W79.13818
+	N33.65869, W78.92031
+	N33.72407, W78.84146
+	N33.87324, W78.57769
+	N33.87666, W78.56426
+	N33.91758, W78.40586
+
+line2 =
+	N35.17573, W80.05834
+	N35.10943, W80.02744
+	N35.11274, W79.96263
+	N35.09615, W79.91468
+	N35.05975, W79.88357
+	N34.97637, W79.88352
+	N34.84599, W79.91452
+	N34.73783, W79.89065
+	N34.65189, W79.81179
+	N34.58022, W79.78146
+	N34.52285, W79.79957
+	N34.50479, W79.79055
+	N34.50311, W79.75381
+	N34.46495, W79.72154
+	N34.35940, W79.67575
+	N34.30049, W79.63392
+	N34.28819, W79.59604
+	N34.19507, W79.55051
+	N33.93421, W79.47075
+	N33.78577, W79.33373
+	N33.71515, W79.24609
+	N33.67288, W79.16209
+	N33.62880, W79.11527
+	N33.58286, W79.10563
+	N33.52919, W79.12299
+	N33.43703, W79.18958
+	N33.40489, W79.22648
+
+[airport1]
+name = Florence Regional Airport
+code = KFLO
+runways =
+	rwy1, 01, N34.1761, W79.7248, 1.5, 5999, 0, 0, 112
+	rwy2, 09, N34.1853, W79.7339, 83.6, 6499, 0, 0, 146

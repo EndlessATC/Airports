@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 443
+center = N53.6020011902, E24.0538005829
+magneticvar = 5.074
+beacons =
+	GP, N53.65000, E24.05170, 0, Grodno
+	WF, N53.55330, E24.05830, 0, Grodno
+	RUD, N52.83050, E23.70710, 0, Skupowo
+	SUW, N54.06970, E22.90030, 0, Suwalki
+
+[airport1]
+name = Hrodna Airport
+code = UMMG
+runways =
+	rwy1, 09, N53.597, E24.0428, 88.9, 2172, 220, 0, 0
+	rwy2, 17, N53.6134, E24.0531, 178.0, 8399, 0, 0, 443

@@ -1,0 +1,17 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N35.799702, E107.602997
+magneticvar = -3.003
+beacons =
+	HO, N35.20170, E107.77300, 0, Changwu
+
+[airport1]
+name = Qingyang Airport
+code = ZLQY

@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3452
+center = S2.29917001724, W78.1207962036
+magneticvar = -0.503
+beacons =
+	MAS, S2.30342, W78.12080, 0, Macas
+	MSV, S2.25746, W78.11010, 0, Macas
+	PTZ, S1.51623, W78.04330, 0, Pastaza
+	PAV, S1.51389, W78.04470, 0, Pastaza
+	RIO, S1.65528, W78.65580, 0, Riobamba
+	CUV, S2.83500, W78.91690, 0, Cuenca
+	CUR, S2.86250, W78.94860, 0, Cuenca
+
+[airport1]
+name = Coronel E Carvajal Airport
+code = SEMC
+runways =
+	rwy1, 01, S2.31011, W78.1236, 15.0, 8202, 0, 0, 3356

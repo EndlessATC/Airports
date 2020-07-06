@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 250
+center = N30.3250007629, W9.41306972504
+magneticvar = -3.535
+beacons =
+	ADM, N30.32190, W9.38333, 0, Agadir
+	AML, N30.32360, W9.45472, 0, Agadir
+	AZR, N30.36680, W9.45067, 0, Inezgane
+	ALS, N30.32030, W9.31944, 0, Agadir
+
+line1 =
+	N31.06963, W9.83335
+	N30.84727, W9.83242
+	N30.71792, W9.87549
+	N30.64458, W9.85391
+	N30.60312, W9.77314
+	N30.44756, W9.65293
+	N30.35264, W9.62383
+	N30.10928, W9.66709
+	N29.95820, W9.74346
+	N29.80923, W9.85264
+	N29.64141, W10.01050
+	N29.38037, W10.20059
+
+[airport1]
+name = Al Massira Airport
+code = GMAD
+runways =
+	rwy1, 09, N30.323, W9.42816, 91.0, 10499, 0, 0, 197

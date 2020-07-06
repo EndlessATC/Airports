@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 306
+center = S19.7206001282, E163.660995483
+magneticvar = 11.389
+beacons =
+	BL, S19.72210, E163.66299, 0, Ile Art
+	KC, S20.54370, E164.25900, 0, Koumac
+
+line1 =
+	S20.38115, E164.58809
+	S20.28223, E164.43594
+	S20.30889, E164.31514
+	S20.24609, E164.20234
+	S20.14150, E164.05967
+	S20.17285, E164.04053
+	S20.23359, E164.03730
+	S20.27861, E164.06504
+	S20.30488, E164.12363
+	S20.34795, E164.15811
+	S20.41494, E164.15215
+	S20.48018, E164.16973
+	S20.63271, E164.31289
+
+[airport1]
+name = Île Art - Waala Airport
+code = NWWC
+runways =
+	rwy1, 09, S19.7198, E163.658, 107.2, 1969, 110, 100, 264

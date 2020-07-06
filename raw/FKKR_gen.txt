@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 794
+center = N9.33588981628, E13.3701000214
+magneticvar = -0.470
+beacons =
+	TJR, N9.33758, E13.39540, 0, Garoua
+	TJR, N9.33436, E13.34460, 0, Garoua
+	GRO, N9.33094, E13.29090, 0, Garoua
+
+line1 =
+	N8.38838, E13.99949
+	N8.45302, E13.97706
+	N8.50625, E13.93014
+	N8.59738, E13.92657
+	N8.72644, E13.96636
+	N8.83310, E13.92450
+	N8.91741, E13.80100
+	N9.05446, E13.68116
+	N9.24424, E13.56499
+	N9.31421, E13.47518
+	N9.26440, E13.41162
+	N9.22600, E13.31906
+	N9.19897, E13.19742
+	N9.22280, E13.08419
+	N9.33473, E12.92694
+	N9.37504, E12.82080
+	N9.35126, E12.71724
+	N9.27675, E12.58092
+	N9.30734, E12.45581
+	N9.44304, E12.34181
+	N9.50580, E12.19464
+
+[airport1]
+name = Garoua International Airport
+code = FKKR
+runways =
+	rwy1, 09, N9.3349, E13.3548, 86.0, 11032, 0, 377, 692

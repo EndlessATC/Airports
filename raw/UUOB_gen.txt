@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 735
+center = N50.6437988281, E36.5900993347
+magneticvar = 7.076
+beacons =
+	AN, N50.66500, E36.52670, 0, Belgorod
+	BX, N50.62170, E36.65830, 0, Belgorod
+	HA, N49.92460, E36.35940, 0, Kharkiv
+	A, N49.92430, E36.31970, 0, Kharkiv
+	KHR, N49.92680, E36.28530, 0, Kharkiv
+	R, N49.92460, E36.26300, 0, Kharkiv
+	HR, N49.92460, E36.22160, 0, Kharkiv
+	KW, N49.91650, E35.54330, 0, Koviahy
+
+[airport1]
+name = Belgorod International Airport
+code = UUOB
+runways =
+	rwy1, 11, N50.6485, E36.5757, 117.3, 7546, 0, 0, 735
+	rwy2, 12, N50.6497, E36.5747, 117.0, 7930, 0, 0, 0

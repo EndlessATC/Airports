@@ -1,0 +1,86 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 33
+usa = true
+transition = 18001
+center = N28.1028003693, W80.6453018188
+magneticvar = -5.239
+beacons =
+	MLB, N28.10530, W80.63530, 0, Melbourne
+	SQT, N28.09950, W80.70080, 0, Satellite
+	COF, N28.23770, W80.61180, 0, Patrick
+	COI, N28.34080, W80.68840, 0, Merritt Island
+	VRB, N27.67840, W80.48960, 0, Vero Beach
+	VEP, N27.66410, W80.41960, 0, Vero Beach
+	GGL, N28.59310, W80.81640, 0, Geiger Lake
+	TTS, N28.62620, W80.69580, 0, Kennedy Space Center
+	FJ, N27.49690, W80.47470, 0, Luuce
+	FPR, N27.48670, W80.37330, 0, Fort Pierce
+	ISM, N28.28940, W81.43420, 0, Kissimmee
+	ORL, N28.54270, W81.33500, 0, Orlando
+	OR, N28.50730, W81.43420, 0, Herny
+	SFB, N28.78490, W81.24330, 0, Sanford
+
+line1 =
+	N27.37559, W80.26245
+	N27.20479, W80.17051
+	N27.27842, W80.18677
+	N27.67861, W80.35552
+	N27.79453, W80.39575
+	N27.85054, W80.43691
+	N27.64341, W80.37607
+	N27.37559, W80.26245
+
+line2 =
+	N27.20703, W80.22612
+	N28.18091, W80.65010
+	N28.27217, W80.68638
+	N28.38101, W80.74863
+	N28.56064, W80.78721
+	N28.63560, W80.81841
+	N28.75767, W80.83818
+	N28.75894, W80.80869
+	N28.73247, W80.77100
+	N28.68296, W80.77988
+	N28.63281, W80.76592
+	N28.60093, W80.70024
+	N28.57852, W80.68848
+	N28.51621, W80.72905
+	N28.46289, W80.73174
+	N28.34497, W80.69351
+	N28.37490, W80.66548
+	N28.45220, W80.65391
+	N28.51802, W80.63286
+	N28.52290, W80.60693
+	N28.32036, W80.62285
+	N28.17759, W80.61001
+	N27.93447, W80.49956
+	N27.90068, W80.45688
+	N28.07007, W80.53315
+	N28.18086, W80.57285
+	N28.27158, W80.58496
+	N28.36470, W80.58115
+	N28.42646, W80.56782
+	N28.48608, W80.52412
+	N28.55640, W80.56431
+	N29.04985, W80.90000
+
+line3 =
+	N27.14707, W80.87026
+	N27.18218, W80.80327
+	N27.18218, W80.75859
+	N27.13281, W80.71074
+	N27.11006, W80.68950
+
+[airport1]
+name = Melbourne International Airport
+code = KMLB
+runways =
+	rwy1, 05, N28.0959, W80.6374, 42.0, 3001, 0, 0, 25
+	rwy2, 09L, N28.1054, W80.6599, 87.0, 6000, 0, 0, 31
+	rwy3, 09R, N28.1013, W80.6611, 87.0, 10181, 0, 700, 32

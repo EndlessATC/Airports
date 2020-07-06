@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1037
+center = N12.3532, W1.51242
+magneticvar = -3.284
+beacons =
+	OG, N12.34630, W1.51283, 0, Ouagadougou
+	OUA, N12.33400, W1.52519, 0, Ouagadougou
+
+line1 =
+	N13.25317, W2.06914
+	N13.13835, W2.12258
+	N13.06804, W2.13454
+	N13.04230, W2.10498
+	N13.03812, W1.98920
+	N13.05548, W1.78715
+	N13.03158, W1.62778
+	N12.96642, W1.51109
+	N12.94593, W1.41084
+	N12.97016, W1.32707
+	N12.96177, W1.26204
+	N12.92079, W1.21581
+	N12.83609, W1.18295
+	N12.70770, W1.16344
+	N12.65122, W1.14088
+	N12.66662, W1.11525
+	N12.65768, W1.09582
+	N12.62435, W1.08254
+	N12.33325, W1.09179
+	N12.15280, W1.04481
+	N11.97493, W0.94022
+	N11.86708, W0.85785
+	N11.82930, W0.79762
+	N11.75375, W0.77093
+	N11.64048, W0.77775
+	N11.55746, W0.72362
+	N11.50470, W0.60854
+	N11.45377, W0.53381
+	N11.40468, W0.49947
+	N11.37000, W0.49219
+
+[airport1]
+name = Ouagadougou Airport
+code = DFFD
+runways =
+	rwy1, 04L, N12.3417, W1.52025, 33.0, 9934, 0, 0, 1034
+	rwy2, 04R, N12.3443, W1.51578, 35.0, 6269, 0, 0, 1040

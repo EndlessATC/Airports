@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 46
+metric = true
+center = N39.666389, E119.058889
+magneticvar = -6.540
+beacons =
+	LUX, N39.73830, E118.72800, 0, Luanxian
+
+line1 =
+	N38.69146, E117.55381
+	N38.85288, E117.61670
+	N39.13447, E117.78467
+	N39.19126, E117.86572
+	N39.22676, E118.04092
+	N39.19507, E118.14785
+	N39.06709, E118.29785
+	N39.11802, E118.47197
+	N39.17686, E118.62637
+	N39.16050, E118.75244
+	N39.17212, E118.82646
+	N39.16641, E118.91230
+	N39.18257, E118.97695
+	N39.22236, E119.04014
+	N39.40806, E119.22461
+	N39.56089, E119.26133
+	N39.66162, E119.32236
+	N39.75249, E119.39111
+	N39.90264, E119.59111
+	N39.98745, E119.85039
+	N40.20386, E120.36895
+	N40.23096, E120.47910
+
+[airport1]
+name = Qinhuangdao Beidaihe Airport
+code = ZBDH

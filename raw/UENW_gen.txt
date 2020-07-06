@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 361
+center = N63.7566680908, E121.693336487
+magneticvar = -14.219
+beacons =
+	CZ, N63.74330, E121.78300, 0, Vilyuysk
+
+line1 =
+	N64.09149, E123.61554
+	N63.94406, E123.22496
+	N63.90680, E123.03542
+	N63.93057, E122.91677
+	N63.92535, E122.60691
+	N63.89114, E122.10586
+	N63.85187, E121.79518
+	N63.80753, E121.67478
+	N63.78856, E121.50305
+	N63.79497, E121.27992
+	N63.77737, E121.14065
+	N63.73577, E121.08525
+	N63.72552, E121.02324
+	N63.74660, E120.95461
+	N63.72944, E120.86883
+	N63.67405, E120.76589
+	N63.64826, E120.65799
+	N63.65198, E120.54528
+	N63.61069, E120.48239
+	N63.52444, E120.46927
+	N63.50879, E120.32933
+	N63.56372, E120.06257
+	N63.56599, E119.67376
+	N63.51555, E119.16289
+
+[airport1]
+name = Vilyuisk Airport
+code = UENW

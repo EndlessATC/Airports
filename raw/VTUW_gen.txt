@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 587
+center = N17.3838005066, E104.642997742
+magneticvar = -0.434
+beacons =
+	NKP, N17.38830, E104.63800, 0, Nakhon Phanom
+	NP, N17.39240, E104.64300, 0, Nakhon Phanom
+	SKN, N17.21410, E104.13700, 0, Sakon Nakhon
+	SN, N17.19700, E104.11500, 0, Sakon Nakhon
+	SAV, N16.56170, E104.76600, 0, Savannakhet
+	SAV, N16.55310, E104.76000, 0, Savannakhet
+
+line1 =
+	N18.38255, E103.62967
+	N18.31648, E103.79225
+	N18.29529, E103.89886
+	N18.31901, E103.94955
+	N18.21672, E104.04872
+	N17.98836, E104.19620
+	N17.81581, E104.32266
+	N17.69897, E104.42818
+	N17.60929, E104.53923
+	N17.54673, E104.65592
+	N17.46167, E104.73968
+	N17.30029, E104.81606
+	N17.07715, E104.75901
+	N16.88437, E104.74351
+	N16.64754, E104.75064
+	N16.46608, E104.81937
+
+[airport1]
+name = Nakhon Phanom Airport
+code = VTUW
+runways =
+	rwy1, 15, N17.393, E104.636, 144.8, 8203, 0, 0, 587

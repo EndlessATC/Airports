@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1729
+center = N37.2233009338, E40.6316986084
+magneticvar = 4.429
+beacons =
+	MRD, N37.22770, E40.63860, 0, Mardin
+	MRD, N37.22770, E40.63860, 0, Mardin
+	KML, N37.03030, E41.20530, 0, Kamishly
+	KML, N37.01670, E41.20530, 0, Kamishly
+	DYB, N37.87080, E40.20860, 0, Diyarbakir
+	DYB, N37.87080, E40.20860, 0, Diyarbakir
+	HAS, N36.48290, E40.75460, 0, Hassakeh
+	DIY, N37.90300, E40.19230, 0, Diyarbakir
+	BAT, N37.91540, E41.10550, 0, Batman
+	BAT, N37.93750, E41.11970, 0, Batman
+	BAT, N37.93750, E41.11970, 0, Batman
+
+line1 =
+	N38.22304, E40.14993
+	N38.17863, E40.17825
+	N38.13550, E40.15252
+	N38.10630, E40.17143
+	N38.09111, E40.23499
+	N38.02326, E40.26186
+	N37.90275, E40.25194
+	N37.83201, E40.42738
+	N37.80048, E40.96859
+	N37.75733, E41.15535
+	N37.74405, E41.35828
+	N37.74635, E41.63971
+	N37.70881, E41.80048
+	N37.63150, E41.84047
+	N37.55559, E41.85386
+	N37.48112, E41.84053
+	N37.44084, E41.88233
+	N37.43480, E41.97928
+	N37.39516, E42.09369
+
+line2 =
+	N38.18299, E39.21821
+	N38.15380, E39.24813
+	N38.10202, E39.23913
+	N38.03360, E39.17056
+
+[airport1]
+name = Mardin Airport
+code = LTCR
+runways =
+	rwy1, 03, N37.2144, E40.6231, 37.3, 8204, 0, 0, 1650

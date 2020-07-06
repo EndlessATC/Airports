@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1405
+usa = true
+transition = 18001
+center = N53.2141990662, W105.672996521
+magneticvar = 10.585
+beacons =
+	YPA, N53.21670, W105.66700, 0, Prince Albert
+	PA, N53.21810, W105.79500, 0, Prince Albert
+	ZPA, N53.21720, W105.54400, 0, Glass
+	D5, N52.87140, W104.80600, 0, Melfort
+
+line1 =
+	N52.39406, W107.51289
+	N52.33794, W107.35750
+	N52.33391, W107.28055
+	N52.34342, W107.18035
+	N52.36647, W107.05687
+	N52.44145, W106.96163
+	N52.56837, W106.89463
+	N52.76412, W106.69149
+	N53.02875, W106.35229
+	N53.17102, W106.15008
+	N53.19102, W106.08494
+	N53.18533, W106.03357
+	N53.15397, W105.99603
+	N53.16252, W105.87950
+	N53.21094, W105.68396
+	N53.23644, W105.45591
+	N53.24039, W105.06508
+
+line2 =
+	N53.24039, W105.06508
+	N53.16384, W104.90059
+	N53.15668, W104.81874
+	N53.19342, W104.76469
+	N53.23334, W104.57100
+	N53.27649, W104.23769
+	N53.34393, W104.02664
+	N53.48154, W103.89360
+
+line3 =
+	N52.44114, W106.29441
+	N52.61601, W106.14806
+	N52.72211, W106.13473
+	N52.80789, W106.10329
+	N52.87336, W106.05373
+	N52.93170, W105.90291
+	N52.98297, W105.65083
+	N53.04630, W105.49730
+	N53.12172, W105.44237
+	N53.15257, W105.37286
+	N53.13893, W105.28874
+	N53.15918, W105.20130
+	N53.24039, W105.06508
+
+[airport1]
+name = Prince Albert Glass Field
+code = CYPA
+runways =
+	rwy1, 08, N53.218, W105.685, 91.0, 5000, 0, 0, 1405
+	rwy2, 16, N53.2177, W105.674, 169.9, 2500, 0, 0, 1402

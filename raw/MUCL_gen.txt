@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N21.6165008545, W81.5459976196
+magneticvar = -3.520
+beacons =
+	UCL, N21.60500, W81.53280, 0, Cayo Largo Del Sur
+	UCL, N21.60420, W81.52910, 0, Cayo Largo Del Sur
+
+line1 =
+	N22.59189, W81.70273
+	N22.53481, W81.68325
+	N22.49668, W81.71035
+	N22.46675, W81.75708
+	N22.42183, W81.97305
+	N22.38770, W82.07773
+	N22.29087, W81.97261
+	N22.21367, W81.84941
+	N22.20020, W81.81621
+	N22.18379, W81.44111
+	N22.10410, W81.35527
+	N22.10942, W81.28437
+	N22.14292, W81.22241
+	N22.20293, W81.19956
+	N22.26797, W81.18550
+	N22.20693, W81.14141
+	N22.13423, W81.11665
+	N22.09795, W81.08311
+	N22.07358, W81.03564
+	N22.05288, W80.96191
+	N22.06353, W80.49907
+	N22.08716, W80.48481
+	N22.12344, W80.48545
+	N22.03374, W80.39292
+	N21.93340, W80.31069
+
+line2 =
+	N21.82114, W82.68184
+	N21.89028, W82.71455
+	N21.90952, W82.75576
+
+line3 =
+	N21.51865, W82.65483
+	N21.57168, W82.56177
+	N21.62183, W82.56782
+	N21.76689, W82.62939
+	N21.82114, W82.68184
+
+[airport1]
+name = Vilo Acuña International Airport
+code = MUCL
+runways =
+	rwy1, 12, N21.6224, W81.5591, 116.0, 9869, 0, 0, 7

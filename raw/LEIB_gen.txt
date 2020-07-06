@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 24
+center = N38.8728981018, E1.37311995029
+magneticvar = -0.282
+beacons =
+	IBA, N38.86830, E1.36591, 0, Ibiza
+	IZA, N38.91550, E1.47041, 0, Ibiza
+	ADX, N39.54940, E2.39586, 0, Andraitx
+
+line1 =
+	N39.85483, E2.78496
+	N39.61309, E2.37129
+	N39.57207, E2.37002
+	N39.54038, E2.39434
+	N39.53047, E2.45879
+	N39.47788, E2.49951
+	N39.53066, E2.57588
+	N39.55620, E2.63408
+	N39.54214, E2.70059
+	N39.51025, E2.74600
+	N39.41025, E2.76982
+	N39.38506, E2.79980
+
+line2 =
+	N38.73965, E1.41719
+	N38.71143, E1.40195
+	N38.67100, E1.40576
+	N38.67100, E1.50498
+	N38.65884, E1.57119
+	N38.67207, E1.59395
+	N38.70146, E1.59268
+	N38.71191, E1.49688
+	N38.76821, E1.43633
+	N38.73965, E1.41719
+
+line3 =
+	N39.08081, E1.34863
+	N39.03115, E1.30254
+	N38.98174, E1.29980
+	N38.97339, E1.25625
+	N38.90386, E1.22334
+	N38.87900, E1.25693
+	N38.85728, E1.40898
+	N38.91870, E1.44521
+	N38.93252, E1.49453
+	N39.03882, E1.62363
+	N39.08740, E1.61318
+	N39.12104, E1.56445
+	N39.08081, E1.34863
+
+line4 =
+	N38.58569, W0.05273
+	N38.69678, E0.13633
+	N38.75918, E0.20156
+	N38.82466, E0.15488
+	N38.89121, W0.03413
+
+[airport1]
+name = Ibiza Airport
+code = LEIB
+runways =
+	rwy1, 06, N38.8669, E1.35887, 62.1, 9186, 0, 0, 13

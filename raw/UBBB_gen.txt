@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N40.4674987793, E50.0466995239
+magneticvar = 5.243
+beacons =
+	GYD, N40.47240, E50.05070, 0, Baku
+	N, N40.44830, E50.05000, 0, Baku
+	I, N40.48830, E50.03000, 0, Baku
+	A, N40.44500, E50.06330, 0, Baku/Bina
+	U, N40.49330, E50.06330, 0, Baku/Bina
+	BN, N40.42000, E50.06500, 0, Baku
+	BI, N40.51500, E50.01830, 0, Baku
+	BU, N40.52170, E50.06330, 0, Baku
+	KL, N40.35500, E50.20000, 0, Kala
+
+line1 =
+	N39.50122, E49.32754
+	N39.60835, E49.32441
+	N39.83984, E49.41514
+	N40.08726, E49.47734
+	N40.19414, E49.55117
+	N40.24902, E49.66904
+	N40.28789, E49.79199
+	N40.31641, E49.91885
+	N40.32324, E50.14316
+	N40.27949, E50.36592
+	N40.41221, E50.30684
+	N40.46177, E50.24805
+	N40.50479, E50.18252
+	N40.53452, E50.11914
+	N40.57681, E49.99063
+	N40.57720, E49.85176
+	N40.58398, E49.77598
+	N40.60811, E49.71836
+	N40.71631, E49.55615
+	N40.79985, E49.45674
+	N41.02622, E49.22646
+	N41.11611, E49.17471
+	N41.21777, E49.14326
+	N41.30171, E49.10664
+	N41.37397, E49.05088
+
+[airport1]
+name = Heydar Aliyev International Airport
+code = UBBB
+runways =
+	rwy1, 16, N40.491, E50.0305, 167.1, 13123, 0, 0, -13
+	rwy2, 17, N40.4867, E50.0633, 179.0, 10499, 0, 0, 10

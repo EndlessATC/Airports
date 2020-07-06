@@ -1,0 +1,82 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 64
+center = N14.7944002151, E120.271003723
+magneticvar = -1.303
+beacons =
+	SFS, N14.77480, E120.22400, 0, Subic Bay
+	SBA, N14.76960, E120.22500, 0, Subic Bay
+	BB, N14.98180, E120.48500, 0, Basa
+	CIA, N15.18690, E120.56100, 0, Clark
+	CIA, N15.20940, E120.57100, 0, Clark
+	PL, N14.88180, E120.85100, 0, Plaridel
+	RS, N14.40480, E120.86500, 0, Rosario
+	MIA, N14.50800, E121.02200, 0, Manila
+	CAB, N15.48230, E121.02400, 0, Cabanatuan
+
+line1 =
+	N15.41665, E121.45205
+	N15.37505, E121.41191
+	N15.32441, E121.39229
+	N15.26660, E121.39893
+	N15.21631, E121.43496
+
+line2 =
+	N13.88472, E120.84072
+	N13.90054, E120.72910
+	N13.80449, E120.63711
+	N13.99531, E120.61738
+	N14.18804, E120.61680
+	N14.24434, E120.64268
+	N14.29121, E120.68828
+	N14.49312, E120.92207
+	N14.55796, E120.95156
+	N14.64507, E120.94131
+	N14.71577, E120.88809
+	N14.75879, E120.80449
+	N14.77661, E120.70791
+	N14.81616, E120.63828
+	N14.88125, E120.58369
+	N14.76611, E120.54678
+	N14.59463, E120.58271
+	N14.48311, E120.58867
+	N14.44136, E120.55566
+	N14.44019, E120.49570
+	N14.45337, E120.43877
+	N14.49331, E120.39609
+	N14.60830, E120.36523
+	N14.68438, E120.28389
+	N14.79331, E120.25078
+	N14.80879, E120.21387
+	N14.80039, E120.13799
+	N14.85107, E120.08213
+	N14.97812, E120.04453
+	N15.11455, E120.03662
+	N15.22925, E120.00498
+	N15.34023, E119.95938
+	N15.43091, E119.93281
+
+line3 =
+	N13.82065, E120.21143
+	N13.85806, E120.12070
+	N13.84253, E120.10342
+	N13.81694, E120.09941
+
+[airport1]
+name = Subic Bay International Airport
+code = RPLB
+runways =
+	rwy1, 07, N14.7897, E120.26, 67.0, 9003, 0, 0, 47
+
+[airport2]
+name = Diosdado Macapagal International Airport
+code = LC
+runways =
+	rwy2, 02L, N15.1706, E120.552, 21.0, 10499, 0, 0, 484
+	rwy3, 02R, N15.1744, E120.558, 21.1, 10499, 0, 0, 466
+inboundbeacon = CIA

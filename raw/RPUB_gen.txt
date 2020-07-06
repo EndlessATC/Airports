@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4251
+center = N16.3750991821, E120.620002747
+magneticvar = -1.453
+beacons =
+	BG, N16.37440, E120.61700, 0, Baguio
+	SAN, N16.72840, E120.35800, 0, San Fernando
+	BA, N16.61790, E121.25300, 0, Bagabag
+
+line1 =
+	N16.07744, E121.78867
+	N16.01475, E121.68516
+	N15.93325, E121.59531
+	N15.82676, E121.56094
+	N15.77803, E121.59043
+	N15.72603, E121.60918
+	N15.66982, E121.60703
+	N15.62319, E121.57920
+	N15.50952, E121.48984
+	N15.41665, E121.45205
+
+line2 =
+	N15.43091, E119.93281
+	N15.83770, E119.89160
+	N15.87500, E119.88145
+	N15.90576, E119.85967
+	N15.95195, E119.80820
+	N16.00845, E119.76895
+	N16.05498, E119.76182
+	N16.25513, E119.77256
+	N16.30332, E119.79023
+	N16.32656, E119.83076
+	N16.28740, E119.88613
+	N16.23877, E119.93037
+	N16.21543, E119.98516
+	N16.18457, E120.03340
+	N16.06621, E120.12402
+	N16.04766, E120.15977
+	N16.05142, E120.27129
+	N16.06646, E120.33701
+	N16.10957, E120.36875
+	N16.16094, E120.38877
+	N16.22163, E120.38926
+	N16.40034, E120.32500
+	N16.52925, E120.30527
+	N16.64546, E120.30439
+	N16.76187, E120.32119
+	N16.95562, E120.40889
+	N17.09009, E120.42012
+	N17.26992, E120.41172
+
+[airport1]
+name = Loakan Airport
+code = RPUB
+runways =
+	rwy1, 09, N16.3749, E120.611, 88.4, 5912, 0, 0, 4211
+
+[airport2]
+name = San Fernando Airport
+code = US
+runways =
+	rwy2, 01, N16.5902, E120.303, 5.2, 3937, 0, 0, 0
+inboundbeacon = SAN

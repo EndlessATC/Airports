@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8781
+center = S7.13918018341, W78.489402771
+magneticvar = -0.115
+beacons =
+	MAR, S7.14000, W78.49060, 0, Cajamarca
+
+line1 =
+	S7.29561, W79.61772
+	S7.41895, W79.58887
+	S7.83555, W79.37725
+	S7.92324, W79.31284
+	S8.04717, W79.16440
+
+line2 =
+	S8.05651, W77.62110
+	S7.91016, W77.62249
+	S7.62801, W77.71858
+	S7.20984, W77.90937
+	S6.93565, W78.00973
+	S6.80532, W78.01965
+	S6.66983, W78.06231
+	S6.52927, W78.13773
+	S6.43191, W78.21892
+	S6.37765, W78.30586
+	S6.30055, W78.37446
+	S6.15048, W78.44978
+
+[airport1]
+name = Mayor General FAP Armando Revoredo Iglesias Airport
+code = SPJR
+runways =
+	rwy1, 16, S7.12877, W78.4937, 157.7, 8201, 0, 0, 8848

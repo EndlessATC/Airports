@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5500
+center = N7.6660900116, E36.8166007996
+magneticvar = 1.392
+beacons =
+	JM, N7.66871, E36.82160, 0, Jimma
+	KT, N7.65541, E36.83180, 0, Jimma
+
+line1 =
+	N8.65808, E37.16608
+	N8.36399, E37.41020
+	N8.26110, E37.51774
+	N8.22774, E37.57443
+	N8.11222, E37.59960
+	N7.87740, E37.58988
+	N7.64860, E37.52684
+	N7.42583, E37.41056
+	N7.28638, E37.37718
+	N7.23020, E37.42669
+	N7.20202, E37.47464
+	N7.20178, E37.52095
+	N7.18354, E37.52374
+	N7.14726, E37.48291
+	N7.07200, E37.45170
+	N6.95772, E37.43010
+	N6.89265, E37.39599
+	N6.87682, E37.34959
+	N6.82064, E37.30003
+	N6.72416, E37.24742
+
+line2 =
+	N6.68070, E36.95416
+	N6.70626, E36.87768
+	N6.70951, E36.75365
+
+[airport1]
+name = Jimma Airport
+code = HAJM
+runways =
+	rwy1, 13, N7.67123, E36.8092, 125.0, 6562, 0, 0, 5502

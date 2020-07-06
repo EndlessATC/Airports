@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 21
+center = N5.2613902092, W3.92629003525
+magneticvar = -5.585
+beacons =
+	AD, N5.28281, W3.91700, 0, Abidjan
+	PB, N5.25042, W3.95803, 0, Abidjan Felix Houphouet Boigny
+	AN, N5.34908, W3.89042, 0, Abidjan
+
+line1 =
+	N5.20361, W5.02368
+	N5.14775, W4.97012
+	N5.13833, W4.89971
+	N5.17256, W4.66152
+	N5.23013, W4.03721
+	N5.25664, W4.06206
+	N5.26162, W4.11519
+	N5.23589, W4.60889
+	N5.27988, W4.55283
+	N5.30142, W4.35728
+	N5.30972, W4.12017
+	N5.29316, W3.98418
+	N5.22070, W3.87061
+	N5.13066, W3.34756
+	N5.16079, W3.31201
+	N5.33540, W3.23760
+	N5.35449, W3.19995
+	N5.34829, W3.15142
+	N5.20303, W3.16870
+	N5.15771, W3.06396
+	N5.15054, W3.02588
+	N5.13081, W3.01914
+	N5.12832, W3.08672
+	N5.14722, W3.21489
+	N5.11406, W3.24639
+	N5.08867, W3.11401
+	N5.08247, W3.08188
+	N5.04629, W2.96499
+
+[airport1]
+name = Port Bouet Airport
+code = DIAP
+runways =
+	rwy1, 03, N5.24885, W3.93145, 23.0, 9843, 0, 0, 21

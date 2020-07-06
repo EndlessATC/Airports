@@ -1,0 +1,98 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 302
+center = N50.8658981323, E7.1427397728
+magneticvar = 0.420
+beacons =
+	KBO, N50.86170, E7.14552, 0, Koln/Bonn
+	LW, N50.89830, E7.25285, 0, Koln/Bonn
+	LJ, N50.92710, E7.06229, 0, Koln/Bonn
+	LV, N50.80420, E7.24022, 0, Koln/Bonn
+	WYP, N51.04840, E7.28000, 0, Wipper
+	COL, N50.78350, E7.59419, 0, Cola
+	BAM, N51.32780, E7.17698, 0, Barmen
+	DUS, N51.28320, E6.75373, 0, Dusseldorf
+	LI, N51.34700, E6.89128, 0, Dusseldorf
+	NMN, N50.36780, E7.31367, 0, Mendig
+	MGB, N51.22730, E6.50541, 0, Monchengladbach
+	MHD, N51.23490, E6.49197, 0, Monchengladbach
+	MHV, N51.23730, E6.49024, 0, Monchengladbach
+	GMH, N51.17050, E7.89204, 0, Germinghausen
+	SLD, N50.70680, E8.07851, 0, Siegerland
+	SIL, N50.68000, E8.13850, 0, Siegerland
+	BUE, N50.17870, E7.06950, 0, Buchel
+	LMA, N51.37080, E6.39500, 0, Lima
+	GIX, N50.96330, E6.04520, 0, Geilenkirchen
+	BOT, N51.58580, E7.02301, 0, Bottrop
+	DOR, N51.52530, E7.63106, 0, Wickede
+	DWI, N51.52610, E7.63439, 0, Dortmund
+	MAS, N50.97190, E5.96043, 0, Maastricht
+	GUL, N50.80730, E5.89546, 0, Gull
+	NW, N51.01940, E5.87834, 0, Maastricht
+	SLV, N50.47810, E5.91306, 0, Spa
+	THN, N51.18340, E5.83339, 0, Thorn
+	TAU, N50.25050, E8.16252, 0, Taunus
+	NID, N51.60000, E6.14148, 0, Niederrhein
+	WIB, N50.04620, E8.31083, 0, Wiesbaden
+	WBD, N50.04900, E8.32867, 0, Wiesbaden
+
+line1 =
+	N49.91137, E8.35735
+	N49.98067, E8.30464
+	N50.02310, E8.24335
+	N50.02640, E8.12904
+	N49.99070, E7.96161
+	N50.04209, E7.80322
+	N50.18066, E7.65388
+	N50.22236, E7.60675
+	N50.26644, E7.61119
+	N50.32380, E7.62882
+	N50.36664, E7.60784
+	N50.40008, E7.55662
+	N50.43279, E7.44366
+	N50.48583, E7.34367
+	N50.55916, E7.25675
+	N50.62161, E7.20362
+	N50.67319, E7.18450
+	N50.73422, E7.12507
+	N50.80468, E7.02544
+	N50.85261, E6.99454
+	N50.90402, E6.99454
+	N50.93834, E6.97325
+	N50.99808, E6.96839
+	N51.04009, E6.93770
+	N51.06427, E6.88106
+	N51.09719, E6.85098
+	N51.13884, E6.84747
+	N51.16887, E6.81631
+	N51.18726, E6.75750
+	N51.22726, E6.75972
+	N51.26819, E6.74112
+	N51.30276, E6.68955
+	N51.36446, E6.69838
+	N51.42182, E6.70717
+	N51.45782, E6.69761
+	N51.48678, E6.69342
+	N51.52440, E6.68748
+	N51.55923, E6.62392
+	N51.59184, E6.59301
+	N51.63747, E6.59580
+	N51.77503, E6.35721
+	N51.83699, E6.21175
+
+line2 =
+	N51.85957, E5.89817
+	N51.86340, E5.78045
+
+[airport1]
+name = Cologne Bonn Airport
+code = EDDK
+runways =
+	rwy1, 06, N50.8601, E7.12378, 64.0, 8067, 0, 0, 231
+	rwy2, 14L, N50.8805, E7.12908, 137.5, 12516, 0, 0, 230
+	rwy3, 14R, N50.8708, E7.12086, 137.5, 6112, 0, 0, 221

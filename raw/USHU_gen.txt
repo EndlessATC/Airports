@@ -1,0 +1,13 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 190
+center = N60.1032981873, E64.8266983032
+
+[airport1]
+name = Uray Airport
+code = USHU

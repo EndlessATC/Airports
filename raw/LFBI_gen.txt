@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 423
+center = N46.5876998901, E0.306665986776
+magneticvar = -1.215
+beacons =
+	POI, N46.58100, E0.29819, 0, Poitiers
+	PI, N46.70390, E0.40697, 0, Poitiers
+	SR, N47.25950, W0.11436, 0, Saumur
+	LMG, N45.81590, E1.02558, 0, Limoges
+	AMB, N47.41820, E1.04100, 0, Amboise
+
+line1 =
+	N46.05039, W1.38867
+	N46.03296, W1.38887
+	N45.96768, W1.36870
+	N45.89712, W1.28027
+	N45.81660, W1.21357
+	N45.90405, W1.17832
+	N46.00269, W1.28506
+	N46.05039, W1.38867
+
+line2 =
+	N46.32690, W1.31279
+	N46.32451, W1.23882
+	N46.31138, W1.14629
+	N46.25269, W1.13203
+	N46.20483, W1.13638
+	N45.92534, W1.10439
+	N45.80566, W1.06602
+	N45.77266, W1.04150
+	N45.74106, W1.03174
+	N45.76851, W1.11436
+	N45.77090, W1.20996
+	N45.71445, W1.19600
+	N45.68594, W1.16997
+
+line3 =
+	N47.58689, E1.36439
+	N47.47374, E1.15820
+	N47.42501, E0.98974
+	N47.39582, E0.81543
+	N47.38626, E0.63529
+	N47.34062, E0.42776
+	N47.24404, E0.20741
+	N47.21818, E0.07540
+	N47.24903, W0.03831
+	N47.36424, W0.21636
+	N47.40243, W0.41803
+	N47.37096, W0.73124
+	N47.37460, W1.05639
+	N47.33641, W1.24870
+
+[airport1]
+name = Poitiers-Biard Airport
+code = LFBI
+runways =
+	rwy1, 03, N46.5796, E0.300117, 32.0, 7710, 0, 0, 417

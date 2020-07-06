@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1472
+center = N46.642502, E14.3377
+magneticvar = 2.024
+beacons =
+	KW, N46.66750, E14.21830, 0, Klagenfurt
+	KFT, N46.62510, E14.53420, 0, Klagenfurt
+	KFT, N46.59760, E14.56230, 0, Klagenfurt
+	VIW, N46.69640, E13.91460, 0, Villach
+	MG, N46.17320, E14.55590, 0, Ljubljana
+	KAM, N46.10500, E14.67550, 0, Dolsko
+	ZW, N47.19810, E14.75670, 0, Zeltweg
+	DOL, N46.08410, E14.77860, 0, Dolsko
+	GRZ, N46.92070, E15.45900, 0, Graz
+	GRZ, N46.95540, E15.44940, 0, Graz
+	RCH, N45.82980, E13.48030, 0, Ronchi
+	RON, N45.82820, E13.36070, 0, Ronchi
+
+line1 =
+	N45.69790, E13.12012
+	N45.74658, E13.15674
+	N45.77139, E13.20635
+	N45.70996, E13.46514
+	N45.77070, E13.55820
+	N45.77095, E13.62832
+
+line2 =
+	N47.09046, E13.82182
+	N47.14738, E14.36732
+	N47.20911, E14.50700
+	N47.22440, E14.61966
+	N47.21376, E14.75184
+	N47.24526, E14.86062
+	N47.31892, E14.94610
+	N47.37101, E15.06201
+	N47.40016, E15.14515
+	N47.40153, E15.20846
+	N47.39367, E15.30302
+	N47.34742, E15.34571
+	N47.31621, E15.35248
+	N47.30006, E15.32344
+	N47.25257, E15.31558
+	N47.17371, E15.32891
+	N47.12110, E15.36137
+	N47.09480, E15.41294
+	N46.99692, E15.47593
+	N46.83130, E15.55965
+	N46.76735, E15.58172
+	N46.73648, E15.63019
+	N46.72283, E15.70130
+
+[airport1]
+name = Klagenfurt Airport
+code = LOWK
+runways =
+	rwy1, 10L, N46.6459, E14.3207, 106.0, 8924, 656, 0, 1470
+	rwy2, 10R, N46.6441, E14.3202, 106.0, 2427, 196, 196, 1470

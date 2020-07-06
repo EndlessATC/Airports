@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 464
+center = N15.7753, W96.262604
+magneticvar = 5.238
+beacons =
+	HUX, N15.77780, W96.26140, 0, Huatulco
+	PXM, N15.87510, W97.08170, 0, Escondido
+
+line1 =
+	N15.90928, W97.18467
+	N15.72642, W96.80796
+	N15.65190, W96.51084
+	N15.68311, W96.40864
+	N15.69307, W96.21357
+	N15.88779, W95.77178
+	N15.97471, W95.46440
+	N16.17695, W95.13437
+
+[airport1]
+name = Bahías de Huatulco International Airport
+code = MMBT
+runways =
+	rwy1, 07, N15.773, W96.275, 79.1, 8858, 0, 0, 464

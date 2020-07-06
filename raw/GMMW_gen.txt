@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 574
+center = N34.9888000488, W3.0282099247
+magneticvar = -2.050
+beacons =
+	ARI, N34.98670, W3.02917, 0, Nador Arwi
+	ARW, N34.98970, W3.04417, 0, El Aroui
+	MEL, N35.28040, W2.95817, 0, Melilla
+	MLL, N35.30740, W2.95542, 0, Melilla
+	MIA, N35.30780, W2.95552, 0, Melilla
+	ALU, N35.18120, W3.84456, 0, Al Hoceima
+	ALM, N35.19110, W3.84173, 0, Al Hoceima
+
+line1 =
+	N35.18311, W1.67363
+	N35.09424, W1.91328
+	N35.08506, W2.01777
+	N35.10420, W2.21963
+	N35.12349, W2.42373
+	N35.11270, W2.63682
+	N35.13521, W2.73140
+	N35.12783, W2.83994
+	N35.17266, W2.86953
+	N35.28711, W2.92598
+	N35.31514, W2.95361
+	N35.36309, W2.95796
+	N35.40728, W2.97222
+	N35.31724, W3.06309
+	N35.23911, W3.20601
+	N35.21182, W3.39473
+	N35.22832, W3.59062
+	N35.27998, W3.69326
+	N35.24492, W3.78799
+	N35.24341, W3.98242
+	N35.16147, W4.32998
+
+[airport1]
+name = Nador International Airport
+code = GMMW
+runways =
+	rwy1, 08, N34.986, W3.04428, 78.0, 9842, 0, 0, 594
+
+[airport2]
+name = Melilla Airport
+code = ML
+runways =
+	rwy2, 15, N35.2859, W2.96118, 146.3, 4685, 755, 0, 156
+inboundbeacon = MEL

@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10860
+center = S13.5356998444, W71.9387969971
+magneticvar = -3.413
+beacons =
+	ZCO, S13.51920, W72.01000, 0, Cusco
+	URC, S13.64940, W71.58640, 0, Urcos
+
+line1 =
+	S14.38429, W71.48865
+	S14.26399, W71.51914
+	S14.20725, W71.54886
+	S14.16260, W71.59973
+	S14.13014, W71.67177
+	S14.03992, W71.73828
+	S13.89192, W71.79931
+	S13.80954, W71.91367
+	S13.79270, W72.08141
+	S13.73771, W72.23158
+	S13.64449, W72.36408
+	S13.54708, W72.54887
+	S13.44559, W72.78586
+	S13.41071, W72.95247
+	S13.44238, W73.04861
+	S13.44915, W73.12780
+
+[airport1]
+name = Alejandro Velasco Astete International Airport
+code = SPZO
+runways =
+	rwy1, 10, S13.5341, W71.9544, 95.9, 11146, 0, 0, 10860

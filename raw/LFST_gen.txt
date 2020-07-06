@@ -1,0 +1,104 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 505
+center = N48.5382995605, E7.62823009491
+magneticvar = 0.145
+beacons =
+	STR, N48.50540, E7.57197, 0, Strasbourg
+	LRD, N48.36410, E7.82752, 0, Lahr
+	LHR, N48.34870, E7.81116, 0, Lahr
+	SAV, N48.79620, E7.44798, 0, Saverne
+	KBD, N48.78020, E8.08849, 0, Karlsruhe Baden Baden
+	KBA, N48.79800, E8.09755, 0, Karlsruhe Baden Baden
+	CLR, N47.92930, E7.39997, 0, Colmar
+	ZND, N49.20930, E7.39578, 0, Zweibrucken
+	SUL, N48.38160, E8.64484, 0, Sulz
+	ZBN, N49.22760, E7.41658, 0, Zweibrucken
+	ZWN, N49.22910, E7.41789, 0, Zweibrucken
+	SR, N49.21780, E7.21951, 0, Ensheim
+	GTQ, N48.98640, E6.71622, 0, Grostenquin
+	SAD, N49.21250, E7.11607, 0, Saarbrucken
+	SBN, N49.21890, E7.11834, 0, Saarbrucken
+	KRH, N48.99290, E8.58424, 0, Karlsruhe
+	DON, N47.96070, E8.52255, 0, Donaueschingen
+	DVI, N47.96070, E8.52271, 0, Donaueschingen
+	NKR, N49.33670, E8.73291, 0, Neckar
+	LXI, N47.79660, E6.37519, 0, Luxeuil
+
+line1 =
+	N47.59795, E9.25029
+	N47.67070, E9.18281
+	N47.77212, E9.11318
+	N47.78218, E9.13203
+	N47.73330, E9.23076
+	N47.67666, E9.37285
+
+line2 =
+	N47.67068, E9.12754
+	N47.65639, E8.88114
+	N47.67068, E9.18283
+
+line3 =
+	N48.04681, E8.21979
+	N47.93072, E8.49006
+	N47.93630, E8.69583
+	N47.97635, E8.83587
+	N48.05270, E8.97871
+	N48.08642, E9.13188
+	N48.07753, E9.29538
+
+line4 =
+	N47.67068, E9.12754
+	N47.67068, E9.18283
+
+line5 =
+	N47.65639, E8.88114
+	N47.68629, E8.70017
+	N47.66236, E8.61976
+	N47.59467, E8.57966
+	N47.57617, E8.48230
+	N47.60691, E8.32779
+	N47.60691, E8.19829
+	N47.57617, E8.09380
+	N47.56384, E7.92709
+	N47.56989, E7.69806
+	N47.60655, E7.56546
+	N47.67389, E7.52939
+	N47.77362, E7.53859
+	N47.90566, E7.59326
+	N48.00257, E7.60846
+	N48.06430, E7.58417
+	N48.15680, E7.61662
+	N48.28005, E7.70571
+	N48.41002, E7.76514
+	N48.54683, E7.79480
+	N48.63605, E7.83795
+	N48.69853, E7.92275
+	N48.96544, E8.23002
+
+line6 =
+	N48.96544, E8.23002
+	N49.21400, E8.41730
+	N49.33037, E8.48592
+	N49.39740, E8.49822
+	N49.43621, E8.48892
+	N49.44675, E8.45781
+	N49.50509, E8.42184
+
+[airport1]
+name = Strasbourg Airport
+code = LFST
+runways =
+	rwy1, 05, N48.5312, E7.61603, 48.7, 7874, 0, 0, 503
+
+[airport2]
+name = Karlsruhe Baden-Baden Airport
+code = SB
+runways =
+	rwy2, 03, N48.7679, E8.06976, 32.0, 9787, 830, 830, 405
+inboundbeacon = KBD

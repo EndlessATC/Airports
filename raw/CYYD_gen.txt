@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1712
+usa = true
+transition = 18001
+center = N54.8246994019, W127.182998657
+magneticvar = 21.105
+beacons =
+	M9, N54.82470, W127.18000, 0, Kathlyn
+	YYD, N54.45220, W126.65100, 0, Houston
+	TB, N54.48280, W128.59100, 0, Skeena
+	IXT, N54.46080, W128.58800, 0, Terrace
+	XT, N54.37390, W128.58299, 0, Terrace
+
+line1 =
+	N53.84146, W128.95937
+	N53.84004, W128.94399
+
+line2 =
+	N53.82979, W128.89019
+	N53.91860, W128.70479
+	N53.91885, W128.65088
+	N53.85811, W128.53213
+	N53.84507, W128.56045
+	N53.83164, W128.65288
+
+line3 =
+	N55.77908, W127.89082
+	N55.75562, W127.75336
+	N55.72079, W127.70287
+	N55.67464, W127.73925
+	N55.59374, W127.71987
+	N55.47814, W127.64468
+	N55.40489, W127.62655
+	N55.37398, W127.66535
+	N55.33045, W127.68468
+	N55.27428, W127.68453
+	N55.21818, W127.71654
+	N55.16211, W127.78075
+	N55.12594, W127.90348
+	N55.10956, W128.08473
+	N55.07343, W128.22455
+	N55.01757, W128.32294
+	N54.96729, W128.37386
+	N54.92259, W128.37727
+	N54.86978, W128.35064
+	N54.80875, W128.29400
+	N54.72550, W128.31663
+	N54.56729, W128.46952
+
+[airport1]
+name = Smithers Airport
+code = CYYD
+runways =
+	rwy1, 15, N54.8316, W127.184, 171.0, 5000, 0, 0, 1704

@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 118
+center = N6.0536699295, E121.011001587
+magneticvar = 0.156
+beacons =
+	JL, N6.05557, E121.01800, 0, Jolo
+
+line1 =
+	N6.96821, E121.96426
+	N6.92861, E122.02764
+	N6.91372, E122.09814
+	N6.94966, E122.14248
+	N7.00420, E122.17617
+
+line2 =
+	N6.02227, E121.28252
+	N6.00352, E121.21387
+	N6.07563, E121.15938
+	N6.09600, E121.03770
+	N6.00693, E120.89824
+	N5.95264, E120.87637
+	N5.89619, E120.93066
+	N5.92295, E121.01855
+	N5.89302, E121.08301
+	N5.94272, E121.21816
+	N5.86997, E121.29443
+	N5.93984, E121.41104
+	N5.96450, E121.41465
+	N6.00210, E121.39150
+	N6.02227, E121.28252
+
+line3 =
+	N5.34009, E120.20801
+	N5.33242, E120.16523
+	N5.26362, E120.07969
+	N5.22842, E119.98271
+
+line4 =
+	N5.06021, E119.87754
+	N5.07954, E119.95811
+	N5.15112, E120.01328
+	N5.16899, E120.10059
+	N5.21538, E120.11836
+	N5.18408, E120.15000
+	N5.16831, E120.19160
+	N5.19624, E120.22324
+	N5.25659, E120.25039
+	N5.28408, E120.22939
+	N5.34009, E120.20801
+
+line5 =
+	N6.74072, E122.05830
+	N6.67622, E121.91494
+	N6.66406, E121.83203
+	N6.61372, E121.80869
+	N6.56274, E121.87246
+	N6.51758, E121.87988
+	N6.41582, E121.95918
+	N6.41455, E121.99141
+	N6.42832, E122.09287
+
+[airport1]
+name = Jolo Airport
+code = RPMJ
+runways =
+	rwy1, 09, N6.05354, E121.005, 88.7, 4144, 207, 145, 0

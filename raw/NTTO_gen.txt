@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = S18.0748004913, W140.945999146
+magneticvar = 12.568
+beacons =
+	HAO, S18.08190, W140.94099, 0, Hao
+	AO, S18.06330, W140.96201, 0, Hao
+
+line1 =
+	S17.85664, W140.80937
+	S17.84922, W140.82925
+	S17.83848, W140.83252
+	S17.80371, W140.81519
+	S17.75410, W140.77632
+	S17.68311, W140.65205
+	S17.67803, W140.63823
+	S17.66973, W140.64980
+	S17.68379, W140.68618
+	S17.71777, W140.76143
+	S17.75166, W140.80361
+	S17.78799, W140.82427
+	S17.83105, W140.85073
+	S17.86660, W140.85156
+	S17.87314, W140.84082
+	S17.87568, W140.80444
+	S17.85664, W140.80937
+
+line2 =
+	S18.41611, W140.67188
+	S18.37988, W140.68535
+	S18.33418, W140.78174
+	S18.36377, W140.77324
+	S18.39912, W140.69604
+	S18.41611, W140.67188
+
+line3 =
+	S18.21689, W140.82271
+	S18.18936, W140.82988
+	S18.12051, W140.89326
+	S18.08379, W140.92515
+	S18.05918, W140.97354
+	S18.08506, W140.95864
+	S18.14795, W140.89546
+	S18.19873, W140.86006
+	S18.21689, W140.82271
+
+[airport1]
+name = Hao Airport
+code = NTTO
+runways =
+	rwy1, 12, S18.0641, W140.957, 134.8, 11089, 195, 0, 10

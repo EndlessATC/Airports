@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1348
+center = S21.5130558014, W43.1730575562
+magneticvar = -21.355
+beacons =
+	FRA, S21.76780, W43.38370, 0, Fora
+	BBC, S21.26700, W43.76420, 0, Barbacena
+
+line1 =
+	S22.04728, W44.30414
+	S21.94807, W44.20750
+	S21.82156, W44.11159
+	S21.73351, W44.06178
+	S21.68379, W44.05805
+	S21.65847, W44.06834
+	S21.65733, W44.09263
+	S21.61253, W44.12678
+	S21.52391, W44.17076
+	S21.47590, W44.24135
+	S21.46474, W44.38713
+
+line2 =
+	S22.43465, W44.36155
+	S22.42576, W44.25577
+	S22.48974, W44.20507
+	S22.50793, W44.15128
+	S22.48023, W44.09438
+	S22.47682, W44.04033
+	S22.49770, W43.98907
+	S22.43827, W43.85202
+	S22.29874, W43.62930
+	S22.19591, W43.42455
+	S22.09658, W43.14439
+	S22.09658, W43.13819
+	S21.71361, W42.28041
+	S21.60049, W41.99084
+
+[airport1]
+name = Zona da Mata Regional Airport
+code = SDZY
+
+[airport2]
+name = Presidente Itamar Franco Airport
+code = ZM
+inboundbeacon = FRA
+
+[airport3]
+name = Francisco de Assis Airport
+code = JF
+inboundbeacon = FRA

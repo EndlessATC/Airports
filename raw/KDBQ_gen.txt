@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1077
+usa = true
+transition = 18001
+center = N42.40200043, W90.70950317
+magneticvar = 0.156
+beacons =
+	DBQ, N42.40150, W90.70910, 0, Dubuque
+	DB, N42.32300, W90.59890, 0, Zilom
+	PVB, N42.68800, W90.43650, 0, Platteville
+	OQW, N42.05140, W90.74100, 0, Maquoketa
+	MXO, N42.20060, W91.13710, 0, Monticello
+	MRJ, N42.88810, W90.22650, 0, Mineral Point
+	CWI, N41.82880, W90.32760, 0, Clinton
+	FN, N41.75170, W90.39050, 0, Hillz
+	DV, N41.69480, W90.65580, 0, Auney
+	CVA, N41.70850, W90.48330, 0, Davenport
+	CID, N41.88750, W91.78570, 0, Cedar Rapids
+	CI, N41.88570, W91.80240, 0, Cindy
+	XWY, N42.94390, W91.78240, 0, West Union
+	BOZ, N41.71110, W89.78560, 0, Whiteside
+	UOC, N41.63200, W91.54290, 0, Hawkeye
+
+line1 =
+	N41.42559, W90.93876
+	N41.44982, W90.75407
+	N41.49473, W90.58674
+	N41.56036, W90.43667
+	N41.63203, W90.34753
+	N41.70965, W90.31924
+	N41.77001, W90.27601
+	N41.81311, W90.21777
+	N41.88365, W90.17661
+	N41.98152, W90.15245
+	N42.05371, W90.14943
+	N42.10030, W90.16751
+	N42.15402, W90.23322
+	N42.21484, W90.34657
+	N42.27207, W90.41050
+	N42.32566, W90.42504
+	N42.38325, W90.48473
+	N42.44480, W90.58963
+	N42.52051, W90.65733
+	N42.61032, W90.68787
+	N42.67693, W90.78874
+	N42.72034, W90.95995
+	N42.78855, W91.06958
+	N42.88165, W91.11759
+	N42.98621, W91.14815
+	N43.10233, W91.16133
+	N43.19959, W91.14758
+	N43.27803, W91.10697
+	N43.33115, W91.11720
+	N43.35893, W91.17836
+	N43.39528, W91.21869
+
+[airport1]
+name = Dubuque Regional Airport
+code = KDBQ
+runways =
+	rwy1, 13, N42.4093, W90.7155, 135.0, 6502, 0, 0, 1077
+	rwy2, 18, N42.4096, W90.712, 180.0, 6327, 0, 0, 1073

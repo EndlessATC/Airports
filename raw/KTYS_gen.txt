@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 981
+usa = true
+transition = 18001
+center = N35.81100082, W83.9940033
+magneticvar = -3.581
+beacons =
+	TY, N35.74220, W84.08120, 0, Benfi
+	VXV, N35.90480, W83.89470, 0, Volunteer
+	MNV, N35.54510, W84.38300, 0, Madisonville
+	JXT, N36.11000, W83.47520, 0, Jefferson
+	JAU, N36.33790, W84.16090, 0, Jacksboro
+	MMI, N35.39460, W84.56160, 0, Mcminn Co
+	TTQ, N35.11650, W83.95660, 0, Tomotla
+	SOT, N35.79010, W83.05240, 0, Snowbird
+	HCH, N35.78100, W84.97850, 0, Hinch Mountain
+	BPO, N36.53950, W84.47600, 0, Piney Grove
+	DTE, N35.48200, W84.93090, 0, Mark Anton
+	HDI, N35.15370, W84.90580, 0, Hardwick
+
+line1 =
+	N35.07626, W83.12058
+	N35.00055, W83.12135
+	N34.93291, W83.17040
+
+line2 =
+	N36.61001, W82.58909
+	N36.52247, W82.66541
+	N36.40124, W82.93589
+	N36.36985, W83.02552
+	N36.32367, W83.19344
+	N36.25650, W83.38653
+	N36.19983, W83.45369
+	N36.07617, W83.74716
+	N35.97832, W83.89971
+	N35.91460, W83.97435
+	N35.87014, W83.96949
+
+line3 =
+	N35.87014, W83.96949
+	N35.76678, W84.22878
+	N35.73580, W84.34358
+	N35.74278, W84.40032
+	N35.77549, W84.45696
+	N35.86329, W84.54176
+	N35.80272, W84.59822
+	N35.78924, W84.63000
+	N35.80267, W84.65594
+	N35.74942, W84.70121
+	N35.62948, W84.76583
+	N35.56618, W84.81952
+	N35.55948, W84.86223
+	N35.52822, W84.88967
+	N35.47231, W84.90187
+	N35.44977, W84.92442
+	N35.46063, W84.95732
+	N35.39143, W85.01302
+	N35.24214, W85.09154
+	N35.13246, W85.18231
+	N35.06230, W85.28536
+	N35.04975, W85.34680
+	N35.09478, W85.36664
+	N35.09646, W85.39243
+	N35.05486, W85.42406
+
+[airport1]
+name = McGhee Tyson Airport
+code = KTYS
+runways =
+	rwy1, 05L, N35.8043, W84.0055, 44.8, 9005, 0, 0, 923
+	rwy2, 05R, N35.8001, W84.004, 44.8, 9000, 0, 400, 938

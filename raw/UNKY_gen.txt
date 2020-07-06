@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2123
+center = N51.6693992615, E94.4005966187
+magneticvar = 2.342
+beacons =
+	UY, N51.65670, E94.37330, 0, Kyzyl
+	PS, N51.70000, E94.46170, 0, Kyzyl
+	KZL, N51.59000, E94.20670, 0, Kyzyl
+	TR, N52.16670, E93.91670, 0, Turan
+
+line1 =
+	N51.35578, E96.23540
+	N51.38312, E96.17432
+	N51.38312, E96.09908
+	N51.34214, E95.96503
+	N51.29498, E95.78002
+
+line2 =
+	N51.29498, E95.78002
+	N51.47572, E95.55849
+	N51.58538, E95.22967
+	N51.73369, E94.46476
+
+line3 =
+	N51.73369, E94.46476
+	N51.60416, E94.07021
+	N51.56603, E93.64636
+	N51.58112, E92.76936
+
+[airport1]
+name = Kyzyl Airport
+code = UNKY

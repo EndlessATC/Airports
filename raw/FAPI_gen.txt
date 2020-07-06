@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4354
+center = S23.9260997772, E29.4843997955
+magneticvar = -15.160
+beacons =
+	PI, S23.93360, E29.46860, 0, Pietersburg
+	PB, S23.86630, E29.45070, 0, Polokwane
+	PPV, S23.83980, E29.46060, 0, Polokwane
+	LU, S23.16030, E29.59580, 0, Makhado
+	LTV, S23.15850, E29.68640, 0, Makhado
+	LS, S23.15980, E29.72530, 0, Makhado
+	TZ, S23.80230, E30.36080, 0, Tzaneen
+
+[airport1]
+name = Pietersburg Municipal Airport
+code = FAPI
+runways =
+	rwy1, 08, S23.9311, E29.4747, 61.0, 7218, 0, 0, 4228
+
+[airport2]
+name = Polokwane International Airport
+code = PP
+runways =
+	rwy2, 01, S23.8604, E29.4589, 359.0, 8400, 0, 0, 4076
+	rwy3, 05, S23.8588, E29.4473, 38.0, 7612, 0, 0, 4014
+inboundbeacon = PPV

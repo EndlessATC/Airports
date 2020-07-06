@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1016
+center = N45.039722, E1.485556
+magneticvar = -1.127
+beacons =
+	BGC, N44.81950, E0.61928, 0, Bergerac
+	LMG, N45.81590, E1.02558, 0, Limoges
+
+line1 =
+	N44.12583, E0.86065
+	N44.21523, E0.50899
+	N44.29533, E0.32347
+	N44.36608, E0.30415
+	N44.42212, E0.25508
+	N44.48406, E0.13690
+	N44.56087, E0.00324
+	N44.58687, W0.10208
+
+[airport1]
+name = Brive-Souillac
+code = LFSL
+
+[airport2]
+name = Brive Souillac Airport
+code = 21
+inboundbeacon = BGC

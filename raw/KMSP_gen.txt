@@ -1,0 +1,76 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 841
+usa = true
+transition = 18001
+center = N44.882, W93.221802
+magneticvar = 1.529
+beacons =
+	MSP, N44.89650, W93.23650, 0, Minneapolis
+	AP, N44.82410, W93.30580, 0, Vagey
+	MS, N44.82570, W93.09130, 0, Narco
+	BA, N44.85670, W92.98450, 0, Babco
+	FCM, N44.82570, W93.45680, 0, Flying Cloud
+	PPI, N44.87310, W92.94230, 0, Hopey
+	FGT, N44.63090, W93.18210, 0, Farmington
+	GEP, N45.14570, W93.37320, 0, Gopher
+	RNH, N45.14730, W92.53340, 0, New Richmond
+	OEO, N45.31040, W92.68810, 0, Osceola
+	RGK, N44.58890, W92.49210, 0, Red Wing
+	GYL, N44.76090, W94.08580, 0, Glencoe
+	CBG, N45.55750, W93.26220, 0, Cambridge
+	FOW, N44.20440, W93.37050, 0, Halfway
+	AHH, N45.28140, W92.37130, 0, Ameron
+	PNM, N45.56470, W93.60760, 0, Princeton
+	ST, N45.47870, W93.96880, 0, Hussk
+	MKT, N44.21990, W93.91240, 0, Mankato
+	HCD, N44.85690, W94.38330, 0, Hutchinson
+	ROS, N45.69680, W92.95570, 0, Rush City
+	ACQ, N44.07020, W93.55240, 0, Waseca
+	STC, N45.54930, W94.05860, 0, Saint Cloud
+
+line1 =
+	N44.12645, W91.71644
+	N44.19415, W91.84098
+	N44.28887, W91.91229
+	N44.39982, W92.05512
+	N44.44525, W92.14858
+	N44.46214, W92.24031
+	N44.49780, W92.31309
+	N44.55227, W92.36694
+	N44.58658, W92.44159
+	N44.60079, W92.53703
+	N44.64534, W92.64354
+	N44.75779, W92.81988
+	N44.79019, W92.96256
+	N44.83814, W93.03021
+	N44.91240, W93.07041
+	N44.93746, W93.11876
+	N44.91323, W93.17524
+	N44.96304, W93.23249
+	N45.08691, W93.29053
+	N45.16665, W93.34900
+	N45.20236, W93.40786
+	N45.38865, W93.93586
+	N45.43919, W94.06299
+	N45.49634, W94.13329
+	N45.57704, W94.18921
+	N45.63212, W94.21200
+	N45.66163, W94.20171
+	N45.71382, W94.23778
+	N45.78873, W94.32015
+	N45.85281, W94.37054
+
+[airport1]
+name = Minneapolis-St Paul International/Wold-Chamberlain Airport
+code = KMSP
+runways =
+	rwy1, 04, N44.8723, W93.2383, 45.0, 11006, 1550, 988, 832
+	rwy2, 12L, N44.8929, W93.221, 121.3, 8000, 0, 0, 838
+	rwy3, 12R, N44.8878, W93.2341, 121.3, 10000, 0, 0, 841
+	rwy4, 17, N44.8878, W93.2422, 169.5, 8000, 0, 0, 840

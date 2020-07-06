@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6
+center = S0.693342, E73.155602
+magneticvar = -4.585
+beacons =
+	GAN, S0.69427, E73.15550, 0, Gan Island
+	GN, S0.69766, E73.16400, 0, Gan Island
+
+[airport1]
+name = Gan International Airport
+code = VRMG
+runways =
+	rwy1, 10, S0.690611, E73.1385, 99.0, 12000, 298, 298, 7

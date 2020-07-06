@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 682
+usa = true
+transition = 18001
+center = N39.8345985413, W88.8656997681
+magneticvar = -1.124
+beacons =
+	DE, N39.79050, W88.95380, 0, Elwin
+	AXC, N39.73752, W88.85643, 0, Decatur
+	SYZ, N39.40670, W88.84370, 0, Shelbyville
+	TAZ, N39.53610, W89.32360, 0, Taylorville
+	AAA, N40.16010, W89.33780, 0, Abraham
+	CMI, N40.03450, W88.27610, 0, Champaign
+	CM, N39.96620, W88.18240, 0, Veals
+	CJ, N39.79710, W89.59200, 0, Calde
+	MTO, N39.47800, W88.28610, 0, Mattoon
+	LQ, N39.91200, W89.60310, 0, Licol
+	SPI, N39.83970, W89.67770, 0, Spinner
+	BMI, N40.48080, W88.93120, 0, Bloomington
+	MT, N39.44240, W88.17350, 0, Zebre
+	SP, N39.77310, W89.75990, 0, Huskk
+	LH, N40.56040, W88.87460, 0, Egrow
+	VLA, N39.09370, W89.16250, 0, Vandalia
+	CZB, N39.30520, W88.00200, 0, Casey
+	LTD, N39.16620, W89.66900, 0, Litchfield
+	RBS, N40.58170, W88.16430, 0, Roberts
+	PI, N40.60570, W89.59310, 0, Tungg
+
+line1 =
+	N38.84667, W90.13421
+	N38.85990, W90.14992
+	N38.89768, W90.22007
+	N38.93021, W90.35435
+
+line2 =
+	N38.85951, W90.31639
+	N38.84497, W90.25642
+
+line3 =
+	N40.21413, W87.40378
+	N40.12747, W87.44502
+	N40.01833, W87.43773
+	N39.94077, W87.41872
+	N39.89472, W87.38807
+	N39.80837, W87.37784
+	N39.68161, W87.38802
+	N39.56771, W87.41262
+	N39.46669, W87.45163
+	N39.39209, W87.50711
+	N39.34398, W87.57912
+	N39.29135, W87.61106
+	N39.23414, W87.60292
+	N39.19329, W87.61498
+	N39.16875, W87.64728
+	N39.10671, W87.63170
+	N39.00718, W87.56829
+	N38.90889, W87.53028
+
+[airport1]
+name = Decatur Airport
+code = KDEC
+runways =
+	rwy1, 06, N39.8271, W88.8745, 59.1, 8496, 0, 0, 672
+	rwy2, 12, N39.8413, W88.8748, 119.0, 6799, 0, 0, 679
+	rwy3, 18, N39.8415, W88.8744, 179.1, 5299, 0, 0, 678

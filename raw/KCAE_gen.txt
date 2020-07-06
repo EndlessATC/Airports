@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 236
+usa = true
+transition = 18001
+center = N33.9388008118, W81.1194992065
+magneticvar = -7.169
+beacons =
+	CAE, N33.85730, W81.05390, 0, Columbia
+	CA, N33.96720, W81.24470, 0, Murry
+	MMT, N33.92410, W80.80240, 0, Mc Entire
+	MMT, N33.93570, W80.79900, 0, Mc Entire
+	FDW, N34.31440, W81.11270, 0, Winnsboro
+	EDS, N33.45570, W80.85840, 0, Edisto
+	SSC, N33.97780, W80.46620, 0, Shaw
+	AIK, N33.65180, W81.67710, 0, Aiken
+	OYI, N33.41810, W80.90580, 0, Orangeburg
+	EOE, N34.31150, W81.63600, 0, Enoree
+	CDN, N34.28350, W80.56150, 0, Camden
+	SMS, N33.99080, W80.36000, 0, Sumter
+	BKO, N33.34680, W81.42410, 0, Barnwell
+	VAN, N33.47480, W80.44860, 0, Vance
+	LKR, N34.72380, W80.85810, 0, Lancaster
+	MNI, N33.58820, W80.20620, 0, Manning
+	GIW, N34.25370, W82.08620, 0, Coronaca
+	UOT, N34.68400, W81.64230, 0, Union County
+	EMR, N33.46280, W81.99690, 0, Emory
+	LUX, N34.50820, W81.94980, 0, Laurens
+	AG, N33.28690, W81.94690, 0, Bushe
+	HVS, N34.40710, W80.11530, 0, Hartsville
+	CTF, N34.65050, W80.27490, 0, Chesterfield
+	PYG, N34.74500, W80.33810, 0, Pageland
+
+line1 =
+	N33.83773, W82.35189
+	N33.74923, W82.25663
+	N33.66358, W82.20836
+
+line2 =
+	N34.84599, W79.91452
+	N34.73783, W79.89065
+	N34.65189, W79.81179
+	N34.58022, W79.78146
+	N34.52285, W79.79957
+	N34.50479, W79.79055
+	N34.50311, W79.75381
+	N34.46495, W79.72154
+
+line3 =
+	N33.66358, W82.20836
+	N33.52289, W82.00571
+	N33.44729, W81.93639
+	N33.38987, W81.93285
+	N33.34926, W81.90874
+	N33.32543, W81.86409
+	N33.27409, W81.82128
+	N33.19529, W81.78033
+	N33.12676, W81.69932
+	N33.06858, W81.57825
+
+[airport1]
+name = Columbia Metropolitan Airport
+code = KCAE
+runways =
+	rwy1, 05, N33.9285, W81.124, 45.0, 8001, 0, 1000, 228
+	rwy2, 11, N33.9441, W81.1378, 105.0, 8601, 0, 0, 229

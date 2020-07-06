@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 588
+center = N25.2852993011, E49.4851989746
+magneticvar = 2.157
+beacons =
+	HSA, N25.27910, E49.48400, 0, Al Ahsa
+	UDH, N25.14500, E49.32830, 0, Udhailiyah
+	AB, N25.90000, E49.58330, 0, Abqaiq
+
+line1 =
+	N26.22896, E50.46992
+	N26.19082, E50.45244
+	N26.05845, E50.48945
+	N25.96553, E50.46592
+	N25.83350, E50.54404
+	N25.80679, E50.57490
+	N25.88311, E50.60723
+	N26.00234, E50.61748
+	N26.12446, E50.60977
+	N26.19829, E50.55781
+	N26.24072, E50.58594
+	N26.24644, E50.56406
+	N26.22896, E50.46992
+
+line2 =
+	N25.44473, E50.76289
+	N25.39927, E50.75459
+
+line3 =
+	N24.86938, E50.72559
+	N24.96382, E50.66689
+	N25.08667, E50.55791
+	N25.30669, E50.50850
+	N25.42480, E50.45518
+	N25.56611, E50.28125
+	N25.62285, E50.23896
+	N25.75581, E50.18965
+	N25.84663, E50.13027
+	N25.96138, E50.08105
+	N26.11099, E50.03164
+	N26.12285, E50.05391
+	N26.11870, E50.09600
+	N26.10068, E50.13525
+	N26.10054, E50.15547
+
+[airport1]
+name = Al Ahsa Airport
+code = OEAH
+runways =
+	rwy1, 16, N25.2986, E49.4812, 164.9, 10039, 0, 0, 588

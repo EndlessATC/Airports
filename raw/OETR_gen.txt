@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2803
+center = N31.692188, E38.731544
+magneticvar = 3.433
+beacons =
+	TRF, N31.69330, E38.73470, 0, Turaif
+
+[airport1]
+name = Turaif Domestic Airport
+code = OETR
+runways =
+	rwy1, 10, N31.6963, E38.716, 105.4, 9843, 0, 0, 2794

@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3736
+metric = true
+center = N26.5384998322, E106.801002502
+magneticvar = -1.463
+beacons =
+	KWE, N26.52000, E106.79500, 0, Guiyang
+	JK, N26.45830, E106.98000, 0, Longli
+	QNX, N27.04170, E106.03000, 0, Qianxi
+
+line1 =
+	N26.33759, E107.50479
+	N26.23850, E107.50086
+	N26.19148, E107.51900
+	N26.16352, E107.55796
+	N26.16667, E107.61000
+	N26.21812, E107.70777
+	N26.35795, E107.77981
+	N26.43151, E107.80027
+	N26.48539, E107.79325
+	N26.52954, E107.82632
+	N26.56401, E107.89960
+	N26.61677, E107.95923
+	N26.68788, E108.00522
+	N26.75289, E108.07183
+
+[airport1]
+name = Longdongbao Airport
+code = ZUGY
+runways =
+	rwy1, 01, N26.5242, E106.798, 9.9, 10500, 0, 0, 3737

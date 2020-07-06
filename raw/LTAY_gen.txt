@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2795
+center = N37.7855987549, E29.7012996674
+magneticvar = 4.030
+beacons =
+	CRD, N37.78970, E29.70420, 0, Cardak
+	CRD, N37.78970, E29.70420, 0, Cardak
+	CRD, N37.77920, E29.69220, 0, Cardak
+	IPT, N37.85110, E30.35830, 0, Isparta
+	IPT, N37.85330, E30.35830, 0, Isparta
+
+line1 =
+	N36.81196, E28.30371
+	N36.80381, E28.48359
+
+line2 =
+	N36.79717, E30.58203
+	N36.86567, E30.64404
+	N36.84868, E30.95029
+
+[airport1]
+name = Çardak Airport
+code = LTAY
+runways =
+	rwy1, 06, N37.7786, E29.6867, 58.9, 9842, 0, 0, 2797

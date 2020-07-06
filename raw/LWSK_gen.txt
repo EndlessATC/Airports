@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 781
+center = N41.961601, E21.621401
+magneticvar = 3.085
+beacons =
+	SKJ, N41.93500, E21.63060, 0, Skopje
+	PT, N41.91420, E21.63810, 0, Skopje
+	BU, N41.73170, E21.69500, 0, Skopje
+	BS, N42.35680, E21.24960, 0, Bondsteel
+	SIN, N41.98080, E22.36560, 0, Sinko
+	VRN, N42.55540, E21.91140, 0, Vranje
+	PEP, N41.33780, E21.44860, 0, Prilep
+	PRT, N42.57250, E21.03140, 0, Pristina
+	IZD, N41.34280, E20.82060, 0, Ohrid
+	PRI, N42.72860, E21.01820, 0, Pristina
+	OHR, N41.17240, E20.73640, 0, Ohrid
+
+[airport1]
+name = Skopje International Airport
+code = LWSK
+runways =
+	rwy1, 16, N41.9723, E21.6177, 165.0, 9678, 0, 0, 781

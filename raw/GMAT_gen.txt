@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 653
+center = N28.4482002258, W11.1612997055
+magneticvar = -4.363
+beacons =
+	TNA, N28.43120, W11.17140, 0, Tan Tan
+	TAN, N28.42840, W11.17310, 0, Tan Tan
+
+line1 =
+	N29.38037, W10.20059
+	N29.06494, W10.48647
+	N28.93921, W10.67383
+	N28.71377, W11.08096
+	N28.52607, W11.29907
+	N28.38203, W11.43018
+	N28.31011, W11.55269
+	N28.12930, W11.98608
+	N28.00942, W12.46890
+
+[airport1]
+name = Tan Tan Airport
+code = GMAT
+runways =
+	rwy1, 03, N28.4402, W11.1661, 27.8, 6562, 0, 0, 653

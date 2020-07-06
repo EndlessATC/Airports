@@ -1,0 +1,120 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 147
+center = N51.289501, E6.76678
+magneticvar = -0.101
+beacons =
+	DUS, N51.28320, E6.75373, 0, Dusseldorf
+	LI, N51.34700, E6.89128, 0, Dusseldorf
+	MGB, N51.22730, E6.50541, 0, Monchengladbach
+	MHD, N51.23490, E6.49197, 0, Monchengladbach
+	MHV, N51.23730, E6.49024, 0, Monchengladbach
+	LMA, N51.37080, E6.39500, 0, Lima
+	BAM, N51.32780, E7.17698, 0, Barmen
+	BOT, N51.58580, E7.02301, 0, Bottrop
+	WYP, N51.04840, E7.28000, 0, Wipper
+	LJ, N50.92710, E7.06229, 0, Koln/Bonn
+	KBO, N50.86170, E7.14552, 0, Koln/Bonn
+	LW, N50.89830, E7.25285, 0, Koln/Bonn
+	NID, N51.60000, E6.14148, 0, Niederrhein
+	GIX, N50.96330, E6.04520, 0, Geilenkirchen
+	LV, N50.80420, E7.24022, 0, Koln/Bonn
+	DOR, N51.52530, E7.63106, 0, Wickede
+	DWI, N51.52610, E7.63439, 0, Dortmund
+	THN, N51.18340, E5.83339, 0, Thorn
+	MAS, N50.97190, E5.96043, 0, Maastricht
+	NW, N51.01940, E5.87834, 0, Maastricht
+	DOM, N51.70950, E7.58713, 0, Dortmund
+	ZL, N50.93400, E5.79261, 0, Maastricht Locator Zl
+	GMH, N51.17050, E7.89204, 0, Germinghausen
+	COL, N50.78350, E7.59419, 0, Cola
+	GUL, N50.80730, E5.89546, 0, Gull
+	VKL, N51.65560, E5.70694, 0, Volkel
+	ONT, N51.21330, E5.55750, 0, Kleine Brogel
+	HMM, N51.85690, E7.70829, 0, Hamm
+	BBL, N51.17030, E5.46639, 0, Kleine Brogel
+	PH, N51.56280, E5.50556, 0, Eindhoven
+	DLN, N52.05720, E5.87278, 0, Deelen
+	ONL, N50.70110, E5.54917, 0, Liege
+	MST, N52.11010, E7.57171, 0, Greven
+	LNO, N50.58580, E5.71028, 0, Olno
+	SLV, N50.47810, E5.91306, 0, Spa
+	SLD, N50.70680, E8.07851, 0, Siegerland
+	LGE, N50.65390, E5.47056, 0, Liege
+	LG, N50.65010, E5.46677, 0, Liege
+	SPI, N50.51470, E5.62333, 0, Sprimont
+
+line1 =
+	N51.96298, E5.33108
+	N51.99352, E5.16132
+	N51.97732, E4.99880
+
+line2 =
+	N51.87218, E6.03863
+	N51.96055, E5.92246
+	N51.98138, E5.74748
+	N51.96298, E5.33108
+
+line3 =
+	N50.32380, E7.62882
+	N50.36664, E7.60784
+	N50.40008, E7.55662
+	N50.43279, E7.44366
+	N50.48583, E7.34367
+	N50.55916, E7.25675
+	N50.62161, E7.20362
+	N50.67319, E7.18450
+	N50.73422, E7.12507
+	N50.80468, E7.02544
+	N50.85261, E6.99454
+	N50.90402, E6.99454
+	N50.93834, E6.97325
+	N50.99808, E6.96839
+	N51.04009, E6.93770
+	N51.06427, E6.88106
+	N51.09719, E6.85098
+	N51.13884, E6.84747
+	N51.16887, E6.81631
+	N51.18726, E6.75750
+	N51.22726, E6.75972
+	N51.26819, E6.74112
+	N51.30276, E6.68955
+	N51.36446, E6.69838
+	N51.42182, E6.70717
+	N51.45782, E6.69761
+	N51.48678, E6.69342
+	N51.52440, E6.68748
+	N51.55923, E6.62392
+	N51.59184, E6.59301
+	N51.63747, E6.59580
+	N51.77503, E6.35721
+	N51.83699, E6.21175
+	N51.86921, E6.07976
+	N51.87218, E6.03863
+	N51.87673, E5.97527
+	N51.85957, E5.89817
+	N51.86340, E5.78045
+	N51.88820, E5.62212
+	N51.87794, E5.49158
+	N51.83268, E5.38895
+	N51.81348, E5.24953
+	N51.82371, E4.98536
+
+[airport1]
+name = Düsseldorf Airport
+code = EDDL
+runways =
+	rwy1, 05L, N51.2837, E6.74872, 53.0, 8858, 984, 984, 116
+	rwy2, 05R, N51.2796, E6.75199, 53.0, 9842, 984, 984, 121
+
+[airport2]
+name = Weeze Airport
+code = LV
+runways =
+	rwy3, 09, N51.6028, E6.12454, 92.0, 8005, 0, 0, 95
+inboundbeacon = NID

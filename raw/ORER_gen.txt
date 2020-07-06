@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1341
+center = N36.2375984192, E43.9631996155
+magneticvar = 4.148
+beacons =
+	QYW, N35.76720, E43.12520, 0, Qayyarah West
+	KRK, N35.47120, E44.34790, 0, Kirkuk
+
+line1 =
+	N36.83248, E42.55867
+	N36.78478, E42.71308
+	N36.75517, E42.75856
+	N36.73316, E42.77447
+	N36.71874, E42.76083
+	N36.70753, E42.85757
+	N36.69130, E42.89519
+	N36.66156, E42.90129
+	N36.64580, E42.88610
+	N36.64399, E42.84951
+	N36.60867, E42.81116
+	N36.53984, E42.77117
+	N36.47850, E42.84434
+	N36.42465, E43.03069
+	N36.33365, E43.16866
+	N36.20544, E43.25827
+	N36.07620, E43.31749
+	N35.94587, E43.34633
+	N35.85781, E43.34323
+	N35.81203, E43.30798
+	N35.76541, E43.29744
+	N35.71798, E43.31160
+	N35.68188, E43.29930
+	N35.65707, E43.26065
+	N35.58641, E43.24835
+	N35.46982, E43.26240
+	N35.31632, E43.34803
+
+[airport1]
+name = Erbil International Airport
+code = ORER
+runways =
+	rwy1, 15, N36.2487, E43.9558, 151.7, 9197, 0, 0, 1282
+	rwy2, 15L, N36.2408, E43.9643, 151.7, 4085, 0, 0, 1341
+	rwy3, 18, N36.2579, E43.947, 180.4, 13890, 0, 0, 0

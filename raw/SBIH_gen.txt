@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 110
+center = S4.24234008789, W56.0007019043
+magneticvar = -16.360
+beacons =
+	YUB, S4.24050, W56.00470, 0, Itaituba
+
+line1 =
+	S5.18754, W56.89448
+	S5.05917, W56.82131
+	S4.86156, W56.74999
+	S4.74452, W56.68622
+	S4.70814, W56.62992
+	S4.70044, W56.55959
+	S4.72152, W56.47523
+	S4.69465, W56.39743
+	S4.61982, W56.32622
+	S4.53331, W56.28310
+	S4.43492, W56.26808
+	S4.33348, W56.15533
+	S4.26010, W56.00774
+	S4.22889, W55.94482
+	S4.12755, W55.78579
+	S4.02957, W55.67820
+	S3.89211, W55.56676
+	S3.62676, W55.39385
+	S3.27866, W55.23298
+
+[airport1]
+name = Itaituba Airport
+code = SBIH
+runways =
+	rwy1, 05, S4.24803, W56.0051, 33.0, 5266, 0, 0, 110

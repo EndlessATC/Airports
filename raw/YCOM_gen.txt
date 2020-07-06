@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3088
+usa = true
+center = S36.3005981445, E148.973999023
+magneticvar = 13.180
+beacons =
+	COM, S36.35380, E148.95799, 0, Cooma
+	WLE, S35.56400, E149.17799, 0, Williamsdale
+	WLE, S35.56160, E149.17799, 0, Williamsdale
+	MER, S36.91430, E149.89900, 0, Merimbula
+
+line1 =
+	S35.58418, E150.37412
+	S35.68232, E150.29219
+	S35.83359, E150.19531
+	S35.97061, E150.15850
+	S36.12041, E150.12891
+	S36.37266, E150.09531
+	S36.55039, E150.06279
+	S36.72275, E149.98818
+	S36.84551, E149.96025
+	S37.08027, E149.95059
+	S37.25840, E149.98633
+
+line2 =
+	S36.96705, E148.00505
+	S36.73026, E148.16153
+	S36.62500, E148.19693
+	S36.54583, E148.14654
+	S36.18089, E148.03410
+	S36.04571, E147.97477
+	S36.01863, E147.93126
+	S35.95579, E147.76248
+	S35.95362, E147.67422
+	S35.98214, E147.59578
+	S35.98380, E147.53821
+
+[airport1]
+name = Cooma Snowy Mountains Airport
+code = YCOM
+runways =
+	rwy1, 14, S36.3048, E148.97, 150.0, 2041, 0, 0, 3073
+	rwy2, 18, S36.2905, E148.975, 193.0, 6955, 233, 0, 3049

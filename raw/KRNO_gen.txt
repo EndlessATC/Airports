@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4415
+usa = true
+transition = 18001
+center = N39.4990997314, W119.767997742
+magneticvar = 14.419
+beacons =
+	FMG, N39.53130, W119.65600, 0, Mustang
+	SWR, N39.18030, W120.27000, 0, Squaw Valley
+	HZN, N39.51640, W118.99800, 0, Hazen
+	AHC, N40.26790, W120.15200, 0, Amedee
+	NFL, N39.41690, W118.70500, 0, Fallon
+	HNW, N38.72470, W120.74900, 0, Hangtown
+
+line1 =
+	N39.02510, W119.94268
+	N38.95742, W119.96572
+	N38.94526, W120.03340
+	N38.97095, W120.08081
+	N39.06035, W120.11333
+	N39.09077, W120.13916
+	N39.14292, W120.13223
+	N39.22144, W120.05913
+	N39.24238, W119.98599
+	N39.25396, W119.96167
+	N39.25396, W119.93594
+	N39.20654, W119.91836
+	N39.02510, W119.94268
+	N39.02510, W119.94268
+	N39.02510, W119.94268
+	N39.02510, W119.94268
+
+line2 =
+	N39.90273, W119.43218
+	N39.88594, W119.43301
+	N39.86807, W119.44619
+	N39.87812, W119.48652
+	N39.92656, W119.54707
+	N40.02827, W119.63584
+	N40.12349, W119.69614
+	N40.15039, W119.68359
+	N40.19082, W119.64116
+	N40.20928, W119.57729
+	N40.18071, W119.53359
+	N40.08203, W119.51514
+	N39.97378, W119.48296
+	N39.93350, W119.45430
+	N39.90273, W119.43218
+	N39.90273, W119.43218
+	N39.90273, W119.43218
+	N39.90273, W119.43218
+
+[airport1]
+name = Reno Tahoe International Airport
+code = KRNO
+runways =
+	rwy1, 07, N39.4963, W119.779, 90.0, 6102, 0, 0, 4409
+	rwy2, 16L, N39.5138, W119.767, 180.0, 9000, 0, 0, 4415
+	rwy3, 16R, N39.5138, W119.769, 180.0, 11002, 999, 990, 4415

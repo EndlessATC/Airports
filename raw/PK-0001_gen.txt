@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1646
+center = N33.560713, E72.851613
+magneticvar = 2.131
+beacons =
+	RN, N33.61330, E73.08170, 0, Islamabad
+	RN, N33.60590, E73.12590, 0, Islamabad
+	RT, N33.84770, E73.79920, 0, Rawalakot
+	MF, N34.34220, E73.50670, 0, Muzaffarabad
+
+line1 =
+	N34.37149, E72.83476
+	N34.25796, E72.84757
+	N34.19822, E72.83796
+	N34.14766, E72.80158
+	N34.08557, E72.70701
+
+line2 =
+	N34.08554, E72.70691
+	N34.03175, E72.65162
+	N34.01550, E72.59178
+	N34.01880, E72.50899
+	N33.99984, E72.41075
+	N33.95857, E72.29717
+	N33.89493, E72.23883
+	N33.80900, E72.23573
+	N33.77197, E72.19748
+	N33.78393, E72.12410
+	N33.77897, E72.07103
+	N33.75709, E72.03827
+	N33.66546, E71.98592
+	N33.50408, E71.91388
+	N33.40633, E71.83921
+	N33.37228, E71.76180
+	N33.27378, E71.72196
+	N33.11085, E71.71968
+	N32.99388, E71.65096
+	N32.92280, E71.51567
+
+[airport1]
+name = New Islamabad International Airport
+code = PK-0001

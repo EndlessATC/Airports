@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 56
+usa = true
+center = S32.5069007874, E137.716995239
+magneticvar = 7.240
+beacons =
+	PAG, S32.52640, E137.70100, 0, Port Augusta
+	WHA, S33.05810, E137.52400, 0, Whyalla
+
+line1 =
+	S33.46133, E137.91396
+	S33.31406, E137.86602
+	S33.20078, E137.85234
+	S33.16514, E137.92432
+	S33.09424, E137.99258
+	S32.77070, E137.91318
+	S32.67373, E137.86309
+	S32.57812, E137.78320
+	S32.70195, E137.78184
+	S32.82324, E137.79092
+	S32.97803, E137.68018
+	S33.08916, E137.53623
+	S33.19355, E137.44229
+	S33.43018, E137.35420
+
+[airport1]
+name = Port Augusta Airport
+code = YPAG
+runways =
+	rwy1, 15, S32.4981, E137.711, 159.0, 5413, 0, 0, 56

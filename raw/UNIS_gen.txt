@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1706
+center = N60.373298645, E93.0117034912
+
+line1 =
+	N59.92720, E90.69847
+	N59.78191, E90.78302
+	N59.74540, E90.80420
+	N59.70664, E90.85815
+	N59.65713, E90.88410
+	N59.59688, E90.88193
+	N59.49818, E90.98952
+
+[airport1]
+name = Severo-Eniseysk Airport
+code = UNIS

@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 207
+center = N27.151699, W13.2192
+magneticvar = -5.251
+beacons =
+	LAY, N27.14290, W13.21800, 0, Laayoune
+
+line1 =
+	N28.12969, W14.35557
+	N28.10093, W14.49180
+	N28.08237, W14.46860
+	N28.05601, W14.33262
+
+line2 =
+	N28.12930, W11.98608
+	N28.00942, W12.46890
+	N27.97842, W12.79365
+	N27.91416, W12.94893
+	N27.76982, W13.04072
+	N27.65571, W13.17598
+	N27.43462, W13.25615
+	N27.14663, W13.40981
+	N26.87266, W13.49575
+	N26.73511, W13.57578
+	N26.64292, W13.69590
+	N26.48877, W13.95210
+	N26.41543, W14.16836
+	N26.29673, W14.31245
+	N26.25371, W14.41387
+	N26.16304, W14.47056
+
+[airport1]
+name = Hassan I Airport
+code = GMML
+runways =
+	rwy1, 02, N27.1302, W13.2354, 16.0, 8861, 0, 0, 223
+	rwy2, 04, N27.1358, W13.2259, 32.0, 8202, 0, 0, 202

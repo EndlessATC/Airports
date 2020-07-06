@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 67
+center = N26.531999588, E54.824798584
+magneticvar = 1.523
+beacons =
+	LEN, N26.53610, E54.85120, 0, Bandar Lengeh
+	LEN, N26.53760, E54.86120, 0, Bandar Lengeh
+	SIR, N25.91420, E54.53650, 0, Sirri Island
+	ABM, N25.87780, E55.02290, 0, Abumusa Island
+	SIR, N25.90340, E54.54010, 0, Sirri Island
+	KIH, N26.52330, E54.01000, 0, Kish Island
+	KIS, N26.52580, E53.96190, 0, Kish Island
+	KIH, N26.52760, E53.95280, 0, Kish Island
+
+line1 =
+	N26.98335, E56.07412
+	N26.90981, E55.90713
+	N26.94766, E55.75762
+	N26.93096, E55.74746
+	N26.85718, E55.78457
+	N26.81196, E55.76260
+	N26.71001, E55.53174
+	N26.64795, E55.34697
+	N26.65757, E55.29648
+	N26.63921, E55.29502
+	N26.59263, E55.31152
+	N26.58574, E55.34043
+	N26.58311, E55.42373
+	N26.61753, E55.54316
+	N26.68584, E55.67461
+	N26.69248, E55.74727
+	N26.73081, E55.84766
+	N26.73228, E55.89414
+	N26.70112, E55.95430
+	N26.80117, E56.09492
+
+line2 =
+	N26.06265, E56.08047
+	N26.05278, E56.07461
+	N25.91602, E56.02520
+	N25.79399, E55.94121
+
+line3 =
+	N26.72559, E53.70576
+	N26.70771, E53.82256
+	N26.73237, E54.06934
+	N26.69663, E54.24707
+	N26.58916, E54.52207
+	N26.50894, E54.64492
+	N26.50508, E54.75928
+	N26.55669, E54.89580
+	N26.72539, E55.15459
+	N26.78594, E55.29414
+	N26.77056, E55.42402
+	N26.82993, E55.51855
+	N26.93213, E55.59160
+	N26.97754, E55.65029
+	N27.03760, E55.94111
+	N27.14312, E56.11807
+
+[airport1]
+name = Bandar Lengeh Airport
+code = OIBL
+runways =
+	rwy1, 08, N26.5304, E54.8124, 82.0, 8203, 0, 0, 57

@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 121
+center = N31.073299408, E33.8358001709
+magneticvar = 3.365
+beacons =
+	ARH, N31.07300, E33.83190, 0, El Arish
+	GZA, N31.24560, E34.27130, 0, Gaza
+	RFH, N31.29230, E34.28470, 0, Gaza
+	BSA, N31.28620, E34.72130, 0, Beer-Sheba
+
+line1 =
+	N31.89570, E34.67842
+	N31.59229, E34.48398
+	N31.58486, E34.47734
+	N31.48379, E34.38730
+	N31.32261, E34.19814
+	N31.30391, E34.17627
+	N31.18096, E33.90254
+	N31.13042, E33.66650
+	N31.13096, E33.37793
+	N31.08452, E33.19434
+	N31.12622, E33.15674
+	N31.16816, E33.12988
+	N31.11094, E32.90156
+	N31.11772, E32.85449
+	N31.07402, E32.68457
+	N31.06875, E32.60332
+	N31.10073, E32.53281
+
+[airport1]
+name = El Arish International Airport
+code = HEAR
+runways =
+	rwy1, 16, N31.0858, E33.8297, 157.0, 9905, 0, 0, 101

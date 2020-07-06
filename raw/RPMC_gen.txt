@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 189
+center = N7.16523981094, E124.209999084
+magneticvar = -0.009
+beacons =
+	COT, N7.16548, E124.21000, 0, Cotabato
+	PN, N7.82710, E123.48000, 0, Pagadian
+
+line1 =
+	N8.15898, E123.99687
+	N8.12842, E123.93115
+	N8.04912, E123.79941
+	N8.05825, E123.75313
+	N8.14512, E123.85342
+
+line2 =
+	N7.61436, E123.04893
+	N7.70044, E123.09668
+	N7.66689, E123.12119
+	N7.62993, E123.13877
+	N7.57520, E123.15068
+	N7.52944, E123.17822
+	N7.46411, E123.28203
+	N7.40752, E123.39092
+	N7.66538, E123.47637
+	N7.71025, E123.48164
+	N7.75635, E123.47744
+	N7.80791, E123.49307
+	N7.83213, E123.55322
+	N7.83164, E123.60889
+	N7.81777, E123.66582
+	N7.78540, E123.71738
+	N7.74263, E123.76475
+	N7.66465, E123.96846
+	N7.57788, E124.06797
+	N7.43672, E124.18242
+	N7.39644, E124.20664
+	N7.33213, E124.21289
+	N7.26733, E124.19072
+	N7.21880, E124.15820
+	N7.17510, E124.11758
+	N7.11411, E124.04512
+	N6.99370, E123.98525
+	N6.92969, E123.98086
+	N6.86299, E123.98789
+	N6.66655, E124.04814
+	N6.53257, E124.04971
+	N6.40444, E124.07812
+	N6.23325, E124.21279
+
+[airport1]
+name = Awang Airport
+code = RPMC
+runways =
+	rwy1, 10, N7.16726, E124.201, 103.5, 6234, 198, 198, 0

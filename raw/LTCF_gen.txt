@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5889
+center = N40.5621986389, E43.1150016785
+magneticvar = 5.205
+beacons =
+	KAR, N40.56750, E43.12420, 0, Kars
+	KAR, N40.56750, E43.12420, 0, Kars
+	GM, N40.72880, E43.84690, 0, Gyumri
+	GRM, N40.72940, E43.84720, 0, Gyumri
+	TLN, N40.38550, E43.89110, 0, Talin
+
+[airport1]
+name = Kars Airport
+code = LTCF
+runways =
+	rwy1, 06, N40.5553, E43.0964, 64.4, 11483, 0, 0, 5873

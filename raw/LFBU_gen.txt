@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 436
+center = N45.7291984558, E0.221456006169
+magneticvar = -1.378
+beacons =
+	CGC, N45.66930, W0.30619, 0, Cognac
+	CGC, N45.66150, W0.30786, 0, Cognac
+	CNA, N45.65960, W0.31164, 0, Cognac
+	LMG, N45.81590, E1.02558, 0, Limoges
+	NB, N45.14750, W0.54992, 0, Bordeaux
+	BD, N44.93520, W0.56225, 0, Bordeaux
+
+line1 =
+	N46.05039, W1.38867
+	N46.03296, W1.38887
+	N45.96768, W1.36870
+	N45.89712, W1.28027
+	N45.81660, W1.21357
+	N45.90405, W1.17832
+	N46.00269, W1.28506
+	N46.05039, W1.38867
+
+line2 =
+	N46.35010, W1.39248
+	N46.32690, W1.31279
+	N46.32451, W1.23882
+	N46.31138, W1.14629
+	N46.25269, W1.13203
+	N46.20483, W1.13638
+	N45.92534, W1.10439
+	N45.80566, W1.06602
+	N45.77266, W1.04150
+	N45.74106, W1.03174
+	N45.76851, W1.11436
+	N45.77090, W1.20996
+	N45.71445, W1.19600
+	N45.68594, W1.16997
+	N45.53818, W0.88066
+	N45.46802, W0.79077
+	N45.38462, W0.73311
+	N45.09019, W0.64111
+	N45.05137, W0.58228
+	N45.00059, W0.54849
+	N45.04712, W0.63398
+	N45.09346, W0.69111
+	N45.31436, W0.76665
+	N45.38066, W0.82632
+	N45.45708, W0.94175
+	N45.53242, W1.08101
+	N45.34263, W1.14907
+	N45.16147, W1.18906
+
+line3 =
+	N44.79551, W0.53397
+	N44.82993, W0.56179
+	N44.85990, W0.56722
+	N44.89803, W0.54169
+	N44.95214, W0.53650
+	N45.00059, W0.54849
+
+[airport1]
+name = Angoulême-Brie-Champniers Airport
+code = LFBU
+runways =
+	rwy1, 10, N45.7305, E0.207131, 97.0, 5938, 0, 0, 432

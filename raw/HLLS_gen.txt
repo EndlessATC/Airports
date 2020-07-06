@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1427
+center = N26.9869995117, E14.4724998474
+magneticvar = 1.180
+beacons =
+	SEB, N26.96960, E14.49360, 0, Sebha
+	SEB, N27.01450, E14.49880, 0, Sebha
+
+[airport1]
+name = Sabha Airport
+code = HLLS
+runways =
+	rwy1, 06, N26.9809, E14.4603, 61.0, 5596, 0, 1154, 1409
+	rwy2, 13, N27.0045, E14.4514, 133.0, 11778, 0, 0, 1405

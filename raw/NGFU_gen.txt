@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = S8.525, E179.195999
+magneticvar = 10.316
+beacons =
+	FU, S8.52300, E179.20300, 0, Funafuti
+
+line1 =
+	S8.53496, E179.20059
+	S8.52422, E179.21367
+	S8.51484, E179.21660
+	S8.48809, E179.21162
+	S8.46631, E179.20303
+	S8.47002, E179.19854
+	S8.48867, E179.19795
+	S8.51211, E179.20088
+	S8.53477, E179.19570
+	S8.53496, E179.20059
+
+line2 =
+	S8.03184, E178.38701
+	S8.04668, E178.37939
+	S8.06064, E178.37070
+	S8.06846, E178.37705
+	S8.04580, E178.38975
+	S8.03184, E178.38701
+
+[airport1]
+name = Funafuti International Airport
+code = NGFU

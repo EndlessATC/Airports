@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 874
+usa = true
+transition = 18001
+center = N42.2349014282, W85.5521011353
+magneticvar = -5.426
+beacons =
+	AZO, N42.23700, W85.55320, 0, Kalamazoo
+	AZ, N42.13110, W85.52980, 0, Austn
+	BTL, N42.30980, W85.25230, 0, Battle Creek
+	HAI, N41.95840, W85.59170, 0, Three Rivers
+	BT, N42.36190, W85.18420, 0, Batol
+	IRS, N41.81310, W85.43380, 0, Sturgis
+	ELX, N42.14440, W86.12260, 0, Keeler
+	PMM, N42.46550, W86.10580, 0, Pullman
+	VIO, N42.78670, W85.49710, 0, Victory
+	BE, N42.12680, W86.31330, 0, Mally
+	LFD, N42.06250, W84.76510, 0, Litchfield
+	GR, N42.89570, W85.37850, 0, Knobs
+	ANQ, N41.63980, W85.08690, 0, Angola
+	HLM, N42.79650, W86.15750, 0, Holland
+	SB, N41.70570, W86.21900, 0, Misha
+	GIJ, N41.76860, W86.31840, 0, Gipper
+	GSH, N41.52520, W86.02800, 0, Goshen
+	LAN, N42.71740, W84.69770, 0, Lansing
+	JXN, N42.25920, W84.45850, 0, Jackson
+	LA, N42.77760, W84.49760, 0, Artda
+	BYN, N41.47980, W84.46610, 0, Bryan
+
+line1 =
+	N43.22412, W86.32915
+	N43.15806, W86.30088
+	N43.02881, W86.24849
+	N42.90044, W86.22153
+	N42.77310, W86.22002
+	N42.65000, W86.23271
+	N42.53120, W86.25962
+	N42.41763, W86.29956
+	N42.30933, W86.35249
+	N42.22373, W86.40737
+	N42.08228, W86.52017
+	N41.98770, W86.57534
+	N41.91133, W86.63247
+	N41.85337, W86.69155
+	N41.78853, W86.79819
+	N41.66948, W87.07261
+
+[airport1]
+name = Kalamazoo Battle Creek International Airport
+code = KAZO
+runways =
+	rwy1, 05, N42.2348, W85.5581, 45.0, 3436, 0, 0, 874
+	rwy2, 09, N42.2339, W85.5581, 90.1, 2800, 0, 0, 874
+	rwy3, 17, N42.2425, W85.552, 171.1, 6500, 0, 0, 859

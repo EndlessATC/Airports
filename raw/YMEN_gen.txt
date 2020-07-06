@@ -1,0 +1,124 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 282
+usa = true
+center = S37.7281, E144.901993
+magneticvar = 12.084
+beacons =
+	EN, S37.72670, E144.91100, 0, Essendon
+	ML, S37.66000, E144.84200, 0, Melbourne
+	EPP, S37.67170, E145.02600, 0, Epping
+	ROC, S37.58470, E144.81799, 0, Rockdale
+	PLE, S37.72030, E145.11099, 0, Plenty
+	PCK, S37.92680, E144.75600, 0, Point Cook
+	BOL, S37.46220, E144.79800, 0, Bolinda
+	MB, S37.97650, E145.09000, 0, Moorabbin
+	RPY, S37.89250, E144.49200, 0, Ripley (Decommissioned)
+	AV, S38.01810, E144.47099, 0, Avalon
+	AV, S38.04890, E144.45900, 0, Avalon
+	CWS, S38.50780, E145.21400, 0, Cowes
+	CWS, S38.51700, E145.22099, 0, Cowes
+	MNG, S36.89720, E145.18100, 0, Mangalore
+	ELW, S37.20630, E145.83501, 0, Eildon Weir
+	WON, S38.47120, E145.62300, 0, Wonthaggi
+	WON, S38.47240, E145.62399, 0, Wonthaggi
+
+line1 =
+	S38.71182, E146.35625
+	S38.69980, E146.29258
+	S38.72744, E146.21748
+
+line2 =
+	S38.66699, E145.79082
+	S38.65566, E145.69189
+	S38.65684, E145.60635
+	S38.60967, E145.53535
+	S38.53535, E145.39727
+	S38.47734, E145.42422
+	S38.41631, E145.46279
+	S38.39385, E145.54219
+	S38.31143, E145.51836
+	S38.24375, E145.47578
+	S38.22568, E145.36641
+	S38.23760, E145.29277
+	S38.29121, E145.24893
+	S38.38359, E145.19121
+	S38.50078, E144.95957
+	S38.43633, E144.84727
+	S38.34033, E144.71777
+	S38.34736, E144.78027
+	S38.34404, E144.91143
+	S38.25840, E145.02012
+	S38.20488, E145.06699
+	S38.09131, E145.11992
+	S38.01094, E145.04961
+	S37.95225, E144.98486
+	S37.89980, E144.89131
+	S38.07715, E144.53848
+	S38.10254, E144.46533
+	S38.13691, E144.39551
+	S38.16641, E144.51777
+	S38.15762, E144.58945
+	S38.20996, E144.66523
+	S38.28408, E144.54365
+	S38.30371, E144.44785
+	S38.34824, E144.32871
+	S38.46230, E144.10156
+	S38.69883, E143.81172
+
+line3 =
+	S38.31895, E145.29531
+	S38.34102, E145.28584
+	S38.39062, E145.28027
+	S38.42100, E145.33584
+	S38.35488, E145.48652
+	S38.31416, E145.42656
+	S38.31895, E145.29531
+
+line4 =
+	S38.45859, E145.21777
+	S38.52764, E145.12842
+	S38.51973, E145.27090
+	S38.55703, E145.35508
+	S38.53818, E145.34922
+	S38.49082, E145.31445
+	S38.47217, E145.28789
+	S38.45859, E145.21777
+
+[airport1]
+name = Melbourne Essendon Airport
+code = YMEN
+runways =
+	rwy1, 08, S37.7314, E144.893, 88.0, 6302, 0, 0, 239
+	rwy2, 17, S37.7204, E144.901, 177.0, 4311, 0, 889, 282
+
+[airport2]
+name = Melbourne International Airport
+code = ML
+runways =
+	rwy9, 09, S37.6608, E144.822, 94.0, 7500, 0, 0, 395
+	rwy10, 16, S37.6532, E144.835, 171.0, 11998, 0, 0, 432
+inboundbeacon = ML
+
+[airport3]
+name = Melbourne Moorabbin Airport
+code = MB
+runways =
+	rwy4, 04, S37.98, E145.098, 47.0, 1873, 232, 98, 39
+	rwy5, 13L, S37.9721, E145.098, 142.0, 3783, 361, 0, 49
+	rwy6, 13R, S37.9745, E145.097, 142.0, 3478, 528, 459, 47
+	rwy7, 17L, S37.9717, E145.099, 176.0, 4383, 909, 571, 49
+	rwy8, 17R, S37.972, E145.097, 176.0, 4069, 617, 486, 49
+inboundbeacon = MB
+
+[airport4]
+name = Avalon Airport
+code = AV
+runways =
+	rwy3, 18, S38.0272, E144.469, 187.0, 10000, 0, 0, 32
+inboundbeacon = AV

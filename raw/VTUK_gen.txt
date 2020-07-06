@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 670
+center = N16.4666004181, E102.783996582
+magneticvar = -0.410
+beacons =
+	KN, N16.46210, E102.78400, 0, Khon Kaen
+	KKN, N16.47080, E102.78800, 0, Khon Kaen
+	CMP, N16.63650, E101.98500, 0, Chum Phae
+
+[airport1]
+name = Khon Kaen Airport
+code = VTUK
+runways =
+	rwy1, 03, N16.455, E102.776, 32.9, 10007, 492, 492, 601

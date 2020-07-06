@@ -1,0 +1,76 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = N25.8757, E55.033001
+magneticvar = 1.308
+beacons =
+	ABM, N25.87780, E55.02290, 0, Abumusa Island
+	SIR, N25.90340, E54.54010, 0, Sirri Island
+	SIR, N25.91420, E54.53650, 0, Sirri Island
+	LEN, N26.53760, E54.86120, 0, Bandar Lengeh
+	LEN, N26.53610, E54.85120, 0, Bandar Lengeh
+	DUB, N25.25450, E55.36570, 0, Dubai
+	SHJ, N25.33030, E55.52060, 0, Sharjah
+	RAV, N25.58830, E55.94640, 0, Ras Al Khaimah
+
+line1 =
+	N26.85718, E55.78457
+	N26.81196, E55.76260
+	N26.71001, E55.53174
+	N26.64795, E55.34697
+	N26.65757, E55.29648
+	N26.63921, E55.29502
+	N26.59263, E55.31152
+	N26.58574, E55.34043
+	N26.58311, E55.42373
+	N26.61753, E55.54316
+	N26.68584, E55.67461
+	N26.69248, E55.74727
+	N26.73081, E55.84766
+	N26.73228, E55.89414
+	N26.70112, E55.95430
+	N26.80117, E56.09492
+
+line2 =
+	N25.65068, E56.29785
+	N25.70933, E56.30723
+	N25.75195, E56.32930
+
+line3 =
+	N26.23521, E56.30557
+	N26.21978, E56.22842
+	N26.22920, E56.19727
+	N26.20703, E56.16445
+	N26.06265, E56.08047
+	N26.05278, E56.07461
+	N25.91602, E56.02520
+	N25.79399, E55.94121
+	N25.49814, E55.52285
+	N25.39448, E55.43340
+	N25.29980, E55.32168
+	N25.23682, E55.30352
+	N25.04160, E55.09814
+
+line4 =
+	N26.70771, E53.82256
+	N26.73237, E54.06934
+	N26.69663, E54.24707
+	N26.58916, E54.52207
+	N26.50894, E54.64492
+	N26.50508, E54.75928
+	N26.55669, E54.89580
+	N26.72539, E55.15459
+	N26.78594, E55.29414
+	N26.77056, E55.42402
+	N26.82993, E55.51855
+
+[airport1]
+name = Abu Musa Island Airport
+code = OIBA
+runways =
+	rwy1, 08, N25.8742, E55.0182, 83.0, 9796, 860, 940, 14

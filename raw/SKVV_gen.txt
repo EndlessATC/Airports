@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1394
+center = N4.16787, W73.6138
+magneticvar = -5.298
+beacons =
+	PY, N4.07464, W73.54200, 0, Apiay
+	AP, N4.07500, W73.47500, 0, Apiay
+	VVC, N4.06833, W73.38310, 0, Villavicencio
+	VVC, N4.06694, W73.38220, 0, Villavicencio
+	R, N4.67611, W74.10250, 0, Romeo
+	TEH, N4.62889, W74.14810, 0, Techo
+	UPI, N4.57639, W72.97720, 0, Barranca De Upia
+	DR, N4.71913, W74.15970, 0, Delta Romeo
+	SOA, N4.60306, W74.27310, 0, Soacha
+	ED, N4.76508, W74.22050, 0, Echo Delta
+	BOG, N4.84611, W74.32280, 0, Bogota
+	BOG, N4.84540, W74.32460, 0, Bogota
+
+line1 =
+	N4.66997, W73.87220
+	N4.60807, W73.90853
+	N4.54068, W73.91657
+	N4.44720, W73.90845
+	N4.36495, W73.88610
+	N4.25847, W73.83125
+	N4.19323, W73.74136
+	N4.14197, W73.71872
+	N4.08290, W73.73330
+	N4.02239, W73.57129
+	N3.96048, W73.23271
+	N3.95774, W73.03443
+	N4.01423, W72.97639
+	N4.09988, W72.92673
+	N4.21470, W72.88547
+	N4.28237, W72.83565
+	N4.31310, W72.74814
+	N4.33157, W72.47896
+
+[airport1]
+name = Vanguardia Airport
+code = SKVV
+runways =
+	rwy1, 05, N4.16188, W73.6186, 39.0, 5616, 0, 0, 1394

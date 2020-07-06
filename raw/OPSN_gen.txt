@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 121
+center = N26.4731006622, E67.7172012329
+magneticvar = 0.369
+beacons =
+	SN, N26.47560, E67.71830, 0, Sehwan Sharif
+	NH, N26.21760, E68.38580, 0, Nawabshah
+	NH, N26.21720, E68.39130, 0, Nawabshah
+
+line1 =
+	N25.57534, E66.42861
+	N25.48438, E66.53389
+
+line2 =
+	N27.41983, E68.31772
+	N27.37140, E68.29741
+	N27.36588, E68.23902
+	N27.34213, E68.19401
+	N27.30014, E68.16228
+	N27.26309, E68.16026
+	N27.23095, E68.18786
+	N27.20762, E68.17478
+	N27.19312, E68.12104
+	N27.16294, E68.09892
+	N27.11705, E68.10854
+	N27.06202, E68.06322
+	N26.99778, E67.96307
+	N26.90978, E67.91092
+	N26.74209, E67.90472
+	N26.48686, E67.89093
+	N26.36862, E67.89956
+	N26.30222, E67.92591
+	N26.24336, E67.98193
+	N26.19199, E68.06761
+	N26.14027, E68.11680
+	N26.08812, E68.12972
+	N25.99893, E68.20155
+	N25.87271, E68.33229
+	N25.79481, E68.37880
+	N25.76525, E68.34087
+	N25.72817, E68.34811
+	N25.68355, E68.40030
+	N25.62066, E68.39844
+	N25.53942, E68.34242
+
+[airport1]
+name = Sehwan Sharif Airport
+code = OPSN

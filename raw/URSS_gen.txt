@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 89
+center = N43.449902, E39.9566
+magneticvar = 5.588
+beacons =
+	SO, N43.43500, E39.91000, 0, Sochi
+	AD, N43.41500, E39.93170, 0, Sochi
+	ADL, N43.40330, E39.94830, 0, Sochi
+	LA, N43.91670, E39.33330, 0, Lazarevskoye
+	AG, N44.13330, E39.03330, 0, Agoy
+
+line1 =
+	N44.31802, E38.63584
+	N44.28809, E38.71729
+	N43.89727, E39.32939
+	N43.72788, E39.51670
+	N43.47280, E39.87363
+	N43.41982, E39.97832
+	N43.31240, E40.19063
+	N43.14570, E40.46211
+	N43.12104, E40.52402
+	N43.06348, E40.83662
+	N42.93086, E41.06162
+	N42.82812, E41.12871
+	N42.73765, E41.41943
+	N42.65933, E41.48877
+
+[airport1]
+name = Sochi International Airport
+code = URSS
+runways =
+	rwy1, 02, N43.4358, E39.9458, 29.1, 7218, 0, 0, 52
+	rwy2, 06, N43.4395, E39.9259, 65.0, 9482, 262, 0, 36

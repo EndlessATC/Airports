@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 12
+center = N42.8167991638, E47.6523017883
+magneticvar = 6.127
+beacons =
+	HC, N42.85500, E47.62000, 0, Makhachkala
+	SM, N42.77500, E47.68500, 0, Makhachkala
+	TA, N42.97500, E47.52330, 0, Makhachkala
+
+line1 =
+	N41.84448, E48.57285
+	N41.90513, E48.47676
+	N41.92397, E48.42637
+	N41.95342, E48.38379
+	N42.08022, E48.30303
+	N42.18096, E48.22861
+	N42.35371, E48.08018
+	N42.61348, E47.82236
+	N42.64478, E47.76973
+	N42.68071, E47.72773
+	N42.81094, E47.70908
+	N42.90347, E47.63486
+	N42.96714, E47.52900
+	N42.99976, E47.48887
+	N43.03506, E47.46318
+	N43.21875, E47.51289
+	N43.27075, E47.51162
+	N43.38169, E47.48984
+	N43.50972, E47.50898
+	N43.68496, E47.56797
+	N43.80596, E47.62783
+
+line2 =
+	N43.55503, E47.46279
+	N43.77988, E47.42920
+
+[airport1]
+name = Uytash Airport
+code = URML
+runways =
+	rwy1, 14, N42.8269, E47.6438, 148.7, 8661, 0, 0, -2
+	rwy2, 14R, N42.8264, E47.6429, 147.8, 8688, 0, 0, 0

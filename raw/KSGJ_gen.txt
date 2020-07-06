@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+usa = true
+transition = 18001
+center = N29.9592, W81.339798
+magneticvar = -4.476
+beacons =
+	SGJ, N29.95670, W81.33040, 0, St Augustine
+	NIP, N30.23490, W81.67510, 0, Jacksonville
+	CRG, N30.33890, W81.50990, 0, Craig
+	NRB, N30.38860, W81.42310, 0, Mayport
+	IAK, N29.65270, W81.81160, 0, Palatka
+	EYA, N30.42360, W81.60940, 0, Eastport
+	VQQ, N30.21300, W81.89090, 0, Cecil
+	JA, N30.46500, W81.80170, 0, Dinns
+	OMN, N29.30330, W81.11270, 0, Ormond Beach
+	GN, N29.67000, W82.17210, 0, Wynds
+	DA, N29.14410, W81.14770, 0, Tomok
+	GNV, N29.69210, W82.27300, 0, Gators
+	OCF, N29.17750, W82.22630, 0, Ocala
+
+line1 =
+	N30.94741, W81.45093
+	N30.89785, W81.48462
+	N30.81406, W81.48271
+	N30.72778, W81.46348
+
+line2 =
+	N29.04985, W80.90000
+	N29.45698, W81.10454
+	N29.79380, W81.24951
+	N30.14121, W81.33711
+	N30.26997, W81.38574
+	N30.64077, W81.45718
+	N30.73145, W81.50396
+	N30.80181, W81.51621
+	N30.87466, W81.52041
+	N30.91377, W81.50059
+
+[airport1]
+name = Northeast Florida Regional Airport
+code = KSGJ
+runways =
+	rwy1, 02, N29.9545, W81.3411, 21.0, 2614, 0, 0, 9
+	rwy2, 06, N29.954, W81.3413, 62.0, 2701, 0, 0, 10
+	rwy3, 13, N29.9674, W81.3507, 126.0, 7996, 1058, 800, 10
+	rwy4, 16, N29.9656, W81.3431, 162.0, 4001, 0, 0, 9

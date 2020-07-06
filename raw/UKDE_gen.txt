@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 373
+center = N47.8670005798, E35.315700531
+magneticvar = 6.333
+beacons =
+	P, N47.88560, E35.32640, 0, Zaporizhzhia
+	A, N47.84700, E35.30280, 0, Zaporizhzhia
+	ZP, N47.90980, E35.34110, 0, Zaporizhzhia
+	ZA, N47.82120, E35.28670, 0, Zaporizhzhia
+	TM, N47.81810, E34.73500, 0, Tomakivka
+	DR, N48.35700, E35.17310, 0, Dnipropetrovsk
+	R, N48.35700, E35.13170, 0, Dnipropetrovsk
+	DNP, N48.35950, E35.10250, 0, Dnipropetrovsk
+	P, N48.35700, E35.06750, 0, Dnipropetrovsk
+	DP, N48.35700, E35.02450, 0, Dnipropetrovsk
+	AU, N48.58310, E34.47830, 0, Auly
+
+line1 =
+	N46.86877, E33.60646
+	N46.95698, E33.66159
+	N47.04958, E33.73875
+	N47.14922, E33.85874
+	N47.30722, E33.97584
+	N47.41124, E33.99754
+	N47.48956, E34.15490
+	N47.54221, E34.44790
+	N47.55255, E34.71150
+	N47.52067, E34.94581
+	N47.52754, E35.08797
+	N47.57327, E35.13809
+	N47.65748, E35.14879
+	N47.84158, E35.10569
+
+line2 =
+	N47.84013, E35.10528
+	N47.97198, E35.12993
+	N48.03758, E35.11763
+	N48.08089, E35.07660
+	N48.10833, E35.08719
+	N48.11996, E35.14941
+	N48.15003, E35.18491
+	N48.19861, E35.19370
+	N48.27984, E35.16956
+	N48.39371, E35.11262
+	N48.47707, E34.95883
+	N48.49216, E34.81858
+	N48.52991, E34.70820
+	N48.64018, E34.41013
+	N48.73641, E34.22538
+	N48.80782, E34.06462
+
+[airport1]
+name = Zaporizhzhia International Airport
+code = UKDE
+runways =
+	rwy1, 02, N47.8567, E35.3091, 23.2, 8210, 0, 0, 339

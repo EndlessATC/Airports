@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3652
+usa = true
+transition = 18001
+center = N45.8077011108, W108.542999268
+magneticvar = 12.236
+beacons =
+	BIL, N45.80860, W108.62500, 0, Billings
+	BI, N45.85220, W108.69500, 0, Saige
+
+[airport1]
+name = Billings Logan International Airport
+code = KBIL
+runways =
+	rwy1, 07, N45.8077, W108.558, 84.0, 5501, 0, 0, 3636
+	rwy2, 10L, N45.8127, W108.555, 112.0, 10518, 0, 0, 3584
+	rwy3, 10R, N45.8092, W108.563, 112.0, 3801, 0, 0, 3652

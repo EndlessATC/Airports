@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 362
+center = N27.4839000702, E95.0168991089
+magneticvar = -0.288
+beacons =
+	DRG, N27.48710, E95.02110, 0, Dibrugarh
+	DBR, N27.46550, E95.01860, 0, Dibrugarh
+	LBR, N27.29190, E94.10030, 0, Lilabari
+	NR, N27.28680, E94.09090, 0, Lilabari
+	JT, N26.71720, E94.14650, 0, Jorhat
+	JHT, N26.70190, E94.14870, 0, Jorhat
+
+line1 =
+	N28.00292, E95.39648
+	N27.88362, E95.44377
+	N27.80574, E95.36920
+	N27.72947, E95.18854
+	N27.69828, E95.11650
+	N27.68340, E95.10358
+	N27.67847, E95.10854
+	N27.67578, E95.12208
+	N27.66557, E95.13727
+	N27.64405, E95.13851
+	N27.61506, E95.08374
+	N27.58602, E94.97232
+	N27.54323, E94.87796
+	N27.48662, E94.80055
+	N27.41293, E94.72521
+	N27.32211, E94.65172
+	N27.27803, E94.63043
+	N27.23405, E94.59746
+	N27.18888, E94.56702
+	N27.13054, E94.55886
+	N27.07230, E94.51767
+	N27.01419, E94.44336
+	N26.95190, E94.33505
+	N26.88539, E94.19273
+	N26.86722, E94.11951
+	N26.86735, E94.02303
+	N26.73204, E93.75162
+
+line2 =
+	N28.43914, E95.09387
+	N28.37592, E95.06761
+	N28.31626, E95.01790
+	N28.25822, E95.00271
+	N28.20182, E95.02224
+	N28.17223, E95.08777
+	N28.16944, E95.19939
+	N28.12676, E95.29055
+	N28.00292, E95.39648
+
+[airport1]
+name = Dibrugarh Airport
+code = VEMN
+runways =
+	rwy1, 05, N27.478, E95.0103, 45.4, 6000, 0, 600, 358

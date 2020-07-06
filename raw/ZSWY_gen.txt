@@ -1,0 +1,17 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 614
+metric = true
+center = N27.7019, E118.000999
+magneticvar = -4.025
+beacons =
+	SHR, N28.41670, E117.96700, 0, Shangrao
+
+[airport1]
+name = Nanping Wuyishan Airport
+code = ZSWY

@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1010
+center = N12.9162998199, E5.20719003677
+magneticvar = -1.460
+beacons =
+	SOK, N12.92110, E5.22931, 0, Sokoto
+
+[airport1]
+name = Sadiq Abubakar III International Airport
+code = DNSO
+runways =
+	rwy1, 08, N12.9128, E5.19344, 77.0, 9844, 0, 0, 1002

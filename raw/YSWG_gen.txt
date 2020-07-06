@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 724
+usa = true
+center = S35.1652984619, E147.466003418
+magneticvar = 11.151
+beacons =
+	WG, S35.16560, E147.46899, 0, Wagga Wagga
+	WG, S35.16300, E147.45599, 0, Wagga Wagga
+	HBK, S35.62510, E147.46700, 0, Holbrook
+	CTM, S34.62740, E148.03101, 0, Cootamundra
+	TEM, S34.42500, E147.51801, 0, Temora
+	NAR, S34.70190, E146.51700, 0, Narrandera
+	NAR, S34.70710, E146.51300, 0, Narrandera
+
+line1 =
+	S36.10803, E147.04315
+	S36.05025, E147.09999
+	S36.03553, E147.15715
+	S36.04907, E147.27177
+
+line2 =
+	S36.04571, E147.97477
+	S36.01863, E147.93126
+	S35.95579, E147.76248
+	S35.95362, E147.67422
+	S35.98214, E147.59578
+	S35.98380, E147.53821
+	S35.95858, E147.50173
+	S35.95445, E147.45806
+	S35.97119, E147.40731
+	S36.00380, E147.37145
+	S36.05217, E147.35047
+	S36.06953, E147.32293
+	S36.04907, E147.27177
+	S36.10761, E147.04460
+	S36.10002, E146.89608
+	S36.06658, E146.76089
+	S36.00478, E146.58964
+	S35.99362, E146.47026
+	S36.03310, E146.40288
+	S36.05356, E146.33084
+	S36.05589, E146.21591
+
+[airport1]
+name = Wagga Wagga City Airport
+code = YSWG
+runways =
+	rwy1, 05, S35.1671, E147.46, 62.0, 5801, 0, 0, 712
+	rwy2, 12, S35.1606, E147.457, 125.0, 5007, 0, 0, 692

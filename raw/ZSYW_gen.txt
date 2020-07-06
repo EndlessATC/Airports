@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 262
+metric = true
+center = N29.3446998596, E120.031997681
+magneticvar = -4.512
+beacons =
+	TOL, N29.76330, E119.65800, 0, Tonglu
+	CZ, N29.80000, E119.66700, 0, Tonglu
+	SHZ, N29.59670, E120.81300, 0, Shengzhou
+	WY, N30.12000, E120.20000, 0, Wenyan
+	DSH, N30.14830, E120.49800, 0, Dangshan
+
+line1 =
+	N30.28237, E121.34062
+	N30.30410, E121.25801
+	N30.30176, E121.15938
+	N30.16064, E120.90449
+	N30.13315, E120.63340
+	N30.30308, E120.49453
+	N30.24741, E120.35254
+	N30.26304, E120.26055
+	N30.24956, E120.22852
+	N30.24131, E120.19463
+	N30.28354, E120.24551
+
+[airport1]
+name = Yiwu Airport
+code = ZSYW

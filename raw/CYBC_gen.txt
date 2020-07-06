@@ -1,0 +1,82 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 71
+usa = true
+transition = 18001
+center = N49.1325, W68.204399
+magneticvar = -18.583
+beacons =
+	YBC, N49.13400, W68.22220, 0, Baie-Comeau
+	BC, N49.11780, W68.32610, 0, Baie Comeau
+	YYY, N48.61210, W68.20900, 0, Mont Joli
+	ME, N48.83330, W67.54940, 0, Matane
+	YY, N48.56670, W68.25860, 0, Mont Joli
+	YXK, N48.47770, W68.50310, 0, Rimouski
+	FE, N48.73000, W69.16330, 0, Forestville
+
+line1 =
+	N49.12637, W66.59810
+	N48.96416, W67.11748
+	N48.85596, W67.56089
+	N48.73091, W67.88901
+	N48.62642, W68.23818
+	N48.54170, W68.43149
+	N48.45732, W68.55200
+	N48.37642, W68.74604
+	N48.36602, W68.81567
+	N48.27500, W68.98706
+
+line2 =
+	N48.17227, W69.86553
+	N48.20576, W69.97119
+
+line3 =
+	N48.20737, W69.85171
+	N48.19116, W69.76191
+	N48.19917, W69.67388
+	N48.25078, W69.55010
+	N48.38643, W69.37495
+	N48.57363, W69.23076
+	N48.82896, W68.92905
+	N48.93950, W68.66904
+	N49.00718, W68.62788
+	N49.05615, W68.54385
+	N49.09951, W68.41440
+	N49.11436, W68.29453
+	N49.14966, W68.22061
+	N49.19717, W68.28193
+	N49.25679, W68.05625
+	N49.33228, W67.54927
+	N49.33462, W67.46924
+	N49.34844, W67.37202
+	N49.45117, W67.26191
+	N49.60176, W67.23438
+	N49.99370, W66.94116
+	N50.06553, W66.74087
+
+line4 =
+	N49.55488, W69.95068
+	N49.54512, W69.89854
+	N49.47222, W69.84429
+	N49.37036, W69.78677
+	N49.33862, W69.78311
+	N49.33315, W69.82490
+	N49.34248, W69.85581
+	N49.36562, W69.86602
+	N49.40669, W69.88862
+	N49.45068, W69.90381
+	N49.48091, W69.90225
+	N49.50410, W69.91738
+	N49.51763, W69.94634
+	N49.51689, W69.98242
+
+[airport1]
+name = Baie Comeau Airport
+code = CYBC
+runways =
+	rwy1, 10, N49.1309, W68.2196, 80.5, 6000, 0, 0, 70

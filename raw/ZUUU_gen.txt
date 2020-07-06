@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1625
+metric = true
+center = N30.5785007477, E103.946998596
+magneticvar = -1.505
+beacons =
+	CTU, N30.57500, E103.94300, 0, Shuangliu
+	BHS, N30.50830, E104.20300, 0, Baihesi
+	CZH, N30.64830, E103.68700, 0, Chongzhou
+	FR, N30.60670, E104.47700, 0, Wufengxi
+	WFX, N30.60330, E104.49200, 0, Wufengxi
+	JTG, N30.87170, E104.39300, 0, Jintang
+	VW, N29.92830, E104.30200, 0, Fujiachang
+	FJC, N29.92830, E104.30500, 0, Fujiachang
+	ZYG, N30.11500, E104.67700, 0, Ziyang
+
+[airport1]
+name = Chengdu Shuangliu International Airport
+code = ZUUU
+runways =
+	rwy1, 02, N30.5635, E103.94, 22.0, 11811, 0, 0, 1617

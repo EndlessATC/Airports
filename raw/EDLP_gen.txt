@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 699
+center = N51.6141014099, E8.61631965637
+magneticvar = 0.263
+beacons =
+	PAD, N51.62360, E8.63944, 0, Paderborn/Lippstadt
+	WRB, N51.50570, E9.11091, 0, Warburg
+	KSL, N51.46480, E9.45740, 0, Kassel
+	HMM, N51.85690, E7.70829, 0, Hamm
+	DWI, N51.52610, E7.63439, 0, Dortmund
+	DOR, N51.52530, E7.63106, 0, Wickede
+	OSN, N52.20010, E8.28552, 0, Osnabruck
+	OSB, N52.20170, E8.28550, 0, Osnabruck
+	GMH, N51.17050, E7.89204, 0, Germinghausen
+	DOM, N51.70950, E7.58713, 0, Dortmund
+	FTZ, N51.08430, E9.41524, 0, Fritzlar
+	BYC, N52.29120, E9.09100, 0, Buckeburg
+	MYN, N52.15930, E7.79999, 0, Munster
+	MOD, N52.13800, E7.68724, 0, Munster
+	LAU, N51.20430, E9.69099, 0, Lichtenau
+	MST, N52.11010, E7.57171, 0, Greven
+	WYP, N51.04840, E7.28000, 0, Wipper
+	DLE, N52.25030, E9.88350, 0, Leine
+	BET, N52.28780, E7.38567, 0, Rheine Bentlage
+	COL, N50.78350, E7.59419, 0, Cola
+
+line1 =
+	N50.62161, E7.20362
+	N50.67319, E7.18450
+	N50.73422, E7.12507
+	N50.80468, E7.02544
+	N50.85261, E6.99454
+	N50.90402, E6.99454
+	N50.93834, E6.97325
+	N50.99808, E6.96839
+	N51.04009, E6.93770
+	N51.06427, E6.88106
+	N51.09719, E6.85098
+	N51.13884, E6.84747
+	N51.16887, E6.81631
+	N51.18726, E6.75750
+	N51.22726, E6.75972
+	N51.26819, E6.74112
+
+[airport1]
+name = Paderborn Lippstadt Airport
+code = EDLP
+runways =
+	rwy1, 06, N51.6087, E8.60318, 57.0, 7152, 0, 0, 699

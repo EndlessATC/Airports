@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9540
+center = S19.0070991516, W65.2886962891
+magneticvar = -6.524
+beacons =
+	SUR, S19.01130, W65.29160, 0, Sucre
+	SRE, S19.01240, W65.29190, 0, Sucre
+	POI, S19.54850, W65.72990, 0, Potosi
+
+line1 =
+	S18.00856, W65.79321
+	S18.12913, W65.64250
+	S18.37123, W65.39019
+	S18.49298, W65.28746
+	S18.57525, W65.25015
+	S18.62599, W65.19036
+	S18.64522, W65.10809
+	S18.63013, W65.05073
+	S18.58073, W65.01827
+	S18.53820, W64.95559
+	S18.50254, W64.86265
+	S18.53024, W64.75581
+	S18.62129, W64.63509
+	S18.65059, W64.52890
+	S18.61814, W64.43733
+	S18.68625, W64.34167
+	S18.85492, W64.24194
+	S18.95445, W64.16029
+	S18.98473, W64.09662
+
+line2 =
+	S19.36993, W66.44441
+	S19.30750, W66.38672
+	S19.26782, W66.37310
+	S19.23020, W66.38429
+	S19.19609, W66.35884
+	S19.16550, W66.29672
+	S19.20601, W66.20683
+	S19.31774, W66.08922
+	S19.36564, W65.97966
+	S19.34197, W65.82745
+	S19.24957, W65.77802
+	S19.18575, W65.70169
+	S19.11961, W65.58191
+	S19.14255, W65.46476
+	S19.25443, W65.35022
+	S19.32761, W65.25237
+	S19.36207, W65.17124
+	S19.37716, W65.07801
+	S19.37282, W64.97275
+	S19.54501, W64.83968
+	S19.89357, W64.67886
+
+[airport1]
+name = Juana Azurduy De Padilla Airport
+code = SLSU
+runways =
+	rwy1, 05, S19.016, W65.2984, 46.0, 9300, 2353, 1690, 9527

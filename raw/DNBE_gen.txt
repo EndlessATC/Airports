@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 258
+center = N6.3169798851, E5.59950017929
+magneticvar = -3.086
+beacons =
+	BC, N6.31717, E5.59924, 0, Benin
+	BE, N6.33384, E5.61591, 0, Benin
+	BEN, N6.28051, E5.56258, 0, Benin
+	OK, N6.50049, E4.83257, 0, Okitipupa
+
+line1 =
+	N6.34858, E4.43135
+	N6.21719, E4.63359
+	N6.02632, E4.86104
+	N5.79751, E5.04209
+	N5.76709, E5.09307
+	N5.72812, E5.10625
+	N5.64155, E5.11240
+	N5.60273, E5.17285
+	N5.64155, E5.27627
+	N5.69434, E5.30537
+	N5.70752, E5.32734
+	N5.64795, E5.32529
+	N5.62329, E5.35029
+	N5.62471, E5.41807
+	N5.61172, E5.45664
+	N5.57451, E5.39385
+	N5.57749, E5.28906
+	N5.57168, E5.21582
+	N5.53354, E5.19922
+	N5.48379, E5.23242
+	N5.40176, E5.38584
+	N5.47422, E5.54971
+	N5.42637, E5.53184
+	N5.37861, E5.50088
+	N5.36533, E5.43926
+	N5.33774, E5.36797
+
+line2 =
+	N5.36280, E6.45483
+	N5.34569, E6.37380
+
+line3 =
+	N5.54225, E6.55694
+	N5.38561, E6.60614
+
+line4 =
+	N6.97340, E6.66438
+	N6.74300, E6.65957
+	N6.44036, E6.69058
+	N6.20228, E6.74091
+	N5.97754, E6.70732
+	N5.54134, E6.55632
+	N5.46427, E6.49509
+	N5.42179, E6.47984
+	N5.38815, E6.49018
+	N5.36280, E6.45483
+
+[airport1]
+name = Benin Airport
+code = DNBE
+runways =
+	rwy1, 05, N6.30901, E5.59124, 46.0, 7870, 0, 0, 234

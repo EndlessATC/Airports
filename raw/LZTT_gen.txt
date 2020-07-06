@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2356
+center = N49.073600769, E20.2411003113
+magneticvar = 3.272
+beacons =
+	PPD, N49.06480, E20.35000, 0, Tatry
+	PPD, N49.06820, E20.35350, 0, Tatry
+	PW, N49.08010, E20.07250, 0, Tatry
+	PE, N49.06270, E20.44240, 0, Tatry
+	JAB, N49.47660, E19.69400, 0, Jablonka
+	JAB, N49.48290, E19.67860, 0, Jablonka
+	KSC, N48.68310, E21.24820, 0, Kosice
+	KE, N48.58810, E21.21510, 0, Kosice
+	SLC, N48.45320, E19.11590, 0, Sliac
+
+line1 =
+	N49.92504, E18.81046
+	N49.93189, E18.93686
+
+line2 =
+	N48.28449, E21.99683
+	N48.22176, E21.86898
+	N48.18559, E21.74981
+	N48.16993, E21.63664
+	N48.17476, E21.52967
+	N48.14554, E21.46518
+	N48.08223, E21.44337
+
+line3 =
+	N49.64384, E18.87919
+	N49.81742, E18.78819
+	N49.88770, E18.77098
+	N49.92501, E18.81025
+	N49.93189, E18.93686
+	N49.95230, E19.06817
+	N49.98659, E19.14129
+	N50.04155, E19.19989
+	N50.04573, E19.34826
+	N49.99922, E19.58628
+	N50.00604, E19.85164
+
+[airport1]
+name = Poprad-Tatry Airport
+code = LZTT
+runways =
+	rwy1, 09, N49.0744, E20.2235, 94.0, 8530, 0, 0, 2355

@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4295
+center = S11.5913000107, E27.5308990479
+magneticvar = -3.255
+beacons =
+	LE, S11.59470, E27.54130, 0, Lubumbashi
+	LUB, S11.60390, E27.50540, 0, Lubumbashi
+	OL, S11.63500, E27.42170, 0, Lubumbashi
+
+line1 =
+	S11.62622, E27.15672
+	S11.74869, E27.14349
+	S11.85178, E27.18339
+	S12.03864, E27.31650
+	S12.15404, E27.36632
+	S12.25465, E27.44466
+	S12.37899, E27.56796
+	S12.42906, E27.65509
+	S12.40488, E27.70594
+	S12.41976, E27.82149
+	S12.47392, E28.00173
+	S12.58548, E28.13568
+
+[airport1]
+name = Lubumbashi International Airport
+code = FZQA
+runways =
+	rwy1, 07, S11.5971, E27.5173, 66.0, 10623, 0, 0, 4290

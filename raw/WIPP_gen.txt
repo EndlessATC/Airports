@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 49
+center = S2.898250103, E104.699996948
+magneticvar = 0.183
+beacons =
+	WW, S2.90528, E104.71600, 0, Palembang
+	OW, S2.91066, E104.67600, 0, Palembang
+	PLB, S2.87859, E104.65300, 0, Palembang
+	SP, S2.69333, E104.11200, 0, Ramba
+	PD, S3.28346, E103.88200, 0, Pendopo
+
+line1 =
+	S1.91689, E105.19102
+	S1.97266, E105.13770
+	S2.04258, E105.13340
+	S2.07939, E105.24766
+	S2.11426, E105.29258
+	S2.12510, E105.34287
+	S2.07900, E105.55273
+	S2.10313, E105.59902
+	S2.13262, E105.70527
+	S2.18135, E105.78584
+	S2.30742, E105.80684
+	S2.41543, E105.86240
+
+line2 =
+	S1.92178, E104.56875
+	S1.98721, E104.67637
+	S2.04082, E104.79102
+	S2.09297, E104.84521
+	S2.17178, E104.84453
+	S2.23418, E104.82607
+	S2.28271, E104.78730
+	S2.38555, E104.66846
+	S2.42988, E104.64727
+	S2.54336, E104.63057
+	S2.59521, E104.65078
+	S2.59814, E104.69834
+	S2.57090, E104.73574
+	S2.41885, E104.87842
+	S2.39219, E104.91699
+	S2.37090, E104.97080
+	S2.35752, E105.02588
+	S2.35625, E105.28652
+	S2.38018, E105.39697
+	S2.42969, E105.49531
+	S2.49199, E105.58203
+
+line3 =
+	S3.61367, E105.84375
+	S3.73057, E105.85156
+
+[airport1]
+name = Sultan Mahmud Badaruddin II Airport
+code = WIPP
+runways =
+	rwy1, 11, S2.89387, E104.69, 113.0, 8202, 0, 0, 49

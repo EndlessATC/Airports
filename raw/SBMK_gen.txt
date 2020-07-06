@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2191
+center = S16.7068996429, W43.818901062
+magneticvar = -21.557
+beacons =
+	MCL, S16.70350, W43.81920, 0, Montes Claros
+
+line1 =
+	S17.68037, W43.65482
+	S17.60838, W43.66521
+	S17.56978, W43.64247
+	S17.50513, W43.57023
+	S17.49552, W43.48812
+	S17.50663, W43.36451
+	S17.47630, W43.29911
+	S17.41832, W43.23309
+	S17.33873, W43.21263
+	S17.30442, W43.18090
+	S17.27869, W43.11785
+	S17.21218, W43.04840
+	S17.10500, W42.97244
+	S17.04604, W42.90510
+	S17.03529, W42.84640
+	S16.95964, W42.77736
+	S16.81908, W42.69806
+
+line2 =
+	S17.63732, W45.02663
+	S17.51402, W45.00709
+	S17.34726, W44.94963
+	S17.21936, W44.88839
+	S17.13027, W44.82333
+	S16.94010, W44.86979
+	S16.64870, W45.02771
+
+line3 =
+	S15.95897, W44.92208
+	S15.91691, W44.86090
+	S15.85407, W44.82328
+	S15.79464, W44.74416
+	S15.71093, W44.56330
+
+[airport1]
+name = Mário Ribeiro Airport
+code = SBMK

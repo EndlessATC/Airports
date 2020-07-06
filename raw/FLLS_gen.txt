@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3779
+center = S15.3308, E28.4526
+magneticvar = -5.337
+beacons =
+	VLS, S15.32800, E28.41990, 0, Lusaka
+	LE, S15.33800, E28.53320, 0, Lusaka
+	LW, S15.32300, E28.36990, 0, Lusaka
+	LN, S14.98140, E28.37320, 0, Lusaka
+
+line1 =
+	S15.72054, E27.37283
+	S15.67279, E27.51721
+	S15.67320, E27.57313
+	S15.68519, E27.62470
+	S15.68349, E27.64331
+	S15.66493, E27.65250
+	S15.64757, E27.67483
+	S15.64561, E27.70976
+	S15.65997, E27.89383
+	S15.70411, E28.03687
+	S15.78048, E28.16958
+	S15.81004, E28.27469
+	S15.79299, E28.35220
+	S15.82627, E28.48165
+	S15.91009, E28.66304
+	S15.95313, E28.80184
+	S15.95009, E28.97299
+
+line2 =
+	S16.30619, E28.85677
+	S16.14232, E28.85677
+	S16.03618, E28.87558
+	S15.98781, E28.91310
+	S15.95009, E28.97299
+	S15.90120, E29.05056
+	S15.77650, E29.28786
+	S15.69677, E29.48728
+
+[airport1]
+name = Kenneth Kaunda International Airport
+code = FLLS
+runways =
+	rwy1, 10, S15.3292, E28.4343, 95.2, 12998, 0, 0, 3781
+	rwy2, 15, S15.3234, E28.4595, 140.6, 2700, 0, 0, 3782

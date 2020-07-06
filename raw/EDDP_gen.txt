@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 465
+center = N51.423889, E12.236389
+magneticvar = 2.162
+beacons =
+	LND, N51.43430, E12.22570, 0, Leipzig North
+	LED, N51.41130, E12.22380, 0, Leipzig South
+	ZIG, N51.43400, E12.28050, 0, Leipzig
+	MA, N51.39510, E12.34320, 0, Leipzig
+	SK, N51.43480, E12.11670, 0, Leipzig
+	LEG, N51.43600, E12.47320, 0, Leipzig
+	GOT, N51.34310, E11.59750, 0, Gotem
+	ABU, N50.99380, E12.52100, 0, Altenburg
+	AGD, N50.98270, E12.51230, 0, Altenburg
+	MAG, N51.99500, E11.79430, 0, Magdeburg
+	HOZ, N51.76980, E13.09750, 0, Holzdorf
+	HOZ, N51.76670, E13.19900, 0, Holzdorf
+	MU, N52.07410, E11.64830, 0, Magdeburg
+	MGD, N52.07710, E11.63090, 0, Magdeburg
+	ERF, N50.95090, E11.23670, 0, Erfurt
+	EFD, N50.98260, E10.95770, 0, Erfurt
+	ERT, N50.98260, E10.92300, 0, Erfurt
+	KLF, N52.01940, E13.56340, 0, Klasdorf
+
+line1 =
+	N50.53537, E14.06248
+	N50.56709, E14.03943
+	N50.58939, E14.03959
+	N50.60226, E14.06295
+	N50.61851, E14.06739
+	N50.64143, E14.06956
+	N50.66073, E14.08398
+
+line2 =
+	N50.95033, E13.97670
+	N50.99136, E13.87381
+	N51.04099, E13.82761
+	N51.07869, E13.74379
+	N51.10448, E13.62246
+	N51.14140, E13.52220
+	N51.18951, E13.44304
+	N51.23496, E13.39756
+	N51.27780, E13.38578
+	N51.31242, E13.34495
+	N51.33883, E13.27509
+	N51.38245, E13.22620
+	N51.47363, E13.18434
+	N51.47363, E13.19116
+	N51.62259, E12.93423
+	N51.71142, E12.84204
+	N51.78971, E12.82891
+	N51.84278, E12.74158
+	N51.87063, E12.57994
+	N51.88097, E12.38170
+	N51.87378, E12.14699
+	N51.90869, E11.99475
+	N51.98564, E11.92519
+	N52.03129, E11.84334
+	N52.04566, E11.74939
+	N52.07160, E11.69084
+	N52.10907, E11.66779
+	N52.15529, E11.66821
+	N52.21020, E11.69208
+	N52.27275, E11.75725
+	N52.37797, E11.91693
+
+[airport1]
+name = Leipzig/Halle Airport
+code = EDDP
+runways =
+	rwy1, 08L, N51.4312, E12.2158, 85.7, 11811, 0, 0, 418
+	rwy2, 08R, N51.4116, E12.2046, 86.0, 11811, 0, 0, 0

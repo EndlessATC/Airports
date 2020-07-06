@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3294
+center = N14.0608997345, W87.2172012329
+magneticvar = 1.057
+beacons =
+	TNT, N14.06090, W87.22050, 0, Toncontin
+	TNT, N14.02890, W87.22910, 0, Toncontin
+	PIC, N14.15000, W87.20600, 0, Picacho
+	ESC, N14.39190, W87.62210, 0, Soto Cano
+
+line1 =
+	N13.21353, W88.41714
+	N13.16401, W88.18066
+	N13.16875, W88.02344
+	N13.18066, W87.93086
+	N13.22441, W87.87808
+	N13.28516, W87.82070
+	N13.38579, W87.83838
+	N13.39917, W87.81421
+	N13.37666, W87.76938
+	N13.36006, W87.70835
+	N13.38560, W87.60225
+	N13.35293, W87.48911
+	N13.31060, W87.48516
+	N13.27490, W87.49839
+	N13.21543, W87.45845
+	N13.12744, W87.41279
+	N13.08472, W87.33252
+
+line2 =
+	N13.42045, W86.84397
+	N13.51292, W86.63915
+	N13.61044, W86.49231
+	N13.63586, W86.41105
+	N13.62168, W86.34646
+	N13.57207, W86.28163
+	N13.48708, W86.21651
+	N13.46068, W86.14773
+	N13.49292, W86.07521
+
+[airport1]
+name = Toncontín International Airport
+code = MHTG
+runways =
+	rwy1, 02, N14.0529, W87.22, 19.0, 6112, 670, 0, 3337

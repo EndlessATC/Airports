@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 103
+center = S4.52828, E136.886993
+magneticvar = 3.223
+beacons =
+	ZF, S4.53534, E136.89000, 0, Timika
+	TMK, S4.51700, E136.86700, 0, Timika
+	ZG, S4.04358, E136.27499, 0, Waghete
+
+line1 =
+	S5.42764, E137.98496
+	S5.37012, E137.92227
+	S5.34883, E137.88682
+	S5.35049, E137.84033
+	S5.31201, E137.79521
+	S5.25615, E137.75908
+	S5.01436, E137.30664
+	S4.94541, E137.27979
+	S4.97568, E137.23789
+	S4.99043, E137.19590
+	S4.95078, E137.14375
+	S4.92441, E137.08926
+	S4.92871, E137.02969
+	S4.90732, E136.97461
+	S4.89512, E136.91699
+	S4.89316, E136.85684
+	S4.81875, E136.61885
+	S4.70127, E136.39375
+	S4.65068, E136.21064
+	S4.58477, E136.09746
+	S4.53086, E135.97969
+
+[airport1]
+name = Moses Kilangin Airport
+code = WABP
+runways =
+	rwy1, 12, S4.52253, E136.878, 121.9, 7841, 0, 0, 103

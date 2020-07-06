@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 636
+center = N48.4174003601, E39.3740997314
+magneticvar = 7.066
+beacons =
+	G, N48.41400, E39.40670, 0, Luhansk
+	U, N48.42210, E39.34170, 0, Luhansk
+	LG, N48.40900, E39.44650, 0, Luhansk
+	LU, N48.42490, E39.29980, 0, Luhansk
+	DW, N48.50150, E39.84010, 0, Davydo-Mykilske
+	LS, N48.18150, E38.93840, 0, Krasnyi Luch
+	KL, N47.88330, E40.10000, 0, Krasny Sulin
+	SB, N47.75000, E39.80000, 0, Sambek
+
+line1 =
+	N47.54898, E41.07282
+	N47.56686, E41.00921
+	N47.60102, E40.99308
+	N47.61004, E40.97024
+	N47.58591, E40.92601
+	N47.49144, E40.58846
+
+[airport1]
+name = Luhansk International Airport
+code = UKCW
+runways =
+	rwy1, 09, N48.4198, E39.355, 100.6, 9450, 0, 0, 594

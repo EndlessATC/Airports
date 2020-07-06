@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 173
+usa = true
+transition = 18001
+center = N54.9880981445, W85.4432983398
+magneticvar = -10.211
+beacons =
+	YPO, N54.99120, W85.44300, 0, Peawanuck
+
+line1 =
+	N55.26182, W83.56948
+	N55.26450, W83.66768
+	N55.31465, W83.91060
+	N55.31416, W83.97178
+	N55.29780, W84.02300
+	N55.29082, W84.10537
+	N55.29312, W84.21895
+	N55.28252, W84.35649
+	N55.25889, W84.51797
+	N55.25923, W84.70576
+	N55.28335, W84.91992
+	N55.28564, W85.06094
+	N55.26621, W85.12886
+	N55.22437, W85.21357
+	N55.07930, W85.36528
+	N55.09546, W85.36201
+	N55.29746, W85.21201
+	N55.34897, W85.21802
+	N55.38330, W85.28271
+	N55.43115, W85.40728
+	N55.47427, W85.47847
+	N55.54019, W85.55933
+	N55.60107, W85.67666
+	N55.65693, W85.83052
+	N55.69590, W85.98447
+	N55.71787, W86.13867
+	N55.77324, W86.37695
+	N55.91455, W86.91938
+	N55.97466, W87.28687
+
+[airport1]
+name = Peawanuck Airport
+code = CYPO

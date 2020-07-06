@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1864
+center = N26.9557, W101.470001
+magneticvar = 6.597
+beacons =
+	MOV, N26.95550, W101.47100, 0, Monclova
+
+[airport1]
+name = Monclova International Airport
+code = MMMV
+runways =
+	rwy1, 06L, N26.9555, W101.476, 72.7, 4783, 0, 470, 1864
+	rwy2, 06R, N26.9512, W101.481, 72.7, 6890, 285, 660, 1864

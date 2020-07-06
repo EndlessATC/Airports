@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2863
+center = N39.1888008118, E45.4584007263
+magneticvar = 4.529
+beacons =
+	NO, N39.16510, E45.48590, 0, Nakhchivan
+	NT, N39.22590, E45.41430, 0, Nakhchivan
+	MGR, N38.93890, E46.34720, 0, Megri
+	AND, N39.83030, E44.99250, 0, Andranik
+	KHY, N38.42920, E44.96920, 0, Khoy
+
+line1 =
+	N38.19272, E45.02598
+	N38.26426, E45.10557
+	N38.26426, E45.35693
+
+line2 =
+	N40.17217, E45.60762
+	N40.15552, E45.54316
+	N40.15596, E45.48066
+	N40.15142, E45.38877
+	N40.14883, E45.31270
+	N40.16382, E45.27588
+
+[airport1]
+name = Nakhchivan Airport
+code = UBBN
+runways =
+	rwy1, 14L, N39.199, E45.4456, 137.3, 10826, 0, 1000, 2863
+	rwy2, 14R, N39.1983, E45.4445, 137.3, 10826, 0, 375, 2862

@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 257
+usa = true
+transition = 18001
+center = N36.5870018005, W121.843002319
+magneticvar = 14.377
+beacons =
+	MR, N36.62080, W121.93900, 0, Munso
+	SNS, N36.66380, W121.60300, 0, Salinas
+	UAD, N36.49090, W121.47500, 0, Chualar
+	PDG, N36.91360, W121.80800, 0, Pajar
+	BSR, N36.18130, W121.64200, 0, Big Sur
+	SJC, N37.37470, W121.94500, 0, San Jose
+	HGT, N35.96110, W121.18900, 0, Hunter Liggett
+	OSI, N37.39250, W122.28100, 0, Woodside
+
+line1 =
+	N37.54380, W122.12412
+	N37.51821, W122.09653
+	N37.47827, W122.07051
+	N37.48281, W122.11904
+	N37.50166, W122.16602
+	N37.56392, W122.22866
+
+line2 =
+	N37.54263, W122.49922
+	N37.37314, W122.40845
+	N37.20752, W122.39492
+	N36.99097, W122.16421
+	N36.93892, W121.88066
+	N36.85122, W121.80742
+	N36.80098, W121.79453
+	N36.73228, W121.78999
+	N36.65747, W121.83516
+	N36.57236, W121.91865
+	N36.43291, W121.91016
+	N36.33105, W121.87739
+	N36.15405, W121.66436
+	N35.92739, W121.46499
+	N35.86387, W121.43374
+	N35.79224, W121.34385
+	N35.67632, W121.28384
+	N35.60713, W121.13794
+
+line3 =
+	N36.86558, W120.39309
+	N37.02415, W120.50419
+	N37.11820, W120.60470
+	N37.14766, W120.69462
+	N37.28470, W120.85569
+
+[airport1]
+name = Monterey Peninsula Airport
+code = KMRY
+runways =
+	rwy1, 10L, N36.5886, W121.845, 112.8, 3513, 0, 0, 198
+	rwy2, 10R, N36.5912, W121.857, 112.8, 7616, 0, 1000, 155

@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1630
+center = S2.91917991638, E25.9153995514
+magneticvar = -0.259
+beacons =
+	KIN, S2.91908, E25.89980, 0, Kindu
+	KIN, S2.90167, E25.91170, 0, Kindu
+	KN, S2.95241, E25.91650, 0, Kindu
+
+line1 =
+	S3.79589, E26.03989
+	S3.64944, E26.01250
+	S3.51901, E25.93002
+	S3.36253, E25.90419
+	S3.18001, E25.93499
+	S3.02250, E25.94873
+	S2.89011, E25.94553
+	S2.80412, E25.92692
+	S2.74474, E25.87618
+	S2.75223, E25.87618
+	S2.45659, E25.78822
+	S2.11295, E25.78492
+
+[airport1]
+name = Kindu Airport
+code = FZOA
+runways =
+	rwy1, 18, S2.90924, E25.9147, 176.0, 7218, 0, 0, 1624

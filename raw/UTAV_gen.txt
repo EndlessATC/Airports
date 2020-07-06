@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 630
+metric = true
+center = N39.0833015442, E63.6133003235
+magneticvar = 4.395
+beacons =
+	LBA, N39.09000, E63.61170, 0, Turkmenabat
+	UT, N39.04000, E63.64000, 0, Turkmenabat
+	NQ, N39.14000, E63.58000, 0, Turkmenabat
+	UH, N39.72830, E64.47170, 0, Bukhara
+	U, N39.75330, E64.47830, 0, Bukhara
+	BR, N39.82330, E64.49500, 0, Bukhara
+
+line1 =
+	N38.08765, E64.90739
+	N38.24738, E64.54948
+	N38.43223, E64.27228
+	N38.64214, E64.07602
+	N38.79954, E63.95318
+	N38.90450, E63.90388
+	N39.04862, E63.72369
+	N39.23197, E63.41270
+	N39.33026, E63.19845
+	N39.34354, E63.08114
+	N39.40018, E63.01438
+	N39.50017, E62.99836
+	N39.60787, E62.89697
+	N39.72321, E62.71021
+	N39.84470, E62.57306
+	N40.03621, E62.44159
+
+[airport1]
+name = Turkmenabat Airport
+code = UTAV
+runways =
+	rwy1, 15, N39.0944, E63.6067, 154.9, 9022, 0, 0, 623

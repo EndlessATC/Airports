@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1083
+center = N7.56538, W72.035103
+magneticvar = -7.289
+beacons =
+	STD, N7.56972, W72.01870, 0, Santo Domingo
+	EPL, N7.51861, W71.96370, 0, El Pinal
+	PRM, N7.80306, W72.19980, 0, Paramillo
+	CTN, N7.51667, W71.44590, 0, El Canton
+	CUC, N7.93346, W72.51350, 0, Cucuta
+	UC, N7.95306, W72.52920, 0, Cucuta
+	SVA, N6.95519, W71.86020, 0, Saravena
+	CU, N8.03694, W72.57970, 0, Cucuta
+	LFA, N8.24472, W72.26810, 0, La Fria
+
+[airport1]
+name = Mayor Buenaventura Vivas International Airport
+code = SVSO
+runways =
+	rwy1, 11, N7.56992, W72.0481, 110.4, 9990, 0, 0, 1083
+
+[airport2]
+name = San Antonio Del Tachira Airport
+code = SA
+runways =
+	rwy2, 17, N7.84901, W72.4419, 165.5, 6135, 0, 0, 0
+inboundbeacon = CUC

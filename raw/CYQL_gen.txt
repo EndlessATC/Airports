@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3048
+usa = true
+transition = 18001
+center = N49.6302986145, W112.800003052
+magneticvar = 15.419
+beacons =
+	QL, N49.60530, W112.89400, 0, Lethbridge
+	YQL, N49.63440, W112.66800, 0, Lethbridge
+	3Z, N49.82580, W112.17800, 0, Taber
+	Z7, N50.00280, W113.63700, 0, Claresholm
+	9Y, N49.52330, W113.99900, 0, Pincher Creek
+	Z5, N50.39780, W113.28300, 0, Vulcan
+
+line1 =
+	N50.62626, W112.39988
+	N50.57423, W112.35714
+	N50.47496, W112.31588
+	N50.42188, W112.26265
+	N50.41501, W112.19746
+	N50.39269, W112.16759
+	N50.35481, W112.17304
+	N50.30331, W112.15085
+	N50.23812, W112.10103
+	N50.20502, W112.03111
+	N50.20394, W111.94115
+	N50.17577, W111.82544
+	N50.12053, W111.68411
+	N50.06521, W111.60907
+	N50.00982, W111.60044
+	N49.96785, W111.62362
+	N49.93651, W111.64259
+	N49.90388, W111.60695
+	N49.90863, W111.52350
+	N49.93442, W111.42247
+	N50.00098, W111.34227
+	N50.04113, W111.26413
+	N50.05493, W111.18812
+
+[airport1]
+name = Lethbridge County Airport
+code = CYQL
+runways =
+	rwy1, 05, N49.6239, W112.815, 69.7, 6500, 0, 0, 3047
+	rwy2, 12, N49.6364, W112.799, 140.0, 5500, 0, 0, 3003

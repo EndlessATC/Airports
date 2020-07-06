@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2885
+usa = true
+transition = 18001
+center = N37.0442009, W100.9599991
+magneticvar = 6.389
+beacons =
+	LBL, N37.04440, W100.97100, 0, Liberal
+	LB, N36.96460, W100.95600, 0, Panck
+	HQG, N37.16360, W101.37500, 0, Hugoton
+	GUY, N36.70540, W101.50500, 0, Guymon
+	ULS, N37.59710, W101.36800, 0, Ulysses
+	PYX, N36.41230, W100.74800, 0, Perryton
+	EHA, N37.00110, W101.88500, 0, Elkhart
+	GC, N37.82900, W100.72400, 0, Pieve
+	JHN, N37.63560, W101.73500, 0, Bear Creek
+	DDC, N37.85060, W100.00600, 0, Dodge City
+
+line1 =
+	N37.69687, W99.69779
+	N37.74772, W99.98697
+	N37.93500, W100.77607
+	N37.97099, W101.12739
+	N37.91815, W101.30394
+	N37.94978, W101.62661
+
+[airport1]
+name = Liberal Mid-America Regional Airport
+code = KLBL
+runways =
+	rwy1, 04, N37.0387, W100.971, 45.0, 5721, 0, 0, 2884
+	rwy2, 17, N37.0539, W100.956, 180.0, 7105, 0, 0, 2875

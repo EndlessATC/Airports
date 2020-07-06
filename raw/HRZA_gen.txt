@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5192
+center = S2.4622399807, E28.9078998566
+magneticvar = -0.108
+beacons =
+	KB, S2.46379, E28.90820, 0, Kamembe
+	BKV, S2.30663, E28.81940, 0, Bukavu
+	BG, S1.92194, E29.26380, 0, Bugarura
+	RG, S2.91651, E29.51870, 0, Rwegura
+	KW, S3.13217, E29.28850, 0, Bujumbura
+	GS, S1.68585, E29.21660, 0, Goma
+	GOM, S1.68585, E29.23330, 0, Goma
+	GY, S1.67669, E29.26030, 0, Gisenyi
+	BN, S3.24850, E29.30630, 0, Bujumbura
+
+line1 =
+	S1.64365, E29.19766
+	S1.64365, E29.19766
+	S1.64365, E29.19766
+	S1.64365, E29.19766
+	S1.73584, E29.24941
+	S1.86025, E29.28887
+	S2.01592, E29.35762
+	S2.05830, E29.33799
+	S2.09482, E29.28320
+	S2.12988, E29.25605
+	S2.16201, E29.24014
+	S2.27744, E29.14893
+	S2.30303, E29.11201
+	S2.34492, E29.07666
+	S2.35537, E29.04746
+	S2.36006, E28.99453
+	S2.43281, E28.91025
+	S2.44785, E28.85029
+	S2.37148, E28.85664
+	S2.28770, E28.91670
+	S2.23984, E28.90342
+	S2.22773, E28.87568
+	S2.18691, E28.87217
+	S2.15293, E28.87910
+	S2.08232, E28.91611
+	S2.00801, E28.90938
+	S1.83760, E28.98760
+	S1.64746, E29.03281
+	S1.60537, E29.07119
+	S1.64365, E29.19766
+
+line2 =
+	S2.98437, E29.59347
+	S3.04710, E29.82663
+	S3.09082, E29.90110
+	S3.13660, E29.89459
+	S3.15965, E29.90870
+	S3.16017, E29.94332
+	S3.18415, E29.97577
+	S3.25556, E30.02114
+	S3.31468, E29.99045
+	S3.34465, E29.99029
+	S3.36501, E30.01045
+
+[airport1]
+name = Kamembe Airport
+code = HRZA
+runways =
+	rwy1, 02, S2.46875, E28.906, 17.0, 4921, 0, 0, 5189

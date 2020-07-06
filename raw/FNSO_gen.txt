@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 15
+center = S6.14108991623, E12.3718004227
+magneticvar = -4.268
+beacons =
+	SO, S6.13333, E12.36670, 0, Soyo
+	KIT, S5.93881, E12.42620, 0, Kitona Base
+	KW, S5.93167, E12.43280, 0, Kitona Base
+	KIT, S5.90556, E12.42670, 0, Kitona Base
+	KE, S5.90444, E12.45970, 0, Kitona Base
+	VCA, S5.61667, E12.20000, 0, Cabinda
+	CA, S5.58484, E12.18940, 0, Cabinda
+	BOM, S5.85215, E13.06620, 0, Boma
+
+line1 =
+	S5.19717, E12.11055
+	S5.32480, E12.17715
+	S5.46826, E12.20654
+	S5.53867, E12.18008
+	S5.63271, E12.15547
+	S5.73193, E12.19902
+	S5.75869, E12.21367
+	S5.80732, E12.24043
+	S5.89531, E12.31504
+	S5.98633, E12.41172
+	S6.00049, E12.45293
+	S6.00420, E12.51455
+	S5.96084, E12.68066
+	S5.87773, E12.79160
+	S5.85410, E12.86084
+	S5.83613, E13.00332
+	S5.86484, E13.06816
+	S5.90762, E13.00977
+	S6.00391, E12.79063
+	S6.04590, E12.55352
+	S6.08428, E12.38037
+	S6.09258, E12.30254
+	S6.12432, E12.28330
+	S6.18730, E12.33428
+	S6.35342, E12.40215
+	S6.59033, E12.52129
+	S6.95479, E12.82344
+
+line2 =
+	S5.74342, E13.51213
+	S5.84140, E13.39875
+	S5.88186, E13.30263
+	S5.85628, E13.18434
+	S5.86486, E13.06817
+
+[airport1]
+name = Soyo Airport
+code = FNSO
+runways =
+	rwy1, 07, S6.14647, E12.364, 55.0, 6857, 0, 0, 0

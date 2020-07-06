@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 472
+center = N52.5270004272, E31.0167007446
+magneticvar = 6.537
+beacons =
+	GOL, N52.52000, E31.05170, 0, Gomel
+	MV, N52.51170, E31.08330, 0, Gomel
+	GM, N52.54500, E30.94670, 0, Gomel
+
+line1 =
+	N53.52283, E30.28366
+	N53.29659, E30.37120
+	N53.25050, E30.27901
+	N53.20598, E30.26030
+	N53.14763, E30.28418
+	N53.12017, E30.25147
+	N53.12358, E30.16207
+	N53.10061, E30.09080
+	N53.05123, E30.03758
+	N52.95400, E30.03427
+	N52.80884, E30.08088
+	N52.71017, E30.14341
+	N52.65792, E30.22206
+	N52.60622, E30.25808
+	N52.55501, E30.25157
+	N52.50708, E30.27942
+	N52.46238, E30.34154
+	N52.42982, E30.36546
+	N52.40931, E30.35110
+	N52.37996, E30.39699
+	N52.34179, E30.50313
+	N52.30580, E30.54582
+	N52.27195, E30.52504
+	N52.19661, E30.58390
+	N52.07977, E30.72229
+	N51.99569, E30.79619
+	N51.94432, E30.80539
+	N51.89389, E30.77293
+	N51.84438, E30.69862
+	N51.76573, E30.62483
+	N51.65788, E30.55134
+	N51.54492, E30.54726
+
+[airport1]
+name = Gomel Airport
+code = UMGG
+runways =
+	rwy1, 11, N52.5311, E30.999, 111.9, 8432, 0, 0, 460

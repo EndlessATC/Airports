@@ -1,0 +1,92 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 18
+center = S34.5592, W58.4156
+magneticvar = -7.184
+beacons =
+	P, S34.54640, W58.43950, 0, Aeroparque Jorge Newbery
+	N, S34.58490, W58.36890, 0, Aeroparque
+	OP, S34.51790, W58.48650, 0, Aeroparque Jorge Newbery
+	PAL, S34.61280, W58.61390, 0, El Palomar
+	L, S34.58830, W58.62500, 0, El Palomar
+	FDO, S34.45140, W58.58420, 0, San Fernando
+	ILM, S34.71080, W58.24030, 0, Quilmes
+	EZE, S34.82420, W58.53530, 0, Ezeiza
+	C, S34.81710, W58.56470, 0, Ministro Pistarini
+	A, S34.84160, W58.52240, 0, Ministro Pistarini
+	OC, S34.80480, W58.63340, 0, Ministro Pistarini
+	ENO, S34.56280, W58.79060, 0, Mariano Moreno
+	Z, S34.53830, W58.80000, 0, Mariano Moreno
+	OA, S34.89030, W58.50600, 0, Ministro Pistarini
+	OZ, S34.48330, W58.82170, 0, Mariano Moreno
+	COL, S34.45390, W57.77010, 0, Colonia
+	PTA, S34.96670, W57.89780, 0, La Plata
+	PTA, S34.97580, W57.89830, 0, La Plata
+
+line1 =
+	S35.50596, W57.15889
+	S35.36250, W57.17065
+	S35.18848, W57.30366
+	S35.01895, W57.54785
+	S34.89453, W57.76357
+	S34.68350, W58.28335
+	S34.53164, W58.41895
+	S34.45742, W58.46621
+	S34.29619, W58.52549
+	S34.26299, W58.47524
+	S34.25254, W58.43550
+	S34.19297, W58.39248
+	S34.06074, W58.40903
+	S33.99092, W58.42949
+	S33.89834, W58.45659
+	S33.75303, W58.53057
+	S33.66348, W58.54722
+
+line2 =
+	S33.71914, W58.43813
+	S33.91240, W58.40020
+	S34.10908, W58.20703
+	S34.30693, W57.96123
+	S34.39014, W57.90215
+	S34.44766, W57.87324
+	S34.47734, W57.82910
+	S34.44805, W57.54346
+	S34.45234, W57.17070
+
+line3 =
+	S33.80595, W59.18158
+	S33.82171, W59.08179
+	S33.88434, W58.93361
+	S33.99384, W58.73695
+	S34.03818, W58.59071
+	S33.99095, W58.42948
+
+line4 =
+	S33.68368, W59.54781
+	S33.70874, W59.36198
+	S33.74238, W59.28741
+	S33.77887, W59.24085
+	S33.80595, W59.18158
+
+line5 =
+	S33.60410, W59.32798
+	S33.80595, W59.18158
+
+[airport1]
+name = Jorge Newbery Airpark
+code = SABE
+runways =
+	rwy1, 13, S34.5539, W58.4251, 124.0, 6890, 0, 417, 18
+
+[airport2]
+name = Ministro Pistarini International Airport
+code = EZ
+runways =
+	rwy2, 11, S34.8191, W58.5535, 102.3, 10827, 0, 0, 62
+	rwy3, 17, S34.8083, W58.5339, 164.0, 10187, 0, 984, 62
+inboundbeacon = EZE

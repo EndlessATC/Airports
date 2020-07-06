@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 685
+center = N18.8078994751, E100.782997131
+magneticvar = -0.442
+beacons =
+	NAN, N18.80910, E100.78300, 0, Nan
+	NN, N18.80030, E100.78300, 0, Nan
+	PAE, N18.13410, E100.16600, 0, Phrae
+	PR, N18.12950, E100.16100, 0, Phrae
+
+line1 =
+	N19.73430, E101.92983
+	N19.60405, E101.82348
+	N19.51279, E101.82172
+	N19.45116, E101.84224
+	N19.41923, E101.88492
+	N19.37223, E101.88580
+	N19.31017, E101.84477
+	N19.18074, E101.81904
+	N18.98401, E101.80849
+	N18.85508, E101.81599
+	N18.79394, E101.84146
+	N18.69811, E101.82637
+	N18.56755, E101.77046
+	N18.42224, E101.65770
+	N18.26224, E101.48810
+	N18.11889, E101.40831
+	N17.99226, E101.41854
+	N17.90183, E101.45864
+	N17.82051, E101.56365
+
+line2 =
+	N17.82051, E101.56365
+	N17.88940, E101.68747
+	N17.95270, E101.74411
+	N18.03342, E101.77480
+	N18.06463, E101.81862
+	N18.04642, E101.87547
+	N18.08148, E101.94745
+
+[airport1]
+name = Nan Airport
+code = VTCN
+runways =
+	rwy1, 02, N18.7995, E100.78, 20.7, 6562, 0, 0, 679

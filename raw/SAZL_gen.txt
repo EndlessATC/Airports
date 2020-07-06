@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = S36.5423, W56.7218
+magneticvar = -6.458
+beacons =
+	STR, S36.54970, W56.68390, 0, Santa Teresita
+	GES, S37.23470, W57.02390, 0, Villa Gesell
+
+line1 =
+	S37.44639, W57.08770
+	S36.95771, W56.72715
+	S36.85127, W56.67202
+	S36.73525, W56.66826
+	S36.42646, W56.69810
+	S36.38906, W56.71738
+	S36.34648, W56.74946
+	S36.35254, W56.93716
+	S36.29678, W57.07617
+	S36.14414, W57.26499
+	S36.02676, W57.33545
+	S35.90029, W57.37549
+	S35.72031, W57.35391
+
+[airport1]
+name = Santa Teresita Airport
+code = SAZL
+runways =
+	rwy1, 17, S36.5357, W56.7232, 170.0, 4921, 0, 0, 0

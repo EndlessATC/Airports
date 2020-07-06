@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 85
+center = N34.7179985046, E10.6909999847
+magneticvar = 1.189
+beacons =
+	SFX, N34.71610, E10.68890, 0, Sfax
+	KR, N34.74330, E11.30610, 0, El aAtaya
+
+line1 =
+	N34.82031, E11.25488
+	N34.74458, E11.15303
+	N34.68169, E11.12363
+	N34.75381, E11.27803
+	N34.80220, E11.28105
+	N34.82031, E11.25488
+
+line2 =
+	N33.89312, E10.92197
+	N33.88867, E10.74521
+	N33.85562, E10.73389
+	N33.73892, E10.72207
+
+line3 =
+	N33.72207, E10.95762
+	N33.74595, E10.99307
+	N33.78506, E11.03760
+	N33.80503, E11.03359
+	N33.82334, E11.01787
+	N33.89312, E10.92197
+
+line4 =
+	N33.72827, E10.30527
+	N33.85005, E10.15898
+	N34.05630, E10.04902
+	N34.14033, E10.04004
+	N34.21162, E10.06484
+	N34.28008, E10.11836
+	N34.34604, E10.20039
+	N34.54473, E10.53486
+	N34.67847, E10.69092
+	N34.88433, E10.86621
+	N35.03364, E10.95586
+	N35.24028, E11.12012
+	N35.33511, E11.04326
+	N35.45386, E11.03154
+	N35.55161, E11.00068
+	N35.63384, E11.00430
+
+[airport1]
+name = Sfax Thyna International Airport
+code = DTTX
+runways =
+	rwy1, 15, N34.7295, E10.6823, 148.1, 9843, 0, 0, 83

@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5085
+center = S4.10251, E138.957001
+magneticvar = 3.536
+beacons =
+	ZW, S4.10048, E138.95599, 0, Wamena
+
+line1 =
+	S3.19050, E138.70216
+	S3.20172, E138.66836
+	S3.19753, E138.62289
+	S3.15800, E138.59839
+
+line2 =
+	S3.62924, E139.94229
+	S3.55239, E139.78897
+	S3.52836, E139.68355
+	S3.53146, E139.57492
+	S3.49317, E139.52180
+	S3.47111, E139.48702
+	S3.48056, E139.41560
+	S3.47333, E139.38439
+	S3.43943, E139.33530
+	S3.44346, E139.21045
+	S3.40284, E139.12198
+	S3.31768, E139.06989
+	S3.25391, E138.95837
+	S3.20368, E138.75528
+	S3.19050, E138.70216
+
+[airport1]
+name = Wamena Airport
+code = WAJW
+runways =
+	rwy1, 15, S4.09585, E138.954, 152.7, 5436, 0, 0, 0

@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4343
+center = N37.6680984497, E45.0686988831
+magneticvar = 4.529
+beacons =
+	UMH, N37.66550, E45.06090, 0, Uromiyeh
+	UMH, N37.68720, E45.08430, 0, Uromiyeh
+	KHY, N38.42920, E44.96920, 0, Khoy
+
+line1 =
+	N37.74189, E45.66631
+	N37.74189, E45.66631
+	N37.74189, E45.66631
+	N37.74189, E45.66631
+	N37.70117, E45.74668
+	N37.66255, E45.74873
+	N37.57773, E45.75498
+	N37.42646, E45.85771
+	N37.34053, E45.83115
+	N37.30298, E45.70264
+	N37.28813, E45.66279
+	N37.21172, E45.61250
+	N37.13486, E45.53555
+	N37.14946, E45.44854
+	N37.22661, E45.36455
+	N37.43804, E45.29248
+	N37.61543, E45.25713
+	N37.68496, E45.25322
+	N37.76367, E45.23418
+	N37.88540, E45.08701
+	N37.98760, E45.08027
+	N38.04453, E45.15547
+	N38.10786, E45.18818
+	N38.14385, E45.17119
+	N38.14004, E45.09180
+	N38.14438, E45.01543
+	N38.19272, E45.02598
+	N38.26426, E45.10557
+	N38.26426, E45.35693
+	N38.17344, E45.45840
+	N38.07295, E45.48730
+	N37.93242, E45.44746
+	N37.80620, E45.43594
+	N37.75356, E45.48320
+	N37.75435, E45.54609
+	N37.74189, E45.66631
+
+[airport1]
+name = Urmia Airport
+code = OITR
+runways =
+	rwy1, 03, N37.6558, E45.0587, 33.0, 10658, 0, 0, 4343

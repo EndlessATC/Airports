@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2641
+center = N27.6746997833, E54.3833007812
+magneticvar = 2.025
+beacons =
+	LAR, N27.66970, E54.37750, 0, Lar
+	LAR, N27.67520, E54.41520, 0, Lar
+
+line1 =
+	N27.00449, E53.34170
+	N26.94326, E53.45498
+	N26.85176, E53.50713
+	N26.72559, E53.70576
+	N26.70771, E53.82256
+	N26.73237, E54.06934
+	N26.69663, E54.24707
+
+line2 =
+	N26.72539, E55.15459
+	N26.78594, E55.29414
+	N26.77056, E55.42402
+	N26.82993, E55.51855
+	N26.93213, E55.59160
+	N26.97754, E55.65029
+
+[airport1]
+name = Lar Airport
+code = OISL
+runways =
+	rwy1, 09, N27.6745, E54.3673, 89.1, 10334, 0, 0, 2641

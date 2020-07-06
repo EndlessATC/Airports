@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8
+center = S22.343000412, W41.7659988403
+magneticvar = -22.284
+beacons =
+	MAC, S22.34490, W41.76890, 0, Macae
+	MAC, S22.34530, W41.76140, 0, Macae
+	ADA, S22.81280, W42.09530, 0, Aldeia
+	ADA, S22.82300, W42.09650, 0, Aldeia
+	CBF, S22.92600, W42.07850, 0, Cabo Frio
+	STG, S22.03310, W41.07420, 0, Tome
+	CPO, S21.69730, W41.30670, 0, Campos
+
+line1 =
+	S22.94258, W43.01621
+	S22.96709, W42.95830
+	S22.97334, W42.82930
+	S22.94102, W42.58105
+	S22.94082, W42.12246
+	S22.94707, W42.04238
+	S22.84512, W41.98750
+	S22.78828, W41.94092
+	S22.73584, W41.98613
+	S22.64463, W41.99756
+	S22.58066, W41.98042
+	S22.30967, W41.70552
+	S22.24365, W41.58291
+	S22.08438, W41.12251
+	S21.99902, W41.00029
+	S21.92031, W40.98784
+	S21.61084, W41.02158
+	S21.59688, W41.02314
+	S21.50566, W41.04727
+
+line2 =
+	S21.71361, W42.28041
+	S21.60049, W41.99084
+	S21.58168, W41.85467
+	S21.61940, W41.77530
+	S21.63150, W41.68419
+	S21.61806, W41.58131
+	S21.64566, W41.46705
+	S21.71428, W41.34137
+	S21.71428, W41.21342
+	S21.61083, W41.02160
+
+[airport1]
+name = Macaé Airport
+code = SBME

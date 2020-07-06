@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 67
+usa = true
+center = S31.9402999878, E115.967002869
+magneticvar = -1.167
+beacons =
+	PH, S31.94500, E115.95900, 0, Perth
+	PH, S31.93750, E115.95000, 0, Perth
+	CVM, S31.87830, E115.98100, 0, Caversham
+	PRL, S31.85940, E116.11800, 0, Parkerville
+	JT, S32.10280, E115.88700, 0, Jandakot
+	PEA, S31.67390, E116.01700, 0, Pearce
+	PEA, S31.65440, E116.01900, 0, Pearce
+	RTI, S32.00420, E115.54500, 0, Rottnest Island
+	GIG, S31.45970, E115.86600, 0, Gingin
+	CKL, S31.68420, E116.56200, 0, Clackline
+
+line1 =
+	S32.66699, E115.61855
+	S32.59658, E115.65430
+	S32.56797, E115.70791
+	S32.40107, E115.72539
+	S31.88789, E115.73809
+	S31.69453, E115.69844
+	S31.30254, E115.45459
+	S30.96182, E115.29434
+
+[airport1]
+name = Perth International Airport
+code = YPPH
+runways =
+	rwy1, 03, S31.9587, E115.96, 14.0, 11299, 0, 0, 67
+	rwy2, 06, S31.941, E115.959, 59.0, 7096, 0, 0, 58

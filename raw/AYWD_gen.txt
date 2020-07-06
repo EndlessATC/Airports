@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5889
+center = S5.64330005646, E143.895004272
+magneticvar = 5.061
+beacons =
+	MH, S5.83787, E144.30901, 0, Mount Hagen
+	MOR, S6.36287, E143.25400, 0, Moro
+
+line1 =
+	S5.93819, E143.49205
+	S6.29450, E143.63881
+	S6.38726, E143.63850
+	S6.45743, E143.68180
+	S6.53609, E143.76862
+	S6.58931, E143.87797
+	S6.61722, E144.00995
+	S6.59686, E144.12426
+	S6.52808, E144.22110
+	S6.49082, E144.30058
+	S6.48513, E144.36290
+	S6.56983, E144.49400
+
+[airport1]
+name = Wapenamanda Airport
+code = AYWD
+runways =
+	rwy1, 14, S5.63807, E143.891, 139.0, 5052, 0, 239, 5889
+
+[airport2]
+name = Mount Hagen Kagamuga Airport
+code = MH
+runways =
+	rwy2, 08, S5.82708, E144.293, 85.0, 3599, 197, 197, 5363
+	rwy3, 12, S5.82376, E144.291, 121.0, 7185, 0, 0, 5363
+inboundbeacon = MH

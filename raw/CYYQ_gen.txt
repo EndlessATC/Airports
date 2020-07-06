@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 94
+usa = true
+transition = 18001
+center = N58.739200592, W94.0650024414
+magneticvar = -1.430
+beacons =
+	YYQ, N58.74170, W94.13530, 0, Churchill
+	ZYQ, N58.77420, W94.17700, 0, Polarbear
+	ZCH, N58.66550, W93.99790, 0, Beluga
+
+line1 =
+	N57.77778, W92.70166
+	N57.84404, W92.73984
+	N58.07588, W92.84175
+	N58.22451, W92.92515
+	N58.48984, W93.10020
+	N58.56440, W93.12651
+	N58.69458, W93.15459
+	N58.72563, W93.17876
+	N58.75640, W93.27812
+	N58.74102, W93.37505
+	N58.74448, W93.48618
+	N58.77256, W93.78003
+	N58.76001, W94.05576
+	N58.73672, W94.12319
+	N58.62637, W94.20894
+	N58.37803, W94.27217
+	N58.29736, W94.33223
+	N58.33911, W94.33262
+	N58.65894, W94.28081
+	N58.71602, W94.28706
+	N58.74551, W94.41924
+	N58.84839, W94.53970
+	N58.86846, W94.57920
+	N58.87573, W94.62373
+	N58.87012, W94.67339
+	N58.90332, W94.71338
+	N58.97544, W94.74375
+	N59.02061, W94.77617
+	N59.05034, W94.84658
+	N59.06885, W94.95732
+	N59.08799, W94.87026
+	N59.15132, W94.81953
+	N59.26787, W94.78828
+	N59.47812, W94.77666
+
+[airport1]
+name = Churchill Airport
+code = CYYQ
+runways =
+	rwy1, 07, N58.7517, W94.0711, 72.0, 4000, 0, 0, 91
+	rwy2, 15, N58.7457, W94.0777, 152.6, 9200, 0, 0, 94

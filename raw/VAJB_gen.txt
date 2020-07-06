@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1624
+center = N23.1777992249, E80.0520019531
+magneticvar = -0.212
+beacons =
+	JJB, N23.17920, E80.06080, 0, Jabalpur
+	JB, N23.18590, E80.06060, 0, Jabalpur
+
+line1 =
+	N22.87726, E81.28013
+	N22.95571, E81.09648
+	N22.96899, E81.02671
+	N22.94325, E81.00956
+	N22.93607, E80.97297
+	N22.94733, E80.91706
+	N22.97860, E80.87727
+	N23.02978, E80.85370
+	N23.04035, E80.83210
+	N23.01022, E80.81236
+	N22.98464, E80.73169
+	N22.96356, E80.59000
+	N22.92532, E80.50855
+	N22.87003, E80.48737
+	N22.78763, E80.48396
+	N22.67815, E80.49832
+	N22.61107, E80.48649
+	N22.58637, E80.44835
+	N22.58353, E80.41068
+	N22.60244, E80.37337
+	N22.65784, E80.33322
+	N22.74965, E80.29032
+	N22.79039, E80.21658
+	N22.77484, E80.05985
+	N22.85165, E79.96259
+	N22.93390, E79.93272
+	N23.04717, E79.93779
+	N23.11208, E79.83428
+	N23.12856, E79.62210
+	N23.12161, E79.41859
+	N23.09117, E79.22377
+	N23.06079, E79.11624
+	N23.03048, E79.09588
+	N23.02361, E78.99707
+	N23.04025, E78.81961
+
+[airport1]
+name = Jabalpur Airport
+code = VAJB
+runways =
+	rwy1, 06, N23.1731, E80.0438, 58.5, 6522, 0, 0, 1574

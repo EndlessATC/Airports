@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 64
+center = N9.54778957367, E100.06199646
+magneticvar = -0.267
+beacons =
+	SMU, N9.54708, E100.06200, 0, Samui
+	SM, N9.55392, E100.06000, 0, Samui
+
+line1 =
+	N9.79355, E99.98340
+	N9.74761, E99.99805
+	N9.71172, E100.02568
+	N9.67998, E100.06445
+	N9.69668, E100.07412
+	N9.74912, E100.07305
+	N9.79165, E100.04346
+	N9.79355, E99.98340
+
+line2 =
+	N9.58101, E99.95361
+	N9.55996, E99.93955
+	N9.47607, E99.93125
+	N9.42163, E99.96240
+	N9.46143, E100.05371
+	N9.52944, E100.07529
+	N9.58604, E100.07070
+	N9.57686, E100.04297
+	N9.58101, E99.95361
+
+line3 =
+	N8.58921, E99.98955
+	N8.67124, E99.96064
+	N9.11289, E99.90469
+	N9.19463, E99.87754
+	N9.28838, E99.83555
+	N9.31421, E99.72383
+	N9.21372, E99.39385
+	N9.22544, E99.33545
+	N9.26523, E99.25391
+	N9.35298, E99.26504
+	N9.41460, E99.28828
+	N9.62715, E99.19131
+	N9.73403, E99.16074
+	N9.93418, E99.16934
+	N10.17544, E99.19463
+	N10.26587, E99.19033
+	N10.31982, E99.16504
+	N10.38813, E99.23730
+
+[airport1]
+name = Samui Airport
+code = VTSM
+runways =
+	rwy1, 17, N9.55721, E100.062, 174.5, 6759, 853, 983, 43

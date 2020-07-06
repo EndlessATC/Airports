@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 799
+usa = true
+transition = 18001
+center = N41.7086982727, W86.3172988892
+magneticvar = -3.176
+beacons =
+	GIJ, N41.76860, W86.31840, 0, Gipper
+	SB, N41.70570, W86.21900, 0, Misha
+	GSH, N41.52520, W86.02800, 0, Goshen
+	IUL, N41.49890, W86.77150, 0, La Porte
+	BE, N42.12680, W86.31330, 0, Mally
+	ELX, N42.14440, W86.12260, 0, Keeler
+	OXI, N41.32200, W86.64930, 0, Knox
+	VP, N41.45120, W86.87750, 0, Sedly
+	HAI, N41.95840, W85.59170, 0, Three Rivers
+	IRS, N41.81310, W85.43380, 0, Sturgis
+	AZ, N42.13110, W85.52980, 0, Austn
+	GY, N41.57240, W87.32700, 0, Garie
+	OLK, N41.24690, W85.49740, 0, Wolf Lake
+	PMM, N42.46550, W86.10580, 0, Pullman
+	AZO, N42.23700, W85.55320, 0, Kalamazoo
+	BTL, N42.30980, W85.25230, 0, Battle Creek
+	RZL, N40.94700, W87.18360, 0, Rensselaer
+
+line1 =
+	N42.65000, W86.23271
+	N42.53120, W86.25962
+	N42.41763, W86.29956
+	N42.30933, W86.35249
+	N42.22373, W86.40737
+	N42.08228, W86.52017
+	N41.98770, W86.57534
+	N41.91133, W86.63247
+	N41.85337, W86.69155
+	N41.78853, W86.79819
+	N41.66948, W87.07261
+	N41.64639, W87.15869
+	N41.63765, W87.25322
+	N41.64326, W87.35625
+	N41.65649, W87.41250
+	N41.67856, W87.42500
+	N41.68076, W87.44702
+	N41.69546, W87.47695
+	N41.72065, W87.51465
+	N41.76597, W87.55659
+	N41.85913, W87.60205
+	N42.00024, W87.65112
+	N42.08437, W87.69463
+	N42.11152, W87.73252
+	N42.15391, W87.76680
+	N42.21143, W87.79746
+	N42.34106, W87.81250
+	N42.54297, W87.81196
+	N42.68037, W87.80166
+
+line2 =
+	N40.75167, W85.15614
+	N40.82567, W85.31698
+	N40.87161, W85.48979
+	N40.86340, W85.67657
+	N40.80102, W85.87736
+	N40.76320, W86.11270
+	N40.74981, W86.38258
+
+[airport1]
+name = South Bend Regional Airport
+code = KSBN
+runways =
+	rwy1, 09L, N41.7139, W86.3288, 88.8, 4300, 0, 0, 788
+	rwy2, 09R, N41.7043, W86.3294, 88.8, 8412, 0, 0, 790
+	rwy3, 18, N41.7188, W86.3194, 179.0, 6001, 0, 0, 799

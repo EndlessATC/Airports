@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 80
+center = N44.3039016724, E143.404006958
+magneticvar = -9.114
+beacons =
+	MVE, N44.30530, E143.39500, 0, Monbetsu
+	TBE, N43.88490, E144.16600, 0, Memanbetsu
+	AWE, N43.66730, E142.45700, 0, Asahikawa
+
+line1 =
+	N43.98193, E144.87188
+	N43.94023, E144.79854
+	N43.92798, E144.71523
+	N43.93022, E144.59668
+	N43.94956, E144.48184
+	N44.10156, E144.10137
+	N44.11665, E144.00547
+	N44.11191, E143.94951
+	N44.11699, E143.82432
+	N44.13164, E143.75908
+	N44.22134, E143.65459
+	N44.27754, E143.51191
+	N44.39663, E143.28857
+	N44.53491, E143.07510
+	N44.67012, E142.88477
+	N44.81919, E142.70410
+	N45.12500, E142.41602
+
+line2 =
+	N43.69950, E143.06592
+	N43.80963, E142.88454
+	N43.87789, E142.72207
+	N43.89474, E142.63205
+	N43.88295, E142.56022
+	N43.84875, E142.48141
+	N43.79211, E142.39553
+	N43.73816, E142.25440
+	N43.64829, E141.94294
+	N43.62251, E141.90915
+	N43.56427, E141.88450
+	N43.42825, E141.86114
+
+[airport1]
+name = Monbetsu Airport
+code = RJEB
+runways =
+	rwy1, 14, N44.3099, E143.395, 131.9, 6562, 0, 0, 80

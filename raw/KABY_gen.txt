@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 197
+usa = true
+transition = 18001
+center = N31.5354995728, W84.1945037842
+magneticvar = -3.022
+beacons =
+	AB, N31.45610, W84.27620, 0, Putny
+	PZD, N31.65520, W84.29310, 0, Pecan
+	CXU, N31.21460, W84.23680, 0, Camilla
+	IWJ, N31.45570, W84.81910, 0, Blaak
+	OHY, N31.99780, W83.86180, 0, Coney
+	MGR, N31.08230, W83.80420, 0, Moultrie
+	IFM, N31.42870, W83.48890, 0, Tift Myers
+	LYZ, N30.97270, W84.52600, 0, Willis
+	LKG, N32.17450, W84.10820, 0, Lindbergh
+	CYR, N30.88820, W84.15930, 0, Caidy
+	GTP, N30.95760, W83.82670, 0, Patten
+	TM, N31.36330, W83.44400, 0, Tifto
+	SUR, N31.61300, W83.29070, 0, Fitzgerald
+	IZS, N32.36740, W84.00740, 0, Montezuma
+	EUF, N31.95020, W85.13050, 0, Eufaula
+	VNA, N32.21340, W83.49730, 0, Vienna
+	AWS, N32.29320, W85.02330, 0, Lawson
+	LSF, N32.33240, W84.99330, 0, Lawson
+	OTK, N30.78040, W83.27970, 0, Valdosta
+	MAI, N30.78620, W85.12450, 0, Marianna
+
+line1 =
+	N30.92263, W84.96633
+	N30.75926, W84.88688
+	N30.72094, W84.88393
+	N31.63538, W85.06721
+	N31.77677, W85.12482
+	N31.88053, W85.12413
+	N32.05052, W85.06441
+
+line2 =
+	N30.72066, W84.88587
+	N30.66790, W84.89277
+	N30.57359, W84.96057
+
+line3 =
+	N31.63518, W85.06705
+	N31.57267, W85.05488
+	N31.29571, W85.09260
+	N31.11758, W85.06744
+	N30.92263, W84.96633
+
+line4 =
+	N32.52615, W85.01504
+	N32.40929, W84.97390
+	N32.36094, W84.98597
+	N32.31981, W84.96850
+	N32.28588, W84.92153
+	N32.24656, W84.92969
+	N32.20183, W84.99297
+	N32.14737, W85.03462
+	N32.05104, W85.06457
+
+[airport1]
+name = Southwest Georgia Regional Airport
+code = KABY
+runways =
+	rwy1, 04, N31.5296, W84.1997, 42.0, 6601, 0, 0, 196
+	rwy2, 16, N31.5413, W84.1994, 162.0, 5200, 0, 0, 195

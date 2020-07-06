@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = N8.73183, E106.633003
+magneticvar = -0.016
+beacons =
+	CS, N8.72972, E106.63200, 0, Conson
+
+line1 =
+	N8.70093, E106.56797
+	N8.68052, E106.58926
+	N8.68281, E106.61748
+	N8.70112, E106.65254
+	N8.72300, E106.64951
+	N8.76636, E106.65859
+	N8.70093, E106.56797
+
+line2 =
+	N9.09321, E105.50098
+	N9.39673, E106.16836
+	N9.44780, E106.19258
+	N9.50234, E106.20615
+	N9.59414, E106.15859
+	N9.67358, E106.11250
+
+line3 =
+	N9.67544, E106.20400
+	N9.55610, E106.37803
+	N9.55942, E106.48408
+	N9.60356, E106.53916
+	N9.64111, E106.57246
+	N9.71562, E106.56436
+
+[airport1]
+name = Co Ong Airport
+code = VVCS
+runways =
+	rwy1, 11, N8.73476, E106.625, 110.6, 6046, 0, 0, 18

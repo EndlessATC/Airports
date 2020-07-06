@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 958
+usa = true
+transition = 18001
+center = N41.5340003967, W93.6631011963
+magneticvar = 2.555
+beacons =
+	DS, N41.48220, W93.58060, 0, Forem
+	DSM, N41.43700, W93.64870, 0, Des Moines
+	IKV, N41.69870, W93.56340, 0, Ankeny
+	OXV, N41.29590, W93.11410, 0, Knoxville
+	PRO, N41.83060, W94.16050, 0, Perry
+	TNU, N41.78380, W93.10900, 0, Newton
+	BNW, N42.05430, W93.85310, 0, Boone
+	PEA, N41.40530, W92.94320, 0, Pella
+	CNC, N41.01680, W93.36200, 0, Chariton
+	GCT, N41.68190, W94.43330, 0, Guthrie Center
+	GFZ, N41.32560, W94.44440, 0, Greenfield
+	EFW, N42.01360, W94.34270, 0, Jefferson
+	GGI, N41.70970, W92.72960, 0, Grinnell
+	UNE, N40.95740, W94.34730, 0, Union County
+	MIW, N42.10990, W92.91690, 0, Marshalltown
+	JWJ, N42.11140, W92.90890, 0, Elmwood
+	CRZ, N40.99640, W94.75690, 0, Corning
+
+[airport1]
+name = Des Moines International Airport
+code = KDSM
+runways =
+	rwy1, 05, N41.5234, W93.6771, 54.0, 9003, 0, 0, 916
+	rwy2, 13, N41.5456, W93.6745, 132.0, 9001, 0, 0, 912

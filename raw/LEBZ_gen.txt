@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 609
+center = N38.8913002014, W6.8213300705
+magneticvar = -3.061
+beacons =
+	TBC, N38.89160, W6.81868, 0, Talavera
+	VBZ, N38.88990, W6.81575, 0, Badajoz
+	BJZ, N38.81660, W6.69819, 0, Badajoz
+	CCS, N39.52450, W6.43474, 0, Caceres
+	CAC, N39.52890, W6.42885, 0, Caceres
+
+line1 =
+	N39.85186, W5.99557
+	N39.80716, W5.85088
+	N39.79726, W5.65570
+
+line2 =
+	N39.85186, W5.99557
+	N39.76359, W6.32615
+	N39.74610, W6.53290
+	N39.77005, W6.72607
+	N39.75693, W6.89640
+	N39.68169, W7.11767
+
+line3 =
+	N39.68169, W7.11767
+	N39.68068, W7.45409
+	N39.63402, W7.65335
+	N39.54131, W7.82760
+	N39.49237, W7.98222
+	N39.48467, W8.18474
+
+[airport1]
+name = Badajoz Airport
+code = LEBZ
+runways =
+	rwy1, 13, N38.8988, W6.83462, 126.0, 9350, 0, 0, 579

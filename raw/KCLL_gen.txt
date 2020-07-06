@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 320
+usa = true
+transition = 18001
+center = N30.58860016, W96.36380005
+magneticvar = 4.027
+beacons =
+	CLL, N30.60500, W96.42070, 0, College Station
+	CL, N30.49370, W96.33770, 0, Rowdy
+	BNH, N30.22240, W96.37350, 0, Brenham
+	TNV, N30.28850, W96.05820, 0, Navasota
+	LOA, N31.12400, W95.96800, 0, Leona
+	IDU, N29.95610, W96.56220, 0, Industry
+	GYB, N30.16950, W96.97870, 0, Lee County
+	UTS, N30.74070, W95.59090, 0, Huntsville
+	CX, N30.43200, W95.47620, 0, Alibi
+	DWH, N30.12550, W95.56590, 0, David Hooks
+	EYQ, N29.93390, W95.64100, 0, Weiser
+
+line1 =
+	N31.54056, W97.06004
+	N31.42061, W96.97097
+	N31.24414, W96.90395
+	N30.79068, W96.65428
+	N30.61015, W96.51191
+	N30.55142, W96.39357
+	N30.48522, W96.31895
+	N30.41158, W96.28794
+	N30.37639, W96.24195
+	N30.37967, W96.18097
+	N30.36238, W96.13121
+	N30.32451, W96.09258
+	N30.25828, W96.09860
+	N30.16369, W96.14924
+	N30.09170, W96.15301
+	N30.04233, W96.10992
+	N29.93122, W96.07814
+	N29.75836, W96.05762
+	N29.66573, W96.03033
+	N29.64711, W95.97912
+	N29.63173, W95.90541
+	N29.60101, W95.75800
+
+[airport1]
+name = Easterwood Field
+code = KCLL
+runways =
+	rwy1, 04, N30.5853, W96.3731, 49.7, 5149, 0, 0, 307
+	rwy2, 10, N30.5915, W96.3728, 108.8, 5159, 0, 0, 320
+	rwy3, 16, N30.5966, W96.3629, 168.9, 7000, 0, 0, 321

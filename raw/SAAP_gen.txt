@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 242
+center = S31.7948, W60.4804
+magneticvar = -6.212
+beacons =
+	PAR, S31.80830, W60.48470, 0, Parana
+	P, S31.77670, W60.47670, 0, General Urquiza
+	OP, S31.72330, W60.46170, 0, General Urquiza
+	SVO, S31.71170, W60.80640, 0, Sauce Viejo
+	V, S31.73230, W60.82110, 0, Sauce Viejo
+	OV, S31.78080, W60.84310, 0, Sauce Viejo
+
+line1 =
+	S30.83000, W59.73782
+	S31.26962, W60.06351
+	S31.55425, W60.30151
+	S31.66587, W60.44760
+	S31.69936, W60.58113
+	S31.76767, W60.66593
+	S31.87082, W60.70205
+	S31.95913, W60.70554
+	S32.03262, W60.67647
+	S32.13566, W60.67807
+	S32.33456, W60.72649
+	S32.51745, W60.75698
+	S32.64540, W60.74427
+	S32.77955, W60.69849
+
+line2 =
+	S30.83083, W60.82122
+	S30.92648, W60.83527
+	S31.06978, W60.80652
+	S31.17159, W60.82752
+	S31.27959, W60.88871
+	S31.34150, W60.88886
+	S31.35741, W60.82788
+	S31.44681, W60.78701
+	S31.60970, W60.76623
+	S31.73269, W60.77703
+	S31.81568, W60.81943
+	S31.88250, W60.81093
+	S31.95913, W60.70554
+
+[airport1]
+name = General Urquiza Airport
+code = SAAP
+runways =
+	rwy1, 1, S31.8041, W60.482, 8.4, 6890, 0, 0, 243
+
+[airport2]
+name = Sauce Viejo Airport
+code = AV
+runways =
+	rwy2, 3, S31.7204, W60.8161, 24.0, 7628, 0, 0, 56
+inboundbeacon = SVO

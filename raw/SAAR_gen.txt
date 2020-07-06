@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 85
+center = S32.9036, W60.785
+magneticvar = -5.511
+beacons =
+	ROS, S32.90500, W60.78140, 0, Rosario
+	F, S32.88240, W60.77970, 0, Rosario
+
+line1 =
+	S33.17343, W60.38969
+	S33.25936, W60.28184
+	S33.53387, W59.85445
+	S33.68368, W59.54781
+
+line2 =
+	S33.17343, W60.38969
+	S33.24877, W60.11098
+	S33.26789, W59.94747
+	S33.25032, W59.82293
+	S33.31528, W59.66431
+	S33.46282, W59.47156
+
+line3 =
+	S33.17307, W60.39104
+	S33.17343, W60.38969
+
+line4 =
+	S31.95913, W60.70554
+	S32.03262, W60.67647
+	S32.13566, W60.67807
+	S32.33456, W60.72649
+	S32.51745, W60.75698
+	S32.64540, W60.74427
+	S32.77955, W60.69849
+	S32.91551, W60.63058
+	S33.05323, W60.54056
+	S33.17343, W60.38969
+	S33.17343, W60.38969
+
+[airport1]
+name = Islas Malvinas Airport
+code = SAAR
+runways =
+	rwy1, 02, S32.9168, W60.7876, 10.0, 9842, 0, 0, 82

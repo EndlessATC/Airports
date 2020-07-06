@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 246
+center = S38.725, W62.1693
+magneticvar = -1.199
+beacons =
+	BCA, S38.72000, W62.15830, 0, Bahia Blanca
+	EPO, S38.73390, W62.16280, 0, Comandante Espora
+	C, S38.70670, W62.16000, 0, Comandante Espora
+	OC, S38.65170, W62.18170, 0, Comandante Espora
+
+line1 =
+	S39.11221, W61.96665
+	S39.08623, W62.09302
+	S39.11016, W62.08330
+	S39.16689, W62.04160
+	S39.22744, W61.91802
+	S39.23486, W61.86597
+	S39.17188, W61.87578
+	S39.13564, W61.90713
+	S39.11221, W61.96665
+
+line2 =
+	S39.56836, W62.08276
+	S39.46152, W62.07681
+	S39.43154, W62.13057
+	S39.38047, W62.17935
+	S39.37383, W62.05366
+	S39.30977, W62.12646
+	S39.26182, W62.20908
+	S39.24326, W62.29507
+	S39.15059, W62.33809
+	S38.98809, W62.30361
+	S38.85293, W62.37446
+	S38.80010, W62.33477
+	S38.81328, W62.18926
+	S38.91914, W62.06689
+	S38.96182, W61.84790
+	S38.99883, W61.60254
+	S38.98086, W61.38286
+	S38.99297, W61.11221
+	S38.97393, W60.90396
+
+line3 =
+	S39.31569, W63.45641
+	S39.33491, W63.33618
+	S39.38008, W63.21435
+	S39.45098, W63.09090
+	S39.49909, W62.91838
+	S39.52441, W62.69674
+	S39.60828, W62.51662
+
+[airport1]
+name = Comandante Espora Airport
+code = SAZB
+runways =
+	rwy1, 16L, S38.7155, W62.1578, 163.9, 8579, 492, 0, 246
+	rwy2, 16R, S38.7199, W62.1843, 164.1, 4915, 0, 0, 246
+	rwy3, 6, S38.7278, W62.181, 60.7, 6660, 0, 0, 246

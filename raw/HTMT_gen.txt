@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 371
+center = S10.339099884, E40.1818008423
+magneticvar = -4.307
+beacons =
+	MT, S10.33240, E40.18450, 0, Mtwara
+
+line1 =
+	S11.33203, E40.40283
+	S11.26562, E40.42100
+	S11.17891, E40.49141
+	S11.06563, E40.54453
+	S11.02539, E40.52686
+	S10.99844, E40.50625
+	S10.92959, E40.51611
+	S10.83066, E40.59717
+	S10.76514, E40.48662
+	S10.71621, E40.55508
+	S10.66152, E40.61172
+	S10.56738, E40.51670
+	S10.46436, E40.46357
+	S10.44297, E40.45254
+	S10.41025, E40.43555
+	S10.35352, E40.38877
+	S10.24063, E40.21602
+	S10.20264, E40.13789
+	S10.15664, E40.08369
+	S10.15957, E39.98359
+	S10.09229, E39.94521
+	S10.02197, E39.86377
+	S10.00049, E39.72520
+	S9.91455, E39.78379
+	S9.83711, E39.77480
+	S9.72480, E39.72793
+	S9.57842, E39.69668
+	S9.40947, E39.62549
+
+line2 =
+	S11.16686, E39.17097
+	S11.12258, E39.32156
+	S11.03452, E39.43917
+	S10.97855, E39.56346
+	S10.95478, E39.69440
+	S10.91236, E39.81708
+	S10.82084, E39.98870
+	S10.46432, E40.46356
+
+[airport1]
+name = Mtwara Airport
+code = HTMT
+runways =
+	rwy1, 01, S10.3492, E40.1811, 4.0, 7410, 0, 0, 355
+	rwy2, 08, S10.3369, E40.1773, 80.0, 3815, 0, 0, 355

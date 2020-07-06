@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 25
+center = N18.1781005859, E120.531997681
+magneticvar = -2.031
+beacons =
+	LAO, N18.17880, E120.52900, 0, Laoag
+
+line1 =
+	N17.26992, E120.41172
+	N17.37690, E120.42715
+	N17.43833, E120.42451
+	N17.53511, E120.37207
+	N17.63818, E120.35840
+	N18.16265, E120.50508
+	N18.26406, E120.55098
+	N18.36875, E120.58447
+	N18.50786, E120.59971
+	N18.54595, E120.70938
+	N18.60342, E120.81377
+	N18.59893, E120.86777
+	N18.58511, E120.92500
+	N18.61367, E121.05137
+	N18.61528, E121.10156
+	N18.56343, E121.25449
+	N18.37646, E121.59297
+	N18.33008, E121.71680
+
+line2 =
+	N19.05068, E121.19609
+	N19.01519, E121.24668
+	N19.08242, E121.25225
+	N19.14302, E121.24473
+
+line3 =
+	N19.13892, E121.18994
+	N19.10142, E121.18486
+	N19.05068, E121.19609
+
+[airport1]
+name = Laoag International Airport
+code = RPLI
+runways =
+	rwy1, 01, N18.1636, E120.53, 5.4, 9120, 1181, 0, 24

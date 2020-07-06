@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1239
+usa = true
+transition = 18001
+center = N40.8493003845, W77.8487014771
+magneticvar = -9.421
+beacons =
+	UN, N40.91030, W77.74180, 0, Penue
+	PSB, N40.91630, W77.99270, 0, Philipsburg
+	RV, N40.61470, W77.71790, 0, Stroh
+	PS, N40.98570, W78.14460, 0, Ports
+	TON, N40.73510, W78.33130, 0, Tyrone
+	ETG, N41.21500, W78.14280, 0, Keating
+	AOO, N40.32540, W78.30370, 0, Altoona
+	SLT, N41.51280, W77.97010, 0, Slate Run
+	SEG, N40.79080, W76.88400, 0, Selinsgrove
+	REC, N40.54650, W78.74700, 0, Revloc
+	HAR, N40.30220, W77.06960, 0, Harrisburg
+	JST, N40.31670, W78.83420, 0, Johnstown
+	CX, N40.17820, W77.00560, 0, Latle
+	MD, N40.24630, W76.90060, 0, Enola
+	FQM, N41.33860, W76.77490, 0, Williamsport
+	SYS, N40.08570, W78.91650, 0, Stoystown
+
+line1 =
+	N41.83187, W77.86005
+	N41.78112, W77.99893
+	N41.77073, W78.08306
+	N41.79027, W78.19659
+
+line2 =
+	N41.84879, W79.05881
+	N41.83417, W79.20051
+	N41.78918, W79.30789
+	N41.71384, W79.38096
+
+[airport1]
+name = University Park Airport
+code = KUNV
+runways =
+	rwy1, 06, N40.8444, W77.8571, 52.6, 6701, 0, 0, 1231

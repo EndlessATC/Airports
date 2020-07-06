@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 93
+center = S11.5337, E43.2719
+magneticvar = -6.251
+beacons =
+	HAI, S11.51500, E43.27670, 0, Prince Said Ibrahim
+	HA, S11.60080, E43.26090, 0, Prince Said Abrahim
+	FXM, S11.68860, E43.24650, 0, Iconi
+
+line1 =
+	S12.07139, E44.45186
+	S12.09297, E44.41260
+	S12.12012, E44.40703
+	S12.16563, E44.37910
+	S12.17305, E44.33447
+	S12.16475, E44.29229
+	S12.17139, E44.22012
+	S12.25225, E44.37744
+	S12.33516, E44.46016
+
+line2 =
+	S12.25596, E43.70430
+	S12.24707, E43.63135
+	S12.28770, E43.63291
+	S12.34287, E43.66367
+	S12.36826, E43.85898
+	S12.30703, E43.78867
+	S12.25596, E43.70430
+
+line3 =
+	S11.61416, E43.37939
+	S11.40859, E43.39297
+	S11.36846, E43.34150
+	S11.37451, E43.29902
+	S11.39121, E43.28066
+	S11.43213, E43.25605
+	S11.75186, E43.22666
+	S11.84404, E43.30332
+	S11.85752, E43.35547
+	S11.91455, E43.44678
+	S11.90127, E43.46582
+	S11.86211, E43.49150
+	S11.75254, E43.44766
+	S11.61416, E43.37939
+
+[airport1]
+name = Prince Said Ibrahim International Airport
+code = FMCH
+runways =
+	rwy1, 02, S11.5466, E43.2696, 10.0, 9514, 0, 0, 66

@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1056
+center = S28.2817, W54.169102
+magneticvar = -13.351
+beacons =
+	SAN, S28.27930, W54.17190, 0, Santo Angelo
+
+line1 =
+	S27.28960, W54.20524
+	S27.38205, W54.26015
+	S27.42349, W54.32701
+	S27.44644, W54.44812
+	S27.45729, W54.48434
+	S27.45414, W54.55493
+	S27.47719, W54.61542
+	S27.52654, W54.66586
+	S27.54493, W54.71973
+	S27.53253, W54.77709
+	S27.55062, W54.82908
+	S27.59925, W54.87574
+	S27.65190, W54.90277
+	S27.70854, W54.91021
+	S27.74714, W54.95589
+	S27.76781, W55.03992
+	S27.79629, W55.06901
+	S27.83592, W55.06387
+	S27.86677, W55.10151
+	S27.89887, W55.24373
+	S27.95592, W55.34651
+	S28.03782, W55.40982
+	S28.08934, W55.47669
+
+[airport1]
+name = Santo Ângelo Airport
+code = SBNM

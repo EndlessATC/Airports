@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 755
+usa = true
+transition = 18001
+center = N40.03919983, W88.27809906
+magneticvar = -2.567
+beacons =
+	CMI, N40.03450, W88.27610, 0, Champaign
+	CM, N39.96620, W88.18240, 0, Veals
+	AXC, N39.73752, W88.85643, 0, Decatur
+	RBS, N40.58170, W88.16430, 0, Roberts
+	MTO, N39.47800, W88.28610, 0, Mattoon
+	DE, N39.79050, W88.95380, 0, Elwin
+	PRG, N39.69840, W87.67420, 0, Paris
+	MT, N39.44240, W88.17350, 0, Zebre
+	DNV, N40.29380, W87.55720, 0, Danville
+	DN, N40.28950, W87.52970, 0, Julip
+	BMI, N40.48080, W88.93120, 0, Bloomington
+	LH, N40.56040, W88.87460, 0, Egrow
+	CZB, N39.30520, W88.00200, 0, Casey
+	SYZ, N39.40670, W88.84370, 0, Shelbyville
+	AAA, N40.16010, W89.33780, 0, Abraham
+	PNT, N40.82120, W88.73350, 0, Pontiac
+	HU, N39.38790, W87.39770, 0, Yinno
+	TAZ, N39.53610, W89.32360, 0, Taylorville
+	TTH, N39.48900, W87.24900, 0, Terre Haute
+
+line1 =
+	N40.49360, W86.81767
+	N40.41177, W86.95492
+	N40.41451, W87.02923
+	N40.38952, W87.11705
+	N40.33687, W87.21842
+	N40.21413, W87.40378
+	N40.12747, W87.44502
+	N40.01833, W87.43773
+	N39.94077, W87.41872
+	N39.89472, W87.38807
+	N39.80837, W87.37784
+	N39.68161, W87.38802
+	N39.56771, W87.41262
+	N39.46669, W87.45163
+	N39.39209, W87.50711
+	N39.34398, W87.57912
+	N39.29135, W87.61106
+	N39.23414, W87.60292
+	N39.19329, W87.61498
+	N39.16875, W87.64728
+	N39.10671, W87.63170
+
+[airport1]
+name = University of Illinois Willard Airport
+code = KCMI
+runways =
+	rwy1, 04, N40.0318, W88.2854, 40.0, 6500, 0, 0, 751
+	rwy2, 14L, N40.0474, W88.2857, 136.0, 8100, 0, 0, 754
+	rwy3, 18, N40.0471, W88.2823, 179.4, 5299, 0, 0, 752

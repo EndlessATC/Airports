@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4232
+metric = true
+center = N38.281055, E77.075192
+magneticvar = 3.029
+beacons =
+	SCH, N38.42830, E77.24000, 0, Shache
+	SC, N38.43330, E77.26670, 0, Shache
+
+line1 =
+	N37.29271, E75.95157
+	N37.30299, E75.96955
+	N37.29643, E76.00593
+	N37.28553, E76.05627
+	N37.31059, E76.14195
+	N37.38229, E76.21357
+	N37.52288, E76.22897
+	N37.73237, E76.18794
+	N37.87479, E76.21636
+	N37.95022, E76.31413
+	N37.98946, E76.40178
+	N37.99251, E76.47939
+	N37.97843, E76.52291
+	N37.94719, E76.53252
+	N37.91934, E76.59680
+	N37.89484, E76.71587
+	N37.99678, E76.92691
+	N38.22513, E77.22994
+	N38.40029, E77.36849
+	N38.52225, E77.34255
+	N38.65521, E77.39035
+	N38.79918, E77.51199
+	N38.90502, E77.56842
+	N38.97276, E77.55985
+	N39.03963, E77.57855
+	N39.10568, E77.62475
+	N39.14107, E77.66961
+	N39.14591, E77.71312
+	N39.20409, E77.80241
+
+[airport1]
+name = Yeerqiang Airport
+code = ZWSC

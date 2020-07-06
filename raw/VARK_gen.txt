@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 441
+center = N22.3092002869, E70.7795028687
+magneticvar = -0.035
+beacons =
+	RKT, N22.31310, E70.77830, 0, Rajkot
+	RK, N22.31090, E70.78630, 0, Rajkot
+	JMR, N22.46860, E70.17110, 0, Jamnagar
+	KD, N23.11160, E70.10750, 0, Kandla
+
+line1 =
+	N22.75908, E69.66465
+	N22.77520, E69.73965
+	N22.85645, E69.84980
+	N22.94702, E70.11826
+	N22.96567, E70.19170
+	N22.97090, E70.25117
+	N22.93975, E70.33945
+	N22.97349, E70.36797
+	N23.03013, E70.39629
+	N23.07710, E70.43457
+	N23.08950, E70.48926
+	N23.04014, E70.50938
+	N23.00249, E70.51348
+	N22.97031, E70.44043
+	N22.81577, E70.32773
+	N22.57275, E70.17725
+	N22.55352, E70.08418
+	N22.54771, E70.00586
+	N22.45176, E69.81904
+	N22.46519, E69.72754
+	N22.40352, E69.65518
+	N22.40840, E69.54922
+
+line2 =
+	N21.67856, E69.54199
+	N21.50571, E69.74844
+
+[airport1]
+name = Rajkot Airport
+code = VARK
+runways =
+	rwy1, 05, N22.3035, E70.773, 47.0, 6040, 312, 300, 438

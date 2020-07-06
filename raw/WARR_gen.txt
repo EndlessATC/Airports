@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = S7.37982988358, E112.787002563
+magneticvar = 1.256
+beacons =
+	SB, S7.38623, E112.78000, 0, Surabaya
+	SBR, S7.37394, E112.77100, 0, Surabaya
+	WR, S7.36621, E112.70300, 0, Surabaya
+	LW, S7.82188, E112.69100, 0, Lawang
+	ML, S7.93402, E112.71200, 0, Malang
+
+line1 =
+	S8.32393, E112.11514
+	S8.35361, E112.35156
+
+line2 =
+	S8.36143, E112.89775
+	S8.31270, E113.01895
+	S8.28828, E113.13369
+	S8.28672, E113.25332
+
+line3 =
+	S7.67725, E113.87627
+	S7.70303, E113.74746
+	S7.72383, E113.49766
+	S7.71816, E113.24844
+	S7.65771, E113.01357
+	S7.55244, E112.79453
+	S7.43164, E112.78291
+	S7.30449, E112.79434
+	S7.26504, E112.75195
+	S7.22129, E112.64873
+	S7.17803, E112.62598
+	S7.05059, E112.58691
+	S6.92646, E112.53926
+	S6.90303, E112.43359
+	S6.89443, E112.31230
+	S6.90508, E112.13672
+	S6.89336, E112.08730
+	S6.80596, E111.98984
+	S6.77344, E111.73760
+	S6.74170, E111.68809
+	S6.69873, E111.64355
+
+line4 =
+	S6.87998, E113.06738
+	S6.89990, E112.86807
+	S7.00127, E112.76875
+	S7.07275, E112.72588
+	S7.13965, E112.76377
+	S7.21182, E113.04043
+	S7.22412, E113.12695
+	S7.20762, E113.14189
+	S7.20732, E113.16602
+	S7.21836, E113.19844
+	S7.21846, E113.47070
+	S7.19336, E113.54639
+	S7.11172, E113.65586
+	S7.11992, E113.82559
+	S7.10537, E113.84453
+	S7.04902, E113.88535
+
+[airport1]
+name = Juanda International Airport
+code = WARR
+runways =
+	rwy1, 10, S7.37765, E112.773, 99.3, 9843, 0, 0, 11

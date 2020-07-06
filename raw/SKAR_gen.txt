@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3990
+center = N4.45278, W75.7664
+magneticvar = -4.529
+beacons =
+	AXM, N4.45135, W75.77290, 0, Armenia
+	EPO, N4.47278, W75.55670, 0, El Paso
+	PEI, N4.78083, W75.83560, 0, Pereira
+	MAT, N4.80044, W75.77670, 0, Matecana
+	ULQ, N4.09000, W76.22360, 0, Tulua
+	LNA, N5.05528, W75.52860, 0, Manizales
+	IBG, N4.39647, W75.10730, 0, Ibague
+	IBG, N4.39750, W75.10580, 0, Ibague
+
+line1 =
+	N3.46111, W75.15915
+	N3.79339, W74.97115
+	N4.03779, W74.85809
+	N4.19427, W74.82005
+	N4.27426, W74.82359
+	N4.27778, W74.86871
+	N4.42169, W74.86108
+	N4.84805, W74.77052
+	N5.18870, W74.75561
+	N5.36740, W74.72316
+
+[airport1]
+name = El Eden Airport
+code = SKAR
+runways =
+	rwy1, 02, N4.44339, W75.7687, 13.0, 7045, 0, 0, 3968
+
+[airport2]
+name = Santa Ana Airport
+code = GO
+runways =
+	rwy2, 01, N4.74812, W75.9566, 4.8, 7218, 100, 100, 2977
+inboundbeacon = PEI
+
+[airport3]
+name = Matecaña International Airport
+code = PE
+runways =
+	rwy3, 08, N4.8099, W75.7482, 73.0, 6627, 0, 0, 4342
+inboundbeacon = MAT

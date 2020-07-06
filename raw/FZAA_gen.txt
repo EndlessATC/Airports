@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1027
+center = S4.38575, E15.4446
+magneticvar = -3.122
+beacons =
+	KSA, S4.40474, E15.41820, 0, Ndjili
+	OK, S4.34229, E15.51620, 0, Ndjili
+	NDO, S4.31895, E15.31620, 0, Ndolo
+	BZ, S4.24561, E15.26380, 0, Brazzaville Maya Maya
+
+line1 =
+	S3.46413, E16.14675
+	S3.76618, E15.99006
+	S3.93428, E15.87245
+	S3.98554, E15.75463
+	S4.03092, E15.60006
+	S4.08797, E15.52601
+	S4.17179, E15.48095
+	S4.24496, E15.39465
+	S4.30759, E15.26721
+	S4.46107, E15.10629
+	S4.70560, E14.91209
+	S4.84575, E14.77928
+	S4.88172, E14.70787
+	S4.88508, E14.63397
+	S4.85578, E14.55759
+	S4.85164, E14.49393
+	S4.88306, E14.41765
+
+line2 =
+	S5.15777, E16.50827
+	S5.02331, E16.53566
+	S4.84110, E16.53566
+	S4.61124, E16.50827
+	S4.45962, E16.50786
+	S4.38614, E16.53453
+	S4.31472, E16.53608
+	S4.24548, E16.51251
+	S4.18011, E16.58651
+
+[airport1]
+name = Ndjili International Airport
+code = FZAA
+runways =
+	rwy1, 06, S4.39717, E15.4267, 58.0, 15420, 0, 0, 998
+
+[airport2]
+name = Maya-Maya Airport
+code = BB
+runways =
+	rwy2, 05, S4.25882, E15.2417, 50.0, 10827, 0, 0, 1030
+inboundbeacon = BZ

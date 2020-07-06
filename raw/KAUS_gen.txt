@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 542
+usa = true
+transition = 18001
+center = N30.1944999695, W97.6698989868
+magneticvar = 5.408
+beacons =
+	AU, N30.23570, W97.62570, 0, Austi
+	GF, N30.28760, W97.68180, 0, Birdy
+	CWK, N30.37850, W97.52980, 0, Centex
+	RU, N29.95880, W97.94900, 0, Garys
+	GUO, N30.68440, W97.67990, 0, Georgetown
+	GYB, N30.16950, W96.97870, 0, Lee County
+	MFS, N30.52320, W98.35780, 0, Horseshoe Bay Resort
+	BMQ, N30.74030, W98.23620, 0, Burnet
+	IL, N31.02400, W97.70800, 0, Iresh
+	DHK, N29.53690, W98.26780, 0, Randolph
+	RND, N29.51920, W98.28520, 0, Randolph
+	SAT, N29.64400, W98.46130, 0, San Antonio
+	AN, N29.60490, W98.57140, 0, Alamo
+	SA, N29.47460, W98.51860, 0, Bluie
+	KSY, N29.39160, W98.58100, 0, Kelly
+
+line1 =
+	N30.79068, W96.65428
+	N30.61015, W96.51191
+	N30.55142, W96.39357
+
+[airport1]
+name = Austin Bergstrom International Airport
+code = KAUS
+runways =
+	rwy1, 17L, N30.2038, W97.6579, 178.7, 9000, 0, 0, 492
+	rwy2, 17R, N30.2136, W97.6794, 178.7, 12248, 0, 0, 542

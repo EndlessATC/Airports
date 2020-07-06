@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 68
+center = N28.9447994232, E50.8345985413
+magneticvar = 2.441
+beacons =
+	BUZ, N28.95140, E50.82610, 0, Bushehr
+	BUZ, N28.95540, E50.82080, 0, Bushehr
+	BUZ, N28.96220, E50.82280, 0, Bushehr
+	KHG, N29.26070, E50.32130, 0, Khark Island
+	KHG, N29.26460, E50.31720, 0, Khark Island
+
+line1 =
+	N29.92124, E50.16895
+	N29.87290, E50.23018
+	N29.67905, E50.38691
+	N29.54800, E50.54355
+	N29.42007, E50.64961
+	N29.33984, E50.66797
+	N29.21221, E50.64609
+	N29.14658, E50.67520
+	N29.11743, E50.79551
+	N29.06270, E50.87578
+	N29.00439, E50.87578
+	N28.92783, E50.84297
+	N28.87017, E50.86699
+	N28.78208, E51.02119
+	N28.72612, E51.06201
+	N28.51211, E51.09385
+	N28.43516, E51.12842
+	N28.21885, E51.27607
+	N28.13135, E51.27891
+
+[airport1]
+name = Bushehr Airport
+code = OIBB
+runways =
+	rwy1, 13L, N28.9591, E50.8184, 132.0, 14663, 0, 0, 4
+	rwy2, 13R, N28.9575, E50.8168, 132.0, 14664, 0, 0, 2

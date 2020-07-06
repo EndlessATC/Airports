@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1170
+center = N41.728185, E0.535023
+magneticvar = -0.456
+beacons =
+	LRD, N41.55290, E0.64802, 0, Lerida
+	MLA, N41.12960, E0.16524, 0, Maella
+	RUS, N41.14780, E1.14614, 0, Reus
+	RES, N41.14970, E1.17112, 0, Reus
+	TON, N41.92790, W0.51384, 0, Torralba De Aragon
+	SEO, N42.23220, E1.40352, 0, Seo De Urgel
+	VLA, N41.34260, E1.54770, 0, Villafranca
+
+line1 =
+	N40.80381, E0.79609
+	N40.82285, E0.71465
+	N40.89160, E0.81689
+	N41.06206, E1.03291
+	N41.09756, E1.20586
+	N41.19561, E1.56660
+	N41.28740, E2.08262
+
+line2 =
+	N41.62152, W0.74840
+	N41.47892, W0.52642
+	N41.37432, W0.44423
+	N41.30942, W0.30109
+	N41.28420, W0.09707
+	N41.30606, E0.04034
+	N41.37499, E0.11114
+	N41.41065, E0.16710
+	N41.41313, E0.20813
+	N41.39889, E0.26275
+	N41.36797, E0.33086
+	N41.32843, E0.36221
+	N41.28027, E0.35675
+	N41.25573, E0.36430
+	N41.25430, E0.39502
+	N41.24890, E0.52543
+	N41.21963, E0.58987
+	N41.16470, E0.63172
+	N41.11920, E0.65250
+	N41.08313, E0.65198
+	N41.03752, E0.61384
+	N40.98238, E0.53788
+	N40.90389, E0.51705
+	N40.80203, E0.55126
+	N40.74462, E0.65059
+
+line3 =
+	N42.62696, E1.80902
+	N42.69305, E1.82493
+
+[airport1]
+name = Lleida-Alguaire Airport
+code = LEDA

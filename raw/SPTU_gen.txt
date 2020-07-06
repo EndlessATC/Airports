@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 659
+center = S12.6135997772, W69.2285995483
+magneticvar = -5.528
+beacons =
+	PDO, S12.60830, W69.22720, 0, Puerto Maldonado
+
+line1 =
+	S12.59784, W70.31883
+	S12.60021, W70.23170
+	S12.58900, W70.17966
+	S12.56456, W70.15535
+	S12.56776, W70.11476
+	S12.58641, W70.02557
+	S12.65535, W69.76801
+	S12.66078, W69.57784
+	S12.60269, W69.45495
+	S12.55939, W69.39098
+	S12.55381, W69.34439
+	S12.56807, W69.30892
+	S12.58171, W69.26778
+	S12.57489, W69.23520
+	S12.55226, W69.21466
+	S12.54781, W69.18748
+	S12.57324, W69.15601
+	S12.57448, W69.10715
+	S12.54264, W69.06319
+	S12.53438, W69.00780
+	S12.55556, W68.94868
+	S12.54843, W68.85892
+	S12.49515, W68.67828
+	S12.42906, W68.60614
+	S12.40947, W68.55581
+	S12.41438, W68.50328
+	S12.37325, W68.45533
+	S12.28612, W68.41197
+	S12.22039, W68.35430
+	S12.17595, W68.28229
+	S12.12035, W68.23854
+	S12.05348, W68.22304
+	S12.00459, W68.16041
+	S11.97374, W68.05070
+
+[airport1]
+name = Padre Aldamiz International Airport
+code = SPTU
+runways =
+	rwy1, 01, S12.6289, W69.2288, 2.1, 11482, 0, 0, 659

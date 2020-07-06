@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = S2.25241994858, E40.9131011963
+
+line1 =
+	S2.10977, E40.97646
+	S2.16729, E40.95732
+	S2.15840, E40.99443
+	S2.10010, E41.11816
+	S2.08506, E41.13682
+	S2.06982, E41.13926
+	S2.05303, E41.13066
+	S2.03652, E41.08604
+	S2.10977, E40.97646
+
+line2 =
+	S3.25059, E40.11543
+	S3.17334, E40.12813
+	S3.01924, E40.19473
+	S2.81904, E40.17979
+	S2.68838, E40.22246
+	S2.62861, E40.27852
+	S2.55566, E40.40449
+	S2.53945, E40.64414
+	S2.39238, E40.81318
+	S2.33633, E40.82012
+	S2.26992, E40.89824
+	S2.19375, E40.92236
+	S2.13750, E40.90586
+	S2.02354, E40.88975
+	S2.04248, E40.91660
+	S2.05596, E40.95215
+	S1.99180, E40.97070
+	S1.95059, E40.99551
+	S1.97520, E41.05869
+	S1.98232, E41.10684
+	S1.94502, E41.26748
+	S1.86699, E41.38691
+	S1.69531, E41.53271
+	S1.57852, E41.63203
+	S1.43008, E41.73223
+
+[airport1]
+name = Manda Airstrip
+code = HKLU
+runways =
+	rwy1, 07, S2.25311, E40.9108, 73.0, 3054, 0, 0, 0
+	rwy2, 08, S2.25311, E40.9108, 74.0, 3054, 0, 0, 20
+	rwy3, 16, S2.24634, E40.91, 152.0, 3293, 0, 0, 20
+
+[airport2]
+name = Kiwayu Airport
+code = WY
+inboundbeacon = vor

@@ -1,0 +1,16 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 892
+center = N60.3596992493, E102.323997498
+magneticvar = -1.065
+beacons =
+	FO, N60.36670, E102.30000, 0, Vanavara
+
+[airport1]
+name = Vanavara Airport
+code = UNIW

@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 151
+center = S33.9648017883, E18.6016998291
+magneticvar = -24.331
+beacons =
+	CTV, S33.96950, E18.60500, 0, Cape Town
+	CB, S33.87610, E18.57330, 0, Cape Town
+	RIV, S33.79960, E18.36450, 0, Robben Island
+	SVV, S33.24930, E18.47810, 0, Somersveld
+	WY, S33.41390, E19.18690, 0, Wolseley
+	WC, S33.66330, E19.41670, 0, Worcester
+	GE, S34.05730, E19.60330, 0, Greyton
+
+line1 =
+	S33.04639, E17.95840
+	S33.15234, E17.99258
+	S33.20732, E18.07480
+	S33.35879, E18.15635
+	S33.42168, E18.26123
+	S33.51445, E18.30947
+	S33.71729, E18.43301
+	S33.79648, E18.45645
+	S33.88779, E18.46504
+	S33.93906, E18.35439
+	S34.07422, E18.33340
+	S34.18848, E18.35205
+	S34.29561, E18.41035
+	S34.34688, E18.46162
+	S34.16807, E18.46211
+	S34.10928, E18.50039
+	S34.08594, E18.53389
+	S34.07734, E18.60518
+	S34.07188, E18.70869
+	S34.08262, E18.75215
+	S34.10820, E18.80879
+	S34.18848, E18.82637
+	S34.25391, E18.83066
+	S34.29648, E18.82510
+	S34.36406, E18.83135
+	S34.36064, E18.90156
+	S34.34375, E18.95215
+	S34.35010, E19.09834
+	S34.41689, E19.14912
+	S34.41230, E19.24463
+	S34.43701, E19.27939
+	S34.49238, E19.33076
+	S34.57080, E19.32324
+	S34.61504, E19.29824
+	S34.60566, E19.39150
+	S34.75332, E19.63496
+	S34.75664, E19.85000
+	S34.77471, E19.92627
+
+[airport1]
+name = Cape Town International Airport
+code = FACT
+runways =
+	rwy1, 01, S33.9877, E18.6089, 346.0, 10502, 0, 0, 144
+	rwy2, 16, S33.9614, E18.5975, 136.0, 5581, 0, 0, 143

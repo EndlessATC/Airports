@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1788
+center = S23.47606, W52.016187
+magneticvar = -17.228
+beacons =
+	MRN, S23.47580, W52.00600, 0, Maringa
+	PP, S23.32780, W51.14950, 0, Guaruja
+	LON, S23.32770, W51.13580, 0, Londrina
+	LON, S23.33950, W51.11250, 0, Londrina
+
+line1 =
+	S22.64001, W53.11626
+	S22.75194, W53.27232
+
+[airport1]
+name = Regional de Maringá - Sílvio Name Júnior Airport
+code = SBMG

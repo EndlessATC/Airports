@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 39
+center = N0.458600014448, E9.4122800827
+magneticvar = -3.322
+beacons =
+	LV, N0.47983, E9.40197, 0, Libreville
+	LN, N0.53575, E9.37486, 0, Libreville
+
+line1 =
+	N1.43530, E9.49424
+	N1.29639, E9.43408
+	N1.13926, E9.38594
+	N1.12065, E9.44531
+	N1.11479, E9.50986
+	N1.05444, E9.59941
+	N1.03198, E9.59082
+	N0.99131, E9.57539
+	N0.77944, E9.62588
+	N0.63164, E9.62529
+	N0.57651, E9.61797
+	N0.56772, E9.60107
+	N0.59419, E9.55664
+	N0.65869, E9.53896
+	N0.66484, E9.49531
+	N0.61084, E9.32998
+	N0.55210, E9.32480
+	N0.48672, E9.39883
+	N0.36191, E9.47012
+	N0.29595, E9.54648
+	N0.19248, E9.77666
+	N0.21987, E9.94443
+	N0.19497, E10.00146
+	N0.12559, E9.81270
+	N0.04424, E9.79678
+	N0.08496, E9.73838
+	N0.14893, E9.57432
+	N0.15977, E9.46816
+	N0.20044, E9.41113
+	N0.24590, E9.38613
+	N0.30723, E9.37578
+	N0.34360, E9.35488
+	N0.28853, E9.30186
+	N0.11582, E9.32529
+	S0.05825, E9.33906
+	S0.35127, E9.29668
+
+[airport1]
+name = Libreville Leon M'ba International Airport
+code = FOOL
+runways =
+	rwy1, 16, N0.470814, E9.40635, 154.0, 9844, 0, 0, 29

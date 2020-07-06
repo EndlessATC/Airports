@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 72
+center = S37.9342, W57.5733
+magneticvar = -6.458
+beacons =
+	MDP, S37.92970, W57.57640, 0, Mar Del Plata
+	MDP, S37.93940, W57.57560, 0, Mar Del Plata
+	GES, S37.23470, W57.02390, 0, Villa Gesell
+
+line1 =
+	S38.67334, W59.00723
+	S38.43584, W58.17920
+	S38.16963, W57.64561
+	S38.08564, W57.54697
+	S37.90928, W57.50728
+	S37.74463, W57.39575
+	S37.44639, W57.08770
+	S36.95771, W56.72715
+
+[airport1]
+name = Ástor Piazzola International Airport
+code = SAZM
+runways =
+	rwy1, 13, S37.9289, W57.5839, 123.0, 7218, 0, 0, 71

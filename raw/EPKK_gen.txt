@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 791
+center = N50.077702, E19.7848
+magneticvar = 3.562
+beacons =
+	L, N50.08190, E19.81460, 0, Krakow
+	KRW, N50.09560, E19.91280, 0, Krakow
+	PT, N50.47410, E19.15030, 0, Katowice
+	P, N50.47350, E19.10660, 0, Pyrzowice
+	JAB, N49.48290, E19.67860, 0, Jablonka
+	JAB, N49.47660, E19.69400, 0, Jablonka
+	JED, N50.64730, E20.25120, 0, Jedow
+
+line1 =
+	N49.92504, E18.81046
+	N49.93189, E18.93686
+
+line2 =
+	N49.67175, E18.01578
+	N49.72988, E18.14166
+	N49.79474, E18.22486
+	N49.88564, E18.30734
+	N49.97240, E18.31659
+	N50.05503, E18.25261
+	N50.13746, E18.23101
+	N50.21967, E18.25179
+	N50.32101, E18.18538
+	N50.44137, E18.03190
+
+line3 =
+	N49.64384, E18.87919
+	N49.81742, E18.78819
+	N49.88770, E18.77098
+	N49.92501, E18.81025
+	N49.93189, E18.93686
+	N49.95230, E19.06817
+	N49.98659, E19.14129
+	N50.04155, E19.19989
+	N50.04573, E19.34826
+	N49.99922, E19.58628
+	N50.00604, E19.85164
+	N50.09632, E20.29068
+	N50.13730, E20.52198
+	N50.18766, E20.64528
+	N50.26107, E20.73768
+	N50.30732, E20.88320
+	N50.32639, E21.08195
+	N50.38556, E21.28927
+	N50.48488, E21.50528
+
+[airport1]
+name = Kraków John Paul II International Airport
+code = EPKK
+runways =
+	rwy1, 07, N50.0754, E19.7681, 78.0, 8366, 0, 784, 792

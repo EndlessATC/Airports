@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 64
+center = S12.9086112976, W38.3224983215
+magneticvar = -23.019
+beacons =
+	SVD, S12.90650, W38.32130, 0, Salvador
+	SVD, S12.91670, W38.34020, 0, Salvador
+	IV, S12.91320, W38.34570, 0, Ipitanga
+	IS, S12.92800, W38.42080, 0, Cimbra
+	AGN, S12.15270, W38.38950, 0, Alagoinhas
+
+line1 =
+	S12.88018, W38.66812
+	S12.97490, W38.68486
+	S13.05508, W38.78696
+	S13.11865, W38.78301
+	S13.09707, W38.74385
+	S12.99258, W38.60117
+	S12.97246, W38.60029
+	S12.92402, W38.61455
+	S12.88018, W38.66812
+
+line2 =
+	S13.41553, W39.00659
+	S13.44561, W39.02217
+	S13.48408, W38.99321
+	S13.52354, W38.97759
+	S13.53232, W38.93789
+	S13.47344, W38.90356
+	S13.40107, W38.90713
+	S13.39844, W38.98013
+	S13.41553, W39.00659
+
+line3 =
+	S13.75811, W39.04111
+	S13.66455, W39.00122
+	S13.61504, W38.98862
+	S13.58145, W39.00908
+	S13.55879, W39.03491
+	S13.58818, W39.08936
+	S13.48047, W39.06738
+	S13.36514, W39.03091
+	S13.27305, W38.95918
+	S13.14717, W38.83530
+	S13.03291, W38.83315
+	S12.90723, W38.76372
+	S12.84443, W38.78359
+	S12.79014, W38.85176
+	S12.78271, W38.78799
+	S12.74854, W38.74390
+	S12.62393, W38.69097
+	S12.64463, W38.65400
+	S12.76230, W38.52490
+	S12.95664, W38.49893
+	S12.96709, W38.44731
+	S12.96621, W38.40176
+	S12.84424, W38.23975
+	S12.59131, W38.01924
+	S12.47549, W37.95732
+	S12.10000, W37.68872
+
+[airport1]
+name = Deputado Luiz Eduardo Magalhães International Airport
+code = SBSV

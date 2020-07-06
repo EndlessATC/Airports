@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1135
+usa = true
+transition = 18001
+center = N33.434299469, W112.012001038
+magneticvar = 11.363
+beacons =
+	PXR, N33.43300, W111.97000, 0, Phoenix
+	SDL, N33.62910, W111.90800, 0, Scottsdale
+	FFZ, N33.46190, W111.73300, 0, Falcon Fld
+	CHD, N33.26650, W111.80800, 0, Chandler
+	LUF, N33.53770, W112.38000, 0, Luke
+	IWA, N33.30320, W111.65100, 0, Willie
+	TFD, N32.88590, W111.90900, 0, Stanfield
+	BXK, N33.45350, W112.82500, 0, Buckeye
+	GBN, N32.95630, W112.67400, 0, Gila Bend
+
+line1 =
+	N33.10426, W111.24938
+	N33.03977, W111.45477
+	N33.05416, W111.64835
+	N33.12589, W111.89859
+	N33.22185, W112.12232
+	N33.34205, W112.31957
+	N33.37161, W112.51119
+	N33.31053, W112.69722
+	N33.23792, W112.76694
+	N33.15384, W112.72022
+	N33.08661, W112.70355
+	N33.03625, W112.71694
+	N33.02982, W112.80918
+	N33.06728, W112.98026
+	N33.06747, W113.08374
+	N33.03034, W113.11960
+	N33.00088, W113.19722
+	N32.97907, W113.31659
+
+line2 =
+	N33.05617, W110.69357
+	N33.03814, W110.81450
+	N33.09534, W110.91630
+	N33.12092, W111.03929
+	N33.11173, W111.25558
+
+[airport1]
+name = Phoenix Sky Harbor International Airport
+code = KPHX
+runways =
+	rwy1, 07L, N33.4311, W112.027, 90.0, 10300, 0, 0, 1110
+	rwy2, 07R, N33.4289, W112.027, 90.0, 7800, 0, 0, 1111
+	rwy3, 08, N33.4409, W112.03, 90.1, 11489, 898, 0, 1113

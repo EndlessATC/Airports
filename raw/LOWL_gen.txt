@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 980
+center = N48.2332, E14.1875
+magneticvar = 1.596
+beacons =
+	LNZ, N48.22970, E14.10320, 0, Linz
+	LNZ, N48.23710, E14.32180, 0, Linz
+	FRE, N48.43180, E14.12980, 0, Freistadt
+	R, N48.94630, E14.45820, 0, Ceske Budejovice
+	RA, N48.94630, E14.51530, 0, Ceske Budejovice
+	SU, N47.87930, E12.94990, 0, Salzburg
+	SI, N47.81860, E12.98770, 0, Salzburg
+
+line1 =
+	N48.37937, E15.86139
+	N48.41128, E15.69272
+	N48.42371, E15.57303
+	N48.41668, E15.50234
+	N48.37090, E15.43118
+	N48.28630, E15.35956
+	N48.22879, E15.26473
+	N48.19835, E15.14670
+	N48.19789, E15.03575
+	N48.22739, E14.93188
+	N48.22721, E14.82879
+	N48.19732, E14.72647
+	N48.21874, E14.58343
+	N48.29155, E14.39967
+	N48.32826, E14.24309
+	N48.32888, E14.11380
+	N48.35235, E14.03680
+	N48.39862, E14.01220
+	N48.46177, E13.87159
+	N48.58184, E13.48665
+	N48.60230, E13.31627
+	N48.63641, E13.19995
+	N48.69098, E13.08089
+	N48.74762, E13.00477
+	N48.80632, E12.97159
+	N48.83570, E12.90880
+	N48.83570, E12.81630
+	N48.85960, E12.70422
+	N48.93128, E12.50655
+
+line2 =
+	N47.24526, E14.86062
+	N47.31892, E14.94610
+	N47.37101, E15.06201
+	N47.40016, E15.14515
+	N47.40153, E15.20846
+	N47.39367, E15.30302
+	N47.34742, E15.34571
+	N47.31621, E15.35248
+	N47.30006, E15.32344
+	N47.25257, E15.31558
+
+[airport1]
+name = Linz Hörsching Airport
+code = LOWL
+runways =
+	rwy1, 08, N48.2325, E14.1674, 87.0, 9843, 821, 493, 978
+	rwy2, 08L, N48.2353, E14.1838, 87.0, 2165, 0, 0, 971

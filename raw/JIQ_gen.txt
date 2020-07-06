@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2075
+metric = true
+center = N29.5133333333, E108.831111111
+magneticvar = -2.484
+beacons =
+	ENH, N30.29170, E109.59800, 0, Enshi
+
+line1 =
+	N29.89048, E107.53011
+	N29.87327, E107.63419
+	N30.04339, E107.84172
+
+[airport1]
+name = Qianjiang Wulingshan Airport
+code = JIQ

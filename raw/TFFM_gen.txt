@@ -1,0 +1,103 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = N15.8687000275, W61.2700004578
+magneticvar = -14.286
+beacons =
+	MG, N15.86980, W61.27090, 0, Marie Galante
+	DOM, N15.55090, W61.29560, 0, Melville Hall
+	PPR, N16.26520, W61.54010, 0, Pointe A Pitre
+	PTP, N16.28360, W61.63090, 0, Pointe A Pitre
+	AR, N16.28670, W61.63100, 0, Le Raizet
+	DCF, N15.33250, W61.40130, 0, Canefield
+
+line1 =
+	N14.87529, W61.12739
+	N14.87192, W61.18081
+
+line2 =
+	N16.80957, W62.17578
+	N16.80439, W62.19136
+	N16.75156, W62.22305
+	N16.69951, W62.22163
+	N16.68120, W62.15425
+	N16.74033, W62.14844
+	N16.80957, W62.17578
+
+line3 =
+	N16.00630, W61.25000
+	N15.99624, W61.27529
+	N15.95488, W61.31841
+	N15.89468, W61.31074
+	N15.88604, W61.28623
+	N15.88994, W61.23047
+	N15.92124, W61.20342
+	N15.95991, W61.21235
+	N16.00630, W61.25000
+
+line4 =
+	N15.37314, W61.25107
+	N15.52671, W61.27725
+	N15.58506, W61.32002
+	N15.63311, W61.45811
+	N15.60347, W61.46992
+	N15.52515, W61.48115
+	N15.39985, W61.41572
+	N15.22729, W61.37539
+	N15.24902, W61.28169
+	N15.37314, W61.25107
+
+line5 =
+	N16.25610, W61.17261
+	N16.36318, W61.35547
+	N16.41343, W61.39614
+	N16.46831, W61.40645
+	N16.50664, W61.47119
+	N16.47769, W61.51064
+	N16.43379, W61.52891
+	N16.36021, W61.50059
+	N16.29961, W61.53999
+	N16.22803, W61.52217
+	N16.21929, W61.44482
+	N16.23042, W61.32715
+	N16.25610, W61.17261
+
+line6 =
+	N16.32598, W61.64150
+	N16.35527, W61.74805
+	N16.34048, W61.76714
+	N16.30098, W61.79409
+	N16.06206, W61.75942
+	N15.97593, W61.71025
+	N15.96206, W61.67046
+	N16.00693, W61.58955
+	N16.04775, W61.56387
+	N16.22715, W61.57505
+	N16.27090, W61.55234
+	N16.29219, W61.59702
+	N16.32598, W61.64150
+
+[airport1]
+name = Les Bases Airport
+code = TFFM
+runways =
+	rwy1, 09, N15.8676, W61.2758, 78.3, 4068, 0, 0, 13
+
+[airport2]
+name = Douglas-Charles Airport
+code = PD
+runways =
+	rwy2, 09, N15.5448, W61.3064, 70.0, 4777, 174, 0, 71
+inboundbeacon = DOM
+
+[airport3]
+name = Pointe-à-Pitre Le Raizet
+code = FR
+runways =
+	rwy3, 12, N16.2683, W61.5479, 101.0, 11499, 1312, 820, 5
+inboundbeacon = PPR

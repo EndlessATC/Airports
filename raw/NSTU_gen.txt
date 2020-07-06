@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 32
+center = S14.3310003281, W170.710006714
+magneticvar = 11.330
+beacons =
+	TUT, S14.33260, W170.70799, 0, Pago Pago
+	TUT, S14.33220, W170.71899, 0, Pago Pago
+	LOG, S14.35380, W170.74899, 0, Logotala Hill
+
+line1 =
+	S14.00166, W171.91191
+	S14.00205, W171.86377
+	S14.04727, W171.72822
+	S14.04648, W171.45410
+	S14.02246, W171.44956
+	S13.97764, W171.46138
+	S13.94990, W171.50688
+	S13.94307, W171.56543
+	S13.87920, W171.60391
+	S13.80713, W171.85815
+
+line2 =
+	S14.25742, W170.68916
+	S14.27598, W170.72085
+	S14.31211, W170.82051
+	S14.35977, W170.76924
+	S14.35117, W170.72627
+	S14.28223, W170.64048
+	S14.26680, W170.56812
+	S14.25742, W170.68916
+
+[airport1]
+name = Pago Pago International Airport
+code = NSTU
+runways =
+	rwy1, 05, S14.3405, W170.725, 60.2, 10000, 1000, 800, 30
+	rwy2, 08, S14.3269, W170.713, 90.0, 3800, 1600, 0, 6

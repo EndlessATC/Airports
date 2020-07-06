@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 958
+usa = true
+center = S32.0013999939, E141.472000122
+magneticvar = 8.413
+beacons =
+	BHI, S32.00060, E141.48000, 0, Broken Hill
+	BHI, S31.99190, E141.46800, 0, Broken Hill
+
+line1 =
+	S32.33275, E142.53820
+	S32.50484, E142.40364
+	S32.80394, E142.38814
+	S32.95112, E142.39651
+
+[airport1]
+name = Broken Hill Airport
+code = YBHI
+runways =
+	rwy1, 05, S32.009, E141.461, 56.0, 8251, 0, 0, 907
+	rwy2, 14, S32.0038, E141.467, 143.0, 3281, 0, 0, 914

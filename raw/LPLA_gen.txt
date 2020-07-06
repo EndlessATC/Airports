@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 180
+center = N38.761799, W27.090799
+magneticvar = -11.108
+beacons =
+	TRM, N38.76040, W27.09260, 0, Terminal
+	LM, N38.78390, W27.10440, 0, Lajes
+	GP, N38.78320, W27.11310, 0, Lajes
+	LAJ, N38.71330, W27.11540, 0, Lajes
+	GC, N39.09380, W28.03080, 0, Graciosa
+
+line1 =
+	N38.78984, W27.12700
+	N38.80269, W27.25967
+	N38.78896, W27.35103
+	N38.76582, W27.38594
+	N38.69785, W27.36191
+	N38.66104, W27.30283
+	N38.63403, W27.09531
+	N38.64346, W27.07524
+	N38.67891, W27.04199
+	N38.74121, W27.04194
+	N38.78984, W27.12700
+
+line2 =
+	N38.74390, W28.31064
+	N38.65537, W28.18726
+	N38.62056, W28.09233
+	N38.54355, W27.82588
+	N38.55562, W27.77847
+	N38.63633, W27.96265
+	N38.74390, W28.31064
+
+line3 =
+	N38.55337, W28.40215
+	N38.55303, W28.51025
+	N38.51855, W28.54883
+	N38.46255, W28.53115
+	N38.40864, W28.45449
+	N38.41289, W28.33242
+	N38.38467, W28.23115
+	N38.40415, W28.18975
+	N38.41274, W28.06479
+	N38.45269, W28.14727
+	N38.55337, W28.40215
+
+line4 =
+	N37.84092, W25.64897
+	N37.91113, W25.78374
+	N37.89404, W25.84590
+	N37.87241, W25.84785
+	N37.82607, W25.83369
+	N37.76289, W25.73447
+
+[airport1]
+name = Lajes Airport
+code = LPLA
+runways =
+	rwy1, 15, N38.776, W27.1056, 140.7, 10870, 0, 0, 158

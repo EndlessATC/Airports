@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 412
+center = N7.02433, W73.8068
+magneticvar = -6.412
+beacons =
+	EJA, N7.02852, W73.80550, 0, Barrancabermeja
+	BGA, N7.13156, W73.18440, 0, Bucaramanga
+	PIE, N6.87755, W73.08980, 0, Piedecuesta
+
+line1 =
+	N6.05513, W74.57575
+	N6.16231, W74.57854
+	N6.26473, W74.53097
+	N6.36251, W74.43300
+	N6.46511, W74.38465
+	N6.57252, W74.38592
+	N6.66724, W74.31709
+	N6.74925, W74.17818
+	N6.84764, W74.05348
+	N6.96239, W73.94310
+	N7.07828, W73.90024
+	N7.19532, W73.92491
+	N7.38523, W73.90683
+	N7.64806, W73.84606
+	N7.84583, W73.82983
+	N7.97853, W73.85817
+
+[airport1]
+name = Yariguíes Airport
+code = SKEJ
+runways =
+	rwy1, 04, N7.01735, W73.811, 31.0, 5905, 0, 0, 401

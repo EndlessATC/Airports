@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 390
+usa = true
+transition = 18001
+center = N33.4537010193, W93.9909973145
+magneticvar = 2.143
+beacons =
+	TXK, N33.51390, W94.07320, 0, Texarkana
+	TX, N33.52410, W93.90600, 0, Tecco
+	ATA, N33.10370, W94.19050, 0, Atlanta
+	HPC, N33.71780, W93.64880, 0, Hope
+	VIV, N32.85960, W94.01020, 0, Vivian
+	DEQ, N34.04590, W94.39940, 0, De Queen
+	EIC, N32.77140, W93.80990, 0, Belcher
+	SPH, N32.92030, W93.40940, 0, Springhill
+	IBO, N33.90600, W94.84300, 0, Idabel
+	MSA, N33.12850, W94.97410, 0, Mount Pleasant
+	ADF, N34.05540, W93.10490, 0, Arkadelphia
+	MNE, N32.64080, W93.30210, 0, Minden
+	HMQ, N32.79010, W93.00070, 0, Homer
+
+[airport1]
+name = Texarkana Regional Webb Field
+code = KTXK
+runways =
+	rwy1, 04, N33.4463, W94.0014, 46.0, 6601, 0, 0, 338
+	rwy2, 13, N33.4601, W93.9937, 135.0, 5200, 641, 0, 362

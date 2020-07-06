@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1046
+center = N49.498699, E11.078056
+magneticvar = 1.429
+beacons =
+	NGD, N49.50120, E11.08010, 0, Nurnberg
+	RTB, N49.48270, E11.25290, 0, Rothenbach
+	ERL, N49.65540, E11.15080, 0, Erlangen
+	ALB, N49.21440, E11.22140, 0, Allersberg
+	ANS, N49.30970, E10.63280, 0, Ansbach
+	ILM, N49.47190, E10.38790, 0, Illesheim
+	BAZ, N49.95690, E11.56520, 0, Bayreuth
+	HFX, N49.21830, E11.85940, 0, Hohenfels
+	GRF, N49.69130, E11.93830, 0, Grafenwohr
+	GRW, N49.69460, E11.94170, 0, Grafenwohr
+	BAY, N49.98520, E11.63670, 0, Bayreuth
+	BAY, N49.98570, E11.63810, 0, Bayreuth
+	KTG, N49.74590, E10.21360, 0, Kitzingen
+	DKB, N49.14280, E10.23830, 0, Dinkelsbuhl
+	GBL, N49.64810, E9.98069, 0, Giebelstadt
+	NSN, N49.39480, E9.96500, 0, Niederstetten
+	GBL, N49.64350, E9.95017, 0, Giebelstadt
+	WUR, N49.71750, E9.94700, 0, Wurzburg
+	NEU, N48.71250, E11.21100, 0, Neuburg
+	NDG, N48.82940, E10.41870, 0, Nordlingen
+	IGL, N48.71780, E11.56980, 0, Ingolstadt
+	IGL, N48.73780, E11.64470, 0, Ingolstadt
+	HOF, N50.28460, E11.76140, 0, Hof
+	HOD, N50.28980, E11.85520, 0, Hof
+
+line1 =
+	N48.51621, E10.38503
+	N48.55233, E10.41469
+	N48.60670, E10.52358
+	N48.67941, E10.71157
+	N48.73532, E11.02509
+	N48.79413, E11.68356
+	N48.87092, E11.76593
+	N48.90601, E11.85037
+	N48.92492, E11.96437
+	N48.95766, E12.02421
+	N49.02750, E12.03299
+	N49.01809, E12.24244
+	N48.99220, E12.36083
+	N48.92384, E12.50655
+
+line2 =
+	N48.83570, E12.81630
+	N48.85960, E12.70422
+	N48.93128, E12.50655
+
+[airport1]
+name = Nuremberg Airport
+code = EDDN
+runways =
+	rwy1, 10, N49.5005, E11.0592, 99.0, 8858, 0, 0, 1022

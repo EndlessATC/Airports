@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1014
+center = N7.36183023453, W2.32875990868
+magneticvar = -4.498
+beacons =
+	SN, N7.37748, W2.29957, 0, Sunyani
+	BDK, N8.00508, W2.76733, 0, Bondoukou/Soko
+	BDU, N8.03650, W2.75461, 0, Bondoukou/Soko
+	KL, N6.74785, W1.58390, 0, Kumasi
+	KSI, N6.70857, W1.59066, 0, Kumasi
+
+line1 =
+	N8.27384, W2.24670
+	N8.19637, W2.16966
+	N8.16048, W2.08741
+	N8.16617, W1.99990
+	N8.19177, W1.93489
+	N8.23728, W1.89239
+	N8.25472, W1.84502
+	N8.24407, W1.79275
+	N8.26043, W1.76761
+	N8.30373, W1.76952
+	N8.32797, W1.79738
+	N8.33319, W1.85107
+	N8.35652, W1.88678
+
+[airport1]
+name = Sunyani Airport
+code = DGSN
+runways =
+	rwy1, 07, N7.35922, W2.33397, 63.2, 4227, 0, 0, 1010

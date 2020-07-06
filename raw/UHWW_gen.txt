@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 46
+center = N43.3989982605, E132.147994995
+magneticvar = -10.178
+beacons =
+	QD, N43.36670, E132.06799, 0, Knevichi
+	KW, N43.47000, E132.32300, 0, Knevichi
+	BG, N43.88330, E133.25000, 0, Muraveyka
+	BL, N44.20000, E133.11700, 0, Chernyshevka
+
+line1 =
+	N42.52295, E130.83418
+	N42.65640, E130.70938
+	N42.67329, E130.75615
+	N42.63394, E130.94570
+	N42.64517, E131.02480
+	N42.62603, E131.15830
+	N42.69741, E131.24531
+	N42.77212, E131.29248
+	N42.82231, E131.39326
+	N42.99644, E131.51641
+	N43.20264, E131.72207
+	N43.25527, E131.79473
+	N43.30195, E131.93896
+	N43.29604, E131.97627
+	N43.28003, E132.01309
+	N43.17075, E131.89834
+	N43.09517, E131.86660
+	N43.09541, E131.94727
+	N43.11895, E132.02871
+	N43.24507, E132.23320
+	N43.31353, E132.30957
+	N43.23867, E132.33438
+	N42.88330, E132.30381
+	N42.90977, E132.48135
+	N42.87158, E132.57646
+	N42.87583, E132.70898
+	N42.79375, E132.86357
+	N42.80527, E132.92393
+	N42.80801, E132.99658
+	N42.72280, E133.05938
+	N42.69697, E133.15996
+	N42.76387, E133.32949
+	N42.82822, E133.58672
+	N42.82993, E133.70938
+
+[airport1]
+name = Vladivostok International Airport
+code = UHWW
+runways =
+	rwy1, 06, N43.3646, E132.139, 50.5, 3191, 0, 0, 0
+	rwy2, 07L, N43.3913, E132.129, 60.9, 11483, 0, 0, 33
+	rwy3, 07R, N43.3937, E132.142, 61.1, 11483, 0, 0, 32
+	rwy4, 16, N43.3725, E132.14, 146.6, 1975, 0, 0, 0

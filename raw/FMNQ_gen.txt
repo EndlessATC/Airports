@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 125
+center = S16.7445302965, E44.4824838638
+
+line1 =
+	S17.69033, E43.99355
+	S17.58145, E43.94355
+	S17.39160, E43.97939
+	S16.70264, E44.42139
+	S16.62148, E44.43574
+	S16.41133, E44.41797
+	S16.28906, E44.42705
+	S16.24375, E44.44248
+	S16.21729, E44.47617
+	S16.20449, E44.55186
+	S16.17451, E44.90918
+	S16.15332, E44.95508
+	S16.09512, E45.04424
+	S15.98281, E45.16680
+	S15.95049, E45.22285
+	S15.96230, E45.27129
+	S16.01045, E45.30234
+	S16.03672, E45.34219
+	S15.98584, E45.48633
+	S15.98428, E45.54180
+	S15.99258, E45.59824
+	S15.94580, E45.62471
+	S15.88311, E45.64053
+	S15.83887, E45.66152
+	S15.81377, E45.70020
+
+[airport1]
+name = Besalampy Airport
+code = FMNQ
+runways =
+	rwy1, 08, S16.7435, E44.4759, 72.0, 4046, 0, 0, 0

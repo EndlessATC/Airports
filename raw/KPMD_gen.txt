@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2543
+usa = true
+transition = 18001
+center = N34.62939835, W118.0849991
+magneticvar = 13.340
+beacons =
+	PMD, N34.63140, W118.06400, 0, Palmdale
+	GWF, N34.73870, W118.21700, 0, Gen William J Fox
+	LHS, N34.68300, W118.57700, 0, Lake Hughes
+	EDW, N34.98240, W117.73300, 0, Edwards
+	PAI, N34.25970, W118.41300, 0, Pacoima
+	VNY, N34.22340, W118.49200, 0, Van Nuys
+	EMT, N34.08830, W118.03100, 0, El Monte
+	VCV, N34.59420, W117.39000, 0, Victorville
+	POM, N34.07840, W117.78700, 0, Pomona
+	GMN, N34.80400, W118.86100, 0, Gorman
+	OS, N33.96430, W118.27800, 0, Romen
+	SMO, N34.01020, W118.45700, 0, Santa Monica
+	FIM, N34.35670, W118.88100, 0, Fillmore
+	CPM, N33.88890, W118.24700, 0, Compton
+	LAX, N33.93310, W118.43200, 0, Los Angeles
+	SB, N34.05650, W117.36600, 0, Petis
+	PDZ, N33.91830, W117.53000, 0, Paradise
+	RAL, N33.95200, W117.44900, 0, Riverside
+	CMA, N34.21250, W119.09400, 0, Camarillo
+	VTU, N34.11510, W119.04900, 0, Ventura
+	RIV, N33.90650, W117.27500, 0, March
+	BF, N35.37240, W118.98100, 0, Niley
+
+line1 =
+	N34.33857, W119.41367
+	N34.25742, W119.26768
+	N34.16411, W119.23584
+	N34.11201, W119.14375
+	N34.02446, W118.83203
+	N34.03501, W118.59883
+	N34.01738, W118.50620
+	N33.85830, W118.39297
+	N33.74395, W118.41045
+	N33.71230, W118.29419
+	N33.75859, W118.26440
+	N33.75068, W118.16191
+	N33.72217, W118.08052
+
+[airport1]
+name = Palmdale Regional/USAF Plant 42 Airport
+code = KPMD
+runways =
+	rwy1, 04, N34.6169, W118.092, 51.7, 12001, 0, 0, 2543
+	rwy2, 07, N34.6306, W118.113, 86.2, 12002, 0, 0, 2540

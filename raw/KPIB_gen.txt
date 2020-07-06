@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 298
+usa = true
+transition = 18001
+center = N31.4671001434, W89.337097168
+magneticvar = -0.387
+beacons =
+	LBY, N31.41870, W89.33760, 0, Eaton
+	THJ, N31.68750, W89.18980, 0, Tallahala
+	BX, N30.88160, W89.86210, 0, Carma
+	MCB, N31.30450, W90.25820, 0, Mc Comb
+	GCV, N31.09800, W88.48610, 0, Greene County
+	ME, N32.24710, W88.77160, 0, Savoy
+
+line1 =
+	N30.56621, W88.07837
+	N30.68125, W88.03242
+	N30.69419, W88.01133
+
+line2 =
+	N30.82882, W87.97093
+	N30.79952, W88.00535
+	N30.76001, W88.01578
+	N30.69417, W88.01131
+
+[airport1]
+name = Hattiesburg Laurel Regional Airport
+code = KPIB
+runways =
+	rwy1, 18, N31.4761, W89.3371, 180.0, 6501, 0, 0, 298

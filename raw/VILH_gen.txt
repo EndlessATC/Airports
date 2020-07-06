@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10682
+center = N34.1358985901, E77.5465011597
+magneticvar = 2.001
+beacons =
+	LA, N34.15000, E77.58330, 0, Leh
+	LEH, N34.73280, E77.56640, 0, Leh
+
+line1 =
+	N33.18903, E78.90674
+	N33.16454, E78.80948
+	N33.20779, E78.63983
+	N33.39796, E78.24549
+	N33.44530, E78.18337
+	N33.49336, E78.15164
+	N33.54214, E78.15040
+	N33.62002, E78.07692
+	N33.72693, E77.93130
+	N33.85737, E77.79213
+	N34.01121, E77.65953
+	N34.10614, E77.52977
+	N34.16014, E77.33939
+	N34.28778, E76.96691
+	N34.38630, E76.78211
+	N34.49828, E76.66078
+	N34.58264, E76.52931
+	N34.63938, E76.38762
+	N34.70832, E76.28509
+	N34.78938, E76.22153
+	N34.86118, E76.19621
+	N34.92366, E76.20892
+	N35.00758, E76.14190
+
+[airport1]
+name = Leh Kushok Bakula Rimpochee Airport
+code = VILH
+runways =
+	rwy1, 06, N34.1268, E77.5566, 59.2, 500, 0, 0, 0
+	rwy2, 07, N34.1288, E77.5378, 71.8, 500, 0, 0, 0
+	rwy3, 07L, N34.1313, E77.5326, 68.5, 9040, 0, 940, 0

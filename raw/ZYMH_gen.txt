@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1836
+metric = true
+center = N52.9127777778, E122.43
+
+line1 =
+	N53.31706, E121.40544
+	N53.28458, E120.98546
+	N53.17185, E120.70408
+
+line2 =
+	N52.61503, E120.52115
+	N52.56666, E120.65613
+	N52.49359, E120.69923
+	N52.39592, E120.65034
+	N52.29988, E120.66543
+	N52.20547, E120.74450
+	N52.09651, E120.74982
+	N51.97306, E120.68150
+
+line3 =
+	N53.34085, E124.29146
+	N53.37010, E124.21994
+	N53.35868, E124.15431
+	N53.40563, E123.99469
+	N53.51100, E123.74095
+	N53.54653, E123.60778
+	N53.52668, E123.55972
+	N53.52645, E123.53471
+	N53.52945, E123.48950
+	N53.53076, E123.42402
+	N53.55559, E123.30961
+	N53.54459, E123.15406
+	N53.49772, E122.95759
+	N53.46852, E122.74479
+	N53.45700, E122.51586
+	N53.46253, E122.38016
+	N53.48500, E122.33778
+	N53.45147, E122.08881
+	N53.31706, E121.40544
+
+[airport1]
+name = Gu-Lian Airport
+code = ZYMH

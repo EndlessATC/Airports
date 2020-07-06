@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 837
+center = N32.5355567932, E74.3638916016
+magneticvar = 1.280
+beacons =
+	JJU, N32.69160, E74.83760, 0, Jammu
+	JA, N32.69960, E74.84900, 0, Jammu
+	AAR, N31.70690, E74.80080, 0, Amritsar
+	AR, N31.70860, E74.81430, 0, Amritsar
+
+line1 =
+	N33.34680, E75.73660
+	N33.30525, E75.74600
+
+line2 =
+	N33.15209, E75.67665
+	N33.14395, E75.46788
+	N33.17351, E75.30830
+	N33.24071, E75.19792
+	N33.24639, E75.12196
+	N33.19051, E75.08031
+	N33.17028, E74.99923
+	N33.18567, E74.87861
+	N33.12299, E74.80870
+	N32.98233, E74.78947
+	N32.78880, E74.58277
+	N32.54246, E74.18847
+	N32.37131, E73.84369
+	N32.27537, E73.54820
+	N32.14605, E73.33519
+	N31.90208, E73.13913
+
+[airport1]
+name = Sialkot Airport
+code = OPST
+
+[airport2]
+name = Jammu Airport
+code = JU
+runways =
+	rwy1, 17, N32.6984, E74.8368, 177.0, 6755, 200, 687, 0
+inboundbeacon = JJU

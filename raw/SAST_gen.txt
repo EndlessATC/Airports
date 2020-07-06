@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1472
+center = S22.619600296, W63.7937011719
+magneticvar = -6.537
+beacons =
+	A, S22.63590, W63.79570, 0, Tartagal
+	TAR, S22.62780, W63.81920, 0, Tartagal
+	BJO, S22.76880, W64.31210, 0, Bermejo
+	YAC, S21.96010, W63.65320, 0, Yacuiba
+	ORA, S23.14940, W64.32420, 0, Oran
+
+line1 =
+	S21.63274, W62.97739
+	S21.80611, W62.90773
+	S22.04956, W62.81510
+	S22.15984, W62.74456
+	S22.21802, W62.66527
+	S22.26153, W62.62571
+	S22.29047, W62.62597
+	S22.34964, W62.54155
+
+[airport1]
+name = General Enrique Mosconi Airport
+code = SAST
+runways =
+	rwy1, 1, S22.6264, W63.7946, 7.3, 4921, 0, 0, 1457

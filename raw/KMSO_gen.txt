@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3206
+usa = true
+transition = 18001
+center = N46.91630173, W114.0910034
+magneticvar = 14.385
+beacons =
+	MSO, N46.90800, W114.08400, 0, Missoula
+	INE, N47.09440, W114.39700, 0, Konna
+	DRU, N46.63610, W113.18700, 0, Drummond
+
+line1 =
+	N47.78491, W114.00459
+	N47.75625, W114.02114
+	N47.71104, W114.05640
+	N47.71768, W114.11812
+	N47.71436, W114.15010
+	N47.73984, W114.16328
+	N47.78379, W114.12583
+	N47.81245, W114.14790
+	N47.82568, W114.19312
+	N47.83662, W114.24961
+	N47.85786, W114.25400
+	N47.89072, W114.19419
+
+[airport1]
+name = Missoula International Airport
+code = KMSO
+runways =
+	rwy1, 07, N46.916, W114.097, 89.0, 4612, 0, 0, 3199
+	rwy2, 11, N46.9248, W114.107, 130.0, 9501, 0, 0, 3192

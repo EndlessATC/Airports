@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3094
+center = S18.883612, W48.225277
+magneticvar = -19.502
+beacons =
+	ULD, S18.88720, W48.23000, 0, Uberlandia
+	ULD, S18.87660, W48.22130, 0, Uberlandia
+
+line1 =
+	S18.34033, W48.22702
+	S18.32637, W48.95246
+	S18.38844, W49.10837
+	S18.17067, W47.44650
+	S18.37950, W47.78607
+	S18.44544, W47.92877
+	S18.43427, W48.01727
+
+line2 =
+	S18.27677, W47.07058
+	S18.22798, W47.15164
+	S18.11202, W47.23476
+	S18.08319, W47.31889
+	S18.17067, W47.44650
+	S18.43443, W48.01794
+	S18.34033, W48.22702
+	S18.38844, W49.10837
+	S18.40482, W49.17929
+	S18.46848, W49.24745
+	S18.58486, W49.33654
+	S18.60274, W49.41680
+
+[airport1]
+name = Ten. Cel. Aviador César Bombonato Airport
+code = SBUL

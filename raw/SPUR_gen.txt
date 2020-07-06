@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 120
+center = S5.20574998856, W80.6164016724
+magneticvar = 0.089
+beacons =
+	URA, S5.21000, W80.61610, 0, Piura
+	URA, S5.21167, W80.61720, 0, Piura
+	TAL, S4.58056, W81.25250, 0, Talara
+	TYL, S4.57333, W81.25500, 0, Talara
+	MAC, S4.37833, W79.94170, 0, Macara
+
+line1 =
+	S4.23428, W81.23203
+	S4.32227, W81.28320
+	S4.66953, W81.33662
+	S4.76074, W81.28940
+	S4.87949, W81.19507
+	S5.02783, W81.10850
+	S5.10186, W81.15073
+	S5.16709, W81.16768
+	S5.47539, W80.94312
+	S5.63506, W80.88193
+	S5.75898, W80.88271
+	S5.84082, W80.93066
+	S5.86094, W80.99165
+	S5.81240, W81.09185
+	S5.87529, W81.16431
+	S5.94238, W81.18052
+	S6.05674, W81.14204
+	S6.12939, W81.05845
+
+[airport1]
+name = Capitán FAP Guillermo Concha Iberico International Airport
+code = SPUR
+runways =
+	rwy1, 01, S5.21679, W80.6189, 12.5, 8202, 0, 0, 120

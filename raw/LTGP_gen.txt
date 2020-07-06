@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 86
+center = N36.299217, E32.300598
+magneticvar = 4.091
+beacons =
+	MUT, N36.86420, E33.29220, 0, Mut
+	MUT, N36.86390, E33.29310, 0, Mut
+
+line1 =
+	N35.35415, E33.60762
+	N35.33589, E33.45879
+	N35.34150, E33.30781
+	N35.35820, E33.12344
+	N35.39043, E32.94160
+
+line2 =
+	N36.84868, E30.95029
+	N36.82173, E31.24063
+	N36.80107, E31.35254
+	N36.61279, E31.77793
+	N36.53530, E32.02197
+	N36.44912, E32.13057
+	N36.26787, E32.28379
+	N36.18364, E32.37773
+	N36.10073, E32.53379
+	N36.03589, E32.79482
+	N36.09570, E32.92949
+	N36.10298, E33.09951
+	N36.15283, E33.44180
+	N36.14399, E33.52275
+	N36.18198, E33.69473
+
+[airport1]
+name = Gazipaşa Airport
+code = LTGP

@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2042
+center = N10.0427465439, W69.3586196899
+magneticvar = -9.129
+beacons =
+	BRM, N10.04750, W69.35180, 0, Barquisimeto
+	YAR, N10.04980, W69.07840, 0, Yaritagua
+	AGV, N9.55475, W69.23620, 0, Acarigua
+	AGV, N9.55169, W69.23290, 0, Acarigua
+	ADA, N10.61670, W69.28330, 0, Aguada Grande
+	SPE, N10.28470, W68.75400, 0, San Felipe
+	COR, N10.18030, W70.06500, 0, Carora
+	COR, N10.17920, W70.06540, 0, Carora
+
+line1 =
+	N10.56914, W68.23408
+	N10.68936, W68.29629
+	N10.80874, W68.32471
+	N10.88003, W68.27207
+	N10.94932, W68.32480
+
+[airport1]
+name = Barquisimeto International Airport
+code = SVBM
+runways =
+	rwy1, 09, N10.0403, W69.3718, 81.0, 9350, 0, 1541, 2042

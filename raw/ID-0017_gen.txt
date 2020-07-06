@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 73
+center = S0.374448, E117.249392
+magneticvar = 1.019
+beacons =
+	TG, S0.48184, E117.15700, 0, Temindung
+	BD, S0.30611, E117.41600, 0, Muara Badak
+	TT, S0.06711, E117.45000, 0, Santan
+	BG, N0.12111, E117.47800, 0, Bontang
+	LL, S0.95500, E117.16400, 0, Senipah
+	SA, N0.38389, E117.54300, 0, Sangata
+
+line1 =
+	S1.32734, E116.75342
+	S1.26660, E116.77100
+	S1.20713, E116.75928
+	S1.15078, E116.72871
+	S1.09814, E116.72617
+	S1.04424, E116.73984
+	S1.11719, E116.76055
+	S1.18379, E116.79707
+	S1.21826, E116.84941
+	S1.22363, E116.91396
+	S1.18770, E117.00322
+	S1.11270, E117.07021
+	S1.00898, E117.14648
+	S0.92568, E117.24072
+	S0.86719, E117.35713
+	S0.79668, E117.52178
+	S0.77090, E117.56250
+	S0.72754, E117.57383
+	S0.67529, E117.55684
+	S0.55439, E117.54893
+	S0.32373, E117.46289
+	S0.20049, E117.46377
+	N0.23589, E117.52217
+	N0.34102, E117.55332
+
+[airport1]
+name = Aji Pangeran Tumenggung Pranoto International Airport
+code = ID-0017

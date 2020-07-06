@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1043
+center = N48.6377983093, E19.1340999603
+magneticvar = 3.475
+beacons =
+	SLC, N48.45320, E19.11590, 0, Sliac
+	DBV, N48.85810, E18.79940, 0, Dubove
+	ZLA, N49.20290, E18.51050, 0, Zilina
+	PW, N49.08010, E20.07250, 0, Tatry
+	NIT, N48.29840, E18.05240, 0, Nitra
+	NIT, N48.29040, E18.05060, 0, Nitra
+	TR, N48.86110, E17.94170, 0, Trencin
+	PPD, N49.06480, E20.35000, 0, Tatry
+	PPD, N49.06820, E20.35350, 0, Tatry
+
+line1 =
+	N47.88762, E17.48062
+	N47.80990, E17.63529
+	N47.77016, E17.76189
+	N47.76342, E18.14559
+	N47.78838, E18.75362
+	N47.80943, E18.79454
+	N47.81920, E19.00016
+	N47.80651, E19.07132
+	N47.77923, E19.10346
+	N47.73125, E19.12331
+	N47.70908, E19.12393
+
+[airport1]
+name = Sliač Airport
+code = LZSL
+runways =
+	rwy1, 18, N48.3855, E19.0804, 182.0, 7874, 0, 0, 1044

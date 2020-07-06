@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4778
+center = N25.5494995117, W100.929000854
+magneticvar = 6.222
+beacons =
+	SLW, N25.54610, W100.93000, 0, Saltillo
+	ADN, N25.86540, W100.23900, 0, Roberto
+	MTY, N25.77290, W100.10400, 0, Monterrey
+
+[airport1]
+name = Plan De Guadalupe International Airport
+code = MMIO
+runways =
+	rwy1, 03, N25.5422, W100.935, 40.0, 3471, 0, 0, 0
+	rwy2, 17, N25.5515, W100.928, 180.3, 9506, 0, 0, 4646

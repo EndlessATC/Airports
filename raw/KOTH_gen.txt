@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 17
+usa = true
+transition = 18001
+center = N43.417098999, W124.246002197
+magneticvar = 16.440
+beacons =
+	OT, N43.39440, W124.31000, 0, Emire
+	OTH, N43.41550, W124.16800, 0, North Bend
+	RBG, N43.18240, W123.35200, 0, Roseburg
+	EUG, N44.12090, W123.22300, 0, Eugene
+	EU, N44.21280, W123.22000, 0, Frakk
+
+line1 =
+	N44.33379, W124.09917
+	N44.05566, W124.13066
+	N43.69175, W124.14873
+	N43.65156, W124.18437
+	N43.54004, W124.23921
+	N43.40972, W124.28799
+	N43.43638, W124.23315
+	N43.42334, W124.19692
+	N43.36738, W124.27549
+	N43.36821, W124.32061
+	N43.34165, W124.34658
+	N43.01235, W124.45444
+	N42.93687, W124.49858
+	N42.81289, W124.53965
+	N42.67021, W124.44380
+	N42.58369, W124.40615
+
+line2 =
+	N43.88750, W122.68426
+	N44.02398, W122.95970
+	N44.14989, W123.11907
+	N44.32298, W123.18397
+
+[airport1]
+name = Southwest Oregon Regional Airport
+code = KOTH
+runways =
+	rwy1, 04, N43.4147, W124.261, 61.0, 5321, 0, 0, 16
+	rwy2, 13, N43.4198, W124.246, 150.0, 4471, 0, 0, 13

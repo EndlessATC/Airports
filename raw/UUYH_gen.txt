@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 482
+center = N63.5668983459, E53.8046989441
+magneticvar = 18.226
+beacons =
+	UHT, N63.56000, E53.79500, 0, Ukhta
+
+line1 =
+	N62.70121, E56.36031
+	N62.71470, E56.25737
+	N62.75333, E56.21283
+	N62.81710, E56.22657
+	N62.88420, E56.20094
+	N62.98985, E56.10317
+	N63.16018, E55.93626
+	N63.19056, E55.94106
+	N63.20906, E55.95589
+	N63.22017, E55.99289
+	N63.19578, E56.05614
+	N63.22242, E56.17361
+	N63.28975, E56.29153
+	N63.30531, E56.37049
+	N63.31272, E56.41865
+
+[airport1]
+name = Ukhta Airport
+code = UUYH

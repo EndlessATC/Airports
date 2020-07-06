@@ -1,0 +1,82 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 401
+usa = true
+transition = 18001
+center = N31.3213005066, W85.4496002197
+magneticvar = -3.297
+beacons =
+	RRS, N31.28440, W85.43120, 0, Wiregrass
+	HYE, N31.36680, W85.65000, 0, Hanchey
+	HEY, N31.37410, W85.65280, 0, Hanchey
+	OZR, N31.26900, W85.72630, 0, Cairns
+	LOR, N31.36030, W85.74350, 0, Lowe
+	OZ, N31.22560, W85.81600, 0, Ruckr
+	EDN, N31.29600, W85.90330, 0, Enterprise
+	BVG, N31.33680, W85.98330, 0, Boll Weevil
+	BKK, N30.85160, W85.60130, 0, Tri Co
+	SMY, N30.87160, W85.22490, 0, Soyya
+	IWJ, N31.45570, W84.81910, 0, Blaak
+	XNE, N31.68430, W85.97440, 0, Spring Hill
+	MAI, N30.78620, W85.12450, 0, Marianna
+	EUF, N31.95020, W85.13050, 0, Eufaula
+	TO, N31.83030, W86.10540, 0, Blood
+	XBR, N31.56180, W86.29300, 0, Brantley
+	JUY, N31.30510, W86.39090, 0, Judd
+	UIA, N31.30950, W86.39220, 0, Andalusia
+	LYZ, N30.97270, W84.52600, 0, Willis
+
+line1 =
+	N30.40288, W86.67964
+	N30.42471, W86.60605
+	N30.46709, W86.52339
+	N30.49561, W86.44795
+	N30.48208, W86.37417
+	N30.49302, W86.25737
+	N30.46426, W86.16567
+	N30.44155, W86.13770
+	N30.40581, W86.12383
+	N30.42910, W86.24009
+	N30.39912, W86.45444
+	N30.33252, W86.17515
+
+line2 =
+	N30.92263, W84.96633
+	N30.75926, W84.88688
+	N30.72094, W84.88393
+	N31.63538, W85.06721
+	N31.77677, W85.12482
+	N31.88053, W85.12413
+	N32.05052, W85.06441
+
+line3 =
+	N30.72066, W84.88587
+	N30.66790, W84.89277
+	N30.57359, W84.96057
+
+line4 =
+	N31.63518, W85.06705
+	N31.57267, W85.05488
+	N31.29571, W85.09260
+	N31.11758, W85.06744
+	N30.92263, W84.96633
+
+line5 =
+	N32.31981, W84.96850
+	N32.28588, W84.92153
+	N32.24656, W84.92969
+	N32.20183, W84.99297
+	N32.14737, W85.03462
+	N32.05104, W85.06457
+
+[airport1]
+name = Dothan Regional Airport
+code = KDHN
+runways =
+	rwy1, 14, N31.3306, W85.4616, 135.0, 8498, 0, 0, 401
+	rwy2, 18, N31.3265, W85.4456, 180.0, 5000, 0, 0, 395

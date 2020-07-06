@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 662
+center = N23.9643993378, E32.8199996948
+magneticvar = 2.578
+beacons =
+	ASN, N23.97180, E32.81700, 0, Aswan
+
+line1 =
+	N23.98768, E32.87947
+	N23.80847, E32.90872
+	N23.69628, E32.90293
+	N23.59138, E32.87182
+	N23.48089, E32.87792
+	N23.41454, E32.90262
+	N23.33188, E32.91415
+	N23.20765, E32.85508
+	N23.00942, E32.67990
+
+line2 =
+	N23.98768, E32.87947
+	N24.32844, E32.91306
+	N24.45399, E32.91265
+	N24.47791, E32.88939
+	N24.53956, E32.89187
+	N24.63894, E32.91988
+	N24.77022, E32.92097
+	N24.93341, E32.89503
+
+[airport1]
+name = Aswan International Airport
+code = HESN
+runways =
+	rwy1, 17, N23.9795, E32.8173, 170.9, 11161, 0, 0, 610

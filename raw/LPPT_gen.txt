@@ -1,0 +1,88 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 374
+center = N38.7813, W9.13592
+magneticvar = -3.589
+beacons =
+	LO, N38.85310, W9.09750, 0, Lisboa Lom
+	MIO, N38.70970, W9.04323, 0, Montijo
+	MOJ, N38.70880, W9.03322, 0, Montijo
+	LIS, N38.88940, W9.16278, 0, Lisboa
+	CP, N38.64230, W9.22152, 0, Caparica
+	SRA, N38.82920, W9.34000, 0, Sintra
+	CAS, N38.74830, W9.36194, 0, Cascais
+	CA, N38.72560, W9.35833, 0, Cascais
+	LAR, N38.99430, W9.04039, 0, Arruda
+	ESP, N38.42430, W9.18578, 0, Espichel
+
+line1 =
+	N39.54258, W9.14829
+	N39.42603, W9.25142
+	N39.39111, W9.31963
+	N39.33828, W9.37476
+	N39.28428, W9.35723
+	N39.24814, W9.35283
+	N39.11211, W9.41436
+	N38.96045, W9.43145
+	N38.85293, W9.47476
+	N38.79878, W9.47974
+	N38.73086, W9.47412
+	N38.70752, W9.41021
+	N38.69790, W9.35674
+	N38.71279, W9.25229
+	N38.74277, W9.13579
+	N38.83467, W9.09102
+	N39.01606, W8.95430
+	N39.06597, W8.86748
+	N39.07817, W8.79160
+	N38.99810, W8.93809
+	N38.90303, W9.00049
+	N38.80293, W8.97705
+	N38.74687, W9.02148
+	N38.69668, W9.09331
+	N38.68779, W9.17783
+	N38.65674, W9.25039
+	N38.53896, W9.20337
+	N38.44810, W9.21328
+	N38.43818, W9.18672
+	N38.45522, W9.09600
+	N38.51211, W8.91479
+	N38.50996, W8.86162
+	N38.51816, W8.79888
+	N38.48242, W8.73398
+	N38.42432, W8.66831
+	N38.44668, W8.88110
+	N38.29976, W8.81094
+	N38.18384, W8.80225
+	N37.95869, W8.87896
+	N37.87187, W8.82266
+
+line2 =
+	N39.63402, W7.65335
+	N39.54131, W7.82760
+	N39.49237, W7.98222
+	N39.48467, W8.18474
+	N39.46800, W8.37558
+	N39.37124, W8.52069
+	N39.24934, W8.66073
+	N39.11539, W8.74176
+	N39.07818, W8.79160
+
+[airport1]
+name = Humberto Delgado Airport (Lisbon Portela Airport)
+code = LPPT
+runways =
+	rwy1, 03, N38.7657, W9.14438, 22.0, 12484, 296, 1969, 331
+	rwy2, 17, N38.7862, W9.13721, 168.0, 7874, 0, 492, 374
+
+[airport2]
+name = Cascais Airport
+code = CS
+runways =
+	rwy3, 17, N38.7295, W9.35678, 164.0, 3969, 0, 0, 326
+inboundbeacon = CA

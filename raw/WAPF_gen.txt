@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 78
+center = S5.760278, E132.759444
+magneticvar = 2.590
+beacons =
+	TL, S5.66442, E132.73199, 0, Dumatubin
+
+line1 =
+	S5.62139, E133.00879
+	S5.68262, E132.93770
+	S5.78525, E132.92168
+	S5.98799, E132.84502
+	S5.90205, E132.92627
+	S5.73584, E132.97109
+	S5.57598, E133.11963
+	S5.34814, E133.17285
+	S5.31787, E133.13848
+	S5.31064, E133.11465
+	S5.62139, E133.00879
+
+line2 =
+	S5.66172, E132.73779
+	S5.64834, E132.71650
+	S5.60898, E132.69785
+	S5.60703, E132.63018
+	S5.73887, E132.68135
+	S5.85605, E132.66729
+	S5.91260, E132.68145
+	S5.91309, E132.70488
+	S5.94707, E132.74629
+	S5.85078, E132.80713
+	S5.78887, E132.80430
+	S5.66172, E132.73779
+
+[airport1]
+name = Karel Sadsuitubun Airport
+code = WAPF

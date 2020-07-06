@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 873
+usa = true
+transition = 18001
+center = N42.5570983887, W92.4002990723
+magneticvar = 0.003
+beacons =
+	ALO, N42.55650, W92.39890, 0, Waterloo
+	AL, N42.62220, W92.50940, 0, Price
+	OLZ, N42.68420, W91.97630, 0, Oelwein
+	IIB, N42.45220, W91.95100, 0, Wapsie
+	VTI, N42.22170, W92.02020, 0, Garrison
+	JWJ, N42.11140, W92.90890, 0, Elmwood
+	MIW, N42.10990, W92.91690, 0, Marshalltown
+	XWY, N42.94390, W91.78240, 0, West Union
+	IY, N43.13390, W92.72820, 0, Chukk
+	HPT, N42.72550, W93.22490, 0, Hampton
+	IFA, N42.47660, W93.26550, 0, Iowa Falls
+	TZT, N41.88550, W92.28320, 0, Belle Plaine
+	CI, N41.88570, W91.80240, 0, Cindy
+	CID, N41.88750, W91.78570, 0, Cedar Rapids
+	CJJ, N43.36600, W92.13100, 0, Cresco
+	MC, N43.05250, W93.32760, 0, Surff
+	DEH, N43.27570, W91.73650, 0, Decorah
+	MCW, N43.09470, W93.32990, 0, Mason City
+	TNU, N41.78380, W93.10900, 0, Newton
+	UKN, N43.28010, W91.53740, 0, Waukon
+
+line1 =
+	N42.72034, W90.95995
+	N42.78855, W91.06958
+	N42.88165, W91.11759
+	N42.98621, W91.14815
+	N43.10233, W91.16133
+	N43.19959, W91.14758
+	N43.27803, W91.10697
+	N43.33115, W91.11720
+	N43.35893, W91.17836
+	N43.39528, W91.21869
+	N43.44024, W91.23828
+
+[airport1]
+name = Waterloo Regional Airport
+code = KALO
+runways =
+	rwy1, 06, N42.5506, W92.4078, 67.8, 5403, 0, 0, 868
+	rwy2, 12, N42.566, W92.412, 128.0, 8400, 0, 0, 873
+	rwy3, 18, N42.5659, W92.4015, 187.8, 6002, 0, 0, 870

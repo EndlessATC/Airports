@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5330
+center = S1.31923997402, E36.9277992249
+magneticvar = 0.026
+beacons =
+	NI, S1.33301, E36.90860, 0, Nairobi
+	NV, S1.29990, E36.95420, 0, Nairobi
+	AL, S1.37608, E36.91910, 0, Embakasi
+	NO, S1.36590, E36.86410, 0, Nairobi
+	EA, S1.26505, E36.86790, 0, Eastleigh
+	TH, S1.50216, E37.02070, 0, Athi River
+	TV, S1.50344, E37.02120, 0, Athi River
+	GG, S1.39038, E36.63790, 0, Ngong
+	GV, S1.39659, E36.63790, 0, Ngong
+
+[airport1]
+name = Jomo Kenyatta International Airport
+code = HKJK
+runways =
+	rwy1, 06, S1.32759, E36.9164, 54.0, 13507, 0, 0, 5330
+
+[airport2]
+name = Nairobi Wilson Airport
+code = NW
+runways =
+	rwy2, 07, S1.32485, E36.8063, 70.0, 4798, 0, 0, 5546
+	rwy3, 14, S1.31888, E36.8119, 134.0, 5052, 246, 0, 5517
+inboundbeacon = NO

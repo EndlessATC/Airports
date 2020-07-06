@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 11
+center = S29.9944000244, W51.1713981628
+magneticvar = -15.256
+beacons =
+	PAG, S29.99320, W51.17380, 0, Porto Alegre
+	POR, S29.99600, W51.16520, 0, Porto Alegre
+	IA, S29.99400, W51.19580, 0, Pestana
+	PA, S29.99520, W51.14330, 0, Salgado
+	COA, S29.95030, W51.14580, 0, Canoas
+	OAS, S29.94470, W51.13730, 0, Canoas
+	IP, S29.99300, W51.28170, 0, Guaiba
+	FGR, S29.99820, W50.97520, 0, Figueiras
+	TQA, S29.66850, W50.78180, 0, Taquara
+	KRI, S29.78970, W51.83080, 0, Quari
+	CXS, S29.19800, W51.18870, 0, Do Sul
+
+line1 =
+	S30.97754, W51.48525
+	S30.91279, W51.45913
+	S30.84688, W51.37646
+	S30.67451, W51.35908
+	S30.70273, W51.31641
+	S30.75156, W51.28306
+	S30.59121, W51.28770
+	S30.46758, W51.24658
+	S30.41191, W51.18755
+	S30.36426, W51.15728
+	S30.24414, W51.28179
+	S30.14102, W51.29502
+	S30.03486, W51.29805
+	S30.05996, W51.24985
+	S30.12139, W51.23359
+	S30.21104, W51.17930
+	S30.26064, W51.04038
+	S30.36865, W51.02495
+	S30.37432, W50.93188
+	S30.23682, W50.64619
+	S30.25361, W50.56353
+	S30.31689, W50.54653
+	S30.43887, W50.58193
+	S30.45684, W50.61484
+	S30.41348, W50.68506
+	S30.42598, W50.71631
+	S30.70420, W50.68931
+	S30.81338, W50.77017
+	S30.90371, W50.94082
+
+line2 =
+	S30.89766, W50.61997
+	S30.42578, W50.29951
+	S29.80098, W50.03335
+
+[airport1]
+name = Salgado Filho Airport
+code = SBPA
+runways =
+	rwy1, 11, S29.9944, W51.1831, 91.0, 7480, 0, 0, 11

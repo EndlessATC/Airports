@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4227
+usa = true
+transition = 18001
+center = N43.9656982422, W107.950996399
+magneticvar = 12.183
+beacons =
+	RLY, N43.96410, W107.95100, 0, Worland
+	GEY, N44.51150, W108.08300, 0, Greybull
+	BOY, N43.46320, W108.30000, 0, Boysen Reservoir
+	COD, N44.62040, W108.96500, 0, Cody
+
+[airport1]
+name = Worland Municipal Airport
+code = KWRL
+runways =
+	rwy1, 04, N43.9609, W107.95, 56.9, 2240, 0, 0, 4212
+	rwy2, 10, N43.9676, W107.952, 118.5, 2501, 0, 0, 4182
+	rwy3, 16, N43.9762, W107.954, 175.0, 7005, 0, 0, 4161

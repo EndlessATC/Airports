@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5140
+usa = true
+transition = 18001
+center = N40.8249015808, W115.791999817
+magneticvar = 13.571
+beacons =
+	BQU, N40.75970, W115.76100, 0, Bullion
+	LWL, N41.14480, W114.97800, 0, Wells
+
+[airport1]
+name = Elko Regional Airport
+code = KEKO
+runways =
+	rwy1, 05, N40.8191, W115.806, 69.0, 7214, 0, 795, 5051
+	rwy2, 12, N40.8333, W115.791, 134.0, 2871, 0, 0, 5140

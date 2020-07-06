@@ -1,0 +1,15 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 430
+center = N14.51, E78.772778
+
+[airport1]
+name = Kadapa Airport
+code = VOCP
+runways =
+	rwy1, 11, N14.5115, E78.7681, 108.4, 6562, 0, 0, 0

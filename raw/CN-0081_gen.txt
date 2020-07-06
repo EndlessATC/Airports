@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 281
+metric = true
+center = N26.8568992615, E114.736999512
+
+line1 =
+	N25.86374, E115.06841
+	N25.85951, E114.99182
+	N25.88155, E114.93989
+	N25.92986, E114.91271
+	N25.99188, E114.90878
+	N26.10544, E114.93793
+	N26.12549, E114.90413
+	N26.15280, E114.90806
+	N26.19406, E114.93855
+	N26.23742, E114.94625
+	N26.28289, E114.93126
+	N26.36932, E114.86186
+	N26.49673, E114.73814
+	N26.61442, E114.71660
+	N26.72240, E114.79731
+	N26.78855, E114.87891
+	N26.81273, E114.96149
+	N26.84880, E114.99508
+	N26.89670, E114.97978
+	N26.94208, E114.98836
+	N26.98497, E115.02071
+	N27.03194, E115.02138
+	N27.08300, E114.99027
+	N27.13847, E115.00852
+	N27.19834, E115.07600
+	N27.28407, E115.09823
+	N27.39569, E115.07507
+	N27.51238, E115.13026
+	N27.63418, E115.26369
+	N27.78528, E115.36865
+
+[airport1]
+name = Jinggangshan Airport
+code = CN-0081

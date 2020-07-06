@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3877
+usa = true
+transition = 18001
+center = N46.6068000793, W111.983001709
+magneticvar = 13.342
+beacons =
+	HLN, N46.60680, W111.95300, 0, Helena
+	CVP, N46.60670, W111.93700, 0, Capitol
+	HAU, N46.56890, W111.75800, 0, Hauser
+	HIA, N45.86180, W112.17000, 0, Whitehall
+	CPN, N46.03200, W112.74800, 0, Coppertown
+	DRU, N46.63610, W113.18700, 0, Drummond
+	ITU, N47.36590, W111.37300, 0, Truly
+	BZ, N45.87180, W111.28600, 0, Manni
+	BZN, N45.78390, W111.15500, 0, Bozeman
+
+line1 =
+	N46.36249, W111.51572
+	N46.46908, W111.53998
+	N46.54385, W111.58538
+	N46.66160, W111.69731
+
+line2 =
+	N45.72181, W111.49270
+	N45.90350, W111.46397
+	N46.02458, W111.42963
+	N46.08499, W111.38973
+	N46.17651, W111.40630
+	N46.36037, W111.51585
+
+line3 =
+	N46.66268, W111.69876
+	N46.67069, W111.75813
+	N46.71108, W111.81369
+	N46.78647, W111.88521
+	N46.83701, W111.91334
+	N46.86272, W111.89815
+	N46.91605, W111.91908
+	N46.99708, W111.97613
+	N47.05708, W111.98931
+	N47.09612, W111.95872
+	N47.34150, W111.61608
+	N47.41509, W111.45389
+	N47.41168, W111.34775
+	N47.43948, W111.29297
+	N47.49850, W111.28951
+	N47.54113, W111.23736
+	N47.56738, W111.13660
+
+[airport1]
+name = Helena Regional Airport
+code = KHLN
+runways =
+	rwy1, 05, N46.6056, W111.997, 66.0, 4644, 0, 0, 3877
+	rwy2, 09, N46.6084, W111.998, 103.0, 9000, 0, 0, 3864
+	rwy3, 16, N46.6122, W111.981, 179.3, 2989, 0, 0, 3811

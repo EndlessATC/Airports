@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = N3.642222, E98.885278
+magneticvar = -0.322
+beacons =
+	ON, N3.56844, E98.67300, 0, Medan
+	MDN, N3.50455, E98.60770, 0, Medan
+
+line1 =
+	N4.63521, E98.02070
+	N4.41455, E98.24844
+	N4.32231, E98.27334
+	N4.19453, E98.24121
+	N4.09287, E98.30732
+	N3.99756, E98.52832
+	N3.92812, E98.65869
+	N3.88555, E98.68652
+	N3.83477, E98.70576
+	N3.75942, E98.77793
+	N3.71035, E98.86865
+	N3.58125, E99.15117
+	N3.31118, E99.52148
+	N3.18306, E99.73232
+	N2.98818, E99.90664
+	N2.89492, E99.96943
+	N2.79424, E100.02129
+
+[airport1]
+name = Kualanamu International Airport
+code = WIMM

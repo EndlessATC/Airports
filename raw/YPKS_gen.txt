@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1069
+usa = true
+center = S33.131401062, E148.238998413
+magneticvar = 11.446
+beacons =
+	PKS, S33.13110, E148.23700, 0, Parkes
+	PKS, S33.14530, E148.25301, 0, Parkes
+	FBS, S33.36420, E147.92799, 0, Forbes
+	CUA, S33.27610, E148.76700, 0, Cudal
+	ORG, S33.38310, E149.12399, 0, Orange
+	CWR, S33.84490, E148.65300, 0, Cowra
+	CWR, S33.84790, E148.64600, 0, Cowra
+
+[airport1]
+name = Parkes Airport
+code = YPKS
+runways =
+	rwy1, 04, S33.1372, E148.231, 55.0, 5525, 0, 0, 1029
+	rwy2, 11, S33.1248, E148.23, 124.0, 5322, 0, 568, 1033

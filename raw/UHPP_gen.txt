@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 131
+center = N53.1679000854, E158.453994751
+magneticvar = -6.505
+beacons =
+	PR, N53.11330, E158.49001, 0, Petropavlovsk-Kamchatsky
+	HY, N53.00170, E158.79201, 0, Khalaktyrka
+	MK, N53.31670, E157.53300, 0, Malka
+
+line1 =
+	N52.30498, E158.46348
+	N52.38315, E158.49316
+	N52.46030, E158.50039
+	N52.62666, E158.48076
+	N52.68843, E158.53369
+	N52.87363, E158.60879
+	N52.92217, E158.56016
+	N52.95742, E158.43232
+	N53.03237, E158.47207
+	N53.05000, E158.56465
+	N53.01479, E158.63955
+	N52.93540, E158.68369
+	N52.90894, E158.74541
+	N53.04756, E158.95205
+	N53.11714, E159.13613
+	N53.23770, E159.58594
+	N53.22969, E159.77158
+	N53.12510, E159.94746
+	N53.12959, E160.02510
+	N53.27490, E160.00215
+	N53.38076, E159.89766
+	N53.44771, E159.89912
+	N53.55220, E159.95586
+	N53.62085, E159.91426
+	N53.67266, E159.87090
+	N53.78364, E159.84375
+	N54.00840, E159.92178
+	N54.13086, E160.01016
+
+line2 =
+	N54.13130, E157.69356
+	N54.08078, E157.74834
+	N54.08585, E157.81686
+	N54.11479, E157.88393
+
+[airport1]
+name = Yelizovo Airport
+code = UHPP
+runways =
+	rwy1, 12, N53.157, E158.449, 118.1, 735, 0, 0, 0
+	rwy2, 16L, N53.1842, E158.444, 157.2, 11155, 0, 0, 112
+	rwy3, 16R, N53.1761, E158.446, 157.3, 8235, 0, 0, 0

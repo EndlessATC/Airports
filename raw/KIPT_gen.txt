@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 529
+usa = true
+transition = 18001
+center = N41.2417984009, W76.9210968018
+magneticvar = -10.374
+beacons =
+	FQM, N41.33860, W76.77490, 0, Williamsport
+	PIX, N41.27680, W76.71010, 0, Picture Rocks
+	MIP, N41.02340, W76.66530, 0, Milton
+	SEG, N40.79080, W76.88400, 0, Selinsgrove
+	SFK, N41.69530, W77.41990, 0, Stonyfork
+	HZL, N40.97510, W76.12580, 0, Hazleton
+	UN, N40.91030, W77.74180, 0, Penue
+	RAV, N40.55340, W76.59940, 0, Ravine
+	CYE, N41.21040, W75.83180, 0, Crystal Lake
+	SLT, N41.51280, W77.97010, 0, Slate Run
+	BZJ, N40.43590, W76.55300, 0, Bellgrove
+	RV, N40.61470, W77.71790, 0, Stroh
+	PSB, N40.91630, W77.99270, 0, Philipsburg
+
+line1 =
+	N41.83187, W77.86005
+	N41.78112, W77.99893
+	N41.77073, W78.08306
+	N41.79027, W78.19659
+	N41.87775, W78.33007
+	N41.94225, W78.36681
+	N42.01284, W78.35123
+	N42.05924, W78.41983
+
+[airport1]
+name = Williamsport Regional Airport
+code = KIPT
+runways =
+	rwy1, 09, N41.2387, W76.9344, 77.0, 6474, 0, 0, 514
+	rwy2, 12, N41.245, W76.9265, 106.0, 4280, 0, 0, 523

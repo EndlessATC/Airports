@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 143
+center = N27.9773006439, E34.3950004578
+magneticvar = 3.136
+beacons =
+	SKH, N27.97000, E34.38030, 0, Sharm El Sheikh
+	SHM, N27.99810, E34.41330, 0, Sharm El Sheikh
+	CAT, N28.68440, E34.05990, 0, St Catherine
+	HGD, N27.17780, E33.79640, 0, Hurghada
+
+line1 =
+	N27.04946, E33.89307
+	N27.18491, E33.84932
+	N27.26816, E33.80166
+	N27.34111, E33.69727
+	N27.43057, E33.65742
+	N27.60737, E33.54980
+	N27.70122, E33.55879
+	N27.89814, E33.54707
+	N27.97446, E33.49492
+	N28.05059, E33.37227
+	N28.20830, E33.20215
+
+line2 =
+	N28.77778, E33.20371
+	N28.69570, E33.20195
+	N28.56772, E33.24775
+	N28.38984, E33.41611
+	N28.25557, E33.59414
+	N28.04766, E33.76025
+	N27.82886, E34.04512
+	N27.76431, E34.22012
+	N27.88896, E34.31855
+	N28.01602, E34.39971
+	N28.10649, E34.42715
+	N28.35732, E34.44648
+	N28.75791, E34.61719
+
+line3 =
+	N28.72051, E34.79912
+	N28.50732, E34.77988
+	N28.26411, E34.68330
+	N28.14834, E34.61621
+	N28.06450, E34.62500
+	N28.13066, E34.72207
+	N28.10859, E34.82754
+	N28.08701, E35.07832
+	N28.03486, E35.18047
+	N27.73379, E35.42383
+	N27.43247, E35.58135
+
+[airport1]
+name = Sharm El Sheikh International Airport
+code = HESH
+runways =
+	rwy1, 04L, N27.9685, E34.3826, 42.8, 10108, 0, 0, 134
+	rwy2, 04R, N27.9657, E34.386, 42.8, 10108, 0, 0, 114

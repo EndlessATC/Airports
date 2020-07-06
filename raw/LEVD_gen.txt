@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2776
+center = N41.7061004639, W4.85194015503
+magneticvar = -2.557
+beacons =
+	TVD, N41.70410, W4.84981, 0, Valladolid
+	VLD, N41.78950, W4.73908, 0, Valladolid
+	ZMR, N41.53020, W5.63970, 0, Zamora
+	ZMR, N41.52840, W5.65174, 0, Zamora
+	NEA, N42.02760, W4.10913, 0, Tabanera
+	BRB, N41.93210, W5.66689, 0, Barcial Del Barco
+	MTN, N40.98880, W5.32993, 0, Salamanca
+	BBI, N41.01680, W5.45644, 0, Salamanca
+	TSC, N40.95520, W5.50248, 0, Salamanca
+	SCA, N40.92720, W5.61659, 0, Salamanca
+
+line1 =
+	N41.63278, W3.41097
+	N41.68769, W3.74349
+	N41.69296, W3.94055
+	N41.64860, W4.00215
+	N41.63079, W4.14607
+	N41.63963, W4.37231
+	N41.59235, W4.68191
+	N41.48899, W5.07480
+	N41.46352, W5.30691
+	N41.51599, W5.37827
+	N41.52747, W5.51803
+	N41.49793, W5.72610
+	N41.49214, W5.83757
+	N41.47359, W5.88780
+	N41.49039, W5.97092
+	N41.54284, W6.09195
+	N41.54963, W6.17802
+	N41.51592, W6.24432
+	N41.45504, W6.28935
+	N41.37541, W6.40314
+
+[airport1]
+name = Valladolid Airport
+code = LEVD
+runways =
+	rwy1, 05, N41.697, W4.86479, 45.2, 9843, 0, 0, 2768
+	rwy2, 15, N41.7133, W4.86181, 144.0, 2976, 0, 0, 2770

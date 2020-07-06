@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 147
+center = N18.6630992889, W74.1703033447
+magneticvar = -8.116
+beacons =
+	JRM, N18.66490, W74.14270, 0, Jeremie
+	CAY, N18.26730, W73.78300, 0, Cayes
+
+line1 =
+	N19.65869, W73.39634
+	N19.63730, W73.31553
+	N19.61074, W73.05273
+
+line2 =
+	N18.52236, W73.59160
+	N18.56533, W73.68701
+	N18.57544, W73.86250
+	N18.60142, W73.97598
+	N18.64111, W74.10034
+	N18.66270, W74.22773
+	N18.65669, W74.28447
+	N18.62471, W74.38750
+	N18.45000, W74.47812
+	N18.39307, W74.45996
+	N18.34619, W74.41904
+	N18.26919, W74.19463
+	N18.21514, W74.08540
+	N18.14316, W73.98945
+	N18.04189, W73.88496
+	N18.05820, W73.83916
+	N18.12178, W73.82471
+	N18.19023, W73.74731
+	N18.22905, W73.64404
+	N18.24536, W73.51484
+	N18.25117, W73.38516
+	N18.23354, W73.27227
+	N18.20562, W73.16006
+
+line3 =
+	N18.96729, W73.17061
+	N18.95405, W73.27642
+	N18.89673, W73.28525
+	N18.79092, W73.07798
+
+line4 =
+	N18.93203, W73.06914
+	N18.96729, W73.17061
+
+[airport1]
+name = Jérémie Airport
+code = MTJE
+
+[airport2]
+name = Les Cayes Airport
+code = CA
+runways =
+	rwy1, 08, N18.2699, W73.7929, 75.0, 3220, 260, 285, 0
+inboundbeacon = CAY

@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 69
+center = S9.14960956573, W78.5238037109
+magneticvar = 0.194
+beacons =
+	BTE, S9.14750, W78.52190, 0, Chimbote
+
+line1 =
+	S8.21016, W79.01226
+	S8.40459, W78.92539
+	S8.61699, W78.76226
+	S8.74043, W78.75459
+	S8.97109, W78.66460
+	S9.15664, W78.58013
+	S9.37061, W78.44565
+	S9.65205, W78.35649
+	S9.81035, W78.27559
+	S10.08906, W78.18560
+
+line2 =
+	S8.52155, W77.34564
+	S8.49633, W77.39152
+	S8.42383, W77.43721
+	S8.30394, W77.48263
+	S8.21547, W77.53410
+	S8.15826, W77.59164
+
+[airport1]
+name = Teniente FAP Jaime A De Montreuil Morales Airport
+code = SPEO
+runways =
+	rwy1, 01, S9.15769, W78.5249, 7.3, 5905, 0, 0, 69

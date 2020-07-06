@@ -1,0 +1,89 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 915
+center = N46.0042991638, E8.9105796814
+magneticvar = 1.094
+beacons =
+	SRN, N45.64680, E9.02285, 0, Saronno
+	SRN, N45.64610, E9.02164, 0, Saronno
+	MAL, N45.64270, E8.73456, 0, Malpensa
+	CAM, N45.57020, E8.65753, 0, Cameri
+	MAL, N45.54580, E8.75626, 0, Malpensa
+	RMG, N45.62830, E8.40658, 0, Romagnano
+	NOV, N45.42410, E8.79386, 0, Novara
+	CAM, N45.42860, E8.70078, 0, Cameri
+	LIN, N45.46120, E9.27532, 0, Linate
+	TZO, N45.55930, E9.50719, 0, Trezzo
+	TZO, N45.55850, E9.50930, 0, Trezzo
+	BEG, N45.66947, E9.70919, 0, BERGAMO
+	LIN, N45.34430, E9.28858, 0, Linate
+	ORI, N45.64380, E9.84167, 0, Orio Al Serio
+	CVA, N46.41810, E9.82167, 0, Corvatsch
+	BLA, N45.49420, E8.10058, 0, Biella Cerrione
+	BLA, N45.46220, E8.12333, 0, Biella Cerrione
+	COD, N45.22630, E9.54117, 0, Codogno
+
+line1 =
+	N45.04074, E7.67750
+	N45.12900, E7.73062
+	N45.18985, E7.82426
+	N45.21977, E7.97588
+	N45.21876, E8.18537
+	N45.19921, E8.36004
+	N45.16107, E8.49967
+	N45.11265, E8.59434
+	N45.05399, E8.64405
+	N45.05361, E8.80776
+	N45.14050, E9.22448
+	N45.09952, E9.46240
+	N45.09337, E9.50498
+	N45.11567, E9.54953
+	N45.12908, E9.60699
+	N45.11430, E9.65190
+	N45.08619, E9.69872
+	N45.08278, E9.73267
+	N45.10402, E9.75385
+	N45.10304, E9.78166
+	N45.07973, E9.81628
+	N45.08459, E9.84584
+	N45.11750, E9.87044
+	N45.13265, E9.90868
+	N45.12991, E9.96046
+	N45.10577, E10.00769
+	N45.06020, E10.05037
+	N45.02583, E10.15352
+
+line2 =
+	N46.67632, E8.75082
+	N46.75777, E9.04558
+	N46.83461, E9.41558
+	N46.83461, E9.40876
+	N46.90675, E9.51676
+	N46.96308, E9.53382
+
+line3 =
+	N46.48228, E8.25048
+	N46.37412, E8.06827
+	N46.33469, E7.95531
+	N46.32461, E7.79863
+	N46.32658, E7.65290
+	N46.27749, E7.47120
+
+[airport1]
+name = Lugano Airport
+code = LSZA
+runways =
+	rwy1, 01, N45.9985, E8.90776, 18.9, 4429, 361, 672, 896
+
+[airport2]
+name = Malpensa International Airport
+code = MC
+runways =
+	rwy2, 17L, N45.6504, E8.72841, 169.6, 12861, 3094, 0, 745
+	rwy3, 17R, N45.6455, E8.71873, 169.6, 12861, 0, 1329, 764
+inboundbeacon = MAL

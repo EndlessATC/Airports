@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 123
+usa = true
+center = S12.0560998917, E134.23399353
+magneticvar = 4.006
+beacons =
+	MGD, S12.06280, E134.23199, 0, Maningrida
+
+line1 =
+	S11.62178, E133.11436
+	S11.70566, E133.18525
+	S11.72822, E133.35615
+	S11.76035, E133.44316
+	S11.81621, E133.53320
+	S11.81133, E133.65449
+	S11.83203, E133.90420
+	S11.94014, E134.13945
+	S12.00771, E134.23711
+	S12.02578, E134.35107
+	S12.05273, E134.41738
+	S12.06084, E134.53809
+	S11.98438, E134.73027
+	S12.05469, E134.81641
+	S12.10254, E134.85469
+	S12.19375, E135.02969
+	S12.22168, E135.21797
+	S12.12920, E135.35234
+
+[airport1]
+name = Maningrida Airport
+code = YMGD
+runways =
+	rwy1, 14, S12.0526, E134.233, 148.6, 5020, 0, 0, 110

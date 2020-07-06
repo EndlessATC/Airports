@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1354
+usa = true
+center = S28.1161003113, E117.842002869
+magneticvar = 0.250
+beacons =
+	MOG, S28.06420, E117.84400, 0, Mount Magnet
+
+[airport1]
+name = Mount Magnet Airport
+code = YMOG
+runways =
+	rwy1, 04, S28.1178, E117.835, 36.0, 2953, 0, 0, 1332
+	rwy2, 16, S28.107, E117.836, 161.0, 5906, 0, 0, 1354

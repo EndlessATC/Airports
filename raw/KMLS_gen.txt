@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2630
+usa = true
+transition = 18001
+center = N46.4280014038, W105.886001587
+magneticvar = 10.177
+beacons =
+	HTN, N46.41210, W105.93800, 0, Horton
+	MLS, N46.38220, W105.95400, 0, Miles City
+	FOR, N46.26940, W106.51800, 0, Forsyth
+	GDV, N47.13340, W104.80500, 0, Glendive
+
+[airport1]
+name = Frank Wiley Field
+code = KMLS
+runways =
+	rwy1, 04, N46.4217, W105.897, 52.0, 5680, 0, 0, 2629
+	rwy2, 12, N46.4349, W105.893, 135.0, 5624, 0, 0, 2630

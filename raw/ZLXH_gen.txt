@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10510
+metric = true
+center = N34.8105, E102.6447
+
+line1 =
+	N33.89726, E102.20599
+	N33.95917, E102.10315
+	N33.98599, E101.97644
+	N34.04733, E101.83764
+	N34.14319, E101.68685
+	N34.21853, E101.51704
+	N34.27336, E101.32842
+
+[airport1]
+name = Gannan Xiahe Airport
+code = ZLXH

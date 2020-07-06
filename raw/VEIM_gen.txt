@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2540
+center = N24.7600002289, E93.896697998
+magneticvar = -0.302
+beacons =
+	IM, N24.75820, E93.88910, 0, Imphal
+	IIM, N24.76760, E93.90440, 0, Imphal
+	KU, N24.91980, E92.98750, 0, Silchar
+
+[airport1]
+name = Imphal Airport
+code = VEIM
+runways =
+	rwy1, 04, N24.7498, E93.889, 34.6, 9009, 0, 0, 2535

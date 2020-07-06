@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1850
+center = N22.7217998505, E75.8011016846
+magneticvar = -0.194
+beacons =
+	IID, N22.72280, E75.80670, 0, Indore
+	ID, N22.72970, E75.81010, 0, Indore
+
+line1 =
+	N22.45770, E76.88402
+	N22.40664, E76.80320
+	N22.34220, E76.77643
+	N22.28916, E76.71359
+	N22.24758, E76.61479
+	N22.25409, E76.52973
+	N22.30866, E76.45831
+	N22.29892, E76.30555
+	N22.22490, E76.07136
+	N22.14609, E75.60751
+	N22.02072, E74.56737
+
+[airport1]
+name = Devi Ahilyabai Holkar Airport
+code = VAID
+runways =
+	rwy1, 07, N22.7175, E75.791, 65.1, 7480, 0, 0, 1843

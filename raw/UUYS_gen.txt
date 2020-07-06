@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 262
+center = N66.004699707, E57.3671989441
+
+line1 =
+	N65.02942, E57.40035
+	N65.03365, E57.30124
+	N65.05996, E57.25628
+	N65.10835, E57.26527
+	N65.13737, E57.20253
+	N65.14693, E57.06797
+	N65.24134, E57.01609
+	N65.42050, E57.04699
+	N65.56768, E56.96741
+	N65.68281, E56.77744
+	N65.78906, E56.74422
+	N65.84683, E56.77651
+	N65.91179, E56.83387
+	N65.97075, E56.83739
+	N66.00259, E56.80561
+	N66.03251, E56.73569
+	N66.12160, E56.62117
+	N66.25735, E56.49116
+	N66.32541, E56.28331
+	N66.32567, E55.99754
+	N66.30159, E55.76252
+	N66.19986, E55.41184
+	N66.14185, E55.26394
+	N66.06470, E55.17093
+	N65.96848, E55.13289
+	N65.90970, E55.09269
+	N65.87784, E55.02902
+	N65.75201, E54.83632
+	N65.70217, E54.71070
+	N65.68643, E54.58781
+
+[airport1]
+name = Usinsk Airport
+code = UUYS

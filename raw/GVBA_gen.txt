@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 69
+center = N16.1364994049, W22.8889007568
+magneticvar = -10.454
+beacons =
+	BVT, N16.15110, W22.88810, 0, Rabil
+	SAL, N16.70180, W22.94870, 0, Sal
+	CVS, N16.73680, W22.95100, 0, Sal
+
+line1 =
+	N16.16904, W22.69263
+	N16.22153, W22.74941
+	N16.22554, W22.80264
+	N16.21899, W22.83433
+	N16.23726, W22.91772
+	N16.14844, W22.91611
+	N16.04512, W22.95928
+	N15.99272, W22.88408
+	N15.98604, W22.82051
+	N16.04336, W22.71011
+	N16.11328, W22.68188
+	N16.16904, W22.69263
+
+line2 =
+	N16.56104, W24.09414
+	N16.57202, W24.03271
+	N16.59307, W24.04639
+	N16.62251, W24.08770
+
+line3 =
+	N16.73213, W22.90391
+	N16.84375, W22.90474
+	N16.84102, W22.93291
+	N16.80884, W22.99092
+	N16.70088, W22.98062
+	N16.68306, W22.95942
+	N16.60791, W22.92026
+	N16.65908, W22.88833
+	N16.73213, W22.90391
+
+line4 =
+	N15.32354, W23.21025
+	N15.25698, W23.24717
+	N15.24053, W23.24248
+	N15.17812, W23.25181
+
+line5 =
+	N15.13677, W23.18213
+	N15.16665, W23.11587
+	N15.26841, W23.11934
+	N15.31772, W23.13774
+	N15.32354, W23.21025
+
+line6 =
+	N15.13926, W23.53525
+	N15.16089, W23.57998
+	N15.27163, W23.70063
+	N15.31689, W23.70723
+	N15.32852, W23.74810
+	N15.31079, W23.75937
+	N15.24355, W23.75449
+	N15.16611, W23.78252
+
+[airport1]
+name = Rabil Airport
+code = GVBA
+runways =
+	rwy1, 03, N16.1312, W22.8905, 16.0, 6890, 0, 0, 69

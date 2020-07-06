@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 644
+center = N67.7009963989, E24.8467998505
+magneticvar = 8.382
+beacons =
+	KIT, N67.62310, E24.89750, 0, Kittila
+	SK, N67.47180, E26.56690, 0, Sierra-Kilo
+	ENO, N68.38130, E23.46180, 0, Enodak
+	HET, N68.42230, E23.53670, 0, Hetta
+
+line1 =
+	N67.15802, E27.60806
+	N67.10583, E27.50011
+	N67.03901, E27.54011
+	N66.94542, E27.51628
+	N66.76476, E27.38482
+
+[airport1]
+name = Kittilä Airport
+code = EFKT
+runways =
+	rwy1, 16, N67.7119, E24.8398, 166.0, 8202, 0, 0, 632

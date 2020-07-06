@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1729
+center = N12.668299675, E108.120002747
+magneticvar = -0.206
+beacons =
+	BMT, N12.66650, E108.12300, 0, Buon Ma Thuot
+	BU, N12.67030, E108.04200, 0, Buon Ma Thuot
+	CL, N11.94670, E108.41400, 0, Camly
+
+line1 =
+	N11.72485, E109.19863
+	N11.77344, E109.19268
+	N11.83711, E109.15752
+	N11.91201, E109.16729
+	N11.97246, E109.19990
+	N11.99902, E109.19912
+	N12.01045, E109.21455
+	N11.95884, E109.22021
+	N11.90869, E109.24727
+	N11.95454, E109.25918
+	N11.99287, E109.25625
+	N12.07290, E109.21572
+	N12.41538, E109.20684
+	N12.39116, E109.30469
+	N12.64580, E109.21895
+	N12.70903, E109.27402
+
+line2 =
+	N13.21919, E109.30957
+	N13.27935, E109.27188
+	N13.45078, E109.28809
+	N13.59053, E109.25205
+
+[airport1]
+name = Buon Ma Thuot Airport
+code = VVBM
+runways =
+	rwy1, 09, N12.6685, E108.106, 90.9, 9843, 0, 0, 1712

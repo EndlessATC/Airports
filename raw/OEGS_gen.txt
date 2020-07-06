@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2126
+center = N26.3027992249, E43.7743988037
+magneticvar = 2.533
+beacons =
+	GAS, N26.29810, E43.77960, 0, Gassim
+
+[airport1]
+name = Gassim Airport
+code = OEGS
+runways =
+	rwy1, 15, N26.3148, E43.767, 153.0, 9843, 0, 0, 2126

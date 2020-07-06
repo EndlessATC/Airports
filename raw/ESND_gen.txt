@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1178
+center = N62.0477981567, E14.4229001999
+magneticvar = 2.530
+beacons =
+	OY, N62.04540, E14.32610, 0, Sveg
+
+line1 =
+	N63.02778, E14.44365
+	N62.95239, E14.46875
+	N62.88711, E14.47373
+	N62.83618, E14.46055
+	N62.82729, E14.44443
+	N62.82622, E14.42695
+	N62.87446, E14.38984
+	N62.92510, E14.34531
+	N62.95303, E14.34102
+	N62.95635, E14.36816
+	N62.95347, E14.38965
+	N62.95405, E14.41299
+	N62.97988, E14.42979
+	N63.02778, E14.39844
+
+line2 =
+	N61.41418, E13.71744
+	N61.46850, E13.67227
+	N61.50209, E13.59109
+	N61.53314, E13.45890
+	N61.57735, E13.34754
+	N61.66347, E13.21173
+
+line3 =
+	N61.41333, E13.71806
+	N61.33372, E13.72415
+	N61.29957, E13.74028
+	N61.28432, E13.76829
+	N61.26758, E13.94864
+	N61.23735, E14.03390
+	N61.18296, E14.09364
+	N61.11617, E14.23069
+
+line4 =
+	N62.15008, E12.09511
+	N62.15724, E12.21190
+	N62.11952, E12.29075
+	N61.99927, E12.41033
+	N61.66347, E13.21173
+
+[airport1]
+name = Sveg Airport
+code = ESND
+runways =
+	rwy1, 09, N62.0473, E14.4048, 87.0, 5579, 0, 0, 1172

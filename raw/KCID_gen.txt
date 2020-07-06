@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 869
+usa = true
+transition = 18001
+center = N41.8847007751, W91.7108001709
+magneticvar = -0.270
+beacons =
+	CID, N41.88750, W91.78570, 0, Cedar Rapids
+	CI, N41.88570, W91.80240, 0, Cindy
+	UOC, N41.63200, W91.54290, 0, Hawkeye
+	IOW, N41.51900, W91.61330, 0, Iowa City
+	VTI, N42.22170, W92.02020, 0, Garrison
+	TZT, N41.88550, W92.28320, 0, Belle Plaine
+	MXO, N42.20060, W91.13710, 0, Monticello
+	IIB, N42.45220, W91.95100, 0, Wapsie
+	AWG, N41.27980, W91.67260, 0, Washington
+	DDD, N41.36640, W91.14910, 0, Port City
+	OQW, N42.05140, W90.74100, 0, Maquoketa
+	GGI, N41.70970, W92.72960, 0, Grinnell
+	DV, N41.69480, W90.65580, 0, Auney
+	OLZ, N42.68420, W91.97630, 0, Oelwein
+	ALO, N42.55650, W92.39890, 0, Waterloo
+	OOA, N41.22560, W92.48740, 0, Oskaloosa
+	DBQ, N42.40150, W90.70910, 0, Dubuque
+	ML, N41.44910, W90.61850, 0, Molli
+	DB, N42.32300, W90.59890, 0, Zilom
+	AL, N42.62220, W92.50940, 0, Price
+	MZV, N41.32110, W90.63810, 0, Moline
+
+line1 =
+	N40.90469, W91.00012
+	N41.01558, W90.95400
+	N41.08253, W90.96382
+	N41.14596, W91.00134
+	N41.20591, W91.06650
+	N41.28032, W91.08211
+	N41.36910, W91.04811
+	N41.42559, W90.93876
+	N41.44982, W90.75407
+	N41.49473, W90.58674
+	N41.56036, W90.43667
+	N41.63203, W90.34753
+	N41.70965, W90.31924
+	N41.77001, W90.27601
+	N41.81311, W90.21777
+	N41.88365, W90.17661
+	N41.98152, W90.15245
+	N42.05371, W90.14943
+	N42.10030, W90.16751
+	N42.15402, W90.23322
+	N42.21484, W90.34657
+	N42.27207, W90.41050
+	N42.32566, W90.42504
+	N42.38325, W90.48473
+	N42.44480, W90.58963
+	N42.52051, W90.65733
+	N42.61032, W90.68787
+	N42.67693, W90.78874
+	N42.72034, W90.95995
+	N42.78855, W91.06958
+	N42.88165, W91.11759
+
+[airport1]
+name = The Eastern Iowa Airport
+code = KCID
+runways =
+	rwy1, 09, N41.8847, W91.7292, 91.0, 8601, 0, 425, 852
+	rwy2, 13, N41.8911, W91.7151, 136.0, 6200, 0, 0, 869

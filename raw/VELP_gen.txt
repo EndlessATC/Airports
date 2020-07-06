@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1398
+center = N23.8405990601, E92.6196975708
+magneticvar = -0.303
+beacons =
+	LP, N23.83490, E92.62260, 0, Lengpui
+	LLP, N23.82970, E92.62590, 0, Lengpui
+	AZ, N23.74290, E92.80290, 0, Aizawl
+	KR, N24.30950, E92.00630, 0, Kailashahar
+	KM, N24.13230, E91.81100, 0, Kamalpur
+
+[airport1]
+name = Lengpui Airport
+code = VELP
+runways =
+	rwy1, 17, N23.8518, E92.6179, 171.4, 8202, 0, 0, 1374

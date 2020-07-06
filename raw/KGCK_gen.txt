@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2891
+usa = true
+transition = 18001
+center = N37.9275016785, W100.723999023
+magneticvar = 7.259
+beacons =
+	GCK, N37.91910, W100.72500, 0, Garden City
+	GC, N37.82900, W100.72400, 0, Pieve
+	TQK, N38.48010, W100.88800, 0, Scott City
+	DDC, N37.85060, W100.00600, 0, Dodge City
+	ULS, N37.59710, W101.36800, 0, Ulysses
+	JHN, N37.63560, W101.73500, 0, Bear Creek
+	HQG, N37.16360, W101.37500, 0, Hugoton
+
+line1 =
+	N37.80488, W99.47356
+	N37.69687, W99.69779
+	N37.74772, W99.98697
+	N37.93500, W100.77607
+	N37.97099, W101.12739
+	N37.91815, W101.30394
+	N37.94978, W101.62661
+	N38.06587, W102.09539
+
+[airport1]
+name = Garden City Regional Airport
+code = KGCK
+runways =
+	rwy1, 12, N37.9309, W100.733, 135.4, 5700, 0, 0, 2890
+	rwy2, 17, N37.9392, W100.723, 180.4, 7300, 0, 0, 2888

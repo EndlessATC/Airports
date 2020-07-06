@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2464
+center = N3.83604001999, E11.5235004425
+magneticvar = -2.104
+beacons =
+	YO, N3.90139, E11.55170, 0, Yaounde
+	YNS, N3.74576, E11.55710, 0, Yaounde Nsimalen
+	NLY, N3.72581, E11.55650, 0, Yaounde Nsimalen
+
+line1 =
+	N4.78250, E12.46294
+	N4.73261, E12.38522
+	N4.72460, E12.28001
+	N4.57517, E12.13056
+	N4.54443, E12.05790
+	N4.58251, E12.01232
+	N4.54220, E11.90711
+	N4.42345, E11.74226
+	N4.39916, E11.59591
+	N4.46926, E11.46796
+	N4.41198, E11.29578
+	N4.22729, E11.07925
+	N4.10771, E10.85942
+	N4.05324, E10.63607
+	N4.04658, E10.50249
+	N4.08771, E10.45857
+	N4.04523, E10.39227
+
+[airport1]
+name = Yaoundé Airport
+code = FKKY
+runways =
+	rwy1, 03, N3.82784, E11.5198, 24.0, 6519, 0, 0, 2428
+
+[airport2]
+name = Yaoundé Nsimalen International Airport
+code = YS
+runways =
+	rwy2, 01, N3.70741, E11.5506, 10.0, 11155, 0, 0, 2263
+inboundbeacon = NLY

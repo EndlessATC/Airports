@@ -1,0 +1,113 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 257
+center = N53.3536987305, W2.27495002747
+magneticvar = -2.482
+beacons =
+	MCH, N53.35330, W2.27303, 0, Manchester
+	MCT, N53.35690, W2.26222, 0, Manchester
+	WFD, N53.33770, W2.15836, 0, Manchester Woodford
+	WHI, N53.18500, W2.62306, 0, Whitegate
+	POL, N53.74390, W2.10333, 0, Pole Hill
+	TNT, N53.05390, W1.67000, 0, Trent
+	WAL, N53.39190, W3.13444, 0, Wallasey
+	WTN, N53.75170, W2.85224, 0, Warton
+	SMF, N53.39260, W1.38314, 0, Sheffield City
+	SFH, N53.39300, W1.38314, 0, Sheffield City
+	WTN, N53.74030, W2.89284, 0, Warton
+	SLP, N52.83360, W2.77361, 0, Sleap
+	SWB, N52.79800, W2.66254, 0, Shawbury
+	TNL, N52.81450, W1.76667, 0, Tatenhill
+	LBA, N53.86500, W1.65289, 0, Leeds Bradford
+	LIC, N52.74670, W1.71944, 0, Lichfield
+	FNY, N53.47480, W1.00172, 0, Doncaster
+	GAM, N53.28140, W0.94722, 0, Gamston
+	NOT, N52.92170, W1.07933, 0, Nottingham
+	WPL, N52.63000, W3.15389, 0, Welshpool
+	LOO, N54.05050, W1.24904, 0, Linton On Ouse
+	WL, N54.12570, W3.26303, 0, Barrow
+	WL, N54.12720, W3.26486, 0, Barrow
+	LE, N52.60640, W1.03500, 0, Leicester
+
+line1 =
+	N53.71616, W0.46138
+	N53.72539, W0.56768
+	N53.72402, W0.65991
+	N53.69438, W0.48506
+
+line2 =
+	N52.39312, W4.09976
+	N52.47515, W4.05054
+	N52.54175, W3.98032
+	N52.55762, W4.04844
+	N52.60786, W4.07891
+	N52.65884, W4.07070
+	N52.70405, W4.03926
+	N52.76074, W4.06743
+	N52.82002, W4.11753
+	N52.86616, W4.11475
+	N52.91548, W4.10146
+	N52.91284, W4.22915
+
+line3 =
+	N53.21895, W4.11104
+	N53.30269, W3.80928
+	N53.30762, W3.76421
+	N53.29790, W3.64590
+	N53.31055, W3.52959
+	N53.34067, W3.42773
+	N53.34717, W3.32617
+	N53.26030, W3.09756
+	N53.39468, W3.16558
+	N53.42686, W3.06475
+	N53.30537, W2.91855
+	N53.29258, W2.86416
+	N53.31021, W2.74951
+	N53.33071, W2.79375
+	N53.33193, W2.84541
+	N53.35024, W2.91309
+	N53.38921, W2.96997
+	N53.51284, W3.06460
+	N53.58623, W3.05947
+	N53.66255, W2.99570
+	N53.73276, W2.92510
+	N53.74673, W2.98433
+	N53.77358, W3.03179
+	N53.84385, W3.04536
+	N53.90591, W3.02676
+	N53.96069, W2.89985
+	N54.04385, W2.86240
+	N54.13530, W2.84648
+	N54.17725, W2.86758
+	N54.17051, W2.99351
+	N54.15342, W3.05474
+	N54.12632, W3.10967
+	N54.12793, W3.16597
+	N54.22910, W3.32153
+	N54.30562, W3.41025
+
+line4 =
+	N53.21807, W4.20039
+	N53.26431, W4.08428
+	N53.30576, W4.04937
+	N53.30283, W4.15488
+	N53.32144, W4.19678
+
+[airport1]
+name = Manchester Airport
+code = EGCC
+runways =
+	rwy1, 05L, N53.3451, W2.29274, 51.1, 10000, 1401, 600, 212
+	rwy2, 05R, N53.332, W2.31066, 51.1, 9997, 604, 604, 186
+
+[airport2]
+name = Liverpool John Lennon Airport
+code = GP
+runways =
+	rwy3, 09, N53.3329, W2.86602, 86.0, 7500, 200, 0, 59
+inboundbeacon = WAL

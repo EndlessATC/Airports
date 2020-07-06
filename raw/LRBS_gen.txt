@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 297
+center = N44.503200531, E26.1021003723
+magneticvar = 4.222
+beacons =
+	A, N44.51030, E26.13690, 0, Baneasa East
+	B, N44.48390, E26.07580, 0, Baneasa West
+	BSE, N44.52960, E26.23050, 0, Baneasa Southeast
+	OTL, N44.57030, E26.00060, 0, Otopeni
+	OPW, N44.55770, E25.98460, 0, Otopeni
+	OPE, N44.57470, E26.21130, 0, Otopeni
+	BSW, N44.47210, E25.95200, 0, Baneasa Southwest
+	OTR, N44.58800, E26.23530, 0, Otopeni
+	FLR, N44.50080, E25.70820, 0, Floresti
+	OPT, N44.59160, E26.55950, 0, Rosiori
+	STJ, N44.91860, E25.97700, 0, Strejnic
+
+line1 =
+	N43.68633, E25.15963
+	N43.67080, E25.49708
+	N43.71175, E25.68611
+	N43.76684, E25.81882
+	N43.87055, E25.93344
+	N44.00729, E26.21580
+	N44.08398, E26.48922
+	N44.14619, E26.84775
+	N44.16741, E27.08691
+	N44.14330, E27.22173
+	N44.13780, E27.26658
+	N44.13338, E27.33831
+	N44.13767, E27.41247
+	N44.17927, E27.59411
+
+[airport1]
+name = Băneasa International Airport
+code = LRBS
+runways =
+	rwy1, 07, N44.4992, E26.0828, 74.0, 10499, 787, 2609, 297
+
+[airport2]
+name = Henri Coandă International Airport
+code = OP
+runways =
+	rwy2, 08L, N44.5765, E26.0839, 84.0, 11484, 0, 0, 313
+	rwy3, 08R, N44.5645, E26.0766, 84.0, 11484, 0, 0, 314
+inboundbeacon = OTL

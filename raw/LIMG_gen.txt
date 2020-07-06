@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 148
+center = N44.050598, E8.12743
+magneticvar = 0.362
+beacons =
+	ALB, N44.04820, E8.12762, 0, Albenga
+	ABN, N44.05580, E8.22111, 0, Albenga
+	LEV, N44.54420, E7.61539, 0, Levaldigi
+	SES, N44.41720, E8.82361, 0, Genova Sestri
+	LEZ, N43.72540, E7.32664, 0, Nice
+	NIZ, N43.77060, E7.25439, 0, Nice
+	AZR, N43.65970, E7.22442, 0, Nice Cote D Azur
+	GEN, N44.42440, E9.08208, 0, Genova
+	GEN, N44.42380, E9.08334, 0, Genova
+	CMO, N44.34580, E9.17111, 0, Camogli
+	CGS, N43.64520, E7.14592, 0, Cagnes Sur Mer
+	NC, N43.59020, E7.12908, 0, Nice/Cote D'Azur
+
+line1 =
+	N43.19907, E6.57021
+	N43.26167, E6.65723
+	N43.33457, E6.68740
+	N43.37358, E6.71660
+	N43.43833, E6.86475
+	N43.65913, E7.18145
+	N43.69609, E7.26152
+	N43.73174, E7.37773
+	N43.75044, E7.43867
+	N43.76714, E7.49316
+	N43.80259, E7.73330
+	N43.87676, E8.00498
+	N43.91895, E8.08164
+	N44.13652, E8.29238
+	N44.34614, E8.55195
+	N44.42231, E8.76582
+	N44.40776, E8.93037
+	N44.32300, E9.19600
+	N44.31924, E9.28936
+	N44.10117, E9.73086
+
+line2 =
+	N44.70601, E7.11019
+	N44.66482, E7.32558
+	N44.68694, E7.42351
+	N44.79453, E7.50180
+	N44.84902, E7.61931
+	N44.92501, E7.66478
+	N45.04074, E7.67750
+
+[airport1]
+name = Villanova D'Albenga International Airport
+code = LIMG
+runways =
+	rwy1, 09, N44.0509, E8.11848, 94.0, 4688, 295, 0, 145

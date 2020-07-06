@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2890
+metric = true
+center = N24.4011, E98.5317
+
+line1 =
+	N25.33696, E97.39378
+	N25.35044, E97.34024
+	N25.31003, E97.29208
+
+line2 =
+	N25.12035, E97.29321
+	N25.09981, E97.28980
+
+line3 =
+	N25.31502, E99.34125
+	N25.19800, E99.43965
+	N25.12932, E99.52548
+	N25.10906, E99.59876
+	N25.01703, E99.69968
+
+line4 =
+	N25.37173, E98.88185
+	N25.17275, E98.85601
+	N24.99145, E98.87121
+	N24.82784, E98.92733
+	N24.72299, E98.98024
+	N24.67692, E99.02985
+	N24.59426, E99.03580
+	N24.47504, E98.99807
+	N24.38259, E99.01569
+	N24.31704, E99.08876
+	N24.24798, E99.05765
+	N24.17548, E98.92247
+	N24.11607, E98.76439
+	N24.06980, E98.58342
+	N24.02587, E98.47257
+	N23.98427, E98.43201
+	N23.93296, E98.42002
+	N23.87198, E98.43666
+	N23.78333, E98.49593
+	N23.66703, E98.59794
+	N23.56326, E98.63835
+	N23.47211, E98.61737
+	N23.41692, E98.63515
+
+[airport1]
+name = Mangshi Airport
+code = ZPLX

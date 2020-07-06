@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1082
+center = S46.5382995605, W68.9653015137
+
+line1 =
+	S46.55381, W67.38662
+	S46.44277, W67.50645
+	S46.34541, W67.56338
+	S46.26953, W67.58608
+	S46.16680, W67.60889
+	S46.05254, W67.59956
+	S45.97012, W67.55664
+	S45.77559, W67.39302
+
+[airport1]
+name = Las Heras Airport
+code = SAVH
+runways =
+	rwy1, 9, S46.5379, W68.9755, 95.0, 4593, 207, 207, 0

@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 125
+center = N21.7882995605, W79.9972000122
+magneticvar = -5.030
+beacons =
+	UTD, N21.79060, W79.99120, 0, Trinidad
+	UCF, N22.11390, W80.42530, 0, Cienfuegos
+	UCF, N22.15470, W80.40610, 0, Cienfuegos
+	USC, N22.48070, W79.99340, 0, Santa Clara
+	U, N22.48690, W79.96670, 0, Santa Clara
+
+line1 =
+	N22.36733, W78.77598
+	N22.39092, W78.83545
+	N22.39600, W78.90190
+	N22.38789, W79.18301
+	N22.40762, W79.27568
+	N22.44893, W79.35830
+	N22.50986, W79.45649
+	N22.57778, W79.54922
+	N22.74307, W79.67666
+
+line2 =
+	N22.14292, W81.22241
+	N22.20293, W81.19956
+	N22.26797, W81.18550
+	N22.20693, W81.14141
+	N22.13423, W81.11665
+	N22.09795, W81.08311
+	N22.07358, W81.03564
+	N22.05288, W80.96191
+	N22.06353, W80.49907
+	N22.08716, W80.48481
+	N22.12344, W80.48545
+	N22.03374, W80.39292
+	N21.93340, W80.31069
+	N21.87217, W80.23135
+	N21.82925, W80.13833
+	N21.74258, W79.91030
+	N21.58516, W79.35742
+	N21.56265, W79.27441
+	N21.55283, W79.18921
+	N21.61895, W78.82295
+
+line3 =
+	N22.78765, W79.59785
+	N22.71113, W79.52275
+	N22.63770, W79.34790
+	N22.66392, W79.34956
+	N22.68135, W79.38218
+
+[airport1]
+name = Alberto Delgado Airport
+code = MUTD
+runways =
+	rwy1, 06, N21.7836, W80.0042, 52.0, 5909, 0, 984, 59
+
+[airport2]
+name = Jaime Gonzalez Airport
+code = CF
+runways =
+	rwy2, 02, N22.1394, W80.4175, 16.0, 7874, 0, 0, 98
+inboundbeacon = UCF

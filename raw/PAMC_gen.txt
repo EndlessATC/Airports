@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 341
+usa = true
+transition = 18001
+center = N62.95289993, W155.6060028
+magneticvar = 18.269
+beacons =
+	MCG, N62.95100, W155.61099, 0, Mcgrath
+	VTR, N62.94690, W155.55701, 0, Takotna River
+
+line1 =
+	N63.07863, W154.72055
+	N63.01951, W154.84364
+	N63.00595, W154.92643
+	N63.01820, W155.00991
+	N63.00453, W155.12482
+	N62.96499, W155.27116
+	N62.96220, W155.36829
+	N62.99621, W155.41619
+	N62.99962, W155.49161
+	N62.97244, W155.59455
+	N62.94944, W155.61853
+	N62.93068, W155.56360
+	N62.88598, W155.60458
+	N62.81539, W155.74142
+	N62.76645, W155.81681
+	N62.73912, W155.83077
+	N62.72046, W155.82312
+	N62.71044, W155.79387
+	N62.67824, W155.77529
+	N62.62377, W155.76736
+	N62.58605, W155.77599
+	N62.55437, W155.81369
+	N62.46601, W156.02463
+	N62.38030, W156.14191
+	N62.26780, W156.23586
+	N62.16274, W156.25627
+	N62.06510, W156.20320
+	N62.00691, W156.20320
+	N61.98815, W156.25627
+
+line2 =
+	N63.75110, W153.21470
+	N63.64862, W153.45541
+	N63.57689, W153.51305
+	N63.51540, W153.60545
+	N63.46414, W153.73263
+	N63.40311, W153.85047
+	N63.33239, W153.95899
+	N63.28647, W154.00930
+	N63.26544, W154.00140
+	N63.21082, W154.17821
+	N63.07863, W154.72055
+
+[airport1]
+name = McGrath Airport
+code = PAMC
+runways =
+	rwy1, 05, N62.957, W155.619, 68.0, 2000, 0, 0, 341
+	rwy2, 16, N62.9592, W155.605, 179.0, 5936, 0, 0, 336

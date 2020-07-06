@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 251
+center = S0.14835, W66.9855
+magneticvar = -9.521
+beacons =
+	SGC, S0.15067, W66.98520, 0, Gabriel
+	SGC, S0.14983, W66.99250, 0, Gabriel
+
+line1 =
+	N0.76838, W67.23070
+	N0.40333, W67.31953
+	N0.15575, W67.27690
+	N0.00811, W67.20072
+	S0.12211, W67.07691
+	S0.17958, W66.98397
+	S0.16428, W66.92188
+	S0.21616, W66.77228
+	S0.33528, W66.53508
+	S0.37750, W66.37256
+	S0.34277, W66.28468
+	S0.32427, W66.17167
+	S0.32200, W66.03353
+	S0.30329, W65.94173
+	S0.26820, W65.89626
+	S0.26422, W65.83957
+
+[airport1]
+name = São Gabriel da Cachoeira Airport
+code = SBUA

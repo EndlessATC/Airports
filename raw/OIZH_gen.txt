@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4564
+center = N29.4757003784, E60.9062004089
+magneticvar = 1.506
+beacons =
+	ZD, N29.47110, E60.89610, 0, Zahedan
+	ZDN, N29.48670, E60.90160, 0, Zahedan
+	ZAH, N29.46340, E60.90430, 0, Zahedan
+
+[airport1]
+name = Zahedan International Airport
+code = OIZH
+runways =
+	rwy1, 17, N29.4946, E60.9022, 173.0, 13993, 0, 886, 4536
+	rwy2, 17L, N29.4949, E60.9047, 172.9, 13949, 0, 0, 4475

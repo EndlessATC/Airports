@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 22
+center = N11.1196, W74.2306
+magneticvar = -6.106
+beacons =
+	SMR, N11.00780, W74.26140, 0, Santa Marta
+	STA, N10.96450, W74.23840, 0, Santa Marta
+	AQ, N10.87180, W74.79620, 0, Barranquilla
+	BAQ, N10.79670, W74.86030, 0, Barranquilla
+
+line1 =
+	N11.29575, W73.31338
+	N11.27148, W73.67690
+	N11.27568, W73.79570
+	N11.30889, W73.90957
+	N11.34062, W74.05913
+	N11.32085, W74.14292
+	N11.26572, W74.20020
+	N11.10532, W74.21914
+	N10.95225, W74.29995
+	N10.81372, W74.35020
+	N10.76523, W74.40088
+	N10.78706, W74.46025
+	N10.86250, W74.51626
+	N10.93447, W74.49229
+	N10.96719, W74.40957
+	N10.97466, W74.35239
+	N10.99668, W74.33022
+	N10.98906, W74.45425
+	N11.10972, W74.84458
+	N11.05757, W74.92158
+	N10.87041, W75.12305
+	N10.78325, W75.24795
+	N10.72720, W75.28062
+
+line2 =
+	N10.13049, W74.91204
+	N10.27545, W74.89240
+	N10.49517, W74.78145
+	N10.68353, W74.72667
+	N10.84058, W74.72807
+	N10.97230, W74.76135
+	N11.10971, W74.84457
+
+[airport1]
+name = Simón Bolívar International Airport
+code = SKSM
+runways =
+	rwy1, 01, N11.112, W74.2305, 358.7, 5577, 0, 0, 8

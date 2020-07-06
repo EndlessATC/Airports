@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 59
+center = N17.515, E106.590556
+
+line1 =
+	N16.56807, E107.59346
+	N16.60864, E107.54082
+	N16.64258, E107.54932
+	N16.79375, E107.35508
+	N16.89795, E107.18037
+	N17.05552, E107.11992
+	N17.22139, E106.92617
+	N17.36719, E106.73574
+	N17.66279, E106.51680
+	N17.74688, E106.37051
+	N17.76504, E106.35586
+	N17.71958, E106.47891
+	N17.87368, E106.45938
+	N17.94644, E106.49902
+	N18.05317, E106.41191
+	N18.22070, E106.23955
+	N18.25942, E106.14453
+	N18.31636, E106.06563
+	N18.50249, E105.88828
+
+[airport1]
+name = Dong Hoi Airport
+code = VN-0001

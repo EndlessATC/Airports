@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 109
+center = S28.7409992218, E32.0920982361
+magneticvar = -21.518
+beacons =
+	RBV, S28.74070, E32.09350, 0, Richards Bay
+	RB, S28.76020, E32.07730, 0, Richards Bay
+	RI, S28.68480, E32.13590, 0, Richards Bay
+	ES, S28.88830, E31.44830, 0, Eshowe
+	UD, S28.30440, E31.43070, 0, Ulundi
+	UL, S28.34890, E31.39450, 0, Ulundi
+	UL, S28.31510, E31.42060, 0, Ulundi
+	HL, S28.02670, E32.27330, 0, Hluhluwe
+	SMH, S28.23530, E31.48160, 0, Ulundi
+
+line1 =
+	S29.59082, E31.16992
+	S29.37813, E31.33516
+	S28.93711, E31.77822
+	S28.91211, E31.89150
+	S28.88379, E31.95537
+	S28.83955, E32.02725
+	S28.62148, E32.28574
+	S28.49824, E32.37520
+	S28.19971, E32.53477
+
+[airport1]
+name = Richards Bay Airport
+code = FARB
+runways =
+	rwy1, 05, S28.7459, E32.0884, 34.0, 4265, 0, 0, 73

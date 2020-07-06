@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2
+center = N0.488130986691, E72.9969024658
+magneticvar = -4.364
+beacons =
+	KA, N0.49578, E72.99530, 0, Kaadedhdhoo
+
+[airport1]
+name = Kaadedhdhoo Airport
+code = VRMT
+runways =
+	rwy1, 16, N0.493211, E72.9947, 155.2, 4003, 0, 0, 2

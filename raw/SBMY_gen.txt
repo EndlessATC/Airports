@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 174
+center = S5.81137990952, W61.278301239
+magneticvar = -13.115
+beacons =
+	MCR, S5.80717, W61.28200, 0, Manicore
+
+line1 =
+	S6.75215, W62.42923
+	S6.72310, W62.36748
+	S6.67530, W62.34366
+	S6.63365, W62.34353
+	S6.59820, W62.36709
+	S6.53815, W62.34846
+	S6.45351, W62.28767
+	S6.36679, W62.24950
+	S6.27807, W62.23400
+	S6.23027, W62.18418
+	S6.22179, W62.12558
+	S6.21848, W62.09168
+	S6.21998, W62.05802
+	S6.23631, W61.90451
+	S6.21016, W61.84446
+	S6.14707, W61.82671
+	S6.08578, W61.78038
+	S6.02625, W61.70550
+	S5.97338, W61.66794
+	S5.92718, W61.66773
+	S5.90145, W61.64799
+	S5.89613, W61.60871
+	S5.88104, W61.59936
+	S5.85602, W61.61982
+	S5.83825, W61.54851
+	S5.82750, W61.38542
+	S5.78099, W61.28853
+	S5.69872, W61.25778
+	S5.61480, W61.11660
+	S5.52917, W60.86488
+	S5.44768, W60.73445
+	S5.37037, W60.72520
+	S5.29275, W60.64681
+	S5.23033, W60.52863
+	S5.19901, W60.45871
+	S5.17586, W60.42543
+	S5.14692, W60.38843
+	S5.10310, W60.36197
+	S4.97670, W60.25986
+	S4.91272, W60.17149
+
+[airport1]
+name = Manicoré Airport
+code = SBMY

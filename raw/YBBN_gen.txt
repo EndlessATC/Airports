@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+usa = true
+center = S27.3841991425, E153.117004395
+magneticvar = 11.269
+beacons =
+	BN, S27.36580, E153.13901, 0, Brisbane
+	AF, S27.57030, E153.01601, 0, Archerfield
+	JCW, S27.76140, E153.33400, 0, Jacobs Well
+	AMB, S27.64890, E152.72400, 0, Amberley
+	AMB, S27.64170, E152.71600, 0, Amberley
+	BML, S27.96610, E152.90100, 0, Bromelton
+	KCY, S26.91890, E152.57300, 0, Kilcoy
+	MLY, S26.74470, E152.76100, 0, Maleny
+	LAV, S28.08980, E152.92500, 0, Laravale
+	MC, S26.59780, E153.09000, 0, Maroochydore
+	MC, S26.59220, E153.09200, 0, Maroochydore
+	CG, S28.16490, E153.50101, 0, Coolangatta
+	CG, S28.16890, E153.50400, 0, Coolangatta
+
+line1 =
+	S26.98271, E153.16211
+	S27.19443, E153.11680
+	S27.40469, E153.19795
+	S27.76855, E153.38574
+	S27.89766, E153.42842
+	S28.04834, E153.45488
+	S28.24053, E153.57568
+
+line2 =
+	S27.50566, E153.40088
+	S27.66504, E153.39580
+	S27.70645, E153.42656
+	S27.71172, E153.45273
+	S27.43643, E153.53877
+	S27.42246, E153.52188
+	S27.40537, E153.43545
+	S27.50566, E153.40088
+
+line3 =
+	S27.03809, E153.46680
+	S27.02988, E153.43232
+	S27.04941, E153.37988
+	S27.13887, E153.36504
+	S27.23535, E153.37656
+	S27.33096, E153.42090
+	S27.31602, E153.44248
+	S27.20146, E153.42637
+	S27.03809, E153.46680
+
+[airport1]
+name = Brisbane International Airport
+code = YBBN
+runways =
+	rwy1, 01, S27.4039, E153.118, 27.0, 11680, 197, 0, 12
+	rwy2, 14, S27.3578, E153.124, 146.7, 5577, 197, 197, 11

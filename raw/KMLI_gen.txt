@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 590
+usa = true
+transition = 18001
+center = N41.4485015869, W90.5074996948
+magneticvar = -1.032
+beacons =
+	ML, N41.44910, W90.61850, 0, Molli
+	MZV, N41.32110, W90.63810, 0, Moline
+	CVA, N41.70850, W90.48330, 0, Davenport
+	DV, N41.69480, W90.65580, 0, Auney
+	FN, N41.75170, W90.39050, 0, Hillz
+	CWI, N41.82880, W90.32760, 0, Clinton
+	EZI, N41.20110, W89.95930, 0, Kewanee
+	DDD, N41.36640, W91.14910, 0, Port City
+	GBG, N40.93730, W90.43450, 0, Galesburg
+	BOZ, N41.71110, W89.78560, 0, Whiteside
+	OQW, N42.05140, W90.74100, 0, Maquoketa
+	BDF, N41.15970, W89.58790, 0, Bradford
+	BRL, N40.72340, W90.92590, 0, Burlington
+	UOC, N41.63200, W91.54290, 0, Hawkeye
+	IOW, N41.51900, W91.61330, 0, Iowa City
+	MXO, N42.20060, W91.13710, 0, Monticello
+	PLL, N41.96560, W89.52420, 0, Polo
+	MPZ, N40.94280, W91.50930, 0, Mt.pPeasant
+	BR, N40.65420, W91.12300, 0, Burns
+	PIA, N40.68010, W89.79280, 0, Peoria
+
+line1 =
+	N40.53665, W91.39418
+	N40.60398, W91.33904
+	N40.64956, W91.21512
+	N40.74979, W91.10213
+	N40.90469, W91.00012
+	N41.01558, W90.95400
+	N41.08253, W90.96382
+	N41.14596, W91.00134
+	N41.20591, W91.06650
+	N41.28032, W91.08211
+	N41.36910, W91.04811
+	N41.42559, W90.93876
+	N41.44982, W90.75407
+	N41.49473, W90.58674
+	N41.56036, W90.43667
+	N41.63203, W90.34753
+	N41.70965, W90.31924
+	N41.77001, W90.27601
+	N41.81311, W90.21777
+	N41.88365, W90.17661
+	N41.98152, W90.15245
+	N42.05371, W90.14943
+	N42.10030, W90.16751
+	N42.15402, W90.23322
+	N42.21484, W90.34657
+	N42.27207, W90.41050
+	N42.32566, W90.42504
+	N42.38325, W90.48473
+	N42.44480, W90.58963
+
+[airport1]
+name = Quad City International Airport
+code = KMLI
+runways =
+	rwy1, 05, N41.4432, W90.5132, 49.0, 4509, 0, 0, 578
+	rwy2, 09, N41.4491, W90.527, 90.9, 10002, 0, 0, 578
+	rwy3, 13, N41.455, W90.5154, 128.2, 7001, 0, 222, 585

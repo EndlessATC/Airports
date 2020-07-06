@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 883
+metric = true
+center = N44.5241012573, E129.569000244
+magneticvar = -10.162
+beacons =
+	O, N44.53670, E129.57700, 0, Hailang
+
+[airport1]
+name = Mudanjiang Hailang International Airport
+code = ZYMD
+runways =
+	rwy1, 04, N44.5135, E129.562, 25.9, 8530, 0, 0, 883

@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7284
+usa = true
+transition = 18001
+center = N41.3120994568, W105.675003052
+magneticvar = 9.350
+beacons =
+	LAR, N41.33790, W105.72100, 0, Laramie
+	MBW, N41.84550, W106.00400, 0, Medicine Bow
+	CYS, N41.21100, W104.77300, 0, Cheyenne
+	CY, N41.14670, W104.67900, 0, Horse
+
+[airport1]
+name = Laramie Regional Airport
+code = KLAR
+runways =
+	rwy1, 03, N41.3027, W105.687, 45.6, 8500, 0, 0, 7283
+	rwy2, 12, N41.3197, W105.681, 134.6, 6300, 0, 0, 7273

@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 751
+metric = true
+center = N39.7750015259, E64.4832992554
+magneticvar = 4.254
+beacons =
+	U, N39.75330, E64.47830, 0, Bukhara
+	UH, N39.72830, E64.47170, 0, Bukhara
+	BR, N39.82330, E64.49500, 0, Bukhara
+	NQ, N39.14000, E63.58000, 0, Turkmenabat
+	LBA, N39.09000, E63.61170, 0, Turkmenabat
+	UT, N39.04000, E63.64000, 0, Turkmenabat
+
+line1 =
+	N38.79954, E63.95318
+	N38.90450, E63.90388
+	N39.04862, E63.72369
+	N39.23197, E63.41270
+	N39.33026, E63.19845
+	N39.34354, E63.08114
+	N39.40018, E63.01438
+	N39.50017, E62.99836
+
+[airport1]
+name = Bukhara Airport
+code = UTSB
+runways =
+	rwy1, 01, N39.7617, E64.48, 10.0, 9843, 0, 0, 738

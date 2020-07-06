@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 433
+usa = true
+center = S27.9864006042, E143.811004639
+magneticvar = 8.372
+beacons =
+	TGM, S27.99330, E143.81500, 0, Thargomindah
+
+[airport1]
+name = Thargomindah Airport
+code = YTGM
+runways =
+	rwy1, 04, S27.9949, E143.808, 51.0, 2776, 0, 0, 429
+	rwy2, 13, S27.9814, E143.808, 141.0, 4800, 0, 0, 429

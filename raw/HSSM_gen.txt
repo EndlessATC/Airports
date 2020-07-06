@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1291
+center = N9.55897045135, E31.6522006989
+magneticvar = 1.534
+beacons =
+	MLK, N9.56317, E31.65320, 0, Malakal
+
+line1 =
+	N8.56046, E30.73077
+	N8.64118, E30.78399
+	N8.75786, E30.82854
+	N8.87271, E30.84022
+	N8.98573, E30.81903
+	N9.13810, E30.89107
+	N9.42570, E31.13901
+
+line2 =
+	N9.53081, E30.61847
+	N9.51991, E30.84595
+	N9.49397, E31.00093
+	N9.43253, E31.12475
+
+line3 =
+	N9.43253, E31.12475
+	N9.36550, E31.34592
+	N9.35398, E31.45258
+	N9.37566, E31.51842
+	N9.44488, E31.58084
+	N9.56166, E31.63965
+	N9.65693, E31.74579
+	N9.73065, E31.89907
+	N9.83428, E32.03642
+	N9.96776, E32.15776
+	N10.07225, E32.23455
+	N10.14770, E32.26680
+	N10.24648, E32.27010
+	N10.36857, E32.24437
+	N10.43507, E32.20086
+	N10.44598, E32.13936
+	N10.47104, E32.10774
+	N10.51029, E32.10588
+
+[airport1]
+name = Malakal Airport
+code = HSSM
+runways =
+	rwy1, 05, N9.5525, E31.6459, 44.0, 6562, 0, 0, 1288

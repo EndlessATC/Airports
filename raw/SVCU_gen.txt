@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 14
+center = N10.4503326416, W64.1304702759
+magneticvar = -12.489
+beacons =
+	CUM, N10.44730, W64.13810, 0, Cumana
+	MT, N10.89590, W64.04720, 0, Giles
+	MTA, N10.92060, W63.95670, 0, Margarita
+	MTA, N10.92340, W63.96140, 0, Margarita
+	BNA, N10.13310, W64.70560, 0, Barcelona
+	URC, N9.70364, W63.99980, 0, Urica
+
+line1 =
+	N10.88398, W65.26641
+	N10.90645, W65.21250
+	N10.93022, W65.22656
+	N10.97383, W65.30234
+
+line2 =
+	N11.06846, W64.00732
+	N11.00186, W64.02832
+	N11.00566, W64.11279
+	N11.04297, W64.18481
+	N11.08613, W64.21367
+	N11.08032, W64.24976
+	N11.05190, W64.34863
+	N10.98159, W64.40234
+	N10.96152, W64.36250
+	N10.94160, W64.21895
+	N10.95879, W64.16089
+	N10.90142, W64.10117
+	N10.88433, W64.05469
+	N10.88120, W63.99355
+	N10.88755, W63.91763
+	N10.97583, W63.82710
+	N11.00034, W63.81729
+	N11.13101, W63.84937
+	N11.16724, W63.89312
+	N11.06846, W64.00732
+
+line3 =
+	N10.70708, W62.94673
+	N10.72012, W63.03550
+	N10.70918, W63.18989
+	N10.64326, W63.49678
+	N10.66377, W63.87344
+	N10.63267, W64.20195
+	N10.63516, W64.29819
+	N10.54258, W64.24751
+	N10.57925, W64.15791
+	N10.55815, W63.86270
+	N10.50342, W63.73188
+	N10.47192, W63.77905
+	N10.44854, W63.83369
+	N10.45781, W64.18833
+	N10.09810, W64.85049
+	N10.09502, W64.94404
+	N10.07666, W65.02329
+	N10.07007, W65.12910
+
+[airport1]
+name = Cumaná (Antonio José de Sucre) Airport
+code = SVCU
+runways =
+	rwy1, 08, N10.4438, W64.143, 62.0, 10171, 0, 0, 25

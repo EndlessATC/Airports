@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 831
+center = N53.7400016785, E91.3850021362
+magneticvar = 4.193
+beacons =
+	ABK, N53.74500, E91.38500, 0, Abakan
+	AK, N53.76670, E91.40500, 0, Abakan
+	AB, N53.69830, E91.35000, 0, Abakan
+
+line1 =
+	N53.73543, E91.51093
+	N53.83020, E91.45440
+	N53.90361, E91.46639
+	N53.98730, E91.52798
+	N54.04564, E91.55599
+	N54.07877, E91.55052
+	N54.16703, E91.48432
+	N54.31054, E91.35750
+	N54.41456, E91.28562
+	N54.47916, E91.26867
+	N54.55021, E91.17876
+	N54.62780, E91.01577
+	N54.72167, E90.93861
+
+line2 =
+	N52.79673, E91.37812
+	N52.92390, E91.47166
+	N53.01165, E91.50070
+	N53.05991, E91.46525
+	N53.10151, E91.45435
+	N53.13640, E91.46788
+	N53.16037, E91.53780
+	N53.17340, E91.66410
+	N53.22957, E91.78802
+	N53.32884, E91.90946
+	N53.39806, E91.95483
+	N53.43718, E91.92414
+	N53.47860, E91.84745
+	N53.52237, E91.72477
+	N53.56968, E91.63387
+	N53.62055, E91.57465
+	N53.65967, E91.55889
+	N53.68701, E91.58648
+	N53.70933, E91.57801
+	N53.73543, E91.51093
+
+[airport1]
+name = Abakan Airport
+code = UNAA
+runways =
+	rwy1, 02C, N53.7312, E91.377, 25.0, 8202, 0, 0, 0
+	rwy2, 02L, N53.7437, E91.3832, 25.3, 4265, 0, 0, 0
+	rwy3, 02R, N53.7268, E91.3747, 26.0, 10663, 1640, 820, 831

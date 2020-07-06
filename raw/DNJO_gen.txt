@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4232
+center = N9.63982963562, E8.86905002594
+magneticvar = -1.363
+beacons =
+	JB, N9.63759, E8.89385, 0, Jos
+	JOS, N9.64219, E8.84300, 0, Jos
+
+[airport1]
+name = Yakubu Gowon Airport
+code = DNJO
+runways =
+	rwy1, 10, N9.64106, E8.85547, 95.0, 9845, 0, 0, 4226

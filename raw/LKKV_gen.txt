@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1989
+center = N50.202999115, E12.9149999619
+magneticvar = 2.127
+beacons =
+	KVY, N50.20120, E12.92590, 0, Karlovy Vary
+	OKG, N50.06510, E12.40570, 0, Cheb
+	RAK, N50.09710, E13.69070, 0, Rakovnik
+	D, N49.68310, E13.29420, 0, Line
+	HOD, N50.28980, E11.85520, 0, Hof
+	HOF, N50.28460, E11.76140, 0, Hof
+	GRW, N49.69460, E11.94170, 0, Grafenwohr
+	GRF, N49.69130, E11.93830, 0, Grafenwohr
+	AGD, N50.98270, E12.51230, 0, Altenburg
+	PSK, N49.79750, E14.03470, 0, Pisek
+	ABU, N50.99380, E12.52100, 0, Altenburg
+	BAY, N49.98570, E11.63810, 0, Bayreuth
+	BAY, N49.98520, E11.63670, 0, Bayreuth
+	DRN, N51.01550, E13.59890, 0, Dresden
+
+line1 =
+	N50.22210, E14.63097
+	N50.34272, E14.47295
+	N50.43811, E14.38820
+	N50.46043, E14.33244
+	N50.44157, E14.27735
+	N50.45416, E14.24056
+	N50.49821, E14.22206
+	N50.52007, E14.17808
+	N50.51966, E14.10873
+	N50.53537, E14.06248
+	N50.56709, E14.03943
+	N50.58939, E14.03959
+	N50.60226, E14.06295
+	N50.61851, E14.06739
+	N50.64143, E14.06956
+	N50.66073, E14.08398
+	N50.68626, E14.16036
+	N50.74967, E14.20289
+	N50.85098, E14.21157
+	N50.91787, E14.13617
+	N50.95033, E13.97670
+	N50.99136, E13.87381
+	N51.04099, E13.82761
+	N51.07869, E13.74379
+	N51.10448, E13.62246
+	N51.14140, E13.52220
+	N51.18951, E13.44304
+
+[airport1]
+name = Karlovy Vary International Airport
+code = LKKV
+runways =
+	rwy1, 11, N50.2068, E12.9011, 113.0, 7054, 460, 0, 1987
+	rwy2, 12, N50.2021, E12.9204, 110.0, 2624, 0, 0, 0

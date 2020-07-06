@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = N1.38163995743, E173.147003174
+magneticvar = 9.187
+beacons =
+	BO, N1.37717, E173.14301, 0, Bonriki
+	TW, N1.37700, E173.14301, 0, Tarawa
+
+line1 =
+	N1.89697, E172.98154
+	N1.91270, E172.96914
+	N1.93252, E172.95010
+	N1.94370, E172.93477
+	N1.92593, E172.93271
+	N1.88540, E172.96660
+	N1.82256, E173.02363
+	N1.84570, E173.01875
+	N1.89697, E172.98154
+
+line2 =
+	N1.80439, E173.03770
+	N1.80933, E173.02363
+	N1.74731, E173.02783
+	N1.72749, E173.02041
+	N1.71309, E172.99326
+	N1.71738, E173.02939
+	N1.74155, E173.04521
+	N1.77876, E173.04268
+	N1.80439, E173.03770
+
+line3 =
+	N1.01313, E173.03281
+	N1.02510, E173.00371
+	N1.02510, E172.99004
+	N0.99097, E173.00371
+	N0.99097, E173.00996
+	N0.99907, E173.02559
+	N0.96270, E173.06504
+	N0.91475, E173.03857
+	N0.84277, E172.96992
+	N0.83545, E172.99111
+	N0.91523, E173.06143
+	N0.94624, E173.07949
+	N0.97344, E173.08652
+	N1.01313, E173.03281
+
+line4 =
+	N1.34209, E173.03838
+	N1.33838, E173.01133
+	N1.35874, E173.02861
+	N1.38135, E173.14336
+	N1.38755, E173.15332
+	N1.37515, E173.17188
+	N1.36338, E173.17148
+	N1.35752, E173.16309
+	N1.35708, E173.10635
+	N1.34634, E173.06172
+	N1.34209, E173.03838
+
+[airport1]
+name = Bonriki International Airport
+code = NGTA
+runways =
+	rwy1, 09, N1.38278, E173.138, 97.2, 6598, 0, 263, 9

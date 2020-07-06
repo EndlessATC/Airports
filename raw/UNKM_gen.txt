@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+center = N56.1769981384, E92.5400009155
+magneticvar = 4.115
+beacons =
+	KRS, N56.17000, E92.50830, 0, Krasnoyarsk
+	BK, N56.15000, E92.58500, 0, Krasnoyarsk
+	AJ, N56.19330, E92.40670, 0, Krasnoyarsk
+	UJ, N55.93330, E92.48330, 0, Ust-Mana
+	GO, N56.65000, E92.65000, 0, Gorevoye
+	BZ, N56.90000, E93.16670, 0, Bolshaya Murta
+	PA, N56.75000, E93.56670, 0, Pavlovshina
+
+line1 =
+	N55.29141, E92.18226
+	N55.50312, E92.40845
+
+line2 =
+	N57.11440, E93.45665
+	N57.06272, E93.43764
+	N57.02768, E93.39583
+	N56.99327, E93.38291
+	N56.86087, E93.45696
+	N56.82299, E93.50895
+	N56.80170, E93.57975
+	N56.72589, E93.65695
+	N56.59556, E93.74077
+	N56.48014, E93.73509
+	N56.37961, E93.64000
+	N56.31698, E93.54998
+	N56.29225, E93.46502
+	N56.26215, E93.41779
+	N56.22665, E93.40828
+	N56.19510, E93.34482
+	N56.16745, E93.22752
+	N56.13089, E93.16179
+	N56.08541, E93.14763
+	N56.03493, E92.93462
+	N55.97945, E92.52265
+	N55.92279, E92.29977
+	N55.86486, E92.26598
+	N55.81313, E92.30148
+	N55.76750, E92.40638
+	N55.71577, E92.47005
+	N55.65795, E92.49258
+	N55.59754, E92.47997
+	N55.50312, E92.40845
+
+[airport1]
+name = Cheremshanka Airport
+code = UNKM
+
+[airport2]
+name = Yemelyanovo Airport
+code = KL
+runways =
+	rwy1, 11, N56.1795, E92.4659, 113.1, 12139, 0, 0, 942
+inboundbeacon = KRS

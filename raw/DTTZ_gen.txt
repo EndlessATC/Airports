@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 287
+center = N33.9397010803, E8.11056041718
+magneticvar = 0.526
+beacons =
+	TON, N33.94100, E8.10039, 0, Tozeur
+	ZN, N33.93980, E8.00522, 0, Nefta
+	GAF, N34.42060, E8.82408, 0, Gafsa
+
+[airport1]
+name = Tozeur Nefta International Airport
+code = DTTZ
+runways =
+	rwy1, 09, N33.9396, E8.08368, 89.0, 10581, 0, 0, 264

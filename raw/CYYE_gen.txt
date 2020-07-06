@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1253
+usa = true
+transition = 18001
+center = N58.8363990784, W122.597000122
+magneticvar = 22.088
+beacons =
+	YE, N58.79580, W122.72300, 0, Fort Nelson
+	YYE, N58.89170, W123.01600, 0, Fort Nelson
+	3I, N58.79830, W121.34500, 0, Mobil Sierra
+
+line1 =
+	N59.50345, W124.78850
+	N59.55293, W124.71990
+	N59.61641, W124.68197
+	N59.66504, W124.64606
+	N59.72876, W124.55376
+	N59.72421, W124.41356
+	N59.65129, W124.22536
+	N59.61946, W124.16017
+	N59.56086, W124.14614
+	N59.55776, W124.08079
+	N59.59352, W124.04816
+	N59.70959, W123.93106
+
+[airport1]
+name = Fort Nelson Airport
+code = CYYE
+runways =
+	rwy1, 03, N58.8308, W122.616, 57.0, 6400, 0, 0, 1253
+	rwy2, 07, N58.8383, W122.599, 105.0, 4068, 0, 0, 1250

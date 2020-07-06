@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 38
+center = N11.1497001648, W60.8321990967
+magneticvar = -14.134
+beacons =
+	TAB, N11.15280, W60.84140, 0, Crown Point
+	TRI, N10.59340, W61.42210, 0, Piarco
+	BGH, N11.13130, W61.65900, 0, Bgh
+	POS, N10.46620, W61.39190, 0, Piarco
+
+line1 =
+	N10.84023, W60.91763
+	N10.83193, W61.07852
+	N10.80332, W61.17373
+	N10.79683, W61.37002
+	N10.76445, W61.46484
+	N10.74795, W61.59185
+	N10.71807, W61.65117
+	N10.69937, W61.63530
+	N10.66445, W61.54092
+	N10.63887, W61.49883
+	N10.60337, W61.47827
+	N10.53896, W61.46475
+	N10.26855, W61.49932
+	N10.25312, W61.52886
+	N10.24341, W61.63271
+	N10.19170, W61.66147
+
+line2 =
+	N10.16782, W61.00410
+	N10.26147, W60.99961
+	N10.32339, W60.96846
+	N10.38638, W61.01641
+	N10.48228, W61.03750
+	N10.55811, W61.01934
+	N10.66987, W61.03374
+	N10.71616, W60.99673
+	N10.84023, W60.91763
+
+line3 =
+	N11.27725, W60.70894
+	N11.20840, W60.80430
+	N11.16860, W60.81064
+	N11.17852, W60.75630
+	N11.26372, W60.54648
+	N11.32539, W60.52549
+	N11.32354, W60.56279
+	N11.27725, W60.70894
+
+line4 =
+	N12.10854, W61.74966
+	N12.04570, W61.75596
+	N12.00820, W61.78208
+	N12.01265, W61.71543
+	N12.05420, W61.62710
+
+line5 =
+	N10.68145, W61.92139
+	N10.74102, W61.87949
+
+[airport1]
+name = Tobago-Crown Point Airport
+code = TTCP
+runways =
+	rwy1, 11, N11.1506, W60.8447, 94.1, 9002, 1003, 0, 29

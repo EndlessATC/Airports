@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 115
+center = N61.1082992554, E72.6500015259
+magneticvar = 16.346
+beacons =
+	GK, N61.34330, E73.30000, 0, Surgut
+	AM, N61.34330, E73.50670, 0, Surgut
+
+line1 =
+	N61.30122, E70.35377
+	N61.30406, E70.78434
+	N61.29755, E70.97895
+	N61.28262, E71.08096
+	N61.25089, E71.15445
+	N61.20236, E71.19941
+	N61.19539, E71.25749
+	N61.23006, E71.32891
+	N61.25280, E71.44709
+	N61.26903, E71.69467
+	N61.25497, E72.04442
+	N61.26445, E72.22281
+	N61.29285, E72.34652
+	N61.28840, E72.46600
+	N61.25120, E72.58134
+	N61.24267, E72.67839
+	N61.26282, E72.75704
+	N61.26344, E72.90669
+	N61.23513, E73.23742
+	N61.19642, E73.56624
+	N61.19590, E73.71036
+	N61.22063, E73.77930
+	N61.21435, E73.87661
+	N61.17704, E74.00218
+	N61.17464, E74.11757
+	N61.20714, E74.22289
+	N61.20066, E74.31358
+	N61.16841, E74.38453
+	N61.16841, E74.42918
+	N61.18908, E74.44903
+	N61.21316, E74.51455
+	N61.21544, E74.64529
+	N61.20247, E74.75009
+	N61.16019, E74.86843
+
+[airport1]
+name = Nefteyugansk Airport
+code = USRN
+
+[airport2]
+name = Surgut Airport
+code = RR
+runways =
+	rwy1, 07, N61.3436, E73.3758, 89.7, 9154, 0, 0, 180
+inboundbeacon = GK

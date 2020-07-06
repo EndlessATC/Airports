@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1907
+center = N47.260201, E11.344
+magneticvar = 1.277
+beacons =
+	INN, N47.23000, E11.40190, 0, Innsbruck
+	KTI, N47.21550, E11.02780, 0, Kuhtai
+	RTT, N47.43090, E11.94010, 0, Rattenberg
+	EUR, N47.73500, E11.24940, 0, Eurach
+	BZO, N46.46360, E11.32190, 0, Bolzano
+	OBI, N48.08060, E11.28540, 0, Oberpfaffenhofen
+	KPT, N47.74580, E10.34970, 0, Kempten
+	LAB, N48.06530, E10.88080, 0, Landsberg
+
+line1 =
+	N47.52690, E9.73066
+	N47.51489, E9.71855
+	N47.50640, E9.68545
+
+line2 =
+	N47.56636, E9.64424
+	N47.52690, E9.73066
+	N47.52690, E9.73066
+	N47.52690, E9.73066
+	N47.52690, E9.73066
+
+[airport1]
+name = Innsbruck Airport
+code = LOWI
+runways =
+	rwy1, 08, N47.2588, E11.3309, 81.0, 6562, 339, 0, 1907

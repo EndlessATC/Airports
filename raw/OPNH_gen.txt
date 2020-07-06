@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 95
+center = N26.2194, E68.390099
+magneticvar = 0.423
+beacons =
+	NH, N26.21720, E68.39130, 0, Nawabshah
+	NH, N26.21760, E68.38580, 0, Nawabshah
+	SN, N26.47560, E67.71830, 0, Sehwan Sharif
+
+line1 =
+	N27.20762, E68.17478
+	N27.19312, E68.12104
+	N27.16294, E68.09892
+	N27.11705, E68.10854
+	N27.06202, E68.06322
+	N26.99778, E67.96307
+	N26.90978, E67.91092
+	N26.74209, E67.90472
+	N26.48686, E67.89093
+	N26.36862, E67.89956
+	N26.30222, E67.92591
+	N26.24336, E67.98193
+	N26.19199, E68.06761
+	N26.14027, E68.11680
+	N26.08812, E68.12972
+	N25.99893, E68.20155
+	N25.87271, E68.33229
+	N25.79481, E68.37880
+	N25.76525, E68.34087
+	N25.72817, E68.34811
+	N25.68355, E68.40030
+	N25.62066, E68.39844
+	N25.53942, E68.34242
+	N25.44393, E68.32310
+	N25.33416, E68.34046
+	N25.26156, E68.33715
+	N25.22606, E68.31317
+
+[airport1]
+name = Shaheed Benazirabad Airport
+code = OPNH
+runways =
+	rwy1, 02, N26.2078, E68.3852, 21.0, 8999, 0, 0, 94

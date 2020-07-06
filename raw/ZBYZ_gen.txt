@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3400
+metric = true
+center = N40.926, E107.7428
+magneticvar = -3.217
+beacons =
+	DKO, N40.31500, E107.00000, 0, Dengkou
+
+line1 =
+	N40.01632, E106.71776
+	N40.28612, E107.04316
+	N40.39552, E107.14915
+	N40.43446, E107.14419
+	N40.49988, E107.17395
+	N40.59184, E107.23855
+	N40.67121, E107.37973
+	N40.73803, E107.59770
+	N40.79345, E107.71955
+	N40.83748, E107.74550
+	N40.86453, E107.86213
+	N40.87466, E108.06956
+	N40.86327, E108.19017
+	N40.83035, E108.22397
+	N40.81467, E108.29006
+	N40.81622, E108.38856
+	N40.77813, E108.47599
+	N40.70041, E108.55258
+	N40.63199, E108.65061
+	N40.57287, E108.77019
+	N40.54672, E108.88413
+	N40.55355, E108.99245
+	N40.53476, E109.13415
+
+[airport1]
+name = Bayannur Tianjitai Airport
+code = ZBYZ

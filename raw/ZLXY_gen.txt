@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1572
+metric = true
+center = N34.447102, E108.751999
+magneticvar = -3.003
+beacons =
+	SIA, N34.44670, E108.75000, 0, Xianyang
+	OD, N34.59830, E108.91700, 0, Sanyuan
+	ZS, N34.22170, E108.85300, 0, Yanzhuang
+	HO, N35.20170, E107.77300, 0, Changwu
+
+[airport1]
+name = Xi'an Xianyang International Airport
+code = ZLXY
+runways =
+	rwy1, 05, N34.4382, E108.739, 48.9, 9842, 0, 0, 1562

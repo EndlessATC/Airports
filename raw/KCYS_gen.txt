@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6159
+usa = true
+transition = 18001
+center = N41.15570068, W104.8119965
+magneticvar = 9.284
+beacons =
+	CYS, N41.21100, W104.77300, 0, Cheyenne
+	CY, N41.14670, W104.67900, 0, Horse
+	GLL, N40.50390, W104.55300, 0, Gill
+	LAR, N41.33790, W105.72100, 0, Laramie
+	FN, N40.36320, W104.97100, 0, Colln
+	DC, N40.33470, W104.62600, 0, Buffs
+
+line1 =
+	N40.18460, W105.82080
+	N40.16468, W105.86136
+
+line2 =
+	N40.40410, W105.84558
+	N40.21530, W105.81640
+	N40.18491, W105.82064
+
+[airport1]
+name = Cheyenne Regional Jerry Olson Field
+code = KCYS
+runways =
+	rwy1, 09, N41.1568, W104.821, 95.3, 9267, 610, 675, 6144
+	rwy2, 13, N41.1622, W104.827, 135.3, 6691, 1060, 1160, 6151

@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 66
+center = N31.3374004364, E48.7620010376
+magneticvar = 3.037
+beacons =
+	AWZ, N31.33760, E48.76430, 0, Ahwaz
+	AWZ, N31.34410, E48.74460, 0, Ahwaz
+	MIS, N31.92940, E49.32720, 0, Masjed Soleiman
+	OMD, N30.85190, E49.50530, 0, Omidiyeh
+	OMD, N30.84890, E49.53330, 0, Omidiyeh
+	MAH, N30.55630, E49.14940, 0, Mahshahr
+	AJ, N30.75000, E49.68330, 0, Aghajari
+
+line1 =
+	N30.39727, E48.91680
+	N30.45049, E49.03711
+	N30.50654, E49.00195
+	N30.50942, E49.13037
+	N30.47231, E49.22451
+	N30.41250, E49.24727
+	N30.37539, E49.19033
+	N30.40679, E49.09619
+	N30.39727, E49.04902
+	N30.37393, E49.00195
+
+line2 =
+	N30.68945, E47.60850
+	N30.66362, E47.57314
+	N30.66313, E47.49131
+	N30.67788, E47.40693
+
+line3 =
+	N30.81187, E47.42920
+	N30.81396, E47.47197
+	N30.80894, E47.49980
+	N30.79678, E47.50391
+	N30.76777, E47.53018
+	N30.71255, E47.59004
+	N30.68945, E47.60850
+	N30.68945, E47.60850
+	N30.68945, E47.60850
+	N30.68945, E47.60850
+
+line4 =
+	N30.99981, E47.39931
+	N31.00444, E47.44210
+	N30.96847, E47.46845
+
+line5 =
+	N30.96847, E47.46845
+	N30.83075, E47.58178
+	N30.77461, E47.64684
+	N30.75409, E47.70151
+	N30.70422, E47.73552
+	N30.62495, E47.74895
+	N30.56087, E47.78533
+	N30.51199, E47.84466
+	N30.47762, E47.93829
+	N30.45768, E48.06614
+	N30.41683, E48.14753
+	N30.35502, E48.18236
+
+line6 =
+	N31.28605, E47.43393
+	N30.99909, E47.44132
+
+[airport1]
+name = Ahwaz Airport
+code = OIAW
+runways =
+	rwy1, 12, N31.346, E48.7472, 124.1, 11149, 0, 0, 66

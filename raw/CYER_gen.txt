@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 48
+usa = true
+transition = 18001
+center = N56.018901825, W87.6761016846
+magneticvar = -8.271
+beacons =
+	YER, N55.99320, W87.63920, 0, Fort Severn
+
+line1 =
+	N55.60107, W85.67666
+	N55.65693, W85.83052
+	N55.69590, W85.98447
+	N55.71787, W86.13867
+	N55.77324, W86.37695
+	N55.91455, W86.91938
+	N55.97466, W87.28687
+	N56.02129, W87.48242
+	N56.05635, W87.56089
+	N56.34160, W87.87812
+	N56.46729, W88.07510
+	N56.53569, W88.27134
+	N56.60869, W88.44707
+	N56.72505, W88.67988
+	N56.81426, W88.82646
+	N56.85132, W88.94849
+	N56.88384, W89.21157
+	N56.91543, W89.34233
+
+[airport1]
+name = Fort Severn Airport
+code = CYER

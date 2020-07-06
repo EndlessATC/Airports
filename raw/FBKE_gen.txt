@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3289
+center = S17.8328990936, E25.162399292
+magneticvar = -8.270
+beacons =
+	KSV, S17.83270, E25.16990, 0, Kasane
+	KAS, S17.82300, E25.15650, 0, Kasane
+	LZ, S17.82030, E25.80110, 0, Livingstone
+	FA, S18.07030, E25.76500, 0, Victoria Falls
+	VLI, S17.81260, E25.82000, 0, Livingstone
+	VF, S18.08950, E25.81990, 0, Victoria Falls
+	MT, S18.50890, E25.92400, 0, Matetsi
+
+line1 =
+	S17.14009, E24.07655
+	S17.47805, E24.23824
+	S17.51774, E24.73289
+	S17.54348, E24.93241
+	S17.56859, E25.00176
+	S17.63432, E25.09214
+	S17.79400, E25.25926
+	S17.84516, E25.45171
+	S17.84950, E25.55713
+	S17.82408, E25.63960
+	S17.85824, E25.74161
+	S17.95193, E25.86326
+	S17.96981, E25.99586
+	S17.91172, E26.13952
+	S17.92934, E26.33341
+
+[airport1]
+name = Kasane Airport
+code = FBKE
+runways =
+	rwy1, 08, S17.8358, E25.1535, 71.0, 6562, 0, 0, 3298

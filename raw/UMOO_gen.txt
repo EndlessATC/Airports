@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 637
+center = N53.9548988342, E30.0951004028
+magneticvar = 7.044
+beacons =
+	CO, N53.92670, E30.14500, 0, Mogilev
+	UF, N53.98670, E30.04500, 0, Mogilev
+
+line1 =
+	N54.77712, E32.00557
+	N54.70669, E31.59831
+	N54.65514, E30.97375
+	N54.61341, E30.71764
+	N54.56437, E30.62173
+	N54.54422, E30.55212
+	N54.55300, E30.50882
+	N54.53659, E30.46256
+	N54.49497, E30.41327
+	N54.42479, E30.36025
+	N54.32604, E30.30350
+	N54.18470, E30.31839
+	N54.00084, E30.40489
+	N53.89901, E30.40665
+	N53.87924, E30.32356
+	N53.80155, E30.27513
+	N53.66598, E30.26139
+	N53.52283, E30.28366
+	N53.29659, E30.37120
+	N53.25050, E30.27901
+	N53.20598, E30.26030
+	N53.14763, E30.28418
+	N53.12017, E30.25147
+	N53.12358, E30.16207
+	N53.10061, E30.09080
+	N53.05123, E30.03758
+
+[airport1]
+name = Mogilev Airport
+code = UMOO
+runways =
+	rwy1, 13, N53.9632, E30.0817, 136.6, 8422, 0, 0, 625

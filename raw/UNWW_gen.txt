@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1024
+center = N53.811401, E86.877197
+magneticvar = 6.289
+beacons =
+	UF, N53.85500, E86.90500, 0, Novokuznetsk
+
+line1 =
+	N53.67672, E88.74449
+	N53.68882, E88.48683
+	N53.68360, E88.31598
+	N53.66114, E88.23175
+	N53.67768, E88.11548
+	N53.73323, E87.96696
+	N53.77680, E87.78821
+	N53.80834, E87.57913
+	N53.80987, E87.40121
+	N53.78129, E87.25434
+	N53.79832, E87.17890
+	N53.86090, E87.17466
+	N53.93733, E87.24912
+	N54.02750, E87.40219
+	N54.10548, E87.49144
+	N54.17116, E87.51696
+	N54.23199, E87.51205
+	N54.28785, E87.47660
+	N54.34350, E87.48446
+	N54.39885, E87.53562
+	N54.47479, E87.53980
+	N54.57127, E87.49691
+	N54.63486, E87.39986
+	N54.68095, E87.17280
+	N54.71583, E87.08722
+	N54.74973, E87.06945
+
+[airport1]
+name = Spichenkovo Airport
+code = UNWW

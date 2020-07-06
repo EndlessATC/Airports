@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1036
+center = N18.7667999268, E98.962600708
+magneticvar = -0.442
+beacons =
+	CMA, N18.76610, E98.96130, 0, Chiang Mai
+	CHM, N18.77120, E98.96680, 0, Chiang Mai
+	CGM, N18.75980, E98.96720, 0, Chiang Mai
+	LPN, N18.27690, E99.50240, 0, Lampang
+	LP, N18.27800, E99.50750, 0, Lampang
+
+[airport1]
+name = Chiang Mai International Airport
+code = VTCC
+runways =
+	rwy1, 18, N18.7809, E98.9627, 180.2, 10171, 0, 0, 1036

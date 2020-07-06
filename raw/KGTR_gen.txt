@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 264
+usa = true
+transition = 18001
+center = N33.4502983093, W88.5914001465
+magneticvar = -1.278
+beacons =
+	IGB, N33.48550, W88.51360, 0, Bigbee
+	STF, N33.43210, W88.85030, 0, Bryan
+	CBM, N33.64150, W88.43850, 0, Caledonia
+	AIV, N33.11400, W88.18560, 0, Aliceville
+	LMS, N33.14370, W89.06090, 0, Louisville
+	NJW, N32.79510, W88.83530, 0, Joe Williams
+	FDF, N33.71460, W87.81360, 0, Fayette
+	TU, N34.18030, W88.76870, 0, Veron
+	MPE, N32.79850, W89.12460, 0, Philadelphia
+	OTB, N34.22390, W88.79730, 0, Tupelo
+	TC, N33.15850, W87.67030, 0, Tuske
+	OSX, N33.09090, W89.54040, 0, Kosciusko
+	HAB, N34.19510, W88.01250, 0, Hamilton
+
+[airport1]
+name = Golden Triangle Regional Airport
+code = KGTR
+runways =
+	rwy1, 18, N33.4593, W88.5913, 180.0, 8002, 0, 0, 260

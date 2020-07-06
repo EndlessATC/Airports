@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2661
+center = N31.6457004547, W2.26986002922
+magneticvar = -1.393
+beacons =
+	BC, N31.63330, W2.30556, 0, Bechar
+	BCR, N31.68530, W2.25722, 0, Bechar
+
+[airport1]
+name = Béchar Boudghene Ben Ali Lotfi Airport
+code = DAOR
+runways =
+	rwy1, 06, N31.6377, W2.29554, 60.0, 12245, 0, 2370, 0
+	rwy2, 18, N31.6589, W2.26123, 180.0, 9840, 0, 0, 2661

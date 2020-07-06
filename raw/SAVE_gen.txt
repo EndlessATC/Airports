@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2621
+center = S42.908000946, W71.139503479
+magneticvar = 8.541
+beacons =
+	L, S42.89290, W71.11260, 0, Esquel
+	ESQ, S42.88720, W71.10030, 0, Esquel
+	OL, S42.87290, W71.07090, 0, Esquel
+
+line1 =
+	S42.01055, W72.62397
+	S41.98086, W72.49941
+	S42.20664, W72.46011
+	S42.38818, W72.41235
+	S42.43389, W72.43027
+	S42.25576, W72.54844
+	S42.19980, W72.63105
+	S42.22051, W72.70737
+
+line2 =
+	S42.41045, W72.71631
+	S42.50967, W72.63184
+	S42.51660, W72.65483
+
+line3 =
+	S43.58158, W71.21999
+	S43.60809, W71.09196
+	S43.56173, W71.01341
+	S43.39616, W70.90580
+	S43.39280, W70.89910
+	S43.09592, W70.81100
+	S42.98223, W70.74415
+	S42.95288, W70.66920
+	S42.90369, W70.62605
+	S42.83465, W70.61478
+	S42.76612, W70.57881
+	S42.69812, W70.51825
+	S42.65109, W70.46122
+	S42.62525, W70.40779
+	S42.61740, W70.24413
+	S42.62758, W69.97025
+	S42.64303, W69.78411
+	S42.66370, W69.68572
+
+[airport1]
+name = Brigadier Antonio Parodi Airport
+code = SAVE
+runways =
+	rwy1, 5, S42.9098, W71.148, 57.0, 7874, 0, 815, 2621
+	rwy2, 8, S42.912, W71.1512, 90.2, 3937, 0, 0, 0

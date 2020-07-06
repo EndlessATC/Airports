@@ -1,0 +1,81 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1203
+usa = true
+transition = 18001
+center = N40.49150085, W80.23290253
+magneticvar = -8.159
+beacons =
+	MMJ, N40.48820, W80.19390, 0, Montour
+	AGC, N40.27870, W80.04090, 0, Allegheny
+	EWC, N40.82520, W80.21160, 0, Ellwood City
+	HLG, N40.25990, W80.56860, 0, Wheeling
+	MKP, N40.35070, W79.78130, 0, Mckeesport
+	HL, N40.10960, W80.68870, 0, Dorch
+	UCP, N41.02370, W80.41480, 0, Castle
+	CFX, N40.23670, W81.01320, 0, Cadiz
+	TSO, N40.56260, W81.07760, 0, Tolson
+	AIR, N40.01700, W80.81730, 0, Bellaire
+	HBD, N41.15290, W80.53140, 0, Hubbard
+	VV, N39.88280, W79.74470, 0, Camor
+	BHU, N40.37550, W79.27170, 0, Benje
+	YN, N41.20050, W80.59610, 0, Fetch
+	IHD, N39.97420, W79.35840, 0, Indian Head
+	CIP, N41.14630, W79.45800, 0, Clarion
+	ACO, N41.10790, W81.20150, 0, Akron
+
+line1 =
+	N41.48010, W79.51325
+	N41.47212, W79.61030
+	N41.44713, W79.69924
+	N41.40522, W79.78001
+	N41.37355, W79.81024
+	N41.35220, W79.78998
+	N41.32761, W79.79784
+	N41.29986, W79.83386
+	N41.26420, W79.81641
+	N41.22069, W79.74557
+	N41.15470, W79.68151
+	N41.06633, W79.62426
+	N41.01212, W79.60384
+	N40.99212, W79.62020
+	N40.96592, W79.58746
+	N40.93854, W79.52276
+	N40.90562, W79.51496
+	N40.82376, W79.54256
+	N40.63680, W79.69826
+	N40.51941, W79.82980
+	N40.45608, W79.94617
+	N40.44771, W79.99087
+
+line2 =
+	N40.44771, W79.99087
+	N40.52158, W80.14898
+	N40.58447, W80.22267
+	N40.66101, W80.26468
+	N40.68620, W80.34401
+	N40.64695, W80.51908
+	N40.60326, W80.63753
+	N40.56298, W80.65905
+	N40.51156, W80.62319
+	N40.44521, W80.60409
+	N40.36389, W80.60182
+	N40.18525, W80.66827
+	N39.90914, W80.80351
+	N39.73551, W80.87219
+	N39.66430, W80.87431
+	N39.57112, W80.96330
+
+[airport1]
+name = Pittsburgh International Airport
+code = KPIT
+runways =
+	rwy1, 10C, N40.4899, W80.2463, 92.0, 9708, 0, 0, 1139
+	rwy2, 10L, N40.5023, W80.2712, 91.9, 10502, 0, 0, 1204
+	rwy3, 10R, N40.4867, W80.2519, 92.0, 11500, 0, 0, 1135
+	rwy4, 14, N40.496, W80.2249, 136.4, 8101, 0, 0, 1148

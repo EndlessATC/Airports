@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 157
+center = N6.284467, E81.124128
+magneticvar = -2.527
+beacons =
+	KG, N5.99500, E80.32330, 0, Koggala
+
+line1 =
+	N6.36440, E80.00723
+	N6.15317, E80.09531
+	N6.00977, E80.26738
+	N5.94937, E80.49580
+	N5.97905, E80.72412
+	N6.08838, E80.97109
+	N6.20386, E81.30625
+	N6.24092, E81.37998
+	N6.42515, E81.63740
+	N6.51187, E81.71270
+	N6.61431, E81.76777
+	N6.75620, E81.81855
+	N6.90127, E81.86143
+	N7.02046, E81.87695
+
+[airport1]
+name = Mattala Rajapaksa International Airport
+code = VCRI

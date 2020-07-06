@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2940
+center = N19.6914997101, E97.2147979736
+magneticvar = -0.447
+beacons =
+	LK, N19.69280, E97.21630, 0, Loikaw
+	MHS, N19.31960, E97.91210, 0, Mae Hong Son
+	MH, N19.29880, E97.97520, 0, Mae Hong Son
+	TGO, N19.04780, E96.39640, 0, Taungoo
+
+line1 =
+	N19.99002, E98.14081
+	N19.96062, E97.94299
+	N19.92860, E97.86517
+	N19.88416, E97.84140
+	N19.85812, E97.80988
+	N19.85036, E97.77070
+	N19.71756, E97.69608
+	N19.33068, E97.53103
+	N18.85161, E97.45729
+	N18.83084, E97.44023
+	N18.82805, E97.40561
+	N18.84324, E97.35342
+	N18.77849, E97.33187
+
+[airport1]
+name = Loikaw Airport
+code = VYLK
+runways =
+	rwy1, 01, N19.6843, E97.2143, 4.0, 5200, 200, 200, 0

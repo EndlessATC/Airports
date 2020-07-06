@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 78
+center = N27.9319000244, W15.3865995407
+magneticvar = -6.299
+beacons =
+	TGN, N27.92340, W15.38950, 0, Gran Canaria
+	VR, N27.85680, W15.41990, 0, Gran Canaria
+	LPC, N27.82850, W15.43220, 0, Gran Canaria
+	GDV, N28.07710, W15.42900, 0, Gran Canaria
+	TX, N28.45250, W16.25770, 0, Tenerife Norte
+	TFN, N28.53680, W16.26880, 0, Tenerife Norte
+
+line1 =
+	N28.37993, W16.33447
+	N28.52827, W16.11914
+	N28.57598, W16.12363
+	N28.55820, W16.31899
+	N28.41270, W16.51743
+	N28.40049, W16.55684
+
+line2 =
+	N28.00718, W16.65801
+	N28.03208, W16.54277
+	N28.06191, W16.49624
+	N28.15142, W16.41821
+	N28.37993, W16.33447
+
+line3 =
+	N28.40664, W14.15259
+	N28.21582, W14.23198
+	N28.12969, W14.35557
+	N28.10093, W14.49180
+	N28.08237, W14.46860
+	N28.05601, W14.33262
+	N28.16929, W14.19678
+
+line4 =
+	N28.14736, W15.40059
+	N28.15933, W15.41548
+	N28.15425, W15.43271
+	N28.13691, W15.45278
+	N28.15405, W15.68276
+	N28.06416, W15.72095
+	N27.99448, W15.80947
+	N27.88755, W15.80732
+	N27.78408, W15.71030
+	N27.75840, W15.65576
+	N27.74697, W15.55937
+	N27.81069, W15.43677
+	N27.87471, W15.38916
+	N27.99282, W15.38315
+	N28.07051, W15.40669
+	N28.14736, W15.40059
+
+[airport1]
+name = Gran Canaria Airport
+code = GCLP
+runways =
+	rwy1, 03L, N27.9189, W15.3923, 22.0, 10171, 0, 0, 78
+	rwy2, 03R, N27.9182, W15.3904, 22.0, 10171, 0, 0, 69

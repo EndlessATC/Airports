@@ -1,0 +1,16 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1529
+center = N7.72583007812, E27.9750003815
+magneticvar = 1.275
+beacons =
+	Wau_NDB_, N7.72302, E27.97650, 0, Wau
+
+[airport1]
+name = Wau Airport
+code = HSWW

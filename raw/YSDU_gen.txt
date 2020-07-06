@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 935
+usa = true
+center = S32.2167015076, E148.574996948
+magneticvar = 11.056
+beacons =
+	DU, S32.21950, E148.57800, 0, Dubbo
+	DU, S32.21750, E148.55901, 0, Dubbo
+	NRM, S32.22310, E148.22900, 0, Narromine
+
+[airport1]
+name = Dubbo City Regional Airport
+code = YSDU
+runways =
+	rwy1, 05, S32.2228, E148.569, 53.0, 5604, 0, 0, 935
+	rwy2, 11, S32.2144, E148.573, 118.0, 3501, 0, 0, 910

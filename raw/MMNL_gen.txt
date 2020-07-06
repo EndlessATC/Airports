@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 484
+center = N27.4438991547, W99.5705032349
+magneticvar = 5.451
+beacons =
+	NLD, N27.43940, W99.56460, 0, Nuevo Laredo
+	LRD, N27.47870, W99.41770, 0, Laredo
+	LR, N27.64220, W99.45810, 0, Pekks
+	HBV, N27.35390, W98.74410, 0, Hebbronville
+
+line1 =
+	N27.05662, W99.45651
+	N27.03667, W99.44354
+	N26.88472, W99.30246
+	N26.76193, W99.22993
+	N26.56414, W99.17208
+
+line2 =
+	N26.56414, W99.17208
+	N26.44691, W99.10777
+
+line3 =
+	N28.42814, W100.33627
+	N28.32768, W100.29604
+	N28.24262, W100.22127
+	N28.17296, W100.11195
+	N28.04785, W100.00141
+	N27.86729, W99.88963
+	N27.72994, W99.75427
+	N27.63588, W99.59531
+	N27.54834, W99.50532
+	N27.46739, W99.48426
+	N27.39804, W99.48583
+	N27.34032, W99.51007
+	N27.28552, W99.49981
+	N27.23371, W99.45514
+	N27.17012, W99.44026
+	N27.08171, W99.45772
+	N27.05667, W99.45653
+
+[airport1]
+name = Quetzalcóatl International Airport
+code = MMNL
+runways =
+	rwy1, 14, N27.4517, W99.5754, 151.0, 6562, 0, 0, 484
+
+[airport2]
+name = Laredo International Airport
+code = RD
+runways =
+	rwy2, 14, N27.5495, W99.4667, 147.3, 5928, 0, 0, 505
+	rwy3, 17L, N27.5564, W99.4593, 182.6, 8236, 0, 0, 499
+	rwy4, 17R, N27.554, W99.4625, 182.6, 7830, 0, 0, 504
+inboundbeacon = LRD

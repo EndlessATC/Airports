@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2712
+center = N28.2008991241, E83.9821014404
+magneticvar = 0.111
+beacons =
+	PHR, N28.20060, E83.98440, 0, Pokhara
+	BHP, N27.67940, E84.42970, 0, Bharatpur
+	BHW, N27.50860, E83.42670, 0, Bhairahawa
+	BWA, N27.50330, E83.43280, 0, Bhairahawa
+
+[airport1]
+name = Pokhara Airport
+code = VNPK
+runways =
+	rwy1, 04, N28.1958, E83.9774, 39.1, 4720, 0, 350, 0

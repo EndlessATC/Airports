@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1084
+center = N48.325001, E6.06998
+magneticvar = 0.213
+beacons =
+	EPL, N48.31780, E6.05942, 0, Epinal
+	NAY, N48.58360, E5.95183, 0, Nancy
+	LXI, N47.79660, E6.37519, 0, Luxeuil
+	LXI, N47.78320, E6.35711, 0, Luxeuil
+	LUL, N47.68830, E6.29558, 0, Luxeuil
+	RLP, N47.90630, E5.24917, 0, Rolampont
+	MET, N49.06690, E6.12939, 0, Metz
+	GTQ, N48.98640, E6.71622, 0, Grostenquin
+	SDI, N48.62900, E4.91067, 0, Saint-Dizier
+	SDI, N48.63700, E4.88919, 0, Saint-Dizier
+	HR, N47.56170, E6.73225, 0, Hericourt
+
+line1 =
+	N47.56989, E7.69806
+	N47.60655, E7.56546
+	N47.67389, E7.52939
+	N47.77362, E7.53859
+	N47.90566, E7.59326
+	N48.00257, E7.60846
+	N48.06430, E7.58417
+	N48.15680, E7.61662
+	N48.28005, E7.70571
+	N48.41002, E7.76514
+	N48.54683, E7.79480
+
+line2 =
+	N47.57787, E4.70765
+	N47.73964, E4.58425
+	N47.81248, E4.55355
+	N47.85036, E4.57433
+	N47.89147, E4.56502
+	N47.95805, E4.50591
+	N48.08182, E4.40839
+	N48.14528, E4.32183
+
+[airport1]
+name = Épinal-Mirecourt Airport
+code = LFSG
+runways =
+	rwy1, 08, N48.3241, E6.05182, 85.0, 8858, 0, 846, 1084

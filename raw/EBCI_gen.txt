@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 614
+center = N50.459202, E4.45382
+magneticvar = -0.148
+beacons =
+	GSY, N50.45390, E4.44139, 0, Gosly
+	CC, N50.46890, E4.48472, 0, Charleroi Lctr
+	ONC, N50.48940, E4.55528, 0, Charleroi
+	BFS, N50.24140, E4.65306, 0, Florennes
+	HUL, N50.74940, E4.64167, 0, Huldenberg
+	BBE, N50.75640, E4.76806, 0, Beauvechain
+	OZ, N50.82690, E4.46694, 0, Brussels
+	CIV, N50.57390, E3.83278, 0, Chièvres
+	CIV, N50.57230, E3.82183, 0, Chièvres
+	BUB, N50.90220, E4.53806, 0, Brussels
+	OB, N50.92030, E4.61639, 0, Brussels
+	AFI, N50.90780, E4.13889, 0, Affligem
+	FLO, N50.87670, E5.13444, 0, Flora
+	LG, N50.65010, E5.46677, 0, Liege
+	LGE, N50.65390, E5.47056, 0, Liege
+	BUN, N51.11860, E4.84194, 0, Bruno
+	ONW, N51.16750, E4.56639, 0, Antwerpen
+	NIK, N51.16500, E4.18389, 0, Nicky
+	ANT, N51.19060, E4.47250, 0, Antwerpen
+	ONL, N50.70110, E5.54917, 0, Liege
+	SPI, N50.51470, E5.62333, 0, Sprimont
+	MAK, N50.96470, E3.49611, 0, Mackel
+	LNO, N50.58580, E5.71028, 0, Olno
+	CMB, N50.22810, E3.15150, 0, Cambrai
+	OKT, N50.82400, E3.22483, 0, Kortrijk
+	BBL, N51.17030, E5.46639, 0, Kleine Brogel
+	ONT, N51.21330, E5.55750, 0, Kleine Brogel
+
+line1 =
+	N51.45669, E4.20576
+	N51.45576, E4.14131
+
+line2 =
+	N51.45391, E3.58691
+	N51.44990, E3.69355
+	N51.40937, E3.82188
+	N51.44321, E4.00654
+	N51.40151, E4.13887
+	N51.38647, E4.22617
+	N51.36064, E4.11152
+	N51.39595, E4.01104
+	N51.35449, E3.88340
+	N51.36914, E3.71650
+	N51.39941, E3.58945
+	N51.39351, E3.42578
+	N51.37769, E3.35010
+	N51.35161, E3.22520
+	N51.26543, E2.96016
+
+[airport1]
+name = Brussels South Charleroi Airport
+code = EBCI
+runways =
+	rwy1, 06, N50.4554, E4.43664, 66.0, 8366, 1477, 0, 611

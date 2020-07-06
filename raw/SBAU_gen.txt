@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1361
+center = S21.1413002014, W50.4247016907
+magneticvar = -18.331
+beacons =
+	ARA, S21.13930, W50.42670, 0, Aracatuba
+	TUP, S21.89380, W50.50220, 0, Tupa
+	LNS, S21.66350, W49.73370, 0, Lins
+
+line1 =
+	S20.22300, W51.06388
+	S20.30801, W51.16465
+	S20.44185, W51.39706
+
+line2 =
+	S20.29442, W49.19981
+	S20.24559, W49.23893
+	S20.14859, W49.28358
+
+line3 =
+	S20.44144, W51.39675
+	S20.55766, W51.53432
+	S20.66649, W51.59315
+	S20.80684, W51.61914
+
+[airport1]
+name = Araçatuba Airport
+code = SBAU

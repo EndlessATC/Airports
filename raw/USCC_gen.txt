@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 769
+center = N55.305801, E61.5033
+magneticvar = 13.200
+beacons =
+	LBN, N55.30670, E61.52000, 0, Chelyabinsk
+	LB, N55.31670, E61.42170, 0, Chelyabinsk
+	KS, N55.29330, E61.58830, 0, Chelyabinsk
+	TH, N55.90000, E61.73330, 0, Takhtalym
+
+[airport1]
+name = Chelyabinsk Balandino Airport
+code = USCC
+runways =
+	rwy1, 09, N55.3092, E61.4789, 103.6, 10499, 0, 0, 759

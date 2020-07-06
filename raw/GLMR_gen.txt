@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 25
+center = N6.28906011581, W10.7587003708
+magneticvar = -8.058
+beacons =
+	SM, N6.32620, W10.73330, 0, Monrovia Spriggs Payne
+	FR, N6.21621, W10.38330, 0, Monrovia Roberts
+	ROB, N6.23954, W10.35830, 0, Monrovia Roberts
+	MO, N6.24287, W10.35330, 0, Monrovia Roberts
+
+line1 =
+	N7.18354, W11.92920
+	N7.08857, W11.73345
+	N6.94697, W11.54751
+	N6.90654, W11.50752
+	N6.68823, W11.29160
+	N6.55737, W11.00454
+	N6.46509, W10.84902
+	N6.31016, W10.78560
+	N6.25850, W10.70762
+	N6.21094, W10.59707
+	N6.16733, W10.41816
+	N6.07764, W10.27637
+	N5.51870, W9.65439
+
+[airport1]
+name = Spriggs Payne Airport
+code = GLMR
+runways =
+	rwy1, 05, N6.28254, W10.7639, 40.0, 6000, 200, 200, 25
+
+[airport2]
+name = Roberts International Airport
+code = RB
+runways =
+	rwy2, 04, N6.22083, W10.3701, 31.0, 11000, 0, 1200, 29
+inboundbeacon = ROB

@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2020
+center = N33.4114990234, E36.5155982971
+magneticvar = 4.009
+beacons =
+	DAM, N33.36490, E36.46860, 0, Damascus
+	DAL, N33.48750, E36.60170, 0, Otaebe
+	ABD, N33.33530, E36.42820, 0, Abyad
+	MEZ, N33.48330, E36.23330, 0, Mezze
+	ROP, N32.98260, E35.57270, 0, Rosh Pina
+	RPN, N32.96690, E35.55670, 0, Rosh Pina
+	KTN, N34.22720, E37.23370, 0, Kariatain
+	KTN, N34.21330, E37.26420, 0, Kariatain
+
+line1 =
+	N34.24824, E35.64785
+	N34.03218, E35.61182
+	N33.87974, E35.51084
+	N33.50347, E35.33574
+	N33.39263, E35.25137
+	N33.25898, E35.20352
+	N33.16001, E35.15508
+
+line2 =
+	N32.78164, E35.63164
+	N32.74917, E35.61592
+	N32.72031, E35.57686
+	N32.74961, E35.55127
+	N32.80342, E35.53389
+	N32.85562, E35.53916
+	N32.89160, E35.56504
+	N32.89971, E35.59893
+	N32.87837, E35.62285
+	N32.83384, E35.63584
+	N32.78164, E35.63164
+	N32.78164, E35.63164
+	N32.78164, E35.63164
+	N32.78164, E35.63164
+
+line3 =
+	N32.89972, E35.59889
+	N32.72030, E35.57688
+
+line4 =
+	N33.59635, E35.86389
+	N33.43083, E35.69553
+	N33.24371, E35.61894
+	N33.11095, E35.59476
+	N32.89972, E35.59889
+
+[airport1]
+name = Damascus International Airport
+code = OSDI
+runways =
+	rwy1, 05L, N33.4186, E36.5088, 48.0, 9843, 0, 0, 2002
+	rwy2, 05R, N33.385, E36.4961, 48.0, 11811, 0, 0, 2020

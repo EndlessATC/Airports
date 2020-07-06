@@ -1,0 +1,91 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2395
+center = N31.7226009369, E35.9931983948
+magneticvar = 3.409
+beacons =
+	QL, N31.73530, E36.02690, 0, Queen Alia (Locator)
+	QA, N31.73050, E36.09460, 0, Queen Alia
+	MDB, N31.70930, E35.85020, 0, Queen Alia
+	QAA, N31.74090, E36.15810, 0, Queen Alia
+	AMN, N32.00410, E36.06600, 0, Amman
+	JYO, N32.00480, E36.06560, 0, Amman
+	JYT, N31.24980, E36.04710, 0, Qatraneh
+	QTR, N31.24840, E36.05950, 0, Qatraneh
+	MZD, N31.33060, E35.39050, 0, Metzada
+	IRM, N31.86340, E35.21640, 0, Jerusalem
+
+line1 =
+	N32.61406, E34.92188
+	N32.19634, E34.80381
+	N31.89570, E34.67842
+
+line2 =
+	N31.72417, E35.58535
+	N31.57397, E35.56680
+	N31.35913, E35.54512
+	N31.32725, E35.52100
+	N31.32539, E35.42285
+	N31.34824, E35.40313
+	N31.49243, E35.40215
+	N31.61855, E35.42139
+	N31.71035, E35.46260
+	N31.75586, E35.52197
+	N31.76553, E35.55898
+	N31.72417, E35.58535
+	N31.72417, E35.58535
+	N31.72417, E35.58535
+	N31.72417, E35.58535
+
+line3 =
+	N31.17705, E35.52246
+	N31.15444, E35.51689
+	N31.12524, E35.50840
+	N31.10493, E35.49795
+	N31.09634, E35.45928
+	N31.10439, E35.41650
+	N31.13516, E35.39141
+	N31.17793, E35.37676
+	N31.21562, E35.38184
+	N31.23052, E35.40068
+	N31.23174, E35.44561
+	N31.20503, E35.49355
+	N31.17705, E35.52246
+	N31.17705, E35.52246
+	N31.17705, E35.52246
+	N31.17705, E35.52246
+
+line4 =
+	N31.32538, E35.42288
+	N31.56236, E35.46546
+	N31.67238, E35.49947
+	N31.76553, E35.55900
+
+line5 =
+	N31.32483, E35.42350
+	N31.23050, E35.40066
+	N32.72030, E35.57688
+	N32.39552, E35.55145
+	N32.23788, E35.57202
+	N32.10300, E35.53471
+	N31.98492, E35.53151
+	N31.76553, E35.55900
+
+[airport1]
+name = Queen Alia International Airport
+code = OJAI
+runways =
+	rwy1, 08L, N31.7267, E35.9696, 81.4, 12008, 0, 0, 2360
+	rwy2, 08R, N31.7144, E35.9806, 81.4, 12008, 0, 0, 2357
+
+[airport2]
+name = Amman-Marka International Airport
+code = AM
+runways =
+	rwy3, 06, N31.9663, E35.976, 65.0, 10745, 0, 0, 2555
+inboundbeacon = AMN

@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+center = N59.4100646973, E143.056503296
+
+line1 =
+	N58.41685, E140.98770
+	N58.52808, E141.34707
+	N58.64902, E141.60293
+	N58.74526, E141.75469
+	N58.99966, E142.02539
+	N59.15264, E142.33037
+	N59.24014, E142.58027
+	N59.37012, E143.19219
+	N59.34365, E143.52383
+	N59.41138, E143.86875
+	N59.40830, E144.12344
+	N59.37627, E144.48340
+
+[airport1]
+name = Okhotsk Airport
+code = UHOO

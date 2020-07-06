@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 22
+center = S0.547458, E166.919006
+magneticvar = 8.505
+beacons =
+	NI, S0.54383, E166.92101, 0, Nauru
+	NI, S0.54283, E166.91800, 0, Nauru
+
+line1 =
+	S0.48936, E166.93896
+	S0.49912, E166.91357
+	S0.52373, E166.90703
+	S0.54648, E166.91641
+	S0.55078, E166.93896
+	S0.51660, E166.95840
+	S0.49697, E166.95566
+	S0.48936, E166.93896
+
+[airport1]
+name = Nauru International Airport
+code = ANYN
+runways =
+	rwy1, 12, S0.541181, E166.912, 130.3, 7054, 165, 380, 22

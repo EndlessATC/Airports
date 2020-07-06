@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 230
+center = N36.9799995422, E8.87693977356
+magneticvar = 1.093
+beacons =
+	TK, N36.97810, E8.87864, 0, Tabarka 7 Novembre
+	TBK, N36.97820, E8.88358, 0, Tabarka
+	BIZ, N37.23530, E9.76556, 0, Bizerte
+	BC, N37.33000, E9.83611, 0, Cap Blanc
+
+line1 =
+	N36.78149, E10.29326
+	N36.86538, E10.33408
+	N37.03389, E10.18877
+	N37.20586, E10.19639
+	N37.25127, E10.08740
+	N37.25776, E9.98809
+	N37.25415, E9.87559
+	N37.21284, E9.87939
+	N37.18164, E9.89639
+	N37.13535, E9.83027
+	N37.21143, E9.78398
+	N37.25464, E9.81553
+	N37.30898, E9.83848
+	N37.33027, E9.75889
+	N37.34038, E9.68799
+	N37.19463, E9.14199
+	N37.15586, E9.05889
+	N36.99761, E8.82354
+	N36.93721, E8.57656
+	N36.91035, E8.12715
+	N36.85635, E7.91045
+	N36.88027, E7.79160
+	N36.99976, E7.60771
+	N37.05928, E7.43242
+
+[airport1]
+name = Tabarka 7 Novembre Airport
+code = DTKA
+runways =
+	rwy1, 09, N36.9812, E8.85919, 93.0, 9416, 0, 0, 196

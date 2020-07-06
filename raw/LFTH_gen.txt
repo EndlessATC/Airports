@@ -1,0 +1,89 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7
+center = N43.0973014832, E6.14602994919
+magneticvar = 0.377
+beacons =
+	HYE, N43.10080, E6.14750, 0, Hyeres
+	TLN, N43.03270, E6.15281, 0, Hyeres
+	LUC, N43.38280, E6.25592, 0, Le Luc
+	STP, N43.21950, E6.60181, 0, St.tTopez
+	OB, N43.22980, E5.66542, 0, Marseille/Provence
+	LU, N43.38690, E6.52517, 0, Le Luc
+	MUS, N43.38460, E6.60636, 0, Nice Cote D Azur
+	MRM, N43.37730, E5.32644, 0, Marseille/Provence
+	MS, N43.38860, E5.28347, 0, Marseille/Provence
+	CNM, N43.56040, E6.87094, 0, Cannes
+	ALM, N43.50780, E5.36047, 0, Aix Les Milles
+	MJ, N43.43920, E5.21750, 0, Marseille/Provence
+	ML, N43.44430, E5.20217, 0, Marseille/Provence
+	MTG, N43.38630, E5.08683, 0, Martigues
+	MAR, N43.48980, E5.13725, 0, Marseille/Provence
+	NC, N43.59020, E7.12908, 0, Nice/Cote D'Azur
+	CGS, N43.64520, E7.14592, 0, Cagnes Sur Mer
+	SAL, N43.61180, E5.10281, 0, Salon
+	SAL, N43.61060, E5.10111, 0, Salon
+	AZR, N43.65970, E7.22442, 0, Nice Cote D Azur
+	NIZ, N43.77060, E7.25439, 0, Nice
+
+line1 =
+	N43.38711, E4.62871
+	N43.37329, E4.71211
+	N43.37891, E4.78906
+	N43.40142, E4.78721
+	N43.40522, E4.80791
+	N43.39395, E4.84355
+	N43.41162, E4.87373
+	N43.42695, E4.91191
+	N43.42695, E4.97598
+	N43.44453, E5.05977
+	N43.40630, E5.06084
+	N43.36660, E5.07314
+	N43.34897, E5.12041
+	N43.35249, E5.19951
+	N43.34492, E5.32021
+	N43.22852, E5.40654
+	N43.17783, E5.67158
+	N43.09790, E5.80947
+	N43.10098, E6.03057
+	N43.07236, E6.11592
+	N43.13872, E6.30537
+	N43.16929, E6.49404
+	N43.19907, E6.57021
+	N43.26167, E6.65723
+	N43.33457, E6.68740
+	N43.37358, E6.71660
+	N43.43833, E6.86475
+	N43.65913, E7.18145
+	N43.69609, E7.26152
+	N43.73174, E7.37773
+	N43.75044, E7.43867
+	N43.76714, E7.49316
+	N43.80259, E7.73330
+
+line2 =
+	N44.07054, E4.75933
+	N44.04041, E4.82041
+	N44.01235, E4.84340
+	N43.97323, E4.82062
+	N43.90642, E4.69024
+	N43.82776, E4.63768
+	N43.71506, E4.61939
+	N43.63878, E4.63138
+	N43.57910, E4.69463
+	N43.55367, E4.72362
+	N43.50753, E4.73540
+	N43.44861, E4.74326
+	N43.40143, E4.78723
+
+[airport1]
+name = Toulon-Hyères Airport
+code = LFTH
+runways =
+	rwy1, 05, N43.0945, E6.14112, 51.0, 6955, 722, 0, 6
+	rwy2, 13, N43.1018, E6.13994, 135.0, 6240, 951, 360, 12

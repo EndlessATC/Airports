@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 240
+center = N39.4893, W0.481625
+magneticvar = -1.242
+beacons =
+	VLC, N39.48560, W0.48304, 0, Valencia
+	B, N39.47970, W0.45618, 0, Valencia
+	PND, N39.43740, W0.34646, 0, Valencia
+	EBT, N39.62300, W0.47208, 0, Valencia
+	SGO, N39.67420, W0.20781, 0, Sagunto
+	CLS, N39.70720, W0.98632, 0, Calles
+
+line1 =
+	N38.58569, W0.05273
+	N38.69678, E0.13633
+	N38.75918, E0.20156
+	N38.82466, E0.15488
+	N38.89121, W0.03413
+	N38.96948, W0.13379
+	N39.06260, W0.20493
+	N39.41709, W0.32896
+	N39.51987, W0.32700
+	N39.87593, W0.07515
+	N40.01396, E0.04307
+	N40.10659, E0.15840
+	N40.31904, E0.36367
+
+[airport1]
+name = Valencia Airport
+code = LEVC
+runways =
+	rwy1, 04, N39.4822, W0.488889, 38.0, 5394, 0, 0, 205
+	rwy2, 12, N39.4944, W0.494897, 116.3, 8858, 0, 0, 225

@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 303
+center = N33.1150016785, E139.785995483
+magneticvar = -6.011
+beacons =
+	HCE, N33.11430, E139.78799, 0, Hachijojima
+	HC, N33.11330, E139.79100, 0, Hachijojima
+
+line1 =
+	N33.07822, E139.77568
+	N33.04546, E139.82383
+	N33.05605, E139.84111
+	N33.09351, E139.87363
+	N33.12925, E139.80889
+	N33.12515, E139.77744
+	N33.10718, E139.76895
+	N33.07822, E139.77568
+
+[airport1]
+name = Hachijojima Airport
+code = RJTH
+runways =
+	rwy1, 08, N33.112, E139.776, 69.6, 6563, 0, 0, 282

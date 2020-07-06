@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 33
+center = S19.7964000702, E34.9076004028
+magneticvar = -11.187
+beacons =
+	VBR, S19.78770, E34.87170, 0, Beira
+	BR, S19.78160, E34.85010, 0, Beira
+	DO, S19.62380, E34.74840, 0, Dondo
+
+line1 =
+	S20.67080, E34.87705
+	S20.56191, E34.76475
+	S20.47305, E34.70508
+	S20.40439, E34.69814
+	S20.09082, E34.75000
+	S19.92949, E34.74502
+	S19.82197, E34.75576
+	S19.76719, E34.71348
+	S19.70137, E34.64941
+	S19.70957, E34.72100
+	S19.82051, E34.85234
+	S19.82178, E34.89082
+	S19.81270, E34.94785
+	S19.49395, E35.36533
+	S19.16387, E35.65127
+	S18.99336, E35.85371
+	S18.91250, E35.98008
+	S18.84238, E36.12500
+
+[airport1]
+name = Beira Airport
+code = FQBR
+runways =
+	rwy1, 06, S19.7995, E34.9065, 44.0, 3018, 0, 0, 33
+	rwy2, 12, S19.7936, E34.8965, 105.0, 7874, 0, 0, 26
+	rwy3, 17, S19.7916, E34.9066, 159.9, 5660, 0, 0, 30

@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1234
+center = N49.6233333, E6.2044444
+magneticvar = 0.299
+beacons =
+	LUX, N49.63940, E6.24722, 0, Luxembourg
+	WLU, N49.56780, E6.05417, 0, Luxembourg
+	ELU, N49.67970, E6.35528, 0, Luxembourg
+	DIK, N49.86140, E6.12972, 0, Diekirch
+	DIK, N49.86140, E6.12972, 0, Diekirch
+	NTM, N50.01590, E6.53179, 0, Nattenheim
+	SPA, N49.97900, E6.69770, 0, Spangdahlem
+	MET, N49.06690, E6.12939, 0, Metz
+	SBN, N49.21890, E7.11834, 0, Saarbrucken
+	GTQ, N48.98640, E6.71622, 0, Grostenquin
+	SAD, N49.21250, E7.11607, 0, Saarbrucken
+	MMD, N49.39130, E5.12442, 0, Montmedy
+	HND, N49.94560, E7.26767, 0, Hahn
+	SR, N49.21780, E7.21951, 0, Ensheim
+	HAN, N49.96490, E7.28088, 0, Hahn
+	KIR, N49.85020, E7.36958, 0, Kirn
+	BUE, N50.17870, E7.06950, 0, Buchel
+	ZND, N49.20930, E7.39578, 0, Zweibrucken
+	ZBN, N49.22760, E7.41658, 0, Zweibrucken
+	ZWN, N49.22910, E7.41789, 0, Zweibrucken
+	NMN, N50.36780, E7.31367, 0, Mendig
+	SAV, N48.79620, E7.44798, 0, Saverne
+
+line1 =
+	N48.63605, E7.83795
+	N48.69853, E7.92275
+
+line2 =
+	N49.99070, E7.96161
+	N50.04209, E7.80322
+	N50.18066, E7.65388
+	N50.22236, E7.60675
+	N50.26644, E7.61119
+	N50.32380, E7.62882
+	N50.36664, E7.60784
+	N50.40008, E7.55662
+	N50.43279, E7.44366
+	N50.48583, E7.34367
+	N50.55916, E7.25675
+	N50.62161, E7.20362
+
+[airport1]
+name = Luxembourg-Findel International Airport
+code = ELLX
+runways =
+	rwy1, 06, N49.6177, E6.18746, 60.0, 13123, 0, 0, 1158

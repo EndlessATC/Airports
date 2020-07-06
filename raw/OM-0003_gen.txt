@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 364
+center = N19.501944, E57.634167
+
+line1 =
+	N20.49658, E58.78799
+	N20.33735, E58.64121
+	N20.21069, E58.64092
+	N20.20361, E58.65908
+	N20.21875, E58.72207
+	N20.26685, E58.77227
+	N20.42393, E58.83516
+
+line2 =
+	N18.58735, E56.65508
+	N18.75352, E56.82598
+	N18.82783, E56.95723
+	N18.90259, E57.17656
+	N18.94380, E57.42793
+	N18.95786, E57.67578
+	N18.97734, E57.73848
+	N19.01709, E57.81162
+	N19.14595, E57.79033
+	N19.25332, E57.76396
+	N19.43223, E57.76084
+	N19.60693, E57.71514
+	N19.67842, E57.71416
+	N19.80449, E57.74121
+	N19.95459, E57.80215
+	N20.11772, E57.84365
+	N20.24414, E57.86182
+	N20.34360, E57.94717
+
+line3 =
+	N20.42397, E58.20898
+	N20.39546, E58.26602
+	N20.38691, E58.34873
+	N20.40688, E58.47422
+
+[airport1]
+name = Duqm International Airport
+code = OM-0003

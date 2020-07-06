@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 801
+center = N60.7206001282, E114.825996399
+magneticvar = -10.200
+beacons =
+	IG, N60.74000, E114.89700, 0, Lensk
+
+line1 =
+	N60.13426, E117.12942
+	N60.24883, E117.04622
+	N60.33105, E116.96426
+	N60.38102, E116.88354
+	N60.43905, E116.66919
+	N60.50525, E116.32141
+	N60.59770, E116.03093
+	N60.71650, E115.79787
+	N60.77474, E115.50280
+	N60.77257, E115.14572
+	N60.74508, E114.89255
+	N60.69226, E114.74321
+	N60.56679, E114.54942
+	N60.36867, E114.31099
+	N60.26009, E114.13735
+	N60.24095, E114.02852
+	N60.12481, E113.82254
+	N59.91161, E113.51941
+	N59.77930, E113.23963
+	N59.72778, E112.98301
+
+[airport1]
+name = Lensk Airport
+code = UERL

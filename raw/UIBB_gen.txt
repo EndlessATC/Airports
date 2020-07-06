@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1610
+center = N56.3706016541, E101.697998047
+magneticvar = -1.114
+beacons =
+	BRT, N56.37170, E101.68700, 0, Bratsk
+	BS, N56.35000, E101.77800, 0, Bratsk
+	GG, N56.39170, E101.61300, 0, Bratsk
+
+line1 =
+	N55.37853, E103.27797
+	N55.46990, E103.21533
+	N55.57454, E103.18557
+	N55.69247, E103.18877
+	N55.77680, E103.15058
+	N55.82755, E103.07110
+	N55.89522, E103.02382
+	N55.97987, E103.00863
+	N56.05720, E102.96460
+	N56.12727, E102.89163
+	N56.17306, E102.75149
+	N56.19455, E102.54416
+	N56.16755, E102.30397
+	N56.09205, E102.03081
+	N56.07177, E101.86286
+	N56.10670, E101.80017
+	N56.16582, E101.77738
+	N56.29078, E101.80322
+
+line2 =
+	N57.32084, E102.34459
+	N57.19475, E102.33797
+	N57.00370, E102.35802
+
+line3 =
+	N56.29078, E101.80322
+	N56.56058, E101.81718
+	N56.68703, E101.77046
+	N56.76010, E101.66762
+	N56.80056, E101.56055
+	N56.80847, E101.44914
+	N56.84777, E101.39147
+	N56.91854, E101.38743
+	N56.96986, E101.46092
+	N57.00169, E101.61171
+	N56.98815, E101.77780
+	N56.92932, E101.95898
+	N56.89777, E102.11287
+	N56.89353, E102.23927
+	N56.91952, E102.31642
+	N57.00396, E102.35812
+
+[airport1]
+name = Bratsk Airport
+code = UIBB
+runways =
+	rwy1, 12, N56.3765, E101.675, 114.8, 10368, 0, 0, 1606

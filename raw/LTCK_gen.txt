@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4157
+center = N38.7477989197, E41.6612014771
+magneticvar = 4.426
+beacons =
+	MUS, N38.74810, E41.66110, 0, Mus
+	MUS, N38.74810, E41.66110, 0, Mus
+	SRT, N37.97690, E41.84360, 0, Siirt
+	BAT, N37.93750, E41.11970, 0, Batman
+	BAT, N37.93750, E41.11970, 0, Batman
+	BAT, N37.91540, E41.10550, 0, Batman
+
+line1 =
+	N38.34561, E42.98867
+	N38.39004, E42.92275
+	N38.42612, E42.91162
+	N38.47681, E42.88223
+	N38.48374, E42.85645
+	N38.45859, E42.78096
+	N38.45654, E42.68330
+	N38.48159, E42.58613
+	N38.48970, E42.53848
+	N38.49980, E42.35313
+	N38.54854, E42.36455
+	N38.61050, E42.43398
+	N38.64277, E42.45840
+	N38.69219, E42.45801
+	N38.74517, E42.52598
+	N38.78208, E42.72285
+	N38.79399, E42.84502
+	N38.79419, E42.93477
+	N38.80933, E43.07939
+
+line2 =
+	N38.88184, E43.12646
+	N38.88140, E43.08760
+	N38.91611, E43.07520
+	N38.94756, E43.15215
+
+line3 =
+	N38.33662, E43.14766
+	N38.32607, E43.08770
+	N38.34561, E42.98867
+	N38.34561, E42.98867
+	N38.34561, E42.98867
+
+line4 =
+	N38.10630, E40.17143
+	N38.09111, E40.23499
+	N38.02326, E40.26186
+	N37.90275, E40.25194
+	N37.83201, E40.42738
+	N37.80048, E40.96859
+	N37.75733, E41.15535
+
+line5 =
+	N39.69437, E40.24047
+	N39.62647, E40.20264
+
+[airport1]
+name = Muş Airport
+code = LTCK
+runways =
+	rwy1, 11, N38.7548, E41.6429, 116.0, 11649, 0, 0, 4158

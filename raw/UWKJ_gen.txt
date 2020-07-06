@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 348
+center = N56.7005996704, E47.9047012329
+magneticvar = 12.279
+beacons =
+	CR, N56.10500, E47.42830, 0, Cheboksary
+	LA, N56.07330, E47.26170, 0, Cheboksary
+	RZ, N57.18330, E46.51670, 0, Sharanga
+
+line1 =
+	N56.20083, E45.80571
+	N56.19884, E45.87227
+	N56.16050, E45.93635
+	N56.17156, E46.02503
+	N56.23192, E46.13830
+	N56.28682, E46.29405
+	N56.33628, E46.49218
+	N56.30891, E46.67971
+	N56.20468, E46.85655
+	N56.15078, E47.16594
+	N56.14541, E47.82895
+	N56.12177, E47.88610
+	N56.07335, E47.92739
+	N55.99227, E47.97194
+	N55.92532, E48.06692
+	N55.87246, E48.21233
+	N55.82527, E48.45971
+	N55.78383, E48.80904
+
+[airport1]
+name = Yoshkar-Ola Airport
+code = UWKJ

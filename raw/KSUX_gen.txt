@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1098
+usa = true
+transition = 18001
+center = N42.402599, W96.384399
+magneticvar = 3.202
+beacons =
+	GAK, N42.40810, W96.38600, 0, Sioux Gateway
+	SUX, N42.34450, W96.32360, 0, Sioux City
+	OI, N42.46020, W96.46220, 0, Tommi
+	SU, N42.32750, W96.29040, 0, Salix
+	LRJ, N42.77440, W96.19250, 0, Le Mars
+	LCG, N42.24260, W96.98370, 0, Wayne
+	MEY, N42.18050, W95.79470, 0, Mapleton
+	VMR, N42.76330, W96.93450, 0, Vermillion
+	ORC, N42.99140, W96.06060, 0, Orange City
+	TQE, N41.75960, W96.17860, 0, Tekamah
+	CKP, N42.73220, W95.55310, 0, Pilot Rock
+	SOY, N43.13300, W96.18980, 0, Sioux Center
+	YK, N42.84360, W97.30200, 0, Cagur
+	SCB, N41.60530, W96.62860, 0, Scribner
+	DNS, N41.98400, W95.37940, 0, Denison
+	OFK, N41.98790, W97.43460, 0, Norfolk
+	YKN, N42.91840, W97.38500, 0, Yankton
+	DDL, N43.21210, W95.83390, 0, Sheldon
+	SHL, N43.21410, W95.83380, 0, Sheldon
+	OF, N41.88760, W97.48030, 0, Carsy
+	HNR, N41.57910, W95.34060, 0, Harlan
+
+line1 =
+	N42.84958, W97.88092
+	N42.87464, W97.69814
+	N42.88100, W97.41666
+	N42.86054, W97.23879
+	N42.81320, W97.16448
+	N42.76018, W97.01973
+	N42.70142, W96.80452
+	N42.63760, W96.67554
+	N42.56867, W96.63278
+	N42.52479, W96.55795
+	N42.50598, W96.45101
+	N42.41777, W96.38375
+	N42.26013, W96.35610
+	N42.13291, W96.29533
+	N42.03612, W96.20138
+	N41.96529, W96.15420
+	N41.92044, W96.15376
+	N41.87243, W96.13123
+	N41.82138, W96.08664
+	N41.73433, W96.06881
+	N41.61128, W96.07777
+	N41.54578, W96.05863
+	N41.53788, W96.01140
+	N41.52049, W95.99096
+	N41.49364, W95.99736
+	N41.47380, W95.98158
+	N41.46093, W95.94357
+	N41.42546, W95.93298
+
+[airport1]
+name = Sioux Gateway Airport/Brigadier General Bud Day Field
+code = KSUX
+runways =
+	rwy1, 13, N42.4092, W96.3977, 136.0, 9002, 0, 0, 1093
+	rwy2, 17, N42.4147, W96.3819, 181.0, 6600, 0, 0, 1097

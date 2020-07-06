@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 331
+center = S12.9917621613, E40.5240135193
+magneticvar = -6.313
+beacons =
+	PB, S12.95150, E40.50090, 0, Pemba
+
+line1 =
+	S13.84502, E40.59053
+	S13.62031, E40.55986
+	S13.53145, E40.55820
+	S13.46289, E40.54512
+	S13.37402, E40.58291
+	S13.29375, E40.55195
+	S13.22344, E40.56953
+	S13.11523, E40.56445
+	S13.05771, E40.57324
+	S12.98467, E40.56875
+	S12.98311, E40.43682
+	S12.93594, E40.43516
+	S12.90479, E40.44766
+	S12.82461, E40.55332
+	S12.75840, E40.57207
+	S12.63555, E40.58086
+	S12.52656, E40.54834
+	S12.49219, E40.48711
+	S12.39277, E40.52314
+	S12.31289, E40.50918
+	S12.11943, E40.50146
+	S12.00459, E40.53154
+
+[airport1]
+name = Pemba Airport
+code = FQPB
+runways =
+	rwy1, 08, S12.988, E40.517, 78.0, 2625, 0, 0, 331
+	rwy2, 17, S12.9856, E40.5221, 160.8, 5905, 0, 0, 331

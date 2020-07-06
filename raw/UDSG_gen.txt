@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5000
+center = N40.7504005432, E43.8592987061
+magneticvar = 5.246
+beacons =
+	GRM, N40.72940, E43.84720, 0, Gyumri
+	GM, N40.72880, E43.84690, 0, Gyumri
+	TLN, N40.38550, E43.89110, 0, Talin
+	S, N41.03610, E44.35620, 0, Stepanavan
+	ST, N41.03610, E44.35620, 0, Stepanavan
+	KAR, N40.56750, E43.12420, 0, Kars
+	KAR, N40.56750, E43.12420, 0, Kars
+	ZR, N40.14700, E44.32820, 0, Yerevan
+	Z, N40.14710, E44.36230, 0, Yerevan
+	ZVR, N40.14720, E44.36700, 0, Yerevan
+	ER, N40.14590, E44.48240, 0, Yerevan
+	SVN, N40.53430, E44.95480, 0, Sevan
+
+line1 =
+	N40.51499, E44.98965
+	N40.54233, E44.97227
+	N40.58232, E44.98887
+	N40.61157, E44.98623
+	N40.61436, E45.01455
+	N40.59033, E45.09531
+	N40.51021, E45.24170
+	N40.48828, E45.31084
+	N40.47915, E45.37295
+
+line2 =
+	N40.15142, E45.38877
+	N40.14883, E45.31270
+	N40.16382, E45.27588
+	N40.19746, E45.24844
+	N40.29590, E45.21826
+	N40.38525, E45.18350
+	N40.40356, E45.15332
+	N40.42817, E45.12461
+	N40.46108, E45.09531
+	N40.49048, E45.03984
+	N40.51499, E44.98965
+	N40.51499, E44.98965
+	N40.51499, E44.98965
+	N40.51499, E44.98965
+
+[airport1]
+name = Gyumri Shirak Airport
+code = UDSG
+runways =
+	rwy1, 02, N40.7371, E43.8517, 24.0, 10564, 0, 0, 4941

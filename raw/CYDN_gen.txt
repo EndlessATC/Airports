@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 999
+usa = true
+transition = 18001
+center = N51.1007995605, W100.052001953
+magneticvar = 7.542
+beacons =
+	YDN, N51.10500, W100.05200, 0, Dauphin
+	DN, N51.09810, W100.06200, 0, Dauphin
+	3Z, N50.76420, W101.29600, 0, Russell
+
+[airport1]
+name = Dauphin Barker Airport
+code = CYDN
+runways =
+	rwy1, 02, N51.1014, W100.052, 29.0, 2000, 0, 0, 989
+	rwy2, 08, N51.1067, W100.058, 90.0, 2700, 0, 0, 988
+	rwy3, 14, N51.1072, W100.058, 150.0, 5000, 0, 0, 989

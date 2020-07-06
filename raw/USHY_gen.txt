@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 82
+center = N63.686901, E66.698601
+magneticvar = 19.584
+beacons =
+	BB, N63.90670, E64.93830, 0, Beryozovo
+
+line1 =
+	N62.87864, E65.25755
+	N62.99636, E65.16319
+	N63.07248, E65.14014
+	N63.13093, E65.14923
+	N63.20601, E65.21135
+	N63.29609, E65.33496
+	N63.34347, E65.47231
+	N63.39499, E65.52704
+	N63.45636, E65.52399
+	N63.49623, E65.55706
+	N63.53178, E65.70062
+	N63.58387, E65.76739
+	N63.65250, E65.75746
+	N63.70738, E65.73225
+	N63.73397, E65.70910
+	N63.76877, E65.72150
+	N63.79223, E65.78790
+	N63.80939, E65.80506
+	N63.84277, E65.79596
+	N63.87822, E65.78134
+	N63.89941, E65.80273
+	N63.95031, E65.80511
+	N64.03095, E65.78868
+	N64.07568, E65.80614
+	N64.08451, E65.85761
+	N64.10141, E65.88511
+	N64.12647, E65.88872
+	N64.13634, E65.92955
+	N64.13107, E66.00768
+	N64.15443, E66.03063
+	N64.20637, E65.99848
+	N64.24218, E65.95337
+	N64.26192, E65.89539
+	N64.28936, E65.88526
+	N64.32460, E65.92298
+	N64.37013, E65.91994
+	N64.42589, E65.87622
+	N64.48154, E65.79963
+	N64.53709, E65.69018
+	N64.58740, E65.68507
+	N64.61482, E65.70563
+	N64.65926, E65.68832
+
+[airport1]
+name = Beloyarskiy Airport
+code = USHY

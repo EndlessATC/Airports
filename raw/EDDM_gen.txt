@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1487
+center = N48.353802, E11.7861
+magneticvar = 1.596
+beacons =
+	DMN, N48.36690, E11.79400, 0, Munchen
+	DMS, N48.34070, E11.77820, 0, Munchen
+	MNE, N48.35540, E11.67600, 0, Munchen
+	MSW, N48.35240, E11.90380, 0, Munchen
+	MNW, N48.37430, E11.91410, 0, Munchen
+	MSE, N48.33340, E11.65290, 0, Munchen
+	ERD, N48.32480, E11.95280, 0, Erding
+	MUN, N48.18030, E11.81600, 0, Munchen
+	MIQ, N48.57020, E11.59750, 0, Mike
+	MAH, N48.26340, E11.31190, 0, Maisach
+	MBG, N48.57340, E12.26100, 0, Moosburg
+	MDF, N48.23470, E12.33740, 0, Milldorf
+	IGL, N48.71780, E11.56980, 0, Ingolstadt
+	IGL, N48.73780, E11.64470, 0, Ingolstadt
+	OBI, N48.08060, E11.28540, 0, Oberpfaffenhofen
+	WLD, N48.57940, E11.12940, 0, Walda
+	NEU, N48.71250, E11.21100, 0, Neuburg
+	AGB, N48.42430, E10.93310, 0, Augsburg
+	AUG, N48.42430, E10.93300, 0, Augsburg
+	LQ, N48.09480, E11.01880, 0, Landsberg
+	END, N48.39440, E12.72540, 0, Eggenfelden
+	LCH, N48.19050, E10.85900, 0, Lechfeld
+	EGG, N48.39700, E12.74980, 0, Eggenfelden
+	LAB, N48.06530, E10.88080, 0, Landsberg
+	EUR, N47.73500, E11.24940, 0, Eurach
+	SBG, N48.00260, E12.89280, 0, Salzburg
+	SBG, N47.96750, E12.89410, 0, Salzburg
+	RDG, N49.04030, E12.52650, 0, Roding
+	SU, N47.87930, E12.94990, 0, Salzburg
+	SI, N47.81860, E12.98770, 0, Salzburg
+
+line1 =
+	N48.45291, E10.12717
+	N48.48309, E10.28912
+	N48.51621, E10.38503
+	N48.55233, E10.41469
+	N48.60670, E10.52358
+	N48.67941, E10.71157
+	N48.73532, E11.02509
+	N48.79413, E11.68356
+	N48.87092, E11.76593
+	N48.90601, E11.85037
+	N48.92492, E11.96437
+	N48.95766, E12.02421
+	N49.02750, E12.03299
+	N49.01809, E12.24244
+	N48.99220, E12.36083
+	N48.92384, E12.50655
+
+line2 =
+	N48.58184, E13.48665
+	N48.60230, E13.31627
+	N48.63641, E13.19995
+	N48.69098, E13.08089
+	N48.74762, E13.00477
+	N48.80632, E12.97159
+	N48.83570, E12.90880
+	N48.83570, E12.81630
+	N48.85960, E12.70422
+	N48.93128, E12.50655
+
+[airport1]
+name = Munich Airport
+code = EDDM
+runways =
+	rwy1, 08L, N48.3628, E11.7676, 83.4, 13123, 0, 0, 1467
+	rwy2, 08R, N48.3407, E11.751, 83.4, 13123, 0, 0, 1486

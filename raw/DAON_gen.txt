@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 814
+center = N35.0167007446, W1.45000004768
+magneticvar = -1.124
+beacons =
+	TLM, N35.03530, W1.38806, 0, Tlemcen
+	TLM, N35.04000, W1.36778, 0, Tlemcen
+	CNU, N34.79970, W1.89972, 0, Oujda
+	OJD, N34.77330, W1.95028, 0, Oujda
+	HMB, N35.36310, W0.96889, 0, Hammam Bou Hadjar
+	ORA, N35.61260, W0.65499, 0, Oran
+
+line1 =
+	N35.83281, W0.04824
+	N35.81909, W0.18916
+	N35.86318, W0.35078
+	N35.86152, W0.42612
+	N35.66841, W0.91748
+	N35.57886, W1.08770
+	N35.49575, W1.20537
+	N35.36426, W1.33584
+	N35.30308, W1.48374
+	N35.18311, W1.67363
+	N35.09424, W1.91328
+	N35.08506, W2.01777
+	N35.10420, W2.21963
+	N35.12349, W2.42373
+	N35.11270, W2.63682
+	N35.13521, W2.73140
+	N35.12783, W2.83994
+	N35.17266, W2.86953
+
+[airport1]
+name = Zenata – Messali El Hadj Airport
+code = DAON
+runways =
+	rwy1, 07, N35.0093, W1.47059, 70.0, 8530, 0, 0, 807
+
+[airport2]
+name = Angads Airport
+code = FO
+runways =
+	rwy2, 06, N34.7799, W1.93784, 58.0, 9843, 0, 0, 1535
+inboundbeacon = CNU

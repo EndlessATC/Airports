@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7
+usa = true
+center = S36.9085998535, E149.901000977
+magneticvar = 12.438
+beacons =
+	MER, S36.91430, E149.89900, 0, Merimbula
+	MCO, S37.59660, E149.72900, 0, Mallacoota
+	MCO, S37.59620, E149.71800, 0, Mallacoota
+	COM, S36.35380, E148.95799, 0, Cooma
+
+line1 =
+	S35.97061, E150.15850
+	S36.12041, E150.12891
+	S36.37266, E150.09531
+	S36.55039, E150.06279
+	S36.72275, E149.98818
+	S36.84551, E149.96025
+	S37.08027, E149.95059
+	S37.25840, E149.98633
+	S37.35303, E149.96289
+	S37.44385, E149.96230
+	S37.52852, E149.93271
+	S37.54785, E149.80938
+	S37.61699, E149.70898
+	S37.72998, E149.56543
+	S37.77119, E149.48086
+	S37.80215, E149.29844
+	S37.78848, E148.94395
+
+[airport1]
+name = Merimbula Airport
+code = YMER
+runways =
+	rwy1, 03, S36.9129, E149.897, 34.0, 5256, 0, 0, 6

@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 184
+center = S3.28607010841, E103.879997253
+magneticvar = 0.260
+beacons =
+	PD, S3.28346, E103.88200, 0, Pendopo
+	SP, S2.69333, E104.11200, 0, Ramba
+	PLB, S2.87859, E104.65300, 0, Palembang
+	OW, S2.91066, E104.67600, 0, Palembang
+
+line1 =
+	S2.38555, E104.66846
+	S2.42988, E104.64727
+	S2.54336, E104.63057
+	S2.59521, E104.65078
+	S2.59814, E104.69834
+	S2.57090, E104.73574
+	S2.41885, E104.87842
+	S2.39219, E104.91699
+	S2.37090, E104.97080
+	S2.35752, E105.02588
+
+[airport1]
+name = Pendopo Airport
+code = WIPQ
+runways =
+	rwy1, 03, S3.291, E103.876, 32.2, 4265, 0, 0, 0

@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 203
+center = N13.5319004059, E106.01499939
+magneticvar = -0.286
+beacons =
+	ST, N13.52500, E106.01500, 0, Stung Treng
+
+line1 =
+	N14.49462, E105.85951
+	N14.37969, E105.87326
+	N14.26737, E105.86411
+	N14.15771, E105.83197
+	N14.07010, E105.85517
+	N14.00452, E105.93372
+	N13.94793, E105.98054
+	N13.90029, E105.99573
+	N13.85202, E105.99625
+	N13.80309, E105.98230
+	N13.75177, E105.99067
+	N13.69810, E106.02147
+	N13.60935, E106.00462
+	N13.48553, E105.94002
+	N13.40523, E105.91817
+	N13.35009, E105.94933
+	N13.19584, E106.02266
+	N13.06075, E106.02503
+	N12.89337, E105.98090
+	N12.68256, E105.97837
+
+[airport1]
+name = Stung Treng Airport
+code = VDST
+runways =
+	rwy1, 02, N13.526, E106.012, 19.0, 4248, 0, 0, 203

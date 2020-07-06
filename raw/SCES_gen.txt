@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5240
+center = S26.3111000061, W69.7651977539
+
+line1 =
+	S25.37646, W70.48950
+	S25.48750, W70.57812
+	S25.54561, W70.63301
+	S25.78418, W70.71372
+	S25.86113, W70.69961
+	S25.99268, W70.63545
+	S26.22539, W70.66226
+	S26.32939, W70.64658
+	S26.42178, W70.68696
+	S26.59697, W70.70840
+	S26.84092, W70.80293
+	S26.95059, W70.81274
+	S27.18750, W70.89790
+	S27.30791, W70.91426
+
+[airport1]
+name = Ricardo García Posada Airport
+code = SCES
+runways =
+	rwy1, 09, S26.3113, W69.7767, 88.8, 7546, 0, 0, 0

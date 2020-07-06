@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1100
+center = N7.24673986435, E5.30101013184
+magneticvar = -3.086
+beacons =
+	AK, N7.22672, E5.29322, 0, Akure
+	OK, N6.50049, E4.83257, 0, Okitipupa
+
+line1 =
+	N6.41138, E4.12588
+	N6.34858, E4.43135
+
+[airport1]
+name = Akure Airport
+code = DNAK
+runways =
+	rwy1, 03, N7.23523, E5.29579, 24.0, 9195, 0, 0, 1100

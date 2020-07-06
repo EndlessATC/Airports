@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 333
+center = S38.9259, W72.6515
+magneticvar = 8.522
+beacons =
+	TCO, S38.76640, W72.63080, 0, Temuco
+	TCO, S38.76670, W72.61470, 0, Temuco
+	VLD, S39.67110, W73.08560, 0, Valdivia
+	VLD, S39.72220, W73.08360, 0, Valdivia
+
+line1 =
+	S38.04033, W73.46479
+	S38.13008, W73.47187
+	S38.36680, W73.53257
+	S38.50938, W73.52021
+	S38.62402, W73.48076
+	S39.22441, W73.22646
+	S39.42236, W73.24990
+	S39.78916, W73.41040
+	S39.85430, W73.48223
+
+line2 =
+	S38.41326, W71.24050
+	S38.35332, W71.30425
+	S38.27968, W71.32890
+	S38.17240, W71.33567
+	S38.08145, W71.40124
+	S38.00683, W71.52568
+
+[airport1]
+name = La Araucanía Airport
+code = SCQP

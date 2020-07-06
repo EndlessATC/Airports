@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 989
+center = N45.200802, E7.64963
+magneticvar = 0.598
+beacons =
+	CAS, N45.19380, E7.65281, 0, Caselle
+	CSL, N45.21970, E7.64957, 0, Caselle
+	CAS, N45.12350, E7.64533, 0, Caselle
+	TOP, N44.92540, E7.86166, 0, Torino
+	TOP, N44.92470, E7.86043, 0, Torino
+	BLA, N45.46220, E8.12333, 0, Biella Cerrione
+	BLA, N45.49420, E8.10058, 0, Biella Cerrione
+	LEV, N44.54420, E7.61539, 0, Levaldigi
+	RMG, N45.62830, E8.40658, 0, Romagnano
+	CAM, N45.42860, E8.70078, 0, Cameri
+	CAM, N45.57020, E8.65753, 0, Cameri
+	NOV, N45.42410, E8.79386, 0, Novara
+	MAL, N45.54580, E8.75626, 0, Malpensa
+	MAL, N45.64270, E8.73456, 0, Malpensa
+	SES, N44.41720, E8.82361, 0, Genova Sestri
+
+line1 =
+	N44.34614, E8.55195
+	N44.42231, E8.76582
+	N44.40776, E8.93037
+	N44.32300, E9.19600
+	N44.31924, E9.28936
+
+line2 =
+	N44.70601, E7.11019
+	N44.66482, E7.32558
+	N44.68694, E7.42351
+	N44.79453, E7.50180
+	N44.84902, E7.61931
+	N44.92501, E7.66478
+	N45.04074, E7.67750
+	N45.12900, E7.73062
+	N45.18985, E7.82426
+	N45.21977, E7.97588
+	N45.21876, E8.18537
+	N45.19921, E8.36004
+	N45.16107, E8.49967
+	N45.11265, E8.59434
+	N45.05399, E8.64405
+	N45.05361, E8.80776
+	N45.14050, E9.22448
+
+line3 =
+	N46.17801, E7.20497
+	N46.15176, E7.08916
+	N46.19682, E7.02048
+
+[airport1]
+name = Turin Airport
+code = LIMF
+runways =
+	rwy1, 18, N45.2156, E7.65057, 183.0, 10827, 2378, 1148, 981

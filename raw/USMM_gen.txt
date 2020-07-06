@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 49
+center = N65.4809036255, E72.6988983154
+magneticvar = 20.544
+beacons =
+	PZ, N65.48030, E72.70330, 0, Nadym
+	NO, N65.48000, E72.70330, 0, Nadym
+
+line1 =
+	N66.33213, E72.32158
+	N66.25332, E72.06758
+	N66.24673, E71.91699
+	N66.33374, E71.56563
+	N66.35942, E71.35801
+	N66.36665, E71.14551
+	N66.34238, E70.33945
+	N66.40142, E69.98242
+
+[airport1]
+name = Nadym Airport
+code = USMM

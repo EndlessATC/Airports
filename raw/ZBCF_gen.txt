@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N42.2350006104, E118.907997131
+
+line1 =
+	N43.06321, E117.34718
+	N43.14230, E117.57012
+	N43.18517, E117.74561
+	N43.19173, E117.87366
+	N43.22020, E118.01577
+
+[airport1]
+name = Chifeng Airport
+code = ZBCF

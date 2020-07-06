@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7
+center = S2.57940006256, E150.807998657
+magneticvar = 6.085
+beacons =
+	KAV, S2.58651, E150.81300, 0, Kavieng
+	KAV, S2.60383, E150.83701, 0, Kavieng
+
+line1 =
+	S3.17285, E151.80713
+	S3.07285, E151.68984
+	S3.00303, E151.58574
+	S2.94248, E151.47539
+	S2.87529, E151.31475
+	S2.87031, E151.22646
+	S2.78906, E151.17461
+	S2.68828, E150.99531
+	S2.57295, E150.82539
+	S2.64355, E150.84297
+	S2.71289, E150.82646
+	S2.73887, E150.74609
+	S2.77979, E150.84785
+	S2.77988, E150.96807
+	S2.82900, E151.06680
+	S3.03691, E151.40508
+	S3.10137, E151.46504
+	S3.15352, E151.57852
+	S3.33789, E151.79316
+	S3.40010, E151.87979
+	S3.45342, E151.97295
+
+line2 =
+	S2.84561, E151.97471
+	S2.87051, E151.95459
+	S2.89609, E151.97109
+
+line3 =
+	S2.70859, E151.94639
+	S2.75059, E151.92979
+	S2.83037, E151.93340
+	S2.83018, E151.95723
+
+line4 =
+	S2.47041, E150.42949
+	S2.38418, E150.22715
+	S2.40498, E150.10254
+	S2.47383, E149.96162
+	S2.49150, E149.98516
+	S2.51250, E150.04346
+	S2.60254, E150.10156
+	S2.66025, E150.16572
+	S2.67549, E150.23750
+	S2.66182, E150.43662
+	S2.63232, E150.44609
+	S2.54111, E150.45156
+	S2.51328, E150.45000
+	S2.47041, E150.42949
+
+[airport1]
+name = Kavieng Airport
+code = AYKV
+runways =
+	rwy1, 12, S2.57498, E150.802, 124.9, 5592, 0, 0, 13

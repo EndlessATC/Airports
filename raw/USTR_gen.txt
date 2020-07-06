@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 378
+center = N57.1896018982, E65.3243026733
+magneticvar = 14.302
+beacons =
+	XZ, N57.21500, E65.29170, 0, Tyumen
+	QF, N57.21330, E65.36830, 0, Tyumen
+	RN, N57.14670, E65.23500, 0, Tyumen
+	SD, N57.66670, E66.20000, 0, Nizhnaya Tavda
+
+line1 =
+	N56.19094, E65.96489
+	N56.25109, E65.99729
+	N56.30809, E66.18504
+	N56.36214, E66.25645
+	N56.38434, E66.26022
+	N56.42480, E66.27826
+	N56.48146, E66.33748
+	N56.53133, E66.34859
+	N56.57438, E66.31149
+	N56.63184, E66.32911
+	N56.70383, E66.40156
+	N56.76604, E66.43618
+	N56.81850, E66.43319
+	N56.85059, E66.46543
+	N56.86232, E66.53292
+	N56.88431, E66.56181
+	N56.91660, E66.55199
+	N56.96123, E66.57710
+	N57.01817, E66.63715
+	N57.07101, E66.73064
+	N57.15801, E66.93414
+	N57.18586, E66.96039
+	N57.21150, E66.96349
+	N57.23490, E66.94354
+	N57.25780, E66.95336
+	N57.28017, E66.99315
+	N57.29738, E67.00431
+	N57.32004, E67.04312
+	N57.33883, E67.07645
+	N57.37515, E67.09955
+	N57.43231, E67.08023
+	N57.46435, E67.09681
+	N57.47130, E67.14932
+	N57.49980, E67.16007
+	N57.54977, E67.12896
+	N57.57979, E67.09134
+	N57.61157, E67.09862
+	N57.63535, E67.11490
+	N57.67751, E67.14756
+	N57.73487, E67.15304
+	N57.78609, E67.20818
+	N57.83115, E67.31308
+
+[airport1]
+name = Roshchino International Airport
+code = USTR
+runways =
+	rwy1, 03, N57.1692, E65.281, 47.8, 9852, 0, 0, 371
+	rwy2, 12, N57.1898, E65.3239, 134.8, 8871, 0, 0, 310

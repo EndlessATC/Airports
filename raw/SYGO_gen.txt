@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N6.80628, W58.1059
+magneticvar = -15.355
+beacons =
+	TIM, N6.51294, W58.24760, 0, Timehri
+	TIM, N6.49227, W58.25770, 0, Timehri
+	UIT, N6.44806, W58.30430, 0, Timehri
+
+line1 =
+	N5.99287, W56.96982
+	N5.93867, W57.05664
+	N5.82939, W57.10459
+
+line2 =
+	N5.88501, W57.16724
+	N6.09731, W57.19023
+	N6.17842, W57.22754
+	N6.27212, W57.34365
+	N6.33154, W57.54014
+	N6.45039, W57.60757
+	N6.59854, W57.79287
+	N6.78589, W57.98257
+	N6.82061, W58.07178
+	N6.82939, W58.17285
+	N6.87930, W58.29844
+	N6.85117, W58.41499
+	N6.73398, W58.50229
+	N6.62725, W58.56948
+	N6.45151, W58.59399
+	N6.39077, W58.67295
+	N6.50254, W58.61348
+	N6.69731, W58.60791
+	N6.84365, W58.58291
+	N7.03813, W58.48057
+	N7.32578, W58.47729
+	N7.39805, W58.51108
+	N7.54590, W58.62661
+	N7.60664, W58.70107
+	N7.73560, W58.81157
+
+[airport1]
+name = Eugene F. Correira International Airport
+code = SYGO
+
+[airport2]
+name = Cheddi Jagan International Airport
+code = CJ
+runways =
+	rwy1, 06, N6.4919, W58.2608, 45.0, 7448, 0, 0, 96
+	rwy2, 11, N6.49859, W58.2624, 90.0, 5002, 0, 0, 74
+inboundbeacon = TIM

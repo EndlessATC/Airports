@@ -1,0 +1,110 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 344
+usa = true
+transition = 18001
+center = N40.3785018921, W75.9652023315
+magneticvar = -12.028
+beacons =
+	RD, N40.30650, W75.94960, 0, Shapp
+	ETX, N40.58100, W75.68400, 0, East Texas
+	PTW, N40.22230, W75.56030, 0, Pottstown
+	LRP, N40.12000, W76.29130, 0, Lancaster
+	AB, N40.58580, W75.54960, 0, Leehi
+	BZJ, N40.43590, W76.55300, 0, Bellgrove
+	LQX, N40.81200, W75.75910, 0, Carbon
+	UKT, N40.42480, W75.29740, 0, Quakertown
+	MXE, N39.91810, W75.67080, 0, Modena
+	RAV, N40.55340, W76.59940, 0, Ravine
+	CKZ, N40.39090, W75.28880, 0, Pennridge
+	FJC, N40.72670, W75.45480, 0, Allentown
+	ING, N40.12590, W75.28520, 0, Ambler
+	HZL, N40.97510, W76.12580, 0, Hazleton
+	DYL, N40.33570, W75.12210, 0, Doylestown
+	NXX, N40.19450, W75.14630, 0, Willow Grove
+	NXX, N40.18930, W75.14610, 0, Willow Grove
+	MD, N40.24630, W76.90060, 0, Enola
+	DQO, N39.67810, W75.60710, 0, Dupont
+	PNE, N40.08210, W75.00950, 0, North Philadelphia
+	SEG, N40.79080, W76.88400, 0, Selinsgrove
+	ARD, N40.25330, W74.90760, 0, Yardley
+	PD, N39.90120, W75.09490, 0, Speez
+	CX, N40.17820, W77.00560, 0, Latle
+	TT, N40.21260, W74.89920, 0, Trenn
+	EUD, N39.92000, W76.87760, 0, York
+	MIP, N41.02340, W76.66530, 0, Milton
+	CYE, N41.21040, W75.83180, 0, Crystal Lake
+	IL, N39.58130, W75.61390, 0, Hadin
+	OOD, N39.63600, W75.30300, 0, Woodstown
+
+line1 =
+	N39.38755, W76.34717
+	N39.40391, W76.33081
+
+line2 =
+	N39.43862, W76.24766
+	N39.42031, W76.22305
+	N39.37993, W76.21582
+	N39.40322, W76.14136
+	N39.43311, W76.09727
+	N39.47031, W76.08071
+	N39.52700, W76.08506
+	N39.56113, W76.06299
+	N39.56870, W76.00630
+	N39.58506, W75.95894
+	N39.50459, W75.97041
+	N39.51089, W75.87295
+	N39.46836, W75.91348
+	N39.45962, W75.95474
+	N39.41084, W76.00312
+	N39.39858, W75.93872
+
+line3 =
+	N39.40283, W75.51982
+	N39.47695, W75.57388
+	N39.55298, W75.56729
+	N39.58945, W75.58159
+	N39.64077, W75.58760
+	N39.71738, W75.50215
+	N39.78096, W75.46440
+	N39.81543, W75.42100
+	N39.83159, W75.40063
+	N39.86470, W75.32090
+	N39.89478, W75.17295
+	N39.98350, W75.07417
+	N39.93184, W75.10381
+	N39.87051, W75.15381
+	N39.82974, W75.35317
+	N39.78970, W75.42188
+	N39.71240, W75.47163
+	N39.60186, W75.52354
+	N39.53188, W75.51924
+	N39.49019, W75.52422
+
+[airport1]
+name = Reading Regional Carl A Spaatz Field
+code = KRDG
+runways =
+	rwy1, 13, N40.3836, W75.9781, 121.4, 6350, 0, 0, 344
+	rwy2, 18, N40.3848, W75.9627, 172.2, 5151, 0, 0, 291
+
+[airport2]
+name = Lancaster Airport
+code = NS
+runways =
+	rwy5, 08, N40.1199, W76.3041, 68.0, 6934, 200, 459, 397
+	rwy6, 13, N40.1232, W76.3038, 119.3, 4102, 0, 0, 394
+inboundbeacon = LRP
+
+[airport3]
+name = Lehigh Valley International Airport
+code = BE
+runways =
+	rwy3, 06, N40.647, W75.4506, 51.3, 7600, 0, 500, 394
+	rwy4, 13, N40.6552, W75.4498, 123.1, 5797, 0, 0, 383
+inboundbeacon = FJC

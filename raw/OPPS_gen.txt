@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1158
+center = N33.9939002991, E71.5146026611
+magneticvar = 2.260
+beacons =
+	PS, N33.99580, E71.50440, 0, Peshawar
+	PS, N33.97540, E71.51720, 0, Peshawar
+	SS, N34.80890, E72.35220, 0, Saidu Sharif
+
+line1 =
+	N34.62254, E72.78164
+	N34.37149, E72.83476
+	N34.25796, E72.84757
+	N34.19822, E72.83796
+	N34.14766, E72.80158
+	N34.08557, E72.70701
+
+line2 =
+	N34.93937, E72.87166
+	N34.88635, E72.89481
+
+line3 =
+	N34.77684, E72.86447
+	N34.72625, E72.81373
+	N34.62254, E72.78164
+	N34.08554, E72.70691
+	N34.03175, E72.65162
+	N34.01550, E72.59178
+	N34.01880, E72.50899
+	N33.99984, E72.41075
+	N33.95857, E72.29717
+	N33.89493, E72.23883
+	N33.80900, E72.23573
+	N33.77197, E72.19748
+	N33.78393, E72.12410
+	N33.77897, E72.07103
+	N33.75709, E72.03827
+	N33.66546, E71.98592
+	N33.50408, E71.91388
+	N33.40633, E71.83921
+	N33.37228, E71.76180
+	N33.27378, E71.72196
+	N33.11085, E71.71968
+
+[airport1]
+name = Peshawar International Airport
+code = OPPS
+runways =
+	rwy1, 17, N34.006, E71.5135, 175.9, 9000, 0, 0, 1171

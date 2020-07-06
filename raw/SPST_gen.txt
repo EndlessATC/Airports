@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 869
+center = S6.50873994827, W76.3731994629
+magneticvar = -1.220
+beacons =
+	TAP, S6.65811, W76.36730, 0, Tarapoto
+	YMR, S5.89225, W76.14080, 0, Yurimaguas
+	YMS, S5.88333, W76.08330, 0, Yurimaguas
+	UAN, S7.17147, W76.72380, 0, Juanjui
+	RIO, S6.03003, W77.16930, 0, Rioja
+
+line1 =
+	S7.24984, W75.23770
+	S7.23723, W75.25465
+	S7.20251, W75.24669
+	S7.18328, W75.26897
+	S7.15858, W75.28036
+	S7.12871, W75.26519
+
+[airport1]
+name = Cadete FAP Guillermo Del Castillo Paredes Airport
+code = SPST
+runways =
+	rwy1, 17, S6.49717, W76.3753, 171.0, 8530, 0, 0, 869

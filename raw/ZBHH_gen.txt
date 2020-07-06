@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3556
+metric = true
+center = N40.851398, E111.823997
+magneticvar = -5.127
+beacons =
+	KJ, N40.87000, E111.88800, 0, Hohhot
+	SZ, N40.52500, E112.49200, 0, Liangcheng
+
+line1 =
+	N40.48404, E110.30338
+	N40.37294, E110.50522
+	N40.30186, E110.67452
+	N40.27082, E110.81146
+	N40.26571, E110.91853
+	N40.28648, E110.99600
+	N40.23462, E111.12534
+	N40.11014, E111.30673
+	N40.01255, E111.40687
+	N39.94180, E111.42579
+	N39.86744, E111.41638
+
+[airport1]
+name = Baita International Airport
+code = ZBHH
+runways =
+	rwy1, 08, N40.847, E111.806, 72.0, 11811, 0, 0, 3511
+	rwy2, 08R, N40.8448, E111.804, 72.7, 11811, 0, 0, 3511

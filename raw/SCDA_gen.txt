@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 155
+center = S20.535200119, W70.1812973022
+magneticvar = -2.447
+beacons =
+	R, S20.51300, W70.18010, 0, Diego Aracena
+	UCU, S20.57110, W70.18330, 0, Iquique
+	IQQ, S20.37470, W70.17250, 0, Iquique
+
+line1 =
+	S19.61299, W70.19834
+	S19.70586, W70.15742
+	S19.80508, W70.14814
+	S20.22979, W70.14746
+	S20.53145, W70.19365
+	S20.72539, W70.19702
+	S21.25322, W70.08838
+	S21.35684, W70.08003
+	S21.49307, W70.08755
+
+[airport1]
+name = Diego Aracena Airport
+code = SCDA
+runways =
+	rwy1, 01, S20.5503, W70.1822, 6.0, 10991, 0, 0, 97

@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 964
+usa = true
+transition = 18001
+center = N34.8956985474, W82.2189025879
+magneticvar = -6.315
+beacons =
+	GS, N34.81550, W82.28010, 0, Greer
+	GM, N34.78010, W82.34980, 0, Judky
+	FRT, N34.90240, W81.98480, 0, Fairmont
+	GY, N34.69100, W82.44360, 0, Dyana
+	SPA, N35.03370, W81.92710, 0, Spartanburg
+	LQK, N34.81120, W82.70350, 0, Lake Keowee
+	BRA, N35.27280, W82.47100, 0, Broad River
+	LUX, N34.50820, W81.94980, 0, Laurens
+	RFE, N35.34900, W81.95290, 0, Rutherford
+	SUG, N35.40650, W82.26860, 0, Sugarloaf Mt
+	UOT, N34.68400, W81.64230, 0, Union County
+	AND, N34.49810, W82.70850, 0, Anderson
+	CEU, N34.67380, W82.88680, 0, Clemson
+	SLP, N35.25270, W81.59880, 0, First River
+	GRD, N34.25160, W82.15420, 0, Greenwood
+	GIW, N34.25370, W82.08620, 0, Coronaca
+	ELW, N34.41920, W82.78470, 0, Electric City
+	IM, N35.53280, W82.58740, 0, Keans
+	EOE, N34.31150, W81.63600, 0, Enoree
+	FIQ, N35.71020, W81.67130, 0, Fiddlers
+
+line1 =
+	N34.59853, W83.16590
+	N34.51087, W83.05278
+	N34.47640, W82.97568
+	N34.46580, W82.89682
+	N34.43692, W82.84773
+	N34.36607, W82.81861
+
+line2 =
+	N35.07626, W83.12058
+	N35.00055, W83.12135
+	N34.93291, W83.17040
+	N34.80565, W83.31672
+	N34.70832, W83.35558
+
+line3 =
+	N34.36602, W82.81858
+	N34.01738, W82.58927
+
+line4 =
+	N34.70832, W83.35558
+	N34.59959, W83.16652
+
+[airport1]
+name = Greenville Spartanburg International Airport
+code = KGSP
+runways =
+	rwy1, 04, N34.8829, W82.2286, 32.2, 11000, 0, 0, 964

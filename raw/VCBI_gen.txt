@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 30
+center = N7.18075990677, E79.8841018677
+magneticvar = -2.454
+beacons =
+	KAT, N7.16127, E79.86850, 0, Bandaranaike
+	CNL, N7.26859, E79.95090, 0, Bandaranaike
+	RM, N6.83368, E79.88540, 0, Colombo/Ratmalana
+
+line1 =
+	N8.05000, E79.80889
+	N8.01846, E79.78350
+	N8.04888, E79.74971
+
+line2 =
+	N8.06567, E79.70781
+	N7.79648, E79.75996
+	N7.58521, E79.79209
+	N6.82930, E79.85938
+	N6.58452, E79.94697
+	N6.36440, E80.00723
+
+[airport1]
+name = Bandaranaike International Colombo Airport
+code = VCBI
+runways =
+	rwy1, 04, N7.16874, E79.8749, 37.0, 10991, 0, 0, 24
+
+[airport2]
+name = Colombo Ratmalana Airport
+code = CC
+runways =
+	rwy2, 04, N6.81507, E79.8817, 33.3, 6013, 0, 0, 24
+inboundbeacon = RM

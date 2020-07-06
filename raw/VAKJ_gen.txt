@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 728
+center = N24.817199707, E79.9186019897
+magneticvar = -0.059
+beacons =
+	KKJ, N24.81490, E79.91870, 0, Khajuraho
+	KJ, N24.82040, E79.91670, 0, Khajuraho
+
+line1 =
+	N25.78142, E80.52426
+	N25.72303, E80.62999
+	N25.70241, E80.71650
+	N25.71952, E80.78378
+	N25.71745, E80.84393
+	N25.69616, E80.89695
+	N25.66768, E80.93039
+	N25.63208, E80.94434
+	N25.61714, E80.96925
+	N25.62283, E81.00522
+	N25.60490, E81.02175
+	N25.56330, E81.01886
+	N25.53056, E81.05906
+	N25.50666, E81.14226
+	N25.46563, E81.18123
+	N25.40744, E81.17585
+
+[airport1]
+name = Khajuraho Airport
+code = VAKJ
+runways =
+	rwy1, 01, N24.8072, E79.916, 13.4, 7460, 1500, 0, 728

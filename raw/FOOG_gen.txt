@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = S0.711739003658, E8.75438022614
+magneticvar = -4.050
+beacons =
+	PG, S0.72878, E8.74747, 0, Port Gentil
+	PG, S0.69383, E8.76172, 0, Port Gentil
+
+line1 =
+	N0.12559, E9.81270
+	N0.04424, E9.79678
+	N0.08496, E9.73838
+	N0.14893, E9.57432
+	N0.15977, E9.46816
+	N0.20044, E9.41113
+	N0.24590, E9.38613
+
+line2 =
+	N0.11582, E9.32529
+	S0.05825, E9.33906
+	S0.35127, E9.29668
+	S0.57334, E9.13652
+	S0.62432, E9.08154
+	S0.63672, E9.03789
+	S0.63467, E8.99521
+	S0.68877, E8.94639
+	S0.70840, E8.82139
+	S0.61494, E8.75723
+	S0.59102, E8.70312
+	S0.91357, E8.84424
+	S0.94609, E8.87656
+	S1.02500, E8.90938
+	S1.07148, E8.94189
+	S1.29834, E9.06465
+	S1.38242, E9.20381
+	S1.37422, E9.26016
+	S1.36094, E9.29668
+	S1.33291, E9.31787
+	S1.32500, E9.34668
+	S1.48193, E9.28018
+	S1.51523, E9.29580
+	S1.53457, E9.33066
+	S1.53018, E9.39717
+	S1.50889, E9.44834
+	S1.55518, E9.50107
+	S1.59834, E9.52334
+	S1.63457, E9.40635
+	S1.63760, E9.35664
+	S1.63203, E9.31885
+	S1.30889, E9.03633
+	S1.37910, E9.05283
+	S1.52773, E9.15752
+
+[airport1]
+name = Port Gentil Airport
+code = FOOG
+runways =
+	rwy1, 03, S0.719689, E8.75114, 22.0, 6234, 2200, 0, 11

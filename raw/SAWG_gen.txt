@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 61
+center = S51.6089, W69.3126
+magneticvar = 12.102
+beacons =
+	GAL, S51.61100, W69.33020, 0, Rio Gallegos
+	GAL, S51.62500, W69.28440, 0, Rio Gallegos
+	G, S51.60700, W69.27410, 0, Rio Gallegos
+
+line1 =
+	S52.58203, W68.75752
+	S52.57676, W68.78979
+
+line2 =
+	S52.48623, W69.41406
+	S52.49141, W69.49839
+	S52.54932, W69.57187
+
+line3 =
+	S52.51357, W69.90723
+	S52.50557, W69.76333
+	S52.46475, W69.62031
+	S52.42158, W69.56060
+	S52.26943, W69.44687
+	S52.20547, W69.24102
+	S52.21143, W69.13379
+	S52.26270, W69.00723
+	S52.35664, W68.44336
+	S52.30703, W68.39375
+	S52.19756, W68.49351
+	S52.01309, W68.69082
+	S51.71465, W68.91680
+	S51.67715, W68.96533
+	S51.63623, W69.03252
+	S51.66230, W69.18013
+	S51.60107, W69.31304
+	S51.61025, W69.40908
+	S51.58447, W69.46543
+	S51.55947, W69.36055
+	S51.56123, W69.21807
+	S51.54717, W69.05830
+	S51.48896, W69.03530
+	S51.44648, W69.02959
+	S51.30352, W69.06572
+	S51.09697, W69.14351
+	S50.99365, W69.20103
+	S51.00615, W69.26797
+	S51.04580, W69.35176
+	S51.02813, W69.35859
+	S50.95059, W69.23516
+	S50.86445, W69.15498
+	S50.75254, W69.14141
+
+[airport1]
+name = Piloto Civil N. Fernández Airport
+code = SAWG
+runways =
+	rwy1, 7, S51.6101, W69.3382, 86.0, 11644, 243, 0, 61

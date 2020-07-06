@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 134
+metric = true
+center = N35.292778, E116.346667
+
+line1 =
+	N34.58735, E117.32617
+	N34.54858, E117.29473
+	N34.50161, E117.24971
+	N34.49810, E117.20986
+	N34.54336, E117.17383
+	N34.61201, E117.14121
+	N34.66250, E117.12832
+	N34.72539, E117.13945
+	N34.71934, E117.17891
+	N34.66543, E117.26641
+	N34.62144, E117.31777
+	N34.58735, E117.32617
+	N34.58735, E117.32617
+	N34.58735, E117.32617
+	N34.58735, E117.32617
+
+line2 =
+	N35.32952, E115.01389
+	N35.40626, E115.13605
+	N35.45882, E115.27207
+	N35.50264, E115.34038
+	N35.53778, E115.34100
+	N35.59721, E115.38198
+	N35.68092, E115.46327
+	N35.75844, E115.59639
+	N35.82978, E115.78108
+	N35.88034, E115.87089
+	N35.91006, E115.86572
+	N35.93863, E115.88329
+	N35.96602, E115.92360
+	N35.97620, E115.96618
+	N36.07103, E116.03574
+	N36.10973, E116.07780
+	N36.14296, E116.11594
+	N36.20136, E116.22715
+
+[airport1]
+name = Jining Qufu Airport
+code = ZLJN

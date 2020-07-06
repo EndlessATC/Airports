@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 995
+center = N50.4743, E19.08
+magneticvar = 3.194
+beacons =
+	P, N50.47350, E19.10660, 0, Pyrzowice
+	PT, N50.47410, E19.15030, 0, Katowice
+	L, N50.08190, E19.81460, 0, Krakow
+	KRW, N50.09560, E19.91280, 0, Krakow
+	JED, N50.64730, E20.25120, 0, Jedow
+	OTA, N49.69750, E18.10910, 0, Ostrava
+
+line1 =
+	N49.92504, E18.81046
+	N49.93189, E18.93686
+
+line2 =
+	N49.73939, E17.61797
+	N49.65402, E17.84695
+	N49.63707, E17.94643
+	N49.67175, E18.01578
+	N49.72988, E18.14166
+	N49.79474, E18.22486
+	N49.88564, E18.30734
+	N49.97240, E18.31659
+	N50.05503, E18.25261
+	N50.13746, E18.23101
+	N50.21967, E18.25179
+	N50.32101, E18.18538
+	N50.44137, E18.03190
+	N50.53216, E17.95821
+	N50.59329, E17.96431
+	N50.65647, E17.93837
+	N50.72166, E17.88039
+	N50.78047, E17.76225
+	N50.88196, E17.45023
+	N50.92759, E17.36052
+	N50.97451, E17.30001
+	N51.02273, E17.26869
+
+line3 =
+	N49.64384, E18.87919
+	N49.81742, E18.78819
+	N49.88770, E18.77098
+	N49.92501, E18.81025
+	N49.93189, E18.93686
+	N49.95230, E19.06817
+	N49.98659, E19.14129
+	N50.04155, E19.19989
+	N50.04573, E19.34826
+	N49.99922, E19.58628
+	N50.00604, E19.85164
+	N50.09632, E20.29068
+	N50.13730, E20.52198
+	N50.18766, E20.64528
+	N50.26107, E20.73768
+	N50.30732, E20.88320
+
+[airport1]
+name = Katowice International Airport
+code = EPKT
+runways =
+	rwy1, 09, N50.4761, E19.0596, 90.0, 9183, 0, 1045, 970

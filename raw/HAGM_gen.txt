@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1614
+center = N8.12876033783, E34.5630989075
+magneticvar = 1.489
+beacons =
+	GM, N8.13500, E34.57330, 0, Gambella
+	BR, N8.10818, E34.56310, 0, Gambella
+
+[airport1]
+name = Gambella Airport
+code = HAGM
+runways =
+	rwy1, 18, N8.14003, E34.5632, 179.7, 8248, 0, 0, 1637

@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1126
+center = N8.44021034241, E4.4939198494
+magneticvar = -2.484
+beacons =
+	IL, N8.42532, E4.47560, 0, Ilorin
+	IL, N8.38837, E4.43088, 0, Ilorin
+
+line1 =
+	N9.37400, E4.61215
+	N9.31230, E4.65437
+	N9.28744, E4.71318
+	N9.24342, E4.74961
+	N9.18032, E4.76377
+	N9.16071, E4.82961
+	N9.18466, E4.94712
+	N9.14957, E5.05683
+	N9.05542, E5.15863
+	N8.98865, E5.29165
+	N8.94917, E5.45587
+	N8.88256, E5.60408
+
+[airport1]
+name = Ilorin International Airport
+code = DNIL
+runways =
+	rwy1, 05, N8.43097, E4.48331, 49.0, 10169, 0, 0, 1119

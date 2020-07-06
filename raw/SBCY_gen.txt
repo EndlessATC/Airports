@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 617
+center = S15.6528997421, W56.1166992188
+magneticvar = -15.304
+beacons =
+	CIA, S15.65500, W56.12020, 0, Cuiaba
+	CIA, S15.65620, W56.11200, 0, Cuiaba
+
+line1 =
+	S14.68034, W56.17251
+	S14.77806, W56.31591
+	S14.92824, W56.43632
+	S15.03686, W56.49683
+	S15.10394, W56.49735
+	S15.17127, W56.44397
+	S15.23897, W56.33658
+	S15.32759, W56.27462
+	S15.43725, W56.25806
+	S15.53083, W56.20548
+	S15.60850, W56.11685
+	S15.68023, W56.08884
+	S15.74602, W56.12145
+	S15.80105, W56.13251
+	S15.84529, W56.12202
+	S15.89552, W56.07027
+	S15.95179, W55.97722
+	S16.00946, W55.91697
+	S16.06853, W55.88958
+	S16.13023, W55.90498
+	S16.19457, W55.96319
+	S16.25425, W55.97725
+	S16.30924, W55.94715
+	S16.36215, W55.96508
+	S16.41285, W56.03112
+	S16.45316, W56.13375
+	S16.48302, W56.27307
+	S16.56498, W56.38213
+
+[airport1]
+name = Marechal Rondon Airport
+code = SBCY
+runways =
+	rwy1, 17, S15.6437, W56.1216, 153.0, 7546, 0, 0, 617

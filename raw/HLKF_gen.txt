@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1367
+center = N24.1786994934, E23.313999176
+magneticvar = 2.122
+beacons =
+	KFR, N24.15330, E23.30830, 0, Kufra
+	KFR, N24.23580, E23.33060, 0, Kufra
+
+[airport1]
+name = Kufra Airport
+code = HLKF
+runways =
+	rwy1, 02L, N24.1632, E23.3082, 15.0, 12007, 0, 0, 0
+	rwy2, 02R, N24.1626, E23.3104, 15.0, 12007, 0, 0, 1355

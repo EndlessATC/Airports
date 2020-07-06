@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = N16.7570991516, W99.7539978027
+magneticvar = 6.192
+beacons =
+	ACA, N16.75850, W99.75400, 0, Acapulco
+
+line1 =
+	N17.20049, W100.84780
+	N17.06406, W100.43188
+	N16.98418, W100.24302
+	N16.92051, W100.02451
+	N16.71963, W99.69067
+	N16.66475, W99.34805
+	N16.58145, W99.00166
+	N16.54458, W98.90796
+	N16.53477, W98.76221
+
+[airport1]
+name = General Juan N Alvarez International Airport
+code = MMAA
+runways =
+	rwy1, 06, N16.7536, W99.7624, 67.0, 5579, 0, 0, 11
+	rwy2, 10, N16.76, W99.7632, 108.0, 10832, 0, 0, 13

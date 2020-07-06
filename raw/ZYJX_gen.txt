@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 760
+metric = true
+center = N45.293, E131.193
+
+line1 =
+	N45.05156, E132.80977
+	N44.94268, E132.74287
+	N44.71133, E132.61357
+	N44.61260, E132.45967
+	N44.52944, E132.36553
+	N44.56899, E132.27588
+	N44.60610, E132.23848
+	N44.62998, E132.24121
+	N44.67397, E132.16855
+	N44.74253, E132.06904
+	N44.85137, E132.08438
+	N44.96865, E132.10869
+	N45.07427, E132.01514
+	N45.12661, E132.01719
+	N45.21401, E132.00498
+	N45.28682, E132.07109
+	N45.32842, E132.23018
+	N45.32896, E132.40195
+	N45.29624, E132.57949
+	N45.23008, E132.72520
+	N45.14878, E132.80820
+	N45.05156, E132.80977
+	N45.05156, E132.80977
+	N45.05156, E132.80977
+	N45.05156, E132.80977
+
+[airport1]
+name = Jixi Xingkaihu Airport
+code = ZYJX

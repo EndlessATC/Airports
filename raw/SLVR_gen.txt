@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1224
+center = S17.6448, W63.135399
+magneticvar = -9.345
+beacons =
+	VIR, S17.62850, W63.14990, 0, Viru Viru
+	VVO, S17.72920, W63.07830, 0, Viru Viru
+	VRO, S17.53670, W63.20070, 0, Viru Viru
+	TCZ, S17.80380, W63.17350, 0, El Trompillo
+
+line1 =
+	S18.61545, W63.07415
+	S18.42477, W62.94868
+	S18.19682, W62.85773
+	S17.79881, W62.77306
+	S17.59815, W62.78627
+	S17.46550, W62.77469
+	S17.33388, W62.74270
+	S17.24256, W62.73844
+	S17.19151, W62.76185
+	S17.15094, W62.82290
+	S17.12097, W62.92166
+	S17.03074, W63.00041
+	S16.88042, W63.05922
+	S16.73200, W63.25926
+
+[airport1]
+name = Viru Viru International Airport
+code = SLVR
+runways =
+	rwy1, 16, S17.6315, W63.1443, 147.0, 11483, 0, 0, 1218
+
+[airport2]
+name = El Trompillo Airport
+code = ET
+runways =
+	rwy2, 15, S17.8014, W63.1793, 143.7, 9144, 0, 0, 1372
+inboundbeacon = TCZ

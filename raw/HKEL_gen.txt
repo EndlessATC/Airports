@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6941
+center = N0.404457986355, E35.238899231
+magneticvar = 0.325
+beacons =
+	ELD, N0.40640, E35.23110, 0, Eldoret
+	ELI, N0.39931, E35.21270, 0, Eldoret
+	KI, S0.08452, E34.73590, 0, Kisumu
+	KIV, S0.09509, E34.71190, 0, Kisumu
+
+line1 =
+	S0.09170, E34.71758
+	S0.09170, E34.71758
+	S0.09170, E34.71758
+	S0.27568, E34.81328
+	S0.29639, E34.79814
+	S0.32490, E34.70332
+	S0.32969, E34.57656
+	S0.35332, E34.47783
+	S0.36895, E34.45830
+	S0.46436, E34.47510
+	S0.49512, E34.45635
+	S0.50215, E34.42480
+	S0.45879, E34.37568
+	S0.45938, E34.32852
+	S0.44502, E34.27539
+	S0.44150, E34.21719
+	S0.47012, E34.17480
+	S0.57949, E34.07930
+
+line2 =
+	S0.07949, E34.11523
+	S0.09102, E34.12520
+	S0.13340, E34.10752
+	S0.16348, E34.11719
+	S0.25918, E34.22559
+	S0.35029, E34.28467
+	S0.35605, E34.30996
+	S0.33730, E34.33398
+	S0.31377, E34.35332
+	S0.24336, E34.36992
+	S0.19619, E34.41953
+	S0.14375, E34.53809
+	S0.09170, E34.71758
+
+[airport1]
+name = Eldoret International Airport
+code = HKEL
+runways =
+	rwy1, 08, N0.400914, E35.2213, 79.0, 11480, 0, 0, 6838

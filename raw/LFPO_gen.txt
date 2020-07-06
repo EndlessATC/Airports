@@ -1,0 +1,131 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 291
+center = N48.7233333, E2.3794444
+magneticvar = -1.303
+beacons =
+	OL, N48.72990, E2.38642, 0, Orly
+	TH, N48.77800, E2.37872, 0, Villacoublay
+	TSU, N48.75370, E2.10236, 0, Toussus
+	TA, N48.77160, E2.09744, 0, Villacoublay
+	BT, N48.97470, E2.45517, 0, Le Bourget
+	RBT, N48.65390, E1.99422, 0, Rambouillet
+	CGN, N49.01990, E2.50011, 0, Charles de Gaulle
+	PGS, N48.99950, E2.62381, 0, Charles de Gaulle
+	HOL, N48.73060, E1.82050, 0, Villacoublay
+	MLN, N48.45580, E2.81328, 0, Melun
+	CLM, N48.84460, E3.01386, 0, Coulommiers
+	PON, N49.09610, E2.03589, 0, Pontoise
+	EPR, N48.62570, E1.65656, 0, Epernon
+	CRL, N49.25530, E2.51478, 0, Creil
+	PTV, N48.15560, E2.26478, 0, Pithiviers
+	BSN, N49.18830, E3.05647, 0, Boursonne
+	BRY, N48.40700, E3.29478, 0, Bray-sur-Seine
+	BVS, N49.43640, E2.15319, 0, Beauvais
+	CPE, N49.43280, E2.79936, 0, Compiègne
+	EVX, N49.03170, E1.22086, 0, Evreux
+	OAN, N48.00130, E1.76872, 0, Orléans
+	MTD, N49.55260, E2.48947, 0, Montdidier
+	OAN, N47.98940, E1.75958, 0, Orléans
+	CTL, N49.13770, E3.57769, 0, Châtillon-sur-Marne
+	VMP, N48.05890, E1.38889, 0, Châteaudun
+	CDN, N48.06240, E1.36364, 0, Châteaudun
+	ROU, N49.46560, E1.28064, 0, Rouen
+
+line1 =
+	N48.28375, E4.09611
+	N48.42743, E3.96919
+	N48.51663, E3.85830
+	N48.55133, E3.76342
+	N48.52572, E3.56121
+	N48.43983, E3.25167
+	N48.39307, E3.03840
+	N48.38542, E2.92151
+	N48.40929, E2.81893
+	N48.49244, E2.68669
+	N48.53342, E2.57305
+	N48.58153, E2.49931
+	N48.65042, E2.42769
+	N48.69941, E2.40464
+	N48.72840, E2.43027
+	N48.76565, E2.43006
+	N48.81113, E2.40392
+	N48.83387, E2.35203
+	N48.85206, E2.29633
+	N48.87521, E2.26987
+	N48.90828, E2.25002
+	N48.91159, E2.21695
+	N48.90415, E2.17334
+	N48.92812, E2.14419
+	N48.94797, E2.13758
+	N48.95789, E2.11112
+	N48.95427, E2.06161
+	N48.96060, E2.00828
+	N48.99608, E1.97593
+	N49.00595, E1.90762
+	N48.99014, E1.80333
+	N48.99174, E1.71817
+	N49.01742, E1.67455
+	N49.04719, E1.66794
+	N49.06042, E1.63487
+	N49.05204, E1.58505
+	N49.08419, E1.49689
+	N49.15974, E1.39654
+	N49.21149, E1.35370
+	N49.21917, E1.31406
+	N49.21245, E1.27861
+	N49.22074, E1.24430
+	N49.24415, E1.23810
+	N49.28201, E1.22807
+	N49.30658, E1.18880
+	N49.31177, E1.09247
+	N49.32831, E1.05609
+	N49.35477, E1.04286
+	N49.38122, E1.02302
+	N49.37812, E0.97217
+	N49.38967, E0.92979
+	N49.42422, E0.89734
+	N49.41476, E0.85342
+	N49.42634, E0.82809
+	N49.47052, E0.78489
+	N49.48044, E0.71875
+	N49.46044, E0.65177
+
+line2 =
+	N47.80359, E2.35989
+	N47.87126, E2.14538
+	N47.89418, E1.97082
+	N47.89253, E1.84519
+	N47.86628, E1.76850
+	N47.76437, E1.60820
+
+[airport1]
+name = Paris-Orly Airport
+code = LFPO
+runways =
+	rwy1, 02, N48.7175, E2.3767, 18.0, 7874, 0, 0, 287
+	rwy2, 06, N48.72, E2.31692, 62.0, 11975, 984, 0, 283
+	rwy3, 07, N48.7194, E2.35859, 74.0, 10892, 0, 1427, 277
+
+[airport2]
+name = Charles de Gaulle International Airport
+code = PG
+runways =
+	rwy4, 08L, N48.9957, E2.55274, 85.0, 13829, 0, 1969, 338
+	rwy5, 08R, N48.9929, E2.56566, 85.1, 8858, 0, 0, 336
+	rwy6, 09L, N49.0247, E2.52489, 85.3, 8858, 0, 0, 378
+	rwy7, 09R, N49.0206, E2.51306, 86.0, 13780, 0, 1969, 370
+inboundbeacon = CGN
+
+[airport3]
+name = Pontoise - Cormeilles-en-Vexin Airport
+code = PT
+runways =
+	rwy8, 05, N49.0878, E2.0274, 45.0, 5541, 0, 558, 274
+	rwy9, 12, N49.1019, E2.02568, 118.0, 5413, 197, 584, 323
+inboundbeacon = PON

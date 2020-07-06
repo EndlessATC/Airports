@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 46
+center = S1.81664001942, E109.962997437
+magneticvar = 0.585
+beacons =
+	KTP, S1.81649, E109.96600, 0, Ketapang
+	KP, S1.75028, E109.98400, 0, Ketapang
+
+line1 =
+	S0.84580, E109.28887
+	S0.87539, E109.33350
+	S0.86875, E109.45381
+	S0.94424, E109.68174
+	S1.01133, E109.78740
+	S1.10107, E109.87344
+	S1.18115, E109.93809
+	S1.27480, E109.98330
+	S1.39883, E110.01924
+	S1.52568, E110.03613
+	S1.64258, E110.02344
+	S1.74287, E109.96377
+	S1.86279, E109.95986
+	S1.94639, E110.07500
+	S2.00137, E110.09658
+	S2.23389, E110.12441
+	S2.68867, E110.22432
+
+line2 =
+	S1.53984, E108.87725
+	S1.56777, E108.80371
+	S1.66162, E108.83789
+	S1.61963, E108.95312
+	S1.56406, E108.95684
+	S1.53984, E108.87725
+
+line3 =
+	S1.00732, E109.69951
+	S0.97910, E109.61465
+	S0.98535, E109.47598
+	S1.04414, E109.45029
+	S1.24121, E109.42813
+	S1.27754, E109.46367
+	S1.28281, E109.51084
+	S1.18066, E109.71025
+	S1.14502, E109.75078
+	S1.10518, E109.76055
+	S1.03936, E109.74336
+	S1.00732, E109.69951
+
+[airport1]
+name = Ketapang(Rahadi Usman) Airport
+code = WIOK
+runways =
+	rwy1, 17, S1.81038, E109.963, 171.7, 4585, 0, 0, 0

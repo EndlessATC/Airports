@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N48.199494, E134.366447
+magneticvar = -11.407
+beacons =
+	IJ, N47.86830, E134.64700, 0, Haiqing
+	MR, N48.56670, E134.58299, 0, Volochaevka
+	BD, N48.49000, E135.13300, 0, Khabarovsk
+	UF, N48.48830, E135.13699, 0, Khabarovsk
+	HAB, N48.54440, E135.20900, 0, Khabarovsk
+	PS, N47.63330, E134.88300, 0, Krasitsky
+	GE, N48.56670, E135.23700, 0, Khabarovsk
+	HI, N48.56830, E135.24500, 0, Khabarovsk
+
+line1 =
+	N48.81715, E135.81768
+	N48.76418, E135.74467
+	N48.75465, E135.66865
+	N48.77093, E135.56519
+	N48.76788, E135.44484
+	N48.74555, E135.30748
+	N48.70452, E135.18485
+	N48.64476, E135.07706
+	N48.57052, E135.02621
+	N48.48185, E135.03241
+	N48.42102, E134.96451
+	N48.38805, E134.82250
+	N48.38315, E134.70871
+	N48.40630, E134.62303
+	N48.40335, E134.48665
+	N48.35989, E134.20590
+	N48.27375, E133.84220
+	N48.20770, E133.67177
+	N48.13303, E133.57327
+	N48.09717, E133.46837
+	N48.10153, E133.30115
+	N48.10564, E133.14405
+	N48.06441, E133.02013
+	N47.97909, E132.87709
+	N47.94007, E132.77281
+	N47.94725, E132.70718
+	N47.89010, E132.63690
+
+[airport1]
+name = Dongji Aiport
+code = ZYFY

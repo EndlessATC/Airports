@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N18.251499176, W71.1203994751
+magneticvar = -9.261
+beacons =
+	BHO, N18.25450, W71.13020, 0, Barahona
+	BHN, N18.24230, W71.11620, 0, Barahona
+	DCR, N17.93160, W71.64830, 0, Cabo Rojo
+
+line1 =
+	N18.67495, W72.34766
+	N18.62373, W72.34673
+
+line2 =
+	N18.22856, W72.05986
+	N18.21201, W72.00205
+	N18.18608, W71.94609
+	N18.11914, W71.85293
+	N18.03916, W71.76831
+	N18.00547, W71.71245
+	N17.95410, W71.67373
+	N17.88867, W71.65723
+	N17.82114, W71.65830
+	N17.77363, W71.63174
+	N17.75737, W71.56904
+	N17.72500, W71.51836
+	N17.63560, W71.43896
+	N17.64609, W71.39570
+	N17.69414, W71.35830
+	N17.84961, W71.26729
+	N18.07002, W71.10601
+	N18.12837, W71.08262
+	N18.22437, W71.08223
+	N18.25034, W71.06997
+	N18.27319, W71.02783
+	N18.29248, W70.92432
+	N18.34561, W70.75884
+	N18.33623, W70.64468
+	N18.26758, W70.56543
+	N18.21729, W70.47993
+	N18.25176, W70.18311
+	N18.27710, W70.14160
+	N18.34565, W70.06333
+	N18.37363, W70.01831
+	N18.41772, W69.89639
+
+line3 =
+	N18.46997, W71.50889
+	N18.43398, W71.53652
+	N18.42100, W71.60684
+	N18.49443, W71.79351
+	N18.53120, W71.77695
+	N18.55107, W71.68335
+	N18.51406, W71.58394
+	N18.46997, W71.50889
+	N18.46997, W71.50889
+	N18.46997, W71.50889
+
+[airport1]
+name = Maria Montez International Airport
+code = MDBH
+runways =
+	rwy1, 12, N18.2577, W71.133, 118.0, 9843, 0, 0, 10

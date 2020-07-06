@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1927
+center = N13.1532001495, E30.2327003479
+magneticvar = 2.065
+beacons =
+	OBD, N13.14770, E30.23340, 0, El Obeid
+	OBD, N13.15670, E30.23880, 0, El Obeid
+
+[airport1]
+name = El Obeid Airport
+code = HSOB
+runways =
+	rwy1, 01, N13.1398, E30.2307, 8.0, 9843, 0, 0, 1927

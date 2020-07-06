@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 106
+center = N25.0777, E121.233002
+magneticvar = -3.256
+beacons =
+	TIA, N25.08840, E121.23300, 0, Chiang Kai Shek
+	TYN, N25.06250, E121.24500, 0, Taoyuan
+	KS, N25.05580, E121.21700, 0, Ks
+	LK, N25.07430, E121.42400, 0, Lk
+	LKU, N25.07610, E121.42700, 0, Sungshan
+	RA, N24.86170, E121.25300, 0, Lungtang
+	SW, N24.99480, E121.49100, 0, Sw
+	SG, N25.07040, E121.53000, 0, Sg
+	APU, N25.17690, E121.52200, 0, Anpu
+	AP, N25.17610, E121.52300, 0, Anpu
+	O, N25.06540, E121.63200, 0, O
+	HC, N25.06530, E121.63200, 0, Taipei/Sungshan
+	HSU, N24.82170, E120.93800, 0, Hsinchu
+	LU, N25.13940, E121.80100, 0, Lu
+	MS, N24.73190, E121.74100, 0, Ilan
+	HLG, N24.64000, E120.78300, 0, Houlung
+	HL, N24.64640, E120.77400, 0, Houlung
+	CCK, N24.26260, E120.61800, 0, Ching Chuan Kang
+	TCK, N24.25360, E120.61900, 0, Taichung
+	TC, N24.25350, E120.61900, 0, Taichung
+
+line1 =
+	N25.05645, E121.90518
+	N25.10444, E121.85283
+	N25.15410, E121.73330
+	N25.18159, E121.68711
+	N25.23242, E121.64307
+	N25.27534, E121.59365
+	N25.27690, E121.51709
+	N25.24902, E121.44961
+	N25.15918, E121.36543
+	N25.06509, E121.09541
+	N25.03281, E121.04063
+	N24.92798, E120.96406
+	N24.81328, E120.90156
+	N24.72266, E120.83594
+	N24.64229, E120.75742
+	N24.47852, E120.62969
+
+line2 =
+	N24.13008, E121.63936
+	N24.28525, E121.73701
+	N24.53437, E121.82803
+	N24.64053, E121.82637
+	N24.74634, E121.81338
+	N24.82451, E121.82012
+	N24.89526, E121.85625
+	N24.97373, E121.92900
+	N25.05645, E121.90518
+
+[airport1]
+name = Taiwan Taoyuan International Airport
+code = RCTP
+runways =
+	rwy1, 05L, N25.0729, E121.216, 49.3, 12008, 0, 0, 73
+	rwy2, 05R, N25.0608, E121.223, 49.3, 10991, 347, 1167, 106
+
+[airport2]
+name = Taipei Songshan Airport
+code = SS
+runways =
+	rwy3, 10, N25.0699, E121.54, 92.0, 8547, 0, 0, 13
+inboundbeacon = SG

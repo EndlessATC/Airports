@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3887
+center = N19.9843997955, E42.6208992004
+magneticvar = 2.210
+beacons =
+	BSH, N19.97770, E42.62460, 0, Bisha
+
+[airport1]
+name = Bisha Airport
+code = OEBH
+runways =
+	rwy1, 18, N19.9979, E42.6243, 186.0, 10007, 0, 0, 3872

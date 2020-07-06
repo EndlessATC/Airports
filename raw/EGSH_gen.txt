@@ -1,0 +1,79 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 117
+center = N52.6758003235, E1.28278005123
+magneticvar = -2.170
+beacons =
+	NL, N52.67640, E1.38471, 0, Norwich
+	MAM, N52.64730, E0.55326, 0, Marham
+	LKH, N52.40640, E0.54796, 0, Lakenheath
+	MLD, N52.36330, E0.48827, 0, Mildenhall
+	WTZ, N52.12190, E0.94047, 0, Wattisham
+	FNL, N52.74160, W0.02794, 0, Fenland
+	CAM, N52.21080, E0.18279, 0, Cambridge
+	CLN, N51.84840, E1.14761, 0, Clacton
+	SBY, N53.31000, E0.17617, 0, Strubby
+	BOU, N52.21110, W0.04494, 0, Bourn
+	SSD, N51.89460, E0.24503, 0, Stansted
+	BKY, N51.98970, E0.06194, 0, Barkway
+
+line1 =
+	N53.60928, E0.11533
+	N53.62944, E0.07671
+	N53.64053, E0.03608
+	N53.63721, W0.01943
+	N53.64365, W0.07373
+
+line2 =
+	N53.46826, E0.12832
+	N53.33550, E0.27100
+	N53.15996, E0.35576
+	N53.08110, E0.29805
+	N53.03003, E0.20820
+	N52.97158, E0.12441
+	N52.90562, E0.04590
+	N52.80869, E0.27979
+	N52.81162, E0.33018
+	N52.82520, E0.38193
+	N52.85815, E0.43164
+	N52.93838, E0.51553
+	N52.96694, E0.55879
+	N52.97725, E0.70449
+	N52.97109, E0.82676
+	N52.95337, E0.94854
+	N52.95898, E1.05557
+	N52.92456, E1.27129
+	N52.89351, E1.38213
+	N52.75371, E1.65674
+	N52.67725, E1.71611
+	N52.57852, E1.74336
+	N52.46899, E1.74658
+	N52.36890, E1.70039
+	N52.27852, E1.64736
+	N52.16182, E1.61465
+	N52.11978, E1.59141
+	N52.08687, E1.55898
+	N51.99478, E1.41348
+	N51.95693, E1.31680
+	N51.97354, E1.27598
+	N51.97124, E1.23242
+	N51.94912, E1.22783
+	N51.90210, E1.27383
+	N51.84536, E1.27441
+	N51.80337, E1.18848
+	N51.78545, E1.10117
+	N51.80781, E0.95508
+	N51.72959, E0.75225
+	N51.68940, E0.89805
+
+[airport1]
+name = Norwich International Airport
+code = EGSH
+runways =
+	rwy1, 04, N52.6743, E1.28208, 36.5, 4154, 0, 0, 107
+	rwy2, 09, N52.6758, E1.26905, 90.0, 6040, 0, 0, 117

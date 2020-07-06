@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N6.98509979248, E158.208999634
+magneticvar = 6.102
+beacons =
+	PNI, N6.97198, E158.18500, 0, Pohnpei
+
+line1 =
+	N6.97773, E158.18613
+	N6.94482, E158.13477
+	N6.90464, E158.12764
+	N6.88281, E158.16084
+	N6.80127, E158.18340
+	N6.79102, E158.25654
+	N6.81367, E158.31484
+	N6.85464, E158.30938
+	N6.89316, E158.33496
+	N6.95107, E158.29463
+	N6.97773, E158.18613
+
+[airport1]
+name = Pohnpei International Airport
+code = PTPN
+runways =
+	rwy1, 09, N6.98527, E158.201, 90.0, 6001, 0, 0, 8

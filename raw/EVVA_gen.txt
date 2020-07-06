@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+center = N57.35779953, E21.5442008972
+magneticvar = 5.159
+beacons =
+	VNT, N57.36690, E21.55620, 0, Ventspils
+
+line1 =
+	N58.34883, E21.96504
+	N58.31587, E21.92441
+	N58.30459, E21.89102
+	N58.30166, E21.85449
+	N58.26235, E21.88213
+	N58.21338, E22.03457
+	N58.17168, E22.10439
+	N58.15435, E22.18770
+	N58.11533, E22.15293
+	N57.99517, E21.98555
+	N57.96328, E21.97803
+	N57.93135, E21.99688
+	N57.93604, E22.07627
+	N57.96680, E22.15244
+	N58.05181, E22.22734
+	N58.16074, E22.26934
+	N58.21714, E22.37168
+	N58.23623, E22.49844
+	N58.23066, E22.73027
+	N58.26089, E22.75703
+	N58.31128, E22.88516
+
+line2 =
+	N56.97104, E23.64775
+	N57.08975, E23.28730
+	N57.32383, E23.13682
+	N57.39209, E23.03779
+	N57.59536, E22.64863
+	N57.65117, E22.61699
+	N57.72427, E22.55459
+	N57.66680, E22.23145
+	N57.59785, E21.94238
+	N57.57100, E21.72871
+	N57.32246, E21.45918
+	N57.23584, E21.42148
+	N57.13101, E21.40508
+	N57.01768, E21.35078
+	N56.93276, E21.25742
+	N56.82373, E21.07129
+	N56.63657, E21.03145
+
+[airport1]
+name = Ventspils International Airport
+code = EVVA
+runways =
+	rwy1, 03, N57.3531, E21.5379, 35.5, 4259, 0, 0, 19

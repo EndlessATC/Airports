@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4364
+metric = true
+center = N47.843102, E106.766998
+magneticvar = -4.010
+beacons =
+	UDA, N47.86770, E106.73400, 0, Ulaanbaatar
+	DA, N47.87900, E106.71900, 0, Ulaanbaatar
+
+[airport1]
+name = Chinggis Khaan International Airport
+code = ZMUB
+runways =
+	rwy1, 14, N47.853, E106.753, 136.0, 10170, 0, 0, 4147
+	rwy2, 15, N47.8508, E106.75, 145.0, 6560, 0, 0, 4123

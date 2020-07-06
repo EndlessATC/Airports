@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1221
+center = N37.2274017334, E140.430999756
+magneticvar = -7.113
+beacons =
+	FKE, N37.22430, E140.43700, 0, Fukushima
+	IXE, N37.14890, E140.97600, 0, Iwaki
+	GO, N36.76400, E140.35899, 0, Daigo
+	GOC, N36.74440, E140.35001, 0, Daigo
+	NZE, N36.78270, E140.03600, 0, Nasu
+	BTE, N36.76840, E140.03300, 0, Batoh
+	JDT, N36.51690, E139.87601, 0, Utsunomiya
+	JD, N36.48980, E139.86301, 0, Nikko
+
+line1 =
+	N38.00908, E139.24717
+	N38.09902, E139.36387
+	N38.14258, E139.40098
+
+line2 =
+	N38.14888, E140.96211
+	N38.05288, E140.92900
+	N37.94961, E140.92793
+	N37.82261, E140.95996
+	N37.69844, E141.00342
+	N37.46724, E141.03633
+	N37.11465, E141.00166
+	N37.00205, E140.96836
+	N36.92573, E140.89512
+	N36.89033, E140.83965
+	N36.84687, E140.79180
+	N36.73188, E140.72988
+	N36.50278, E140.62734
+	N36.44531, E140.61885
+	N36.38560, E140.61924
+	N36.30781, E140.59160
+	N36.23135, E140.57354
+
+[airport1]
+name = Fukushima Airport
+code = RJSF
+runways =
+	rwy1, 01, N37.2162, E140.427, 2.2, 8202, 0, 0, 1200

@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 308
+center = N52.4210014343, E16.8262996674
+magneticvar = 3.358
+beacons =
+	LAW, N52.42240, E16.83020, 0, Poznan
+	P, N52.41420, E16.86200, 0, Lawica
+	POZ, N52.39810, E16.94460, 0, Poznan
+	CZE, N52.13640, E16.72880, 0, Czempin
+	CZE, N52.13060, E16.72710, 0, Czempin
+	BBM, N52.14040, E15.79620, 0, Babimost
+	DRE, N52.81680, E15.83250, 0, Drezdenko
+	DRE, N52.83630, E15.84140, 0, Drezdenko
+	S, N53.09970, E18.01250, 0, Bydgoszcz
+	SL, N53.10310, E18.05310, 0, Bydgoszcz
+
+line1 =
+	N51.42141, E16.47412
+	N51.51804, E16.46223
+	N51.59504, E16.40766
+	N51.65245, E16.31041
+	N51.67700, E16.22312
+	N51.66878, E16.14582
+	N51.69090, E16.02035
+	N51.74335, E15.84661
+	N51.81120, E15.76878
+	N51.89446, E15.78666
+	N51.96089, E15.75793
+	N52.01052, E15.68248
+	N52.04576, E15.42379
+
+line2 =
+	N53.03826, E18.53756
+	N53.08927, E18.27411
+	N53.17402, E18.19980
+	N53.29256, E18.31462
+	N53.38263, E18.46314
+
+[airport1]
+name = Poznań-Ławica Airport
+code = EPPO
+runways =
+	rwy1, 10, N52.4249, E16.8061, 108.2, 8215, 0, 0, 308

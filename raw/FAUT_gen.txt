@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2400
+center = S31.5463631849, E28.6733551025
+magneticvar = -25.084
+beacons =
+	UA, S31.55830, E28.70190, 0, Mthatha
+	UT, S31.54780, E28.72970, 0, Mthatha
+	PJ, S31.63560, E29.55030, 0, Port St Johns
+	SI, S31.28330, E29.51670, 0, Lusikisi
+
+line1 =
+	S32.29424, E28.85596
+	S32.00313, E29.12783
+	S31.67471, E29.48291
+	S31.47041, E29.73516
+	S31.42383, E29.83027
+	S31.32207, E29.97119
+
+[airport1]
+name = K. D. Matanzima Airport
+code = FAUT
+runways =
+	rwy1, 09, S31.5471, E28.6685, 69.0, 4921, 0, 0, 0
+	rwy2, 14, S31.5443, E28.6647, 113.0, 6562, 0, 0, 2397

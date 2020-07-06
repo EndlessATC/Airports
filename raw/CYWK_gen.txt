@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1808
+usa = true
+transition = 18001
+center = N52.9219017029, W66.864402771
+magneticvar = -22.144
+beacons =
+	YWK, N52.96010, W66.85350, 0, Wabush
+	WK, N52.86180, W66.83490, 0, Wabush
+
+line1 =
+	N53.88848, W65.01392
+	N53.83965, W65.12334
+	N53.81841, W65.17690
+	N53.79609, W65.26338
+	N53.75962, W65.29756
+	N53.72412, W65.29512
+	N53.67417, W65.19102
+	N53.63906, W65.18955
+	N53.56421, W65.14756
+	N53.54009, W65.16353
+	N53.50044, W65.12778
+	N53.45513, W64.97310
+	N53.42109, W65.02031
+	N53.45522, W65.23369
+	N53.48970, W65.52910
+	N53.54248, W65.58252
+	N53.54854, W65.47988
+	N53.55923, W65.38813
+	N53.58652, W65.33462
+	N53.60488, W65.31680
+	N53.63594, W65.32598
+	N53.67476, W65.36440
+	N53.71504, W65.38105
+	N53.75562, W65.36299
+	N53.82124, W65.32788
+	N53.87915, W65.33779
+	N53.90386, W65.40732
+	N53.91411, W65.45342
+
+[airport1]
+name = Wabush Airport
+code = CYWK
+runways =
+	rwy1, 18, N52.915, W66.8602, 157.0, 6002, 0, 0, 1794

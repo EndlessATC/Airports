@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 106
+center = S8.08141040802, W79.1088027954
+magneticvar = 0.276
+beacons =
+	TRU, S8.08722, W79.11220, 0, Trujillo
+
+line1 =
+	S7.29561, W79.61772
+	S7.41895, W79.58887
+	S7.83555, W79.37725
+	S7.92324, W79.31284
+	S8.04717, W79.16440
+	S8.21016, W79.01226
+	S8.40459, W78.92539
+	S8.61699, W78.76226
+	S8.74043, W78.75459
+	S8.97109, W78.66460
+
+[airport1]
+name = Capitan FAP Carlos Martinez De Pinillos International Airport
+code = SPRU
+runways =
+	rwy1, 02, S8.09449, W79.1128, 17.0, 9920, 0, 0, 46

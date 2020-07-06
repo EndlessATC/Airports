@@ -1,0 +1,96 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4517
+center = S25.9384994507, E27.9260997772
+magneticvar = -18.119
+beacons =
+	LIV, S25.94890, E27.91360, 0, Lanseria
+	LA, S26.01030, E27.83950, 0, Lanseria
+	GC, S25.99260, E28.14000, 0, Grand Central
+	HBV, S25.67581, E27.83257, 0, Hartebeespoortdam
+	WK, S25.91950, E28.23210, 0, Waterkloof
+	WL, S25.85220, E28.22600, 0, Waterkloof
+	WKV, S25.83330, E28.22040, 0, Waterkloof
+	JB, S26.04500, E28.26500, 0, Johannesburg
+	JSV, S26.15710, E28.23100, 0, Johannesburg
+	RAV, S26.24540, E28.15450, 0, Rand
+	RDW, S26.26740, E28.16270, 0, Rand
+	WR, S25.65360, E28.24250, 0, Wonderboom
+	RD, S26.31410, E28.08980, 0, Rand
+	WB, S25.65610, E28.29920, 0, Wonderboom
+	MC, S25.63710, E28.36690, 0, Roodeplaat
+	RA, S26.42400, E28.26380, 0, Rand
+	MEV, S25.79090, E28.56130, 0, Bronkhorstspruit
+	GAV, S26.51480, E27.67650, 0, Grasmere
+	NMT, S26.55720, E28.03250, 0, Meyerton
+	VV, S26.57500, E27.95830, 0, Vereeniging
+	RG, S25.65000, E27.28330, 0, Rustenburg
+	HGV, S26.69691, E28.28314, 0, Heidelberg
+	PLB, S25.36780, E27.19740, 0, Pilanesberg
+	PNV, S25.39580, E27.12270, 0, Pilanesberg
+	PLG, S25.39560, E27.12180, 0, Pilanesberg
+	PSV, S26.67330, E27.09330, 0, Potchefstroom
+
+line1 =
+	S26.86658, E28.12369
+	S26.71661, E27.99987
+	S26.69444, E27.90897
+	S26.75005, E27.80965
+	S26.76782, E27.71555
+	S26.74777, E27.62677
+	S26.77175, E27.55680
+	S26.83996, E27.50564
+	S26.87118, E27.43691
+	S26.86539, E27.35051
+	S26.88699, E27.27558
+	S26.93598, E27.21222
+	S26.93660, E27.11848
+	S26.88885, E26.99446
+	S26.89040, E26.94340
+	S26.93277, E26.92144
+
+[airport1]
+name = Lanseria Airport
+code = FALA
+runways =
+	rwy1, 06L, S25.9478, E27.9149, 47.0, 10000, 453, 0, 4517
+	rwy2, 07, S25.9483, E27.9154, 57.0, 9996, 0, 230, 4521
+
+[airport2]
+name = OR Tambo International Airport
+code = JS
+runways =
+	rwy5, 03L, S26.1463, E28.2343, 14.0, 14495, 0, 0, 5558
+	rwy6, 03R, S26.1647, E28.2482, 14.0, 11155, 0, 0, 5510
+inboundbeacon = JSV
+
+[airport3]
+name = OR Tambo International Airport
+code = OR
+inboundbeacon = JSV
+
+[airport4]
+name = O R Tambo International
+code = NB
+inboundbeacon = JSV
+
+[airport5]
+name = Rand Airport
+code = GM
+runways =
+	rwy3, 11R, S26.2427, E28.1405, 89.0, 5617, 0, 455, 5438
+	rwy4, 17R, S26.2354, E28.1477, 158.0, 4898, 577, 378, 5424
+inboundbeacon = RAV
+
+[airport6]
+name = Wonderboom Airport
+code = WB
+runways =
+	rwy7, 06, S25.6623, E28.2156, 44.0, 4200, 0, 0, 4070
+	rwy8, 11, S25.6531, E28.2128, 93.0, 5998, 0, 0, 4038
+inboundbeacon = WR

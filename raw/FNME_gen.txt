@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4469
+center = S14.6576004028, E17.7198009491
+magneticvar = -6.569
+beacons =
+	KK, S14.66670, E17.73330, 0, Menongue
+	ME, S14.63330, E17.68330, 0, Menongue
+
+line1 =
+	S14.69941, E16.56827
+	S14.82065, E16.64615
+	S15.00513, E16.67922
+	S15.16646, E16.75002
+	S15.30475, E16.85854
+	S15.39467, E16.94354
+	S15.43632, E17.00504
+	S15.47415, E17.11971
+	S15.50825, E17.28766
+	S15.55517, E17.37871
+	S15.61486, E17.39308
+
+[airport1]
+name = Menongue Airport
+code = FNME
+runways =
+	rwy1, 13, S14.6501, E17.7055, 120.0, 11483, 0, 0, 4573

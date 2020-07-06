@@ -1,0 +1,95 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 797
+usa = true
+transition = 18001
+center = N39.7173, W86.294403
+magneticvar = -3.177
+beacons =
+	FV, N39.78640, W86.19620, 0, Larez
+	CO, N39.65690, W86.18550, 0, Colfa
+	VHP, N39.81470, W86.36760, 0, Brickyard
+	IN, N39.62900, W86.41830, 0, Pully
+	OQ, N39.61720, W86.40790, 0, Brinn
+	HFY, N39.63270, W86.09070, 0, Greenwood
+	HZP, N39.93980, W86.24960, 0, Zionsville
+	UMP, N39.93770, W86.05020, 0, Metropolitan
+	SHB, N39.63260, W85.82430, 0, Shelbyville
+	TVX, N39.71410, W86.80610, 0, Greencastle
+	BA, N39.32220, W85.81850, 0, Clifs
+	CFJ, N39.98100, W86.91570, 0, Crawfordsville
+	FKR, N40.27050, W86.56270, 0, Frankfort
+	OOM, N39.14380, W86.61300, 0, Hoosier
+	AI, N40.06950, W85.51070, 0, Video
+	BM, N39.05640, W86.59920, 0, Claye
+	UWL, N39.88000, W85.31880, 0, New Castle
+	TTH, N39.48900, W87.24900, 0, Terre Haute
+	OKK, N40.52780, W86.05800, 0, Kokomo
+	OVO, N39.04980, W85.60110, 0, North Vernon
+	MIE, N40.23730, W85.39400, 0, Muncie
+	JN, N40.18090, W85.32070, 0, Balll
+	MZZ, N40.49340, W85.67920, 0, Marion
+	LA, N40.42650, W87.05180, 0, Earle
+
+line1 =
+	N38.72704, W85.24663
+	N38.73720, W85.30675
+	N38.72996, W85.40543
+
+line2 =
+	N39.08268, W84.83743
+	N39.03971, W84.86060
+	N38.99604, W84.83549
+	N38.96057, W84.83660
+	N38.93323, W84.86388
+	N38.91290, W84.85417
+	N38.89954, W84.80745
+	N38.86838, W84.78963
+	N38.81939, W84.80074
+	N38.76957, W84.90125
+
+line3 =
+	N40.56734, W84.79360
+	N40.58817, W84.88642
+	N40.64961, W85.00723
+
+line4 =
+	N40.65995, W86.61758
+	N40.49360, W86.81767
+	N40.41177, W86.95492
+	N40.41451, W87.02923
+	N40.38952, W87.11705
+	N40.33687, W87.21842
+	N40.21413, W87.40378
+	N40.12747, W87.44502
+	N40.01833, W87.43773
+	N39.94077, W87.41872
+	N39.89472, W87.38807
+	N39.80837, W87.37784
+	N39.68161, W87.38802
+	N39.56771, W87.41262
+	N39.46669, W87.45163
+	N39.39209, W87.50711
+	N39.34398, W87.57912
+	N39.29135, W87.61106
+	N39.23414, W87.60292
+	N39.19329, W87.61498
+	N39.16875, W87.64728
+	N39.10671, W87.63170
+	N39.00718, W87.56829
+	N38.90889, W87.53028
+	N38.81182, W87.51768
+	N38.74229, W87.52946
+
+[airport1]
+name = Indianapolis International Airport
+code = KIND
+runways =
+	rwy1, 05L, N39.7064, W86.3208, 44.5, 11200, 0, 0, 738
+	rwy2, 05R, N39.7002, W86.3044, 44.6, 10000, 0, 0, 789
+	rwy3, 14, N39.7342, W86.2888, 134.6, 7605, 0, 0, 788

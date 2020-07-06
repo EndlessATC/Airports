@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3658
+center = S21.4416007996, E47.1116981506
+magneticvar = -18.151
+beacons =
+	VSF, S21.44010, E47.11090, 0, Fianarantsoa
+
+line1 =
+	S21.34902, E48.35078
+	S21.84307, E48.17588
+	S22.39395, E47.93447
+
+line2 =
+	S22.01127, E47.16707
+	S21.97287, E47.16428
+	S21.93866, E47.10098
+	S21.89577, E46.97623
+	S21.85226, E46.90508
+	S21.78580, E46.87862
+	S21.73630, E46.73000
+	S21.65299, E46.67501
+	S21.54266, E46.66504
+	S21.51254, E46.63677
+	S21.47264, E46.59636
+	S21.46417, E46.57357
+	S21.37973, E46.49321
+	S21.30159, E46.34470
+	S21.27529, E46.18574
+	S21.30077, E46.01634
+	S21.34759, E45.89759
+
+[airport1]
+name = Fianarantsoa Airport
+code = FMSF
+runways =
+	rwy1, 08, S21.4442, E47.1064, 62.0, 4101, 0, 0, 0

@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = N26.3635005951, E126.713996887
+magneticvar = -4.260
+beacons =
+	KX, N26.36240, E126.71600, 0, Kumejima
+	KXC, N26.37190, E126.72200, 0, Kumejima
+	AN, N26.59370, E127.23600, 0, Aguni
+	NHC, N26.20850, E127.64300, 0, Naha
+
+line1 =
+	N26.67944, E127.99434
+	N26.69360, E127.90723
+	N26.67495, E127.89482
+	N26.63105, E127.89082
+	N26.59395, E127.94551
+	N26.55571, E127.92598
+	N26.46606, E127.82041
+	N26.44854, E127.79590
+	N26.43394, E127.72891
+	N26.30791, E127.72705
+	N26.19917, E127.65488
+	N26.15449, E127.64971
+	N26.09473, E127.65313
+	N26.09717, E127.72939
+	N26.15254, E127.80361
+	N26.17124, E127.80645
+	N26.20869, E127.78555
+	N26.25508, E127.79014
+	N26.31895, E127.84873
+	N26.32812, E127.90479
+	N26.38057, E127.86924
+	N26.44248, E127.86709
+	N26.45649, E127.95127
+
+[airport1]
+name = Kumejima Airport
+code = ROKJ
+runways =
+	rwy1, 03, N26.3551, E126.71, 21.2, 6562, 0, 0, 22

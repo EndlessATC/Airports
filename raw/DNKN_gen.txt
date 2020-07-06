@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1562
+center = N12.0476, E8.52462
+magneticvar = -1.162
+beacons =
+	KO, N12.03350, E8.51649, 0, Kano
+	AO, N12.05870, E8.54174, 0, Kano
+	KAN, N12.03580, E8.49606, 0, Kano
+
+[airport1]
+name = Mallam Aminu International Airport
+code = DNKN
+runways =
+	rwy1, 05, N12.0389, E8.52187, 44.0, 8040, 492, 0, 1533
+	rwy2, 06, N12.0416, E8.50665, 61.0, 10831, 0, 0, 1561

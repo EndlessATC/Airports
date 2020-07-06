@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 89
+center = N1.48469996452, E110.347000122
+magneticvar = 0.458
+beacons =
+	VKG, N1.47333, E110.30600, 0, Kuching
+	AN, N1.71831, E110.30900, 0, Kuching
+	NF, N1.09216, E109.69300, 0, Singkawang
+
+line1 =
+	N2.42407, E111.45078
+	N2.38154, E111.44385
+	N2.36787, E111.40615
+	N2.36445, E111.35137
+	N2.39878, E111.29590
+	N2.43574, E111.24219
+	N2.37964, E111.20859
+	N2.29717, E111.19551
+	N2.19766, E111.20889
+	N2.13975, E111.26816
+	N2.06387, E111.25088
+	N1.98511, E111.19805
+	N1.90229, E111.17002
+	N1.73877, E111.15420
+	N1.68408, E111.11016
+	N1.63364, E111.04658
+	N1.55781, E111.02871
+	N1.48667, E111.05801
+	N1.44902, E111.12344
+	N1.39585, E111.22324
+	N1.38696, E111.14521
+	N1.40088, E111.09844
+	N1.51733, E110.93994
+	N1.53247, E110.89492
+	N1.52085, E110.78203
+	N1.54805, E110.67520
+	N1.69985, E110.39951
+	N1.71973, E110.34922
+	N1.70117, E110.29834
+	N1.69473, E110.24590
+	N1.69858, E110.11406
+	N1.71763, E109.98457
+	N1.76445, E109.86484
+	N1.85781, E109.71963
+	N1.88877, E109.69434
+	N2.02754, E109.62891
+	N1.92271, E109.37852
+	N1.82109, E109.31816
+	N1.70547, E109.27314
+
+line2 =
+	N2.43760, E111.31152
+	N2.40220, E111.35869
+	N2.41533, E111.38926
+	N2.45894, E111.38047
+
+[airport1]
+name = Kuching International Airport
+code = WBGG
+runways =
+	rwy1, 07, N1.48063, E110.337, 68.0, 8051, 0, 320, 88

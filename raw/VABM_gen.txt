@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2487
+center = N15.8592996597, E74.6183013916
+magneticvar = -1.271
+beacons =
+	BBM, N15.85620, E74.61690, 0, Belgaum
+	HB, N15.35840, E75.08350, 0, Hubli
+	GO, N15.39200, E73.89040, 0, Goa
+	KP, N16.66470, E74.28240, 0, Kolhapur
+	GGO, N15.37980, E73.81260, 0, Goa
+
+line1 =
+	N16.15210, E73.45371
+	N16.05425, E73.47607
+	N15.87109, E73.60771
+	N15.70889, E73.67988
+	N15.65693, E73.73281
+	N15.65937, E73.83281
+	N15.57305, E73.77178
+	N15.53857, E73.81387
+	N15.48247, E73.85195
+	N15.39697, E73.93193
+	N15.39697, E73.80078
+	N15.30645, E73.88428
+	N15.07476, E73.94922
+	N14.94937, E74.04063
+	N14.90220, E74.08877
+
+line2 =
+	N16.85773, E74.53667
+	N16.80823, E74.58731
+	N16.76559, E74.65883
+	N16.73314, E74.67227
+	N16.71097, E74.62752
+	N16.66717, E74.62344
+	N16.60178, E74.65992
+	N16.59565, E74.75428
+	N16.64878, E74.90652
+	N16.63423, E75.01333
+	N16.55196, E75.07483
+	N16.54008, E75.12599
+	N16.59847, E75.16702
+	N16.62116, E75.23068
+	N16.60808, E75.31698
+	N16.57982, E75.38313
+	N16.53630, E75.42892
+	N16.49222, E75.44881
+	N16.44755, E75.44271
+	N16.43047, E75.48995
+	N16.44096, E75.59051
+	N16.42194, E75.67696
+	N16.37337, E75.74931
+
+[airport1]
+name = Belgaum Airport
+code = VABM
+runways =
+	rwy1, 08, N15.858, E74.6103, 79.3, 4786, 0, 0, 2478

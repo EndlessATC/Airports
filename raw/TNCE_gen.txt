@@ -1,0 +1,109 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 129
+center = N17.4965000153, W62.9794006348
+magneticvar = -14.139
+beacons =
+	PJE, N17.48710, W62.99170, 0, St.eEstatius
+	SKB, N17.29590, W62.74340, 0, Bradshaw
+	PJM, N18.03810, W63.11830, 0, St.mMarten
+	PJD, N18.03850, W63.11720, 0, St.mMarten
+	ANG, N18.20520, W63.09260, 0, Wallblake
+	MON, N16.79280, W62.19310, 0, Geralds
+
+line1 =
+	N18.09072, W63.11499
+	N18.06431, W63.12471
+	N18.04141, W63.09043
+	N18.01919, W63.02305
+	N18.04541, W63.01230
+	N18.10430, W63.00942
+	N18.11309, W63.02480
+	N18.11533, W63.06309
+	N18.09072, W63.11499
+
+line2 =
+	N17.12959, W62.62490
+	N17.10059, W62.58242
+	N17.12188, W62.53223
+	N17.17012, W62.53418
+	N17.20103, W62.57471
+	N17.19912, W62.61528
+	N17.12959, W62.62490
+
+line3 =
+	N17.35327, W62.71372
+	N17.40259, W62.79463
+	N17.38643, W62.82705
+	N17.36533, W62.83940
+	N17.34707, W62.84048
+	N17.33926, W62.83892
+	N17.30283, W62.77554
+	N17.28604, W62.70200
+	N17.22441, W62.65649
+	N17.23999, W62.63066
+	N17.26230, W62.64053
+	N17.29092, W62.67578
+	N17.35327, W62.71372
+
+line4 =
+	N16.80957, W62.17578
+	N16.80439, W62.19136
+	N16.75156, W62.22305
+	N16.69951, W62.22163
+	N16.68120, W62.15425
+	N16.74033, W62.14844
+	N16.80957, W62.17578
+
+line5 =
+	N18.17139, W63.16001
+	N18.22178, W63.00122
+	N18.26479, W62.97959
+	N18.26973, W63.02603
+	N18.20029, W63.15332
+	N18.17139, W63.16001
+
+line6 =
+	N17.69048, W61.77676
+	N17.69687, W61.81992
+	N17.71406, W61.85244
+	N17.70430, W61.86616
+	N17.68545, W61.86875
+	N17.59614, W61.84380
+	N17.54868, W61.76201
+
+line7 =
+	N17.16895, W61.81729
+	N17.09814, W61.88711
+	N17.06313, W61.88203
+	N17.01333, W61.85967
+
+[airport1]
+name = F. D. Roosevelt Airport
+code = TNCE
+runways =
+	rwy1, 06, N17.4927, W62.9842, 50.2, 4265, 0, 0, 129
+
+[airport2]
+name = Robert L. Bradshaw International Airport
+code = PK
+runways =
+	rwy2, 07, N17.3055, W62.7278, 57.1, 7602, 200, 0, 168
+inboundbeacon = SKB
+
+[airport3]
+name = Gustaf III Airport
+code = FJ
+inboundbeacon = PJD
+
+[airport4]
+name = Vance W. Amory International Airport
+code = PN
+runways =
+	rwy3, 10, N17.2056, W62.5956, 89.4, 3996, 575, 0, 14
+inboundbeacon = SKB

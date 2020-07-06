@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 742
+usa = true
+transition = 18001
+center = N42.195400238, W89.0971984863
+magneticvar = -2.590
+beacons =
+	RF, N42.11450, W89.09860, 0, Gilmy
+	RFD, N42.22560, W89.19930, 0, Rockford
+	JVL, N42.55800, W89.10530, 0, Janesville
+	DKB, N41.93400, W88.70730, 0, De Kalb
+	PLL, N41.96560, W89.52420, 0, Polo
+	LVV, N42.69880, W88.59320, 0, Lake Lawn
+	DPA, N41.89040, W88.35020, 0, Du Page
+	BOZ, N41.71110, W89.78560, 0, Whiteside
+	BUU, N42.68930, W88.30180, 0, Burbun
+	OR, N42.05590, W88.00780, 0, Chstr
+	ME, N41.96780, W88.02670, 0, Deana
+	OH, N42.06920, W87.99090, 0, Leama
+	JOT, N41.54640, W88.31840, 0, Joliet
+	GM, N42.90900, W88.04100, 0, Teels
+
+line1 =
+	N41.76597, W87.55659
+	N41.85913, W87.60205
+	N42.00024, W87.65112
+	N42.08437, W87.69463
+	N42.11152, W87.73252
+	N42.15391, W87.76680
+	N42.21143, W87.79746
+	N42.34106, W87.81250
+	N42.54297, W87.81196
+	N42.68037, W87.80166
+	N42.75342, W87.78140
+	N42.80918, W87.78706
+	N42.84771, W87.81870
+	N42.89565, W87.83818
+	N42.95308, W87.84556
+	N42.99199, W87.86206
+	N43.01245, W87.88774
+	N43.04111, W87.89341
+	N43.07783, W87.87900
+	N43.10312, W87.87886
+	N43.11689, W87.89277
+	N43.13740, W87.89609
+	N43.16455, W87.88882
+
+line2 =
+	N41.49473, W90.58674
+	N41.56036, W90.43667
+	N41.63203, W90.34753
+	N41.70965, W90.31924
+	N41.77001, W90.27601
+	N41.81311, W90.21777
+	N41.88365, W90.17661
+	N41.98152, W90.15245
+	N42.05371, W90.14943
+	N42.10030, W90.16751
+	N42.15402, W90.23322
+	N42.21484, W90.34657
+	N42.27207, W90.41050
+	N42.32566, W90.42504
+	N42.38325, W90.48473
+	N42.44480, W90.58963
+	N42.52051, W90.65733
+
+[airport1]
+name = Chicago Rockford International Airport
+code = KRFD
+runways =
+	rwy1, 01, N42.1835, W89.0914, 5.0, 8199, 0, 0, 708
+	rwy2, 07, N42.1902, W89.1199, 65.0, 10004, 0, 0, 742

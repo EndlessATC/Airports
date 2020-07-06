@@ -1,0 +1,89 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 748
+usa = true
+transition = 18001
+center = N35.2140007019, W80.9430999756
+magneticvar = -7.510
+beacons =
+	CLT, N35.19030, W80.95170, 0, Charlotte
+	CL, N35.15780, W81.02030, 0, Tryon
+	GHJ, N35.19120, W81.15720, 0, Stonia
+	FML, N34.98910, W80.95480, 0, Fort Mill
+	TWL, N34.95290, W80.70520, 0, Wesley
+	UZ, N34.89000, W81.08080, 0, Rally
+	IZN, N35.53760, W81.08650, 0, Lincolnton
+	DCM, N34.78680, W81.20110, 0, Chester
+	LKR, N34.72380, W80.85810, 0, Lancaster
+	SLP, N35.25270, W81.59880, 0, First River
+	VW, N35.77460, W81.06500, 0, Temky
+	RU, N35.73310, W80.48960, 0, Rovdy
+	HK, N35.78660, W81.30560, 0, Tawba
+	PYG, N34.74500, W80.33810, 0, Pageland
+	BZM, N35.86890, W81.24050, 0, Barretts Mt
+	AFP, N35.02400, W80.08300, 0, Anson Co
+	VU, N35.48850, W80.08030, 0, Aller
+	FIQ, N35.71020, W81.67130, 0, Fiddlers
+	UOT, N34.68400, W81.64230, 0, Union County
+	CTF, N34.65050, W80.27490, 0, Chesterfield
+	DVZ, N35.91350, W80.45620, 0, Davie
+	SPA, N35.03370, W81.92710, 0, Spartanburg
+	RFE, N35.34900, W81.95290, 0, Rutherford
+	HVS, N34.40710, W80.11530, 0, Hartsville
+	LUX, N34.50820, W81.94980, 0, Laurens
+	GSO, N36.04570, W79.97640, 0, Greensboro
+
+line1 =
+	N36.20601, W80.45588
+	N36.09304, W80.48100
+	N36.01072, W80.45852
+	N35.94313, W80.39204
+	N35.89300, W80.36535
+	N35.86029, W80.37842
+	N35.84283, W80.40563
+	N35.84055, W80.44692
+	N35.81740, W80.46516
+	N35.77337, W80.46035
+	N35.74216, W80.42317
+	N35.72371, W80.35362
+	N35.65240, W80.26975
+	N35.46605, W80.12247
+	N35.40125, W80.07105
+	N35.31170, W80.05539
+	N35.17573, W80.05834
+	N35.10943, W80.02744
+	N35.11274, W79.96263
+	N35.09615, W79.91468
+	N35.05975, W79.88357
+	N34.97637, W79.88352
+	N34.84599, W79.91452
+	N34.73783, W79.89065
+	N34.65189, W79.81179
+	N34.58022, W79.78146
+	N34.52285, W79.79957
+	N34.50479, W79.79055
+	N34.50311, W79.75381
+	N34.46495, W79.72154
+	N34.35940, W79.67575
+	N34.30049, W79.63392
+	N34.28819, W79.59604
+
+line2 =
+	N36.07366, W81.57636
+	N36.04705, W81.52238
+	N36.05511, W81.46549
+	N36.10586, W81.34890
+
+[airport1]
+name = Charlotte Douglas International Airport
+code = KCLT
+runways =
+	rwy1, 05, N35.2091, W80.9497, 48.5, 7502, 0, 0, 706
+	rwy2, 18C, N35.2271, W80.9531, 176.0, 10000, 0, 0, 742
+	rwy3, 18L, N35.2244, W80.9361, 176.0, 8676, 0, 0, 746
+	rwy4, 18R, N35.225, W80.9674, 176.0, 10000, 0, 0, 742

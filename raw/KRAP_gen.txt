@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3204
+usa = true
+transition = 18001
+center = N44.04529953, W103.056999207
+magneticvar = 9.266
+beacons =
+	RAP, N43.97600, W103.01200, 0, Rapid City
+	RA, N43.96480, W102.99900, 0, Ranch
+	RCA, N44.13900, W103.10200, 0, Ellsworth
+	SPF, N44.48440, W103.78400, 0, Black Hills
+	EFC, N44.73660, W103.85900, 0, Belle Fourche
+
+[airport1]
+name = Rapid City Regional Airport
+code = KRAP
+runways =
+	rwy1, 05, N44.0479, W103.064, 61.9, 3601, 0, 0, 3173
+	rwy2, 14, N44.0538, W103.065, 151.8, 8701, 0, 0, 3191

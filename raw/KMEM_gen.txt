@@ -1,0 +1,84 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 341
+usa = true
+transition = 18001
+center = N35.0424003601, W89.9766998291
+magneticvar = 0.144
+beacons =
+	MEM, N35.01510, W89.98320, 0, Memphis
+	ME, N35.06150, W90.07160, 0, Elvis
+	OLV, N34.97980, W89.78870, 0, Olive Branch
+	SPQ, N35.20150, W90.05150, 0, Spain
+	AWM, N35.13940, W90.23260, 0, West Memphis
+	LHC, N35.28470, W89.67140, 0, Loosahatchie
+	HLI, N34.77030, W89.49650, 0, Holly Springs
+	FYE, N35.20580, W89.39240, 0, Somerville
+	GQE, N35.34700, W90.47820, 0, Gilmore
+	COO, N35.58970, W89.58730, 0, Covington
+	BPW, N35.69270, W90.01290, 0, Osceola
+	FCY, N34.94100, W90.77360, 0, Forrest City
+	UV, N34.38510, W89.62600, 0, Tunng
+	UJM, N34.57500, W90.67440, 0, Marvell
+	HEE, N34.57120, W90.67590, 0, Thompson Robbins
+	BAV, N35.21430, W89.04210, 0, Hardeman
+	MMS, N34.23300, W90.28980, 0, Marks
+	CKM, N34.29300, W90.51570, 0, Clarksdale
+	JBR, N35.87490, W90.58850, 0, Jonesboro
+
+line1 =
+	N34.04862, W90.91473
+	N34.07156, W90.90879
+	N34.12856, W90.94026
+	N34.18877, W90.90972
+	N34.25222, W90.81722
+	N34.30811, W90.76812
+	N34.35643, W90.76234
+	N34.39170, W90.71810
+	N34.41387, W90.63542
+	N34.50371, W90.58400
+	N34.66117, W90.56385
+	N34.72816, W90.53925
+	N34.73809, W90.49721
+	N34.76005, W90.47476
+	N34.80527, W90.46757
+	N34.85162, W90.41595
+	N34.89916, W90.31993
+	N34.94531, W90.28211
+	N34.97006, W90.29342
+	N35.00448, W90.29376
+	N35.04639, W90.25596
+	N35.11429, W90.14227
+	N35.20359, W90.09292
+	N35.31420, W90.10788
+	N35.41412, W90.06602
+	N35.50331, W89.96735
+	N35.59165, W89.92652
+	N35.67914, W89.94350
+	N35.75051, W89.89456
+	N35.80575, W89.77966
+	N35.82805, W89.76359
+	N35.84525, W89.76811
+	N35.86430, W89.76994
+	N35.87210, W89.76893
+	N35.88877, W89.76359
+	N35.89874, W89.73821
+	N35.90690, W89.70377
+	N35.92096, W89.68891
+	N35.94359, W89.68917
+	N35.98305, W89.70932
+	N36.03031, W89.69770
+
+[airport1]
+name = Memphis International Airport
+code = KMEM
+runways =
+	rwy1, 09, N35.0586, W89.9857, 92.0, 8946, 0, 0, 253
+	rwy2, 18C, N35.0546, W89.9762, 179.0, 11120, 0, 0, 271
+	rwy3, 18L, N35.0488, W89.973, 179.0, 9000, 0, 0, 278
+	rwy4, 18R, N35.0495, W89.9874, 179.0, 9320, 0, 0, 288

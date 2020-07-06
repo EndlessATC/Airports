@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 497
+center = N20.6026992798, W97.4608001709
+magneticvar = 4.594
+beacons =
+	PAZ, N20.60060, W97.45510, 0, Poza Rica
+	NAU, N20.20750, W96.76530, 0, Nautla
+	NAU, N20.19170, W96.74550, 0, Nautla
+
+line1 =
+	N19.86978, W96.45605
+	N20.18828, W96.70869
+	N20.61499, W97.12144
+	N20.71704, W97.18633
+	N20.80010, W97.19497
+	N21.10400, W97.35713
+	N21.39805, W97.50059
+	N21.43203, W97.50107
+	N21.47798, W97.51455
+	N21.50771, W97.56655
+	N21.53589, W97.59761
+
+line2 =
+	N21.56670, W97.38345
+	N21.52383, W97.38481
+	N21.46533, W97.42441
+	N21.35649, W97.43413
+	N21.27256, W97.40918
+	N21.37393, W97.38755
+	N21.43789, W97.33687
+	N21.56421, W97.31450
+
+[airport1]
+name = El Tajín National Airport
+code = MMPA
+runways =
+	rwy1, 08, N20.6025, W97.4695, 89.1, 5906, 0, 0, 497

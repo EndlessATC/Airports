@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = N3.68320989609, E125.527999878
+magneticvar = 0.477
+beacons =
+	TA, N3.68417, E125.52600, 0, Tahuna
+
+line1 =
+	N4.04194, E126.63750
+	N3.92842, E126.66123
+
+line2 =
+	N4.00142, E126.68555
+	N4.04194, E126.63750
+
+line3 =
+	N3.57109, E125.58564
+	N3.67041, E125.54346
+	N3.73325, E125.46885
+	N3.68418, E125.45527
+	N3.63911, E125.46855
+	N3.59321, E125.50117
+	N3.54961, E125.51758
+	N3.46113, E125.51152
+	N3.40542, E125.63320
+	N3.43604, E125.65811
+	N3.47651, E125.64355
+	N3.57109, E125.58564
+
+line4 =
+	N2.80537, E125.39082
+	N2.74683, E125.36006
+
+line5 =
+	N2.70703, E125.40391
+	N2.76299, E125.44648
+	N2.78389, E125.43525
+	N2.80537, E125.39082
+
+[airport1]
+name = Naha Airport
+code = WAMH
+runways =
+	rwy1, 15, N3.68754, E125.526, 150.4, 3597, 0, 0, 0

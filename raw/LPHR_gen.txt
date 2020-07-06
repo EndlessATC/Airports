@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 118
+center = N38.5199012756, W28.7159004211
+magneticvar = -11.108
+beacons =
+	FIL, N38.52250, W28.68590, 0, Horta
+	HT, N38.51990, W28.62950, 0, Horta
+	VFL, N38.51940, W28.62360, 0, Horta
+	PI, N38.55820, W28.40320, 0, Pico
+	GC, N39.09380, W28.03080, 0, Graciosa
+
+line1 =
+	N38.80269, W27.25967
+	N38.78896, W27.35103
+	N38.76582, W27.38594
+	N38.69785, W27.36191
+	N38.66104, W27.30283
+
+line2 =
+	N38.74390, W28.31064
+	N38.65537, W28.18726
+	N38.62056, W28.09233
+	N38.54355, W27.82588
+	N38.55562, W27.77847
+	N38.63633, W27.96265
+	N38.74390, W28.31064
+
+line3 =
+	N38.63848, W28.69775
+	N38.59844, W28.84204
+	N38.52236, W28.74385
+	N38.52500, W28.64131
+	N38.55073, W28.60581
+	N38.58633, W28.62422
+	N38.61406, W28.65542
+	N38.63848, W28.69775
+
+line4 =
+	N38.55337, W28.40215
+	N38.55303, W28.51025
+	N38.51855, W28.54883
+	N38.46255, W28.53115
+	N38.40864, W28.45449
+	N38.41289, W28.33242
+	N38.38467, W28.23115
+	N38.40415, W28.18975
+	N38.41274, W28.06479
+	N38.45269, W28.14727
+	N38.55337, W28.40215
+
+[airport1]
+name = Horta Airport
+code = LPHR
+runways =
+	rwy1, 10, N38.5199, W28.7245, 90.0, 5233, 0, 0, 81
+
+[airport2]
+name = Pico Airport
+code = PI
+runways =
+	rwy2, 09, N38.5518, W28.4527, 83.0, 5725, 246, 197, 110
+inboundbeacon = PI

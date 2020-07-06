@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 663
+center = N53.214199, E34.176399
+magneticvar = 7.546
+beacons =
+	NU, N53.17000, E34.18830, 0, Bryansk
+	OD, N53.26000, E34.16670, 0, Bryansk
+
+[airport1]
+name = Bryansk Airport
+code = UUBP
+runways =
+	rwy1, 17, N53.2248, E34.1738, 172.4, 7874, 0, 0, 663

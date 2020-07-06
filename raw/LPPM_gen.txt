@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5
+center = N37.1493, W8.58396
+magneticvar = -3.283
+beacons =
+	SGR, N37.08390, W8.94639, 0, Sagres
+	VFA, N37.01350, W7.97501, 0, Faro
+	FAR, N37.00870, W7.92593, 0, Faro
+
+line1 =
+	N37.95869, W8.87896
+	N37.87187, W8.82266
+	N37.73281, W8.79185
+	N37.59243, W8.81855
+	N37.43081, W8.81416
+	N37.16606, W8.92627
+	N37.03228, W8.99780
+	N37.01602, W8.93535
+	N37.07568, W8.84844
+	N37.07461, W8.73911
+	N37.12134, W8.59766
+	N37.10005, W8.48433
+	N37.07705, W8.13677
+	N37.00542, W7.93970
+	N37.00571, W7.83413
+	N37.16831, W7.49360
+	N37.17944, W7.40615
+	N37.20879, W7.17495
+
+[airport1]
+name = Portimão Airport
+code = LPPM
+runways =
+	rwy1, 11, N37.1505, W8.58856, 107.0, 2819, 0, 311, 5

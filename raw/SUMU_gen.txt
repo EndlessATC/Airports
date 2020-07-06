@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 105
+center = S34.838402, W56.0308
+magneticvar = -9.458
+beacons =
+	CRR, S34.83270, W56.02510, 0, Carrasco
+	AR, S34.82340, W56.00630, 0, Carrasco
+	CAR, S34.76840, W56.02610, 0, Carrasco
+	CA, S34.78470, W55.94340, 0, Carrasco
+	ASI, S34.78950, W56.26300, 0, Adami
+	LS, S34.86220, W55.10030, 0, Curbelo
+	LDS, S34.85830, W55.09170, 0, Curbelo
+
+line1 =
+	S35.72031, W57.35391
+	S35.50596, W57.15889
+	S35.36250, W57.17065
+	S35.18848, W57.30366
+
+line2 =
+	S34.45234, W57.17070
+	S34.67666, W56.85518
+	S34.77539, W56.46309
+	S34.86104, W56.38784
+	S34.90127, W56.24995
+	S34.90645, W56.19463
+	S34.90791, W56.11792
+	S34.81094, W55.86294
+	S34.77568, W55.67314
+	S34.80762, W55.37061
+	S34.89580, W55.23789
+	S34.89512, W55.09512
+	S34.93281, W54.90229
+
+[airport1]
+name = Carrasco International /General C L Berisso Airport
+code = SUMU
+runways =
+	rwy1, 01, S34.8419, W56.0306, 359.0, 7382, 0, 0, 62
+	rwy2, 06, S34.844, W56.04, 53.0, 10499, 1150, 490, 49
+	rwy3, 10, S34.8374, W56.0357, 90.8, 5577, 0, 0, 59

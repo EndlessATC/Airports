@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2450
+center = S16.6319999695, W49.2206993103
+magneticvar = -19.473
+beacons =
+	GOI, S16.63240, W49.21540, 0, Goiania
+	GOI, S16.63720, W49.22440, 0, Goiania
+	ANP, S16.31740, W49.04030, 0, Anapolis
+	ANP, S16.26070, W48.99200, 0, Anapolis
+	SBG, S16.58050, W49.69820, 0, Santa Barbara
+	PP, S16.14380, W48.89380, 0, Pororoca
+
+line1 =
+	S15.92600, W49.17872
+	S15.76803, W49.25756
+	S15.72509, W49.34964
+	S15.63352, W49.43685
+
+[airport1]
+name = Santa Genoveva Airport
+code = SBGO
+runways =
+	rwy1, 14, S16.6263, W49.2312, 120.0, 8202, 0, 0, 2440

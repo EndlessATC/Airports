@@ -1,0 +1,86 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2591
+metric = true
+center = N40.944401, E72.977798
+magneticvar = 4.121
+beacons =
+	DA, N40.94330, E72.98170, 0, Zhalal Abad
+	IR, N40.96670, E73.36670, 0, Irisu
+	OU, N40.63670, E72.74330, 0, Osh
+	DZ, N40.58030, E72.84470, 0, Osh
+	AD, N40.73330, E72.30000, 0, Andizhan
+	AN, N40.69830, E72.25000, 0, Andizhan
+	NS, N41.16670, E72.16670, 0, Naryn-Ges
+	KZ, N40.25000, E72.10000, 0, Kyzyl Kiya
+
+line1 =
+	N41.75913, E73.29102
+	N41.75469, E73.26641
+	N41.74541, E73.20225
+	N41.75713, E73.10703
+	N41.75518, E72.97246
+	N41.73984, E72.83945
+	N41.66309, E72.67910
+	N41.66743, E72.65371
+	N41.68730, E72.63535
+	N41.70132, E72.65771
+	N41.72817, E72.68926
+	N41.76743, E72.70859
+	N41.82236, E72.68789
+	N41.87422, E72.65840
+	N41.89956, E72.68545
+	N41.89780, E72.81719
+	N41.87832, E72.94004
+	N41.85547, E73.01113
+	N41.82817, E73.08555
+	N41.80112, E73.23975
+	N41.77622, E73.30029
+	N41.75913, E73.29102
+	N41.75913, E73.29102
+	N41.75913, E73.29102
+
+line2 =
+	N41.77621, E73.30026
+	N41.78954, E72.93243
+	N41.76236, E72.77078
+	N41.66743, E72.65368
+
+line3 =
+	N41.66743, E72.65368
+	N41.49747, E72.34931
+	N41.37603, E72.22208
+	N41.24637, E72.17051
+	N41.11713, E72.05320
+	N40.98825, E71.87017
+	N40.90660, E71.59700
+
+line4 =
+	N41.42385, E74.43580
+	N41.38990, E74.31684
+	N41.40050, E74.17990
+	N41.45561, E74.02497
+	N41.51896, E73.94580
+	N41.59059, E73.94218
+	N41.64947, E73.92239
+	N41.69562, E73.88632
+	N41.74014, E73.79728
+	N41.78308, E73.65517
+	N41.79740, E73.51260
+	N41.77600, E73.29788
+
+[airport1]
+name = Jalal-Abad Airport
+code = KG-0001
+
+[airport2]
+name = Osh Airport
+code = FO
+runways =
+	rwy1, 12, N40.6169, E72.7787, 125.0, 8576, 660, 0, 2851
+inboundbeacon = OU

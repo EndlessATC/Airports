@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1831
+center = N30.189699, E78.180298
+magneticvar = 0.562
+beacons =
+	JG, N30.18990, E78.17440, 0, Dehradun
+	SP, N29.99990, E77.43200, 0, Sarsawa
+
+line1 =
+	N30.51599, E79.47022
+	N30.37207, E79.31312
+	N30.30089, E79.23209
+	N30.28477, E79.15892
+	N30.30006, E79.06652
+	N30.29185, E78.93930
+	N30.26007, E78.77724
+	N30.20136, E78.66872
+	N30.11573, E78.61384
+	N30.08982, E78.51979
+	N30.12364, E78.38656
+	N30.09289, E78.28104
+	N29.99760, E78.20311
+	N29.88913, E78.17035
+	N29.76754, E78.18286
+	N29.67307, E78.13945
+	N29.60569, E78.04013
+	N29.49184, E78.02219
+	N29.33154, E78.08555
+
+line2 =
+	N30.91517, E78.33995
+	N30.73766, E78.07237
+	N30.56770, E77.98669
+	N30.51790, E77.94220
+	N30.53157, E77.91026
+	N30.51101, E77.81471
+	N30.45620, E77.65545
+	N30.39117, E77.57442
+	N30.27828, E77.57008
+	N30.20265, E77.52775
+	N30.12726, E77.44275
+	N30.02690, E77.30084
+	N29.87141, E77.18700
+	N29.66085, E77.10111
+	N29.53763, E77.07367
+	N29.50177, E77.10478
+	N29.46911, E77.10664
+	N29.45040, E77.09434
+	N29.42748, E77.09274
+	N29.40128, E77.12054
+	N29.34033, E77.14462
+	N29.19106, E77.13749
+
+[airport1]
+name = Dehradun Airport
+code = VIDN
+runways =
+	rwy1, 08, N30.1888, E78.1745, 79.7, 7000, 0, 0, 1772

@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8917
+center = S13.154800415, W74.2043991089
+magneticvar = -2.160
+beacons =
+	AYA, S13.15190, W74.20530, 0, Ayacucho
+	TOC, S13.35620, W74.19130, 0, Tocto
+	AND, S13.71420, W73.37780, 0, Andahuaylas
+	AND, S13.70970, W73.35000, 0, Andahuaylas
+
+line1 =
+	S13.44238, W73.04861
+	S13.44915, W73.12780
+	S13.42187, W73.22111
+	S13.17465, W73.47807
+	S13.06065, W73.56168
+	S12.99729, W73.55760
+	S12.89715, W73.58380
+	S12.76010, W73.64033
+	S12.64486, W73.71609
+	S12.55138, W73.81107
+	S12.39247, W73.91610
+	S12.16830, W74.03113
+
+[airport1]
+name = Coronel FAP Alfredo Mendivil Duarte Airport
+code = SPHO
+runways =
+	rwy1, 02, S13.1665, W74.2094, 22.6, 9186, 0, 0, 8917

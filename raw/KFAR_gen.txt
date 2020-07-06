@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 902
+usa = true
+transition = 18001
+center = N46.9207000732, W96.8158035278
+magneticvar = 3.098
+beacons =
+	AA, N47.00930, W96.81520, 0, Kenie
+	FAR, N46.75340, W96.85130, 0, Fargo
+	DTL, N46.82550, W95.88740, 0, Detroit Lakes
+	BWP, N46.24490, W96.60360, 0, Breckenridge-Wahpeton
+	VCY, N46.87750, W97.91400, 0, Valley City
+	FFM, N46.28930, W96.15670, 0, Fergus Falls
+	GWR, N46.22330, W97.64340, 0, Gwinner
+	FSE, N47.58970, W95.76980, 0, Fosston
+
+line1 =
+	N47.88926, W95.11084
+	N47.90732, W95.24819
+
+[airport1]
+name = Hector International Airport
+code = KFAR
+runways =
+	rwy1, 09, N46.9271, W96.8273, 90.0, 6300, 0, 0, 896
+	rwy2, 13, N46.9141, W96.8215, 137.0, 3800, 0, 0, 901
+	rwy3, 18, N46.9329, W96.8161, 180.0, 9000, 0, 0, 900

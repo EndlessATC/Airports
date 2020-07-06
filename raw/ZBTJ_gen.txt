@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+metric = true
+center = N39.1244010925, E117.346000671
+magneticvar = -6.269
+beacons =
+	TAJ, N39.10670, E117.35800, 0, Tianjin
+	J, N39.14620, E117.33300, 0, Tianjin
+	JS, N39.17040, E117.31700, 0, Tianjin
+	CG, N39.07330, E117.37800, 0, Tianjin
+	VM, N39.30000, E116.90000, 0, Shigezhuang
+	VYK, N39.19170, E116.57200, 0, Dawangzhuang
+	YK, N39.19170, E116.57200, 0, Dawangzhuang
+	WF, N39.95000, E116.86700, 0, Xiliuhetun
+
+line1 =
+	N38.12666, E118.80000
+	N38.12637, E118.66709
+
+line2 =
+	N38.18340, E118.01494
+	N38.31167, E117.76670
+	N38.42422, E117.65605
+	N38.62515, E117.55781
+	N38.69146, E117.55381
+	N38.85288, E117.61670
+	N39.13447, E117.78467
+	N39.19126, E117.86572
+	N39.22676, E118.04092
+	N39.19507, E118.14785
+	N39.06709, E118.29785
+	N39.11802, E118.47197
+	N39.17686, E118.62637
+	N39.16050, E118.75244
+	N39.17212, E118.82646
+
+[airport1]
+name = Tianjin Binhai International Airport
+code = ZBTJ
+runways =
+	rwy1, 16R, N39.1374, E117.338, 154.5, 10811, 0, 0, 8

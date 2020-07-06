@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = N13.9125995636, E100.607002258
+magneticvar = -0.335
+beacons =
+	BKK, N13.89360, E100.59600, 0, Bangkok
+	BK, N13.99460, E100.65100, 0, Bangkok
+	SVB, N13.66070, E100.72800, 0, Suvarnabhumi Intl
+	KPS, N14.17050, E99.95650, 0, Kamphaeng Saen
+	KPS, N14.16720, E99.95100, 0, Kamphaeng Saen
+	KPS, N14.09110, E99.91230, 0, Kamphaeng Saen
+	PB, N14.12000, E101.36800, 0, Prachin Buri
+
+line1 =
+	N13.04565, E100.08994
+	N13.17124, E100.05107
+	N13.24346, E99.99053
+	N13.35317, E100.01748
+	N13.43955, E100.12236
+	N13.48447, E100.23564
+	N13.51445, E100.53643
+	N13.56816, E100.60293
+	N13.52129, E100.65605
+	N13.46240, E100.90654
+	N13.43198, E100.96270
+	N13.35757, E100.94697
+	N13.30303, E100.92627
+	N13.18726, E100.94609
+	N13.03491, E100.90391
+
+[airport1]
+name = Don Mueang International Airport
+code = VTBD
+runways =
+	rwy1, 03L, N13.8971, E100.596, 29.0, 12139, 0, 0, 7
+	rwy2, 03R, N13.8995, E100.602, 29.0, 11483, 0, 1148, 7
+
+[airport2]
+name = Suvarnabhumi Airport
+code = BS
+runways =
+	rwy3, 01L, N13.6713, E100.735, 14.0, 12139, 0, 0, 0
+	rwy4, 01R, N13.6567, E100.752, 14.0, 13123, 0, 0, 0
+inboundbeacon = SVB

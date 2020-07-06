@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5355
+usa = true
+transition = 18001
+center = N35.040199, W106.609001
+magneticvar = 9.214
+beacons =
+	ILT, N34.98700, W106.62000, 0, Isleta
+	ABQ, N35.04380, W106.81600, 0, Albuquerque
+	AE, N35.21730, W106.71300, 0, Dudle
+	OTO, N35.07220, W105.93600, 0, Otto
+	SG, N35.55520, W106.14000, 0, Doman
+	SAF, N35.54050, W106.06500, 0, Santa Fe
+	ONM, N34.33890, W106.82000, 0, Socorro
+	CNX, N34.36700, W105.67800, 0, Corona
+
+line1 =
+	N35.95109, W106.10104
+	N35.85523, W106.16610
+	N35.76038, W106.26769
+	N35.64832, W106.34319
+	N35.51907, W106.39249
+	N35.37572, W106.48732
+	N35.21832, W106.62759
+	N35.08938, W106.69242
+	N34.98895, W106.68178
+	N34.78087, W106.71627
+	N34.46518, W106.79585
+	N34.29465, W106.84985
+	N34.26928, W106.87828
+	N34.14706, W106.88636
+
+[airport1]
+name = Albuquerque International Sunport
+code = KABQ
+runways =
+	rwy1, 03, N35.0222, W106.631, 45.0, 10000, 0, 0, 5305
+	rwy2, 08, N35.0443, W106.622, 90.0, 13793, 0, 0, 5315
+	rwy3, 12, N35.0435, W106.621, 129.0, 6000, 0, 0, 5312
+	rwy4, 17, N35.0577, W106.611, 183.0, 10000, 0, 0, 5321

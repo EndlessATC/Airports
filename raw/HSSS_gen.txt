@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1265
+center = N15.5895004272, E32.5531997681
+magneticvar = 2.251
+beacons =
+	KTM, N15.56610, E32.55340, 0, Khartoum
+	SGD, N15.62830, E33.07280, 0, Sheik Elgunied
+
+line1 =
+	N14.63686, E32.19621
+	N14.78256, E32.26225
+	N14.90235, E32.36984
+	N15.13032, E32.44022
+	N15.63455, E32.49014
+
+line2 =
+	N14.71608, E33.33660
+	N14.95588, E33.21072
+	N15.06358, E33.18860
+	N15.15951, E33.13382
+	N15.24370, E33.04649
+	N15.30364, E32.94913
+	N15.33937, E32.84195
+	N15.42257, E32.73498
+	N15.55321, E32.62843
+	N15.62204, E32.55355
+	N15.63455, E32.49014
+
+line3 =
+	N15.63455, E32.49014
+	N16.04042, E32.53541
+	N16.25648, E32.62853
+	N16.41812, E32.78459
+	N16.50796, E32.92867
+	N16.52599, E33.06065
+	N16.56617, E33.16467
+
+[airport1]
+name = Khartoum International Airport
+code = HSSS
+runways =
+	rwy1, 18, N15.603, E32.553, 177.0, 9751, 0, 0, 1265

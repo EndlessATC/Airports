@@ -1,0 +1,87 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 348
+center = N45.8098983765, E21.3379001617
+magneticvar = 3.272
+beacons =
+	TSR, N45.81800, E21.30540, 0, Timisoara
+	ARD, N46.18400, E21.14490, 0, Arad
+	ARD, N46.18410, E21.14360, 0, Arad
+	VAC, N45.13690, E21.30600, 0, Vrsac
+	CRS, N45.44290, E22.16330, 0, Caransebes
+	VRA, N45.08770, E21.29120, 0, Vrsac
+	DAK, N45.42080, E20.42750, 0, Dakovica
+
+line1 =
+	N45.23305, E19.69878
+	N45.24148, E19.82833
+	N45.26871, E19.86337
+	N45.25915, E19.90703
+	N45.21290, E19.95943
+	N45.18618, E20.04480
+	N45.17905, E20.16314
+	N45.14988, E20.25327
+	N45.12577, E20.28231
+	N45.09869, E20.31497
+	N45.03844, E20.33910
+	N44.96909, E20.32556
+	N44.91090, E20.35290
+	N44.86383, E20.42101
+	N44.84259, E20.50043
+	N44.84719, E20.59107
+	N44.82840, E20.63562
+
+line2 =
+	N46.26085, E20.17885
+	N46.16586, E20.08697
+	N46.13840, E20.06646
+	N46.11693, E20.06444
+	N46.07636, E20.07881
+	N46.04871, E20.07353
+	N46.02897, E20.06113
+	N46.00076, E20.07999
+	N45.96918, E20.10423
+	N45.92231, E20.12376
+	N45.89027, E20.12165
+	N45.87307, E20.09777
+	N45.83400, E20.10490
+	N45.77834, E20.14035
+	N45.74207, E20.13586
+	N45.72367, E20.10955
+	N45.68889, E20.08475
+	N45.63189, E20.07018
+	N45.56332, E20.10464
+	N45.48312, E20.18805
+	N45.43108, E20.22283
+	N45.40715, E20.20888
+	N45.34871, E20.23104
+	N45.25574, E20.28944
+	N45.19244, E20.30835
+	N45.12577, E20.28231
+
+line3 =
+	N46.72392, E20.16562
+	N46.65286, E20.19156
+	N46.59772, E20.15746
+	N46.50011, E20.16273
+	N46.36001, E20.20748
+	N46.28265, E20.21709
+	N46.26085, E20.17885
+
+[airport1]
+name = Timişoara Traian Vuia Airport
+code = LRTR
+runways =
+	rwy1, 11, N45.8151, E21.3168, 110.0, 11483, 0, 0, 340
+
+[airport2]
+name = Arad International Airport
+code = AR
+runways =
+	rwy2, 09, N46.1774, E21.2492, 95.0, 6562, 0, 0, 345
+inboundbeacon = ARD

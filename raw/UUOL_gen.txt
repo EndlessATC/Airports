@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 584
+center = N52.7028007507, E39.5377998352
+magneticvar = 8.227
+beacons =
+	TS, N52.38330, E38.93330, 0, Zadonsk
+	TE, N52.15000, E38.26670, 0, Terbuny
+
+line1 =
+	N51.75715, E39.06033
+	N51.85867, E39.12204
+	N51.93409, E39.13997
+	N52.01174, E39.13294
+	N52.01856, E39.13294
+	N52.05160, E39.15165
+	N52.08416, E39.16379
+	N52.12488, E39.15439
+	N52.17935, E39.09646
+	N52.24766, E38.99000
+	N52.28937, E38.95765
+	N52.32719, E38.95807
+	N52.43773, E38.90494
+	N52.57622, E38.93068
+	N52.66459, E38.93275
+	N52.70288, E38.91094
+	N52.79414, E38.96437
+	N52.93837, E39.09294
+	N53.11784, E39.15537
+	N53.33261, E39.15154
+	N53.44857, E39.11165
+	N53.51859, E39.05605
+	N53.56092, E39.02132
+	N53.57621, E38.99806
+	N53.61820, E38.87125
+	N53.68683, E38.64098
+
+[airport1]
+name = Lipetsk Airport
+code = UUOL

@@ -1,0 +1,111 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5558
+center = S26.1392, E28.246
+magneticvar = -18.365
+beacons =
+	JSV, S26.15710, E28.23100, 0, Johannesburg
+	JB, S26.04500, E28.26500, 0, Johannesburg
+	RAV, S26.24540, E28.15450, 0, Rand
+	RDW, S26.26740, E28.16270, 0, Rand
+	GC, S25.99260, E28.14000, 0, Grand Central
+	WK, S25.91950, E28.23210, 0, Waterkloof
+	RD, S26.31410, E28.08980, 0, Rand
+	RA, S26.42400, E28.26380, 0, Rand
+	WL, S25.85220, E28.22600, 0, Waterkloof
+	WKV, S25.83330, E28.22040, 0, Waterkloof
+	LIV, S25.94890, E27.91360, 0, Lanseria
+	LA, S26.01030, E27.83950, 0, Lanseria
+	MEV, S25.79090, E28.56130, 0, Bronkhorstspruit
+	NMT, S26.55720, E28.03250, 0, Meyerton
+	WB, S25.65610, E28.29920, 0, Wonderboom
+	WR, S25.65360, E28.24250, 0, Wonderboom
+	VV, S26.57500, E27.95830, 0, Vereeniging
+	MC, S25.63710, E28.36690, 0, Roodeplaat
+	HGV, S26.69691, E28.28314, 0, Heidelberg
+	HBV, S25.67581, E27.83257, 0, Hartebeespoortdam
+	GAV, S26.51480, E27.67650, 0, Grasmere
+	STV, S26.69673, E28.86744, 0, Standerton
+	SU, S26.52330, E29.15810, 0, Secunda
+
+line1 =
+	S26.99076, E28.49669
+	S26.97288, E28.44615
+	S26.86658, E28.12369
+
+line2 =
+	S26.86658, E28.12369
+	S26.71661, E27.99987
+	S26.69444, E27.90897
+	S26.75005, E27.80965
+	S26.76782, E27.71555
+	S26.74777, E27.62677
+	S26.77175, E27.55680
+	S26.83996, E27.50564
+	S26.87118, E27.43691
+	S26.86539, E27.35051
+	S26.88699, E27.27558
+	S26.93598, E27.21222
+	S26.93660, E27.11848
+	S26.88885, E26.99446
+
+line3 =
+	S26.86720, E29.47348
+	S26.90936, E29.46066
+	S26.92389, E29.41488
+	S26.91076, E29.33602
+	S26.93277, E29.26936
+	S26.98983, E29.21479
+	S27.02476, E29.15618
+	S27.04202, E29.10358
+	S27.04409, E29.06224
+	S27.00672, E28.99185
+	S27.00553, E28.93346
+	S27.02796, E28.85946
+	S27.01835, E28.77977
+	S26.97670, E28.69430
+	S26.97587, E28.66536
+	S26.99344, E28.65606
+	S27.01907, E28.62681
+	S27.04533, E28.56532
+	S27.04295, E28.53074
+	S27.01442, E28.52356
+	S26.99003, E28.49555
+
+[airport1]
+name = OR Tambo International Airport
+code = FAOR
+
+[airport2]
+name = OR Tambo International Airport
+code = JS
+runways =
+	rwy3, 03L, S26.1463, E28.2343, 14.0, 14495, 0, 0, 5558
+	rwy4, 03R, S26.1647, E28.2482, 14.0, 11155, 0, 0, 5510
+inboundbeacon = JSV
+
+[airport3]
+name = O R Tambo International
+code = NB
+inboundbeacon = JSV
+
+[airport4]
+name = Rand Airport
+code = GM
+runways =
+	rwy1, 11R, S26.2427, E28.1405, 89.0, 5617, 0, 455, 5438
+	rwy2, 17R, S26.2354, E28.1477, 158.0, 4898, 577, 378, 5424
+inboundbeacon = RAV
+
+[airport5]
+name = Lanseria Airport
+code = LA
+runways =
+	rwy5, 06L, S25.9478, E27.9149, 47.0, 10000, 453, 0, 4517
+	rwy6, 07, S25.9483, E27.9154, 57.0, 9996, 0, 230, 4521
+inboundbeacon = LIV

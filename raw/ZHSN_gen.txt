@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8365
+metric = true
+center = N31.626, E110.34
+
+line1 =
+	N31.01002, E109.46002
+	N31.03449, E109.54549
+	N31.03126, E109.59810
+	N31.00850, E109.64636
+	N31.01619, E109.74155
+	N31.05436, E109.88387
+	N31.06136, E109.98412
+	N31.03712, E110.04251
+	N31.03185, E110.14266
+	N31.04550, E110.28467
+	N31.01966, E110.47365
+	N30.92170, E110.82758
+	N30.85223, E110.97093
+	N30.83491, E111.04504
+	N30.84670, E111.09775
+	N30.82856, E111.15893
+	N30.78055, E111.22849
+	N30.67322, E111.30859
+
+line2 =
+	N32.56781, E111.47767
+	N32.46758, E111.60221
+	N32.40743, E111.64216
+	N32.35399, E111.63895
+	N32.26511, E111.68479
+
+[airport1]
+name = Shennongjia Hongping Airport
+code = ZHSN

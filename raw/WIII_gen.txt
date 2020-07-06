@@ -1,0 +1,83 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 34
+center = S6.1255698204, E106.65599823
+magneticvar = 0.498
+beacons =
+	CKG, S6.18789, E106.53000, 0, Cengkareng
+	BTO, S6.29248, E106.58300, 0, Budiarto
+	TN, S6.29023, E106.56800, 0, Tangerang
+	CB, S6.34982, E106.76800, 0, Pondok Cabe
+	HLM, S6.27194, E106.88700, 0, Halim Perdanakusuma
+	AL, S6.19396, E107.04000, 0, Halim Perdanakusuma
+	DKI, S5.96119, E107.03600, 0, Jakarta
+	AS, S6.53833, E106.75500, 0, Atang Senjaya
+	PW, S6.56667, E107.45000, 0, Purwakarta
+
+line1 =
+	S6.21895, E107.77607
+	S6.21582, E107.66680
+	S6.18271, E107.56299
+	S6.12178, E107.47471
+	S6.00762, E107.37393
+	S5.97813, E107.33184
+	S5.95713, E107.16211
+	S5.90420, E107.04629
+	S6.00850, E107.01162
+	S6.07344, E106.93164
+	S6.09199, E106.87793
+	S6.09824, E106.82520
+	S6.03838, E106.67588
+	S6.02188, E106.56875
+	S6.01758, E106.45908
+	S5.98408, E106.34971
+	S5.96475, E106.16582
+	S5.91416, E106.07500
+	S5.93428, E106.02881
+	S6.01699, E105.93613
+	S6.11641, E105.86826
+	S6.45693, E105.78691
+	S6.48037, E105.75742
+	S6.49795, E105.70605
+	S6.46953, E105.65508
+	S6.61670, E105.60801
+	S6.67100, E105.58086
+	S6.78154, E105.48369
+
+line2 =
+	S6.86035, E105.60098
+	S6.84609, E105.72480
+	S6.84580, E105.83477
+	S6.85898, E105.94434
+	S6.92783, E106.19824
+	S7.05371, E106.51973
+	S7.11387, E106.49150
+
+line3 =
+	S5.67656, E105.81611
+	S5.71641, E105.80273
+	S5.81826, E105.74834
+	S5.81758, E105.67656
+	S5.79961, E105.61855
+	S5.76064, E105.57793
+	S5.71230, E105.55557
+	S5.67275, E105.52266
+
+[airport1]
+name = Soekarno-Hatta International Airport
+code = WIII
+runways =
+	rwy1, 07L, S6.12106, E106.639, 68.3, 11812, 0, 0, 29
+	rwy2, 07R, S6.1426, E106.644, 68.3, 12008, 0, 0, 34
+
+[airport2]
+name = Halim Perdanakusuma International Airport
+code = HH
+runways =
+	rwy3, 06, S6.27223, E106.879, 65.5, 9843, 0, 650, 79
+inboundbeacon = HLM

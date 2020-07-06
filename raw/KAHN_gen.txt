@@ -1,0 +1,100 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 808
+usa = true
+transition = 18001
+center = N33.948600769, W83.3263015747
+magneticvar = -5.490
+beacons =
+	AHN, N33.94760, W83.32480, 0, Athens
+	BJT, N33.95150, W83.21960, 0, Bulldog
+	DDA, N34.06220, W83.52090, 0, Commerce
+	BMW, N33.93540, W83.58950, 0, Barrow Co
+	EJK, N33.59490, W83.14070, 0, Greensboro
+	JNM, N33.73760, W83.72680, 0, Monroe
+	VV, N33.64610, W83.02080, 0, Junne
+	TX, N34.01990, W83.86280, 0, Gwnet
+	IIY, N33.77480, W82.81320, 0, Washington-Wilkes Co
+	VOF, N33.62980, W83.78210, 0, Alcovy
+	FKV, N34.20340, W83.90630, 0, Flowery Branch
+	AJR, N34.50150, W83.54990, 0, Habersham
+	ELW, N34.41920, W82.78470, 0, Electric City
+	AA, N33.53300, W82.61440, 0, Cedar
+	ODF, N34.69590, W83.29770, 0, Foothills
+	AND, N34.49810, W82.70850, 0, Anderson
+	HQU, N33.52740, W82.51560, 0, Thomson mMduffie
+	UMB, N33.15180, W83.15960, 0, Culvr
+	PDK, N33.87560, W84.29880, 0, Peachtree
+	CEU, N34.67380, W82.88680, 0, Clemson
+	BR, N33.64540, W84.31120, 0, Redan
+	GY, N34.69100, W82.44360, 0, Dyana
+	JHH, N33.18430, W84.22750, 0, Griffin
+	GM, N34.78010, W82.34980, 0, Judky
+
+line1 =
+	N34.36379, W83.81472
+	N34.16696, W84.07564
+
+line2 =
+	N34.01761, W82.58935
+	N33.83773, W82.35189
+	N33.74923, W82.25663
+	N33.66358, W82.20836
+
+line3 =
+	N34.59853, W83.16590
+	N34.51087, W83.05278
+	N34.47640, W82.97568
+	N34.46580, W82.89682
+	N34.43692, W82.84773
+	N34.36607, W82.81861
+
+line4 =
+	N34.16696, W84.07564
+	N34.09094, W84.10502
+	N34.04208, W84.15313
+	N33.99501, W84.22971
+	N33.98030, W84.29162
+	N33.99793, W84.33885
+	N33.92633, W84.43024
+	N33.76543, W84.56584
+	N33.62193, W84.72947
+
+line5 =
+	N34.71566, W83.74625
+	N34.70016, W83.69137
+	N34.65892, W83.66075
+	N34.58667, W83.63610
+	N34.50384, W83.67207
+	N34.36374, W83.81700
+
+line6 =
+	N34.93291, W83.17040
+	N34.80565, W83.31672
+	N34.70832, W83.35558
+
+line7 =
+	N33.66358, W82.20836
+	N33.52289, W82.00571
+	N33.44729, W81.93639
+	N33.38987, W81.93285
+
+line8 =
+	N34.36602, W82.81858
+	N34.01738, W82.58927
+
+line9 =
+	N34.70832, W83.35558
+	N34.59959, W83.16652
+
+[airport1]
+name = Athens Ben Epps Airport
+code = KAHN
+runways =
+	rwy1, 02, N33.9427, W83.3249, 21.0, 4000, 0, 0, 775
+	rwy2, 09, N33.9489, W83.3382, 88.0, 5522, 0, 0, 755

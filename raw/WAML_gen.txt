@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 284
+center = S0.918542027473, E119.910003662
+magneticvar = 1.188
+beacons =
+	OP, S0.91747, E119.90500, 0, Palu
+	PAL, S0.88501, E119.89500, 0, Palu
+	DF, S1.42004, E120.65900, 0, Kasiguncu
+
+line1 =
+	S0.48359, E119.77168
+	S0.08848, E119.72188
+	S0.05103, E119.73584
+	S0.05698, E119.78652
+	S0.02212, E119.83828
+	N0.04009, E119.86563
+
+line2 =
+	N0.03975, E120.07832
+	S0.08994, E120.03604
+	S0.19619, E120.01328
+	S0.30713, E120.01211
+	S0.43203, E120.03174
+	S0.55557, E120.06289
+	S0.64990, E120.09746
+	S0.86826, E120.24063
+	S0.89922, E120.26982
+	S0.96064, E120.42539
+	S1.03945, E120.51758
+	S1.25850, E120.60508
+	S1.37012, E120.66738
+	S1.37148, E120.72861
+	S1.36367, E120.79697
+	S1.37783, E120.91582
+	S1.40654, E121.03369
+
+line3 =
+	S1.82529, E119.34824
+	S1.65967, E119.30830
+	S1.58428, E119.32412
+	S1.49570, E119.31035
+	S1.40820, E119.30898
+	S1.24346, E119.35918
+	S0.90674, E119.50820
+	S0.72793, E119.65352
+	S0.68076, E119.71133
+	S0.76396, E119.78672
+	S0.86191, E119.84434
+	S0.77324, E119.84521
+	S0.68633, E119.82988
+	S0.48359, E119.77168
+
+[airport1]
+name = Mutiara Airport
+code = WAML
+runways =
+	rwy1, 15, S0.910008, E119.906, 155.6, 6781, 0, 0, 308

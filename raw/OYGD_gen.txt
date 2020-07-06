@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 134
+center = N16.1916999817, E52.1749992371
+magneticvar = 0.344
+beacons =
+	GDA, N16.18810, E52.16190, 0, Al Ghaidah
+
+line1 =
+	N15.22627, E51.32246
+	N15.33682, E51.60371
+	N15.37910, E51.68154
+	N15.44014, E51.74863
+	N15.45928, E51.83076
+	N15.53569, E51.96582
+	N15.58594, E52.08730
+	N15.65552, E52.21748
+	N15.76060, E52.22207
+	N15.95684, E52.17402
+	N16.17139, E52.23730
+	N16.29355, E52.32773
+	N16.39126, E52.44844
+	N16.47036, E52.58145
+	N16.64839, E53.08564
+	N16.72334, E53.29775
+
+[airport1]
+name = Al Ghaidah International Airport
+code = OYGD
+runways =
+	rwy1, 08, N16.1915, E52.1607, 81.9, 8858, 0, 0, 134

@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 279
+center = S4.25567007065, W69.935798645
+magneticvar = -7.053
+beacons =
+	TBT, S4.24933, W69.93620, 0, Tabatinga
+	LET, S4.20167, W69.94240, 0, Leticia
+	LET, S4.19500, W69.93970, 0, Leticia
+
+line1 =
+	S3.44935, W69.08418
+	S3.55270, W69.35186
+	S3.65544, W69.39878
+	S3.76406, W69.41627
+	S3.87852, W69.40439
+	S3.97350, W69.42498
+	S4.04905, W69.47800
+	S4.11143, W69.48095
+	S4.16062, W69.43374
+	S4.22310, W69.45878
+	S4.29881, W69.55603
+	S4.33467, W69.68528
+	S4.33054, W69.84651
+	S4.28516, W69.94810
+	S4.23597, W69.96593
+	S4.16197, W70.01719
+	S4.09215, W70.09476
+	S4.05024, W70.16752
+	S3.99516, W70.19840
+	S3.88271, W70.24028
+	S3.84426, W70.29844
+	S3.81434, W70.33950
+	S3.81873, W70.37919
+	S3.84964, W70.42110
+	S3.86938, W70.48585
+	S3.86638, W70.52967
+	S3.87005, W70.55737
+	S3.96007, W70.90047
+	S3.98539, W71.05793
+
+[airport1]
+name = Tabatinga Airport
+code = SBTT
+
+[airport2]
+name = Alfredo Vásquez Cobo International Airport
+code = LT
+runways =
+	rwy1, 03, S4.2011, W69.9457, 20.8, 6168, 0, 0, 314
+inboundbeacon = LET

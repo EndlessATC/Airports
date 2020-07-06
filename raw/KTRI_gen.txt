@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1519
+usa = true
+transition = 18001
+center = N36.475201, W82.407401
+magneticvar = -6.315
+beacons =
+	BO, N36.39860, W82.49620, 0, Booie
+	TR, N36.55540, W82.31800, 0, Mocca
+	HMV, N36.43710, W82.12960, 0, Holston Mountain
+	RVN, N36.45590, W82.88440, 0, Rogersville
+	GZG, N36.82510, W82.07900, 0, Glade Spring
+	VJ, N36.73400, W81.94930, 0, Whine
+	DYQ, N36.13590, W82.89040, 0, Dulaney
+	BAR, N36.15350, W81.87980, 0, Hemlock
+	LQV, N36.70700, W83.07410, 0, Long Hollow
+	SOT, N35.79010, W83.05240, 0, Snowbird
+	FIQ, N35.71020, W81.67130, 0, Fiddlers
+
+line1 =
+	N37.00914, W81.41962
+	N36.93229, W81.69496
+	N36.85253, W81.87546
+	N36.76228, W82.13570
+	N36.61001, W82.58909
+	N36.52247, W82.66541
+	N36.40124, W82.93589
+	N36.36985, W83.02552
+	N36.32367, W83.19344
+	N36.25650, W83.38653
+	N36.19983, W83.45369
+	N36.07617, W83.74716
+
+line2 =
+	N36.07366, W81.57636
+	N36.04705, W81.52238
+	N36.05511, W81.46549
+	N36.10586, W81.34890
+
+[airport1]
+name = Tri-Cities Regional TN/VA Airport
+code = KTRI
+runways =
+	rwy1, 05, N36.4653, W82.4191, 42.6, 8030, 0, 0, 1488
+	rwy2, 09, N36.4783, W82.4105, 89.0, 4442, 0, 0, 1519

@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1873
+usa = true
+transition = 18001
+center = N56.226898, W117.446999
+magneticvar = 18.511
+beacons =
+	YPE, N56.20690, W117.51200, 0, Peace River
+	PE, N56.20000, W117.53200, 0, Peace River
+	3Y, N55.71060, W117.10000, 0, Donnelly
+	8C, N56.07560, W118.44100, 0, Fairview
+	M5, N56.94860, W117.62800, 0, Manning
+	2S, N55.39560, W116.48400, 0, High Prairie
+
+line1 =
+	N56.23104, W119.49221
+	N56.29434, W119.29827
+	N56.31594, W119.14469
+	N56.29574, W119.03151
+	N56.26701, W118.97780
+	N56.22975, W118.98356
+	N56.18755, W118.96340
+	N56.14048, W118.91734
+	N56.09963, W118.90721
+	N56.06991, W118.91653
+	N56.01720, W118.86917
+	N55.95622, W118.71580
+	N55.93359, W118.44871
+	N55.94930, W118.06785
+	N56.02252, W117.73914
+	N56.15327, W117.46249
+	N56.28819, W117.27309
+	N56.42731, W117.17093
+	N56.53647, W117.12763
+	N56.61569, W117.14318
+	N56.66861, W117.17731
+	N56.70465, W117.22808
+	N56.73333, W117.23031
+	N56.75509, W117.25292
+	N56.78697, W117.29074
+	N56.84330, W117.31860
+	N56.92521, W117.29472
+	N57.03275, W117.21909
+	N57.08334, W117.20876
+	N57.11698, W117.21266
+	N57.13682, W117.19501
+	N57.14845, W117.16992
+	N57.17956, W117.12140
+
+[airport1]
+name = Peace River Airport
+code = CYPE
+runways =
+	rwy1, 04, N56.2233, W117.458, 61.4, 5000, 0, 0, 1873
+	rwy2, 08, N56.2275, W117.443, 102.0, 1900, 0, 0, 0

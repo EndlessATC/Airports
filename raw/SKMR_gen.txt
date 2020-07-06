@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = N8.82374, W75.8258
+magneticvar = -5.197
+beacons =
+	MTR, N8.81556, W75.81780, 0, Monteria
+	MLB, N8.01222, W75.39780, 0, Montelibano
+
+line1 =
+	N9.72979, W75.68003
+	N9.65781, W75.63535
+	N9.53848, W75.60361
+	N9.45044, W75.63936
+	N9.41562, W75.75557
+	N9.43091, W75.90503
+	N9.36577, W76.02725
+	N9.26562, W76.13550
+	N8.98911, W76.27686
+	N8.69473, W76.68936
+	N8.64067, W76.80225
+	N8.61987, W76.88799
+	N8.57373, W76.92046
+	N8.51274, W76.87222
+	N8.46470, W76.81860
+	N8.31055, W76.77207
+	N8.00215, W76.74233
+	N7.93159, W76.78657
+	N7.91797, W76.86689
+	N7.93945, W76.89663
+	N7.97319, W76.92466
+	N8.03340, W76.91221
+	N8.06270, W76.86909
+	N8.09048, W76.85186
+	N8.12798, W76.89097
+	N8.14683, W76.93584
+	N8.25034, W76.99229
+
+line2 =
+	N9.39111, W74.66303
+	N9.41824, W74.74241
+	N9.44097, W74.78553
+	N9.49423, W74.79530
+	N9.58559, W74.78610
+	N9.69093, W74.80564
+	N9.81020, W74.85400
+
+[airport1]
+name = Los Garzones Airport
+code = SKMR
+runways =
+	rwy1, 14, N8.83016, W75.8317, 137.8, 6285, 0, 0, 20

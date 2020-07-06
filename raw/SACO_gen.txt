@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1604
+center = S31.323601, W64.208
+magneticvar = -2.180
+beacons =
+	CBA, S31.31330, W64.20360, 0, Cordoba
+	CBA, S31.30970, W64.21890, 0, Cordoba
+	H, S31.28610, W64.20740, 0, Cordoba
+	B, S31.43830, W64.27500, 0, Escuela De Aviacion Militar
+	LDR, S31.95280, W65.14250, 0, Villa Dolores
+
+line1 =
+	S30.80137, W62.86040
+	S30.75078, W62.93145
+	S30.69170, W62.97930
+	S30.64863, W62.93096
+
+[airport1]
+name = Ingeniero Ambrosio Taravella Airport
+code = SACO
+runways =
+	rwy1, 01, S31.3244, W64.208, 358.0, 10499, 0, 0, 1522
+	rwy2, 05, S31.3248, W64.2093, 43.0, 7218, 840, 0, 1526

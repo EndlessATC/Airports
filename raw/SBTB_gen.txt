@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 287
+center = S1.48959994316, W56.3968009949
+magneticvar = -16.272
+beacons =
+	PTT, S1.48633, W56.39780, 0, Trombetas
+
+line1 =
+	S2.14483, W55.26900
+	S2.08271, W55.37517
+	S1.98680, W55.45808
+	S1.94949, W55.51485
+	S1.92396, W55.55482
+	S1.91838, W55.60585
+	S1.92655, W55.66936
+	S1.96355, W55.73571
+	S1.98996, W55.83971
+	S2.00567, W55.98133
+	S2.07951, W56.12946
+	S2.21160, W56.28408
+	S2.33629, W56.40087
+	S2.45360, W56.47973
+
+line2 =
+	S2.44827, W57.35301
+	S2.40466, W57.44003
+	S2.39567, W57.50550
+
+[airport1]
+name = Trombetas Airport
+code = SBTB

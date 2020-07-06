@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 326
+center = N43.302101, W8.37726
+magneticvar = -4.063
+beacons =
+	COA, N43.36540, W8.32826, 0, La Coruna
+	LRA, N43.39620, W8.30682, 0, La Coruna
+	STG, N42.92690, W8.42539, 0, Santiago
+	SNO, N42.90780, W8.42845, 0, Santiago
+
+line1 =
+	N43.58564, W6.90068
+	N43.55396, W7.06099
+	N43.59463, W7.26196
+	N43.69580, W7.39932
+	N43.73994, W7.50361
+	N43.72734, W7.59458
+	N43.76455, W7.69814
+	N43.70698, W7.85273
+	N43.69438, W8.00469
+	N43.62905, W8.13716
+	N43.57988, W8.25674
+	N43.53960, W8.28887
+	N43.49692, W8.25229
+	N43.43940, W8.24893
+	N43.39683, W8.35547
+	N43.38584, W8.42158
+	N43.33706, W8.53706
+	N43.31660, W8.66562
+	N43.33442, W8.87368
+	N43.23896, W9.02451
+	N43.21421, W9.09556
+	N43.17402, W9.17808
+	N43.03579, W9.23564
+	N42.97690, W9.23521
+	N42.91099, W9.17944
+	N42.86523, W9.12720
+	N42.81401, W9.04160
+	N42.79858, W8.92720
+	N42.76670, W8.93721
+	N42.66235, W9.03506
+	N42.59385, W9.03311
+	N42.58564, W8.98779
+	N42.64033, W8.81152
+	N42.59990, W8.79990
+	N42.56235, W8.80991
+	N42.47007, W8.81211
+	N42.43481, W8.77617
+	N42.41172, W8.73003
+	N42.35815, W8.76938
+	N42.33447, W8.80996
+
+[airport1]
+name = A Coruña Airport
+code = LECO
+runways =
+	rwy1, 03, N43.2948, W8.38323, 30.9, 6358, 0, 0, 327
+
+[airport2]
+name = Santiago de Compostela Airport
+code = ST
+runways =
+	rwy2, 17, N42.9118, W8.42043, 166.0, 10499, 394, 0, 1170
+inboundbeacon = SNO

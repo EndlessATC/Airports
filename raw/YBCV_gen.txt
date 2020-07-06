@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1003
+usa = true
+center = S26.4132995605, E146.261993408
+magneticvar = 8.599
+beacons =
+	CV, S26.42110, E146.26601, 0, Charleville
+	CV, S26.42000, E146.24899, 0, Charleville
+
+[airport1]
+name = Charleville Airport
+code = YBCV
+runways =
+	rwy1, 12, S26.4079, E146.258, 137.0, 5000, 0, 0, 986
+	rwy2, 18, S26.4127, E146.262, 182.0, 3501, 0, 0, 996

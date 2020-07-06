@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1029
+center = N32.6890983582, E74.8374023438
+magneticvar = 1.324
+beacons =
+	JJU, N32.69160, E74.83760, 0, Jammu
+	JA, N32.69960, E74.84900, 0, Jammu
+	PK, N32.24050, E75.63310, 0, Pathankot
+
+line1 =
+	N33.24301, E76.18153
+	N33.32324, E76.02020
+	N33.36311, E75.85390
+	N33.37093, E75.75944
+	N33.34680, E75.73660
+	N33.30525, E75.74600
+	N33.24634, E75.78755
+	N33.20169, E75.80150
+	N33.17131, E75.78786
+	N33.15209, E75.67665
+	N33.14395, E75.46788
+	N33.17351, E75.30830
+	N33.24071, E75.19792
+	N33.24639, E75.12196
+	N33.19051, E75.08031
+	N33.17028, E74.99923
+	N33.18567, E74.87861
+	N33.12299, E74.80870
+	N32.98233, E74.78947
+	N32.78880, E74.58277
+	N32.54246, E74.18847
+	N32.37131, E73.84369
+	N32.27537, E73.54820
+
+[airport1]
+name = Jammu Airport
+code = VIJU
+runways =
+	rwy1, 17, N32.6984, E74.8368, 177.0, 6755, 200, 687, 0
+
+[airport2]
+name = Sialkot Airport
+code = ST
+inboundbeacon = JJU

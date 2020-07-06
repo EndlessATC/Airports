@@ -1,0 +1,75 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 138
+center = N43.3011016846, W2.91060996056
+magneticvar = -1.531
+beacons =
+	BLV, N43.30440, W2.93588, 0, Bilbao
+	VTA, N42.92810, W2.67961, 0, Vitoria
+	VFD, N42.88060, W2.72435, 0, Vitoria
+	VRA, N42.73190, W2.86558, 0, Vitoria
+	SA, N43.43500, W3.84990, 0, Santander
+	SNR, N43.44980, W3.90241, 0, Santander
+	SSN, N43.31120, W1.83039, 0, San Sebastian
+	HIG, N43.38630, W1.79589, 0, San Sebastian
+
+line1 =
+	N44.02021, W1.34600
+	N43.56377, W1.48486
+	N43.43804, W1.63145
+	N43.40732, W1.79404
+	N43.40083, W1.82852
+	N43.34507, W1.99131
+	N43.32192, W2.19668
+	N43.32803, W2.33711
+	N43.41274, W2.60708
+	N43.45444, W2.87505
+	N43.43970, W2.94771
+	N43.37158, W3.04561
+	N43.45171, W3.41787
+	N43.51104, W3.52363
+	N43.51948, W3.60464
+	N43.47788, W3.77402
+	N43.49941, W3.88936
+	N43.46309, W4.01533
+	N43.41475, W4.31279
+
+line2 =
+	N43.01117, W4.18886
+	N43.00148, W4.10225
+	N42.95252, W4.05476
+	N42.86105, W4.01745
+	N42.82503, W3.96267
+	N42.84441, W3.89038
+	N42.84186, W3.82196
+	N42.81728, W3.75739
+	N42.83263, W3.70925
+	N42.88790, W3.67752
+	N42.89800, W3.62678
+	N42.84545, W3.52213
+	N42.80692, W3.45123
+	N42.79186, W3.33661
+	N42.78741, W3.15466
+	N42.75522, W3.01090
+	N42.69528, W2.90542
+	N42.64417, W2.84279
+	N42.60184, W2.82305
+	N42.55968, W2.75580
+	N42.51761, W2.64102
+	N42.50686, W2.56315
+	N42.52733, W2.52219
+	N42.51379, W2.39543
+	N42.46625, W2.18294
+	N42.39085, W1.99442
+
+[airport1]
+name = Bilbao Airport
+code = LEBB
+runways =
+	rwy1, 10, N43.3033, W2.93703, 96.6, 6562, 0, 0, 116
+	rwy2, 12, N43.3063, W2.92494, 116.6, 8530, 0, 1509, 119

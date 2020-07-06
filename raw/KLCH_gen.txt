@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 15
+usa = true
+transition = 18001
+center = N30.1261005402, W93.2232971191
+magneticvar = 3.015
+beacons =
+	LC, N30.19310, W93.26310, 0, Keyli
+	LCH, N30.14150, W93.10560, 0, Lake Charles
+	CW, N30.30670, W93.19620, 0, Mossy
+	UX, N30.19850, W93.42060, 0, Sulfy
+	DQU, N30.43550, W93.46680, 0, De Quincy
+	ORG, N30.07030, W93.79490, 0, Orange
+	DR, N30.75210, W93.33470, 0, Idder
+	LRR, N30.64120, W92.68920, 0, Allen Parish
+	BPT, N29.94610, W94.01620, 0, Beaumont
+	BP, N29.99630, W94.10640, 0, Kazoo
+	ECY, N30.55980, W92.44810, 0, Eunice
+	SBI, N29.68670, W94.03800, 0, Sabine Pass
+	LLA, N29.66320, W92.37360, 0, White Lake
+	JAS, N30.95460, W94.03350, 0, Jasper
+
+line1 =
+	N29.64097, W91.87524
+	N29.64395, W91.92505
+	N29.61030, W92.00664
+	N29.57310, W91.99624
+
+line2 =
+	N29.67041, W94.09966
+	N29.68936, W93.89048
+	N29.72266, W93.88638
+	N29.81499, W93.94629
+	N29.97974, W93.84146
+	N29.97725, W93.79399
+	N29.95229, W93.76904
+	N29.91406, W93.77310
+	N29.85083, W93.80879
+	N29.81885, W93.84834
+	N29.81001, W93.88389
+	N29.75562, W93.86572
+	N29.72515, W93.82646
+	N29.75269, W93.76592
+	N29.76992, W93.69482
+	N29.77656, W93.38848
+	N29.78940, W93.28320
+	N29.77896, W93.17568
+	N29.71416, W92.95239
+	N29.63467, W92.79131
+	N29.59707, W92.67129
+	N29.55684, W92.26084
+	N29.59282, W92.08403
+	N29.61719, W92.05889
+	N29.66768, W92.11396
+	N29.69946, W92.13550
+	N29.76074, W92.08022
+	N29.80029, W92.01733
+	N29.83604, W91.89316
+
+[airport1]
+name = Lake Charles Regional Airport
+code = KLCH
+runways =
+	rwy1, 05, N30.1285, W93.2297, 51.8, 5200, 0, 0, 13
+	rwy2, 15, N30.1287, W93.2279, 154.8, 6500, 0, 0, 12

@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 30
+center = S20.2847003937, E44.3176002502
+magneticvar = -15.447
+beacons =
+	VSO, S20.28760, E44.31720, 0, Morondava
+
+line1 =
+	S19.92207, E44.40469
+	S19.67422, E44.43223
+	S19.55088, E44.45293
+	S19.42871, E44.44883
+	S19.30313, E44.38652
+
+line2 =
+	S21.25498, E43.70361
+	S21.17920, E43.80020
+	S21.07686, E43.85566
+	S20.86582, E43.91113
+	S20.65625, E44.06309
+	S20.54609, E44.11719
+	S20.37969, E44.23965
+	S20.14551, E44.34814
+	S20.03516, E44.38105
+	S19.92207, E44.40469
+
+[airport1]
+name = Morondava Airport
+code = FMMV
+runways =
+	rwy1, 10, S20.2849, E44.3148, 88.0, 4921, 0, 0, 13
+	rwy2, 14, S20.2811, E44.3117, 124.0, 4413, 0, 0, 20

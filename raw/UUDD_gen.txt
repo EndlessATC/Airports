@@ -1,0 +1,75 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 588
+center = N55.4087982178, E37.9062995911
+magneticvar = 9.004
+beacons =
+	O, N55.38670, E37.91500, 0, Domodedovo
+	W, N55.43170, E37.90000, 0, Domodedovo
+	M, N55.43000, E37.86500, 0, Domodedovo
+	E, N55.38830, E37.95170, 0, Domodedovo
+	DW, N55.45330, E37.87500, 0, Domodedovo
+	DO, N55.36500, E37.94170, 0, Domodedovo
+	DM, N55.45170, E37.83830, 0, Domodedovo
+	DE, N55.36670, E37.97830, 0, Domodedovo
+	WT, N55.58330, E37.78330, 0, Kartino
+	LO, N55.35000, E37.53330, 0, Klimovsk
+	DK, N55.16170, E37.80170, 0, Glotayevo
+	QO, N55.15000, E38.29000, 0, Aksinyino
+	RW, N55.70000, E38.21670, 0, Maryino
+	DR, N55.21670, E37.36670, 0, Skurygino
+	OB, N55.61170, E37.35170, 0, Vnukovo
+	O, N55.60170, E37.30670, 0, Vnukovo
+	W, N55.57830, E37.25170, 0, Vnukovo
+	WM, N55.55500, E37.23330, 0, Vnukovo
+	T, N55.62000, E37.28330, 0, Vnukovo
+	TQ, N55.63830, E37.29670, 0, Vnukovo
+	G, N55.58330, E37.22830, 0, Vnukovo
+	GG, N55.57500, E37.18670, 0, Vnukovo
+	BP, N55.90000, E37.68330, 0, Chelobityevo
+	WZ, N55.21670, E37.00000, 0, Kamenka
+	KS, N55.83330, E37.26670, 0, Opalikha
+	BW, N55.98500, E37.51000, 0, Sheremetyevo
+	AD, N55.98670, E37.50170, 0, Sheremetyevo
+	B, N55.97830, E37.46500, 0, Sheremetyevo
+	A, N55.98000, E37.46170, 0, Sheremetyevo
+	N, N55.96500, E37.37330, 0, Sheremetyevo
+	M, N55.96670, E37.37330, 0, Sheremetyevo
+	MR, N55.96170, E37.34830, 0, Sheremetyevo
+	NL, N55.95830, E37.32830, 0, Sheremetyevo
+	MR, N55.96000, E37.32500, 0, Sheremetyevo
+	UM, N55.86670, E36.91670, 0, Ivanovskoye
+	AR, N55.98330, E36.80000, 0, Buzharovo
+	IN, N54.60000, E37.33330, 0, Sukhotino
+	IP, N54.73330, E36.65000, 0, Zakharovka
+
+[airport1]
+name = Domodedovo International Airport
+code = UUDD
+runways =
+	rwy1, 14C, N55.42, E37.88, 146.4, 8531, 0, 0, 585
+	rwy2, 14L, N55.4233, E37.908, 145.6, 12448, 0, 0, 551
+	rwy3, 14R, N55.4212, E37.8722, 145.6, 11483, 0, 0, 588
+
+[airport2]
+name = Zhukovsky International Airport
+code = BW
+inboundbeacon = RW
+
+[airport3]
+name = Ostafyevo International Airport
+code = MO
+inboundbeacon = OB
+
+[airport4]
+name = Vnukovo International Airport
+code = WW
+runways =
+	rwy4, 01, N55.5865, E37.2576, 14.4, 10039, 0, 0, 633
+	rwy5, 06, N55.588, E37.246, 68.3, 11483, 0, 0, 637
+inboundbeacon = W

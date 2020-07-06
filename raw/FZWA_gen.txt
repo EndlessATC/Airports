@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2221
+center = S6.12124013901, E23.5690002441
+magneticvar = -1.383
+beacons =
+	MBY, S6.11547, E23.56310, 0, Mbuji Mayi
+	MN, S6.10547, E23.56480, 0, Mbuji Mayi
+
+[airport1]
+name = Mbuji Mayi Airport
+code = FZWA
+runways =
+	rwy1, 17, S6.11271, E23.5661, 161.3, 6558, 0, 0, 2221

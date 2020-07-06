@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 70
+center = N24.4668998718, E122.977996826
+magneticvar = -3.394
+beacons =
+	YNE, N24.46490, E122.99800, 0, Yonaguni
+	SOE, N24.47090, E123.01200, 0, Sonai
+	HR, N24.06070, E123.80300, 0, Hateruma
+
+line1 =
+	N25.05645, E121.90518
+	N25.10444, E121.85283
+	N25.15410, E121.73330
+
+line2 =
+	N24.28525, E121.73701
+	N24.53437, E121.82803
+	N24.64053, E121.82637
+	N24.74634, E121.81338
+	N24.82451, E121.82012
+	N24.89526, E121.85625
+	N24.97373, E121.92900
+	N25.05645, E121.90518
+
+line3 =
+	N24.45186, E124.17021
+	N24.46963, E124.12041
+	N24.43584, E124.08477
+	N24.34761, E124.13574
+	N24.33506, E124.18564
+	N24.35806, E124.23428
+
+line4 =
+	N24.45864, E124.21055
+	N24.45186, E124.17021
+
+line5 =
+	N24.34849, E123.75234
+	N24.31777, E123.67979
+	N24.28804, E123.68066
+	N24.28330, E123.74980
+	N24.26606, E123.82559
+	N24.28013, E123.88867
+	N24.32363, E123.92813
+	N24.36201, E123.93486
+	N24.41445, E123.77148
+	N24.39131, E123.75371
+	N24.34849, E123.75234
+
+[airport1]
+name = Yonaguni Airport
+code = ROYN
+runways =
+	rwy1, 08, N24.4652, E122.971, 75.3, 4920, 0, 0, 71

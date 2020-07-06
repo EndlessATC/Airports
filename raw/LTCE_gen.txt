@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5763
+center = N39.9565010071, E41.1702003479
+magneticvar = 5.087
+beacons =
+	ERZ, N39.95880, E41.15310, 0, Erzurum
+	ERZ, N39.95640, E41.20690, 0, Erzurum
+	ERZ, N39.95750, E41.20720, 0, Erzurum
+	ER, N39.96000, E41.29470, 0, Erzurum
+
+line1 =
+	N40.18018, E41.45549
+	N40.01632, E41.32826
+	N39.94371, E40.98471
+	N39.92805, E40.76979
+	N39.94511, E40.56898
+	N39.94221, E40.39622
+	N39.91937, E40.25142
+	N39.89488, E40.16936
+	N39.86873, E40.14983
+	N39.82382, E40.16993
+	N39.76016, E40.22957
+	N39.69437, E40.24047
+	N39.62647, E40.20264
+	N39.58441, E40.16326
+	N39.56823, E40.12223
+	N39.59536, E39.93899
+
+[airport1]
+name = Erzurum International Airport
+code = LTCE
+runways =
+	rwy1, 05, N39.9409, E41.1659, 48.2, 3051, 0, 0, 0
+	rwy2, 08L, N39.9568, E41.1479, 88.1, 12499, 0, 0, 5764
+	rwy3, 08R, N39.9551, E41.148, 88.0, 12500, 0, 0, 5762

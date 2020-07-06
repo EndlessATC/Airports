@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3868
+center = S9.52509021759, E16.3124008179
+magneticvar = -4.461
+beacons =
+	MA, S9.55000, E16.36670, 0, Malanje
+
+[airport1]
+name = Malanje Airport
+code = FNMA
+runways =
+	rwy1, 13, S9.51962, E16.304, 123.0, 7283, 0, 0, 0

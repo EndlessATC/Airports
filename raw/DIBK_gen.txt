@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1230
+center = N7.73880004883, W5.07366991043
+magneticvar = -5.590
+beacons =
+	BKY, N7.74728, W5.07494, 0, Bouake
+	BOK, N7.71844, W5.08289, 0, Bouake
+	BKE, N7.80742, W5.04311, 0, Bouake
+	YMO, N6.92800, W5.34394, 0, Yamoussoukro
+
+[airport1]
+name = Bouaké Airport
+code = DIBK
+runways =
+	rwy1, 03, N7.7252, W5.0798, 24.0, 10827, 0, 0, 1226

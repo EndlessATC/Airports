@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 177
+center = N6.18472, W67.4932
+magneticvar = -10.487
+beacons =
+	PCR, N6.18161, W67.49120, 0, Puerto Carreno
+	PTC, N6.18169, W67.49600, 0, Puerto Carreno
+	PAY, N5.62222, W67.60870, 0, Puerto Ayacucho
+	PAY, N5.61889, W67.60900, 0, Puerto Ayacucho
+	PIJ, N6.56861, W66.80280, 0, Los Pijiguaos
+
+line1 =
+	N6.15652, W68.47176
+	N6.19750, W68.14310
+	N6.24194, W67.93890
+	N6.28990, W67.85916
+	N6.28494, W67.72715
+	N6.20231, W67.42255
+
+line2 =
+	N5.27048, W67.82492
+	N5.37549, W67.78841
+	N5.44752, W67.69465
+	N5.55878, W67.64230
+	N5.70937, W67.63134
+	N5.83308, W67.57522
+	N5.92997, W67.47389
+	N6.02552, W67.43937
+	N6.11978, W67.47161
+	N6.20231, W67.42255
+	N6.23983, W67.40030
+	N6.38566, W67.22537
+	N6.55678, W67.11895
+	N6.85142, W67.06200
+	N7.03319, W67.07122
+	N7.15106, W66.95940
+
+[airport1]
+name = German Olano Airport
+code = SKPC
+runways =
+	rwy1, 07, N6.18069, W67.5002, 60.0, 5907, 0, 0, 180

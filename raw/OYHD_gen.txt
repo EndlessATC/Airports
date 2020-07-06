@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 41
+center = N14.7530002594, E42.9762992859
+magneticvar = 1.489
+beacons =
+	HD, N14.76020, E42.97320, 0, Hodeidah
+	HDH, N14.77360, E42.98810, 0, Hodeidah
+
+line1 =
+	N15.40732, E42.56973
+	N15.32007, E42.54902
+	N15.28120, E42.55869
+	N15.30342, E42.59023
+	N15.33228, E42.61045
+	N15.36797, E42.62451
+	N15.43252, E42.60234
+	N15.40732, E42.56973
+
+line2 =
+	N13.76611, E42.79414
+	N13.76929, E42.78125
+
+line3 =
+	N14.00791, E42.69404
+	N13.95488, E42.75605
+	N13.95024, E42.77422
+	N13.97148, E42.78740
+	N14.01226, E42.79834
+	N14.06748, E42.76211
+	N14.00791, E42.69404
+
+line4 =
+	N15.65464, E42.71719
+	N15.37163, E42.79990
+	N15.32627, E42.79902
+	N15.26572, E42.78848
+	N15.29355, E42.73643
+	N15.32632, E42.69785
+	N15.23281, E42.65781
+	N15.13296, E42.85566
+	N15.00557, E42.89707
+	N14.93857, E42.93643
+	N14.89805, E42.93730
+	N14.86309, E42.91299
+	N14.81738, E42.92217
+	N14.77314, E42.94697
+	N14.55488, E43.02109
+	N14.52080, E43.01875
+	N14.48311, E43.00625
+	N14.34155, E43.04482
+	N14.20366, E43.09336
+	N14.01099, E43.08906
+	N13.85894, E43.23408
+
+[airport1]
+name = Hodeidah International Airport
+code = OYHD
+runways =
+	rwy1, 03, N14.7408, E42.9701, 26.4, 9843, 0, 0, 29

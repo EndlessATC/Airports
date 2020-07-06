@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 177
+center = N16.7414, W22.9494
+magneticvar = -10.515
+beacons =
+	CVS, N16.73680, W22.95100, 0, Sal
+	SAL, N16.70180, W22.94870, 0, Sal
+	BVT, N16.15110, W22.88810, 0, Rabil
+
+line1 =
+	N16.16904, W22.69263
+	N16.22153, W22.74941
+	N16.22554, W22.80264
+	N16.21899, W22.83433
+	N16.23726, W22.91772
+	N16.14844, W22.91611
+	N16.04512, W22.95928
+	N15.99272, W22.88408
+	N15.98604, W22.82051
+	N16.04336, W22.71011
+	N16.11328, W22.68188
+	N16.16904, W22.69263
+
+line2 =
+	N16.56104, W24.09414
+	N16.57202, W24.03271
+	N16.59307, W24.04639
+	N16.62251, W24.08770
+
+line3 =
+	N16.73213, W22.90391
+	N16.84375, W22.90474
+	N16.84102, W22.93291
+	N16.80884, W22.99092
+	N16.70088, W22.98062
+	N16.68306, W22.95942
+	N16.60791, W22.92026
+	N16.65908, W22.88833
+	N16.73213, W22.90391
+
+[airport1]
+name = Amílcar Cabral International Airport
+code = GVAC
+runways =
+	rwy1, 01, N16.7213, W22.9488, 357.9, 10735, 885, 0, 176
+	rwy2, 07, N16.7367, W22.958, 57.7, 4921, 0, 0, 177

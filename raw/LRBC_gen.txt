@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 607
+center = N46.521900177, E26.9102993011
+magneticvar = 5.005
+beacons =
+	BC, N46.47810, E26.92740, 0, Bacau
+	BCU, N46.51090, E26.82550, 0, Bacau
+	IAS, N47.23430, E27.57970, 0, Iasi
+
+[airport1]
+name = Bacău Airport
+code = LRBC
+runways =
+	rwy1, 16, N46.5327, E26.9059, 165.0, 8203, 0, 0, 607

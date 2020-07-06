@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 52
+center = N24.0230998993, E121.617996216
+magneticvar = -3.357
+beacons =
+	HLN, N24.02860, E121.61700, 0, Hualien
+	YU, N24.01770, E121.62700, 0, Hualien
+	HW, N24.00610, E121.60700, 0, Hualien
+	HLN, N24.01850, E121.64000, 0, Hualien
+	MS, N24.73190, E121.74100, 0, Ilan
+	WK, N24.23330, E120.82300, 0, Hsinshie
+	HLG, N24.64000, E120.78300, 0, Houlung
+	HL, N24.64640, E120.77400, 0, Houlung
+	HSU, N24.82170, E120.93800, 0, Hsinchu
+
+line1 =
+	N24.92798, E120.96406
+	N24.81328, E120.90156
+	N24.72266, E120.83594
+	N24.64229, E120.75742
+	N24.47852, E120.62969
+
+line2 =
+	N23.06729, E121.35225
+	N23.17251, E121.39746
+	N23.42407, E121.47715
+	N23.66826, E121.52607
+	N23.86089, E121.58340
+	N24.05273, E121.61309
+	N24.13008, E121.63936
+	N24.28525, E121.73701
+	N24.53437, E121.82803
+	N24.64053, E121.82637
+	N24.74634, E121.81338
+	N24.82451, E121.82012
+	N24.89526, E121.85625
+	N24.97373, E121.92900
+
+[airport1]
+name = Hualien Airport
+code = RCYU
+runways =
+	rwy1, 03, N24.0126, E121.611, 26.0, 9022, 0, 0, 45
+	rwy2, 03L, N24.0126, E121.611, 26.3, 9022, 0, 0, 45
+	rwy3, 03R, N24.011, E121.613, 26.2, 9005, 656, 328, 42

@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1724
+usa = true
+center = S23.4178009033, E119.803001404
+magneticvar = 1.463
+beacons =
+	NWN, S23.42080, E119.80300, 0, Newman
+	NWN, S23.41810, E119.79700, 0, Newman
+
+[airport1]
+name = Newman Airport
+code = YNWN
+runways =
+	rwy1, 05, S23.4238, E119.795, 56.0, 6798, 0, 0, 1724

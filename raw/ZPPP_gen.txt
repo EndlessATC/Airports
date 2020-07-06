@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6903
+metric = true
+center = N25.1019444, E102.9291667
+magneticvar = -1.163
+beacons =
+	QB, N25.10830, E102.93300, 0, Hunshuitang
+	KMG, N25.01670, E102.73300, 0, Kunming
+	LR, N24.87080, E102.66000, 0, Kunming
+	SL, N25.44830, E103.29200, 0, Maguohe
+	LXI, N24.53830, E103.74300, 0, Luxi
+	ZN, N24.51670, E103.75000, 0, Luxi
+
+line1 =
+	N26.09836, E101.84715
+	N26.01640, E101.85221
+	N25.98146, E101.91205
+	N25.99350, E102.02667
+	N26.05686, E102.12599
+
+line2 =
+	N25.87891, E103.92165
+	N25.80116, E103.85457
+	N25.72489, E103.83566
+	N25.57384, E103.84589
+	N25.34145, E103.88299
+	N25.21887, E103.86677
+	N25.12854, E103.80961
+	N25.04783, E103.71272
+	N24.93910, E103.48777
+	N24.93496, E103.44757
+	N24.95527, E103.41563
+	N24.99997, E103.39217
+	N25.01279, E103.32644
+	N24.99367, E103.21854
+	N24.94372, E103.16474
+	N24.86300, E103.16505
+	N24.77394, E103.13151
+	N24.67658, E103.06402
+	N24.60865, E103.05281
+	N24.57013, E103.09777
+	N24.51995, E103.10485
+	N24.45815, E103.07415
+	N24.32138, E103.08046
+
+line3 =
+	N24.10959, E103.59081
+	N24.15346, E103.62275
+	N24.18488, E103.67448
+	N24.20385, E103.74590
+	N24.27046, E103.82501
+	N24.38474, E103.91183
+	N24.44174, E103.98733
+	N24.44145, E104.05151
+	N24.47158, E104.15094
+
+[airport1]
+name = Kunming Changshui International Airport
+code = ZPPP
+runways =
+	rwy1, 03, N25.1022, E102.917, 39.3, 13123, 0, 0, 6891
+	rwy2, 04, N25.0897, E102.931, 39.0, 14764, 0, 1644, 6885

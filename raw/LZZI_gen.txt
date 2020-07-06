@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1020
+center = N49.2314987183, E18.6135005951
+magneticvar = 3.069
+beacons =
+	ZLA, N49.20290, E18.51050, 0, Zilina
+	DBV, N48.85810, E18.79940, 0, Dubove
+	OTA, N49.69750, E18.10910, 0, Ostrava
+	TR, N48.86110, E17.94170, 0, Trencin
+	HLV, N49.32290, E17.52840, 0, Holesov
+	GT, N49.19310, E17.51780, 0, Otrokovice
+	KUN, N49.11390, E17.50140, 0, Kunovice
+	JAB, N49.48290, E19.67860, 0, Jablonka
+	JAB, N49.47660, E19.69400, 0, Jablonka
+	KNE, N49.04650, E17.45220, 0, Kunovice
+	PNY, N48.60810, E17.82230, 0, Centr
+	CN, N48.57080, E17.80840, 0, Piestany
+	SLC, N48.45320, E19.11590, 0, Sliac
+	CK, N49.40710, E17.33920, 0, Prerov
+
+line1 =
+	N49.92504, E18.81046
+	N49.93189, E18.93686
+
+line2 =
+	N49.73939, E17.61797
+	N49.65402, E17.84695
+	N49.63707, E17.94643
+	N49.67175, E18.01578
+	N49.72988, E18.14166
+	N49.79474, E18.22486
+	N49.88564, E18.30734
+	N49.97240, E18.31659
+	N50.05503, E18.25261
+	N50.13746, E18.23101
+	N50.21967, E18.25179
+
+line3 =
+	N49.64384, E18.87919
+	N49.81742, E18.78819
+	N49.88770, E18.77098
+	N49.92501, E18.81025
+	N49.93189, E18.93686
+	N49.95230, E19.06817
+	N49.98659, E19.14129
+	N50.04155, E19.19989
+	N50.04573, E19.34826
+	N49.99922, E19.58628
+	N50.00604, E19.85164
+	N50.09632, E20.29068
+
+[airport1]
+name = Žilina Airport
+code = LZZI
+runways =
+	rwy1, 06, N49.2293, E18.6064, 65.0, 3773, 0, 0, 1017

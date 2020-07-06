@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3655
+center = N7.3570098877, E13.5592002869
+magneticvar = -1.030
+beacons =
+	TJN, N7.35605, E13.56200, 0, Ngaoundere
+	TJN, N7.33007, E13.54820, 0, Ngaoundere
+
+line1 =
+	N7.77746, E13.52417
+	N7.85451, E13.67351
+	N7.92226, E13.71708
+	N8.00633, E13.70457
+	N8.07093, E13.73625
+	N8.13847, E13.85004
+	N8.24038, E13.95990
+	N8.31234, E13.99752
+
+line2 =
+	N6.69840, E14.66529
+	N6.66099, E14.70477
+	N6.58474, E14.68740
+	N6.39333, E14.59583
+
+[airport1]
+name = N'Gaoundéré Airport
+code = FKKN
+runways =
+	rwy1, 02, N7.34599, E13.5547, 22.0, 8858, 492, 131, 3649

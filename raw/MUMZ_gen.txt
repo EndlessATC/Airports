@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 112
+center = N20.2880992889, W77.0892028809
+magneticvar = -7.052
+beacons =
+	UMZ, N20.30280, W77.09940, 0, Manzanillo
+	UBY, N20.39390, W76.61920, 0, Bayamo
+	UVT, N20.98860, W76.93880, 0, Tunas
+	UHG, N20.73050, W76.37640, 0, Holguin
+	HG, N20.77050, W76.33180, 0, Holguin
+	UHG, N20.79810, W76.30310, 0, Holguin
+
+line1 =
+	N21.11426, W75.89902
+	N21.13345, W76.07363
+	N21.22739, W76.25923
+	N21.27363, W76.45518
+	N21.27212, W76.55171
+	N21.28452, W76.64741
+
+line2 =
+	N20.92749, W78.31387
+	N20.76187, W78.11636
+	N20.71538, W77.99731
+	N20.71362, W77.85688
+	N20.69009, W77.59272
+	N20.68950, W77.46704
+	N20.67236, W77.34756
+	N20.64375, W77.22959
+	N20.61084, W77.20547
+	N20.55996, W77.18896
+	N20.49165, W77.10791
+	N20.45293, W77.09302
+	N20.40752, W77.10381
+	N20.34727, W77.14941
+	N20.30039, W77.21338
+	N20.08213, W77.55376
+	N19.85547, W77.71509
+	N19.86138, W77.46318
+	N19.89375, W77.21196
+	N19.89282, W76.99946
+	N19.92134, W76.89023
+	N19.94019, W76.77974
+	N19.95669, W76.51562
+	N19.98716, W76.25283
+	N19.98975, W76.15845
+
+[airport1]
+name = Sierra Maestra Airport
+code = MUMZ
+runways =
+	rwy1, 08, N20.2852, W77.1003, 74.0, 7875, 0, 0, 112

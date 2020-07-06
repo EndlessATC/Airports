@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 871
+usa = true
+transition = 18001
+center = N40.47710037, W88.91590118
+magneticvar = -1.000
+beacons =
+	BMI, N40.48080, W88.93120, 0, Bloomington
+	LH, N40.56040, W88.87460, 0, Egrow
+	PNT, N40.82120, W88.73350, 0, Pontiac
+	AAA, N40.16010, W89.33780, 0, Abraham
+	PI, N40.60570, W89.59310, 0, Tungg
+	RBS, N40.58170, W88.16430, 0, Roberts
+	CMI, N40.03450, W88.27610, 0, Champaign
+	DE, N39.79050, W88.95380, 0, Elwin
+	PIA, N40.68010, W89.79280, 0, Peoria
+	AXC, N39.73752, W88.85643, 0, Decatur
+	CM, N39.96620, W88.18240, 0, Veals
+	LQ, N39.91200, W89.60310, 0, Licol
+	CJ, N39.79710, W89.59200, 0, Calde
+	BDF, N41.15970, W89.58790, 0, Bradford
+	SPI, N39.83970, W89.67770, 0, Spinner
+	SP, N39.77310, W89.75990, 0, Huskk
+	IKK, N41.07440, W87.84980, 0, Kankakee
+	EZI, N41.20110, W89.95930, 0, Kewanee
+
+line1 =
+	N40.21413, W87.40378
+	N40.12747, W87.44502
+	N40.01833, W87.43773
+	N39.94077, W87.41872
+	N39.89472, W87.38807
+
+line2 =
+	N39.68161, W87.38802
+	N39.56771, W87.41262
+
+[airport1]
+name = Central Illinois Regional Airport at Bloomington-Normal
+code = KBMI
+runways =
+	rwy1, 02, N40.4641, W88.916, 17.9, 8000, 0, 0, 857
+	rwy2, 03, N40.4768, W88.9325, 36.3, 3723, 0, 0, 871
+	rwy3, 11, N40.4831, W88.9323, 107.9, 6525, 0, 0, 871

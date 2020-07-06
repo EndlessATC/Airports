@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 35
+usa = true
+transition = 18001
+center = N47.4247016907, W61.7780990601
+magneticvar = -20.180
+beacons =
+	YGR, N47.43030, W61.77410, 0, Grindstone
+	GR, N47.37500, W61.90720, 0, Grindstone
+
+line1 =
+	N46.61333, W60.38408
+	N46.73701, W60.33291
+	N46.76782, W60.33174
+	N46.92319, W60.42544
+	N46.96294, W60.43135
+	N47.00352, W60.40820
+	N47.00972, W60.48906
+	N46.99883, W60.57104
+	N46.97578, W60.61665
+	N46.86338, W60.75967
+	N46.79678, W60.87017
+	N46.72944, W60.93198
+	N46.65049, W60.98252
+
+line2 =
+	N46.48721, W62.16357
+	N46.47827, W62.42310
+	N46.45942, W62.68193
+	N46.45029, W62.71201
+	N46.42773, W62.96401
+
+line3 =
+	N46.46021, W63.28608
+	N46.50825, W63.36865
+	N46.51201, W63.41313
+	N46.50391, W63.45649
+
+line4 =
+	N46.44570, W62.04087
+	N46.46572, W62.07427
+	N46.48721, W62.16357
+
+line5 =
+	N47.56396, W61.47554
+	N47.63765, W61.39551
+	N47.64678, W61.47407
+	N47.63179, W61.54805
+	N47.59385, W61.62783
+	N47.46909, W61.82729
+	N47.42515, W61.92471
+	N47.23428, W62.00830
+	N47.21899, W61.95083
+	N47.22261, W61.83374
+	N47.25981, W61.77256
+	N47.26758, W61.81548
+	N47.26553, W61.87871
+	N47.28452, W61.91411
+	N47.34463, W61.88662
+	N47.39204, W61.83125
+	N47.43081, W61.75088
+	N47.49873, W61.68408
+	N47.56001, W61.58223
+	N47.56396, W61.47554
+
+[airport1]
+name = Îles-de-la-Madeleine Airport
+code = CYGR
+runways =
+	rwy1, 07, N47.4206, W61.7879, 53.0, 4500, 0, 0, 22
+	rwy2, 16, N47.4294, W61.7858, 138.7, 3600, 0, 0, 9

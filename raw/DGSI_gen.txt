@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 942
+center = N6.71456003189, W1.59081995487
+magneticvar = -4.516
+beacons =
+	KSI, N6.70857, W1.59066, 0, Kumasi
+	KL, N6.74785, W1.58390, 0, Kumasi
+	SN, N7.37748, W2.29957, 0, Sunyani
+
+line1 =
+	N6.66792, W0.42764
+	N6.71729, W0.55029
+	N6.75332, W0.63364
+	N6.80151, W0.67373
+	N6.83442, W0.68374
+	N6.83584, W0.65986
+	N6.80732, W0.61597
+	N6.78472, W0.57959
+	N6.81084, W0.55083
+	N6.79380, W0.51782
+	N6.73672, W0.49058
+	N6.72266, W0.46665
+	N6.72666, W0.44219
+	N6.73101, W0.41865
+
+line2 =
+	N7.59365, W0.43184
+	N7.58911, W0.47456
+	N7.59663, W0.49805
+	N7.57622, W0.53115
+	N7.55361, W0.60332
+	N7.55127, W0.65371
+	N7.56704, W0.61133
+	N7.59990, W0.54346
+	N7.62456, W0.48267
+	N7.64883, W0.42153
+
+[airport1]
+name = Kumasi Airport
+code = DGSI
+runways =
+	rwy1, 02, N6.70578, W1.59261, 12.0, 6502, 0, 0, 942

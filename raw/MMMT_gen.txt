@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = N18.1033992767, W94.5807037354
+magneticvar = 4.097
+beacons =
+	MTT, N18.10290, W94.58230, 0, Minatitlan
+
+line1 =
+	N18.43047, W93.55234
+	N18.35791, W93.76440
+	N18.30444, W93.87314
+	N18.19526, W94.18901
+	N18.16597, W94.39229
+	N18.16665, W94.45977
+	N18.17485, W94.54619
+	N18.34849, W94.68164
+	N18.51460, W94.79814
+	N18.57061, W95.01470
+	N18.70073, W95.18184
+	N18.71914, W95.56143
+	N18.77490, W95.69712
+	N18.76836, W95.71982
+	N18.72368, W95.65493
+	N18.69043, W95.57832
+	N18.69058, W95.62681
+
+[airport1]
+name = Minatitlán/Coatzacoalcos National Airport
+code = MMMT
+runways =
+	rwy1, 01, N18.0944, W94.5837, 17.8, 6890, 0, 0, 33

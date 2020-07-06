@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1005
+center = N68.3626022339, E23.4242992401
+magneticvar = 9.095
+beacons =
+	ENO, N68.38130, E23.46180, 0, Enodak
+	HET, N68.42230, E23.53670, 0, Hetta
+	KNO, N69.01890, E23.02300, 0, Kautokeino
+	KIT, N67.62310, E24.89750, 0, Kittila
+
+[airport1]
+name = Enontekio Airport
+code = EFET
+runways =
+	rwy1, 03, N68.3552, E23.4105, 34.7, 6565, 0, 0, 999

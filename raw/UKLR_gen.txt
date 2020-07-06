@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 755
+center = N50.6071014404, E26.1415996552
+magneticvar = 4.559
+beacons =
+	RD, N50.61640, E26.13150, 0, Rivne
+	W, N50.61750, E26.11230, 0, Rivne
+	RW, N50.62800, E26.08150, 0, Rivne
+	SW, N50.18140, E27.04150, 0, Shepetivka
+	ZL, N49.80300, E24.90150, 0, Zolochiv
+
+[airport1]
+name = Rivne International Airport
+code = UKLR
+runways =
+	rwy1, 05, N50.5992, E26.158, 56.1, 2150, 0, 275, 0
+	rwy2, 12, N50.6127, E26.1254, 118.0, 8615, 0, 0, 746

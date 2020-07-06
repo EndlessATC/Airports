@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 72
+center = N9.57689, W13.612
+magneticvar = -8.270
+beacons =
+	GIA, N9.56798, W13.61970, 0, Conakry
+	CY, N9.58952, W13.59670, 0, Conakry
+	KR, N9.56052, W13.63110, 0, Conakry
+
+line1 =
+	N10.54985, W14.60957
+	N10.24834, W14.42690
+	N10.12861, W14.17041
+	N10.12725, W14.08628
+	N10.14126, W14.04502
+	N10.11514, W14.02993
+	N10.04785, W14.02187
+	N9.96870, W13.95464
+	N9.88721, W13.82012
+	N9.87026, W13.75371
+	N9.92295, W13.71265
+	N9.92778, W13.68979
+	N9.85127, W13.70049
+	N9.77637, W13.65869
+	N9.63911, W13.65713
+	N9.53579, W13.69136
+	N9.54341, W13.56826
+	N9.42031, W13.43628
+	N9.36064, W13.40557
+	N9.31431, W13.39609
+	N9.21851, W13.29590
+	N9.17056, W13.26948
+	N9.07837, W13.30264
+	N9.04922, W13.29268
+	N8.98740, W13.27163
+	N8.89771, W13.15371
+	N8.88115, W13.05947
+	N8.85635, W13.07104
+	N8.84312, W13.20693
+	N8.76597, W13.22617
+	N8.69590, W13.22842
+	N8.57690, W13.18184
+	N8.58877, W13.12163
+	N8.62573, W13.08823
+	N8.61514, W12.95337
+	N8.65625, W12.90400
+	N8.62979, W12.89409
+	N8.58154, W12.91294
+
+[airport1]
+name = Conakry International Airport
+code = GUCY
+runways =
+	rwy1, 06, N9.56721, W13.6233, 49.0, 10826, 0, 0, 69

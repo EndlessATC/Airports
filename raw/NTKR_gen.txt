@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = S14.4558000565, W145.024993896
+magneticvar = 12.002
+beacons =
+	TP, S14.71470, W145.25301, 0, Takapoto
+
+[airport1]
+name = Takaroa Airport
+code = NTKR
+runways =
+	rwy1, 07, S14.4561, W145.029, 86.2, 3452, 0, 0, 11
+
+[airport2]
+name = Takapoto Airport
+code = GT
+runways =
+	rwy2, 07, S14.7103, W145.25, 80.2, 3018, 0, 0, 12
+inboundbeacon = TP

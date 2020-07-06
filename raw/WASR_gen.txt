@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = S0.891833, E134.048996
+magneticvar = 2.306
+beacons =
+	ZQ, S0.88713, E134.05200, 0, Manokwari
+
+line1 =
+	S0.51182, E133.07715
+	S0.63574, E133.26846
+	S0.72617, E133.47266
+	S0.74141, E133.72363
+	S0.73145, E133.85029
+	S0.74434, E133.97451
+	S0.76973, E134.02490
+	S0.84678, E134.11152
+	S0.89736, E134.08672
+	S1.00186, E134.07197
+	S1.10244, E134.11621
+	S1.20312, E134.18828
+	S1.31055, E134.24717
+	S1.36299, E134.25957
+	S1.47412, E134.23721
+	S1.52910, E134.21699
+	S1.62080, E134.14541
+	S1.72100, E134.10586
+	S1.84453, E134.13125
+
+line2 =
+	S1.03057, E134.95674
+	S0.97891, E134.94082
+	S0.93848, E134.88926
+	S0.97881, E134.82793
+	S1.03760, E134.80889
+	S1.11416, E134.86172
+	S1.13428, E134.91738
+	S1.11602, E134.96533
+	S1.03408, E134.99629
+	S1.03057, E134.95674
+
+[airport1]
+name = Rendani Airport
+code = WASR
+runways =
+	rwy1, 17, S0.882775, E134.049, 178.3, 6576, 0, 0, 15

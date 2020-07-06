@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 121
+metric = true
+center = N35.405033, E119.324403
+magneticvar = -6.170
+beacons =
+	XJT, N35.96170, E120.24000, 0, Xuejiadao
+
+line1 =
+	N34.44780, E119.96367
+	N34.49619, E119.76973
+	N34.58223, E119.58291
+	N34.71416, E119.42676
+	N34.74941, E119.35137
+	N34.74844, E119.20098
+	N34.84883, E119.16533
+	N35.01177, E119.21582
+	N35.11382, E119.35283
+	N35.30142, E119.42969
+	N35.35859, E119.52646
+	N35.46987, E119.60840
+	N35.58872, E119.71973
+	N35.61772, E119.81055
+	N35.64365, E119.86621
+	N35.69321, E119.91172
+	N35.74023, E119.97871
+	N35.79937, E120.02744
+	N35.86113, E120.05469
+	N35.93491, E120.21904
+	N35.98442, E120.28477
+	N36.00723, E120.26475
+	N36.01748, E120.18145
+	N36.11890, E120.09414
+	N36.15029, E120.11699
+	N36.20244, E120.18330
+	N36.22617, E120.27012
+	N36.22817, E120.32773
+	N36.18945, E120.34346
+	N36.11011, E120.33027
+	N36.07920, E120.34824
+	N36.05386, E120.39307
+	N36.10869, E120.51934
+	N36.12993, E120.63789
+	N36.16836, E120.68096
+	N36.34072, E120.68223
+
+[airport1]
+name = Rizhao Shanzihe Airport
+code = ZSRZ

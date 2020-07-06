@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 46
+center = N7.81196, W76.7164
+magneticvar = -4.267
+beacons =
+	LCE, N7.81799, W76.72190, 0, Los Cedros
+	TUR, N8.07325, W76.73660, 0, Turbo
+
+line1 =
+	N8.21621, W77.85293
+	N8.13325, W77.76055
+	N8.15117, W77.83364
+
+line2 =
+	N7.13726, W77.80371
+	N6.96040, W77.68096
+	N6.86963, W77.64585
+	N6.83730, W77.60215
+
+line3 =
+	N8.69473, W76.68936
+	N8.64067, W76.80225
+	N8.61987, W76.88799
+	N8.57373, W76.92046
+	N8.51274, W76.87222
+	N8.46470, W76.81860
+	N8.31055, W76.77207
+	N8.00215, W76.74233
+	N7.93159, W76.78657
+	N7.91797, W76.86689
+	N7.93945, W76.89663
+	N7.97319, W76.92466
+	N8.03340, W76.91221
+	N8.06270, W76.86909
+	N8.09048, W76.85186
+	N8.12798, W76.89097
+	N8.14683, W76.93584
+	N8.25034, W76.99229
+	N8.40059, W77.13013
+	N8.49370, W77.26157
+	N8.63672, W77.34414
+	N8.65830, W77.37422
+
+[airport1]
+name = Antonio Roldan Betancourt Airport
+code = SKLC
+runways =
+	rwy1, 15, N7.82046, W76.7214, 149.5, 7153, 0, 0, 39

@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 154
+center = N57.7839012146, E28.3955993652
+magneticvar = 7.260
+beacons =
+	NP, N57.82670, E28.42330, 0, Pskov
+	PK, N57.73830, E28.37000, 0, Pskov
+	PE, N57.81670, E27.60000, 0, Pechory
+
+line1 =
+	N58.18413, E27.49707
+	N58.21479, E27.56855
+	N58.17461, E27.59180
+	N58.16426, E27.71436
+	N58.17349, E27.86514
+	N58.17349, E27.86514
+	N58.17349, E27.86514
+	N58.17349, E27.86514
+	N58.17349, E27.86514
+	N58.13262, E27.97305
+	N58.04443, E28.09697
+	N57.97466, E28.14922
+	N57.91450, E28.16924
+	N57.85996, E28.10176
+	N57.86812, E27.99209
+	N57.89575, E27.91094
+	N57.92041, E27.87539
+	N57.93701, E27.88164
+	N57.99023, E27.80273
+	N58.01851, E27.67832
+	N58.01426, E27.62383
+	N58.18413, E27.49707
+
+line2 =
+	N58.21479, E27.56855
+	N58.18413, E27.49707
+	N58.21675, E27.47266
+	N58.30308, E27.42549
+	N58.40190, E27.32393
+	N58.45225, E27.23662
+	N58.64795, E27.15674
+
+line3 =
+	N58.57134, E27.81367
+	N58.48491, E27.82051
+	N58.44683, E27.79814
+	N58.42993, E27.74785
+	N58.30640, E27.58271
+	N58.25742, E27.56133
+	N58.21479, E27.56855
+
+[airport1]
+name = Pskov Airport
+code = ULOO
+runways =
+	rwy1, 01, N57.7754, E28.3904, 18.1, 6562, 0, 0, 149
+	rwy2, 01R, N57.7765, E28.3927, 18.4, 5578, 0, 0, 0

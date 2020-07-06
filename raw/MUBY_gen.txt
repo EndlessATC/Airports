@@ -1,0 +1,85 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 203
+center = N20.3964004517, W76.6213989258
+magneticvar = -7.140
+beacons =
+	UBY, N20.39390, W76.61920, 0, Bayamo
+	UHG, N20.73050, W76.37640, 0, Holguin
+	UMZ, N20.30280, W77.09940, 0, Manzanillo
+	HG, N20.77050, W76.33180, 0, Holguin
+	UHG, N20.79810, W76.30310, 0, Holguin
+	UVT, N20.98860, W76.93880, 0, Tunas
+	K, N19.96880, W75.93530, 0, Santiago De Cuba
+	UCU, N19.97780, W75.82280, 0, Santiago De Cuba
+	UCU, N19.97290, W75.82090, 0, Santiago De Cuba
+
+line1 =
+	N20.71665, W75.52461
+	N20.73350, W75.64277
+	N20.71455, W75.72456
+	N20.73618, W75.75298
+	N20.77554, W75.76040
+	N20.81196, W75.74023
+	N20.83765, W75.59727
+	N20.89814, W75.66294
+	N20.94746, W75.63853
+	N20.99468, W75.59580
+	N21.06133, W75.63374
+	N21.11104, W75.72295
+	N21.11426, W75.89902
+	N21.13345, W76.07363
+	N21.22739, W76.25923
+	N21.27363, W76.45518
+	N21.27212, W76.55171
+	N21.28452, W76.64741
+	N21.34043, W76.68853
+	N21.35889, W76.72607
+	N21.36240, W76.76499
+	N21.33042, W76.86743
+	N21.36479, W76.85981
+
+line2 =
+	N20.71362, W77.85688
+	N20.69009, W77.59272
+	N20.68950, W77.46704
+	N20.67236, W77.34756
+	N20.64375, W77.22959
+	N20.61084, W77.20547
+	N20.55996, W77.18896
+	N20.49165, W77.10791
+	N20.45293, W77.09302
+	N20.40752, W77.10381
+	N20.34727, W77.14941
+	N20.30039, W77.21338
+	N20.08213, W77.55376
+	N19.85547, W77.71509
+	N19.86138, W77.46318
+	N19.89375, W77.21196
+	N19.89282, W76.99946
+	N19.92134, W76.89023
+	N19.94019, W76.77974
+	N19.95669, W76.51562
+	N19.98716, W76.25283
+	N19.98975, W76.15845
+	N19.96040, W75.76514
+	N19.93223, W75.65723
+	N19.89111, W75.55195
+
+[airport1]
+name = Carlos Manuel de Cespedes Airport
+code = MUBY
+runways =
+	rwy1, 07, N20.3929, W76.6308, 68.0, 6887, 342, 164, 171
+
+[airport2]
+name = Frank Pais International Airport
+code = HG
+runways =
+	rwy2, 05, N20.7754, W76.3263, 46.0, 10624, 328, 0, 279
+inboundbeacon = UHG

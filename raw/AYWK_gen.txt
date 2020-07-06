@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+center = S3.58383011818, E143.669006348
+magneticvar = 4.470
+beacons =
+	WK, S3.58352, E143.67599, 0, Wewak
+	WK, S3.58137, E143.67799, 0, Wewak
+
+line1 =
+	S3.20459, E142.54902
+	S3.32070, E142.90518
+	S3.34492, E143.01562
+	S3.35508, E143.12998
+	S3.39531, E143.37832
+	S3.43115, E143.50898
+	S3.57334, E143.70059
+	S3.61729, E143.79717
+	S3.69746, E143.88770
+	S3.78359, E144.01582
+	S3.80518, E144.06641
+	S3.81523, E144.12197
+	S3.81826, E144.24795
+	S3.80273, E144.37441
+	S3.80967, E144.42656
+	S3.82529, E144.47773
+	S3.85527, E144.52451
+	S3.91309, E144.54824
+	S3.99307, E144.62666
+	S4.02910, E144.73789
+
+[airport1]
+name = Wewak International Airport
+code = AYWK
+runways =
+	rwy1, 10, S3.5821, E143.662, 103.9, 5234, 0, 0, 16

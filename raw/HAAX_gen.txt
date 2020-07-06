@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6959
+center = N14.1468000412, E38.7728004456
+magneticvar = 2.036
+beacons =
+	AX, N14.14600, E38.77630, 0, Axum
+	MK, N13.47510, E39.52170, 0, Mekele
+	QHA, N13.47280, E39.52470, 0, Mekele
+
+line1 =
+	N13.87533, E37.81664
+	N13.90998, E37.69959
+	N13.97041, E37.62926
+
+[airport1]
+name = Axum Airport
+code = HAAX
+runways =
+	rwy1, 16, N14.1569, E38.7693, 160.0, 7874, 0, 0, 6926

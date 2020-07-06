@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = N16.0508003235, W16.4631996155
+magneticvar = -8.064
+beacons =
+	SLO, N16.04910, W16.45710, 0, Saint Louis
+
+line1 =
+	N16.92642, W16.34668
+	N16.60151, W16.46362
+	N16.45425, W16.48130
+	N16.28682, W16.53574
+	N15.83838, W16.53525
+	N15.73442, W16.57075
+	N15.29399, W16.84341
+
+line2 =
+	N16.58199, W15.37996
+	N16.55661, W15.51670
+	N16.50659, W15.62077
+	N16.48509, W15.76821
+	N16.49212, W15.95899
+	N16.51047, W16.07403
+	N16.54013, W16.11330
+	N16.54705, W16.16834
+	N16.53129, W16.23903
+	N16.45132, W16.30231
+	N16.30717, W16.35812
+	N16.22490, W16.40434
+	N16.20454, W16.44103
+	N16.09721, W16.48010
+	N15.91732, W16.50206
+	N15.83836, W16.53524
+
+[airport1]
+name = Saint Louis Airport
+code = GOSS
+runways =
+	rwy1, 01, N16.0399, W16.4566, 4.3, 4300, 0, 0, 0
+	rwy2, 18, N16.0588, W16.4623, 172.6, 6230, 0, 0, 10

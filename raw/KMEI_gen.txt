@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 297
+usa = true
+transition = 18001
+center = N32.3325996399, W88.7518997192
+magneticvar = -0.120
+beacons =
+	MEI, N32.37850, W88.80430, 0, Meridian
+	ME, N32.24710, W88.77160, 0, Savoy
+	EWA, N32.36680, W88.45840, 0, Kewanee
+	NMM, N32.57850, W88.54530, 0, Meridian
+	NJW, N32.79510, W88.83530, 0, Joe Williams
+	MPE, N32.79850, W89.12460, 0, Philadelphia
+	BCZ, N32.11430, W88.12140, 0, Choctaw
+	RZO, N32.41430, W88.01530, 0, Marengo
+	THJ, N31.68750, W89.18980, 0, Tallahala
+	LMS, N33.14370, W89.06090, 0, Louisville
+	AIV, N33.11400, W88.18560, 0, Aliceville
+	OSX, N33.09090, W89.54040, 0, Kosciusko
+
+line1 =
+	N32.11034, W87.40947
+	N32.03562, W87.45285
+	N31.97960, W87.45207
+	N31.94224, W87.40714
+	N31.91619, W87.41794
+	N31.90144, W87.48445
+	N31.86800, W87.49411
+	N31.81584, W87.44688
+	N31.76478, W87.45587
+	N31.71478, W87.52109
+	N31.66026, W87.54300
+	N31.60117, W87.52160
+	N31.55931, W87.53494
+	N31.53461, W87.58305
+	N31.49859, W87.60160
+	N31.45118, W87.59064
+	N31.41253, W87.62950
+	N31.38263, W87.71818
+
+[airport1]
+name = Key Field
+code = KMEI
+runways =
+	rwy1, 01, N32.3177, W88.7564, 9.0, 10003, 1000, 1000, 287
+	rwy2, 04, N32.331, W88.7529, 44.0, 4599, 0, 0, 290

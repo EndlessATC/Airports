@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 33
+center = N55.9732017517, E21.0939006805
+magneticvar = 4.580
+beacons =
+	PN, N55.95640, E21.08710, 0, Palanga
+	KLA, N55.71560, E21.24380, 0, Klaipeda
+	LIE, N56.51860, E21.09200, 0, Liepaja
+
+line1 =
+	N56.93276, E21.25742
+	N56.82373, E21.07129
+	N56.63657, E21.03145
+	N56.25894, E21.01494
+	N56.07007, E21.04609
+	N56.02295, E21.05381
+	N55.81343, E21.06191
+	N55.61772, E21.17109
+	N55.45503, E21.23789
+	N55.34380, E21.20107
+	N55.27119, E21.23633
+	N55.10776, E21.22285
+
+line2 =
+	N54.98237, E20.59482
+	N55.18364, E20.85938
+	N55.35049, E21.03174
+	N55.48774, E21.10391
+	N55.56816, E21.11572
+	N55.61650, E21.11484
+	N55.58311, E21.08789
+	N55.47681, E21.05762
+	N55.40195, E21.01406
+	N55.28667, E20.89980
+	N55.23203, E20.84570
+	N55.10264, E20.67891
+	N54.99487, E20.52031
+
+[airport1]
+name = Palanga International Airport
+code = EYPA
+runways =
+	rwy1, 01, N55.9645, E21.0903, 13.0, 6562, 0, 0, 33

@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = N12.6001348495, W61.411945343
+magneticvar = -14.068
+beacons =
+	CAI, N12.69620, W61.33930, 0, Canouan
+	SV, N13.14060, W61.22620, 0, E T Joshua
+	GND, N12.00930, W61.78100, 0, Point Salines
+	GND, N12.00130, W61.78540, 0, Point Salines
+
+line1 =
+	N12.23730, W61.66045
+	N12.18506, W61.71504
+	N12.10854, W61.74966
+	N12.04570, W61.75596
+	N12.00820, W61.78208
+	N12.01265, W61.71543
+	N12.05420, W61.62710
+	N12.22339, W61.60679
+	N12.23730, W61.66045
+
+line2 =
+	N13.20288, W61.13452
+	N13.29404, W61.12402
+	N13.35874, W61.13896
+	N13.35596, W61.18213
+	N13.33066, W61.22407
+	N13.28770, W61.26846
+	N13.20957, W61.27729
+	N13.14229, W61.20391
+	N13.15811, W61.17451
+	N13.20288, W61.13452
+
+[airport1]
+name = Union Island International Airport
+code = TVSU
+
+[airport2]
+name = Canouan Airport
+code = SC
+runways =
+	rwy2, 13, N12.7017, W61.3467, 121.7, 5900, 170, 170, 12
+inboundbeacon = CAI
+
+[airport3]
+name = Mustique Airport
+code = SM
+runways =
+	rwy3, 09, N12.8865, W61.1845, 71.0, 3255, 940, 0, 9
+inboundbeacon = CAI
+
+[airport4]
+name = J F Mitchell Airport
+code = SB
+runways =
+	rwy1, 12, N12.9896, W61.267, 103.0, 3609, 0, 0, 0
+inboundbeacon = SV

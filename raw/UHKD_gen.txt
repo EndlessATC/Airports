@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 89
+center = N50.6055984497, E137.080993652
+magneticvar = -12.050
+beacons =
+	KA, N50.40860, E136.93300, 0, Khurba
+	DP, N50.40830, E136.93300, 0, Khurba
+	XR, N50.38330, E137.55000, 0, Selikhino
+
+line1 =
+	N50.45408, E137.06991
+	N50.29812, E137.10138
+	N50.21572, E137.05673
+	N50.15487, E136.94645
+	N50.09787, E136.87209
+	N50.04459, E136.83354
+	N49.91463, E136.77122
+	N49.84993, E136.77029
+	N49.75929, E136.81049
+
+line2 =
+	N49.75929, E136.81049
+	N49.72916, E136.84253
+	N49.67769, E136.84398
+
+line3 =
+	N51.35046, E138.91806
+	N51.29082, E138.88954
+	N51.24752, E138.82505
+	N51.20708, E138.67456
+	N50.85599, E138.06809
+	N50.71427, E137.70770
+	N50.66487, E137.39139
+	N50.60673, E137.18711
+	N50.53981, E137.09482
+	N50.49330, E137.05399
+	N50.45408, E137.06991
+
+[airport1]
+name = Dzemgi Airport
+code = UHKD
+
+[airport2]
+name = Komsomolsk-on-Amur Airport
+code = KK
+inboundbeacon = KA

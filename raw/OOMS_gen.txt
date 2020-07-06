@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 48
+center = N23.5932998657, E58.2844009399
+magneticvar = 0.502
+beacons =
+	MCT, N23.59110, E58.26010, 0, Seeb
+	NSB, N23.59060, E58.25410, 0, Seeb
+	IZK, N22.88850, E57.76190, 0, Izki
+
+line1 =
+	N22.66084, E59.42939
+	N22.79336, E59.31094
+	N22.97187, E59.19473
+	N23.13057, E59.02988
+	N23.23472, E58.98340
+	N23.33418, E58.91152
+	N23.39746, E58.83037
+	N23.51719, E58.77305
+	N23.64346, E58.57803
+	N23.64565, E58.50000
+	N23.61816, E58.39316
+	N23.62383, E58.32451
+	N23.71655, E58.12041
+	N23.75913, E57.82510
+	N23.80366, E57.61133
+	N23.92275, E57.21982
+	N23.98071, E57.12305
+
+[airport1]
+name = Muscat International Airport
+code = OOMS
+runways =
+	rwy1, 08L, N23.606, E58.258, 85.0, 13123, 0, 531, 0
+	rwy2, 08R, N23.5917, E58.2669, 85.0, 11759, 1375, 0, 48

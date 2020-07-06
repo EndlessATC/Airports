@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 12
+center = S2.06189, E147.423996
+magneticvar = 5.204
+beacons =
+	MOE, S2.06142, E147.42599, 0, Momote
+
+line1 =
+	S2.30557, E147.79023
+	S2.31553, E147.73555
+	S2.33125, E147.76895
+	S2.33574, E147.84453
+	S2.28311, E147.87695
+	S2.24678, E147.83584
+	S2.26211, E147.81221
+	S2.30557, E147.79023
+
+line2 =
+	S2.02510, E147.40059
+	S1.96016, E147.06758
+	S1.94854, E146.85713
+	S1.97773, E146.76006
+	S1.97402, E146.65625
+	S2.01689, E146.59590
+	S2.10254, E146.60703
+	S2.12617, E146.53242
+	S2.15410, E146.53135
+	S2.20859, E146.54648
+	S2.21045, E146.57246
+	S2.17334, E146.63545
+	S2.18271, E146.69912
+	S2.14883, E146.74785
+	S2.18906, E146.92637
+	S2.18711, E147.06387
+	S2.16660, E147.14219
+	S2.18193, E147.20635
+	S2.09043, E147.30137
+	S2.06602, E147.33652
+	S2.07061, E147.38545
+	S2.05898, E147.43809
+	S2.01152, E147.44414
+	S1.99453, E147.42441
+	S2.00107, E147.41875
+	S2.02432, E147.42256
+	S2.02510, E147.40059
+
+[airport1]
+name = Momote Airport
+code = AYMO
+runways =
+	rwy1, 16, S2.05393, E147.421, 161.0, 6136, 0, 197, 4

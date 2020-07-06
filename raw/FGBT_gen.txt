@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = N1.90547001362, E9.80568027496
+magneticvar = -3.028
+beacons =
+	BT, N1.90572, E9.80206, 0, Bata
+
+line1 =
+	N2.73496, E9.86758
+	N2.53926, E9.82178
+	N2.30444, E9.80078
+	N2.06821, E9.77969
+	N1.92749, E9.80703
+	N1.78867, E9.71885
+	N1.61758, E9.64766
+	N1.56553, E9.63213
+	N1.54023, E9.58428
+	N1.43530, E9.49424
+	N1.29639, E9.43408
+	N1.13926, E9.38594
+	N1.12065, E9.44531
+	N1.11479, E9.50986
+	N1.05444, E9.59941
+	N1.03198, E9.59082
+	N0.99131, E9.57539
+
+[airport1]
+name = Bata Airport
+code = FGBT
+runways =
+	rwy1, 04, N1.89866, E9.79977, 41.0, 7001, 0, 0, 7

@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 346
+usa = true
+transition = 18001
+center = N32.3111991882, W90.0758972168
+magneticvar = -0.168
+beacons =
+	JA, N32.41250, W90.11950, 0, Allen
+	JH, N32.41300, W90.26130, 0, Brenz
+	JAN, N32.50750, W90.16770, 0, Jackson
+	RYB, N32.30150, W90.41150, 0, Raymond
+	VKS, N32.23290, W90.92650, 0, Vicksburg
+	BVV, N31.60800, W90.41030, 0, Brookhaven
+	TV, N32.24530, W91.02580, 0, Savry
+	OSX, N33.09090, W89.54040, 0, Kosciusko
+	MPE, N32.79850, W89.12460, 0, Philadelphia
+	THJ, N31.68750, W89.18980, 0, Tallahala
+
+line1 =
+	N31.63998, W91.41470
+	N31.77372, W91.37253
+	N31.88397, W91.28649
+	N31.97068, W91.15652
+	N32.04585, W91.09255
+	N32.10414, W91.08870
+	N32.13132, W91.07459
+	N32.14592, W91.04816
+	N32.18558, W91.00459
+	N32.24007, W90.94772
+	N32.27733, W90.93765
+	N32.30309, W90.94044
+	N32.33071, W90.94470
+	N32.38105, W90.99002
+	N32.42376, W91.05927
+	N32.49050, W91.10381
+	N32.54137, W91.10082
+	N32.58623, W91.11611
+	N32.62501, W91.14965
+	N32.66103, W91.14242
+	N32.69426, W91.09436
+	N32.72586, W91.09208
+	N32.75578, W91.13559
+	N32.80885, W91.13606
+	N32.88502, W91.09337
+	N32.93768, W91.09609
+	N32.96688, W91.14417
+	N33.04057, W91.15285
+	N33.21792, W91.10678
+	N33.24081, W91.11730
+	N33.29445, W91.16334
+
+[airport1]
+name = Jackson-Medgar Wiley Evers International Airport
+code = KJAN
+runways =
+	rwy1, 16L, N32.3282, W90.0777, 158.0, 8500, 0, 0, 305
+	rwy2, 16R, N32.3158, W90.0844, 158.0, 8500, 0, 0, 305

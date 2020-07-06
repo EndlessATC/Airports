@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 628
+center = N36.816502, E11.9689
+magneticvar = 1.219
+beacons =
+	PAN, N36.81420, E11.96520, 0, Pantelleria
+	PAN, N36.81140, E11.96100, 0, Pantelleria
+	CBN, N36.89560, E11.08830, 0, Cap Bon
+
+line1 =
+	N37.77378, E12.45439
+	N37.66953, E12.52676
+	N37.59434, E12.64023
+	N37.57183, E12.69902
+	N37.56738, E12.75732
+	N37.57520, E12.87119
+	N37.57051, E12.92412
+	N37.50654, E13.04033
+	N37.47930, E13.16992
+	N37.45181, E13.22109
+	N37.41035, E13.26494
+	N37.34873, E13.36094
+
+line2 =
+	N36.84307, E11.94805
+	N36.82861, E11.93643
+	N36.78037, E11.94063
+	N36.74600, E12.00332
+	N36.75703, E12.05127
+	N36.77637, E12.04805
+	N36.82095, E12.02422
+	N36.84307, E11.94805
+
+line3 =
+	N36.32334, E10.52568
+	N36.41963, E10.64238
+	N36.49312, E10.79814
+	N36.74302, E10.96719
+	N36.84146, E11.05654
+	N36.87407, E11.12666
+	N36.96670, E11.07705
+	N37.07251, E11.05391
+	N37.05928, E10.95137
+	N36.93027, E10.76621
+	N36.87944, E10.57129
+	N36.79136, E10.51816
+
+[airport1]
+name = Pantelleria Airport
+code = LICG
+runways =
+	rwy1, 03, N36.808, E11.9633, 28.0, 4003, 0, 0, 620
+	rwy2, 08, N36.8141, E11.9569, 76.0, 5495, 0, 0, 635

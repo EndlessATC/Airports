@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1788
+center = N13.8470001221, E20.8442993164
+magneticvar = 1.030
+beacons =
+	AE, N13.84510, E20.84500, 0, Abeche
+
+[airport1]
+name = Abeche Airport
+code = FTTC
+runways =
+	rwy1, 09, N13.848, E20.8303, 92.6, 9186, 0, 0, 1751

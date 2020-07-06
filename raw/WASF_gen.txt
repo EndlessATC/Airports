@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 462
+center = S2.9201900959, E132.266998291
+magneticvar = 2.321
+beacons =
+	FA, S2.93350, E132.24800, 0, Fak Fak
+
+line1 =
+	S3.73213, E133.41514
+	S3.78516, E133.40723
+	S3.84258, E133.42227
+	S3.89902, E133.40088
+
+line2 =
+	S3.82812, E132.79092
+	S3.70361, E132.75391
+	S3.55098, E132.86973
+	S3.41299, E132.82979
+	S3.29463, E132.75137
+	S3.13066, E132.55352
+	S2.97510, E132.34824
+	S2.94346, E132.25498
+	S2.92959, E132.10205
+	S2.91455, E132.05391
+	S2.85605, E132.00635
+	S2.78857, E131.97119
+	S2.75957, E132.06689
+	S2.68037, E132.23066
+	S2.68418, E132.32334
+	S2.72715, E132.57549
+	S2.76621, E132.65293
+	S2.78906, E132.72500
+	S2.65820, E132.89727
+	S2.48740, E133.03379
+	S2.45029, E133.11885
+	S2.43779, E133.19102
+	S2.45430, E133.26494
+	S2.51396, E133.41143
+
+line3 =
+	S2.21572, E133.35625
+	S2.21445, E133.22490
+	S2.27256, E132.96279
+	S2.27021, E132.86328
+	S2.24668, E132.63105
+	S2.21846, E132.50264
+	S2.24043, E132.40332
+	S2.24229, E132.30762
+	S2.17578, E132.20742
+	S2.09238, E132.12217
+	S2.03320, E132.07988
+	S1.99033, E132.02344
+	S1.93252, E131.99844
+
+[airport1]
+name = Fakfak Airport
+code = WASF
+runways =
+	rwy1, 10, S2.91962, E132.262, 97.0, 3415, 0, 0, 0

@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2261
+center = N29.7851009369, E40.0999984741
+magneticvar = 3.290
+beacons =
+	AJF, N29.78900, E40.07420, 0, Al Jouf
+
+[airport1]
+name = Al-Jawf Domestic Airport
+code = OESK
+runways =
+	rwy1, 10, N29.7879, E40.0813, 99.8, 12011, 0, 0, 2261

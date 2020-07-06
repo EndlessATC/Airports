@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+usa = true
+center = S21.1716995239, E149.179992676
+magneticvar = 8.240
+beacons =
+	MK, S21.17280, E149.18700, 0, Mackay
+	MK, S21.16220, E149.18600, 0, Mackay
+	HM, S20.35690, E148.94901, 0, Hamilton Island
+	HM, S20.35110, E148.95599, 0, Hamilton Island
+	PN, S20.49670, E148.55299, 0, Proserpine
+	PN, S20.48920, E148.55901, 0, Proserpine
+
+line1 =
+	S20.28955, E148.75938
+	S20.36641, E148.82100
+	S20.48086, E148.88477
+	S20.49170, E148.80508
+	S20.46777, E148.72998
+	S20.58018, E148.68369
+	S20.73564, E148.78945
+	S20.84521, E148.91240
+	S20.96113, E149.06055
+	S21.12510, E149.20488
+	S21.25020, E149.24141
+	S21.29951, E149.28027
+	S21.47607, E149.32930
+	S21.57871, E149.45410
+	S21.76543, E149.46006
+	S22.02363, E149.52402
+
+line2 =
+	S22.16836, E150.02061
+	S22.16445, E150.07617
+
+line3 =
+	S20.28369, E148.93887
+	S20.30176, E148.98740
+	S20.30254, E149.01992
+	S20.29150, E149.04375
+	S20.27754, E149.04531
+	S20.22148, E149.00439
+
+line4 =
+	S22.14932, E149.92793
+	S22.04873, E149.91230
+	S22.07402, E149.87539
+	S22.15039, E149.86953
+
+[airport1]
+name = Mackay Airport
+code = YBMK
+runways =
+	rwy1, 05, S21.1757, E149.174, 57.9, 4409, 187, 0, 19
+	rwy2, 14, S21.1632, E149.177, 148.0, 6499, 0, 0, 17

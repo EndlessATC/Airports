@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+usa = true
+center = S16.885799408, E145.755004883
+magneticvar = 7.180
+beacons =
+	CS, S16.85000, E145.74400, 0, Cairns
+	CS, S16.84690, E145.73599, 0, Cairns
+	BIB, S16.91670, E145.41200, 0, Biboohra
+	IFL, S17.56170, E146.01500, 0, Innisfail
+
+line1 =
+	S16.05645, E145.45801
+	S16.23691, E145.45186
+	S16.30498, E145.43643
+	S16.40615, E145.42607
+	S16.53213, E145.49043
+	S16.62510, E145.54990
+	S16.72607, E145.63828
+	S16.87949, E145.75479
+	S16.91035, E145.83789
+	S16.91250, E145.91211
+	S17.07021, E145.90195
+	S17.38105, E146.04980
+	S17.63525, E146.12588
+
+[airport1]
+name = Cairns International Airport
+code = YBCS
+runways =
+	rwy1, 12, S16.8807, E145.752, 126.0, 3035, 0, 0, 9
+	rwy2, 15, S16.8658, E145.744, 156.0, 10489, 0, 0, 9

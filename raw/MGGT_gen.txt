@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4952
+center = N14.5833, W90.527496
+magneticvar = 2.520
+beacons =
+	GUA, N14.58580, W90.53110, 0, Guatemala City
+	AUR, N14.59100, W90.52600, 0, La Aurora
+	RAB, N15.00860, W90.47030, 0, Rabinal
+	RBN, N15.01140, W90.46930, 0, Rabinal
+	IZP, N13.93090, W90.73170, 0, Iztapa
+	SJO, N13.93500, W90.85170, 0, San Jose
+	SGA, N13.93370, W90.86140, 0, San Jose
+
+line1 =
+	N14.11494, W91.64092
+	N13.99019, W91.37734
+	N13.92559, W91.14604
+	N13.92900, W90.60693
+	N13.90093, W90.47910
+	N13.73652, W90.09521
+	N13.68315, W89.97046
+
+line2 =
+	N15.41162, W89.32622
+	N15.45972, W89.36553
+	N15.48799, W89.38809
+	N15.50547, W89.37153
+
+line3 =
+	N15.01748, W91.27817
+	N15.15745, W91.26391
+	N15.23664, W91.30256
+	N15.27023, W91.29584
+	N15.28465, W91.25657
+	N15.30806, W91.04694
+	N15.28757, W90.88132
+	N15.23576, W90.67676
+	N15.22507, W90.55519
+	N15.28573, W90.49246
+	N15.31581, W90.48264
+	N15.34669, W90.53398
+	N15.37839, W90.64653
+	N15.42712, W90.67637
+	N15.49293, W90.62353
+	N15.55794, W90.61144
+
+[airport1]
+name = La Aurora Airport
+code = MGGT
+runways =
+	rwy1, 02, N14.5704, W90.5316, 17.4, 9800, 0, 722, 4884

@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 290
+center = S8.70928955078, W63.9023017883
+magneticvar = -10.543
+beacons =
+	PVH, S8.70767, W63.89830, 0, Porto Velho
+	PVH, S8.71400, W63.90330, 0, Porto Velho
+
+line1 =
+	S9.58066, W65.03760
+	S9.58329, W64.91412
+	S9.55425, W64.86260
+	S9.49854, W64.83343
+	S9.41617, W64.82661
+	S9.37235, W64.80178
+	S9.36702, W64.75896
+	S9.31984, W64.70052
+	S9.23075, W64.62651
+	S9.18450, W64.53401
+	S9.18114, W64.42306
+	S9.13830, W64.34090
+	S9.05593, W64.28749
+	S9.00198, W64.21628
+	S8.97625, W64.12722
+	S8.93687, W64.08004
+	S8.88364, W64.07477
+	S8.83238, W64.03456
+	S8.78298, W63.95950
+	S8.72944, W63.91891
+	S8.67167, W63.91281
+	S8.61906, W63.84930
+	S8.57152, W63.72840
+	S8.55555, W63.63567
+	S8.57110, W63.57108
+	S8.55488, W63.54668
+	S8.50677, W63.56250
+	S8.46589, W63.54519
+	S8.43220, W63.49475
+	S8.35809, W63.43796
+	S8.18643, W63.34321
+	S8.21485, W63.24505
+	S8.17671, W63.13115
+	S8.03388, W62.88760
+	S7.94530, W62.86688
+	S7.80288, W62.90006
+
+[airport1]
+name = Governador Jorge Teixeira de Oliveira Airport
+code = SBPV

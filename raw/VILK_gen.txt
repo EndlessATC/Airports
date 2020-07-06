@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 410
+center = N26.7605991364, E80.8892974854
+magneticvar = 0.046
+beacons =
+	LLK, N26.76220, E80.88050, 0, Lucknow
+	KA, N26.41690, E80.39830, 0, Kanpur Chakeri
+	FSG, N26.25080, E81.37780, 0, Fursatganj
+
+line1 =
+	N27.46649, E79.59057
+	N27.31650, E79.66199
+	N27.21743, E79.73279
+	N27.14524, E79.83805
+	N27.12558, E79.92249
+	N27.02486, E79.99835
+	N26.83655, E80.09385
+	N26.64804, E80.23772
+	N26.45926, E80.42985
+	N26.31731, E80.54390
+	N26.22217, E80.57976
+	N26.13835, E80.65175
+	N26.06595, E80.75996
+	N26.03753, E80.86869
+	N26.05319, E80.97814
+	N25.98878, E81.12283
+	N25.84437, E81.30277
+
+line2 =
+	N26.24393, E79.59207
+	N26.15577, E79.71227
+	N26.10755, E79.80426
+	N26.09936, E79.86802
+	N26.11210, E79.91226
+	N26.12510, E79.93159
+	N26.12510, E79.94735
+	N26.09500, E79.95629
+	N26.07200, E79.98900
+	N26.07112, E80.04987
+	N26.05273, E80.08031
+	N26.01681, E80.08041
+	N25.97924, E80.11313
+	N25.92049, E80.21126
+	N25.88932, E80.44215
+	N25.87000, E80.52432
+	N25.85214, E80.53475
+	N25.83509, E80.52276
+	N25.81879, E80.48856
+	N25.78142, E80.52426
+
+[airport1]
+name = Chaudhary Charan Singh International Airport
+code = VILK
+runways =
+	rwy1, 09, N26.7604, E80.8755, 89.0, 8996, 515, 0, 404

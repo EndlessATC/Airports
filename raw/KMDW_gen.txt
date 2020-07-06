@@ -1,0 +1,92 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 620
+usa = true
+transition = 18001
+center = N41.785999, W87.752403
+magneticvar = -3.497
+beacons =
+	MX, N41.74150, W87.68970, 0, Kedzi
+	HK, N41.71900, W87.83640, 0, Ermin
+	ID, N41.90490, W87.80690, 0, Inddy
+	IA, N41.98430, W87.78900, 0, Taffs
+	ORD, N41.98770, W87.90490, 0, Chicago O'Hare
+	ME, N41.96780, W88.02670, 0, Deana
+	CGT, N41.51000, W87.57150, 0, Chicago Heights
+	OR, N42.05590, W88.00780, 0, Chstr
+	OH, N42.06920, W87.99090, 0, Leama
+	GY, N41.57240, W87.32700, 0, Garie
+	DPA, N41.89040, W88.35020, 0, Du Page
+	OBK, N42.22150, W87.95180, 0, Northbrook
+	JOT, N41.54640, W88.31840, 0, Joliet
+	EON, N41.26960, W87.79110, 0, Peotone
+	UG, N42.46410, W87.80140, 0, Wauke
+	IKK, N41.07440, W87.84980, 0, Kankakee
+	DKB, N41.93400, W88.70730, 0, De Kalb
+	VP, N41.45120, W86.87750, 0, Sedly
+	IUL, N41.49890, W86.77150, 0, La Porte
+	ENW, N42.59910, W87.93170, 0, Kenosha
+	OXI, N41.32200, W86.64930, 0, Knox
+
+line1 =
+	N42.77310, W86.22002
+	N42.65000, W86.23271
+	N42.53120, W86.25962
+	N42.41763, W86.29956
+	N42.30933, W86.35249
+	N42.22373, W86.40737
+	N42.08228, W86.52017
+	N41.98770, W86.57534
+	N41.91133, W86.63247
+	N41.85337, W86.69155
+	N41.78853, W86.79819
+	N41.66948, W87.07261
+	N41.64639, W87.15869
+	N41.63765, W87.25322
+	N41.64326, W87.35625
+	N41.65649, W87.41250
+	N41.67856, W87.42500
+	N41.68076, W87.44702
+	N41.69546, W87.47695
+	N41.72065, W87.51465
+	N41.76597, W87.55659
+	N41.85913, W87.60205
+	N42.00024, W87.65112
+	N42.08437, W87.69463
+	N42.11152, W87.73252
+	N42.15391, W87.76680
+	N42.21143, W87.79746
+	N42.34106, W87.81250
+	N42.54297, W87.81196
+	N42.68037, W87.80166
+	N42.75342, W87.78140
+
+[airport1]
+name = Chicago Midway International Airport
+code = KMDW
+runways =
+	rwy1, 04L, N41.7814, W87.7612, 43.0, 5507, 758, 878, 617
+	rwy2, 04R, N41.7792, W87.7593, 43.0, 6446, 518, 634, 619
+	rwy3, 13C, N41.7916, W87.7611, 134.0, 6522, 463, 696, 608
+	rwy4, 13L, N41.7923, W87.7579, 134.0, 5141, 752, 0, 606
+	rwy5, 13R, N41.7881, W87.7588, 134.0, 3859, 0, 0, 607
+
+[airport2]
+name = Chicago O'Hare International Airport
+code = RD
+runways =
+	rwy6, 04L, N41.9817, W87.9139, 39.0, 7500, 0, 0, 656
+	rwy7, 04R, N41.9533, W87.8994, 42.0, 8075, 0, 0, 661
+	rwy8, 09L, N42.0028, W87.9267, 90.0, 7500, 0, 0, 668
+	rwy9, 09R, N41.9839, W87.9184, 90.0, 7967, 0, 0, 660
+	rwy10, 10C, N41.9657, W87.9315, 90.0, 10801, 0, 0, 669
+	rwy11, 10L, N41.969, W87.9315, 90.0, 13000, 0, 0, 672
+	rwy12, 14L, N42.0024, W87.9154, 140.0, 10005, 0, 0, 653
+	rwy13, 15, N41.9904, W87.9331, 140.0, 9686, 0, 0, 666
+	rwy14, 18, N41.9974, W87.9004, 180.0, 5332, 0, 0, 646
+inboundbeacon = ORD

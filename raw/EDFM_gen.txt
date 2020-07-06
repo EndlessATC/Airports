@@ -1,0 +1,87 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 308
+center = N49.473057, E8.514167
+magneticvar = 1.076
+beacons =
+	MND, N49.47060, E8.51598, 0, Mannheim
+	HDM, N49.56560, E8.46381, 0, Coleman
+	HDM, N49.53450, E8.39050, 0, Coleman
+	HDL, N49.38600, E8.59676, 0, Heidelberg
+	NKR, N49.33670, E8.73291, 0, Neckar
+	RID, N49.78170, E8.54149, 0, Ried
+	KNG, N49.76220, E9.09167, 0, Konig
+	KRH, N48.99290, E8.58424, 0, Karlsruhe
+	EH, N49.96010, E8.64263, 0, Egelsbach
+	FW, N50.00500, E8.42955, 0, Frankfurt
+	FRD, N50.03050, E8.56705, 0, Frankfurt
+	CHA, N49.92110, E9.03981, 0, Charlie
+	FFM, N50.05370, E8.63709, 0, Frankfurt
+	WIB, N50.04620, E8.31083, 0, Wiesbaden
+	WBD, N50.04900, E8.32867, 0, Wiesbaden
+	FR, N50.06570, E8.68349, 0, Frankfurt
+	RMS, N49.43470, E7.58565, 0, Ramstein
+	PSA, N49.86220, E9.34832, 0, Spessart
+	KBA, N48.79800, E8.09755, 0, Karlsruhe Baden Baden
+	KBD, N48.78020, E8.08849, 0, Karlsruhe Baden Baden
+	ZWN, N49.22910, E7.41789, 0, Zweibrucken
+	ZBN, N49.22760, E7.41658, 0, Zweibrucken
+	ZND, N49.20930, E7.39578, 0, Zweibrucken
+	LBU, N48.91300, E9.34023, 0, Luburg
+	HNU, N50.16250, E9.15417, 0, Hanau
+	TAU, N50.25050, E8.16252, 0, Taunus
+	MTR, N50.27630, E8.84863, 0, Metro
+	KIR, N49.85020, E7.36958, 0, Kirn
+	SY, N48.66920, E9.11420, 0, Stuttgart
+	SHD, N49.11650, E9.77816, 0, Schwabisch
+	SGD, N48.68790, E9.22411, 0, Stuttgart
+	SG, N48.71130, E9.33504, 0, Stuttgart
+	HND, N49.94560, E7.26767, 0, Hahn
+	HAN, N49.96490, E7.28088, 0, Hahn
+	SAV, N48.79620, E7.44798, 0, Saverne
+	HAB, N50.09310, E9.78154, 0, Hammelburg
+
+line1 =
+	N48.54683, E7.79480
+	N48.63605, E7.83795
+	N48.69853, E7.92275
+	N48.96544, E8.23002
+
+line2 =
+	N48.96544, E8.23002
+	N49.21400, E8.41730
+	N49.33037, E8.48592
+	N49.39740, E8.49822
+	N49.43621, E8.48892
+	N49.44675, E8.45781
+	N49.50509, E8.42184
+	N49.61124, E8.38081
+	N49.69007, E8.38939
+	N49.72849, E8.43140
+	N49.76720, E8.43683
+	N49.81523, E8.40148
+	N49.91137, E8.35735
+	N49.98067, E8.30464
+	N50.02310, E8.24335
+	N50.02640, E8.12904
+	N49.99070, E7.96161
+	N50.04209, E7.80322
+	N50.18066, E7.65388
+	N50.22236, E7.60675
+	N50.26644, E7.61119
+	N50.32380, E7.62882
+	N50.36664, E7.60784
+	N50.40008, E7.55662
+	N50.43279, E7.44366
+
+[airport1]
+name = Mannheim-City Airport
+code = EDFM
+runways =
+	rwy1, 09, N49.473, E8.50603, 93.0, 3497, 19, 174, 309
+	rwy2, 09L, N49.4732, E8.51054, 92.0, 2297, 246, 82, 0

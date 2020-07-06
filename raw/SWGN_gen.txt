@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 771
+center = S7.22787, W48.240501
+magneticvar = -20.305
+beacons =
+	AGI, S7.23350, W48.23900, 0, Araguaina
+	CNA, S7.32300, W47.46000, 0, Carolina
+	CNA, S7.31873, W47.45480, 0, Carolina
+
+line1 =
+	S8.13950, W49.22678
+	S7.99491, W49.18999
+	S7.86737, W49.17234
+	S7.75214, W49.22035
+	S7.64909, W49.33396
+	S7.51003, W49.34042
+	S7.33485, W49.23965
+	S7.16675, W49.19614
+	S7.00562, W49.20978
+	S6.85617, W49.07956
+	S6.71830, W48.80541
+	S6.59577, W48.65289
+	S6.48865, W48.62194
+	S6.41413, W48.58008
+	S6.37217, W48.52729
+	S6.35331, W48.47065
+	S6.35754, W48.41017
+	S6.30892, W48.39118
+
+line2 =
+	S8.14198, W48.16199
+	S8.10788, W48.13700
+	S8.08457, W48.08670
+	S8.07201, W48.01099
+	S8.00287, W47.96260
+	S7.87704, W47.94144
+	S7.77916, W47.86196
+	S7.70924, W47.72408
+	S7.62698, W47.64691
+	S7.53241, W47.63045
+	S7.45923, W47.58895
+	S7.40735, W47.52239
+	S7.35624, W47.49505
+	S7.30581, W47.50689
+	S7.28757, W47.54580
+	S7.30157, W47.61182
+	S7.27976, W47.66892
+	S7.22219, W47.71716
+	S7.18468, W47.71597
+	S7.16721, W47.66533
+	S7.11471, W47.60575
+	S7.02722, W47.53717
+	S6.79602, W47.47046
+	S6.42111, W47.40558
+
+[airport1]
+name = Araguaína Airport
+code = SWGN

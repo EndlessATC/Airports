@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4095
+center = S25.6539, E28.224199
+magneticvar = -18.120
+beacons =
+	WR, S25.65360, E28.24250, 0, Wonderboom
+	WB, S25.65610, E28.29920, 0, Wonderboom
+	MC, S25.63710, E28.36690, 0, Roodeplaat
+	WKV, S25.83330, E28.22040, 0, Waterkloof
+	WL, S25.85220, E28.22600, 0, Waterkloof
+	WK, S25.91950, E28.23210, 0, Waterkloof
+	MEV, S25.79090, E28.56130, 0, Bronkhorstspruit
+	GC, S25.99260, E28.14000, 0, Grand Central
+	HBV, S25.67581, E27.83257, 0, Hartebeespoortdam
+	JB, S26.04500, E28.26500, 0, Johannesburg
+	LIV, S25.94890, E27.91360, 0, Lanseria
+	LA, S26.01030, E27.83950, 0, Lanseria
+	JSV, S26.15710, E28.23100, 0, Johannesburg
+	RAV, S26.24540, E28.15450, 0, Rand
+	RDW, S26.26740, E28.16270, 0, Rand
+	RD, S26.31410, E28.08980, 0, Rand
+	RA, S26.42400, E28.26380, 0, Rand
+
+[airport1]
+name = Wonderboom Airport
+code = FAWB
+runways =
+	rwy1, 06, S25.6623, E28.2156, 44.0, 4200, 0, 0, 4070
+	rwy2, 11, S25.6531, E28.2128, 93.0, 5998, 0, 0, 4038
+
+[airport2]
+name = Lanseria Airport
+code = LA
+runways =
+	rwy3, 06L, S25.9478, E27.9149, 47.0, 10000, 453, 0, 4517
+	rwy4, 07, S25.9483, E27.9154, 57.0, 9996, 0, 230, 4521
+inboundbeacon = LIV

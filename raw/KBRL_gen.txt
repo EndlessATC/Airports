@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 698
+usa = true
+transition = 18001
+center = N40.7831993103, W91.12550354
+magneticvar = 0.200
+beacons =
+	BR, N40.65420, W91.12300, 0, Burns
+	BRL, N40.72340, W90.92590, 0, Burlington
+	MPZ, N40.94280, W91.50930, 0, Mt.pPeasant
+	EOK, N40.46470, W91.43360, 0, Keokuk
+	JZY, N40.51840, W90.56040, 0, Macomb
+	GBG, N40.93730, W90.43450, 0, Galesburg
+	DDD, N41.36640, W91.14910, 0, Port City
+	AWG, N41.27980, W91.67260, 0, Washington
+	MZV, N41.32110, W90.63810, 0, Moline
+	FFL, N41.01110, W91.98850, 0, Fairfield
+	ML, N41.44910, W90.61850, 0, Molli
+	CTK, N40.56590, W90.07710, 0, Canton
+	IOW, N41.51900, W91.61330, 0, Iowa City
+
+line1 =
+	N39.82682, W91.42586
+	N39.94286, W91.46681
+	N40.09753, W91.50164
+	N40.22602, W91.49978
+	N40.37945, W91.44196
+	N40.39712, W91.39077
+	N40.44756, W91.38054
+	N40.53665, W91.39418
+	N40.60398, W91.33904
+	N40.64956, W91.21512
+	N40.74979, W91.10213
+	N40.90469, W91.00012
+	N41.01558, W90.95400
+	N41.08253, W90.96382
+	N41.14596, W91.00134
+	N41.20591, W91.06650
+	N41.28032, W91.08211
+	N41.36910, W91.04811
+	N41.42559, W90.93876
+	N41.44982, W90.75407
+	N41.49473, W90.58674
+	N41.56036, W90.43667
+	N41.63203, W90.34753
+	N41.70965, W90.31924
+	N41.77001, W90.27601
+
+[airport1]
+name = Southeast Iowa Regional Airport
+code = KBRL
+runways =
+	rwy1, 12, N40.7914, W91.136, 119.6, 5350, 0, 500, 692
+	rwy2, 18, N40.7888, W91.1239, 179.5, 6702, 1210, 0, 694

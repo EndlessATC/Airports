@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1090
+center = N45.7867012024, E3.1691699028
+magneticvar = -0.166
+beacons =
+	CFA, N45.78750, E3.19219, 0, Clermont
+	TIS, N45.88180, E3.55358, 0, Thiers
+	ROA, N46.05920, E3.99928, 0, Roanne
+	SFC, N45.06650, E2.99075, 0, Saint Flour/Coltines
+	MC, N46.37260, E2.49267, 0, Montlucon
+	MBY, N46.54130, E3.49956, 0, Moulins/Montbeugny
+	MM, N46.60140, E4.33139, 0, Montceau-Les-Mines
+
+line1 =
+	N45.71253, E4.82351
+	N45.63280, E4.80945
+	N45.58213, E4.81932
+
+line2 =
+	N45.51278, E4.84139
+	N45.43896, E4.78403
+	N45.28892, E4.78971
+
+line3 =
+	N46.74027, E3.62549
+	N46.63855, E3.72435
+	N46.55788, E3.74907
+	N46.50687, E3.86029
+	N46.46006, E3.98388
+	N46.37913, E3.99006
+	N46.23827, E4.03949
+	N46.16557, E4.10128
+	N46.06276, E4.10128
+	N45.97695, E4.03331
+	N45.92539, E4.05185
+	N45.85227, E4.15689
+	N45.74457, E4.21251
+	N45.62802, E4.21869
+	N45.47658, E4.25576
+	N45.36815, E4.20015
+	N45.30734, E4.13218
+	N45.23777, E4.08274
+	N45.19859, E3.95298
+	N45.11581, E3.90973
+	N45.03726, E3.92209
+	N44.97173, E3.90355
+	N44.87110, E3.92827
+	N44.80975, E4.07039
+
+[airport1]
+name = Clermont-Ferrand Auvergne Airport
+code = LFLC
+runways =
+	rwy1, 08, N45.7848, E3.15082, 82.0, 9885, 0, 476, 1089

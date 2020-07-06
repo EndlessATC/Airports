@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 85
+center = N23.4617996216, E120.392997742
+magneticvar = -3.077
+beacons =
+	CHI, N23.46490, E120.39100, 0, Chiayi
+	KU, N23.58420, E120.38900, 0, Chiayi
+	TNN, N23.13560, E120.20600, 0, Shikang
+	NN, N23.12470, E120.20200, 0, Shikang
+	MR, N22.97830, E120.29000, 0, Kueijen
+	TWS, N22.94990, E120.20500, 0, Tainan
+	MKG, N23.59540, E119.63700, 0, Magong
+	MKG, N23.56170, E119.62800, 0, Magong
+	SN, N24.13630, E120.65500, 0, Sn
+	BM, N23.52030, E119.60900, 0, Magong
+	MSNN, N24.19440, E120.65400, 0, Msnn
+	PIT, N22.67070, E120.46000, 0, Pingtung South
+	TC, N24.25350, E120.61900, 0, Taichung
+	TCK, N24.25360, E120.61900, 0, Taichung
+	CCK, N24.26260, E120.61800, 0, Ching Chuan Kang
+	WK, N24.23330, E120.82300, 0, Hsinshie
+	ZN, N22.75990, E121.15900, 0, Taitung
+
+line1 =
+	N23.70903, E120.15898
+	N23.65293, E120.13213
+	N23.52661, E120.12539
+	N23.39907, E120.14297
+	N23.30518, E120.12119
+	N23.21206, E120.08555
+	N23.14976, E120.07246
+	N23.09370, E120.08340
+	N23.03701, E120.12158
+	N22.97490, E120.15010
+	N22.71792, E120.23281
+	N22.62744, E120.27285
+	N22.54243, E120.32559
+	N22.54761, E120.31621
+	N22.48452, E120.38760
+
+line2 =
+	N22.50308, E120.94688
+	N22.62036, E121.00879
+	N22.77637, E121.16123
+	N22.96660, E121.29590
+	N23.06729, E121.35225
+	N23.17251, E121.39746
+	N23.42407, E121.47715
+	N23.66826, E121.52607
+	N23.86089, E121.58340
+	N24.05273, E121.61309
+	N24.13008, E121.63936
+
+[airport1]
+name = Chiayi Airport
+code = RCKU
+runways =
+	rwy1, 18L, N23.4673, E120.395, 179.4, 5307, 0, 0, 60
+	rwy2, 18R, N23.4773, E120.39, 180.0, 10007, 200, 200, 75

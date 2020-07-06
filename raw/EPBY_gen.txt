@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 235
+center = N53.0968017578, E17.9776992798
+magneticvar = 3.113
+beacons =
+	S, N53.09970, E18.01250, 0, Bydgoszcz
+	SL, N53.10310, E18.05310, 0, Bydgoszcz
+	GRU, N53.52120, E18.78130, 0, Grudziadz
+	POZ, N52.39810, E16.94460, 0, Poznan
+	P, N52.41420, E16.86200, 0, Lawica
+	LAW, N52.42240, E16.83020, 0, Poznan
+
+line1 =
+	N52.54927, E19.63956
+	N52.64394, E19.20175
+	N52.75983, E18.95918
+	N52.92845, E18.76591
+	N53.03826, E18.53756
+	N53.08927, E18.27411
+	N53.17402, E18.19980
+	N53.29256, E18.31462
+	N53.38263, E18.46314
+	N53.44423, E18.64535
+	N53.51947, E18.73940
+	N53.60841, E18.74530
+	N53.67383, E18.77728
+	N53.71579, E18.83537
+	N53.77723, E18.87082
+	N53.85816, E18.88353
+	N53.94663, E18.87283
+	N54.04257, E18.83862
+
+[airport1]
+name = Bydgoszcz Ignacy Jan Paderewski Airport
+code = EPBY
+runways =
+	rwy1, 08, N53.0952, E17.9592, 82.0, 8202, 0, 0, 236

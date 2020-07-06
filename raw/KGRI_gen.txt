@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1847
+usa = true
+transition = 18001
+center = N40.9674987793, W98.3096008301
+magneticvar = 6.090
+beacons =
+	GRI, N40.98400, W98.31480, 0, Grand Island
+	GR, N40.87290, W98.31470, 0, Sancy
+	AUH, N40.89250, W97.99720, 0, Aurora
+	PSS, N40.68630, W98.47750, 0, Prosser
+	HSI, N40.60450, W98.42960, 0, Hastings
+	OBH, N41.37570, W98.35360, 0, Wolbach
+	JYR, N40.89750, W97.61700, 0, York
+	EAR, N40.72560, W99.00510, 0, Kearney
+	EA, N40.62610, W99.02570, 0, Anoke
+	FMZ, N40.59000, W97.56800, 0, Beklof
+	BVN, N41.72960, W98.05270, 0, Alaby
+	ODX, N41.62380, W98.94800, 0, Ord
+	OLU, N41.45000, W97.34080, 0, Columbus
+	PLT, N41.49660, W97.38180, 0, Platte Center
+	HDE, N40.44820, W99.34080, 0, Holdrege
+	HJH, N40.15040, W97.58780, 0, Hebron
+	BUB, N41.77470, W99.14550, 0, Burwell
+
+[airport1]
+name = Central Nebraska Regional Airport
+code = KGRI
+runways =
+	rwy1, 13, N40.9784, W98.3117, 135.3, 6608, 0, 0, 1842
+	rwy2, 17, N40.9772, W98.3148, 180.3, 7002, 0, 0, 1844

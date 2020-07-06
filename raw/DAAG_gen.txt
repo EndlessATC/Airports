@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 82
+center = N36.6910018921, E3.21540999413
+magneticvar = -0.287
+beacons =
+	ALR, N36.69110, E3.21556, 0, Alger
+	SMR, N36.69290, E3.08987, 0, Houari Boumediene
+	SDM, N36.63070, E2.97427, 0, Alger
+	ZEM, N36.79500, E3.57083, 0, Zemmouri
+	BNA, N36.65110, E3.59139, 0, Beni Amrane
+	ZEM, N36.79610, E3.57194, 0, Zemmouri
+	MAR, N36.68520, E2.78243, 0, Houari Boumediene
+	CHE, N36.60140, E2.19333, 0, Cherchell
+
+line1 =
+	N36.89619, E3.77900
+	N36.79512, E3.52051
+	N36.78447, E2.97285
+	N36.73887, E2.84648
+	N36.60068, E2.59336
+	N36.61030, E2.34287
+	N36.56758, E1.97451
+
+[airport1]
+name = Houari Boumediene Airport
+code = DAAG
+runways =
+	rwy1, 05, N36.6939, E3.22017, 53.0, 11483, 0, 0, 72
+	rwy2, 09, N36.6921, E3.17083, 92.0, 11483, 0, 0, 56

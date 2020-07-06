@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 113
+center = S12.0219, W77.114305
+magneticvar = -0.037
+beacons =
+	LIM, S12.00860, W77.12280, 0, Lima
+	SLS, S11.28760, W77.56250, 0, Salinas
+	ASI, S12.76060, W76.60640, 0, Asia
+
+line1 =
+	S11.02207, W77.66431
+	S11.19355, W77.63857
+	S11.28779, W77.63320
+	S11.53242, W77.30991
+	S11.66338, W77.22031
+	S11.92344, W77.15762
+	S12.06035, W77.15273
+	S12.10684, W77.06270
+	S12.17275, W77.03813
+	S12.21924, W76.99409
+	S12.34873, W76.83213
+	S12.52715, W76.75801
+	S12.72803, W76.63711
+	S12.82344, W76.55522
+	S12.98438, W76.50215
+
+[airport1]
+name = Jorge Chávez International Airport
+code = SPIM
+runways =
+	rwy1, 15, S12.0076, W77.1214, 153.0, 11506, 0, 2001, 46

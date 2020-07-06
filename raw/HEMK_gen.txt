@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 310
+center = N26.342778, E31.742778
+magneticvar = 3.053
+beacons =
+	AST, N27.03120, E31.03250, 0, Asyut
+
+line1 =
+	N25.34982, E32.54037
+	N25.48315, E32.50203
+	N25.56536, E32.49293
+	N25.61200, E32.52321
+	N25.75427, E32.70413
+	N25.87917, E32.76403
+	N26.03417, E32.76320
+	N26.12884, E32.73436
+	N26.16326, E32.67762
+	N26.14280, E32.55339
+	N26.06743, E32.36167
+	N26.07688, E32.22866
+	N26.17117, E32.15424
+	N26.18938, E32.09394
+	N26.19000, E32.04128
+	N26.20011, E32.01523
+	N26.24672, E31.99694
+	N26.29741, E31.96552
+	N26.37467, E31.87137
+	N26.44531, E31.82026
+	N26.50929, E31.81230
+	N26.54189, E31.78217
+	N26.54308, E31.72998
+	N26.56417, E31.70647
+	N26.60509, E31.71174
+	N26.63166, E31.69469
+	N26.64375, E31.65531
+	N26.76198, E31.55263
+	N27.00990, E31.36918
+	N27.05711, E31.34065
+	N27.09855, E31.30355
+	N27.12269, E31.27843
+	N27.14364, E31.24495
+
+[airport1]
+name = Sohag International Airport
+code = HEMK

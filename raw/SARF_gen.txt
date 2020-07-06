@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 193
+center = S26.2127, W58.2281
+magneticvar = -11.045
+beacons =
+	FSA, S26.21030, W58.22470, 0, Formosa
+	F, S26.23240, W58.23840, 0, Formosa
+
+line1 =
+	S25.24482, W57.63516
+	S25.32843, W57.64389
+	S25.40512, W57.58715
+	S25.47374, W57.56312
+	S25.53415, W57.57170
+	S25.59870, W57.62583
+	S25.66722, W57.72546
+	S25.69709, W57.75482
+	S25.72603, W57.75706
+	S25.78370, W57.78249
+	S25.90695, W57.86522
+	S25.96425, W57.88620
+	S26.00658, W57.89065
+	S26.05298, W57.94310
+	S26.13856, W58.08239
+	S26.18021, W58.11112
+	S26.22491, W58.11807
+	S26.25147, W58.13562
+	S26.26258, W58.15471
+	S26.30739, W58.18148
+	S26.38149, W58.20303
+	S26.47657, W58.20520
+	S26.59254, W58.18794
+	S26.63000, W58.19130
+	S26.64995, W58.22205
+	S26.67687, W58.23936
+	S26.73103, W58.24556
+	S26.77072, W58.27168
+	S26.79594, W58.31770
+	S26.82493, W58.33465
+	S26.85764, W58.32256
+	S26.88999, W58.35643
+	S26.92197, W58.43630
+	S26.96843, W58.48524
+	S27.02951, W58.50325
+	S27.08403, W58.54771
+	S27.13209, W58.61861
+	S27.19612, W58.64176
+
+[airport1]
+name = Formosa Airport
+code = SARF
+runways =
+	rwy1, 4, S26.2201, W58.2319, 25.0, 5905, 0, 0, 193

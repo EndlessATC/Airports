@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 142
+center = N43.810001, E11.2051
+magneticvar = 1.474
+beacons =
+	PRT, N43.81040, E11.20150, 0, Peretola
+	FRZ, N44.02720, E11.00330, 0, Firenze
+	SIE, N43.25280, E11.25310, 0, Siena
+	PIN, N43.72030, E10.43230, 0, Pisa
+	PIS, N43.67720, E10.39060, 0, Pisa
+	FOR, N44.24810, E11.92470, 0, Forli
+	PIS, N43.58920, E10.29710, 0, Pisa
+	BOA, N44.53700, E11.29070, 0, Bologna
+	BOA, N44.56730, E11.20020, 0, Bologna
+	CEV, N44.26770, E12.18010, 0, Cervia
+	CEV, N44.20650, E12.35720, 0, Cervia
+
+line1 =
+	N42.82231, E10.35898
+	N42.82808, E10.28574
+	N42.81577, E10.24824
+	N42.81030, E10.12754
+
+line2 =
+	N42.81919, E10.42832
+	N42.85815, E10.39512
+	N42.82231, E10.35898
+
+line3 =
+	N44.10117, E9.73086
+	N44.01997, E10.04766
+	N43.94751, E10.18809
+	N43.85210, E10.24580
+	N43.51309, E10.32051
+	N43.37119, E10.44756
+	N43.20381, E10.52080
+	N43.14014, E10.53232
+	N43.06514, E10.51729
+	N42.96753, E10.51484
+	N42.95361, E10.59023
+	N42.95718, E10.64463
+	N42.93633, E10.70840
+	N42.89995, E10.73711
+	N42.84468, E10.76514
+
+line4 =
+	N43.99473, E12.69111
+	N44.13423, E12.48682
+	N44.22388, E12.39629
+	N44.42944, E12.30498
+	N44.72251, E12.24834
+
+[airport1]
+name = Peretola Airport
+code = LIRQ
+runways =
+	rwy1, 05, N43.8051, E11.1974, 48.0, 5425, 492, 2287, 123

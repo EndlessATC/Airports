@@ -1,0 +1,84 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N9.3408498764, W82.2508010864
+magneticvar = -0.339
+beacons =
+	BDT, N9.33997, W82.25160, 0, Bocas Del Toro
+	LIO, N9.96333, W83.02670, 0, Limon
+	COT, N8.60278, W82.96810, 0, Coto 47
+
+line1 =
+	N9.33408, W82.24443
+	N9.38071, W82.23350
+	N9.43027, W82.25942
+	N9.43188, W82.27578
+	N9.41812, W82.32173
+	N9.33408, W82.24443
+
+line2 =
+	N8.41489, W83.37681
+	N8.40601, W83.29150
+	N8.46382, W83.28955
+	N8.50688, W83.29775
+	N8.61924, W83.42178
+
+line3 =
+	N8.71772, W83.39141
+	N8.66436, W83.28579
+	N8.58818, W83.16240
+	N8.50547, W83.12959
+	N8.35308, W83.12334
+
+line4 =
+	N8.78672, W81.20376
+	N8.78057, W81.35479
+	N8.82700, W81.54561
+	N9.01895, W81.71221
+	N9.07412, W81.80259
+	N9.11870, W81.84238
+	N9.14043, W81.89448
+	N9.11104, W81.90015
+	N9.04561, W81.83149
+	N8.95723, W81.78022
+	N8.94409, W81.82642
+	N8.95610, W81.89414
+	N8.93486, W82.07788
+	N8.98008, W82.13330
+	N9.03149, W82.24419
+	N9.14165, W82.23545
+	N9.16812, W82.20068
+	N9.19175, W82.18813
+	N9.21543, W82.20488
+	N9.19062, W82.27246
+	N9.20918, W82.33975
+	N9.33726, W82.37539
+	N9.38193, W82.36318
+	N9.42856, W82.37080
+	N9.52324, W82.50034
+	N9.57666, W82.56357
+	N9.61602, W82.61016
+	N9.66953, W82.77842
+	N9.73457, W82.81030
+	N9.77095, W82.86631
+	N9.99126, W83.02852
+	N10.04160, W83.12461
+	N10.31538, W83.34683
+
+[airport1]
+name = Bocas Del Toro International Airport
+code = MPBO
+runways =
+	rwy1, 08, N9.34048, W82.2577, 87.0, 4921, 0, 0, 7
+
+[airport2]
+name = Cap Manuel Niño International Airport
+code = CH
+runways =
+	rwy2, 03, N9.45455, W82.5178, 31.6, 3609, 0, 0, 18
+inboundbeacon = BDT

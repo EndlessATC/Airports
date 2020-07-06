@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 288
+center = N10.7653999329, E78.7097015381
+magneticvar = -2.095
+beacons =
+	TTR, N10.76240, E78.71340, 0, Tiruchirappalli
+	TR, N10.74990, E78.68840, 0, Tiruchirappalli
+
+line1 =
+	N10.03521, E79.25781
+	N10.17480, E79.25361
+	N10.25669, E79.31455
+	N10.30596, E79.39053
+	N10.32964, E79.53164
+	N10.31235, E79.58857
+	N10.29971, E79.66738
+	N10.30435, E79.75693
+	N10.32256, E79.83818
+	N10.76885, E79.85020
+	N11.19687, E79.84863
+	N11.26885, E79.83525
+	N11.33867, E79.79902
+	N11.31255, E79.69316
+	N11.37061, E79.74893
+	N11.44668, E79.79336
+	N11.57529, E79.75410
+	N11.69023, E79.77139
+
+[airport1]
+name = Tiruchirapally Civil Airport Airport
+code = VOTR
+runways =
+	rwy1, 09, N10.7652, E78.7073, 85.6, 6115, 515, 0, 287
+	rwy2, 15, N10.7688, E78.7076, 149.0, 4776, 0, 0, 275

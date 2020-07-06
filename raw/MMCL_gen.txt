@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 108
+center = N24.7644996643, W107.474998474
+magneticvar = 8.588
+beacons =
+	CUL, N24.76440, W107.47700, 0, Culiacan
+
+line1 =
+	N25.42422, W108.75098
+	N25.38291, W108.69639
+	N25.26514, W108.46626
+	N25.19434, W108.37368
+	N25.09351, W108.09282
+	N25.06704, W108.05146
+	N25.03535, W108.03569
+	N25.01807, W108.07964
+	N25.01841, W108.14009
+	N25.03066, W108.19204
+	N25.07368, W108.24331
+	N25.08154, W108.28076
+	N24.97480, W108.20767
+	N24.78340, W108.01509
+	N24.69355, W108.00879
+	N24.61489, W107.95117
+	N24.53901, W107.81670
+	N24.52505, W107.70952
+	N24.50356, W107.67368
+	N24.49014, W107.60200
+	N24.50479, W107.54888
+	N24.48916, W107.51191
+	N24.42397, W107.48892
+	N24.36938, W107.49370
+	N24.36006, W107.52725
+	N24.47192, W107.72661
+	N24.47192, W107.76494
+	N24.01611, W107.08486
+	N23.88125, W106.93550
+
+[airport1]
+name = Bachigualato Federal International Airport
+code = MMCL
+runways =
+	rwy1, 02, N24.7569, W107.482, 32.9, 7546, 0, 886, 102

@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4920
+center = N35.8866004944, E71.8005981445
+
+line1 =
+	N35.20426, E73.17510
+	N35.09274, E72.98638
+	N35.00448, E72.88519
+	N34.93937, E72.87166
+
+line2 =
+	N36.76644, E71.94195
+	N36.69430, E71.80206
+	N36.68401, E71.73374
+	N36.69691, E71.66563
+	N36.73293, E71.59752
+	N36.84509, E71.53086
+
+[airport1]
+name = Chitral Airport
+code = OPCH
+runways =
+	rwy1, 02, N35.8796, E71.7961, 27.0, 5741, 0, 0, 4874

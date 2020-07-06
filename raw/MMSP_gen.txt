@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6035
+center = N22.2542991638, W100.930999756
+magneticvar = 6.399
+beacons =
+	SLP, N22.25640, W100.93000, 0, Potosi
+
+line1 =
+	N22.11692, W100.34395
+	N22.02700, W100.17124
+	N21.94502, W99.99262
+	N21.86370, W99.90193
+	N21.75573, W99.83971
+	N21.70281, W99.78228
+	N21.70495, W99.72962
+	N21.69196, W99.69037
+
+[airport1]
+name = Ponciano Arriaga International Airport
+code = MMSP
+runways =
+	rwy1, 04, N22.2524, W100.933, 47.4, 3259, 0, 0, 6035
+	rwy2, 14, N22.2736, W100.943, 149.2, 9867, 0, 0, 6035

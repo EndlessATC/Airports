@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 351
+center = N15.1321001053, E105.78099823
+magneticvar = -0.377
+beacons =
+	PS, N15.13060, E105.78400, 0, Pakse
+	PAK, N15.19670, E105.73800, 0, Pakse
+
+line1 =
+	N16.09354, E105.14876
+	N16.03791, E105.33066
+	N15.98745, E105.40631
+	N15.94218, E105.37561
+	N15.88968, E105.37319
+	N15.82986, E105.39892
+	N15.78041, E105.46202
+	N15.74126, E105.56237
+	N15.69997, E105.62211
+	N15.65654, E105.64103
+	N15.58595, E105.63891
+	N15.48825, E105.61565
+	N15.41322, E105.57374
+	N15.36087, E105.51318
+	N15.33105, E105.52031
+	N15.32379, E105.59524
+	N15.27333, E105.66614
+	N15.12052, E105.78169
+	N15.03286, E105.86809
+	N14.94436, E105.90654
+	N14.82576, E105.92587
+	N14.71290, E105.91476
+	N14.60572, E105.87331
+	N14.49462, E105.85951
+	N14.37969, E105.87326
+	N14.26737, E105.86411
+	N14.15771, E105.83197
+
+[airport1]
+name = Pakse International Airport
+code = VLPS
+runways =
+	rwy1, 15, N15.1382, E105.777, 147.0, 5332, 0, 0, 351

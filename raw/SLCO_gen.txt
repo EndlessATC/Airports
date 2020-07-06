@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 889
+center = S11.0403995514, W68.7829971313
+magneticvar = -5.576
+beacons =
+	CIJ, S11.04120, W68.78160, 0, Cobija
+	IBE, S11.40110, W69.49140, 0, Iberia
+
+line1 =
+	S12.00459, W68.16041
+	S11.97374, W68.05070
+	S11.89659, W67.97582
+	S11.77318, W67.93582
+	S11.70352, W67.88084
+	S11.68761, W67.81097
+	S11.63490, W67.74906
+	S11.54560, W67.69519
+	S11.49439, W67.64145
+
+[airport1]
+name = Capitán Aníbal Arab Airport
+code = SLCO
+runways =
+	rwy1, 02, S11.0493, W68.7846, 11.0, 6562, 0, 0, 892

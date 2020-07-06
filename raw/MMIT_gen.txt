@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 164
+center = N16.449301, W95.093697
+magneticvar = 4.321
+beacons =
+	IZT, N16.46390, W95.09510, 0, Ixtepec
+
+line1 =
+	N15.69307, W96.21357
+	N15.88779, W95.77178
+	N15.97471, W95.46440
+	N16.17695, W95.13437
+	N16.21001, W94.94932
+	N16.20967, W94.79941
+	N16.22910, W94.78579
+	N16.24658, W94.84604
+	N16.27764, W95.02085
+	N16.30625, W95.02354
+	N16.37910, W94.93472
+	N16.41748, W94.90044
+	N16.41973, W94.85869
+	N16.36460, W94.79292
+	N16.32705, W94.79746
+	N16.28716, W94.79082
+	N16.29121, W94.75283
+	N16.35181, W94.65078
+	N16.34756, W94.61685
+	N16.31582, W94.58711
+	N16.22822, W94.68228
+	N16.20190, W94.66152
+	N16.18657, W94.47075
+	N16.01895, W94.00127
+	N16.06206, W94.02832
+	N16.14561, W94.19341
+	N16.16753, W94.24951
+	N16.16934, W94.30283
+	N16.19541, W94.37017
+	N16.22627, W94.42642
+	N16.28735, W94.40903
+	N16.28477, W94.37417
+	N16.23936, W94.31128
+	N16.20508, W94.23989
+	N16.14526, W94.07896
+	N16.05356, W93.91606
+
+[airport1]
+name = Ixtepec Airport
+code = MMIT
+runways =
+	rwy1, 17, N16.4599, W95.0937, 179.9, 7640, 0, 0, 0

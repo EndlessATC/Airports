@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 11
+center = S20.258057, W40.286388
+magneticvar = -22.563
+beacons =
+	VTR, S20.24970, W40.28300, 0, Vitoria
+	VTR, S20.19200, W40.24270, 0, Vitoria
+
+line1 =
+	S21.23789, W40.95454
+	S21.03135, W40.82876
+	S20.90605, W40.78926
+	S20.84619, W40.72705
+	S20.78379, W40.59658
+	S20.56943, W40.39595
+	S20.42578, W40.31855
+	S20.29268, W40.29888
+	S20.20605, W40.20273
+	S19.96826, W40.14170
+	S19.74199, W40.00137
+	S19.64912, W39.84473
+	S19.57178, W39.78330
+	S19.45391, W39.73145
+	S19.27783, W39.69985
+
+[airport1]
+name = Eurico de Aguiar Salles Airport
+code = SBVT

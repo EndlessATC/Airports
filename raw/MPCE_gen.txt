@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 33
+center = N7.98784017563, W80.4096984863
+magneticvar = -1.400
+beacons =
+	CHE, N7.98352, W80.41000, 0, Alonso Valderrama
+	STG, N8.08867, W80.94020, 0, Santiago
+
+line1 =
+	N7.72119, W81.50415
+	N7.67529, W81.36958
+	N7.62549, W81.26841
+	N7.62095, W81.21904
+	N7.66841, W81.19546
+	N7.80752, W81.17939
+	N7.85439, W81.15781
+	N7.87632, W81.09395
+	N7.89976, W81.06387
+	N7.71113, W81.03511
+	N7.43750, W80.91465
+	N7.27715, W80.90122
+	N7.22007, W80.84556
+	N7.22568, W80.66670
+	N7.27495, W80.43887
+	N7.32466, W80.37295
+	N7.38569, W80.34824
+	N7.42563, W80.28730
+	N7.43345, W80.11060
+	N7.45322, W80.06729
+	N7.50005, W80.01123
+	N7.59980, W80.04004
+	N7.66704, W80.07520
+	N7.85166, W80.26094
+	N7.99800, W80.36558
+	N8.02856, W80.40913
+	N8.07705, W80.45811
+	N8.13994, W80.46587
+	N8.21387, W80.45898
+	N8.26245, W80.40757
+	N8.28877, W80.36870
+	N8.31396, W80.20010
+	N8.34966, W80.12578
+	N8.59551, W79.75044
+	N8.63921, W79.81592
+	N8.71157, W79.75854
+	N8.77534, W79.73105
+	N8.85098, W79.68745
+	N8.90327, W79.57236
+	N8.92446, W79.55166
+	N8.97007, W79.50708
+
+line2 =
+	N8.88721, W80.83867
+	N8.81265, W81.06309
+	N8.78672, W81.20376
+	N8.78057, W81.35479
+	N8.82700, W81.54561
+
+line3 =
+	N8.96793, W79.56596
+	N8.92444, W79.55168
+
+[airport1]
+name = Alonso Valderrama Airport
+code = MPCE
+runways =
+	rwy1, 01, N7.98129, W80.4111, 12.0, 4921, 0, 0, 0

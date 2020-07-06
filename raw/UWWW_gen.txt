@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 477
+center = N53.504901886, E50.1642990112
+magneticvar = 11.096
+beacons =
+	FK, N53.52670, E50.22170, 0, Samara
+	WG, N53.55330, E50.14830, 0, Samara
+	AZ, N53.46170, E50.20500, 0, Samara
+	BE, N53.48000, E50.07830, 0, Samara
+	ND, N53.26670, E50.43330, 0, Smyshlyayevka
+	KS, N53.68330, E49.43330, 0, Nizhneye Sancheleevo
+	RL, N53.35000, E49.30000, 0, Zhiguli
+	SL, N53.90000, E51.18330, 0, Sukhodol
+	UF, N54.21670, E50.46670, 0, Koshki
+	DW, N54.03330, E49.18330, 0, Nikolskoye
+
+line1 =
+	N54.48913, E48.50715
+	N54.42179, E48.46953
+	N54.34444, E48.45330
+	N54.25700, E48.45837
+	N54.13494, E48.58508
+	N53.97826, E48.83343
+	N53.82692, E48.96448
+	N53.68094, E48.97833
+	N53.57942, E49.00624
+	N53.52231, E49.04830
+	N53.48268, E49.10437
+	N53.46064, E49.20943
+	N53.46743, E49.56703
+	N53.45674, E49.90479
+
+line2 =
+	N53.45674, E49.90479
+	N53.45467, E50.04214
+	N53.40473, E50.10808
+	N53.30623, E50.14849
+	N53.23559, E50.12855
+	N53.19277, E50.04835
+	N53.18523, E49.95734
+	N53.21290, E49.85554
+	N53.20306, E49.71736
+	N53.15577, E49.54280
+	N53.15247, E49.42761
+	N53.19319, E49.37169
+	N53.21897, E49.26901
+	N53.22975, E49.11946
+	N53.20854, E48.91875
+	N53.15531, E48.66688
+	N53.10485, E48.52430
+	N53.05715, E48.49103
+	N52.99514, E48.50338
+	N52.91881, E48.56136
+	N52.81636, E48.50493
+	N52.68774, E48.33408
+
+[airport1]
+name = Kurumoch International Airport
+code = UWWW
+runways =
+	rwy1, 05, N53.4984, E50.1349, 61.8, 8360, 0, 0, 477
+	rwy2, 15, N53.5186, E50.169, 160.4, 9846, 0, 0, 415

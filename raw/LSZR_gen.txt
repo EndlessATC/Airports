@@ -1,0 +1,105 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1306
+center = N47.4850006104, E9.56077003479
+magneticvar = 0.501
+beacons =
+	FHD, N47.66640, E9.50886, 0, Friedrichshafen
+	FHA, N47.68120, E9.53778, 0, Friedrichshafen
+	ZUE, N47.59220, E8.81767, 0, Zurich East
+	MEG, N48.05440, E9.36755, 0, Mengen
+	KPT, N47.74580, E10.34970, 0, Kempten
+	KLO, N47.45710, E8.54558, 0, Kloten
+	LUP, N48.21800, E9.91087, 0, Laupheim
+	TRA, N47.68950, E8.43695, 0, Trasadingen
+	DVI, N47.96070, E8.52271, 0, Donaueschingen
+	DON, N47.96070, E8.52255, 0, Donaueschingen
+
+line1 =
+	N47.52690, E9.73066
+	N47.51489, E9.71855
+	N47.50640, E9.68545
+	N47.51113, E9.55439
+	N47.51396, E9.45234
+	N47.59795, E9.25029
+	N47.67070, E9.18281
+	N47.77212, E9.11318
+	N47.78218, E9.13203
+	N47.73330, E9.23076
+	N47.67666, E9.37285
+	N47.62476, E9.51396
+	N47.56636, E9.64424
+	N47.52690, E9.73066
+	N47.52690, E9.73066
+	N47.52690, E9.73066
+	N47.52690, E9.73066
+
+line2 =
+	N47.67068, E9.12754
+	N47.65639, E8.88114
+	N47.67068, E9.18283
+	N47.51116, E9.55438
+
+line3 =
+	N48.04681, E8.21979
+	N47.93072, E8.49006
+	N47.93630, E8.69583
+	N47.97635, E8.83587
+	N48.05270, E8.97871
+	N48.08642, E9.13188
+	N48.07753, E9.29538
+	N48.11613, E9.42106
+	N48.20233, E9.50880
+	N48.24395, E9.58870
+	N48.24098, E9.66073
+	N48.28909, E9.78403
+	N48.38826, E9.95880
+	N48.45291, E10.12717
+	N48.48309, E10.28912
+
+line4 =
+	N46.67632, E8.75082
+	N46.75777, E9.04558
+	N46.83461, E9.41558
+	N46.83461, E9.40876
+	N46.90675, E9.51676
+	N46.96308, E9.53382
+	N47.02765, E9.49589
+	N47.09751, E9.47945
+	N47.17268, E9.48431
+	N47.27076, E9.52751
+	N47.39178, E9.60906
+	N47.46703, E9.62590
+	N47.51116, E9.55438
+	N47.67068, E9.12754
+	N47.67068, E9.18283
+
+line5 =
+	N47.65639, E8.88114
+	N47.68629, E8.70017
+	N47.66236, E8.61976
+	N47.59467, E8.57966
+	N47.57617, E8.48230
+	N47.60691, E8.32779
+	N47.60691, E8.19829
+	N47.57617, E8.09380
+	N47.56384, E7.92709
+
+[airport1]
+name = St Gallen Altenrhein Airport
+code = LSZR
+runways =
+	rwy1, 10L, N47.4866, E9.55628, 99.1, 2657, 0, 0, 0
+	rwy2, 10R, N47.4861, E9.55028, 98.7, 4921, 328, 246, 1306
+
+[airport2]
+name = Friedrichshafen Airport
+code = NY
+runways =
+	rwy3, 06, N47.666, E9.49789, 60.0, 7729, 885, 675, 1334
+inboundbeacon = FHD

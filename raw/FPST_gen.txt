@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 33
+center = N0.378174990416, E6.71215009689
+magneticvar = -4.210
+beacons =
+	STM, N0.37845, E6.71706, 0, Sao Tome
+	SP, N0.37486, E6.71664, 0, Sao Tome
+
+line1 =
+	N0.40024, E6.62588
+	N0.34028, E6.52432
+	N0.28013, E6.47754
+	N0.22734, E6.46816
+	N0.11738, E6.49697
+	N0.06631, E6.51973
+	N0.04736, E6.55684
+	N0.12065, E6.65996
+	N0.24346, E6.75000
+	N0.32563, E6.74980
+	N0.40439, E6.68691
+	N0.40024, E6.62588
+
+[airport1]
+name = São Tomé International Airport
+code = FPST
+runways =
+	rwy1, 11, N0.380528, E6.70242, 103.0, 7283, 200, 200, 39

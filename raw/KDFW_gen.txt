@@ -1,0 +1,87 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 607
+usa = true
+transition = 18001
+center = N32.896801, W97.038002
+magneticvar = 5.183
+beacons =
+	TTT, N32.86920, W97.04050, 0, Maverick
+	FL, N32.99580, W97.02960, 0, Jiffy
+	CVE, N32.89030, W96.90400, 0, Cowboy
+	FUZ, N32.88950, W97.17940, 0, Ranger
+	AD, N33.04430, W96.87050, 0, Brons
+	LV, N32.77480, W96.77530, 0, Conis
+	RBD, N32.67690, W96.87110, 0, Redbird
+	FT, N32.89300, W97.37350, 0, Mufin
+	NFW, N32.77150, W97.43950, 0, Fort Worth Nas Jrb
+	LNC, N32.57760, W96.72170, 0, Lancaster
+	PQF, N32.80940, W96.52910, 0, Mesquite
+	JUG, N32.66810, W96.53220, 0, Jecca
+	AVZ, N32.76010, W96.24910, 0, Travis
+	MII, N33.04040, W96.24860, 0, Caddo Mills
+	SYW, N32.98190, W96.06730, 0, Cash
+	MQP, N32.72620, W97.99740, 0, Millsap
+	GLE, N33.71870, W97.19870, 0, Gainesville
+	MJF, N33.06630, W96.06140, 0, Arvilla
+	GV, N33.15630, W96.06360, 0, Major
+	UKW, N33.53590, W97.82130, 0, Bowie
+	BYP, N33.53750, W96.23410, 0, Bonham
+	GMZ, N33.60540, W97.77340, 0, Grindstone Mountain
+	CGQ, N32.06400, W96.42800, 0, Powell
+	CQY, N32.18570, W96.21810, 0, Cedar Creek
+	JEN, N32.15960, W97.87770, 0, Glen Rose
+
+line1 =
+	N32.84593, W98.39918
+	N32.83727, W98.34037
+	N32.85324, W98.25842
+	N32.83562, W98.20116
+	N32.78441, W98.16871
+	N32.75195, W98.17612
+	N32.73901, W98.19434
+	N32.71924, W98.18628
+	N32.70374, W98.15581
+	N32.64855, W97.97319
+	N32.57359, W97.85043
+	N32.47884, W97.78754
+	N32.41564, W97.71623
+	N32.38402, W97.63649
+	N32.35772, W97.62300
+	N32.33679, W97.67582
+	N32.30348, W97.69550
+	N32.25785, W97.68207
+	N32.21256, W97.63236
+	N32.16760, W97.54637
+	N32.15685, W97.49789
+	N32.16760, W97.47392
+	N32.16264, W97.46399
+	N32.15243, W97.46151
+	N32.08980, W97.46627
+	N32.00306, W97.41738
+
+[airport1]
+name = Dallas Fort Worth International Airport
+code = KDFW
+runways =
+	rwy1, 13L, N32.9126, W97.0215, 135.3, 9000, 625, 0, 550
+	rwy2, 13R, N32.9096, W97.0831, 139.0, 9301, 0, 0, 591
+	rwy3, 17C, N32.9157, W97.026, 180.3, 13401, 0, 0, 562
+	rwy4, 17L, N32.8983, W97.0098, 180.3, 8500, 0, 0, 524
+	rwy5, 17R, N32.9157, W97.0299, 180.3, 13401, 0, 0, 567
+	rwy6, 18L, N32.9158, W97.0507, 180.2, 13400, 0, 0, 602
+	rwy7, 18R, N32.9158, W97.0546, 180.3, 13400, 0, 0, 607
+
+[airport2]
+name = Dallas Love Field
+code = AL
+runways =
+	rwy8, 13L, N32.8573, W96.8568, 135.6, 7752, 0, 0, 477
+	rwy9, 13R, N32.8513, W96.8635, 135.6, 8800, 490, 0, 476
+	rwy10, 18, N32.8587, W96.8532, 185.5, 6147, 0, 0, 480
+inboundbeacon = CVE

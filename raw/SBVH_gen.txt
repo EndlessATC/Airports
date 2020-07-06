@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2018
+center = S12.6943998337, W60.0983009338
+magneticvar = -13.068
+beacons =
+	VLH, S12.69370, W60.09530, 0, Vilhena
+	VLH, S12.68950, W60.10330, 0, Vilhena
+
+line1 =
+	S13.54403, W59.01923
+	S13.36668, W58.99730
+	S13.28911, W58.96035
+	S12.99838, W58.93281
+	S12.49448, W58.91462
+
+[airport1]
+name = Brigadeiro Camarão Airport
+code = SBVH

@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 80
+center = S3.22931003571, E40.1016998291
+magneticvar = -1.144
+beacons =
+	ML, S3.23113, E40.10000, 0, Malindi
+	MLD, S3.23354, E40.10260, 0, Malindi
+	MOV, S3.94853, E39.64270, 0, Mombasa
+	MC, S3.94856, E39.64220, 0, Mombasa
+	MO, S4.03301, E39.61520, 0, Mombasa
+
+line1 =
+	S4.15283, E39.63711
+	S4.11914, E39.65801
+	S4.06787, E39.68691
+	S3.99326, E39.73164
+	S3.95518, E39.74580
+	S3.91309, E39.76143
+	S3.78604, E39.81914
+	S3.57676, E39.86094
+	S3.53584, E39.89629
+	S3.44248, E39.93682
+	S3.35068, E39.99170
+	S3.25059, E40.11543
+	S3.17334, E40.12813
+	S3.01924, E40.19473
+	S2.81904, E40.17979
+	S2.68838, E40.22246
+	S2.62861, E40.27852
+	S2.55566, E40.40449
+	S2.53945, E40.64414
+	S2.39238, E40.81318
+	S2.33633, E40.82012
+	S2.26992, E40.89824
+
+[airport1]
+name = Malindi Airport
+code = HKML

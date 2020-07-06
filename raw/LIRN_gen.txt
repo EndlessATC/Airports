@@ -1,0 +1,76 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 294
+center = N40.886002, E14.2908
+magneticvar = 1.548
+beacons =
+	NPC, N40.88430, E14.28360, 0, Napoli Capodochino
+	POM, N40.92860, E14.38310, 0, Pomigliano
+	POM, N40.92820, E14.38360, 0, Pomigliano
+	GRA, N41.06000, E14.08870, 0, Grazzanise
+	GRA, N41.05720, E14.08350, 0, Grazzanise
+	SOR, N40.58260, E14.33510, 0, Sorrento
+	SOR, N40.58220, E14.33390, 0, Sorrento
+	TEA, N41.29580, E13.97170, 0, Teano
+	TEA, N41.29680, E13.97070, 0, Teano
+	FRS, N41.64220, E13.29500, 0, Frosinone
+	FRS, N41.64390, E13.28970, 0, Frosinone
+
+line1 =
+	N40.76182, E13.87119
+	N40.72407, E13.85352
+	N40.70874, E13.86768
+	N40.69697, E13.89365
+	N40.70562, E13.93828
+	N40.71816, E13.96084
+	N40.73940, E13.96211
+	N40.76182, E13.87119
+
+line2 =
+	N41.40874, E12.84922
+	N41.30093, E13.02422
+	N41.26621, E13.04102
+	N41.24385, E13.08867
+	N41.27769, E13.18340
+	N41.28887, E13.24688
+	N41.27852, E13.36191
+	N41.23218, E13.55479
+	N41.25449, E13.66973
+	N41.23564, E13.73340
+	N41.12998, E13.85977
+	N40.87031, E14.04766
+	N40.81226, E14.04434
+	N40.79395, E14.07588
+	N40.82715, E14.10234
+	N40.82070, E14.14717
+	N40.81265, E14.30889
+	N40.75933, E14.42813
+	N40.72871, E14.46055
+	N40.59883, E14.33994
+	N40.59985, E14.38271
+	N40.63271, E14.45938
+	N40.62642, E14.55693
+	N40.64478, E14.61123
+	N40.66841, E14.76572
+	N40.62998, E14.83955
+	N40.55605, E14.90693
+	N40.46934, E14.94766
+	N40.37749, E14.98613
+	N40.30957, E14.92910
+	N40.26475, E14.92695
+	N40.23901, E14.95088
+	N40.07002, E15.29453
+	N40.05215, E15.39092
+	N40.05283, E15.58516
+	N39.99019, E15.69277
+
+[airport1]
+name = Naples International Airport
+code = LIRN
+runways =
+	rwy1, 06, N40.8798, E14.2775, 58.1, 8622, 1309, 624, 284

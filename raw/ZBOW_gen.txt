@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3321
+metric = true
+center = N40.5600013733, E109.997001648
+magneticvar = -4.240
+beacons =
+	BAV, N40.56000, E109.99500, 0, Baotou
+	ZQ, N40.56670, E110.00800, 0, Baotou
+
+line1 =
+	N40.77813, E108.47599
+	N40.70041, E108.55258
+	N40.63199, E108.65061
+	N40.57287, E108.77019
+	N40.54672, E108.88413
+	N40.55355, E108.99245
+	N40.53476, E109.13415
+	N40.49037, E109.30912
+	N40.48882, E109.44958
+	N40.53011, E109.55541
+	N40.53189, E109.63458
+	N40.49412, E109.68719
+	N40.49133, E109.83570
+	N40.52352, E110.08024
+	N40.48404, E110.30338
+	N40.37294, E110.50522
+	N40.30186, E110.67452
+	N40.27082, E110.81146
+	N40.26571, E110.91853
+	N40.28648, E110.99600
+	N40.23462, E111.12534
+	N40.11014, E111.30673
+	N40.01255, E111.40687
+	N39.94180, E111.42579
+	N39.86744, E111.41638
+	N39.78946, E111.37845
+	N39.71789, E111.38548
+	N39.65272, E111.43726
+	N39.57622, E111.43302
+
+[airport1]
+name = Baotou Airport
+code = ZBOW

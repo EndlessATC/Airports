@@ -1,0 +1,40 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 250
+center = N8.624139, W71.672668
+magneticvar = -7.149
+beacons =
+	EVG, N8.62250, W71.66450, 0, El Vigia
+	STB, N8.98361, W71.93840, 0, Santa Barbara Del Zulia
+	STB, N8.98361, W71.93870, 0, Santa Barbara Del Zulia
+	LFA, N8.24472, W72.26810, 0, La Fria
+	SBB, N7.80781, W71.16510, 0, Santa Barbara De Barinas
+	PRM, N7.80306, W72.19980, 0, Paramillo
+	CUC, N7.93346, W72.51350, 0, Cucuta
+
+line1 =
+	N9.51079, W71.07842
+	N9.34824, W71.08584
+	N9.22246, W71.20537
+	N9.16045, W71.24141
+	N9.12563, W71.29795
+	N9.04829, W71.53662
+	N9.04795, W71.61953
+	N9.07251, W71.68672
+	N9.13389, W71.74014
+	N9.25000, W71.78135
+	N9.33574, W71.76074
+	N9.38643, W71.80566
+	N9.42764, W71.87305
+	N9.55322, W71.97627
+
+[airport1]
+name = Juan Pablo Pérez Alfonso Airport
+code = SVVG
+runways =
+	rwy1, 09, N8.62204, W71.6874, 81.9, 10645, 0, 1628, 241

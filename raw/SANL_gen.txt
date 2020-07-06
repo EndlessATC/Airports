@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1437
+center = S29.3815994263, W66.7957992554
+magneticvar = -1.309
+beacons =
+	LAR, S29.38280, W66.79250, 0, La Rioja
+	LAR, S29.38860, W66.80360, 0, La Rioja
+	L, S29.35850, W66.78150, 0, La Rioja
+	ITO, S29.21110, W67.44250, 0, Chilecito
+
+[airport1]
+name = Capitan V A Almonacid Airport
+code = SANL
+runways =
+	rwy1, 3, S29.3929, W66.8028, 28.0, 9383, 0, 0, 1437

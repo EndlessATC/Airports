@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 981
+usa = true
+transition = 18001
+center = N37.1517982483, W94.498298645
+magneticvar = 3.366
+beacons =
+	JL, N37.20310, W94.55860, 0, Lunns
+	EOS, N36.84240, W94.43570, 0, Neosho
+	PTS, N37.44250, W94.72660, 0, Pittsburg
+	LLU, N37.48700, W94.31020, 0, Spring River
+	OSW, N37.15750, W95.20360, 0, Oswego
+	FSK, N37.79690, W94.76560, 0, Fort Scott
+	EAD, N37.85890, W94.30270, 0, Nevada
+	RO, N36.46120, W94.06950, 0, Rogrs
+	PPF, N37.33810, W95.50870, 0, Parsons
+	MSB, N37.79140, W95.41500, 0, Monarch
+
+[airport1]
+name = Joplin Regional Airport
+code = KJLN
+runways =
+	rwy1, 05, N37.1437, W94.5011, 50.4, 3604, 0, 0, 981
+	rwy2, 13, N37.1578, W94.5073, 138.0, 6502, 387, 300, 951
+	rwy3, 18, N37.1641, W94.4974, 182.0, 6500, 0, 0, 950

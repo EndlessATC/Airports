@@ -1,0 +1,80 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 210
+center = N22.989200592, W82.4091033936
+magneticvar = -3.138
+beacons =
+	UHA, N22.97890, W82.42670, 0, Habana
+	A, N22.97380, W82.43220, 0, Habana
+	UHA, N22.93280, W82.49220, 0, Habana
+	UPB, N23.02320, W82.58070, 0, Playa Baracoa
+	UPB, N23.02330, W82.58170, 0, Playa Baracoa
+	UZG, N22.93500, W82.03860, 0, Zarago
+	UCY, N22.85810, W82.85280, 0, Cayabo
+
+line1 =
+	N23.05493, W81.14463
+	N23.05967, W81.17861
+	N23.12861, W81.27163
+	N23.15684, W81.26235
+	N23.12969, W81.36362
+	N23.11650, W81.57544
+	N23.16304, W81.83745
+	N23.19043, W82.10137
+	N23.15396, W82.35054
+	N23.06455, W82.58779
+	N23.04355, W82.66582
+	N22.98301, W83.17725
+	N22.96758, W83.25781
+
+line2 =
+	N22.18896, W83.64307
+	N22.20874, W83.60151
+	N22.20894, W83.54404
+	N22.18711, W83.48594
+	N22.22300, W83.37964
+	N22.30322, W83.29214
+	N22.35542, W83.18940
+	N22.38647, W83.14375
+	N22.42988, W83.10713
+	N22.51401, W83.00942
+	N22.59512, W82.86123
+	N22.65835, W82.78638
+	N22.68926, W82.73804
+	N22.67900, W81.90342
+	N22.67246, W81.83882
+	N22.65703, W81.78989
+	N22.63291, W81.74565
+	N22.59189, W81.70273
+	N22.53481, W81.68325
+	N22.49668, W81.71035
+	N22.46675, W81.75708
+	N22.42183, W81.97305
+	N22.38770, W82.07773
+	N22.29087, W81.97261
+	N22.21367, W81.84941
+	N22.20020, W81.81621
+	N22.18379, W81.44111
+	N22.10410, W81.35527
+	N22.10942, W81.28437
+	N22.14292, W81.22241
+	N22.20293, W81.19956
+	N22.26797, W81.18550
+
+[airport1]
+name = José Martí International Airport
+code = MUHA
+runways =
+	rwy1, 06, N22.9786, W82.4249, 54.0, 13123, 0, 0, 210
+
+[airport2]
+name = Playa Baracoa Airport
+code = PB
+runways =
+	rwy2, 02, N23.023, W82.5835, 21.9, 7563, 195, 1315, 85
+inboundbeacon = UPB

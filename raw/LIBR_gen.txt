@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 47
+center = N40.6576, E17.947001
+magneticvar = 2.306
+beacons =
+	BRD, N40.61090, E18.00290, 0, Brindisi
+	BRD, N40.60550, E18.00880, 0, Brindisi
+	LCC, N40.24840, E18.13070, 0, Lecce
+	GRT, N40.44600, E17.42210, 0, Grottaglie
+	GIO, N40.80020, E16.90130, 0, Gioia Del Colle
+	GIO, N40.80130, E16.90130, 0, Gioia Del Colle
+
+line1 =
+	N39.74756, E16.52188
+	N39.85967, E16.52998
+	N40.13721, E16.66963
+	N40.32646, E16.80703
+	N40.45806, E16.92822
+	N40.51348, E17.03125
+	N40.50278, E17.17998
+	N40.48643, E17.21533
+	N40.43789, E17.24941
+	N40.39907, E17.25771
+	N40.34023, E17.39580
+	N40.31494, E17.47617
+	N40.28018, E17.86504
+	N39.93696, E18.07793
+	N39.85254, E18.21934
+	N39.82139, E18.34375
+	N39.90361, E18.39346
+	N39.98687, E18.42256
+	N40.10483, E18.48584
+	N40.22104, E18.46064
+	N40.37085, E18.32822
+	N40.56494, E18.03613
+	N40.65518, E17.95498
+	N40.84058, E17.47422
+	N40.97544, E17.27520
+	N41.06216, E17.10342
+	N41.23203, E16.55186
+
+line2 =
+	N41.42476, E19.44063
+	N41.32100, E19.45342
+	N41.23638, E19.48008
+	N41.10605, E19.45605
+	N40.93330, E19.46123
+	N40.79072, E19.38389
+	N40.66382, E19.33750
+	N40.62207, E19.34463
+	N40.47026, E19.43926
+	N40.40537, E19.45918
+	N40.37568, E19.44053
+	N40.39370, E19.39453
+	N40.40874, E19.35859
+	N40.40708, E19.32227
+	N40.34771, E19.36016
+	N40.28486, E19.39814
+	N40.20996, E19.48457
+
+[airport1]
+name = Brindisi – Salento Airport
+code = LIBR
+runways =
+	rwy1, 05, N40.6523, E17.9368, 53.0, 5892, 0, 230, 46
+	rwy2, 13, N40.6722, E17.9299, 137.0, 10000, 0, 0, 29

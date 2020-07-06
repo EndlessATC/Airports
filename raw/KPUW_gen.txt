@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2556
+usa = true
+transition = 18001
+center = N46.7439, W117.110001
+magneticvar = 16.139
+beacons =
+	PUW, N46.67430, W117.22400, 0, Pullman
+	MQG, N46.38160, W116.87000, 0, Nez Perce
+	GEG, N47.56490, W117.62700, 0, Spokane
+	AL, N46.17550, W118.19600, 0, Trina
+	ALW, N46.08700, W118.29300, 0, Walla Walla
+
+line1 =
+	N45.79917, W116.61683
+	N45.87291, W116.76473
+	N45.95849, W116.86919
+	N46.05595, W116.93020
+	N46.12432, W116.94784
+	N46.16364, W116.92211
+	N46.23211, W116.94296
+	N46.32963, W117.01040
+	N46.39655, W117.03900
+	N46.43288, W117.02877
+	N46.44915, W117.06988
+	N46.44543, W117.16238
+	N46.46809, W117.21390
+	N46.51711, W117.22444
+	N46.58248, W117.28418
+	N46.66421, W117.39309
+	N46.70852, W117.50347
+	N46.71550, W117.61532
+	N46.69759, W117.70203
+	N46.65485, W117.76358
+	N46.61783, W117.87463
+	N46.58646, W118.03514
+	N46.57726, W118.20547
+	N46.59023, W118.38551
+	N46.52662, W118.54643
+	N46.38652, W118.68818
+
+[airport1]
+name = Pullman Moscow Regional Airport
+code = KPUW
+runways =
+	rwy1, 06, N46.7407, W117.122, 70.0, 6730, 290, 801, 2538
+
+[airport2]
+name = Lewiston Nez Perce County Airport
+code = WS
+runways =
+	rwy2, 08, N46.3738, W117.028, 99.0, 6511, 0, 0, 1427
+	rwy3, 12, N46.3818, W117.024, 131.0, 5002, 0, 0, 1370
+inboundbeacon = MQG

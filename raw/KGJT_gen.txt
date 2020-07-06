@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4858
+usa = true
+transition = 18001
+center = N39.1223983765, W108.527000427
+magneticvar = 10.504
+beacons =
+	JNC, N39.05960, W108.79300, 0, Grand Junction
+	RIL, N39.52810, W107.71600, 0, Rifle
+	MTJ, N38.50640, W107.89900, 0, Montrose
+
+line1 =
+	N39.70138, W107.07137
+	N39.64373, W107.13203
+	N39.60239, W107.23539
+	N39.57890, W107.54079
+	N39.57919, W107.73373
+	N39.55676, W107.84672
+	N39.51170, W107.94408
+	N39.41018, W108.10608
+	N39.31455, W108.24233
+	N39.17831, W108.31403
+	N39.09942, W108.43356
+	N39.08986, W108.55786
+	N39.18397, W108.80111
+	N39.20050, W108.86686
+	N39.19838, W108.95203
+	N39.14102, W109.05062
+	N39.03289, W109.19558
+	N38.93514, W109.26472
+	N38.81184, W109.30632
+	N38.73417, W109.36285
+	N38.70221, W109.43427
+	N38.65121, W109.49874
+	N38.58119, W109.55628
+	N38.55377, W109.59566
+	N38.56142, W109.61416
+	N38.54617, W109.63452
+	N38.48535, W109.64847
+	N38.45285, W109.67038
+	N38.44866, W109.70015
+	N38.41430, W109.72299
+	N38.34975, W109.73890
+	N38.27937, W109.78453
+	N38.16516, W109.89745
+
+[airport1]
+name = Grand Junction Regional Airport
+code = KGJT
+runways =
+	rwy1, 04, N39.1099, W108.53, 54.4, 5502, 0, 0, 4784
+	rwy2, 11, N39.135, W108.544, 125.2, 10501, 0, 0, 4820

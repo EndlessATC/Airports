@@ -1,0 +1,94 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 189
+usa = true
+transition = 18001
+center = N34.9911994934, W78.8803024292
+magneticvar = -8.529
+beacons =
+	FAY, N34.98550, W78.87510, 0, Fayetteville
+	GR, N34.91240, W78.93970, 0, Doone
+	FGP, N35.13880, W78.81250, 0, Fort Bragg
+	POB, N35.16850, W79.01970, 0, Pope
+	POB, N35.22680, W78.95440, 0, Pope
+	RSY, N34.61350, W79.05980, 0, Robeson
+	LBT, N34.61070, W79.05480, 0, Lumberton
+	CTZ, N34.97540, W78.36310, 0, Clinton
+	HQT, N35.43320, W78.67490, 0, Harnett
+	JB, N34.54600, W79.13840, 0, Jigel
+	HFF, N35.02790, W79.48560, 0, Mackall
+	ME, N34.73400, W79.44430, 0, Maxtn
+	TT, N35.49730, W79.13990, 0, Leeco
+	TGQ, N34.52860, W78.51590, 0, Elizabethtown
+	JN, N35.47500, W78.42530, 0, Jurly
+	SDZ, N35.21540, W79.58800, 0, Sandhills
+	DLC, N34.45010, W79.36880, 0, Dillon
+	RCZ, N34.85270, W79.69370, 0, Roscoe
+	CPC, N34.27180, W78.71390, 0, Camp
+	EUU, N35.60680, W78.35440, 0, Jnall
+	ACZ, N34.71630, W78.00360, 0, Pendy
+	BES, N34.62020, W79.73320, 0, Bennettsville
+	DKA, N35.07230, W77.91890, 0, Kenan
+	RD, N35.79690, W78.88270, 0, Greon
+	GSB, N35.33500, W77.97160, 0, Seymour Johnson
+	CQW, N34.74180, W79.86560, 0, Cheraw
+	MAO, N34.18520, W79.33330, 0, Marion
+	TOX, N35.76150, W79.46220, 0, Siler City
+	JYN, N35.52610, W77.90030, 0, Wayne
+	FLO, N34.23290, W79.65710, 0, Florence
+	UDG, N34.44320, W79.88730, 0, Darlington
+	LIB, N35.81160, W79.61260, 0, Liberty
+	ILM, N34.35170, W77.87440, 0, Wilmington
+	RW, N35.76770, W77.96460, 0, Jambe
+	CQJ, N35.71620, W79.86530, 0, City Lake
+	FL, N34.17400, W79.85250, 0, Alcot
+	IL, N34.19130, W77.86630, 0, Airli
+
+line1 =
+	N33.99341, W77.97056
+	N34.16899, W77.95327
+	N34.07314, W77.92603
+
+line2 =
+	N34.05015, W77.88804
+	N34.14917, W77.86084
+	N34.28496, W77.75073
+	N34.33198, W77.69697
+	N34.35752, W77.64966
+	N34.45137, W77.51768
+
+line3 =
+	N35.65240, W80.26975
+	N35.46605, W80.12247
+	N35.40125, W80.07105
+	N35.31170, W80.05539
+	N35.17573, W80.05834
+	N35.10943, W80.02744
+	N35.11274, W79.96263
+	N35.09615, W79.91468
+	N35.05975, W79.88357
+	N34.97637, W79.88352
+	N34.84599, W79.91452
+	N34.73783, W79.89065
+	N34.65189, W79.81179
+	N34.58022, W79.78146
+	N34.52285, W79.79957
+	N34.50479, W79.79055
+	N34.50311, W79.75381
+	N34.46495, W79.72154
+	N34.35940, W79.67575
+	N34.30049, W79.63392
+	N34.28819, W79.59604
+	N34.19507, W79.55051
+
+[airport1]
+name = Fayetteville Regional Grannis Field
+code = KFAY
+runways =
+	rwy1, 04, N34.9843, W78.887, 31.2, 7712, 499, 706, 184
+	rwy2, 10, N34.9878, W78.8882, 91.0, 4801, 0, 0, 183

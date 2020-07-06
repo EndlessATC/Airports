@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7
+center = N12.8295001984, E45.0288009644
+magneticvar = 1.193
+beacons =
+	KRA, N12.83120, E45.02350, 0, Aden
+	AD, N12.87030, E45.00560, 0, Aden
+
+line1 =
+	N12.67441, E43.83535
+	N12.61650, E43.92979
+	N12.60767, E44.00586
+	N12.63867, E44.11152
+	N12.64463, E44.26035
+	N12.66914, E44.35850
+	N12.81724, E44.61777
+	N12.76377, E44.75527
+	N12.78418, E44.88984
+	N12.81587, E45.03867
+	N12.93857, E45.10977
+	N12.99829, E45.16387
+	N13.06704, E45.39355
+	N13.23350, E45.53398
+	N13.33872, E45.65732
+	N13.39429, E45.91973
+	N13.42383, E46.20312
+
+[airport1]
+name = Aden International Airport
+code = OYAA
+runways =
+	rwy1, 08, N12.8264, E45.0148, 77.0, 10171, 0, 0, 7

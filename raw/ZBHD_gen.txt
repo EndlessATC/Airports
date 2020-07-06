@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 229
+metric = true
+center = N36.5258333333, E114.425555556
+magneticvar = -5.059
+beacons =
+	WXI, N36.36330, E114.91700, 0, Weixian
+	JX, N36.35000, E114.91700, 0, Weixian
+
+line1 =
+	N35.53778, E115.34100
+	N35.59721, E115.38198
+	N35.68092, E115.46327
+	N35.75844, E115.59639
+	N35.82978, E115.78108
+	N35.88034, E115.87089
+	N35.91006, E115.86572
+
+[airport1]
+name = Handan Airport
+code = ZBHD

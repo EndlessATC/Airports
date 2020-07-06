@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 308
+center = N36.9714012146, W25.1706008911
+magneticvar = -10.100
+beacons =
+	VSM, N36.96280, W25.16640, 0, Santa Maria
+	SMA, N36.99670, W25.17560, 0, Santa Maria
+	MGL, N37.74140, W25.58390, 0, Ponta Delgada
+	PD, N37.73500, W25.67500, 0, Ponta Delgada
+
+line1 =
+	N37.01855, W25.16353
+	N36.99653, W25.19839
+	N36.94336, W25.15991
+	N36.94888, W25.08838
+	N36.94155, W25.03154
+	N36.95996, W25.02734
+	N37.00020, W25.04434
+	N37.02402, W25.08291
+	N37.01855, W25.16353
+
+line2 =
+	N37.83403, W25.58550
+	N37.84092, W25.64897
+	N37.91113, W25.78374
+	N37.89404, W25.84590
+	N37.87241, W25.84785
+	N37.82607, W25.83369
+	N37.76289, W25.73447
+	N37.71533, W25.43901
+	N37.73501, W25.25112
+	N37.76436, W25.19072
+	N37.83789, W25.18193
+	N37.84863, W25.26660
+	N37.83403, W25.58550
+
+[airport1]
+name = Santa Maria Airport
+code = LPAZ
+runways =
+	rwy1, 04, N36.9739, W25.1758, 28.0, 334, 0, 0, 282
+	rwy2, 15, N36.9736, W25.1758, 136.0, 1004, 0, 0, 279
+	rwy3, 18, N36.985, W25.1733, 171.0, 10000, 0, 0, 283

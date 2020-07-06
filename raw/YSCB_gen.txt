@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1886
+usa = true
+center = S35.3069000244, E149.195007324
+magneticvar = 12.598
+beacons =
+	CB, S35.29560, E149.20700, 0, Canberra
+	CB, S35.28140, E149.19600, 0, Canberra
+	CCK, S35.46420, E149.19501, 0, Church Creek
+	WLE, S35.56160, E149.17799, 0, Williamsdale
+	WLE, S35.56400, E149.17799, 0, Williamsdale
+	WJS, S35.26060, E148.66701, 0, Wee Jasper
+	WJS, S35.25720, E148.66000, 0, Wee Jasper
+	YAS, S34.82840, E149.04201, 0, Yass
+	GLB, S34.80720, E149.73700, 0, Goulburn
+	SLS, S34.70850, E150.00400, 0, Shellys
+	MRY, S35.89840, E150.14301, 0, Moruya
+
+line1 =
+	S35.21426, E150.56748
+	S35.58418, E150.37412
+	S35.68232, E150.29219
+	S35.83359, E150.19531
+	S35.97061, E150.15850
+	S36.12041, E150.12891
+
+line2 =
+	S36.18089, E148.03410
+	S36.04571, E147.97477
+	S36.01863, E147.93126
+
+[airport1]
+name = Canberra International Airport
+code = YSCB
+runways =
+	rwy1, 12, S35.3007, E149.185, 130.0, 5509, 0, 214, 1849
+	rwy2, 17, S35.2906, E149.194, 180.0, 10771, 0, 1968, 1874

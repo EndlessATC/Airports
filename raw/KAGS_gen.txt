@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 144
+usa = true
+transition = 18001
+center = N33.3698997498, W81.9645004272
+magneticvar = -5.006
+beacons =
+	AG, N33.28690, W81.94690, 0, Bushe
+	EMR, N33.46280, W81.99690, 0, Emory
+	BXG, N33.04250, W82.00480, 0, Burke County
+	AIK, N33.65180, W81.67710, 0, Aiken
+	IRQ, N33.70740, W82.16210, 0, Colliers
+	BKO, N33.34680, W81.42410, 0, Barnwell
+	LNH, N32.91130, W81.96690, 0, Millen
+	HQU, N33.52740, W82.51560, 0, Thomson mMduffie
+	AA, N33.53300, W82.61440, 0, Cedar
+	ALD, N33.01250, W81.29220, 0, Allendale
+	JYL, N32.64920, W81.59430, 0, Sylvania
+	EEX, N32.66650, W82.45270, 0, Emanuel Co
+	IIY, N33.77480, W82.81320, 0, Washington-Wilkes Co
+	CA, N33.96720, W81.24470, 0, Murry
+	HIT, N33.01690, W82.93940, 0, Kaolin
+	CAE, N33.85730, W81.05390, 0, Columbia
+	DBN, N32.56070, W82.83320, 0, Dublin
+
+line1 =
+	N32.38110, W80.67778
+	N32.39595, W80.64722
+
+line2 =
+	N32.51172, W80.63418
+	N32.53369, W80.57222
+
+line3 =
+	N34.01761, W82.58935
+	N33.83773, W82.35189
+	N33.74923, W82.25663
+	N33.66358, W82.20836
+
+line4 =
+	N33.66358, W82.20836
+	N33.52289, W82.00571
+	N33.44729, W81.93639
+	N33.38987, W81.93285
+	N33.34926, W81.90874
+	N33.32543, W81.86409
+	N33.27409, W81.82128
+	N33.19529, W81.78033
+	N33.12676, W81.69932
+	N33.06858, W81.57825
+	N32.93566, W81.48977
+	N32.72803, W81.43381
+	N32.60747, W81.37697
+	N32.55724, W81.29033
+	N32.38014, W81.17150
+
+line5 =
+	N34.36602, W82.81858
+	N34.01738, W82.58927
+
+[airport1]
+name = Augusta Regional At Bush Field
+code = KAGS
+runways =
+	rwy1, 08, N33.366, W81.9692, 78.0, 6001, 0, 0, 134
+	rwy2, 17, N33.3824, W81.9708, 168.0, 8001, 0, 0, 144

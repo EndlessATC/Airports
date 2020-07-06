@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6871
+center = N5.0296, W75.4647
+magneticvar = -5.110
+beacons =
+	LNA, N5.05528, W75.52860, 0, Manizales
+	MAT, N4.80044, W75.77670, 0, Matecana
+	PEI, N4.78083, W75.83560, 0, Pereira
+	EPO, N4.47278, W75.55670, 0, El Paso
+	MQU, N5.20722, W74.92420, 0, Mariquita
+	AXM, N4.45135, W75.77290, 0, Armenia
+	JDN, N5.60417, W75.81110, 0, Jardin
+	IBG, N4.39750, W75.10580, 0, Ibague
+	IBG, N4.39647, W75.10730, 0, Ibague
+	ABL, N4.78389, W74.76750, 0, Ambalema
+
+line1 =
+	N4.03779, W74.85809
+	N4.19427, W74.82005
+	N4.27426, W74.82359
+	N4.27778, W74.86871
+	N4.42169, W74.86108
+	N4.84805, W74.77052
+	N5.18870, W74.75561
+	N5.36740, W74.72316
+	N5.49770, W74.66828
+	N5.61511, W74.64627
+	N5.71963, W74.65717
+	N5.82931, W74.64055
+	N5.94413, W74.59642
+
+[airport1]
+name = La Nubia Airport
+code = SKMZ
+runways =
+	rwy1, 10, N5.03013, W75.4713, 95.0, 4835, 0, 265, 0
+
+[airport2]
+name = Matecaña International Airport
+code = PE
+runways =
+	rwy2, 08, N4.8099, W75.7482, 73.0, 6627, 0, 0, 4342
+inboundbeacon = MAT

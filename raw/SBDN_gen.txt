@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1477
+center = S22.1751003265, W51.4245986938
+magneticvar = -17.261
+beacons =
+	PRR, S22.17270, W51.42570, 0, Prudente
+	PRR, S22.18330, W51.37520, 0, Prudente
+
+line1 =
+	S21.42277, W51.93639
+	S21.46949, W51.95483
+	S21.49373, W51.98982
+	S21.51099, W52.04757
+	S21.55408, W52.07260
+	S21.62281, W52.06496
+	S21.71826, W52.12263
+	S21.84027, W52.24562
+	S21.95726, W52.33892
+	S22.06909, W52.40256
+	S22.20743, W52.56596
+
+line2 =
+	S21.18263, W51.86639
+	S21.26005, W51.85662
+	S21.32971, W51.87290
+	S21.42277, W51.93639
+
+[airport1]
+name = Presidente Prudente Airport
+code = SBDN

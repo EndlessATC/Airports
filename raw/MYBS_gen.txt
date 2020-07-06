@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N25.6998996735, W79.2647018433
+magneticvar = -6.369
+beacons =
+	ZBV, N25.70420, W79.29440, 0, Bimini
+	VKZ, N25.75190, W80.15440, 0, Virginia Key
+	FLL, N26.07470, W80.15250, 0, Fort Lauderdale
+	ZFP, N26.51900, W78.77460, 0, Freeport
+
+line1 =
+	N25.00479, W77.97339
+	N25.08481, W77.97529
+	N25.14312, W78.03330
+	N25.20234, W78.16279
+	N25.19126, W78.21138
+	N25.02236, W78.15933
+	N24.91709, W78.18408
+	N24.75391, W78.29883
+
+line2 =
+	N26.65918, W78.63325
+	N26.59902, W78.71250
+	N26.58242, W78.79805
+	N26.67344, W78.93579
+	N26.68950, W78.98564
+	N26.52847, W78.79922
+	N26.50068, W78.74365
+	N26.50654, W78.67095
+	N26.55937, W78.51621
+	N26.63735, W78.23389
+
+line3 =
+	N25.34761, W80.25708
+	N25.34126, W80.28047
+	N25.29697, W80.35127
+	N25.23364, W80.35493
+	N25.17935, W80.40366
+	N25.14932, W80.45601
+	N25.10195, W80.48105
+	N25.00132, W80.55854
+
+line4 =
+	N25.14229, W80.38184
+	N25.34761, W80.25708
+
+line5 =
+	N25.23242, W80.55762
+	N25.22983, W80.48467
+	N25.33125, W80.36694
+	N25.42710, W80.32773
+	N25.61855, W80.30083
+	N25.74175, W80.21909
+	N25.87832, W80.15894
+	N25.87402, W80.14292
+	N25.84263, W80.13628
+	N25.83350, W80.12637
+	N26.13159, W80.11060
+	N26.56860, W80.04131
+
+[airport1]
+name = South Bimini Airport
+code = MYBS
+runways =
+	rwy1, 09, N25.7, W79.2734, 90.0, 5409, 0, 0, 8

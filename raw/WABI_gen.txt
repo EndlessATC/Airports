@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = S3.36818, E135.496002
+magneticvar = 3.223
+beacons =
+	ZR, S3.36167, E135.49500, 0, Nabire
+	NBR, S3.38196, E135.50101, 0, Nabire
+	ZG, S4.04358, E136.27499, 0, Waghete
+
+line1 =
+	S4.19541, E134.75420
+	S4.07910, E134.67969
+	S4.01113, E134.68691
+	S3.95479, E134.70654
+	S3.93848, E134.88652
+	S3.92217, E134.75977
+	S3.92988, E134.70762
+	S3.97607, E134.60342
+	S3.97930, E134.54688
+	S3.94863, E134.46719
+	S3.90996, E134.39102
+
+line2 =
+	S2.62100, E134.36211
+	S2.83232, E134.45996
+	S2.71426, E134.49121
+	S2.58301, E134.48330
+	S2.53564, E134.51797
+	S2.51045, E134.56689
+	S2.53672, E134.62744
+	S2.58984, E134.64473
+	S2.70586, E134.64902
+	S2.93359, E134.70215
+	S2.94404, E134.76982
+	S2.90918, E134.84336
+	S2.97881, E134.85537
+	S3.10762, E134.85273
+	S3.20986, E134.88682
+	S3.24990, E134.91719
+	S3.33311, E135.03740
+	S3.34854, E135.09219
+	S3.36855, E135.25156
+	S3.37490, E135.37158
+	S3.34512, E135.48662
+	S3.26875, E135.56074
+	S3.18604, E135.62773
+	S2.99531, E135.85918
+	S2.90410, E135.92617
+	S2.76426, E135.99072
+	S2.73428, E136.01299
+	S2.58311, E136.24326
+	S2.52949, E136.26953
+	S2.42568, E136.30254
+
+[airport1]
+name = Nabire Airport
+code = WABI
+runways =
+	rwy1, 16, S3.36219, E135.494, 160.9, 4593, 650, 1130, 20

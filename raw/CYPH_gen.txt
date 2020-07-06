@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 83
+usa = true
+transition = 18001
+center = N58.4719009399, W78.0768966675
+magneticvar = -20.439
+beacons =
+	PH, N58.46780, W78.07330, 0, Inukjuak
+
+line1 =
+	N59.44351, W77.84468
+	N59.41040, W77.77944
+	N59.38003, W77.76069
+	N59.30503, W77.84282
+	N59.24551, W77.98765
+	N59.20020, W78.06768
+	N59.14175, W78.14023
+	N59.03506, W78.24443
+	N58.90176, W78.43052
+	N58.87329, W78.45869
+	N58.82910, W78.48262
+	N58.76909, W78.50229
+	N58.68237, W78.51509
+	N58.64912, W78.50591
+	N58.60244, W78.46299
+	N58.58066, W78.35171
+	N58.39917, W78.01357
+	N58.35073, W77.88413
+	N58.29136, W77.68408
+	N58.23960, W77.55244
+	N58.19531, W77.48916
+	N58.01890, W77.15679
+	N57.75811, W76.89092
+	N57.65796, W76.80981
+	N57.59858, W76.78628
+
+line2 =
+	N57.51445, W79.77520
+	N57.50752, W79.73223
+	N57.51553, W79.71650
+	N57.55503, W79.71348
+	N57.60459, W79.72671
+	N57.60796, W79.74258
+	N57.59873, W79.76787
+	N57.55928, W79.81084
+	N57.54160, W79.81914
+	N57.51772, W79.81592
+	N57.48301, W79.83823
+
+[airport1]
+name = Inukjuak Airport
+code = CYPH

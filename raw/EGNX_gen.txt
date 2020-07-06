@@ -1,0 +1,107 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 306
+center = N52.8311004639, W1.32806003094
+magneticvar = -2.215
+beacons =
+	NOT, N52.92170, W1.07933, 0, Nottingham
+	LIC, N52.74670, W1.71944, 0, Lichfield
+	TNL, N52.81450, W1.76667, 0, Tatenhill
+	LE, N52.60640, W1.03500, 0, Leicester
+	TNT, N53.05390, W1.67000, 0, Trent
+	CTM, N52.73540, W0.65077, 0, Cottesmore
+	BHX, N52.45450, W1.75239, 0, Birmingham
+	GAM, N53.28140, W0.94722, 0, Gamston
+	HON, N52.35670, W1.66361, 0, Honiley
+	CWL, N53.02630, W0.48898, 0, Cranwell
+	CWZ, N53.02860, W0.48550, 0, Cranwell
+	WIT, N52.60780, W0.49867, 0, Wittering
+	SMF, N53.39260, W1.38314, 0, Sheffield City
+	SFH, N53.39300, W1.38314, 0, Sheffield City
+	WAD, N53.16530, W0.52683, 0, Waddington
+	NN, N52.29910, W0.79760, 0, Northampton
+	WBA, N52.51590, W2.26176, 0, Wolverhampton
+	WOL, N52.51580, W2.26182, 0, Wolverhampton
+	DTY, N52.18030, W1.11389, 0, Daventry
+	FNY, N53.47480, W1.00172, 0, Doncaster
+	WFD, N53.33770, W2.15836, 0, Manchester Woodford
+	CGY, N53.09100, W0.16897, 0, Coningsby
+	MCT, N53.35690, W2.26222, 0, Manchester
+	MCH, N53.35330, W2.27303, 0, Manchester
+	FNL, N52.74160, W0.02794, 0, Fenland
+	SWB, N52.79800, W2.66254, 0, Shawbury
+	WHI, N53.18500, W2.62306, 0, Whitegate
+	CFD, N52.07420, W0.61079, 0, Cranfield
+	BOU, N52.21110, W0.04494, 0, Bourn
+
+line1 =
+	N53.74282, E0.01055
+	N53.60928, E0.11533
+	N53.62944, E0.07671
+	N53.64053, E0.03608
+	N53.63721, W0.01943
+	N53.64365, W0.07373
+	N53.68545, W0.17383
+	N53.73677, W0.27002
+	N53.71616, W0.46138
+	N53.72539, W0.56768
+	N53.72402, W0.65991
+	N53.69438, W0.48506
+	N53.69233, W0.29370
+	N53.46826, E0.12832
+	N53.33550, E0.27100
+	N53.15996, E0.35576
+	N53.08110, E0.29805
+	N53.03003, E0.20820
+	N52.97158, E0.12441
+	N52.90562, E0.04590
+	N52.80869, E0.27979
+	N52.81162, E0.33018
+	N52.82520, E0.38193
+	N52.85815, E0.43164
+	N52.93838, E0.51553
+	N52.96694, E0.55879
+
+line2 =
+	N53.26030, W3.09756
+	N53.39468, W3.16558
+	N53.42686, W3.06475
+	N53.30537, W2.91855
+	N53.29258, W2.86416
+	N53.31021, W2.74951
+	N53.33071, W2.79375
+	N53.33193, W2.84541
+	N53.35024, W2.91309
+	N53.38921, W2.96997
+	N53.51284, W3.06460
+	N53.58623, W3.05947
+	N53.66255, W2.99570
+	N53.73276, W2.92510
+	N53.74673, W2.98433
+	N53.77358, W3.03179
+
+[airport1]
+name = East Midlands Airport
+code = EGNX
+runways =
+	rwy1, 09, N52.8306, W1.34957, 88.0, 9491, 590, 426, 306
+
+[airport2]
+name = Nottingham Airport
+code = BN
+runways =
+	rwy3, 03, N52.9167, W1.07944, 27.8, 2693, 0, 0, 114
+	rwy4, 09, N52.9197, W1.08583, 88.0, 3445, 699, 397, 127
+inboundbeacon = NOT
+
+[airport3]
+name = Birmingham International Airport
+code = BB
+runways =
+	rwy2, 15, N52.4656, W1.76111, 148.0, 10013, 1069, 987, 305
+inboundbeacon = BHX

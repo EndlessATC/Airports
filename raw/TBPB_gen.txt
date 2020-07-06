@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 169
+center = N13.0746, W59.4925
+magneticvar = -15.110
+beacons =
+	BGI, N13.07130, W59.49050, 0, Adams
+	BGI, N13.07500, W59.48390, 0, Adams
+
+line1 =
+	N13.31768, W59.59160
+	N13.30312, W59.64668
+	N13.15029, W59.64277
+	N13.10210, W59.61133
+	N13.06221, W59.52187
+	N13.08198, W59.49331
+	N13.15278, W59.42764
+	N13.19683, W59.48789
+	N13.31768, W59.59160
+
+[airport1]
+name = Grantley Adams International Airport
+code = TBPB
+runways =
+	rwy1, 09, N13.0709, W59.5075, 75.9, 11000, 0, 0, 169

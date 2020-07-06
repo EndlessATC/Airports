@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6548
+usa = true
+transition = 18001
+center = N39.64260101, W106.9179993
+magneticvar = 11.046
+beacons =
+	EGE, N39.64660, W106.91400, 0, Eagle
+	SXW, N39.62950, W106.99100, 0, Snow
+	DBL, N39.43930, W106.89500, 0, Red Table
+	CQL, N39.41170, W107.15900, 0, Carbondale
+	RDY, N39.21330, W106.85800, 0, Sardy
+	RLG, N40.00260, W106.44200, 0, Kremmling
+	RIL, N39.52810, W107.71600, 0, Rifle
+	BQZ, N40.46370, W106.87200, 0, Robert
+	SBS, N40.47020, W106.83000, 0, Steamboat Springs
+	EKR, N40.06750, W107.92500, 0, Meeker
+
+line1 =
+	N40.18460, W105.82080
+	N40.16468, W105.86136
+
+line2 =
+	N38.67676, W106.08657
+	N38.80182, W106.13535
+	N39.07772, W106.28581
+	N39.22236, W106.38076
+
+line3 =
+	N40.16468, W105.86136
+	N40.12742, W105.98523
+	N40.09270, W106.12579
+	N40.09099, W106.28464
+	N40.06210, W106.40112
+	N40.01851, W106.48210
+	N39.92265, W106.59481
+	N39.89408, W106.63837
+	N39.88989, W106.67620
+	N39.92025, W106.72632
+	N39.92444, W106.79314
+	N39.90247, W106.87665
+	N39.82811, W106.96941
+	N39.70138, W107.07137
+	N39.64373, W107.13203
+	N39.60239, W107.23539
+	N39.57890, W107.54079
+	N39.57919, W107.73373
+	N39.55676, W107.84672
+	N39.51170, W107.94408
+	N39.41018, W108.10608
+	N39.31455, W108.24233
+	N39.17831, W108.31403
+
+line4 =
+	N40.40410, W105.84558
+	N40.21530, W105.81640
+	N40.18491, W105.82064
+
+[airport1]
+name = Eagle County Regional Airport
+code = KEGE
+runways =
+	rwy1, 07, N39.641, W106.932, 81.9, 9000, 0, 1000, 6461
+	rwy2, 08, N39.6447, W106.923, 90.0, 5013, 0, 0, 0

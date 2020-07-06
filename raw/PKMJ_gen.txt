@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6
+center = N7.06476020813, E171.272003174
+magneticvar = 8.377
+beacons =
+	MAJ, N7.06883, E171.28200, 0, Majuro
+
+line1 =
+	N6.97314, E171.75684
+	N6.97661, E171.73047
+	N7.00015, E171.69336
+	N7.01006, E171.65938
+	N7.00718, E171.61416
+	N7.01626, E171.59277
+	N7.04824, E171.57734
+	N7.02661, E171.61475
+	N7.02827, E171.68838
+	N6.97314, E171.75684
+
+line2 =
+	N7.11094, E171.39375
+	N7.09556, E171.36699
+	N7.08115, E171.30469
+	N7.06875, E171.26328
+	N7.06875, E171.23535
+	N7.07354, E171.20234
+	N7.10928, E171.09551
+	N7.15610, E171.03574
+	N7.17178, E171.05039
+	N7.13823, E171.10195
+	N7.08696, E171.22695
+	N7.11094, E171.39375
+
+[airport1]
+name = Marshall Islands International Airport
+code = PKMJ
+runways =
+	rwy1, 07, N7.06216, E171.261, 76.0, 7897, 0, 0, 6

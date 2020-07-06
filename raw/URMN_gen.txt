@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1461
+center = N43.5129013062, E43.6366004944
+magneticvar = 6.220
+beacons =
+	NL, N43.53330, E43.69330, 0, Nalchik
+	TP, N44.15500, E43.53330, 0, Teplorechensky
+	CH, N43.21500, E44.53830, 0, Vladikavkaz
+	MW, N44.19500, E43.15170, 0, Mineralnyye Vody
+	KW, N43.94170, E42.65000, 0, Kislovodsk
+	MD, N44.25830, E43.00830, 0, Mineralnyye Vody
+
+[airport1]
+name = Nalchik Airport
+code = URMN
+runways =
+	rwy1, 06, N43.5083, E43.6244, 63.4, 7218, 0, 0, 1462

@@ -1,0 +1,88 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1791
+center = N45.738499, E7.36872
+magneticvar = 0.165
+beacons =
+	SIO, N46.21550, E7.28878, 0, Sion
+	CSL, N45.21970, E7.64957, 0, Caselle
+	BLA, N45.49420, E8.10058, 0, Biella Cerrione
+	CAS, N45.19380, E7.65281, 0, Caselle
+	MOT, N46.31340, E7.50333, 0, Montana
+	BLA, N45.46220, E8.12333, 0, Biella Cerrione
+	CAS, N45.12350, E7.64533, 0, Caselle
+	RMG, N45.62830, E8.40658, 0, Romagnano
+	TOP, N44.92540, E7.86166, 0, Torino
+	TOP, N44.92470, E7.86043, 0, Torino
+	SPR, N46.46870, E6.44806, 0, St-Prex
+	GLA, N46.40870, E6.24425, 0, Gland
+
+line1 =
+	N46.43223, E6.87363
+	N46.40259, E6.86641
+	N46.38481, E6.84502
+	N46.40244, E6.66533
+	N46.38857, E6.46885
+	N46.36094, E6.33643
+	N46.20508, E6.15703
+	N46.20459, E6.13330
+	N46.30244, E6.15840
+	N46.45762, E6.34395
+	N46.52881, E6.58818
+	N46.46562, E6.81885
+	N46.43223, E6.87363
+	N46.43223, E6.87363
+	N46.43223, E6.87363
+
+line2 =
+	N46.20460, E6.13330
+	N46.33262, E6.23469
+	N46.39371, E6.32192
+	N46.43050, E6.42889
+	N46.43737, E6.57823
+	N46.40280, E6.86607
+
+line3 =
+	N44.79453, E7.50180
+	N44.84902, E7.61931
+	N44.92501, E7.66478
+	N45.04074, E7.67750
+	N45.12900, E7.73062
+	N45.18985, E7.82426
+	N45.21977, E7.97588
+	N45.21876, E8.18537
+	N45.19921, E8.36004
+	N45.16107, E8.49967
+	N45.11265, E8.59434
+	N45.05399, E8.64405
+	N45.05361, E8.80776
+
+line4 =
+	N46.20460, E6.13330
+	N46.12261, E5.90220
+	N46.01332, E5.81446
+	N45.84948, E5.79306
+	N45.73711, E5.74697
+
+line5 =
+	N46.48228, E8.25048
+	N46.37412, E8.06827
+	N46.33469, E7.95531
+	N46.32461, E7.79863
+	N46.32658, E7.65290
+	N46.27749, E7.47120
+	N46.17801, E7.20497
+	N46.15176, E7.08916
+	N46.19682, E7.02048
+	N46.40259, E6.86638
+
+[airport1]
+name = Aosta Airport
+code = LIMW
+runways =
+	rwy1, 09, N45.7381, E7.35992, 85.0, 4088, 213, 115, 1790

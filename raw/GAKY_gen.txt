@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 164
+center = N14.4812002182, W11.4043998718
+magneticvar = -6.221
+beacons =
+	KAY, N14.47910, W11.42180, 0, Kayes
+	TZJ, N14.43150, W11.42840, 0, Kayes
+
+line1 =
+	N13.50282, W10.75345
+	N13.64020, W10.83295
+	N13.73513, W10.86732
+	N13.75136, W10.87305
+	N13.77787, W10.89243
+
+line2 =
+	N13.77787, W10.89243
+	N13.78934, W10.91401
+	N13.80141, W10.95206
+	N13.85559, W11.01123
+	N13.97227, W11.06219
+	N14.04506, W11.12947
+	N14.07400, W11.21308
+	N14.10488, W11.24564
+	N14.13769, W11.22724
+	N14.19180, W11.22952
+	N14.26724, W11.25251
+	N14.34264, W11.29959
+	N14.41806, W11.37080
+	N14.48950, W11.47684
+	N14.55699, W11.61771
+	N14.59784, W11.73964
+	N14.61200, W11.84263
+	N14.64670, W11.93583
+	N14.72949, W12.06094
+	N14.81700, W12.30253
+	N14.88901, W12.40867
+	N14.97464, W12.45988
+	N15.03900, W12.54354
+
+[airport1]
+name = Kayes Dag Dag Airport
+code = GAKY
+runways =
+	rwy1, 09, N14.4801, W11.4118, 81.0, 5267, 0, 0, 161

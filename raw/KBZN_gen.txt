@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4473
+usa = true
+transition = 18001
+center = N45.77750015, W111.1529999
+magneticvar = 14.067
+beacons =
+	BZN, N45.78390, W111.15500, 0, Bozeman
+	BZ, N45.87180, W111.28600, 0, Manni
+	LVM, N45.70250, W110.44200, 0, Livingston
+	EKS, N45.26580, W111.65100, 0, Ennis
+	HIA, N45.86180, W112.17000, 0, Whitehall
+	HAU, N46.56890, W111.75800, 0, Hauser
+	CVP, N46.60670, W111.93700, 0, Capitol
+	HLN, N46.60680, W111.95300, 0, Helena
+
+line1 =
+	N44.79964, W111.24191
+	N44.86290, W111.30067
+	N44.86842, W111.30914
+
+line2 =
+	N46.36249, W111.51572
+	N46.46908, W111.53998
+	N46.54385, W111.58538
+	N46.66160, W111.69731
+
+line3 =
+	N44.86848, W111.30925
+	N44.86724, W111.32922
+	N44.84284, W111.40645
+	N44.85235, W111.47678
+	N44.89158, W111.55334
+	N44.98790, W111.62558
+	N45.14128, W111.69351
+	N45.26344, W111.71858
+	N45.35449, W111.70072
+	N45.45774, W111.64563
+	N45.57324, W111.55326
+	N45.72181, W111.49270
+	N45.90350, W111.46397
+	N46.02458, W111.42963
+	N46.08499, W111.38973
+	N46.17651, W111.40630
+	N46.36037, W111.51585
+
+line4 =
+	N46.66268, W111.69876
+	N46.67069, W111.75813
+	N46.71108, W111.81369
+
+[airport1]
+name = Gallatin Field
+code = KBZN
+runways =
+	rwy1, 03, N45.7689, W111.153, 46.0, 2650, 0, 0, 4471
+	rwy2, 11, N45.7811, W111.153, 135.7, 3197, 0, 0, 4440
+	rwy3, 12, N45.7881, W111.166, 136.0, 9003, 0, 0, 4421

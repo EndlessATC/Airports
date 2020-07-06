@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1789
+usa = true
+transition = 18001
+center = N53.0261001587, W122.510002136
+magneticvar = 19.207
+beacons =
+	YQZ, N52.96060, W122.48600, 0, Quesnel
+	XS, N53.82830, W122.65400, 0, Prince George
+	YWL, N52.23690, W122.17000, 0, Williams Lake
+
+line1 =
+	N53.60929, W120.68105
+	N53.77811, W121.02382
+	N53.88891, W121.39646
+	N53.92989, W121.58430
+	N53.96291, W121.64921
+	N54.00167, W121.65381
+
+line2 =
+	N53.94678, W122.70367
+	N53.81568, W122.74439
+	N53.65228, W122.73302
+	N53.53415, W122.70814
+	N53.46134, W122.66969
+	N53.39914, W122.70938
+	N53.34762, W122.82715
+	N53.26572, W122.80405
+	N53.15345, W122.64003
+	N53.04214, W122.53047
+	N52.93176, W122.47536
+	N52.79833, W122.45696
+	N52.64185, W122.47528
+	N52.50754, W122.43632
+	N52.39536, W122.34007
+	N52.25857, W122.28457
+	N52.09718, W122.26982
+
+[airport1]
+name = Quesnel Airport
+code = CYQZ
+runways =
+	rwy1, 13, N53.0326, W122.517, 150.0, 5500, 0, 0, 1789

@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 164
+center = N2.57013, W77.8986
+magneticvar = -2.597
+beacons =
+	GPI, N2.57326, W77.89450, 0, Guapi
+	MER, N1.78833, W77.15080, 0, Mercaderes
+
+line1 =
+	N2.64634, W78.17842
+	N2.60918, W78.21011
+	N2.55928, W78.19248
+	N2.51968, W78.14082
+	N2.54175, W78.11372
+	N2.60361, W78.11914
+	N2.63418, W78.13765
+	N2.64634, W78.17842
+
+line2 =
+	N3.47476, W77.32441
+	N3.34858, W77.35654
+	N3.34180, W77.41714
+	N3.23379, W77.47222
+	N3.16025, W77.52026
+	N3.07598, W77.55913
+	N3.05117, W77.63203
+	N3.03994, W77.69365
+	N3.00757, W77.70098
+	N2.91934, W77.67109
+	N2.87886, W77.67002
+	N2.78730, W77.77666
+	N2.74639, W77.80796
+	N2.71636, W77.81357
+	N2.72588, W77.87451
+	N2.69883, W77.90078
+	N2.62925, W77.93228
+	N2.56899, W77.98721
+	N2.54307, W78.03018
+	N2.50913, W78.06665
+	N2.48818, W78.12002
+	N2.51050, W78.29614
+	N2.46055, W78.34287
+	N2.48350, W78.41689
+	N2.47007, W78.46045
+	N2.42368, W78.53472
+	N2.35664, W78.59170
+	N2.30679, W78.61704
+	N2.05625, W78.62861
+	N1.92363, W78.55044
+	N1.77378, W78.57690
+	N1.84873, W78.79297
+	N1.75220, W78.95767
+	N1.62368, W79.02544
+
+[airport1]
+name = Juan Casiano Airport
+code = SKGP
+runways =
+	rwy1, 01, N2.56456, W77.9004, 18.0, 4256, 0, 0, 164

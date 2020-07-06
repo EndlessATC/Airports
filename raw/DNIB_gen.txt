@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 725
+center = N7.36246013641, E3.97832989693
+magneticvar = -3.308
+beacons =
+	IBA, N7.34744, E3.96572, 0, Ibadan
+	IN, N7.37802, E3.99149, 0, Ibadan
+	IB, N7.43373, E3.91588, 0, Ibadan
+	LAG, N6.70846, E3.32745, 0, Lagos
+	LA, N6.60648, E3.32793, 0, Lagos
+	LOS, N6.54278, E3.31367, 0, Lagos
+
+line1 =
+	N6.39692, E3.33555
+	N6.52500, E3.43018
+	N6.53135, E3.50332
+	N6.59795, E3.71699
+	N6.58384, E3.75166
+	N6.47744, E3.54609
+	N6.45728, E3.48994
+	N6.42705, E3.45078
+	N6.40894, E3.48662
+	N6.41138, E4.12588
+
+[airport1]
+name = Ibadan Airport
+code = DNIB
+runways =
+	rwy1, 05, N7.35413, E3.97133, 40.0, 7875, 0, 0, 725

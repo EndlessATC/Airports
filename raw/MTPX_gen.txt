@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 9
+center = N19.933599472, W72.8486022949
+magneticvar = -9.253
+beacons =
+	HCN, N19.72830, W72.19670, 0, Cap Haitien
+	HTN, N19.73170, W72.19360, 0, Cap Haitien
+
+line1 =
+	N19.87744, W71.61597
+	N19.84863, W71.66738
+	N19.79517, W71.70605
+	N19.73511, W71.73511
+	N19.71816, W71.77925
+	N19.69673, W71.83472
+	N19.72168, W71.95430
+	N19.74463, W72.21982
+	N19.81328, W72.42993
+	N19.90088, W72.63701
+	N19.92808, W72.87651
+	N19.90381, W73.11777
+	N19.88369, W73.21777
+	N19.85459, W73.31533
+	N19.80742, W73.40054
+	N19.72212, W73.43838
+	N19.65869, W73.39634
+	N19.63730, W73.31553
+	N19.61074, W73.05273
+	N19.52607, W72.86343
+	N19.44106, W72.70322
+	N19.34185, W72.74180
+	N19.24062, W72.76797
+	N19.13135, W72.74121
+	N19.07158, W72.81108
+
+line2 =
+	N18.96729, W73.17061
+	N18.95405, W73.27642
+
+line3 =
+	N20.09365, W72.85146
+	N20.08584, W72.90674
+	N20.06226, W72.96035
+	N20.03145, W72.89932
+	N20.02744, W72.87842
+	N20.03545, W72.84424
+	N20.00342, W72.73979
+	N19.98584, W72.63887
+	N20.01416, W72.62349
+	N20.03750, W72.66406
+	N20.09189, W72.79102
+	N20.09365, W72.85146
+
+[airport1]
+name = Port-de-Paix Airport
+code = MTPX

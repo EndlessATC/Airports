@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 675
+center = N50.1100006104, E22.0189990997
+magneticvar = 4.122
+beacons =
+	OR, N50.11040, E21.98680, 0, Rzeszow
+	RZE, N50.10990, E22.09890, 0, Rzeszow
+	RZ, N50.10870, E22.13400, 0, Rzeszow
+	SA, N50.32220, E21.50110, 0, Mielec
+
+line1 =
+	N49.26707, E22.84660
+	N49.46065, E23.08234
+	N49.55403, E23.38837
+	N49.56475, E23.60738
+
+line2 =
+	N50.09632, E20.29068
+	N50.13730, E20.52198
+	N50.18766, E20.64528
+	N50.26107, E20.73768
+	N50.30732, E20.88320
+	N50.32639, E21.08195
+	N50.38556, E21.28927
+	N50.48488, E21.50528
+	N50.58590, E21.67008
+	N50.68859, E21.78366
+	N50.84571, E21.82361
+	N51.05722, E21.79002
+
+[airport1]
+name = Rzeszów-Jasionka Airport
+code = EPRZ
+runways =
+	rwy1, 08, N50.1044, E22.0426, 80.8, 2700, 0, 0, 0
+	rwy2, 09, N50.1102, E22.0015, 91.0, 10499, 0, 0, 688

@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 354
+usa = true
+transition = 18001
+center = N32.6927986145, W83.6492004395
+magneticvar = -3.563
+beacons =
+	MCN, N32.69120, W83.64720, 0, Macon
+	MC, N32.64530, W83.71320, 0, Sofke
+	BEP, N32.45740, W83.76570, 0, Bay Creek
+	IZS, N32.36740, W84.00740, 0, Montezuma
+	VNA, N32.21340, W83.49730, 0, Vienna
+	OP, N32.91930, W84.18710, 0, Yates
+	DB, N32.48380, W83.01090, 0, Creke
+	UMB, N33.15180, W83.15960, 0, Culvr
+	LKG, N32.17450, W84.10820, 0, Lindbergh
+	HIT, N33.01690, W82.93940, 0, Kaolin
+	JHH, N33.18430, W84.22750, 0, Griffin
+	EZM, N32.13420, W83.15390, 0, Eastman
+	DBN, N32.56070, W82.83320, 0, Dublin
+	OHY, N31.99780, W83.86180, 0, Coney
+	MQW, N32.09460, W82.88380, 0, Mc Rae
+	FF, N33.30060, W84.48640, 0, Pecat
+
+line1 =
+	N33.62193, W84.72947
+	N33.49581, W84.92119
+
+line2 =
+	N32.52615, W85.01504
+	N32.40929, W84.97390
+	N32.36094, W84.98597
+	N32.31981, W84.96850
+	N32.28588, W84.92153
+	N32.24656, W84.92969
+	N32.20183, W84.99297
+	N32.14737, W85.03462
+
+[airport1]
+name = Middle Georgia Regional Airport
+code = KMCN
+runways =
+	rwy1, 05, N32.686, W83.6606, 48.0, 6501, 0, 0, 331
+	rwy2, 13, N32.6984, W83.6508, 130.0, 5001, 0, 0, 354

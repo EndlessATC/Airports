@@ -1,0 +1,17 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 193
+center = S3.85493, W32.423302
+magneticvar = -20.500
+beacons =
+	NOR, S3.85839, W32.42820, 0, Noronha
+	FNO, S3.87020, W32.42930, 0, Fernando
+
+[airport1]
+name = Fernando de Noronha Airport
+code = SBFN

@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1894
+usa = true
+transition = 18001
+center = N50.4319000244, W104.666000366
+magneticvar = 11.234
+beacons =
+	ZRS, N50.48530, W104.73600, 0, Ajax
+	ZRG, N50.42890, W104.79100, 0, Brophy
+	QR, N50.36970, W104.57300, 0, Regina
+	ZQR, N50.42890, W104.52700, 0, Findlay
+	VLN, N50.66700, W104.89000, 0, Lumsden
+	V1, N50.43330, W105.38700, 0, Moose Jaw Muni
+	BD, N50.29170, W105.44200, 0, Baildon
+	YMJ, N50.33110, W105.56300, 0, Moose Jaw
+	3N, N49.69640, W103.80400, 0, Weyburn
+	NI, N49.72830, W105.94900, 0, Assiniboia
+
+[airport1]
+name = Regina International Airport
+code = CYQR
+runways =
+	rwy1, 08, N50.4281, W104.68, 89.0, 6200, 0, 0, 1893
+	rwy2, 13, N50.4392, W104.671, 138.0, 7900, 0, 0, 1894

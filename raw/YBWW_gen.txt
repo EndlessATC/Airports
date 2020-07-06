@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1509
+usa = true
+center = S27.558332, E151.793335
+magneticvar = 10.511
+beacons =
+	TWB, S27.54190, E151.91200, 0, Toowoomba
+	OK, S27.42140, E151.73700, 0, Oakey
+	OK, S27.40000, E151.73801, 0, Oakey
+	AMB, S27.64170, E152.71600, 0, Amberley
+	AMB, S27.64890, E152.72400, 0, Amberley
+	KCY, S26.91890, E152.57300, 0, Kilcoy
+
+[airport1]
+name = Toowoomba Wellcamp Airport
+code = YBWW
+
+[airport2]
+name = Oakey Airport
+code = OK
+runways =
+	rwy1, 05, S27.4061, E151.731, 55.0, 2999, 0, 0, 1329
+	rwy2, 09, S27.4091, E151.725, 99.6, 3278, 0, 0, 1324
+	rwy3, 14, S27.4027, E151.737, 145.0, 5410, 0, 0, 1334
+inboundbeacon = OK

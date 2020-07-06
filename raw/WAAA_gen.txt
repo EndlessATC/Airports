@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 47
+center = S5.06162977219, E119.554000854
+magneticvar = 1.390
+beacons =
+	MKS, S5.03781, E119.52600, 0, Hasanuddin
+	OJ, S5.08246, E119.51900, 0, Hasanuddin
+
+line1 =
+	S4.08574, E120.36250
+	S4.41514, E120.38457
+	S4.61738, E120.42012
+	S4.72725, E120.40498
+	S4.96318, E120.31016
+	S5.09268, E120.28145
+	S5.14609, E120.27930
+	S5.39258, E120.39092
+	S5.49004, E120.41660
+	S5.59102, E120.43037
+	S5.54160, E120.31162
+	S5.54414, E120.25645
+	S5.55938, E120.20078
+	S5.57549, E120.07705
+	S5.57764, E119.95156
+	S5.59629, E119.90762
+	S5.66182, E119.81846
+	S5.68828, E119.76445
+	S5.69336, E119.71729
+	S5.61104, E119.55742
+	S5.52168, E119.46309
+	S5.42480, E119.37617
+	S5.31416, E119.36035
+	S5.20059, E119.39062
+	S5.07920, E119.43359
+	S4.87734, E119.51953
+	S4.74189, E119.51553
+	S4.63086, E119.54492
+	S4.52314, E119.59404
+	S4.42354, E119.61172
+
+line2 =
+	S5.77529, E120.47734
+	S5.87627, E120.44648
+
+line3 =
+	S5.96924, E120.54922
+	S5.90381, E120.53418
+	S5.77529, E120.47734
+
+[airport1]
+name = Hasanuddin International Airport
+code = WAAA
+runways =
+	rwy1, 13, S5.05429, E119.545, 130.5, 8202, 0, 0, 44

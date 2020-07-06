@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 282
+center = S4.57664012909, W81.2540969849
+magneticvar = 0.463
+beacons =
+	TYL, S4.57333, W81.25500, 0, Talara
+	TAL, S4.58056, W81.25250, 0, Talara
+	URA, S5.21000, W80.61610, 0, Piura
+	URA, S5.21167, W80.61720, 0, Piura
+
+line1 =
+	S3.63818, W80.65273
+	S3.73105, W80.79858
+	S3.88164, W80.89194
+	S4.23428, W81.23203
+	S4.32227, W81.28320
+	S4.66953, W81.33662
+	S4.76074, W81.28940
+	S4.87949, W81.19507
+	S5.02783, W81.10850
+	S5.10186, W81.15073
+	S5.16709, W81.16768
+	S5.47539, W80.94312
+
+[airport1]
+name = Capitan Montes Airport
+code = SPYL
+runways =
+	rwy1, 17, S4.56568, W81.2561, 169.9, 8038, 0, 0, 277

@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 12
+metric = true
+center = N39.745201, E127.473999
+
+line1 =
+	N38.74521, E128.24941
+	N38.78613, E128.16250
+	N38.81641, E128.12305
+	N38.89800, E127.97168
+	N39.08413, E127.78613
+	N39.12505, E127.69893
+	N39.14326, E127.58096
+	N39.17949, E127.49697
+	N39.20791, E127.39453
+	N39.29614, E127.38350
+	N39.37358, E127.42227
+	N39.40098, E127.45742
+	N39.37739, E127.52285
+	N39.46108, E127.54893
+	N39.56279, E127.54727
+	N39.69570, E127.52744
+	N39.78198, E127.56816
+	N39.89595, E127.86709
+	N39.99561, E127.96660
+	N40.03257, E128.10635
+	N40.03594, E128.30449
+	N40.08896, E128.39297
+	N40.13022, E128.51123
+	N40.19790, E128.61074
+	N40.31753, E128.70137
+	N40.35850, E128.84297
+	N40.42788, E128.94521
+
+[airport1]
+name = Sondok Airport
+code = ZKSD

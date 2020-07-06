@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1063
+center = S3.31132006645, E17.3817005157
+magneticvar = -2.194
+beacons =
+	BAN, S3.30238, E17.38290, 0, Bandundu
+
+line1 =
+	S3.59880, E18.51012
+	S3.55095, E18.41379
+	S3.45705, E18.29173
+	S3.41163, E18.12978
+	S3.41473, E17.92803
+	S3.39075, E17.79636
+	S3.33954, E17.73476
+	S3.31261, E17.67368
+	S3.30993, E17.61312
+	S3.23438, E17.42724
+	S3.20001, E17.35535
+	S3.05919, E17.06008
+	S3.05206, E16.97806
+	S3.07284, E16.88520
+	S3.08606, E16.74506
+	S3.06973, E16.51871
+	S3.07325, E16.36410
+	S3.09655, E16.28110
+	S3.13857, E16.23098
+
+line2 =
+	S4.24548, E16.51251
+	S4.18011, E16.58651
+	S4.11866, E16.75818
+	S4.06234, E16.86970
+	S4.01112, E16.92127
+	S3.99149, E16.99331
+	S4.00332, E17.08591
+	S3.92012, E17.18348
+	S3.74194, E17.28611
+	S3.61012, E17.32202
+	S3.52459, E17.29133
+	S3.45354, E17.29815
+	S3.36858, E17.36466
+	S3.29520, E17.37613
+	S3.20001, E17.35535
+
+[airport1]
+name = Bandundu Airport
+code = FZBO
+runways =
+	rwy1, 11, S3.30959, E17.3757, 106.0, 4528, 0, 0, 1060

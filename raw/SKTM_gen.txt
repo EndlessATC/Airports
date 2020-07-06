@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1050
+center = N6.45108, W71.7603
+magneticvar = -7.319
+beacons =
+	TME, N6.45150, W71.75220, 0, Tame
+	SVA, N6.95519, W71.86020, 0, Saravena
+
+[airport1]
+name = Gustavo Vargas Airport
+code = SKTM
+runways =
+	rwy1, 07, N6.44643, W71.7681, 59.0, 6561, 0, 0, 1050

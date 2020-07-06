@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 65
+center = N5.52287202401, E95.4206371307
+magneticvar = -0.597
+beacons =
+	BAC, N5.52263, E95.42220, 0, Banda Aceh
+	NZ, N5.51232, E95.41940, 0, Banda Aceh
+
+line1 =
+	N4.66196, E95.57861
+	N4.76138, E95.49473
+	N4.86504, E95.43193
+	N4.97617, E95.38125
+	N5.28403, E95.20664
+	N5.34624, E95.22070
+	N5.41079, E95.24707
+	N5.46431, E95.24297
+	N5.51709, E95.22383
+	N5.56479, E95.22783
+	N5.59287, E95.27959
+	N5.62881, E95.39609
+	N5.62461, E95.51699
+	N5.60908, E95.62891
+	N5.57930, E95.73730
+	N5.51450, E95.84131
+	N5.35117, E96.02734
+	N5.29429, E96.13330
+	N5.26699, E96.25088
+	N5.22935, E96.49258
+
+line2 =
+	N5.90703, E95.24199
+	N5.88950, E95.21768
+	N5.79854, E95.28320
+	N5.78413, E95.34258
+	N5.81240, E95.36211
+	N5.84268, E95.36602
+	N5.87676, E95.35918
+	N5.89775, E95.28252
+	N5.90703, E95.24199
+
+[airport1]
+name = Sultan Iskandar Muda International Airport
+code = WITT
+runways =
+	rwy1, 17, N5.53457, E95.4181, 168.3, 9843, 0, 0, 57

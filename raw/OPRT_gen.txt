@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5479
+center = N33.8497009277, E73.7981033325
+magneticvar = 2.018
+beacons =
+	RT, N33.84770, E73.79920, 0, Rawalakot
+	MF, N34.34220, E73.50670, 0, Muzaffarabad
+	RN, N33.60590, E73.12590, 0, Islamabad
+	RN, N33.61330, E73.08170, 0, Islamabad
+	SNG, N34.00200, E74.75460, 0, Srinagar
+	SNG, N33.98280, E74.78230, 0, Srinagar
+
+line1 =
+	N34.62254, E72.78164
+	N34.37149, E72.83476
+	N34.25796, E72.84757
+	N34.19822, E72.83796
+	N34.14766, E72.80158
+	N34.08557, E72.70701
+
+line2 =
+	N33.24071, E75.19792
+	N33.24639, E75.12196
+	N33.19051, E75.08031
+	N33.17028, E74.99923
+	N33.18567, E74.87861
+	N33.12299, E74.80870
+	N32.98233, E74.78947
+
+line3 =
+	N34.84537, E72.95465
+	N34.80888, E72.94457
+	N34.77684, E72.86447
+	N34.72625, E72.81373
+	N34.62254, E72.78164
+	N34.08554, E72.70691
+	N34.03175, E72.65162
+	N34.01550, E72.59178
+	N34.01880, E72.50899
+	N33.99984, E72.41075
+
+[airport1]
+name = Rawalakot Airport
+code = OPRT
+runways =
+	rwy1, 01, N33.8457, E73.797, 13.0, 2958, 0, 0, 5397

@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 171
+center = N44.8252983093, E0.518611013889
+magneticvar = -1.024
+beacons =
+	BGC, N44.81950, E0.61928, 0, Bergerac
+	SAU, N44.67680, W0.15292, 0, Sauveterre
+	BE, N44.87060, W0.39781, 0, Bordeaux
+	BD, N44.93520, W0.56225, 0, Bordeaux
+	NB, N45.14750, W0.54992, 0, Bordeaux
+	CSM, N44.08710, E1.13078, 0, Castelsarrasin Moissac
+
+line1 =
+	N45.80566, W1.06602
+	N45.77266, W1.04150
+	N45.74106, W1.03174
+	N45.76851, W1.11436
+
+line2 =
+	N45.53818, W0.88066
+	N45.46802, W0.79077
+	N45.38462, W0.73311
+	N45.09019, W0.64111
+	N45.05137, W0.58228
+	N45.00059, W0.54849
+	N45.04712, W0.63398
+	N45.09346, W0.69111
+	N45.31436, W0.76665
+	N45.38066, W0.82632
+	N45.45708, W0.94175
+	N45.53242, W1.08101
+
+line3 =
+	N43.88073, E1.22001
+	N44.03101, E1.08234
+	N44.12583, E0.86065
+	N44.21523, E0.50899
+	N44.29533, E0.32347
+	N44.36608, E0.30415
+	N44.42212, E0.25508
+	N44.48406, E0.13690
+	N44.56087, E0.00324
+	N44.58687, W0.10208
+	N44.58761, W0.22362
+	N44.63560, W0.34331
+	N44.79551, W0.53397
+	N44.82993, W0.56179
+	N44.85990, W0.56722
+	N44.89803, W0.54169
+	N44.95214, W0.53650
+	N45.00059, W0.54849
+
+[airport1]
+name = Bergerac-Roumanière Airport
+code = LFBE
+runways =
+	rwy1, 10, N44.8253, E0.50495, 94.0, 7234, 687, 804, 170

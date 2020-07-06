@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 525
+center = S16.1047992706, E33.6402015686
+magneticvar = -7.206
+beacons =
+	VTZ, S16.12630, E33.64000, 0, Tete Chingodzi
+	TZ, S16.18070, E33.63870, 0, Tete Chingodzi
+
+line1 =
+	S15.57920, E32.70842
+	S15.56535, E32.49696
+
+line2 =
+	S15.54396, E34.80152
+	S15.62401, E34.75781
+	S15.68478, E34.74334
+	S15.78410, E34.75088
+	S15.99086, E34.79532
+
+line3 =
+	S15.57998, E32.70749
+	S15.58577, E32.92515
+	S15.63357, E33.02804
+	S15.72529, E33.08871
+	S15.83495, E33.20338
+	S15.96254, E33.37215
+	S16.14666, E33.56367
+	S16.50752, E33.88509
+	S16.59862, E33.98416
+	S16.69717, E34.20549
+	S16.83360, E34.58211
+	S16.92253, E34.79507
+	S16.96408, E34.84436
+
+[airport1]
+name = Chingozi Airport
+code = FQTT
+runways =
+	rwy1, 01, S16.1161, E33.6399, 2.0, 8225, 0, 0, 0

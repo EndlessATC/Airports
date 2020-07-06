@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 803
+center = N1.58919, W75.5644
+magneticvar = -4.429
+beacons =
+	FLA, N1.48585, W75.48910, 0, Florencia
+	SVC, N2.14833, W74.76310, 0, San Vicente Del Caguan
+
+line1 =
+	N1.32982, W76.53315
+	N1.13910, W76.53581
+	N1.05709, W76.50796
+	N1.00175, W76.42161
+	N0.97953, W76.26286
+	N0.98774, W76.14496
+	N1.01911, W76.01494
+	N0.99596, W75.91952
+	N0.91824, W75.85865
+	N0.84362, W75.68966
+	N0.77205, W75.41257
+	N0.67619, W75.25222
+
+line2 =
+	N1.94267, W76.50734
+	N1.89609, W76.28126
+	N1.89751, W76.17878
+	N1.94833, W76.09747
+	N2.11791, W75.79103
+	N2.19832, W75.69008
+	N2.24612, W75.69245
+	N2.29722, W75.66194
+	N2.35169, W75.59858
+	N2.40109, W75.57241
+	N2.44554, W75.58347
+	N2.56997, W75.51810
+
+[airport1]
+name = Gustavo Artunduaga Paredes Airport
+code = SKFL
+runways =
+	rwy1, 12, N1.59213, W75.5705, 116.0, 4921, 0, 0, 797

@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1273
+center = N46.223701, E14.4576
+magneticvar = 2.325
+beacons =
+	MG, N46.17320, E14.55590, 0, Ljubljana
+	KAM, N46.10500, E14.67550, 0, Dolsko
+	DOL, N46.08410, E14.77860, 0, Dolsko
+	KFT, N46.59760, E14.56230, 0, Klagenfurt
+	KFT, N46.62510, E14.53420, 0, Klagenfurt
+	KW, N46.66750, E14.21830, 0, Klagenfurt
+	VIW, N46.69640, E13.91460, 0, Villach
+	ILB, N45.56560, E14.17090, 0, Bistrica
+	ILB, N45.56450, E14.17200, 0, Bistrica
+	RCH, N45.82980, E13.48030, 0, Ronchi
+	BRZ, N45.42360, E14.34540, 0, Breza
+	MEL, N45.65460, E15.31820, 0, Metlika
+	RON, N45.82820, E13.36070, 0, Ronchi
+	PZ, N45.47750, E13.61490, 0, Portoroz
+	GRZ, N46.92070, E15.45900, 0, Graz
+	GRZ, N46.95540, E15.44940, 0, Graz
+
+line1 =
+	N45.61079, E12.90303
+	N45.63750, E13.03027
+	N45.69790, E13.12012
+	N45.74658, E13.15674
+	N45.77139, E13.20635
+	N45.70996, E13.46514
+	N45.77070, E13.55820
+	N45.77095, E13.62832
+	N45.62725, E13.78330
+	N45.58760, E13.71982
+	N45.53594, E13.63730
+	N45.51689, E13.57793
+	N45.48179, E13.51719
+	N45.23140, E13.60332
+
+line2 =
+	N45.28252, E14.26855
+	N45.33779, E14.31270
+	N45.34214, E14.38613
+	N45.29771, E14.55049
+
+line3 =
+	N47.09046, E13.82182
+	N47.14738, E14.36732
+	N47.20911, E14.50700
+
+line4 =
+	N47.17371, E15.32891
+	N47.12110, E15.36137
+	N47.09480, E15.41294
+	N46.99692, E15.47593
+	N46.83130, E15.55965
+	N46.76735, E15.58172
+	N46.73648, E15.63019
+	N46.72283, E15.70130
+	N46.66268, E16.04205
+
+[airport1]
+name = Ljubljana Jože Pučnik Airport
+code = LJLJ
+runways =
+	rwy1, 12, N46.2325, E14.4404, 126.4, 10827, 0, 0, 1273

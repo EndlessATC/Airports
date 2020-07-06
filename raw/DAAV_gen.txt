@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = N36.7951011658, E5.87361001968
+magneticvar = 0.318
+beacons =
+	JIL, N36.77670, E5.87722, 0, Jijel
+	BJA, N36.70670, E5.02472, 0, Bejaia
+	CSO, N36.29260, E6.60555, 0, Constantine
+	CNE, N36.19030, E6.72718, 0, Constantine
+
+line1 =
+	N37.09238, E7.20430
+	N36.96851, E7.23848
+	N36.94336, E7.14346
+	N36.91943, E6.92754
+	N37.00303, E6.57588
+	N37.08574, E6.48652
+	N37.04604, E6.32783
+	N36.93833, E6.24912
+	N36.86426, E6.06475
+	N36.79961, E5.72549
+	N36.67544, E5.42461
+	N36.64824, E5.29541
+	N36.67681, E5.19561
+	N36.80806, E4.99541
+	N36.86240, E4.87783
+	N36.89634, E4.75811
+
+[airport1]
+name = Jijel Ferhat Abbas Airport
+code = DAAV
+runways =
+	rwy1, 17, N36.8058, E5.8715, 171.0, 7874, 0, 0, 20

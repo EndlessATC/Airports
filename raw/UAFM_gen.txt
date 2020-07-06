@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2058
+metric = true
+center = N43.0612983704, E74.4776000977
+magneticvar = 5.213
+beacons =
+	AFM, N43.06220, E74.47070, 0, Manas
+	M, N43.05670, E74.44000, 0, Bishkek Manas
+	B, N43.06670, E74.51670, 0, Bishkek Manas
+	MNS, N43.06830, E74.52170, 0, Bishkek
+	MN, N43.05170, E74.40500, 0, Bishkek
+	BK, N43.07170, E74.55170, 0, Bishkek
+	BI, N42.86670, E74.51670, 0, Bishkek
+	PD, N42.87830, E74.77830, 0, Kant
+	KD, N43.30000, E74.95000, 0, Kurdaysky
+	DW, N42.81670, E73.55000, 0, Chaldovar
+	KL, N42.70000, E75.36670, 0, Kalinovka
+	NT, N43.69560, E73.74890, 0, Tole Bi
+
+[airport1]
+name = Manas International Airport
+code = UAFM
+runways =
+	rwy1, 08, N43.058, E74.4522, 80.0, 13780, 0, 0, 2090

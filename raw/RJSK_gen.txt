@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 313
+center = N39.6156005859, E140.218994141
+magneticvar = -8.000
+beacons =
+	UWE, N39.61710, E140.18700, 0, Yuwa
+	ATE, N39.71160, E140.06200, 0, Akita
+	ODE, N40.19830, E140.36200, 0, Odate Noshiro
+	HPE, N39.43340, E141.13300, 0, Hanamaki
+	YSE, N38.81080, E139.79900, 0, Shonai
+
+line1 =
+	N38.69702, E139.65977
+	N38.78813, E139.74912
+	N38.88159, E139.80195
+	N39.10493, E139.87861
+	N39.22856, E139.91230
+	N39.27314, E139.93857
+	N39.31064, E139.97715
+	N39.35806, E140.01084
+	N39.41113, E140.03652
+	N39.46372, E140.04814
+	N39.62441, E140.06475
+	N39.74927, E140.05469
+	N39.85508, E139.99473
+	N39.88511, E139.94521
+	N39.88687, E139.89121
+	N39.87773, E139.81035
+	N39.92085, E139.74150
+	N39.95894, E139.75547
+	N39.96602, E139.82568
+	N39.98569, E139.87363
+	N40.02173, E139.90801
+	N40.13696, E139.97246
+	N40.26035, E140.01113
+	N40.31489, E140.01445
+	N40.41431, E139.96406
+	N40.53389, E139.92393
+	N40.59844, E139.92285
+
+line2 =
+	N40.61113, E141.46279
+	N40.53071, E141.54229
+	N40.47363, E141.64629
+
+line3 =
+	N38.99517, E141.69355
+	N38.97485, E141.65859
+	N38.91792, E141.64473
+	N38.86514, E141.62227
+	N38.81650, E141.57969
+	N38.76284, E141.54629
+	N38.63203, E141.51875
+
+[airport1]
+name = Akita Airport
+code = RJSK
+runways =
+	rwy1, 10, N39.6169, E140.204, 96.6, 8200, 0, 0, 289

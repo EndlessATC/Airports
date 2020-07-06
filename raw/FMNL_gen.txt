@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 345
+center = S14.629699707, E47.7638015747
+magneticvar = -10.491
+beacons =
+	AT, S14.90420, E47.99560, 0, Antsohihy
+
+line1 =
+	S15.38184, E46.67471
+	S15.22959, E46.88203
+	S15.21904, E46.94229
+	S15.24316, E46.99326
+	S15.42266, E47.03232
+	S15.45225, E47.02744
+	S15.45635, E47.06055
+	S15.43418, E47.09922
+	S15.36172, E47.13340
+	S15.30156, E47.13516
+	S15.24385, E47.10732
+	S15.19502, E47.09375
+	S15.15010, E47.09258
+	S15.04404, E47.19766
+	S14.94268, E47.28047
+	S14.82178, E47.31875
+	S14.76611, E47.35195
+	S14.70332, E47.43906
+	S14.71328, E47.46475
+	S14.76436, E47.48506
+	S14.81836, E47.49639
+	S14.87197, E47.47402
+	S14.92500, E47.44209
+	S14.99570, E47.42920
+	S15.00938, E47.47832
+	S14.99219, E47.52471
+	S14.86426, E47.59258
+	S14.74326, E47.67002
+	S14.68037, E47.71602
+	S14.63672, E47.77402
+	S14.64551, E47.87041
+	S14.67256, E47.96416
+	S14.54482, E47.81152
+	S14.36992, E47.77334
+	S14.06729, E47.95518
+	S14.00430, E47.95693
+	S13.98486, E47.98320
+	S13.96045, E47.99551
+	S13.85820, E47.90137
+	S13.80752, E47.88359
+	S13.73066, E47.89600
+	S13.66240, E47.94102
+
+line2 =
+	S13.70654, E48.18711
+	S13.71934, E48.25527
+	S13.63867, E48.33770
+
+[airport1]
+name = Analalava Airport
+code = FMNL
+runways =
+	rwy1, 11, S14.6287, E47.7583, 101.0, 3937, 0, 0, 202
+
+[airport2]
+name = Ambalabe Airport
+code = NW
+runways =
+	rwy2, 01, S14.9055, E47.9936, 2.0, 4921, 0, 0, 0
+inboundbeacon = AT

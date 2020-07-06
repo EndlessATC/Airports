@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 152
+usa = true
+transition = 18001
+center = N29.6900997162, W82.2717971802
+magneticvar = -5.352
+beacons =
+	GNV, N29.69210, W82.27300, 0, Gators
+	GN, N29.67000, W82.17210, 0, Wynds
+	IAK, N29.65270, W81.81160, 0, Palatka
+	OCF, N29.17750, W82.22630, 0, Ocala
+	LCQ, N30.18530, W82.57860, 0, Lake City
+	VQQ, N30.21300, W81.89090, 0, Cecil
+	OC, N29.05640, W82.22320, 0, Jumpi
+	CTY, N29.59900, W83.04870, 0, Cross City
+	NIP, N30.23490, W81.67510, 0, Jacksonville
+	TAY, N30.50460, W82.55290, 0, Taylor
+	SGJ, N29.95670, W81.33040, 0, St Augustine
+	JA, N30.46500, W81.80170, 0, Dinns
+	CRG, N30.33890, W81.50990, 0, Craig
+	EYA, N30.42360, W81.60940, 0, Eastport
+	NRB, N30.38860, W81.42310, 0, Mayport
+
+line1 =
+	N29.45190, W83.29048
+	N29.05156, W82.76934
+	N28.88750, W82.65146
+	N28.81201, W82.64404
+	N28.76992, W82.65059
+
+line2 =
+	N29.45698, W81.10454
+	N29.79380, W81.24951
+	N30.14121, W81.33711
+	N30.26997, W81.38574
+	N30.64077, W81.45718
+
+[airport1]
+name = Gainesville Regional Airport
+code = KGNV
+runways =
+	rwy1, 07, N29.6903, W82.2824, 61.0, 4158, 0, 0, 152
+	rwy2, 11, N29.6906, W82.2806, 102.0, 7504, 0, 0, 147

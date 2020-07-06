@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 60
+center = N12.5014, W70.015198
+magneticvar = -9.231
+beacons =
+	BEA, N12.50570, W70.01820, 0, Reina Beatrix
+	ABA, N12.50980, W69.94070, 0, Aruba
+	PRG, N11.78340, W70.13340, 0, Paraguana
+	PRG, N11.77690, W70.13920, 0, Paraguana
+
+line1 =
+	N12.56763, W69.97314
+	N12.61411, W70.03511
+	N12.59707, W70.05088
+	N12.54697, W70.06611
+	N12.50049, W70.00415
+	N12.43853, W69.94219
+	N12.42300, W69.89570
+	N12.45200, W69.89912
+	N12.48047, W69.91182
+	N12.56763, W69.97314
+
+line2 =
+	N12.15854, W68.82739
+	N12.23135, W69.01313
+	N12.34204, W69.07676
+	N12.37324, W69.11846
+	N12.38027, W69.15889
+	N12.29844, W69.15381
+	N12.14185, W68.99512
+
+line3 =
+	N11.56421, W69.71191
+	N11.67603, W69.76240
+	N11.83687, W69.81055
+	N11.99561, W69.83062
+	N12.05420, W69.86011
+	N12.11460, W69.91436
+	N12.17788, W70.00396
+	N12.13662, W70.12202
+	N12.09839, W70.20278
+	N12.00352, W70.24512
+	N11.88604, W70.28652
+	N11.73008, W70.22002
+	N11.68086, W70.22012
+	N11.62461, W70.19258
+	N11.67212, W69.91094
+	N11.67207, W69.81733
+	N11.54131, W69.77290
+
+line4 =
+	N11.53032, W70.04854
+	N11.51978, W70.09712
+
+line5 =
+	N12.04634, W71.13730
+	N12.16416, W71.15503
+
+[airport1]
+name = Queen Beatrix International Airport
+code = TNCA
+runways =
+	rwy1, 11, N12.5044, W70.0275, 103.6, 9000, 0, 0, 12

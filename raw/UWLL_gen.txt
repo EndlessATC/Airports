@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 463
+center = N54.2682991028, E48.2266998291
+magneticvar = 11.002
+beacons =
+	LS, N54.26670, E48.23330, 0, Ulyanovsk
+	MR, N54.26670, E48.23360, 0, Ulyanovsk
+	UL, N54.35170, E48.75330, 0, Vostochny
+	UWS, N54.40330, E48.81500, 0, Vostochny
+	WN, N54.45330, E48.85830, 0, Vostochny
+	DW, N54.03330, E49.18330, 0, Nikolskoye
+	YK, N54.98330, E48.26670, 0, Buinsk
+	KS, N53.68330, E49.43330, 0, Nizhneye Sancheleevo
+
+line1 =
+	N55.26061, E49.53223
+	N55.17182, E49.38232
+	N55.11302, E49.24808
+
+line2 =
+	N55.23441, E49.28509
+	N55.11302, E49.24808
+	N55.03576, E49.02350
+	N54.90993, E48.90020
+	N54.73557, E48.87829
+	N54.61698, E48.78196
+	N54.55419, E48.61133
+	N54.48913, E48.50715
+	N54.42179, E48.46953
+	N54.34444, E48.45330
+	N54.25700, E48.45837
+	N54.13494, E48.58508
+	N53.97826, E48.83343
+	N53.82692, E48.96448
+	N53.68094, E48.97833
+	N53.57942, E49.00624
+	N53.52231, E49.04830
+	N53.48268, E49.10437
+	N53.46064, E49.20943
+	N53.46743, E49.56703
+	N53.45674, E49.90479
+
+line3 =
+	N53.45674, E49.90479
+	N53.45467, E50.04214
+	N53.40473, E50.10808
+	N53.30623, E50.14849
+
+[airport1]
+name = Ulyanovsk Baratayevka Airport
+code = UWLL
+
+[airport2]
+name = Ulyanovsk East Airport
+code = LW
+runways =
+	rwy1, 02, N54.3818, E48.7825, 31.3, 16404, 0, 0, 252
+inboundbeacon = UWS

@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 53
+center = N36.6749000549, W4.49911022186
+magneticvar = -2.344
+beacons =
+	MLG, N36.67870, W4.50667, 0, Malaga
+	RMA, N36.65890, W4.47674, 0, Malaga
+	GM, N36.72650, W4.57145, 0, Malaga
+	MGA, N36.81430, W4.36952, 0, Malaga
+	MAR, N37.05530, W4.93989, 0, Martin
+	GDA, N37.18320, W3.99091, 0, Granada
+	ARM, N37.07350, W3.80208, 0, Armilla
+	TGR, N37.13250, W3.63380, 0, Armilla
+	GRA, N37.18940, W3.67771, 0, Granada
+	GBR, N36.14290, W5.34272, 0, Gibraltar
+	CEU, N35.89260, W5.30544, 0, Ceuta
+
+line1 =
+	N36.08833, W5.80840
+	N36.02593, W5.62549
+	N36.03882, W5.55127
+	N36.07378, W5.46250
+	N36.15059, W5.44360
+	N36.15889, W5.40723
+	N36.13408, W5.38159
+	N36.13491, W5.36094
+	N36.23574, W5.32969
+	N36.37363, W5.23052
+	N36.42378, W5.17148
+	N36.50205, W4.93530
+	N36.50645, W4.67412
+	N36.62915, W4.50225
+	N36.70024, W4.43486
+	N36.71812, W4.36685
+	N36.75605, W3.82778
+	N36.73984, W3.57881
+	N36.70791, W3.43125
+	N36.75576, W3.25913
+	N36.75850, W3.14917
+
+line2 =
+	N35.74521, W5.33765
+	N35.85654, W5.33765
+	N35.90273, W5.27783
+	N35.92988, W5.39736
+	N35.86201, W5.52227
+	N35.82891, W5.62285
+	N35.81597, W5.74795
+	N35.78579, W5.92480
+
+[airport1]
+name = Málaga Airport
+code = LEMG
+runways =
+	rwy1, 13, N36.6845, W4.51259, 133.0, 10500, 0, 0, 52

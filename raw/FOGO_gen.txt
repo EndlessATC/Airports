@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2158
+center = N1.54311001301, E11.5813999176
+magneticvar = -3.019
+beacons =
+	OY, N1.53753, E11.57650, 0, Oyem
+	OE, N1.53569, E11.57570, 0, Oyem
+	IM, N2.08352, E11.48230, 0, Bitam
+	IC, N0.78364, E11.54900, 0, Mitzic
+	MED, N1.00029, E10.74900, 0, Medouneu
+
+[airport1]
+name = Oyem Airport
+code = FOGO
+runways =
+	rwy1, 03, N1.53572, E11.578, 25.0, 5906, 0, 0, 2165

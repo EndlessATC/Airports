@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 26
+usa = true
+center = S15.4447002411, E145.184005737
+magneticvar = 6.485
+beacons =
+	CKN, S15.48170, E145.24800, 0, Cooktown
+
+line1 =
+	S14.49248, E144.64805
+	S14.67432, E144.91572
+	S14.79102, E145.06445
+	S14.85693, E145.17998
+	S14.94316, E145.28770
+	S15.02939, E145.27695
+	S15.09746, E145.25166
+	S15.20391, E145.27617
+	S15.32725, E145.29307
+	S15.47666, E145.27158
+	S15.70156, E145.34951
+	S15.88105, E145.37539
+	S16.05645, E145.45801
+	S16.23691, E145.45186
+	S16.30498, E145.43643
+	S16.40615, E145.42607
+
+[airport1]
+name = Cooktown Airport
+code = YCKN
+runways =
+	rwy1, 11, S15.4407, E145.176, 111.0, 5338, 0, 0, 24

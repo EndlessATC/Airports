@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1860
+center = S14.8540000916, W74.9615020752
+magneticvar = -0.268
+beacons =
+	SJN, S15.24060, W75.10420, 0, San Juan
+
+line1 =
+	S14.32031, W76.13647
+	S14.49580, W76.00630
+	S14.63359, W75.93389
+	S14.78496, W75.73770
+	S14.89922, W75.53364
+	S15.09355, W75.39658
+	S15.17813, W75.27456
+	S15.32012, W75.19053
+	S15.41191, W75.10425
+	S15.69902, W74.55488
+	S15.83398, W74.37290
+
+[airport1]
+name = Maria Reiche Neuman Airport
+code = SPZA
+runways =
+	rwy1, 07, S14.8558, W74.9659, 66.0, 3355, 0, 90, 1805

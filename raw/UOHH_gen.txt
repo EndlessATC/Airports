@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 95
+center = N71.9781036377, E102.490997314
+magneticvar = 5.381
+beacons =
+	ZT, N71.99830, E102.63000, 0, Khatanga
+	OA, N71.95000, E102.31000, 0, Khatanga
+
+line1 =
+	N72.94985, E106.06670
+	N72.83667, E105.70820
+	N72.78994, E105.40273
+	N72.77705, E105.14395
+	N72.84102, E105.39277
+	N72.95928, E105.67715
+
+line2 =
+	N72.77706, E105.14390
+	N72.74954, E104.86040
+	N72.67086, E104.61561
+	N72.64616, E104.42859
+	N72.57573, E104.19987
+	N72.52038, E104.17000
+	N72.46188, E103.88992
+	N72.40034, E103.35972
+	N72.34869, E103.07787
+	N72.30698, E103.04439
+	N72.21425, E102.88564
+	N72.07054, E102.60173
+	N71.98692, E102.36433
+	N71.95178, E102.07814
+
+line3 =
+	N71.15095, E98.96980
+	N71.17137, E99.10210
+	N71.24831, E99.26508
+	N71.43316, E99.51267
+	N71.95178, E102.07814
+	N71.81629, E101.58401
+	N71.75172, E101.08120
+	N71.71288, E100.40507
+	N71.65930, E99.91021
+	N71.59088, E99.59674
+	N71.51476, E99.53980
+	N71.43461, E99.51515
+
+[airport1]
+name = Khatanga Airport
+code = UOHH
+runways =
+	rwy1, 06, N71.9729, E102.455, 64.9, 8872, 0, 656, 95

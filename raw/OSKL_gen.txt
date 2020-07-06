@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1480
+center = N37.0205993652, E41.1913986206
+magneticvar = 4.263
+beacons =
+	KML, N37.01670, E41.20530, 0, Kamishly
+	KML, N37.03030, E41.20530, 0, Kamishly
+	MRD, N37.22770, E40.63860, 0, Mardin
+	MRD, N37.22770, E40.63860, 0, Mardin
+	HAS, N36.48290, E40.75460, 0, Hassakeh
+
+line1 =
+	N37.90275, E40.25194
+	N37.83201, E40.42738
+	N37.80048, E40.96859
+	N37.75733, E41.15535
+	N37.74405, E41.35828
+	N37.74635, E41.63971
+	N37.70881, E41.80048
+	N37.63150, E41.84047
+	N37.55559, E41.85386
+	N37.48112, E41.84053
+	N37.44084, E41.88233
+	N37.43480, E41.97928
+	N37.39516, E42.09369
+	N37.32193, E42.22567
+	N37.22961, E42.31285
+	N37.06249, E42.37657
+
+line2 =
+	N37.06249, E42.37657
+	N36.98978, E42.43362
+	N36.96743, E42.46638
+	N36.95958, E42.48917
+	N36.94067, E42.50932
+	N36.87584, E42.51294
+	N36.83248, E42.55867
+
+[airport1]
+name = Kamishly Airport
+code = OSKL
+runways =
+	rwy1, 03, N37.0079, E41.1786, 39.0, 11860, 0, 0, 1379

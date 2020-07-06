@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 599
+usa = true
+transition = 18001
+center = N36.1245002747, W86.6781997681
+magneticvar = -1.565
+beacons =
+	BNA, N36.13700, W86.68480, 0, Nashville
+	VI, N36.20380, W86.65200, 0, Opery
+	BN, N36.03100, W86.72180, 0, Dobbs
+	SWZ, N35.95690, W86.46390, 0, Sewart
+	FQW, N35.96110, W86.37110, 0, Walter Hill
+	JUE, N36.19220, W86.31380, 0, Lebanon
+	ON, N36.44900, W86.99370, 0, Music
+	PED, N36.53650, W86.91760, 0, Needmore
+	SYI, N35.56200, W86.43920, 0, Shelbyville
+	DMZ, N36.12740, W87.43240, 0, Dickson
+	PBC, N35.60830, W87.09140, 0, Maury Co
+	LUG, N35.50050, W86.80970, 0, Verona
+	LFB, N36.51510, W86.06100, 0, Lafayette
+	GHM, N35.83410, W87.45180, 0, Graham
+	CK, N36.52710, W87.38650, 0, Snuff
+	SKN, N35.98410, W85.80810, 0, Hurricane
+	ULH, N35.46160, W86.24170, 0, Burwi
+	BW, N36.88000, W86.48160, 0, Noora
+	CKV, N36.62200, W87.41260, 0, Clarksville
+	UXM, N35.38040, W86.24580, 0, Tullahoma Regional
+	BWG, N36.92870, W86.44340, 0, Bowling Green
+	RN, N35.75250, W85.76410, 0, Warri
+	FK, N36.73700, W87.41380, 0, Airbe
+	HXW, N36.67640, W87.49190, 0, Screaming Eagle
+	HIX, N36.87830, W87.33480, 0, Honey Grove
+	JHG, N35.46250, W87.63030, 0, Hohenwald
+
+line1 =
+	N35.94525, W87.97540
+	N35.96153, W88.00364
+	N36.01129, W87.99165
+	N36.09997, W87.94881
+	N36.21577, W87.95941
+	N36.35871, W88.02348
+	N36.48356, W88.05589
+	N36.59033, W88.05671
+	N36.73817, W88.11366
+
+line2 =
+	N35.40409, W88.03418
+	N35.41841, W87.99372
+	N35.43365, W88.01790
+	N35.46440, W88.01527
+	N35.51075, W87.98579
+	N35.57940, W87.98734
+	N35.67041, W88.01994
+	N35.76653, W88.01031
+	N35.86773, W87.95842
+	N35.92509, W87.94318
+	N35.94525, W87.97540
+
+[airport1]
+name = Nashville International Airport
+code = KBNA
+runways =
+	rwy1, 02C, N36.1033, W86.688, 18.0, 8001, 455, 0, 569
+	rwy2, 02L, N36.1177, W86.6865, 17.6, 7703, 0, 0, 599
+	rwy3, 02R, N36.1127, W86.6676, 18.0, 8000, 0, 0, 590
+	rwy4, 13, N36.1413, W86.6954, 133.3, 11030, 801, 741, 543

@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2569
+center = S40.075401, W71.137299
+magneticvar = 7.235
+beacons =
+	CHP, S40.08170, W71.14720, 0, San Martin De Los Andes
+	CHP, S40.04890, W71.09530, 0, San Martin De Los Andes
+
+line1 =
+	S40.26025, W72.26519
+	S40.29219, W72.26289
+	S40.30215, W72.27285
+	S40.29932, W72.33096
+	S40.29287, W72.45728
+	S40.27207, W72.54741
+	S40.23457, W72.55801
+	S40.20117, W72.55229
+	S40.17168, W72.52861
+	S40.13535, W72.42539
+	S40.12764, W72.33008
+	S40.14971, W72.29902
+	S40.16631, W72.27329
+	S40.19160, W72.26665
+	S40.22148, W72.26953
+	S40.26025, W72.26519
+	S40.26025, W72.26519
+	S40.26025, W72.26519
+
+[airport1]
+name = Aviador C. Campos Airport
+code = SAZY
+runways =
+	rwy1, 6, S40.0796, W71.1509, 68.0, 8202, 0, 0, 2568

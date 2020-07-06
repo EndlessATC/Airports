@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 66
+center = S5.59699010849, E12.1884002686
+magneticvar = -4.284
+beacons =
+	CA, S5.58484, E12.18940, 0, Cabinda
+	VCA, S5.61667, E12.20000, 0, Cabinda
+	KIT, S5.90556, E12.42670, 0, Kitona Base
+	KE, S5.90444, E12.45970, 0, Kitona Base
+	KW, S5.93167, E12.43280, 0, Kitona Base
+	KIT, S5.93881, E12.42620, 0, Kitona Base
+	SO, S6.13333, E12.36670, 0, Soyo
+	IT, S4.82322, E11.88740, 0, Pointe Noire
+
+line1 =
+	S4.67656, E11.78086
+	S4.70518, E11.80127
+	S4.75547, E11.82070
+	S4.86572, E11.89326
+	S4.95439, E11.96680
+	S4.98203, E12.00273
+	S5.00430, E12.01836
+	S5.03516, E12.03994
+	S5.19717, E12.11055
+	S5.32480, E12.17715
+	S5.46826, E12.20654
+	S5.53867, E12.18008
+	S5.63271, E12.15547
+	S5.73193, E12.19902
+	S5.75869, E12.21367
+	S5.80732, E12.24043
+	S5.89531, E12.31504
+	S5.98633, E12.41172
+	S6.00049, E12.45293
+	S6.00420, E12.51455
+	S5.96084, E12.68066
+	S5.87773, E12.79160
+	S5.85410, E12.86084
+	S5.83613, E13.00332
+	S5.86484, E13.06816
+	S5.90762, E13.00977
+	S6.00391, E12.79063
+	S6.04590, E12.55352
+	S6.08428, E12.38037
+	S6.09258, E12.30254
+	S6.12432, E12.28330
+	S6.18730, E12.33428
+	S6.35342, E12.40215
+	S6.59033, E12.52129
+
+line2 =
+	S5.88186, E13.30263
+	S5.85628, E13.18434
+	S5.86486, E13.06817
+
+[airport1]
+name = Cabinda Airport
+code = FNCA
+runways =
+	rwy1, 01, S5.60829, E12.1885, 360.0, 8202, 0, 0, 63

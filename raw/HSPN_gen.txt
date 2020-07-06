@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 135
+center = N19.433599472, E37.2341003418
+magneticvar = 2.409
+beacons =
+	PSD, N19.42250, E37.24210, 0, Port Sudan
+	PSD, N19.40120, E37.24170, 0, Port Sudan
+	ME, N19.57720, E37.21720, 0, Port Sudan
+
+line1 =
+	N18.55591, E37.92188
+	N18.69434, E37.72979
+	N18.71743, E37.59941
+	N18.75312, E37.53164
+	N18.82012, E37.47129
+	N19.09199, E37.36152
+	N19.58188, E37.24844
+	N19.79189, E37.26260
+	N20.12070, E37.19316
+	N20.39492, E37.18789
+
+[airport1]
+name = Port Sudan New International Airport
+code = HSPN
+runways =
+	rwy1, 17, N19.4446, E37.2315, 165.0, 8202, 0, 0, 135

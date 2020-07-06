@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 58
+center = S13.8299999237, W172.007995605
+magneticvar = 11.261
+beacons =
+	FA, S13.82280, W172.01700, 0, Faleolo
+	FA, S13.82430, W171.98900, 0, Faleolo
+
+line1 =
+	S13.46523, W172.33350
+	S13.48281, W172.51089
+	S13.52383, W172.66963
+	S13.51680, W172.77852
+	S13.57871, W172.74409
+	S13.64482, W172.65879
+	S13.79170, W172.53569
+	S13.80020, W172.48452
+	S13.77471, W172.33086
+	S13.80430, W172.22495
+	S13.68467, W172.17686
+	S13.55957, W172.22153
+	S13.46523, W172.33350
+
+line2 =
+	S13.80713, W171.85815
+	S13.82441, W171.98486
+	S13.85713, W172.04590
+	S13.90684, W172.02808
+	S14.00166, W171.91191
+	S14.00205, W171.86377
+	S14.04727, W171.72822
+	S14.04648, W171.45410
+	S14.02246, W171.44956
+	S13.97764, W171.46138
+	S13.94990, W171.50688
+	S13.94307, W171.56543
+	S13.87920, W171.60391
+	S13.80713, W171.85815
+
+[airport1]
+name = Faleolo International Airport
+code = NSFA
+runways =
+	rwy1, 08, S13.8302, W172.022, 89.0, 9843, 0, 0, 58

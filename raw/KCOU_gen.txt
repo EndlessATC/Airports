@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 889
+usa = true
+transition = 18001
+center = N38.8181, W92.219597
+magneticvar = 0.240
+beacons =
+	COU, N38.81080, W92.21830, 0, Columbia
+	CO, N38.71670, W92.26850, 0, Zodia
+	FTT, N38.84280, W92.00460, 0, Guthrie
+	ONH, N38.63490, W92.24510, 0, Noah
+	JE, N38.54800, W92.07170, 0, Algoa
+	HLV, N39.11350, W92.12820, 0, Hallsville
+	VER, N38.94950, W92.68420, 0, Viertel
+	DMO, N38.70440, W93.17660, 0, Sedalia
+	AIZ, N38.09660, W92.55310, 0, Kaiser
+	VIH, N38.15410, W91.70680, 0, Vichy
+	PUR, N39.04200, W93.19570, 0, Marshall
+	SHY, N38.04060, W92.60240, 0, Sunshine
+	UBX, N38.06530, W91.42740, 0, Cuba
+	UUV, N38.23540, W91.16400, 0, Sullivan
+
+line1 =
+	N39.18179, W90.73722
+	N39.38690, W90.91938
+	N39.60280, W91.20991
+	N39.74941, W91.37873
+
+line2 =
+	N39.21781, W93.60351
+	N39.23745, W93.51281
+	N39.26985, W93.50085
+	N39.27073, W93.46938
+	N39.24009, W93.41840
+	N39.27011, W93.34298
+	N39.36085, W93.24314
+	N39.35904, W93.10842
+	N39.26468, W92.93882
+	N39.19200, W92.87663
+	N39.14102, W92.92179
+	N39.08712, W92.93259
+	N39.03033, W92.90903
+	N38.99328, W92.81611
+	N38.97602, W92.65395
+	N38.89026, W92.50285
+	N38.65888, W92.29291
+	N38.58609, W92.12365
+	N38.59785, W91.97849
+	N38.66989, W91.80098
+	N38.70627, W91.61905
+	N38.70694, W91.43271
+	N38.66658, W91.23755
+	N38.58519, W91.03359
+	N38.57881, W90.87173
+	N38.64751, W90.75205
+
+[airport1]
+name = Columbia Regional Airport
+code = KCOU
+runways =
+	rwy1, 02, N38.8052, W92.2237, 21.0, 6501, 0, 0, 882
+	rwy2, 13, N38.8289, W92.225, 135.0, 5500, 0, 0, 888

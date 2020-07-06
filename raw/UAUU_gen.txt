@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 595
+metric = true
+center = N53.2069015503, E63.5503005981
+magneticvar = 11.261
+beacons =
+	KT, N53.25000, E63.51940, 0, Kostanay
+	NA, N53.16230, E63.58260, 0, Kostanay
+
+line1 =
+	N52.37050, E61.67363
+	N52.44230, E61.73482
+	N52.46582, E61.77698
+	N52.48300, E61.83455
+	N52.48703, E62.04674
+	N52.52909, E62.29824
+	N52.60911, E62.58898
+	N52.69616, E62.76747
+	N52.79027, E62.83372
+	N52.89127, E63.02368
+	N52.99922, E63.33735
+	N53.14557, E63.58669
+	N53.42271, E63.86404
+	N53.56707, E63.87567
+	N53.67088, E63.84564
+	N53.78220, E63.77774
+	N53.88669, E63.75159
+	N53.98446, E63.76710
+	N54.04094, E63.79779
+	N54.05608, E63.84378
+	N54.07949, E63.85846
+	N54.11783, E63.85934
+	N54.15251, E63.87717
+	N54.20346, E63.96398
+
+[airport1]
+name = Kostanay West Airport
+code = UAUU
+runways =
+	rwy1, 15, N53.2167, E63.5433, 156.8, 8150, 0, 0, 597

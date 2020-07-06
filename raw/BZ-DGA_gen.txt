@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 508
+center = N16.982509613, W88.2309875488
+magneticvar = 0.598
+beacons =
+	BZE, N17.53730, W88.30990, 0, Belize
+	BZE, N17.54010, W88.31550, 0, Belize
+
+line1 =
+	N17.96401, W87.95903
+	N17.90635, W87.99810
+	N17.92495, W87.95059
+
+line2 =
+	N17.42646, W87.90283
+	N17.32295, W87.93486
+	N17.28301, W87.92998
+	N17.42285, W87.85293
+	N17.47959, W87.79814
+	N17.52422, W87.78862
+	N17.54629, W87.82642
+	N17.50107, W87.83252
+	N17.46279, W87.85942
+	N17.42646, W87.90283
+
+line3 =
+	N16.01665, W88.87910
+	N16.24766, W88.69517
+	N16.29043, W88.56230
+	N16.43379, W88.46113
+	N16.48862, W88.40454
+	N16.63276, W88.31343
+	N16.96304, W88.26182
+	N17.19214, W88.29399
+	N17.31270, W88.28882
+	N17.39258, W88.26719
+	N17.51660, W88.20347
+	N17.60986, W88.27173
+	N17.75137, W88.22144
+	N17.84609, W88.20747
+
+[airport1]
+name = Dangriga Airport
+code = BZ-DGA

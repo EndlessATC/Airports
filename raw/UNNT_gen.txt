@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 365
+center = N55.0125999451, E82.6507034302
+magneticvar = 8.102
+beacons =
+	NSK, N55.01330, E82.64000, 0, Novosibirsk
+	RO, N55.00330, E82.56330, 0, Tolmachevo
+	KT, N55.02000, E82.74170, 0, Tolmachevo
+	PG, N55.07830, E82.89500, 0, Zayeltsovskiy
+	EB, N54.93330, E83.08330, 0, Matveyevsky
+	GV, N55.31670, E82.71670, 0, Kolyvan
+	KD, N55.28330, E82.40000, 0, Novotyryshkino
+	NR, N54.38330, E82.93330, 0, Novolokti
+	OC, N54.63330, E83.81670, 0, Legostayevo
+
+line1 =
+	N54.84521, E83.02535
+	N54.49086, E82.31242
+	N54.35836, E82.00397
+	N54.32960, E81.86227
+	N54.26894, E81.74052
+	N54.17633, E81.63867
+	N54.10409, E81.52208
+	N54.05226, E81.39062
+
+line2 =
+	N55.92945, E83.87879
+	N55.83277, E83.81936
+	N55.74776, E83.70846
+	N55.67991, E83.65022
+	N55.62921, E83.64474
+	N55.56105, E83.53560
+	N55.47548, E83.32301
+	N55.43646, E83.15552
+	N55.44408, E83.03326
+	N55.43310, E82.94406
+	N55.40354, E82.88794
+	N55.34024, E82.86898
+	N55.24319, E82.88727
+	N55.17291, E82.87673
+	N55.12935, E82.83746
+	N55.06527, E82.87906
+	N54.98068, E83.00153
+	N54.91507, E83.05341
+	N54.84521, E83.02535
+
+[airport1]
+name = Tolmachevo Airport
+code = UNNT
+runways =
+	rwy1, 07, N55.0101, E82.6229, 81.0, 11801, 0, 0, 365
+	rwy2, 16, N55.05, E82.5933, 170.0, 11818, 0, 0, 362

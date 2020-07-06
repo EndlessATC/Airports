@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 203
+center = S19.5627994537, E45.4508018494
+
+line1 =
+	S19.92207, E44.40469
+	S19.67422, E44.43223
+	S19.55088, E44.45293
+	S19.42871, E44.44883
+	S19.30313, E44.38652
+	S19.07520, E44.23877
+	S19.03262, E44.23398
+	S18.86318, E44.24570
+	S18.74063, E44.23311
+
+line2 =
+	S20.37969, E44.23965
+	S20.14551, E44.34814
+	S20.03516, E44.38105
+	S19.92207, E44.40469
+
+[airport1]
+name = Miandrivazo Airport
+code = FMMN
+runways =
+	rwy1, 16, S19.5586, E45.4481, 147.7, 3609, 0, 0, 0

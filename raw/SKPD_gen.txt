@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 460
+center = N3.85353, W67.9062
+magneticvar = -9.455
+beacons =
+	PDA, N3.85259, W67.90380, 0, Puerto Inirida
+
+line1 =
+	N3.60627, W66.80059
+	N3.70595, W66.94617
+	N3.79150, W67.00162
+	N3.89620, W67.01539
+	N3.94777, W67.11554
+	N3.94617, W67.30206
+	N3.98069, W67.47957
+	N4.08652, W67.73235
+	N4.19822, W67.78322
+	N4.28387, W67.79862
+	N4.38071, W67.79542
+	N4.45508, W67.81430
+	N4.50688, W67.85526
+	N4.66548, W67.85526
+
+[airport1]
+name = Obando Airport
+code = SKPD
+runways =
+	rwy1, 17, N3.86151, W67.9078, 168.7, 5910, 0, 0, 460

@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 54
+center = N14.6626, E49.375
+magneticvar = 0.495
+beacons =
+	RIN, N14.67090, E49.39150, 0, Riyan
+
+line1 =
+	N13.99766, E48.27783
+	N14.00591, E48.44902
+	N14.04624, E48.59375
+	N14.05015, E48.66836
+	N14.12388, E48.77998
+	N14.26748, E48.92871
+	N14.35503, E49.00469
+	N14.45645, E49.04805
+	N14.50005, E49.10293
+	N14.63779, E49.34990
+	N14.72241, E49.54863
+	N14.82812, E49.90635
+	N14.85103, E50.16689
+	N14.92720, E50.33857
+	N15.03818, E50.52705
+
+[airport1]
+name = Riyan Mukalla International Airport
+code = OYRN
+runways =
+	rwy1, 06, N14.6563, E49.3627, 62.0, 9846, 0, 0, 49

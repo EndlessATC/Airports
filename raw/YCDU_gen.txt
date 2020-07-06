@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 77
+usa = true
+center = S32.1305999756, E133.710006714
+magneticvar = 5.491
+beacons =
+	CDU, S32.12670, E133.72701, 0, Ceduna
+
+line1 =
+	S32.97910, E134.17354
+	S32.74863, E134.10039
+	S32.73340, E134.15840
+	S32.73057, E134.22715
+	S32.65869, E134.24922
+	S32.54854, E134.23418
+	S32.41172, E133.93018
+	S32.26885, E133.78672
+	S32.20723, E133.66533
+	S32.18291, E133.55137
+	S32.18848, E133.40059
+	S32.18379, E133.21211
+	S31.95625, E132.75742
+	S31.94932, E132.64863
+
+[airport1]
+name = Ceduna Airport
+code = YCDU
+runways =
+	rwy1, 11, S32.1278, E133.698, 111.0, 5709, 0, 0, 57
+	rwy2, 17, S32.1266, E133.713, 173.0, 3327, 0, 0, 73

@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 292
+center = S25.2399997711, W57.5200004578
+magneticvar = -12.052
+beacons =
+	VAS, S25.24420, W57.52190, 0, Asuncion
+	ASU, S25.23580, W57.51310, 0, Asuncion
+	PS, S25.21610, W57.51330, 0, Asuncion
+	VB, S25.28000, W57.52830, 0, Asuncion
+	ST, S25.14140, W57.49500, 0, Asuncion
+
+line1 =
+	S24.31795, W57.11222
+	S24.40290, W57.07964
+	S24.47835, W57.07251
+	S24.54687, W57.08429
+	S24.63953, W57.13038
+	S24.72392, W57.12444
+	S24.78686, W57.15405
+	S24.85662, W57.21720
+	S24.91465, W57.23653
+	S24.96106, W57.21193
+	S24.98385, W57.22113
+	S24.98292, W57.26404
+	S25.01501, W57.31973
+	S25.08002, W57.38820
+	S25.11170, W57.44778
+	S25.11004, W57.49853
+	S25.15438, W57.56098
+	S25.24482, W57.63516
+	S25.32843, W57.64389
+	S25.40512, W57.58715
+	S25.47374, W57.56312
+	S25.53415, W57.57170
+	S25.59870, W57.62583
+	S25.66722, W57.72546
+	S25.69709, W57.75482
+	S25.72603, W57.75706
+	S25.78370, W57.78249
+	S25.90695, W57.86522
+	S25.96425, W57.88620
+	S26.00658, W57.89065
+	S26.05298, W57.94310
+	S26.13856, W58.08239
+	S26.18021, W58.11112
+	S26.22491, W58.11807
+
+line2 =
+	S24.78665, W58.72401
+	S24.84288, W58.51965
+	S24.89414, W58.42281
+	S24.95925, W58.36540
+	S24.97915, W58.30871
+	S24.95377, W58.25280
+	S24.97713, W58.13647
+	S25.04917, W57.95982
+	S25.13640, W57.82166
+	S25.32843, W57.64389
+
+[airport1]
+name = Silvio Pettirossi International Airport
+code = SGAS
+runways =
+	rwy1, 02, S25.2546, W57.5227, 10.0, 10997, 0, 0, 292

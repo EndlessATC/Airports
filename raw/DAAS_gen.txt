@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3360
+center = N36.1781005859, E5.32449007034
+magneticvar = 0.017
+beacons =
+	BJA, N36.70670, E5.02472, 0, Bejaia
+	JIL, N36.77670, E5.87722, 0, Jijel
+	BTN, N35.75170, E6.30222, 0, Batna
+	BTN, N35.77150, E6.34379, 0, Batna
+	BSA, N35.51530, E4.40167, 0, Bou Saada
+
+line1 =
+	N37.00303, E6.57588
+	N37.08574, E6.48652
+	N37.04604, E6.32783
+	N36.93833, E6.24912
+	N36.86426, E6.06475
+	N36.79961, E5.72549
+	N36.67544, E5.42461
+	N36.64824, E5.29541
+	N36.67681, E5.19561
+	N36.80806, E4.99541
+	N36.86240, E4.87783
+	N36.89634, E4.75811
+
+[airport1]
+name = Ain Arnat Airport
+code = DAAS

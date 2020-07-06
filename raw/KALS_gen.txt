@@ -1,0 +1,54 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7539
+usa = true
+transition = 18001
+center = N37.434898, W105.866997
+magneticvar = 9.424
+beacons =
+	ALS, N37.34920, W105.81600, 0, Alamosa
+	VQ, N37.35440, W105.93100, 0, Besaq
+	TAS, N36.60880, W105.90600, 0, Taos
+
+line1 =
+	N38.25984, W104.41060
+	N38.26074, W104.64924
+	N38.29792, W104.82584
+	N38.37148, W104.94036
+	N38.42520, W105.09278
+
+line2 =
+	N38.39972, W105.65411
+	N38.42510, W105.83224
+
+line3 =
+	N37.74395, W107.06695
+	N37.80886, W106.92435
+	N37.79222, W106.81391
+	N37.71563, W106.68813
+	N37.67770, W106.54155
+	N37.67842, W106.37420
+	N37.64729, W106.19597
+	N37.58430, W106.00683
+	N37.52494, W105.87860
+	N37.46924, W105.81124
+	N37.40604, W105.76346
+	N37.33532, W105.73525
+	N37.23954, W105.73160
+	N37.11872, W105.75248
+	N36.97973, W105.74292
+	N36.82258, W105.70282
+	N36.65068, W105.69481
+	N36.46403, W105.71894
+
+[airport1]
+name = San Luis Valley Regional Bergman Field
+code = KALS
+runways =
+	rwy1, 02, N37.4252, W105.876, 31.5, 8519, 0, 0, 7539
+	rwy2, 06, N37.4334, W105.868, 76.4, 3200, 0, 0, 7535

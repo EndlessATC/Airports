@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5687
+center = N2.4544, W76.6093
+magneticvar = -2.597
+beacons =
+	PPN, N2.44972, W76.61420, 0, Popayan
+	MER, N1.78833, W77.15080, 0, Mercaderes
+
+line1 =
+	N3.34858, W77.35654
+	N3.34180, W77.41714
+	N3.23379, W77.47222
+	N3.16025, W77.52026
+	N3.07598, W77.55913
+	N3.05117, W77.63203
+	N3.03994, W77.69365
+	N3.00757, W77.70098
+	N2.91934, W77.67109
+	N2.87886, W77.67002
+	N2.78730, W77.77666
+
+line2 =
+	N1.94267, W76.50734
+	N1.89609, W76.28126
+	N1.89751, W76.17878
+	N1.94833, W76.09747
+	N2.11791, W75.79103
+	N2.19832, W75.69008
+	N2.24612, W75.69245
+	N2.29722, W75.66194
+	N2.35169, W75.59858
+	N2.40109, W75.57241
+	N2.44554, W75.58347
+	N2.56997, W75.51810
+
+[airport1]
+name = Guillermo León Valencia Airport
+code = SKPP
+runways =
+	rwy1, 07, N2.45162, W76.6174, 70.8, 6266, 0, 0, 5633

@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 154
+metric = true
+center = N37.65722, E120.9872
+magneticvar = -6.533
+beacons =
+	FZ, N37.45170, E121.17800, 0, Tunli
+	HCH, N37.65500, E120.54500, 0, Huangcheng
+	YNT, N37.38670, E121.35700, 0, Yantai
+
+line1 =
+	N36.66045, E121.14404
+	N36.73838, E121.41309
+	N36.83638, E121.66963
+	N36.95947, E121.93271
+	N36.97075, E122.04951
+	N36.95864, E122.16240
+	N36.92720, E122.20322
+	N36.87954, E122.21973
+	N36.84985, E122.24229
+	N36.83384, E122.27422
+	N36.83223, E122.34092
+	N36.91514, E122.45703
+
+line2 =
+	N37.40527, E122.33770
+	N37.45615, E122.16914
+	N37.52231, E122.10957
+	N37.52891, E122.05664
+	N37.49575, E122.01016
+	N37.44531, E121.96484
+	N37.45664, E121.81641
+	N37.46035, E121.64023
+	N37.51504, E121.50527
+	N37.57896, E121.38809
+	N37.60015, E121.21953
+	N37.72520, E121.04902
+	N37.83394, E120.75000
+	N37.70103, E120.37012
+	N37.69209, E120.28467
+	N37.67900, E120.25723
+	N37.65649, E120.28711
+	N37.62271, E120.31152
+	N37.49502, E120.15586
+	N37.35083, E119.88291
+	N37.29580, E119.87998
+	N37.25337, E119.88750
+	N37.15508, E119.76055
+
+[airport1]
+name = Duplicate --Yantai Penglai International Airport
+code = CN-0011
+
+[airport2]
+name = Yantai Penglai International Airport
+code = NT
+inboundbeacon = FZ

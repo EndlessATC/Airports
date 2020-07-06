@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 669
+center = N16.5883998871, W24.2847003937
+magneticvar = -11.378
+beacons =
+	NCL, N16.56270, W24.28320, 0, Sao Nicolau
+	SVT, N16.82890, W25.06510, 0, Sao Vicente
+
+line1 =
+	N17.09473, W24.97969
+	N17.17646, W25.03467
+	N17.19365, W25.11348
+	N17.09102, W25.33711
+	N17.06772, W25.34155
+	N17.01538, W25.32192
+	N16.93584, W25.30830
+	N16.92593, W25.26724
+	N16.94648, W25.16982
+	N17.04932, W25.01709
+	N17.09473, W24.97969
+
+line2 =
+	N16.91323, W24.99102
+	N16.87070, W25.07012
+	N16.83252, W25.09307
+	N16.79722, W25.01997
+	N16.79419, W24.96914
+	N16.81812, W24.88706
+	N16.84648, W24.89189
+	N16.92212, W24.93647
+	N16.91323, W24.99102
+
+line3 =
+	N16.64487, W24.27109
+	N16.67778, W24.37671
+	N16.66445, W24.39292
+	N16.61841, W24.39810
+	N16.49312, W24.32236
+	N16.57593, W24.28281
+	N16.59941, W24.24307
+	N16.56104, W24.09414
+	N16.57202, W24.03271
+	N16.59307, W24.04639
+	N16.62251, W24.08770
+	N16.64487, W24.27109
+
+[airport1]
+name = Preguiça Airport
+code = GVSN
+runways =
+	rwy1, 01, N16.5819, W24.2837, 356.0, 4593, 0, 0, 669

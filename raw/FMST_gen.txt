@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 29
+center = S23.3833999634, E43.7285003662
+magneticvar = -19.484
+beacons =
+	VSQ, S23.38940, E43.72230, 0, Toliara
+
+line1 =
+	S24.35791, E43.68750
+	S24.30029, E43.67002
+	S24.10879, E43.65684
+	S23.97920, E43.66211
+	S23.74189, E43.64609
+	S23.63027, E43.66475
+	S23.52969, E43.72227
+	S23.42090, E43.69873
+	S23.30654, E43.63760
+	S23.18818, E43.61465
+	S23.08047, E43.56953
+	S22.88633, E43.39785
+	S22.79082, E43.35752
+	S22.69189, E43.32959
+	S22.38359, E43.26484
+
+[airport1]
+name = Toliara Airport
+code = FMST
+runways =
+	rwy1, 04, S23.3916, E43.7246, 23.0, 6562, 0, 0, 16
+	rwy2, 11, S23.3914, E43.7249, 88.0, 2625, 0, 0, 16

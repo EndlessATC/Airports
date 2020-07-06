@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1099
+center = N11.8552999496, E13.0809001923
+magneticvar = -0.270
+beacons =
+	MA, N11.83820, E13.06290, 0, Maiduguri
+	MIU, N11.88820, E13.11670, 0, Maiduguri
+
+line1 =
+	N12.35651, E14.27286
+	N12.38379, E14.19746
+	N12.47118, E14.17612
+
+[airport1]
+name = Maiduguri International Airport
+code = DNMA
+runways =
+	rwy1, 05, N11.8459, E13.0713, 47.0, 9846, 0, 0, 1097

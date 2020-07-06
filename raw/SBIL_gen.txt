@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 15
+center = S14.8159999847, W39.0331993103
+magneticvar = -23.143
+beacons =
+	YLH, S14.81220, W39.03670, 0, Ilheus
+	COM, S15.36080, W39.00130, 0, Comandatuba
+
+line1 =
+	S15.56436, W38.94321
+	S15.25381, W38.99619
+	S14.93564, W39.01338
+	S14.65479, W39.05957
+	S14.03066, W38.94233
+	S14.00342, W38.96650
+	S14.10117, W39.00850
+	S14.04395, W39.04814
+	S13.99102, W39.03491
+
+[airport1]
+name = Bahia - Jorge Amado Airport
+code = SBIL

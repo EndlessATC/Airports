@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 311
+center = S8.80453968048, E148.309005737
+magneticvar = 6.294
+beacons =
+	GUA, S8.73611, E148.25400, 0, Girua
+
+line1 =
+	S7.87627, E147.72432
+	S7.93750, E147.82188
+	S7.97539, E147.93613
+	S8.10361, E148.12676
+	S8.16025, E148.15195
+	S8.33867, E148.20645
+	S8.45967, E148.22998
+	S8.50957, E148.23359
+	S8.55430, E148.24688
+	S8.66396, E148.41445
+	S8.69453, E148.45117
+	S8.93857, E148.52588
+	S9.05176, E148.58311
+	S9.09199, E148.67949
+	S9.08945, E148.79180
+	S9.01689, E149.09746
+	S9.01455, E149.14170
+	S9.03125, E149.19834
+	S9.07100, E149.24766
+	S9.18076, E149.26406
+	S9.29590, E149.21621
+	S9.40684, E149.20303
+	S9.49785, E149.26318
+	S9.56885, E149.41875
+	S9.58828, E149.47578
+
+line2 =
+	S9.79043, E147.49648
+	S9.67471, E147.40830
+	S9.57959, E147.29893
+
+[airport1]
+name = Girua Airport
+code = AYGR
+runways =
+	rwy1, 03, S8.81049, E148.304, 38.1, 5485, 0, 0, 310

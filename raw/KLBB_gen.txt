@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3282
+usa = true
+transition = 18001
+center = N33.663601, W101.822998
+magneticvar = 7.385
+beacons =
+	LB, N33.73790, W101.82900, 0, Pollo
+	LD, N33.66260, W101.72300, 0, Lubbi
+	LBB, N33.70490, W101.91400, 0, Lubbock
+	PVW, N34.08620, W101.79000, 0, Plainview
+	LLN, N33.55570, W102.37500, 0, Levelland
+	CZX, N33.62410, W101.23900, 0, Crosbyton
+	LIU, N33.91920, W102.38700, 0, Littlefield
+	BFE, N33.17920, W102.19100, 0, Brownfield
+
+line1 =
+	N32.90468, W100.50135
+	N32.95680, W100.44128
+
+line2 =
+	N33.54007, W101.66650
+	N33.40011, W101.42628
+	N33.26575, W101.32319
+	N33.20071, W101.25255
+	N33.16025, W101.17989
+	N33.13986, W101.10651
+	N33.13950, W100.99541
+	N33.10289, W100.83216
+	N33.04418, W100.70865
+	N32.90468, W100.50135
+
+[airport1]
+name = Lubbock Preston Smith International Airport
+code = KLBB
+runways =
+	rwy1, 08, N33.6622, W101.829, 89.7, 8001, 200, 0, 3257
+	rwy2, 17L, N33.6598, W101.817, 179.6, 2891, 0, 0, 3255
+	rwy3, 17R, N33.6824, W101.829, 179.7, 11500, 0, 0, 3282

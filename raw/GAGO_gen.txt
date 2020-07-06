@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 870
+center = N16.2483997345, W0.00545600010082
+magneticvar = -2.246
+beacons =
+	TZI, N16.23940, W0.02336, 0, Gao
+	GAO, N16.23790, W0.02650, 0, Gao
+
+line1 =
+	N17.04795, W1.11788
+	N17.00894, W1.05153
+	N16.99550, W0.96451
+	N17.00775, W0.85682
+	N16.99258, W0.77036
+	N16.95008, W0.70515
+	N16.93760, W0.60055
+	N16.95517, W0.45653
+	N16.87282, W0.34602
+	N16.69061, W0.26900
+	N16.57739, W0.20285
+	N16.53315, W0.14771
+	N16.42587, W0.08939
+	N16.17025, E0.00280
+	N15.98311, E0.14351
+	N15.87211, E0.25942
+	N15.77490, E0.39742
+	N15.67915, E0.47127
+	N15.58479, E0.48088
+	N15.51045, E0.54775
+	N15.45616, E0.67188
+	N15.40971, E0.73885
+	N15.37110, E0.74867
+	N15.28258, E0.72733
+
+[airport1]
+name = Gao Airport
+code = GAGO
+runways =
+	rwy1, 07, N16.2432, W0.015817, 62.0, 8202, 0, 0, 836

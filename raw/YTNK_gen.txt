@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1236
+usa = true
+center = S19.6343994141, E134.182998657
+magneticvar = 4.481
+beacons =
+	TNK, S19.63440, E134.18100, 0, Tennant Creek
+	TNK, S19.64420, E134.17500, 0, Tennant Creek
+
+[airport1]
+name = Tennant Creek Airport
+code = YTNK
+runways =
+	rwy1, 07, S19.6411, E134.168, 73.4, 6427, 0, 0, 1204
+	rwy2, 11, S19.6341, E134.176, 119.0, 3468, 0, 0, 1211

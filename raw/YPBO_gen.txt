@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1406
+usa = true
+center = S23.1711006165, E117.745002747
+magneticvar = 1.188
+beacons =
+	PBO, S23.17250, E117.73700, 0, Paraburdoo
+	PBO, S23.17890, E117.74300, 0, Paraburdoo
+
+[airport1]
+name = Paraburdoo Airport
+code = YPBO
+runways =
+	rwy1, 06, S23.1755, E117.737, 65.0, 6995, 0, 0, 1374

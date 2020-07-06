@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 66
+center = N26.198600769, E36.476398468
+magneticvar = 3.113
+beacons =
+	WEJ, N26.17930, E36.48810, 0, Wejh
+
+line1 =
+	N25.42554, E36.92441
+	N25.55874, E36.74756
+	N25.61982, E36.58877
+	N25.64536, E36.55410
+	N25.68872, E36.53359
+	N25.64512, E36.50430
+	N25.60156, E36.53027
+	N25.53403, E36.72207
+	N25.50059, E36.76387
+	N25.45073, E36.80508
+	N25.38306, E36.87520
+	N25.38306, E36.90166
+	N25.41465, E36.95479
+	N25.42554, E36.92441
+
+line2 =
+	N25.69922, E36.58613
+	N25.71279, E36.59551
+	N25.73486, E36.59561
+	N25.79541, E36.57988
+	N25.85552, E36.58271
+	N25.81162, E36.54648
+	N25.73428, E36.54395
+	N25.69922, E36.58613
+
+line3 =
+	N27.07046, E35.85166
+	N26.88101, E36.03203
+	N26.76582, E36.09375
+	N26.59478, E36.24961
+	N26.10488, E36.51875
+	N26.03887, E36.67520
+	N25.90288, E36.70254
+	N25.75132, E36.76270
+	N25.69248, E36.86016
+	N25.64116, E36.92070
+	N25.29111, E37.14883
+
+[airport1]
+name = Al Wajh Domestic Airport
+code = OEWJ
+runways =
+	rwy1, 15, N26.2105, E36.4686, 151.0, 10007, 0, 0, 65

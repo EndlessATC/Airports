@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+center = S13.3758001328, E50.0027999878
+
+line1 =
+	S12.93584, E48.91035
+	S12.83906, E48.91943
+	S12.72168, E48.89424
+	S12.61016, E48.85381
+
+line2 =
+	S12.44004, E48.80391
+	S12.45850, E48.89961
+	S12.43906, E48.93174
+
+line3 =
+	S12.43213, E49.53828
+	S12.53672, E49.58418
+	S12.63711, E49.63779
+	S12.87969, E49.80498
+	S12.97305, E49.87646
+	S13.07227, E49.93750
+	S13.27021, E49.96719
+	S13.57793, E50.07344
+	S14.04023, E50.17383
+
+[airport1]
+name = Vohimarina Airport
+code = FMNV
+runways =
+	rwy1, 14, S13.3719, E49.9983, 132.0, 4236, 0, 0, 0

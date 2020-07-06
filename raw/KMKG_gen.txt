@@ -1,0 +1,75 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 629
+usa = true
+transition = 18001
+center = N43.169498, W86.238197
+magneticvar = -5.199
+beacons =
+	MK, N43.12110, W86.16850, 0, Musko
+	MKG, N43.16930, W86.03930, 0, Muskegon
+	HLM, N42.79650, W86.15750, 0, Holland
+	HIC, N43.57490, W85.71620, 0, White Cloud
+	VIO, N42.78670, W85.49710, 0, Victory
+	GR, N42.89570, W85.37850, 0, Knobs
+	PMM, N42.46550, W86.10580, 0, Pullman
+	LDM, N43.96320, W86.40950, 0, Ludington
+	BT, N42.36190, W85.18420, 0, Batol
+
+line1 =
+	N44.16948, W86.41543
+	N44.07373, W86.51919
+	N44.05474, W86.52095
+	N43.97979, W86.46992
+	N43.92397, W86.44863
+	N43.81274, W86.43804
+	N43.79429, W86.44058
+	N43.65693, W86.54053
+	N43.63730, W86.54214
+	N43.40713, W86.43501
+	N43.24175, W86.34019
+	N43.22412, W86.32915
+	N43.15806, W86.30088
+	N43.02881, W86.24849
+	N42.90044, W86.22153
+	N42.77310, W86.22002
+	N42.65000, W86.23271
+	N42.53120, W86.25962
+	N42.41763, W86.29956
+	N42.30933, W86.35249
+	N42.22373, W86.40737
+
+line2 =
+	N42.21143, W87.79746
+	N42.34106, W87.81250
+	N42.54297, W87.81196
+	N42.68037, W87.80166
+	N42.75342, W87.78140
+	N42.80918, W87.78706
+	N42.84771, W87.81870
+
+line3 =
+	N43.44302, W87.82393
+	N43.49009, W87.80557
+	N43.53809, W87.80088
+	N43.59888, W87.77402
+	N43.72373, W87.69971
+	N43.75244, W87.69795
+	N43.80908, W87.72339
+	N43.85117, W87.72939
+	N43.90728, W87.72383
+	N43.97661, W87.70015
+	N44.05903, W87.65850
+	N44.12495, W87.60342
+
+[airport1]
+name = Muskegon County Airport
+code = KMKG
+runways =
+	rwy1, 06, N43.1616, W86.2509, 56.4, 6501, 0, 0, 622
+	rwy2, 14, N43.1769, W86.2399, 137.4, 5001, 290, 0, 627

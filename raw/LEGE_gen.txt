@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 468
+center = N41.901000977, E2.7605500221
+magneticvar = -0.426
+beacons =
+	GIR, N41.93120, E2.77197, 0, Gerona
+	GRN, N42.02500, E2.80721, 0, Gerona
+	CLE, N41.64000, E2.63467, 0, Calella
+	BAG, N41.95150, E3.20307, 0, Bagur
+	BGR, N41.94770, E3.20886, 0, Bagur
+	SLL, N41.51990, E2.10975, 0, Sabadell
+	SBD, N41.51940, E2.10305, 0, Sabadell
+	BCN, N41.30710, E2.10781, 0, Barcelona
+	PRA, N41.28310, E2.08186, 0, El Prat
+	VNV, N41.21060, E1.70584, 0, Villanueva
+
+line1 =
+	N41.09756, E1.20586
+	N41.19561, E1.56660
+	N41.28740, E2.08262
+	N41.32075, E2.14561
+	N41.46650, E2.31094
+	N41.76743, E3.00488
+	N41.86104, E3.14688
+	N41.94424, E3.24805
+	N42.08223, E3.23809
+	N42.11113, E3.22461
+	N42.13599, E3.17520
+	N42.16245, E3.15039
+	N42.25649, E3.16641
+	N42.26035, E3.21865
+	N42.28896, E3.30674
+	N42.34370, E3.28789
+	N42.36787, E3.23984
+	N42.43115, E3.21143
+	N42.46118, E3.19785
+	N42.59087, E3.09092
+	N42.83789, E3.04307
+
+line2 =
+	N42.62696, E1.80902
+	N42.69305, E1.82493
+	N42.73217, E1.79139
+	N42.78349, E1.67497
+	N42.85645, E1.61626
+
+[airport1]
+name = Girona Airport
+code = LEGE
+runways =
+	rwy1, 02, N41.8949, E2.75826, 15.8, 7874, 0, 0, 403

@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 114
+center = N24.896356, E55.161389
+magneticvar = 1.308
+beacons =
+	DUB, N25.25450, E55.36570, 0, Dubai
+	SHJ, N25.33030, E55.52060, 0, Sharjah
+	AUH, N24.44320, E54.64650, 0, Abu Dhabi
+	ALN, N24.25980, E55.60640, 0, Al Ain
+	AIN, N24.24860, E55.60430, 0, Al Ain
+	VAD, N24.42740, E54.46520, 0, Bateen
+	AD, N24.42760, E54.45590, 0, Bateen
+	MA, N24.24680, E54.54540, 0, Al Dhafra
+	RAV, N25.58830, E55.94640, 0, Ras Al Khaimah
+
+line1 =
+	N24.14336, E53.92813
+	N24.17720, E53.92783
+	N24.21514, E53.89375
+
+line2 =
+	N24.97920, E56.38799
+	N25.01831, E56.37285
+	N25.56938, E56.36348
+	N25.65068, E56.29785
+	N25.70933, E56.30723
+	N25.75195, E56.32930
+	N25.80459, E56.37363
+
+line3 =
+	N25.79399, E55.94121
+	N25.49814, E55.52285
+	N25.39448, E55.43340
+	N25.29980, E55.32168
+	N25.23682, E55.30352
+	N25.04160, E55.09814
+	N24.81045, E54.74678
+	N24.71553, E54.65898
+	N24.62129, E54.62412
+	N24.56353, E54.58047
+	N24.53096, E54.53467
+	N24.46270, E54.49883
+	N24.35825, E54.45840
+	N24.27817, E54.39707
+	N24.25430, E54.30430
+	N24.17119, E54.14795
+	N24.07705, E53.89336
+
+line4 =
+	N24.47104, E54.42656
+	N24.50635, E54.39834
+	N24.50459, E54.37891
+	N24.47104, E54.33477
+	N24.44277, E54.35771
+	N24.42510, E54.42842
+	N24.42334, E54.45664
+	N24.44277, E54.46543
+	N24.47104, E54.42656
+
+[airport1]
+name = Al Maktoum International Airport
+code = OMDW
+runways =
+	rwy1, 12, N24.9071, E55.1421, 120.0, 14764, 0, 0, 114
+
+[airport2]
+name = Dubai International Airport
+code = DB
+runways =
+	rwy2, 12L, N25.2665, E55.347, 122.0, 13124, 1312, 0, 13
+	rwy3, 12R, N25.2621, E55.3476, 121.0, 13124, 394, 2953, 13
+inboundbeacon = DUB

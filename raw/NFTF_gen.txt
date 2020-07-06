@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 126
+center = S21.2411994934, W175.149993896
+magneticvar = 13.264
+beacons =
+	TBU, S21.24560, W175.14700, 0, Fua Amotu
+	FM, S21.26830, W175.14400, 0, Fua Amotu
+
+line1 =
+	S21.12900, W175.07817
+	S21.16074, W175.08408
+	S21.26367, W175.15659
+	S21.22344, W175.20234
+	S21.15771, W175.33545
+	S21.10684, W175.36235
+	S21.06826, W175.31807
+	S21.09932, W175.32261
+	S21.11338, W175.30044
+	S21.11875, W175.22539
+	S21.14648, W175.15801
+	S21.15566, W175.19976
+	S21.16934, W175.16191
+	S21.16943, W175.14766
+	S21.13975, W175.13193
+	S21.12900, W175.07817
+
+line2 =
+	S21.34980, W174.97295
+	S21.38174, W174.96753
+	S21.45059, W174.91865
+	S21.30049, W174.91313
+	S21.30342, W174.92349
+	S21.34980, W174.97295
+
+[airport1]
+name = Fua'amotu International Airport
+code = NFTF
+runways =
+	rwy1, 11, S21.2348, W175.161, 121.9, 8795, 0, 0, 91
+	rwy2, 17, S21.2377, W175.139, 181.2, 4951, 0, 0, 98

@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 30
+center = N10.152, E76.401901
+magneticvar = -2.189
+beacons =
+	CIA, N10.15050, E76.37260, 0, Cochin Intl
+	CI, N10.14940, E76.48420, 0, Cochin Intl
+	CA, N10.04080, E76.27900, 0, Cochin Intl
+	CC, N9.96385, E76.28200, 0, Cochin
+	CCN, N9.94468, E76.27290, 0, Cochin
+	CIB, N10.11530, E76.68170, 0, Cochin Intl
+
+line1 =
+	N11.05757, E75.84463
+	N10.78408, E75.92256
+	N10.40225, E76.09609
+	N10.32700, E76.12334
+	N10.20063, E76.20146
+	N10.16377, E76.19268
+	N10.08613, E76.19561
+	N10.02427, E76.22275
+	N10.01797, E76.24873
+	N9.92212, E76.34648
+	N9.53623, E76.45879
+	N9.52046, E76.41953
+	N9.53989, E76.37559
+	N9.70737, E76.37227
+	N9.82734, E76.34307
+	N9.90986, E76.28467
+	N9.92710, E76.24238
+	N9.67646, E76.29238
+	N9.45210, E76.32461
+	N9.23682, E76.40312
+	N9.20781, E76.41904
+	N9.18877, E76.45234
+	N9.16084, E76.47178
+
+[airport1]
+name = Cochin International Airport
+code = VOCI
+runways =
+	rwy1, 09, N10.1514, E76.3864, 87.9, 11155, 0, 0, 28

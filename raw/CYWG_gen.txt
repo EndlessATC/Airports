@@ -1,0 +1,87 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 783
+usa = true
+transition = 18001
+center = N49.9099998474, W97.2398986816
+magneticvar = 3.030
+beacons =
+	YWG, N49.92780, W97.23920, 0, Winnipeg
+	WG, N49.89920, W97.34920, 0, Winnipeg
+	ZWN, N49.96390, W97.32170, 0, Downs
+	ZWG, N49.98920, W97.21970, 0, Stoney
+	ZWW, N49.83000, W97.25700, 0, Boine
+	ZHT, N49.83390, W97.14420, 0, Forks
+	AV, N50.05330, W97.04500, 0, St aAdrews
+	BM, N50.13720, W97.30970, 0, Balmoral
+	LF, N49.64250, W97.30000, 0, La Salle
+	PG, N49.84180, W98.17960, 0, Portage
+	YPG, N49.89970, W98.26730, 0, Portage
+	UDE, N50.16640, W98.30730, 0, Delta
+	M4, N50.63410, W97.04370, 0, Gimli Indus Park
+	4X, N50.29030, W96.01420, 0, Lac Du Bonnet
+
+line1 =
+	N50.72925, W96.37256
+	N50.72925, W96.37256
+	N50.69121, W96.35854
+	N50.62388, W96.29438
+	N50.62852, W96.39175
+	N50.65576, W96.45205
+	N50.72793, W96.54180
+	N50.69526, W96.56626
+	N50.66362, W96.58755
+	N50.59922, W96.59429
+	N50.55220, W96.60757
+	N50.46802, W96.57637
+	N50.44185, W96.59580
+	N50.39795, W96.68315
+	N50.39795, W96.76118
+	N50.41846, W96.86558
+	N50.46123, W96.93071
+	N50.56992, W96.96177
+	N50.64360, W96.97642
+	N50.68301, W96.98325
+	N50.79741, W96.95596
+	N50.84375, W96.95352
+
+line2 =
+	N50.85737, W96.36748
+	N50.76050, W96.35742
+	N50.72925, W96.37256
+
+line3 =
+	N50.28303, W96.02597
+	N50.40480, W95.98876
+
+line4 =
+	N50.77416, W96.46731
+	N50.68533, W96.39150
+	N50.62389, W96.29438
+
+line5 =
+	N50.32318, W95.50556
+	N50.22820, W95.59982
+	N50.16986, W95.72570
+	N50.14815, W95.88311
+	N50.14769, W95.98664
+	N50.16846, W96.03630
+	N50.20492, W96.05235
+	N50.28313, W96.02594
+	N50.40354, W95.98871
+	N50.45067, W96.00455
+	N50.50591, W96.08121
+	N50.62451, W96.29531
+
+[airport1]
+name = Winnipeg / James Armstrong Richardson International Airport
+code = CYWG
+runways =
+	rwy1, 07, N49.9086, W97.2353, 75.4, 4500, 0, 0, 0
+	rwy2, 13, N49.9128, W97.2522, 137.3, 8700, 0, 0, 783
+	rwy3, 18, N49.9253, W97.2342, 189.3, 11000, 0, 0, 781

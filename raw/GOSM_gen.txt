@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 85
+center = N15.5936002731, W13.3227996826
+magneticvar = -6.517
+beacons =
+	MA, N15.58670, W13.31290, 0, Matam/Ouro Sogui
+	KAE, N16.15660, W13.50740, 0, Kaedi
+
+line1 =
+	N14.81700, W12.30253
+	N14.88901, W12.40867
+	N14.97464, W12.45988
+	N15.03900, W12.54354
+	N15.08208, W12.65964
+	N15.13127, W12.73524
+	N15.18667, W12.77033
+	N15.22354, W12.81317
+	N15.24253, W12.85851
+	N15.26238, W12.86265
+	N15.28966, W12.85190
+	N15.34041, W12.86272
+	N15.45301, W12.93086
+	N15.50489, W12.99432
+	N15.49663, W13.04853
+	N15.51042, W13.07927
+	N15.53528, W13.09790
+	N15.57176, W13.10529
+	N15.60334, W13.14237
+	N15.61688, W13.20645
+	N15.70039, W13.25800
+	N15.85386, W13.29701
+	N15.97350, W13.34755
+	N16.05918, W13.40964
+	N16.09114, W13.45408
+	N16.09700, W13.48695
+	N16.11031, W13.49816
+	N16.13522, W13.50700
+	N16.14405, W13.55552
+	N16.11829, W13.62356
+	N16.12692, W13.68469
+	N16.16878, W13.71492
+	N16.17250, W13.75665
+	N16.13803, W13.80980
+	N16.14816, W13.86848
+	N16.20286, W13.93261
+	N16.25720, W13.96816
+	N16.31115, W13.97503
+	N16.41884, W14.08567
+	N16.58028, W14.30008
+
+[airport1]
+name = Ouro Sogui Airport
+code = GOSM

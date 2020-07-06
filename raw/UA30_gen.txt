@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3517
+metric = true
+center = N40.042899, E70.83784
+magneticvar = 4.245
+beacons =
+	UP, N40.46330, E71.04500, 0, Kokand
+	ZU, N40.41000, E71.75000, 0, Fergana
+	HV, N40.22170, E69.75830, 0, Khudzhand
+
+line1 =
+	N40.43536, E70.35501
+	N40.37118, E70.31853
+	N40.33051, E70.18650
+	N40.27268, E69.82698
+
+line2 =
+	N40.98825, E71.87017
+	N40.90660, E71.59700
+	N40.87229, E71.23372
+	N40.84180, E71.10122
+	N40.82195, E71.06153
+	N40.80862, E71.02639
+	N40.79622, E70.96480
+	N40.75638, E70.86341
+	N40.66116, E70.69835
+	N40.43536, E70.35501
+
+line3 =
+	N40.27268, E69.82698
+	N40.30183, E69.68446
+	N40.28571, E69.56250
+	N40.23398, E69.41368
+
+[airport1]
+name = Batken Airport
+code = UA30
+runways =
+	rwy1, 14, N40.0494, E70.8317, 143.8, 5905, 0, 0, 0

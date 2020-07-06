@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3967
+usa = true
+transition = 18001
+center = N41.87400055, W103.5960007
+magneticvar = 9.350
+beacons =
+	BFF, N41.89420, W103.48200, 0, Scottsbluff
+	GIG, N41.94440, W103.68300, 0, Gering
+	BF, N41.80270, W103.49900, 0, Creve
+	TOR, N42.06610, W104.15300, 0, Torrington
+	AIA, N42.05560, W102.80400, 0, Alliance
+	ALU, N42.04320, W102.79900, 0, Alliance
+	IBM, N41.19140, W103.67000, 0, Kimball
+	CDR, N42.55880, W103.31200, 0, Chadron
+	SNY, N41.09670, W102.98300, 0, Sidney
+	GYZ, N42.24000, W104.71400, 0, Camp Guernsey
+	CY, N41.14670, W104.67900, 0, Horse
+
+[airport1]
+name = Western Neb. Rgnl/William B. Heilig Airport
+code = KBFF
+runways =
+	rwy1, 05, N41.8698, W103.611, 68.0, 8001, 0, 0, 3949
+	rwy2, 12, N41.8823, W103.605, 136.0, 8279, 0, 0, 3962

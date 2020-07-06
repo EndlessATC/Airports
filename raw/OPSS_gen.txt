@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3183
+center = N34.8135986328, E72.3527984619
+magneticvar = 2.159
+beacons =
+	SS, N34.80890, E72.35220, 0, Saidu Sharif
+	PS, N33.99580, E71.50440, 0, Peshawar
+
+line1 =
+	N34.62254, E72.78164
+	N34.37149, E72.83476
+	N34.25796, E72.84757
+	N34.19822, E72.83796
+	N34.14766, E72.80158
+	N34.08557, E72.70701
+
+line2 =
+	N35.53101, E73.64520
+	N35.53804, E73.42330
+	N35.47117, E73.30160
+	N35.33040, E73.28021
+	N35.20426, E73.17510
+	N35.09274, E72.98638
+	N35.00448, E72.88519
+	N34.93937, E72.87166
+	N34.88635, E72.89481
+	N34.84537, E72.95465
+	N34.80888, E72.94457
+	N34.77684, E72.86447
+	N34.72625, E72.81373
+	N34.62254, E72.78164
+	N34.08554, E72.70691
+	N34.03175, E72.65162
+	N34.01550, E72.59178
+	N34.01880, E72.50899
+	N33.99984, E72.41075
+	N33.95857, E72.29717
+	N33.89493, E72.23883
+
+[airport1]
+name = Saidu Sharif Airport
+code = OPSS
+runways =
+	rwy1, 05, N34.8087, E72.3453, 52.0, 5745, 0, 0, 3121

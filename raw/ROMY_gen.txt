@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 150
+center = N24.7828006744, E125.294998169
+magneticvar = -3.520
+beacons =
+	MY, N24.78810, E125.29500, 0, Miyako Jima
+	MYC, N24.78600, E125.30100, 0, Miyako Jima
+	SJE, N24.82190, E125.14400, 0, Shimojishima
+	RME, N24.65070, E124.67400, 0, Tarama
+
+line1 =
+	N24.45186, E124.17021
+	N24.46963, E124.12041
+	N24.43584, E124.08477
+	N24.34761, E124.13574
+	N24.33506, E124.18564
+	N24.35806, E124.23428
+	N24.51592, E124.29316
+	N24.56636, E124.32402
+	N24.58711, E124.30195
+	N24.45864, E124.21055
+	N24.45186, E124.17021
+
+line2 =
+	N24.85239, E125.31494
+	N24.87192, E125.28359
+	N24.73252, E125.26895
+	N24.71709, E125.35938
+	N24.74316, E125.44414
+	N24.77686, E125.40186
+	N24.80469, E125.33457
+	N24.85239, E125.31494
+
+[airport1]
+name = Miyako Airport
+code = ROMY
+runways =
+	rwy1, 04, N24.7757, E125.289, 37.8, 6560, 0, 0, 124

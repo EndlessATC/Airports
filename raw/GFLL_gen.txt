@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 84
+center = N8.61644, W13.1955
+magneticvar = -8.310
+beacons =
+	LGI, N8.61718, W13.19140, 0, Freetown Lungi
+	SL, N8.60658, W13.16770, 0, Freetown Lungi
+	LGI, N8.65101, W13.16670, 0, Freetown Lungi
+
+line1 =
+	N7.63721, W12.61523
+	N7.62202, W12.85439
+
+line2 =
+	N9.53579, W13.69136
+	N9.54341, W13.56826
+	N9.42031, W13.43628
+	N9.36064, W13.40557
+	N9.31431, W13.39609
+	N9.21851, W13.29590
+	N9.17056, W13.26948
+	N9.07837, W13.30264
+	N9.04922, W13.29268
+	N8.98740, W13.27163
+	N8.89771, W13.15371
+	N8.88115, W13.05947
+	N8.85635, W13.07104
+	N8.84312, W13.20693
+	N8.76597, W13.22617
+	N8.69590, W13.22842
+	N8.57690, W13.18184
+	N8.58877, W13.12163
+	N8.62573, W13.08823
+	N8.61514, W12.95337
+	N8.65625, W12.90400
+	N8.62979, W12.89409
+	N8.58154, W12.91294
+	N8.52646, W12.99424
+	N8.42476, W13.08501
+	N8.44229, W13.15796
+	N8.48428, W13.20332
+	N8.48760, W13.26123
+	N8.42974, W13.27275
+	N8.33584, W13.20176
+	N8.21460, W13.14897
+	N8.20093, W13.02080
+	N8.14531, W12.95693
+	N8.05518, W12.92515
+	N7.85664, W12.88096
+	N7.81870, W12.85088
+	N7.79111, W12.78193
+	N7.71587, W12.69761
+	N7.70059, W12.57021
+	N7.75337, W12.51045
+	N7.75327, W12.48027
+	N7.66572, W12.51045
+
+[airport1]
+name = Lungi International Airport
+code = GFLL
+runways =
+	rwy1, 12, N8.62069, W13.2094, 107.0, 10498, 0, 0, 78

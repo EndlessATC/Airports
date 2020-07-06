@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2435
+usa = true
+center = S33.4094009399, E149.651992798
+magneticvar = 12.200
+beacons =
+	BTH, S33.41420, E149.65700, 0, Bathurst
+	ORG, S33.38310, E149.12399, 0, Orange
+	KAT, S33.71080, E150.30000, 0, Katoomba
+	CUA, S33.27610, E148.76700, 0, Cudal
+	BIK, S34.17860, E150.10699, 0, Bindook
+	BIK, S34.17860, E150.11090, 0, Bindook (Closed May 2016)
+
+line1 =
+	S34.29707, E150.96035
+	S34.38662, E150.92744
+
+[airport1]
+name = Bathurst Airport
+code = YBTH
+runways =
+	rwy1, 08, S33.4067, E149.649, 91.0, 4314, 0, 0, 2396
+	rwy2, 17, S33.4008, E149.651, 176.0, 5594, 0, 0, 2391

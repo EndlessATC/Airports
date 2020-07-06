@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2477
+center = S5.59248, W78.774002
+
+line1 =
+	S6.52927, W78.13773
+	S6.43191, W78.21892
+	S6.37765, W78.30586
+	S6.30055, W78.37446
+	S6.15048, W78.44978
+	S6.08898, W78.56752
+	S6.01715, W78.64328
+	S5.91457, W78.71633
+	S5.76249, W78.70294
+	S5.56095, W78.60313
+	S5.44571, W78.52843
+	S5.41688, W78.47882
+	S5.35466, W78.45564
+	S5.25901, W78.45885
+	S5.19777, W78.43430
+	S5.17090, W78.38201
+	S5.11405, W78.36619
+	S5.02724, W78.38694
+	S4.96388, W78.38152
+	S4.92409, W78.34991
+	S4.87071, W78.33483
+	S4.80389, W78.33627
+	S4.76162, W78.30516
+	S4.74384, W78.24160
+	S4.70757, W78.20721
+	S4.65279, W78.20199
+	S4.63212, W78.16326
+	S4.64576, W78.09107
+	S4.59770, W77.95777
+
+[airport1]
+name = Shumba Airport
+code = SPJE
+runways =
+	rwy1, 16, S5.58209, W78.7771, 163.1, 7874, 0, 0, 0

@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 463
+center = N31.6730003357, E6.14043998718
+magneticvar = 0.162
+beacons =
+	HME, N31.66430, E6.13618, 0, Hassi Messaoud
+	HMD, N31.64880, E6.13829, 0, Hassi Messaoud
+
+[airport1]
+name = Oued Irara Airport
+code = DAUH
+runways =
+	rwy1, 18, N31.6865, E6.14163, 184.0, 9843, 0, 0, 459

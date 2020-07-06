@@ -1,0 +1,72 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 102
+center = N0.460786014795, E101.444999695
+magneticvar = -0.053
+beacons =
+	NW, N0.46649, E101.45300, 0, Pekanbaru
+	PKU, N0.42559, E101.44100, 0, Pekanbaru
+
+line1 =
+	N1.44214, E102.01992
+	N1.35791, E102.09805
+	N1.25889, E102.15723
+	N1.14170, E102.19795
+	N1.01870, E102.22334
+	N0.99033, E102.23906
+	N0.84199, E102.38994
+	N0.77930, E102.46924
+	N0.74883, E102.56641
+
+line2 =
+	N1.39526, E102.27646
+	N1.39707, E102.25635
+	N1.34785, E102.22861
+	N1.26396, E102.23418
+	N1.14717, E102.25547
+	N1.07568, E102.27959
+	N1.00703, E102.32529
+	N0.95977, E102.38086
+	N0.99014, E102.42715
+	N1.06729, E102.42891
+	N1.15625, E102.44883
+	N1.23423, E102.44287
+	N1.26079, E102.41289
+	N1.34565, E102.35859
+	N1.39526, E102.27646
+
+line3 =
+	N1.45312, E102.27422
+	N1.41548, E102.36689
+	N1.36445, E102.42520
+	N1.33091, E102.49941
+	N1.45918, E102.49189
+
+line4 =
+	N1.13022, E102.54922
+	N1.08877, E102.50664
+	N0.98687, E102.49141
+	N0.95034, E102.46641
+	N0.88950, E102.45391
+	N0.85664, E102.49043
+	N0.83159, E102.54160
+
+line5 =
+	S0.51010, E101.63073
+	S0.48607, E101.77046
+	S0.53904, E101.95288
+	S0.53470, E102.09711
+	S0.44199, E102.25632
+	S0.35579, E102.37239
+	S0.37822, E102.52132
+
+[airport1]
+name = Sultan Syarif Kasim Ii (Simpang Tiga) Airport
+code = WIBB
+runways =
+	rwy1, 18, N0.470883, E101.445, 182.0, 7360, 0, 0, 90

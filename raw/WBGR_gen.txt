@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 59
+center = N4.32201004028, E113.986999512
+magneticvar = 0.342
+beacons =
+	VMI, N4.33778, E113.99400, 0, Miri
+	MYY, N4.29958, E113.97600, 0, Miri
+	MDI, N4.17750, E114.30500, 0, Marudi
+	AKI, N4.63028, E114.37200, 0, Anduki
+	VZU, N4.03292, E114.79500, 0, Mulu
+	MZU, N4.03389, E114.79800, 0, Mulu
+
+line1 =
+	N4.89976, E115.14004
+	N4.89971, E115.02676
+	N4.96245, E115.04707
+	N5.01636, E115.04766
+	N5.02236, E114.99541
+	N4.94639, E114.84062
+	N4.88101, E114.74082
+	N4.79814, E114.64590
+	N4.72456, E114.54473
+	N4.66040, E114.42441
+	N4.60718, E114.29941
+	N4.59097, E114.17793
+	N4.59287, E114.05361
+	N4.57524, E114.01250
+	N4.54580, E113.98428
+	N4.48281, E113.99043
+	N4.42070, E113.98779
+	N4.28872, E113.95254
+	N4.24321, E113.92393
+	N4.00142, E113.71211
+	N3.74058, E113.44609
+	N3.56147, E113.32012
+	N3.34351, E113.14023
+
+[airport1]
+name = Miri Airport
+code = WBGR
+runways =
+	rwy1, 02, N4.31083, E113.982, 25.0, 9006, 0, 0, 59
+
+[airport2]
+name = Marudi Airport
+code = GM
+runways =
+	rwy2, 10, N4.17854, E114.318, 103.0, 3274, 0, 700, 0
+inboundbeacon = MDI

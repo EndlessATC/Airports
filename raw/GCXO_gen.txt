@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2076
+center = N28.4827003479, W16.3414993286
+magneticvar = -6.129
+beacons =
+	TX, N28.45250, W16.25770, 0, Tenerife Norte
+	TFN, N28.53680, W16.26880, 0, Tenerife Norte
+	TES, N28.05470, W16.56280, 0, Tenerife Sur
+	TFS, N28.00240, W16.68790, 0, Tenerife Sur
+	LGM, N28.02870, W17.21490, 0, La Gomera
+	GDV, N28.07710, W15.42900, 0, Gran Canaria
+	VR, N27.85680, W15.41990, 0, Gran Canaria
+	LPC, N27.82850, W15.43220, 0, Gran Canaria
+
+line1 =
+	N28.37993, W16.33447
+	N28.52827, W16.11914
+	N28.57598, W16.12363
+	N28.55820, W16.31899
+	N28.41270, W16.51743
+	N28.40049, W16.55684
+	N28.36982, W16.75205
+	N28.37612, W16.84307
+	N28.33960, W16.90532
+	N28.29326, W16.86602
+	N28.14917, W16.79473
+	N28.00718, W16.65801
+	N28.03208, W16.54277
+	N28.06191, W16.49624
+	N28.15142, W16.41821
+	N28.37993, W16.33447
+
+line2 =
+	N28.14736, W15.40059
+	N28.15933, W15.41548
+	N28.15425, W15.43271
+	N28.13691, W15.45278
+	N28.15405, W15.68276
+	N28.06416, W15.72095
+	N27.99448, W15.80947
+	N27.88755, W15.80732
+	N27.78408, W15.71030
+	N27.75840, W15.65576
+	N27.74697, W15.55937
+	N27.81069, W15.43677
+	N27.87471, W15.38916
+	N27.99282, W15.38315
+	N28.07051, W15.40669
+	N28.14736, W15.40059
+
+line3 =
+	N28.11768, W17.32490
+	N28.03828, W17.27393
+	N28.01353, W17.22539
+	N28.02197, W17.18467
+	N28.08345, W17.10107
+	N28.11113, W17.10376
+	N28.15596, W17.12964
+	N28.19927, W17.21436
+	N28.20317, W17.25859
+	N28.17632, W17.29033
+	N28.11768, W17.32490
+
+[airport1]
+name = Tenerife Norte Airport
+code = GCXO
+runways =
+	rwy1, 12, N28.488, W16.3578, 111.1, 11155, 0, 0, 2060

@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 29
+center = S25.0380992889, E46.9561004639
+magneticvar = -23.185
+beacons =
+	VSP, S25.03740, E46.95310, 0, Tolagnaro
+
+line1 =
+	S24.12520, E47.42764
+	S24.21846, E47.37256
+	S24.31758, E47.33359
+	S24.44316, E47.31172
+	S24.56436, E47.27285
+	S24.78721, E47.17734
+	S24.97900, E47.03496
+	S25.04873, E46.93818
+	S25.14990, E46.72852
+	S25.17041, E46.62227
+	S25.17275, E46.38672
+	S25.23037, E46.15869
+	S25.34131, E45.92090
+	S25.46846, E45.69219
+
+[airport1]
+name = Tôlanaro Airport
+code = FMSD
+runways =
+	rwy1, 08, S25.0434, E46.9505, 53.0, 5280, 0, 0, 24

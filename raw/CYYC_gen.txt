@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3557
+usa = true
+transition = 18001
+center = N51.113899231, W114.019996643
+magneticvar = 15.463
+beacons =
+	IYC, N51.09920, W114.02300, 0, Calgary
+	YC, N51.08080, W113.90900, 0, Calgary
+	ZCA, N51.03310, W114.02100, 0, Blackfoot
+	ZYC, N51.19640, W114.02100, 0, Sarcee
+	YYC, N51.11510, W113.88200, 0, Calgary
+	YBW, N51.10670, W114.37300, 0, Calgary Springbank
+	JW, N51.04500, W114.63000, 0, Pigeon
+	TV, N50.75000, W114.36900, 0, Turner Valley
+	K2, N51.71030, W114.10900, 0, Olds-Didsbury
+	Z1, N51.69720, W113.21700, 0, Three Hills
+	9G, N51.78000, W114.68300, 0, Sundre
+	Z5, N50.39780, W113.28300, 0, Vulcan
+	5V, N51.50250, W112.75100, 0, Drumheller
+
+line1 =
+	N51.27315, W115.85969
+	N51.19406, W115.65821
+	N51.19352, W115.52956
+	N51.15869, W115.41401
+	N51.08954, W115.31151
+	N51.10277, W115.10041
+	N51.19837, W114.78066
+	N51.19553, W114.47965
+	N51.09432, W114.19731
+	N50.99864, W114.04079
+	N50.90852, W114.01006
+	N50.85049, W113.94040
+	N50.82452, W113.83178
+	N50.79907, W113.58107
+	N50.81253, W113.44707
+	N50.84785, W113.31003
+	N50.83809, W113.19048
+	N50.78326, W113.08836
+	N50.76657, W113.00253
+	N50.78801, W112.93297
+	N50.78930, W112.80931
+	N50.77034, W112.63154
+	N50.72900, W112.52354
+	N50.66531, W112.48527
+	N50.63107, W112.44404
+	N50.62626, W112.39988
+	N50.57423, W112.35714
+	N50.47496, W112.31588
+	N50.42188, W112.26265
+	N50.41501, W112.19746
+	N50.39269, W112.16759
+	N50.35481, W112.17304
+
+[airport1]
+name = Calgary International Airport
+code = CYYC
+runways =
+	rwy1, 08, N51.1042, W114.03, 90.0, 6200, 0, 0, 3531
+	rwy2, 11, N51.1264, W114.037, 119.5, 8000, 0, 0, 3547
+	rwy3, 17L, N51.1483, W113.99, 180.0, 14000, 0, 0, 3606
+	rwy4, 17R, N51.1314, W114.021, 180.0, 12675, 0, 0, 3556

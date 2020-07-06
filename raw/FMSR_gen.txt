@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = S21.753900528, E43.3754997253
+
+line1 =
+	S22.69189, E43.32959
+	S22.38359, E43.26484
+	S22.27637, E43.25713
+	S22.04932, E43.26660
+	S21.93252, E43.29053
+	S21.85117, E43.33223
+	S21.79043, E43.34268
+	S21.73828, E43.36973
+	S21.69648, E43.41055
+	S21.64668, E43.43779
+	S21.35645, E43.50186
+	S21.29199, E43.58311
+	S21.25498, E43.70361
+	S21.17920, E43.80020
+	S21.07686, E43.85566
+	S20.86582, E43.91113
+
+line2 =
+	S21.76989, E44.56486
+	S21.82838, E44.40869
+	S21.84456, E44.30172
+	S21.81841, E44.24395
+	S21.82890, E44.16550
+	S21.87603, E44.06618
+	S21.88998, E43.98613
+	S21.87158, E43.91404
+	S21.86104, E43.89482
+	S21.83763, E43.87420
+	S21.63739, E43.78496
+	S21.50106, E43.69685
+	S21.31575, E43.54228
+
+[airport1]
+name = Morombe Airport
+code = FMSR
+runways =
+	rwy1, 04, S21.759, E43.3725, 28.0, 4265, 0, 0, 10

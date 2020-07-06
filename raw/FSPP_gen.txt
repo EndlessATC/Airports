@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = S4.31929016113, E55.6913986206
+magneticvar = -5.253
+beacons =
+	PRA, S4.30737, E55.70710, 0, Praslin
+	SEY, S4.61759, E55.43950, 0, Seychelles
+	SEY, S4.67690, E55.53310, 0, Seychelles
+
+line1 =
+	S4.69482, E55.48125
+	S4.75459, E55.49473
+	S4.78555, E55.54297
+	S4.69307, E55.54033
+	S4.55879, E55.45576
+	S4.60928, E55.38340
+	S4.65029, E55.41680
+	S4.69482, E55.48125
+
+[airport1]
+name = Praslin Airport
+code = FSPP
+runways =
+	rwy1, 15, S4.31385, E55.6882, 149.0, 4318, 676, 256, 10
+
+[airport2]
+name = Seychelles International Airport
+code = IA
+runways =
+	rwy2, 13, S4.66663, E55.5108, 125.0, 9800, 1000, 1000, 10
+inboundbeacon = SEY

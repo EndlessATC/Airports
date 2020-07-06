@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1522
+center = S28.5956001282, W65.751701355
+magneticvar = -3.199
+beacons =
+	CAT, S28.59580, W65.75610, 0, Catamarca
+	CAT, S28.58360, W65.74670, 0, Catamarca
+	N, S28.62170, W65.76500, 0, Catamarca
+
+[airport1]
+name = Catamarca Airport
+code = SANC
+runways =
+	rwy1, 1, S28.6078, W65.7546, 11.9, 9186, 0, 0, 1476

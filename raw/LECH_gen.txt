@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1145
+center = N40.213889, E0.073333
+magneticvar = -1.242
+beacons =
+	SGO, N39.67420, W0.20781, 0, Sagunto
+	EBT, N39.62300, W0.47208, 0, Valencia
+	B, N39.47970, W0.45618, 0, Valencia
+	PND, N39.43740, W0.34646, 0, Valencia
+	VLC, N39.48560, W0.48304, 0, Valencia
+	CLS, N39.70720, W0.98632, 0, Calles
+
+line1 =
+	N39.41709, W0.32896
+	N39.51987, W0.32700
+	N39.87593, W0.07515
+	N40.01396, E0.04307
+	N40.10659, E0.15840
+	N40.31904, E0.36367
+	N40.61450, E0.59609
+	N40.62222, E0.62715
+	N40.61333, E0.66006
+	N40.63047, E0.72061
+	N40.68623, E0.85918
+	N40.72236, E0.89111
+	N40.80381, E0.79609
+	N40.82285, E0.71465
+	N40.89160, E0.81689
+	N41.06206, E1.03291
+	N41.09756, E1.20586
+	N41.19561, E1.56660
+
+line2 =
+	N41.16470, E0.63172
+	N41.11920, E0.65250
+	N41.08313, E0.65198
+	N41.03752, E0.61384
+	N40.98238, E0.53788
+	N40.90389, E0.51705
+	N40.80203, E0.55126
+	N40.74462, E0.65059
+	N40.72235, E0.89114
+
+[airport1]
+name = Castellón-Costa Azahar Airport
+code = LECH

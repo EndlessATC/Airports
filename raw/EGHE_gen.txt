@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 116
+center = N49.9132995605, W6.29166984558
+magneticvar = -3.586
+beacons =
+	STM, N49.91410, W6.29113, 0, St Marys
+	LND, N50.13630, W5.63699, 0, Lands End
+	SMG, N50.43450, W5.03025, 0, St Mawgan
+
+line1 =
+	N50.34136, W4.50669
+	N50.29048, W4.72798
+	N50.25596, W4.81738
+	N50.16074, W5.00952
+	N50.13437, W5.04863
+	N50.03833, W5.11851
+	N50.02139, W5.22524
+	N50.08296, W5.32285
+	N50.10444, W5.43398
+	N50.08340, W5.55122
+	N50.05068, W5.62212
+	N50.07725, W5.65518
+	N50.13188, W5.65625
+	N50.19697, W5.57065
+	N50.24614, W5.34229
+	N50.37373, W5.14180
+	N50.45151, W5.04346
+	N50.49526, W5.00444
+	N50.52314, W4.95640
+	N50.53369, W4.89355
+	N50.58203, W4.86128
+	N50.77637, W4.58291
+	N50.82095, W4.55996
+	N50.90068, W4.54609
+
+[airport1]
+name = St. Mary's Airport
+code = EGHE
+runways =
+	rwy1, 09, N49.9133, W6.29542, 87.0, 1716, 0, 0, 103
+	rwy2, 14, N49.9153, W6.29453, 139.0, 2280, 0, 0, 104
+
+[airport2]
+name = Land's End Airport
+code = HC
+inboundbeacon = LND

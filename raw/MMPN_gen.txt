@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5258
+center = N19.3966999054, W102.039001465
+magneticvar = 7.022
+beacons =
+	UPN, N19.39580, W102.04100, 0, Uruapan
+
+line1 =
+	N20.19370, W102.71060
+	N20.18164, W102.70029
+	N20.16182, W102.71265
+	N20.13901, W102.74438
+	N20.12388, W102.78574
+	N20.13896, W102.85171
+	N20.16831, W102.93418
+	N20.18350, W103.00781
+	N20.18062, W103.08926
+	N20.17891, W103.17041
+	N20.19956, W103.25547
+
+line2 =
+	N20.28062, W103.27178
+	N20.30752, W103.10518
+	N20.32856, W103.00205
+	N20.31855, W102.89385
+	N20.19839, W102.76963
+	N20.19785, W102.74355
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+	N20.19370, W102.71060
+
+line3 =
+	N20.30990, W102.78049
+	N20.19838, W102.76961
+
+line4 =
+	N20.30990, W102.78049
+	N20.36790, W102.79015
+
+[airport1]
+name = Licenciado y General Ignacio Lopez Rayon Airport
+code = MMPN
+runways =
+	rwy1, 02, N19.3874, W102.045, 31.3, 7874, 0, 0, 5258

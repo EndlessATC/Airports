@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 616
+center = N43.3800010681, W0.418610990047
+magneticvar = -1.480
+beacons =
+	TAN, N43.46670, W0.01842, 0, Lahitte
+	TL, N43.28840, E0.04964, 0, Tarbes
+	TBO, N43.33220, E0.14575, 0, Tarbes
+	MDM, N43.90990, W0.50439, 0, Mont De Marsan
+	BZ, N43.47050, W1.40369, 0, Biarritz
+	BTZ, N43.46660, W1.51028, 0, Biarritz
+
+line1 =
+	N44.02021, W1.34600
+	N43.56377, W1.48486
+	N43.43804, W1.63145
+	N43.40732, W1.79404
+	N43.40083, W1.82852
+	N43.34507, W1.99131
+
+line2 =
+	N44.03101, E1.08234
+	N44.12583, E0.86065
+	N44.21523, E0.50899
+	N44.29533, E0.32347
+	N44.36608, E0.30415
+
+[airport1]
+name = Pau Pyrénées Airport
+code = LFBP
+runways =
+	rwy1, 13, N43.3877, W0.433261, 125.0, 8202, 0, 0, 581
+
+[airport2]
+name = Tarbes-Lourdes-Pyrénées Airport
+code = BT
+runways =
+	rwy2, 02, N43.166, W0.01275, 20.0, 9843, 2199, 0, 1238
+inboundbeacon = TL

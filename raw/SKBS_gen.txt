@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 80
+center = N6.20292, W77.3947
+magneticvar = -4.043
+beacons =
+	BHS, N6.20937, W77.38070, 0, Bahia Solano
+	NQI, N5.71361, W77.26000, 0, Nuqui
+	UIB, N5.69226, W76.64130, 0, Quibdo
+
+line1 =
+	N7.13726, W77.80371
+	N6.96040, W77.68096
+	N6.86963, W77.64585
+	N6.83730, W77.60215
+	N6.69312, W77.52598
+	N6.69033, W77.43887
+	N6.57559, W77.36880
+	N6.50449, W77.35986
+	N6.27500, W77.39824
+	N6.27173, W77.44009
+	N6.28564, W77.47305
+	N6.17676, W77.46943
+	N5.99536, W77.34468
+	N5.78018, W77.24927
+	N5.67563, W77.32461
+	N5.53711, W77.53442
+	N5.41616, W77.40176
+	N5.32397, W77.37329
+	N5.21519, W77.35918
+
+[airport1]
+name = José Celestino Mutis Airport
+code = SKBS
+runways =
+	rwy1, 18, N6.20835, W77.3953, 174.0, 3973, 0, 0, 0

@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4154
+usa = true
+transition = 18001
+center = N42.4818, W114.487999
+magneticvar = 13.555
+beacons =
+	TWF, N42.47990, W114.48900, 0, Twin Falls
+	TW, N42.47860, W114.35400, 0, Strik
+	HDG, N42.91620, W114.67400, 0, Steelhead
+	BYI, N42.58020, W113.86600, 0, Burley
+
+line1 =
+	N41.48926, W112.99717
+	N41.53389, W112.99839
+	N41.55972, W112.99512
+	N41.57617, W112.99673
+	N41.58208, W113.00679
+	N41.59722, W113.01436
+	N41.61235, W112.99917
+	N41.61431, W112.96621
+	N41.63711, W112.90864
+
+line2 =
+	N42.65362, W113.31628
+	N42.67502, W113.47222
+
+line3 =
+	N42.67476, W113.47392
+	N42.57792, W113.62378
+	N42.53766, W113.78519
+	N42.52167, W114.00805
+	N42.55394, W114.28436
+	N42.63450, W114.61406
+	N42.70670, W114.81322
+	N42.77057, W114.88174
+	N42.82534, W114.91347
+	N42.87103, W114.90841
+	N42.90017, W114.96127
+	N42.91288, W115.07212
+	N42.94120, W115.14359
+	N42.98513, W115.17563
+	N42.98906, W115.25653
+	N42.95288, W115.38626
+	N42.95614, W115.56945
+	N42.99882, W115.80605
+	N42.99484, W115.91620
+	N42.97831, W115.97403
+
+line4 =
+	N42.68595, W113.02229
+	N42.64639, W113.13526
+	N42.65362, W113.31628
+
+[airport1]
+name = Joslin Field Magic Valley Regional Airport
+code = KTWF
+runways =
+	rwy1, 08, N42.4813, W114.503, 91.0, 8703, 0, 0, 4141
+	rwy2, 12, N42.4872, W114.494, 136.0, 3224, 0, 0, 4104

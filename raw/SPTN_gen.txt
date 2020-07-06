@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1538
+center = S18.0533008575, W70.2758026123
+magneticvar = -3.171
+beacons =
+	TCA, S18.05790, W70.27630, 0, Tacna
+	ARI, S18.36940, W70.34640, 0, Arica
+	R, S18.37170, W70.34720, 0, Arica
+
+line1 =
+	S17.36602, W71.43589
+	S17.42197, W71.39941
+	S17.62051, W71.36494
+	S17.68252, W71.33696
+	S17.87568, W71.05659
+	S17.93203, W70.94170
+	S18.05254, W70.81748
+	S18.27773, W70.49160
+	S18.34561, W70.41826
+	S18.39805, W70.36162
+	S18.59521, W70.33608
+	S18.82754, W70.33486
+
+[airport1]
+name = Coronel FAP Carlos Ciriani Santa Rosa International Airport
+code = SPTN
+runways =
+	rwy1, 02, S18.0639, W70.2798, 20.0, 8202, 0, 0, 1375
+
+[airport2]
+name = Chacalluta Airport
+code = AR
+runways =
+	rwy2, 02, S18.3578, W70.3421, 19.3, 7119, 0, 0, 123
+inboundbeacon = ARI

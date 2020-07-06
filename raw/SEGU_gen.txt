@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+center = S2.15741991997, W79.8835983276
+magneticvar = -0.007
+beacons =
+	R, S2.13278, W79.86890, 0, Guayaquil
+	GYV, S2.12833, W79.86690, 0, Guayaquil
+	PAL, S2.02500, W79.80890, 0, Palma
+	SOL, S2.24333, W80.07560, 0, Chongon
+	NIR, S2.71861, W80.24890, 0, Nir
+
+line1 =
+	S2.75313, W80.22368
+	S2.81191, W80.24980
+	S2.95176, W80.27217
+	S2.99590, W80.27295
+	S3.00830, W80.24570
+	S3.01172, W80.15068
+	S2.97314, W80.13159
+	S2.84590, W80.09341
+	S2.83379, W80.07119
+	S2.81953, W80.01323
+	S2.72559, W79.90903
+	S2.67383, W79.99727
+	S2.66885, W80.08076
+	S2.69629, W80.14570
+	S2.75313, W80.22368
+
+line2 =
+	S1.28584, W80.82002
+	S1.38340, W80.80142
+	S1.63242, W80.83501
+	S1.82295, W80.76313
+	S1.93457, W80.76060
+	S2.07666, W80.77036
+	S2.14121, W80.86763
+	S2.18926, W80.96279
+	S2.23545, W80.95161
+	S2.26914, W80.93218
+	S2.34902, W80.83906
+	S2.39688, W80.68486
+	S2.62598, W80.45010
+	S2.66797, W80.37856
+	S2.70674, W80.28472
+	S2.66465, W80.25527
+	S2.63057, W80.24863
+	S2.52842, W80.12715
+	S2.39072, W80.05308
+	S2.35381, W80.00664
+	S2.55674, W80.03018
+	S2.57871, W79.98901
+	S2.54854, W79.92559
+	S2.42363, W79.88032
+	S2.14570, W79.89341
+	S2.06738, W79.84214
+	S2.11055, W79.83262
+	S2.16787, W79.83975
+	S2.35654, W79.82241
+	S2.48467, W79.74551
+	S2.57910, W79.72988
+	S2.77695, W79.82271
+	S3.09014, W79.92158
+
+[airport1]
+name = José Joaquín de Olmedo International Airport
+code = SEGU
+runways =
+	rwy1, 03, S2.16827, W79.8899, 30.6, 9154, 338, 810, 16

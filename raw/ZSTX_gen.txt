@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N29.7332992554, E118.255996704
+
+line1 =
+	N30.44600, E116.97196
+	N30.49137, E117.13040
+	N30.55232, E117.21221
+	N30.62883, E117.21737
+	N30.67399, E117.24662
+	N30.69477, E117.32662
+
+[airport1]
+name = Tunxi International Airport
+code = ZSTX

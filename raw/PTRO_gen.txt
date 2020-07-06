@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 176
+center = N7.36731, E134.544236
+magneticvar = 1.029
+beacons =
+	ROR, N7.36877, E134.55000, 0, Koror
+
+line1 =
+	N7.61577, E134.59971
+	N7.59395, E134.55596
+	N7.52578, E134.51572
+	N7.43711, E134.50625
+	N7.36064, E134.53467
+	N7.38203, E134.59541
+	N7.43828, E134.59824
+	N7.50132, E134.63271
+	N7.66328, E134.65957
+	N7.71211, E134.65117
+	N7.62358, E134.60869
+	N7.61577, E134.59971
+
+[airport1]
+name = Babelthuap Airport
+code = PTRO
+runways =
+	rwy1, 09, N7.36789, E134.534, 91.0, 7200, 0, 0, 176

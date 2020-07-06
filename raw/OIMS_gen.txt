@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3010
+center = N36.1680984497, E57.595199585
+magneticvar = 3.496
+beacons =
+	SBZ, N36.17180, E57.59340, 0, Sabzevar
+	SBZ, N36.16980, E57.57100, 0, Sabzevar
+
+[airport1]
+name = Sabzevar National Airport
+code = OIMS
+runways =
+	rwy1, 09, N36.1693, E57.5776, 94.8, 10428, 0, 0, 2975

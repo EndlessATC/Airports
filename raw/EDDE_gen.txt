@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1036
+center = N50.979801178, E10.9581003189
+magneticvar = 1.503
+beacons =
+	EFD, N50.98260, E10.95770, 0, Erfurt
+	ERT, N50.98260, E10.92300, 0, Erfurt
+	ERF, N50.95090, E11.23670, 0, Erfurt
+	GOT, N51.34310, E11.59750, 0, Gotem
+	LAU, N51.20430, E9.69099, 0, Lichtenau
+	HOF, N50.28460, E11.76140, 0, Hof
+	SK, N51.43480, E12.11670, 0, Leipzig
+	HOD, N50.28980, E11.85520, 0, Hof
+	LED, N51.41130, E12.22380, 0, Leipzig South
+	LND, N51.43430, E12.22570, 0, Leipzig North
+	ZIG, N51.43400, E12.28050, 0, Leipzig
+
+line1 =
+	N51.84278, E12.74158
+	N51.87063, E12.57994
+	N51.88097, E12.38170
+	N51.87378, E12.14699
+	N51.90869, E11.99475
+
+[airport1]
+name = Erfurt Airport
+code = EDDE
+runways =
+	rwy1, 10, N50.9813, E10.9397, 98.0, 8530, 0, 689, 1025

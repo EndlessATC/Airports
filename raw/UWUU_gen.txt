@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 449
+center = N54.5574989319, E55.8744010925
+magneticvar = 11.452
+beacons =
+	RG, N54.54000, E55.88670, 0, Ufa
+	RG, N54.60000, E55.84500, 0, Ufa
+	NM, N54.51330, E55.90830, 0, Ufa
+	PT, N54.60000, E55.82330, 0, Ufa
+	LZ, N54.51830, E55.97170, 0, Ufa
+	DX, N54.30000, E56.78330, 0, Maksim Gorky
+	MI, N55.06670, E57.06670, 0, Mikhaylovka
+	LP, N53.96670, E54.78330, 0, Shafranovo
+
+[airport1]
+name = Ufa International Airport
+code = UWUU
+runways =
+	rwy1, 01, N54.5597, E55.8977, 28.7, 2215, 0, 0, 0
+	rwy2, 05, N54.5587, E55.8947, 60.0, 2380, 0, 0, 0
+	rwy3, 14, N54.5624, E55.9019, 152.3, 2115, 0, 0, 0
+	rwy4, 14L, N54.5668, E55.8753, 150.9, 8245, 0, 0, 394
+	rwy5, 14R, N54.5733, E55.8498, 151.2, 12339, 0, 0, 370

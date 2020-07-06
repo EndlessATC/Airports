@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 876
+usa = true
+transition = 18001
+center = N53.8911018372, W92.1964035034
+magneticvar = -0.214
+beacons =
+	4M, N54.16890, W93.56320, 0, Red Sucker Lake
+	ZSJ, N53.06840, W93.34460, 0, Sandy Lake
+
+line1 =
+	N53.76606, W90.35718
+	N53.78901, W90.34365
+	N53.83491, W90.32109
+	N53.86797, W90.28989
+	N53.87007, W90.25176
+	N53.85625, W90.22695
+
+line2 =
+	N53.75654, W90.27456
+	N53.76606, W90.35718
+	N53.76606, W90.35718
+	N53.76606, W90.35718
+	N53.76606, W90.35718
+
+line3 =
+	N53.89214, W94.13076
+	N53.88223, W94.04775
+	N53.84663, W94.00215
+	N53.79849, W94.01396
+	N53.75879, W94.10273
+
+line4 =
+	N54.83472, W93.92271
+	N54.80791, W93.77749
+	N54.79238, W93.69033
+	N54.78760, W93.64546
+	N54.77905, W93.64736
+	N54.75835, W93.70239
+	N54.75835, W93.83496
+	N54.74375, W93.91201
+	N54.70908, W93.93369
+	N54.67080, W93.98896
+	N54.63555, W94.15742
+
+line5 =
+	N54.84990, W94.10986
+	N54.84658, W94.01196
+	N54.83472, W93.92271
+	N54.83472, W93.92271
+	N54.83472, W93.92271
+	N54.83472, W93.92271
+
+[airport1]
+name = Sachigo Lake Airport
+code = CZPB

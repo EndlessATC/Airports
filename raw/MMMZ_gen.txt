@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 38
+center = N23.1613998413, W106.26599884
+magneticvar = 8.296
+beacons =
+	MZT, N23.16050, W106.27100, 0, Mazatlan
+
+line1 =
+	N24.01611, W107.08486
+	N23.88125, W106.93550
+	N23.61069, W106.72876
+	N23.44946, W106.56650
+	N23.19561, W106.40225
+	N23.06094, W106.23457
+	N22.82905, W106.02173
+	N22.77700, W105.94336
+	N22.62749, W105.79180
+	N22.32690, W105.64551
+
+[airport1]
+name = General Rafael Buelna International Airport
+code = MMMZ
+runways =
+	rwy1, 08, N23.162, W106.278, 93.0, 8858, 0, 0, 19

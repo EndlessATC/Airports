@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1211
+usa = true
+transition = 18001
+center = N56.653301239, W111.222000122
+magneticvar = 16.273
+beacons =
+	YMM, N56.64720, W111.12200, 0, Fort Mcmurray
+	MM, N56.65390, W111.33600, 0, Fort Mcmurray
+	ZMC, N56.65330, W111.09200, 0, Sapray
+
+line1 =
+	N55.71557, W112.64451
+	N55.78895, W112.61397
+	N55.86780, W112.64808
+	N55.94661, W112.65831
+	N56.02544, W112.64467
+	N56.09820, W112.61038
+	N56.16494, W112.55548
+	N56.25574, W112.57951
+	N56.37056, W112.68255
+	N56.46397, W112.64997
+	N56.53596, W112.48176
+	N56.57277, W112.25650
+	N56.57448, W111.97417
+	N56.61492, W111.72798
+	N56.69414, W111.51786
+	N56.79785, W111.42257
+	N56.92606, W111.44211
+	N57.02350, W111.48769
+	N57.09016, W111.55921
+	N57.16920, W111.61217
+	N57.26064, W111.64659
+	N57.33666, W111.65734
+	N57.39732, W111.64442
+	N57.51298, W111.57039
+
+[airport1]
+name = Fort McMurray Airport
+code = CYMM
+runways =
+	rwy1, 08, N56.6532, W111.242, 90.0, 7503, 0, 500, 1205

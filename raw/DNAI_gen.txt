@@ -1,0 +1,82 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 170
+center = N4.8725, E8.093
+magneticvar = -2.396
+beacons =
+	CAL, N4.92187, E8.32004, 0, Calabar
+	CR, N4.96792, E8.34730, 0, Calabar
+
+line1 =
+	N4.52734, E7.22734
+	N4.39512, E7.14043
+	N4.38765, E7.20391
+	N4.41816, E7.30078
+	N4.48721, E7.32793
+	N4.49893, E7.27139
+	N4.52734, E7.22734
+
+line2 =
+	N4.39067, E6.92324
+	N4.39731, E7.01338
+	N4.51440, E7.15469
+	N4.61558, E7.16416
+	N4.68584, E7.08691
+	N4.71616, E7.07656
+	N4.68408, E7.14385
+	N4.61206, E7.20674
+	N4.54766, E7.28438
+	N4.55522, E7.45986
+	N4.59492, E7.50947
+	N4.64546, E7.51738
+	N4.65518, E7.53076
+	N4.56094, E7.56563
+	N4.52534, E7.64424
+	N4.52227, E7.80078
+	N4.55537, E8.02852
+	N4.55762, E8.29307
+	N4.65610, E8.32803
+	N4.90747, E8.23379
+	N4.92397, E8.25273
+	N4.82476, E8.34209
+	N4.81377, E8.39365
+	N4.74624, E8.43135
+	N4.72471, E8.51484
+	N4.75781, E8.54375
+	N4.75522, E8.55586
+	N4.75210, E8.57051
+	N4.60586, E8.53281
+	N4.57187, E8.53955
+	N4.52622, E8.57441
+	N4.51636, E8.65625
+	N4.55024, E8.68965
+	N4.67100, E8.66035
+	N4.64570, E8.70791
+	N4.58003, E8.76191
+	N4.57344, E8.80713
+	N4.57925, E8.85645
+	N4.57275, E8.88945
+	N4.55376, E8.91826
+	N4.43516, E8.90283
+	N4.35781, E8.91357
+	N4.29023, E8.93203
+	N4.23042, E8.97705
+	N4.09160, E9.00010
+	N4.04106, E9.11387
+	N3.99785, E9.24912
+
+[airport1]
+name = Akwa Ibom International Airport
+code = DNAI
+
+[airport2]
+name = Margaret Ekpo International Airport
+code = CA
+runways =
+	rwy1, 03, N4.96617, E8.34229, 27.0, 8040, 0, 0, 201
+inboundbeacon = CR

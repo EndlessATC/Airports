@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 58
+center = N3.77538990974, E103.208999634
+magneticvar = 0.039
+beacons =
+	VKN, N3.77617, E103.21000, 0, Kuantan
+	PK, N3.38306, E103.42300, 0, Pekan
+	VKE, N4.54806, E103.42300, 0, Kerteh
+
+line1 =
+	N2.87173, E104.18477
+	N2.85684, E104.16982
+
+line2 =
+	N2.83657, E103.48516
+	N2.93311, E103.43945
+	N3.26060, E103.44502
+	N3.37856, E103.42949
+	N3.52061, E103.45352
+	N3.67109, E103.37334
+	N3.76914, E103.36201
+	N3.97686, E103.42051
+	N4.39326, E103.46875
+	N4.66948, E103.45391
+
+[airport1]
+name = Kuantan Airport
+code = WMKD
+runways =
+	rwy1, 18, N3.78832, E103.21, 183.0, 9200, 0, 0, 57

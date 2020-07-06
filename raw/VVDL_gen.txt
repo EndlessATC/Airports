@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3156
+center = N11.75, E108.366997
+magneticvar = -0.235
+beacons =
+	DL, N11.75000, E108.32500, 0, Dalat
+	CL, N11.94670, E108.41400, 0, Camly
+	CR, N12.00020, E109.21600, 0, Cam Ranh
+	PHT, N10.92780, E108.07000, 0, Phanthiet
+	NG, N12.22640, E109.20100, 0, Nhatrang
+
+line1 =
+	N10.89727, E108.09492
+	N10.92017, E108.17617
+	N10.93428, E108.27168
+	N11.04072, E108.41855
+	N11.15596, E108.55127
+	N11.19927, E108.70029
+	N11.31543, E108.82080
+	N11.33638, E108.98672
+	N11.46836, E109.01846
+	N11.59268, E109.03965
+	N11.60107, E109.13252
+	N11.66475, E109.17324
+	N11.72485, E109.19863
+	N11.77344, E109.19268
+	N11.83711, E109.15752
+	N11.91201, E109.16729
+	N11.97246, E109.19990
+	N11.99902, E109.19912
+	N12.01045, E109.21455
+	N11.95884, E109.22021
+	N11.90869, E109.24727
+	N11.95454, E109.25918
+	N11.99287, E109.25625
+	N12.07290, E109.21572
+	N12.41538, E109.20684
+	N12.39116, E109.30469
+	N12.64580, E109.21895
+	N12.70903, E109.27402
+
+line2 =
+	N12.67075, E109.38145
+	N12.59961, E109.44492
+	N12.71904, E109.42002
+
+[airport1]
+name = Lien Khuong Airport
+code = VVDL

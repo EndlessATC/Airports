@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2156
+center = S22.5496006012, W55.7025985718
+magneticvar = -14.588
+beacons =
+	PTP, S22.55020, W55.70720, 0, Ponta Pora
+	PJC, S22.64190, W55.83330, 0, Pedro Juan Caballero
+	DOU, S22.19730, W54.92830, 0, Doura
+
+[airport1]
+name = Ponta Porã Airport
+code = SBPP

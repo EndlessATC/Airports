@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 330
+center = N11.918614, E75.547211
+magneticvar = -2.091
+beacons =
+	CL, N11.14270, E75.94780, 0, Calicut
+	CLC, N11.13510, E75.95480, 0, Calicut
+
+line1 =
+	N12.84458, E74.86826
+	N12.56455, E74.94551
+	N12.05752, E75.19668
+	N12.02334, E75.22979
+	N11.95845, E75.31465
+	N11.81221, E75.42266
+	N11.70312, E75.52451
+	N11.46841, E75.64609
+	N11.36177, E75.72383
+	N11.05757, E75.84463
+
+[airport1]
+name = Kannur International Airport
+code = VOKN

@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 648
+center = S34.0056, E22.378902
+magneticvar = -25.464
+beacons =
+	GGV, S34.00730, E22.37760, 0, George
+	GG, S34.00200, E22.48560, 0, George
+	OH, S33.60170, E22.18580, 0, Oudtshoorn
+	BH, S33.61690, E21.79940, 0, Badshoogte
+	PY, S34.09050, E23.32600, 0, Plettenberg Bay
+
+line1 =
+	S34.36748, E20.98984
+	S34.36465, E21.06016
+	S34.40703, E21.24893
+	S34.40820, E21.34980
+	S34.37305, E21.55322
+	S34.37266, E21.78896
+	S34.06914, E22.24551
+	S34.05381, E22.41445
+	S34.01006, E22.55381
+	S34.01025, E22.73555
+	S34.06318, E22.92559
+	S34.08115, E23.26816
+	S34.06895, E23.35039
+	S33.98516, E23.58555
+	S33.99277, E23.69785
+
+[airport1]
+name = George Airport
+code = FAGG
+runways =
+	rwy1, 11, S34.0059, E22.3677, 89.0, 6562, 0, 0, 622

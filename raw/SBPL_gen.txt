@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1263
+center = S9.36240959167, W40.5690994263
+magneticvar = -22.221
+beacons =
+	PTL, S9.36767, W40.56750, 0, Petrolina
+	PTL, S9.36317, W40.56130, 0, Petrolina
+
+line1 =
+	S9.69393, W41.55438
+	S9.67636, W41.33528
+	S9.64303, W41.25290
+	S9.56846, W41.17497
+	S9.45270, W41.10159
+	S9.40568, W41.00323
+	S9.43829, W40.81817
+
+line2 =
+	S9.43829, W40.81817
+	S9.47436, W40.67082
+	S9.45658, W40.55202
+	S9.39695, W40.41264
+	S9.29308, W40.31973
+	S9.14502, W40.27322
+	S9.10161, W40.21229
+	S9.09531, W40.14806
+	S9.08828, W40.07773
+	S9.05805, W40.00499
+	S9.02198, W39.94882
+	S8.98018, W39.90921
+	S8.92395, W39.88782
+	S8.85326, W39.88469
+	S8.80902, W39.83485
+	S8.79125, W39.73837
+	S8.74928, W39.68768
+	S8.68293, W39.68277
+	S8.61958, W39.60081
+	S8.55922, W39.44175
+
+[airport1]
+name = Senador Nilo Coelho Airport
+code = SBPL

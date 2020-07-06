@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 256
+center = N56.2300987244, E43.7840003967
+magneticvar = 11.150
+beacons =
+	UV, N56.25170, E43.79500, 0, Nizhny Novgorod
+	BO, N56.20500, E43.77830, 0, Nizhny Novgorod
+	ST, N56.27500, E43.79830, 0, Nizhny Novgorod
+	NG, N56.17670, E43.76500, 0, Nizhny Novgorod
+	RP, N55.80000, E43.16670, 0, Sosnovskoye
+	MB, N55.60000, E43.78330, 0, Chernukha
+	OK, N56.00000, E45.03330, 0, Lyskovo
+	UD, N55.56670, E44.91670, 0, Buturlino
+
+line1 =
+	N56.67499, E43.43242
+	N56.73344, E43.34390
+	N56.81426, E43.28648
+	N56.93699, E43.23067
+	N57.02386, E43.17497
+	N57.07489, E43.11936
+	N57.11889, E43.08851
+	N57.15584, E43.08241
+	N57.21299, E43.10396
+
+line2 =
+	N56.67499, E43.43242
+	N56.49640, E43.65690
+	N56.40353, E43.83684
+	N56.33692, E44.04696
+	N56.27362, E44.16731
+	N56.21362, E44.19780
+	N56.17967, E44.25811
+	N56.17166, E44.34833
+	N56.14037, E44.45086
+	N56.08575, E44.56579
+	N56.08247, E44.77611
+	N56.13061, E45.08183
+	N56.13704, E45.28089
+	N56.10185, E45.37328
+	N56.10391, E45.44284
+	N56.14329, E45.48945
+	N56.15957, E45.56014
+	N56.15275, E45.65492
+	N56.16649, E45.73677
+	N56.20083, E45.80571
+	N56.19884, E45.87227
+
+[airport1]
+name = Nizhny Novgorod Strigino International Airport
+code = UWGG
+runways =
+	rwy1, 06, N56.21, E43.7864, 67.9, 1640, 0, 0, 0
+	rwy2, 15, N56.2152, E43.783, 159.4, 1969, 0, 0, 0
+	rwy3, 18L, N56.2416, E43.79, 191.0, 8232, 0, 0, 253
+	rwy4, 18R, N56.242, E43.7867, 191.0, 9203, 0, 0, 256

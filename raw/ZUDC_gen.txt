@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 14472
+metric = true
+center = N29.323056, E100.053333
+
+line1 =
+	N30.10235, E99.01828
+	N29.84913, E99.03864
+	N29.71695, E99.00391
+	N29.55075, E99.01404
+	N29.25049, E99.09641
+	N28.64120, E99.14587
+	N28.36018, E99.22137
+
+line2 =
+	N28.63184, E98.72672
+	N28.47826, E98.80930
+
+[airport1]
+name = Daocheng Yading Airport
+code = ZUDC

@@ -1,0 +1,87 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1199
+usa = true
+transition = 18001
+center = N40.27590179, W79.40480042
+magneticvar = -8.513
+beacons =
+	BHU, N40.37550, W79.27170, 0, Benje
+	MKP, N40.35070, W79.78130, 0, Mckeesport
+	IHD, N39.97420, W79.35840, 0, Indian Head
+	SYS, N40.08570, W78.91650, 0, Stoystown
+	JST, N40.31670, W78.83420, 0, Johnstown
+	INP, N40.63190, W79.06590, 0, Indiana
+	VV, N39.88280, W79.74470, 0, Camor
+	AGC, N40.27870, W80.04090, 0, Allegheny
+	REC, N40.54650, W78.74700, 0, Revloc
+	MMJ, N40.48820, W80.19390, 0, Montour
+	GRV, N39.63500, W79.05050, 0, Grantsville
+	MGW, N39.55670, W79.86040, 0, Morgantown
+	CBE, N39.64820, W78.74730, 0, Cumberland
+	EWC, N40.82520, W80.21160, 0, Ellwood City
+	TON, N40.73510, W78.33130, 0, Tyrone
+	UCP, N41.02370, W80.41480, 0, Castle
+
+line1 =
+	N41.26420, W79.81641
+	N41.22069, W79.74557
+	N41.15470, W79.68151
+	N41.06633, W79.62426
+	N41.01212, W79.60384
+	N40.99212, W79.62020
+	N40.96592, W79.58746
+	N40.93854, W79.52276
+	N40.90562, W79.51496
+	N40.82376, W79.54256
+	N40.63680, W79.69826
+	N40.51941, W79.82980
+	N40.45608, W79.94617
+	N40.44771, W79.99087
+
+line2 =
+	N40.44771, W79.99087
+	N40.52158, W80.14898
+	N40.58447, W80.22267
+	N40.66101, W80.26468
+	N40.68620, W80.34401
+	N40.64695, W80.51908
+	N40.60326, W80.63753
+	N40.56298, W80.65905
+	N40.51156, W80.62319
+	N40.44521, W80.60409
+	N40.36389, W80.60182
+	N40.18525, W80.66827
+	N39.90914, W80.80351
+	N39.73551, W80.87219
+	N39.66430, W80.87431
+
+line3 =
+	N39.63921, W78.32537
+	N39.68574, W78.18114
+	N39.67789, W78.09779
+	N39.63122, W78.02720
+	N39.60880, W77.95570
+	N39.61071, W77.88325
+
+line4 =
+	N39.32049, W78.81803
+	N39.44723, W78.70545
+	N39.53286, W78.57497
+	N39.53335, W78.49554
+	N39.55614, W78.46027
+	N39.60146, W78.44270
+	N39.62787, W78.40676
+	N39.63921, W78.32537
+
+[airport1]
+name = Arnold Palmer Regional Airport
+code = KLBE
+runways =
+	rwy1, 03, N40.2734, W79.4008, 19.6, 3596, 0, 0, 1141
+	rwy2, 05, N40.2681, W79.417, 45.6, 7001, 0, 0, 1184

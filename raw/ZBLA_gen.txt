@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2169
+metric = true
+center = N49.2050018311, E119.824996948
+magneticvar = -9.427
+beacons =
+	HLD, N49.20170, E119.82300, 0, Hailar
+	HL, N49.21170, E119.79500, 0, Dongshan
+
+line1 =
+	N50.15492, E119.32608
+	N50.06640, E119.25983
+	N50.01338, E119.14749
+	N49.97886, E118.97954
+	N49.96284, E118.75599
+	N49.84450, E118.45151
+
+line2 =
+	N49.31947, E118.05660
+	N49.33234, E118.17489
+	N49.41213, E118.32335
+	N49.43652, E118.43962
+	N49.40549, E118.52355
+	N49.34727, E118.58256
+	N49.26195, E118.61677
+	N49.21245, E118.74679
+	N49.19198, E119.08568
+	N49.19927, E119.23213
+	N49.22609, E119.33724
+	N49.27487, E119.44979
+	N49.27462, E119.71004
+	N49.22526, E120.11787
+	N49.25630, E120.51810
+	N49.36766, E120.91074
+	N49.47277, E121.21589
+	N49.57160, E121.43345
+
+[airport1]
+name = Dongshan Airport
+code = ZBLA
+runways =
+	rwy1, 09, N49.2037, E119.807, 83.8, 8530, 0, 0, 2169

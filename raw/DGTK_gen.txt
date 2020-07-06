@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 21
+center = N4.89605998993, W1.77476000786
+magneticvar = -5.252
+beacons =
+	TI, N4.91308, W1.76490, 0, Takoradi
+
+line1 =
+	N5.01372, W2.72305
+	N4.92935, W2.39893
+	N4.87407, W2.26641
+	N4.76406, W2.09019
+	N4.76245, W2.00186
+	N4.88037, W1.77686
+	N4.98086, W1.63848
+	N5.03799, W1.50166
+	N5.18267, W1.06431
+	N5.22671, W0.79771
+	N5.31855, W0.66943
+
+[airport1]
+name = Takoradi Airport
+code = DGTK
+runways =
+	rwy1, 04, N4.88918, W1.77867, 30.0, 5745, 0, 656, 17

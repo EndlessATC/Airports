@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2555
+center = S15.6791000366, E34.9739990234
+magneticvar = -7.122
+beacons =
+	CL, S15.68190, E34.95810, 0, Chileka
+	NC, S15.67410, E34.95390, 0, Chileka
+	VCL, S15.67380, E34.91650, 0, Chileka
+
+line1 =
+	S14.68389, E35.29326
+	S14.73311, E35.27002
+	S14.73887, E35.24932
+	S14.68184, E35.19727
+
+line2 =
+	S14.75755, E35.27777
+	S14.92059, E35.29338
+	S15.05681, E35.25075
+	S15.30263, E35.10735
+	S15.37193, E34.96007
+	S15.44469, E34.87449
+	S15.54396, E34.80152
+	S15.62401, E34.75781
+	S15.68478, E34.74334
+	S15.78410, E34.75088
+	S15.99086, E34.79532
+	S16.13007, E34.88948
+	S16.22521, E34.92524
+	S16.32262, E34.93392
+	S16.39228, E34.97516
+	S16.43409, E35.04905
+	S16.51646, E35.13391
+	S16.63924, E35.22982
+
+line3 =
+	S16.50752, E33.88509
+	S16.59862, E33.98416
+
+[airport1]
+name = Chileka International Airport
+code = FWCL
+runways =
+	rwy1, 10, S15.6773, E34.9587, 97.0, 7628, 0, 0, 2472
+	rwy2, 15, S15.6712, E34.9674, 141.0, 4501, 0, 0, 2468

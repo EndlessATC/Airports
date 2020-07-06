@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 410
+metric = true
+center = N52.1949996948, E77.0738983154
+magneticvar = 8.551
+beacons =
+	PW, N52.22790, E77.12370, 0, Pavlodar
+	WL, N52.16180, E77.02440, 0, Pavlodar
+
+line1 =
+	N51.22530, E78.04963
+	N51.33529, E77.95982
+	N51.42371, E77.83683
+	N51.49872, E77.69059
+	N51.56032, E77.52098
+	N51.65101, E77.44120
+	N51.77082, E77.45112
+	N51.88624, E77.33355
+	N51.99724, E77.08850
+	N52.10827, E76.96009
+	N52.21929, E76.94820
+	N52.30337, E76.89963
+	N52.36045, E76.81426
+	N52.41106, E76.77974
+	N52.45520, E76.79617
+	N52.50225, E76.79441
+	N52.55222, E76.77457
+	N52.58875, E76.73411
+	N52.61185, E76.67303
+	N52.63963, E76.65427
+	N52.67213, E76.67794
+	N52.70417, E76.67949
+	N52.73580, E76.65902
+	N52.81616, E76.54978
+	N52.82727, E76.51381
+	N52.83013, E76.49371
+	N52.85024, E76.47934
+	N52.88504, E76.48498
+	N52.89874, E76.46089
+	N52.90525, E76.31434
+	N52.93008, E76.26029
+	N52.97994, E76.24189
+	N53.01459, E76.14432
+	N53.03408, E75.96749
+	N53.07774, E75.85463
+	N53.14565, E75.80564
+
+[airport1]
+name = Pavlodar Airport
+code = UASP
+runways =
+	rwy1, 03, N52.1867, E77.0617, 42.8, 8202, 0, 0, 381

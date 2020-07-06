@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3897
+center = N7.1265, W73.1848
+magneticvar = -7.145
+beacons =
+	BGA, N7.13156, W73.18440, 0, Bucaramanga
+	PIE, N6.87755, W73.08980, 0, Piedecuesta
+	EJA, N7.02852, W73.80550, 0, Barrancabermeja
+	CUC, N7.93346, W72.51350, 0, Cucuta
+	UC, N7.95306, W72.52920, 0, Cucuta
+
+line1 =
+	N6.66724, W74.31709
+	N6.74925, W74.17818
+	N6.84764, W74.05348
+	N6.96239, W73.94310
+	N7.07828, W73.90024
+	N7.19532, W73.92491
+	N7.38523, W73.90683
+	N7.64806, W73.84606
+	N7.84583, W73.82983
+	N7.97853, W73.85817
+	N8.07119, W73.85169
+
+[airport1]
+name = Palonegro Airport
+code = SKBG
+runways =
+	rwy1, 16, N7.13606, W73.1884, 159.0, 7381, 0, 0, 3902

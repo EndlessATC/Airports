@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 243
+center = N27.3925991058, W109.833000183
+magneticvar = 9.567
+beacons =
+	CEN, N27.39480, W109.83700, 0, Obregon
+
+line1 =
+	N27.96699, W111.12139
+	N27.92598, W110.98608
+	N27.88887, W110.92080
+	N27.91758, W110.84863
+	N27.91519, W110.75903
+	N27.86421, W110.52988
+	N27.79565, W110.57827
+	N27.65391, W110.61548
+	N27.54434, W110.59268
+	N27.45015, W110.56064
+	N27.39561, W110.51938
+	N27.32266, W110.47778
+	N27.23330, W110.37729
+	N27.16221, W110.27715
+	N27.07935, W109.94399
+	N27.02866, W109.92563
+	N26.97817, W109.92173
+	N26.88340, W109.89092
+	N26.77012, W109.82837
+	N26.70293, W109.75479
+	N26.69683, W109.67607
+	N26.71035, W109.48286
+	N26.53389, W109.27627
+	N26.44995, W109.24326
+	N26.40469, W109.24062
+
+[airport1]
+name = Ciudad Obregón International Airport
+code = MMCN
+runways =
+	rwy1, 13, N27.4002, W109.841, 137.0, 7546, 0, 0, 205

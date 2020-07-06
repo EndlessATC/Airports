@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 57
+center = S21.698299408, W41.301700592
+magneticvar = -22.158
+beacons =
+	CPO, S21.69730, W41.30670, 0, Campos
+	STG, S22.03310, W41.07420, 0, Tome
+	MAC, S22.34530, W41.76140, 0, Macae
+	MAC, S22.34490, W41.76890, 0, Macae
+
+line1 =
+	S22.64463, W41.99756
+	S22.58066, W41.98042
+	S22.30967, W41.70552
+	S22.24365, W41.58291
+	S22.08438, W41.12251
+	S21.99902, W41.00029
+	S21.92031, W40.98784
+	S21.61084, W41.02158
+	S21.59688, W41.02314
+	S21.50566, W41.04727
+	S21.23789, W40.95454
+	S21.03135, W40.82876
+	S20.90605, W40.78926
+	S20.84619, W40.72705
+	S20.78379, W40.59658
+
+line2 =
+	S21.71361, W42.28041
+	S21.60049, W41.99084
+	S21.58168, W41.85467
+	S21.61940, W41.77530
+	S21.63150, W41.68419
+	S21.61806, W41.58131
+	S21.64566, W41.46705
+	S21.71428, W41.34137
+	S21.71428, W41.21342
+	S21.61083, W41.02160
+
+[airport1]
+name = Bartolomeu Lisandro Airport
+code = SBCP

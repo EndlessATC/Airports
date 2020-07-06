@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7661
+center = N15.2918996811, E38.9107017517
+magneticvar = 2.162
+beacons =
+	ASM, N15.28400, E38.90090, 0, Asmara
+	AS, N15.28130, E38.88520, 0, Asmara
+	MS, N15.66570, E39.31580, 0, Massawa
+
+line1 =
+	N16.10449, E40.04814
+	N16.08096, E40.03906
+	N16.04268, E39.99609
+	N16.02266, E40.01240
+	N15.98574, E40.11006
+	N16.08242, E40.07646
+	N16.10449, E40.04814
+
+line2 =
+	N15.83848, E40.09678
+	N15.87549, E40.04258
+	N15.88940, E39.95674
+	N15.82827, E40.00049
+	N15.80659, E39.97939
+	N15.78906, E39.94521
+	N15.74453, E39.93994
+	N15.73325, E40.01631
+	N15.67661, E40.07051
+	N15.66587, E40.06348
+	N15.65562, E40.02393
+	N15.69614, E39.94746
+	N15.61245, E39.97520
+	N15.59092, E40.09512
+
+line3 =
+	N15.15195, E40.08408
+	N15.21709, E40.05781
+	N15.33452, E40.04102
+	N15.39312, E39.97832
+	N15.47031, E39.86377
+	N15.41357, E39.81348
+	N15.31885, E39.79033
+	N15.24531, E39.81563
+	N15.20127, E39.81943
+	N15.12485, E39.78555
+	N15.21367, E39.72080
+	N15.45254, E39.63125
+	N15.52251, E39.57881
+	N15.53213, E39.50654
+	N15.78667, E39.42227
+	N15.92109, E39.29893
+	N16.19370, E39.22256
+
+[airport1]
+name = Asmara International Airport
+code = HHAS
+runways =
+	rwy1, 07, N15.2841, E38.8941, 74.3, 9842, 0, 0, 7661
+	rwy2, 12, N15.3, E38.9064, 119.5, 5951, 0, 0, 0

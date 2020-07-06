@@ -1,0 +1,120 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 327
+center = N52.4538993835, W1.74802994728
+magneticvar = -2.267
+beacons =
+	BHX, N52.45450, W1.75239, 0, Birmingham
+	HON, N52.35670, W1.66361, 0, Honiley
+	LIC, N52.74670, W1.71944, 0, Lichfield
+	WBA, N52.51590, W2.26176, 0, Wolverhampton
+	WOL, N52.51580, W2.26182, 0, Wolverhampton
+	TNL, N52.81450, W1.76667, 0, Tatenhill
+	LE, N52.60640, W1.03500, 0, Leicester
+	DTY, N52.18030, W1.11389, 0, Daventry
+	NN, N52.29910, W0.79760, 0, Northampton
+	TNT, N53.05390, W1.67000, 0, Trent
+	GOS, N51.89220, W2.16793, 0, Gloucestershire
+	GST, N51.89200, W2.16790, 0, Gloucestershire
+	NOT, N52.92170, W1.07933, 0, Nottingham
+	SWB, N52.79800, W2.66254, 0, Shawbury
+	OX, N51.83250, W1.32324, 0, Oxford
+	OX, N51.83240, W1.32282, 0, Oxford
+	BZ, N51.74920, W1.60162, 0, Brize Norton
+	BZN, N51.74820, W1.60353, 0, Brize Norton
+	SH, N52.24340, W2.87984, 0, Shobdon
+	CTM, N52.73540, W0.65077, 0, Cottesmore
+	SLP, N52.83360, W2.77361, 0, Sleap
+	WCO, N51.85310, W0.96250, 0, Westcott
+	FFA, N51.68170, W1.79761, 0, Fairford
+	WIT, N52.60780, W0.49867, 0, Wittering
+	CFD, N52.07420, W0.61079, 0, Cranfield
+	KMB, N51.66917, W2.06889, 0, Kemble
+	WHI, N53.18500, W2.62306, 0, Whitegate
+	HEN, N51.75970, W0.79028, 0, Henton
+	CWL, N53.02630, W0.48898, 0, Cranwell
+	CWZ, N53.02860, W0.48550, 0, Cranwell
+	GAM, N53.28140, W0.94722, 0, Gamston
+	WAD, N53.16530, W0.52683, 0, Waddington
+	BNN, N51.72610, W0.54972, 0, Bovingdon
+	CHT, N51.62310, W0.51833, 0, Chiltern
+
+line1 =
+	N52.97158, E0.12441
+	N52.90562, E0.04590
+
+line2 =
+	N51.47480, W2.79082
+	N51.53726, W2.68721
+	N51.60859, W2.59028
+	N51.74072, W2.43306
+	N51.69521, W2.53936
+	N51.62300, W2.66768
+	N51.58110, W2.74214
+	N51.53887, W2.97852
+	N51.49580, W3.08037
+
+line3 =
+	N53.29790, W3.64590
+	N53.31055, W3.52959
+	N53.34067, W3.42773
+	N53.34717, W3.32617
+	N53.26030, W3.09756
+	N53.39468, W3.16558
+	N53.42686, W3.06475
+	N53.30537, W2.91855
+	N53.29258, W2.86416
+	N53.31021, W2.74951
+	N53.33071, W2.79375
+	N53.33193, W2.84541
+	N53.35024, W2.91309
+	N53.38921, W2.96997
+
+line4 =
+	N51.68589, W2.02191
+	N51.64848, W1.93928
+	N51.65207, W1.82430
+	N51.70018, W1.56199
+	N51.70480, W1.43399
+	N51.72532, W1.36883
+	N51.76317, W1.32382
+	N51.75896, W1.28154
+	N51.71271, W1.24191
+	N51.68196, W1.23881
+	N51.64982, W1.22015
+	N51.62770, W1.17028
+	N51.58657, W1.12391
+	N51.52523, W1.11021
+	N51.48461, W1.06866
+	N51.46471, W0.99924
+	N51.47882, W0.94394
+	N51.52698, W0.90281
+	N51.55411, W0.84142
+	N51.56029, W0.75977
+	N51.54931, W0.71455
+	N51.52125, W0.70574
+	N51.50394, W0.67690
+	N51.49412, W0.60365
+
+line5 =
+	N51.45474, W0.31359
+	N51.47975, W0.24486
+	N51.50094, W0.04875
+
+[airport1]
+name = Birmingham International Airport
+code = EGBB
+runways =
+	rwy1, 15, N52.4656, W1.76111, 148.0, 10013, 1069, 987, 305
+
+[airport2]
+name = East Midlands Airport
+code = NX
+runways =
+	rwy2, 09, N52.8306, W1.34957, 88.0, 9491, 590, 426, 306
+inboundbeacon = NOT

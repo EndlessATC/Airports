@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 89
+center = S2.906425, W40.357338
+
+line1 =
+	S3.19736, W39.35269
+	S3.12559, W39.51118
+	S3.05625, W39.60942
+	S2.98584, W39.77183
+	S2.86152, W39.96470
+	S2.81318, W40.23535
+	S2.79561, W40.47456
+	S2.86963, W40.87559
+	S2.88613, W41.19453
+	S2.93623, W41.31821
+	S2.91650, W41.47993
+
+[airport1]
+name = Comandante Ariston Pessoa Airport
+code = JJD

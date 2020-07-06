@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 14
+usa = true
+center = S35.8978004456, E150.143997192
+magneticvar = 12.257
+beacons =
+	MRY, S35.89840, E150.14301, 0, Moruya
+	WLE, S35.56400, E149.17799, 0, Williamsdale
+	WLE, S35.56160, E149.17799, 0, Williamsdale
+	CCK, S35.46420, E149.19501, 0, Church Creek
+	CB, S35.29560, E149.20700, 0, Canberra
+	CB, S35.28140, E149.19600, 0, Canberra
+
+line1 =
+	S34.99385, E150.80918
+	S35.01289, E150.80459
+	S35.02041, E150.77461
+	S35.00713, E150.75605
+	S35.04189, E150.69736
+	S35.07666, E150.68096
+	S35.11973, E150.70566
+	S35.13457, E150.72217
+	S35.15518, E150.71465
+	S35.17773, E150.69033
+	S35.17764, E150.63447
+	S35.21426, E150.56748
+	S35.58418, E150.37412
+	S35.68232, E150.29219
+	S35.83359, E150.19531
+	S35.97061, E150.15850
+	S36.12041, E150.12891
+	S36.37266, E150.09531
+	S36.55039, E150.06279
+	S36.72275, E149.98818
+	S36.84551, E149.96025
+
+[airport1]
+name = Moruya Airport
+code = YMRY
+runways =
+	rwy1, 04, S35.9038, E150.14, 57.0, 2713, 0, 0, 12
+	rwy2, 18, S35.8888, E150.148, 192.0, 4997, 0, 0, 14

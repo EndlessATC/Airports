@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 416
+center = N43.5635986328, W6.0346198082
+magneticvar = -3.169
+beacons =
+	VES, N43.56460, W6.03067, 0, Asturias
+	AST, N43.55780, W6.02839, 0, Asturias
+	AV, N43.53910, W5.93053, 0, Asturias
+
+line1 =
+	N43.41572, W4.52305
+	N43.50186, W5.10527
+	N43.55317, W5.31572
+	N43.58247, W5.66582
+	N43.64507, W5.84668
+	N43.59492, W6.08013
+	N43.60386, W6.22412
+	N43.57891, W6.47568
+	N43.59238, W6.61729
+	N43.58564, W6.90068
+	N43.55396, W7.06099
+	N43.59463, W7.26196
+	N43.69580, W7.39932
+	N43.73994, W7.50361
+	N43.72734, W7.59458
+
+[airport1]
+name = Asturias Airport
+code = LEAS
+runways =
+	rwy1, 11, N43.5666, W6.04759, 109.0, 7218, 0, 0, 399

@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 591
+center = N1.66294002533, E7.4117398262
+magneticvar = -3.455
+beacons =
+	PR, N1.66600, E7.41236, 0, Principe
+
+line1 =
+	N1.69912, E7.41445
+	N1.68018, E7.38760
+	N1.60337, E7.33066
+	N1.56357, E7.34238
+	N1.54155, E7.38662
+	N1.56772, E7.42383
+	N1.63110, E7.45234
+	N1.66196, E7.45039
+	N1.68306, E7.43701
+	N1.69912, E7.41445
+
+[airport1]
+name = Principe Airport
+code = FPPR
+runways =
+	rwy1, 18, N1.66872, E7.4105, 168.0, 4331, 0, 0, 581

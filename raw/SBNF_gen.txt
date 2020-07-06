@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 18
+center = S26.879999, W48.651402
+magneticvar = -17.442
+beacons =
+	NVG, S26.87570, W48.65280, 0, Navegantes
+	GAB, S26.37270, W48.72430, 0, Gabi
+	JNV, S26.22230, W48.79800, 0, Joinville
+	BKO, S27.62180, W48.63250, 0, Boko
+	IL, S27.66150, W48.55920, 0, Cariano
+	XRO, S27.67030, W48.54670, 0, Florianopolis
+	FLN, S27.69170, W48.49810, 0, Florianopolis
+
+line1 =
+	S26.21875, W48.49761
+	S26.17031, W48.53975
+	S26.28965, W48.66577
+	S26.41377, W48.60308
+	S26.40156, W48.58442
+	S26.37969, W48.56807
+	S26.31318, W48.53110
+	S26.21875, W48.49761
+
+line2 =
+	S27.57480, W48.54219
+	S27.81221, W48.55459
+	S27.76699, W48.48589
+	S27.70703, W48.49678
+	S27.56631, W48.40957
+	S27.45146, W48.37793
+	S27.39961, W48.41489
+	S27.43633, W48.46475
+	S27.49551, W48.50518
+	S27.57480, W48.54219
+
+line3 =
+	S27.82520, W48.60566
+	S27.55791, W48.64258
+	S27.37275, W48.57197
+	S27.26387, W48.59551
+	S27.19600, W48.55415
+	S27.12344, W48.56836
+	S27.05801, W48.59341
+	S26.87813, W48.61567
+	S26.70293, W48.67773
+	S26.61240, W48.67651
+	S26.51914, W48.65815
+	S26.40645, W48.65161
+	S26.34834, W48.70068
+	S26.26865, W48.74829
+	S26.22695, W48.71377
+	S26.22578, W48.67900
+	S26.17939, W48.61943
+	S25.93545, W48.57632
+
+[airport1]
+name = Ministro Victor Konder International Airport
+code = SBNF

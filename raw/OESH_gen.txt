@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2363
+center = N17.4668998718, E47.1213989258
+magneticvar = 1.314
+beacons =
+	SHA, N17.47020, E47.13390, 0, Sharurah
+
+[airport1]
+name = Sharurah Airport
+code = OESH
+runways =
+	rwy1, 08, N17.4653, E47.1042, 85.0, 11975, 0, 0, 2336

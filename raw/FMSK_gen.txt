@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 33
+center = S22.1196994781, E48.0217018127
+magneticvar = -19.277
+beacons =
+	VSR, S22.11650, E48.02200, 0, Manakara
+
+line1 =
+	S21.34902, E48.35078
+	S21.84307, E48.17588
+	S22.39395, E47.93447
+	S22.46582, E47.90840
+	S22.74727, E47.85830
+	S22.99150, E47.80410
+
+line2 =
+	S22.01127, E47.16707
+	S21.97287, E47.16428
+	S21.93866, E47.10098
+	S21.89577, E46.97623
+	S21.85226, E46.90508
+	S21.78580, E46.87862
+
+[airport1]
+name = Manakara Airport
+code = FMSK
+runways =
+	rwy1, 05, S22.1242, E48.0186, 33.7, 3886, 0, 0, 33

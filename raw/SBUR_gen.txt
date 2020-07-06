@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2655
+center = S19.7647228241, W47.9661102295
+magneticvar = -19.235
+beacons =
+	URB, S19.76550, W47.95920, 0, Uberaba
+	FRC, S20.58370, W47.38250, 0, Franca
+	BRT, S20.58220, W48.59670, 0, Barretos
+
+line1 =
+	S20.28434, W47.07327
+	S20.47973, W46.74104
+
+line2 =
+	S20.28419, W47.07348
+	S20.11753, W47.32897
+	S20.03624, W47.42777
+	S20.00105, W47.45986
+	S19.99428, W47.51777
+	S20.01862, W47.59417
+	S20.02271, W47.65582
+	S19.99098, W47.69551
+	S19.97702, W47.74974
+	S19.98074, W47.81852
+	S20.01190, W47.86015
+	S20.05557, W47.86170
+	S20.08182, W47.90878
+	S20.08280, W47.99107
+	S20.12017, W48.05114
+	S20.11660, W48.10949
+	S20.08280, W48.17837
+	S20.09299, W48.25330
+	S20.13924, W48.36100
+	S20.14389, W48.71570
+	S20.15903, W48.81198
+	S20.23277, W48.85836
+	S20.37007, W48.88698
+	S20.42919, W48.91838
+	S20.41012, W48.95248
+	S20.33824, W48.97796
+	S20.21370, W48.99470
+	S20.18735, W49.03966
+	S20.25928, W49.11284
+	S20.29504, W49.16622
+	S20.29442, W49.19981
+
+[airport1]
+name = Mário de Almeida Franco Airport
+code = SBUR

@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 112
+center = N39.4552993774, W31.1313991547
+magneticvar = -12.233
+beacons =
+	FLO, N39.44610, W31.16770, 0, Flores
+	FRS, N39.45360, W31.21040, 0, Flores
+
+line1 =
+	N39.49678, W31.26084
+	N39.39409, W31.28296
+	N39.37598, W31.25762
+	N39.35894, W31.18135
+	N39.40693, W31.13711
+	N39.47944, W31.13862
+	N39.52085, W31.19985
+	N39.49678, W31.26084
+
+[airport1]
+name = Flores Airport
+code = LPFL
+runways =
+	rwy1, 18, N39.4615, W31.1331, 166.0, 4593, 262, 197, 98

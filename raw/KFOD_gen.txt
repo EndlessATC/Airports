@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1156
+usa = true
+transition = 18001
+center = N42.55149841, W94.19259644
+magneticvar = 1.321
+beacons =
+	FO, N42.51450, W94.30560, 0, Barro
+	FOD, N42.61120, W94.29480, 0, Fort Dodge
+	EAG, N42.70860, W93.91060, 0, Eagle Grove
+	EBS, N42.44130, W93.86920, 0, Webster City
+	CAV, N42.74580, W93.75880, 0, Clarion
+	POH, N42.74690, W94.64800, 0, Pocahontas
+	AXA, N43.08140, W94.27250, 0, Algona
+	EFW, N42.01360, W94.34270, 0, Jefferson
+	BNW, N42.05430, W93.85310, 0, Boone
+	SKI, N42.38050, W94.98250, 0, Sac City
+	EGQ, N43.10110, W94.70720, 0, Emmetsburg
+	CIN, N42.04500, W94.78520, 0, Carroll
+	IFA, N42.47660, W93.26550, 0, Iowa Falls
+	PRO, N41.83060, W94.16050, 0, Perry
+	HPT, N42.72550, W93.22490, 0, Hampton
+	SLB, N42.60040, W95.24430, 0, Storm Lake
+	FXY, N43.23530, W93.62110, 0, Forest City
+	MC, N43.05250, W93.32760, 0, Surff
+	MCW, N43.09470, W93.32990, 0, Mason City
+	PUF, N43.35110, W94.73780, 0, Puff
+	LTU, N43.12710, W95.13270, 0, Little Sioux
+	SPW, N43.16220, W95.20100, 0, Spencer
+	TNU, N41.78380, W93.10900, 0, Newton
+
+[airport1]
+name = Fort Dodge Regional Airport
+code = KFOD
+runways =
+	rwy1, 06, N42.5476, W94.2057, 65.0, 6548, 0, 0, 1079
+	rwy2, 12, N42.5553, W94.1961, 127.0, 5300, 0, 0, 1112

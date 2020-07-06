@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 351
+center = N3.37276, W59.789398
+
+line1 =
+	N3.46519, W60.82545
+	N3.45462, W60.66567
+	N3.42067, W60.61565
+	N3.31763, W60.56867
+	N3.14554, W60.52483
+	N2.94685, W60.57578
+	N2.72151, W60.72156
+	N2.54047, W60.80073
+	N2.40373, W60.81331
+
+[airport1]
+name = Lethem Airport
+code = SYLT
+runways =
+	rwy1, 07, N3.36839, W59.7964, 57.3, 5985, 0, 0, 0

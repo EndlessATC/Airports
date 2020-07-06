@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8530
+metric = true
+center = N50.1716209371, E127.308883667
+magneticvar = -12.029
+beacons =
+	QD, N50.10000, E127.33500, 0, Heihe
+	LZ, N50.37500, E127.42800, 0, Blagoveschensk
+	BLG, N50.39330, E127.42700, 0, Blagoveschensk
+	BM, N50.47500, E127.39700, 0, Blagoveschensk
+	WZ, N50.63330, E128.03300, 0, Srednebeloye
+
+line1 =
+	N49.36205, E129.12011
+	N49.37466, E129.06512
+	N49.41926, E129.02027
+	N49.44892, E128.93831
+	N49.46375, E128.81935
+	N49.49471, E128.77026
+	N49.54183, E128.79103
+	N49.57697, E128.76902
+	N49.60013, E128.70401
+	N49.59423, E128.52676
+	N49.55930, E128.23706
+	N49.56860, E127.99961
+	N49.62214, E127.81430
+	N49.67154, E127.71115
+	N49.71676, E127.69017
+	N49.76019, E127.63669
+	N49.80179, E127.55080
+	N49.87342, E127.50243
+	N49.97504, E127.49178
+	N50.07167, E127.51235
+	N50.20898, E127.59028
+
+line2 =
+	N50.20898, E127.59028
+	N50.29858, E127.39525
+	N50.35016, E127.33722
+	N50.39362, E127.35117
+	N50.42809, E127.34079
+	N50.45351, E127.30606
+	N50.49418, E127.30823
+	N50.55009, E127.34719
+	N50.62135, E127.34683
+	N50.70796, E127.30699
+	N50.82946, E127.19826
+	N50.98588, E127.02039
+	N51.10014, E126.92484
+
+[airport1]
+name = Heihe Airport
+code = ZYHE
+
+[airport2]
+name = Ignatyevo Airport
+code = BB
+runways =
+	rwy1, 18, N50.4378, E127.408, 168.3, 9256, 0, 0, 565
+inboundbeacon = BLG

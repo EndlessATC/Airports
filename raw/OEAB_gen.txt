@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6858
+center = N18.2404003143, E42.6566009521
+magneticvar = 2.105
+beacons =
+	ABH, N18.24190, E42.65690, 0, Abha
+	KAM, N18.29970, E42.79000, 0, Khamis Mushait
+
+line1 =
+	N18.45244, E41.43174
+	N18.25610, E41.50762
+	N18.00767, E41.65801
+	N17.88574, E41.75000
+	N17.66934, E42.05225
+	N17.43496, E42.29395
+	N17.25664, E42.33242
+
+[airport1]
+name = Abha Regional Airport
+code = OEAB
+runways =
+	rwy1, 13, N18.2499, E42.6443, 129.0, 10991, 0, 0, 6832

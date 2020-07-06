@@ -1,0 +1,74 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 639
+center = N45.0522003174, E33.9751014709
+magneticvar = 5.517
+beacons =
+	SMF, N45.05140, E33.97930, 0, Simferopol
+	F, N45.07610, E33.98180, 0, Simferopol
+	N, N45.02780, E33.96540, 0, Simferopol
+	SF, N45.10420, E33.99150, 0, Simferopol
+	SN, N45.00060, E33.95620, 0, Simferopol
+	NL, N44.96640, E33.61840, 0, Nikola
+	LE, N44.83310, E34.24840, 0, Lesnik
+	AL, N44.67470, E34.39680, 0, Alushta
+	DO, N45.37640, E33.36010, 0, Dobrushyn
+	JL, N44.48470, E34.13510, 0, Yalta
+	LB, N45.62480, E34.89680, 0, Liubymivka
+	DM, N45.47810, E35.05340, 0, Dmytrivka
+
+line1 =
+	N46.03286, E33.63672
+	N45.94707, E33.66484
+	N45.83794, E33.46621
+	N45.76523, E33.28008
+	N45.74922, E33.14229
+	N45.59302, E32.82803
+	N45.40381, E32.50801
+	N45.35039, E32.55186
+	N45.32808, E32.61133
+	N45.35898, E32.77266
+	N45.34814, E32.91865
+	N45.19478, E33.18691
+	N45.17075, E33.26152
+	N45.18784, E33.39248
+	N45.09766, E33.55518
+	N44.98149, E33.60117
+	N44.90781, E33.61221
+	N44.68052, E33.53008
+	N44.61860, E33.49131
+	N44.59683, E33.46270
+	N44.55366, E33.45068
+	N44.43320, E33.65586
+	N44.39893, E33.75566
+	N44.38760, E33.90996
+	N44.42383, E34.07441
+	N44.53843, E34.28174
+	N44.72168, E34.46992
+	N44.80713, E34.71689
+	N44.82358, E34.88779
+	N44.80264, E35.08770
+	N44.89634, E35.15479
+	N44.97842, E35.35781
+	N45.09849, E35.47256
+	N45.11934, E35.56953
+
+line2 =
+	N45.31089, E35.55801
+	N45.31631, E35.45752
+	N45.35361, E35.37393
+	N45.44692, E35.26016
+	N45.70098, E35.02285
+	N45.87881, E34.90664
+	N45.98735, E34.85732
+
+[airport1]
+name = Simferopol International Airport
+code = UKFF
+runways =
+	rwy1, 01L, N45.0361, E33.9697, 13.0, 12142, 0, 0, 598

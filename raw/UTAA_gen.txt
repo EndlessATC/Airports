@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 692
+metric = true
+center = N37.986801, E58.361
+magneticvar = 4.153
+beacons =
+	ASB, N37.98500, E58.35170, 0, Ashgabat
+	GH, N38.00330, E58.33500, 0, Ashgabat
+	AD, N38.00500, E58.30670, 0, Ashgabat
+	PQ, N37.95830, E58.41330, 0, Ashgabat
+	BRD, N37.49550, E57.32350, 0, Bojnord
+	BRD, N37.48910, E57.30570, 0, Bojnord
+
+[airport1]
+name = Ashgabat International Airport
+code = UTAA
+runways =
+	rwy1, 11, N37.978, E58.3579, 112.1, 5907, 990, 1965, 0
+	rwy2, 12L, N38.0002, E58.3431, 119.0, 12467, 0, 0, 682
+	rwy3, 12R, N37.9884, E58.3451, 119.3, 9806, 0, 0, 689

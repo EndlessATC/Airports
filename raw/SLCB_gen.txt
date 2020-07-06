@@ -1,0 +1,31 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8360
+center = S17.4211006165, W66.1771011353
+magneticvar = -7.041
+beacons =
+	CBA, S17.42130, W66.17900, 0, Cochabamba
+	CBB, S17.41360, W66.17710, 0, Cochabamba
+	R, S17.39940, W66.26460, 0, Cochabamba
+
+line1 =
+	S17.57660, W66.32292
+	S17.86227, W66.01863
+	S17.95162, W65.95995
+	S17.97818, W65.91615
+	S17.97167, W65.86768
+	S18.00856, W65.79321
+	S18.12913, W65.64250
+	S18.37123, W65.39019
+
+[airport1]
+name = Jorge Wilsterman International Airport
+code = SLCB
+runways =
+	rwy1, 04, S17.4298, W66.1841, 37.4, 8692, 0, 732, 8337
+	rwy2, 14, S17.409, W66.1911, 131.9, 12460, 328, 984, 8360

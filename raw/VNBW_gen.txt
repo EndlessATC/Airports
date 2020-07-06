@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 358
+center = N27.505685, E83.416293
+magneticvar = 0.157
+beacons =
+	BHW, N27.50860, E83.42670, 0, Bhairahawa
+	BWA, N27.50330, E83.43280, 0, Bhairahawa
+	GH, N26.73360, E83.44560, 0, Gorakhpur
+	PHR, N28.20060, E83.98440, 0, Pokhara
+
+[airport1]
+name = Gautam Buddha Airport
+code = VNBW
+runways =
+	rwy1, 10, N27.5067, E83.4087, 98.7, 4955, 0, 0, 358

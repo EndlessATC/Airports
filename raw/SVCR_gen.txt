@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 52
+center = N11.4149436951, W69.6809005737
+magneticvar = -10.105
+beacons =
+	CRO, N11.41420, W69.69230, 0, Coro
+	PRG, N11.78340, W70.13340, 0, Paraguana
+	PRG, N11.77690, W70.13920, 0, Paraguana
+	ADA, N10.61670, W69.28330, 0, Aguada Grande
+	PJG, N12.20120, W69.00950, 0, Curacao
+	HTO, N12.19000, W68.95500, 0, Hato
+
+line1 =
+	N12.15854, W68.82739
+	N12.23135, W69.01313
+	N12.34204, W69.07676
+	N12.37324, W69.11846
+	N12.38027, W69.15889
+	N12.29844, W69.15381
+	N12.14185, W68.99512
+	N12.04546, W68.80332
+	N12.05977, W68.75107
+	N12.15854, W68.82739
+
+line2 =
+	N11.30937, W68.61621
+	N11.43174, W68.82798
+	N11.46104, W69.05459
+	N11.51846, W69.23257
+	N11.49951, W69.52573
+	N11.48545, W69.56982
+	N11.47993, W69.63159
+	N11.56421, W69.71191
+	N11.67603, W69.76240
+	N11.83687, W69.81055
+	N11.99561, W69.83062
+	N12.05420, W69.86011
+	N12.11460, W69.91436
+	N12.17788, W70.00396
+	N12.13662, W70.12202
+	N12.09839, W70.20278
+	N12.00352, W70.24512
+	N11.88604, W70.28652
+	N11.73008, W70.22002
+	N11.68086, W70.22012
+	N11.62461, W70.19258
+	N11.67212, W69.91094
+	N11.67207, W69.81733
+	N11.54131, W69.77290
+	N11.47422, W69.80479
+	N11.44434, W69.88535
+	N11.53032, W70.04854
+	N11.51978, W70.09712
+	N11.42808, W70.15996
+	N11.37300, W70.23252
+	N11.26138, W70.54561
+	N11.20845, W70.82051
+
+[airport1]
+name = José Leonardo Chirinos Airport
+code = SVCR
+runways =
+	rwy1, 09, N11.4131, W69.6909, 79.0, 6761, 0, 0, 50

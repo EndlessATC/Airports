@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2470
+center = S34.588299, W68.4039
+magneticvar = 2.040
+beacons =
+	SRA, S34.58940, W68.39470, 0, San Rafael
+
+[airport1]
+name = Suboficial Ay Santiago Germano Airport
+code = SAMR
+runways =
+	rwy1, 10, S34.5845, W68.4155, 108.0, 6923, 315, 515, 2470

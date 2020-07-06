@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1410
+center = S46.537899, W70.978699
+magneticvar = 9.461
+beacons =
+	PTM, S46.53640, W70.98610, 0, Perito Moreno
+	BAL, S45.91940, W71.69830, 0, Balmaceda
+	BAL, S45.91310, W71.71280, 0, Balmaceda
+	RMY, S45.70470, W70.26280, 0, Rio Mayo
+
+[airport1]
+name = Perito Moreno Airport
+code = SAWP
+runways =
+	rwy1, 07, S46.5361, W70.9819, 87.3, 2790, 0, 0, 0
+	rwy2, 10, S46.5352, W70.989, 111.8, 5577, 195, 0, 0
+	rwy3, 11, S46.5375, W70.9827, 127.1, 4405, 0, 0, 0

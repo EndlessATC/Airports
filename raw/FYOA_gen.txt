@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3599
+center = S17.878201, E15.9526
+magneticvar = -9.152
+beacons =
+	OA, S17.88290, E15.94730, 0, Ondangwa
+	PE, S17.06670, E15.75000, 0, Ngiva
+
+[airport1]
+name = Ondangwa Airport
+code = FYOA
+runways =
+	rwy1, 08, S17.8838, E15.9398, 65.0, 9800, 0, 0, 3599
+	rwy2, 16, S17.87, E15.9406, 149.0, 4423, 0, 0, 3599

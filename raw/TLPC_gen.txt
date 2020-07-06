@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 22
+center = N14.0202, W60.992901
+magneticvar = -14.359
+beacons =
+	SLU, N14.01410, W61.00610, 0, Vigie
+	BNE, N13.73340, W60.97710, 0, Hewanorra
+	BNE, N13.73280, W60.97570, 0, Hewanorra
+	FOF, N14.58910, W61.00130, 0, Fort De France
+	FOF, N14.59070, W61.02280, 0, Fort De France
+
+line1 =
+	N14.09336, W60.90811
+	N14.07285, W60.94458
+	N14.01094, W60.99668
+	N13.91558, W61.06357
+	N13.86558, W61.07314
+	N13.78311, W61.06064
+	N13.71758, W60.95142
+	N13.82197, W60.89521
+	N14.01113, W60.88677
+	N14.09336, W60.90811
+
+line2 =
+	N14.68618, W60.93369
+	N14.73535, W60.91865
+	N14.75518, W60.92715
+	N14.75625, W60.95254
+	N14.82617, W61.02710
+	N14.87529, W61.12739
+	N14.87192, W61.18081
+	N14.84858, W61.21333
+	N14.80439, W61.21973
+	N14.65239, W61.14111
+	N14.62124, W61.10430
+	N14.60190, W61.01133
+	N14.52969, W61.09033
+	N14.50957, W61.08887
+	N14.46709, W61.06372
+	N14.47378, W60.89941
+	N14.42627, W60.86211
+	N14.43740, W60.83662
+	N14.49448, W60.82627
+	N14.61372, W60.86997
+	N14.64453, W60.88916
+	N14.68618, W60.93369
+
+line3 =
+	N13.20288, W61.13452
+	N13.29404, W61.12402
+	N13.35874, W61.13896
+	N13.35596, W61.18213
+	N13.33066, W61.22407
+	N13.28770, W61.26846
+	N13.20957, W61.27729
+	N13.14229, W61.20391
+	N13.15811, W61.17451
+	N13.20288, W61.13452
+
+[airport1]
+name = George F. L. Charles Airport
+code = TLPC
+runways =
+	rwy1, 09, N14.0177, W61.0012, 75.0, 5735, 426, 1007, 20
+
+[airport2]
+name = Hewanorra International Airport
+code = PL
+runways =
+	rwy2, 10, N13.7332, W60.9653, 90.0, 9003, 0, 493, 11
+inboundbeacon = BNE

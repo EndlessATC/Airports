@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 272
+metric = true
+center = N41.761101, E59.826698
+magneticvar = 5.328
+beacons =
+	RP, N41.76170, E59.76500, 0, Dashoguz
+	VH, N41.76000, E59.89170, 0, Dashoguz
+	RG, N41.62000, E60.60170, 0, Urgench
+	URG, N41.58330, E60.65000, 0, Urgench
+	NU, N41.54330, E60.68830, 0, Urgench
+
+line1 =
+	N41.27211, E61.35711
+	N41.30009, E61.26306
+	N41.35998, E61.21500
+	N41.48677, E61.03062
+	N41.68040, E60.71002
+	N41.82458, E60.52698
+	N41.91920, E60.48151
+	N41.97754, E60.42006
+	N41.99961, E60.34265
+	N42.04028, E60.29113
+	N42.09960, E60.26560
+	N42.16352, E60.20256
+	N42.23205, E60.10220
+	N42.29137, E59.94955
+	N42.34150, E59.74481
+	N42.41627, E59.58668
+	N42.51578, E59.47516
+	N42.57404, E59.38700
+	N42.59110, E59.32220
+	N42.63223, E59.29956
+	N42.69739, E59.31930
+	N42.74401, E59.29796
+
+[airport1]
+name = Daşoguz Airport
+code = UTAT
+runways =
+	rwy1, 09L, N41.7613, E59.8253, 90.0, 8858, 0, 0, 272
+	rwy2, 09R, N41.7601, E59.8253, 90.0, 4921, 0, 0, 0

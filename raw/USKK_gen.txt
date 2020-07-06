@@ -1,0 +1,17 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 479
+center = N58.5032997131, E49.3483009338
+magneticvar = 14.227
+beacons =
+	OR, N58.50000, E49.35000, 0, Kirov
+	QT, N58.88330, E50.86670, 0, Belokholunitsky
+
+[airport1]
+name = Pobedilovo Airport
+code = USKK

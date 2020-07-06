@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1784
+center = S20.8166007996, W49.40650177
+magneticvar = -19.235
+beacons =
+	JRP, S20.81320, W49.40600, 0, Rio Preto
+	FTR, S20.27700, W49.18960, 0, Fronteira
+	BRT, S20.58220, W48.59670, 0, Barretos
+
+line1 =
+	S19.82013, W50.58207
+	S19.98002, W49.38491
+	S19.85832, W50.36467
+
+line2 =
+	S20.08280, W48.17837
+	S20.09299, W48.25330
+	S20.13924, W48.36100
+	S20.14389, W48.71570
+	S20.15903, W48.81198
+	S20.23277, W48.85836
+	S20.37007, W48.88698
+	S20.42919, W48.91838
+	S20.41012, W48.95248
+	S20.33824, W48.97796
+	S20.21370, W48.99470
+	S20.18735, W49.03966
+	S20.25928, W49.11284
+	S20.29504, W49.16622
+	S20.29442, W49.19981
+	S20.24559, W49.23893
+	S20.14859, W49.28358
+	S20.07242, W49.29019
+	S20.01702, W49.25872
+	S19.98705, W49.27846
+	S19.98002, W49.38491
+	S19.85853, W50.36444
+
+[airport1]
+name = Prof. Eribelto Manoel Reino State Airport
+code = SBSR

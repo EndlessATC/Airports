@@ -1,0 +1,32 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4719
+usa = true
+transition = 18001
+center = N31.5884990692, W110.34400177
+magneticvar = 11.056
+beacons =
+	DAO, N31.58570, W110.34400, 0, Dragoo
+	ARH, N31.58560, W110.33900, 0, Libby
+	FHU, N31.58970, W110.35500, 0, Sierra Vista Muni/Libby Aaf
+	ENZ, N31.42140, W110.84600, 0, Nogales
+	OLS, N31.41500, W110.84900, 0, Nogales
+	DUG, N31.47270, W109.60200, 0, Douglas
+	CIE, N32.03340, W109.75800, 0, Cochise
+	TUS, N32.09520, W110.91500, 0, Tucson
+	DMA, N32.15990, W110.88100, 0, Davis Monthan
+	RYN, N32.13840, W111.16200, 0, Ryan
+	AVQ, N32.41180, W111.21600, 0, Marana
+
+[airport1]
+name = Sierra Vista Municipal Libby Army Air Field
+code = KFHU
+runways =
+	rwy1, 03, N31.5862, W110.349, 36.7, 4285, 1253, 0, 4648
+	rwy2, 08, N31.5876, W110.367, 89.9, 12001, 0, 0, 4719
+	rwy3, 12, N31.5929, W110.343, 126.7, 5366, 0, 0, 4612

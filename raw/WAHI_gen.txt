@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 24
+center = S7.905338, E110.057264
+magneticvar = 1.144
+beacons =
+	JOG, S7.80033, E110.30900, 0, Yogyakarta
+	OF, S7.78432, E110.43400, 0, Yogyakarta
+	SO, S7.51491, E110.74700, 0, Solo
+	SLO, S7.50772, E110.79400, 0, Solo
+
+line1 =
+	S8.14941, E110.60723
+	S8.20195, E110.83018
+	S8.23955, E111.05537
+
+line2 =
+	S6.94727, E110.42627
+	S6.94775, E110.37275
+	S6.93838, E110.32109
+	S6.91240, E110.26094
+
+line3 =
+	S7.70410, E108.98672
+	S7.69492, E109.19355
+	S7.70488, E109.28164
+	S7.82842, E109.85264
+	S7.89053, E110.03867
+	S8.14941, E110.60723
+
+[airport1]
+name = Yogyakarta International Airport
+code = WAHI

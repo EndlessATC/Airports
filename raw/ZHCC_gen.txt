@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 495
+metric = true
+center = N34.5196990967, E113.841003418
+magneticvar = -4.334
+beacons =
+	CGO, N34.51500, E113.84300, 0, Zhengzhou
+	KV, N34.76170, E113.77500, 0, Xinzheng
+	JG, N34.78670, E113.67000, 0, Xinzheng
+	BS, N34.41670, E114.21800, 0, Liyuantun
+
+line1 =
+	N34.87250, E112.55874
+	N34.80901, E112.85681
+	N34.83118, E113.01215
+	N34.87480, E113.15571
+	N34.93986, E113.28769
+	N34.97417, E113.39869
+	N34.97774, E113.48897
+	N34.95373, E113.61749
+	N34.90221, E113.78440
+	N34.89459, E113.90031
+	N34.93094, E113.96532
+	N34.93606, E114.15627
+	N34.90994, E114.47315
+	N34.92761, E114.68140
+	N34.97774, E114.79819
+	N35.01977, E114.83085
+
+line2 =
+	N35.01977, E114.83767
+	N35.06117, E114.86237
+	N35.14460, E114.86558
+	N35.22855, E114.90547
+	N35.32952, E115.01389
+	N35.40626, E115.13605
+
+[airport1]
+name = Zhengzhou Xinzheng International Airport
+code = ZHCC
+runways =
+	rwy1, 12, N34.5255, E113.824, 112.3, 11155, 0, 0, 495

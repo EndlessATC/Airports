@@ -1,0 +1,92 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 146
+center = N35.235947, E33.724358
+magneticvar = 3.515
+beacons =
+	DKA, N34.98220, E33.73280, 0, Dhekelia
+	LCA, N34.87330, E33.62670, 0, Larnaca
+	LCA, N34.82170, E33.55500, 0, Larnaca
+	AKR, N34.57940, E32.96280, 0, Akrotiri
+
+line1 =
+	N35.56997, E34.27236
+	N35.54570, E34.19248
+	N35.47397, E34.06348
+	N35.35415, E33.60762
+	N35.33589, E33.45879
+	N35.34150, E33.30781
+	N35.35820, E33.12344
+	N35.39043, E32.94160
+	N35.27808, E32.92637
+	N35.18057, E32.87988
+	N35.15957, E32.77236
+	N35.17104, E32.71270
+	N35.18267, E32.65234
+	N35.15576, E32.55596
+	N35.08999, E32.47500
+	N35.04980, E32.39092
+	N35.08296, E32.30098
+	N34.95332, E32.31719
+	N34.77803, E32.41377
+	N34.72944, E32.44902
+	N34.70625, E32.50557
+	N34.64937, E32.69297
+	N34.64780, E32.75010
+	N34.66113, E32.86719
+	N34.63550, E32.91426
+	N34.57588, E32.94180
+	N34.56958, E33.00791
+	N34.60000, E33.02393
+	N34.63691, E33.02490
+	N34.67480, E33.06230
+	N34.69556, E33.11553
+	N34.69805, E33.17607
+	N34.71772, E33.29658
+	N34.75088, E33.41494
+	N34.80645, E33.51445
+	N34.96987, E33.69941
+	N34.97324, E33.75898
+	N34.96592, E33.82246
+	N34.97148, E33.93652
+	N34.98838, E34.05020
+	N35.04556, E34.02363
+	N35.06523, E34.00449
+	N35.14038, E33.93125
+	N35.20239, E33.90791
+	N35.29204, E33.94199
+	N35.59351, E34.46318
+	N35.66206, E34.55605
+	N35.62930, E34.41113
+	N35.56997, E34.27236
+
+line2 =
+	N36.18364, E32.37773
+	N36.10073, E32.53379
+	N36.03589, E32.79482
+	N36.09570, E32.92949
+	N36.10298, E33.09951
+	N36.15283, E33.44180
+	N36.14399, E33.52275
+	N36.18198, E33.69473
+
+[airport1]
+name = Lefkoniko Airport
+code = CY-0002
+
+[airport2]
+name = Ercan International Airport
+code = EN
+inboundbeacon = DKA
+
+[airport3]
+name = Larnaca International Airport
+code = LK
+runways =
+	rwy1, 04, N34.8657, E33.6133, 45.0, 9776, 0, 575, 11
+inboundbeacon = LCA

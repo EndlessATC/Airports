@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 107
+center = N28.626499, W17.7556
+magneticvar = -7.098
+beacons =
+	BX, N28.60170, W17.75680, 0, La Palma
+	BV, N28.60160, W17.75660, 0, La Palma
+	LGM, N28.02870, W17.21490, 0, La Gomera
+	HIE, N27.81620, W17.88640, 0, Hierro
+	HR, N27.81610, W17.88640, 0, Hierro
+
+line1 =
+	N28.41270, W16.51743
+	N28.40049, W16.55684
+	N28.36982, W16.75205
+	N28.37612, W16.84307
+	N28.33960, W16.90532
+	N28.29326, W16.86602
+	N28.14917, W16.79473
+	N28.00718, W16.65801
+	N28.03208, W16.54277
+	N28.06191, W16.49624
+
+line2 =
+	N28.11768, W17.32490
+	N28.03828, W17.27393
+	N28.01353, W17.22539
+	N28.02197, W17.18467
+	N28.08345, W17.10107
+	N28.11113, W17.10376
+	N28.15596, W17.12964
+	N28.19927, W17.21436
+	N28.20317, W17.25859
+	N28.17632, W17.29033
+	N28.11768, W17.32490
+
+line3 =
+	N27.76812, W18.04336
+	N27.76147, W18.16055
+	N27.72793, W18.13594
+	N27.70747, W18.10659
+	N27.64639, W17.98477
+	N27.80957, W17.88794
+	N27.85015, W17.92451
+	N27.76812, W18.04336
+
+line4 =
+	N28.84458, W17.92881
+	N28.75825, W18.00078
+	N28.56460, W17.88213
+	N28.48569, W17.85938
+	N28.49321, W17.83428
+	N28.56909, W17.75801
+	N28.61602, W17.74438
+	N28.68857, W17.75161
+	N28.72446, W17.72656
+	N28.78657, W17.74453
+	N28.84678, W17.79756
+	N28.84458, W17.92881
+
+[airport1]
+name = La Palma Airport
+code = GCLA
+runways =
+	rwy1, 36, N28.6166, W17.7554, 359.0, 7218, 0, 0, 103

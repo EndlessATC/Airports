@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 302
+center = N19.623501, E96.200996
+magneticvar = -0.447
+beacons =
+	EL, N19.62460, E96.19750, 0, El
+	TGO, N19.04780, E96.39640, 0, Taungoo
+
+line1 =
+	N19.91036, E95.08115
+	N19.84489, E95.14037
+	N19.71035, E95.16942
+	N19.48494, E95.18792
+	N19.27712, E95.17675
+	N19.08687, E95.13572
+	N18.94520, E95.13975
+	N18.85208, E95.18864
+	N18.77090, E95.17980
+	N18.70165, E95.11314
+	N18.64072, E95.07562
+
+line2 =
+	N18.82805, E97.40561
+	N18.84324, E97.35342
+	N18.77849, E97.33187
+	N18.63390, E97.34096
+
+[airport1]
+name = Naypyidaw Airport
+code = VYEL
+runways =
+	rwy1, 16, N19.6389, E96.1936, 157.1, 12000, 0, 0, 0

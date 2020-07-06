@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 62
+center = N12.6361999512, E99.951499939
+magneticvar = -0.320
+beacons =
+	HHN, N12.63450, E99.95120, 0, Hua Hin
+	HN, N12.64320, E99.94960, 0, Hua Hin
+	PCK, N11.80350, E99.81020, 0, Prachuap
+
+line1 =
+	N11.77925, E98.80479
+	N11.73926, E98.84023
+	N11.71973, E98.87598
+	N11.66509, E98.79072
+
+line2 =
+	N11.66177, E99.72549
+	N11.74878, E99.79873
+	N11.93662, E99.83711
+	N12.04746, E99.93027
+	N12.17080, E99.98906
+	N12.35474, E100.00566
+	N12.69004, E99.96396
+	N12.77148, E99.98203
+	N13.04565, E100.08994
+	N13.17124, E100.05107
+	N13.24346, E99.99053
+	N13.35317, E100.01748
+	N13.43955, E100.12236
+	N13.48447, E100.23564
+	N13.51445, E100.53643
+	N13.56816, E100.60293
+	N13.52129, E100.65605
+	N13.46240, E100.90654
+	N13.43198, E100.96270
+	N13.35757, E100.94697
+	N13.30303, E100.92627
+	N13.18726, E100.94609
+	N13.03491, E100.90391
+	N12.81816, E100.89639
+	N12.71450, E100.86328
+	N12.65381, E100.89775
+	N12.62124, E100.95371
+	N12.67363, E101.09023
+
+[airport1]
+name = Hua Hin Airport
+code = VTPH
+runways =
+	rwy1, 16, N12.6451, E99.9482, 159.7, 6890, 0, 492, 62

@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 97
+center = S39.0085983276, E174.179000854
+magneticvar = 20.308
+beacons =
+	NP, S39.00720, E174.18401, 0, New Plymouth
+	NP, S39.00220, E174.18201, 0, New Plymouth
+	OR, S38.82660, E174.80701, 0, Ohura
+
+line1 =
+	S39.95215, E175.00928
+	S39.86016, E174.81377
+	S39.84717, E174.68730
+	S39.81299, E174.56748
+	S39.73516, E174.45469
+	S39.64336, E174.35205
+	S39.56816, E174.14863
+	S39.50908, E173.93438
+	S39.42578, E173.81211
+	S39.37617, E173.78301
+	S39.31875, E173.76367
+	S39.26533, E173.76641
+	S39.21123, E173.78164
+	S39.16953, E173.80605
+	S39.13936, E173.84434
+	S39.03125, E174.07139
+	S38.97109, E174.31172
+	S38.97217, E174.35605
+	S38.96260, E174.39844
+	S38.92578, E174.45850
+	S38.84160, E174.56621
+	S38.78506, E174.59736
+	S38.60527, E174.61855
+	S38.42832, E174.65303
+	S38.22559, E174.71533
+	S38.09980, E174.80928
+	S38.02266, E174.84004
+
+line2 =
+	S38.27384, E175.67871
+	S38.19204, E175.65567
+	S38.10713, E175.65370
+	S38.01907, E175.67293
+
+[airport1]
+name = New Plymouth Airport
+code = NZNP
+runways =
+	rwy1, 05L, S39.0104, E174.17, 66.5, 4298, 0, 0, 90
+	rwy2, 05R, S39.0131, E174.169, 66.0, 3281, 0, 0, 0
+	rwy3, 14, S39.0003, E174.179, 156.7, 3937, 0, 0, 71

@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1508
+center = N67.8219985962, E20.3367996216
+magneticvar = 6.542
+beacons =
+	KRA, N67.81920, E20.33750, 0, Kiruna
+	OP, N67.88750, E20.45270, 0, Kiruna
+	OG, N67.10390, E20.95200, 0, Gallivare
+
+line1 =
+	N68.48193, E17.42617
+	N68.47432, E17.48018
+	N68.46108, E17.50234
+	N68.44746, E17.57119
+	N68.42627, E17.55283
+	N68.42632, E17.47852
+	N68.41035, E17.33613
+
+line2 =
+	N67.47803, E18.18398
+	N67.58599, E17.83828
+	N67.61216, E17.63164
+	N67.62017, E17.57529
+	N67.64443, E17.47520
+	N67.65405, E17.33945
+
+line3 =
+	N67.75312, E17.30254
+	N67.71401, E17.43525
+	N67.56094, E18.11602
+	N67.53291, E18.20312
+	N67.46196, E18.39580
+	N67.41909, E18.42793
+	N67.47803, E18.18398
+	N67.47803, E18.18398
+	N67.47803, E18.18398
+
+[airport1]
+name = Kiruna Airport
+code = ESNQ
+runways =
+	rwy1, 03, N67.8127, E20.3203, 33.7, 8209, 0, 0, 1508

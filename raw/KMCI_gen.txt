@@ -1,0 +1,82 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1026
+usa = true
+transition = 18001
+center = N39.2976, W94.713898
+magneticvar = 3.371
+beacons =
+	MCI, N39.28530, W94.73710, 0, Kansas City
+	DO, N39.22090, W94.74990, 0, Dotte
+	DY, N39.38960, W94.67840, 0, Lexey
+	RN, N39.30200, W94.85110, 0, Huggy
+	MK, N39.22080, W94.56430, 0, Kenzy
+	RIS, N39.12040, W94.59660, 0, Riverside
+	GKB, N39.06120, W94.65570, 0, Norge
+	GPH, N39.34610, W94.30750, 0, Mosby
+	ST, N39.67570, W94.90690, 0, Tario
+	LXT, N38.96070, W94.37170, 0, Lesumit
+	OJC, N38.84060, W94.73680, 0, Johnson Co
+	ANX, N39.09540, W94.12880, 0, Napoleon
+	JZ, N38.91380, W95.15390, 0, Newbn
+	EZZ, N39.72920, W94.27220, 0, Cameron
+	IX, N38.73870, W94.89190, 0, Dustt
+	AZN, N39.88400, W94.90820, 0, Amazon
+	TOP, N39.13710, W95.54910, 0, Topeka
+	STJ, N39.96060, W94.92520, 0, St.jJseph
+	BQS, N39.63060, W93.87530, 0, Braymer
+	TO, N39.12040, W95.68710, 0, Biloy
+	RBA, N39.85080, W95.42310, 0, Robinson
+	FO, N38.88490, W95.58150, 0, Riply
+	FOE, N38.94740, W95.66120, 0, Forbes
+	FNB, N40.07630, W95.58690, 0, Brenner
+
+line1 =
+	N40.29547, W95.60710
+	N40.26457, W95.52122
+	N40.19806, W95.46365
+	N40.09598, W95.43430
+	N40.01032, W95.36247
+	N39.87209, W95.11620
+	N39.87080, W95.05554
+	N39.89116, W94.98402
+	N39.86149, W94.92994
+	N39.78181, W94.89330
+	N39.74114, W94.89859
+	N39.73949, W94.94583
+	N39.69156, W95.00476
+	N39.59738, W95.07535
+	N39.50896, W95.05794
+	N39.42638, W94.95252
+	N39.34313, W94.88229
+	N39.25915, W94.84720
+	N39.19399, W94.77785
+	N39.12441, W94.62238
+	N39.12441, W94.50412
+	N39.15110, W94.42118
+	N39.20443, W94.33416
+	N39.20722, W94.23926
+	N39.15950, W94.13647
+	N39.15363, W94.02823
+	N39.18960, W93.91455
+	N39.21099, W93.77295
+	N39.21781, W93.60351
+	N39.23745, W93.51281
+	N39.26985, W93.50085
+	N39.27073, W93.46938
+	N39.24009, W93.41840
+	N39.27011, W93.34298
+	N39.36085, W93.24314
+
+[airport1]
+name = Kansas City International Airport
+code = KMCI
+runways =
+	rwy1, 01L, N39.2933, W94.7293, 12.9, 10801, 0, 0, 1011
+	rwy2, 01R, N39.2815, W94.709, 12.9, 9500, 0, 0, 1016
+	rwy3, 09, N39.2909, W94.7266, 96.1, 9500, 0, 0, 1014

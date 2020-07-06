@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 50
+center = S3.8637, E102.338997
+magneticvar = 0.082
+beacons =
+	PB, S3.85993, E102.34100, 0, Bengkulu
+	BKL, S3.86051, E102.33300, 0, Bengkulu
+	LU, S3.28306, E102.91700, 0, Lubuk Linggau
+
+line1 =
+	S4.81641, E103.40566
+	S4.76523, E103.33213
+	S4.67568, E103.23887
+	S4.59619, E103.13867
+	S4.47070, E102.91895
+	S4.15215, E102.53770
+	S3.96924, E102.37197
+	S3.67451, E102.18770
+	S3.59922, E102.12754
+	S3.37803, E101.81787
+	S3.24404, E101.64902
+	S3.16699, E101.57861
+	S2.89883, E101.41426
+
+[airport1]
+name = Fatmawati Soekarno Airport
+code = WIPL

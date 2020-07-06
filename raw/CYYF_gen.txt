@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1129
+usa = true
+transition = 18001
+center = N49.4631004333, W119.601997375
+magneticvar = 17.114
+beacons =
+	XYF, N49.45250, W119.60400, 0, Penticton
+	YYF, N49.48780, W119.60100, 0, Penticton
+	UNT, N49.59720, W119.60300, 0, Naramata
+	EX, N49.93970, W119.37600, 0, Rutland
+	YDC, N49.38170, W120.37400, 0, Princeton
+	DC, N49.46940, W120.51700, 0, Princeton
+	LW, N50.06080, W119.41600, 0, Kelowna
+	2J, N49.01750, W118.42400, 0, Grand Forks
+
+line1 =
+	N49.34160, W117.90713
+	N49.33574, W117.95679
+	N49.41182, W118.06265
+	N49.45049, W118.09595
+	N49.52129, W118.13945
+	N49.60137, W118.15566
+	N49.70308, W118.13760
+	N49.75166, W118.12793
+	N49.80151, W118.09248
+	N49.77397, W118.08413
+	N49.58315, W118.10874
+	N49.51509, W118.08750
+	N49.45669, W118.04780
+	N49.40601, W117.97583
+	N49.37461, W117.91133
+	N49.34160, W117.90713
+	N49.34160, W117.90713
+	N49.34160, W117.90713
+
+line2 =
+	N48.66390, W118.07217
+	N48.51213, W118.17446
+
+line3 =
+	N49.80151, W118.09248
+	N49.66400, W118.13043
+	N49.57387, W118.12795
+	N49.48375, W118.09736
+	N49.40355, W118.01385
+	N49.34164, W117.90719
+
+line4 =
+	N50.33868, W117.89249
+	N50.23130, W117.83725
+	N50.15901, W117.82727
+	N50.10314, W117.88019
+
+line5 =
+	N48.85795, W117.90791
+	N48.76560, W118.02098
+	N48.66349, W118.07356
+	N50.10314, W117.88019
+	N50.09237, W117.91740
+	N50.06449, W117.92484
+	N50.01591, W117.91492
+	N49.97072, W117.94951
+	N49.92886, W118.02868
+	N49.88135, W118.07431
+	N49.80151, W118.09248
+
+[airport1]
+name = Penticton Airport
+code = CYYF
+runways =
+	rwy1, 16, N49.4694, W119.601, 182.0, 6000, 0, 300, 1129

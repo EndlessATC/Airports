@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = S14.9994001389, E50.3202018738
+magneticvar = -11.521
+beacons =
+	AH, S14.99890, E50.31790, 0, Antalaha
+	SA, S14.27870, E50.17720, 0, Sambava
+	VSL, S15.43330, E49.68330, 0, Maroantsetra
+
+line1 =
+	S14.04023, E50.17383
+	S14.51445, E50.20459
+	S14.73203, E50.23535
+	S14.93682, E50.31348
+	S15.14932, E50.44131
+	S15.38564, E50.48271
+	S15.62910, E50.40459
+	S15.85850, E50.29150
+	S15.90156, E50.26230
+	S15.96045, E50.20898
+	S15.95781, E50.18496
+	S15.89863, E50.09443
+	S15.80176, E50.02041
+	S15.57354, E49.92656
+	S15.45771, E49.89258
+	S15.43945, E49.85332
+	S15.44951, E49.74375
+	S15.52158, E49.66436
+	S15.56699, E49.64990
+	S15.69570, E49.66699
+	S15.81143, E49.69707
+	S15.92891, E49.71045
+
+[airport1]
+name = Antsirabato Airport
+code = FMNH
+runways =
+	rwy1, 18, S14.9943, E50.3186, 163.0, 3914, 0, 0, 16

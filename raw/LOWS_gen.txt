@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1411
+center = N47.7933006287, E13.0043001175
+magneticvar = 1.418
+beacons =
+	SI, N47.81860, E12.98770, 0, Salzburg
+	SU, N47.87930, E12.94990, 0, Salzburg
+	SBG, N47.96750, E12.89410, 0, Salzburg
+	SBG, N48.00260, E12.89280, 0, Salzburg
+	EGG, N48.39700, E12.74980, 0, Eggenfelden
+	MDF, N48.23470, E12.33740, 0, Milldorf
+	END, N48.39440, E12.72540, 0, Eggenfelden
+	RTT, N47.43090, E11.94010, 0, Rattenberg
+	LNZ, N48.22970, E14.10320, 0, Linz
+	ERD, N48.32480, E11.95280, 0, Erding
+	MUN, N48.18030, E11.81600, 0, Munchen
+	MBG, N48.57340, E12.26100, 0, Moosburg
+	MSW, N48.35240, E11.90380, 0, Munchen
+	MNW, N48.37430, E11.91410, 0, Munchen
+	DMS, N48.34070, E11.77820, 0, Munchen
+	FRE, N48.43180, E14.12980, 0, Freistadt
+	DMN, N48.36690, E11.79400, 0, Munchen
+
+line1 =
+	N48.19732, E14.72647
+	N48.21874, E14.58343
+	N48.29155, E14.39967
+	N48.32826, E14.24309
+	N48.32888, E14.11380
+	N48.35235, E14.03680
+	N48.39862, E14.01220
+	N48.46177, E13.87159
+	N48.58184, E13.48665
+	N48.60230, E13.31627
+	N48.63641, E13.19995
+	N48.69098, E13.08089
+	N48.74762, E13.00477
+
+line2 =
+	N47.09046, E13.82182
+	N47.14738, E14.36732
+	N47.20911, E14.50700
+	N47.22440, E14.61966
+
+[airport1]
+name = Salzburg Airport
+code = LOWS
+runways =
+	rwy1, 15, N47.8056, E12.9962, 157.0, 9022, 977, 787, 1411

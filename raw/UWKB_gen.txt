@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 991
+center = N54.6399993896, E52.801700592
+
+line1 =
+	N55.60817, E51.66284
+	N55.59943, E51.57871
+	N55.58312, E51.51343
+	N55.52949, E51.50854
+	N55.49641, E51.48584
+	N55.46796, E51.36914
+	N55.50265, E51.21306
+	N55.48273, E51.13452
+	N55.46760, E51.07935
+	N55.46638, E50.98022
+	N55.45631, E50.83445
+
+[airport1]
+name = Bugulma Airport
+code = UWKB

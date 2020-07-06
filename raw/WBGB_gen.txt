@@ -1,0 +1,30 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 74
+center = N3.12385010719, E113.019996643
+magneticvar = 0.399
+beacons =
+	BTU, N3.10241, E113.02500, 0, Bintulu
+	VBU, N3.15397, E113.01300, 0, Bintulu
+
+line1 =
+	N4.00142, E113.71211
+	N3.74058, E113.44609
+	N3.56147, E113.32012
+	N3.34351, E113.14023
+	N3.20522, E113.04473
+	N3.16191, E112.98789
+	N3.13071, E112.92051
+	N3.07046, E112.73730
+	N2.91470, E112.11885
+
+[airport1]
+name = Bintulu Airport
+code = WBGB
+runways =
+	rwy1, 17, N3.13595, E113.018, 167.8, 9006, 0, 0, 34

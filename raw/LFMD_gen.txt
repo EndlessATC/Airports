@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = N43.542, E6.95348
+magneticvar = 0.227
+beacons =
+	CNM, N43.56040, E6.87094, 0, Cannes
+	NC, N43.59020, E7.12908, 0, Nice/Cote D'Azur
+	CGS, N43.64520, E7.14592, 0, Cagnes Sur Mer
+	AZR, N43.65970, E7.22442, 0, Nice Cote D Azur
+	MUS, N43.38460, E6.60636, 0, Nice Cote D Azur
+	NIZ, N43.77060, E7.25439, 0, Nice
+	LEZ, N43.72540, E7.32664, 0, Nice
+	LU, N43.38690, E6.52517, 0, Le Luc
+	STP, N43.21950, E6.60181, 0, St.tTopez
+	LUC, N43.38280, E6.25592, 0, Le Luc
+	HYE, N43.10080, E6.14750, 0, Hyeres
+	DGN, N43.99140, E6.10083, 0, Digne
+	TLN, N43.03270, E6.15281, 0, Hyeres
+
+line1 =
+	N43.22852, E5.40654
+	N43.17783, E5.67158
+	N43.09790, E5.80947
+	N43.10098, E6.03057
+	N43.07236, E6.11592
+	N43.13872, E6.30537
+	N43.16929, E6.49404
+	N43.19907, E6.57021
+	N43.26167, E6.65723
+	N43.33457, E6.68740
+	N43.37358, E6.71660
+	N43.43833, E6.86475
+	N43.65913, E7.18145
+	N43.69609, E7.26152
+	N43.73174, E7.37773
+	N43.75044, E7.43867
+	N43.76714, E7.49316
+	N43.80259, E7.73330
+	N43.87676, E8.00498
+	N43.91895, E8.08164
+	N44.13652, E8.29238
+	N44.34614, E8.55195
+
+[airport1]
+name = Cannes-Mandelieu Airport
+code = LFMD
+runways =
+	rwy1, 05, N43.5439, E6.95411, 46.5, 2493, 328, 98, 7
+	rwy2, 17, N43.5545, E6.95042, 172.6, 5282, 393, 1148, 13
+
+[airport2]
+name = Nice-Côte d'Azur Airport
+code = MN
+runways =
+	rwy3, 04L, N43.6518, E7.20404, 45.1, 8995, 0, 575, 10
+	rwy4, 04R, N43.6467, E7.20249, 45.0, 9712, 0, 0, 10
+inboundbeacon = AZR

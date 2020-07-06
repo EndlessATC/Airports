@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 87
+center = N33.8208999634, E35.4883995056
+magneticvar = 3.532
+beacons =
+	KAD, N33.80560, E35.48470, 0, Khaldeh
+	BAB, N33.84900, E35.48300, 0, Beirut
+	BOD, N33.90230, E35.48130, 0, Beirut
+	CAK, N34.29900, E35.69970, 0, Chekka
+	MEZ, N33.48330, E36.23330, 0, Mezze
+	ABD, N33.33530, E36.42820, 0, Abyad
+	RA, N34.59900, E36.08300, 0, Rene Mouawad
+	DAM, N33.36490, E36.46860, 0, Damascus
+
+line1 =
+	N34.62920, E35.97627
+	N34.54741, E35.97793
+	N34.49331, E35.92139
+	N34.43740, E35.80430
+	N34.24824, E35.64785
+	N34.03218, E35.61182
+	N33.87974, E35.51084
+	N33.50347, E35.33574
+	N33.39263, E35.25137
+	N33.25898, E35.20352
+	N33.16001, E35.15508
+	N33.08369, E35.10859
+	N32.96719, E35.07705
+	N32.82661, E35.00586
+
+line2 =
+	N32.85562, E35.53916
+	N32.89160, E35.56504
+	N32.89971, E35.59893
+	N32.87837, E35.62285
+	N32.83384, E35.63584
+
+line3 =
+	N33.59635, E35.86389
+	N33.43083, E35.69553
+	N33.24371, E35.61894
+	N33.11095, E35.59476
+	N32.89972, E35.59889
+
+[airport1]
+name = Beirut Rafic Hariri International Airport
+code = OLBA
+runways =
+	rwy1, 03, N33.7982, E35.4809, 32.9, 12467, 1886, 3265, 47
+	rwy2, 16, N33.8401, E35.4789, 165.8, 11138, 590, 0, 12
+	rwy3, 17, N33.8382, E35.4871, 177.0, 10663, 0, 2788, 85

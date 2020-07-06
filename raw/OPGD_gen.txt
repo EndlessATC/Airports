@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = N25.2332992554, E62.329498291
+magneticvar = 0.546
+beacons =
+	GD, N25.22780, E62.33060, 0, Gwadar
+	JI, N25.07160, E61.79960, 0, Jiwani
+	JI, N25.06390, E61.79560, 0, Jiwani
+	TU, N25.99010, E63.02980, 0, Turbat
+
+line1 =
+	N25.18389, E61.10859
+	N25.14199, E61.24297
+	N25.10210, E61.41221
+	N25.15366, E61.49033
+	N25.19551, E61.53311
+	N25.13818, E61.74365
+	N25.13130, E61.90791
+	N25.15532, E62.08945
+	N25.20664, E62.15215
+	N25.22485, E62.19863
+	N25.19736, E62.24873
+	N25.13491, E62.31533
+	N25.15254, E62.39121
+	N25.19727, E62.44473
+	N25.25474, E62.57246
+	N25.26479, E62.66475
+	N25.22466, E63.01504
+	N25.25488, E63.17002
+	N25.22759, E63.28574
+	N25.21084, E63.49141
+	N25.29751, E63.49570
+	N25.35317, E63.55664
+
+[airport1]
+name = Gwadar International Airport
+code = OPGD
+runways =
+	rwy1, 06, N25.2302, E62.3228, 63.0, 4960, 0, 0, 96

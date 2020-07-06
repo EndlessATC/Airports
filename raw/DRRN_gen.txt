@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 732
+center = N13.4815, E2.18361
+magneticvar = -2.202
+beacons =
+	NY, N13.48330, E2.20639, 0, Niamey
+	NY, N13.48100, E2.15583, 0, Niamey
+
+line1 =
+	N14.38119, E1.20828
+	N14.27988, E1.36217
+	N14.14617, E1.46340
+	N13.98008, E1.51198
+	N13.84693, E1.58112
+	N13.74671, E1.67073
+	N13.65054, E1.81170
+	N13.55837, E2.00384
+	N13.47569, E2.12455
+	N13.40244, E2.17385
+	N13.34342, E2.23555
+	N13.29862, E2.30966
+	N13.17604, E2.35462
+	N12.97567, E2.37033
+	N12.81818, E2.41539
+	N12.70351, E2.48970
+	N12.62734, E2.52060
+	N12.58962, E2.50799
+	N12.55195, E2.51523
+	N12.52856, E2.53977
+	N12.53011, E2.57052
+	N12.55164, E2.59667
+	N12.55164, E2.61512
+	N12.53102, E2.62628
+	N12.52234, E2.65310
+	N12.53011, E2.69201
+	N12.51934, E2.71816
+
+[airport1]
+name = Diori Hamani International Airport
+code = DRRN
+runways =
+	rwy1, 09L, N13.484, E2.17107, 87.0, 5315, 0, 0, 728
+	rwy2, 09R, N13.4809, E2.16974, 87.0, 9843, 0, 0, 728

@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4462
+center = N28.7028999329, W105.964996338
+magneticvar = 8.390
+beacons =
+	CUU, N28.79900, W105.95200, 0, Chihuahua
+	CUW, N28.58350, W105.99300, 0, Chihuahua
+	DEL, N28.21410, W105.44800, 0, Delicias
+
+[airport1]
+name = General Roberto Fierro Villalobos International Airport
+code = MMCU
+runways =
+	rwy1, 04, N28.6967, W105.972, 55.9, 3609, 0, 0, 4447
+	rwy2, 18L, N28.7146, W105.961, 190.8, 8530, 0, 0, 4436
+	rwy3, 18R, N28.7133, W105.963, 190.8, 7885, 0, 0, 4459

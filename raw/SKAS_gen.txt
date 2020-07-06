@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 815
+center = N0.505228, W76.5008
+magneticvar = -3.116
+beacons =
+	SIS, N0.55167, W76.50140, 0, Puerto Asis
+	ORI, N0.66667, W76.81670, 0, Orito
+	LAV, N0.10222, W76.85640, 0, Lago Agrio
+	LAR, N0.08389, W76.88030, 0, Lago Agrio
+	LAG, N0.06667, W76.90330, 0, Lago Agrio
+	TRP, S0.13139, W76.32470, 0, Tarapoa
+
+line1 =
+	N1.32982, W76.53315
+	N1.13910, W76.53581
+	N1.05709, W76.50796
+	N1.00175, W76.42161
+	N0.97953, W76.26286
+	N0.98774, W76.14496
+	N1.01911, W76.01494
+	N0.99596, W75.91952
+	N0.91824, W75.85865
+	N0.84362, W75.68966
+	N0.77205, W75.41257
+
+[airport1]
+name = Tres De Mayo Airport
+code = SKAS
+runways =
+	rwy1, 01, N0.497969, W76.5019, 8.6, 5331, 0, 0, 0

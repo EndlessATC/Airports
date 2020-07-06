@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 498
+center = N25.9864006042, E63.0302009583
+magneticvar = 0.490
+beacons =
+	TU, N25.99010, E63.02980, 0, Turbat
+	PI, N25.28810, E63.34890, 0, Pasni
+	GD, N25.22780, E62.33060, 0, Gwadar
+
+line1 =
+	N25.13818, E61.74365
+	N25.13130, E61.90791
+	N25.15532, E62.08945
+	N25.20664, E62.15215
+	N25.22485, E62.19863
+	N25.19736, E62.24873
+	N25.13491, E62.31533
+	N25.15254, E62.39121
+	N25.19727, E62.44473
+	N25.25474, E62.57246
+	N25.26479, E62.66475
+	N25.22466, E63.01504
+	N25.25488, E63.17002
+	N25.22759, E63.28574
+	N25.21084, E63.49141
+	N25.29751, E63.49570
+	N25.35317, E63.55664
+	N25.38589, E63.72090
+	N25.34253, E63.93555
+	N25.35117, E63.98730
+	N25.40293, E64.05938
+	N25.37393, E64.12490
+	N25.33345, E64.15205
+
+[airport1]
+name = Turbat International Airport
+code = OPTU
+runways =
+	rwy1, 08, N25.9854, E63.0212, 83.1, 6000, 0, 0, 483

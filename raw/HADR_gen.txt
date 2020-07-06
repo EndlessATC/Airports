@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3827
+center = N9.62469959259, E41.8541984558
+magneticvar = 1.234
+beacons =
+	DWA, N9.63779, E41.84890, 0, Dire Dawa
+	AY, N9.64386, E41.84410, 0, Dire Dawa
+
+[airport1]
+name = Aba Tenna Dejazmach Yilma International Airport
+code = HADR
+runways =
+	rwy1, 15, N9.63576, E41.8485, 152.0, 8791, 0, 0, 3661

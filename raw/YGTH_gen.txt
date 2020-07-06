@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 439
+usa = true
+center = S34.2508010864, E146.067001343
+magneticvar = 11.151
+beacons =
+	GTH, S34.24940, E146.06500, 0, Griffith
+	GTH, S34.27720, E146.05701, 0, Griffith
+	NAR, S34.70190, E146.51700, 0, Narrandera
+	NAR, S34.70710, E146.51300, 0, Narrandera
+
+[airport1]
+name = Griffith Airport
+code = YGTH
+runways =
+	rwy1, 06, S34.2572, E146.052, 65.8, 4931, 0, 0, 427
+	rwy2, 18, S34.2467, E146.069, 189.0, 1969, 0, 0, 442

@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1657
+center = N16.9659996033, E8.00010967255
+magneticvar = -0.401
+beacons =
+	AS, N16.97500, E8.02322, 0, Agades
+	AS, N16.95630, E7.97483, 0, Agades
+
+[airport1]
+name = Mano Dayak International Airport
+code = DRZA
+runways =
+	rwy1, 07, N16.9609, E7.98706, 68.0, 9843, 0, 0, 1657

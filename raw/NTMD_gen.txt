@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 220
+center = S8.79559993744, W140.229003906
+magneticvar = 10.398
+beacons =
+	NH, S8.79444, W140.22000, 0, Nuku Hiva
+	UK, S8.93581, W139.55099, 0, Ua Huka
+
+line1 =
+	S8.78154, W140.22441
+	S8.79756, W140.24004
+	S8.84805, W140.25269
+	S8.92969, W140.21743
+	S8.93398, W140.17056
+	S8.91045, W140.07261
+	S8.87363, W140.04614
+	S8.83848, W140.04370
+	S8.80146, W140.05767
+	S8.78154, W140.22441
+
+line2 =
+	S9.35938, W140.14438
+	S9.38438, W140.13804
+	S9.44414, W140.09736
+	S9.42598, W140.07563
+	S9.34473, W140.03110
+	S9.32812, W140.07095
+	S9.35938, W140.14438
+
+line3 =
+	S8.87539, W139.53457
+	S8.86006, W139.58398
+	S8.87236, W139.61177
+	S8.89854, W139.63179
+	S8.94795, W139.62100
+	S8.94023, W139.55620
+	S8.91563, W139.50991
+	S8.89707, W139.50835
+	S8.87539, W139.53457
+
+[airport1]
+name = Nuku Hiva Airport
+code = NTMD
+runways =
+	rwy1, 06, S8.79842, W140.236, 68.5, 5578, 0, 0, 220

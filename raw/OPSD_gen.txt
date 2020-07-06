@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7316
+center = N35.3354988098, E75.5360031128
+magneticvar = 2.201
+beacons =
+	SD, N35.34910, E75.53140, 0, Skardu
+
+line1 =
+	N34.38630, E76.78211
+	N34.49828, E76.66078
+	N34.58264, E76.52931
+	N34.63938, E76.38762
+	N34.70832, E76.28509
+	N34.78938, E76.22153
+	N34.86118, E76.19621
+	N34.92366, E76.20892
+	N35.00758, E76.14190
+	N35.11290, E75.99503
+	N35.20953, E75.90201
+	N35.29743, E75.86284
+	N35.33459, E75.79148
+	N35.32095, E75.68781
+	N35.35709, E75.56772
+	N35.44298, E75.43109
+	N35.51086, E75.35285
+	N35.56070, E75.33311
+	N35.58966, E75.26386
+	N35.59772, E75.14521
+	N35.63235, E75.00072
+	N35.69353, E74.83040
+	N35.75348, E74.74007
+	N35.81218, E74.72973
+	N35.83637, E74.70105
+	N35.82603, E74.65403
+	N35.74753, E74.63103
+	N35.60082, E74.63207
+	N35.50003, E74.57532
+	N35.44512, E74.46081
+	N35.41458, E74.34247
+	N35.40841, E74.22031
+
+[airport1]
+name = Skardu Airport
+code = OPSD
+runways =
+	rwy1, 14, N35.3533, E75.5305, 147.0, 11944, 0, 0, 7256
+	rwy2, 15, N35.3384, E75.5268, 152.6, 6501, 0, 0, 7305

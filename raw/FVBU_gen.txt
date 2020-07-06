@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4359
+center = S20.017401, E28.617901
+magneticvar = -10.350
+beacons =
+	IL, S20.01060, E28.60250, 0, J M Nkomo
+	VBU, S20.02910, E28.64390, 0, J M Nkomo
+	WO, S19.98830, E28.55390, 0, J M Nkomo
+	YT, S19.67420, E28.84780, 0, J M Nkomo
+	SZ, S20.29970, E28.94330, 0, J M Nkomo
+
+[airport1]
+name = Joshua Mqabuko Nkomo International Airport
+code = FVBU
+runways =
+	rwy1, 02, S20.0152, E28.6182, 8.0, 4419, 0, 0, 4350
+	rwy2, 13, S20.0162, E28.6152, 115.0, 8491, 0, 0, 4351

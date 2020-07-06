@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = N6.16685009003, E102.292999268
+magneticvar = -0.003
+beacons =
+	VKB, N6.16342, E102.31400, 0, Kota Bharu
+	KB, N6.17500, E102.25500, 0, Kota Bharu
+	VGK, N5.79732, E102.47900, 0, Gong Kedak
+	GK, N5.79806, E102.49000, 0, Gong Kedak
+	NT, N6.52239, E101.74900, 0, Narathiwat
+	NTW, N6.52729, E101.74500, 0, Narathiwat
+	VKT, N5.38583, E103.10300, 0, Kuala Terengganu
+	TU, N5.38300, E103.10700, 0, Kuala Terengganu
+
+line1 =
+	N5.26216, E103.19697
+	N5.40845, E103.09707
+	N5.52495, E102.98242
+	N5.56377, E102.89854
+	N5.64492, E102.79023
+	N5.86255, E102.53438
+	N6.17202, E102.34014
+	N6.20342, E102.27402
+	N6.24224, E102.10107
+	N6.47461, E101.79922
+	N6.75396, E101.61426
+	N6.86528, E101.49795
+	N6.89956, E101.40088
+	N6.90830, E101.30195
+	N6.87515, E101.15439
+
+[airport1]
+name = Sultan Ismail Petra Airport
+code = WMKC
+runways =
+	rwy1, 10, N6.16847, E102.284, 99.7, 6982, 500, 200, 15

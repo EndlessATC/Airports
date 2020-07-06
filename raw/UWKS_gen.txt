@@ -1,0 +1,59 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 558
+center = N56.0903015137, E47.3473014832
+magneticvar = 11.312
+beacons =
+	CR, N56.10500, E47.42830, 0, Cheboksary
+	LA, N56.07330, E47.26170, 0, Cheboksary
+	QM, N55.51670, E46.45000, 0, Shumerlya
+
+line1 =
+	N55.17182, E49.38232
+	N55.11302, E49.24808
+
+line2 =
+	N55.48266, E49.05895
+	N55.23441, E49.28509
+	N55.11302, E49.24808
+
+line3 =
+	N56.13704, E45.28089
+	N56.10185, E45.37328
+	N56.10391, E45.44284
+	N56.14329, E45.48945
+	N56.15957, E45.56014
+	N56.15275, E45.65492
+	N56.16649, E45.73677
+	N56.20083, E45.80571
+	N56.19884, E45.87227
+	N56.16050, E45.93635
+	N56.17156, E46.02503
+	N56.23192, E46.13830
+	N56.28682, E46.29405
+	N56.33628, E46.49218
+	N56.30891, E46.67971
+	N56.20468, E46.85655
+	N56.15078, E47.16594
+	N56.14541, E47.82895
+	N56.12177, E47.88610
+	N56.07335, E47.92739
+	N55.99227, E47.97194
+	N55.92532, E48.06692
+	N55.87246, E48.21233
+	N55.82527, E48.45971
+	N55.78383, E48.80904
+	N55.69298, E49.00252
+	N55.48266, E49.05895
+
+[airport1]
+name = Cheboksary Airport
+code = UWKS
+runways =
+	rwy1, 06, N56.0868, E47.3281, 71.8, 8241, 0, 0, 560
+	rwy2, 06R, N56.0867, E47.3363, 72.7, 4950, 0, 0, 557

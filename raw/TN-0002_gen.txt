@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 21
+center = N36.075833, E10.438611
+magneticvar = 1.219
+beacons =
+	MON, N35.75490, E10.74810, 0, Monastir
+	KDN, N36.82490, E10.30960, 0, Tunis
+	TUC, N36.85160, E10.23030, 0, Tunis
+	CBN, N36.89560, E11.08830, 0, Cap Bon
+
+line1 =
+	N35.24028, E11.12012
+	N35.33511, E11.04326
+	N35.45386, E11.03154
+	N35.55161, E11.00068
+	N35.63384, E11.00430
+	N35.77207, E10.78369
+	N35.79951, E10.68896
+	N35.88726, E10.59082
+	N36.03242, E10.50576
+	N36.17515, E10.47656
+	N36.25488, E10.48799
+	N36.32334, E10.52568
+	N36.41963, E10.64238
+	N36.49312, E10.79814
+	N36.74302, E10.96719
+	N36.84146, E11.05654
+	N36.87407, E11.12666
+	N36.96670, E11.07705
+	N37.07251, E11.05391
+	N37.05928, E10.95137
+	N36.93027, E10.76621
+	N36.87944, E10.57129
+	N36.79136, E10.51816
+	N36.73184, E10.41230
+	N36.78149, E10.29326
+	N36.86538, E10.33408
+	N37.03389, E10.18877
+
+[airport1]
+name = Enfidha - Hammamet International Airport
+code = TN-0002
+
+[airport2]
+name = Monastir Habib Bourguiba International Airport
+code = MB
+runways =
+	rwy1, 07, N35.7541, E10.7384, 74.0, 9678, 0, 0, 8
+inboundbeacon = MON

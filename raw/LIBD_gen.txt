@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 177
+center = N41.138901, E16.760599
+magneticvar = 2.255
+beacons =
+	BAR, N41.14430, E16.77640, 0, Bari
+	BPL, N41.11030, E16.66040, 0, Bari
+	GIO, N40.80130, E16.90130, 0, Gioia Del Colle
+	GIO, N40.80020, E16.90130, 0, Gioia Del Colle
+	ORT, N41.39970, E15.78420, 0, Ortanova
+	AME, N41.50000, E15.83780, 0, Amendola
+	GRT, N40.44600, E17.42210, 0, Grottaglie
+	MNL, N41.53790, E15.71000, 0, Amendola
+	VIE, N41.91330, E16.05110, 0, Vieste
+	VIE, N41.91290, E16.04910, 0, Vieste
+
+line1 =
+	N40.32646, E16.80703
+	N40.45806, E16.92822
+	N40.51348, E17.03125
+	N40.50278, E17.17998
+	N40.48643, E17.21533
+	N40.43789, E17.24941
+	N40.39907, E17.25771
+	N40.34023, E17.39580
+	N40.31494, E17.47617
+	N40.28018, E17.86504
+
+line2 =
+	N40.56494, E18.03613
+	N40.65518, E17.95498
+	N40.84058, E17.47422
+	N40.97544, E17.27520
+	N41.06216, E17.10342
+	N41.23203, E16.55186
+	N41.43540, E16.01260
+	N41.51206, E15.90049
+	N41.62085, E15.91377
+	N41.70078, E16.03369
+	N41.75850, E16.15127
+	N41.81401, E16.18916
+	N41.89619, E16.16465
+	N41.92812, E16.06152
+	N41.93945, E15.96406
+	N41.91323, E15.40498
+
+[airport1]
+name = Bari Karol Wojtyła Airport
+code = LIBD
+runways =
+	rwy1, 12, N41.1443, E16.7795, 123.0, 512, 0, 0, 108

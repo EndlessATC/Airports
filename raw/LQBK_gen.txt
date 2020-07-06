@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 400
+center = N44.9413986206, E17.2975006104
+magneticvar = 2.504
+beacons =
+	LAK, N44.94170, E17.29580, 0, Banja Luka
+	LU, N44.96080, E17.29580, 0, Banja Luka
+	NA, N44.92080, E17.30580, 0, Banja Luka
+	BLK, N45.09530, E17.25810, 0, Banja Luka
+	OMA, N44.95720, E16.80810, 0, Omarska
+	DER, N44.98410, E17.96940, 0, Derventa
+	VBA, N45.74780, E17.14670, 0, Barna
+
+line1 =
+	N45.93469, E18.75930
+	N45.83576, E18.83909
+	N45.76710, E18.89449
+
+line2 =
+	N45.94133, E17.52919
+	N45.91379, E17.60702
+	N45.86836, E17.63968
+	N45.82725, E17.70639
+	N45.79041, E17.80716
+	N45.77028, E17.96384
+	N45.76517, E18.28274
+	N45.62672, E18.55084
+	N45.57365, E18.71207
+
+line3 =
+	N45.93172, E18.90539
+	N45.86552, E18.89356
+	N45.83576, E18.83909
+
+[airport1]
+name = Banja Luka International Airport
+code = LQBK
+runways =
+	rwy1, 17, N44.9524, E17.2946, 170.0, 8213, 0, 0, 376

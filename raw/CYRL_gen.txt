@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1265
+usa = true
+transition = 18001
+center = N51.0668983459, W93.7930984497
+magneticvar = 0.399
+beacons =
+	RL, N51.06080, W93.78490, 0, Red Lake
+	YRL, N51.07140, W93.76190, 0, Red Lake
+	YMY, N50.72080, W93.37890, 0, Ear Falls
+	YPM, N51.82310, W93.97330, 0, Pikangikum
+
+line1 =
+	N51.07119, W93.16450
+	N51.05493, W93.18179
+	N51.03857, W93.19961
+	N51.03350, W93.23540
+	N51.07461, W93.31958
+	N51.15361, W93.42930
+	N51.20815, W93.48130
+	N51.23657, W93.48018
+	N51.26401, W93.45527
+	N51.29204, W93.40576
+	N51.30151, W93.37002
+	N51.28613, W93.34355
+	N51.27949, W93.28330
+	N51.29893, W93.21514
+	N51.29473, W93.17456
+	N51.27295, W93.14106
+	N51.24077, W93.12324
+	N51.20732, W93.10146
+	N51.17334, W93.07163
+	N51.15903, W93.07363
+	N51.12280, W93.13730
+	N51.07119, W93.16450
+	N51.07119, W93.16450
+	N51.07119, W93.16450
+
+line2 =
+	N51.97388, W92.29914
+	N51.94784, W92.23723
+	N51.95125, W92.15496
+	N51.98752, W91.97017
+
+line3 =
+	N50.10087, W94.63920
+	N50.13456, W94.66804
+	N50.14330, W94.74514
+	N50.14960, W94.80870
+	N50.13095, W94.93133
+	N50.14102, W94.99939
+	N50.17993, W95.01288
+	N50.21983, W95.07267
+	N50.26081, W95.17881
+	N50.33980, W95.20664
+	N50.36556, W95.27570
+	N50.36897, W95.39753
+	N50.32318, W95.50556
+	N50.22820, W95.59982
+
+[airport1]
+name = Red Lake Airport
+code = CYRL
+runways =
+	rwy1, 08, N51.0658, W93.8039, 80.7, 5001, 0, 0, 1236

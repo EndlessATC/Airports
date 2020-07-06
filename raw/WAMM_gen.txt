@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 264
+center = N1.54926002026, E124.926002502
+magneticvar = 1.081
+beacons =
+	MNO, N1.55518, E124.92800, 0, Manado
+	PN, N1.49362, E124.90900, 0, Manado
+	MD, N1.48083, E124.83900, 0, Manado
+	MWB, N1.32325, E124.95500, 0, Manado
+
+line1 =
+	N0.83818, E123.84668
+	N0.85044, E123.93076
+	N1.02227, E124.27363
+	N1.18511, E124.41084
+	N1.23047, E124.53369
+	N1.30405, E124.57539
+	N1.39243, E124.60020
+	N1.41616, E124.64375
+	N1.44141, E124.74668
+	N1.46758, E124.78770
+	N1.57603, E124.86064
+	N1.67217, E124.94707
+	N1.70103, E124.98926
+	N1.68569, E125.11094
+	N1.64365, E125.16484
+	N1.50229, E125.23379
+	N1.47871, E125.22168
+	N1.40840, E125.14092
+	N1.37891, E125.11748
+	N1.18022, E125.02803
+	N1.08262, E124.96680
+	N0.99531, E124.88887
+	N0.82559, E124.69814
+	N0.74355, E124.63984
+	N0.65527, E124.58906
+	N0.55713, E124.51406
+
+[airport1]
+name = Sam Ratulangi Airport
+code = WAMM
+runways =
+	rwy1, 18, N1.55934, E124.926, 181.9, 8693, 0, 0, 270

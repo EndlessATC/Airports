@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1789
+center = N42.5728, E21.035801
+magneticvar = 3.304
+beacons =
+	PRT, N42.57250, E21.03140, 0, Pristina
+	PRI, N42.72860, E21.01820, 0, Pristina
+	BS, N42.35680, E21.24960, 0, Bondsteel
+	BUI, N42.63300, E20.49580, 0, Budisavci
+	DAK, N42.43000, E20.43170, 0, Dakovica
+	VRN, N42.55540, E21.91140, 0, Vranje
+	BLC, N43.24670, E21.36220, 0, Blace
+	BLC, N43.24870, E21.36160, 0, Blace
+	SKJ, N41.93500, E21.63060, 0, Skopje
+	ZO, N43.18360, E21.72460, 0, Nis
+	PT, N41.91420, E21.63810, 0, Skopje
+	NIS, N43.34650, E21.82710, 0, Nis
+
+line1 =
+	N41.85615, E19.46826
+	N41.78750, E19.57754
+	N41.64043, E19.57568
+	N41.59683, E19.54580
+
+[airport1]
+name = Priština International Airport
+code = BKPR
+runways =
+	rwy1, 17, N42.5853, E21.0346, 176.0, 8165, 0, 0, 1789

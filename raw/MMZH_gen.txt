@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 26
+center = N17.601600647, W101.460998535
+magneticvar = 6.519
+beacons =
+	ZIH, N17.60320, W101.47700, 0, Zihuatanejo
+
+line1 =
+	N18.04141, W102.54697
+	N17.95742, W102.21660
+	N17.97271, W101.99551
+	N17.95977, W101.91870
+	N17.92227, W101.84707
+	N17.84199, W101.76240
+	N17.65156, W101.60029
+	N17.61533, W101.48706
+	N17.51421, W101.38550
+	N17.39312, W101.14785
+	N17.27612, W101.00195
+	N17.20049, W100.84780
+	N17.06406, W100.43188
+	N16.98418, W100.24302
+
+[airport1]
+name = Ixtapa Zihuatanejo International Airport
+code = MMZH
+runways =
+	rwy1, 08, N17.6019, W101.472, 91.6, 8202, 0, 0, 10

@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 30
+center = N19.1448001862, W104.558998108
+magneticvar = 7.476
+beacons =
+	ZLO, N19.15010, W104.57200, 0, Manzanillo
+
+line1 =
+	N20.07539, W105.53242
+	N19.97607, W105.48208
+	N19.70649, W105.28638
+	N19.56221, W105.10767
+	N19.44326, W105.04521
+	N19.30938, W104.93848
+	N19.15288, W104.60298
+	N19.09121, W104.40518
+	N19.01099, W104.27700
+	N18.91182, W104.04565
+	N18.82847, W103.91245
+	N18.63296, W103.69893
+	N18.48438, W103.58027
+	N18.32539, W103.44160
+
+[airport1]
+name = Playa De Oro International Airport
+code = MMZO
+runways =
+	rwy1, 10, N19.1475, W104.569, 106.0, 7218, 0, 0, 35

@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 352
+usa = true
+center = S30.0391998291, E145.95199585
+magneticvar = 10.006
+beacons =
+	BKE, S30.04330, E145.94901, 0, Bourke
+	BRW, S29.97470, E146.81200, 0, Brewarrina
+
+line1 =
+	S30.12219, E147.26174
+	S30.10700, E147.20118
+	S30.07816, E147.18195
+	S30.02680, E147.04806
+	S29.95295, E146.79949
+	S29.92753, E146.65552
+	S29.95047, E146.61615
+	S29.96241, E146.46024
+	S29.96334, E146.18770
+	S29.98349, E146.04300
+	S30.02282, E146.02605
+	S30.10302, E145.90895
+	S30.22394, E145.69181
+	S30.31567, E145.56500
+	S30.37820, E145.52846
+	S30.40946, E145.46722
+	S30.40946, E145.33824
+	S30.46382, E145.27199
+	S30.48088, E145.21907
+	S30.47881, E145.15748
+	S30.51033, E145.10962
+	S30.57550, E145.07541
+	S30.62619, E145.00772
+	S30.66247, E144.90633
+	S30.73301, E144.81331
+	S30.83796, E144.72846
+	S30.90049, E144.62211
+
+[airport1]
+name = Bourke Airport
+code = YBKE
+runways =
+	rwy1, 05, S30.0449, E145.937, 64.0, 6004, 0, 0, 350
+	rwy2, 18, S30.0324, E145.957, 188.0, 3281, 0, 0, 352

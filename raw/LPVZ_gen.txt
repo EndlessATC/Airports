@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2060
+center = N40.725498, W7.88899
+magneticvar = -3.587
+beacons =
+	VIS, N40.72330, W7.88583, 0, Viseu
+	VR, N41.21530, W7.74389, 0, Vila Real
+	COV, N40.29920, W7.42583, 0, Covilha
+	OVR, N40.88700, W8.64335, 0, Ovar
+	PG, N41.07810, W8.63667, 0, Porto
+	CB, N40.16060, W8.47194, 0, Coimbra
+	PRT, N41.27310, W8.68778, 0, Porto
+	POR, N41.34810, W8.70806, 0, Porto
+	MTL, N39.90780, W8.88361, 0, Monte Real
+
+line1 =
+	N41.70518, W8.84639
+	N41.69839, W8.75542
+	N41.65195, W8.81084
+	N41.56001, W8.80566
+	N41.28467, W8.73838
+	N41.15449, W8.67461
+	N41.08628, W8.65981
+	N41.02949, W8.65557
+	N40.91650, W8.67397
+	N40.75254, W8.68462
+	N40.65093, W8.73159
+	N40.60566, W8.77241
+	N40.25908, W8.87266
+	N40.17944, W8.88662
+	N40.15181, W8.85132
+	N40.11567, W8.83784
+	N39.82056, W9.00405
+
+line2 =
+	N41.37541, W6.40314
+	N41.30373, W6.56592
+	N41.21449, W6.69015
+	N41.10772, W6.77578
+	N41.06240, W6.88280
+	N41.07853, W7.01127
+	N41.11299, W7.08481
+	N41.16576, W7.10349
+	N41.18942, W7.24438
+	N41.18121, W7.65121
+	N41.09183, W8.23481
+	N41.08421, W8.42548
+	N41.12757, W8.55549
+	N41.15449, W8.67461
+
+line3 =
+	N39.74610, W6.53290
+	N39.77005, W6.72607
+	N39.75693, W6.89640
+
+[airport1]
+name = Aerodromo Goncalves Lobato (Viseu Airport)
+code = LPVZ
+runways =
+	rwy1, 01, N40.72, W7.8885, 356.0, 4015, 192, 214, 2060

@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 594
+center = N31.9094009399, E70.8965988159
+magneticvar = 1.529
+beacons =
+	DI, N31.90870, E70.88850, 0, D I Khan
+	DI, N31.91260, E70.88570, 0, D I Khan
+	MI, N32.56630, E71.56620, 0, Mianwali
+
+line1 =
+	N31.18332, E72.13878
+	N31.11634, E72.13919
+	N31.04777, E72.10312
+
+line2 =
+	N31.32848, E72.24699
+	N31.25634, E72.23841
+	N31.21102, E72.21030
+	N31.18332, E72.13857
+
+line3 =
+	N32.83769, E71.42472
+	N32.68888, E71.35454
+	N32.48355, E71.34410
+	N32.31110, E71.27299
+	N31.99908, E71.07022
+	N31.56949, E70.86108
+	N31.29969, E70.80077
+	N30.91984, E70.82899
+
+[airport1]
+name = Dera Ismael Khan Airport
+code = OPDI
+runways =
+	rwy1, 12, N31.9127, E70.8896, 118.8, 5000, 0, 0, 594

@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 175
+center = N29.6116008759, E35.0181007385
+magneticvar = 3.241
+beacons =
+	AQB, N29.58350, E35.00820, 0, Aqaba
+	AQ, N29.58020, E35.00700, 0, Aqaba
+	LOT, N29.60780, E34.97560, 0, Eilot
+	TBA, N29.60670, E34.79740, 0, Taba
+	TBA, N29.60670, E34.74830, 0, Taba
+	AQC, N29.90230, E35.11900, 0, Aqaba
+	OVD, N29.94220, E34.93310, 0, Ovda
+	OVD, N29.96670, E34.94720, 0, Ovda
+	AQA, N30.22650, E35.22140, 0, Aqaba
+	NWB, N29.03220, E34.67110, 0, Nuweibaa
+
+line1 =
+	N28.75791, E34.61719
+	N29.27061, E34.73643
+	N29.43213, E34.84854
+	N29.47734, E34.90430
+	N29.55503, E34.97344
+	N29.48447, E34.98223
+	N29.35352, E34.95078
+	N28.72051, E34.79912
+
+[airport1]
+name = Aqaba King Hussein International Airport
+code = OJAQ
+runways =
+	rwy1, 01, N29.598, E35.0133, 19.0, 9855, 0, 0, 175
+
+[airport2]
+name = Ramon Airport
+code = ER
+inboundbeacon = LOT
+
+[airport3]
+name = Ovda International Airport
+code = OV
+runways =
+	rwy2, 02L, N29.93, E34.9291, 22.0, 8530, 492, 492, 1488
+	rwy3, 02R, N29.9272, E34.9317, 22.0, 9843, 492, 492, 1492
+inboundbeacon = OVD

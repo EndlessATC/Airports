@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 21
+usa = true
+center = S33.9460983276, E151.177001953
+magneticvar = 12.157
+beacons =
+	SY, S33.94280, E151.18099, 0, Sydney
+	SDM, S33.91530, E151.16701, 0, Sydenham
+	BK, S33.92830, E150.98900, 0, Bankstown
+	GLF, S33.98670, E150.97600, 0, Glenfield
+	CN, S34.03860, E150.69200, 0, Camden
+	RIC, S33.60740, E150.79900, 0, Richmond
+	RIC, S33.59690, E150.77600, 0, Richmond
+	CAA, S33.40280, E151.21100, 0, Calga (Closed May 2016)
+	WOL, S34.55790, E150.79100, 0, Wollongong
+	KAT, S33.71080, E150.30000, 0, Katoomba
+
+line1 =
+	S33.09863, E151.66836
+	S33.20186, E151.60771
+	S33.30098, E151.53008
+	S33.34746, E151.48379
+	S33.39736, E151.46338
+	S33.52158, E151.43203
+	S33.54395, E151.35752
+	S33.58096, E151.29209
+	S33.69932, E151.32275
+	S33.83486, E151.28838
+	S33.92666, E151.28027
+	S33.98506, E151.24463
+	S33.96406, E151.20166
+	S33.97344, E151.16787
+	S34.00527, E151.12480
+	S34.01523, E151.19121
+	S34.02969, E151.23154
+	S34.16250, E151.08994
+	S34.29707, E150.96035
+	S34.38662, E150.92744
+	S34.49912, E150.87129
+	S34.74922, E150.82188
+	S34.89219, E150.78105
+
+[airport1]
+name = Sydney Kingsford Smith International Airport
+code = YSSY
+runways =
+	rwy1, 07, S33.9437, E151.164, 74.0, 8300, 0, 324, 16
+	rwy2, 16L, S33.9496, E151.188, 168.0, 7999, 758, 125, 16
+	rwy3, 16R, S33.9294, E151.172, 168.0, 12999, 279, 0, 8

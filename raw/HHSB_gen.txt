@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 46
+center = N13.0718002319, E42.6450004578
+magneticvar = 1.409
+beacons =
+	SB, N13.06590, E42.64540, 0, Assab
+
+line1 =
+	N13.67363, E42.68975
+	N13.70430, E42.75586
+	N13.76611, E42.79414
+	N13.76929, E42.78125
+	N13.75298, E42.73496
+	N13.67363, E42.68975
+
+line2 =
+	N14.00791, E42.69404
+	N13.95488, E42.75605
+	N13.95024, E42.77422
+	N13.97148, E42.78740
+	N14.01226, E42.79834
+	N14.06748, E42.76211
+	N14.00791, E42.69404
+
+line3 =
+	N12.09126, E43.38027
+	N12.18994, E43.40977
+	N12.36704, E43.35352
+	N12.46387, E43.29863
+	N12.66045, E43.13086
+	N12.70859, E43.11670
+	N12.82461, E43.08291
+	N12.89951, E42.99902
+	N12.80835, E42.96953
+	N12.86426, E42.79619
+	N13.01860, E42.73447
+	N13.22148, E42.52285
+	N13.21260, E42.39932
+	N13.39810, E42.34648
+	N13.58765, E42.24512
+	N13.98306, E41.65820
+
+line4 =
+	N14.01099, E43.08906
+	N13.85894, E43.23408
+	N13.69253, E43.28242
+	N13.63984, E43.28262
+	N13.26709, E43.23193
+	N12.83901, E43.47529
+	N12.69883, E43.48760
+	N12.74448, E43.63438
+	N12.67441, E43.83535
+
+[airport1]
+name = Assab International Airport
+code = HHSB
+runways =
+	rwy1, 12, N13.0798, E42.631, 120.2, 11531, 0, 0, 0

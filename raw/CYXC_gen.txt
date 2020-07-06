@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3082
+usa = true
+transition = 18001
+center = N49.6108016968, W115.781997681
+magneticvar = 16.022
+beacons =
+	IXC, N49.61640, W115.78300, 0, Cranbrook
+	XC, N49.68250, W115.78300, 0, Cranbrook
+	YXC, N49.55500, W116.08800, 0, Cranbrook
+	SX, N49.95500, W115.79200, 0, Skookum
+	5M, N49.83720, W114.88400, 0, Sparwood
+	W6, N49.17640, W116.60500, 0, Creston North
+	D6, N50.32690, W115.87700, 0, Fairmont Hot Springs
+	U6, N49.04310, W116.48000, 0, Creston
+	EUR, N48.96390, W115.09200, 0, Eureka
+
+line1 =
+	N50.28747, W115.86543
+	N50.59149, W116.08141
+
+line2 =
+	N49.02706, W117.41399
+	N49.00693, W117.33673
+	N48.96063, W117.32382
+	N48.90508, W117.33937
+	N48.84020, W117.38345
+	N48.75338, W117.39123
+	N48.64460, W117.36270
+
+[airport1]
+name = Cranbrook/Canadian Rockies International Airport
+code = CYXC
+runways =
+	rwy1, 16, N49.6197, W115.783, 178.1, 6000, 0, 0, 3034

@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3127
+center = N19.4750995636, W96.7975006104
+magneticvar = 4.599
+beacons =
+	VER, N19.14320, W96.18910, 0, Veracruz
+	NAU, N20.19170, W96.74550, 0, Nautla
+	NAU, N20.20750, W96.76530, 0, Nautla
+
+line1 =
+	N18.71914, W95.56143
+	N18.77490, W95.69712
+	N18.76836, W95.71982
+	N18.72368, W95.65493
+	N18.69043, W95.57832
+	N18.69058, W95.62681
+	N18.75464, W95.82109
+	N18.81958, W95.92036
+	N18.85010, W95.92822
+	N18.80386, W95.81035
+	N18.80552, W95.77812
+	N18.89717, W95.91304
+	N19.05376, W95.98467
+	N19.10566, W96.07339
+	N19.19907, W96.12397
+	N19.34375, W96.28955
+	N19.47285, W96.31533
+	N19.56724, W96.36836
+	N19.86978, W96.45605
+	N20.18828, W96.70869
+
+[airport1]
+name = El Lencero Airport
+code = MMJA
+runways =
+	rwy1, 08, N19.4746, W96.8056, 86.4, 5577, 0, 960, 3136

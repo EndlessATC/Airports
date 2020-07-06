@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1513
+center = N4.87201023102, E31.6011009216
+magneticvar = 1.231
+beacons =
+	JUB, N4.88866, E31.58150, 0, Juba
+
+line1 =
+	N3.94449, E31.71122
+	N4.10135, E31.58777
+	N4.19450, E31.54395
+	N4.32604, E31.51718
+	N4.49595, E31.50746
+	N4.60602, E31.52524
+	N4.65633, E31.57040
+	N4.81661, E31.63521
+	N5.08687, E31.71944
+	N5.29978, E31.77029
+	N5.45527, E31.78765
+	N5.58948, E31.78900
+	N5.70239, E31.77432
+	N5.80161, E31.74342
+
+[airport1]
+name = Juba International Airport
+code = HSSJ
+runways =
+	rwy1, 13, N4.87902, E31.5929, 130.2, 7874, 0, 0, 1503

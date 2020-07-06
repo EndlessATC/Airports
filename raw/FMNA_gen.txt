@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 374
+center = S12.3493995667, E49.2916984558
+magneticvar = -8.531
+beacons =
+	DO, S12.34630, E49.28940, 0, Arrachart
+
+line1 =
+	S13.26748, E48.79648
+	S12.93584, E48.91035
+	S12.83906, E48.91943
+	S12.72168, E48.89424
+	S12.61016, E48.85381
+	S12.47090, E48.78633
+	S12.44004, E48.80391
+	S12.45850, E48.89961
+	S12.43906, E48.93174
+	S12.31582, E49.03574
+	S12.07959, E49.20703
+	S12.08018, E49.26348
+	S12.12393, E49.31211
+	S12.18867, E49.33018
+	S12.23633, E49.36396
+	S12.34844, E49.47979
+	S12.43213, E49.53828
+	S12.53672, E49.58418
+	S12.63711, E49.63779
+	S12.87969, E49.80498
+	S12.97305, E49.87646
+	S13.07227, E49.93750
+	S13.27021, E49.96719
+
+line2 =
+	S13.30957, E48.35107
+	S13.19824, E48.30889
+	S13.20459, E48.26973
+	S13.25605, E48.25566
+	S13.25996, E48.19121
+
+[airport1]
+name = Arrachart Airport
+code = FMNA
+runways =
+	rwy1, 13, S12.3456, E49.2861, 124.0, 4921, 0, 0, 312

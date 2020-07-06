@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 962
+usa = true
+transition = 18001
+center = N41.3385009766, W75.7233963013
+magneticvar = -12.419
+beacons =
+	LVZ, N41.27280, W75.68950, 0, Wilkes-Barre
+	AV, N41.27690, W75.77570, 0, Barty
+	CYE, N41.21040, W75.83180, 0, Crystal Lake
+	LHY, N41.47580, W75.48260, 0, Lake Henry
+	HZL, N40.97510, W76.12580, 0, Hazleton
+	LQX, N40.81200, W75.75910, 0, Carbon
+	FJC, N40.72670, W75.45480, 0, Allentown
+	STW, N40.99580, W74.86900, 0, Stillwater
+	PIX, N41.27680, W76.71010, 0, Picture Rocks
+	ETX, N40.58100, W75.68400, 0, East Texas
+	AB, N40.58580, W75.54960, 0, Leehi
+	MIP, N41.02340, W76.66530, 0, Milton
+	MS, N41.76660, W74.86080, 0, Monga
+	BG, N42.10470, W75.89120, 0, Smite
+	HNK, N42.06310, W75.31630, 0, Hancock
+	FQM, N41.33860, W76.77490, 0, Williamsport
+	BWZ, N40.79840, W74.82180, 0, Broadway
+	CFB, N42.15750, W76.13650, 0, Binghamton
+	RAV, N40.55340, W76.59940, 0, Ravine
+	SBJ, N40.58300, W74.74170, 0, Solberg
+
+line1 =
+	N40.61460, W74.18818
+	N40.51870, W74.23589
+	N40.52285, W74.18813
+
+line2 =
+	N40.45625, W74.24150
+	N40.52861, W74.26421
+	N40.60801, W74.22671
+	N40.64800, W74.18716
+
+[airport1]
+name = Wilkes Barre Scranton International Airport
+code = KAVP
+runways =
+	rwy1, 04, N41.3287, W75.7315, 33.0, 7501, 0, 0, 962
+	rwy2, 10, N41.3406, W75.7299, 92.0, 4300, 0, 0, 922

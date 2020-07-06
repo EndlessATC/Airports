@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4
+center = N10.4424, W75.513
+magneticvar = -6.139
+beacons =
+	CT, N10.39670, W75.53080, 0, Cartagena
+	CTG, N10.20920, W75.50670, 0, Cartagena
+	BAQ, N10.79670, W74.86030, 0, Barranquilla
+	AQ, N10.87180, W74.79620, 0, Barranquilla
+
+line1 =
+	N10.81372, W74.35020
+	N10.76523, W74.40088
+	N10.78706, W74.46025
+	N10.86250, W74.51626
+	N10.93447, W74.49229
+	N10.96719, W74.40957
+	N10.97466, W74.35239
+	N10.99668, W74.33022
+	N10.98906, W74.45425
+	N11.10972, W74.84458
+	N11.05757, W74.92158
+	N10.87041, W75.12305
+	N10.78325, W75.24795
+	N10.72720, W75.28062
+	N10.61089, W75.44600
+	N10.52764, W75.49277
+	N10.32773, W75.55371
+	N10.19634, W75.67090
+	N10.14341, W75.70835
+	N10.17217, W75.64219
+	N10.23643, W75.55840
+	N10.20518, W75.53857
+	N10.12583, W75.59590
+	N9.99272, W75.59268
+	N9.83428, W75.63711
+	N9.72979, W75.68003
+	N9.65781, W75.63535
+	N9.53848, W75.60361
+	N9.45044, W75.63936
+
+line2 =
+	N9.49423, W74.79530
+	N9.58559, W74.78610
+	N9.69093, W74.80564
+	N9.81020, W74.85400
+	N9.90870, W74.85974
+	N9.98642, W74.82290
+	N10.06034, W74.84031
+	N10.13049, W74.91204
+	N10.27545, W74.89240
+	N10.49517, W74.78145
+	N10.68353, W74.72667
+	N10.84058, W74.72807
+	N10.97230, W74.76135
+	N11.10971, W74.84457
+
+[airport1]
+name = Rafael Nuñez International Airport
+code = SKCG
+runways =
+	rwy1, 01, N10.4306, W75.5134, 2.3, 8530, 0, 190, 4

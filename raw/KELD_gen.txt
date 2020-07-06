@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 277
+usa = true
+transition = 18001
+center = N33.2210006714, W92.8133010864
+magneticvar = 2.395
+beacons =
+	ELD, N33.25620, W92.74390, 0, El Dorado
+	CDH, N33.61350, W92.76750, 0, Camden
+	HMQ, N32.79010, W93.00070, 0, Homer
+	SPH, N32.92030, W93.40940, 0, Springhill
+	ROQ, N32.60860, W92.58830, 0, Ruston
+	REN, N33.54710, W92.09600, 0, Warren
+	MNE, N32.64080, W93.30210, 0, Minden
+	LPZ, N32.51570, W92.62740, 0, Lincoln Parish
+	TUF, N32.40890, W92.58950, 0, Stuckey
+	HPC, N33.71780, W93.64880, 0, Hope
+	BQP, N32.75510, W91.88350, 0, Bastrop
+	MLU, N32.51690, W92.03600, 0, Monroe
+	ML, N32.45350, W92.10370, 0, Sabar
+	BAD, N32.50330, W93.66780, 0, Barksdale
+	DTN, N32.53990, W93.74130, 0, Downtown
+	EMG, N32.40020, W93.59510, 0, Elm Grove
+
+line1 =
+	N34.06629, W91.43914
+	N34.09099, W91.48751
+	N34.10030, W91.56373
+	N34.15311, W91.68246
+
+[airport1]
+name = South Arkansas Regional At Goodwin Field
+code = KELD
+runways =
+	rwy1, 04, N33.2139, W92.8188, 45.9, 6600, 0, 0, 259
+	rwy2, 13, N33.2276, W92.8185, 136.0, 5100, 0, 0, 277
+	rwy3, 17, N33.2253, W92.818, 181.0, 3733, 0, 0, 275

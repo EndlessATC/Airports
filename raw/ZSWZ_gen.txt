@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N27.912201, E120.851997
+magneticvar = -4.169
+beacons =
+	KN, N27.74330, E120.65000, 0, Dongshan
+
+line1 =
+	N28.20439, E121.20547
+	N28.13525, E121.13398
+	N28.06260, E121.13154
+	N28.06250, E121.16426
+	N28.08643, E121.25137
+	N28.14521, E121.25098
+	N28.18130, E121.23438
+	N28.20439, E121.20547
+
+line2 =
+	N27.09707, E120.27871
+	N27.15552, E120.38457
+	N27.25625, E120.46865
+	N27.31836, E120.53984
+	N27.41240, E120.60752
+	N27.48213, E120.62910
+	N27.58076, E120.58750
+	N27.63945, E120.66484
+	N27.68789, E120.66133
+	N27.74458, E120.68516
+	N27.89146, E120.83301
+	N27.93779, E120.83301
+	N27.97744, E120.76348
+	N28.00996, E120.74766
+	N28.01338, E120.81299
+	N28.00391, E120.89248
+	N28.03701, E120.95859
+	N28.15728, E121.03545
+	N28.29053, E121.09844
+	N28.32666, E121.14570
+	N28.34619, E121.21680
+	N28.22212, E121.27227
+	N28.22988, E121.35459
+	N28.32427, E121.50996
+	N28.29214, E121.60996
+	N28.36660, E121.60205
+	N28.52109, E121.53809
+	N28.64141, E121.47520
+	N28.71367, E121.51914
+	N28.73481, E121.59033
+	N28.76792, E121.63008
+	N28.85142, E121.66250
+
+[airport1]
+name = Wenzhou Longwan International Airport
+code = ZSWZ

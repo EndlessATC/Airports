@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 30
+center = S23.8763999939, E35.4085006714
+magneticvar = -17.093
+beacons =
+	IN, S23.86740, E35.40010, 0, Inhambane
+
+line1 =
+	S24.82129, E34.60732
+	S24.65059, E34.99209
+	S24.54141, E35.15596
+	S24.43027, E35.25488
+	S24.17119, E35.43809
+	S24.06553, E35.48965
+	S23.82441, E35.54199
+	S23.78496, E35.52246
+	S23.78447, E35.48535
+	S23.85107, E35.46211
+	S23.83770, E35.39883
+	S23.79824, E35.37041
+	S23.70781, E35.37695
+	S23.18516, E35.49443
+	S22.96309, E35.57539
+
+[airport1]
+name = Inhambane Airport
+code = FQIN
+runways =
+	rwy1, 06, S23.8787, E35.405, 47.0, 2625, 0, 0, 0
+	rwy2, 16, S23.8706, E35.4048, 149.0, 4921, 0, 0, 16

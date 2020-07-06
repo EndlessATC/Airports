@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 59
+center = S31.718399, W52.327702
+magneticvar = -13.302
+beacons =
+	PTS, S31.71920, W52.32730, 0, Pelotas
+	PTS, S31.71350, W52.33070, 0, Pelotas
+	RND, S32.08300, W52.16330, 0, Rio Grande
+	RG, S32.14930, W52.10370, 0, Canal
+
+line1 =
+	S32.43975, W52.34165
+	S32.32373, W52.27461
+	S32.22080, W52.19019
+	S32.16777, W52.12739
+	S32.08848, W52.16709
+	S31.96758, W52.19155
+	S31.88555, W52.19355
+	S31.69492, W52.11982
+	S31.59902, W52.02695
+	S31.48994, W51.99487
+	S31.38379, W51.97246
+	S31.33887, W51.92681
+	S31.24375, W51.71689
+	S31.10449, W51.50630
+	S31.05264, W51.46367
+	S30.97754, W51.48525
+	S30.91279, W51.45913
+	S30.84688, W51.37646
+
+line2 =
+	S31.09424, W50.98008
+	S31.08135, W51.10596
+	S31.11885, W51.16143
+	S31.26680, W51.15752
+	S31.33975, W51.17432
+	S31.47695, W51.27217
+	S31.55732, W51.44619
+	S31.77461, W51.68066
+	S31.79668, W51.80342
+	S31.83203, W51.84121
+	S31.86777, W51.89316
+	S31.81504, W51.99512
+	S31.83037, W52.06323
+	S31.91348, W52.05957
+	S31.97754, W52.04316
+	S32.06309, W52.06895
+	S32.11484, W52.03921
+	S31.98955, W51.92021
+	S31.90029, W51.79814
+	S31.70244, W51.46040
+	S31.48037, W51.15176
+
+[airport1]
+name = João Simões Lopes Neto International Airport
+code = SBPK

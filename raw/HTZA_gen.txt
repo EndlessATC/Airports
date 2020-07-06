@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 54
+center = S6.22202, E39.224899
+magneticvar = -2.208
+beacons =
+	ZZ, S6.21734, E39.22240, 0, Zanzibar
+	DM, S6.82269, E39.25820, 0, Dar Es Salaam
+	DR, S6.88528, E39.20530, 0, Dar Es Salaam
+	DV, S6.88865, E39.19270, 0, Dar Es Salaam
+	DS, S6.92739, E39.15360, 0, Dar Es Salaam
+
+line1 =
+	S6.16621, E39.48789
+	S6.11543, E39.43330
+	S5.95117, E39.36826
+	S5.81152, E39.35723
+	S5.72197, E39.30898
+	S5.85313, E39.26699
+	S5.93105, E39.19238
+	S6.08320, E39.20625
+	S6.17256, E39.18232
+	S6.27500, E39.24346
+	S6.27910, E39.31270
+	S6.36494, E39.38262
+	S6.34785, E39.42363
+	S6.41973, E39.44736
+	S6.45371, E39.48096
+	S6.45166, E39.50918
+	S6.42725, E39.56318
+	S6.38740, E39.57305
+	S6.17461, E39.49648
+	S6.16621, E39.48789
+
+line2 =
+	S5.44385, E39.74932
+	S5.39443, E39.79590
+	S5.25547, E39.85303
+
+line3 =
+	S5.36855, E39.64678
+	S5.40664, E39.67344
+	S5.42949, E39.70762
+	S5.44385, E39.74932
+
+line4 =
+	S7.20703, E39.43340
+	S7.12412, E39.51924
+	S7.02402, E39.54609
+	S6.87861, E39.47236
+	S6.81494, E39.28730
+	S6.68525, E39.22842
+	S6.55596, E39.12549
+	S6.49932, E39.06738
+	S6.45508, E38.98145
+	S6.33125, E38.87402
+	S6.20488, E38.85527
+	S6.07012, E38.80469
+	S5.87764, E38.81924
+	S5.62598, E38.91104
+	S5.51855, E38.97822
+	S5.23154, E39.05830
+
+[airport1]
+name = Abeid Amani Karume International Airport
+code = HTZA
+runways =
+	rwy1, 18, S6.21098, E39.2238, 174.0, 8077, 0, 0, 54

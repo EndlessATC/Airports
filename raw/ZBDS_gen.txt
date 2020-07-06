@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4557
+metric = true
+center = N39.49, E109.861388889
+
+line1 =
+	N40.48404, E110.30338
+	N40.37294, E110.50522
+	N40.30186, E110.67452
+	N40.27082, E110.81146
+	N40.26571, E110.91853
+	N40.28648, E110.99600
+	N40.23462, E111.12534
+	N40.11014, E111.30673
+
+line2 =
+	N39.48829, E111.37256
+	N39.42953, E111.28425
+	N39.41380, E111.21226
+	N39.39992, E111.16813
+	N39.37005, E111.15583
+	N39.34744, E111.15500
+	N39.29657, E111.19226
+	N39.23957, E111.19934
+	N39.12474, E111.14488
+	N39.04405, E111.08142
+	N38.99749, E111.00886
+	N38.95628, E110.98029
+	N38.92042, E110.99569
+	N38.83220, E110.97042
+	N38.69157, E110.90448
+	N38.59979, E110.87786
+	N38.55685, E110.89058
+
+[airport1]
+name = Ordos Ejin Horo Airport
+code = ZBDS

@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = N20.6800994873, W105.253997803
+magneticvar = 7.577
+beacons =
+	PVR, N20.67310, W105.25700, 0, Vallarta
+	TNY, N21.42650, W104.83700, 0, Tepic
+
+line1 =
+	N21.67246, W105.45742
+	N21.61826, W105.43145
+	N21.49082, W105.20869
+	N21.38042, W105.23325
+	N21.24971, W105.22500
+	N21.11919, W105.23706
+	N21.02656, W105.30195
+	N20.92612, W105.39399
+	N20.84380, W105.45635
+	N20.80874, W105.51084
+	N20.77661, W105.49238
+	N20.77539, W105.42012
+	N20.75298, W105.32705
+	N20.66851, W105.25229
+	N20.63418, W105.24468
+	N20.57905, W105.26016
+	N20.51187, W105.37705
+	N20.49795, W105.54258
+	N20.43599, W105.64214
+	N20.38560, W105.66943
+	N20.31631, W105.61592
+	N20.22783, W105.57041
+	N20.07539, W105.53242
+	N19.97607, W105.48208
+	N19.70649, W105.28638
+
+line2 =
+	N21.20511, W104.07863
+	N21.20568, W104.07917
+	N21.20010, W104.18043
+	N21.21969, W104.25280
+	N21.26258, W104.33006
+	N21.29842, W104.36406
+	N21.43298, W104.44228
+	N21.50200, W104.52625
+
+[airport1]
+name = Licenciado Gustavo Díaz Ordaz International Airport
+code = MMPR
+runways =
+	rwy1, 04, N20.6705, W105.265, 47.0, 10171, 0, 0, 23

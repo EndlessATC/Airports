@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2838
+center = N40.1473007202, E44.3959007263
+magneticvar = 5.255
+beacons =
+	ZVR, N40.14720, E44.36700, 0, Yerevan
+	Z, N40.14710, E44.36230, 0, Yerevan
+	ZR, N40.14700, E44.32820, 0, Yerevan
+	ER, N40.14590, E44.48240, 0, Yerevan
+	TLN, N40.38550, E43.89110, 0, Talin
+	AND, N39.83030, E44.99250, 0, Andranik
+	SVN, N40.53430, E44.95480, 0, Sevan
+	GM, N40.72880, E43.84690, 0, Gyumri
+	GRM, N40.72940, E43.84720, 0, Gyumri
+
+line1 =
+	N40.51499, E44.98965
+	N40.54233, E44.97227
+	N40.58232, E44.98887
+	N40.61157, E44.98623
+	N40.61436, E45.01455
+	N40.59033, E45.09531
+	N40.51021, E45.24170
+	N40.48828, E45.31084
+	N40.47915, E45.37295
+	N40.43516, E45.43701
+	N40.36470, E45.53672
+	N40.31826, E45.60195
+	N40.27871, E45.63623
+	N40.24268, E45.65576
+	N40.21543, E45.65918
+	N40.19497, E45.65137
+	N40.17217, E45.60762
+	N40.15552, E45.54316
+	N40.15596, E45.48066
+	N40.15142, E45.38877
+	N40.14883, E45.31270
+	N40.16382, E45.27588
+	N40.19746, E45.24844
+	N40.29590, E45.21826
+	N40.38525, E45.18350
+	N40.40356, E45.15332
+	N40.42817, E45.12461
+	N40.46108, E45.09531
+	N40.49048, E45.03984
+	N40.51499, E44.98965
+	N40.51499, E44.98965
+	N40.51499, E44.98965
+	N40.51499, E44.98965
+
+[airport1]
+name = Zvartnots International Airport
+code = UDYZ
+runways =
+	rwy1, 09, N40.1472, E44.3733, 90.0, 12629, 0, 0, 2800
+
+[airport2]
+name = Iğdır Airport
+code = 26
+inboundbeacon = ZR

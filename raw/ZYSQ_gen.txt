@@ -1,0 +1,36 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 459
+metric = true
+center = N44.938114, E124.550178
+magneticvar = -9.436
+beacons =
+	FYU, N44.91170, E124.80500, 0, Fuyu
+
+line1 =
+	N45.45046, E124.67459
+	N45.44586, E124.81443
+	N45.46642, E124.87458
+	N45.51061, E124.90176
+	N45.52275, E124.94682
+	N45.50286, E125.00987
+	N45.46617, E125.05173
+	N45.41273, E125.07229
+	N45.38912, E125.15560
+	N45.39532, E125.30153
+	N45.42002, E125.39362
+	N45.46322, E125.43196
+	N45.48818, E125.54896
+	N45.49490, E125.74460
+	N45.54962, E125.88795
+	N45.65236, E125.97880
+	N45.70171, E126.10717
+
+[airport1]
+name = Songyuan Chaganhu Airport
+code = ZYSQ

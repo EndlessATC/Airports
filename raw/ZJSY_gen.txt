@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 92
+metric = true
+center = N18.3029003143, E109.412002563
+magneticvar = -1.083
+beacons =
+	WL, N18.48830, E109.40500, 0, Baolong
+	SYX, N18.30670, E109.17300, 0, Sanya
+
+line1 =
+	N19.26504, E108.65000
+	N18.90771, E108.63564
+	N18.86631, E108.63809
+	N18.75024, E108.67607
+	N18.53525, E108.70156
+	N18.41611, E108.92227
+	N18.36777, E109.02988
+	N18.32515, E109.18320
+	N18.29961, E109.34092
+	N18.28110, E109.40010
+	N18.21826, E109.51934
+	N18.22632, E109.58955
+	N18.24712, E109.68105
+	N18.25913, E109.70273
+	N18.34829, E109.75977
+	N18.39668, E109.81563
+	N18.42207, E109.96768
+	N18.41626, E110.02021
+	N18.44756, E110.06738
+	N18.47563, E110.06641
+	N18.50522, E110.04854
+	N18.56982, E110.15625
+	N18.65576, E110.25176
+	N18.66953, E110.29082
+	N18.67329, E110.33369
+	N18.69834, E110.39951
+	N18.74795, E110.45127
+	N18.81260, E110.47764
+	N18.97021, E110.51934
+	N19.09854, E110.56602
+	N19.13516, E110.56250
+	N19.17188, E110.57217
+	N19.20703, E110.60313
+
+[airport1]
+name = Sanya Phoenix International Airport
+code = ZJSY
+runways =
+	rwy1, 08, N18.3008, E109.396, 82.2, 11155, 0, 0, 62

@@ -1,0 +1,33 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2024
+center = N17.2313175201, E78.4298553467
+magneticvar = -1.111
+beacons =
+	HHY, N17.45440, E78.45750, 0, Hyderabad
+	DG, N17.66770, E78.41530, 0, Dundigul
+	VB, N17.33440, E77.88170, 0, Vikarabad
+
+line1 =
+	N16.23500, E79.15685
+	N16.30074, E79.21091
+	N16.42905, E79.21266
+	N16.51475, E79.23845
+	N16.57938, E79.31333
+
+line2 =
+	N16.41535, E77.25898
+	N16.34882, E77.61571
+	N16.23224, E77.84500
+
+[airport1]
+name = Rajiv Gandhi International Airport
+code = VOHS
+runways =
+	rwy1, 09L, N17.2306, E78.4123, 90.0, 12162, 1026, 1120, 1972
+	rwy2, 09R, N17.2286, E78.4128, 90.0, 13976, 0, 0, 1969

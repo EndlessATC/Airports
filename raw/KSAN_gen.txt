@@ -1,0 +1,96 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 17
+usa = true
+transition = 18001
+center = N32.7336006165, W117.190002441
+magneticvar = 12.349
+beacons =
+	AN, N32.73990, W117.21600, 0, Boing
+	NZY, N32.70260, W117.21600, 0, North Island
+	MZB, N32.78220, W117.22500, 0, Mission Bay
+	MY, N32.77990, W117.04500, 0, Deoro
+	NKX, N32.86970, W117.15500, 0, Miramar
+	NRS, N32.56420, W117.11000, 0, Imperial Beach
+	PGY, N32.61030, W116.97900, 0, Poggi
+	TIJ, N32.54040, W116.95300, 0, Tijuana
+	OCN, N33.24060, W117.41800, 0, Oceanside
+	NFG, N33.27440, W117.38700, 0, Camp Pendleton
+	JLI, N33.14050, W116.58600, 0, Julian
+
+line1 =
+	N32.95991, W118.50747
+	N33.03267, W118.55708
+
+line2 =
+	N32.93560, W118.52891
+	N32.83892, W118.47319
+	N32.81851, W118.40859
+	N32.82759, W118.35039
+	N32.84946, W118.38320
+	N32.95991, W118.50747
+
+line3 =
+	N33.35713, W118.46934
+	N33.31709, W118.44629
+	N33.32124, W118.37021
+	N33.31211, W118.29746
+	N33.38574, W118.34795
+	N33.41509, W118.39170
+	N33.47710, W118.55483
+	N33.46416, W118.56943
+	N33.43706, W118.56333
+	N33.43198, W118.55942
+	N33.42700, W118.50732
+	N33.41279, W118.49204
+	N33.35713, W118.46934
+
+line4 =
+	N33.72217, W118.08052
+	N33.61963, W117.95210
+	N33.53848, W117.78853
+	N33.29551, W117.46743
+	N33.10005, W117.31885
+	N32.93887, W117.26299
+	N32.87339, W117.25576
+	N32.80625, W117.27070
+	N32.66401, W117.24346
+	N32.68789, W117.18374
+	N32.64917, W117.13740
+	N32.53975, W117.13047
+	N32.53335, W117.12827
+	N32.34360, W117.06313
+	N32.30503, W117.03477
+	N32.19854, W116.91367
+	N31.99736, W116.84800
+	N31.85107, W116.62080
+	N31.75801, W116.62388
+	N31.74033, W116.65210
+	N31.74365, W116.70171
+	N31.73457, W116.72207
+
+line5 =
+	N33.30254, W115.91133
+	N33.43262, W116.06172
+	N33.50210, W116.05347
+	N33.52192, W116.01045
+	N33.51943, W115.94844
+	N33.45166, W115.88394
+
+[airport1]
+name = San Diego International Airport
+code = KSAN
+runways =
+	rwy1, 09, N32.7371, W117.204, 106.0, 9401, 700, 1810, 14
+
+[airport2]
+name = General Abelardo L. Rodríguez International Airport
+code = TJ
+runways =
+	rwy2, 09, N32.5431, W116.986, 99.0, 9711, 0, 0, 487
+inboundbeacon = TIJ

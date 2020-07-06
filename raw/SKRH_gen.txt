@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 43
+center = N11.5262, W72.926
+magneticvar = -8.107
+beacons =
+	RHC, N11.52750, W72.91750, 0, Riohacha
+	CJN, N11.23250, W72.50680, 0, Cerrejon
+	CJN, N11.23120, W72.49290, 0, Cerrejon
+	ECB, N12.19110, W72.14580, 0, El Cabo
+
+line1 =
+	N11.13506, W71.79146
+	N11.19033, W71.83511
+	N11.41445, W71.94697
+	N11.48281, W71.95723
+	N11.56992, W71.95693
+	N11.60796, W71.90752
+	N11.62734, W71.86865
+
+line2 =
+	N12.30908, W71.91914
+	N12.26953, W71.93125
+	N12.23828, W71.97012
+	N12.23843, W72.05508
+	N12.18857, W72.13574
+	N12.06021, W72.16523
+	N11.88926, W72.27500
+	N11.80171, W72.44707
+	N11.71216, W72.72183
+	N11.29575, W73.31338
+	N11.27148, W73.67690
+	N11.27568, W73.79570
+	N11.30889, W73.90957
+	N11.34062, W74.05913
+
+[airport1]
+name = Almirante Padilla Airport
+code = SKRH
+runways =
+	rwy1, 09, N11.526, W72.9335, 88.3, 5413, 0, 0, 0

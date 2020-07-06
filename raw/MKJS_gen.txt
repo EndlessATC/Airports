@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4
+center = N18.5037002563, W77.9133987427
+magneticvar = -5.367
+beacons =
+	MBJ, N18.50360, W77.91840, 0, Montego Bay
+	SIA, N18.50100, W77.92410, 0, Sangster
+
+line1 =
+	N18.25718, W76.70073
+	N18.30430, W76.79326
+	N18.39043, W76.90820
+	N18.40186, W76.95937
+	N18.40293, W77.01377
+	N18.42148, W77.13955
+	N18.45742, W77.26147
+	N18.46646, W77.35425
+	N18.46704, W77.45161
+	N18.52222, W77.87344
+	N18.50068, W77.92686
+	N18.46782, W77.97817
+	N18.44482, W78.09453
+	N18.44810, W78.21670
+	N18.42627, W78.25244
+	N18.34976, W78.32598
+	N18.28721, W78.33950
+	N18.21807, W78.29409
+	N18.19116, W78.07363
+	N18.17383, W78.04448
+	N18.04756, W77.96299
+	N18.01904, W77.88130
+	N17.98750, W77.84941
+	N17.87739, W77.76816
+	N17.85972, W77.67075
+	N17.85605, W77.46387
+	N17.83369, W77.36143
+	N17.77954, W77.27988
+	N17.71494, W77.20498
+	N17.84507, W77.15840
+	N17.88008, W77.11948
+	N17.90127, W77.07129
+	N17.85410, W77.03594
+	N17.84878, W76.94414
+	N17.90410, W76.89624
+	N17.97373, W76.85322
+	N17.97632, W76.79482
+	N17.96489, W76.74829
+	N17.94043, W76.77432
+
+[airport1]
+name = Sangster International Airport
+code = MKJS
+runways =
+	rwy1, 07, N18.4987, W77.9248, 65.5, 8735, 225, 555, 7

@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = S2.6926, E141.3028
+magneticvar = 3.584
+beacons =
+	VNO, S2.67890, E141.30299, 0, Vanimo
+	JPA, S2.58769, E140.53101, 0, Jayapura
+	ZN, S2.56824, E140.50700, 0, Jayapura
+
+line1 =
+	S2.35000, E140.15459
+	S2.37568, E140.20400
+	S2.41201, E140.25098
+	S2.42041, E140.29463
+	S2.44580, E140.62256
+	S2.47207, E140.67305
+	S2.50811, E140.72051
+	S2.60713, E140.74746
+	S2.61133, E141.10479
+	S2.62783, E141.18564
+	S2.84502, E141.68682
+	S2.93213, E141.83652
+	S2.95254, E141.88750
+	S2.95332, E141.93779
+	S2.96357, E141.98574
+	S3.08350, E142.21152
+
+[airport1]
+name = Vanimo Airport
+code = AYVN
+runways =
+	rwy1, 12, S2.68762, E141.297, 130.0, 5775, 460, 0, 11

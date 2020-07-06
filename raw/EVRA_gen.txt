@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 36
+center = N56.9235992432, E23.9710998535
+magneticvar = 5.597
+beacons =
+	RIA, N56.92090, E23.96520, 0, Riga
+	RIX, N56.89740, E23.96700, 0, Riga
+
+line1 =
+	N57.90977, E24.33203
+	N57.87061, E24.32256
+	N57.78413, E24.30156
+	N57.64531, E24.36299
+	N57.32500, E24.40322
+	N57.25005, E24.38262
+	N57.17231, E24.28125
+	N57.06611, E24.05430
+	N57.00850, E23.93115
+	N56.97104, E23.64775
+	N57.08975, E23.28730
+	N57.32383, E23.13682
+	N57.39209, E23.03779
+	N57.59536, E22.64863
+	N57.65117, E22.61699
+	N57.72427, E22.55459
+	N57.66680, E22.23145
+	N57.59785, E21.94238
+
+line2 =
+	N56.41772, E26.06428
+	N56.49283, E25.87938
+	N56.55288, E25.77851
+	N56.59784, E25.76166
+	N56.60931, E25.70978
+	N56.58719, E25.62276
+	N56.58978, E25.53408
+	N56.61711, E25.44365
+	N56.61946, E25.35771
+	N56.59691, E25.27616
+	N56.59432, E25.17446
+	N56.61169, E25.05261
+	N56.66832, E24.89071
+	N56.76424, E24.68865
+	N56.82738, E24.50541
+	N56.85777, E24.34097
+	N56.89394, E24.22031
+	N56.93583, E24.14352
+	N56.98533, E24.09138
+	N57.06613, E24.05433
+
+[airport1]
+name = Riga International Airport
+code = EVRA
+runways =
+	rwy1, 18, N56.9351, E23.9731, 185.2, 10499, 0, 0, 31

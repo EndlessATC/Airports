@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 20
+center = N16.9011001587, E42.5858001709
+magneticvar = 2.044
+beacons =
+	GIZ, N16.90770, E42.57760, 0, Jazan
+
+line1 =
+	N16.80352, E42.05996
+	N16.75767, E42.02637
+	N16.74194, E42.03320
+	N16.71006, E42.06504
+	N16.71563, E41.98770
+	N16.74893, E41.94668
+	N16.77866, E41.96250
+	N16.80625, E41.95391
+	N16.93643, E41.94795
+	N16.99365, E41.91729
+	N17.00254, E41.86045
+	N16.94683, E41.88496
+	N16.89292, E41.85820
+	N16.86016, E41.81611
+	N16.84687, E41.77607
+	N16.77876, E41.80156
+	N16.68428, E41.89727
+	N16.65347, E41.96416
+	N16.67148, E42.07178
+	N16.64395, E42.10234
+	N16.61846, E42.10840
+	N16.59482, E42.12773
+	N16.57070, E42.15781
+	N16.59639, E42.16719
+	N16.70864, E42.17041
+	N16.80352, E42.05996
+
+line2 =
+	N17.88574, E41.75000
+	N17.66934, E42.05225
+	N17.43496, E42.29395
+	N17.25664, E42.33242
+	N17.12246, E42.38330
+	N17.04985, E42.47500
+	N16.95967, E42.54414
+	N16.86846, E42.55293
+	N16.80137, E42.64746
+	N16.73696, E42.69883
+	N16.65332, E42.72637
+	N16.56982, E42.73066
+	N16.45156, E42.78984
+	N16.37178, E42.79932
+	N16.03203, E42.83965
+
+[airport1]
+name = Jizan Regional Airport
+code = OEGN
+runways =
+	rwy1, 15, N16.913, E42.5786, 150.0, 10006, 0, 0, 16

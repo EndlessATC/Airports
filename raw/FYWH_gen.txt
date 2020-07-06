@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5640
+center = S22.4799, E17.4709
+magneticvar = -13.132
+beacons =
+	WHV, S22.47750, E17.47060, 0, Windhoek
+	WH, S22.48420, E17.47030, 0, Windhoek
+
+[airport1]
+name = Hosea Kutako International Airport
+code = FYWH
+runways =
+	rwy1, 08, S22.4898, E17.4495, 64.0, 15010, 0, 0, 5640
+	rwy2, 16, S22.4777, E17.469, 141.0, 5000, 0, 0, 5574
+
+[airport2]
+name = Eros Airport
+code = WE
+runways =
+	rwy3, 01, S22.6152, E17.0807, 351.0, 7381, 0, 984, 5575
+	rwy4, 09, S22.6135, E17.0749, 76.0, 3297, 0, 0, 5572
+inboundbeacon = WH

@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 39
+usa = true
+transition = 18001
+center = N50.1899986267, W61.7891998291
+magneticvar = -21.420
+beacons =
+	YNA, N50.18370, W61.78110, 0, Natash
+	NA, N50.22220, W61.84170, 0, Natash
+
+line1 =
+	N49.39932, W63.56587
+	N49.22495, W63.04150
+
+line2 =
+	N49.20376, W61.73584
+	N49.28354, W61.81714
+	N49.38979, W62.04307
+	N49.40708, W62.13301
+	N49.62393, W62.63345
+	N49.70547, W62.85854
+	N49.77271, W63.08882
+	N49.81685, W63.29199
+
+line3 =
+	N50.25820, W63.58667
+	N50.24258, W63.23862
+	N50.29380, W63.13564
+	N50.29136, W62.94976
+	N50.30146, W62.83022
+	N50.30166, W62.71543
+	N50.28452, W62.54092
+	N50.27729, W62.36167
+	N50.23892, W62.16523
+	N50.23286, W61.91953
+	N50.19697, W61.83535
+	N50.10405, W61.72485
+	N50.20195, W61.28975
+	N50.19150, W61.18071
+	N50.20542, W60.95630
+	N50.24980, W60.80723
+	N50.22114, W60.60820
+	N50.23887, W60.43809
+	N50.25459, W60.08018
+
+[airport1]
+name = Natashquan Airport
+code = CYNA
+runways =
+	rwy1, 14, N50.1928, W61.7978, 118.0, 4494, 0, 0, 35

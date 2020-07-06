@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 451
+center = N16.1168003082, E103.774002075
+magneticvar = -0.400
+beacons =
+	ROT, N16.11680, E103.77200, 0, Roi Et
+	RE, N16.11070, E103.77800, 0, Roi Et
+
+line1 =
+	N17.07715, E104.75901
+	N16.88437, E104.74351
+	N16.64754, E104.75064
+	N16.46608, E104.81937
+	N16.33993, E104.94990
+
+[airport1]
+name = Roi Et Airport
+code = VTUV
+runways =
+	rwy1, 18, N16.1263, E103.774, 182.5, 6890, 0, 0, 451

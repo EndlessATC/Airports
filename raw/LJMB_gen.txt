@@ -1,0 +1,78 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 876
+center = N46.4799003601, E15.6861000061
+magneticvar = 2.237
+beacons =
+	MI, N46.46280, E15.70310, 0, Maribor
+	MR, N46.37150, E15.79320, 0, Maribor
+	GBG, N46.88700, E15.80030, 0, Gleichenberg
+	GRZ, N46.92070, E15.45900, 0, Graz
+	GRZ, N46.95540, E15.44940, 0, Graz
+	VAR, N46.31170, E16.38080, 0, Varazdin
+	ZAG, N45.90030, E16.31120, 0, Zagreb
+	ZAG, N45.89560, E16.30670, 0, Zagreb
+	DOL, N46.08410, E14.77860, 0, Dolsko
+	SK, N45.80580, E16.16470, 0, S.kKaljevec
+	KFT, N46.59760, E14.56230, 0, Klagenfurt
+	IZA, N45.73490, E16.05340, 0, Iza
+	KAM, N46.10500, E14.67550, 0, Dolsko
+	VG, N45.72540, E16.04210, 0, Velika Gorica
+	KFT, N46.62510, E14.53420, 0, Klagenfurt
+	MG, N46.17320, E14.55590, 0, Ljubljana
+	MEL, N45.65460, E15.31820, 0, Metlika
+	ZW, N47.19810, E14.75670, 0, Zeltweg
+
+line1 =
+	N46.72129, E17.27725
+	N46.74219, E17.26934
+	N46.75996, E17.27061
+	N46.76348, E17.30859
+
+line2 =
+	N47.14738, E14.36732
+	N47.20911, E14.50700
+	N47.22440, E14.61966
+	N47.21376, E14.75184
+	N47.24526, E14.86062
+	N47.31892, E14.94610
+	N47.37101, E15.06201
+	N47.40016, E15.14515
+	N47.40153, E15.20846
+	N47.39367, E15.30302
+	N47.34742, E15.34571
+	N47.31621, E15.35248
+	N47.30006, E15.32344
+	N47.25257, E15.31558
+	N47.17371, E15.32891
+	N47.12110, E15.36137
+	N47.09480, E15.41294
+	N46.99692, E15.47593
+	N46.83130, E15.55965
+	N46.76735, E15.58172
+	N46.73648, E15.63019
+	N46.72283, E15.70130
+	N46.66268, E16.04205
+	N46.57049, E16.21150
+	N46.53463, E16.32121
+	N46.52440, E16.42766
+	N46.48499, E16.56998
+	N46.41642, E16.74805
+	N46.33929, E16.87146
+	N46.25366, E16.93998
+	N46.18731, E17.03269
+	N46.14034, E17.14958
+	N46.07662, E17.24218
+	N45.99616, E17.31060
+
+[airport1]
+name = Maribor Airport
+code = LJMB
+runways =
+	rwy1, 14, N46.4892, E15.6771, 146.0, 8202, 0, 0, 875
+	rwy2, 14L, N46.4859, E15.6816, 146.0, 3937, 0, 0, 0

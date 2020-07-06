@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 624
+usa = true
+center = S23.5674991608, E148.179000854
+magneticvar = 8.365
+beacons =
+	EML, S23.56750, E148.17101, 0, Emerald
+	CMT, S22.77310, E147.62500, 0, Clermont
+
+[airport1]
+name = Emerald Airport
+code = YEML
+runways =
+	rwy1, 06, S23.5722, E148.171, 71.0, 6234, 0, 0, 620
+	rwy2, 15, S23.5648, E148.175, 152.0, 3038, 0, 0, 611

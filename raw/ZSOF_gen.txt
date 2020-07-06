@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 108
+metric = true
+center = N31.7800006866, E117.297996521
+magneticvar = -4.405
+beacons =
+	HFE, N31.78000, E117.30200, 0, Hefei
+	SB, N31.84000, E117.23300, 0, Luogang
+
+line1 =
+	N31.52051, E117.94121
+	N31.52158, E117.91172
+	N31.56982, E117.82988
+	N31.57915, E117.78447
+	N31.52446, E117.70625
+	N31.45454, E117.62344
+	N31.44512, E117.56309
+	N31.46660, E117.46787
+	N31.53604, E117.38193
+	N31.59165, E117.31719
+	N31.64980, E117.29717
+	N31.69746, E117.31543
+	N31.70879, E117.36631
+	N31.69414, E117.41279
+	N31.65142, E117.43379
+	N31.61006, E117.44805
+	N31.59316, E117.48691
+	N31.59092, E117.54307
+	N31.60942, E117.59395
+	N31.65430, E117.65156
+	N31.65967, E117.73330
+	N31.62080, E117.80977
+	N31.55059, E117.91865
+	N31.52051, E117.94121
+	N31.52051, E117.94121
+	N31.52051, E117.94121
+	N31.52051, E117.94121
+
+line2 =
+	N30.88638, E117.72489
+	N31.05175, E117.77997
+	N31.12420, E117.84379
+	N31.10379, E117.91645
+	N31.12957, E117.96808
+	N31.20161, E117.99877
+	N31.25522, E118.08936
+	N31.29044, E118.23995
+	N31.34062, E118.31188
+	N31.40576, E118.30542
+	N31.50986, E118.33317
+	N31.65295, E118.39518
+	N31.84113, E118.51466
+
+[airport1]
+name = Hefei Luogang International Airport
+code = ZSOF
+runways =
+	rwy1, 14, N31.7896, E117.288, 135.3, 9843, 0, 0, 95

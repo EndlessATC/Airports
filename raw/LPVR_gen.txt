@@ -1,0 +1,65 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1805
+center = N41.2743, W7.72047
+magneticvar = -3.230
+beacons =
+	VR, N41.21530, W7.74389, 0, Vila Real
+	VIS, N40.72330, W7.88583, 0, Viseu
+	PG, N41.07810, W8.63667, 0, Porto
+	PRT, N41.27310, W8.68778, 0, Porto
+	POR, N41.34810, W8.70806, 0, Porto
+	OVR, N40.88700, W8.64335, 0, Ovar
+	BRG, N41.79670, W6.72528, 0, Braganca
+
+line1 =
+	N42.27417, W8.69092
+	N42.21060, W8.77246
+	N42.10527, W8.88721
+	N41.94687, W8.87832
+	N41.92690, W8.85234
+	N41.94106, W8.77715
+	N41.83208, W8.87822
+	N41.76460, W8.88760
+	N41.70518, W8.84639
+	N41.69839, W8.75542
+	N41.65195, W8.81084
+	N41.56001, W8.80566
+	N41.28467, W8.73838
+	N41.15449, W8.67461
+	N41.08628, W8.65981
+	N41.02949, W8.65557
+	N40.91650, W8.67397
+	N40.75254, W8.68462
+	N40.65093, W8.73159
+	N40.60566, W8.77241
+
+line2 =
+	N41.54963, W6.17802
+	N41.51592, W6.24432
+	N41.45504, W6.28935
+	N41.37541, W6.40314
+	N41.30373, W6.56592
+	N41.21449, W6.69015
+	N41.10772, W6.77578
+	N41.06240, W6.88280
+	N41.07853, W7.01127
+	N41.11299, W7.08481
+	N41.16576, W7.10349
+	N41.18942, W7.24438
+	N41.18121, W7.65121
+	N41.09183, W8.23481
+	N41.08421, W8.42548
+	N41.12757, W8.55549
+	N41.15449, W8.67461
+
+[airport1]
+name = Vila Real Airport
+code = LPVR
+runways =
+	rwy1, 02, N41.2703, W7.72217, 17.7, 3107, 0, 0, 1798

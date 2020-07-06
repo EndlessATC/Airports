@@ -1,0 +1,81 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 215
+center = N57.2019004822, W2.19777989388
+magneticvar = -4.329
+beacons =
+	ADN, N57.31060, W2.26722, 0, Aberdeen
+	AQ, N57.13830, W2.40472, 0, Aberdeen
+	ATF, N57.07750, W2.10570, 0, Aberdeen/Dyce
+	LNS, N57.51650, W1.86831, 0, Longside
+	SHD, N57.55920, W1.81722, 0, Scotstown Head
+	KSS, N57.65930, W3.53511, 0, Kinloss
+	KS, N57.65040, W3.58704, 0, Kinloss
+	DND, N56.45510, W3.11492, 0, Dundee
+	LUK, N56.37280, W2.86367, 0, Leuchars
+	PTH, N56.44250, W3.36861, 0, Perth
+
+line1 =
+	N57.58125, W3.98848
+	N57.60034, W3.86816
+	N57.66226, W3.62822
+	N57.70825, W3.40278
+	N57.71016, W3.29453
+	N57.67349, W3.08394
+	N57.67231, W3.03604
+	N57.68926, W2.94668
+	N57.69229, W2.85630
+	N57.68086, W2.24414
+	N57.70239, W2.07407
+	N57.67666, W1.96152
+	N57.61235, W1.86738
+	N57.49375, W1.77793
+	N57.47402, W1.78066
+	N57.41997, W1.83472
+	N57.35220, W1.93447
+	N57.25889, W2.02031
+	N57.20854, W2.04551
+	N57.15347, W2.06235
+	N57.10254, W2.08955
+	N56.86333, W2.26025
+	N56.73071, W2.42666
+	N56.63657, W2.50098
+	N56.56157, W2.59268
+	N56.51440, W2.68096
+	N56.48296, W2.77520
+	N56.44937, W3.04741
+	N56.42529, W3.12358
+	N56.38394, W3.21445
+	N56.36348, W3.30996
+	N56.36606, W3.19800
+	N56.38906, W3.08701
+	N56.39751, W2.88516
+	N56.31826, W2.65273
+	N56.25342, W2.67427
+	N56.20215, W2.76758
+
+line2 =
+	N58.05210, W3.77500
+	N57.95903, W3.99004
+	N57.91426, W4.01963
+	N57.85200, W4.03560
+	N57.83965, W3.90684
+	N57.81855, W3.85713
+	N57.78691, W3.88794
+	N57.67705, W4.07842
+	N57.57773, W4.13452
+	N57.58125, W3.98848
+
+[airport1]
+name = Aberdeen Dyce Airport
+code = EGPD
+runways =
+	rwy1, 05, N57.2036, W2.20278, 46.0, 1893, 0, 0, 203
+	rwy2, 14, N57.2039, W2.20194, 139.1, 2165, 0, 0, 200
+	rwy3, 16, N57.2095, W2.20341, 158.0, 6408, 0, 0, 203
+	rwy4, 18, N57.2047, W2.20167, 179.0, 853, 0, 0, 200

@@ -1,0 +1,79 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 815
+usa = true
+transition = 18001
+center = N39.998001, W82.891899
+magneticvar = -5.554
+beacons =
+	CHC, N40.01010, W83.02900, 0, Grens
+	CM, N39.98620, W82.75450, 0, Sumie
+	LC, N39.88110, W82.83610, 0, Pickl
+	DKG, N40.08040, W83.07880, 0, Don Scott
+	LCK, N39.80820, W82.92880, 0, Rickenbacker
+	OS, N40.07370, W83.19810, 0, Fuler
+	DD, N39.74290, W83.02020, 0, Cobbs
+	APE, N40.15110, W82.58830, 0, Appleton
+	BU, N39.81930, W83.20490, 0, Boutn
+	DLZ, N40.27700, W83.10330, 0, Delaware
+	HEH, N40.02590, W82.46350, 0, Newark
+	LH, N39.74890, W82.53530, 0, Caser
+	MRT, N40.22670, W83.34960, 0, Marysville
+	UYF, N39.93420, W83.46620, 0, London
+	XUB, N39.52690, W82.97790, 0, Yellow Bud
+	CYO, N39.52310, W82.97970, 0, Circleville
+	CSS, N39.60090, W83.39160, 0, Court House
+	RZT, N39.43820, W83.02880, 0, Ross Co
+	BUD, N40.61660, W83.06380, 0, Buckeye
+	MNN, N40.61720, W83.07010, 0, Marion
+	CCJ, N39.87360, W83.77910, 0, Clark Co
+	XSF, N39.83810, W83.84060, 0, Springfield
+	TVT, N40.45800, W82.12680, 0, Tiverton
+	SGH, N39.83650, W83.84500, 0, Springfield
+	HRA, N39.90630, W81.91930, 0, Zanesville
+	RUV, N40.45890, W83.66800, 0, Rushsylvania
+	ZZV, N39.94090, W81.89260, 0, Zanesville
+	EDJ, N40.37100, W83.81360, 0, Bellefontaine
+	IL, N39.49190, W83.73670, 0, Airbo
+	EOP, N39.16690, W82.93220, 0, Waverly
+	MF, N40.76610, W82.44500, 0, Manns
+	XEN, N39.71510, W83.92990, 0, Xenia
+	MXQ, N39.42970, W83.80120, 0, Midwest
+	UGS, N39.25730, W82.12600, 0, University
+	HOC, N39.18470, W83.54300, 0, Hillsboro
+	HW, N39.35350, W83.87580, 0, Cubla
+	AOH, N40.70710, W83.96820, 0, Allen Co
+
+line1 =
+	N39.36483, W81.39242
+	N39.39256, W81.43965
+	N39.37362, W81.49272
+	N39.30804, W81.55163
+	N39.27414, W81.60646
+	N39.27197, W81.65721
+	N39.22947, W81.70059
+	N39.14663, W81.73666
+	N39.09883, W81.77066
+	N39.08606, W81.80260
+	N39.04405, W81.80495
+
+[airport1]
+name = John Glenn Columbus International Airport
+code = KCMH
+runways =
+	rwy1, 10L, N40.0032, W82.9076, 94.2, 8000, 0, 0, 815
+	rwy2, 10R, N39.9956, W82.9089, 94.2, 10125, 0, 0, 803
+
+[airport2]
+name = Rickenbacker International Airport
+code = CK
+runways =
+	rwy3, 05L, N39.8033, W82.9441, 45.3, 11937, 919, 1003, 742
+	rwy4, 05R, N39.8011, W82.942, 45.3, 12102, 0, 0, 735
+	rwy5, 06, N39.815, W82.9203, 46.0, 3244, 0, 0, 740
+inboundbeacon = LCK

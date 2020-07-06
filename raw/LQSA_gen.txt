@@ -1,0 +1,66 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1708
+center = N43.8246002197, E18.3314990997
+magneticvar = 2.486
+beacons =
+	FRA, N43.82450, E18.33400, 0, Sarajevo
+	SAR, N43.82480, E18.33410, 0, Sarajevo
+	KG, N43.88140, E18.17700, 0, Kobiljaca
+	KEB, N43.93390, E18.44980, 0, Sarajevo
+	OTJ, N43.27470, E17.85290, 0, Mostar
+	MSR, N43.26140, E17.85570, 0, Mostar
+	TU, N44.47730, E18.48300, 0, Tuzla
+	TUZ, N44.45710, E18.72960, 0, Tuzla
+	GAC, N43.14290, E18.55830, 0, Gacko
+	DNC, N43.13750, E17.84740, 0, Mostar
+
+line1 =
+	N42.92778, E16.97754
+	N42.91489, E17.08936
+	N42.91704, E17.18828
+	N42.93262, E17.16982
+	N42.96436, E17.09365
+	N42.98149, E16.97109
+	N42.96865, E16.83555
+
+line2 =
+	N42.91274, E16.73887
+	N42.89551, E16.85068
+	N42.92778, E16.97754
+
+line3 =
+	N43.11543, E17.12412
+	N43.12578, E17.19404
+	N43.14390, E17.06113
+
+line4 =
+	N43.35083, E16.83438
+	N43.31465, E16.89131
+	N43.29795, E16.87363
+	N43.27065, E16.78525
+
+line5 =
+	N43.39243, E16.90313
+	N43.21113, E17.12939
+	N43.11489, E17.32988
+	N42.96226, E17.53730
+	N42.93838, E17.58516
+	N42.89712, E17.66758
+	N42.85068, E17.72363
+	N43.02588, E17.21982
+	N43.02559, E17.12646
+	N43.01489, E17.04541
+	N42.96846, E17.25820
+	N42.83716, E17.58496
+
+[airport1]
+name = Sarajevo International Airport
+code = LQSA
+runways =
+	rwy1, 12, N43.83, E18.3171, 117.3, 8666, 333, 1666, 1643

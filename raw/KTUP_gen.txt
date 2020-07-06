@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 346
+usa = true
+transition = 18001
+center = N34.2681007385, W88.7698974609
+magneticvar = -1.325
+beacons =
+	OTB, N34.22390, W88.79730, 0, Tupelo
+	TU, N34.18030, W88.76870, 0, Veron
+	HAB, N34.19510, W88.01250, 0, Hamilton
+	CBM, N33.64150, W88.43850, 0, Caledonia
+	UV, N34.38510, W89.62600, 0, Tunng
+	UU, N35.01550, W88.61570, 0, Seyer
+	HLI, N34.77030, W89.49650, 0, Holly Springs
+	IGB, N33.48550, W88.51360, 0, Bigbee
+	FDF, N33.71460, W87.81360, 0, Fayette
+
+line1 =
+	N34.81862, W87.39960
+	N34.82818, W87.48631
+	N34.81808, W87.57240
+	N34.77338, W87.70046
+
+line2 =
+	N35.11429, W90.14227
+	N35.20359, W90.09292
+
+line3 =
+	N34.77338, W87.70046
+	N34.76315, W87.81404
+	N34.84384, W87.96486
+	N34.93288, W88.08444
+	N35.01205, W88.19079
+	N35.12579, W88.30621
+	N35.18506, W88.31117
+	N35.23865, W88.28182
+
+[airport1]
+name = Tupelo Regional Airport
+code = KTUP
+runways =
+	rwy1, 18, N34.277, W88.7699, 180.0, 6500, 0, 0, 342

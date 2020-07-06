@@ -1,0 +1,19 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2139
+center = S5.90005016327, E22.4692001343
+magneticvar = -1.474
+beacons =
+	KNG, S5.90215, E22.44970, 0, Kananga
+	KNG, S5.91132, E22.49140, 0, Kananga
+
+[airport1]
+name = Kananga Airport
+code = FZUA
+runways =
+	rwy1, 11, S5.89704, E22.4597, 107.7, 7218, 0, 0, 2101

@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 40
+center = N44.020302, E12.6117
+magneticvar = 1.382
+beacons =
+	RIM, N44.01520, E12.61660, 0, Rimini
+	RIM, N44.07900, E12.50600, 0, Rimini
+	CEV, N44.20650, E12.35720, 0, Cervia
+	CEV, N44.26770, E12.18010, 0, Cervia
+	FOR, N44.24810, E11.92470, 0, Forli
+	FAL, N43.57690, E13.29950, 0, Falconara
+	FAL, N43.62820, E13.37350, 0, Falconara
+	ANC, N43.58640, E13.47110, 0, Ancona
+	ANC, N43.58670, E13.47220, 0, Ancona
+	FER, N44.81440, E11.61640, 0, Ferrara
+
+line1 =
+	N43.18037, E13.80469
+	N43.38989, E13.69326
+	N43.57129, E13.56416
+	N43.61167, E13.50820
+	N43.68608, E13.29531
+	N43.92119, E12.90703
+	N43.99473, E12.69111
+	N44.13423, E12.48682
+	N44.22388, E12.39629
+	N44.42944, E12.30498
+	N44.72251, E12.24834
+	N44.83223, E12.27891
+	N44.83311, E12.31904
+	N44.79834, E12.38447
+	N44.84521, E12.46357
+	N44.89941, E12.49795
+	N44.96797, E12.52344
+
+line2 =
+	N44.99150, E13.74248
+	N44.83740, E13.86074
+	N44.82935, E13.89980
+	N44.83564, E13.96582
+	N44.92720, E14.04199
+	N44.99761, E14.09063
+
+line3 =
+	N44.96800, E11.39189
+	N44.92687, E11.47928
+	N44.90558, E11.57447
+	N44.91752, E11.68392
+	N44.98521, E11.86949
+	N45.01989, E12.08498
+	N45.01299, E12.19887
+	N44.97604, E12.28290
+	N44.96069, E12.37716
+	N44.96795, E12.52340
+
+[airport1]
+name = Federico Fellini International Airport
+code = LIPR
+runways =
+	rwy1, 13, N44.0285, E12.597, 128.0, 9828, 1030, 1006, 21
+
+[airport2]
+name = Forlì Airport
+code = PK
+runways =
+	rwy2, 12, N44.1998, E12.0567, 117.0, 7907, 0, 0, 97
+inboundbeacon = CEV

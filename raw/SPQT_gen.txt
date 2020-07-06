@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 306
+center = S3.78473997116, W73.3087997437
+magneticvar = -4.384
+beacons =
+	IQT, S3.79226, W73.31740, 0, Iquitos
+	EC, S3.79616, W73.32610, 0, Iquitos
+	PE, S3.73139, W73.33250, 0, Ec
+
+line1 =
+	S3.50340, W72.29271
+	S3.48103, W72.47585
+	S3.45674, W72.74679
+	S3.46702, W72.89051
+	S3.50371, W72.99732
+	S3.56226, W73.09370
+	S3.64257, W73.17961
+	S3.78297, W73.21137
+	S3.98358, W73.18899
+	S4.09923, W73.19225
+	S4.13003, W73.22118
+	S4.13592, W73.26847
+	S4.11691, W73.33399
+	S4.13251, W73.36567
+	S4.18264, W73.36350
+	S4.23085, W73.38541
+	S4.27710, W73.43146
+	S4.33632, W73.46303
+	S4.44484, W73.48864
+
+line2 =
+	S4.60571, W74.41326
+	S4.65439, W74.31176
+	S4.63775, W74.24670
+	S4.55579, W74.21807
+	S4.50231, W74.17735
+	S4.47719, W74.12454
+	S4.47358, W74.05292
+	S4.49135, W73.96248
+	S4.53078, W73.88791
+	S4.59181, W73.82921
+	S4.57941, W73.72363
+	S4.44484, W73.48864
+
+line3 =
+	S4.77066, W73.70159
+	S4.71098, W73.63472
+	S4.70116, W73.59393
+	S4.69615, W73.56292
+	S4.67646, W73.55594
+	S4.64416, W73.55974
+	S4.60566, W73.54677
+	S4.55295, W73.49034
+	S4.52071, W73.48946
+	S4.50965, W73.50584
+	S4.48918, W73.51248
+	S4.44484, W73.48864
+
+[airport1]
+name = Coronel FAP Francisco Secada Vignetta International Airport
+code = SPQT
+runways =
+	rwy1, 06, S3.79095, W73.3182, 56.7, 8202, 0, 0, 306

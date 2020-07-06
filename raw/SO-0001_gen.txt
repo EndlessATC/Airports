@@ -1,0 +1,25 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 100
+center = N2.00528, E44.986599
+
+line1 =
+	N1.10591, E44.03271
+	N1.39097, E44.33271
+	N1.81016, E44.92021
+	N2.30986, E45.82627
+	N2.47515, E46.05117
+
+[airport1]
+name = K50 International Airport
+code = SO-0001
+
+[airport2]
+name = Aden Adde International Airport
+code = MM
+inboundbeacon = vor

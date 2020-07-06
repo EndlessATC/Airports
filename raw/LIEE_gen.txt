@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 13
+center = N39.251499, E9.05428
+magneticvar = 1.108
+beacons =
+	CAG, N39.24900, E9.05408, 0, Cagliari
+	CAG, N39.21460, E9.09747, 0, Cagliari
+	DEC, N39.36360, E8.97417, 0, Decimomannu
+	DEC, N39.38110, E8.96556, 0, Decimomannu
+	CAR, N39.11140, E9.50806, 0, Carbonara
+	CAR, N39.11170, E9.50917, 0, Carbonara
+	PED, N39.66920, E9.44333, 0, Perdasdefogu
+	ARB, N39.92140, E9.67867, 0, Tortoli
+
+line1 =
+	N40.13071, E8.47080
+	N40.07759, E8.45508
+	N40.03765, E8.40859
+	N39.97817, E8.39932
+	N39.91724, E8.40781
+	N39.89746, E8.49590
+	N39.83921, E8.54775
+	N39.76968, E8.53867
+	N39.73159, E8.54053
+	N39.72168, E8.51074
+	N39.74810, E8.47109
+	N39.72168, E8.45117
+	N39.64771, E8.46104
+	N39.56279, E8.44707
+	N39.52305, E8.41865
+	N39.48159, E8.39912
+	N39.29180, E8.41074
+	N39.20571, E8.41816
+	N39.11050, E8.48623
+	N39.03032, E8.55332
+	N38.96431, E8.59541
+	N38.92656, E8.64854
+	N38.92671, E8.71855
+	N38.90967, E8.80117
+	N38.91289, E8.88135
+	N38.96372, E8.96660
+	N39.04326, E9.02266
+	N39.23916, E9.05635
+	N39.21128, E9.10176
+	N39.19697, E9.14932
+	N39.21382, E9.20693
+	N39.21680, E9.26416
+	N39.16753, E9.38809
+	N39.13955, E9.48633
+	N39.16602, E9.56250
+	N39.25356, E9.58359
+	N39.35439, E9.61699
+	N39.92437, E9.68604
+	N40.01704, E9.70674
+	N40.09180, E9.70078
+	N40.15923, E9.65947
+
+line2 =
+	N39.11592, E8.36680
+	N39.09878, E8.35859
+	N39.03867, E8.36094
+	N38.96865, E8.42148
+	N39.06753, E8.47891
+	N39.09062, E8.44063
+	N39.11592, E8.36680
+
+[airport1]
+name = Cagliari Elmas Airport
+code = LIEE
+runways =
+	rwy1, 14, N39.2608, E9.04347, 138.0, 9196, 0, 0, 9

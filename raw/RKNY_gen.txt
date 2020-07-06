@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 241
+center = N38.061298, E128.669006
+magneticvar = -7.500
+beacons =
+	YAG, N38.06320, E128.66100, 0, Yangyang
+	SK, N38.13610, E128.59801, 0, Sokcho
+	SCH, N38.14780, E128.60100, 0, Sokcho
+	KAE, N37.70060, E128.75400, 0, Gangwon
+	KOG, N37.75880, E128.95000, 0, Gangneung
+	KAN, N37.75830, E128.95200, 0, Gangneung
+	HGS, N37.47580, E127.97500, 0, Wonju
+	WNJ, N37.47130, E127.97800, 0, Wonju
+	WJ, N37.36170, E127.91000, 0, Wonju
+
+line1 =
+	N37.27456, E129.33516
+	N37.67764, E129.05156
+	N37.88706, E128.85244
+	N38.17607, E128.61885
+	N38.62344, E128.37461
+	N38.68091, E128.32949
+	N38.74521, E128.24941
+	N38.78613, E128.16250
+	N38.81641, E128.12305
+	N38.89800, E127.97168
+
+[airport1]
+name = Yangyang International Airport
+code = RKNY
+runways =
+	rwy1, 15, N38.0701, E128.66, 141.0, 8202, 0, 0, 230

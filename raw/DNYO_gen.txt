@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 599
+center = N9.25755023956, E12.4303998947
+magneticvar = -0.574
+beacons =
+	YL, N9.26691, E12.43270, 0, Yola
+	YOL, N9.29211, E12.42470, 0, Yola
+
+line1 =
+	N9.49056, E11.92406
+	N9.49653, E11.78350
+	N9.40909, E11.57405
+	N9.23019, E11.24880
+
+line2 =
+	N9.24424, E13.56499
+	N9.31421, E13.47518
+	N9.26440, E13.41162
+	N9.22600, E13.31906
+	N9.19897, E13.19742
+	N9.22280, E13.08419
+	N9.33473, E12.92694
+	N9.37504, E12.82080
+	N9.35126, E12.71724
+	N9.27675, E12.58092
+	N9.30734, E12.45581
+	N9.44304, E12.34181
+	N9.50580, E12.19464
+	N9.49056, E11.92406
+
+[airport1]
+name = Yola Airport
+code = DNYO
+runways =
+	rwy1, 13, N9.27397, E12.4263, 126.3, 5160, 0, 0, 0
+	rwy2, 17, N9.27105, E12.4282, 171.0, 9840, 0, 0, 573

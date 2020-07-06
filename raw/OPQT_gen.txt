@@ -1,0 +1,21 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5267
+center = N30.2513999939, E66.9377975464
+magneticvar = 1.222
+beacons =
+	QT, N30.25000, E66.93330, 0, Quetta
+	QT, N30.29700, E66.88920, 0, Quetta
+	SB, N29.56950, E67.84710, 0, Sibi
+
+[airport1]
+name = Quetta International Airport
+code = OPQT
+runways =
+	rwy1, 13, N30.2641, E66.9256, 136.0, 12000, 0, 0, 5194
+	rwy2, 13R, N30.2626, E66.9238, 136.3, 11970, 0, 0, 0

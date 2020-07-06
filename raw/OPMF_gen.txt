@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2691
+center = N34.3390007019, E73.5085983276
+magneticvar = 2.033
+beacons =
+	MF, N34.34220, E73.50670, 0, Muzaffarabad
+	RT, N33.84770, E73.79920, 0, Rawalakot
+	RN, N33.60590, E73.12590, 0, Islamabad
+	RN, N33.61330, E73.08170, 0, Islamabad
+
+line1 =
+	N34.62254, E72.78164
+	N34.37149, E72.83476
+	N34.25796, E72.84757
+	N34.19822, E72.83796
+	N34.14766, E72.80158
+	N34.08557, E72.70701
+
+line2 =
+	N35.33040, E73.28021
+	N35.20426, E73.17510
+	N35.09274, E72.98638
+	N35.00448, E72.88519
+	N34.93937, E72.87166
+	N34.88635, E72.89481
+	N34.84537, E72.95465
+	N34.80888, E72.94457
+	N34.77684, E72.86447
+	N34.72625, E72.81373
+	N34.62254, E72.78164
+	N34.08554, E72.70691
+	N34.03175, E72.65162
+	N34.01550, E72.59178
+	N34.01880, E72.50899
+	N33.99984, E72.41075
+	N33.95857, E72.29717
+	N33.89493, E72.23883
+	N33.80900, E72.23573
+	N33.77197, E72.19748
+	N33.78393, E72.12410
+
+[airport1]
+name = Muzaffarabad Airport
+code = OPMF
+runways =
+	rwy1, 13, N34.3417, E73.505, 132.0, 2960, 0, 0, 2669

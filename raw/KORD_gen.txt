@@ -1,0 +1,93 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 672
+usa = true
+transition = 18001
+center = N41.9786, W87.9048
+magneticvar = -3.398
+beacons =
+	ORD, N41.98770, W87.90490, 0, Chicago O'Hare
+	IA, N41.98430, W87.78900, 0, Taffs
+	ME, N41.96780, W88.02670, 0, Deana
+	ID, N41.90490, W87.80690, 0, Inddy
+	OR, N42.05590, W88.00780, 0, Chstr
+	OH, N42.06920, W87.99090, 0, Leama
+	OBK, N42.22150, W87.95180, 0, Northbrook
+	HK, N41.71900, W87.83640, 0, Ermin
+	MX, N41.74150, W87.68970, 0, Kedzi
+	DPA, N41.89040, W88.35020, 0, Du Page
+	UG, N42.46410, W87.80140, 0, Wauke
+	CGT, N41.51000, W87.57150, 0, Chicago Heights
+	JOT, N41.54640, W88.31840, 0, Joliet
+	GY, N41.57240, W87.32700, 0, Garie
+	DKB, N41.93400, W88.70730, 0, De Kalb
+	ENW, N42.59910, W87.93170, 0, Kenosha
+	RA, N42.68250, W87.89950, 0, Paser
+	EON, N41.26960, W87.79110, 0, Peotone
+	BUU, N42.68930, W88.30180, 0, Burbun
+	HRK, N42.76190, W87.81440, 0, Horlick
+	LVV, N42.69880, W88.59320, 0, Lake Lawn
+	VP, N41.45120, W86.87750, 0, Sedly
+
+line1 =
+	N42.30933, W86.35249
+	N42.22373, W86.40737
+	N42.08228, W86.52017
+	N41.98770, W86.57534
+	N41.91133, W86.63247
+	N41.85337, W86.69155
+	N41.78853, W86.79819
+	N41.66948, W87.07261
+	N41.64639, W87.15869
+	N41.63765, W87.25322
+	N41.64326, W87.35625
+	N41.65649, W87.41250
+	N41.67856, W87.42500
+	N41.68076, W87.44702
+	N41.69546, W87.47695
+	N41.72065, W87.51465
+	N41.76597, W87.55659
+	N41.85913, W87.60205
+	N42.00024, W87.65112
+	N42.08437, W87.69463
+	N42.11152, W87.73252
+	N42.15391, W87.76680
+	N42.21143, W87.79746
+	N42.34106, W87.81250
+	N42.54297, W87.81196
+	N42.68037, W87.80166
+	N42.75342, W87.78140
+	N42.80918, W87.78706
+	N42.84771, W87.81870
+	N42.89565, W87.83818
+	N42.95308, W87.84556
+
+[airport1]
+name = Chicago O'Hare International Airport
+code = KORD
+runways =
+	rwy1, 04L, N41.9817, W87.9139, 39.0, 7500, 0, 0, 656
+	rwy2, 04R, N41.9533, W87.8994, 42.0, 8075, 0, 0, 661
+	rwy3, 09L, N42.0028, W87.9267, 90.0, 7500, 0, 0, 668
+	rwy4, 09R, N41.9839, W87.9184, 90.0, 7967, 0, 0, 660
+	rwy5, 10C, N41.9657, W87.9315, 90.0, 10801, 0, 0, 669
+	rwy6, 10L, N41.969, W87.9315, 90.0, 13000, 0, 0, 672
+	rwy7, 14L, N42.0024, W87.9154, 140.0, 10005, 0, 0, 653
+	rwy8, 15, N41.9904, W87.9331, 140.0, 9686, 0, 0, 666
+	rwy9, 18, N41.9974, W87.9004, 180.0, 5332, 0, 0, 646
+
+[airport2]
+name = Chicago Midway International Airport
+code = DW
+runways =
+	rwy10, 04L, N41.7814, W87.7612, 43.0, 5507, 758, 878, 617
+	rwy11, 04R, N41.7792, W87.7593, 43.0, 6446, 518, 634, 619
+	rwy12, 13C, N41.7916, W87.7611, 134.0, 6522, 463, 696, 608
+	rwy13, 13L, N41.7923, W87.7579, 134.0, 5141, 752, 0, 606
+	rwy14, 13R, N41.7881, W87.7588, 134.0, 3859, 0, 0, 607
+inboundbeacon = MX

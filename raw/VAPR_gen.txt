@@ -1,0 +1,46 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 23
+center = N21.6487007141, E69.6572036743
+magneticvar = -0.105
+beacons =
+	PR, N21.64120, E69.66260, 0, Porbandar
+	KS, N21.31850, E70.26170, 0, Keshod
+	JMR, N22.46860, E70.17110, 0, Jamnagar
+
+line1 =
+	N22.57275, E70.17725
+	N22.55352, E70.08418
+	N22.54771, E70.00586
+	N22.45176, E69.81904
+	N22.46519, E69.72754
+	N22.40352, E69.65518
+	N22.40840, E69.54922
+	N22.28550, E69.27656
+	N22.30020, E69.23887
+	N22.33608, E69.19424
+	N22.41626, E69.13135
+	N22.43730, E69.05166
+	N22.38540, E68.98350
+	N22.29028, E68.96992
+	N22.19678, E69.00879
+	N21.99150, E69.19170
+	N21.83955, E69.38545
+	N21.67856, E69.54199
+	N21.50571, E69.74844
+	N21.17881, E70.03438
+	N21.09468, E70.12734
+	N20.84019, E70.48506
+	N20.74043, E70.71934
+	N20.71450, E70.87969
+
+[airport1]
+name = Porbandar Airport
+code = VAPR
+runways =
+	rwy1, 09, N21.6485, E69.6506, 88.0, 4500, 0, 0, 23

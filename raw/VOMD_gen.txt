@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 459
+center = N9.83450984955, E78.0933990479
+magneticvar = -2.195
+beacons =
+	MDI, N9.83108, E78.08900, 0, Madurai
+	MD, N9.84220, E78.09960, 0, Madurai
+
+line1 =
+	N8.89087, E78.19248
+	N8.99019, E78.27451
+	N9.10503, E78.42148
+	N9.26855, E78.97959
+	N9.25601, E79.21289
+
+line2 =
+	N9.28462, E79.27549
+	N9.30894, E79.10703
+	N9.33335, E79.01992
+	N9.39380, E78.95312
+	N9.45288, E78.91914
+	N9.56577, E78.93994
+	N9.68311, E78.99629
+	N10.03521, E79.25781
+	N10.17480, E79.25361
+
+[airport1]
+name = Madurai Airport
+code = VOMD
+runways =
+	rwy1, 09, N9.83396, E78.0851, 86.2, 5990, 0, 203, 459
+	rwy2, 13, N9.84055, E78.0821, 126.5, 4603, 0, 0, 454

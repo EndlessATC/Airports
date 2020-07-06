@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 774
+center = S10.2915000916, W48.3569984436
+magneticvar = -20.141
+beacons =
+	PMS, S10.28790, W48.35840, 0, Palmas
+	PMS, S10.29070, W48.36590, 0, Palmas
+	PNC, S10.71280, W48.40220, 0, Porto Nacional
+	PNC, S10.72070, W48.40260, 0, Porto Nacional
+
+line1 =
+	S11.25725, W48.48859
+	S11.11028, W48.54078
+	S10.97881, W48.52559
+	S10.86275, W48.44290
+	S10.73195, W48.41691
+	S10.58633, W48.44750
+	S10.42954, W48.45412
+	S10.26165, W48.43681
+	S10.13995, W48.40451
+	S10.06450, W48.35733
+	S10.00140, W48.34472
+	S9.95076, W48.36668
+	S9.90818, W48.36482
+	S9.87366, W48.33909
+	S9.79935, W48.34647
+	S9.68525, W48.38699
+	S9.55290, W48.39771
+	S9.40237, W48.37870
+
+[airport1]
+name = Brigadeiro Lysias Rodrigues Airport
+code = SBPJ

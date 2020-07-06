@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 587
+center = S5.8937702179, W76.1182022095
+magneticvar = -1.477
+beacons =
+	YMR, S5.89225, W76.14080, 0, Yurimaguas
+	YMS, S5.88333, W76.08330, 0, Yurimaguas
+	TAP, S6.65811, W76.36730, 0, Tarapoto
+
+line1 =
+	S4.90135, W76.51060
+	S4.92554, W76.44202
+	S4.93453, W76.35190
+	S4.92833, W76.24017
+	S4.94363, W76.17253
+	S4.99913, W76.13710
+	S5.03912, W75.84056
+	S5.04346, W75.72300
+	S5.02538, W75.68553
+	S5.03148, W75.65416
+	S5.06165, W75.62894
+	S5.00626, W75.55928
+
+line2 =
+	S6.82651, W75.09094
+	S6.74755, W75.08433
+	S6.66538, W75.13001
+	S6.60973, W75.12841
+	S6.58694, W75.10562
+	S6.53567, W75.12461
+	S6.49578, W75.16262
+	S6.45402, W75.17781
+	S6.41888, W75.15189
+	S6.34457, W75.15112
+	S6.23626, W75.18690
+	S6.15668, W75.17962
+	S6.10562, W75.12923
+	S6.10645, W75.09993
+	S6.11213, W75.08094
+	S6.10076, W75.06195
+	S6.07606, W75.05244
+	S6.06278, W75.01826
+	S6.07524, W74.96206
+
+[airport1]
+name = Moises Benzaquen Rengifo Airport
+code = SPMS
+runways =
+	rwy1, 09, S5.89315, W76.1263, 94.0, 5912, 0, 0, 570

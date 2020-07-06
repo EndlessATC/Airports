@@ -1,0 +1,77 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 93
+center = N36.7445983887, W6.06011009216
+magneticvar = -2.356
+beacons =
+	JRZ, N36.81520, W6.02654, 0, Jerez
+	JER, N36.83450, W6.01622, 0, Jerez
+	AOG, N36.64210, W6.31681, 0, Rota
+	AOG, N36.64790, W6.34906, 0, Rota
+	VJF, N36.24720, W5.97187, 0, Vejer
+	MRN, N37.17320, W5.61964, 0, Moron
+	MRN, N37.17510, W5.61892, 0, Moron
+	EEC, N37.31540, W6.00131, 0, El Copero
+	MNF, N37.29460, W5.56214, 0, Moron
+	SPP, N37.41810, W5.79552, 0, Sevilla
+	SVL, N37.42790, W5.76221, 0, Sevilla
+	GBR, N36.14290, W5.34272, 0, Gibraltar
+
+line1 =
+	N37.16831, W7.49360
+	N37.17944, W7.40615
+	N37.20879, W7.17495
+	N37.19844, W6.97466
+	N37.21494, W6.92949
+	N37.27891, W6.86377
+	N37.24917, W6.85938
+	N37.19424, W6.88462
+	N36.95464, W6.49243
+	N36.83164, W6.39619
+	N36.90850, W6.32095
+	N36.91357, W6.21680
+	N36.89897, W6.25942
+	N36.84814, W6.32832
+	N36.72886, W6.41226
+	N36.63701, W6.38413
+	N36.59673, W6.26895
+	N36.56484, W6.25771
+	N36.52651, W6.26592
+	N36.42646, W6.22627
+	N36.33379, W6.17046
+	N36.18843, W6.04067
+	N36.18174, W5.96069
+	N36.08833, W5.80840
+	N36.02593, W5.62549
+	N36.03882, W5.55127
+	N36.07378, W5.46250
+	N36.15059, W5.44360
+	N36.15889, W5.40723
+	N36.13408, W5.38159
+	N36.13491, W5.36094
+	N36.23574, W5.32969
+	N36.37363, W5.23052
+	N36.42378, W5.17148
+	N36.50205, W4.93530
+	N36.50645, W4.67412
+
+line2 =
+	N35.74521, W5.33765
+	N35.85654, W5.33765
+	N35.90273, W5.27783
+	N35.92988, W5.39736
+	N35.86201, W5.52227
+	N35.82891, W5.62285
+	N35.81597, W5.74795
+	N35.78579, W5.92480
+
+[airport1]
+name = Jerez Airport
+code = LEJR
+runways =
+	rwy1, 02, N36.735, W6.06481, 21.4, 7546, 0, 0, 68

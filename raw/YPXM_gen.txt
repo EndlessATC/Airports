@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 916
+center = S10.4505996704, E105.690002441
+magneticvar = 0.195
+beacons =
+	XMX, S10.43030, E105.69000, 0, Christmas Island
+
+line1 =
+	S10.45225, E105.64551
+	S10.45967, E105.59570
+	S10.51250, E105.58408
+	S10.52500, E105.64434
+	S10.56416, E105.69688
+	S10.49297, E105.72539
+	S10.43066, E105.70547
+	S10.44941, E105.66982
+	S10.45225, E105.64551
+
+[airport1]
+name = Christmas Island Airport
+code = YPXM
+runways =
+	rwy1, 18, S10.4408, E105.69, 175.0, 6900, 0, 0, 916

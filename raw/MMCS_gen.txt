@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 3904
+center = N31.636100769, W106.429000854
+magneticvar = 9.351
+beacons =
+	CJS, N31.63620, W106.42700, 0, Juarez
+	ELP, N31.81590, W106.28200, 0, El Paso
+	EL, N31.86030, W106.31800, 0, Valtr
+	EWM, N31.95170, W106.27200, 0, Newman
+	LR, N32.21900, W106.83600, 0, Hawke
+
+line1 =
+	N31.81953, W106.56636
+	N31.76447, W106.43603
+	N31.67900, W106.34697
+	N31.54466, W106.25571
+	N31.45092, W106.14806
+	N31.39777, W106.02409
+	N31.24104, W105.81271
+	N30.98077, W105.51399
+	N30.80727, W105.27582
+	N30.72055, W105.09815
+
+line2 =
+	N32.58385, W106.97535
+	N32.47853, W106.88915
+	N32.39931, W106.84642
+	N32.34629, W106.84709
+	N32.19473, W106.77717
+	N31.81953, W106.56628
+
+[airport1]
+name = Abraham González International Airport
+code = MMCS
+runways =
+	rwy1, 03, N31.6283, W106.436, 38.5, 8858, 0, 0, 3887
+	rwy2, 14, N31.6432, W106.432, 156.0, 5741, 0, 0, 3899
+
+[airport2]
+name = El Paso International Airport
+code = LP
+runways =
+	rwy3, 04, N31.8015, W106.4, 50.0, 12020, 0, 0, 3917
+	rwy4, 08L, N31.8057, W106.37, 88.3, 5493, 0, 0, 3952
+	rwy5, 08R, N31.8022, W106.392, 93.3, 9025, 0, 0, 3925
+inboundbeacon = EL

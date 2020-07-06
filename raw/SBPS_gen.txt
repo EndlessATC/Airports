@@ -1,0 +1,43 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 168
+center = S16.438601, W39.080898
+magneticvar = -23.164
+beacons =
+	SGR, S16.44170, W39.08250, 0, Porto Seguro
+
+line1 =
+	S17.31582, W39.21523
+	S17.17813, W39.20288
+	S17.04355, W39.16396
+	S16.76357, W39.12505
+	S16.50439, W39.06323
+	S16.18652, W38.96079
+	S15.86426, W38.88062
+	S15.84199, W38.88525
+	S15.56436, W38.94321
+
+line2 =
+	S16.12548, W40.16982
+	S16.09178, W40.05882
+	S16.05633, W39.98978
+	S16.01892, W39.96270
+	S15.98574, W39.84002
+	S15.94223, W39.51275
+	S16.02522, W39.40221
+	S16.04026, W39.32266
+	S16.01489, W39.23729
+	S15.95484, W39.16445
+	S15.86012, W39.10409
+	S15.82126, W39.02100
+	S15.82534, W38.94891
+	S15.84198, W38.88527
+
+[airport1]
+name = Porto Seguro Airport
+code = SBPS

@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 551
+usa = true
+transition = 18001
+center = N34.74530029, W87.61019897
+magneticvar = -2.345
+beacons =
+	MSL, N34.70690, W87.49150, 0, Muscle Shoals
+	DCU, N34.64830, W86.93950, 0, Decatur
+	LRT, N35.23550, W87.26070, 0, Lawrenceburg
+	HAB, N34.19510, W88.01250, 0, Hamilton
+	CWH, N34.77370, W86.77900, 0, Capshaw
+	HHY, N35.25400, W88.20420, 0, Pinhook
+	JHG, N35.46250, W87.63030, 0, Hohenwald
+	CPP, N34.36790, W86.82390, 0, Cole Spring
+	HUA, N34.69850, W86.68800, 0, Redstone
+	RQZ, N34.79710, W86.63390, 0, Rocket
+	UU, N35.01550, W88.61570, 0, Seyer
+	SZY, N35.23690, W88.51610, 0, Sibley
+	LUG, N35.50050, W86.80970, 0, Verona
+
+line1 =
+	N34.57476, W86.89851
+	N34.75408, W87.24180
+	N34.81862, W87.39960
+	N34.82818, W87.48631
+	N34.81808, W87.57240
+	N34.77338, W87.70046
+
+line2 =
+	N34.77338, W87.70046
+	N34.76315, W87.81404
+	N34.84384, W87.96486
+	N34.93288, W88.08444
+	N35.01205, W88.19079
+	N35.12579, W88.30621
+	N35.18506, W88.31117
+	N35.23865, W88.28182
+	N35.28655, W88.21820
+	N35.32885, W88.18774
+	N35.36554, W88.19048
+	N35.39060, W88.13929
+	N35.40409, W88.03418
+	N35.41841, W87.99372
+	N35.43365, W88.01790
+	N35.46440, W88.01527
+	N35.51075, W87.98579
+	N35.57940, W87.98734
+	N35.67041, W88.01994
+
+line3 =
+	N34.40307, W86.29413
+	N34.42663, W86.37754
+	N34.47795, W86.46156
+	N34.55693, W86.54616
+	N34.59102, W86.66600
+	N34.57476, W86.89851
+
+[airport1]
+name = Northwest Alabama Regional Airport
+code = KMSL
+runways =
+	rwy1, 11, N34.749, W87.617, 114.0, 6693, 0, 0, 542
+	rwy2, 18, N34.7509, W87.6157, 181.0, 4000, 0, 0, 539

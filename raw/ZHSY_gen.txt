@@ -1,0 +1,48 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N32.591667, E110.907778
+
+line1 =
+	N32.56781, E111.47767
+	N32.74069, E111.00008
+
+line2 =
+	N32.56781, E111.47767
+	N32.46758, E111.60221
+	N32.40743, E111.64216
+	N32.35399, E111.63895
+	N32.26511, E111.68479
+	N32.14088, E111.77967
+	N32.06455, E111.91857
+	N32.03618, E112.10141
+	N31.96580, E112.18895
+	N31.85346, E112.18119
+	N31.77108, E112.22543
+
+line3 =
+	N32.93406, E109.71550
+	N32.93675, E109.73928
+	N32.93406, E109.76677
+	N32.82490, E110.14049
+	N32.80694, E110.30513
+	N32.84099, E110.36683
+	N32.84342, E110.47458
+	N32.81422, E110.62827
+	N32.81510, E110.71534
+	N32.84616, E110.73580
+	N32.84802, E110.80784
+	N32.82068, E110.93135
+	N32.78766, E110.96690
+	N32.77107, E110.96861
+	N32.74069, E111.00008
+
+[airport1]
+name = Shiyan Wudangshan Airport
+code = ZHSY

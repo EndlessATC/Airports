@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4898
+metric = true
+center = N47.9541015625, E91.6281967163
+magneticvar = 2.307
+beacons =
+	B, N47.93270, E91.65530, 0, Khovd
+	JA, N47.90820, E91.65530, 0, Khovd
+
+line1 =
+	N48.17817, E92.78662
+	N48.09780, E92.62178
+	N48.03022, E92.44219
+	N47.96421, E92.35352
+	N47.85063, E92.27998
+	N47.76865, E92.20029
+	N47.81572, E92.08418
+	N47.93301, E91.99082
+	N48.00967, E91.97617
+	N48.05439, E92.10508
+	N48.13008, E92.24863
+	N48.26338, E92.25000
+	N48.35220, E92.28701
+	N48.36079, E92.36289
+	N48.36011, E92.42490
+	N48.33892, E92.48320
+	N48.23740, E92.40186
+	N48.15640, E92.40469
+	N48.13813, E92.47969
+	N48.13838, E92.54365
+	N48.19312, E92.64336
+	N48.27090, E92.64541
+	N48.32998, E92.63828
+	N48.31045, E92.73281
+	N48.25293, E92.80195
+	N48.17817, E92.78662
+	N48.17817, E92.78662
+	N48.17817, E92.78662
+
+line2 =
+	N47.65017, E90.32537
+	N47.49090, E90.28382
+	N47.43039, E90.25261
+	N47.40801, E90.20052
+	N47.40119, E90.13241
+	N47.35571, E90.06399
+	N47.26926, E89.97252
+
+[airport1]
+name = Khovd Airport
+code = ZMKD
+runways =
+	rwy1, 16, N47.9656, E91.6199, 157.3, 9352, 0, 0, 4761
+	rwy2, 16L, N47.9603, E91.625, 158.1, 6535, 0, 0, 0

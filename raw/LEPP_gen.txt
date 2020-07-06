@@ -1,0 +1,64 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1504
+center = N42.7700004578, W1.64632999897
+magneticvar = -2.078
+beacons =
+	NO, N42.75000, W1.63167, 0, Pamplona
+	PPN, N42.73370, W1.70200, 0, Pamplona
+	PAM, N42.71420, W1.63904, 0, Pamplona
+	PAP, N42.68840, W1.66078, 0, Pamplona
+	SSN, N43.31120, W1.83039, 0, San Sebastian
+	EAG, N42.45130, W2.31474, 0, Logrono
+	LPA, N42.46050, W2.32691, 0, Logrono
+	HIG, N43.38630, W1.79589, 0, San Sebastian
+	BTZ, N43.46660, W1.51028, 0, Biarritz
+	BZ, N43.47050, W1.40369, 0, Biarritz
+	VTA, N42.92810, W2.67961, 0, Vitoria
+	VFD, N42.88060, W2.72435, 0, Vitoria
+
+line1 =
+	N43.56377, W1.48486
+	N43.43804, W1.63145
+	N43.40732, W1.79404
+	N43.40083, W1.82852
+	N43.34507, W1.99131
+	N43.32192, W2.19668
+	N43.32803, W2.33711
+	N43.41274, W2.60708
+	N43.45444, W2.87505
+	N43.43970, W2.94771
+	N43.37158, W3.04561
+
+line2 =
+	N41.92806, W2.83750
+	N41.84995, W2.54193
+	N41.79678, W2.44401
+
+line3 =
+	N42.78741, W3.15466
+	N42.75522, W3.01090
+	N42.69528, W2.90542
+	N42.64417, W2.84279
+	N42.60184, W2.82305
+	N42.55968, W2.75580
+	N42.51761, W2.64102
+	N42.50686, W2.56315
+	N42.52733, W2.52219
+	N42.51379, W2.39543
+	N42.46625, W2.18294
+	N42.39085, W1.99442
+	N42.23592, W1.74761
+	N41.97826, W1.40521
+	N41.80210, W1.11019
+
+[airport1]
+name = Pamplona Airport
+code = LEPP
+runways =
+	rwy1, 15, N42.7795, W1.65325, 152.0, 7241, 0, 984, 1468

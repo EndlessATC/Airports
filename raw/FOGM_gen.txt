@@ -1,0 +1,24 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 295
+center = S1.84513998032, E11.0566997528
+magneticvar = -3.442
+beacons =
+	ML, S1.78126, E11.04570, 0, Mouilla
+
+line1 =
+	S2.48984, E9.95908
+	S2.54990, E10.06201
+	S2.57559, E10.03447
+	S2.58838, E10.00195
+
+[airport1]
+name = Mouilla Ville Airport
+code = FOGM
+runways =
+	rwy1, 17, S1.83722, E11.0549, 167.6, 5891, 0, 0, 0

@@ -1,0 +1,38 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2171
+center = N15.361700058, E75.0848999023
+magneticvar = -1.232
+beacons =
+	HB, N15.35840, E75.08350, 0, Hubli
+	BBM, N15.85620, E74.61690, 0, Belgaum
+
+line1 =
+	N15.30645, E73.88428
+	N15.07476, E73.94922
+	N14.94937, E74.04063
+	N14.90220, E74.08877
+	N14.70889, E74.22305
+	N14.64951, E74.28037
+	N14.57544, E74.33506
+	N14.49473, E74.38223
+	N14.40742, E74.39717
+
+line2 =
+	N16.33823, E75.83799
+	N16.31658, E75.94289
+	N16.27875, E76.01648
+	N16.22477, E76.05854
+	N16.18759, E76.12417
+	N16.16723, E76.21326
+
+[airport1]
+name = Hubli Airport
+code = VAHB
+runways =
+	rwy1, 08, N15.3608, E75.0771, 82.8, 5479, 335, 175, 0

@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6
+center = N4.19183015823, E73.5290985107
+magneticvar = -3.351
+beacons =
+	MLE, N4.19339, E73.53070, 0, Male
+	ML, N4.19047, E73.53110, 0, Male
+
+line1 =
+	N3.23125, E73.41660
+	N3.22939, E73.39531
+	N3.24648, E73.38203
+	N3.27139, E73.38496
+	N3.28877, E73.40156
+	N3.28984, E73.42773
+	N3.27432, E73.44277
+	N3.25015, E73.43496
+	N3.23125, E73.41660
+
+line2 =
+	N4.18687, E73.51904
+	N4.16455, E73.51221
+	N4.15518, E73.49482
+	N4.15894, E73.47861
+	N4.17070, E73.47305
+	N4.18813, E73.48115
+	N4.21045, E73.49473
+	N4.23462, E73.50410
+	N4.24766, E73.51777
+	N4.24331, E73.52832
+	N4.22969, E73.52715
+	N4.21104, E73.52217
+	N4.18687, E73.51904
+
+[airport1]
+name = Malé International Airport
+code = VRMM
+runways =
+	rwy1, 18, N4.20629, E73.5289, 179.1, 10499, 328, 952, 6

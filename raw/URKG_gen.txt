@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 98
+center = N44.5820926295, E38.0124807358
+magneticvar = 6.132
+beacons =
+	DV, N44.31670, E38.70000, 0, Dzhubga
+	SM, N44.78330, E38.80000, 0, Smolenskaya
+	AP, N45.03500, E37.39170, 0, Anapa
+	AN, N44.96830, E37.30500, 0, Anapa
+	AG, N44.13330, E39.03330, 0, Agoy
+	WP, N45.00830, E39.10330, 0, Krasnodar
+	KR, N45.00500, E39.13330, 0, Krasnodar
+
+line1 =
+	N45.06538, E36.39336
+	N45.15327, E36.42842
+	N45.23232, E36.45078
+	N45.30376, E36.51426
+	N45.39355, E36.57500
+	N45.43325, E36.42705
+
+line2 =
+	N45.56470, E37.61240
+	N45.49951, E37.60996
+	N45.48633, E37.63438
+	N45.48838, E37.67188
+	N45.42974, E37.67295
+	N45.37720, E37.64717
+	N45.31094, E37.26426
+	N45.27231, E37.21357
+	N45.30288, E37.10352
+	N45.38359, E36.97783
+	N45.42705, E36.86592
+	N45.40972, E36.79375
+	N45.37187, E36.72041
+	N45.34834, E36.76162
+	N45.34004, E36.81104
+	N45.28970, E36.94121
+	N45.25176, E36.87305
+	N45.18550, E36.61914
+	N45.15132, E36.62764
+	N45.12646, E36.65078
+	N45.06958, E36.94443
+	N44.97197, E37.20479
+	N44.90503, E37.28408
+	N44.78838, E37.35234
+	N44.73535, E37.41133
+	N44.69526, E37.49512
+	N44.67085, E37.57246
+	N44.66138, E37.70488
+	N44.69883, E37.85146
+	N44.41968, E38.18125
+	N44.37446, E38.31182
+	N44.31802, E38.63584
+	N44.28809, E38.71729
+	N43.89727, E39.32939
+	N43.72788, E39.51670
+
+[airport1]
+name = Gelendzhik Airport
+code = URKG
+runways =
+	rwy1, 01, N44.5685, E38.0083, 14.0, 10171, 0, 0, 90

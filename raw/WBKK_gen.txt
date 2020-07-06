@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 10
+center = N5.93721008301, E116.051002502
+magneticvar = 0.243
+beacons =
+	VJN, N5.89967, E116.03000, 0, Kota Kinabalu
+	JSL, N5.89967, E116.02800, 0, Kota Kinabalu
+	VLB, N5.29000, E115.25200, 0, Labuan
+	LAB, N5.28472, E115.25500, 0, Labuan
+
+line1 =
+	N6.91685, E117.07793
+	N6.79736, E117.01855
+	N6.65967, E116.91328
+	N6.60791, E116.81240
+	N6.60610, E116.78809
+	N6.69106, E116.80771
+	N6.77207, E116.84199
+	N6.82671, E116.84980
+
+line2 =
+	N6.58271, E116.53828
+	N6.52168, E116.49473
+	N6.12954, E116.13838
+	N6.00327, E116.11006
+	N5.88237, E116.05977
+	N5.72495, E115.91846
+	N5.61353, E115.87715
+	N5.53613, E115.79688
+	N5.53301, E115.74082
+	N5.53511, E115.68506
+	N5.54888, E115.62451
+	N5.60342, E115.60391
+	N5.56670, E115.55645
+	N5.41318, E115.41904
+	N5.33052, E115.42168
+	N5.25410, E115.46689
+	N5.19414, E115.58203
+	N5.09355, E115.55449
+	N5.04893, E115.51982
+	N4.96919, E115.42764
+
+line3 =
+	N4.96245, E115.04707
+	N5.01636, E115.04766
+	N5.02236, E114.99541
+
+[airport1]
+name = Kota Kinabalu International Airport
+code = WBKK
+runways =
+	rwy1, 02, N5.92478, E116.046, 23.0, 9800, 1600, 200, 10

@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 70
+center = S17.699300766, E168.320007324
+magneticvar = 11.317
+beacons =
+	BA, S17.69250, E168.26900, 0, Bauerfield
+	VLI, S17.66220, E168.24400, 0, Bauerfield
+
+line1 =
+	S16.78779, E168.32275
+	S16.83506, E168.46016
+	S16.79365, E168.47656
+	S16.77881, E168.44678
+	S16.75879, E168.36602
+
+line2 =
+	S16.76572, E168.14854
+	S16.80400, E168.18145
+	S16.80615, E168.21230
+	S16.78779, E168.32275
+
+line3 =
+	S17.54219, E168.44580
+	S17.55205, E168.34102
+	S17.54395, E168.31953
+	S17.54492, E168.29746
+	S17.55225, E168.27314
+	S17.64482, E168.19092
+	S17.71055, E168.15820
+	S17.71699, E168.18203
+	S17.69805, E168.23320
+	S17.70605, E168.27783
+	S17.74570, E168.30586
+	S17.78076, E168.25166
+	S17.80723, E168.39941
+	S17.79805, E168.52461
+	S17.69590, E168.58496
+	S17.68467, E168.54541
+	S17.54219, E168.44580
+
+line4 =
+	S18.63105, E169.14385
+	S18.61748, E169.08789
+	S18.64375, E169.01582
+
+[airport1]
+name = Bauerfield International Airport
+code = NVVV
+runways =
+	rwy1, 11, S17.6927, E168.307, 117.9, 8530, 0, 0, 51
+	rwy2, 11R, S17.6952, E168.311, 117.9, 3310, 0, 0, 0

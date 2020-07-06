@@ -1,0 +1,110 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 336
+center = N49.4350013733, W2.60196995735
+magneticvar = -3.112
+beacons =
+	GUY, N49.43650, W2.60178, 0, Guernsey
+	GUR, N49.43710, W2.60206, 0, Guernsey
+	GRB, N49.43450, W2.63951, 0, Guernsey
+	ALD, N49.70890, W2.19970, 0, Alderney
+	JSY, N49.22110, W2.04611, 0, Jersey
+	LN, N48.71930, W3.30778, 0, Lannion
+	MLX, N48.64670, W3.76269, 0, Morlaix
+
+line1 =
+	N50.42817, W3.52588
+	N50.32183, W3.58437
+	N50.23994, W3.67979
+	N50.22925, W3.79336
+	N50.28594, W3.90020
+	N50.34854, W4.10342
+	N50.39082, W4.17256
+	N50.39331, W4.19458
+	N50.37817, W4.21729
+	N50.35908, W4.29697
+	N50.35820, W4.37949
+
+line2 =
+	N49.46821, W2.64614
+	N49.45093, W2.63901
+	N49.42871, W2.54736
+	N49.49453, W2.51230
+	N49.50630, W2.52090
+	N49.50659, W2.54219
+	N49.46821, W2.64614
+
+line3 =
+	N49.26636, W2.22051
+	N49.17637, W2.23584
+	N49.18740, W2.16567
+	N49.18740, W2.09102
+	N49.16982, W2.05376
+	N49.18081, W2.00991
+	N49.23125, W2.01865
+	N49.25537, W2.08223
+	N49.26636, W2.22051
+
+line4 =
+	N49.39316, W0.95913
+	N49.38789, W1.13853
+	N49.44482, W1.19497
+	N49.49487, W1.23228
+	N49.59824, W1.26494
+	N49.68018, W1.25864
+	N49.70728, W1.36572
+	N49.66768, W1.58823
+	N49.68096, W1.70513
+	N49.68379, W1.85645
+	N49.63140, W1.87539
+	N49.59512, W1.87007
+	N49.49014, W1.81343
+	N49.31318, W1.69033
+	N49.20239, W1.58311
+	N48.80552, W1.56548
+	N48.69761, W1.48047
+	N48.65259, W1.37646
+	N48.64141, W1.43765
+	N48.63052, W1.82471
+	N48.66885, W1.85195
+	N48.69712, W1.90571
+	N48.63511, W1.97314
+	N48.58208, W2.00371
+	N48.64502, W2.07944
+	N48.64829, W2.44619
+	N48.53682, W2.69233
+	N48.60107, W2.79287
+	N48.79067, W3.00322
+	N48.84082, W3.23145
+	N48.81294, W3.47148
+	N48.76567, W3.54600
+	N48.71050, W3.71479
+	N48.69473, W3.85566
+	N48.70752, W4.05889
+
+[airport1]
+name = Guernsey Airport
+code = EGJB
+runways =
+	rwy1, 09, N49.4347, W2.61204, 88.0, 4800, 33, 33, 303
+
+[airport2]
+name = Jersey Airport
+code = JJ
+runways =
+	rwy5, 08, N49.207, W2.20693, 83.0, 5597, 200, 299, 270
+inboundbeacon = JSY
+
+[airport3]
+name = Alderney Airport
+code = JA
+runways =
+	rwy2, 03, N49.7053, W2.21306, 27.0, 1630, 0, 0, 277
+	rwy3, 08, N49.706, W2.22085, 79.5, 2887, 0, 0, 284
+	rwy4, 14, N49.7089, W2.22134, 133.3, 2402, 0, 0, 268
+inboundbeacon = ALD

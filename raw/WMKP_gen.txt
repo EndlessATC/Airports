@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 11
+center = N5.29714012146, E100.277000427
+magneticvar = -0.122
+beacons =
+	VPG, N5.27964, E100.26000, 0, Penang
+	PNG, N5.32631, E100.30200, 0, Penang
+	BTR, N5.47186, E100.39300, 0, Butterworth
+	VBT, N5.47631, E100.39400, 0, Butterworth
+	PR, N4.96333, E100.61800, 0, Parit Buntar
+	VIH, N4.57303, E101.09400, 0, Ipoh
+	VPS, N4.48222, E101.01700, 0, Ipoh
+
+line1 =
+	N5.46777, E100.24551
+	N5.44687, E100.20391
+	N5.28286, E100.19102
+	N5.26699, E100.26377
+	N5.29473, E100.28896
+	N5.41006, E100.33887
+	N5.43794, E100.31016
+	N5.46777, E100.24551
+
+line2 =
+	N6.26328, E99.74375
+	N6.27158, E99.78262
+
+line3 =
+	N6.18252, E100.26328
+	N5.98418, E100.34326
+	N5.77798, E100.37402
+	N5.58770, E100.35264
+	N5.04429, E100.47344
+	N4.65225, E100.61455
+	N4.37344, E100.61455
+
+[airport1]
+name = Penang International Airport
+code = WMKP
+runways =
+	rwy1, 04, N5.2859, E100.267, 42.2, 10997, 0, 0, 10

@@ -1,0 +1,18 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 287
+center = S29.711399, W53.688202
+magneticvar = -13.193
+beacons =
+	SMA, S29.70770, W53.68170, 0, Santa Maria
+	SMA, S29.71000, W53.71320, 0, Santa Maria
+	SMR, S29.70620, W53.76920, 0, Cerrito
+
+[airport1]
+name = Santa Maria Airport
+code = SBSM

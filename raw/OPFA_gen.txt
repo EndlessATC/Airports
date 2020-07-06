@@ -1,0 +1,47 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 591
+center = N31.3649997711, E72.9947967529
+magneticvar = 1.299
+beacons =
+	FA, N31.37030, E72.99500, 0, Faisalabad
+
+line1 =
+	N31.18332, E72.13878
+	N31.11634, E72.13919
+	N31.04777, E72.10312
+	N30.90897, E71.99460
+	N30.61415, E71.77146
+	N30.58289, E71.67860
+
+line2 =
+	N32.27537, E73.54820
+	N32.14605, E73.33519
+	N31.90208, E73.13913
+	N31.75822, E72.97434
+	N31.69925, E72.85357
+	N31.67724, E72.72179
+	N31.62166, E72.58232
+	N31.53257, E72.43504
+	N31.45715, E72.33386
+	N31.39542, E72.27877
+	N31.32848, E72.24699
+	N31.25634, E72.23841
+	N31.21102, E72.21030
+	N31.18332, E72.13857
+
+line3 =
+	N30.89357, E74.33937
+	N30.76897, E74.21560
+	N30.51969, E74.00900
+
+[airport1]
+name = Faisalabad International Airport
+code = OPFA
+runways =
+	rwy1, 03, N31.355, E72.9868, 36.2, 9272, 0, 0, 587

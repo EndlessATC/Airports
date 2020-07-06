@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1334
+usa = true
+center = S31.0839004517, E150.847000122
+magneticvar = 11.379
+beacons =
+	TW, S31.07120, E150.83099, 0, Tamworth
+	TW, S31.06620, E150.83000, 0, Tamworth
+	QDI, S31.49280, E150.52400, 0, Quirindi
+	GDH, S30.95420, E150.24800, 0, Gunnedah
+	MSO, S31.38750, E151.41100, 0, Mount Sandon
+	MSO, S31.38640, E151.41200, 0, Mount Sandon
+	ARM, S30.52780, E151.61501, 0, Armidale
+
+[airport1]
+name = Tamworth Airport
+code = YSTW
+runways =
+	rwy1, 06, S31.0832, E150.843, 73.0, 2762, 0, 0, 1313
+	rwy2, 12L, S31.0711, E150.837, 133.0, 7218, 0, 0, 1283
+	rwy3, 12R, S31.0813, E150.833, 133.0, 3642, 0, 0, 1318
+	rwy4, 18, S31.0771, E150.847, 188.0, 3346, 121, 0, 1292

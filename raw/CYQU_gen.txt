@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2195
+usa = true
+transition = 18001
+center = N55.1796989441, W118.885002136
+magneticvar = 20.172
+beacons =
+	QU, N55.13780, W118.81400, 0, Grande Prairie
+	YQU, N55.17420, W119.03000, 0, Grande Prairie
+	DQ, N55.72780, W120.06800, 0, Dawson Creek
+
+line1 =
+	N56.15972, W120.65395
+	N56.12086, W120.38864
+	N56.12169, W120.24353
+
+line2 =
+	N56.14048, W118.91734
+	N56.09963, W118.90721
+	N56.06991, W118.91653
+	N56.01720, W118.86917
+	N55.95622, W118.71580
+	N55.93359, W118.44871
+	N55.94930, W118.06785
+	N56.02252, W117.73914
+	N56.15327, W117.46249
+
+[airport1]
+name = Grande Prairie Airport
+code = CYQU
+runways =
+	rwy1, 07, N55.1844, W118.9, 89.4, 6200, 0, 0, 2194
+	rwy2, 12, N55.1901, W118.905, 134.6, 8502, 400, 0, 2195

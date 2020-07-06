@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = N6.51991987228, E101.742996216
+magneticvar = -0.050
+beacons =
+	NT, N6.52239, E101.74900, 0, Narathiwat
+	NTW, N6.52729, E101.74500, 0, Narathiwat
+	KB, N6.17500, E102.25500, 0, Kota Bharu
+	PT, N6.78846, E101.14800, 0, Pattani
+	VKB, N6.16342, E102.31400, 0, Kota Bharu
+	VGK, N5.79732, E102.47900, 0, Gong Kedak
+	GK, N5.79806, E102.49000, 0, Gong Kedak
+
+line1 =
+	N5.56377, E102.89854
+	N5.64492, E102.79023
+	N5.86255, E102.53438
+	N6.17202, E102.34014
+	N6.20342, E102.27402
+	N6.24224, E102.10107
+	N6.47461, E101.79922
+	N6.75396, E101.61426
+	N6.86528, E101.49795
+	N6.89956, E101.40088
+	N6.90830, E101.30195
+	N6.87515, E101.15439
+	N6.86094, E101.01787
+	N6.99468, E100.79258
+	N7.08198, E100.70166
+	N7.17598, E100.58623
+
+[airport1]
+name = Narathiwat Airport
+code = VTSC
+runways =
+	rwy1, 02, N6.51161, E101.74, 23.0, 6562, 0, 0, 18

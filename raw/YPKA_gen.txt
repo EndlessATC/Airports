@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 29
+usa = true
+center = S20.7122001648, E116.773002625
+magneticvar = 1.247
+beacons =
+	KA, S20.71500, E116.77400, 0, Karratha
+	KA, S20.70610, E116.78400, 0, Karratha
+
+line1 =
+	S21.35811, E115.59609
+	S21.24229, E115.77148
+	S21.11670, E115.89355
+	S21.03037, E116.01094
+	S20.71338, E116.60586
+	S20.65381, E116.70674
+	S20.64707, E116.83633
+	S20.65762, E116.99531
+	S20.64092, E117.13906
+	S20.71309, E117.29277
+	S20.72119, E117.40625
+	S20.64277, E117.68389
+	S20.57256, E117.83232
+
+[airport1]
+name = Karratha Airport
+code = YPKA
+runways =
+	rwy1, 08, S20.7138, E116.767, 83.0, 6070, 0, 0, 30

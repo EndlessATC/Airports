@@ -1,0 +1,55 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+metric = true
+center = N41.105301, E122.853996
+magneticvar = -8.340
+beacons =
+	LCH, N40.86170, E123.13300, 0, Longchang
+	PU, N41.50670, E123.29300, 0, Dongyangjiao
+	SEY, N41.63830, E123.48000, 0, Shenyang
+	KM, N41.63830, E122.11500, 0, Dahushan
+	DHN, N41.64170, E122.11700, 0, Dahushan
+	KY, N41.70500, E123.74700, 0, Wangbingou
+
+line1 =
+	N40.87842, E121.53711
+	N40.84341, E121.59893
+	N40.84614, E121.72930
+	N40.87588, E121.76562
+	N40.96851, E121.80859
+	N40.97427, E121.83486
+	N40.84209, E121.85879
+	N40.68818, E122.14043
+	N40.60273, E122.17871
+	N40.54185, E122.27500
+	N40.50020, E122.26387
+	N40.39604, E122.20332
+	N40.35825, E122.19092
+	N40.13584, E121.98281
+
+line2 =
+	N42.08487, E123.03262
+	N41.95723, E122.89294
+	N41.76174, E122.75807
+	N41.57917, E122.67699
+	N41.32476, E122.63596
+	N41.21371, E122.45726
+	N41.13320, E122.40062
+	N41.05455, E122.44031
+	N41.00261, E122.40941
+	N40.96334, E122.32595
+	N40.89838, E122.29422
+	N40.85159, E122.23634
+	N40.82291, E122.15232
+	N40.77979, E122.14741
+	N40.68816, E122.14038
+
+[airport1]
+name = Anshan Air Base
+code = ZYAS

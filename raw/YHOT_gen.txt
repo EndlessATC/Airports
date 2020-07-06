@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 4260
+usa = true
+center = S37.0475006104, E147.333999634
+magneticvar = 11.434
+beacons =
+	LVG, S37.14470, E147.54900, 0, Mount Livingstone
+	LVG, S37.14110, E147.55200, 0, Mount Livingstone
+	WGT, S36.42150, E146.30499, 0, Wangaratta
+
+line1 =
+	S37.83066, E148.26250
+	S37.85605, E148.13066
+	S37.93418, E147.87676
+
+line2 =
+	S36.10803, E147.04315
+	S36.05025, E147.09999
+
+line3 =
+	S36.96705, E148.00505
+	S36.73026, E148.16153
+	S36.62500, E148.19693
+	S36.54583, E148.14654
+	S36.18089, E148.03410
+
+line4 =
+	S36.05217, E147.35047
+	S36.06953, E147.32293
+	S36.04907, E147.27177
+	S36.10761, E147.04460
+	S36.10002, E146.89608
+	S36.06658, E146.76089
+
+line5 =
+	S36.05356, E146.33084
+	S36.05589, E146.21591
+
+[airport1]
+name = Mount Hotham Airport
+code = YHOT
+runways =
+	rwy1, 11, S37.0451, E147.328, 119.1, 4762, 0, 0, 4259

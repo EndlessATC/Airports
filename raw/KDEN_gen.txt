@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5431
+usa = true
+transition = 18001
+center = N39.8616981506, W104.672996521
+magneticvar = 9.270
+beacons =
+	DVV, N39.89470, W104.62400, 0, Mile High
+	DEN, N39.81250, W104.66100, 0, Denver
+	BKF, N39.70740, W104.75200, 0, Buckley
+	FQF, N39.69010, W104.62100, 0, Falcon
+	FT, N39.79190, W104.43400, 0, Skipi
+	BJC, N39.91300, W105.13900, 0, Jeffco
+	AP, N39.45190, W104.84600, 0, Casse
+	DC, N40.33470, W104.62600, 0, Buffs
+	FN, N40.36320, W104.97100, 0, Colln
+	BVR, N39.76580, W103.92800, 0, Byers
+	GLL, N40.50390, W104.55300, 0, Gill
+
+line1 =
+	N40.18460, W105.82080
+	N40.16468, W105.86136
+
+line2 =
+	N40.16468, W105.86136
+	N40.12742, W105.98523
+	N40.09270, W106.12579
+
+line3 =
+	N40.40410, W105.84558
+	N40.21530, W105.81640
+	N40.18491, W105.82064
+
+[airport1]
+name = Denver International Airport
+code = KDEN
+runways =
+	rwy1, 07, N39.8409, W104.727, 90.5, 12000, 0, 0, 5347
+	rwy2, 08, N39.8776, W104.662, 90.5, 12000, 0, 0, 5351
+	rwy3, 16L, N39.897, W104.687, 180.5, 12000, 0, 0, 5347
+	rwy4, 16R, N39.8958, W104.696, 180.5, 16000, 0, 0, 5319
+	rwy5, 17L, N39.865, W104.641, 180.5, 12000, 0, 0, 5325
+	rwy6, 17R, N39.8612, W104.66, 180.5, 12000, 0, 0, 5374

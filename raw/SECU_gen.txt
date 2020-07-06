@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 8306
+center = S2.88947, W78.984398
+magneticvar = -0.598
+beacons =
+	CUR, S2.86250, W78.94860, 0, Cuenca
+	CUV, S2.83500, W78.91690, 0, Cuenca
+	GLZ, S3.42000, W78.53560, 0, Gualaquiza
+
+line1 =
+	S3.01172, W80.15068
+	S2.97314, W80.13159
+	S2.84590, W80.09341
+	S2.83379, W80.07119
+	S2.81953, W80.01323
+	S2.72559, W79.90903
+	S2.67383, W79.99727
+	S2.66885, W80.08076
+	S2.69629, W80.14570
+
+line2 =
+	S2.52842, W80.12715
+	S2.39072, W80.05308
+	S2.35381, W80.00664
+	S2.55674, W80.03018
+	S2.57871, W79.98901
+	S2.54854, W79.92559
+	S2.42363, W79.88032
+	S2.14570, W79.89341
+	S2.06738, W79.84214
+	S2.11055, W79.83262
+	S2.16787, W79.83975
+	S2.35654, W79.82241
+	S2.48467, W79.74551
+	S2.57910, W79.72988
+	S2.77695, W79.82271
+	S3.09014, W79.92158
+	S3.15771, W79.96333
+	S3.22813, W80.02666
+	S3.27402, W80.10034
+
+[airport1]
+name = Mariscal Lamar Airport
+code = SECU
+runways =
+	rwy1, 05, S2.89473, W78.9911, 52.0, 6234, 0, 0, 8306

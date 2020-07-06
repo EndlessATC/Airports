@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 35
+usa = true
+center = S28.8302993774, E153.259994507
+magneticvar = 11.163
+beacons =
+	LIS, S28.82310, E153.25800, 0, Lismore
+	BNA, S28.83440, E153.56200, 0, Ballina
+	CG, S28.16890, E153.50400, 0, Coolangatta
+	CG, S28.16490, E153.50101, 0, Coolangatta
+	LAV, S28.08980, E152.92500, 0, Laravale
+
+line1 =
+	S27.89766, E153.42842
+	S28.04834, E153.45488
+	S28.24053, E153.57568
+	S28.53340, E153.56914
+	S28.67305, E153.61689
+	S28.85449, E153.60459
+	S29.05020, E153.46221
+	S29.29043, E153.34805
+	S29.49658, E153.34697
+
+[airport1]
+name = Lismore Airport
+code = YLIS
+runways =
+	rwy1, 15, S28.8239, E153.255, 157.0, 5404, 0, 0, 35
+
+[airport2]
+name = Ballina Byron Gateway Airport
+code = NA
+runways =
+	rwy2, 06, S28.8358, E153.552, 74.0, 6234, 0, 0, 7
+inboundbeacon = BNA

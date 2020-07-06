@@ -1,0 +1,61 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 46
+center = N28.945499, W13.6052
+magneticvar = -5.354
+beacons =
+	TLZ, N28.94480, W13.60700, 0, Lanzarote
+	LTE, N28.94190, W13.61640, 0, Lanzarote
+	LZ, N28.95540, W13.61200, 0, Lanzarote
+	LZR, N29.16600, W13.51070, 0, Lanzarote
+	FTV, N28.43080, W13.86450, 0, Fuerteventura
+
+line1 =
+	N29.14429, W13.53506
+	N29.11899, W13.65010
+	N29.05610, W13.78818
+	N29.01333, W13.82363
+	N28.86909, W13.85991
+	N28.84546, W13.78398
+	N28.91123, W13.71597
+	N28.96021, W13.55469
+	N29.00659, W13.47793
+	N29.15137, W13.45376
+	N29.19751, W13.42295
+	N29.23721, W13.46357
+	N29.21123, W13.50142
+	N29.14429, W13.53506
+
+line2 =
+	N28.61743, W14.02837
+	N28.40664, W14.15259
+	N28.21582, W14.23198
+	N28.12969, W14.35557
+	N28.10093, W14.49180
+	N28.08237, W14.46860
+	N28.05601, W14.33262
+	N28.16929, W14.19678
+	N28.25347, W13.92803
+	N28.40933, W13.86299
+	N28.58516, W13.82759
+	N28.69121, W13.82715
+	N28.73804, W13.85723
+	N28.74468, W13.88628
+	N28.74146, W13.95415
+	N28.70669, W14.00337
+	N28.61743, W14.02837
+
+line3 =
+	N28.00942, W12.46890
+	N27.97842, W12.79365
+
+[airport1]
+name = Lanzarote Airport
+code = GCRR
+runways =
+	rwy1, 03, N28.9358, W13.6108, 27.0, 7874, 0, 0, 18

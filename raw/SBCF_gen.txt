@@ -1,0 +1,35 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2715
+center = S19.6244430542, W43.9719429016
+magneticvar = -21.424
+beacons =
+	IF, S19.61610, W43.98500, 0, Fazenda
+	LST, S19.65880, W43.89700, 0, Lagoa Santa
+	IC, S19.55980, W44.03680, 0, Mocambo
+	CNF, S19.55820, W44.04850, 0, Confins
+	BHZ, S19.83580, W44.00360, 0, Belo Horizonte
+	BHZ, S19.85330, W43.95470, 0, Belo Horizonte
+
+line1 =
+	S19.05088, W45.08872
+	S18.80082, W45.17615
+
+line2 =
+	S19.22668, W45.18166
+	S19.16126, W45.12106
+	S19.05088, W45.08872
+
+[airport1]
+name = Tancredo Neves International Airport
+code = SBCF
+
+[airport2]
+name = Pampulha - Carlos Drummond de Andrade Airport
+code = BH
+inboundbeacon = BHZ

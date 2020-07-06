@@ -1,0 +1,62 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 264
+center = S3.03861, W60.049702
+magneticvar = -14.170
+beacons =
+	MAN, S3.04183, W60.05200, 0, Manaus
+	MNS, S3.04001, W60.05479, 0, Manaus
+	PEL, S3.14281, W59.99360, 0, Pelada
+
+line1 =
+	S3.32264, W58.88994
+	S3.27055, W58.98221
+	S3.23892, W59.09135
+	S3.22776, W59.21734
+	S3.18425, W59.38146
+	S3.10860, W59.58364
+	S3.07790, W59.73544
+	S3.09216, W59.83683
+	S3.12761, W59.89683
+	S3.17138, W59.90564
+	S3.20595, W59.92450
+	S3.23737, W59.95750
+	S3.30564, W60.10503
+	S3.32522, W60.20312
+	S3.30207, W60.27903
+	S3.29985, W60.41060
+	S3.31856, W60.59777
+	S3.39809, W60.74698
+	S3.53834, W60.85819
+	S3.61037, W61.03593
+
+line2 =
+	S3.95195, W59.25299
+	S3.87547, W59.13763
+	S3.79806, W59.08331
+	S3.71972, W59.09011
+	S3.59590, W58.99688
+
+line3 =
+	S2.07398, W61.19691
+	S2.14958, W61.14202
+	S2.21837, W61.09205
+	S2.35965, W61.04017
+	S2.55328, W60.90349
+	S2.92230, W60.57113
+	S3.02808, W60.45059
+	S3.06529, W60.36042
+	S3.06922, W60.26037
+	S3.09562, W60.15769
+	S3.14451, W60.05238
+	S3.15846, W59.97615
+	S3.12761, W59.89683
+
+[airport1]
+name = Eduardo Gomes International Airport
+code = SBEG

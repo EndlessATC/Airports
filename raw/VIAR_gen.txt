@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 756
+center = N31.7096004486, E74.7973022461
+magneticvar = 1.324
+beacons =
+	AAR, N31.70690, E74.80080, 0, Amritsar
+	AR, N31.70860, E74.81430, 0, Amritsar
+	LA, N31.49970, E74.40000, 0, Lahore
+	LA, N31.50110, E74.38330, 0, Lahore
+	SP, N31.70070, E73.99900, 0, Sheikhupura
+	PK, N32.24050, E75.63310, 0, Pathankot
+
+line1 =
+	N32.54246, E74.18847
+	N32.37131, E73.84369
+	N32.27537, E73.54820
+
+line2 =
+	N31.01136, E76.06867
+	N31.01320, E75.79112
+	N30.99449, E75.52746
+	N31.03470, E75.30500
+	N31.13378, E75.12382
+	N31.17712, E74.98398
+	N31.16476, E74.88559
+	N31.09226, E74.72751
+	N30.95966, E74.50975
+	N30.89341, E74.38040
+	N30.89357, E74.33937
+	N30.76897, E74.21560
+
+[airport1]
+name = Sri Guru Ram Dass Jee International Airport
+code = VIAR
+runways =
+	rwy1, 16, N31.7233, E74.7906, 157.6, 10791, 0, 700, 757
+
+[airport2]
+name = Alama Iqbal International Airport
+code = LA
+runways =
+	rwy2, 18L, N31.5366, E74.4048, 181.0, 11024, 0, 0, 712
+	rwy3, 18R, N31.5339, E74.4028, 181.0, 9000, 0, 0, 710
+inboundbeacon = LA

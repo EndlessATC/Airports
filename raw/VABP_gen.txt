@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1711
+center = N23.2875003815, E77.3374023438
+magneticvar = -0.164
+beacons =
+	BPL, N23.28220, E77.33710, 0, Bhopal
+
+line1 =
+	N23.01648, E78.55327
+	N22.97023, E78.44201
+	N22.89915, E78.33794
+	N22.86835, E78.25717
+	N22.87778, E78.19981
+	N22.85907, E78.15841
+	N22.81217, E78.13309
+	N22.79365, E78.07490
+	N22.80341, E77.98385
+	N22.82463, E77.91879
+	N22.85724, E77.87972
+	N22.82533, E77.79022
+	N22.72895, E77.65028
+	N22.63908, E77.45675
+	N22.51416, E77.08608
+	N22.45770, E76.88402
+	N22.40664, E76.80320
+	N22.34220, E76.77643
+	N22.28916, E76.71359
+
+line2 =
+	N22.30866, E76.45831
+	N22.29892, E76.30555
+
+[airport1]
+name = Raja Bhoj International Airport
+code = VABP
+runways =
+	rwy1, 06, N23.2852, E77.3377, 55.2, 3420, 427, 427, 0
+	rwy2, 12, N23.2914, E77.324, 117.6, 6700, 0, 0, 1713

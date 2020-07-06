@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1444
+metric = true
+center = N26.802, E110.642
+
+line1 =
+	N26.83787, E109.38984
+	N26.89355, E109.43780
+	N26.95422, E109.44389
+	N27.03840, E109.42405
+	N27.07990, E109.44064
+	N27.07868, E109.49366
+	N27.10711, E109.55603
+	N27.16514, E109.62776
+	N27.17733, E109.66734
+	N27.14369, E109.67489
+	N27.12832, E109.69194
+	N27.13121, E109.71871
+	N27.15188, E109.73979
+	N27.19038, E109.75530
+	N27.18883, E109.82299
+	N27.14721, E109.94298
+	N27.19036, E110.05052
+	N27.42272, E110.21682
+	N27.50372, E110.26384
+	N27.56641, E110.28379
+	N27.61077, E110.27661
+	N27.65345, E110.29904
+	N27.69441, E110.35082
+	N27.72929, E110.36673
+	N27.75805, E110.34678
+	N27.79081, E110.34833
+
+[airport1]
+name = Shaoyang Wugang Airport
+code = ZGSY

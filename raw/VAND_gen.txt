@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1250
+center = N19.1833000183, E77.3167037964
+
+line1 =
+	N19.29097, E76.09177
+	N19.25717, E76.31899
+	N19.24125, E76.34721
+	N19.20229, E76.35330
+	N19.14028, E76.33728
+	N19.12390, E76.34664
+	N19.11987, E76.36777
+	N19.11113, E76.39589
+	N19.07687, E76.42679
+	N19.07274, E76.47309
+	N19.09883, E76.53458
+	N19.08630, E76.58171
+	N19.03522, E76.61448
+	N19.00163, E76.65726
+	N18.98551, E76.71018
+	N18.99641, E76.74775
+	N19.03426, E76.76997
+	N19.07041, E76.85560
+	N19.10488, E77.00474
+	N19.10832, E77.09290
+	N19.08075, E77.12008
+	N19.08927, E77.19553
+	N19.13392, E77.31914
+	N19.12023, E77.40482
+	N19.04824, E77.45267
+	N18.96579, E77.57891
+	N18.87293, E77.78366
+	N18.87040, E77.96835
+	N18.95817, E78.13299
+	N18.98411, E78.23536
+	N18.94825, E78.27546
+	N18.94567, E78.31939
+	N18.97639, E78.36724
+	N18.97982, E78.42884
+	N18.95590, E78.50418
+
+[airport1]
+name = Nanded Airport
+code = VAND
+runways =
+	rwy1, 09, N19.1828, E77.3119, 99.0, 7546, 0, 0, 0

@@ -1,0 +1,23 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+center = N0.01, E0.01
+
+[airport1]
+name = (Delete)Muabanthuoctay.com
+code = VN-0015
+
+[airport2]
+name = (Duplicate)Tan Son Nhat Airport
+code = 14
+inboundbeacon = vor
+
+[airport3]
+name = Duplicate - Kempegowda International Airport Bengaluru
+code = LR
+inboundbeacon = vor

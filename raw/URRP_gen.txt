@@ -1,0 +1,68 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 213
+center = N47.493888, E39.924722
+magneticvar = 7.089
+beacons =
+	RW, N47.29170, E39.86670, 0, Rostov-Na-Donu
+	SB, N47.75000, E39.80000, 0, Sambek
+	RN, N47.22500, E39.77000, 0, Rostov-Na-Donu
+	BA, N47.31670, E40.36670, 0, Bagayevsky
+	KL, N47.88330, E40.10000, 0, Krasny Sulin
+	KS, N47.20000, E40.35000, 0, Krasny
+	MN, N47.05000, E40.36670, 0, Manychsky
+	KA, N47.61670, E41.11670, 0, Konstantinovsk
+	LS, N48.18150, E38.93840, 0, Krasnyi Luch
+
+line1 =
+	N47.09146, E38.21436
+	N47.17554, E38.48477
+	N47.23911, E38.57725
+	N47.26162, E38.76191
+	N47.23584, E38.73604
+	N47.21221, E38.64434
+	N47.15034, E38.55244
+	N47.14395, E38.66816
+	N47.17568, E38.92832
+	N47.27222, E39.02373
+	N47.26885, E39.19570
+	N47.19951, E39.24453
+	N47.10576, E39.29346
+	N47.07090, E39.28906
+	N47.04414, E39.27070
+	N47.02344, E39.12676
+	N46.90615, E38.80107
+	N46.87305, E38.63076
+	N46.81309, E38.43867
+	N46.73218, E38.48799
+	N46.66367, E38.50098
+	N46.67832, E38.34346
+	N46.70127, E38.22998
+
+line2 =
+	N47.59867, E41.59274
+	N47.59867, E41.40681
+	N47.56389, E41.29529
+	N47.54733, E41.18393
+	N47.54898, E41.07282
+	N47.56686, E41.00921
+	N47.60102, E40.99308
+	N47.61004, E40.97024
+	N47.58591, E40.92601
+	N47.49144, E40.58846
+	N47.40140, E40.41162
+	N47.28435, E40.28305
+	N47.22249, E40.11236
+	N47.21593, E39.89956
+	N47.18717, E39.68934
+	N47.11082, E39.37789
+	N47.10576, E39.29345
+
+[airport1]
+name = Platov International Airport
+code = URRP

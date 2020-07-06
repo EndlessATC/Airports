@@ -1,0 +1,53 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1911
+center = N19.8626995087, E75.3981018066
+magneticvar = -0.464
+beacons =
+	AU, N19.86050, E75.39850, 0, Aurangabad
+	AAU, N19.86470, E75.39410, 0, Aurangabad
+
+line1 =
+	N20.00286, E74.16295
+	N19.91767, E74.42247
+	N19.83486, E74.58897
+	N19.72598, E74.74896
+	N19.65213, E74.91691
+	N19.61333, E75.09292
+	N19.57865, E75.19741
+	N19.53286, E75.24691
+	N19.42533, E75.47279
+	N19.38014, E75.59123
+	N19.36151, E75.67753
+	N19.36140, E75.76905
+	N19.37582, E75.84553
+	N19.36259, E75.90506
+	N19.32590, E75.91659
+	N19.31412, E75.94051
+	N19.33259, E75.98671
+	N19.32629, E76.01131
+	N19.31017, E76.02743
+	N19.29097, E76.09177
+	N19.25717, E76.31899
+	N19.24125, E76.34721
+	N19.20229, E76.35330
+	N19.14028, E76.33728
+	N19.12390, E76.34664
+	N19.11987, E76.36777
+	N19.11113, E76.39589
+	N19.07687, E76.42679
+	N19.07274, E76.47309
+	N19.09883, E76.53458
+	N19.08630, E76.58171
+	N19.03522, E76.61448
+
+[airport1]
+name = Aurangabad Airport
+code = VAAU
+runways =
+	rwy1, 09, N19.8623, E75.3869, 87.9, 7713, 0, 0, 1911

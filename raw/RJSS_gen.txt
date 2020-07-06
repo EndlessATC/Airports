@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 15
+center = N38.1397018433, E140.917007446
+magneticvar = -7.464
+beacons =
+	SDE, N38.13860, E140.92101, 0, Sendai
+	MXT, N38.40390, E141.22600, 0, Matsushima
+	ZMO, N38.19000, E140.33600, 0, Zao-Yamada
+	YTE, N38.38860, E140.35800, 0, Yamagata
+
+line1 =
+	N38.26875, E139.44580
+	N38.39980, E139.47676
+	N38.50254, E139.52080
+	N38.59888, E139.58018
+	N38.69702, E139.65977
+	N38.78813, E139.74912
+	N38.88159, E139.80195
+	N39.10493, E139.87861
+
+line2 =
+	N39.11133, E141.90078
+	N39.09004, E141.84209
+	N39.04043, E141.80654
+	N39.01743, E141.77617
+	N38.99961, E141.74248
+	N38.99517, E141.69355
+	N38.97485, E141.65859
+	N38.91792, E141.64473
+	N38.86514, E141.62227
+	N38.81650, E141.57969
+	N38.76284, E141.54629
+	N38.63203, E141.51875
+	N38.49785, E141.50879
+	N38.40415, E141.46748
+	N38.37974, E141.36816
+	N38.38140, E141.25430
+	N38.33794, E141.10840
+	N38.31255, E141.07734
+	N38.14888, E140.96211
+	N38.05288, E140.92900
+	N37.94961, E140.92793
+	N37.82261, E140.95996
+	N37.69844, E141.00342
+	N37.46724, E141.03633
+
+[airport1]
+name = Sendai Airport
+code = RJSS
+runways =
+	rwy1, 09, N38.1388, E140.899, 82.5, 9842, 0, 0, 11
+	rwy2, 12, N38.1395, E140.915, 117.7, 3940, 0, 0, 6

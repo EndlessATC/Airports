@@ -1,0 +1,50 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 7
+center = S16.6872005463, W151.022003174
+magneticvar = 12.229
+beacons =
+	HH, S16.69110, W151.03000, 0, Huahine
+	HHN, S16.68540, W151.00999, 0, Huahine
+	RU, S16.72140, W151.46700, 0, Raiatea
+	BB, S16.44360, W151.75500, 0, Bora Bora
+
+line1 =
+	S16.57402, W151.50576
+	S16.61904, W151.51240
+	S16.64697, W151.50415
+	S16.66514, W151.48491
+	S16.65752, W151.46660
+	S16.62344, W151.43809
+	S16.60371, W151.45742
+	S16.57402, W151.50576
+
+line2 =
+	S17.47393, W149.80879
+	S17.46953, W149.90215
+	S17.50117, W149.91182
+	S17.52773, W149.90513
+	S17.55283, W149.88657
+	S17.57109, W149.84492
+	S17.54502, W149.81367
+
+line3 =
+	S16.86367, W151.48550
+	S16.87930, W151.44946
+	S16.87773, W151.40981
+	S16.86426, W151.36450
+	S16.77441, W151.41118
+	S16.73965, W151.46675
+	S16.76074, W151.47642
+	S16.86367, W151.48550
+
+[airport1]
+name = Huahine-Fare Airport
+code = NTTH
+runways =
+	rwy1, 07, S16.6885, W151.029, 79.5, 4921, 0, 0, 7

@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 183
+center = N52.461101532, E9.68507957458
+magneticvar = 0.424
+beacons =
+	HAD, N52.46880, E9.69481, 0, Hannover
+	HBD, N52.45530, E9.65937, 0, Hannover
+	HAE, N52.45760, E9.56732, 0, Hannover
+	HA, N52.46410, E9.80508, 0, Hannover
+	HW, N52.46850, E9.54644, 0, Hannover
+	WUN, N52.45930, E9.45466, 0, Wunstorf
+	WUN, N52.46030, E9.44483, 0, Wunstorf
+	DLE, N52.25030, E9.88350, 0, Leine
+	CEL, N52.58970, E10.02950, 0, Celle
+	NIE, N52.62590, E9.37199, 0, Nienburg
+	BYC, N52.29120, E9.09100, 0, Buckeburg
+	FSB, N52.91580, E10.18810, 0, Fassberg
+	BRU, N52.32220, E10.60620, 0, Braunschweig
+	HLZ, N52.36340, E10.79520, 0, Hehlingen
+	DP, N52.59170, E8.45342, 0, Diepholz
+	BMN, N53.04400, E8.78214, 0, Bremen
+
+line1 =
+	N53.44531, E8.24521
+	N53.43242, E8.20078
+
+line2 =
+	N53.05418, E11.55509
+	N53.06219, E11.41432
+	N53.09304, E11.29691
+	N53.14683, E11.20297
+	N53.16629, E11.13930
+	N53.15146, E11.10592
+	N53.20011, E10.99435
+	N53.31217, E10.80449
+	N53.36909, E10.68243
+	N53.37168, E10.60104
+	N53.41684, E10.41299
+	N53.42552, E10.30514
+	N53.41281, E10.21481
+	N53.43994, E10.08200
+	N53.43994, E10.08200
+
+[airport1]
+name = Hannover Airport
+code = EDDV
+runways =
+	rwy1, 09C, N52.4648, E9.68377, 92.0, 2559, 214, 541, 178
+	rwy2, 09L, N52.4684, E9.64829, 93.0, 12467, 984, 984, 167
+	rwy3, 09R, N52.455, E9.67677, 93.0, 7677, 0, 0, 172

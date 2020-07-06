@@ -1,0 +1,26 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 640
+center = N9.55337524414, W69.2378692627
+magneticvar = -9.119
+beacons =
+	AGV, N9.55475, W69.23620, 0, Acarigua
+	AGV, N9.55169, W69.23290, 0, Acarigua
+	BRM, N10.04750, W69.35180, 0, Barquisimeto
+	YAR, N10.04980, W69.07840, 0, Yaritagua
+	GRE, N9.03392, W69.75260, 0, Guanare
+	SPE, N10.28470, W68.75400, 0, San Felipe
+	COR, N10.17920, W70.06540, 0, Carora
+	COR, N10.18030, W70.06500, 0, Carora
+
+[airport1]
+name = Oswaldo Guevara Mujica Airport
+code = SVAC
+runways =
+	rwy1, 05, N9.54602, W69.2413, 42.0, 2461, 0, 0, 0
+	rwy2, 11, N9.55558, W69.2456, 105.0, 5990, 0, 0, 732

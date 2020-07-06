@@ -1,0 +1,34 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 217
+center = S7.14583301544, W34.9486122131
+magneticvar = -22.086
+beacons =
+	JPS, S7.14050, W34.95250, 0, Joao Pessoa
+
+line1 =
+	S8.09219, W34.89053
+	S7.97148, W34.83467
+	S7.87178, W34.83691
+	S7.74746, W34.87861
+	S7.69209, W34.87300
+	S7.63428, W34.85479
+	S7.59502, W34.86084
+	S7.53330, W34.85776
+	S7.39482, W34.81660
+	S7.28838, W34.80547
+	S7.02441, W34.83389
+	S7.00293, W34.87598
+	S6.90820, W34.87988
+	S6.78506, W34.92959
+	S6.39375, W34.98818
+	S6.18535, W35.09546
+
+[airport1]
+name = Presidente Castro Pinto International Airport
+code = SBJP

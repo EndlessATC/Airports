@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 48
+center = S0.946078002453, W80.6788024902
+magneticvar = -0.212
+beacons =
+	MNV, S0.93472, W80.66190, 0, Manta
+	PTN, S1.04611, W80.46830, 0, Portoviejo
+	BCN, S0.60194, W80.40720, 0, Bahia
+
+line1 =
+	S0.00605, W80.13340
+	S0.11309, W80.23701
+	S0.16582, W80.32129
+	S0.36826, W80.48228
+	S0.43604, W80.46831
+	S0.58398, W80.38477
+	S0.62051, W80.28237
+	S0.62510, W80.35840
+	S0.58545, W80.45547
+	S0.68379, W80.50508
+	S0.84795, W80.55391
+	S0.89873, W80.62368
+	S0.97471, W80.84141
+	S1.07891, W80.90239
+	S1.28584, W80.82002
+	S1.38340, W80.80142
+	S1.63242, W80.83501
+	S1.82295, W80.76313
+	S1.93457, W80.76060
+
+[airport1]
+name = Eloy Alfaro International Airport
+code = SEMT
+runways =
+	rwy1, 05, S0.953331, W80.6894, 55.8, 9383, 0, 0, 37

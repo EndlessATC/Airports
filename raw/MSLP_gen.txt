@@ -1,0 +1,41 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 101
+center = N13.4409, W89.055702
+magneticvar = 2.007
+beacons =
+	CAT, N13.44140, W89.04780, 0, El Salvador
+	LAN, N13.41210, W89.13750, 0, Amatecampo
+	YSV, N13.69010, W89.11630, 0, Ilopango
+	YSX, N13.69850, W89.11760, 0, Ilopango
+
+line1 =
+	N13.73652, W90.09521
+	N13.68315, W89.97046
+	N13.56011, W89.80420
+	N13.50913, W89.52324
+	N13.47808, W89.27764
+	N13.28325, W88.86704
+	N13.18394, W88.51201
+	N13.19717, W88.48389
+	N13.24497, W88.58154
+	N13.25918, W88.65586
+	N13.28149, W88.68564
+	N13.28105, W88.59155
+	N13.21353, W88.41714
+	N13.16401, W88.18066
+	N13.16875, W88.02344
+	N13.18066, W87.93086
+	N13.22441, W87.87808
+
+[airport1]
+name = Monseñor Óscar Arnulfo Romero International Airport
+code = MSLP
+runways =
+	rwy1, 07, N13.436, W89.0696, 70.0, 10500, 0, 0, 77
+	rwy2, 18, N13.454, W89.0478, 180.0, 2625, 0, 0, 101

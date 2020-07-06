@@ -1,0 +1,70 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 86
+center = N38.8121986389, E139.787002563
+magneticvar = -8.132
+beacons =
+	YSE, N38.81080, E139.79900, 0, Shonai
+	YTE, N38.38860, E140.35800, 0, Yamagata
+	ZMO, N38.19000, E140.33600, 0, Zao-Yamada
+	UWE, N39.61710, E140.18700, 0, Yuwa
+
+line1 =
+	N37.84395, E138.88506
+	N38.00908, E139.24717
+	N38.09902, E139.36387
+	N38.14258, E139.40098
+	N38.26875, E139.44580
+	N38.39980, E139.47676
+	N38.50254, E139.52080
+	N38.59888, E139.58018
+	N38.69702, E139.65977
+	N38.78813, E139.74912
+	N38.88159, E139.80195
+	N39.10493, E139.87861
+	N39.22856, E139.91230
+	N39.27314, E139.93857
+	N39.31064, E139.97715
+	N39.35806, E140.01084
+	N39.41113, E140.03652
+	N39.46372, E140.04814
+	N39.62441, E140.06475
+	N39.74927, E140.05469
+
+line2 =
+	N38.38140, E141.25430
+	N38.33794, E141.10840
+	N38.31255, E141.07734
+	N38.14888, E140.96211
+	N38.05288, E140.92900
+	N37.94961, E140.92793
+	N37.82261, E140.95996
+
+line3 =
+	N38.25898, E138.51006
+	N38.31592, E138.50361
+	N38.29146, E138.46133
+	N38.16113, E138.30635
+
+line4 =
+	N37.99082, E138.32168
+	N37.96953, E138.32227
+
+line5 =
+	N37.82212, E138.34404
+	N37.90391, E138.49697
+	N38.06553, E138.57520
+	N38.07568, E138.45361
+	N38.12432, E138.46279
+	N38.25898, E138.51006
+
+[airport1]
+name = Shonai Airport
+code = RJSY
+runways =
+	rwy1, 09, N38.8107, E139.776, 79.4, 6560, 0, 0, 59

@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 19
+center = S19.4550991058, E169.223999023
+magneticvar = 12.037
+beacons =
+	WG, S19.46170, E169.22501, 0, White Grass
+
+line1 =
+	S20.15332, E169.75068
+	S20.20215, E169.73750
+	S20.24111, E169.80703
+	S20.24180, E169.86113
+	S20.18662, E169.89629
+	S20.14795, E169.85234
+	S20.14473, E169.82949
+	S20.15332, E169.75068
+
+line2 =
+	S19.45781, E169.35996
+	S19.32930, E169.33672
+	S19.32178, E169.29111
+	S19.34473, E169.24746
+	S19.47637, E169.21748
+	S19.54502, E169.26191
+	S19.62354, E169.34727
+	S19.64883, E169.43848
+	S19.54014, E169.49131
+	S19.45781, E169.35996
+
+line3 =
+	S18.86680, E169.29619
+	S18.79570, E169.20117
+	S18.76338, E169.25576
+	S18.72510, E169.17803
+	S18.63105, E169.14385
+	S18.61748, E169.08789
+	S18.64375, E169.01582
+	S18.70762, E168.98711
+	S18.82520, E168.99785
+	S18.87129, E168.98691
+	S18.98330, E169.24805
+	S18.98857, E169.28828
+	S18.94023, E169.33438
+	S18.86680, E169.29619
+
+[airport1]
+name = Tanna Airport
+code = NVVW
+runways =
+	rwy1, 15, S19.45, E169.222, 157.6, 4035, 0, 0, 11

@@ -1,0 +1,63 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 39
+center = N15.7425, W86.852997
+magneticvar = 0.094
+beacons =
+	BTO, N15.73680, W86.86400, 0, Bonito
+	LCE, N15.73820, W86.89050, 0, La Ceiba
+	ROA, N16.31580, W86.52940, 0, Roatan
+	ROA, N16.31660, W86.52180, 0, Roatan
+
+line1 =
+	N16.43921, W86.33784
+	N16.42822, W86.25552
+	N16.37837, W86.41992
+	N16.30024, W86.58027
+	N16.30176, W86.63042
+	N16.36211, W86.55693
+	N16.41387, W86.43828
+	N16.43921, W86.33784
+
+line2 =
+	N16.00283, W85.78398
+	N16.02417, W85.98564
+	N16.00225, W85.95391
+	N15.95342, W85.93628
+	N15.90566, W86.06855
+	N15.88516, W86.18120
+	N15.78320, W86.35664
+	N15.80107, W86.48081
+	N15.79424, W86.75703
+	N15.76235, W86.90723
+	N15.83442, W87.28589
+	N15.82646, W87.37749
+	N15.79019, W87.48691
+	N15.83237, W87.54497
+	N15.90986, W87.61816
+	N15.91064, W87.70186
+	N15.87935, W87.87495
+	N15.86260, W87.90703
+	N15.78618, W88.01040
+	N15.76484, W88.05459
+
+line3 =
+	N16.42969, W85.96099
+	N16.40361, W85.94722
+	N16.46152, W85.87095
+	N16.48774, W85.84443
+	N16.51089, W85.83379
+	N16.51396, W85.87822
+	N16.48330, W85.92422
+	N16.42969, W85.96099
+
+[airport1]
+name = Goloson International Airport
+code = MHLC
+runways =
+	rwy1, 07, N15.7372, W86.866, 67.0, 9875, 813, 200, 46

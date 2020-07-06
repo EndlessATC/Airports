@@ -1,0 +1,57 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 239
+center = N10.5582084656, W71.7278594971
+magneticvar = -7.474
+beacons =
+	MAR, N10.58420, W71.71290, 0, Maracaibo
+	MAU, N10.69090, W71.04010, 0, Mene Mauroa
+	BCO, N10.00000, W71.06670, 0, Bachaquero
+	CJN, N11.23120, W72.49290, 0, Cerrejon
+	CJN, N11.23250, W72.50680, 0, Cerrejon
+
+line1 =
+	N11.26138, W70.54561
+	N11.20845, W70.82051
+	N10.99951, W71.26436
+	N10.96416, W71.46953
+	N10.83564, W71.46113
+	N10.77871, W71.54463
+	N10.62183, W71.51787
+	N10.53320, W71.49424
+	N10.46924, W71.46279
+	N10.26377, W71.38662
+	N10.14360, W71.26221
+	N10.01460, W71.20723
+	N9.83320, W71.08174
+	N9.70581, W71.05269
+
+line2 =
+	N9.64150, W71.99326
+	N9.81558, W72.11284
+	N10.10806, W71.95571
+	N10.16724, W71.88477
+	N10.31597, W71.79351
+	N10.44375, W71.66484
+	N10.65737, W71.59434
+	N10.72622, W71.59844
+	N10.83550, W71.69043
+	N10.99468, W71.73091
+	N10.99673, W71.67568
+	N11.01353, W71.64160
+	N11.13506, W71.79146
+	N11.19033, W71.83511
+	N11.41445, W71.94697
+	N11.48281, W71.95723
+
+[airport1]
+name = La Chinita International Airport
+code = SVMC
+runways =
+	rwy1, 03L, N10.5459, W71.7341, 31.0, 9843, 0, 0, 216
+	rwy2, 03R, N10.5476, W71.7313, 31.0, 8202, 0, 0, 229

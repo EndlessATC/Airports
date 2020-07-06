@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 26
+center = N4.81980991364, W52.3604011536
+magneticvar = -18.005
+beacons =
+	FXC, N4.82464, W52.36290, 0, Cayenne
+	CYR, N4.81364, W52.36840, 0, Cayenne
+
+line1 =
+	N4.09360, W51.21992
+	N4.22476, W51.32710
+	N4.31377, W51.46152
+	N4.31089, W51.54707
+	N4.23379, W51.55781
+	N4.06128, W51.65254
+	N4.09849, W51.65811
+	N4.13877, W51.65327
+	N4.22881, W51.66582
+	N4.28682, W51.69863
+	N4.57051, W51.78564
+	N4.63569, W51.82754
+	N4.63374, W51.88027
+	N4.52432, W51.91958
+	N4.43613, W51.92769
+	N4.39907, W51.95479
+	N4.35229, W52.00293
+	N4.38623, W52.00171
+	N4.42988, W51.97935
+	N4.51440, W51.96191
+	N4.64600, W52.01230
+	N4.71738, W52.05811
+	N4.86279, W52.21997
+	N4.77090, W52.32461
+	N4.87612, W52.28892
+	N4.94219, W52.29053
+	N5.02134, W52.45396
+	N5.27349, W52.76499
+	N5.42505, W52.89932
+	N5.54326, W53.27036
+	N5.56348, W53.45444
+
+[airport1]
+name = Cayenne-Rochambeau Airport
+code = SOCA
+runways =
+	rwy1, 08, N4.81378, W52.3735, 65.3, 10486, 0, 0, 18

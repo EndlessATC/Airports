@@ -1,0 +1,39 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 146
+center = N12.6307001114, E53.9057998657
+magneticvar = -0.140
+beacons =
+	SCT, N12.63020, E53.90800, 0, Socotra
+
+line1 =
+	N12.66401, E54.18740
+	N12.65942, E53.91855
+	N12.62480, E53.82480
+	N12.63682, E53.76318
+	N12.70737, E53.63848
+	N12.71577, E53.53496
+	N12.66357, E53.43096
+	N12.63335, E53.40391
+	N12.60186, E53.38848
+	N12.53315, E53.31582
+	N12.42534, E53.49941
+	N12.34229, E53.59834
+	N12.31899, E53.71885
+	N12.36064, E54.12949
+	N12.44663, E54.27129
+	N12.48330, E54.41377
+	N12.52344, E54.45000
+	N12.55278, E54.51113
+	N12.66401, E54.18740
+
+[airport1]
+name = Socotra International Airport
+code = OYSQ
+runways =
+	rwy1, 03, N12.6174, E53.8989, 26.0, 10827, 0, 0, 146

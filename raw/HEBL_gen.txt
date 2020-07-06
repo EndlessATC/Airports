@@ -1,0 +1,44 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 616
+center = N22.3759994507, E31.611700058
+magneticvar = 2.483
+beacons =
+	SML, N22.35490, E31.62200, 0, Abu Simbel
+
+line1 =
+	N23.20765, E32.85508
+	N23.00942, E32.67990
+	N22.87566, E32.58688
+	N22.80639, E32.57613
+	N22.74016, E32.51422
+	N22.67154, E32.41831
+	N22.65288, E32.32628
+	N22.71807, E32.23191
+	N22.73347, E32.13709
+	N22.69908, E32.04169
+	N22.62989, E31.96072
+	N22.52583, E31.89405
+	N22.39538, E31.73536
+	N22.25151, E31.54436
+	N22.09312, E31.39998
+	N21.97980, E31.36225
+	N21.84464, E31.28024
+	N21.60920, E31.09064
+
+line2 =
+	N21.39913, E30.96987
+	N21.43551, E30.96460
+	N21.49259, E30.99411
+	N21.60920, E31.09064
+
+[airport1]
+name = Abu Simbel Airport
+code = HEBL
+runways =
+	rwy1, 15, N22.3877, E31.6044, 150.0, 9843, 0, 0, 616

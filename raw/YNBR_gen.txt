@@ -1,0 +1,27 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 788
+usa = true
+center = S30.3192005157, E149.82699585
+magneticvar = 10.484
+beacons =
+	NBR, S30.32070, E149.83099, 0, Narrabri
+	GDH, S30.95420, E150.24800, 0, Gunnedah
+	MOR, S29.49730, E149.85201, 0, Moree
+
+line1 =
+	S29.40027, E148.72026
+	S29.52786, E148.64098
+	S29.57086, E148.55841
+
+[airport1]
+name = Narrabri Airport
+code = YNBR
+runways =
+	rwy1, 09, S30.3135, E149.825, 95.0, 3980, 0, 0, 730
+	rwy2, 18, S30.3141, E149.828, 193.0, 5000, 0, 0, 741

@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = -99999
+center = S21.8533000946, E35.4383010864
+magneticvar = -14.285
+beacons =
+	VL, S21.96750, E35.28340, 0, Vilankulo
+
+line1 =
+	S22.77207, E35.50576
+	S22.65771, E35.49023
+	S22.37656, E35.54199
+	S22.30264, E35.54023
+	S22.24814, E35.53008
+	S22.19014, E35.50488
+	S22.12471, E35.49375
+	S22.11592, E35.45635
+	S22.17764, E35.41885
+	S22.31621, E35.40088
+	S22.40254, E35.40781
+	S22.45459, E35.38301
+	S22.39688, E35.31572
+	S22.26035, E35.32559
+	S22.03740, E35.32930
+	S21.76172, E35.27295
+	S21.65098, E35.26768
+	S21.39531, E35.12803
+	S21.19521, E35.11758
+
+[airport1]
+name = Benguera Island Airport
+code = BCW
+
+[airport2]
+name = Vilankulo Airport
+code = VL
+runways =
+	rwy1, 10, S22.0185, E35.3106, 89.0, 2461, 0, 0, 46
+	rwy2, 17, S22.0111, E35.3098, 156.0, 4823, 0, 0, 46
+inboundbeacon = VL

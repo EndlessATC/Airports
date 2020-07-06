@@ -1,0 +1,60 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 30
+metric = true
+center = N40.0247, E124.286003
+magneticvar = -8.162
+beacons =
+	DDG, N40.26000, E124.28800, 0, Dandong
+	CR, N40.20740, E124.55300, 0, Uiju
+
+line1 =
+	N39.60210, E124.88955
+	N39.55889, E124.84609
+	N39.50757, E124.84893
+	N39.53628, E124.90527
+	N39.60781, E124.93457
+	N39.60210, E124.88955
+
+line2 =
+	N39.60083, E122.84004
+	N39.61992, E122.96094
+	N39.67354, E123.03223
+	N39.68662, E123.22656
+	N39.72690, E123.26895
+	N39.76294, E123.34814
+	N39.76787, E123.49004
+	N39.78613, E123.58066
+	N39.84082, E123.61123
+	N39.88159, E123.65088
+	N39.82241, E123.76016
+	N39.84102, E124.10576
+	N39.92417, E124.26748
+	N40.01157, E124.35000
+	N40.00405, E124.36211
+	N39.99614, E124.37510
+	N39.90688, E124.34863
+	N39.86553, E124.40381
+	N39.79058, E124.55742
+	N39.71694, E124.60762
+	N39.61509, E124.63828
+	N39.63237, E124.69922
+	N39.65220, E124.73223
+	N39.74150, E124.73887
+	N39.75806, E124.77529
+	N39.70181, E124.86787
+	N39.59033, E125.10010
+	N39.58350, E125.18008
+	N39.52661, E125.36084
+	N39.42764, E125.37363
+	N39.32627, E125.41318
+	N39.28838, E125.40967
+
+[airport1]
+name = Dandong Airport
+code = CN-0189

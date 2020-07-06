@@ -1,0 +1,28 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 830
+center = S3.78601002693, W49.7202987671
+magneticvar = -19.298
+beacons =
+	TUI, S3.78641, W49.71440, 0, Tucurui
+	TUI, S3.80134, W49.72130, 0, Tucurui
+
+line1 =
+	S3.83475, W49.68725
+	S4.21106, W49.63926
+	S4.54623, W49.54630
+
+line2 =
+	S3.83475, W49.68725
+	S3.36098, W49.64898
+	S3.09113, W49.66024
+	S2.86742, W49.70830
+
+[airport1]
+name = Tucuruí Airport
+code = SBTU

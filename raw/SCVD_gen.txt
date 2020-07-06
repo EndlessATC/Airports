@@ -1,0 +1,49 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 59
+center = S39.6500015259, W73.0860977173
+magneticvar = 8.522
+beacons =
+	VLD, S39.67110, W73.08560, 0, Valdivia
+	VLD, S39.72220, W73.08360, 0, Valdivia
+
+line1 =
+	S39.22441, W73.22646
+	S39.42236, W73.24990
+	S39.78916, W73.41040
+	S39.85430, W73.48223
+	S39.96318, W73.67100
+	S40.08232, W73.66943
+	S40.26299, W73.74248
+	S40.46846, W73.78403
+
+line2 =
+	S40.26025, W72.26519
+	S40.29219, W72.26289
+	S40.30215, W72.27285
+	S40.29932, W72.33096
+	S40.29287, W72.45728
+	S40.27207, W72.54741
+	S40.23457, W72.55801
+	S40.20117, W72.55229
+	S40.17168, W72.52861
+	S40.13535, W72.42539
+	S40.12764, W72.33008
+	S40.14971, W72.29902
+	S40.16631, W72.27329
+	S40.19160, W72.26665
+	S40.22148, W72.26953
+	S40.26025, W72.26519
+	S40.26025, W72.26519
+	S40.26025, W72.26519
+
+[airport1]
+name = Pichoy Airport
+code = SCVD
+runways =
+	rwy1, 17, S39.6405, W73.0865, 178.4, 6870, 0, 0, 59

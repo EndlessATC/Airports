@@ -1,0 +1,58 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5550
+usa = true
+transition = 18001
+center = N45.9547996521, W112.497001648
+magneticvar = 13.395
+beacons =
+	CPN, N46.03200, W112.74800, 0, Coppertown
+	HIA, N45.86180, W112.17000, 0, Whitehall
+	DLN, N45.24860, W112.54700, 0, Dillon
+	HLN, N46.60680, W111.95300, 0, Helena
+	CVP, N46.60670, W111.93700, 0, Capitol
+	HAU, N46.56890, W111.75800, 0, Hauser
+	DRU, N46.63610, W113.18700, 0, Drummond
+	EKS, N45.26580, W111.65100, 0, Ennis
+
+line1 =
+	N46.36249, W111.51572
+	N46.46908, W111.53998
+	N46.54385, W111.58538
+	N46.66160, W111.69731
+
+line2 =
+	N44.98790, W111.62558
+	N45.14128, W111.69351
+	N45.26344, W111.71858
+	N45.35449, W111.70072
+	N45.45774, W111.64563
+	N45.57324, W111.55326
+	N45.72181, W111.49270
+	N45.90350, W111.46397
+	N46.02458, W111.42963
+	N46.08499, W111.38973
+	N46.17651, W111.40630
+	N46.36037, W111.51585
+
+line3 =
+	N46.66268, W111.69876
+	N46.67069, W111.75813
+	N46.71108, W111.81369
+	N46.78647, W111.88521
+	N46.83701, W111.91334
+	N46.86272, W111.89815
+	N46.91605, W111.91908
+
+[airport1]
+name = Bert Mooney Airport
+code = KBTM
+runways =
+	rwy1, 02, N45.9449, W112.502, 38.0, 5545, 0, 0, 0
+	rwy2, 11, N45.959, W112.506, 129.0, 5100, 0, 0, 5520
+	rwy3, 15, N45.9669, W112.501, 167.0, 9001, 0, 0, 5507

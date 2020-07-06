@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 256
+center = N54.9639015198, E24.0848007202
+magneticvar = 5.539
+beacons =
+	KNA, N54.95980, E24.06530, 0, Kaunas
+	KUS, N54.96580, E24.12190, 0, Kaunas
+	AVN, N54.65340, E25.29900, 0, Vilnius
+	VNO, N54.63610, E25.29360, 0, Vilnius
+	PA, N55.76110, E24.41110, 0, Pajuostis
+
+[airport1]
+name = Kaunas International Airport
+code = EYKA
+runways =
+	rwy1, 08, N54.9627, E24.0595, 85.0, 10335, 1116, 788, 236

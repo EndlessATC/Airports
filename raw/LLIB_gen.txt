@@ -1,0 +1,73 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 922
+center = N32.9809989929, E35.5718994141
+magneticvar = 3.421
+beacons =
+	ROP, N32.98260, E35.57270, 0, Rosh Pina
+	RPN, N32.96690, E35.55670, 0, Rosh Pina
+	HFA, N32.81560, E35.06360, 0, Haifa
+	MEZ, N33.48330, E36.23330, 0, Mezze
+	ABD, N33.33530, E36.42820, 0, Abyad
+	NAT, N32.33200, E34.96800, 0, Natania
+	KAD, N33.80560, E35.48470, 0, Khaldeh
+	DAM, N33.36490, E36.46860, 0, Damascus
+	HRZ, N32.17890, E34.82690, 0, Herzlia
+
+line1 =
+	N33.87974, E35.51084
+	N33.50347, E35.33574
+	N33.39263, E35.25137
+	N33.25898, E35.20352
+	N33.16001, E35.15508
+	N33.08369, E35.10859
+	N32.96719, E35.07705
+	N32.82661, E35.00586
+	N32.61406, E34.92188
+	N32.19634, E34.80381
+
+line2 =
+	N32.78164, E35.63164
+	N32.74917, E35.61592
+	N32.72031, E35.57686
+	N32.74961, E35.55127
+	N32.80342, E35.53389
+	N32.85562, E35.53916
+	N32.89160, E35.56504
+	N32.89971, E35.59893
+	N32.87837, E35.62285
+	N32.83384, E35.63584
+	N32.78164, E35.63164
+	N32.78164, E35.63164
+	N32.78164, E35.63164
+	N32.78164, E35.63164
+
+line3 =
+	N32.89972, E35.59889
+	N32.72030, E35.57688
+
+line4 =
+	N32.72030, E35.57688
+	N32.39552, E35.55145
+	N32.23788, E35.57202
+	N32.10300, E35.53471
+	N31.98492, E35.53151
+
+line5 =
+	N33.59635, E35.86389
+	N33.43083, E35.69553
+	N33.24371, E35.61894
+	N33.11095, E35.59476
+	N32.89972, E35.59889
+
+[airport1]
+name = Ben Ya'akov Airport
+code = LLIB
+runways =
+	rwy1, 05, N32.9777, E35.566, 54.1, 3190, 0, 0, 0
+	rwy2, 15, N32.9872, E35.5681, 150.5, 3655, 90, 320, 0

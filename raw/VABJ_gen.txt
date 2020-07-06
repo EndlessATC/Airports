@@ -1,0 +1,71 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 268
+center = N23.2877998352, E69.6701965332
+magneticvar = -0.105
+beacons =
+	BJ, N23.27830, E69.67120, 0, Bhuj
+	BBJ, N23.27110, E69.66780, 0, Bhuj
+	KD, N23.11160, E70.10750, 0, Kandla
+	JMR, N22.46860, E70.17110, 0, Jamnagar
+
+line1 =
+	N23.70557, E68.42490
+	N23.74800, E68.49688
+	N23.80850, E68.64238
+	N23.85210, E68.77676
+	N23.75415, E68.62715
+	N23.62949, E68.45381
+	N23.57148, E68.41748
+	N23.36406, E68.52920
+	N23.18994, E68.64072
+	N23.05371, E68.81709
+	N22.84854, E69.23594
+	N22.75908, E69.66465
+	N22.77520, E69.73965
+	N22.85645, E69.84980
+	N22.94702, E70.11826
+	N22.96567, E70.19170
+	N22.97090, E70.25117
+	N22.93975, E70.33945
+	N22.97349, E70.36797
+	N23.03013, E70.39629
+	N23.07710, E70.43457
+	N23.08950, E70.48926
+	N23.04014, E70.50938
+	N23.00249, E70.51348
+	N22.97031, E70.44043
+	N22.81577, E70.32773
+	N22.57275, E70.17725
+	N22.55352, E70.08418
+	N22.54771, E70.00586
+	N22.45176, E69.81904
+	N22.46519, E69.72754
+	N22.40352, E69.65518
+	N22.40840, E69.54922
+
+line2 =
+	N22.30020, E69.23887
+	N22.33608, E69.19424
+	N22.41626, E69.13135
+	N22.43730, E69.05166
+	N22.38540, E68.98350
+	N22.29028, E68.96992
+
+[airport1]
+name = Bhuj Airport
+code = VABJ
+runways =
+	rwy1, 05, N23.2798, E69.6615, 45.2, 8205, 0, 0, 268
+
+[airport2]
+name = Kandla Airport
+code = KE
+runways =
+	rwy2, 05, N23.1083, E70.0946, 50.0, 4997, 0, 0, 95
+inboundbeacon = KD

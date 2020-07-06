@@ -1,0 +1,93 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 427
+center = N50.3450012207, E30.8946990967
+magneticvar = 6.237
+beacons =
+	B, N50.36260, E30.88210, 0, Boryspil
+	I, N50.36870, E30.90680, 0, Boryspil
+	O, N50.31560, E30.90300, 0, Boryspil
+	E, N50.31170, E30.87850, 0, Boryspil
+	KB, N50.38620, E30.88380, 0, Boryspil
+	BI, N50.39730, E30.90910, 0, Boryspil
+	NO, N50.28730, E30.90070, 0, Boryspil
+	BRP, N50.28560, E30.89930, 0, Boryspil
+	KE, N50.28280, E30.87630, 0, Boryspil
+	TR, N50.11640, E30.76490, 0, Trypillia
+	KV, N50.40420, E30.51160, 0, Zhulyany
+	ZK, N50.40280, E30.47490, 0, Zhuliany
+	BO, N50.62810, E30.88990, 0, Bohdanivka
+	I, N50.40030, E30.41910, 0, Zhuliany
+	KI, N50.39890, E30.38740, 0, Zhulyany
+	CY, N50.06810, E31.38990, 0, Chervonyi
+	GO, N50.55780, E30.22320, 0, Antonov
+	PI, N49.87310, E31.12330, 0, Pii
+	O, N50.58090, E30.20650, 0, Antonov
+	C, N50.62560, E30.17290, 0, Antonov
+	LC, N50.65030, E30.15400, 0, Antonov
+	JA, N50.26480, E31.79320, 0, Yahotyn
+	KO, N50.94650, E30.97650, 0, Koshany
+	GE, N49.82640, E31.85160, 0, Helmiaziv
+
+line1 =
+	N49.34619, E32.29355
+	N49.40439, E32.17012
+	N49.51279, E31.90049
+	N49.55444, E31.88799
+	N49.56968, E31.95537
+	N49.54131, E32.11445
+	N49.52095, E32.18359
+	N49.46909, E32.35000
+	N49.42607, E32.46143
+	N49.38184, E32.63184
+	N49.40098, E32.68242
+	N49.46440, E32.65947
+	N49.53701, E32.66465
+	N49.55937, E32.71201
+
+line2 =
+	N49.55470, E31.88646
+	N50.00010, E31.43987
+	N49.93287, E31.47966
+	N49.87137, E31.48648
+	N49.75417, E31.46736
+	N51.21731, E30.50763
+	N50.90434, E30.47771
+	N50.74915, E30.47946
+	N50.59660, E30.51465
+
+line3 =
+	N49.55444, E31.88801
+	N49.63614, E31.69066
+	N49.75670, E31.46240
+	N50.00010, E31.43987
+	N49.97891, E31.24433
+	N50.02320, E31.07121
+	N50.12578, E30.85551
+	N50.22200, E30.70668
+	N50.31181, E30.62483
+	N50.41666, E30.56659
+	N50.59660, E30.51465
+
+line4 =
+	N51.33012, E30.61072
+	N51.21731, E30.50763
+
+[airport1]
+name = Boryspil International Airport
+code = UKBB
+runways =
+	rwy1, 18L, N50.3606, E30.9081, 183.0, 13123, 0, 0, 410
+	rwy2, 18R, N50.3522, E30.8831, 183.0, 11483, 0, 0, 419
+
+[airport2]
+name = Kiev Zhuliany International Airport
+code = KK
+runways =
+	rwy3, 08, N50.4011, E30.4351, 86.0, 7579, 492, 157, 560
+inboundbeacon = ZK

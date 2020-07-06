@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1306
+center = N30.5713005066, E2.85959005356
+magneticvar = -0.242
+beacons =
+	MNA, N30.55860, E2.86167, 0, El Golea
+	MEA, N30.56360, E2.89500, 0, El Golea
+
+[airport1]
+name = El Golea Airport
+code = DAUE
+runways =
+	rwy1, 10, N30.5703, E2.85778, 102.0, 5906, 0, 0, 1306
+	rwy2, 18, N30.5994, E2.86139, 180.0, 9843, 0, 0, 1302

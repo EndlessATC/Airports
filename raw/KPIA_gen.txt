@@ -1,0 +1,52 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 660
+usa = true
+transition = 18001
+center = N40.6641998291, W89.6932983398
+magneticvar = -0.292
+beacons =
+	PIA, N40.68010, W89.79280, 0, Peoria
+	PI, N40.60570, W89.59310, 0, Tungg
+	CTK, N40.56590, W90.07710, 0, Canton
+	BDF, N41.15970, W89.58790, 0, Bradford
+	AAA, N40.16010, W89.33780, 0, Abraham
+	EZI, N41.20110, W89.95930, 0, Kewanee
+	BMI, N40.48080, W88.93120, 0, Bloomington
+	GBG, N40.93730, W90.43450, 0, Galesburg
+	LH, N40.56040, W88.87460, 0, Egrow
+	JZY, N40.51840, W90.56040, 0, Macomb
+	PNT, N40.82120, W88.73350, 0, Pontiac
+	LQ, N39.91200, W89.60310, 0, Licol
+	VYS, N41.35480, W89.14810, 0, Valley
+	SPI, N39.83970, W89.67770, 0, Spinner
+	MZV, N41.32110, W90.63810, 0, Moline
+	ML, N41.44910, W90.61850, 0, Molli
+
+line1 =
+	N40.64956, W91.21512
+	N40.74979, W91.10213
+	N40.90469, W91.00012
+	N41.01558, W90.95400
+	N41.08253, W90.96382
+	N41.14596, W91.00134
+	N41.20591, W91.06650
+	N41.28032, W91.08211
+	N41.36910, W91.04811
+	N41.42559, W90.93876
+	N41.44982, W90.75407
+	N41.49473, W90.58674
+	N41.56036, W90.43667
+	N41.63203, W90.34753
+
+[airport1]
+name = General Wayne A. Downing Peoria International Airport
+code = KPIA
+runways =
+	rwy1, 04, N40.654, W89.6947, 38.5, 8003, 0, 0, 643
+	rwy2, 13, N40.6737, W89.7139, 127.0, 10104, 500, 0, 632

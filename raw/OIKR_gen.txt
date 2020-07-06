@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 5298
+center = N30.297700882, E56.0511016846
+magneticvar = 2.171
+beacons =
+	RAF, N30.30270, E56.05560, 0, Rafsanjan
+	KER, N30.26450, E56.95840, 0, Kerman
+	KER, N30.25210, E56.96120, 0, Kerman
+	KER, N30.25930, E56.96470, 0, Kerman
+	SRJ, N29.55680, E55.66000, 0, Sirjan
+
+[airport1]
+name = Rafsanjan Airport
+code = OIKR
+runways =
+	rwy1, 11, N30.3028, E56.0367, 112.0, 9814, 0, 0, 5258

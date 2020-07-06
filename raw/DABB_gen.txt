@@ -1,0 +1,37 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 16
+center = N36.822201, E7.809174
+magneticvar = 0.471
+beacons =
+	ANB, N36.81810, E7.80250, 0, Annaba
+	ANB, N36.81670, E7.80000, 0, Annaba
+
+line1 =
+	N37.19463, E9.14199
+	N37.15586, E9.05889
+	N36.99761, E8.82354
+	N36.93721, E8.57656
+	N36.91035, E8.12715
+	N36.85635, E7.91045
+	N36.88027, E7.79160
+	N36.99976, E7.60771
+	N37.05928, E7.43242
+	N37.09238, E7.20430
+	N36.96851, E7.23848
+	N36.94336, E7.14346
+	N36.91943, E6.92754
+	N37.00303, E6.57588
+	N37.08574, E6.48652
+
+[airport1]
+name = Rabah Bitat Airport
+code = DABB
+runways =
+	rwy1, 05, N36.8206, E7.80675, 51.8, 7513, 0, 0, 16
+	rwy2, 18, N36.8451, E7.81274, 186.9, 9843, 0, 335, 10

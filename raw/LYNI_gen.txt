@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 648
+center = N43.337299, E21.853701
+magneticvar = 3.237
+beacons =
+	NIS, N43.34650, E21.82710, 0, Nis
+	ZO, N43.18360, E21.72460, 0, Nis
+	JST, N43.42460, E21.63130, 0, Justic
+	BLC, N43.24870, E21.36160, 0, Blace
+	BLC, N43.24670, E21.36220, 0, Blace
+	VRN, N42.55540, E21.91140, 0, Vranje
+	KAL, N42.94920, E22.87500, 0, Kalotina
+	VTN, N43.71760, E20.81030, 0, Kraljevo
+	PRI, N42.72860, E21.01820, 0, Pristina
+	PRT, N42.57250, E21.03140, 0, Pristina
+	TPL, N44.13980, E20.74570, 0, Topola
+	TPL, N44.14350, E20.74440, 0, Topola
+
+line1 =
+	N44.31647, E22.64795
+	N44.28647, E22.68330
+	N44.24831, E22.68785
+	N44.19524, E22.77518
+	N44.12728, E22.94540
+	N44.07798, E23.02850
+	N44.04723, E23.02447
+	N44.01700, E22.98540
+	N43.98719, E22.91129
+	N43.94789, E22.86830
+	N43.89903, E22.85641
+	N43.86456, E22.86768
+	N43.83446, E22.91905
+	N43.87389, E23.22461
+
+[airport1]
+name = Nis Airport
+code = LYNI
+runways =
+	rwy1, 11, N43.3412, E21.8413, 113.0, 8202, 719, 985, 644

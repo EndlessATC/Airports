@@ -1,0 +1,51 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 6187
+usa = true
+transition = 18001
+center = N38.805801, W104.700996
+magneticvar = 9.299
+beacons =
+	CO, N38.69430, W104.71600, 0, Petey
+	FCS, N38.68070, W104.75700, 0, Butts
+	IHS, N38.67830, W104.75300, 0, Ironhorse
+	BRK, N38.94450, W104.63300, 0, Black Forest
+	PU, N38.28390, W104.64700, 0, Mertz
+	PUB, N38.29430, W104.42900, 0, Pueblo
+	TF, N38.29090, W104.35500, 0, Aruba
+	AP, N39.45190, W104.84600, 0, Casse
+
+line1 =
+	N38.08098, W103.31994
+	N38.04179, W103.46748
+	N38.04763, W103.59388
+	N38.09855, W103.69914
+	N38.13648, W103.83260
+	N38.17398, W104.07506
+	N38.23803, W104.23722
+	N38.25984, W104.41060
+	N38.26074, W104.64924
+	N38.29792, W104.82584
+	N38.37148, W104.94036
+	N38.42520, W105.09278
+	N38.45910, W105.28308
+	N38.45062, W105.47020
+	N38.39972, W105.65411
+	N38.42510, W105.83224
+	N38.52674, W106.00456
+	N38.61062, W106.08936
+	N38.67676, W106.08657
+	N38.80182, W106.13535
+
+[airport1]
+name = City of Colorado Springs Municipal Airport
+code = KCOS
+runways =
+	rwy1, 12, N38.8232, W104.715, 135.1, 8269, 0, 355, 6173
+	rwy2, 17L, N38.8161, W104.686, 180.1, 13501, 0, 0, 6187
+	rwy3, 17R, N38.8241, W104.716, 180.1, 11022, 0, 0, 6177

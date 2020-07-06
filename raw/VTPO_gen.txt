@@ -1,0 +1,22 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 179
+center = N17.2380008698, E99.8181991577
+magneticvar = -0.413
+beacons =
+	THS, N17.23520, E99.82200, 0, Sukhothai
+	PL, N16.79600, E100.27600, 0, Phitsanulok
+	PSL, N16.79140, E100.27500, 0, Phitsanulok
+	TK, N16.89950, E99.25220, 0, Tak
+	PSL, N16.77040, E100.29100, 0, Phitsanulok
+
+[airport1]
+name = Sukhothai Airport
+code = VTPO
+runways =
+	rwy1, 18, N17.2475, E99.8184, 181.0, 6890, 0, 0, 179

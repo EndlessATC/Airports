@@ -1,0 +1,29 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 685
+usa = true
+transition = 18001
+center = N52.9593933975, W87.3748683929
+magneticvar = -5.542
+beacons =
+	YWP, N52.96060, W87.36810, 0, Webequie
+	YAQ, N53.52760, W88.62920, 0, Kasabonika
+
+line1 =
+	N53.00571, W89.28320
+	N52.98848, W89.19897
+	N52.96592, W89.12285
+	N52.98535, W89.00371
+	N52.98774, W88.95200
+	N52.94004, W88.98301
+	N52.87021, W89.04380
+	N52.85386, W89.15098
+
+[airport1]
+name = Webequie Airport
+code = CYWP

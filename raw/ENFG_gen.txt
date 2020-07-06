@@ -1,0 +1,69 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2697
+center = N61.0155982971, E9.28806018829
+magneticvar = 0.509
+beacons =
+	LL, N61.01630, E9.29655, 0, Leirin
+	MES, N61.09980, E10.64280, 0, Mesnali
+	BBU, N60.47180, E10.33890, 0, Brandbu
+	SOK, N60.23710, E9.91528, 0, Soknen
+
+line1 =
+	N61.16055, E6.94258
+	N61.16597, E7.17354
+	N61.18096, E7.27598
+	N61.21362, E7.29805
+	N61.28394, E7.27627
+	N61.37202, E7.33115
+	N61.43462, E7.44258
+	N61.41924, E7.45254
+	N61.30059, E7.34658
+	N61.22217, E7.40391
+	N61.21055, E7.60449
+	N61.17715, E7.54502
+	N61.09116, E7.04014
+	N61.01528, E7.04668
+	N60.96631, E7.07793
+	N60.95293, E7.03867
+	N60.99414, E6.98057
+	N61.05596, E6.97207
+	N61.10215, E6.90342
+
+line2 =
+	N60.51196, E6.99570
+	N60.47822, E6.94971
+
+line3 =
+	N62.00629, E10.82097
+	N61.94997, E10.88815
+	N61.89302, E10.90066
+	N61.83493, E10.88298
+	N61.77571, E10.83493
+	N61.69959, E10.86335
+	N61.60663, E10.96815
+	N61.52575, E11.03347
+	N61.42276, E11.07222
+	N61.31745, E11.24668
+	N61.23288, E11.31795
+	N61.13392, E11.34409
+	N61.02935, E11.40228
+	N60.91912, E11.49251
+	N60.84866, E11.57876
+	N60.81794, E11.66092
+
+line4 =
+	N60.22764, E11.64092
+	N60.18596, E11.52651
+	N60.10181, E11.38538
+
+[airport1]
+name = Leirin Airport
+code = ENFG
+runways =
+	rwy1, 15, N61.0192, E9.28357, 149.0, 6722, 479, 207, 2694

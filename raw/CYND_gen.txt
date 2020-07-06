@@ -1,0 +1,86 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 211
+usa = true
+transition = 18001
+center = N45.521702, W75.563599
+magneticvar = -14.060
+beacons =
+	OW, N45.36000, W75.56110, 0, Ottawa
+	IOW, N45.31380, W75.66680, 0, Ottawa
+	YOW, N45.44170, W75.89700, 0, Ottawa
+	YRR, N45.26830, W75.57360, 0, Greely
+	YMW, N46.20750, W75.95640, 0, Maniwaki
+	MS, N44.85410, W74.91580, 0, Misse
+	MSS, N44.91440, W74.72270, 0, Massena
+	YMX, N45.88830, W74.37570, 0, Mirabel
+	PTD, N44.72340, W74.88270, 0, Potsdam
+
+line1 =
+	N45.44141, W73.96055
+	N45.44194, W73.92021
+
+line2 =
+	N45.24141, W74.04980
+	N45.18828, W74.26904
+	N45.04160, W74.56631
+	N45.00386, W74.70889
+	N45.20640, W74.35830
+	N45.21445, W74.34043
+	N45.32402, W74.09810
+	N45.34512, W73.97383
+	N45.43335, W73.99961
+	N45.49287, W74.24766
+	N45.53105, W74.31509
+	N45.50186, W74.03784
+
+line3 =
+	N45.89239, W76.90254
+	N45.87968, W76.82370
+	N45.79783, W76.75381
+	N45.64259, W76.66658
+	N45.54208, W76.55313
+	N45.49634, W76.41344
+	N45.48394, W76.26994
+	N45.50487, W76.12263
+	N45.48363, W76.00063
+	N45.42023, W75.90397
+	N45.45077, W75.62613
+	N45.57531, W75.16714
+	N45.64218, W74.86418
+	N45.65137, W74.71722
+	N45.63220, W74.57723
+	N45.56094, W74.37757
+	N45.53107, W74.31510
+
+line4 =
+	N45.91167, W77.15490
+	N45.89244, W76.90212
+
+line5 =
+	N45.00387, W74.70887
+	N44.99906, W74.76246
+	N45.00392, W74.85664
+	N44.97012, W74.99614
+	N44.89938, W75.17938
+	N44.77228, W75.40126
+
+[airport1]
+name = Ottawa / Gatineau Airport
+code = CYND
+runways =
+	rwy1, 09, N45.5196, W75.5749, 75.0, 6000, 0, 0, 209
+
+[airport2]
+name = Ottawa Macdonald-Cartier International Airport
+code = OW
+runways =
+	rwy2, 04, N45.3261, W75.689, 25.6, 3300, 250, 0, 348
+	rwy3, 07, N45.3133, W75.671, 57.2, 8000, 0, 0, 373
+	rwy4, 14, N45.327, W75.6862, 126.3, 10000, 0, 0, 349
+inboundbeacon = IOW

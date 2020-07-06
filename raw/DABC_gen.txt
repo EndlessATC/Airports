@@ -1,0 +1,42 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2265
+center = N36.2760009766, E6.62038993835
+magneticvar = 0.218
+beacons =
+	CSO, N36.29260, E6.60555, 0, Constantine
+	CNE, N36.19030, E6.72718, 0, Constantine
+	BTN, N35.77150, E6.34379, 0, Batna
+	BTN, N35.75170, E6.30222, 0, Batna
+	JIL, N36.77670, E5.87722, 0, Jijel
+
+line1 =
+	N36.85635, E7.91045
+	N36.88027, E7.79160
+	N36.99976, E7.60771
+	N37.05928, E7.43242
+	N37.09238, E7.20430
+	N36.96851, E7.23848
+	N36.94336, E7.14346
+	N36.91943, E6.92754
+	N37.00303, E6.57588
+	N37.08574, E6.48652
+	N37.04604, E6.32783
+	N36.93833, E6.24912
+	N36.86426, E6.06475
+	N36.79961, E5.72549
+	N36.67544, E5.42461
+	N36.64824, E5.29541
+	N36.67681, E5.19561
+
+[airport1]
+name = Mohamed Boudiaf International Airport
+code = DABC
+runways =
+	rwy1, 14, N36.2844, E6.61472, 136.0, 7874, 0, 0, 2306
+	rwy2, 16, N36.2881, E6.61056, 159.0, 9843, 0, 0, 2313

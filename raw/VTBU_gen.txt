@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 42
+center = N12.6799001694, E101.004997253
+magneticvar = -0.289
+beacons =
+	BUT, N12.67480, E101.00700, 0, U Taphao
+	BUT, N12.66840, E100.99700, 0, U Taphao
+	UP, N12.66340, E100.99200, 0, U Taphao
+	RYN, N12.78010, E101.67800, 0, Rayong
+
+line1 =
+	N11.93662, E99.83711
+	N12.04746, E99.93027
+	N12.17080, E99.98906
+	N12.35474, E100.00566
+	N12.69004, E99.96396
+	N12.77148, E99.98203
+	N13.04565, E100.08994
+	N13.17124, E100.05107
+	N13.24346, E99.99053
+	N13.35317, E100.01748
+	N13.43955, E100.12236
+	N13.48447, E100.23564
+	N13.51445, E100.53643
+	N13.56816, E100.60293
+	N13.52129, E100.65605
+	N13.46240, E100.90654
+	N13.43198, E100.96270
+	N13.35757, E100.94697
+	N13.30303, E100.92627
+	N13.18726, E100.94609
+	N13.03491, E100.90391
+	N12.81816, E100.89639
+	N12.71450, E100.86328
+	N12.65381, E100.89775
+	N12.62124, E100.95371
+	N12.67363, E101.09023
+	N12.61895, E101.44492
+	N12.68936, E101.72363
+	N12.64038, E101.83574
+	N12.59326, E101.88906
+	N12.56367, E101.94453
+	N12.53188, E102.03438
+	N12.44302, E102.13418
+
+[airport1]
+name = U-Tapao International Airport
+code = VTBU
+runways =
+	rwy1, 18, N12.6958, E101.006, 185.0, 11500, 0, 0, 59

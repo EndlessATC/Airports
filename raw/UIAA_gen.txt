@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 2272
+center = N52.026299, E113.306
+magneticvar = -7.432
+beacons =
+	DG, N52.01670, E113.37800, 0, Chita
+	ZM, N52.04000, E113.18700, 0, Chita
+
+[airport1]
+name = Chita-Kadala Airport
+code = UIAA
+runways =
+	rwy1, 11, N52.0287, E113.285, 100.5, 9430, 0, 240, 2272
+	rwy2, 11L, N52.0303, E113.286, 101.0, 5905, 0, 0, 0

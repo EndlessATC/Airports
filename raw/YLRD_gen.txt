@@ -1,0 +1,45 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 540
+usa = true
+center = S29.4566993713, E147.98399353
+magneticvar = 10.260
+beacons =
+	WLG, S30.02730, E148.12399, 0, Walgett
+	WLG, S30.02870, E148.12801, 0, Walgett
+
+line1 =
+	S28.80651, E149.17398
+	S28.87483, E149.08147
+	S28.92769, E149.05801
+	S28.98609, E148.99321
+	S29.05001, E148.88717
+	S29.18809, E148.79622
+	S29.40027, E148.72026
+	S29.52786, E148.64098
+	S29.57086, E148.55841
+	S29.68806, E148.42932
+	S29.87947, E148.25393
+	S30.01259, E147.97829
+	S30.12457, E147.41455
+
+line2 =
+	S30.12457, E147.41455
+	S30.12219, E147.26174
+	S30.10700, E147.20118
+	S30.07816, E147.18195
+	S30.02680, E147.04806
+	S29.95295, E146.79949
+	S29.92753, E146.65552
+
+[airport1]
+name = Lightning Ridge Airport
+code = YLRD
+runways =
+	rwy1, 04, S29.4551, E147.981, 48.0, 2405, 0, 0, 0
+	rwy2, 10, S29.4506, E147.97, 110.0, 4613, 0, 0, 540

@@ -1,0 +1,56 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 435
+usa = true
+transition = 18001
+center = N35.8776016235, W78.7874984741
+magneticvar = -9.036
+beacons =
+	RDU, N35.87250, W78.78330, 0, Raleigh-Durham
+	LE, N35.92720, W78.72190, 0, Leevy
+	RD, N35.79690, W78.88270, 0, Greon
+	HUR, N36.23330, W79.06590, 0, Person
+	EUU, N35.60680, W78.35440, 0, Jnall
+	HXO, N36.30040, W78.61860, 0, Huntsboro
+	HQT, N35.43320, W78.67490, 0, Harnett
+	TT, N35.49730, W79.13990, 0, Leeco
+	JN, N35.47500, W78.42530, 0, Jurly
+	TOX, N35.76150, W79.46220, 0, Siler City
+	HB, N35.97820, W79.58470, 0, Himun
+	POB, N35.22680, W78.95440, 0, Pope
+	LIB, N35.81160, W79.61260, 0, Liberty
+	RW, N35.76770, W77.96460, 0, Jambe
+	POB, N35.16850, W79.01970, 0, Pope
+	FGP, N35.13880, W78.81250, 0, Fort Bragg
+	JYN, N35.52610, W77.90030, 0, Wayne
+	SBV, N36.67500, W79.01450, 0, South Boston
+	DAN, N36.56890, W79.33670, 0, Danville
+	GSB, N35.33500, W77.97160, 0, Seymour Johnson
+	SDZ, N35.21540, W79.58800, 0, Sandhills
+	SIF, N36.38220, W79.76330, 0, Slammer
+	AEA, N36.61450, W78.05320, 0, Jones
+	DKA, N35.07230, W77.91890, 0, Kenan
+
+line1 =
+	N35.46605, W80.12247
+	N35.40125, W80.07105
+	N35.31170, W80.05539
+	N35.17573, W80.05834
+	N35.10943, W80.02744
+	N35.11274, W79.96263
+	N35.09615, W79.91468
+	N35.05975, W79.88357
+	N34.97637, W79.88352
+
+[airport1]
+name = Raleigh Durham International Airport
+code = KRDU
+runways =
+	rwy1, 05L, N35.8745, W78.802, 45.0, 10000, 0, 0, 367
+	rwy2, 05R, N35.8646, W78.7973, 45.0, 7500, 0, 0, 397
+	rwy3, 14, N35.875, W78.7827, 135.0, 3570, 0, 0, 432

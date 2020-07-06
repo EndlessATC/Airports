@@ -1,0 +1,67 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 302
+center = N39.8625984192, E4.2186498642
+magneticvar = -0.149
+beacons =
+	MHN, N39.86350, E4.21719, 0, Menorca
+	MN, N39.83650, E4.21329, 0, Menorca
+	CDP, N39.69770, E3.43437, 0, Capdepera
+	PTC, N39.42730, E3.25672, 0, Porto Colom
+
+line1 =
+	N39.75669, E3.24111
+	N39.79009, E3.14531
+	N39.83657, E3.15869
+	N39.86138, E3.19092
+	N39.88984, E3.19863
+	N39.90771, E3.16699
+	N39.92422, E3.16445
+	N39.96108, E3.19756
+	N39.97051, E3.15869
+	N39.90830, E2.90479
+	N39.85483, E2.78496
+
+line2 =
+	N39.54214, E2.70059
+	N39.51025, E2.74600
+	N39.41025, E2.76982
+	N39.38506, E2.79980
+	N39.36836, E2.90010
+	N39.30127, E3.07285
+	N39.33325, E3.15459
+	N39.38662, E3.24473
+	N39.47705, E3.29297
+	N39.55566, E3.34873
+	N39.62715, E3.41465
+	N39.69775, E3.46182
+	N39.76123, E3.44893
+	N39.77729, E3.39590
+	N39.78672, E3.34219
+	N39.75669, E3.24111
+
+line3 =
+	N40.07510, E4.05918
+	N40.06304, E3.85342
+	N40.03647, E3.84541
+	N39.97637, E3.84268
+	N39.95874, E3.86719
+	N39.94585, E3.96768
+	N39.83027, E4.27529
+	N39.84185, E4.29365
+	N39.89751, E4.32207
+	N39.91724, E4.31514
+	N40.03237, E4.22578
+	N40.07510, E4.05918
+
+[airport1]
+name = Menorca Airport
+code = LEMH
+runways =
+	rwy1, 01L, N39.8513, E4.21632, 9.0, 7710, 0, 0, 277
+	rwy2, 01R, N39.8534, E4.21914, 9.0, 6890, 0, 0, 272

@@ -1,0 +1,20 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 928
+usa = true
+center = S24.4277992249, E145.429000854
+magneticvar = 8.217
+beacons =
+	BCK, S24.42610, E145.43600, 0, Blackall
+
+[airport1]
+name = Blackall Airport
+code = YBCK
+runways =
+	rwy1, 06, S24.435, E145.421, 67.0, 5538, 0, 0, 918
+	rwy2, 12, S24.4207, E145.42, 128.0, 5259, 0, 0, 917
