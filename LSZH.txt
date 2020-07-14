@@ -6,6 +6,10 @@
 
 [airspace]
 elevation = 1416
+floor = 4000
+ceiling = 7500
+above = 19500
+transitionlevel = 9001
 center = N47.464699, E8.54917
 magneticvar = 0.315
 beacons =
@@ -108,3 +112,22 @@ runways =
 	rwy2,		14,		N47.4831, E8.53473,	137.2,			10827,		490,	 		   0,			1402, 3, 135
 	rwy3,		16,		N47.4756, E8.53595,	155.0,			12139,		  0,	 		1541,			1390, 3, 154
 ##	identifier, name,	position,			true_heading,	<length>,	<displaced>,	<displaced2>,	<elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>
+
+##############################################################
+[area1]
+##############################################################
+shape = circle		; circle or polygon
+altitude = 4500		; minimum allowed altitude in feet
+radius = 10		; radius of circle in NM
+position = 0, 0	; position of circle center
+labelpos = 6, 0		; <position of label>
+
+##############################################################
+[configurations]
+##############################################################
+config1 =
+	0,	rwy2,	land
+	0,	rwy3,	start
+	8,	rwy3,	startland
+	8,	rwy2,	startland
+	9,	rwy1,	landstartrev
