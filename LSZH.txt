@@ -39,9 +39,6 @@ line1 =
 	N47.62476, E9.51396
 	N47.56636, E9.64424
 	N47.52690, E9.73066
-	N47.52690, E9.73066
-	N47.52690, E9.73066
-	N47.52690, E9.73066
 
 line2 =
 	N47.67068, E9.12754
@@ -107,6 +104,7 @@ line5 =
 name = Zürich Airport
 code = LSZH
 runways =
-	rwy1, 10, N47.4589, E8.53747, 96.0, 8202, 0, 0, 1391
-	rwy2, 14, N47.4831, E8.53473, 137.2, 10827, 490, 0, 1402
-	rwy3, 16, N47.4756, E8.53595, 155.0, 12139, 0, 1541, 1390
+	rwy1,		10,		N47.4589, E8.53747,	 96.0,			 8202,		  0,	 		   0,			1391, 3,  94
+	rwy2,		14,		N47.4831, E8.53473,	137.2,			10827,		490,	 		   0,			1402, 3, 135
+	rwy3,		16,		N47.4756, E8.53595,	155.0,			12139,		  0,	 		1541,			1390, 3, 154
+##	identifier, name,	position,			true_heading,	<length>,	<displaced>,	<displaced2>,	<elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>
