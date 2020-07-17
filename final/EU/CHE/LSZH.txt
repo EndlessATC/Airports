@@ -6,9 +6,9 @@
 
 [airspace]
 elevation = 1416
-floor = 4000
-ceiling = 7500
-above = 19500
+floor = 3000
+ceiling = 8000
+above = 17000
 transitionlevel = 9001
 center = N47.464699, E8.54917
 magneticvar = 0.315
@@ -129,5 +129,7 @@ config1 =
 	0,	rwy2,	land
 	0,	rwy3,	start
 	8,	rwy3,	startland
-	8,	rwy2,	startland
+	8,	rwy1,	startland
 	9,	rwy1,	landstartrev
+	9,	rwy2,	land
+	9,	rwy3,	landstart
