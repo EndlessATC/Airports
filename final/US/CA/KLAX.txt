@@ -1,8 +1,4 @@
-# This is an automatically generated airport file for Endless ATC.
-# Feel free to improve, use and share this file, at your own risk.
-# Data from ourairports.com.
-# Coastline from naturalearthdata.com.
-# See the example.txt airport for all possible sections and items to add to this file.
+# KLAX Version 1.2 by James Gardner
 
 [airspace]
 radius = 40
@@ -106,6 +102,8 @@ runways =
 	rwy3, 07L, N33.9358, W118.419, 83.0, 12091, 0, 957, 119
 	rwy4, 07R, N33.9338, W118.419, 83.0, 11096, 0, 0, 118
 
+climbaltitude = 6000
+
 sids =
 	dotss, N33.644106, W117.795283, dotss
 	ladyj, N34.077194, W118.671942, ladyj
@@ -126,12 +124,13 @@ runways =
 	rwy7, 08L, N33.8228, W118.164, 90.2, 6192, 1305, 531, 52
 	rwy8, 08R, N33.8138, W118.161, 89.9, 5420, 0, 0, 50
 	rwy9, 12, N33.8262, W118.162, 134.7, 10000, 1341, 1989, 52
-inboundbeacon = LG
+inboundbeacon = sxc
+
+climbaltitude = 3000
 
 sids =
 	vtu
 	pdz
-	lhs
 
 airlines =
 	swa, 5, b737, Southwest
@@ -151,16 +150,33 @@ sids =
 	orosz, N34.426717, W118.674169, orosz
 	vny
 
+inboundbeacon = vny
+
 entrypoints =
-	030, vny
-	050, vny
-	300, vny
+	030
+	050
+	300
 
 airlines =
 	swa, 8, b737, Southwest
 	aal, 3, a318/b738, American
 	xe, 1, e135, JetSuite
 	n-123ab, 8, c172/p28b/p28a/be33/e13bj
+
+[airport4]
+name = Hawthorne Municipal Airport
+code = HR
+runways =
+	rwy10, 07, N33.922861, W118.335029, 83, 4884, 0, 0, 66, 3, 83, 5
+
+climbaltitude = 1000
+
+entrypoints =
+	300,
+	120,
+
+airlines =
+	n-123ab, 10, c172/p28b/p28a/be33
 
 [configurations]
 config1 = 
@@ -170,6 +186,7 @@ config1 =
 	0,	rwy4,	landrev
 	0,	rwy5,	landstart
 	0,	rwy6,	landstart
-	0,	rwy7,	landrev, 0, nosid
-	0,	rwy8,	startrev, 0, nosid
+	0,	rwy7,	landrev
+	0,	rwy8,	startrev
 	0,	rwy9,	landstartrev
+	0,	rwy10,	landstartrev, 090, nosid
