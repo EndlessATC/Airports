@@ -1,0 +1,333 @@
+
+[airspace]
+radius = 50
+elevation = 220
+center = N51.3821, W3.2135
+magneticvar = -4.070
+zoom = 5
+descendaltitude = 15900
+beacons =
+	SAT, N51.40640, W3.43497, 0, St Athan
+	BCN, N51.72560, W3.26306, 0, Brecon
+	BRI, N51.38140, W2.71754, 0, Bristol
+	OF, N51.52190, W2.59023, 0, Filton
+	SWN, N51.60220, W4.06583, 0, Swansea
+	VLN, N51.00500, W2.63875, 0, Yeovilton
+	PMB, N51.71370, W4.31113, 0, Pembrey
+	KMB, N51.66917, W2.06889, 0, Kemble
+	COM, N50.96620, W2.15517, 0, Compt0n Abbas
+	GST, N51.89200, W2.16790, 0, Gloucestershire
+	GOS, N51.89220, W2.16793, 0, Gloucestershire
+	AP, N52.11630, W4.55983, 0, Aberporth
+	ALV, N51.66917, W2.720, 0, Alvin
+	EXM, N51.104300, W3.213500, 0, Exmoor
+
+line1 =
+	N50.74746, W1.51675
+	N50.73286, W1.60083
+	N50.73516, W1.68789
+	N50.71523, W1.86602
+	N50.72539, W2.03105
+	N50.67324, W2.00625
+	N50.62778, W1.96206
+	N50.60801, W1.99790
+	N50.60308, W2.03584
+	N50.63740, W2.35015
+	N50.63091, W2.39468
+	N50.59922, W2.43345
+	N50.61631, W2.54775
+	N50.66973, W2.65884
+	N50.70557, W2.77695
+	N50.72241, W2.90088
+	N50.71660, W2.99941
+	N50.63242, W3.40459
+	N50.54795, W3.48545
+	N50.42817, W3.52588
+
+line2 =
+	N50.45151, W5.04346
+	N50.49526, W5.00444
+	N50.52314, W4.95640
+	N50.53369, W4.89355
+	N50.58203, W4.86128
+	N50.77637, W4.58291
+	N50.82095, W4.55996
+	N50.90068, W4.54609
+	N50.97744, W4.52310
+	N51.02715, W4.29648
+	N51.18853, W4.18818
+	N51.20132, W4.15840
+	N51.23091, W3.84233
+	N51.22856, W3.60791
+	N51.19697, W3.37510
+	N51.19414, W3.25576
+	N51.20503, W3.13599
+	N51.24858, W3.04204
+	N51.40566, W2.88125
+	N51.47480, W2.79082
+	N51.53726, W2.68721
+	N51.60859, W2.59028
+	N51.74072, W2.43306
+	N51.69521, W2.53936
+	N51.62300, W2.66768
+	N51.58110, W2.74214
+	N51.53887, W2.97852
+	N51.49580, W3.08037
+	N51.39849, W3.25879
+	N51.39043, W3.29312
+	N51.41382, W3.56235
+	N51.53994, W3.76270
+	N51.59165, W3.89077
+	N51.59751, W3.94365
+	N51.58213, W3.99834
+	N51.56641, W4.11528
+	N51.56909, W4.23457
+	N51.62734, W4.17368
+	N51.65991, W4.09102
+	N51.68252, W4.27617
+	N51.70024, W4.32764
+	N51.74106, W4.38628
+	N51.74805, W4.53149
+	N51.73765, W4.60078
+	N51.68369, W4.71763
+	N51.62627, W4.90229
+	N51.70586, W5.12476
+	N51.74072, W5.16836
+	N51.80806, W5.16724
+	N51.86138, W5.20059
+
+line3 =
+	N51.94966, W5.18335
+	N51.99590, W5.08809
+	N52.04185, W4.87852
+	N52.15088, W4.56113
+	N52.19731, W4.38315
+	N52.27744, W4.21772
+	N52.32627, W4.14937
+	N52.39312, W4.09976
+
+line4 =
+	N50.70332, W1.51567
+	N50.66611, W1.56343
+	N50.66978, W1.51533
+
+line5 =
+	N51.68589, W2.02191
+	N51.64848, W1.93928
+	N51.65207, W1.82430
+	N51.70018, W1.56199
+
+[airport1]
+name = Cardiff International Airport
+code = EGFF
+traffic = 30
+runways =
+	rwy1, 12, N51.4015, W3.35868, 116.8, 7848, 797, 551, 205
+airlines =
+ 
+	ryr,	7,	b738,		ryanair, sw
+	tom,	10,	b738/b787/b757,	tomjet, sw
+	klm,    5, b737/e190,  klm, e
+	vue,    7, a320/a319/a321, vueling, s
+	baw, 2, b747/b772/b773/b787/b788/b763/b767, a35k speedbird, e
+	eze, 2, sf40, eastern, n
+	log, 4, e130/e140/sb20/sb40, logan, ne
+	mal, 1, a319/a320, airmalta, s
+	vir, 1, b747/a35k, virgin, w
+	qtr, 4, b788, qatari, e
+	g-abcd,	1,	glf5/glf6/b190/be58/c25a/c25b/c25c,		0
+sids = 
+	BCN
+	EXM
+	ALV
+entrypoints = 
+   360, BCN
+   180, EXM
+   050, ALV
+   280, SWA
+   110, EXM
+	
+	
+
+[airport2]
+name = Bristol Airport
+code = GD
+runways =
+	rwy2, 09, N51.3821, W2.7335, 86.4, 6598, 0, 443, 613
+sids =
+   BCN
+   EXM
+traffic = 5
+inboundbeacon=BRI
+entrypoints =
+   110
+   360
+   200 
+   180
+
+airlines =
+    ezy, 10, a319/a32n/a320/a318/a321, easy
+	ryr,	7,	b738,		ryanair, sw
+	tom,	7,	b738/b787/b757,	tomjet, sw
+	klm,    5, b737/e190,  klm, e
+	ae, 1, at42/at72, stobart, w
+    del, 3, b763/b757, delta, nw
+    wuk, 5, a320/a321, wizzgo
+    ldm, 1, a320, c100, b735, lauda motion
+	g-abcd,	1,	c172/g280/b190/be58/c25a/c25b/c25c		0
+
+[airport3]
+name = Exeter Airport
+code = EX
+runways =
+	rwy3, 09, N50.7202767, W3.4651227, 86.4, 6598, 0, 443, 613
+sids =
+   BCN
+   EXM
+traffic = 15
+inboundbeacon=VLN
+entrypoints =
+   090
+   180
+   50
+
+airlines =
+    log, 2, e130/e140/sb20/sb40, logan, ne
+	ios, 6, dhc, scillonia, sw
+	ae, 3, at42/at72, stobart, w
+	aur, 5, e195/at42/at72, ayline
+	bci, 2, at42/at72, blue island, se
+	ryr,	3,	b738,		ryanair, sw
+	tom,	3,	b738,	tomjet, sw
+	fhy, 2, a320, freebirdair, e
+	npt, 4, b737, neptune
+	g-abcd,	1,	c172,		0
+
+
+[transition1]
+runway = rwy1
+beacon = BCN
+route1 = 090
+    N51.72560, W3.2630, 2000
+	10.5, 3000, 200
+
+[transition2]
+runway = rwy1, rev
+beacon = BCN
+route1 = 090
+    N51.72560, W3.2630, 2000
+    N51.52190, W2.8
+    N51.3702139, W3.0
+	10.5, 3000, 200
+	
+route3 = 270
+    N51.72560, W3.2630, 2000
+    N51.52190, W2.8
+    N51.3702139, W3.0
+	10.5, 3000, 200
+
+[transition3]
+runway = rwy1
+beacon = EXM
+route1 = 090
+   N51.104300, W3.213500, 6000, 250
+   N51.38140, W2.71754
+   N51.66917, W2.720
+   N51.72560, W3.2630, 3000, 200
+   10.5, 3000, 200 
+
+[transition4]
+runway = rwy1, rev
+beacon = EXM
+route1 = 360
+   N51.104300, W3.213500, 6000, 250
+   N51.38140, W2.71754
+   N51.66917, W2.720
+   N51.72560, W3.2630, 3000
+   N51.52190, W2.8
+   N51.3702139, W3.0
+	10.5, 3000, 200
+	
+[transition5]
+runway = rwy1, rev
+beacon = BRI
+route1 = 090
+     N51.38140, W2.71754, 8000
+     10, 2000, 240
+     
+[transition6]
+runway = rwy1
+beacon = SWN
+route1 = 090
+   N51.60220, W4.06583
+   15, 3000, 250
+  
+[transition7]
+runway = rwy1, rev
+beacon = ALV
+route1 = 315
+    N51.66917, W2.720, 4000
+    N51.52190, W2.8
+    N51.3702139, W3.0
+	10.5, 3000, 200
+	
+[transition8]
+runway = rwy1
+beacon = ALV
+route1 = 315
+    N51.66917, W2.720, 4000
+    N51.72560, W3.2630, 3000, 200
+	10.5, 3000, 200
+
+    
+[planetypes]
+##############################################################
+types = 
+	f35, 5, 140, 300, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, big jet
+	c17, 6, 90, 250, 2.9, 3.2, 1400, 1600, 90, 105, 1.1, 1.2, big jet
+## type, category, minspeed, maxspeed, minturnrate, maxturnrate, mindescendrate, maxdescendrate, minfinalapproachspeed, maxfinalapproachspeed, minaccelrate, maxaccelrate, <manufacturer>
+[configurations]
+config1 =
+	0,	rwy1,	landstart
+	7,	rwy2,	takeoff
+	9,	rwy2,	startland
+    12, rwy3, takeoff
+    14, rwy3, startland
+	
+config2 =
+	0,	rwy1,	landstartrev
+	7,	rwy2,	takeoffrev
+	9,	rwy2,	startlandrev
+    12, rwy3, takeoffrev
+    14, rwy3, startlandrev
+    
+config3 =
+	0,	rwy1,	landstartrev
+	7,	rwy2,	takeoffrev
+	9,	rwy2,	startlandrev
+    12, rwy3, takeoff
+    14, rwy3, startland
+    
+
+
+	
+
+[area1]
+##############################################################
+shape = circle		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = SFC		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 3		; radius of circle in NM
+position = N51.2057403, W3.1112790	; position of circle center
+labelpos = N51.2057403, W3.1112790		; <position of label>
+
+[area2]
+##############################################################
+shape = circle		; circle or polygon
+altitude = 5500		; minimum allowed altitude in feet
+name = SFC		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 4.5		; radius of circle in NM
+position = N51.2041631, W3.2504444	; position of circle center
+labelpos = N51.2041631, W3.2504444		; <position of label>
+draw = 0.565, 5.65		; <start and end angle of visible arc, in radians (orientated eastwards), omit for a full circle>
+
