@@ -1,8 +1,4 @@
-# This is an automatically generated airport file for Endless ATC.
-# Feel free to improve, use and share this file, at your own risk.
-# Data from ourairports.com.
-# Coastline from naturalearthdata.com.
-# See the example.txt airport for all possible sections and items to add to this file.
+
 
 [airspace]
 elevation = 1416
@@ -112,6 +108,28 @@ runways =
 	rwy2,		14,		N47.4831, E8.53473,	137.2,			10827,		490,	 		   0,			1402, 3, 135
 	rwy3,		16,		N47.4756, E8.53595,	155.0,			12139,		  0,	 		1541,			1390, 3, 154
 ##	identifier, name,	position,			true_heading,	<length>,	<displaced>,	<displaced2>,	<elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>
+
+airlines =
+   swr, 10, a320/a321/bcs1/bcs3/a333/a343/b77w/a20n, swiss
+   edw, 6, a320, edelweiss
+   oaw, 5, e190, helvetica
+   tap, 3, a320, airportugal
+   klm, 1, b738, klm
+   vue, 2, a320/a321, vueling
+   aza, 1, e175, alitalia
+   sxs, 1, b738, sunexpress
+   aee, 1, a320, aegean
+   aua, 2, e195, austrian
+   ctn, 1, dh8d, croatian
+   amc, 1, a320, airmalta
+   ual, 1, b78x/b77w/b789, united
+   qtr, 1, a359, qatari
+   dlh, 2, crj9/a20n, lufthansa
+   ice, 1, b752, icelandic
+   tur, 1, a33x, turkish
+   aer, 1, a320, aeroflot
+   sin, 1, a359, singapore
+   baw, 1, a20n, speedbird
 
 ##############################################################
 [area1]
