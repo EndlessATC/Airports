@@ -1,0 +1,139 @@
+[airspace]
+radius = 30
+zoom = 7.0 ; To check
+elevation = 1998
+floor = 3000 ; CTR 1000ft above ground, so the Approach controller can only do minimum 2998ft, rounded to 3000ft.
+descendaltitude = 14000
+ceiling = 18000
+above = 19000 ; Alpha airspace ends at FL195 so 19000ft is technically the highest round number the Approach controller can go.
+transition = 13001
+speedrestriction = 25,	220 ; This may be innacurate. Should be double-checked.
+usa = false
+metric = false
+separation = 3
+center = N40.471926, W3.56264
+magneticvar = -1.537
+
+
+beacons =
+	BRA, N40.46910, W3.55754, 0, Barajas
+	BJ, N40.44690, W3.56255, 0, Barajas
+	AA, N40.44820, W3.53881, 0, Madrid
+	SSY, N40.54640, W3.57519, 0, S.S.rRyes
+	RS, N40.38940, W3.56226, 0, Barajas
+	MA, N40.40080, W3.49064, 0, Madrid
+	TJZ, N40.49890, W3.44549, 0, Torrejon
+	ACD, N40.58570, W3.67651, 0, Alcobendas
+	VJZ, N40.56410, W3.36033, 0, Torrejon
+	TJA, N40.56810, W3.35729, 0, Torrejon
+	CVT, N40.36780, W3.77341, 0, Cuatro Vientos
+	CNR, N40.64600, W3.73584, 0, Colmenar
+	VGE, N40.28920, W3.72710, 0, Getafe
+	VGE, N40.28920, W3.72710, 0, Getafe
+	L, N40.27990, W3.74237, 0, Getafe
+	PDT, N40.25290, W3.34803, 0, Perales
+	ECV, N40.69940, W3.76272, 0, Colmenar
+	GE, N40.19980, W3.84427, 0, Getafe
+	RBO, N40.85390, W3.24663, 0, Robledillo
+	NVS, N40.36870, W4.24942, 0, Navas
+	ARN, N40.96390, W3.12246, 0, Arbancon
+	SIE, N41.15170, W3.60467, 0, Somosierra
+	TOB, N39.78320, W3.47539, 0, Villatobas
+	VTB, N39.78080, W3.46403, 0, Villatobas
+	TLD, N39.96950, W4.33747, 0, Toledo
+	TEO, N39.97280, W4.34608, 0, Toledo
+	CJN, N40.37200, W2.54461, 0, Castejon
+	CTE, N40.38390, W2.52280, 0, Castejon
+
+line1 =
+	N40.52825, W2.73360
+	N40.72439, W2.57681
+
+line2 =
+	N40.52838, W2.73272
+	N40.27506, W2.96100
+	N40.15621, W3.09993
+	N40.08745, W3.22561
+	N40.04815, W3.38080
+	N40.03828, W3.56549
+	N39.99549, W3.73891
+	N39.91979, W3.90102
+	N39.88108, W4.05905
+	N39.87937, W4.21299
+	N39.83943, W4.31836
+	N39.86692, W4.42792
+	N39.94790, W4.62806
+	N39.98159, W4.75733
+	N39.96790, W4.81564
+	N39.92079, W4.88923
+	N39.84023, W4.97799
+	N39.80300, W5.07098
+
+line3 =
+	N40.74485, W2.06010
+	N40.79741, W2.14428
+	N40.81120, W2.24239
+	N40.72439, W2.57681
+
+[airport1]
+name = Adolfo Suárez Madrid–Barajas
+code = LEMD
+runways =
+	rwy1, 14L, N40.4949, W3.55787, 144.2, 11483, 0, 1640, 1942
+	rwy2, 14R, N40.4849, W3.57601, 144.2, 13084, 0, 3445, 1995
+	rwy3, 18L, N40.5326, W3.55938, 181.0, 11483, 1640, 0, 1919
+	rwy4, 18R, N40.5318, W3.57485, 181.0, 13711, 3232, 0, 1998
+
+climbaltitude = 13000
+
+entrypoints =
+	210,	PDT
+	120,	PDT
+	310,	ECV
+	040,	RBO
+
+airlines =
+	ibe, 20, a319, iberia
+	ibe, 10, a320, iberia
+	ibe, 5, a321, iberia
+	ibe, 10, a20n, iberia
+	ibe, 1, a359, iberia, w
+	ibe, 2, a332, iberia, w
+	ibe, 1, a333, iberia, w
+	vlg, 1, a320, vueling
+	ibx, 10, a320, iberexpress
+	ane, 2, crjx, airnostrum
+	ane, 2, crj9, airnostrum
+	ane, 2, crj2, airnostrum
+	ane, 2, at72, airnostrum
+	aea, 1, at75, europa
+	aea, 17, b738, europa
+	aea, 10, e195, europa
+	ezy, 1, a320, easy
+	ryr, 4, b738, ryanair
+	tap, 1, e190, tapportugal
+	klm, 1, b738, klm, ne
+	afr, 1, a319, france, ne
+	dlh, 1, a321, lufthansa, ne
+	wzz, 1, a321, wizzair, e
+	ldm, 1, a320, laudamotion, ne
+	dal, 1, a333, delta, w
+	aal, 1, b788, american, w
+	thy, 1, a21n, turkey, e
+
+
+[configurations]
+
+# Planes take off 36R and 36L and land 32R and 32L (this is the typical configuration)
+north =
+	0,	rwy1,	landrev
+	0,	rwy4,	startrev
+	9,	rwy2,	landrev
+	9,	rwy3,	startrev,	020
+
+# Planes take off 14R and 14L and land 18R and 18L (this is unlikely and since it is used with winds from the south, it usually means there is a storm)
+south =
+	0,	rwy1,	start
+	0,	rwy4,	land
+	9,	rwy2,	start
+	9,	rwy3,	land
