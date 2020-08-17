@@ -11,6 +11,18 @@ Use a text editor, together with the included example.txt file as a guide, to cr
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
+## Directory/file naming
+1. All files that have been customized should be placed in the final folder.
+2. The directory structure below that follows ISO 3166-3 naming conventions in continent/country
+3. The file should have the four character ICAO code
+4. "Fantasy" or other airports that cannot be placed in this structure should go into final/custom
+For example, Zurich airport is placed in final/EU/CHE/LSZH.txt. Los Angeles is placed in final/US/CA/KLAX.txt
+
+## Extra file information
+It is highly encourage to remove the first seven lines of comments, since we are no longer using an "automatically generated airport file" at this point.
+Is it encouraged to cite any references that you used while creating your file, including the airchart, airliner data, and even airport website.
+If you wish to include personal information (such as your contact information), this is allowed, although not necessary.
+
 ## Credits
 [startgrid](https://startgrid.itch.io/)
 
