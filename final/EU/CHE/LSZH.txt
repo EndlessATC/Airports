@@ -148,7 +148,7 @@ airlines =
    tur, 1, a319/a320/a321/a21n/a332/a333/b738/b739/b773/b789, turkish
    aer, 1, a320/a321/a333/b738/b773, aeroflot
    sin, 1, a333/a388/b744/b773/b78x/a359, singapore
-   baw, 1, a319/a320/a21n/b772/b773/b788/b789/b78xa20n, speedbird
+   baw, 1, a319/a320/a21n/b772/b773/b788/b789/b78x/a20n, speedbird
 
 ##############################################################
 [area1]
@@ -166,7 +166,7 @@ shape = circle		; circle or polygon
 altitude = 5000		; minimum allowed altitude in feet
 radius = 20		; radius of circle in NM
 position = 0, 0	; position of circle center
-labelpos = 14, 0		; <position of label>
+labelpos = 20, 0		; <position of label>
 
 ##############################################################
 [area3]
@@ -175,7 +175,7 @@ shape = circle		; circle or polygon
 altitude = 6000		; minimum allowed altitude in feet
 radius = 30		; radius of circle in NM
 position = 0, 0	; position of circle center
-labelpos = 22, 0		; <position of label>
+labelpos = 30, 0		; <position of label>
 
 
 ##############################################################
