@@ -1,5 +1,14 @@
-
-
+#LSZH V1.2 - Beaso14
+#Updated Runway Configurations
+#Updated Fleet List and Rank using Wikipedia data
+#Updated Fleet Aircraft using data fro, planespotters.net, although didn't find the Swiss aircraft that are 'not within the swiss fleet anymore' - Codelyokp?
+#Fleets are now at a reasonably realistic level imho
+#Changed airport name to "Zurich" as the game seems to use ASCII rather than UNICODE and cannot read the accented "U"
+#Oh - and the ALT restrictions around LSZH are *crazy hard* to do, (many circles and wavy) polygons - I simplified them massively. If somebody wants to spend hours pinpointing Northings and Eastings, be my guest :)
+#SID's have been implemented - (just, haha). Currently only "Direct" style departures seem to be allowed, I have contacted Startgrid about this on Itch.io
+#Expect more complicated and automatic departures in future - fingers crossed.
+#There are still some pronunciation issues with the airline names (and potentially SID names)
+#STAR's. Ah. I'm not sure what to do with Zurich's stars, considering most if not all of them start way beyond the 30NM radius of the airport. (Get to a config where rwy 32 or 34 is in use for landings, and find KELIP to the south. It's a long way away! So either we increase the radius, adding more airports, or simplify the STAR's. Awaiting guidance on that tbh.
 [airspace]
 elevation = 1416
 floor = 3000
@@ -101,7 +110,7 @@ line5 =
 	N48.41002, E7.76514
 
 [airport1]
-name = Zürich Airport
+name = Zurich Airport
 code = LSZH
 runways =
 	rwy1,		10,		N47.4589, E8.53747,	 96.0,			 8202,		  0,	 		   0,			1391, 3,  94
@@ -109,45 +118,124 @@ runways =
 	rwy3,		16,		N47.4756, E8.53595,	155.0,			12139,		  0,	 		1541,			1390, 3, 154
 ##	identifier, name,	position,			true_heading,	<length>,	<displaced>,	<displaced2>,	<elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>
 
+sids = 
+    wil
+    zue
+    deges, N47.248, E9.121, deges
+    gersa, N47.024, E8.319, gersa
+    vevit, N47.161, E8.004, vebit
+    
+
 airlines =
-   swr, 10, a320/a321/bcs1/bcs3/a333/a343/b77w/a20n, swiss
-   edw, 6, a320, edelweiss
-   oaw, 5, e190, helvetica
-   tap, 3, a320, airportugal
-   klm, 1, b738, klm
-   vue, 2, a320/a321, vueling
-   aza, 1, e175, alitalia
-   sxs, 1, b738, sunexpress
-   aee, 1, a320, aegean
-   aua, 2, e195, austrian
-   ctn, 1, dh8d, croatian
+   swr, 10, a320/a321/bcs1/bcs3/a333/a343/b77w/a20n/a21n, swiss
+   edw, 9, a320/a333/a343, edelweiss
+   ezy, 8, a320/a32n/a321, easyjet
+   ewg, 7, a320/a319/a333, eurowings
+   oaw, 5, e190/e195, helvetica
+   tap, 3, a319/a320/a20n/a21n/a321/a332/a339/e190, airportugal
+   vue, 2, a319/a320/a321, vueling
+   aua, 2, a319/a320/a321/b767/dh8d/e190, austrian
+   dlh, 2, a319/a320/a321/a21n/a20n, lufthansa
+   ctn, 1, a319/a320/dh8d, croatian
    amc, 1, a320, airmalta
-   ual, 1, b78x/b77w/b789, united
-   qtr, 1, a359, qatari
-   dlh, 2, crj9/a20n, lufthansa
-   ice, 1, b752, icelandic
-   tur, 1, a33x, turkish
-   aer, 1, a320, aeroflot
-   sin, 1, a359, singapore
-   baw, 1, a20n, speedbird
+   ual, 1, b752/b753/b763/b772/b773/b78x/b789/b788, united
+   qtr, 1, a332/a333/a35k/b748/b772/b773/b788/b789/a359, qatari
+   klm, 1, b738/b739/b737/b772/b773/a332/a333, klm
+   sxs, 1, b738, sunexpress
+   aee, 1, a320/a321, aegean
+   aza, 1, a319/a320/e175, alitalia
+   ice, 1, b752/b763urkish, icelandic
+   tur, 1, a319/a320/a321/a21n/a332/a333/b738/b739/b773/b789, turkish
+   aer, 1, a320/a321/a333/b738/b773, aeroflot
+   sin, 1, a333/a388/b744/b773/b78x/a359, singapore
+   baw, 1, a319/a320/a21n/b772/b773/b788/b789/b78x/a20n, speedbird
 
 ##############################################################
 [area1]
 ##############################################################
 shape = circle		; circle or polygon
-altitude = 4500		; minimum allowed altitude in feet
+altitude = 4000		; minimum allowed altitude in feet
 radius = 10		; radius of circle in NM
 position = 0, 0	; position of circle center
 labelpos = 6, 0		; <position of label>
+
+##############################################################
+[area2]
+##############################################################
+shape = circle		; circle or polygon
+altitude = 5000		; minimum allowed altitude in feet
+radius = 20		; radius of circle in NM
+position = 0, 0	; position of circle center
+labelpos = 20, 0		; <position of label>
+
+##############################################################
+[area3]
+##############################################################
+shape = circle		; circle or polygon
+altitude = 6000		; minimum allowed altitude in feet
+radius = 30		; radius of circle in NM
+position = 0, 0	; position of circle center
+labelpos = 30, 0		; <position of label>
+
+
+##############################################################
+[transition1]
+##############################################################
+
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = kelip,	N46.574, E8.457,	0,	kelip		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	100
+	N46.574, E8.457,	14000,	210
+	N47.042, E8.446,	10000
+	N47.163, E8.427, 	8000,	180
+    N47.199, E8.421, 	7000,	180
+	10.5,	7000,	200
+# first item of the route is the bearing from the plane towards the beacon; if there are multiple routes defined, the closest bearing defines which route is selected.
+# next lines are optional waypoints: ## location, <maximum altitude>, <maximum speed>
+# last line is the interception point on the ILS: ## distance (NM) from the threshold, <maximum altitude>, <maximum speed>
+
+route2 = 
+	240
+	1,	18,	4000
+	-3,	18, 	0,	180
+	10.5,	3000,	200
+
+route3 = 
+	020
+	1,	10
+	1,	18,	4000
+	-3,	18, 	0,	180
+	10.5,	3000,	200
+
+# multiple [transition] sections can be used for the same runway
+
+
+##############################################################
+[planetypes]
+##############################################################
 
 ##############################################################
 [configurations]
 ##############################################################
 config1 =
 	0,	rwy2,	land
-	0,	rwy3,	start
 	8,	rwy3,	startland
-	8,	rwy1,	startland
-	9,	rwy1,	landstartrev
-	9,	rwy2,	land
-	9,	rwy3,	landstart
+	9,	rwy1,	takeoff rev
+	
+config2 =
+	0,	rwy3,	land rev
+	8,	rwy2,	land rev
+	9,	rwy1,	takeoff rev
+	
+config3 =
+    0,	rwy1,	startland rev
+	0,	rwy2,	takeoff 
+	8,	rwy3,	takeoff
+	
+	
+config4 =
+    0,	rwy1,	startland rev
+	0,	rwy2,	takeoff rev
+	8,	rwy3,	takeoff rev
+
