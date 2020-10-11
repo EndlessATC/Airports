@@ -1,0 +1,4418 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+radius = 80
+zoom = 0.8
+elevation = 26
+floor = 1000
+descendaltitude = 14000
+ceiling = 12000
+above = 22000
+transitionalaltitude = 14000
+speedrestriction = 40, 220
+usa = false
+#center = N34.4272994995, E135.244003296
+#center = N34.3572994995, E135.104003296
+center = N34.3572994995, E135
+magneticvar = -7.076
+beacons =
+	KNE, N34.25.48.310, E135.15.06.420, 281, Kahnsai
+#	KN, N34.49510, E135.34500, 0, Kansai
+#	SK, N34.49130, E135.44400, 0, Shinoda
+#	SKE, N34.49190, E135.44800, 0, Shinoda
+	KCE, N34.37.51.580, E135.13.42.450, 0, Koh beh
+#	TOMOH, N034.16.49.600, E135.00.20.300, 0, Tomo
+	YOE, N34.35.54.450, E135.35.37.340, 0, Ya oh
+#	RK, N34.68650, E135.55099, 0, Osaka
+	ITE, N034.48.19.740N, E135.24.13.180, 0, E tah mi
+#	SIE, N34.62840, E135.66200, 0, Shigi
+#	OW, N34.80550, E135.40401, 0, Itami
+#	AJE, N34.27030, E134.71300, 0, Awaji
+#	GBE, N33.91010, E135.10600, 0, Goboh
+	TSC, N34.07.47.000, E134.36.31.000, 80, Tokushima
+#	TS, N34.12810, E134.60600, 0, Tokushima
+#	KJT, N34.00410, E134.62601, 0, Komatsujima
+#	KJ, N33.97690, E134.64900, 0, Komatsujima
+	CUE, N35.01.01.370, E135.49.33.610, -108, Oh tsu
+	NKE, N033.39.40.550, E135.21.33.890, 0, Nahn ki
+#	STE, N34.51240, E134.27400, 0, Shodo
+#	CU, N35.05030, E135.87100, 0, Otsu
+	KEC, N033.26.51.870, E135.47.40.180, 83, Kushimoto
+	KTE, N034.12.44.990, E134.01.21.330, 84, Kagawa
+	YME, N035.28.50.490, E135.08.13.280, 0, Miyazu
+	OYE, N034.45.01.380, E133.50.06.200, 0, Keebee
+	MAYAH, N034.36.23.740, E135.12.11.000, 99, Maya
+	DANDE, N034.13.09.410, E135.24.33.940, -269, Dandy
+	BERTH, N034.09.11.440, E134.19.00.010, 102, Berth
+	BECKY, N033.55.09.010, E134.30.30.630, 57, Becky
+	CANDY, N033.52.29.810, E134.55.41.780, -320, Kandy
+	DATIS, N033.58.51.960, E134.56.13.140, -305, Datis
+	LILAC, N034.27.10.730, E134.58.42.010, 57, Lilac
+	AKASI, N034.35.22.660, E134.45.18.060, 92, Akashi
+	ALISA, N034.30.42.630, E134.08.04.100, 142, Alisa
+	SINGU, N034.21.03.900, E136.07.54.730, 84, Singoo
+#	ALLAN, N034.14.04.140, E134.57.28.300, 58, Allan
+#	BERRY, N034.15.01.960, E134.56.31.590, 58, Berry
+	TRACY, N034.39.49.270, E134.45.47.820, -127, Tracy
+	KODAI, N034.28.55.560, E136.05.45.830, 0, Kohdahye
+	IZUMI, N034.26.28.540, E135.25.31.280, 49, E Zumi
+	KAINA, N034.13.06.520, E135.14.34.710, 45, Kai Na
+	ROKKO, N035.07.00.560, E135.18.00.920, 0, Rokko
+	KAMEO, N034.57.02.660, E135.28.04.220, -171, Kameh Oh
+	MIRAI, N034.32.12.640, E135.53.58.140, -265, Mirai
+#	HABIK, N034.32.46.790, E135.39.14.170, 0, Habick
+#	ABENO, N034.35.32.430, E135.41.55.570, 0, Abeno
+#	OTABE, N034.39.28.940, E135.45.39.820, 0, Ohtabe
+	KAKEF, N034.13.45.900, E134.34.26.400, 0, Kakef
+	GATES, N034.08.21.380, E134.49.02.570, 58, Gates
+	SANDA, N034.55.50.200, E135.21.43.920, 172, Sanda
+
+line1 =
+	N34.78955, E136.57695
+	N34.67837, E136.53301
+	N34.58906, E136.61582
+
+line2 =
+	N34.25771, E136.54443
+	N34.17686, E136.32988
+	N34.09487, E136.26787
+	N33.77822, E136.07256
+	N33.56172, E135.91621
+	N33.48696, E135.69531
+	N33.55337, E135.45283
+	N33.62876, E135.39424
+	N33.72197, E135.34678
+	N33.80625, E135.25664
+	N33.89805, E135.17539
+	N34.00698, E135.12793
+	N34.18262, E135.13535
+	N34.28838, E135.10010
+	N34.31655, E135.13193
+	N34.38081, E135.26562
+	N34.41680, E135.30928
+	N34.50044, E135.38477
+	N34.54697, E135.41182
+	N34.61748, E135.41592
+	N34.65430, E135.35518
+	N34.65293, E135.19824
+	N34.63101, E135.04170
+	N34.66182, E134.92988
+	N34.74707, E134.78496
+	N34.76523, E134.74004
+	N34.77061, E134.58379
+	N34.75479, E134.47227
+	N34.72368, E134.36270
+	N34.71387, E134.24688
+	N34.69766, E134.20830
+	N34.59312, E134.07451
+	N34.52729, E133.96826
+	N34.49463, E133.87637
+	N34.48589, E133.67793
+	N34.46470, E133.57861
+	N34.43013, E133.47441
+	N34.43315, E133.44531
+	N34.38535, E133.33564
+	N34.34399, E133.20977
+	N34.30244, E133.14238
+	N34.32959, E133.01895
+	N34.25522, E132.77461
+	N34.24609, E132.65654
+
+line3 =
+	N33.92773, E134.69531
+	N33.98262, E134.65537
+	N34.04395, E134.63525
+	N34.22661, E134.63750
+	N34.21475, E134.49570
+	N34.25635, E134.35742
+	N34.31904, E134.21924
+	N34.35840, E134.07588
+	N34.34805, E133.94834
+	N34.30684, E133.82559
+	N34.23735, E133.70625
+	N34.23286, E133.65557
+	N34.24385, E133.60264
+	N34.13467, E133.64346
+	N34.06938, E133.62676
+	N34.01714, E133.58203
+	N33.97280, E133.47207
+	N33.97705, E133.34980
+	N33.96899, E133.29883
+	N33.93320, E133.19307
+	N33.92729, E133.13369
+	N33.99712, E133.05127
+	N34.08813, E132.99014
+	N34.09531, E132.93516
+	N34.02124, E132.83945
+	N33.99243, E132.78428
+	N33.90615, E132.75234
+	N33.85225, E132.71621
+	N33.79092, E132.69893
+	N33.68994, E132.64307
+
+line4 =
+	N33.24961, E133.23994
+	N33.35996, E133.28594
+	N33.51099, E133.63203
+	N33.51631, E133.68564
+	N33.49268, E133.85400
+	N33.44834, E133.95869
+	N33.28677, E134.12412
+	N33.24722, E134.18164
+	N33.34697, E134.20566
+	N33.43945, E134.24268
+	N33.52681, E134.30654
+	N33.60840, E134.37705
+	N33.72930, E134.54873
+	N33.82051, E134.73887
+	N33.84780, E134.67480
+	N33.92773, E134.69531
+
+line5 =
+	N34.51924, E134.18213
+	N34.49634, E134.18828
+	N34.46704, E134.23809
+	N34.42305, E134.25186
+	N34.46895, E134.31533
+	N34.46377, E134.33320
+	N34.48364, E134.35186
+	N34.52236, E134.37227
+	N34.53437, E134.32598
+	N34.51924, E134.18213
+
+line6 =
+	N34.47266, E134.83428
+	N34.36816, E134.75723
+	N34.29414, E134.66787
+	N34.24697, E134.68350
+	N34.20889, E134.73066
+	N34.20293, E134.82441
+	N34.28813, E134.93281
+	N34.39829, E134.90547
+	N34.54404, E135.00469
+	N34.54492, E134.96074
+	N34.51909, E134.90410
+	N34.47266, E134.83428
+
+boundary = 
+#1
+#	N035.03.15.000, E134.00.05.000
+#N034.40.17.000, E134.00.54.000 23NM arc
+#N034.40.17.000, E134.00.54.000 23NM arc end
+#4
+	N034.59.37.000, E134.16.03.000
+#11
+	N035.05.46.000, E134.48.08.000
+#***extension of ACA for gameplay purposes (arrivals via Y38/Y384/V55/RJBT ROKKO)
+#*****start
+#ITE R332 35DME
+	N035.19.11.000, E135.04.06.000
+#10
+#	N035.11.08.000, E135.18.58.000
+#ITE R012 35DME
+	N035.22.32.000, E135.33.08.000
+#1/4 distance from 10 to 14
+	N035.09.38.000, E135.26.37.000
+#*****end ACA extension
+#14 (CBE ~R286 50DME)
+	N035.05.05.000, E135.49.31.000
+#*****CBE 50DME arc start
+#R281
+	N035.00.46.000, E135.48.18.000
+#*****CBE 50DME arc end
+#13 (CBE ~R276 50DME))
+	N034.56.33.000, E135.47.35.000
+#33
+	N034.40.19.000, E136.07.39.000
+#***extension of ACA for gameplay purposes (arrivals via Y544 SINGU/Y546 KODAI)
+#*****start
+#midpoint 33~37 (KNE ~R078 49DME)
+	N034.35.40.000, E136.13.22.000
+#KNE R078 60DME
+	N034.37.56.000, E136.26.26.000
+#37 (R111)
+#	N034.31.00.000, E136.19.05.000
+#*****N034.48.20.000 E135.24.13.000 (~ITE) 48NM arc
+#R116
+#	N034.27.07.000, E136.16.30.000
+#R122
+#	N034.22.45.000, E136.13.30.000
+#R128
+#	N034.18.40.000, E136.09.59.000
+#*****N034.48.20.000 E135.24.13.000 (~ITE) 48NM arc end\
+#KNE R095 60DME
+	N034.20.13.000, E136.27.30.000
+#*****end ACA extension
+#36 (R133)
+	N034.14.57.000, E136.06.47.000
+#35
+	N034.09.13.000, E135.52.46.000
+#34
+	N033.53.10.000, E135.16.14.000
+#52 (NKE ~R332 14DME)
+	N033.52.03.000, E135.13.43.000
+#*****NKE 14DME arc start
+#R326
+	N033.51.16.000, E135.12.09.000
+#R321
+	N033.50.32.000, E135.10.58.000
+#R316
+	N033.49.44.000, E135.09.52.000
+#R311
+	N033.48.51.000, E135.08.51.000
+#R306
+	N033.47.53.000, E135.07.57.000
+#R301
+	N033.46.52.000, E135.07.08.000
+#R296
+	N033.45.48.000, E135.06.26.000
+#R290
+	N033.44.27.000, E135.05.45.000
+#R285
+	N033.43.17.000, E135.05.19.000
+#*****NKE 14DME arc end
+#51 (NKE ~R279 14DME)
+	N033.42.04.000, E135.05.00.000
+#57
+	N033.35.00.000, E135.05.00.000
+#30
+	N033.36.07.000, E134.40.43.000
+#28
+	N033.37.02.000, E134.19.00.000
+#29 (KNE ~R226 70DME)
+	N033.37.14.000, E134.14.22.000
+#*****KNE 70DME arc start
+#R230
+	N033.40.34.000, E134.10.43.000
+#R235
+	N033.45.22.000, E134.06.11.000
+#R240
+	N033.50.28.000, E134.02.10.000
+#R245
+	N033.55.51.000, E133.58.42.000
+#R250
+	N034.01.27.000, E133.55.48.000
+#R255
+	N034.07.15.000, E133.53.29.000
+#19
+	N034.07.20.000, E133.53.27.000
+#***extension of ACA for gameplay purposes (arrivals via KTE)
+#*****start
+#15
+	N034.09.44.000, E133.22.57.000
+#22
+	N034.21.47.000, E133.27.38.000
+#41 (KNE ~R261 70DME)
+#	N034.14.38.000, E133.51.29.000
+#R266
+#	N034.20.26.000, E133.50.35.000
+#R272
+#	N034.27.46.000, E133.50.19.000
+#R277
+#	N034.33.51.000, E133.50.47.000
+#7
+	N034.36.03.000, E133.33.24.000
+#*****end ACA extension
+#8 (KNE ~R283 70DME)
+	N034.41.57.000, E133.52.27.000
+#R287
+	N034.45.48.000, E133.53.40.000
+#R291
+	N034.50.27.000, E133.55.32.000
+#*****KNE 70DME arc end
+#9 (KNE ~R295 70DME)
+	N034.56.03.000, E133.58.24.000
+#26
+#	N033.34.46.000, E134.38.38.000
+#25
+#	N033.25.35.000, E134.21.55.000
+
+[airport1]
+name = Kansai International Airport
+code = RJBB
+runways =
+	rwy1, 24L, N034.26.14.040, E135.15.31.920, 231.0, 11483, 0, 0, 123
+	rwy2, 24R, N034.27.04.580, E135.14.24.080, 231.0, 13123, 0, 0, 123
+
+climbaltitude = 3000
+
+sids = 
+#SUSAN1.YOSAK/KITAN1.YOSAK
+	YOSAK, N033.47.04.710, E134.06.38.390, Yosak
+#SUSAN1.KEC/KITAN1.KEC
+	KEC
+#KNE1.SHTLE
+	SHTLE, N034.49.50.950, E136.56.53.840, Shuttle
+#KNE1.UENOH
+	UENOH, N034.50.08.700, E136.13.33.700, Uenoh
+#NANKO1.SIGAK/NANKO1.KCC
+	SIGAK, N034.53.07.700, E136.02.52.700, Sigak
+#HELEN1.SOUJA/IWAYA1.SOUJA
+	SOUJA, N034.37.38.640, E133.34.42.200, Souja
+#HELEN1.WASYU/IWAYA1.WASYU
+	WASYU, N034.28.17.500, E133.23.01.140, Wahshu
+#HELEN1.HABAR/IWAYA1.HABAR
+	HABAR, N034.19.09.740, E133.35.19.620, Habar
+#HELEN1.YME/IWAYA1.YME
+	CHIZU, N035.01.46.16, E134.30.25.370, Cheezu
+#DAISY1 GLORY Y34
+	POPPY, N033.49.05.070, E133.49.15.330, Poppy
+
+entrypoints = 
+#Y36 ALISA
+	312, ALISA
+#Y35 BERTH
+	257, BERTH
+#	257, BERTH
+#Y53 BECKY
+	222, BECKY
+#	222, BECKY
+#Y46 CANDY
+	162, CANDY
+#Y544 SINGU
+	87, SINGU
+	87, SINGU
+	87, SINGU
+	87, SINGU
+	87, SINGU
+
+airlines = 
+	jal, 10, b738/b763/b77l/b77w/b788/b789/a359, japan air, we
+	jal, 7, b738/b763/b77l/b77w/b788/b789/a359, japan air, ns
+	ana, 10, a320/a20n/a321/a21n/b737/b738/b763/b77w/b788/b789/b78x, all nippon, nswe
+	ana, 7, a320/a20n/a321/a21n/b737/b738/b763/b77w/b788/b789/b78x, all nippon, ns
+	jyh, 1, b738, trans jade, w
+	xax, 2, a333, xanadu, se
+	abl, 2, a320/a321, air busan, n
+	aci, 1, a339, air calin, s
+	cca, 3, a320/a20n/a321/a21n/a332/a359/b738/b772, air china, nw
+	aar, 3, a320/a321/a21n/a333/a359, asiana, n
+	cbj, 1, a320/a20n/a321/a21n/a332, capital jet, n
+	cpa, 3, a333/a359/a35k/b773/b77w, cathay, s
+	apj, 7, a320, air peach, nswe
+	sfj, 4, a320, star flyer, e
+	jta, 2, b738, jai ocean, s
+	cal, 3, a333/a359/b77w, dynasty, s
+	ceb, 1, a320/a20n/a321/a333, cebu air, s
+	ces, 3, a319/a320/a321/b737/b738/a332/a333, china eastern, nw
+	csn, 3, a319/a320/a20n/a321/a21n/a332/a333/a359/b737/b738/a388, china southern, nw
+	cua, 1, b737, lianhang, w
+	dal, 1, b763, delta, e
+	esr, 1, b738, eastar jet, n
+	uae, 1, b77w, emirates, w
+	eva, 3, b78x, eva, s
+	fin, 1, a359, finn air, n
+	gia, 2, a333/a339, indonesia, s
+	chh, 2, b738, hainan, wn
+	hal, 1, a332, hawaiian, e
+	hbh, 1, b738, hebei air, n
+	hke, 1, a320/a20n, hong kong shuttle, s
+	crk, 1, a332, bauhinia, s
+	jja, 2, b738, jeju air, ns
+	jst, 1, a332, jetstar, s
+	jsa, 1, a320, jetstar asia, s
+	jjp, 5, a320, orange liner, ensw
+	jna, 2, b738, jin air, n
+	dkh, 2, a320/a20n/a321, air juneyao, w
+	klm, 1, b789, k l m, n
+	kal, 3, a332/a333/b738/b748/b77w, korean air, n
+	cdc, 1, a320/a20n, loong air, w
+	dlh, 1, a359, lufthansa, n
+	mas, 1, a388/a332/a359, malaysian, s
+	mgl, 1, b738, mongol air, n
+	oka, 2, b738, okay jet, nw
+	pal, 1, a321/a333, philippine, s
+	apg, 1, a320, cool red, s
+	qfa, 1, a332, kwon tas, s
+	tgw, 1, a320/b788/b789, scooter, s
+	cdg, 1, b738, shandong, n
+	csh, 1, a333/b738, shanghai air, w
+	csz, 2, a320, shenzhen air, s
+	csc, 2, a319/a320/a20n/a321/a21n, sichuan, w
+	sia, 1, a359/a388/b78x, singapore, s
+	cqh, 2, a320, air spring, nw
+	tax, 1, a333/a339, express wing, s
+	tha, 1, a359/a388/b744, thai, s
+	tlm, 1, a333/a339/b738, mentari, s
+	gcr, 1, a320/a321/a332/a333, bohai, n
+	ttw, 1, a320, smart cat, s
+	thy, 1, a332/a333, turkish, n
+	twb, 1, b738, teeway, n
+	ual, 1, b788, united, es
+	vjc, 1, a320/a321/a21n, viet jet air, w
+	hvn, 1, a359/b789, viet nam airlines, w
+	chb, 1, a320, west china, w
+	cxa, 1, b737/b738, xiamen air, w
+#cargo
+	cao, 1, b77l, air china freight, n
+	ana, 2, b763/b77l
+	aar, 1, b744, asiana, n
+	icv, 1, b744, cargolux italia, n
+	cpa, 1, b744/b748, cathay, s
+	cal, 1, b744, dynasty, s
+	ckk, 1, b744/b77l, cargo king, w
+	cyz, 1, b733/b734, china post, w
+	ahk, 1, a306, air hong kong, s
+	eva, 1, b77l, eva, s
+	fdx, 4, b77l/md11/b763, fedex, eswn
+	kal, 1, b744/b748/b77l, korean air, n
+	gec, 1, b77l/md11, lufthansa cargo, n
+	nca, 1, b744/b748, nippon cargo, se
+	qtr, 1, b77l, qatari, sw
+	csc, 1, a332, sichuan, w
+	azg, 1, b744/b748, silk west, n
+	yzr, 1, b733/b734/b744, yangtze river, w
+	ups, 3, b744/b748/b763/md11, u p s, ew
+#ga
+	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+
+[airport2]
+name = Kobe Airport
+code = BE
+runways =
+	rwy3, 27, N034.38.01.530, E135.14.14.840, 264.61, 8202, 0, 0, 27
+traffic = 15
+inboundbeacon = TSC
+
+entrypoints = 
+#Y35 BERTH
+	257
+#Y53 BECKY
+	222
+#Y382 WAKIT Y201 TRACY
+	10
+#Y20 WAKIT Y201 TRACY
+	30
+
+climbaltitude = 1500
+
+sids = 
+#KCE1.SOUJA
+	SOUJA, N034.37.38.640, E133.34.42.200, Souja
+#KCE1.WASYU
+	WASYU, N034.28.17.500, E133.23.01.140, Wahshu
+#KCE1.SHTLE
+	SHTLE, N034.49.50.950, E136.56.53.840, Shuttle
+#KCE1.CUE
+	CUE
+#KCE1.ASAGI
+	ASAGI, N035.02.37.240, E134.45.02.370, Ahsahgi
+#KCE1.WENDY Y34
+	POPPY, N033.49.05.070, E133.49.15.330, Poppy
+
+airlines = 
+	ana, 2, a320/a20n/b737/b738/b763, all neeppon, ne
+	ana, 5, a320/a20n/b737/b738/b763, all neeppon, ne
+	ado, 2, b737/b763, air do, e
+	ado, 1, b737/b763, air do, n
+	fda, 3, e170/e175, fuji dream, wns
+	sky, 3, b738, skymark, wesn
+	snj, 1, b738, new sky, s
+#ga
+	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-123a, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-12ab, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-1234, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+
+[airport3]
+name = Osaka International Airport
+code = OO
+runways =
+	rwy4, 32L, N034.46.19.920, E135.27.06.760, 315.0, 9843, 0, 0, 46
+	rwy5, 32R, N034.47.01.020, E135.26.34.110, 315.0, 6000, 0, 0, 50
+traffic = 4
+inboundbeacon = IZUMI
+
+entrypoints =
+#Y546 KODAI
+	86
+	86
+	86
+	86
+	86
+	86
+	86
+#Y753 IZUMI/Y403 KAINA Y753 IZUMI
+	198
+#Y53 BECKY Y401 KAINA Y753 IZUMI
+	222
+#Y231 MIRIO Y401 KAINA Y753 IZUMI
+	233
+#Y401 KAINA Y753 IZUMI
+#	249
+	247
+#Y38 ROKKO
+	355
+#Y384 ROKKO
+	15
+
+climbaltitude = 6000
+
+sids = 
+#ASUKA4.SHTLE
+	SHTLE, N034.49.50.950, E136.56.53.840, Shuttle
+#CUE5
+	CUE
+#MINAC4
+	MINAC, N034.55.26.280, E136.10.26.370, Minack
+#TIGER2.AWAJI Y232
+	SUNNY, N033.55.13.460, E134.12.47.540, Sunny
+#TIGER2.AYAME Y282
+	POPPY, N033.49.05.070, E133.49.15.330, Poppy
+#TIGER2.SOUJA
+	SOUJA, N034.37.38.640, E133.34.42.200, Souja
+#TIGER2.WASYU
+	WASYU, N034.28.17.500, E133.23.01.140, Wahshu
+
+airlines = 
+	jal, 10, b763/b772/b773/b788/b789/a359, japan air, e
+	jal, 10, b763/b772/b773/b788/b789/a359, japan air, e
+	jal, 10, b763/b772/b773/b788/b789/a359, japan air, e
+	jal, 9, b738/b763/b772/b773/b788/b789/a359, japan air, nswe
+	jal, 9, b738/b763/b772/b773/b788/b789/a359, japan air, nswe
+	jal, 9, b738/b763/b772/b773/b788/b789/a359, japan air, nswe
+#jlj
+	jal, 6, e170/e190, japan air, nwe
+	jal, 6, e170/e190, japan air, nwe
+	jal, 6, e170/e190, japan air, nwe
+	ana, 10, b763/b772/b773/b788/b789, all neeppon, e
+	ana, 10, b763/b772/b773/b788/b789, all neeppon, e
+	ana, 10, b763/b772/b773/b788/b789, all neeppon, e
+	ana, 8, a320/a20n/a321/a21n/b737/b738/b763/b772/b773/b788/b789, all neeppon, nswe
+	ana, 8, a320/a20n/a321/a21n/b737/b738/b763/b772/b773/b788/b789, all neeppon, nswe
+	ana, 8, a320/a20n/a321/a21n/b737/b738/b763/b772/b773/b788/b789, all neeppon, nswe
+	akx, 5, dh8d, alfa wing, nwse
+	akx, 5, dh8d, alfa wing, nwse
+	akx, 5, dh8d, alfa wing, nwse
+	ibx, 3, crj7, ibex, wne
+	ibx, 3, crj7, ibex, wne
+	ibx, 3, crj7, ibex, wne
+	ahx, 1, at46, amakusa air, w
+	ahx, 1, at46, amakusa air, w
+	ahx, 1, at46, amakusa air, w
+	jac, 1, at46/at76, commuter, s
+	jac, 1, at46/at76, commuter, s
+	jac, 1, at46/at76, commuter, s
+	jf-1, 1, b77w, japan air force, nswe
+	cygns-1, 1, b77w, sig nus, nswe
+
+[airport4]
+name = Tokushima Airport
+code = OS
+runways = 
+	rwy6, 29, N34.07.48.000, E134.37.21.000, 282.53, 8202, 0, 0, 6
+traffic = 30
+inboundbeacon = TSC
+
+entrypoints = 
+#Y35 BERTH TSC
+	257
+#Y544 SINGU Y542 DATIS
+	85
+##V37 TOSAR TSC
+#	216
+#KEC JOSIN TSC
+	175
+
+climbaltitude = 3000
+
+sids = 
+#HONMA1.KILAP
+	KILAP, N033.38.03.790, E136.45.35.280, Kilap
+#TSC KTE UTAZU WASYU
+	WASYU, N034.28.17.500, E133.23.01.140, Wahshu
+##TOSAR4
+#	TOSAR, N033.30.02.090, E134.35.55.240, Tosar
+#MISAKI1.KEC
+	KEC
+
+airlines = 
+	jal, 5, b738, japan air, e
+	jal, 1, e170, japan air, w
+	ana, 5, a320/a20n/a321/a21n/b737/b738, all neeppon, e
+	focus-1, 1, be9l, focus, s
+	king-1, 10, be9l, king, s
+	king-12, 3, be9l, king, s
+#	cupid-1, 1, lj35, cupid, nswe
+#	ascot-1, 1, h25b, ascot, nswe
+#ga
+	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-123a, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-12ab, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-1234, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+
+
+[airport5]
+name = Takamatsu Airport
+code = OT
+runways = 
+	rwy7, 26, N034.13.02.520, E134.01.43.450, 252.9, 8202, 0, 0, 583
+traffic = 30
+inboundbeacon = KTE
+
+entrypoints = 
+#Y20 WAKIT Y203 WIMPY
+	30
+#Y283 KINOE Y288 TAKMA KTE
+	264
+#Y39 OYE KTE
+	302
+
+climbaltitude = 3000
+
+sids = 
+#OLIVE1.SHTLE
+	SHTLE, N034.49.50.950, E136.56.53.840, Shuttle
+#WASYU
+	WASYU, N034.28.17.500, E133.23.01.140, Wahshu
+
+airlines = 
+	jal, 7, b738, japan air, e
+	jjp, 3, a320, orange liner, e
+	ana, 5, a320/a20n/b737/b738, all neeppon, e
+	akx, 1, a320/a20n/b737/b738, alfa wing, w
+	akx, 1, a320/a20n/b737/b738, alfa wing, e
+	hke, 1, a320/a20n, hong kong shuttle, w
+	cqh, 1, a320, air spring, s
+	cal, 1, b738, dynasty, s
+	asv, 1, a320, air seoul, n
+#ga
+	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-123a, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-12ab, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-1234, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+
+
+#[airport6]
+#name = Yao Airport
+#code = OY
+#runways = 
+#	rwy8, 27, N034.35.47.000, E135.36.20.140, 270, 4888, 0, 0, 38
+#	rwy9, 31, N034.13.02.520, E134.01.43.450, 310, 3937, 0, 0, 39
+#traffic = 20
+#inboundbeacon = YOE
+#
+#entrypoints = 
+##V55 ROKKO V55 IZUMI
+#	0
+##CUE V28 SANDA V55 IZUMI
+#	45
+#KEC V55 IZUMI
+#	148
+##OYE V28 SANDA V55 IZUMI
+#	290
+##KTE KULUL TSC MIKAN IZUMI
+#	266
+#
+#climbaltitude = 3000
+#
+#sids = 
+##OLIVE1.SHTLE
+#	SHTLE, N034.49.50.950, E136.56.53.840, Shuttle
+##WASYU
+#	WASYU, N034.28.17.500, E133.23.01.140, Wahshu
+#
+#airlines = 
+#	ja-123a, 1, sr22/p32r/p28s/be36/t206/da40/pa46/c172/c208/c25m/c525/c25a/kodi/hdjt, 0, nswe
+#	ja-12ab, 1, sr22/p32r/p28s/be36/t206/da40/pa46/c172/c208/c25m/c525/c25a/kodi/hdjt, 0, nswe
+#	ja-1234, 1, sr22/p32r/p28s/be36/t206/da40/pa46/c172/c208/c25m/c525/c25a/kodi/hdjt, 0, nswe
+
+#KANSAI CTR
+[area1]
+shape = circle
+altitude = 3001
+radius = 5
+position = N034.26.03.000, E135.13.58.000
+labelpos = N034.23.33.000, E135.16.28.000
+
+#KANSAI PCA SOUTH 4000/700
+[area2]
+shape = polygon
+altitude = 4001
+draw = 1
+labelpos = N034.22.23.000, E135.08.50.000
+points = 
+	N034.25.20.000, E135.07.58.000
+	N034.23.47.000, E135.05.38.000
+	N034.19.43.000, E135.09.38.000
+	N034.21.19.000, E135.12.02.000
+
+#KANSAI PCA SOUTH 5000/1000
+[area3]
+shape = polygon
+altitude = 5001
+draw = 1
+labelpos = N034.21.07.000, E135.06.41.500
+points = 
+	N034.23.47.000, E135.05.38.000
+	N034.22.31.000, E135.03.45.000
+	N034.18.27.000, E135.07.45.000
+	N034.19.43.000, E135.09.38.000
+
+#KANSAI PCA SOUTH 7000/1500
+[area4]
+shape = polygon
+altitude = 7001
+draw = 1
+labelpos = N034.19.42.000, E135.04.35.000
+points = 
+	N034.22.31.000, E135.03.45.000
+	N034.20.57.000, E135.01.25.000
+	N034.16.53.000, E135.05.24.000
+	N034.18.27.000, E135.07.45.000
+
+#KANSAI PCA SOUTH 7000/2000
+[area5]
+shape = polygon
+altitude = 7001
+draw = 1
+labelpos = N034.17.53.000, E135.01.52.000
+points = 
+	N034.20.57.000, E135.01.25.000
+	N034.18.53.000, E134.58.20.000
+	N034.14.49.000, E135.02.19.000
+	N034.16.53.000, E135.05.24.000
+
+#KANSAI PCA NORTH 3000/700
+[area6]
+shape = polygon
+altitude = 3001
+draw = 1
+labelpos = N034.29.55.000, E135.20.10.000
+points = 
+	N034.26.37.000, E135.19.59.000
+	N034.28.29.000, E135.22.45.000
+	N034.31.47.000, E135.24.17.000
+	N034.33.13.000, E135.19.45.000
+	N034.30.44.000, E135.16.03.000
+
+#KANSAI PCA NORTH 4000/1000
+[area7]
+shape = polygon
+altitude = 4001
+draw = 1
+labelpos = N034.33.01.000, E135.22.34.500
+points = 
+	N034.33.13.000, E135.19.45.000
+	N034.34.15.000, E135.20.14.000
+	N034.34.08.000, E135.25.24.000
+	N034.31.47.000, E135.24.17.000
+
+#KANSAI PCA NORTH 5000/1500 (NE sector)
+[area8]
+shape = polygon
+altitude = -1
+draw = 1
+#labelpos = N034.36.11.500, E135.22.44.000
+points = 
+	N034.34.15.000, E135.20.14.000
+	N034.34.08.000, E135.25.24.000
+	N034.35.20.000, E135.25.58.000
+	N034.38.09.000, E135.24.33.000
+	N034.38.15.000, E135.19.30.000
+
+#KANSAI PCA NORTH 5000/1500 (SW sector, NE quad)
+[area9]
+shape = polygon
+altitude = 5001
+draw = 2
+labelpos = N034.32.29.500, E135.16.07.500
+points = 
+	N034.34.15.000, E135.20.14.000
+	N034.33.13.000, E135.19.45.000
+	N034.30.44.000, E135.16.03.000
+	N034.33.06.000, E135.12.06.000
+
+#KANSAI PCA NORTH 5000/1500 (SW sector, SW tri)
+[area10]
+shape = polygon
+altitude = 5001
+draw = 2
+#labelpos = 
+points = 
+	N034.30.47.000, E135.12.01.000
+	N034.33.06.000, E135.12.06.000
+	N034.30.44.000, E135.16.03.000
+
+#KANSAI PCA NORTH 5000/2500 (roughly)
+[area11]
+shape = polygon
+altitude = -1
+draw = 2
+#labelpos = N034.35.45.000, E135.15.48.000
+points = 
+	N034.33.06.000, E135.12.06.000
+	N034.38.24.000, E135.12.15.000
+	N034.38.15.000, E135.19.30.000
+	N034.34.15.000, E135.20.14.000
+
+#KANSAI PCA NORTH 5000/2500 (5NM arc between 
+#	N034.33.06.000, E135.12.06.000
+#	N034.38.15.000, E135.19.30.000)
+#[area14]
+#shape = circle
+#altitude = -1
+#radius = 5
+#position = N034.37.58.000, E135.13.26.000
+#labelpos = N034.40.58.000, E135.13.26.000
+#draw = 
+
+#KOBE CTR
+[area12]
+shape = circle
+altitude = 2001
+name = BE
+radius = 5
+position = N034.37.58.000, E135.13.26.000
+labelpos = N034.40.58.000, E135.13.26.000
+
+#KOBE PCA 4000/800
+[area13]
+shape = polygon
+altitude = 4001
+name = BE
+draw = 1
+labelpos = N034.37.19.500, E135.06.29.500
+points = 
+	N034.39.31.000, E135.07.40.000
+	N034.39.18.000, E135.04.45.000
+	N034.35.08.000, E135.05.15.000
+	N034.35.23.000, E135.08.14.000
+
+#KOBE PCA 5000/1200
+[area14]
+shape = polygon
+altitude = 5001
+name = BE
+draw = 1
+labelpos = N034.37.03.500, E135.03.11.000
+points = 
+	N034.39.18.000, E135.04.45.000
+	N034.39.01.000, E135.01.07.000
+	N034.34.49.000, E135.01.37.000
+	N034.35.08.000, E135.05.15.000
+
+#KOBE PCA 5000/1800
+[area15]
+shape = polygon
+altitude = 5001
+name = BE
+draw = 1
+labelpos = N034.36.49.000, E135.00.09.500
+points = 
+	N034.39.01.000, E135.01.07.000
+	N034.38.50.000, E134.58.42.000
+	N034.34.37.000, E134.59.12.000
+	N034.34.49.000, E135.01.37.000
+
+#KOBE PCA 5000/2500 (NE tri)
+[area16]
+shape = polygon
+altitude = 5001
+name = BE
+draw = 2
+labelpos = N034.36.35.000, E134.57.06.500
+points = 
+	N034.38.50.000, E134.58.42.000
+	N034.38.35.000, E134.55.31.000
+	N034.34.37.000, E134.59.12.000
+
+#KOBE PCA 5000/2500 (SE tri)
+[area17]
+shape = polygon
+altitude = 5001
+name = BE
+draw = 2
+#labelpos = N034.36.35.000, E134.57.06.500
+points = 
+	N034.34.20.000, E134.56.00.000
+	N034.34.37.000, E134.59.12.000
+	N034.38.35.000, E134.55.31.000
+
+#KOBE PCA 5000/2500 (KCE 15DME between 
+#	N034.38.35.000, E134.55.31.000
+#	N034.34.20.000, E134.56.00.000)
+[area18]
+shape = circle
+altitude = -1
+radius = 15
+position = N034.37.51.580, E135.13.42.450
+#labelpos = N034.37.51.580, E135.13.42.450
+draw = 2.97, 3.27
+
+#OSAKA CTR
+[area19]
+shape = circle
+altitude = 3001
+name = OO
+radius = 5
+position = N034.47.04.000, E135.26.21.000
+labelpos = N034.44.54.000, E135.23.51.000
+
+#OSAKA PCA 3000/700
+[area20]
+shape = polygon
+altitude = 3001
+name = OO
+draw = 1
+labelpos = N034.42.58.500, E135.31.18.500
+points = 
+	N034.45.19.000, E135.32.03.000
+	N034.43.35.000, E135.34.09.000
+	N034.40.38.000, E135.30.34.000
+	N034.42.23.000, E135.28.28.000
+
+#OSAKA PCA 4000/1100
+[area21]
+shape = polygon
+altitude = 4001
+name = OO
+draw = 1
+labelpos = N034.41.44.000, E135.32.49.000
+points = 
+	N034.43.35.000, E135.34.09.000
+	N034.42.50.000, E135.35.04.000
+	N034.39.53.000, E135.31.28.000
+	N034.40.38.000, E135.30.34.000
+
+#OSAKA PCA 5000/1300
+[area22]
+shape = polygon
+altitude = 5001
+name = OO
+draw = 1
+labelpos = N034.40.02.000, E135.34.25.000
+points = 
+	N034.40.05.000, E135.38.22.000
+	N034.42.50.000, E135.35.04.000
+	N034.39.53.000, E135.31.28.000
+	N034.39.30.000, E135.31.57.000
+	N034.37.14.000, E135.30.28.000
+
+#OSAKA PCA 5000/1300 (4.5NM arc between 
+#	N034.37.14.000, E135.30.28.000
+#	N034.40.05.000, E135.38.22.000)
+[area23]
+shape = circle
+#altitude = 5001
+name = OO
+radius = 4.5
+position = N034.41.12.000, E135.33.04.000
+draw = 4.094, 5.944
+
+#OSAKA PCA 5000/3000 (NE tri)
+[area24]
+shape = polygon
+altitude = 5001
+name = OO
+draw = 2
+labelpos = N034.35.41.000, E135.32.11.000
+points = 
+	N034.36.39.000, E135.42.30.000
+	N034.40.05.000, E135.38.22.000
+	N034.37.14.000, E135.30.28.000
+
+#OSAKA PCA 5000/3000 (SW tri)
+[area25]
+shape = polygon
+altitude = 5001
+name = OO
+draw = 2
+#labelpos = N034.36.41.000, E135.35.11.000
+points = 
+	N034.37.14.000, E135.30.28.000
+	N034.33.17.000, E135.27.52.000
+	N034.36.39.000, E135.42.30.000
+
+#OSAKA PCA 5000/3000 (9NM arc between 
+#	N034.33.17.000, E135.27.52.000
+#	N034.36.39.000, E135.42.30.000)
+[area26]
+shape = circle
+altitude = -1
+radius = 9
+position = N034.41.12.000, E135.33.04.000
+draw = 4.093, 5.643
+
+#TOKUSHIMA CTR
+[area27]
+shape = circle
+altitude = 3001
+name = OS
+radius = 5
+position = N034.07.56.000, E134.36.33.000
+labelpos = N034.10.56.000, E134.36.33.000
+
+#TOKUSHIMA ACA TSC 5.5DME between
+#	N034.05.27.000, E134.42.32.000
+#	N034.13.00.000, E134.38.38.000
+[area28]
+shape = circle
+altitude = 5001
+name = OS
+radius = 5.5
+position = N034.07.47.000, E134.36.31.000
+draw = 5.72, 7.42
+
+#TOKUSHIMA ACA NE 3000 (N)
+[area29]
+shape = polygon
+altitude = 3001
+name = OS
+draw = 2
+labelpos = N033.58.11.500, E134.54.09.500
+points = 
+	N034.13.00.000, E134.38.38.000
+	N034.13.00.000, E134.50.28.000
+	N033.55.51.000, E135.09.41.000
+	N033.46.36.000, E135.05.00.000
+	N034.05.27.000, E134.42.32.000
+
+#TOKUSHIMA ACA NE 3000 (S)
+[area30]
+shape = polygon
+altitude = 3001
+name = OS
+draw = 1
+#labelpos = 
+points = 
+	N033.46.36.000, E135.05.00.000
+	N033.43.23.000, E135.05.00.000
+	N033.58.37.000, E134.38.56.000
+	N034.05.27.000, E134.42.32.000
+
+#TOKUSHIMA ACA NW 5000
+[area31]
+shape = polygon
+altitude = 5001
+name = OS
+draw = 1
+labelpos = N034.05.30.500, E134.26.46.000
+points = 
+	N034.05.27.000, E134.42.32.000
+	N033.58.37.000, E134.38.56.000
+	N033.58.01.000, E134.19.00.000
+	N034.11.36.000, E134.19.00.000
+	N034.13.00.000, E134.19.32.000
+	N034.13.00.000, E134.38.38.000
+
+#TOKUSHIMA ACA S 6000
+[area32]
+shape = polygon
+altitude = 6001
+name = OS
+#draw = 1
+labelpos = N033.46.07.500, E134.42.00.000
+points = 
+	N033.58.37.000, E134.38.56.000
+	N033.58.01.000, E134.19.00.000
+	N033.35.45.000, E134.19.00.000
+	N033.33.38.000, E135.05.00.000
+	N033.43.23.000, E135.05.00.000
+
+#TAKAMATSU CTR
+[area33]
+shape = circle
+altitude = 3001
+name = OT
+radius = 5
+position = N034.12.51.000, E134.00.56.000
+labelpos = N034.16.51.000, E133.56.56.000
+
+#TAKAMATSU PCA 4500/1000
+[area34]
+shape = polygon
+altitude = 4501
+name = OT
+draw = 1
+labelpos = N034.14.59.500, E134.09.22.000
+points = 
+	N034.16.07.000, E134.05.31.000
+	N034.17.42.000, E134.11.47.000
+	N034.13.52.000, E134.13.13.000
+	N034.12.17.000, E134.06.57.000
+
+#TAKAMATSU PCA 4500/2500
+[area35]
+shape = polygon
+altitude = 4501
+name = OT
+draw = 1
+labelpos = N034.16.31.500, E134.15.23.500
+points = 
+	N034.17.42.000, E134.11.47.000
+	N034.19.11.000, E134.17.34.000
+	N034.15.21.000, E134.19.00.000
+	N034.13.52.000, E134.13.13.000
+
+#CHUBU ACA 12000 & 12000/5000
+[area36]
+shape = polygon
+altitude = 12001
+name = GG
+labelpos = N034.26.26.500, E136.17.08.500
+points = 
+#***extension of ACA for gameplay purposes (arrivals) 34 25 48.31 135 15 06.42
+#*****start
+#midpoint 33~37 (KNE ~R078 49DME)
+	N034.35.40.000, E136.13.22.000
+#37 (R111)
+	N034.31.00.000, E136.19.05.000
+#*****N034.48.20.000 E135.24.13.000 (~ITE) 48NM arc
+#R116
+	N034.27.07.000, E136.16.30.000
+#R122
+	N034.22.45.000, E136.13.30.000
+#R128
+	N034.18.40.000, E136.09.59.000
+#*****N034.48.20.000 E135.24.13.000 (~ITE) 48NM arc end
+#*****end ACA extension
+#36 (R133)
+	N034.14.57.000, E136.06.47.000
+#KNE R095 60DME
+	N034.20.13.000, E136.27.30.000
+#KNE R078 60DME
+	N034.37.56.000, E136.26.26.000
+
+#CK13-1
+[area37]
+shape = polygon
+altitude = 2001
+name = CK13-1
+labelpos = N034.38.44.000, E134.49.39.500
+points = 
+	N034.46.28.000, E134.43.00.000
+	N034.40.18.000, E134.55.42.000
+	N034.33.20.000, E134.56.19.000
+	N034.31.00.000, E134.52.28.000
+	N034.31.00.000, E134.43.00.000
+
+#CK13-2
+[area38]
+shape = polygon
+altitude = 3001
+name = CK13-2
+labelpos = N034.36.14.000, E134.38.00.000
+points = 
+	N034.45.42.000, E134.35.00.000
+	N034.46.28.000, E134.43.00.000
+	N034.31.00.000, E134.43.00.000
+	N034.31.00.000, E134.52.28.000
+	N034.26.00.000, E134.47.44.000
+	N034.26.00.000, E134.35.00.000
+
+#CK11-1
+[area39]
+shape = polygon
+altitude = 2501
+name = CK11-1
+labelpos = N034.47.31.500, E135.43.05.000
+points = 
+	N034.55.58.000, E135.46.18.000
+	N034.53.04.000, E135.47.59.000
+	N034.40.51.000, E135.49.08.000
+	N034.40.17.000, E135.48.19.000
+	N034.39.05.000, E135.46.46.000
+	N034.42.44.000, E135.37.43.000
+	N034.48.52.000, E135.39.03.000
+	N034.50.46.000, E135.37.02.000
+
+#CK11-2
+[area40]
+shape = polygon
+altitude = 2501
+name = CK11-2
+#labelpos = 
+points = 
+	N034.40.17.000, E135.48.19.000
+	N034.33.31.000, E135.43.12.000
+	N034.35.42.000, E135.42.24.000
+	N034.39.05.000, E135.46.46.000
+
+#CK11-3
+[area41]
+shape = polygon
+altitude = 3001
+name = CK11-3
+labelpos = N034.35.11.500, E135.46.12.500
+points = 
+	N034.40.51.000, E135.49.08.000
+	N034.31.07.000, E135.50.34.000
+	N034.29.32.000, E135.51.13.000
+	N034.29.34.000, E135.44.37.000
+	N034.33.31.000, E135.43.12.000
+	N034.40.17.000, E135.48.19.000
+
+#CK11-4
+[area42]
+shape = polygon
+altitude = 2001
+name = CK11-4
+labelpos = N034.32.30.000, E135.39.30.000
+points = 
+	N034.35.45.000, E135.42.05.000
+	N034.35.42.000, E135.42.24.000
+	N034.33.31.000, E135.43.12.000
+	N034.29.34.000, E135.44.37.000
+	N034.29.35.000, E135.36.51.000
+	N034.29.24.000, E135.36.25.000
+	N034.30.21.000, E135.35.51.000
+	N034.30.51.000, E135.35.52.000
+
+#CK11-5
+[area43]
+shape = polygon
+altitude = 4001
+name = CK11-5
+labelpos = N034.26.14.000, E135.43.38.500
+points = 
+	N034.29.35.000, E135.36.51.000
+	N034.29.32.000, E135.51.13.000
+	N034.23.58.000, E135.53.26.000
+	N034.18.53.000, E135.36.19.000
+	N034.27.29.000, E135.33.51.000
+	N034.28.48.000, E135.34.51.000
+
+#CK11-6
+[area44]
+shape = polygon
+altitude = 2501
+name = CK11-6
+labelpos = N034.18.24.000, E135.24.26.500
+points = 
+	N034.27.29.000, E135.33.51.000
+	N034.18.53.000, E135.36.19.000
+	N034.09.19.000, E135.12.34.000
+	N034.15.22.000, E135.18.39.000
+	N034.23.52.000, E135.31.42.000
+
+#CK21-2
+[area45]
+shape = polygon
+altitude = 6001
+name = CK21-2
+labelpos = N035.12.31.000, E134.10.37.000
+points = 
+	N035.21.11.000, E133.42.50.000
+	N035.18.11.000, E133.57.50.000
+	N035.10.11.000, E134.27.50.000
+	N034.58.12.000, E134.42.50.000
+	N034.53.51.000, E134.23.29.000
+	N035.03.15.000, E134.00.03.000
+	N035.04.57.000, E133.51.52.000
+	N035.14.31.000, E133.38.24.000
+
+#CS3
+[area46]
+shape = polygon
+altitude = 3001
+name = CS3
+labelpos = N034.37.42.000, E134.19.50.000
+points = 
+	N034.45.12.000, E134.26.50.000
+	N034.34.12.000, E134.29.50.000
+	N034.30.12.000, E134.29.50.000
+	N034.30.12.000, E134.14.50.000
+	N034.32.12.000, E134.09.50.000
+	N034.36.12.000, E134.09.50.000
+	N034.43.12.000, E134.14.50.000
+
+#CS2-2
+[area47]
+shape = polygon
+altitude = 4001
+name = CS2-2
+labelpos = N034.19.12.000, E133.25.51.000
+points = 
+	N034.30.12.000, E133.32.51.000
+	N034.08.12.000, E133.29.51.000
+	N034.10.12.000, E133.18.51.000
+	N034.23.12.000, E133.23.51.000
+
+#CS2-1
+[area48]
+shape = polygon
+altitude = 2001
+name = CS2-1
+labelpos = N034.25.42.000, E133.38.50.500
+points = 
+	N034.30.12.000, E133.32.51.000
+	N034.27.12.000, E133.44.50.000
+	N034.18.12.000, E133.47.50.000
+	N034.07.12.000, E133.37.51.000
+	N034.08.12.000, E133.29.51.000
+
+#area north of KANSAI ACA under extension
+[area49]
+shape = polygon
+altitude = 12001
+name = JJ
+labelpos = N035.16.22.000, E135.18.15.000
+points = 
+#11
+	N035.05.46.000, E134.48.08.000
+#***extension of ACA for gameplay purposes (arrivals via Y38/Y384/V55/RJBT ROKKO)
+#*****start
+#ITE R332 35DME
+	N035.19.11.000, E135.04.06.000
+#10
+#	N035.11.08.000, E135.18.58.000
+#ITE R012 35DME
+	N035.22.32.000, E135.33.08.000
+#1/4 distance from 10 to 14
+	N035.09.38.000, E135.26.37.000
+#*****end ACA extension
+#10
+	N035.11.08.000, E135.18.58.000
+
+
+
+##ALISAA 06R
+#[approach13]
+#runway = rwy1, rev
+#beacon = ALISA
+#route1 = 
+#	180
+#	N034.30.42.630, E134.08.04.100
+#	N034.16.04.860, E134.27.29.150, 6000
+#	N034.09.00.560, E134.43.13.290
+#	N034.07.57.890, E134.48.41.770
+#	N034.10.51.410, E134.52.50.960
+#	17.4, 4000, 180
+#
+##BECKYA 06R
+#[approach14]
+#runway = rwy1, rev
+#beacon = BECKY
+#route1 = 
+#	55
+#	N033.55.09.010, E134.30.30.630
+#	N033.59.42.190, E134.36.57.250, 6000
+#	N034.07.57.890, E134.48.41.770
+#	N034.10.51.410, E134.52.50.960
+#	17.4, 4000, 180
+#
+##BERTHA 06R
+#[approach15]
+#runway = rwy1, rev
+#beacon = BERTH
+#route1 = 
+#	102
+#	N034.09.11.440, E134.19.00.010
+#	N034.09.00.560, E134.43.13.290, 6000
+#	N034.07.57.890, E134.48.41.770
+#	N034.10.51.410, E134.52.50.960
+#	17.4, 4000, 180
+#
+##CANDYA 06R
+#[approach16]
+#runway = rwy1, rev
+#beacon = CANDY
+#route1 = 
+#	55
+#	N033.52.29.810, E134.55.41.780
+#	N033.58.51.960, E134.56.13.140, 6000
+#	17.4, 4000, 180
+#
+##SINGU Y544 DANDEA 06R
+##[approach23]
+##runway = rwy1, rev
+##beacon = SINGU
+##route1 = 
+##	265
+##SINGU
+##	N034.21.03.900, E136.07.54.730
+##DANDE
+##	N034.13.09.410, E135.24.33.940
+##	N034.09.00.600, E135.02.25.600, 6000
+##	N034.14.04.140, E134.57.28.300, 4000
+##	13, 4000, 180
+#
+##DANDEA 06R
+#[approach17]
+#runway = rwy1, rev
+#beacon = DANDE
+#route1 = 
+#	265
+##DANDE
+#	N034.13.09.410, E135.24.33.940
+##JOLLY
+#	N034.09.00.560, E135.02.25.610, 6000
+#	N034.14.04.140, E134.57.28.300, 4000
+#	13, 4000, 180
+
+#06R from ALLAN
+#[approach25]
+#runway = rwy1, rev
+#beacon = ALLAN
+#route1 = 
+#	58
+#	N034.14.04.140, E134.57.28.300, 4000
+#IKD 13DME (arbitrary)
+#	13, 4000, 180
+#
+##ALISAA 06L
+#[approach38]
+#runway = rwy2, rev
+#beacon = ALISA
+#route1 = 
+#	180
+#	N034.30.42.630, E134.08.04.100
+#	N034.16.04.860, E134.27.29.150, 6000
+#	N034.09.00.560, E134.43.13.290
+#	N034.07.57.890, E134.48.41.770
+#	N034.10.51.410, E134.52.50.960
+#	16.9, 4000, 180
+#
+##BECKYA 06L
+#[approach39]
+#runway = rwy2, rev
+#beacon = BECKY
+#route1 = 
+#	55
+#	N033.55.09.010, E134.30.30.630
+#	N033.59.42.190, E134.36.57.250, 6000
+#	N034.07.57.890, E134.48.41.770
+#	N034.10.51.410, E134.52.50.960
+#	16.9, 4000, 180
+#
+##BERTHA 06L
+#[approach40]
+#runway = rwy2, rev
+#beacon = BERTH
+#route1 = 
+#	102
+#	N034.09.11.440, E134.19.00.010
+#	N033.59.42.190, E134.36.57.250, 6000
+#	N034.07.57.890, E134.48.41.770
+#	N034.10.51.410, E134.52.50.960
+#	16.9, 4000, 180
+#
+##CANDYA 06L
+#[approach41]
+#runway = rwy2, rev
+#beacon = CANDY
+#route1 = 
+#	55
+#	N033.52.29.810, E134.55.41.780
+#	N033.58.51.960, E134.56.13.140, 6000
+#	16.9, 4000, 180
+#
+##SINGU Y544 DANDEB 06L
+#[approach42]
+#runway = rwy2, rev
+#beacon = SINGU
+#route1 = 
+#	250
+##SINGU
+#	N034.21.03.900, E136.07.54.730
+##DANDE
+#	N034.13.09.410, E135.24.33.940
+#	N034.09.00.600, E135.02.25.600, 6000
+#	N034.15.01.960, E134.56.31.590, 4000
+#	13, 4000, 180
+#
+##DANDEB 06L
+#[approach43]
+#runway = rwy2, rev
+#beacon = DANDE
+#route1 = 
+#	265
+##DANDE
+#	N034.13.09.410, E135.24.33.940
+#	N034.09.00.600, E135.02.25.600, 6000
+#	N034.15.01.960, E134.56.31.590, 4000
+#	13, 4000, 180
+#
+##06L from BERRY
+#[approach44]
+#runway = rwy2, rev
+#beacon = BERRY
+#route1 = 
+#	58
+#	N034.15.01.960, E134.56.31.590, 4000
+##IKJ 13DME (arbitrary)
+#	13, 4000, 180
+
+#ALISAA 24L
+[approach18]
+runway = rwy1
+beacon = ALISA
+route1 = 
+	180
+	N034.30.42.630, E134.08.04.100
+	N034.16.04.860, E134.27.29.150
+	N034.16.13.090, E134.42.46.590, 7000
+	N034.27.10.730, E134.58.42.010
+	N034.36.23.740, E135.12.11.000, 4000
+	N034.36.14.200, E135.20.14.200, 2600
+	N034.36.11.200, E135.22.39.800
+	N034.33.44.300, E135.22.35.300, 2000, 200
+	N034.32.01.530, E135.21.47.470, 1600
+	5.5, 1200, 180
+
+#BECKYA 24L
+[approach19]
+runway = rwy1
+beacon = BECKY
+route1 = 
+	55
+	N033.55.09.010, E134.30.30.630
+	N034.09.00.560, E134.43.13.290
+	N034.16.13.090, E134.42.46.590, 7000
+	N034.27.10.730, E134.58.42.010
+	N034.36.23.740, E135.12.11.000, 4000
+	N034.36.14.200, E135.20.14.200, 2600
+	N034.36.11.200, E135.22.39.800
+	N034.33.44.300, E135.22.35.300, 2000, 200
+	N034.32.01.530, E135.21.47.470, 1600
+	5.5, 1200, 180
+
+#BERTHA 24L
+[approach20]
+runway = rwy1
+beacon = BERTH
+route1 = 
+	102
+	N034.09.11.440, E134.19.00.010
+	N034.16.13.090, E134.42.46.590, 7000
+	N034.27.10.730, E134.58.42.010
+	N034.36.23.740, E135.12.11.000, 4000
+	N034.36.14.200, E135.20.14.200, 2600
+	N034.36.11.200, E135.22.39.800
+	N034.33.44.300, E135.22.35.300, 2000, 200
+	N034.32.01.530, E135.21.47.470, 1600
+	5.5, 1200, 180
+
+#CANDYA 24L
+[approach21]
+runway = rwy1
+beacon = CANDY
+route1 = 
+	55
+	N033.52.29.810, E134.55.41.780
+	N034.09.00.560, E134.43.13.290
+	N034.16.13.090, E134.42.46.590, 7000
+	N034.27.10.730, E134.58.42.010
+	N034.36.23.740, E135.12.11.000, 4000
+	N034.36.14.200, E135.20.14.200, 2600
+	N034.36.11.200, E135.22.39.800
+	N034.33.44.300, E135.22.35.300, 2000, 200
+	N034.32.01.530, E135.21.47.470, 1600
+	5.5, 1200, 180
+
+#SINGU Y544 DANDEC 24L
+#[approach30]
+#runway = rwy1
+#beacon = SINGU
+#route1 = 
+#	250
+##SINGU
+#	N034.21.03.900, E136.07.54.730
+##DANDE
+#	N034.13.09.410, E135.24.33.940
+#	N034.09.00.560, E135.02.25.610
+#	N034.08.21.380, E134.49.02.570
+#	N034.16.13.090, E134.42.46.590
+#	N034.27.10.730, E134.58.42.010
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000, 200
+#	N034.32.01.530, E135.21.47.470, 1600
+#	5.5, 1200, 180
+
+#DANDEC 24L
+[approach22]
+runway = rwy1
+beacon = SINGU
+route1 = 
+	265
+#SINGU
+	N034.21.03.900, E136.07.54.730
+#DANDE
+	N034.13.09.410, E135.24.33.940
+#JOLLY
+	N034.09.00.560, E135.02.25.610, 8000
+#GATES
+	N034.08.21.380, E134.49.02.570
+#AWAJI
+	N034.16.13.090, E134.42.46.590
+#LILAC
+	N034.27.10.730, E134.58.42.010
+	N034.36.23.740, E135.12.11.000, 4000
+	N034.36.14.200, E135.20.14.200, 2600
+	N034.36.11.200, E135.22.39.800
+	N034.33.44.300, E135.22.35.300, 2000, 200
+	N034.32.01.530, E135.21.47.470, 1600
+	5.5, 1200, 180
+
+route2 = 
+	85
+#DANDE
+	N034.13.09.410, E135.24.33.940
+#JOLLY
+	N034.09.00.560, E135.02.25.610, 8000
+#GATES
+	N034.08.21.380, E134.49.02.570
+#AWAJI
+	N034.16.13.090, E134.42.46.590
+#LILAC
+	N034.27.10.730, E134.58.42.010
+	N034.36.23.740, E135.12.11.000, 4000
+	N034.36.14.200, E135.20.14.200, 2600
+	N034.36.11.200, E135.22.39.800
+	N034.33.44.300, E135.22.35.300, 2000, 200
+	N034.32.01.530, E135.21.47.470, 1600
+	5.5, 1200, 180
+
+#DANDEC 24L from LILAC
+[approach23]
+runway = rwy1
+beacon = LILAC
+route1 = 
+	58
+	N034.27.10.730, E134.58.42.010
+	N034.36.23.740, E135.12.11.000, 4000
+	N034.36.14.200, E135.20.14.200, 2600
+	N034.36.11.200, E135.22.39.800
+	N034.33.44.300, E135.22.35.300, 2000, 200
+	N034.32.01.530, E135.21.47.470, 1600
+	5.5, 1200, 180
+
+#24L from MAYAH
+[approach24]
+runway = rwy1
+beacon = MAYAH
+route1 = 
+	58
+	N034.36.23.740, E135.12.11.000, 4000
+	N034.36.14.200, E135.20.14.200, 2600
+	N034.36.11.200, E135.22.39.800
+	N034.33.44.300, E135.22.35.300, 2000, 200
+	N034.32.01.530, E135.21.47.470, 1600
+	5.5, 1200, 180
+
+##ALISAA 24R
+#[approach23]
+#runway = rwy2
+#beacon = ALISA
+#route1 = 
+#	180
+#	N034.30.42.630, E134.08.04.100
+#	N034.16.04.860, E134.27.29.150
+#	N034.16.13.090, E134.42.46.590, 7000
+#	N034.27.10.730, E134.58.42.010
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000
+#	7.9, 1600, 180
+#
+##BECKYA 24R
+#[approach24]
+#runway = rwy2
+#beacon = BECKY
+#route1 = 
+#	55
+#	N033.55.09.010, E134.30.30.630
+#	N034.09.00.560, E134.43.13.290
+#	N034.16.13.090, E134.42.46.590, 7000
+#	N034.27.10.730, E134.58.42.010
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000
+#	7.9, 1600, 180
+#
+##BERTHA 24R
+#[approach25]
+#runway = rwy2
+#beacon = BERTH
+#route1 = 
+#	102
+#	N034.09.11.440, E134.19.00.010
+#	N034.16.13.090, E134.42.46.590, 7000
+#	N034.27.10.730, E134.58.42.010
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000
+#	7.9, 1600, 180
+#
+##CANDYA 24R
+#[approach26]
+#runway = rwy2
+#beacon = CANDY
+#route1 = 
+#	55
+#	N033.52.29.810, E134.55.41.780
+#	N034.09.00.560, E134.43.13.290
+#	N034.16.13.090, E134.42.46.590, 7000
+#	N034.27.10.730, E134.58.42.010
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000
+#	7.9, 1600, 180
+#
+##SINGU Y544 DANDEC 24R
+#[approach27]
+#runway = rwy2
+#beacon = SINGU
+#route1 = 
+#	250
+##SINGU
+#	N034.21.03.900, E136.07.54.730
+##DANDE
+#	N034.13.09.410, E135.24.33.940
+#	N034.09.00.560, E135.02.25.610
+#	N034.08.21.380, E134.49.02.570
+#	N034.16.13.090, E134.42.46.590
+#	N034.27.10.730, E134.58.42.010
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000
+#	7.9, 1600, 180
+#
+##DANDEC 24R
+#[approach28]
+#runway = rwy2
+#beacon = DANDE
+#route1 = 
+#	265
+#	N034.13.09.410, E135.24.33.940
+#	N034.09.00.560, E135.02.25.610
+#	N034.08.21.380, E134.49.02.570
+#	N034.16.13.090, E134.42.46.590
+#	N034.27.10.730, E134.58.42.010
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000
+#	7.9, 1600, 180
+#
+##24R from LILAC
+#[approach29]
+#runway = rwy2
+#beacon = LILAC
+#route1 = 
+#	58
+#	N034.27.10.730, E134.58.42.010
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000
+#	7.9, 1600, 180
+#
+##24R from MAYAH
+#[approach30]
+#runway = rwy2
+#beacon = MAYAH
+#route1 = 
+#	58
+#	N034.36.23.740, E135.12.11.000, 4000
+#	N034.36.14.200, E135.20.14.200, 2600
+#	N034.36.11.200, E135.22.39.800
+#	N034.33.44.300, E135.22.35.300, 2000
+#	7.9, 1600, 180
+
+##HANSHINN 09
+#[transition9]
+#runway = rwy3, rev
+#beacon = TRACY
+#route1 = 
+#	193
+##TRACY
+#	N034.39.49.270, E134.45.47.820
+##SIOJI
+#	12, 3000, 180
+#
+###HANSHINS 09
+##HANSHINS/HANSHINW 09
+#[transition10]
+#runway = rwy3, rev
+#beacon = KAKEF
+#route1 = 
+#	78
+###BECKY
+##	N033.55.09.010, E134.30.30.630
+##KAKEF
+#	N034.13.45.900, E134.34.26.400, 6000
+##OKADA
+#	N034.37.03.100, E134.39.23.800
+##TRACY
+#	N034.39.49.270, E134.45.47.820
+##SIOJI
+#	12, 3000, 180
+#
+###HANSHINW 09
+##[transition15]
+##runway = rwy3, rev
+##beacon = BERTH
+##route1 = 
+##	102
+###BERTH
+##	N034.09.11.440, E134.19.00.010
+###KAKEF
+##	N034.13.45.900, E134.34.26.400, 6000
+###OKADA
+##	N034.37.03.100, E134.39.23.800
+###TRACY
+##	N034.39.49.270, E134.45.47.820
+###SIOJI
+##	12, 3000, 180
+
+#HANSHINN 27
+[transition11]
+runway = rwy3
+beacon = TRACY
+
+route1 = 
+	193
+#TRACY
+	N034.39.49.270, E134.45.47.820
+#SIOJI (simulate circle to land @ 1200)
+	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1100, 180
+#4NM from R27 THR
+	4, 1100, 180
+
+route2 = 
+	200
+#WAKIT
+	N035.01.57.850, E134.55.31.990
+#TRACY
+	N034.39.49.270, E134.45.47.820
+#SIOJI (simulate circle to land @ 1200)
+	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1200, 180
+#4NM from R27 THR
+	4, 1200, 180
+
+route3 = 
+	245
+#GINJI
+	N035.05.39.640, E135.16.51.020
+#WAKIT
+	N035.01.57.850, E134.55.31.990
+#TRACY
+	N034.39.49.270, E134.45.47.820
+#SIOJI (simulate circle to land @ 1200)
+	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1200, 180
+#4NM from R27 THR
+	4, 1200, 180
+
+route4 = 
+	20
+#TRACY
+	N034.39.49.270, E134.45.47.820
+#SIOJI (simulate circle to land @ 1200)
+	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1200, 180
+#4NM from R27 THR
+	4, 1200, 180
+
+
+#ILS 09 circle to land27
+[transition2]
+runway = rwy3
+beacon = SIOJI, N034.36.45.240, E134.58.08.770, -92, Shioji
+route1 = 
+	92
+#SIOJI (simulate circle to land @ 1200)
+	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1200, 180
+#4NM from R27 THR
+	4, 1200, 180
+
+route2 = 
+	272
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1200, 180
+#4NM from R27 THR
+	4, 1200, 180
+
+
+##HANSHINS 27
+#HANSHINS/HANSHINW 27
+[transition12]
+runway = rwy3
+beacon = KAKEF
+route1 = 
+	55
+#BECKY
+	N033.55.09.010, E134.30.30.630
+#KAKEF
+	N034.13.45.900, E134.34.26.400, 6000
+#OKADA
+	N034.37.03.100, E134.39.23.800
+#TRACY
+	N034.39.49.270, E134.45.47.820
+#SIOJI (simulate circle to land @ 1200)
+	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1100, 180
+#4NM from R27 THR
+	4, 1000, 180
+
+route2 = 
+	90
+#BERTH
+	N034.09.11.440, E134.19.00.010
+#KAKEF
+	N034.13.45.900, E134.34.26.400, 6000
+#OKADA
+	N034.37.03.100, E134.39.23.800
+#TRACY
+	N034.39.49.270, E134.45.47.820
+#SIOJI (simulate circle to land @ 1200)
+	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1100, 180
+#4NM from R27 THR
+	4, 1000, 180
+
+route3 = 
+	259
+#BERTH
+	N034.09.11.440, E134.19.00.010
+#KAKEF
+	N034.13.45.900, E134.34.26.400, 6000
+#OKADA
+	N034.37.03.100, E134.39.23.800
+#TRACY
+	N034.39.49.270, E134.45.47.820
+#SIOJI (simulate circle to land @ 1200)
+	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+	N34.35.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+	N34.36.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+	N034.38.42.000, E135.21.11.000, 1100, 180
+#4NM from R27 THR
+	4, 1000, 180
+
+#HANSHINW 27
+#[transition18]
+#runway = rwy3
+#beacon = BERTH
+#route1 = 
+#	102
+##BERTH
+#	N034.09.11.440, E134.19.00.010
+#KAKEF
+#	N034.13.45.900, E134.34.26.400, 6000
+#OKADA
+#	N034.37.03.100, E134.39.23.800
+#TRACY
+#	N034.39.49.270, E134.45.47.820
+#SIOJI (simulate circle to land @ 1200)
+#	N034.36.45.240, E134.58.08.770, 3000
+#MARIN
+#	N034.37.02.990, E135.01.51.140
+#4.1DME from IKO
+#	N34.37.34.000, E135.07.53.000, 1300
+#132 heading from 4.1DME from IKO to intercept YOE R274
+#	N34.34.35.000, E135.13.15.000, 1300
+#YOE R274 abeam 6.9DME from IKO R272
+#	N34.35.05.000, E135.21.39.000, 1200
+#6.9DME IKO R272
+#	N034.38.42.000, E135.21.11.000, 1200, 180
+#4NM from R27 THR
+#	4, 1200, 180
+
+#IKOMAN 32L
+[transition7]
+runway = rwy4
+beacon = ROKKO
+route1 =
+	148
+#ROKKO
+	N035.07.00.560, E135.18.00.920
+#KAMEO
+	N034.57.02.660, E135.28.04.220
+#OTABE
+	N034.39.28.940, E135.45.39.820, 7000
+#ABENO
+	N034.35.32.430, E135.41.55.570, 4000, 210
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+route2 =
+	328
+#OTABE
+	N034.39.28.940, E135.45.39.820, 7000
+#ABENO
+	N034.35.32.430, E135.41.55.570, 4000, 210
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+#IKOMAN 32L from OTABE
+#[transition2]
+#runway = rwy4
+#beacon = OTABE
+#route1 =
+#	148
+#OTABE
+#	N034.39.28.940, E135.45.39.820
+#ABENO
+#	N034.35.32.430, E135.41.55.570, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+#	14.4, 3500, 210
+
+#IKOMAE 32L
+[transition3]
+runway = rwy4
+beacon = KODAI
+route1 =
+	267
+#KODAI
+	N034.28.55.560, E136.05.45.830, 17000, 220
+#MIRAI
+	N034.32.12.640, E135.53.58.140
+#ABENO
+	N034.35.32.430, E135.41.55.570, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+route2 = 
+	120
+#HABIK
+	N034.32.46.790, E135.39.14.170, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+route3 = 
+	148
+#ROKKO
+	N035.07.00.560, E135.18.00.920
+#KAMEO
+	N034.57.02.660, E135.28.04.220
+#OTABE
+	N034.39.28.940, E135.45.39.820, 7000
+#ABENO
+	N034.35.32.430, E135.41.55.570, 4000, 210
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+##IKOMAE 32L from ABENO
+#[transition4]
+#runway = rwy4
+#beacon = ABENO
+#route1 =
+#	267
+##ABENO
+#	N034.35.32.430, E135.41.55.570
+##IKOMA N034.36.16.680, E135.39.14.810
+#	14.4, 3500, 210
+
+#HABIK 32L
+[transition4]
+runway = rwy4
+beacon = IZUMI
+route1 =
+	184
+#IZUMI
+	N034.26.28.540, E135.25.31.280
+#HABIK
+	N034.32.46.790, E135.39.14.170, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+route2 =
+	41
+#HONMA
+	N033.49.33.960, E134.57.03.960
+#KAINA
+	N034.13.06.520, E135.14.34.710
+#IZUMI
+	N034.26.28.540, E135.25.31.280
+#HABIK
+	N034.32.46.790, E135.39.14.170, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+route3 =
+	61
+#BECKY
+	N033.55.09.010, E134.30.30.630
+#MIRIO
+	N034.00.05.540, E134.42.32.570
+#KAINA
+	N034.13.06.520, E135.14.34.710
+#IZUMI
+	N034.26.28.540, E135.25.31.280
+#HABIK
+	N034.32.46.790, E135.39.14.170, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+route4 =
+	75
+#MIRIO
+	N034.00.05.540, E134.42.32.570
+#KAINA
+	N034.13.06.520, E135.14.34.710
+#IZUMI
+	N034.26.28.540, E135.25.31.280
+#HABIK
+	N034.32.46.790, E135.39.14.170, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+route5 =
+	267
+#KODAI
+	N034.28.55.560, E136.05.45.830
+#MIRAI
+	N034.32.12.640, E135.53.58.140
+#ABENO
+	N034.35.32.430, E135.41.55.570, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+route6 =
+	4
+#IZUMI
+	N034.26.28.540, E135.25.31.280
+#HABIK
+	N034.32.46.790, E135.39.14.170, 4000
+#IKOMA N034.36.16.680, E135.39.14.810
+	14.4, 3500, 210
+
+#HABIK 32L from HABIK
+#[transition5]
+#runway = rwy4
+#beacon = HABIK
+#route1 =
+#	68
+##HABIK
+#	N034.32.46.790, E135.39.14.170, 4000
+##IKOMA N034.36.16.680, E135.39.14.810
+#	14.4, 3500, 210
+#
+##IKOMAN 14R
+#[transition1]
+#runway = rwy4, rev
+#beacon = ROKKO
+#route1 =
+#	148
+##ROKKO
+#	N035.07.00.560, E135.18.00.920, 7000
+##KAMEO
+#	N034.57.02.660, E135.28.04.220, 7000
+##OTABE
+#	N034.39.28.940, E135.45.39.820
+##ABENO
+#	N034.35.32.430, E135.41.55.570, 4000, 210
+##IKOMA 
+#	N034.36.16.680, E135.39.14.810, 3500, 210
+##NATEN
+#	N034.41.05.480, E135.33.26.810, 2400
+##ISK 4.0DME
+#	N034.43.38.000, E135.30.21.000, 1200
+##Downwind (4NM 142 from Base)
+#	N034.46.01.000, E135.30.20.000
+##Base (4NM 232 from FAF)
+#	N034.48.51.000, E135.26.54.000
+##FAF (15NM 323 from NATEN)
+#	N034.51.41.000, E135.20.32.000, 1000
+#	4, 1000, 180
+#
+##IKOMAN 14R from OTABE
+##[transition5]
+##runway = rwy4, rev
+##beacon = OTABE
+##route1 =
+##	148
+##OTABE
+##	N034.39.28.940, E135.45.39.820
+##ABENO
+##	N034.35.32.430, E135.41.55.570, 4000, 210
+##IKOMA 
+##	N034.36.16.680, E135.39.14.810, 3500, 210
+##NATEN
+##	N034.41.05.480, E135.33.26.810, 2400
+##ISK 4.0DME
+##	N034.43.38.000, E135.30.21.000, 1200, 180
+##Downwind (4NM 142 from Base)
+##	N034.46.01.000, E135.30.20.000
+##Base (4NM 232 from FAF)
+##	N034.48.51.000, E135.26.54.000
+##FAF (15NM 323 from NATEN)
+##	N034.51.41.000, E135.20.32.000, 1000
+##	4, 1000, 180
+#
+##IKOMAE 14R
+#[transition6]
+#runway = rwy4, rev
+#beacon = KODAI
+#route1 =
+#	267
+##KODAI
+#	N034.28.55.560, E136.05.45.830
+##MIRAI
+#	N034.32.12.640, E135.53.58.140, 9000
+##ABENO
+#	N034.35.32.430, E135.41.55.570, 4000
+##IKOMA 
+#	N034.36.16.680, E135.39.14.810, 3500
+##NATEN
+#	N034.41.05.480, E135.33.26.810, 2400
+##ISK 4.0DME
+#	N034.43.38.000, E135.30.21.000, 1200, 180
+##Downwind (4NM 142 from Base)
+#	N034.46.01.000, E135.30.20.000
+##Base (4NM 232 from FAF)
+#	N034.48.51.000, E135.26.54.000
+##FAF (15NM 323 from NATEN)
+#	N034.51.41.000, E135.20.32.000, 1000
+#	4, 1000, 180
+#
+##IKOMAE 14R from ABENO
+##[transition10]
+##runway = rwy4, rev
+##beacon = ABENO
+##route1 =
+##	267
+###ABENO
+##	N034.35.32.430, E135.41.55.570, 4000
+###IKOMA 
+##	N034.36.16.680, E135.39.14.810, 3500
+#
+##HABIK 14R
+#[transition8]
+#runway = rwy4, rev
+#beacon = IZUMI
+#route1 =
+#	41
+##IZUMI
+#	N034.26.28.540, E135.25.31.280
+##HABIK
+#	N034.32.46.790, E135.39.14.170, 4000
+##IKOMA 
+#	N034.36.16.680, E135.39.14.810, 3500
+##NATEN
+#	N034.41.05.480, E135.33.26.810, 2400
+##ISK 4.0DME
+#	N034.43.38.000, E135.30.21.000, 1200, 180
+##Downwind (4NM 142 from Base)
+#	N034.46.01.000, E135.30.20.000
+##Base (4NM 232 from FAF)
+#	N034.48.51.000, E135.26.54.000
+##FAF (15NM 323 from NATEN)
+#	N034.51.41.000, E135.20.32.000, 1000
+#	4, 1000, 180
+#
+##HABIK 14R from HABIK
+##[transition12]
+##runway = rwy4, rev
+##beacon = HABIK
+##route1 =
+##	68
+###HABIK
+##	N034.32.46.790, E135.39.14.170, 4000
+###IKOMA 
+##	N034.36.16.680, E135.39.14.810, 3500
+#
+##ILS 32L circle to land 14R
+#[transition5]
+#runway = rwy4, rev
+#beacon = IKOMA, N034.36.16.680, E135.39.14.810, 321, Ikoma
+#route1 =
+#	41
+##IKOMA 
+#	N034.36.16.680, E135.39.14.810, 3500
+##NATEN
+#	N034.41.05.480, E135.33.26.810, 2400
+##ISK 4.0DME
+#	N034.43.38.000, E135.30.21.000, 1200, 180
+##Downwind (4NM 142 from Base)
+#	N034.46.01.000, E135.30.20.000
+##Base (4NM 232 from FAF)
+#	N034.48.51.000, E135.26.54.000
+##FAF (15NM 323 from NATEN)
+#	N034.51.41.000, E135.20.32.000, 1000
+#	4, 1000, 180
+
+#RNAV 29 from DATIS
+[transition14]
+runway = rwy6
+beacon = DATIS
+route1 = 
+	304
+#DATIS
+	N033.58.51.960, E134.56.13.140, 3000
+#UZUPY
+	7.9, 2000, 160
+
+#ILS 29 from TSC
+[transition15]
+runway = rwy6
+beacon = TSC
+route1 = 
+	107
+#TSC
+	N034.07.47.000, E134.36.31.000, 3000, 230
+#TSC R095 10DME
+	N034.08.11.000, E134.51.00.000, 2000, 160
+#UZUPY
+	7.9, 2000, 160
+
+route2 = 
+	253
+#SINGU
+	N034.21.03.900, E136.07.54.730
+#SOMEI
+	N034.15.48.600, E135.55.39.630
+#DINAH
+	N034.02.25.990, E135.24.33.970
+#GOBOH
+	N033.54.36.350, E135.06.22.240
+#UBUYU
+	N033.56.24.630, E135.02.04.590
+#DATIS
+	N033.58.51.960, E134.56.13.140, 3000
+#UZUPY
+	7.9, 2000, 160
+
+route3 = 
+	360
+#TSC
+	N034.07.47.000, E134.36.31.000, 3000, 230
+#TSC R095 10DME
+	N034.08.07.000, E134.48.35.000, 2000, 160
+#UZUPY
+	7.9, 2000, 160
+
+#POPAI ARR ILS Z RWY 26
+[transition16]
+runway = rwy7
+beacon = WAKIT, N035.01.57.850, E134.55.31.990
+route1 = 
+	223
+#WAKIT
+	N035.01.57.850, E134.55.31.990
+#WIMPY
+	N034.31.14.850, E134.29.09.280, 6000
+#BRUTE
+	N034.20.36.960, E134.20.07.100, 4000
+#POPAI
+	13.2, 3600, 180
+
+route2 = 
+	246
+#GINJI
+	N035.05.39.640, E135.16.51.020
+#WAKIT
+	N035.01.57.850, E134.55.31.990
+#WIMPY
+	N034.31.14.850, E134.29.09.280, 6000
+#BRUTE
+	N034.20.36.960, E134.20.07.100, 4000
+#POPAI
+	13.2, 3600, 180
+
+#ILS Y RWY 26
+[transition17]
+runway = rwy7
+beacon = KTE
+route1 = 
+	102
+#KTE
+	N034.12.44.990, E134.01.21.330, 5000, 230
+#KTE R065 12.5DME
+	N034.19.21.000, E134.14.11.000, 3600, 180
+#SANPO
+	10.5, 3600, 180
+
+
+
+
+
+##RJBB 06R
+#[departure1]
+#runway = rwy1, rev
+#
+#
+#route1 = 
+#	SUSAN1.KEC, Susan One Tonda
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##B6R14
+#	N034.33.20.100, E135.12.29.100
+##BB430
+#	N034.24.36.600, E135.03.09.300
+##TOMOH
+#	N034.16.49.570, E135.00.20.330
+##GOBOH
+#	N033.54.36.350, E135.06.22.240
+##TONDA
+#	N033.43.43.840, E135.22.39.260
+##KEC
+#	N033.26.51.870, E135.47.40.180
+#
+#
+#route2 = 
+#	SUSAN1.KRE, Susan One Yosak
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##B6R14
+#	N034.33.20.100, E135.12.29.100
+##BB430
+#	N034.24.36.600, E135.03.09.300
+##TOMOH
+#	N034.16.49.570, E135.00.20.330
+##ODORI
+#	N034.00.13.150, E134.30.11.840
+##YOSAK
+#	N033.47.04.710, E134.06.38.390
+#
+#
+#route3 = 
+#	KNE1.SHTLE, Kansai One Shuttle
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##B6R13
+#	N034.34.05.700, E135.09.36.000
+##KNE
+#	N34.25.48.310, E135.15.06.420
+##NARAH
+#	N034.29.58.800, E135.41.02.850
+##YAGYU
+#	N034.32.39.310, E135.57.38.060
+##SHTLE
+#	N034.49.50.950, E136.56.53.840
+#
+#
+#route4 =
+#	NANKO1, Nanko One
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##B6R13
+#	N034.34.05.700, E135.09.36.000
+##left direct
+#	N034.32.05.700, E135.07.36.000
+##NANKO
+#	N034.36.38.740, E135.21.21.950
+##OGURA
+#	N034.47.58.690, E135.34.24.860
+##KYOTO
+#	N034.49.49.680, E135.44.48.800
+##SIGAK
+#	N034.53.07.680, E136.02.52.710
+#
+#
+#route5 = 
+#	HELEN1.SHION, Helen One Shion
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##HIBIS
+#	N034.14.54.820, E134.07.30.020
+##OBOKE
+#	N034.00.53.910, E133.55.17.460
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+#
+#
+#route6 = 
+#	HELEN1.HABAR, Helen One Habar
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##HABAR
+#	N034.19.09.740, E133.35.19.620
+#
+#
+#route7 = 
+#	HELEN1.WASYU, Helen One Wahshu
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##WASYU
+#	N034.28.17.500, E133.23.01.140
+#
+#
+#route8 = 
+#	HELEN1.SOUJA, Helen One Souja
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##SOUJA
+#	N034.37.38.640, E133.44.22.480
+#
+#
+#route9 = 
+#	HELEN1.YME, Helen One Miyazu
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##KAWAT
+#	N034.34.19.370, E134.33.32.300
+##AYAYA
+#	N034.45.19.070, E134.32.17.680
+##CHIZU
+#	N035.01.46.160, E134.30.25.370
+##YME
+#	N035.28.50.490, E135.08.13.280
+#
+#
+#route10 = 
+#	DAISY1.GLORY Y34, Daisy One
+##B6R10
+#	N034.27.59.600, E135.17.46.000
+##B6R11
+#	N034.31.40.800, E135.18.45.100
+##B6R12
+#	N034.34.17.000, E135.08.53.100
+##DAISY
+#	N034.30.02.260, E135.03.10.600
+##JULIA
+#	N034.30.08.140, E134.58.16.340
+##LINDA
+#	N034.30.15.760, E134.51.40.120
+##GLORY
+#	N034.27.36.040, E134.44.00.570
+##TANTA
+#	N034.16.04.860, E134.27.29.150
+##BUGGY
+#	N033.52.59.150, E133.54.44.310
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+#
+
+
+#RJBB 24L
+[departure2]
+runway = rwy1
+
+
+route1 = 
+	SUSAN1.KEC, Susan One Tonda
+#B4L30
+	N034.20.13.000, E135.05.04.100
+#TOMOH
+	N034.16.49.570, E135.00.20.330
+#GOBOH
+	N033.54.36.350, E135.06.22.240
+#TONDA
+	N033.43.43.840, E135.22.39.260
+#KEC
+	N033.26.51.870, E135.47.40.180
+
+
+route2 = 
+	SUSAN1.KRE, Susan One Yosak
+#B4L30
+	N034.20.13.000, E135.05.04.100
+#TOMOH
+	N034.16.49.570, E135.00.20.330
+#ODORI
+	N034.00.13.150, E134.30.11.840
+#YOSAK
+	N033.47.04.710, E134.06.38.390
+
+
+route3 = 
+	KNE1.SHTLE, Kansai One Shuttle
+#B4L10
+	N034.21.36.900, E135.07.34.500
+#KNE
+	N34.25.48.310, E135.15.06.420
+#NARAH
+	N034.29.58.800, E135.41.02.850
+#YAGYU
+	N034.32.39.310, E135.57.38.060
+#SHTLE
+	N034.49.50.950, E136.56.53.840
+
+
+route4 =
+	NANKO1, Nanko One
+#B4L10
+	N034.21.36.900, E135.07.34.500
+#NANKO
+	N034.36.38.740, E135.21.21.950
+#OGURA
+	N034.47.58.690, E135.34.24.860
+#KYOTO
+	N034.49.49.680, E135.44.48.800
+#SIGAK
+	N034.53.07.680, E136.02.52.710
+
+
+route5 = 
+	HELEN1.SHION, Helen One Shion
+#B4L10
+	N034.21.36.900, E135.07.34.500
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#HIBIS
+	N034.14.54.820, E134.07.30.020
+#OBOKE
+	N034.00.53.910, E133.55.17.460
+#POPPY
+	N033.49.05.070, E133.49.15.330
+
+
+route6 = 
+	HELEN1.HABAR, Helen One Habar
+#B4L10
+	N034.21.36.900, E135.07.34.500
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#HABAR
+	N034.19.09.740, E133.35.19.620
+
+
+route7 = 
+	HELEN1.WASYU, Helen One Wahshu
+#B4L10
+	N034.21.36.900, E135.07.34.500
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#WASYU
+	N034.28.17.500, E133.23.01.140
+
+
+route8 = 
+	HELEN1.SOUJA, Helen One Souja
+#B4L10
+	N034.21.36.900, E135.07.34.500
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#SOUJA
+	N034.37.38.640, E133.44.22.480
+
+
+route9 = 
+	HELEN1.YME, Helen One Miyazu
+#B4L10
+	N034.21.36.900, E135.07.34.500
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#KAWAT
+	N034.34.19.370, E134.33.32.300
+#AYAYA
+	N034.45.19.070, E134.32.17.680
+#CHIZU
+	N035.01.46.160, E134.30.25.370
+#YME
+	N035.28.50.490, E135.08.13.280
+
+
+route10 = 
+	DAISY1.GLORY Y34, Daisy One
+#B4L10
+	N034.21.36.900, E135.07.34.500
+#BB430
+	N034.24.36.600, E135.03.09.300
+#DAISY
+	N034.30.02.260, E135.03.10.600
+#JULIA
+	N034.30.08.140, E134.58.16.340
+#LINDA
+	N034.30.15.760, E134.51.40.120
+#GLORY
+	N034.27.36.040, E134.44.00.570
+#TANTA
+	N034.16.04.860, E134.27.29.150
+#BUGGY
+	N033.52.59.150, E133.54.44.310
+#POPPY
+	N033.49.05.070, E133.49.15.330
+
+
+
+##RJBB 06L
+#[departure3]
+#runway = rwy2, rev
+#
+#
+#route1 = 
+#	SUSAN1.KEC, Susan One Tonda
+##BB430
+#	N034.24.36.600, E135.03.09.300
+##TOMOH
+#	N034.16.49.570, E135.00.20.330
+##GOBOH
+#	N033.54.36.350, E135.06.22.240
+##TONDA
+#	N033.43.43.840, E135.22.39.260
+##KEC
+#	N033.26.51.870, E135.47.40.180
+#
+#
+#route2 = 
+#	SUSAN1.KRE, Susan One Yosak
+##BB430
+#	N034.24.36.600, E135.03.09.300
+##TOMOH
+#	N034.16.49.570, E135.00.20.330
+##ODORI
+#	N034.00.13.150, E134.30.11.840
+##YOSAK
+#	N033.47.04.710, E134.06.38.390
+#
+#
+#route3 = 
+#	KNE1.SHTLE, Kansai One Shuttle
+##B6L20
+#	N034.30.42.200, E135.08.13.400
+##KNE
+#	N34.25.48.310, E135.15.06.420
+##NARAH
+#	N034.29.58.800, E135.41.02.850
+##YAGYU
+#	N034.32.39.310, E135.57.38.060
+##SHTLE
+#	N034.49.50.950, E136.56.53.840
+#
+#
+#route4 =
+#	NANKO1, Nanko One
+##B6L20
+#	N034.30.42.200, E135.08.13.400
+##left direct
+#	N034.28.42.700, E135.06.13.000
+##NANKO
+#	N034.36.38.740, E135.21.21.950
+##OGURA
+#	N034.47.58.690, E135.34.24.860
+##KYOTO
+#	N034.49.49.680, E135.44.48.800
+##SIGAK
+#	N034.53.07.680, E136.02.52.710
+#
+#
+#route5 = 
+#	HELEN1.SHION, Helen One Shion
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##HIBIS
+#	N034.14.54.820, E134.07.30.020
+##OBOKE
+#	N034.00.53.910, E133.55.17.460
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+#
+#
+#route6 = 
+#	HELEN1.HABAR, Helen One Habar
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##HABAR
+#	N034.19.09.740, E133.35.19.620
+#
+#
+#route7 = 
+#	HELEN1.WASYU, Helen One Wahshu
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##WASYU
+#	N034.28.17.500, E133.23.01.140
+#
+#
+#route8 = 
+#	HELEN1.SOUJA, Helen One Souja
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##SOUJA
+#	N034.37.38.640, E133.44.22.480
+#
+#
+#route9 = 
+#	HELEN1.YME, Helen One Miyazu
+##HELEN
+#	N034.34.48.900, E135.06.51.750
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##KAWAT
+#	N034.34.19.370, E134.33.32.300
+##AYAYA
+#	N034.45.19.070, E134.32.17.680
+##CHIZU
+#	N035.01.46.160, E134.30.25.370
+##YME
+#	N035.28.50.490, E135.08.13.280
+#
+#
+#route10 = 
+#	DAISY1.GLORY Y34, Daisy One
+##DAISY
+#	N034.30.02.260, E135.03.10.600
+##JULIA
+#	N034.30.08.140, E134.58.16.340
+##LINDA
+#	N034.30.15.760, E134.51.40.120
+##GLORY
+#	N034.27.36.040, E134.44.00.570
+##TANTA
+#	N034.16.04.860, E134.27.29.150
+##BUGGY
+#	N033.52.59.150, E133.54.44.310
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+
+
+
+#RJBB 24R
+[departure4]
+runway = rwy2
+
+
+route1 = 
+	SUSAN1.KEC, Susan One Tonda
+#BB430
+	N034.24.36.600, E135.03.09.300
+#TOMOH
+	N034.16.49.570, E135.00.20.330
+#GOBOH
+	N033.54.36.350, E135.06.22.240
+#TONDA
+	N033.43.43.840, E135.22.39.260
+#KEC
+	N033.26.51.870, E135.47.40.180
+
+
+route2 = 
+	SUSAN1.KRE, Susan One Yosak
+#BB430
+	N034.24.36.600, E135.03.09.300
+#TOMOH
+	N034.16.49.570, E135.00.20.330
+#ODORI
+	N034.00.13.150, E134.30.11.840
+#YOSAK
+	N033.47.04.710, E134.06.38.390
+
+
+
+route3 = 
+	KNE1.SHTLE, Kansai One Shuttle
+#B4R20
+	N034.24.54.400, E135.06.06.200
+#right turn
+	N034.26.54.400, E135.06.06.200
+#KNE
+	N34.25.48.310, E135.15.06.420
+#NARAH
+	N034.29.58.800, E135.41.02.850
+#YAGYU
+	N034.32.39.310, E135.57.38.060
+#SHTLE
+	N034.49.50.950, E136.56.53.840
+
+
+route4 =
+	NANKO1, Nanko One
+#B4R20
+	N034.24.54.400, E135.06.06.200
+#NANKO
+	N034.36.38.740, E135.21.21.950
+#OGURA
+	N034.47.58.690, E135.34.24.860
+#KYOTO
+	N034.49.49.680, E135.44.48.800
+#SIGAK
+	N034.53.07.680, E136.02.52.710
+
+
+route5 = 
+	HELEN1.SHION, Helen One Shion
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#HIBIS
+	N034.14.54.820, E134.07.30.020
+#OBOKE
+	N034.00.53.910, E133.55.17.460
+#POPPY
+	N033.49.05.070, E133.49.15.330
+
+
+route6 = 
+	HELEN1.HABAR, Helen One Habar
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#HABAR
+	N034.19.09.740, E133.35.19.620
+
+
+route7 = 
+	HELEN1.WASYU, Helen One Wahshu
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#WASYU
+	N034.28.17.500, E133.23.01.140
+
+
+route8 = 
+	HELEN1.SOUJA, Helen One Souja
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#SOUJA
+	N034.37.38.640, E133.44.22.480
+
+
+route9 = 
+	HELEN1.YME, Helen One Miyazu
+#BB430
+	N034.24.36.600, E135.03.09.300
+#HELEN
+	N034.34.48.900, E135.06.51.750
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#KAWAT
+	N034.34.19.370, E134.33.32.300
+#AYAYA
+	N034.45.19.070, E134.32.17.680
+#CHIZU
+	N035.01.46.160, E134.30.25.370
+#YME
+	N035.28.50.490, E135.08.13.280
+
+
+route10 = 
+	DAISY1.GLORY Y34, Daisy One
+#DAISY
+	N034.30.02.260, E135.03.10.600
+#JULIA
+	N034.30.08.140, E134.58.16.340
+#LINDA
+	N034.30.15.760, E134.51.40.120
+#GLORY
+	N034.27.36.040, E134.44.00.570
+#TANTA
+	N034.16.04.860, E134.27.29.150
+#BUGGY
+	N033.52.59.150, E133.54.44.310
+#POPPY
+	N033.49.05.070, E133.49.15.330
+
+
+##RJBE 09
+#[departure5]
+#runway = rwy3, rev
+#
+#route1 = 
+#	KCE1.WASYU, Kobe One Wahshu
+##YOE R274 @ KNE R323
+#	N034.37.39.000, E135.04.15.000
+##KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##WASYU
+#	N034.28.17.500, E133.23.01.140
+#
+#route2 = 
+#	KCE1.SOUJA, Kobe One Souja
+##YOE R274 @ KNE R323
+#	N034.37.39.000, E135.04.15.000
+##KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##SOUJA
+#	N034.37.38.640, E133.44.22.480
+#
+#route3 = 
+#	KCE1.SOUJA, Kobe One Wendy
+##YOE R274 @ KNE R323
+#	N034.37.39.000, E135.04.15.000
+##KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##WENDY
+#	N034.32.09.460, E134.50.30.810
+##GLORY
+#	N034.27.36.040, E134.44.00.570
+##TANTA
+#	N034.16.04.860, E134.27.29.150
+##BUGGY
+#	N033.52.59.150, E133.54.44.310
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+#
+#route4 = 
+#	KCE1.YME, Kobe One Miyazu
+##YOE R274 @ KNE R323
+#	N034.37.39.000, E135.04.15.000
+##KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##STEEL
+#	N034.41.52.240, E134.52.26.580
+##TRIPY
+#	N034.58.01.210, E134.40.03.370
+##ASAGI
+#	N035.02.37.240, E134.45.02.370
+##YME
+#	N035.28.50.490, E135.08.13.280
+#
+#route5 = 
+#	KCE1.CUE, Kobe One Otsu
+##YOE R274 @ KNE R323
+#	N034.37.39.000, E135.04.15.000
+##KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##STEEL
+#	N034.41.52.240, E134.52.26.580
+##REVUE
+#	N034.46.36.430, E134.54.25.300
+##HYOGO
+#	N034.51.30.620, E134.59.44.030
+##SANDA
+#	N034.55.50.200, E135.21.43.920
+##CUE
+#	N35.01.01.370, E135.49.33.610
+#
+#route6 = 
+#	KCE1.CUE, Kobe One Shuttle
+##YOE R274 @ KNE R323
+#	N034.37.39.000, E135.04.15.000
+##KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##STEEL
+#	N034.41.52.240, E134.52.26.580
+##REVUE
+#	N034.46.36.430, E134.54.25.300
+##HYOGO
+#	N034.51.30.620, E134.59.44.030
+##SANDA
+#	N034.55.50.200, E135.21.43.920
+##SHTLE
+#	N034.49.50.950, E136.56.53.840
+
+
+
+#RJBE 27
+[departure6]
+runway = rwy3
+
+route1 = 
+	KCE1.WASYU, Kobe One Wahshu
+#KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#WASYU
+	N034.28.17.500, E133.23.01.140
+
+route2 = 
+	KCE1.SOUJA, Kobe One Souja
+#KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#SHION
+	N034.25.42.120, E134.16.57.380
+#SOUJA
+	N034.37.38.640, E133.44.22.480
+
+route3 = 
+	KCE1.SOUJA, Kobe One Wendy
+#KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#WENDY
+	N034.32.09.460, E134.50.30.810
+#GLORY
+	N034.27.36.040, E134.44.00.570
+#TANTA
+	N034.16.04.860, E134.27.29.150
+#BUGGY
+	N033.52.59.150, E133.54.44.310
+#POPPY
+	N033.49.05.070, E133.49.15.330
+
+route4 = 
+	KCE1.YME, Kobe One Miyazu
+#KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#STEEL
+	N034.41.52.240, E134.52.26.580
+#TRIPY
+	N034.58.01.210, E134.40.03.370
+#ASAGI
+	N035.02.37.240, E134.45.02.370
+#YME
+	N035.28.50.490, E135.08.13.280
+
+route5 = 
+	KCE1.CUE, Kobe One Otsu
+#KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#STEEL
+	N034.41.52.240, E134.52.26.580
+#REVUE
+	N034.46.36.430, E134.54.25.300
+#HYOGO
+	N034.51.30.620, E134.59.44.030
+#SANDA
+	N034.55.50.200, E135.21.43.920
+#CUE
+	N35.01.01.370, E135.49.33.610
+
+route6 = 
+	KCE1.CUE, Kobe One Shuttle
+#KNE R323 @ KCE R272
+#	N034.38.08.000, E135.03.48.000
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#STEEL
+	N034.41.52.240, E134.52.26.580
+#REVUE
+	N034.46.36.430, E134.54.25.300
+#HYOGO
+	N034.51.30.620, E134.59.44.030
+#SANDA
+	N034.55.50.200, E135.21.43.920
+#SHTLE
+	N034.49.50.950, E136.56.53.840
+
+
+
+##RJOO 14R
+#[departure7]
+#runway = rwy4, rev
+#
+#
+#route1 = 
+#	ASUKA4, Asuka Four
+##ITE R101 8DME (added)
+#	N034.46.53.000, E135.33.15.000
+##ASUKA
+#	N034.46.02.720, E136.01.54.730
+##SHTLE
+#	N034.49.50.950, E136.56.53.840
+#
+#
+#route2 = 
+#	CUE5, Otsu Five
+##ITE R101 8DME (added)
+#	N034.46.53.000, E135.33.15.000
+##ITE R101 @ CUE R206
+#	N034.45.43.000, E135.40.29.000
+##CUE
+#	N35.01.01.370, E135.49.33.610
+#
+#
+#route3 = 
+#	TIGER2.AWAJI, Tiger Two Awaji
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##AWAJI
+#	N034.16.13.090, E134.42.46.590
+##SUNNY
+#	N033.55.13.460, E134.12.47.540
+#
+#
+#route4 = 
+#	TIGER2.AYAME Y282, Tiger Two Ayame
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##SUMAR
+#	N034.42.31.940, E135.01.28.150
+##AYAME
+#	N034.36.01.690, E134.27.14.100
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##HIBIS
+#	N034.14.54.820, E134.07.30.020
+##OBOKE
+#	N034.00.53.910, E133.55.17.460
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+#
+#
+#route5 = 
+#	TIGER2.WASYU, Tiger Two Wahshu
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##SUMAR
+#	N034.42.31.940, E135.01.28.150
+##AYAME
+#	N034.36.01.690, E134.27.14.100
+##SETOH
+#	N034.32.25.340, E134.08.38.780
+##WASYU
+#	N034.28.17.500, E133.23.01.140
+#
+#
+#route6 = 
+#	TIGER2.SOUJA, Tiger Two Souja
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##SUMAR
+#	N034.42.31.940, E135.01.28.150
+##AYAME
+#	N034.36.01.690, E134.27.14.100
+##SETOH
+#	N034.32.25.340, E134.08.38.780
+##SOUJA
+#	N034.37.38.640, E133.44.22.480
+#
+#
+#route7 = 
+#	TIGER2.TOZAN, Tiger Two Tozan
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##ASAGI
+#	N035.02.37.240, E134.45.02.370
+##TOZAN
+#	N035.16.15.440, E134.29.04.170
+#
+#
+#route8 = 
+#	MINAC4, Mehnac Four
+##ITE R101 8DME (added)
+#	N034.46.53.000, E135.33.15.000
+##ITE R101 @ KCE R077
+#	N034.44.24.000, E135.48.36.000
+##MINAC
+#	N034.55.26.280, E136.10.26.370
+#	
+#
+##route9 = 
+##	TIGER2.BUMER, Tiger Two Bumer
+###ITE R201 @ YOE R301
+##	N034.42.48.000, E135.21.38.000
+###ITE R201 @ YOE R291
+##	N034.40.38.000, E135.20.37.000
+###TIGER
+##	N034.40.50.430, E135.10.16.700
+###YOE R291 @ KCE R311
+##	N034.46.36.000, E135.01.27.000
+###BUMER
+##	N034.45.22.720, E134.59.47.310
+###OLIVE
+##	N034.45.17.650, E134.27.00.240
+###OYE
+##	N034.45.01.380, E133.50.06.200
+#
+#
+##route10 = 
+##	TIGER2.ASAGI, Tiger Two Asagi
+###ITE R201 @ YOE R301
+##	N034.42.48.000, E135.21.38.000
+###ITE R201 @ YOE R291
+##	N034.40.38.000, E135.20.37.000
+###TIGER
+##	N034.40.50.430, E135.10.16.700
+###ASAGI
+##	N035.02.37.240, E134.45.02.370
+###FOSTA
+##	N035.08.32.910, E134.45.32.830
+###THE
+##	N035.31.04.660, E134.47.29.270
+
+
+
+#RJOO 32L
+[departure8]
+runway = rwy4
+
+
+route1 = 
+	ASUKA4, Asuka Four
+#ITE
+	N034.48.19.740N, E135.24.13.180
+#left turn after departure
+	N034.46.31.000, E135.23.22.000
+	N034.45.21.000, E135.27.16.000
+#ITE R101 8DME (added)
+	N034.46.53.000, E135.33.15.000
+#ASUKA
+	N034.46.02.720, E136.01.54.730
+#SHTLE
+	N034.49.50.950, E136.56.53.840
+
+
+route2 = 
+	CUE5, Otsu Five
+#ITE
+	N034.48.19.740N, E135.24.13.180
+#left turn after departure
+	N034.46.31.000, E135.23.22.000
+	N034.45.21.000, E135.27.16.000
+#ITE R101 8DME (added)
+	N034.46.53.000, E135.33.15.000
+#ITE R101 @ CUE R206
+	N034.45.43.000, E135.40.29.000
+#CUE
+	N35.01.01.370, E135.49.33.610
+
+
+route3 = 
+	TIGER2.AWAJI, Tiger Two Awaji
+#ITE R201 5DME
+	N034.43.40.000, E135.22.02.000
+#ITE R201 @ YOE R301
+	N034.42.48.000, E135.21.38.000
+#ITE R201 @ YOE R291
+	N034.40.38.000, E135.20.37.000
+#TIGER
+	N034.40.50.430, E135.10.16.700
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#AWAJI
+	N034.16.13.090, E134.42.46.590
+#SUNNY
+	N033.55.13.460, E134.12.47.540
+
+
+#route4 = 
+#	TIGER2.AYAME Y282, Tiger Two Ayame
+##ITE R201 5DME
+#	N034.43.40.000, E135.22.02.000
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##SUMAR
+#	N034.42.31.940, E135.01.28.150
+##AYAME
+#	N034.36.01.690, E134.27.14.100
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##HIBIS
+#	N034.14.54.820, E134.07.30.020
+##OBOKE
+#	N034.00.53.910, E133.55.17.460
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+
+
+route4 = 
+	TIGER2.WASYU, Tiger Two Wahshu
+#ITE R201 5DME
+	N034.43.40.000, E135.22.02.000
+#ITE R201 @ YOE R301
+	N034.42.48.000, E135.21.38.000
+#ITE R201 @ YOE R291
+	N034.40.38.000, E135.20.37.000
+#TIGER
+	N034.40.50.430, E135.10.16.700
+#SUMAR
+	N034.42.31.940, E135.01.28.150
+#AYAME
+	N034.36.01.690, E134.27.14.100
+#SETOH
+	N034.32.25.340, E134.08.38.780
+#WASYU
+	N034.28.17.500, E133.23.01.140
+
+
+route5 = 
+	TIGER2.SOUJA, Tiger Two Souja
+#ITE R201 5DME
+	N034.43.40.000, E135.22.02.000
+#ITE R201 @ YOE R301
+	N034.42.48.000, E135.21.38.000
+#ITE R201 @ YOE R291
+	N034.40.38.000, E135.20.37.000
+#TIGER
+	N034.40.50.430, E135.10.16.700
+#SUMAR
+	N034.42.31.940, E135.01.28.150
+#AYAME
+	N034.36.01.690, E134.27.14.100
+#SETOH
+	N034.32.25.340, E134.08.38.780
+#SOUJA
+	N034.37.38.640, E133.44.22.480
+
+
+route6 = 
+	TIGER2.TOZAN, Tiger Two Tozan
+#ITE R201 5DME
+	N034.43.40.000, E135.22.02.000
+#ITE R201 @ YOE R301
+	N034.42.48.000, E135.21.38.000
+#ITE R201 @ YOE R291
+	N034.40.38.000, E135.20.37.000
+#TIGER
+	N034.40.50.430, E135.10.16.700
+#ASAGI
+	N035.02.37.240, E134.45.02.370
+#TOZAN
+	N035.16.15.440, E134.29.04.170
+
+
+route7 = 
+	MINAC4, Mehnac Four
+#ITE
+	N034.48.19.740N, E135.24.13.180
+#left turn after departure
+	N034.46.31.000, E135.23.22.000
+	N034.45.21.000, E135.27.16.000
+#ITE R101 8DME (added)
+	N034.46.53.000, E135.33.15.000
+#ITE R101 @ KCE R077
+	N034.44.24.000, E135.48.36.000
+#MINAC
+	N034.55.26.280, E136.10.26.370
+	
+
+#route9 = 
+#	TIGER2.BUMER, Tiger Two Bumer
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##YOE R291 @ KCE R311
+#	N034.46.36.000, E135.01.27.000
+##BUMER
+#	N034.45.22.720, E134.59.47.310
+##OLIVE
+#	N034.45.17.650, E134.27.00.240
+##OYE
+#	N034.45.01.380, E133.50.06.200
+
+
+#route10 = 
+#	TIGER2.ASAGI, Tiger Two Asagi
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##ASAGI
+#	N035.02.37.240, E134.45.02.370
+##FOSTA
+#	N035.08.32.910, E134.45.32.830
+##THE
+#	N035.31.04.660, E134.47.29.270
+
+
+
+##RJOO 14R
+#[departure9]
+#runway = rwy5, rev
+#
+#
+#route1 = 
+#	ASUKA4, Asuka Four
+##ITE R101 8DME (added)
+#	N034.46.53.000, E135.33.15.000
+##ASUKA
+#	N034.46.02.720, E136.01.54.730
+##SHTLE
+#	N034.49.50.950, E136.56.53.840
+#
+#
+#route2 = 
+#	CUE5, Otsu Five
+##ITE R101 8DME (added)
+#	N034.46.53.000, E135.33.15.000
+##ITE R101 @ CUE R206
+#	N034.45.43.000, E135.40.29.000
+##CUE
+#	N35.01.01.370, E135.49.33.610
+#
+#
+#route3 = 
+#	TIGER2.AWAJI, Tiger Two Awaji
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##MAIKO
+#	N034.36.39.730, E134.59.49.060
+##AWAJI
+#	N034.16.13.090, E134.42.46.590
+##SUNNY
+#	N033.55.13.460, E134.12.47.540
+#
+#
+#route4 = 
+#	TIGER2.AYAME Y282, Tiger Two Ayame
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##SUMAR
+#	N034.42.31.940, E135.01.28.150
+##AYAME
+#	N034.36.01.690, E134.27.14.100
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##HIBIS
+#	N034.14.54.820, E134.07.30.020
+##OBOKE
+#	N034.00.53.910, E133.55.17.460
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+#
+#
+#route5 = 
+#	TIGER2.WASYU, Tiger Two Wahshu
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##SUMAR
+#	N034.42.31.940, E135.01.28.150
+##AYAME
+#	N034.36.01.690, E134.27.14.100
+##SETOH
+#	N034.32.25.340, E134.08.38.780
+##WASYU
+#	N034.28.17.500, E133.23.01.140
+#
+#
+#route6 = 
+#	TIGER2.SOUJA, Tiger Two Souja
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##SUMAR
+#	N034.42.31.940, E135.01.28.150
+##AYAME
+#	N034.36.01.690, E134.27.14.100
+##SETOH
+#	N034.32.25.340, E134.08.38.780
+##SOUJA
+#	N034.37.38.640, E133.44.22.480
+#
+#
+#route7 = 
+#	TIGER2.TOZAN, Tiger Two Tozan
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##ASAGI
+#	N035.02.37.240, E134.45.02.370
+##TOZAN
+#	N035.16.15.440, E134.29.04.170
+#
+#
+#route8 = 
+#	MINAC4, Mehnac Four
+##ITE R101 8DME (added)
+#	N034.46.53.000, E135.33.15.000
+##ITE R101 @ KCE R077
+#	N034.44.24.000, E135.48.36.000
+##MINAC
+#	N034.55.26.280, E136.10.26.370
+#	
+#
+##route9 = 
+##	TIGER2.BUMER, Tiger Two Bumer
+###ITE R201 @ YOE R301
+##	N034.42.48.000, E135.21.38.000
+###ITE R201 @ YOE R291
+##	N034.40.38.000, E135.20.37.000
+###TIGER
+##	N034.40.50.430, E135.10.16.700
+###YOE R291 @ KCE R311
+##	N034.46.36.000, E135.01.27.000
+###BUMER
+##	N034.45.22.720, E134.59.47.310
+###OLIVE
+##	N034.45.17.650, E134.27.00.240
+###OYE
+##	N034.45.01.380, E133.50.06.200
+#
+#
+##route10 = 
+##	TIGER2.ASAGI, Tiger Two Asagi
+###ITE R201 @ YOE R301
+##	N034.42.48.000, E135.21.38.000
+###ITE R201 @ YOE R291
+##	N034.40.38.000, E135.20.37.000
+###TIGER
+##	N034.40.50.430, E135.10.16.700
+###ASAGI
+##	N035.02.37.240, E134.45.02.370
+###FOSTA
+##	N035.08.32.910, E134.45.32.830
+###THE
+##	N035.31.04.660, E134.47.29.270
+
+
+
+#RJOO 32R
+[departure10]
+runway = rwy5
+
+
+route1 = 
+	ASUKA4, Asuka Four
+#ITE
+	N034.48.19.740N, E135.24.13.180
+#left turn after departure
+	N034.46.31.000, E135.23.22.000
+	N034.45.21.000, E135.27.16.000
+#ITE R101 8DME (added)
+	N034.46.53.000, E135.33.15.000
+#ASUKA
+	N034.46.02.720, E136.01.54.730
+#SHTLE
+	N034.49.50.950, E136.56.53.840
+
+
+route2 = 
+	CUE5, Otsu Five
+#ITE
+	N034.48.19.740N, E135.24.13.180
+#left turn after departure
+	N034.46.31.000, E135.23.22.000
+	N034.45.21.000, E135.27.16.000
+#ITE R101 8DME (added)
+	N034.46.53.000, E135.33.15.000
+#ITE R101 @ CUE R206
+	N034.45.43.000, E135.40.29.000
+#CUE
+	N35.01.01.370, E135.49.33.610
+
+
+route3 = 
+	TIGER2.AWAJI, Tiger Two Awaji
+#ITE R201 5DME
+	N034.43.40.000, E135.22.02.000
+#ITE R201 @ YOE R301
+	N034.42.48.000, E135.21.38.000
+#ITE R201 @ YOE R291
+	N034.40.38.000, E135.20.37.000
+#TIGER
+	N034.40.50.430, E135.10.16.700
+#MAIKO
+	N034.36.39.730, E134.59.49.060
+#AWAJI
+	N034.16.13.090, E134.42.46.590
+#SUNNY
+	N033.55.13.460, E134.12.47.540
+
+
+#route4 = 
+#	TIGER2.AYAME Y282, Tiger Two Ayame
+##ITE R201 5DME
+#	N034.43.40.000, E135.22.02.000
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##SUMAR
+#	N034.42.31.940, E135.01.28.150
+##AYAME
+#	N034.36.01.690, E134.27.14.100
+##SHION
+#	N034.25.42.120, E134.16.57.380
+##HIBIS
+#	N034.14.54.820, E134.07.30.020
+##OBOKE
+#	N034.00.53.910, E133.55.17.460
+##POPPY
+#	N033.49.05.070, E133.49.15.330
+
+
+route4 = 
+	TIGER2.WASYU, Tiger Two Wahshu
+#ITE R201 5DME
+	N034.43.40.000, E135.22.02.000
+#ITE R201 @ YOE R301
+	N034.42.48.000, E135.21.38.000
+#ITE R201 @ YOE R291
+	N034.40.38.000, E135.20.37.000
+#TIGER
+	N034.40.50.430, E135.10.16.700
+#SUMAR
+	N034.42.31.940, E135.01.28.150
+#AYAME
+	N034.36.01.690, E134.27.14.100
+#SETOH
+	N034.32.25.340, E134.08.38.780
+#WASYU
+	N034.28.17.500, E133.23.01.140
+
+
+route5 = 
+	TIGER2.SOUJA, Tiger Two Souja
+#ITE R201 5DME
+	N034.43.40.000, E135.22.02.000
+#ITE R201 @ YOE R301
+	N034.42.48.000, E135.21.38.000
+#ITE R201 @ YOE R291
+	N034.40.38.000, E135.20.37.000
+#TIGER
+	N034.40.50.430, E135.10.16.700
+#SUMAR
+	N034.42.31.940, E135.01.28.150
+#AYAME
+	N034.36.01.690, E134.27.14.100
+#SETOH
+	N034.32.25.340, E134.08.38.780
+#SOUJA
+	N034.37.38.640, E133.44.22.480
+
+
+route6 = 
+	TIGER2.TOZAN, Tiger Two Tozan
+#ITE R201 5DME
+	N034.43.40.000, E135.22.02.000
+#ITE R201 @ YOE R301
+	N034.42.48.000, E135.21.38.000
+#ITE R201 @ YOE R291
+	N034.40.38.000, E135.20.37.000
+#TIGER
+	N034.40.50.430, E135.10.16.700
+#ASAGI
+	N035.02.37.240, E134.45.02.370
+#TOZAN
+	N035.16.15.440, E134.29.04.170
+
+
+route7 = 
+	MINAC4, Mehnac Four
+#ITE
+	N034.48.19.740N, E135.24.13.180
+#left turn after departure
+	N034.46.31.000, E135.23.22.000
+	N034.45.21.000, E135.27.16.000
+#ITE R101 8DME (added)
+	N034.46.53.000, E135.33.15.000
+#ITE R101 @ KCE R077
+	N034.44.24.000, E135.48.36.000
+#MINAC
+	N034.55.26.280, E136.10.26.370
+	
+
+#route9 = 
+#	TIGER2.BUMER, Tiger Two Bumer
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##YOE R291 @ KCE R311
+#	N034.46.36.000, E135.01.27.000
+##BUMER
+#	N034.45.22.720, E134.59.47.310
+##OLIVE
+#	N034.45.17.650, E134.27.00.240
+##OYE
+#	N034.45.01.380, E133.50.06.200
+
+
+#route10 = 
+#	TIGER2.ASAGI, Tiger Two Asagi
+##ITE R201 @ YOE R301
+#	N034.42.48.000, E135.21.38.000
+##ITE R201 @ YOE R291
+#	N034.40.38.000, E135.20.37.000
+##TIGER
+#	N034.40.50.430, E135.10.16.700
+##ASAGI
+#	N035.02.37.240, E134.45.02.370
+##FOSTA
+#	N035.08.32.910, E134.45.32.830
+##THE
+#	N035.31.04.660, E134.47.29.270
+
+
+
+##RJOS 11
+#[departure11]
+#runway = rwy6, rev
+#
+#
+#route1 = 
+#	HONMA1.KILAP, Honma One Kilap
+##HATIS
+#	N034.01.38.500, E134.43.28.090
+##SIJIL
+#	N033.59.01.620, E134.46.25.230
+##HONMA
+#	N033.49.33.960, E134.57.03.960
+##KMANO
+#	N033.47.13.200, E135.07.24.410
+##KILAP
+#	N033.38.03.790, E136.45.35.280
+#
+#
+#route2 =	
+#	TSCR5 KTE UTAZU WASYU, Tokushima Reversal Five
+##TSC R160 5DME
+#	N034.03.05.000, E134.38.35.000
+##TSC R160 13DME
+#	N033.55.34.000, E134.41.52.000
+##TSC R170 14DME (added)
+#	N033.54.00.000, E134.39.27.000
+##TSC
+#	N34.07.47.000, E134.36.31.000
+##KTE
+#	N034.12.44.990, E134.01.21.330
+##UTAZU
+#	N034.18.03.780, E133.48.19.970
+##WASYU
+#	N034.28.17.500, E133.23.01.140
+
+
+
+#RJOS 29
+[departure12]
+runway = rwy6
+
+
+route1 = 
+	HONMA1.KILAP, Honma One Kilap
+#HATIS
+	N034.01.38.500, E134.43.28.090
+#SIJIL
+	N033.59.01.620, E134.46.25.230
+#HONMA
+	N033.49.33.960, E134.57.03.960
+#KMANO
+	N033.47.13.200, E135.07.24.410
+#KILAP
+	N033.38.03.790, E136.45.35.280
+
+
+route2 =	
+	TSCR5 KTE UTAZU WASYU, Tokushima Reversal Five
+#TSC R160 5DME
+	N034.03.05.000, E134.38.35.000
+#TSC R160 13DME
+	N033.55.34.000, E134.41.52.000
+#TSC R170 14DME (added)
+	N033.54.00.000, E134.39.27.000
+#TSC
+	N34.07.47.000, E134.36.31.000
+#KTE
+	N034.12.44.990, E134.01.21.330
+#UTAZU
+	N034.18.03.780, E133.48.19.970
+#WASYU
+	N034.28.17.500, E133.23.01.140
+
+
+route3 = 
+	MISAK1, Misaki One
+#TSC R143 12DME
+	N033.58.12.000, E134.45.13.000
+#HONMA
+	N033.49.33.960, E134.57.03.960
+#KEC
+	N033.26.51.870, E135.47.40.180
+
+
+route4 = 
+	TOSAR4, Tosar Four
+#TSC R160 5DME
+	N034.03.05.000, E134.38.35.000
+#TSC R160 13DME
+	N033.55.34.000, E134.41.52.000
+#TSC R187 20DME
+	N033.47.57.000, E134.33.35.000
+
+
+
+##RJOT 08
+#[departure13]
+#runway = rwy7, rev
+#
+#
+#route1 = 
+#	WASYU2, Wahshu Two
+##WASYU
+#	N034.28.17.500, E133.23.01.140
+#
+#
+#route2 = 
+#	OLIVE1.SHTLE, Olive One Shuttle
+##OLIVE
+#	N034.45.17.650, E134.27.00.240
+##HYOGO
+#	N034.51.30.620, E134.59.44.030
+##SANDA
+#	N034.55.50.200, E135.21.43.920
+##SHTLE
+#	N034.49.50.950, E136.56.53.840
+
+
+
+#RJOT 26
+[departure14]
+runway = rwy7
+
+
+route1 = 
+	WASYU2, Wahshu Two
+#WASYU
+	N034.28.17.500, E133.23.01.140
+#WASYU
+	N034.28.17.500, E133.23.01.140
+
+
+route2 = 
+	OLIVE1.SHTLE, Olive One Shuttle
+#OLIVE
+	N034.45.17.650, E134.27.00.240
+#HYOGO
+	N034.51.30.620, E134.59.44.030
+#SANDA
+	N034.55.50.200, E135.21.43.920
+#SHTLE
+	N034.49.50.950, E136.56.53.840
+
+
+route3 = 
+	TAROH2.MIHOU, Tah roh Two Me hou
+#TAROH
+	N034.43.01.090, E133.46.27.130
+#MIHOU
+	N035.31.52.020, E133.05.38.090
+
+
+#route4 = 
+#	SAYOH1.YME, Sah yoh One Miyazu
+#SAYOH
+#	N034.55.16.580, E134.21.36.250
+#CHIZU
+#	N035.01.46.16, E134.30.25.370
+#YME
+#	N035.28.50.490, E135.08.13.280
+
+
+
+##RJOY 27 (YOE N34.35.54.450, E135.35.37.340)
+#[departure15]
+#runway = rwy8
+#
+#
+#route1 = 
+#	ASUKA7, Asuka Seven
+##YOE R281 6DME
+#	N034.37.03.000, E135.28.28.000
+##YOE R281 7.1DME
+#	N034.37.15.000, E135.27.10.000
+##KCE R086 15DME
+#	N034.38.53.000, E135.31.53.000
+##ASUKA
+#	N034.46.02.720, E136.01.54.730
+##SHTLE
+#	N034.49.50.950, E136.56.53.840
+#
+#
+#route2 = 
+#	IZUMI2 IZUMI V55 KEC, E zumi Two
+##YOE R229 6DME
+#	N034.31.58.000, E135.30.08.000
+##IZUMI
+#	N034.26.28.540, E135.25.31.280
+##IYOKA
+#	N034.22.18.420, E135.25.46.100
+##OSAMU
+#	N034.18.17.590, E135.26.00.360
+##NORAN
+#	N033.58.00.890, E135.27.12.060
+##KEC
+#	N033.26.51.870, E135.47.40.180
+#
+#
+#route3 = 
+#	IZUMI2 V55 YME, E zumi Two
+##YOE R229 6DME
+#	N034.31.58.000, E135.30.08.000
+##IZUMI
+#	N034.26.28.540, E135.25.31.280
+##ITE
+#	N034.48.19.740N, E135.24.13.180
+##SANDA
+#	N034.55.50.200, E135.21.43.920
+##ROKKO
+#	N035.07.00.560, E135.18.00.920
+##YME
+#	N035.28.50.490, E135.08.13.280
+#
+#
+#route4 = 
+#	IZUMI2 IZUMI MIKAN TSC KULUL KTE, E zumi Two
+##YOE R229 6DME
+#	N034.31.58.000, E135.30.08.000
+##IZUMI
+#	N034.26.28.540, E135.25.31.280
+##MIKAN
+#	N034.15.48.790, E135.14.09.960
+##TSC
+#	N034.07.47.000, E134.36.31.000
+##KULUL
+#	N034.09.54.740, E134.21.31.220
+##KTE
+#	N033.26.51.870, E135.47.40.180
+#
+#
+#route5 = 
+#	IZUMI2 V55 SANDA V28 OYE, E zumi Two
+##YOE R229 6DME
+#	N034.31.58.000, E135.30.08.000
+##IZUMI
+#	N034.26.28.540, E135.25.31.280
+##ITE
+#	N034.48.19.740N, E135.24.13.180
+##SANDA
+#	N034.55.50.200, E135.21.43.920
+##HYOGO
+#	N034.51.30.620, E134.59.44.030
+##ASANO
+#	N034.47.34.410, E134.38.47.680
+##OLIVE
+#	N034.45.17.650, E134.27.00.240
+##OYE
+#	N034.45.01.380, E133.50.06.200
+
+
+
+
+[configurations]
+config1 = 
+	0, rwy1, landstart
+	0, rwy3, landstart
+	0, rwy4, landstart, 201
+	0, rwy2, landstart
+	0, rwy5, landstart, 201
+	0, rwy6, landstart
+	0, rwy7, landstart, 260
+#	0, rwy8, landstart
+#
+#config2 = 
+#	0, rwy1, landstartrev
+#	0, rwy3, landstartrev
+#	0, rwy4, landstart
+#	0, rwy2, landstartrev
+#	0, rwy5, landstart
+#	0, rwy6, landstart
+#	0, rwy7, landstart, 260
+#	0, rwy8, landstart
+#
+#config3 = 
+#	0, rwy1, landstartrev
+#	0, rwy3, landstartrev
+#	0, rwy4, landstartrev
+#	0, rwy2, landstartrev
+#	0, rwy5, landstartrev
+#	0, rwy6, landstart
+#	0, rwy7, landstart, 260
+#	0, rwy8, landstart
+
+
+[planetypes]
+types = 
+	hdjt, 6, 140, 360, 2.8, 3.2, 1500, 1800, 115, 125, 1.3, 1.5, honda jet
+	be9l, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
