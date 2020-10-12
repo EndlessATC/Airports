@@ -1,8 +1,115 @@
-# This is an automatically generated airport file for Endless ATC.
-# Feel free to improve, use and share this file, at your own risk.
-# Data from ourairports.com.
+# Kansai (RJBB) ACA.
+# by ckwng
+
+# 5 airports, RJBB, RJOO, RJBE, RJOS, and RJOT are currently represented.
+# Currently RJOY, RJOB are not included.
+
+# (most of) Tokushima ACA is treated as part of Kansai ACA for gameplay reasons.
+# the ACA is extended north of ROKKO and east of SINGU/KODAI for gameplay reasons.
+# Kansai ACA also includes RJOK, but RJOK and the southwestern Kansai ACA is omitted for gameplay reasons (too far away from RJBB). Flight routes from RJOO/RJBB (via AYAME/HIBIS respectively) to RJOK are also not represented.
+
+# Inbound aircraft are intended to fly the STAR with spacing by speed and shortcut clearances to specific fixes.
+# Outbound aircraft are intended to fly the SID as automatically assigned.
+
+# Please note that although efforts have been made to stay true to reality, aspects may not be realistic due to lack of information / game restrictions.
+
+# please note "fly the star from <waypoint>" below means to proceed direct to <waypoint> and enable approach mode. The actual initial fix of the STAR may be before <waypoint>.
+# (example, GINJI arrivals to RJBE flying the STAR from TRACY will fly GINJI WAKIT TRACY SIOJI ILS RWY9 circle to land RWY27.)
+
+# Data from AIP JAPAN ~2020/10/03.
 # Coastline from naturalearthdata.com.
-# See the example.txt airport for all possible sections and items to add to this file.
+
+# ------------------------------------- RJBB -------------------------------------
+# runway configuration is currently fixed to 24L/24R. 
+# all approaches are for 24L, disable approach mode after turn to intercept to land 24R.
+
+# arrivals enter the ACA at ALISA, BERTH, BECKY, CANDY, SINGU
+# approaches are available at these inbound fixes.
+# approaches are also available at LILAC and MAYAH.
+# direct to LILAC can be used to space inbound aircraft.
+# direct to MAYAH can be applied for ALISA arrivals as well, but take care to avoid the KOBE PCA up to 5000.
+# arrivals should descend to 4000 after AWAJI (the fix before LILAC) due to departures to the west overhead.
+# arrivals should pass MAYAH at 4000 and descend as per the approach due to traffic in/out of RJBE.
+# use caution for south and southwest arrivals, recommend descent 11000 upon entering ACA to pass under RJOO southwest arrivals.
+# use caution for SINGU arrivals, handoffs occur over CHUBU ACA and the airspace up to 12000 belong to CHUBU ACA
+# missed approaches @ 24R can proceed to hold at LILAC @ 3000.
+# missed approaches @ 24L can proceed to hold at GATES @ 4000.
+# holding is available at ALISA, BERTH, BECKY, CANDY, DANDE, LILAC, MAYAH. extra holding available at AKASI, GATES, KNE.
+
+# departures will potentially conflict with arrivals from LILAC to MAYAH because departures in this game cannot be speed-restricted.
+# departures from 24L will generally be fine, but departures from 24R larger than B737/A320 will generally require an expedite to 6000/8000 feet.
+# use caution for departures to the south interacting with CANDY/DANDE arrivals and RJOO arrivals via KAINA, as well as RJOS TSC reversal departures.
+# use caution for departures to the west interacting with RJOO departures over MAIKO (near SIOJI, east of AKASI), and both RJOO/RJBE departures further west on their way towards WASYU/SOUJA/HABAR.
+# use caution for departures to the southwest interacting with RJBE departures over Awaji island.
+
+
+# ------------------------------------- RJOO -------------------------------------
+# runway configuration is currently fixed to 32L/32R.
+# generally parallel approaches are not possible in reality, but possible in game with manual vectoring.
+# generally aircraft larger than b737/a320 cannot land or depart 32R, but possible in game.
+
+# arrivals enter the ACA from the north at ROKKO (two directions), from the southwest of KAINA (4 directions), and from the east at KODAI.
+# all arrivals enter the ACA inbound IZUMI due to game restrictions.
+# approaches are available at KODAI, ROKKO, and IZUMI.
+# southwest and east arrivals should fly the STAR from IZUMI.
+# use caution for southwest arrivals, multiple arrival routes merging at BECKY, MIRIO (just after BECKY) and KAINA, interacting with RJBB arrivals and RJOS departures southeast of TSC. Recommend 12000 upon entering ACA to pass over RJBB arrivals until passing RJBB DANDE arrival path.
+# use caution for east arrivals, handoffs occur over CHUBU ACA and the airspace up to 12000 belong to CHUBU ACA, recommend speed < 220 for descent.
+# north arrivals should fly the STAR from ROKKO or KODAI.
+# use caution for north arrivals, crossing under RJBE/RJOT arrivals from the east at ROKKO, min altitude 7000 until KAMEO for terrain, recommend 5000 after KAMEO due to eastbound departures overhead.
+# missed approaches can proceed to hold at IZUMI @ 3000.
+
+# departures should always start with a turn to the left to avoid mountains after takeoff (occasionally departures turn right, looking to fix this in a future version)
+# use caution for departures to the west/southwest interacting with RJBB departures over MAIKO (near SIOJI, east of AKASI), and both RJBB/RJBE departures further west on their way towards WASYU/SOUJA.
+# use caution for departures to the northwest interacting with RJBE/RJOT traffic.
+
+
+# ------------------------------------- RJBE -------------------------------------
+# runway configuration is currently fixed to 27.
+# generally vectors to ILS not available to 27, arrivals should fly the ILS 09 circle to land 27 via SIOJI.
+
+# arrivals enter the ACA from the north at WAKIT, east at GINJI (near ROKKO), and southwest at BERTH/BECKY.
+# all arrivals enter the ACA inbound TSC due to game restrictions.
+# approaches are available at TRACY, KAKEF, and SIOJI.
+# southwest arrivals should fly the STAR from KAKEF upon entering the ACA.
+# north and east arrivals should fly the STAR from TRACY upon entering the ACA.
+# use caution for east arrivals, RJOO arrivals passing underneath at GINJI.
+# southwest arrivals can proceed direct to TRACY for spacing, and all arrivals can proceed direct to SIOJI as well.
+# you may need to descend arrivals to 2000 after SIOJI to clear opposite direction traffic departing from RWY 27.
+# *********** circle to land RWY 27 arrivals may not be able to maintain separation from all RJBB arrivals descending after MAYAH. By stacking RJBE arrivals under and 1-2NM in front of an RJBB arrival, separation should be able to be maintained.
+# holding is available at BERTH, BECKY, TRACY, SIOJI. additional holding available at AKASI.
+# missed approaches can proceed to hold at SIOJI @ 3000.
+
+# departures should maintain 3000 or lower upon takeoff until clear of RJBB arrivals passing MAYAH at 4000. 
+# use caution for departures to the west interacting with both RJBB/RJBE departures west of MAIKO on their way towards WASYU/SOUJA.
+# use caution for departures to the southwest interacting with RJBB departures over Awaji island.
+# use caution for departures to the north/east interacting with RJBE arrivals, RJOO departures and RJOT traffic.
+
+
+# ------------------------------------- RJOS -------------------------------------
+# runway configuration is currently fixed to 29
+
+# arrivals enter the ACA from the east at SINGU, south at JOSIN (SSE from TSC), and west at BERTH.
+# all arrivals enter the ACA inbound TSC due to game restrictions.
+# approaches are available at TSC, DATIS.
+# all arrivals should fly the STAR from TSC upon arrival into ACA.
+# missed approaches can proceed to hold at TSC @ 3000.
+
+# use caution for departures to the north via the reversal departure and to the south to TOSAR interacting with arrivals above.
+# use caution for departures to the east and southeast via HONMA interacting with RJBB CANDY arrivals and RJOO arrivals.
+
+# ------------------------------------- RJOT -------------------------------------
+# runway configuration is currently fixed to 26.
+
+# arrivals enter the ACA from the northwest at OYE, west at TAKMA, northeast at WAKIT, and east at GINJI (near ROKKO).
+# all arrivals enter the TCA inbound KTE due to game restrictions.
+# approaches are available at WAKIT and KTE.
+# northeast/east arrivals should proceed direct to WAKIT and fly the STAR from WAKIT upon entering the ACA.
+# use caution for east arrivals, RJOO arrivals passing underneath at GINJI.
+# northwest/west arrivals should fly the STAR from KTE.
+# missed approaches can proceed to hold at KTE @ 5000.
+
+# use caution for departures to the north interacting with RJOT north arrivals.
+# use caution for departures to the east interacting with RJOO departures and RJBE/RJOT traffic.
 
 [airspace]
 radius = 80
@@ -21,26 +128,12 @@ center = N34.3572994995, E135
 magneticvar = -7.076
 beacons =
 	KNE, N34.25.48.310, E135.15.06.420, 281, Kahnsai
-#	KN, N34.49510, E135.34500, 0, Kansai
-#	SK, N34.49130, E135.44400, 0, Shinoda
-#	SKE, N34.49190, E135.44800, 0, Shinoda
 	KCE, N34.37.51.580, E135.13.42.450, 0, Koh beh
-#	TOMOH, N034.16.49.600, E135.00.20.300, 0, Tomo
 	YOE, N34.35.54.450, E135.35.37.340, 0, Ya oh
-#	RK, N34.68650, E135.55099, 0, Osaka
 	ITE, N034.48.19.740N, E135.24.13.180, 0, E tah mi
-#	SIE, N34.62840, E135.66200, 0, Shigi
-#	OW, N34.80550, E135.40401, 0, Itami
-#	AJE, N34.27030, E134.71300, 0, Awaji
-#	GBE, N33.91010, E135.10600, 0, Goboh
 	TSC, N34.07.47.000, E134.36.31.000, 80, Tokushima
-#	TS, N34.12810, E134.60600, 0, Tokushima
-#	KJT, N34.00410, E134.62601, 0, Komatsujima
-#	KJ, N33.97690, E134.64900, 0, Komatsujima
 	CUE, N35.01.01.370, E135.49.33.610, -108, Oh tsu
 	NKE, N033.39.40.550, E135.21.33.890, 0, Nahn ki
-#	STE, N34.51240, E134.27400, 0, Shodo
-#	CU, N35.05030, E135.87100, 0, Otsu
 	KEC, N033.26.51.870, E135.47.40.180, 83, Kushimoto
 	KTE, N034.12.44.990, E134.01.21.330, 84, Kagawa
 	YME, N035.28.50.490, E135.08.13.280, 0, Miyazu
@@ -1357,7 +1450,7 @@ points =
 #area north of KANSAI ACA under extension
 [area49]
 shape = polygon
-altitude = 12001
+altitude = 6001
 name = JJ
 labelpos = N035.16.22.000, E135.18.15.000
 points = 
