@@ -5,7 +5,7 @@
 # See the example.txt airport for all possible sections and items to add to this file.
 
 [airspace]
-radius = 90
+radius = 100
 zoom = 1
 elevation = 21
 floor = 900
@@ -260,12 +260,16 @@ sids =
 	BEKLA, N35.49.58.66, E139.10.09.50, Bekla
 	RITLA, N35.39.44.78, E139.08.13.11, Ritla
 	NINOX, N35.29.53.44, E139.09.53.06, Ninox
-	LAXAS, N35.01.53.07, E139.14.32.78, Laxas
-	AKAGI, N36.23.28.33, E139.41.56.28, Akagi
+	KAGNA, N34.59.16.28, E138.59.03.81, Kagna
+#	AKAGI, N36.23.28.33, E139.41.56.28, Akagi
+	CLARK, N36.07.02.03, E139.48.00.47, Clark
 	AGRIS, N36.25.14.70, E139.56.33.13, Agris
 	GULBO, N35.26.32.86, E141.45.09.55, Gulbo
 	BORLO, N35.16.33.77, E141.44.55.61, Borlo
+	NURLI, N34.11.51.14, E139.29.47.90, Nurli
 #only for drawing minor fixes
+	VAMOS, N35.12.15.47, E139.45.43.64, Vamos
+	LAXAS, N35.01.53.07, E139.14.32.78, Laxas
 	ROVER, N35.59.18.31, E139.50.59.27, Rover
 	SELNO, N034.17.03.620, E139.07.28.680, Selno
 	DOLBA, N034.42.02.980, E141.26.07.080, Dolba
@@ -274,7 +278,7 @@ sids =
 	TEDIX, N036.37.51.810, E140.19.37.410, Tedix
 	LUTNA, N034.17.53.600, E140.09.33.98, Lutna
 	RURER, N034.29.24.72, E140.42.01.15, Rurer
-	ANSAD, N031.35.28.370, E130.07.47.190, Ansad
+	ANSAD, N34.41.47.92, E141.42.44.41, Ansad
 	RUSDA, N035.56.47.490, E140.57.29.870, Rusda
 	ESKEN, N036.05.01.090, E140.41.22.760, Esken
 	TOPIT, N034.11.41.450, E139.59.42.200, Topit
@@ -312,7 +316,7 @@ entrypoints =
 	0, GODIN
 	0, GODIN
 #Y807 LALID Y807 POLIX
-	63, MILIT
+	65, MILIT
 
 airlines = 
 #rjcc
@@ -445,8 +449,8 @@ entrypoints =
 	200
 	200
 #Y813 LUBLA
-#	105, LUBLA
-	105
+#	110, LUBLA
+	110
 #Y30 SWAMP/(R211 SWAMP)
 #	12, SWAMP
 	12
@@ -454,8 +458,8 @@ entrypoints =
 	12
 	12
 #Y809 SUPOK
-#	75, SUPOK
-	75
+#	73, SUPOK
+	73
 
 airlines = 
 	ana, 8, b77w, all neeppon, nse
@@ -1462,7 +1466,7 @@ altitude = 2001
 name = TL
 radius = 5
 position = N35.47.56, E140.00.44
-labelpos = N35.48.56, E139.57.44
+labelpos = N35.48.56, E140.03.44
 
 #TATEYAMA CTR 2000/GND
 [area49]
@@ -1989,7 +1993,7 @@ route1 =
 #CLARK
 	N36.07.02.03, E139.48.00.47
 #AKAGI
-	N36.23.28.33, E139.41.56.28
+#	N36.23.28.33, E139.41.56.28
 
 #ROVER1B.AGRIS
 route2 = 
@@ -2174,7 +2178,7 @@ route3 =
 #NINOX
 	N35.29.53.44, E139.09.53.06
 
-#LAXAS3
+#LAXAS3 Y56
 route4 = 
 	LAXAS3, Laxas Three
 #TT501
@@ -2189,6 +2193,26 @@ route4 =
 	N35.04.25.95, E139.29.50.95
 #LAXAS
 	N35.01.53.07, E139.14.32.78
+#KAGNA
+	N34.59.16.28, E138.59.03.81
+
+#VAMOS3.XAC B586
+route5 = 
+	VAMOS3, Vamos Three Oh shima
+#TT501
+	N35.33.28.7, E139.50.29.9
+#TT502
+	N35.32.24.4, E139.57.20.7
+#LOCUP
+	N35.27.18.82, E139.56.08.52
+#VAMOS
+	N35.12.15.47, E139.45.43.64
+#DRAKY
+	N34.53.01.73, E139.32.05.46
+#XAC
+	N34.42.44.11, E139.24.50.46
+#NURLI
+	N34.11.51.14, E139.29.47.90
 
 [departure3]
 runway = rwy1, rev
@@ -2237,7 +2261,7 @@ route3 =
 #NINOX
 	N35.29.53.44, E139.09.53.06
 
-#LAXAS3
+#LAXAS3 Y56
 route4 = 
 	LAXAS3, Laxas Three
 #T6R11
@@ -2248,6 +2272,22 @@ route4 =
 	N35.04.25.95, E139.29.50.95
 #LAXAS
 	N35.01.53.07, E139.14.32.78
+#KAGNA
+	N34.59.16.28, E138.59.03.81
+
+#VAMOS3.XAC B586
+route5 = 
+	VAMOS3, Vamos Three Oh shima
+#T6R11
+	N35.25.52.5, E139.51.37.2
+#VAMOS
+	N35.12.15.47, E139.45.43.64
+#DRAKY
+	N34.53.01.73, E139.32.05.46
+#XAC
+	N34.42.44.11, E139.24.50.46
+#NURLI
+	N34.11.51.14, E139.29.47.90
 
 [departure4]
 runway = rwy3, rev
@@ -2270,7 +2310,7 @@ route1 =
 #CLARK
 	N36.07.02.03, E139.48.00.47
 #AKAGI
-	N36.23.28.33, E139.41.56.28
+#	N36.23.28.33, E139.41.56.28
 
 #ROVER1B.AGRIS
 route2 = 
