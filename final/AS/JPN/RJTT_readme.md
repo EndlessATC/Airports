@@ -185,3 +185,5 @@ There are two simple runway configurations:
 	- Adjusted entry points
 	- Adjust label for Shimofusa CTR
 	- Add readme
+*	1.3.1 - 2020/10/25
+	- Correct CCA callsign pronunciation for RJAA
