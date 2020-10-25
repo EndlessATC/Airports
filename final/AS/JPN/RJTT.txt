@@ -485,7 +485,7 @@ airlines =
 	abl, 2, a320/a321/a21n, air busan, w
 	aci, 1, a339, air calin, e
 	aca, 1, b77w/b788/b789, air canada, ne
-	cca, 2, a332/a333/b772
+	cca, 2, a332/a333/b772, air china, w
 	afr, 1, b77w, air france, n
 	aic, 1, b788, air india, w
 	amu, 1, a320/a20n/a321/a20n, air macau, w
