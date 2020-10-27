@@ -52,7 +52,7 @@ There are four runways:
 
 A few different configurations are used in real operations, but only two are available in this version of RJTT ACA:
 
--	Landing 34L/34R, departing 34R/23
+-	Landing 34L/34R, departing 34R/05
 	
 	In general, arrivals from the southwest (XAC, AKSEL, AROSA) land 34L and arrivals from the northeast (GODIN, POLIX) land 34R. Departures to the northeast takeoff from 34R, and departures to the southwest takeoff from 05 in general.
 
