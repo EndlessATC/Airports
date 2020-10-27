@@ -1,4 +1,4 @@
-# RJTT ACA 1.2
+# RJTT ACA 1.3.1
 
 This is an implementation of the TOKYO ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring RJTT Tokyo International Airport (commonly referred to as Haneda) and RJAA Narita International Airport.
 
