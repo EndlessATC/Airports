@@ -6,22 +6,39 @@ Use a text editor, together with the included example.txt file as a guide, to cr
 
 ## Contributing
 1. Open an issue describing the work you want to do (or want done, but it will be faster if you participate!)
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+2. For this repository
+3. Clone your fork to your computer so you can work on it
+4. Set this repository to be the upstream repository of your fork
+5. Ensure your repository has the most recent changes from upstream
+6. Create a branch in your repository: `git checkout -b iss#/desc` where the open issue and description are both included
+7. Make local changes until your repository contains all completed work
+8. Commit your changes: `git commit -am 'iss#/desc - closes iss#'` Use [keywords](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to assist with linking issues and pull requests
+9. Push to your branch: `git push origin iss#/desc`
+10. Submit a pull request from your fork to the upstream repository
+
+Note, many editors and GUI git clients will help and even combine many of these commands. Refer to the documentation for whichever application you are using as well as [this guide](https://www.dataschool.io/how-to-contribute-on-github/) with any questions. If you are connected to our [Discord server](https://discord.gg/v4wDGh3), feel free to ask for help in #github-help
+
+We are thrilled to accept new and updated airports. We also would welcome markdown files in the [GitHub wiki](https://github.com/AdamJCavanaugh/EndlessATCAirports/wiki) with gameplay tips - especially for more advanced usage (such as STAR) - and development tips/guidelines. Those who wish to volunteer to test updates before they are finalized should open an issue to volunteer.
+
+Finally, all players, testers, and developers are encouraged to join our [Discord server](https://discord.gg/v4wDGh3) for extra assistance and information.
 
 ## Directory/file naming
 1. All files that have been customized should be placed in the final folder.
-2. The directory structure below that follows ISO 3166-3 naming conventions in continent/country
-3. The file should have the four character ICAO code
-4. "Fantasy" or other airports that cannot be placed in this structure should go into final/custom
-For example, Zurich airport is placed in final/EU/CHE/LSZH.txt. Los Angeles is placed in final/US/CA/KLAX.txt
+2. The directory structure below that follows the continent abbreviation found [here](https://datahub.io/core/continent-codes)
+3. The directory structure below that follows [ISO 3166-3 naming conventions](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3) for the country or state
+4. If there are a large number of airports, still, you or the reviewers may use 1 further directory, such as a USA state.
+5. The file should have the four character [ICAO code](https://airportcodes.aero/-/list-icao-codes), with a .txt extension
+6. "Fantasy" or other airports that cannot be placed in this structure should go into final/custom
+For example, Zurich airport is placed in `final/EU/CHE/LSZH.txt`. Los Angeles is placed in `final/NA/USA/CA/KLAX.txt` as there are large number of airports in "USA."
 
 ## Extra file information
 It is highly encourage to remove the first seven lines of comments, since we are no longer using an "automatically generated airport file" at this point.
+
 Is it encouraged to cite any references that you used while creating your file, including the airchart, airliner data, and even airport website.
+
 If you wish to include personal information (such as your contact information), this is allowed, although not necessary.
+
+It may be best to add a markdown file with the same airport code in the same directory with references, information, and a change log (e.g. `final/EU/CHE/LSZH.md`)
 
 ## Credits
 [startgrid](https://startgrid.itch.io/)
