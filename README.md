@@ -12,7 +12,7 @@ Use a text editor, together with the included example.txt file as a guide, to cr
 5. Ensure your repository has the most recent changes from upstream
 6. Create a branch in your repository: `git checkout -b iss#/desc` where the open issue and description are both included
 7. Make local changes until your repository contains all completed work
-8. Commit your changes: `git commit -am 'iss#/desc - Work'`
+8. Commit your changes: `git commit -am 'iss#/desc - closes iss#'` Use [keywords](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to assist with linking issues and pull requests
 9. Push to your branch: `git push origin iss#/desc`
 10. Submit a pull request from your fork to the upstream repository
 
