@@ -6,12 +6,19 @@ Use a text editor, together with the included example.txt file as a guide, to cr
 
 ## Contributing
 1. Open an issue describing the work you want to do (or want done, but it will be faster if you participate!)
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+2. For this repository
+3. Clone your fork to your computer so you can work on it
+4. Set this repository to be the upstream repository of your fork
+5. Ensure your repository has the most recent changes from upstream
+6. Create a branch in your repository: `git checkout -b iss#/desc` where the open issue and description are both included
+7. Make local changes until your repository contains all completed work
+8. Commit your changes: `git commit -am 'iss#/desc - closes iss#'` Use [keywords](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) to assist with linking issues and pull requests
+9. Push to your branch: `git push origin iss#/desc`
+10. Submit a pull request from your fork to the upstream repository
 
-We are thrilled to accept new and updated airports. We also would welcome markdown files with gameplay tips - especially for more advanced usage (such as STAR) - and development tips/guidelines. Those who wish to volunteer to test updates before they are finalized should open an issue to volunteer.
+Note, many editors and GUI git clients will help and even combine many of these commands. Refer to the documentation for whichever application you are using as well as [this guide](https://www.dataschool.io/how-to-contribute-on-github/) with any questions. If you are connected to our (unofficial) Discord server, feel free to ask for help in #github-help
+
+We are thrilled to accept new and updated airports. We also would welcome markdown files in the [GitHub wiki](https://github.com/AdamJCavanaugh/EndlessATCAirports/wiki) with gameplay tips - especially for more advanced usage (such as STAR) - and development tips/guidelines. Those who wish to volunteer to test updates before they are finalized should open an issue to volunteer.
 
 Finally, all players, testers, and developers are encouraged to open an issue for access to the (unofficial) Discord server for extra assistance and information.
 
