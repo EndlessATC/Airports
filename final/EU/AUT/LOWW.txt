@@ -231,6 +231,12 @@ config4 =
 	8, rwy2, startrev
 	10, rwy2, startlandrev
 
+config5 =
+	0, rwy1, startrev
+	0, rwy2, landrev
+	8, rwy2, startlandrev
+	10, rwy1, startlandrev
+
 [departure1]
 # RW11
 runway = rwy1
