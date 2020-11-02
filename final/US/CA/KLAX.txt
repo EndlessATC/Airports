@@ -104,7 +104,7 @@ entrypoints =
 	030, emt
 
 [airport2]
-name = Long Beach /Daugherty Field/ Airport
+name = Long Beach Daugherty Field Airport
 code = LB
 runways =
 	rwy7, 08L, N33.8228, W118.164, 90.2, 6192, 1305, 531, 52
