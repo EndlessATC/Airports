@@ -1,8 +1,8 @@
-# RJTT ACA 1.3.1
+# RJTT ACA 2.0.0
 
 This is an implementation of the TOKYO ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring RJTT Tokyo International Airport (commonly referred to as Haneda) and RJAA Narita International Airport.
 
-Based upon AIP Japan 2020/10/08. The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting IFR conditions and daytime environment.
+Based upon AIP Japan 2020/10/08. The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented.
 
 To activate a STAR, a plane must be flying direct to an applicable fix, then the APP button can be activated.
 
@@ -17,16 +17,16 @@ The main airport of this sector. Previously only handling domestic traffic and v
 
 There is custom traffic for RJTT. The proportions are very much estimates but shouldn't be too far off from reality.
 
-Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is UTIBO for 34L/23 and KASGA for 34R/22.
+Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is UTIBO for 34L/23/16R, KASGA for 34R/22, and SNOKE for 16L.
 
 Aircraft arrive at 6 points:
 
 - SPENS -> XAC (west from western Japan, Korea, Northern China)
-- SELNO -> RUNSO (-> AKSEL) (south west from southwestern Japan, Okinawa, Southeast Asia)
+- SELNO -> RUNSO -> AKSEL (south west from southwestern Japan, Okinawa, Southeast Asia)
 - TOPIT -> LUTNA -> RURER -> AROSA (south from Hachijojima, Indonesia/Australia)
 - DOLBA -> AROSA (southeast from oceanic, Australia/NZ/Pacific islands, Guam)
-- TEDIX -> GODIN (-> CHIPS) (north from northern Japan, Russia, Europe, east NA)
-- LALID -> MILIT -> RUSDA -> ESKEN -> POLIX (-> CHIPS) (east from oceanic, west NA/SA, Hawaii)
+- TEDIX -> GODIN (north from northern Japan, Russia, Europe, east NA)
+- LALID -> MILIT -> RUSDA -> ESKEN -> POLIX (east from oceanic, west NA/SA, Hawaii)
 
 Aircraft depart via:
 
@@ -50,7 +50,7 @@ There are four runways:
 - 16L/34R (RWY C)
 - 05/23 (RWY D)
 
-A few different configurations are used in real operations, but only two are available in this version of RJTT ACA:
+A few different configurations are used in real operations; four are available in this version of RJTT ACA:
 
 -	Landing 34L/34R, departing 34R/05
 	
@@ -60,17 +60,17 @@ A few different configurations are used in real operations, but only two are ava
 
 	Approaches to 34L (RWY *A*) and 34R (RWY *C*) are available using APP mode from *A*RLON and *C*REAM respectively, with transitions from ARLON or CREAM depending whether the aircraft is approaching from the south or the east.
 
-	STARS are available using approach mode from XAC, RUNSO, AROSA, and \**CHIPS*\*. STARS to 34L/34R implement a point merge system around WEDGE for 34L and CREAM for 34R. Aircraft fly an arc around a point (WEDGE/CREAM), and you can sequence planes by directing planes to proceed direct WEDGE/CREAM and activate APP mode. 
+	STARS are available using APP mode from XAC, RUNSO, AROSA, GODIN, MILIT, and many other intermediate points on the STARs. STARS to 34L/34R implement a point merge system around WEDGE for 34L and CREAM for 34R. Aircraft fly an arc around a point (WEDGE/CREAM), and you can sequence planes by directing planes to proceed direct WEDGE/CREAM and activate APP mode. By default south arrivals fly STARs and approaches to 34L, but you can engage APP mode from CLONE to have planes swing wide of the WEDGE arc to join the CREAM arc for 34R.
 
-	Note that FL130 arrivals from XAC will conflict with FL120 arrivals from AKSEL when descending from the point merge arc to meet the =8000 restriction at WEDGE. Either descend the AKSEL arrival (watch out for AROSA arrivals at FL110) or prioritize the AKSEL arrival over the XAC arrival. Also watch for AROSA arrivals conflicting with arrivals to RJAA.
+	Note that higher arrivals will conflict with lower arrivals when descending from the point merge arc to meet the =8000 restriction at WEDGE. Either descend the lower arrival (watch out for further lower arrivals) or prioritize the lower arrival over the higher arrival. Also watch for AROSA arrivals conflicting with arrivals to RJAA.
 
-	\***Departures to the west and north will need to handed off before they reach the boundary of the ACA**, *as they will NOT climb out of the ACA.*\*
+	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
 
-	Note that the normal runway operation for 34L/34R arrivals (HIGHWAY VISUAL 34R and ILS X 34L from KAIHO) is not possible to implement due to the lack of visual approaches in the game and the fact that aircraft joining the parallel ILS above RJTK Kisarazu would conflict as they are at the same altitude. Therefore the approaches depicted are illustrative of IFR conditions necessitating the use of long ILS approaches for both runways.
+	Note that the normal runway operation for 34L/34R arrivals (HIGHWAY VISUAL 34R and ILS X 34L from KAIHO) is not possible to implement due to the lack of visual approaches in the game and the fact that aircraft joining the parallel ILS above RJTK Kisarazu would conflict as they are at the same altitude. Therefore the approaches depicted are illustrative of IMC conditions necessitating the use of parallel ILS approaches.
 
-	For an extra challenge, try routing ANA/VIP flights to 34R (T2/VIP area) and JAL/international/GA/JCAB flights to 34L (T1/T3/N area).
+	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 34R (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 34L (T1/T3/N area).
 
--	Landing 22/23, departing 16L/16R
+-	Landing 22/23 (ILS), departing 16L/16R
 	
 	In general, arrivals from the southwest (XAC, AKSEL, AROSA) land **\*22\*** and arrivals from the northeast (GODIN, POLIX) land **\*23\***. Departures to the northeast takeoff from 34R, and departures to the southwest takeoff from 05 in general.
 
@@ -78,13 +78,39 @@ A few different configurations are used in real operations, but only two are ava
 
 	Approaches to 22 and 23 are available using APP mode from NEXUS and SMILE respectively, with transitions from *N*YLON or *S*TEAM depending whether the aircraft is approaching from the *n*orth or the *s*outh.
 
-	STARS are available using approach mode from XAC, RUNSO, AROSA, and \**NOVEL*\*. STARs from the southwest implement a point merge system around SHAFT (STARs from the northeast are traditional). Aircraft fly an arc around a SHAFT, and you can sequence planes by directing planes to proceed direct SHAFT and activate APP mode. 
+	STARS are available using APP mode from XAC, RUNSO, AROSA, GODIN, MILIT, and many other intermediate points on the STARs. STARs from the southwest implement a point merge system around SHAFT (STARs from the northeast are traditional). Aircraft fly an arc around a SHAFT, and you can sequence planes by directing planes to proceed direct SHAFT and activate APP mode. By default south arrivals fly STARs and approaches to 22, but you can engage APP mode from LAFIT to have planes descend under the SHAFT arc to BACON for 23.
 
-	\***Departures to the west and north will need to handed off before they reach the boundary of the ACA**, *as they will NOT climb out of the ACA.*\*
+	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
 
-	Note that the normal runway operation for 22/23 arrivals (LDA W RWY22/RWY23) is not possible to implement due to the lack of LDA approaches in the game. Therefore the approaches depicted are illustrative of IFR conditions necessitating the use of straight-in ILS approaches for both runways. However, note that the slight offset of the ILS for 23 isn't represented, the game does not appear to respect the 2 degree offset defined at this time.
+	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 23 (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 22 (T1/T3/N area).
 
-	For an extra challenge, try routing ANA/VIP flights to 23 (T2/VIP area) and JAL/international/GA flights to 22 (T1/T3/N area).
+-	Landing 22/23 (LDA), departing 16L/16R
+
+	The same as the previous configuration, but instead aircraft approach 22/23 following an offset localizer on a 270 degree course over Tokyo Bay, avoiding overflight of populated areas.
+
+	Approaches to 22 (RWY *B*) and 23 (RWY *D*) are available using APP mode from *B*ONUS and *D*OYLE respectively, with transitions from *B*ACON or *D*ATUM depending whether the aircraft is approaching from the north or the south.
+
+	STARS are available using APP mode from XAC, RUNSO, AROSA, GODIN, MILIT, and many other intermediate points on the STARs. STARs from the southwest implement a point merge system around SHAFT (STARs from the northeast are traditional). Aircraft fly an arc around a SHAFT, and you can sequence planes by directing planes to proceed direct SHAFT and activate APP mode.  By default south arrivals fly STARs and approaches to 22, but you can engage APP mode from LAFIT to have planes descend under the SHAFT arc to BACON for 23.
+
+	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
+
+	Note that the LDA approaches are represented by a runway located where one would be if the LDA approaches were straight-in ILS approaches; this is the best implementation given limitations of the game, but from an approach control perspective it should be a fairly accurate representation.
+
+	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 23 (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 22 (T1/T3/N area).
+
+-	Landing 16L/16R, departing 16R/04/16L
+
+	A new approach path flying over central Tokyo only applied in the afternoon hours, which was recently developed in response to growing traffic at RJTT. Normally arrivals fly close parallel RNAV tracks to the final approach course with a 3.45 degree glideslope, however, game limitations mean that parallel arrivals would be conflicting with each other all the way to the final approach fix. Therefore, the "backup" ILS approaches that take a dive into the Yokota ACA have been implemented here.
+
+	Approaches to 16L and 16R are available using APP mode from SANDY and NATTY respectively.
+
+	STARS are available using APP mode from XAC, RUNSO, AROSA, GODIN, MILIT, and many other intermediate points on the STARs. STARS to 16L/16R implement a point merge system around SHAFT for 16L and NEURO for 16R. Aircraft fly an arc around a point (SHAFT/NEURO), and you can sequence planes by directing planes to proceed direct SHAFT/NEURO and activate APP mode. By default south arrivals fly STARs and approaches to 16L, but you can engage APP mode from SCOUT to have planes fly over the SHAFT arc to join the NEURO arc for 16R.
+
+	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
+
+	Note that the LDA approaches are represented by a runway located where one would be if the LDA approaches were straight-in ILS approaches; this is the best implementation given limitations of the game, but from an approach control perspective it should be a fairly accurate representation.
+
+	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 23 (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 22 (T1/T3/N area).
 
 ### RJAA
 
@@ -124,11 +150,9 @@ There are two simple runway configurations:
 
 	Approaches to 34L and 34R are available using APP mode from GIINA and TEMIS respectively, with transitions from TYLER or ELGAR depending whether the aircraft is approaching from the south or the east.
 
-	Arrivals enter the ACA inbound direct NRE due to game limitations, however STARs are available using approach mode from NRE/HKE at the north end of each runway, with the appropriate STAR chosen depending on the aircraft's bearing to NRE/HKE starting from BAFFY, SUPOK, LUBLA, or SWAMP. STARS to 34L from NRE implement a point merge system around PEAKS. Aircraft fly an arc around PEAKS, and you can sequence planes by directing planes to proceed direct PEAKS and activate APP mode. 
+	STARS are available using APP mode from BAFFY, SWAMP, SUPOK, LUBLA, and many other intermediate points on the STARs. STARS to 34L implement a point merge system around PEAKS. Aircraft fly an arc around PEAKS, and you can sequence planes by directing planes to proceed direct PEAKS and activate APP mode. Alternate STARs are available to 34R which do not implement a point merge arc; watch out for potential conflicts with arrivals on STARs to 34L.
 
 	Note that higher altitude arrivals on the arc will conflict with lower altitude arrivals descending from the point merge arc to meet the =6000 restriction at PEAKS. Either descend the lower altitude arrival (watch out for even lower altitude arrivals) or prioritize the lower altitude arrival over the higher altitude arrival.
-
-	34R stars are traditional STARs, watch out for potential conflicts with arrivals on STARs to 34L.
 
 	For arrivals from RUTAS, watch out for conflicts with AROSA arrivals to RJTT.
 
@@ -140,11 +164,9 @@ There are two simple runway configurations:
 
 	Approaches to 16L and 16R are available using APP mode from MARCH and ACELA respectively, with transitions from TYLER or ELGAR depending whether the aircraft is approaching from the south or the east.
 
-	Arrivals enter the ACA inbound direct NRE due to game limitations, however STARs are available using approach mode from NRE/HKE at the north end of each runway, with the appropriate STAR chosen depending on the aircraft's bearing to NRE/HKE starting from BAFFY, SUPOK, LUBLA, or SWAMP. STARS to 16R from NRE implement a point merge system around CASIO. Aircraft fly an arc around CASIO, and you can sequence planes by directing planes to proceed direct CASIO and activate APP mode. 
+	STARS are available using APP mode from BAFFY, SWAMP, SUPOK, LUBLA, and many other intermediate points on the STARs. STARS to 16R implement a point merge system around CASIO. Aircraft fly an arc around CASIO, and you can sequence planes by directing planes to proceed direct CASIO and activate APP mode.  Alternate STARs are available to 16L which do not implement a point merge arc; watch out for potential conflicts with arrivals on STARs to 16R.
 
 	Note that higher altitude arrivals on the arc will conflict with lower altitude arrivals descending from the point merge arc to meet the =6000 restriction at CASIO. Either descend the lower altitude arrival (watch out for even lower altitude arrivals) or prioritize the lower altitude arrival over the higher altitude arrival.
-
-	16L stars are traditional STARs, watch out for potential conflicts with arrivals on STARs to 16R.
 
 	Use care not to descend arrivals into RJAH/RJAK airspace.
 
@@ -152,14 +174,13 @@ There are two simple runway configurations:
 
 ## Known Issues
 
-- No RJTT LDA 22/23 due to game limitations (no LDA approaches, not enough approach slots).
-- Missing offset for RJTT ILS 23 due to game bug???
-- Shortcuts for arrivals via direct to fix is limited to a few fixes due to game limitations (not enough approach slots).
-- No RJTT 16L/16R due to game limitations (not enough approach slots).
+- RJTT LDA approaches aren't really LDA approaches with the VPT (visual prescribed track), just a hack ILS approach to a fictional runway.
+- No RJTT RNAV 16L/16R due to game limitations (conflicts between parallel arrivals on RNAV track).
 - No fair weather 34L/34R approach usage (no visual approaches, conflict on joining parallel ILS at same altitude)
-- No RJTO (not possible to model arrivals from RJTY ACA)
-- SELNO arrivals spawn a bit inside the ACA with no warning.
-- Arrival and departure directions can be a bit nonsense (e.g. AHK arriving from the Pacific), unfortunately this appears to be a game limitation.
+- No RJTO Oshima/RJAN Niijima (not possible to model arrivals from RJTY ACA)
+- SELNO arrivals can spawn a bit inside the ACA with no warning.
+- Arrival and departure directions can be a bit nonsense (e.g. AHK arriving from the Pacific), unfortunately this is a game limitation.
+- South arrivals to RJTT 16L/16R are very close to delayed even strictly following the STAR (game limitation?)
 
 ## Changelog
 
@@ -187,3 +208,12 @@ There are two simple runway configurations:
 	- Add readme
 *	1.3.1 - 2020/10/25
 	- Correct CCA callsign pronunciation for RJAA
+*	2.0.0 - 2020/11/02
+	- Add approaches to many, many fixes as the approach limit has been lifted.
+	- Add RJTT 16L/16R ILS approaches
+	- Add RJTT "LDA" 22/23 approaches
+	- RJAA arrivals now fly direct to first point inside RJTT ACA on their arrival route instead of NRE.
+	- Adjusted entry points
+	- Added missing ALDEN waypoint for some STARs from AROSA
+	- Adjusted traffic frequencies
+	- Changed name of RJAA airport for voice purposes
