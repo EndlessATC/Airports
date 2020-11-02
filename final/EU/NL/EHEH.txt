@@ -207,10 +207,11 @@ entrypoints =
 	350,	EHN
 
 airlines =
-	TRA,	9,	B737/B738,	Transavia,	nswe
-	TUI,	7,	B738/B787,	Orange,	nswe
-	WIZ,	7,	B737/A320,	Wizzair,	se
+	TRA,	8,	B737/B738,	Transavia,	nswe
+	TUI,	5,	B738/B787,	Orange,	nswe
+	WIZ,	10,	A321/A320,	Wizzair,	se
 	RYR,	8,	B738,	Ryanair,	nws
+	CND,	4,	B738,	Dutch Corendon,	se
 	ph-abc,	1,	c172,	ph-abc,	nswe
 	ph-jvg,	1,	c182,	ph-jvg,	nswe
 
