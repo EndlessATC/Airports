@@ -1,11 +1,8 @@
-# KLAX Version 1.2 by James Gardner
+# KLAX Version 1.3 by James Gardner
 
 [airspace]
 radius = 40
 elevation = 125
-descendaltitude = 9000
-ceiling = 12000
-above = 18000
 usa = true
 transition = 18001
 center = N33.94250107, W118.4079971
@@ -17,10 +14,10 @@ beacons =
 	CPM, N33.88890, W118.24700, 0, Compton
 	VNY, N34.22340, W118.49200, 0, Van Nuys
 	PAI, N34.25970, W118.41300, 0, Pacoima
-	LGB, N33.75670, W118.07700, 0, Becca
+	LG, N33.75670, W118.07700, 0, Becca
 	SLI, N33.78330, W118.05500, 0, Seal Beach
 	EMT, N34.08830, W118.03100, 0, El Monte
-	SNA, N33.68880, W117.86000, 0, Maagg
+	NA, N33.68880, W117.86000, 0, Maagg
 	POM, N34.07840, W117.78700, 0, Pomona
 	VTU, N34.11510, W119.04900, 0, Ventura
 	SXC, N33.37510, W118.42000, 0, Santa Catalina
@@ -101,83 +98,175 @@ runways =
 	rwy2, 06R, N33.9467, W118.435, 83.0, 10285, 331, 0, 108
 	rwy3, 07L, N33.9358, W118.419, 83.0, 12091, 0, 957, 119
 	rwy4, 07R, N33.9338, W118.419, 83.0, 11096, 0, 0, 118
-
-climbaltitude = 6000
-
-sids =
-	dotss, N33.644106, W117.795283, dotss
-	ladyj, N34.077194, W118.671942, ladyj
-	orcka, N34.349731, W117.693144, orcka
-	summr, N33.922381, W119.01665, summr
-	oshnn, N33.647103, W118.179664, oshnn
-	sli
-
-entrypoints =
-	330, lax
-	090, lax
-	120, sli
 	
+entrypoints =
+	300
+	030, emt
+
 [airport2]
-name = Long Beach Airport
+name = Long Beach Daugherty Field Airport
 code = LB
 runways =
 	rwy7, 08L, N33.8228, W118.164, 90.2, 6192, 1305, 531, 52
 	rwy8, 08R, N33.8138, W118.161, 89.9, 5420, 0, 0, 50
 	rwy9, 12, N33.8262, W118.162, 134.7, 10000, 1341, 1989, 52
-inboundbeacon = sxc
 
-climbaltitude = 3000
+climbaltitude = 7000
 
-sids =
-	vtu
-	pdz
+entrypoints =
+	330
+	030
+	300
+	120
 
 airlines =
 	swa, 5, b737, Southwest
 	jbu, 2, a320, Jet Blue
 	ups, 1, b763, UPS
-	n-123ab, 5, c172/p28b/p28a/be33/e13bj
+	n-123ab, 5, c172/pa28/pa32/e13bj
 
 [airport3]
-name = Burbank Airport
+name = Bob Hope Airport
 code = BH
 runways =
 	rwy5, 08, N34.1979, W118.369, 90.9, 5801, 0, 0, 727
 	rwy6, 15, N34.2123, W118.36, 167.1, 6886, 909, 350, 768
 
-sids =
-	elmoo, N34.0985, W118.081258, elmoo
-	orosz, N34.426717, W118.674169, orosz
-	vny
-
-inboundbeacon = vny
+climbaltitude = 9000
 
 entrypoints =
+	330
 	030
-	050
 	300
+	120
 
 airlines =
 	swa, 8, b737, Southwest
 	aal, 3, a318/b738, American
 	xe, 1, e135, JetSuite
-	n-123ab, 8, c172/p28b/p28a/be33/e13bj
+	n-123ab, 8, c172/pa28/pa32/e13bj
 
-[airport4]
-name = Hawthorne Municipal Airport
-code = HR
-runways =
-	rwy10, 07, N33.922861, W118.335029, 83, 4884, 0, 0, 66, 3, 83, 5
+[departure1]
+runway = rwy2, rev
+route1 =
+	ladyj
+	N33.932567, W118.632411
+	N33.99265, W118.677278
+	N34.077194, W118.671942
+	
+route2 = 
+	summr
+	N33.916961, W118.83255
+	N33.922381, W119.015539
+	N34.009992, W119.186408
+	N34.411103, W119.532511
+	
+route3 = 
+	summr
+	N33.916961, W118.83255
+	N33.922381, W119.015539
+	N33.80145, W119.3486
+	
+[departure2]
+runway = rwy3, rev
 
-climbaltitude = 1000
+route1 =
+	dotss
+	N33.931844, W118.458103
+	N33.858956, W118.564492
+	N33.697222, W118.520833
+	N33.64455, W118.342997
+	N33.644106, W117.795283
+	
+route2 =
+	oshnn
+	N33.931844, W118.458103
+	N33.858956, W118.564492
+	N33.697222, W118.520833
+	N33.64455, W118.342997
+	N33.644603, W118.179664
+	N34.089686, W117.776978
+	
+[departure3]
+runway = rwy9, rev
 
-entrypoints =
-	300,
-	120,
+route1 =
+	topmm
+	N33.861656, W118.248497
+	N33.900119, W118.444247
+	N33.987917, W118.502472
+	N34.0999, W118.55645
+	N34.426717, W118.674169
+	
+route2 =
+	topmm
+	N33.861656, W118.248497
+	N33.837264, W118.409122
+	N33.797622, W118.828483
+	N34.143056, W119.010278
+	
+route3 =
+	zoomm
+	N33.754667, W118.133333
+	N33.952614, W117.902475
+	N34.089686, W117.776978
+	N34.299817, W117.464669
+	
+[departure4]
+runway = rwy7, rev
 
-airlines =
-	n-123ab, 10, c172/p28b/p28a/be33
+route1 =
+	topmm
+	N33.861656, W118.248497
+	N33.900119, W118.444247
+	N33.987917, W118.502472
+	N34.0999, W118.55645
+	N34.426717, W118.674169
+	
+route2 =
+	topmm
+	N33.861656, W118.248497
+	N33.837264, W118.409122
+	N33.797622, W118.828483
+	N34.143056, W119.010278
+	
+route3 =
+	zoomm
+	N33.754667, W118.133333
+	N33.952614, W117.902475
+	N34.089686, W117.776978
+	N34.299817, W117.464669
 
+[departure5]
+runway = rwy5
+
+route1 =
+	orosz
+	N34.198167, W118.328833
+	N34.162667, W118.348167
+	N34.1575, W118.404
+	N34.373472, W118.645131
+	
+route2 =
+	elmoo
+	N34.198167, W118.328833
+	N34.169333, W118.306833
+	N34.0985, W118.081258
+
+[departure6]
+runway = rwy6
+
+route1 =
+	orosz
+	N34.162667, W118.348167
+	N34.1575, W118.404
+	N34.373472, W118.645131
+	
+route2 =
+	elmoo
+	N34.182333, W118.350167
+	N34.0985, W118.081258
+	
 [configurations]
 config1 = 
 	0,	rwy1,	landrev
@@ -186,7 +275,11 @@ config1 =
 	0,	rwy4,	landrev
 	0,	rwy5,	landstart
 	0,	rwy6,	landstart
-	0,	rwy7,	landrev
-	0,	rwy8,	startrev
+	0,	rwy7,	startrev
+	0,	rwy8,	landrev
 	0,	rwy9,	landstartrev
-	0,	rwy10,	landstartrev, 090, nosid
+
+[planetypes]
+types =
+	pa28, 6, 60, 132, 2.9, 3.2, 1000, 1600, 60, 90, 1.1, 1.2, piper
+	pa32, 6, 80, 156, 2.9, 3.2, 1000, 1800, 70, 100, 1.1, 1.2, piper
