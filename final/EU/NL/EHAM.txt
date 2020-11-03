@@ -263,7 +263,7 @@ runways =
 entrypoints =
 	020, PAM
 	080, PAM
-	250, HSD
+	250, STD
 	200, ROT
 
 [area1]
