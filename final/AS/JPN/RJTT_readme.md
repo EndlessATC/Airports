@@ -1,4 +1,4 @@
-# RJTT ACA 2.0.0
+# RJTT ACA 2.0.1
 
 This is an implementation of the TOKYO ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring RJTT Tokyo International Airport (commonly referred to as Haneda) and RJAA Narita International Airport.
 
@@ -87,6 +87,8 @@ A few different configurations are used in real operations; four are available i
 -	Landing 22/23 (LDA), departing 16L/16R
 
 	The same as the previous configuration, but instead aircraft approach 22/23 following an offset localizer on a 270 degree course over Tokyo Bay, avoiding overflight of populated areas.
+
+	**Due to a game limitation, runways 22 and 23 are called 22C and 23C in this configuration.**
 
 	Approaches to 22 (RWY *B*) and 23 (RWY *D*) are available using APP mode from *B*ONUS and *D*OYLE respectively, with transitions from *B*ACON or *D*ATUM depending whether the aircraft is approaching from the north or the south.
 
@@ -217,3 +219,5 @@ There are two simple runway configurations:
 	- Added missing ALDEN waypoint for some STARs from AROSA
 	- Adjusted traffic frequencies
 	- Changed name of RJAA airport for voice purposes
+*	2.0.1 - 2020/11/02
+	- Fix aircraft failing to intercept the localizer for LDA approaches by changing name of runway
