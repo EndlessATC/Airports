@@ -1,4 +1,4 @@
-# RJTT ACA 2.0.1
+# RJTT ACA 2.0.2
 
 This is an implementation of the TOKYO ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring RJTT Tokyo International Airport (commonly referred to as Haneda) and RJAA Narita International Airport.
 
@@ -58,7 +58,7 @@ A few different configurations are used in real operations; four are available i
 
 	34L handles the higher amounts of traffic from the southwest, and 05 handles the higher amounts of traffic heading southwest. The lower amounts of traffic to/from the northeast share 34R in mixed operation. 04 is not used in this configuration as it conflicts with landings on 34L (in real life, it may be used for some GA departures?).
 
-	Approaches to 34L (RWY *A*) and 34R (RWY *C*) are available using APP mode from *A*RLON and *C*REAM respectively, with transitions from ARLON or CREAM depending whether the aircraft is approaching from the south or the east.
+	Approaches to 34L (RWY *A*) and 34R (RWY *C*) are available using APP mode from *A*RLON and *C*REAM respectively, with transitions from ARLON or CAMEL depending whether the aircraft is approaching from the south or the east.
 
 	STARS are available using APP mode from XAC, RUNSO, AROSA, GODIN, MILIT, and many other intermediate points on the STARs. STARS to 34L/34R implement a point merge system around WEDGE for 34L and CREAM for 34R. Aircraft fly an arc around a point (WEDGE/CREAM), and you can sequence planes by directing planes to proceed direct WEDGE/CREAM and activate APP mode. By default south arrivals fly STARs and approaches to 34L, but you can engage APP mode from CLONE to have planes swing wide of the WEDGE arc to join the CREAM arc for 34R.
 
@@ -221,3 +221,5 @@ There are two simple runway configurations:
 	- Changed name of RJAA airport for voice purposes
 *	2.0.1 - 2020/11/02
 	- Fix aircraft failing to intercept the localizer for LDA approaches by changing name of runway
+*	2.0.2 - 2020/11/02
+	- Add CAMEL fix as IF for 34R and appropriate transitions. Now CREAM is no longer both the point merge fix and initial approach fix for 34R, and aircraft can shortcut from 2C arrivals direct to CREAM and fly the 34R approach via CREAM transition.
