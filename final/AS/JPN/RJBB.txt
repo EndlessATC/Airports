@@ -443,7 +443,7 @@ sids =
 #HELEN1.HABAR/IWAYA1.HABAR
 	HABAR, N34.19.09.74, E133.35.19.62, Habar
 #HELEN1.YME/IWAYA1.YME
-	CHIZU, N035.01.46.16, E134.30.25.37, Cheezu
+	YME
 #DAISY1 GLORY Y34
 	POPPY, N33.49.05.07, E133.49.15.33, Poppy
 #minor fixes
@@ -456,6 +456,10 @@ sids =
 	RANDY, N34.06.34.76, E133.53.50.83
 	KAZRA, N33.55.37.50, E133.58.45.70
 	KOHWA, N34.42.16.69, E136.57.28.61
+	HELEN, N34.34.48.90, E135.06.51.75
+	DAISY, N34.30.02.26, E135.03.10.60
+	JULIA, N34.30.08.14, E134.58.16.34
+	CHIZU, N035.01.46.16, E134.30.25.37
 
 entrypoints = 
 #Y36 ALISA
@@ -597,11 +601,12 @@ sids =
 #KCE1.CUE
 	CUE
 #KCE1.ASAGI
-	ASAGI, N35.02.37.24, E134.45.02.37, Ahsahgi
+	YME
 #KCE1.WENDY Y34
 	POPPY, N33.49.05.07, E133.49.15.33, Poppy
 #minor fixes
 	ARASI, N35.10.55.42, E135.47.54.18, Arashi
+	ASAGI, N35.02.37.24, E134.45.02.37, Ahsahgi
 
 airlines = 
 	ana, 2, a320/a20n/b737/b738/b763, all neeppon, ne
@@ -657,13 +662,13 @@ sids =
 #ASUKA4.SHTLE
 	SHTLE, N34.49.50.95, E136.56.53.84, Shuttle
 #CUE5
-	CUE
+#	CUE
 #MINAC4
 	MINAC, N34.55.26.28, E136.10.26.37, Minack
 #TIGER2.AWAJI Y232
 	KRE
 #TIGER2.AYAME Y282
-	POPPY, N33.49.05.07, E133.49.15.33, Poppy
+#	POPPY, N33.49.05.07, E133.49.15.33, Poppy
 #TIGER2.SOUJA
 	SOUJA, N34.37.38.64, E133.44.22.48, Souja
 #TIGER2.WASYU
@@ -734,13 +739,13 @@ climbaltitude = 3000
 
 sids = 
 #HONMA1.KILAP
-	KILAP, N33.38.03.79, E136.45.35.28, Kilap
+	KMANO, N33.47.13.20, E135.07.24.41, Kumano
 #TSC KTE UTAZU WASYU
 	WASYU, N34.28.17.50, E133.23.01.14, Wahshu
 #TOSAR4
 	TOSAR, N33.30.02.09, E134.35.55.24, Tosar
 #MISAKI1.KEC
-	KEC
+#	KEC
 #minor fixes
 	KOMPI, N34.10.02.08, E133.52.33.07
 
@@ -787,7 +792,8 @@ sids =
 	WASYU, N34.28.17.50, E133.23.01.14, Wahshu
 #minor fixes
 	TAKMA, N34.15.09.80, E133.24.58.62, Takma
-	YUBAR, N35.00.52.41, E133.35.11.03, Yubar
+	TAROH, N34.43.01.09, E133.46.27.13
+	MIHOU, N35.31.52.02, E133.05.38.09
 
 airlines = 
 	jal, 7, b738, japan air, e
@@ -796,8 +802,8 @@ airlines =
 	akx, 1, a320/a20n/b737/b738, alfa wing, w
 	akx, 1, a320/a20n/b737/b738, alfa wing, e
 	hke, 1, a320/a20n, hong kong shuttle, w
-	cqh, 1, a320, air spring, s
-	cal, 1, b738, dynasty, s
+	cqh, 1, a320, air spring, w
+	cal, 1, b738, dynasty, w
 	asv, 1, a320, air seoul, n
 #ga
 #	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
@@ -833,6 +839,10 @@ sids =
 	SHTLE, N34.49.50.95, E136.56.53.84, Shuttle
 #WASYU
 	WASYU, N34.28.17.50, E133.23.01.14, Wahshu
+#CHIZU2.YME
+	YME
+#OYER6 OYE Y39
+	YUBAR, N35.00.52.41, E133.35.11.03, Yubar
 #minor fixes
 
 airlines = 
@@ -1288,7 +1298,7 @@ altitude = 3001
 name = OT
 radius = 5
 position = N34.12.51.00, E134.00.56.00
-labelpos = N34.16.51.00, E133.56.56.00
+labelpos = N34.15.51.00, E133.58.56.00
 
 #TAKAMATSU PCA 4500/1000
 [area34]
@@ -7694,7 +7704,7 @@ route1 =
 #KMANO
 	N33.47.13.20, E135.07.24.41
 #KILAP
-	N33.38.03.79, E136.45.35.28
+#	N33.38.03.79, E136.45.35.28
 
 
 route2 =	
@@ -7715,17 +7725,17 @@ route2 =
 	N34.28.17.50, E133.23.01.14
 
 
-route3 = 
-	MISAK1, Misaki One
+#route3 = 
+#	MISAK1, Misaki One
 #TSC R143 12DME
-	N33.58.12.00, E134.45.13.00
+#	N33.58.12.00, E134.45.13.00
 #HONMA
-	N33.49.33.96, E134.57.03.96
+#	N33.49.33.96, E134.57.03.96
 #KEC
-	N33.26.51.87, E135.47.40.18
+#	N33.26.51.87, E135.47.40.18
 
 
-route4 = 
+route3 = 
 	TOSAR4, Tosar Four
 #TSC R160 5DME
 	N34.03.05.00, E134.38.35.00
@@ -7754,7 +7764,7 @@ route1 =
 #KMANO
 	N33.47.13.20, E135.07.24.41
 #KILAP
-	N33.38.03.79, E136.45.35.28
+#	N33.38.03.79, E136.45.35.28
 
 
 route2 =	
@@ -7775,17 +7785,17 @@ route2 =
 	N34.28.17.50, E133.23.01.14
 
 
-route3 = 
-	MISAK1, Misaki One
+#route3 = 
+#	MISAK1, Misaki One
 #TSC R143 12DME
-	N33.58.12.00, E134.45.13.00
+#	N33.58.12.00, E134.45.13.00
 #HONMA
-	N33.49.33.96, E134.57.03.96
+#	N33.49.33.96, E134.57.03.96
 #KEC
-	N33.26.51.87, E135.47.40.18
+#	N33.26.51.87, E135.47.40.18
 
 
-route4 = 
+route3 = 
 	TOSAR4, Tosar Four
 #TSC R160 5DME
 	N34.03.05.00, E134.38.35.00
