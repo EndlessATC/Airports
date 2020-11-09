@@ -1,6 +1,6 @@
 # RJBB ACA 2.0.0
 
-This is an implementation of the Kansai ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring RJBB Kansai International Airport, RJOO Osaka International Airport (often referred to as Itami), RJBE Kobe Airport, RJOS Tokushima Airport, RJOT Takamatsu Airport, and RJOB Okayama Airport.
+This is an implementation of the Kansai ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring RJBB Kansai International Airport, RJOO Osaka International Airport (often referred to as Itami), RJBE Kobe Airport, RJOS Tokushima Airport, RJOT Takamatsu Airport, and RJOB Okayama Airport. The airspace ceiling is FL180.
 
 The Kansai ACA is a very complex airspace, with many airports in close vicinity in Osaka Bay and the surroundings. There are many flight paths that cross over each other, and altitude will need to used to separate aircraft very often, especially within Osaka Bay. The controller will need to carefully monitor both departures and arrivals and issue altitude, speed, and vectors to ensure proper separation.
 
