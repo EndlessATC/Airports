@@ -715,7 +715,7 @@ airlines =
 	jac, 1, at46/at76, commuter, s
 	jac, 1, at46/at76, commuter, s
 	jac, 1, at46/at76, commuter, s
-	jf-1, 1, b77w, japan air force, nswe
+#	jf-1, 1, b77w, japan air force, nswe
 	cygns-1, 1, b77w, sig nus, nswe
 
 [airport4]
