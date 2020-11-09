@@ -3607,7 +3607,7 @@ route1 =
 
 [approach84]
 runway = rwy4
-beacon = ABENO
+beacon = ABENO, N34.35.32.43, E135.41.55.57
 
 route1 =
 	261
@@ -3735,7 +3735,7 @@ route1 =
 
 [approach91]
 runway = rwy4
-beacon = HABIK
+beacon = HABIK, N34.32.46.79, E135.39.14.17
 
 route1 =
 	68
@@ -3853,7 +3853,7 @@ route1 =
 
 [approach97]
 runway = rwy5
-beacon = ABENO
+beacon = ABENO, N34.35.32.43, E135.41.55.57
 
 route1 =
 	261
@@ -4009,7 +4009,7 @@ route1 =
 
 [approach104]
 runway = rwy5
-beacon = HABIK
+beacon = HABIK, N34.32.46.79, E135.39.14.17
 
 route1 =
 	68
@@ -4207,7 +4207,7 @@ route1 =
 
 [approach112]
 runway = rwy4, rev
-beacon = ABENO
+beacon = ABENO, N34.35.32.43, E135.41.55.57
 route1 =
 	261
 #ABENO
@@ -4411,7 +4411,7 @@ route1 =
 
 [approach119]
 runway = rwy4, rev
-beacon = HABIK
+beacon = HABIK, N34.32.46.79, E135.39.14.17
 route1 =
 	68
 #HABIK
@@ -4571,7 +4571,7 @@ route1 =
 
 [approach125]
 runway = rwy5, rev
-beacon = ABENO
+beacon = ABENO, N34.35.32.43, E135.41.55.57
 route1 =
 	261
 #ABENO
@@ -4775,7 +4775,7 @@ route1 =
 
 [approach132]
 runway = rwy5, rev
-beacon = HABIK
+beacon = HABIK, N34.32.46.79, E135.39.14.17
 route1 =
 	68
 #HABIK
