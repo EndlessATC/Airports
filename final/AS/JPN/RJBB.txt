@@ -4,7 +4,7 @@
 [airspace]
 radius = 80
 zoom = 0.8
-elevation = 805
+elevation = 0
 floor = 1000
 descendaltitude = 13000
 ceiling = 18000
