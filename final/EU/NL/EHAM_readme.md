@@ -82,6 +82,11 @@ v0.2
 * Corrected initial beacon west arrivals to EHRD
 * Added EHAM_readme.md
 
+v0.3
+* Added EHAM CTR's 2/3
+* Added restricted area's for CTA's prior to SUGOL/RIVER/ARTIP
+* Added IRL airlines to the airports
+
 
 ## Credits
 All coordinates and other information with respect to EHAM/EHRD where directly taken from the [eAIP](https://www.lvnl.nl/eaip/2020-10-22-AIRAC/html/index-en-GB.html).
