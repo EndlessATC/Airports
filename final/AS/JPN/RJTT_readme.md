@@ -1,47 +1,53 @@
-# RJTT ACA 2.0.2
+# RJTT ACA 2.0.3
 
-This is an implementation of the TOKYO ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring RJTT Tokyo International Airport (commonly referred to as Haneda) and RJAA Narita International Airport.
+This is an implementation of the Tokyo ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring RJTT Tokyo International Airport (commonly referred to as Haneda) and RJAA Narita International Airport.
 
-Based upon AIP Japan 2020/10/08. The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented.
+The Tokyo ACA is a very busy airspace, with two airports handling large amounts of traffic. However, the SIDs and STARs are well defined, and conflicts between flight paths are minimal. The controller's work will mostly be sequencing arrivals and monitoring a few key merge points to maintain separation.
 
-To activate a STAR, a plane must be flying direct to an applicable fix, then the APP button can be activated.
+Based upon AIP Japan 2020/12/31. The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs were implemented. Coastline data from naturalearthdata.com.
 
-JSDF-G bases RJTL Shimofusa, RJTE Tateyama, RJTK Kisarazu are not represented as it appears traffic should mostly be military helicopters, which I don't know how to represent in this game.
-RJTO Oshima/RJAN Niijima are not represented as traffic is either helicopters or traffic to RJTF Chofu in RJTY Yokota ACA. Unfortunately traffic to RJTY is difficult to represent as RJTT ACA has airspace on top of most of RJTY ACA, meaning that within the game, it is not possible to get planes to "spawn" from the appropriate region.
+STARs are implemented as approach transitions. To activate an approach, an aircraft must be flying direct to an applicable fix, then the APP button can be activated. Multiple approaches may be available from a fix. Press the APP button again (do not long press) to select the next approach available from that fix. If the aircraft is already on an approach from that fix, you will need to cancel the approach clearance first before issuing another approach clearance.
+
+Approaches to each runway are generally available from their IF and IAFs. Approaches from the IF will choose a transition appropriate based on the plane's heading to the IF. Approaches to multiple runways may be available from each IAF via the appropriate transitions, click the APP button again to cycle through all choices.
+
+**\*Departures may need to handed off before they reach the boundary of the ACA\***, *as there are cases where the SID exts the ACA before cruise altitude can be reached.*
+
+JSDF-G bases `RJTL` Shimofusa, `RJTE` Tateyama, `RJTK` Kisarazu are not represented as it appears traffic should mostly be military helicopters, which I don't know how to represent in this game.
+`RJTO` Oshima/`RJAN` Niijima are not represented as traffic is either helicopters or traffic to `RJTF` Chofu in `RJTY` Yokota ACA. Unfortunately traffic to `RJTY` is difficult to represent as `RJTT` ACA has airspace on top of most of `RJTY` ACA, meaning that within the game, it is not possible to get planes to "spawn" from the appropriate region.
 
 ## Airports
 
-### RJTT
+### `RJTT`
 
 The main airport of this sector. Previously only handling domestic traffic and very limited international flights to key East Asian cities, Haneda now handles a fair amount of international traffic along with most of Tokyo's domestic traffic. As such, traffic is biased towards the west for departures and southwest for arrivals. 
 
-There is custom traffic for RJTT. The proportions are very much estimates but shouldn't be too far off from reality.
+There is custom traffic for `RJTT`. The proportions are very much estimates but shouldn't be too far off from reality.
 
-Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is UTIBO for 34L/23/16R, KASGA for 34R/22, and SNOKE for 16L.
+Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is `UTIBO` for 34L/23/16R, `KASGA` for 34R/22, and `SNOKE` for 16L.
 
 Aircraft arrive at 6 points:
 
-- SPENS -> XAC (west from western Japan, Korea, Northern China)
-- SELNO -> RUNSO -> AKSEL (south west from southwestern Japan, Okinawa, Southeast Asia)
-- TOPIT -> LUTNA -> RURER -> AROSA (south from Hachijojima, Indonesia/Australia)
-- DOLBA -> AROSA (southeast from oceanic, Australia/NZ/Pacific islands, Guam)
-- TEDIX -> GODIN (north from northern Japan, Russia, Europe, east NA)
-- LALID -> MILIT -> RUSDA -> ESKEN -> POLIX (east from oceanic, west NA/SA, Hawaii)
+- `SPENS` -`Y71`-> `XAC` (west from western Japan, Korea, Northern China)
+- `SELNO` -`Y21`-> `RUNSO` -`Y21`-> `AKSEL` (south west from southwestern Japan, Okinawa, Southeast Asia)
+- `TOPIT` -`Y875`-> `RURER` -`Y875`-> `AROSA` (south from Hachijojima, Indonesia/Australia)
+- `DOLBA` -`Y824`-> `AROSA` (southeast from oceanic, Australia/NZ/Pacific islands, Guam)
+- `TEDIX` -`Y10`-> `GODIN` (north from northern Japan, Russia, Europe, east NA)
+- `LALID` -`Y807`-> `POLIX` (east from oceanic, west NA/SA, Hawaii)
 
 Aircraft depart via:
 
-- CLARK (northnorthwest for Russia/Europe)
-- AGRIS (north for northern Japan and beyond)
-- GULBO (northeastern oceanic)
-- BORLO (east oceanic)
-- ANSAD (southeastern oceanic)
-- NURLI (south)
-- KAGNA (southwest and Osaka)
-- NINOX (west for southern western Japan and beyond)
-- RITLA (west for central western Japan and beyond)
-- BEKLA (northwest such as Korea/north China/north side of western Japan)
+- `CLARK` (northnorthwest for Russia/Europe)
+- `AGRIS` (north for northern Japan and beyond)
+- `GULBO` (northeastern oceanic)
+- `BORLO` (east oceanic)
+- `ANSAD` (southeastern oceanic)
+- `NURLI` (south)
+- `KAGNA` (southwest and Osaka)
+- `NINOX` (west for southern western Japan and beyond)
+- `RITLA` (west for central western Japan and beyond)
+- `BEKLA` (northwest such as Korea/north China/north side of western Japan)
 
-(VAMOS departures to UTIBO aren't implemented as there are no standard flight planned routes from RJTT that use this transition.)
+(`VAMOS` departures to `UTIBO` aren't implemented as there are no standard flight planned routes from `RJTT` that use this transition.)
 
 There are four runways:
 
@@ -64,8 +70,6 @@ A few different configurations are used in real operations; four are available i
 
 	Note that higher arrivals will conflict with lower arrivals when descending from the point merge arc to meet the =8000 restriction at WEDGE. Either descend the lower arrival (watch out for further lower arrivals) or prioritize the lower arrival over the higher arrival. Also watch for AROSA arrivals conflicting with arrivals to RJAA.
 
-	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
-
 	Note that the normal runway operation for 34L/34R arrivals (HIGHWAY VISUAL 34R and ILS X 34L from KAIHO) is not possible to implement due to the lack of visual approaches in the game and the fact that aircraft joining the parallel ILS above RJTK Kisarazu would conflict as they are at the same altitude. Therefore the approaches depicted are illustrative of IMC conditions necessitating the use of parallel ILS approaches.
 
 	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 34R (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 34L (T1/T3/N area).
@@ -79,8 +83,6 @@ A few different configurations are used in real operations; four are available i
 	Approaches to 22 and 23 are available using APP mode from NEXUS and SMILE respectively, with transitions from *N*YLON or *S*TEAM depending whether the aircraft is approaching from the *n*orth or the *s*outh.
 
 	STARS are available using APP mode from XAC, RUNSO, AROSA, GODIN, MILIT, and many other intermediate points on the STARs. STARs from the southwest implement a point merge system around SHAFT (STARs from the northeast are traditional). Aircraft fly an arc around a SHAFT, and you can sequence planes by directing planes to proceed direct SHAFT and activate APP mode. By default south arrivals fly STARs and approaches to 22, but you can engage APP mode from LAFIT to have planes descend under the SHAFT arc to BACON for 23.
-
-	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
 
 	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 23 (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 22 (T1/T3/N area).
 
@@ -124,22 +126,22 @@ Most fixes visible on the map have a defined hold including many fixes along the
 
 Aircraft arrive at 4 points:
 
-- BAFFY -> MAMAS -> RUTAS (southwest from western and southwestern)
-- VAGLA -> LUBLA (northeast oceanic)
-- LESPO -> SUPOK (southeast oceanic)
-- GURIR -> SWAMP (north from north, northwest and northeast)
+- `BAFFY` -`Y81`-> `RUTAS` (southwest from western and southwestern)
+- `VAGLA` -`Y813`-> `LUBLA` (northeast oceanic)
+- `LESPO` -`Y809`-> `SUPOK` (southeast oceanic)
+- `GURIR` -`Y30`-> `SWAMP` (north from north, northwest and northeast)
 
 Aircraft depart via:
 
-- AGRIS (northwest)
-- KIMIN (north)
-- GULBO (northeast oceanic)
-- BORLO (east oceanic)
-- IRNOK (southsoutheast oceanic)
-- NORIS (south oceanic)
-- SEDRI (southwest)
-- MITOP (west)
-- TEPEX (northwest)
+- `AGRIS` (northwest via `TETRA8` departure `AGRIS` transition to `Y37`)
+- `KIMIN` (north via `TETRA8` departure `KIMIN` transition to `Y117`)
+- `GULBO` (northeast oceanic via `GULBO2` departure to `Y808`)
+- `BORLO` (east oceanic via `BORLO2` departure to `Y830`)
+- `IRNOK` (southsoutheast oceanic via `OLVAN2` departure to `Y823`)
+- `NORIS` (south oceanic via `OLVAN2` departure `SAMUS` transition to `Y84`)
+- `SEDRI` (southwest via `PIGOK2` departure to `Y50`)
+- `MITOP` (west via `REDEK2` departure to `Y60`)
+- `TEPEX` (northwest via `TETRA8` departure `ENPAR` transition to `Y16`)
 
 There are two runways:
 
@@ -150,9 +152,9 @@ There are two simple runway configurations:
 
 -	Landing and departing 34L/34R
 
-	Approaches to 34L and 34R are available using APP mode from GIINA and TEMIS respectively, with transitions from TYLER or ELGAR depending whether the aircraft is approaching from the south or the east.
+	Approaches to 34L and 34R are available using APP mode from `GIINA` and `TEMIS` respectively, with transitions from `TYLER` or `ELGAR` depending whether the aircraft is approaching from the south or the east.
 
-	STARS are available using APP mode from BAFFY, SWAMP, SUPOK, LUBLA, and many other intermediate points on the STARs. STARS to 34L implement a point merge system around PEAKS. Aircraft fly an arc around PEAKS, and you can sequence planes by directing planes to proceed direct PEAKS and activate APP mode. Alternate STARs are available to 34R which do not implement a point merge arc; watch out for potential conflicts with arrivals on STARs to 34L.
+	STARS are available using APP mode from `BAFFY`, SWAMP, SUPOK, LUBLA, and many other intermediate points on the STARs. STARS to 34L implement a point merge system around PEAKS. Aircraft fly an arc around PEAKS, and you can sequence planes by directing planes to proceed direct PEAKS and activate APP mode. Alternate STARs are available to 34R which do not implement a point merge arc; watch out for potential conflicts with arrivals on STARs to 34L.
 
 	Note that higher altitude arrivals on the arc will conflict with lower altitude arrivals descending from the point merge arc to meet the =6000 restriction at PEAKS. Either descend the lower altitude arrival (watch out for even lower altitude arrivals) or prioritize the lower altitude arrival over the higher altitude arrival.
 
@@ -183,6 +185,7 @@ There are two simple runway configurations:
 - SELNO arrivals can spawn a bit inside the ACA with no warning.
 - Arrival and departure directions can be a bit nonsense (e.g. AHK arriving from the Pacific), unfortunately this is a game limitation.
 - South arrivals to RJTT 16L/16R are very close to delayed even strictly following the STAR (game limitation?)
+- `RJTT` `GODIN`/`POLIX` `2A` arrivals not implemented (is there a use case given they go through the `CREAM` point merge, and the ILS Z RWY 34L approach has an )
 
 ## Changelog
 
@@ -191,35 +194,38 @@ There are two simple runway configurations:
 	- Add RJAA.
 	- bug fixes
 *	1.2 - 2020/10/23
-	- Flesh out airspace (RJTT/RJAA CTR/PCA, airspace over RJAH/RJTY/RJTU ACA, RJTL/RJTE/RJTK CTR)
+	- Flesh out airspace (`RJTT`/`RJAA` CTR/PCA, airspace over `RJAH`/`RJTY`/`RJTU` ACA, `RJTL`/`RJTE`/`RJTK` CTR)
 	- Adjustments to entry points
 	- Remove hack as multiple departures on one runway work now
 	- Add basic SIDs to show exit fixes
 	- Display minor fixes using basic SID exit fixes
-	- Correct name of RJTT
-	- Correct reading of OLVAN2.SAMUS STAR
-	- Correct spelling of BEKLA2B SID
-	- Fix approaches from GIINA, TEMIS, ACELA, MARCH to actually work
-	- Add case for approach from NOVEL when already south of NOVEL
+	- Correct name of `RJTT`
+	- Correct reading of `OLVAN2.SAMUS` STAR
+	- Correct spelling of `BEKLA2B` SID
+	- Fix approaches from `GIINA`, `TEMIS`, `ACELA`, `MARCH` to actually work
+	- Add case for approach from `NOVEL` when already south of `NOVEL`
 *	1.3 - 2020/10/24
-	- Extend RJTT LAXAS SID to KAGNA
-	- Shorten RJTT ROVER SID AKAGI transition to the exit point from the ACA, CLARK
-	- Add RJTT VAMOS SID XAC transition to B586
+	- Extend RJTT `LAXAS` SID to `KAGNA`
+	- Shorten RJTT `ROVER` SID `AKAGI` transition to the exit point from the ACA, `CLARK`
+	- Add RJTT `VAMOS` SID `XAC` transition to `B586`
 	- Adjusted entry points
-	- Adjust label for Shimofusa CTR
+	- Adjust label for `RJTL` Shimofusa CTR
 	- Add readme
 *	1.3.1 - 2020/10/25
-	- Correct CCA callsign pronunciation for RJAA
+	- Correct `CCA` callsign pronunciation for `RJAA`
 *	2.0.0 - 2020/11/02
 	- Add approaches to many, many fixes as the approach limit has been lifted.
-	- Add RJTT 16L/16R ILS approaches
-	- Add RJTT "LDA" 22/23 approaches
-	- RJAA arrivals now fly direct to first point inside RJTT ACA on their arrival route instead of NRE.
+	- Add `RJTT` 16L/16R ILS approaches
+	- Add `RJTT` 22/23 "LDA" approaches
+	- `RJAA` arrivals now fly direct to first point inside `RJTT` ACA on their arrival route instead of `NRE`.
 	- Adjusted entry points
-	- Added missing ALDEN waypoint for some STARs from AROSA
+	- Added missing `ALDEN` waypoint for some STARs from `AROSA`
 	- Adjusted traffic frequencies
-	- Changed name of RJAA airport for voice purposes
+	- Changed name of `RJAA` airport for voice purposes
 *	2.0.1 - 2020/11/02
 	- Fix aircraft failing to intercept the localizer for LDA approaches by changing name of runway
 *	2.0.2 - 2020/11/02
-	- Add CAMEL fix as IF for 34R and appropriate transitions. Now CREAM is no longer both the point merge fix and initial approach fix for 34R, and aircraft can shortcut from 2C arrivals direct to CREAM and fly the 34R approach via CREAM transition.
+	- Add `CAMEL` fix as IF for 34R and appropriate transitions. Now `CREAM` is no longer both the point merge fix and initial approach fix for 34R, and aircraft can shortcut from `2C` arrivals direct to `CREAM` and fly the 34R approach via `CREAM` transition.
+*	2.0.3 - 2020/11/10
+	- Fix `HDJT` max speed
+	- Add `GUMYO` as minor fix (intermediate fix to SWIMY on 16R/34L missed approaches)

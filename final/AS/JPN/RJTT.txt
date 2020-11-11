@@ -1,4 +1,4 @@
-# RJTT ACA 2.0.2
+# RJTT ACA 2.0.3
 # See RJTT_readme.md
 
 [airspace]
@@ -433,6 +433,7 @@ sids =
 	LESPO, N35.46.36.00, E141.45.37.79, Lespo
 	VAGLA, N35.01.33.45, E141.44.34.81, Vagla
 	GURIP, N36.33.16.42, E140.37.36.49, Gurip
+	GUMYO, N35.32.48.98, E140.22.01.70, Goom yo
 
 entrypoints = 
 #Y81 RUTAS
@@ -7656,4 +7657,4 @@ config4 =
 
 [planetypes]
 types = 
-	hdjt, 6, 140, 360, 2.8, 3.2, 1500, 1800, 115, 125, 1.3, 1.5, honda jet
+	hdjt, 6, 140, 250, 2.8, 3.2, 1500, 1800, 115, 125, 1.3, 1.5, honda jet
