@@ -229,3 +229,7 @@ There are two simple runway configurations:
 *	2.0.3 - 2020/11/10
 	- Fix `HDJT` max speed
 	- Add `GUMYO` as minor fix (intermediate fix to SWIMY on 16R/34L missed approaches)
+*	2.1.0 - 2020/11/10
+	- Add RJTT `XAC`/`AKSEL`/`AROSA` `2C` STARs to 34R via the `CREAM` point merge and `2N`, `2B` STARs under the `SHAFT` point merge to 23 to all fixes shared with other STARs
+	- Add RJAA `E`/`N` STARs to all fixes shared with other STARs
+	- Approaches now available from `BACON`, `DATUM`, `STEAM`, `NYLON`, `ELGAR`, `NORMA` IAFs.
