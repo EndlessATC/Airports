@@ -225,4 +225,4 @@ There are two simple runway configurations:
 	- Prioritize 16L/34R at `RJAA` instead of 16R/34L for approaches. PMS STARs now lead to 16L/34R via `GEMIN` and `TYLER`, the alternative STARs now lead to 16R/34L via `NORMA` and `ELGAR`. This should be more reflective of actual runway use.
 	- Add full length "`2C`", "`2B`", "`2N`" approaches for `RJTT`
 	- Correct a duplicated [area]
-	- Add static transitions to `RJTT` IAFs
+	- Add static transitions to `RJTT` and `RJAA` IAFs
