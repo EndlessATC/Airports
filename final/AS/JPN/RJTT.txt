@@ -1587,7 +1587,7 @@ runway = rwy3
 beacon = ARLON
 
 #ILS Z RWY 34R from ARLON
-route2 = 
+route1 = 
 	6
 #ARLON >4000
 	N35.15.25.28, E139.58.59.79
@@ -1623,6 +1623,7 @@ route3 =
 	19.4, 5000, 200
 #APOLO >5000
 
+
 #Y71 XAC XAC1A
 [approach7]
 runway = rwy1
@@ -1649,6 +1650,7 @@ route1 =
 	19.4, 5000, 200
 #APOLO >5000
 
+
 [approach8]
 runway = rwy1
 beacon = ACORN
@@ -1671,6 +1673,7 @@ route1 =
 #ARLON >5000
 	19.4, 5000, 200
 #APOLO >5000
+
 
 #Y21 AKSEL AKSEL1A
 [approach9]
@@ -1696,6 +1699,7 @@ route1 =
 	19.4, 5000, 200
 #APOLO >5000
 
+
 #Y21 AKSEL AKSEL1A
 [approach10]
 runway = rwy1
@@ -1717,6 +1721,7 @@ route1 =
 #ARLON >5000
 	19.4, 5000, 200
 #APOLO >5000
+
 
 #Y824 AROSA AROSA1A
 [approach11]
@@ -1742,6 +1747,7 @@ route1 =
 #ARLON >5000
 	19.4, 5000, 200
 #APOLO >5000
+
 
 #Y875 AROSA AROSA1A
 [approach12]
@@ -1769,6 +1775,7 @@ route1 =
 	19.4, 5000, 200
 #APOLO >5000
 
+
 [approach13]
 runway = rwy1
 beacon = AVEEY
@@ -1790,6 +1797,7 @@ route1 =
 	19.4, 5000, 200
 #APOLO >5000
 
+
 [approach14]
 runway = rwy1
 beacon = WEDGE
@@ -1800,6 +1808,7 @@ route1 =
 #ARLON >5000
 	19.4, 5000, 200
 #APOLO >5000
+
 
 #Y10 GODIN GODIN1C
 [approach15]
@@ -1832,6 +1841,7 @@ route1 =
 #CAMEL =4000
 	17.6, 4000, 200
 #CACAO
+
 
 #Y807 POLIX POLIX1C
 [approach16]
@@ -1871,6 +1881,7 @@ route2 =
 	17.6, 4000, 200
 #CACAO
 
+
 [approach17]
 runway = rwy3
 beacon = RUSDA, N35.56.47.49, E140.57.29.87
@@ -1906,6 +1917,7 @@ route2 =
 	17.6, 4000, 200
 #CACAO
 
+
 [approach18]
 runway = rwy3
 beacon = ESKEN, N36.05.01.09, E140.41.22.76
@@ -1939,6 +1951,7 @@ route2 =
 	17.6, 4000, 200
 #CACAO
 
+
 [approach19]
 runway = rwy3
 beacon = POLIX
@@ -1970,6 +1983,7 @@ route2 =
 	17.6, 4000, 200
 #CACAO
 
+
 [approach20]
 runway = rwy3
 beacon = CHIPS, N36.12.47.70, E140.14.36.89
@@ -1999,6 +2013,7 @@ route1 =
 	17.6, 4000, 200
 #CACAO
 
+
 [approach21]
 runway = rwy3
 beacon = COLOR
@@ -2026,6 +2041,7 @@ route2 =
 	17.6, 4000, 200
 #CACAO
 
+
 [approach22]
 runway = rwy3
 beacon = COPSE, N35.46.58.79, E140.12.05.38
@@ -2050,6 +2066,7 @@ route2 =
 #CAMEL =4000
 	17.6, 4000, 200
 #CACAO
+
 
 [approach23]
 runway = rwy3
@@ -3065,7 +3082,7 @@ route1 =
 
 [approach64]
 runway = rwy4
-beacon = POLIX, N36.05.01.09, E140.41.22.76
+beacon = POLIX
 route1 = 
 	310
 #POLIX =15000
@@ -6308,11 +6325,12 @@ route1 =
 	N35.27.57.71, E140.40.15.22
 #GIINA
 	15.4, 4000, 220
+#COSMO
 
 
 #Y81 RUTAS RUTAST/Y87 BAFFY Y81 RUTAS RUTAST
 [approach149]
-runway = rwy5
+runway = rwy6
 beacon = BAFFY
 
 route1 = 
@@ -6338,13 +6356,13 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 [approach150]
-runway = rwy5
+runway = rwy6
 beacon = MAMAS, N34.27.33.98, E140.08.57.99
 
 route1 = 
@@ -6368,13 +6386,13 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 [approach151]
-runway = rwy5
+runway = rwy6
 beacon = RUTAS
 
 route1 = 
@@ -6396,13 +6414,13 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 [approach152]
-runway = rwy5
+runway = rwy6
 beacon = VENUS
 
 route1 = 
@@ -6422,13 +6440,13 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 [approach153]
-runway = rwy5
+runway = rwy6
 beacon = JARED, N35.10.24.76, E140.52.15.40
 
 route1 = 
@@ -6446,15 +6464,15 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 #Y30/R211 SWAMP SWAMPT
 [approach154]
-runway = rwy5
+runway = rwy6
 beacon = SWAMP
 
 route1 = 
@@ -6482,14 +6500,14 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 [approach155]
-runway = rwy5
+runway = rwy6
 beacon = VIXEN, N36.13.35.93, E140.39.47.14
 
 route1 = 
@@ -6515,14 +6533,14 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 [approach156]
-runway = rwy5
+runway = rwy6
 beacon = PLEIA
 
 route1 = 
@@ -6546,14 +6564,14 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 [approach157]
-runway = rwy5
+runway = rwy6
 beacon = KARMA
 
 route1 = 
@@ -6575,14 +6593,14 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 [approach158]
-runway = rwy5
+runway = rwy6
 beacon = DREAM, N35.38.53.25, E141.00.23.88
 
 route1 = 
@@ -6602,14 +6620,14 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 [approach159]
-runway = rwy5
+runway = rwy6
 beacon = MCGEE, N35.32.29.00, E141.03.11.84
 
 route1 = 
@@ -6627,15 +6645,15 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 #Y809 SUPOK SUPOKT
 [approach160]
-runway = rwy5
+runway = rwy6
 beacon = SUPOK
 
 route1 = 
@@ -6657,14 +6675,14 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 [approach161]
-runway = rwy5
+runway = rwy6
 beacon = SOFIA, N35.33.00.12, E141.11.49.94
 
 route1 = 
@@ -6684,15 +6702,15 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 #Y813 LUBLA LUBLAT
 [approach162]
-runway = rwy5
+runway = rwy6
 beacon = LUBLA
 
 route1 = 
@@ -6714,15 +6732,15 @@ route1 =
 #PEAKS =6000
 	N35.25.07.15, E140.43.52.65, 6000
 #TYLER
-	N35.26.50.48, E140.38.07.77, 4000
-#GIINA
-	15.4, 4000, 220
-#COSMO
+	N35.26.50.48, E140.38.07.77
+#TEMIS
+	17.5, 5000, 220
+#LAPIS
 
 
 #Y81 RUTAS RUTASE/Y87 BAFFY Y81 RUTAS RUTASE
 [approach163]
-runway = rwy6
+runway = rwy5
 beacon = BAFFY
 
 route1 = 
@@ -6744,16 +6762,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach164]
-runway = rwy6
+runway = rwy5
 beacon = MAMAS, N34.27.33.98, E140.08.57.99
 
 route1 = 
@@ -6773,16 +6791,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach165]
-runway = rwy6
+runway = rwy5
 beacon = RUTAS
 
 route1 = 
@@ -6800,16 +6818,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach166]
-runway = rwy6
+runway = rwy5
 beacon = JITAN, N34.49.14.19, E140.53.49.27
 
 route1 = 
@@ -6825,16 +6843,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach167]
-runway = rwy6
+runway = rwy5
 beacon = AQUOS
 
 route1 = 
@@ -6848,16 +6866,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach168]
-runway = rwy6
+runway = rwy5
 beacon = SIGMA, N35.24.25.49, E141.13.18.26
 
 route1 = 
@@ -6869,17 +6887,17 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 #Y30/R211 SWAMP SWAMPE
 [approach169]
-runway = rwy6
+runway = rwy5
 beacon = SWAMP
 
 route1 = 
@@ -6899,17 +6917,17 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 #Y30/R211 SWAMP SWAMPE
 [approach170]
-runway = rwy6
+runway = rwy5
 beacon = VIXEN, N36.13.35.93, E140.39.47.14
 
 route1 = 
@@ -6927,17 +6945,17 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 #Y30/R211 SWAMP SWAMPE
 [approach171]
-runway = rwy6
+runway = rwy5
 beacon = PLEIA
 
 route1 = 
@@ -6953,17 +6971,17 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 #Y30/R211 SWAMP SWAMPE
 [approach172]
-runway = rwy6
+runway = rwy5
 beacon = MIFFY, N36.02.32.05, E140.49.59.52
 
 route1 = 
@@ -6977,17 +6995,17 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 #Y30/R211 SWAMP SWAMPE
 [approach173]
-runway = rwy6
+runway = rwy5
 beacon = KARMA
 
 route1 = 
@@ -6999,17 +7017,17 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 #Y809 SUPOK RUTASE
 [approach174]
-runway = rwy6
+runway = rwy5
 beacon = SUPOK
 
 route1 = 
@@ -7023,16 +7041,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach175]
-runway = rwy6
+runway = rwy5
 beacon = PLOKY, N35.45.28.26, E141.04.02.29
 
 route1 = 
@@ -7044,16 +7062,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach176]
-runway = rwy6
+runway = rwy5
 beacon = UNARI, N35.45.13.78, E140.57.37.07
 
 route1 = 
@@ -7063,17 +7081,17 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 #Y813 LUBLA LUBLAE
 [approach177]
-runway = rwy6
+runway = rwy5
 beacon = LUBLA
 
 route1 = 
@@ -7085,16 +7103,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach178]
-runway = rwy6
+runway = rwy5
 beacon = TORCH, N35.24.25.49, E141.13.18.26
 
 route1 = 
@@ -7104,16 +7122,16 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
-#TEMIS
-	17.5, 5000, 220
-#LAPIS
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
 
 
 [approach179]
-runway = rwy6
+runway = rwy5
 beacon = CORGI
 
 route1 = 
@@ -7121,15 +7139,29 @@ route1 =
 #CORGI
 	N35.38.29.77, E140.51.38.90
 #ELGAR
-	N35.31.29.20, E140.45.27.39
-#FIONA
-	N35.28.45.68, E140.41.25.95
+	N35.31.29.20, E140.45.27.39, 4000
+#HARPS
+	N35.27.57.71, E140.40.15.22
+#GIINA
+	15.4, 4000, 220
+#COSMO
+
+
+[approach180]
+runway = rwy6
+beacon = PEAKS
+route1 = 
+	330
+#PEAKS =6000
+	N35.25.07.15, E140.43.52.65, 6000
+#TYLER
+	N35.26.50.48, E140.38.07.77
 #TEMIS
 	17.5, 5000, 220
 #LAPIS
 
 
-[approach180]
+[approach181]
 runway = rwy5
 beacon = PEAKS
 route1 = 
@@ -7144,7 +7176,7 @@ route1 =
 
 
 #ILS Z RWY 16R
-[approach181]
+[approach182]
 runway = rwy5, rev
 beacon = KOALA, N35.59.04.42, E140.12.57.24
 
@@ -7178,7 +7210,7 @@ route2 =
 
 
 #ILS Z RWY 16L
-[approach182]
+[approach183]
 runway = rwy6, rev
 beacon = METIS, N35.59.45.62, E140.14.23.01
 
@@ -7209,7 +7241,7 @@ route2 =
 #CYGNY
 
 
-[approach183]
+[approach184]
 runway = rwy5, rev
 beacon = GEMIN
 
@@ -7228,7 +7260,7 @@ route1 =
 #GREBE
 
 
-[approach184]
+[approach185]
 runway = rwy6, rev
 beacon = GEMIN
 
@@ -7245,7 +7277,7 @@ route1 =
 #CYGNY
 
 
-[approach185]
+[approach186]
 runway = rwy5, rev
 beacon = NORMA
 
@@ -7264,7 +7296,7 @@ route1 =
 #GREBE
 
 
-[approach186]
+[approach187]
 runway = rwy6, rev
 beacon = NORMA
 
@@ -7284,8 +7316,8 @@ route1 =
 
 
 #Y81 RUTAS RUTASG/Y87 BAFFY Y81 RUTASG
-[approach187]
-runway = rwy5, rev
+[approach188]
+runway = rwy6, rev
 beacon = BAFFY
 
 route1 = 
@@ -7310,21 +7342,19 @@ route1 =
 	N35.58.56.27, E140.52.34.61, 10000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach188]
-runway = rwy5, rev
+[approach189]
+runway = rwy6, rev
 beacon = MAMAS, N34.27.33.98, E140.08.57.99
 
 route1 = 
@@ -7347,21 +7377,19 @@ route1 =
 	N35.58.56.27, E140.52.34.61, 10000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach189]
-runway = rwy5, rev
+[approach190]
+runway = rwy6, rev
 beacon = RUTAS
 
 route1 = 
@@ -7382,21 +7410,19 @@ route1 =
 	N35.58.56.27, E140.52.34.61, 10000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach190]
-runway = rwy5, rev
+[approach191]
+runway = rwy6, rev
 beacon = VENUS
 
 route1 = 
@@ -7415,21 +7441,19 @@ route1 =
 	N35.58.56.27, E140.52.34.61, 10000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach191]
-runway = rwy5, rev
+[approach192]
+runway = rwy6, rev
 beacon = COPEN
 
 route1 = 
@@ -7446,21 +7470,19 @@ route1 =
 	N35.58.56.27, E140.52.34.61, 10000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach192]
-runway = rwy5, rev
+[approach193]
+runway = rwy6, rev
 beacon = BOOTH, N35.40.23.60, E140.51.20.47
 
 route1 = 
@@ -7475,22 +7497,20 @@ route1 =
 	N35.58.56.27, E140.52.34.61, 10000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
 #Y30/R211 SWAMP SWAMPG
-[approach193]
-runway = rwy5, rev
+[approach194]
+runway = rwy6, rev
 beacon = SWAMP
 
 route1 = 
@@ -7511,21 +7531,19 @@ route1 =
 	N35.39.42.43, E140.52.23.89, 9000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach194]
-runway = rwy5, rev
+[approach195]
+runway = rwy6, rev
 beacon = VIXEN, N36.13.35.93, E140.39.47.14
 
 route1 = 
@@ -7544,21 +7562,19 @@ route1 =
 	N35.39.42.43, E140.52.23.89, 9000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach195]
-runway = rwy5, rev
+[approach196]
+runway = rwy6, rev
 beacon = PLEIA
 
 route1 = 
@@ -7575,21 +7591,19 @@ route1 =
 	N35.39.42.43, E140.52.23.89, 9000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach196]
-runway = rwy5, rev
+[approach197]
+runway = rwy6, rev
 beacon = BETEL, N35.59.31.59, E140.53.43.40
 
 route1 = 
@@ -7604,21 +7618,19 @@ route1 =
 	N35.39.42.43, E140.52.23.89, 9000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach197]
-runway = rwy5, rev
+[approach198]
+runway = rwy6, rev
 beacon = SUPOK
 
 route1 = 
@@ -7639,21 +7651,19 @@ route1 =
 	N36.00.06.89, E140.54.52.20, 8000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach198]
-runway = rwy5, rev
+[approach199]
+runway = rwy6, rev
 beacon = REGZA, N35.39.25.80, E141.08.09.06
 
 route1 = 
@@ -7670,21 +7680,19 @@ route1 =
 	N36.00.06.89, E140.54.52.20, 8000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach199]
-runway = rwy5, rev
+[approach200]
+runway = rwy6, rev
 beacon = VOGUE, N35.39.27.63, E140.59.08.40
 
 route1 = 
@@ -7699,21 +7707,19 @@ route1 =
 	N36.00.06.89, E140.54.52.20, 8000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
-[approach200]
-runway = rwy5, rev
+[approach201]
+runway = rwy6, rev
 beacon = LUBLA
 
 route1 = 
@@ -7732,22 +7738,20 @@ route1 =
 	N36.00.06.89, E140.54.52.20, 8000, 210
 #CASIO =6000
 	N35.50.21.35, E140.35.56.06, 6000
-#GEMIN >6000
+#GEMIN >4000
 	N35.57.38.61, E140.24.50.74
-#ACELA >6000 <7000
-	N36.07.12.79, E140.19.19.55, 7000
-#PIXUS >4000
-	N36.07.08.49, E140.10.35.18
-#BROOK
-	N36.02.14.16, E140.10.39.12
-#KOALA >4000
-	14.6, 4000, 220
-#GREBE
+#MARCH =3000 185
+	N36.02.11.30, E140.17.18.80, 3000, 185
+#LARKS
+	N36.02.09.87, E140.14.21.20
+#METIS =3000
+	14.6, 3000, 185
+#CYGNY
 
 
 #Y81 RUTAS RUTASG/Y87 BAFFY Y81 RUTASG
-[approach201]
-runway = rwy6, rev
+[approach202]
+runway = rwy5, rev
 beacon = BAFFY
 
 route1 = 
@@ -7766,19 +7770,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach202]
-runway = rwy6, rev
+[approach203]
+runway = rwy5, rev
 beacon = MAMAS, N34.27.33.98, E140.08.57.99
 
 route1 = 
@@ -7795,19 +7799,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach203]
-runway = rwy6, rev
+[approach204]
+runway = rwy5, rev
 beacon = RUTAS
 
 route1 = 
@@ -7822,19 +7826,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach204]
-runway = rwy6, rev
+[approach205]
+runway = rwy5, rev
 beacon = VENUS
 
 route1 = 
@@ -7847,19 +7851,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach205]
-runway = rwy6, rev
+[approach206]
+runway = rwy5, rev
 beacon = GAUDI
 
 route1 = 
@@ -7870,19 +7874,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach206]
-runway = rwy6, rev
+[approach207]
+runway = rwy5, rev
 beacon = SWAMP
 
 route1 = 
@@ -7903,19 +7907,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach207]
-runway = rwy6, rev
+[approach208]
+runway = rwy5, rev
 beacon = VIXEN, N36.13.35.93, E140.39.47.14
 
 route1 = 
@@ -7934,19 +7938,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach208]
-runway = rwy6, rev
+[approach209]
+runway = rwy5, rev
 beacon = PLEIA
 
 route1 = 
@@ -7963,19 +7967,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach209]
-runway = rwy6, rev
+[approach210]
+runway = rwy5, rev
 beacon = SUPOK
 
 route1 = 
@@ -7988,19 +7992,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach210]
-runway = rwy6, rev
+[approach211]
+runway = rwy5, rev
 beacon = LUBLA
 
 route1 = 
@@ -8013,19 +8017,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach211]
-runway = rwy6, rev
+[approach212]
+runway = rwy5, rev
 beacon = REGZA
 
 route1 = 
@@ -8036,19 +8040,19 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
-#MARCH =3000 185
-	N36.02.11.30, E140.17.18.80, 3000, 185
-#LARKS
-	N36.02.09.87, E140.14.21.20
-#METIS =3000
-	14.6, 3000, 185
-#CYGNY
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
 
 
-[approach212]
-runway = rwy6, rev
+[approach213]
+runway = rwy5, rev
 beacon = BARON
 
 route1 = 
@@ -8057,8 +8061,27 @@ route1 =
 	N35.45.51.02, E141.01.11.97
 #NORMA >6000
 	N35.59.00.83, E140.32.53.97
-#LUNAR >4000 <5000
-	N35.59.50.75, E140.28.49.98, 5000
+#ACELA >6000 <7000
+	N36.07.12.79, E140.19.19.55, 7000
+#PIXUS >4000
+	N36.07.08.49, E140.10.35.18
+#BROOK
+	N36.02.14.16, E140.10.39.12
+#KOALA >4000
+	14.6, 4000, 220
+#GREBE
+	
+
+[approach214]
+runway = rwy6, rev
+beacon = CASIO
+
+route1 = 
+	280
+#CASIO =6000
+	N35.50.21.35, E140.35.56.06, 6000
+#GEMIN >4000
+	N35.57.38.61, E140.24.50.74
 #MARCH =3000 185
 	N36.02.11.30, E140.17.18.80, 3000, 185
 #LARKS
@@ -8068,7 +8091,7 @@ route1 =
 #CYGNY
 	
 
-[approach213]
+[approach215]
 runway = rwy5, rev
 beacon = CASIO
 
@@ -8087,6 +8110,8 @@ route1 =
 #KOALA >4000
 	14.6, 4000, 220
 #GREBE
+
+
 
 [departure8]
 runway = rwy5
@@ -8873,43 +8898,43 @@ route9 =
 #RJTT departing 34R/05, arriving 34L/34R
 #RJAA departing/arriving 34L/34R
 config1 = 
+	0, rwy1, land
 	0, rwy3, landstart
 	0, rwy4, startrev
-	0, rwy1, land
-	0, rwy5, landstart
 	0, rwy6, landstart
+	0, rwy5, landstart
 
 #South wind operation
 #RJTT departing 16L/16R, arriving ILS 22/ILS 23
 #RJAA departing/arriving 16L/16R
 config2 = 
-	0, rwy3, startrev
+	0, rwy2, land
 	0, rwy4, land
 	0, rwy1, startrev
-	0, rwy2, land
-	0, rwy5, landstartrev
+	0, rwy3, startrev
 	0, rwy6, landstartrev
+	0, rwy5, landstartrev
 
 #South wind operation (afternoon)
 #RJTT departing 16R/22, arriving 16L/16R
 #RJAA departing/arriving 16L/16R
 config3 = 
-	0, rwy8, landstartrev
 	0, rwy7, landstartrev
+	0, rwy8, landstartrev
 	0, rwy2, start
-	0, rwy5, landstartrev
 	0, rwy6, landstartrev
+	0, rwy5, landstartrev
 
 #South wind operation VMC
 #RJTT departing 16L/16R, arriving LDA 22/LDA 23
 #RJAA departing/arriving 16L/16R
 config4 = 
 	0, rwy3, startrev
-	0, rwy10, land
 	0, rwy1, startrev
 	0, rwy9, land
-	0, rwy5, landstartrev
+	0, rwy10, land
 	0, rwy6, landstartrev
+	0, rwy5, landstartrev
 
 
 [planetypes]
