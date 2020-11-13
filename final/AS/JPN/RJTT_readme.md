@@ -222,4 +222,4 @@ There are two simple runway configurations:
 *	2.1.0 - 2020/11/12
 	- Fix 34R approach from `ARLON`
 	- Fix erroneous coordinates for `POLIX` in `POLIX1S` arrival
-	- Prioritize 16L/34R at `RJAA` instead of 16R/34L for approaches. PMS STARs now lead to 16L/34R via `GEMIN` and `TYLER`, the alternative STARs now lead to 16R/34L via 'NORMA' and 'ELGAR'. This should be more reflective of actual runway use.
+	- Prioritize 16L/34R at `RJAA` instead of 16R/34L for approaches. PMS STARs now lead to 16L/34R via `GEMIN` and `TYLER`, the alternative STARs now lead to 16R/34L via `NORMA` and `ELGAR`. This should be more reflective of actual runway use.
