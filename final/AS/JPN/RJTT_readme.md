@@ -2,11 +2,13 @@
 
 This is an implementation of the Tokyo ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring `RJTT` Tokyo International Airport (commonly referred to as Haneda) and `RJAA` Narita International Airport. The airspace ceiling is FL240.
 
-Based upon AIP Japan 2020/10/08. The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative.
+Based upon AIP Japan 2020/10/08. The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative. Coastline data from naturalearthdata.com.
 
-The Tokyo ACA is a very large terminal area containing two of Japan's largest airports. The traffic that can flow in and out of these two airports can be immense, but the terminal procedures published for these two airports are robust and can provide you the ability to handle the immense deluge of traffic that can pour into the area. Scores of 40 or higher should be possible to maintain with minimal delay vectoring.
+The Tokyo ACA is a very large terminal area containing two of Japan's largest airports. The traffic that can flow in and out of these two airports can be immense, but the terminal procedures published for these two airports are robust and can provide you the ability to handle the immense deluge of traffic that can pour into the area. Most of the controller's work should be sequencing arrivals and monitoring a few key merge points for conflicts. Scores of 40 or higher should be possible to maintain with minimal delay vectoring.
 
 STARs are implemented as approach transitions. To activate an approach, an aircraft must be flying direct to an applicable fix, then the APP button can be activated. Multiple approaches may be available from a fix. Press the APP button again  before issuing the approach clearance (do not long press) will select the next approach available from that fix. If the aircraft is already on an approach from that fix, you will need to cancel the approach clearance first before issuing another approach clearance.
+
+**\*Departures may need to handed off before they reach the boundary of the ACA\***, *as there are cases where the SID exts the ACA before cruise altitude can be reached.*
 
 JSDF-G bases `RJTE` Tateyama and `RJTK` Kisarazu are not represented as it appears traffic should mostly be military helicopters, which are difficult to represent in this game. JSDF-M base `RJTL` Shimofusa is not currently implemented, but may be in a future version.
 `RJTO` Oshima/`RJAN` Niijima are not represented as traffic is either helicopters or traffic to `RJTF` Chofu in `RJTY` Yokota ACA. Unfortunately traffic to `RJTY` is difficult to represent as `RJTT` ACA has airspace on top of most of `RJTY` ACA, meaning that within the game, it is not possible to get planes to "spawn" from the appropriate region.
@@ -23,12 +25,12 @@ Most fixes visible on the map have a defined hold including many fixes along the
 
 Aircraft arrive at 6 points:
 
-- `SPENS` -> `XAC` (west from western Japan, Korea, Northern China)
-- `SELNO` -> `RUNSO` -> `AKSEL` (south west from southwestern Japan, Okinawa, Southeast Asia)
-- `TOPIT` -> `LUTNA` -> `RURER` -> `AROSA` (south from Hachijojima, Indonesia/Australia)
-- `DOLBA` -> `AROSA` (southeast from oceanic, Australia/NZ/Pacific islands, Guam)
-- `TEDIX` -> `GODIN` (north from northern Japan, Russia, Europe, east NA)
-- `LALID` -> `MILIT` -> `RUSDA` -> `ESKEN` -> `POLIX` (east from oceanic, west NA/SA, Hawaii)
+- `SPENS` -`Y71`-> `XAC` (west from western Japan, Korea, Northern China)
+- `SELNO` -`Y21`-> `RUNSO` -`Y21`-> `AKSEL` (south west from southwestern Japan, Okinawa, Southeast Asia)
+- `TOPIT` -`Y875`-> `RURER` -`Y875`-> `AROSA` (south from Hachijojima, Indonesia/Australia)
+- `DOLBA` -`Y824`-> `AROSA` (southeast from oceanic, Australia/NZ/Pacific islands, Guam)
+- `TEDIX` -`Y10`-> `GODIN` (north from northern Japan, Russia, Europe, east NA)
+- `LALID` -`Y807`-> `POLIX` (east from oceanic, west NA/SA, Hawaii)
 
 Aircraft depart via:
 
@@ -66,8 +68,6 @@ A few different configurations are used in real operations; four are available i
 
 	Note that higher arrivals will conflict with lower arrivals when descending from the point merge arc to meet the =8000 restriction at `WEDGE`. Either descend the lower arrival (watch out for further lower arrivals) or prioritize the lower arrival over the higher arrival. Also watch for `AROSA` arrivals conflicting with arrivals to `RJAA`.
 
-	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
-
 	Note that the normal runway operation for 34L/34R arrivals (`HIGHW`AY `VISUA`L 34R and ILS X 34L from `KAIHO`) is not possible to implement due to the lack of visual approaches in the game and the fact that aircraft joining the parallel ILS above `RJTK` Kisarazu would conflict as they are at the same altitude. Therefore the approaches depicted are illustrative of IMC conditions necessitating the use of parallel ILS approaches.
 
 	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 34R (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 34L (T1/T3/N area).
@@ -82,8 +82,6 @@ A few different configurations are used in real operations; four are available i
 
 	`STARS` are available using APP mode from `XAC`, `RUNSO`, `AROSA`, `GODIN`, `MILIT`, and many other intermediate points on the STARs. STARs from the southwest implement a point merge system around `SHAFT` (STARs from the northeast are traditional). Aircraft fly an arc around a `SHAFT`, and you can sequence planes by directing planes to proceed direct `SHAFT` and activate APP mode. By default south arrivals fly STARs and approaches to 22, but you can engage APP mode twice to have planes descend under the `SHAFT` arc to `BACON` for 23. Be careful of conflicts with traffic from the north inbound 23.
 
-	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
-
 	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 23 (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 22 (T1/T3/N area).
 
 -	Landing 22/23 (LDA), departing 16L/16R
@@ -96,8 +94,6 @@ A few different configurations are used in real operations; four are available i
 
 	`STARS` are available using APP mode from `XAC`, `RUNSO`, `AROSA`, `GODIN`, `MILIT`, and many other intermediate points on the STARs. STARs from the southwest implement a point merge system around `SHAFT` (STARs from the northeast are traditional). Aircraft fly an arc around a `SHAFT`, and you can sequence planes by directing planes to proceed direct `SHAFT` and activate APP mode.  By default south arrivals fly STARs and approaches to 22, but you can engage APP mode twice to have planes descend under the `SHAFT` arc to `BACON` for 23. Be careful of conflicts with traffic from the north inbound 23.
 
-	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
-
 	Note that the LDA approaches are represented by a runway located where one would be if the LDA approaches were straight-in ILS approaches; this is the best implementation given limitations of the game, but from an approach control perspective it should be a fairly accurate representation.
 
 	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 23 (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 22 (T1/T3/N area).
@@ -109,8 +105,6 @@ A few different configurations are used in real operations; four are available i
 	Approaches to 16L and 16R are available using APP mode from `SANDY` and `NATTY` respectively.
 
 	`STARS` are available using APP mode from `XAC`, `RUNSO`, `AROSA`, `GODIN`, `MILIT`, and many other intermediate points on the STARs. `STARS` to 16L/16R implement a point merge system around `SHAFT` for 16L and `NEURO` for 16R. Aircraft fly an arc around a point (`SHAFT`/`NEURO`), and you can sequence planes by directing planes to proceed direct `SHAFT`/`NEURO` and activate APP mode. By default south arrivals fly STARs and approaches to 16L, but you can engage APP mode twice to have planes fly over the `SHAFT` arc to join the `NEURO` arc for 16R.
-
-	\***Departures to the west/north/south will need to handed off before they reach the boundary of the ACA**, *as they will likely NOT climb out of the ACA.*\*
 
 	Note that the LDA approaches are represented by a runway located where one would be if the LDA approaches were straight-in ILS approaches; this is the best implementation given limitations of the game, but from an approach control perspective it should be a fairly accurate representation.
 
@@ -126,22 +120,22 @@ Most fixes visible on the map have a defined hold including many fixes along the
 
 Aircraft arrive at 4 points:
 
-- `BAFFY` -> `MAMAS` -> `RUTAS` (southwest from western and southwestern)
-- `VAGLA` -> `LUBLA` (northeast oceanic)
-- `LESPO` -> `SUPOK` (southeast oceanic)
-- `GURIR` -> `SWAMP` (north from north, northwest and northeast)
+- `BAFFY` -`Y81`-> `RUTAS` (southwest from western and southwestern)
+- `VAGLA` -`Y813`-> `LUBLA` (northeast oceanic)
+- `LESPO` -`Y809`-> `SUPOK` (southeast oceanic)
+- `GURIR` -`Y30`-> `SWAMP` (north from north, northwest and northeast)
 
 Aircraft depart via:
 
-- `AGRIS` (northwest)
-- `KIMIN` (north)
-- `GULBO` (northeast oceanic)
-- `BORLO` (east oceanic)
-- `IRNOK` (southsoutheast oceanic)
-- `NORIS` (south oceanic)
-- `SEDRI` (southwest)
-- `MITOP` (west)
-- `TEPEX` (northwest)
+- `AGRIS` (northwest via `TETRA8` departure `AGRIS` transition to `Y37`)
+- `KIMIN` (north via `TETRA8` departure `KIMIN` transition to `Y117`)
+- `GULBO` (northeast oceanic via `GULBO2` departure to `Y808`)
+- `BORLO` (east oceanic via `BORLO2` departure to `Y830`)
+- `IRNOK` (southsoutheast oceanic via `OLVAN2` departure to `Y823`)
+- `NORIS` (south oceanic via `OLVAN2` departure `SAMUS` transition to `Y84`)
+- `SEDRI` (southwest via `PIGOK2` departure to `Y50`)
+- `MITOP` (west via `REDEK2` departure to `Y60`)
+- `TEPEX` (northwest via `TETRA8` departure `ENPAR` transition to `Y16`)
 
 There are two runways:
 
@@ -182,10 +176,9 @@ There are two simple runway configurations:
 - No `RJTT` RNAV 16L/16R due to game limitations (conflicts between parallel arrivals on RNAV track).
 - No fair weather 34L/34R approach usage (no visual approaches, conflict on joining parallel ILS at same altitude)
 - No `RJTO` Oshima/`RJAN` Niijima (not possible to model arrivals from `RJTY` ACA)
-- `SELNO` arrivals can spawn a bit inside the ACA with no warning.
 - Arrival and departure directions can be a bit nonsense (e.g. AHK arriving from the Pacific), unfortunately this is a game limitation.
 - South arrivals to `RJTT` 16L/16R are very close to delayed even strictly following the STAR (game limitation?)
-- `SWAMP`/`SUPOK`/`LUBLA` arrivals prioritize 34R/16L
+- `SWAMP`/`SUPOK`/`LUBLA` arrivals prioritize 34R/16L (ideally they prioritze 16R/34L)
 
 ## Changelog
 
