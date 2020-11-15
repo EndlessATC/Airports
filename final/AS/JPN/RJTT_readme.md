@@ -1,4 +1,4 @@
-# `RJTT` ACA 2.1.0
+# `RJTT` ACA 2.2.0
 
 This is an implementation of the Tokyo ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring `RJTT` Tokyo International Airport (commonly referred to as Haneda) and `RJAA` Narita International Airport. The airspace ceiling is FL240.
 
@@ -10,12 +10,12 @@ STARs are implemented as approach transitions. To activate an approach, an aircr
 
 **\*Departures may need to handed off before they reach the boundary of the ACA\***, *as there are cases where the SID exts the ACA before cruise altitude can be reached.*
 
-JSDF-G bases `RJTE` Tateyama and `RJTK` Kisarazu are not represented as it appears traffic should mostly be military helicopters, which are difficult to represent in this game. JSDF-M base `RJTL` Shimofusa is not currently implemented, but may be in a future version.
+JSDF-M base `RJTE` Tateyama and JSDF-G bases `RJTK` Kisarazu, `RJAK` Kasumigaura are not represented as it appears traffic should mostly be military helicopters, which are difficult to represent in this game. JSDF-M base `RJTL` Shimofusa is not currently implemented, but may be in a future version.
 `RJTO` Oshima/`RJAN` Niijima are not represented as traffic is either helicopters or traffic to `RJTF` Chofu in `RJTY` Yokota ACA. Unfortunately traffic to `RJTY` is difficult to represent as `RJTT` ACA has airspace on top of most of `RJTY` ACA, meaning that within the game, it is not possible to get planes to "spawn" from the appropriate region.
 
 ## Airports
 
-### `RJTT`
+### `RJTT` Tokyo 'Haneda' International Airport
 
 The main airport of this sector. Previously only handling domestic traffic and very limited international flights to key East Asian cities, Haneda now handles a fair amount of international traffic along with most of Tokyo's domestic traffic. As such, traffic is biased towards the west for departures and southwest for arrivals. 
 
@@ -110,7 +110,7 @@ A few different configurations are used in real operations; four are available i
 
 	For an extra challenge, try routing ANA/SNJ/ADO/VIP flights to 23 (T2/VIP area) and JAL/SFJ/SKY/international/GA flights to 22 (T1/T3/N area).
 
-### `RJAA`
+### `RJAA` Narita International Airport
 
 The secondary, yet also major airport of this sector. Previously handling almost all of Tokyo's international traffic, it has lost some of it to Haneda recently. However, it still handles a large chunk of Tokyo's international flights as well as the many cargo flights from FDX/UPS etc. RWY 34R which was too short when Narita opened to handle heavy aircraft has now been extended and can generally handle most aircraft other than the largest of aircraft such as A388.
 
@@ -170,6 +170,26 @@ There are two simple runway configurations:
 
 	For an extra challenge, try routing oneworld/LCC flights to 16L (T2/T3) and other flights to 16R (T1/cargo area).
 
+### `RJTL` Shimofusa Air Base
+	
+This JSDF-M base is located under the ILS to runway 22/23 at `RJTT`. There is one runway 01/19, with an ILS approach to RWY 19 only. Use care to maintain separation of traffic from `RJTT` arrivals. When landing RWY 01, aircraft will fly the ILS 19 and circle to land RWY 01. Due to the complexity of the airspace, in Endless ATC this airport is set to open when score > 20, to allow for beginning players to understand the `RJTT` and `RJAA` routes first.
+
+Aircraft arrive at 4 points:
+
+- `XAC` (southwest)
+- `KAMOG` (southeast)
+- `KIDOR` (north)
+- `LEMUM` (northwest)
+
+Aircraft depart via:
+
+- `XAC` via `TSUGA`, `OJT`, `TET` (southwest)
+- `KAMOG` via `TSUGA`, `OJT` (southeast)
+- `OMIYA` (northwest)
+- `JD` (north)
+
+Approaches are available using APP mode from `TOHNE` and `ASEKI`. Arrival routes are available using APP mode from `XAC`, `KAMOG`, `LEMUM`, and `KIDOR`, as well as any intermediate points.
+
 ## Known Issues
 
 - `RJTT` LDA approaches aren't really LDA approaches with the VPT (visual prescribed track), just a hack ILS approach to a fictional runway.
@@ -226,3 +246,8 @@ There are two simple runway configurations:
 	- Add full length "`2C`", "`2B`", "`2N`" approaches for `RJTT`
 	- Correct a duplicated [area]
 	- Add static transitions to `RJTT` and `RJAA` IAFs
+*	2.2.0 - 2020/11/
+	- Add `RJTL` JSDF-M Shimofusa Air Base
+	- Reposition label for [area] "TOKYO ACA FL240/3000 (EXC 3000)"
+	- Fix erroneous coordinates for `POLIX` in `POLIX1D` arrival
+	- Internal runway identifiers revised
