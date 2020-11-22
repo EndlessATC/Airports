@@ -1,4 +1,4 @@
-# EHAM v0.1
+# EHAM v0.4
 This is a file to add EHAM (Amsterdam Schiphol Airport) to the [Endless ATC](https://steamcommunity.com/app/666610) game.
 
 ## Features
@@ -7,11 +7,13 @@ This is a file to add EHAM (Amsterdam Schiphol Airport) to the [Endless ATC](htt
 * (Semi-)Realistic arrival- and departure paths
 * Realistic airspace
 * Secondary airports: EHRD
-* Multiple runway configurations (currently 2)
-### Planned
+* Multiple runway configurations (currently 6)
 * Realistic airline schedules. The variety of airlines is quite limited at this time.
+### Planned
 * Additional runway configurations
 * Add EHLE secondary
+* Add ARTIP1X transition
+* Potentially add night transitions
 
 ## Basic operations
 ### Departures
@@ -67,11 +69,26 @@ Aircraft from RIVER are either vectored for a straight in ILS06 and controlled b
 Aircraft from RIVER to RWY36R are put on a heading of 060 and descended to FL040, be mindful of departures from EHRD.
 Then the aircraft are merged with traffic from ARTIP based on speed and intercept distance.
 
+### Configurations 3/4
+Additional configurations based on visibility conditions being below minima for parallel landing.
+Aircraft from SUGOL are vectored to runway 18R, from ARTIP to runway 22/27 and from RIVER to either runway depending on traffic.
+Traffic from RIVER to runway 22/27 are flown to SPL at FL70 and then descended once overhead the airport.
+This could have a conflict with departing traffic from runway 24, as such be mindful when clearing departures higher than FL60.
+
+### Configurations 5/6
+Alternative North Combinations.
+In configuration 5 traffic from SUGOL goes to runway 36C, from ARTIP to runway 36R as per config 2 and traffic from RIVER to either depending on traffic.
+Note that the intercept height for runway 36C is 3000ft and that the downwind from SUGOL is turned just outside of the CTR.
+
+In configuration 6 traffic from ARTIP is going to runway 27, from SUGOL to 06 and traffic from RIVER to either runway depending on traffic.
+Traffic for runway 27 from RIVER leaves RIVER heading 060 for a left-hand traffic pattern.
+
 ### EHRD
 Arriving traffic from EHRD will arrive from all four cardinal directions.
 Arrivals from the north and east are routed to PAM, from the west to STD and from the south directly to ROT.
-Arrivals are then routed to ROT and flown either a righthand circuit for runway 06 or lefthand circuit for runway 24.
+Arrivals are then routed to ROT and flown either a right-hand circuit for runway 06 or left-hand circuit for runway 24.
 Aircraft arriving from PAM towards runway 24 are usually vectored straight in, likewise for west and south arrivals for runway 06.
+Traffic arriving from the south might require an orbit to lose additional altitude due to EndlessATC limitation on entering altitudes.
 
 Notice bugs or issues? Please open an [issue on github](https://github.com/AdamJCavanaugh/EndlessATCAirports/issues).
 
@@ -83,9 +100,13 @@ v0.2
 * Added EHAM_readme.md
 
 v0.3
-* Added EHAM CTR's 2/3
+* Added EHAM CTR's 1,2 & 3
+* Added EHRD CTR
 * Added restricted area's for CTA's prior to SUGOL/RIVER/ARTIP
 * Added IRL airlines to the airports
+
+v0.4
+* Added additional configurations
 
 
 ## Credits
