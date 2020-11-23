@@ -253,6 +253,8 @@ runways =
 	rwy4, 18C, N52.3314, E4.74003, 183.0, 10826, 0, 1476, -13
 	rwy5, 18L, N52.3213, E4.77996, 183.0, 11155, 1887, 0, -12
 	rwy6, 18R, N52.3627, E4.71193, 183.0, 12467, 886, 0, -13
+	rwy8, 06, N52.2879, E4.73402, 58.0, 11483, 820, 0, -11
+	rwy9, 18R, N52.3627, E4.71193, 183.0, 12467, 886, 0, -13
 
 entrypoints =
 	290, SUGOL
@@ -698,8 +700,122 @@ route9 = WOODY1B, WOODY
 	N51.61944,	E4.40917
 	N51.40556,	E4.36639
 
+
+[departure7]
+#Departures from RWY24 in 1x2 south configuration (config 3/4)
+runway = rwy8, rev
+
+route1 = BERGI1S, BERGI
+	N52.27528,	E4.70111
+	N52.24389,	E4.65111
+	N52.22056,	E4.55750
+	N52.35778,	E4.42111
+	N52.74889,	E4.35889
+
+route2 = VALKO2S, IDRID
+	N52.27528,	E4.70111
+	N52.24389,	E4.65111
+	N52.22056,	E4.55750
+	N52.07139,	E3.83972
+	N51.99611,	E3.49611
+
+route3 = ANDIK1S, ANDIK
+	N52.27389,	E4.69750
+	N52.20833,	E4.76667
+	N52.17139,	E4.86972
+	N52.33472,	E5.09194
+	N52.73944,	E5.27056
+
+route4 = ARNEM2S, ARNEM
+	N52.27389,	E4.69750
+	N52.20833,	E4.76667
+	N52.17139,	E4.86972
+	N52.24417,	E5.25694
+	N52.23028,	E5.52889
+	N52.09639,	E6.07667
+
+route5 = RENDI1S, RENDI
+	N52.27389,	E4.69750
+	N52.20833,	E4.76667
+	N52.17139,	E4.86972
+	N52.24417,	E5.25694
+	N52.10972,	E5.56556
+	N52.06167,	E5.67556
+	N51.97556,	E5.83583
+
+route6 = LOPIK2S, LOPIK
+	N52.27389,	E4.69750
+	N52.20833,	E4.76667
+	N52.15528,	E4.91806
+	N51.93083,	E5.12917
+
+route7 = KUDAD1S, KUDAD
+	N52.27389,	E4.69750
+	N52.16028,	E4.75722
+	N51.92417,	E4.76722
+	N51.66750,	E4.56750
+	N51.40556,	E4.36639
+
+[departure8]
+#Departures from RWY36L in 1x2 north configuration (config 5/6)
+runway = rwy9, rev
+
+route1 = VOLLA2V, IDRID
+	N52.43111,	E4.71833
+	N52.46611,	E4.66139
+	N52.46722,	E4.53444
+	N52.42278,	E4.48889
+	N52.39861,	E4.41444
+	N52.31417,	E4.15611
+	N51.99611,	E3.49611
+
+route2 = BERGI4V, BERGI
+	N52.43111,	E4.71833
+	N52.46611,	E4.66139
+	N52.51778,	E4.57667
+	N52.74889,	E4.35889
+
+route3 = SPY3V, ANDIK
+	N52.43111,	E4.71833
+	N52.54472,	E4.72944
+	N52.58694,	E4.95083
+	N52.73944,	E5.27056
+
+route4 = ARNEM1V, ARNEM
+	N52.42028,	E4.71750
+	N52.48000,	E4.77222
+	N52.48750,	E4.94528
+	N52.33472,	E5.09194
+	N52.23028,	E5.52889
+	N52.09639,	E6.07667
+
+route5 = RENDI1V, RENDI
+	N52.42028,	E4.71750
+	N52.48000,	E4.77222
+	N52.48750,	E4.94528
+	N52.33472,	E5.09194
+	N52.24417,	E5.25694
+	N52.06167,	E5.67556
+	N51.97556,	E5.83583
+
+route6 = LOPIK3V, LOPIK
+	N52.39528,	E4.71528
+	N52.33889,	E4.82417
+	N52.25694,	E4.84778
+	N52.09722,	E5.05472
+	N51.93083,	E5.12917
+
+route7 = KUDAD1V, KUDAD
+	N52.39528,	E4.71528
+	N52.33889,	E4.82417
+	N52.25694,	E4.84778
+	N52.02056,	E4.84306
+	N51.92417,	E4.76722
+	N51.66750,	E4.56750
+	N51.40556,	E4.36639
+
 [configurations]
-#North Combination with 2 starting and 2 landing runways (usually run when transitioning from a landing peak to a starting peak and vice versa)
+#South Combination with 2 starting and 2 landing runways (usually run when transitioning from a landing peak to a starting peak and vice versa)
 config1 =
 	0, rwy2, startrev
 	0, rwy4, land
@@ -707,12 +823,40 @@ config1 =
 	0, rwy6, land
 	0, rwy7, startlandrev
 
-#South Combination with 2 starting and 2 landing runways (usually run when transitioning from a landing peak to a starting peak and vice versa)
+#North Combination with 2 starting and 2 landing runways (usually run when transitioning from a landing peak to a starting peak and vice versa)
 config2 =
 	0, rwy2, land
 	0, rwy4, startrev
 	0, rwy5, landrev
 	0, rwy6, startrev
+	0, rwy7, startland
+
+#South Combination with 1 starting runway and 2 landing runways (regular inbound peak with rain the in area, therefore parallel landing is unavailable)
+config3 =
+	0, rwy8, startrev
+	0, rwy6, land
+	0, rwy3, landrev
+	0, rwy7, startlandrev
+
+#South Combination with 1 starting runway and 2 landing runways (inbound peak during a southwestern storm)
+config4 =
+	0, rwy8, startrev
+	0, rwy6, land
+	0, rwy1, landrev
+	0, rwy7, startlandrev
+
+#North Combination with 1 starting runway and 2 landing runways (inbound peak without RWY06)
+config5 =
+	0, rwy9, startrev
+	0, rwy4, landrev
+	0, rwy5, landrev
+	0, rwy7, startland
+
+#North Combination with 1 starting runway and 2 landing runways (inbound peak with reduced visibility and calm winds)
+config6 =
+	0, rwy9, startrev
+	0, rwy2, land
+	0, rwy3, landrev
 	0, rwy7, startland
 
 types =
