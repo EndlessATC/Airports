@@ -158,7 +158,7 @@ There are two simple runway configurations:
 
 	For an extra challenge, try routing oneworld/LCC flights to 34R (T2/T3) and other flights to 34L (T1/cargo area).
 
--	Landing 22/23, departing 16L/16R
+-	Landing and departing 16L/16R
 
 	Approaches to 16L and 16R are available using APP mode from `MARCH` and `ACELA` respectively, with transitions from `TYLER` or `ELGAR` depending whether the aircraft is approaching from the south or the east.
 
@@ -199,6 +199,14 @@ Approaches are available using APP mode from `TOHNE` and `ASEKI`. Arrival routes
 - Arrival and departure directions can be a bit nonsense (e.g. AHK arriving from the Pacific), unfortunately this is a game limitation.
 - South arrivals to `RJTT` 16L/16R are very close to delayed even strictly following the STAR (game limitation?)
 - `SWAMP`/`SUPOK`/`LUBLA` arrivals prioritize 34R/16L (ideally they prioritze 16R/34L)
+
+## Disclaimer
+
+This is a best effort work based on air traffic observations and official aeronautical publications. No guarantee is made that the representation of Tokyo ACA matches real life procedures in any way. Any information regarding inaccuracies is appreciated.
+
+## For Developers
+
+Note that traffic data (`airlines = `) is expanded by a python script `expand_airlines.py` from the shorter `source/RJTT.txt` according to the definitions in '`#!`' comments. If submitting a proposed change, please submit your changes in the source file.
 
 ## Changelog
 
@@ -248,6 +256,10 @@ Approaches are available using APP mode from `TOHNE` and `ASEKI`. Arrival routes
 	- Add static transitions to `RJTT` and `RJAA` IAFs
 *	2.2.0 - 2020/11/
 	- Add `RJTL` JSDF-M Shimofusa Air Base
-	- Reposition label for [area] "TOKYO ACA FL240/3000 (EXC 3000)"
+	- Add `RJTF` Chofu, `RJTO` Oshima, `RJAN` Niijima as inactive airports
+	- Reposition label for `[area]` "TOKYO ACA FL240/3000 (EXC 3000)"
 	- Fix erroneous coordinates for `POLIX` in `POLIX1D` arrival
 	- Internal runway identifiers revised
+	- Remove static transitions to 34L/22/22(LDA) and 34L/16R from `CREAM`/`DATUM`/`STEAM` and `ELGAR`/`NORMA` respectively for gameplay reasons. These transitions are still available dynamically from IFs `CAMEL`/`NEXUS`/`BONUS` and `METIS`/`TEMIS` respectively.
+	- Increased the scheduled airline to GA/bizjet traffic ratio (less GA traffic).
+	- Added 'rare' traffic (head of state, navaid check)
