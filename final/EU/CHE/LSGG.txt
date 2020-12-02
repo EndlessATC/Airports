@@ -25,19 +25,22 @@ separation = 3			; minimum allowed distance between aircraft in NM
 
 
 beacons =
-	GVA, N46.25390, E6.13222, 0, Geneva Cointrin
-	PAS, N46.16370, E5.99992, 0, Passeiry
-	GLA, N46.40870, E6.24425, 0, Gland
-	SPR, N46.46870, E6.44806, 0, St-Prex
-	CBY, N45.88190, E5.75731, 0, Chambery
-	LAP, N46.67610, E6.41333, 0, La Praz
-	AMU, N45.98860, E5.33125, 0, Amberieu
-	SIO, N46.21550, E7.28878, 0, Sion
-	LSE, N45.74550, E5.09058, 0, Lyon/Saint Exupery
-	LNP, N45.48980, E5.44000, 0, Tour Du Pin
-	LTP, N45.48900, E5.43906, 0, La Tour Du Pin
-	FRI, N46.77760, E7.22350, 0, Fribourg
-
+#VOR/NDB
+	GVA, N46.25392, E6.13222, 206, Geneva Cointrin #vordme 115.75 104y
+	PAS, N46.16369, E5.99992, -224, Passeiry #vordme 116.60 113x
+	GLA, N46.40869, E6.24425, 0, Gland #ndb 375
+	SPR, N46.46869, E6.44806, 224, St-Prex #vordme 113.90 86x
+	CBY, N45.88189, E5.75731, 27, Chambery #vordme 115.40
+	SIO, N46.21550, E7.28878, 0, Sion #vordme 112.15
+	LSE, N45.74553, E5.09058, 0, Lyon/Saint Exupery #vordme 114.75
+	LTP, N45.48897, E5.43906, 0, La Tour Du Pin #vordme 115.55
+	FRI, N46.77758, E7.22350, 0, Fribourg #vordme 110.85
+#SID ####################
+	AKITO, N47.21334, E6.64875, 0, Akito
+	ARBOS, N46.98742, E6.02639, 0, Arbos
+	ARGIS, N45.97100, E5.59908, 0, Argis
+	
+#STAR
 ## name, position, <holdingheading>, <pronunciation>
 # the first given beacon will be the default beacon for arrivals inbound the main airport
 # when holdingheading is 0 or omitted, planes will hold there using the plane's current heading
@@ -146,3 +149,164 @@ airlines =
 # direction lets the plane arrive/depart in (roughly) a preferred direction:
 # give the direction as a string containing one or more of the letters nwse, for north west south east,
 # but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
+
+##############################################################
+[area2]
+##############################################################
+shape = polygon		; circle or polygon
+altitude = 3500		; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+	-8.1,	13.3
+	0,	13
+	-1,	-4
+	-7.6,	-4
+	-9.0,	10
+## positions
+# the last point will be automatically connected to the first point
+
+##############################################################
+[configurations]
+##############################################################
+
+config1 =
+	0,	rwy1,	landstart
+	7,	rwy1,	startland,	020,	nosid
+	8,	rwy2,	startlandrev
+## score, identifier, usage, <offsetheading>, <nosid>
+# score is the score (skill) at which the runway will be activated
+# identifier is a unique runway name specified earlier
+# usage is a string (without spaces) that may contain these words: start, land, rev, int, track
+# where rev means reversed use (opposite direction), int means intersection departure (takeoffs begin 30% down the rwy), track means backtrack after landing
+# offsetheading means planes will fly a specific heading just after takeoff (especially useful for allowing parallel takeoffs with divergent climbout headings)
+# nosid option means planes will depart on the given offsetheading, with SID mode disabled
+# when rwy configurations are omited, two configs are automatically created, one for each rwy direction, with all runways active
+
+config2 =
+	0,	rwy1,	landstartrev
+	7,	rwy1,	startlandrev,	200,	nosid
+	8,	rwy2,	startland
+
+	##############################################################
+[departure1]
+##############################################################
+
+runway = rwy2			; runway identifier, <reversed use>
+route1 = 
+	bco2, beacon two
+	12,	0
+	18.6,	0
+	18.6,	6.8
+	25,	16.5
+# first line of the route is the sid name (up to 5 characters will be displayed), and optional <pronunciation> of the sid name
+# next lines are one or more waypoint positions
+
+route2 = 
+	south
+	12,	0
+	15.3,	-4.7
+	0,	-16.6
+	0,	-25
+
+# the optional [departure] section adds routes to a specific runway direction
+# this overrides the default (single waypoint) SIDs with more detailed routes, and applies the routes to the specified runway only
+# departing planes from that runway will then follow the one of the routes, unless the user deactivates SID mode
+# re-enabling SID mode will select just the last point of the route
+# defining one or more departure routes disables all the default SID points for that runway; planes will use the given routes only
+# use one [departure] section per runway direction, each with one or more routes
+# [departure] routes are not used in the built-in airports, for simplicity
+
+
+##############################################################
+[approach1]
+##############################################################
+
+runway = rwy1,	rev					; runway identifier, <reversed use>
+beacon = lima,	1,	18,	0,	lima		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	060
+	-3,	22,	5500,	210
+	1,	22
+	1,	18,	4000
+	-3,	18, 	0,	180
+	10.5,	3000,	200
+# first item of the route is the bearing from the plane towards the beacon; if there are multiple routes defined for this beacon, the closest bearing defines which route is selected
+# next lines are optional waypoints: ## position, <maximum altitude>, <maximum speed>
+# last line is the interception point on the ILS: ## distance (NM) from the (displaced) threshold, <maximum altitude>, <maximum speed>
+
+route2 = 
+	310
+	1,	18,	4000
+	-3,	18, 	0,	180
+	10.5,	3000,	200
+
+route3 = 
+	010
+	1,	10
+	1,	18,	4000
+	-3,	18, 	0,	180
+	10.5,	3000,	200
+
+# multiple [approach] sections can be used for the same runway, to allow for multiple beacons
+# for easier creation of routes, use left Ctrl key to display current mouse coordinates, and left click while holding down Ctrl places temporary visual markers
+# Longpress the airport name button in the menu to display all routes at once
+# [approach] routes are not used in the built-in airports as the game is focussed on vectors for simplicity
+
+
+##############################################################
+[planetypes]
+##############################################################
+types = 
+	f200, 5, 140, 230, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, big jet
+	c271, 6, 90, 120, 2.9, 3.2, 1400, 1600, 90, 105, 1.1, 1.2, singleprop
+## type, category, minspeed, maxspeed, minturnrate, maxturnrate, mindescendrate, maxdescendrate, minfinalapproachspeed, maxfinalapproachspeed, minaccelrate, maxaccelrate, <manufacturer>
+# custom [planetypes] are only needed when using unknown custom types in the airlinelists above (game will show warning on startup), or to override default type properties
+# category is the weight category: 1 to 6, meaning superheavy=1, upperheavy, lowerheavy, uppermedium, lowermedium, light=6
+# turnrate is in degrees per second
+# descendrate is in feet per minute
+# accelrate is in knots per second
+# manufacturer name is optional, and only used for private callsign pronunciation in usa mode
+# example of default values for b737, 4, 160, 250, 2.6, 3.0, 1440, 1560, 131, 144, 1.2, 1.3
+
+
+##############################################################
+[scenario]
+##############################################################
+finish = 2		; amount of planes to land to finish the scenario
+
+events = 
+	0,	config,	1
+	0,	score,	6
+	0,	wind,	180,	10
+	0,	cloud,	-1,	25
+	0,	cloud,	-2,	24
+	0,	cloud,	-4,	24
+	0,	dep,	rwy1,	north,	f200
+	0,	elapse, 20
+	0,	arr,	230,	vor,	f200
+	0,	elapse, 100
+	5,	arr,	90,	bco,	f200
+	40,	dep,	rwy1,	north,	f200
+	70,	dep,	rwy1,	south,	a333
+	20,	score,	8
+	90,	dep,	rwy1,	north
+	0,	wind,	200,	8
+	0,	cloud,	19,	-26.5
+	50,	dep,	rwy1,	west,	f200
+	1,	text,	Hello!
+	5,	arr,	210,	vor,	a333,	15000,	6000,	300,	0,	0,	1,	air
+	10,	arr,	090,	0,	0,	0,	0,	0,	0,	0,	0,	0,	sc
+	10,	dep,	rwy2,	north
+## elapsed time after previous event in seconds, eventtype, properties
+# available eventtypes: arr, dep, score, elapse, wind, cloud, config, text
+## arr: entrypoint, <beacon>, <planetype>, <altitude>, <targetaltitude>, <speed>, <delaytimer>, <fuel>, <emergency>, <callsign>, <destination>	; arrival (fuel counts up; lowfuel from 5000+, emergency=1 for medical, 2 for engine, destination is the two letter code of a secondary airport)
+## dep: runwayidentifier, sid, <planetype>, <emergency>, <callsign>								; departure
+## score: score			; set higher score/skill to open more runways, or lower to close runways
+## elapse: seconds		; elapse simulation time between events (only use this to build traffic before the start, so at time 0)
+## wind: heading, speed		; set wind (preferably in small steps when changing the wind)
+## cloud: position		; add cloud with radius of 1 NM (preferably just outside the airspace boundary, to avoid incidents, unless time is 0)
+## config: entry		; change to different runway config, as specified in the rwy configurations section
+## text: message		; display yellow text at the top of screen
+# the [scenario] can be enabled in the traffic menu
