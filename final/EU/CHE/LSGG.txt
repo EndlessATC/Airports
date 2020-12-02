@@ -36,11 +36,19 @@ beacons =
 	LTP, N45.48897, E5.43906, 0, La Tour Du Pin #vordme 115.55
 	FRI, N46.77758, E7.22350, 0, Fribourg #vordme 110.85
 #SID ####################
-	AKITO, N47.21334, E6.64875, 0, Akito
 	ARBOS, N46.98742, E6.02639, 0, Arbos
 	ARGIS, N45.97100, E5.59908, 0, Argis
-	
+	BALSI, N45.47739, E5.96078, 0, Balsi
+	BELUS, N45.67519, E5.59381, 0, Belus #also star
+	BEVEN, N45.68847, E5.97272, 0, Beven
+	DEPUL, N45.92500, E5.49444, 0, Depul
+	DIPIR, N46.66919, E5.59308, 0, Dipir
+	DJL,   N47.27078, E5.09733, 0, Dijon
 #STAR
+	AKITO, N47.21334, E6.64875, 0, Akito
+	BELKA, N46.06114, E5.85058, 0, Belka
+	BOLGI, N46.66769, E5.93822, 0, Bolgi
+	GG502, N45.95383, E5.89906, 0, Golf Golf Five Zero Two
 ## name, position, <holdingheading>, <pronunciation>
 # the first given beacon will be the default beacon for arrivals inbound the main airport
 # when holdingheading is 0 or omitted, planes will hold there using the plane's current heading
