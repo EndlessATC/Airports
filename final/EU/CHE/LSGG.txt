@@ -78,6 +78,11 @@ beacons =
 	PITOM, N46.09472, E6.10194, 0, Pitom
 	ROMOM, N46.68119, E6.97053, 0, Romom
 	SAUNI, N46.62369, E5.47769, 0, Sauni
+	BANKO, N45.49.12.0, E7.3.17.0
+	BENOT, N47.3.27.7, E7.10.22.1
+	LUSAR, N46.40.8.0, E5.10.46.1
+	ULMES, N46.57.18.1, E7.17.33.5
+	KINES, N45.19.53.0, E6.45.19.0
 #RNP
     GG803, N46.14292, E5.96969, 0
 	GG808, N46.34472, E6.26594, 0
@@ -172,12 +177,23 @@ sids =
 	MEDAM
 	PAS
 	SPR
+	KONIL,N46.34.6.4, E6.27.30.1
+	MOLUS,N46.26.38.0, E6.40.46.0
+	ROCCA,N45.44.43.0, E6.38.44.1
+	SIROD,N46.43.37.3, E6.1.10.4
 ## name, position, <pronunciation>
 # you may also give just the name of a beacon from the beacon list
 
 entrypoints = 
-	090
-	270,	bco
+	020, AKITO
+	165, BANKO
+	200, BELUS
+	040, BENOT
+	340, DJL
+	174, KINES
+	320, LUSAR
+	045, ULMES
+	090, FRI
 ## true_heading, <beaconname>
 # this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
 # inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
