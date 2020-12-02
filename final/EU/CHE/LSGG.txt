@@ -18,7 +18,7 @@ descendaltitude = 15000 		; minimum initial altitude for arrivals
 ceiling = 16000 			; maximum selectable altitude
 above = 17000 			; maximum departure altitude when SID is enabled (must be above ceiling)
 transitionaltitude = 7000	; highest altitude displayed in feet instead of flight level
-speedrestriction = 10, 220 	; radius in NM, and speed in knots
+speedrestriction = 1, 220 	; radius in NM, and speed in knots
 usa = false			; American-style callsign pronunciation and runway names
 metric = false			; display altitudes in metres instead of feet
 separation = 3			; minimum allowed distance between aircraft in NM
@@ -30,25 +30,60 @@ beacons =
 	PAS, N46.16369, E5.99992, -224, Passeiry #vordme 116.60 113x
 	GLA, N46.40869, E6.24425, 0, Gland #ndb 375
 	SPR, N46.46869, E6.44806, 224, St-Prex #vordme 113.90 86x
-	CBY, N45.88189, E5.75731, 27, Chambery #vordme 115.40
+	CBY, NN45.88189, E5.75731, 27, Chambery #vordme 115.40
 	SIO, N46.21550, E7.28878, 0, Sion #vordme 112.15
-	LSE, N45.74553, E5.09058, 0, Lyon/Saint Exupery #vordme 114.75
-	LTP, N45.48897, E5.43906, 0, La Tour Du Pin #vordme 115.55
+	LSE, NN45.74553, E5.09058, 0, Lyon/Saint Exupery #vordme 114.75
+	LTP, NN45.48897, E5.43906, 0, La Tour Du Pin #vordme 115.55
 	FRI, N46.77758, E7.22350, 0, Fribourg #vordme 110.85
 #SID ####################
 	ARBOS, N46.98742, E6.02639, 0, Arbos
-	ARGIS, N45.97100, E5.59908, 0, Argis
-	BALSI, N45.47739, E5.96078, 0, Balsi
-	BELUS, N45.67519, E5.59381, 0, Belus #also star
-	BEVEN, N45.68847, E5.97272, 0, Beven
-	DEPUL, N45.92500, E5.49444, 0, Depul
+	ARGIS, NN45.97100, E5.59908, 0, Argis
+	BALSI, NN45.47739, E5.96078, 0, Balsi
+	BELUS, NN45.67519, E5.59381, 0, Belus 
+	BEVEN, NN45.68847, E5.97272, 0, Beven
+	DEPUL, NN45.92500, E5.49444, 0, Depul
 	DIPIR, N46.66919, E5.59308, 0, Dipir
 	DJL,   N47.27078, E5.09733, 0, Dijon
+	GG602, N46.11633, E6.06717, 0
+	GG603, N46.26861, E6.05778, 0
+	GG604, N46.20186, E6.30875, 0
+	GG605, NN45.97589, E6.29164, 0
+	KELUK, N46.55556, E5.68556, 0, Keluk
+	KEMIT, N46.13706, E5.96161, 0, Kemit
+	KOVIM, N46.61461, E6.20633, 0, Kovim
+	LEGVO, N46.66792, E6.28556, 0, Legvo
+	LINNA, NN45.81714, E5.98003, 0, Linna
+	MEDAM, NN45.26444, E6.94003, 0, Medam
+	ODIKI, NN45.94228, E6.34360, 0, Odiki
+	VANAS, NN45.45717, E6.74689, 0, Vanas
 #STAR
 	AKITO, N47.21334, E6.64875, 0, Akito
 	BELKA, N46.06114, E5.85058, 0, Belka
 	BOLGI, N46.66769, E5.93822, 0, Bolgi
-	GG502, N45.95383, E5.89906, 0, Golf Golf Five Zero Two
+	GG502, NN45.95383, E5.89906, 0
+	GG503, N46.09572, E5.69688, 0
+	GG507, N46.44086, E6.19989, 0
+	GG510, NN45.77300, E5.80294, 0
+	GG512, N46.39717, E6.54903, 0
+	GG514, N46.54019, E6.34692, 0
+	GG517, N46.93967, E5.43947, 0
+	GG518, N46.90714, E6.24897, 0
+	GG519, NN45.52736, E6.70203, 0
+	GG520, NN45.95636, E6.76828, 0
+	GG525, N46.29819, E6.40222, 0
+	INDIS, N46.02444, E5.79700, 0, Indis
+	KERAD, N46.23531, E5.89931, 0, Kerad
+	KINES, N46.33136, E6.75531, 0, Kines
+	PINOT, NN45.98544, E5.92597, 0, Pinot
+	PITOM, N46.09472, E6.10194, 0, Pitom
+	ROMOM, N46.68119, E6.97053, 0, Romom
+	SAUNI, N46.62369, E5.47769, 0, Sauni
+#RNP
+    GG803, N46.14292, E5.96969, 0
+	GG808, N46.34472, E6.26594, 0
+	GG811, N46.37858, E6.31597, 0
+	GG852, N46.36467, E6.29542, 0
+	PETAL, N46.36803, E6.39936, 0, Petal
 ## name, position, <holdingheading>, <pronunciation>
 # the first given beacon will be the default beacon for arrivals inbound the main airport
 # when holdingheading is 0 or omitted, planes will hold there using the plane's current heading
@@ -56,10 +91,33 @@ beacons =
 # when holdingheading is negative, planes will make left-hand turns instead of right-hand
 
 boundary = 
-	-25, -22
-	25, -22
-	25, 22
-	-25, 22
+	N46.50031, E5.58632
+	N46.50131, E5.89028
+	N46.57467, E6.10541
+	N46.76794, E6.44169
+	N46.67621, E6.75053
+	N46.65868, E6.75206
+	N46.54613, E6.89952
+	N46.46916, E6.80134
+	N46.43143, E6.80296
+	N46.42703, E6.82070
+	N46.39257, E6.80367
+	N46.32079, E6.80581
+	N46.25736, E6.85272
+	N46.07779, E6.47823
+	N45.87433, E6.27316
+	N45.93139, E6.18299
+	N45.84271, E6.10006
+	N45.62078, E6.08624
+	N45.68588, E5.49736
+	N45.71675, E5.48792
+	N45.92996, E5.66084
+	N45.97664, E5.59866
+	N46.04364, E5.56927
+	N46.11139, E5.58505
+	N46.17281, E5.65549
+	N46.24426, E5.79840
+	
 ## positions
 # pointlist of optional airspace boundary polygon; this will override the default (circular) airspace radius.
 # last point is automatically connected to first point
@@ -93,24 +151,24 @@ line3 =
 	N46.20460, E6.13330
 	N46.12261, E5.90220
 	N46.01332, E5.81446
-	N45.84948, E5.79306
-	N45.73711, E5.74697
-	N45.67618, E5.67627
-	N45.70429, E5.57292
-	N45.82139, E5.43701
-	N45.84671, E5.34978
-	N45.81227, E5.28519
-	N45.79894, E5.19103
-	N45.81738, E5.05843
-	N45.80806, E4.95177
-	N45.77095, E4.87095
-	N45.71253, E4.82351
-	N45.63280, E4.80945
-	N45.58213, E4.81932
-	N45.56053, E4.85312
-	N45.51278, E4.84139
-	N45.43896, E4.78403
-	N45.28892, E4.78971
+	NN45.84948, E5.79306
+	NN45.73711, E5.74697
+	NN45.67618, E5.67627
+	NN45.70429, E5.57292
+	NN45.82139, E5.43701
+	NN45.84671, E5.34978
+	NN45.81227, E5.28519
+	NN45.79894, E5.19103
+	NN45.81738, E5.05843
+	NN45.80806, E4.95177
+	NN45.77095, E4.87095
+	NN45.71253, E4.82351
+	NN45.63280, E4.80945
+	NN45.58213, E4.81932
+	NN45.56053, E4.85312
+	NN45.51278, E4.84139
+	NN45.43896, E4.78403
+	NN45.28892, E4.78971
 
 line4 =
 	N46.32658, E7.65290
@@ -125,7 +183,7 @@ name = Geneva Cointrin International Airport
 code = LSGG
 runways =
 #   idnt,rwy,location           ,HDG  ,legnth,displaced,elev ,g/s, loc 
-	rwy1, 04, N46.2258, E6.09092, 45.5, 12795, 1082,  0, 1411,  3, 45.5,
+	rwy1, 04, N46.2258, E6.09092, N45.5, 12795, 1082,  0, 1411,  3, N45.5,
 
 climbaltitude = 9000 		; maximum initial climb altitude in feet for departures
 
@@ -145,10 +203,7 @@ entrypoints =
 
 airlines =
 	air,	3,	e175,		airliner,	w
-	air,	2,	a333,		airliner
-	air,	1,	dh8d/f200,	airliner,	e
-	ph-abc,	1,	c271,		0,		nwe
-	n-123ab,1,	f200
+
 ## name, amount, planetype, pronunciation, <direction>
 # name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
 # amount determines the relative likelihood of appearance (e.g. 0=never, 1=occasionally, 10=frequently, etc)
@@ -159,7 +214,7 @@ airlines =
 # but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
 
 ##############################################################
-[area2]
+[area1]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 3500		; minimum allowed altitude in feet
@@ -175,29 +230,8 @@ points =
 ## positions
 # the last point will be automatically connected to the first point
 
+
 ##############################################################
-[configurations]
-##############################################################
-
-config1 =
-	0,	rwy1,	landstart
-	7,	rwy1,	startland,	020,	nosid
-	8,	rwy2,	startlandrev
-## score, identifier, usage, <offsetheading>, <nosid>
-# score is the score (skill) at which the runway will be activated
-# identifier is a unique runway name specified earlier
-# usage is a string (without spaces) that may contain these words: start, land, rev, int, track
-# where rev means reversed use (opposite direction), int means intersection departure (takeoffs begin 30% down the rwy), track means backtrack after landing
-# offsetheading means planes will fly a specific heading just after takeoff (especially useful for allowing parallel takeoffs with divergent climbout headings)
-# nosid option means planes will depart on the given offsetheading, with SID mode disabled
-# when rwy configurations are omited, two configs are automatically created, one for each rwy direction, with all runways active
-
-config2 =
-	0,	rwy1,	landstartrev
-	7,	rwy1,	startlandrev,	200,	nosid
-	8,	rwy2,	startland
-
-	##############################################################
 [departure1]
 ##############################################################
 
@@ -261,60 +295,3 @@ route3 =
 # for easier creation of routes, use left Ctrl key to display current mouse coordinates, and left click while holding down Ctrl places temporary visual markers
 # Longpress the airport name button in the menu to display all routes at once
 # [approach] routes are not used in the built-in airports as the game is focussed on vectors for simplicity
-
-
-##############################################################
-[planetypes]
-##############################################################
-types = 
-	f200, 5, 140, 230, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, big jet
-	c271, 6, 90, 120, 2.9, 3.2, 1400, 1600, 90, 105, 1.1, 1.2, singleprop
-## type, category, minspeed, maxspeed, minturnrate, maxturnrate, mindescendrate, maxdescendrate, minfinalapproachspeed, maxfinalapproachspeed, minaccelrate, maxaccelrate, <manufacturer>
-# custom [planetypes] are only needed when using unknown custom types in the airlinelists above (game will show warning on startup), or to override default type properties
-# category is the weight category: 1 to 6, meaning superheavy=1, upperheavy, lowerheavy, uppermedium, lowermedium, light=6
-# turnrate is in degrees per second
-# descendrate is in feet per minute
-# accelrate is in knots per second
-# manufacturer name is optional, and only used for private callsign pronunciation in usa mode
-# example of default values for b737, 4, 160, 250, 2.6, 3.0, 1440, 1560, 131, 144, 1.2, 1.3
-
-
-##############################################################
-[scenario]
-##############################################################
-finish = 2		; amount of planes to land to finish the scenario
-
-events = 
-	0,	config,	1
-	0,	score,	6
-	0,	wind,	180,	10
-	0,	cloud,	-1,	25
-	0,	cloud,	-2,	24
-	0,	cloud,	-4,	24
-	0,	dep,	rwy1,	north,	f200
-	0,	elapse, 20
-	0,	arr,	230,	vor,	f200
-	0,	elapse, 100
-	5,	arr,	90,	bco,	f200
-	40,	dep,	rwy1,	north,	f200
-	70,	dep,	rwy1,	south,	a333
-	20,	score,	8
-	90,	dep,	rwy1,	north
-	0,	wind,	200,	8
-	0,	cloud,	19,	-26.5
-	50,	dep,	rwy1,	west,	f200
-	1,	text,	Hello!
-	5,	arr,	210,	vor,	a333,	15000,	6000,	300,	0,	0,	1,	air
-	10,	arr,	090,	0,	0,	0,	0,	0,	0,	0,	0,	0,	sc
-	10,	dep,	rwy2,	north
-## elapsed time after previous event in seconds, eventtype, properties
-# available eventtypes: arr, dep, score, elapse, wind, cloud, config, text
-## arr: entrypoint, <beacon>, <planetype>, <altitude>, <targetaltitude>, <speed>, <delaytimer>, <fuel>, <emergency>, <callsign>, <destination>	; arrival (fuel counts up; lowfuel from 5000+, emergency=1 for medical, 2 for engine, destination is the two letter code of a secondary airport)
-## dep: runwayidentifier, sid, <planetype>, <emergency>, <callsign>								; departure
-## score: score			; set higher score/skill to open more runways, or lower to close runways
-## elapse: seconds		; elapse simulation time between events (only use this to build traffic before the start, so at time 0)
-## wind: heading, speed		; set wind (preferably in small steps when changing the wind)
-## cloud: position		; add cloud with radius of 1 NM (preferably just outside the airspace boundary, to avoid incidents, unless time is 0)
-## config: entry		; change to different runway config, as specified in the rwy configurations section
-## text: message		; display yellow text at the top of screen
-# the [scenario] can be enabled in the traffic menu
