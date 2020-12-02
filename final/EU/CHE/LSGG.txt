@@ -9,7 +9,21 @@
 [airspace]
 elevation = 1411
 center = N46.2380981445, E6.10895013809
-magneticvar = 0.315
+magneticvar = 2.0
+
+radius = 45			; airspace radius in NM
+zoom = 7.0 			; default zoom level, increase to zoom in
+floor = 3500 			; minimum selectable altitude
+descendaltitude = 15000 		; minimum initial altitude for arrivals
+ceiling = 16000 			; maximum selectable altitude
+above = 17000 			; maximum departure altitude when SID is enabled (must be above ceiling)
+transitionaltitude = 7000	; highest altitude displayed in feet instead of flight level
+speedrestriction = 10, 220 	; radius in NM, and speed in knots
+usa = false			; American-style callsign pronunciation and runway names
+metric = false			; display altitudes in metres instead of feet
+separation = 3			; minimum allowed distance between aircraft in NM
+
+
 beacons =
 	GVA, N46.25390, E6.13222, 0, Geneva Cointrin
 	PAS, N46.16370, E5.99992, 0, Passeiry
@@ -23,6 +37,21 @@ beacons =
 	LNP, N45.48980, E5.44000, 0, Tour Du Pin
 	LTP, N45.48900, E5.43906, 0, La Tour Du Pin
 	FRI, N46.77760, E7.22350, 0, Fribourg
+
+## name, position, <holdingheading>, <pronunciation>
+# the first given beacon will be the default beacon for arrivals inbound the main airport
+# when holdingheading is 0 or omitted, planes will hold there using the plane's current heading
+# when a holdingheading is given, planes will fly that heading (or magnetic course) on the inbound leg when flying the holding
+# when holdingheading is negative, planes will make left-hand turns instead of right-hand
+
+boundary = 
+	-25, -22
+	25, -22
+	25, 22
+	-25, 22
+## positions
+# pointlist of optional airspace boundary polygon; this will override the default (circular) airspace radius.
+# last point is automatically connected to first point
 
 line1 =
 	N46.43223, E6.87363
@@ -84,12 +113,36 @@ line4 =
 name = Geneva Cointrin International Airport
 code = LSGG
 runways =
-	rwy1, 04, N46.2258, E6.09092, 45.5, 12795, 1082, 0, 1411
-	rwy2, 04L, N46.2348, E6.0995, 46.3, 2700, 613, 994, 1378
+#   idnt,rwy,location           ,HDG  ,legnth,displaced,elev ,g/s, loc 
+	rwy1, 04, N46.2258, E6.09092, 45.5, 12795, 1082,  0, 1411,  3, 45.5,
 
-[airport2]
-name = Annecy-Haute-Savoie-Mont Blanc Airport
-code = LP
-runways =
-	rwy3, 04, N45.9235, E6.09216, 39.0, 5348, 820, 755, 1489
-inboundbeacon = PAS
+climbaltitude = 9000 		; maximum initial climb altitude in feet for departures
+
+sids = 
+	north,	0,	25,	northbound
+	south,	0,	-25,	southbound
+	bco
+## name, position, <pronunciation>
+# you may also give just the name of a beacon from the beacon list
+
+entrypoints = 
+	090
+	270,	bco
+## true_heading, <beaconname>
+# this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
+# inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
+
+airlines =
+	air,	3,	e175,		airliner,	w
+	air,	2,	a333,		airliner
+	air,	1,	dh8d/f200,	airliner,	e
+	ph-abc,	1,	c271,		0,		nwe
+	n-123ab,1,	f200
+## name, amount, planetype, pronunciation, <direction>
+# name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
+# amount determines the relative likelihood of appearance (e.g. 0=never, 1=occasionally, 10=frequently, etc)
+# planetype determines the plane characteristics (optionally put a dash (/) between multiple types)
+# pronuniation is the callsign, used for airlines
+# direction lets the plane arrive/depart in (roughly) a preferred direction:
+# give the direction as a string containing one or more of the letters nwse, for north west south east,
+# but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270

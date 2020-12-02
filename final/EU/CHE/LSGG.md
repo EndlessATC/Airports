@@ -13,5 +13,12 @@ This is a file to add LSGG (Geneva Airport) to the [Endless ATC](https://steamco
 ### Departures
 ### Arrivals
 
+## Known Issues
+* Celing, climb and descend altitudes restricted by game mechanics
+
+## Changelog
+V0.1
+Inital Version with basic airport infomation
+
 ## Credits
 [EAD eAIP](https://www.ead.eurocontrol.int/cms-eadbasic/opencms/en/login/ead-basic/)
