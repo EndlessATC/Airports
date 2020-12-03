@@ -187,7 +187,7 @@ Aircraft arrive at 4 points:
 
 Aircraft depart via:
 
-- `KALMA` via `OMIYA`, `EDARR`, `KOSKA` (southwest)
+- `DALMA` via `OMIYA`, `EDARR`, `KOSKA` (southwest)
 - `KAMOG` via `TSUGA`, `OJT` (southeast)
 - `OMIYA` (northwest)
 - `JD` (north)
