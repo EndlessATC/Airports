@@ -223,42 +223,239 @@ airlines =
 
 ##############################################################
 [area1]
+#TMA4.1
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 3500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = -3.1, 10.9	; <position of label>
+altitude = 7500		; minimum allowed altitude in feet
+name = LL		; <name, if omited then planes inbound the main airport may enter this area>
+labelpos = -18.4, 12.89	; <position of label>
 points =
-	-8.1,	13.3
-	0,	13
-	-1,	-4
-	-7.6,	-4
-	-9.0,	10
+	N46.50031, E5.58632
+	N46.50131, E5.89028
+	N46.57467, E6.10541
+	N46.54509, E6.15373
+	N46.45375, E6.07519
+	N46.37271, E5.96220
+	N46.31339, E5.74242
 ## positions
 # the last point will be automatically connected to the first point
 
+[area2]
+#TMA4
+shape = polygon
+altitude = 7500
+#name = lsas
+labelpos = 3.86, 21.19
+points =
+	N46.57467, E6.10541
+	N46.54509, E6.15373
+	N46.45375, E6.07519
+	N46.37271, E5.96220
+	N46.31339, E5.74242
+	N46.24426, E5.79840
+	N46.37702, E6.03617
+	N46.57390, E6.32656
+	N46.73333, E6.55702
+	N46.76794, E6.44169
+
+[area3]
+#TMA5
+shape = polygon
+altitude = 7500
+labelpos = 20.36, 22.77
+points = 
+	N46.73333, E6.55702
+	N46.67621, E6.75053
+	N46.65868, E6.75206
+	N46.54613, E6.89952
+	N46.46916, E6.80134
+	N46.44576, E6.72483
+	N46.45543, E6.62513
+	N46.58220, E6.49796
+	N46.57390, E6.32656
+
+[area4]
+#TMA6
+shape = polygon
+altitude = 8500
+labelpos = 23.07, 8.40
+points =
+	N46.46916, E6.80134
+	N46.43143, E6.80296
+	N46.42703, E6.82070
+	N46.39257, E6.80367
+	N46.35965, E6.80458
+	N46.17440, E6.41631
+	N45.98776, E6.23719
+	N46.04852, E6.15897
+	N46.43740, E6.69801
+	N46.44576, E6.72483
+
+[area5]
+#TMA7
+shape = polygon
+altitude = 10500
+labelpos = 19.84, -0.96
+points = 
+	N46.35965, E6.80458
+	N46.32079, E6.80581
+	N46.25736, E6.85272
+	N46.07779, E6.47823
+	N45.87433, E6.27316
+	N45.91907, E6.20389
+	N45.97379, E6.25607
+	N45.98776, E6.23719
+	N46.17440, E6.41631
+
+[area6]
+#TMA8
+shape = polygon
+altitude = 9500
+name = LB
+labelpos = 2.45, -15.06
+points =
+	N45.91907, E6.20389
+	N45.93139, E6.18299
+	N45.87377, E6.12841
+	N45.82914, E5.58071
+	N45.92996, E5.66084
+	N45.90520, E5.73253
+	N45.90240, E5.81703
+	N45.91731, E5.88490
+	N46.04852, E6.15897
+	N45.98776, E6.23719
+	N45.97379, E6.25607
+
+[area7]
+#TMA9
+shape = polygon
+altitude = 11500
+name = LB
+labelpos = -5.58, -24.87
+points =
+	N45.82914, E5.58071
+	N45.87377, E6.12841
+	N45.84271, E6.10006
+	N45.80667, E6.09516
+	N45.77539, E5.97706
+	N45.74465, E5.70102
+	N45.79646, E5.55506
+
+[area8]
+#TMA10
+shape = polygon
+altitude = 11500
+name = LB
+labelpos = -5.66, -31.54
+points =
+	N45.80667, E6.09516
+	N45.77539, E5.97706
+	N45.74465, E5.70102
+	N45.79646, E5.55506
+	N45.71675, E5.48792
+	N45.68588, E5.49736
+	N45.62078, E6.08624
+
+[area9]
+#TMA2
+shape = polygon
+altitude = 5500
+labelpos = -20.21, -9.11
+points =
+	N45.92996, E5.66084
+	N45.90520, E5.73253
+	N45.90240, E5.81703
+	N45.91731, E5.88490
+	N46.04852, E6.15897
+	N46.43722, E6.69775
+	N46.43740, E6.69801
+	N46.44576, E6.72483
+	N46.45543, E6.62513
+	N46.58220, E6.49796
+	N46.52819, E6.38759
+	N46.36766, E6.55055
+	N45.97351, E5.84085
+	N45.99943, E5.80369
+	N46.08570, E5.78429
+	N46.11749, E5.81722
+	N46.18289, E5.68107
+	N46.17281, E5.65549
+	N46.11139, E5.58505
+	N46.04364, E5.56927
+	N45.97664, E5.59866
+
+[area10]
+#TMA3
+shape = polygon
+altitude = 6500
+labelpos = -14.35, -3.48
+points =
+	N46.18289, E5.68107
+	N46.24426, E5.79840
+	N46.37702, E6.03617
+	N46.57390, E6.32656
+	N46.58220, E6.49796
+	N46.52819, E6.38759
+	N46.39407, E6.11037
+	N46.11749, E5.81722
+
+[area11]
+#TMA1
+shape = polygon
+altitude = 3500
+labelpos = 14.62, 8.93
+points =
+	N46.52819, E6.38759
+	N46.36766, E6.55055
+	N45.97351, E5.84085
+	N45.99943, E5.80369
+	N46.08570, E5.78429
+	N46.11749, E5.81722
+	N46.39407, E6.11037
+
+[area12]
+#CTR
+shape = polygon
+points =
+	N46.19114, E5.93784
+	N46.37068, E6.20219
+	N46.38076, E6.23576
+	N46.38033, E6.26280
+	N46.37444, E6.28581
+	N46.36455, E6.30395
+	N46.34795, E6.31755
+	N46.33143, E6.32075
+	N46.31521, E6.31797
+	N46.30108, E6.30813
+	N46.12010, E6.03839
+	N46.11127, E6.00912
+	N46.11127, E5.98092
+	N46.11693, E5.95929
+	N46.13029, E5.93590
+	N46.14671, E5.92535
+	N46.16232, E5.92232
+	N46.18075, E5.92803
 
 ##############################################################
-[departure1]
+#[departure1]
 ##############################################################
 
-runway = rwy2			; runway identifier, <reversed use>
-route1 = 
-	bco2, beacon two
-	12,	0
-	18.6,	0
-	18.6,	6.8
-	25,	16.5
+#runway = rwy2			; runway identifier, <reversed use>
+#route1 = 
+#	bco2, beacon two
+#	12,	0
+#	18.6,	0
+#	18.6,	6.8
+#	25,	16.5
 # first line of the route is the sid name (up to 5 characters will be displayed), and optional <pronunciation> of the sid name
 # next lines are one or more waypoint positions
 
-route2 = 
-	south
-	12,	0
-	15.3,	-4.7
-	0,	-16.6
-	0,	-25
+#route2 = 
+#	south
+#	12,	0
+#	15.3,	-4.7
+#	0,	-16.6
+#	0,	-25
 
 # the optional [departure] section adds routes to a specific runway direction
 # this overrides the default (single waypoint) SIDs with more detailed routes, and applies the routes to the specified runway only
@@ -270,34 +467,34 @@ route2 =
 
 
 ##############################################################
-[approach1]
+#[approach1]
 ##############################################################
 
-runway = rwy1,	rev					; runway identifier, <reversed use>
-beacon = lima,	1,	18,	0,	lima		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
-route1 = 
-	060
-	-3,	22,	5500,	210
-	1,	22
-	1,	18,	4000
-	-3,	18, 	0,	180
-	10.5,	3000,	200
+#runway = rwy1,	rev					; runway identifier, <reversed use>
+#beacon = lima,	1,	18,	0,	lima		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+#route1 = 
+#	060
+#	-3,	22,	5500,	210
+#	1,	22
+#	1,	18,	4000
+#	-3,	18, 	0,	180
+#	10.5,	3000,	200
 # first item of the route is the bearing from the plane towards the beacon; if there are multiple routes defined for this beacon, the closest bearing defines which route is selected
 # next lines are optional waypoints: ## position, <maximum altitude>, <maximum speed>
 # last line is the interception point on the ILS: ## distance (NM) from the (displaced) threshold, <maximum altitude>, <maximum speed>
 
-route2 = 
-	310
-	1,	18,	4000
-	-3,	18, 	0,	180
-	10.5,	3000,	200
+#route2 = 
+#	310
+#	1,	18,	4000
+#	-3,	18, 	0,	180
+#	10.5,	3000,	200
 
-route3 = 
-	010
-	1,	10
-	1,	18,	4000
-	-3,	18, 	0,	180
-	10.5,	3000,	200
+#route3 = 
+#	010
+#	1,	10
+#	1,	18,	4000
+#	-3,	18, 	0,	180
+#	10.5,	3000,	200
 
 # multiple [approach] sections can be used for the same runway, to allow for multiple beacons
 # for easier creation of routes, use left Ctrl key to display current mouse coordinates, and left click while holding down Ctrl places temporary visual markers

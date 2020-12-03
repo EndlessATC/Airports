@@ -4,15 +4,16 @@ This is a file to add LSGG (Geneva Airport) to the [Endless ATC](https://steamco
 ## Features
 ### Implimented
 * Realistic Airspace
+* realistic airlines and aircraft at LSGG (as of covid)
 ### Planned
-* realistic airlines and aircraft at LSGG
 * SIDs
 * STARs
 
 ## Basic Operations
 ### Departures
+All departures have an initial climb of FL90. Most departures are towards the north and the northeast.
 ### Arrivals
-
+All arrivals come in at the limit of the TMA FL160. The majority of arrivals are vectored downwind for the active runway and take an extended downwind in cases of high traffic. Holdings are outside of the Arrivals TMA and operated by Swiss Radar. There is significant terrain on the north and south side of the airport.
 ## Known Issues
 * Celing, climb and descend altitudes restricted by game mechanics
 * BENOT arrival restricted to GG514 only onto BENOT1N RWY04 due to IAF on AOR edge
