@@ -9,7 +9,7 @@
 [airspace]
 elevation = 1411
 center = N46.2380981445, E6.10895013809
-magneticvar = 2.0
+magneticvar = 2.3
 
 radius = 45			; airspace radius in NM
 zoom = 7.0 			; default zoom level, increase to zoom in
@@ -28,66 +28,67 @@ beacons =
 #VOR/NDB
 	GVA, N46.25392, E6.13222, 206, Geneva Cointrin #vordme 115.75 104y
 	PAS, N46.16369, E5.99992, -224, Passeiry #vordme 116.60 113x
-	GLA, N46.40869, E6.24425, 0, Gland #ndb 375
+#	GLA, N46.40869, E6.24425, 0, Gland #ndb 375
 	SPR, N46.46869, E6.44806, 224, St-Prex #vordme 113.90 86x
 	CBY, N45.88189, E5.75731, 27, Chambery #vordme 115.40
 	SIO, N46.21550, E7.28878, 0, Sion #vordme 112.15
-	LSE, N45.74553, E5.09058, 0, Lyon/Saint Exupery #vordme 114.75
-	LTP, N45.48897, E5.43906, 0, La Tour Du Pin #vordme 115.55
+#	LSE, N45.74553, E5.09058, 0, Lyon/Saint Exupery #vordme 114.75
+#	LTP, N45.48897, E5.43906, 0, La Tour Du Pin #vordme 115.55
 	FRI, N46.77758, E7.22350, 0, Fribourg #vordme 110.85
-#SID ####################
-	ARBOS, N46.98742, E6.02639, 0, Arbos
-	ARGIS, N45.97100, E5.59908, 0, Argis
+#SID
+#	ARBOS, N46.98742, E6.02639, 0, Arbos
+#	ARGIS, N45.97100, E5.59908, 0, Argis
 	BALSI, N45.47739, E5.96078, 0, Balsi
 	BELUS, N45.67519, E5.59381, 0, Belus 
-	BEVEN, N45.68847, E5.97272, 0, Beven
+#	BEVEN, N45.68847, E5.97272, 0, Beven
 	DEPUL, N45.92500, E5.49444, 0, Depul
 	DIPIR, N46.66919, E5.59308, 0, Dipir
-	DJL,   N47.27078, E5.09733, 360, Dijon Longvic
-	GG602, N46.11633, E6.06717, 0
-	GG603, N46.26861, E6.05778, 0
-	GG604, N46.20186, E6.30875, 0
-	GG605, N45.97589, E6.29164, 0
-	KELUK, N46.55556, E5.68556, 0, Keluk
+#	DJL,   N47.27078, E5.09733, 360, Dijon Longvic
+#	GG602, N46.11633, E6.06717, 0
+#	GG603, N46.26861, E6.05778, 0
+#	GG604, N46.20186, E6.30875, 0
+#	GG605, N45.97589, E6.29164, 0
+#	KELUK, N46.55556, E5.68556, 0, Keluk
 	KEMIT, N46.13706, E5.96161, -224, Kemit
-	KOVIM, N46.61461, E6.20633, 0, Kovim
-	LEGVO, N46.66792, E6.28556, 0, Legvo
-	LINNA, N45.81714, E5.98003, 0, Linna
+#	KOVIM, N46.61461, E6.20633, 0, Kovim
+#	LEGVO, N46.66792, E6.28556, 0, Legvo
+#	LINNA, N45.81714, E5.98003, 0, Linna
 	MEDAM, N45.26444, E6.94003, 0, Medam
-	ODIKI, N45.94228, E6.34360, 0, Odiki
-	VANAS, N45.45717, E6.74689, 0, Vanas
+#	ODIKI, N45.94228, E6.34360, 0, Odiki
+#	VANAS, N45.45717, E6.74689, 0, Vanas
 #STAR
-	AKITO, N47.21334, E6.64875, 0, Akito
+#	AKITO, N47.21334, E6.64875, 0, Akito
 	BELKA, N46.06114, E5.85058, 0, Belka
-	BOLGI, N46.66769, E5.93822, 0, Bolgi
+#	BOLGI, N46.66769, E5.93822, 0, Bolgi
 	GG502, N45.95383, E5.89906, 0
 	GG503, N46.09572, E5.69688, 0
 	GG507, N46.44086, E6.19989, 0
-	GG510, N45.77300, E5.80294, 0
+#	GG510, N45.77300, E5.80294, 0
 	GG512, N46.39717, E6.54903, 0
 	GG514, N46.54019, E6.34692, 0
-	GG517, N46.93967, E5.43947, 0
-	GG518, N46.90714, E6.24897, 0
-	GG519, N45.52736, E6.70203, 0
-	GG520, N45.95636, E6.76828, 0
+#	GG517, N46.93967, E5.43947, 0
+#	GG518, N46.90714, E6.24897, 0
+#	GG519, N45.52736, E6.70203, 0
+#	GG520, N45.95636, E6.76828, 0
 	GG525, N46.29819, E6.40222, 0
 	INDIS, N46.02444, E5.79700, 0, Indis
-	KERAD, N46.23531, E5.89931, 0, Kerad
-	PINOT, N45.98544, E5.92597, 0, Pinot
-	PITOM, N46.09472, E6.10194, 0, Pitom
-	ROMOM, N46.68119, E6.97053, 0, Romom
-	SAUNI, N46.62369, E5.47769, 0, Sauni
-	BANKO, N45.49.12.0, E7.3.17.0
-	BENOT, N47.3.27.7, E7.10.22.1
+#	KERAD, N46.23531, E5.89931, 0, Kerad
+#	PINOT, N45.98544, E5.92597, 0, Pinot
+#	PITOM, N46.09472, E6.10194, 0, Pitom
+#	ROMOM, N46.68119, E6.97053, 0, Romom
+#	SAUNI, N46.62369, E5.47769, 0, Sauni
+#	BANKO, N45.49.12.0, E7.3.17.0
+#	BENOT, N47.3.27.7, E7.10.22.1
 	LUSAR, N46.40.8.0, E5.10.46.1
-	ULMES, N46.57.18.1, E7.17.33.5
-	KINES, N45.19.53.0, E6.45.19.0
+#	ULMES, N46.57.18.1, E7.17.33.5
+#	KINES, N45.19.53.0, E6.45.19.0
+	DINIG, N46.29.43.0, E5.53.26.0, -143
+	SUVEL, N46.9.5.0, E6.21.4.0
 #RNP
-    GG803, N46.14292, E5.96969, 0
+#    GG803, N46.14292, E5.96969, 0
 	GG808, N46.34472, E6.26594, 0
-	GG811, N46.37858, E6.31597, 0
-	GG852, N46.36467, E6.29542, 0
-	PETAL, N46.36803, E6.39936, 0, Petal
+#	GG811, N46.22.42.9, E6.18.57.5, 0
+	PETAL, N46.22.4.9, E6.18.1.3, 0, Petal
 ## name, position, <holdingheading>, <pronunciation>
 # the first given beacon will be the default beacon for arrivals inbound the main airport
 # when holdingheading is 0 or omitted, planes will hold there using the plane's current heading
@@ -175,8 +176,6 @@ sids =
 	DEPUL
 	DIPIR
 	MEDAM
-	PAS
-	SPR
 	KONIL,N46.34.6.4, E6.27.30.1
 	MOLUS,N46.26.38.0, E6.40.46.0
 	ROCCA,N45.44.43.0, E6.38.44.1
@@ -185,15 +184,11 @@ sids =
 # you may also give just the name of a beacon from the beacon list
 
 entrypoints = 
-	020, AKITO
-	165, BANKO
-	200, BELUS
-	040, BENOT
-	340, DJL
-	174, KINES
-	320, LUSAR
-	045, ULMES
-	090, FRI
+	323, DINIG
+	122, SUVEL
+	211, CBY
+	031, GG514
+	065, GG512
 ## true_heading, <beaconname>
 # this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
 # inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically

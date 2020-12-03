@@ -15,6 +15,12 @@ This is a file to add LSGG (Geneva Airport) to the [Endless ATC](https://steamco
 
 ## Known Issues
 * Celing, climb and descend altitudes restricted by game mechanics
+* BENOT arrival restricted to GG514 only onto BENOT1N RWY04 due to IAF on AOR edge
+* ULMES arrival restricted to GG512 only onto ULMES1P RWY04 due to IAF on AOR edge, chosen to balance out traffic on either downwind
+### Merged SIDs
+* AKITO with DJL and LUSAR - common AOR boundry entry, Enters DINIG hold due no point before downwind
+* BANKO with KINES - common AOR boundry entry, next point in used before downwind
+* ULMES with FRI - Common AOR Boundry Entry, both direct GG512 with different final turns
 
 ## Changelog
 V0.1
