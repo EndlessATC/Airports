@@ -73,7 +73,6 @@ beacons =
 	GG525, N46.29819, E6.40222, 0
 	INDIS, N46.02444, E5.79700, 0, Indis
 	KERAD, N46.23531, E5.89931, 0, Kerad
-	KINES, N46.33136, E6.75531, 0, Kines
 	PINOT, N45.98544, E5.92597, 0, Pinot
 	PITOM, N46.09472, E6.10194, 0, Pitom
 	ROMOM, N46.68119, E6.97053, 0, Romom
@@ -164,7 +163,8 @@ name = Geneva Cointrin International Airport
 code = LSGG
 runways =
 #   idnt,rwy,location           ,HDG  ,legnth,displaced,elev ,g/s, loc 
-	rwy1, 04, N46.2258, E6.09092, 45.5, 12795, 1082,  0, 1411,  3, 45.5,
+	rwy1, 04, N46.2258, E6.09092, 45.5, 12795, 1082,  0, 1411,  3, 45.5
+
 
 climbaltitude = 9000 		; maximum initial climb altitude in feet for departures
 
