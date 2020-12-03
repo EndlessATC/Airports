@@ -194,7 +194,23 @@ entrypoints =
 # inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
 
 airlines =
-	air,	3,	e175,		airliner,	w
+	EZS, 4, a320/a319, Topswiss
+	EZY, 3, a320/a319/a20n/a21n, Easy, 301
+	KLM, 3, b737, KLM, 335
+	ETH, 1, b787, Ethiopian, 121
+	TAP, 2, a319/a320/a20n/e195, Air Portugal, 209
+	AFR, 3, e190, Airfrans, 313
+	SWR, 6, BCS1/BCS3/A320/A20N/A321/A21N/A333/A343/B77W, SWISS
+	MEA, 1, a320 , CEDAR JET, 121
+	BEL, 2, a319/a320, BEE LINE, n
+	BAW, 2, a318/a319/a320/a321, SPEEDBIRD, 301
+	UAE, 1, b77w, EMIRATES, 121
+	PGT, 1, A20N/B738, SUNTURK, 121
+	AZA, 1, E75S/E190, ALITALIA, 121
+	IBE, 3, A320N, IBERIA, 209
+	RAM, 1, B737, ROYAL AIR MAROC, 209
+	AUA, 1, DH8D, AUSTRIAN, 045
+	LGL, 1, DH8D, Luxair, 045
 
 ## name, amount, planetype, pronunciation, <direction>
 # name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
