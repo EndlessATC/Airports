@@ -1,0 +1,502 @@
+# SPGC CMG start 02/12/20
+
+### This is an automatically generated airport file for Endless ATC. ### NOT ANYMORE ;) ###
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 1411
+center = N46.2380981445, E6.10895013809
+magneticvar = 2.3
+
+radius = 45			; airspace radius in NM
+zoom = 7.0 			; default zoom level, increase to zoom in
+floor = 3500 			; minimum selectable altitude
+descendaltitude = 15000 		; minimum initial altitude for arrivals
+ceiling = 16000 			; maximum selectable altitude
+above = 17000 			; maximum departure altitude when SID is enabled (must be above ceiling)
+transitionaltitude = 7000	; highest altitude displayed in feet instead of flight level
+speedrestriction = 1, 220 	; radius in NM, and speed in knots
+usa = false			; American-style callsign pronunciation and runway names
+metric = false			; display altitudes in metres instead of feet
+separation = 3			; minimum allowed distance between aircraft in NM
+
+
+beacons =
+#VOR/NDB
+	GVA, N46.25392, E6.13222, 206, Geneva Cointrin #vordme 115.75 104y
+	PAS, N46.16369, E5.99992, -224, Passeiry #vordme 116.60 113x
+#	GLA, N46.40869, E6.24425, 0, Gland #ndb 375
+	SPR, N46.46869, E6.44806, 224, St-Prex #vordme 113.90 86x
+	CBY, N45.88189, E5.75731, 27, Chambery #vordme 115.40
+	SIO, N46.21550, E7.28878, 0, Sion #vordme 112.15
+#	LSE, N45.74553, E5.09058, 0, Lyon/Saint Exupery #vordme 114.75
+#	LTP, N45.48897, E5.43906, 0, La Tour Du Pin #vordme 115.55
+	FRI, N46.77758, E7.22350, 0, Fribourg #vordme 110.85
+#SID
+#	ARBOS, N46.98742, E6.02639, 0, Arbos
+#	ARGIS, N45.97100, E5.59908, 0, Argis
+	BALSI, N45.47739, E5.96078, 0, Balsi
+	BELUS, N45.67519, E5.59381, 0, Belus 
+#	BEVEN, N45.68847, E5.97272, 0, Beven
+	DEPUL, N45.92500, E5.49444, 0, Depul
+	DIPIR, N46.66919, E5.59308, 0, Dipir
+#	DJL,   N47.27078, E5.09733, 360, Dijon Longvic
+#	GG602, N46.11633, E6.06717, 0
+#	GG603, N46.26861, E6.05778, 0
+#	GG604, N46.20186, E6.30875, 0
+#	GG605, N45.97589, E6.29164, 0
+#	KELUK, N46.55556, E5.68556, 0, Keluk
+	KEMIT, N46.13706, E5.96161, -224, Kemit
+#	KOVIM, N46.61461, E6.20633, 0, Kovim
+#	LEGVO, N46.66792, E6.28556, 0, Legvo
+#	LINNA, N45.81714, E5.98003, 0, Linna
+	MEDAM, N45.26444, E6.94003, 0, Medam
+#	ODIKI, N45.94228, E6.34360, 0, Odiki
+#	VANAS, N45.45717, E6.74689, 0, Vanas
+#STAR
+#	AKITO, N47.21334, E6.64875, 0, Akito
+	BELKA, N46.06114, E5.85058, 0, Belka
+#	BOLGI, N46.66769, E5.93822, 0, Bolgi
+	GG502, N45.95383, E5.89906, 0
+	GG503, N46.09572, E5.69688, 0
+	GG507, N46.44086, E6.19989, 0
+#	GG510, N45.77300, E5.80294, 0
+	GG512, N46.39717, E6.54903, 0
+	GG514, N46.54019, E6.34692, 0
+#	GG517, N46.93967, E5.43947, 0
+#	GG518, N46.90714, E6.24897, 0
+#	GG519, N45.52736, E6.70203, 0
+#	GG520, N45.95636, E6.76828, 0
+	GG525, N46.29819, E6.40222, 0
+	INDIS, N46.02444, E5.79700, 0, Indis
+#	KERAD, N46.23531, E5.89931, 0, Kerad
+#	PINOT, N45.98544, E5.92597, 0, Pinot
+#	PITOM, N46.09472, E6.10194, 0, Pitom
+#	ROMOM, N46.68119, E6.97053, 0, Romom
+#	SAUNI, N46.62369, E5.47769, 0, Sauni
+#	BANKO, N45.49.12.0, E7.3.17.0
+#	BENOT, N47.3.27.7, E7.10.22.1
+	LUSAR, N46.40.8.0, E5.10.46.1
+#	ULMES, N46.57.18.1, E7.17.33.5
+#	KINES, N45.19.53.0, E6.45.19.0
+	DINIG, N46.29.43.0, E5.53.26.0, -143
+	SUVEL, N46.9.5.0, E6.21.4.0
+#RNP
+#    GG803, N46.14292, E5.96969, 0
+	GG808, N46.34472, E6.26594, 0
+#	GG811, N46.22.42.9, E6.18.57.5, 0
+	PETAL, N46.22.4.9, E6.18.1.3, 0, Petal
+## name, position, <holdingheading>, <pronunciation>
+# the first given beacon will be the default beacon for arrivals inbound the main airport
+# when holdingheading is 0 or omitted, planes will hold there using the plane's current heading
+# when a holdingheading is given, planes will fly that heading (or magnetic course) on the inbound leg when flying the holding
+# when holdingheading is negative, planes will make left-hand turns instead of right-hand
+
+boundary = 
+#tma4.1
+	N46.50031, E5.58632
+	N46.50131, E5.89028
+	N46.57467, E6.10541
+#tma4
+	N46.76794, E6.44169
+#tma5
+	N46.67621, E6.75053
+	N46.65868, E6.75206
+	N46.54613, E6.89952
+	N46.46916, E6.80134
+#tma6
+	N46.43143, E6.80296
+	N46.42703, E6.82070
+	N46.39257, E6.80367
+#tma7
+	N46.32079, E6.80581
+	N46.25736, E6.85272
+	N46.07779, E6.47823
+	N45.87433, E6.27316
+	N45.93139, E6.18299
+#tma8
+#tma9
+	N45.84271, E6.10006
+#tma10
+	N45.62078, E6.08624
+	N45.68588, E5.49736
+	N45.71675, E5.48792
+#tma9
+#tma8
+	N45.92996, E5.66084
+#tma2
+	N45.97664, E5.59866
+	N46.04364, E5.56927
+	N46.11139, E5.58505
+	N46.17281, E5.65549
+#tma3
+	N46.24426, E5.79840
+#tma4
+#tma4.1
+	
+## positions
+# pointlist of optional airspace boundary polygon; this will override the default (circular) airspace radius.
+# last point is automatically connected to first point
+
+line1 =
+	N46.43223, E6.87363
+	N46.40259, E6.86641
+	N46.38481, E6.84502
+	N46.40244, E6.66533
+	N46.38857, E6.46885
+	N46.36094, E6.33643
+	N46.20508, E6.15703
+	N46.20459, E6.13330
+	N46.30244, E6.15840
+	N46.45762, E6.34395
+	N46.52881, E6.58818
+	N46.46562, E6.81885
+	N46.43223, E6.87363
+	N46.43223, E6.87363
+	N46.43223, E6.87363
+#LAKE GENEVA
+
+[airport1]
+name = Geneva Cointrin International Airport
+code = LSGG
+runways =
+#   idnt,rwy,location           ,HDG  ,legnth,displaced,elev ,g/s, loc 
+	rwy1, 04, N46.2258, E6.09092, 45.5, 12795, 1082,  0, 1411,  3, 45.5
+
+
+climbaltitude = 9000 		; maximum initial climb altitude in feet for departures
+
+sids = 
+	ARBOS
+	BALSI
+	BELUS
+	DEPUL
+	DIPIR
+	MEDAM
+	KONIL,N46.34.6.4, E6.27.30.1
+	MOLUS,N46.26.38.0, E6.40.46.0
+	ROCCA,N45.44.43.0, E6.38.44.1
+	SIROD,N46.43.37.3, E6.1.10.4
+## name, position, <pronunciation>
+# you may also give just the name of a beacon from the beacon list
+
+entrypoints = 
+	323, DINIG
+	122, SUVEL
+	211, CBY
+	031, GG514
+	065, GG512
+## true_heading, <beaconname>
+# this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
+# inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
+
+airlines =
+	EZS, 4, a320/a319, Topswiss
+	EZY, 3, a320/a319/a20n/a21n, Easy, 301
+	KLM, 3, b737, KLM, 335
+	ETH, 1, b787, Ethiopian, 121
+	TAP, 2, a319/a320/a20n/e195, Air Portugal, 209
+	AFR, 3, e190, Airfrans, 313
+	SWR, 6, BCS1/BCS3/A320/A20N/A321/A21N/A333/A343/B77W, SWISS
+	MEA, 1, a320 , CEDAR JET, 121
+	BEL, 2, a319/a320, BEE LINE, n
+	BAW, 2, a318/a319/a320/a321, SPEEDBIRD, 301
+	UAE, 1, b77w, EMIRATES, 121
+	PGT, 1, A20N/B738, SUNTURK, 121
+	AZA, 1, E75S/E190, ALITALIA, 121
+	IBE, 3, A320N, IBERIA, 209
+	RAM, 1, B737, ROYAL AIR MAROC, 209
+	AUA, 1, DH8D, AUSTRIAN, 045
+	LGL, 1, DH8D, Luxair, 045
+
+## name, amount, planetype, pronunciation, <direction>
+# name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
+# amount determines the relative likelihood of appearance (e.g. 0=never, 1=occasionally, 10=frequently, etc)
+# planetype determines the plane characteristics (optionally put a dash (/) between multiple types)
+# pronuniation is the callsign, used for airlines
+# direction lets the plane arrive/depart in (roughly) a preferred direction:
+# give the direction as a string containing one or more of the letters nwse, for north west south east,
+# but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
+
+##############################################################
+[area1]
+#TMA4.1
+##############################################################
+shape = polygon		; circle or polygon
+altitude = 7500		; minimum allowed altitude in feet
+name = LL		; <name, if omited then planes inbound the main airport may enter this area>
+labelpos = -18.4, 12.89	; <position of label>
+points =
+	N46.50031, E5.58632
+	N46.50131, E5.89028
+	N46.57467, E6.10541
+	N46.54509, E6.15373
+	N46.45375, E6.07519
+	N46.37271, E5.96220
+	N46.31339, E5.74242
+## positions
+# the last point will be automatically connected to the first point
+
+[area2]
+#TMA4
+shape = polygon
+altitude = 7500
+#name = lsas
+labelpos = 3.86, 21.19
+points =
+	N46.57467, E6.10541
+	N46.54509, E6.15373
+	N46.45375, E6.07519
+	N46.37271, E5.96220
+	N46.31339, E5.74242
+	N46.24426, E5.79840
+	N46.37702, E6.03617
+	N46.57390, E6.32656
+	N46.73333, E6.55702
+	N46.76794, E6.44169
+
+[area3]
+#TMA5
+shape = polygon
+altitude = 7500
+labelpos = 20.36, 22.77
+points = 
+	N46.73333, E6.55702
+	N46.67621, E6.75053
+	N46.65868, E6.75206
+	N46.54613, E6.89952
+	N46.46916, E6.80134
+	N46.44576, E6.72483
+	N46.45543, E6.62513
+	N46.58220, E6.49796
+	N46.57390, E6.32656
+
+[area4]
+#TMA6
+shape = polygon
+altitude = 8500
+labelpos = 23.07, 8.40
+points =
+	N46.46916, E6.80134
+	N46.43143, E6.80296
+	N46.42703, E6.82070
+	N46.39257, E6.80367
+	N46.35965, E6.80458
+	N46.17440, E6.41631
+	N45.98776, E6.23719
+	N46.04852, E6.15897
+	N46.43740, E6.69801
+	N46.44576, E6.72483
+
+[area5]
+#TMA7
+shape = polygon
+altitude = 10500
+labelpos = 19.84, -0.96
+points = 
+	N46.35965, E6.80458
+	N46.32079, E6.80581
+	N46.25736, E6.85272
+	N46.07779, E6.47823
+	N45.87433, E6.27316
+	N45.91907, E6.20389
+	N45.97379, E6.25607
+	N45.98776, E6.23719
+	N46.17440, E6.41631
+
+[area6]
+#TMA8
+shape = polygon
+altitude = 9500
+name = LB
+labelpos = 2.45, -15.06
+points =
+	N45.91907, E6.20389
+	N45.93139, E6.18299
+	N45.87377, E6.12841
+	N45.82914, E5.58071
+	N45.92996, E5.66084
+	N45.90520, E5.73253
+	N45.90240, E5.81703
+	N45.91731, E5.88490
+	N46.04852, E6.15897
+	N45.98776, E6.23719
+	N45.97379, E6.25607
+
+[area7]
+#TMA9
+shape = polygon
+altitude = 11500
+name = LB
+labelpos = -5.58, -24.87
+points =
+	N45.82914, E5.58071
+	N45.87377, E6.12841
+	N45.84271, E6.10006
+	N45.80667, E6.09516
+	N45.77539, E5.97706
+	N45.74465, E5.70102
+	N45.79646, E5.55506
+
+[area8]
+#TMA10
+shape = polygon
+altitude = 11500
+name = LB
+labelpos = -5.66, -31.54
+points =
+	N45.80667, E6.09516
+	N45.77539, E5.97706
+	N45.74465, E5.70102
+	N45.79646, E5.55506
+	N45.71675, E5.48792
+	N45.68588, E5.49736
+	N45.62078, E6.08624
+
+[area9]
+#TMA2
+shape = polygon
+altitude = 5500
+labelpos = -20.21, -9.11
+points =
+	N45.92996, E5.66084
+	N45.90520, E5.73253
+	N45.90240, E5.81703
+	N45.91731, E5.88490
+	N46.04852, E6.15897
+	N46.43722, E6.69775
+	N46.43740, E6.69801
+	N46.44576, E6.72483
+	N46.45543, E6.62513
+	N46.58220, E6.49796
+	N46.52819, E6.38759
+	N46.36766, E6.55055
+	N45.97351, E5.84085
+	N45.99943, E5.80369
+	N46.08570, E5.78429
+	N46.11749, E5.81722
+	N46.18289, E5.68107
+	N46.17281, E5.65549
+	N46.11139, E5.58505
+	N46.04364, E5.56927
+	N45.97664, E5.59866
+
+[area10]
+#TMA3
+shape = polygon
+altitude = 6500
+labelpos = -14.35, -3.48
+points =
+	N46.18289, E5.68107
+	N46.24426, E5.79840
+	N46.37702, E6.03617
+	N46.57390, E6.32656
+	N46.58220, E6.49796
+	N46.52819, E6.38759
+	N46.39407, E6.11037
+	N46.11749, E5.81722
+
+[area11]
+#TMA1
+shape = polygon
+altitude = 3500
+labelpos = 14.62, 8.93
+points =
+	N46.52819, E6.38759
+	N46.36766, E6.55055
+	N45.97351, E5.84085
+	N45.99943, E5.80369
+	N46.08570, E5.78429
+	N46.11749, E5.81722
+	N46.39407, E6.11037
+
+[area12]
+#CTR
+shape = polygon
+points =
+	N46.19114, E5.93784
+	N46.37068, E6.20219
+	N46.38076, E6.23576
+	N46.38033, E6.26280
+	N46.37444, E6.28581
+	N46.36455, E6.30395
+	N46.34795, E6.31755
+	N46.33143, E6.32075
+	N46.31521, E6.31797
+	N46.30108, E6.30813
+	N46.12010, E6.03839
+	N46.11127, E6.00912
+	N46.11127, E5.98092
+	N46.11693, E5.95929
+	N46.13029, E5.93590
+	N46.14671, E5.92535
+	N46.16232, E5.92232
+	N46.18075, E5.92803
+
+##############################################################
+#[departure1]
+##############################################################
+
+#runway = rwy2			; runway identifier, <reversed use>
+#route1 = 
+#	bco2, beacon two
+#	12,	0
+#	18.6,	0
+#	18.6,	6.8
+#	25,	16.5
+# first line of the route is the sid name (up to 5 characters will be displayed), and optional <pronunciation> of the sid name
+# next lines are one or more waypoint positions
+
+#route2 = 
+#	south
+#	12,	0
+#	15.3,	-4.7
+#	0,	-16.6
+#	0,	-25
+
+# the optional [departure] section adds routes to a specific runway direction
+# this overrides the default (single waypoint) SIDs with more detailed routes, and applies the routes to the specified runway only
+# departing planes from that runway will then follow the one of the routes, unless the user deactivates SID mode
+# re-enabling SID mode will select just the last point of the route
+# defining one or more departure routes disables all the default SID points for that runway; planes will use the given routes only
+# use one [departure] section per runway direction, each with one or more routes
+# [departure] routes are not used in the built-in airports, for simplicity
+
+
+##############################################################
+#[approach1]
+##############################################################
+
+#runway = rwy1,	rev					; runway identifier, <reversed use>
+#beacon = lima,	1,	18,	0,	lima		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+#route1 = 
+#	060
+#	-3,	22,	5500,	210
+#	1,	22
+#	1,	18,	4000
+#	-3,	18, 	0,	180
+#	10.5,	3000,	200
+# first item of the route is the bearing from the plane towards the beacon; if there are multiple routes defined for this beacon, the closest bearing defines which route is selected
+# next lines are optional waypoints: ## position, <maximum altitude>, <maximum speed>
+# last line is the interception point on the ILS: ## distance (NM) from the (displaced) threshold, <maximum altitude>, <maximum speed>
+
+#route2 = 
+#	310
+#	1,	18,	4000
+#	-3,	18, 	0,	180
+#	10.5,	3000,	200
+
+#route3 = 
+#	010
+#	1,	10
+#	1,	18,	4000
+#	-3,	18, 	0,	180
+#	10.5,	3000,	200
+
+# multiple [approach] sections can be used for the same runway, to allow for multiple beacons
+# for easier creation of routes, use left Ctrl key to display current mouse coordinates, and left click while holding down Ctrl places temporary visual markers
+# Longpress the airport name button in the menu to display all routes at once
+# [approach] routes are not used in the built-in airports as the game is focussed on vectors for simplicity
