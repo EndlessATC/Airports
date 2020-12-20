@@ -262,11 +262,11 @@ entrypoints =
 	230, RIVER
 
 airlines =
-	TRA,	7,	B737/B738,	Transavia,	nswe
+	TRA,	4,	B737/B738,	Transavia,	nswe
 	KLM,	10,	B737/B738/B744/B789/B788/A333/B77L/B77W/E190/E170, KLM,	nswe
 	AFR,	2,	A319/A320,	Air France,	s
 	BAW,	3,	A319/A320/A321, Speedbird,	w
-	DEL,	3,	A333/B77L/B77W, Delta,	w
+	DEL,	4,	A333/B77L/B77W, Delta,	w
 	CSN,	1,	A380/B77W,	China Southern,	e
 	SIA,	1,	A350,	Singapore,	e
 	AAL,	1,	B788,	American,	w
@@ -280,12 +280,13 @@ airlines =
 name = Rotterdam The Hague Airport
 code = RD
 climbaltitude = 3000
+traffic = 5
 runways =
 	rwy7, 06, N51.9521, E4.42824, 57.0, 7218, 656, 656, -15
 
 airlines =
-	TRA,	7,	B737/B738,	Transavia,	nswe
-	CDN,	1,	B738,	Dutch Corendon,	esw
+	TRA,	6,	B737/B738,	Transavia,	nswe
+	CDN,	3,	B738,	Dutch Corendon,	esw
 
 entrypoints =
 	020, PAM
@@ -813,6 +814,18 @@ route7 = KUDAD1V, KUDAD
 	N51.92417,	E4.76722
 	N51.66750,	E4.56750
 	N51.40556,	E4.36639
+
+[transition1]
+runway = rwy5, rev
+beacon = ARTIP
+route 1 = 090
+	N52.51111,	E5.56917
+	N52.35306,	E5.25306,	7000, 220
+	N52.24639,	E5.04167
+	N52.11056,	E4.90944
+	N52.11056,	E4.80139, 2000, 180
+	8.2,	2000,	180
+
 
 [configurations]
 #South Combination with 2 starting and 2 landing runways (usually run when transitioning from a landing peak to a starting peak and vice versa)
