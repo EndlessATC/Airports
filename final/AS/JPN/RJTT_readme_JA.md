@@ -216,3 +216,5 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 
 *	2.2.0 - 2020/12/02
 	-日本語初リリース
+*	2.2.1 - 2020/12/19
+	-管制区の離脱ポイントの交通量バランスを調整しました。

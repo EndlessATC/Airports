@@ -182,7 +182,7 @@ Aircraft arrive at 4 points:
 
 Aircraft depart via:
 
-- `KALMA` via `OMIYA`, `EDARR`, `KOSKA` (southwest)
+- `DALMA` via `OMIYA`, `EDARR`, `KOSKA` (southwest)
 - `KAMOG` via `TSUGA`, `OJT` (southeast)
 - `OMIYA` (northwest)
 - `JD` (north)
@@ -262,3 +262,5 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 	- Increased the scheduled airline to GA/bizjet traffic ratio (less GA traffic).
 	- Minor adjustments/updates to airline traffic.
 	- Added 'rare' traffic (head of state, navaid check)
+*	2.2.1 - 2020/12/19
+	- Adjusted the distribution of traffic for each departure point.
