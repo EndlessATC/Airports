@@ -1,4 +1,4 @@
-# RJTT ACA 2.2.0
+# RJTT ACA 2.2.1
 # See RJTT_readme.md
 
 [airspace]
@@ -5939,9 +5939,10 @@ route1 =
 [departure1]
 runway = RJTTRWYC
 
-#ROVER1B.AKAGI
+#!sid3x
+#ROVER2B.AKAGI
 route1 = 
-	ROVER1B, Rover One Bravo Akagi
+	ROVER2B, Rover Two Bravo Akagi
 #ARAKA
 	N35.38.48.83, E139.50.41.88
 #EDOJO
@@ -5957,9 +5958,10 @@ route1 =
 #AKAGI
 #	N36.23.28.33, E139.41.56.28
 
-#ROVER1B.AGRIS
+#!sid12x
+#ROVER2B.AGRIS
 route2 = 
-	ROVER1B, Rover One Bravo Bruce
+	ROVER2B, Rover Two Bravo Bruce
 #ARAKA
 	N35.38.48.83, E139.50.41.88
 #EDOJO
@@ -5975,9 +5977,9 @@ route2 =
 #AGRIS
 	N36.25.14.70, E139.56.33.13
 
-#ROVER1B.INUBO Y808
+#ROVER2B.INUBO Y808
 route3 = 
-	ROVER1B, Rover One Bravo Inubo
+	ROVER2B, Rover Two Bravo Inubo
 #ARAKA
 	N35.38.48.83, E139.50.41.88
 #EDOJO
@@ -5999,9 +6001,9 @@ route3 =
 #GULBO
 	N35.26.32.86, E141.45.09.55
 
-#ROVER1B.INUBO Y830
+#ROVER2B.INUBO Y830
 route4 = 
-	ROVER1B, Rover One Bravo Inubo
+	ROVER2B, Rover Two Bravo Inubo
 #ARAKA
 	N35.38.48.83, E139.50.41.88
 #EDOJO
@@ -6023,9 +6025,9 @@ route4 =
 #BORLO
 	N35.16.33.77, E141.44.55.61
 
-#ROVER1B.INUBO Y820
+#ROVER2B.INUBO Y820
 route5 = 
-	ROVER1B, Rover One Bravo Inubo
+	ROVER2B, Rover Two Bravo Inubo
 #ARAKA
 	N35.38.48.83, E139.50.41.88
 #EDOJO
@@ -6049,6 +6051,7 @@ route5 =
 #ANSAD
 	N34.41.47.92, E141.42.44.41
 
+#!sid5x
 #BEKLA2B
 route6 = 
 	BEKLA2B, Bekla Two Bravo
@@ -6065,6 +6068,7 @@ route6 =
 #BEKLA
 	N35.49.58.66, E139.10.09.50
 
+#!sid2x
 #RITLA2B
 route7 = 
 	RITLA2B, Ritla Two Bravo
@@ -6086,6 +6090,7 @@ route7 =
 [departure2]
 runway = RJTTRWYD, rev
 
+#!sid2x
 #BEKLA2B
 route1 = 
 	BEKLA2B, Bekla Two Bravo
@@ -6104,6 +6109,7 @@ route1 =
 #BEKLA
 	N35.49.58.66, E139.10.09.50
 
+#!sid10x
 #RITLA2B
 route2 = 
 	RITLA2B, Ritla Two Bravo
@@ -6124,6 +6130,7 @@ route2 =
 #RITLA
 	N35.39.44.78, E139.08.13.11
 
+#!sid12x
 #NINOX3
 route3 = 
 	NINOX3, Ninox Three
@@ -6140,6 +6147,7 @@ route3 =
 #NINOX
 	N35.29.53.44, E139.09.53.06
 
+#!sid16x
 #LAXAS3 Y56
 route4 = 
 	LAXAS3, Laxas Three
@@ -6179,6 +6187,7 @@ route5 =
 [departure3]
 runway = RJTTRWYA, rev
 
+#!sid2x
 #BEKLA2B
 route1 = 
 	BEKLA2B, Bekla Two Bravo
@@ -6193,6 +6202,7 @@ route1 =
 #BEKLA
 	N35.49.58.66, E139.10.09.50
 
+#!sid10x
 #RITLA2B
 route2 = 
 	RITLA2B, Ritla Two Bravo
@@ -6209,6 +6219,7 @@ route2 =
 #RITLA
 	N35.39.44.78, E139.08.13.11
 
+#!sid12x
 #NINOX3
 route3 = 
 	NINOX3, Ninox Three
@@ -6223,6 +6234,7 @@ route3 =
 #NINOX
 	N35.29.53.44, E139.09.53.06
 
+#!sid16x
 #LAXAS3 Y56
 route4 = 
 	LAXAS3, Laxas Three
@@ -6254,9 +6266,10 @@ route5 =
 [departure4]
 runway = RJTTRWYC, rev
 
-#ROVER1B.AKAGI
+#!sid3x
+#ROVER2B.AKAGI
 route1 = 
-	ROVER1B.AKAGI, Rover One Bravo Akagi
+	ROVER2B.AKAGI, Rover Two Bravo Akagi
 #T6L23
 	N35.26.27.6, E139.55.39.1
 #WELDA
@@ -6274,9 +6287,10 @@ route1 =
 #AKAGI
 #	N36.23.28.33, E139.41.56.28
 
-#ROVER1B.AGRIS
+#!sid12x
+#ROVER2B.AGRIS
 route2 = 
-	ROVER1B.AGRIS, Rover One Bravo Bruce
+	ROVER2B.AGRIS, Rover Two Bravo Bruce
 #T6L23
 	N35.26.27.6, E139.55.39.1
 #WELDA
@@ -6294,9 +6308,9 @@ route2 =
 #AGRIS
 	N36.25.14.70, E139.56.33.13
 
-#ROVER1B.INUBO Y808
+#ROVER2B.INUBO Y808
 route3 = 
-	ROVER1B.INUBO Y808, Rover One Bravo Inubo
+	ROVER2B.INUBO Y808, Rover Two Bravo Inubo
 #T6L23
 	N35.26.27.6, E139.55.39.1
 #WELDA
@@ -6320,9 +6334,9 @@ route3 =
 #GULBO
 	N35.26.32.86, E141.45.09.55
 
-#ROVER1B.INUBO Y830
+#ROVER2B.INUBO Y830
 route4 = 
-	ROVER1B.INUBO Y830, Rover One Bravo Inubo
+	ROVER2B.INUBO Y830, Rover Two Bravo Inubo
 #T6L23
 	N35.26.27.6, E139.55.39.1
 #WELDA
@@ -6346,9 +6360,9 @@ route4 =
 #BORLO
 	N35.16.33.77, E141.44.55.61
 
-#ROVER1B.INUBO Y820
+#ROVER2B.INUBO Y820
 route5 = 
-	ROVER1B.INUBO Y820, Rover One Bravo Inubo
+	ROVER2B.INUBO Y820, Rover Two Bravo Inubo
 #T6L23
 	N35.26.27.6, E139.55.39.1
 #WELDA
@@ -6374,6 +6388,7 @@ route5 =
 #ANSAD
 	N34.41.47.92, E141.42.44.41
 
+#!sid5x
 #BEKLA2B
 route6 = 
 	BEKLA2B, Bekla Two Bravo
@@ -6392,6 +6407,7 @@ route6 =
 #BEKLA
 	N35.49.58.66, E139.10.09.50
 
+#!sid2x
 #RITLA2B
 route7 = 
 	RITLA2B, Ritla Two Bravo
@@ -6415,6 +6431,7 @@ route7 =
 [departure5]
 runway = RJTTRWYB
 
+#!sid10x
 #RITLA2C
 route1 = 
 	RITLA2C, Ritla Two Bravo
@@ -6433,6 +6450,7 @@ route1 =
 #RITLA
 	N35.39.44.78, E139.08.13.11
 
+#!sid12x
 #NINOX3
 route2 = 
 	NINOX3, Ninox Three
@@ -6451,6 +6469,7 @@ route2 =
 #NINOX
 	N35.29.53.44, E139.09.53.06
 
+#!sid16x
 #LAXAS3 Y56
 route3 = 
 	LAXAS3, Laxas Three
@@ -6490,9 +6509,10 @@ route4 =
 [departure6]
 runway = RJTTRWYA2, rev
 
+#!sid3x
 #ROVER1C.AKAGI
 route1 = 
-	ROVER1C.AKAGI, Rover One Charlie Akagi
+	ROVER1C.AKAGI, Rover Two Charlie Akagi
 #T6R11
 	N35.25.52.5, E139.51.37.2
 #WELDA
@@ -6510,9 +6530,10 @@ route1 =
 #AKAGI
 #	N36.23.28.33, E139.41.56.28
 
+#!sid12x
 #ROVER1C.AGRIS
 route2 = 
-	ROVER1C.AGRIS, Rover One Charlie Bruce
+	ROVER1C.AGRIS, Rover Two Charlie Bruce
 #T6R11
 	N35.25.52.5, E139.51.37.2
 #WELDA
@@ -6532,7 +6553,7 @@ route2 =
 
 #ROVER1C.INUBO Y808
 route3 = 
-	ROVER1C.INUBO Y808, Rover One Charlie Inubo
+	ROVER1C.INUBO Y808, Rover Two Charlie Inubo
 #T6R11
 	N35.25.52.5, E139.51.37.2
 #WELDA
@@ -6558,7 +6579,7 @@ route3 =
 
 #ROVER1C.INUBO Y830
 route4 = 
-	ROVER1C.INUBO Y830, Rover One Charlie Inubo
+	ROVER1C.INUBO Y830, Rover Two Charlie Inubo
 #T6R11
 	N35.25.52.5, E139.51.37.2
 #WELDA
@@ -6584,7 +6605,7 @@ route4 =
 
 #ROVER1C.INUBO Y820
 route5 = 
-	ROVER1C.INUBO Y820, Rover One Charlie Inubo
+	ROVER1C.INUBO Y820, Rover Two Charlie Inubo
 #T6R11
 	N35.25.52.5, E139.51.37.2
 #WELDA
@@ -6610,6 +6631,7 @@ route5 =
 #ANSAD
 	N34.41.47.92, E141.42.44.41
 
+#!sid5x
 #BEKLA2C
 route1 = 
 	BEKLA2C, Bekla Two Charlie
@@ -6626,6 +6648,7 @@ route1 =
 #BEKLA
 	N35.49.58.66, E139.10.09.50
 
+#!sid2x
 #RITLA2C
 route2 = 
 	RITLA2C, Ritla Two Charlie
@@ -6649,9 +6672,10 @@ route2 =
 [departure7]
 runway = RJTTRWYC2, rev
 
+#!sid3x
 #ROVER1C.AKAGI
 route1 = 
-	ROVER1C.AKAGI, Rover One Charlie Akagi
+	ROVER1C.AKAGI, Rover Two Charlie Akagi
 #T6L31
 	N35.28.22.8, E139.56.48.0
 #DAMBO
@@ -6671,9 +6695,10 @@ route1 =
 #AKAGI
 #	N36.23.28.33, E139.41.56.28
 
+#!sid12x
 #ROVER1C.AGRIS
 route2 = 
-	ROVER1C.AGRIS, Rover One Charlie Bruce
+	ROVER1C.AGRIS, Rover Two Charlie Bruce
 #T6L31
 	N35.28.22.8, E139.56.48.0
 #DAMBO
@@ -6695,7 +6720,7 @@ route2 =
 
 #ROVER1C.INUBO Y808
 route3 = 
-	ROVER1C.INUBO Y808, Rover One Charlie Inubo
+	ROVER1C.INUBO Y808, Rover Two Charlie Inubo
 #T6L31
 	N35.28.22.8, E139.56.48.0
 #DAMBO
@@ -6723,7 +6748,7 @@ route3 =
 
 #ROVER1C.INUBO Y830
 route4 = 
-	ROVER1C.INUBO Y830, Rover One Charlie Inubo
+	ROVER1C.INUBO Y830, Rover Two Charlie Inubo
 #T6L31
 	N35.28.22.8, E139.56.48.0
 #DAMBO
@@ -6751,7 +6776,7 @@ route4 =
 
 #ROVER1C.INUBO Y820
 route5 = 
-	ROVER1C.INUBO Y820, Rover One Charlie Inubo
+	ROVER1C.INUBO Y820, Rover Two Charlie Inubo
 #T6L31
 	N35.28.22.8, E139.56.48.0
 #DAMBO
@@ -8689,6 +8714,7 @@ route1 =
 [departure8]
 runway = RJAARWYA
 
+#!sid6x
 #TETRA8.ENPAR
 route1 = 
 	TETRA8.ENPAR, Tetra Eight Enpar
@@ -8769,6 +8795,7 @@ route3 =
 #KIMIN
 	N36.31.19.50, E140.07.38.18
 
+#!sid5x
 #REDEK2
 route4 = 
 	REDEK2, Redek Two
@@ -8797,6 +8824,7 @@ route4 =
 #MITOP
 	N35.19.10.75, E138.55.50.43
 
+#!sid7x
 #PIGOK2
 route5 = 
 	PIGOK2, Pigok Two
@@ -8869,7 +8897,7 @@ route7 =
 #BORLO
 	N35.16.33.77, E141.44.55.61
 
-#OLVAN2 Y283
+#OLVAN2 Y823
 route8 = 
 	OLVAN2, Olvan Two
 #ARIES >4000
@@ -8893,6 +8921,7 @@ route8 =
 #IRNOK
 	N34.38.32.89, E141.15.58.24
 
+#!sid3x
 #OLVAN2.SAMUS
 route9 = 
 	OLVAN2.SAMUS, Olvan Two Samus
@@ -8924,6 +8953,7 @@ route9 =
 [departure9]
 runway = RJAARWYB
 
+#!sid6x
 #TETRA8.ENPAR
 route1 = 
 	TETRA8.ENPAR, Tetra Eight Enpar
@@ -8998,6 +9028,7 @@ route3 =
 #KIMIN
 	N36.31.19.50, E140.07.38.18
 
+#!sid5x
 #REDEK2
 route4 = 
 	REDEK2, Redek Two
@@ -9022,6 +9053,7 @@ route4 =
 #MITOP
 	N35.19.10.75, E138.55.50.43
 
+#!sid7x
 #PIGOK2
 route5 = 
 	PIGOK2, Pigok Two
@@ -9086,7 +9118,7 @@ route7 =
 #BORLO
 	N35.16.33.77, E141.44.55.61
 
-#OLVAN2 Y283
+#OLVAN2 Y823
 route8 = 
 	OLVAN2, Olvan Two
 #BOXER
@@ -9108,6 +9140,7 @@ route8 =
 #IRNOK
 	N34.38.32.89, E141.15.58.24
 
+#!sid3x
 #OLVAN2.SAMUS
 route9 = 
 	OLVAN2.SAMUS, Olvan Two Samus
@@ -9137,6 +9170,7 @@ route9 =
 [departure10]
 runway = RJAARWYA, rev
 
+#!sid6x
 #TETRA8.ENPAR
 route1 = 
 	TETRA8.ENPAR, Tetra Eight Enpar
@@ -9199,6 +9233,7 @@ route3 =
 #KIMIN
 	N36.31.19.50, E140.07.38.18
 
+#!sid5x
 #REDEK2
 route4 = 
 	REDEK2, Redek Two
@@ -9215,6 +9250,7 @@ route4 =
 #MITOP
 	N35.19.10.75, E138.55.50.43
 
+#!sid7x
 #PIGOK2
 route5 = 
 	PIGOK2, Pigok Two
@@ -9259,7 +9295,7 @@ route7 =
 #BORLO
 	N35.16.33.77, E141.44.55.61
 
-#OLVAN2 Y283
+#OLVAN2 Y823
 route8 = 
 	OLVAN2, Olvan Two
 #ASPEN
@@ -9273,6 +9309,7 @@ route8 =
 #IRNOK
 	N34.38.32.89, E141.15.58.24
 
+#!sid3x
 #OLVAN2.SAMUS
 route9 = 
 	OLVAN2.SAMUS, Olvan Two Samus
@@ -9294,6 +9331,7 @@ route9 =
 [departure11]
 runway = RJAARWYB, rev
 
+#!sid6x
 #TETRA8.ENPAR
 route1 = 
 	TETRA8.ENPAR, Tetra Eight Enpar
@@ -9362,6 +9400,7 @@ route3 =
 #KIMIN
 	N36.31.19.50, E140.07.38.18
 
+#!sid5x
 #REDEK2
 route4 = 
 	REDEK2, Redek Two
@@ -9384,6 +9423,7 @@ route4 =
 #MITOP
 	N35.19.10.75, E138.55.50.43
 
+#!sid7x
 #PIGOK2
 route5 = 
 	PIGOK2, Pigok Two
@@ -9434,7 +9474,7 @@ route7 =
 #BORLO
 	N35.16.33.77, E141.44.55.61
 
-#OLVAN2 Y283
+#OLVAN2 Y823
 route8 = 
 	OLVAN2, Olvan Two
 #BEAMS
@@ -9448,6 +9488,7 @@ route8 =
 #IRNOK
 	N34.38.32.89, E141.15.58.24
 
+#!sid3x
 #OLVAN2.SAMUS
 route9 = 
 	OLVAN2.SAMUS, Olvan Two Samus
