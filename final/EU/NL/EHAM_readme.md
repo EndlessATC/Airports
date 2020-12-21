@@ -1,4 +1,4 @@
-# EHAM v0.4
+# EHAM v1.0
 This is a file to add EHAM (Amsterdam Schiphol Airport) to the [Endless ATC](https://steamcommunity.com/app/666610) game.
 
 ## Features
@@ -9,11 +9,10 @@ This is a file to add EHAM (Amsterdam Schiphol Airport) to the [Endless ATC](htt
 * Secondary airports: EHRD
 * Multiple runway configurations (currently 6)
 * Realistic airline schedules. The variety of airlines is quite limited at this time.
+* Added ARTIP1X transition to runway 36R
 ### Planned
-* Additional runway configurations
-* Add EHLE secondary
-* Add ARTIP1X transition
-* Potentially add night transitions
+* Add EHLE secondary when open IRL
+* Potentially add night transitions if requested
 
 ## Basic operations
 ### Departures
@@ -108,6 +107,10 @@ v0.3
 v0.4
 * Added additional configurations
 
+v1.0
+* Added ARTIP1X transition to runway 36R
+* Tweaked EHRD arrival rate
+* Tweaked airline mixture
 
 ## Credits
 All coordinates and other information with respect to EHAM/EHRD where directly taken from the [eAIP](https://www.lvnl.nl/eaip/2020-10-22-AIRAC/html/index-en-GB.html).
