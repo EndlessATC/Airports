@@ -1231,6 +1231,7 @@ route1 =
 [departure1]
 runway = RJCCRWYA
 
+#!sid5x
 route1 = 
 	DALBI1, Dalbi One
 #CC01T
@@ -1247,6 +1248,7 @@ route1 =
 	N42.12.30.32, E140.49.24.56
 #DALBI
 
+#!sid20x
 route2 = 
 	JUGGL1, Jugglar One
 #CC01T
@@ -1300,6 +1302,7 @@ route5 =
 [departure2]
 runway = RJCCRWYA, rev
 
+#!sid5x
 route1 = 
 	DALBI1, Dalbi One
 #NEJIE
@@ -1310,6 +1313,7 @@ route1 =
 	N42.12.30.32, E140.49.24.56
 #DALBI
 
+#!sid20x
 route2 = 
 	JUGGL1, Jugglar One
 #CC06T
