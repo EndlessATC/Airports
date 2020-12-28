@@ -322,6 +322,12 @@ airlines =
 #!	twb, 10, b738, teeway, s
 #!	svr, 10, a320/a20n, sverdlovsk air, n
 #!	cxa, 10, b738, xiamen air, s
+#jcab
+#!	ckstr-11, 3, c25c, check star, s
+#ga
+#!	ja-123a, 2, c25m/c525/c25a/hdjt/glf4/glf5/glf6/lj35/lj60/glex/cl30/cl35, 0, nswe
+#!	ja-12ab, 2, c25m/c525/c25a/hdjt/glf4/glf5/glf6/lj35/lj60/glex/cl30/cl35, 0, nswe
+#!	ja-1234, 2, c25m/c525/c25a/hdjt/glf4/glf5/glf6/lj35/lj60/glex/cl30/cl35, 0, nswe
 
 #!expansionoutput1
 #!expansionoutputend
@@ -382,6 +388,8 @@ airlines =
 #!	blcky-12, 10, p3, blacky, s
 #!	jcg-12, 100, b350, japan coast guard, nswe
 #!	jcg-12, 100, dh8c, japan coast guard, nswe
+#jcab
+#!	ckstr-11, 3, c25c, check star, s
 
 #!expansionoutput2
 #!expansionoutputend
