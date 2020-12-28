@@ -1,0 +1,1422 @@
+# RJCC ACA 1.0.0
+# See RJCC_readme.md
+
+[airspace]
+radius = 100
+zoom = 1
+elevation = 21
+floor = 0
+descendaltitude = 15000
+ceiling = 20000
+above = 28000
+transitionaltitude = 13999
+speedrestriction = 100, 250
+usa = false
+metric = false
+center = N42.7751998901, E141.692001343
+magneticvar = -9.143
+beacons =
+#VOR/TACAN
+	ZYT, N42.45.52, E141.40.25, 0, Chitose Tacan
+	CHE, N42.41.59.65, E141.41.10.20, 0, Chitose
+	MKE, N42.33.18.02, E141.57.20.27, -280, Mukawa
+	SPE, N43.10.28.71, E141.18.08.58, 0, Sapporo
+	OBE, N42.44.02.27, E143.13.13.63, 0, Obihiro
+#RJCC
+	NAVER, N42.07.44.19, E141.31.28.91, -21, Naver
+	KURIS, N43.09.18.82, E141.42.21.62, 0, Kuris
+	GUFFI, N42.49.17.45, E141.50.43.48, 5, Guffi
+	YOSHA, N42.35.15.29, E141.52.04.35, 5, Yosha
+#	TEKKO, N42.30.07.08, E141.04.31.00, 0, Tekko
+#	FUNKA, N42.21.00.94, E140.36.58.61, 0, Funka
+	BOKSO, N42.48.18.74, E142.27.54.65, 268, Bokso
+	RAKNO, N42.43.12.13, E142.28.37.78, 277, Rakno
+#	TOMAM, N43.08.20.50, E142.02.04.10, 0, Tomam
+#	ASIBE, N43.27.03.98, E142.17.00.93, 0, Asibe
+#	BEEBA, N43.21.06.67, E141.42.59.79, 0, Beeba
+#	SUIKA, N43.22.35.38, E141.43.03.96
+#	IBURI, N41.55.59.24, E141.28.10.71
+#	NONUT, N41.51.05.46, E141.26.47.74
+#	IDEMI, N41.53.17.31, E141.16.33.57
+#	KAMDO, N41.51.48.28, E141.15.35.61
+#	KOJYO, N41.57.29.30, E141.21.14.53
+#	ESANN, N42.03.21.67, E141.05.27.55
+#RWY01L
+#	BAMBI, N42.30.58.79, E141.44.08.67
+#	YUKII, N42.26.03.49, E141.45.03.88
+#RWY01R
+#	YOKOH, N42.26.10.61, E141.45.15.92
+#RWY019L
+	KAORY, N43.03.02.32, E141.44.06.66, 223, Kaory
+	YUNEY, N42.58.48.26, E141.47.42.83, 272, Yuney
+#RWY019R
+#	NACKS, N43.00.00.66, E141.39.02.51
+#RJCJ
+	ABIRA, N42.47.53, E141.57.54, 270, Abira
+	JOMMY, N42.48.58.01, E142.07.19.57, 270, Jommy
+	KOMAI, N42.25.40.04, E141.44.24.54
+	WAKSA, N42.59.31.01, E141.38.12.95
+
+line1 =
+	N44.01943, E141.64473
+	N43.91899, E141.60068
+	N43.74863, E141.44678
+	N43.64263, E141.39766
+	N43.51250, E141.39834
+	N43.38149, E141.41230
+	N43.27964, E141.37412
+	N43.19966, E141.29629
+	N43.18506, E141.24502
+	N43.17993, E141.13818
+	N43.20098, E140.95381
+	N43.20547, E140.81914
+	N43.21499, E140.78066
+	N43.31172, E140.58457
+	N43.33818, E140.48691
+	N43.30312, E140.39238
+	N43.23711, E140.37930
+	N43.16733, E140.39746
+	N43.04990, E140.48643
+	N42.95410, E140.43223
+	N42.86685, E140.32861
+	N42.79551, E140.22412
+	N42.73296, E140.11465
+	N42.68477, E140.01504
+	N42.67144, E139.95059
+	N42.64922, E139.89111
+	N42.58174, E139.86016
+	N42.44814, E139.82852
+	N42.38760, E139.82090
+	N42.27808, E139.83545
+	N42.19004, E139.89512
+
+line2 =
+	N41.80508, E141.15098
+	N41.84805, E141.10771
+	N41.97778, E140.91230
+	N42.11636, E140.73379
+	N42.12349, E140.68428
+	N42.11865, E140.57773
+	N42.13179, E140.52754
+	N42.20073, E140.41660
+	N42.29336, E140.32666
+	N42.33428, E140.31523
+	N42.37607, E140.32354
+	N42.43511, E140.35059
+	N42.48716, E140.38545
+	N42.55937, E140.48047
+	N42.56953, E140.54766
+	N42.57134, E140.61680
+	N42.55562, E140.70977
+	N42.50000, E140.78760
+	N42.35957, E140.94844
+	N42.34214, E140.98613
+	N42.54692, E141.40664
+	N42.57905, E141.85137
+	N42.47173, E142.08789
+	N42.25796, E142.50820
+	N42.11836, E142.90635
+	N42.02222, E143.11172
+	N42.00020, E143.23652
+	N42.03784, E143.27871
+
+line3 =
+	N43.80963, E142.88454
+	N43.87789, E142.72207
+	N43.89474, E142.63205
+	N43.88295, E142.56022
+	N43.84875, E142.48141
+	N43.79211, E142.39553
+	N43.73816, E142.25440
+	N43.64829, E141.94294
+	N43.62251, E141.90915
+	N43.56427, E141.88450
+	N43.42825, E141.86114
+	N43.32898, E141.70993
+	N43.25374, E141.64400
+	N43.16941, E141.61289
+	N43.12998, E141.56741
+	N43.13540, E141.50757
+	N43.16308, E141.44762
+	N43.23790, E141.35771
+
+boundary = 
+#1
+#	N43.14.03, E141.43.27
+#7
+#	N43.14.14, E141.37.08
+#20
+#	N43.27.14, E141.37.42
+#21
+	N43.33.05, E141.37.15
+#18
+	N43.38.18, E141.05.29
+#19
+	N43.10.09, E140.39.47
+#14
+	N42.48.29, E140.31.30
+#15
+	N42.26.54, E140.23.21
+#10 (R-220T)
+	N42.05.33, E141.01.52
+#45DME arc from #6 N42.40.08, E141.40.46
+#start
+#R-215T
+	N42.03.13, E141.06.02
+#R-210T
+	N42.01.07, E141.10.30
+#R-205T
+	N41.59.20, E141.15.12
+#R-200T
+	N41.57.51, E141.20.05
+#R-195T
+	N41.56.41, E141.25.07
+#R-190T
+	N41.55.50, E141.30.16
+#R-185T
+	N41.55.20, E141.35.30
+#R-180T
+	N41.55.10, E141.40.46
+#R-175T
+	N41.55.20, E141.46.02
+#R-170T
+	N41.55.50, E141.51.16
+#R-165T
+	N41.56.41, E141.56.25
+#R-160T
+	N41.57.51, E142.01.27
+#end
+#11 (R-158T)
+	N41.58.23, E142.03.31
+#12 (R-160T)
+	N41.51.05, E142.04.10
+#52DME arc from #6 N42.40.08, E141.40.46
+#start
+#R-155T
+	N41.52.58, E142.10.16
+#R-150T
+	N41.55.02, E142.15.41
+#R-145T
+	N41.57.27, E142.20.51
+#R-140T
+	N42.00.11, E142.25.43
+#R-135T
+	N42.03.13, E142.30.15
+#R-130T
+	N42.06.31, E142.34.25
+#R-125T
+	N42.10.05, E142.38.12
+#R-120T
+	N42.13.53, E142.41.33
+#R-115T
+	N42.17.53, E142.44.26
+#R-110T
+	N42.22.03, E142.46.52
+#R-105T
+	N42.26.21, E142.48.47
+#R-100T
+	N42.30.46, E142.50.12
+#R-095T
+	N42.35.15, E142.51.05
+#R-090T
+	N42.39.46, E142.51.26
+#R-085T
+	N42.44.18, E142.51.15
+#R-080T
+	N42.48.48, E142.50.32
+#R-075T
+	N42.53.15, E142.49.17
+#R-070T
+	N42.57.35, E142.47.30
+#4 (R-066)
+	N43.00.55, E142.45.35
+#R-060T
+	N43.05.50, E142.42.24
+#R-056T
+	N43.08.56, E142.39.49
+#end
+#5 (R-052)
+	N43.12.17, E142.36.27
+
+[airport1]
+name = New Chitose
+code = RJCC
+runways =
+	RJCCRWYA, 01L, N42.45.41.90, E141.41.34.17, 352.62, 9842.52, 0, 0, 98
+	RJCCRWYB, 01R, N42.45.43.15, E141.41.47.25, 352.62, 9842.52, 0, 0, 98
+
+climbaltitude = 3000
+
+sids = 
+	TOBBY, N41.55.07.29, E141.45.35.87, Tobby
+	ZALAR, N42.12.30.32, E140.49.24.56, Zalar
+	BISEI, N42.51.54.66, E142.55.43.63, Bisei
+#minor fixes
+	SIRAO, N41.57.57.98, E141.18.56.38, Sirao
+	TEKKO, N42.30.07.08, E141.04.31.00, Tekko
+	
+entrypoints = 
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	200, NAVER
+	86, BOKSO
+	94, RAKNO
+	5, KURIS
+
+airlines = 
+#!	ana, 500, b763/b772/b773/b788/b789, all neeppon, s
+#!	ana, 100, dh8d, all neeppon, e
+#!	ana, 80, dh8d, all neeppon, s
+#!	ana, 20, dh8d, all neeppon, n
+#!	ana, 10, b763, all neeppon, s
+#!	jal, 500, b763/b772/b773/b788/b789/a359, japan air, s
+#!	jal, 30, e170, japan air, e
+#!	jal, 60, e170, japan air, s
+#!	ado, 100, b737/b763, air do, s
+#!	sky, 80, b738, skymark, s
+#!	apj, 80, a320/a20n, air peach, s
+#!	jjp, 50, a320, orange liner, s
+#!	shu, 10, dh8c, aurora, n
+#!	xax, 10, a333, xanadu, s
+#!	cca, 10, b738/a333, air china, s
+#!	asv, 10, a321, air seoul, s
+#!	ibx, 10, crj7, ibex, s
+#!	aar, 10, a321/a333, asiana, s
+#!	cpa, 10, b773, cathay, s
+#!	cal, 10, b773, dynasty, s
+#!	ces, 10, a319/a320/a332, china eastern, s
+#!	csn, 10, a319/a320, china southern, s
+#!	esr, 10, b738, eastar jet, s
+#!	eva, 10, a321/a332, eva, s
+#!	fin, 1, a333, finn air, n
+#!	fda, 20, e75l, fuji dream, s
+#!	chh, 10, b738, hainan, s
+#!	hal, 10, a332, hawaiian, s
+#!	crk, 10, a333, bauhinia, s
+#!	jja, 10, b738, jeju air, s
+#!	jna, 10, b738, jin air, s
+#!	dkh, 10, a320/a20n/a321, air june yao, s
+#!	kal, 10, bcs3/b738/b772/b77w, korean air, s
+#!	mxd, 1, b738, malindo, s
+#!	oka, 10, b738, okay jet, s
+#!	pal, 10, a20n, philippine, s
+#!	qfa, 1, a332, qantas, s
+#!	tgw, 10, b788, scooter, s
+#!	cdg, 5, b738, shandong, s
+#!	csz, 5, a320/a20n/b738, shenzhen air, s
+#!	csc, 5, a320/a20n, sichuan, s
+#!	sia, 1, a333, singapore, s
+#!	cqh, 10, a320/a20n, air spring
+#!	sjo, 10, b738, jey spring, s
+#!	tax, 10, a333/a339, express wing, s
+#!	tha, 10, b744/b773, thai, s
+#!	gcr, 10, a320/a20n, bohai, s
+#!	twb, 10, b738, teeway, s
+#!	svr, 10, a320/a20n, sverdlovsk air, n
+#!	cxa, 10, b738, xiamen air, s
+#jcab
+#!	ckstr-11, 3, c25c, check star, s
+#ga
+#!	ja-123a, 2, c25m/c525/c25a/hdjt/glf4/glf5/glf6/lj35/lj60/glex/cl30/cl35, 0, nswe
+#!	ja-12ab, 2, c25m/c525/c25a/hdjt/glf4/glf5/glf6/lj35/lj60/glex/cl30/cl35, 0, nswe
+#!	ja-1234, 2, c25m/c525/c25a/hdjt/glf4/glf5/glf6/lj35/lj60/glex/cl30/cl35, 0, nswe
+
+#!expansionoutput1
+#!expansionoutputend
+
+[airport2]
+name = Chitose
+code = CJ
+runways =
+	RJCJRWYW, 36L, N42.786524, E141.666249, 352.62, 9840, 0, 0, 77
+	RJCJRWYE, 36R, N42.775213, E141.671951, 352.62, 9840, 0, 0, 76
+inboundbeacon = ZYT
+traffic = 10
+
+sids = 
+#ZYT R300 D50
+	C, N43.03.29, E140.36.34, Charlie
+#ZYT R150 D50
+	B, N42.01.59, E142.28.05, Bravo
+#ZYT R80 D50
+	A, N43.01.50, E142.45.03, Alpha
+	TOBBY, N41.55.07.29, E141.45.35.87, Tobby
+	
+entrypoints = 
+	200, NAVER
+	290, ZYT
+	290, ZYT
+	290, ZYT
+	290, ZYT
+	290, ZYT
+	71, ZYT
+	71, ZYT
+	71, ZYT
+	71, ZYT
+	71, ZYT
+	140, ZYT
+	140, ZYT
+	140, ZYT
+	140, ZYT
+	140, ZYT
+	
+
+airlines = 
+#!	jake-12, 1000, f15, jake, nwe
+#!	jake-12, 500, t4, jake, nwe
+#!	jake-12, 10, t4, jake, s
+#!	kaisr-12, 1000, f15, kaiser, nwe
+#!	kaisr-12, 500, t4, kaiser, nwe
+#!	kaisr-12, 10, t4, kaiser, s
+#!	cygns-1, 100, b77w, cygnus, s
+#!	jf-1, 1, b77w, japan force, s
+#!	tryer-1, 10, h25b, tryer, s
+#!	tarsel-12, 10, be9l, tarsel, s
+#!	neptn-12, 10, p1, neptune, nsw
+#!	cosmo-12, 50, kc2, cosmo, s
+#!	camel-12, 30, c130, camel, s
+#!	cupid-1, 10, lj35, cupid, s
+#!	ascot-1, 10, h25b, tryer, s
+#!	blcky-12, 10, p3, blacky, s
+#!	jcg-12, 100, b350, japan coast guard, nswe
+#!	jcg-12, 100, dh8c, japan coast guard, nswe
+#jcab
+#!	ckstr-11, 3, c25c, check star, s
+
+#!expansionoutput2
+#!expansionoutputend
+
+
+#[airport3]
+#name = Sapporo
+#code = CO
+#runways =
+#	rwy5, 14, N43.1206, E141.374, 135.0, 4920, 0, 0, 19
+#inboundbeacon = SP
+
+#R-138 
+[area1]
+shape = polygon
+altitude = 9001
+labelpos = N42.53.00, E141.28.00
+name = R-138
+points = 
+	N42.54.01, E141.27.07
+	N42.54.01, E141.27.33
+	N42.53.51, E141.28.13
+	N42.53.57, E141.29.15
+	N42.55.04, E141.32.29
+	N42.52.00, E141.32.01
+	N42.51.34, E141.30.59
+	N42.51.15, E141.29.27
+	N42.51.16, E141.26.13
+	N42.54.05, E141.25.52
+	N42.53.48, E141.26.36
+
+
+#CHITOSE CTR (RJCJ)
+[area2]
+shape = circle
+altitude = -1
+#altitude = 6001
+radius = 5
+position = N42.47.40, E141.39.59
+#labelpos = N42.50.40, E141.36.59
+#name = CJ
+
+#CHITOSE CTR (RJCJ)
+[area2]
+shape = circle
+altitude = 6001
+radius = 1
+position = N1, E1
+labelpos = N42.50.40, E141.36.59
+name = CJ
+
+#CHITOSE CTR (RJCC)
+[area3]
+shape = circle
+altitude = -1
+#altitude = 3001
+radius = 5
+position = N42.46.31, E141.41.33
+#labelpos = N42.43.31, E141.44.33
+#name = CC
+
+#CHITOSE CTR (RJCC)
+[area3]
+shape = circle
+altitude = 3001
+radius = 1
+position = N1, E1
+labelpos = N42.43.31, E141.44.33
+name = CC
+
+#CHITOSE PCA NORTH 8000/1000
+[area4]
+shape = polygon
+altitude = -1
+#altitude = 8001
+#labelpos = N43.0, E141.38.00
+#name = CC/CJ
+points = 
+	N42.56.35, E141.35.58
+	N42.57.08, E141.42.18
+	N43.03.51, E141.41.07
+	N43.03.25, E141.34.59
+
+#CHITOSE PCA NORTH 8000/1000
+[area4]
+shape = polygon
+altitude = 8001
+labelpos = N43.0, E141.38.00
+name = CC/CJ
+points = 
+	N1.0, E1.0
+	N2.0, E2.0
+
+#CHITOSE PCA 6000/3000 + 2000/700
+[area5]
+shape = polygon
+altitude = -1
+#altitude = 6001
+#labelpos = N42.38.30, E141.40.30
+#name = CC/CJ
+points = 
+	N42.56.35, E141.35.58
+	N42.57.08, E141.42.18
+	N42.35.19, E141.46.09
+	N42.34.42, E141.39.06
+
+#CHITOSE PCA 6000/3000 + 2000/700
+[area5]
+shape = polygon
+altitude = 6001
+labelpos = N42.54.30, E141.40.30
+name = CC/CJ
+points = 
+	N1.0, E1.0
+	N2.0, E2.0
+
+#CHITOSE PCA 6000/3000 + 2000/700
+[area5]
+shape = polygon
+altitude = 6001
+labelpos = N42.37.30, E141.40.30
+name = CC/CJ
+points = 
+	N1.0, E1.0
+	N2.0, E2.0
+
+#CHITOSE PCA EAST 8000/3000 + 2000/1500
+[area6]
+shape = polygon
+altitude = -1
+#altitude = 8001
+#labelpos = N42.46.00, E141.47.00
+#name = CC/CJ
+points = 
+	N42.57.08, E141.42.18
+	N43.03.51, E141.41.07
+	N43.02.57, E141.48.10
+	N42.30.48, E141.53.47
+	N42.28.36, E141.47.19
+	N42.35.19, E141.46.09
+
+#CHITOSE PCA EAST 8000/3000 + 2000/1500
+[area6]
+shape = polygon
+altitude = 8001
+labelpos = N42.46.00, E141.47.00
+name = CC/CJ
+points = 
+	N1.0, E1.0
+	N2.0, E2.0
+
+#CHITOSE PCA SOUTH 8000/1000
+[area7]
+shape = polygon
+altitude = -1
+#altitude = 8001
+#labelpos = N42.31.00, E141.43.00
+#name = CC/CJ
+points = 
+	N42.28.36, E141.47.19
+	N42.27.52, E141.40.05
+	N42.34.42, E141.39.06
+	N42.35.19, E141.46.09
+
+#CHITOSE PCA SOUTH 8000/1000
+[area7]
+shape = polygon
+altitude = 8001
+labelpos = N42.31.00, E141.43.00
+name = CC/CJ
+points = 
+	N1.0, E1.0
+	N2.0, E2.0
+
+#CHITOSE PCA EAST 8000/4000
+[area8]
+shape = polygon
+altitude = -1
+#altitude = 8001
+#labelpos = N42.45.00, E141.53.47
+#name = CC/CJ
+points = 
+#Southeast (ZYT R147T)
+	N42.30.48, E141.53.47
+#Northeast (ZYT R018T)
+	N43.02.57, E141.48.10
+#ZYT 18DME ARC CW
+#ZYT, N42.45.52, E141.40.25
+#R028T
+	N43.01.44, E141.51.58
+#R038T
+	N43.00.01, E141.55.34
+#N048T
+	N42.57.53, E141.58.41
+#R058T
+	N42.55.22, E142.01.15
+#R068T
+	N42.52.34, E142.03.11
+#R078T
+	N42.49.34, E142.04.24
+#R088T
+	N42.46.27, E142.04.54
+#R098T
+	N42.43.19, E142.04.40
+#R108T
+	N42.40.16, E142.03.41
+#R118T
+	N42.37.23, E142.02.00
+#R128T
+	N42.34.46, E141.59.40
+#R138T
+	N42.32.29, E141.56.45
+
+#CHITOSE PCA EAST 8000/4000
+[area8]
+shape = polygon
+altitude = 8001
+labelpos = N42.45.00, E141.53.47
+name = CC/CJ
+points = 
+	N1.0, E1.0
+	N2.0, E2.0
+
+#SAPPORO ACA 8000/SFC (and CHITOSE ACA extension)
+[area]
+shape = polygon
+altitude = 8001
+name = CO
+labelpos = N43.20.00, E141.43.27
+points = 
+#1
+	N43.14.03, E141.43.27
+#8
+	N43.10.55, E141.36.59
+#7
+	N43.14.14, E141.37.08
+#20
+	N43.27.14, E141.37.42
+#21
+	N43.33.05, E141.37.15
+#5
+	N43.12.17, E142.36.27
+
+#SAPPORO ACA 11000/SFC
+[area]
+shape = polygon
+altitude = 11001
+name = CO
+labelpos = N43.10.09, E140.48.24
+points = 
+#2 (074T from RJCO)
+	N43.09.11, E141.33.25
+#8
+	N43.10.55, E141.36.59
+#7
+	N43.14.14, E141.37.08
+#20
+	N43.27.14, E141.37.42
+#21
+	N43.33.05, E141.37.15
+#18
+	N43.38.18, E141.05.29
+#19
+	N43.10.09, E140.39.47
+#14
+	N42.48.29, E140.31.30
+#13
+	N42.49.36, E140.48.24
+#17
+	N42.47.39, E141.16.16
+#9 (194T from RJCO)
+	N42.59.16, E141.20.18
+#RJCO 8NM CCW
+#180T
+	N42.59.03, E141.22.53
+#170T
+	N42.59.11, E141.24.47
+#160T
+	N42.59.32, E141.26.37
+#150T
+	N43.00.07, E141.28.21
+#140T
+	N43.00.55, E141.29.55
+#130T
+	N43.01.54, E141.31.16
+#3 (118T from RJCO)
+	N43.03.21, E141.32.34
+#106T
+	N43.04.50, E141.33.24
+#096T
+	N43.06.12, E141.33.46
+#086T
+	N43.07.36, E141.33.49
+
+#HAKODATE ACA 13000/SFC
+[area]
+shape = polygon
+altitude = 13001
+name = CH
+labelpos = N42.26.45, E140.48.24
+points = 
+#HWE
+#	N41.46.26.51, E140.49.55.98
+#15 (334T from HWE)
+	N42.26.54, E140.23.21
+#10
+	N42.05.33, E141.01.52
+#16 (19T from HWE)
+	N42.28.58, E141.09.50
+#HWE 45DME ARC CCW
+#007T
+	N42.31.04, E140.57.22
+#357T
+	N42.31.21, E140.46.44
+#347T
+	N42.30.15, E140.36.13
+
+[approach1]
+runway = RJCCRWYB
+beacon = YODAI, N42.36.58.24, E141.43.19.81, 0, YODAI
+route1 = 
+	2
+#YOTEI =3000
+	N42.31.00.02, E141.44.21.48, 3000, 200
+	14.8, 3000, 200
+#YODAI =3000
+
+
+[approach2]
+runway = RJCCRWYB
+beacon = YOSEI, N42.39.57.33, E141.42.48.27, 0, YOSEI
+route1 = 
+	2
+#YOTEI =2000
+	N42.31.00.02, E141.44.21.48, 2000, 200
+	14.8, 2000, 200
+#YOSEI =2000
+
+
+[approach3]
+runway = RJCCRWYB
+beacon = NAVER
+route1 = 
+	32
+#NAVER
+	N42.07.44.19, E141.31.28.91
+#YOTEI
+	14.8, 3000, 200
+
+
+[approach4]
+runway = RJCCRWYB
+beacon = KURIS
+route1 = 
+	172
+#KURIS
+	N43.09.18.82, E141.42.21.62
+#GUFFI
+	N42.49.17.45, E141.50.43.48
+#YOSHA
+	N42.35.15.29, E141.52.04.35
+#HOKKI
+	N42.31.45.68, E141.52.24.40
+#YOTEI
+	14.8, 3000, 200
+
+
+[approach5]
+runway = RJCCRWYB
+beacon = GUFFI
+route1 = 
+	172
+#GUFFI
+	N42.49.17.45, E141.50.43.48
+#YOSHA
+	N42.35.15.29, E141.52.04.35
+#HOKKI
+	N42.31.45.68, E141.52.24.40
+#YOTEI
+	14.8, 3000, 200
+
+
+[approach6]
+runway = RJCCRWYB
+beacon = YOSHA
+route1 = 
+	185
+#YOSHA
+	N42.35.15.29, E141.52.04.35
+#HOKKI
+	N42.31.45.68, E141.52.24.40
+#YOTEI
+	14.8, 3000, 200
+
+
+[approach7]
+runway = RJCCRWYB
+beacon = HOKKI, N42.31.45.68, E141.52.24.40
+route1 = 
+	172
+#HOKKI
+	N42.31.45.68, E141.52.24.40
+#YOTEI
+	14.8, 3000, 200
+
+
+[approach]
+runway = RJCCRWYB
+beacon = MKE
+route1 = 
+	180
+#MKE
+	N42.33.18.02, E141.57.20.27
+#MKE R180 D8
+	N42.25.24, E141.59.02
+#turn to HDG 270 (MKE R180 D10)
+	N42.23.26, E141.59.27
+#until MKE R218 (270 from previous point to intercept)
+	N42.22.12, E141.49.01
+#then inbound 002 to ICH
+	N42.21.49, E141.45.45
+#YOTEI
+	14.8, 3000, 200
+
+
+[approach8]
+runway = RJCCRWYB, rev
+beacon = PUNCH, N42.58.01.74, E141.39.36.56, 182, Punch
+route1 = 
+	272
+#YUNEY >4000
+	N42.58.48.26, E141.47.42.83
+#PUNCH >2000
+	10.8, 2000, 200
+
+route2 = 
+	223
+#KAORY >3000
+	N43.03.02.32, E141.44.06.66
+#PUNCH >2000
+	10.8, 2000, 200
+
+route3 = 
+	182
+#BANSU >2000
+	N43.03.58.77, E141.38.32.73
+#PUNCH >2000
+	10.8, 2000, 200
+
+route4 = 
+	92
+#ASIRI >3000
+	N42.57.14.65, E141.31.30.49
+#PUNCH >2000
+	10.8, 2000, 200
+
+
+[approach9]
+runway = RJCCRWYB, rev
+beacon = NESIC, N42.53.03.52, E141.40.29.62, 0, NESIC
+route1 = 
+	182
+#PUNCH >2000
+	N42.58.01.74, E141.39.36.56
+	10, 2000, 200
+
+
+[approach10]
+runway = RJCCRWYB, rev
+beacon = NAVER
+route1 = 
+	38
+#NAVER
+	N42.07.44.19, E141.31.28.91
+#URESY
+	N42.29.33.17, E141.47.46.62
+#YOSHA
+	N42.35.15.29, E141.52.04.35
+#GUFFI
+	N42.49.17.45, E141.50.43.48
+#YUNEY >4000
+	N42.58.48.26, E141.47.42.83
+#PUNCH >2000
+	10.8, 2000, 200
+
+
+[approach11]
+runway = RJCCRWYB, rev
+beacon = URESY, N42.29.33.17, E141.47.46.62
+route1 = 
+	38
+#URESY
+	N42.29.33.17, E141.47.46.62
+#YOSHA
+	N42.35.15.29, E141.52.04.35
+#GUFFI
+	N42.49.17.45, E141.50.43.48
+#YUNEY >4000
+	N42.58.48.26, E141.47.42.83
+#PUNCH >2000
+	10.8, 2000, 200
+
+
+[approach12]
+runway = RJCCRWYB, rev
+beacon = YOSHA
+route1 = 
+	38
+#YOSHA
+	N42.35.15.29, E141.52.04.35
+#GUFFI
+	N42.49.17.45, E141.50.43.48
+#YUNEY >4000
+	N42.58.48.26, E141.47.42.83
+#PUNCH >2000
+	10.8, 2000, 200
+
+
+[approach13]
+runway = RJCCRWYB, rev
+beacon = GUFFI
+route1 = 
+	5
+#GUFFI
+	N42.49.17.45, E141.50.43.48
+#YUNEY >4000
+	N42.58.48.26, E141.47.42.83
+#PUNCH >2000
+	10.8, 2000, 200
+
+
+[approach13]
+runway = RJCCRWYB, rev
+beacon = YUNEY
+route1 = 
+	272
+#YUNEY >4000
+	N42.58.48.26, E141.47.42.83
+#PUNCH >2000
+	10.8, 2000, 200
+
+
+[approach14]
+runway = RJCCRWYB, rev
+beacon = KURIS
+route1 = 
+	178
+#KURIS
+	N43.09.18.82, E141.42.21.62
+#KAORY >3000
+	N43.03.02.32, E141.44.06.66
+#PUNCH >2000
+	10.8, 2000, 200
+
+
+[approach14]
+runway = RJCCRWYB, rev
+beacon = KAORY
+route1 = 
+	223
+#KAORY >3000
+	N43.03.02.32, E141.44.06.66
+#PUNCH >2000
+	10.8, 2000, 200
+
+
+#TACAN NR.1 ILS RWY 36R
+[approach]
+runway = RJCJRWYE
+beacon = JOMMY
+route1 = 
+	270
+#JOMMY +FL140
+	N42.48.58.01, E142.07.19.57
+#ZYT R090 D16
+	N42.48.20, E142.01.57
+#ZYT D16 ARC CW
+#R100
+	N42.45.33, E142.02.11
+#R110
+	N42.42.47, E142.01.47
+#R120
+	N42.40.06, E142.00.43
+#R130
+	N42.37.36, E141.59.03
+#R140
+	N42.35.21, E141.56.48
+#R150
+	N42.33.26, E141.54.05
+#ZYT R157 D16 =5000
+	N42.32.18, E141.51.55, 5000
+#R170
+	N42.30.45, E141.47.29
+#ZYT R182 D16 =3000
+	N42.30.00, E141.43.04, 3000
+#ICB ZYT D11 =1500
+	11.6, 1500, 200
+
+
+#TACAN NR.5 ILS RWY 36R
+[approach]
+runway = RJCJRWYE
+beacon = ABIRA
+route1 = 
+	270
+#ABIRA =6000
+	N42.47.53, E141.57.54
+#ZYT D13 ARC CW
+#R100
+	N42.45.37, E141.58.07
+#R110
+	N42.43.22, E141.57.47
+#R120
+	N42.41.11, E141.56.55
+#R130
+	N42.39.10, E141.55.33
+#R140
+	N42.37.20, E141.53.44
+#R150
+	N42.35.46, E141.51.31
+#R160
+	N42.34.30, E141.48.58
+#R170
+	N42.33.35, E141.46.10
+#ZYT R182 D13 =2000
+	N42.32.58, E141.42.34, 2000
+#ICB ZYT D11 =1500
+	11.6, 1500, 200
+
+
+#KOMAIW 36R
+[approach]
+runway = RJCJRWYE
+beacon = NAVER
+route1 = 
+	21
+#NAVER
+	N42.07.44.19, E141.31.28.91
+#CHE R201 @ MKE R241
+	N42.20.20, E141.34.56
+#KOMAI +3000
+	N42.25.40.04, E141.44.24.54
+#CHE +1200
+	4.57, 1200, 160
+
+
+#KOMAIE 36R
+[approach]
+runway = RJCJRWYE
+beacon = MKE
+route1 = 
+	180
+#MKE
+	N42.33.18.02, E141.57.20.27
+#MKE R180 D8
+	N42.25.24, E141.59.02
+#turn to HDG 270 (MKE R180 D10)
+	N42.23.26, E141.59.27
+#until MKE R221
+	N42.22.04, E141.47.50
+#then inbound CHE R181
+#	N42.41.59.65, E141.41.10.20 (CHE)
+	N42.21.44, E141.45.01
+#KOMAI +3000
+	N42.25.40.04, E141.44.24.54
+#CHE +1200
+	4.57, 1200, 160
+
+
+#VOR NR.2 RWY 36R
+[approach]
+runway = RJCJRWYE
+beacon = KOMAI
+route1 = 
+	1
+#KOMAI +3000
+	N42.25.40.04, E141.44.24.54
+#CHE +1200
+	4.57, 1200, 160
+
+
+#TACAN NR.3 RWY 18L
+[approach]
+runway = RJCJRWYE, rev
+beacon = JOMMY
+route1 = 
+	270
+#JOMMY +FL140
+	N42.48.58.01, E142.07.19.57
+#ZYT R090 D16
+	N42.48.20, E142.01.57
+#ZYT D16 ARC CCW
+#R080
+	N42.51.02, E142.01.02
+#R070
+	N42.53.36, E141.59.30
+#R060
+	N42.55.54, E141.57.23
+#R050
+	N42.57.55, E141.54.45
+#R035 -6000 +4000
+	N43.00.14, E141.50.00
+#R025
+	N43.01.14, E141.46.27
+#R015
+	N43.01.46, E141.42.42
+#ZYT R002 D16 =3000
+	N43.01.44, E141.37.45, 3000
+#ZYT D9 =1500
+	6.7, 1500, 200
+
+
+#TACAN NR.4 RWY 18L
+[approach]
+runway = RJCJRWYE, rev
+beacon = ABIRA
+route1 = 
+	270
+#ABIRA =6000
+	N42.47.53, E141.57.54
+#ZYT D13 ARC CCW
+#R080
+	N42.50.05, E141.57.10
+#R070
+	N42.52.09, E141.55.55
+#R060
+	N42.54.02, E141.54.12
+#R050
+	N42.55.40, E141.52.03
+#R040
+	N42.57.00, E141.49.33
+#R030
+	N42.58.00, E141.46.47
+#R020
+	N42.58.37, E141.43.48
+#R010
+	N42.58.51, E141.40.44
+#ZYT R002 D13 =2000
+	N42.58.46, E141.38.15, 2000
+#ZYT D9 =1500
+	6.7, 1500, 200
+
+
+#VOR/DME NR.2 RWY 18L
+[approach]
+runway = RJCJRWYE, rev
+beacon = WAKSA
+route1 = 
+	182
+#WAKSA +3000
+	N42.59.31.01, E141.38.12.95
+#CHE 12DME +1200
+	5.8, 1200, 160
+
+
+#WAKSAA 18L
+[approach]
+runway = RJCJRWYE, rev
+beacon = NAVER
+route1 = 
+	46
+#NAVER
+	N42.07.44.19, E141.31.28.91
+#FUJIM +13000
+	N42.24.22.60, E141.48.15.63
+#MKE
+	N42.33.18.02, E141.57.20.27
+#C9R52 +12000
+	N42.46.08.6, E141.54.32.5
+#C9R53
+	N42.53.51.4, E141.52.51.2
+#C9R54 -7000
+	N42.57.59.9, E141.51.56.7
+#C9R55 +5000
+	N43.06.34.7, E141.50.03.3
+#WAKSA +3000
+	N42.59.31.01, E141.38.12.95
+#CHE 12DME +1200
+	5.8, 1200, 160
+
+
+#WAKSAB 18L
+[approach]
+runway = RJCJRWYE, rev
+beacon = CHE
+route1 = 
+	46
+#CHE
+	N42.41.59.65, E141.41.10.20
+#C9R53
+	N42.53.51.4, E141.52.51.2
+#C9R54 -7000
+	N42.57.59.9, E141.51.56.7
+#C9R55 +5000
+	N43.06.34.7, E141.50.03.3
+#WAKSA +3000
+	N42.59.31.01, E141.38.12.95
+#CHE 12DME +1200
+	5.8, 1200, 160
+
+
+[approach]
+runway = RJCJRWYE, rev
+beacon = FUJIM
+route1 = 
+	46
+#FUJIM +13000
+	N42.24.22.60, E141.48.15.63
+#MKE
+	N42.33.18.02, E141.57.20.27
+#C9R52 +12000
+	N42.46.08.6, E141.54.32.5
+#C9R53
+	N42.53.51.4, E141.52.51.2
+#C9R54 -7000
+	N42.57.59.9, E141.51.56.7
+#C9R55 +5000
+	N43.06.34.7, E141.50.03.3
+#WAKSA +3000
+	N42.59.31.01, E141.38.12.95
+#CHE 12DME +1200
+	5.8, 1200, 160
+
+
+[approach]
+runway = RJCJRWYE, rev
+beacon = MKE
+route1 = 
+	46
+#MKE
+	N42.33.18.02, E141.57.20.27
+#C9R52 +12000
+	N42.46.08.6, E141.54.32.5
+#C9R53
+	N42.53.51.4, E141.52.51.2
+#C9R54 -7000
+	N42.57.59.9, E141.51.56.7
+#C9R55 +5000
+	N43.06.34.7, E141.50.03.3
+#WAKSA +3000
+	N42.59.31.01, E141.38.12.95
+#CHE 12DME +1200
+	5.8, 1200, 160
+	
+
+
+[departure1]
+runway = RJCCRWYA
+
+#!sid5x
+route1 = 
+	DALBI1, Dalbi One
+#CC01T
+	N42.51.43.3, E141.41.46.6
+#CC02T
+	N42.52.19.6, E141.48.09.7
+#CC03T +3000
+	N42.48.19.6, E141.48.51.5
+#KUGIE
+	N42.29.12.89, E141.30.24.02
+#POWAN +FL150
+	N42.20.08.95, E141.08.02.48
+#ZALAR
+	N42.12.30.32, E140.49.24.56
+#DALBI
+
+#!sid20x
+route2 = 
+	JUGGL1, Jugglar One
+#CC01T
+	N42.51.43.3, E141.41.46.6
+#CC02T
+	N42.52.19.6, E141.48.09.7
+#CC03T +3000
+	N42.48.19.6, E141.48.51.5
+#CC04T +6000
+	N42.39.05.4, E141.48.17.0
+#CC05T +7000
+	N42.32.09.9, E141.47.51.3
+#TOBBY
+	N41.55.07.29, E141.45.35.87
+
+route3 = 
+	PATRU1, Patrush One
+#CC01N
+	N42.50.47.9, E141.40.53.6
+#CC02N
+	N42.52.47.8, E141.44.00.6
+#CC03N +3000
+	N42.56.43.4, E141.45.02.8
+#CC01H
+	N43.00.30.7, E141.46.02.9
+#KURIS
+	N43.09.18.82, E141.42.21.62
+
+route4 = 
+	TOKAC2, Tokachi Two
+#CHE R097 D12 -5000
+	N42.42.24, E141.57.29
+#CHE R097 D22 +9000 -11000
+	N42.42.42, E142.11.04
+#RAKNO
+	N42.43.12.13, E142.28.37.78
+#OBE
+	N42.44.02.27, E143.13.13.63
+
+route5 = 
+	TOKAC2, Tokachi Two
+#CHE R088 D12 -5000
+	N42.44.16, E141.57.12
+#CHE R088 D22 +9000 -11000
+	N42.46.08, E142.10.34
+#BOKSO
+	N42.48.18.74, E142.27.54.65
+#BISEI
+	N42.51.54.66, E142.55.43.63
+
+[departure2]
+runway = RJCCRWYA, rev
+
+#!sid5x
+route1 = 
+	DALBI1, Dalbi One
+#NEJIE
+	N42.34.34.17, E141.43.44.61
+#POWAN +FL150
+	N42.20.08.95, E141.08.02.48
+#ZALAR
+	N42.12.30.32, E140.49.24.56
+#DALBI
+
+#!sid20x
+route2 = 
+	JUGGL1, Jugglar One
+#CC06T
+	N42.37.32.8, E141.43.13.3
+#CC07T -11000
+	N42.15.06.6, E141.44.28.7
+#TOBBY
+	N41.55.07.29, E141.45.35.87
+
+route3 = 
+	PATRU1, Patrush One
+#CC01Y
+	N42.41.13.9, E141.42.35.7
+#CC02Y +3000
+	N42.39.03.3, E141.46.39.1
+#CC02H
+	N42.39.59.6, E141.50.47.8
+#CC03H +5000
+	N42.45.44.0, E141.52.12.1
+#KURIS
+	N43.09.18.82, E141.42.21.62
+
+route4 = 
+	TOKAC2, Tokachi Two
+#CHE R097 D12 -5000
+	N42.42.24, E141.57.29
+#CHE R097 D22 +9000 -11000
+	N42.42.42, E142.11.04
+#RAKNO
+	N42.43.12.13, E142.28.37.78
+#OBE
+	N42.44.02.27, E143.13.13.63
+
+route5 = 
+	TOKAC2, Tokachi Two
+#CHE R088 D12 -5000
+	N42.44.16, E141.57.12
+#CHE R088 D22 +9000 -11000
+	N42.46.08, E142.10.34
+#BOKSO
+	N42.48.18.74, E142.27.54.65
+#BISEI
+	N42.51.54.66, E142.55.43.63
+
+
+
+[configurations]
+#North wind operation
+#RJCC landing 01R, departing 01L
+#RJCJ landing 36L/36R, departing 36R
+config1 = 
+	0, RJCCRWYA, start
+	0, RJCCRWYB, land
+	0, RJCJRWYW, land, 300, nosid
+	0, RJCJRWYE, landstart, 330, nosid
+
+#South wind operation
+#RJCC landing 19L, departing 19R
+#RJCJ landing 18L/18R, departing 18L
+config2 = 
+	0, RJCCRWYA, startrev
+	0, RJCCRWYB, landrev
+	0, RJCJRWYW, landrev, 240, nosid
+	0, RJCJRWYE, landstartrev, 210, nosid
+
+#North wind operation (IMC)
+#RJCC landing 01R, departing 01L
+#RJCJ landing 36R, departing 36R
+config3 = 
+	0, RJCCRWYA, start
+	0, RJCCRWYB, land
+	0, RJCJRWYW, land, 300, nosid
+	0, RJCJRWYE, landstart, 330, nosid
+
+#South wind operation (IMC)
+#RJCC landing 19L, departing 19R
+#RJCJ landing 18L, departing 18L
+config4 = 
+	0, RJCCRWYA, startrev
+	0, RJCCRWYB, landrev
+	0, RJCJRWYW, landrev, 240, nosid
+	0, RJCJRWYE, landstartrev, 210, nosid
+
+
+
+[planetypes]
+types = 
+	hdjt, 6, 140, 250, 2.8, 3.2, 1500, 1800, 115, 125, 1.3, 1.5, honda jet
+	be9l, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
+	b350, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
+	h25b, 6, 150, 250, 2.8, 3.2, 1400, 1600, 110, 120, 1.2, 1.3, hawker
+	p1, 4, 160, 250, 2.8, 3.2, 1500, 1700, 130, 144, 1.3, 1.5, kawasaki
+	p3, 5, 160, 250, 2.8, 3.2, 1400, 1600, 120, 140, 1.2, 1.4, orion
+	ys11, 5, 160, 250, 2.8, 3.2, 1400, 1600, 110, 130, 1.2, 1.4, namc
+	kc2, 4, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, kawasaki
+	c130, 4, 140, 250, 2.8, 3.2, 1400, 1700, 110, 140, 1.3, 1.5, hercules
+	f15, 6, 170, 300, 3.2, 5.0, 2000, 4000, 135, 155, 1.8, 2.3, eagle
+	t4, 6, 150, 280, 3.0, 4.0, 2000, 3000, 115, 125, 1.5, 1.8, kawasaki
