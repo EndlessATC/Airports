@@ -29,8 +29,11 @@ def main(args):
 		for file in glob.glob(path, recursive=True):
 			print(f'Found {file}')
 			if args.build:
+				if not args.legacy:
+					renumber.main(args, file)
 				file = expand.main(args, file)
-				renumber.main(args, file)
+				if args.legacy:
+					renumber.main(args, file)
 			if args.deploy:
 				result = shutil.copy(file, destination)
 				print(f"Copied {file} to {result}")
@@ -49,5 +52,6 @@ if __name__ == "__main__":
 		This default can be overridden by a 'path = ' entry under a [deploy] section in an eatcdev.ini.''')
 	parser.add_argument('-n', '--no-build', action='store_false', dest='build', help='Specify to skip build, and just copy sources to output folder.')
 	parser.add_argument('-b', '--build-only', action='store_false', dest='deploy', help="Specify this option to skip copying output of build processes to destination folder.")
+	parser.add_argument('-l', '--legacy', action="store_true", help="Use legacy processing method.")
 
 	main(parser.parse_args())

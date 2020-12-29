@@ -17,7 +17,7 @@ def process_fix_list(l, fixes):
 
 def process_repeatable_fix_list(l, fixes):
 	if l[0].startswith('*'):
-		result = process_fix_list(l[1:], fixes)
+		result = list(process_fix_list(l[1:], fixes))
 		for i in range(int(l[0].removeprefix('*'))):
 			yield result
 	else:
@@ -25,11 +25,16 @@ def process_repeatable_fix_list(l, fixes):
 
 def process_airlines_list(l):
 	for airline in l:
-		n, r = divmod(airline.frequency, 10)
+		n, r = divmod(int(airline.frequency), 10)
 		for i in range(n):
 			yield f"{airline.callsign}, 10, {airline.types}, {airline.pronunciation}, {airline.directions}"
 		if r:
 			yield f"{airline.callsign}, {r}, {airline.types}, {airline.pronunciation}, {airline.directions}"
+
+def enumerate_routes(l, start=1):
+	for route in l:
+		yield f"route{start}", route
+		start += 1
 
 def main(args, input_file=None):
 	
@@ -43,14 +48,17 @@ def main(args, input_file=None):
 	if not 'legacy' in args or not args.legacy:
 		config = configparser.ConfigParser()
 		config.read(input_file)
-		for section in config:
-			print(section)
 
 		header = None
 		if 'meta' in config and 'header' in config['meta']:
 			header = ["# " + line for line in config['meta']['header'].splitlines()]
-			header.append("")
-			header.append("")
+			header.extend([
+				"", 
+				f"# This file is generated from the source file {os.path.relpath(input_file, os.path.dirname(output_file))} using expand.py.",
+				"# All comments have been stripped, and edits are not made directly to this file.",
+				"# If you would like to contribute, or see the author's comments, please refer to the source file.", 
+				"", 
+				""])
 			header = "\n".join(header)
 			del config['meta']
 
@@ -62,7 +70,7 @@ def main(args, input_file=None):
 
 		for airport_data in airports.values():
 			if 'airlines' in airport_data:
-				airlines = [Airline(value.strip() for value in airline.split(",")) for airline in airport_data['airlines'].splitlines()]
+				airlines = [Airline(*(value.strip() for value in airline.split(","))) for airline in airport_data['airlines'].splitlines() if airline]
 				airport_data['airlines'] = "\n".join(process_airlines_list(airlines))
 
 		approaches = {section: config[section] for section in config if section.startswith('approach') or section.startswith('transition')}
@@ -76,8 +84,8 @@ def main(args, input_file=None):
 			routes = {option.removeprefix('route'): departure_data[option] for option in departure_data if option.startswith('route')}
 			processed_routes = []
 			for route_index in sorted(routes):
-				processed_routes.extend("\n".join(route) for route in process_route_list(routes[route_index].splitlines(), fixes))
-			departure_data.update(processed_routes)
+				processed_routes.extend("\n".join(route) for route in process_repeatable_fix_list(routes[route_index].splitlines(), fixes))
+			departure_data.update(enumerate_routes(processed_routes, start=1))
 
 		with open(output_file, 'w', newline='') as airport_file:
 			airport_file.write(header)
@@ -148,8 +156,16 @@ def main(args, input_file=None):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description='''Expands certain commands to allow for concise Endless ATC airport source files. 
-
-		#!expansionoutput<airport_id> can be inserted on its own line in a source file terminated by 
+		\n\n
+		in [airspace] boundary=, or the route= of an [approach/departure/transition], specify !<name> instead of lat, lon 
+		to substitute the lat, lon from the fix with the corresponding name in [airspace] beacons=.
+		\n\n
+		in [airport] airlines=, definitions with frequency >10 with be broken down into multiple definitions of frequency 10 or less.
+		\n\n
+		*n as the first line of a [departure] route= value will repeat that route n times.''')
+	parser.add_argument('input_file')
+	parser.add_argument('output_file', nargs='?')
+	parser.add_argument('-l', '--legacy', action="store_true", help='''Use legacy processing method. #!expansionoutput<airport_id> can be inserted on its own line in a source file terminated by 
 		#!expansionoutputend on a following line. This block, which should remain empty, will be used
 		to write the result of expanding any airline definitions in a #! comment. Any #! definitions
 		with frequency greater are split into entries with max 10 frequency each.
@@ -157,8 +173,5 @@ if __name__ == "__main__":
 		#!sid<n>x can be inserted before any "routex =" declaration in a [departure] section to repeat the
 		route <n> times. This can be used to adjust the distribution of traffic on each SID. Note the
 		numbering of each "route" will not be adjusted. See renumber.py for such operation.''')
-	parser.add_argument('input_file')
-	parser.add_argument('output_file', nargs='?')
-	parser.add_argument('-l', '--legacy', action="store_true")
 
 	main(parser.parse_args())
