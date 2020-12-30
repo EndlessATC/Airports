@@ -13,7 +13,7 @@ Airline = namedtuple("Airline", ['callsign', 'frequency', 'types', 'pronunciatio
 
 
 def process_fix_list(fix_list, fixes):
-    """Substitute any "!<name>[, <extra_data>]" in `fix_list` with 
+    """Substitute any "!<name>[, <extra_data>]" in `fix_list` with
     "lat, lon[, <extra_data>]" based on `fixes`.
 
     Args:
@@ -28,7 +28,7 @@ def process_fix_list(fix_list, fixes):
 
 
 def process_repeatable_fix_list(fix_list, fixes):
-    """`process_fix_list()` but if the first item in `fix_list` is "*n", 
+    """`process_fix_list()` but if the first item in `fix_list` is "*n",
     return the result n times."""
     if fix_list[0].startswith('*'):
         result = list(process_fix_list(fix_list[1:], fixes))
@@ -203,10 +203,11 @@ def process(args, input_file=None):
             airport_file.writelines(result['output'])
     return output_file
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='''Expands certain commands to allow for concise Endless ATC airport source files.
         \n\n
-        in [airspace] boundary=, or the route= of an [approach/departure/transition], specify !<name> instead of lat, lon 
+        in [airspace] boundary=, or the route= of an [approach/departure/transition], specify !<name> instead of lat, lon
         to substitute the lat, lon from the fix with the corresponding name in [airspace] beacons=.
         \n\n
         in [airport] airlines=, definitions with frequency >10 with be broken down into multiple definitions of frequency 10 or less.
@@ -214,7 +215,7 @@ if __name__ == "__main__":
         *n as the first line of a [departure] route= value will repeat that route n times.''')
     parser.add_argument('input_file')
     parser.add_argument('output_file', nargs='?')
-    parser.add_argument('-l', '--legacy', action="store_true", 
+    parser.add_argument('-l', '--legacy', action="store_true",
         help='''Use legacy processing method. Don't use for new projects.
         \n\n
         #!expansionoutput<airport_id> can be inserted on its own line in a source file terminated by
@@ -226,4 +227,4 @@ if __name__ == "__main__":
         route <n> times. This can be used to adjust the distribution of traffic on each SID. Note the
         numbering of each "route" will not be adjusted. See renumber.py for such operation.''')
 
-    main(parser.parse_args())
+    process(parser.parse_args())
