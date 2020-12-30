@@ -1,14 +1,24 @@
 import argparse
-import collections
+from collections import namedtuple
 import configparser
 import os
 import re
 
-Fix = collections.namedtuple("Point", ['name', 'lat', 'lon', 'heading', 'pronunciation'])
-Airline = collections.namedtuple("Airline", ['callsign', 'frequency', 'types', 'pronunciation', 'directions'])
+"""Endless ATC custom airport file build utility."""
+
+Fix = namedtuple("Point", ['name', 'lat', 'lon', 'heading', 'pronunciation'])
+"""Simple `namedtuple` to represent a fix."""
+Airline = namedtuple("Airline", ['callsign', 'frequency', 'types', 'pronunciation', 'directions'])
+"""Simple `namedtuple` to represent an airline declaration."""
 
 
 def process_fix_list(fix_list, fixes):
+    """Substitute any "!<name>[, <extra_data>]" in `fix_list` with 
+    "lat, lon[, <extra_data>]" based on `fixes`.
+
+    Args:
+        `fix_list` (list): A list of fix declarations.
+        `fixes` (dict): A lookup of `Fix`es."""
     for line in fix_list:
         if line.startswith('!'):
             def_fix, def_sep, def_data = line.lstrip('!').partition(',')
@@ -18,6 +28,8 @@ def process_fix_list(fix_list, fixes):
 
 
 def process_repeatable_fix_list(fix_list, fixes):
+    """`process_fix_list()` but if the first item in `fix_list` is "*n", 
+    return the result n times."""
     if fix_list[0].startswith('*'):
         result = list(process_fix_list(fix_list[1:], fixes))
         for i in range(int(fix_list[0].removeprefix('*'))):
@@ -27,6 +39,10 @@ def process_repeatable_fix_list(fix_list, fixes):
 
 
 def process_airlines_list(airline_list):
+    """Returns generator of airline declaration strings based on the list of `Airline`s `airline_list`.
+
+    If frequency is greater than 10, write floor(frequency / 10) 10 frequency
+    declarations and 1x (frequency mod 10) declaration."""
     for airline in airline_list:
         n, r = divmod(int(airline.frequency), 10)
         for i in range(n):
@@ -36,12 +52,21 @@ def process_airlines_list(airline_list):
 
 
 def enumerate_routes(route_list, start=1):
+    """built-in `enumerate()` but the enumeration is a string "route#"."""
     for route in route_list:
         yield f"route{start}", route
         start += 1
 
 
-def main(args, input_file=None):
+def process(args, input_file=None):
+    """Parses an Endless ATC custom airport "source" file and expands certain special commands,
+    then rewrites as a minimized output suitable for use by the game.
+
+    Refer to argparse help for detailed syntax of special commands.
+
+    Args:
+        `args`: An `argparse.Namespace`. The command line args from the invoking module.
+        `file`: The file to process. Defaults to `input_file` in `args`."""
 
     # if input_file is None, we were invoked standalone and not from deploy.py
     if input_file is None:

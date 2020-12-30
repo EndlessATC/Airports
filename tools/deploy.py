@@ -40,10 +40,10 @@ def main(args):
             print(f'Found {file}')
             if args.build:
                 if not args.legacy:
-                    renumber.main(args, file)
-                file = expand.main(args, file)
+                    renumber.process(args, file)
+                file = expand.process(args, file)
                 if args.legacy:
-                    renumber.main(args, file)
+                    renumber.process(args, file)
             if args.deploy:
                 result = shutil.copy(file, destination)
                 print(f"Copied {file} to {result}")
