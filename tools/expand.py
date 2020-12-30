@@ -6,36 +6,153 @@ import re
 
 """Endless ATC custom airport file build utility."""
 
-Fix = namedtuple("Point", ['name', 'lat', 'lon', 'heading', 'pronunciation'])
-"""Simple `namedtuple` to represent a fix."""
+
+class Fix(namedtuple("Point", ['name', 'lat', 'lon', 'heading', 'pronunciation'])):
+    """Simple `namedtuple` to represent a fix."""
+
+    @property
+    def short_def(self):
+        """Position definition as string."""
+        return f"{self.lat}, {self.lon}"
+
+    @property
+    def minor_def(self):
+        """Definition without holding as string."""
+        return f"{self.name}, {self.lat}, {self.lon}, {self.pronunciation}"
+
+    @property
+    def full_def(self):
+        """Full definition as string."""
+        return f"{self.name}, {self.lat}, {self.lon}, {self.heading}, {self.pronunciation}"
+
+
 Airline = namedtuple("Airline", ['callsign', 'frequency', 'types', 'pronunciation', 'directions'])
 """Simple `namedtuple` to represent an airline declaration."""
 
 
 def process_fix_list(fix_list, fixes):
-    """Substitute any "!<name>[, <extra_data>]" in `fix_list` with
+    """Expands special commands in a list of fixes in short format
+    and produces an iterable of definitions as the result.
+
+    Substitute any "!<name>[, <extra_data>]" in `fix_list` with
     "lat, lon[, <extra_data>]" based on `fixes`.
 
     Args:
-        `fix_list` (list): A list of fix declarations.
+        `fix_list` (list): A list of fix definitions.
         `fixes` (dict): A lookup of `Fix`es."""
     for line in fix_list:
         if line.startswith('!'):
             def_fix, def_sep, def_data = line.lstrip('!').partition(',')
-            yield f"{fixes[def_fix.strip()].lat}, {fixes[def_fix.strip()].lon}" + def_sep + def_data
+            yield fixes[def_fix.strip()].short_def + def_sep + def_data
         else:
             yield line
 
 
-def process_repeatable_fix_list(fix_list, fixes):
-    """`process_fix_list()` but if the first item in `fix_list` is "*n",
-    return the result n times."""
+def process_approach_fix_list(fix_list, fixes, tagged_routes):
+    """Processes special commands in a list of departure fixes
+    in short format and produces an iterable of definitions as the result.
+
+    Substitute any "!<name>[, <extra_data>]" in `fix_list` with
+    "lat, lon[, <extra_data>]" based on `fixes`.
+
+    If the last item in `fix_list` is "@<name>", substitute in
+    the contents of the approach route tagged <name>.
+
+    Args:
+        `fix_list` (list): A list of fix definitions.
+        `fixes` (dict): A lookup of `Fix`es.
+        `tagged_routes` (dict): A lookup of approach routes."""
+    if fix_list:
+        if fix_list[0].startswith('@'):
+            tagged_routes[fix_list[0].lstrip('@')] = fix_list[2:]
+            fix_list = fix_list[1:]
+        if fix_list[-1].startswith('@'):
+            yield from process_fix_list(fix_list[:-1], fixes)
+            yield from process_approach_fix_list(tagged_routes[fix_list[-1].lstrip('@')], fixes, tagged_routes)
+        else:
+            yield from process_fix_list(fix_list, fixes)
+
+
+def process_departure_fix_list(fix_list, fixes, tagged_routes):
+    """Processes special commands in a list of departure fixes
+    in short format and produces an iterable of definitions as the result,
+    or `None` if there is no result (fix_list was recorded in `tagged_routes`.
+
+    Substitute any "!<name>[, <extra_data>]" in `fix_list` with
+    "lat, lon[, <extra_data>]" based on `fixes`.
+
+    If and the first item of fix_list is "@<name>",
+    record the rest of the `fix_list` in `tagged_routes` under "name".
+
+    If the second (first if a tagged departure route) item in `fix_list`
+    is "@<name>", substitute in the contents of the departure route
+    tagged <name>.
+
+    Args:
+        `fix_list` (list): A list of fix definitions.
+        `fixes` (dict): A lookup of `Fix`es.
+        `tagged_routes` (dict): A lookup of departure routes."""
+    if fix_list:
+        if fix_list[0].startswith('@'):
+            tagged_routes[fix_list[0].lstrip('@')] = fix_list[1:]
+            return None
+        else:
+            return _process_departure_fix_list(fix_list, fixes, tagged_routes)
+
+
+def _process_departure_fix_list(fix_list, fixes, tagged_routes, top_level=True):
+    if fix_list:
+        if top_level:
+            yield fix_list[0]
+            fix_list = fix_list[1:]
+        if fix_list[0].startswith('@'):
+            yield from _process_departure_fix_list(tagged_routes[fix_list[0].lstrip('@')], fixes, tagged_routes, top_level=False)
+            yield from process_fix_list(fix_list[1:], fixes)
+        else:
+            yield from process_fix_list(fix_list, fixes)
+
+
+def process_sids_fix_list(fix_list, fixes):
+    """Processes special commands in a list of fixes in minor format
+    and produces an iterable of definitions as the result.
+
+    Substitute any "!<name>[, <extra_data>]" in `fix_list` with
+    "lat, lon[, <extra_data>]" based on `fixes`.
+
+    Args:
+        `fix_list` (list): A list of fix definitions.
+        `fixes` (dict): A lookup of `Fix`es."""
+    for line in fix_list:
+        if line.startswith('!'):
+            def_fix, def_sep, def_data = line.lstrip('!').partition(',')
+            yield fixes[def_fix.strip()].minor_def + def_sep + def_data
+        else:
+            yield line
+
+
+def process_repeatable_departure_fix_list(fix_list, fixes, departure_routes):
+    """`Processes special commands in a list of departure fixes
+    in short format and produces an iterable of n iterables of
+    definitions as the result.
+
+    If the first item of `fix_list` is *n, n iterables are produced.
+    Otherwise, `n = 1`.
+
+    See `process_departure_fix_list` for further special commands."""
     if fix_list[0].startswith('*'):
-        result = list(process_fix_list(fix_list[1:], fixes))
+        result = list(process_departure_fix_list(fix_list[1:], fixes, departure_routes))
         for i in range(int(fix_list[0].removeprefix('*'))):
             yield result
     else:
-        yield process_fix_list(fix_list, fixes)
+        yield process_departure_fix_list(fix_list, fixes, departure_routes)
+
+
+def process_beacons(fixes):
+    """Returns a generator of [airspace] beacons= lines, while removing any
+    beacons with ! as the holding heading."""
+    for fix in fixes.values():
+        if not fix.heading.startswith("!"):
+            yield fix.full_def
 
 
 def process_airlines_list(airline_list):
@@ -101,6 +218,8 @@ def process(args, input_file=None):
             config['airspace']['beacons'].strip().splitlines()
         )}
 
+        config['airspace']['beacons'] = "\n".join(process_beacons(fixes))
+
         config['airspace']['boundary'] = "\n".join(
             process_fix_list(config['airspace']['boundary'].splitlines(), fixes))
 
@@ -108,28 +227,43 @@ def process(args, input_file=None):
         airports = {section: config[section] for section in config if section.startswith('airport')}
 
         for airport_data in airports.values():
+
             if 'airlines' in airport_data:
                 airlines = [Airline(*(value.strip() for value in airline.split(",")))
                     for airline in airport_data['airlines'].splitlines() if airline]
                 airport_data['airlines'] = "\n".join(process_airlines_list(airlines))
 
-        # process approach/transition sections
-        approaches = {section: config[section] for section in config
-            if section.startswith('approach') or section.startswith('transition')}
+            if 'sids' in airport_data:
+                airport_data['sids'] = "\n".join(
+                    process_sids_fix_list(airport_data['sids'].splitlines(), fixes))
 
-        for approach in approaches.values():
-            for option in approach:
+        # process approach/transition sections
+        approaches = [config[section] for section in config
+            if section.startswith('approach') or section.startswith('transition')]
+        tagged_approaches = {}
+
+        for approach_data in approaches:
+            if 'beacon' in approach_data and approach_data['beacon'].startswith("!"):
+                approach_data['beacon'] = fixes[approach_data['beacon'].removeprefix("!")].full_def
+            for option in approach_data:
                 if option.startswith('route'):
-                    approach[option] = "\n".join(process_fix_list(approach[option].splitlines(), fixes))
+                    approach_data[option] = "\n".join(process_approach_fix_list(approach_data[option].splitlines(),
+                        fixes, tagged_approaches))
 
         # process departure sections
-        departures = {section: config[section] for section in config if section.startswith('departure')}
+        departures = [config[section] for section in config if section.startswith('departure')]
+        tagged_departures = {}
 
-        for departure_data in departures.values():
-            routes = {option.removeprefix('route'): departure_data[option] for option in departure_data if option.startswith('route')}
+        for departure_data in departures:
+            routes = {int(option.removeprefix('route')): departure_data[option]
+                for option in departure_data if option.startswith('route')}
             processed_routes = []
             for route_index in sorted(routes):
-                processed_routes.extend("\n".join(route) for route in process_repeatable_fix_list(routes[route_index].splitlines(), fixes))
+                processed_routes.extend("\n".join(route) for route in
+                    process_repeatable_departure_fix_list(
+                        routes[route_index].splitlines(), fixes, tagged_departures)
+                    if route)
+                del departure_data[f'route{route_index}']
             departure_data.update(enumerate_routes(processed_routes, start=1))
 
         # write output file
@@ -207,12 +341,23 @@ def process(args, input_file=None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='''Expands certain commands to allow for concise Endless ATC airport source files.
         \n\n
-        in [airspace] boundary=, or the route= of an [approach/departure/transition], specify !<name> instead of lat, lon
-        to substitute the lat, lon from the fix with the corresponding name in [airspace] beacons=.
+        Available functions:
         \n\n
-        in [airport] airlines=, definitions with frequency >10 with be broken down into multiple definitions of frequency 10 or less.
+        In [airspace] boundary= or the route= of an [approach/departure/transition], specify "!<name>" instead of lat, lon
+        to substitute the lat, lon from the fix with the corresponding name in [airspace] beacons=. In [airport] sids=, "!<name>"
+        can also be specified, and will become name, lat, lon instead.
         \n\n
-        *n as the first line of a [departure] route= value will repeat that route n times.''')
+        In [airport] airlines=, definitions with frequency >10 with be broken down into multiple definitions of frequency 10 or less.
+        \n\n
+        In a [approach/transition] route=, specify "@<name>" to "tag" the approach route. Any subsequent [approach] route= can then
+        specify "@<name>" as the last point to chain the approach route tagged as "name" to the end.
+        \n\n
+        In a [departure] route=, specify "@<name>" to "tag" the route. This will remove the departure route from the resulting file
+        (as it is an incomplete departure route). Any subsequent [departure] route= can then specify "@<name>" as the *first* point
+        (second line, after the route name) to chain the departure route tagged as "name" to the beginning.
+        \n\n
+        *n as the first line of a [departure] route= value will repeat that route n times. Obviously, a repeated route= cannot be
+        tagged as it wouldn't make any sense.''')
     parser.add_argument('input_file')
     parser.add_argument('output_file', nargs='?')
     parser.add_argument('-l', '--legacy', action="store_true",
