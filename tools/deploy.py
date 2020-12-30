@@ -4,6 +4,12 @@ import glob
 import os
 import shutil
 
+"""Endless ATC custom airport file deployment utility.
+
+Can build from source and deploy to game folder in one step.
+
+See argparse help for details."""
+
 config = configparser.ConfigParser()
 config.read('eatcdev.ini')
 if 'deploy' not in config:
@@ -15,6 +21,14 @@ default_destination = config['deploy'].get(
 
 
 def main(args):
+    """Builds an Endless ATC custom airport source file and deploys the built file
+    to the game folder.
+
+    Refer to argparse help for details.
+
+    Args:
+        `args`: An `argparse.Namespace`. The command line args when invoked as a module."""
+
     if args.build:
         import expand
         import renumber
