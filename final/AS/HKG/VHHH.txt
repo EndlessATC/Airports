@@ -1,4 +1,4 @@
-# v1.0.1:	SID / STAR Intgration
+# v1.0:	Init Version
 # by ycohui
 
 # VHHH TMA Teminal Airspace
@@ -12,14 +12,14 @@ floor = 1500
 # AD-2-VHHH-SMAC-1
 ## MVA in APP actually is 3000ft
 descendaltitude = 15000
-ceiling = 17000
+ceiling = 25000
 # DEP Handoff
 ## PECAN F160
 ## BEKOL S690 / S0480
 ## LAKES F230
 ## OCEAN F250
 ## VMMC HAZEL F110
-above = 23000
+above = 27000
 transitionlevel = 11000
 speedrestriction = 5, 220
 usa = false
