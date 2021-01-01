@@ -1,6 +1,7 @@
 import argparse
 from collections import namedtuple
 import configparser
+from dataclasses import dataclass
 import os
 import re
 
@@ -26,8 +27,43 @@ class Fix(namedtuple("Point", ['name', 'lat', 'lon', 'heading', 'pronunciation']
         return f"{self.name}, {self.lat}, {self.lon}, {self.heading}, {self.pronunciation}"
 
 
-Airline = namedtuple("Airline", ['callsign', 'frequency', 'types', 'pronunciation', 'directions'])
-"""Simple `namedtuple` to represent an airline declaration."""
+@dataclass
+class Airline:
+    """Simple class to represent an airline declaration."""
+    callsign: str
+    frequency: int
+    types: str
+    pronunciation: str
+    directions: str
+
+    callsigns = None
+
+    def __init__(self, callsign, frequency, types, *data, gateways=None):
+        """Create an airline from an entry in the airlines= list. `data` should be 
+        `(pronunciation, directions)`.
+
+        If `Airline.callsigns` is defined, `pronunciation` should be omitted from `data`.
+
+        If `gateways` is provided, `directions` becomes `arrival_gateways`, `departure_gateways`."""
+
+        self.frequency = frequency
+        self.types = types
+        self.callsign = callsign
+        if Airline.callsigns is not None:
+            self.pronunciation = Airline.callsigns[callsign] if '-' not in callsign \
+                else Airline.callsigns.get(callsign[:callsign.index('-')], '0')
+        else:
+            self.pronunciation = data[0]
+            data = data[1:]
+        if gateways is not None:
+            directions = set()
+            arrival_gateways = {gateway.strip() for gateway in data[0].split("/")}
+            departure_gateways = {gateway.strip() for gateway in data[1].split("/")}
+            for gateway in arrival_gateways | departure_gateways:
+                directions.add(gateways[gateway])
+            self.directions = "".join(directions)
+        else:
+            self.directions = data[0]
 
 
 def process_fix_list(fix_list, fixes):
@@ -193,14 +229,20 @@ def process(args, input_file=None):
         output_file = os.path.join(os.path.dirname(input_file), args.output_path, os.path.basename(input_file))
     print(f"Building {input_file} to {output_file}")
 
+    config = configparser.ConfigParser()
+    config.read("common.ini")
+    config.read(os.path.join(os.path.dirname(input_file), "common.ini"))
+    Airline.callsigns = config['expand.callsigns'] if 'expand.callsigns' in config else {}
+    default_gateways = config['expand.gateways'] if 'expand.gateways' in config else {}
+
     if 'legacy' not in args or not args.legacy:
-        config = configparser.ConfigParser()
-        config.read(input_file)
+        source = configparser.ConfigParser()
+        source.read(input_file)
 
         # read optional header to be written in output
         header = None
-        if 'meta' in config and 'header' in config['meta']:
-            header = ["# " + line for line in config['meta']['header'].splitlines()]
+        if 'meta' in source and 'header' in source['meta']:
+            header = ["# " + line for line in source['meta']['header'].splitlines()]
             header.extend([
                 "",
                 f"# This file is generated from the source file {os.path.relpath(input_file, os.path.dirname(output_file))} using expand.py.",
@@ -210,26 +252,29 @@ def process(args, input_file=None):
                 ""])
             header = "\n".join(header)
             # remove meta section so it won't be written in output
-            del config['meta']
+            del source['meta']
 
         # build a fix database from [airspace] beacons=
         fixes = {fix.name: fix for fix in (
             Fix(*map(str.strip, definition.split(","))) for definition in
-            config['airspace']['beacons'].strip().splitlines()
+            source['airspace']['beacons'].strip().splitlines()
         )}
 
-        config['airspace']['beacons'] = "\n".join(process_beacons(fixes))
+        source['airspace']['beacons'] = "\n".join(process_beacons(fixes))
 
-        config['airspace']['boundary'] = "\n".join(
-            process_fix_list(config['airspace']['boundary'].splitlines(), fixes))
+        source['airspace']['boundary'] = "\n".join(
+            process_fix_list(source['airspace']['boundary'].splitlines(), fixes))
 
         # process airport sections
-        airports = {section: config[section] for section in config if section.startswith('airport')}
+        airports = {section: source[section] for section in source if section.startswith('airport')}
 
         for airport_data in airports.values():
 
+            gateways = dict((tuple(map(str.strip, gateway.split(","))) for gateway in airport_data['gateways'].strip().splitlines()),
+                **default_gateways) if 'gateways' in airport_data else None
+
             if 'airlines' in airport_data:
-                airlines = [Airline(*(value.strip() for value in airline.split(",")))
+                airlines = [Airline(*(value.strip() for value in airline.split(",")), gateways=gateways)
                     for airline in airport_data['airlines'].splitlines() if airline]
                 airport_data['airlines'] = "\n".join(process_airlines_list(airlines))
 
@@ -238,7 +283,7 @@ def process(args, input_file=None):
                     process_sids_fix_list(airport_data['sids'].splitlines(), fixes))
 
         # process approach/transition sections
-        approaches = [config[section] for section in config
+        approaches = [source[section] for section in source
             if section.startswith('approach') or section.startswith('transition')]
         tagged_approaches = {}
 
@@ -251,7 +296,7 @@ def process(args, input_file=None):
                         fixes, tagged_approaches))
 
         # process departure sections
-        departures = [config[section] for section in config if section.startswith('departure')]
+        departures = [source[section] for section in source if section.startswith('departure')]
         tagged_departures = {}
 
         for departure_data in departures:
@@ -269,7 +314,7 @@ def process(args, input_file=None):
         # write output file
         with open(output_file, 'w', newline='') as airport_file:
             airport_file.write(header)
-            config.write(airport_file)
+            source.write(airport_file)
 
     # legacy processor in regex. Don't use for new projects.
     else:
@@ -348,6 +393,16 @@ if __name__ == "__main__":
         can also be specified, and will become name, lat, lon instead.
         \n\n
         In [airport] airlines=, definitions with frequency >10 with be broken down into multiple definitions of frequency 10 or less.
+        \n\n
+        In [airport], you can define gateways=, a list of <name>, direction. If gateways= is defined, the ", <directions>"" in
+        [airport] airlines= becomes ", <arrival_gateways>, <departure_gateways>", and the directions are used based on the defined
+        gateways. Default gateways can be specified in a common.ini in the same directory as the source file, or in the folder where
+        this tool is located; gateways= still needs to be defined in an [airport] to activate this feature for the [airport].
+        \n\n
+        In [airport] airlines, the airline <pronunciation> can be omitted given [expand.callsigns] is defined in a common.ini in the
+        same directory as the source file, or in the folder where this tool is located. The former takes precedence. [expand.callsigns]
+        is a list of <code>, <pronunciation>, and the first item in each line of airlines (stripped of a dash and anything after it)
+        is used to lookup in [expand.callsigns] to obtain the pronunciation. If nothing is found, pronunication defaults to "0".
         \n\n
         In a [approach/transition] route=, specify "@<name>" to "tag" the approach route. Any subsequent [approach] route= can then
         specify "@<name>" as the last point to chain the approach route tagged as "name" to the end.
