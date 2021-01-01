@@ -8,8 +8,21 @@ import re
 """Endless ATC custom airport file build utility."""
 
 
-class Fix(namedtuple("Point", ['name', 'lat', 'lon', 'heading', 'pronunciation'])):
-    """Simple `namedtuple` to represent a fix."""
+@dataclass
+class Fix:
+    """Simple class to represent a fix."""
+    name: str
+    lat: str
+    lon: str
+    heading: str
+    pronunciation: str
+
+    def __init__(self, name, lat, lon, heading, pronunciation):
+        self.name = name.strip()
+        self.lat = lat.strip()
+        self.lon = lon.strip()
+        self.heading = heading.strip()
+        self.pronunciation = pronunciation.strip()
 
     @property
     def short_def(self):
@@ -24,7 +37,7 @@ class Fix(namedtuple("Point", ['name', 'lat', 'lon', 'heading', 'pronunciation']
     @property
     def full_def(self):
         """Full definition as string."""
-        return f"{self.name}, {self.lat}, {self.lon}, {self.heading}, {self.pronunciation}"
+        return f"{self.name}, {self.lat}, {self.lon}, {self.heading.lstrip('!') or 0}, {self.pronunciation}"
 
 
 @dataclass
@@ -46,14 +59,14 @@ class Airline:
 
         If `gateways` is provided, `directions` becomes `arrival_gateways`, `departure_gateways`."""
 
-        self.frequency = frequency
-        self.types = types
-        self.callsign = callsign
+        self.frequency = int(frequency.strip())
+        self.types = types.strip()
+        self.callsign = callsign.strip()
         if Airline.callsigns is not None:
             self.pronunciation = Airline.callsigns[callsign] if '-' not in callsign \
                 else Airline.callsigns.get(callsign[:callsign.index('-')], '0')
         else:
-            self.pronunciation = data[0]
+            self.pronunciation = data[0].strip()
             data = data[1:]
         if gateways is not None:
             directions = set()
@@ -63,7 +76,7 @@ class Airline:
                 directions.add(gateways[gateway])
             self.directions = "".join(directions)
         else:
-            self.directions = data[0]
+            self.directions = data[0].strip()
 
 
 def process_fix_list(fix_list, fixes):
@@ -197,7 +210,7 @@ def process_airlines_list(airline_list):
     If frequency is greater than 10, write floor(frequency / 10) 10 frequency
     declarations and 1x (frequency mod 10) declaration."""
     for airline in airline_list:
-        n, r = divmod(int(airline.frequency), 10)
+        n, r = divmod(airline.frequency, 10)
         for i in range(n):
             yield f"{airline.callsign}, 10, {airline.types}, {airline.pronunciation}, {airline.directions}"
         if r:
@@ -256,7 +269,7 @@ def process(args, input_file=None):
 
         # build a fix database from [airspace] beacons=
         fixes = {fix.name: fix for fix in (
-            Fix(*map(str.strip, definition.split(","))) for definition in
+            Fix(*definition.split(",")) for definition in
             source['airspace']['beacons'].strip().splitlines()
         )}
 
@@ -274,7 +287,7 @@ def process(args, input_file=None):
                 **default_gateways) if 'gateways' in airport_data else None
 
             if 'airlines' in airport_data:
-                airlines = [Airline(*(value.strip() for value in airline.split(",")), gateways=gateways)
+                airlines = [Airline(*airline.split(","), gateways=gateways)
                     for airline in airport_data['airlines'].splitlines() if airline]
                 airport_data['airlines'] = "\n".join(process_airlines_list(airlines))
 
