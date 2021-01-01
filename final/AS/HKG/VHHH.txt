@@ -1,5 +1,4 @@
-# v1.0:	Init Version
-# by ycohui
+# v1.1: North Border Fix
 
 # VHHH TMA Teminal Airspace
 [airspace]
@@ -12,14 +11,14 @@ floor = 1500
 # AD-2-VHHH-SMAC-1
 ## MVA in APP actually is 3000ft
 descendaltitude = 15000
-ceiling = 25000
+ceiling = 17000
 # DEP Handoff
 ## PECAN F160
 ## BEKOL S690 / S0480
 ## LAKES F230
 ## OCEAN F250
 ## VMMC HAZEL F110
-above = 27000
+above = 23000
 transitionlevel = 11000
 speedrestriction = 5, 220
 usa = false
@@ -86,17 +85,21 @@ boundary =
 		N19.30.00, E111.30.00
 		N21.25.00, E111.30.00
 #		Last point from FIR boundary
-
-		N22.13.44, E113.39.57
+#		N22.13.44, E113.39.57
+# Special Point Hotfix
+		N21.46.44, E113.15.01
+		N22.00.31, E113.34.18
+		N22.11.81, E113.34.40		
+		N22.13.72, E113.39.74
 		N22.24.34, E113.49.44
 
 #Extra point along border
-##Line2
+
 #		N22.20.00.00, E113.52.08.80
 		N22.25.43.70, E113.52.08.80
 		N22.28.20.49, E113.56.52.10
 		N22.30.36.23, E113.59.42.20
-##line1
+
 		N22.33.23.49, E114.12.24.25
 		N22.32.52.83, E114.13.36.86
 		N22.32.52.26, E114.13.36.91
@@ -125,7 +128,11 @@ line1 =
 		N22.06.40, E114.11.45
 		N21.56.25, E113.48.00
 		N22.13.44, E113.39.57
+# Hotfix	
+		N22.13.72, E113.39.74
 		N22.24.34, E113.49.44
+
+
 		N22.25.43.70, E113.52.08.80
 		N22.28.20.49, E113.56.52.10
 		N22.30.36.23, E113.59.42.20
@@ -191,12 +198,12 @@ line3 =
 
 [airport1]
 name = Hong Kong International Airport
-code = VHHH
+code = VH02
 
 runways =
 	VHNorth, 07L, N22.18.39.30, E113.53.52.67, 071, 12467, 11900, 11896, 27, 3, 071, 3, 251, VH710, 8.3, RIVER, 15
 	VHSouth, 07R, N22.17.48.03, E113.55.58.15, 071, 12467, 11942, 12467, 27, 3, 071, 3, 251, VH720, 8.3, LOTUS, 15
-climbaltitude = 5000
+climbaltitude = 7000
 sids =
 	BEKOL
 	LAKES
@@ -204,10 +211,11 @@ sids =
 	PECAN
 	
 entrypoints = 
-	089, ABBEY
-	165, BETTY
-	228, CANTO
-	250, SIERA
+	090, ABBEY
+	138, BETTY
+	183, BETTY
+	227, CANTO
+	344, SIERA
 	
 airlines =
 	CPA, 10,a333/a359/a35k/b777/b748, 	Cathay

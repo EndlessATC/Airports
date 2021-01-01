@@ -93,4 +93,4 @@ This version was designated for phone play, awaitng a larger version for PC.
 ## Changelog
 
 *	1.0 - 2020/12/31 - Initial version.
-
+	* 1.1 - 2021/01/01 - HotFix: North Border
