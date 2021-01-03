@@ -278,6 +278,13 @@ def process(args, input_file=None):
         source['airspace']['boundary'] = "\n".join(
             process_fix_list(source['airspace']['boundary'].splitlines(), fixes))
 
+        areas = {section: source[section] for section in source if section.startswith('area')}
+
+        for area_data in areas.values():
+            if 'points' in area_data:
+                area_data['points'] = "\n".join(
+                    process_fix_list(area_data['points'].splitlines(), fixes))
+
         # process airport sections
         airports = {section: source[section] for section in source if section.startswith('airport')}
 
@@ -401,9 +408,10 @@ if __name__ == "__main__":
         \n\n
         Available functions:
         \n\n
-        In [airspace] boundary= or the route= of an [approach/departure/transition], specify "!<name>" instead of lat, lon
+        In [airspace] boundary=, [area] points=, or the route= of an [approach/departure/transition], specify "!<name>" instead of lat, lon
         to substitute the lat, lon from the fix with the corresponding name in [airspace] beacons=. In [airport] sids=, "!<name>"
-        can also be specified, and will become name, lat, lon instead.
+        can also be specified, and will become name, lat, lon instead. In [approach/departure/transition], "!<name>" can also be specified
+        in beacon=, where it will become the full fix definition.
         \n\n
         In [airport] airlines=, definitions with frequency >10 with be broken down into multiple definitions of frequency 10 or less.
         \n\n
