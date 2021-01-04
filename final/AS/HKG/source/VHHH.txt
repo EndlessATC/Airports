@@ -916,8 +916,8 @@ beacon = TD
 route1 = @ILSRWY25R
 	344
 	!TD, 8000
-	!TORUB
-	!PLOVE
+	!TORUB, 6500
+	!PLOVE, 5500
 	!RIVER, 4500, 180
 	13.9, 4500, 180
 
@@ -926,7 +926,7 @@ runway = VHHHRWYN, rev
 beacon = !PLOVE
 route1 = 
 	254
-	!PLOVE
+	!PLOVE, 5500
 	!RIVER, 4500, 180
 	13.9, 4500, 180
 
