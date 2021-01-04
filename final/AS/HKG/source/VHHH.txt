@@ -133,7 +133,7 @@ beacons =
 #misc
 #intersection of LKC R074 and TD R301
 	LKC074@TD301, N22.24.23, E113.58.12, !,
-#intercept point of TDR251 with HDG166 from PRAWNFO
+#intercept point of TD R251 with HDG166 from PRAWNFO
 	PRAWNFO166@TD251, N22.04.12, E113.49.12, !,
 #VMMC
 #VOR
@@ -445,7 +445,7 @@ altitude = 13000
 name = MC
 labelpos = N22.35.00, E113.30.00
 points = 
-	!ZUH
+#	!ZUH
 	N22.13.44, E113.39.57
 	N22.24.34, E113.49.44
 	N22.28.34, E114.00.54
@@ -718,7 +718,7 @@ code = MC
 runways =
 	VMMCRWY, 16, N22.09.38.31, E113.35.14.14, 161, 10544, 1195, 1215, 20
 #fake runway for LLZ 16
-	VMMCRWYLLZ, 16C, N22.10.05, E113.32.48, 221, 10544, 1195, 1215, 20
+	VMMCRWYLLZ, 16C, N22.09.54, E113.33.05, 215, 10544, 1195, 1215, 20
 inboundbeacon = MCU
 traffic = 10
 
@@ -1652,6 +1652,7 @@ route1 = @LLZRWY16INDUS
 	!MC512, 3000
 	!MC511
 	!MC510, 2500
+	6, 1800, 185
 
 [approach69]
 runway = VMMCRWYLLZ
@@ -1935,18 +1936,18 @@ route1 =
 	!BUMDI
 	@SMT4A
 
+#[approach95]
+#runway = VMMCRWY, rev
+#beacon = ARROW
+#
+#route1 = 
+#	358
+#	!ARROW
+#	!ISBAN, 20000
+#	!ROBIN
+#	@CHALI4A
+
 [approach95]
-runway = VMMCRWY, rev
-beacon = ARROW
-
-route1 = 
-	358
-	!ARROW
-	!ISBAN, 20000
-	!ROBIN
-	@CHALI4A
-
-[approach96]
 runway = VMMCRWY, rev
 beacon = ISBAN
 
@@ -1956,7 +1957,7 @@ route1 =
 	!ROBIN
 	@CHALI4A
 
-[approach97]
+[approach96]
 runway = VMMCRWY, rev
 beacon = ROBIN
 
@@ -1965,7 +1966,7 @@ route1 =
 	!ROBIN
 	@CHALI4A
 
-[approach98]
+[approach97]
 runway = VMMCRWY, rev
 beacon = DASON
 
@@ -1975,7 +1976,7 @@ route1 =
 	!COTON, 12000
 	@CHALI4A
 
-[approach99]
+[approach98]
 runway = VMMCRWY, rev
 beacon = COTON
 

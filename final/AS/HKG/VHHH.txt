@@ -63,6 +63,9 @@ beacons = CH, N22.13.10.35, E114.01.48.20, 0, Cheung Chau
 	RUNLI, N21.26.59.72, E113.40.51.00, 0, Runli
 	MC411, N22.21.41.20, E113.47.37.58, 0, Mike Charlie 4 1 1
 	MC420, N22.20.32.29, E113.41.43.59, 0, Mike Charlie 4 2 0
+	MC508, N22.12.25.79, E113.34.59.76, 0, Mike Charlie 5 0 8
+	MC509, N22.14.34.78, E113.36.37.67, 0, Mike Charlie 5 0 9
+	MC510, N22.17.02.13, E113.38.29.61, 0, Mike Charlie 5 1 0
 	U, N21.59.3, E113.21.3, 0, San-zao
 	UJ, N21.55.2, E113.17.6, 0, Gao-lan
 	ZUH, N22.13.18, E113.28.00, 0, Lian-sheng-wei
@@ -293,7 +296,6 @@ altitude = 13000
 name = MC
 labelpos = N22.35.00, E113.30.00
 points = 
-	N22.13.18, E113.28.00
 	N22.13.44, E113.39.57
 	N22.24.34, E113.49.44
 	N22.28.34, E114.00.54
@@ -5234,7 +5236,7 @@ name = Macau International Airport
 code = MC
 runways = 
 	VMMCRWY, 16, N22.09.38.31, E113.35.14.14, 161, 10544, 1195, 1215, 20
-	VMMCRWYLLZ, 16C, N22.10.05, E113.32.48, 221, 10544, 1195, 1215, 20
+	VMMCRWYLLZ, 16C, N22.09.54, E113.33.05, 215, 10544, 1195, 1215, 20
 inboundbeacon = MCU
 traffic = 10
 sids = 
@@ -5841,26 +5843,26 @@ airlines = xax, 10, a320/a20n, xanadu, s
 	dkh, 10, a320/a20n, air june-yao, e
 	dkh, 10, a320/a20n, air june-yao, e
 	dkh, 10, a320/a20n, air june-yao, e
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
-	mkr, 10, a320, air lanme, ws
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
+	mkr, 10, a320, air lanme, sw
 	pal, 10, a321/a21n/a333, philippine, e
 	pal, 10, a321/a21n/a333, philippine, e
 	pal, 10, a321/a21n/a333, philippine, e
@@ -7153,6 +7155,7 @@ route1 = 328
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach69]
 runway = VMMCRWYLLZ
@@ -7166,6 +7169,7 @@ route1 = 26
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach70]
 runway = VMMCRWYLLZ
@@ -7179,6 +7183,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach71]
 runway = VMMCRWYLLZ
@@ -7194,6 +7199,7 @@ route1 = 258
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach72]
 runway = VMMCRWYLLZ
@@ -7213,6 +7219,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach73]
 runway = VMMCRWYLLZ
@@ -7231,6 +7238,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach74]
 runway = VMMCRWYLLZ
@@ -7248,6 +7256,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach75]
 runway = VMMCRWYLLZ
@@ -7265,6 +7274,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach76]
 runway = VMMCRWYLLZ
@@ -7281,6 +7291,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach77]
 runway = VMMCRWYLLZ
@@ -7296,6 +7307,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach78]
 runway = VMMCRWYLLZ
@@ -7312,6 +7324,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach79]
 runway = VMMCRWYLLZ
@@ -7327,6 +7340,7 @@ route1 =
 	N22.21.49.25, E113.33.45.41, 3000
 	N22.21.49.23, E113.36.58.39
 	N22.17.02.13, E113.38.29.61, 2500
+	6, 1800, 185
 
 [approach80]
 runway = VMMCRWY, rev
@@ -7518,21 +7532,6 @@ route1 =
 
 [approach95]
 runway = VMMCRWY, rev
-beacon = ARROW
-route1 = 
-	358
-	N19.50.09.33, E114.22.26.42
-	N20.49.34.33, E114.17.13.11, 20000
-	N21.02.45.00, E114.16.06.00
-	N21.17.45.00, E113.36.41.00, 11000
-	N21.26.59.72, E113.40.51.00, 9000
-	N21.39.36.00, E113.46.30.00, 6000
-	N21.52.31.46, E113.41.36.15
-	N21.58.39.00, E113.39.22.00, 3000, 190
-	10, 3000, 190
-
-[approach96]
-runway = VMMCRWY, rev
 beacon = ISBAN
 route1 = 
 	358
@@ -7545,7 +7544,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach97]
+[approach96]
 runway = VMMCRWY, rev
 beacon = ROBIN
 route1 = 
@@ -7558,7 +7557,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach98]
+[approach97]
 runway = VMMCRWY, rev
 beacon = DASON
 route1 = 
@@ -7572,7 +7571,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach99]
+[approach98]
 runway = VMMCRWY, rev
 beacon = COTON
 route1 = 
