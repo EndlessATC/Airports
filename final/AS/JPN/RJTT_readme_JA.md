@@ -1,4 +1,4 @@
-# `RJTT` 進入管制区 2.2.1
+# `RJTT` 進入管制区 2.2.2
 
 ＊作者は日本人ではないため、圧倒的語彙力のなさと知識不足によるおかしいまたは間違っている表現があるかもしれません。
 
@@ -17,11 +17,11 @@ STARはこのゲームの進入方式で再現されています。進入方式�
 
 ### `RJTT` 東京（羽田）国際空港
 
+羽田空港です。国内便が多いですが、国際便もあります。出発便は西へのが多くて、到着便は南西方向から多く飛来します。
+
+発着便の設定は推測ですが現実とかけ離れてることはないでしょう。
+
 ＊未翻訳
-The main airport of this sector. Previously only handling domestic traffic and very limited international flights to key East Asian cities, Haneda now handles a fair amount of international traffic along with most of Tokyo's domestic traffic. As such, traffic is biased towards the west for departures and southwest for arrivals. 
-
-There is custom traffic for `RJTT`. The proportions are very much estimates but shouldn't be too far off from reality.
-
 Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is `UTIBO` for 34L/23/16R, `KASGA` for 34R/22, and `SNOKE` for 16L.
 
 Aircraft arrive at 6 points:
@@ -113,9 +113,11 @@ A few different configurations are used in real operations; four are available i
 
 ### `RJAA` 成田国際空港
 
-＊未翻訳
-The secondary, yet also major airport of this sector. Previously handling almost all of Tokyo's international traffic, it has lost some of it to Haneda recently. However, it still handles a large chunk of Tokyo's international flights as well as the many cargo flights from FDX/UPS etc. RWY 34R which was too short when Narita opened to handle heavy aircraft has now been extended and can generally handle most aircraft other than the largest of aircraft such as A388.
+成田空港です。国内便が少ないですが、LCCと国際便とカーゴ便が多いです。
 
+発着便の設定は推測ですが現実とかけ離れてることはないでしょう。
+
+＊未翻訳
 There is custom traffic for `RJAA`. The proportions are very much estimates but shouldn't be too far off from reality.
 
 Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is `SWIMY` for 16R/34L and `ABBOT` for 16L/34R.
@@ -209,8 +211,7 @@ Approaches are available using APP mode from `TOHNE` and `ASEKI`. Arrival routes
 
 ## For Developers
 
-＊未翻訳
-Note that traffic data (`airlines = `) is expanded by a python script `expand_airlines.py` from the shorter `source/RJTT.txt` according to the definitions in '`#!`' comments. If submitting a proposed change, please submit your changes in the source file.
+この追加ファイルに貢献したい方はsource/RJTT.txtを変更してから/tools/で"deploy.py RJTT"を実行してください。
 
 ## 変更履歴
 
@@ -218,3 +219,5 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 	-日本語初リリース
 *	2.2.1 - 2020/12/19
 	-管制区の離脱ポイントの交通量バランスを調整しました。
+*	2.2.2 - 2020/12/29
+	-RJTTにJCGがスポーンしない不具合を修正。

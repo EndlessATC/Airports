@@ -1,4 +1,4 @@
-# `RJTT` ACA 2.2.1
+# `RJTT` ACA 2.2.2
 
 This is an implementation of the Tokyo ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring `RJTT` Tokyo International Airport (commonly referred to as Haneda) and `RJAA` Narita International Airport. JSDF-M base `RJTL` Shimofusa is also represented at very high scores (difficulties). The airspace ceiling is FL240.
 
@@ -264,3 +264,5 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 	- Added 'rare' traffic (head of state, navaid check)
 *	2.2.1 - 2020/12/19
 	- Adjusted the distribution of traffic for each departure point.
+*	2.2.2 - 2020/12/29
+	- Fixed bug where JCG would not spawn at RJTT.
