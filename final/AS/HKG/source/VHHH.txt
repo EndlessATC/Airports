@@ -28,6 +28,7 @@ beacons =
 	ABBEY, N22.16.11.00, E114.55.25.92, 271, Abbey
 	ALLEY, N21.05.11.15, E113.47.09.50, !, Alley
 	AROXA, N22.02.03.11, E116.46.45.01, !, Aroxa
+	ASOBA, N17.22.22.00, E114.34.13.00, !, Asoba
 	ATENA, N22.24.39.85, E114.23.11.88, !, Atena
 	BAKER, N21.13.02.00, E114.39.07.00, 345, Baker
 	BEKOL, N22.32.36.00, E114.08.00.00, !, Bekol
@@ -35,18 +36,24 @@ beacons =
 	BORDA, N21.41.32.37, E113.24.29.01, 0, Borda
 	BREAM, N21.46.46.00, E114.03.28.00, !, Bream
 	CANTO, N21.39.02.63, E113.42.25.09, 48, Canto
+	CARSO, N19.00.00.00, E114.42.37.75, !, Carso
 	COMBI, N21.29.37.10, E113.27.44.30, 74, Combi
 	CONGA, N21.44.02.50, E116.47.05.90, !, Conga
 	CYBER, N20.50.49.64, E114.33.10.56, 0, Cyber
 	DAKTO, N20.53.30.89, E115.11.15.58, 318, Dakto
 	DEDEE, N22.23.12.70, E114.01.03.67, !, Dedee
 	DONKI, N20.32.57.99, E112.09.10.07, !, Donkey
+	DOSUT, N17.02.00.00, E113.40.48.00, !, Dosut
 	DOTMI, N22.43.06.00, E116.10.06.00, !, Dotmi
+	DULOP, N18.14.12.00, E114.32.36.00, !, Dulop
+	DUMOL, N19.00.00.00, E114.26.48.00, !, Dumol
 	EATON, N21.07.24.40, E115.43.01.10, 248, Eaton
 	ELATO, N22.20.00.00, E117.30.00.00, !, Elato
+	ENBOK, N18.33.24.00, E113.29.30.00, !, Enbok
 	ENPET, N22.17.33.16, E115.41.24.36, !, Enpet
 	ENVAR, N21.59.30.00, E117.30.00.00, !, Envar
 	EPDOS, N19.00.00.00, E113.33.18.00, !, Epdos
+	EPKAL, N17.51.30.00, E112.57.18.00, !, Epkal
 	FISHA, N22.16.57.64, E115.20.11.61, 271, Fisha
 	GAMBA, N21.19.08.12, E112.55.36.21, 74, Gamba
 	GODEN, N20.34.35.35, E114.18.32.48, 358, Goden
@@ -57,6 +64,7 @@ beacons =
 	IDOSI, N19.00.00.00, E112.30.00.00, !, Idosi
 	IKELA, N18.39.42.00, E112.14.42.00, !, Ikela
 	KAPLI, N21.10.00.00, E117.30.00.00, !, Kapli
+	KILOG, N21.52.27.00, E114.41.37.00, !, Kilo
 	LAKES, N21.58.41.30, E114.54.38.60, !, Lakes
 	LANDA, N21.36.47.24, E113.02.42.74, !, Landa
 	LELIM, N22.56.24.00, E117.18.42.00, !, Lelim
@@ -135,12 +143,20 @@ beacons =
 	LKC074@TD301, N22.24.23, E113.58.12, !,
 #intercept point of TD R251 with HDG166 from PRAWNFO
 	PRAWNFO166@TD251, N22.04.12, E113.49.12, !,
+#D3 from ITFR after passing RW25R THR
+	ITFRD3, N22.18.15, E113.52.31, !,
+#D5 from ITFR after passing RW25R THR 
+	ITFRD3FO, N22.17.36, E113.50.29, !,
+#LKC R231 D3
+	LKCR231D3, N22.20.44, E113.50.37, !, 3 D-M-E from Lung Kwu Chau
+#fabricated waypoint to allow issuing published missed approach via LKC from 25R
+	MA25R, N22.13.44, E113.39.57, !, Published Missed Approach
 #VMMC
 #VOR
 	MCU, N22.08.08, E113.35.52, 0, Ma-cao
-	ZAO, N22.14.8, E113.36.8, !, Jiu-zhou
+	ZAO, N22.14.48, E113.36.48, 0, Jiu-zhou
 #FIX
-	ARROW, N19.50.09.33, E114.22.26.42, 0, Arrow
+	ARROW, N19.50.09.33, E114.22.26.42, !, Arrow
 	ATIKO, N21.48.29.56, E113.32.26.04, 36, Atiko
 	BUMDI, N22.21.39.62, E114.18.52.61, -269, Bumdi
 	CAMRI, N22.01.46.24, E114.04.28.73, !, Camri
@@ -161,11 +177,11 @@ beacons =
 	RUNLI, N21.26.59.72, E113.40.51.00, 0, Runli
 	SAMMI, N22.28.00.00, E115.57.42.00, !, Sammi
 #RNAV
-	MC411, N22.21.41.20, E113.47.37.58, 0, Mike Charlie 4 1 1
+	MC411, N22.21.41.20, E113.47.37.58, !, Mike Charlie 4 1 1
 	MC417, N22.21.22.48, E113.25.20.13, !, Mike Charlie 4 1 7
 	MC418, N22.20.59.43, E113.37.16.98, !, Mike Charlie 4 1 8
 	MC419, N22.26.25.37, E113.46.47.49, !, Mike Charlie 4 1 9
-	MC420, N22.20.32.29, E113.41.43.59, 0, Mike Charlie 4 2 0
+	MC420, N22.20.32.29, E113.41.43.59, !, Mike Charlie 4 2 0
 	MC501, N22.00.03.00, E113.38.45.76, !, Mike Charlie 5 0 1
 	MC502, N22.02.43.76, E113.00.50.39, !, Mike Charlie 5 0 2
 	MC508, N22.12.25.79, E113.34.59.76, !, Mike Charlie 5 0 8
@@ -217,7 +233,13 @@ boundary =
 	N21.03.23.27, E112.43.07.70
 	N21.31.55.42, E112.43.07.70
 	!LANDA
-	!VIBOS
+	!NLG
+#	!VIBOS
+#	!POU
+#	!SZ012R335D3
+#	!SZ002R335D3
+#	!SZ003
+#	!SHL
 #	!SULAS
 #	!VIPAP
 
@@ -439,7 +461,74 @@ points =
 	N21.56.25, E113.48.00
 	N22.13.44, E113.39.57
 
+#MACAU ATZ
+#5NM from ARP, except 3NM west parallel to RWY
+#5NM wide stub to 10NM RWY34
+#2NM wide stub to 6.27NM(ZAO) MCS LLZ
 [area6]
+shape = polygon
+altitude = 3001
+labelpos = N22.09.20, E113.36.30
+name = MC
+points = 
+#MACAU ARP N22.08.58, E113.35.29
+#MCS LLZ N22.09.40, E113.32.54
+#MCS LLZ @ VMMC ARP 305T N22.10.19, E113.33.24 (VMMC ARP 305T 2.3564NM)
+#5NM 304.13T(251+arccos(3NM/5NM)) from ARP
+	N22.11.46, E113.31.01
+#3NM 251T from ARP
+	N22.07.59, E113.32.25
+#5NM 197.87T(251-arccos(3NM/5NM)) from ARP
+	N22.04.13, E113.33.50
+#5NM 191T(161+arcsin((5/2)NM/5NM)) from ARP
+	N22.04.04, E113.34.27
+#2.5NM 251 from below point
+	N21.58.42, E113.36.27
+#10NM 161 from ARP
+	N21.59.31, E113.39.00
+#2.5NM 71 from above point
+	N22.00.20, E113.41.33
+#5NM 131T(161-arcsin((5/2)NM/5NM)) from ARP
+	N22.05.41, E113.39.33
+#119
+	N22.06.33, E113.40.12
+#109
+	N22.07.20, E113.40.35
+#099
+	N22.08.11, E113.40.49
+#089
+	N22.09.03, E113.40.53
+#079
+	N22.09.55, E113.40.47
+#069
+	N22.10.45, E113.40.31
+#059
+	N22.11.32, E113.40.07
+#049
+	N22.12.15, E113.39.33
+#039
+	N22.12.51, E113.38.53
+#029
+	N22.13.20, E113.38.06
+#5NM 19.26T(305+arcsin((2.3564-1)NM/5NM)) from ARP
+	N22.13.41, E113.37.16
+#ZAO 125T 1DME
+	N22.14.14, E113.37.41
+	!ZAO
+#ZAO 305T 1DME
+	N22.15.22, E113.35.55
+#5NM 352.83T(305+arcsin((2.3564+1)NM/5NM)) from ARP
+	N22.13.55, E113.34.49
+#344
+	N22.13.46, E113.34.00
+#334
+	N22.13.27, E113.33.07
+#324
+	N22.13.01, E113.32.19
+#314
+	N22.12.26, E113.31.36
+
+[area7]
 shape = polygon
 altitude = 13000
 name = MC
@@ -453,8 +542,20 @@ points =
 #	N22.752, E115.289
 #	!VIPAP
 #	!SULAS
-	!VIBOS
+#	!VIBOS
+	!NLG
 	!LANDA
+
+#[area7]
+#shape = polygon
+#altitude = 13000
+#name = SZ
+#labelpos = N22.35.00, E113.30.00
+#points = 
+#	!BEKOL
+#	!VIBOS
+#	!LANDA
+#	!NLG
 
 [airport1]
 name = Hong Kong International Airport
@@ -488,6 +589,21 @@ sids =
 	!ALLEY
 	!TROUT
 	!OSUMO
+	!DULOP
+	!DUMOL
+	!ASOBA
+	!TAMOT
+	!EPKAL
+	!ENBOK
+	!LANDA
+	!CARSO
+	!DOSUT
+	!OCEAN
+	!LAKES
+	!RASSE
+	!SKATE
+	!ALLEY
+	!PECAN
 
 entrypoints =
 #A470 DOTMI V5122
@@ -722,6 +838,8 @@ runways =
 inboundbeacon = MCU
 traffic = 10
 
+climbaltitude = 4000
+
 sids = 
 	!BEKOL
 	!DOTMI
@@ -734,6 +852,8 @@ sids =
 	!ENVAR
 	!LELIM
 	!IDOSI
+	!ARROW
+	!SAMMI
 
 entrypoints =
 #A470 DOTMI DCT SAMMI J101
@@ -942,14 +1062,24 @@ route1 =
 [approach14]
 runway = VHHHRWYN, rev
 beacon = LKC
-route1 = 
+route1 = @ILSRWY25RMA
 	231
 	!LKC
 	!LKC074@TD301
 	@ILSRWY25R
 
-#ILS RWY 25L
 [approach15]
+runway = VHHHRWYN, rev
+beacon = !MA25R
+route1 = 
+	254
+	!ITFRD3
+	!ITFRD3FO
+	!LKCR231D3
+	@ILSRWY25RMA
+
+#ILS RWY 25L
+[approach16]
 runway = VHHHRWYS, rev
 beacon = TD
 route1 = @ILSRWY25L
@@ -960,7 +1090,7 @@ route1 = @ILSRWY25L
 	!LOTUS, 4500, 180
 	13.9, 4500, 180
 
-[approach16]
+[approach17]
 runway = VHHHRWYS, rev
 beacon = !MIRRS
 route1 = 
@@ -969,7 +1099,7 @@ route1 =
 	!LOTUS, 4500, 180
 	13.9, 4500, 180
 
-[approach17]
+[approach18]
 runway = VHHHRWYS, rev
 beacon = !LOTUS
 route1 = 
@@ -978,7 +1108,7 @@ route1 =
 	13.9, 4500, 180
 
 #ILS RWY 25L missed
-[approach18]
+[approach19]
 runway = VHHHRWYS, rev
 beacon = !PRAWN
 route1 = 
@@ -988,7 +1118,7 @@ route1 =
 	!PRAWNFO166@TD251
 	@ILSRWY25L
 
-[approach19]
+[approach20]
 runway = VHHHRWYS, rev
 beacon = !PRAWNFO
 route1 = 
@@ -998,7 +1128,7 @@ route1 =
 	@ILSRWY25L
 
 #ABBEY 3A
-[approach20]
+[approach21]
 runway = VHHHRWYN
 beacon = ABBEY
 route1 = @ABBEY3A
@@ -1011,7 +1141,7 @@ route1 = @ABBEY3A
 	!SOKOE, 8000
 	@ILSRWY07L
 
-[approach21]
+[approach22]
 runway = VHHHRWYN
 beacon = MUSEL
 route1 = 
@@ -1023,7 +1153,7 @@ route1 =
 	!SOKOE, 8000
 	@ILSRWY07L
 
-[approach22]
+[approach23]
 runway = VHHHRWYN
 beacon = TAMAR
 route1 = 
@@ -1034,7 +1164,7 @@ route1 =
 	!SOKOE, 8000
 	@ILSRWY07L
 
-[approach23]
+[approach24]
 runway = VHHHRWYN
 beacon = TD
 route1 = 
@@ -1044,7 +1174,7 @@ route1 =
 	!SOKOE, 8000
 	@ILSRWY07L
 
-[approach24]
+[approach25]
 runway = VHHHRWYN
 beacon = GUAVA
 route1 = 
@@ -1053,7 +1183,7 @@ route1 =
 	!SOKOE, 8000
 	@ILSRWY07L
 
-[approach25]
+[approach26]
 runway = VHHHRWYN
 beacon = !SOKOE
 route1 = 
@@ -1062,7 +1192,7 @@ route1 =
 	@ILSRWY07L
 
 #ABBEY 2B
-[approach26]
+[approach27]
 runway = VHHHRWYN, rev
 beacon = ABBEY
 route1 = @ABBEY2B
@@ -1072,7 +1202,7 @@ route1 = @ABBEY2B
 	!TAMAR
 	@ILSRWY25R
 
-[approach27]
+[approach28]
 runway = VHHHRWYN, rev
 beacon = MUSEL
 route1 = 
@@ -1081,7 +1211,7 @@ route1 =
 	!TAMAR
 	@ILSRWY25R
 
-[approach28]
+[approach29]
 runway = VHHHRWYN, rev
 beacon = TAMAR
 route1 = 
@@ -1090,7 +1220,7 @@ route1 =
 	@ILSRWY25R
 
 #BETTY 2A
-[approach29]
+[approach30]
 runway = VHHHRWYN
 beacon = BETTY
 route1 = @BETTY2A
@@ -1101,7 +1231,7 @@ route1 = @BETTY2A
 	!SOKOE, 8000
 	@ILSRWY07L
 
-[approach30]
+[approach31]
 runway = VHHHRWYN
 beacon = MANGO
 route1 = 
@@ -1112,7 +1242,7 @@ route1 =
 	@ILSRWY07L
 
 #BETTY 2B
-[approach31]
+[approach32]
 runway = VHHHRWYN, rev
 beacon = BETTY
 route1 = @BETTY2B
@@ -1121,7 +1251,7 @@ route1 = @BETTY2B
 	!MANGO, 13000, 280
 	@ILSRWY25R
 
-[approach32]
+[approach33]
 runway = VHHHRWYN, rev
 beacon = MANGO
 route1 = 
@@ -1130,7 +1260,7 @@ route1 =
 	@ILSRWY25R
 
 #CANTO 3A
-[approach33]
+[approach34]
 runway = VHHHRWYN
 beacon = CANTO
 route1 = @CANTO3A
@@ -1140,7 +1270,7 @@ route1 = @CANTO3A
 	!SILVA
 	@ILSRWY07L
 
-[approach34]
+[approach35]
 runway = VHHHRWYN
 beacon = MURRY
 route1 = 
@@ -1149,7 +1279,7 @@ route1 =
 	!SILVA
 	@ILSRWY07L
 
-[approach35]
+[approach36]
 runway = VHHHRWYN
 beacon = !SILVA
 route1 = 
@@ -1158,7 +1288,7 @@ route1 =
 	@ILSRWY07L
 
 #CANTO 2B
-[approach36]
+[approach37]
 runway = VHHHRWYN, rev
 beacon = CANTO
 route1 = @CANTO2B
@@ -1166,38 +1296,38 @@ route1 = @CANTO2B
 	!CANTO, 18000, 280
 	!MURRY, 15000
 	!GOODI
-	!MONTY
+	!MONTY, 9000
 	@ILSRWY25R
 
-[approach37]
+[approach38]
 runway = VHHHRWYN, rev
 beacon = MURRY
 route1 = 
 	46
 	!MURRY, 15000
 	!GOODI
-	!MONTY
+	!MONTY, 9000
 	@ILSRWY25R
 
-[approach38]
+[approach39]
 runway = VHHHRWYN, rev
 beacon = !GOODI
 route1 = 
 	32
 	!GOODI
-	!MONTY
+	!MONTY, 9000
 	@ILSRWY25R
 
-[approach39]
+[approach40]
 runway = VHHHRWYN, rev
 beacon = !MONTY
 route1 = 
 	75
-	!MONTY
+	!MONTY, 9000
 	@ILSRWY25R
 
 #SIERA 7A
-[approach40]
+[approach41]
 runway = VHHHRWYN
 beacon = SIERA
 route1 = 
@@ -1206,7 +1336,7 @@ route1 =
 	@CANTO3A
 
 #SIERA 7C
-[approach41]
+[approach42]
 runway = VHHHRWYN
 beacon = SIERA
 route1 = 
@@ -1216,7 +1346,7 @@ route1 =
 	!ROCCA, 19000
 	@CANTO3A
 
-[approach42]
+[approach43]
 runway = VHHHRWYN
 beacon = BORDA
 route1 = 
@@ -1225,7 +1355,7 @@ route1 =
 	!ROCCA
 	@CANTO3A
 
-[approach43]
+[approach44]
 runway = VHHHRWYN
 beacon = ROCCA
 route1 = 
@@ -1234,7 +1364,7 @@ route1 =
 	@CANTO3A
 
 #SIERA 6B
-[approach44]
+[approach45]
 runway = VHHHRWYN, rev
 beacon = SIERA
 route1 = 
@@ -1243,7 +1373,7 @@ route1 =
 	@CANTO2B
 
 #SIERA 6D
-[approach45]
+[approach46]
 runway = VHHHRWYN, rev
 beacon = SIERA
 route1 = 
@@ -1253,7 +1383,7 @@ route1 =
 	!ROCCA, 21000
 	@CANTO2B
 
-[approach46]
+[approach47]
 runway = VHHHRWYN, rev
 beacon = BORDA
 route1 = 
@@ -1262,7 +1392,7 @@ route1 =
 	!ROCCA
 	@CANTO2B
 
-[approach47]
+[approach48]
 runway = VHHHRWYN, rev
 beacon = ROCCA
 route1 = 
@@ -1271,7 +1401,7 @@ route1 =
 	@CANTO2B
 
 #V512/V591/V522
-[approach48]
+[approach49]
 runway = VHHHRWYN
 beacon = FISHA
 route1 = 
@@ -1279,7 +1409,7 @@ route1 =
 	!FISHA, 22000
 	@ABBEY3A
 
-[approach49]
+[approach50]
 runway = VHHHRWYN, rev
 beacon = FISHA
 route1 = 
@@ -1288,22 +1418,12 @@ route1 =
 	@ABBEY2B
 
 #V532/V525/W29
-[approach50]
+[approach51]
 runway = VHHHRWYN
 beacon = MEPUT
 route1 = 
 	187
 	!MEPUT
-	!EATON
-	!DAKTO
-	!SONNY, 26000
-	@BETTY2A
-
-[approach51]
-runway = VHHHRWYN
-beacon = EATON
-route1 = 
-	248
 	!EATON
 	!DAKTO
 	!SONNY, 26000
@@ -1311,6 +1431,16 @@ route1 =
 
 [approach52]
 runway = VHHHRWYN
+beacon = EATON
+route1 = 
+	248
+	!EATON
+	!DAKTO
+	!SONNY, 26000
+	@BETTY2A
+
+[approach53]
+runway = VHHHRWYN
 beacon = DAKTO
 route1 = 
 	318
@@ -1318,7 +1448,7 @@ route1 =
 	!SONNY, 26000
 	@BETTY2A
 
-[approach53]
+[approach54]
 runway = VHHHRWYN
 beacon = SONNY
 route1 = 
@@ -1326,7 +1456,7 @@ route1 =
 	!SONNY, 26000
 	@BETTY2A
 
-[approach54]
+[approach55]
 runway = VHHHRWYN, rev
 beacon = MEPUT
 route1 = 
@@ -1337,7 +1467,7 @@ route1 =
 	!SONNY, 26000
 	@BETTY2B
 
-[approach55]
+[approach56]
 runway = VHHHRWYN, rev
 beacon = EATON
 route1 = 
@@ -1347,7 +1477,7 @@ route1 =
 	!SONNY, 26000
 	@BETTY2B
 
-[approach56]
+[approach57]
 runway = VHHHRWYN, rev
 beacon = DAKTO
 route1 = 
@@ -1356,7 +1486,7 @@ route1 =
 	!SONNY, 26000
 	@BETTY2B
 
-[approach57]
+[approach58]
 runway = VHHHRWYN, rev
 beacon = SONNY
 route1 = 
@@ -1365,7 +1495,7 @@ route1 =
 	@BETTY2B
 
 #V542/V551
-[approach58]
+[approach59]
 runway = VHHHRWYN
 beacon = HOCKY
 route1 = 
@@ -1374,7 +1504,7 @@ route1 =
 	!CYBER, 26000
 	@BETTY2A
 
-[approach59]
+[approach60]
 runway = VHHHRWYN
 beacon = CYBER
 route1 = 
@@ -1382,7 +1512,7 @@ route1 =
 	!CYBER, 26000
 	@BETTY2A
 
-[approach60]
+[approach61]
 runway = VHHHRWYN, rev
 beacon = HOCKY
 route1 = 
@@ -1391,7 +1521,7 @@ route1 =
 	!CYBER, 26000
 	@BETTY2B
 
-[approach61]
+[approach62]
 runway = VHHHRWYN, rev
 beacon = CYBER
 route1 = 
@@ -1400,7 +1530,7 @@ route1 =
 	@BETTY2B
 
 #V561/V571
-[approach62]
+[approach63]
 runway = VHHHRWYN
 beacon = GAMBA
 route1 = 
@@ -1411,7 +1541,7 @@ route1 =
 	!ROCCA, 19000
 	@CANTO3A
 
-[approach63]
+[approach64]
 runway = VHHHRWYN
 beacon = MAPLE
 route1 = 
@@ -1421,7 +1551,7 @@ route1 =
 	!ROCCA, 19000
 	@CANTO3A
 
-[approach64]
+[approach65]
 runway = VHHHRWYN
 beacon = COMBI
 route1 = 
@@ -1430,7 +1560,7 @@ route1 =
 	!ROCCA, 19000
 	@CANTO3A
 
-[approach65]
+[approach66]
 runway = VHHHRWYN, rev
 beacon = GAMBA
 route1 = 
@@ -1441,7 +1571,7 @@ route1 =
 	!ROCCA, 21000
 	@CANTO2B
 
-[approach66]
+[approach67]
 runway = VHHHRWYN, rev
 beacon = MAPLE
 route1 = 
@@ -1451,7 +1581,7 @@ route1 =
 	!ROCCA, 21000
 	@CANTO2B
 
-[approach67]
+[approach68]
 runway = VHHHRWYN, rev
 beacon = COMBI
 route1 = 
@@ -1640,21 +1770,19 @@ route13 = PECAN1B V12, Pecan 1 Bravo Victor 1 2
 	!LEMON
 	!EPDOS
 
-
-[approach68]
+[approach69]
 runway = VMMCRWYLLZ
-beacon = !INDUS
+beacon = ZUH
 
-route1 = @LLZRWY16INDUS
+route1 = @LLZRWY16ZUH
 	328
-	!INDUS, 8900
 	!ZUH, 5900
-	!MC512, 3000
-	!MC511
-	!MC510, 2500
+	!MC512, 4000, 190
+	!MC511, 3500, 190
+	!MC510, 2500, 190
 	6, 1800, 185
 
-[approach69]
+[approach70]
 runway = VMMCRWYLLZ
 beacon = CHALI
 
@@ -1663,9 +1791,10 @@ route1 = @CHALI5B
 	!CHALI, 11000
 	!RUNLI, 9000
 	!MC513
-	@LLZRWY16INDUS
+	!INDUS, 8900
+	@LLZRWY16ZUH
 
-[approach70]
+[approach71]
 runway = VMMCRWYLLZ
 beacon = RUNLI
 
@@ -1673,9 +1802,19 @@ route1 =
 	26
 	!RUNLI, 9000
 	!MC513
-	@LLZRWY16INDUS
+	!INDUS, 8900
+	@LLZRWY16ZUH
 
-[approach71]
+[approach72]
+runway = VMMCRWYLLZ
+beacon = !INDUS
+
+route1 = 
+	328
+	!INDUS, 8900
+	@LLZRWY16ZUH
+
+[approach73]
 runway = VMMCRWYLLZ
 beacon = SMT
 
@@ -1685,10 +1824,21 @@ route1 = @SMT5B
 	!MC601
 	!HAZEL, 11000
 	!MC513
-	!INDUS
-	@LLZRWY16INDUS
+	!INDUS, 8900
+	@LLZRWY16ZUH
 
-[approach72]
+[approach74]
+runway = VMMCRWYLLZ
+beacon = HAZEL
+
+route1 = 
+	222
+	!HAZEL, 11000
+	!MC513
+	!INDUS, 8900
+	@LLZRWY16ZUH
+
+[approach75]
 runway = VMMCRWYLLZ
 beacon = NEDLE
 
@@ -1699,7 +1849,7 @@ route1 =
 	!BUMDI
 	@SMT5B
 
-[approach73]
+[approach76]
 runway = VMMCRWYLLZ
 beacon = PONTI
 
@@ -1709,7 +1859,7 @@ route1 =
 	!BUMDI
 	@SMT5B
 
-[approach74]
+[approach77]
 runway = VMMCRWYLLZ
 beacon = BUMDI
 
@@ -1718,18 +1868,18 @@ route1 =
 	!BUMDI
 	@SMT5B
 
-[approach75]
-runway = VMMCRWYLLZ
-beacon = ARROW
+#[approach77]
+#runway = VMMCRWYLLZ
+#beacon = ARROW
+#
+#route1 = 
+#	358
+#	!ARROW
+#	!ISBAN, 20000
+#	!ROBIN
+#	@CHALI5B
 
-route1 = 
-	358
-	!ARROW
-	!ISBAN, 20000
-	!ROBIN
-	@CHALI5B
-
-[approach76]
+[approach78]
 runway = VMMCRWYLLZ
 beacon = ISBAN
 
@@ -1739,7 +1889,7 @@ route1 =
 	!ROBIN
 	@CHALI5B
 
-[approach77]
+[approach79]
 runway = VMMCRWYLLZ
 beacon = ROBIN
 
@@ -1748,7 +1898,7 @@ route1 =
 	!ROBIN
 	@CHALI5B
 
-[approach78]
+[approach80]
 runway = VMMCRWYLLZ
 beacon = DASON
 
@@ -1758,7 +1908,7 @@ route1 =
 	!COTON, 12000
 	@CHALI5B
 
-[approach79]
+[approach81]
 runway = VMMCRWYLLZ
 beacon = COTON
 
@@ -1767,7 +1917,7 @@ route1 =
 	!COTON, 12000
 	@CHALI5B
 
-[approach80]
+[approach82]
 runway = VMMCRWY, rev
 beacon = !PAPA
 
@@ -1776,7 +1926,7 @@ route1 = @ILSRWY34
 	!PAPA, 3000, 190
 	10, 3000, 190
 
-[approach81]
+[approach83]
 runway = VMMCRWY, rev
 beacon = !MC611
 
@@ -1786,7 +1936,7 @@ route1 = @ILSRWY34MC611
 	!MC610
 	@ILSRWY34
 
-[approach82]
+[approach84]
 runway = VMMCRWY, rev
 beacon = HAZEL
 
@@ -1798,7 +1948,7 @@ route1 = @ILSRWY34HAZEL
 	!MC610
 	@ILSRWY34
 
-[approach83]
+[approach85]
 runway = VMMCRWY, rev
 beacon = UJ
 
@@ -1810,7 +1960,7 @@ route1 = @ILSRWY34UJ
 	!MC610
 	@ILSRWY34
 
-[approach84]
+[approach86]
 runway = VMMCRWY, rev
 beacon = UJ
 
@@ -1821,7 +1971,7 @@ route1 =
 	!MC610
 	@ILSRWY34
 
-[approach85]
+[approach87]
 runway = VMMCRWY, rev
 beacon = MCU
 
@@ -1829,11 +1979,13 @@ route1 = @ILSRWY34MCU
 	182
 	!MCU, 6900
 	!MC614
+	!MC613
 	!MC612
 	!MC610
 	@ILSRWY34
 
-[approach86]
+#ILS RWY 34 missed
+[approach88]
 runway = VMMCRWY, rev
 beacon = ZAO
 
@@ -1849,7 +2001,7 @@ route1 =
 	!MC610
 	@ILSRWY34
 
-[approach87]
+[approach89]
 runway = VMMCRWY, rev
 beacon = !MC420
 
@@ -1864,7 +2016,7 @@ route1 =
 	!MC610
 	@ILSRWY34
 
-[approach88]
+[approach90]
 runway = VMMCRWY, rev
 beacon = !MC411
 
@@ -1878,7 +2030,7 @@ route1 =
 	!MC610
 	@ILSRWY34
 
-[approach89]
+[approach91]
 runway = VMMCRWY, rev
 beacon = CHALI
 
@@ -1888,7 +2040,7 @@ route1 = @CHALI4A
 	!RUNLI, 9000
 	@ILSRWY34MC611
 
-[approach90]
+[approach92]
 runway = VMMCRWY, rev
 beacon = RUNLI
 
@@ -1897,7 +2049,7 @@ route1 =
 	!RUNLI, 9000
 	@ILSRWY34MC611
 
-[approach91]
+[approach93]
 runway = VMMCRWY, rev
 beacon = SMT
 route1 = @SMT4A
@@ -1906,7 +2058,7 @@ route1 = @SMT4A
 	!MC601
 	@ILSRWY34HAZEL
 
-[approach92]
+[approach94]
 runway = VMMCRWY, rev
 beacon = NEDLE
 
@@ -1917,7 +2069,7 @@ route1 =
 	!BUMDI
 	@SMT4A
 
-[approach93]
+[approach95]
 runway = VMMCRWY, rev
 beacon = PONTI
 
@@ -1927,7 +2079,7 @@ route1 =
 	!BUMDI
 	@SMT4A
 
-[approach94]
+[approach96]
 runway = VMMCRWY, rev
 beacon = BUMDI
 
@@ -1947,7 +2099,7 @@ route1 =
 #	!ROBIN
 #	@CHALI4A
 
-[approach95]
+[approach97]
 runway = VMMCRWY, rev
 beacon = ISBAN
 
@@ -1957,7 +2109,7 @@ route1 =
 	!ROBIN
 	@CHALI4A
 
-[approach96]
+[approach98]
 runway = VMMCRWY, rev
 beacon = ROBIN
 
@@ -1966,7 +2118,7 @@ route1 =
 	!ROBIN
 	@CHALI4A
 
-[approach97]
+[approach99]
 runway = VMMCRWY, rev
 beacon = DASON
 
@@ -1976,7 +2128,7 @@ route1 =
 	!COTON, 12000
 	@CHALI4A
 
-[approach98]
+[approach100]
 runway = VMMCRWY, rev
 beacon = COTON
 
@@ -2002,7 +2154,6 @@ route3 = ALLEY2P, Alley 2 Papa
 	@ALLEY2P
 	!SURFA
 	!IDOSI
-	!IKELA
 
 route4 = ALLEY2P, Alley 2 Papa
 	@ALLEY2P
@@ -2078,7 +2229,6 @@ route4 = ALLEY2U, Alley 2 Uniform
 	@ALLEY2U
 	!SURFA
 	!IDOSI
-	!IKELA
 
 route5 = ALLEY2U, Alley 2 Uniform
 	@ALLEY2U
