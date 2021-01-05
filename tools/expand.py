@@ -69,12 +69,11 @@ class Airline:
             self.pronunciation = data[0].strip()
             data = data[1:]
         if gateways is not None:
-            directions = set()
+            directions = []
             arrival_gateways = {gateway.strip() for gateway in data[0].split("/")}
             departure_gateways = {gateway.strip() for gateway in data[1].split("/")}
-            for gateway in arrival_gateways | departure_gateways:
-                directions.add(gateways[gateway])
-            self.directions = "".join(directions)
+            self.directions = "".join(sorted(
+                {gateways[gateway] for gateway in arrival_gateways | departure_gateways}))
         else:
             self.directions = data[0].strip()
 
