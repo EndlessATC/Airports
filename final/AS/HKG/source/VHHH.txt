@@ -604,6 +604,7 @@ sids =
 	!SKATE
 	!ALLEY
 	!PECAN
+	!VENGO
 
 entrypoints =
 #A470 DOTMI V5122
@@ -1332,7 +1333,7 @@ runway = VHHHRWYN
 beacon = SIERA
 route1 = 
 	160
-	!SIERA, 23000, 280
+	!SIERA, 21000, 280
 	@CANTO3A
 
 #SIERA 7C
@@ -1341,7 +1342,7 @@ runway = VHHHRWYN
 beacon = SIERA
 route1 = 
 	160
-	!SIERA, 30000, 280
+	!SIERA, 23000, 280
 	!BORDA, 23000, 250
 	!ROCCA, 19000
 	@CANTO3A
@@ -1350,9 +1351,16 @@ route1 =
 runway = VHHHRWYN
 beacon = BORDA
 route1 = 
-	208
+	78
 	!BORDA, 23000, 250
 	!ROCCA
+	@CANTO3A
+
+route2 = 
+	208
+	!SIERA, 23000, 280
+	!BORDA, 23000, 250
+	!ROCCA, 19000
 	@CANTO3A
 
 [approach44]
