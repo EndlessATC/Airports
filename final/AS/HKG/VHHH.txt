@@ -1,4 +1,4 @@
-# VHHH ACA 1.0.0
+# VHHH TMA 1.0.0
 # See VHHH_readme.md
 
 # This file is generated from the source file source\VHHH.txt using expand.py.
@@ -59,7 +59,6 @@ beacons = CH, N22.13.10.35, E114.01.48.20, 0, Cheung Chau
 	NEDLE, N22.23.13.95, E114.41.57.47, 0, Nedle
 	PONTI, N22.22.16.35, E114.27.45.83, 0, Ponti
 	ROBIN, N21.02.45.00, E114.16.06.00, 0, Robin
-	ROMEO, N21.51.48, E113.26.54, 0, Romeo
 	RUNLI, N21.26.59.72, E113.40.51.00, 0, Runli
 	U, N21.59.3, E113.21.3, 0, San-zao
 	UJ, N21.55.2, E113.17.6, 0, Gao-lan
@@ -264,7 +263,7 @@ points =
 
 [area5]
 shape = polygon
-altitude = 9001
+altitude = 5501
 labelpos = N22.12.30, E114.05.30
 points = 
 	N22.28.34, E114.00.54
@@ -378,6 +377,8 @@ sids =
 	ALLEY, N21.05.11.15, E113.47.09.50, Alley
 	PECAN, N21.26.20.19, E114.02.05.64, Pecan
 	VENGO, N21.59.16.17, E115.16.08.46, Vengo
+	IKELA, N18.39.42.00, E112.14.42.00, Ikela
+	F, N21.45.36.00, E113.22.00.00, Foxtrot
 entrypoints = 
 	54, FISHA
 	54, FISHA
@@ -7261,6 +7262,19 @@ route1 =
 
 [approach72]
 runway = VMMCRWYLLZ
+beacon = MC513, N22.01.09.95, E113.37.20.04, -328, Mike Charlie 5 1 3
+route1 = 
+	328
+	N22.01.09.95, E113.37.20.04
+	N22.02.41.00, E113.36.01.00, 8900
+	N22.13.18, E113.28.00, 5900
+	N22.21.49.25, E113.33.45.41, 4000, 190
+	N22.21.49.23, E113.36.58.39, 3500, 190
+	N22.17.02.13, E113.38.29.61, 2500, 190
+	6, 1800, 185
+
+[approach73]
+runway = VMMCRWYLLZ
 beacon = INDUS, N22.02.41.00, E113.36.01.00, 0, Indus
 route1 = 
 	328
@@ -7271,7 +7285,7 @@ route1 =
 	N22.17.02.13, E113.38.29.61, 2500, 190
 	6, 1800, 185
 
-[approach73]
+[approach74]
 runway = VMMCRWYLLZ
 beacon = SMT
 route1 = 258
@@ -7286,7 +7300,7 @@ route1 = 258
 	N22.17.02.13, E113.38.29.61, 2500, 190
 	6, 1800, 185
 
-[approach74]
+[approach75]
 runway = VMMCRWYLLZ
 beacon = HAZEL
 route1 = 
@@ -7300,30 +7314,12 @@ route1 =
 	N22.17.02.13, E113.38.29.61, 2500, 190
 	6, 1800, 185
 
-[approach75]
+[approach76]
 runway = VMMCRWYLLZ
 beacon = NEDLE
 route1 = 
 	269
 	N22.23.13.95, E114.41.57.47, 23000
-	N22.22.16.35, E114.27.45.83
-	N22.21.39.62, E114.18.52.61
-	N22.20.15.43, E113.58.55.46
-	N22.19.43.55, E113.56.43.60
-	N22.01.26.49, E113.40.56.63, 11000
-	N22.01.09.95, E113.37.20.04
-	N22.02.41.00, E113.36.01.00, 8900
-	N22.13.18, E113.28.00, 5900
-	N22.21.49.25, E113.33.45.41, 4000, 190
-	N22.21.49.23, E113.36.58.39, 3500, 190
-	N22.17.02.13, E113.38.29.61, 2500, 190
-	6, 1800, 185
-
-[approach76]
-runway = VMMCRWYLLZ
-beacon = PONTI
-route1 = 
-	269
 	N22.22.16.35, E114.27.45.83
 	N22.21.39.62, E114.18.52.61
 	N22.20.15.43, E113.58.55.46
@@ -7339,6 +7335,24 @@ route1 =
 
 [approach77]
 runway = VMMCRWYLLZ
+beacon = PONTI
+route1 = 
+	269
+	N22.22.16.35, E114.27.45.83
+	N22.21.39.62, E114.18.52.61
+	N22.20.15.43, E113.58.55.46
+	N22.19.43.55, E113.56.43.60
+	N22.01.26.49, E113.40.56.63, 11000
+	N22.01.09.95, E113.37.20.04
+	N22.02.41.00, E113.36.01.00, 8900
+	N22.13.18, E113.28.00, 5900
+	N22.21.49.25, E113.33.45.41, 4000, 190
+	N22.21.49.23, E113.36.58.39, 3500, 190
+	N22.17.02.13, E113.38.29.61, 2500, 190
+	6, 1800, 185
+
+[approach78]
+runway = VMMCRWYLLZ
 beacon = BUMDI
 route1 = 
 	269
@@ -7354,7 +7368,7 @@ route1 =
 	N22.17.02.13, E113.38.29.61, 2500, 190
 	6, 1800, 185
 
-[approach78]
+[approach79]
 runway = VMMCRWYLLZ
 beacon = ISBAN
 route1 = 
@@ -7371,7 +7385,7 @@ route1 =
 	N22.17.02.13, E113.38.29.61, 2500, 190
 	6, 1800, 185
 
-[approach79]
+[approach80]
 runway = VMMCRWYLLZ
 beacon = ROBIN
 route1 = 
@@ -7387,7 +7401,7 @@ route1 =
 	N22.17.02.13, E113.38.29.61, 2500, 190
 	6, 1800, 185
 
-[approach80]
+[approach81]
 runway = VMMCRWYLLZ
 beacon = DASON
 route1 = 
@@ -7404,7 +7418,7 @@ route1 =
 	N22.17.02.13, E113.38.29.61, 2500, 190
 	6, 1800, 185
 
-[approach81]
+[approach82]
 runway = VMMCRWYLLZ
 beacon = COTON
 route1 = 
@@ -7420,14 +7434,14 @@ route1 =
 	N22.17.02.13, E113.38.29.61, 2500, 190
 	6, 1800, 185
 
-[approach82]
+[approach83]
 runway = VMMCRWY, rev
 beacon = PAPA, N21.58.39.00, E113.39.22.00, -344, Papa
 route1 = 344
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach83]
+[approach84]
 runway = VMMCRWY, rev
 beacon = MC611, N21.39.36.00, E113.46.30.00, 0, Mike Charlie 6 1 1
 route1 = 344
@@ -7436,7 +7450,7 @@ route1 = 344
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach84]
+[approach85]
 runway = VMMCRWY, rev
 beacon = HAZEL
 route1 = 222
@@ -7447,7 +7461,7 @@ route1 = 222
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach85]
+[approach86]
 runway = VMMCRWY, rev
 beacon = UJ
 route1 = 115
@@ -7458,9 +7472,9 @@ route1 = 115
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach86]
+[approach87]
 runway = VMMCRWY, rev
-beacon = UJ
+beacon = R, N21.51.48, E113.26.54, 0, Romeo
 route1 = 
 	115
 	N21.51.48, E113.26.54, 5900
@@ -7469,7 +7483,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach87]
+[approach88]
 runway = VMMCRWY, rev
 beacon = MCU
 route1 = 182
@@ -7481,7 +7495,7 @@ route1 = 182
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach88]
+[approach89]
 runway = VMMCRWY, rev
 beacon = ZAO
 route1 = 
@@ -7497,7 +7511,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach89]
+[approach90]
 runway = VMMCRWY, rev
 beacon = MC420, N22.20.32.29, E113.41.43.59, 0, Mike Charlie 4 2 0
 route1 = 
@@ -7512,7 +7526,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach90]
+[approach91]
 runway = VMMCRWY, rev
 beacon = MC411, N22.21.41.20, E113.47.37.58, 0, Mike Charlie 4 1 1
 route1 = 
@@ -7526,7 +7540,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach91]
+[approach92]
 runway = VMMCRWY, rev
 beacon = CHALI
 route1 = 26
@@ -7537,7 +7551,7 @@ route1 = 26
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach92]
+[approach93]
 runway = VMMCRWY, rev
 beacon = RUNLI
 route1 = 
@@ -7548,7 +7562,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach93]
+[approach94]
 runway = VMMCRWY, rev
 beacon = SMT
 route1 = 258
@@ -7561,7 +7575,7 @@ route1 = 258
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach94]
+[approach95]
 runway = VMMCRWY, rev
 beacon = NEDLE
 route1 = 
@@ -7578,7 +7592,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach95]
+[approach96]
 runway = VMMCRWY, rev
 beacon = PONTI
 route1 = 
@@ -7594,7 +7608,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach96]
+[approach97]
 runway = VMMCRWY, rev
 beacon = BUMDI
 route1 = 
@@ -7609,7 +7623,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach97]
+[approach98]
 runway = VMMCRWY, rev
 beacon = ISBAN
 route1 = 
@@ -7623,7 +7637,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach98]
+[approach99]
 runway = VMMCRWY, rev
 beacon = ROBIN
 route1 = 
@@ -7636,7 +7650,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach99]
+[approach100]
 runway = VMMCRWY, rev
 beacon = DASON
 route1 = 
@@ -7650,7 +7664,7 @@ route1 =
 	N21.58.39.00, E113.39.22.00, 3000, 190
 	10, 3000, 190
 
-[approach100]
+[approach101]
 runway = VMMCRWY, rev
 beacon = COTON
 route1 = 
