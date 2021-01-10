@@ -24,24 +24,24 @@ Note that as the game cannot handle multiple approaches to the same runway from 
 
 Aircraft arrive via 4 points:
 
-- `FISHA` ( from Taipei FIR to the east; from the northeast via Guangzhou FIR)
-- `DAKTO` ( from Manila FIR the southeast)
-- `HOCKY` ( from the south/southwest)
-- `GAMBA` ( from Sanya FIR to the west)
-- `SIERA` ( from Guangzhou FIR to the north)
+- `FISHA` (`A1/G581 ELATO V522` from Taipei FIR to the east; `A470 DOTMI V512` or `M503 LELIM V591` from the northeast via Guangzhou FIR)
+- `DAKTO` (`A461/M501 NOMAN V532` from Manila FIR the southeast)
+- `HOCKY` (`A583 SABNO V542` or `M771/M772 DUMOL Q1 CARSO V551` from the south/southwest)
+- `GAMBA` (`A1/P901 IDOSI V561` or `A202/R339 SIKOU V571` from Sanya FIR to the west)
+- `SIERA` (`R473 SIERA` from Guangzhou FIR to the north)
 
 Aircraft depart via 10 points:
 
-- `BEKOL`
-- `DOTMI`
-- `LELIM`
-- `ENVAR`
-- `KAPLI`
-- `NOMAN`
-- `SABNO`
-- `EPDOS`
-- `IDOSI`
-- `SIKOU`
+- `BEKOL` (north via `A461` to China)
+- `DOTMI` (northeast via `A470` to southeastern China)
+- `LELIM` (northeast via `M503` to Shanghai Pudong, Qingdao, Dalian, Yantai)
+- `ENVAR` (east via `M750` to Korea, Japan, Pacific)
+- `KAPLI` (east via 'G86' to routes south of Taiwan)
+- `NOMAN` (southeast via `M501` and `A461` to Philippines)
+- `SABNO` (south via `A583`)
+- `EPDOS` (southwest via `L642` to Singapore, Malaysia)
+- `IDOSI` (southwest via `A1` to Cambodia, Vietnam, Thailand)
+- `SIKOU` (west via `A202` or `R339` to Hainan, Hanoi, India etc.)
 
 There are two runways:
 
@@ -90,21 +90,21 @@ Some major fixes on the map have a defined hold including many fixes along the S
 
 Aircraft arrive via 4 points:
 
-- `NEDLE` ( from Taipei FIR to the east; from the northeast via Guangzhou FIR)
-- `ISBAN` ( from Manila FIR the southeast)
-- `DASON` ( from the south/southwest)
+- `NEDLE` (`J101` from the east via Taipei FIR or from the northeast via Guangzhou FIR)
+- `ISBAN` (`J103` from the southeast via Manila FIR or southsouthwest via Sanya FIR)
+- `DASON` (`J104` from the south/southwest via Sanya FIR)
 
 Aircraft depart via 9 points:
 
-- `DOTMI`
-- `LELIM`
-- `ENVAR`
-- `KAPLI`
-- `NOMAN`
-- `SABNO`
-- `EPDOS`
-- `IDOSI`
-- `SIKOU`
+- `DOTMI` (northeast via `A470` to southeastern China)
+- `LELIM` (northeast via `M503` to Shanghai Pudong, Qingdao, Dalian, Yantai)
+- `ENVAR` (east via `M750` to Korea, Japan, Pacific)
+- `KAPLI` (east via 'G86' to routes south of Taiwan)
+- `NOMAN` (southeast via `M501` and `A461` to Philippines)
+- `SABNO` (south via `A583`)
+- `EPDOS` (southwest via `L642` to Singapore, Malaysia)
+- `IDOSI` (southwest via `A1` to Cambodia, Vietnam, Thailand)
+- `SIKOU` (west via `A202` or `R339` to Hanoi, India etc.)
 
 There is the one island runway, 16/34. However, to simulate the offset localizer for 16, a fake runway 16C(/34C) is included. Planes will land on 16C instead of 16.
 
@@ -120,7 +120,7 @@ Two landing configurations are in general use:
 
 	Speed management can be effective to sequence aircraft.	Arrivals via the established STARs are recommended due to the congestion of airspace around `VHHH`.
 
-	Use care to have 34 departures climb to 6000 to cross `LKC` @ 6000 with further climb subject to traffic conditions (arrivals via `SMT` overhead).
+	Use care to have 34 departures climb to 6000 (+4000 by `MC420`, +5500 by `MC411`) to cross `LKC` 6000 with further climb subject to traffic conditions (arrivals via `SMT` overhead).
 
 -	Landing 16(C), departing 16
 
@@ -154,4 +154,4 @@ This file is built from `source\VHHH.txt` via `deploy.py`. Make any contribution
 
 ## Changelog
 
-*	1.0 - 2020/01/06 - Initial version.
+*	1.0 - 2020/01/09 - Initial version.

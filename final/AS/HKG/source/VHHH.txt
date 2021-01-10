@@ -440,7 +440,7 @@ points =
 #HONG KONG CTR
 [area5]
 shape = polygon
-#reduce height of area to 5500 for VMMC departures via LKC
+#reduce height of area to 5500 for VMMC missed approaches
 #altitude = 9001
 altitude = 5501
 labelpos = N22.12.30, E114.05.30
@@ -463,11 +463,22 @@ points =
 	N21.56.25, E113.48.00
 	N22.13.44, E113.39.57
 
+#HONG KONG ATZ
+[area6]
+shape = polygon
+altitude = 2000
+labelpos = N22.17.05, E113.53.00
+points = 
+	N22.19.58, E113.51.11
+	N22.21.45, E113.56.58
+	N22.17.05, E113.58.41
+	N22.15.24, E113.53.00
+
 #MACAU ATZ
 #5NM from ARP, except 3NM west parallel to RWY
 #5NM wide stub to 10NM RWY34
 #2NM wide stub to 6.27NM(ZAO) MCS LLZ
-[area6]
+[area7]
 shape = polygon
 altitude = 3001
 labelpos = N22.09.20, E113.36.30
@@ -530,7 +541,7 @@ points =
 #314
 	N22.12.26, E113.31.36
 
-[area7]
+[area8]
 shape = polygon
 altitude = 13000
 name = MC
@@ -843,7 +854,7 @@ runways =
 inboundbeacon = MCU
 traffic = 10
 
-climbaltitude = 4000
+climbaltitude = 6000
 
 sids = 
 	!BEKOL
@@ -1142,7 +1153,7 @@ route1 = @ABBEY3A
 	!MUSEL, 13000, 280
 	!TAMAR
 	!TD
-	!GUAVA
+	!GUAVA, 11000
 	!SOKOE, 8000
 	@ILSRWY07L
 
@@ -1154,7 +1165,7 @@ route1 =
 	!MUSEL, 13000, 280
 	!TAMAR
 	!TD
-	!GUAVA
+	!GUAVA, 11000
 	!SOKOE, 8000
 	@ILSRWY07L
 
@@ -1165,7 +1176,7 @@ route1 =
 	271
 	!TAMAR
 	!TD
-	!GUAVA
+	!GUAVA, 11000
 	!SOKOE, 8000
 	@ILSRWY07L
 
@@ -1175,7 +1186,7 @@ beacon = TD
 route1 = 
 	271
 	!TD
-	!GUAVA
+	!GUAVA, 11000
 	!SOKOE, 8000
 	@ILSRWY07L
 
@@ -1184,7 +1195,7 @@ runway = VHHHRWYN
 beacon = GUAVA
 route1 = 
 	251
-	!GUAVA
+	!GUAVA, 11000
 	!SOKOE, 8000
 	@ILSRWY07L
 
@@ -1232,7 +1243,7 @@ route1 = @BETTY2A
 	345
 	!BETTY
 	!MANGO, 13000, 280
-	!GUAVA
+	!GUAVA, 11000
 	!SOKOE, 8000
 	@ILSRWY07L
 
@@ -1242,7 +1253,7 @@ beacon = MANGO
 route1 = 
 	345
 	!MANGO, 13000, 280
-	!GUAVA
+	!GUAVA, 11000
 	!SOKOE, 8000
 	@ILSRWY07L
 
@@ -1335,16 +1346,20 @@ route1 =
 [approach41]
 runway = VHHHRWYN
 beacon = SIERA
+#lower altitudes than CANTO3A due to flyby CANTO resulting in shorter track distance
 route1 = 
 	160
-	!SIERA, 21000, 280
-	@CANTO3A
+	!SIERA, 19000, 280
+	!CANTO, 15000, 280
+	!MURRY, 13000
+	!SILVA
+	@ILSRWY07L
 
 #SIERA 7C
 [approach42]
 runway = VHHHRWYN
 beacon = SIERA
-route1 = 
+route1 = @SIERA7C
 	160
 	!SIERA, 23000, 280
 	!BORDA, 23000, 250
@@ -1362,10 +1377,7 @@ route1 =
 
 route2 = 
 	208
-	!SIERA, 23000, 280
-	!BORDA, 23000, 250
-	!ROCCA, 19000
-	@CANTO3A
+	@SIERA7C
 
 [approach44]
 runway = VHHHRWYN
@@ -2304,7 +2316,7 @@ route14 = SOUSA3U, Sousa 3 Uniform
 [configurations]
 config1 = 
 	0, VHHHRWYN, land
-	0, VHHHRWYS, start
+	0, VHHHRWYS, startint
 	0, VMMCRWY, landstartrev, 359
 
 config2 = 
