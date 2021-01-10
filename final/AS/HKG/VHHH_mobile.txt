@@ -1,4 +1,4 @@
-# p1.2.1: TMA FIR Border Reform
+# p1.3: Mobile Version Naming Update
 
 # VHHH TMA Teminal Airspace
 [airspace]
@@ -7,11 +7,8 @@ radius = 70
 zoom = 7.0
 elevation = 28
 floor = 1500
-# MVA = Minimum Vector Altitude
-# AD-2-VHHH-SMAC-1
-## MVA in APP actually is 3000ft
 descendaltitude = 15000
-ceiling = 17000
+ceiling = 25000
 # DEP Handoff
 ## PECAN F160
 ## BEKOL S690 / S0480
@@ -28,7 +25,7 @@ center = N22.13.10.35, E114.01.48.20
 # 221832N 1135453E (DMS)
 beacons =
 #VOR/DME
-		CH,  N22.13.10.35, E114.01.48.20, 270, Chueng Chau
+#		CH,  N22.13.10.35, E114.01.48.20, 270, Chueng Chau
 		TD,  N22.14.52.42, E114.17.35.30, 344, Tung Lung
 		SMT, N22.20.15, E113.58.55, 0, Siu Mo To
 #		LKC, N22.22.73, E113,53.02, 0, Lung Kwu Chau
@@ -92,14 +89,13 @@ boundary =
 		N022.27.49.323, E114.41.46.998		
 		N022.30.55.746, E114.52.51.523
 		N022.33.01.131, E115.53.46.934
-#TME/RK p2
+#TME
     	N022.17.33.160, E115.41.24.360 
 		N022.05.31.086, E115.41.51.573
-		N022.03.55.973, E114.55.53.778
-#APP p4		
+		N022.03.55.973, E114.55.53.778	
 		N021.45.38.701, E114.56.35.216
 		N021.41.37.234, E114.40.59.519
-#TMS p2
+#TMS
         N021.10.51.479, E115.18.18.280
         N021.01.09.409, E115.03.06.874
         N020.54.57.055, E114.48.42.486
@@ -113,7 +109,7 @@ boundary =
         N020.58.04.640, E113.39.15.675
         N021.01.09.409, E113.32.03.726
 		N021.05.36.293, E113.23.45.879
-#TMW p4
+#TMW
 		N021.09.35.181, E113.19.00.266
 		N021.19.59.360, E113.07.41.228
 		N021.32.03.368, E112.58.27.205
@@ -191,7 +187,7 @@ code = VHHH
 runways =
 	VHNorth, 07L, N22.18.39.30, E113.53.52.67, 071, 12467, 11900, 11896, 27, 3, 071, 3, 251, VH710, 8.3, RIVER, 15
 	VHSouth, 07R, N22.17.48.03, E113.55.58.15, 071, 12467, 11942, 12467, 27, 3, 071, 3, 251, VH720, 8.3, LOTUS, 15
-climbaltitude = 7000
+climbaltitude = 5000
 sids =
 	BEKOL
 	LAKES
@@ -250,24 +246,22 @@ config1 =
 			0, 	VHSouth, start
 			0, 	VHNorth, land
 #			10, KT,		 startland
-			10, VHSouth, startland
-			10, VHNorth, startland			
+		
 config2 = 
 			0, 	VHSouth, startrev
 			0, 	VHNorth, landrev
 #			10, KT,		 startlandrev
-			10, VHSouth, startlandrev
-			10, VHNorth, startlandrev
+
 config3 =
 			0, VHSouth,	 startland
 #			10, KT,		 land
 #			12, KT,		 startland
-			10, VHNorth, land
+
 config4 =
 			0, VHSouth,	 startlandrev
 #			10, KT,		 landrev
 #			12, KT,		 startlandrev
-			10, VHNorth, landrev
+
 
 [departure1]
 runway = VHSouth

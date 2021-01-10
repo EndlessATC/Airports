@@ -3,9 +3,11 @@
 
 # Hong Kong TMA / VHHH Hong Kong
 
-  
+  !Important: This is a such simpler version develop for Mobile EATC player.
+  The folder going to store in your phone is: `\\Android\data\com.dirgtrats.endlessatc\files`
 
-This is an implementation of the Hong Kong FIR and TMA for [Endless ATC](https://steamcommunity.com/app/666610) featuring `VHHH` Hong Kong International Airport . The airspace ceiling is FL250.
+This is an implementation of the Hong Kong FIR and TMA for [Endless ATC](https://steamcommunity.com/app/666610) featuring `VHHH` Hong Kong International Airport. The airspace ceiling is FL250.
+This Map ONLY include Hong Kong Terminal Control Area and some Extended Section on Zhuhai TCA.
 
   
 
@@ -13,7 +15,7 @@ Based upon AIP Hong Kong 11/20 (2020 11th Version) . The SIDs and STARs may not 
 
   
 
-The border of the map has included VHHK FIR / VHHH TMA, VMMC ATZ, ZGGG FIR and ZGZU TCA and playable range only include VHHH TMA and VMMC ATZ due to the size of FIR are too big to play.
+The border of the map has included VHHH TMA, VMMC ATZ, ZGGG FIR and ZGZUTM04 TCA and playable range only include VHHH TMA and VMMC ATZ due to the size of FIR are too big to play.
 
 Information of Hong Kong TMA, Transition Altitude (TA) shall be 9000ft and Transition Level (TFL) shall be FL110 (QNH980+), FL120 (QNH979-). Do not assign FL100! Live QNH can be retrieved at [ATIS](https://atis.cad.gov.hk/ATIS/ATISweb/atis.php) by CADHK.
 
@@ -91,9 +93,9 @@ Due to Complication of airspace, all traffic are suggested to follow STAR approa
 
 - TD VOR is a collision point between Departure SID and Arrival STAR:
 
-- Departure maintain 5000ft or below
+- Departure maintain 7000ft or below
 
-- Arrival maintain 7000ft or above
+- Arrival maintain 9000ft or above
 
   
 
@@ -159,7 +161,7 @@ This is a best effort work based on air traffic observations and official aerona
 
 ## For Developers
 
-We are looking for whole FIR development for PC Player.
+For further infomative version, consider PC version developed by ckwng.
 
   
 
@@ -185,6 +187,7 @@ We are looking for whole FIR development for PC Player.
 
   
 
-* 1.0 - 2020/12/31 - Initial version.
-* 1.1 - 2021/01/01 - HotFix: North Border
-* 1.2 - 2021/01/03 - Included ZGZUTM04 Airspace / VMMC Border line.
+* 1.0 ( / ) - 2020/12/31 - Initial version.
+* 1.1 ( / ) - 2021/01/01 - HotFix: North Border
+* 1.2 ( / ) - 2021/01/03 - Included ZGZUTM04 Airspace / VMMC Border line.
+* 1.3 (p1.3) - 2021/01/10 - File Name Conflict Update, Extra Information Inc.
