@@ -110,13 +110,21 @@ def process_approach_fix_list(fix_list, fixes, tagged_routes):
         `fix_list` (list): A list of fix definitions.
         `fixes` (dict): A lookup of `Fix`es.
         `tagged_routes` (dict): A lookup of approach routes."""
+    current_tag = None
     if fix_list:
         if fix_list[0].startswith('@'):
-            tagged_routes[fix_list[0].lstrip('@')] = fix_list[2:]
+            current_tag = fix_list[0].lstrip('@')
+            tagged_routes[current_tag] = fix_list[2:]
             fix_list = fix_list[1:]
         if fix_list[-1].startswith('@'):
+            following_tag = fix_list[-1].lstrip('@')
+            if current_tag is not None and current_tag == following_tag:
+                raise RuntimeError(
+                    '''Unable to build as approach tagged as @{tag} is trying to reference itself.
+The following is the route= contents after the @tag: \n{lines}'''
+                    .format(tag=current_tag, lines="\n".join(fix_list)))
             yield from process_fix_list(fix_list[:-1], fixes)
-            yield from process_approach_fix_list(tagged_routes[fix_list[-1].lstrip('@')], fixes, tagged_routes)
+            yield from process_approach_fix_list(tagged_routes[following_tag], fixes, tagged_routes)
         else:
             yield from process_fix_list(fix_list, fixes)
 
