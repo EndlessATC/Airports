@@ -1,7 +1,7 @@
 # VHHH TMA 1.0.0
-# See VHHH_readme.md
+# See VHHH_PC_readme.md
 
-# This file is generated from the source file source\VHHH.txt using expand.py.
+# This file is generated from the source file source\VHHH_PC.txt using expand.py.
 # All comments have been stripped, and edits are not made directly to this file.
 # If you would like to contribute, or see the author's comments, please refer to the source file.
 
