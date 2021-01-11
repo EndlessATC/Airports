@@ -1,0 +1,1070 @@
+[meta]
+header = ROAH ACA 1.0.0
+	See ROAH_readme.md
+
+[airspace]
+radius = 80
+zoom = 1
+elevation = 11
+floor = 0
+descendaltitude = 15000
+ceiling = 20000
+above = 28000
+transitionaltitude = 13999
+speedrestriction = 80, 250
+usa = false
+metric = false
+center = N26.12.30.71, E127.38.34.32
+magneticvar = -5
+beacons =
+#ENROUTE VORDME
+	NHC, N26.12.30.71, E127.38.34.32, 0, Naha
+	ONC, N27.25.58.38, E128.41.56.27, 0, Erabu
+	KXC, N26.22.18.73, E126.43.19.43, 0, Kumejima
+#TERMINAL VORDME/TACAN
+	YRE, N27.02.39.75, E128.23.52.89, 0, Yoron
+	KAD, N26.21.24.16, E127.46.06.73, 0, Kadena
+	NFO, N26.16.07.8, E127.44.34.8, 0, Futenma
+#FIXES
+	KYANN, N26.00.29.74, E127.39.16.75, !, Kyann
+	ESKOB, N26.10.09.51, E127.57.27.64, !, Eskob
+	ADDAN, N26.41.10.00, E128.18.29.44, !, Addan
+	CHERY, N26.55.56.36, E128.39.18.08, !, Chery
+	AMAMI, N28.26.37.21, E129.35.02.64, !, Amami
+	VIGER, N25.57.43.88, E127.35.26.92, 16, Viger
+	CANOP, N25.29.55.77, E127.09.17.05, !, Canop
+	DORIS, N26.04.30.51, E126.41.53.31, !, Doris
+	KIZNA, N26.26.12.82, E127.31.41.71, !, Kizuna
+	OKUMA, N26.40.16.98, E128.02.19.13, 222, Okuma
+	VOLVO, N27.11.43.67, E127.50.39.62, !, Volvo
+	YUGAF, N27.27.52.51, E128.09.18.83, !, Yugaf
+	SCUBA, N26.50.49.69, E127.22.16.55, 164, Scuba
+	TESLA, N27.12.35.75, E127.42.45.78, !, Tesla
+	CHAMP, N27.55.07.09, E128.32.05.05, !, Champ
+	GELMA, N26.20.37.85, E127.24.31.22, !, Gelma
+	GURUX, N26.08.52.24, E127.12.26.56, !, Gurux
+	GANJU, N25.52.19.95, E126.43.23.97, !, Ganju
+	IHEYA, N27.00.40.22, E127.54.09.82, 243, Iheya
+	FOCUS, N26.40.32.00, E127.42.43.39, !, Focus
+	KUKUL, N26.29.51.98, E127.36.41.55, 179, Kukul
+	VELNO, N25.53.47.28, E127.18.33.80, 49, Velno
+	THETA, N26.20.20.00, E127.31.59.31, !148, Theta
+	CLIFF, N26.33.12.54, E127.44.53.22, !, Cliff
+	GUPTI, N29.01.24.45, E128.09.18.67, !, Gupti
+	ENTOK, N26.19.14.34, E124.59.53.83, !, Entok
+	YEEZY, N26.20.18.12, E126.50.32.48, 0, Yeezy
+	HASSA, N26.23.34.12, E127.55.15.96, !, Hassa
+	SEIFA, N26.03.03.88, E127.44.48.52, !154, Seifa
+	DEIJI, N26.02.51.81, E127.39.15.61, !, Deiji
+	NATON, N26.07.05.80, E127.39.00.65, !, Naton
+	OLVAL, N26.04.11.00, E127.24.41.30, 61, Olval
+	BLISS, N26.02.49.28, E127.38.23.04, !, Bliss
+	UTAKI, N26.02.33.15, E127.32.50.37, !32, Utaki
+	BOOST, N26.06.53.15, E127.38.11.59, !, Boost
+	SALSA, N26.20.32.59, E127.37.25.14, !, Salsa
+	PARTY, N26.15.42.55, E127.37.43.62, !, Party
+	LAVON, N26.10.13.46, E127.22.05.31, !, Lavon
+	EISAR, N26.28.57.89, E127.30.19.05, !, Eisar
+	RYCOM, N26.20.34.70, E127.38.20.22, !, Rycom
+	KAMJI, N26.16.08.84, E127.38.32.73, !, Kamji
+	LAFTY, N25.42.56.98, E127.32.20.22, 16, Lafty
+	NANJO, N26.07.39.47, E128.17.09.81, 283, Nanjo
+	BUICK, N26.04.05.77, E128.44.36.58, !, Buick
+	DODGE, N25.44.37.98, E126.52.27.01, !, Dodge
+	GEMNI, N25.41.08.97, E126.55.18.80, !, Gemni
+	LEXUS, N27.00.10.11, E128.19.28.39, !, Lexus
+	SOARA, N25.59.01.30, E126.22.11.16, !, Soara
+	BISIS, N26.47.21.23, E126.32.57.32, 0, Bisis
+	PRIUS, N27.07.14.39, E128.06.29.10, !, Prius
+#RNAV
+	AH801, N26.00.41.6, E127.44.29.6, !, Alpha Hotel 8 0 1
+	H8L00, N26.07.45.9, E127.38.56.3, !, Hotel 8 Lima 0 0
+	H6L50, N26.09.51.15, E127.38.03.23, !, Hotel 6 Lima 5 0
+	H6R00, N26.14.55.3, E127.38.36.2, !, Hotel 6 Romeo 0 0
+	H8L51, N25.57.29.03, E127.39.25.15, !, Hotel 8 Lima 5 1
+	H8L52, N25.58.57.80, E127.31.19.34, !, Hotel 8 Lima 5 2
+	H8R50, N26.12.44.32, E127.37.55.08, !, HOtel 8 Romeo 5 0
+	H8R51, N26.01.07.02, E127.27.41.24, !, Hotel 8 Romeo 5 1
+#fixes
+	NHC226TD15, N26.02.05, E127.26.34, !, 
+	NHC216TD15, N26.00.23, E127.28.46, !,
+	NHC206TD15, N25.59.02, E127.31.16, !,
+	NHC198TD15, N25.58.15, E127.33.25, !,
+	NHC184TD15, N25.57.34, E127.37.25, !,
+	NHC177TD15, N25.57.33, E127.39.27, !,
+	NHC246TD15, N26.06.24, E127.23.19, !,
+	NHC256TD15, N26.08.52, E127.22.22, !,
+	NHC266TD15, N26.11.27, E127.21.54, !,
+	NHC276TD15, N26.14.04, E127.21.57, !,
+	NHC286TD15, N26.16.38, E127.22.30, !,
+	NHC296TD15, N26.19.04, E127.23.32, !,
+	NHC306TD15, N26.21.19, E127.25.02, !,
+	NHC316TD15, N26.23.17, E127.26.57, !,
+	NHC326TD15, N26.24.56, E127.29.13, !,
+	NHC336TD15, N26.26.12, E127.31.46, !,
+	NHC351D15, N26.27.03, E127.34.31, !,
+	NHC002D15, N26.27.29, E127.37.42, !,
+#fly-over
+	H8L00FO, N26.07.45.9, E127.38.56.3, !, Fly over Hotel 8 Lima 0 0
+	H6R00FO, N26.14.55.3, E127.38.36.2, !, Fly over Hotel 6 Romeo 0 0
+
+#NHC -> KXC: 281T 50.5292nm (93.58km)
+#distance from NHC to chord of NHC 60DME, KXC 30DME: 41.097nm
+#distance from TIT to NHC 60DME: 59.7192nm (110.6km)
+#intersection of NHC 111T and TIT 201T: N26.09.18, E127.47.54
+#distance from TIT to above intersection = 0.3753nm
+#distance from NHC to above intersection = 8.9741nm
+#distance from TIT to NHC 50DME: 49.1881nm
+
+boundary = 
+# NHC 60DME @ KXC 30DME (NHC 311T, KXC 008T)
+	N26.51.59, E126.48.07
+#360T
+	N26.52.18, E126.43.19
+#350T
+	N26.51.50, E126.37.29
+#340T
+	N26.50.29, E126.31.50
+#330T
+	N26.48.16, E126.26.32
+#320T
+	N26.45.15, E126.21.45
+#310T
+	N26.41.33, E126.17.37
+#300T
+	N26.37.15, E126.14.17
+#290T
+	N26.32.31, E126.11.50
+#280T
+	N26.27.27, E126.10.21
+#270T
+	N26.22.15, E126.09.52
+#260T
+	N26.17.03, E126.10.24
+#250T
+	N26.12.00, E126.11.56
+#240T
+	N26.07.16, E126.14.24
+#230T
+	N26.03.00, E126.17.46
+#220T
+	N25.59.19, E126.21.53
+#210T
+	N25.56.20, E126.26.39
+#200T
+	N25.54.08, E126.31.56
+#190T
+	N25.52.47, E126.37.32
+#180T
+	N25.52.20, E126.43.19
+# NHC 50DME @ KXC 30DME
+# = NHC 281T-(arccos(41.097/50)) = NHC 246T 50DME (KXC 172T)
+	N25.52.02, E126.47.51
+#234T
+	N25.43.02, E126.53.42
+#224T
+	N25.36.29, E127.00.05
+# NHC 50DME @ TIT R? (NHC 291T-79.66T=211.34T 50NM)
+	N25.29.47, E127.09.47
+# NHC 60DME @ TIT R? (NHC 193T)
+	N25.14.00, E127.24.04
+#182T
+	N25.12.35, E127.36.16
+#172T
+	N25.13.08, E127.47.48
+#162T
+	N25.15.28, E127.59.03
+#152T
+	N25.19.31, E128.09.43
+#142T
+	N25.25.10, E128.19.27
+#132T
+	N25.32.15, E128.27.57
+#122T
+	N25.40.33, E128.34.59
+#112T
+	N25.49.50, E128.40.20
+#102T
+	N25.59.48, E128.43.49
+#092T
+	N26.10.10, E128.45.20
+#082T
+	N26.20.36, E128.44.50
+#072T
+	N26.30.48, E128.42.18
+#062T
+	N26.40.28, E128.37.49
+#052T
+	N26.49.16, E128.31.31
+#042T
+	N26.56.57, E128.23.35
+#032T
+	N27.03.17, E128.14.15
+#022T
+	N27.08.04, E128.03.49
+#012T
+	N27.11.09, E127.52.35
+#002T
+	N27.12.26, E127.40.55
+#352T
+	N27.11.53, E127.29.11
+#342T
+	N27.09.31, E127.17.45
+#332T
+	N27.05.24, E127.06.57
+#322T
+	N26.59.40, E126.57.09
+
+line1 =
+	N26.88188, E128.25488
+	N26.79688, E128.21650
+	N26.71143, E128.12158
+	N26.66777, E128.09766
+	N26.64331, E128.04678
+	N26.64687, E128.02969
+	N26.67944, E127.99434
+	N26.69360, E127.90723
+	N26.67495, E127.89482
+	N26.63105, E127.89082
+	N26.59395, E127.94551
+	N26.55571, E127.92598
+	N26.46606, E127.82041
+	N26.44854, E127.79590
+	N26.43394, E127.72891
+	N26.30791, E127.72705
+	N26.19917, E127.65488
+	N26.15449, E127.64971
+	N26.09473, E127.65313
+	N26.09717, E127.72939
+	N26.15254, E127.80361
+	N26.17124, E127.80645
+	N26.20869, E127.78555
+	N26.25508, E127.79014
+	N26.31895, E127.84873
+	N26.32812, E127.90479
+	N26.38057, E127.86924
+	N26.44248, E127.86709
+	N26.45649, E127.95127
+	N26.53359, E128.03789
+	N26.55225, E128.12695
+	N26.60693, E128.16250
+	N26.65278, E128.25879
+	N26.72070, E128.31094
+	N26.81211, E128.33164
+	N26.88188, E128.25488
+
+#NAHA CTR
+[area1]
+shape = circle
+altitude = 2000
+labelpos = N26.11.36, E127.38.23
+position = N26.11.36, E127.38.23
+radius = 5
+
+#KADENA CTR
+[area2]
+shape = circle
+altitude = 3143
+name = DN
+labelpos = N26.21.20.20, E127.46.03.48
+position = N26.21.20.20, E127.46.03.48
+radius = 5
+
+#FUTENMA CTR
+[area3]
+shape = polygon
+altitude = 2246
+name = TM
+labelpos = N26.15.00, E127.45.00
+points = 
+#Ajahashi
+	N26.14.29, E127.41.25
+#R58/R81 JCT
+	N26.17.08, E127.45.19
+#R81 1.5NM E OF JCT
+	N26.17.17, E127.45.51
+#R329/R20 JCT
+	N26.19.05, E127.49.12
+#Awase
+	N26.19.04, E127.50.47
+#Yonabaru
+	N26.12.06, E127.45.08
+
+[airport1]
+name = Naha
+code = ROAH
+runways =
+	ROAHRWYE, 18L, N26.12.33.63, E127.38.42.84, 177.3, 9843, 0, 0, 10, 3, 0, 3, 356.67
+	ROAHRWYW, 18R, N26.12.11.00, E127.37.56.64, 177.3, 8858, 0, 0, 15, 3, 176.46, 3, 0
+
+climbaltitude = 1200
+
+sids = 
+	!AMAMI
+	!CHAMP
+	!BUICK
+	!CANOP
+	!GANJU
+#minor fixes
+	!GEMNI
+	!DODGE
+	!PRIUS
+	!CHERY
+	!ADDAN
+	!LEXUS
+	!KIZNA
+	!GELMA
+	!GURUX
+	!TESLA
+	!VOLVO
+	
+entrypoints = 
+#Z13 ENTOK
+#	YEEZY
+#ONC Y525 IHEYA
+	33, IHEYA
+#V75 NANJO
+	99, NANJO
+#Y577 VELNO
+	232, VELNO
+
+#airlines = 
+
+#[airport2]
+#name = Kadena
+#code = DN
+#runways = 
+#	RODNRWYW
+#	RODNRWYE
+
+#[airport3]
+#name = Futenma
+#code = TM
+#runways = 
+#	ROTMRWY
+
+#[airport4]
+#name = Kumejima
+#code = KJ
+#runways = 
+#	ROKJRWY
+
+#RNAV(GNSS) RWY 18L
+[approach1]
+runway = ROAHRWYE
+beacon = !RYCOM
+route1 = @RNAV18L
+	183
+	!RYCOM, 1200, 210
+	3.6, 1200, 210
+
+[approach2]
+runway = ROAHRWYE
+beacon = !THETA
+route1 = @RNAV18LTHETA
+	93
+	!THETA, 2000
+	@RNAV18L
+
+[approach3]
+runway = ROAHRWYE
+beacon = !KUKUL
+route1 = @RNAV18LKUKUL
+	176
+	!KUKUL, 4000
+	@RNAV18L
+
+#ILS RWY 18R
+[approach4]
+runway = ROAHRWYW
+beacon = !SALSA
+route1 = @ILS18R
+	182
+	!SALSA, 1200, 210
+	3.7, 1200, 210
+
+[approach5]
+runway = ROAHRWYW
+beacon = !THETA
+route1 = @ILS18RTHETA
+	93
+	!THETA
+	@ILS18R
+
+[approach6]
+runway = ROAHRWYW
+beacon = !KUKUL
+route1 = @ILS18RKUKUL
+	182
+	!KUKUL
+	@ILS18R
+
+[approach7]
+runway = ROAHRWYW
+beacon = EISAR
+route1 = 
+	161
+	!EISAR
+	!KIZNA
+	!NHC351D15
+	!NHC002D15
+	@ILS18R
+
+[approach8]
+runway = ROAHRWYW
+beacon = !LAVON
+route1 = @ILS18RLAVON
+	356
+	!LAVON
+	!GELMA
+	!KIZNA
+	!NHC351D15
+	!NHC002D15
+	@ILS18R
+
+[approach9]
+runway = ROAHRWYW
+beacon = OLVAL
+route1 = @ILS18ROLVAL
+	331
+	!OLVAL
+	!LAVON
+	!GELMA
+	!KIZNA
+	!NHC351D15
+	!NHC002D15
+	@ILS18R
+
+#ILS RWY 18R missed
+[approach10]
+runway = ROAHRWYW
+beacon = !H6L50
+route1 = 
+	182
+	!H6L50
+	!H8R51
+	@ILS18ROLVAL
+
+[approach11]
+runway = ROAHRWYW
+beacon = !H8R51
+route1 = 
+	241
+	!H8R51
+	@ILS18ROLVAL
+
+#ILS Z RWY 36R
+[approach12]
+runway = ROAHRWYE, rev
+beacon = !DEIJI
+route1 = @ILSZ36R
+	2
+	!DEIJI, 2000, 210
+	4.0, 1300, 210
+
+[approach13]
+runway = ROAHRWYE, rev
+beacon = !SEIFA
+route1 = @ILSZ36RSEIFA
+	273
+	!SEIFA, 3000
+	@ILSZ36R
+
+[approach14]
+runway = ROAHRWYE, rev
+beacon = !UTAKI
+route1 = 
+	92
+	!UTAKI, 3000
+	@ILSZ36R
+
+[approach15]
+runway = ROAHRWYE, rev
+beacon = !VIGER
+route1 = @ILSZ36RVIGER
+	39
+	!VIGER, 3000
+	@ILSZ36R
+
+#ILS Y RWY 36R
+[approach16]
+runway = ROAHRWYE, rev
+beacon = OLVAL
+route1 = @ILSY36R
+	151
+	!OLVAL
+	!H8L52
+	!VIGER
+	!H8L51
+	@ILSZ36R
+
+#ILS RWY 36R missed approach
+[approach17]
+runway = ROAHRWYE, rev
+beacon = !H6R00
+route1 = 
+	357
+	!H6R00
+	!KIZNA
+	!GELMA
+	!LAVON
+	@ILSY36R
+
+[approach18]
+runway = ROAHRWYE, rev
+beacon = !KIZNA
+route1 = 
+	357
+	!KIZNA
+	!GELMA
+	!LAVON
+	@ILSY36R
+
+#ILS Z RWY 36L
+[approach19]
+runway = ROAHRWYW, rev
+beacon = !BLISS
+route1 = @ILSZ36L
+	2
+	!BLISS, 2000, 210
+	4.0, 1300, 210
+
+[approach20]
+runway = ROAHRWYW, rev
+beacon = !SEIFA
+route1 = @ILSZ36LSEIFA
+	273
+	!SEIFA, 3000
+	@ILSZ36L
+
+[approach21]
+runway = ROAHRWYW, rev
+beacon = !UTAKI
+route1 = 
+	92
+	!UTAKI, 3000
+	@ILSZ36L
+
+[approach22]
+runway = ROAHRWYW, rev
+beacon = !VIGER
+route1 = @ILSZ36LVIGER
+	33
+	!VIGER, 3000
+	@ILSZ36L
+
+#ILS Y RWY 36L
+[approach23]
+runway = ROAHRWYW, rev
+beacon = OLVAL
+route1 = @ILSY36L
+	151
+	!OLVAL
+	!H8L52
+	!VIGER
+	!NHC184TD15
+	@ILSZ36L
+
+#ILS RWY 36L missed approach
+[approach24]
+runway = ROAHRWYW, rev
+beacon = !H8R50
+route1 = 
+	357
+	!H8R50
+	!GELMA
+	!LAVON
+	@ILSY36L
+
+[approach25]
+runway = ROAHRWYW, rev
+beacon = !GELMA
+route1 = 
+	301
+	!GELMA
+	!LAVON
+	@ILSY36L
+
+#IHEYAN
+[approach26]
+runway = ROAHRWYW
+beacon = IHEYA
+route1 = 
+	243
+	!IHEYA
+	!FOCUS
+	@ILS18RKUKUL
+
+[approach27]
+runway = ROAHRWYW
+beacon = !FOCUS
+route1 = 
+	243
+	!FOCUS
+	@ILS18RKUKUL
+
+[approach28]
+runway = ROAHRWYE
+beacon = IHEYA
+route1 = 
+	243
+	!IHEYA
+	!FOCUS
+	@RNAV18LKUKUL
+
+[approach29]
+runway = ROAHRWYE
+beacon = !FOCUS
+route1 = 
+	212
+	!FOCUS
+	@RNAV18LKUKUL
+
+#IHEYAS
+[approach30]
+runway = ROAHRWYW, rev
+beacon = IHEYA
+route1 = 
+	243
+	!IHEYA
+	!HASSA
+	@ILSZ36LSEIFA
+
+[approach31]
+runway = ROAHRWYW, rev
+beacon = !HASSA
+route1 = 
+	184
+	!HASSA
+	@ILSZ36LSEIFA
+
+[approach32]
+runway = ROAHRWYE, rev
+beacon = IHEYA
+route1 = 
+	243
+	!IHEYA
+	!HASSA
+	@ILSZ36RSEIFA
+
+[approach33]
+runway = ROAHRWYE, rev
+beacon = !HASSA
+route1 = 
+	184
+	!HASSA
+	@ILSZ36RSEIFA
+
+#VELNON
+[approach34]
+runway = ROAHRWYW
+beacon = VELNO
+route1 = 
+	49
+	!VELNO
+	@ILS18RTHETA
+
+[approach35]
+runway = ROAHRWYE
+beacon = VELNO
+route1 = 
+	49
+	!VELNO
+	@RNAV18LTHETA
+
+#VELNOS
+[approach36]
+runway = ROAHRWYW, rev
+beacon = VELNO
+route1 = 
+	49
+	!VELNO
+	@ILSZ36LVIGER
+
+[approach37]
+runway = ROAHRWYE, rev
+beacon = VELNO
+route1 = 
+	49
+	!VELNO
+	@ILSZ36RVIGER
+
+#RESORN
+[approach38]
+runway = ROAHRWYW
+beacon = OKUMA
+route1 = 
+	222
+	!OKUMA
+	!CLIFF
+	@ILS18RKUKUL
+
+[approach39]
+runway = ROAHRWYW
+beacon = !CLIFF
+route1 = 
+	251
+	!CLIFF
+	@ILS18RKUKUL
+
+[approach40]
+runway = ROAHRWYE
+beacon = OKUMA
+route1 = 
+	222
+	!OKUMA
+	!CLIFF
+	@RNAV18LKUKUL
+
+[approach41]
+runway = ROAHRWYE
+beacon = !CLIFF
+route1 = 
+	251
+	!CLIFF
+	@RNAV18LKUKUL
+
+#RESORS
+[approach42]
+runway = ROAHRWYW, rev
+beacon = OKUMA
+route1 = 
+	222
+	!OKUMA
+	!HASSA
+	@ILSZ36LSEIFA
+
+[approach43]
+runway = ROAHRWYE, rev
+beacon = OKUMA
+route1 = 
+	222
+	!OKUMA
+	!CLIFF
+	@ILSZ36RSEIFA
+
+#ENTOKN
+#[approach]
+#runway = ROAHRWYW
+#beacon = YEEZY
+#route1 = 
+#	95
+#	!YEEZY
+#	@ILS18RTHETA
+
+#[approach]
+#runway = ROAHRWYE
+#beacon = YEEZY
+#route1 = 
+#	95
+#	!YEEZY
+#	@RNAV18LTHETA
+
+#ENTOKS
+#[approach]
+#runway = ROAHRWYW
+#beacon = YEEZY
+#route1 = 
+#	95
+#	!YEEZY
+#	@ILSZ36LVIGER
+
+#[approach]
+#runway = ROAHRWYE
+#beacon = YEEZY
+#route1 = 
+#	95
+#	!YEEZY
+#	@ILSZ36RVIGER
+
+#LAVONA
+[approach44]
+runway = ROAHRWYW, rev
+beacon = LAVON
+route1 = @LAVON36L
+	266
+	!LAVON
+	@ILSY36L
+
+[approach45]
+runway = ROAHRWYE, rev
+beacon = LAVON
+route1 = @LAVON36R
+	266
+	!LAVON
+	@ILSY36R
+
+#from NANJO
+[approach46]
+runway = ROAHRWYW
+beacon = NANJO
+route1 = 
+	283
+	!NANJO
+	!ESKOB
+	!NHC
+	@ILS18RLAVON
+
+[approach47]
+runway = ROAHRWYW
+beacon = !ESKOB
+route1 = 
+	283
+	!ESKOB
+	!NHC
+	@ILS18RLAVON
+
+[approach48]
+runway = ROAHRWYW
+beacon = NHC
+route1 = 
+	283
+	!NHC
+	@ILS18RLAVON
+
+[approach49]
+runway = ROAHRWYW, rev
+beacon = NANJO
+route1 = 
+	283
+	!NANJO
+	!ESKOB
+	!NHC
+	@LAVON36L
+
+[approach50]
+runway = ROAHRWYW, rev
+beacon = !ESKOB
+route1 = 
+	283
+	!ESKOB
+	!NHC
+	@LAVON36L
+
+[approach51]
+runway = ROAHRWYW, rev
+beacon = NHC
+route1 = 
+	283
+	!NHC
+	@LAVON36L
+
+[approach52]
+runway = ROAHRWYE, rev
+beacon = NANJO
+route1 = 
+	283
+	!NANJO
+	!ESKOB
+	!NHC
+	@LAVON36R
+
+[approach53]
+runway = ROAHRWYE, rev
+beacon = !ESKOB
+route1 = 
+	283
+	!ESKOB
+	!NHC
+	@LAVON36R
+
+[approach54]
+runway = ROAHRWYE, rev
+beacon = NHC
+route1 = 
+	283
+	!NHC
+	@LAVON36R
+
+
+
+[departure1]
+runway = ROAHRWYW
+
+route1 = ESKOB1 V75, Eskob One Victor 75
+	!KYANN
+	!AH801
+	!ESKOB
+	!NANJO
+	!BUICK
+
+route2 = ESKOB1.CHERY, Eskob One Chery
+	!KYANN
+	!AH801
+	!ESKOB
+	!ADDAN
+	!CHERY
+	!ONC
+	!CHAMP
+
+route3 = ESKOB1.AMAMI, Eskob One Amami
+	!KYANN
+	!AH801
+	!ESKOB
+	!ADDAN
+	!CHERY
+	!AMAMI
+
+route4 = VIGER1.CANOP, Viger One Canop
+	!VIGER
+	!CANOP
+
+[departure2]
+runway = ROAHRWYE
+
+route1 = ESKOB1 V75, Eskob One Victor 75
+	!KYANN
+	!AH801
+	!ESKOB
+	!NANJO
+	!BUICK
+
+route2 = ESKOB1.CHERY, Eskob One Chery
+	!KYANN
+	!AH801
+	!ESKOB
+	!ADDAN
+	!CHERY
+	!ONC
+	!CHAMP
+
+route3 = ESKOB1.AMAMI, Eskob One Amami
+	!KYANN
+	!AH801
+	!ESKOB
+	!ADDAN
+	!CHERY
+	!AMAMI
+
+route4 = VIGER1.CANOP, Viger One Canop
+	!VIGER
+	!CANOP
+
+#route5 = ESKOB1.ADDAN, Eskob One Addan
+#	!KYANN
+#	!AH801
+#	!ESKOB
+#	!ADDAN
+#	!YRE
+
+#route6 = VIGER1.DORIS, Viger One Doris
+#	!VIGER
+#	!DORIS
+
+[departure3]
+runway = ROAHRWYW, rev
+
+route1 = LAVON1 NHC V75, Lavon One
+	!H8R50
+	!GELMA
+	!LAVON
+	!NHC
+	!ESKOB
+	!NANJO
+	!BUICK
+
+route2 = KIZNA1.CHAMP, Kizuna One Champ
+	!H8R50
+	!KIZNA
+	!SCUBA
+	!TESLA
+	!CHAMP
+
+route3 = KIZNA1.YUGAF, Kizuna One Yugaf
+	!H8R50
+	!KIZNA
+	!VOLVO
+	!YUGAF
+	!AMAMI
+
+route4 = KIZNA1.LAGON, Kizuna One Lagoon
+	!H8R50
+	!KIZNA
+	!GELMA
+	!GURUX
+	!GANJU
+
+#route5 = KIZNA1.RESOT, Kizuna One Resort
+#	!H8R50
+#	!KIZNA
+#	!OKUMA
+#	!YRE
+
+#route6 = KIZNA1.GURUX, Kizuna One Gurux
+#	!H8R50
+#	!KIZNA
+#	!GELMA
+#	!GURUX
+#	!DORIS
+
+[departure4]
+runway = ROAHRWYE, rev
+
+route1 = LAVON1 NHC V75, Lavon One
+	!H6R00
+	!KIZNA
+	!GELMA
+	!LAVON
+	!NHC
+	!ESKOB
+	!NANJO
+	!BUICK
+
+route2 = KIZNA1.CHAMP, Kizuna One Champ
+	!H6R00
+	!KIZNA
+	!SCUBA
+	!TESLA
+	!CHAMP
+
+route3 = KIZNA1.YUGAF, Kizuna One Yugaf
+	!H6R00
+	!KIZNA
+	!VOLVO
+	!YUGAF
+	!AMAMI
+
+route4 = KIZNA1.LAGON, Kizuna One Lagoon
+	!H6R00
+	!KIZNA
+	!GELMA
+	!GURUX
+	!GANJU
+
+#route5 = KIZNA1.RESOT, Kizuna One Resort
+#	!H6R00
+#	!KIZNA
+#	!OKUMA
+#	!YRE
+
+#route6 = KIZNA1.GURUX, Kizuna One Gurux
+#	!H6R00
+#	!KIZNA
+#	!GELMA
+#	!GURUX
+#	!DORIS
+
+[configurations]
+#north wind operation
+config1 = 
+	0, ROAHRWYW, landrev
+	0, ROAHRWYE, startrev
+#south wind operation
+config2 = 
+	0, ROAHRWYW, land
+	0, ROAHRWYE, start
+
+
+[planetypes]
+types = 
+	hdjt, 6, 140, 250, 2.8, 3.2, 1500, 1800, 115, 125, 1.3, 1.5, honda jet
+	be9l, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
+	b350, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
+	h25b, 6, 150, 250, 2.8, 3.2, 1400, 1600, 110, 120, 1.2, 1.3, hawker
+	p1, 4, 160, 250, 2.8, 3.2, 1500, 1700, 130, 144, 1.3, 1.5, kawasaki
+	p3, 5, 160, 250, 2.8, 3.2, 1400, 1600, 120, 140, 1.2, 1.4, orion
+	ys11, 5, 160, 250, 2.8, 3.2, 1400, 1600, 110, 130, 1.2, 1.4, namc
+	kc2, 4, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, kawasaki
+	c130, 4, 140, 250, 2.8, 3.2, 1400, 1700, 110, 140, 1.3, 1.5, hercules
+	f15, 6, 170, 300, 3.2, 5.0, 2000, 4000, 135, 155, 1.8, 2.3, eagle
+	t4, 6, 150, 280, 3.0, 4.0, 2000, 3000, 115, 125, 1.5, 1.8, kawasaki
