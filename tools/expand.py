@@ -278,10 +278,10 @@ def process(args, input_file=None):
                     "",
                     ""])
                 header = "\n".join(header)
-            if 'callsigns' not in source['meta'] or source['meta'].getboolean('callsigns'):
+            if 'callsigns' not in source['meta']:
                 Airline.use_callsigns = False;
             else:
-                Airline.use_callsigns = True;
+                Airline.use_callsigns = source['meta'].getboolean('callsigns');
             # remove meta section so it won't be written in output
             del source['meta']
 
