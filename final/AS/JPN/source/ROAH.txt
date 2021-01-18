@@ -1,6 +1,7 @@
 [meta]
 header = ROAH ACA 1.0.0
 	See ROAH_readme.md
+callsigns = true
 
 [airspace]
 radius = 80
@@ -107,6 +108,27 @@ beacons =
 #fly-over
 	H8L00FO, N26.07.45.9, E127.38.56.3, !, Fly over Hotel 8 Lima 0 0
 	H6R00FO, N26.14.55.3, E127.38.36.2, !, Fly over Hotel 6 Romeo 0 0
+#RODN
+#	CAMDA
+#	HIVAS
+#	TUCOF
+#	CUNEK
+#KAD R235 D20
+	JACKS, N26.08.32, E127.29.03, 55, Jacks
+#11.9nm from RW05L
+	EBLIR, N26.13.08, E127.34.56, !, Eblir
+#6.9nm from RW05L
+	JIMMY, N26.16.21, E127.39.12, !, Jimmy
+#5.9nm from RW05L
+	DUPIT, N26.16.59, E127.40.03, !, Dupit
+#KAD R055 D20
+	IMONO, N26.34.14, E128.03.14, 235, Imono
+#12.1nm from RW23R
+	LETOX, N26.29.49, E127.57.09, !, Letox
+#6nm from RW23R
+	NUGAP, N26.25.55, E127.51.55, !, Nugap
+#RODN departure route to AMAMI? ADDAN BASHO AMAMI
+	BASHO, N27.03.57.24, E128.50.39.59, 0, Basho
 
 #NHC -> KXC: 281T 50.5292nm (93.58km)
 #distance from NHC to chord of NHC 60DME, KXC 30DME: 41.097nm
@@ -290,6 +312,71 @@ points =
 #Yonabaru
 	N26.12.06, E127.45.08
 
+[area4]
+shape = polygon
+altitude = 60001
+name = EAGLE
+labelpos = N25.31.07, E128.30.00
+points = 
+	N25.31.07, E128.09.53
+	N25.53.35, E128.30.00
+	N25.48.37, E129.02.19
+	N25.44.15, E129.25.52
+	N25.44.45, E130.24.13
+	N25.44.23, E130.30.01
+	N24.39.50, E129.39.55
+	N24.23.28, E129.27.37
+
+[area5]
+shape = polygon
+altitude = 60001
+name = LION
+labelpos = N25.15.00, E128.03.36
+points = 
+	N25.31.07, E128.09.53
+	N25.27.45, E128.03.36
+	N25.22.34, E127.43.35
+	N24.27.55, E127.05.43
+	N24.22.47, E127.18.22
+	N24.05.02, E128.01.39
+	N23.42.01, E128.56.47
+	N24.23.28, E129.27.37
+
+[area6]
+shape = polygon
+altitude = 60001
+name = TIGER
+labelpos = N26.30.00, E129.00.00
+points = 
+	N26.22.09, E128.34.42
+	N26.47.24, E129.04.02
+	N27.28.07, E129.30.23
+	N27.38.46, E130.33.51
+	N27.38.35, E130.55.54
+	N27.37.41, E132.02.15
+	N27.26.37, E131.59.41
+	N26.47.46, E131.50.44
+	N26.27.26, E131.34.18
+	N26.08.30, E131.16.53
+	N26.10.56, E130.50.36
+
+[area7]
+shape = polygon
+altitude = 60001
+name = MOOSE
+labelpos = N26.20.00, E126.00.0
+points = 
+	N26.16.03, E126.08.35
+	N27.05.03, E126.59.39
+	N27.17.55, E127.13.15
+	N27.48.12, E127.19.16
+	N28.28.43, E127.03.15
+	N28.17.32, E126.47.19
+	N27.40.36, E125.55.21
+	N26.58.33, E124.57.21
+	N26.41.43, E125.12.40
+	N26.14.20, E125.37.19
+
 [airport1]
 name = Naha
 code = ROAH
@@ -328,20 +415,186 @@ entrypoints =
 #Y577 VELNO
 	232, VELNO
 
-#airlines = 
+gateways = 
+	AMAMI, n
+	CHAMP, n
+	CHERY, n
+	YRE, n
+	BUICK, e
+	DORIS, w
+	CANOP, w
+	GANJU, w
+	PRIUS, n
+	GEMNI, w
+	OKUMA, n
+	ONC, n
 
-#[airport2]
-#name = Kadena
-#code = DN
-#runways = 
-#	RODNRWYW
-#	RODNRWYE
+airlines = 
+#rjtt
+	ana, 800, b788/b789/b772/b773, PRIUS, AMAMI
+	jal, 800, a359/b772/b773, PRIUS, AMAMI
+	sky, 400, b738, PRIUS, AMAMI
+#rjoo
+	ana, 600, b788/b789/b772/b773, PRIUS, AMAMI
+	jal, 600, b763/a359/b772/b773, PRIUS, AMAMI
+#rjff
+	ana, 400, a20n/b737/b738/b763/b788/dh8d, PRIUS, AMAMI
+	akx, 300, dh8d, PRIUS, AMAMI
+	jta, 600, b738, PRIUS, AMAMI
+#domestic
+	ana, 1100, a20n/b737/b738/b763, PRIUS, AMAMI
+	ana, 600, a20n/b737/b738, GEMNI, GANJU/CANOP
+	jac, 100, at46, OKUMA, CHERY/ONC
+	jta, 100, b738, OKUMA, YRE
+	jta, 600, b738, GEMNI, GANJU/CANOP
+	jta, 200, b738, DORIS, DORIS
+	jta, 600, b738, PRIUS, AMAMI
+	rac, 200, dh8d, OKUMA, AMAMI
+	rac, 400, dh8d, GEMNI, GANJU/CANOP
+	rac, 100, dh8d, OKUMA, YRE
+	rac, 200, dh8d, BUICK, BUICK
+	jjp, 600, a320, PRIUS, AMAMI
+	apj, 600, a320/a20n, PRIUS, AMAMI
+	sky, 800, b738, PRIUS, AMAMI
+	sky, 200, b738, GEMNI, GANJU/CANOP
+	snj, 700, b738, PRIUS, AMAMI
+	snj, 200, b738, GEMNI, GANJU/CANOP
+	sfj, 100, a320, PRIUS, AMAMI
+#international
+	cca, 200, b738, PRIUS, CHAMP
+	aar, 100, a320/a321/a21n/b763, PRIUS, CHAMP
+	cbj, 200, a320, PRIUS, CHAMP
+	cal, 200, a359, GEMNI, GANJU/CANOP
+	epa, 100, b738, PRIUS, CHAMP
+	esr, 100, b738, PRIUS, CHAMP
+	eva, 100, a321, GEMNI, GANJU/CANOP
+	hke, 100, a321, GEMNI, GANJU/CANOP
+	jja, 100, b738, PRIUS, CHAMP
+	jsa, 100, a320, GEMNI, GANJU/CANOP
+	jna, 100, b738, PRIUS, CHAMP
+	dkh, 200, a320, PRIUS, CHAMP
+	kal, 100, b773/b772, PRIUS, CHAMP
+	mda, 100, e190, PRIUS, CHAMP
+	apj, 500, a320, GEMNI, GANJU/CANOP
+	ttw, 200, a320, GEMNI, GANJU/CANOP
+	twb, 200, b738, PRIUS, CHAMP
+#cargo,
+	ana, 600, b763, PRIUS/GEMNI, AMAMI/CHAMP/GANJU/CANOP
+#misc
+	jcg, 100, f2th, *, *
+	jcg, 100, dh8c, *, *
+#jcab
+	ckstr-11, 1, c25c, PRIUS, AMAMI
+#SDF via civil routes
+	tryer-1, 1, h25b, PRIUS, AMAMI
+	tarsel-12, 1, be9l, PRIUS, AMAMI
+	neptn-12, 1, p1, PRIUS, AMAMI
+	cosmo-12, 5, kc2, PRIUS, AMAMI
+	camel-12, 5, c130, PRIUS, AMAMI
+	cupid-1, 1, lj35, PRIUS, AMAMI
 
-#[airport3]
-#name = Futenma
-#code = TM
-#runways = 
-#	ROTMRWY
+[airport2]
+name = Naha
+code = JF
+runways =
+	ROAHRWYEJF, 18L, N26.12.33.63, E127.38.42.84, 177.3, 9843, 0, 0, 10, 3, 0, 3, 356.67
+	ROAHRWYWJF, 18R, N26.12.11.00, E127.37.56.64, 177.3, 8858, 0, 0, 15, 3, 176.46, 3, 0
+
+climbaltitude = 1200
+	
+entrypoints = 
+#MOOSE-NORTH
+	330, NHC
+#MOOSE-SOUTH
+	300, NHC
+#TIGER
+	70, NHC
+#LION
+	180, NHC
+#EAGLE
+	160, NHC
+
+airlines = 
+	shark-12, 50, t4, *, *
+	chain-12, 50, t4, *, *
+	deigo-12, 50, t4, *, *
+	tida-12, 100, p3, *, *
+	eikas-12, 100, f15, *, *
+	jaguar-12, 100, f15, *, *
+
+[airport3]
+name = Kadena
+code = DN
+runways = 
+	RODNRWYW, 05L, N26.346297, E127.751517, 50, 12101, 0, 0, elev
+	RODNRWYE, 05R, N26.344105, E127.755065, 50, 12101, 0, 0, elev
+
+climbaltitude = 2200
+
+entrypoints = 
+#W172
+	160, KAD
+#W185
+	105, KAD
+#W173
+	80, KAD
+#W179
+	340, KAD
+#ONC A582 OKUMA
+	44, OKUMA
+#V75 NANJO
+	99, NANJO
+
+gateways = 
+	OKUMA, n
+	AMAMI, n
+	BUICK, e
+
+airlines = 
+	rch-1234, 50, c5m/c17, OKUMA, AMAMI
+	trek-12, 10, b737, OKUMA, AMAMI
+	cks, 10, b744, OKUMA, AMAMI
+	oae, 10, b763, OKUMA, AMAMI
+	cnv7-123, 50, b737, OKUMA, AMAMI
+	cnv3-123, 10, b737, BUICK, BUICK
+	sumo-12, 10, c130, *, *
+	mojo-12, 10, b190, OKUMA, AMAMI
+	madfox-12, 1, p8, OKUMA, AMAMI
+	pswrd-12, 10, c2, OKUMA, AMAMI
+	pearl-12, 1, k35r, OKUMA, AMAMI
+	start-12, 50, k35r, OKUMA, AMAMI
+	tora-12, 50, k35r, OKUMA, AMAMI
+	wink-12, 50, k35r, OKUMA, AMAMI
+	bat-12, 100, f15, *, *
+	brgham-12, 100, e3cf/e3tf, *, *
+	cock-12, 100, f15, *, *
+	coke-12, 100, f15, *, *
+	demon-12, 100, f15, *, *
+	dirty-12, 100, f15, *, *
+	knife-12, 100, f15, *, *
+	lance-12, 100, f15, *, *
+	shogun-12, 100, f15, *, *
+	vampr-12, 100, f15, *, *
+	jakal-12, 100, c130, *, *
+
+[airport4]
+name = Futenma
+code = TM
+runways = 
+	ROTMRWY, 06, N26.267198, E127.745235, 53.5, 9004, 0, 0, elev
+
+climbaltitude = 2200
+
+entrypoints = 
+	44, NFO
+#V75 NANJO
+	99, NFO
+#Y577 VELNO
+	229, NFO
+
+airlines = 
+	magic-12, 100, c560, magic, ne
+	sumo-12, 100, c130, sumo, *, *
 
 #[airport4]
 #name = Kumejima
@@ -356,7 +609,7 @@ beacon = !RYCOM
 route1 = @RNAV18L
 	183
 	!RYCOM, 1200, 210
-	3.6, 1200, 210
+	3.6, 1200, 180
 
 [approach2]
 runway = ROAHRWYE
@@ -381,7 +634,7 @@ beacon = !SALSA
 route1 = @ILS18R
 	182
 	!SALSA, 1200, 210
-	3.7, 1200, 210
+	3.7, 1200, 180
 
 [approach5]
 runway = ROAHRWYW
@@ -460,7 +713,7 @@ beacon = !DEIJI
 route1 = @ILSZ36R
 	2
 	!DEIJI, 2000, 210
-	4.0, 1300, 210
+	4.0, 1300, 180
 
 [approach13]
 runway = ROAHRWYE, rev
@@ -527,7 +780,7 @@ beacon = !BLISS
 route1 = @ILSZ36L
 	2
 	!BLISS, 2000, 210
-	4.0, 1300, 210
+	4.0, 1300, 180
 
 [approach20]
 runway = ROAHRWYW, rev
@@ -1044,15 +1297,88 @@ route4 = KIZNA1.LAGON, Kizuna One Lagoon
 #	!GURUX
 #	!DORIS
 
+
+
+#ILS RWY 05L
+[approach55]
+runway = RODNRWYW
+beacon = !JIMMY
+route1 = @ILS05L
+	55
+	!JIMMY, 2200, 230
+	5.9, 2000, 230
+
+[approach56]
+runway = RODNRWYW
+beacon = !EBLIR
+route1 = 
+	55
+	!EBLIR, 4000, 230
+	@ILS05L
+
+[approach57]
+runway = RODNRWYW
+beacon = !EBLIR
+route1 = 
+	55
+	!JACKS, 6000, 230
+	!EBLIR, 4000, 230
+	@ILS05L
+
+#ILS RWY 23R
+[approach58]
+runway = RODNRWYW, rev
+beacon = !LETOX
+route1 = @ILS23R
+	235
+	!LETOX, 4000, 230
+	6, 2000, 230
+
+[approach59]
+runway = RODNRWYW, rev
+beacon = !IMONO
+route1 = 
+	235
+	!IMONO, 6000, 230
+	@ILS23R
+
 [configurations]
 #north wind operation
 config1 = 
 	0, ROAHRWYW, landrev
 	0, ROAHRWYE, startrev
+	0, RODNRWYW, land
+	0, RODNRWYE, start
+	0, ROTMRWY, landstart
+	0, ROAHRWYWJF, landrev
+	0, ROAHRWYEJF, startrev
 #south wind operation
 config2 = 
 	0, ROAHRWYW, land
 	0, ROAHRWYE, start
+	0, RODNRWYW, landrev
+	0, RODNRWYE, startrev
+	0, ROTMRWY, landstartrev
+	0, ROAHRWYWJF, land
+	0, ROAHRWYEJF, start
+#westnorthwest wind operation
+config3 = 
+	0, ROAHRWYW, landrev
+	0, ROAHRWYE, startrev
+	0, RODNRWYW, landrev
+	0, RODNRWYE, startrev
+	0, ROTMRWY, landstartrev
+	0, ROAHRWYWJF, landrev
+	0, ROAHRWYEJF, startrev
+#eastsoutheast wind operation
+config4 = 
+	0, ROAHRWYW, land
+	0, ROAHRWYE, start
+	0, RODNRWYW, land
+	0, RODNRWYE, start
+	0, ROTMRWY, landstart
+	0, ROAHRWYWJF, land
+	0, ROAHRWYEJF, start
 
 
 [planetypes]
@@ -1064,7 +1390,11 @@ types =
 	p1, 4, 160, 250, 2.8, 3.2, 1500, 1700, 130, 144, 1.3, 1.5, kawasaki
 	p3, 5, 160, 250, 2.8, 3.2, 1400, 1600, 120, 140, 1.2, 1.4, orion
 	ys11, 5, 160, 250, 2.8, 3.2, 1400, 1600, 110, 130, 1.2, 1.4, namc
-	kc2, 4, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, kawasaki
+	kc2, 3, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, kawasaki
 	c130, 4, 140, 250, 2.8, 3.2, 1400, 1700, 110, 140, 1.3, 1.5, hercules
 	f15, 6, 170, 300, 3.2, 5.0, 2000, 4000, 135, 155, 1.8, 2.3, eagle
 	t4, 6, 150, 280, 3.0, 4.0, 2000, 3000, 115, 125, 1.5, 1.8, kawasaki
+	c17, 3, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, globemaster
+	f2th, 5, 160, 250, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, falcon
+	p8, 4, 160, 250, 2.6, 3.0, 1440, 1560, 131, 144, 1.2, 1.3, poseidon
+	k35r, 3, 160, 250, 2.3, 2.7, 1200, 1380, 135, 152, 1.1, 1.2, stratotanker
