@@ -50,6 +50,7 @@ class Airline:
     directions: str
 
     callsigns = None
+    use_callsigns = True
 
     def __init__(self, callsign, frequency, types, *data, gateways=None):
         """Create an airline from an entry in the airlines= list. `data` should be 
@@ -62,9 +63,14 @@ class Airline:
         self.frequency = int(frequency.strip())
         self.types = types.strip()
         self.callsign = callsign.strip()
-        if Airline.callsigns is not None:
-            self.pronunciation = Airline.callsigns[callsign] if '-' not in callsign \
-                else Airline.callsigns.get(callsign[:callsign.index('-')], '0')
+        if Airline.callsigns is not None and Airline.use_callsigns:
+            if '-' not in callsign:
+                self.pronunciation = Airline.callsigns[callsign]
+            else:
+                # if length of key is more than 3, assume it is not registration
+                key = callsign[:callsign.index('-')]
+                self.pronunciation = Airline.callsigns.get(key, key) if len(key) > 3 \
+                    else Airline.callsigns.get(key, '0')
         else:
             self.pronunciation = data[0].strip()
             data = data[1:]
@@ -110,13 +116,21 @@ def process_approach_fix_list(fix_list, fixes, tagged_routes):
         `fix_list` (list): A list of fix definitions.
         `fixes` (dict): A lookup of `Fix`es.
         `tagged_routes` (dict): A lookup of approach routes."""
+    current_tag = None
     if fix_list:
         if fix_list[0].startswith('@'):
-            tagged_routes[fix_list[0].lstrip('@')] = fix_list[2:]
+            current_tag = fix_list[0].lstrip('@')
+            tagged_routes[current_tag] = fix_list[2:]
             fix_list = fix_list[1:]
         if fix_list[-1].startswith('@'):
+            following_tag = fix_list[-1].lstrip('@')
+            if current_tag is not None and current_tag == following_tag:
+                raise RuntimeError(
+                    '''Unable to build as approach tagged as @{tag} is trying to reference itself.
+The following is the route= contents after the @tag: \n{lines}'''
+                    .format(tag=current_tag, lines="\n".join(fix_list)))
             yield from process_fix_list(fix_list[:-1], fixes)
-            yield from process_approach_fix_list(tagged_routes[fix_list[-1].lstrip('@')], fixes, tagged_routes)
+            yield from process_approach_fix_list(tagged_routes[following_tag], fixes, tagged_routes)
         else:
             yield from process_fix_list(fix_list, fixes)
 
@@ -253,16 +267,21 @@ def process(args, input_file=None):
 
         # read optional header to be written in output
         header = None
-        if 'meta' in source and 'header' in source['meta']:
-            header = ["# " + line for line in source['meta']['header'].splitlines()]
-            header.extend([
-                "",
-                f"# This file is generated from the source file {os.path.relpath(input_file, os.path.dirname(output_file))} using expand.py.",
-                "# All comments have been stripped, and edits are not made directly to this file.",
-                "# If you would like to contribute, or see the author's comments, please refer to the source file.",
-                "",
-                ""])
-            header = "\n".join(header)
+        if 'meta' in source:
+            if 'header' in source['meta']:
+                header = ["# " + line for line in source['meta']['header'].splitlines()]
+                header.extend([
+                    "",
+                    f"# This file is generated from the source file {os.path.relpath(input_file, os.path.dirname(output_file))} using expand.py.",
+                    "# All comments have been stripped, and edits are not made directly to this file.",
+                    "# If you would like to contribute, or see the author's comments, please refer to the source file.",
+                    "",
+                    ""])
+                header = "\n".join(header)
+            if 'callsigns' not in source['meta']:
+                Airline.use_callsigns = False;
+            else:
+                Airline.use_callsigns = source['meta'].getboolean('callsigns');
             # remove meta section so it won't be written in output
             del source['meta']
 
