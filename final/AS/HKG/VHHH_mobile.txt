@@ -133,7 +133,7 @@ line4 =
 			N022.11.47.558, E113.31.01.981
 [airport1]
 name = Hong Kong International Airport
-code = VHTM
+code = VHHH
 runways =
 	VHNorth, 07L, N22.18.39.30, E113.53.52.67, 071, 12467, 11900, 11896, 27, 3, 071, 3, 251, VH710, 8.3, RIVER, 15
 	VHSouth, 07R, N22.17.48.03, E113.55.58.15, 071, 12467, 11942, 12467, 27, 3, 071, 3, 251, VH720, 8.3, LOTUS, 15

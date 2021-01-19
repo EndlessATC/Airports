@@ -2,7 +2,6 @@
 # Hong Kong TMA / VHHH Hong Kong
 __Important Notes__	
 This is a such simpler version develop for Mobile EATC player.The folder going to store in your phone is: `\\Android\data\com.dirgtrats.endlessatc\files`
-==Since Version 1.4, the airport name changed as `VHTM`: Prevent Name Override w/ Other Version.==
  Height Measurement to be used are Feet and  NM, included China Airspace. Otherwise specifically stated.
 ## Information
 This is an implementation of the Hong Kong FIR and TMA for [Endless ATC](https://steamcommunity.com/app/666610) featuring `VHHH` Hong Kong International Airport. The airspace ceiling is FL250.
