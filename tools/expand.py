@@ -69,6 +69,7 @@ class Airline:
             else:
                 # if length of key is more than 3, assume it is not registration
                 key = callsign[:callsign.index('-')]
+                self.callsign = callsign.strip('_')
                 # if key length is longer than 3 and key doesn't have match,
                 # we strip '_' to allow for mil callsigns with length <= 3
                 self.pronunciation = Airline.callsigns.get(key, key.strip('_')) if len(key) > 3 \
