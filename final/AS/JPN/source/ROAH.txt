@@ -994,7 +994,7 @@ airlines =
 	start-12, 50, k35r, ONC, AMAMI
 	tora-12, 50, k35r, ONC, AMAMI
 	wink-12, 50, k35r, ONC, AMAMI
-	bat-12, 100, f15, *, *
+	_bat-12, 100, f15, *, *
 	brgham-12, 100, e3cf/e3tf, *, *
 	cock-12, 100, f15, *, *
 	coke-12, 100, f15, *, *

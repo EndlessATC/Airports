@@ -2244,16 +2244,16 @@ airlines = rch-1234, 10, c5m/c17, reach, n
 	wink-12, 10, k35r, wink, n
 	wink-12, 10, k35r, wink, n
 	wink-12, 10, k35r, wink, n
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
-	bat-12, 10, f15, 0, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
 	brgham-12, 10, e3cf/e3tf, brigham, nswe
 	brgham-12, 10, e3cf/e3tf, brigham, nswe
 	brgham-12, 10, e3cf/e3tf, brigham, nswe
