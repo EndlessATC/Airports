@@ -69,7 +69,9 @@ class Airline:
             else:
                 # if length of key is more than 3, assume it is not registration
                 key = callsign[:callsign.index('-')]
-                self.pronunciation = Airline.callsigns.get(key, key) if len(key) > 3 \
+                # if key length is longer than 3 and key doesn't have match,
+                # we strip '_' to allow for mil callsigns with length <= 3
+                self.pronunciation = Airline.callsigns.get(key, key.strip('_')) if len(key) > 3 \
                     else Airline.callsigns.get(key, '0')
         else:
             self.pronunciation = data[0].strip()
@@ -438,10 +440,12 @@ if __name__ == "__main__":
         gateways. Default gateways can be specified in a common.ini in the same directory as the source file, or in the folder where
         this tool is located; gateways= still needs to be defined in an [airport] to activate this feature for the [airport].
         \n\n
-        In [airport] airlines, the airline <pronunciation> can be omitted given [expand.callsigns] is defined in a common.ini in the
-        same directory as the source file, or in the folder where this tool is located. The former takes precedence. [expand.callsigns]
-        is a list of <code>, <pronunciation>, and the first item in each line of airlines (stripped of a dash and anything after it)
-        is used to lookup in [expand.callsigns] to obtain the pronunciation. If nothing is found, pronunication defaults to "0".
+        In [airport] airlines=, the airline <pronunciation> can be omitted if [meta] callsigns= is true. A lookup will be loaded from
+        [expand.callsigns] defined in a common.ini in the same directory as the source file, or in the folder where this tool is
+        located. The former takes precedence. [expand.callsigns] is a list of <code>, <pronunciation>. The first item in each
+        line of airlines (stripped of a dash and anything after it, hereafter referred to as the "key") is used to lookup in
+        [expand.callsigns] to obtain the pronunciation. If nothing is found, pronunication defaults to the key if it is longer than
+        3 characters (assuming it is a military callsign), otherwise it defaults to "0".
         \n\n
         In a [approach/transition] route=, specify "@<name>" to "tag" the approach route. Any subsequent [approach] route= can then
         specify "@<name>" as the last point to chain the approach route tagged as "name" to the end.
