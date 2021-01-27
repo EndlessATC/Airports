@@ -2,6 +2,12 @@
 
 Second hub of Lufthansa, offering many international and intercontinental routes.
 
+## Some tips on how it can be played
+
+- The approaches are meant to help coordination during high traffic. In real life the transitions from ROKIL/LANDU/NAPSA/BETOS end on a heading. However, Endless ATC currently requires that approaches end with an ILS approach. So if you want to play realistic, you have to manually vector every plane onto the ILS. During low traffic, controllers usually skip the transitions completely and vector to final, sometimes giving directs to waypoints.
+- Departures are cleared to FL70, meaning that they might have to pass below approaching traffic following the transitions. This is one reason why vectoring arriving planes can be handy, as you can keep more space between arrivals and departures
+- Skill Cap 16 works fine so that some planes can still depart between the arrivals
+
 ## Already working:
 - most SIDs exist
 - various transitions and approach waypoints
@@ -16,5 +22,21 @@ Second hub of Lufthansa, offering many international and intercontinental routes
 - check if some SIDs can be removed because they are barely used in real life
 - runway configs missing
 - check if arrival entry directions make sense, same for descent altitude
+
+## Changelog
+
+### v1.1
+
+- Planes now arrive with clearance to ROKIL, LANDU, BETOS or NAPSA, more like in real life where MIQ/OTT are pretty much never used
+- Moved transition altitude to 6000ft, to make transition more realistic for arriving traffic. This is not 100% realistic, but the game does not offer a transition level
+- Added new Commercial jets and cargo airlines, also added some airlines I forgot
+- Added some explanations on how to play to readme
+- Overwriting default speed restriction set by the game, so that planes don't slow down automatically anymore
+- Removed OBI VOR because it was next to a waypoint, so it was more annoying than helpful
+- Removed unused default sids
+
+### v1.0
+
+Initial version
 
 **Feedback or improvements? Create an issue or contribute directly: https://github.com/AdamJCavanaugh/EndlessATCAirports#contributing**

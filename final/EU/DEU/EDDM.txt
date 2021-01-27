@@ -1,4 +1,4 @@
-# EDDM v1.0
+# EDDM v1.1
 # Munich Airport "Franz Josef Strauß" in the south of Germany.
 
 [airspace]
@@ -10,8 +10,9 @@ floor = 3700
 descendaltitude = 11000
 ceiling = 13000
 above = 19000
-transitionaltitude = 5000
+transitionaltitude = 6000
 usa = false
+speedrestriction = 2, 250
 
 boundary = 
 	N48.705608, E11.9316
@@ -110,7 +111,6 @@ beacons =
 	OTT, N48.18039, E11.81653, 080, Ottersberg
 	MAH, N48.26340, E11.31190, 0, Maisach
 	IGL, N48.71780, E11.56980, 0, Ingolstadt
-	OBI, N48.08060, E11.28540, 0, Oberpfaffenhofen
 	WLD, N48.57940, E11.12940, 0, Walda
 	NEU, N48.71250, E11.21100, 0, Neuburg
 	AUG, N48.42430, E10.93300, 0, Augusta
@@ -119,6 +119,10 @@ beacons =
 	EUR, N47.73500, E11.24940, 0, Eurach
 	SBG, N48.00260, E12.89280, 0, Salzburg
 	RDG, N49.04030, E12.52650, 0, Roding
+	ROKIL, N48.513314, E11.196725, 126, rokil
+	BETOS, N48.068056, E11.350000, 067, betos
+	NAPSA, N48.144167, E12.345556, -273, napsa
+	LANDU, N48.596361, E12.273928, -213, landu
 
 line1 =
 	N48.45291, E10.12717
@@ -158,18 +162,14 @@ runways =
 	rwys, 08R, N48.3407, E11.751, 83.4, 13123, 0, 0, 1486
 
 entrypoints = 
-	40, miq
-	100, ott
-	120, ott,
-	130, ott
-	220, ott,
-	230, ott,
-	300, miq
-	320, miq
-
-sids =
-	INPUD, N48.6671, E11.5414, Inpud
-	TULSI, N47.7016, E11.7887, Tulsi
+	40, landu
+	100, napsa
+	120, napsa
+	130, napsa
+	220, betos
+	230, betos
+	300, rokil
+	320, rokil
 
 climbaltitude = 7000
 
@@ -184,28 +184,34 @@ airlines =
 	AMC, 1, 	A320/A20N, Air Malta, s
 	ANA, 1,		B789, All Nippon, ne
 	AUA, 2,		A320/A319, Austrian, e
-	AUI, 2, 	B738, Ukraine International, e
+	AUI, 2, 	B738/E190, Ukraine International, e
+	AVA, 1,		B788, Avianca, w
 	AZA, 2, 	A319/A320/E175, Alitalia, s
 	AZO, 1, 	SU95, Azimuth, ne
 	BAW, 3, 	a319/a320/a21n/a20n, Speedbird, nw
+	BCS, 1, 	a306/b752, eurotrans, n
 	BLA, 1, 	B735/B738, Blue Air, se
-	BRU, 1, 	E195, Belarus Avia, ne
+	BRU, 1, 	E175, Belarus Avia, ne
 	BTI, 1, 	bcs3, Air Baltic, ne
 	CAI, 1, 	B738, Corendon, sew
 	CCA, 1, 	a359/b77w, Air China, ne
-	CFG, 3, 	A320, Condor, sew
 	CFG, 1,		B752/B753/B763, Condor, sew
+	CFG, 3, 	A320, Condor, sew
 	CLH, 3, 	CRJ9, Hansaline
+	cs-abc, 1, 	CL30/C560, 0, swne
 	CTN, 1, 	dh8d, Croatian, se
+	D-abcd, 1,  C525/C560/E135/J328/A318/A319/A359, 0, swne
 	DAL, 1, 	B763/B764/A332/A333, Delta, nw
 	DLA, 3, 	e195, Dolomiti, s
+	DLH, 10,	A319/A320/A20N/A321/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A321/E195/CRJ9, Lufthansa
 	DLH, 10,	A319/A320/A20N/A321/E195/CRJ9, Lufthansa
 	DLH, 2,		A346/A388, Lufthansa
 	DLH, 2,		A359, Lufthansa
 	EIN, 1,		a320, Shamrock, nw
 	ELY, 1, 	B738/B739, Elal, s
 	ETD, 1, 	B77W/B789/B78X, Etihad, se
-	EWG, 3, 	A320/A319, Eurowings
+	EWG, 10, 	A320/A319, Eurowings
 	EZY, 2,		A319/A320/A20N, Easy, nw
 	FDX, 1, 	B77L, Fedex, nw
 	FIN, 2, 	A320/A321, Finnair, n
@@ -213,18 +219,19 @@ airlines =
 	IBK, 2,		B738, Nortrans
 	ICE, 1, 	b752/b753/b763, Iceland air, n
 	KAC, 1, 	a20n/B77W, Kuwaiti, se
-	KLM, 2, 	b738/b737/e190, KLM, nw
+	KLM, 2, 	b738/b737/e190/e175, KLM, nw
 	LGL, 1, 	dh8d, Luxair, nw
 	LOT, 2, 	b738/e170/e190/e195, Pollot, e
 	MSR, 1,		B738, Egyptair, s
 	NAX, 1, 	B738, Norshuttle, n
 	OMA, 1, 	A333, Oman Air, s
-	PGT, 2, 	A320/A20N, Sunturk, se
+	PGT, 2, 	A320/A20N/B738, Sunturk, se
 	QTR, 2, 	b77w/a359, Qatari, se
 	RAM, 1, 	B738/E190, royal air maroc, sw
 	RJA, 1,		a319/a321, Jordanian, nse
 	ROT, 1, 	A318/B738/B733, Tarom, se
 	RYR, 1, 	B738, Ryanair, n
+	SAA, 1,	 	a332/a343/a346, springbok, s
 	SAS, 3, 	crj9/a20n/b738/b737, Scandinavian, n
 	SBI, 1, 	b738/a320/a20n, Siberian, ne
 	SDM, 1, 	A319, Rossiya, ne
@@ -236,12 +243,13 @@ airlines =
 	TAP, 2, 	a319/a320/a20n/a21n/a321/e190, Airportugal, nsw
 	TAR, 1, 	A319/A320, Tunair, s
 	THA, 1, 	B77W, Thai, se
-	TUI, 3, 	B738, Tuifly, swe
 	THY, 1, 	a319/a320/a332/a333, Turkish, se
 	THY, 3, 	a321/a21n/b738, Turkish, se
+	TUI, 3, 	B738, Tuifly, swe
 	UAE, 1, 	B77W/A388, Emirates, se
 	UAL, 3, 	b78x/b789/b788/b763/b764, United, nw
 	UZB, 1, 	A20N, Uzbek, e
+	VDA, 1, 	A124/IL76, Volga, nswe
 	VUE, 1, 	a319/a320/A20N/a321, Vueling, s
 	WIF, 1, 	E190, Wideroe, n
 # TODO fix missing E290
