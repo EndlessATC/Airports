@@ -65,7 +65,7 @@ beacons =
 	SALSA, N26.20.32.59, E127.37.25.14, !, Salsa
 	SALSA2, N26.20.32.58, E127.37.25.14, !, Salsa
 	PARTY, N26.15.42.55, E127.37.43.62, !, Party
-	LAVON, N26.10.13.46, E127.22.05.31, !, Lavon
+	LAVON, N26.10.13.46, E127.22.05.31, 266, Lavon
 	EISAR, N26.28.57.89, E127.30.19.05, 161, Eisar
 	RYCOM, N26.20.34.70, E127.38.20.22, !, Rycom
 	KAMJI, N26.16.08.84, E127.38.32.73, !, Kamji
@@ -90,7 +90,8 @@ beacons =
 	NHC216TD15, N26.00.23, E127.28.46, !,
 	NHC206TD15, N25.59.02, E127.31.16, !,
 	NHC198TD15, N25.58.15, E127.33.25, !,
-	NHC184TD15, N25.57.34, E127.37.25, !,
+#NHC184TD15
+	IX36L, N25.57.34, E127.37.25, !, Viger
 	NHC177TD15, N25.57.33, E127.39.27, !,
 	NHC246TD15, N26.06.24, E127.23.19, !,
 	NHC256TD15, N26.08.52, E127.22.22, !,
@@ -941,6 +942,7 @@ airlines =
 	tida-12, 100, p3, nswe
 	eikas-12, 100, f15, nswe
 	jaguar-12, 100, f15, nswe
+	excel-12, 100, e2, nswe
 
 #RODN Kadena AFB
 [airport3]
@@ -1006,6 +1008,7 @@ airlines =
 	vampr-12, 100, f15, *, *
 	jakal-12, 100, c130, *, *
 	flc-11, 5, cl60, *, *
+	vda, 1, a124, *, *
 
 #ROTM MCAS Futenma
 [airport4]
@@ -1033,8 +1036,9 @@ entrypoints =
 	229, VELNO
 
 airlines = 
-	magic-12, 10, c560, ne
-	sumo-12, 10, c130, nswe
+	magic-12, 1000, c560, ne
+	sumo-12, 1000, c130, nswe
+	vda, 1, a124, *, *
 
 #ROKJ Kumejima
 [airport5]
@@ -1052,6 +1056,27 @@ entrypoints =
 
 airlines = 
 	jta, 1, b738, n
+
+#RORE Iejima
+[airport6]
+name = Iejima
+code = RE
+runways = 
+	RORERWY, 04, N26.43.02.20, E127.46.55.40, 38.87, 4921, 0, 0, 225
+
+#ROKR Kerama
+[airport7]
+name = Kerama
+code = KR
+runways = 
+	ROKRRWY, 02, N26.09.53.52, E127.17.32.50, 20, 4921, 0, 0, 156
+
+#RORE Aguni
+[airport8]
+name = Aguni
+code = RA
+runways = 
+	RORARWY, 01, N26.35.21.01, E127.14.24.02, 4.88, 2625, 0, 0, 35
 
 #RNAV(GNSS) RWY 18L
 [approach1]
@@ -1088,14 +1113,6 @@ route1 = @ILS18R
 	6, 1200, 180
 
 [approach5]
-runway = ROAHRWYWJF
-beacon = !SALSA
-route1 = @ILS18R2
-	182
-	!SALSA2, 1200, 210
-	6, 1200, 180
-
-[approach6]
 runway = ROAHRWYW
 beacon = !THETA
 route1 = @ILS18RTHETA
@@ -1103,15 +1120,7 @@ route1 = @ILS18RTHETA
 	!THETA
 	@ILS18R
 
-[approach7]
-runway = ROAHRWYWJF
-beacon = !THETA
-route1 = @ILS18RTHETA2
-	93
-	!THETA
-	@ILS18R2
-
-[approach8]
+[approach6]
 runway = ROAHRWYW
 beacon = !KUKUL
 route1 = @ILS18RKUKUL
@@ -1119,16 +1128,8 @@ route1 = @ILS18RKUKUL
 	!KUKUL
 	@ILS18R
 
-[approach9]
+[approach7]
 runway = ROAHRWYWJF
-beacon = !KUKUL
-route1 = @ILS18RKUKUL2
-	182
-	!KUKUL
-	@ILS18R2
-
-[approach10]
-runway = ROAHRWYW
 beacon = EISAR
 route1 = @ILS18REISAR
 	161
@@ -1138,20 +1139,9 @@ route1 = @ILS18REISAR
 	!SALSA357D16.4
 	@ILS18R
 
-[approach11]
-runway = ROAHRWYWJF
-beacon = EISAR
-route1 = @ILS18REISAR2
-	161
-	!EISAR
-	!KIZNA
-	!NHC351D15
-	!SALSA357D16.4
-	@ILS18R2
-
 #SCUBA ARRIVAL
-[approach12]
-runway = ROAHRWYW
+[approach8]
+runway = ROAHRWYWJF
 beacon = SCUBA
 route1 = 
 	161
@@ -1160,19 +1150,9 @@ route1 =
 	!NHC341D25
 	@ILS18REISAR
 
-[approach13]
+[approach9]
 runway = ROAHRWYWJF
-beacon = SCUBA
-route1 = 
-	161
-	!SCUBA
-	!NHC344D28.1
-	!NHC341D25
-	@ILS18REISAR2
-
-[approach14]
-runway = ROAHRWYW
-beacon = !LAVON
+beacon = LAVON
 route1 = @ILS18RLAVON
 	356
 	!LAVON
@@ -1182,35 +1162,23 @@ route1 = @ILS18RLAVON
 	!SALSA357D16.4
 	@ILS18R
 
-[approach15]
-runway = ROAHRWYWJF
-beacon = !LAVON
-route1 = @ILS18RLAVON2
-	356
-	!LAVON
-	!GELMA
-	!KIZNA
-	!NHC351D15
-	!SALSA357D16.4
-	@ILS18R2
-
-[approach16]
+[approach10]
 runway = ROAHRWYWJF
 beacon = !GURUX
-route1 = @ILS18RGURUX2
+route1 = @ILS18RGURUX
 	86
 	!GURUX
-	@ILS18RLAVON2
+	@ILS18RLAVON
 
-[approach17]
+[approach11]
 runway = ROAHRWYWJF
 beacon = !DORIS
-route1 = @ILS18RDORIS2
+route1 = @ILS18RDORIS
 	86
 	!DORIS
-	@ILS18RGURUX2
+	@ILS18RGURUX
 
-[approach18]
+[approach12]
 runway = ROAHRWYW
 beacon = OLVAL
 route1 = @ILS18ROLVAL
@@ -1218,16 +1186,8 @@ route1 = @ILS18ROLVAL
 	!OLVAL
 	@ILS18RLAVON
 
-[approach19]
-runway = ROAHRWYWJF
-beacon = OLVAL
-route1 = @ILS18ROLVAL2
-	331
-	!OLVAL
-	@ILS18RLAVON2
-
 #ILS RWY 18R missed
-[approach20]
+[approach13]
 runway = ROAHRWYW
 beacon = !H6L50
 route1 = 
@@ -1236,34 +1196,16 @@ route1 =
 	!H8R51
 	@ILS18ROLVAL
 
-#ILS RWY 18R missed
-[approach21]
-runway = ROAHRWYWJF
-beacon = !H6L50
-route1 = 
-	182
-	!H6L50
-	!H8R51
-	@ILS18ROLVAL2
-
-[approach22]
+[approach14]
 runway = ROAHRWYW
 beacon = !H8R51
 route1 = 
 	241
 	!H8R51
 	@ILS18ROLVAL
-
-[approach23]
-runway = ROAHRWYWJF
-beacon = !H8R51
-route1 = 
-	241
-	!H8R51
-	@ILS18ROLVAL2
 
 #ILS Z RWY 36R
-[approach24]
+[approach15]
 runway = ROAHRWYE, rev
 beacon = !DEIJI
 route1 = @ILSZ36R
@@ -1271,7 +1213,7 @@ route1 = @ILSZ36R
 	!DEIJI, 2000, 210
 	4.0, 1300, 180
 
-[approach25]
+[approach16]
 runway = ROAHRWYE, rev
 beacon = !SEIFA
 route1 = @ILSZ36RSEIFA
@@ -1279,7 +1221,7 @@ route1 = @ILSZ36RSEIFA
 	!SEIFA, 3000
 	@ILSZ36R
 
-[approach26]
+[approach17]
 runway = ROAHRWYE, rev
 beacon = !UTAKI
 route1 = 
@@ -1287,7 +1229,7 @@ route1 =
 	!UTAKI, 3000
 	@ILSZ36R
 
-[approach27]
+[approach18]
 runway = ROAHRWYE, rev
 beacon = !VIGER
 route1 = @ILSZ36RVIGER
@@ -1296,7 +1238,7 @@ route1 = @ILSZ36RVIGER
 	@ILSZ36R
 
 #ILS Y RWY 36R
-[approach28]
+[approach19]
 runway = ROAHRWYE, rev
 beacon = OLVAL
 route1 = @ILSY36R
@@ -1308,7 +1250,7 @@ route1 = @ILSY36R
 	@ILSZ36R
 
 #ILS RWY 36R missed approach
-[approach29]
+[approach20]
 runway = ROAHRWYE, rev
 beacon = !H6R00
 route1 = 
@@ -1319,7 +1261,7 @@ route1 =
 	!LAVON
 	@ILSY36R
 
-[approach30]
+[approach21]
 runway = ROAHRWYE, rev
 beacon = !KIZNA
 route1 = 
@@ -1330,7 +1272,7 @@ route1 =
 	@ILSY36R
 
 #ILS Z RWY 36L
-[approach31]
+[approach22]
 runway = ROAHRWYW, rev
 beacon = !BLISS
 route1 = @ILSZ36L
@@ -1338,7 +1280,7 @@ route1 = @ILSZ36L
 	!BLISS, 2000, 210
 	6.0, 1300, 180
 
-[approach32]
+[approach23]
 runway = ROAHRWYW, rev
 beacon = !SEIFA
 route1 = @ILSZ36LSEIFA
@@ -1346,7 +1288,7 @@ route1 = @ILSZ36LSEIFA
 	!SEIFA, 3000
 	@ILSZ36L
 
-[approach33]
+[approach24]
 runway = ROAHRWYW, rev
 beacon = !UTAKI
 route1 = @ILSZ36LUTAKI
@@ -1354,7 +1296,7 @@ route1 = @ILSZ36LUTAKI
 	!UTAKI, 3000
 	@ILSZ36L
 
-[approach34]
+[approach25]
 runway = ROAHRWYW, rev
 beacon = !VIGER
 route1 = @ILSZ36LVIGER
@@ -1363,7 +1305,7 @@ route1 = @ILSZ36LVIGER
 	@ILSZ36L
 
 #ILS Y RWY 36L
-[approach35]
+[approach26]
 runway = ROAHRWYW, rev
 beacon = OLVAL
 route1 = @ILSY36L
@@ -1371,46 +1313,29 @@ route1 = @ILSY36L
 	!OLVAL
 	!H8L52
 	!VIGER
-	!NHC184TD15
+	!IX36L
 	@ILSZ36L
 
 #ILS X RWY 36L
-[approach36]
+[approach27]
 runway = ROAHRWYWJF, rev
-beacon = !BLISS
+beacon = !IX36L
 route1 = @ILSX36L
-	2
-	!BLISS2, 2000, 210
-	6.0, 1300, 180
-
-[approach37]
-runway = ROAHRWYWJF, rev
-beacon = VIGER
-route1 = @ILSX36LVIGER
 	16
 	!VIGER
-	!NHC184TD15
+	!IX36L
 	!NHC185D15
-	@ILSX36L
+	@ILSZ36L
 
-[approach38]
-runway = ROAHRWYWJF, rev
-beacon = OLVAL
-route1 = @ILSX36LOLVAL
-	151
-	!OLVAL
-	!H8L52
-	@ILSX36LVIGER
-
-[approach39]
+[approach28]
 runway = ROAHRWYWJF, rev
 beacon = LAVON
 route1 = @ILSX36LLAVON
 	86
 	!LAVON
-	@ILSX36LOLVAL
+	@ILSX36L
 
-[approach40]
+[approach29]
 runway = ROAHRWYWJF, rev
 beacon = !GURUX
 route1 = @ILSX36LGURUX
@@ -1418,7 +1343,7 @@ route1 = @ILSX36LGURUX
 	!GURUX
 	@ILSX36LLAVON
 
-[approach41]
+[approach30]
 runway = ROAHRWYWJF, rev
 beacon = !DORIS
 route1 = @ILSX36LDORIS
@@ -1427,16 +1352,16 @@ route1 = @ILSX36LDORIS
 	@ILSX36LGURUX
 
 #LAFTY ARRIVAL
-[approach42]
+[approach31]
 runway = ROAHRWYWJF, rev
 beacon = LAFTY
 route1 = @ILSX36LLAFTY
 	16
 	!LAFTY
-	@ILSX36LVIGER
+	@ILSX36L
 
 #ILS RWY 36L missed approach
-[approach43]
+[approach32]
 runway = ROAHRWYW, rev
 beacon = !H8R50
 route1 = 
@@ -1446,17 +1371,7 @@ route1 =
 	!LAVON
 	@ILSY36L
 
-[approach44]
-runway = ROAHRWYWJF, rev
-beacon = !H8R50
-route1 = 
-	357
-	!H8R50
-	!GELMA
-	!LAVON
-	@ILSX36LVIGER
-
-[approach45]
+[approach33]
 runway = ROAHRWYW, rev
 beacon = !GELMA
 route1 = 
@@ -1464,18 +1379,9 @@ route1 =
 	!GELMA
 	!LAVON
 	@ILSY36L
-
-[approach46]
-runway = ROAHRWYWJF, rev
-beacon = !GELMA
-route1 = 
-	301
-	!GELMA
-	!LAVON
-	@ILSX36LVIGER
 
 #IHEYAN
-[approach47]
+[approach34]
 runway = ROAHRWYW
 beacon = IHEYA
 route1 = 
@@ -1484,7 +1390,7 @@ route1 =
 	!FOCUS
 	@ILS18RKUKUL
 
-[approach48]
+[approach35]
 runway = ROAHRWYW
 beacon = !FOCUS
 route1 = 
@@ -1492,7 +1398,7 @@ route1 =
 	!FOCUS
 	@ILS18RKUKUL
 
-[approach49]
+[approach36]
 runway = ROAHRWYE
 beacon = IHEYA
 route1 = 
@@ -1501,7 +1407,7 @@ route1 =
 	!FOCUS
 	@RNAV18LKUKUL
 
-[approach50]
+[approach37]
 runway = ROAHRWYE
 beacon = !FOCUS
 route1 = 
@@ -1510,7 +1416,7 @@ route1 =
 	@RNAV18LKUKUL
 
 #IHEYAS
-[approach51]
+[approach38]
 runway = ROAHRWYW, rev
 beacon = IHEYA
 route1 = 
@@ -1519,7 +1425,7 @@ route1 =
 	!HASSA
 	@ILSZ36LSEIFA
 
-[approach52]
+[approach39]
 runway = ROAHRWYW, rev
 beacon = !HASSA
 route1 = 
@@ -1527,7 +1433,7 @@ route1 =
 	!HASSA
 	@ILSZ36LSEIFA
 
-[approach53]
+[approach40]
 runway = ROAHRWYE, rev
 beacon = IHEYA
 route1 = 
@@ -1536,7 +1442,7 @@ route1 =
 	!HASSA
 	@ILSZ36RSEIFA
 
-[approach54]
+[approach41]
 runway = ROAHRWYE, rev
 beacon = !HASSA
 route1 = 
@@ -1545,7 +1451,7 @@ route1 =
 	@ILSZ36RSEIFA
 
 #VELNON
-[approach55]
+[approach42]
 runway = ROAHRWYW
 beacon = VELNO
 route1 = 
@@ -1553,7 +1459,7 @@ route1 =
 	!VELNO
 	@ILS18RTHETA
 
-[approach56]
+[approach43]
 runway = ROAHRWYE
 beacon = VELNO
 route1 = 
@@ -1562,7 +1468,7 @@ route1 =
 	@RNAV18LTHETA
 
 #VELNOS
-[approach57]
+[approach44]
 runway = ROAHRWYW, rev
 beacon = VELNO
 route1 = 
@@ -1570,7 +1476,7 @@ route1 =
 	!VELNO
 	@ILSZ36LVIGER
 
-[approach58]
+[approach45]
 runway = ROAHRWYE, rev
 beacon = VELNO
 route1 = 
@@ -1579,7 +1485,7 @@ route1 =
 	@ILSZ36RVIGER
 
 #RESORN
-[approach59]
+[approach46]
 runway = ROAHRWYW
 beacon = OKUMA
 route1 = 
@@ -1588,7 +1494,7 @@ route1 =
 	!CLIFF
 	@ILS18RKUKUL
 
-[approach60]
+[approach47]
 runway = ROAHRWYW
 beacon = !CLIFF
 route1 = 
@@ -1596,7 +1502,7 @@ route1 =
 	!CLIFF
 	@ILS18RKUKUL
 
-[approach61]
+[approach48]
 runway = ROAHRWYE
 beacon = OKUMA
 route1 = 
@@ -1605,7 +1511,7 @@ route1 =
 	!CLIFF
 	@RNAV18LKUKUL
 
-[approach62]
+[approach49]
 runway = ROAHRWYE
 beacon = !CLIFF
 route1 = 
@@ -1614,7 +1520,7 @@ route1 =
 	@RNAV18LKUKUL
 
 #RESORS
-[approach63]
+[approach50]
 runway = ROAHRWYW, rev
 beacon = OKUMA
 route1 = 
@@ -1623,7 +1529,7 @@ route1 =
 	!HASSA
 	@ILSZ36LSEIFA
 
-[approach64]
+[approach51]
 runway = ROAHRWYE, rev
 beacon = OKUMA
 route1 = 
@@ -1667,24 +1573,26 @@ route1 =
 #	@ILSZ36RVIGER
 
 #LAVONA
-[approach65]
+[approach52]
 runway = ROAHRWYW, rev
 beacon = LAVON
 route1 = @LAVON36L
 	266
 	!LAVON
+	!OLVAL
 	@ILSY36L
 
-[approach66]
+[approach53]
 runway = ROAHRWYE, rev
 beacon = LAVON
 route1 = @LAVON36R
 	266
 	!LAVON
+	!OLVAL
 	@ILSY36R
 
 #from NANJO
-[approach67]
+[approach54]
 runway = ROAHRWYW
 beacon = NANJO
 route1 = 
@@ -1694,7 +1602,7 @@ route1 =
 	!NHC
 	@ILS18RLAVON
 
-[approach68]
+[approach55]
 runway = ROAHRWYW
 beacon = !ESKOB
 route1 = 
@@ -1703,7 +1611,7 @@ route1 =
 	!NHC
 	@ILS18RLAVON
 
-[approach69]
+[approach56]
 runway = ROAHRWYW
 beacon = NHC
 route1 = 
@@ -1711,7 +1619,7 @@ route1 =
 	!NHC
 	@ILS18RLAVON
 
-[approach70]
+[approach57]
 runway = ROAHRWYW, rev
 beacon = NANJO
 route1 = 
@@ -1721,7 +1629,7 @@ route1 =
 	!NHC
 	@LAVON36L
 
-[approach71]
+[approach58]
 runway = ROAHRWYW, rev
 beacon = !ESKOB
 route1 = 
@@ -1730,7 +1638,7 @@ route1 =
 	!NHC
 	@LAVON36L
 
-[approach72]
+[approach59]
 runway = ROAHRWYW, rev
 beacon = NHC
 route1 = 
@@ -1738,7 +1646,7 @@ route1 =
 	!NHC
 	@LAVON36L
 
-[approach73]
+[approach60]
 runway = ROAHRWYE, rev
 beacon = NANJO
 route1 = 
@@ -1748,7 +1656,7 @@ route1 =
 	!NHC
 	@LAVON36R
 
-[approach74]
+[approach61]
 runway = ROAHRWYE, rev
 beacon = !ESKOB
 route1 = 
@@ -1757,7 +1665,7 @@ route1 =
 	!NHC
 	@LAVON36R
 
-[approach75]
+[approach62]
 runway = ROAHRWYE, rev
 beacon = NHC
 route1 = 
@@ -1936,7 +1844,7 @@ route4 = KIZNA1.LAGON, Kizuna One Lagoon
 
 
 #ILS RWY 05L
-[approach76]
+[approach63]
 runway = RODNRWYW
 beacon = !JIMMY
 route1 = @ILS05L
@@ -1944,7 +1852,7 @@ route1 = @ILS05L
 	!JIMMY, 2200, 230
 	5.9, 2000, 230
 
-[approach77]
+[approach64]
 runway = RODNRWYW
 beacon = !EBLIR
 route1 = 
@@ -1952,7 +1860,7 @@ route1 =
 	!EBLIR, 4000, 230
 	@ILS05L
 
-[approach78]
+[approach65]
 runway = RODNRWYW
 beacon = JACKS
 route1 = 
@@ -1962,7 +1870,7 @@ route1 =
 	@ILS05L
 
 #ILS RWY 23R
-[approach79]
+[approach66]
 runway = RODNRWYW, rev
 beacon = !LETOX
 route1 = @ILS23R
@@ -1970,7 +1878,7 @@ route1 = @ILS23R
 	!LETOX, 4000, 230
 	6, 2000, 230
 
-[approach80]
+[approach67]
 runway = RODNRWYW, rev
 beacon = !IMONO
 route1 = 
@@ -2006,7 +1914,7 @@ route1 =
 
 
 
-[approach81]
+[approach68]
 runway = ROKJRWY
 beacon = !DORIS
 route1 = @LOC03DORIS
@@ -2015,7 +1923,7 @@ route1 = @LOC03DORIS
 	!KXC206D18, 2000, 180
 	15, 2000, 180
 
-[approach82]
+[approach69]
 runway = ROKJRWY
 beacon = !DUFFY
 route1 = 
@@ -2024,7 +1932,7 @@ route1 =
 	!KXC206D18, 2000, 180
 	15, 2000, 180
 
-[approach83]
+[approach70]
 runway = ROKJRWY
 beacon = !GURUX
 route1 = @LOC03GURUX
@@ -2032,15 +1940,15 @@ route1 = @LOC03GURUX
 	!GURUX
 	@LOC03DORIS
 
-[approach84]
+[approach71]
 runway = ROKJRWY
-beacon = !LAVON
+beacon = LAVON
 route1 = @LOC03LAVON
 	266
 	!LAVON
 	@LOC03GURUX
 
-[approach85]
+[approach72]
 runway = ROKJRWY
 beacon = NHC
 route1 = @LOC03NHC
@@ -2048,7 +1956,7 @@ route1 = @LOC03NHC
 	!NHC
 	@LOC03LAVON
 
-[approach86]
+[approach73]
 runway = ROKJRWY
 beacon = OKUMA
 route1 = @LOC03OKUMA

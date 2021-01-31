@@ -32,6 +32,7 @@ beacons = NHC, N26.12.30.71, E127.38.34.32, 0, Naha
 	KUKUL, N26.29.51.98, E127.36.41.55, 179, Kukul
 	VELNO, N25.53.47.28, E127.18.33.80, 49, Velno
 	OLVAL, N26.04.11.00, E127.24.41.30, 61, Olval
+	LAVON, N26.10.13.46, E127.22.05.31, 266, Lavon
 	EISAR, N26.28.57.89, E127.30.19.05, 161, Eisar
 	LAFTY, N25.42.56.98, E127.32.20.22, 16, Lafty
 	NANJO, N26.07.39.47, E128.17.09.81, 283, Nanjo
@@ -2184,6 +2185,16 @@ airlines = shark-12, 10, t4, shark, nswe
 	jaguar-12, 10, f15, jaguar, nswe
 	jaguar-12, 10, f15, jaguar, nswe
 	jaguar-12, 10, f15, jaguar, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
 
 [airport3]
 name = Kadena
@@ -2355,6 +2366,7 @@ airlines = rch-1234, 10, c5m/c17, reach, n
 	jakal-12, 10, c130, jakal, nswe
 	jakal-12, 10, c130, jakal, nswe
 	flc-11, 5, cl60, flight check, nswe
+	vda, 1, a124, volga, nswe
 
 [airport4]
 name = Futenma
@@ -2373,7 +2385,206 @@ entrypoints =
 	99, NANJO
 	229, VELNO
 airlines = magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
 	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	vda, 1, a124, volga, *
 
 [airport5]
 name = Kumejima
@@ -2385,6 +2596,24 @@ climbaltitude = 5000
 entrypoints = 
 	39, OKUMA
 airlines = jta, 1, b738, j-ocean, n
+
+[airport6]
+name = Iejima
+code = RE
+runways = 
+	RORERWY, 04, N26.43.02.20, E127.46.55.40, 38.87, 4921, 0, 0, 225
+
+[airport7]
+name = Kerama
+code = KR
+runways = 
+	ROKRRWY, 02, N26.09.53.52, E127.17.32.50, 20, 4921, 0, 0, 156
+
+[airport8]
+name = Aguni
+code = RA
+runways = 
+	RORARWY, 01, N26.35.21.01, E127.14.24.02, 4.88, 2625, 0, 0, 35
 
 [approach1]
 runway = ROAHRWYE
@@ -2417,121 +2646,60 @@ route1 = 182
 	6, 1200, 180
 
 [approach5]
-runway = ROAHRWYWJF
-beacon = SALSA, N26.20.32.59, E127.37.25.14, 0, Salsa
-route1 = 182
-	N26.20.32.58, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach6]
 runway = ROAHRWYW
 beacon = THETA, N26.20.20.00, E127.31.59.31, 148, Theta
 route1 = 93
 	N26.20.20.00, E127.31.59.31
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach6]
+runway = ROAHRWYW
+beacon = KUKUL, N26.29.51.98, E127.36.41.55, 179, Kukul
+route1 = 182
+	N26.29.51.98, E127.36.41.55
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
 [approach7]
 runway = ROAHRWYWJF
-beacon = THETA, N26.20.20.00, E127.31.59.31, 148, Theta
-route1 = 93
-	N26.20.20.00, E127.31.59.31
-	N26.20.32.58, E127.37.25.14, 1200, 210
+beacon = EISAR
+route1 = 161
+	N26.28.57.89, E127.30.19.05
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
 [approach8]
-runway = ROAHRWYW
-beacon = KUKUL, N26.29.51.98, E127.36.41.55, 179, Kukul
-route1 = 182
-	N26.29.51.98, E127.36.41.55
+runway = ROAHRWYWJF
+beacon = SCUBA
+route1 = 
+	161
+	N26.50.49.69, E127.22.16.55
+	N26.38.43, E127.27.19
+	N26.35.20, E127.27.13
+	N26.28.57.89, E127.30.19.05
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
 [approach9]
 runway = ROAHRWYWJF
-beacon = KUKUL, N26.29.51.98, E127.36.41.55, 179, Kukul
-route1 = 182
-	N26.29.51.98, E127.36.41.55
-	N26.20.32.58, E127.37.25.14, 1200, 210
+beacon = LAVON
+route1 = 356
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
 [approach10]
-runway = ROAHRWYW
-beacon = EISAR
-route1 = 161
-	N26.28.57.89, E127.30.19.05
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.59, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach11]
-runway = ROAHRWYWJF
-beacon = EISAR
-route1 = 161
-	N26.28.57.89, E127.30.19.05
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.58, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach12]
-runway = ROAHRWYW
-beacon = SCUBA
-route1 = 
-	161
-	N26.50.49.69, E127.22.16.55
-	N26.38.43, E127.27.19
-	N26.35.20, E127.27.13
-	N26.28.57.89, E127.30.19.05
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.59, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach13]
-runway = ROAHRWYWJF
-beacon = SCUBA
-route1 = 
-	161
-	N26.50.49.69, E127.22.16.55
-	N26.38.43, E127.27.19
-	N26.35.20, E127.27.13
-	N26.28.57.89, E127.30.19.05
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.58, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach14]
-runway = ROAHRWYW
-beacon = LAVON, N26.10.13.46, E127.22.05.31, 0, Lavon
-route1 = 356
-	N26.10.13.46, E127.22.05.31
-	N26.20.37.85, E127.24.31.22
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.59, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach15]
-runway = ROAHRWYWJF
-beacon = LAVON, N26.10.13.46, E127.22.05.31, 0, Lavon
-route1 = 356
-	N26.10.13.46, E127.22.05.31
-	N26.20.37.85, E127.24.31.22
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.58, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach16]
 runway = ROAHRWYWJF
 beacon = GURUX, N26.08.52.24, E127.12.26.56, 0, Gurux
 route1 = 86
@@ -2541,10 +2709,10 @@ route1 = 86
 	N26.26.12.82, E127.31.41.71
 	N26.27.03, E127.34.31
 	N26.26.56, E127.37.03
-	N26.20.32.58, E127.37.25.14, 1200, 210
+	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach17]
+[approach11]
 runway = ROAHRWYWJF
 beacon = DORIS, N26.04.30.51, E126.41.53.31, 9, Doris
 route1 = 86
@@ -2555,10 +2723,10 @@ route1 = 86
 	N26.26.12.82, E127.31.41.71
 	N26.27.03, E127.34.31
 	N26.26.56, E127.37.03
-	N26.20.32.58, E127.37.25.14, 1200, 210
+	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach18]
+[approach12]
 runway = ROAHRWYW
 beacon = OLVAL
 route1 = 331
@@ -2571,20 +2739,7 @@ route1 = 331
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach19]
-runway = ROAHRWYWJF
-beacon = OLVAL
-route1 = 331
-	N26.04.11.00, E127.24.41.30
-	N26.10.13.46, E127.22.05.31
-	N26.20.37.85, E127.24.31.22
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.58, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach20]
+[approach13]
 runway = ROAHRWYW
 beacon = H6L50, N26.09.51.15, E127.38.03.23, 0, Hotel 6 Lima 5 0
 route1 = 
@@ -2600,23 +2755,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach21]
-runway = ROAHRWYWJF
-beacon = H6L50, N26.09.51.15, E127.38.03.23, 0, Hotel 6 Lima 5 0
-route1 = 
-	182
-	N26.09.51.15, E127.38.03.23
-	N26.01.07.02, E127.27.41.24
-	N26.04.11.00, E127.24.41.30
-	N26.10.13.46, E127.22.05.31
-	N26.20.37.85, E127.24.31.22
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.58, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach22]
+[approach14]
 runway = ROAHRWYW
 beacon = H8R51, N26.01.07.02, E127.27.41.24, 0, Hotel 8 Romeo 5 1
 route1 = 
@@ -2631,29 +2770,14 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach23]
-runway = ROAHRWYWJF
-beacon = H8R51, N26.01.07.02, E127.27.41.24, 0, Hotel 8 Romeo 5 1
-route1 = 
-	241
-	N26.01.07.02, E127.27.41.24
-	N26.04.11.00, E127.24.41.30
-	N26.10.13.46, E127.22.05.31
-	N26.20.37.85, E127.24.31.22
-	N26.26.12.82, E127.31.41.71
-	N26.27.03, E127.34.31
-	N26.26.56, E127.37.03
-	N26.20.32.58, E127.37.25.14, 1200, 210
-	6, 1200, 180
-
-[approach24]
+[approach15]
 runway = ROAHRWYE, rev
 beacon = DEIJI, N26.02.51.81, E127.39.15.61, 0, Deiji
 route1 = 2
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach25]
+[approach16]
 runway = ROAHRWYE, rev
 beacon = SEIFA, N26.03.03.88, E127.44.48.52, 154, Seifa
 route1 = 273
@@ -2661,7 +2785,7 @@ route1 = 273
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach26]
+[approach17]
 runway = ROAHRWYE, rev
 beacon = UTAKI, N26.02.33.15, E127.32.50.37, 32, Utaki
 route1 = 
@@ -2670,7 +2794,7 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach27]
+[approach18]
 runway = ROAHRWYE, rev
 beacon = VIGER, N25.57.43.88, E127.35.26.92, 16, Viger
 route1 = 39
@@ -2678,7 +2802,7 @@ route1 = 39
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach28]
+[approach19]
 runway = ROAHRWYE, rev
 beacon = OLVAL
 route1 = 151
@@ -2689,7 +2813,7 @@ route1 = 151
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach29]
+[approach20]
 runway = ROAHRWYE, rev
 beacon = H6R00, N26.14.55.3, E127.38.36.2, 0, Hotel 6 Romeo 0 0
 route1 = 
@@ -2705,7 +2829,7 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach30]
+[approach21]
 runway = ROAHRWYE, rev
 beacon = KIZNA, N26.26.12.82, E127.31.41.71, 0, Kizuna
 route1 = 
@@ -2720,14 +2844,14 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach31]
+[approach22]
 runway = ROAHRWYW, rev
 beacon = BLISS, N26.02.49.28, E127.38.23.04, 0, Bliss
 route1 = 2
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach32]
+[approach23]
 runway = ROAHRWYW, rev
 beacon = SEIFA, N26.03.03.88, E127.44.48.52, 154, Seifa
 route1 = 273
@@ -2735,7 +2859,7 @@ route1 = 273
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach33]
+[approach24]
 runway = ROAHRWYW, rev
 beacon = UTAKI, N26.02.33.15, E127.32.50.37, 32, Utaki
 route1 = 92
@@ -2743,7 +2867,7 @@ route1 = 92
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach34]
+[approach25]
 runway = ROAHRWYW, rev
 beacon = VIGER, N25.57.43.88, E127.35.26.92, 16, Viger
 route1 = 33
@@ -2751,7 +2875,7 @@ route1 = 33
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach35]
+[approach26]
 runway = ROAHRWYW, rev
 beacon = OLVAL
 route1 = 151
@@ -2762,78 +2886,53 @@ route1 = 151
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach36]
+[approach27]
 runway = ROAHRWYWJF, rev
-beacon = BLISS, N26.02.49.28, E127.38.23.04, 0, Bliss
-route1 = 2
-	N26.02.49.29, E127.38.23.04, 2000, 210
-	6.0, 1300, 180
-
-[approach37]
-runway = ROAHRWYWJF, rev
-beacon = VIGER
+beacon = IX36L, N25.57.34, E127.37.25, 0, Viger
 route1 = 16
 	N25.57.43.88, E127.35.26.92
 	N25.57.34, E127.37.25
 	N25.57.31, E127.38.34
-	N26.02.49.29, E127.38.23.04, 2000, 210
+	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach38]
-runway = ROAHRWYWJF, rev
-beacon = OLVAL
-route1 = 151
-	N26.04.11.00, E127.24.41.30
-	N25.58.57.80, E127.31.19.34
-	N25.57.43.88, E127.35.26.92
-	N25.57.34, E127.37.25
-	N25.57.31, E127.38.34
-	N26.02.49.29, E127.38.23.04, 2000, 210
-	6.0, 1300, 180
-
-[approach39]
+[approach28]
 runway = ROAHRWYWJF, rev
 beacon = LAVON
 route1 = 86
 	N26.10.13.46, E127.22.05.31
-	N26.04.11.00, E127.24.41.30
-	N25.58.57.80, E127.31.19.34
 	N25.57.43.88, E127.35.26.92
 	N25.57.34, E127.37.25
 	N25.57.31, E127.38.34
-	N26.02.49.29, E127.38.23.04, 2000, 210
+	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach40]
+[approach29]
 runway = ROAHRWYWJF, rev
 beacon = GURUX, N26.08.52.24, E127.12.26.56, 0, Gurux
 route1 = 86
 	N26.08.52.24, E127.12.26.56
 	N26.10.13.46, E127.22.05.31
-	N26.04.11.00, E127.24.41.30
-	N25.58.57.80, E127.31.19.34
 	N25.57.43.88, E127.35.26.92
 	N25.57.34, E127.37.25
 	N25.57.31, E127.38.34
-	N26.02.49.29, E127.38.23.04, 2000, 210
+	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach41]
+[approach30]
 runway = ROAHRWYWJF, rev
 beacon = DORIS, N26.04.30.51, E126.41.53.31, 9, Doris
 route1 = 86
 	N26.04.30.51, E126.41.53.31
 	N26.08.52.24, E127.12.26.56
 	N26.10.13.46, E127.22.05.31
-	N26.04.11.00, E127.24.41.30
-	N25.58.57.80, E127.31.19.34
 	N25.57.43.88, E127.35.26.92
 	N25.57.34, E127.37.25
 	N25.57.31, E127.38.34
-	N26.02.49.29, E127.38.23.04, 2000, 210
+	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach42]
+[approach31]
 runway = ROAHRWYWJF, rev
 beacon = LAFTY
 route1 = 16
@@ -2841,10 +2940,10 @@ route1 = 16
 	N25.57.43.88, E127.35.26.92
 	N25.57.34, E127.37.25
 	N25.57.31, E127.38.34
-	N26.02.49.29, E127.38.23.04, 2000, 210
+	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach43]
+[approach32]
 runway = ROAHRWYW, rev
 beacon = H8R50, N26.12.44.32, E127.37.55.08, 0, HOtel 8 Romeo 5 0
 route1 = 
@@ -2859,21 +2958,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach44]
-runway = ROAHRWYWJF, rev
-beacon = H8R50, N26.12.44.32, E127.37.55.08, 0, HOtel 8 Romeo 5 0
-route1 = 
-	357
-	N26.12.44.32, E127.37.55.08
-	N26.20.37.85, E127.24.31.22
-	N26.10.13.46, E127.22.05.31
-	N25.57.43.88, E127.35.26.92
-	N25.57.34, E127.37.25
-	N25.57.31, E127.38.34
-	N26.02.49.29, E127.38.23.04, 2000, 210
-	6.0, 1300, 180
-
-[approach45]
+[approach33]
 runway = ROAHRWYW, rev
 beacon = GELMA, N26.20.37.85, E127.24.31.22, 0, Gelma
 route1 = 
@@ -2887,20 +2972,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach46]
-runway = ROAHRWYWJF, rev
-beacon = GELMA, N26.20.37.85, E127.24.31.22, 0, Gelma
-route1 = 
-	301
-	N26.20.37.85, E127.24.31.22
-	N26.10.13.46, E127.22.05.31
-	N25.57.43.88, E127.35.26.92
-	N25.57.34, E127.37.25
-	N25.57.31, E127.38.34
-	N26.02.49.29, E127.38.23.04, 2000, 210
-	6.0, 1300, 180
-
-[approach47]
+[approach34]
 runway = ROAHRWYW
 beacon = IHEYA
 route1 = 
@@ -2911,7 +2983,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach48]
+[approach35]
 runway = ROAHRWYW
 beacon = FOCUS, N26.40.32.00, E127.42.43.39, 0, Focus
 route1 = 
@@ -2921,7 +2993,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach49]
+[approach36]
 runway = ROAHRWYE
 beacon = IHEYA
 route1 = 
@@ -2932,7 +3004,7 @@ route1 =
 	N26.20.34.70, E127.38.20.22, 1200, 210
 	3.6, 1200, 180
 
-[approach50]
+[approach37]
 runway = ROAHRWYE
 beacon = FOCUS, N26.40.32.00, E127.42.43.39, 0, Focus
 route1 = 
@@ -2942,7 +3014,7 @@ route1 =
 	N26.20.34.70, E127.38.20.22, 1200, 210
 	3.6, 1200, 180
 
-[approach51]
+[approach38]
 runway = ROAHRWYW, rev
 beacon = IHEYA
 route1 = 
@@ -2953,7 +3025,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach52]
+[approach39]
 runway = ROAHRWYW, rev
 beacon = HASSA, N26.23.34.12, E127.55.15.96, 0, Hassa
 route1 = 
@@ -2963,7 +3035,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach53]
+[approach40]
 runway = ROAHRWYE, rev
 beacon = IHEYA
 route1 = 
@@ -2974,7 +3046,7 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach54]
+[approach41]
 runway = ROAHRWYE, rev
 beacon = HASSA, N26.23.34.12, E127.55.15.96, 0, Hassa
 route1 = 
@@ -2984,7 +3056,7 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach55]
+[approach42]
 runway = ROAHRWYW
 beacon = VELNO
 route1 = 
@@ -2994,7 +3066,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach56]
+[approach43]
 runway = ROAHRWYE
 beacon = VELNO
 route1 = 
@@ -3004,7 +3076,7 @@ route1 =
 	N26.20.34.70, E127.38.20.22, 1200, 210
 	3.6, 1200, 180
 
-[approach57]
+[approach44]
 runway = ROAHRWYW, rev
 beacon = VELNO
 route1 = 
@@ -3014,7 +3086,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach58]
+[approach45]
 runway = ROAHRWYE, rev
 beacon = VELNO
 route1 = 
@@ -3024,7 +3096,7 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach59]
+[approach46]
 runway = ROAHRWYW
 beacon = OKUMA
 route1 = 
@@ -3035,7 +3107,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach60]
+[approach47]
 runway = ROAHRWYW
 beacon = CLIFF, N26.33.12.54, E127.44.53.22, 0, Cliff
 route1 = 
@@ -3045,7 +3117,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach61]
+[approach48]
 runway = ROAHRWYE
 beacon = OKUMA
 route1 = 
@@ -3056,7 +3128,7 @@ route1 =
 	N26.20.34.70, E127.38.20.22, 1200, 210
 	3.6, 1200, 180
 
-[approach62]
+[approach49]
 runway = ROAHRWYE
 beacon = CLIFF, N26.33.12.54, E127.44.53.22, 0, Cliff
 route1 = 
@@ -3066,7 +3138,7 @@ route1 =
 	N26.20.34.70, E127.38.20.22, 1200, 210
 	3.6, 1200, 180
 
-[approach63]
+[approach50]
 runway = ROAHRWYW, rev
 beacon = OKUMA
 route1 = 
@@ -3077,7 +3149,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach64]
+[approach51]
 runway = ROAHRWYE, rev
 beacon = OKUMA
 route1 = 
@@ -3088,7 +3160,7 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach65]
+[approach52]
 runway = ROAHRWYW, rev
 beacon = LAVON
 route1 = 266
@@ -3100,7 +3172,7 @@ route1 = 266
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach66]
+[approach53]
 runway = ROAHRWYE, rev
 beacon = LAVON
 route1 = 266
@@ -3112,7 +3184,7 @@ route1 = 266
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach67]
+[approach54]
 runway = ROAHRWYW
 beacon = NANJO
 route1 = 
@@ -3128,7 +3200,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach68]
+[approach55]
 runway = ROAHRWYW
 beacon = ESKOB, N26.10.09.51, E127.57.27.64, 0, Eskob
 route1 = 
@@ -3143,7 +3215,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach69]
+[approach56]
 runway = ROAHRWYW
 beacon = NHC
 route1 = 
@@ -3157,7 +3229,7 @@ route1 =
 	N26.20.32.59, E127.37.25.14, 1200, 210
 	6, 1200, 180
 
-[approach70]
+[approach57]
 runway = ROAHRWYW, rev
 beacon = NANJO
 route1 = 
@@ -3173,7 +3245,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach71]
+[approach58]
 runway = ROAHRWYW, rev
 beacon = ESKOB, N26.10.09.51, E127.57.27.64, 0, Eskob
 route1 = 
@@ -3188,7 +3260,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach72]
+[approach59]
 runway = ROAHRWYW, rev
 beacon = NHC
 route1 = 
@@ -3202,7 +3274,7 @@ route1 =
 	N26.02.49.28, E127.38.23.04, 2000, 210
 	6.0, 1300, 180
 
-[approach73]
+[approach60]
 runway = ROAHRWYE, rev
 beacon = NANJO
 route1 = 
@@ -3218,7 +3290,7 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach74]
+[approach61]
 runway = ROAHRWYE, rev
 beacon = ESKOB, N26.10.09.51, E127.57.27.64, 0, Eskob
 route1 = 
@@ -3233,7 +3305,7 @@ route1 =
 	N26.02.51.81, E127.39.15.61, 2000, 210
 	4.0, 1300, 180
 
-[approach75]
+[approach62]
 runway = ROAHRWYE, rev
 beacon = NHC
 route1 = 
@@ -3360,14 +3432,14 @@ route4 = KIZNA1.LAGON, Kizuna One Lagoon
 	N26.08.52.24, E127.12.26.56
 	N25.52.19.95, E126.43.23.97
 
-[approach76]
+[approach63]
 runway = RODNRWYW
 beacon = JIMMY, N26.16.21, E127.39.12, 0, Jimmy
 route1 = 55
 	N26.16.21, E127.39.12, 2200, 230
 	5.9, 2000, 230
 
-[approach77]
+[approach64]
 runway = RODNRWYW
 beacon = EBLIR, N26.13.08, E127.34.56, 0, Eblir
 route1 = 
@@ -3376,7 +3448,7 @@ route1 =
 	N26.16.21, E127.39.12, 2200, 230
 	5.9, 2000, 230
 
-[approach78]
+[approach65]
 runway = RODNRWYW
 beacon = JACKS
 route1 = 
@@ -3386,14 +3458,14 @@ route1 =
 	N26.16.21, E127.39.12, 2200, 230
 	5.9, 2000, 230
 
-[approach79]
+[approach66]
 runway = RODNRWYW, rev
 beacon = LETOX, N26.29.49, E127.57.09, 0, Letox
 route1 = 235
 	N26.29.49, E127.57.09, 4000, 230
 	6, 2000, 230
 
-[approach80]
+[approach67]
 runway = RODNRWYW, rev
 beacon = IMONO, N26.34.14, E128.03.14, 235, Imono
 route1 = 
@@ -3402,7 +3474,7 @@ route1 =
 	N26.29.49, E127.57.09, 4000, 230
 	6, 2000, 230
 
-[approach81]
+[approach68]
 runway = ROKJRWY
 beacon = DORIS, N26.04.30.51, E126.41.53.31, 9, Doris
 route1 = 266
@@ -3410,7 +3482,7 @@ route1 = 266
 	N26.05.31, E126.36.09, 2000, 180
 	15, 2000, 180
 
-[approach82]
+[approach69]
 runway = ROKJRWY
 beacon = DUFFY, N26.08.26.47, E126.30.48.37, 44, Duffy
 route1 = 
@@ -3419,7 +3491,7 @@ route1 =
 	N26.05.31, E126.36.09, 2000, 180
 	15, 2000, 180
 
-[approach83]
+[approach70]
 runway = ROKJRWY
 beacon = GURUX, N26.08.52.24, E127.12.26.56, 0, Gurux
 route1 = 266
@@ -3428,9 +3500,9 @@ route1 = 266
 	N26.05.31, E126.36.09, 2000, 180
 	15, 2000, 180
 
-[approach84]
+[approach71]
 runway = ROKJRWY
-beacon = LAVON, N26.10.13.46, E127.22.05.31, 0, Lavon
+beacon = LAVON
 route1 = 266
 	N26.10.13.46, E127.22.05.31
 	N26.08.52.24, E127.12.26.56
@@ -3438,7 +3510,7 @@ route1 = 266
 	N26.05.31, E126.36.09, 2000, 180
 	15, 2000, 180
 
-[approach85]
+[approach72]
 runway = ROKJRWY
 beacon = NHC
 route1 = 223
@@ -3449,7 +3521,7 @@ route1 = 223
 	N26.05.31, E126.36.09, 2000, 180
 	15, 2000, 180
 
-[approach86]
+[approach73]
 runway = ROKJRWY
 beacon = OKUMA
 route1 = 223
