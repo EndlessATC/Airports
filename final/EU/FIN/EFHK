@@ -4,7 +4,7 @@
 elevation = 179
 center = N60.317199707, E24.963300705
 magneticvar = 7.366
-descendaltitude = 10000 		; minimum initial altitude for arrivals
+descendaltitude = 12000 		; minimum initial altitude for arrivals
 ceiling = 27500 			; maximum selectable altitude
 above = 28000 			; maximum departure altitude when SID is enabled (must be above ceiling)
 radius = 70			; airspace radius in NM
@@ -185,6 +185,22 @@ entrypoints =
 	150,INTOR
 	100,ARVEP
 	130,ROPAM
+airlines =
+	TRA,	4,	B737/B738,	Transavia,	DIVAM
+	KLM,	2,	B737/B738/E190/E170, KLM,	DIVAM
+	AFR,	2,	A319/A320,	Air France,	DIVAM
+	BAW,	3,	A319/A320/A321, Speedbird,	DIVAM
+	CSN,	1,	A380/B77W,	China Southern,	INTOR
+	DLH,	2,	A319/A320/A321, Lufthansa, DIVAM
+	FIN,	5, A319/A320/A321/A330/A350/E190, Finnair, nwse
+	NAX,	5, B738, Norshuttle, nwse
+	IBK,	5, B738, Nortrans, nwse
+	TAP,    1, A319/A320/A321, Airportugal, DIVAM
+	JAL,    1, B789/B788, Japanair, INTOR
+	AFL,    2, A320, AEROFLOT, ROPAM
+	SAS, 	4, A320/A321/B738, Scandinavian, LAKUT
+	FDB,    2 , B738, Skydubai , INTOR
+	
 [approach1]
 runway = rwy2,rev
 beacon = KENON
