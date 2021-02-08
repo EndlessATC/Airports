@@ -1,6 +1,7 @@
 
 # Hong Kong TMA / VHHH Hong Kong
-__Important Notes__	
+__Important Notes__
+
 This is a such simpler version develop for Mobile EATC player.The folder going to store in your phone is: `\\Android\data\com.dirgtrats.endlessatc\files`
  Height Measurement to be used are Feet and  NM, included China Airspace. Otherwise specifically stated.
 ## Information
@@ -24,7 +25,7 @@ All visible fixes on the map have a defined hold including many fixes along the 
 #### Departure SID
 - `BEKOL`: Northern Route, No TTR, No Handoff below S0690 / F226.
 - `LAKES`: Northeast Route, TTR V1/V13, Handoff at F230 (Auto-Handoff)
--`OCEAN`: Eastern Route, TTR V2/V3/V4/V5, Handoff at F250 (Auto-Handoff)
+- `OCEAN`: Eastern Route, TTR V2/V3/V4/V5, Handoff at F250 (Auto-Handoff)
 - `PECAN`: Southwest Route: TTR V10/V11/V12, Handoff at F160
 #### Operations
 Due to Complication of airspace, all traffic are suggested to follow STAR approach and Do not assign holding at / under 15+ inbound within 30 minutes.
@@ -41,11 +42,11 @@ Due to Complication of airspace, all traffic are suggested to follow STAR approa
 #### Info
 Macau Int'l Airport, short for `MO`
 Single Runway, Runway 16 / 34
-It's Hard.
 > ISO 3166-2: MO
->For In-game TTS Purpose, Full Name included only have **Macau** instead of **Macau Int'l Airport**
+>
+> For In-game TTS Purpose, Full Name included only have **Macau** instead of **Macau Int'l Airport**
 #### Arrival STAR
->Transition Route included Below Sub-Chapter
+> Transition Route included Below Sub-Chapter
 - Belongs Hong Kong VHHH TMA / FIR
 	* `CHALI`: Southern Route from RPHI (Manila FIR Eastern), ZGZU (Guangzhou FIR South-Western), ZSJA (Sanya FIR Southern)
 	* `SMT`: Northeastern Route from RCAA (Taipei FIR Eastern), ZGZU (Guangzhou FIR NorthEastern)
@@ -68,7 +69,7 @@ It's Hard.
 	* `ALLEY`: End at `ALLEY`/ `PECAN`
 	* `CONGA`/ `GRUPA`/`SOUSA`: Ended at `SKATE`/`OCEAN`
 * Departure Handled by Guangzhou
-	*`BIGRO`: Last point in operating Airspace: `BOKAT`
+	* `BIGRO`: Last point in operating Airspace: `BOKAT`
 		* Suggested Handoff Point: `LATOP`
 	* `NLG`/`SHL`/`MIPAG`: `LATOP` will be End of Operation (Both Runway)
 #### Transition Route
@@ -80,13 +81,13 @@ It's Hard.
 	* `NEDLE`: Route from J101: `ELATO`, `DOTMI`
 #### Special Operation 
 * Runway 16 Runway Extension Line (In-game ILS)
-	> Due to Unavbl Offset LLZ, Sepcial Setup for better game experience. But still Ultra Hard.
+	> Due to Unavbl Offset LLZ, Sepcial Setup for better game experience.
 	* Left Offset 5deg (M163 Sim, M158 Real-life)
-	* Angle to Land: 3.5deg (3deg IRL)
+	* Angle of LLZ: 3.5deg (3deg IRL)
 * Runway 16 Offect Localiser Unavailable
 	* Alternative: Setted up LLZ 16 apch
 	* LLZ16 Ops: After Alignment on LLZ (ZAO radian 217), DCT give ILS Clearance.
-	* ==Immediate Clear ILS after Aligned, or I guarantee you Go Around==
+	* Immediate Clear ILS after Aligned, or I guarantee you Go Around
 * Runway 16 Circle to Land
 	* PAPA Inbound, Approach Route Reference ONLY
 	* Left Holding at MCU (Default) , Speed Max 160kt
@@ -103,7 +104,7 @@ VX ATZ has included in *v1.0*
 Shek Kong airport, Millitary Airport
 Shall Not expect simualtion in EATC
 ## Known Issues
-Everything is still missing ;(
+* VHHX Kai Tak WIP
 ### Hong Kong Int'l Airport
 Due game bug, While Both runway operation either only departure or both departure and arrival, the ILS of South Runway will be active. Beware double click the APP button to choose Northern 07L/25R Runway.
 ### Macau Airport
@@ -114,8 +115,8 @@ All right reserved
 ## For Developers
 For further infomative version, consider PC version developed by ckwng.
 ## Resources used
-*[eAIP](https://www.ais.gov.hk/) by CADHK
-*[ATIS](atis.cad.gov.hk/) by CADHK
+* [eAIP](https://www.ais.gov.hk/) by CADHK
+* [ATIS](atis.cad.gov.hk/) by CADHK
 * from [IVAO HK](https://xe.ivao.aero) (Currently Sub-division of XE)
 * from [Civil Aviation Department Hong Kong](https://www.cad.gov.hk/)
 * from [Airport Authority Hong Kong](https://www.hongkongairport.com/)
@@ -128,6 +129,7 @@ For further infomative version, consider PC version developed by ckwng.
 * 1.3 (p1.3) - 2021/01/10 - File Name Conflict Update, Extra Information Inc.
 * 1.4 (p1.4) - 2021/01/18 - VMMC/MCU Macau Airport Integration (VHHX Reserve Name Update)
 	* 1.4 Suppliments: Game File Clean-up Comments, Readme file remove extra lines
+	* 1.4.2 - 2021/02/08 - Readme Format Update
 ## License
 All Rights Reserved
 Copyright (c) 2021 ycohui
