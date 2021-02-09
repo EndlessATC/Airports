@@ -1,0 +1,3589 @@
+# ROAH ACA 1.0.0
+# See ROAH_readme.md
+
+# This file is generated from the source file source\ROAH.txt using expand.py.
+# All comments have been stripped, and edits are not made directly to this file.
+# If you would like to contribute, or see the author's comments, please refer to the source file.
+
+[airspace]
+radius = 80
+zoom = 1
+elevation = 11
+floor = 0
+descendaltitude = 15000
+ceiling = 20000
+above = 28000
+transitionaltitude = 13999
+speedrestriction = 80, 250
+usa = false
+metric = false
+center = N26.12.30.71, E127.38.34.32
+magneticvar = -5
+beacons = NHC, N26.12.30.71, E127.38.34.32, 0, Naha
+	ONC, N27.25.58.38, E128.41.56.27, 0, Erabu
+	KXC, N26.22.18.73, E126.43.19.43, 0, Kumejima
+	YRE, N27.02.39.75, E128.23.52.89, 0, Yoron
+	KAD, N26.21.24.16, E127.46.06.73, 0, Kadena
+	NFO, N26.16.07.8, E127.44.34.8, 0, Futenma
+	VIGER, N25.57.43.88, E127.35.26.92, 16, Viger
+	OKUMA, N26.40.16.98, E128.02.19.13, 222, Okuma
+	SCUBA, N26.50.49.69, E127.22.16.55, 164, Scuba
+	IHEYA, N27.00.40.22, E127.54.09.82, 243, Iheya
+	KUKUL, N26.29.51.98, E127.36.41.55, 179, Kukul
+	VELNO, N25.53.47.28, E127.18.33.80, 49, Velno
+	OLVAL, N26.04.11.00, E127.24.41.30, 61, Olval
+	LAVON, N26.10.13.46, E127.22.05.31, 266, Lavon
+	EISAR, N26.28.57.89, E127.30.19.05, 161, Eisar
+	LAFTY, N25.42.56.98, E127.32.20.22, 16, Lafty
+	NANJO, N26.07.39.47, E128.17.09.81, 283, Nanjo
+	JACKS, N26.08.32, E127.29.03, 55, Jacks
+	IMONO, N26.34.14, E128.03.14, 235, Imono
+boundary = 
+	N26.51.59, E126.48.07
+	N26.52.18, E126.43.19
+	N26.51.50, E126.37.29
+	N26.50.29, E126.31.50
+	N26.48.16, E126.26.32
+	N26.45.15, E126.21.45
+	N26.41.33, E126.17.37
+	N26.37.15, E126.14.17
+	N26.32.31, E126.11.50
+	N26.27.27, E126.10.21
+	N26.22.15, E126.09.52
+	N26.17.03, E126.10.24
+	N26.12.00, E126.11.56
+	N26.07.16, E126.14.24
+	N26.03.00, E126.17.46
+	N25.59.19, E126.21.53
+	N25.56.20, E126.26.39
+	N25.54.08, E126.31.56
+	N25.52.47, E126.37.32
+	N25.52.20, E126.43.19
+	N25.52.02, E126.47.51
+	N25.43.02, E126.53.42
+	N25.36.29, E127.00.05
+	N25.29.47, E127.09.47
+	N25.23.27, E127.28.04
+	N25.14.00, E127.24.04
+	N25.12.35, E127.36.16
+	N25.13.08, E127.47.48
+	N25.15.28, E127.59.03
+	N25.19.31, E128.09.43
+	N25.25.10, E128.19.27
+	N25.32.15, E128.27.57
+	N25.40.33, E128.34.59
+	N25.49.50, E128.40.20
+	N25.59.48, E128.43.49
+	N26.10.10, E128.45.20
+	N26.20.36, E128.44.50
+	N26.30.48, E128.42.18
+	N26.40.28, E128.37.49
+	N26.49.16, E128.31.31
+	N26.56.57, E128.23.35
+	N27.03.17, E128.14.15
+	N27.08.04, E128.03.49
+	N27.11.09, E127.52.35
+	N27.12.26, E127.40.55
+	N27.11.53, E127.29.11
+	N27.09.31, E127.17.45
+	N27.05.24, E127.06.57
+	N26.59.40, E126.57.09
+line1 = 
+	N26.88188, E128.25488
+	N26.79688, E128.21650
+	N26.71143, E128.12158
+	N26.66777, E128.09766
+	N26.64331, E128.04678
+	N26.64687, E128.02969
+	N26.67944, E127.99434
+	N26.69360, E127.90723
+	N26.67495, E127.89482
+	N26.63105, E127.89082
+	N26.59395, E127.94551
+	N26.55571, E127.92598
+	N26.46606, E127.82041
+	N26.44854, E127.79590
+	N26.43394, E127.72891
+	N26.30791, E127.72705
+	N26.19917, E127.65488
+	N26.15449, E127.64971
+	N26.09473, E127.65313
+	N26.09717, E127.72939
+	N26.15254, E127.80361
+	N26.17124, E127.80645
+	N26.20869, E127.78555
+	N26.25508, E127.79014
+	N26.31895, E127.84873
+	N26.32812, E127.90479
+	N26.38057, E127.86924
+	N26.44248, E127.86709
+	N26.45649, E127.95127
+	N26.53359, E128.03789
+	N26.55225, E128.12695
+	N26.60693, E128.16250
+	N26.65278, E128.25879
+	N26.72070, E128.31094
+	N26.81211, E128.33164
+	N26.88188, E128.25488
+line2 = 
+	N27.91025, E128.95166
+	N27.89800, E128.90762
+	N27.84243, E128.88281
+	N27.72778, E128.90000
+	N27.70249, E128.95625
+	N27.72080, E128.99814
+	N27.77021, E129.01641
+	N27.81113, E128.98975
+	N27.91025, E128.95166
+line3 = 
+	N28.47588, E129.59805
+	N28.46128, E129.57715
+	N28.43105, E129.56055
+	N28.39751, E129.50967
+	N28.39526, E129.46455
+	N28.35962, E129.32246
+	N28.31357, E129.25088
+	N28.28252, E129.24785
+	N28.26294, E129.21709
+	N28.24976, E129.16465
+	N28.20088, E129.27490
+	N28.12773, E129.36641
+	N28.20898, E129.45254
+	N28.25479, E129.43906
+	N28.27231, E129.45674
+	N28.29873, E129.51270
+	N28.36118, E129.57461
+	N28.41128, E129.64170
+	N28.43213, E129.71045
+	N28.46963, E129.71465
+	N28.51748, E129.68955
+	N28.47588, E129.59805
+line4 = 
+	N28.17617, E129.25742
+	N28.19248, E129.19248
+	N28.10112, E129.23242
+	N28.08159, E129.33057
+	N28.10493, E129.32402
+	N28.14473, E129.27734
+	N28.17617, E129.25742
+line5 = 
+	N24.45186, E124.17021
+	N24.46963, E124.12041
+	N24.43584, E124.08477
+	N24.34761, E124.13574
+	N24.33506, E124.18564
+	N24.35806, E124.23428
+	N24.51592, E124.29316
+	N24.56636, E124.32402
+	N24.58711, E124.30195
+	N24.45864, E124.21055
+	N24.45186, E124.17021
+line6 = 
+	N24.85239, E125.31494
+	N24.87192, E125.28359
+	N24.73252, E125.26895
+	N24.71709, E125.35938
+	N24.74316, E125.44414
+	N24.77686, E125.40186
+	N24.80469, E125.33457
+	N24.85239, E125.31494
+
+[area1]
+shape = circle
+altitude = -1
+position = N26.11.36, E127.38.23
+radius = 5
+
+[area2]
+shape = circle
+altitude = 2000
+labelpos = N26.11.36, E127.38.23
+position = N1, E1
+radius = 5
+
+[area3]
+shape = polygon
+altitude = -1
+name = DN
+points = 
+	N26.19.04, E127.50.47
+	N26.19.05, E127.49.12
+	N26.17.17, E127.45.51
+	N26.17.08, E127.45.19
+	N26.16.31, E127.44.37
+	N26.17.15, E127.42.52
+	N26.18.28, E127.41.30
+	N26.20.03, E127.40.40
+	N26.21.46, E127.40.30
+	N26.23.27, E127.41.00
+	N26.24.52, E127.42.07
+	N26.25.52, E127.43.42
+	N26.26.19, E127.45.34
+	N26.26.10, E127.47.30
+	N26.25.26, E127.49.15
+	N26.24.12, E127.50.38
+	N26.22.38, E127.51.27
+	N26.20.54, E127.51.37
+
+[area4]
+shape = polygon
+altitude = 3143
+name = DN
+labelpos = N26.21.20.20, E127.46.03.48
+draw = 99
+points = 
+	N26.19.05, E127.49.12
+	N26.17.17, E127.45.51
+	N26.17.08, E127.45.19
+	N26.16.31, E127.44.37
+	N26.17.15, E127.42.52
+	N26.18.28, E127.41.30
+	N26.20.03, E127.40.40
+	N26.21.46, E127.40.30
+	N26.23.27, E127.41.00
+	N26.24.52, E127.42.07
+	N26.25.52, E127.43.42
+	N26.26.19, E127.45.34
+	N26.26.10, E127.47.30
+	N26.25.26, E127.49.15
+	N26.24.12, E127.50.38
+	N26.22.38, E127.51.27
+	N26.20.54, E127.51.37
+
+[area5]
+shape = polygon
+altitude = 2246
+name = TM
+labelpos = N26.15.00, E127.45.00
+points = 
+	N26.14.29, E127.41.25
+	N26.17.08, E127.45.19
+	N26.17.17, E127.45.51
+	N26.19.05, E127.49.12
+	N26.19.04, E127.50.47
+	N26.12.06, E127.45.08
+
+[area6]
+shape = circle
+altitude = 3001
+name = KJ
+labelpos = N26.24.49, E126.39.50
+position = N26.21.49, E126.42.50
+radius = 5
+
+[area7]
+shape = polygon
+altitude = 2001
+name = USMC
+labelpos = N26.43.30, E128.14.00
+points = 
+	N26.46.36, E128.17.30
+	N26.45.24, E128.15.33
+	N26.41.58, E128.14.13
+	N26.39.31, E128.10.55
+	N26.37.58, E128.14.00
+	N26.40.34, E128.14.42
+	N26.40.02, E128.16.09
+	N26.41.07, E128.16.42
+	N26.41.07, E128.15.13
+	N26.43.47, E128.17.42
+	N26.45.14, E128.17.02
+	N26.45.34, E128.17.56
+	N26.45.18, E128.18.58
+	N26.45.51, E128.19.12
+
+[area8]
+shape = polygon
+altitude = 2001
+name = USMC
+labelpos = N26.31.30, E128.00.30
+points = 
+	N26.31.46, E127.59.39
+	N26.33.47, E128.02.09
+	N26.32.52, E128.03.02
+	N26.30.59, E128.03.31
+	N26.30.28, E128.01.15
+	N26.30.49, E128.00.29
+
+[area9]
+shape = polygon
+altitude = 1001
+name = USMC
+points = 
+	N26.33.42, E127.59.59
+	N26.31.32, E127.58.37
+	N26.30.03, E127.55.27
+	N26.28.35, E127.55.02
+	N26.29.58, E127.52.23
+	N26.29.18, E127.51.17
+	N26.27.53, E127.51.26
+	N26.27.20, E127.55.33
+	N26.28.58, E127.56.18
+	N26.29.32, E127.58.46
+	N26.30.53, E127.59.14
+	N26.31.19, E127.59.53
+	N26.31.27, E128.01.56
+	N26.31.04, E128.02.51
+	N26.31.59, E128.02.39
+	N26.32.34, E128.00.54
+
+[area10]
+shape = polygon
+altitude = 1001
+name = USMC
+points = 
+	N26.23.48, E127.51.34
+	N26.23.05, E127.51.01
+	N26.23.00, E127.51.11
+	N26.23.18, E127.51.28
+	N26.23.17, E127.51.40
+	N26.22.49, E127.51.44
+	N26.22.44, E127.52.00
+	N26.23.16, E127.52.06
+
+[area11]
+shape = polygon
+altitude = 1001
+name = USN
+points = 
+	N26.18.13, E127.54.36
+	N26.17.30, E127.54.24
+	N26.17.27, E127.55.19
+	N26.17.44, E127.55.26
+	N26.17.52, E127.55.07
+	N26.18.09, E127.54.56
+
+[area12]
+shape = polygon
+altitude = -1
+name = EAGLE
+labelpos = N25.31.07, E128.30.00
+points = 
+	N25.31.07, E128.09.53
+	N25.53.35, E128.30.00
+	N25.48.37, E129.02.19
+	N25.44.15, E129.25.52
+	N25.44.45, E130.24.13
+	N25.44.23, E130.30.01
+	N24.39.50, E129.39.55
+	N24.23.28, E129.27.37
+
+[area13]
+shape = polygon
+altitude = -1
+name = LION
+labelpos = N25.15.00, E128.03.36
+points = 
+	N25.31.07, E128.09.53
+	N25.27.45, E128.03.36
+	N25.22.34, E127.43.35
+	N24.27.55, E127.05.43
+	N24.22.47, E127.18.22
+	N24.05.02, E128.01.39
+	N23.42.01, E128.56.47
+	N24.23.28, E129.27.37
+
+[area14]
+shape = polygon
+altitude = -1
+name = TIGER
+labelpos = N26.30.00, E129.00.00
+points = 
+	N26.22.09, E128.34.42
+	N26.47.24, E129.04.02
+	N27.28.07, E129.30.23
+	N27.38.46, E130.33.51
+	N27.38.35, E130.55.54
+	N27.37.41, E132.02.15
+	N27.26.37, E131.59.41
+	N26.47.46, E131.50.44
+	N26.27.26, E131.34.18
+	N26.08.30, E131.16.53
+	N26.10.56, E130.50.36
+
+[area15]
+shape = polygon
+altitude = -1
+name = MOOSE
+labelpos = N26.22.00, E126.00.0
+points = 
+	N26.16.03, E126.08.35
+	N27.05.03, E126.59.39
+	N27.17.55, E127.13.15
+	N27.48.12, E127.19.16
+	N28.28.43, E127.03.15
+	N28.17.32, E126.47.19
+	N27.40.36, E125.55.21
+	N26.58.33, E124.57.21
+	N26.41.43, E125.12.40
+	N26.14.20, E125.37.19
+
+[area16]
+shape = polygon
+altitude = -1
+name = W-172
+labelpos = N25.00.00, E127.45.00
+points = 
+	N25.14.15, E127.34.53
+	N24.16.45, E127.34.53
+	N24.16.45, E128.39.53
+	N25.04.45, E128.39.53
+	N25.14.15, E128.29.53
+
+[area17]
+shape = polygon
+altitude = -1
+name = W-173
+labelpos = N26.44.00, E129.00.00
+points = 
+	N26.23.14, E128.19.53
+	N27.06.14, E129.09.52
+	N27.06.14, E130.59.52
+	N26.10.15, E130.59.52
+
+[area18]
+shape = polygon
+altitude = -1
+name = W-173A
+labelpos = N27.20.00, E129.15.00
+points = 
+	N26.53.14, E128.54.53
+	N27.24.14, E129.14.52
+	N27.29.14, E129.34.52
+	N27.33.14, E129.59.52
+	N27.06.14, E130.14.52
+	N27.06.14, E129.09.52
+
+[area19]
+shape = polygon
+altitude = 15001
+name = W-174
+labelpos = N26.20.00, E126.58.00
+points = 
+	N26.27.14.1, E126.55.53.3
+	N26.27.14.0, E127.06.53.4
+	N26.12.14.0, E127.06.53.4
+	N26.12.14.4, E126.55.53.2
+
+[area20]
+shape = polygon
+altitude = 15001
+name = W-174A
+labelpos = N26.20.00, E126.49.00
+points = 
+	N26.27.13.9, E126.47.53.5
+	N26.27.14.1, E126.55.53.3
+	N26.12.14.4, E126.55.53.2
+	N26.12.14.0, E126.47.53.5
+
+[area21]
+shape = circle
+altitude = 15001
+name = W-176
+labelpos = N26.39.14.3, E126.46.53.2
+position = N26.36.14.3, E126.49.53.2
+radius = 5
+
+[area22]
+shape = polygon
+altitude = 2501
+name = R-177
+labelpos = N26.31.00, E127.53.00
+points = 
+	N26.27.14.0, E127.53.53.2
+	N26.30.14.0, E127.57.53.1
+	N26.31.14.0, E127.58.53.1
+	N26.32.14.0, E127.58.53.1
+	N26.29.14.0, E127.51.53.2
+
+[area23]
+shape = circle
+altitude = -1
+name = W-178
+labelpos = N26.47.13.9, E127.42.53.2
+position = N26.44.13.9, E127.45.53.2
+radius = 5
+
+[area24]
+shape = polygon
+altitude = -1
+name = W-178A
+labelpos = N26.53.00, E127.50.00
+points = 
+	N26.53.36.2, E127.32.45.0
+	N26.59.12.0, E127.47.07.0
+	N26.52.09.9, E128.00.08.1
+	N26.48.48.9, E127.57.15.1
+	N26.40.14.3, E127.35.53.0
+	N26.51.14.2, E127.30.53.0
+
+[area25]
+shape = polygon
+altitude = -1
+name = W-185
+labelpos = N25.44.00, E129.30.00
+points = 
+	N25.41.15, E128.51.53
+	N25.48.37, E129.02.19
+	N25.44.15, E129.25.52
+	N25.44.15, E130.10.52
+	N25.43.24, E130.35.52
+	N25.41.15, E130.44.52
+	N24.53.15, E130.03.52
+
+[airport1]
+name = Naha
+code = ROAH
+runways = 
+	ROAHRWYE, 18L, N26.12.33.63, E127.38.42.84, 177.3, 9843, 0, 0, 10, 3, 0, 3, 356.67
+	ROAHRWYW, 18R, N26.12.11.00, E127.37.56.64, 177.3, 8858, 0, 0, 15, 3, 176.46, 3, 0
+climbaltitude = 1200
+sids = 
+	AMAMI, N28.26.37.21, E129.35.02.64, Ah-mah-mee
+	CHAMP, N27.55.07.09, E128.32.05.05, Champ
+	BUICK, N26.04.05.77, E128.44.36.58, Buick
+	CANOP, N25.29.55.77, E127.09.17.05, Canop
+	GANJU, N25.52.19.95, E126.43.23.97, Ganju
+	GEMNI, N25.41.08.97, E126.55.18.80, Gemni
+	DODGE, N25.44.37.98, E126.52.27.01, Dodge
+	PRIUS, N27.07.14.39, E128.06.29.10, Prius
+	CHERY, N26.55.56.36, E128.39.18.08, Chery
+	ADDAN, N26.41.10.00, E128.18.29.44, Addan
+	LEXUS, N27.00.10.11, E128.19.28.39, Lexus
+	KIZNA, N26.26.12.82, E127.31.41.71, Kizuna
+	GELMA, N26.20.37.85, E127.24.31.22, Gelma
+	GURUX, N26.08.52.24, E127.12.26.56, Gurux
+	TESLA, N27.12.35.75, E127.42.45.78, Tesla
+	VOLVO, N27.11.43.67, E127.50.39.62, Volvo
+entrypoints = 
+	33, IHEYA
+	99, NANJO
+	232, VELNO
+gateways = 
+	AMAMI, n
+	CHAMP, n
+	CHERY, n
+	YRE, n
+	BUICK, e
+	DORIS, w
+	CANOP, w
+	GANJU, w
+	PRIUS, n
+	GEMNI, w
+	OKUMA, n
+	ONC, n
+airlines = ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	jal, 10, a359/b772/b773, japan air, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	ana, 10, b788/b789/b772/b773, all neep pawn, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	jal, 10, b763/a359/b772/b773, japan air, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763/b788/dh8d, all neep pawn, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	akx, 10, dh8d, alfa wing, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738/b763, all neep pawn, n
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	ana, 10, a20n/b737/b738, all neep pawn, w
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jac, 10, at46, commuter, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, w
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	jta, 10, b738, j-ocean, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, w
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, n
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	rac, 10, dh8d, ryukyu, e
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	jjp, 10, a320, orange liner, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	apj, 10, a320/a20n, air peach, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, n
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	sky, 10, b738, skymark, w
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, n
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	snj, 10, b738, new sky, w
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	sfj, 10, a320, star flyer, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	cca, 10, b738, air china, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	aar, 10, a320/a321/a21n/b763, asiana, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cbj, 10, a320, capital jet, n
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	cal, 10, a359, dynasty, w
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	epa, 10, b738, donghai, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	esr, 10, b738, eastar jet, n
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	eva, 10, a321, eva, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	hke, 10, a321, hong kong shuttle, w
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jja, 10, b738, jeju air, n
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jsa, 10, a320, jetstar asia, w
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	jna, 10, b738, jin air, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	dkh, 10, a320, air juneyao, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	kal, 10, b773/b772, korean air, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	mda, 10, e190, mandarin, n
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	apj, 10, a320, air peach, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	ttw, 10, a320, smart cat, w
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	twb, 10, b738, tee way, n
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	ana, 10, b763, all neep pawn, nw
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, f2th, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	jcg, 10, dh8c, japan coast guard, nswe
+	ckstr-11, 1, c25c, check star, n
+	tryer-1, 1, h25b, tryer, n
+	tarsel-12, 1, be9l, tarsel, n
+	neptn-12, 1, p1, neptn, n
+	cosmo-12, 5, kc2, cosmo, n
+	camel-12, 5, c130, camel, n
+	cupid-1, 1, lj35, cupid, n
+
+[airport2]
+name = Naha
+code = JF
+traffic = 5
+runways = 
+	ROAHRWYEJF, 18L, N26.12.33.63, E127.38.42.84, 177.3, 9843, 0, 0, 10, 3, 0, 3, 356.67
+	ROAHRWYWJF, 18R, N26.12.11.00, E127.37.56.64, 177.3, 8858, 0, 0, 15, 3, 176.46, 3, 0
+climbaltitude = 1200
+sids = 
+	MOOSN, N26.40.35, E126.34.02, Moose South
+	MOOSS, N27.05.03, E126.59.39, Moose North
+	LION, N25.27.45, E128.03.36, Lion
+	EAGLE, N25.42.21, E128.19.56, Eagle
+	TIGER, N26.22.09, E128.34.42, Tiger
+entrypoints = 
+	341, SCUBA
+	261, LAVON
+	70, NHC
+	191, LAFTY
+	125, NHC
+airlines = shark-12, 10, t4, shark, nswe
+	shark-12, 10, t4, shark, nswe
+	shark-12, 10, t4, shark, nswe
+	shark-12, 10, t4, shark, nswe
+	shark-12, 10, t4, shark, nswe
+	chain-12, 10, t4, chain, nswe
+	chain-12, 10, t4, chain, nswe
+	chain-12, 10, t4, chain, nswe
+	chain-12, 10, t4, chain, nswe
+	chain-12, 10, t4, chain, nswe
+	deigo-12, 10, t4, deigo, nswe
+	deigo-12, 10, t4, deigo, nswe
+	deigo-12, 10, t4, deigo, nswe
+	deigo-12, 10, t4, deigo, nswe
+	deigo-12, 10, t4, deigo, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	tida-12, 10, p3, tida, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	eikas-12, 10, f15, eikas, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	jaguar-12, 10, f15, jaguar, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+	excel-12, 10, e2, excel, nswe
+
+[airport3]
+name = Kadena
+code = DN
+traffic = 5
+runways = 
+	RODNRWYW, 05L, N26.20.46.48, E127.45.05.38, 50, 12101, 0, 0, 593
+	RODNRWYE, 05R, N26.20.38.57, E127.45.18.13, 50, 12101, 0, 0, 106
+climbaltitude = 2200
+sids = 
+	BASHO, N27.03.57.24, E128.50.39.59, Basho
+	BUICK, N26.04.05.77, E128.44.36.58, Buick
+	NRANG, N27.09.31, E127.17.45, North Range
+	SRANG, N25.14.15, E127.54.53, South Range
+	DODGE, N25.44.37.98, E126.52.27.01, Dodge
+	ONC, N27.25.58.38, E128.41.56.27, Erabu
+entrypoints = 
+	160, KAD
+	355, KAD
+	39, OKUMA
+	99, NANJO
+	229, VELNO
+gateways = 
+	ONC, n
+	AMAMI, n
+	BUICK, e
+airlines = rch-1234, 10, c5m/c17, reach, n
+	rch-1234, 10, c5m/c17, reach, n
+	rch-1234, 10, c5m/c17, reach, n
+	rch-1234, 10, c5m/c17, reach, n
+	rch-1234, 10, c5m/c17, reach, n
+	trek-12, 10, b737, trek, n
+	cks, 10, b744, connie, n
+	oae, 10, b763, cimber, n
+	cnv7-123, 10, b737, convoy 7, n
+	cnv7-123, 10, b737, convoy 7, n
+	cnv7-123, 10, b737, convoy 7, n
+	cnv7-123, 10, b737, convoy 7, n
+	cnv7-123, 10, b737, convoy 7, n
+	cnv3-123, 10, b737, convoy 3, e
+	sumo-12, 10, c130, sumo, nswe
+	mojo-12, 10, b190, mojo, n
+	madfox-12, 1, p8, mad fox, n
+	pswrd-12, 10, c2, password, n
+	pearl-12, 1, k35r, pearl, n
+	start-12, 10, k35r, start, n
+	start-12, 10, k35r, start, n
+	start-12, 10, k35r, start, n
+	start-12, 10, k35r, start, n
+	start-12, 10, k35r, start, n
+	tora-12, 10, k35r, tora, n
+	tora-12, 10, k35r, tora, n
+	tora-12, 10, k35r, tora, n
+	tora-12, 10, k35r, tora, n
+	tora-12, 10, k35r, tora, n
+	wink-12, 10, k35r, wink, n
+	wink-12, 10, k35r, wink, n
+	wink-12, 10, k35r, wink, n
+	wink-12, 10, k35r, wink, n
+	wink-12, 10, k35r, wink, n
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	bat-12, 10, f15, bat, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	brgham-12, 10, e3cf/e3tf, brigham, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	cock-12, 10, f15, cock, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	coke-12, 10, f15, coke, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	demon-12, 10, f15, demon, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	dirty-12, 10, f15, dirty, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	knife-12, 10, f15, knife, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	lance-12, 10, f15, lance, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	shogun-12, 10, f15, shogun, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	vampr-12, 10, f15, vampire, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	jakal-12, 10, c130, jakal, nswe
+	flc-11, 5, cl60, flight check, nswe
+	vda, 1, a124, volga, nswe
+
+[airport4]
+name = Futenma
+code = TM
+traffic = 60
+runways = 
+	ROTMRWY, 06, N26.267198, E127.745235, 53.5, 9004, 0, 0, 246
+climbaltitude = 2200
+sids = 
+	BASHO, N27.03.57.24, E128.50.39.59, Basho
+	BUICK, N26.04.05.77, E128.44.36.58, Buick
+	DODGE, N25.44.37.98, E126.52.27.01, Dodge
+	ONC, N27.25.58.38, E128.41.56.27, Erabu
+entrypoints = 
+	39, OKUMA
+	99, NANJO
+	229, VELNO
+airlines = magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	magic-12, 10, c560, magic, ne
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	sumo-12, 10, c130, sumo, nswe
+	vda, 1, a124, volga, *
+
+[airport5]
+name = Kumejima
+code = KJ
+traffic = 180
+runways = 
+	ROKJRWY, 03, N26.21.18.32, E126.42.36.67, 21.17, 6562, 0, 0, 20
+climbaltitude = 5000
+entrypoints = 
+	39, OKUMA
+airlines = jta, 1, b738, j-ocean, n
+
+[airport6]
+name = Iejima
+code = RE
+runways = 
+	RORERWY, 04, N26.43.02.20, E127.46.55.40, 38.87, 4921, 0, 0, 225
+
+[airport7]
+name = Kerama
+code = KR
+runways = 
+	ROKRRWY, 02, N26.09.53.52, E127.17.32.50, 20, 4921, 0, 0, 156
+
+[airport8]
+name = Aguni
+code = RA
+runways = 
+	RORARWY, 01, N26.35.21.01, E127.14.24.02, 4.88, 2625, 0, 0, 35
+
+[approach1]
+runway = ROAHRWYE
+beacon = RYCOM, N26.20.34.70, E127.38.20.22, 0, Rycom
+route1 = 183
+	N26.20.34.70, E127.38.20.22, 1200, 210
+	3.6, 1200, 180
+
+[approach2]
+runway = ROAHRWYE
+beacon = THETA, N26.20.20.00, E127.31.59.31, 148, Theta
+route1 = 93
+	N26.20.20.00, E127.31.59.31, 2000
+	N26.20.34.70, E127.38.20.22, 1200, 210
+	3.6, 1200, 180
+
+[approach3]
+runway = ROAHRWYE
+beacon = KUKUL, N26.29.51.98, E127.36.41.55, 179, Kukul
+route1 = 176
+	N26.29.51.98, E127.36.41.55, 4000
+	N26.20.34.70, E127.38.20.22, 1200, 210
+	3.6, 1200, 180
+
+[approach4]
+runway = ROAHRWYW
+beacon = SALSA, N26.20.32.59, E127.37.25.14, 0, Salsa
+route1 = 182
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach5]
+runway = ROAHRWYW
+beacon = THETA, N26.20.20.00, E127.31.59.31, 148, Theta
+route1 = 93
+	N26.20.20.00, E127.31.59.31
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach6]
+runway = ROAHRWYW
+beacon = KUKUL, N26.29.51.98, E127.36.41.55, 179, Kukul
+route1 = 182
+	N26.29.51.98, E127.36.41.55
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach7]
+runway = ROAHRWYWJF
+beacon = EISAR
+route1 = 161
+	N26.28.57.89, E127.30.19.05
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach8]
+runway = ROAHRWYWJF
+beacon = SCUBA
+route1 = 
+	161
+	N26.50.49.69, E127.22.16.55
+	N26.38.43, E127.27.19
+	N26.35.20, E127.27.13
+	N26.28.57.89, E127.30.19.05
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach9]
+runway = ROAHRWYW
+beacon = LAVON
+route1 = 356
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach10]
+runway = ROAHRWYWJF
+beacon = GURUX, N26.08.52.24, E127.12.26.56, 0, Gurux
+route1 = 86
+	N26.08.52.24, E127.12.26.56
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach11]
+runway = ROAHRWYWJF
+beacon = DORIS, N26.04.30.51, E126.41.53.31, 9, Doris
+route1 = 86
+	N26.04.30.51, E126.41.53.31
+	N26.08.52.24, E127.12.26.56
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach12]
+runway = ROAHRWYW
+beacon = OLVAL
+route1 = 331
+	N26.04.11.00, E127.24.41.30
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach13]
+runway = ROAHRWYW
+beacon = H6L50, N26.09.51.15, E127.38.03.23, 0, Hotel 6 Lima 5 0
+route1 = 
+	182
+	N26.09.51.15, E127.38.03.23
+	N26.01.07.02, E127.27.41.24
+	N26.04.11.00, E127.24.41.30
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach14]
+runway = ROAHRWYW
+beacon = H8R51, N26.01.07.02, E127.27.41.24, 0, Hotel 8 Romeo 5 1
+route1 = 
+	241
+	N26.01.07.02, E127.27.41.24
+	N26.04.11.00, E127.24.41.30
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach15]
+runway = ROAHRWYE, rev
+beacon = DEIJI, N26.02.51.81, E127.39.15.61, 0, Deiji
+route1 = 2
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach16]
+runway = ROAHRWYE, rev
+beacon = SEIFA, N26.03.03.88, E127.44.48.52, 154, Seifa
+route1 = 273
+	N26.03.03.88, E127.44.48.52, 3000
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach17]
+runway = ROAHRWYE, rev
+beacon = UTAKI, N26.02.33.15, E127.32.50.37, 32, Utaki
+route1 = 
+	92
+	N26.02.33.15, E127.32.50.37, 3000
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach18]
+runway = ROAHRWYE, rev
+beacon = VIGER, N25.57.43.88, E127.35.26.92, 16, Viger
+route1 = 39
+	N25.57.43.88, E127.35.26.92, 3000
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach19]
+runway = ROAHRWYE, rev
+beacon = OLVAL
+route1 = 151
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.29.03, E127.39.25.15
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach20]
+runway = ROAHRWYE, rev
+beacon = H6R00, N26.14.55.3, E127.38.36.2, 0, Hotel 6 Romeo 0 0
+route1 = 
+	357
+	N26.14.55.3, E127.38.36.2
+	N26.26.12.82, E127.31.41.71
+	N26.20.37.85, E127.24.31.22
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.29.03, E127.39.25.15
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach21]
+runway = ROAHRWYE, rev
+beacon = KIZNA, N26.26.12.82, E127.31.41.71, 0, Kizuna
+route1 = 
+	357
+	N26.26.12.82, E127.31.41.71
+	N26.20.37.85, E127.24.31.22
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.29.03, E127.39.25.15
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach22]
+runway = ROAHRWYW, rev
+beacon = BLISS, N26.02.49.28, E127.38.23.04, 0, Bliss
+route1 = 2
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach23]
+runway = ROAHRWYW, rev
+beacon = SEIFA, N26.03.03.88, E127.44.48.52, 154, Seifa
+route1 = 273
+	N26.03.03.88, E127.44.48.52, 3000
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach24]
+runway = ROAHRWYW, rev
+beacon = UTAKI, N26.02.33.15, E127.32.50.37, 32, Utaki
+route1 = 92
+	N26.02.33.15, E127.32.50.37, 3000
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach25]
+runway = ROAHRWYW, rev
+beacon = VIGER, N25.57.43.88, E127.35.26.92, 16, Viger
+route1 = 33
+	N25.57.43.88, E127.35.26.92, 3000
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach26]
+runway = ROAHRWYW, rev
+beacon = OLVAL
+route1 = 151
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach27]
+runway = ROAHRWYWJF, rev
+beacon = IX36L, N25.57.34, E127.37.25, 0, Viger
+route1 = 16
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N25.57.31, E127.38.34
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach28]
+runway = ROAHRWYWJF, rev
+beacon = LAVON
+route1 = 86
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N25.57.31, E127.38.34
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach29]
+runway = ROAHRWYWJF, rev
+beacon = GURUX, N26.08.52.24, E127.12.26.56, 0, Gurux
+route1 = 86
+	N26.08.52.24, E127.12.26.56
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N25.57.31, E127.38.34
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach30]
+runway = ROAHRWYWJF, rev
+beacon = DORIS, N26.04.30.51, E126.41.53.31, 9, Doris
+route1 = 86
+	N26.04.30.51, E126.41.53.31
+	N26.08.52.24, E127.12.26.56
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N25.57.31, E127.38.34
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach31]
+runway = ROAHRWYWJF, rev
+beacon = LAFTY
+route1 = 16
+	N25.42.56.98, E127.32.20.22
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N25.57.31, E127.38.34
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach32]
+runway = ROAHRWYW, rev
+beacon = H8R50, N26.12.44.32, E127.37.55.08, 0, HOtel 8 Romeo 5 0
+route1 = 
+	357
+	N26.12.44.32, E127.37.55.08
+	N26.20.37.85, E127.24.31.22
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach33]
+runway = ROAHRWYW, rev
+beacon = GELMA, N26.20.37.85, E127.24.31.22, 0, Gelma
+route1 = 
+	301
+	N26.20.37.85, E127.24.31.22
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach34]
+runway = ROAHRWYW
+beacon = IHEYA
+route1 = 
+	243
+	N27.00.40.22, E127.54.09.82
+	N26.40.32.00, E127.42.43.39
+	N26.29.51.98, E127.36.41.55
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach35]
+runway = ROAHRWYW
+beacon = FOCUS, N26.40.32.00, E127.42.43.39, 0, Focus
+route1 = 
+	243
+	N26.40.32.00, E127.42.43.39
+	N26.29.51.98, E127.36.41.55
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach36]
+runway = ROAHRWYE
+beacon = IHEYA
+route1 = 
+	243
+	N27.00.40.22, E127.54.09.82
+	N26.40.32.00, E127.42.43.39
+	N26.29.51.98, E127.36.41.55, 4000
+	N26.20.34.70, E127.38.20.22, 1200, 210
+	3.6, 1200, 180
+
+[approach37]
+runway = ROAHRWYE
+beacon = FOCUS, N26.40.32.00, E127.42.43.39, 0, Focus
+route1 = 
+	212
+	N26.40.32.00, E127.42.43.39
+	N26.29.51.98, E127.36.41.55, 4000
+	N26.20.34.70, E127.38.20.22, 1200, 210
+	3.6, 1200, 180
+
+[approach38]
+runway = ROAHRWYW, rev
+beacon = IHEYA
+route1 = 
+	243
+	N27.00.40.22, E127.54.09.82
+	N26.23.34.12, E127.55.15.96
+	N26.03.03.88, E127.44.48.52, 3000
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach39]
+runway = ROAHRWYW, rev
+beacon = HASSA, N26.23.34.12, E127.55.15.96, 0, Hassa
+route1 = 
+	184
+	N26.23.34.12, E127.55.15.96
+	N26.03.03.88, E127.44.48.52, 3000
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach40]
+runway = ROAHRWYE, rev
+beacon = IHEYA
+route1 = 
+	243
+	N27.00.40.22, E127.54.09.82
+	N26.23.34.12, E127.55.15.96
+	N26.03.03.88, E127.44.48.52, 3000
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach41]
+runway = ROAHRWYE, rev
+beacon = HASSA, N26.23.34.12, E127.55.15.96, 0, Hassa
+route1 = 
+	184
+	N26.23.34.12, E127.55.15.96
+	N26.03.03.88, E127.44.48.52, 3000
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach42]
+runway = ROAHRWYW
+beacon = VELNO
+route1 = 
+	49
+	N25.53.47.28, E127.18.33.80
+	N26.20.20.00, E127.31.59.31
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach43]
+runway = ROAHRWYE
+beacon = VELNO
+route1 = 
+	49
+	N25.53.47.28, E127.18.33.80
+	N26.20.20.00, E127.31.59.31, 2000
+	N26.20.34.70, E127.38.20.22, 1200, 210
+	3.6, 1200, 180
+
+[approach44]
+runway = ROAHRWYW, rev
+beacon = VELNO
+route1 = 
+	49
+	N25.53.47.28, E127.18.33.80
+	N25.57.43.88, E127.35.26.92, 3000
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach45]
+runway = ROAHRWYE, rev
+beacon = VELNO
+route1 = 
+	49
+	N25.53.47.28, E127.18.33.80
+	N25.57.43.88, E127.35.26.92, 3000
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach46]
+runway = ROAHRWYW
+beacon = OKUMA
+route1 = 
+	222
+	N26.40.16.98, E128.02.19.13
+	N26.33.12.54, E127.44.53.22
+	N26.29.51.98, E127.36.41.55
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach47]
+runway = ROAHRWYW
+beacon = CLIFF, N26.33.12.54, E127.44.53.22, 0, Cliff
+route1 = 
+	251
+	N26.33.12.54, E127.44.53.22
+	N26.29.51.98, E127.36.41.55
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach48]
+runway = ROAHRWYE
+beacon = OKUMA
+route1 = 
+	222
+	N26.40.16.98, E128.02.19.13
+	N26.33.12.54, E127.44.53.22
+	N26.29.51.98, E127.36.41.55, 4000
+	N26.20.34.70, E127.38.20.22, 1200, 210
+	3.6, 1200, 180
+
+[approach49]
+runway = ROAHRWYE
+beacon = CLIFF, N26.33.12.54, E127.44.53.22, 0, Cliff
+route1 = 
+	251
+	N26.33.12.54, E127.44.53.22
+	N26.29.51.98, E127.36.41.55, 4000
+	N26.20.34.70, E127.38.20.22, 1200, 210
+	3.6, 1200, 180
+
+[approach50]
+runway = ROAHRWYW, rev
+beacon = OKUMA
+route1 = 
+	222
+	N26.40.16.98, E128.02.19.13
+	N26.23.34.12, E127.55.15.96
+	N26.03.03.88, E127.44.48.52, 3000
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach51]
+runway = ROAHRWYE, rev
+beacon = OKUMA
+route1 = 
+	222
+	N26.40.16.98, E128.02.19.13
+	N26.33.12.54, E127.44.53.22
+	N26.03.03.88, E127.44.48.52, 3000
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach52]
+runway = ROAHRWYW, rev
+beacon = NHC
+route1 = 283
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach53]
+runway = ROAHRWYE, rev
+beacon = NHC
+route1 = 283
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.29.03, E127.39.25.15
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach54]
+runway = ROAHRWYW
+beacon = NANJO
+route1 = 
+	283
+	N26.07.39.47, E128.17.09.81
+	N26.10.09.51, E127.57.27.64
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach55]
+runway = ROAHRWYW
+beacon = ESKOB, N26.10.09.51, E127.57.27.64, 0, Eskob
+route1 = 
+	283
+	N26.10.09.51, E127.57.27.64
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach56]
+runway = ROAHRWYW
+beacon = NHC
+route1 = 
+	283
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.20.37.85, E127.24.31.22
+	N26.26.12.82, E127.31.41.71
+	N26.27.03, E127.34.31
+	N26.26.56, E127.37.03
+	N26.20.32.59, E127.37.25.14, 1200, 210
+	6, 1200, 180
+
+[approach57]
+runway = ROAHRWYW, rev
+beacon = NANJO
+route1 = 
+	283
+	N26.07.39.47, E128.17.09.81
+	N26.10.09.51, E127.57.27.64
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach58]
+runway = ROAHRWYW, rev
+beacon = ESKOB, N26.10.09.51, E127.57.27.64, 0, Eskob
+route1 = 
+	283
+	N26.10.09.51, E127.57.27.64
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.34, E127.37.25
+	N26.02.49.28, E127.38.23.04, 2000, 210
+	6.0, 1300, 180
+
+[approach59]
+runway = ROAHRWYE, rev
+beacon = NANJO
+route1 = 
+	283
+	N26.07.39.47, E128.17.09.81
+	N26.10.09.51, E127.57.27.64
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.29.03, E127.39.25.15
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[approach60]
+runway = ROAHRWYE, rev
+beacon = ESKOB, N26.10.09.51, E127.57.27.64, 0, Eskob
+route1 = 
+	283
+	N26.10.09.51, E127.57.27.64
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.04.11.00, E127.24.41.30
+	N26.04.11.00, E127.24.41.30
+	N25.58.57.80, E127.31.19.34
+	N25.57.43.88, E127.35.26.92
+	N25.57.29.03, E127.39.25.15
+	N26.02.51.81, E127.39.15.61, 2000, 210
+	4.0, 1300, 180
+
+[departure1]
+runway = ROAHRWYW
+route1 = ESKOB1 V75, Eskob One Victor 75
+	N26.00.29.74, E127.39.16.75
+	N26.00.41.6, E127.44.29.6
+	N26.10.09.51, E127.57.27.64
+	N26.07.39.47, E128.17.09.81
+	N26.04.05.77, E128.44.36.58
+route2 = ESKOB1.CHERY, Eskob One Chery
+	N26.00.29.74, E127.39.16.75
+	N26.00.41.6, E127.44.29.6
+	N26.10.09.51, E127.57.27.64
+	N26.41.10.00, E128.18.29.44
+	N26.55.56.36, E128.39.18.08
+	N27.25.58.38, E128.41.56.27
+	N27.55.07.09, E128.32.05.05
+route3 = ESKOB1.AMAMI, Eskob One Amami
+	N26.00.29.74, E127.39.16.75
+	N26.00.41.6, E127.44.29.6
+	N26.10.09.51, E127.57.27.64
+	N26.41.10.00, E128.18.29.44
+	N26.55.56.36, E128.39.18.08
+	N28.26.37.21, E129.35.02.64
+route4 = VIGER1.CANOP, Viger One Canop
+	N25.57.43.88, E127.35.26.92
+	N25.29.55.77, E127.09.17.05
+
+[departure2]
+runway = ROAHRWYE
+route1 = ESKOB1 V75, Eskob One Victor 75
+	N26.00.29.74, E127.39.16.75
+	N26.00.41.6, E127.44.29.6
+	N26.10.09.51, E127.57.27.64
+	N26.07.39.47, E128.17.09.81
+	N26.04.05.77, E128.44.36.58
+route2 = ESKOB1.CHERY, Eskob One Chery
+	N26.00.29.74, E127.39.16.75
+	N26.00.41.6, E127.44.29.6
+	N26.10.09.51, E127.57.27.64
+	N26.41.10.00, E128.18.29.44
+	N26.55.56.36, E128.39.18.08
+	N27.25.58.38, E128.41.56.27
+	N27.55.07.09, E128.32.05.05
+route3 = ESKOB1.AMAMI, Eskob One Amami
+	N26.00.29.74, E127.39.16.75
+	N26.00.41.6, E127.44.29.6
+	N26.10.09.51, E127.57.27.64
+	N26.41.10.00, E128.18.29.44
+	N26.55.56.36, E128.39.18.08
+	N28.26.37.21, E129.35.02.64
+route4 = VIGER1.CANOP, Viger One Canop
+	N25.57.43.88, E127.35.26.92
+	N25.29.55.77, E127.09.17.05
+
+[departure3]
+runway = ROAHRWYW, rev
+route1 = LAVON1 NHC V75, Lavon One
+	N26.12.44.32, E127.37.55.08
+	N26.20.37.85, E127.24.31.22
+	N26.10.13.46, E127.22.05.31
+	N26.12.30.71, E127.38.34.32
+	N26.10.09.51, E127.57.27.64
+	N26.07.39.47, E128.17.09.81
+	N26.04.05.77, E128.44.36.58
+route2 = KIZNA1.CHAMP, Kizuna One Champ
+	N26.12.44.32, E127.37.55.08
+	N26.26.12.82, E127.31.41.71
+	N26.50.49.69, E127.22.16.55
+	N27.12.35.75, E127.42.45.78
+	N27.55.07.09, E128.32.05.05
+route3 = KIZNA1.YUGAF, Kizuna One Yugaf
+	N26.12.44.32, E127.37.55.08
+	N26.26.12.82, E127.31.41.71
+	N27.11.43.67, E127.50.39.62
+	N27.27.52.51, E128.09.18.83
+	N28.26.37.21, E129.35.02.64
+route4 = KIZNA1.LAGON, Kizuna One Lagoon
+	N26.12.44.32, E127.37.55.08
+	N26.26.12.82, E127.31.41.71
+	N26.20.37.85, E127.24.31.22
+	N26.08.52.24, E127.12.26.56
+	N25.52.19.95, E126.43.23.97
+
+[departure4]
+runway = ROAHRWYE, rev
+route1 = LAVON1 NHC V75, Lavon One
+	N26.14.55.3, E127.38.36.2
+	N26.26.12.82, E127.31.41.71
+	N26.20.37.85, E127.24.31.22
+	N26.10.13.46, E127.22.05.31
+	N26.12.30.71, E127.38.34.32
+	N26.10.09.51, E127.57.27.64
+	N26.07.39.47, E128.17.09.81
+	N26.04.05.77, E128.44.36.58
+route2 = KIZNA1.CHAMP, Kizuna One Champ
+	N26.14.55.3, E127.38.36.2
+	N26.26.12.82, E127.31.41.71
+	N26.50.49.69, E127.22.16.55
+	N27.12.35.75, E127.42.45.78
+	N27.55.07.09, E128.32.05.05
+route3 = KIZNA1.YUGAF, Kizuna One Yugaf
+	N26.14.55.3, E127.38.36.2
+	N26.26.12.82, E127.31.41.71
+	N27.11.43.67, E127.50.39.62
+	N27.27.52.51, E128.09.18.83
+	N28.26.37.21, E129.35.02.64
+route4 = KIZNA1.LAGON, Kizuna One Lagoon
+	N26.14.55.3, E127.38.36.2
+	N26.26.12.82, E127.31.41.71
+	N26.20.37.85, E127.24.31.22
+	N26.08.52.24, E127.12.26.56
+	N25.52.19.95, E126.43.23.97
+
+[approach61]
+runway = RODNRWYW
+beacon = JIMMY, N26.16.21, E127.39.12, 0, Jimmy
+route1 = 55
+	N26.16.21, E127.39.12, 2200, 230
+	5.9, 2200, 230
+
+[approach62]
+runway = RODNRWYW
+beacon = EBLIR, N26.13.08, E127.34.56, 0, Eblir
+route1 = 
+	55
+	N26.13.08, E127.34.56, 4000, 230
+	N26.16.21, E127.39.12, 2200, 230
+	5.9, 2200, 230
+
+[approach63]
+runway = RODNRWYW
+beacon = JACKS
+route1 = 
+	55
+	N26.08.32, E127.29.03, 6000, 230
+	N26.13.08, E127.34.56, 4000, 230
+	N26.16.21, E127.39.12, 2200, 230
+	5.9, 2200, 230
+
+[approach64]
+runway = RODNRWYW, rev
+beacon = LETOX, N26.29.49, E127.57.09, 0, Letox
+route1 = 235
+	N26.29.49, E127.57.09, 4000, 230
+	6, 2000, 230
+
+[approach65]
+runway = RODNRWYW, rev
+beacon = IMONO, N26.34.14, E128.03.14, 235, Imono
+route1 = 
+	235
+	N26.34.14, E128.03.14, 6000, 230
+	N26.29.49, E127.57.09, 4000, 230
+	6, 2000, 230
+
+[approach66]
+runway = ROKJRWY
+beacon = DORIS, N26.04.30.51, E126.41.53.31, 9, Doris
+route1 = 266
+	N26.04.30.51, E126.41.53.31, 3000
+	N26.05.31, E126.36.09, 2000, 180
+	15, 2000, 180
+
+[approach67]
+runway = ROKJRWY
+beacon = DUFFY, N26.08.26.47, E126.30.48.37, 44, Duffy
+route1 = 
+	266
+	N26.08.26.47, E126.30.48.37, 3000
+	N26.05.31, E126.36.09, 2000, 180
+	15, 2000, 180
+
+[approach68]
+runway = ROKJRWY
+beacon = GURUX, N26.08.52.24, E127.12.26.56, 0, Gurux
+route1 = 266
+	N26.08.52.24, E127.12.26.56
+	N26.04.30.51, E126.41.53.31, 3000
+	N26.05.31, E126.36.09, 2000, 180
+	15, 2000, 180
+
+[approach69]
+runway = ROKJRWY
+beacon = LAVON
+route1 = 266
+	N26.10.13.46, E127.22.05.31
+	N26.08.52.24, E127.12.26.56
+	N26.04.30.51, E126.41.53.31, 3000
+	N26.05.31, E126.36.09, 2000, 180
+	15, 2000, 180
+
+[approach70]
+runway = ROKJRWY
+beacon = NHC
+route1 = 223
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.08.52.24, E127.12.26.56
+	N26.04.30.51, E126.41.53.31, 3000
+	N26.05.31, E126.36.09, 2000, 180
+	15, 2000, 180
+
+[approach71]
+runway = ROKJRWY
+beacon = OKUMA
+route1 = 223
+	N26.40.16.98, E128.02.19.13
+	N26.12.30.71, E127.38.34.32
+	N26.10.13.46, E127.22.05.31
+	N26.08.52.24, E127.12.26.56
+	N26.04.30.51, E126.41.53.31, 3000
+	N26.05.31, E126.36.09, 2000, 180
+	15, 2000, 180
+
+[departure5]
+runway = ROKJRWY
+route1 = SOUTH3, South Three
+	N26.04.30.51, E126.41.53.31
+	N26.08.52.24, E127.12.26.56
+	N26.10.13.46, E127.22.05.31
+	N26.12.30.71, E127.38.34.32
+	N26.40.16.98, E128.02.19.13
+	N27.00.10.11, E128.19.28.39
+	N27.25.58.38, E128.41.56.27
+
+[configurations]
+config1 = 
+	0, ROAHRWYW, landrev
+	0, ROAHRWYE, startrev
+	0, ROAHRWYWJF, landrev
+	0, ROAHRWYEJF, startrev, 341, nosid
+	10, RODNRWYW, land
+	10, RODNRWYE, start, 66, nosid
+	13, ROTMRWY, landstart, 90, nosid
+	15, ROKJRWY, landstart, 224
+config2 = 
+	0, ROAHRWYW, land
+	0, ROAHRWYE, start
+	0, ROAHRWYWJF, land
+	0, ROAHRWYEJF, start, 196, nosid
+	10, RODNRWYW, landrev
+	10, RODNRWYE, startrev, 224, nosid
+	13, ROTMRWY, landstartrev, 239, nosid
+	15, ROKJRWY, landstart, 224
+config3 = 
+	0, ROAHRWYW, landrev
+	0, ROAHRWYE, startrev
+	0, ROAHRWYWJF, landrev
+	0, ROAHRWYEJF, startrev, 341, nosid
+	10, RODNRWYW, landrev
+	10, RODNRWYE, startrev, 224, nosid
+	13, ROTMRWY, landstartrev, 239, nosid
+	15, ROKJRWY, landstart, 224
+config4 = 
+	0, ROAHRWYW, land
+	0, ROAHRWYE, start
+	0, ROAHRWYWJF, land
+	0, ROAHRWYEJF, start, 196, nosid
+	10, RODNRWYW, land
+	10, RODNRWYE, start, 66, nosid
+	13, ROTMRWY, landstart, 90, nosid
+	15, ROKJRWY, landstart, 224
+
+[planetypes]
+types = 
+	hdjt, 6, 140, 250, 2.8, 3.2, 1500, 1800, 115, 125, 1.3, 1.5, honda jet
+	be9l, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
+	b350, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
+	h25b, 6, 150, 250, 2.8, 3.2, 1400, 1600, 110, 120, 1.2, 1.3, hawker
+	p1, 4, 160, 250, 2.8, 3.2, 1500, 1700, 130, 144, 1.3, 1.5, kawasaki
+	p3, 5, 160, 250, 2.8, 3.2, 1400, 1600, 120, 140, 1.2, 1.4, orion
+	ys11, 5, 160, 250, 2.8, 3.2, 1400, 1600, 110, 130, 1.2, 1.4, namc
+	kc2, 3, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, kawasaki
+	c130, 4, 140, 250, 2.8, 3.2, 1400, 1700, 110, 140, 1.3, 1.5, hercules
+	f15, 6, 170, 300, 3.2, 5.0, 2000, 4000, 135, 155, 1.8, 2.3, eagle
+	t4, 6, 150, 280, 3.0, 4.0, 2000, 3000, 115, 125, 1.5, 1.8, kawasaki
+	c17, 3, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, globemaster
+	f2th, 5, 160, 250, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, falcon
+	p8, 4, 160, 250, 2.6, 3.0, 1440, 1560, 131, 144, 1.2, 1.3, poseidon
+	k35r, 3, 160, 250, 2.3, 2.7, 1200, 1380, 135, 152, 1.1, 1.2, stratotanker
+	e2, 5, 160, 250, 2.8, 3.2, 1400, 1600, 120, 140, 1.2, 1.4, hawkeye
+
