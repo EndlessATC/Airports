@@ -6,7 +6,7 @@ This is an implementation of the Naha ACA (Approach Control Area) for [Endless A
 
 Based on AIP Japan (Ministry of Land, Infrastructure, Transport and Tourism) (https://aisjapan.mlit.go.jp/html/AIP/html/DomesticAIP.do). The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative. Coastline data from naturalearthdata.com. 
 
-The Naha ACA is a mostly circular terminal area typical for an island airport. There is a heavy military presence, and military training areas are scattered around the main island as well between the airways that extend out from the Naha `NHC` VORTAC. Approach and departure paths cross over/under each other just north of Naha, and there are many potential conflict points to the east of Okinawa as well. The majority of traffic enters the ACA from the northeast from mainland Japan and southwest from the other Ryukyu islands such as Miyakojima and Ishigaki.
+The Naha ACA is a mostly circular terminal area typical for an island airport. There is a heavy military presence, and military training areas are scattered around the main island as well between the airways that extend out from the Naha `NHC` VORTAC. Approach and departure paths cross over/under each other just north of Naha, and there are many potential conflict points to the west/east of Okinawa as well. The majority of traffic enters the ACA from the northeast from mainland Japan and southwest from the other Ryukyu islands such as Miyakojima and Ishigaki. USAF training area W-178(A) is depicted as inactive for gameplay purposes. Expect heavy use of vectors, especially as traffic increases.
 
 STARs are implemented as approach transitions. To activate an approach, an aircraft must be flying direct to an applicable fix, then the APP button can be activated. Multiple approaches may be available from a fix, to the same airport or even different airports. Pressing the APP button again before issuing the approach clearance (do not long press) will select the next approach available from that fix. If the aircraft is already on an approach from that fix, you will need to cancel the approach clearance first before issuing another approach clearance.
 
@@ -95,7 +95,7 @@ There are two simple runway configurations:
 
 	No STARs are available, arrivals should be vectored to `JACKS` or other fixes on the approach.
 
-	Use caution for `ROAH` arrivals to 18s or departures from 36s. Arrivals must descend through 2200 at `JIMMY` to remain on GS. Recommend vectors for `ROAH` 36 departures to maintain separation. Recommend holding `RODN` arrivals at `JACKS` until gap can be made in `ROAH` 18 arrivals.
+	Use caution for `ROAH` arrivals to 18s or departures from 36s. Arrivals must descend through 2200 at `JIMMY` to remain on GS. Recommend vectors for `ROAH` 36 departures to maintain separation. ~~Recommend holding `RODN` arrivals at `JACKS` until gap can be made in `ROAH` 18 arrivals.~~ **Due to conflicts with `ROAH` 36 departures, 05L has been raised 500ft to displace the glideslope so 05 approaches do not conflict.** However, the `JIMMY` 2200 restriction has been maintained to simulate the original GS.
 
 	The published hold for missed approaches is straight ahead to `IMONO`.
 
@@ -103,11 +103,11 @@ There are two simple runway configurations:
 	
 	The north runway is mainly used for arrivals and the south runway is mainly used for departures.
 
-	Approaches to 05L are available from `JACKS` etc.
+	Approaches to 23R are available from `IMONO` etc.
 
 	No STARs are available, arrivals should be vectored to `IMONO` or other fixes on the approach.
 
-	Use caution for `ROAH` arrivals to 18s or departures from 36s. Departures must climb to at least 2200 to clear.
+	Use caution for `ROAH` arrivals to 18s or departures from 36s. Departures must climb to at least 2200 to clear. **Due to conflicts between 05 arrivals and `ROAH` 36 departures, 05L/23R has been raised 500ft to displace the glideslope.** However, the altitudes for the fixes along the 23R ILS have been maintained to simulate the original GS.
 
 	The published hold for missed approaches is straight ahead to `JACKS`.
 
@@ -159,9 +159,10 @@ Only one runway configuration is implemented:
 
 ## Known Issues
 
-- Have different types of traffic use different entry/exit gateways are not possible in this game, therefore aircraft using civil and military routes are separated by duplicating `ROAH`, which means there are two runways each of 18L/36R and 18R/36L. As the game will allow you to select approaches meant for a different airport if they share a starting fix with an approach for the airport the selected aircraft is landing at, this can lead to military aircraft flying the "civilian" approach and going around due to trying to land at the "wrong" airport. To avoid this issue, civil and military aircraft landing `ROAH` do not have approaches that share fixes except at `VIGER` for 36L (which have a different track and are more easily differentiable).
+- Have different types of traffic use different entry/exit gateways are not possible in this game, therefore aircraft using civil and military routes are separated by duplicating `ROAH`, which means there are two runways each of 18L/36R and 18R/36L. As the game will allow you to select approaches meant for a different airport if they share a starting fix with an approach for the airport the selected aircraft is landing at, this can lead to military aircraft flying the "civilian" approach and going around due to trying to land at the "wrong" airport. To avoid this issue, civil and military aircraft landing `ROAH` do not have approaches that share fixes.
 - Many areas have their ceiling marked as "0" as they are likely not active for all of their hours of operation and interfere with standard flight paths, or because they are shared with traffic to different airports (which is not supported by the game)
 - No `ROAH`-`ROKJ` traffic
+- No `RODN` SIDs - the SIDs are available on the AIP, but the connecting routes to airways are not published as airways or procedures, or even as direct routes or flight planned routes via AIC. Author is only aware of one - `ADDAN` (`DCT`) `BASHO` (`DCT`) `AMAMI`. In fact, `BASHO` does not appear to be used for any other purpose...
 
 ## Disclaimer
 
@@ -173,4 +174,4 @@ This file is built from `source\ROAH.txt` via `deploy.py`. Make any contribution
 
 ## Changelog
 
-*	1.0 - 2021/01/31 - Initial version.
+*	1.0 - 2021/02/08 - Initial version.
