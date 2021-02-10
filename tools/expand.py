@@ -50,6 +50,7 @@ class Airline:
     directions: str
 
     callsigns = None
+    use_callsigns = True
 
     def __init__(self, callsign, frequency, types, *data, gateways=None):
         """Create an airline from an entry in the airlines= list. `data` should be 
@@ -62,9 +63,17 @@ class Airline:
         self.frequency = int(frequency.strip())
         self.types = types.strip()
         self.callsign = callsign.strip()
-        if Airline.callsigns is not None:
-            self.pronunciation = Airline.callsigns[callsign] if '-' not in callsign \
-                else Airline.callsigns.get(callsign[:callsign.index('-')], '0')
+        if Airline.callsigns is not None and Airline.use_callsigns:
+            if '-' not in callsign:
+                self.pronunciation = Airline.callsigns[callsign]
+            else:
+                # if length of key is more than 3, assume it is not registration
+                key = callsign[:callsign.index('-')]
+                self.callsign = callsign.strip('_')
+                # if key length is longer than 3 and key doesn't have match,
+                # we strip '_' to allow for mil callsigns with length <= 3
+                self.pronunciation = Airline.callsigns.get(key, key.strip('_')) if len(key) > 3 \
+                    else Airline.callsigns.get(key, '0')
         else:
             self.pronunciation = data[0].strip()
             data = data[1:]
@@ -261,16 +270,21 @@ def process(args, input_file=None):
 
         # read optional header to be written in output
         header = None
-        if 'meta' in source and 'header' in source['meta']:
-            header = ["# " + line for line in source['meta']['header'].splitlines()]
-            header.extend([
-                "",
-                f"# This file is generated from the source file {os.path.relpath(input_file, os.path.dirname(output_file))} using expand.py.",
-                "# All comments have been stripped, and edits are not made directly to this file.",
-                "# If you would like to contribute, or see the author's comments, please refer to the source file.",
-                "",
-                ""])
-            header = "\n".join(header)
+        if 'meta' in source:
+            if 'header' in source['meta']:
+                header = ["# " + line for line in source['meta']['header'].splitlines()]
+                header.extend([
+                    "",
+                    f"# This file is generated from the source file {os.path.relpath(input_file, os.path.dirname(output_file))} using expand.py.",
+                    "# All comments have been stripped, and edits are not made directly to this file.",
+                    "# If you would like to contribute, or see the author's comments, please refer to the source file.",
+                    "",
+                    ""])
+                header = "\n".join(header)
+            if 'callsigns' not in source['meta']:
+                Airline.use_callsigns = False;
+            else:
+                Airline.use_callsigns = source['meta'].getboolean('callsigns');
             # remove meta section so it won't be written in output
             del source['meta']
 
@@ -427,10 +441,12 @@ if __name__ == "__main__":
         gateways. Default gateways can be specified in a common.ini in the same directory as the source file, or in the folder where
         this tool is located; gateways= still needs to be defined in an [airport] to activate this feature for the [airport].
         \n\n
-        In [airport] airlines, the airline <pronunciation> can be omitted given [expand.callsigns] is defined in a common.ini in the
-        same directory as the source file, or in the folder where this tool is located. The former takes precedence. [expand.callsigns]
-        is a list of <code>, <pronunciation>, and the first item in each line of airlines (stripped of a dash and anything after it)
-        is used to lookup in [expand.callsigns] to obtain the pronunciation. If nothing is found, pronunication defaults to "0".
+        In [airport] airlines=, the airline <pronunciation> can be omitted if [meta] callsigns= is true. A lookup will be loaded from
+        [expand.callsigns] defined in a common.ini in the same directory as the source file, or in the folder where this tool is
+        located. The former takes precedence. [expand.callsigns] is a list of <code>, <pronunciation>. The first item in each
+        line of airlines (stripped of a dash and anything after it, hereafter referred to as the "key") is used to lookup in
+        [expand.callsigns] to obtain the pronunciation. If nothing is found, pronunication defaults to the key if it is longer than
+        3 characters (assuming it is a military callsign), otherwise it defaults to "0".
         \n\n
         In a [approach/transition] route=, specify "@<name>" to "tag" the approach route. Any subsequent [approach] route= can then
         specify "@<name>" as the last point to chain the approach route tagged as "name" to the end.

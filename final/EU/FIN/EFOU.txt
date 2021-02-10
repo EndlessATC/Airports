@@ -1,0 +1,288 @@
+
+[airspace]
+elevation = 47
+center = N64.9300994873, E25.3546009064
+magneticvar = 8.024
+radius = 40			; airspace radius in NM
+zoom = 7.0 			; default zoom level, increase to zoom in
+elevation = 13 			; ground altitude in feet
+floor = 1500 			; minimum selectable altitude
+descendaltitude = 10000 		; minimum initial altitude for arrivals
+ceiling = 9000 			; maximum selectable altitude
+above = 37000 			; maximum departure altitude when SID is enabled (must be above ceiling)
+transitionaltitude = 5000	; highest altitude displayed in feet instead of flight level
+speedrestriction = 15, 220 	; radius in NM, and speed in knots
+usa = false			; American-style callsign pronunciation and runway names
+metric = false			; display altitudes in metres instead of feet
+separation = 3			; minimum allowed distance between aircraft in NM
+beacons =
+	OUK, N64.93160, E25.35930, 0, Oulu
+	LAA, N64.96630, E25.21120, 0, Laanila
+	TP, N64.88450, E25.53160, 0, Tango-Papa
+	VA, N64.12950, E24.64280, 0, Victor-Alfa
+	SUVIB,N64.25.55.00,E25.07.44.000 , 0 SUVIB
+	IXONO,N064.35.30.000,E024.41.07.000,0,IXONO
+	XEVAP,N064.50.13.000, E024.18.36.000,0, XEVAP
+	NUBVU,N065.12.04.000, E025.45.11.000,0,NUBVU
+	UGMOR,N064.39.40.000, E026.08.30.000,0,UGMOR
+	ABKEM,N064.28.55.000, E025.48.41.000,0,ABKEM
+	MIKNU,N064.26.39.000,E025.26.14.000,MIKNU
+	OSMAM,N064.46.02.320,E025.36.37.670,OSMAM
+	GITVU,N065.01.15.460,E024.59.42.200,GITVU
+	ADKIN,N064.50.17.870,E025.42.41.880,ADKIN
+line1 =
+	N65.08643, E24.78604
+	N65.07397, E24.65117
+	N65.04287, E24.57656
+	N64.97856, E24.57861
+	N64.95781, E24.69893
+	N64.99102, E24.84824
+	N65.02627, E24.89180
+	N65.03872, E24.99756
+	N65.05532, E24.97061
+	N65.08643, E24.78604
+
+line2 =
+	N65.80654, E22.62031
+	N65.87095, E22.74658
+	N65.78647, E22.91934
+	N65.73535, E23.10234
+	N65.74990, E23.15459
+	N65.78613, E23.22109
+	N65.80435, E23.41836
+	N65.80532, E23.59209
+	N65.82852, E23.69141
+	N65.78223, E23.89053
+	N65.80527, E24.15547
+	N65.81235, E24.23750
+	N65.78047, E24.40430
+	N65.82202, E24.53262
+	N65.85835, E24.59160
+	N65.85918, E24.62803
+	N65.83169, E24.62324
+	N65.75713, E24.58154
+	N65.67070, E24.67490
+	N65.65640, E24.76426
+	N65.66035, E24.83936
+	N65.54629, E25.24180
+	N65.47925, E25.34785
+	N65.35273, E25.30791
+	N65.24321, E25.29785
+	N65.14326, E25.25586
+	N65.09863, E25.34023
+	N65.06514, E25.36230
+	N65.00947, E25.37266
+	N64.98428, E25.27109
+	N64.95103, E25.22803
+	N64.91641, E25.28076
+	N64.86035, E25.28818
+	N64.85347, E25.21426
+	N64.87520, E25.13428
+	N64.88403, E24.94219
+	N64.85210, E24.74756
+	N64.80630, E24.65762
+	N64.80103, E24.55791
+	N64.73867, E24.53018
+	N64.68013, E24.44063
+	N64.51528, E24.27832
+	N64.38599, E24.02227
+	N64.27412, E23.92480
+	N64.25825, E23.86143
+	N64.13418, E23.65293
+	N64.04092, E23.59893
+	N64.03447, E23.49395
+
+line3 =
+	N64.39116, E26.77988
+	N64.41499, E26.81465
+	N64.44038, E26.83086
+	N64.46948, E26.81387
+	N64.50542, E26.82676
+	N64.52998, E26.86611
+	N64.52329, E27.11182
+	N64.49668, E27.21367
+	N64.41392, E27.21729
+	N64.36929, E27.26162
+	N64.33042, E27.36543
+	N64.33906, E27.46914
+	N64.38047, E27.57822
+	N64.39668, E27.72695
+	N64.38135, E27.92500
+	N64.33325, E27.91309
+	N64.30674, E27.92969
+	N64.30854, E27.88252
+	N64.30405, E27.80059
+	N64.28174, E27.73779
+	N64.24468, E27.76465
+	N64.23281, E27.85918
+	N64.20488, E27.94014
+	N64.17769, E28.05762
+
+line4 =
+	N64.12119, E28.07334
+	N64.12808, E28.00947
+	N64.14478, E27.92891
+	N64.22480, E27.65264
+	N64.27446, E27.56240
+	N64.26958, E27.50645
+	N64.25049, E27.48115
+	N64.22979, E27.42070
+	N64.20918, E27.32285
+	N64.17339, E27.28223
+	N64.13071, E27.28750
+	N64.12036, E27.25850
+	N64.15791, E27.20010
+	N64.20088, E27.07324
+	N64.23848, E26.94248
+	N64.27778, E26.92070
+	N64.36162, E26.79297
+	N64.39116, E26.77988
+	N64.39116, E26.77988
+	N64.39116, E26.77988
+
+line5 =
+	N65.91210, E24.71056
+	N65.85918, E24.62799
+
+[airport1]
+name = Oulu Airport
+code = EFOU
+runways =
+	rwy1, 12, N64.9358, E25.3319, 121.0, 8205, 0, 0, 47
+sids=
+	MIKNU
+	IXONO
+ 	UGMOR
+	ABKEM
+## name, position, <pronunciation>
+airlines =
+	FIN,	3,	A320,		FINNAIR,	SUVIB
+	SAS, 3, A320, Scandinavian, IXONO
+# you may also give just the name of a beacon from the beacon list
+
+entrypoints =
+	150,SUVIB
+	210,IXONO
+	100,ABKEM
+	290,XEVAP
+
+[departure1]
+runway = rwy1
+route1 =
+		MIKNU1A, MIKNU one alpha
+		N064.53.39.380,E025.29.40.240
+		N064.26.39.000,E025.26.14.000
+route2 =
+		IXONO1A, IXONO one alpha
+		N064.53.39.380,E025.29.40.240
+		N064.49.23.300,E025.23.37.340
+		N064.35.30.000,E024.41.07.000
+route3 =
+		ABKEM1A, ABKEM one alpha
+		N064.53.39.380,E025.29.40.240
+		N064.28.55.000,E025.48.41.000
+route4 =
+		UGMOR1A, UGMOR one alpha
+		N064.53.39.380,E025.29.40.240
+		N064.39.40.000,E026.08.30.000
+route5 =
+		XEVAP1A, XEVAP one alpha
+		N064.53.39.380,E025.29.40.240
+		N064.49.23.300,E025.23.37.340
+		N064.50.13.000,E024.18.36.000
+[approach1]
+runway = rwy1
+beacon = SUVIB
+route1 =
+	369
+	N64.25.55.00,E25.07.44.000
+	N064.56.58.180,E024.53.42.380
+
+	12, 2300, 210
+[approach2]
+runway = rwy1
+beacon = IXONO
+route1 =
+	004
+	N064.35.30.000,E024.41.07.000
+	N064.56.58.180,E024.53.42.380
+
+		12, 2300, 210
+[approach3]
+runway = rwy1
+beacon = XEVAP
+route1 =
+	055
+	N064.50.13.000,E024.18.36.000
+	N064.56.58.180,E024.53.42.380
+
+				12, 2300, 210
+[approach4]
+runway = rwy1
+beacon = ABKEM
+route1 =
+	310
+	N064.28.55.000,E025.48.41.000
+	N064.56.58.180,E024.53.42.380
+
+				12, 2300, 210
+[approach5]
+runway = rwy1,rev
+beacon = SUVIB
+route1 =
+	021
+	N64.25.55.00,E25.07.44.000
+	N064.46.02.320,E025.36.37.670
+
+ 10, 2300, 210
+[approach6]
+runway = rwy1,rev
+beacon = IXONO
+route1 =
+	056
+	N064.35.30.000,E024.41.07.000
+	N064.46.02.320,E025.36.37.670
+
+		 10, 2300, 210
+[approach7]
+runway = rwy1,rev
+beacon = XEVAP
+route1 =
+	087
+	N064.50.13.000,E024.18.36.000
+	N064.46.02.320,E025.36.37.670
+
+				 10, 2300, 210
+[approach8]
+runway = rwy1,rev
+beacon = ABKEM
+route1 =
+	333
+	N064.28.55.000,E025.48.41.000
+	N064.46.02.320,E025.36.37.670
+
+				 10, 2300, 210
+[approach9]
+runway = rwy1,rev
+beacon = OSMAM
+route1 =
+	021
+	N064.46.02.320,E025.36.37.670
+
+				 10, 2300, 210
+##############################################################
+[configurations]
+##############################################################
+
+config1 =
+	0,	rwy1,	landstart
+config2 =
+	0,	rwy1,	landstartrev
+## score, identifier, usage, <offsetheading>, <nosid>
+# score is the score (skill) at which the runway will be activated
+# identifier is a unique runway name specified earlier
+# usage is a string (without spaces) that may contain these words: start, land, rev, int, track
+# where rev means reversed use (opposite direction), int means intersection departure (takeoffs begin 30% down the rwy), track means backtrack after landing
+# offsetheading means planes will fly a specific heading just after takeoff (especially useful for allowing parallel takeoffs with divergent climbout headings)
+# nosid option means planes will depart on the given offsetheading, with SID mode disabled
+# when rwy configurations are omited, two configs are automatically created, one for each rwy direction, with all runways active
