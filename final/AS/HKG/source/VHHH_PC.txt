@@ -1,6 +1,7 @@
 [meta]
 header = VHHH TMA 1.0.0
 	See VHHH_PC_readme.md
+callsigns = True
 
 [airspace]
 radius = 100

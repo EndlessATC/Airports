@@ -63,28 +63,31 @@ class Airline:
         self.frequency = int(frequency.strip())
         self.types = types.strip()
         self.callsign = callsign.strip()
-        if Airline.callsigns is not None and Airline.use_callsigns:
-            if '-' not in callsign:
-                self.pronunciation = Airline.callsigns[callsign]
+        try:
+            if Airline.callsigns is not None and Airline.use_callsigns:
+                if '-' not in callsign:
+                    self.pronunciation = Airline.callsigns[callsign]
+                else:
+                    # if length of key is more than 3, assume it is not registration
+                    key = callsign[:callsign.index('-')]
+                    self.callsign = callsign.strip('_')
+                    # if key length is longer than 3 and key doesn't have match,
+                    # we strip '_' to allow for mil callsigns with length <= 3
+                    self.pronunciation = Airline.callsigns.get(key, key.strip('_')) if len(key) > 3 \
+                        else Airline.callsigns.get(key, '0')
             else:
-                # if length of key is more than 3, assume it is not registration
-                key = callsign[:callsign.index('-')]
-                self.callsign = callsign.strip('_')
-                # if key length is longer than 3 and key doesn't have match,
-                # we strip '_' to allow for mil callsigns with length <= 3
-                self.pronunciation = Airline.callsigns.get(key, key.strip('_')) if len(key) > 3 \
-                    else Airline.callsigns.get(key, '0')
-        else:
-            self.pronunciation = data[0].strip()
-            data = data[1:]
-        if gateways is not None:
-            directions = []
-            arrival_gateways = {gateway.strip() for gateway in data[0].split("/")}
-            departure_gateways = {gateway.strip() for gateway in data[1].split("/")}
-            self.directions = "".join(sorted(
-                {gateways[gateway] for gateway in arrival_gateways | departure_gateways}))
-        else:
-            self.directions = data[0].strip()
+                self.pronunciation = data[0].strip()
+                data = data[1:]
+            if gateways is not None:
+                arrival_gateways = {gateway.strip() for gateway in data[0].split("/")}
+                departure_gateways = {gateway.strip() for gateway in data[1].split("/")}
+                self.directions = "".join(sorted(
+                    {gateways[gateway] for gateway in arrival_gateways | departure_gateways}))
+            else:
+                self.directions = data[0].strip()
+        except Exception as e:
+            raise ValueError(f"Could not create airline from ({callsign}, {frequency}, {types}, {str(data)})" +
+                f"\nCallsign pronunciation lookup = {Airline.use_callsigns}") from e
 
 
 def process_fix_list(fix_list, fixes):
