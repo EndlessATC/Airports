@@ -4,7 +4,7 @@
 elevation = 179
 center = N60.317199707, E24.963300705
 magneticvar = 9.3
-descendaltitude = 12000 		; minimum initial altitude for arrivals
+descendaltitude = 10000		; minimum initial altitude for arrivals
 ceiling = 27500 			; maximum selectable altitude
 above = 28000 			; maximum departure altitude when SID is enabled (must be above ceiling)
 radius = 70			; airspace radius in NM
