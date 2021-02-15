@@ -170,7 +170,7 @@ runways =
 climbaltitude = 4000
 
 [area1]
-# lower TMA
+#lower TMA
 shape = polygon
 altitude = 1300
 labelpos = N60.40516, E24.53583
@@ -186,7 +186,7 @@ points =
 	N59.97466, E24.51200
 
 [area2]
-# upper TMA
+#upper TMA
 shape = polygon
 altitude = 2500
 labelpos = N60.49100, E24.29766
@@ -204,7 +204,7 @@ points =
 	N59.88383, E24.85066
 
 [area3]
-# west CTA
+#west CTA
 shape = polygon
 altitude = 6500
 labelpos = N60.46650, E23.97683
@@ -219,6 +219,19 @@ points =
 	N60.60100, E24.26800
 	N60.59883, E24.26933
 
+[area4]
+#east CTA
+shape = polygon
+altitude 6500
+labelpos = N60.54166, E26.12766
+draw = 2
+points = 
+	N60.82133, E24.78916
+	N60.95016, E25.08533
+	N60.95550, E25.43700
+	N60.74950, E25.97116
+	N60.15010, E26.72500
+	N60.13366, E26.55066
 
 sids=
 	VALOX
