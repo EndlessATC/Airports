@@ -640,6 +640,71 @@ route10 =
 	N60.08350, E23.88950
 #HK921, RIPVI, NUNTO
 
+[departure6]
+runway = rwy3, rev
+
+route1 = 
+	VALOX3P, Valox three papa
+	N60.29166, E24.65716
+	N60.06866, E24.57150
+	N59.72566, E24.01366
+#HK928, HK929, VALOX
+
+route2 = 
+	KOIVU3P, Koivu three papa
+	N60.29166, E24.65716
+	N60.06866, E24.57150
+	N59.84016, E24.65916
+#HK928, HK929, KOIVU
+
+route3 = 
+	RENKU3P, Renku three papa
+	N60.29166, E24.65716
+	N60.06866, E24.57150
+	N59.88483, E24.89133
+#HK928, HK929, RENKU
+
+route4 =
+	ARVEP3P, Arvep three papa
+	N60.40050, E25.05150
+	N60.24300, E26.39283
+#IDMOP, ARVEP
+
+route5 = 
+	IDEPI3P, Idepi three papa
+	N60.40050, E25.05150
+	N60.70650, E25.78983
+#IDMOP, IDEPI
+
+route6 = 
+	TEVRU3P, Tevru three papa
+	N60.42300, E24.85866
+	N60.81933, E24.82150
+#REDBO, TEVRU
+
+route7 = 
+	NEPEK3P, Nepek three papa
+	N60.42300, E24.85866
+	N60.73883, E24.48466
+#REDBO, NEPEK
+
+route8 = 
+	ADIVO3P, Adivo three papa
+	N60.29166, E24.65716
+	N60.29183, E23.97550
+#HK928, ADIVO
+
+route9 = 
+	KUVEM3P, Kuvem three papa
+	N60.29166, E24.65716
+	N60.18766, E23.93566
+#HK928, KUVEM
+
+route10 = 
+	NUNTO3P, Nunto three papa
+	N60.29166, E24.65716
+	N60.08350, E23.88950
+#HK928, NUNTO
 
 
 [approach1]
