@@ -366,6 +366,79 @@ route9 =
 	N59.88483, E24.89133
 #HK451, HK926, HK927, RENKU
 
+[departure2]
+runway = rwy1
+
+route1 = 
+	TEVRU3Z, Tevru three zulu
+	N60.40366, E24.93116
+	N60.81933, E24.82150
+#HK903, TEVRU
+
+route2 =
+	NEPEK3Z, Nepek three zulu
+	N60.40366, E24.93116
+	N60.73883, E24.48466
+#HK903, NEPEK
+
+route3 =
+	ADIVO3Z, Adivo three zulu
+	N60.40366, E24.93116
+	N60.43400, E24.74100
+	N60.29183, E23.97550
+#HK903, HK908, ADIVO
+
+route4 =
+	KUVEM3Z, Kuvem three zulu
+	N60.40366, E24.93116
+	N60.43400, E24.74100
+	N60.73883, E24.48466
+#HK903, HK908, NEPEK
+
+route5 =  
+	NUNTO3Z, Nunto three zulu
+	N60.40366, E24.93116
+	N60.43400, E24.74100
+	N60.08350, E23.88950
+#HK903, HK908, NUNTO
+
+route6 =
+	VALOX3Z, Valox three zulu
+	N60.40366, E24.93116
+	N60.43400, E24.74100
+	N60.33733, E24.67516
+	N59.72566, E24.01366
+#HK903, HK908, HK909, VALOX
+
+route7 =
+	KOIVU3Z, Koivu three zulu
+	N60.40366, E24.93116
+	N60.43400, E24.74100
+	N60.33733, E24.67516
+	N59.84016, E24.65916
+#HK903, HK908, HK909, KOIVU
+
+route8 =
+	RENKU3Z, Renku three zulu 
+	N60.40366, E24.93116
+	N60.43400, E24.74100
+	N60.33733, E24.67516
+	N59.88483, E24.89133
+#HK903, HK908, HK909, RENKU
+
+route9 =
+	ARVEP, heading zero four zero
+	N60.58083, E25.54066
+	N60.24300, E26.39283
+#H040 until lower TMA boundary, ARVEP
+
+route10 =
+	IDEPI, heading zero four zero
+	N60.58083, E25.54066
+	N60.70650, E25.78983
+#H040 until lower TMA boundary, IDEPI
+
+
 [approach1]
 runway = rwy2,rev
 beacon = KENON
