@@ -9,6 +9,14 @@ ceiling = 27500 			; maximum selectable altitude
 above = 28000 			; maximum departure altitude when SID is enabled (must be above ceiling)
 
 beacons =
+	RULLI, N60.13628, E24.52055, RULLI
+	PODOM, N60.20348, E24.66842, PODOM
+	GONAP, N60.16749, E24.62071, GONAP
+	ELKUN, N60.45385, E24.83405, ELKUN
+	BIFIX, N60.45760, E25.26969, BIFIX
+	PERHO, N60.49322, E25.31767, PERHO
+	MEHAK, N60.42231, E25.15233, MEHAK
+	OBONU, N60.15527, E25.13695, OBONU
 	VALOX,N059.43.54.000,E024.08.20.000,0,VALOX
 	TEVRU,N060.49.16.000,E024.49.29.000,0,TEVRU
 	ADIVO,N060.17.51.000,E023.58.53.000,0,ADIVO
@@ -650,6 +658,18 @@ route10 =
 	N60.29166, E24.65716
 	N60.08350, E23.88950
 #HK928, NUNTO
+
+[approach1]
+runway = rwy1
+beacon = ROPAM, N60.12650, E25.60100, -293, Ropam
+route1 =
+	290
+	N60.26983, E25.09316
+	N60.18600, E24.90783
+	N60.13450, E24.79233, 2300, 220
+	9.7, 2300, 220
+#ROPAM, HK711, HK933, LOHIG
+
 
 
 ##############################################################
