@@ -1,8 +1,8 @@
-# `RJTT` ACA 2.2.2
+# `RJTT` ACA 3.0.0
 
 This is an implementation of the Tokyo ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring `RJTT` Tokyo International Airport (commonly referred to as Haneda) and `RJAA` Narita International Airport. JSDF-M base `RJTL` Shimofusa is also represented at very high scores (difficulties). The airspace ceiling is FL240.
 
-Based upon AIP Japan 2020/10/08. The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative. Coastline data from naturalearthdata.com.
+Based upon AIP Japan 2021/03/25 (Ministry of Land, Infrastructure, Transport and Tourism) (https://aisjapan.mlit.go.jp/). The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative. Coastline data from naturalearthdata.com.
 
 The Tokyo ACA is a very large terminal area containing two of Japan's largest airports. The traffic that can flow in and out of these two airports can be immense, but the terminal procedures published for these two airports are robust and can provide you the ability to handle the immense deluge of traffic that can pour into the area. Most of the controller's work should be sequencing arrivals and monitoring a few key merge points for conflicts. Scores of 40 or higher should be possible to maintain with minimal delay vectoring.
 
@@ -114,7 +114,7 @@ The secondary, yet also major airport of this sector. Previously handling almost
 
 There is custom traffic for `RJAA`. The proportions are very much estimates but shouldn't be too far off from reality.
 
-Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is `SWIMY` for 16R/34L and `ABBOT` for 16L/34R.
+Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is `BINKS` for 16R/34L and `BOSPA` for 16L/34R.
 
 Aircraft arrive at 4 points:
 
@@ -197,6 +197,7 @@ Approaches are available using APP mode from `TOHNE` and `ASEKI`. Arrival routes
 - No `RJTO` Oshima/`RJAN` Niijima (not possible to model arrivals from `RJTY` ACA)
 - Arrival and departure directions can be a bit nonsense (e.g. AHK arriving from the Pacific), unfortunately this is a game limitation.
 - South arrivals to `RJTT` 16L/16R are very close to delayed even strictly following the STAR (game limitation?)
+- No `RJAA` simultaneous parallel independent departures as the game does not support this.
 
 ## Disclaimer
 
@@ -236,7 +237,7 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 	- Add approaches to many, many fixes as the approach limit has been lifted.
 	- Add `RJTT` 16L/16R ILS approaches
 	- Add `RJTT` "LDA" 22/23 approaches
-	- `RJAA` arrivals now fly direct to first point inside `RJTT` ACA on their arrival route instead of NRE.
+	- `RJAA` arrivals now fly direct to first point inside `RJTT` ACA on their arrival route instead of `NRE`.
 	- Adjusted entry points
 	- Added missing `ALDEN` waypoint for some STARs from `AROSA`
 	- Adjusted traffic frequencies
@@ -263,6 +264,27 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 	- Minor adjustments/updates to airline traffic.
 	- Added 'rare' traffic (head of state, navaid check)
 *	2.2.1 - 2020/12/19
-	- Adjusted the distribution of traffic for each departure point.
+	- Adjusted the distribution of traffic for each departure point
 *	2.2.2 - 2020/12/29
-	- Fixed bug where JCG would not spawn at RJTT.
+	- Fixed bug where `JCG` would not spawn at `RJTT`
+*	3.0.0 - 2021/02/20
+	- Almost complete rewrite of source
+	- Fixed WTC category of `KC2`.
+	- `HKE` Hokuso VORDME decommissioned as of 2021/03/25.
+		- abolish fixes `SWIMY`, `ABBOT`
+		- establish fix `BOSPA`
+		- revised holding at `TEMIS`
+	- Add MLIT attribution to readme as per MLIT Standard Terms of Use.
+	- Additional rare traffic.
+	- Update magnetic variation to -8 (2020)
+	- Correct expected inbound headings to some STARs (should have no effect on gameplay)
+	- Added approaches from the end of the point merge arcs to facilitate vectoring when arc capacity exceeded
+	- Added approaches from the FAF to allow clearing for the approach via the IF
+	- Improve point merge arc visualization
+	- Change format of SID names
+		- Correct names and pronunciations of some departures
+	- Corrected runway priority for `RJTT` 16L/R (16L is now prioritized)
+	- Departures from 16R now start past the intersection with 22 as per real life
+	- Reduced frequency of traffic at `RJTL` to 1/3 of previous.
+	- Implement ILS Y 16L/16R approaches at `RJAA`
+	- Implement ILS X 34L/ILS Y 34R approaches at `RJTT`
