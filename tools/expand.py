@@ -51,6 +51,7 @@ class Airline:
 
     callsigns = None
     use_callsigns = True
+    test_callsigns = False
 
     def __init__(self, callsign, frequency, types, *data, gateways=None):
         """Create an airline from an entry in the airlines= list. `data` should be 
@@ -63,7 +64,7 @@ class Airline:
         self.frequency = int(frequency.strip())
         self.types = types.strip()
         self.callsign = callsign.strip()
-        if Airline.callsigns is not None and Airline.use_callsigns:
+        if Airline.callsigns is not None and (Airline.use_callsigns or Airline.test_callsigns):
             if '-' not in callsign:
                 self.pronunciation = Airline.callsigns[callsign]
             else:
@@ -74,7 +75,9 @@ class Airline:
                 # we strip '_' to allow for mil callsigns with length <= 3
                 self.pronunciation = Airline.callsigns.get(key, key.strip('_')) if len(key) > 3 \
                     else Airline.callsigns.get(key, '0')
-        else:
+            if Airline.test_callsigns:
+                print(f'{self.callsign}: {self.pronunciation}')
+        if Airline.callsigns is None or not Airline.use_callsigns:
             self.pronunciation = data[0].strip()
             data = data[1:]
         if gateways is not None:
@@ -85,6 +88,23 @@ class Airline:
                 {gateways[gateway] for gateway in arrival_gateways | departure_gateways}))
         else:
             self.directions = data[0].strip()
+
+
+def process_fix_line(line, fixes):
+    """Expands special commands for a fix definition in short format
+    and returns the expanded definition as the result.
+
+    Substitute "!<name>[, <extra_data>]" in `line` with
+    "lat, lon[, <extra_data>]" based on `fixes`.
+
+    Args:
+        `line` (list): A fix definition.
+        `fixes` (dict): A lookup of `Fix`es."""
+    if line.startswith('!'):
+        def_fix, def_sep, def_data = line.lstrip('!').partition(',')
+        return fixes[def_fix.strip()].short_def + def_sep + def_data
+    else:
+        return line
 
 
 def process_fix_list(fix_list, fixes):
@@ -98,14 +118,44 @@ def process_fix_list(fix_list, fixes):
         `fix_list` (list): A list of fix definitions.
         `fixes` (dict): A lookup of `Fix`es."""
     for line in fix_list:
-        if line.startswith('!'):
-            def_fix, def_sep, def_data = line.lstrip('!').partition(',')
-            yield fixes[def_fix.strip()].short_def + def_sep + def_data
+        yield process_fix_line(line, fixes)
+
+
+def _process_approach_fix_list(fix_list, fixes, tagged_routes, generated_approaches):
+    """Inner worker function for `process_approach_fix_list()`.
+
+    Works the same as `process_fix_list`, but in addition, any fix definitions processed
+    will be added to any generated approaches in `generated_approaches`. Also, any fixes
+    processed will be checked for any approach generator parameters; if found, a new
+    generated approach is added to `generated_approaches`. The route of such generated
+    approach will also be added to `tagged_routes` if tagged in the fix definition.
+
+    Args:
+        `fix_list` (list): A list of fix definitions.
+        `fixes` (dict): A lookup of `Fix`es.
+        `tagged_routes` (dict): A lookup of approach routes that were tagged for lookup.
+        `generated_approaches`: A list of dicts of parameters to be used to generate
+            derived approaches in post-processing."""
+    for line in fix_list:
+        def_data, _, approach_generator_params = line.rpartition(',')
+        if def_data and '!' in approach_generator_params:
+            fix_name, _, _ = def_data.partition(',')
+            fix_name = fix_name.lstrip('!')
+            heading, _, tag = approach_generator_params.lstrip(' !').partition('@')
+            route = []
+            generated_approach = {"heading": heading, "beacon": fix_name, "route": route}
+            generated_approaches.append(generated_approach)
+            if tag:
+                tagged_routes[tag] = route
         else:
-            yield line
+            def_data = line
+        result = process_fix_line(def_data, fixes)
+        for generated_approach in generated_approaches:
+            generated_approach['route'].append(result)
+        yield result
 
 
-def process_approach_fix_list(fix_list, fixes, tagged_routes):
+def process_approach_fix_list(fix_list, fixes, tagged_routes, generated_approaches, generate_approaches=True):
     """Processes special commands in a list of departure fixes
     in short format and produces an iterable of definitions as the result.
 
@@ -118,12 +168,18 @@ def process_approach_fix_list(fix_list, fixes, tagged_routes):
     Args:
         `fix_list` (list): A list of fix definitions.
         `fixes` (dict): A lookup of `Fix`es.
-        `tagged_routes` (dict): A lookup of approach routes."""
+        `tagged_routes` (dict): A lookup of approach routes that were tagged for lookup.
+        `generated_approaches`: A list of dicts of parameters to be used to generate
+            derived approaches in post-processing.
+        `generate_approaches`: Whether or not to process any approach generator commands."""
     current_tag = None
     if fix_list:
         if fix_list[0].startswith('@'):
-            current_tag = fix_list[0].lstrip('@')
-            tagged_routes[current_tag] = fix_list[2:]
+            tagged_route = fix_list[2:]
+            if fix_list[0].startswith('@!'):
+                tagged_route = tagged_route[1:]
+            current_tag = fix_list[0].lstrip('@!')
+            tagged_routes[current_tag] = tagged_route
             fix_list = fix_list[1:]
         if fix_list[-1].startswith('@'):
             following_tag = fix_list[-1].lstrip('@')
@@ -132,10 +188,10 @@ def process_approach_fix_list(fix_list, fixes, tagged_routes):
                     '''Unable to build as approach tagged as @{tag} is trying to reference itself.
 The following is the route= contents after the @tag: \n{lines}'''
                     .format(tag=current_tag, lines="\n".join(fix_list)))
-            yield from process_fix_list(fix_list[:-1], fixes)
-            yield from process_approach_fix_list(tagged_routes[following_tag], fixes, tagged_routes)
+            yield from _process_approach_fix_list(fix_list[:-1], fixes, tagged_routes, generated_approaches)
+            yield from process_approach_fix_list(tagged_routes[following_tag], fixes, tagged_routes, generated_approaches, False)
         else:
-            yield from process_fix_list(fix_list, fixes)
+            yield from _process_approach_fix_list(fix_list, fixes, tagged_routes, generated_approaches)
 
 
 def process_departure_fix_list(fix_list, fixes, tagged_routes):
@@ -204,6 +260,8 @@ def process_repeatable_departure_fix_list(fix_list, fixes, departure_routes):
     Otherwise, `n = 1`.
 
     See `process_departure_fix_list` for further special commands."""
+    if not fix_list[0]:
+        fix_list = fix_list[1:]
     if fix_list[0].startswith('*'):
         result = list(process_departure_fix_list(fix_list[1:], fixes, departure_routes))
         for i in range(int(fix_list[0].removeprefix('*'))):
@@ -282,9 +340,11 @@ def process(args, input_file=None):
                     ""])
                 header = "\n".join(header)
             if 'callsigns' not in source['meta']:
-                Airline.use_callsigns = False;
+                Airline.use_callsigns = False
             else:
-                Airline.use_callsigns = source['meta'].getboolean('callsigns');
+                Airline.use_callsigns = source['meta'].getboolean('callsigns')
+            if args.test_callsigns:
+                Airline.test_callsigns = True
             # remove meta section so it won't be written in output
             del source['meta']
 
@@ -326,15 +386,46 @@ def process(args, input_file=None):
         # process approach/transition sections
         approaches = [source[section] for section in source
             if section.startswith('approach') or section.startswith('transition')]
-        tagged_approaches = {}
+        tagged_approaches_by_runway = {}
+        generated_approaches_by_runway = {}
+        highest_app_index = 0
 
         for approach_data in approaches:
-            if 'beacon' in approach_data and approach_data['beacon'].startswith("!"):
-                approach_data['beacon'] = fixes[approach_data['beacon'].removeprefix("!")].full_def
+            runway = approach_data['runway']
+            if runway not in tagged_approaches_by_runway:
+                tagged_approaches_by_runway[runway] = {}
+            tagged_approaches = tagged_approaches_by_runway[runway]
+            generated_approaches = []
+            if 'beacon' in approach_data and ',' not in approach_data['beacon']:
+                approach_data['beacon'] = approach_data['beacon'].removeprefix("!")
+                if approach_data['beacon'] in fixes and fixes[approach_data['beacon']].heading.startswith('!'):
+                    approach_data['beacon'] = fixes[approach_data['beacon']].full_def
             for option in approach_data:
                 if option.startswith('route'):
                     approach_data[option] = "\n".join(process_approach_fix_list(approach_data[option].splitlines(),
-                        fixes, tagged_approaches))
+                        fixes, tagged_approaches, generated_approaches))
+            if runway not in generated_approaches_by_runway:
+                generated_approaches_by_runway[approach_data['runway']] = []
+            generated_approaches_by_runway[approach_data['runway']].extend(generated_approaches)
+
+        # find highest approach index as we need to add more approaches
+        for section in source:
+            if section.startswith('approach'):
+                highest_app_index = max(highest_app_index, int(section[8:]))
+
+        for runway, generated_approaches in generated_approaches_by_runway.items():
+            for generated_approach in generated_approaches:
+                section = f'approach{highest_app_index}'
+                highest_app_index += 1
+                beacon = generated_approach['beacon']
+                if fixes[beacon].heading.startswith('!'):
+                    beacon = fixes[beacon].full_def
+                source[section] = {
+                    "runway": runway,
+                    "beacon": beacon,
+                    "route1": generated_approach['heading'] + "\n" + "\n".join(
+                        generated_approach['route'])
+                }
 
         # process departure sections
         departures = [source[section] for section in source if section.startswith('departure')]
@@ -353,9 +444,10 @@ def process(args, input_file=None):
             departure_data.update(enumerate_routes(processed_routes, start=1))
 
         # write output file
-        with open(output_file, 'w', newline='') as airport_file:
-            airport_file.write(header)
-            source.write(airport_file)
+        if not args.parse_only:
+            with open(output_file, 'w', newline='') as airport_file:
+                airport_file.write(header)
+                source.write(airport_file)
 
     # legacy processor in regex. Don't use for new projects.
     else:
@@ -419,9 +511,10 @@ def process(args, input_file=None):
                 if ignore_one_line:
                     ignore_one_line = False
 
-        with open(output_file, 'w', newline='') as airport_file:
-            airport_file.writelines(result['output'])
-    return output_file
+        if not args.parse_only:
+            with open(output_file, 'w', newline='') as airport_file:
+                airport_file.writelines(result['output'])
+    return output_file if not args.parse_only else None
 
 
 if __name__ == "__main__":

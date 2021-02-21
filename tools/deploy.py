@@ -58,7 +58,7 @@ def main(args):
                 file = expand.process(args, file)
                 if args.legacy:
                     renumber.process(args, file)
-            if args.deploy:
+            if args.deploy and not args.parse_only:
                 result = shutil.copy(file, destination)
                 print(f"Copied {file} to {result}")
 
@@ -92,6 +92,10 @@ if __name__ == "__main__":
     parser.add_argument('-b', '--build-only',
         action='store_false', dest='deploy',
         help="Specify this option to skip copying output of build processes to destination folder.")
+    parser.add_argument('-P', '--parse-only', action='store_true',
+        help="Do not write any output of build. Also has effect of --build-only.")
+    parser.add_argument('-t', '--test-callsigns', action = 'store_true',
+        help="Tests loading of shared callsigns. Actual output is not based on shared callsigns.")
     parser.add_argument('-l', '--legacy',
         action="store_true", help="Use legacy processing method.")
 

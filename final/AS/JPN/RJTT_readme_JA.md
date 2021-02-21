@@ -1,10 +1,10 @@
-# `RJTT` 進入管制区 2.2.2
+# `RJTT` 進入管制区 3.0.0
 
 ＊作者は日本人ではないため、圧倒的語彙力のなさと知識不足によるおかしいまたは間違っている表現があるかもしれません。
 
 TOKYO ACA(東京進入管制区)を[Endless ATC](https://steamcommunity.com/app/666610)に実装する追加データファイルです。`RJTT`東京国際空港(羽田)と`RJAA`成田国際空港が再現されています. 海上自衛隊の`RJTL`下総基地も高難易度及び高スコアでは再現されています. 空域の上限はFL240です.
 
-AIP Japan 2020/10/08をベースとして作られています。再現されているSID及びSTARは現実の運用と異なる場合があるかもしれませんが、基本的に日中の景気気象状態 (IMC) を再現しているつもりです。すべての航空機がRNAV対応としていて、RNAVの代わりがない場合を除き非RNAVのSID及びSTARは実装されていません。海岸のデータはnaturalearthdata.comのを使っています。
+AIP Japan 2021/03/25　（国土交通省） （https://aisjapan.mlit.go.jp/）をもとに作成しています。再現されているSID及びSTARは現実の運用と異なる場合があるかもしれませんが、基本的に日中の景気気象状態 (IMC) を再現しているつもりです。すべての航空機がRNAV対応としていて、RNAVの代わりがない場合を除き非RNAVのSID及びSTARは実装されていません。海岸のデータはnaturalearthdata.comのを使っています。
 
 TOKYO ACAは日本最大の二つの空港を含む非常に広い空域です。羽田と成田に飛来する航空機の数が膨大ではありますが、これら二つの空港で定められたSID及びSTARはよく作られていて、それによって大量の航空機を捌けることができます。 プレイヤーの仕事は到着機感覚の整理と合流ポイントの監視がほとんどで、STAR外の遅延ベクターなしで40以上のスコアを叩き出せるはずです。
 
@@ -21,9 +21,9 @@ STARはこのゲームの進入方式で再現されています。進入方式�
 
 発着便の設定は推測ですが現実とかけ離れてることはないでしょう。
 
-＊未翻訳
-Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is `UTIBO` for 34L/23/16R, `KASGA` for 34R/22, and `SNOKE` for 16L.
+マップ上のフィックスのいくつかは指定のホールドが設定されています。ミスドアプローチのホールドは34L/23/16Rなら`UTIBO`、34R/22なら`KASGA`, 16Lなら`SNOKE`.
 
+＊未翻訳
 Aircraft arrive at 6 points:
 
 - `SPENS` -`Y71`-> `XAC` (west from western Japan, Korea, Northern China)
@@ -117,11 +117,9 @@ A few different configurations are used in real operations; four are available i
 
 発着便の設定は推測ですが現実とかけ離れてることはないでしょう。
 
+マップ上のフィックスのいくつかは指定のホールドが設定されています。ミスドアプローチのホールドは16R/34Lなら`BINKS`で16L/34Rなら`BOSPA`.
+
 ＊未翻訳
-There is custom traffic for `RJAA`. The proportions are very much estimates but shouldn't be too far off from reality.
-
-Most fixes visible on the map have a defined hold including many fixes along the STARs. The published hold for missed approaches is `SWIMY` for 16R/34L and `ABBOT` for 16L/34R.
-
 Aircraft arrive at 4 points:
 
 - `MOE` -`Y81`-> `BAFFY` -`Y81`-> `RUTAS` (southwest from western and southwestern)
@@ -218,6 +216,27 @@ Approaches are available using APP mode from `TOHNE` and `ASEKI`. Arrival routes
 *	2.2.0 - 2020/12/02
 	-日本語初リリース
 *	2.2.1 - 2020/12/19
-	-管制区の離脱ポイントの交通量バランスを調整しました。
+	-管制区の離脱ポイントの交通量バランスを調整しました
 *	2.2.2 - 2020/12/29
-	-RJTTにJCGがスポーンしない不具合を修正。
+	-RJTTにJCGがスポーンしない不具合を修正
+*	3.0.0 - 2021/02/20
+	- ソースをほぼ丸ごと再作成
+	- `KC2`のWTCを修正
+	- `HKE` 北総 VORDME 廃止
+		- `SWIMY`、`ABBOT`廃止
+		- 新たに`BOSPA`を設定
+		- `TEMIS`でのホールド変更
+	- READMEに出典の記載を追加
+	- レア発着機を追加
+	- 磁気変動を-8（2020）に更新
+	- いくつのSTARの最初ポイントでの推定方向を修正（プレイへの影響はありません)
+	- アークのキャパシティオーバー時のベクタリングを容易にするためにポイントマージのアークの最終ポイントからのアプローチを追加
+	- FAFからのアプローチを追加、これによって直接IFからの進入が可能
+	- ポイントマージアークの描写を改良
+	- SIDの名前の形式を変更
+		- 間違ってる名前と発音の修正
+	- `RJTT` 16L/Rの優先度を修正 (16Lを優先)
+	- 16Rからの離陸を22との交差点より先から始まるように修正
+	- `RJTL`の発着レートを三分の一に下げました.
+	- `RJAA`　ILS Y 16L/16R アプローチを実装
+	- `RJTT`　ILS X 34L/ILS Y 34R アプローチを実装

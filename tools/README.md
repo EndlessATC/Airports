@@ -7,3 +7,10 @@ Depending on your platform, you will need to run 'python3 deploy.py', 'python de
 For further help, view the help available by running 'python deploy.py -h'
 
 If you find any bugs, you can report on the community Discord.
+
+## Changelog
+*	0.8.0 - 2021/02/20
+	- Added generated approaches feature
+	- Tagged approaches are now runway-specific
+	- Added argument to test loading from common callsigns
+	- Added argument to parse source and build, not do not write product
