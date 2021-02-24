@@ -668,10 +668,35 @@ route1 =
 	290
 	N60.26983, E25.09316
 	N60.18600, E24.90783
-	N60.13450, E24.79233, 2300, 220
+	N60.13450, E24.79233
 	9.7, 2300, 220
 #ROPAM, HK711, HK933, LOHIG
 
+[approach2]
+runway = rwy1
+beacon = HK711, N60.26983, E25.09316, -290, Hotel kilo seven one one
+route1 =
+	218
+	N60.18600, E24.90783
+	N60.13450, E24.79233
+	9.7, 2300, 220
+#HK711, HK933, LOHIG
+
+[approach3]
+runway = rwy1
+beacon = HK933, N60.18600, E24.90783, -218, Hotel kilo niner three three
+route1 =
+	218
+	N60.13450, E24.79233
+	9.7, 2300, 220
+#HK933, LOHIG
+
+[approach4]
+runway = rwy1
+beacon = LOHIG, N60.13450, E24.79233, -218, Lohig
+route1 = 
+	218
+	9.7, 2300, 220
 
 
 ##############################################################
