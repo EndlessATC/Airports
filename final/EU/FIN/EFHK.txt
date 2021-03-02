@@ -4,9 +4,13 @@
 elevation = 179
 center = N60.317199707, E24.963300705
 magneticvar = 9.3
+floor = 1300
 descendaltitude = 10000		; minimum initial altitude for arrivals
 ceiling = 27500 			; maximum selectable altitude
 above = 28000 			; maximum departure altitude when SID is enabled (must be above ceiling)
+usa = false
+seperation = 3
+transitionaltitude = 5000
 
 beacons =
 	RULLI, N60.13628, E24.52055, RULLI
@@ -17,23 +21,8 @@ beacons =
 	PERHO, N60.49322, E25.31767, PERHO
 	MEHAK, N60.42231, E25.15233, MEHAK
 	OBONU, N60.15527, E25.13695, OBONU
-	VALOX,N059.43.54.000,E024.08.20.000,0,VALOX
-	TEVRU,N060.49.16.000,E024.49.29.000,0,TEVRU
-	ADIVO,N060.17.51.000,E023.58.53.000,0,ADIVO
-	ARVEP,N060.14.58.000,E026.23.57.000,0,ARVEP
-	KUVEM,N060.11.26.000,E023.56.14.000,0,KUVEM
-	NEPEK,N060.44.33.000,E024.29.08.000,0,NEPEK
-	RENKU,N059.53.09.000,E024.53.48.100,0,RENKU
-	KOIVU,N059.50.41.000,E024.39.55.000,0,KOIVU
-	LUSEP,N060.57.08.000,E025.15.53.000,0,LUSEP
-	LAKUT,N060.26.17.000,E023.52.35.000,0,LAKUT
-	DIVAM,N059.50.54.000,E023.35.37.000,0,DIVAM
-	INTOR,N059.49.40.000,E025.11.12.000,0,INTOR
-	ROPAM,N060.07.59.000,E025.36.06.000,0,ROPAM
-	VEPIN,N060.37.53.000,E026.19.59.000,0,VEPIN
-	IDEPI, N60.70650, E25.78983, 0, IDEPI 
 
-boundary = 
+boundary =
 	N59.70083, E23.99200
 	N59.64866, E23.75016
 	N59.91766, E23.53883
@@ -157,7 +146,7 @@ climbaltitude = 4000
 shape = polygon
 altitude = 1300
 labelpos = N60.40516, E24.53583
-points = 
+points =
 	N60.18566, E24.10183
 	N60.31816, E24.38383
 	N60.43683, E24.38933
@@ -173,7 +162,7 @@ points =
 shape = polygon
 altitude = 2500
 labelpos = N60.49100, E24.29766
-points = 
+points =
 	N59.70050, E23.99200
 	N59.91600, E23.82533
 	N60.44950, E24.04500
@@ -193,7 +182,7 @@ shape = polygon
 altitude = 6500
 labelpos = N60.46650, E23.97683
 draw = 2
-points = 
+points =
 	N59.70083, E23.99200
 	N59.64866, E23.75016
 	N59.91766, E23.53883
@@ -209,7 +198,7 @@ shape = polygon
 altitude = 6500
 labelpos = N60.54166, E26.12766
 draw = 1
-points = 
+points =
 	N60.82133, E24.78916
 	N60.95016, E25.08533
 	N60.95550, E25.43700
@@ -246,14 +235,14 @@ airlines =
 
 [departure1]
 runway = rwy1, rev
-route1 = 
+route1 =
 	NUNTO3N, Nunto three november
 	N60.30266, E24.77583
 	N60.23966, E24.48383
 	N60.08350, E23.88950
 #HK451, HK926, NUNTO
 
-route2 = 
+route2 =
 	KUVEM3N, Kuvem three november
 	N60.30266, E24.77583
 	N60.23966, E24.48383
@@ -295,9 +284,9 @@ route6 =
 	N60.35750, E24.60816
 	N60.47550, E24.77200
 	N60.24300, E26.39283
-#HK461, HK934, ENUTO, ARVEP	
+#HK461, HK934, ENUTO, ARVEP
 
-route7 = 
+route7 =
 	VALOX3N, Valox three november
 	N60.30266, E24.77583
 	N60.23966, E24.48383
@@ -313,7 +302,7 @@ route8 =
 	N59.84016, E24.65916
 #HK451, HK926, HK927, KOIVU
 
-route9 = 
+route9 =
 	RENKU3N, Renku three november
 	N60.30266, E24.77583
 	N60.23966, E24.48383
@@ -324,7 +313,7 @@ route9 =
 [departure2]
 runway = rwy1
 
-route1 = 
+route1 =
 	TEVRU3Z, Tevru three zulu
 	N60.40366, E24.93116
 	N60.81933, E24.82150
@@ -350,7 +339,7 @@ route4 =
 	N60.73883, E24.48466
 #HK903, HK908, NEPEK
 
-route5 =  
+route5 =
 	NUNTO3Z, Nunto three zulu
 	N60.40366, E24.93116
 	N60.43400, E24.74100
@@ -374,7 +363,7 @@ route7 =
 #HK903, HK908, HK909, KOIVU
 
 route8 =
-	RENKU3Z, Renku three zulu 
+	RENKU3Z, Renku three zulu
 	N60.40366, E24.93116
 	N60.43400, E24.74100
 	N60.33733, E24.67516
@@ -424,7 +413,7 @@ route4 =
 	N60.12650, E25.60100
 #VAVIS, HK924, ROPAM
 
-route5 = 
+route5 =
 	ARVEP3F, Arvep three foxtrot
 	N60.23433, E24.83983
 	N60.20233, E24.97300
@@ -459,7 +448,7 @@ route2 =
 	N59.84016, E24.65916
 #HK416, HK912, HK913, KOIVU
 
-route3 = 
+route3 =
 	RENKU4C, Renku four charlie
 	N60.39200, E25.12333
 	N60.33733, E25.37216
@@ -473,14 +462,14 @@ route4 =
 	N60.12650, E25.60100
 #HK917, ROPAM
 
-route5 = 
+route5 =
 	ARVEP4C, Arvep four charlie
 	N60.39200, E25.12333
 	N60.33733, E25.37216
 	N60.24300, E26.39283
 #HK416, HK912, ARVEP
 
-route6 = 
+route6 =
 	IDEPI4C, Idepi four charlie
 	N60.39200, E25.12333
 	N60.70650, E25.78983
@@ -500,7 +489,7 @@ route8 =
 	N60.73883, E24.48466
 #HK416, LULAB, NEPEK
 
-route9 = 
+route9 =
 	ADIVO4C, Adivo four charlie
 	N60.39200, E25.12333
 	N60.50350, E25.12566
@@ -527,7 +516,7 @@ route11 =
 [departure5]
 runway = rwy3
 
-route1 = 
+route1 =
 	VALOX3D, Valox three delta
 	N60.19183, E24.84166
 	N59.72566, E24.01366
@@ -551,7 +540,7 @@ route4 =
 	N60.24300, E26.39283
 #HK914, ARVEP
 
-route5 = 
+route5 =
 	IDEPI3D, Idepi three delta
 	N60.28366, E25.25983
 	N60.35350, E25.35250
@@ -581,7 +570,7 @@ route8 =
 	N60.29183, E23.97550
 #HK921, RIPVI, ADIVO
 
-route9 = 
+route9 =
 	KUVEM4D, Kuvem four delta
 	N60.22416, E24.89166
 	N60.27066, E24.58450
@@ -598,21 +587,21 @@ route10 =
 [departure6]
 runway = rwy3, rev
 
-route1 = 
+route1 =
 	VALOX3P, Valox three papa
 	N60.29166, E24.65716
 	N60.06866, E24.57150
 	N59.72566, E24.01366
 #HK928, HK929, VALOX
 
-route2 = 
+route2 =
 	KOIVU3P, Koivu three papa
 	N60.29166, E24.65716
 	N60.06866, E24.57150
 	N59.84016, E24.65916
 #HK928, HK929, KOIVU
 
-route3 = 
+route3 =
 	RENKU3P, Renku three papa
 	N60.29166, E24.65716
 	N60.06866, E24.57150
@@ -625,47 +614,56 @@ route4 =
 	N60.24300, E26.39283
 #IDMOP, ARVEP
 
-route5 = 
+route5 =
 	IDEPI3P, Idepi three papa
 	N60.40050, E25.05150
 	N60.70650, E25.78983
 #IDMOP, IDEPI
 
-route6 = 
+route6 =
 	TEVRU3P, Tevru three papa
 	N60.42300, E24.85866
 	N60.81933, E24.82150
 #REDBO, TEVRU
 
-route7 = 
+route7 =
 	NEPEK3P, Nepek three papa
 	N60.42300, E24.85866
 	N60.73883, E24.48466
 #REDBO, NEPEK
 
-route8 = 
+route8 =
 	ADIVO3P, Adivo three papa
 	N60.29166, E24.65716
 	N60.29183, E23.97550
 #HK928, ADIVO
 
-route9 = 
+route9 =
 	KUVEM3P, Kuvem three papa
 	N60.29166, E24.65716
 	N60.18766, E23.93566
 #HK928, KUVEM
 
-route10 = 
+route10 =
 	NUNTO3P, Nunto three papa
 	N60.29166, E24.65716
 	N60.08350, E23.88950
 #HK928, NUNTO
+
+###########################
+##### 04L arrivals ########
+###########################
+
+###########
+# ROPAM3B #
+###########
 
 [approach1]
 runway = rwy1
 beacon = ROPAM, N60.12650, E25.60100, -293, Ropam
 route1 =
 	290
+	N60.12650, E25.60100
 	N60.26983, E25.09316
 	N60.18600, E24.90783
 	N60.13450, E24.79233
@@ -677,6 +675,7 @@ runway = rwy1
 beacon = HK711, N60.26983, E25.09316, -290, Hotel kilo seven one one
 route1 =
 	218
+	N60.26983, E25.09316
 	N60.18600, E24.90783
 	N60.13450, E24.79233
 	9.7, 2300, 220
@@ -687,6 +686,7 @@ runway = rwy1
 beacon = HK933, N60.18600, E24.90783, -218, Hotel kilo niner three three
 route1 =
 	218
+	N60.18600, E24.90783
 	N60.13450, E24.79233
 	9.7, 2300, 220
 #HK933, LOHIG
@@ -694,9 +694,15 @@ route1 =
 [approach4]
 runway = rwy1
 beacon = LOHIG, N60.13450, E24.79233, -218, Lohig
-route1 = 
+route1 =
 	218
+	N60.13450, E24.79233
 	9.7, 2300, 220
+
+###########
+# VEPIN3B #
+###########
+
 
 
 ##############################################################
@@ -714,11 +720,11 @@ config3 =
 config3 =
 	0,	rwy3,	start
 	0, rwy1, land
-config4 = 
+config4 =
 	0 , rwy2, start
 	0 , rwy1, land
 	5, rwy2, land
-config5 = 
+config5 =
 	0 , rwy2, landrev
 	0 , rwy1, startrev
 config6 =
