@@ -671,7 +671,7 @@ route10 =
 
 [approach1]
 runway = rwy1
-beacon = ROPAM, N60.12650, E25.60100, -293, Ropam
+beacon = ROPAM, N60.12650, E25.60100, -293
 route1 =
 	293
 	N60.12650, E25.60100
@@ -683,7 +683,7 @@ route1 =
 
 [approach2]
 runway = rwy1
-beacon = HK711, N60.26983, E25.09316, -290, Hotel kilo seven one one
+beacon = HK711, N60.26983, E25.09316, -290
 route1 =
 	290
 	N60.26983, E25.09316
@@ -694,7 +694,7 @@ route1 =
 
 [approach3]
 runway = rwy1
-beacon = HK933, N60.18600, E24.90783, -218, Hotel kilo niner three three
+beacon = HK933, N60.18600, E24.90783, -218
 route1 =
 	218
 	N60.18600, E24.90783
@@ -704,7 +704,7 @@ route1 =
 
 [approach4]
 runway = rwy1
-beacon = LOHIG, N60.13450, E24.79233, -218, Lohig
+beacon = LOHIG, N60.13450, E24.79233, -218
 route1 =
 	218
 	N60.13450, E24.79233
