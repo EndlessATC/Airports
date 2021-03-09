@@ -1026,6 +1026,63 @@ route2 =
 #R1 LAKUT 8B: NEMVI
 #R2 MAROM 6B: NEMVI, ASPIT
 
+############
+# LUSEP 3B #
+############
+
+
+[approach26]
+runway = rwy1
+beacon = LUSEP, N60.95133, E25.25883, -172
+route1 = 
+	172
+	N60.95133, E25.25883
+	N60.72350, E25.27033
+	N60.59216, E25.28583
+	N60.40800, E24.87250
+	N60.32216, E24.68416
+	N60.26683, E24.55383
+	9.7, 2300, 220
+# LUSEP, NAPUN, HK890, HK897, HK932, NEMVI
+
+[approach27]
+runway = rwy1 
+beacon = NAPUN, N60.72350, E25.27033
+route1 = 
+	169
+	N60.72350, E25.27033
+	N60.59216, E25.28583
+	N60.40800, E24.87250
+	N60.32216, E24.68416
+	N60.26683, E24.55383
+	9.7, 2300, 220
+# NAPUN, HK890, HK897, HK932, NEMVI
+
+[approach28]
+runway = rwy1
+beacon = HK890, N60.59216, E25.28583
+route1 = 
+	169
+	N60.59216, E25.28583
+	N60.40800, E24.87250
+	N60.32216, E24.68416
+	N60.26683, E24.55383
+	9.7, 2300, 220
+# HK890, HK897, HK932, NEMVI
+
+[approach29]
+runway = rwy1
+beacon = HK897, N60.40800, E24.87250
+route1 =
+	218
+	N60.40800, E24.87250
+	N60.32216, E24.68416
+	N60.26683, E24.55383
+	9.7, 2300, 220
+# HK897, HK932, NEMVI
+# Rest of arrival done with LAKUT 8B
+
+
 
 ##############################################################
 [configurations]
