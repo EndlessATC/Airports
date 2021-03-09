@@ -1083,6 +1083,57 @@ route1 =
 # Rest of arrival done with LAKUT 8B
 
 
+###########################
+##### 04R arrivals ########
+###########################
+
+###########
+# DIVAM4R #
+###########
+
+[approach30]
+runway = rwy2
+beacon = DIVAM, N59.84233, E23.58950, 058
+route1 = 
+	058
+	N59.84233, E23.58950
+	N59.90783, E23.72133
+	N59.97466, E24.24200
+	N60.01716, E24.48666
+	12.9, 3300, 220
+# DIVAM, PEXEN, HK945, EHOTE
+
+[approach31]
+runway = rwy2
+beacon = PEXEN, N59.90783, E23.72133
+route1 = 
+	051
+	N59.90783, E23.72133
+	N59.97466, E24.24200
+	N60.01716, E24.48666
+	12.9, 3300, 220
+# PEXEN, HK945, EHOTE
+
+[approach32]
+runway = rwy2
+beacon = HK945, N59.97466, E24.24200
+route1 = 
+	063
+	N59.97466, E24.24200
+	N60.01716, E24.48666
+	12.9, 3300, 220
+# HK945, EHOTE
+
+[approach33]
+runway = rwy2
+beacon = EHOTE, N60.01716, E24.48666
+route1 = 
+	063
+	N60.01716, E24.48666
+	12.9, 3300, 220
+# EHOTE
+
+
 
 ##############################################################
 [configurations]
