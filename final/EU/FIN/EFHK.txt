@@ -1613,7 +1613,46 @@ route1 =
 # ROPAM, HK817, HK941, SUTAX
 # REST OF THE ARRIVAL DONE WITH DIVAM 3M
 
+############
+# VEPIN 3M #
+############
 
+[approach69]
+runway = rwy3
+beacon = VEPIN, N60.62550, E26.32650, -227
+route1 = 
+	227
+	N60.62550, E26.32650
+	N60.57166, E25.98400
+	N60.44116, E25.20850
+	N60.43416, E25.04066
+	N60.48966, E24.98416
+	8.7, 2000, 220
+# VEPIN, MAMOP, HK939, HK941, SUTAX
+
+[approach70]
+runway = rwy3
+beacon = MAMOP, N60.57166, E25.98400
+route1 = 
+	243
+	N60.57166, E25.98400
+	N60.44116, E25.20850
+	N60.43416, E25.04066
+	N60.48966, E24.98416
+	8.7, 2000, 220
+# MAMOP, HK939, HK941, SUTAX
+
+[approach71]
+runway = rwy3
+beacon = HK939, N60.44116, E25.20850
+route1 = 
+	242
+	N60.44116, E25.20850
+	N60.43416, E25.04066
+	N60.48966, E24.98416
+	8.7, 2000, 220
+# HK939, HK941, SUTAX
+# REST OF ARRIVAL DONE WITH DIVAM 3M
 
 ##############################################################
 [configurations]
