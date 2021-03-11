@@ -1,14 +1,18 @@
-Endless ATC Dubai CTA v1.0 by Zac Kaplowitz
+Endless ATC Dubai CTA v1.1 by Zac Kaplowitz
 
 AIRAC 2102
 
-v1.0 only covers OMDB (Dubai International Airport) in the 30 configuration. The 12 configuration is not yet included. Sharjah and Al Maktoum are not yet included. The Minhad restricted airspace is not yet included.
+v1.1 only covers OMDB (Dubai International Airport) in the 30 configuration. The 12 configuration is not yet included. Sharjah and Al Maktoum are not yet included. The Minhad restricted airspace is not yet included.
 
-30L is for arrivals, 30R is for departures. The platform altitude for 30L is 2000 feet. All departures maintain initially 4000ft. Airspace from 1500-FL150.
+30L is for arrivals, 30R is for departures. The platform altitude for 30L is 2000 feet. The platform altitude for 30R is 3000 feet. All departures maintain initially 4000ft. Airspace from 1500-FL150.
+
+D-APO is now implemented. With skill set to 12 or above, 30R will open for arrivals as well as departures. 30R arrivals must still maintain separation from 30L arrivals and must establish at 3000 feet.
 
 On initial contact, arriving aircraft should be cleared for the arrival.
 
 The minimum separation in the CTA is 3nm. The minimum separation on the same localiser is 2.5nm. Aircraft on the same SID must be handed off to UAE Radar with at least 8nm in trail.
+
+For the purposes of separation, the 30L and 30R localisers are considered to be the same localiser.
 
 Even altitudes are used for arrivals and odd altitudes for departures. This is ignored below 4000ft, as 3000ft is used to separate arrivals more efficiently. 
 
@@ -148,4 +152,5 @@ No direct routings permitted.
 Changelog
 
 v1.0 - 11/03/2021 - Initial release
+v1.1 - 11/03/2021 - Added D-APO, fixed callsign pronunciations, reduced frequency of DAVMO and IVURO departures, fixed auto-descent bug
 
