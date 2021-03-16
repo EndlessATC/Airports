@@ -53,6 +53,25 @@ beacons =
 	DK143, N50.81167, E7.29317, 0, deltakilo143
 	DK144, N50.82583, E7.34817, 0, deltakilo144
 	DK145, N50.86100, E7.35933, 0, deltakilo145
+	DK415, N51.08533, E6.90050, 0, deltakilo415
+	DK416, N51.09700, E7.00450, 0, deltakilo416
+	DK417, N51.06617, E7.18400, 0, deltakilo417
+	DK418, N51.05583, E7.46417, 0, deltakilo418
+	DK428, N50.98167, E7.43083, 0, deltakilo428
+	DK455, N51.03533, E6.90450, 0, deltakilo122
+	DK495, N50.96750, E6.78750, 0, deltakilo495
+	DK515, N50.98783, E7.54500, 0, deltakilo515
+	DK527, N50.87367, E7.73750, 0, deltakilo527
+	DK554, N50.95333, E7.42600, 0, deltakilo554
+	DK615, N50.68200, E7.47050, 0, deltakilo615
+	DK616, N50.69483, E7.54683, 0, deltakilo616
+	DK617, N50.81617, E7.63217, 0, deltakilo617
+	DK627, N50.72650, E7.75083, 0, deltakilo627
+	DK654, N50.69617, E7.39433, 0, deltakilo654
+	DK694, N50.62917, E7.27850, 0, deltakilo694
+	LEGDU, N50.98650, E6.97617, 0, legdu
+	RARIX, N50.75517, E7.31200, 0, rarix
+	KUKIT, N50.93150, E7.35417, 0, kukit
 	PODIP, N50.94533, E7.81717, 0, podip
 	KUMIK, N50.83900, E8.07350, 0, kumik
 
@@ -69,7 +88,7 @@ entrypoints =
 	114, gulko
 	229, depok
 
-climbaltutude = 5000
+climbaltitude = 5000
 
 airlines =
 	AUA, 2, E195/A319/A320/A321, Austrian, e
@@ -188,6 +207,107 @@ route 5 =
 	N50.9453, E7.8172
 	N50.8390, E8.0735
 #DK034, DK035, DK036, DK037, DK038, PODIP, KUMIK
+
+[approach1]
+runway = rwy2
+beacon = GULKO
+route 1 =
+	320
+	N50.7536, E7.9370
+	N50.9817, E7.4308
+	N51.0484, E7.2800
+	N51.0662, E7.1840, 0, 220
+	N51.0970, E7.0045
+	N51.0853, E6.9005
+	N51.0353, E6.9045
+	11, 3000, 200
+#GULKO, DK428, WYP, DK417(220-), DK416, DK415, DK455
+
+[approach2]
+runway = rwy2
+beacon = KOPAG
+route1 =
+	270
+	N51.0677, E7.8090
+	N51.0558, E7.4642
+	N51.0484, E7.2800
+	N51.0662, E7.1840, 0, 220
+	N51.0970, E7.0045
+	N51.0853, E6.9005
+	N51.0353, E6.9045
+	11, 3000, 200
+#KOPAG, DK418, WYP, DK417(220-), DK416, DK415, DK455
+
+[approach3]
+runway = rwy2
+beacon = DEPOK
+route1 =
+	080
+	N50.7137, E6.8613
+	N50.9675, E6.7875, 0, 220
+	N51.0353, E6.9045
+	11, 3000, 200
+#DEPOK, DK495(220-), DK455
+
+[approach4]
+runway = rwy2, rev
+beacon = GULKO
+route1=
+	320
+	N50.7536, E7.9370
+	N50.7265, E7.7508, 0, 220
+	N50.6948, E7.5468
+	N50.6820, E7.4705
+	N50.6961, E7.3943
+	11, 3000, 200
+#GULKO, DK627(220-), DK616, DK615, DK654
+
+[approach5]
+runway = rwy2, rev
+beacon = KOPAG
+route1 =
+	270
+	N51.0677, E7.8090
+	N50.8162, E7.6322, 0, 220
+	N50.6948, E7.5468
+	N50.6820, E7.4705
+	N50.6961, E7.3943
+	11, 3000, 200
+#KOPAG, DK617(220-), DK616, DK615, DK654
+
+[approach6]
+runway = rwy2, rev
+beacon = DEPOK
+route1 =
+	080
+	N50.7137, E6.8613
+	N50.6292, E7.2785, 0, 220
+	N50.6961, E7.3943
+	11, 3000, 200
+#DEPOK, DK694, DK654
+
+[approach7]
+runway = rwy1, rev
+beacon = GULKO
+route1 =
+	180
+	N50.7536, E7.9370
+	N50.8737, E7.7375, 0, 220
+	N50.98783, E7.54500
+	N50.95333, E7.42600
+	11, 3000, 220
+#GULKO, DK527(220-), DK515, DK554
+
+[approach8]
+runway = rwy1, rev
+beacon = KOPAG
+route 1 =
+	090
+	N51.0677, E7.8090
+	N50.98783, E7.54500
+	N50.95333, E7.42600
+	11, 3000, 220
+#KOPAG, DK515, DK554
 
 [configurations]
 
