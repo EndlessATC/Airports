@@ -4,7 +4,7 @@ Cologne is a medium sized airport located in the west of Germany.
 During Daytime it is not particulary busy but during the night at peak time there are a lot cargo aircraft coming in.
 
 A big challenge of EDDK is that the APP sector is quite small and therefore precise preplanning is required to handle traffic.
-Normal config at EDDK is 14L or 32R single operations and runway 24 may be used in adition to that as a landing runway to shortem flight and taxi times.
+Normal config at EDDK is 14L or 32R single operations and runway 24 may be used in adition to that as a landing runway to shorten flight and taxi times.
 If runway 14L/32R and 24 are active for landing it is required to separate the arrivals as these are crossing runways, so having runway 24 open, does not mean double capacity.
 Arrivals will be transfered via GULKO, KOPAG and DEPOK at FL100 (I don't know how to have different ALTs for different WPs) and then will normally be vectored towards final approach.
 In addition I added transition from GULKO/KOPAG/DEPOK for 14L/32R and GULKO/KOPAG for 24 which may be used but aren't normally in real life.
