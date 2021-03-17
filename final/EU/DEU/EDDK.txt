@@ -1,0 +1,330 @@
+[airspace]
+zoom = 6.0
+elevation = 302
+floor = 2000
+descendaltitude = 10000
+ceiling = 12000
+above = 14000
+transitionaltitude = 5500
+usa = false
+metric = false
+separation = 3
+center = N50.8658981323, E7.1427397728
+magneticvar = 2.0
+
+boundary =
+	N50.754601, E6.020928
+	N50.609104, E6.205884
+	N50.499370, E6.258987
+	N50.412529, E6.384115
+	N50.510673, E6.848411
+	N50.516634, E7.466641
+	N50.549697, E7.441157
+	N50.718044, E7.891504
+	N50.636724, E8.011521
+	N50.690550, E8.126655
+	N50.775308, E8.037499
+	N50.833149, E7.975030
+	N50.877131, E8.134464
+	N51.035012, E7.935050
+	N51.098429, E8.085047
+	N51.198818, E8.006635
+	N51.132102, E7.828882
+	N51.090334, E6.756269
+
+beacons =
+	KBO, N50.86170, E7.14552, 0, Koeln/Bonn
+	WYP, N51.04840, E7.28000, -261, Wipper
+	COL, N50.78350, E7.59419, -298, Cola
+	NVO, N50.82267, E6.63661, 068, Noervenich
+	GULKO, N50.75367, E7.93700, -276, gulko
+	DEPOK, N50.71367, E6.86133, 0, depok
+	KOPAG, N51.06767, E7.80900, -205, kopag
+	DK034, N50.88600, E7.12150, 0, deltakilo034
+	DK035, N50.93483, E7.13567, 0, deltakilo035
+	DK036, N50.97050, E7.24033, 0, deltakilo036
+	DK037, N50.99183, E7.31383, 0, deltakilo037
+	DK038, N51.02500, E7.41350, 0, deltakilo038
+	DK040, N50.91950, E7.07350, 0, deltakilo039
+	DK130, N50.82450, E7.20600, 0, deltakilo130
+	DK132, N50.80300, E7.23717, 0, deltakilo132
+	DK135, N50.75167, E7.17933, 0, deltakilo135
+	DK141, N50.81767, E7.23667, 0, deltakilo141
+	DK143, N50.81167, E7.29317, 0, deltakilo143
+	DK144, N50.82583, E7.34817, 0, deltakilo144
+	DK145, N50.86100, E7.35933, 0, deltakilo145
+	DK415, N51.08533, E6.90050, 0, deltakilo415
+	DK416, N51.09700, E7.00450, 0, deltakilo416
+	DK417, N51.06617, E7.18400, 0, deltakilo417
+	DK418, N51.05583, E7.46417, 0, deltakilo418
+	DK428, N50.98167, E7.43083, 0, deltakilo428
+	DK455, N51.03533, E6.90450, 0, deltakilo122
+	DK495, N50.96750, E6.78750, 0, deltakilo495
+	DK515, N50.98783, E7.54500, 0, deltakilo515
+	DK527, N50.87367, E7.73750, 0, deltakilo527
+	DK554, N50.95333, E7.42600, 0, deltakilo554
+	DK615, N50.68200, E7.47050, 0, deltakilo615
+	DK616, N50.69483, E7.54683, 0, deltakilo616
+	DK617, N50.81617, E7.63217, 0, deltakilo617
+	DK627, N50.72650, E7.75083, 0, deltakilo627
+	DK654, N50.69617, E7.39433, 0, deltakilo654
+	DK694, N50.62917, E7.27850, 0, deltakilo694
+	LEGDU, N50.98650, E6.97617, 0, legdu
+	RARIX, N50.75517, E7.31200, 0, rarix
+	KUKIT, N50.93150, E7.35417, 0, kukit
+	PODIP, N50.94533, E7.81717, 0, podip
+	KUMIK, N50.83900, E8.07350, 0, kumik
+
+[airport1]
+name = Cologne Bonn Airport
+code = EDDK
+runways =
+	rwy1, 06, N50.8601, E7.12378, 64.0, 8068, 0, 0, 231
+	rwy2, 14L, N50.8805, E7.12908, 136, 12516, 0, 0, 230
+	rwy3, 14R, N50.8708, E7.12086, 136, 6112, 0, 0, 221
+
+entrypoints =
+	065, kopag
+	114, gulko
+	229, depok
+
+climbaltitude = 5000
+
+airlines =
+	AUA, 2, E195/A319/A320/A321, Austrian, e
+	BLA, 1, B733/B735/B738, Blue Air, s
+	BUC, 1, A320/MD82, Bulgarian Charter, s
+	CAI, 4, B738, Corendon, sw
+	DLH, 3, CRJ9/A319/A320/A321, Lufthansa, s
+	EWG, 10, A319/A320, Eurowings
+	EWG, 10, A319/A320, Eurowings
+	FDX, 10, B752/B772/MD11/AT75, Fedex
+	FHM, 2, A320, Eurobird, sw
+	HES, 1, A321, Holiday Europe, s
+	IRA, 1, A306, Iranair, e
+	JAW, 1, E170, Jasmin, s
+	LBT, 1, A320, Nouvelair, s
+	MAC, 1, A320, Arabia Maroc, w
+	MSC, 1, A320, Air Cairo, s
+	NOS, 1, B738, Moonflower, w
+	OHY, 1, A320/A321, Onur Air
+	PBD, 1, B738, Pobeda, ne
+	PGT, 2, A320/A321/B738, Sunturk, s
+	RYR, 10, B738, Ryanair
+	SQP, 1, B737/B738/B739, Skyup, e
+	SRN, 7, AT72, Sprintair
+	SRR, 8, B762/B763, Whitestar
+	SWT, 8, AT43/AT72/B752, Swift
+	SXS, 1, B738, Sunexpress, s
+	THY, 1, A320/A321/B738/B739, s
+	TUI, 6, B738, Tuijet, sw
+	UPS, 10, B748/B752/B763/MD11, UPS
+	WZZ, 8, A320/A321, Wizzair, se
+
+
+[departure1]
+runway = rwy2
+route1 =
+	NVO2F, noervenich two foxtrott
+	N50.8030, E7.2372
+	N50.7517, E7.1793
+	N50.8227, E6.6366
+#DK132, DK135, NVO
+
+route2 =
+	WYP5F, wipper five foxtrott
+	N50.8245, E7.2060
+	N50.8177, E7.2367
+	N50.8117, E7.2932
+	N50.8258, E7.3482
+	N50.8610, E7.3593
+	N51.0484, E7.2800
+#DK130, DK141, DK143, DK144, DK145, WYP
+
+route3 =
+	COL3F, cola three foxtrott
+	N50.8245, E7.2060
+	N50.7835, E7.5942
+#DK130, COL
+
+route4 =
+	POD8F, podip six foxtrott
+	N50.8245, E7.2060
+	N50.7835, E7.5942
+	N50.9453, E7.8172
+#DK130, COL, PODIP
+
+route5 =
+	KUM7F, kumik seven foxtrott
+	N50.8245, E7.2060
+	N50.7835, E7.5942
+	N50.8390, E8.0735
+#DK130, COL, KUMIK
+
+[departure2]
+
+runway = rwy2, rev
+route1 =
+	NVO2B, noervenich two bravo
+	N50.9195, E7.0735
+	N50.8227, E6.6366
+#DK040 NVO
+
+route 2 =
+	WYP5B, wipper five bravo
+	N50.8860, E7.1215
+	N50.9348, E7.1357
+	N50.9705, E7.2403
+	N51.0484, E7.2800
+#DK034, DK035, DK036, WYP
+
+route 3 =
+	COL3B, cola three bravo
+	N50.8860, E7.1215
+	N50.9348, E7.1357
+	N50.9705, E7.2403
+	N50.9918, E7.3138
+	N50.7835, E7.5942
+#DK034, DK035, DK036, DK037, COL
+
+route 4 =
+	POD8B, podip eight bravo
+	N50.8860, E7.1215
+	N50.9348, E7.1357
+	N50.9705, E7.2403
+	N50.9918, E7.3138
+	N51.0250, E7.4135
+	N50.9453, E7.8172
+#DK034, DK035, DK036, DK037, DK038, PODIP
+
+route 5 =
+	KUM9B, kumik niner bravo
+	N50.8860, E7.1215
+	N50.9348, E7.1357
+	N50.9705, E7.2403
+	N50.9918, E7.3138
+	N51.0250, E7.4135
+	N50.9453, E7.8172
+	N50.8390, E8.0735
+#DK034, DK035, DK036, DK037, DK038, PODIP, KUMIK
+
+[approach1]
+runway = rwy2
+beacon = GULKO
+route 1 =
+	320
+	N50.7536, E7.9370
+	N50.9817, E7.4308
+	N51.0484, E7.2800
+	N51.0662, E7.1840, 0, 220
+	N51.0970, E7.0045
+	N51.0853, E6.9005
+	N51.0353, E6.9045
+	11, 3000, 200
+#GULKO, DK428, WYP, DK417(220-), DK416, DK415, DK455
+
+[approach2]
+runway = rwy2
+beacon = KOPAG
+route1 =
+	270
+	N51.0677, E7.8090
+	N51.0558, E7.4642
+	N51.0484, E7.2800
+	N51.0662, E7.1840, 0, 220
+	N51.0970, E7.0045
+	N51.0853, E6.9005
+	N51.0353, E6.9045
+	11, 3000, 200
+#KOPAG, DK418, WYP, DK417(220-), DK416, DK415, DK455
+
+[approach3]
+runway = rwy2
+beacon = DEPOK
+route1 =
+	080
+	N50.7137, E6.8613
+	N50.9675, E6.7875, 0, 220
+	N51.0353, E6.9045
+	11, 3000, 200
+#DEPOK, DK495(220-), DK455
+
+[approach4]
+runway = rwy2, rev
+beacon = GULKO
+route1=
+	320
+	N50.7536, E7.9370
+	N50.7265, E7.7508, 0, 220
+	N50.6948, E7.5468
+	N50.6820, E7.4705
+	N50.6961, E7.3943
+	11, 3000, 200
+#GULKO, DK627(220-), DK616, DK615, DK654
+
+[approach5]
+runway = rwy2, rev
+beacon = KOPAG
+route1 =
+	270
+	N51.0677, E7.8090
+	N50.8162, E7.6322, 0, 220
+	N50.6948, E7.5468
+	N50.6820, E7.4705
+	N50.6961, E7.3943
+	11, 3000, 200
+#KOPAG, DK617(220-), DK616, DK615, DK654
+
+[approach6]
+runway = rwy2, rev
+beacon = DEPOK
+route1 =
+	080
+	N50.7137, E6.8613
+	N50.6292, E7.2785, 0, 220
+	N50.6961, E7.3943
+	11, 3000, 200
+#DEPOK, DK694, DK654
+
+[approach7]
+runway = rwy1, rev
+beacon = GULKO
+route1 =
+	180
+	N50.7536, E7.9370
+	N50.8737, E7.7375, 0, 220
+	N50.98783, E7.54500
+	N50.95333, E7.42600
+	11, 3000, 220
+#GULKO, DK527(220-), DK515, DK554
+
+[approach8]
+runway = rwy1, rev
+beacon = KOPAG
+route 1 =
+	090
+	N51.0677, E7.8090
+	N50.98783, E7.54500
+	N50.95333, E7.42600
+	11, 3000, 220
+#KOPAG, DK515, DK554
+
+[configurations]
+
+config1 =
+	0, rwy2, landstart
+#14L single
+
+config2 =
+	0, rwy2, landstartrev
+#32R single
+
+config3 =
+	0, rwy2, landstart
+	0, rwy1, landrev
+#ARR 14L/24 DEP24
+
+config4 =
+	0, rwy2, landstartrev
+	0, rwy1, landrev
+#ARR 32R/24 DEP32R
