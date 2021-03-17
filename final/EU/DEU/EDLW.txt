@@ -1,0 +1,531 @@
+[airspace]
+zoom = 2.5
+elevation = 425
+floor = 3000
+descendaltitude = 11000
+ceiling = 15000
+above = 24000
+transitionaltitude = 5500
+usa = false
+metric = fasle
+separation = 3
+center = N51.605833, E8.16167 
+magneticvar = 0.106
+
+boundary =
+	N51.99450, E6.81517
+	N51.92733, E6.78683
+	N51.68950, E7.44417
+	N51.51833, E7.30500
+	N51.42483, E7.34250
+	N51.31500, E7.45967
+	N51.14133, E7.82733
+	N50.87467, E8.11350
+	N50.92067, E8.30300
+	N51.01833, E8.59283
+	N51.33450, E8.88500
+	N51.47417, E8.86150
+	N51.57583, E9.00433
+	N51.80567, E9.00167
+	N51.80567, E8.86017
+	N51.90417, E8.86017
+	N52.13650, E8.79433
+	N52.13650, E8.59383
+	N52.29467, E8.52233
+	N52.32417, E8.36483
+	N52.32417, E7.86167
+	N52.26817, E7.53617
+	N52.24133, E7.05283
+	N52.05167, E6.69033
+
+beacons =
+	DOR, N51.52530, E7.63106, 0, Wickede
+	HMM, N51.85690, E7.70829, 0, Hamm
+	GMH, N51.17050, E7.89204, 0, Germinghausen
+	MOD, N52.13800, E7.68724, 0, Munster
+	PAD, N51.62360, E8.63944, 0, Paderborn
+	MYN, N52.15930, E7.79999, 0, Munster
+	OSN, N52.20010, E8.28552, 0, Osnabruck
+	RKN, N52.13320, E6.76388, 0, Rekken
+	WRB, N51.50683, E9.11000, 0, Warburg
+	LW101, N51.47700, E7.49383, 0, limawhiskey101
+	LW102, N51.44050, E7.47900, 0, limawhiskey102
+	LW103, N51.40650, E7.50883, 0, limawhiskey103
+	LW104, N51.38783, E7.52483, 0, limawhiskey104
+	LW105, N51.28617, E7.82617, 0, limawhiskey105
+	LW106, N51.49017, E7.43017, 0, limawhiskey106
+	LW107, N51.55750, E7.37133, 0, limawhiskey107
+	LW108, N51.39417, E7.31417, 0, limawhiskey108
+	LW200, N51.55850, E7.72350, 0, limawhiskey200
+	LW201, N51.56833, E7.74967, 0, limawhiskey201
+	LW202, N51.57900, E7.78083, 0, limawhiskey202
+	LW203, N51.60450, E7.79917, 0, limawhiskey203
+	LW204, N51.63217, E7.75367, 0, limawhiskey204
+	LW205, N51.81017, E7.72500, 0, limawhiskey205
+	LW206, N51.52150, E7.79467, 0, limawhiskey206
+	LW207, N51.50417, E7.78483, 0, limawhiskey207
+	LW208, N51.43367, E7.74283, 0, limawhiskey208
+	LW209, N51.52400, E7.90100, 0, limawhiskey209
+	LW211, N51.40917, E7.44917, 0, limawhiskey211
+	DESOD, N51.41567, E8.08767, 0, desod
+	ARNOP, N51.41567, E8.17650, 0, arnop
+	BAMSU, N51.19083, E7.30717, 0, bamsu
+	DOMEG, N51.71150, E7.58550, -170, domeg
+	NUDGO, N51.41567, E8.43800, 0, nudgo
+	ADEMI, N51.48467, E7.88583, -284, ademi
+	D079J, N51.55550, E7.88583, 0, d079j
+	LP100, N51.64150, E8.68067, 0, limapapa100
+	LP101, N51.65217, E8.70550, 0, limapapa101
+	LP102, N51.71617, E8.68783, 0, limapapa102
+	LP104, N51.65317, E8.77400, 0, limapapa104
+	LP105, N51.76917, E8.32683, 0, limapapa105
+	LP106, N51.70750, E8.63800, 0, limapapa106
+	LP107, N51.67883, E8.58217, 0, limapapa107
+	LP202, N51.50750, E8.53317, 0, limapapa202
+	LP203, N51.71100, E8.14767, 0, limapapa203
+	LP204, N51.58017, E8.53083, 0, limapapa204
+	LP205, N51.57017, E8.50433, 0, limapapa205
+	LP206, N51.51983, E8.49200, 0, limapapa206
+	LP207, N51.53583, E8.42050, 0, limapapa207
+	GISDI, N51.27617, E8.81300, 0, gisdi
+	TINSA, N51.51783, E8.07233, 0, tinsa
+	D078I, N51.63883, E8.82900, 0, d078i
+	D254I, N51.58367, E8.38767, 0, d254i
+	DG022, N52.10550, E7.54283, 0, deltagolf022
+	DG023, N52.12700, E7.64450, 0, deltagolf023
+	DG026, N52.10083, E7.64083, 0, deltagolf026
+	DG027, N52.05733, E7.70267, 0, deltagolf027
+	DG071, N52.14417, E7.72150, 0, deltagolf071
+	DG072, N52.14117, E7.71050, 0, deltagolf071
+	DG073, N52.18267, E7.69383, 0, deltagolf073
+	MOD11, N52.05000, E7.42033, 0, mod11
+	MY270, N52.16617, E7.96933, 0, my270 
+
+[airport1]
+name = Dortmund Airport
+code = EDLW
+runways =
+	LWrwy1, 06, N51.5147, E7.6019, 61.0, 6562, 984, 984, 418
+
+climbaltitude = 5000
+
+entrypoints =
+	040, DOMEG
+	150, ADEMI
+
+airlines =
+	EZY, 1, A319/A320, Easy, n
+	EWG, 6, A319/A320, Eurowings
+	RYR, 8, B738, Ryanair
+	SEH, 1, A20N, Air Crete, s
+	SXS, 2, B738, Sunexpress, s
+	WZZ, 10, A320/A321/A20N/A21N, Wizzair,
+
+[airport2]
+name = Paderborn Lippstadt Airport
+code = LP
+
+runways =
+	LPrwy1, 06, N51.6087, E8.60318, 57.0, 7152, 0, 0, 699
+
+traffic = 3
+
+climbaltitude = 5000
+
+entrypoints =
+	210, PAD
+	340, PAD
+
+airlines =
+	CAI, 1, B738, Correndon, s
+	EWG, 5, A319/A320, Eurowings
+	FHY, 1, A320, Freebird Air, s
+	DLH, 4, CRJ9, Lufthansa, s
+	OHY, 1, A320/A321, Onur Air, s
+	SDR, 5, A319/A320, Sundair
+	PGT, 1, A320/A20N/A21N/B738, Sunturk, s
+	SXS, 2, B738, Sunexpress
+	TUI, 1, B738, Tuifly
+
+[airport3]
+name = Munster Osnabruck Airport
+code = DG
+runways =
+	DGrwy1, 07, N52.1315, E7.67006, 71.0, 7119, 0, 656, 156
+
+traffic = 3
+
+climbaltitude = 5000
+
+entrypoints =
+	190, HMM
+	050, OSN
+
+airlines =
+	CAI, 5, B738, Correndon, s
+	DLH, 2, C525, Lufthansa, n
+	DLH, 3, CRJ9/E190, Lufthansa, s
+	EWG, 2, A319/A320, Eurowings
+	RYR, 2, B738, Ryanair
+	SXS, 4, B738, Sunexpress, s
+	TIX, 1, C525, Matrix
+
+[configurations]
+
+config1 =
+	0, LWrwy1, landstart
+	0, LPrwy1, landstart
+	0, DGrwy1, landstart
+
+config2 =
+	0, LWrwy1, landstartrev
+	0, LPrwy1, landstart
+	0, DGrwy1, landstart
+
+config3 =
+	0, LWrwy1, landstartrev
+	0, LPrwy1, landstartrev
+	0, DGrwy1, landstartrev
+
+config4 =
+	0, LWrwy1, landstart
+	0, LPrwy1, landstartrev
+	0, DGrwy1, landstartrev
+
+config5 =
+	0, LWrwy1, landstart
+	0, LPrwy1, landstart
+	0, DGrwy1, landstartrev
+
+config6 =
+	0, LWrwy1, landstart
+	0, LPrwy1, landstartrev
+	0, DGrwy1, landstart
+
+config7=
+	0, LWrwy1, landstartrev
+	0, LPrwy1, landstartrev
+	0, DGrwy1, landstart
+
+config8=
+	0, LWrwy1, landstartrev
+	0, LPrwy1, landstartrev
+	0, DGrwy1, landstart
+
+[departure 1]
+runway = LWrwy1
+
+route1 =
+	BAM2Q, bamsu two quebec
+	N51.55850, E7.72350
+	N51.52150, E7.79467
+	N51.50417, E7.78483
+	N51.40917, E7.44917
+	N51.19083, E7.30717
+#LW200, LW206, LW207, LW211, BAMSU
+
+route2 = 
+	GMH8Q, germinghausen eight quebec
+	N51.55850, E7.72350
+	N51.52150, E7.79467
+	N51.50417, E7.78483
+	N51.43367, E7.74283
+	N51.17050, E7.89204
+#LW200, LW206, LW207, LW208, GMH
+
+route3 =
+	NUD3Q, nudgo three quebec
+	N51.56833, E7.74967
+	N51.52400, E7.90100
+	N51.41567, E8.08767
+	N51.41567, E8.17650
+	N51.41567, E8.43800
+#LW201, LW209, DESOD, ARNOP, NUDGO
+
+route4 =
+	OSN8Q, osnabruck eight quebec
+	N51.57900, E7.78083
+	N51.60450, E7.79917
+	N51.81017, E7.72500
+	N52.20010, E8.28552
+#LW202, LW203, LW205, OSN
+
+route 5 =
+	HMM7Q, hamm seven quebec
+	N51.57900, E7.78083
+	N51.60450, E7.79917
+	N51.81017, E7.72500
+	N51.85690, E7.70829
+#LW202, LW203, LW205, HMM
+
+route 6 =
+	DOM3Q, domeg three quebec
+	N51.57900, E7.78083
+	N51.60450, E7.79917
+	N51.63217, E7.75367
+	N51.71150, E7.58550
+#LW202, LW203, LW204, DOMEG
+
+[departures2]
+runway = LWrwy1, rev
+
+route1 =
+	BAM2U, bamsu two uniform
+	N51.47700, E7.49383
+	N51.39417, E7.31417
+	N51.19083, E7.30717
+#LW101, LW108, BAMSU
+
+route2 =
+	GMH1U, germinghausen one uniform
+	N51.47700, E7.49383
+	N51.44050, E7.47900
+	N51.40650, E7.50883
+	N51.28617, E7.82617
+	N51.17050, E7.89204
+#LW101, LW102, LW103, LW105, GMH
+
+route3 =
+	NUD2U, nudgo two uniform
+	N51.47700, E7.49383
+	N51.44050, E7.47900
+	N51.40650, E7.50883
+	N51.38783, E7.52483
+	N51.41567, E8.17650
+	N51.41567, E8.43800
+#LW101, LW102, LW103, LW104, ARNOP, NUDGO
+
+route4 =
+	OSN2U, osnabruck two uniform
+	N51.47700, E7.49383
+	N51.49017, E7.43017
+	N51.55750, E7.37133
+	N51.71150, E7.58550
+	N52.20010, E8.28552
+#LW101, LW106, LW107, DOMEG, OSN
+
+route5 =
+	HMM1U, hamm one uniform
+	N51.47700, E7.49383
+	N51.49017, E7.43017
+	N51.55750, E7.37133
+	N51.71150, E7.58550
+	N51.85690, E7.70829
+#LW101, LW106, LW107, DOMEG, HMM
+
+route6 =
+	DOM2U, domeg two uniform
+	N51.47700, E7.49383
+	N51.49017, E7.43017
+	N51.55750, E7.37133
+	N51.71150, E7.58550
+#LW101, LW106, LW107, DOMEG
+
+[departures3]
+runway = LPrwy1
+
+route1 =
+	TIN1X, tinsa one x-ray
+	N51.65217, E8.70550
+	N51.70750, E8.63800
+	N51.67883, E8.58217
+	N51.51783, E8.07233
+#LP101, LP106, LP107, TINSA
+
+route 2 =
+	DOM4X, domeg four x-ray
+	N51.65217, E8.70550
+	N51.71617, E8.68783
+	N51.76917, E8.32683
+	N51.71150, E7.58550
+#LP101, LP102, LP105, DOMEG
+
+route3 =
+	HMM9X, hamm niner x-ray
+	N51.65217, E8.70550
+	N51.71617, E8.68783
+	N51.85690, E7.70829
+#LP101, LP102, HMM
+
+route4 =
+	WRB1X, warburg one x-ray
+	N51.64150, E8.68067
+	N51.65317, E8.77400
+	N51.50683, E9.11000
+#LP100, LP104, WRB
+
+route5 =
+	GIS1X, gisdi one x-ray
+	N51.64150, E8.68067
+	N51.65317, E8.77400
+	N51.27617, E8.81300
+#LP100, LP104, GISDI
+
+[departures4]
+runway = LPrwy1, rev
+
+route1 =
+	TIN1W, tinsa one whiskey
+	N51.58017, E8.53083
+	N51.53583, E8.42050
+	N51.51783, E8.07233
+#LP204, LP207, TINSA
+
+route2 =
+	DOM5W, domeg five whiskey
+	N51.58017, E8.53083
+	N51.71100, E8.14767
+	N51.71150, E7.58550
+#LP204, LP203, DOMEG
+
+route3 =
+	HMM8W, hamm eight whiskey
+	N51.58017, E8.53083
+	N51.85690, E7.70829
+#LP204, HMM
+
+route4 =
+	WRB1W, warburg one whiskey
+	N51.58017, E8.53083
+	N51.57017, E8.50433
+	N51.51983, E8.49200
+	N51.50750, E8.53317
+	N51.50683, E9.11000
+#LP204, LP205, LP206, LP202, WRB
+
+route5 =
+	GIS1W, gisdi one whiskey
+	N51.58017, E8.53083
+	N51.57017, E8.50433
+	N51.51983, E8.49200
+	N51.27617, E8.81300
+#LP204, LP205, LP206, GISDI
+
+[departures5]
+runway = DGrwy1
+
+route1 =
+	RKN9Y, rekken niner yankee
+	N52.14117, E7.71050
+	N52.18267, E7.69383
+	N52.13320, E6.76388
+#DG072, DG073, RKN
+
+route2 =
+	OSN9E, osnabruck niner echo
+	N52.15930, E7.79999
+	N52.20010, E8.28552
+#MYN, OSN
+
+route3 =
+	HMM3Y, hamm three yankee
+	N52.14417, E7.72150
+	N51.85690, E7.70829
+#DG071, HMM
+
+route4 =
+	DOM2Y, domeg two yankee
+	N52.14417, E7.72150
+	N51.71150, E7.58550
+#DG071, DOMEG
+
+[departures6]
+runway = DGrwy1, rev
+
+route1 =
+	RKN1C, rekken one charlie
+	N52.10550, E7.54283
+	N52.13320, E6.76388
+#DG022, RKN
+
+route2 =
+	OSN9X, osnabruck niner x-ray
+	N52.12700, E7.64450
+	N52.10083, E7.64083
+	N52.05733, E7.70267
+	N52.20010, E8.28552
+#DG023, DG026, DG027, OSN
+
+route3 =
+	HMM1Z, hamm one zulu
+	N52.12700, E7.64450
+	N51.85690, E7.70829
+#DG023, HMM
+
+route4 =
+	DOM2Z, domeg two zulu
+	N52.12700, E7.64450
+	N51.71150, E7.58550
+#DG023, DOMEG
+
+[approach1]
+runway = LWrwy1
+beacon = DOR
+route1 =
+	218
+	N51.52530, E7.63106, 0, 200
+	N51.40917, E7.44917, 0, 160
+	7.5, 2500, 160
+
+[approach2]
+runway = LWrwy1, rev
+beacon = DOR
+route1 =
+	079
+	N51.52530, E7.63106, 0, 200
+	N51.55550, E7.88583, 0, 160
+	7.5, 2500, 160
+
+[approach3]
+runway = LPrwy1
+beacon = PAD
+route1 = 
+	254
+	N51.62360, E8.63944, 0, 200
+	N51.58367, E8.38767, 0, 180
+	7, 2500, 180
+
+[approach4]
+runway = LPrwy2
+beacon = PAD
+route1 =
+	078
+	N51.62360, E8.63944, 0, 200
+	N51.63883, E8.82900, 0, 180
+	7, 2500, 180
+
+[approach5]
+runway = DGrwy1
+beacon = HMM
+route1 =
+	312
+	N51.85690, E7.70829
+	N52.05000, E7.42033, 0, 180
+	9, 2500, 180
+
+[approach6]
+runway = DGrwy1
+beacon = OSN
+route1 =
+	251
+	N52.20010, E8.28552
+	N52.05733, E7.70267, 0, 220
+	N52.05000, E7.42033, 0, 180
+	9, 2500, 180
+
+[approach7]
+runway = DGrwy1, rev
+beacon = HMM
+route1 =
+	032
+	N51.85690, E7.70829
+	N52.16617, E7.96933, 0, 180
+	9, 2500, 180
+
+[approac8]
+runway = DGrwy1, rev
+beacon = OSN
+route1 =
+	267
+	N52.20010, E8.28552
+	9.5, 3000, 180
