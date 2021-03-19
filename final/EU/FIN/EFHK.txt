@@ -1860,6 +1860,65 @@ route1 =
 	8.6, 2000, 220
 # MILLI
 
+############
+# INTOR 5V #
+############
+
+[approach88]
+runway = rwy1, rev
+beacon = INTOR
+route1 = 
+	014
+	N59.82333, E25.18533
+	N59.90250, E25.25100
+	N60.22383, E25.19300
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	8.6, 2000, 220
+# INTOR, BALTI, HK944, HK946, NOFOX
+
+[approach89]
+runway = rwy1, eva
+beacon = BALTI, N59.90250, E25.25100
+route1 = 
+	014
+	N59.90250, E25.25100
+	N60.22383, E25.19300
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	8.6, 2000, 220
+# BALTI, HK944, HK946, NOFOX
+
+[approach90]
+runway = rwy1, rev
+beacon = HK944, N60.22383, E25.19300
+route1 = 
+	346
+	N60.22383, E25.19300
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	8.6, 2000, 220
+# HK944, HK946, NOFOX
+
+[approach91]
+runway = rwy1, rev
+beacon = HK946, N60.30683, E25.18483
+route1 = 
+	346
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	8.6, 2000, 220
+# HK946, NOFOX
+
+[approach92]
+runway = rwy1, rev
+beacon = NOFOX, N60.35333, E25.27650
+route1 = 
+	038
+	N60.35333, E25.27650
+	8.6, 2000, 220
+# NOFOX
+
 
 ##############################################################
 [configurations]
