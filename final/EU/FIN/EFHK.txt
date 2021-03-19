@@ -21,6 +21,13 @@ beacons =
 	PERHO, N60.49322, E25.31767, PERHO
 	MEHAK, N60.42231, E25.15233, MEHAK
 	OBONU, N60.15527, E25.13695, OBONU
+	DIVAM, N59.84233, E23.58950, 058, DIVAM
+	LAKUT, N60.43616, E23.87250, -069, LAKUT
+	LUSEP, N60.95133, E25.25883, -172, LUSEP
+	VEPIN, N60.62550, E26.32650, -227, VEPIN 
+	ROPAM, N60.12650, E25.60100, 293, ROPAM 
+	INTOR, N59.82333, E25.18533, 015, INTOR
+
 
 boundary =
 	N59.70083, E23.99200
@@ -139,6 +146,7 @@ runways =
 	rwy1, 04L, N60.3129, E24.9039, 48.0, 10039, 0, 196, 133
 	rwy2, 04R, N60.3098, E24.9332, 48.0, 11286, 787, 0, 150
 	rwy3, 15, N60.3303, E24.9645, 154.1, 9518, 0, 0, 162
+
 climbaltitude = 4000
 sids =
 	ADIVO, N60.29183, E23.97550, Adivo
@@ -671,7 +679,7 @@ route10 =
 
 [approach1]
 runway = rwy1
-beacon = ROPAM, N60.12650, E25.60100, -293
+beacon = ROPAM
 route1 =
 	293
 	N60.12650, E25.60100
@@ -718,7 +726,7 @@ route1 =
 
 [approach5]
 runway = rwy1
-beacon = VEPIN, N60.62550, E26.32650, -227
+beacon = VEPIN
 route1 = 
 	227
 	N60.62550, E26.32650
@@ -764,7 +772,7 @@ route1 =
 
 [approach8]
 runway = rwy1
-beacon = INTOR, N59.82333, E25.18533, -014
+beacon = INTOR
 route1 = 
 	014
 	N59.82333, E25.18533
@@ -822,7 +830,7 @@ route1 =
 
 [approach12]
 runway = rwy1
-beacon = DIVAM, N59.84233, E23.58950, -058
+beacon = DIVAM
 route1 = 
 	058
 	N59.84233, E23.58950
@@ -915,7 +923,7 @@ route1 =
 
 [approach19]
 runway = rwy1
-beacon = LAKUT, N60.43616, E23.87250, -069
+beacon = LAKUT
 route1 = 
 	069
 	N60.43616, E23.87250
@@ -1033,7 +1041,7 @@ route2 =
 
 [approach26]
 runway = rwy1
-beacon = LUSEP, N60.95133, E25.25883, -172
+beacon = LUSEP
 route1 = 
 	172
 	N60.95133, E25.25883
@@ -1093,7 +1101,7 @@ route1 =
 
 [approach30]
 runway = rwy2
-beacon = DIVAM, N59.84233, E23.58950, 058
+beacon = DIVAM
 route1 = 
 	058
 	N59.84233, E23.58950
@@ -1139,7 +1147,7 @@ route1 =
 
 [approach34]
 runway = rwy2
-beacon = INTOR, N59.82333, E25.18533, 014
+beacon = INTOR
 route1 =
 	014
 	N59.82333, E25.18533
@@ -1226,7 +1234,7 @@ route1 =
 
 [approach41]
 runway = rwy2
-beacon = ROPAM, N60.12650, E25.60100, 293
+beacon = ROPAM
 route1 = 
 	293
 	N60.12650, E25.60100
@@ -1256,7 +1264,7 @@ route1 =
 
 [approach43]
 runway = rwy2
-beacon = VEPIN, N60.62550, E26.32650, -227
+beacon = VEPIN
 route1 = 
 	227
 	N60.62550, E26.32650
@@ -1303,7 +1311,7 @@ route1 =
 
 [approach46]
 runway = rwy2
-beacon = LUSEP, N60.95133, E25.25883, -172
+beacon = LUSEP
 route1 = 
 	172
 	N60.95133, E25.25883
@@ -1392,7 +1400,7 @@ route1 =
 
 [approach53]
 runway = rwy2
-beacon = LAKUT, N60.43616, E23.87250, -069
+beacon = LAKUT
 route1 = 
 	069
 	N60.43616, E23.87250
@@ -1455,7 +1463,7 @@ route1 =
 
 [approach57]
 runway = rwy3
-beacon = DIVAM, N59.84233, E23.58950, 058
+beacon = DIVAM
 route1 = 
 	058	
 	N59.84233, E23.58950
@@ -1543,7 +1551,7 @@ route1 =
 
 [approach64]
 runway = rwy3
-beacon = INTOR, N59.82333, E25.18533, 014
+beacon = INTOR
 route1 = 
 	014
 	N59.82333, E25.18533
@@ -1602,7 +1610,7 @@ route1 =
 
 [approach68]
 runway = rwy3
-beacon = ROPAM, N60.12650, E25.60100, 293
+beacon = ROPAM
 route1 = 
 	293
 	N60.12650, E25.60100
@@ -1619,7 +1627,7 @@ route1 =
 
 [approach69]
 runway = rwy3
-beacon = VEPIN, N60.62550, E26.32650, -227
+beacon = VEPIN
 route1 = 
 	227
 	N60.62550, E26.32650
@@ -1660,7 +1668,7 @@ route1 =
 
 [approach72]
 runway = rwy3
-beacon = LUSEP, N60.95133, E25.25883, -172
+beacon = LUSEP
 route1 = 
 	172
 	N60.95133, E25.25883
@@ -1719,7 +1727,7 @@ route 1 =
 
 [approach77]
 runway = rwy3
-beacon = LAKUT, N60.43616, E23.87250, -069
+beacon = LAKUT
 route1 = 
 	069
 	N60.43616, E23.87250
@@ -1758,7 +1766,6 @@ route1 =
 	N60.46933, E24.45700
 	8.7, 2000, 220
 # HELPO
-
 
 
 ##############################################################
