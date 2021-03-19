@@ -1919,6 +1919,54 @@ route1 =
 	8.6, 2000, 220
 # NOFOX
 
+############
+# ROPAM 4V #
+############
+
+[approach93]
+runway = rwy1, rev
+beacon = ROPAM
+route1 = 
+	293
+	N60.12650, E25.60100
+	N60.22383, E25.19300
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	8.6, 2000, 220
+# ROPAM, HK944, HK946, NOFOX
+
+[approach94]
+runway = rwy1, rev
+beacon = HK944, N60.22383, E25.19300
+route1 = 
+	286
+	N60.22383, E25.19300
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	8.6, 2000, 220
+# HK944, HK946, NOFOX
+
+[approach95]
+runway = rwy1, rev
+beacon = HK946, N60.30683, E25.18483
+route1 = 
+	346
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	8.6, 2000, 220
+# HK946, NOFOX
+
+[approach96]
+runway = rwy1, rev
+beacon = NOFOX, N60.35333, E25.27650
+route1 = 
+	038
+	N60.35333, E25.27650
+	8.6, 2000, 220
+#NOFOX
+
+
+
 
 ##############################################################
 [configurations]
