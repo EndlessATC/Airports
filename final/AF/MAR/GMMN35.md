@@ -9,17 +9,11 @@ At GMMN either 35R or 35L for landings and either 35R or 35L for departures
 ils platform altitude is 3600-4000ft at GMMN
 AT GMME  runway 21 for both arrivals and departures
 
-.
-
 The initial climb at GMMN is FL50 or 5000ft depending on qnh
 
 Airspace from 2000-FL195
 
 On initial contact, arriving aircraft should be cleared for the arrival.
-
-
-
-
 
 ---------------------------------------------------------
 ---------------------------------------------------------
