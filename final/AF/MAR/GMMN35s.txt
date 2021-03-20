@@ -308,51 +308,51 @@ points =
 
 [departure1]
 runway = GMMNN,rev
-route1 = LAKAM1D, LAKAM
+route1 = LAKAM1D, LAKAM one delta
 	N33.5845944, W007.8968194
 	N34.1872222, W007.7383333
 [departure2]
 runway = GMMNS,rev
-route1 = LAKAM3D, LAKAM
+route1 = LAKAM3D, LAKAM three delta
 	N33.5845944, W007.8968194
 	N34.1872222, W007.7383333
 [departure3]
 runway = GMMNS,rev
-route = TOLSI3D, TOLSI
+route = TOLSI3D, TOLSI three delta
 	N33.5646722, W07.4206278
 	N33.8407222, W07.3676278
 	N34.1166667, W07.3144444
 	N34.6005556, W007.0150000
 [departure4]
 runway = GMMNN,rev
-route = TOLSI1D, TOLSI
+route = TOLSI1D, TOLSI one delta
 	N33.5646722, W07.4206278
 	N33.8407222, W07.3676278
 	N34.1166667, W07.3144444
 	N34.6005556, W007.0150000
 [departure5]
 runway = GMMNS,rev
-route = SADIC3D, SADIC
+route = SADIC3D, SADIC three delta
 	N33.5646722, W07.4206278
 	N33.6472222, W06.8936111
 	N33.7339306, W06.3332194
 [departure6]
 runway = GMMNN,rev
-route = SADIC1D, SADIC
+route = SADIC1D, SADIC one delta
 	N33.5646722, W07.4206278
 	N33.6472222, W06.8936111
 	N33.7339306, W06.3332194
 
 [departure7]
 runway = GMMNN,rev
-route = NIKZO1D, NIKZO
+route = NIKZO1D, NIKZO one delta
 	N33.3483333, W007.8375000
 	N32.93360, W8.06500
 	N32.7273750, W008.1614444
 
 [departure8]
 runway = GMMNS,rev
-route = NIKZO3D, NIKZO
+route = NIKZO3D, NIKZO three delta
 	N33.3483333, W007.8375000
 
 	N32.93360, W8.06500
@@ -360,22 +360,22 @@ route = NIKZO3D, NIKZO
 
 [departure9]
 runway = GMMNS,rev
-route1 = ODAXA3D, ODAXA
+route1 = ODAXA3D, ODAXA three delta
 	N33.5845944, W007.8968194
 	N33.9938889, W008.2422222
 [departure10]
 runway = GMMNS,rev
-route1 = ODAXA1D, ODAXA
+route1 = ODAXA1D, ODAXA one delta
 	N33.5845944, W007.8968194
 	N33.9938889, W008.2422222
 
 [departure11]
 runway = GMMNN,rev
-route = RAVOL1D, RAVOL
+route = RAVOL1D, RAVOL one delta
 	N33.5188889, W008.4747222
 [departure12]
 runway = GMMNS,rev
-route = RAVOL3D, RAVOL
+route = RAVOL3D, RAVOL three delta
 	N33.5188889, W008.4747222
 [transition1]
 runway = GMMNN, rev
