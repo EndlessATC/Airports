@@ -2245,6 +2245,54 @@ route1 =
 # ROPAM, HK943, HK891, VEMMI, KENON
 # REST OF ARRIVAL DONE WITH INTOR 5A and DIVAM 4A
 
+
+############
+# VEPIN 4A #
+############
+
+[approach119]
+runway = rwy2, rev
+beacon = VEPIN
+route1 = 
+	227
+	N60.62550, E26.32650
+	N60.57166, E25.98400
+	N60.45316, E25.71716
+	N60.38600, E25.56800
+	11.9, 3000, 220
+# VEPIN, MAMOP, HK956, ARADE
+
+[approach120]
+runway = rwy2, rev
+beacon = MAMOP, N60.57166, E25.98400
+route1 = 
+	243
+	N60.57166, E25.98400
+	N60.45316, E25.71716
+	N60.38600, E25.56800
+	11.9, 3000, 220
+# MAMOP, HK956, ARADE
+
+[approach121]
+runway = rwy2, rev
+beacon = HK956, N60.45316, E25.71716
+route1 = 
+	219
+	N60.45316, E25.71716
+	N60.38600, E25.56800
+	11.9, 3000, 220
+# HK956, ARADE
+
+[approach122]
+runway = rwy2, rev
+beacon = ARADE, N60.38600, E25.56800
+route1 = 
+	218
+	N60.38600, E25.56800
+	11.9, 3000, 220
+# ARADE
+
+
 ##############################################################
 [configurations]
 ##############################################################
