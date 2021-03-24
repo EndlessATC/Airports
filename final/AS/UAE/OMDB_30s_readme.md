@@ -1,10 +1,13 @@
-Endless ATC Dubai CTA v1.2 by Zac Kaplowitz
+Endless ATC Dubai CTA v1.3 by Zac Kaplowitz
 
 AIRAC 2102
 
-v1.2 covers the Dubai CTA (OMDB, OMSJ, OMDW) in the 30 configuration. The 12 configuration will be released as a separate file. The Minhad restricted airspace is not yet included.
+v1.3 covers the Dubai CTA (OMDB, OMSJ, OMDW) in the 30 configuration. The Minhad restricted airspace is not yet included.
 
-At OMDB, 30L is for arrivals, 30R is for departures. The platform altitude for 30L is 2000 feet. The platform altitude for 30R is 3000 feet. 
+At OMDB, 30L is for arrivals, 30R is for departures. The platform altitude for 30L is 2000 feet. The platform altitude for 30R is 3000 feet. These altitudes must be used for glideslope intercept.
+
+Aircraft should never fly the full STAR unless traffic necessitates it. Vectors should be used from the downwind leg to expedite the flow of traffic. A 90 degree base leg and a 30 degree ILS intercept must be used.
+
 D-APO is implemented at OMDB. With skill set to 12 or above, 30R will open for arrivals as well as departures. 30R arrivals must still maintain separation from 30L arrivals and must establish at 3000 feet.
 For the purposes of separation, the 30L and 30R localisers are considered to be the same localiser.
 
@@ -21,9 +24,11 @@ On initial contact, arriving aircraft should be cleared for the arrival.
 The minimum separation in the CTA is 3nm. The minimum separation on the localiser at OMDB is 2.5nm. Aircraft on the same SID must be handed off to UAE Radar with at least 8nm in trail.
 Aircraft entering the Muscat FIR via the same SID (any ANVIX departure, OMDB IVURO departures, OMDW NOLSU departures, OMSJ GETID departures) must be separated by 20nm on CTA exit.
 
-Even altitudes are used for arrivals and odd altitudes for departures. This is ignored below 4000ft, as 3000ft is used to separate arrivals more efficiently. 
+In general altitudes are used for arrivals and odd altitudes for departures. This is ignored below 4000ft, as 3000ft is used to separate arrivals more efficiently. 
 
-
+Realistic traffic config:
+Skill 7, cap 9
+Flow 30, cap 30
 
 ---------------------------------------------------------
 ---------------------------------------------------------
@@ -362,3 +367,5 @@ v1.0 - 11/03/2021 - Initial release
 v1.1 - 11/03/2021 - Added D-APO, fixed callsign pronunciations, reduced frequency of DAVMO and IVURO departures, fixed auto-descent bug
 
 v1.2 - 17/03/2021 - Added OMSJ and OMDW, adjusted OMDB departure proportions, modified MRVAs to allow for OMSJ and OMDW, modified readme climb instruction to reflect real world procedures for deconfliction of traffic to different airports in the CTA
+
+v1.3 - 24/03/2021 - Fixed KUTLI3L departure, other minor fixes
