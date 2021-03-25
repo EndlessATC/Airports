@@ -95,12 +95,11 @@ boundary =
 	N38.25,E120
 	N39.5,E119.84
 	N39.9,E119.35
-
 [airport1]
 name = Zhoushuizi Airport
 code = ZYTL
 runways =
-	rwy1, 10,N38.9590, E121.5260,96,10826.92, 0,0,105.11,3.5 ,125
+	rwy1, 10,N38.968, E121.533,96,10826.92, 0,0,100,3.5 ,92.5
 sids=
 	CHI
 	SANKO
@@ -121,6 +120,251 @@ airlines =
 	HXA,21,e195,China Express
 	CCD,11,b738,Xiang jian
 	CSZ,12,b738,Shen zhen
+
+[area1]
+shape = polygon		
+altitude =46000
+name = ZY(R)611	
+labelpos = 95.85,31.09
+points =
+	N40.6667,E123.9167
+	N40,E124.0833
+	N39,E123.1667
+	N39.1667,E122.8
+	N40.667,E123.9167
+
+[area2]
+shape = polygon		
+altitude = 46000
+name = ZY(R)612		
+labelpos = -59.83, 13.23 
+points =
+	N38.7833,E121
+	N38.9333,E120
+	N40,E120.9167
+	N40,E121.5
+	N38.7833,E121
+[area3]
+shape = polygon		
+altitude = 0
+name =D607	
+labelpos =-6.77, 3.28
+points =
+	N39.0383,E121.4917
+	N39.0417,E121.3667
+	N38.9333,E121.3083
+[area4]
+shape = polygon		
+altitude = 1522
+name=Microwave TWR
+labelpos =-7.70, -2.63
+points =
+	-6.61, -1.01
+	-7.89, -1.70
+	-8.76, -1.59
+	-9.04, -2.84 
+	-8.14, -3.29 
+	-6.92, -4.51
+	-6.92, -5.03 
+	-6.44, -4.19
+	-7.17, -3.64 
+	-7.1, -2.67
+	-6.02, -1.91 
+[area5]
+shape =circle	
+altitude =1319
+name =MT
+radius=0.8
+position =-3.13, -4.67 
+labelpos =-3.22, -4.55 
+
+[area6]
+shape = polygon		
+altitude = 0
+name =W575	
+labelpos =-71.70, -14.28
+points =
+	N38.6514,E119.9511
+	N38.5333,E120.1514
+[area7]
+shape = polygon		
+altitude = 0
+name =W575	
+labelpos =-59.16, -20.77
+
+points =
+	N38.5333,E120.1514
+	N38.4681,E120.5172
+[area8]
+shape = polygon		
+altitude = 0
+name =W575	
+labelpos =-36.80, -28.85
+points =
+	N38.4681,E120.5172
+	N38.3692,E121.0839
+[area9]
+shape = polygon		
+altitude = 0
+name =W575	
+labelpos =-15.35, -28.84
+points =
+	N38.3692,E121.0839
+	N38.5514,E121.5019
+
+[area10]
+shape = polygon		
+altitude = 0
+name =W8	
+labelpos =-1.70, -12.79
+points =
+	N38.5514,E121.5019
+	 N38.9522, E121.5675
+[area11]
+shape = polygon		
+altitude = 0
+name =V47	
+labelpos =-70.57, -4.94
+points =
+	N38.6514,E119.9511
+	N38.8192,E120.1522
+[area12]
+shape = polygon		
+altitude = 0
+name =W578	
+labelpos =-25.38, -27.31
+points =
+	N38.25,E120.7167
+	N38.535,E121.2167
+[area13]
+shape = polygon		
+altitude = 0
+name =W578	
+labelpos =-7.01, -10.54
+points =
+	N38.535,E121.2167
+	N38.9522, E121.5675
+[area14]
+shape = polygon		
+altitude = 0
+name =W173	
+labelpos =-28.40, -35.71
+points =
+	N38.25,E120.9842
+	N38.3692,E121.0839
+[area15]
+shape = polygon		
+altitude = 0
+name =A326	
+labelpos =-40.41, -21.89 
+points =
+	N38.6514,E119.9511
+	N38.4022,E121.4514
+[area16]
+shape = polygon		
+altitude = 0
+name =W8	
+labelpos =-19.29, -35.58
+points =
+	N38.25,E120.9842
+	N38.4022,E121.4514
+[area17]
+shape = polygon		
+altitude = 0
+name =W8	
+labelpos =-6.67, -29.01
+points =
+	N38.4022,E121.4514
+	N38.5514,E121.5019
+[area18]
+shape = polygon		
+altitude = 0
+name =A326	
+labelpos =12.51, -40.15 
+points =
+	N38.4022,E121.4514
+	N38.2686,E122.2503
+[area19]
+shape = polygon		
+altitude = 0
+name =W577	
+labelpos =17.43, -26.89 
+points =
+	N38.2686,E122.2503
+	N38.9522, E121.5675
+[area20]
+shape = polygon		
+altitude = 0
+name =A326	
+labelpos =33.81, -47.00 
+points =
+	N38.2686,E122.2503
+	N38.25,E122.4506
+[area21]
+shape = polygon		
+altitude = 0
+name =W107	
+labelpos =47.06, -7.99 
+points =
+	N38.25,E122.4506
+	N39.2667,E122.6167
+[area22]
+shape = polygon		
+altitude = 0
+name =W579	
+labelpos =36.38, -42.17 
+points =
+	N38.25,E122.4506
+	N38.4014,E122.4019
+[area23]
+shape = polygon		
+altitude = 0
+name =A588	
+labelpos =32.46, -35.79 
+points =
+	N38.25,E122.4506
+	N38.6847,E122.1517
+[area24]
+shape = polygon		
+altitude = 0
+name =W579	
+labelpos =33.08, -32.92
+points =
+	N38.4014,E122.4019
+	N38.6847,E122.1517
+[area25]
+shape = polygon		
+altitude = 0
+name =W579	
+labelpos =20.31, -14.45
+points =
+	N38.6847,E122.1517
+	N38.9522, E121.567
+[area26]
+shape = polygon		
+altitude = 0
+name =W573	
+labelpos =30.08, -6.82 
+points =
+	N38.9522, E121.567
+	N38.9056,E122.3183
+[area27]
+shape = polygon		
+altitude = 0
+name =W576	
+labelpos =-31.26, -19.25
+points =
+	N38.6358,E120.5839
+	N38.535,E121.2167
+[area28]
+shape = polygon		
+altitude = 0
+name =W576	
+labelpos =-55.13, -11.14
+points =
+	N38.6358,E120.5839
+	N38.7017,E120.2011
+
 [departure1]
 runway=rwy1
 route1=
