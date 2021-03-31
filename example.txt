@@ -1,7 +1,7 @@
-# Custom airport file (experimental!)
+# Custom airport file
 # Save a copy of example.txt before editing it, to keep this file as a guide.
 # On Windows, place the txt file in the /locations/ folder of the game.
-# On android (4.4+), place the txt file in /Android/data/com.dirgtrats.endlessatc/files/.
+# On android, place the txt file in /Android/data/com.dirgtrats.endlessatc/files/.
 # Copy, edit and use and share airport files at your own risk!
 
 # This example file has lots of comments (#), to use it as a guide. Uncomment the 'code = ' item in the [airport1] section below to make the airport appear in-game.
@@ -18,9 +18,9 @@
 # [scenario]: optional nonrandom traffic
 
 # Each section can have multiple items, each item with one or more properties. The format/order of properties are explained after a double hashtag (##) in this file.
-# Properties are comma separated. Multi-line properties (lists) must start with a tab or space at the beginning of each line.
+# Properties are comma separated. Multi-line properties (lists) MUST start with a tab or space at the beginning of each line.
 # Properties in this file that are explained between <brackets> are optional properties (do not include the brackets themselves).
-# If the game fails to load a property, or you omit or #comment or zero an (optional) property, a default value may be automatically used instead.
+# If the game fails to load a property, or you omit, #comment or zero an (optional) property, a default value may be automatically used instead.
 # Positions must be given either in x, y coordinates (in nautical miles, NM), with 0, 0 being the center of the screen, and 20.1, 12.82 being somewhere at the top left,
 # or, in latitude, longitude coordinates, which must always start with a N/W/S/E prefix, for example N40.7128, W74.0060 or S049.43.45.000, E002.09.51.000 (DMS notation).
 # Lat/long coordinates (and true headings) are rotated automatically when a magnetic variance is defined; this is to align the radar display with the magnetic north,
@@ -44,11 +44,12 @@ ceiling = 9000 			; maximum selectable altitude
 above = 12000 			; maximum departure altitude when SID is enabled (must be above ceiling)
 transitionaltitude = 18000	; highest altitude displayed in feet instead of flight level
 speedrestriction = 15, 220 	; radius in NM, and speed in knots
+localizerspeed = 30, 200	; distance to touchdown in NM, speed restriction in knots on localizers
 usa = true			; American-style callsign pronunciation and runway names
 metric = false			; display altitudes in metres instead of feet
 separation = 3			; minimum allowed distance between aircraft in NM
 center = N50.1234, E2.0060	; lat/long location of center of radar display (required when using lat/long coordinates elsewhere in this file)
-magneticvar = 2.0		; magnetic variance; east = positive (used to rotate lat/long coordinates if defined below)
+magneticvar = 2.0		; magnetic variance; east = positive (used to rotate lat/long coordinates if used elsewhere in this file)
 
 
 beacons =
@@ -91,8 +92,8 @@ line2 =
 [airport1]
 ##############################################################
 
-name = Example Airport		; name of the main airport
-#code = EXAM			; four letter code, displayed in airport menu (required!)
+name = Example Airport		; name of the main airport, <pronunciation>
+#code = EXAM			; four letter code, displayed in airport menu (required; remove the #)
 
 runways = 
 	rwy1,	36,	-4.3,	3.23,	360.0,	11400,	0,	0,	100,	3,	360.0,	3,	180.0,	YY,	8.0,	ZZ,	8.5
@@ -138,13 +139,14 @@ airlines =
 # direction lets the plane arrive/depart in (roughly) a preferred direction:
 # give the direction as a string containing one or more of the letters nwse, for north west south east,
 # but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
+# note that you can add the same airline multiple times, for example with different planetypes, in order to get different likelihoods per planetype
 
 ##############################################################
 [airport2]
 ##############################################################
 
-name = Secondary Airport	; name of secondary airport
-code = SC			; two letter code, which will be added to the runways and plane tags
+name = Secondary Airport, secondary airport	; name of secondary airport, <pronunciation>
+code = SC					; two letter code, which will be added to the runways and plane tags
 
 runways =
 	rwy2,	06,	6.7,	-3.5,	60.0,	1.88,	0,	0,	100,	3,0,3,0,	WL,	8.0
@@ -252,7 +254,7 @@ route2 =
 # the optional [departure] section adds routes to a specific runway direction
 # this overrides the default (single waypoint) SIDs with more detailed routes, and applies the routes to the specified runway only
 # departing planes from that runway will then follow the one of the routes, unless the user deactivates SID mode
-# re-enabling SID mode will select just the last point of the route
+# re-enabling SID mode (or longpressing SID) will select just the last point of the route
 # defining one or more departure routes disables all the default SID points for that runway; planes will use the given routes only
 # use one [departure] section per runway direction, each with one or more routes
 # [departure] routes are not used in the built-in airports, for simplicity
@@ -271,9 +273,10 @@ route1 =
 	1,	18,	4000
 	-3,	18, 	0,	180
 	10.5,	3000,	200
-# first item of the route is the bearing from the plane towards the beacon; if there are multiple routes defined for this beacon, the closest bearing defines which route is selected
+# first item of the route is the bearing from the plane towards the beacon; if there are multiple routes defined for this beacon, the closest bearing defines which route is selected; but if only one route is given then the bearing can just be a random number
 # next lines are optional waypoints: ## position, <maximum altitude>, <maximum speed>
 # last line is the interception point on the ILS: ## distance (NM) from the (displaced) threshold, <maximum altitude>, <maximum speed>
+# alternatively the last time can be used to end the route before it reaches the ILS (and requiring vectors), using the word end: ## end, <heading>
 
 route2 = 
 	310
@@ -288,6 +291,7 @@ route3 =
 	-3,	18, 	0,	180
 	10.5,	3000,	200
 
+# the optional [approach] section adds route(s) to a specific runway
 # multiple [approach] sections can be used for the same runway, to allow for multiple beacons
 # for easier creation of routes, use left Ctrl key to display current mouse coordinates, and left click while holding down Ctrl places temporary visual markers
 # Longpress the airport name button in the menu to display all routes at once
@@ -301,10 +305,11 @@ types =
 	f200, 5, 140, 230, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, big jet
 	c271, 6, 90, 120, 2.9, 3.2, 1400, 1600, 90, 105, 1.1, 1.2, singleprop
 ## type, category, minspeed, maxspeed, minturnrate, maxturnrate, mindescendrate, maxdescendrate, minfinalapproachspeed, maxfinalapproachspeed, minaccelrate, maxaccelrate, <manufacturer>
-# custom [planetypes] are only needed when using unknown custom types in the airlinelists above (game will show warning on startup), or to override default type properties
+# custom [planetypes] are only needed when using unknown custom types in the airlinelists above (game will show warnings on startup for missing types), or to override default type properties
 # category is the weight category: 1 to 6, meaning superheavy=1, upperheavy, lowerheavy, uppermedium, lowermedium, light=6
 # turnrate is in degrees per second
 # descendrate is in feet per minute
+# approachspeeds in knots
 # accelrate is in knots per second
 # manufacturer name is optional, and only used for private callsign pronunciation in usa mode
 # example of default values for b737, 4, 160, 250, 2.6, 3.0, 1440, 1560, 131, 144, 1.2, 1.3
