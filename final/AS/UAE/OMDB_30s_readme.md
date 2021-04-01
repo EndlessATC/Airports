@@ -1,8 +1,8 @@
-Endless ATC Dubai CTA v1.3 by Zac Kaplowitz
+Endless ATC Dubai CTA v1.4 by Zac Kaplowitz
 
-AIRAC 2102
+AIRAC 2103
 
-v1.3 covers the Dubai CTA (OMDB, OMSJ, OMDW) in the 30 configuration. The Minhad restricted airspace is not yet included.
+v1.4 covers the Dubai CTA (OMDB, OMSJ, OMDW) in the 30 configuration. The Minhad restricted airspace is not yet included.
 
 At OMDB, 30L is for arrivals, 30R is for departures. The platform altitude for 30L is 2000 feet. The platform altitude for 30R is 3000 feet. These altitudes must be used for glideslope intercept.
 
@@ -369,3 +369,5 @@ v1.1 - 11/03/2021 - Added D-APO, fixed callsign pronunciations, reduced frequenc
 v1.2 - 17/03/2021 - Added OMSJ and OMDW, adjusted OMDB departure proportions, modified MRVAs to allow for OMSJ and OMDW, modified readme climb instruction to reflect real world procedures for deconfliction of traffic to different airports in the CTA
 
 v1.3 - 24/03/2021 - Fixed KUTLI3L departure, other minor fixes
+
+v1.4 - 01/04/2021 - Updated to Endless ATC v4.4
