@@ -686,8 +686,7 @@ route1 =
 	N60.26983, E25.09316
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #ROPAM, HK711, HK933, LOHIG
 
 [approach2]
@@ -698,8 +697,7 @@ route1 =
 	N60.26983, E25.09316
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #HK711, HK933, LOHIG
 
 [approach3]
@@ -709,8 +707,7 @@ route1 =
 	218
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #HK933, LOHIG
 
 [approach4]
@@ -719,8 +716,7 @@ beacon = LOHIG, N60.13450, E24.79233, -218
 route1 =
 	218
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #LOHIG
 
 
@@ -739,8 +735,7 @@ route1 =
 	N60.26983, E25.09316
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #VEPIN, MAMOP, HK807, HK711, HK933, LOHIG
 
 
@@ -754,8 +749,7 @@ route1 =
 	N60.26983, E25.09316
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #MAMOP, HK807, HK711, HK933, LOHIG
 
 [approach7]
@@ -767,8 +761,7 @@ route1 =
 	N60.26983, E25.09316
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #HK807, HK711, HK933, LOHIG
 
 ## REST OF THE ARRIVAL IS DONE WITH ROPAM3B
@@ -788,8 +781,7 @@ route1 =
 	N60.13900, E25.09300
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #INTOR, BALTI, HK953, HK938, HK933, LOHIG
 
 [approach9]
@@ -802,8 +794,7 @@ route1 =
 	N60.13900, E25.09300
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #BALTI, HK953, HK938, HK933, LOHIG
 
 [approach10]
@@ -815,8 +806,7 @@ route1 =
 	N60.13900, E25.09300
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #HK953, HK938, HK933, LOHIG
 
 [approach11]
@@ -827,17 +817,16 @@ route1 =
 	N60.13900, E25.09300
 	N60.18600, E24.90783
 	N60.13450, E24.79233
-	N59.79800, E24.06416
-	9.7, 2300, 220
+	end, 218
 #HK938, HK933, LOHIG
 
 ## REST OF THE ARRIVAL IS DONE WITH ROPAM3B
 
 
 
-#######################
-# DIVAM 4B & PEXEN 6B # 
-#######################
+############
+# DIVAM 4B # 
+############
 
 [approach12]
 runway = rwy1
@@ -848,18 +837,9 @@ route1 =
 	N59.90783, E23.72133
 	N59.97466, E24.24200
 	N60.01716, E24.48666
-	N60.16716, E25.42916
-	9.7, 2300, 220
-route2 =
-	058
-	N59.84233, E23.58950
-	N59.90783, E23.72133
-	N60.00000, E23.94216
-	N60.10650, E23.98883
-	N60.20116, E24.18783
-	9.7, 2300, 220
-#R1 DIVAM 4B: DIVAM, PEXEN, HK945, EHOTE
-#R2 PEXEN 6B: DIVAM, PEXEN, HK954, HK955, ROHJA
+	end, 083
+# DIVAM, PEXEN, HK945, EHOTE
+
 
 [approach13]
 runway = rwy1
@@ -869,74 +849,33 @@ route1 =
 	N59.90783, E23.72133
 	N59.97466, E24.24200
 	N60.01716, E24.48666
-	N60.16716, E25.42916
-	9.7, 2300, 220
-route2 =
-	051
-	N59.90783, E23.72133
-	N60.00000, E23.94216
-	N60.10650, E23.98883
-	N60.20116, E24.18783
-	9.7, 2300, 220
-#R1 DIVAM 4B: PEXEN, HK945, EHOTE
-#R2 PEXEN 6B: PEXEN, HK954, HK955, ROHJA
+	end, 063
+# PEXEN, HK945, EHOTE
 
 [approach14]
-runway = rwy1
-beacon = HK954, N60.00000, E23.94216, -026
-route1 = 
-	026
-	N60.00000, E23.94216
-	N60.10650, E23.98883
-	N60.20116, E24.18783
-	9.7, 2300, 220
-#PEXEN 6B: HK954, HK955, ROHJA
-
-[approach15]
-runway = rwy1
-beacon = HK955, N60.10650, E23.98883, -002
-route1 = 
-	002
-	N60.10650, E23.98883
-	N60.20116, E24.18783
-	9.7, 2300, 220
-#PEXEN6B: HK955, ROHJA
-
-[approach16]
-runway = rwy1
-beacon = ROHJA, N60.20116, E24.18783, -038
-route1 = 
-	038
-	N60.20116, E24.18783
-	9.7, 2300, 220
-#PEXEN 6B: ROHJA
-
-[approach17]
 runway = rwy1
 beacon = HK945, N59.97466, E24.24200, -063
 route1 = 
 	063
 	N59.97466, E24.24200
 	N60.01716, E24.48666
-	N60.16716, E25.42916
-	9.7, 2300, 220
-#DIVAM 4B: HK945, EHOTE
+	end, 063
+# HK945, EHOTE
 
-[approach18]
+[approach15]
 runway = rwy1
 beacon = EHOTE, N60.01716, E24.48666, -063
 route1 = 
 	063
 	N60.01716, E24.48666
-	N60.16716, E25.42916
-	9.7, 2300, 220
-#DIVAM 4B: EHOTE
+	end, 063
+# EHOTE
 
-#######################
-# LAKUT 8B & MAROM 6B #
-#######################
+############
+# LAKUT 8B #
+############
 
-[approach19]
+[approach16]
 runway = rwy1
 beacon = LAKUT
 route1 = 
@@ -947,22 +886,11 @@ route1 =
 	N60.37466, E24.59000
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
-route2 = 
-	069
-	N60.43616, E23.87250
-	N60.44200, E24.03950
-	N60.43366, E24.50516
-	N60.34283, E24.52500
-	N60.26683, E24.55383
-	N60.19266, E24.40566
-	N59.93150, E23.82433
-	9.7, 2300, 220
-#R1 LAKUT 8B: LAKUT, MAROM, HK871 HK937, HK932, NEMVI
-#R2 MAROM 6B: LAKUT, MAROM, HK871, HK936, NEMVI, ASPIT
+	end, 218
+# LAKUT, MAROM, HK871, HK937, HK932, NEMVI
 
-[approach20]
+
+[approach17]
 runway = rwy1
 beacon = MAROM, N60.44200, E24.03950, -074
 route1 = 
@@ -972,55 +900,24 @@ route1 =
 	N60.37466, E24.59000
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
-route2 = 
-	074
-	N60.44200, E24.03950
-	N60.43366, E24.50516
-	N60.34283, E24.52500
-	N60.26683, E24.55383
-	N60.19266, E24.40566
-	N59.93150, E23.82433
-	9.7, 2300, 220
-#R1 LAKUT 8B: MAROM, HK871, HK937, HK932, NEMVI
-#R2 MAROM 6B: MAROM, HK871, HK936, NEMVI, ASPIT
+	end, 218
+# MAROM, HK871, HK937, HK932, NEMVI
 
-[approach21]
+
+[approach18]
 runway = rwy1
 beacon = HK871, N60.43366, E24.50516, -084
 route1 = 
 	084
 	N60.43366, E24.50516
-	N60.34283, E24.52500
-	N60.26683, E24.55383
-	N60.19266, E24.40566
-	N59.93150, E23.82433
-	9.7, 2300, 220
-route2 = 
-	084
-	N60.43366, E24.50516
 	N60.37466, E24.59000
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
-#R1 MAROM 6B: HK871, HK936, NEMVI, ASPIT
-#R2 LAKUT 8B: HK871, HK937, HK932, NEMVI
+	end, 218
+# HK871, HK937, HK932, NEMVI
 
-[approach22]
-runway = rwy1
-beacon = HK936, N60.34283, E24.52500, -162
-route1 = 
-	162 
-	N60.34283, E24.52500
-	N60.26683, E24.55383
-	N60.19266, E24.40566
-	N59.93150, E23.82433
-	9.7, 2300, 220
-#MAROM 6B: HK936, NEMVI, ASPIT
 
-[approach23]
+[approach19]
 runway = rwy1
 beacon = HK937, N60.37466, E24.59000, -131
 route1 = 
@@ -1028,44 +925,35 @@ route1 =
 	N60.37466, E24.59000
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
-#LAKUT 8B: HK937, HK932, NEMVI
+	end, 218
+# HK937, HK932, NEMVI
 
-[approach24]
+[approach20]
 runway = rwy1
 beacon = HK932, N60.32216, E24.68416, -131
 route1 =
 	131
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
-#LAKUT 8B: HK932, NEMVI
+	end, 218
+# HK932, NEMVI
 
-[approach25]
+[approach21]
 runway = rwy1
 beacon = NEMVI, N60.26683, E24.55383
 route1 = 
 	218
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
-route2 = 
-	162
-	N60.26683, E24.55383
-	N60.19266, E24.40566
-	N59.93150, E23.82433
-	9.7, 2300, 220
-#R1 LAKUT 8B: NEMVI
-#R2 MAROM 6B: NEMVI, ASPIT
+	end, 218
+# NEMVI
+
 
 ############
 # LUSEP 3B #
 ############
 
 
-[approach26]
+[approach22]
 runway = rwy1
 beacon = LUSEP
 route1 = 
@@ -1076,11 +964,10 @@ route1 =
 	N60.40800, E24.87250
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
+	end, 218
 # LUSEP, NAPUN, HK890, HK897, HK932, NEMVI
 
-[approach27]
+[approach23]
 runway = rwy1 
 beacon = NAPUN, N60.72350, E25.27033
 route1 = 
@@ -1090,11 +977,10 @@ route1 =
 	N60.40800, E24.87250
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
+	end, 218
 # NAPUN, HK890, HK897, HK932, NEMVI
 
-[approach28]
+[approach24]
 runway = rwy1
 beacon = HK890, N60.59216, E25.28583
 route1 = 
@@ -1103,11 +989,10 @@ route1 =
 	N60.40800, E24.87250
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
+	end, 218
 # HK890, HK897, HK932, NEMVI
 
-[approach29]
+[approach25]
 runway = rwy1
 beacon = HK897, N60.40800, E24.87250
 route1 =
@@ -1115,8 +1000,7 @@ route1 =
 	N60.40800, E24.87250
 	N60.32216, E24.68416
 	N60.26683, E24.55383
-	N59.93150, E23.82433
-	9.7, 2300, 220
+	end, 218
 # HK897, HK932, NEMVI
 # Rest of arrival done with LAKUT 8B
 
@@ -1129,7 +1013,7 @@ route1 =
 # DIVAM4R #
 ###########
 
-[approach30]
+[approach26]
 runway = rwy2
 beacon = DIVAM
 route1 = 
@@ -1138,11 +1022,10 @@ route1 =
 	N59.90783, E23.72133
 	N59.97466, E24.24200
 	N60.01716, E24.48666
-	N60.16716, E25.42916
-	12.9, 3300, 220
+	end, 063
 # DIVAM, PEXEN, HK945, EHOTE
 
-[approach31]
+[approach27]
 runway = rwy2
 beacon = PEXEN, N59.90783, E23.72133
 route1 = 
@@ -1150,36 +1033,33 @@ route1 =
 	N59.90783, E23.72133
 	N59.97466, E24.24200
 	N60.01716, E24.48666
-	N60.16716, E25.42916
-	12.9, 3300, 220
+	end, 063
 # PEXEN, HK945, EHOTE
 
-[approach32]
+[approach28]
 runway = rwy2
 beacon = HK945, N59.97466, E24.24200
 route1 = 
 	063
 	N59.97466, E24.24200
 	N60.01716, E24.48666
-	N60.16716, E25.42916
-	12.9, 3300, 220
+	end, 063
 # HK945, EHOTE
 
-[approach33]
+[approach29]
 runway = rwy2
 beacon = EHOTE, N60.01716, E24.48666
 route1 = 
 	063
 	N60.01716, E24.48666
-	N60.16716, E25.42916
-	12.9, 3300, 220
+	end, 063
 # EHOTE
 
 ############
 # INTOR 6R #
 ############
 
-[approach34]
+[approach30]
 runway = rwy2
 beacon = INTOR
 route1 =
@@ -1191,11 +1071,10 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # INTOR, BALTI, HK953, HK938, HK933, ORILE, VISSI
 
-[approach35]
+[approach31]
 runway = rwy2
 beacon = BALTI, N59.90250, E25.25100
 route1 = 
@@ -1206,11 +1085,10 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # BALTI, HK953, HK938, HK933, ORILE, VISSI
 
-[approach36]
+[approach32]
 runway = rwy2
 beacon = HK953, N60.05816, E25.15016
 route1 = 
@@ -1220,11 +1098,10 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # HK953, HK938, HK933, ORILE, VISSI
 
-[approach37]
+[approach33]
 runway = rwy2
 beacon = HK938, N60.13900, E25.09300
 route1 = 
@@ -1233,11 +1110,10 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # HK938, HK933, ORILE, VISSI
 
-[approach38]
+[approach34]
 runway = rwy2
 beacon = HK933, N60.18600, E24.90783
 route1 = 
@@ -1245,36 +1121,33 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # HK933, ORILE, VISSI
 
-[approach39]
+[approach35]
 runway = rwy2
 beacon = ORILE, N60.13766, E24.80583
 route1 = 
 	218
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # ORILE, VISSI
 
-[approach40]
+[approach36]
 runway = rwy2
 beacon = VISSI, N60.10416, E24.73516
 route1 = 
 	218
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # VISSI
 
 ############
 # ROPAM 3R #
 ############
 
-[approach41]
+[approach37]
 runway = rwy2
 beacon = ROPAM
 route1 = 
@@ -1284,11 +1157,10 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # ROPAM, HK711, HK933, ORILE, VISSI
 
-[approach42]
+[approach38]
 runway = rwy2
 beacon = HK711, N60.26983, E25.09316
 route1 = 
@@ -1297,8 +1169,7 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # HK711, HK933, ORILE, VISSI
 # REST OF ARRIVAL IN INTOR 3R
 
@@ -1306,7 +1177,7 @@ route1 =
 # VEPIN 3R #
 ############
 
-[approach43]
+[approach39]
 runway = rwy2
 beacon = VEPIN
 route1 = 
@@ -1318,11 +1189,10 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # VEPIN, MAMOP, HK807, HK711, HK933, ORILE, VISSI
 
-[approach44]
+[approach40]
 runway = rwy2
 beacon = MAMOP, N60.57166, E25.98400
 route1 = 
@@ -1333,11 +1203,10 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # MAMOP, HK807, HK711, HK933, ORILE, VISSI
 
-[approach45]
+[approach41]
 runway = rwy2
 beacon = HK807, N60.41733, E25.41883
 route1 = 
@@ -1347,8 +1216,7 @@ route1 =
 	N60.18600, E24.90783
 	N60.13766, E24.80583
 	N60.10416, E24.73516
-	N59.74733, E23.96166
-	12.9, 3300, 220
+	end, 218
 # HK807, HK711, HK933, ORILE, VISSI
 #REST OF ARRIVAL DONE IN INTOR 3R
 
@@ -1356,7 +1224,7 @@ route1 =
 # LUSEP 3R #
 ############
 
-[approach46]
+[approach42]
 runway = rwy2
 beacon = LUSEP
 route1 = 
@@ -1368,11 +1236,10 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # LUSEP, NAPUN, HK890, HK897, HK932, NEKKU, MALKE
 
-[approach47]
+[approach43]
 runway = rwy2
 beacon = NAPUN, N60.72350, E25.27033
 route1 = 
@@ -1383,11 +1250,10 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # NAPUN, HK890, HK897, HK932, NEKKU, MALKE
 
-[approach48]
+[approach44]
 runway = rwy2
 beacon = HK890, N60.59216, E25.28583
 route1 =
@@ -1397,11 +1263,10 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # HK890, HK897, HK932, NEKKU, MALKE
 
-[approach49]
+[approach45]
 runway = rwy2
 beacon = HK897, N60.40800, E24.87250
 route1 = 
@@ -1410,11 +1275,10 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # HK897, HK932, NEKKU, MALKE
 
-[approach50]
+[approach46]
 runway = rwy2
 beacon = HK932, N60.32216, E24.68416
 route1 = 
@@ -1422,29 +1286,26 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # HK932, NEKKU, MALKE
 
-[approach51]
+[approach47]
 runway = rwy2
 beacon = NEKKU, N60.26966, E24.56666
 route1 = 
 	218
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # NEKKU, MALKE
 
-[approach52]
+[approach48]
 runway = rwy2
 beacon = MALKE, N60.23600, E24.48933
 route1 = 
 	218
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # MALKE
 
 
@@ -1452,7 +1313,7 @@ route1 =
 # LAKUT 8R #
 ############
 
-[approach53]
+[approach49]
 runway = rwy2
 beacon = LAKUT
 route1 = 
@@ -1464,10 +1325,10 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	12.9, 3300, 220
+	end, 218
 # LAKUT, MAROM, HK871, HK937, HK932, NEKKU, MALKE
 
-[approach54]
+[approach50]
 runway = rwy2
 beacon = MAROM, N60.44200, E24.03950
 route1 = 
@@ -1478,11 +1339,10 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # MAROM, HK871, HK937, HK932, NEKKU, MALKE
 
-[approach55]
+[approach51]
 runway = rwy2
 beacon = HK871, N60.43366, E24.50516
 route1 = 
@@ -1492,11 +1352,10 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # HK871, HK937, HK932, NEKKU, MALKE
 
-[approach56]
+[approach52]
 runway = rwy2
 beacon = HK937, N60.37466, E24.59000
 route1 = 
@@ -1505,8 +1364,7 @@ route1 =
 	N60.32216, E24.68416
 	N60.26966, E24.56666
 	N60.23600, E24.48933
-	N59.88616, E23.72533
-	12.9, 3300, 220
+	end, 218
 # HK937, HK932, NEKKU, MALKE
 # REST OF ARRIVAL DONE WITH LUSEP 3R
 
@@ -1518,7 +1376,7 @@ route1 =
 # DIVAM 3M #
 ############
 
-[approach57]
+[approach53]
 runway = rwy3
 beacon = DIVAM
 route1 = 
@@ -1530,11 +1388,10 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # DIVAM, PEXEN, HK804, HK766, HK817, HK941, SUTAX
 
-[approach58]
+[approach54]
 runway = rwy3
 beacon = PEXEN, N59.90783, E23.72133
 route1 =
@@ -1545,11 +1402,10 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # PEXEN, HK804, HK766, HK817, HK941, SUTAX
 
-[approach59]
+[approach55]
 runway = rwy3
 beacon = HK804, N60.10100, E24.72166
 route1 =
@@ -1559,11 +1415,10 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # HK804, HK766, HK817, HK941, SUTAX
 
-[approach60]
+[approach56]
 runway = rwy3
 beacon = HK766, N60.25883, E25.07566
 route1 = 
@@ -1572,11 +1427,10 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # HK766, HK817, HK941, SUTAX
 
-[approach61]
+[approach57]
 runway = rwy3
 beacon = HK817, N60.35300, E25.12283
 route1 = 
@@ -1584,36 +1438,33 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # HK817, HK941, SUTAX
 
-[approach62]
+[approach58]
 runway = rwy3
 beacon = HK941, N60.43416, E25.04066
 route1 = 
 	324
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # HK941, SUTAX
 
-[approach63]
+[approach59]
 runway = rwy3
 beacon = SUTAX
 route1 = 
 	324
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # SUTAX
 
 ############
 # INTOR 8M #
 ############
 
-[approach64]
+[approach60]
 runway = rwy3
 beacon = INTOR
 route1 = 
@@ -1625,11 +1476,10 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # INTOR, BALTI, HK806, HK805, HK817, HK941, SUTAX
 
-[approach65]
+[approach61]
 runway = rwy3
 beacon = BALTI, N59.90250, E25.25100
 route1 = 
@@ -1640,11 +1490,10 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # BALTI, HK806, HK805, HK817, HK941, SUTAX
 
-[approach66]
+[approach62]
 runway = rwy3 
 beacon = HK806, N59.87483, E25.31666
 route1 = 
@@ -1654,11 +1503,10 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # HK806, HK805, HK817, HK941, SUTAX
 
-[approach67]
+[approach63]
 runway = rwy3
 beacon = HK805, N60.10800, E25.25000
 route1 = 
@@ -1667,8 +1515,7 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # HK805, HK817, HK941, SUTAX
 # REST OF THE ARRIVAL DONE WITH DIVAM 3M
 
@@ -1676,7 +1523,7 @@ route1 =
 # ROPAM 3M #
 ############
 
-[approach68]
+[approach64]
 runway = rwy3
 beacon = ROPAM
 route1 = 
@@ -1685,8 +1532,7 @@ route1 =
 	N60.35300, E25.12283
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # ROPAM, HK817, HK941, SUTAX
 # REST OF THE ARRIVAL DONE WITH DIVAM 3M
 
@@ -1694,7 +1540,7 @@ route1 =
 # VEPIN 3M #
 ############
 
-[approach69]
+[approach65]
 runway = rwy3
 beacon = VEPIN
 route1 = 
@@ -1704,11 +1550,10 @@ route1 =
 	N60.44116, E25.20850
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # VEPIN, MAMOP, HK939, HK941, SUTAX
 
-[approach70]
+[approach66]
 runway = rwy3
 beacon = MAMOP, N60.57166, E25.98400
 route1 = 
@@ -1717,11 +1562,10 @@ route1 =
 	N60.44116, E25.20850
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # MAMOP, HK939, HK941, SUTAX
 
-[approach71]
+[approach67]
 runway = rwy3
 beacon = HK939, N60.44116, E25.20850
 route1 = 
@@ -1729,8 +1573,7 @@ route1 =
 	N60.44116, E25.20850
 	N60.43416, E25.04066
 	N60.48966, E24.98416
-	N60.94950, E24.52366
-	8.7, 2000, 220
+	end, 324
 # HK939, HK941, SUTAX
 # REST OF ARRIVAL DONE WITH DIVAM 3M
 
@@ -1738,7 +1581,7 @@ route1 =
 # LUSEP 3M #
 ############
 
-[approach72]
+[approach68]
 runway = rwy3
 beacon = LUSEP
 route1 = 
@@ -1748,11 +1591,10 @@ route1 =
 	N60.68850, E25.27550
 	N60.60650, E25.06933
 	N60.53466, E25.14250
-	N60.08616, E25.58583
-	8.7, 2000, 220
+	end, 144
 # LUSEP, NAPUN, HK902, HK950, NAHOP
 
-[approach73]
+[approach69]
 runway = rwy3
 beacon = NAPUN, N60.72350, E25.27033
 route1 = 
@@ -1761,11 +1603,10 @@ route1 =
 	N60.68850, E25.27550
 	N60.60650, E25.06933
 	N60.53466, E25.14250
-	N60.08616, E25.58583
-	8.7, 2000, 220
+	end, 144
 # NAPUN, HK902, HK950, NAHOP
 
-[approach74]
+[approach70]
 runway = rwy3
 beacon = HK902, N60.68850, E25.27550
 route1 = 
@@ -1773,36 +1614,33 @@ route1 =
 	N60.68850, E25.27550
 	N60.60650, E25.06933
 	N60.53466, E25.14250
-	N60.08616, E25.58583
-	8.7, 2000, 220
+	end, 144
 # HK902, HK950, NAHOP
 
-[approach75]
+[approach71]
 runway = rwy3
 beacon = HK950, N60.60650, E25.06933
 route1 = 
 	223
 	N60.60650, E25.06933
 	N60.53466, E25.14250
-	N60.08616, E25.58583
-	8.7, 2000, 220
+	end, 144
 # HK950, NAHOP
 
-[approach76]
+[approach72]
 runway = rwy3
 beacon = NAHOP, N60.53466, E25.14250
 route 1 = 
 	144
 	N60.53466, E25.14250
-	N60.08616, E25.58583
-	8.7, 2000, 220
+	end, 144
 # NAHOP
 
 ############
 # LAKUT 7M #
 ############
 
-[approach77]
+[approach73]
 runway = rwy3
 beacon = LAKUT
 route1 = 
@@ -1811,11 +1649,10 @@ route1 =
 	N60.44200, E24.03950
 	N60.45550, E24.23983
 	N60.46933, E24.45700
-	N60.52183, E25.45333
-	8.7, 2000, 220
+	end, 074
 # LAKUT, MAROM, VIBEP, HELPO
 
-[approach78]
+[approach74]
 runway = rwy3
 beacon = MAROM, N60.44200, E24.03950
 route1 =
@@ -1823,29 +1660,26 @@ route1 =
 	N60.44200, E24.03950
 	N60.45550, E24.23983
 	N60.46933, E24.45700
-	N60.52183, E25.45333
-	8.7, 2000, 220
+	end, 074
 # MAROM, VIBEP, HELPO
 
-[approach79]
+[approach75]
 runway = rwy3
 beacon = VIBEP, N60.45550, E24.23983
 route1 = 
 	074
 	N60.45550, E24.23983
 	N60.46933, E24.45700
-	N60.52183, E25.45333
-	8.7, 2000, 220
+	end, 074
 # VIBEP, HELPO
 
-[approach80]
+[approach76]
 runway = rwy3
 beacon = HELPO, N60.46933, E24.45700
 route1 =
 	074
 	N60.46933, E24.45700
-	N60.52183, E25.45333
-	8.7, 2000, 220
+	end, 074
 # HELPO
 
 
@@ -1857,7 +1691,7 @@ route1 =
 # DIVAM 4V #
 ############
 
-[approach81]
+[approach77]
 runway = rwy1, rev
 beacon = DIVAM
 route1 = 
@@ -1869,10 +1703,10 @@ route1 =
 	N60.34033, E24.72466
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # DIVAM, PEXEN, HK957, HK958, HK959, HK897, MILLI
 
-[approach82]
+[approach78]
 runway = rwy1, rev
 beacon = PEXEN, N59.90783, E23.72133
 route1 = 
@@ -1883,10 +1717,10 @@ route1 =
 	N60.34033, E24.72466
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # PEXEN, HK957, HK958, HK959, HK897, MILLI
 
-[approach83]
+[approach79]
 runway = rwy1, rev
 beacon = HK957, N60.10266, E24.18800
 route1 = 
@@ -1896,10 +1730,10 @@ route1 =
 	N60.34033, E24.72466
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # HK957, HK958, HK959, HK897, MILLI
 
-[approach84]
+[approach80]
 runway = rwy1, rev
 beacon = HK958, N60.28333, E24.53716
 route1 = 
@@ -1908,10 +1742,10 @@ route1 =
 	N60.34033, E24.72466
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # HK958, HK959, HK897, MILLI
 
-[approach85]
+[approach81]
 runway = rwy1, rev
 beacon = HK959, N60.34033, E24.72466
 route1 = 
@@ -1919,33 +1753,33 @@ route1 =
 	N60.34033, E24.72466
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # HK959, HK897, MILLI
 
-[approach86]
+[approach82]
 runway = rwy1, rev
 beacon = HK897, N60.40800, E24.87250
 route1 = 
 	037
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # HK987, MILLI
 
-[approach87]
+[approach83]
 runway = rwy1, rev
 beacon = MILLI, N60.48566, E25.03750
 route1 = 
 	038
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # MILLI
 
 ############
 # INTOR 5V #
 ############
 
-[approach88]
+[approach84]
 runway = rwy1, rev
 beacon = INTOR
 route1 = 
@@ -1955,10 +1789,10 @@ route1 =
 	N60.22383, E25.19300
 	N60.30683, E25.18483
 	N60.35333, E25.27650
-	8.6, 2000, 220
+	end, 038
 # INTOR, BALTI, HK944, HK946, NOFOX
 
-[approach89]
+[approach85]
 runway = rwy1, eva
 beacon = BALTI, N59.90250, E25.25100
 route1 = 
@@ -1967,10 +1801,10 @@ route1 =
 	N60.22383, E25.19300
 	N60.30683, E25.18483
 	N60.35333, E25.27650
-	8.6, 2000, 220
+	end, 038
 # BALTI, HK944, HK946, NOFOX
 
-[approach90]
+[approach86]
 runway = rwy1, rev
 beacon = HK944, N60.22383, E25.19300
 route1 = 
@@ -1978,7 +1812,53 @@ route1 =
 	N60.22383, E25.19300
 	N60.30683, E25.18483
 	N60.35333, E25.27650
-	8.6, 2000, 220
+	end, 038
+# HK944, HK946, NOFOX
+
+[approach87]
+runway = rwy1, rev
+beacon = HK946, N60.30683, E25.18483
+route1 = 
+	346
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	end, 038
+# HK946, NOFOX
+
+[approach88]
+runway = rwy1, rev
+beacon = NOFOX, N60.35333, E25.27650
+route1 = 
+	038
+	N60.35333, E25.27650
+	end, 038
+# NOFOX
+
+############
+# ROPAM 4V #
+############
+
+[approach89]
+runway = rwy1, rev
+beacon = ROPAM
+route1 = 
+	293
+	N60.12650, E25.60100
+	N60.22383, E25.19300
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	end, 038
+# ROPAM, HK944, HK946, NOFOX
+
+[approach90]
+runway = rwy1, rev
+beacon = HK944, N60.22383, E25.19300
+route1 = 
+	286
+	N60.22383, E25.19300
+	N60.30683, E25.18483
+	N60.35333, E25.27650
+	end, 038
 # HK944, HK946, NOFOX
 
 [approach91]
@@ -1988,7 +1868,7 @@ route1 =
 	346
 	N60.30683, E25.18483
 	N60.35333, E25.27650
-	8.6, 2000, 220
+	end, 038
 # HK946, NOFOX
 
 [approach92]
@@ -1997,60 +1877,14 @@ beacon = NOFOX, N60.35333, E25.27650
 route1 = 
 	038
 	N60.35333, E25.27650
-	8.6, 2000, 220
-# NOFOX
-
-############
-# ROPAM 4V #
-############
-
-[approach93]
-runway = rwy1, rev
-beacon = ROPAM
-route1 = 
-	293
-	N60.12650, E25.60100
-	N60.22383, E25.19300
-	N60.30683, E25.18483
-	N60.35333, E25.27650
-	8.6, 2000, 220
-# ROPAM, HK944, HK946, NOFOX
-
-[approach94]
-runway = rwy1, rev
-beacon = HK944, N60.22383, E25.19300
-route1 = 
-	286
-	N60.22383, E25.19300
-	N60.30683, E25.18483
-	N60.35333, E25.27650
-	8.6, 2000, 220
-# HK944, HK946, NOFOX
-
-[approach95]
-runway = rwy1, rev
-beacon = HK946, N60.30683, E25.18483
-route1 = 
-	346
-	N60.30683, E25.18483
-	N60.35333, E25.27650
-	8.6, 2000, 220
-# HK946, NOFOX
-
-[approach96]
-runway = rwy1, rev
-beacon = NOFOX, N60.35333, E25.27650
-route1 = 
-	038
-	N60.35333, E25.27650
-	8.6, 2000, 220
+	end, 038
 #NOFOX
 
 ############
 # VEPIN 4V #
 ############
 
-[approach97]
+[approach93]
 runway = rwy1, rev
 beacon = VEPIN
 route1 = 
@@ -2058,33 +1892,33 @@ route1 =
 	N60.62550, E26.32650
 	N60.57166, E25.98400
 	N60.58616, E25.51683
-	8.6, 2000, 220
+	end, 264
 # VEPIN, MAMOP, RAHTU
 
-[approach98]
+[approach94]
 runway = rwy1, rev
 beacon = MAMOP, N60.57166, E25.98400
 route1 = 
 	243
 	N60.57166, E25.98400
 	N60.58616, E25.51683
-	8.6, 2000, 220
+	end, 264
 # MAMOP, RAHTU
 
-[approach99]
+[approach95]
 runway = rwy1, rev
 beacon = RAHTU, N60.58616, E25.51683
 route1 = 
 	264
 	N60.58616, E25.51683
-	8.6, 2000, 220
+	end, 264
 # RAHTU
 
 ############
 # LUSEP 5V #
 ############
 
-[approach100]
+[approach96]
 runway = rwy1, rev
 beacon = LUSEP
 route1 = 
@@ -2093,10 +1927,10 @@ route1 =
 	N60.72350, E25.27033
 	N60.68850, E25.27550
 	N60.60833, E25.10433
-	8.6, 2000, 220
+	end, 218
 # LUSEP, NAPUN, HK902, SELLU
 
-[approach101]
+[approach97]
 runway = rwy1, rev
 beacon = NAPUN, N60.72350, E25.27033
 route1 =
@@ -2104,33 +1938,33 @@ route1 =
 	N60.72350, E25.27033
 	N60.68850, E25.27550
 	N60.60833, E25.10433
-	8.6, 2000, 220
+	end, 218
 # NAPUN, HK902, SELLU
 
-[approach102]
+[approach98]
 runway = rwy1, rev
 beacon = HK902, N60.68850, E25.27550
 route1 = 
 	169
 	N60.68850, E25.27550
 	N60.60833, E25.10433
-	8.6, 2000, 220
+	end, 218
 # HK902, SELLU
 
-[approach103]
+[approach99]
 runway = rwy1, rev
 beacon = SELLU, N60.60833, E25.10433
 route1 = 
 	218
 	N60.60833, E25.10433
-	8.6, 2000, 220
+	end, 218
 # SELLU
 
 ############
 # LAKUT 5V #
 ############
 
-[approach104]
+[approach100]
 runway = rwy1, rev
 beacon = LAKUT
 route1 = 
@@ -2140,10 +1974,10 @@ route1 =
 	N60.45550, E24.23983
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # LAKUT, MAROM, VIBEP, HK897, MILLI
 
-[approach105]
+[approach101]
 runway = rwy1, rev
 beacon = MAROM, N60.44200, E24.03950
 route1 = 
@@ -2152,10 +1986,10 @@ route1 =
 	N60.45550, E24.23983
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # MAROM, VIBEP, HK897, MILLI
 
-[approach106]
+[approach102]
 runway = rwy1, rev
 beacon = VIBEP, N60.45550, E24.23983
 route1 = 
@@ -2163,26 +1997,26 @@ route1 =
 	N60.45550, E24.23983
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # VIBEP, HK897, MILLI
 
-[approach107]
+[approach103]
 runway = rwy1, rev
 beacon = HK897, N60.40800, E24.87250
 route1 = 
 	089
 	N60.40800, E24.87250
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # HK897, MILLI
 
-[approach108]
+[approach104]
 runway = rwy1, rev
 beacon = MILLI, N60.48566, E25.03750
 route1 = 
 	038
 	N60.48566, E25.03750
-	8.6, 2000, 220
+	end, 038
 # MILLI
 
 
@@ -2194,7 +2028,7 @@ route1 =
 # DIVAM 4A #
 ############
 
-[approach109]
+[approach105]
 runway = rwy2, rev
 beacon = DIVAM
 route1 = 
@@ -2205,11 +2039,10 @@ route1 =
 	N60.30883, E25.18916
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # DIVAM, PEXEN, HK804, HK891, VEMMI, KENON
 
-[approach110]
+[approach106]
 runway = rwy2, rev
 beacon = PEXEN, N59.90783, E23.72133
 route1 = 
@@ -2219,11 +2052,10 @@ route1 =
 	N60.30883, E25.18916
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # PEXEN, HK804, HK891, VEMMI, KENON
 
-[approach111]
+[approach107]
 runway = rwy2, rev
 beacon = HK804, N60.10100, E24.72166
 route1 = 
@@ -2232,11 +2064,10 @@ route1 =
 	N60.30883, E25.18916
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # HK804, HK891, VEMMI, KENON
 
-[approach112]
+[approach108]
 runway = rwy2, rev
 beacon = HK891, N60.30883, E25.18916
 route1 = 
@@ -2244,36 +2075,33 @@ route1 =
 	N60.30883, E25.18916
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # HK891, VEMMI, KENON
 
-[approach113]
+[approach109]
 runway = rwy2, rev
 beacon = VEMMI, N60.36716, E25.30600
 route1 = 
 	038
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # VEMMI, KENON
 
-[approach114]
+[approach110]
 runway = rwy2, rev
 beacon = KENON, N60.40050, E25.38416
 route1 = 
 	038
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # KENON
 
 ############
 # INTOR 5A #
 ############
 
-[approach115]
+[approach111]
 runway = rwy2, rev
 beacon = INTOR
 route1 = 
@@ -2284,11 +2112,10 @@ route1 =
 	N60.30900, E25.18916
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # INTOR, BALTI, HK943, HK891, VEMMI, KENON
 
-[approach116]
+[approach112]
 runway = rwy2, rev
 beacon = BALTI, N59.90250, E25.25100
 route1 = 
@@ -2298,11 +2125,10 @@ route1 =
 	N60.30900, E25.18916
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # BALTI, HK943, HK891, VEMMI, KENON
 
-[approach117]
+[approach113]
 runway = rwy2, rev
 beacon = HK943, N60.22583, E25.20283
 route1 = 
@@ -2311,8 +2137,7 @@ route1 =
 	N60.30900, E25.18916
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # HK943, HK891, VEMMI, KENON
 # REST OF ARRIVAL DONE WITH DIVAM 4A
 
@@ -2321,7 +2146,7 @@ route1 =
 # ROPAM 5A #
 ############
 
-[approach118]
+[approach114]
 runway = rwy2, rev
 beacon = ROPAM
 route1 = 
@@ -2331,8 +2156,7 @@ route1 =
 	N60.30883, E25.18916
 	N60.36716, E25.30600
 	N60.40050, E25.38416
-	N60.70716, E26.08683
-	11.9, 3000, 220
+	end, 038
 # ROPAM, HK943, HK891, VEMMI, KENON
 # REST OF ARRIVAL DONE WITH INTOR 5A and DIVAM 4A
 
@@ -2341,7 +2165,7 @@ route1 =
 # VEPIN 4A #
 ############
 
-[approach119]
+[approach115]
 runway = rwy2, rev
 beacon = VEPIN
 route1 = 
@@ -2350,11 +2174,10 @@ route1 =
 	N60.57166, E25.98400
 	N60.45316, E25.71716
 	N60.38600, E25.56800
-	N60.05800, E24.84083
-	11.9, 3000, 220
+	end, 218
 # VEPIN, MAMOP, HK956, ARADE
 
-[approach120]
+[approach116]
 runway = rwy2, rev
 beacon = MAMOP, N60.57166, E25.98400
 route1 = 
@@ -2362,29 +2185,26 @@ route1 =
 	N60.57166, E25.98400
 	N60.45316, E25.71716
 	N60.38600, E25.56800
-	N60.05800, E24.84083
-	11.9, 3000, 220
+	end, 218
 # MAMOP, HK956, ARADE
 
-[approach121]
+[approach117]
 runway = rwy2, rev
 beacon = HK956, N60.45316, E25.71716
 route1 = 
 	219
 	N60.45316, E25.71716
 	N60.38600, E25.56800
-	N60.05800, E24.84083
-	11.9, 3000, 220
+	end, 218
 # HK956, ARADE
 
-[approach122]
+[approach118]
 runway = rwy2, rev
 beacon = ARADE, N60.38600, E25.56800
 route1 = 
 	218
 	N60.38600, E25.56800
-	N60.05800, E24.84083
-	11.9, 3000, 220
+	end, 218
 # ARADE
 
 
@@ -2392,7 +2212,7 @@ route1 =
 # LUSEP 4A # 
 ############
 
-[approach123]
+[approach119]
 runway = rwy2, rev
 beacon = LUSEP
 route1 = 
@@ -2401,11 +2221,10 @@ route1 =
 	N60.72350, E25.27033
 	N60.68850, E25.27550
 	N60.62166, E25.12083
-	N60.28600, E24.37500
-	11.9, 3000, 220
+	end, 218
 # LUSEP, NAPUN, HK902, KUKKA
 
-[approach124]
+[approach120]
 runway = rwy2, rev
 beacon = NAPUN, N60.72350, E25.27033
 route1 = 
@@ -2413,29 +2232,26 @@ route1 =
 	N60.72350, E25.27033
 	N60.68850, E25.27550
 	N60.62166, E25.12083
-	N60.28600, E24.37500
-	11.9, 3000, 220
+	end, 218
 # NAPUN, HK902, KUKKA
 
-[approach125]
+[approach121]
 runway = rwy2, rev
 beacon = HK902, N60.68850, E25.27550
 route1 = 
 	169
 	N60.68850, E25.27550
 	N60.62166, E25.12083
-	N60.28600, E24.37500
-	11.9, 3000, 220
+	end, 218
 # HK902, KUKKA
 
-[approach126]
+[approach122]
 runway = rwy2, rev
 beacon = KUKKA, N60.62166, E25.12083
 route1 = 
 	218
 	N60.62166, E25.12083
-	N60.28600, E24.37500
-	11.9, 3000, 220
+	end, 218
 # KUKKA
 
 
@@ -2443,7 +2259,7 @@ route1 =
 # LAKUT 5A #
 ############
 
-[approach127]
+[approach123]
 runway = rwy2, rev
 beacon = LAKUT
 route1 = 
@@ -2455,11 +2271,10 @@ route1 =
 	N60.43983, E24.93816
 	N60.50016, E25.05933
 	N60.53366, E25.13750
-	N60.86716, E25.89050
-	11.9, 3000, 220
+	end, 038
 # LAKUT, MAROM, VIBEP, HK942, HK951, LASTU, KAAVI
 
-[approach128]
+[approach124]
 runway = rwy2, rev
 beacon = MAROM, N60.44200, E24.03950
 route1 = 
@@ -2470,11 +2285,10 @@ route1 =
 	N60.43983, E24.93816
 	N60.50016, E25.05933
 	N60.53366, E25.13750
-	N60.86716, E25.89050
-	11.9, 3000, 220
+	end, 038
 # MAROM, VIBEP, HK942, HK951, LASTU, KAAVI
 
-[approach129]
+[approach125]
 runway = rwy2, rev
 beacon = VIBEP, N60.45550, E24.23983
 route1 = 
@@ -2484,11 +2298,10 @@ route1 =
 	N60.43983, E24.93816
 	N60.50016, E25.05933
 	N60.53366, E25.13750
-	N60.86716, E25.89050
-	11.9, 3000, 220
+	end, 038
 # VIBEP, HK942, HK951, LASTU, KAAVI
 
-[approach130]
+[approach126]
 runway = rwy2, rev
 beacon = HK942, N60.47083, E24.60800
 route1 = 
@@ -2497,11 +2310,10 @@ route1 =
 	N60.43983, E24.93816
 	N60.50016, E25.05933
 	N60.53366, E25.13750
-	N60.86716, E25.89050
-	11.9, 3000, 220
+	end, 038
 # HK942, HK951, LASTU, KAAVI
 
-[approach131]
+[approach127]
 runway = rwy2, rev
 beacon = HK951, N60.43983, E24.93816
 route1 = 
@@ -2509,29 +2321,26 @@ route1 =
 	N60.43983, E24.93816
 	N60.50016, E25.05933
 	N60.53366, E25.13750
-	N60.86716, E25.89050
-	11.9, 3000, 220
+	end, 038
 # HK951, LASTU, KAAVI
 
-[approach132]
+[approach128]
 runway = rwy2, rev
 beacon = LASTU, N60.50016, E25.05933
 route1 = 
 	038
 	N60.50016, E25.05933
 	N60.53366, E25.13750
-	N60.86716, E25.89050
-	11.9, 3000, 220
+	end, 038
 # LASTU, KAAVI
 
-[approach133]
+[approach129]
 runway = rwy2, rev
 beacon = KAAVI, N60.53366, E25.13750
 route1 = 
 	038
 	N60.53366, E25.13750
-	N60.86716, E25.89050
-	11.9, 3000, 220
+	end, 038
 # KAAVI
 
 
