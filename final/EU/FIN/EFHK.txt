@@ -169,21 +169,26 @@ entrypoints =
 	003, LUSEP
 	
 airlines =
-	TRA, 4,	b737/b738,	Transavia,	nsw
-	KLM, 2,	b737/b738/e190/e170, KLM,	nsw
-	AFR, 2,	a319/a320,	Air France,	nsw
-	BAW, 3,	a319/a320/a321, Speedbird,	nsw
+	TRA, 4,	b737/b738,	Transavia,	w
+	KLM, 5,	b737/b738/e190/e170, KLM,	w
+	AFR, 2,	a319/a320,	Air France,	w
+	BAW, 3,	a319/a320/a321, Speedbird,	w
 	CSN, 1,	a380/b77W,	China Southern,	ne
-	DLH, 2,	a319/a320/a321, Lufthansa, nsw
+	DLH, 2,	a319/a320/a321, Lufthansa, w
 	FIN, 10, a319/a320/a321/a330/a350/e190/at72, Finnair, nwse
 	NAX, 5, b738, Norshuttle, nwse
 	IBK, 5, b738, Nortrans, nwse
 	TAP, 1, a319/a320/a321, Airportugal, nsw
-	JAL, 1, b789/b788, Japanair, ne
-	AFL, 2, a320, AEROFLOT, ne
-	SAS, 4, a320/a321/b738, Scandinavian, nsw
+	JAL, 1, b789/b788, Japanair, e
+	AFL, 2, a320, AEROFLOT, e
+	SAS, 4, a320/a321/b738, Scandinavian, sw
 	FDB, 2, b738, Skydubai , s
-	QTR, 2, b789, qatari, s
+	QTR, 2, b789/b788, qatari, s
+	THY, 2, b738/a321/a310, turkish, s
+	WBA, 5, e190/at72, westbird, wse
+	DKH, 1, b789, air juneyao, e
+	DLH, 3, e190/a319/a320, lufthansa, w
+	BRU, 1, e75l, belarus avia, s
 
 
 [area1]
