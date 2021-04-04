@@ -1,0 +1,2342 @@
+[meta]
+header = VHHH TMA 1.0.0
+	See VHHH_PC_readme.md
+callsigns = True
+
+[airspace]
+radius = 100
+zoom = 1
+elevation = 28
+floor = 0
+descendaltitude = 24000
+ceiling = 25000
+above = 28000
+transitionaltitude = 8999
+speedrestriction = 100, 250
+usa = false
+metric = false
+center = N21.21.10.82, E114.25.31.92
+magneticvar = -3
+beacons =
+#VHHK
+#ENROUTE VORDME
+	CH, N22.13.10.35, E114.01.48.20, 0, Cheung Chau
+	TD, N22.14.52.42, E114.17.35.30, 344, Tung Lung
+#TERMINAL VORDME
+	LKC, N22.22.44.12, E113.53.01.50, 0, Lung Kwu Chau
+	SMT, N22.20.15.43, E113.58.55.46, 0, Siu Mo To
+#FIXES
+	ABBEY, N22.16.11.00, E114.55.25.92, 271, Abbey
+	ALLEY, N21.05.11.15, E113.47.09.50, !, Alley
+	AROXA, N22.02.03.11, E116.46.45.01, !, Aroxa
+	ASOBA, N17.22.22.00, E114.34.13.00, !, Asoba
+	ATENA, N22.24.39.85, E114.23.11.88, !, Atena
+	BAKER, N21.13.02.00, E114.39.07.00, 345, Baker
+	BEKOL, N22.32.36.00, E114.08.00.00, !, Bekol
+	BETTY, N21.29.10.82, E114.33.31.92, 345, Betty
+	BORDA, N21.41.32.37, E113.24.29.01, 0, Borda
+	BREAM, N21.46.46.00, E114.03.28.00, !, Bream
+	CANTO, N21.39.02.63, E113.42.25.09, 48, Canto
+	CARSO, N19.00.00.00, E114.42.37.75, !, Carso
+	COMBI, N21.29.37.10, E113.27.44.30, 74, Combi
+	CONGA, N21.44.02.50, E116.47.05.90, !, Conga
+	CYBER, N20.50.49.64, E114.33.10.56, 0, Cyber
+	DAKTO, N20.53.30.89, E115.11.15.58, 318, Dakto
+	DEDEE, N22.23.12.70, E114.01.03.67, !, Dedee
+	DONKI, N20.32.57.99, E112.09.10.07, !, Donkey
+	DOSUT, N17.02.00.00, E113.40.48.00, !, Dosut
+	DOTMI, N22.43.06.00, E116.10.06.00, !, Dotmi
+	DULOP, N18.14.12.00, E114.32.36.00, !, Dulop
+	DUMOL, N19.00.00.00, E114.26.48.00, !, Dumol
+	EATON, N21.07.24.40, E115.43.01.10, 248, Eaton
+	ELATO, N22.20.00.00, E117.30.00.00, !, Elato
+	ENBOK, N18.33.24.00, E113.29.30.00, !, Enbok
+	ENPET, N22.17.33.16, E115.41.24.36, !, Enpet
+	ENVAR, N21.59.30.00, E117.30.00.00, !, Envar
+	EPDOS, N19.00.00.00, E113.33.18.00, !, Epdos
+	EPKAL, N17.51.30.00, E112.57.18.00, !, Epkal
+	FISHA, N22.16.57.64, E115.20.11.61, 271, Fisha
+	GAMBA, N21.19.08.12, E112.55.36.21, 74, Gamba
+	GODEN, N20.34.35.35, E114.18.32.48, 358, Goden
+	GOODI, N22.04.09.88, E113.59.48.59, !, Goodi
+	GUAVA, N22.09.36.10, E114.03.36.30, 14, Guava
+	GRUPA, N20.50.44.00, E115.56.59.00, !, Grupa
+	HOCKY, N20.35.49.35, E114.34.28.48, 358, Hockey
+	IDOSI, N19.00.00.00, E112.30.00.00, !, Idosi
+	IKELA, N18.39.42.00, E112.14.42.00, !, Ikela
+	KAPLI, N21.10.00.00, E117.30.00.00, !, Kapli
+	KILOG, N21.52.27.00, E114.41.37.00, !, Kilo
+	LAKES, N21.58.41.30, E114.54.38.60, !, Lakes
+	LANDA, N21.36.47.24, E113.02.42.74, !, Landa
+	LELIM, N22.56.24.00, E117.18.42.00, !, Lelim
+	LEMON, N20.56.16.57, E114.00.05.12, !, Lemon
+	LIMES, N22.06.25.60, E113.46.32.60, !338, Limes
+	LOTUS, N22.23.18.26, E114.11.05.60, !, Lotus
+	MAGOG, N22.17.46.00, E115.49.30.00, !, Magog
+	MANGO, N21.36.49.00, E114.30.53.00, 0, Mango
+	MAPLE, N21.22.26.82, E113.05.42.82, 0, Maple
+	MEPUT, N21.37.59.00, E115.45.19.80, 0, Meput
+	MIRRS, N22.24.17.10, E114.14.09.30, !, Mirrs
+	MONTY, N22.10.06.26, E114.19.15.68, !, Monty
+	MORTU, N19.42.37.03, E114.23.05.91, !, Mortu
+	MURRY, N21.45.28.37, E113.48.41.97, 0, Murry
+	MUSEL, N22.15.53.99, E114.46.52.13, 0, Musel
+	MYWAY, N20.11.46.30, E112.43.07.70, !-13, My way
+	NOBAD, N20.14.43.75, E115.30.33.94, !, Nobad
+	NOMAN, N20.00.00.00, E116.40.18.00, !, Noman
+	NUSTO, N22.44.27.09, E117.11.37.82, !, Nusto
+	OCEAN, N21.48.43.00, E114.48.48.00, !, Ocean
+	OSUMO, N20.33.13.23, E115.32.32.05, !, Osumo
+	OTKUM, N22.03.34.20, E114.04.55.85, !-346, Otkum
+	PECAN, N21.26.20.19, E114.02.05.64, !, Pecan
+	PLOVE, N22.25.06.30, E114.13.57.90, !, Plove
+	PORPA, N22.20.09.10, E114.01.16.30, !, Porpa
+	PRAWN, N22.16.05.40, E113.48.40.10, !, Prawn
+	RAMEN, N22.09.39.22, E114.05.09.89, !, Ramen
+	RASSE, N21.47.34.50, E115.19.49.10, !, Rasse
+	RIVER, N22.24.07.55, E114.10.54.23, !, River
+	ROCCA, N21.31.55.42, E113.34.51.44, 74, Rocca
+	ROVER, N22.20.35.58, E114.01.39.12, !, Rover
+	RUMSY, N22.04.56.94, E113.48.16.79, !, Rumsy
+	SABNO, N18.59.06.00, E115.50.42.00, !, Sabno
+	SABOG, N22.21.16.66, E114.15.23.07, !, Sabog
+	SAMON, N21.54.23.73, E114.12.32.95, !, Salmon
+	SAMPU, N22.25.39.19, E114.15.40.91, !, Sampu
+	SHELY, N22.05.26.65, E114.39.13.94, !, Shely
+	SIERA, N21.59.12.00, E113.33.12.00, 0, Sierra
+	SIKOU, N20.50.36.00, E111.30.00.00, !, Sikou
+	SILVA, N21.51.04.50, E113.54.10.88, !, Silva
+	SKATE, N21.31.54.99, E115.08.39.94, !, Skate
+	SOKOE, N22.04.41.20, E113.50.38.10, !, Sokoe
+	SONNY, N21.01.03.66, E115.03.18.81, 0, Sonny
+	SOUSA, N22.01.10.40, E116.11.27.80, !, Sousa
+	STELA, N22.11.53.29, E113.43.49.11, !, Stella
+	SUKER, N19.40.33.48, E114.39.11.87, !, Suker
+	SULUX, N20.20.54.31, E115.24.33.18, !, Sulux
+	SURFA, N19.18.50.98, E112.44.11.17, !, Surfa
+	TAMAR, N22.15.21.00, E114.30.37.00, 0, Tamar
+	TAMOT, N22.21.30.00, E113.52.00.00, !, Tamot
+	TAPPO, N21.19.20.61, E114.14.34.62, -358, Tappo
+	TITAN, N21.40.27.40, E114.03.02.52, !, Titan
+	TONIC, N22.12.47.88, E113.43.21.85, !, Tonic
+	TORUB, N22.22.03.41, E114.15.06.98, !, Torub
+	TROUT, N21.47.54.87, E114.16.12.74, !, Trout
+	TUNNA, N21.47.25.00, E113.57.54.00, !, Tuna
+	VENGO, N21.59.16.17, E115.16.08.46, !, Vengo
+#RNAV
+	VH710, N22.15.58.80, E113.45.35.61, !, Victor Hotel 7 1 0
+	VH711, N22.17.04.63, E113.48.59.26, !, Victor Hotel 7 1 1
+	VH720, N22.15.05.94, E113.45.39.56, !, Victor Hotel 7 2 0
+	VH721, N22.16.12.68, E113.49.04.87, !, Victor Hotel 7 2 1
+	VH753, N22.25.36.92, E114.03.36.03, !, Victor Hotel 7 5 3
+	VH754, N22.27.24.31, E114.10.10.70, !, Victor Hotel 7 5 4
+#fixes for fly-over
+	#HDG 074 3NM from PORPA
+	PORPAFO, N22.21.08, E114.04.20, !0, Fly over Porpa
+	#HDG 080 3NM from ROVER
+	ROVERFO, N22.21.16, E114.04.49, !,
+	#HDG 254 3NM from PRAWN
+	PRAWNFO, N22.15.07, E113.45.36, !0, Fly over Prawn
+	#HDG 245 3NM from PRAWN
+	PRAWNFO2, N22.14.41, E113.45.49, !,
+#misc
+#intersection of LKC R074 and TD R301
+	LKC074@TD301, N22.24.23, E113.58.12, !,
+#intercept point of TD R251 with HDG166 from PRAWNFO
+	PRAWNFO166@TD251, N22.04.12, E113.49.12, !,
+#D3 from ITFR after passing RW25R THR
+	ITFRD3, N22.18.15, E113.52.31, !,
+#D5 from ITFR after passing RW25R THR 
+	ITFRD3FO, N22.17.36, E113.50.29, !,
+#LKC R231 D3
+	LKCR231D3, N22.20.44, E113.50.37, !, 3 D-M-E from Lung Kwu Chau
+#fabricated waypoint to allow issuing published missed approach via LKC from 25R
+	MA25R, N22.13.44, E113.39.57, !, Published Missed Approach
+#VMMC
+#VOR
+	MCU, N22.08.08, E113.35.52, 0, Ma-cao
+	ZAO, N22.14.48, E113.36.48, 0, Jiu-zhou
+#FIX
+	ARROW, N19.50.09.33, E114.22.26.42, !, Arrow
+	ATIKO, N21.48.29.56, E113.32.26.04, 36, Atiko
+	BUMDI, N22.21.39.62, E114.18.52.61, -269, Bumdi
+	CAMRI, N22.01.46.24, E114.04.28.73, !, Camri
+	CHALI, N21.17.45.00, E113.36.41.00, -74, Charlie
+	COTON, N21.09.24.17, E113.11.01.04, 0, Cotton
+	DASON, N21.03.23.27, E112.52.40.39, 0, Dason
+	DOCTA, N21.56.49.45, E114.00.33.38, !, Docta
+	HAZEL, N22.01.26.49, E113.40.56.63, 0, Hazel
+	ISBAN, N20.49.34.33, E114.17.13.11, 0, Isban
+	INDUS, N22.02.41.00, E113.36.01.00, !, Indus
+	LATOP, N22.16.54, E113.38.36, !, Latop
+	MULET, N21.35.01.95, E113.47.51.87, !, Mulet
+	NEDLE, N22.23.13.95, E114.41.57.47, 0, Nedle
+	PAPA, N21.58.39.00, E113.39.22.00, !-344, Papa
+	PONTI, N22.22.16.35, E114.27.45.83, 0, Ponti
+	ROBIN, N21.02.45.00, E114.16.06.00, 0, Robin
+	R, N21.51.48, E113.26.54, !, Romeo
+	RUNLI, N21.26.59.72, E113.40.51.00, 0, Runli
+	SAMMI, N22.28.00.00, E115.57.42.00, !, Sammi
+#RNAV
+	MC411, N22.21.41.20, E113.47.37.58, !, Mike Charlie 4 1 1
+	MC417, N22.21.22.48, E113.25.20.13, !, Mike Charlie 4 1 7
+	MC418, N22.20.59.43, E113.37.16.98, !, Mike Charlie 4 1 8
+	MC419, N22.26.25.37, E113.46.47.49, !, Mike Charlie 4 1 9
+	MC420, N22.20.32.29, E113.41.43.59, !, Mike Charlie 4 2 0
+	MC501, N22.00.03.00, E113.38.45.76, !, Mike Charlie 5 0 1
+	MC502, N22.02.43.76, E113.00.50.39, !, Mike Charlie 5 0 2
+	MC508, N22.12.25.79, E113.34.59.76, !, Mike Charlie 5 0 8
+	MC509, N22.14.34.78, E113.36.37.67, !, Mike Charlie 5 0 9
+	MC510, N22.17.02.13, E113.38.29.61, !, Mike Charlie 5 1 0
+	MC511, N22.21.49.23, E113.36.58.39, !, Mike Charlie 5 1 1
+	MC512, N22.21.49.25, E113.33.45.41, !, Mike Charlie 5 1 2
+	MC513, N22.01.09.95, E113.37.20.04, !-328, Mike Charlie 5 1 3
+	MC514, N22.06.52.19, E113.32.56.82, !, Mike Charlie 5 1 4
+	MC601, N22.19.43.55, E113.56.43.60, !, Mike Charlie 6 0 1
+	MC610, N21.52.31.46, E113.41.36.15, !, Mike Charlie 6 1 0
+	MC611, N21.39.36.00, E113.46.30.00, !, Mike Charlie 6 1 1
+	MC612, N21.50.42.92, E113.36.08.19, !, Mike Charlie 6 1 2
+	MC613, N21.54.20.84, E113.34.45.32, !, Mike Charlie 6 1 3
+	MC614, N21.58.21.17, E113.36.03.19, !, Mike Charlie 6 1 4
+	MC615, N22.18.12.10, E113.50.26.77, !, Mike Charlie 6 1 5
+#ZGSD
+#NDB
+	U, N21.59.3, E113.21.3, 0, San-zao
+	UJ, N21.55.2, E113.17.6, 0, Gao-lan
+#FIX
+	F, N21.45.36.00, E113.22.00.00, !, Foxtrot
+#ZGZU
+#VOR
+	ZUH, N22.13.18, E113.28.00, 0, Lian-sheng-wei
+	NLG, N22.31.54, E113.33.42, 0, Nan-lang
+	SHL, N23.05.30, E113.51.00, !, Shi-long
+	GLN, N22.42.30, E114.02.00, !, Guan-lan
+#FIX
+	VIBOS, N22.37.30, E113.19.42, !, Vibos
+	SAREX, N22.52.54, E113.29.00, !, Sarex
+	SULAS, N22.55.00, E114.13.18, !, Sulas
+	VIPAP, N22.45.42, E114.31.54, !, Vipap
+	IDUMA, N22.53.48, E113.57.06, !, Iduma
+	
+boundary = 
+#	!ZUH
+#	N22.13.44, E113.39.57
+#	N22.24.34, E113.49.44
+#	N22.28.34, E114.00.54
+	!BEKOL
+	N22.752, E115.289
+	!MAGOG
+	!GRUPA
+	!NOBAD
+	N20.00.00.00, E115.11.15.58
+	!ARROW
+	N20.00.00.00, E113.27.44.30
+	N21.03.23.27, E112.43.07.70
+	N21.31.55.42, E112.43.07.70
+	!LANDA
+	!NLG
+#	!VIBOS
+#	!POU
+#	!SZ012R335D3
+#	!SZ002R335D3
+#	!SZ003
+#	!SHL
+#	!SULAS
+#	!VIPAP
+
+line1 =
+	N22.29224, E114.13447
+	N22.26836, E114.13877
+	N22.19517, E114.20723
+	N22.21055, E114.23203
+	N22.23354, E114.24355
+	N22.26357, E114.24687
+	N22.29663, E114.18740
+	N22.29224, E114.13447
+
+line2 =
+	N22.90454, E113.46494
+	N22.90283, E113.40439
+	N22.85859, E113.42607
+	N22.83237, E113.46338
+	N22.82832, E113.48564
+	N22.75791, E113.56367
+	N22.80420, E113.55527
+	N22.85205, E113.52051
+	N22.90454, E113.46494
+
+line3 =
+	N21.77227, E112.78203
+	N21.73325, E112.76055
+	N21.69795, E112.71270
+	N21.66992, E112.73350
+	N21.61807, E112.74199
+	N21.58184, E112.77109
+	N21.60186, E112.79023
+	N21.69487, E112.80068
+	N21.71216, E112.81260
+	N21.75264, E112.86260
+	N21.76450, E112.83906
+	N21.77227, E112.78203
+
+line4 =
+	N22.21050, E113.99775
+	N22.27754, E114.00332
+	N22.33340, E114.04395
+	N22.28027, E113.88154
+	N22.24170, E113.83887
+	N22.22046, E113.85156
+	N22.21045, E113.87734
+	N22.21050, E113.99775
+
+line5 =
+	N21.85947, E112.66074
+	N21.90234, E112.72539
+	N21.94463, E112.80859
+	N21.88145, E112.90381
+	N21.90732, E112.95391
+	N21.93823, E112.98379
+	N22.11934, E113.00820
+	N22.20796, E113.08877
+	N22.07500, E113.14902
+	N22.08877, E113.26641
+	N22.14541, E113.32773
+	N22.16484, E113.36738
+	N22.17837, E113.41572
+	N22.20166, E113.49883
+	N22.22261, E113.54814
+	N22.29727, E113.57646
+	N22.35049, E113.58887
+	N22.40415, E113.55146
+	N22.59404, E113.55303
+	N22.69238, E113.48477
+	N22.72612, E113.44980
+	N22.78940, E113.43203
+	N22.86460, E113.34482
+	N22.88882, E113.33779
+	N22.91201, E113.33105
+	N22.94058, E113.44189
+	N22.99570, E113.46035
+	N23.05508, E113.44531
+	N23.10210, E113.51973
+	N23.12749, E113.62051
+	N23.07695, E113.59219
+	N23.02002, E113.58633
+	N22.96890, E113.60342
+	N22.86143, E113.61963
+	N22.80166, E113.66113
+	N22.73364, E113.75449
+	N22.60723, E113.82832
+	N22.53105, E113.93115
+	N22.51191, E114.01543
+	N22.48403, E114.00674
+	N22.42817, E113.89648
+	N22.39609, E113.90254
+	N22.36499, E113.93730
+	N22.37588, E114.03281
+	N22.34844, E114.13906
+	N22.29556, E114.26797
+	N22.32529, E114.28789
+	N22.37378, E114.29053
+	N22.39624, E114.33525
+	N22.43740, E114.32520
+	N22.45762, E114.28457
+	N22.49946, E114.29111
+	N22.54097, E114.26602
+	N22.59321, E114.34062
+	N22.58325, E114.42012
+	N22.52705, E114.49619
+	N22.52891, E114.55420
+	N22.62061, E114.54443
+	N22.65405, E114.57197
+	N22.69844, E114.59277
+	N22.75527, E114.65166
+	N22.73872, E114.71113
+	N22.62632, E114.75039
+	N22.61680, E114.85381
+	N22.63950, E114.89639
+	N22.68462, E114.91445
+	N22.70894, E115.01211
+	N22.78169, E115.09150
+
+line6 =
+	N22.79530, E113.03535
+	N22.73029, E113.09494
+	N22.57560, E113.16553
+	N22.48346, E113.21369
+	N22.36282, E113.26397
+	N22.17839, E113.41574
+	N22.79530, E113.03535
+	N22.69836, E113.29916
+	N22.65061, E113.39544
+	N22.59903, E113.44370
+	N22.59069, E113.49186
+	N22.58733, E113.55217
+	N23.04113, E112.97991
+	N23.05508, E113.44530
+	N23.14789, E112.80472
+	N23.08180, E112.81909
+	N22.91775, E112.89123
+	N22.82225, E112.96332
+	N22.79530, E113.03535
+	N23.14789, E112.80472
+	N23.11275, E112.91247
+	N23.05208, E112.97360
+	N22.95421, E113.02414
+	N22.90692, E113.09034
+	N22.91201, E113.21328
+	N22.88884, E113.33782
+
+line7 =
+	N23.16427, E112.73620
+	N23.14789, E112.80472
+
+#VHR12 PENNY'S BAY
+[area1]
+shape = circle
+altitude = 4001
+radius = 1.35
+name = VHR12
+position = N22.18.55.56, E114.02.44.0
+labelpos = N22.19.25.56, E114.01.14.0
+
+#VHR13 KAU SHAT WAN
+[area2]
+shape = circle
+altitude = 3001
+radius = 0.19
+name = VHR13
+position = N22.16.19.20, E114.01.13.80
+labelpos = N22.16.19.20, E114.01.13.80
+
+#VHD11 NINEPINS RANGE
+[area3]
+shape = polygon
+altitude = 2001
+name = VHD11
+labelpos = N22.19.00, E114.27.30
+points = 
+	N22.20.00, E114.26.00
+	N22.20.00, E114.30.00
+	N22.16.00, E114.30.00
+	N22.16.00, E114.26.00
+
+#VHD5 TSING SHAN FIRING RANGE
+[area4]
+shape = polygon
+altitude = 12001
+name = VHD11
+labelpos = N22.24.30, E113.56.30
+points = 
+	N22.26.53, E113.57.42
+	N22.24.48, E113.56.09
+	N22.24.54, E113.55.22
+	N22.23.37, E113.55.27
+	N22.22.43, E113.55.39
+	N22.22.33, E113.55.57
+	N22.22.28, E113.56.23
+	N22.23.58, E113.57.32
+	N22.26.13, E113.58.44
+
+#HONG KONG CTR
+[area5]
+shape = polygon
+#reduce height of area to 5500 for VMMC missed approaches
+#altitude = 9001
+altitude = 5501
+labelpos = N22.12.30, E114.05.30
+points = 
+	N22.28.34, E114.00.54
+	N22.26.59, E114.00.25
+	N22.25.51, E114.03.03
+	N22.24.20, E114.04.10
+	N22.25.15, E114.07.08
+	N22.24.40, E114.10.40
+	N22.22.40, E114.13.20
+	N22.20.30, E114.13.25
+	N22.15.15, E114.21.00
+	N22.08.50, E114.21.00
+	N22.08.50, E114.17.05
+	N22.08.20, E114.15.20
+	N22.08.50, E114.14.10
+	N22.08.50, E114.11.45
+	N22.06.40, E114.11.45
+	N21.56.25, E113.48.00
+	N22.13.44, E113.39.57
+
+#HONG KONG ATZ
+[area6]
+shape = polygon
+altitude = 2000
+labelpos = N22.17.05, E113.53.00
+points = 
+	N22.19.58, E113.51.11
+	N22.21.45, E113.56.58
+	N22.17.05, E113.58.41
+	N22.15.24, E113.53.00
+
+#MACAU ATZ
+#5NM from ARP, except 3NM west parallel to RWY
+#5NM wide stub to 10NM RWY34
+#2NM wide stub to 6.27NM(ZAO) MCS LLZ
+[area7]
+shape = polygon
+altitude = 3001
+labelpos = N22.09.20, E113.36.30
+name = MC
+points = 
+#MACAU ARP N22.08.58, E113.35.29
+#MCS LLZ N22.09.40, E113.32.54
+#MCS LLZ @ VMMC ARP 305T N22.10.19, E113.33.24 (VMMC ARP 305T 2.3564NM)
+#5NM 304.13T(251+arccos(3NM/5NM)) from ARP
+	N22.11.46, E113.31.01
+#3NM 251T from ARP
+	N22.07.59, E113.32.25
+#5NM 197.87T(251-arccos(3NM/5NM)) from ARP
+	N22.04.13, E113.33.50
+#5NM 191T(161+arcsin((5/2)NM/5NM)) from ARP
+	N22.04.04, E113.34.27
+#2.5NM 251 from below point
+	N21.58.42, E113.36.27
+#10NM 161 from ARP
+	N21.59.31, E113.39.00
+#2.5NM 71 from above point
+	N22.00.20, E113.41.33
+#5NM 131T(161-arcsin((5/2)NM/5NM)) from ARP
+	N22.05.41, E113.39.33
+#119
+	N22.06.33, E113.40.12
+#109
+	N22.07.20, E113.40.35
+#099
+	N22.08.11, E113.40.49
+#089
+	N22.09.03, E113.40.53
+#079
+	N22.09.55, E113.40.47
+#069
+	N22.10.45, E113.40.31
+#059
+	N22.11.32, E113.40.07
+#049
+	N22.12.15, E113.39.33
+#039
+	N22.12.51, E113.38.53
+#029
+	N22.13.20, E113.38.06
+#5NM 19.26T(305+arcsin((2.3564-1)NM/5NM)) from ARP
+	N22.13.41, E113.37.16
+#ZAO 125T 1DME
+	N22.14.14, E113.37.41
+	!ZAO
+#ZAO 305T 1DME
+	N22.15.22, E113.35.55
+#5NM 352.83T(305+arcsin((2.3564+1)NM/5NM)) from ARP
+	N22.13.55, E113.34.49
+#344
+	N22.13.46, E113.34.00
+#334
+	N22.13.27, E113.33.07
+#324
+	N22.13.01, E113.32.19
+#314
+	N22.12.26, E113.31.36
+
+[area8]
+shape = polygon
+altitude = 13000
+name = MC
+labelpos = N22.35.00, E113.30.00
+points = 
+#	!ZUH
+	N22.13.44, E113.39.57
+	N22.24.34, E113.49.44
+	N22.28.34, E114.00.54
+	!BEKOL
+#	N22.752, E115.289
+#	!VIPAP
+#	!SULAS
+#	!VIBOS
+	!NLG
+	!LANDA
+
+#[area7]
+#shape = polygon
+#altitude = 13000
+#name = SZ
+#labelpos = N22.35.00, E113.30.00
+#points = 
+#	!BEKOL
+#	!VIBOS
+#	!LANDA
+#	!NLG
+
+[airport1]
+name = Hong Kong International Airport
+code = VHHH
+runways =
+	VHHHRWYN, 07L, N22.18.39.30, E113.53.52.67, 70.9, 12467, 568, 571, 22
+	VHHHRWYS, 07R, N22.17.48.03, E113.53.57.99, 70.9, 12467, 525, 0, 27
+
+climbaltitude = 5000
+
+sids = 
+	!BEKOL
+	!DOTMI
+	!SOUSA
+	!AROXA
+	!CONGA
+	!KAPLI
+	!GRUPA
+	!NOMAN
+	!SABNO
+	!EPDOS
+	!SURFA
+	!DONKI
+	!MYWAY
+	!SIKOU
+	!ELATO
+	!ENVAR
+	!LELIM
+	!IDOSI
+	!RUMSY
+	!ALLEY
+	!TROUT
+	!OSUMO
+	!DULOP
+	!DUMOL
+	!ASOBA
+	!TAMOT
+	!EPKAL
+	!ENBOK
+	!LANDA
+	!CARSO
+	!DOSUT
+	!OCEAN
+	!LAKES
+	!RASSE
+	!SKATE
+	!ALLEY
+	!PECAN
+	!VENGO
+	!IKELA
+	!F
+
+entrypoints =
+#A470 DOTMI V5122
+#M503 LELIM V591
+#A1/G581 ELATO V522
+	54, FISHA
+	54, FISHA
+	54, FISHA
+	54, FISHA
+	54, FISHA
+#M501/A461 NOMAN V532
+	128, DAKTO
+#A583 SABNO V542
+#M771/M772 DULOP Q1 CARSO V551
+	172, HOCKY
+	172, HOCKY
+#P901/A1 IDOSI V561
+	252, GAMBA
+#A202/R339 SIKOU V571
+	267, GAMBA
+#R473
+	319, SIERA
+	319, SIERA
+	319, SIERA
+	319, SIERA
+
+gateways = 
+	DOTMI, e
+	LELIM, e
+	ELATO, e
+	ENVAR, e
+	KAPLI, e
+	NOMAN, e
+	SABNO, s
+	DULOP, s
+	EPKAL, s
+	IKELA, w
+	SIKOU, w
+	SIERA, n
+	BEKOL, n
+
+airlines = 
+#pax
+#local
+	cpa, 600, a21n, *, *
+	cpa, 5000, a333, *, *
+	cpa, 3000, b773, *, *
+	cpa, 7000, a359/a35k/b77w, *, *
+	hke, 5600, a320/a20n/a321, *, *
+	crk, 3600, a320, *, *
+	crk, 1800, a332/a333, *, *
+	crk, 300, a359, *, *
+#visitors
+	afl, 100, b77w, SIERA, BEKOL
+	axm, 100, a320/a20n, DULOP, EPKAL
+	xax, 200, a333, DULOP, EPKAL
+	kzr, 100, b763, SIERA, BEKOL
+	abl, 100, a321/a20n, ELATO, ENVAR
+	aca, 200, b789/b77l, ELATO, ENVAR
+	cca, 300, a333, SIERA, BEKOL
+	cca, 300, a321, SIERA, BEKOL
+	cca, 200, b737/b738, SIERA, BEKOL
+	afr, 100, b77w, SIERA, BEKOL
+	aic, 200, b788, SIERA/SIKOU, BEKOL/SIKOU
+	mau, 100, a339, IKELA, IKELA
+	anz, 100, b788, SABNO, SABNO
+	ang, 100, b763, NOMAN, NOMAN
+	asv, 100, a321, ELATO, ENVAR
+	ana, 500, b789/b77w, ELATO, ENVAR
+	aal, 100, b77w, ELATO/SIERA, ENVAR/BEKOL
+	aar, 300, a321/a333, ELATO, ENVAR
+	bkp, 100, a319, IKELA, IKELA
+	bbc, 100, b77w, SIKOU, SIKOU
+	baw, 100, a388, SIERA, BEKOL
+	kme, 100, a320, IKELA, IKELA
+	ceb, 200, a333, NOMAN, NOMAN
+	ceb, 200, a320/a321, NOMAN, NOMAN
+	cal, 200, a333, ELATO, ENVAR
+	cal, 200, b738, ELATO, ENVAR
+	ces, 200, a359, DOTMI/LELIM, DOTMI/LELIM
+	ces, 200, a332/a333, DOTMI/LELIM, DOTMI/LELIM
+	ces, 200, a321, SIERA, BEKOL
+	csn, 200, a320, SIERA, BEKOL
+	csn, 200, a332, SIERA, BEKOL
+	esr, 200, b738, ELATO, ENVAR
+	msr, 100, a333, SIERA, IKELA
+	ely, 100, b789, SIERA, BEKOL
+	uae, 100, b77w, SIERA, SIKOU
+	eth, 100, b788, SIKOU, IKELA
+	etd, 100, b77w, SIERA, SIKOU
+	eza, 100, b737, SIERA, BEKOL
+	eva, 300, a333/b77w/b789/b78x, ELATO, ENVAR
+	fji, 100, a359, NOMAN, NOMAN
+	fin, 100, a359, SIERA, BEKOL
+	gia, 200, a333/a339, SABNO, SABNO
+	igo, 100, a20n, SIERA/SIKOU, BEKOL/SIKOU
+	jal, 100, b77w, ELATO, ENVAR
+	jal, 100, b789, ELATO, ENVAR
+	jja, 100, b738, ELATO, ENVAR
+	jjp, 100, a320, ELATO, ENVAR
+	jna, 100, b738, ELATO, ENVAR
+	klm, 100, b789, SIERA, BEKOL
+	kal, 300, a333/b748/b77w/b789, ELATO, ENVAR
+	mkr, 100, a320/a321, IKELA, IKELA
+	dlh, 100, a343, SIERA, BEKOL
+	mas, 200, a333, DULOP, EPKAL
+	mxd, 100, b739, DULOP, EPKAL
+	mda, 200, e190, ELATO, ENVAR
+	mgl, 100, b763, SIERA, BEKOL
+	uba, 100, b738, SIKOU, SIKOU
+	rna, 100, a320, SIKOU, SIKOU
+	pic, 100, a320, IKELA, IKELA
+	apj, 100, a320/a20n, ELATO, ENVAR
+	apj, 100, a320/a20n, ELATO, ENVAR/KAPLI
+	pal, 200, a333/a359/b77w, NOMAN, NOMAN
+	apg, 100, a320, NOMAN, NOMAN
+	qfa, 200, a332/a333/a388, SABNO, SABNO
+	qtr, 100, a359, SIKOU, SIKOU
+	rba, 100, a20n/b788, DULOP, SABNO
+	rja, 100, b788, SIKOU, IKELA
+	sbi, 100, a320/a20n, ELATO, ENVAR
+	tgw, 200, b789, DULOP, EPKAL
+	cdg, 100, b738, SIERA, BEKOL
+	cdg, 100, b738, LELIM, LELIM
+	csh, 300, b738, DOTMI/LELIM, DOTMI/LELIM
+	csz, 200, a320, DOTMI/SIERA, DOTMI/BEKOL
+	csc, 100, a321, SIERA, BEKOL
+	sia, 300, a359/b78x, DULOP, EPKAL
+	sia, 200, b77w, DULOP/ELATO, EPKAL/ENVAR/KAPLI
+	sej, 100, b738, SIERA/SIKOU, BEKOL/SIKOU
+	sej, 100, b738, SIKOU, SIKOU
+	cqh, 100, a320/a20n, LELIM, LELIM
+	swr, 100, b77w, SIERA, BEKOL
+	aiq, 100, a333, IKELA, IKELA
+	aiq, 100, a320/a20n, IKELA, IKELA
+	tha, 100, a333/a359/b77w, IKELA, IKELA
+	thd, 200, a320, IKELA, IKELA
+	thy, 100, b77w, SIERA, BEKOL
+	ual, 200, b77w, SIERA/ELATO, ENVAR/KAPLI
+	vjc, 200, a320, IKELA, IKELA
+	hvn, 100, b789, IKELA, IKELA
+	hvn, 100, a320/a20n, SIKOU, SIKOU
+	vir, 100, b789, SIERA, BEKOL
+	cxa, 100, b737/b738, DOTMI, DOTMI
+
+#cargo
+	cpa, 1500, b744/b748, *, *
+	crk, 300, a332, *, *
+	ahk, 600, a306, *, *
+	ahk, 100, a332, *, *
+	ahk, 200, a333, *, *
+	aar, 100, b744, ELATO, ENVAR
+	cal, 100, b744, ELATO, ENVAR
+	msr, 100, a332, IKELA, IKELA
+	uae, 100, b77l, SIERA, SIKOU
+	eth, 100, b77l, SIKOU, SIKOU
+	etd, 100, b77l, SIERA, SIKOU
+	eva, 100, b77l, ELATO, ENVAR
+	kal, 100, b744/b748, ELATO, ENVAR
+	gec, 90, b77l, SIERA, BEKOL
+	gec, 10, md11, SIERA, BEKOL
+	qtr, 100, b748/b77l, SIKOU, SIKOU
+	csc, 10, a332, SIERA, BEKOL
+	sia, 200, b744, DULOP/ELATO, EPKAL/ENVAR
+	thy, 100, b77l, SIERA, BEKOL
+	ups, 300, b748, ELATO, ENVAR
+	ups, 100, md11, ELATO, ENVAR
+	ups, 100, b763, ELATO, ENVAR
+	abw, 300, b744/b748/b77l, SIERA/NOMAN, BEKOL/NOMAN
+	ana, 200, b763/b77l, ELATO, ENVAR
+	tay, 100, a333, SIKOU, SIKOU
+	icl, 100, b744, SIERA, BEKOL
+	clx, 100, b744/b748, SIERA/ELATO, BEKOL/ENVAR
+	icv, 100, b744/b748, SIKOU/ELATO, SIKOU/ENVAR
+	cal, 100, b744/b77l, ELATO/NOMAN, ENVAR/NOMAN
+	ckk, 100, b744/b77l, SIERA/LELIM, BEKOL/LELIM
+	soo, 200, b77l, SIKOU/ELATO, SIKOU/ENVAR
+	cks, 200, b77l, SIKOU/ELATO, SIKOU/ENVAR
+	box, 100, b77l, SIERA, BEKOL
+	fdx, 500, b763/b77l/md11, SIERA/ELATO/SIKOU, BEKOL/ENVAR/KAPLI/SIKOU
+	gti, 100, b744/b748, SIERA/ELATO, ENVAR/KAPLI
+	kmi, 100, b734, SIKOU/IKELA, SIKOU/IKELA
+	mas, 100, a332, DULOP, EPKAL
+	nca, 200, b748, ELATO, ENVAR
+	pac, 100, b744/b748, DULOP, EPKAL
+	qfa, 100, b763, SABNO, SABNO
+	sva, 100, b748/b77l, SIKOU, SIKOU
+	run, 50, b744, SIKOU, SIKOU
+	abd, 50, b744, SIKOU, SIKOU
+	css, 100, b734, DOTMI, DOTMI
+	azg, 100, b748, SIERA, BEKOL
+	sej, 100, b737/b738, SIKOU, SIKOU
+	yzr, 200, b733, SIERA/LELIM, BEKOL/LELIM
+	rmy, 100, b734/b762, DULOP, EPKAL
+
+#rare
+	lni, 5, b739, SABNO, SABNO
+	koc-1, 1, a320, IKELA, IKELA
+	epa, 1, cl60, SIERA/DOTMI/LELIM/SIKOU, BEKOL/DOTMI/LELIM/SIKOU
+	n-123ab, 5, b737/b763/a319, *, *
+	af-1, 1, b744, ELATO/SIERA, ENVAR/BEKOL
+	code-1, 1, b744, ELATO, ENVAR
+	cf-1, 1, a310, ELATO/SIERA, ENVAR/BEKOL
+	cotam-1, 1, a332, SIERA, BEKOL
+	bga-1, 1, a3st/a337, *, *
+	m-abcd, 1, a343, SIERA, BEKOL
+	ur-aba, 1, a319, SIERA, BEKOL
+	svw, 2, a318/a319/b739/b763/glex, *, *
+	auh, 1, b772/b773/b788/b789, SIKOU, SIKOU
+	aws, 1, b737,  SIKOU, SIKOU
+	hb-abc, 1, a319, SIKOU, SIKOU
+	qaf, 1, a332/a342/a343/a345/b748, SIKOU, SIKOU
+	gaf-1, 1, a343, SIERA, BEKOL
+	sva, 1, a342, SIKOU, SIKOU
+	aic-1, 1, b744, SIKOU, SIKOU
+	5u-grn, 1, b737, SIKOU, SIKOU
+	ame-1, 1, a310, SIERA, BEKOL
+	brs-1, 1, a319, ELATO, ENVAR/KAPLI
+	asy-1, 1, b737, SABNO, SABNO
+	ssg-1, 1, a319, SIERA, BEKOL
+	saa, 1, a346, DULOP, EPKAL
+	tc-abc, 1, a332, SIERA, BEKOL
+	cca-1, 1, b744, SIERA, BEKOL
+
+[airport2]
+name = Macau International Airport
+code = MC
+runways =
+	VMMCRWY, 16, N22.09.38.31, E113.35.14.14, 161, 10544, 1195, 1215, 20
+#fake runway for LLZ 16
+	VMMCRWYLLZ, 16C, N22.09.54, E113.33.05, 215, 10544, 1195, 1215, 20
+inboundbeacon = MCU
+traffic = 10
+
+climbaltitude = 6000
+
+sids = 
+	!BEKOL
+	!DOTMI
+	!KAPLI
+	!NOMAN
+	!SABNO
+	!EPDOS
+	!SIKOU
+	!ELATO
+	!ENVAR
+	!LELIM
+	!IDOSI
+	!ARROW
+	!SAMMI
+
+entrypoints =
+#A470 DOTMI DCT SAMMI J101
+#A1/G581 ELATO V522
+	49, NEDLE
+	49, NEDLE
+#A583 SABNO DCT TOFEE DCT SUKER DCT ARROW J103
+#M771/M772 DUMOL J103
+	181, ISBAN
+#P901/A1 IDOSI DCT DASON J104
+#A202/R339 SIKOU J104
+	258, DASON
+
+gateways = 
+	DOTMI, e
+	LELIM, e
+	ELATO, e
+	ENVAR, e
+	KAPLI, e
+	NOMAN, e
+	SABNO, s
+	DULOP, s
+	EPKAL, s
+	IKELA, w
+#	BIGRO, w
+#	SAREX, n
+#	SHL, n
+
+airlines = 
+#pax
+	xax, 200, a320/a20n, DULOP, EPKAL
+	abl, 100, a320, ELATO, ENVAR
+	kor, 50, t204, ELATO, ENVAR
+	amu, 4000, a320/a20n/a321/a21n, *, *
+	bav, 10, a321/a20n, IKELA, IKELA
+	kme, 200, a319, IKELA, IKELA
+	ceb, 300, a20n/a21n/a320/a321, SABNO, NOMAN
+	ces, 100, a321, DOTMI, LELIM
+	esr, 100, b738, ELATO, ENVAR
+	eva, 300, a321/a333/b77w/b789/b78x, ELATO, ENVAR
+	jcc, 100, a320, IKELA, IKELA
+	jja, 100, b738, ELATO, ENVAR
+	jna, 100, b738, ELATO, ENVAR
+	dkh, 100, a320/a20n, DOTMI, LELIM
+	mkr, 200, a320, IKELA/SABNO, IKELA/SABNO
+	pal, 100, a321/a21n/a333, NOMAN, NOMAN
+	apg, 200, a320, NOMAN, NOMAN
+	ryl, 10, a320, NOMAN, NOMAN
+	tgw, 100, a320, DULOP, EPKAL
+	csh, 100, b738, DOTMI, LELIM
+	cqh, 200, a320/a20n, DOTMI/LELIM, DOTMI/LELIM
+	sjx, 100, a21n, ELATO, ENVAR
+	aiq, 300, a320/a20n, IKELA, IKELA
+	ttw, 100, a320, ELATO, ENVAR
+	twb, 100, b738, ELATO, ENVAR
+	cxa, 300, b738, DOTMI, DOTMI
+#cargo
+	mas, 100, a332, DULOP, EPKAL
+	qtr, 100, b77l, DULOP/ELATO, EPKAL/ENVAR
+
+#[airport3]
+#name = Shenzhen Bao'an International Airport
+#code = SZ
+#runways =
+
+#ILS RWY 07L
+[approach1]
+runway = VHHHRWYN
+beacon = !LIMES
+route1 = @ILSRWY07L
+	338
+	!LIMES, 6000
+	!TONIC, 3500, 180
+	!VH710, 2500
+#	!VH711, 1600, 160
+	4.8, 1600, 160
+
+[approach2]
+runway = VHHHRWYN
+beacon = !TONIC
+route1 = 
+	338
+	!TONIC, 3500, 180
+	!VH710, 2500
+#	!VH711, 1600, 160
+	4.8, 1600, 160
+
+[approach3]
+runway = VHHHRWYN
+beacon = !VH710
+route1 = 
+	36
+	!VH710, 2500, 180
+#	!VH711, 1600, 160
+	4.8, 1600, 160
+
+#ILS RWY 07L missed
+[approach4]
+runway = VHHHRWYN
+beacon = !DEDEE
+route1 = 
+	59
+	!DEDEE, 5000, 230
+	!VH753, 5000, 230
+	!VH754, 5000, 230
+	!SAMPU, 5000, 230
+	!TD
+	!GUAVA
+	!SOKOE
+	@ILSRWY07L
+
+[approach5]
+runway = VHHHRWYN
+beacon = !SAMPU
+route1 = 
+	112
+	!SAMPU, 5000, 230
+	!TD
+	!GUAVA
+	!SOKOE
+	@ILSRWY07L
+
+#ILS RWY 07R
+[approach6]
+runway = VHHHRWYS
+beacon = !LIMES
+route1 = @ILSRWY07R
+	338
+	!LIMES, 6000
+	!STELA, 4000, 180
+	!VH720
+#	!VH721, 1600, 160
+	4.8, 1600, 160
+
+[approach7]
+runway = VHHHRWYS
+beacon = !STELA
+route1 = 
+	338
+	!STELA, 4000, 180
+	!VH720
+#	!VH721, 1600, 160
+	4.8, 1600, 160
+
+[approach8]
+runway = VHHHRWYS
+beacon = !VH720
+route1 = 
+	31
+	!VH720, 2500, 180
+#	!VH721, 1600, 160
+	4.8, 1600, 160
+
+#ILS RWY 07R missed
+[approach9]
+runway = VHHHRWYS
+beacon = !PORPA
+route1 = 
+	74
+	!PORPA, 5000
+	!PORPAFO
+	!GUAVA
+	!SOKOE
+	@ILSRWY07R
+
+[approach10]
+runway = VHHHRWYS
+beacon = !PORPAFO
+route1 = 
+	74
+	!PORPAFO
+	!GUAVA
+	!SOKOE
+	@ILSRWY07R
+
+#ILS RWY 25R
+[approach11]
+runway = VHHHRWYN, rev
+beacon = TD
+route1 = @ILSRWY25R
+	344
+	!TD, 8000
+	!TORUB, 6500
+	!PLOVE, 5500
+	!RIVER, 4500, 180
+	13.9, 4500, 180
+
+[approach12]
+runway = VHHHRWYN, rev
+beacon = !PLOVE
+route1 = 
+	254
+	!PLOVE, 5500
+	!RIVER, 4500, 180
+	13.9, 4500, 180
+
+[approach13]
+runway = VHHHRWYN, rev
+beacon = !RIVER
+route1 = 
+	254
+	!RIVER, 4500, 180
+	13.9, 4500, 180
+
+#ILS RWY 25R missed
+[approach14]
+runway = VHHHRWYN, rev
+beacon = LKC
+route1 = @ILSRWY25RMA
+	231
+	!LKC
+	!LKC074@TD301
+	@ILSRWY25R
+
+[approach15]
+runway = VHHHRWYN, rev
+beacon = !MA25R
+route1 = 
+	254
+	!ITFRD3
+	!ITFRD3FO
+	!LKCR231D3
+	@ILSRWY25RMA
+
+#ILS RWY 25L
+[approach16]
+runway = VHHHRWYS, rev
+beacon = TD
+route1 = @ILSRWY25L
+	344
+	!TD, 8000
+	!SABOG
+	!MIRRS
+	!LOTUS, 4500, 180
+	13.9, 4500, 180
+
+[approach17]
+runway = VHHHRWYS, rev
+beacon = !MIRRS
+route1 = 
+	254
+	!MIRRS
+	!LOTUS, 4500, 180
+	13.9, 4500, 180
+
+[approach18]
+runway = VHHHRWYS, rev
+beacon = !LOTUS
+route1 = 
+	254
+	!LOTUS, 4500, 180
+	13.9, 4500, 180
+
+#ILS RWY 25L missed
+[approach19]
+runway = VHHHRWYS, rev
+beacon = !PRAWN
+route1 = 
+	254
+	!PRAWN
+	!PRAWNFO
+	!PRAWNFO166@TD251
+	@ILSRWY25L
+
+[approach20]
+runway = VHHHRWYS, rev
+beacon = !PRAWNFO
+route1 = 
+	254
+	!PRAWNFO
+	!PRAWNFO166@TD251
+	@ILSRWY25L
+
+#ABBEY 3A
+[approach21]
+runway = VHHHRWYN
+beacon = ABBEY
+route1 = @ABBEY3A
+	271
+	!ABBEY
+	!MUSEL, 13000, 280
+	!TAMAR
+	!TD
+	!GUAVA, 11000
+	!SOKOE, 8000
+	@ILSRWY07L
+
+[approach22]
+runway = VHHHRWYN
+beacon = MUSEL
+route1 = 
+	271
+	!MUSEL, 13000, 280
+	!TAMAR
+	!TD
+	!GUAVA, 11000
+	!SOKOE, 8000
+	@ILSRWY07L
+
+[approach23]
+runway = VHHHRWYN
+beacon = TAMAR
+route1 = 
+	271
+	!TAMAR
+	!TD
+	!GUAVA, 11000
+	!SOKOE, 8000
+	@ILSRWY07L
+
+[approach24]
+runway = VHHHRWYN
+beacon = TD
+route1 = 
+	271
+	!TD
+	!GUAVA, 11000
+	!SOKOE, 8000
+	@ILSRWY07L
+
+[approach25]
+runway = VHHHRWYN
+beacon = GUAVA
+route1 = 
+	251
+	!GUAVA, 11000
+	!SOKOE, 8000
+	@ILSRWY07L
+
+[approach26]
+runway = VHHHRWYN
+beacon = !SOKOE
+route1 = 
+	251
+	!SOKOE, 8000
+	@ILSRWY07L
+
+#ABBEY 2B
+[approach27]
+runway = VHHHRWYN, rev
+beacon = ABBEY
+route1 = @ABBEY2B
+	271
+	!ABBEY, 15000
+	!MUSEL, 13000, 280
+	!TAMAR
+	@ILSRWY25R
+
+[approach28]
+runway = VHHHRWYN, rev
+beacon = MUSEL
+route1 = 
+	271
+	!MUSEL, 13000, 280
+	!TAMAR
+	@ILSRWY25R
+
+[approach29]
+runway = VHHHRWYN, rev
+beacon = TAMAR
+route1 = 
+	271
+	!TAMAR
+	@ILSRWY25R
+
+#BETTY 2A
+[approach30]
+runway = VHHHRWYN
+beacon = BETTY
+route1 = @BETTY2A
+	345
+	!BETTY
+	!MANGO, 13000, 280
+	!GUAVA, 11000
+	!SOKOE, 8000
+	@ILSRWY07L
+
+[approach31]
+runway = VHHHRWYN
+beacon = MANGO
+route1 = 
+	345
+	!MANGO, 13000, 280
+	!GUAVA, 11000
+	!SOKOE, 8000
+	@ILSRWY07L
+
+#BETTY 2B
+[approach32]
+runway = VHHHRWYN, rev
+beacon = BETTY
+route1 = @BETTY2B
+	345
+	!BETTY
+	!MANGO, 13000, 280
+	@ILSRWY25R
+
+[approach33]
+runway = VHHHRWYN, rev
+beacon = MANGO
+route1 = 
+	345
+	!MANGO, 13000, 280
+	@ILSRWY25R
+
+#CANTO 3A
+[approach34]
+runway = VHHHRWYN
+beacon = CANTO
+route1 = @CANTO3A
+	48
+	!CANTO, 16000, 280
+	!MURRY, 13000
+	!SILVA
+	@ILSRWY07L
+
+[approach35]
+runway = VHHHRWYN
+beacon = MURRY
+route1 = 
+	46
+	!MURRY, 13000
+	!SILVA
+	@ILSRWY07L
+
+[approach36]
+runway = VHHHRWYN
+beacon = !SILVA
+route1 = 
+	46
+	!SILVA
+	@ILSRWY07L
+
+#CANTO 2B
+[approach37]
+runway = VHHHRWYN, rev
+beacon = CANTO
+route1 = @CANTO2B
+	48
+	!CANTO, 18000, 280
+	!MURRY, 15000
+	!GOODI
+	!MONTY, 9000
+	@ILSRWY25R
+
+[approach38]
+runway = VHHHRWYN, rev
+beacon = MURRY
+route1 = 
+	46
+	!MURRY, 15000
+	!GOODI
+	!MONTY, 9000
+	@ILSRWY25R
+
+[approach39]
+runway = VHHHRWYN, rev
+beacon = !GOODI
+route1 = 
+	32
+	!GOODI
+	!MONTY, 9000
+	@ILSRWY25R
+
+[approach40]
+runway = VHHHRWYN, rev
+beacon = !MONTY
+route1 = 
+	75
+	!MONTY, 9000
+	@ILSRWY25R
+
+#SIERA 7A
+[approach41]
+runway = VHHHRWYN
+beacon = SIERA
+#lower altitudes than CANTO3A due to flyby CANTO resulting in shorter track distance
+route1 = 
+	160
+	!SIERA, 19000, 280
+	!CANTO, 15000, 280
+	!MURRY, 13000
+	!SILVA
+	@ILSRWY07L
+
+#SIERA 7C
+[approach42]
+runway = VHHHRWYN
+beacon = SIERA
+route1 = @SIERA7C
+	160
+	!SIERA, 23000, 280
+	!BORDA, 23000, 250
+	!ROCCA, 19000
+	@CANTO3A
+
+[approach43]
+runway = VHHHRWYN
+beacon = BORDA
+route1 = 
+	78
+	!BORDA, 23000, 250
+	!ROCCA
+	@CANTO3A
+
+route2 = 
+	208
+	@SIERA7C
+
+[approach44]
+runway = VHHHRWYN
+beacon = ROCCA
+route1 = 
+	74
+	!ROCCA
+	@CANTO3A
+
+#SIERA 6B
+[approach45]
+runway = VHHHRWYN, rev
+beacon = SIERA
+route1 = 
+	160
+	!SIERA, 25000, 280
+	@CANTO2B
+
+#SIERA 6D
+[approach46]
+runway = VHHHRWYN, rev
+beacon = SIERA
+route1 = 
+	160
+	!SIERA, 30000, 280
+	!BORDA, 25000, 250
+	!ROCCA, 21000
+	@CANTO2B
+
+[approach47]
+runway = VHHHRWYN, rev
+beacon = BORDA
+route1 = 
+	208
+	!BORDA, 25000, 250
+	!ROCCA
+	@CANTO2B
+
+[approach48]
+runway = VHHHRWYN, rev
+beacon = ROCCA
+route1 = 
+	74
+	!ROCCA, 21000
+	@CANTO2B
+
+#V512/V591/V522
+[approach49]
+runway = VHHHRWYN
+beacon = FISHA
+route1 = 
+	271
+	!FISHA, 22000
+	@ABBEY3A
+
+[approach50]
+runway = VHHHRWYN, rev
+beacon = FISHA
+route1 = 
+	271
+	!FISHA, 22000
+	@ABBEY2B
+
+#V532/V525/W29
+[approach51]
+runway = VHHHRWYN
+beacon = MEPUT
+route1 = 
+	187
+	!MEPUT
+	!EATON
+	!DAKTO
+	!SONNY, 26000
+	@BETTY2A
+
+[approach52]
+runway = VHHHRWYN
+beacon = EATON
+route1 = 
+	248
+	!EATON
+	!DAKTO
+	!SONNY, 26000
+	@BETTY2A
+
+[approach53]
+runway = VHHHRWYN
+beacon = DAKTO
+route1 = 
+	318
+	!DAKTO
+	!SONNY, 26000
+	@BETTY2A
+
+[approach54]
+runway = VHHHRWYN
+beacon = SONNY
+route1 = 
+	318
+	!SONNY, 26000
+	@BETTY2A
+
+[approach55]
+runway = VHHHRWYN, rev
+beacon = MEPUT
+route1 = 
+	187
+	!MEPUT
+	!EATON
+	!DAKTO
+	!SONNY, 26000
+	@BETTY2B
+
+[approach56]
+runway = VHHHRWYN, rev
+beacon = EATON
+route1 = 
+	248
+	!EATON
+	!DAKTO
+	!SONNY, 26000
+	@BETTY2B
+
+[approach57]
+runway = VHHHRWYN, rev
+beacon = DAKTO
+route1 = 
+	318
+	!DAKTO
+	!SONNY, 26000
+	@BETTY2B
+
+[approach58]
+runway = VHHHRWYN, rev
+beacon = SONNY
+route1 = 
+	318
+	!SONNY, 26000
+	@BETTY2B
+
+#V542/V551
+[approach59]
+runway = VHHHRWYN
+beacon = HOCKY
+route1 = 
+	358
+	!HOCKY
+	!CYBER, 26000
+	@BETTY2A
+
+[approach60]
+runway = VHHHRWYN
+beacon = CYBER
+route1 = 
+	358
+	!CYBER, 26000
+	@BETTY2A
+
+[approach61]
+runway = VHHHRWYN, rev
+beacon = HOCKY
+route1 = 
+	358
+	!HOCKY
+	!CYBER, 26000
+	@BETTY2B
+
+[approach62]
+runway = VHHHRWYN, rev
+beacon = CYBER
+route1 = 
+	358
+	!CYBER, 26000
+	@BETTY2B
+
+#V561/V571
+[approach63]
+runway = VHHHRWYN
+beacon = GAMBA
+route1 = 
+	74
+	!GAMBA
+	!MAPLE, 26000
+	!COMBI, 21000
+	!ROCCA, 19000
+	@CANTO3A
+
+[approach64]
+runway = VHHHRWYN
+beacon = MAPLE
+route1 = 
+	74
+	!MAPLE, 26000
+	!COMBI, 21000
+	!ROCCA, 19000
+	@CANTO3A
+
+[approach65]
+runway = VHHHRWYN
+beacon = COMBI
+route1 = 
+	74
+	!COMBI, 21000
+	!ROCCA, 19000
+	@CANTO3A
+
+[approach66]
+runway = VHHHRWYN, rev
+beacon = GAMBA
+route1 = 
+	74
+	!GAMBA
+	!MAPLE, 26000
+	!COMBI, 23000
+	!ROCCA, 21000
+	@CANTO2B
+
+[approach67]
+runway = VHHHRWYN, rev
+beacon = MAPLE
+route1 = 
+	74
+	!MAPLE, 26000
+	!COMBI, 23000
+	!ROCCA, 21000
+	@CANTO2B
+
+[approach68]
+runway = VHHHRWYN, rev
+beacon = COMBI
+route1 = 
+	74
+	!COMBI, 23000
+	!ROCCA, 21000
+	@CANTO2B
+
+
+[departure1]
+runway = VHHHRWYS
+
+route1 = BEKOL3A, Bekol 3 Alpha
+	!PORPA
+	!PORPAFO
+	!TD
+	!ATENA
+	!BEKOL
+	!IDUMA
+	!SHL
+
+route2 = @LAKES3A
+	!PORPA
+	!PORPAFO
+	!TD
+	!SHELY
+	!LAKES
+
+route3 = LAKES3A V1, Lakes 3 Alpha Victor 1
+	@LAKES3A
+	!VENGO
+	!SOUSA
+	!DOTMI
+
+route4 = LAKES3A V13, Lakes 3 Alpha Victor 1 3
+	@LAKES3A
+	!VENGO
+	!SOUSA
+	!AROXA
+	!NUSTO
+	!LELIM
+
+route5 = @OCEAN2A
+	!PORPA
+	!PORPAFO
+	!TD
+	!OCEAN
+
+route6 = OCEAN2A V3, Ocean 2 Alpha Victor 3
+	@OCEAN2A
+	!RASSE
+	!CONGA
+	!ENVAR
+
+route7 = OCEAN2A KAPLI, Ocean 2 Alpha Kapli
+	@OCEAN2A
+	!SKATE
+	!KAPLI
+
+route8 = OCEAN2A V4, Ocean 2 Alpha Victor 4
+	@OCEAN2A
+	!SKATE
+	!GRUPA
+	!NOMAN
+
+route9 = OCEAN2A V5, Ocean 2 Alpha Victor 5
+	@OCEAN2A
+	!SKATE
+	!GRUPA
+	!SABNO
+
+route10 = @PECAN1A
+	!PORPA
+	!PORPAFO
+	!RAMEN
+	!BREAM
+	!TITAN
+	!PECAN
+
+route11 = PECAN1A V10, Pecan 1 Alpha Victor 1 0
+	@PECAN1A
+	!ALLEY
+	!DONKI
+	!SIKOU
+
+route12 = PECAN1A V11, Pecan 1 Alpha Victor 1 1
+	@PECAN1A
+	!LEMON
+	!SURFA
+	!IDOSI
+
+route13 = PECAN1A V12, Pecan 1 Alpha Victor 1 2
+	@PECAN1A
+	!LEMON
+	!EPDOS
+
+
+[departure2]
+runway = VHHHRWYS, rev
+
+route1 = BEKOL2B, Bekol 2 Bravo
+	!PRAWN
+	!PRAWNFO
+	!RUMSY
+	!TUNNA
+	!SAMON
+	!BEKOL
+	!IDUMA
+	!SHL
+
+route2 = @LAKES2B
+	!PRAWN
+	!PRAWNFO
+	!RUMSY
+	!TUNNA
+	!TROUT
+	!LAKES
+
+route3 = LAKES2B V1, Lakes 2 Bravo Victor 1
+	@LAKES2B
+	!VENGO
+	!SOUSA
+	!DOTMI
+
+route4 = LAKES2B V13, Lakes 2 Bravo Victor 1 3
+	@LAKES2B
+	!VENGO
+	!SOUSA
+	!AROXA
+	!NUSTO
+	!LELIM
+
+route5 = @OCEAN2B
+	!PRAWN
+	!PRAWNFO
+	!RUMSY
+	!TUNNA
+	!TROUT
+	!OCEAN
+
+route6 = OCEAN2B V3, Ocean 2 Bravo Victor 3
+	@OCEAN2B
+	!RASSE
+	!CONGA
+	!ENVAR
+
+route7 = OCEAN2B KAPLI, Ocean 2 Bravo Kapli
+	@OCEAN2B
+	!SKATE
+	!KAPLI
+
+route8 = OCEAN2B V4, Ocean 2 Bravo Victor 4
+	@OCEAN2B
+	!SKATE
+	!GRUPA
+	!NOMAN
+
+route9 = OCEAN2B V5, Ocean 2 Bravo Victor 5
+	@OCEAN2B
+	!SKATE
+	!GRUPA
+	!SABNO
+
+route10 = @PECAN1B
+	!PRAWN
+	!PRAWNFO
+	!RUMSY
+	!TUNNA
+	!TITAN
+	!PECAN
+
+route11 = PECAN1B V10, Pecan 1 Bravo Victor 1 0
+	@PECAN1B
+	!ALLEY
+	!DONKI
+	!SIKOU
+
+route12 = PECAN1B V11, Pecan 1 Bravo Victor 1 1
+	@PECAN1B
+	!LEMON
+	!SURFA
+	!IDOSI
+
+route13 = PECAN1B V12, Pecan 1 Bravo Victor 1 2
+	@PECAN1B
+	!LEMON
+	!EPDOS
+
+[approach69]
+runway = VMMCRWYLLZ
+beacon = ZUH
+
+route1 = @LLZRWY16ZUH
+	328
+	!ZUH, 5900
+	!MC512, 4000, 190
+	!MC511, 3500, 190
+	!MC510, 2500, 190
+	6, 1800, 185
+
+[approach70]
+runway = VMMCRWYLLZ
+beacon = CHALI
+
+route1 = @CHALI5B
+	26
+	!CHALI, 11000
+	!RUNLI, 9000
+	!MC513
+	!INDUS, 8900
+	@LLZRWY16ZUH
+
+[approach71]
+runway = VMMCRWYLLZ
+beacon = RUNLI
+
+route1 = 
+	26
+	!RUNLI, 9000
+	!MC513
+	!INDUS, 8900
+	@LLZRWY16ZUH
+
+[approach72]
+runway = VMMCRWYLLZ
+beacon = !MC513
+
+route1 = 
+	328
+	!MC513
+	!INDUS, 8900
+	@LLZRWY16ZUH
+
+[approach73]
+runway = VMMCRWYLLZ
+beacon = !INDUS
+
+route1 = 
+	328
+	!INDUS, 8900
+	@LLZRWY16ZUH
+
+[approach74]
+runway = VMMCRWYLLZ
+beacon = SMT
+
+route1 = @SMT5B
+	258
+	!SMT
+	!MC601
+	!HAZEL, 11000
+	!MC513
+	!INDUS, 8900
+	@LLZRWY16ZUH
+
+[approach75]
+runway = VMMCRWYLLZ
+beacon = HAZEL
+
+route1 = 
+	222
+	!HAZEL, 11000
+	!MC513
+	!INDUS, 8900
+	@LLZRWY16ZUH
+
+[approach76]
+runway = VMMCRWYLLZ
+beacon = NEDLE
+
+route1 = 
+	269
+	!NEDLE, 23000
+	!PONTI
+	!BUMDI
+	@SMT5B
+
+[approach77]
+runway = VMMCRWYLLZ
+beacon = PONTI
+
+route1 = 
+	269
+	!PONTI
+	!BUMDI
+	@SMT5B
+
+[approach78]
+runway = VMMCRWYLLZ
+beacon = BUMDI
+
+route1 = 
+	269
+	!BUMDI
+	@SMT5B
+
+#[approach77]
+#runway = VMMCRWYLLZ
+#beacon = ARROW
+#
+#route1 = 
+#	358
+#	!ARROW
+#	!ISBAN, 20000
+#	!ROBIN
+#	@CHALI5B
+
+[approach79]
+runway = VMMCRWYLLZ
+beacon = ISBAN
+
+route1 = 
+	358
+	!ISBAN, 20000
+	!ROBIN
+	@CHALI5B
+
+[approach80]
+runway = VMMCRWYLLZ
+beacon = ROBIN
+
+route1 = 
+	358
+	!ROBIN
+	@CHALI5B
+
+[approach81]
+runway = VMMCRWYLLZ
+beacon = DASON
+
+route1 = 
+	74
+	!DASON
+	!COTON, 12000
+	@CHALI5B
+
+[approach82]
+runway = VMMCRWYLLZ
+beacon = COTON
+
+route1 = 
+	74
+	!COTON, 12000
+	@CHALI5B
+
+[approach83]
+runway = VMMCRWY, rev
+beacon = !PAPA
+
+route1 = @ILSRWY34
+	344
+	!PAPA, 3000, 190
+	10, 3000, 190
+
+[approach84]
+runway = VMMCRWY, rev
+beacon = !MC611
+
+route1 = @ILSRWY34MC611
+	344
+	!MC611, 6000
+	!MC610
+	@ILSRWY34
+
+[approach85]
+runway = VMMCRWY, rev
+beacon = HAZEL
+
+route1 = @ILSRWY34HAZEL
+	222
+	!HAZEL, 11000
+	!MC613
+	!MC612
+	!MC610
+	@ILSRWY34
+
+[approach86]
+runway = VMMCRWY, rev
+beacon = UJ
+
+route1 = @ILSRWY34UJ
+	115
+	!UJ, 7900
+	!R, 5900
+	!MC612
+	!MC610
+	@ILSRWY34
+
+[approach87]
+runway = VMMCRWY, rev
+beacon = !R
+
+route1 = 
+	115
+	!R, 5900
+	!MC612
+	!MC610
+	@ILSRWY34
+
+[approach88]
+runway = VMMCRWY, rev
+beacon = MCU
+
+route1 = @ILSRWY34MCU
+	182
+	!MCU, 6900
+	!MC614
+	!MC613
+	!MC612
+	!MC610
+	@ILSRWY34
+
+#ILS RWY 34 missed
+[approach89]
+runway = VMMCRWY, rev
+beacon = ZAO
+
+route1 = 
+	32
+	!ZAO
+	!MC420
+	!MC411
+	!MC615
+	!HAZEL, 11000
+	!MC613
+	!MC612
+	!MC610
+	@ILSRWY34
+
+[approach90]
+runway = VMMCRWY, rev
+beacon = !MC420
+
+route1 = 
+	41
+	!MC420
+	!MC411
+	!MC615
+	!HAZEL, 11000
+	!MC613
+	!MC612
+	!MC610
+	@ILSRWY34
+
+[approach91]
+runway = VMMCRWY, rev
+beacon = !MC411
+
+route1 = 
+	81
+	!MC411
+	!MC615
+	!HAZEL, 11000
+	!MC613
+	!MC612
+	!MC610
+	@ILSRWY34
+
+[approach92]
+runway = VMMCRWY, rev
+beacon = CHALI
+
+route1 = @CHALI4A
+	26
+	!CHALI, 11000
+	!RUNLI, 9000
+	@ILSRWY34MC611
+
+[approach93]
+runway = VMMCRWY, rev
+beacon = RUNLI
+
+route1 = 
+	26
+	!RUNLI, 9000
+	@ILSRWY34MC611
+
+[approach94]
+runway = VMMCRWY, rev
+beacon = SMT
+route1 = @SMT4A
+	258
+	!SMT
+	!MC601
+	@ILSRWY34HAZEL
+
+[approach95]
+runway = VMMCRWY, rev
+beacon = NEDLE
+
+route1 = 
+	269
+	!NEDLE, 23000
+	!PONTI
+	!BUMDI
+	@SMT4A
+
+[approach96]
+runway = VMMCRWY, rev
+beacon = PONTI
+
+route1 = 
+	269
+	!PONTI
+	!BUMDI
+	@SMT4A
+
+[approach97]
+runway = VMMCRWY, rev
+beacon = BUMDI
+
+route1 = 
+	269
+	!BUMDI
+	@SMT4A
+
+#[approach95]
+#runway = VMMCRWY, rev
+#beacon = ARROW
+#
+#route1 = 
+#	358
+#	!ARROW
+#	!ISBAN, 20000
+#	!ROBIN
+#	@CHALI4A
+
+[approach98]
+runway = VMMCRWY, rev
+beacon = ISBAN
+
+route1 = 
+	358
+	!ISBAN, 20000
+	!ROBIN
+	@CHALI4A
+
+[approach99]
+runway = VMMCRWY, rev
+beacon = ROBIN
+
+route1 = 
+	358
+	!ROBIN
+	@CHALI4A
+
+[approach100]
+runway = VMMCRWY, rev
+beacon = DASON
+
+route1 = 
+	74
+	!DASON
+	!COTON, 12000
+	@CHALI4A
+
+[approach101]
+runway = VMMCRWY, rev
+beacon = COTON
+
+route1 = 
+	74
+	!COTON, 12000
+	@CHALI4A
+
+[departure3]
+runway = VMMCRWY
+
+route1 = @ALLEY2P
+	!PAPA
+	!MULET
+	!ALLEY
+
+route2 = ALLEY2P, Alley 2 Papa
+	@ALLEY2P
+	!DONKI
+	!SIKOU
+
+route3 = ALLEY2P, Alley 2 Papa
+	@ALLEY2P
+	!SURFA
+	!IDOSI
+
+route4 = ALLEY2P, Alley 2 Papa
+	@ALLEY2P
+	!EPDOS
+
+route5 = @CONGA2P
+	!PAPA
+	!MULET
+	!SKATE
+	!CONGA
+	
+route6 = CONGA2P, Conga 2 Papa
+	@CONGA2P
+	!ENVAR
+
+route7 = @GRUPA2P
+	!PAPA
+	!MULET
+	!SKATE
+	!GRUPA
+
+route8 = GRUPA2P, Grupa 2 Papa
+	@GRUPA2P
+	!KAPLI
+
+route9 = GRUPA2P, Grupa 2 Papa
+	@GRUPA2P
+	!NOMAN
+
+route10 = GRUPA2P, Grupa 2 Papa
+	@GRUPA2P
+	!SABNO
+
+route11 = @SOUSA2P
+	!PAPA
+	!MULET
+	!SKATE
+	!SOUSA
+
+route12 = SOUSA2P, Sousa 2 Papa
+	@SOUSA2P
+	!DOTMI
+
+route13 = SOUSA2P, Sousa 2 Papa
+	@SOUSA2P
+	!AROXA
+	!NUSTO
+	!LELIM
+
+[departure4]
+runway = VMMCRWY, rev
+
+route1 = @RWY34DEP
+	!LATOP
+	!MC420
+	!MC411
+	!LKC
+
+route2 = @ALLEY2U
+	@RWY34DEP
+	!DOCTA
+	!BREAM
+	!TITAN
+	!PECAN
+	!ALLEY
+
+route3 = ALLEY2U, Alley 2 Uniform
+	@ALLEY2U
+	!DONKI
+	!SIKOU
+
+route4 = ALLEY2U, Alley 2 Uniform
+	@ALLEY2U
+	!SURFA
+	!IDOSI
+
+route5 = ALLEY2U, Alley 2 Uniform
+	@ALLEY2U
+	!EPDOS
+
+route6 = @CONGA3U
+	@RWY34DEP
+	!DOCTA
+	!OCEAN
+	!RASSE
+	!CONGA
+	
+route7 = CONGA3U, Conga 3 Uniform
+	@CONGA3U
+	!ENVAR
+
+route8 = @GRUPA3U
+	@RWY34DEP
+	!DOCTA
+	!OCEAN
+	!GRUPA
+
+route9 = GRUPA3U, Grupa 3 Uniform
+	@GRUPA3U
+	!KAPLI
+
+route10 = GRUPA3U, Grupa 3 Uniform
+	@GRUPA3U
+	!NOMAN
+
+route11 = GRUPA3U, Grupa 3 Uniform
+	@GRUPA3U
+	!SABNO
+
+route12 = @SOUSA3U
+	@RWY34DEP
+	!DOCTA
+	!LAKES
+	!SOUSA
+
+route13 = SOUSA3U, Sousa 3 Uniform
+	@SOUSA3U
+	!DOTMI
+
+route14 = SOUSA3U, Sousa 3 Uniform
+	@SOUSA3U
+	!AROXA
+	!NUSTO
+	!LELIM
+
+[configurations]
+config1 = 
+	0, VHHHRWYN, land
+	0, VHHHRWYS, startint
+	0, VMMCRWY, landstartrev, 359
+
+config2 = 
+	0, VHHHRWYN, landrev
+	0, VHHHRWYS, startrev
+	0, VMMCRWYLLZ, land
+	0, VMMCRWY, start
+
+[planetypes]
+types = 
+	hdjt, 6, 140, 250, 2.8, 3.2, 1500, 1800, 115, 125, 1.3, 1.5, honda jet
+	be9l, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
+	b350, 6, 90, 208, 2.8, 3.2, 1400, 1600, 100, 110, 1.2, 1.4, beech
+	h25b, 6, 150, 250, 2.8, 3.2, 1400, 1600, 110, 120, 1.2, 1.3, hawker
+	p1, 4, 160, 250, 2.8, 3.2, 1500, 1700, 130, 144, 1.3, 1.5, kawasaki
+	p3, 5, 160, 250, 2.8, 3.2, 1400, 1600, 120, 140, 1.2, 1.4, orion
+	ys11, 5, 160, 250, 2.8, 3.2, 1400, 1600, 110, 130, 1.2, 1.4, namc
+	kc2, 4, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, kawasaki
+	c130, 4, 140, 250, 2.8, 3.2, 1400, 1700, 110, 140, 1.3, 1.5, hercules
+	f15, 6, 170, 300, 3.2, 5.0, 2000, 4000, 135, 155, 1.8, 2.3, eagle
+	t4, 6, 150, 280, 3.0, 4.0, 2000, 3000, 115, 125, 1.5, 1.8, kawasaki
+	t204, 4, 160, 250, 2.3, 2.7, 1320, 1500, 123, 131, 1.2, 1.4, tupolev
