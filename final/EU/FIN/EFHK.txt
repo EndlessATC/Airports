@@ -2,7 +2,7 @@
 
 [airspace]
 elevation = 179
-center = N60.317199707, E24.963300705
+center = N60.33816, E24.95366
 magneticvar = 9.3
 floor = 1300
 descendaltitude = 10000		; minimum initial altitude for arrivals
@@ -161,27 +161,27 @@ sids =
 	VALOX, N59.72566, E24.01366, Koivu
 
 entrypoints =
-	274, LAKUT
-	226, DIVAM
-	055, VEPIN
-	157, INTOR
-	110, ROPAM
-	003, LUSEP
+	281, LAKUT
+	235, DIVAM
+	066, VEPIN
+	167, BALTI
+	122, ROPAM
+	349, LUSEP
 	
 airlines =
 	TRA, 4,	b737/b738,	Transavia,	w
 	KLM, 5,	b737/b738/e190/e170, KLM,	w
 	AFR, 2,	a319/a320,	Air France,	w
 	BAW, 3,	a319/a320/a321, Speedbird,	w
-	CSN, 1,	a380/b77W,	China Southern,	ne
+	CSN, 1,	a380/b77W,	China Southern,	e
 	DLH, 2,	a319/a320/a321, Lufthansa, w
 	FIN, 10, a319/a320/a321/a330/a350/e190/at72, Finnair, nwse
 	NAX, 5, b738, Norshuttle, nwse
 	IBK, 5, b738, Nortrans, nwse
-	TAP, 1, a319/a320/a321, Airportugal, nsw
+	TAP, 1, a319/a320/a321, Airportugal, w
 	JAL, 1, b789/b788, Japanair, e
 	AFL, 2, a320, AEROFLOT, e
-	SAS, 4, a320/a321/b738, Scandinavian, sw
+	SAS, 4, a320/a321/b738, Scandinavian, w
 	FDB, 2, b738, Skydubai , s
 	QTR, 2, b789/b788, qatari, s
 	THY, 2, b738/a321/a310, turkish, s
@@ -844,7 +844,7 @@ beacon = DIVAM
 route1 = 
 	058
 	N59.84233, E23.58950
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N59.97466, E24.24200
 	N60.01716, E24.48666
 	end, 083
@@ -853,10 +853,10 @@ route1 =
 
 [approach13]
 runway = rwy1
-beacon = PEXEN, N59.90783, E23.72133, -015
+beacon = PEXEN, N59.91333, E23.82416, -015
 route1 = 
 	051
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N59.97466, E24.24200
 	N60.01716, E24.48666
 	end, 063
@@ -1029,7 +1029,7 @@ beacon = DIVAM
 route1 = 
 	058
 	N59.84233, E23.58950
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N59.97466, E24.24200
 	N60.01716, E24.48666
 	end, 063
@@ -1037,10 +1037,10 @@ route1 =
 
 [approach27]
 runway = rwy2
-beacon = PEXEN, N59.90783, E23.72133
+beacon = PEXEN, N59.91333, E23.82416
 route1 = 
 	051
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N59.97466, E24.24200
 	N60.01716, E24.48666
 	end, 063
@@ -1392,7 +1392,7 @@ beacon = DIVAM
 route1 = 
 	058	
 	N59.84233, E23.58950
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N60.10100, E24.72166
 	N60.25883, E25.07566
 	N60.35300, E25.12283
@@ -1403,10 +1403,10 @@ route1 =
 
 [approach54]
 runway = rwy3
-beacon = PEXEN, N59.90783, E23.72133
+beacon = PEXEN, N59.91333, E23.82416
 route1 =
 	051
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N60.10100, E24.72166
 	N60.25883, E25.07566
 	N60.35300, E25.12283
@@ -1463,7 +1463,7 @@ route1 =
 
 [approach59]
 runway = rwy3
-beacon = SUTAX
+beacon = SUTAX, N60.48966, E24.98416
 route1 = 
 	324
 	N60.48966, E24.98416
@@ -1481,7 +1481,7 @@ route1 =
 	014
 	N59.82333, E25.18533
 	N59.90250, E25.25100
-	N59.87483, E25.31666
+	N59.97483, E25.31666
 	N60.10800, E25.25000
 	N60.35300, E25.12283
 	N60.43416, E25.04066
@@ -1495,7 +1495,7 @@ beacon = BALTI, N59.90250, E25.25100
 route1 = 
 	014
 	N59.90250, E25.25100
-	N59.87483, E25.31666
+	N59.97483, E25.31666
 	N60.10800, E25.25000
 	N60.35300, E25.12283
 	N60.43416, E25.04066
@@ -1505,10 +1505,10 @@ route1 =
 
 [approach62]
 runway = rwy3 
-beacon = HK806, N59.87483, E25.31666
+beacon = HK806, N59.97483, E25.31666
 route1 = 
 	014
-	N59.87483, E25.31666
+	N59.97483, E25.31666
 	N60.10800, E25.25000
 	N60.35300, E25.12283
 	N60.43416, E25.04066
@@ -1707,7 +1707,7 @@ beacon = DIVAM
 route1 = 
 	058
 	N59.84233, E23.58950
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N60.10266, E24.18800
 	N60.28333, E24.53716
 	N60.34033, E24.72466
@@ -1718,10 +1718,10 @@ route1 =
 
 [approach78]
 runway = rwy1, rev
-beacon = PEXEN, N59.90783, E23.72133
+beacon = PEXEN, N59.91333, E23.82416
 route1 = 
 	051
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N60.10266, E24.18800
 	N60.28333, E24.53716
 	N60.34033, E24.72466
@@ -2044,7 +2044,7 @@ beacon = DIVAM
 route1 = 
 	058
 	N59.84233, E23.58950
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N60.10100, E24.72166
 	N60.30883, E25.18916
 	N60.36716, E25.30600
@@ -2054,10 +2054,10 @@ route1 =
 
 [approach106]
 runway = rwy2, rev
-beacon = PEXEN, N59.90783, E23.72133
+beacon = PEXEN, N59.91333, E23.82416
 route1 = 
 	051
-	N59.90783, E23.72133
+	N59.91333, E23.82416
 	N60.10100, E24.72166
 	N60.30883, E25.18916
 	N60.36716, E25.30600
