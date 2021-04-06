@@ -164,12 +164,12 @@ sids =
 	VALOX, N59.72566, E24.01366, Koivu
 
 entrypoints =
-	281, LAKUT
-	235, DIVAM
-	066, VEPIN
-	167, BALTI
-	122, ROPAM
-	169, LUSEP
+	272, LAKUT
+	226, DIVAM
+	057, VEPIN
+	113, ROPAM
+	005, LUSEP
+	158, INTOR
 	
 airlines =
 	TRA, 4,	b737/b738,	Transavia,	w
