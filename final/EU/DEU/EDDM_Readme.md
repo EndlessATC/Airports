@@ -26,6 +26,10 @@ Second hub of Lufthansa, offering many international and intercontinental routes
 
 ## Changelog
 
+### v1.3
+
+- fix wrong heading on BETOS arrival
+
 ### v1.2
 
 - added rwy configs

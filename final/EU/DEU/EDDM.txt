@@ -1,4 +1,4 @@
-# EDDM v1.2
+# EDDM v1.3
 # Munich Airport "Franz Josef Strauß" in the south of Germany.
 
 [airspace]
@@ -987,7 +987,7 @@ route1 =
 	N48.068056, E11.350000
 	N48.238289, E11.555086
 	N48.302456, E12.409128
-	end, 260
+	end, 080
 # BETOS, DM452, DM459
 
 [approach49]
