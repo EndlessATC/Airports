@@ -1,8 +1,3 @@
-# This is an automatically generated airport file for Endless ATC.
-# Feel free to improve, use and share this file, at your own risk.
-# Data from ourairports.com.
-# Coastline from naturalearthdata.com.
-# See the example.txt airport for all possible sections and items to add to this file.
 
 [airspace]
 elevation = 17
@@ -12,6 +7,9 @@ seperation = 3
 center = N55.43940, E11.63150
 magneticvar = 2.306
 radius = 80
+handoff =
+	040,Sweden control,sweden control,128.625
+	200,Copenhagen control,copenhagen control,133.150
 beacons =
 	ERNOV, N056.10.07.90, E12.34.25.60, 0 ,ERNOV
 	MONAK, N54.56.44, E12.18.49, 0 , MONAK
@@ -263,27 +261,36 @@ points =
 	N056.02.00.000,E012.32.00.000
 [configurations]
 
-config1 = 
+config1 =
 	0, rwy1, startrev
 	0, rwy2 , landrev
-config2 = 
+config2 =
 	0, rwy1, land
 	0, rwy2 , start
+config3 =
+	0, rwy3, landrev
+	0, rwy1 , startrev
+config4 =
+	0, rwy3, landstartrev
+config4 =
+	0, rwy1, land
+	0,rwy3,landrev
+	0,rwy2,start
 ## score, identifier, use, <offsetheading>, <nosid>
 
 [airport1]
 name = Copenhagen Kastrup Airport
 code = EKCH
 runways =
-	rwy1, 04L, N55.5922, E12.6035, 41.0, 11811, 0, 1967, 13
-	rwy2, 04R, N55.6031, E12.633, 41.0, 10827, 0, 0, 12
-	rwy3, 12, N55.6276, E12.6297, 123.2, 10072, 2313, 886, 13
+	rwy1,	04L, N55.5922, E12.6035, 41.0, 11811, 0, 1967, 13,	3,	360.0,	3,	180.0,	0,	8.0,	0,	8.5,	118.100
+	rwy2, 04R, N55.6031, E12.633, 41.0, 10827, 0, 0, 12,	3,	360.0,	3,	180.0,	0,	8.0,	0,	8.5,	118.100
+	rwy3, 12, N55.6276, E12.6297, 123.2, 10072, 2313, 886, 13,	3,	360.0,	3,	180.0,	0,	8.0,	0,	8.5,	118.100
 entrypoints =
 	030, ERNOV
 	211, MONAK
 	281, TESPI
 	251, TUDLO
-sids = 
+sids =
 	kemax
 	odn
 	miksi
@@ -304,7 +311,7 @@ airlines =
 	fdb,2,b738,skydubai,se
 	vkg,4,a320,viking,swe
 	cxi,2,b738,touristic,se
-	qtr,2,a321/b788,qatari,se	
+	qtr,2,a321/b788,qatari,se
 [approach1]
 runway = rwy2,rev
 beacon = TUDLO
@@ -339,7 +346,7 @@ route1 =
 [approach4]
 runway = rwy2,rev
 beacon = ERNOV
-route1 = 
+route1 =
 	N056.10.07.90, E12.34.25.60
 	N055.57.25.000,E012.20.17.000
 	end, 208
@@ -348,7 +355,7 @@ route1 =
 [approach5]
 runway = rwy2,rev
 beacon = MONAK
-route1 = 
+route1 =
 	N54.56.44, E12.18.49
 	N55.00150, E12.37920
 	end, 031
@@ -387,7 +394,7 @@ route1 =
 [approach9]
 runway = rwy1
 beacon = ERNOV
-route1 = 
+route1 =
 	N056.10.07.90, E12.34.25.60
 	N055.55.16.000, E012.37.40.000
 	end, 169
@@ -396,7 +403,54 @@ route1 =
 [approach10]
 runway = rwy1
 beacon = MONAK
-route1 = 
+route1 =
+	N54.56.44, E12.18.49
+	N55.00150, E12.37920
+	end, 031
+[approach11]
+runway = rwy3,rev
+beacon = TUDLO
+route1 =
+	080
+	N055.16.33.000,E010.38.52.000
+	N055.19.46.999,E010.57.47.599
+	N55.43940, E11.63150
+	end, 112
+#TUDLO, LUGAS,KOR
+
+[approach12]
+runway = rwy3,rev
+beacon = TIDVU
+route1 =
+	293
+	N55.24.50.70, E13.33.27.10
+	end, 253
+#TIDVU
+
+[approach13]
+runway = rwy3,rev
+beacon = TESPI
+route1 =
+	293
+	N055.53.54.000,E010.31.51.999
+	N055.50.58.000,E010.55.55.000
+	N55.77410, E11.43920
+	end, 089
+#TESPI, ROSSI,TNO
+
+[approach14]
+runway = rwy3,rev
+beacon = ERNOV
+route1 =
+	N056.10.07.90, E12.34.25.60
+	N055.55.16.000, E012.37.40.000
+	end, 169
+#ERNOV,GITBU
+
+[approach15]
+runway = rwy3,rev
+beacon = MONAK
+route1 =
 	N54.56.44, E12.18.49
 	N55.00150, E12.37920
 	end, 031
