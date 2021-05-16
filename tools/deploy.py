@@ -53,11 +53,12 @@ def main(args):
         for file in glob.glob(path, recursive=True):
             print(f'Found {file}')
             if args.build:
+                preprocess = None
                 if not args.legacy:
-                    renumber.process(args, file)
-                file = expand.process(args, file)
+                    preprocess = renumber.process(args, file)
+                file = expand.process(args, file, preprocess)
                 if args.legacy:
-                    renumber.process(args, file)
+                    renumber.process_to_file(args, file)
             if args.deploy and not args.parse_only:
                 result = shutil.copy(file, destination)
                 print(f"Copied {file} to {result}")

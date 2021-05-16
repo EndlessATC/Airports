@@ -304,3 +304,12 @@ The preferred runway configuration for arrivals from the east. The straight-in t
 	- Added various minor fixes
 	- Added Akeno ACA area
 	- Removed training areas as they should be more inactive rather than active...?
+*	3.0.0 - 2021/03/xx
+	- Rewrite of source
+	- Add `RJBB` ARC series STARs and ILS Y approaches
+	- `CUE` Otsu VORDME decommissioned
+		- `MIDER` established
+		- `RJOO` OTSU FIVE DEPARTURE and KOMATSU TRANSITION abolished 
+		- `RJOO` PANAS ONE DEPARTURE and KOMAZ TRANSITION established
+		- `RJBE` OTSU TRANSITION abolished
+		- `RJBE` MIDER TRANSITION established

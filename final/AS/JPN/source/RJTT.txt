@@ -3659,7 +3659,7 @@ route1 = @!ILSZ34R
 
 [approach64]
 runway = RJAARWYB
-beacon = TEMIS, N35.32.01.71, E140.34.24.81, 333, Temis
+beacon = TEMIS
 
 route1 = @ILSZ34RTYLER
 	360

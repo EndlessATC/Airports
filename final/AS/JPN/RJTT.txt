@@ -8077,7 +8077,7 @@ route1 = 337
 
 [approach64]
 runway = RJAARWYB
-beacon = TEMIS, N35.32.01.71, E140.34.24.81, 333, Temis
+beacon = TEMIS
 route1 = 360
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
