@@ -10,7 +10,10 @@ above = 19000
 transition = 6000
 usa = false
 metric = false
-
+handoff =
+	350,agadir radar,agadir radar,124.550
+	170,casablanca radar,casablanca radar,125.500
+	030,casablanca radar,casablanca radar,125.500
 separation = 3
 boundary =
 	N33.70602229035439,W9.024132861747828
@@ -62,8 +65,8 @@ entrypoints =
 	090,LACAJ
 
 runways =
-	GMMNN, 17L, N33.384, W7.59352, 164.0, 12205, 0, 0, 633
-	GMMNS, 17R, N33.3831, W7.59743, 164.0, 12205, 0, 0, 636
+	GMMNN, 17L, N33.384, W7.59352, 164.0, 12205, 0, 0, 633,	3,	360.0,	3,	180.0,	0,	8.0,	0,	8.5,	118.500
+	GMMNS, 17R, N33.3831, W7.59743, 164.0, 12205, 0, 0, 636,	3,	360.0,	3,	180.0,	0,	8.0,	0,	8.5,	118.500
 climbaltitude = 5000
 sids =
 	LAKAM,N34.1872222, W007.7383333,LAKAM
@@ -103,7 +106,7 @@ entrypoints =
 	040,TUSOR
 
 runways =
-	GMME1, 03, N34.038, W6.76139, 31.0, 11483, 0, 0, 273
+	GMME1, 03, N34.038, W6.76139, 31.0, 11483, 0, 0, 273,	3,	360.0,	3,	180.0,	0,	8.0,	0,	8.5,	119.700
 airlines =
 	TRA,	2,	B737/B738,	Transavia,	ne
 	KLM,	2,	B737/B738/B744/B789/B788/A333/B77L/B77W/E190/E170, KLM,	ne
