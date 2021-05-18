@@ -421,7 +421,6 @@ def _process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
 
         _process_simple_approach_fix_list(fix_list[:-1], runway, fixes,
             tagged_routes[runway], generated_approaches, current_tag, top_level)
-        print(f"adding {fix_list[-1]} after processing {fix_list} for {runway or current_tag} to:\n", "\n".join(map(lambda g: g['tag'],filter(lambda g: 'tag' in g, generated_approaches[runway or current_tag]))))
         for generated_approach in generated_approaches[runway or current_tag]:
             if 'tag' in generated_approach:
                 tagged_routes[runway][generated_approach['tag']].append(fix_list[-1])
