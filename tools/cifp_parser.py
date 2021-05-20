@@ -1,9 +1,12 @@
 import csv
+import json
 import re
 import os
 from collections import defaultdict
 from pathlib import Path
+import configparser
 
+config = configparser.ConfigParser()
 script_dir = os.path.dirname(__file__)
 
 # this script was written by Captain Tux - https://github.com/CaptainTux
@@ -15,93 +18,14 @@ script_dir = os.path.dirname(__file__)
 # the download of the current version is available here:
 # https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/cifp/download/
 
-# make sure to change this variable to point at the right folder
-CIFP_FILENAME = 'CIFP/FAACIFP18'
-
 # don't touch this
 fieldnames = ['apt', 'id', 'transition', 'aob', 'fix', 'type', 'f_type', 'fix_type', 'index', 'name', 'lat', 'lon',
               'speed', 'alt_top', 'alt_min', 'alt_2', 'hdg']
 
-# pretty self explanatory, apch_default_top_alt is used for approaches starting at an IAF, so not for STARS
-star_default_top_alt = 14000
-star_default_top_speed = 250
-apch_default_top_alt = 6000
-max_approach_alt = 2500
-max_approach_speed = 220
 
-entrypoints = {'HAARP': {'bearing': 330, 'alt': 6000, 'speed': 220},
-               'KORRY': {'bearing': 220, 'alt': 8000, 'speed': 220},
-               'BEUTY': {'bearing': 260, 'alt': 10000, 'speed': 220},
-               'KARRS': {'bearing': 180, 'alt': 11000, 'speed': 250},
-               'IGN': {'bearing': 360, 'alt': 14000, 'speed': 250},
-               'HARTY': {'bearing': 270, 'alt': 14000, 'speed': 250},
-               'CCC': {'bearing': 240, 'alt': 12000, 'speed': 250},
-               'LOVES': {'bearing': 360, 'alt': 6000, 'speed': 220},
-               'BRAND': {'bearing': 240, 'alt': 7000, 'speed': 220},
-               'DYLIN': {'bearing': 200, 'alt': 8000, 'speed': 220},
-               'FLOSI': {'bearing': 360, 'alt': 8000, 'speed': 220}
-               }
-
-# aircraft on an approach procedure will go no faster than alt_min_speeds[a] if the crossing restriction is aob a
-alt_min_speeds = {7000: 220,
-                  3000: 200
-                  }
-
-# specify final approach fixes with final altitude, speed and distance from the airport to intercept the ILS
-# some final fixes on published charts might be too close to the airport
-# in those cases aircraft might not be able to fly the approach in EATC, so you have to specify your own fixes
-# often the last fix before the FAF should be sufficient (this is usually around 10 miles out)
-final_app_fixes = {'ROSLY': {'final_length': 9.5, 'alt': 1800, 'speed': 200},
-                   'ZETAL': {'final_length': 10, 'alt': 1800, 'speed': 200},
-                   'AROKE': {'final_length': 10, 'alt': 1500, 'speed': 200},
-                   'TELEX': {'final_length': 7.5, 'alt': 1500, 'speed': 180},
-                   'CORVT': {'final_length': 9.6, 'alt': 2500, 'speed': 200},
-                   'ZACHS': {'final_length': 10, 'alt': 1800, 'speed': 200},
-                   'MALDE': {'final_length': 8.5, 'alt': 2500, 'speed': 200},
-                   'GRENE': {'final_length': 10, 'alt': 1700, 'speed': 200},
-                   'PAYMI': {'final_length': 8.5, 'alt': 1900, 'speed': 200},
-                   'YOMAN': {'final_length': 10, 'alt': 1900, 'speed': 200},
-                   'KILMA': {'final_length': 10, 'alt': 2000, 'speed': 200},
-                   'EMBAY': {'final_length': 10, 'alt': 2000, 'speed': 200},
-                   'GRITY': {'final_length': 10, 'alt': 2500, 'speed': 200},
-                   'JARIT': {'final_length': 9.7, 'alt': 1600, 'speed': 200},
-                   'GIMEE': {'final_length': 7.3, 'alt': 1500, 'speed': 180},
-                   'AGNSS': {'final_length': 9.4, 'alt': 2500, 'speed': 200},
-                   'RIVRA': {'final_length': 10, 'alt': 2500, 'speed': 200},
-                   'CATOD': {'final_length': 10, 'alt': 3000, 'speed': 200},
-                   'TICKL': {'final_length': 10, 'alt': 2000, 'speed': 200},
-                   'QUENE': {'final_length': 10, 'alt': 1700, 'speed': 200},
-                   'GEMKE': {'final_length': 8.5, 'alt': 1700, 'speed': 200}
-                   }
-
-# replace runway names with your own runway names
-# the runway names will consist of the runway prefix (which is specified per airport below)
-# followed by the runway name, which you can look up in ./cifp_out/apt_data/cifp_{icao}.csv
-# look for the fields which have 'G' in the 'type' column
-replace_runway_names = {'KJFK_RW04L': 'KJFK_04L_22R',
-                        'KJFK_RW04R': 'KJFK_04R_22L',
-                        'KJFK_RW22R': 'KJFK_04L_22R, rev',
-                        'KJFK_RW22L': 'KJFK_04R_22L, rev',
-                        'KJFK_RW13L': 'KJFK_13L_31R',
-                        'KJFK_RW13R': 'KJFK_13R_31L',
-                        'KJFK_RW31R': 'KJFK_13L_31R, rev',
-                        'KJFK_RW31L': 'KJFK_13R_31L, rev',
-                        'KLGA_RW04': 'KLGA_04_22',
-                        'KLGA_RW22': 'KLGA_04_22, rev',
-                        'KLGA_RW13': 'KLGA_13_31',
-                        'KLGA_RW31': 'KLGA_13_31, rev',
-                        'KEWR_RW04L': 'KEWR_04L_22R',
-                        'KEWR_RW04R': 'KEWR_04R_22L',
-                        'KEWR_RW22R': 'KEWR_04L_22R, rev',
-                        'KEWR_RW22L': 'KEWR_04R_22L, rev',
-                        'KEWR_RW11': 'KEWR_11_29',
-                        'KEWR_RW29': 'KEWR_11_29, rev'
-                        }
-
-
-def parse_cifp():
+def parse_cifp(filename):
     rows = []
-    with open(CIFP_FILENAME, 'r') as f:
+    with open(filename, 'r') as f:
         lines = [line for line in f.readlines() if line[:5] in ['SUSAP', 'SUSAD'] or line[:10] == 'SUSAEAENRT']
         for line in lines:
             apt = line[6:10].strip() or 'VOR'
@@ -170,6 +94,8 @@ def write_sids(lines, beacons, apt, runway_prefix='', start_index=0):
             runway_sids[transition][sid_id].append(line)
 
     with open(f'cifp_out/{apt.lower()}/{apt}_sid_output.txt', 'w', newline='', encoding='utf8') as f:
+        f.write(f'\n\n{"#" * 50}\n'
+                f'# {apt.upper()} SIDS\n{"#" * 50}\n\n')
         i = start_index
         used_fixes = []
         for runway, sids in runway_sids.items():
@@ -200,7 +126,13 @@ def write_sids(lines, beacons, apt, runway_prefix='', start_index=0):
     return i
 
 
-def write_stars(lines, beacons, apt, runway_prefix='', start_index=0):
+def write_stars(lines, beacons, apt, config, runway_prefix='',
+                start_index=0):
+    entrypoints = {k.upper(): json.loads(v) for k, v in config['entrypoints'].items()}
+    replace_runway_names = {k.upper(): v for k, v in config['replace_runway_names'].items()}
+    defaults = config['defaults']
+    alt_min_speeds = config['alt_min_speeds']
+
     runway_stars = defaultdict(lambda: defaultdict(lambda: []))
     for line in lines:
         if line['type'] == 'A':
@@ -236,6 +168,8 @@ def write_stars(lines, beacons, apt, runway_prefix='', start_index=0):
                     runway_stars[transition[1:]][f'{tlines[0]["fix"]}.{star_id}'] += tlines
 
     with open(f'cifp_out/{apt.lower()}/{apt}_star_output.txt', 'w', newline='') as f:
+        f.write(f'\n\n{"#" * 50}\n'
+                f'# {apt.upper()} STARS\n{"#" * 50}\n\n')
         i = start_index
         used_fixes = []
         # get transition and first fix on route to calculate bearing for entrypoint in the end
@@ -256,8 +190,8 @@ def write_stars(lines, beacons, apt, runway_prefix='', start_index=0):
                                 break
                             transitions.append((entryname, runway))
                             entries.append(entry)
-                            alt = entrypoints[entry]['alt'] or star_default_top_alt
-                            speed = entrypoints[entry]['speed'] or star_default_top_speed
+                            alt = entrypoints[entry]['alt'] or defaults['star_default_top_alt']
+                            speed = entrypoints[entry]['speed'] or defaults['star_default_top_speed']
                             i += 1
                             runway_name = f'{runway_prefix}{runway}'
                             if runway_name in replace_runway_names.keys():
@@ -287,7 +221,7 @@ def write_stars(lines, beacons, apt, runway_prefix='', start_index=0):
                                 if 'FL' in alt_top:
                                     alt_top = int(alt_top[2:]) * 100
                                 alt = min(alt, int(alt_top))
-                            speed_alts = [a for a in alt_min_speeds.keys() if alt <= a]
+                            speed_alts = [a for a in alt_min_speeds.keys() if alt <= int(a)]
                             if speed_alts:
                                 speed = min(speed, alt_min_speeds[max(speed_alts)])
 
@@ -313,7 +247,13 @@ def write_stars(lines, beacons, apt, runway_prefix='', start_index=0):
     return i
 
 
-def write_approaches(lines, beacons, apt, runway_prefix='', start_index=0):
+def write_approaches(lines, beacons, apt, config, runway_prefix='',
+                     start_index=0):
+    final_app_fixes = {k.upper(): json.loads(v) for k, v in config['final_app_fixes'].items()}
+    replace_runway_names = {k.upper(): v for k, v in config['replace_runway_names'].items()}
+    defaults = config['defaults']
+    alt_min_speeds = config['alt_min_speeds']
+
     runway_approaches = defaultdict(lambda: defaultdict(lambda: []))
     for line in lines:
         if line['type'] == 'A':
@@ -346,6 +286,8 @@ def write_approaches(lines, beacons, apt, runway_prefix='', start_index=0):
                     runway_approaches[runway][f'{tlines[0]["fix"]}.{approach_id}'] += tlines
 
     with open(f'cifp_out/{apt.lower()}/{apt}_approach_output.txt', 'w', newline='') as f:
+        f.write(f'\n\n{"#" * 50}\n'
+                f'# {apt.upper()} APPROACHES\n{"#" * 50}\n\n')
         i = start_index
         used_fixes = []
         used_approaches = []
@@ -375,7 +317,7 @@ def write_approaches(lines, beacons, apt, runway_prefix='', start_index=0):
                                    f'    360\n'
                     fix_name = ''
                     speed = 250
-                    alt = apch_default_top_alt
+                    alt = int(defaults['apch_default_top_alt'])
 
                     entry = ''
                     faf = ''
@@ -392,8 +334,8 @@ def write_approaches(lines, beacons, apt, runway_prefix='', start_index=0):
                             alt_top = e['alt_top']
                             alt_min = e['alt_min']
                             if not e['transition'][1:]:
-                                speed = min(speed, max_approach_speed)
-                                alt = min(alt, max_approach_alt)
+                                speed = min(speed, int(defaults['max_approach_speed']))
+                                alt = min(alt, int(defaults['max_approach_alt']))
                             if e['speed']:
                                 speed = e['speed']
                             if alt_min:
@@ -404,9 +346,9 @@ def write_approaches(lines, beacons, apt, runway_prefix='', start_index=0):
                                 if 'FL' in alt_top:
                                     alt_top = int(alt_top[2:]) * 100
                                 alt = min(alt, int(alt_top))
-                            speed_alts = [a for a in alt_min_speeds.keys() if int(alt) <= a]
+                            speed_alts = [a for a in alt_min_speeds.keys() if int(alt) <= int(a)]
                             if speed_alts:
-                                speed = min(int(speed), alt_min_speeds[max(speed_alts)])
+                                speed = min(int(speed), int(alt_min_speeds[max(speed_alts)]))
                             app_string += f'    {fix["lat"]}, {fix["lon"]}, {alt}, {speed} ; {e["fix"]}\n'
                             if entry in final_app_fixes.keys():
                                 faf = entry
@@ -414,7 +356,7 @@ def write_approaches(lines, beacons, apt, runway_prefix='', start_index=0):
                                 app_string = ''
 
                     if faf:
-                        apch_string += f'    {final_app_fixes[faf]["final_length"]}, {final_app_fixes[faf]["alt"]}, '\
+                        apch_string += f'    {final_app_fixes[faf]["final_length"]}, {final_app_fixes[faf]["alt"]}, ' \
                                        f'{final_app_fixes[faf]["speed"]} ; end\n'
                         f.write(apch_string)
 
@@ -450,8 +392,8 @@ def write_fix_coords():
         writer.writerows(wlines)
 
 
-def parse_approaches(apt, start_index=0):
-    i = app_start_index
+def parse_approaches(apt, config, start_index=0):
+    i = start_index
     write_apt_data(apt)
     with open(f'cifp_out/apt_data/cifp_{apt.lower()}.csv', 'r') as f:
         reader = csv.DictReader(f)
@@ -462,9 +404,8 @@ def parse_approaches(apt, start_index=0):
     beacons = {line['id']: line for line in beacon_list if
                line['apt'] == 'RNAV_FIX' or line['apt'] == 'VOR'}
     runway_prefix = f'{apt}_'
-    i = write_stars(lines, beacons, apt.lower(), runway_prefix=runway_prefix, start_index=i)
-    i = write_approaches(lines, beacons, apt.lower(), runway_prefix=runway_prefix, start_index=i)
-    # write_sids(apt, lines, beacons, apt.lower(), runway_prefix=runway_prefix)
+    i = write_stars(lines, beacons, apt.lower(), config, runway_prefix=runway_prefix, start_index=i)
+    i = write_approaches(lines, beacons, apt.lower(), config, runway_prefix=runway_prefix, start_index=i)
     return i
 
 
@@ -483,20 +424,24 @@ def parse_sids(apt, start_index=0):
     i = write_sids(lines, beacons, apt.lower(), runway_prefix=runway_prefix, start_index=i)
     return i
 
+
 # you only need to run the parse_cifp() function once, it parses the CIFP data to a better format, used in this script
 # same thing for write_fix_coords() - note: has to run AFTER the parse_cifp() function
 
 
 if __name__ == '__main__':
+    with open('cifp_config.ini.example', 'r') as f:
+        config.read_file(f)
+
     Path('cifp_out/apt_data').mkdir(parents=True, exist_ok=True)
-    parse_cifp()
-    write_fix_coords()
-    airports = ['KJFK', 'KLGA', 'KEWR']
+    # parse_cifp()
+    # write_fix_coords()
+    airports = ['KPHL', 'KTTN', 'KPNE', 'KILG']
     app_start_index = 0  # for approach numbering
     sid_start_index = 0  # for sid numbering
     for airport in airports:
         # make sure the output folder for each airport exists
         Path(f'cifp_out/{airport.lower()}').mkdir(parents=True, exist_ok=True)
-        app_start_index = parse_approaches(airport, app_start_index)
+        app_start_index = parse_approaches(airport, config._sections, app_start_index)
         sid_start_index = parse_sids(airport, sid_start_index)
     pass
