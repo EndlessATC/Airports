@@ -155,6 +155,17 @@ class Fix:
             other_radial += Fix._var
         return self.latlon.intersection(radial, other_fix.latlon, other_radial)
 
+    def intersects(self, radius, other_fix, other_radius):
+        radius = float(radius)
+        other_radius = float(other_radius)
+
+        return self.latlon.intersections2(radius, other_fix.latlon, other_radius)
+
+    def intersects_nmi(self, radius, other_fix, other_radius):
+        radius = float(radius) * 1852
+        other_radius = float(other_radius) * 1852
+        return self.intersects(radius, other_fix, other_radius)
+
     def is_hidden(self):
         return self.heading.startswith("!")
 
@@ -210,7 +221,7 @@ class RadialDMEFix(Fix, name_prefix="@"):
     def __init__(self, name, fix=None, distance=None, heading="!", pronunciation=""):
         if fix is None:
             try:
-                match = re.match(r'@(?P<fix>[a-zA-Z0-9]+)(?P<heading>\d{3})D(?P<distance>[0-9]+(?:\.[0-9]+)?)', name)
+                match = re.match(r'@(?P<fix>[a-zA-Z0-9]+)(?P<heading>\d{3}[Tt]?)D(?P<distance>[0-9]+(?:\.[0-9]+)?)', name)
                 fix = match['fix']
                 distance = float(match['distance'])
                 heading = match['heading']
@@ -230,8 +241,8 @@ class RadialDMEFix(Fix, name_prefix="@"):
 class RadialIntersectFix(Fix, name_prefix='#'):
 
     def __init__(self, name, fix1=None, radial1=None, fix2=None, radial2=None, heading="!", pronunciation=""):
-        if fix1 is None:
-            try:
+        try:
+            if fix1 is None:
                 match = re.match(r'#(?P<fix1>[a-zA-Z0-9]+)(?P<radial1>\d{3})@?(?P<fix2>[a-zA-Z0-9]+)(?P<radial2>\d{3})', name)
                 fix1 = match['fix1']
                 radial1 = match['radial1']
@@ -239,15 +250,63 @@ class RadialIntersectFix(Fix, name_prefix='#'):
                 radial2 = match['radial2']
                 pronunciation = f'{Fix.fixes[fix1].pronunciation} Radial {"-".join(radial1)} at ' + \
                     f'{Fix.fixes[fix2].pronunciation} Radial {"-".join(radial2)}'
-            except Exception as e:
-                raise RuntimeError(f"failed to create fix from {name}") from e
-        else:
-            name = name.strip('#')
-            fix1 = fix1.strip()
-            radial1 = radial1.strip()
-            fix2 = fix2.strip()
-            radial2 = radial2.strip()
-        super().__init__(name, heading=heading, pronunciation=pronunciation, latlon=Fix.fixes[fix1].intersect(radial1, Fix.fixes[fix2], radial2))
+
+            else:
+                name = name.strip('#')
+                fix1 = fix1.strip()
+                radial1 = radial1.strip()
+                fix2 = fix2.strip()
+                radial2 = radial2.strip()
+
+            super().__init__(name, heading=heading, pronunciation=pronunciation,
+                latlon=Fix.fixes[fix1].intersect(radial1, Fix.fixes[fix2], radial2))
+        except Exception as e:
+            raise RuntimeError(f"failed to create fix from {name}") from e
+
+
+class CircleIntersectFix(Fix, name_prefix='&'):
+
+    def __init__(self, name, fix1=None, radius1=None, fix2=None, radius2=None, direction=None, heading="!", pronunciation=""):
+        try:
+            if fix1 is None:
+                match = re.match(r'&(?P<fix1>[a-zA-Z0-9]+)D(?P<radius1>[0-9]+(?:\.[0-9]+)?)&?(?P<fix2>[a-zA-Z0-9]+)D(?P<radius2>[0-9]+(?:\.[0-9]+)?)\.(?P<direction>[NSWEnswe])', name)
+                fix1 = match['fix1']
+                radius1 = match['radius1']
+                fix2 = match['fix2']
+                radius2 = match['radius2']
+                direction = match['direction']
+            else:
+                name = name.strip('%')
+                fix1 = fix1.strip()
+                radius1 = radius1.strip()
+                fix2 = fix2.strip()
+                radius2 = radius2.strip()
+
+            latlon_1, latlon_2 = Fix.fixes[fix1].intersects_nmi(radius1, Fix.fixes[fix2], radius2)
+
+            if direction is None:
+                if latlon_1 is not latlon_2:
+                    raise ValueError(f'''No selector direction specified for intersection of non-abutting circles.
+intersect 1: {latlon_1}
+intersect 2: {latlon_2}''')
+                else:
+                    latlon = latlon_1
+            else:
+                if direction in 'NnSs':
+                    if direction in 'Nn':
+                        latlon = latlon_1 if latlon_1.lat > latlon_2.lat else latlon_2
+                    else:
+                        latlon = latlon_1 if latlon_1.lat < latlon_2.lat else latlon_2
+                else:
+                    if direction in 'Ee':
+                        latlon = latlon_1 if latlon_1.lon > latlon_2.lon else latlon_2
+                    else:
+                        latlon = latlon_1 if latlon_1.lon < latlon_2.lon else latlon_2
+
+            super().__init__(name, heading=heading, pronunciation=pronunciation,
+                latlon=latlon)
+        except Exception as e:
+            raise RuntimeError(f"failed to create fix from {name}") from e
 
 
 @dataclass
@@ -702,6 +761,12 @@ def process(args, input_file=None, preprocessed_input=None):
             if 'points' in area_data:
                 area_data['points'] = "\n".join(
                     process_fix_list(area_data['points'].splitlines(), Fix.fixes))
+            if args.draw_all_areas and 'draw' in area_data:
+                del area_data['draw']
+            if 'position' in area_data:
+                area_position = area_data['position'].strip()
+                if area_position in Fix.fixes:
+                    area_data['position'] = Fix.fixes[area_position].short_def
 
         # process airport sections
 

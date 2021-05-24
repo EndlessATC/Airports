@@ -97,6 +97,8 @@ if __name__ == "__main__":
         help="Do not write any output of build. Also has effect of --build-only.")
     parser.add_argument('-t', '--test-callsigns', action = 'store_true',
         help="Tests loading of shared callsigns. Actual output is not based on shared callsigns.")
+    parser.add_argument('-a', '--draw-all-areas', action = 'store_true',
+        help="Ignore draw= in [area]s while building.")
     parser.add_argument('-l', '--legacy',
         action="store_true", help="Use legacy processing method.")
 
