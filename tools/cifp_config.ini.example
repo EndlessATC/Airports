@@ -1,0 +1,79 @@
+# this is an example config for the cifp parser written by Captain Tux - https://github.com/CaptainTux
+# the latest version will be available at https://github.com/AdamJCavanaugh/EndlessATCAirports
+
+# make sure you rename this file to cifp_config.ini
+
+# this is a parser for the CIFP, published by the FAA
+# it provides SIDS and STARS for airports in the USA for EndlessATC
+# it also generates routes to final, i.e., procedures where pilots navigate to final from an IAF
+# the download of the current version is available here:
+# https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/cifp/download/
+
+
+# make sure to change this to point at the right file (relative path works)
+[CIFP_FILENAME]
+filename = CIFP/FAACIFP18
+
+# put your airports here
+[airports]
+kmsp
+
+# pretty self explanatory, apch_default_top_alt is the top altitude to cross an IAF
+[defaults]
+star_top_alt = 13000
+star_top_speed = 280
+apch_top_alt = 6000
+max_approach_alt = 2500
+max_approach_speed = 200
+
+# pretty self explanatory, define entrypoints with bearing, minimum altitude and speed
+# entries should look like this: luccy = {"bearing": "360", "alt": "11000", "speed": "280"}
+# note the quotes around the numbers, otherwise you'll get a JsonDecodeError
+[entrypoints]
+luccy = {"bearing": "360", "alt": "11000", "speed": "280"}
+bluem = {"bearing": "180", "alt": "11000", "speed": "280"}
+twinz = {"bearing": "090", "alt": "11000", "speed": "250"}
+ollee = {"bearing": "330", "alt": "11000", "speed": "250"}
+zibby = {"bearing": "180", "alt": "10000", "speed": "250"}
+kkilr = {"bearing": "090", "alt": "12000", "speed": "280"}
+bayks = {"bearing": "090", "alt": "12000", "speed": "280"}
+nitzr = {"bearing": "180", "alt": "12000", "speed": "280"}
+shonn = {"bearing": "270", "alt": "11000", "speed": "250"}
+ofson = {"bearing": "250", "alt": "11000", "speed": "280"}
+trget = {"bearing": "180", "alt": "11000", "speed": "250"}
+
+# aircraft on an approach procedure will go no faster than alt_min_speeds[a] if the crossing restriction is aob a
+[alt_min_speeds]
+4000 = 200
+
+# specify final approach fixes with final altitude, speed and distance from the airport to intercept the ILS
+# some final fixes on published charts might be too close to the airport
+# in those cases aircraft might not be able to fly the approach in EATC, so you have to specify your own fixes
+# often the last fix before the FAF should be sufficient (this is usually around 10 miles out)
+# entries should look like this: ketam = {"final_length": "9", "alt": "2300", "speed": "200"}
+# note the quotes around the numbers, otherwise you'll get a JsonDecodeError
+[final_app_fixes]
+ketam = {"final_length": "9", "alt": "2300", "speed": "200"}
+hamml = {"final_length": "9", "alt": "3000", "speed": "200"}
+zesty = {"final_length": "9", "alt": "3000", "speed": "200"}
+arjae = {"final_length": "10", "alt": "2800", "speed": "200"}
+cusac = {"final_length": "9", "alt": "2500", "speed": "200"}
+fates = {"final_length": "9", "alt": "2600", "speed": "200"}
+aabez = {"final_length": "9", "alt": "3000", "speed": "200"}
+sammz = {"final_length": "9", "alt": "3000", "speed": "200"}
+rozee = {"final_length": "9", "alt": "3000", "speed": "200"}
+
+
+# replace runway names with your own runway names
+# the runway names will consist of the runway prefix (which is specified per airport below)
+# followed by the runway name, which you can look up in ./cifp_out/apt_data/cifp_{icao}.csv
+# look for the fields which have 'G' in the 'type' column
+[replace_runway_names]
+kmsp_rw17 = KMSP_17_35
+kmsp_rw35 = KMSP_17_35, rev
+kmsp_rw12l = KMSP_12L_30R
+kmsp_rw12r = KMSP_12R_30L
+kmsp_rw30r = KMSP_12L_30R, rev
+kmsp_rw30l = KMSP_12R_30L, rev
+kmsp_rw04 = KMSP_04_22
+kmsp_rw22 = KMSP_04_22, rev
