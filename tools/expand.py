@@ -7,9 +7,15 @@ import os
 import re
 from typing import ClassVar, Optional
 
-from pygeodesy.dms import parseDMS, toDMS, F_SEC
-from pygeodesy.sphericalTrigonometry import LatLon
-from pygeodesy.utily import ft2m
+try:
+    import pygeodesy
+    from pygeodesy.dms import parseDMS, toDMS, F_SEC
+    from pygeodesy.sphericalTrigonometry import LatLon
+    from pygeodesy.utily import ft2m
+except ModuleNotFoundError as e:
+    print(f"PyGeodesy could not be imported from name {e.name}. Advanced functions not available.")
+    print("Proceeding to attempt build in basic mode.")
+    pygeodesy = None
 
 """Endless ATC custom airport file build utility."""
 
@@ -218,13 +224,13 @@ class RunwayFix(Fix, name_prefix="="):
 
 class RadialDMEFix(Fix, name_prefix="@"):
 
-    def __init__(self, name, fix=None, distance=None, heading="!", pronunciation=""):
+    def __init__(self, name, fix=None, distance=None, radial=None, heading="!", pronunciation=""):
         if fix is None:
             try:
-                match = re.match(r'@(?P<fix>[a-zA-Z0-9]+)(?P<heading>\d{3}[Tt]?)D(?P<distance>[0-9]+(?:\.[0-9]+)?)', name)
+                match = re.match(r'@(?P<fix>[a-zA-Z0-9]+)(?P<radial>\d{3}[Tt]?)D(?P<distance>[0-9]+(?:\.[0-9]+)?)', name)
                 fix = match['fix']
                 distance = float(match['distance'])
-                heading = match['heading']
+                radial = match['radial']
                 pronunciation = f"{Fix.fixes[fix].pronunciation} {heading} Radial {distance} D-M-E"
             except Exception as e:
                 raise RuntimeError(f"failed to create fix from {name}") from e
@@ -232,8 +238,9 @@ class RadialDMEFix(Fix, name_prefix="@"):
             name = name.strip('@')
             fix = fix.strip()
             distance = float(distance.strip().lstrip('D'))
+            radial = radial.strip()
             heading = heading.strip()
-        latlon = Fix.fixes[fix].nmi_on_heading(distance, heading)
+        latlon = Fix.fixes[fix].nmi_on_heading(distance, radial)
         self.runway_heading_true = getattr(latlon, 'runway_heading_true', None)
         super().__init__(name, heading=heading, pronunciation=pronunciation, latlon=latlon)
 
@@ -741,10 +748,11 @@ def process(args, input_file=None, preprocessed_input=None):
 
         # add runways to fix database
         airports = {section: source[section] for section in source if section.startswith('airport')}
-        for airport_data in airports.values():
-            runways = airport_data['runways'].strip().splitlines()
-            for runway_definition in runways:
-                RunwayFix.from_definition(runway_definition).reciprocal()
+        if pygeodesy:
+            for airport_data in airports.values():
+                runways = airport_data['runways'].strip().splitlines()
+                for runway_definition in runways:
+                    RunwayFix.from_definition(runway_definition).reciprocal()
 
         # build a fix database from [airspace] beacons=
         for definition in source['airspace']['beacons'].strip().splitlines():
