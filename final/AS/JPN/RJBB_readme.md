@@ -339,7 +339,7 @@ The reverse configuration. Use care for `ASUKA` departures to keep them separate
 	- Added various minor fixes
 	- Added Akeno ACA area
 	- Removed training areas as they should be more inactive rather than active...?
-*	3.0.0 - 2021/05/xx
+*	3.0.0 - 2021/05/24
 	- Rewrite of source
 		- Removed most of the arbitrary altitude restrictions for approaches
 			- Added FL130 250kt restriction at `KODAI` for `RJOO` to compensate for game spawning arrivals via `OHDAI` at high altitudes and speeds
