@@ -1,12 +1,14 @@
 # Munich Airport "Franz Josef Strauß" in the south of Germany.
 
-Second hub of Lufthansa, offering many international and intercontinental routes.
+Second hub of Lufthansa, offering many international and intercontinental routes. Munich has two runways, equally used for takeoffs and landings.
+
+![Image of EDDM airport in EndlessAtc](images/eddm1.png)
 
 ## Some tips on how it can be played
 
-- The approaches are meant to help coordination during high traffic. In real life the transitions from ROKIL/LANDU/NAPSA/BETOS end on a heading. However, Endless ATC currently requires that approaches end with an ILS approach. So if you want to play realistic, you have to manually vector every plane onto the ILS. During low traffic, controllers usually skip the transitions completely and vector to final, sometimes giving directs to waypoints.
-- Departures are cleared to FL70, meaning that they might have to pass below approaching traffic following the transitions. This is one reason why vectoring arriving planes can be handy, as you can keep more space between arrivals and departures
-- Skill Cap 16 works fine so that some planes can still depart between the arrivals
+- The approaches are meant to help coordination during high traffic. During low traffic, controllers usually skip the transitions completely and vector to final, sometimes giving directs to waypoints.
+- Departures are cleared to FL70, meaning that they might have to pass below approaching traffic following the transitions. This is one reason why vectoring arriving planes can be handy, as you can keep more space between arrivals and departures.
+- Skill Cap 16 works fine so that some planes can still depart between the arrivals.
 
 ## Already working:
 - most SIDs exist
@@ -20,10 +22,18 @@ Second hub of Lufthansa, offering many international and intercontinental routes
 - airline traffic frequency balance probably not ideal
 - check if airspace height restrictions make sense
 - check if some SIDs can be removed because they are barely used in real life
-- runway configs missing
 - check if arrival entry directions make sense, same for descent altitude
 
 ## Changelog
+
+### v1.3
+
+- fix wrong heading on BETOS arrival
+
+### v1.2
+
+- added rwy configs
+- use new feature of v4.4.0: stars now end on heading like in real life. No more automatic approaches
 
 ### v1.1
 
@@ -39,4 +49,4 @@ Second hub of Lufthansa, offering many international and intercontinental routes
 
 Initial version
 
-**Feedback or improvements? Create an issue or contribute directly: https://github.com/AdamJCavanaugh/EndlessATCAirports#contributing**
+**Feedback or improvements? Create an issue or contribute directly: https://github.com/AdamJCavanaugh/EndlessATCAirports#contributing**. This airport uses no source file to generate stuff, so the [EDDM.txt](EDDM.txt) file can be edited as is.
