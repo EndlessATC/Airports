@@ -240,3 +240,11 @@ Approaches are available using APP mode from `TOHNE` and `ASEKI`. Arrival routes
 	- `RJTL`の発着レートを三分の一に下げました.
 	- `RJAA`　ILS Y 16L/16R アプローチを実装
 	- `RJTT`　ILS X 34L/ILS Y 34R アプローチを実装
+*	3.1.0 - 2021/05/31
+	- `TEMIS`の設定を修正　※プレイに影響はありません
+	- `RJTT`のILS Z 34Lを修正
+		- `ARLON`の高度5000以下の制限を解除
+		- 滑走路から15.5nmiの時点(D15.7`IHA`/`APOLO`0.6nmi前)でローカライザーに合流
+			- 以前は`ARLON`で合流
+		- 実際`ARLON`では高度制限はなかった（正しくは`CREAM`には高度5000以上の制限があった)
+	- `RJTL`の滑走路の位置情報を修正　※プレイに影響はありません

@@ -102,13 +102,20 @@ class Fix:
         return self._latlon
 
     def _generate_latlon(self):
-        lat = self._lat
-        lon = self._lon
-        if lat[:1].isalpha():
-            lat = lat[1:] + lat[:1]
-        if lon[:1].isalpha():
-            lon = lon[1:] + lon[:1]
-        self._latlon = LatLon(parseDMS(lat, sep='.'), parseDMS(lon, sep='.'))
+        try:
+            lat = self._lat
+            lon = self._lon
+            if lat[:1].isalpha():
+                lat = lat[1:] + lat[:1]
+            if lon[:1].isalpha():
+                lon = lon[1:] + lon[:1]
+            if lat.find('.') != lat.rfind('.'):
+                lat = parseDMS(lat, sep='.')
+            if lon.find('.') != lon.rfind('.'):
+                lon = parseDMS(lon, sep='.')
+            self._latlon = LatLon(lat, lon)
+        except Exception as e:
+            raise RuntimeError(f"Unable to generate a LatLon for fix {self.name}: {self}") from e
 
     def meters_on_heading(self, meters, heading, true_heading=False):
         if isinstance(heading, str):
@@ -365,8 +372,8 @@ class Airline:
             else:
                 self.directions = data[0].strip()
         except Exception as e:
-            raise ValueError(f"Could not create airline from ({callsign}, {frequency}, {types}, {str(data)})" +
-                f"\nCallsign pronunciation lookup = {Airline.use_callsigns}") from e
+            raise ValueError(f'''Could not create airline from ({callsign}, {frequency}, {types}, {str(data)})
+Callsign pronunciation lookup = {Airline.use_callsigns}''') from e
 
 
 def process_fix_line(line, fixes):
