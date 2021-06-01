@@ -6,13 +6,15 @@ elevation = 107
 metric = false
 center = N38.9656, E121.5389
 magneticvar = -7
-above = 21700
-ceiling = 9850
-descendaltitude =8900
+above = 29100
+ceiling = 11800
+descendaltitude =25600
 floor = 1960
 transitionlevel = 11800
-speedrestriction =28,230
-localizerspeed =500, 250
+speedrestriction =28,230,10000,240
+localizerspeed =100, 250
+separation = 5
+name = approach, departure
 beacons =
 	DBL, N38.9522, E121.5675, 0, Dalian
 	ANRAT,N38.6514,E119.9511
@@ -32,10 +34,9 @@ beacons =
 	TANIB,N38.3692,E121.0839
 	UDETI,N38.6847,E122.1517
 	VENOS,N38.9056,E122.3183
-
 	FC, N38.8683, E121.62833, 0, Fu jia zhuang
-	CHI,N39.2667,E122.6167,CHANG HAI
-
+	CHI,N39.2667,E122.6167,0,CHANG HAI
+	
 	TL102,N38.9764,E121.2589
 	TL103,N38.9803,E121.1431
 	TL104,N39.0844,E121.1556
@@ -96,11 +97,17 @@ boundary =
 	N38.25,E120
 	N39.5,E119.84
 	N39.9,E119.35
+handoff =
+	90, ZYTL AP02, Dalian approach, 119.6
+	180, ZYTL AP02, Dalian approach, 119.6
+	0, ZYTL AP03, Dalian approach, 121.05
+	270, ZYTL AP01, Dalian approach, 123.85
 [airport1]
 name = Zhoushuizi Airport
 code = ZYTL
 runways =
-	rwy1, 10,N38.968, E121.533,96,10826.92, 0,0,100,3.5 ,92.5
+	rwy1, 10,N38.968, E121.533,96,10826.92, 0,0,100,3.3 ,92.5,3,276,D8.1 IZF,8.1,D5.9 IKD,5.9,118.25
+climbaltitude = 3940
 sids=
 	CHI
 	SANKO
@@ -459,7 +466,7 @@ points =
 
 [area2]
 shape = polygon		
-altitude = 46000
+altitude = 21700
 name = ZY(R)612		
 labelpos = -59.83, 13.23 
 points =
@@ -874,7 +881,7 @@ route2=
 
 [approach2]
 runway =rwy1
-beacon = CHI,N39.2667,E122.6167,CHANG HAI
+beacon = CHI,N39.2667,E122.6167
 route1=
 	40
 	N39.2667,E122.6167
@@ -979,10 +986,10 @@ route2=
 	9.7,2000,210
 [approach6]
 runway =rwy1,rev
-beacon =CHI,N39.2667,E122.6167,CHANG HAI
+beacon =CHI,N39.2667,E122.6167
 route1=
 	40
-	N39.2667,E122.6167,CHANG HAI
+	N39.2667,E122.6167,
 	N38.9056,E122.3183
 	N38.9245,E122.0672,2960,210
 	N38.9381,E121.8931,2960
