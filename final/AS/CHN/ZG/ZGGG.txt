@@ -1,3 +1,4 @@
+
 [airspace]
 radius = 100
 zoom = 1
@@ -126,7 +127,6 @@ beacons =
 	
 	GG820,N23.7233,E113.5442
 	GG821,N23.6401,E113.5103
-
 
 handoff =
 	270,ZGGGAR29,Guangzhou Control,133.075
@@ -298,7 +298,7 @@ airlines =
 	CSH,3,A333,Shanghai Air,NE
 	CSH,3,B738,Shanghai Air,NE
 	CCA,1,A333,Air China,NE
-	N588PX,1,GLF5,November 588 Papa X-ray,NE
+	N-588PX,1,GLF5,November 588 Papa X-ray,NE
 	DKH,2,B789,Air Juneyao,NE
 	CSN,1,A320,China Southern,NE
 	CSN,1,B738,China Southern,NE
@@ -362,6 +362,167 @@ airlines =
 	CSN,3,B789,China Southern,NE
 	CSN,1,B789,China Southern,NE
 	CSN,1,B77L,China Southern,NE
+
+	CSN,3,A21N,China Southern,NW
+	CSN,2,A320,China Southern,NW
+	CDC,1,A320,Hualong,NW
+	CSN,1,A320,China Southern,NW
+	CSN,3,A320,China Southern,NW
+	CSN,1,A21N,China Southern,NW
+	CSN,1,B738,China Southern,NW
+	CHH,1,B738,Hainan,NW
+	CES,1,B732,China Eastern,NW
+	CSN,1,B738,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	CSN,1,A21N,China Southern,NW
+	CSN,1,B738,China Southern,NW
+	CDC,1,A320,Hualong,NW
+	CSN,1,B738,China Southern,NW
+	CSN,1,A319,China Southern,NW
+	CSN,3,B738,China Southern,NW
+	CSN,2,A320,China Southern,NW
+	CSN,2,A320,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	CCA,1,B738,Air China,NW
+	CSZ,3,A320,Shenzhen,NW
+	CSN,2,A321,China Southern,NW
+	CSN,6,B738,China Southern,NW
+	CES,1,B732,China Eastern,NW
+	CES,2,A321,China Eastern,NW
+	CES,1,A320,China Eastern,NW
+	CHH,3,B738,Hainan,NW
+	CSN,1,B788,China Southern,NW
+	CSN,1,B789,China Southern,NW
+	CSN,1,AJ27,China Southern,NW
+	CHH,1,B738,Hainan,NW
+	CSN,1,B738,China Southern,NW
+	CSN,1,B738,China Southern,NW
+	CSN,1,A319,China Southern,NW
+	CQH,1,A320,Air Spring,NW
+	CSN,1,B738,China Southern,NW
+	CSN,1,A319,China Southern,NW
+	CCA,1,B737,Air China,NW
+	CSN,1,B738,China Southern,NW
+	CCA,1,B738,Air China,NW
+	CSN,2,A320,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	UEA,1,A320,United Eagle,NW
+	CSC,4,A320,Sichuan,NW
+	CSC,1,A319,Sichuan,NW
+	CSN,1,A332,China Southern,NW
+	CSZ,2,A320,Shenzhen,NW
+	CCA,1,A21N,Air China,NW
+	CCA,1,A20N,Air China,NW
+	CCA,2,A321,Air China,NW
+	CES,1,A332,China Eastern,NW
+	CSN,3,A21N,China Southern,NW
+	CSN,1,B789,China Southern,NW
+	CSZ,1,B738,Shenzhen,NW
+	CSN,1,A319,China Southern,NW
+	CHH,1,A333,Hainan,NW
+	CSN,1,A320,China Southern,NW
+	CSN,1,B737,China Southern,NW
+	CSN,2,A320,China Southern,NW
+	CSN,1,A319,China Southern,NW
+	CHH,1,B738,Hainan,NW
+	CCA,2,B738,Air China,NW
+	CSN,1,B737,China Southern,NW
+	CHB,1,A320,West China,NW
+	CSC,2,A321,Sichuan,NW
+	CHH,2,B789,Hainan,NW
+	CCA,1,B789,Air China,NW
+	CBJ,1,A321,Capital Jet,NW
+	CSN,2,A320,China Southern,NW
+	CCA,1,B737,Air China,NW
+	CSN,1,A319,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	CCA,1,B738,Air China,NW
+	CSN,1,A319,China Southern,NW
+	CSN,3,A320,China Southern,NW
+	CSN,2,A319,China Southern,NW
+	CES,2,B737,China Eastern,NW
+	CSN,1,A319,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	CHH,1,B738,Hainan,NW
+	CSN,1,A320,China Southern,NW
+	CSN,5,B738,China Southern,NW
+	JYH,1,B738,Trans Jade,NW
+	CBJ,1,A320,Capital Jet,NW
+	CSZ,1,A320,Shenzhen,NW
+	CSN,2,A320,China Southern,NW
+	CSN,2,A319,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	KNA,1,B738,Kunming Air,NW
+	CES,2,B732,China Eastern,NW
+	JYH,1,B738,Trans Jade,NW
+	CSN,7,A21N,China Southern,NW
+	CES,4,B738,China Eastern,NW
+	CSN,1,B789,China Southern,NW
+	LKE,1,A320,Lucky Air,NW
+	CSN,1,A320,China Southern,NW
+	CSN,1,A320,China Southern,NW
+	CSN,1,A319,China Southern,NW
+	CSN,2,B738,China Southern,NW
+	CSN,1,B788,China Southern,NW
+	THY,1,B77W,Turkish,NW
+	CSN,1,A388,China Southern,NW
+	CSN,1,B77F,China Southern,NW
+	ETH,1,B77X,Ethiopian,NW
+	ETH,1,B77X,Ethiopian,NW
+	CSN,1,A388,China Southern,NW
+	CSN,2,B77F,China Southern,NW
+	CSN,4,B77F,China Southern,NW
+	CSN,1,B77L,China Southern,NW
+
+	CSN,1,A319,China Southern,W
+	BBC,1,B738,Bangladesh,W
+	UBG,1,B73H,BANGLA STAR,W
+	CSN,1,A333,China Southern,W
+	KAC,2,B77W,KUWAITI,W
+	SVA,1,B773,Saudia,W
+	SVA,1,B77X,Saudia,W
+	OMA,1,A333,OMAN AIR,W
+	UAE,1,B772,Emirates,W
+	QTR,2,B77W,Qatari,W
+	QTR,1,B772,Qatari,W
+	SVA,1,B789,Saudia,W
+	ALK,1,A333,Sri Lankan,SW
+	CSN,1,A319,China Southern,SW
+	MSR,1,A332,Egypt Air,SW
+	CSN,3,B738,China Southern,SW
+	CSN,2,A320,China Southern,SW
+	CHH,5,B738,Hainan,SW
+	CSN,2,A321,China Southern,SW
+	JYH,1,B738,Trans Jade,SW
+	GIA,1,A333,Indonesia,SW
+	KAC,1,B77W,KUWAITI,SW
+	MKR,1,A321,Air Lanme,SW
+	JYH,1,B738,Trans Jade,SW
+	JYH,2,B738,Trans Jade,SW
+	CHH,2,B738,Hainan,SW
+	CSN,1,A21N,China Southern,SW
+	CSN,3,A321,China Southern,SW
+	CSN,1,A320,China Southern,SW
+	CSN,1,A332,China Southern,SW
+	JYH,2,B738,Trans Jade,SW
+	CSN,2,B738,China Southern,SW
+	CSN,1,B738,China Southern,SW
+	CSN,1,A320,China Southern,SW
+	CSN,1,AJ27,China Southern,SW
+	FDX,1,B763,Fedex,SW
+
+	CPA,1,A333,Cathay,SE
+	CSN,1,A333,China Southern,SE
+	PAL,1,B73F,Philippine,SE
+	FDX,2,MD11,Fedex,SE
+	FDX,2,B77L,Fedex,SE
+	CSN,1,A359,China Southern,SE
+	CSN,1,A388,China Southern,SE
+	CSN,1,B789,China Southern,SE
+	ANZ,1,B789,New Zealand,SE
+
 [departure1]
 runway=rwy1
 route1=
@@ -725,6 +886,227 @@ route1=
 	N23.7564,E113.4125,2960
 	N23.6689,E113.3886,2960
 	8.1,2630,180
+[area1]
+shape = polygon
+altitude =1970
+draw = 1
+labelpos =-9.87, -10.65
+points =
+	N23.4567,E113.2238
+	N23.3510,E113.1697
+	N23.324,E113.1093
+	N23.0528,E113.0383
+	N23.0217,E113.1900
+	N22.9874,E113.3138
+	N23.0342,E113.3267
+	N23.0415,E113.2707
+	N23.0908,E113.2537
+	N23.1835,E113.2217
+	N23.2077,E113.2265
+	N23.3753,E113.4197
+	N23.4072,E113.4285
+
+[area2]
+shape = polygon
+altitude =2460
+draw = 1
+labelpos =-0.36, -9.65
+points =
+	N23.3753,E113.4197
+	N23.1649,E113.3631
+	N23.1734,E113.3355
+	N23.1755,E113.3186
+	N23.1734,E113.3017
+	N23.1675,E113.2860
+	N23.1579,E113.2725
+	N23.1455,E113.2622
+	N23.1311,E113.2557
+	N23.1156,E113.2535
+	N23.0908,E113.2537
+
+[area3]
+shape = polygon
+altitude =2790
+draw = 1
+labelpos =1.71, 14.28
+points =
+	N23.8012,E113.2547
+	N23.7853,E113.3537
+	N23.8037,E113.423
+	N23.7169,E113.5257
+	N23.7091,E113.5188
+	N23.6963,E113.5130
+	N23.6825,E113.5110
+	N23.6687,E113.5130
+	N23.6559,E113.5188
+	N23.6448,E113.5280
+	N23.5883,E113.5867
+	N23.4853,E113.4875
+	N23.4072,E113.4285
+	N23.4567,E113.2238
+	N23.5372,E113.2508
+	N23.5675,E113.2533
+	N23.6683,E113.2417
+	N23.8012,E113.2547
+	N23.7853,E113.3537
+	N23.8037,E113.423
+
+[area4]
+shape = polygon
+altitude =4960
+draw = 1
+labelpos =-38.36, -14.14 
+points =
+	N23.009,E112.7070
+	N23.07,E112.72187
+	N23.1260,E112.7139
+	N23.1782,E112.6904
+	N23.2230,E112.6530
+	N23.2574,E112.6043
+	N23.2790,E112.5475
+	N23.2864,E112.4867
+	N23.2857,E112.4650
+
+[area5]
+shape = polygon
+altitude =3940
+draw = 1
+labelpos =-38.43, 1.32 
+points =	
+	N23.6383,E112.4317
+	N23.5098,E112.6513
+	N23.8012,E113.2547
+
+[area6]
+shape = polygon
+altitude =2960
+draw = 1
+labelpos =-22.62, -23.56
+points =
+	N23.8012,E113.2547
+	N23.6683,E113.2417
+	N23.5050,E112.8890
+	N23.1075,E112.7853
+	N23.0217,E112.7740
+	N22.9226,E112.7882
+	N22.8302,E112.8298
+	N22.7510,E112.8959
+	N22.6901,E112.9820
+	N22.6519,E113.0823
+	N22.6370,E113.1513
+	N22.625,E113.3283
+
+[area7]
+shape = polygon
+altitude =2960
+draw = 1
+labelpos =16.18, -16.93
+points =
+	N23.4853,E113.4875
+	N23.0917,E113.8500
+	N22.8967,E113.9517
+
+[area8]
+shape = polygon
+altitude =3940
+draw = 1
+labelpos =14.62, 6.09 
+points =
+	N23.1224,E114.1408
+	N23.1385,E113.9730
+	N23.4192,E113.7747
+	N23.6575,E113.605
+	N23.7577,E113.6743
+	N23.8508,E113.6232
+	N23.852,E113.5195
+	N23.8582,E113.4852
+	N23.8408,E113.4510
+	N23.8353,E113.4223
+	N23.8083,E113.3573
+	N23.8012,E113.2547
+
+[area9]
+shape = polygon
+altitude =3940
+draw = 1
+labelpos =-36.37, -37.14
+points =
+	N23.009,E112.7070
+	N23.0084,E112.4857
+
+[area10]
+shape = polygon
+altitude =5250
+draw = 1
+labelpos =36.08, -6.05
+points =
+	N23.4192,E113.7747
+	N23.3842,E114.2340
+
+[area11]
+shape = polygon
+altitude =4930
+draw = 1
+labelpos =10.11, 33.95
+points =
+	N24.0604,E113.5222
+	N24.0571,E113.5500
+	N24.0473,E113.5760
+	N24.0317,E113.5982
+	N24.0113,E113.6153
+	N23.9876,E113.6260
+	N23.9622,E113.6297
+	N23.9368,E113.6260
+	N23.9131,E113.6153
+	N23.8928,E113.5982
+	N23.8772,E113.5760
+	N23.8674,E113.5500
+	N23.8640,E113.5222
+	N23.8674,E113.4944
+	N23.8772,E113.4685
+	N23.8928,E113.4462
+	N23.9131,E113.4291
+	N23.9368,E113.4184
+	N23.9622,E113.4147
+	N23.9876,E113.4184
+	N24.0013,E113.4291
+	N24.0317,E113.4407
+	N24.0473,E113.4685
+	N24.0571,E113.4944
+	N24.0604,E113.5222
+
+[area12]
+shape = polygon
+altitude =4930
+draw = 1
+labelpos =26.14, 15.48 
+points =
+	N23.7518,E113.8147
+	N23.7484,E113.8425
+	N23.7387,E113.8683
+	N23.7231,E113.8905
+	N23.7027,E113.9076
+	N23.6790,E113.9183
+	N23.6536,E113.9219
+	N23.6282,E113.9183
+	N23.6045,E113.9076
+	N23.5842,E113.8905
+	N23.5686,E113.8683
+	N23.5587,E113.8425
+	N23.5554,E113.8147
+	N23.5587,E113.7870
+	N23.5686,E113.7611
+	N23.5842,E113.7389
+	N23.6045,E113.7219
+	N23.6282,E113.7112
+	N23.6536,E113.7075
+	N23.6790,E113.7112
+	N23.7027,E113.7219
+	N23.7230,E113.7389
+	N23.7387,E113.7611
+	N23.7485,E113.7870
+	N23.7518,E113.8147
+
 [configurations]
 config1 =
 	0,rwy1,startland

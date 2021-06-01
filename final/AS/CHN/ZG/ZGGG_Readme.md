@@ -25,7 +25,14 @@ This implements Guangzhou Baiyun International Airport(ZGGG) into the [Endless A
 
 ## Changelog
 
+* 0.2 - 6/1/2021
+    1. Finished the realworld airlines.
+    2. Add ZGGG MVA.
+
 * 0.1 - 5/29/2021 - Initial Pre-Release.
+
+## Known Issues
+1. AJ27 is a new type of aircraft that produced by COMAC and it isn't in the database of EndlessATC. We are trying to find its performance data, but seems may meed more time and no expect time.
 
 ## Remarks
 ***You could bring out everything you think to us, but we can't promise will take any effect. orz**
