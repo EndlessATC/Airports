@@ -1,4 +1,4 @@
-# RJTT ACA 3.0.0
+# RJTT ACA 3.1.0
 # See RJTT_readme.md
 
 # This file is generated from the source file source\RJTT.txt using expand.py.
@@ -212,14 +212,14 @@ line2 =
 name = Tokyo International Airport
 code = RJTT
 runways = 
-	RJTTRWYA, 34L, N035.32.11.760, E139.47.08.410, 329.88, 9842.52, 0, 1574.8, 18, 3, 329.88, 3, 149.88
-	RJTTRWYA2, 34L, N035.32.11.760, E139.47.08.410, 329.88, 9842.52, 0, 1574.8, 18, 3, 329.88, 3, 149.88
-	RJTTRWYB, 22, N035.34.02.880, E139.46.37.610, 215.01, 8200, 0, 0, 35
-	RJTTRWYBLDA, 22C, N35.36.19.28, E139.46.16, 270, 8200, 0, 0, 35
-	RJTTRWYC, 34R, N035.32.22.90, E139.48.18.490, 329.88, 11023.62, 1181.1, 1279.53, 21
-	RJTTRWYC2, 34R, N035.32.22.90, E139.48.18.490, 329.88, 11023.62, 1181.1, 1279.53, 21
-	RJTTRWYD, 23, N035.32.26.150, E139.49.19.610, 222.56, 8200, 0, 0, 55, 3, 224.56
-	RJTTRWYDLDA, 23C, N35.34.16.51, E139.49.58, 270, 8200, 0, 0, 55
+	RJTTRWYA, 34L, N035.32.11.760, E139.47.08.410, 329.88, 9842.52, 0, 1574.8, 18, 3, 329.88, 3, 149.88, 0, 0, 0, 0, 118.1
+	RJTTRWYA2, 34L, N035.32.11.760, E139.47.08.410, 329.88, 9842.52, 0, 1574.8, 18, 3, 329.88, 3, 149.88, 0, 0, 0, 0, 118.1
+	RJTTRWYB, 22, N035.34.02.880, E139.46.37.610, 215.01, 8200, 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 118.575
+	RJTTRWYBLDA, 22C, N35.36.19.28, E139.46.16, 270, 8200, 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 118.575
+	RJTTRWYC, 34R, N035.32.22.90, E139.48.18.490, 329.88, 11023.62, 1181.1, 1279.53, 21, 0, 0, 0, 0, 0, 0, 0, 0, 124.35
+	RJTTRWYC2, 34R, N035.32.22.90, E139.48.18.490, 329.88, 11023.62, 1181.1, 1279.53, 21, 0, 0, 0, 0, 0, 0, 0, 0, 124.35
+	RJTTRWYD, 23, N035.32.26.150, E139.49.19.610, 222.56, 8200, 0, 0, 55, 3, 224.56, 0, 0, 0, 0, 0, 0, 124.35
+	RJTTRWYDLDA, 23C, N35.34.16.51, E139.49.58, 270, 8200, 0, 0, 55, 0, 0, 0, 0, 0, 0, 0, 0, 124.35
 climbaltitude = 15000
 sids = 
 	BEKLA, N35.49.58.66, E139.10.09.50, Bekla
@@ -2401,8 +2401,8 @@ name = Narita
 code = AA
 traffic = 3
 runways = 
-	RJAARWYA, 34L, N35.44.35.96, E140.23.26.66, 329.51, 13123.36, 0, 0, 135
-	RJAARWYB, 34R, N35.47.08.82, E140.23.31.72, 329.51, 8202.1, 0, 0, 137
+	RJAARWYA, 34L, N35.44.35.96, E140.23.26.66, 329.51, 13123.36, 0, 0, 135, 0, 0, 0, 0, 0, 0, 0, 0, 118.2
+	RJAARWYB, 34R, N35.47.08.82, E140.23.31.72, 329.51, 8202.1, 0, 0, 137, 0, 0, 0, 0, 0, 0, 0, 0, 118.35
 climbaltitude = 7000
 sids = 
 	KIMIN, N36.31.19.50, E140.07.38.18, Kimin
@@ -4568,7 +4568,7 @@ code = TL
 inboundbeacon = MESSE
 traffic = 180
 runways = 
-	RJTLRWY, 19, N35.809078, N140.011968, 179, 7400, 0, 0, 91
+	RJTLRWY, 19, N35.809078, E140.011968, 179, 7400, 0, 0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 325.4
 climbaltitude = 3000
 sids = 
 	KOGAR, N36.07.12.46, E139.41.28.35, Kogar
@@ -4603,7 +4603,7 @@ code = TF
 inboundbeacon = HME
 traffic = 60
 runways = 
-	RJTFRWY, 17, N35.40.29.98, E139.31.35.94, 163.2, 2624.67, 0, 0, 139
+	RJTFRWY, 17, N35.40.29.98, E139.31.35.94, 163.2, 2624.67, 0, 0, 139, 0, 0, 0, 0, 0, 0, 0, 0, 130.8
 sids = 
 	KOSKA, N35.15.20.97, E139.35.15.08, Koh-soo-kah
 climbaltitude = 7000
@@ -4614,7 +4614,7 @@ code = TO
 inboundbeacon = XAC
 traffic = 60
 runways = 
-	RJTORWY, 03, N34.46.27.00, E139.21.24.87, 20.15, 5905.51, 0, 0, 129
+	RJTORWY, 03, N34.46.27.00, E139.21.24.87, 20.15, 5905.51, 0, 0, 129, 0, 0, 0, 0, 0, 0, 0, 0, 118.6
 climbaltitude = 4000
 
 [airport6]
@@ -4623,7 +4623,7 @@ code = AN
 inboundbeacon = XAC
 traffic = 60
 runways = 
-	RJANRWY, 11, N34.22.13.11, E139.15.51.44, 102.32, 2624.67, 0, 0, 94
+	RJANRWY, 11, N34.22.13.11, E139.15.51.44, 102.32, 2624.67, 0, 0, 94, 0, 0, 0, 0, 0, 0, 0, 0, 124.3
 
 [area1]
 shape = circle
@@ -5480,20 +5480,23 @@ runway = RJTTRWYA
 beacon = APOLO, N35.19.19.32, E139.56.14.78, 0, Apolo
 route1 = 337
 	N35.15.25.28, E139.58.59.79
-	19.4, 5000, 200
+	15.5, 5000, 200
 
 [approach2]
 runway = RJTTRWYA
 beacon = ARLON
 route1 = 
 	337
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 route2 = 
 	76
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 route3 = 256
 	N35.17.43.35, E140.06.12.42
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 route4 = 110
 	N35.18.57.83, E139.46.42.43, 4000, 180
 	N35.24.37.24, E139.51.05.50, 2000
@@ -5526,7 +5529,8 @@ runway = RJTTRWYA
 beacon = ARLON
 route1 = 
 	337
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
 [approach6]
 runway = RJTTRWYC
@@ -5575,7 +5579,8 @@ route1 = 98
 	N34.54.38.5, E140.13.25.9
 	N35.01.55.34, E140.19.54.11, 13000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
 [approach11]
 runway = RJTTRWYA
@@ -5588,7 +5593,8 @@ route1 = 74
 	N34.53.29.3, E140.14.40.2
 	N35.01.20.08, E140.21.38.60, 12000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
 [approach12]
 runway = RJTTRWYA
@@ -5602,7 +5608,8 @@ route1 = 7
 	N34.47.12.8, E139.57.16.3
 	N34.50.14.36, E139.45.10.74, 11000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
 [approach13]
 runway = RJTTRWYC
@@ -10038,17 +10045,22 @@ route1 =
 	4, 1000, 160
 
 [approach126]
-runway = RJTTRWYA
-beacon = ACORN
-route1 = 68
-	N34.50.28.82, E139.41.46.71, 13000, 230
-	N34.52.54.0, E139.47.06.0
-	N34.50.16.8, E139.57.34.3
-	N34.51.13.2, E140.06.00.1
-	N34.54.38.5, E140.13.25.9
-	N35.01.55.34, E140.19.54.11, 13000, 230
-	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+runway = RJTLRWY, rev
+beacon = SHT, N35.48.07, E140.00.35
+route1 = 
+	335
+	N35.48.07, E140.00.35
+	N36.03.56.84, E139.52.53.88
+	N36.04.44, E139.56.13
+	N36.04.59, E139.58.01
+	N36.05.07, E140.00.18
+	N35.59.19.71, E140.00.25.22, 2000, 200
+	N35.54.16.43, E140.00.34.98, 2000, 180
+	N35.52.32, E140.00.38, 1300, 160
+	N35.48.29, E139.56.25, 1000, 160
+	N35.41.16, E139.56.34, 1000, 160
+	N35.41.20, E140.00.52, 1000, 160
+	4, 1000, 160
 
 [departure12]
 runway = RJTLRWY
@@ -10157,22 +10169,38 @@ types =
 	f2th, 5, 160, 250, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, falcon
 
 [approach127]
-runway = RJTTRWYA
+runway = RJTTRWYA, 
+beacon = ACORN
+route1 = 68
+	N34.50.28.82, E139.41.46.71, 13000, 230
+	N34.52.54.0, E139.47.06.0
+	N34.50.16.8, E139.57.34.3
+	N34.51.13.2, E140.06.00.1
+	N34.54.38.5, E140.13.25.9
+	N35.01.55.34, E140.19.54.11, 13000, 230
+	N35.09.00.44, E139.58.46.52, 8000
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
+
+[approach128]
+runway = RJTTRWYA, 
 beacon = WANDA, N35.01.55.34, E140.19.54.11, 0, Wanda
 route1 = 44
 	N35.01.55.34, E140.19.54.11, 13000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
-[approach128]
-runway = RJTTRWYA
+[approach129]
+runway = RJTTRWYA, 
 beacon = WEDGE
 route1 = 9
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
-[approach129]
-runway = RJTTRWYA
+[approach130]
+runway = RJTTRWYA, 
 beacon = AKSEL
 route1 = 38
 	N34.40.39.52, E139.51.26.91, 12000, 230
@@ -10181,18 +10209,20 @@ route1 = 38
 	N34.53.29.3, E140.14.40.2
 	N35.01.20.08, E140.21.38.60, 12000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
-[approach130]
-runway = RJTTRWYA
+[approach131]
+runway = RJTTRWYA, 
 beacon = WALLY, N35.01.20.08, E140.21.38.60, 0, Wally
 route1 = 44
 	N35.01.20.08, E140.21.38.60, 12000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
-[approach131]
-runway = RJTTRWYA
+[approach132]
+runway = RJTTRWYA, 
 beacon = AROSA
 route1 = 277
 	N34.42.01.72, E140.41.57.29
@@ -10202,10 +10232,11 @@ route1 = 277
 	N34.47.12.8, E139.57.16.3
 	N34.50.14.36, E139.45.10.74, 11000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
-[approach132]
-runway = RJTTRWYA
+[approach133]
+runway = RJTTRWYA, 
 beacon = AVEEY
 route1 = 277
 	N34.41.55.89, E140.21.57.97, 11000, 230
@@ -10214,18 +10245,20 @@ route1 = 277
 	N34.47.12.8, E139.57.16.3
 	N34.50.14.36, E139.45.10.74, 11000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
-[approach133]
-runway = RJTTRWYA
+[approach134]
+runway = RJTTRWYA, 
 beacon = WALTZ, N34.50.14.36, E139.45.10.74, 0, Waltz
 route1 = 295
 	N34.50.14.36, E139.45.10.74, 11000, 230
 	N35.09.00.44, E139.58.46.52, 8000
-	19.4, 5000, 200
+	N35.15.25.28, E139.58.59.79
+	15.5, 5000, 200
 
-[approach134]
-runway = RJTTRWYC
+[approach135]
+runway = RJTTRWYC, 
 beacon = CHIPS, N36.12.47.70, E140.14.36.89, 0, Chips
 route1 = 197
 	N36.12.47.70, E140.14.36.89, 13000
@@ -10240,8 +10273,8 @@ route1 = 197
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach135]
-runway = RJTTRWYC
+[approach136]
+runway = RJTTRWYC, 
 beacon = COLOR
 route1 = 278
 	N36.01.16.32, E140.12.19.80, 11000
@@ -10255,8 +10288,8 @@ route1 = 278
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach136]
-runway = RJTTRWYC
+[approach137]
+runway = RJTTRWYC, 
 beacon = COPSE, N35.46.58.79, E140.12.05.38, 0, Copse
 route1 = 278
 	N35.46.58.79, E140.12.05.38
@@ -10269,8 +10302,8 @@ route1 = 278
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach137]
-runway = RJTTRWYC
+[approach138]
+runway = RJTTRWYC, 
 beacon = COACH
 route1 = 278
 	N35.37.36.01, E140.12.31.48, 8000, 210
@@ -10282,8 +10315,8 @@ route1 = 278
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach138]
-runway = RJTTRWYC
+[approach139]
+runway = RJTTRWYC, 
 beacon = EDDIE, N35.14.47.42, E140.21.40.88, 0, Eddie
 route1 = 186
 	N35.14.47.42, E140.21.40.88, 8000, 210
@@ -10291,29 +10324,11 @@ route1 = 186
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach139]
-runway = RJTTRWYC
+[approach140]
+runway = RJTTRWYC, 
 beacon = RUSDA, N35.56.47.49, E140.57.29.87, 0, Rusda
 route1 = 277
 	N35.56.47.49, E140.57.29.87
-	N36.05.01.09, E140.41.22.76
-	N36.12.37.06, E140.26.22.53, 15000
-	N36.12.47.70, E140.14.36.89, 13000
-	N36.01.16.32, E140.12.19.80, 11000
-	N35.46.58.79, E140.12.05.38
-	N35.37.36.01, E140.12.31.48, 8000, 210
-	N35.29.39.2, E140.12.35.4
-	N35.25.39.0, E140.18.40.1
-	N35.21.10.2, E140.21.24.4
-	N35.14.47.42, E140.21.40.88, 8000, 210
-	N35.17.43.35, E140.06.12.42, 4000
-	N35.15.47.98, E140.02.08.18
-	17.6, 4000, 200
-
-[approach140]
-runway = RJTTRWYC
-beacon = ESKEN, N36.05.01.09, E140.41.22.76, 0, Esken
-route1 = 310
 	N36.05.01.09, E140.41.22.76
 	N36.12.37.06, E140.26.22.53, 15000
 	N36.12.47.70, E140.14.36.89, 13000
@@ -10329,7 +10344,25 @@ route1 = 310
 	17.6, 4000, 200
 
 [approach141]
-runway = RJTTRWYC
+runway = RJTTRWYC, 
+beacon = ESKEN, N36.05.01.09, E140.41.22.76, 0, Esken
+route1 = 310
+	N36.05.01.09, E140.41.22.76
+	N36.12.37.06, E140.26.22.53, 15000
+	N36.12.47.70, E140.14.36.89, 13000
+	N36.01.16.32, E140.12.19.80, 11000
+	N35.46.58.79, E140.12.05.38
+	N35.37.36.01, E140.12.31.48, 8000, 210
+	N35.29.39.2, E140.12.35.4
+	N35.25.39.0, E140.18.40.1
+	N35.21.10.2, E140.21.24.4
+	N35.14.47.42, E140.21.40.88, 8000, 210
+	N35.17.43.35, E140.06.12.42, 4000
+	N35.15.47.98, E140.02.08.18
+	17.6, 4000, 200
+
+[approach142]
+runway = RJTTRWYC, 
 beacon = POLIX
 route1 = 310
 	N36.12.37.06, E140.26.22.53, 15000
@@ -10345,8 +10378,8 @@ route1 = 310
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach142]
-runway = RJTTRWYC
+[approach143]
+runway = RJTTRWYC, 
 beacon = CLONE, N34.43.57.81, E140.08.56.00, 0, Clone
 route1 = 95
 	N34.43.57.81, E140.08.56.00
@@ -10361,8 +10394,8 @@ route1 = 95
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach143]
-runway = RJTTRWYC
+[approach144]
+runway = RJTTRWYC, 
 beacon = CIVIC
 route1 = 345
 	N35.08.40.58, E140.25.52.07, 7000, 210
@@ -10374,8 +10407,8 @@ route1 = 345
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach144]
-runway = RJTTRWYC
+[approach145]
+runway = RJTTRWYC, 
 beacon = EPSON, N35.30.36.17, E140.13.05.94, 0, Epson
 route1 = 317
 	N35.30.36.17, E140.13.05.94, 7000, 210
@@ -10383,8 +10416,8 @@ route1 = 317
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach145]
-runway = RJTTRWYC
+[approach146]
+runway = RJTTRWYC, 
 beacon = AKSEL
 route1 = 38
 	N34.40.39.52, E139.51.26.91
@@ -10400,27 +10433,11 @@ route1 = 38
 	N35.15.47.98, E140.02.08.18
 	17.6, 4000, 200
 
-[approach146]
-runway = RJTTRWYC
+[approach147]
+runway = RJTTRWYC, 
 beacon = AROSA
 route1 = 277
 	N34.42.01.72, E140.41.57.29
-	N34.41.55.89, E140.21.57.97, 11000, 230
-	N34.48.52.6, E140.19.36.8
-	N35.00.30.2, E140.29.57.9
-	N35.08.40.58, E140.25.52.07, 7000, 210
-	N35.14.33.3, E140.22.54.8
-	N35.21.25.4, E140.22.37.1
-	N35.26.17.6, E140.19.38.6
-	N35.30.36.17, E140.13.05.94, 7000, 210
-	N35.17.43.35, E140.06.12.42, 4000
-	N35.15.47.98, E140.02.08.18
-	17.6, 4000, 200
-
-[approach147]
-runway = RJTTRWYC
-beacon = AVEEY
-route1 = 277
 	N34.41.55.89, E140.21.57.97, 11000, 230
 	N34.48.52.6, E140.19.36.8
 	N35.00.30.2, E140.29.57.9
@@ -10434,7 +10451,23 @@ route1 = 277
 	17.6, 4000, 200
 
 [approach148]
-runway = RJTTRWYB
+runway = RJTTRWYC, 
+beacon = AVEEY
+route1 = 277
+	N34.41.55.89, E140.21.57.97, 11000, 230
+	N34.48.52.6, E140.19.36.8
+	N35.00.30.2, E140.29.57.9
+	N35.08.40.58, E140.25.52.07, 7000, 210
+	N35.14.33.3, E140.22.54.8
+	N35.21.25.4, E140.22.37.1
+	N35.26.17.6, E140.19.38.6
+	N35.30.36.17, E140.13.05.94, 7000, 210
+	N35.17.43.35, E140.06.12.42, 4000
+	N35.15.47.98, E140.02.08.18
+	17.6, 4000, 200
+
+[approach149]
+runway = RJTTRWYB, 
 beacon = ACORN
 route1 = 68
 	N34.50.28.82, E139.41.46.71, 13000, 230
@@ -10449,8 +10482,8 @@ route1 = 68
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach149]
-runway = RJTTRWYB
+[approach150]
+runway = RJTTRWYB, 
 beacon = SOLAR, N34.59.09.24, E139.45.18.45, 0, Solar
 route1 = 26
 	N34.59.09.24, E139.45.18.45, 13000, 230
@@ -10464,8 +10497,8 @@ route1 = 26
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach150]
-runway = RJTTRWYB
+[approach151]
+runway = RJTTRWYB, 
 beacon = SCOUT, N35.06.24.07, E139.53.56.83, 0, Scout
 route1 = 52
 	N35.06.24.07, E139.53.56.83
@@ -10478,8 +10511,8 @@ route1 = 52
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach151]
-runway = RJTTRWYB
+[approach152]
+runway = RJTTRWYB, 
 beacon = STOCK, N35.04.38.74, E140.30.02.93, 0, Stock
 route1 = 71
 	N35.04.38.74, E140.30.02.93, 13000, 230
@@ -10488,8 +10521,8 @@ route1 = 71
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach152]
-runway = RJTTRWYB
+[approach153]
+runway = RJTTRWYB, 
 beacon = SHAFT
 route1 = 5
 	N35.22.27.42, E140.13.13.31, 8000
@@ -10497,8 +10530,8 @@ route1 = 5
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach153]
-runway = RJTTRWYB
+[approach154]
+runway = RJTTRWYB, 
 beacon = AKSEL
 route1 = 38
 	N34.40.39.52, E139.51.26.91, 12000, 230
@@ -10512,8 +10545,8 @@ route1 = 38
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach154]
-runway = RJTTRWYB
+[approach155]
+runway = RJTTRWYB, 
 beacon = SALLY, N34.53.33.89, E139.55.40.09, 0, Sally
 route1 = 23
 	N34.53.33.89, E139.55.40.09, 12000, 230
@@ -10526,8 +10559,8 @@ route1 = 23
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach155]
-runway = RJTTRWYB
+[approach156]
+runway = RJTTRWYB, 
 beacon = STOWE, N35.03.25.91, E140.31.11.38, 0, Stowe
 route1 = 71
 	N35.03.25.91, E140.31.11.38, 12000, 230
@@ -10536,25 +10569,11 @@ route1 = 71
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach156]
-runway = RJTTRWYB
+[approach157]
+runway = RJTTRWYB, 
 beacon = AROSA
 route1 = 277
 	N34.42.01.72, E140.41.57.29
-	N34.41.55.89, E140.21.57.97, 11000, 230
-	N34.51.41.12, E140.15.05.29, 11000, 230
-	N34.56.55.4, E140.11.22.9
-	N34.58.38.5, E140.01.46.6
-	N35.04.12.71, E139.51.19.99, 11000, 230
-	N35.22.27.42, E140.13.13.31, 8000
-	N35.40.18.54, E140.09.19.89, 5000
-	N35.49.51.78, E140.03.55.76, 5000
-	16.8, 5000, 200
-
-[approach157]
-runway = RJTTRWYB
-beacon = AVEEY
-route1 = 277
 	N34.41.55.89, E140.21.57.97, 11000, 230
 	N34.51.41.12, E140.15.05.29, 11000, 230
 	N34.56.55.4, E140.11.22.9
@@ -10566,7 +10585,21 @@ route1 = 277
 	16.8, 5000, 200
 
 [approach158]
-runway = RJTTRWYB
+runway = RJTTRWYB, 
+beacon = AVEEY
+route1 = 277
+	N34.41.55.89, E140.21.57.97, 11000, 230
+	N34.51.41.12, E140.15.05.29, 11000, 230
+	N34.56.55.4, E140.11.22.9
+	N34.58.38.5, E140.01.46.6
+	N35.04.12.71, E139.51.19.99, 11000, 230
+	N35.22.27.42, E140.13.13.31, 8000
+	N35.40.18.54, E140.09.19.89, 5000
+	N35.49.51.78, E140.03.55.76, 5000
+	16.8, 5000, 200
+
+[approach159]
+runway = RJTTRWYB, 
 beacon = ALDEN, N34.51.41.12, E140.15.05.29, 0, Alden
 route1 = 337
 	N34.51.41.12, E140.15.05.29, 11000, 230
@@ -10578,8 +10611,8 @@ route1 = 337
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach159]
-runway = RJTTRWYB
+[approach160]
+runway = RJTTRWYB, 
 beacon = SLICK, N35.04.12.71, E139.51.19.99, 0, Slick
 route1 = 311
 	N35.04.12.71, E139.51.19.99, 11000, 230
@@ -10588,8 +10621,8 @@ route1 = 311
 	N35.49.51.78, E140.03.55.76, 5000
 	16.8, 5000, 200
 
-[approach160]
-runway = RJTTRWYD
+[approach161]
+runway = RJTTRWYD, 
 beacon = AKSEL
 route1 = 38
 	N34.40.39.52, E139.51.26.91, 12000, 230
@@ -10600,8 +10633,8 @@ route1 = 38
 	N35.40.18.54, E140.09.19.89
 	17.1, 4000, 200
 
-[approach161]
-runway = RJTTRWYD
+[approach162]
+runway = RJTTRWYD, 
 beacon = LAFIT, N34.48.25.97, E140.07.32.37, 0, Lafit
 route1 = 67
 	N34.48.25.97, E140.07.32.37, 10000
@@ -10611,8 +10644,8 @@ route1 = 67
 	N35.40.18.54, E140.09.19.89
 	17.1, 4000, 200
 
-[approach162]
-runway = RJTTRWYD
+[approach163]
+runway = RJTTRWYD, 
 beacon = STING
 route1 = 67
 	N34.51.57.89, E140.14.53.44, 9000
@@ -10621,8 +10654,8 @@ route1 = 67
 	N35.40.18.54, E140.09.19.89
 	17.1, 4000, 200
 
-[approach163]
-runway = RJTTRWYD
+[approach164]
+runway = RJTTRWYD, 
 beacon = SPARK, N35.03.11.95, E140.14.16.72, 0, Spark
 route1 = 5
 	N35.03.11.95, E140.14.16.72, 7000
@@ -10630,16 +10663,16 @@ route1 = 5
 	N35.40.18.54, E140.09.19.89
 	17.1, 4000, 200
 
-[approach164]
-runway = RJTTRWYD
+[approach165]
+runway = RJTTRWYD, 
 beacon = SHAFT
 route1 = 5
 	N35.22.27.42, E140.13.13.31, 5000
 	N35.40.18.54, E140.09.19.89
 	17.1, 4000, 200
 
-[approach165]
-runway = RJTTRWYD
+[approach166]
+runway = RJTTRWYD, 
 beacon = AROSA
 route1 = 277
 	N34.42.01.72, E140.41.57.29
@@ -10650,8 +10683,8 @@ route1 = 277
 	N35.40.18.54, E140.09.19.89
 	17.1, 4000, 200
 
-[approach166]
-runway = RJTTRWYD
+[approach167]
+runway = RJTTRWYD, 
 beacon = AVEEY
 route1 = 277
 	N34.41.55.89, E140.21.57.97, 11000, 230
@@ -10661,8 +10694,8 @@ route1 = 277
 	N35.40.18.54, E140.09.19.89
 	17.1, 4000, 200
 
-[approach167]
-runway = RJTTRWYD
+[approach168]
+runway = RJTTRWYD, 
 beacon = NOVEL
 route1 = 264
 	N36.21.06.94, E140.00.04.91
@@ -10672,8 +10705,8 @@ route1 = 264
 	N35.52.34.97, E140.06.36.08, 4000
 	17.1, 4000, 200
 
-[approach168]
-runway = RJTTRWYD
+[approach169]
+runway = RJTTRWYD, 
 beacon = SCREW
 route1 = 203
 	N36.03.01.23, E139.54.00.39
@@ -10682,8 +10715,8 @@ route1 = 203
 	N35.52.34.97, E140.06.36.08, 4000
 	17.1, 4000, 200
 
-[approach169]
-runway = RJTTRWYD
+[approach170]
+runway = RJTTRWYD, 
 beacon = RUSDA, N35.56.47.49, E140.57.29.87, 0, Rusda
 route1 = 277
 	N35.56.47.49, E140.57.29.87
@@ -10697,8 +10730,8 @@ route1 = 277
 	N35.52.34.97, E140.06.36.08, 4000
 	17.1, 4000, 200
 
-[approach170]
-runway = RJTTRWYD
+[approach171]
+runway = RJTTRWYD, 
 beacon = ESKEN, N36.05.01.09, E140.41.22.76, 0, Esken
 route1 = 310
 	N36.05.01.09, E140.41.22.76
@@ -10711,8 +10744,8 @@ route1 = 310
 	N35.52.34.97, E140.06.36.08, 4000
 	17.1, 4000, 200
 
-[approach171]
-runway = RJTTRWYD
+[approach172]
+runway = RJTTRWYD, 
 beacon = POLIX
 route1 = 310
 	N36.12.37.06, E140.26.22.53, 15000
@@ -10724,32 +10757,32 @@ route1 = 310
 	N35.52.34.97, E140.06.36.08, 4000
 	17.1, 4000, 200
 
-[approach172]
-runway = RJTTRWYD
-beacon = NOVEL
-route1 = 264
-	N36.21.06.94, E140.00.04.91
-	N36.03.01.23, E139.54.00.39
-	N35.55.53.34, E139.57.08.38, 4000
-	N35.53.45.19, E140.02.03.66, 4000
-	N35.52.34.97, E140.06.36.08, 4000
-	17.1, 4000, 200
-
 [approach173]
-runway = RJTTRWYD
-beacon = SCREW
-route1 = 203
-	N36.03.01.23, E139.54.00.39
-	N35.55.53.34, E139.57.08.38, 4000
-	N35.53.45.19, E140.02.03.66, 4000
-	N35.52.34.97, E140.06.36.08, 4000
-	17.1, 4000, 200
-
-[approach174]
 runway = RJTTRWYC2, rev
 beacon = ACORN
 route1 = 68
 	N34.50.28.82, E139.41.46.71, 13000, 230
+	N34.59.09.24, E139.45.18.45, 13000, 230
+	N35.06.24.07, E139.53.56.83
+	N35.01.29.7, E140.03.08.5
+	N34.59.57.7, E140.11.36.0
+	N35.00.39.9, E140.20.13.0
+	N35.04.38.74, E140.30.02.93, 13000, 230
+	N35.22.27.42, E140.13.13.31, 9000
+	N35.35.51.64, E140.14.11.69
+	N35.42.13.47, E140.11.25.82
+	N35.44.58.84, E140.01.40.30, 7000
+	N35.47.31.09, E139.52.38.14, 6000
+	N35.48.38.2, E139.48.38.4
+	N35.49.17.53, E139.44.02.84, 4500, 185
+	N35.49.17.12, E139.41.05.76, 4000
+	N35.49.16.64, E139.38.05.98
+	15, 4000, 185
+
+[approach174]
+runway = RJTTRWYC2, rev
+beacon = SOLAR, N34.59.09.24, E139.45.18.45, 0, Solar
+route1 = 26
 	N34.59.09.24, E139.45.18.45, 13000, 230
 	N35.06.24.07, E139.53.56.83
 	N35.01.29.7, E140.03.08.5
@@ -10769,27 +10802,6 @@ route1 = 68
 
 [approach175]
 runway = RJTTRWYC2, rev
-beacon = SOLAR, N34.59.09.24, E139.45.18.45, 0, Solar
-route1 = 26
-	N34.59.09.24, E139.45.18.45, 13000, 230
-	N35.06.24.07, E139.53.56.83
-	N35.01.29.7, E140.03.08.5
-	N34.59.57.7, E140.11.36.0
-	N35.00.39.9, E140.20.13.0
-	N35.04.38.74, E140.30.02.93, 13000, 230
-	N35.22.27.42, E140.13.13.31, 9000
-	N35.35.51.64, E140.14.11.69
-	N35.42.13.47, E140.11.25.82
-	N35.44.58.84, E140.01.40.30, 7000
-	N35.47.31.09, E139.52.38.14, 6000
-	N35.48.38.2, E139.48.38.4
-	N35.49.17.53, E139.44.02.84, 4500, 185
-	N35.49.17.12, E139.41.05.76, 4000
-	N35.49.16.64, E139.38.05.98
-	15, 4000, 185
-
-[approach176]
-runway = RJTTRWYC2, rev
 beacon = SCOUT, N35.06.24.07, E139.53.56.83, 0, Scout
 route1 = 52
 	N35.06.24.07, E139.53.56.83
@@ -10808,7 +10820,7 @@ route1 = 52
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach177]
+[approach176]
 runway = RJTTRWYC2, rev
 beacon = STOCK, N35.04.38.74, E140.30.02.93, 0, Stock
 route1 = 71
@@ -10824,7 +10836,7 @@ route1 = 71
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach178]
+[approach177]
 runway = RJTTRWYC2, rev
 beacon = SHAFT
 route1 = 52
@@ -10839,7 +10851,7 @@ route1 = 52
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach179]
+[approach178]
 runway = RJTTRWYC2, rev
 beacon = SNOKE
 route1 = 11
@@ -10853,7 +10865,7 @@ route1 = 11
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach180]
+[approach179]
 runway = RJTTRWYC2, rev
 beacon = SPINE
 route1 = 348
@@ -10866,7 +10878,7 @@ route1 = 348
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach181]
+[approach180]
 runway = RJTTRWYC2, rev
 beacon = SOPPY, N35.44.58.84, E140.01.40.30, 0, Soppy
 route1 = 297
@@ -10878,7 +10890,7 @@ route1 = 297
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach182]
+[approach181]
 runway = RJTTRWYC2, rev
 beacon = SNARE
 route1 = 297
@@ -10889,7 +10901,7 @@ route1 = 297
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach183]
+[approach182]
 runway = RJTTRWYC2, rev
 beacon = AKSEL
 route1 = 38
@@ -10910,7 +10922,7 @@ route1 = 38
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach184]
+[approach183]
 runway = RJTTRWYC2, rev
 beacon = SALLY, N34.53.33.89, E139.55.40.09, 0, Sally
 route1 = 23
@@ -10930,7 +10942,7 @@ route1 = 23
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach185]
+[approach184]
 runway = RJTTRWYC2, rev
 beacon = STOWE, N35.03.25.91, E140.31.11.38, 0, Stowe
 route1 = 71
@@ -10946,7 +10958,7 @@ route1 = 71
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach186]
+[approach185]
 runway = RJTTRWYC2, rev
 beacon = AROSA
 route1 = 277
@@ -10967,7 +10979,7 @@ route1 = 277
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach187]
+[approach186]
 runway = RJTTRWYC2, rev
 beacon = AVEEY
 route1 = 277
@@ -10987,7 +10999,7 @@ route1 = 277
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach188]
+[approach187]
 runway = RJTTRWYC2, rev
 beacon = ALDEN, N34.51.41.12, E140.15.05.29, 0, Alden
 route1 = 337
@@ -11006,7 +11018,7 @@ route1 = 337
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach189]
+[approach188]
 runway = RJTTRWYC2, rev
 beacon = SLICK, N35.04.12.71, E139.51.19.99, 0, Slick
 route1 = 311
@@ -11022,7 +11034,7 @@ route1 = 311
 	N35.49.16.64, E139.38.05.98
 	15, 4000, 185
 
-[approach190]
+[approach189]
 runway = RJTTRWYA2, rev
 beacon = NOVEL
 route1 = 264
@@ -11038,7 +11050,7 @@ route1 = 264
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach191]
+[approach190]
 runway = RJTTRWYA2, rev
 beacon = NAMCO, N36.10.35.12, E140.02.26.32, 0, Namco
 route1 = 177
@@ -11053,7 +11065,7 @@ route1 = 177
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach192]
+[approach191]
 runway = RJTTRWYA2, rev
 beacon = NILUS, N35.54.15.18, E140.12.08.75, 0, Nilus
 route1 = 186
@@ -11065,7 +11077,7 @@ route1 = 186
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach193]
+[approach192]
 runway = RJTTRWYA2, rev
 beacon = NEURO
 route1 = 252
@@ -11076,7 +11088,7 @@ route1 = 252
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach194]
+[approach193]
 runway = RJTTRWYA2, rev
 beacon = NIGEL, N35.56.07.54, E139.51.17.80, 0, Nigel
 route1 = 252
@@ -11086,7 +11098,7 @@ route1 = 252
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach195]
+[approach194]
 runway = RJTTRWYA2, rev
 beacon = RUSDA, N35.56.47.49, E140.57.29.87, 0, Rusda
 route1 = 277
@@ -11106,7 +11118,7 @@ route1 = 277
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach196]
+[approach195]
 runway = RJTTRWYA2, rev
 beacon = ESKEN, N36.05.01.09, E140.41.22.76, 0, Esken
 route1 = 310
@@ -11125,7 +11137,7 @@ route1 = 310
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach197]
+[approach196]
 runway = RJTTRWYA2, rev
 beacon = POLIX
 route1 = 310
@@ -11143,71 +11155,7 @@ route1 = 310
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach198]
-runway = RJTTRWYA2, rev
-beacon = NOVEL
-route1 = 264
-	N36.21.06.94, E140.00.04.91, 8000, 210
-	N36.10.35.12, E140.02.26.32
-	N36.06.08.2, E140.09.04.0
-	N36.01.13.8, E140.11.58.7
-	N35.54.15.18, E140.12.08.75, 8000, 210
-	N35.57.27.61, E139.54.41.30, 6000
-	N35.56.07.54, E139.51.17.80, 6000
-	N35.53.50.86, E139.45.31.32
-	N35.52.31.62, E139.42.10.87, 3000
-	N35.50.27.48, E139.36.57.64
-	15.1, 3000, 200
-
-[approach199]
-runway = RJTTRWYA2, rev
-beacon = NAMCO, N36.10.35.12, E140.02.26.32, 0, Namco
-route1 = 177
-	N36.10.35.12, E140.02.26.32
-	N36.06.08.2, E140.09.04.0
-	N36.01.13.8, E140.11.58.7
-	N35.54.15.18, E140.12.08.75, 8000, 210
-	N35.57.27.61, E139.54.41.30, 6000
-	N35.56.07.54, E139.51.17.80, 6000
-	N35.53.50.86, E139.45.31.32
-	N35.52.31.62, E139.42.10.87, 3000
-	N35.50.27.48, E139.36.57.64
-	15.1, 3000, 200
-
-[approach200]
-runway = RJTTRWYA2, rev
-beacon = NILUS, N35.54.15.18, E140.12.08.75, 0, Nilus
-route1 = 186
-	N35.54.15.18, E140.12.08.75, 8000, 210
-	N35.57.27.61, E139.54.41.30, 6000
-	N35.56.07.54, E139.51.17.80, 6000
-	N35.53.50.86, E139.45.31.32
-	N35.52.31.62, E139.42.10.87, 3000
-	N35.50.27.48, E139.36.57.64
-	15.1, 3000, 200
-
-[approach201]
-runway = RJTTRWYA2, rev
-beacon = NEURO
-route1 = 252
-	N35.57.27.61, E139.54.41.30, 6000
-	N35.56.07.54, E139.51.17.80, 6000
-	N35.53.50.86, E139.45.31.32
-	N35.52.31.62, E139.42.10.87, 3000
-	N35.50.27.48, E139.36.57.64
-	15.1, 3000, 200
-
-[approach202]
-runway = RJTTRWYA2, rev
-beacon = NIGEL, N35.56.07.54, E139.51.17.80, 0, Nigel
-route1 = 252
-	N35.56.07.54, E139.51.17.80, 6000
-	N35.53.50.86, E139.45.31.32
-	N35.52.31.62, E139.42.10.87, 3000
-	N35.50.27.48, E139.36.57.64
-	15.1, 3000, 200
-
-[approach203]
+[approach197]
 runway = RJTTRWYA2, rev
 beacon = ACORN
 route1 = 68
@@ -11228,7 +11176,7 @@ route1 = 68
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach204]
+[approach198]
 runway = RJTTRWYA2, rev
 beacon = SOLAR, N34.59.09.24, E139.45.18.45, 0, Solar
 route1 = 26
@@ -11248,7 +11196,7 @@ route1 = 26
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach205]
+[approach199]
 runway = RJTTRWYA2, rev
 beacon = SCOUT, N35.06.24.07, E139.53.56.83, 0, Scout
 route1 = 1
@@ -11267,7 +11215,7 @@ route1 = 1
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach206]
+[approach200]
 runway = RJTTRWYA2, rev
 beacon = SCOPE, N35.23.58.37, E140.05.38.32, 0, Scope
 route1 = 36
@@ -11285,7 +11233,7 @@ route1 = 36
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach207]
+[approach201]
 runway = RJTTRWYA2, rev
 beacon = NUMAN
 route1 = 360
@@ -11301,7 +11249,7 @@ route1 = 360
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach208]
+[approach202]
 runway = RJTTRWYA2, rev
 beacon = NORIK, N35.54.28.91, E140.10.54.53, 0, Norik
 route1 = 360
@@ -11316,7 +11264,7 @@ route1 = 360
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach209]
+[approach203]
 runway = RJTTRWYA2, rev
 beacon = NURSE, N36.09.39.29, E140.01.53.27, 0, Nurse
 route1 = 317
@@ -11328,7 +11276,7 @@ route1 = 317
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach210]
+[approach204]
 runway = RJTTRWYA2, rev
 beacon = AKSEL
 route1 = 38
@@ -11349,7 +11297,7 @@ route1 = 38
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach211]
+[approach205]
 runway = RJTTRWYA2, rev
 beacon = SALLY, N34.53.33.89, E139.55.40.09, 0, Sally
 route1 = 23
@@ -11369,7 +11317,7 @@ route1 = 23
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach212]
+[approach206]
 runway = RJTTRWYA2, rev
 beacon = AROSA
 route1 = 277
@@ -11393,7 +11341,7 @@ route1 = 277
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach213]
+[approach207]
 runway = RJTTRWYA2, rev
 beacon = AVEEY
 route1 = 277
@@ -11416,7 +11364,7 @@ route1 = 277
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach214]
+[approach208]
 runway = RJTTRWYA2, rev
 beacon = ALDEN, N34.51.41.12, E140.15.05.29, 0, Alden
 route1 = 337
@@ -11438,8 +11386,8 @@ route1 = 337
 	N35.50.27.48, E139.36.57.64
 	15.1, 3000, 200
 
-[approach215]
-runway = RJTTRWYBLDA
+[approach209]
+runway = RJTTRWYBLDA, 
 beacon = ACORN
 route1 = 68
 	N34.50.28.82, E139.41.46.71, 13000, 230
@@ -11455,8 +11403,8 @@ route1 = 68
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach216]
-runway = RJTTRWYBLDA
+[approach210]
+runway = RJTTRWYBLDA, 
 beacon = SOLAR, N34.59.09.24, E139.45.18.45, 0, Solar
 route1 = 26
 	N34.59.09.24, E139.45.18.45, 13000, 230
@@ -11471,8 +11419,8 @@ route1 = 26
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach217]
-runway = RJTTRWYBLDA
+[approach211]
+runway = RJTTRWYBLDA, 
 beacon = SCOUT, N35.06.24.07, E139.53.56.83, 0, Scout
 route1 = 52
 	N35.06.24.07, E139.53.56.83
@@ -11486,8 +11434,8 @@ route1 = 52
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach218]
-runway = RJTTRWYBLDA
+[approach212]
+runway = RJTTRWYBLDA, 
 beacon = STOCK, N35.04.38.74, E140.30.02.93, 0, Stock
 route1 = 71
 	N35.04.38.74, E140.30.02.93, 13000, 230
@@ -11497,8 +11445,8 @@ route1 = 71
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach219]
-runway = RJTTRWYBLDA
+[approach213]
+runway = RJTTRWYBLDA, 
 beacon = SHAFT
 route1 = 330
 	N35.22.27.42, E140.13.13.31, 8000
@@ -11507,8 +11455,8 @@ route1 = 330
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach220]
-runway = RJTTRWYBLDA
+[approach214]
+runway = RJTTRWYBLDA, 
 beacon = AKSEL
 route1 = 38
 	N34.40.39.52, E139.51.26.91, 12000, 230
@@ -11523,8 +11471,8 @@ route1 = 38
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach221]
-runway = RJTTRWYBLDA
+[approach215]
+runway = RJTTRWYBLDA, 
 beacon = SALLY, N34.53.33.89, E139.55.40.09, 0, Sally
 route1 = 23
 	N34.53.33.89, E139.55.40.09, 12000, 230
@@ -11538,8 +11486,8 @@ route1 = 23
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach222]
-runway = RJTTRWYBLDA
+[approach216]
+runway = RJTTRWYBLDA, 
 beacon = STOWE, N35.03.25.91, E140.31.11.38, 0, Stowe
 route1 = 71
 	N35.03.25.91, E140.31.11.38, 12000, 230
@@ -11549,8 +11497,8 @@ route1 = 71
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach223]
-runway = RJTTRWYBLDA
+[approach217]
+runway = RJTTRWYBLDA, 
 beacon = AROSA
 route1 = 277
 	N34.42.01.72, E140.41.57.29
@@ -11565,8 +11513,8 @@ route1 = 277
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach224]
-runway = RJTTRWYBLDA
+[approach218]
+runway = RJTTRWYBLDA, 
 beacon = AVEEY
 route1 = 277
 	N34.41.55.89, E140.21.57.97, 11000, 230
@@ -11580,8 +11528,8 @@ route1 = 277
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach225]
-runway = RJTTRWYBLDA
+[approach219]
+runway = RJTTRWYBLDA, 
 beacon = ALDEN, N34.51.41.12, E140.15.05.29, 0, Alden
 route1 = 337
 	N34.51.41.12, E140.15.05.29, 11000, 230
@@ -11594,8 +11542,8 @@ route1 = 337
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach226]
-runway = RJTTRWYBLDA
+[approach220]
+runway = RJTTRWYBLDA, 
 beacon = SLICK, N35.04.12.71, E139.51.19.99, 0, Slick
 route1 = 311
 	N35.04.12.71, E139.51.19.99, 11000, 230
@@ -11605,8 +11553,8 @@ route1 = 311
 	N35.36.20.34, E140.08.34.53, 5500, 200
 	16, 5000, 200
 
-[approach227]
-runway = RJTTRWYDLDA
+[approach221]
+runway = RJTTRWYDLDA, 
 beacon = AKSEL
 route1 = 38
 	N34.40.39.52, E139.51.26.91, 12000, 230
@@ -11617,8 +11565,8 @@ route1 = 38
 	N35.31.55.02, E140.12.15.07
 	15, 4000, 200
 
-[approach228]
-runway = RJTTRWYDLDA
+[approach222]
+runway = RJTTRWYDLDA, 
 beacon = LAFIT, N34.48.25.97, E140.07.32.37, 0, Lafit
 route1 = 67
 	N34.48.25.97, E140.07.32.37, 10000
@@ -11628,8 +11576,8 @@ route1 = 67
 	N35.31.55.02, E140.12.15.07
 	15, 4000, 200
 
-[approach229]
-runway = RJTTRWYDLDA
+[approach223]
+runway = RJTTRWYDLDA, 
 beacon = STING
 route1 = 67
 	N34.51.57.89, E140.14.53.44, 9000
@@ -11638,8 +11586,8 @@ route1 = 67
 	N35.31.55.02, E140.12.15.07
 	15, 4000, 200
 
-[approach230]
-runway = RJTTRWYDLDA
+[approach224]
+runway = RJTTRWYDLDA, 
 beacon = SPARK, N35.03.11.95, E140.14.16.72, 0, Spark
 route1 = 5
 	N35.03.11.95, E140.14.16.72, 7000
@@ -11647,16 +11595,16 @@ route1 = 5
 	N35.31.55.02, E140.12.15.07
 	15, 4000, 200
 
-[approach231]
-runway = RJTTRWYDLDA
+[approach225]
+runway = RJTTRWYDLDA, 
 beacon = SHAFT
 route1 = 5
 	N35.22.27.42, E140.13.13.31, 5000
 	N35.31.55.02, E140.12.15.07
 	15, 4000, 200
 
-[approach232]
-runway = RJTTRWYDLDA
+[approach226]
+runway = RJTTRWYDLDA, 
 beacon = AROSA
 route1 = 277
 	N34.42.01.72, E140.41.57.29
@@ -11667,8 +11615,8 @@ route1 = 277
 	N35.31.55.02, E140.12.15.07
 	15, 4000, 200
 
-[approach233]
-runway = RJTTRWYDLDA
+[approach227]
+runway = RJTTRWYDLDA, 
 beacon = AVEEY
 route1 = 277
 	N34.41.55.89, E140.21.57.97, 11000, 230
@@ -11678,8 +11626,8 @@ route1 = 277
 	N35.31.55.02, E140.12.15.07
 	15, 4000, 200
 
-[approach234]
-runway = RJTTRWYDLDA
+[approach228]
+runway = RJTTRWYDLDA, 
 beacon = NOVEL
 route1 = 264
 	N36.21.06.94, E140.00.04.91
@@ -11690,8 +11638,8 @@ route1 = 264
 	N35.35.43.12, E140.14.15.35, 4500, 210
 	18.3, 4000, 200
 
-[approach235]
-runway = RJTTRWYDLDA
+[approach229]
+runway = RJTTRWYDLDA, 
 beacon = DREAD
 route1 = 191
 	N36.03.59.19, E139.58.56.94
@@ -11701,8 +11649,8 @@ route1 = 191
 	N35.35.43.12, E140.14.15.35, 4500, 210
 	18.3, 4000, 200
 
-[approach236]
-runway = RJTTRWYDLDA
+[approach230]
+runway = RJTTRWYDLDA, 
 beacon = DENNY
 route1 = 167
 	N35.48.28.80, E140.05.56.37
@@ -11711,8 +11659,8 @@ route1 = 167
 	N35.35.43.12, E140.14.15.35, 4500, 210
 	18.3, 4000, 200
 
-[approach237]
-runway = RJTTRWYDLDA
+[approach231]
+runway = RJTTRWYDLDA, 
 beacon = RUSDA, N35.56.47.49, E140.57.29.87, 0, Rusda
 route1 = 277
 	N35.56.47.49, E140.57.29.87
@@ -11727,8 +11675,8 @@ route1 = 277
 	N35.35.43.12, E140.14.15.35, 4500, 210
 	18.3, 4000, 200
 
-[approach238]
-runway = RJTTRWYDLDA
+[approach232]
+runway = RJTTRWYDLDA, 
 beacon = ESKEN, N36.05.01.09, E140.41.22.76, 0, Esken
 route1 = 310
 	N36.05.01.09, E140.41.22.76
@@ -11742,8 +11690,8 @@ route1 = 310
 	N35.35.43.12, E140.14.15.35, 4500, 210
 	18.3, 4000, 200
 
-[approach239]
-runway = RJTTRWYDLDA
+[approach233]
+runway = RJTTRWYDLDA, 
 beacon = POLIX
 route1 = 310
 	N36.12.37.06, E140.26.22.53, 15000
@@ -11756,41 +11704,8 @@ route1 = 310
 	N35.35.43.12, E140.14.15.35, 4500, 210
 	18.3, 4000, 200
 
-[approach240]
-runway = RJTTRWYDLDA
-beacon = NOVEL
-route1 = 264
-	N36.21.06.94, E140.00.04.91
-	N36.03.59.19, E139.58.56.94
-	N35.48.28.80, E140.05.56.37
-	N35.42.59.64, E140.08.24.26, 4500
-	N35.39.21.66, E140.12.40.45
-	N35.35.43.12, E140.14.15.35, 4500, 210
-	18.3, 4000, 200
-
-[approach241]
-runway = RJTTRWYDLDA
-beacon = DREAD
-route1 = 191
-	N36.03.59.19, E139.58.56.94
-	N35.48.28.80, E140.05.56.37
-	N35.42.59.64, E140.08.24.26, 4500
-	N35.39.21.66, E140.12.40.45
-	N35.35.43.12, E140.14.15.35, 4500, 210
-	18.3, 4000, 200
-
-[approach242]
-runway = RJTTRWYDLDA
-beacon = DENNY
-route1 = 167
-	N35.48.28.80, E140.05.56.37
-	N35.42.59.64, E140.08.24.26, 4500
-	N35.39.21.66, E140.12.40.45
-	N35.35.43.12, E140.14.15.35, 4500, 210
-	18.3, 4000, 200
-
-[approach243]
-runway = RJAARWYA
+[approach234]
+runway = RJAARWYA, 
 beacon = MAMAS, N34.27.33.98, E140.08.57.99, 0, Mamas
 route1 = 58
 	N34.27.33.98, E140.08.57.99
@@ -11804,8 +11719,8 @@ route1 = 58
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach244]
-runway = RJAARWYA
+[approach235]
+runway = RJAARWYA, 
 beacon = RUTAS
 route1 = 65
 	N34.43.49.26, E140.40.34.19
@@ -11818,8 +11733,8 @@ route1 = 65
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach245]
-runway = RJAARWYA
+[approach236]
+runway = RJAARWYA, 
 beacon = JITAN, N34.49.14.19, E140.53.49.27, 0, Jitan
 route1 = 71
 	N34.49.14.19, E140.53.49.27
@@ -11831,8 +11746,8 @@ route1 = 71
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach246]
-runway = RJAARWYA
+[approach237]
+runway = RJAARWYA, 
 beacon = AQUOS
 route1 = 37
 	N35.12.29.74, E141.09.42.49
@@ -11843,8 +11758,8 @@ route1 = 37
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach247]
-runway = RJAARWYA
+[approach238]
+runway = RJAARWYA, 
 beacon = SIGMA, N35.24.25.49, E141.13.18.26, 0, Sigma
 route1 = 21
 	N35.24.25.49, E141.13.18.26, 8000
@@ -11854,8 +11769,8 @@ route1 = 21
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach248]
-runway = RJAARWYA
+[approach239]
+runway = RJAARWYA, 
 beacon = TORCH, N35.37.52.84, E141.07.21.71, 0, Torch
 route1 = 348
 	N35.37.52.84, E141.07.21.71
@@ -11864,8 +11779,8 @@ route1 = 348
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach249]
-runway = RJAARWYA
+[approach240]
+runway = RJAARWYA, 
 beacon = CORGI
 route1 = 168
 	N35.38.29.77, E140.51.38.90
@@ -11873,8 +11788,8 @@ route1 = 168
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach250]
-runway = RJAARWYA
+[approach241]
+runway = RJAARWYA, 
 beacon = VIXEN, N36.13.35.93, E140.39.47.14, 0, Vixen
 route1 = 140
 	N36.13.35.93, E140.39.47.14
@@ -11887,8 +11802,8 @@ route1 = 140
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach251]
-runway = RJAARWYA
+[approach242]
+runway = RJAARWYA, 
 beacon = PLEIA
 route1 = 141
 	N36.07.34.84, E140.47.45.41
@@ -11900,8 +11815,8 @@ route1 = 141
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach252]
-runway = RJAARWYA
+[approach243]
+runway = RJAARWYA, 
 beacon = MIFFY, N36.02.32.05, E140.49.59.52, 0, Miffy
 route1 = 168
 	N36.02.32.05, E140.49.59.52
@@ -11912,8 +11827,8 @@ route1 = 168
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach253]
-runway = RJAARWYA
+[approach244]
+runway = RJAARWYA, 
 beacon = KARMA
 route1 = 168
 	N35.50.42.86, E140.55.12.44
@@ -11923,8 +11838,8 @@ route1 = 168
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach254]
-runway = RJAARWYA
+[approach245]
+runway = RJAARWYA, 
 beacon = UNARI, N35.45.13.78, E140.57.37.07, 0, Unari
 route1 = 168
 	N35.45.13.78, E140.57.37.07
@@ -11933,8 +11848,8 @@ route1 = 168
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach255]
-runway = RJAARWYA
+[approach246]
+runway = RJAARWYA, 
 beacon = PLOKY, N35.45.28.26, E141.04.02.29, 0, Ploky
 route1 = 275
 	N35.45.28.26, E141.04.02.29, 9000
@@ -11944,8 +11859,8 @@ route1 = 275
 	N35.27.57.71, E140.40.15.22
 	15.4, 4000, 220
 
-[approach256]
-runway = RJAARWYB
+[approach247]
+runway = RJAARWYB, 
 beacon = MAMAS, N34.27.33.98, E140.08.57.99, 0, Mamas
 route1 = 58
 	N34.27.33.98, E140.08.57.99
@@ -11960,8 +11875,8 @@ route1 = 58
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach257]
-runway = RJAARWYB
+[approach248]
+runway = RJAARWYB, 
 beacon = RUTAS
 route1 = 65
 	N34.43.49.26, E140.40.34.19
@@ -11975,8 +11890,8 @@ route1 = 65
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach258]
-runway = RJAARWYB
+[approach249]
+runway = RJAARWYB, 
 beacon = VENUS
 route1 = 13
 	N35.04.40.08, E140.43.09.73, 11000, 220
@@ -11989,8 +11904,8 @@ route1 = 13
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach259]
-runway = RJAARWYB
+[approach250]
+runway = RJAARWYB, 
 beacon = JARED, N35.10.24.76, E140.52.15.40, 0, Jared
 route1 = 60
 	N35.10.24.76, E140.52.15.40
@@ -12002,8 +11917,8 @@ route1 = 60
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach260]
-runway = RJAARWYB
+[approach251]
+runway = RJAARWYB, 
 beacon = YUMIL, N35.31.58.61, E141.01.51.74, 0, Yumil
 route1 = 356
 	N35.31.58.61, E141.01.51.74, 11000, 220
@@ -12011,16 +11926,16 @@ route1 = 356
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach261]
-runway = RJAARWYB
+[approach252]
+runway = RJAARWYB, 
 beacon = PEAKS
 route1 = 330
 	N35.25.07.15, E140.43.52.65, 6000
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach262]
-runway = RJAARWYB
+[approach253]
+runway = RJAARWYB, 
 beacon = VIXEN, N36.13.35.93, E140.39.47.14, 0, Vixen
 route1 = 140
 	N36.13.35.93, E140.39.47.14
@@ -12036,8 +11951,8 @@ route1 = 140
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach263]
-runway = RJAARWYB
+[approach254]
+runway = RJAARWYB, 
 beacon = PLEIA
 route1 = 141
 	N36.07.34.84, E140.47.45.41
@@ -12052,8 +11967,8 @@ route1 = 141
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach264]
-runway = RJAARWYB
+[approach255]
+runway = RJAARWYB, 
 beacon = KARMA
 route1 = 168
 	N35.50.42.86, E140.55.12.44
@@ -12067,8 +11982,8 @@ route1 = 168
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach265]
-runway = RJAARWYB
+[approach256]
+runway = RJAARWYB, 
 beacon = DREAM, N35.38.53.25, E141.00.23.88, 0, Dream
 route1 = 168
 	N35.38.53.25, E141.00.23.88, 10000, 220
@@ -12081,8 +11996,8 @@ route1 = 168
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach266]
-runway = RJAARWYB
+[approach257]
+runway = RJAARWYB, 
 beacon = MCGEE, N35.32.29.00, E141.03.11.84, 0, Mcgee
 route1 = 168
 	N35.32.29.00, E141.03.11.84
@@ -12094,8 +12009,8 @@ route1 = 168
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach267]
-runway = RJAARWYB
+[approach258]
+runway = RJAARWYB, 
 beacon = HYDRA, N35.09.19.37, E140.52.52.52, 0, Hydra
 route1 = 240
 	N35.09.19.37, E140.52.52.52, 10000, 220
@@ -12103,8 +12018,8 @@ route1 = 240
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach268]
-runway = RJAARWYB
+[approach259]
+runway = RJAARWYB, 
 beacon = SOFIA, N35.33.00.12, E141.11.49.94, 0, Sofia
 route1 = 276
 	N35.33.00.12, E141.11.49.94, 9000, 220
@@ -12117,8 +12032,8 @@ route1 = 276
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach269]
-runway = RJAARWYB
+[approach260]
+runway = RJAARWYB, 
 beacon = BELKS, N35.06.38.54, E140.44.33.25, 0, Belks
 route1 = 265
 	N35.06.38.54, E140.44.33.25, 9000, 220
@@ -12126,7 +12041,7 @@ route1 = 265
 	N35.26.50.48, E140.38.07.77
 	17.5, 5000, 220
 
-[approach270]
+[approach261]
 runway = RJAARWYA, rev
 beacon = MAMAS, N34.27.33.98, E140.08.57.99, 0, Mamas
 route1 = 58
@@ -12141,7 +12056,7 @@ route1 = 58
 	N36.02.14.16, E140.10.39.12
 	14.6, 4000, 220
 
-[approach271]
+[approach262]
 runway = RJAARWYA, rev
 beacon = RUTAS
 route1 = 65
@@ -12155,7 +12070,7 @@ route1 = 65
 	N36.02.14.16, E140.10.39.12
 	14.6, 4000, 220
 
-[approach272]
+[approach263]
 runway = RJAARWYA, rev
 beacon = VENUS
 route1 = 13
@@ -12168,7 +12083,7 @@ route1 = 13
 	N36.02.14.16, E140.10.39.12
 	14.6, 4000, 220
 
-[approach273]
+[approach264]
 runway = RJAARWYA, rev
 beacon = GAUDI
 route1 = 42
@@ -12180,7 +12095,7 @@ route1 = 42
 	N36.02.14.16, E140.10.39.12
 	14.6, 4000, 220
 
-[approach274]
+[approach265]
 runway = RJAARWYA, rev
 beacon = BARON
 route1 = 326
@@ -12191,7 +12106,7 @@ route1 = 326
 	N36.02.14.16, E140.10.39.12
 	14.6, 4000, 220
 
-[approach275]
+[approach266]
 runway = RJAARWYA, rev
 beacon = VIXEN, N36.13.35.93, E140.39.47.14, 0, Vixen
 route1 = 140
@@ -12207,7 +12122,7 @@ route1 = 140
 	N36.02.14.16, E140.10.39.12
 	14.6, 4000, 220
 
-[approach276]
+[approach267]
 runway = RJAARWYA, rev
 beacon = PLEIA
 route1 = 141
@@ -12222,7 +12137,7 @@ route1 = 141
 	N36.02.14.16, E140.10.39.12
 	14.6, 4000, 220
 
-[approach277]
+[approach268]
 runway = RJAARWYA, rev
 beacon = CASIO
 route1 = 280
@@ -12233,7 +12148,7 @@ route1 = 280
 	N36.02.14.16, E140.10.39.12
 	14.6, 4000, 220
 
-[approach278]
+[approach269]
 runway = RJAARWYB, rev
 beacon = MAMAS, N34.27.33.98, E140.08.57.99, 0, Mamas
 route1 = 58
@@ -12251,7 +12166,7 @@ route1 = 58
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach279]
+[approach270]
 runway = RJAARWYB, rev
 beacon = RUTAS
 route1 = 65
@@ -12268,7 +12183,7 @@ route1 = 65
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach280]
+[approach271]
 runway = RJAARWYB, rev
 beacon = VENUS
 route1 = 13
@@ -12284,7 +12199,7 @@ route1 = 13
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach281]
+[approach272]
 runway = RJAARWYB, rev
 beacon = COPEN
 route1 = 18
@@ -12299,7 +12214,7 @@ route1 = 18
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach282]
+[approach273]
 runway = RJAARWYB, rev
 beacon = BOOTH, N35.40.23.60, E140.51.20.47, 0, Booth
 route1 = 18
@@ -12313,7 +12228,7 @@ route1 = 18
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach283]
+[approach274]
 runway = RJAARWYB, rev
 beacon = GAMMA, N35.58.56.27, E140.52.34.61, 0, Gamma
 route1 = 347
@@ -12324,7 +12239,7 @@ route1 = 347
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach284]
+[approach275]
 runway = RJAARWYB, rev
 beacon = CASIO
 route1 = 280
@@ -12334,7 +12249,7 @@ route1 = 280
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach285]
+[approach276]
 runway = RJAARWYB, rev
 beacon = VIXEN, N36.13.35.93, E140.39.47.14, 0, Vixen
 route1 = 140
@@ -12350,7 +12265,7 @@ route1 = 140
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach286]
+[approach277]
 runway = RJAARWYB, rev
 beacon = PLEIA
 route1 = 141
@@ -12365,7 +12280,7 @@ route1 = 141
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach287]
+[approach278]
 runway = RJAARWYB, rev
 beacon = BETEL, N35.59.31.59, E140.53.43.40, 0, Betel
 route1 = 157
@@ -12379,7 +12294,7 @@ route1 = 157
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach288]
+[approach279]
 runway = RJAARWYB, rev
 beacon = SPITZ, N35.39.42.43, E140.52.23.89, 0, Spitz
 route1 = 214
@@ -12390,7 +12305,7 @@ route1 = 214
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach289]
+[approach280]
 runway = RJAARWYB, rev
 beacon = REGZA, N35.39.25.80, E141.08.09.06, 0, Regza
 route1 = 214
@@ -12405,7 +12320,7 @@ route1 = 214
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach290]
+[approach281]
 runway = RJAARWYB, rev
 beacon = VOGUE, N35.39.27.63, E140.59.08.40, 0, Vogue
 route1 = 278
@@ -12419,7 +12334,7 @@ route1 = 278
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach291]
+[approach282]
 runway = RJAARWYB, rev
 beacon = SAFRA, N36.00.06.89, E140.54.52.20, 0, Safra
 route1 = 347
@@ -12430,7 +12345,7 @@ route1 = 347
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach292]
+[approach283]
 runway = RJAARWYB, rev
 beacon = REGZA, N35.39.25.80, E141.08.09.06, 0, Regza
 route1 = 214
@@ -12445,7 +12360,7 @@ route1 = 214
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach293]
+[approach284]
 runway = RJAARWYB, rev
 beacon = VOGUE, N35.39.27.63, E140.59.08.40, 0, Vogue
 route1 = 278
@@ -12459,7 +12374,7 @@ route1 = 278
 	N36.02.09.87, E140.14.21.20
 	13.3, 3000, 185
 
-[approach294]
+[approach285]
 runway = RJAARWYB, rev
 beacon = SAFRA, N36.00.06.89, E140.54.52.20, 0, Safra
 route1 = 347

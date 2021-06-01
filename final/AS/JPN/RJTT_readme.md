@@ -1,4 +1,4 @@
-# `RJTT` ACA 3.0.0
+# `RJTT` ACA 3.0.1
 
 This is an implementation of the Tokyo ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring `RJTT` Tokyo International Airport (commonly referred to as Haneda) and `RJAA` Narita International Airport. JSDF-M base `RJTL` Shimofusa is also represented at very high scores (difficulties). The airspace ceiling is FL240.
 
@@ -288,3 +288,11 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 	- Reduced frequency of traffic at `RJTL` to 1/3 of previous.
 	- Implement ILS Y 16L/16R approaches at `RJAA`
 	- Implement ILS X 34L/ILS Y 34R approaches at `RJTT`
+*	3.1.0 - 2021/05/31
+	- Corrected definition of `TEMIS`, shouldn't affect gameplay
+	- Revised ILS Z 34L at `RJTT`
+		- removed -5000 altitude restriction at `ARLON`
+		- ILS intercept changed to 15.5nmi from runway (D15.7 `IHA`/0.6nmi from `APOLO`)
+			- previously, the ILS intercept was at `ARLON`
+		- In reality, there was no restriction at `ARLON` in the first place (rather, there was a +5000 restriction at `CREAM`
+	- Corrected coordinates of `RJTL` runway, shouldn't affect gameplay

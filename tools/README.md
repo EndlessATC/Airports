@@ -1,4 +1,4 @@
-# Endless ATC Custom Airport Tools 0.9.0
+# Endless ATC Custom Airport Tools 0.9.1
 
 In this directory are a few tools useful for writing Endless ATC airport files. You can see examples of its usage in `RJTT` and `RJBB`.
 
@@ -390,3 +390,5 @@ route = *4
 	- Added support for creating fixes on the fly from references in `route=`s
 		- Only works for generated fixes, you cannot define a fix by position in a `route=`
 	- It should now be easier to tell where a build failed (at the cost of long error messages)
+*	0.9.1 - 2021/05/31
+	- Runway coordinates are no longer assumed to be `[D]DDMMSS[.SS]`
