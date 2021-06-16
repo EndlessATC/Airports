@@ -11,7 +11,7 @@ try:
     import pygeodesy
     from pygeodesy.dms import parseDMS, toDMS, F_SEC
     from pygeodesy.sphericalTrigonometry import LatLon
-    from pygeodesy.utily import ft2m
+    from pygeodesy.utily import ft2m, m2NM
 except ModuleNotFoundError as e:
     print(f"PyGeodesy could not be imported from name {e.name}. Advanced functions not available.")
     print("Proceeding to attempt build in basic mode.")
@@ -49,7 +49,8 @@ class Fix:
     def __init_subclass__(cls, /, name_prefix=None, **kwargs):
         super().__init_subclass__(**kwargs)
         if name_prefix is not None:
-            cls._registry[name_prefix] = cls
+            for prefix in name_prefix:
+                cls._registry[prefix] = cls
 
     def __new__(cls, name, *args, **kwargs):
         name_prefix = name[:1]
@@ -151,22 +152,55 @@ class Fix:
         return self.meters_on_heading(nmi * 1852, heading, true_heading)
 
     def intersect(self, radial, other_fix, other_radial, radial_true=False, other_radial_true=False):
-        if radial.endswith('T'):
+        """Calculate the intersect of a line 'A' involving this point and another line 'B'.
+
+        If `radial` is not a numeric string (optionally ending in T),
+        line 'A' is the line between this point and the point named `radial`.
+
+        Otherwise, lina 'A' is the line extending from this `Fix` on heading `radial`.
+        If radial ends in 'T', the heading is a true heading.
+
+        If `other_radial` is not a numeric string (optionally ending in T),
+        line 'B' is the line between the `Fix` named `other_fix` and the `Fix` named `other_radial`.
+
+        Otherwise, lina 'B' is the line extending from this `Fix` on heading `other_radial`.
+        If radial ends in 'T', the heading is a true heading.
+
+        Args:
+            `radial`: A heading as a string, optionally ending in 'T', or the name of a `Fix`.
+            `other_fix`: The name of a `Fix` as a string.
+            `other_radial`: A heading as a string, optionally ending in 'T', or the name of a `Fix`.
+            `radial_true`: Whether `radial` is a true heading. Defaults to `False`.
+            `other_radial_true`: Whether `other_radial` is a true heading. Defaults to `False`.
+        """
+        if radial.endswith('T') and radial[:-1].isdecimal():
             radial_true = True
             radial = radial[:-1]
 
-        if other_radial.endswith('T'):
+        if other_radial.endswith('T') and radial[:-1].isdecimal():
             other_radial_true = True
             other_radial = other_radial[:-1]
 
-        radial = float(radial)
-        other_radial = float(other_radial)
+        if radial.isdecimal():
+            radial = float(radial)
+            if not radial_true:
+                radial += Fix._var
+        else:
+            radial = Fix.fixes[radial].latlon
 
-        if not radial_true:
-            radial += Fix._var
-        if not other_radial_true:
-            other_radial += Fix._var
-        return self.latlon.intersection(radial, other_fix.latlon, other_radial)
+        if other_radial.isdecimal():
+            other_radial = float(other_radial)
+            if not other_radial_true:
+                other_radial += Fix._var
+        else:
+            other_radial = Fix.fixes[other_radial].latlon
+
+        result = self.latlon.intersection(radial, other_fix.latlon, other_radial)
+
+        if m2NM(self.latlon.distanceTo(result)) > 300:
+            result = result.antipode()
+
+        return result
 
     def intersects(self, radius, other_fix, other_radius):
         radius = float(radius)
@@ -252,12 +286,12 @@ class RadialDMEFix(Fix, name_prefix="@"):
         super().__init__(name, heading=heading, pronunciation=pronunciation, latlon=latlon)
 
 
-class RadialIntersectFix(Fix, name_prefix='#'):
+class RadialIntersectFix(Fix, name_prefix='#+'):
 
     def __init__(self, name, fix1=None, radial1=None, fix2=None, radial2=None, heading="!", pronunciation=""):
         try:
             if fix1 is None:
-                match = re.match(r'#(?P<fix1>[a-zA-Z0-9]+)(?P<radial1>\d{3})@?(?P<fix2>[a-zA-Z0-9]+)(?P<radial2>\d{3})', name)
+                match = re.match(r'[#+](?P<fix1>[a-zA-Z0-9]+)(?P<radial1>\d{3})@?(?P<fix2>[a-zA-Z0-9]+)(?P<radial2>\d{3})', name)
                 fix1 = match['fix1']
                 radial1 = match['radial1']
                 fix2 = match['fix2']
@@ -266,7 +300,7 @@ class RadialIntersectFix(Fix, name_prefix='#'):
                     f'{Fix.fixes[fix2].pronunciation} Radial {"-".join(radial2)}'
 
             else:
-                name = name.strip('#')
+                name = name.strip('#+')
                 fix1 = fix1.strip()
                 radial1 = radial1.strip()
                 fix2 = fix2.strip()
@@ -441,7 +475,7 @@ def _process_simple_approach_fix_list(fix_list, runway, fixes,
 
     for line in fix_list:
         def_data, _, approach_generator_params = line.rpartition(',')
-        if def_data and '!' in approach_generator_params:
+        if def_data and ('!' in approach_generator_params or '@' in approach_generator_params):
             fix_name, _, _ = def_data.partition(',')
             fix_name = fix_name.lstrip('!')
             heading, _, tag = approach_generator_params.lstrip(' !').partition('@')
@@ -500,6 +534,11 @@ def _process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
                 del generated_approach['tag']
 
         for following_tag in following_tags:
+            if following_tag.startswith('!'):
+                remove_first_fix = True
+                following_tag = following_tag.removeprefix('!')
+            else:
+                remove_first_fix = False
             if current_tag is not None and current_tag == following_tag:
                 raise RuntimeError(f'''Unable to build as approach tagged as @{current_tag} is trying to reference itself.
 The following is the route= contents after the @tag:
@@ -525,6 +564,9 @@ The following is the route= contents after the @tag:
 There was no approach route tagged {following_tag} for {runway and "runway " + repr(runway) or "any runway"}.
 The requesting approach route was {fix_list}''')
             for following_tag_runway in following_tag_runways:
+                following_route = tagged_routes[following_tag_runway][following_tag]
+                if remove_first_fix:
+                    following_route = following_route[1:]
                 _process_approach_fix_list(tagged_routes[following_tag_runway][following_tag],
                     following_tag_runway, fixes, tagged_routes, generated_approaches, following_tag, False)
     else:
@@ -782,6 +824,10 @@ def process(args, input_file=None, preprocessed_input=None):
                 area_position = area_data['position'].strip()
                 if area_position in Fix.fixes:
                     area_data['position'] = Fix.fixes[area_position].short_def
+            if 'labelpos' in area_data:
+                area_position = area_data['labelpos'].strip()
+                if area_position in Fix.fixes:
+                    area_data['labelpos'] = Fix.fixes[area_position].short_def
 
         # process airport sections
 
@@ -850,6 +896,8 @@ Defined beacon was {generated_approach.beacon}, actual beacon was {approach_beac
 
         for runway, generated_approaches_for_runway in generated_approaches.items():
             for generated_approach in generated_approaches_for_runway:
+                if not generated_approach['heading']:
+                    continue
                 if discarded_approaches:
                     section = discarded_approaches.popleft()
                 else:
