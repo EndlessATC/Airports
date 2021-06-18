@@ -1029,7 +1029,7 @@ beacon = SAKOS
 route = @ILSZ15L
 	153
 	!PUDIM
-	8, 2600, 180
+	8.2, 2600, 180
 
 
 [approach]
@@ -1066,7 +1066,7 @@ beacon = ANBOG
 route = @ILSZ15R
 	153
 	!TASUR
-	8, 2600, 180
+	8.2, 2600, 180
 
 
 [approach]
