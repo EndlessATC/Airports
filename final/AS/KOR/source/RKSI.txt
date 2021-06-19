@@ -23,7 +23,9 @@ beacons =
 	SOT, N37.05.39.7, E127.01.54.0, 0, Song Tan
 	YJU, N37.44.53, E126.59.28, 0, Yang Ju
 #COMMON
+	ANSIM, N37.22.50, E124.25.05, !
 	BASEM, N36.50.37, E127.57.10, !
+	BODOL, N37.11.22, E124.49.54, !
 	EGOBA, N37.29.14.7, E127.22.45.9, 267
 	GUKDO, N37.01.10.9, E127.38.22.9
 	KAKSO, N37.07.44.6, E127.26.37.4, 313
@@ -36,7 +38,6 @@ beacons =
 	RKSI, N37.27.45, E126.26.21, !, Incheon ARP
 	NCN, N37.29.41.7, E126.25.49.2, 0, In Cheon
 	WNG, N37.25.58.6, E126.27.00.0, 0, Wang San
-	BELTU, N37.12.18.2, E125.47.59.0, !
 #ARRIVALS
 	ANBOG, N37.35.14.6, E126.20.31.9, !
 	ATKON, N37.39.59.6, E126.18.23.2, !
@@ -147,6 +148,7 @@ beacons =
 	AD020, N37.34.45.1, E126.21.19.0, !
 	AD050, N37.34.46.7, E126.12.30.6, !
 	AD140, N37.24.16.9, E125.45.21.4, !
+	BELTU, N37.12.18.2, E125.47.59.0, !
 	BINIL, N37.23.49.2, E125.13.59.3, !
 	BOPTA, N36.44.06.4, E126.36.58.4, !
 	CD120, N37.07.27.8, E126.37.31.2, !
@@ -828,6 +830,94 @@ labelpos = N37.27.45, E126.26.21
 position = RKSS
 radius = 5
 
+#SEL point merge arcs
+[area]
+shape = polygon
+altitude = -1
+draw = 1
+points = 
+	!@SEL087D5
+	!@SEL099D5
+	!@SEL110D5
+	!@SEL121D5
+	!@SEL133D5
+
+[area]
+shape = polygon
+altitude = -1
+draw = 1
+points = 
+	!@SEL087D10
+	!@SEL099D10
+	!@SEL110D10
+	!@SEL121D10
+	!@SEL133D10
+
+[area]
+shape = polygon
+altitude = -1
+draw = 1
+points = 
+	!@SEL087D15
+	!@SEL099D15
+	!@SEL110D15
+	!@SEL121D15
+	!@SEL133D15
+
+[area]
+shape = polygon
+altitude = -1
+draw = 1
+points = 
+	!@SEL087D20
+	!@SEL099D20
+	!@SEL110D20
+	!@SEL121D20
+	!@SEL133D20
+
+[area]
+shape = polygon
+altitude = -1
+draw = 1
+points = 
+	!@SEL087D25
+	!@SEL099D25
+	!@SEL110D25
+	!@SEL121D25
+	!@SEL133D25
+
+#PAMBI point merge arcs
+[area]
+shape = polygon
+altitude = -1
+draw = 1
+points = 
+	!@PAMBI186D5
+	!@PAMBI196D5
+	!@PAMBI206D5
+	!@PAMBI216D5
+	!@PAMBI226D5
+	!@PAMBI236D5
+	!@PAMBI246D5
+	!@PAMBI256D5
+	!@PAMBI266D5
+	!@PAMBI276D5
+
+[area]
+shape = polygon
+altitude = -1
+draw = 1
+points = 
+	!@PAMBI186D10
+	!@PAMBI196D10
+	!@PAMBI206D10
+	!@PAMBI216D10
+	!@PAMBI226D10
+	!@PAMBI236D10
+	!@PAMBI246D10
+	!@PAMBI256D10
+	!@PAMBI266D10
+	!@PAMBI276D10
 
 [airport]
 name = Incheon
@@ -843,9 +933,19 @@ entrypoints =
 	80, KARBU
 # Y685/G585
 	122, GUKDO
+	122, GUKDO
+	122, GUKDO
 # Y722/B576
 	170, OLMEN
+	170, OLMEN
+	170, OLMEN
+	170, OLMEN
+	170, OLMEN
+	170, OLMEN
+	170, OLMEN
 # Y644
+	260, REBIT
+	260, REBIT
 	260, REBIT
 
 climbaltitude = 5000
@@ -856,6 +956,9 @@ sids =
 	!OSPOT
 	!EGOBA
 	!BASEM
+	!ANSIM
+	!BELTU
+	!BODOL
 
 gateways = 
 	REBIT, w
@@ -986,7 +1089,19 @@ entrypoints =
 	80, KARBU
 # Y685/G585
 	122, GUKDO
+	122, GUKDO
+	122, GUKDO
+	122, GUKDO
+	122, GUKDO
+	122, GUKDO
+	122, GUKDO
 # Y722/B576
+	170, OLMEN
+	170, OLMEN
+	170, OLMEN
+	170, OLMEN
+	170, OLMEN
+	170, OLMEN
 	170, OLMEN
 # Y644
 	260, REBIT
@@ -1029,7 +1144,7 @@ beacon = SAKOS
 route = @ILSZ15L
 	153
 	!PUDIM
-	8.2, 2600, 180
+	8.5, 2600, 180
 
 
 [approach]
@@ -1066,7 +1181,7 @@ beacon = ANBOG
 route = @ILSZ15R
 	153
 	!TASUR
-	8.2, 2600, 180
+	8.5, 2600, 180
 
 
 [approach]
@@ -1325,14 +1440,14 @@ route = @OLMEN1C
 	!DH050
 	!DH047
 	!SANLA, !332
-	!DC039, 12000, 210
-	!DC036, 12000, 210
-	!DC035, 12000, 210
-	!DC031, 12000, 210
-	!DC032, 12000, 210
-	!DC037, 10000, 210
-	!GC036, 9000, 210, @GC036
-	!GC026, 6000, 210, !321
+	!DC039, 0, 210, !51
+	!DC036, 0, 210, !51
+	!DC035, 0, 210, !51
+	!DC031, 0, 210, !51
+	!DC032, 0, 210, !51
+	!DC037, 0, 210, !51
+	!GC036, 0, 210, !51@GC036 
+	!GC026, 0, 210, !321
 	!GC020, 4500, 210
 	@BITIM
 
@@ -1375,16 +1490,16 @@ route = @OLMEN1H
 	!SANLA, !332
 	!DH034, @DH034
 	!POMIM, 10000, 210, !63
-	!DH030, 0, 210, @DH030
-	!DH029, 0, 210
-	!DH028, 6000, 210
-	!DH021, 4000, 210
-	!DH022, 0, 210
-	!DH024, 0, 210
-	!DH027, 4000, 210
-	!DH023, 3000, 210
-	!DH020, 1600, 210
-	!DH017, 1600, 210
+	!DH030, 0, 210, !63@DH030
+	!DH029, 0, 210, !63
+	!DH028, 6000, 210, !63
+	!DH021, 4000, 210, !63
+	!DH022, 0, 210, !63
+	!DH024, 0, 210, !63
+	!DH027, 4000, 210, !63
+	!DH023, 3000, 210, !63
+	!DH020, 1600, 210, !63
+	!DH017, 1600, 210, !63
 	@MUNAN
 
 
@@ -1393,8 +1508,8 @@ beacon = REBIT
 
 route = @REBIT1H
 	97
-	!REBIT
-	!ELGUK, !67
+	!REBIT, 17000
+	!ELGUK, 13000, !67
 	!PH036
 	!PH037, 9000
 	!POMIM, 8000, 210
@@ -1436,17 +1551,17 @@ route = @OLMEN1E
 	7
 	!OLMEN
 	!DY037
-	!BOBIB, 13000, 250, !51
-	!DE031, 0, 250
-	!TESIK, 11000, 210, !333@TESIK
-	!GE023, 0, 210
-	!GE022, 8000, 210
-	!GE016, 0, 210
-	!GE017, 0, 210
-	!GE020, 0, 210
-	!GE024, 0, 210, !153
-	!GE028, 0, 210
-	!GE027, 0, 210
+	!BOBIB, 0, 250, !51
+	!DE031, 0, 250, !51
+	!TESIK, 0, 210, !333@TESIK
+	!GE023, 0, 210, !279
+	!GE022, 8000, 210, !279
+	!GE016, 0, 210, !243
+	!GE017, 0, 210, !243
+	!GE020, 0, 210, !243
+	!GE024, 0, 210, !243
+	!GE028, 0, 210, !243
+	!GE027, 0, 210, !243
 	@ENPIL
 
 
@@ -1844,7 +1959,7 @@ beacon = GU004
 route = @ILS14L
 	144
 	!GU009, 0, 180
-	4.5, 1400, 160
+	5, 1400, 160
 
 
 [approach]
@@ -1868,7 +1983,7 @@ beacon = DU004
 route = @ILS14R
 	144
 	!DU009, 0, 180
-	4.5, 1400, 160
+	5, 1400, 160
 
 
 [approach]
@@ -2328,39 +2443,39 @@ route =
 #south wind 1
 #RKSI landing 33R/34L departing 33L/34R, RKSS landing 32L departing 32R
 config1 = 
-	0, RKSIRWYEE, landrev
-	0, RKSIRWYE, startrev
 	0, RKSIRWYW, startrev
 	0, RKSIRWYWW, landrev
+	0, RKSIRWYEE, landrev
+	0, RKSIRWYE, startrev
 	8, RKSSRWYW, landrev
 	8, RKSSRWYE, startrev
 
 #south wind 2
 #RKSI landing 33R/34L departing 33L/34R, RKSS landing 32R departing 32L
 config2 = 
-	0, RKSIRWYEE, landrev
-	0, RKSIRWYE, startrev
 	0, RKSIRWYW, startrev
 	0, RKSIRWYWW, landrev
+	0, RKSIRWYEE, landrev
+	0, RKSIRWYE, startrev
 	8, RKSSRWYE, landrev
 	8, RKSSRWYW, startrev
 
 #north wind
 #RKSI landing 15L/16R departing 15R/16L, RKSS landing 14R departing 14L
 config3 = 
-	0, RKSIRWYEE, land
-	0, RKSIRWYE, start
 	0, RKSIRWYW, start
 	0, RKSIRWYWW, land
+	0, RKSIRWYEE, land
+	0, RKSIRWYE, start
 	8, RKSSRWYW, land
 	8, RKSSRWYE, start
 
 #light north wind
 #RKSI landing 33R/34L departing 33L/34R, RKSS landing 14R departing 14L
 #config4 = 
-#	0, RKSIRWYEE, landrev
-#	0, RKSIRWYE, startrev
 #	0, RKSIRWYW, startrev
 #	0, RKSIRWYWW, landrev
+#	0, RKSIRWYEE, landrev
+#	0, RKSIRWYE, startrev
 #	8, RKSSRWYW, land
 #	8, RKSSRWYE, start
