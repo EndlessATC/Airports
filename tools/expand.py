@@ -471,7 +471,8 @@ def _process_simple_approach_fix_list(fix_list, runway, fixes,
         `tagged_routes` (dict): A lookup of approach routes that were tagged for lookup.
         `generated_approaches`: A dict keyed by runway of dicts of parameters to be used to generate
             derived approaches in post-processing.
-        `generate_approaches`: Whether or not to process any approach generator commands."""
+        `generate_approaches`: Whether or not to process any approach generator commands.
+        `debug` (bool): Whether to print debug information."""
 
     for line in fix_list:
         def_data, _, approach_generator_params = line.rpartition(',')
@@ -501,15 +502,8 @@ def _process_simple_approach_fix_list(fix_list, runway, fixes,
 
 
 def _process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
-        generated_approaches, current_tag=None, top_level=True):
-    """Processes special commands in a list of approach fixes
-    in short format and produces an iterable of definitions as the result.
-
-    Substitute any "!<name>[, <extra_data>]" in `fix_list` with
-    "lat, lon[, <extra_data>]" based on `fixes`.
-
-    If the last item in `fix_list` is "@<name>", substitute in
-    the contents of the approach route tagged <name>. If `runway` is None,
+        generated_approaches, current_tag=None, top_level=True, debug=False):
+    """Inner worker function for `process_approach_fix_list`.
 
     Args:
         `fix_list` (list): A list of fix definitions.
@@ -521,8 +515,11 @@ def _process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
             that were tagged for lookup.
         `generated_approaches`: A dict keyed by runway of dicts of parameters
             to be used to generate derived approaches in post-processing.
-        `generate_approaches`: Whether or not to process any approach generator commands."""
+        `top_level`: Whether or not to process any approach generator commands.
+        `debug` (bool): Whether to print debug information."""
 
+    if debug:
+        print(f"_process_approach_fix_list: processing route: {fix_list}")
     if fix_list[-1].startswith('@'):
         following_tags = (tag.strip().lstrip('@') for tag in fix_list[-1].split(','))
 
@@ -568,7 +565,8 @@ The requesting approach route was {fix_list}''')
                 if remove_first_fix:
                     following_route = following_route[1:]
                 _process_approach_fix_list(tagged_routes[following_tag_runway][following_tag],
-                    following_tag_runway, fixes, tagged_routes, generated_approaches, following_tag, False)
+                    following_tag_runway, fixes, tagged_routes, generated_approaches, following_tag,
+                    False, debug=debug)
     else:
         _process_simple_approach_fix_list(fix_list, runway, fixes,
             tagged_routes[runway], generated_approaches, current_tag, top_level)
@@ -577,9 +575,32 @@ The requesting approach route was {fix_list}''')
 
 
 def process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
-        starting_fix):
+        starting_fix, debug=False):
+    """Processes special commands in a list of approach fixes
+    in short format and produces an iterable of definitions as the result.
+
+    Substitute any "!<name>[, <extra_data>]" in `fix_list` with
+    "lat, lon[, <extra_data>]" based on `fixes`.
+
+    If the last item in `fix_list` is "@<name>", substitute in
+    the contents of the approach route tagged <name>. If `runway` is None,
+
+    Args:
+        `fix_list` (list): A list of fix definitions.
+        `runway` (tuple): The runway this approach is for. If `None`, this is a multi-runway approach.
+            Otherwise, this should be a tuple of runway_id, <"," or "">, <" rev" or "">, e.g. the
+            result of running partition on runway=.
+        `fixes` (dict): A lookup of `Fix`es.
+        `tagged_routes` (dict): A dict keyed by runway of dicts of approach routes
+            that were tagged for lookup.
+        `starting_fix` (str): The name of the starting fix of this approach.
+        `debug` (bool): Whether to print debug information."""
 
     if fix_list:
+        while not fix_list[0]:
+            fix_list = fix_list[1:]
+        if debug:
+            print(f"process_approach_fix_list: processing route: {fix_list}")
         if runway not in tagged_routes:
             tagged_routes[runway] = {}
         tagged_routes_for_runway = tagged_routes[runway]
@@ -601,7 +622,7 @@ def process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
             fix_list = fix_list[1:]
 
         return _process_approach_fix_list(fix_list, runway, fixes,
-            tagged_routes, generated_approaches, current_tag)
+            tagged_routes, generated_approaches, current_tag, debug=debug)
 
     else:
         raise RuntimeError(f"Tried to process an empty approach route {fix_list} for runway {runway}")
@@ -855,6 +876,7 @@ def process(args, input_file=None, preprocessed_input=None):
 
         for approach_section, approach_data in approaches.items():
             approach_runway = approach_data.get('runway', fallback=None)
+            approach_debug = approach_data.getboolean('debug')
             if approach_runway is not None:
                 approach_runway_id, _, approach_runway_direction = approach_runway.partition(',')
                 approach_runway = approach_runway_id.strip(), approach_runway_direction.strip()
@@ -871,7 +893,7 @@ def process(args, input_file=None, preprocessed_input=None):
             for option in approach_data:
                 if option.startswith('route'):
                     new_generated_approaches = process_approach_fix_list(approach_data[option].splitlines(),
-                         approach_runway, Fix.fixes, tagged_approach_routes, approach_beacon)
+                         approach_runway, Fix.fixes, tagged_approach_routes, approach_beacon, approach_debug)
                     if approach_runway is not None:
                         generated_approach = new_generated_approaches[approach_runway][0]
 
