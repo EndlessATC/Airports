@@ -1155,7 +1155,7 @@ route = @ILSY15L
 	153
 	!PUDIM
 	!ISLLD8, 2600, 160
-	5, 1600, 160
+	5.5, 1600, 160
 
 
 [approach]
@@ -1192,7 +1192,7 @@ route = @ILSY15R
 	153
 	!TASUR
 	!ISRRD8, 2600, 180
-	5, 1600, 160
+	5.5, 1600, 160
 
 
 [approach]
@@ -1219,7 +1219,7 @@ route = @ILS16L
 	153
 	!IPKOL
 	!IRKSD8, 2600, 180
-	5, 1600, 160
+	5.5, 1600, 160
 
 
 [approach]
@@ -1246,7 +1246,7 @@ route = @ILS16R
 	153
 	!OLKIK
 	!IRFSD8, 2600, 180
-	5, 1600, 160
+	5.5, 1600, 160
 
 
 [approach]
@@ -1273,7 +1273,7 @@ route = @ILS33L
 	333
 	!POSOK, 5000
 	!LEGUN, 3600
-	8, 2600, 180
+	8.5, 2600, 180
 
 
 [approach]
@@ -1301,7 +1301,7 @@ route = @ILS33R
 	333
 	!BIRIN, 5000
 	!PIBAK, 3600
-	8, 2600, 180
+	8.5, 2600, 180
 
 
 [approach]
@@ -1330,7 +1330,7 @@ route = @ILS34L
 	!KAGOK, 5000
 	!LENBI, 3600
 	!IRFND8, 0, 180
-	5, 1600, 160
+	5.5, 1600, 160
 
 
 [approach]
@@ -1359,7 +1359,7 @@ route = @ILS34R
 	!NIPUT, 5000
 	!DALKA, 3600
 	!IRKND8, 0, 180
-	5, 1600, 160
+	5.5, 1600, 160
 
 
 [approach]
@@ -1425,7 +1425,7 @@ beacon = PAMBI
 
 route = @PAMBI
 	333
-	@ILS33LPAMBI, @ILS33RPAMBI, @ILS34LPAMBI, @ILS34RPAMBI
+	@ILS34LPAMBI, @ILS34RPAMBI
 
 
 #---RKSI STARs
@@ -2443,20 +2443,20 @@ route =
 #south wind 1
 #RKSI landing 33R/34L departing 33L/34R, RKSS landing 32L departing 32R
 config1 = 
-	0, RKSIRWYW, startrev
-	0, RKSIRWYWW, landrev
 	0, RKSIRWYEE, landrev
 	0, RKSIRWYE, startrev
+	0, RKSIRWYW, startrev
+	0, RKSIRWYWW, landrev
 	8, RKSSRWYW, landrev
 	8, RKSSRWYE, startrev
 
 #south wind 2
 #RKSI landing 33R/34L departing 33L/34R, RKSS landing 32R departing 32L
 config2 = 
-	0, RKSIRWYW, startrev
-	0, RKSIRWYWW, landrev
 	0, RKSIRWYEE, landrev
 	0, RKSIRWYE, startrev
+	0, RKSIRWYW, startrev
+	0, RKSIRWYWW, landrev
 	8, RKSSRWYE, landrev
 	8, RKSSRWYW, startrev
 
@@ -2473,9 +2473,9 @@ config3 =
 #light north wind
 #RKSI landing 33R/34L departing 33L/34R, RKSS landing 14R departing 14L
 #config4 = 
-#	0, RKSIRWYW, startrev
-#	0, RKSIRWYWW, landrev
 #	0, RKSIRWYEE, landrev
 #	0, RKSIRWYE, startrev
+#	0, RKSIRWYW, startrev
+#	0, RKSIRWYWW, landrev
 #	8, RKSSRWYW, land
 #	8, RKSSRWYE, start
