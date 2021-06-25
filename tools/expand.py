@@ -118,6 +118,9 @@ class Fix:
         except Exception as e:
             raise RuntimeError(f"Unable to generate a LatLon for fix {self.name}: {self}") from e
 
+    def heading_to(self, other):
+        return self.latlon.initialBearingTo(Fix.fixes[other].latlon)
+
     def meters_on_heading(self, meters, heading, true_heading=False):
         if isinstance(heading, str):
             heading = heading.lstrip('!')
@@ -173,22 +176,22 @@ class Fix:
             `radial_true`: Whether `radial` is a true heading. Defaults to `False`.
             `other_radial_true`: Whether `other_radial` is a true heading. Defaults to `False`.
         """
-        if radial.endswith('T') and radial[:-1].isdecimal():
+        if radial.endswith('T') and radial[:-1].replace('.', '', 1).isdigit():
             radial_true = True
             radial = radial[:-1]
 
-        if other_radial.endswith('T') and radial[:-1].isdecimal():
+        if other_radial.endswith('T') and other_radial[:-1].replace('.', '', 1).isdigit():
             other_radial_true = True
             other_radial = other_radial[:-1]
 
-        if radial.isdecimal():
+        if radial.replace('.', '', 1).isdigit():
             radial = float(radial)
             if not radial_true:
                 radial += Fix._var
         else:
             radial = Fix.fixes[radial].latlon
 
-        if other_radial.isdecimal():
+        if other_radial.replace('.', '', 1).isdigit():
             other_radial = float(other_radial)
             if not other_radial_true:
                 other_radial += Fix._var
@@ -741,6 +744,18 @@ def process_beacons(fixes):
             yield fix.full_def
 
 
+def process_handoffs(handoffs, center):
+
+    """Processes fix references in [airspace] handoff=.
+
+    Returns a generator of processed [airspace] handoff= lines."""
+    for handoff in handoffs.strip().splitlines():
+        direction, separator, parameters = handoff.partition(',')
+        if direction.startswith('!'):
+            direction = str(int(center.heading_to(direction[1:])))
+        yield ",".join([direction, parameters])
+
+
 def process_airlines_list(airline_list):
     """Returns generator of airline declaration strings based on the list of `Airline`s `airline_list`.
 
@@ -814,7 +829,9 @@ def process(args, input_file=None, preprocessed_input=None):
             # remove meta section so it won't be written in output
             del source['meta']
 
-        Fix.initialize(source['airspace'].getfloat('magneticvar'))
+        airspace = source['airspace']
+
+        Fix.initialize(airspace.getfloat('magneticvar'))
 
         # add runways to fix database
         airports = {section: source[section] for section in source if section.startswith('airport')}
@@ -824,14 +841,18 @@ def process(args, input_file=None, preprocessed_input=None):
                 for runway_definition in runways:
                     RunwayFix.from_definition(runway_definition).reciprocal()
 
+        Fix('_CTR', *airspace['center'].split(","))
+
         # build a fix database from [airspace] beacons=
-        for definition in source['airspace']['beacons'].strip().splitlines():
+        for definition in airspace['beacons'].strip().splitlines():
             Fix(*definition.split(","))
 
-        source['airspace']['beacons'] = "\n".join(process_beacons(Fix.fixes))
+        airspace['beacons'] = "\n".join(process_beacons(Fix.fixes))
 
-        source['airspace']['boundary'] = "\n".join(
-            process_fix_list(source['airspace']['boundary'].splitlines(), Fix.fixes))
+        airspace['handoff'] = "\n".join(process_handoffs(airspace['handoff'], Fix.fixes['_CTR']))
+
+        airspace['boundary'] = "\n".join(
+            process_fix_list(airspace['boundary'].splitlines(), Fix.fixes))
 
         areas = {section: source[section] for section in source if section.startswith('area')}
 

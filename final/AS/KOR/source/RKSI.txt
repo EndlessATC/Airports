@@ -74,7 +74,7 @@ beacons =
 	DH034, N37.14.08.2, E126.11.16.7, !
 	DH047, N37.02.20.0, E126.30.58.0, !
 	DH050, N37.01.44.4, E126.37.23.0, !
-	DH989, N37.18.55.0, E126.19.59.0, !
+	DH989, N37.18.55.0, E126.19.59.0, 47
 	DY019, N37.11.12.0, E126.39.48.0, !
 	DY037, N36.56.12.5, E126.53.08.4, !
 	ELGUK, N37.19.59.4, E125.45.24.7, !-67
@@ -298,7 +298,23 @@ beacons =
 	N4T01, N37.58.10, E127.39.52, !
 	+C1T01, 5S1, N2T01, KIP, 324, !
 	+C2T01, N3T01, N4T01, 4C518, 5C518, !
+	T02NE, N38.00.10, E127.54.52, !
+	T02SE, N37.10.10, E127.54.52, !
+	T02SW, N37.06.40, E127.39.52, !
+	@G597N, SEL, D5, 348.3T, !
+	@G597S, SEL, D5, 168.3T, !
+	+G02NW, N4T01, T02SW, G597N, 78.3T
+	+G02SW, N4T01, T02SW, G597S, 78.3T
+	+G02NE, T02NE, T02SE, G597N, 78.3T
+	+G02SE, T02NE, T02SE, G597S, 78.3T
 
+
+handoff = 
+	!BINIL, Daegu Control, Daegu Control, 132.8
+	!BOPTA, Incheon Control, Incheon Control, 132.15
+	!BULTI, Incheon Control, Incheon Control, 132.15
+	!OSPOT, Daegu Control, Daegu Control, 125.375
+	!KARBU, Daegu Control, Daegu Control, 134.175
 
 line1 =
 	N37.73682, E126.52070
@@ -422,10 +438,10 @@ boundary =
 #T02
 	!N4T01
 #end T01
-	N38.00.10, E127.54.52
-	N37.10.10, E127.54.52
+	!T02NE
+	!T02SE
 #	N37.10.10, E127.45.52
-#	N37.06.40, E127.39.52
+#	!T02SW
 #end T02
 #southern extension
 	N37.10.10, E127.54.52
@@ -467,14 +483,37 @@ boundary =
 [area]
 shape = polygon
 name = NW
-altitude = 17500
-labelpos = N37.40.00, E127.47.30
+altitude = 7500
+labelpos = N37.35.00, E127.47.30
 points = 
-	N37.58.10, E127.39.52
-	N38.00.10, E127.54.52
-	N37.10.10, E127.54.52
+	!N4T01
+	!T02NE
+	!T02SE
 	N37.10.10, E127.45.52
-	N37.06.40, E127.39.52
+	!T02SW
+
+[area]
+shape = polygon
+name = NW
+altitude = 17500
+labelpos = N37.20.00, E127.47.30
+points = 
+	!N4T01
+	!T02NE
+	!G02NE
+	!G02NW
+
+[area]
+shape = polygon
+name = NW
+altitude = 17500
+labelpos = N37.50.00, E127.47.30
+points = 
+	!G02SW
+	!G02SE
+	!T02SE
+	N37.10.10, E127.45.52
+	!T02SW
 
 #T03
 [area]
@@ -611,6 +650,19 @@ shape = polygon
 name = RR
 altitude = 12500
 labelpos = N37.17.30, E125.22.00
+points = 
+	N37.05.17, E125.48.09
+	N37.05.17, E125.14.00
+	N37.30.00, E125.14.00
+	N37.30.00, E125.50.00
+	N37.21.10, E125.32.53
+	!REBIT
+
+[area]
+shape = polygon
+name = RR
+altitude = 3000
+labelpos = N37.17.30, E125.35.00
 points = 
 	N37.05.17, E125.48.09
 	N37.05.17, E125.14.00
@@ -1086,6 +1138,7 @@ climbaltitude = 6000
 
 entrypoints = 
 # Y697/G597
+	80, KARBU
 	80, KARBU
 # Y685/G585
 	122, GUKDO
@@ -1645,19 +1698,19 @@ route = @!EGOBA1C
 route = @!Y697
 	!KARBU
 
-route = 
+route = *3
 	BINIL 1C, Binil 1 Charlie
 	@!BINIL1C
 
-route = 
+route = *10
 	BOPTA 1C, Bopta 1 Charlie
 	@!BOPTA1C
 
-route = 
+route = *2
 	OSPOT 1C, Ospot 1 Charlie
 	@!OSPOT1C
 
-route = 
+route = *4
 	EGOBA 1C, Egoba 1 Charlie
 	@!EGOBA1C
 	@!Y697
@@ -1666,19 +1719,19 @@ route =
 [departure]
 runway = RKSIRWYE
 
-route = 
+route = *3
 	BINIL 1C, Binil 1 Charlie
 	@!BINIL1C
 
-route = 
+route = *10
 	BOPTA 1C, Bopta 1 Charlie
 	@!BOPTA1C
 
-route = 
+route = *2
 	OSPOT 1C, Ospot 1 Charlie
 	@!OSPOT1C
 
-route = 
+route = *4
 	EGOBA 1C, Egoba 1 Charlie
 	@!EGOBA1C
 	@!Y697
@@ -1722,19 +1775,19 @@ route = @!EGOBA1H
 	!CK099
 	!EGOBA
 
-route = 
+route = *3
 	BINIL 1H, Binil 1 Hotel
 	@!BINIL1H
 
-route = 
+route = *10
 	BOPTA 1H, Bopta 1 Hotel
 	@!BOPTA1H
 
-route = 
+route = *2
 	OSPOT 1H, Ospot 1 Hotel
 	@!OSPOT1H
 
-route = 
+route = *4
 	EGOBA 1H, Egoba 1 Hotel
 	@!EGOBA1H
 	@!Y697
@@ -1743,19 +1796,19 @@ route =
 [departure]
 runway = RKSIRWYWW
 
-route = 
+route = *3
 	BINIL 1H, Binil 1 Hotel
 	@!BINIL1H
 
-route = 
+route = *10
 	BOPTA 1H, Bopta 1 Hotel
 	@!BOPTA1H
 
-route = 
+route = *2
 	OSPOT 1H, Ospot 1 Hotel
 	@!OSPOT1H
 
-route = 
+route = *4
 	EGOBA 1H, Egoba 1 Hotel
 	@!EGOBA1H
 	@!Y697
@@ -1819,24 +1872,24 @@ route = *2
 	NOPIK 1A, Nopik 1 Alpha
 	@!NOPIK1A
 
-route = *2
+route = *12
 	BOPTA 1A, Bopta 1 Alpha
 	@!BOPTA1A
 
-route = 
+route = *5
 	OSPOT 1A, Ospot 1 Alpha
 	@!OSPOT1A
 
-route = 
+route = *3
 	EGOBA 1A, Egoba 1 Alpha
 	@!EGOBA1A
 	@!Y697
 
-route = 
+route = *5
 	OSPOT 1E, Ospot 1 Echo
 	@!OSPOT1E
 
-route = 
+route = *3
 	EGOBA 1E, Egoba 1 Echo
 	@!EGOBA1E
 	@!Y697
@@ -1849,24 +1902,24 @@ route = *2
 	NOPIK 1A, Nopik 1 Alpha
 	@!NOPIK1A
 
-route = *2
+route = *12
 	BOPTA 1A, Bopta 1 Alpha
 	@!BOPTA1A
 
-route = 
+route = *5
 	OSPOT 1A, Ospot 1 Alpha
 	@!OSPOT1A
 
-route = 
+route = *3
 	EGOBA 1A, Egoba 1 Alpha
 	@!EGOBA1A
 	@!Y697
 
-route = 
+route = *5
 	OSPOT 1E, Ospot 1 Echo
 	@!OSPOT1E
 
-route = 
+route = *3
 	EGOBA 1E, Egoba 1 Echo
 	@!EGOBA1E
 	@!Y697
@@ -1914,15 +1967,15 @@ route =
 	NOPIK 1Y, Nopik 1 Yankee
 	@!NOPIK1Y
 
-route = 
+route = *6
 	BOPTA 1Y, Bopta 1 Yankee
 	@!BOPTA1Y
 
-route = 
+route = *5
 	OSPOT 1Y, Ospot 1 Yankee
 	@!OSPOT1Y
 
-route = 
+route = *3
 	EGOBA 1Y, Egoba 1 Yankee
 	@!EGOBA1Y
 	@!Y697
@@ -1935,15 +1988,15 @@ route =
 	NOPIK 1Y, Nopik 1 Yankee
 	@!NOPIK1Y
 
-route = 
+route = *6
 	BOPTA 1Y, Bopta 1 Yankee
 	@!BOPTA1Y
 
-route = 
+route = *5
 	OSPOT 1Y, Ospot 1 Yankee
 	@!OSPOT1Y
 
-route = 
+route = *3
 	EGOBA 1Y, Egoba 1 Yankee
 	@!EGOBA1Y
 	@!Y697
