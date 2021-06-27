@@ -841,7 +841,7 @@ def process(args, input_file=None, preprocessed_input=None):
                 for runway_definition in runways:
                     RunwayFix.from_definition(runway_definition).reciprocal()
 
-        Fix('_CTR', *airspace['center'].split(","))
+        Fix('_CTR', *airspace['center'].split(","), heading='!')
 
         # build a fix database from [airspace] beacons=
         for definition in airspace['beacons'].strip().splitlines():
