@@ -88,12 +88,18 @@ class Fix:
     @property
     def minor_def(self):
         """Definition without holding as string."""
-        return f"{self.name}, {self.lat}, {self.lon}, {self.pronunciation}"
+        if self.pronunciation:
+            return f"{self.name}, {self.lat}, {self.lon}, {self.pronunciation}".rstrip(", ")
+        return f"{self.name}, {self.lat}, {self.lon}"
 
     @property
     def full_def(self):
         """Full definition as string."""
-        return f"{self.name}, {self.lat}, {self.lon}, {self.heading.lstrip('!') or 0}, {self.pronunciation}"
+        if self.pronunciation:
+            return f"{self.name}, {self.lat}, {self.lon}, {self.heading.lstrip('!') or 0}, {self.pronunciation}".rstrip(", ")
+        elif self.heading.lstrip('!'):
+            return f"{self.name}, {self.lat}, {self.lon}, {self.heading.lstrip('!')}"
+        return f"{self.name}, {self.lat}, {self.lon}"
 
     @property
     def latlon(self):
@@ -753,7 +759,7 @@ def process_handoffs(handoffs, center):
         direction, separator, parameters = handoff.partition(',')
         if direction.startswith('!'):
             direction = str(int(center.heading_to(direction[1:])))
-        yield ",".join([direction, parameters])
+        yield ",".join([direction, parameters]).rstrip(", ")
 
 
 def process_airlines_list(airline_list):
