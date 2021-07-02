@@ -1,4 +1,4 @@
-# Endless ATC Custom Airport Tools 0.9.1
+# Endless ATC Custom Airport Tools 0.10.0
 
 In this directory are a few tools useful for writing Endless ATC airport files. You can see examples of its usage in `RJTT` and `RJBB`.
 
@@ -32,7 +32,7 @@ Applicable sections:
 *	`[area]`
 *	`[approach]`
 *	`[departure]`
-*	`[transition]`
+*	`[transition]` (deprecated)
 *	`route=`
 
 ### Fix definitions and references
@@ -42,7 +42,10 @@ If you specify `!` as the heading, the fix will be "hidden" and not be drawn on 
 
 Any fixes can be referenced by name later in the following areas using `!<fix_name>` instead of `<position>` unless indicated otherwise:
 
-*	`[airspace]` `boundary=`
+*	`[airspace]`
+	-	`boundary=`
+	-	`handoff=`
+		- The heading from `[airspace] center=` to the specified fix will be substituted in
 *	`[airport]`
 	-	`sids=`
 		- This is intended to be used for drawing "hidden" fixes on the map that aren't meant to be used by arrival aircraft, as you cannot issue DCT to these fixes
@@ -50,6 +53,7 @@ Any fixes can be referenced by name later in the following areas using `!<fix_na
 *	`[area]`
 	-	`position=`
 	-	`points=`
+	-	`labelpos=`
 *	`[approach]`
 	-	`route=`
 		- Restrictions can be specified as normal
@@ -58,6 +62,8 @@ Any fixes can be referenced by name later in the following areas using `!<fix_na
 		- If the referenced fix is "hidden", the fix definition will be substituted in, so that the fix is drawn on the map while the approach is available
 *	`[departure]`
 	-	`route=`
+
+The `center=` of the TMA will be made available under the name `_CTR` as a hidden fix.
 
 ### Advanced fix definitions (requires PyGeodesy)
 
@@ -104,16 +110,17 @@ route = @PANAS1
 You can define a fix as the intersection of two radials using the following syntax:
 
 ```
-#<name>, <fix1>, <radial1>, <fix2>, <radial2>[, <hold_heading>, <pronunciation>]
++<name>, <fix1>, <radial1>, <fix2>, <radial2>[, <hold_heading>, <pronunciation>]
 ```
 
 *	`<fixn>` is the fix from which the respective radial is based on.
 *	`<radialn>` is the heading of the respective radial.
 	-	Magnetic variation is considered as defined in `[airspace]` `magneticvar=`. You can add `T` as a suffix to indicate a true heading.
+	-	`<radialn>` can also be the name of a fix. In this case, the radial is the heading from `<fixn>` to the fix `<radialn>`.
 
 You can also reference a fix using the below name format, and if a fix with the same name doesn't exist already, it will generate it on the fly:
 
-```#<fix1><radial1><fix2><radial2>```
+```+<fix1><radial1><fix2><radial2>```
 
 For example:
 
@@ -122,9 +129,9 @@ For example:
 route = @KCE4
 	!@YOE274D20
 #Intersection of YOE Yao VORDME radial 274 and KNE Kansai VORDME radial 323
-	!#YOE274KNE323
+	!+YOE274KNE323
 #KNE R323 at KCE R272
-	!#KNE323KCE272
+	!+KNE323KCE272
 	!MAIKO
 ```
 
@@ -167,7 +174,7 @@ points =
 
 ### Joining approach routes
 
-An approach route can start with `@<name>` to tag the route with a name. Any approach lower in the file with the same `runway=` or no `runway=` can specify `@<name>` as the last item in their `route=` to continue on to specified route.
+An approach route can start with `@[!]<name>` to tag the route with a name. Any approach lower in the file with the same `runway=` or no `runway=` can specify `@<name>` as the last item in their `route=` to continue on to the specified route. `!` can be included after the `@` optionally to skip the first fix in the continuing route.
 
 For example:
 
@@ -216,7 +223,7 @@ If an approach route starts with `@!<name>`, then the first point in the route i
 
 For example:
 
-```
+```INI
 # RJOO ILS 32L
 [approach]
 runway = RJOORWYB
@@ -240,7 +247,7 @@ route = @HABIK
 	@ILS32L
 ```
 
-In an approach route, if the last item in a line with a fix reference is `!<heading>[@<name>]`, an approach will be generated for the same runway activating from that fix. There will only be one route, the route inbound heading will be `<heading>`, and the route consists of the rest of the declaring route. `@<name>` is optional; this will tag the route of the generated approach for reference by other approaches.
+In an approach route, if the last item in a line with a fix reference is `[!<heading>][@<name>]`, it will be treated as special parameters. If the `!<heading` is defined, an approach will be generated for the same runway activating from that fix. There will only be one route, the route inbound heading will be `<heading>`, and the route consists of the rest of the declaring route starting at the current line. If the `@<name>` is defined; this will tag the rest of the route starting at the current line with the specified name.
 
 For example:
 
@@ -277,7 +284,7 @@ route = @BERTHC24L
 
 An approach `route=` under an `[approach]` that doesn't specify a `runway=` can specify a comma-separated list of `@<name>` as the last item in their route. Each `<@name>` should be for a different runway. This will create an approach for each runway.
 
-```
+```INI
 # HABIK ARRIVAL STAR into RJOO
 [approach]
 # note that no runway was defined
@@ -303,7 +310,7 @@ To use these segments, a departure route can include after the route name line a
 
 For example:
 
-```
+```INI
 # excerpt from Takamatsu departures
 [departure]
 runway = RJOTRWY
@@ -392,3 +399,11 @@ route = *4
 	- It should now be easier to tell where a build failed (at the cost of long error messages)
 *	0.9.1 - 2021/05/31
 	- Runway coordinates are no longer assumed to be `[D]DDMMSS[.SS]`
+*	0.10.0 - 2021/07/01
+	- Radial intersection fix prefix character changed from `#` to `+`
+		- `#` still works but is deprecated and will be disabled in the future
+	- Radial intersection fixes defined in `beacons=` can use the name of a fix instead of a radial
+		- The initial heading to the fix will be used as the radial
+	- Approaches can be referenced with `!` to skip the first fix
+		- Previously this was only possible upon definition, not upon reference
+	- `_CTR` fix will be generated as a hidden fix from `[airspace] center=`.
