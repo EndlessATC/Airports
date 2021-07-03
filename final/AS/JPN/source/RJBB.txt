@@ -1,5 +1,5 @@
 [meta]
-header = RJBB ACA 3.0.0
+header = RJBB ACA 3.1.0
 	See RJBB_readme.md
 #callsigns = True
 
@@ -24,7 +24,7 @@ beacons =
 	KCE, N34.37.51.58, E135.13.42.45, 0, Koh beh
 	YOE, N34.35.54.45, E135.35.37.34, 0, Ya oh
 	ITE, N34.48.19.74, E135.24.13.18, 0, E tah mi
-	TSC, N34.07.47, E134.36.31, 80, Tokushima
+	TSC, N34.07.47, E134.36.31, 80, Toe kushima
 	NKE, N33.39.40.55, E135.21.33.89, 0, Nahn ki
 	KEC, N33.26.51.87, E135.47.40.18, 83, Kushimoto
 	KTE, N34.12.44.99, E134.01.21.33, 84, Kagawa
@@ -314,6 +314,36 @@ beacons =
 	@OY1B1, OY1F1, D3.5, RWYHDG+90
 #RJOP
 	RJOP, N34.00.19, E134.37.35, !, Komatsushima ARP
+
+handoff = 
+#N50
+	!KRE, Kobe Control, Kobe Control, 127.15
+	!SUKMO, Kobe Control, Kobe Control, 127.15
+#N51
+	!WASYU, Kobe Control, Kobe Control, 132.5
+	!HABAR, Kobe Control, Kobe Control, 132.5
+	!UKELI, Kobe Control, Kobe Control, 132.5
+#T17 (Kii Sector)
+	!KEC, Tokyo Control, Tokyo Control, 133.5
+	!KILAP, Tokyo Control, Tokyo Control, 133.5
+#T22 (Sanyo Sector)
+	!YME, Tokyo Control, Tokyo Control, 133.55
+	!BYODO, Tokyo Control, Tokyo Control, 133.55
+	!MIDER, Tokyo Control, Tokyo Control, 133.55
+#T24 (Mikawa Sector)
+	!SHTLE, Tokyo Control, Tokyo Control, 125.7
+#T26 (Tokai Sector)
+	!KCC, Tokyo Control, Tokyo Control, 123.9
+	!GUJYO, Tokyo Control, Tokyo Control, 123.9
+#T48 (Mouri Sector)
+	!MIHOU, Tokyo Control, Tokyo Control, 133.8
+	!TOZAN, Tokyo Control, Tokyo Control, 133.8
+	!YAKMO, Tokyo Control, Tokyo Control, 133.8
+	!YUBAR, Tokyo Control, Tokyo Control, 133.8
+#RJBT
+	!FOSTA, Tajima Remote, Tajima Remote, 118.4
+#RJOK
+	!POPPY, Kansai Approach, Kansai Approach, 125.0
 
 line1 =
 	N34.78955, E136.57695
@@ -938,7 +968,7 @@ airlines =
 	cygns-1, 1, b77w, sig nus, nswe
 
 [airport]
-name = Tokushima
+name = Tokushima, Toe kushima
 code = OS
 runways = 
 	RJOSRWY, 29, N34.07.47.36, E134.37.20.98, 282.53, 8202, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 126.2
@@ -3230,7 +3260,7 @@ route = @MINAC4
 	!O2L50
 	!O2L51
 	!@ITE101D8
-	!#ITE101KCE077
+	!+ITE101KCE077
 	!MINAC
 
 route = @!GUJYO
@@ -3243,14 +3273,14 @@ route = @!KCC
 route = @TIGER2
 	!O2L50
 	!@ITE201D4
-	!#ITE201YOE301
+	!+ITE201YOE301
 	!@ITE201D9
 	!@YOE291D14
 	!TIGER
 
 route = @!KTE
 	!SUMAR
-	!#ITE260KTE057
+	!+ITE260KTE057
 	!KTE
 	!OBOKE
 	!POPPY
@@ -3264,7 +3294,7 @@ route = @!TOZAN
 	!TOZAN
 
 route = @!BUMER
-	!#YOE291KCE311
+	!+YOE291KCE311
 	!BUMER
 
 route = @!AWAJI
@@ -3313,7 +3343,7 @@ route = @IZUMI1
 	!O2L50
 	!@ITE201D4
 	!YODOH
-	!#ITE184YOE295
+	!+ITE184YOE295
 	!IZUMI
 
 route = *10
@@ -3374,13 +3404,13 @@ route = @MINAC4
 	!O2R50
 	!O2R51
 	!@ITE101D8
-	!#ITE101KCE077
+	!+ITE101KCE077
 	!MINAC
 
 route = @TIGER2
 	!O2R50
 	!@ITE201D4
-	!#ITE201YOE301
+	!+ITE201YOE301
 	!@ITE201D9
 	!@YOE291D14
 	!TIGER
@@ -3389,7 +3419,7 @@ route = @IZUMI1
 	!O2R50
 	!@ITE201D4
 	!YODOH
-	!#ITE184YOE295
+	!+ITE184YOE295
 	!IZUMI
 
 route = *10
@@ -3445,11 +3475,11 @@ route = @ASUKA4
 
 route = @MINAC4
 	!@ITE101D8
-	!#ITE101KCE077
+	!+ITE101KCE077
 	!MINAC
 
 route = @TIGER2
-	!#ITE201YOE301
+	!+ITE201YOE301
 	!@ITE203D9
 	!@YOE291D14
 	!TIGER
@@ -3457,7 +3487,7 @@ route = @TIGER2
 route = @IZUMI1
 	!@ITE201D4
 	!YODOH
-	!#ITE184YOE295
+	!+ITE184YOE295
 	!IZUMI
 
 route = *10
@@ -3513,11 +3543,11 @@ route = @ASUKA4
 
 route = @MINAC4
 	!@ITE101D8
-	!#ITE101KCE077
+	!+ITE101KCE077
 	!MINAC
 
 route = @TIGER2
-	!#ITE201YOE301
+	!+ITE201YOE301
 	!@ITE203D9
 	!@YOE291D14
 	!TIGER
@@ -3525,7 +3555,7 @@ route = @TIGER2
 route = @IZUMI1
 	!@ITE201D4
 	!YODOH
-	!#ITE184YOE295
+	!+ITE184YOE295
 	!IZUMI
 
 route = *10
@@ -3636,8 +3666,8 @@ runway = RJBERWY
 
 route = @KCE4
 	!@YOE274D20
-	!#YOE274KNE323
-	!#KNE323KCE272
+	!+YOE274KNE323
+	!+KNE323KCE272
 	!MAIKO
 
 route = @!AYAYA
@@ -3734,7 +3764,7 @@ route =
 runway = RJBERWY, rev
 
 route = @KCE4
-	!#KNE323KCE272
+	!+KNE323KCE272
 	!MAIKO
 
 route = 
@@ -3880,7 +3910,7 @@ route = @YME8
 	!OS293
 	!OS294
 	!TSC
-	!#TSC026ITE297
+	!+TSC026ITE297
 	!@ITE310D22.2
 	!@ITE320D22.2
 	!@ITE330D22.2
@@ -3921,7 +3951,7 @@ route = @TOSAR5
 route = @YME8
 	!OS11D
 	!TSC
-	!#TSC026ITE297
+	!+TSC026ITE297
 	!@ITE310D22.2
 	!@ITE320D22.2
 	!@ITE330D22.2
@@ -4513,7 +4543,7 @@ route = @!ASUKA7
 	!@YOE281D4
 	!@YOE281D7
 	!@YOE281D9
-	!#KCE086ITE176
+	!+KCE086ITE176
 	!ASUKA
 
 route = @!KCC
@@ -4552,7 +4582,7 @@ route = @ASUKA7
 	!@YOE281D4
 	!@YOE281D7
 	!@YOE281D9
-	!#KCE086ITE176
+	!+KCE086ITE176
 	!ASUKA
 
 route = 

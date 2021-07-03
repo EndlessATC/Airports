@@ -1,4 +1,4 @@
-# Endless ATC Custom Airport Tools 0.10.0
+# Endless ATC Custom Airport Tools 0.10.1
 
 In this directory are a few tools useful for writing Endless ATC airport files. You can see examples of its usage in `RJTT` and `RJBB`.
 
@@ -407,3 +407,6 @@ route = *4
 	- Approaches can be referenced with `!` to skip the first fix
 		- Previously this was only possible upon definition, not upon reference
 	- `_CTR` fix will be generated as a hidden fix from `[airspace] center=`.
+	- Added feature to calculate headings from fixes for `[airspace] handoff=`.
+*	0.10.1 - 2021/07/01
+	- Bugfix: consider magnetic variation when computing `[airspace] handoff=`.

@@ -1,10 +1,10 @@
-# `RJBB` 進入管制区 3.0.0
+# `RJBB` 進入管制区 3.1.0
 
 ＊作者は日本人ではありません。以下の文章には間違っている日本語、または間違っている情報が含まれている場合があります。ご了承いただければ幸いです。
 
 KANSAI ACA(関西進入管制区)を[Endless ATC](https://steamcommunity.com/app/666610)に追加するMODです。`RJBB`関西国際空港、`RJOO`大阪国際空港(伊丹)、`RJBB`神戸空港、`RJOS`徳島空港、`RJOT`高松空港、`RJOB`岡山空港、そして`RJOY`八尾空港が再現されています. 空域の上限はFL180です.
 
-AIP Japan 2021/05/20 （国土交通省） (https://aisjapan.mlit.go.jp/) をもとに作成しています。 再現されているSID及びSTARは現実の運用と異なる場合があるかもしれませんが、基本的に日中の景気気象状態 (IMC) を再現しているつもりです。すべての航空機がRNAV対応としていて、RNAVの代わりがない場合を除き非RNAVのSID及びSTARは実装されていません。海岸のデータは[naturalearthdata.com]のを使っています。
+AIP Japan 2021/08/12 （国土交通省） (https://aisjapan.mlit.go.jp/) をもとに作成しています。 再現されているSID及びSTARは現実の運用と異なる場合があるかもしれませんが、基本的に日中の景気気象状態 (IMC) を再現しているつもりです。すべての航空機がRNAV対応としていて、RNAVの代わりがない場合を除き非RNAVのSID及びSTARは実装されていません。海岸のデータは[naturalearthdata.com](http://www.naturalearthdata.com)のを使っています。
 
 STARはこのゲームの進入方式で再現されています。進入方式に従って飛行することをを許可できる飛行機は有効なポイントに向かっていなければなりません。友好のポイントにDCTの指示を出した後、ILSの指示の代わりにAPP指示を出せます。一つのポイントから複数の進入方式が始まる場合もあります。指示を確定する前にまたAPPのボタンをクリック/キーを押すと次の進入方式に変わります。選択している飛行機がすでに進入方式に従って飛行しているならば、いったんDCTでポイントに向かう指示を選択しなければ飛行方式の変更はできません。
 
@@ -74,7 +74,7 @@ This is the south wind configuration for RJBB.
 
 Vectors onto the localizer should NOT be used. Approaches are available from `MAYAH` (24L), or `AMBER` (24L) and `BEIGE` (24R). Arrivals can be vectored over the sea west of Awaji Island if needed on top of `RJBE` arrivals.
 
-Use care not to descend arrivals into the `RJBE` PCA. Cross JOLLY (from DANDE) +8000, AWAJI +7000, MAYAH 4000 (**at** 4000). Aircraft should descend as per the approach after MAYAH in order to main separation from `RJBE` traffic. Note that due to the lack of circle to land approaches in Endless ATC, `RJBE` 27 arrivals will fly a long downwind at ~1300 and may conflict with `RJBB` 24 arrivals leaving 2600. Having the `RJBE` arrival fly slightly ahead of an overhead `RJBB` arrival should allow for separation to be maintained.
+Use care not to descend arrivals into the `RJBE` PCA. Cross `JOLLY` (from `DANDE`) +8000, `AWAJI` +7000, `MAYAH` 4000 (**at** 4000). Aircraft should descend as per the approach after MAYAH in order to main separation from `RJBE` traffic. Note that due to the lack of circle to land approaches in Endless ATC, `RJBE` 27 arrivals will fly a long downwind at \~1300 and may conflict with `RJBB` 24 arrivals leaving 2600. Having the `RJBE` arrival fly slightly ahead of an overhead `RJBB` arrival should allow for separation to be maintained.
 
 Departures to the west will be climbing through arrivals descending to 4000 from `AWAJI` to `LILAC` to `MAYAH` and over `RJBE departures`. Departures over `DAISY` should cross `DAISY` +6000 and JULIA +8000. Departures over HELEN should cross `HELEN` +8000. Due care will need to be taken to maintain separation. Recommend descending to arrivals to 4000 after `AWAJI`, and expediting climb of departures from 24R. Departures to the west may also conflict with `RJBE` departures and `RJOO` departures to the west.
 
@@ -361,3 +361,6 @@ The reverse configuration. Use care for `ASUKA` departures to keep them separate
 	- `RJOY` 八尾空港を実装
 		- 09-27滑走路だけ実装
 		- これに伴い小型機を大量実装
+*	3.1.0 - 2021/07/02
+	- ハンドオフ先のコールサイン及び周波数を実装
+	- 徳島の発音を改良

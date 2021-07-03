@@ -124,8 +124,8 @@ class Fix:
         except Exception as e:
             raise RuntimeError(f"Unable to generate a LatLon for fix {self.name}: {self}") from e
 
-    def heading_to(self, other):
-        return self.latlon.initialBearingTo(Fix.fixes[other].latlon)
+    def heading_to(self, other, true_heading=False):
+        return self.latlon.initialBearingTo(Fix.fixes[other].latlon) + (0 if true_heading else -Fix._var)
 
     def meters_on_heading(self, meters, heading, true_heading=False):
         if isinstance(heading, str):
