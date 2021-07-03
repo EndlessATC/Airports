@@ -1,10 +1,10 @@
-# `RJBB` ACA 3.0.0
+# `RJBB` ACA 3.1.0
 
 This is an implementation of the Kansai ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring `RJBB` Kansai International Airport, `RJOO` Osaka International Airport (often referred to as Itami), `RJBE` Kobe Airport, `RJOS` Tokushima Airport, `RJOT` Takamatsu Airport, `RJOB` Okayama Airport, and `RJOY` Yao Airport. The airspace ceiling is FL180.
 
 The Kansai ACA is a very complex airspace, with many airports in close vicinity in Osaka Bay and the surroundings. There are many flight paths that cross over each other, and altitude will need to used to separate aircraft very often, especially within Osaka Bay and over Osaka City. The controller will need to carefully monitor both departures and arrivals and issue altitude, speed, and vectors to ensure proper separation.
 
-Based upon AIP Japan 2020/12/31. The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs were implemented unless there is no RNAV procedure published. Coastline data from [naturalearthdata.com].
+Based upon AIP Japan 2021/08/12 (Ministry of Land, Infrastructure, Transport and Tourism) (https://aisjapan.mlit.go.jp/). The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs were implemented unless there is no RNAV procedure published. Coastline data from [naturalearthdata.com](http://www.naturalearthdata.com).
 
 STARs are implemented as approach transitions. To activate an approach, an aircraft must be flying direct to an applicable fix, then the APP button can be activated. Multiple approaches may be available from a fix. Pressing the APP button again before issuing the approach clearance (do not long press) will select the next approach available from that fix. If the aircraft is already on an approach from that fix, you will need to cancel the approach clearance first before issuing another approach clearance.
 
@@ -75,7 +75,7 @@ This is the south wind configuration for RJBB.
 
 Vectors onto the localizer should NOT be used. Approaches are available from `MAYAH` (24L), or `AMBER` (24L) and `BEIGE` (24R). Arrivals can be vectored over the sea west of Awaji Island if needed on top of `RJBE` arrivals.
 
-Use care not to descend arrivals into the `RJBE` PCA. Cross JOLLY (from DANDE) +8000, AWAJI +7000, MAYAH 4000 (**at** 4000). Aircraft should descend as per the approach after MAYAH in order to main separation from `RJBE` traffic. Note that due to the lack of circle to land approaches in Endless ATC, `RJBE` 27 arrivals will fly a long downwind at ~1300 and may conflict with `RJBB` 24 arrivals leaving 2600. Having the `RJBE` arrival fly slightly ahead of an overhead `RJBB` arrival should allow for separation to be maintained.
+Use care not to descend arrivals into the `RJBE` PCA. Cross `JOLLY` (from `DANDE`) +8000, `AWAJI` +7000, `MAYAH` 4000 (**at** 4000). Aircraft should descend as per the approach after MAYAH in order to main separation from `RJBE` traffic. Note that due to the lack of circle to land approaches in Endless ATC, `RJBE` 27 arrivals will fly a long downwind at \~1300 and may conflict with `RJBB` 24 arrivals leaving 2600. Having the `RJBE` arrival fly slightly ahead of an overhead `RJBB` arrival should allow for separation to be maintained.
 
 Departures to the west will be climbing through arrivals descending to 4000 from `AWAJI` to `LILAC` to `MAYAH` and over `RJBE departures`. Departures over `DAISY` should cross `DAISY` +6000 and JULIA +8000. Departures over HELEN should cross `HELEN` +8000. Due care will need to be taken to maintain separation. Recommend descending to arrivals to 4000 after `AWAJI`, and expediting climb of departures from 24R. Departures to the west may also conflict with `RJBE` departures and `RJOO` departures to the west.
 
@@ -376,3 +376,6 @@ The reverse configuration. Use care for `ASUKA` departures to keep them separate
 	- Added `RJOY` Yao
 		- Only runway 09-27
 		- Added many new GA aircraft types
+*	3.1.0 - 2021/07/02
+	- Add handoff callsign / frequency support
+	- Improve reading of Tokushima
