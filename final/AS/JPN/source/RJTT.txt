@@ -1,5 +1,5 @@
 [meta]
-header = RJTT ACA 3.1.0
+header = RJTT ACA 3.2.0
 	See RJTT_readme.md
 callsigns = True
 
@@ -496,6 +496,32 @@ beacons =
 	COSMO, N35.34.36.41, E140.30.38.59, !, Cosmo
 	LAPIS, N35.34.37.27, E140.32.33.16, !, Lapis
 
+handoff = 
+#T13 (Musashi Sector)
+	!KAGNA, Tokyo Control, Tokyo Control, 132.1
+	!SEDRI, Tokyo Control, Tokyo Control, 132.1
+	!MITOP, Tokyo Control, Tokyo Control, 132.1
+	!DALMA, Tokyo Control, Tokyo Control, 292.4
+#T12 (Kanto West Sector)
+	!NINOX, Tokyo Control, Tokyo Control, 120.5
+	!RITLA, Tokyo Control, Tokyo Control, 120.5
+	!BEKLA, Tokyo Control, Tokyo Control, 120.5
+	!TEPEX, Tokyo Control, Tokyo Control, 120.5
+#T10 (Kanto South B Sector)
+	!NURLI, Tokyo Control, Tokyo Control, 125.9
+	!NORIS, Tokyo Control, Tokyo Control, 125.9
+	!IRNOK, Tokyo Control, Tokyo Control, 125.9
+	!MERED, Tokyo Control, Tokyo Control, 318.2
+#T05 (Kazusa Sector)
+	!ANSAD, Tokyo Control, Tokyo Control, 120.97
+	!BORLO, Tokyo Control, Tokyo Control, 120.97
+	!GULBO, Tokyo Control, Tokyo Control, 120.97
+#T03 (Kanto North Sector)
+	!KIMIN, Tokyo Control, Tokyo Control, 124.1
+	!AGRIS, Tokyo Control, Tokyo Control, 124.1
+	!CLARK, Tokyo Control, Tokyo Control, 124.1
+	!JD, Tokyo Control, Tokyo Control, 276.1
+
 boundary = 
 #2
 	N034.23.37, E139.00.33
@@ -802,31 +828,32 @@ airlines =
 	ja-12ab, 5, c25m/c525/c25a/c510/hdjt/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f2th, nswe
 	ja-1234, 5, c25m/c525/c25a/c510/hdjt/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f2th, nswe
 	n-123ab, 5, b737/b738/b763/a319, nswe
+#vip
 	_af-1, 1, b744, we
 	code-1, 1, b744, w
 	_cf-1, 1, a310, we
 	cotam-1, 1, a332, nw
 	bga-1, 1, a3st/a337, nswe
 	m-abcd, 1, a343, nw
-	ur-aba, 1, a319, nw
-	svw, 2, a318/a319/b739/b763/glex, nswe
+	ukn, 1, a319, nw
+	svw, 3, a318/a319/b739/b763/glex, nswe
 	auh, 1, b772/b773/b788/b789, w
 	aws, 1, b737, w
-	hb-abc, 1, a319, w
+	num, 1, a319, w
 	ph-gov, 1, b737, nw
-	lx-lti, 1, a318, nw
-	qaf, 1, a332/a342/a343/a345/b748, w
+	qaf, 1, a342/a343/a345/b748, w
 	gaf-1, 1, a343, nw
 	sva, 1, a342, w
 	aic-1, 1, b744, w
-	5u-grn, 1, b737, w
+	niger-1, 1, b737, w
 	ame-1, 1, a310, nw
 	brs-1, 1, a319, we
+	brs, 1, e190, we
 	asy-1, 1, b737, sw
 	ssg-1, 1, a319, nw
 	saa, 1, a346, w
 	trk-1, 1, a332/b748, w
-	cca-1, 1, b744, w
+	cca-1, 1, b744/a332, w
 	ivy0-1, 1, a319, w
 	b-1234, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/fa7x, w
 	vjt, 1, glex, nswe
@@ -834,10 +861,18 @@ airlines =
 	cf-abc, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f900, e
 	vp-abc, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f900/b737, nw
 	2-abcd, 1, b788, w
-	kac-1, 1, a345, w
-	bah-1, 1, glf6, w
+	kug-1, 1, a345, w
+	bah-1, 1, glf6/b764, w
 	b-12345, 2, c25m/c525/c25a/c510/hdjt/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/e135, sw
 	rsd-1, 1, il96, w
+	tua, 1, b77l, nw
+	orf, 1, b74s, w
+	rmaf-100, 1, b738, w
+	v8-oas, 1, b788, w
+	sui, 1, f900, n
+	bec00-1, 1, a332, nw
+	vp-cmd, 1, glf5, w
+	3a-mga, 1, fa8x, nw
 
 
 [airport2]
@@ -1066,10 +1101,16 @@ airlines =
 	vp-abc, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f900/b737, nw
 	n-123ab, 5, b737/b738/b763/a319, nswe
 	vjt, 1, glex, nswe
-#	ja-123a, 100, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, nswe
-#	ja-12ab, 100, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, nswe
-#	ja-1234, 100, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, nswe
-
+#vip
+	qaf, 2, a319/a332, nw
+	3dc-sdf, 1, a343, w
+	iam, 1, a319, nw
+	idaf-1, 1, b738, w
+	rmf, 1, a320, w
+	a6-cas, 1, a318, w
+	sva, 1, b77l, w
+	esw, 1, glf6, w
+	rja, 1, glf6, w
 
 
 [airport3]
