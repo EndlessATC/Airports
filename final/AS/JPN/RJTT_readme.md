@@ -1,8 +1,8 @@
-# `RJTT` ACA 3.0.1
+# `RJTT` ACA 3.2.0
 
 This is an implementation of the Tokyo ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring `RJTT` Tokyo International Airport (commonly referred to as Haneda) and `RJAA` Narita International Airport. JSDF-M base `RJTL` Shimofusa is also represented at very high scores (difficulties). The airspace ceiling is FL240.
 
-Based upon AIP Japan 2021/03/25 (Ministry of Land, Infrastructure, Transport and Tourism) (https://aisjapan.mlit.go.jp/). The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative. Coastline data from naturalearthdata.com.
+Based upon AIP Japan 2021/08/12 (Ministry of Land, Infrastructure, Transport and Tourism) (https://aisjapan.mlit.go.jp/). The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative. Coastline data from naturalearthdata.com.
 
 The Tokyo ACA is a very large terminal area containing two of Japan's largest airports. The traffic that can flow in and out of these two airports can be immense, but the terminal procedures published for these two airports are robust and can provide you the ability to handle the immense deluge of traffic that can pour into the area. Most of the controller's work should be sequencing arrivals and monitoring a few key merge points for conflicts. Scores of 40 or higher should be possible to maintain with minimal delay vectoring.
 
@@ -296,3 +296,7 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 			- previously, the ILS intercept was at `ARLON`
 		- In reality, there was no restriction at `ARLON` in the first place (rather, there was a +5000 restriction at `CREAM`
 	- Corrected coordinates of `RJTL` runway, shouldn't affect gameplay
+	- Implemented tower frequencies
+*	3.2.0 - 2021/07/06
+	- Add handoff callsign / frequency support for departures
+	- Additions/corrections to rare traffic.
