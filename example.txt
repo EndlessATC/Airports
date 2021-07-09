@@ -23,7 +23,9 @@
 # Properties in this file that are explained between <brackets> are optional properties (do not include the brackets themselves).
 # If the game fails to load a property, or you omit, #comment or zero a property, the game may automatically use a default value instead.
 # Positions must be given either in x, y coordinates (in nautical miles, NM), with 0, 0 being the center of the screen, and 20.1, 12.82 being somewhere at the top left,
-# or, in latitude, longitude coordinates, which must always start with a N/W/S/E prefix, for example N40.7128, W74.0060 or S049.43.45.000, E002.09.51.000 (DMS notation).
+# or, in latitude, longitude coordinates, which must be a comma separated pair, starting or ending with NWSE characters; two examples:
+# N51.47176,		W0.457859
+# 51°28'18.336''N,	0°27'28.2924''W
 # Lat/long coordinates (and true headings) are rotated automatically when a magnetic variance is defined; this is to align the radar display with the magnetic north,
 # to make a heading of 360 degrees appear as a vertical line on the radar screen.
 # X, y coordinates are simple screen coordinates; they are not rotated.
@@ -49,6 +51,7 @@ localizerspeed = 30, 200		; distance to touchdown in NM, speed restriction in kn
 usa = true				; American-style callsign pronunciation and runway names
 metric = false				; display altitudes in metres instead of feet
 separation = 3				; minimum allowed distance between aircraft in NM
+automatic = false			; entering arrivals will follow an approach route when flying inbound an approach beacon
 name = approach, departure		; atc callsign pronunciation for arrivals, atc callsign pronunciation for departures
 center = N50.1234, E2.0060		; lat/long location of center of radar display (required when using lat/long coordinates elsewhere in this file)
 magneticvar = 2.0			; magnetic variance; east = positive (used to rotate lat/long coordinates if used elsewhere in this file)
@@ -77,8 +80,8 @@ handoff =
 	090, Radar East, radar east, 123.5
 	270, Radar West, radar west, 122.275
 ## heading, atc callsign, callsign pronunciation, <radio frequency>
-# optional handoff readbacks for departures; only used when sound mode 3 is enabled
-# heading determines which atc station will be selected by a plane: the closest to the heading from the center of the screen to the plane's (last) SID point
+# optional handoff readbacks for departures; only used when sound mode 3 is enabled in-game
+# heading determines which atc station will be selected by a plane: the closest to the heading from the center of the screen towards the plane's (last) SID point
 
 line1 = 
 	10, 10
@@ -133,9 +136,10 @@ sids =
 entrypoints = 
 	090
 	270,	bco
-## true_heading, <beaconname>
+## true_heading, <beaconname>, <altitude>
 # this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
 # inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
+# optional descendaltitude for this entrypoint; otherwise the default descendaltitude is used
 
 airlines =
 	air,	3,	e175,		airliner,	w
@@ -169,8 +173,8 @@ traffic = 5			; average time between airplanes per active runway, in minutes (bu
 inboundbeacon = bco		; beacon name; the default initial beacon for arrivals (choose one from the beacon list above)
 entrypoints =
 	300
-	330, trd
-## true_heading, <beaconname>
+	330,	trd,	8000
+## true_heading, <beaconname>, <altitude>
 
 airlines =
 	jet,		2,	b735,	jetliner
@@ -255,6 +259,7 @@ route1 =
 	25,	16.5
 # first line of the route is the sid name (up to 5 characters will be displayed), and optional <pronunciation> of the sid name
 # next lines are one or more waypoint positions
+# first waypoint may have an optional altitude value; this will override the default climbaltitude
 
 route2 = 
 	south
@@ -289,6 +294,7 @@ route1 =
 # next lines are optional waypoints: ## position, <maximum altitude>, <maximum speed>
 # last line is the interception point on the ILS: ## distance (NM) from the (displaced) threshold, <maximum altitude>, <maximum speed>
 # alternatively the last line can be used to end the route before it reaches the ILS (requiring vectors), using the word end: ## end, <heading>
+# or, to hold at the last waypoint, use: ## end, hold
 
 route2 = 
 	310
