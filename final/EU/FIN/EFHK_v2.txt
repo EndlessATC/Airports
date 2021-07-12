@@ -135,9 +135,11 @@ line4 =
 name = Helsinki Vantaa Airport
 code = EFHK
 runways =
-	rwy1, 04L, N60.3129, E24.9039, 48.0, 10039, 0, 196, 133
-	rwy2, 04R, N60.3098, E24.9332, 48.0, 11286, 787, 0, 150
-	rwy3, 15, N60.3303, E24.9645, 154.1, 9518, 0, 0, 162
+	HK04L, 04L, N60.31298757764867, E24.90396075726814, 47.47, 10039, 0, 196, 133, 3, 0, 3, 0, 0, 0, 118.850
+	HK04R, 04R, N60.309497596139316, E24.932412598617432, 47.50, 11286, 787, 0, 150, 3, 0, 3, 0, 0, 0, 0, 0, 118.600
+	HK15, 15, N60.33023128218358, E24.96455526987538, 153.04, 9518, 0, 0, 162, 3, 0, 3, 0, 0, 0, 0, 0, 118.600
+	HKPARA04L, 04L, N60.31298757764867, E24.90396075726814, 47.47, 10039, 0, 196, 133, 3, 0, 3, 0, 0, 0, 118.850
+	HKPARA04R, 04R, N60.309497596139316, E24.932412598617432, 47.50, 11286, 787, 0, 150, 3, 0, 3, 0, 0, 0, 0, 0, 118.600
 
 climbaltitude = 4000
 sids =
@@ -288,7 +290,7 @@ points =
 
 
 [departure1]
-runway = rwy1, rev
+runway = HK04L, rev
 route1 =
 	NUNTO3N, Nunto three november
 	N60.30266, E24.77583
@@ -365,7 +367,7 @@ route9 =
 #HK451, HK926, HK927, RENKU
 
 [departure2]
-runway = rwy1
+runway = HK04L
 
 route1 =
 	TEVRU3Z, Tevru three zulu
@@ -437,7 +439,7 @@ route10 =
 #H040 until lower TMA boundary, IDEPI
 
 [departure3]
-runway = rwy2, rev
+runway = HK04R, rev
 
 route1 =
 	VALOX3F, Valox three foxtrot
@@ -484,7 +486,7 @@ route6 =
 #VAVIS, HK924, PENAD, IDEPI
 
 [departure4]
-runway = rwy2
+runway = HK04R
 
 route1 =
 	VALOX4C, Valox four charlie
@@ -568,7 +570,7 @@ route11 =
 #HK416, LULAB, HK911, NUNTO
 
 [departure5]
-runway = rwy3
+runway = HK15
 
 route1 =
 	VALOX3D, Valox three delta
@@ -639,7 +641,7 @@ route10 =
 #HK921, RIPVI, NUNTO
 
 [departure6]
-runway = rwy3, rev
+runway = HK15, rev
 
 route1 =
 	VALOX3P, Valox three papa
@@ -713,7 +715,7 @@ route10 =
 ###########
 
 [approach1]
-runway = rwy1
+runway = HK04L
 beacon = ROPAM
 route1 =
 	293
@@ -725,7 +727,7 @@ route1 =
 #ROPAM, HK711, HK933, LOHIG
 
 [approach2]
-runway = rwy1
+runway = HK04L
 beacon = HK711, N60.26983, E25.09316, -290
 route1 =
 	290
@@ -736,7 +738,7 @@ route1 =
 #HK711, HK933, LOHIG
 
 [approach3]
-runway = rwy1
+runway = HK04L
 beacon = HK933, N60.18600, E24.90783, -218
 route1 =
 	218
@@ -746,7 +748,7 @@ route1 =
 #HK933, LOHIG
 
 [approach4]
-runway = rwy1
+runway = HK04L
 beacon = LOHIG, N60.13450, E24.79233, -218
 route1 =
 	218
@@ -760,7 +762,7 @@ route1 =
 ###########
 
 [approach5]
-runway = rwy1
+runway = HK04L
 beacon = VEPIN
 route1 = 
 	227
@@ -775,7 +777,7 @@ route1 =
 
 
 [approach6]
-runway = rwy1
+runway = HK04L
 beacon = MAMOP, N60.57166, E25.98400, -243
 route1 =
 	243
@@ -788,7 +790,7 @@ route1 =
 #MAMOP, HK807, HK711, HK933, LOHIG
 
 [approach7]
-runway = rwy1
+runway = HK04L
 beacon = HK807, N60.41733, E25.41883, -231
 route1 = 
 	231
@@ -806,7 +808,7 @@ route1 =
 ###########
 
 [approach8]
-runway = rwy1
+runway = HK04L
 beacon = INTOR
 route1 = 
 	014
@@ -820,7 +822,7 @@ route1 =
 #INTOR, BALTI, HK953, HK938, HK933, LOHIG
 
 [approach9]
-runway = rwy1
+runway = HK04L
 beacon = BALTI, N59.90250, E25.25100, -014
 route1 = 
 	014
@@ -833,7 +835,7 @@ route1 =
 #BALTI, HK953, HK938, HK933, LOHIG
 
 [approach10]
-runway = rwy1
+runway = HK04L
 beacon = HK953, N60.05816, E25.15016, -333
 route1 = 
 	333
@@ -845,7 +847,7 @@ route1 =
 #HK953, HK938, HK933, LOHIG
 
 [approach11]
-runway = rwy1
+runway = HK04L
 beacon = HK938, N60.13900, E25.09300, -333
 route1 = 
 	333
@@ -864,7 +866,7 @@ route1 =
 ############
 
 [approach12]
-runway = rwy1
+runway = HK04L
 beacon = DIVAM
 route1 = 
 	058
@@ -877,7 +879,7 @@ route1 =
 
 
 [approach13]
-runway = rwy1
+runway = HK04L
 beacon = PEXEN, N59.91333, E23.82416, -015
 route1 = 
 	051
@@ -888,7 +890,7 @@ route1 =
 # PEXEN, HK945, EHOTE
 
 [approach14]
-runway = rwy1
+runway = HK04L
 beacon = HK945, N59.97466, E24.24200, -063
 route1 = 
 	063
@@ -898,7 +900,7 @@ route1 =
 # HK945, EHOTE
 
 [approach15]
-runway = rwy1
+runway = HK04L
 beacon = EHOTE, N60.01716, E24.48666, -063
 route1 = 
 	063
@@ -911,7 +913,7 @@ route1 =
 ############
 
 [approach16]
-runway = rwy1
+runway = HK04L
 beacon = LAKUT
 route1 = 
 	069
@@ -926,7 +928,7 @@ route1 =
 
 
 [approach17]
-runway = rwy1
+runway = HK04L
 beacon = MAROM, N60.44200, E24.03950, -074
 route1 = 
 	074
@@ -940,7 +942,7 @@ route1 =
 
 
 [approach18]
-runway = rwy1
+runway = HK04L
 beacon = HK871, N60.43366, E24.50516, -084
 route1 = 
 	084
@@ -953,7 +955,7 @@ route1 =
 
 
 [approach19]
-runway = rwy1
+runway = HK04L
 beacon = HK937, N60.37466, E24.59000, -131
 route1 = 
 	131
@@ -964,7 +966,7 @@ route1 =
 # HK937, HK932, NEMVI
 
 [approach20]
-runway = rwy1
+runway = HK04L
 beacon = HK932, N60.32216, E24.68416, -131
 route1 =
 	131
@@ -974,7 +976,7 @@ route1 =
 # HK932, NEMVI
 
 [approach21]
-runway = rwy1
+runway = HK04L
 beacon = NEMVI, N60.26683, E24.55383
 route1 = 
 	218
@@ -989,7 +991,7 @@ route1 =
 
 
 [approach22]
-runway = rwy1
+runway = HK04L
 beacon = LUSEP
 route1 = 
 	172
@@ -1003,7 +1005,7 @@ route1 =
 # LUSEP, NAPUN, HK890, HK897, HK932, NEMVI
 
 [approach23]
-runway = rwy1 
+runway = HK04L 
 beacon = NAPUN, N60.72350, E25.27033
 route1 = 
 	169
@@ -1016,7 +1018,7 @@ route1 =
 # NAPUN, HK890, HK897, HK932, NEMVI
 
 [approach24]
-runway = rwy1
+runway = HK04L
 beacon = HK890, N60.59216, E25.28583
 route1 = 
 	169
@@ -1028,7 +1030,7 @@ route1 =
 # HK890, HK897, HK932, NEMVI
 
 [approach25]
-runway = rwy1
+runway = HK04L
 beacon = HK897, N60.40800, E24.87250
 route1 =
 	218
@@ -1049,7 +1051,7 @@ route1 =
 ###########
 
 [approach26]
-runway = rwy2
+runway = HK04R
 beacon = DIVAM
 route1 = 
 	058
@@ -1061,7 +1063,7 @@ route1 =
 # DIVAM, PEXEN, HK945, EHOTE
 
 [approach27]
-runway = rwy2
+runway = HK04R
 beacon = PEXEN, N59.91333, E23.82416
 route1 = 
 	051
@@ -1072,7 +1074,7 @@ route1 =
 # PEXEN, HK945, EHOTE
 
 [approach28]
-runway = rwy2
+runway = HK04R
 beacon = HK945, N59.97466, E24.24200
 route1 = 
 	063
@@ -1082,7 +1084,7 @@ route1 =
 # HK945, EHOTE
 
 [approach29]
-runway = rwy2
+runway = HK04R
 beacon = EHOTE, N60.01716, E24.48666
 route1 = 
 	063
@@ -1095,7 +1097,7 @@ route1 =
 ############
 
 [approach30]
-runway = rwy2
+runway = HK04R
 beacon = INTOR
 route1 =
 	014
@@ -1110,7 +1112,7 @@ route1 =
 # INTOR, BALTI, HK953, HK938, HK933, ORILE, VISSI
 
 [approach31]
-runway = rwy2
+runway = HK04R
 beacon = BALTI, N59.90250, E25.25100
 route1 = 
 	014
@@ -1124,7 +1126,7 @@ route1 =
 # BALTI, HK953, HK938, HK933, ORILE, VISSI
 
 [approach32]
-runway = rwy2
+runway = HK04R
 beacon = HK953, N60.05816, E25.15016
 route1 = 
 	333
@@ -1137,7 +1139,7 @@ route1 =
 # HK953, HK938, HK933, ORILE, VISSI
 
 [approach33]
-runway = rwy2
+runway = HK04R
 beacon = HK938, N60.13900, E25.09300
 route1 = 
 	333
@@ -1149,7 +1151,7 @@ route1 =
 # HK938, HK933, ORILE, VISSI
 
 [approach34]
-runway = rwy2
+runway = HK04R
 beacon = HK933, N60.18600, E24.90783
 route1 = 
 	287
@@ -1160,7 +1162,7 @@ route1 =
 # HK933, ORILE, VISSI
 
 [approach35]
-runway = rwy2
+runway = HK04R
 beacon = ORILE, N60.13766, E24.80583
 route1 = 
 	218
@@ -1170,7 +1172,7 @@ route1 =
 # ORILE, VISSI
 
 [approach36]
-runway = rwy2
+runway = HK04R
 beacon = VISSI, N60.10416, E24.73516
 route1 = 
 	218
@@ -1183,7 +1185,7 @@ route1 =
 ############
 
 [approach37]
-runway = rwy2
+runway = HK04R
 beacon = ROPAM
 route1 = 
 	293
@@ -1196,7 +1198,7 @@ route1 =
 # ROPAM, HK711, HK933, ORILE, VISSI
 
 [approach38]
-runway = rwy2
+runway = HK04R
 beacon = HK711, N60.26983, E25.09316
 route1 = 
 	290
@@ -1213,7 +1215,7 @@ route1 =
 ############
 
 [approach39]
-runway = rwy2
+runway = HK04R
 beacon = VEPIN
 route1 = 
 	227
@@ -1228,7 +1230,7 @@ route1 =
 # VEPIN, MAMOP, HK807, HK711, HK933, ORILE, VISSI
 
 [approach40]
-runway = rwy2
+runway = HK04R
 beacon = MAMOP, N60.57166, E25.98400
 route1 = 
 	243
@@ -1242,7 +1244,7 @@ route1 =
 # MAMOP, HK807, HK711, HK933, ORILE, VISSI
 
 [approach41]
-runway = rwy2
+runway = HK04R
 beacon = HK807, N60.41733, E25.41883
 route1 = 
 	231
@@ -1260,7 +1262,7 @@ route1 =
 ############
 
 [approach42]
-runway = rwy2
+runway = HK04R
 beacon = LUSEP
 route1 = 
 	172
@@ -1275,7 +1277,7 @@ route1 =
 # LUSEP, NAPUN, HK890, HK897, HK932, NEKKU, MALKE
 
 [approach43]
-runway = rwy2
+runway = HK04R
 beacon = NAPUN, N60.72350, E25.27033
 route1 = 
 	169
@@ -1289,7 +1291,7 @@ route1 =
 # NAPUN, HK890, HK897, HK932, NEKKU, MALKE
 
 [approach44]
-runway = rwy2
+runway = HK04R
 beacon = HK890, N60.59216, E25.28583
 route1 =
 	169
@@ -1302,7 +1304,7 @@ route1 =
 # HK890, HK897, HK932, NEKKU, MALKE
 
 [approach45]
-runway = rwy2
+runway = HK04R
 beacon = HK897, N60.40800, E24.87250
 route1 = 
 	218
@@ -1314,7 +1316,7 @@ route1 =
 # HK897, HK932, NEKKU, MALKE
 
 [approach46]
-runway = rwy2
+runway = HK04R
 beacon = HK932, N60.32216, E24.68416
 route1 = 
 	218
@@ -1325,7 +1327,7 @@ route1 =
 # HK932, NEKKU, MALKE
 
 [approach47]
-runway = rwy2
+runway = HK04R
 beacon = NEKKU, N60.26966, E24.56666
 route1 = 
 	218
@@ -1335,7 +1337,7 @@ route1 =
 # NEKKU, MALKE
 
 [approach48]
-runway = rwy2
+runway = HK04R
 beacon = MALKE, N60.23600, E24.48933
 route1 = 
 	218
@@ -1349,7 +1351,7 @@ route1 =
 ############
 
 [approach49]
-runway = rwy2
+runway = HK04R
 beacon = LAKUT
 route1 = 
 	069
@@ -1364,7 +1366,7 @@ route1 =
 # LAKUT, MAROM, HK871, HK937, HK932, NEKKU, MALKE
 
 [approach50]
-runway = rwy2
+runway = HK04R
 beacon = MAROM, N60.44200, E24.03950
 route1 = 
 	074
@@ -1378,7 +1380,7 @@ route1 =
 # MAROM, HK871, HK937, HK932, NEKKU, MALKE
 
 [approach51]
-runway = rwy2
+runway = HK04R
 beacon = HK871, N60.43366, E24.50516
 route1 = 
 	084
@@ -1391,7 +1393,7 @@ route1 =
 # HK871, HK937, HK932, NEKKU, MALKE
 
 [approach52]
-runway = rwy2
+runway = HK04R
 beacon = HK937, N60.37466, E24.59000
 route1 = 
 	131
@@ -1412,7 +1414,7 @@ route1 =
 ############
 
 [approach53]
-runway = rwy3
+runway = HK15
 beacon = DIVAM
 route1 = 
 	058	
@@ -1427,7 +1429,7 @@ route1 =
 # DIVAM, PEXEN, HK804, HK766, HK817, HK941, SUTAX
 
 [approach54]
-runway = rwy3
+runway = HK15
 beacon = PEXEN, N59.91333, E23.82416
 route1 =
 	051
@@ -1441,7 +1443,7 @@ route1 =
 # PEXEN, HK804, HK766, HK817, HK941, SUTAX
 
 [approach55]
-runway = rwy3
+runway = HK15
 beacon = HK804, N60.10100, E24.72166
 route1 =
 	058 
@@ -1454,7 +1456,7 @@ route1 =
 # HK804, HK766, HK817, HK941, SUTAX
 
 [approach56]
-runway = rwy3
+runway = HK15
 beacon = HK766, N60.25883, E25.07566
 route1 = 
 	038
@@ -1466,7 +1468,7 @@ route1 =
 # HK766, HK817, HK941, SUTAX
 
 [approach57]
-runway = rwy3
+runway = HK15
 beacon = HK817, N60.35300, E25.12283
 route1 = 
 	005
@@ -1477,7 +1479,7 @@ route1 =
 # HK817, HK941, SUTAX
 
 [approach58]
-runway = rwy3
+runway = HK15
 beacon = HK941, N60.43416, E25.04066
 route1 = 
 	324
@@ -1487,7 +1489,7 @@ route1 =
 # HK941, SUTAX
 
 [approach59]
-runway = rwy3
+runway = HK15
 beacon = SUTAX, N60.48966, E24.98416
 route1 = 
 	324
@@ -1500,7 +1502,7 @@ route1 =
 ############
 
 [approach60]
-runway = rwy3
+runway = HK15
 beacon = INTOR
 route1 = 
 	014
@@ -1515,7 +1517,7 @@ route1 =
 # INTOR, BALTI, HK806, HK805, HK817, HK941, SUTAX
 
 [approach61]
-runway = rwy3
+runway = HK15
 beacon = BALTI, N59.90250, E25.25100
 route1 = 
 	014
@@ -1529,7 +1531,7 @@ route1 =
 # BALTI, HK806, HK805, HK817, HK941, SUTAX
 
 [approach62]
-runway = rwy3 
+runway = HK15 
 beacon = HK806, N59.97483, E25.31666
 route1 = 
 	014
@@ -1542,7 +1544,7 @@ route1 =
 # HK806, HK805, HK817, HK941, SUTAX
 
 [approach63]
-runway = rwy3
+runway = HK15
 beacon = HK805, N60.10800, E25.25000
 route1 = 
 	337
@@ -1559,7 +1561,7 @@ route1 =
 ############
 
 [approach64]
-runway = rwy3
+runway = HK15
 beacon = ROPAM
 route1 = 
 	293
@@ -1576,7 +1578,7 @@ route1 =
 ############
 
 [approach65]
-runway = rwy3
+runway = HK15
 beacon = VEPIN
 route1 = 
 	227
@@ -1589,7 +1591,7 @@ route1 =
 # VEPIN, MAMOP, HK939, HK941, SUTAX
 
 [approach66]
-runway = rwy3
+runway = HK15
 beacon = MAMOP, N60.57166, E25.98400
 route1 = 
 	243
@@ -1601,7 +1603,7 @@ route1 =
 # MAMOP, HK939, HK941, SUTAX
 
 [approach67]
-runway = rwy3
+runway = HK15
 beacon = HK939, N60.44116, E25.20850
 route1 = 
 	242
@@ -1617,7 +1619,7 @@ route1 =
 ############
 
 [approach68]
-runway = rwy3
+runway = HK15
 beacon = LUSEP
 route1 = 
 	172
@@ -1630,7 +1632,7 @@ route1 =
 # LUSEP, NAPUN, HK902, HK950, NAHOP
 
 [approach69]
-runway = rwy3
+runway = HK15
 beacon = NAPUN, N60.72350, E25.27033
 route1 = 
 	169
@@ -1642,7 +1644,7 @@ route1 =
 # NAPUN, HK902, HK950, NAHOP
 
 [approach70]
-runway = rwy3
+runway = HK15
 beacon = HK902, N60.68850, E25.27550
 route1 = 
 	169
@@ -1653,7 +1655,7 @@ route1 =
 # HK902, HK950, NAHOP
 
 [approach71]
-runway = rwy3
+runway = HK15
 beacon = HK950, N60.60650, E25.06933
 route1 = 
 	223
@@ -1663,7 +1665,7 @@ route1 =
 # HK950, NAHOP
 
 [approach72]
-runway = rwy3
+runway = HK15
 beacon = NAHOP, N60.53466, E25.14250
 route 1 = 
 	144
@@ -1676,7 +1678,7 @@ route 1 =
 ############
 
 [approach73]
-runway = rwy3
+runway = HK15
 beacon = LAKUT
 route1 = 
 	069
@@ -1688,7 +1690,7 @@ route1 =
 # LAKUT, MAROM, VIBEP, HELPO
 
 [approach74]
-runway = rwy3
+runway = HK15
 beacon = MAROM, N60.44200, E24.03950
 route1 =
 	074
@@ -1699,7 +1701,7 @@ route1 =
 # MAROM, VIBEP, HELPO
 
 [approach75]
-runway = rwy3
+runway = HK15
 beacon = VIBEP, N60.45550, E24.23983
 route1 = 
 	074
@@ -1709,7 +1711,7 @@ route1 =
 # VIBEP, HELPO
 
 [approach76]
-runway = rwy3
+runway = HK15
 beacon = HELPO, N60.46933, E24.45700
 route1 =
 	074
@@ -1727,7 +1729,7 @@ route1 =
 ############
 
 [approach77]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = DIVAM
 route1 = 
 	058
@@ -1742,7 +1744,7 @@ route1 =
 # DIVAM, PEXEN, HK957, HK958, HK959, HK897, MILLI
 
 [approach78]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = PEXEN, N59.91333, E23.82416
 route1 = 
 	051
@@ -1756,7 +1758,7 @@ route1 =
 # PEXEN, HK957, HK958, HK959, HK897, MILLI
 
 [approach79]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK957, N60.10266, E24.18800
 route1 = 
 	034
@@ -1769,7 +1771,7 @@ route1 =
 # HK957, HK958, HK959, HK897, MILLI
 
 [approach80]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK958, N60.28333, E24.53716
 route1 = 
 	035
@@ -1781,7 +1783,7 @@ route1 =
 # HK958, HK959, HK897, MILLI
 
 [approach81]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK959, N60.34033, E24.72466
 route1 = 
 	047
@@ -1792,7 +1794,7 @@ route1 =
 # HK959, HK897, MILLI
 
 [approach82]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK897, N60.40800, E24.87250
 route1 = 
 	037
@@ -1802,7 +1804,7 @@ route1 =
 # HK987, MILLI
 
 [approach83]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = MILLI, N60.48566, E25.03750
 route1 = 
 	038
@@ -1815,7 +1817,7 @@ route1 =
 ############
 
 [approach84]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = INTOR
 route1 = 
 	014
@@ -1828,7 +1830,7 @@ route1 =
 # INTOR, BALTI, HK944, HK946, NOFOX
 
 [approach85]
-runway = rwy1, eva
+runway = HK04L, eva
 beacon = BALTI, N59.90250, E25.25100
 route1 = 
 	014
@@ -1840,7 +1842,7 @@ route1 =
 # BALTI, HK944, HK946, NOFOX
 
 [approach86]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK944, N60.22383, E25.19300
 route1 = 
 	346
@@ -1851,7 +1853,7 @@ route1 =
 # HK944, HK946, NOFOX
 
 [approach87]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK946, N60.30683, E25.18483
 route1 = 
 	346
@@ -1861,7 +1863,7 @@ route1 =
 # HK946, NOFOX
 
 [approach88]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = NOFOX, N60.35333, E25.27650
 route1 = 
 	038
@@ -1874,7 +1876,7 @@ route1 =
 ############
 
 [approach89]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = ROPAM
 route1 = 
 	293
@@ -1886,7 +1888,7 @@ route1 =
 # ROPAM, HK944, HK946, NOFOX
 
 [approach90]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK944, N60.22383, E25.19300
 route1 = 
 	286
@@ -1897,7 +1899,7 @@ route1 =
 # HK944, HK946, NOFOX
 
 [approach91]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK946, N60.30683, E25.18483
 route1 = 
 	346
@@ -1907,7 +1909,7 @@ route1 =
 # HK946, NOFOX
 
 [approach92]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = NOFOX, N60.35333, E25.27650
 route1 = 
 	038
@@ -1920,7 +1922,7 @@ route1 =
 ############
 
 [approach93]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = VEPIN
 route1 = 
 	227
@@ -1931,7 +1933,7 @@ route1 =
 # VEPIN, MAMOP, RAHTU
 
 [approach94]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = MAMOP, N60.57166, E25.98400
 route1 = 
 	243
@@ -1941,7 +1943,7 @@ route1 =
 # MAMOP, RAHTU
 
 [approach95]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = RAHTU, N60.58616, E25.51683
 route1 = 
 	264
@@ -1954,7 +1956,7 @@ route1 =
 ############
 
 [approach96]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = LUSEP
 route1 = 
 	172
@@ -1966,7 +1968,7 @@ route1 =
 # LUSEP, NAPUN, HK902, SELLU
 
 [approach97]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = NAPUN, N60.72350, E25.27033
 route1 =
 	169
@@ -1977,7 +1979,7 @@ route1 =
 # NAPUN, HK902, SELLU
 
 [approach98]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK902, N60.68850, E25.27550
 route1 = 
 	169
@@ -1987,7 +1989,7 @@ route1 =
 # HK902, SELLU
 
 [approach99]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = SELLU, N60.60833, E25.10433
 route1 = 
 	218
@@ -2000,7 +2002,7 @@ route1 =
 ############
 
 [approach100]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = LAKUT
 route1 = 
 	069
@@ -2013,7 +2015,7 @@ route1 =
 # LAKUT, MAROM, VIBEP, HK897, MILLI
 
 [approach101]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = MAROM, N60.44200, E24.03950
 route1 = 
 	074
@@ -2025,7 +2027,7 @@ route1 =
 # MAROM, VIBEP, HK897, MILLI
 
 [approach102]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = VIBEP, N60.45550, E24.23983
 route1 = 
 	074
@@ -2036,7 +2038,7 @@ route1 =
 # VIBEP, HK897, MILLI
 
 [approach103]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = HK897, N60.40800, E24.87250
 route1 = 
 	089
@@ -2046,7 +2048,7 @@ route1 =
 # HK897, MILLI
 
 [approach104]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = MILLI, N60.48566, E25.03750
 route1 = 
 	038
@@ -2064,7 +2066,7 @@ route1 =
 ############
 
 [approach105]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = DIVAM
 route1 = 
 	058
@@ -2078,7 +2080,7 @@ route1 =
 # DIVAM, PEXEN, HK804, HK891, VEMMI, KENON
 
 [approach106]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = PEXEN, N59.91333, E23.82416
 route1 = 
 	051
@@ -2091,7 +2093,7 @@ route1 =
 # PEXEN, HK804, HK891, VEMMI, KENON
 
 [approach107]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = HK804, N60.10100, E24.72166
 route1 = 
 	058
@@ -2103,7 +2105,7 @@ route1 =
 # HK804, HK891, VEMMI, KENON
 
 [approach108]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = HK891, N60.30883, E25.18916
 route1 = 
 	038
@@ -2114,7 +2116,7 @@ route1 =
 # HK891, VEMMI, KENON
 
 [approach109]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = VEMMI, N60.36716, E25.30600
 route1 = 
 	038
@@ -2124,7 +2126,7 @@ route1 =
 # VEMMI, KENON
 
 [approach110]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = KENON, N60.40050, E25.38416
 route1 = 
 	038
@@ -2137,7 +2139,7 @@ route1 =
 ############
 
 [approach111]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = INTOR
 route1 = 
 	014
@@ -2151,7 +2153,7 @@ route1 =
 # INTOR, BALTI, HK943, HK891, VEMMI, KENON
 
 [approach112]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = BALTI, N59.90250, E25.25100
 route1 = 
 	014
@@ -2164,7 +2166,7 @@ route1 =
 # BALTI, HK943, HK891, VEMMI, KENON
 
 [approach113]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = HK943, N60.22583, E25.20283
 route1 = 
 	347
@@ -2182,7 +2184,7 @@ route1 =
 ############
 
 [approach114]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = ROPAM
 route1 = 
 	287
@@ -2201,7 +2203,7 @@ route1 =
 ############
 
 [approach115]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = VEPIN
 route1 = 
 	227
@@ -2213,7 +2215,7 @@ route1 =
 # VEPIN, MAMOP, HK956, ARADE
 
 [approach116]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = MAMOP, N60.57166, E25.98400
 route1 = 
 	243
@@ -2224,7 +2226,7 @@ route1 =
 # MAMOP, HK956, ARADE
 
 [approach117]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = HK956, N60.45316, E25.71716
 route1 = 
 	219
@@ -2234,7 +2236,7 @@ route1 =
 # HK956, ARADE
 
 [approach118]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = ARADE, N60.38600, E25.56800
 route1 = 
 	218
@@ -2248,7 +2250,7 @@ route1 =
 ############
 
 [approach119]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = LUSEP
 route1 = 
 	172
@@ -2260,7 +2262,7 @@ route1 =
 # LUSEP, NAPUN, HK902, KUKKA
 
 [approach120]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = NAPUN, N60.72350, E25.27033
 route1 = 
 	169
@@ -2271,7 +2273,7 @@ route1 =
 # NAPUN, HK902, KUKKA
 
 [approach121]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = HK902, N60.68850, E25.27550
 route1 = 
 	169
@@ -2281,7 +2283,7 @@ route1 =
 # HK902, KUKKA
 
 [approach122]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = KUKKA, N60.62166, E25.12083
 route1 = 
 	218
@@ -2295,7 +2297,7 @@ route1 =
 ############
 
 [approach123]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = LAKUT
 route1 = 
 	069
@@ -2310,7 +2312,7 @@ route1 =
 # LAKUT, MAROM, VIBEP, HK942, HK951, LASTU, KAAVI
 
 [approach124]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = MAROM, N60.44200, E24.03950
 route1 = 
 	074
@@ -2324,7 +2326,7 @@ route1 =
 # MAROM, VIBEP, HK942, HK951, LASTU, KAAVI
 
 [approach125]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = VIBEP, N60.45550, E24.23983
 route1 = 
 	074
@@ -2337,7 +2339,7 @@ route1 =
 # VIBEP, HK942, HK951, LASTU, KAAVI
 
 [approach126]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = HK942, N60.47083, E24.60800
 route1 = 
 	076
@@ -2349,7 +2351,7 @@ route1 =
 # HK942, HK951, LASTU, KAAVI
 
 [approach127]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = HK951, N60.43983, E24.93816
 route1 = 
 	091
@@ -2360,7 +2362,7 @@ route1 =
 # HK951, LASTU, KAAVI
 
 [approach128]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = LASTU, N60.50016, E25.05933
 route1 = 
 	038
@@ -2370,7 +2372,7 @@ route1 =
 # LASTU, KAAVI
 
 [approach129]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = KAAVI, N60.53366, E25.13750
 route1 = 
 	038
@@ -2384,7 +2386,7 @@ route1 =
 ######################################################
 
 [approach130]
-runway = rwy3
+runway = HK15
 beacon = ELKUN, N60.456419, E24.834528
 route1 = 
 	144
@@ -2399,7 +2401,7 @@ route2 =
 
 
 [approach131]
-runway = rwy1
+runway = HK04L
 beacon = PODOM, N60.205803, E24.669603
 route1 = 
 	038
@@ -2416,7 +2418,7 @@ route3 =
 # RWY 04L IAF PODOM
 
 [approach132]
-runway = rwy1
+runway = HK04L
 beacon = RULLI, N60.138250, E24.523147
 route1 = 
 	038
@@ -2434,7 +2436,7 @@ route3 =
 
 
 [approach132]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = MEHAK, N60.426075, E25.153892
 route1 = 
 	218
@@ -2451,7 +2453,7 @@ route3 =
 # RWY 22R IAF MEHAK
 
 [approach133]
-runway = rwy1, rev
+runway = HK04L, rev
 beacon = PERHO, N60.499803, E25.318344
 route1 = 
 	218
@@ -2468,7 +2470,7 @@ route3 =
 # RWY 22R IAF PERHO
 
 [approach134]
-runway = rwy2
+runway = HK04R
 beacon = GONAP, N60.168039, E24.623408
 route1 = 
 	038
@@ -2485,7 +2487,7 @@ route3 =
 # RWY 04R IAF GONAP
 
 [approach135]
-runway = rwy2, rev
+runway = HK04R, rev
 beacon = BIFIX, N60.462669, E25.271875
 route1 = 
 	218
@@ -2506,23 +2508,23 @@ route3 =
 ##############################################################
 
 config1 =
-	0,	rwy1,	landstart
+	0,	HK04L,	landstart
 config2 =
-	0,	rwy2,	landstartrev
-	5, rwy1, landrev
+	0,	HK04R,	landstartrev
+	5, HK04L, landrev
 config3 =
-	0,	rwy3,	land
-	0, rwy1, startrev
+	0,	HK15,	land
+	0, HK04L, startrev
 config3 =
-	0,	rwy3,	start
-	0, rwy1, land
+	0,	HK15,	start
+	0, HK04L, land
 config4 =
-	0 , rwy2, start
-	0 , rwy1, land
-	5, rwy2, land
+	0 , HK04R, start
+	0 , HK04L, land
+	5, HK04R, land
 config5 =
-	0 , rwy2, landrev
-	0 , rwy1, startrev
+	0 , HK04R, landrev
+	0 , HK04L, startrev
 config6 =
-	0, rwy3, land
-	0, rwy1, startrev
+	0, HK15, land
+	0, HK04L, startrev
