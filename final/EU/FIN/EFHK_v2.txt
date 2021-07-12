@@ -179,7 +179,7 @@ airlines =
 	FDB, 2, b738, Skydubai , s
 	QTR, 2, b789/b788, qatari, s
 	THY, 2, b738/a321/a310, turkish, s
-	WBA, 5, e190/at72, westbird, wse
+	FIN, 5, e190/at72, finnair, wse
 	DKH, 1, b789, air juneyao, e
 	DLH, 3, e190/a319/a320, lufthansa, w
 	BRU, 1, e75l, belarus avia, s
