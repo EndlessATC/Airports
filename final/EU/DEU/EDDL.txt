@@ -1,0 +1,515 @@
+[airspace]
+elevation = 147
+center = N51.289501, E6.76678
+magneticvar = -0.101
+beacons =
+	DUS, N51.28320, E6.75373, 0, Dusseldorf
+	PISAP, N51.79389, E6.64028
+	HALME, N51.70528, E7.20000
+	DOMUX, N51.41972, E7.53639
+	BIKMU, N51.10556, E6.67278
+	MGB, N51.22730, E6.50541, 0, Monchengladbach
+	MHD, N51.23490, E6.49197, 0, Monchengladbach
+	MHV, N51.23730, E6.49024, 0, Monchengladbach
+	LMA, N51.37080, E6.39500, 0, Lima
+	BAM, N51.32780, E7.17698, 0, Barmen
+	BOT, N51.58580, E7.02301, 0, Bottrop
+	NID, N51.60000, E6.14148, 0, Niederrhein
+	LAA, N51,60167, E6,17278, 270, Niederrhein
+	GIX, N50.96330, E6.04520, 0, Geilenkirchen
+	DOR, N51.52530, E7.63106, 0, Wickede
+	DWI, N51.52610, E7.63439, 0, Dortmund
+	THN, N51.18340, E5.83339, 0, Thorn
+	MAS, N50.97190, E5.96043, 0, Maastricht
+	DOM, N51.70950, E7.58713, 0, Dortmund
+	GMH, N51.17050, E7.89204, 0, Germinghausen
+	COL, N50.78350, E7.59419, 0, Cola
+	HMM, N51.85690, E7.70829, 0, Hamm
+	ONL, N50.70110, E5.54917, 0, Liege
+	MST, N52.11010, E7.57171, 0, Greven
+	LNO, N50.58580, E5.71028, 0, Olno
+	SLV, N50.47810, E5.91306, 0, Spa
+	SLD, N50.70680, E8.07851, 0, Siegerland
+
+
+boundary =
+	N51.70000, E6.02833
+	N51.67278, E6.03667
+	N51.65139, E6.11639
+	N51.65556, E5.92194
+	N51.61944, E5.91306
+	N51.55750, E5.91306
+	N51.55417, E6.16583
+	N51.46667, E6.22500
+	N51.36667, E6.22500
+	N51.24611, E6.08167
+	N51.08750, E6.00500
+	N51.02250, E5.87833
+	N50.97667, E5.91056
+	N50.98056, E5.97083
+	N50.95250, E6.00889
+	N50.93083, E6.04278
+	N50.92167, E6.05861
+	N50.88417, E6.07056
+	N50.86111, E6.07806
+	N50.84667, E6.07750
+	N50.77000, E6.07639
+	N50.91833, E6.38639
+	N51.02639, E6.61611
+	N51.03194, E7.10694
+	N51.10889, E7.27083
+	N51.37750, E7.65611
+	N51.62417, E7.47944
+	N51.86222, E6.96889
+	N51.91083, E6.87667
+	N51.93361, E6.79083
+	N51.86167, E6.49667
+	N51.86833, E6.37639
+	N51.82806, E6.40750
+
+
+[airport1]
+name = Düsseldorf Airport
+code = EDDL
+runways =
+	rwy1, 05L, N51.2837, E6.74872, 53.0, 8858, 984, 984, 116
+	rwy2, 05R, N51.2796, E6.75199, 53.0, 9842, 984, 984, 121
+climbaltitude = 5000
+
+entrypoints =
+	360, PISAP
+	040, HALME
+	090, DOMUX
+	270, LMA
+	180, BIKMU
+
+[airport2]
+name = Weeze Airport
+code = LV
+runways =
+	rwy3, 09, N51.6028, E6.12454, 92.0, 8005, 0, 0, 95
+climbaltitude = 5000
+entrypoints =
+	270, LMA
+	220, LMA
+	360, SOBTU
+
+
+
+traffic = 10
+
+[configurations]
+config1 =
+	0, rwy1, landrev
+	0, rwy2, startrev
+	0, rwy3, startlandrev
+
+[departure1]
+runway = rwy2, rev
+route1 =
+	COL5T, cola five tango
+	N51.22444, E6.63333
+	N51.12861, E6.64861
+	N51.14528, E7.09639
+	N51.11833, E7.26889
+	N50.78333, E7.59417
+
+[departure2]
+runway = rwy2, rev
+route1 =
+	DODEN9T, doden niner tango
+	N51.22444, E6.63333
+	N51.12861, E6.64861
+	N51.15333, E7.33528
+	N51.15694, E7.44639
+	N50.96667, E7.73639
+	N50.60222, E8.09333
+
+[departure3]
+runway = rwy2, rev
+route1 =
+	GMH9T, Germinghausen niner tango
+	N51.22444, E6.63333
+	N51.12861, E6.64861
+	N51.15694, E7.44639
+	N51.17056, E7.89194
+
+[departure4]
+runway = rwy2, rev
+route1 =
+	KUMIK6T, kumik six tango
+	N51.22444, E6.63333
+	N51.12861, E6.64861
+	N51.15694, E7.44639
+	N51.16417, E7.67389
+	N50.83667, E8.07333
+
+[departure5]
+runway = rwy2, rev
+route1 =
+	LMA2T, lima two tango
+	N51.26444, E6.71889
+	N51.37083, E6.39500
+
+[departure6]
+runway = rwy2, rev
+route1 =
+	MEVEL3T, mevel three tango
+	N51.27167, E6.73472
+	N51.28833, E6.68528
+	N51.38694, E6.69556
+	N51.62000, E6.69639
+	N51.70694, E6.88500
+	N51.85472, E7.20944
+
+[departure7]
+runway = rwy2, rev
+route1 =
+	MODRU1T, modru one tango
+	N51.22722, E6.63917
+	N51.37444, E6.45000
+	N51.32806, E6.27139
+	N51.01667, E6.09000
+
+[departure8]
+runway = rwy2, rev
+route1 =
+	NETEX5T, netex five tango
+	N51.26444, E6.71889
+	N51.37083, E6.39500
+	N51.32806, E6.27139
+
+[departure9]
+runway = rwy2, rev
+route1 =
+	NVO1T, norvenich one tango
+	N51.22444, E6.63333
+	N51.12861, E6.64861
+	N50.82278, E6.63667
+
+[departure10]
+runway = rwy2, rev
+route1 =
+	NUDGO5T, nudgo five tango
+	N51.22444, E6.63333
+	N51.12861, E6.64861
+	N51.15694, E7.44639
+	N51.22194, E7.71028
+	N51.35139, E8.26389
+	N51.41361, E8.44083
+
+[departure11]
+runway = rwy2, rev
+route1 =
+	SONEB7T, soneb seven tango
+	N51.27167, E6.73472
+	N51.28833, E6.68528
+	N51.38694, E6.69556
+	N51.62000, E6.69639
+	N51.85806, E6.73611
+	N52.02361, E6.76417
+
+[departure12]
+#ERKUM1S dep from EDLV RWY27
+runway = rwy3, rev
+route1 =
+	ERKUM1S, erkum one sierra
+	N51.60778, E6.09889
+	N51.64111, E6.05722
+	N51.67667, E6.09222
+	N51.71417, E6.23056
+	N51.62000, E6.69639
+
+[departure13]
+#SONEB3S dep from EDLV RWY27
+runway = rwy3, rev
+route1 =
+	SONEB3S, soneb three sierra
+	N51.60778, E6.09889
+	N51.64111, E6.05722
+	N51.67667, E6.09222
+	N51.79222, E6.52083
+	N51.92806, E6.66333
+	N52.02361, E6.76417
+
+[departure14]
+#VEBAK4S dep from EDLV RWY27
+runway = rwy3, rev
+route1 =
+	VEBAK4S, vebak four sierra
+	N51.60778, E6.09889
+	N51.64111, E6.05722
+	N51.67667, E6.09222
+	N51.64139, E6.17556
+	N51.60167, E6.17278
+	N51.45806, E6.34806
+
+
+[approach1]
+#PISAP23
+runway = rwy1,	rev
+beacon = PISAP, N51.79389, E6.64028
+route1 =
+	330
+	N51.79389, E6.64028
+	N51.78306, E7.02139
+	N51.68972, E7.13444
+	N51.64972, E7.04889
+	N51.60972, E6.96333
+	N51.56944, E6.87806
+	N51.48972, E6.97472
+	N51.52972, E7.06000
+	N51.57000, E7.14528
+	N51.63000, E7.27361
+	end, 052
+
+[approach2]
+#HALME23
+runway = rwy1,	rev
+beacon = HALME, N51.70528, E7.20000
+route1 =
+	070
+	N51.70528, E7.20000
+	N51.68972, E7.13444
+	N51.64972, E7.04889
+	N51.60972, E6.96333
+	N51.56944, E6.87806
+	N51.48972, E6.97472
+	N51.52972, E7.06000
+	N51.57000, E7.14528
+	N51.63000, E7.27361
+	end, 052
+
+[approach3]
+#DOMUX23
+runway = rwy1, rev
+beacon = DOMUX, N51.41972, E7.53639
+route1 =
+	100
+	N51.41972, E7.53639
+	N51.36139, E7.39556
+	N51.32444, E7.30694
+	N51.28722, E7.21833
+	N51.25000, E7.13000
+	N51.31667, E7.05000
+	N51.35667, E7.13500
+	N51.39667, E7.22028
+	N51.43667, E7.30556
+	N51.49639, E7.43361
+	end, 052
+
+[approach4]
+#LMA23
+runway = rwy1, rev
+beacon = LMA
+route1 =
+	270
+	N51.37083, E6.39500
+	N51.48972, E6.97472
+	N51.52972, E7.06000
+	N51.57000, E7.14528
+	N51.63000, E7.27361
+	end, 052
+
+[approach5]
+#BIKMU23
+runway = rwy1, rev
+beacon = BIKMU, N51.10556, E6.67278
+route1 =
+	220
+	N51.10556, E6.67278
+	N51.48972, E6.97472
+	N51.52972, E7.06000
+	N51.57000, E7.14528
+	N51.63000, E7.27361
+	end, 052
+
+[approach6]
+#TIVIM1A
+runway = rwy1, rev
+beacon = TIVIM, N51.59583, E6.84556
+route1 =
+	340
+	N51.59583, E6.84556, 7000
+	N51.42697, E7.05083
+	N51.38611, E6.96417
+	8.9, 3000, 180
+
+[approach7]
+#RUGAP1A
+runway = rwy1, rev
+beacon = RUGAP, N51.63250, E7.14278
+route1 =
+	010
+	N51.63250, E7.14278, 7000
+	N51.42697, E7.05083
+	N51.38611, E6.96417
+	8.9, 3000, 180
+
+[approach8]
+#OBOMA1A
+runway = rwy1, rev
+beacon = OBOMA, N51.55306, E7.33222
+route1 =
+	050
+	N51.55306, E7.33222, 7000
+	N51.42697, E7.05083
+	N51.38611, E6.96417
+	8.9, 3000, 180
+
+[approach9]
+#NISOX1A
+runway = rwy1, rev
+beacon = NISOX, N51.42889, E7.40111
+route1 =
+	090
+	N51.42889, E7.40111, 7000
+	N51.42697, E7.05083
+	N51.38611, E6.96417
+	8.9, 3000, 180
+
+[approach10]
+#LONSO1A
+runway = rwy1, rev
+beacon = LONSO, N51.36111, E7.38639
+route1 =
+	110
+	N51.36111, E7.38639, 7000
+	N51.42697, E7.05083
+	N51.38611, E6.96417
+	8.9, 3000, 180
+
+[approach11]
+#TIVIM1B
+runway = rwy2, rev
+beacon = TIVIM, N51.59583, E6.84556
+route1 =
+	340
+	N51.59583, E6.84556, 7000
+	N51.42333, E7.05500
+	N51.38306, E6.97000
+	8.8, 3000, 180
+
+[approach12]
+#RUGAP1B
+runway = rwy2, rev
+beacon = RUGAP, N51.63250, E7.14278
+route1 =
+	010
+	N51.63250, E7.14278, 7000
+	N51.42333, E7.05500
+	N51.38306, E6.97000
+	8.8, 3000, 180
+
+[approach13]
+#OBOMA1B
+runway = rwy2, rev
+beacon = OBOMA, N51.55306, E7.33222
+route1 =
+	050
+	N51.55306, E7.33222, 7000
+	N51.42333, E7.05500
+	N51.38306, E6.97000
+	8.8, 3000, 180
+
+[approach14]
+#NISOX1B
+runway = rwy2, rev
+beacon = NISOX, N51.42889, E7.40111
+route1 =
+	090
+	N51.42889, E7.40111, 7000
+	N51.42333, E7.05500
+	N51.38306, E6.97000
+	8.8, 3000, 180
+
+[approach15]
+#LONSO1B
+runway = rwy2, rev
+beacon = LONSO, N51.36111, E7.38639
+route1 =
+	110
+	N51.36111, E7.38639, 7000
+	N51.42333, E7.05500
+	N51.38306, E6.97000
+	8.8, 3000, 180
+
+[approach16]
+#IBIXI1A
+runway = rwy1, rev
+beacon = IBIXI, N51.25583, E6.99639
+route1 =
+	220
+	N51.25583, E6.99639, 7000
+	N51.35667, E7.13500
+	N51.42697, E7.05083
+	N51.38611, E6.96417
+	8.9, 3000, 180
+
+[approach17]
+#IBIXI1B
+runway = rwy2, rev
+beacon = IBIXI, N51.25583, E6.99639
+route1 =
+	220
+	N51.25583, E6.99639, 7000
+	N51.35667, E7.13500
+	N51.42333, E7.05500
+	N51.38306, E6.97000
+	8.8, 3000, 180
+
+[approach18]
+#UNDOG1A
+runway = rwy1, rev
+beacon = UNDOG, N51.40667, E6.80806
+route1 =
+	230
+	N51.40667, E6.80806, 7000
+	N51.43944, E6.86833
+	N51.48972, E6.97472
+	N51.42697, E7.05083
+	N51.38611, E6.96417
+	8.9, 3000, 180
+
+[approach19]
+#UNDOG1B
+runway = rwy2, rev
+beacon = UNDOG, N51.40667, E6.80806
+route1 =
+	230
+	N51.40667, E6.80806, 7000
+	N51.43944, E6.86833
+	N51.48972, E6.97472
+	N51.42333, E7.05500
+	N51.38306, E6.97000
+	8.8, 3000, 180
+
+[approach20]
+#SOBTU arrivals into EDLV runway 27
+runway = rwy3, rev
+beacon = SOBTU, N51.69806, E6.54778
+route1 =
+	070
+	N51.69806, E6.54778
+	N51.60167, E6.17278, 3000, 180
+	N51.60167, E6.03944
+	N51.63333, E6.03944
+	N51.60167, E6.17278
+	N51.63333, E6.39806
+	N51.59667, E6.39806
+	9, 2000, 180
+
+[approach21]
+#LMA arrivals into EDLV runway 27
+runway = rwy3, rev
+beacon = LMA
+route1 =
+	070
+	N51.37083, E6.39500
+	N51.60167, E6.17278, 3000, 180
+	N51.60167, E6.03944
+	N51.63333, E6.03944
+	N51.60167, E6.17278
+	N51.63333, E6.39806
+	N51.59667, E6.39806
+	9, 2000, 180

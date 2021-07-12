@@ -1,0 +1,148 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 39
+center = N21.221200943, E105.806999207
+magneticvar = -1.134
+beacons =
+	K, N21.22790, E105.78300, 0, Noibai
+	NOB, N21.21300, E105.83500, 0, Noibai
+	KW, N21.23880, E105.74600, 0, Noibai
+	AM, N20.98890, E105.86100, 0, Gialam
+	HL, N20.38830, E106.12100, 0, Nam Dinh
+	BK, N20.80140, E106.65800, 0, Catbi
+
+line1 =
+	N20.83682, E107.04375
+	N20.86704, E106.95342
+	N20.82422, E106.91064
+	N20.74307, E106.99004
+	N20.74702, E107.03135
+	N20.76104, E107.04229
+
+line2 =
+	N20.92793, E106.79531
+	N20.86421, E106.76943
+	N20.84375, E106.80313
+	N20.79639, E106.85410
+	N20.81572, E106.86563
+	N20.85825, E106.85508
+	N20.92793, E106.79531
+
+line3 =
+	N20.28887, E106.51797
+	N20.39219, E106.57285
+	N20.52656, E106.55078
+	N20.73506, E106.75342
+	N20.80615, E106.73730
+	N20.96050, E106.67549
+	N21.00029, E106.68340
+	N20.99990, E106.72520
+	N20.99111, E106.76025
+	N20.95752, E106.82061
+	N20.95000, E106.88623
+	N20.97407, E106.93643
+	N20.97139, E106.98145
+	N20.99121, E107.01924
+
+line4 =
+	N20.28889, E106.51797
+	N20.34827, E106.38708
+	N20.35625, E106.32863
+	N20.33974, E106.28781
+	N20.34677, E106.27034
+	N20.37726, E106.27634
+	N20.39777, E106.26435
+	N20.40832, E106.23437
+	N20.46645, E106.19582
+	N20.57218, E106.14859
+	N20.62293, E106.10859
+	N20.61869, E106.07583
+	N20.66481, E106.02322
+	N20.76132, E105.95098
+	N20.86100, E105.90881
+	N20.96394, E105.89672
+	N21.05091, E105.83554
+	N21.12202, E105.72515
+	N21.16158, E105.62604
+	N21.16961, E105.53819
+	N21.20320, E105.47721
+	N21.29203, E105.42595
+	N21.27297, E105.32508
+	N21.30118, E105.27474
+	N21.37043, E105.24126
+	N21.38934, E105.21552
+	N21.35797, E105.19743
+	N21.42954, E105.11780
+	N21.60403, E104.97652
+	N21.87450, E104.69235
+
+[airport1]
+name = Noi Bai
+code = VVNB
+runways =
+	rwy1, 11L, N21.2255, E105.792, 107.0, 10499, 325, 325, 40
+	rwy2, 11R, N21.225, E105.785, 107.1, 12466, 325, 325, 38
+airlines =	hvn, 10, a320/a20n/a321/a21n/a332/a333/a359/at75/b772/b789/b78x, vietnam airlines, nswe
+	vjc, 5, a320/a321/a21n, viet jet air, nswe
+	bav, 3, a319/a320/a20n/a321/a21n/b789/e190/e195, bamboo, new
+	afl, 1, a332/a333/b763/il96, aeroflot, n
+	axm, 1, a320/a20n/a21n, red cap, e
+	abl, 1, a320/a321/a21n, air busan, n
+	amu, 1, a320/a20n/a321/a21n, air macau, n
+	asv, 1, a321, air seoul, n
+	ana, 1, a320/a20n/a321/a21n/b735/b737/b738/b38m/b763, all nippon, n
+	aar, 1, a320/a321/a21n/b734/b744/b763, asiana, n
+	bkp, 1, a319/a320/at76, bangkok air, w
+	cpa, 1, a320/a321/a21n/a333/b744/b748, cathay, e
+	ceb, 1, a320/a20n/a321/a21n, cebu, e
+	cal, 1, a21n/b738/b744/b77l, dynasty, e
+	ces, 1, a306/a319/a320/a20n/a321/b733/b737/b738/b38m/md90, china eastern, n
+	csn, 1, a306/a319/a19n/a320/a20n/a321/a21n/b733/b737/b738/b38m/b752/md90, china southern, n
+	cqn, 1, a319/a320/a20n/a21n, chong qing, n
+	esr, 1, b738/b38m, eastar jet, n
+	uae, 1, a332/a343/b744/b772/b77l/b773/b77w, emirates, w
+	eva, 1, a321/a332/a333/b744/b77l/md11/md90, eva, e
+	fgw, 1, b738, gangwon, n
+	cbg, 1, a320/a20n/e190, green city, n
+	crk, 1, a320/b738, bauheenia, e
+	igo, 1, a320/a20n/a21n/at76, i fly, w
+	jal, 1, b738/b763, japan air, n
+	jja, 1, b738/b38m, jeju air, n
+	jna, 1, b738, jin air, n
+	kal, 1, bcs3/a306/a332/a333/b738/b38m/b739/b744/b748/b77l, korean air, n
+	lao, 1, a320/at75/at76, lao, w
+	mas, 1, a332/a333/b738/b38m/b3xm, malaysian, s
+	mxd, 1, at76/b738/b739, malindo, s
+	mda, 1, at76/e190, mandarin, e
+	pic, 1, a320, pacific, n
+	pal, 1, a320/a321/a21n/a333, philippine, e
+	qtr, 1, a332/a333/a346/a359/a35k/b748/b77l/b77w/b788/b789, qatari, w
+	tgw, 1, a319/a320/a20n/a21n, go cat, s
+	csz, 1, a319/a320/a20n/b738/b38m/b739, shenzhen air, e
+	csc, 1, a319/a320/a20n/a321/a21n/a332/a333, sis shuan, n
+	sia, 1, a333/b738/b38m/b772, singapore, s
+	aiq, 1, a320/a20n/a21n, thai asia, w
+	tha, 1, a333/b744/b772/b788, thai, w
+	tlm, 1, b738/b739/b39m, mentari, w
+	thy, 1, a306/a310/a332/a333/a359/b77l/b77w/b789, turkish, w
+	twb, 1, b738/b38m, tee way, n
+	vfc, 1, at75, vasco air, ns
+	vag, 1, a321/a21n, vietravel air, sn
+	abw, 1, b734/b742/b743/b744/b748/b77l, air bridge cargo, n
+	clx, 1, b744/b748, cargolux, w
+	cad, 1, b733/b734, cardig air, e
+	etd, 1, a332/b744/b748/b77l/md11, etihad, w
+	fdx, 1, a306/a310/b752/b763/b77l/md10/md11, fed ex, n
+	kmi, 1, b734/b738, kay mile air, e
+	css, 1, b733/b734/b752/b763, shun fung, n
+	sej, 1, a343/b737/b738, spice jet, w
+# specials
+	plm, 1, a332/a333/b744, pullman, w
+	jdi, 1, gl5t/glex/glf5/glf6, jedi, w
+	dpj, 1, fa7x/glf5, jet card, n
+	rot, 1, a310/b738/b38m, tarom, w

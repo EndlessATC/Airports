@@ -1,0 +1,339 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+elevation = 22
+center = N1.35019, E103.994003
+magneticvar = 0.202
+beacons =
+	BED, N1.31626, E103.96400, 0, Bedok
+	VTK, N1.41539, E104.02200, 0, Tekong
+	PLA, N1.37337, E103.91200, 0, Paya Lebar
+	PU, N1.42333, E103.93300, 0, Papa Uniform
+	SEL, N1.41653, E103.86500, 0, Seletar
+	KK, N1.52164, E103.99000, 0, Kong Kong
+	AG, N1.42333, E103.82300, 0, Sembawang
+	SJ, N1.22259, E103.85400, 0, Sinjon
+	BTM, N1.13688, E104.13300, 0, Batam
+	BM, N1.12126, E104.11100, 0, Batam
+	TNG, N1.39333, E103.71200, 0, Tengah
+	JB, N1.49994, E103.71200, 0, Jaybee
+	JR, N1.67494, E103.66000, 0, Johor Bahru
+	VJR, N1.72986, E103.62200, 0, Johor Bahru
+	TG, N1.04945, E103.38500, 0, Tanjung Balai
+	TI, N0.91973, E104.52600, 0, Tanjung Pinang
+	TPG, N0.90354, E104.51500, 0, Tanjung Pinang
+
+line1 =
+	N0.71548, E102.84941
+	N0.66421, E102.94932
+	N0.57891, E103.03184
+	N0.49199, E103.06650
+	N0.41533, E103.00752
+
+line2 =
+	N0.39980, E103.10869
+	N0.49453, E103.27656
+	N0.51372, E103.33896
+	N0.50693, E103.41230
+	N0.48018, E103.47891
+	N0.38706, E103.57871
+
+line3 =
+	N0.73652, E102.97148
+	N0.70811, E103.00879
+	N0.74663, E103.02754
+	N0.85928, E103.00244
+	N0.89272, E102.94414
+
+line4 =
+	N1.01475, E103.06758
+	N1.06777, E102.99941
+
+line5 =
+	N0.99678, E102.88633
+	N0.94268, E102.96396
+	N0.88203, E103.03340
+	N0.84814, E103.08672
+	N0.84165, E103.13721
+	N0.87017, E103.16641
+	N1.01475, E103.06758
+
+line6 =
+	N0.69863, E103.23818
+	N0.69976, E103.18740
+	N0.64312, E103.15332
+	N0.54907, E103.13955
+	N0.53618, E103.17217
+	N0.54194, E103.28447
+	N0.61396, E103.29512
+	N0.69863, E103.23818
+
+line7 =
+	N1.13364, E103.37998
+	N1.11724, E103.35498
+	N1.07129, E103.31543
+	N1.00684, E103.36328
+	N0.99336, E103.42969
+	N1.04834, E103.42393
+	N1.07256, E103.40488
+	N1.13364, E103.37998
+
+line8 =
+	N0.86958, E103.38613
+	N0.85112, E103.36572
+	N0.77788, E103.34443
+	N0.65088, E103.42969
+	N0.66445, E103.45020
+	N0.72271, E103.49746
+	N0.77812, E103.47031
+	N0.82500, E103.43311
+	N0.86958, E103.38613
+
+line9 =
+	N0.89136, E103.75195
+	N0.87183, E103.74004
+	N0.82998, E103.74238
+	N0.77222, E103.83398
+	N0.80103, E103.82861
+	N0.84634, E103.80664
+	N0.89136, E103.75195
+
+line10 =
+	N1.18057, E104.02480
+	N1.13726, E103.99980
+	N1.13745, E103.95537
+	N1.08701, E103.94697
+	N1.07139, E103.93223
+	N1.04648, E103.93984
+	N1.01323, E103.96357
+	N0.98955, E104.06611
+	N1.09238, E104.12734
+	N1.12822, E104.13779
+	N1.16558, E104.13984
+	N1.13701, E104.08809
+	N1.18057, E104.02480
+
+line11 =
+	N1.14106, E104.59102
+	N1.21611, E104.58535
+	N1.18022, E104.50010
+	N1.19604, E104.42842
+	N1.18149, E104.36182
+	N1.10264, E104.25020
+	N1.07739, E104.24424
+	N1.01489, E104.25195
+	N1.01611, E104.29395
+	N1.05044, E104.43926
+	N0.99556, E104.46240
+	N0.95649, E104.42861
+	N0.93252, E104.48105
+	N0.91348, E104.47119
+	N0.88677, E104.48066
+	N0.85264, E104.50430
+	N0.83193, E104.57520
+	N0.85898, E104.59912
+	N0.96104, E104.65283
+	N1.04951, E104.66289
+	N1.10459, E104.64814
+	N1.14106, E104.59102
+
+line12 =
+	N0.89673, E104.17051
+	N0.94399, E104.12275
+	N0.93354, E104.10830
+	N0.91748, E104.10107
+	N0.89624, E104.09814
+	N0.80488, E104.17676
+	N0.83398, E104.23936
+	N0.87988, E104.22705
+	N0.89673, E104.17051
+
+line13 =
+	N1.44707, E103.81797
+	N1.42344, E103.70527
+	N1.32554, E103.65020
+	N1.26538, E103.81992
+	N1.33145, E103.96973
+	N1.36523, E103.99639
+	N1.39224, E103.96084
+	N1.41597, E103.90898
+	N1.44707, E103.81797
+
+line14 =
+	N1.79233, E102.89688
+	N1.54614, E103.35684
+	N1.49785, E103.40000
+	N1.42983, E103.42734
+	N1.32949, E103.48027
+	N1.33281, E103.54980
+	N1.44966, E103.69453
+	N1.47656, E103.81680
+	N1.44668, E103.91514
+	N1.45479, E103.99150
+	N1.55005, E103.99121
+	N1.62363, E103.98145
+	N1.57930, E104.01602
+	N1.52979, E104.07617
+	N1.48833, E104.10059
+	N1.44619, E104.09424
+	N1.41226, E104.11494
+	N1.36489, E104.17637
+	N1.38857, E104.25010
+	N1.41558, E104.28037
+	N1.48066, E104.28848
+	N1.72285, E104.21855
+	N2.26123, E103.96777
+
+[airport1]
+name = Singapore
+code = WSSS
+runways =
+	rwy1, 02C, N1.3288, E103.985, 23.0, 13123, 0, 0, 15
+	rwy2, 02L, N1.34897, E103.978, 23.0, 13123, 0, 2429, 22
+	rwy3, 02R, N1.3327, E104.004, 23.0, 9015, 0, 0, 22
+airlines =
+	sia, 10, a333/a345/a359/a388/b738/b38m/b744/b772/b773/b77w/b78x, singapore, nswe
+	tgw, 5, a319/a320/a20n/a21n/b772/b788/b789, scooter, nsw
+	sqc, 3, b744, sing cargo, nswe
+	cca, 1, a319/a320/a20n/a321/a21n/a332/a333/b737/b738/b38m/b752, air china, n
+	afr, 1, a332/a343/a359/b744/b772/b77w/b789, air france, n
+	aic, 1, a310/a319/a320/a20n/a321/a332/b744/b772, air india, n
+	axb, 1, b738, express india, n
+	mau, 1, a332/a339/a343/a359, air mauritius, w
+	anz, 1, b744/b763/b772/b77w/b789/b78x, new zealand, s
+	ang, 1, b737/b738/b763, Niugini, e
+	axm, 1, a320/a20n/a21n, red cap, s
+	xax, 1, a333/a339, xanadu, s
+	ana, 1, b737/b744/b763/b772/b77l/b773/b77w/b788/b789/b78x, all nippon, n
+	aar, 1, a333/b744/b763/b772, asiana, n
+	bkp, 1, a319/a320, bangkok air, n
+	btk, 1, a320/a20n/b738/b739, batik, s
+	bbc, 1, b738/b77w, Bangladesh, n
+	baw, 1, a35k/a388/b744/b772/b77w/b788/b789/b78x, speedbird, n
+	cpa, 1, a21n/a333/a343/b744/b772/b748, cathay, n
+	ceb, 1, a320/a20n/a21n, cebu, e
+	cal, 1, a21n/a333/b738/b744/b77l, dynasty, n
+	ces, 1, a306/a319/a320/a20n/a321/a21n/a332/a333/b737/b738/b38m, china eastern, n
+	csn, 1, a306/a319/a320/a20n/a321/a21n/a332/a333/b737/b738/b38m/b752, china southern, n
+	cqn, 1, a319/a320/a20n/a21n, Chong qing, n
+	drk, 1, a319/a20n, royal Bhutan, n
+	uae, 1, a332/a343/a345/a388/b744/b772/b77l/b773/b77w, emirates, w
+	eth, 1, a359/b77l/b77w/b788/b789, ethiopian, w
+	etd, 1, a332/a333/a345/a346/a35k/b744/b748/b77l/b77w/b789/b78x, etihad, w
+	eva, 1, a321/a332/a333/b744/b77l/md11, eva, n
+	fji, 1, a332/a333/a359/b744/b763, Fiji, s
+	fin, 1, a333/a359, finnair, n
+	gia, 1, a332/a333/b738/b38m/crjx, Indonesia, e
+	gfa, 1, a332/a343/b77w/b789, gulf air, w
+	cbg, 1, a320/a20n, green city, n
+	chh, 1, a332/a333/b738/b38m/b763, Hainan, n
+	hbh, 1, b737/b738, hebei air, n
+	igo, 1, a320/a20n/a21n, I fly, n
+	awq, 1, a320, wagon air, e
+	jal, 1, b738/b763, japan air, n
+	jst, 1, b788, jet star, s
+	jsa, 1, a320, jet star asia, e
+	jja, 1, b738/b38m, jeju air, n
+	dkh, 1, a320/a20n/a321/a21n, air juneyao, n
+	klm, 1, a332/a333/b744/b772/b77w/b789/b78x, klm, n
+	kal, 1, bcs3/a306/a332/a333/b738/b38m/b739/b744/b748/b77l, Korean air, n
+	lni, 1, b738/b38m/b739/b39m/b3xm, lion inter, e
+	lot, 1, b788/b789, lot, n
+	dlh, 1, a333/a343/a346/a359/a388/b744/b748, lufthansa, n
+	mas, 1, a332/a333/b738/b38m/b3xm, Malaysian, e
+	mxd, 1, at76/b738/b739, malindo, e
+	mma, 1, a319/a320, Myanmar, n
+	uba, 1, b738/b38m, union air, n
+	pic, 1, a320, pacific, n
+	pal, 1, a319/a320/a321/a21n/a333, Philippine, n
+	apg, 1, a320, cool red, e
+	qfa, 1, a332/a333/a388/b744/b763/b789, qantas, s
+	qtr, 1, a332/a333/a346/a359/a35k/b748/b77l/b77w/b788/b789, qatari, w
+	rge, 1, b737/b738, regent, n
+	rba, 1, a320/a20n, Brunei, n
+	sva, 1, a333/a343/b741/b742/b743/b744/b762/b763/b772/b77w/b789/b78x/md11, saudia, w
+	cdg, 1, b737/b738/b38m, shandong, n
+	csz, 1, a319/a320/a20n/a333/b738/b38m/b739, shenzhen air, n
+	csc, 1, a319/a320/a20n/a321/a21n/a332/a333, sis shuan, n
+	cqh, 1, a320/a20n/a21n, air spring, n
+	alk, 1, a320/a20n/a321/a21n/a332/a333/a343, sri Lankan, n
+	swr, 1, a332/a333/a343/b77w, swiss, n
+	aiq, 1, a320/a20n/a21n, thai Asia, n
+	tha, 1, a333/a345/b744/b77w/b788, thai, n
+	tlm, 1, b738/b739/b39m, mentari, n
+	thy, 1, a332/a333/a343/a359/b77w/b789, turkish, n
+	ual, 1, b744/b772/b77w/b788/b789/b78x, united, n
+	cuh, 1, b738, lou lan, n
+	ubg, 1, b738/b38m, bangla star, n
+	vjc, 1, a320/a321/b38m/b3xm, vietjet air, n
+	hvn, 1, a321/a21n, vietnam airlines, n
+	vti, 1, a320/a20n/a21n/b738, vistara, n
+	cxa, 1, b737/b738/b38m/b3xm, xiamen air, n
+	box, 1, b77l, german cargo, w
+	abw, 1, b742/b743/b744/b748/b77l, air bridge cargo, ne
+	ahk, 1, a306/a332/a333, air hong kong, n
+	tay, 1, b744, quality, w
+	cad, 1, b733/b734, cardig air, e
+	clx, 1, b744/b748, cargolux, ew
+	ckk, 1, b744/b742/b77l/md11, cargo king, n
+	fdx, 1, a306/a310/b752/b763/b77l/md10/md11, fed ex, new
+	crk, 1, a332, bauheenia, n
+	cks, 1, b742/b744, connie, e
+	kmi, 1, b734, kay mile air, e
+	myu, 1, b732/b733/b734, my indo, e
+	nep, 1, b733, warispan, e
+	nca, 1, b742/b744/b748, nippon cargo, n
+	pac, 1, b744/b748, polar, ne
+	rmy, 1, b734/b762, raya express, e
+	css, 1, b733/b734/b752/b763, shun feng, n
+	azg, 1, b744/b748, silk west, w
+	sej, 1, a343/b737/b738, spice jet, n
+	tmg, 1, b733, tri lines, ne
+	ups, 1, a306/b744/b748/b752/b763/md11, u p s, new
+	hyt, 1, b733/b752, quick air, n
+
+[airport2]
+name = Seletar
+code = SL
+runways =
+	rwy6, 03, N1.41044, E103.863, 33.0, 6023, 0, 0, 36
+inboundbeacon = SEL
+airlines = 
+	ffm, 4, at75/b738, firefly, e
+
+[airport3]
+name = Hang Nadim
+code = DD
+runways =
+	rwy4, 04, N1.10745, E104.107, 42.0, 13270, 0, 0, 125
+inboundbeacon = BM
+airlines =
+	lni, 5, a333/a339/b733/b734/b738/b38m/b739/b39m/b3xm/b744/md82/md90, lion inter, new
+	ctv, 2, a320/a20n/a339, super green, ew
+	btk, 1, a320/a20n/b738/b739, batik, s
+	gia, 1, b738/b38m/crjx, Indonesia, e
+	mxd, 1, at76/b738/b739, malindo, e
+	sva, 1, a333/a343/b741/b742/b743/b744/b762/b763/b772/b77w/b789/b78x/md11, saudia, w
+	sjy, 1, b732/b733/b734/b735/b738/b739, sriwijaya, e
+	sqs, 1, c208, sky queen, s
+	won, 1, at75/at76/dh8c, wings abadi, s
+	rph, 1, b732, republic express, e
+
+[airport4]
+name = Senai
+code = KJ
+runways =
+	rwy5, 16, N1.65548, E103.664, 160.0, 12467, 0, 0, 135
+inboundbeacon = JR
+airlines = 
+	axm, 5, a320/a20n/a21n, red cap, nswe
+	ffm, 1, at75/b738, firefly, se
+	awq, 1, a320, wagon air, e
+	jna, 1, b738/b772, jin air, n
+	mas, 1, b738/b38m/b3xm, Malaysian, e
+	mxd, 1, at76/b738/b739, malindo, e
+	aiq, 1, a320/a20n/a21n, thai Asia, n

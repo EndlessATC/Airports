@@ -1,0 +1,543 @@
+# Some Retired Airplanes
+# Special airlines!
+
+[airspace]
+elevation = 672
+radius = 47
+usa = true
+transition = 18001
+center = N41.9786, W87.9048
+name = chicago approach, chicago departure
+magneticvar = -3.398
+beacons =
+	ORD, N41.98770, W87.90490, 0, Chicago O'Hare
+	IA, N41.98430, W87.78900, 0, Taffs
+	ME, N41.96780, W88.02670, 0, Deana
+	ID, N41.90490, W87.80690, 0, Inddy
+	OR, N42.05590, W88.00780, 0, Chstr
+	OH, N42.06920, W87.99090, 0, Leama
+	OBK, N42.22150, W87.95180, 0, Northbrook
+	HK, N41.71900, W87.83640, 0, Ermin
+	MX, N41.74150, W87.68970, 0, Kedzi
+	DPA, N41.89040, W88.35020, 0, Du Page
+	UG, N42.46410, W87.80140, 0, Wauke
+	CGT, N41.51000, W87.57150, 0, Chicago Heights
+	JOT, N41.54640, W88.31840, 0, Joliet
+	GY, N41.57240, W87.32700, 0, Garie
+	DKB, N41.93400, W88.70730, 0, De Kalb
+	ENW, N42.59910, W87.93170, 0, Kenosha
+	RA, N42.68250, W87.89950, 0, Paser
+	EON, N41.26960, W87.79110, 0, Peotone
+	BUU, N42.68930, W88.30180, 0, Burbun
+	HRK, N42.76190, W87.81440, 0, Horlick
+	LVV, N42.69880, W88.59320, 0, Lake Lawn
+	VP, N41.45120, W86.87750, 0, Sedly
+# BENKY Star
+	NEWRK, N41.33.58.050, W88.34.16.030, 0, Newark
+	AHSTN, N41.42.45.580, W88.21.26.410, 0, Aston
+	PETAH, N41.53.07.860, W88.09.00.210, 0, Petah
+	JORJO, N41.53.04.140, W87.59.18.780, 0, George Oh
+	MONKZ, N41.53.03.590, W87.48.06.470, 0, Monks
+	RREGY, N41.52.26.140, W87.29.23.100, 0, Reggie
+	TONIE, N41.53.01.370, W87.29.26.750, 0, Tony
+	KURKK, N42.05.30.610, W88.01.37.920, 0, Kirk
+	VULCN, N42.05.30.340, W87.47.39.020, 0, Vulcan
+	HIMGO, N42.05.27.840, W87.30.31.890, 0, Him Go
+# ERNNY Star
+	SWIIS, N42.31.30.210, W87.30.34.200, 0, Swiss
+	ERNNY, N42.20.19.390, W87.32.03.060, 0, Ernie
+	PAPPI, N42.16.11.900, W87.36.25.930, 0, Poppy
+	TUBEZ, N42.10.51.310, W87.42.02.890, 0, Tubes
+	BAMBB, N42.05.27.500, W88.16.31.340, 0, Bamb
+	POSSM, N41.52.28.780, W88.16.30.630, 0, Possum
+# MADII Star
+	HUNKA, N42.31.57.230, W88.17.13.510, 0, Hunka
+	MADII, N42.18.03.470, W88.18.49.730, 0, Maddy
+	SOOLU, N42.11.46.950, W88.08.51.700, 0, Sulu
+# VEECK Star
+	HANNI, N41.30.11.370, W87.21.32.310, 0, Hannie
+	CLUSO, N41.39.17.040, W87.29.41.620, 0, Cluso
+	KAYTO, N41.43.55.780, W87.34.58.880, 0, Kato
+	PINKK, N41.49.54.260, W87.41.40.550, 0, Pink
+# ENDEE Star
+	STKNY, N41.30.24.410, W88.17.25.600, 0, Stick Knee
+	ALQUE, N41.34.09.920, W88.01.26.170, 0, Al Que
+	WNNRS, N41.32.44.200, W87.51.38.740, 0, Winners
+	GAGGA, N41.33.32.000, W87.42.33.000, 0, Ga Ga
+# FISSK Star
+	HALIE, N41.30.57.850, W87.09.31.950, 0, Halie
+	OLCYK, N41.32.24.690, W87.36.16.060, 0, Ol sick
+	TINLY, N41.33.19.080, W87.50.57.560, 0, Tin Lee
+	CTLER, N41.33.28.390, W87.53.36.920, 0, Citler
+	HAADN, N41.34.53.030, W87.22.52.460, 0, Hayden
+	HILLS, N41.37.25.400, W87.31.34.180, 0, Hills
+# MIDWAY Sid
+	RAYNR, N42.18.39.330, W87.49.33.250, 0, Rayner
+	PEKUE, N41.47.47.650, W88.48.30.400, 0, Peakoo
+# ORD Sid
+	DUFEE, N42.06.44.900, W87.03.48.000, 0, Duffy
+	BACEN, N41.24.24.000, W88.01.47.000, 0, Bacon
+	MOBLE, N41.56.44.000, W87.03.48.000, 0, Moble
+	SIMMN, N41.58.50.470, W88.52.42.400, 0, Simon
+	EARND, N41.25.31.000, W87.34.20.000, 0, Errand
+
+handoff =
+	360, Chicago Center, Chicago Center, 125.0
+	090, Chicago Center, Chicago Center, 125.0
+	180, Chicago Center, Chicago Center, 126.625
+	270, Chicago Center, Chicago Center, 126.625
+
+line1 =
+	N42.30933, W86.35249
+	N42.22373, W86.40737
+	N42.08228, W86.52017
+	N41.98770, W86.57534
+	N41.91133, W86.63247
+	N41.85337, W86.69155
+	N41.78853, W86.79819
+	N41.66948, W87.07261
+	N41.64639, W87.15869
+	N41.63765, W87.25322
+	N41.64326, W87.35625
+	N41.65649, W87.41250
+	N41.67856, W87.42500
+	N41.68076, W87.44702
+	N41.69546, W87.47695
+	N41.72065, W87.51465
+	N41.76597, W87.55659
+	N41.85913, W87.60205
+	N42.00024, W87.65112
+	N42.08437, W87.69463
+	N42.11152, W87.73252
+	N42.15391, W87.76680
+	N42.21143, W87.79746
+	N42.34106, W87.81250
+	N42.54297, W87.81196
+	N42.68037, W87.80166
+	N42.75342, W87.78140
+	N42.80918, W87.78706
+	N42.84771, W87.81870
+	N42.89565, W87.83818
+	N42.95308, W87.84556
+
+[airport1]
+name = Chicago O'Hare International Airport, Chicago
+code = KORD
+runways =
+	rwy1, 04L, N41.9817, W87.9139, 39.0, 7500, 0, 0, 656
+	rwy2, 04R, N41.9533, W87.8994, 42.0, 8075, 0, 0, 661
+	rwy3, 09L, N42.0028, W87.9267, 90.0, 7500, 0, 0, 668, 3, 90.0, 0, 0, 0, 0, 0, 0, 128.15
+	rwy4, 09R, N41.9839, W87.9315, 90.0, 11245, 0, 0, 660, 3, 90.0, 0, 0, 0, 0, 0, 0, 132.7
+	rwy5, 10C, N41.9657, W87.9315, 90.0, 10801, 0, 0, 669, 3, 90.0, 0, 0, 0, 0, 0, 0, 132.7
+	rwy6, 10L, N41.969, W87.9315, 90.0, 13000, 0, 0, 672
+	rwy7, 10R, N41.96, W87.9290, 90.0, 7500, 0, 0, 680, 3, 90.0, 0, 0, 0, 0, 0, 0, 133.0
+	rwy15, 09C, N41.989, W87.9315, 90.0, 11245, 0, 0, 680, 3, 90.0, 0, 0, 0, 0, 0, 0, 128.15
+airlines = ual, 10, a319/a320/b735/b737/b738/b739/b39m/b3xm/b744/b752/b753/b762/b763/b764/b772/b77w/b788/b789/b78x, united, nswe
+	awi, 6, crj2, Wisconsin, swe
+	aal, 5, a319/a320/a321/a21n/a332/a333/b734/b738/b38m/b752/b762/b763/b772/b77w/b788/b789/e190/md81/md82/md83, american, nswe
+	uca, 4, b190/dh8b/dh8c/e145/e45x, commutair, ew
+	asq, 3, e145/e45x, acey, sew
+	eny, 3, e140/e145/e170/e175, envoy, swe
+	gjs, 3, crj7, lindbergh, se
+	pdt, 2, dh8a/dh8c/e145, piedmont, swe
+	ash, 2, crj7/b734/b738/e175, air shuttle, sw
+	dal, 2, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, swe
+	edv, 2, crj2/crj7/crj9, endeavor, swe
+	skw, 1, e175/crj2/crj7/crj9, skywest, swe
+	ein, 1, a21n/a332/a333/b752, shamrock, e
+	amx, 1, b737/b738/b38m/b39m/b788, aeromexico, s
+	jza, 1, dh8a/dh8c/dh8d/crj2/crj9, jazz, n
+	skv, 1, e75s/e75l, maple, n
+	aco, 1, b190/c208, Weber, n
+	afr, 1, a332/a343/a359/b744/b772/b77l/b77w/b789, air france, e
+	aic, 1, a332/b744/b772/b77l/b77w/b788, air india, w
+	anz, 1, b744/b772/b77w/b789/b78x, New Zealand, w
+	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, w
+	aza, 1, a332/b763/b772/b77w, Alitalia, e
+	ana, 1, b744/b763/b772/b77l/b773/b77w/b788/b789/b78x, all Nippon, w
+	aua, 1, b763/b772, austrian, e
+	baw, 1, a35k/a388/b744/b772/b77w/b788/b789/b78x, speedbird, e
+	btq, 1, pc12, boutique, n
+	kap, 1, c402, cair, n
+	cpa, 1, a333/a343/a359/a35k/b744/b748/b772/b773/b77w, cathay, w
+	ces, 1, a332/a333/a343/a346/a359/b77w/b789, china eastern, w
+	cmp, 1, b738/b38m/b39m/b3xm, copa, s
+	ely, 1, b744/b772/b788/b789, el al, e
+	uae, 1, a332/a343/a345/b744/b772/b77l/b773/b77w, emirates, e
+	eth, 1, a359/b77l/b77w/b788/b789, ethiopian, e
+	etd, 1, a332/a333/a345/a346/b77w/b789/b78x, Etihad, e
+	eva, 1, a332/a333/b744/b77l/b77w/b789/b78x/md11, eva, w
+	fin, 1, a333/a359, finnair, e
+	fft, 1, a318/a319/a320/a20n/a321/a21n, frontier flight, se
+	ibe, 1, a332/a333/a343/a346/a359, Iberia, e
+	chh, 1, a332/a333/a346/a359/b788/b789, Hainan, w
+	jbu, 1, a320/a321/a21n/e190, JetBlue, swe
+	ice, 1, b38m/b39m/b752/b753/b763, ice air, e
+	klm, 1, a332/a333/b744/b772/b77w/b789/b78x/md11, klm, e
+	jal, 1, a359/b763/b744/b772/b773/b77w/b788/b789, Japan air, w
+	kal, 1, a332/a333/b744/b748/b772/b77l/b773/b77w/b789, Korean air, w
+	dlh, 1, a333/a343/a346/a359/b744/b748, Lufthansa, e
+	lot, 1, b788/b789, lot, e
+	nrs, 1, b788/b789, red nose, e
+	qtr, 1, a332/a333/a346/a359/a35k/b748/b77l/b77w/b788/b789, qatari, e
+	rja, 1, a332/a342/b788, Jordanian, e
+	sas, 1, a333/a343/a359, scandinavian, e
+	swa, 1, b733/b735/b737/b37m/b738/b38m, southwest, swe
+	nks, 1, a319/a19n/a320/a20n/a321/a21n, spirit wings, swe
+	scx, 1, b737/b738/b734, sun country, s
+	swr, 1, a332/a333/a343/b77w, swiss, e
+	tap, 1, a21n/a332/a333/a339/a343, air portugal, e
+	thy, 1, a332/a333/a343/a359/b77l/b77w/b789, turkish, e
+	viv, 1, a320/a20n/a21n, aeroenlaces, s
+	voi, 1, a319/a320/a20n/a321/a21n, volaris, s
+	tno, 1, a306/b762, aero union, w
+	abw, 1, b742/b743/b744/b748/b77l, air bridge cargo, n
+	cao, 1, b77l/b744, air china freight, w
+	aar, 1, b744, asiana, w
+	tay, 1, b744, quality, n
+	abx, 1, b762/b763, abex, se
+	gti, 2, b738/b762/b763/b744/b748, giant, swe
+	gec, 1, b77l/md11, lufthansa cargo, sw
+	clx, 1, b744/b748, cargolux, we
+	cal, 1, b77l/b744, dynasty, w
+	ckk, 1, b744/b77l/md11, cargo king, w
+	csn, 1, b744/b77l, china southern, w
+	qfa, 1, b763/b748, Qantas, w
+	sqc, 1, b744, sing cargo, w
+	nca, 1, b742/b744/b748, nippon cargo, w
+	pac, 1, b744/b748/b763, polar, w
+	fdx, 1, a306/a310/b721/b722/b752/b763/b77l/md10/md11, fed ex, sw
+	ups, 1, a306/b752/b763/dc87/md11/b744/b748, u p s, sw
+	lco, 1, b763, lan cargo, s
+	yzr, 1, b744, Yangtze River, w
+	azq, 1, a124/il76, silk line, n
+	azg, 1, b744/b748, silk west, s
+#specials
+	plm, 1, a332/a333/b744, pullman, e
+	crk, 1, a332/a333/a359, bauheenia, w
+	bel, 1, a332/a333, beeline, e
+	csa, 1, a333, csa, e
+	css, 1, b744, shun feng, w
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, sw
+	jdi, 1, glex/glf5/glf5/glf6, jedi, e
+	wow, 1, a320/a321, wow air, e
+	nos, 1, b763/b789, moon flower, e
+	maa, 1, b762/b763, mas carga, s
+	adb, 1, a124/a225, antonov bureau, e
+
+entrypoints =
+	225, NEWRK
+	020, SWIIS
+	340, HUNKA
+	141, HANNI
+
+sids =
+	DUFEE
+	BACEN
+	MOBLE
+	SIMMN
+	EARND
+	
+[approach1]
+runway = rwy5
+beacon = SWIIS
+route1 =
+	020
+	N42.31.30.210, W87.30.34.200
+	N42.20.19.390, W87.32.03.060
+	N42.16.11.900, W87.36.25.930
+	N42.10.51.310, W87.42.02.890
+	N42.05.30.340, W87.47.39.020
+	N42.05.30.610, W88.01.37.920
+	N42.05.27.500, W88.16.31.340
+	end, 273
+	
+[approach2]
+runway = rwy7
+beacon = SWIIS
+route2 =
+	020
+	N42.31.30.210, W87.30.34.200
+	N42.20.19.390, W87.32.03.060
+	N42.16.11.900, W87.36.25.930
+	N42.10.51.310, W87.42.02.890
+	N41.53.03.590, W87.48.06.470
+	N41.53.04.140, W87.59.18.780
+	N41.52.28.780, W88.16.30.630
+	end, 270
+	
+[approach3]
+runway = rwy5
+beacon = HANNI
+route3 =
+	141
+	N41.30.11.370, W87.21.32.310
+	N41.39.17.040, W87.29.41.620
+	N41.43.55.780, W87.34.58.880
+	N41.49.54.260, W87.41.40.550
+	N41.53.03.590, W87.48.06.470
+	N41.53.04.140, W87.59.18.780
+	N41.52.28.780, W88.16.30.630
+	end, 270
+	
+[approach4]
+runway = rwy7
+beacon = HANNI
+route4 =
+	141
+	N41.30.11.370, W87.21.32.310
+	N41.39.17.040, W87.29.41.620
+	N41.43.55.780, W87.34.58.880
+	N41.49.54.260, W87.41.40.550
+	N42.05.30.340, W87.47.39.020
+	N42.05.30.610, W88.01.37.920
+	N42.05.27.500, W88.16.31.340
+	end, 273
+	
+[approach5]
+runway = rwy5
+beacon = NEWRK
+route5 =
+	225
+	N41.33.58.050, W88.34.16.030
+	N41.42.45.580, W88.21.26.410
+	end, 360
+	
+[approach6]
+runway = rwy7
+beacon = HUNKA
+route6 =
+	340
+	N42.31.57.230, W88.17.13.510
+	N42.18.03.470, W88.18.49.730
+	end, 180
+	
+[approach7]
+runway = rwy7, rev
+beacon = NEWRK
+route7 =
+	225
+	N41.33.58.050, W88.34.16.030
+	N41.42.45.580, W88.21.26.410
+	N41.53.07.860, W88.09.00.210
+	N41.53.03.590, W87.48.06.470
+	N41.53.01.370, W87.29.26.750
+	end, 093
+	
+[approach8]
+runway = rwy3, rev
+beacon = NEWRK
+route8 =
+	225
+	N41.33.58.050, W88.34.16.030
+	N41.42.45.580, W88.21.26.410
+	N41.53.07.860, W88.09.00.210
+	N42.05.30.610, W88.01.37.920
+	N42.05.30.340, W87.47.39.020
+	N42.05.27.840, W87.30.31.890
+	end, 093
+	
+[approach9]
+runway = rwy3, rev
+beacon = HUNKA
+route9 =
+	340
+	N42.31.57.230, W88.17.13.510
+	N42.18.03.470, W88.18.49.730
+	N42.11.46.950, W88.08.51.700
+	N42.05.30.610, W88.01.37.920
+	N42.05.30.340, W87.47.39.020
+	N42.05.27.840, W87.30.31.890
+	end, 093
+	
+[approach10]
+runway = rwy7, rev
+beacon = HUNKA
+route10 =
+	340
+	N42.31.57.230, W88.17.13.510
+	N42.18.03.470, W88.18.49.730
+	N42.11.46.950, W88.08.51.700
+	N41.53.04.140, W87.59.18.780
+	N41.53.03.590, W87.48.06.470
+	N41.53.01.370, W87.29.26.750
+	end, 093
+	
+[approach11]
+runway = rwy3, rev
+beacon = SWIIS
+route11 =
+	020
+	N42.31.30.210, W87.30.34.200
+	N42.20.19.390, W87.32.03.060
+	end, 180
+	
+[approach12]
+runway = rwy7, rev
+beacon = HANNI
+route12 =
+	141
+	N41.30.11.370, W87.21.32.310
+	N41.39.17.040, W87.29.41.620
+	end, 360
+	
+[approach17]
+runway = rwy5, rev
+beacon = NEWRK
+route17 =
+	225
+	N41.33.58.050, W88.34.16.030
+	N41.42.45.580, W88.21.26.410
+	N41.53.07.860, W88.09.00.210
+	N41.53.04.140, W87.59.18.780
+	N41.53.03.590, W87.48.06.470
+	N41.53.01.370, W87.29.26.750
+	end, 093
+	
+[approach18]
+runway = rwy5, rev
+beacon = HANNI
+route18 =
+	141
+	N41.30.11.370, W87.21.32.310
+	N41.39.17.040, W87.29.41.620
+	end, 360
+
+[airport2]
+name = Chicago Midway, Midway
+code = DW
+runways =
+	rwy10, 04L, N41.7814, W87.7612, 43.0, 5507, 0, 0, 617
+	rwy11, 04R, N41.7792, W87.7593, 43.0, 6446, 0, 0, 619, 3, 43.0, 0, 0, 0, 0, 0, 0, 135.2
+	rwy12, 13C, N41.7916, W87.7611, 134.0, 6522, 0, 0, 608, 3, 134.0, 0, 0, 0, 0, 0, 0, 135.2
+	rwy13, 13L, N41.7923, W87.7579, 134.0, 5141, 0, 0, 606
+	rwy14, 13R, N41.7881, W87.7588, 134.0, 3859, 0, 0, 607
+inboundbeacon = MX
+airlines = swa, 6, b733/b735/b737/b738/b38m/b37m, southwest, swe
+	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, s
+	dal, 2, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, s
+	voi, 1, a319/a320/a20n/a321/a21n, volaris, s
+	ujc, 1, e135/j328, ultimate, w
+	poe, 1, dh8d, porter, n
+	edv, 1, crj2/crj7/crj9, endeavor, s
+	rpa, 1, e170/e75s/e75l, brickyard, s
+	skw, 1, crj2/crj7/crj9/e175, sky west, s
+	n-8244y, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, s
+	n-992xx, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, n
+	c-salt, 1, c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c650/c680/c68a/c700, n
+# Specials
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, s
+	jdi, 1, gl5t/glex/glf5/glf6, jedi, n
+	viv, 1, a320/a20n/a21n, aeroenlaces, s
+	qxe, 1, crj7/dh8b/dh8d/e175, horizon, w
+	pba, 1, c56x/c750/glf2, polar bear, n
+
+entrypoints =
+	225, STKNY
+	130, HALIE
+
+sids = 
+	BACEN
+	EARND
+	RAYNR
+	PEKUE
+	
+[approach13]
+runway = rwy11
+beacon = HALIE
+route13 =
+	130
+	N41.30.57.850, W87.09.31.950
+	N41.32.24.690, W87.36.16.060
+	N41.33.19.080, W87.50.57.560
+	N41.33.28.390, W87.53.36.920
+	end, 278
+	
+[approach14]
+runway = rwy11
+beacon = STKNY
+route14 =
+	225
+	N41.30.24.410, W88.17.25.600
+	N41.34.09.920, W88.01.26.170
+	end, 047
+	
+[approach15]
+runway = rwy12, rev
+beacon = STKNY
+route15 =
+	225
+	N41.30.24.410, W88.17.25.600
+	N41.32.44.200, W87.51.38.740
+	N41.33.32.000, W87.42.33.000
+	end, 091
+	
+[approach16]
+runway = rwy12, rev
+beacon = HALIE
+route16 =
+	130
+	N41.30.57.850, W87.09.31.950
+	N41.34.53.030, W87.22.52.460, 6000
+	N41.37.25.400, W87.31.34.180
+	13.5, 5000, 200
+
+[configurations]
+config1 =
+	0, rwy3, land
+	0, rwy5, land
+	0, rwy7, land
+	0, rwy6, start
+	0, rwy4, start
+	0, rwy11, landstart
+	0, rwy12, startrev
+
+config2 =
+	0, rwy3, land
+	0, rwy5, land
+	0, rwy7, land
+	0, rwy6, start
+	0, rwy4, start
+	0, rwy2, startrev
+	0, rwy11, landstart
+	0, rwy12, startrev
+
+config3 =
+	0, rwy3, landrev
+	0, rwy5, landrev
+	0, rwy4, landrev
+	0, rwy6, startrev
+	0, rwy2, startrev
+	0, rwy11, startrev
+	0, rwy12, landstartrev
+	
+config4 =
+	0, rwy7, land
+	0, rwy15, land
+	0, rwy3, land
+	0, rwy5, land
+	0, rwy4, start
+	0, rwy6, start
+	0, rwy11, landstart
+	0, rwy12, startrev
+	
+config5 =
+	0, rwy7, landrev
+	0, rwy15, landrev
+	0, rwy3, landrev
+	0, rwy5, landrev
+	0, rwy4, startrev
+	0, rwy6, startrev
+	0, rwy11, startrev
+	0, rwy12, landstartrev
+
+[planetypes]
+types =
+	B721, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
+	B722, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
+	A124, 2, 170, 250, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov
+	C402, 6, 100, 230, 2.9, 3.2, 1000, 1400, 60, 90, 1.1, 1.3, Cessna
+	J328, 5, 160, 250, 2.9, 3.2, 1440, 1560, 122, 132, 1.1, 1.3, Dornier
+	E45X, 5, 160, 250, 2.9, 3.2, 1440, 1560, 122, 134, 1.1, 1.3, Embraer
+	A225, 1, 180, 250, 2.2, 2.4, 1000, 1400, 155, 180, 1.1, 1.3, Antonov
+	DC87, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
