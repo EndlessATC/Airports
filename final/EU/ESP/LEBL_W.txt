@@ -1,0 +1,1218 @@
+## Barcelona Approach (Sector Final) for West configurations (WRL, WLL, WRS, WRR) by Diego Aranjuelo. Coastline by AndreuAviation.
+# Version 1.0.
+# Thanks to IVAO-ES.
+# Check charts by searching "LEBL" here: https://aip.enaire.es/AIP/AIP-en.html
+
+# RWY 25R: To be as close as possible to real life, set a maximum flow of 50/h and make a sequence of 3NM (this is the distance between consecutive arrivals). The separation may be reduced to 2.5NM when stablished on the localizer and less than 10NM out. Maximum capacity of the transitions is 12 arrivals, the 13th arrival must hold at the IAF until he is 12th.
+
+# RWY 25L: To be as close as possible to real life, set a maximum flow of 30/h and make a sequence of 6NM (this is the distance between consecutive arrivals). Maximum capacity of the transitions is 6 arrivals, the 7th arrival must hold at the IAF until he is 6th.
+
+##############################################################
+[airspace]
+##############################################################
+radius = 30				; airspace radius in NM
+zoom = 7.0 				; default zoom level, increase to zoom in
+elevation = 4 				; ground altitude in feet
+floor = 2300 				; minimum selectable altitude
+descendaltitude = 13000 			; minimum initial altitude for arrivals
+ceiling = 18000 				; maximum selectable altitude
+above = 19000 				; maximum departure altitude when SID is enabled (must be above ceiling)
+transitionaltitude = 6000		; highest altitude displayed in feet instead of flight level
+speedrestriction = 40, 250, 10000, 250 	; radius in NM, speed in knots within radius, <altitude, speed below altitude>
+localizerspeed = 30, 200		; distance to touchdown in NM, speed restriction in knots on localizers
+usa = false				; American-style callsign pronunciation and runway names
+metric = false				; display altitudes in metres instead of feet
+separation = 3				; minimum allowed distance between aircraft in NM
+automatic = true
+name = approach, approach		; atc callsign pronunciation for arrivals, atc callsign pronunciation for departures
+center = N41.40615808, E2.40609418		; lat/long location of center of radar display (required when using lat/long coordinates elsewhere in this file)
+magneticvar = 1.43			; magnetic variance; east = positive (used to rotate lat/long coordinates if used elsewhere in this file)
+
+beacons =
+	SLL, N41.5199895444, E2.1097531, -100, Sabadei
+	CLE, N41.6399896833, E2.6344975278, -190, Caleia
+	RULOS, N41.1772777778, E2.2813888889, 030, Rulos
+	LESBA, N41.2549166667, E2.6626388889, 277, Lesba
+	BL444, N041.14.51.200, E002.25.29.100,
+	BL443, N041.31.26.300, E002.15.30.400,
+	BL440, N041.19.24.600, E002.22.45.100,
+	BL439, N041.26.53.000, E002.18.15.300,
+
+line1 =
+	N40.20830255, E0.26595032
+	N40.24263893, E0.28045463
+	N40.35139421, E0.39854380
+	N40.35872656, E0.41144634
+	N40.41246928, E0.43423929
+	N40.46234056, E0.46575956
+	N40.45994321, E0.47647767
+	N40.57016521, E0.54172487
+	N40.62260026, E0.60563020
+	N40.63953159, E0.74118231
+	N40.59421664, E0.70584640
+	N40.59557734, E0.66082595
+	N40.58404723, E0.62529863
+	N40.58637826, E0.61947652
+	N40.57841483, E0.59774389
+	N40.56483987, E0.60232465
+	N40.55635908, E0.61877706
+	N40.55868445, E0.66878075
+	N40.58218244, E0.70752463
+	N40.64596754, E0.76483777
+	N40.68527297, E0.85585841
+	N40.70061421, E0.83173308
+	N40.68749788, E0.85786916
+	N40.72242550, E0.88414969
+	N40.72269211, E0.86456945
+	N40.74434229, E0.81806686
+	N40.78973072, E0.78043725
+	N40.79483272, E0.76083939
+	N40.79223388, E0.73698582
+	N40.78880202, E0.73743113
+	N40.78678417, E0.75250066
+	N40.78015599, E0.76575318
+	N40.77254115, E0.78489781
+	N40.76520094, E0.74759699
+	N40.78921723, E0.70653605
+	N40.81183109, E0.69972116
+	N40.82405365, E0.74277370
+	N40.84602040, E0.75269174
+	N40.84681122, E0.76524643
+	N40.85872549, E0.77242126
+	N40.86516962, E0.79325723
+	N40.90793026, E0.82873712
+	N40.93583536, E0.86136084
+	N40.94924998, E0.86418412
+	N40.95195353, E0.87741048
+	N40.98935439, E0.91840708
+	N40.99254673, E0.93101813
+	N41.03560102, E0.98029718
+	N41.06473117, E1.06434679
+	N41.06396221, E1.08563868
+	N41.07481038, E1.13603631
+	N41.05569638, E1.16378825
+	N41.05743083, E1.17761786
+	N41.06892422, E1.18039674
+	N41.07371880, E1.18113693
+	N41.09697365, E1.20237018
+	N41.10561555, E1.23829950
+	N41.10380796, E1.23903141
+	N41.10568780, E1.24307165
+	N41.10956144, E1.24274280
+	N41.10868298, E1.24808466
+	N41.10109808, E1.23675907
+	N41.09898728, E1.23786574
+	N41.11277701, E1.25881848
+	N41.11322336, E1.27126363
+	N41.12760890, E1.29888024
+	N41.12928796, E1.33381671
+	N41.12514510, E1.34454848
+	N41.12786820, E1.34782189
+	N41.12946263, E1.36631064
+	N41.13481646, E1.37967407
+	N41.13336410, E1.39608495
+	N41.14480110, E1.41440584
+	N41.16500856, E1.46622613
+	N41.16546037, E1.47826981
+	N41.18114925, E1.52316386
+	N41.19734574, E1.66673708
+	N41.20704972, E1.69945519
+	N41.20754498, E1.70829071
+	N41.21383187, E1.72087354
+	N41.23440224, E1.81401072
+	N41.23474851, E1.85653224
+	N41.26296777, E1.92979617
+	N41.26360356, E1.99638698
+	N41.264, E2.004
+	N41.264, E2.004
+	N41.264, E2.004
+	N41.264, E2.004
+	N41.264, E2.004
+	N41.264, E2.004
+	N41.264, E2.004
+	N41.264, E2.004
+	N41.288, E2.106
+	N41.292, E2.114
+	N41.301, E2.127
+	N41.319, E2.139
+	N41.335, E2.145
+	N41.351, E2.180
+	N41.351, E2.180
+	N41.351, E2.180
+	N41.355, E2.187
+	N41.35115582, E2.18052907
+	N41.46911179, E2.28510774
+	N41.48993283, E2.37165792
+	N41.57392725, E2.55724462
+	N41.64866110, E2.77702386
+	N41.68193377, E2.81033075
+	N41.71396340, E2.93538554
+	N41.77155879, E3.01325642
+	N41.78700911, E3.06334117
+	N41.84936442, E3.11456142
+	N41.85908113, E3.15494741
+	N41.89212087, E3.20545836
+	N41.96704068, E3.22817592
+	N41.97556108, E3.20880540
+	N42.05074154, E3.20084773
+	N42.05430834, E3.21463920
+	N42.10889832, E3.17485769
+	N42.12906033, E3.12738421
+	N42.17730304, E3.11290201
+	N42.23270585, E3.12404885
+	N42.26542576, E3.16855326
+	N42.24769145, E3.17882463
+	N42.23666146, E3.21373298
+	N42.24698723, E3.23081095
+	N42.23953726, E3.26121824
+	N42.24301370, E3.26436252
+	N42.24663513, E3.25680389
+	N42.25336019, E3.27991137
+	N42.27802667, E3.27745802
+	N42.28594507, E3.29906540
+	N42.30483129, E3.29035262
+	N42.32087520, E3.31827785
+	N42.34151394, E3.26678304
+	N42.33594079, E3.24523289
+	N42.35258532, E3.22881802
+	N42.33892810, E3.19789154
+	N42.34725996, E3.18892023
+	N42.36756734, E3.16188883
+	N42.43436531, E3.16659513
+	N42.48293984, E3.13108635
+	N42.51920821, E3.13810177
+	N42.53566960, E3.05729041
+	N42.61626222, E3.03775275
+	N42.60501833, E3.03649467
+	N42.61335311, E3.03082803
+	N42.62223952, E3.03985904
+	N42.70015158, E3.03759335
+
+line2 =
+	N41.391741, E2.143582,
+	N41.530750, E2.546583
+
+line3 =
+	N41.260198, E2.198754,
+	N41.406194, E2.621056
+
+line4 =
+	N41.640028, E2.634667,
+	N41.474337, E2.383064
+
+line5 =
+	N41.519861, E2.109750,
+	N41.455785, E2.329364
+
+line6 =
+	N41.177278, E2.281472,
+	N41.330714, E2.402732
+
+line7 =
+	N41.254917, E2.662639,
+	N41.330714, E2.402732
+
+line8 =
+	N41.380322, E2.078333,
+	N41.379921, E2.089184,
+	N41.378718, E2.099929,
+	N41.376728, E2.110466,
+	N41.373968, E2.120692,
+	N41.370466, E2.130509,
+	N41.366254, E2.139822,
+	N41.361375, E2.148540,
+	N41.355875, E2.156581,
+	N41.349807, E2.163866,
+	N41.343230, E2.170324,
+	N41.336208, E2.175896,
+	N41.328807, E2.180526,
+	N41.321099, E2.184171,
+	N41.313160, E2.186794,
+	N41.305064, E2.188373,
+	N41.296891, E2.188892,
+	N41.288719, E2.188346,
+	N41.280627, E2.186741,
+	N41.272692, E2.184092,
+	N41.264991, E2.180426,
+	N41.257599, E2.175779,
+	N41.250585, E2.170194,
+	N41.244018, E2.163727,
+	N41.237960, E2.156440,
+	N41.232470, E2.148402,
+	N41.227601, E2.139691,
+	N41.223399, E2.130392,
+	N41.219904, E2.120592,
+	N41.217151, E2.110388,
+	N41.215165, E2.099875,
+	N41.213966, E2.089156,
+	N41.213565, E2.078333,
+	N41.213966, E2.067510,
+	N41.215165, E2.056791,
+	N41.217151, E2.046279,
+	N41.219904, E2.036074,
+	N41.223399, E2.026275,
+	N41.227601, E2.016975,
+	N41.232470, E2.008265,
+	N41.237960, E2.000227,
+	N41.244018, E1.992939,
+	N41.250585, E1.986472,
+	N41.257599, E1.980888,
+	N41.264991, E1.976240,
+	N41.272692, E1.972574,
+	N41.280627, E1.969926,
+	N41.288719, E1.968321,
+	N41.296891, E1.967775,
+	N41.305064, E1.968293,
+	N41.313160, E1.969872,
+	N41.321099, E1.972496,
+	N41.328807, E1.976141,
+	N41.336208, E1.980771,
+	N41.343230, E1.986342,
+	N41.349807, E1.992801,
+	N41.355875, E2.000086,
+	N41.361375, E2.008127,
+	N41.366254, E2.016845,
+	N41.370466, E2.026158,
+	N41.373968, E2.035974,
+	N41.376728, E2.046201,
+	N41.378718, E2.056738,
+	N41.379921, E2.067483,
+	N41.380322, E2.078333,
+
+##############################################################
+[airport1]
+##############################################################
+name = Aeropuerto de Barcelona, barcelona 	; name of the main airport, <pronunciation>
+code = BCNW									; four letter code, displayed in airport menu (required; remove the #)
+runways =
+	rwy1, 02, N41.2878, E2.08484, 19.0, 8333, 131, 0, 7, 118.105
+	rwy2, 07L, N41.2925, E2.06511, 65.6, 11654, 295, 0, 8, 3, 65.6, 3, 245.6, ASTEK, 12.4, TEBLA, 11, 118.105
+	rwy3, 07R, N41.2823, E2.07435, 65.6, 8727, 0, 0, 8, 3, 65.6, 3, 245.6, PERUK, 12, SOTIL, 9.7, 118.330
+
+## identifier, name, position, true_heading, <length>, <displaced>, <displaced2>, <elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>, <tower frequency>
+
+climbaltitude = 6000
+
+entrypoints = 
+	265, SLL
+	280, SLL
+	290, SLL
+	355, CLE, 16000
+	025, CLE
+	210, RULOS, 10000
+	045, LESBA, 17000
+	096, LESBA
+	135, LESBA
+
+
+airlines =
+	vlg, 25, a321, vueling, se
+	vlg, 30, a320, vueling, nwse
+	vlg, 15, a20n, vueling, nws
+	ryr, 30, b738, ryanair, nwse
+	dlh, 10, a320, lufthansa, n
+	dlh, 4, a321, lufthansa, ne
+	eju, 10, a320, alpine, ne
+	afr, 10, a320, airfrans, n
+	aza, 4, a319, alitalia, e
+	swt, 5, e120, swiftair, s
+	swt, 4, at72, swiftair, s
+	swt, 5, at73, swiftair, s	
+	tap, 2, a320, portugal, w
+	tap, 1, e190, portugal, w
+	tay, 2, b734, quality, w
+	qtr, 2, a359, qatari, e
+	qtr, 5, b788, qatari, e	
+	aea, 7, b738, europa, s
+	aea, 3, b788, europa, w
+	aea, 1, b789, europa, w
+	sia, 1, a359, singapoor, e
+	tra, 10, b738, transavia, n
+	uae, 5, b77l, emirates, e
+	uae, 5, b77w, emirates, e
+	uae, 2, a388, emirates, e
+	szn, 1, a321, sensa, s
+	ane, 3, crj2, airnostrum, w
+	ane, 10, crjx, airnostrum, w
+	ibe, 10, a332, eeberia, w
+	ibe, 10, a321, eeberia, w
+	ibe, 5, a320, eeberia, w
+	ual, 2, b763, united, w
+	ual, 1, b764, united, w
+	thy, 2, a333, turkish, e
+	thy, 1, a321, turkish, e	
+	klm, 4, b738, kayelem, n
+	ein, 2, a320, shamrock, n
+	rot, 1, b735, tarom, e
+	sas, 1, a20n, scandinavian, n
+	sas, 2, b738, scandinavian, n
+	nax, 2, b738, norshuttle, n
+	ram, 2, b738, airmaroc, ws
+	ram, 1, e190, airmaroc, ws
+	baw, 10, a320, speedbird, n
+	afl, 1, a332, aeroflot, ne	
+	afl, 1, a321, aeroflot, ne
+	pgt, 1, b738, sunturk, e
+	swr, 2, bcs3, swiss, ne
+	swr, 1, a21n, swiss, ne
+	swr, 1, a320, swiss, n
+	mac, 1, a320, arabiamaroc, w
+	lgl, 3, dh8d, luxair, n
+	bel, 2, a320, beeline, n
+	wzz, 5, a321, wizzair, e
+	wzz, 10, a320, wizzair, n
+	ewg, 4, a320, eurowings, n
+	aua, 2, e195, austrian, ne
+	tvf, 1, b738, fransoleil, n
+	ges, 1, c56x, gestair, nwse
+	ges, 1, be40, gestair, nwse
+	pad, 1, e55p, padaviation, nwse
+	oro, 1, c550, oro, nwse
+	oro, 1, c510, oro, nwse
+	nje, 1, c68a, execjet, ne
+	tjs, 1, c650, tyroljet, n
+	bla, 2, b738, blueair, ne
+	twy, 1, glf4, twilight, e
+	abr, 3, b734, contract, ne
+	gac, 1, c510, globair, nwse
+	rja, 1, a319, jordanian, w
+	etd, 4, b789, etihad, e
+	hop, 3, e170, airop, n
+	ely, 1, b739, elal, e
+	asl, 1, a319, airserbia, e
+	dal, 3, b764, delta, w
+	aal, 3, b772, american, w
+	lda, 4, a320, beaufort, ne
+	bcs, 2, b752, eurotrans, n
+	fdx, 2, b752, fedex, n
+	ups, 2, b763, u-p-s, n
+	ezs, 1, a319, topswiss, n
+	icc, 1, c208, carto, ws
+	irm, 2, a346, mahanair, e
+
+##############################################################
+[area1]
+##############################################################
+shape = polygon		; circle or polygon
+altitude = 1500		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N040.53.42.470, E002.26.40.780	; <position of label>
+points =
+	N040.52.17.000, E000.57.14.000,
+	N040.40.06.000, E000.57.10.000,
+	N040.32.22.000, E001.21.23.000,
+	N040.40.26.000, E002.57.49.000,
+	N041.06.45.000, E003.20.26.000,
+	N041.59.50.000, E003.23.33.000,
+	N041.50.23.000, E003.18.17.000,
+	N041.40.40.000, E003.03.35.000,
+	N041.40.05.000, E003.02.42.000,
+	N041.32.53.000, E002.43.40.000,
+	N041.28.27.000, E002.29.54.000,
+	N041.23.53.000, E002.15.51.000,
+	N041.22.19.000, E002.16.24.000,
+	N041.18.58.000, E002.13.44.000,
+	N041.17.49.000, E002.04.42.000,
+	N041.12.56.000, E001.57.57.000,
+	N041.10.45.000, E001.50.35.000,
+	N041.12.00.000, E001.46.52.000,
+	N041.09.27.000, E001.40.22.000,
+
+[area2]
+shape = polygon		; circle or polygon
+altitude = 1700		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.20.20.860, E002.10.56.580	; <position of label>
+points =
+	N041.17.49.000, E002.04.42.000,
+	N041.18.58.000, E002.13.44.000,
+	N041.22.19.000, E002.16.24.000,
+	N041.23.53.000, E002.15.51.000,
+	N041.22.53.000, E002.13.16.000,
+
+[area3]
+shape = polygon		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N41.25115001, E01.93053367	; <position of label>
+points =
+	N041.09.27.000, E001.40.22.000,
+	N041.12.00.000, E001.46.52.000,
+	N041.10.45.000, E001.50.35.000,
+	N041.12.56.000, E001.57.57.000,
+	N041.17.49.000, E002.04.42.000,
+	N041.20.08.000, E002.01.03.000,
+	N041.11.30.000, E001.38.58.000,
+
+[area4]
+shape = polygon		; circle or polygon
+altitude = 3500		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.22.00.690, E001.49.06.500	; <position of label>
+points =
+	N040.52.17.000, E000.57.14.000,
+	N041.09.27.000, E001.40.22.000,
+	N041.11.30.000, E001.38.58.000,
+	N041.20.08.000, E002.01.03.000,
+	N041.17.49.000, E002.04.42.000,
+	N041.22.53.000, E002.13.16.000,
+	N041.23.53.000, E002.15.51.000,
+	N041.28.27.000, E002.29.54.000,
+	N041.35.55.000, E002.15.01.000,
+	N041.32.43.000, E002.07.38.000,
+	N041.31.54.000, E001.58.22.000,
+	N041.23.07.000, E001.36.39.000,
+	N041.15.49.000, E001.34.12.000,
+	N041.14.43.000, E001.28.32.000,
+	N041.15.02.000, E001.22.42.000,
+	N041.12.46.000, E001.14.28.000,
+	N041.08.43.000, E001.11.13.000,
+	N041.06.36.000, E001.03.03.000,
+
+[area5]
+shape = polygon		; circle or polygon
+altitude = 4000		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N41.52970943, E02.59542897	; <position of label>
+points =
+	N041.28.27.000, E002.29.54.000,
+	N041.32.53.000, E002.43.40.000,
+	N041.35.56.000, E002.43.07.000,
+	N041.34.21.000, E002.37.48.000,
+	N041.34.19.000, E002.35.58.000,
+	N041.30.42.000, E002.25.26.000,
+
+[area6]
+shape = polygon		; circle or polygon
+altitude = 4600		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N41.60619529, E02.53539220	; <position of label>
+points =
+	N041.30.42.000, E002.25.26.000,
+	N041.34.19.000, E002.35.58.000,
+	N041.34.21.000, E002.37.48.000,
+	N041.35.56.000, E002.43.07.000,
+	N041.41.30.000, E002.42.03.000,
+	N041.43.07.000, E002.40.29.000,
+	N041.52.20.000, E002.43.32.000,
+	N041.45.24.000, E002.37.50.000,
+	N041.39.02.000, E002.32.38.000,
+	N041.37.02.000, E002.21.54.000,
+	N041.35.55.000, E002.15.01.000,
+
+[area7]
+shape = polygon		; circle or polygon
+altitude = 4200		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.43.04.470, E002.48.05.780	; <position of label>
+points =
+	N041.32.53.000, E002.43.40.000,
+	N041.40.05.000, E003.02.42.000,
+	N041.40.40.000, E003.03.35.000,
+	N041.54.03.000, E002.44.56.000,
+	N041.52.20.000, E002.43.32.000,
+	N041.43.07.000, E002.40.29.000,
+	N041.41.30.000, E002.42.03.000,
+	N041.35.56.000, E002.43.07.000,
+
+[area8]
+shape = polygon		; circle or polygon
+altitude = 3500		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N042.00.37.640, E003.00.43.900	; <position of label>
+points =
+	N041.40.40.000, E003.03.35.000,
+	N041.50.23.000, E003.18.17.000,
+	N041.59.50.000, E003.23.33.000,
+	N042.01.32.000, E003.23.39.000,
+	N042.04.10.000, E003.22.11.000,
+	N042.17.03.000, E002.52.53.000,
+	N042.09.48.000, E002.49.28.000,
+	N042.06.31.000, E002.49.56.000,
+	N042.01.06.000, E002.48.33.000,
+	N041.54.03.000, E002.44.56.000,
+
+[area9]
+shape = polygon		; circle or polygon
+altitude = 7200		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N042.15.20.250, E002.32.45.420	; <position of label>
+points =
+	N042.05.29.000, E002.31.02.000,
+	N042.16.45.000, E002.44.44.000,
+	N042.25.29.000, E002.44.32.000,
+	N042.20.40.000, E002.38.29.000,
+	N042.17.32.000, E002.35.35.000,
+	N042.13.21.000, E002.22.52.000,
+
+[area10]
+shape = polygon		; circle or polygon
+altitude = 8000		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N042.06.03.970, E002.10.03.540	; <position of label>
+points =
+	N041.52.00.000, E001.55.01.000,
+	N041.55.56.000, E002.15.15.000,
+	N042.01.20.000, E002.20.18.000,
+	N042.01.32.000, E002.26.14.000,
+	N042.05.29.000, E002.31.02.000,
+	N042.13.21.000, E002.22.52.000,
+	N042.10.38.000, E002.12.48.000,
+	N042.11.48.000, E001.56.18.000,
+	N042.00.24.000, E001.52.31.000,
+
+[area11]
+shape = polygon		; circle or polygon
+altitude = 9000		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.55.24.000, E001.42.06.000	; <position of label>
+points =
+	N041.50.01.000, E001.44.55.000,
+	N041.52.00.000, E001.55.01.000,
+	N042.00.24.000, E001.52.31.000,
+	N042.00.12.000, E001.47.18.000,
+	N041.58.00.000, E001.27.15.000,
+
+[area12]
+shape = polygon		; circle or polygon
+altitude = 8000		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.51.38.000, E001.30.32.000	; <position of label>
+points =
+	N041.44.07.000, E001.30.47.000,
+	N041.50.01.000, E001.44.55.000,
+	N041.58.00.000, E001.27.15.000,
+	N041.51.40.000, E001.27.13.000,
+
+[area13]
+shape = polygon		; circle or polygon
+altitude = 7500		; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.56.07.000, E001.12.30.000	; <position of label>
+points =
+	N041.50.11.000, E000.57.00.000,
+	N041.46.57.000, E001.15.22.000,
+	N041.45.15.000, E001.24.53.000,
+	N041.51.40.000, E001.27.13.000,
+	N041.58.00.000, E001.27.15.000,
+	N042.02.46.000, E001.27.16.000,
+	N042.06.32.000, E001.10.58.000,
+	N041.53.36.000, E001.03.00.000,
+	N041.53.33.000, E000.58.27.000,
+
+[area14]
+shape = polygon		; circle or polygon
+altitude = 5000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.04.03.000, E000.45.45.000	; <position of label>
+points =
+	N040.44.31.000, E000.43.10.000,
+	N040.40.06.000, E000.57.10.000,
+	N040.52.17.000, E000.57.14.000,
+	N041.06.36.000, E001.03.03.000,
+	N041.09.49.000, E001.02.24.000,
+	N041.10.51.000, E000.50.46.000,
+	N041.11.29.000, E000.43.25.000,
+	N041.17.20.000, E000.40.14.000,
+	N041.26.52.000, E000.50.24.000,
+	N041.27.41.000, E001.06.01.000,
+	N041.46.57.000, E001.15.22.000,
+	N041.50.11.000, E000.57.00.000,
+	N041.46.11.000, E000.53.46.000,
+	N041.42.56.000, E001.01.00.000,
+	N041.37.34.000, E001.00.34.000,
+	N041.34.25.000, E000.56.20.000,
+	N041.27.57.000, E000.38.47.000,
+	N041.29.31.000, E000.30.38.000,
+
+[area15]
+shape = polygon		; circle or polygon
+altitude = 5100	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.15.19.900, E001.13.45.930	; <position of label>
+points =
+	N041.06.36.000, E001.03.03.000,
+	N041.08.43.000, E001.11.13.000,
+	N041.12.46.000, E001.14.28.000,
+	N041.15.02.000, E001.22.42.000,
+	N041.17.37.000, E001.32.10.000,
+	N041.22.32.000, E001.35.16.000,
+	N041.17.27.000, E001.11.31.000,
+	N041.15.33.000, E001.10.34.000,
+	N041.10.51.000, E000.50.46.000,
+	N041.09.49.000, E001.02.24.000,
+
+[area16]
+shape = polygon		; circle or polygon
+altitude = 4000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.16.05.820, E001.29.40.170	; <position of label>
+points =
+	N041.15.02.000, E001.22.42.000,
+	N041.14.43.000, E001.28.32.000,
+	N041.15.49.000, E001.34.12.000,
+	N041.23.07.000, E001.36.39.000,
+	N041.22.32.000, E001.35.16.000,
+	N041.17.37.000, E001.32.10.000,
+
+[area17]
+shape = polygon		; circle or polygon
+altitude = 4000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.38.58.000, E000.38.43.000	; <position of label>
+points =
+	N041.29.31.000, E000.30.38.000,
+	N041.27.57.000, E000.38.47.000,
+	N041.34.25.000, E000.56.20.000,
+	N041.37.34.000, E001.00.34.000,
+	N041.42.56.000, E001.01.00.000,
+	N041.46.11.000, E000.53.46.000,
+	N041.45.35.000, E000.29.48.000,
+	N041.45.19.000, E000.21.46.000,
+	N041.40.40.000, E000.24.45.000,
+	N041.36.18.000, E000.28.42.000,
+
+[area18]
+shape = polygon		; circle or polygon
+altitude = 5000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.50.51.000, E000.20.00.000	; <position of label>
+points =
+	N041.45.19.000, E000.21.46.000,
+	N041.45.35.000, E000.29.48.000,
+	N041.55.15.000, E000.19.02.000,
+	N041.53.38.000, E000.16.42.000,
+	N041.48.59.000, E000.19.22.000,
+
+[area19]
+shape = polygon		; circle or polygon
+altitude = 6000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.52.47.000, E000.34.32.000	; <position of label>
+points =
+	N041.45.35.000, E000.29.48.000,
+	N041.46.11.000, E000.53.46.000,
+	N041.50.11.000, E000.57.00.000,
+	N041.53.33.000, E000.58.27.000,
+	N041.53.01.000, E000.56.09.000,
+	N042.01.16.000, E000.31.20.000,
+	N042.04.18.000, E000.32.09.000,
+	N041.55.15.000, E000.19.02.000,
+
+[area20]
+shape = polygon		; circle or polygon
+altitude = 12000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N042.14.00.000, E001.30.00.000	; <position of label>
+points =
+	N042.01.16.000, E000.31.20.000,
+	N041.53.01.000, E000.56.09.000,
+	N041.53.33.000, E000.58.27.000,
+	N041.53.36.000, E001.03.00.000,
+	N042.06.32.000, E001.10.58.000,
+	N042.02.46.000, E001.27.16.000,
+	N041.58.00.000, E001.27.15.000,
+	N042.00.12.000, E001.47.18.000,
+	N042.00.24.000, E001.52.31.000,
+	N042.11.48.000, E001.56.18.000,
+	N042.10.38.000, E002.12.48.000,
+	N042.13.21.000, E002.22.52.000,
+	N042.17.32.000, E002.35.35.000,
+	N042.20.40.000, E002.38.29.000,
+	N042.25.29.000, E002.44.32.000,
+	N042.22.54.000, E001.57.54.000,
+	N042.21.29.000, E001.53.35.000,
+	N042.28.26.000, E000.38.49.000,
+	N042.04.18.000, E000.32.09.000,
+
+[area21]
+shape = polygon		; circle or polygon
+altitude = 14000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N042.34.09.490, E001.12.59.890	; <position of label>
+points =
+	N042.28.26.000, E000.38.49.000,
+	N042.21.29.000, E001.53.35.000,
+	N042.22.54.000, E001.57.54.000,
+	N42.45267248, E01.93753481,
+	N42.50245597, E01.72959028,
+	N42.43212200, E01.50970177,
+	N42.44309600, E01.46066343,
+	N42.49055234, E01.42448042,
+	N42.60138729, E01.44515755,
+	N42.71376010, E01.35231971,
+	N42.71048297, E01.17142799,
+	N42.78382004, E01.08509061,
+	N42.78929918, E00.93429486,
+	N042.50.49.000, E000.44.57.000,
+
+[area22]
+shape = polygon		; circle or polygon
+altitude = 6000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.36.38.000, E001.37.53.000	; <position of label>
+points =
+	N041.11.29.000, E000.43.25.000,
+	N041.10.51.000, E000.50.46.000,
+	N041.15.33.000, E001.10.34.000,
+	N041.17.27.000, E001.11.31.000,
+	N041.22.32.000, E001.35.16.000,
+	N041.23.07.000, E001.36.39.000,
+	N041.31.54.000, E001.58.22.000,
+	N041.32.43.000, E002.07.38.000,
+	N041.35.55.000, E002.15.01.000,
+	N041.37.02.000, E002.21.54.000,
+	N041.40.00.000, E002.16.40.000,
+	N041.40.00.000, E002.16.40.000,
+	N041.40.18.848, E002.16.08.791,
+	N041.40.38.835, E002.15.38.876,
+	N041.41.00.038, E002.15.10.486,
+	N041.41.22.391, E002.14.43.711,
+	N041.41.45.826, E002.14.18.633,
+	N041.42.10.270, E002.13.55.329,
+	N041.42.35.648, E002.13.33.874,
+	N041.43.01.880, E002.13.14.333,
+	N041.43.28.886, E002.12.56.768,
+	N041.43.56.582, E002.12.41.234,
+	N041.44.24.883, E002.12.27.780,
+	N041.44.53.701, E002.12.16.447,
+	N041.45.22.947, E002.12.07.273,
+	N041.45.52.529, E002.12.00.286,
+	N041.46.22.357, E002.11.55.508,
+	N041.46.52.338, E002.11.52.956,
+	N041.47.22.378, E002.11.52.638,
+	N041.47.52.385, E002.11.54.556,
+	N041.48.22.266, E002.11.58.705,
+	N041.48.51.927, E002.12.05.073,
+	N041.49.21.277, E002.12.13.641,
+	N041.49.50.223, E002.12.24.384,
+	N041.50.18.677, E002.12.37.267,
+	N041.50.46.550, E002.12.52.254,
+	N041.51.13.755, E002.13.09.296,
+	N041.51.40.207, E002.13.28.343,
+	N041.52.05.824, E002.13.49.335,
+	N041.52.30.526, E002.14.12.207,
+	N041.52.54.237, E002.14.36.890,
+	N041.53.16.882, E002.15.03.307,
+	N041.53.38.390, E002.15.31.375,
+	N041.53.58.695, E002.16.01.008,
+	N041.54.17.733, E002.16.32.113,
+	N041.54.35.445, E002.17.04.594,
+	N041.54.51.776, E002.17.38.351,
+	N041.55.06.675, E002.18.13.277,
+	N041.55.20.094, E002.18.49.264,
+	N041.55.31.993, E002.19.26.199,
+	N041.55.42.333, E002.20.03.968,
+	N041.55.51.084, E002.20.42.453,
+	N041.55.58.216, E002.21.21.533,
+	N041.56.03.709, E002.22.01.086,
+	N041.56.07.545, E002.22.40.989,
+	N041.56.09.712, E002.23.21.117,
+	N041.56.10.203, E002.24.01.345,
+	N041.56.09.016, E002.24.41.546,
+	N041.56.06.156, E002.25.21.596,
+	N041.56.01.631, E002.26.01.369,
+	N041.55.55.456, E002.26.40.741,
+	N041.55.47.649, E002.27.19.589,
+	N041.55.38.235, E002.27.57.791,
+	N041.55.27.244, E002.28.35.229,
+	N041.55.14.710, E002.29.11.785,
+	N041.55.00.672, E002.29.47.345,
+	N041.54.45.174, E002.30.21.799,
+	N041.54.28.263, E002.30.55.039,
+	N041.54.09.994, E002.31.26.961,
+	N041.53.50.423, E002.31.57.468,
+	N041.53.29.611, E002.32.26.462,
+	N041.53.07.623, E002.32.53.856,
+	N041.52.44.528, E002.33.19.563,
+	N041.52.20.397, E002.33.43.504,
+	N041.51.55.305, E002.34.05.604,
+	N041.51.29.332, E002.34.25.797,
+	N041.51.02.558, E002.34.44.019,
+	N041.50.35.000, E002.35.00.000,
+	N041.50.35.000, E002.35.00.000,
+	N041.45.24.000, E002.37.50.000,
+	N041.52.20.000, E002.43.32.000,
+	N041.54.03.000, E002.44.56.000,
+	N042.01.06.000, E002.48.33.000,
+	N042.06.31.000, E002.49.56.000,
+	N042.09.48.000, E002.49.28.000,
+	N042.17.03.000, E002.52.53.000,
+	N042.16.45.000, E002.44.44.000,
+	N042.05.29.000, E002.31.02.000,
+	N042.01.32.000, E002.26.14.000,
+	N042.01.20.000, E002.20.18.000,
+	N041.55.56.000, E002.15.15.000,
+	N041.52.00.000, E001.55.01.000,
+	N041.50.01.000, E001.44.55.000,
+	N041.44.07.000, E001.30.47.000,
+	N041.51.40.000, E001.27.13.000,
+	N041.45.15.000, E001.24.53.000,
+	N041.46.57.000, E001.15.22.000,
+	N041.27.41.000, E001.06.01.000,
+	N041.26.52.000, E000.50.24.000,
+	N041.17.20.000, E000.40.14.000,
+
+[area23]
+shape = polygon		; circle or polygon
+altitude = 8000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N041.47.29.110, E002.22.14.320	; <position of label>
+points =
+	N041.37.02.000, E002.21.54.000,
+	N041.40.00.000, E002.16.40.000,
+	N041.40.00.000, E002.16.40.000,
+	N041.40.18.848, E002.16.08.791,
+	N041.40.38.835, E002.15.38.876,
+	N041.41.00.038, E002.15.10.486,
+	N041.41.22.391, E002.14.43.711,
+	N041.41.45.826, E002.14.18.633,
+	N041.42.10.270, E002.13.55.329,
+	N041.42.35.648, E002.13.33.874,
+	N041.43.01.880, E002.13.14.333,
+	N041.43.28.886, E002.12.56.768,
+	N041.43.56.582, E002.12.41.234,
+	N041.44.24.883, E002.12.27.780,
+	N041.44.53.701, E002.12.16.447,
+	N041.45.22.947, E002.12.07.273,
+	N041.45.52.529, E002.12.00.286,
+	N041.46.22.357, E002.11.55.508,
+	N041.46.52.338, E002.11.52.956,
+	N041.47.22.378, E002.11.52.638,
+	N041.47.52.385, E002.11.54.556,
+	N041.48.22.266, E002.11.58.705,
+	N041.48.51.927, E002.12.05.073,
+	N041.49.21.277, E002.12.13.641,
+	N041.49.50.223, E002.12.24.384,
+	N041.50.18.677, E002.12.37.267,
+	N041.50.46.550, E002.12.52.254,
+	N041.51.13.755, E002.13.09.296,
+	N041.51.40.207, E002.13.28.343,
+	N041.52.05.824, E002.13.49.335,
+	N041.52.30.526, E002.14.12.207,
+	N041.52.54.237, E002.14.36.890,
+	N041.53.16.882, E002.15.03.307,
+	N041.53.38.390, E002.15.31.375,
+	N041.53.58.695, E002.16.01.008,
+	N041.54.17.733, E002.16.32.113,
+	N041.54.35.445, E002.17.04.594,
+	N041.54.51.776, E002.17.38.351,
+	N041.55.06.675, E002.18.13.277,
+	N041.55.20.094, E002.18.49.264,
+	N041.55.31.993, E002.19.26.199,
+	N041.55.42.333, E002.20.03.968,
+	N041.55.51.084, E002.20.42.453,
+	N041.55.58.216, E002.21.21.533,
+	N041.56.03.709, E002.22.01.086,
+	N041.56.07.545, E002.22.40.989,
+	N041.56.09.712, E002.23.21.117,
+	N041.56.10.203, E002.24.01.345,
+	N041.56.09.016, E002.24.41.546,
+	N041.56.06.156, E002.25.21.596,
+	N041.56.01.631, E002.26.01.369,
+	N041.55.55.456, E002.26.40.741,
+	N041.55.47.649, E002.27.19.589,
+	N041.55.38.235, E002.27.57.791,
+	N041.55.27.244, E002.28.35.229,
+	N041.55.14.710, E002.29.11.785,
+	N041.55.00.672, E002.29.47.345,
+	N041.54.45.174, E002.30.21.799,
+	N041.54.28.263, E002.30.55.039,
+	N041.54.09.994, E002.31.26.961,
+	N041.53.50.423, E002.31.57.468,
+	N041.53.29.611, E002.32.26.462,
+	N041.53.07.623, E002.32.53.856,
+	N041.52.44.528, E002.33.19.563,
+	N041.52.20.397, E002.33.43.504,
+	N041.51.55.305, E002.34.05.604,
+	N041.51.29.332, E002.34.25.797,
+	N041.51.02.558, E002.34.44.019,
+	N041.50.35.000, E002.35.00.000,
+	N041.50.35.000, E002.35.00.000,
+	N041.45.24.000, E002.37.50.000,
+	N041.39.02.000, E002.32.38.000,
+
+[area24]
+shape = polygon		; circle or polygon
+altitude = 7000	; minimum allowed altitude in feet
+#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = N042.21.52.000, E002.47.47.000	; <position of label>
+points =
+	N042.16.45.000, E002.44.44.000,
+	N042.17.03.000, E002.52.53.000,
+	N042.04.10.000, E003.22.11.000,
+	N042.26.00.000, E003.10.00.000,
+	N42.48056381, E02.95089748,
+	N042.25.29.000, E002.44.32.000,
+
+##############################################################
+[configurations]
+##############################################################
+
+# Planes take off 25L and land 25R  (this is the typical configuration at day)
+wrl =
+	0,	rwy2,	landrev
+wll =
+	0,	rwy3,	landrev
+
+##############################################################
+[transition1]
+##############################################################
+runway = rwy2,	rev					; runway identifier, <reversed use>
+beacon = SLL		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	100
+	N041.31.11.500, E002.06.35.100, 10000
+	N041.31.26.300, E002.15.30.400,	8000, 220
+	N041.26.53.000, E002.18.15.300, 8000
+	N041.28.32.200, E002.23.06.000, 8000
+	N041.30.11.500, E002.27.56.800, 8000
+	N041.31.50.700, E002.32.47.700, 8000
+	end, 065
+
+[transition2]
+runway = rwy2,	rev					; runway identifier, <reversed use>
+beacon = CLE		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	190
+	N041.38.24.100, E002.38.04.800, 10000
+	N041.31.26.300, E002.15.30.400, 8000, 220
+	N041.26.53.000, E002.18.15.300, 8000
+	N041.28.32.200, E002.23.06.000, 8000
+	N041.30.11.500, E002.27.56.800, 8000
+	N041.31.50.700, E002.32.47.700, 8000
+	end, 065
+
+[transition3]
+runway = rwy2,	rev					; runway identifier, <reversed use>
+beacon = RULOS		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	030
+	N041.10.38.200, E002.16.53.300, 10000
+	N041.14.51.200, E002.25.29.100, 8000, 220
+	N041.19.24.600, E002.22.45.100, 8000
+	N041.21.03.900, E002.27.35.200, 8000
+	N041.22.43.100, E002.32.25.500, 8000
+	end, 065
+
+
+[transition4]
+runway = rwy2,	rev					; runway identifier, <reversed use>
+beacon = LESBA		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	277
+	N041.15.17.700, E002.39.45.500, 10000
+	N041.14.51.200, E002.25.29.100, 8000, 220
+	N041.19.24.600, E002.22.45.100, 8000
+	N041.21.03.900, E002.27.35.200, 8000
+	N041.22.43.100, E002.32.25.500, 8000
+	N041.24.22.300, E002.37.15.800, 8000
+	end, 065
+
+[transition5]
+runway = rwy2,	rev					; runway identifier, <reversed use>
+beacon = BL444		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	240
+	N041.14.51.200, E002.25.29.100, 8000, 220
+	N041.19.24.600, E002.22.45.100, 8000
+	N041.21.03.900, E002.27.35.200, 8000
+	N041.22.43.100, E002.32.25.500, 8000
+	N041.24.22.300, E002.37.15.800, 8000
+	end, 065
+
+
+[transition6]
+runway = rwy2,	rev					; runway identifier, <reversed use>
+beacon = BL443		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	180
+	N041.31.26.300, E002.15.30.400, 8000, 220
+	N041.26.53.000, E002.18.15.300, 8000
+	N041.28.32.200, E002.23.06.000, 8000
+	N041.30.11.500, E002.27.56.800, 8000
+	N041.31.50.700, E002.32.47.700, 8000
+	end, 065
+
+[transition7]
+runway = rwy2,	rev					; runway identifier, <reversed use>
+beacon = BL439		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	100
+	N041.26.53.000, E002.18.15.300, 8000, 220
+	N041.28.32.200, E002.23.06.000, 8000
+	N041.30.11.500, E002.27.56.800, 8000
+	N041.31.50.700, E002.32.47.700, 8000
+	end, 065
+
+[transition8]
+runway = rwy2,	rev					; runway identifier, <reversed use>
+beacon = BL440		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	030
+	N041.19.24.600, E002.22.45.100, 8000, 220
+	N041.21.03.900, E002.27.35.200, 8000
+	N041.22.43.100, E002.32.25.500, 8000
+	N041.24.22.300, E002.37.15.800, 8000
+	end, 065
+
+##############################################################
+[transition9]
+##############################################################
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = SLL		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	100
+	N041.31.11.500, E002.06.35.100, 10000
+	N041.31.26.300, E002.15.30.400,	8000, 220
+	N041.26.53.000, E002.18.15.300, 8000
+	N041.28.32.200, E002.23.06.000, 8000
+	N041.30.11.500, E002.27.56.800, 8000
+	N041.31.50.700, E002.32.47.700, 8000
+	end, 065
+
+[transition10]
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = CLE		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	190
+	N041.38.24.100, E002.38.04.800, 10000
+	N041.31.26.300, E002.15.30.400, 8000, 220
+	N041.26.53.000, E002.18.15.300, 8000
+	N041.28.32.200, E002.23.06.000, 8000
+	N041.30.11.500, E002.27.56.800, 8000
+	N041.31.50.700, E002.32.47.700, 8000
+	end, 065
+
+[transition11]
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = RULOS		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	030
+	N041.10.38.200, E002.16.53.300, 10000
+	N041.14.51.200, E002.25.29.100, 8000, 220
+	N041.19.24.600, E002.22.45.100, 8000
+	N041.21.03.900, E002.27.35.200, 8000
+	N041.22.43.100, E002.32.25.500, 8000
+	N041.24.22.300, E002.37.15.800, 8000
+	end, 065
+
+
+[transition12]
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = LESBA		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	277
+	N041.15.17.700, E002.39.45.500, 10000
+	N041.14.51.200, E002.25.29.100, 8000, 220
+	N041.19.24.600, E002.22.45.100, 8000
+	N041.21.03.900, E002.27.35.200, 8000
+	N041.22.43.100, E002.32.25.500, 8000
+	N041.24.22.300, E002.37.15.800, 8000
+	end, 065
+
+[transition13]
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = BL444		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	240
+	N041.14.51.200, E002.25.29.100, 8000, 220
+	N041.19.24.600, E002.22.45.100, 8000
+	N041.21.03.900, E002.27.35.200, 8000
+	N041.22.43.100, E002.32.25.500, 8000
+	N041.24.22.300, E002.37.15.800, 8000
+	end, 065
+
+
+[transition14]
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = BL443		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	180
+	N041.31.26.300, E002.15.30.400, 8000, 220
+	N041.26.53.000, E002.18.15.300, 8000
+	N041.28.32.200, E002.23.06.000, 8000
+	N041.30.11.500, E002.27.56.800, 8000
+	N041.31.50.700, E002.32.47.700, 8000
+	end, 065
+
+[transition15]
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = BL439		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	100
+	N041.26.53.000, E002.18.15.300, 8000, 220
+	N041.28.32.200, E002.23.06.000, 8000
+	N041.30.11.500, E002.27.56.800, 8000
+	N041.31.50.700, E002.32.47.700, 8000
+	end, 065
+
+[transition16]
+runway = rwy3,	rev					; runway identifier, <reversed use>
+beacon = BL440		; selectable beacon to enable APP mode; define a beacon, or choose a name from beacon list above
+route1 = 
+	030
+	N041.19.24.600, E002.22.45.100, 8000, 220
+	N041.21.03.900, E002.27.35.200, 8000
+	N041.22.43.100, E002.32.25.500, 8000
+	N041.24.22.300, E002.37.15.800, 8000
+	end, 065
+
+##############################################################
+[planetypes]
+##############################################################
+types = 
+  A319, 4, 160, 300, 2.9, 3.2, 800, 3500, 115, 130, 1.1, 1.2, Airbus
+  A320, 4, 160, 300, 2.9, 3.2, 800, 3500, 120, 140, 1.1, 1.2, Airbus
+  A20N, 4, 160, 300, 2.9, 3.2, 800, 3500, 115, 135, 1.1, 1.2, Airbus
+  A321, 4, 160, 300, 2.9, 3.2, 800, 3500, 130, 150, 1.1, 1.2, Airbus
+  A21N, 4, 160, 300, 2.9, 3.2, 800, 3500, 130, 150, 1.1, 1.2, Airbus
+  A332, 2, 170, 320, 2.9, 3.2, 800, 3000, 120, 140, 1.1, 1.2, Airbus
+  A333, 2, 170, 320, 2.7, 3.0, 800, 3000, 125, 145, 1.1, 1.2, Airbus
+  A346, 2, 180, 340, 2.3, 2.7, 800, 2500, 125, 145, 1.1, 1.2, Airbus
+  A359, 2, 170, 320, 2.9, 3.2, 800, 3500, 120, 135, 1.1, 1.2, Airbus
+  A388, 1, 180, 320, 2.7, 3.0, 800, 3000, 125, 140, 1.1, 1.2, Airbus
+  AT72, 5, 160, 230, 2.9, 3.2, 500, 2000, 117, 132, 1.1, 1.2, Atr
+  AT73, 5, 160, 230, 2.9, 3.2, 500, 2000, 117, 132, 1.1, 1.2, Atr
+  B734, 4, 160, 290, 2.9, 3.2, 800, 3000, 120, 140, 1.1, 1.2, Boeing
+  B735, 4, 160, 290, 2.9, 3.2, 800, 3000, 120, 140, 1.1, 1.2, Boeing
+  B737, 4, 160, 300, 2.9, 3.2, 800, 2500, 125, 145, 1.1, 1.2, Boeing
+  B738, 4, 160, 300, 2.9, 3.2, 800, 2500, 125, 145, 1.1, 1.2, Boeing
+  B739, 4, 160, 300, 2.9, 3.2, 800, 2500, 130, 150, 1.1, 1.2, Boeing
+  B744, 2, 160, 340, 2.7, 3.0, 800, 4000, 130, 155, 1.1, 1.2, Boeing
+  B748, 2, 160, 340, 2.7, 3.0, 800, 4000, 125, 155, 1.1, 1.2, Boeing
+  B752, 3, 160, 310, 2.9, 3.2, 800, 4000, 120, 130, 1.1, 1.2, Boeing
+  B753, 3, 160, 310, 2.9, 3.2, 800, 4000, 120, 130, 1.1, 1.2, Boeing
+  B762, 3, 160, 310, 2.9, 3.2, 800, 4000, 120, 130, 1.1, 1.2, Boeing
+  B763, 3, 160, 310, 2.9, 3.2, 800, 4000, 125, 135, 1.1, 1.2, Boeing
+  B764, 3, 160, 310, 2.9, 3.2, 800, 4000, 130, 140, 1.1, 1.2, Boeing
+  B772, 2, 160, 280, 2.4, 2.7, 800, 3000, 125, 140, 1.1, 1.2, Boeing
+  B77L, 2, 160, 280, 2.4, 2.7, 800, 3000, 125, 140, 1.1, 1.2, Boeing
+  B77W, 2, 160, 280, 2.4, 2.7, 800, 3000, 125, 140, 1.1, 1.2, Boeing
+  B788, 2, 160, 300, 2.7, 3.0, 800, 3500, 120, 135, 1.1, 1.2, Boeing
+  B789, 2, 160, 300, 2.7, 3.0, 800, 3500, 125, 135, 1.1, 1.2, Boeing
+  BCS1, 4, 160, 300, 2.9, 3.2, 800, 4000, 115, 125, 1.1, 1.2, Airbus
+  BCS3, 4, 160, 300, 2.9, 3.2, 800, 4000, 115, 125, 1.1, 1.2, Airbus
+  BE20, 6, 100, 250, 2.9, 3.2, 500, 1500, 90, 100, 1.1, 1.2, Beech
+  BE33, 6, 100, 170, 2.9, 3.2, 500, 1200, 115, 125, 1.1, 1.2, Beech
+  BE40, 6, 150, 270, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Beech
+  B350, 6, 120, 250, 2.9, 3.2, 500, 2000, 90, 100, 1.1, 1.2, Beech
+  C172, 6,  80, 100, 2.9, 3.2, 500, 1000, 65, 75, 1.1, 1.2, Cessna
+  C182, 6,  80, 110, 2.9, 3.2, 500, 1000, 65, 75, 1.1, 1.2, Cessna
+  C208, 6,  90, 170, 2.9, 3.2, 500, 2000, 75, 80, 1.1, 1.2, Cessna
+  C510, 6, 150, 220, 2.9, 3.2, 1000, 4000, 95, 105, 1.1, 1.2, Cessna
+  C550, 6, 150, 240, 2.9, 3.2, 1000, 4000, 100, 110, 1.1, 1.2, Cessna
+  C56X, 5, 150, 250, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Cessna
+  C68A, 5, 150, 260, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Cessna
+  CRJ2, 5, 160, 330, 2.9, 3.2, 800, 4500, 125, 155, 1.1, 1.2, Canadair
+  CRJX, 5, 160, 300, 2.9, 3.2, 800, 4500, 120, 150, 1.1, 1.2, Canadair
+  DH8D, 5, 150, 250, 2.9, 3.2, 800, 1700, 115, 130, 1.1, 1.2, Canadair
+  E120, 5, 150, 230, 2.9, 3.2, 800, 1700, 115, 130, 1.1, 1.2, Embraer
+  E170, 4, 160, 280, 2.9, 3.2, 800, 4000, 125, 155, 1.1, 1.2, Embraer
+  E190, 4, 160, 280, 2.9, 3.2, 800, 4000, 125, 155, 1.1, 1.2, Embraer
+  E195, 4, 160, 280, 2.9, 3.2, 800, 4000, 125, 155, 1.1, 1.2, Embraer
+  E55P, 5, 150, 280, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Embraer
+  GLF4, 5, 145, 300, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Gulfstream
+  H25B, 6, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Hawker
+  LJ60, 5, 145, 340, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Learjet
+  PC12, 6,  85, 186, 2.9, 3.2, 500, 2000, 115, 125, 1.1, 1.2, Pilatus
