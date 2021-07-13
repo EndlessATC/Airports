@@ -6,7 +6,7 @@ Use a text editor, together with the included example.txt file as a guide, to cr
 
 ## Contributing
 1. Open an issue describing the work you want to do (or want done, but it will be faster if you participate!)
-2. For this repository
+2. Fork this repository
 3. Clone your fork to your computer so you can work on it
 4. Set this repository to be the upstream repository of your fork
 5. Ensure your repository has the most recent changes from upstream
