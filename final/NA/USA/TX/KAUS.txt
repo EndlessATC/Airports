@@ -1,0 +1,300 @@
+#Made by obamna#9667
+#Including KAUS, KHYI, & KEDC
+#DM me on discord if you have any questions, comments, suggestions etc!
+
+[airspace]
+radius = 40
+elevation = 542
+usa = true
+transition = 18001
+descendaltitude = 13000
+ceiling = 10000
+automatic = true
+name = austin approach, austin departure
+center = N30.1944999695, W97.6698989868
+magneticvar = 5.408
+
+beacons =
+	AUS, N30.1945272, W97.6698761, 0, Austin
+	CWK, N30.37850, W97.52980, 0, Centex
+	SEWZY, N30.80933, W97.35981, 0, Suzie
+	WLEEE, N30.04676, W96.86813, 0, Willie
+	DXEEE, N30.05446, W98.20180, 0, Dixie
+	LAIKS, N30.64416, W98.14410, 0, Lakes
+	
+boundary = 
+	N30.47.57.014, W98.04.55.415
+	N30.47.57.889, W97.05.58.427
+	N30.39.12.181, W97.06.41.108
+	N30.20.09.236, W96.48.50.333
+	N29.43.55.568, W96.49.11.787
+	N29.45.13.434, W97.02.10.651
+	N29.44.21.610, W97.08.58.675
+	N29.42.58.248, W97.47.37.614
+	N29.35.27.933, W97.48.28.423
+	N29.31.47.749, W97.49.29.852
+	N29.30.33.614, W96.55.51.714
+	N29.43.55.568, W96.49.11.787
+	N29.45.13.434, W97.02.10.651
+	N29.44.21.610, W97.08.58.675
+	N29.42.58.248, W97.47.37.614
+	N29.45.59.757, W97.47.28.047
+	N29.48.07.954, W97.48.13.101
+	N29.54.55.900, W97.52.55.496
+	N30.06.56.531, W98.14.56.052
+	N29.53.31.557, W98.04.36.783
+	N29.47.58.741, W97.51.58.331
+	N29.48.07.954, W97.48.13.101
+	N29.54.55.900, W97.52.55.496
+	N30.06.56.531, W98.14.56.052
+	N30.47.57.014, W98.04.55.415
+
+line1 =
+	N30.79068, W96.65428
+	N30.61015, W96.51191
+	N30.55142, W96.39357
+
+[airport1]
+name = Austin Bergstrom International Airport
+code = KAUS
+runways =
+	rwy1, 18L, N30.2038, W97.6579, 178.7, 9000, 0, 0, 492
+	rwy2, 18R, N30.2136, W97.6794, 178.7, 12248, 0, 0, 542
+
+climbaltitude = 4000
+
+sids = 
+	ILEXY,	N30.35037, 	W97.07704,	I LEXI
+	SAYBR,	N30.97109,	W97.04563,	SABER
+	ELOEL,	N30.90204,	W97.91795,	L O L
+	AEROZ,	N30.69834, 	W98.86177,	ARROWS
+	MUCKY,	N30.41468, 	W98.86339,	MUCKY
+	BNDIA,	N29.64046, 	W98.45755,	BANDIA
+
+airlines =	
+	fdx, 1, a306/b752/b763/b77l/md11, fed ex, nswe
+	dal, 1, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753, delta, new
+	aal, 1, a319/a320/a321/a21n/b738/b38m/b752, american, new
+	ual, 1, a319/a320/b737/b738/b739/b39m/b752/b753, united, new
+	qxe, 3, e75l, horizon, new 
+	asa, 1, b739, alaska, w
+	baw, 1, b78x, speedbird, n
+	hal, 1, a332, hawaiian, w
+	klm, 1, b78x, klm, n
+	dlh, 1, a333, lufthansa, n
+	scx, 1, b738, sun country, ne
+	wja, 1, b737, westjet, w
+	viv, 1, a20n, aero enlaces, s
+	sli, 1, e190, costera, s
+	soo, 1, b738, southern air, new
+	nks, 1, a320, spirit wings, new
+	jbu, 1, a320/e190, jetblue, new
+	rpa, 1, e170, brickyard, nswe
+	eny, 1, e170/e175, envoy, nswe
+	skw, 1, e75l, sky west, nw
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, nswe
+	swa, 1, b737/b738/b38m/b37m, southwest, nswe
+	aay, 1, a319/a320, allegiant, new
+	ups, 2, a306/b752/b763/md11, ups, nse
+	skv, 1, e75s/e75l, maple, n
+	fft, 1, a320/a321/a20n/a21n, frontier flight, ew
+	gti, 1, b762/b763, giant, nswe
+	cks, 1, b763, connie, n
+	ajt, 1, b762, amerijet, ne
+	vda, 1, a124, volga, ns
+	n-523rr, 1, lj35/lj45/fa2t, new
+	n-6969r, 1, c680/cl30/fa7x/lj35/lj45/lj60, new
+	n-4552, 1, c56x/c560/c750, new
+	n-911qz, 1, glex/gl5t/gl7t, new
+	n-899hj, 1, c500/c501/c510/c525/c550/c560/c56x/c650/c680/c68a/c700/c750, new
+	n-722kk, 1, c25a/c25b/c25c/c25m, new
+	n-8722, 1, pc12/pc24, new
+	n-988kk, 1, glf4/glf5/glf6, new
+	n-1111x, 1, fa5x/fa7x/fa8x, new
+	n-6233g, 1, f900/fa2t/fa50, new
+	
+# special
+	plm, 1, a332/a333/b744, pullman, n
+	snr, 1, b744/b763, red bud, nswe
+	wsn, 1, j328, wingspan, w
+	
+entrypoints = 
+	020, SEWZY
+	100, WLEEE
+	250, DXEEE
+	313, LAIKS
+	
+[approach1]
+runway = rwy1
+beacon = SEWZY
+route1 =
+	195
+	N30.80933, W97.35981, 10000, 250
+	N30.66069, W97.44534, 8000
+	N30.43445, W97.57383, 5000, 220
+	N30.38040, W97.63784, 4000, 210
+	7.7, 3000, 210
+
+[approach2]
+runway = rwy1
+beacon = WLEEE
+route1 =
+	278
+	N30.04676, W96.86813, 12000, 280
+	N30.17093, W97.28279, 8000
+	N30.21007, W97.38879, 6000, 230
+	N30.27262, W97.54157, 4000, 210
+	N30.30216, W97.57149
+	N30.33615, W97.57231
+	end, 353
+
+[approach3]
+runway = rwy2
+beacon = DXEEE
+route1 =
+	006
+	N30.05446, W98.20180, 12000, 250
+	N30.15603, W98.17097
+	N30.20286, W98.06990
+	N30.17712, W97.97481
+	N30.14355, W97.85353
+	N30.15426, W97.76711, 6000, 210
+	N30.22130, W97.76896
+	end, 353
+
+[approach4]
+runway = rwy2
+beacon = LAIKS
+route1 =
+	110
+	N30.64416, W98.14410, 12000
+	N30.55916, W97.93132
+	M30.48848, W97.83473, 5000
+	N30.42647, W97.75096, 5000, 210
+	7.5, 3000, 210
+
+[approach5]
+runway = rwy1, rev
+beacon = SEWZY
+route1 =
+	195
+	N30.80933, W97.35981, 10000, 250
+	N30.66069, W97.44534, 8000
+	N30.39196, W97.56779
+	N30.27858, W97.56813, 6000, 220
+	N30.19114, W97.56545, 5000, 210
+	end, 173
+
+[approach6]
+runway = rwy1, rev
+beacon = WLEEE
+route1 =
+	278
+	N30.04676, W96.86813, 12000, 280
+	N30.11020, W97.07840, 12000
+	N30.09684, W97.32304, 6000, 230
+	N30.08819, W97.49613, 4000
+	N30.08562, W97.53401, 4000, 210
+	N30.05481, W97.56169
+	N30.00972, W97.56088
+	end, 173
+
+[approach7]
+runway = rwy2, rev
+beacon = DXEEE
+route1 =
+	006
+	N30.05446, W98.20180, 12000, 250
+	N30.15603, W98.17097
+	N30.20286, W98.06990
+	N30.18874, W97.95452
+	N30.12680, W97.82631, 4000, 210
+	N30.09710, W97.76551
+	N30.04101, W97.76377
+	end, 173
+
+[approach8]
+runway = rwy2, rev
+beacon = LAIKS
+route1 =
+	110
+	N30.64416, W98.14410, 12000
+	N30.55916, W97.93132
+	N30.46220, W97.87658, 9000
+	N30.27356, W97.77026, 6000, 220
+	N30.17338, W97.76775, 5000, 210
+	end, 173
+
+[approach9]
+runway = rwy3
+beacon = SEWZY
+route1 = 
+	194
+	N30.80933, W97.35981, 13000
+	end, 194
+
+[approach10]
+runway = rwy3
+beacon = WLEEE
+route1 = 
+	278
+	N30.04676, W96.86813, 12000
+	N30.07438, W96.95895
+	end, 284
+
+[approach11]
+runway = rwy6
+beacon = WLEEE
+route1 = 
+	278
+	N30.04676, W96.86813, 12000
+	N30.07438, W96.95895
+	end, 284
+
+[airport2]
+name = San Marcus
+code = YI
+runways =
+	rwy3, 8, N29.89181, W97.87696, 088, 6330, 0, 0, 589
+	rwy4, 13, N29.89695, W97.86990, 133, 5601, 0, 0, 593
+	rwy5, 17, N29.90160, W97.85775, 178.7, 5214, 0, 0, 595
+
+climbaltitude = 3000
+
+entrypoints =
+	022, SEWZY
+	077, WLEEE
+
+airlines =
+	n-12345, 10, c750/c172/p28a/tbm8
+
+[airport3]
+name = Austin Executive
+code = DC
+runways =
+	rwy6, 31, N30.39271, W97.55921, 310, 6025, 0, 0, 612
+	rwy7, 34, N30.39303, W97.56621, 346, 1550, 0, 0, 599
+
+climbaltitude = 3000
+
+entrypoints =
+	022, SEWZY
+	077, WLEEE
+
+airlines =
+	n-12345, 10, c750/c172/p28a/tbm8
+
+[configurations]
+config1 =
+	0, rwy1, landstart, 173, nosid
+	0, rwy2, landstart, 173, nosid
+	0, rwy3, start, nosid
+	0, rwy4, land
+	0, rwy6, landstart, 010, nosid
+
+config2 = 
+	0, rwy1, landstartrev, 353, nosid
+	0, rwy2, landstartrev, 353, nosid
+	0, rwy3, landrev
+	0, rwy4, startrev, nosid
+	0, rwy6, landstart, 010, nosid
