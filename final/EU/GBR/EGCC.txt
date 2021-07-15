@@ -15,6 +15,7 @@ beacons =
     AMLET, N53.268611, W1.988333, 0, Amlet
     ARTHA, N53.783056, W2.285278, 0, Artha
     ASMIM, N53.446111, W2.653056, 0, Asmim
+    BARTN, N53.28.14, W002.25.41, 0, Barton
     BEGAM, N54.156944, W2.120833, 0, Begam
     BURNI, N53.727222, W2.517778, 0, Burni
     DAYNE, N53.238611, W2.029167, 312, Dayne
@@ -26,14 +27,16 @@ beacons =
     IBRAR, N53.531667, W3.686389, 0, Ibrar
     KUXEM, N53.253056, W2.679722, 0, Cooksem
     LAKEY, N54.238889, W2.981111, 0, Lakey
-    LESTA, N52.740833, W1.071944, 0, Leister
+    LESTA, N52.740833, W1.071944, 0, Lesster
     LISTO, N53.143333, W2.199167, 0, Listo
+    LPL, N53.20.23, W002.43.30, 0, Liverpool
     MALUD, N53.413333, W3.608333, 0, Malud
     MIRSI, N53.538056, W2.711667, 061, Mirsi
     MONTY, N52.892778, W3.173889, 0, Monty
+    NANTI, N53.08.15, W002.34.01, 0, Naan tea
     PENIL, N53.615833, W3.663611, 0, Penil
     POL, N53.743889, W2.103333, 0, Pole Hill
-    REXAM, N53.066667, W3.160278, 0, Rexam
+    REXAM, N53.066667, W3.160278, 0, Rexham
     ROSUN, N53.668889, W2.349167, 172, Row sun
     SANBA, N53.139444, W2.334167, 0, Sanba
     SETEL, N54.0125, W2.435833, 0, Setel
@@ -41,7 +44,8 @@ beacons =
     TABLY, N53.271944, W2.450556, 0, Tably
     TNT, N53.053889, W1.67, 0, Trent
     UPTON, N53.586944, W1.300833, 0, Upton
-    WAL, N53.391944, W3.134444, 0, Wallasey
+    WAL, N53.23.31, W003.08.04, 0, Wallasey
+    WHI, N53.11.06, W002.37.23, 0, White gate
     XOBRO, N53.471389, W2.421667, Xobro
     XUMAT, N53.465833, W2.473056, Xumat
 
@@ -129,7 +133,7 @@ points =
 shape = polygon
 altitude = 3100
 name = MIN
-labelpos = N55.05.01, W001.57.39
+labelpos = N53.26.27, W001.56.50
 points =
     N53.24.06, W002.00.14
     N53.25.41, W001.58.38
@@ -141,8 +145,8 @@ points =
 [area3]
 shape = polygon
 altitude = 2900
-name = MIN
-labelpos = N53.21.23, W002.02.57
+name = MVA
+labelpos = N53.18.54, W002.01.48
 points =
     N53.24.06, W002.00.14
     N53.22.07, W001.57.35
@@ -153,27 +157,61 @@ points =
 [area4]
 shape = polygon
 altitude = 2400
-#name = 
-labelpos = N53.21.11, W002.16.23
+name = EGCC
+labelpos = N53.25.28 W002.20.10
 points =
-    N53.30.37, W002.37.46
+    N53.30.05, W002.41.10
     N53.33.51, W002.09.41
     N53.25.41, W001.58.38
     N53.13.58, W002.10.29
     N53.09.16, W002.05.58
     N53.07.06, W002.07.23
     N53.11.08, W002.37.44
+    N53.27.00, W002.37.44
 
 
-[area4]
+[area5]
 shape = polygon
 altitude = 3500
-name = MIN
-labelpos = N53.21.11, W002.16.23
+name = MVA
+labelpos = N53.33.59, W001.54.48
 points =
     N53.34.30, W002.04.00
     N53.36.50, W001.52.00
+    N53.27.28, W001.46.05
+    N53.27.02, W001.49.50
+    N53.07.30, W002.01.05
+    N53.10.43, W002.05.03
+    N53.27.30, W001.54.00
 
+
+[area6]
+shape = polygon
+altitude = 3500
+name = CB
+labelpos = N53.29.51, W002.23.21
+points =
+    N53.33.51, W002.09.41
+    N53.26.25, W002.23.00
+    N53.20.55, W002.31.00
+    N53.31.10, W002.31.00
+
+
+[area7]
+shape = polygon
+altitude = 2100
+name = GP
+labelpos = N53.22.38, W002.51.22
+points =
+    N53.18.55, W003.16.47
+    N53.23.09, W003.12.05
+    N53.27.34, W003.03.10
+    N53.30.05, W002.41.10
+    N53.27.00, W002.37.44
+    N53.11.08, W002.37.44
+    N53.11.05, W002.54.08
+    N53.14.27, W003.01.40
+    N53.16.09, W003.07.23
 
 
 [airport1]
@@ -199,14 +237,14 @@ entrypoints =
 
 
 
-#[airport2]
-#name = Liverpool John Lennon Airport
-#code = GP
-#runways =
-#	rwy3, 09, N53.3329, W2.86602, 86.0, 7500, 200, 0, 59
-#
-#climbaltitude = 5000
-#inboundbeacon = WAL
+[airport2]
+name = Liverpool John Lennon Airport
+code = GP
+runways =
+	rwy3, 09, N53.3329, W2.86602, 87, 7500, 200, 0, 59, 3, 87, 3, 267, 0, 0, 0, 0, 126.355
+
+climbaltitude = 4000
+
 
 # REF MCT Dx - These were roughly eyeballed using Google Earth
 # D1.2 - N53.385556, W2.225556
@@ -229,21 +267,21 @@ entrypoints =
 [departure1]
 runway = rwy1, rev
 route1 =
-    SANBA, Sanba 1R
+    SANBA, Sanba 1 Romeo
     N53.327778, W2.33
     N53.326111, W2.391667
     N53.271944, W2.450556
     N53.139444, W2.334167
     
 route2 =
-    KUXEM, Cooksem 1R
+    KUXEM, Cooksem 1 Romeo
     N53.327778, W2.33
     N53.32, W2.476667
     N53.301389, W2.583611
     N53.253056, W2.679722
     
 route3 =
-    EKLAD, Eklad 1R
+    EKLAD, Eklad 1 Romeo
     N53.327778, W2.33
     N53.32, W2.476667
     N53.296667, W2.610556
@@ -251,7 +289,7 @@ route3 =
 	N53.253889, W2.824722
 
 route4 =
-    MONTY, Monty 1R
+    MONTY, Monty 1 Romeo
     N53.327778, W2.33
     N53.32, W2.476667
     N53.296667, W2.610556
@@ -275,21 +313,21 @@ route6 =
 [departure2]
 runway = rwy2, rev
 route1 =
-    SANBA, Sanba 1Y
+    SANBA, Sanba 1 Yankee
     N53.322222, W2.33
     N53.326111, W2.391667
     N53.271944, W2.450556
     N53.139444, W2.334167
 
 route2 =
-    KUXEM, Cooksem 1Y
+    KUXEM, Cooksem 1 Yankee
     N53.322222, W2.33
     N53.32, W2.476667
     N53.301389, W2.583611
     N53.253056, W2.679722
 
 route3 =
-    EKLAD, Eklad 1Y
+    EKLAD, Eklad 1 Yankee
     N53.322222, W2.33
     N53.32, W2.476667
     N53.296667, W2.610556
@@ -297,7 +335,7 @@ route3 =
 	N53.253889, W2.824722
 
 route4 =
-    MONTY, Monty 1Y
+    MONTY, Monty 1 Yankee
     N53.322222, W2.33
     N53.32, W2.476667
     N53.296667, W2.610556
@@ -334,7 +372,7 @@ route2 =
 	N53.143333, W2.199167
 
 route3 =
-    MONTY, Monty 1S
+    MONTY, Monty 1 Siera
     N53.378056, W2.219167
     N53.471389, W2.421667
     N53.391944, W3.134444
@@ -366,7 +404,7 @@ route2 =
     N53.143333, W2.199167
 
 route3 =
-    MONTY, Monty 1Z
+    MONTY, Monty 1 Zulu
     N53.378056, W2.219167
     N53.471389, W2.421667
     N53.391944, W3.134444
@@ -380,6 +418,113 @@ route4 =
 route5 =
     DESIG, Desig
     N53.527222, W1.892778
+
+
+# EGGP
+[departure5]
+runway = rwy3
+route1 =
+    BARTN, Barton 1 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   WAL R081 D16
+    N53.25.58, W002.41.34
+#   WAL R081 D20
+    N53.26.34, W002.34.58
+#   BARTN
+    N53.28.14, W002.25.41
+
+route2 =
+    POL, Pole Hill 5 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   POL R242 D26
+    N53.32.20, W002.44.48
+#   POL
+    N53.44.38, W002.06.12
+
+route3 =
+    REXAM, Rexham 2 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   POL R224 D30
+    N53.22.59, W002.41.07
+#   POL R224 D44
+    N53.12.49, W002.57.12
+#   POL R224 D50
+    N53.08.27, W003.04.04
+#   REXHAM
+    N53.04.00, W003.09.37
+
+route4 =
+    WAL, Wallasey 2 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   WAL R095 D11
+    N53.22.32, W002.49.43
+#   WAL
+    N53.23.31, W003.08.04
+
+route5 =
+    NANTI, Naan tea 2 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   NANTI
+    N53.08.15, W002.34.01
+
+
+[departure6]
+runway = rwy3, rev
+route1 =
+    BARTN, Barton 1 Tango
+#   I-LQ R266 D1.5
+    N53.19.51, W002.53.27, 4000
+#   WAL R081 D10
+    N53.25.04, W002.51.30
+#   WAL R081 D16
+    N53.25.58, W002.41.34
+#   WAL R081 D20
+    N53.26.34, W002.34.58
+#   BARTN
+    N53.28.14, W002.25.41
+
+route2 =
+    POL, Pole Hill 4 Tango
+#   I-LQ R266 D1.5
+    N53.19.51, W002.53.27, 4000
+#   POL R242 D32
+    N53.29.28, W002.53.40
+#   POL R242 D26
+    N53.32.20, W002.44.48
+#   POL
+    N53.44.38, W002.06.12
+
+route3 =
+    REXAM, Rexham 2 Tango
+#   I-LQ R266 D8
+    N53.19.23, W003.04.18, 4000
+#   WAL R184 D6
+    N53.17.29, W003.08.46
+#   WAL R184 D15
+    N53.08.34, W003.09.49
+#   REXHAM
+    N53.04.00, W003.09.37
+
+route4 =
+    WAL, Wallasey 2 Tango
+#   I-LQ R266 D1.5
+    N53.19.51, W002.53.27, 4000
+#   WAL
+    N53.23.31, W003.08.04
+
+route5 =
+    NANTI, Naan tea 2 Tango
+#   I-LQ R266 D1.5
+    N53.19.51, W002.53.27, 4000
+#   WAL R128 D17
+    N53.13.01, W002.45.43
+#   NANTI
+    N53.08.15, W002.34.01
 
 
 # STAR - DAYNE
