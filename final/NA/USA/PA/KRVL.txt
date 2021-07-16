@@ -1,3 +1,7 @@
+# KRVL by Lemuria#0685
+# General aviation airport
+# V0.1 early alpha
+
 [airspace]
 radius = 27
 ceiling = 7500
