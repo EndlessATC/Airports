@@ -1,0 +1,22 @@
+# KRVL by Lemuria#0685
+# General aviation airport
+# V0.1 early alpha
+
+[airspace]
+radius = 27
+ceiling = 7500
+floor = 1300
+elevation = 818
+center = N40.40.39, W77.37.37
+usa = true
+beacons =
+ COFAX, N40.18.46.730, W77.58.00.990
+ STROH, N40.36.56.310, W77.43.09.060
+[airport1]
+name = Mifflin County Airport
+code = KRVL
+runways =
+ rwya, 6, 0, 0, 059, 5001
+airlines =
+ n-123ab, 10, c172/c175/c162/c120/c140/c180/c182/c185/c188
+ n-1234a, 4, c172/p28a
