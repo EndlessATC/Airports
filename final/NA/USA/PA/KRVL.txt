@@ -1,6 +1,7 @@
+
 # KRVL by Lemuria#0685
 # General aviation airport
-# V0.2 early alpha
+# V0.1 early alpha
 #####################
 # sources at bottom #
 #####################
@@ -32,9 +33,14 @@ code = KRVL
 runways =
  rwya, 6, 0, 0, 059, 5001
 airlines =
- n-123ab, 10, c172/c175/c162/c120/c140/c180/c182/c185/c188
- n-1234a, 4, c172/p28a
+# general aviation, common
+ n-123ab, 100, c172/c175/c162/c120/c140/c180/c182/c185/c188
+ n-1234a, 40,  c172
+ c-abcd,  10,  c175/c162
+ c-123ab, 7,   c162
+ n-123ab, 1,   glf5
 
+# # #
 # sources
 # rwy 06 chart
 # https://aeronav.faa.gov/d-tpp/2107/05979R6.PDF
