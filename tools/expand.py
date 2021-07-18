@@ -3,6 +3,7 @@ from collections import deque
 import configparser
 from copy import deepcopy
 from dataclasses import dataclass
+from itertools import chain
 import os
 import re
 from typing import ClassVar, Optional
@@ -378,6 +379,12 @@ class Airline:
     callsigns = None
     use_callsigns = True
     test_callsigns = False
+    phonetic = None
+
+    @classmethod
+    def initialize(cls, callsigns, phonetic):
+        cls.callsigns = callsigns
+        cls.phonetic = phonetic
 
     def __init__(self, callsign, frequency, types, *data, gateways=None):
         """Create an airline from an entry in the airlines= list. `data` should be
@@ -395,6 +402,11 @@ class Airline:
                 if '-' not in callsign:
                     self.pronunciation = Airline.callsigns[callsign]
                 else:
+                    if callsign.endswith('-') and callsign.index('-') != callsign.rindex('-'):
+                        unique = True
+                        callsign = callsign[:-1]
+                    else:
+                        unique = False
                     # if length of key is more than 3, assume it is not registration
                     key = callsign[:callsign.index('-')]
                     self.callsign = callsign.strip('_')
@@ -402,6 +414,13 @@ class Airline:
                     # we strip '_' to allow for mil callsigns with length <= 3
                     self.pronunciation = Airline.callsigns.get(key, key.strip('_')) if len(key) > 3 \
                         else Airline.callsigns.get(key, '0')
+                    if unique:
+                        midpoint = self.callsign.index('-')
+                        if self.pronunciation != '0':
+                            number = self.callsign[midpoint + 1:]
+                            self.pronunciation += " " + " ".join([self.phonetic[digit] for digit in number])
+                        self.callsign = self.callsign[:midpoint] + self.callsign[midpoint + 1:] + '-'
+
             if Airline.test_callsigns:
                 print(f'{self.callsign}: {self.pronunciation}')
             if Airline.callsigns is None or not Airline.use_callsigns:
@@ -417,6 +436,9 @@ class Airline:
         except Exception as e:
             raise ValueError(f'''Could not create airline from ({callsign}, {frequency}, {types}, {str(data)})
 Callsign pronunciation lookup = {Airline.use_callsigns}''') from e
+
+    def definition(self, frequency):
+        return f"{self.callsign}, {frequency}, {self.types}, {self.pronunciation}, {self.directions}"
 
 
 def process_fix_line(line, fixes):
@@ -457,6 +479,15 @@ def process_fix_list(fix_list, fixes):
         `fixes` (dict): A lookup of `Fix`es."""
     for line in fix_list:
         yield process_fix_line(line, fixes)
+
+
+def fix_list_with_altitude(fix_list, altitude):
+    for line in fix_list:
+        if altitude is not None:
+            yield line + ", " + altitude
+            altitude = None
+        else:
+            yield line
 
 
 def _generate_approach(heading, starting_fix):
@@ -534,6 +565,12 @@ def _process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
 
         _process_simple_approach_fix_list(fix_list[:-1], runway, fixes,
             tagged_routes[runway], generated_approaches, current_tag, top_level)
+
+        terminate = False
+        if len(fix_list) > 1:
+            last_fix = fix_list[-2].strip()
+            terminate = last_fix.startswith('end') and last_fix.endswith('hold')
+
         for generated_approach in generated_approaches[runway or current_tag]:
             if 'tag' in generated_approach:
                 tagged_routes[runway][generated_approach['tag']].append(fix_list[-1])
@@ -573,9 +610,10 @@ The requesting approach route was {fix_list}''')
                 following_route = tagged_routes[following_tag_runway][following_tag]
                 if remove_first_fix:
                     following_route = following_route[1:]
-                _process_approach_fix_list(tagged_routes[following_tag_runway][following_tag],
-                    following_tag_runway, fixes, tagged_routes, generated_approaches, following_tag,
-                    False, debug=debug)
+                if not terminate:
+                    _process_approach_fix_list(following_route,
+                        following_tag_runway, fixes, tagged_routes, generated_approaches, following_tag,
+                        False, debug=debug)
     else:
         _process_simple_approach_fix_list(fix_list, runway, fixes,
             tagged_routes[runway], generated_approaches, current_tag, top_level)
@@ -637,7 +675,7 @@ def process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
         raise RuntimeError(f"Tried to process an empty approach route {fix_list} for runway {runway}")
 
 
-def process_departure_fix_list(fix_list, runway, fixes, tagged_routes):
+def process_departure_fix_list(fix_list, runway, airport, fixes, tagged_routes, base_runway=None):
     """Processes special commands in a list of departure fixes
     in short format and produces an iterable of definitions as the result,
     or `None` if there is no result (fix_list was recorded in `tagged_routes`.
@@ -656,42 +694,90 @@ def process_departure_fix_list(fix_list, runway, fixes, tagged_routes):
     Args:
         `fix_list` (list): A list of fix definitions.
         `runway` (str): The runway this departure is for.
+        `airport` (str): The airport this departure is for.
         `fixes` (dict): A lookup of `Fix`es.
-        `tagged_routes` (dict): A lookup of departure routes."""
+        `tagged_routes` (dict): A lookup of tagged departure routes.
+        `base_runway` (str): The runway to reference when looking up tagged routes."""
     if fix_list:
         if runway not in tagged_routes:
             tagged_routes[runway] = {}
+        if airport not in tagged_routes:
+            tagged_routes[airport] = {}
         if fix_list[0].startswith('@'):
             tag = fix_list[0].lstrip('@')
-            tagged_routes[not tag.startswith('!') and runway or None][tag] = fix_list[1:]
+            tag_namespace = airport
+            if tag.startswith('!!'):
+                tag_namespace = None
+            elif tag.startswith('!'):
+                tag_namespace = runway
+            elif runway:
+                tag_namespace = runway
+            else:
+                raise RuntimeError(f"departure tagged {tag} as a runway-specific route, but no runway was specified")
+            tagged_routes[tag_namespace][tag] = fix_list[1:]
             return None
         else:
-            return _process_departure_fix_list(fix_list, runway, fixes, tagged_routes)
+            if base_runway is not None:
+                runway = base_runway
+            return _process_departure_fix_list(fix_list, runway, airport, fixes, tagged_routes)
 
 
-def _process_departure_fix_list(fix_list, runway, fixes, tagged_routes, top_level=True):
+def _process_departure_fix_list(fix_list, runway, airport, fixes, tagged_routes, top_level=True, altitude=None):
     """Inner worker function for `process_departure_fix_list()`.
     This produces the actual generator with the route= lines.
 
     Args:
         `fix_list` (list): A list of fix definitions.
         `runway` (str): The runway this departure is for.
+        `airport` (str): The airport this departure is for.
         `fixes` (dict): A lookup of `Fix`es.
-        `tagged_routes` (dict): A lookup of departure routes."""
+        `tagged_routes` (dict): A lookup of departure routes.
+        `altitude` (str): An altitude to append to the first departure fix."""
     if fix_list:
         try:
             if top_level:
                 yield fix_list[0]
                 fix_list = fix_list[1:]
+                # climb altitude
+                if fix_list[0].strip().isdigit():
+                    if altitude is None:
+                        altitude = fix_list[0].strip()
+                    fix_list = fix_list[1:]
             if fix_list[0].startswith('@'):
                 tag = fix_list[0].lstrip('@')
-                yield from _process_departure_fix_list(
-                    tagged_routes[not tag.startswith('!') and runway or None][fix_list[0].lstrip('@')],
-                    runway, fixes, tagged_routes, top_level=False)
+                if tag.startswith('!') and tag in tagged_routes[None]:
+                    tagged_route = tagged_routes[None][tag]
+                elif tag in tagged_routes[runway]:
+                    tagged_route = tagged_routes[runway][tag]
+                elif tag in tagged_routes[airport]:
+                    tagged_route = tagged_routes[airport][tag]
+                else:
+                    raise KeyError(f"Unable to find route tagged @{tag}")
+                yield from _process_departure_fix_list(tagged_route,
+                    runway, airport, fixes, tagged_routes, top_level=False, altitude=altitude)
                 yield from _process_departure_fix_list(fix_list[1:],
-                    runway, fixes, tagged_routes, top_level=False)
+                    runway, airport, fixes, tagged_routes, top_level=False)
+
+            elif fix_list[-1].startswith('@'):
+                tag = fix_list[-1].lstrip('@')
+                if tag.startswith('!') and tag in tagged_routes[None]:
+                    tagged_route = tagged_routes[None][tag]
+                elif tag in tagged_routes[runway]:
+                    tagged_route = tagged_routes[runway][tag]
+                elif tag in tagged_routes[airport]:
+                    tagged_route = tagged_routes[airport][tag]
+                else:
+                    raise KeyError(f"Unable to find route tagged @{tag}")
+                yield from _process_departure_fix_list(fix_list[:-1],
+                    runway, airport, fixes, tagged_routes, top_level=False, altitude=altitude)
+                yield from _process_departure_fix_list(tagged_route,
+                    runway, airport, fixes, tagged_routes, top_level=False)
+
             else:
+                if altitude is not None:
+                    fix_list = fix_list_with_altitude(fix_list, altitude)
                 yield from process_fix_list(fix_list, fixes)
+
         except Exception as e:
             raise RuntimeError(
                 f"Could not process departure route {fix_list} for runway {runway}"
@@ -716,7 +802,26 @@ def process_sids_fix_list(fix_list, fixes):
             yield line
 
 
-def process_repeatable_departure_fix_list(fix_list, runway, fixes, tagged_routes):
+def process_entrypoints_list(entrypoints_list):
+    """Processes special commands in a list of fixes in minor format
+    and produces an iterable of definitions as the result.
+
+    Substitute any "!<name>[, <extra_data>]" in `fix_list` with
+    "lat, lon[, <extra_data>]" based on `fixes`.
+
+    Args:
+        `entrypoints_list` (list): A list of entrypoints definitions."""
+    for line in entrypoints_list:
+        entrypoint_definition, _, entrypoint_last_parameter = line.rpartition(',')
+        entrypoint_last_parameter = entrypoint_last_parameter.strip()
+        if entrypoint_last_parameter.startswith('*'):
+            for i in range(int(entrypoint_last_parameter.strip('*'))):
+                yield entrypoint_definition
+        else:
+            yield line
+
+
+def process_repeatable_departure_fix_list(fix_list, runway, airport, fixes, tagged_routes, base_runway=None):
     """`Processes special commands in a list of departure fixes
     in short format and produces an iterable of n iterables of
     definitions as the result.
@@ -729,16 +834,20 @@ def process_repeatable_departure_fix_list(fix_list, runway, fixes, tagged_routes
     Args:
         `fix_list` (list): A list of fix definitions.
         `runway` (str): The runway this departure is for.
+        `airport` (str): The airport this departure is for.
         `fixes` (dict): A lookup of `Fix`es.
-        `tagged_routes` (dict): A lookup of departure routes."""
+        `tagged_routes` (dict): A lookup of tagged departure routes.
+        `base_runway` (str): The runway to reference when looking up tagged routes."""
     if not fix_list[0]:
         fix_list = fix_list[1:]
     if fix_list[0].startswith('*'):
-        result = list(process_departure_fix_list(fix_list[1:], runway, fixes, tagged_routes))
+        result = list(process_departure_fix_list(fix_list[1:], runway, airport,
+            fixes, tagged_routes, base_runway))
         for i in range(int(fix_list[0].removeprefix('*'))):
             yield result
     else:
-        yield process_departure_fix_list(fix_list, runway, fixes, tagged_routes)
+        yield process_departure_fix_list(fix_list, runway, airport,
+            fixes, tagged_routes, base_runway)
 
 
 def process_beacons(fixes):
@@ -770,9 +879,9 @@ def process_airlines_list(airline_list):
     for airline in airline_list:
         n, r = divmod(airline.frequency, 10)
         for i in range(n):
-            yield f"{airline.callsign}, 10, {airline.types}, {airline.pronunciation}, {airline.directions}"
+            yield airline.definition(10)
         if r:
-            yield f"{airline.callsign}, {r}, {airline.types}, {airline.pronunciation}, {airline.directions}"
+            yield airline.definition(r)
 
 
 def enumerate_routes(route_list, start=1):
@@ -803,7 +912,8 @@ def process(args, input_file=None, preprocessed_input=None):
     config = configparser.ConfigParser()
     config.read("common.ini")
     config.read(os.path.join(os.path.dirname(input_file), "common.ini"))
-    Airline.callsigns = config['expand.callsigns'] if 'expand.callsigns' in config else {}
+    Airline.initialize(config['expand.callsigns'] if 'expand.callsigns' in config else {},
+        config['expand.phonetic'])
     default_gateways = config['expand.gateways'] if 'expand.gateways' in config else {}
 
     if 'legacy' not in args or not args.legacy:
@@ -878,8 +988,20 @@ def process(args, input_file=None, preprocessed_input=None):
                     area_data['labelpos'] = Fix.fixes[area_position].short_def
 
         # process airport sections
+        runway_to_airport = {}
 
         for airport_data in airports.values():
+
+            airport_code = airport_data['code']
+            airport_code, _, airport_code_full = airport_code.partition(',')
+            if airport_code_full:
+                airport_data['code'] = airport_code
+                airport_code = airport_code_full
+
+            runways = airport_data['runways'].strip().splitlines()
+            for runway_definition in runways:
+                runway_id, _, _ = runway_definition.partition(',')
+                runway_to_airport[runway_id] = airport_code
 
             gateways = dict((tuple(map(str.strip, gateway.split(","))) for gateway in airport_data['gateways'].strip().splitlines()),
                 **default_gateways) if 'gateways' in airport_data else None
@@ -892,6 +1014,10 @@ def process(args, input_file=None, preprocessed_input=None):
             if 'sids' in airport_data:
                 airport_data['sids'] = "\n".join(
                     process_sids_fix_list(airport_data['sids'].splitlines(), Fix.fixes))
+
+            if 'entrypoints' in airport_data:
+                airport_data['entrypoints'] = "\n".join(
+                    process_entrypoints_list(airport_data['entrypoints'].splitlines()))
 
         # process approach/transition sections
         approaches = {section: source[section] for section in source
@@ -963,22 +1089,38 @@ Defined beacon was {generated_approach.beacon}, actual beacon was {approach_beac
                 }
 
         # process departure sections
-        departures = [source[section] for section in source if section.startswith('departure')]
+        common_departures = [source[section] for section in sorted(source) if section.startswith('commondeparture')]
+        departures = [source[section] for section in sorted(source) if section.startswith('departure')]
         tagged_departures = {None: {}}
 
-        for departure_data in departures:
-            departure_runway = departure_data['runway']
-            departure_runway = departure_runway.partition(',')
+        for departure_data in chain(common_departures, departures):
+            if 'common' in departure_data:
+                departure_airport = departure_data['common']
+                departure_runway = None
+                departure_base_runway = None
+            else:
+                departure_runway = departure_data['runway']
+                departure_runway = departure_runway.partition(',')
+                departure_airport = runway_to_airport[departure_runway[0]]
+                departure_base_runway = departure_data.get('baserunway', fallback=None)
+                if departure_base_runway is not None:
+                    departure_base_runway = departure_base_runway.partition(',')
+                    del departure_data['baserunway']
             routes = {int(option.removeprefix('route')): departure_data[option]
                 for option in departure_data if option.startswith('route')}
             processed_routes = []
             for route_index in sorted(routes):
                 processed_routes.extend("\n".join(route) for route in
                     process_repeatable_departure_fix_list(
-                        routes[route_index].splitlines(), departure_runway, Fix.fixes, tagged_departures)
+                        routes[route_index].splitlines(), departure_runway, departure_airport,
+                        Fix.fixes, tagged_departures, departure_base_runway)
                     if route)
                 del departure_data[f'route{route_index}']
             departure_data.update(enumerate_routes(processed_routes, start=1))
+
+        common_departures = [section for section in source if section.startswith('commondeparture')]
+        for section in common_departures:
+            del source[section]
 
         # write output file
         if not args.parse_only:

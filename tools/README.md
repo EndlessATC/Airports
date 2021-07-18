@@ -1,4 +1,4 @@
-# Endless ATC Custom Airport Tools 0.10.1
+# Endless ATC Custom Airport Tools 0.11.0
 
 In this directory are a few tools useful for writing Endless ATC airport files. You can see examples of its usage in `RJTT` and `RJBB`.
 
@@ -35,6 +35,27 @@ Applicable sections:
 *	`[transition]` (deprecated)
 *	`route=`
 
+### Header
+
+The build process results in a fairly minimal file with no comments. To add a header, define it in `[meta]` of the source file:
+
+```INI
+[meta]
+header = RJTT ACA 3.3.0
+	See RJTT_readme.md
+```
+
+A message indicating this file was built using these tools and the location of the source file will be appended after the `header=` message:
+
+```INI
+# RJTT ACA 3.3.0
+# See RJTT_readme.md
+
+# This file is generated from the source file source\RJTT.txt using expand.py.
+# All comments have been stripped, and edits are not made directly to this file.
+# If you would like to contribute, or see the author's comments, please refer to the source file.
+```
+
 ### Fix definitions and references
 
 Fixes defined in `[airspace]` `beacons=` are stored in a database for reference elsewhere in the file.
@@ -64,6 +85,111 @@ Any fixes can be referenced by name later in the following areas using `!<fix_na
 	-	`route=`
 
 The `center=` of the TMA will be made available under the name `_CTR` as a hidden fix.
+
+Example for `handoff=`:
+```INI
+handoff = 
+#T13 (Musashi Sector)
+	!KAGNA, Tokyo Control, Tokyo Control, 132.1
+	!SEDRI, Tokyo Control, Tokyo Control, 132.1
+	!MITOP, Tokyo Control, Tokyo Control, 132.1
+	!DALMA, Tokyo Control, Tokyo Control, 292.4
+#T03 (Kanto North Sector)
+	!KIMIN, Tokyo Control, Tokyo Control, 124.1
+	!AGRIS, Tokyo Control, Tokyo Control, 124.1
+	!CLARK, Tokyo Control, Tokyo Control, 124.1
+	!JD, Tokyo Control, Tokyo Control, 276.1
+```
+
+becomes:
+```INI
+handoff = 259, Tokyo Control, Tokyo Control, 132.1
+	267, Tokyo Control, Tokyo Control, 132.1
+	275, Tokyo Control, Tokyo Control, 132.1
+	261, Tokyo Control, Tokyo Control, 292.4
+	359, Tokyo Control, Tokyo Control, 124.1
+	350, Tokyo Control, Tokyo Control, 124.1
+	336, Tokyo Control, Tokyo Control, 124.1
+	348, Tokyo Control, Tokyo Control, 276.1
+```
+
+### Multiplying entry points
+
+```INI
+entrypoints = 
+#Following line will be repeated 10 times (without the ", *10" at the end)
+	242, SPENS, 22000, *10
+#Following line will be repeated 6 times (without the ", *6" at the end)
+	223, SELNO, 23000, *6
+	123, DOLBA, 22000
+	193, TOPIT, 22000
+#Following line will be repeated 7 times (without the ", *7" at the end)
+	359, TEDIX, 16000, *7
+	64, LALID, 16000
+```
+
+### Airlines
+
+Airlines definitions with a frequency greater than 10 will be split into multiple definitions with frequency 10 or less.
+
+```INI
+#The below will result in 30 lines of "ana, 10, b763, ..." and 10 lines of "ana, 10, b77l, w"
+#The a124 lines will remain the same as they are less than 10 frequency
+airlines = 
+	ana, 300, b763, all nippon, w
+	ana, 100, b77l, all nippon, w
+	vda, 5, a124, volga, nswe
+	adb, 1, a124, antonov, nswe
+```
+
+### Auto airlines callsigns
+
+If callsigns is enabled in meta, callsigns can be omitted in `airlines=`. They will be resolved using the list in `common.ini` in the directory where these tools are located. 
+You can override these callsign definitions (or add local callsigns) in a `common.ini` in the directory of the source file.
+```INI
+[meta]
+header = RJTT ACA 3.3.0
+	See RJTT_readme.md
+callsigns = True
+```
+common.ini:
+```INI
+[expand.callsigns]
+cygns = cygnus
+#if the callsign code portion is less than 2 characters, add an underscore prefix to make it 3 characters
+_jf = japan force
+```
+
+Then in your source file:
+```INI
+airlines = 
+	cygns-1, 10, b77w, nswe
+#if the callsign code portion is less than 2 characters, add an underscore prefix to make it 3 characters
+	_jf-1, 10, b77w, nswe
+```
+Which becomes:
+```INI
+airlines = 
+	cygns-1, 10, b77w, cygnus, nswe
+	jf-1, 10, b77w, japan force, nswe
+```
+
+### Unique aircraft callsign resolution (requires `callsigns = True`)
+
+You can define callsigns with two dashes, one at the end. This will result in a "unique" aircraft of which only one can appear at a time:
+```INI
+airlines = 
+	gaf-1-, 1, a343, nw
+	_jf-1-, 10, b77w, nswe
+```
+becomes:
+```INI
+airlines = 
+	gaf1-, 1, a343, german air force one, nw
+	jf1-, 10, b77w, japan air force one, nswe
+```
+
+Note that the only possible aircraft that can spawn with the above definitions are `GAF1` and `JF1`. The game will be unable to spawn any more than two aircraft as only two unique callsigns can be generated.
 
 ### Advanced fix definitions (requires PyGeodesy)
 
@@ -410,3 +536,11 @@ route = *4
 	- Added feature to calculate headings from fixes for `[airspace] handoff=`.
 *	0.10.1 - 2021/07/01
 	- Bugfix: consider magnetic variation when computing `[airspace] handoff=`.
+*	0.11.0 - 2021/07/18
+	- Entrypoints now support multipliers
+	- Approaches that end with a hold can link to other approaches
+		- In preparation for 4.5.1
+		- To be used to connect to multiple runways
+		- The approach route is not extended with the linked approach
+	- Airlines can be defined with two dashes to define unique traffic
+		- Pronunciation generation added to support this
