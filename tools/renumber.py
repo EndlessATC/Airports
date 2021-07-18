@@ -16,9 +16,9 @@ def process(args, file=None):
         `args`: An `argparse.Namespace`. The command line args from the invoking module.
         `file`: The file to process. Defaults to `input_file` in `args`."""
 
-    header_re = re.compile(r"^(?:\[(?P<header>(?:approach)|(?:transition)|(?:departure)|(?:area)|(?:airport))\d*\])|^(?:route\d? *= *)")
+    header_re = re.compile(r"^(?:\[(?P<header>(?:approach)|(?:transition)|(?:(?:common)?departure)|(?:area)|(?:airport))\d*\])|^(?:route\d? *= *)")
 
-    def number_approach(match, indexes={'approach': 0, 'transition': 0, 'departure': 0, 'area': 0, 'route': 0, 'airport': 0}):
+    def number_approach(match, indexes={'approach': 0, 'transition': 0, 'departure': 0, 'area': 0, 'route': 0, 'airport': 0, 'commondeparture': 0}):
         header = match.group("header")
         if header:
             indexes['route'] = 0
