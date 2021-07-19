@@ -30,6 +30,7 @@ beacons =
 [airport1]
 name = Mifflin County Airport
 code = KRVL
+inboundbeacon = LUCKS
 runways =
  rwya, 6, 0, 0, 059, 5001
 airlines =
