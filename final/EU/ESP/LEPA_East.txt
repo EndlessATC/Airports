@@ -1,7 +1,10 @@
 # Palma de Mallorca (LEPA) Airport East Configuration by asisas2006
+# V0.1 Added all Stars, FIXes and VORes
+# V0.2 Added real holding headings in the fixes, added Star Lines and also added ILS-Z procedures from ADX and MJV
+
 
 [airspace]
-radius = 200
+radius = 100
 elevation = 0
 floor = 3000
 descendaltitude = 10000
@@ -143,7 +146,7 @@ route1 =
    N039.46.28.000, E002.49.17.000,
    N039.42.56.000, E002.42.35.000,
    N39.54940, E2.39586, 5000, 200
-	9, 4000, 210
+   end, hold
 
 [approach2]
 #LORES3M
@@ -158,7 +161,7 @@ route1 =
  N039.46.28.000, E002.49.17.000,
  N039.42.56.000, E002.42.35.000,
  N39.54940, E2.39586,
- 9, 4000, 210
+ end, hold
 
 [approach3]
 #KENAS3M
@@ -226,7 +229,7 @@ route =
  N039.22.21.400, E001.24.38.700
  N039.27.09.700, E002.01.37.100
  N39.54940, E2.39586
- 9, 4000, 210
+ end, hold
 
 [approach9]
 #RUXET2M
@@ -279,11 +282,157 @@ route =
 
 [transition1]
 ##############################################################
-# ILS-Z 06L
+# ILS-Z 06L desde ADX
 runway = rwy1				; runway identifier, <reversed use>
 beacon = ADX		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
-	047
+	0
 	N39.54940, E2.39586
-	10, 3000, 200
+	10, 2000, 210
+
+[transition2]
+##############################################################
+# ILS-Z 06L desde MJV
+runway = rwy1				; runway identifier, <reversed use>
+beacon = MJV		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	0
+	N39.43520, E2.75829
+	N039.24.29.000, E002.34.56.800
+	10, 2000, 210
+
+#TOLSO3M
+[area1	]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N040.30.00.000, E002.23.34.400
+ N040.07.02.000, E002.42.18.000
+ N039.56.07.000, E002.51.06.000
+ N039.46.28.000, E002.49.17.000
+ N039.42.56.000, E002.42.35.000
+ N39.54940, E2.39586
+
+#LORES3M
+[area2]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N040.30.00.000, E002.42.09.300
+ N040.13.11.300, E002.54.18.800
+ N040.02.53.000, E003.01.44.000
+ N039.50.00.000, E002.56.01.000
+ N039.46.28.000, E002.49.17.000
+ N039.42.56.000, E002.42.35.000
+ N39.54940, E2.39586
+
+
+#KENAS3M
+[area3]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+	N040.30.00.000, E003.08.26.600
+	N39.69770, E3.43437
+	N39.43520, E2.75829
+	
+## positions
+# the last point will be automatically connected to the first point
+
+#LUNIK3M
+[area4]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N040.26.22.800, E003.23.32.900
+ N39.69770, E3.43437
+ N39.43520, E2.75829
+
+#RIXOT2M
+[area5]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N040.23.28.350, E004.40.00.000
+ N39.69770, E3.43437
+ N39.43520, E2.75829
+
+#MORSS4M/MAMEB1M
+[area6]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N039.57.24.110, E004.40.00.000
+ N039.51.49.000, E004.12.58.700
+ N39.42730, E3.25672
+ N39.43520, E2.75829
+
+#GODOX3M
+[area7]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N039.22.21.400, E001.24.38.700
+ N039.27.09.700, E002.01.37.100
+ N39.54940, E2.39586
+
+#RUXET2M/LAMPA2M
+[area8]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N038.40.07.710, E000.40.30.000
+ N038.48.06.510, E001.55.26.590
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
+
+#MEBUT3M
+[area9]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N038.45.03.500, E002.13.41.200
+ N039.01.35.140, E002.17.44.950
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
+
+#OSGAL3M
+[area10]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N039.01.29.100, E002.53.59.400
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
