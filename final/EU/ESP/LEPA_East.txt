@@ -1,0 +1,438 @@
+# Palma de Mallorca (LEPA) Airport East Configuration by asisas2006
+# V0.1 Added all Stars, FIXes and VORes
+# V0.2 Added real holding headings in the fixes, added Star Lines and also added ILS-Z procedures from ADX and MJV
+
+
+[airspace]
+radius = 100
+elevation = 0
+floor = 3000
+descendaltitude = 10000
+ceiling = 10000
+above = 18500
+transitionaltitude = 6000
+usa = false
+metric = false
+separation = 5
+automatic = true
+name = approach, departure
+center = N39.551700592, E2.73881006241
+magneticvar = -0.126
+
+
+beacons =
+#FIX
+    RUPIT, N039.27.09.700, E002.01.37.100, -071, Rupit
+	PA400, N039.01.35.140, E002.17.44.950, 0, PA400
+	PA405, N039.19.30.010, E002.47.49.000, 0, PA405
+	TOLSO, N040.30.00.000, E002.23.34.400, 0, Tolso
+	LORES, N040.30.00.000, E002.42.09.300, 0, Lores
+	KENAS, N040.30.00.000, E003.08.26.600, 0, Kenas
+	LUNIK, N040.26.22.800, E003.23.32.900, 0, Lunik
+	RIXOT, N040.23.28.350, E004.40.00.000, 0, Rixot
+	MORSS, N039.57.24.110, E004.40.00.000, 0, Morss
+	GODOX, N039.22.21.400, E001.24.38.700, 0, Godox
+	RUXET, N038.40.07.710, E000.40.30.000, 0, Ruxet
+	MEBUT, N038.45.03.500, E002.13.41.200, 0, Mebut
+	LAMPA, N038.48.06.510, E001.55.26.590, 0, Lampa
+	OSGAL, N039.01.29.100, E002.53.59.400, 0, Osgal
+	MAMEB, N039.45.46.000, E003.59.31.000, 0, Mameb
+	NAKOP, N039.37.21.100, E003.14.21.400, 0, Nakop
+	POSBA, N040.13.11.300, E002.54.18.800, -151, Posba
+	INPUS, N040.07.02.000, E002.42.18.000, -148, Inpus
+	NUDSA, N040.02.53.000, E003.01.44.000, 0, Nudsa
+	NEKUG, N039.56.07.000, E002.51.06.000, 0, Nekug
+	XOTNU, N039.50.00.000, E002.56.01.000, 0, Xotnu
+	TAKUS, N039.46.28.000, E002.49.17.000, 0, Takus
+	EVOLI, N039.42.56.000, E002.42.35.000, 0, Evoli
+	IBIVU, N039.09.31.090, E002.31.00.270, 052, Ibivu
+#VOR
+    MHN, N039.51.49.000, E004.12.58.700, 0, Menorca
+	IBA, N038.52.06.000, E001.21.57.300, 0, Ibiza
+	SSJ, N39.55970, E2.73325, 0, Palma De Mallorca
+	JOA, N39.56470, E2.74663, 0, Palma De Mallorca
+	PA, N39.59940, E2.82118, 0, Palma De Mallorca
+	MJV, N39.43520, E2.75829, -261, Palma De Mallorca
+	CST, N39.64140, E2.91562, 0, Costix
+	ADX, N39.54940, E2.39586, 123, Andraitx
+	PTC, N39.42730, E3.25672, 0, Porto Colom
+	POS, N39.92740, E3.11458, 0, Pollensa
+	CDP, N39.69770, E3.43437, -273, Capdepera
+
+boundary = 
+	-100, -60
+	100, -60
+	100, 80
+	-40, 80
+	-100, 0
+
+#linea de costa
+line1 =
+	N39.75669, E3.24111
+	N39.79009, E3.14531
+	N39.83657, E3.15869
+	N39.86138, E3.19092
+	N39.88984, E3.19863
+	N39.90771, E3.16699
+	N39.92422, E3.16445
+	N39.96108, E3.19756
+	N39.97051, E3.15869
+	N39.90830, E2.90479
+	N39.85483, E2.78496
+	N39.61309, E2.37129
+	N39.57207, E2.37002
+	N39.54038, E2.39434
+	N39.53047, E2.45879
+	N39.47788, E2.49951
+	N39.53066, E2.57588
+	N39.55620, E2.63408
+	N39.54214, E2.70059
+	N39.51025, E2.74600
+	N39.41025, E2.76982
+	N39.38506, E2.79980
+	N39.36836, E2.90010
+	N39.30127, E3.07285
+	N39.33325, E3.15459
+	N39.38662, E3.24473
+	N39.47705, E3.29297
+	N39.55566, E3.34873
+	N39.62715, E3.41465
+	N39.69775, E3.46182
+	N39.76123, E3.44893
+	N39.77729, E3.39590
+	N39.78672, E3.34219
+	N39.75669, E3.24111
+
+
+
+[airport1]
+name = Palma De Mallorca Airport
+code = LEPA
+runways =
+	rwy1, 06L, N39.5471, E2.71073, 58.6, 10728, 0, 230, 15
+	rwy2, 06R, N39.5413, E2.73174, 58.6, 9842, 1345, 0, 24
+
+
+climbaltitude = 4000
+
+entrypoints = 
+ 340, TOLSO, 15000
+ 348, LORES, 15000
+ 10, KENAS
+ 20, LUNIK
+ 45, RIXOT
+ 70, MORSS
+ 170, OSGAL
+ 200, MEBUT
+ 210, LAMPA
+ 250, RUXET
+ 265, GODOX
+ 80, MAMEB
+
+[configurations]
+config1 =
+	0,	rwy1,	land
+	0,	rwy2,	start
+
+[approach1]
+# TOLSO3M
+runway = rwy1
+beacon = tolso
+route1 = 
+   328
+   N040.30.00.000, E002.23.34.400,
+   N040.07.02.000, E002.42.18.000,
+   N039.56.07.000, E002.51.06.000,
+   N039.46.28.000, E002.49.17.000,
+   N039.42.56.000, E002.42.35.000,
+   N39.54940, E2.39586, 5000, 200
+   end, hold
+
+[approach2]
+#LORES3M
+runway = rwy1
+beacon = LORES
+route1 =
+ 331
+ N040.30.00.000, E002.42.09.300,
+ N040.13.11.300, E002.54.18.800,
+ N040.02.53.000, E003.01.44.000,
+ N039.50.00.000, E002.56.01.000,
+ N039.46.28.000, E002.49.17.000,
+ N039.42.56.000, E002.42.35.000,
+ N39.54940, E2.39586,
+ end, hold
+
+[approach3]
+#KENAS3M
+runway = rwy1
+beacon = KENAS
+route1 =
+ 344
+ N040.30.00.000, E003.08.26.600
+ N39.69770, E3.43437
+ N39.43520, E2.75829
+ end, hold
+
+[approach4]
+#LUNIK3M
+runway = rwy1
+beacon = LUNIK
+route =
+ 177
+ N040.26.22.800, E003.23.32.900
+ N39.69770, E3.43437
+ N39.43520, E2.75829
+ end, hold
+
+[approach5]
+#RIXOT2M
+runway = rwy1
+beacon = RIXOT
+route =
+ 053
+ N040.23.28.350, E004.40.00.000
+ N39.69770, E3.43437
+ N39.43520, E2.75829
+ end, hold
+
+[approach6]
+#MORSS4M
+runway = rwy1
+beacon = MORSS
+route =
+ 074
+ N039.57.24.110, E004.40.00.000
+ N039.51.49.000, E004.12.58.700
+ N039.45.46.000, E003.59.31.000
+ N39.42730, E3.25672
+ N39.43520, E2.75829
+ end, hold
+
+[approach7]
+#MAMEB1M
+runway = rwy1
+beacon = MAMEB
+route =
+ 074
+ N039.45.46.000, E003.59.31.000
+ N39.42730, E3.25672
+ N39.43520, E2.75829
+ end, hold
+
+[approach8]
+#GODOX3M
+runway = rwy1
+beacon = GODOX
+route =
+ 080
+ N039.22.21.400, E001.24.38.700
+ N039.27.09.700, E002.01.37.100
+ N39.54940, E2.39586
+ end, hold
+
+[approach9]
+#RUXET2M
+runway = rwy1
+beacon = RUXET
+route =
+ 081
+ N038.40.07.710, E000.40.30.000
+ N038.48.06.510, E001.55.26.590
+ N039.01.35.140, E002.17.44.950
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
+ end, hold
+
+[approach10]
+#LAMPA2M
+runway = rwy1
+beacon = LAMPA
+route =
+ 052
+ N038.48.06.510, E001.55.26.590
+ N039.01.35.140, E002.17.44.950
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
+ end, hold
+
+[approach11]
+#MEBUT3M
+runway = rwy1
+beacon = MEBUT
+route =
+ 010
+ N038.45.03.500, E002.13.41.200
+ N039.01.35.140, E002.17.44.950
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
+ end, hold
+
+[approach12]
+#OSGAL3M
+runway = rwy1
+beacon = OSGAL
+route =
+ 0345
+ N039.01.29.100, E002.53.59.400
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
+ end, hold
+
+
+[transition1]
+##############################################################
+# ILS-Z 06L desde ADX
+runway = rwy1				; runway identifier, <reversed use>
+beacon = ADX		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	0
+	N39.54940, E2.39586
+	10, 2000, 210
+
+[transition2]
+##############################################################
+# ILS-Z 06L desde MJV
+runway = rwy1				; runway identifier, <reversed use>
+beacon = MJV		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	0
+	N39.43520, E2.75829
+	N039.24.29.000, E002.34.56.800
+	10, 2000, 210
+
+#TOLSO3M
+[area1	]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N040.30.00.000, E002.23.34.400
+ N040.07.02.000, E002.42.18.000
+ N039.56.07.000, E002.51.06.000
+ N039.46.28.000, E002.49.17.000
+ N039.42.56.000, E002.42.35.000
+ N39.54940, E2.39586
+
+#LORES3M
+[area2]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N040.30.00.000, E002.42.09.300
+ N040.13.11.300, E002.54.18.800
+ N040.02.53.000, E003.01.44.000
+ N039.50.00.000, E002.56.01.000
+ N039.46.28.000, E002.49.17.000
+ N039.42.56.000, E002.42.35.000
+ N39.54940, E2.39586
+
+
+#KENAS3M
+[area3]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+	N040.30.00.000, E003.08.26.600
+	N39.69770, E3.43437
+	N39.43520, E2.75829
+	
+## positions
+# the last point will be automatically connected to the first point
+
+#LUNIK3M
+[area4]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N040.26.22.800, E003.23.32.900
+ N39.69770, E3.43437
+ N39.43520, E2.75829
+
+#RIXOT2M
+[area5]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N040.23.28.350, E004.40.00.000
+ N39.69770, E3.43437
+ N39.43520, E2.75829
+
+#MORSS4M/MAMEB1M
+[area6]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N039.57.24.110, E004.40.00.000
+ N039.51.49.000, E004.12.58.700
+ N39.42730, E3.25672
+ N39.43520, E2.75829
+
+#GODOX3M
+[area7]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N039.22.21.400, E001.24.38.700
+ N039.27.09.700, E002.01.37.100
+ N39.54940, E2.39586
+
+#RUXET2M/LAMPA2M
+[area8]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N038.40.07.710, E000.40.30.000
+ N038.48.06.510, E001.55.26.590
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
+
+#MEBUT3M
+[area9]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N038.45.03.500, E002.13.41.200
+ N039.01.35.140, E002.17.44.950
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
+
+#OSGAL3M
+[area10]
+shape = polygon		; circle or polygon
+altitude = 0	; minimum allowed altitude in feet
+#name = X		; <name, if omited then planes inbound the main airport may enter this area>
+draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+labelpos = -3.1, 10.9	; <position of label>
+points =
+ N039.01.29.100, E002.53.59.400
+ N039.19.30.010, E002.47.49.000
+ N39.43520, E2.75829
