@@ -1,0 +1,293 @@
+#Made by obamna#9667
+#Including KRDU, North config
+#DM me on discord if you have any questions, comments, suggestions etc!
+
+[airspace]
+elevation = 435
+usa = true
+transition = 18001
+descendaltitude = 11000
+ceiling = 10000
+automatic = true
+name = rallay approach, rallay departure
+center = N35.8776016235, W78.7874984741
+magneticvar = -9.036
+beacons =
+	RDU, N35.87250, W78.78330, 0, Raleigh-Durham
+	ALDAN, N36.23.51.584, W78.56.02.186, 0, Aldan
+	TAQLE, N36.13.50.893, W78.02.52.413, 0, Tackle
+	BLOGS, N35.39.17.438, W78.15.00.256, 0, Blogs
+	MALNR, N35.23.19.983, W79.26.58.453, 0, Mall-Nur
+	
+boundary =
+	N35.28.38.675, W78.36.58.947
+	N35.31.45.773, W78.21.37.382
+	N35.41.37.165, W78.09.14.930
+	N35.55.37.211, W78.13.02.965
+	N36.07.13.772, W78.05.42.876
+	N36.22.50.294, W78.07.42.654
+	N36.27.52.507, W78.16.53.514
+	N36.27.58.569, W78.41.16.211
+	N36.14.24.864, W79.19.17.363
+	N35.25.32.011, W79.34.35.500
+	N35.32.00.302, W79.04.46.928
+	N35.30.42.639, W79.00.10.229
+
+handoff = 
+	360, Washington Center, Washington Center, 132.22
+	090, Washington Center, Washington Center, 118.92
+	180, Washington Center, Washington Center, 118.92
+	270, Washington Center, Washington Center, 132.22
+
+[airport1]
+name = Raleigh Durham International Airport
+code = KRDU
+runways =
+	rwy1, 5L, N35.8745, W78.802, 45.0, 10000, 0, 0, 367, 3, 45.0, 0, 0, 0, 0, 0, 0, 119.3
+	rwy2, 5R, N35.8646, W78.7973, 45.0, 7500, 0, 0, 397, 3, 45.0, 0, 0, 0, 0, 0, 0, 127.45
+	rwy3, 14, N35.875, W78.7827, 135.0, 3570, 0, 0, 432
+
+climbaltitude = 7000
+
+sids =
+	BEXGO, N36.29.53.278, W78.12.01.174, Bex-Go
+	HOOKZ, N35.26.21.209, W78.53.34.975 Hooks
+	HURIC, N35.56.01.243, W78.06.39.688, Hooric
+	LWOOD, N36.10.47.225, W79.26.33.090, L-Wood
+	OXFRD, N36.24.53.323, W78.35.01.591, Oxford
+	ROZBO, N35.30.32.480, W78.42.05.421, Roz-Bo
+	SHPRD, N35.48.44.871, W79.31.47.834, Shepherd
+
+entrypoints = 
+	356, ALDAN
+	067, TAQLE
+	124, BLOGS
+	237, MALNR
+
+airlines =
+	ups, 1, b752/a306/md11, u p s, n
+	ups, 1, a306, u p s, e
+	fft, 1, a321, frontier flight, n
+	fft, 1, a321, frontier flight, n
+	fft, 1, a20n, frontier flight, w
+	fft, 1, a20n, frontier flight, s
+	fft, 1, a20n, frontier flight, e
+	fft, 1, a20n, frontier flight, w
+	fft, 1, a20n, frontier flight, n
+	fdx, 1, b763, fed ex, n
+	fdx, 1, b752, fed ex, n
+	dal, 1, b738, delta, n
+	dal, 1, b738, delta, n
+	dal, 1, b712, delta, n
+	dal, 1, b752, delta, w
+	dal, 1, a319, delta, w
+	dal, 1, a319, delta, w
+	dal, 1, a319, delta, w
+	dal, 1, a319, delta, n
+	dal, 1, a319, delta, w
+	dal, 1, b738, delta, n
+	dal, 1, b763, delta, e
+	aal, 1, a319, american, n
+	aal, 1, a319, american, n
+	aal, 1, a319, american, w
+	aal, 1, a319, american, n
+	aal, 1, a319, american, n
+	aal, 1, a320, american, e
+	aal, 1, b738, american, w
+	aal, 1, b772, american, e
+	ual, 1, b739, united, n
+	ual, 1, a319, united, n
+	ual, 1, b738, united, n
+	ual, 1, b738, united, w
+	ual, 1, b739, united, e
+	ual, 1, b737, united, n
+	nks, 1, a320, spirit wings, w
+	nks, 1, a320, spirit wings, s
+	jbu, 1, e190, jetblue, n
+	jbu, 1, e190, jetblue, n
+	jbu, 1, e190, jetblue, n
+	jbu, 1, e190, jetblue, w
+	jbu, 1, e190, jetblue, s
+	jbu, 1, a320, jetblue, w
+	rpa, 1, e170, brickyard, e
+	rpa, 1, e170, brickyard, w
+	rpa, 1, e75s, brickyard, e
+	rpa, 1, e75s, brickyard, n
+	rpa, 1, e75s, brickyard, e
+	rpa, 1, e75l, brickyard, n
+	swa, 1, b738, southwest, n
+	swa, 1, b738, southwest, n
+	swa, 1, b738, southwest, w
+	swa, 1, b738, southwest, s
+	swa, 1, b737, southwest, w
+	swa, 1, b737, southwest, n
+	swa, 1, b737, southwest, n
+	swa, 1, b737, southwest, n
+	swa, 1, b38m, southwest, n
+	swa, 1, b38m, southwest, w
+	edv, 1, crj9, endevor, e
+	edv, 1, crj9, endevor, n
+	eny, 1, e75l, on voy, s
+	ash, 1, e75l, air shuttle, n
+	ash, 1, e75l, air shuttle, w
+	jia, 1, crj9, blue streak, e
+	asa, 1, b739, alaska, n
+	skw, 1, crj7, sky west, n
+	scx, 1, b738, sun country, n
+
+[area1]
+# Final
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N35.58.02.844, W78.53.54.545
+	N35.41.40.881, W79.14.14.289
+	N35.31.54.793, W79.03.59.833
+	N35.31.20.291, W78.59.07.641
+	N35.49.08.037, W78.37.49.492
+	N35.50.00.925, W78.37.18.934
+	N35.53.46.373, W78.41.43.514
+	N35.52.37.934, W78.47.13.916
+	N35.57.28.349, W78.46.07.324
+	N36.00.51.589, W78.50.08.028
+
+[area2]
+# W
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N35.58.02.844, W78.53.54.545
+	N36.01.39.086, W78.53.31.150
+	N36.05.50.019, W78.59.21.944
+	N36.03.53.242, W79.22.40.803
+	N35.45.13.368, W79.28.29.081
+	N35.48.44.059, W79.05.40.711
+
+[area3]
+# N
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N36.26.07.248, W78.46.36.553
+	N36.20.04.960, W78.48.59.085
+	N36.01.37.083, W78.45.32.666
+	N35.59.02.465, W78.40.41.962
+	N36.00.25.309, W78.38.58.259
+	N36.14.21.314, W78.17.52.862
+	N36.24.36.103, W78.10.55.248
+	N36.27.53.578, W78.16.52.574
+	N36.27.58.569, W78.41.16.211
+
+[area4]
+# E
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N36.05.31.317, W78.06.47.489
+	N35.57.22.109, W78.30.52.015
+	N35.56.45.246, W78.31.42.499
+	N35.50.41.745, W78.32.01.658	
+	N35.47.54.430, W78.10.57.835
+	N35.55.35.558, W78.13.02.203
+
+[area5]
+# S
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N35.31.24.153, W78.21.35.096
+	N35.28.38.675, W78.36.58.947
+	N35.31.20.291, W78.59.07.641
+	N35.44.49.191, W78.43.04.817
+	N35.49.08.037, W78.37.49.492
+
+[area6]
+# Malnr Tri
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N35.42.11.547, W79.29.26.062
+	N35.32.00.901, W79.04.54.696
+	N35.25.32.011, W79.34.35.500
+
+[approach1]
+runway = rwy1
+beacon = ALDAN
+route1 =
+	176
+	N36.23.51.584, W78.56.02.186, 11000, 250
+	N36.14.33.114, W78.53.19.493, 9000, 250
+	N36.03.17.707, W78.50.10.447, 8000, 220
+	N35.58.07.206, W78.49.33.765, 7000
+	N35.54.58.989, W78.53.30.297, 6000, 210
+	end, 234
+
+[approach2]
+runway = rwy2
+beacon = TAQLE
+route1 =
+	255
+	N36.13.50.893, W78.02.52.413
+	N36.12.22.055, W78.06.23.673
+	N36.08.51.626, W78.16.49.057
+	N35.59.54.023, W78.31.00.466, 9000, 250
+	N35.51.28.317, W78.39.25.137, 7000, 220
+	N35.47.18.937, W78.44.25.731, 6000, 210
+	end, 234
+
+[approach3]
+runway = rwy2
+beacon = BLOGS
+route1 =
+	309
+	N35.39.17.438, W78.15.00.256, 11000, 250
+	N35.43.26.284, W78.23.54.943, 9000
+	N35.48.41.654, W78.34.11.268, 8000, 220
+	N35.51.28.317, W78.39.25.137, 7000, 220
+	N35.47.18.937, W78.44.25.731, 6000, 210
+	end, 234
+	
+[approach4]
+runway = rwy1
+beacon = MALNR
+route1 =
+	030
+	N35.23.19.983, W79.26.58.453, 11000
+	N35.29.11.988, W79.24.20.225, 9000, 250
+	N35.38.52.063, W79.07.10.677, 6000, 210
+	15.1, 5000, 210
+
+[approach5]
+runway = rwy2
+beacon = MALNR
+route1 =
+	030
+	N35.23.19.983, W79.26.58.453, 11000
+	N35.29.11.988, W79.24.20.225, 9000, 250
+	N35.38.52.063, W79.07.10.677, 6000, 210
+	15.1, 5000, 210
+
+[configurations]
+#LAND NE
+config1 =
+	0, rwy1, landstart, 054, nosid
+	0, rwy2, landstart, 054, nosid
+	0, rwy3, landrev
+
+#LAND NE, 5R
+config2 = 
+	0, rwy1, start, 054, nosid
+	0, rwy2, land
+	0, rwy3, land
+
+#LAND NE, 5L
+config3 = 
+	0, rwy1, land
+	0, rwy2, start, 054, nosid
+	0, rwy3, land
