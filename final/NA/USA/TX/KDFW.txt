@@ -1,0 +1,649 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+radius = 45
+elevation = 607
+usa = true
+transition = 18001
+center = N32.896801, W97.038002
+magneticvar = 5.183
+automatic = true
+beacons =
+	TTT, N32.86920, W97.04050, 0, Maverick
+	FL, N32.99580, W97.02960, 0, Jiffy
+	CVE, N32.89030, W96.90400, 0, Cowboy
+	FUZ, N32.88950, W97.17940, 0, Ranger
+	FTW, N32.8197, W97.3631, 0, Meacham
+	AD, N33.04430, W96.87050, 0, Brons
+	LV, N32.77480, W96.77530, 0, Conis
+	RBD, N32.67690, W96.87110, 0, Redbird
+	FT, N32.89300, W97.37350, 0, Mufin
+	NFW, N32.77150, W97.43950, 0, Fort Worth Nas Jrb
+	LNC, N32.57760, W96.72170, 0, Lancaster
+	PQF, N32.80940, W96.52910, 0, Mesquite
+	JUG, N32.66810, W96.53220, 0, Jecca
+	AVZ, N32.76010, W96.24910, 0, Travis
+	MII, N33.04040, W96.24860, 0, Caddo Mills
+	SYW, N32.98190, W96.06730, 0, Cash
+	MQP, N32.72620, W97.99740, 0, Millsap
+	GLE, N33.71870, W97.19870, 0, Gainesville
+	MJF, N33.06630, W96.06140, 0, Arvilla
+	GV, N33.15630, W96.06360, 0, Major
+	UKW, N33.53590, W97.82130, 0, Bowie
+	BYP, N33.53750, W96.23410, 0, Bonham
+	GMZ, N33.60540, W97.77340, 0, Grindstone Mountain
+	CGQ, N32.06400, W96.42800, 0, Powell
+	CQY, N32.18570, W96.21810, 0, Cedar Creek
+	JEN, N32.15960, W97.87770, 0, Glen Rose
+# AKUNA Sid
+#	HAZKL, N33.04.15.040, W97.03.11.580, 0, Haskel
+#	RYNNE, N33.09.13.300, W97.03.55.920, 0, Rine
+	AKUNA, N33.27.02.480, W96.49.23.300, 0, Akuna
+#	CUZEN, N33.04.39.550, W97.01.30.120, 0, Cousin
+#	ITTTT, N33.07.35.250, W96.59.55.610, 0, It
+#	BPARK, N32.46.31.760, W97.04.51.510, 0, Bee Park
+#	YAMEL, N32.45.55.700, W97.08.20.050, 0, Yammel
+#	FIRMN, N32.46.17.770, W97.14.28.770, 0, Fireman
+#	BINGM, N32.50.27.250, W97.16.27.440, 0, Bingem
+#	BEMMR, N33.00.06.190, W97.16.13.390, 0, Beamer
+#	SPERA, N32.46.57.750, W96.59.42.050, 0, Spare Uh
+#	JGIRL, N32.45.54.360, W96.56.21.630, 0, Jay Girl
+#	CORTS, N32.46.07.650, W96.49.53.590, 0, Courts
+#	BIGGD, N32.51.31.590, W96.48.33.100, 0, Big D
+#	CMORE, N32.59.16.660, W96.48.32.490, 0, S'more
+# ALIAN Sid
+#	GVINE, N33.00.43.500, W97.04.53.560, 0, Given
+#	KMART, N33.00.25.190, W97.10.02.470, 0, Kay Mart
+#	MARSN, N32.59.59.380, W97.14.24.030, 0, Martian
+#	LARRN, N32.42.28.170, W97.03.15.360, 0, Lauren
+#	GIGEM, N32.41.27.700, W97.08.14.400, 0, Gigem
+#	RBBIT, N32.40.40.950, W97.44.02.400, 0, Rabbit
+#	FUMED, N32.40.59.540, W98.13.32.780, 0, Fumed
+	ALIAN, N32.41.14.020, W99.13.23.240, 0, Alien
+# ARDIA Sid
+#	KELLR, N32.57.08.700, W97.17.37.660, 0, Kellerr
+#	MYGAL, N32.46.47.910, W97.17.04.530, 0, My Gal
+	ARDIA, N32.17.06.260, W96.56.16.320, 0, Ardia
+#	MECHL, N33.01.13.000, W96.59.51.000, 0, Mechal
+#	BORDD, N33.00.49.610, W96.55.21.910, 0, Board
+#	OWLLS, N32.57.33.210, W96.47.19.770, 0, Owls
+#	SKTRR, N32.45.21.790, W96.47.32.890, 0, Skater
+#	TREXX, N32.42.27.800, W97.01.48.530, 0, Tee Rex
+#	DALBY, N32.36.29.230, W96.58.44.880, 0, Dalbey
+#	NEAPS, N32.33.00.030, W96.58.18.080, 0, Neaps
+#	LIZIE, N32.36.27.460, W97.03.19.170, 0, Lizzie
+#	CUTSO, N32.32.37.710, W97.01.55.260, 0, Cut So
+# DARTZ Sid
+#	CALEK, N32.33.04.030, W97.00.47.690, 0, Calek
+#	OUTTR, N32.34.10.960, W96.57.37.270, 0, Outer
+	DARTZ, N32.17.08.720, W96.48.39.780, 0, Darts
+# FORCK Sid
+#	JYMME, N33.00.33.000, W96.51.43.090, 0, Jim
+#	JOLEN, N32.41.17.630, W96.56.17.680, 0, Jolen
+#	PAXTN, N32.41.50.420, W96.48.10.390, 0, Paxton
+#	HANUH, N32.47.49.140, W96.20.00.180, 0, Hannah
+#	LYING, N32.50.52.670, W95.50.20.650, 0, Lieing
+	FORCK, N32.59.47.520, W94.16.11.340, 0, Fork
+# CURLO Sid
+	DRSET, N32.45.36.470, W96.45.05.030, 0, Der Set
+	HAYZZ, N32.42.43.890, W96.41.45.620, 0, Haze
+	CURLO, N32.36.53.180, W96.44.58.250, 0, Cure Low
+# EMMTT Sid
+	FLOWT, N32.54.09.840, W96.55.22.970, 0, Float
+	WIGIS, N32.57.28.710, W96.52.45.790, 0, Wigis
+	EMMTT, N32.57.56.540, W96.47.29.390, 0, Emmett
+# KKITY Sid
+	KKITY, N32.36.59.050, W97.19.52.780, 0, Kitty
+# BEREE Star
+	BEREE, N32.16.37.510, W96.19.32.540, 0, Berry
+	BELLS, N32.29.12.000, W96.34.00.000, 0, Bells
+	TACKE, N32.34.00.000, W96.39.30.000, 0, Tack
+	WARDZ, N32.39.30.000, W96.45.42.000, 0, Wards
+	DIETZ, N32.47.36.000, W96.54.54.000, 0, Diets
+	WHOOT, N32.59.28.020, W96.54.49.420, 0, Hoot
+	HEDMN, N33.11.45.900, W96.54.44.670, 0, Head Man
+# BOOVE Star
+	BOOVE, N32.22.57.360, W97.37.29.420, 0, Boov
+	SHMPP, N32.26.04.880, W97.33.55.870, 0, Shamp
+	ZROBA, N32.30.31.210, W97.28.51.950, 0, Zorba
+	CURLE, N32.34.21.860, W97.24.28.150, 0, Curly
+	MOWWW, N32.40.07.010, W97.17.52.360, 0, Moe
+	DELMO, N32.46.54.940, W97.10.03.080, 0, Dell Moe
+	LREEE, N32.59.46.290, W97.09.54.280, 0, Larry
+	BEONE, N33.11.49.650, W97.09.46.010, 0, Beone
+	RJAYY, N32.30.59.130, W97.24.00.040, 0, Are Jay
+# JOVEM Star
+	VKTRY, N33.23.02.040, W97.38.30.160, 0, Victory
+	JOVEM, N33.16.42.200, W97.31.03.360, 0, Jove Em
+	MSSLE, N33.07.19.910, W97.20.05.460, 0, Missle
+	SILER, N32.58.53.330, W97.10.14.920, 0, Siller
+	KBOOM, N32.47.58.120, W97.09.38.880, 0, Ka Boom
+	FUEWL, N32.35.38.430, W97.09.28.880, 0, Fuel
+	PHAUP, N33.15.38.360, W97.14.34.420, 0, Faup
+# BACHR Star
+	KNEAD, N32.16.45.650, W97.29.09.610, 0, Knead
+	BREES, N32.22.53.900, W97.14.20.230, 0, Breeze
+	TUFIT, N32.27.07.860, W97.03.56.260, 0, Tough It
+	RVLEY, N32.31.15.550, W96.53.29.200, 0, Are Vley
+	BGTEX, N32.34.06.580, W96.46.36.640, 0, Big Tex
+	QUYNN, N32.40.54.010, W96.36.09.160, 0, Kwin
+	REDDN, N32.44.11.840, W96.35.57.340, 0, Reddin
+	BACHR, N32.48.39.190, W96.40.42.960, 0, Baker
+# CRIKT Star
+	FINGR, N33.15.47.650, W96.20.01.790, 0, Finger
+	
+line1 =
+	N32.84593, W98.39918
+	N32.83727, W98.34037
+	N32.85324, W98.25842
+	N32.83562, W98.20116
+	N32.78441, W98.16871
+	N32.75195, W98.17612
+	N32.73901, W98.19434
+	N32.71924, W98.18628
+	N32.70374, W98.15581
+	N32.64855, W97.97319
+	N32.57359, W97.85043
+	N32.47884, W97.78754
+	N32.41564, W97.71623
+	N32.38402, W97.63649
+	N32.35772, W97.62300
+	N32.33679, W97.67582
+	N32.30348, W97.69550
+	N32.25785, W97.68207
+	N32.21256, W97.63236
+	N32.16760, W97.54637
+	N32.15685, W97.49789
+	N32.16760, W97.47392
+	N32.16264, W97.46399
+	N32.15243, W97.46151
+	N32.08980, W97.46627
+	N32.00306, W97.41738
+
+[airport1]
+name = Dallas Fort Worth International Airport, Dallas 
+code = KDFW
+runways =
+	rwy1, 13L, N32.9126, W97.0215, 135.3, 9000, 625, 0, 550
+	rwy2, 13R, N32.9096, W97.0831, 139.0, 9301, 0, 0, 591
+	rwy3, 17C, N32.9157, W97.026, 180.3, 13401, 0, 0, 562
+	rwy4, 17L, N32.8983, W97.0098, 180.3, 8500, 0, 0, 524
+	rwy5, 17R, N32.9157, W97.0299, 180.3, 13401, 0, 0, 567
+	rwy6, 18L, N32.9158, W97.0507, 180.2, 13400, 0, 0, 602
+	rwy7, 18R, N32.9158, W97.0546, 180.3, 13400, 0, 0, 607
+airlines = aal, 10, a319/a320/a321/a21n/a332/a333/b734/b738/b38m/b752/b763/b772/b77w/b788/b789/e190/md81/md82/md83, american, nswe
+	eny, 4, e140/e145/e170/e175, envoy, nswe
+	ash, 3, crj9, air shuttle, sw
+	pdt, 2, e145/dh8a/dh8c, piedmont, ne
+	sli, 1, e145/e190, costera, s
+	jza, 1, dh8a/dh8c/dh8d/crj2/crj9/e75s/e75l, jazz, n
+	afr, 1, a332/a343/a359/b772/b77w/b744/b789, air france, n
+	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, n
+	tai, 1, a319/a320/a20n/a321, taca, s
+	btq, 1, pc12, boutique, w
+	baw, 1, a35k/b744/b772/b77w/b788/b789/b78x, speedbird, n
+	dal, 1, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, new
+	edv, 1, crj2/crj7/crj9, endeavour, n
+	rpa, 1, e170/e75s/e75l, brickyard, n
+	skw, 1, crj2/crj7/crj9/e175, skywest, n
+	uae, 1, a343/a345/b772/b77l/b773/b77w, emirates, n
+	fft, 1, a318/a319/a320/a20n/a321/a21n, frontier flight, n
+	jal, 1, a359/a35k/b763/b772/b773/b77w/b788/b789, japan air, n
+	jbu, 1, a320/a321/a21n/e190, JetBlue, ne
+	kal, 1, a332/a333/b744/b748/b772/b77l/b773/b77w/b789/b78x, korean air, n
+	dlh, 1, a333/a343/a346/a359/b744/b748, lufthansa, n
+	qfa, 1, a332/a333/a388/b744/b789, qantas, n
+	qtr, 1, a332/a333/a359/a35k/b77l/b77w/b788/b789/b748, qatari, n
+	fdy, 1, c208/c550, friendly, n
+	nks, 1, a319/a19n/a320/a20n/a321/a21n, spirit wings, new
+	scx, 1, b737/b738/b734, sun country, new
+	ual, 1, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b752/b753, united, new
+	awi, 1, crj2, wisconsin, n
+	uca, 1, dh8b/dh8c/e145/e45x, commutair, ew
+	asq, 1, e45x, acey, n
+	viv, 1, a320/a20n/a21n, aeroenlaces, s
+	voi, 1, a319/a320/a20n/a321/a21n, volaris, s
+	box, 1, b77l, german cargo, e
+	abw, 1, b742/b743/b744/b748/b77l, air bridge cargo, ne
+	cao, 1, b744/b77l, air china freight, w
+	gti, 1, b738/b763, giant, ne
+	amf, 1, sw4/b190/e120, amflight, new
+	ajt, 1, a321/b721/b722/b762/b763, amerijet, w
+	aar, 1, b744, asiana, n
+	tay, 1, b744, quality, n
+	tpa, 1, a332, Tampa, s
+	cjt, 1, b752/b762/b763, cargojet, ns
+	clx, 1, b744/b748, cargolux, n
+	icv, 1, b744, cargolux Italia, n
+	cpa, 1, b744/b748, cathay, n
+	cal, 1, b744/b77l, dynasty, n
+	cfs, 1, c208/at43/at72, empire, w
+	eva, 1, b744/b77l/md11, eva, w
+	fdx, 1, a306/a310/b721/b722/b752/b763/dc10/md10/md11, fed ex, new
+	gec, 1, b77l/md11, lufthansa cargo, ne
+	mra, 1, c208, martex, n
+	nca, 1, b744/b748, nippon cargo, w
+	azg, 1, b744/b748, silk west, n
+	sqc, 1, b744, sing cargo, n
+	ups, 1, a306/b744/b748/b752/b763/dc87/md11, u p s, ne
+# specials
+	plm, 1, a332/a333/b744, pullman, n
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	nos, 1, b763/b789, moon flower, n
+	sjx, 1, a339/a359/a35k, star walker, n
+	crk, 1, a332/a333/a359, bauheenia, n
+	ujc, 1, j328, ultimate, n
+	bel, 1, a332/a333, beeline, n
+	csa, 1, a333, csa, n
+	bvn, 1, c208, show me, n
+	jsx, 1, e135/e145, big stripe, w
+	adb, 1, a124/a225, antonov bureau, n
+	css, 1, b744, shun feng, n
+	qxe, 1, crj7/dh8b/dh8d/e175, horizon, n
+	tcx, 1, a332/b763, kestral, n
+	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	maa, 1, b762/b763, mas carga, s
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, new
+	
+entrypoints =
+	132, BELLS
+	220, BOOVE
+	311, VKTRY
+
+[departure1]
+runway = rwy5
+route1 =
+	AKUNA9, Akuna Nine
+	N32.46.57.750, W96.59.42.050
+	N32.45.54.360, W96.56.21.630
+	N32.46.07.650, W96.49.53.590
+	N32.51.31.590, W96.48.33.100
+	N32.59.16.660, W96.48.32.490
+	N33.27.02.480, W96.49.23.300
+	
+route2 =
+	ALIAN2, Alien Two
+	N32.42.28.170, W97.03.15.360
+	N32.41.27.700, W97.08.14.400
+	N32.40.40.950, W97.44.02.400
+	N32.40.59.540, W98.13.32.780
+	N32.41.14.020, W99.13.23.240
+	
+route3 =
+	ARDIA7, Ardia Seven
+	N32.42.27.800, W97.01.48.530
+	N32.36.29.230, W96.58.44.880
+	N32.33.00.030, W96.58.18.080
+	N32.17.06.260, W96.56.16.320
+	
+route4 =
+	DARTZ8, Darts Eight
+	N32.42.27.800, W97.01.48.530
+	N32.36.29.230, W96.58.44.880
+	N32.34.10.960, W96.57.37.270
+	N32.17.08.720, W96.48.39.780
+	
+route5 =
+	FORCK2, Fork Two
+	N32.42.27.800, W97.01.48.530
+	N32.41.17.630, W96.56.17.680
+	N32.41.50.420, W96.48.10.390
+	N32.47.49.140, W96.20.00.180
+	N32.50.52.670, W95.50.20.650
+	N32.59.47.520, W94.16.11.340
+	
+[departure2]
+runway = rwy6
+route6 =
+	AKUNA9, Akuna Nine
+	N32.46.31.760, W97.04.51.510
+	N32.45.55.700, W97.08.20.050
+	N32.46.17.770, W97.14.28.770
+	N32.50.27.250, W97.16.27.440
+	N33.00.06.190, W97.16.13.390
+	N33.27.02.480, W96.49.23.300
+
+route7 = 
+	ALIAN2, Alien Two
+	N32.42.28.170, W97.03.15.360
+	N32.41.27.700, W97.08.14.400
+	N32.40.40.950, W97.44.02.400
+	N32.40.59.540, W98.13.32.780
+	N32.41.14.020, W99.13.23.240
+	
+route8 =
+	ARDIA7, Ardia Seven
+	N32.42.28.170, W97.03.15.360
+	N32.36.27.460, W97.03.19.170
+	N32.32.37.710, W97.01.55.260
+	N32.17.06.260, W96.56.16.320
+	
+route9 =
+	DARTZ8, Darts Eight
+	N32.42.28.170, W97.03.15.360
+	N32.36.27.460, W97.03.19.170
+	N32.33.04.030, W97.00.47.690
+	N32.17.08.720, W96.48.39.780
+	
+route10 =
+	FORCK2, Fork Two
+	N32.42.27.800, W97.01.48.530
+	N32.41.17.630, W96.56.17.680
+	N32.41.50.420, W96.48.10.390
+	N32.47.49.140, W96.20.00.180
+	N32.50.52.670, W95.50.20.650
+	N32.59.47.520, W94.16.11.340
+	
+[departure3]
+runway = rwy5, rev
+route11 =
+	AKUNA9, Akuna Nine
+	N33.04.39.550, W97.01.30.120
+	N33.07.35.250, W96.59.55.610
+	N33.27.02.480, W96.49.23.300
+	
+route12 =
+	ALIAN2, Alien Two
+	N33.00.43.500, W97.04.53.560
+	N33.00.25.190, W97.10.02.470
+	N32.59.59.380, W97.14.24.030
+	N32.40.40.950, W97.44.02.400
+	N32.40.59.540, W98.13.32.780
+	N32.41.14.020, W99.13.23.240
+	
+route13 =
+	ARDIA7, Ardia Seven
+	N33.01.13.000, W96.59.51.000
+	N33.00.49.610, W96.55.21.910
+	N33.00.33.000, W96.51.43.090
+	N32.57.33.210, W96.47.19.770
+	N32.17.06.260, W96.56.16.320
+	
+route14 =
+	DARTZ8, Darts Eight
+	N33.01.13.000, W96.59.51.000
+	N33.00.49.610, W96.55.21.910
+	N32.57.33.210, W96.47.19.770
+	N32.45.21.790, W96.47.32.890
+	N32.17.08.720, W96.48.39.780
+	
+route15 =
+	FORCK2, Fork Two
+	N33.01.13.000, W96.59.51.000
+	N33.00.49.610, W96.55.21.910
+	N32.57.33.210, W96.47.19.770
+	N32.47.49.140, W96.20.00.180
+	N32.50.52.670, W95.50.20.650
+	N32.59.47.520, W94.16.11.340
+	
+[departure4]
+runway = rwy6, rev
+route16 =
+	AKUNA9, Akuna Nine
+	N33.04.15.040, W97.03.11.580
+	N33.09.13.300, W97.03.55.920
+	N33.27.02.480, W96.49.23.300
+	
+route17 =
+	ALIAN2, Alien Two
+	N33.00.43.500, W97.04.53.560
+	N33.00.25.190, W97.10.02.470
+	N32.59.59.380, W97.14.24.030
+	N32.40.40.950, W97.44.02.400
+	N32.40.59.540, W98.13.32.780
+	N32.41.14.020, W99.13.23.240
+	
+route18 =
+	ARDIA7, Ardia Seven
+	N33.00.43.500, W97.04.53.560
+	N33.00.25.190, W97.10.02.470
+	N32.59.59.380, W97.14.24.030
+	N32.46.47.910, W97.17.04.530
+	N32.17.06.260, W96.56.16.320
+	
+route19 =
+	DARTZ8, Darts Eight
+	N33.00.43.500, W97.04.53.560
+	N33.00.25.190, W97.10.02.470
+	N32.59.59.380, W97.14.24.030
+	N32.46.47.910, W97.17.04.530
+	N32.17.08.720, W96.48.39.780
+	
+route20 =
+	FORCK2, Fork Two
+	N33.01.13.000, W96.59.51.000
+	N33.00.49.610, W96.55.21.910
+	N32.57.33.210, W96.47.19.770
+	N32.47.49.140, W96.20.00.180
+	N32.50.52.670, W95.50.20.650
+	N32.59.47.520, W94.16.11.340
+	
+[approach1]
+runway = rwy4
+beacon = BELLS
+route21 =
+	132
+	N32.29.12.000, W96.34.00.000
+	N32.34.00.000, W96.39.30.000
+	N32.39.30.000, W96.45.42.000
+	N32.47.36.000, W96.54.54.000
+	N32.59.28.020, W96.54.49.420
+	N33.11.45.900, W96.54.44.670
+	end, 356
+	
+[approach2]
+runway = rwy7
+beacon = BOOVE
+route22 =
+	220
+	N32.22.57.360, W97.37.29.420
+	N32.26.04.880, W97.33.55.870
+	N32.30.31.210, W97.28.51.950
+	N32.34.21.860, W97.24.28.150
+	N32.40.07.010, W97.17.52.360
+	N32.46.54.940, W97.10.03.080
+	N32.59.46.290, W97.09.54.280
+	N33.11.49.650, W97.09.46.010
+	end, 357
+	
+[approach3]
+runway = rwy7
+beacon = VKTRY
+route23 =
+	311
+	N33.23.02.040, W97.38.30.160
+	N33.15.38.360, W97.14.34.420, 5000
+	end, 090
+	
+[approach4]
+runway = rwy4, rev
+beacon = BELLS
+route24 =
+	132
+	N32.29.12.000, W96.34.00.000
+	N32.34.00.000, W96.39.30.000
+	end, 270
+	
+[approach5]
+runway = rwy7, rev
+beacon = BOOVE
+route25 =
+	220
+	N32.22.57.360, W97.37.29.420
+	N32.26.04.880, W97.33.55.870
+	N32.30.31.210, W97.28.51.950
+	N32.30.59.130, W97.24.00.040
+	end, 080
+	
+[approach6]
+runway = rwy7, rev
+beacon = VKTRY
+route26 =
+	311
+	N33.23.02.040, W97.38.30.160
+	N33.16.42.200, W97.31.03.360
+	N33.07.19.910, W97.20.05.460
+	N32.58.53.330, W97.10.14.920
+	N32.47.58.120, W97.09.38.880
+	N32.35.38.430, W97.09.28.880
+	end, 176
+
+[airport2]
+name = Love Field
+code = AL
+runways =
+	rwy8, 13L, N32.8573, W96.8568, 135.6, 7752, 0, 0, 477
+	rwy9, 13R, N32.8513, W96.8635, 135.6, 8800, 0, 0, 476
+inboundbeacon = CVE
+airlines = swa, 7, b733/b735/b737/b37m/b738/b38m, southwest, nswe
+	asa, 2, a319/a320/a21n/b737/b738/b739/b39m, alaska, nw
+	dal, 1, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, e
+	jsx, 1, e135/e145, big stripe, e
+	ujc, 1, j328, ultimate, w
+	wsn, 1, j328, wingspan, w
+	n-7788i, 1, fa7x/fa8x/gl5t/gl7t/gl8t/glex, n
+	n-9999a, 1, glf4/glf5/glf6, n
+# specials
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	qxe, 1, crj7/dh8b/dh8d/e175, horizon, n
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, ne
+	
+entrypoints =
+	261, KNEAD
+
+[departure5]
+runway = rwy8
+route27 =
+	CURLO5, Cure Low Five
+	N32.45.36.470, W96.45.05.030
+	N32.42.43.890, W96.41.45.620
+	N32.36.53.180, W96.44.58.250
+	
+route28 =
+	EMMTT4, Emmett Four
+	N32.54.09.840, W96.55.22.970
+	N32.57.28.710, W96.52.45.790
+	N32.57.56.540, W96.47.29.390
+
+route29 =
+	KKITY5, Kitty Five
+	N32.45.36.470, W96.45.05.030
+	N32.42.43.890, W96.41.45.620
+	N32.36.53.180, W96.44.58.250
+	N32.36.59.050, W97.19.52.780
+	
+[departure6]
+runway = rwy9
+route30 =
+	CURLO5, Cure Low Five
+	N32.45.36.470, W96.45.05.030
+	N32.42.43.890, W96.41.45.620
+	N32.36.53.180, W96.44.58.250
+	
+route31 =
+	EMMTT4, Emmett Four
+	N32.54.09.840, W96.55.22.970
+	N32.57.28.710, W96.52.45.790
+	N32.57.56.540, W96.47.29.390
+
+route32 =
+	KKITY5, Kitty Five
+	N32.45.36.470, W96.45.05.030
+	N32.42.43.890, W96.41.45.620
+	N32.36.53.180, W96.44.58.250
+	N32.36.59.050, W97.19.52.780
+	
+[departure7]
+runway = rwy8, rev
+route33 =
+	CURLO5, Cure Low Five
+	N32.45.36.470, W96.45.05.030
+	N32.42.43.890, W96.41.45.620
+	N32.36.53.180, W96.44.58.250
+	
+route34 =
+	EMMTT4, Emmett Four
+	N32.54.09.840, W96.55.22.970
+	N32.57.28.710, W96.52.45.790
+	N32.57.56.540, W96.47.29.390
+
+route35 =
+	KKITY5, Kitty Five
+	N32.45.36.470, W96.45.05.030
+	N32.42.43.890, W96.41.45.620
+	N32.36.53.180, W96.44.58.250
+	N32.36.59.050, W97.19.52.780
+	
+[departure8]
+runway = rwy9, rev
+route36 =
+	CURLO5, Cure Low Five
+	N32.45.36.470, W96.45.05.030
+	N32.42.43.890, W96.41.45.620
+	N32.36.53.180, W96.44.58.250
+	
+route37 =
+	EMMTT4, Emmett Four
+	N32.54.09.840, W96.55.22.970
+	N32.57.28.710, W96.52.45.790
+	N32.57.56.540, W96.47.29.390
+
+route38 =
+	KKITY5, Kitty Five
+	N32.45.36.470, W96.45.05.030
+	N32.42.43.890, W96.41.45.620
+	N32.36.53.180, W96.44.58.250
+	N32.36.59.050, W97.19.52.780
+	
+[approach7]
+runway = rwy8
+beacon = KNEAD
+route39 =
+	261
+	N32.16.45.650, W97.29.09.610
+	N32.22.53.900, W97.14.20.230
+	N32.27.07.860, W97.03.56.260
+	N32.31.15.550, W96.53.29.200
+	N32.34.06.580, W96.46.36.640
+	N32.40.54.010, W96.36.09.160
+	N32.44.11.840, W96.35.57.340
+	N32.48.39.190, W96.40.42.960
+	end, 315
+
+[configurations]
+config1 =
+	0, rwy3, land
+	0, rwy4, land
+	0, rwy7, land
+	0, rwy5, start
+	0, rwy6, start
+	0, rwy8, landstart
+	0, rwy9, start
+
+config2 =
+	0, rwy3, landrev
+	0, rwy4, landrev
+	0, rwy7, landrev
+	0, rwy5, startrev
+	0, rwy6, startrev
+	0, rwy8, landstartrev
+	0, rwy9, startrev 
+
+[planetypes]
+types =
+	B721, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
+	B722, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
+	DC10, 2, 160, 250, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, Douglas
+	A124, 2, 170, 250, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov
+	A225, 1, 180, 250, 2.2, 2.4, 1000, 1400, 155, 180, 1.1, 1.3, Antonov
+	J328, 5, 160, 250, 2.9, 3.2, 1440, 1560, 122, 132, 1.1, 1.3, Dornier
+	E45X, 5, 160, 250, 2.9, 3.2, 1440, 1560, 122, 132, 1.1, 1.3, Embraer
+	GALX, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	DC87, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
+	G150, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	HDJT, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Honda Jet
