@@ -2503,6 +2503,63 @@ route3 =
 	8.9, 3000, 180
 # RWY 04R IAF BIFIX
 
+
+# SOIR STARs
+
+[approach136]
+runway = HKPARA04L
+beacon = DIVAM
+route1 = 
+	051
+	N59.50.54.00, E23.35.37.00
+	N59.54.47.00, E23.49.28.00, 10000, 250
+	N60.00.00.00, E23.56.53.00, 7000
+	N60.06.39.00, E23.59.33.00, 5000
+	N60.12.07.00, E24.11.27.00, 2300
+	end, 038
+
+[approach137]
+runway = HKPARA04L
+beacon = PEXEN, N59.54.47.00, E23.49.28.00, Pexen
+route1 = 
+	051
+	N59.54.47.00, E23.49.28.00, 10000, 250
+	N60.00.00.00, E23.56.53.00, 7000
+	N60.06.39.00, E23.59.33.00, 5000
+	N60.12.07.00, E24.11.27.00, 2300
+	end, 038
+
+[approach138]
+runway = HKPARA04L
+beacon = HK954, N60.00.00.00, E23.56.53.00, Hotel kilo nine five four
+route1 = 
+	026
+	N60.00.00.00, E23.56.53.00, 7000
+	N60.06.39.00, E23.59.33.00, 5000
+	N60.12.07.00, E24.11.27.00, 2300
+	end, 038
+
+[approach139]
+runway = HKPARA04L
+beacon = HK955, N60.06.39.00, E23.59.33.00, Hotel kilo nine five five
+route1 = 
+	002
+	N60.06.39.00, E23.59.33.00, 5000
+	N60.12.07.00, E24.11.27.00, 2300
+	end, 038
+
+[approach140]
+runway = HKPARA04L
+beacon = ROHJA, N60.12.07.00, E24.11.27.00, Rohja
+route1 = 
+	038
+	N60.12.07.00, E24.11.27.00, 2300
+	end, 038
+
+
+
+
+
 ##############################################################
 [configurations]
 ##############################################################
@@ -2519,12 +2576,13 @@ config3 =
 	0,	HK15,	start
 	0, HK04L, land
 config4 =
-	0 , HK04R, start
-	0 , HK04L, land
-	5, HK04R, land
+	0, HK04R, start
+	0, HKPARA04L, land
+	0, HKPARA04R, land
 config5 =
-	0 , HK04R, landrev
-	0 , HK04L, startrev
+	0, HK04R, landrev
+	0, HK04L, startrev
 config6 =
-	0, HK15, land
+	0, HKPARA04L, landrev
+	0, HKPARA04R, landrev
 	0, HK04L, startrev
