@@ -1,33 +1,20 @@
-Endless ATC Heathrow v1.0 by Zac Kaplowitz
+Endless ATC Heathrow 27s v1.0 by Zac. Join the Endless ATC discord at https://discord.gg/v4wDGh3
 
-AIRAC 2104
+This file simulates Heathrow in the 27 configuration.
 
-This file does not simulate departures, as Heathrow Director almost never speaks to departures.
-
----------------------------------------------------------
-
-Runway 27L and 27R are both used for arrivals - generally not together. Dual approaches are rarely used during high arrival:departure ratio periods, generally early morning arrivals from America. Dual approaches can be activated by setting the skill to 18 or above.
-
-There are no STARs covered by Heathrow Director - aircraft are handed off descending to FL90 inbound BIG, BNN, LAM or OCK. Vectors are generally given from these points (aircraft leave the VOR on a specified heading) but can be given earlier, such as on initial contact.
-
-The minimum separation is 3nm. Aircraft on the localiser must be separated by at least 2.5nm.
+The vectoring is too complex to be explained in a readme - I recommend using flightradar24.com to see how they do it.
 
 ---------------------------------------------------------
 
-Realistic traffic config:
-Skill 8, cap 12
-Flow 35, cap 45
+There are no STARs covered by Heathrow Director - aircraft are handed off descending to FL90 inbound BIG, BNN, LAM or OCK. Realistically, vectors can only given from and after these points (aircraft leave the VOR on a specified heading).
 
-Fun traffic config:
-Skill 12, cap 16
-Flow 55, cap 75
+The minimum separation for aircraft not on a localiser is 3nm. Aircraft on the same localiser must be separated by at least 2.5nm.
 
----------------------------------------------------------
-
-https://imgur.com/a/l97b0D6
+There are three lines across the localisers, simulating real world restrictions on descent. From east to west, the minimum altitudes are 4000ft, 3000ft, and 2500ft. The 4000ft line does not extend to the southern runway, to allow aircraft to establish at 3000ft.
 
 ---------------------------------------------------------
 
 Changelog
 
-v1.0 - 04/05/2021 - Initial release
+v1.0 - 04/03/2021 - Initial release
+v2.0 - 07/08/2021 - Updated coastline, updated airlines, added line restrictions, removed most area restrictions, added departures
