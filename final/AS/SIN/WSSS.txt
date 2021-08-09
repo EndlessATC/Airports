@@ -5,6 +5,7 @@
 # See the example.txt airport for all possible sections and items to add to this file.
 
 [airspace]
+radius = 40
 elevation = 22
 center = N1.35019, E103.994003
 magneticvar = 0.202
