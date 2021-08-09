@@ -260,7 +260,7 @@ beacons =
 	YORBS, N34.24.07.710, W119.02.35.650, 0, Pacific
 	PCIFC, N34.13.45.150, W118.50.45.590, 0, Pacific
 #	CRAYN, N34.04.41.050, W118.47.10.150, 0, Crayon
-	SIPPP, N33.54.32.580, W118.43.14.600, 0, Sip
+#	SIPPP, N33.54.32.580, W118.43.14.600, 0, Sip
 #	OHSEA, N33.35.45.800, W118.36.17.800, 0, Oh Sea
 	STYFF, N33.31.18.000, W118.27.56.400, 0, Stiff
 	KAYNN, N33.31.05.600, W118.19.55.300, 0, Kane
@@ -271,7 +271,7 @@ beacons =
 	YATZE, N33.53.49.490, W116.39.26.310, 0, Yatzee
 #	IRONN, N33.56.43.160, W116.57.47.100, 0, Iron
 #	THRNE, N33.58.38.230, W117.05.48.560, 0, Thorn
-	BFOON, N34.03.37.330, W117.26.41.230, 0, Be Foon
+#	BFOON, N34.03.37.330, W117.26.41.230, 0, Be Foon
 	CRCUS, N34.04.23.530, W117.29.54.380, 0, Circus
 	NNEDD, N34.09.02.590, W118.00.13.660, 0, Ned
 	SMEGL, N34.06.39.280, W117.50.36.780, 0, Smeggle
@@ -304,7 +304,7 @@ beacons =
 	RRJAY, N33.56.25.430, W117.06.23.510, 0, RJ
 #	HRVEE, N33.56.20.390, W117.20.21.730, 0, Harvey
 #	HVANI, N33.56.19.550, W117.25.57.750, 0, Havani
-	EFFXX, N33.56.33.870, W117.32.27.170, 0, Effects
+#	EFFXX, N33.56.33.870, W117.32.27.170, 0, Effects
 	CASIE, N33.58.03.390, W117.43.46.120, 0, Casey
 # GLRNO Star
 	GLRNO, N34.46.51.000, W118.20.11.100, 0, Glarno
@@ -639,7 +639,6 @@ airlines = dal, 10, bcs1/bcs3/a319/a320/a321/a332/a333/a339/a359/b712/b737/b738/
 	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, ne
 	plm, 1, a332/a333/b744, pullman, n
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
-	jsx, 1, e135/e145, big stripe, e
 	sjx, 1, a339/a359/a35k, star walker, w
 	ujc, 1, e135/j328, ultimate, e
 	tcx, 1, a332/b763, kestral, n
@@ -793,7 +792,7 @@ route10 =
 runway = rwy4, rev
 beacon = REGGO
 route11 =
-	088
+	120
 	N33.07.59.330, W116.39.26.760
 	N33.13.44.750, W117.19.09.610
 	N33.15.44.220, W117.31.57.330
