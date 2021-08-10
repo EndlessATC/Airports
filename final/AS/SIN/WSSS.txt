@@ -202,7 +202,7 @@ airlines =
 	sqc, 3, b744, sing cargo, nswe
 	cca, 1, a319/a320/a20n/a321/a21n/a332/a333/b737/b738/b38m/b752, air china, n
 	afr, 1, a332/a343/a359/b744/b772/b77w/b789, air france, n
-	aic, 1, a310/a319/a320/a20n/a321/a332/b744/b772, air india, n
+	aic, 1, a310/a319/a320/a20n/a321/a332/b772, air india, n
 	axb, 1, b738, express india, n
 	mau, 1, a332/a339/a343/a359, air mauritius, w
 	anz, 1, b744/b763/b772/b77w/b789/b78x, new zealand, s
