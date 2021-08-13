@@ -1516,7 +1516,7 @@ inboundbeacon = AN
 airlines = 
 	swa, 9, b733/b735/b737/b37m/b738/b38m, southwest, nwe
 	asa, 5, a319/a320/a21n/b734/b737/b738/b739/b39m, alaska, nwe
-	qxe, 3, crj7/dh8b/dh8d/e175, horizon, ne
+	qxe, 4, crj7/dh8b/dh8d/e175, horizon, ne
 	aay, 2, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, ne
 	jza, 1, dh8a/dh8c/dh8d/crj2/crj9, jazz, n
 	skv, 1, e75s/e75l, maple, n
