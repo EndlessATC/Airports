@@ -1,4 +1,4 @@
-# EPWA v1.1
+# EPWA v1.1.1
 # Warsaw Chopin International Airport
 # Credits: MoDrazzz
 # See README_EN.MD for description!
@@ -318,7 +318,13 @@ config3 =
 	0,	rwy1,	startrev
 	0,	rwy2,   landrev
         0,      rwy4,   startland
+		
+config4 =
 
+	0,	rwy1,	land
+	0,	rwy2,   start
+        0,      rwy3,   startland
+		
 #EPWA
 
 [departure1]
@@ -1594,7 +1600,6 @@ route3 =
     N52.6451, E20.9271
 	N52.2596, E21.0241
 	N51.9489, E20.5723
-	N52.3911, E20.2360
     N51.3878, E20.3600
 # MO824 MO826 MO827 MO828 MO859 MO818 NITKI NIPUS EVINA
 
