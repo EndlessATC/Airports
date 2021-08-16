@@ -7,6 +7,8 @@ radius = 47
 usa = true
 transition = 18001
 center = N41.9786, W87.9048
+descendaltitude = 10000
+above = 20000
 name = chicago approach, chicago departure
 automatic = true
 magneticvar = -3.398
@@ -353,9 +355,11 @@ airlines = ual, 10, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	jdi, 1, gl5t/glex/glf6, jedi, e
 	wow, 1, a320/a20n/a321/a21n, wow air, e
 	nos, 1, b763/b789, moon flower, e
-	maa, 1, b762/b763, mas carga, s
+	maa, 1, a332/a333/b762/b763, mas carga, s
 	adb, 1, a124/a225, antonov bureau, e
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, swe
+	ujc, 1, j328, ultimate, w
+	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 
 entrypoints =
 	225, NEWRK
@@ -557,12 +561,13 @@ runways =
 	rwy12, 13C, N41.7916, W87.7611, 134.0, 6522, 0, 0, 608, 3, 134.0, 0, 0, 0, 0, 0, 0, 135.2
 	rwy13, 13L, N41.7923, W87.7579, 134.0, 5141, 0, 0, 606
 	rwy14, 13R, N41.7881, W87.7588, 134.0, 3859, 0, 0, 607
+traffic = 8
 inboundbeacon = MX
 airlines = swa, 6, b733/b735/b737/b738/b38m/b37m, southwest, swe
 	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, s
 	dal, 2, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, s
 	voi, 1, a319/a320/a20n/a321/a21n, volaris, s
-	ujc, 1, e135/j328, ultimate, w
+	ujc, 1, j328, ultimate, w
 	poe, 1, dh8d, porter, n
 	edv, 1, crj2/crj7/crj9, endeavor, s
 	rpa, 1, e170/e75s/e75l, brickyard, s
@@ -578,7 +583,7 @@ airlines = swa, 6, b733/b735/b737/b738/b38m/b37m, southwest, swe
 	jdi, 1, gl5t/glex/glf6, jedi, n
 	viv, 1, a320/a20n/a21n, aeroenlaces, s
 	qxe, 1, crj7/dh8b/dh8d/e175, horizon, w
-	pbr, 1, c56x/c750/glf1/galx, polar bear, n
+	pbr, 1, c56x/c750/glf1/galx/hdjt, polar bear, n
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, swe
 
 entrypoints =
@@ -640,6 +645,7 @@ runways =
 	rwy18, 07L, N42.9527, W87.9053, 71.0, 4800, 0, 0, 672
 	rwy19, 07R, N42.9395, W87.9158, 72.0, 8012, 0, 0, 723, 3, 72.0, 0, 0, 0, 0, 0, 0, 124.575
 	rwy20, 13, N42.9581, W87.9034, 132.0, 5868, 0, 0, 670
+traffic = 7
 airlines =
 	swa, 7, b733/b735/b737/b37m/b738/b38m, southwest, sew
 	frg, 5, b190/c402/e120, freight runners, sw
@@ -678,15 +684,16 @@ airlines =
 	jdi, 1, gl5t/glex/glf6, jedi, n
 	viv, 1, a320/a20n/a21n, aeroenlaces, s
 	qxe, 1, crj7/dh8b/dh8d/e175, horizon, w
-	pbr, 1, c56x/c750/glf1/galx, polar bear, n
+	pbr, 1, c56x/c750/glf1/galx/hdjt, polar bear, n
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, swe
 	csa, 1, a333, csa, e
 	bel, 1, a332/a333, beeline, e
 	wow, 1, a320/a20n/a321/a21n, wow air, e
 	adb, 1, a124, antonov bureau, e
+	ujc, 1, j328, ultimate, w
 	
 entrypoints =
-	179, LEEDN
+	179, LEEDN, 11000
 	310, ZOWRO
 
 [departure1]
@@ -790,3 +797,4 @@ types =
 	DC10, 2, 160, 300, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, Douglas
 	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
 	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	HDJT, 6, 140, 300, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Honda Jet
