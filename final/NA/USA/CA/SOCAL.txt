@@ -656,7 +656,7 @@ entrypoints =
 [departure1]
 runway = rwy2, rev
 route1 =
-	OOSHN9, Ocean Nine
+	OSHNN1, Ocean One
 	N33.56.37.350, W118.27.54.530
 	N33.56.32.860, W118.30.20.840
 	N33.55.54.000, W118.38.38.000
@@ -710,7 +710,7 @@ route4 =
 [departure2]
 runway = rwy3, rev
 route5 =
-	OOSHN9, Ocean Nine
+	OSHNN1, Ocean One
 	N33.55.54.640, W118.27.29.170
 	N33.54.37.560, W118.29.27.350
 	N33.51.32.240, W118.33.52.170
