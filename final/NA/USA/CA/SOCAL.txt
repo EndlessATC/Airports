@@ -6,7 +6,6 @@
 # A couple Retired Airlines
 # B3JM is BBJ MAX 10
 # San Diego uses 09 because it has an ILS
-# Retired airline (Kestral)
 
 [airspace]
 elevation = 125
@@ -17,7 +16,7 @@ magneticvar = 12.466
 descendaltitude = 10000
 above = 26000
 name = so cal approach, so cal departure
-separation = 0
+separation = 2.5
 beacons =
 	LAX, N33.93310, W118.43200, 0, Los Angeles
 	SMO, N34.01020, W118.45700, 0, Santa Monica
@@ -603,7 +602,7 @@ airlines =
 	voz, 1, a332/b77w, velocity, s
 	jza, 1, dh8d/dh8c/dh8a/crj2/crj9, jazz, n
 	cxa, 1, b788/b789, xiamen air, w
-	ibe, 1, a332/a333/a359/a343/a346, iberia, n
+	ibe, 1, a332/a333/a343/a346/a359, iberia, n
 	chh, 1, a332/a333/a346/a359/b788/b789, Hainan, w
 	aza, 1, a332/b763/b772/b77w, Alitalia, n
 	viv, 1, a320/a20n/a21n, aeroenlaces, e
@@ -1612,7 +1611,7 @@ route58 =
 	N32.36.53.700, W116.48.18.950
 	N32.35.59.350, W116.58.24.180
 	N32.38.28.880, W117.10.17.140, 6000
-	end, 270
+	end, 274
 
 [airport9]
 name = Santa Monica
