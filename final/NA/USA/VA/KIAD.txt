@@ -457,7 +457,7 @@ airlines = ual, 10, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	ujc, 1, j328, ultimate, w
 
 entrypoints =
-	217, MEEGO
+	190, MEEGO
 	030, HYPER
 	358, OVIEE
 	314, MOSLE
