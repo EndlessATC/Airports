@@ -1,0 +1,260 @@
+#
+# - Kabul -
+#
+#  by ZsBT@GitHub
+#
+# based on https://acaa.gov.af/wp-content/uploads/2021/04/ENROUTE-EDITION-91.pdf
+#
+
+
+[airspace]
+radius = 75
+elevation = 5877
+center = N34.565899, E69.212303
+magneticvar = 2.201
+beacons =
+	OKB, N34.56330, E69.21600, 0, Kabul
+	KBL, N34.54560, E69.29040, 0, Kabul
+	KIA, N34.56250, E69.38900, 0, Kabul
+	BGM, N34.94300, E69.26150, 0, Bagram
+	PC, N33.90540, E70.07240, 0, Parachinar
+	LBR, N34.13.57, E69.10.37, 015, LOBRE
+	SBL, N34.11.32, E68.18.40, 0, SIBLO
+	NLX, N33.52.04, E68.39.36, 0, NOLEX
+	KOD, N34.06.59, E69.24.06, 0, KODAD
+	TPS, N34.31.00, E69.09.00, 0, TAPIS
+	GDR, N29.41.00, E61.28.00, 0, GADER
+	LJK, N33.55.59, E70.29.59, 0, LAJAK
+	FRZ, N36.40.12, E71.37.48, 0, FIRUZ
+	RNH, N35.35.00, E63.12.00, 0, RANAH
+	PMT, N35.10.06, E61.08.06, 0, PAMTU
+# M696
+	GDG, N34.10.35, E69.56.47, 0, GIDOG
+	LJK, N33.55.59, E70.29.59, 0, LAJAK
+	LMD, N36.10.00, E64.17.30, 0, LEMOD 
+# G202
+	RMP, N31.26.00, E67.36.00, 0, RIMPA
+	KLT, N34.31.44, E68.12.14, 0, KULTA
+	SNK, N33.55.39, E69.04.15, 0, SHANK
+	PGT, N34.26.50, E70.12.40, 0, PEGTO
+	GLN, N34.56.37, E70.04.03, 0, GULNI
+	SRV, N35.06.06, E70.25.12, 0, SURVI
+	ALM, N35.39.47, E69.45.30, 0, ALMOL
+	DSH, N35.36.00, E68.26.30, 0, DOSHI
+# webro 105
+
+line1 =
+	N34.51296, E68.21179
+	N34.49275, E68.30682
+	N34.50740, E68.37622
+	N34.57164, E68.48929
+
+[airport1]
+name = Hamid Karzai International Airport
+code = OAKB
+runways =
+	rwy1, 11, N34.5705, E69.1943, 107.0, 11483, 80, 2325, 5869
+climbaltitude = 9000 
+
+airlines =
+        swa, 8, b737, Lufthansa, w
+        aal, 3, a318/b738, American, e
+        skw, 8, e175, KLM, n
+
+inboundbeacon = KBL
+
+entrypoints = 
+	005, ALM, 16000
+# -> LAJAK
+	170, SNK, 16000
+# -> RANAH
+
+[departure1]
+runway = rwy1
+route1 = 
+	SBL, SIBLO
+	N34.54560, E69.29040
+	N34.56330, E69.21600
+	N34.13.57, E69.10.37
+	N34.11.32, E68.18.40
+[departure2]
+runway = rwy1
+route1 = 
+	NLX, NOLEX
+	N34.54560, E69.29040
+	N34.56330, E69.21600
+	N34.13.57, E69.10.37
+	N33.52.04, E68.39.36
+[departure3]
+runway = rwy1
+route1 = 
+	KOD, KODAD
+	N34.54560, E69.29040
+	N34.56330, E69.21600
+	N34.13.57, E69.10.37
+	N34.06.59, E69.24.06
+
+[departure4]
+runway = rwy1, rev
+route1 = 
+	SBL, SIBLO
+	N34.13.57, E69.10.37
+	N34.11.32, E68.18.40
+[departure5]
+runway = rwy1, rev
+route1 = 
+	NLX, NOLEX
+	N34.13.57, E69.10.37
+	N33.52.04, E68.39.36
+[departure6]
+runway = rwy1, rev
+route1 = 
+	KOD, KODAD
+	N34.13.57, E69.10.37
+	N34.06.59, E69.24.06
+
+
+[airport2]
+name = Bagram Military Airport
+code = OAIX
+runways =
+	rwy2, 03, N34.56.46, E69.15.53, 028, 9874, 0, 0, 4895
+airlines =
+        air, 3, b737, Lufthansa, n
+        air, 3, a318/b738, KLM, w
+
+
+# FL restrictions
+[area1]
+name = OAD107
+shape = circle
+altitude = 3000
+radius = 1
+position = N33.20.26, E69.57.37
+labelpos = N33.20.26, E69.57.37
+
+[area2]
+name = OAD108
+shape = circle
+altitude = 3000
+radius = 1
+position = N31.05.36, E64.03.16
+labelpos = N31.05.36, E64.03.16
+
+[area3]
+name = OAD114
+shape = circle
+altitude = 110000
+radius = 1
+position = N34.27.18, E69.06.36
+labelpos = N34.27.18, E69.06.36
+
+[area4]
+name = OAD104
+shape = polygon
+altitude = 150000
+labelpos = N31.55.05, E64.06.23
+points = 
+        N31.55.05, E64.06.23
+        N31.47.20, E64.06.20
+        N31.47.22, E63.58.11
+        N31.55.07, E63.58.14
+        N31.55.05, E64.06.23
+
+[area5]
+name = OAD105
+shape = polygon
+altitude = 150000
+labelpos = N31.51.51, E64.11.02
+points = 
+        N31.51.51, E64.11.02
+        N31.51.54, E64.06.36
+        N31.54.36, E64.06.38
+        N31.54.34, E64.10.26
+        N31.54.01, E64.11.04
+        N31.51.51, E64.11.02
+
+[area6]
+name = OAD106
+shape = polygon
+altitude = 150000
+labelpos = N31.51.52, E64.10.24
+points = 
+        N31.51.52, E64.10.24
+        N31.50.18, E64.10.23
+        N31.50.17, E64.11.39
+        N31.48.22, E64.11.39
+        N31.47.25, E64.10.56
+        N31.47.25, E64.06.33
+        N31.51.54, E64.06.36
+[area7]
+name = OAD112
+shape = polygon
+altitude = 150000
+labelpos =N31.51.52, E64.10.24
+points = 
+        N31.51.52, E64.10.24
+        N31.50.18, E64.10.23
+        N31.50.17, E64.11.39
+        N31.48.22, E64.11.39
+        N31.47.25, E64.10.56
+        N31.47.25, E64.06.33
+        N31.51.54, E64.06.36
+[area8]
+name = OAD114
+shape = circle
+altitude = 110000
+radius = 1
+position = N34.27.18, E69.06.36
+labelpos = N34.27.18, E69.06.36
+
+[area9]
+name = OAD116
+shape = circle
+altitude = 3000
+radius = 1
+position = N34.55.48, E69.16.40
+labelpos = N34.55.48, E69.16.40
+
+[area10]
+name = OAD117
+shape = circle
+altitude = 3000
+radius = 1
+position = N34.56.01, E69.17.22
+labelpos = N34.56.01, E69.17.22
+
+[area11]
+name = OAD119
+shape = circle
+altitude = 2500
+radius = 1
+position = N31.29.16, E65.51.16
+labelpos = N31.29.16, E65.51.16
+
+[area12]
+name = OAD125
+shape = circle
+altitude = 3000
+radius = 1
+position = N34.23.54, E70.30.20
+labelpos = N34.23.54, E70.30.20
+
+[area13]
+name = OAD129
+shape = circle
+altitude = 3500
+radius = 1
+position = N34.31.45, E69.11.35
+labelpos = N34.31.45, E69.11.35
+
+[area14]
+name = OAD132
+shape = polygon
+altitude = 3500
+labelpos = N31.50.48, E64.12.92
+points = 
+        N31.50.48, E64.12.92
+        N31.49.32, E64.12.89
+        N31.48.33, E64.11.31
+        N31.50.49, E64.11.34
