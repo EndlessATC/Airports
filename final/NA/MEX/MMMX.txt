@@ -1,0 +1,129 @@
+# This is an automatically generated airport file for Endless ATC.
+# Feel free to improve, use and share this file, at your own risk.
+# Data from ourairports.com.
+# Coastline from naturalearthdata.com.
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+radius = 34
+descendaltitude = 14000
+floor = 8000
+ceiling = 15000
+above = 23000
+elevation = 7316
+center = N19.4363, W99.072098
+magneticvar = 5.485
+beacons =
+	MEX, N19.43930, W99.06680, 0, Mexico
+	MW, N19.39370, W99.14950, 0, Plaza
+	SMO, N19.55570, W99.22830, 0, Mateo
+	TPX, N19.61140, W98.96040, 0, Tepexpan
+	SLM, N19.74280, W99.02980, 0, Lucia
+	OTU, N19.68310, W98.77640, 0, Otumba
+	TLC, N19.35240, W99.57160, 0, Toluca
+	CVJ, N18.83140, W99.25940, 0, Cuernavaca
+	APN, N19.63720, W98.39860, 0, Apan
+	CUA, N18.78530, W98.90080, 0, Cuautla
+	PTJ, N19.64570, W99.79800, 0, Pasteje
+	PBC, N19.16090, W98.37020, 0, Puebla
+	TEQ, N18.67610, W99.25530, 0, Tequesquitengo
+	PCA, N20.13180, W98.68440, 0, Pachuca
+
+[airport1]
+name = Licenciado Benito Juarez International Airport, Mexico City
+code = MMMX
+runways =
+	rwy1, 05L, N19.4276, W99.0905, 59.4, 12966, 0, 0, 7309
+	rwy2, 05R, N19.427, W99.0858, 59.4, 12795, 0, 0, 7316
+airlines = amx, 20, b737/b738/b38m/b39m/b763/b772/b788/b789, aeromexico, nswe
+	sli, 7, e145/e190, costera, nswe
+	viv, 10, a320/a20n/a21n, aeroenlaces, nswe
+	maa, 4, a332/a333/b762/b763, mas carga, new
+	aij, 1, a320/a20n/a321/a21n/su95, ABC aerolineas, nswe
+	tao, 1, at43/at45/at46/at76/crj2, aeromar, sw
+	aca, 1, bcs3/a319/a320/a321/b738/b38m/b763, air canada, n
+	rou, 1, a319/a320/a321/b763, rouge, n
+	afr, 1, a332/a343/a359/b744/b772/b77l/b77w/b789, air France, n
+	aza, 1, a332/b763/b772/b77w, Alitalia, n
+	ana, 1, b744/b772/b773/b77w/b788/b789/b78x, all nippon, n
+	aal, 1, a319/a320/a321/a21n/b734/b738/b38m/b752/e190/md81/md82/md83, american, n
+	ava, 1, a318/a319/a320/a20n/a321/a21n, avianca, s
+	tai, 1, a319/a320/a20n/a321, taca, s
+	baw, 1, a35k/b744/b772/b77w/b788/b789/b78x, speedbird, n
+	cmp, 1, b738/b38m/b39m/b3xm, copa, e
+	dal, 1, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, n
+	eal, 1, b762/b763, eastern, n
+	uae, 1, a332/a343/a345/b744/b772/b77l/b773/b77w, emirates, n
+	ibe, 1, a332/a333/a343/a346/a359, iberia, n
+	klm, 1, a332/a333/b744/b772/b77w/b789/b78x/md11, klm, n
+	tam, 1, a319/a320/a20n/a321/a21n, tam, e
+	lan, 1, a318/a319/a320/a20n/a321/a21n, lan chile, s
+	lpe, 1, a319/a320/a20n, lan Peru, s
+	dlh, 1, a333/a343/a346/a359/b744/b748, lufthansa, n
+	gmt, 1, b733, grupomonterry, w
+	thy, 1, a332/a333/a343/a359/b77l/b77w/b789, Turkish, n
+	ual, 1, a319/a320/b735/b737/b738/b739/b39m/b3xm/b752/b753, united, n
+	voi, 1, a319/a320/a20n/a321/a21n, volaris, nw
+	voc, 1, a319, costa rican, s
+	rpb, 1, b737/b738, aero republica, s
+	abx, 1, b762/b763, abex, e
+	tno, 1, a306/b762, aerounion, n
+	ajt, 1, b722/b762/b763, amerijet, e
+	gti, 1, b738/b762/b763/b744/b748, giant, n
+	tpa, 1, a332, Tampa, s
+	icl, 1, b742/b744, cal, n
+	clx, 1, b744/b748, cargolux, n
+	icv, 1, b744, cargolux italia, n
+	cpa, 1, b744/b748, cathay, n
+	esf, 1, b733/b734/crj1, estafeta, e
+	eth, 1, b77l, ethiopian, n
+	gec, 1, b77l/md11, lufthansa cargo, n
+	qtr, 1, a332/b748/b77l, qatari, n
+	ups, 1, a306/b752/b763/dc87/md11, u p s, n
+	lco, 1, b763, lan cargo, s
+	cks, 1, b742/b744, connie, n
+	atn, 1, b752/b763, air transport, w
+	aji, 1, b732/dc91, ameristar, n
+	ifl, 1, b722/b734/crj2, eiffel, s
+	lau, 1, b721/b722/b733/b738, suramericano, e
+	ciu, 1, md10/md11, cielos, s
+	cwc, 1, md11/b744, challenge cargo, n
+# Specials
+	plm, 1, a332/a333/b744, pullman, n
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, n
+	pbr, 1, c56x/c750/g150/galx, polar bear, n
+	csa, 1, a333, csa, n
+	bel, 1, a332/a333, beeline, n
+	ewg, 1, a332/a333/a343, eurowings, n
+	css, 1, b744, shun feng, n
+	ujc, 1, j328, ultimate, n
+	crk, 1, a332/a333/a359, bauhinia, n
+	tcx, 1, a332/b763, kestral, n
+	nrs, 1, b788/b789, red nose, n
+	adb, 1, a124/a225, antonov bureau, n
+	azq, 1, a124/il76, silk line, n
+
+[configurations]
+
+
+config1 =
+	0, rwy1, landstart
+	0, rwy2, landstart
+
+config2 =
+	0, rwy1, landstartrev
+	0, rwy2, landstartrev
+
+
+[planetypes]
+types =
+	B721, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
+	B722, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	J328, 5, 160, 300, 2.9, 3.2, 1440, 1560, 120, 132, 1.1, 1.3, Dornier
+	DC87, 3, 160, 300, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
+	DC91, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 133, 1.1, 1.3, Douglas
+	A124, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov
+	A225, 1, 180, 300, 2.2, 2.4, 1000, 1400, 155, 180, 1.1, 1.3, Antonov
