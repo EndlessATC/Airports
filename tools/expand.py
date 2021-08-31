@@ -34,7 +34,7 @@ class Fix:
 
     fixes: ClassVar = None
     _var: ClassVar[float] = 0
-    _registry: ClassVar = {}
+    _subclass_registry: ClassVar = {}
 
     @staticmethod
     def initialize(magvar):
@@ -44,19 +44,21 @@ class Fix:
     @classmethod
     @property
     def special_prefixes(cls):
-        return cls._registry.keys()
+        return cls._subclass_registry.keys()
 
     @classmethod
     def __init_subclass__(cls, /, name_prefix=None, **kwargs):
         super().__init_subclass__(**kwargs)
         if name_prefix is not None:
             for prefix in name_prefix:
-                cls._registry[prefix] = cls
+                cls._subclass_registry[prefix] = cls
 
     def __new__(cls, name, *args, **kwargs):
+        if name in cls.fixes:
+            return cls.fixes[name]
         name_prefix = name[:1]
-        if name_prefix in cls._registry:
-            return object.__new__(cls._registry[name_prefix])
+        if name_prefix in cls._subclass_registry:
+            return object.__new__(cls._subclass_registry[name_prefix])
         else:
             return object.__new__(cls)
 
@@ -542,7 +544,7 @@ def _process_simple_approach_fix_list(fix_list, runway, fixes,
 
 
 def _process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
-        generated_approaches, current_tag=None, top_level=True, debug=False):
+        generated_approaches, current_tag=None, top_level=True, terminate=False, debug=False):
     """Inner worker function for `process_approach_fix_list`.
 
     Args:
@@ -555,7 +557,8 @@ def _process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
             that were tagged for lookup.
         `generated_approaches`: A dict keyed by runway of dicts of parameters
             to be used to generate derived approaches in post-processing.
-        `top_level`: Whether or not to process any approach generator commands.
+        `top_level` (bool): Whether or not to process any approach generator commands.
+        `terminate` (bool): Whether or not the route has already terminated.
         `debug` (bool): Whether to print debug information."""
 
     if debug:
@@ -563,13 +566,15 @@ def _process_approach_fix_list(fix_list, runway, fixes, tagged_routes,
     if fix_list[-1].startswith('@'):
         following_tags = (tag.strip().lstrip('@') for tag in fix_list[-1].split(','))
 
-        _process_simple_approach_fix_list(fix_list[:-1], runway, fixes,
-            tagged_routes[runway], generated_approaches, current_tag, top_level)
+        if not terminate:
+            _process_simple_approach_fix_list(fix_list[:-1], runway, fixes,
+                tagged_routes[runway], generated_approaches, current_tag, top_level)
 
-        terminate = False
-        if len(fix_list) > 1:
-            last_fix = fix_list[-2].strip()
-            terminate = last_fix.startswith('end') and last_fix.endswith('hold')
+            if len(fix_list) > 1:
+                last_fix = fix_list[-2].strip()
+                terminate = last_fix.startswith('end') and last_fix.endswith('hold')
+                if debug and terminate:
+                    print(f"Terminating approach {fix_list}")
 
         for generated_approach in generated_approaches[runway or current_tag]:
             if 'tag' in generated_approach:
@@ -610,13 +615,19 @@ The requesting approach route was {fix_list}''')
                 following_route = tagged_routes[following_tag_runway][following_tag]
                 if remove_first_fix:
                     following_route = following_route[1:]
-                if not terminate:
-                    _process_approach_fix_list(following_route,
-                        following_tag_runway, fixes, tagged_routes, generated_approaches, following_tag,
-                        False, debug=debug)
+
+                if debug and terminate:
+                    print(f"Connecting terminated approach {fix_list} to {following_route}")
+                _process_approach_fix_list(following_route,
+                    following_tag_runway, fixes, tagged_routes, generated_approaches, following_tag,
+                    False, terminate=terminate, debug=debug)
     else:
-        _process_simple_approach_fix_list(fix_list, runway, fixes,
-            tagged_routes[runway], generated_approaches, current_tag, top_level)
+        if terminate:
+            if debug:
+                print(f"Finalizing terminated approach with {fix_list}")
+        else:
+            _process_simple_approach_fix_list(fix_list, runway, fixes,
+                tagged_routes[runway], generated_approaches, current_tag, top_level)
 
     return generated_approaches
 
@@ -705,11 +716,10 @@ def process_departure_fix_list(fix_list, runway, airport, fixes, tagged_routes, 
             tagged_routes[airport] = {}
         if fix_list[0].startswith('@'):
             tag = fix_list[0].lstrip('@')
-            tag_namespace = airport
             if tag.startswith('!!'):
                 tag_namespace = None
             elif tag.startswith('!'):
-                tag_namespace = runway
+                tag_namespace = airport
             elif runway:
                 tag_namespace = runway
             else:
@@ -752,7 +762,9 @@ def _process_departure_fix_list(fix_list, runway, airport, fixes, tagged_routes,
                 elif tag in tagged_routes[airport]:
                     tagged_route = tagged_routes[airport][tag]
                 else:
-                    raise KeyError(f"Unable to find route tagged @{tag}")
+                    raise KeyError(f'''Unable to find route tagged @{tag}.
+tags for runway {runway}: {tagged_routes[runway]}
+tags for airport {airport}: {tagged_routes[airport]}''')
                 yield from _process_departure_fix_list(tagged_route,
                     runway, airport, fixes, tagged_routes, top_level=False, altitude=altitude)
                 yield from _process_departure_fix_list(fix_list[1:],
@@ -767,7 +779,9 @@ def _process_departure_fix_list(fix_list, runway, airport, fixes, tagged_routes,
                 elif tag in tagged_routes[airport]:
                     tagged_route = tagged_routes[airport][tag]
                 else:
-                    raise KeyError(f"Unable to find route tagged @{tag}")
+                    raise KeyError(f'''Unable to find route tagged @{tag}.
+tags for runway {runway}: {tagged_routes[runway]}
+tags for airport {airport}: {tagged_routes[airport]}''')
                 yield from _process_departure_fix_list(fix_list[:-1],
                     runway, airport, fixes, tagged_routes, top_level=False, altitude=altitude)
                 yield from _process_departure_fix_list(tagged_route,
@@ -802,16 +816,30 @@ def process_sids_fix_list(fix_list, fixes):
             yield line
 
 
-def process_entrypoints_list(entrypoints_list):
+def process_entrypoints_list(entrypoints_list, fixes=None):
     """Processes special commands in a list of fixes in minor format
     and produces an iterable of definitions as the result.
 
     Substitute any "!<name>[, <extra_data>]" in `fix_list` with
     "lat, lon[, <extra_data>]" based on `fixes`.
 
+    If `fixes` is provided, error checking will be done. Any problems
+    will be printed to console.
+
     Args:
-        `entrypoints_list` (list): A list of entrypoints definitions."""
+        `entrypoints_list` (list): A list of entrypoints definitions.
+        `fixes` (dict): A lookup of `Fix`es."""
     for line in entrypoints_list:
+        if not line.strip():
+            yield line
+            continue
+        entrypoint_heading, _, entrypoint_definition = line.partition(',')
+        entrypoint_fix, _, entrypoint_definition = entrypoint_definition.partition(',')
+        entrypoint_fix = entrypoint_fix.strip()
+        if entrypoint_fix not in fixes:
+            print(f"Warning: entrypoint fix {entrypoint_fix} is not defined")
+        elif fixes[entrypoint_fix].is_hidden():
+            print(f"Warning: entrypoint fix {entrypoint_fix} is defined as a hidden fix")
         entrypoint_definition, _, entrypoint_last_parameter = line.rpartition(',')
         entrypoint_last_parameter = entrypoint_last_parameter.strip()
         if entrypoint_last_parameter.startswith('*'):
@@ -1001,7 +1029,7 @@ def process(args, input_file=None, preprocessed_input=None):
             runways = airport_data['runways'].strip().splitlines()
             for runway_definition in runways:
                 runway_id, _, _ = runway_definition.partition(',')
-                runway_to_airport[runway_id] = airport_code
+                runway_to_airport[runway_id] = airport_code.strip()
 
             gateways = dict((tuple(map(str.strip, gateway.split(","))) for gateway in airport_data['gateways'].strip().splitlines()),
                 **default_gateways) if 'gateways' in airport_data else None
@@ -1017,7 +1045,7 @@ def process(args, input_file=None, preprocessed_input=None):
 
             if 'entrypoints' in airport_data:
                 airport_data['entrypoints'] = "\n".join(
-                    process_entrypoints_list(airport_data['entrypoints'].splitlines()))
+                    process_entrypoints_list(airport_data['entrypoints'].splitlines(), Fix.fixes))
 
         # process approach/transition sections
         approaches = {section: source[section] for section in source
@@ -1093,11 +1121,19 @@ Defined beacon was {generated_approach.beacon}, actual beacon was {approach_beac
         departures = [source[section] for section in sorted(source) if section.startswith('departure')]
         tagged_departures = {None: {}}
 
+        for departure_data in common_departures:
+            if 'airport' not in departure_data:
+                raise RuntimeError(f'''A [commondeparture] exists with no airport specified.''')
+
         for departure_data in chain(common_departures, departures):
-            if 'common' in departure_data:
-                departure_airport = departure_data['common']
+            if 'airport' in departure_data:
+                departure_airport = departure_data['airport']
                 departure_runway = None
                 departure_base_runway = None
+            elif 'runway' not in departure_data:
+                raise RuntimeError(f'''A departure exists with no runway. Aborting.
+The contents of the departure section are as follows:
+{"".join(departure_data.values())}''')
             else:
                 departure_runway = departure_data['runway']
                 departure_runway = departure_runway.partition(',')

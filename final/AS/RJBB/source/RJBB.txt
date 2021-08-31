@@ -1,10 +1,10 @@
 [meta]
 header = RJBB ACA 3.1.0
 	See RJBB_readme.md
-#callsigns = True
+callsigns = True
 
 [airspace]
-radius = 90
+radius = 100
 zoom = 0.8
 elevation = 0
 floor = 1000
@@ -14,8 +14,7 @@ above = 24000
 transitionalaltitude = 14000
 speedrestriction = 80, 250
 usa = false
-#center = N34.4272994995, E135.244003296
-#center = N34.3572994995, E135.104003296
+automatic = True
 center = N34.3572994995, E134.57.00.00
 magneticvar = -7.076
 beacons =
@@ -33,35 +32,41 @@ beacons =
 	KRE, N33.32.30.42, E133.40.48.57, 0, Koh chi
 	KCC, N35.15.54.96, E136.54.53.73, 0, Nah-go-ya
 #COMMON
-	ARASI, N35.10.55.42, E135.47.54.18, !, Arashi
+	ARASI, N35.10.55.42, E135.47.54.18, 0, Arashi
 	ASAGI, N35.02.37.24, E134.45.02.37, !, Asagi
 	AWAJI, N34.16.13.09, E134.42.46.59, !, Awaji
 	AYAYA, N34.45.19.07, E134.32.17.68, !, Ayaya
 	BECKY, N33.55.09.01, E134.30.30.63, 58, Becky
 	BERTH, N34.09.11.44, E134.19.00.01, 103, Berth
+	BRAVE, N33.26.54.53, E133.53.33.01, !, Brave
 	BUGGY, N33.52.59.15, E133.54.44.31, !, Buggy
 	BUMER, N34.45.22.72, E134.59.47.31, !, Bumer
 	CHIZU, N35.01.46.16, E134.30.25.37, !, Chizu
 	DATIS, N33.58.51.96, E134.56.13.14, -306, Datis
 	DINAH, N34.02.25.99, E135.24.33.97, !, Dinah
 	DULOK, N35.27.14.19, E133.08.58.77, !, Dulok
+	EVERT, N33.39.25.07, E135.07.59.05, 0, Evert
+	GINJI, N35.05.39.64, E135.16.51.02, !, Ginji
 	GUJYO, N35.21.50.52, E136.34.38.48, !, Gujyo
 	HONMA, N33.49.33.96, E134.57.03.96, 0, Honma
 	HYOGO, N34.51.30.62, E134.59.44.03, !, Hyogo
 	IZUMI, N34.26.28.54, E135.25.31.28, 49, E Zumi
 	KAWAT, N34.34.19.37, E134.33.32.30, !, Kawat
-	KARIN, N33.40.24.43, E134.11.14.86, !, Karin
+	KARIN, N33.40.24.43, E134.11.14.86, 0, Karin
 	KOHWA, N34.42.16.69, E136.57.28.61, !, Kohwa
 	KOMPI, N34.10.02.08, E133.52.33.07, !, Kompi
 	KULUL, N34.09.54.74, E134.21.31.22, !, Kulul
 	MAIKO, N34.36.39.73, E134.59.49.06, !, Maiko
-	MIDER, N35.01.01.37, E135.49.33.61, !, Mider
+	MENOU, N35.31.09.15, E135.38.33.35, !, Menou
+	MIDER, N35.01.01.37, E135.49.33.61, -111, Mider
 	MIHOU, N35.31.52.02, E133.05.38.09, !, Mihou
-	NORAN, N33.58.00.89, E135.27.12.06, !, Noran
+	NORAN, N33.58.00.89, E135.27.12.06, 0, Noran
 	OLIVE, N34.45.17.65, E134.27.00.24, !, Olive
 	POPPY, N33.49.05.07, E133.49.15.33, !, Poppy
-	RANDY, N34.06.34.76, E133.53.50.83, !, Randy
-	SAKAI, N34.02.24.51, E133.27.28.60, !, Sakai
+	RANDY, N34.06.34.76, E133.53.50.83, 80, Randy
+	ROKKO, N35.07.00.56, E135.18.00.92, 0, Rokko
+	SAKAI, N34.02.24.51, E133.27.28.60, 0, Sakai
+	SALTY, N33.51.09.65, E132.55.30.80, !80, Salty
 	SANDA, N34.55.50.20, E135.21.43.92, -172, Sanda
 	SHION, N34.25.42.12, E134.16.57.38, !, Shion
 	SHTLE, N34.49.50.95, E136.56.53.84, !, Shuttle
@@ -69,18 +74,24 @@ beacons =
 	SOMEI, N34.15.48.60, E135.55.39.63, !, So-mei
 	SOUJA, N34.37.38.64, E133.44.22.48, !, Souja
 	SUKMO, N33.15.20.22, E133.11.44.74, !, Sukumo
-	TAKMA, N34.15.09.80, E133.24.58.62, !, Takma
+	TAKMA, N34.15.09.80, E133.24.58.62, 0, Takma
+	TOZAN, N35.16.15.44, E134.29.04.17, 0, Tozan
 	UBUYU, N33.56.24.63, E135.02.04.59, !, Ubuyu
 	UKELI, N34.28.10.24, E132.44.28.01, !, Ukeli
-	WASYU, N34.28.17.50, E133.23.01.14, !, Wah-shu
+	WAKIT, N35.01.57.85, E134.55.31.99, !, Wakit
+	WASYU, N34.28.17.50, E133.23.01.14, 0, Wah-shu
 	WENDY, N34.32.09.46, E134.50.30.81, !, Wendy
 	YAKMO, N35.30.12.32, E132.46.46.85, !, Yakumo
+	YUBAR, N35.00.52.41, E133.35.11.03, 0, Yubar
+	@Y35, RANDY, D22, 260, 0
+	@Y544, SINGU, D12, 70, 0
+	@Y382, WAKIT, D26, 49, 0
+	@Y384, ROKKO, D15, 42, 0
 #RJBB
 #DEPARTURE
 	BB440, N34.24.32.6, E135.02.30.1, !, Bravo Bravo 4 4 0
 	BB430, N34.24.36.6, E135.03.09.3, !, Bravo Bravo 4 3 0
 	DAISY, N34.30.02.26, E135.03.10.60, !, Daisy
-	EVERT, N33.39.25.07, E135.07.59.05, !, Evert
 	GLORY, N34.27.36.04, E134.44.00.57, !, Glory
 	GOBOH, N33.54.36.35, E135.06.22.24, !, Goboh
 	HABAR, N34.19.09.74, E133.35.19.62, !, Habar
@@ -93,7 +104,6 @@ beacons =
 	NARAH, N34.29.58.80, E135.41.02.85, !, Narah
 	ODORI, N34.00.13.15, E134.30.11.84, !, Odori
 	OGURA, N34.47.58.69, E135.34.24.86, !, Ogura
-	SAEKI, N34.57.08.00, E134.03.50.19, !, Saeki
 	SIGAK, N34.53.07.68, E136.02.52.71, !, Sigak
 	TOMOH, N34.16.49.57, E135.00.20.33, !, Tomoh
 	TONDA, N33.43.43.84, E135.22.39.26, !, Tonda
@@ -133,7 +143,10 @@ beacons =
 	MAYAH, N34.36.23.74, E135.12.11.00, 99, Maya
 	NALTO, N34.09.00.56, E134.43.13.29, !, Nalto
 	RIDGE, N34.17.34.94, E135.48.37.94, !, Ridge
+	SAEKI, N34.57.08.00, E134.03.50.19, 0, Saeki
+	SPICE, N35.10.10.54, E134.15.44.49, 0, Spice
 	TANTA, N34.16.04.86, E134.27.29.15, !, Tanta
+	TONBI, N35.10.53.48, E134.01.04.31, 0, Tonbi
 #06L
 	B6L50, N34.25.23.93, E135.11.54.14, !, Bravo 6 Lima 5 0
 	B6L51, N34.26.42.97, E135.04.16.62, !, Bravo 6 Lima 5 1
@@ -148,11 +161,13 @@ beacons =
 	HANNA, N34.21.04.14, E135.07.18.26, !, Hanna
 	JANET, N34.17.28.67, E135.02.31.08, !, Janet
 	ZELDA, N34.19.21.21, E135.05.17.94, !, Zelda
+	@B6R50, =RJBBRWYA06R, D0.5, RWYHDG+180, !
 #24L
 	AMBER, N34.29.42.20, E135.20.42.65, !, Amber
 	ATTIC, N34.32.43.25, E135.25.13.50, !, Attic
 	AGATE, N34.28.27.14, E135.18.50.50, !, Agate
 	KAIZU, N34.29.29.60, E135.19.44.89, !, Kaizu
+	@B4L70, =RJBBRWYA24L, D0.5, RWYHDG+180, !
 #24R
 	B4R70, N34.27.42.42, E135.15.20.49, !, Bravo 4 Romeo 7 0
 	BLOND, N34.30.03.15, E135.18.50.52, !, Blond
@@ -160,8 +175,6 @@ beacons =
 	MAJOH, N34.30.05.41, E135.18.53.91, !, Mahjoh
 #RJBE
 	RJBE, N34.37.58, E135.13.26, !, Kobe ARP
-	GINJI, N35.05.39.64, E135.16.51.02, 0, Ginji
-	WAKIT, N35.01.57.85, E134.55.31.99, 0, Wakit
 #DEPARTURE
 	REVUE, N34.46.36.43, E134.54.25.30, !, Revue
 	STEEL, N34.41.52.24, E134.52.26.58, !, Steel
@@ -170,9 +183,9 @@ beacons =
 #ARRIVAL
 	@IKOD5, =RJBERWY09, D4.8, RWYHDG+180, !, 5 D-M-E
 	@BE7C0, =RJBERWY27, D4, RWYHDG+180
-	@BE7C1, BE7C0, D3.5, RWYHDG-90
-	@BE7C2, BE7C1, D3, RWYHDG
-	@BE7C3, BE7C2, D3, RWYHDG
+	@BE7C9, BE7C0, D2.2, RWYHDG-120
+	@BE7C1, BE7C0, D4, RWYHDG-90
+	@BE7C2, BE7C1, D6, RWYHDG
 	KAKEF, N34.13.45.91, E134.34.26.43, !, Kakef
 	MARIN, N34.37.02.99, E135.01.51.14, !, Marin
 	OKADA, N34.37.03.07, E134.39.23.84, !, Okada
@@ -192,7 +205,6 @@ beacons =
 	SUMAR, N34.42.31.94, E135.01.28.15, !, Sumar
 	SUNNY, N33.55.13.46, E134.12.47.54, !, Sunny
 	TIGER, N34.40.50.43, E135.10.16.70, !, Tiger
-	TOZAN, N35.16.15.44, E134.29.04.17, !, Tozan
 	YODOH, N34.39.37.68, E135.21.34.86, !, Yodoh
 	YOKKA, N35.00.40.01, E136.27.40.70, !, Yokka
 #ARRIVAL
@@ -201,24 +213,26 @@ beacons =
 	GAMBA, N34.42.53.77, E135.40.07.31, 0, Gamba
 	HABIK, N34.32.46.79, E135.39.14.17, 0, Habick
 	JANGO, N33.48.33.73, E134.14.34.79, 0, Jango
-	KAIFU, N33.36.10.14, E134.32.31.24, !, Kaifu
+	KAIFU, N33.36.10.14, E134.32.31.24, 0, Kaifu
 	KAINA, N34.13.06.52, E135.14.34.71, 45, Kai Na
 	KAMEO, N34.57.02.66, E135.28.04.22, -171, Kameh Oh
 	KAZRA, N33.55.37.50, E133.58.45.70, !, Kazra
-	KODAI, N34.28.55.56, E136.05.45.83, 0, Koe Die
+	KODAI, N34.28.55.56, E136.05.45.83, !, Koe Die
 	KYUHO, N34.40.51.94, E135.33.32.36, !, Kyuho
 	MIKAN, N34.15.48.79, E135.14.09.96, 49, Mikan
 	MIRIO, N34.00.05.54, E134.42.32.57, 0, Mirio
 	MIRAI, N34.32.12.64, E135.53.58.14, -265, Mirai
-	MUGIE, N33.35.32.07, E134.46.43.17, !, Mugie
-	OHDAI, N34.30.59.54, E136.19.04.51, !, Oh-die
+	MUGIE, N33.35.32.07, E134.46.43.17, 0, Mugie
+	OHDAI, N34.30.59.54, E136.19.04.51, 0, Oh-die
 	OTABE, N34.39.28.94, E135.45.39.82, !, Ohtabe
 	@OO14F, =RJOORWYA14L, D4, RWYHDG+180
 	@OO14B, OO14F, D3.5, RWYHDG+90
 	@OO14D, OO14B, D6, RWYHDG
-	RIVER, N33.53.19.73, E133.32.22.56, !, River
-	ROKKO, N35.07.00.56, E135.18.00.92, 0, Rokko
+	RIVER, N33.53.19.73, E133.32.22.56, 0, River
+	ROSIE, N33.42.48.44, E133.29.26.34, !, Rosie
 	ZOROH, N33.54.40.97, E133.47.48.09, !, Zoroh
+	@Y231, JANGO, D21, 268, 0
+#	@Y546, OHDAI, D12, 78, 0
 #32L
 	IKOMA, N34.36.16.68, E135.39.14.81, 321, Ikoma
 	KOSAK, N34.39.14.59, E135.35.40.54, !, Kosak
@@ -252,13 +266,14 @@ beacons =
 	OS293, N34.08.46.15, E134.32.02.68, !, Oscar Sierra 2 9 3
 	OS294, N34.03.37.39, E134.30.40.44, !, Oscar Sierra 2 9 4
 	UZUPY, N34.06.03.89, E134.46.37.86, !, Uzupy
+	@FAF9Y, =RJOSRWY29, D6, RWYHDG+180, !, I-L-S Yankee Runway 29
+	@KEC30, KEC, D30, 292, 0
 #RJOB
 #DEPARTURE
 	DANGO, N34.32.51.63, E133.36.54.41, !, Dango
 	OB700, N34.47.34.2, E133.55.42.5, !, Oscar Bravo 7 0 0
 	@OB07D, =RJOBRWY25, D1, RWYHDG+180
 	@OB25D, =RJOBRWY07, D1, RWYHDG+180
-	YUBAR, N35.00.52.41, E133.35.11.03, !, Yubar
 #ARRIVAL
 	AKAOH, N34.41.41.03, E133.45.34.95, !, Akaoh
 	AONII, N34.48.01.16, E133.57.37.92, !, Aonii
@@ -304,7 +319,9 @@ beacons =
 #DEPARTURE
 	OBOKE, N34.00.53.91, E133.55.17.46, !, Oboke
 #ARRIVAL
+	IYOKA, N34.22.18.42, E135.25.46.10, !, Iyoka
 	IZARI, N33.56.01.20, E134.53.15.78, !, Izari
+	OSAMU, N34.18.17.59, E135.26.00.36, !, Osamu
 	@OY9F1, =RJOYRWYA09, D4, RWYHDG+180
 	@OY7F1, =RJOYRWYA27, D4, RWYHDG+180
 	@OY7B1, OY7F1, D3.5, RWYHDG-90
@@ -314,6 +331,8 @@ beacons =
 	@OY1B1, OY1F1, D3.5, RWYHDG+90
 #RJOP
 	RJOP, N34.00.19, E134.37.35, !, Komatsushima ARP
+#RJBT
+	GUNZE, N35.16.24.89, E135.13.48.45, 0, Gunze
 
 handoff = 
 #N50
@@ -485,11 +504,11 @@ boundary =
 #***extension of ACA for gameplay purposes (arrivals via Y38/Y384/V55/RJBT ROKKO)
 #*****start
 #ITE R332 35DME
-	N35.19.11.00, E135.04.06.00
+#	N35.19.11.00, E135.04.06.00
 #10
-#	N35.11.08.00, E135.18.58.00
+	N35.11.08.00, E135.18.58.00
 #ITE R012 35DME
-	N35.22.32.00, E135.33.08.00
+#	N35.22.32.00, E135.33.08.00
 #1/4 distance from 10 to 14
 #	N35.09.38.00, E135.26.37.00
 #*****end ACA extension
@@ -506,21 +525,21 @@ boundary =
 #***extension of ACA for gameplay purposes (arrivals via Y544 SINGU/Y546 KODAI)
 #*****start
 #midpoint 33~37 (KNE ~R078 49DME)
-	N34.35.40.00, E136.13.22.00
+#	N34.35.40.00, E136.13.22.00
 #KNE R077T 60DME
-	N34.38.57, E136.26.08
+#	N34.38.57, E136.26.08
 #37 (R111)
-#	N34.31.00.00, E136.19.05.00
+	N34.31.00.00, E136.19.05.00
 #*****N34.48.20.00 E135.24.13.00 (~ITE) 48NM arc
 #R116
-#	N34.27.07.00, E136.16.30.00
+	N34.27.07.00, E136.16.30.00
 #R122
-#	N34.22.45.00, E136.13.30.00
+	N34.22.45.00, E136.13.30.00
 #R128
-#	N34.18.40.00, E136.09.59.00
+	N34.18.40.00, E136.09.59.00
 #*****N34.48.20.00 E135.24.13.00 (~ITE) 48NM arc end\
 #KNE R090T 60DME
-	N34.25.27, E136.27.48
+#	N34.25.27, E136.27.48
 #*****end ACA extension
 #36 (R133)
 	N34.14.57.00, E136.06.47.00
@@ -734,120 +753,124 @@ sids =
 	!KAWAT
 	!WENDY
 	!GLORY
+	!SALTY
 
 entrypoints = 
 #Y36 ALISA
-	320, ALISA
+	312, TONBI, 19000
+	330, SPICE, 20000
+#	320, SAEKI, 19000
 #Y35 BERTH
-	255, BERTH
-#	255, BERTH
+	253, Y35, 15000, *2
 #Y53 BECKY
-	224, BECKY
-#	224, BECKY
+	224, KARIN, 16000, *3
 #Y46 CANDY
-	158, CANDY
+	164, EVERT, 12000
 #Y544 SINGU
-	83, SINGU
-	83, SINGU
-	83, SINGU
-	83, SINGU
-	83, SINGU
+	83, Y544, 18000, *5
+#	83, SINGU, 18000, *5
 
 airlines = 
-	jal, 10, b738/b763/b77l/b77w/b788/b789/a359, japan air, we
-	jal, 7, b738/b763/b77l/b77w/b788/b789/a359, japan air, ns
-	ana, 10, a320/a20n/a321/a21n/b737/b738/b763/b77w/b788/b789/b78x, all nippon, nswe
-	ana, 7, a320/a20n/a321/a21n/b737/b738/b763/b77w/b788/b789/b78x, all nippon, ns
-	jyh, 1, b738, trans jade, w
-	xax, 2, a333, xanadu, se
-	abl, 2, a320/a321, air busan, n
-	aci, 1, a339, air calin, s
-	cca, 3, a320/a20n/a321/a21n/a332/a359/b738/b772, air china, nw
-	aar, 3, a320/a321/a21n/a333/a359, asiana, n
-	cbj, 1, a320/a20n/a321/a21n/a332, capital jet, n
-	cpa, 3, a333/a359/a35k/b773/b77w, cathay, s
-	apj, 7, a320, air peach, nswe
-	sfj, 4, a320, star flyer, e
-	jta, 2, b738, jai ocean, s
-	cal, 3, a333/a359/b77w, dynasty, s
-	ceb, 1, a320/a20n/a321/a333, cebu air, s
-	ces, 3, a319/a320/a321/b737/b738/a332/a333, china eastern, nw
-	csn, 3, a319/a320/a20n/a321/a21n/a332/a333/a359/b737/b738/a388, china southern, nw
-	cua, 1, b737, lianhang, w
-	dal, 1, b763, delta, e
-	esr, 1, b738, eastar jet, n
-	uae, 1, b77w, emirates, w
-	eva, 3, b78x, eva, s
-	fin, 1, a359, finn air, n
-	gia, 2, a333/a339, indonesia, s
-	chh, 2, b738, hainan, wn
-	hal, 1, a332, hawaiian, e
-	hbh, 1, b738, hebei air, n
-	hke, 1, a320/a20n, hong kong shuttle, s
-	crk, 1, a332, bauhinia, s
-	jja, 2, b738, jeju air, ns
-	jst, 1, a332, jetstar, s
-	jsa, 1, a320, jetstar asia, s
-	jjp, 5, a320, orange liner, ensw
-	jna, 2, b738, jin air, n
-	dkh, 2, a320/a20n/a321, air juneyao, w
-	klm, 1, b789, k l m, n
-	kal, 3, a332/a333/b738/b748/b77w, korean air, n
-	cdc, 1, a320/a20n, loong air, w
-	dlh, 1, a359, lufthansa, n
-	mas, 1, a388/a332/a359, malaysian, s
-	mgl, 1, b738, mongol air, n
-	oka, 2, b738, okay jet, nw
-	pal, 1, a321/a333, philippine, s
-	apg, 1, a320, cool red, s
-	qfa, 1, a332, kwon tas, s
-	tgw, 1, a320/b788/b789, scooter, s
-	cdg, 1, b738, shandong, n
-	csh, 1, a333/b738, shanghai air, w
-	csz, 2, a320, shenzhen air, s
-	csc, 2, a319/a320/a20n/a321/a21n, sichuan, w
-	sia, 1, a359/a388/b78x, singapore, s
-	cqh, 2, a320, air spring, nw
-	tax, 1, a333/a339, express wing, s
-	tha, 1, a359/a388/b744, thai, s
-	tlm, 1, a333/a339/b738, mentari, s
-	gcr, 1, a320/a321/a332/a333, bohai, n
-	ttw, 1, a320, smart cat, s
-	thy, 1, a332/a333, turkish, n
-	twb, 1, b738, teeway, n
-	ual, 1, b788, united, es
-	vjc, 1, a320/a321/a21n, viet jet air, w
-	hvn, 1, a359/b789, viet nam airlines, w
-	chb, 1, a320, west china, w
-	cxa, 1, b737/b738, xiamen air, w
+	jal, 1000, b738/b763/b77l/b77w/b788/b789/a359, we
+	jal, 700, b738/b763/b77l/b77w/b788/b789/a359, ns
+	ana, 1000, a320/a20n/a321/a21n/b737/b738/b763/b77w/b788/b789/b78x, nswe
+	ana, 700, a320/a20n/a321/a21n/b737/b738/b763/b77w/b788/b789/b78x, ns
+	jyh, 100, b738, w
+	xax, 200, a333, se
+	abl, 200, a320/a321, n
+	aci, 100, a339, s
+	afl, 100, a359, n
+	cca, 300, a320/a20n/a321/a21n/a332/a359/b738/b772, nw
+	aar, 300, a320/a321/a21n/a333/a359, n
+	cbj, 100, a320/a20n/a321/a21n/a332, n
+	cpa, 300, a333/a359/a35k/b773/b77w, s
+	apj, 700, a320, nswe
+	sfj, 400, a320, e
+	jta, 200, b738, s
+	cal, 300, a333/a359/b77w, s
+	ceb, 100, a320/a20n/a321/a333, s
+	ces, 300, a319/a320/a321/b737/b738/a332/a333, nw
+	csn, 300, a319/a320/a20n/a321/a21n/a332/a333/a359/b737/b738/a388, nw
+	cua, 100, b737, w
+	dal, 100, b763, e
+	esr, 100, b738, n
+	uae, 100, b77w, w
+	eva, 300, b78x, s
+	fin, 100, a359, n
+	gia, 200, a333/a339, s
+	chh, 200, b738, wn
+	hal, 100, a332, e
+	hbh, 100, b738, n
+	hke, 100, a320/a20n, s
+	crk, 100, a332, s
+	jja, 200, b738, ns
+	jst, 100, a332, s
+	jsa, 100, a320, s
+	jjp, 500, a320, ensw
+	jna, 200, b738, n
+	dkh, 200, a320/a20n/a321, w
+	klm, 100, b789, n
+	kal, 300, a332/a333/b738/b748/b77w, n
+	cdc, 100, a320/a20n, w
+	dlh, 100, a359, n
+	mas, 100, a388/a332/a359, s
+	mgl, 100, b738, n
+	oka, 200, b738, nw
+	pal, 100, a321/a333, s
+	apg, 100, a320, s
+	qfa, 100, a332, s
+	tgw, 100, a320/b788/b789, s
+	cdg, 100, b738, n
+	csh, 100, a333/b738, w
+	csz, 200, a320, s
+	csc, 200, a319/a320/a20n/a321/a21n, w
+	sia, 100, a359/a388/b78x, s
+	cqh, 200, a320, nw
+	sjx, 100, a21n, s
+	tax, 100, a333/a339, s
+	tha, 100, a359/a388/b744, s
+	tlm, 100, a333/a339/b738, s
+	gcr, 100, a320/a321/a332/a333, n
+	ttw, 100, a320, s
+	thy, 100, a332/a333, n
+	twb, 100, b738, n
+	ual, 100, b788, es
+	vjc, 100, a320/a321/a21n, w
+	hvn, 100, a359/b789, w
+	chb, 100, a320, w
+	cxa, 100, b737/b738, w
 #cargo
-	cao, 1, b77l, air china freight, n
-	ana, 2, b763/b77l, all nippon, we
-	aar, 1, b744, asiana, n
-	icv, 1, b744, cargolux italia, n
-	cpa, 1, b744/b748, cathay, s
-	cal, 1, b744, dynasty, s
-	ckk, 1, b744/b77l, cargo king, w
-	cyz, 1, b733/b734, china post, w
-	ahk, 1, a306, air hong kong, s
-	eva, 1, b77l, eva, s
-	fdx, 4, b77l/md11/b763, fedex, eswn
-	kal, 1, b744/b748/b77l, korean air, n
-	gec, 1, b77l/md11, lufthansa cargo, n
-	nca, 1, b744/b748, nippon cargo, se
-	qtr, 1, b77l, qatari, sw
-	csc, 1, a332, sichuan, w
-	azg, 1, b744/b748, silk west, n
-	yzr, 1, b733/b734/b744, yangtze river, w
-	ups, 3, b744/b748/b763/md11, u p s, ew
+	cao, 100, b77l, n
+	ana, 200, b763/b77l, we
+	aar, 100, b744, n
+	icv, 100, b744, n
+	cpa, 100, b744/b748, s
+	cal, 100, b744, s
+	ckk, 100, b744/b77l, w
+	cyz, 100, b733/b734, w
+	ahk, 100, a306, s
+	eva, 100, b77l, s
+	fdx, 600, b77l/md11/b763, eswn
+	kal, 100, b744/b748/b77l, n
+	gec, 100, b77l/md11, n
+	nca, 100, b744/b748, se
+	qtr, 100, b77l, sw
+	csc, 100, a332, w
+	azg, 100, b744/b748, n
+	yzr, 100, b733/b734/b744, w
+	ups, 300, b744/b748/b763/md11, ew
+	vda, 5, a124, nswe
+	adb, 1, a124, nswe
+#jcab
+	ckstr-11, 10, c25c, w
 #ga
-#	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, nswe
+	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, nswe
+	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, nswe
 
 [airport]
 name = Kobe
-code = BE
+code = BE, RJBE
 runways =
 	RJBERWY, 09, N34.37.53.91, E135.12.37.12, 84.61, 8202, 0, 0, 27, 0, 0, 0, 0, 0, 0, 0, 0, 118.5
 traffic = 15
@@ -855,13 +878,14 @@ inboundbeacon = TSC
 
 entrypoints = 
 #Y35 BERTH
-	255, BERTH
+	253, Y35, 15000
 #Y53 BECKY
-	224, BECKY
+	224, KARIN, 16000
 #Y382 WAKIT Y201 TRACY
-	16, WAKIT
+	16, Y382, 13000
 #Y20 WAKIT Y201 TRACY
-	47, GINJI
+	45, ARASI, 19000
+#	41, ARASI, 19000
 
 climbaltitude = 1500
 
@@ -871,24 +895,23 @@ sids =
 	!ASAGI
 
 airlines = 
-	ana, 2, a320/a20n/b737/b738/b763, all neeppon, ne
-	ana, 5, a320/a20n/b737/b738/b763, all neeppon, ne
-	ado, 2, b737/b763, air do, e
-	ado, 1, b737/b763, air do, n
-	fda, 3, e170/e175, fuji dream, wns
-	sky, 3, b738, skymark, wesn
-	snj, 1, b738, new sky, s
+	ana, 200, a320/a20n/b737/b738/b763, n
+	ana, 500, a320/a20n/b737/b738/b763, e
+	ado, 200, b737/b763, e
+	ado, 100, b737/b763, n
+	fda, 300, e170/e175, wns
+	sky, 300, b738, wesn
+	snj, 100, b738, s
+#jcab
+	ckstr-11, 10, c25c, w
 #ga
-#	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-123a, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-12ab, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-123a, 1, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/glf5/glf6/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-12ab, 1, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/glf5/glf6/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-1234, 1, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/glf5/glf6/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
 
 [airport]
 name = Osaka
-code = OO
+code = OO, RJOO
 runways =
 	RJOORWYB, 32L, N34.46.19.92, E135.27.06.76, 315.0, 9843, 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 0, 118.1
 	RJOORWYA, 32R, N34.47.01.02, E135.26.34.11, 315.0, 6000, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 118.1
@@ -897,30 +920,34 @@ inboundbeacon = IZUMI
 
 entrypoints =
 #Y546 KODAI
-	81, KODAI
-	81, KODAI
-	81, KODAI
-	81, KODAI
-	81, KODAI
-	81, KODAI
-	81, KODAI
+	81, OHDAI, 13000, *8
 #Y753 IZUMI/Y403 KAINA Y753 IZUMI
-	199, HONMA
+	195, MUGIE, 19000
 #Y53 BECKY Y401 KAINA Y753 IZUMI
-#	224, BECKY
+#	224, BECKY, 19000
 #Y231 MIRIO Y401 KAINA Y753 IZUMI
-	241, JANGO
+#	241, Y231, 25000, *3
+	239, Y231, 25000, *3
 #Y401 KAINA Y753 IZUMI
-	249, MIRIO
+#	249, RIVER, 17000, *3
+	246, RIVER, 17000, *3
 #Y38 ROKKO
-	320, ROKKO
+#	349, TOZAN, 14000
+	325, TOZAN, 14000
 #Y384 ROKKO
-	25, ROKKO
+#	25, Y384, 12000, *3
+	26, Y384, 12000, *3
+#RJOR YME1 / RJOH USAGI2.ALBINO
+#	9, YME, 9000
+#	6, YME, 9000
+#RJBT ROKKO1
+#	5, GUNZE, 9000
+#	357, GUNZE, 9000 ; from RJBT
+	6, GUNZE, 9000
 
 climbaltitude = 6000
 
 sids = 
-	!SHTLE
 	!MINAC
 	!ASUKA
 	!TIGER
@@ -934,55 +961,42 @@ sids =
 	!PANAS
 	!RIVER
 	!ZOROH
+	!ROSIE
+	!MENOU
 
 airlines = 
-	jal, 10, b763/b772/b773/b788/b789/a359, japan air, e
-	jal, 10, b763/b772/b773/b788/b789/a359, japan air, e
-	jal, 10, b763/b772/b773/b788/b789/a359, japan air, e
-	jal, 9, b738/b763/b772/b773/b788/b789/a359, japan air, nswe
-	jal, 9, b738/b763/b772/b773/b788/b789/a359, japan air, nswe
-	jal, 9, b738/b763/b772/b773/b788/b789/a359, japan air, nswe
+	jal, 3000, b763/b772/b773/b788/b789/a359, e
+	jal, 2700, b738/b763/b772/b773/b788/b789/a359, nswe
 #jlj
-	jal, 6, e170/e190, japan air, nwe
-	jal, 6, e170/e190, japan air, nwe
-	jal, 6, e170/e190, japan air, nwe
-	ana, 10, b763/b772/b773/b788/b789, all neeppon, e
-	ana, 10, b763/b772/b773/b788/b789, all neeppon, e
-	ana, 10, b763/b772/b773/b788/b789, all neeppon, e
-	ana, 8, a320/a20n/a321/a21n/b737/b738/b763/b772/b773/b788/b789, all neeppon, nswe
-	ana, 8, a320/a20n/a321/a21n/b737/b738/b763/b772/b773/b788/b789, all neeppon, nswe
-	ana, 8, a320/a20n/a321/a21n/b737/b738/b763/b772/b773/b788/b789, all neeppon, nswe
-	akx, 5, dh8d, alfa wing, nwse
-	akx, 5, dh8d, alfa wing, nwse
-	akx, 5, dh8d, alfa wing, nwse
-	ibx, 3, crj7, ibex, wne
-	ibx, 3, crj7, ibex, wne
-	ibx, 3, crj7, ibex, wne
-	ahx, 1, at46, amakusa air, w
-	ahx, 1, at46, amakusa air, w
-	ahx, 1, at46, amakusa air, w
-	jac, 1, at46/at76, commuter, s
-	jac, 1, at46/at76, commuter, s
-	jac, 1, at46/at76, commuter, s
-#	jf-1, 1, b77w, japan air force, nswe
-	cygns-1, 1, b77w, sig nus, nswe
+	jal, 1800, e170/e190, nwe
+	ana, 3000, b763/b772/b773/b788/b789, e
+	ana, 2400, a320/a20n/a321/a21n/b737/b738/b763/b772/b773/b788/b789, nswe
+	akx, 1500, dh8d, nwse
+	ibx, 900, crj7, wne
+	ahx, 300, at46, w
+	jac, 300, at46/at76, s
+	_jf-1, 1, b77w, nswe
+	cygns-1, 1, b77w, nswe
+	_af-1-, 1, b742, we
+#jcab
+	ckstr-11, 10, c25c, w
 
 [airport]
 name = Tokushima, Toe kushima
-code = OS
+code = OS, RJOS
 runways = 
 	RJOSRWY, 29, N34.07.47.36, E134.37.20.98, 282.53, 8202, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 126.2
 traffic = 30
 
 entrypoints = 
 #Y33 KTE KULUL TSC
-	255, KTE
+	255, SAKAI, 13000
 #Y544 SINGU Y542 DATIS
-	83, SINGU
+	83, Y544, 18000
 ##V37 TOSAR TSC
-#	216, TSC
+#	216, TSC, 11000
 #KEC JOSIN TSC
-	138, JOSIN
+	164, KEC30, 15000
 
 climbaltitude = 3000
 
@@ -993,26 +1007,23 @@ sids =
 	!SAKAI
 
 airlines = 
-	jal, 5, b738, japan air, e
-	jal, 1, e170, japan air, w
-	ana, 5, a320/a20n/a321/a21n/b737/b738, all neeppon, e
-	focus-1, 1, be9l, focus, s
-	king-1, 10, be9l, king, s
-	king-12, 3, be9l, king, s
-#	cupid-1, 1, lj35, cupid, nswe
-#	ascot-1, 1, h25b, ascot, nswe
+	jal, 500, b738, e
+	jal, 100, e170, w
+	ana, 500, a320/a20n/a321/a21n/b737/b738, e
+	focus-1, 100, be9l, s
+	king-1, 1000, be9l, s
+	king-12, 300, be9l, s
+	cupid-1, 1, lj35, nswe
+	ascot-1, 1, h25b, nswe
 #ga
-#	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-123a, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-12ab, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-123a, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/glf5/glf6/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-12ab, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/glf5/glf6/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-1234, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/glf5/glf6/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
 
 
 [airport]
 name = Takamatsu
-code = OT
+code = OT, RJOT
 runways = 
 	RJOTRWY, 26, N34.13.02.52, E134.01.43.45, 252.9, 8202, 0, 0, 583, 0, 0, 0, 0, 0, 0, 0, 0, 118.3
 traffic = 30
@@ -1020,11 +1031,14 @@ inboundbeacon = KTE
 
 entrypoints = 
 #Y20 WAKIT Y203 WIMPY
-	47, GINJI
+	45, ARASI, 23000
+#	41, ARASI, 23000
 #Y283 KINOE Y288 TAKMA KTE
-	265, KTE
+	263, TAKMA, 9000
+#	265, TAKMA, 9000
 #Y39 OYE KTE
-	300, OYE
+#	300, YUBAR, 17000
+	303, YUBAR, 17000
 
 climbaltitude = 3000
 
@@ -1034,27 +1048,27 @@ sids =
 	!MIHOU
 
 airlines = 
-	jal, 7, b738, japan air, e
-	jjp, 3, a320, orange liner, e
-	ana, 5, a320/a20n/b737/b738, all neeppon, e
-	akx, 1, a320/a20n/b737/b738, alfa wing, w
-	akx, 1, a320/a20n/b737/b738, alfa wing, e
-	hke, 1, a320/a20n, hong kong shuttle, w
-	cqh, 1, a320, air spring, w
-	cal, 1, b738, dynasty, w
-	asv, 1, a320, air seoul, n
+	jal, 700, b738, e
+	jjp, 300, a320, e
+	ana, 500, a320/a20n/b737/b738, e
+	akx, 100, a320/a20n/b737/b738, w
+	akx, 100, a320/a20n/b737/b738, e
+	hke, 100, a320/a20n, w
+	cqh, 100, a320, w
+	cal, 100, b738, w
+	asv, 100, a320, n
 #ga
-#	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-123a, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-12ab, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+#	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, nswe
+#	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, nswe
+#	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, nswe
+	ja-123a, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-12ab, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-1234, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
 
 
 [airport]
 name = Okayama
-code = OB
+code = OB, RJOB
 runways = 
 	RJOBRWY, 07, N34.45.00.07, E133.50.28.89, 59.23, 8202, 0, 0, 805, 0, 0, 0, 0, 0, 0, 0, 0, 124.3
 traffic = 30
@@ -1062,13 +1076,16 @@ inboundbeacon = OYE
 
 entrypoints = 
 #Y20 WAKIT Y205 OYE
-	47, GINJI
+	45, ARASI, 21000
+#	41, ARASI, 21000
 #Y382 WAKIT Y205 OYE
-	16, WAKIT
+	16, Y382, 17000
 #Y283 KINOE Y288 INOOK OYE
-	261, INOOK
+#	265, TAKMA, 11000
+	263, TAKMA, 11000
 #Y39 OYE
-	300, OYE
+#	300, YUBAR, 9000
+	303, YUBAR, 9000
 
 climbaltitude = 3000
 
@@ -1076,27 +1093,24 @@ sids =
 	!YUBAR
 
 airlines = 
-	jal, 6, b738, japan air, e
-	jta, 1, b738, jai ocean, w
-	ana, 3, a321, all neeppon, e
-	ana, 1, b738, all neeppon, e
-	ana, 1, b738, all neeppon, n
-	kal, 1, bcs3, korean air, n
-	ces, 1, a320, china eastern, w
-	crk, 1, a320, bauhinia, w
-	ttw, 1, a320, smart cat, w
+	jal, 600, b738, e
+	jta, 100, b738, w
+	ana, 300, a321, e
+	ana, 100, b738, e
+	ana, 100, b738, n
+	kal, 100, bcs3, n
+	ces, 100, a320, w
+	crk, 100, a320, w
+	ttw, 100, a320, w
 #ga
-#	ja-123a, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-	ja-12ab, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-123a, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-12ab, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
-#	ja-1234, 1, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, 0, nswe
+	ja-123a, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-12ab, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-1234, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
 
 
 [airport]
 name = Yao Airport
-code = OY
+code = OY, RJOY
 runways = 
 	RJOYRWYA, 27, N34.35.47.00, E135.36.20.14, 270, 4888, 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 0, 124.35
 	RJOYRWYB, 31, N34.35.38.78, E135.36.22.69, 310, 3937, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 124.35
@@ -1105,28 +1119,35 @@ inboundbeacon = YOE
 
 entrypoints = 
 #V55 ROKKO V55 IZUMI
-	355, ROKKO
+#	355, ROKKO, 13000
+#	25, Y384, 10000
+	26, Y384, 10000
+#	9, YME, 11000
+	9, GUNZE, 11000
+#	349, TOZAN, 13000
+	325, TOZAN, 13000
 #MIDER V28 ITE V55 IZUMI
-	51, ITE
+	50, MIDER, 18000
 #KEC V55 IZUMI
-	160, IZUMI
-#OYE V28 ITE V55 IZUMI
-	300, OYE
+	134, NORAN, 8000
+#V28 ITE V55 IZUMI
+	267, WASYU, 11000
 #KRE KAIFU IZARI MIKAN IZUMI
-	209, MIKAN
+	217, KAIFU, 11000
+#Y33 KTE KULUL TSC MIKAN IZUMI
+	255, SAKAI, 11000
 
 climbaltitude = 2500
 
 sids = 
 	!IZARI
-	!MIDER
 	!NORAN
 
 airlines = 
-	ja-123a, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, 0, nswe
-	ja-12ab, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, 0, nswe
-	ja-1234, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, 0, nswe
-	romeo-12, 1, b350, romeo, nswe 
+	ja-123a, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-12ab, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	ja-1234, 10, b350/be36/be58/da40/c172/t206/c208/c25m/c510/c525/c25a/ac95/dhc6/kodi/hdjt/p28r/p28s/p28u/p32r/p46t/pa34/pa46/sr22/tbm/toba, nswe
+	romeo-12, 1, b350, nswe
 
 #KANSAI CTR
 [area]
@@ -1703,33 +1724,33 @@ position = N34.45.25, E133.51.19
 labelpos = N34.48.25, E133.49.19
 
 #CHUBU ACA 12000 & 12000/5000
-[area]
-shape = polygon
-altitude = 12001
-name = GG
-labelpos = N34.26.26.50, E136.17.08.50
-points = 
+#[area]
+#shape = polygon
+#altitude = 12001
+#name = GG
+#labelpos = N34.26.26.50, E136.17.08.50
+#points = 
 #***extension of ACA for gameplay purposes (arrivals) 34 25 48.31 135 15 06.42
 #*****start
 #midpoint 33~37 (KNE ~R078 49DME)
-	N34.35.40.00, E136.13.22.00
+#	N34.35.40.00, E136.13.22.00
 #37 (R111)
-	N34.31.00.00, E136.19.05.00
+#	N34.31.00.00, E136.19.05.00
 #*****N34.48.20.00 E135.24.13.00 (~ITE) 48NM arc
 #R116
-	N34.27.07.00, E136.16.30.00
+#	N34.27.07.00, E136.16.30.00
 #R122
-	N34.22.45.00, E136.13.30.00
+#	N34.22.45.00, E136.13.30.00
 #R128
-	N34.18.40.00, E136.09.59.00
+#	N34.18.40.00, E136.09.59.00
 #*****N34.48.20.00 E135.24.13.00 (~ITE) 48NM arc end
 #*****end ACA extension
 #36 (R133)
-	N34.14.57.00, E136.06.47.00
+#	N34.14.57.00, E136.06.47.00
 #KNE R090T 60DME
-	N34.25.27, E136.27.48
+#	N34.25.27, E136.27.48
 #KNE R077T 60DME
-	N34.38.57, E136.26.08
+#	N34.38.57, E136.26.08
 
 #AKENO ACA 5000/SFC
 [area]
@@ -1928,29 +1949,29 @@ points =
 #	N34.08.12.00, E133.29.51.00
 
 #area north of KANSAI ACA under extension
-[area]
-shape = polygon
-altitude = 6001
-name = JJ
-labelpos = N35.16.22.00, E135.18.15.00
-points = 
+#[area]
+#shape = polygon
+#altitude = 6001
+#name = JJ
+#labelpos = N35.16.22.00, E135.18.15.00
+#points = 
 #11
-	N35.05.46.00, E134.48.08.00
+#	N35.05.46.00, E134.48.08.00
 #***extension of ACA for gameplay purposes (arrivals via Y38/Y384/V55/RJBT ROKKO)
 #*****start
 #ITE R332 35DME
-	N35.19.11.00, E135.04.06.00
+#	N35.19.11.00, E135.04.06.00
 #10
 #	N35.11.08.00, E135.18.58.00
 #ITE R012 35DME
-	N35.22.32.00, E135.33.08.00
+#	N35.22.32.00, E135.33.08.00
 #1/4 distance from 10 to 14
 #	N35.09.38.00, E135.26.37.00
 #*****end ACA extension
 #14 (CBE ~R286 50DME)
-	N35.05.05.00, E135.49.31.00
+#	N35.05.05.00, E135.49.31.00
 #10
-	N35.11.08.00, E135.18.58.00
+#	N35.11.08.00, E135.18.58.00
 
 #YAO CTR 1300
 [area]
@@ -2204,37 +2225,13 @@ route = @DANDEA
 	@ILSY06R
 
 
-[approach]
-runway = RJBBRWYA
-beacon = SINGU
-
-route = 
-	250
-	!SINGU
-	!RIDGE, !265
-	@DANDEA
-
-
-[approach]
-runway = RJBBRWYA
-beacon = SOMEI
-
-route = 
-	250
-	!SOMEI
-	!DINAH, !250
-	!GOBOH, !250
-	!UBUYU, !304
-	@DATISA
-
-
 #---RJBB 06L STARs
 
 [approach]
 runway = RJBBRWYB
 beacon = ALISA
 
-route = @ALISAA
+route = @ALISAB
 	180
 	!ALISA
 	!TANTA, !140
@@ -2248,7 +2245,7 @@ route = @ALISAA
 runway = RJBBRWYB
 beacon = BERTH
 
-route = @BERTHA
+route = @BERTHB
 	90
 	!BERTH
 	@NALTO06L
@@ -2269,7 +2266,7 @@ route = @BECKYB
 runway = RJBBRWYB
 beacon = CANDY
 
-route = @CANDYA
+route = @CANDYB
 	329
 	!CANDY
 	!DATIS, !304@DATISB
@@ -2285,30 +2282,6 @@ route = @DANDEB
 	!DANDE
 	!JOLLY, !264
 	@ILSY06L
-
-
-[approach]
-runway = RJBBRWYB
-beacon = SINGU
-
-route = 
-	250
-	!SINGU
-	!RIDGE, !265
-	@DANDEB
-
-
-[approach]
-runway = RJBBRWYB
-beacon = SOMEI
-
-route = 
-	250
-	!SOMEI
-	!DINAH, !250
-	!GOBOH, !250
-	!UBUYU, !304
-	@DATISB
 
 
 #---RJBB 24 IAPs
@@ -2358,7 +2331,8 @@ route = @ILSZ24R
 	!BB450, 2600, 185
 	!BB451
 	!BB452
-	7.9, 1600, 185
+	!BEIGE
+	6.5, 1600, 185
 
 [approach]
 runway = RJBBRWYB, rev
@@ -2372,7 +2346,7 @@ route = @ILSY24R
 	!@KNE024D10.9
 	!@KNE034D10.9, 2600
 	!BLUSH
-	7.9, 1600, 185
+	6.5, 1600, 185
 
 
 [approach]
@@ -2386,71 +2360,34 @@ route =
 #---RJBB 24 STARs
 
 [approach]
-runway = RJBBRWYA, rev
 beacon = ALISA
 
-route = @ALISAC24L
+route = @ALISAC
 	180
 	!ALISA
 	!TANTA, !140
-	!AWAJI, !58@AWAJI24L
+	!AWAJI, !58@AWAJI
 	!LILAC, !58
-	@ILSZ24L
+	@ILSZ24L, @ILSZ24R
 
 
 [approach]
-runway = RJBBRWYB, rev
-beacon = ALISA
-
-route = @ALISAC24R
-	180
-	!ALISA
-	!TANTA, !140
-	!AWAJI, !58@AWAJI24R
-	!LILAC, !58
-	@ILSZ24R
-
-
-[approach]
-runway = RJBBRWYA, rev
 beacon = BERTH
 
-route = @BERTHC24L
+route = @BERTHC
 	90
 	!BERTH
-	@AWAJI24L
+	@AWAJI
 
 
 [approach]
-runway = RJBBRWYB, rev
-beacon = BERTH
-
-route = @BERTHC24R
-	90
-	!BERTH
-	@AWAJI24R
-
-
-[approach]
-runway = RJBBRWYA, rev
 beacon = BECKY
 
-route = @BECKYC24L
+route = @BECKYC
 	55
 	!BECKY
-	!NALTO, !336@NALTO24L
-	@AWAJI24L
-
-
-[approach]
-runway = RJBBRWYB, rev
-beacon = BECKY
-
-route = @BECKYC24R
-	55
-	!BECKY
-	!NALTO, !336@NALTO24R
-	@AWAJI24R
+	!NALTO, !336@NALTO
+	@AWAJI
 
 
 [approach]
@@ -2459,7 +2396,7 @@ beacon = CANDY
 route = @CANDYC
 	329
 	!CANDY
-	@NALTO24L, @NALTO24R
+	@NALTO
 
 
 [approach]
@@ -2468,7 +2405,7 @@ beacon = DATIS
 route = @DATISC
 	304
 	!DATIS
-	@NALTO24L, @NALTO24R
+	@NALTO
 
 
 [approach]
@@ -2479,53 +2416,130 @@ route = @DANDEC
 	!DANDE
 	!JOLLY
 	!GATES
-	@AWAJI24L, @AWAJI24R
+	@AWAJI
+
+
+#===RJBB arrival airways
+
+[approach]
+beacon = TONBI
+
+route = @Y361Y36HF
+	122
+	!TONBI
+	!SAEKI, 17000
+	!ALISA
+	end, hold
+	@ALISAA, @ALISAB, @ALISAC
+
+[approach]
+beacon = SPICE
+
+route = @Y36HF
+	225
+	!SPICE
+	!SAEKI, 17000
+	!ALISA
+	end, hold
+	@ALISAA, @ALISAB, @ALISAC
+
+
+[approach]
+beacon = SAEKI
+
+route = @Y36
+	178
+	!SAEKI
+	@ALISAA, @ALISAB, @ALISAC
+
+
+[approach]
+beacon = Y35
+
+route = @Y35HF
+	80
+	!Y35
+	!RANDY, 15000
+	!BERTH
+	end, hold
+	@BERTHA, @BERTHB, @BERTHC
+
+
+[approach]
+beacon = RANDY
+
+route = @Y35
+	80
+	!RANDY
+	@BERTHA, @BERTHB, @BERTHC
+
+
+[approach]
+beacon = KARIN
+
+route = @Y53
+	55
+	!KARIN, 16000
+	!BECKY
+	end, hold
+	@BECKYA, @BECKYB, @BECKYC
+
+
+[approach]
+beacon = EVERT
+
+route = @Y46HF
+	329
+	!EVERT
+	!CANDY
+	end, hold
+	@CANDYA, @CANDYB, @CANDYC
+
+
+[approach]
+beacon = Y544
+
+route = @Y544HF
+	258
+	!Y544
+	!SINGU, 18000
+	!RIDGE
+	!DANDE
+	end, hold
+	@DANDEA, @DANDEB, @DANDEC
 
 
 [approach]
 beacon = SINGU
 
-route = 
+route = @Y544
 	250
 	!SINGU
 	!RIDGE, !265
-	@DANDEC
+	@DANDEA, @DANDEB, @DANDEC
 
 
 [approach]
 beacon = SOMEI
 
-route = 
+route = @Y542
 	250
+	!SOMEI
 	!DINAH, !250
 	!GOBOH, !250
 	!UBUYU, !304
-	@DATISC
+	@DATISA, @DATISB, @DATISC
 
 
 #===RJBB SIDs
 
-[departure]
-runway = RJBBRWYA
-
-route = @SUSAN1
-	!B6R10
-	!B6R11
-	!B6R14
-	!BB430
-	!TOMOH
+[commondeparture]
+airport = RJBB
 
 route = @!TONDA
 	!GOBOH
 	!TONDA
 	!KEC
-
-route = @KNE1
-	!B6R10
-	!B6R11
-	!B6R13
-	!@B6R13295D2
-	!KNE
 
 route = @!SHTLE
 	!NARAH
@@ -2542,14 +2556,6 @@ route = @!UENOH
 	!UENOH
 	!GUJYO
 
-route = @NANKO1
-	!B6R10
-	!B6R11
-	!B6R13
-	!@B6R13295D2
-	!@B6R13135D4
-	!NANKO
-
 route = @!KCC
 	!OGURA
 	!KYOTO
@@ -2561,12 +2567,6 @@ route = @!SIGAK
 	!KYOTO
 	!SIGAK
 	!GUJYO
-
-route = @HELEN1
-	!B6R10
-	!B6R11
-	!HELEN
-	!MAIKO
 
 route = @!SOUJAY281
 	!WENDY
@@ -2610,7 +2610,49 @@ route = @!CHIZU
 	!CHIZU
 	!YME
 
+route = @!Y34LOW
+	!TANTA
+	!POPPY
+	!SUKMO
+
+[departure]
+runway = RJBBRWYA
+
+route = @SUSAN1
+	!B4L70, 9000
+	!B6R10
+	!B6R11
+	!B6R14
+	!@B6R14295D2
+	!BB430
+	!TOMOH
+
+route = @KNE1
+	!B4L70, 9000
+	!B6R10
+	!B6R11
+	!B6R13
+	!@B6R13295D2
+	!KNE
+
+route = @NANKO1
+	!B4L70, 9000
+	!B6R10
+	!B6R11
+	!B6R13
+	!@B6R13295D2
+	!@B6R13235D4
+	!NANKO
+
+route = @HELEN1
+	!B4L70, 9000
+	!B6R10
+	!B6R11
+	!HELEN
+	!MAIKO
+
 route = @DAISY1
+	!B4L70, 9000
 	!B6R10
 	!B6R11
 	!B6R12
@@ -2619,78 +2661,73 @@ route = @DAISY1
 	!LINDA
 	!GLORY
 
-route = @!Y34LOW
-	!TANTA
-	!POPPY
-	!SUKMO
-
-route = 
-	SUSAN ONE TONDA TRANSITION
+route = *3
+	SUSAN1, Susan One
 	@SUSAN1
 	@!TONDA
 
 route = *3
-	KANSAI ONE SHTLE TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!SHTLE
 
 route = 
-	KANSAI ONE BAMBI TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!BAMBIKCC
 
 route = *4
-	KANSAI ONE UENOH TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!UENOH
 
 route = 
-	NANKO ONE NAGOYA TRANSITION
+	NANKO1, Nanko One
 	@NANKO1
 	@!KCC
 
 route = *2
-	NANKO ONE SIGAK TRANSITION
+	NANKO1, Nanko One
 	@NANKO1
 	@!SIGAK
 
 route = 
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY281
 
 route = *2
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY324
 
 route = 
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY287
 
 route = 
-	HELEN ONE WASYU TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!WASYU
 
 route = *3
-	HELEN ONE HABAR TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!HABAR
 
 route = *3
-	HELEN ONE
+	HELEN1, Helen One
 	@HELEN1
 	@!Y34
 
 route = 
-	HELEN ONE CHIZU TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!CHIZU
 
 route = *2
-	DAISY ONE
+	DAISY1, Daisy One
 	@DAISY1
 	@!Y34LOW
 
@@ -2699,102 +2736,102 @@ route = *2
 runway = RJBBRWYB
 
 route = @SUSAN1
-	!B4R70
+	!B4R70, 9000
 	!BB430
 	!TOMOH
 
 route = @KNE1
-	!B4R70
+	!B4R70, 9000
 	!B6L20
 	!@B6L20295D2
 	!KNE
 
 route = @NANKO1
-	!B4R70
+	!B4R70, 9000
 	!B6L20
 	!@B6L20295D2
 	!@B6L20235D4
 	!NANKO
 
 route = @HELEN1
-	!B4R70
+	!B4R70, 9000
 	!HELEN
 	!MAIKO
 
 route = @DAISY1
-	!B4R70
+	!B4R70, 9000
 	!DAISY
 	!JULIA
 	!LINDA
 	!GLORY
 
-route = 
-	SUSAN ONE TONDA TRANSITION
+route =  *3
+	SUSAN1, Susan One
 	@SUSAN1
 	@!TONDA
 
 route = *3
-	KANSAI ONE SHTLE TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!SHTLE
 
 route = 
-	KANSAI ONE BAMBI TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!BAMBIKCC
 
 route = *4
-	KANSAI ONE UENOH TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!UENOH
 
 route = 
-	NANKO ONE NAGOYA TRANSITION
+	NANKO1, Nanko One
 	@NANKO1
 	@!KCC
 
 route = *2
-	NANKO ONE SIGAK TRANSITION
+	NANKO1, Nanko One
 	@NANKO1
 	@!SIGAK
 
 route = 
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY281
 
 route = *2
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY324
 
 route = 
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY287
 
 route = 
-	HELEN ONE WASYU TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!WASYU
 
 route = *3
-	HELEN ONE HABAR TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!HABAR
 
 route = *3
-	HELEN ONE
+	HELEN1, Helen One
 	@HELEN1
 	@!Y34
 
 route = 
-	HELEN ONE CHIZU TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!CHIZU
 
 route = *2
-	DAISY ONE
+	DAISY1, Daisy One
 	@DAISY1
 	@!Y34LOW
 
@@ -2803,28 +2840,46 @@ route = *2
 runway = RJBBRWYA, rev
 
 route = @SUSAN1
+	!B6R50, 9000
 	!B4L30
 	!TOMOH
 
+route = @KITAN1
+	!B6R50, 9000
+	!BB440
+	!BB440280D2
+	!@TOMOH354D5.5
+	!TOMOH
+
 route = @KNE1
+	!B6R50, 9000
 	!B4L10
 	!@B4L10245D2
-	!@B4L10038D4
+	!@B4L10305D4
 	!KNE
 
 route = @NANKO1
+	!B6R50, 9000
 	!B4L10
 	!@B4L10245D2
 	!NANKO
 
 route = @HELEN1
+	!B6R50, 9000
 	!B4L10
 	!@B4L10245D2
 	!BB430
 	!HELEN
 	!MAIKO
 
+route = @IWAYA1
+	!B6R50, 9000
+	!BB430
+	!HELEN
+	!MAIKO
+
 route = @DAISY1
+	!B6R50, 9000
 	!B4L10
 	!@B4L10245D2
 	!BB430
@@ -2833,73 +2888,73 @@ route = @DAISY1
 	!LINDA
 	!GLORY
 
-route = 
-	SUSAN ONE TONDA TRANSITION
+route =  *3
+	SUSAN1, Susan One
 	@SUSAN1
 	@!TONDA
 
 route = *3
-	KANSAI ONE SHTLE TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!SHTLE
 
 route = 
-	KANSAI ONE BAMBI TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!BAMBIKCC
 
 route = *4
-	KANSAI ONE UENOH TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!UENOH
 
 route = 
-	NANKO ONE NAGOYA TRANSITION
+	NANKO1, Nanko One
 	@NANKO1
 	@!KCC
 
 route = *2
-	NANKO ONE SIGAK TRANSITION
+	NANKO1, Nanko One
 	@NANKO1
 	@!SIGAK
 
 route = 
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY281
 
 route = *2
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY324
 
 route = 
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY287
 
 route = 
-	HELEN ONE WASYU TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!WASYU
 
 route = *3
-	HELEN ONE HABAR TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!HABAR
 
 route = *3
-	HELEN ONE
+	HELEN1, Helen One
 	@HELEN1
 	@!Y34
 
 route = 
-	HELEN ONE CHIZU TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!CHIZU
 
 route = *2
-	DAISY ONE
+	DAISY1, Daisy One
 	@DAISY1
 	@!Y34LOW
 
@@ -2908,103 +2963,116 @@ route = *2
 runway = RJBBRWYB, rev
 
 route = @SUSAN1
-	!B6L50
+	!B6L50, 9000
 	!BB430
 	!TOMOH
 
+route = @KITAN1
+	!B6L50, 9000
+	!BB440
+	!BB440280D2
+	!@TOMOH354D5.5
+	!TOMOH
+
 route = @KNE1
-	!B6L50
+	!B6L50, 9000
 	!B4R20
 	!@B4R20280D2
-	!@B4R20060D4
+	!@B4R20340D4
 	!KNE
 
 route = @NANKO1
-	!B6L50
+	!B6L50, 9000
 	!B4R20
 	!@B4R20280D2
 	!NANKO
 
 route = @HELEN1
-	!B6L50
+	!B6L50, 9000
+	!BB430
+	!HELEN
+	!MAIKO
+
+route = @IWAYA1
+	!B6L50, 9000
 	!BB430
 	!HELEN
 	!MAIKO
 
 route = @DAISY1
-	!B6L50
+	!B6L50, 9000
 	!DAISY
 	!JULIA
 	!LINDA
 	!GLORY
 
-route = 
-	SUSAN ONE TONDA TRANSITION
+route =  *3
+	SUSAN1, Susan One
 	@SUSAN1
 	@!TONDA
 
 route = *3
-	KANSAI ONE SHTLE TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!SHTLE
 
 route = 
-	KANSAI ONE BAMBI TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!BAMBIKCC
 
 route = *4
-	KANSAI ONE UENOH TRANSITION
+	KNE1, Kansai One
 	@KNE1
 	@!UENOH
 
 route = 
-	NANKO ONE NAGOYA TRANSITION
+	NANKO1, Nanko One
 	@NANKO1
 	@!KCC
 
 route = *2
-	NANKO ONE SIGAK TRANSITION
+	NANKO1, Nanko One
 	@NANKO1
 	@!SIGAK
 
 route = 
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY281
 
 route = *2
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY324
 
 route = 
-	HELEN ONE SOUJA TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!SOUJAY287
 
 route = 
-	HELEN ONE WASYU TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!WASYU
 
 route = *3
-	HELEN ONE HABAR TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!HABAR
 
 route = *3
-	HELEN ONE
+	HELEN1, Helen One
 	@HELEN1
 	@!Y34
 
 route = 
-	HELEN ONE CHIZU TRANSITION
+	HELEN1, Helen One
 	@HELEN1
 	@!CHIZU
 
 route = *2
-	DAISY ONE
+	DAISY1, Daisy One
 	@DAISY1
 	@!Y34LOW
 
@@ -3022,7 +3090,7 @@ route = @!ILS32L
 	14.2, 3500, 200
 
 [approach]
-runway = RJOORWYA
+runway = RJOORWYB
 beacon = UMEDA
 
 route = @RNAV32L
@@ -3040,7 +3108,7 @@ route = @RNAV32R
 	5, 1600, 160
 
 [approach]
-runway = RJOORWYA
+runway = RJOORWYB
 beacon = KOSAK
 
 route = @RNAV32LIKOMA
@@ -3079,7 +3147,7 @@ route = @RNAV32RCEREZ
 
 
 [approach]
-runway = RJOORWYA
+runway = RJOORWYB
 beacon = IKOMA
 
 route = 
@@ -3088,7 +3156,7 @@ route =
 
 
 [approach]
-runway = RJOORWYA
+runway = RJOORWYB
 beacon = GAMBA
 
 route = 
@@ -3097,7 +3165,7 @@ route =
 
 
 [approach]
-runway = RJOORWYA
+runway = RJOORWYB
 beacon = CEREZ
 
 route = 
@@ -3189,7 +3257,7 @@ route = @RNAV32LC14CEREZ
 beacon = KODAI
 route = @IKOMAE
 	267
-	!KODAI, 13000, 250
+	!KODAI, 0, 250
 	!MIRAI, !296
 	!ABENO, !296
 	@ILS32L, @RNAV32RIKOMA, @ILS32LC14R, @ILS32LC14L
@@ -3215,16 +3283,60 @@ route = @HABIK
 
 #---RJOO arrival routes
 
-#Y753 (+ ~Y403 at KAINA)
+[approach]
+beacon = OHDAI
+route = @Y546HF
+	258
+#	!Y546, 16000, 250
+	!OHDAI, 13000, 250
+	!KODAI
+	!MIRAI
+	!ABENO
+	!IKOMA
+	end, hold
+	@IKOMAE
+
+
+#[approach]
+#beacon = OHDAI
+#route = @Y546
+#	258
+#	!OHDAI
+#	@IKOMAE
+
+
+[approach]
+beacon = MUGIE
+route = @Y753HF
+	48
+	!MUGIE
+	!HONMA
+	!KAINA, @KAINAHOLD
+	!IZUMI
+	end, hold
+	@HABIK
+
+
 [approach]
 beacon = HONMA
-route = @HONMA
+route = @Y753
 	39
 	!HONMA
 	!KAINA, !41@KAINA
 	@HABIK
 
-#Y231 (+ Y401 at MIRIO)
+
+[approach]
+beacon = Y231
+route = @Y231HF
+	98
+	!Y231
+	!JANGO
+	!BECKY, 19000
+	!MIRIO, @MIRIOHOLD
+	@KAINAHOLD
+
+
 [approach]
 beacon = JANGO
 route = @Y231
@@ -3235,33 +3347,74 @@ route = @Y231
 	@KAINA
 
 
+[approach]
+beacon = RIVER
+route = @Y401HF
+	91
+	!RIVER
+	!ZOROH, 17000
+	!KAZRA
+	@MIRIOHOLD
+
+
+[approach]
+beacon = ZOROH
+route = @Y401
+	91
+	!ZOROH
+	!KAZRA, !91
+	@MIRIO
+
+
+[approach]
+beacon = Y384
+route = @Y384
+	223
+	!Y384
+	!ROKKO, 9000, @ROKKOHF
+	!KAMEO
+	!OTABE
+	!ABENO
+	!IKOMA
+	end, hold
+	@IKOMAN
+
+
+[approach]
+beacon = TOZAN
+route = @Y38
+	223
+	!TOZAN
+	@ROKKOHF
+
+
+[approach]
+beacon = GUNZE
+route = @RJBTROKKO1
+#	223
+	167
+	!GUNZE
+	@ROKKOHF
+
+
+#[approach]
+#beacon = YME
+#route = @YMEV55
+#	167
+#	!YME
+#	@ROKKOHF
+
+
 #===RJOO departures
 
-[departure]
-runway = RJOORWYB
-
-route = @PANAS1
-	!O2L50
-	!O2L51
-	!@ITE101D8
-	!PANAS
+[commondeparture]
+airport = RJOO
 
 route = @!KOMAZ
 	!BYODO
 
-route = @ASUKA4
-	@PANAS1
-	!ASUKA
-
 route = @!SHTLE
 	!SHTLE
-
-route = @MINAC4
-	!O2L50
-	!O2L51
-	!@ITE101D8
-	!+ITE101KCE077
-	!MINAC
 
 route = @!GUJYO
 	!GUJYO
@@ -3269,14 +3422,6 @@ route = @!GUJYO
 route = @!KCC
 	!YOKKA
 	!KCC
-
-route = @TIGER2
-	!O2L50
-	!@ITE201D4
-	!+ITE201YOE301
-	!@ITE201D9
-	!@YOE291D14
-	!TIGER
 
 route = @!KTE
 	!SUMAR
@@ -3339,50 +3484,78 @@ route = @!WASYU
 	!SETOH
 	!WASYU
 
+[departure]
+runway = RJOORWYB
+
+route = @PANAS1
+	!O2L50, 16000
+	!O2L51
+	!@ITE101D8
+	!PANAS
+
+route = @ASUKA4
+	@PANAS1
+	!ASUKA
+
+route = @MINAC4
+	!O2L50, 16000
+	!O2L51
+	!@ITE101D8
+	!+ITE101KCE077
+	!MINAC
+
+route = @TIGER2
+	!O2L50, 20000
+	!@ITE201D4
+	!+ITE201YOE301
+	!@ITE201D9
+	!@YOE291D14
+	!TIGER
+
 route = @IZUMI1
-	!O2L50
+	!O2L50, 20000
 	!@ITE201D4
 	!YODOH
 	!+ITE184YOE295
 	!IZUMI
 
 route = *10
-	ASUKA FOUR SHTLE TRANSITION, Asuka Four Shuttle Transition
+	ASUKA4, Asuka Four
 	@ASUKA4
 	@!SHTLE
 
 route = *6
-	MINAC FOUR GUJYO TRANSITION
+	MINAC4, Minac Four
 	@MINAC4
 	@!GUJYO
 
 route = *2
-	MINAC FOUR NAGOYA TRANSITION
+	MINAC4, Minac Four
 	@MINAC4
 	@!KCC
 
 route = 
-	TIGER TWO ASAGI TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!ASAGI
 
 route = *2
-	TIGER TWO TOZAN TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!TOZAN
 
 route = *4
-	TIGER TWO AWAJI TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!AWAJI
 
 route = *6
-	TIGER TWO SOUJA TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!SOUJAY281
 
 route = *2
-	TIGER TWO WASYU TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!WASYU
 
@@ -3391,7 +3564,7 @@ route = *2
 runway = RJOORWYA
 
 route = @PANAS1
-	!O2R50
+	!O2R50, 16000
 	!O2R51
 	!@ITE101D8
 	!PANAS
@@ -3401,14 +3574,14 @@ route = @ASUKA4
 	!ASUKA
 
 route = @MINAC4
-	!O2R50
+	!O2R50, 16000
 	!O2R51
 	!@ITE101D8
 	!+ITE101KCE077
 	!MINAC
 
 route = @TIGER2
-	!O2R50
+	!O2R50, 20000
 	!@ITE201D4
 	!+ITE201YOE301
 	!@ITE201D9
@@ -3416,49 +3589,49 @@ route = @TIGER2
 	!TIGER
 
 route = @IZUMI1
-	!O2R50
+	!O2R50, 20000
 	!@ITE201D4
 	!YODOH
 	!+ITE184YOE295
 	!IZUMI
 
 route = *10
-	ASUKA FOUR SHTLE TRANSITION, Asuka Four Shuttle Transition
+	ASUKA4, Asuka Four
 	@ASUKA4
 	@!SHTLE
 
 route = *6
-	MINAC FOUR GUJYO TRANSITION
+	MINAC4, Minac Four
 	@MINAC4
 	@!GUJYO
 
 route = *2
-	MINAC FOUR NAGOYA TRANSITION
+	MINAC4, Minac Four
 	@MINAC4
 	@!KCC
 
 route = 
-	TIGER TWO ASAGI TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!ASAGI
 
 route = *2
-	TIGER TWO TOZAN TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!TOZAN
 
 route = *4
-	TIGER TWO AWAJI TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!AWAJI
 
 route = *6
-	TIGER TWO SOUJA TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!SOUJAY281
 
 route = *2
-	TIGER TWO WASYU TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!WASYU
 
@@ -3467,66 +3640,67 @@ route = *2
 runway = RJOORWYB, rev
 
 route = @PANAS1
-	!@ITE101D8
+	!@ITE101D8, 16000
 	!PANAS
 
 route = @ASUKA4
+	!@ITE101D8, 16000
 	!ASUKA
 
 route = @MINAC4
-	!@ITE101D8
+	!@ITE101D8, 16000
 	!+ITE101KCE077
 	!MINAC
 
 route = @TIGER2
-	!+ITE201YOE301
+	!+ITE201YOE301, 20000
 	!@ITE203D9
 	!@YOE291D14
 	!TIGER
 
 route = @IZUMI1
-	!@ITE201D4
+	!@ITE201D4, 20000
 	!YODOH
 	!+ITE184YOE295
 	!IZUMI
 
 route = *10
-	ASUKA FOUR SHTLE TRANSITION, Asuka Four Shuttle Transition
+	ASUKA4, Asuka Four
 	@ASUKA4
 	@!SHTLE
 
 route = *6
-	MINAC FOUR GUJYO TRANSITION
+	MINAC4, Minac Four
 	@MINAC4
 	@!GUJYO
 
 route = *2
-	MINAC FOUR NAGOYA TRANSITION
+	MINAC4, Minac Four
 	@MINAC4
 	@!KCC
 
 route = 
-	TIGER TWO ASAGI TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!ASAGI
 
 route = *2
-	TIGER TWO TOZAN TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!TOZAN
 
 route = *4
-	TIGER TWO AWAJI TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!AWAJI
 
 route = *6
-	TIGER TWO SOUJA TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!SOUJAY281
 
 route = *2
-	TIGER TWO WASYU TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!WASYU
 
@@ -3535,66 +3709,67 @@ route = *2
 runway = RJOORWYA, rev
 
 route = @PANAS1
-	!@ITE101D8
+	!@ITE101D8, 16000
 	!PANAS
 
 route = @ASUKA4
+	!@ITE101D8, 16000
 	!ASUKA
 
 route = @MINAC4
-	!@ITE101D8
+	!@ITE101D8, 16000
 	!+ITE101KCE077
 	!MINAC
 
 route = @TIGER2
-	!+ITE201YOE301
+	!+ITE201YOE301, 20000
 	!@ITE203D9
 	!@YOE291D14
 	!TIGER
 
 route = @IZUMI1
-	!@ITE201D4
+	!@ITE201D4, 20000
 	!YODOH
 	!+ITE184YOE295
 	!IZUMI
 
 route = *10
-	ASUKA FOUR SHTLE TRANSITION, Asuka Four Shuttle Transition
+	ASUKA4, Asuka Four
 	@ASUKA4
 	@!SHTLE
 
 route = *6
-	MINAC FOUR GUJYO TRANSITION
+	MINAC4, Minac Four
 	@MINAC4
 	@!GUJYO
 
 route = *2
-	MINAC FOUR NAGOYA TRANSITION
+	MINAC4, Minac Four
 	@MINAC4
 	@!KCC
 
 route = 
-	TIGER TWO ASAGI TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!ASAGI
 
 route = *2
-	TIGER TWO TOZAN TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!TOZAN
 
 route = *4
-	TIGER TWO AWAJI TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!AWAJI
 
 route = *6
-	TIGER TWO SOUJA TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!SOUJAY281
 
 route = *2
-	TIGER TWO WASYU TRANSITION
+	TIGER2, Tiger Two
 	@TIGER2
 	@!WASYU
 
@@ -3607,7 +3782,7 @@ route = *2
 runway = RJBERWY
 beacon = SIOJI
 
-route = @ILS09
+route = @!ILS09
 	92
 	!SIOJI
 	12, 3000, 200
@@ -3619,11 +3794,11 @@ beacon = SIOJI
 route = @ILS09C27
 	92
 	!SIOJI, 3000, 200
-	!MARIN, 3000, 180
-	!IKOD5, 2500, 160
-	!BE7C3, 2500, 160
+	!MARIN, 2000, 180
+	!IKOD5, 1600, 160
 	!BE7C2, 1500, 160
 	!BE7C1, 1000, 160
+	!BE7C9, 800, 160
 	!BE7C0, 800, 160
 	3, 800, 160
 
@@ -3641,6 +3816,7 @@ route = @HANSHW
 	!TRACY, !114@TRACY
 	@ILS09, @ILS09C27
 
+
 [approach]
 beacon = BECKY
 
@@ -3649,26 +3825,101 @@ route = @HANSHS
 	!BECKY
 	@KAKEF
 
+
+#[approach]
+#beacon = AYAYA
+#
+#route = @AYAYAA
+#	97
+#	!AYAYA
+#	!+TSC001KCE283
+#	!TRACY
+#	!+KCE273KNE307
+#	@ILS09, @ILS09C27
+
+
+
+#---RJBE arrival airways
+
+[approach]
+beacon = KARIN
+
+route = @Y53HFRJBE
+	55
+	!KARIN, 16000
+	!BECKY
+	end, hold
+	@HANSHS
+
+
+[approach]
+beacon = Y35
+
+route = @Y35HFRJBE
+	80
+	!Y35
+	!RANDY, 15000
+	!BERTH
+	end, hold
+	@HANSHW
+
+
+[approach]
+beacon = RANDY
+
+route = @Y35RJBE
+	80
+	!RANDY
+	@HANSHW
+
+
+[approach]
+beacon = ARASI
+
+route = @Y20Y201HF
+	266
+	!ARASI
+	!GINJI
+	!WAKIT, @Y201
+	!TRACY
+	end, hold
+	@TRACY
+
+
+[approach]
+beacon = Y382
+
+route = @Y382Y201HF
+	229
+	!Y382
+	@Y201
+
+
 [approach]
 beacon = GINJI
 
-route = @GINJI
+route = @Y20Y201
 	266
 	!GINJI
-	!WAKIT, !229
+	!WAKIT, !229@Y382Y201
 	@TRACY
+
+
+#[approach]
+#beacon = YUBAR
+#
+#route = @Y39V28
+#	150
+#	!YUBAR
+#	!OYE
+#	!OLIVE
+#	@AYAYAA
 
 
 #===RJBE departures
 
-[departure]
-runway = RJBERWY
-
-route = @KCE4
-	!@YOE274D20
-	!+YOE274KNE323
-	!+KNE323KCE272
-	!MAIKO
+[commondeparture]
+airport = RJBE
 
 route = @!AYAYA
 	!KAWAT
@@ -3729,33 +3980,43 @@ route = @!SHTLE
 	!SANDA
 	!SHTLE
 
+
+[departure]
+runway = RJBERWY
+
+route = @KCE4
+	!@YOE274D20, 1500
+	!+YOE274KNE323
+	!+KNE323KCE272
+	!MAIKO
+
 route = 
-	KOBE FOUR WENDY TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!WENDY
 
 route = 
-	KOBE FOUR SOUJA TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!SOUJAY281
 
 route = 
-	KOBE FOUR SOUJA TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!SOUJAY324
 
 route = 
-	KOBE FOUR MIYAZU TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!YME
 
 route = 
-	KOBE FOUR MIDER TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!MIDER
 
 route = 
-	KOBE FOUR SHTLE TRANSITION, Kobe Four Shuttle Transition
+	KCE4, Kobe Four
 	@KCE4
 	@!SHTLE
 
@@ -3764,36 +4025,36 @@ route =
 runway = RJBERWY, rev
 
 route = @KCE4
-	!+KNE323KCE272
+	!+KNE323KCE272, 3000
 	!MAIKO
 
 route = 
-	KOBE FOUR WENDY TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!WENDY
 
 route = 
-	KOBE FOUR SOUJA TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!SOUJAY281
 
 route = 
-	KOBE FOUR SOUJA TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!SOUJAY324
 
 route = 
-	KOBE FOUR MIYAZU TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!YME
 
 route = 
-	KOBE FOUR MIDER TRANSITION
+	KCE4, Kobe Four
 	@KCE4
 	@!MIDER
 
 route = 
-	KOBE FOUR SHTLE TRANSITION, Kobe Four Shuttle Transition
+	KCE4, Kobe Four
 	@KCE4
 	@!SHTLE
 
@@ -3810,6 +4071,7 @@ route = @!RNAV29
 	!UZUPY
 	7.9, 1500, 180
 
+
 [approach]
 runway = RJOSRWY, rev
 beacon = UZUPY
@@ -3823,6 +4085,7 @@ route = @RNAV29C11
 	!OS11F, 800, 180
 	3, 800, 160
 
+
 [approach]
 beacon = DATIS
 
@@ -3830,6 +4093,32 @@ route = @RNAVDATIS
 	304
 	!DATIS
 	@RNAV29, @RNAV29C11
+
+
+[approach]
+runway = RJOSRWY
+beacon = FAF9Y
+
+route = @ILSY29
+	290
+	!@TSC110D9, 2000, 200
+	8, 2000, 200
+
+
+[approach]
+runway = RJOSRWY, rev
+beacon = TSC
+
+route = @ILSY29C11
+	290
+	!@TSC110D9, 2000, 200
+	!FAF9Y, 2000, 200
+	!O9FAF, 1500, 180
+	!OS11D, 1500, 180
+	!OS11B, 1000, 180
+	!OS11F, 800, 180
+	3, 800, 160
+
 
 [approach]
 beacon = TSC
@@ -3839,30 +4128,77 @@ route = @ILSY
 	!TSC
 	!@TSC095D10
 	!@TSC095D12
-	@RNAV29, @RNAV29C11
+	!@TSC110D12, 2000, 200
+	@ILSY29, @ILSY29C11
+
 
 #---RJOS arrivals
 
 [approach]
+beacon = Y544
+
+route = @Y542HFRJOS
+	258
+	!Y544
+	!SINGU, 18000
+	!SOMEI
+	!DINAH
+	!GOBOH
+	!UBUYU
+	!DATIS
+	end, hold
+	@RNAVDATIS
+
+
+[approach]
 beacon = SINGU
 
-route = @Y544SINGU
+route = @Y542RJOS
 	250
 	!SINGU
 	!SOMEI, !250
 	!DINAH, !250
 	!GOBOH, !250
-	!UBUYU
+	!UBUYU, !304
 	@RNAVDATIS
 
+
 [approach]
-beacon = KTE
+beacon = SAKAI
+
+route = @Y33KTEHF
+	77
+	!SAKAI
+	!KOMPI
+	!KTE
+	!BERTH
+	!TSC
+	end, hold
+	@ILSY
+
+
+[approach]
+beacon = KOMPI
 
 route = @Y33KTE
 	77
-	!KTE
-	!BERTH
+	!KOMPI
+	!KTE, !77
+	!BERTH, !111
 	@ILSY
+
+
+[approach]
+beacon = KEC30
+
+route = 
+	292
+	!KEC30
+	!JOSIN, 12000
+	!TSC
+	end, hold
+	@ILSY
+
 
 [approach]
 beacon = JOSIN
@@ -3875,24 +4211,12 @@ route =
 
 #===RJOS departures
 
-[departure]
-runway = RJOSRWY
-
-route = @HONMA1
-	!OS293
-	!HATIS
-	!SIJIL
-	!HONMA
+[commondeparture]
+airport = RJOS
 
 route = @!KILAP
 	!KMANO
 	!KILAP
-
-route = @TSCR5
-	!@TSC160D5
-	!@TSC160D13
-	!@TSC187D13
-	!TSC
 
 route = @!WASYU
 	!KULUL
@@ -3900,14 +4224,29 @@ route = @!WASYU
 	!UTAZU
 	!WASYU
 
+[departure]
+runway = RJOSRWY
+
+route = @HONMA1
+	!OS293, 6000
+	!HATIS
+	!SIJIL
+	!HONMA
+
+route = @TSCR5
+	!@TSC160D5, 3000
+	!@TSC160D13
+	!@TSC187D13
+	!TSC
+
 route = @TOSAR5
-	!@TSC160D5
+	!@TSC160D5, 6000
 	!@TSC160D13
 	!@TSC187D20
 	!TOSAR
 
 route = @YME8
-	!OS293
+	!OS293, 4000
 	!OS294
 	!TSC
 	!+TSC026ITE297
@@ -3919,12 +4258,12 @@ route = @YME8
 	!YME
 
 route = *5
-	HONMA ONE KILAP TRANSITION
+	HONMA1, Honma One
 	@HONMA1
 	@!KILAP
 
 route = 
-	TOKUSHIMA REVERSAL FIVE
+	TSCR5, Tokushima Reversal Five
 	@TSCR5
 	@!WASYU
 
@@ -3932,24 +4271,24 @@ route =
 runway = RJOSRWY, rev
 
 route = @HONMA1
-	!HATIS
+	!HATIS, 6000
 	!SIJIL
 	!HONMA
 
 route = @TSCR5
-	!@TSC160D5
+	!@TSC160D5, 3000
 	!@TSC160D13
 	!@TSC187D13
 	!TSC
 
 route = @TOSAR5
-	!@TSC160D5
+	!@TSC160D5, 6000
 	!@TSC160D13
 	!@TSC187D20
 	!TOSAR
 
 route = @YME8
-	!OS11D
+	!OS11D, 4000
 	!TSC
 	!+TSC026ITE297
 	!@ITE310D22.2
@@ -3960,12 +4299,12 @@ route = @YME8
 	!YME
 
 route = *5
-	HONMA ONE KILAP TRANSITION
+	HONMA1, Honma One
 	@HONMA1
 	@!KILAP
 
 route = 
-	TOKUSHIMA REVERSAL FIVE
+	TSCR5, Tokushima Reversal Five
 	@TSCR5
 	@!WASYU
 
@@ -3986,8 +4325,9 @@ route = @!ILSZ26
 route = @ILSY26
 	81
 	!KTE
-	!@KTE065D12, 3600, 200
-	!@KTE065D14, 3600, 200
+	!@KTE065D12, 0, 200
+	!@KTE065D14, 0, 200
+	!@KTE081D14, 0, 200
 	11, 3600, 200
 
 [approach]
@@ -4061,6 +4401,31 @@ route = @POPAI
 	!BRUTE, !223
 	@ILSZ26, ILSZ26C08
 
+
+#---RJOT arrival airways
+
+[approach]
+beacon = ARASI
+
+route = @Y20Y203HF
+	266
+	!ARASI
+	!GINJI
+	!WAKIT, @Y203
+	!WIMPY
+	end, hold
+	@POPAI
+
+
+[approach]
+beacon = Y382
+
+route = @Y20Y203HF
+	229
+	!Y382
+	@Y203
+
+
 [approach]
 beacon = GINJI
 
@@ -4070,60 +4435,87 @@ route = @Y20Y203
 	!WAKIT, !229@Y382Y203
 	@POPAI
 
-[approach]
-beacon = OYE
 
-route = @OYEKTE
-	223
+[approach]
+beacon = YUBAR
+
+route = @Y39OYEKTEHF
+	150
+	!YUBAR
 	!OYE
+	!KTE
+	end, hold
+	@ILSY26, ILSY26C08
+
+
+[approach]
+beacon = YUBAR
+
+route = @Y39OYEKTE
+	150
+	!OYE, !172
+	@ILSY26, ILSY26C08
+
+
+[approach]
+beacon = TAKMA
+
+route = @Y288KTE
+	88
+	!TAKMA
+	!KTE
+	end, hold
 	@ILSY26, ILSY26C08
 
 
 #===RJOT SIDs
 
-
-[departure]
-runway = RJOTRWY
-
-route = @SAYOH2
-	!OT26D
-	!SAYOH
+[commondeparture]
+airport = RJOT
 
 route = @!CHIZU
 	!CHIZU
 	!YME
 
-route = @WASYU3
-	!OT26D
-	!WASYU
-	
-route = @TAROH3
-	!OT26D
-	!TAROH
-
 route = @!MIHO
 	!MIHOU
-
-route = @OLIVE2
-	!OT26D
-	!OLIVE
 
 route = @!SHTLE
 	!HYOGO
 	!SANDA
 	!SHTLE
 
+
+[departure]
+runway = RJOTRWY
+
+route = @SAYOH2
+	!OT26D, 9000
+	!SAYOH
+
+route = @WASYU3
+	!OT26D, 9000
+	!WASYU
+	
+route = @TAROH3
+	!OT26D, 9000
+	!TAROH
+
+route = @OLIVE2
+	!OT26D, 9000
+	!OLIVE
+
 route = *2
-	WASYU THREE
+	WASYU3, Wasyu Three
 	@WASYU3
 
 route = 
-	TAROH THREE MIHO TRANSITION
+	TAROH3, Taroh Three
 	@TAROH3
 	@!MIHO
 
 route = *4
-	OLIVE TWO SHTLE TRANSITION, Olive Two Shuttle Transition
+	OLIVE2, Olive Two
 	@OLIVE2
 	@!SHTLE
 
@@ -4132,32 +4524,32 @@ route = *4
 runway = RJOTRWY, rev
 
 route = @SAYOH2
-	!OT08D
+	!OT08D, 9000
 	!SAYOH
 
 route = @WASYU3
-	!OT08D
+	!OT08D, 9000
 	!WASYU
 	
 route = @TAROH3
-	!OT08D
+	!OT08D, 9000
 	!TAROH
 
 route = @OLIVE2
-	!OT08D
+	!OT08D, 9000
 	!OLIVE
 
 route = *2
-	WASYU THREE
+	WASYU3, Wasyu Three
 	@WASYU3
 
 route = 
-	TAROH THREE MIHO TRANSITION
+	TAROH3, Taroh Three
 	@TAROH3
 	@!MIHO
 
 route = *4
-	OLIVE TWO SHTLE TRANSITION, Olive Two Shuttle Transition
+	OLIVE2, Olive Two
 	@OLIVE2
 	@!SHTLE
 
@@ -4173,8 +4565,9 @@ beacon = URAJA
 route = @ILSZ07
 	268
 	!OYE
-	!@OYE268D8
-	!@OYE268D10
+	!@OYE268D8, 0, 200
+	!@OYE268D10, 0, 200
+	!@OYE247D10, 0, 200
 	6, 2500, 200
 
 [approach]
@@ -4246,24 +4639,71 @@ route = @RNP25BENES
 #---RJOB arrival routes
 
 [approach]
-runway = RJOBRWY
+beacon = TAKMA
+
+route = @Y288
+	88
+	!TAKMA
+	!INOOK
+	!OYE
+	end, hold
+	@ILSY07, @RNP25BENES
+
+
+[approach]
+beacon = INOOK
+
+route = @INOOK25
+	88
+	!INOOK
+	!OYE, !150
+	@RNP25BENES
+
+
+[approach]
+beacon = YUBAR
+
+route = @Y39OYE
+	150
+	!YUBAR
+	!OYE
+	end, hold
+	@ILSZ07, @RNP25BENES
+
+
+[approach]
 beacon = BENES
 
 route = @BENES07
-	260
+	150
 	!BENES
 	@ILSZ07
 
 
 [approach]
-runway = RJOBRWY, rev
-beacon = INOOK
+beacon = ARASI
 
-route = @Y288
-	42
-	!INOOK
-	!OYE, !150@OYE25
-	@RNP25BENES
+route = @Y20Y205OYE
+	266
+	!ARASI
+	!GINJI
+	!WAKIT, @Y205
+	!TRIPY
+	!MIMMY
+	!SIMAG
+	!BENES
+	!OYE
+	end, hold
+	@ILSZ07, @RNP25BENES
+
+
+[approach]
+beacon = Y382
+
+route = @Y20Y205OYE
+	229
+	!Y382
+	@Y205
 
 
 [approach]
@@ -4282,12 +4722,8 @@ route = @Y20Y205
 
 #===RJOB SIDs
 
-[departure]
-runway = RJOBRWY
-
-route = @OLIVE3
-	!OB700
-	!OLIVE
+[commondeparture]
+airport = RJOB
 
 route = @!SANDA
 	!HYOGO
@@ -4298,48 +4734,55 @@ route = @!SHTLE
 	!SANDA
 	!SHTLE
 
-route = @WASYU2
-	!OB07D
-	!DANGO
-	!WASYU
-
-route = @CHIZU2
-	!OB07D
-	!@OYE071D7
-	!@OYE071D20
-	!CHIZU
-
 route = @!YME
 	!@YME236D10
 	!YME
-
-route = @OYER6
-	!OB07D
-	!@OYE071D9
-	!@OYE071D11
-	!@OYE091D7
-	!OYE
 
 route = @!Y39
 	!YUBAR
 	!MIHOU
 
+[departure]
+runway = RJOBRWY
+
+route = @OLIVE3
+	!OB700, 11000
+	!OLIVE
+
+route = @WASYU2
+	!OB07D, 9000
+	!DANGO
+	!WASYU
+
+route = @CHIZU2
+	!OB07D, 11000
+	!@OYE071D7
+	!@OYE071D20
+	!CHIZU
+
+route = @OYER6
+	!OB07D, 9000
+	!@OYE071D9
+	!@OYE071D11
+	!@OYE091D7
+	!OYE
+
 route = *4
-	OLIVE THREE SHTLE TRANSITION, Olive Three Shuttle Transition
+	OLIVE3, Olive Three
 	@OLIVE3
 	@!SHTLE
 
 route = 
-	WASYU TWO
+	WASYU2, Wasyu Two
 	@WASYU2
 
 route = 
-	CHIZU TWO MIYAZU TRANSITION
+	CHIZU2, Chizu Two
 	@CHIZU2
 	@!YME
 
 route = 
-	KIBI REVERSAL SIX
+	OYER6, Kibi Reversal Six
 	@OYER6
 	@!Y39
 
@@ -4349,16 +4792,16 @@ route =
 runway = RJOBRWY, rev
 
 route = @OLIVE3
-	!OB25D
+	!OB25D, 11000
 	!OLIVE
 
 route = @WASYU2
-	!OB25D
+	!OB25D, 9000
 	!DANGO
 	!WASYU
 
 route = @CHIZU2
-	!OB25D
+	!OB25D, 11000
 	!@OYE226D6
 	!@OYE226D8
 	!@OYE206D4
@@ -4367,28 +4810,28 @@ route = @CHIZU2
 	!CHIZU
 
 route = @OYER6
-	!OB25D
+	!OB25D, 9000
 	!@OYE226D6
 	!@OYE226D8
 	!@OYE216D4
 	!OYE
 
 route = *4
-	OLIVE THREE SHTLE TRANSITION, Olive Three Shuttle Transition
+	OLIVE3, Olive Three
 	@OLIVE3
 	@!SHTLE
 
 route = 
-	WASYU TWO
+	WASYU2, Wasyu Two
 	@WASYU2
 
 route = 
-	CHIZU TWO MIYAZU TRANSITION
+	CHIZU2, Chizu Two
 	@CHIZU2
 	@!YME
 
 route = 
-	KIBI REVERSAL SIX
+	OYER6, Kibi Reversal Six
 	@OYER6
 	@!Y39
 
@@ -4454,9 +4897,43 @@ route = @VORDMEC13
 #---RJOY arrival routes
 
 [approach]
+beacon = Y384
+
+route = @Y384
+	110
+	!Y384
+	!ROKKO, 11000, @ROKKOHFRJOY
+	!SANDA, 
+	!ITE, @ITEX
+	!IZUMI
+	end, hold
+	@VORDMEC09, @VORDMEC27, @VORDMEC13, @VORDMEC31
+
+
+[approach]
+beacon = TOZAN
+
+route = @Y38
+	110
+	!TOZAN
+	@ROKKOHFRJOY
+
+
+[approach]
+#beacon = YME
+beacon = GUNZE
+
+route = @YMEV55
+	168
+#	!YME
+	!GUNZE
+	@ROKKOHFRJOY
+
+
+[approach]
 beacon = ROKKO
 
-route = 
+route = @V55
 	167
 	!ROKKO
 	!SANDA, !172
@@ -4465,9 +4942,55 @@ route =
 
 
 [approach]
+beacon = NORAN
+
+route = @KECV55X
+	338
+	!NORAN
+	!OSAMU
+	!IYOKA
+	!IZUMI
+	end, hold
+	@VORDMEC09, @VORDMEC27, @VORDMEC13, @VORDMEC31
+
+
+[approach]
+beacon = OSAMU
+
+route = @KECV55
+	4
+	!OSAMU
+	!IYOKA, !4
+	@VORDMEC09, @VORDMEC27, @VORDMEC13, @VORDMEC31
+
+
+[approach]
+beacon = MIDER
+
+route = @MIDERV28X
+	262
+	!MIDER
+	@ITEX
+
+
+[approach]
+beacon = WASYU
+
+route = @V28V55X
+	91
+	!WASYU
+	!OYE
+	!OLIVE
+	!AYAYA
+	!BUMER
+	!ARIMA
+	@ITEX
+
+
+[approach]
 beacon = OYE
 
-route = 
+route = @V28V55
 	61
 	!OYE
 	!OLIVE, !97
@@ -4478,12 +5001,49 @@ route =
 
 
 [approach]
-beacon = MIKAN
-
-route = 
-	49
-	!MIKAN
+beacon = SAKAI
+route = @SAKAIV40X
+	91
+	!SAKAI
+	!KOMPI
+	!KTE
+	!KULUL
+	!TSC
+	!MIKAN, @MIKANX
+	!IZUMI
+	end, hold
 	@VORDMEC09, @VORDMEC27, @VORDMEC13, @VORDMEC31
+
+
+[approach]
+beacon = KOMPI
+route = @SAKAIV40
+	91
+	!KOMPI
+	!KTE
+	!KULUL
+	!TSC
+	!MIKAN, !49@MIKAN
+	@VORDMEC09, @VORDMEC27, @VORDMEC13, @VORDMEC31
+
+
+[approach]
+beacon = KAIFU
+
+route = @KAIFUX
+	49
+	!KAIFU
+	!IZARI
+	@MIKANX
+
+
+[approach]
+beacon = IZARI
+
+route = @IZARI
+	49
+	!IZARI
+	@MIKAN
 
 
 [approach]
@@ -4497,8 +5057,8 @@ route =
 
 #===RJOY departures
 
-[departure]
-runway = RJOYRWYA
+[commondeparture]
+airport = RJOY
 
 route = @!IZUMI2
 	!@YOE229D4
@@ -4522,15 +5082,10 @@ route = @!V55V28Y33
 	!OYE
 	!YUBAR
 
-route = @!V55V28V38V53
-	!ITE
-	!ARIMA
-	!BUMER
-	!AYAYA
-	!OLIVE
-	!KTE
-	!OBOKE
-	!POPPY
+route = @!KAIFUKRE
+	!MIKAN
+	!IZARI
+	!KAIFU
 	!KRE
 
 route = @!V55
@@ -4538,6 +5093,11 @@ route = @!V55
 	!SANDA
 	!ROKKO
 	!YME
+
+route = @!V55S
+	!IYOKA
+	!OSAMU
+	!NORAN
 
 route = @!ASUKA7
 	!@YOE281D4
@@ -4549,28 +5109,36 @@ route = @!ASUKA7
 route = @!KCC
 	!KCC
 
+[departure]
+runway = RJOYRWYA
+
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55V28
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55V28Y33
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
-	@!V55V28V38V53
+	@!KAIFUKRE
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55
 
 route = 
-	ASUKA SEVEN
+	IZUMI2, Izumi Two
+	@!IZUMI2
+	@!V55S
+
+route = 
+	ASUKA7, Asuka Seven
 	@!ASUKA7
 	@!KCC
 
@@ -4586,27 +5154,32 @@ route = @ASUKA7
 	!ASUKA
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55V28
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55V28Y33
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
-	@!V55V28V38V53
+	@!KAIFUKRE
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55
 
 route = 
-	ASUKA SEVEN
+	IZUMI2, Izumi Two
+	@!IZUMI2
+	@!V55S
+
+route = 
+	ASUKA7, Asuka Seven
 	@ASUKA7
 	@!KCC
 
@@ -4614,27 +5187,32 @@ route =
 runway = RJOYRWYB
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55V28
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55V28Y33
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
-	@!V55V28V38V53
+	@!KAIFUKRE
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55
 
 route = 
-	ASUKA SEVEN
+	IZUMI2, Izumi Two
+	@!IZUMI2
+	@!V55S
+
+route = 
+	ASUKA7, Asuka Seven
 	@!ASUKA7
 	@!KCC
 
@@ -4642,27 +5220,32 @@ route =
 runway = RJOYRWYB, rev
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55V28
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55V28Y33
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
-	@!V55V28V38V53
+	@!KAIFUKRE
 
 route = 
-	IZUMI TWO
+	IZUMI2, Izumi Two
 	@!IZUMI2
 	@!V55
 
 route = 
-	ASUKA SEVEN
+	IZUMI2, Izumi Two
+	@!IZUMI2
+	@!V55S
+
+route = 
+	ASUKA7, Asuka Seven
 	@!ASUKA7
 	@!KCC
 
@@ -4673,7 +5256,6 @@ route =
 #RJBB 06, RJOO 32, RJBE 09, RJOS 29, RJOT 26, RJOB 07, RJOY 27
 config1 = 
 	0, RJBBRWYA, landstart
-	0, RJBBRWYB, landstart
 	5, RJOORWYB, landstart, 201
 	5, RJOORWYA, landstart, 201
 	8, RJBERWY, landstart
@@ -4681,13 +5263,13 @@ config1 =
 	12, RJOTRWY, landstart, 260
 	14, RJOBRWY, landstart
 	16, RJOYRWYA, landstart
+	20, RJBBRWYB, landstart
 #	0, RJOYRWYB, landstart
 
 #west wind
 #RJBB 24, RJOO 32, RJBE 27, RJOS 29, RJOT 26, RJOB 25, RJOY 27
 config2 = 
 	0, RJBBRWYA, landstartrev
-	0, RJBBRWYB, landstartrev
 	5, RJOORWYB, landstart, 201
 	5, RJOORWYA, landstart, 201
 	8, RJBERWY, landstartrev
@@ -4695,13 +5277,13 @@ config2 =
 	12, RJOTRWY, landstart, 260
 	14, RJOBRWY, landstartrev
 	16, RJOYRWYA, landstart
+	20, RJBBRWYB, landstartrev
 #	0, RJOYRWYB, landstart
 
 #heavy southwest wind
 #RJBB 24, RJOO 14, RJBE 27, RJOS 29, RJOT 26, RJOB 25, RJOY 27
 config3 = 
 	0, RJBBRWYA, landstartrev
-	0, RJBBRWYB, landstartrev
 	5, RJOORWYB, landstartrev
 	5, RJOORWYA, landstartrev
 	8, RJBERWY, landstartrev
@@ -4709,13 +5291,13 @@ config3 =
 	12, RJOTRWY, landstart, 260
 	14, RJOBRWY, landstartrev
 	16, RJOYRWYA, landstart
+	20, RJBBRWYB, landstartrev
 #	0, RJOYRWYB, landstart
 
 #northeast wind
 #RJBB 06, RJOO 32, RJBE 09, RJOS 11, RJOT 08, RJOB 07, RJOY 09
 config4 = 
 	0, RJBBRWYA, landstart
-	0, RJBBRWYB, landstart
 	5, RJOORWYB, landstart, 201
 	5, RJOORWYA, landstart, 201
 	8, RJBERWY, landstart
@@ -4723,13 +5305,13 @@ config4 =
 	12, RJOTRWY, landstartrev, 80
 	14, RJOBRWY, landstart
 	16, RJOYRWYA, landstartrev
+	20, RJBBRWYB, landstart
 #	0, RJOYRWYB, landstartrev
 
 #east wind
 #RJBB 06, RJOO 14, RJBE 09, RJOS 11, RJOT 08, RJOB 07, RJOY 09
 config5 = 
 	0, RJBBRWYA, landstart
-	0, RJBBRWYB, landstart
 	5, RJOORWYB, landstartrev
 	5, RJOORWYA, landstartrev
 	8, RJBERWY, landstart
@@ -4737,6 +5319,7 @@ config5 =
 	12, RJOTRWY, landstartrev, 80
 	14, RJOBRWY, landstart
 	16, RJOYRWYA, landstartrev
+	20, RJBBRWYB, landstart
 #	0, RJOYRWYB, landstartrev
 
 
@@ -4754,3 +5337,4 @@ types =
 	pa46, 6, 110, 210, 2.8, 3.2, 1400, 1600, 90, 100, 1.2, 1.3, piper
 	sr22, 6, 90, 180, 2.8, 3.2, 1320, 1560, 90, 100, 1.2, 1.3, cirrus
 	toba, 6, 90, 120, 2.8, 3.2, 660, 790, 80, 90, 1.2, 1.3, socata
+	h25b, 6, 160, 250, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, hawker
