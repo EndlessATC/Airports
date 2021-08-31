@@ -25,9 +25,17 @@ This implements Dalian Zhoushuizi International Airport(ZYTL) into the [Endless 
 
 ## Changelog
 
+* 1.3 - 5/21/2021
+    1. Add controller frequency.(latest version Endless ATC inneed)
+    2. Modify the final of rwy 28.
+    3. Modify airspace altitude.
+    4. Modify initial altitude.
+* 1.2 - 4/10/2021
+    1. Add extra airlines as real world.
+    2. Add fixes in ZYTL TMA as charts.
 * 1.1 - 3/25/2021
-    1. Add some restricted areas and obstacles
-    2. Add some route displays 
+    1. Add some restricted areas and obstacles.
+    2. Add some route displays .
     3. Modify the relative position of the runway and The final of RW10.
 * 1.0 - 3/22/2021 - Initial Release.
 

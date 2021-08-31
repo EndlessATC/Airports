@@ -1,0 +1,103 @@
+# Includes some past fleets back to 2010
+# Includes Saudia royal family planes
+
+[airspace]
+elevation = 48
+center = N21.6796, E39.156502
+magneticvar = 2.500
+beacons =
+	JDW, N21.67910, E39.16620, 0, King Abdulaziz
+
+line1 =
+	N22.59219, E39.06201
+	N22.39277, E39.09590
+	N22.29365, E39.06992
+	N22.20337, E39.03398
+	N22.03345, E39.02119
+	N21.88174, E38.98789
+	N21.77598, E39.02979
+	N21.66396, E39.09102
+	N21.51899, E39.14707
+	N21.43276, E39.15068
+	N21.31035, E39.09355
+	N20.97397, E39.27607
+	N20.73701, E39.49121
+
+[airport1]
+name = King Abdulaziz International Airport
+code = OEJN
+runways =
+	rwy1, 16C, N21.6891, E39.1539, 160.0, 13123, 0, 0, 26
+	rwy2, 16L, N21.6978, E39.1682, 160.0, 13123, 0, 0, 30
+	rwy3, 16R, N21.7027, E39.1269, 160.0, 12467, 0, 0, 13
+airlines = sva, 30, a306/a310/a319/a320/a321/a333/a342/a343/b74s/b741/b742/b743/b744/b748/b752/b762/b763/b77l/b772/b77w/b789/b78x/e170/md11/md90, saudia, nswe
+	kne, 4, a320/a20n, nas express, ne
+	aee, 1, a320/a20n/a321/a21n, Aegean, n
+	aaw, 1, a319/a320/a321/a333, afriqiyah, w
+	dah, 1, b736/b737/b738, air algerie, w
+	aby, 1, a320/a20n/a21n, arabia, s
+	xax, 1, a333/a339, xanadu, e
+	abq, 1, a319/a320/a20n/a21n, air blue, s
+	msc, 1, a320, air Cairo, w
+	cca, 1, a332/a333/a343/a359/b744/b748/b77w/b789, air china, e
+	aic, 1, a332/b744/b772/b77l/b77w/b788, air india, e
+	thy, 1, b738, turkish, w
+	afg, 1, a310, ariana, e
+	ahy, 1, a319/a320/b752, azal, n
+	btk, 1, a320/a20n/b738/b739, batik, e
+	bbc, 1, b77w/b788/b789, Bangladesh, e
+	ctv, 1, a20n/a339, super green, e
+	dao, 1, a321/b733, Daallo airlines, s
+	msr, 1, bcs3/a20n/a321/b735/b738, egyptair, w
+	uae, 1, a332/a343/a345/a388/b772/b773/b77w, emirates, e
+	ert, 1, b733, Eritrean, s
+	eth, 1, b737/b738/b38m/b77l, ethiopian, s
+	etd, 1, a319/a320/a321, etihad, e
+	fad, 1, a320/a20n, purple, ns
+	fdb, 1, b738/b38m/b39m/b3xm, sky dubai, e
+	feg, 1, b737/b738/b38m, sky Egypt, w
+	gia, 1, a332/a333/a359/b77w, indonesia, e
+	gfa, 1, a320/a20n/a321/a21n, gulf air, e
+	igo, 1, a320/a20n/a21n, I fly, e
+	ira, 1, a30b/a306/a310/a319/a320/a321/a332/b74s/b741/b742/b744, Iran air, n
+	iaw, 1, bcs3/a320/a321/b738, iraqi, n
+	jzr, 1, a320/a20n, Jazeera, n
+	exs, 1, a321/b733/b738/b752, channex, w
+	jbv, 1, f50, Jubba, s
+	qnk, 1, b744, kabo, s
+	kmf, 1, a343/b763, kamgar, e
+	kac, 1, a320/a20n, kuwait, e
+	laa, 1, a320/a332, libyan, w
+	lwa, 1, a319, libyan wings, w
+	lni, 1, a333/a339, lion inter, e
+	mas, 1, a332/a333/a359/a388/b744/b772, Malaysian, e
+	ngl, 1, b733/b734, maxair nigeria, w
+	mea, 1, a320/a21n, cedar jet, n
+	nss, 1, a319/a320/at76, nesma, we
+	nia, 1, a320/a321/a21n, nile bird, w
+	nws, 1, a321/b738, nord land, n
+	oma, 1, b738/b739/b38m/e175, Oman air, s
+	pia, 1, a320, Pakistan, e
+	pgt, 1, a320/a20n/a321/a21n/b738, sunturk, e
+	qtr, 1, a319/a320/a321/a21n, qatari, e
+	qsm, 1, a306/a320/rj85/rj1h/f100, qeshm air, n
+	ram, 1, b788/b789, royal air maroc, w
+	rba, 1, b788, Brunei, e
+	rja, 1, a319/a320/a321, Jordanian, n
+	oms, 1, a20n, mazoon, e
+	sgq, 1, a320, saudi gulf, e
+	vsv, 1, b733/b735/b737/b38m/b39m/b752, vlasta, e
+	tgw, 1, b772/b788/b789, scooter, e
+	sej, 1, a320/b737/b738/b739/b38m, spice jet, e
+	alk, 1, a332/a333/a343/a339, sri Lankan, e
+	sud, 1, a306/a310/a320, Sudan air, s
+	syr, 1, a320/a343, syrian air, n
+	tqq, 1, b733/b734/b735, tarco aviation, s
+	tar, 1, a332, tunair, w
+	thy, 1, a319/a320/a321/a21n/b738/b739/b38m/b39m, turkish, w
+	tua, 1, b737/b738/b752, Turkmenistan, e
+	uta, 1, b734/b735/b738, u t air, n
+	uzb, 1, a320/a20n/b752/b763, Uzbek, e
+	iye, 1, a310/a320, yemeni, s
+	afr, 1, b744/b77l, air france, w
+	gec, 1, md11/b77l, lufthansa cargo, we

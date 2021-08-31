@@ -1,0 +1,248 @@
+# Includes future and retired airplanes
+
+[airspace]
+radius = 34
+elevation = 13
+metric = false
+center = N31.1434001923, E121.805000305
+magneticvar = -5.162
+beacons =
+	PDL, N31.13000, E121.77000, 0, Liuzao
+	PUD, N31.16830, E121.78000, 0, Pudong
+	SHY, N30.95000, E121.86200, 0, Shuyuan
+	NHW, N31.08170, E121.57300, 0, Nanhui
+	HSH, N31.36830, E121.84300, 0, Hengsha
+	JTN, N31.12500, E121.34000, 0, Jiuting
+	B, N31.17310, E121.33800, 0, Hongqiao
+	SHA, N31.20000, E121.33200, 0, Hongqiao
+	C, N31.22330, E121.33300, 0, Hongqiao
+	PK, N31.28670, E121.33000, 0, Nanxiang
+
+line1 =
+	N31.63730, E121.57656
+	N31.67393, E121.54229
+	N31.69365, E121.49180
+	N31.75645, E121.46416
+	N31.79736, E121.33896
+	N31.80537, E121.21113
+	N31.75811, E121.22686
+	N31.64375, E121.33643
+	N31.54961, E121.51992
+	N31.46377, E121.78047
+	N31.49229, E121.86270
+	N31.52637, E121.84365
+	N31.55215, E121.80830
+	N31.63730, E121.57656
+
+line2 =
+	N30.22666, E121.43271
+	N30.28237, E121.34062
+	N30.30410, E121.25801
+	N30.30176, E121.15938
+	N30.16064, E120.90449
+
+line3 =
+	N30.38784, E120.44980
+	N30.39087, E120.62998
+	N30.35464, E120.82148
+	N30.39263, E120.89746
+	N30.46973, E120.93828
+	N30.55825, E120.99766
+	N30.69971, E121.30996
+	N30.78979, E121.41895
+	N30.84097, E121.52754
+	N30.86377, E121.67520
+	N30.87036, E121.76943
+	N30.91699, E121.87793
+	N31.06162, E121.83447
+	N31.16289, E121.78594
+	N31.31973, E121.66064
+	N31.48535, E121.35098
+	N31.62808, E121.20488
+	N31.71943, E121.05537
+	N31.75020, E120.93750
+	N31.81978, E120.78779
+	N31.92285, E120.75225
+	N31.98374, E120.71553
+	N32.01982, E120.49717
+
+line4 =
+	N32.10586, E120.52012
+	N32.08105, E120.66055
+	N32.03174, E120.79170
+	N31.86938, E120.97354
+	N31.84233, E121.14580
+	N31.86270, E121.26641
+	N31.85879, E121.35195
+	N31.71216, E121.68086
+	N31.69951, E121.76357
+	N31.70356, E121.86631
+	N31.81646, E121.85635
+	N31.89976, E121.83242
+	N31.99287, E121.75107
+	N32.05103, E121.67422
+	N32.12109, E121.49053
+
+line5 =
+	N31.08081, E120.46074
+	N31.12710, E120.53994
+	N31.08745, E120.60166
+	N31.08745, E120.60166
+	N31.08745, E120.60166
+
+[airport1]
+name = Shanghai Pudong International Airport
+code = ZSPD
+runways =
+	rwy1, 15, N31.154, E121.850, 162.0, 11155, 0, 0, 12
+	rwy2, 16L, N31.160, E121.817, 162.0, 12467, 0, 0, 12
+	rwy3, 16R, N31.159, E121.812, 162.0, 12467, 0, 0, 10
+	rwy4, 17L, N31.1613, E121.786, 162.0, 13123, 0, 0, 10
+	rwy5, 17R, N31.1548, E121.783, 162.0, 11155, 0, 0, 12
+airlines = ces, 30, a306/a319/a320/a20n/a321/a332/a333/a343/a346/a359/b733/b737/b738/b38m/b77w/b789/md90, china eastern, nswe
+	csh, 9, a333/b737/b738/b38m/b789, shanghai air, nsw
+	dkh, 6, a320/a20n/a321/a21n/b789, air juneyao, nsw
+	cca, 4, a319/a320/a20n/a321/a21n/a332/a333/b733/b737/b738/b38m/b752, air china, nsw
+	cqh, 2, a320/a20n/a21n, air spring, ns
+	afl, 1, a332/a333/a359/b763/b77w, aeroflot, n
+	xax, 1, a333/a339, xanadu, s
+	aca, 1, a333/b763/b77l/b77w/b788/b789, air canada, e
+	ccd, 1, b738, xianjian, n
+	afr, 1, a332/a343/a359/a388/b744/b772/b77w/b789, air france, w
+	aic, 1, a310/a332/b744/b77l/b772/b77w/b788, air india, w
+	amu, 1, a320/a20n/a321/a21n, air macau, s
+	mau, 1, a332/a339/a343/a359, air mauritius, w
+	anz, 1, b744/b763/b772/b77w/b789/b78x, New zealand, s
+	ana, 1, a320/a20n/a321/a21n/b735/b737/b738/b38m/b763, all nippon, n
+	aal, 1, a332/a333/b772/b77w/b788/b789, american, n
+	aar, 1, a320/a321/a21n/a333/b734/b744/b763, asiana, n
+	aua, 1, b763/b772, austrian, w
+	cbj, 1, a319/a320/a20n/a321/a21n, capital jet, s
+	baw, 1, a35k/b744/b772/b77w/b788/b789/b78x, speedbird, w
+	khv, 1, a320/a321, cambodia air, s
+	cpa, 1, a21n/a333/a343/b744/b748, cathay, s
+	ceb, 1, a320/a20n/a321/a21n/a333, cebu, e
+	uea, 1, a319/a320, united eagle, w
+	cal, 1, a21n/a333/b738/b744, dynasty, e
+	csn, 1, a319/a320/a20n/a321/a21n/a332/a333/b733/b737/b738/b38m/b744/b752/b77l/md90, china southern, nswe
+	cqn, 1, a319/a320/a20n/a21n, Chong qing, w
+	cua, 1, b737/b738, lianhang, n
+	dal, 1, a332/a333/a339/a359/b744/b772/b77l, delta, n
+	epa, 1, b738/b38m, donghai air, s
+	esr, 1, b736/b737/b738/b38m, eastar jet, n
+	uae, 1, a332/a343/a345/a388/b744/b772/b77l/b773/b77w, emirates, w
+	eth, 1, a359/b763/b77l/b77w/b788/b789, ethiopian, w
+	etd, 1, a332/a333/a345/a346/b77l/b77w/b789/b78x, etihad, w
+	eva, 1, a321/a332/a333/b744/md11, eva, e
+	fin, 1, a333/a359, finnair, w
+	fza, 1, b738/b38m, strait air, s
+	gia, 1, a332/a333/a339/b733/b734/b735/b738/b38m/b744/b763/b77w, indonesia, s
+	chh, 1, a332/a333/b738/b38m, Hainan, nse
+	hbh, 1, b737/b738/e190, hebei air, n
+	crk, 1, a320/a332/a333, bauhinia, s
+	ibe, 1, a332/a333/a343/a346/a359, iberia, w
+	jal, 1, b738/b763, japan air, n
+	jjp, 1, a320/a21n, orange liner, n
+	jna, 1, b738, jin air, n
+	klm, 1, a332/a333/b744/b772/b77w/b789/b78x/md11, klm, n
+	kal, 1, bcs3/b738/b739/b38m/b744/b748/b77l, korean air, n
+	kna, 1, b737/b738/b38m, kunming air, nw
+	lao, 1, a320/at75/at76, lao, s
+	lni, 1, b733/b734/b738/b739/b38m/b39m/b3xm/md82/md90, lion inter, s
+	lke, 1, a319/a320/a20n/b737/b738/b38m, lucky air, w
+	dlh, 1, a333/a343/a346/a359/a388/b744/b748, lufthansa, w
+	irm, 1, a30b/a306/a310/a343/a346/b743/b744, Mahan air, w
+	mas, 1, a332/a333/b738/b38m/b3xm, Malaysian, s
+	apj, 1, a320/a20n, air peach, n
+	pal, 1, a319/a320/a321/a21n/a333, Philippine, e
+	gap, 1, a320/a321, air phil, e
+	apg, 1, a320, cool red, e
+	qfa, 1, a332/a333/b744/b763/b789, qantas, s
+	qtr, 1, a332/a333/a346/a359/a35k/b748/b77l/b77w/b788/b789, qatari, w
+	qda, 1, a320/a20n, sky legend, n
+	rba, 1, a320/a20n, Brunei, s
+	sbi, 1, a319/a320/a20n/a321/a21n/b738/b38m, siberian, n
+	sas, 1, a333/a343/a359, Scandinavian, w
+	cdg, 1, b733/b737/b738/b38m, shandong, s
+	csz, 1, a319/a320/a20n/b738/b739/b38m, shenzhen air, s
+	csc, 1, a319/a320/a20n/a321/a21n, sis shuan, sw
+	sia, 1, a333/a388/b772/b773/b77w/b78x, singapore, s
+	swm, 1, a320/a321, sky angkor, s
+	sjo, 1, b738, jey spring, n
+	alk, 1, a332/a333/a339/a343, sri Lankan, w
+	sjy, 1, b732/b733/b734/b735/b738/b739, sriwijaya, s
+	yzr, 1, b738/b744/b789, Yangtze River, nw
+	swr, 1, a332/a333/a343/b77w, swiss, w
+	tax, 1, a333/a339, express wing, w
+	tha, 1, a333/a346/b772/b77w/b788, thai, w
+	tlm, 1, b738/b739/b39m, mentari, s
+	gcr, 1, a320/a20n/a321/e190/e195, bohai, nw
+	thy, 1, a332/a333/a343/a359/b77w/b789, turkish, w
+	twb, 1, b738/b38m, teeway, n
+	ual, 1, b744/b772/b77w/b788/b789/b78x, united, n
+	hvn, 1, a321/a21n, vietnam airlines, s
+	vir, 1, a332/a333/a339/a343/a346/a35k/b744/b789, virgin, w
+	chb, 1, a319/a320/a20n/a321, west china, w
+	cxa, 1, b737/b738/b38m/b3xm, xiamen air, s
+	abw, 1, b742/b743/b744/b748/b77l, air bridge cargo, nw
+	cao, 1, b744/b752/b77l, air china freight, nswe
+	tay, 1, b744, quality, w
+	clx, 1, b744/b748, cargolux, w
+	ckk, 3, b744/b752/b77l/md11, cargo king, nswe
+	cyz, 1, b733/b734/b738/b752, china post, n
+	ahk, 1, a306/a332/a333, air hong kong, s
+	box, 1, b77l, german cargo, w
+	gti, 1, b763/b744/b748, giant, new
+	cks, 1, b742/b744, connie, ne
+	pac, 1, b744/b748, polar, ne
+	soo, 1, b77l, southern air, e
+	fdx, 1, a306/a310/b752/b763/b77l/md10/md11, fed ex, ne
+	ira, 1, b742, Iran air, w
+	gec, 1, b77l/md11, lufthansa cargo, w
+	mnb, 1, a306/a332, black sea, w
+	ncr, 1, b744, national cargo, e
+	nca, 1, b742/b744/b748, nippon cargo, n
+	sva, 1, a310/b742/b743/b744/b748/b77l/md11, saudia, w
+	css, 1, b733/b734/b752, shun feng, ns
+	sqc, 1, b744, sing cargo, s
+	azq, 1, a124/il76, silk line, w
+	ups, 1, a306/b744/b748/b752/b763/md11, u p s, new
+	uzb, 1, b763, Uzbek, w
+	vda, 1, a124/il76, volga, n
+
+[airport2]
+name = Hongqiao
+code = SS
+runways =
+	rwy6, 18L, N31.2132, E121.335, 176.0, 11154, 0, 0, 7
+	rwy7, 18R, N31.2132, E121.330, 176.0, 11154, 0, 0, 7
+inboundbeacon = SHA
+airlines = ces, 10, a319/a320/a20n/a321/a332/a333/b733/b737/b738/b38m/crj2/e145/md90, china eastern, nsw
+	csh, 5, a333/b737/b738/b38m, shanghai air, sw
+	dkh, 2, a320/a20n/a321/a21n, air juneyao, sw
+	cqh, 2, a320/a20n/a21n, air spring, nsw
+	cca, 1, a319/a320/a20n/a321/a21n/b733/b737/b738/b38m/b752, air china, ns
+	amu, 1, a320/a20n/a321/a21n, air macau, s
+	ana, 1, a320/a20n/a321/a21n/b735/b737/b738/b38m, all nippon, n
+	aar, 1, a320/a321/a21n/a333/b734, asiana, n
+	uea, 1, a319/a320, united eagle, w
+	cal, 1, a21n/a333/b738, dynasty, e
+	csn, 1, a319/a320/a20n/a321/a21n/b737/b738/b38m/b752, china southern, ns
+	cua, 1, b737/b738, lianhang, n
+	eva, 1, a321/a332/a333, eva, e
+	chh, 1, a332/a333/b738/b38m, Hainan, ns
+	hbh, 1, b737/b738/e190, hebei air, n
+	crk, 1, a320, bauhinia, s
+	jal, 1, b738, japan air, n
+	kal, 1, bcs3/b738/b739/b38m, korean air, n
+	lke, 1, a319/a320/a20n/b737/b738/b38m, lucky air, w
+	cdg, 1, b737/b738/b38m, shandong, s
+	csz, 1, a319/a320/a20n/b738/b38m/b739, shenzhen air, s
+	gcr, 1, a320/a20n/a321/e190/e195, bohai, n
+	tba, 1, a319/a320, Tibet, w
+	cxa, 1, b737/b738/b38m/b3xm, xiamen air, s
+
+[planetypes]
+types =
+	A124, 2, 160, 250, 2.1, 2.9, 1000, 1440, 148, 170, 1.1, 1.3, Antonov
+

@@ -1,0 +1,405 @@
+#
+# - Kabul -
+#
+#  by ZsBT@GitHub
+#
+# based on https://acaa.gov.af/wp-content/uploads/2021/04/ENROUTE-EDITION-91.pdf
+#
+
+
+[airspace]
+radius = 75
+elevation = 5877
+center = N34.565899, E69.212303
+magneticvar = 2.201
+
+floor = 6000
+ceiling = 18000
+above = 29000
+
+automatic = true
+
+beacons =
+	KIA, N34.56250, E69.38900, 0, Kabul
+	OKB, N34.56330, E69.21600, 0, Kabul
+	KBL, N34.54560, E69.29040, 0, Kabul
+	BGM, N34.94300, E69.26150, 0, Bagram
+	PC, N33.90540, E70.07240, 0, Parachinar
+	LBR, N34.13.57, E69.10.37, 015, LOBRE
+	SBL, N34.11.32, E68.18.40, 0, SIBLO
+	NLX, N33.52.04, E68.39.36, 0, NOLEX
+	KOD, N34.06.59, E69.24.06, 0, KODAD
+	TPS, N34.31.00, E69.09.00, 0, TAPIS
+	GDR, N29.41.00, E61.28.00, 0, GADER
+	LJK, N33.55.59, E70.29.59, 0, LAJAK
+	FRZ, N36.40.12, E71.37.48, 0, FIRUZ
+	RNH, N35.35.00, E63.12.00, 0, RANAH
+	PMT, N35.10.06, E61.08.06, 0, PAMTU
+# M696
+	GDG, N34.10.35, E69.56.47, 300, GIDOG
+	LJK, N33.55.59, E70.29.59, 0, LAJAK
+	LMD, N36.10.00, E64.17.30, 0, LEMOD 
+# G202
+	RMP, N31.26.00, E67.36.00, 0, RIMPA
+	KLT, N34.31.44, E68.12.14, 0, KULTA
+	SNK, N33.55.39, E69.04.15, 30, SHANK
+	PGT, N34.26.50, E70.12.40, 270, PEGTO
+	GLN, N34.56.37, E70.04.03, 0, GULNI
+	SRV, N35.06.06, E70.25.12, 0, SURVI
+	ALM, N35.39.47, E69.45.30, 200, ALMOL
+	DSH, N35.36.00, E69.26.30, 0, DOSHI
+	PGL, N34.29.19, E69.31.16, 0, PEGAL
+	FMG, N34.30.50, E69.37.72, 0, FAMUG
+	HRC, N34.30.22, E69.43.81, 271, HURCK
+# ILS 29
+	WBR, N34.26.75, E69.40.51, 285, WEBRO
+	LEL, N34.28.63, E69.33.30, 0, LEELO
+	MYL, N34.29.53, E69.29.83, 0, MYLOE
+	STC, N34.30.13, E69.27.52, 0, STICH
+	HGL, N34.30.63, E69.25.58, 0, HIGEL
+
+line1 =
+	N34.51296, E68.21179
+	N34.49275, E68.30682
+	N34.50740, E68.37622
+	N34.57164, E68.48929
+
+[airport1]
+name = Hamid Karzai International Airport
+code = OAKB
+runways =
+	rwy1, 11, N34.5705, E69.1943, 107.0, 11483, 80, 2325, 5869
+climbaltitude = 9000 
+
+airlines =
+        swa, 8, b737, Lufthansa, w
+        aal, 3, a318/b738, American, e
+        skw, 8, e175, KLM, n
+
+inboundbeacon = KBL
+
+entrypoints = 
+	005, ALM, 18000
+	170, WBR, 17000
+
+# from south
+[approach1]
+runway = rwy1, rev
+beacon = WBR
+route1 = 
+	285
+	N34.26.75, E69.40.51, 11000, 230
+	N34.29.19, E69.31.16,  9000, 210
+	10.3
+
+# from north via HRC and lower final
+[approach2]
+runway = rwy1, rev
+beacon = ALM
+route1 = 
+	060
+	N35.39.47, E69.45.30, 18000
+	N34.30.22, E69.43.81, 10000, 230
+	N34.26.75, E69.40.51, 10000, 230
+	N34.29.19, E69.31.16,  9000, 210
+	10.3
+
+[departure1]
+runway = rwy1
+route1 = 
+	SBL, SIBLO
+	N34.54560, E69.29040
+	N34.56250, E69.38900
+	N34.56330, E69.21600
+	N34.13.57, E69.10.37
+	N34.11.32, E68.18.40
+[departure2]
+runway = rwy1
+route1 = 
+	NLX, NOLEX
+	N34.54560, E69.29040
+	N34.56250, E69.38900
+	N34.56330, E69.21600
+	N34.13.57, E69.10.37
+	N33.52.04, E68.39.36
+[departure3]
+runway = rwy1
+route1 = 
+	KOD, KODAD
+	N34.54560, E69.29040
+	N34.56250, E69.38900
+	N34.56330, E69.21600
+	N34.13.57, E69.10.37
+	N34.06.59, E69.24.06
+
+[departure4]
+runway = rwy1, rev
+route1 = 
+	SBL, SIBLO
+	N34.13.57, E69.10.37
+	N34.11.32, E68.18.40
+[departure5]
+runway = rwy1, rev
+route1 = 
+	NLX, NOLEX
+	N34.13.57, E69.10.37
+	N33.52.04, E68.39.36
+[departure6]
+runway = rwy1, rev
+route1 = 
+	KOD, KODAD
+	N34.13.57, E69.10.37
+	N34.06.59, E69.24.06
+
+
+[airport2]
+name = Bagram Military Airport
+code = OAIX
+runways =
+	rwy2, 03, N34.56.46, E69.15.53, 028, 9874, 0, 0, 4895
+airlines =
+        air, 3, b737, Lufthansa, n
+        air, 3, a318/b738, KLM, w
+
+entrypoints = 
+	005, ALM, 15000
+	170, DSH, 21000
+
+# FL restrictions
+[area1]
+name = OAD107
+shape = circle
+altitude = 9000
+radius = 0.1
+position = N33.20.26, E69.57.37
+labelpos = N33.20.26, E69.57.37
+
+[area2]
+name = OAD108
+shape = circle
+altitude = 9000
+radius = 0.1
+position = N31.05.36, E64.03.16
+labelpos = N31.05.36, E64.03.16
+
+[area3]
+name = OAD114
+shape = circle
+altitude = 110000
+radius = 0.1
+position = N34.27.18, E69.06.36
+labelpos = N34.27.18, E69.06.36
+
+[area4]
+name = OAD104
+shape = polygon
+altitude = 150000
+labelpos = N31.55.05, E64.06.23
+points = 
+        N31.55.05, E64.06.23
+        N31.47.20, E64.06.20
+        N31.47.22, E63.58.11
+        N31.55.07, E63.58.14
+        N31.55.05, E64.06.23
+
+[area5]
+name = OAD105
+shape = polygon
+altitude = 150000
+labelpos = N31.51.51, E64.11.02
+points = 
+        N31.51.51, E64.11.02
+        N31.51.54, E64.06.36
+        N31.54.36, E64.06.38
+        N31.54.34, E64.10.26
+        N31.54.01, E64.11.04
+        N31.51.51, E64.11.02
+
+[area6]
+name = OAD106
+shape = polygon
+altitude = 150000
+labelpos = N31.51.52, E64.10.24
+points = 
+        N31.51.52, E64.10.24
+        N31.50.18, E64.10.23
+        N31.50.17, E64.11.39
+        N31.48.22, E64.11.39
+        N31.47.25, E64.10.56
+        N31.47.25, E64.06.33
+        N31.51.54, E64.06.36
+[area7]
+name = OAD112
+shape = polygon
+altitude = 150000
+labelpos = N34.33.15, E69.03.22
+points = 
+        N34.33.15, E69.03.22
+        N34.33.16, E69.03.24
+        N34.33.12, E69.03.30
+        N34.33.10, E69.03.27
+[area8]
+name = OAD114
+shape = circle
+altitude = 110000
+radius = 0.1
+position = N34.27.18, E69.06.36
+labelpos = N34.27.18, E69.06.36
+
+[area9]
+name = OAD116
+shape = circle
+altitude = 9000
+radius = 0.1
+position = N34.55.48, E69.16.40
+labelpos = N34.55.48, E69.16.40
+
+[area10]
+name = OAD117
+shape = circle
+altitude = 9000
+radius = 0.1
+position = N34.56.01, E69.17.22
+labelpos = N34.56.01, E69.17.22
+
+[area11]
+name = OAD119
+shape = circle
+altitude = 8500
+radius = 0.1
+position = N31.29.16, E65.51.16
+labelpos = N31.29.16, E65.51.16
+
+[area12]
+name = OAD125
+shape = circle
+altitude = 9000
+radius = 0.1
+position = N34.23.54, E70.30.20
+labelpos = N34.23.54, E70.30.20
+
+[area13]
+name = OAD129
+shape = circle
+altitude = 7500
+radius = 0.1
+position = N34.31.45, E69.11.35
+labelpos = N34.31.45, E69.11.35
+
+[area14]
+name = OAD132
+shape = polygon
+altitude = 9500
+labelpos = N31.50.48, E64.12.92
+points = 
+        N31.50.48, E64.12.92
+        N31.49.32, E64.12.89
+        N31.48.33, E64.11.31
+        N31.50.49, E64.11.34
+
+#
+# terrain
+#
+[area15]
+shape = circle
+altitude = 8000
+position = N34.28.08, E69.28.69
+labelpos = N34.28.08, E69.28.69
+radius = 3
+
+[area16]
+shape = polygon
+altitude = 10000
+labelpos = N34.42.27, E69.25.72
+points = 
+        N34.48.27, E69.17.72
+        N34.34.25, E69.25.63
+        N34.34.32, E69.34.20
+        N34.45.43, E69.33.46
+        N34.53.55, E69.31.97
+
+# southeast mountains
+[area17]
+shape = polygon
+altitude = 12000
+labelpos = N34.7.01, E69.41.02
+points = 	
+        N34.21.34, E69.28.76
+        N34.10.58, E69.16.40
+        N33.47.01, E69.10.96
+        N34.06.63, E70.17.13
+        N34.14.01, E69.50.02
+
+# southeast mountain hill
+[area18]
+shape = circle
+altitude = 13000
+position = N34.12.19, E69.35.36
+labelpos = N34.12.19, E69.35.36
+radius = 2
+
+
+[area19]
+shape = circle
+altitude = 8000
+labelpos = N34.26.00, E68.58.81
+position = N34.26.00, E68.58.81
+radius = 3
+
+# mountains west
+[area20]
+shape = polygon
+altitude = 12000
+labelpos = N34.41.80, E68.44.30
+points = 
+	N34.32.06, E68.51.30
+	N34.55.09, E69.1.90
+	N34.57.52, E68.58.99
+	N34.56.80, E68.51.08
+	N34.48.59, E68.3.12
+	N34.40.29, E68.3.78
+	N34.29.16, E68.39.93
+
+# mountains northwest
+[area21]
+shape = polygon
+altitude = 14000
+labelpos = N35.12.68, E68.44.34
+points = 
+	N34.59.57, E68.9.00
+	N35.9.68, E69.7.34
+	N35.39.90, E70.1.22
+	N35.32.33, E68.23.09
+
+# mountains northeast
+[area22]
+shape = polygon
+altitude = 14000
+labelpos = N35.0.44, E69.49.19
+points = 
+	N35.10.02, E69.25.38
+	N35.4.49, E69.33.95
+	N35.7.46, E69.41.28
+	N34.50.11, E69.49.19
+	N34.50.58, E70.1.55
+	N35.0.44, E70.2.30
+	N34.47.06, E70.9.46
+	N34.49.84, E70.18.12
+	N35.0.31, E70.22.40
+	N35.37.76, E70.1.55
+	N35.15.00, E69.31.31
+
+# valley west
+[area23]
+shape = polygon
+altitude = 8000
+labelpos = N35.1.27, E68.58.40
+points =
+	N34.48.59, E68.3.12
+	N34.56.80, E68.51.08
+	N34.57.52, E68.58.99
+	N35.10.02, E69.25.38
+	N35.37.76, E70.1.55
+	N35.39.90, E70.1.22
+	N35.9.68, E69.7.34
+	N34.59.57, E68.9.00

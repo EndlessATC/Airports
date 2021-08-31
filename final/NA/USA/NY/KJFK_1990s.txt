@@ -1,0 +1,414 @@
+# Had to change the icao code of the concordes.  since they have their own callaign.  if they had the same icao code as the normal airline only the concordes would load.
+# Not any specific year its just the 90's. 1990-1999
+# Not every airline I only had 4 videos for reference
+# Enjoy :)
+# accurate planes
+
+[airspace]
+elevation = 13
+usa = true
+radius = 35
+transition = 18001
+center = N40.63980103, W73.77890015
+magneticvar = -14.089
+beacons =
+	JFK, N40.63290, W73.77140, 0, Kennedy
+	CRI, N40.61250, W73.89440, 0, Canarsie
+	OGY, N40.56810, W73.88300, 0, Bridge
+	LG, N40.71460, W73.92940, 0, Peths
+	LGA, N40.78790, W73.87710, 0, La Guardia
+	UR, N40.86650, W73.80360, 0, Orchy
+	FR, N40.77650, W73.48240, 0, Frikk
+	TEB, N40.84870, W74.06220, 0, Teterboro
+	BBN, N40.67250, W73.38440, 0, Babylon
+	TE, N40.80440, W74.13250, 0, Torby
+	EZ, N40.60730, W74.21800, 0, Lizah
+	EW, N40.59370, W74.23000, 0, Chesa
+	DPK, N40.79180, W73.30370, 0, Deer Park
+	PNJ, N40.94650, W74.15090, 0, Paterson
+	COL, N40.31170, W74.15980, 0, Colts Neck
+	IS, N40.72890, W73.19020, 0, Lokks
+	MM, N40.87990, W74.33430, 0, Moree
+	CAT, N40.74090, W74.42980, 0, Chatham
+	HP, N41.14530, W73.76640, 0, Hestr
+	CMK, N41.28010, W73.58140, 0, Carmel
+	RBV, N40.20240, W74.49500, 0, Robbinsville
+	SAX, N41.06750, W74.53830, 0, Sparta
+	BDR, N41.16070, W73.12450, 0, Bridgeport
+	NEL, N40.04470, W74.33570, 0, Lakehurst
+	SBJ, N40.58300, W74.74170, 0, Solberg
+	NEL, N40.03700, W74.35310, 0, Lakehurst
+	CCC, N40.92960, W72.79890, 0, Calverton
+	BWZ, N40.79840, W74.82180, 0, Broadway
+	GXU, N40.00950, W74.59630, 0, Mc Guire
+	MG, N41.44510, W74.29100, 0, Otims
+	STW, N40.99580, W74.86900, 0, Stillwater
+	OX, N41.40250, W73.11980, 0, Clera
+	HVN, N41.26230, W72.88520, 0, New Haven
+	CYN, N39.81730, W74.43160, 0, Coyle
+	HUO, N41.40970, W74.59160, 0, Huguenot
+	MAD, N41.31380, W72.69220, 0, Madison
+
+line1 =
+	N41.02407, W72.28745
+	N40.97217, W72.40898
+	N40.93379, W72.46133
+	N40.91479, W72.51660
+	N40.92134, W72.58086
+	N40.98604, W72.50977
+	N41.03853, W72.42739
+	N41.15303, W72.27412
+	N41.12554, W72.37256
+	N41.02700, W72.54365
+	N40.99185, W72.62510
+	N40.97207, W72.82881
+	N40.96597, W73.03379
+	N40.95688, W73.11128
+	N40.92983, W73.18584
+	N40.92422, W73.27817
+	N40.94380, W73.37271
+	N40.94111, W73.40723
+	N40.92676, W73.44087
+	N40.91997, W73.48740
+	N40.91963, W73.57383
+	N40.90620, W73.60977
+	N40.88125, W73.64282
+	N40.83804, W73.65225
+	N40.87002, W73.69521
+	N40.83369, W73.75723
+	N40.79165, W73.87925
+	N40.72534, W73.96455
+	N40.68315, W74.00337
+	N40.63867, W74.03203
+	N40.58120, W74.01489
+	N40.59883, W73.92900
+	N40.65161, W73.87520
+	N40.65596, W73.82266
+	N40.64097, W73.79917
+	N40.62178, W73.80132
+	N40.57051, W73.89956
+	N40.59272, W73.76675
+	N40.59990, W73.62090
+	N40.66357, W73.26553
+	N40.65151, W73.22852
+	N40.65420, W73.19429
+	N40.77783, W72.76284
+	N40.79062, W72.67607
+	N40.82578, W72.55557
+	N40.87539, W72.42808
+	N40.89414, W72.33896
+
+line2 =
+	N39.68076, W74.13320
+	N39.74644, W74.10674
+
+line3 =
+	N40.61460, W74.18818
+	N40.51870, W74.23589
+	N40.52285, W74.18813
+	N40.54185, W74.13853
+	N40.58647, W74.07969
+	N40.61543, W74.06738
+	N40.64932, W74.06875
+	N40.65845, W74.10049
+	N40.61460, W74.18818
+
+line4 =
+	N39.89478, W75.17295
+	N39.98350, W75.07417
+	N39.93184, W75.10381
+	N39.87051, W75.15381
+
+line5 =
+	N39.72661, W74.17612
+	N39.93813, W74.11763
+	N39.97598, W74.09600
+	N39.99312, W74.06460
+	N39.82910, W74.08398
+	N39.78813, W74.07993
+	N39.92305, W74.04893
+	N40.07300, W74.02832
+	N40.17134, W74.00400
+	N40.25054, W73.97197
+	N40.32837, W73.95762
+	N40.40034, W73.97227
+	N40.45215, W73.99844
+	N40.42983, W74.04985
+	N40.45625, W74.24150
+	N40.52861, W74.26421
+	N40.60801, W74.22671
+	N40.64800, W74.18716
+	N40.67324, W74.15312
+	N40.68730, W74.11626
+	N40.71963, W74.06733
+	N40.75640, W74.02549
+	N40.91426, W73.92720
+	N40.99224, W73.91006
+	N40.99609, W73.90923
+	N41.13579, W73.91768
+	N41.24971, W73.96992
+	N41.21807, W73.92534
+	N41.17061, W73.88223
+	N41.05518, W73.87197
+	N40.91245, W73.90674
+	N40.83877, W73.94858
+	N40.75137, W73.98711
+	N40.77695, W73.94722
+	N40.81611, W73.91069
+	N40.83140, W73.85127
+	N40.87842, W73.77900
+	N40.96587, W73.67139
+	N40.99185, W73.63047
+	N41.02187, W73.58301
+	N41.17583, W73.18228
+	N41.21646, W73.02373
+	N41.28516, W72.92471
+	N41.26587, W72.84717
+	N41.27578, W72.47939
+	N41.31216, W72.37104
+	N41.29165, W72.26528
+
+line6 =
+	N41.57364, W73.98372
+	N41.45959, W73.98403
+	N41.33125, W73.96008
+	N41.28112, W73.96920
+	N41.24973, W73.96995
+
+[airport1]
+name = John F Kennedy, New York
+code = KJFK
+runways =
+	rwy1, 04L, N40.622, W73.7856, 31.0, 12079, 0, 0, 12
+	rwy2, 04R, N40.6254, W73.7703, 30.6, 8400, 0, 0, 13
+	rwy3, 13L, N40.6578, W73.7902, 121.0, 10000, 0, 0, 13
+	rwy4, 13R, N40.6484, W73.8167, 121.0, 14511, 0, 0, 13
+airlines =
+	paa, 20, a30b/a310/b721/b722/b732/b734/b741/b742, clipper, swe
+	kal, 1, b74s/b742/b743/b744/b772/dc10/md11, korean air, w
+	ash, 2, b190/c208/e120/sw4, air shuttle, nsw
+	tow, 1, b741/b742, tee air, sew
+	ein, 1, b741/b763/l101/md11, shamrock, n
+	gti, 1, b742/b744, giant, sw
+	svv, 1, b721/b722/b732/b752, servivensa, s
+	baw, 1, b741/b742/b744/b752/b763/b772/dc10/l101, speedbird, n
+	bac, 1, conc, speedbird concorde, e
+	csa, 1, a310, csa, n
+	afl, 1, a310/b763/b772/il96, aeroflot, n
+	oae, 1, b721/dc10, cimber, w
+	fcn, 1, b722/b733, falcon, n
+	ltu, 1, a333/b742/b752/b763/l101/md11, ltu, n
+	afr, 1, a310/a342/a343/b741/b742/b743/b744/dc10/l101, air france, n
+	afc, 1, conc, air france concorde, e
+	arg, 1, a343/b742, Argentina, s
+	atn, 1, dc86, air transport, w
+	sia, 1, a310/a343/b742/b743/b744/b772, singapore, n
+	ram, 1, b742/b743/b744, royal air maroc, e
+	rka, 1, a30b/a306/a310/a332/b741/b742/b763/dc10/l101/md11, air Afrik, s
+	lrc, 1, a320/b721/b722/b732, lacsa, s
+	kye, 1, a30b/b742/l101/md11, sky cube, s
+	fin, 1, dc10/md11, finnair, n
+	sva, 1, a343/b74s/b741/b742/b743/b744/b772/dc10/l101/md11, saudia, e
+	ctb, 1, a306/b763/md11, dream flight, n
+	aua, 1, a332/a342/a343, austrian, n
+	aic, 1, a310/b703/b742/b743/b744/il62/l101, air india, n
+	bwa, 1, a321/b737/dh8a/dh8c/l101/md83, west indian, s
+	ups, 1, b721/b722/b74r/b741/b742/b763/dc87, brown tail, w
+	mah, 1, b762/b763, malev, n
+	mpd, 1, a310/a332, red comet, e
+	ava, 1, b703/b721/b722/b741/b742/b752/b762/b763/md11, avianca, s
+	atl, 1, dhc7/dh8a/js41/rj85, dash, n
+	cca, 1, a343/b74s/b742/b744/b762/b763/b772, air china, w
+	vsp, 1, b732/dc10/md11, vasp, s
+	dlh, 1, a310/a342/b742/b744/b763/dc10, lufthansa, n
+	aal, 7, a306/b721/b722/b731/b732/b733/b74s/b741/b742/b752/b762/b763/dc10/md11/md82/md83/md87/md90/f100/rj85, american, nswe
+	kha, 1, b722/b733, kitty hawk, s
+	rja, 1, a310/b703/l101, Jordanian, n
+	vgd, 1, b722/b732/b733/md81/md82/md83/md87, vanguard air, sw
+	apw, 1, b721/b722/dc10/dc85/dc86/l101, big a, s
+	vrg, 1, a30b/b703/b732/b733/b721/b742/b743/b744/b762/b763/md11, varig, s
+	ely, 1, b742/b743/b744/b752/b762/b763, el al, e
+	amx, 1, b752/b762, aeromexico, s
+	gec, 1, b742/md11, lufthansa cargo, n
+	cks, 1, b741/b742/b744, connie, w
+	msr, 1, a342/a343/b743/b762/b763/b772/l101, egypt air, e
+	uzb, 1, b763, Uzbek, e
+	aea, 1, b752/b762, europa, e
+	tai, 1, a320, taca, s
+	ana, 1, b741/b742/b744/b762/b763/l101, all nippon, w
+	pac, 1, b741/b742, polar, w
+	oal, 1, a343/b741/b742, Olympic, n
+	rot, 1, a310, tarom, n
+	dal, 2, a310/b722/b732/b733/b762/b763/b772/dc93/dc10/l101/md11/md88/md90, delta, nswe
+	twa, 5, b712/b721/b722/b741/b742/b752/b762/b763/dc91/dc93/dc94/dc95/l101/md81/md82/md83, twa, nswe
+	vir, 1, a343/b741/b742/b744/b763, virgin, n
+	awe, 1, a319/a320/b731/b732, cactus, w
+	aca, 1, a319/a320/a343/b722/b732/b762/b763/crj1/dc93, air canada, w
+	fwl, 1, b703/b763/dc86/dc87, flow west, s
+	pia, 1, a310/b742/b743, pakistan, n
+	chp, 1, b721/b722/b732/b733, aviacsa, s
+	swr, 1, a310/a332/b743/dc10/md11, swissair, n
+	skw, 1, crj1/crj2/e120/sw4, skywest, nsw
+	gha, 1, dc10/md11, ghana, e
+	bsk, 1, b722/b734, byscane, s
+	jal, 1, b741/b742/b743/b744/b762/dc10/md11, japan air, w
+	saa, 1, b74s/b742/b743/b744/b762, springbok, s
+	klm, 1, a310/b742/b743/b744/b763/dc10/md11, klm, n
+	gya, 1, a30b/b703/b732/b752/il62/t154, guy air, s
+	aza, 1, b742/b763/md11, Alitalia, n
+	sas, 1, b762/b763/dc10, scandinavian, n
+	nao, 1, b738/b752/b763/md83, North American, s
+	trz, 1, a320/b722/b752, trans meridian, s
+	lkr, 1, dc10, laker, n
+	lan, 1, b703/b732/b741/b752/b762, lan chile, s
+	ajt, 1, b722, amerijet, w
+	nwa, 3, a320/b721/b722/b741/b742/b743/b744/b752/dc91/dc93/dc95/dc10/md82, northwest, nsw
+	caa, 1, a30b/b722/b732/b733/b734, carnival air, s
+	scx, 1, dc10, sun country, sw
+	gia, 1, b741/b742/b743/b744/dc10/md11, indonesia, w
+	nks, 1, dc92/dc93/dc94/md81/md82/md83, spirit wings, sw
+	ibe, 1, a30b/a343/b742/b752/b763/dc10/l101, iberia, e
+	gaa, 1, b190/rj70/rj85/sf34, biz ex, sw
+	clx, 1, b742, cargolux, n
+	eth, 1, b743/b762, ethiopian, e
+	ice, 1, b752, ice air, n
+	ncr, 1, b752/dc86/dc87, national cargo, s
+
+[airport2]
+name = La Guardia
+code = LG
+runways =
+	rwy8, 04, N40.7692, W73.8841, 32.0, 7000, 0, 0, 22
+	rwy9, 13, N40.7823, W73.8785, 122.0, 7000, 0, 0, 13
+inboundbeacon = LGA
+airlines = 
+	awe, 8, a319/a320/b721/b722/b731/b732/b733/b734/b752/dc93/f100/md80/rj85, cactus, nsw
+	ash, 4, crj1/crj2/dh8a/e120/e145/f70, air shuttle, sw
+	aal, 3, b721/b722/b731/b732/b733/b752/f100/md82/md83/md87/md90/rj85, american, sw
+	pdt, 2, dhc7/dh8a/dh8b/dh8c, piedmont, nsw
+	nks, 1, dc92/dc93/dc94/md81/md82/md83, spirit wings, sw
+	trs, 1, b712/b732/dc93, citrus, s
+	fft, 1, b732/b733, frontier flight, w
+	twa, 1, b712/b721/b722/b752/dc91/dc93/dc94/dc95/md81/md82/md83, twa, nsw
+	usa, 1, b732, u s air, s
+	ual, 2, b721/b722/b732/b733/b752/dc87, united, nsw
+	aca, 1, a319/a320/b722/b732/crj1/dc93, air canada, w
+	nwa, 1, a320/b721/b722/b752/dc91/dc93/dc95/md82, northwest, nsw
+	amt, 1, b721/b733/b752, amtran, w
+	wdy, 1, js31/sf34, windy city, w
+	asq, 1, e135/e145, acey, w
+	coa, 1, b721/b722/b731/b732/b733/b735/b752/md82, continental, sw
+	mep, 1, b712/dc91/dc93/md81/md82/md83, midex, w
+	vgd, 1, md81/md82/md83/md87/b722/b732, vanguard air, w
+	dal, 1, a310/b722/b732/b733/b762/dc93/md88/md90, delta, nsw
+	mdw, 1, a320/b190/b732/crj2/dc91/dc93/e120/f100/js32/md82/md87/md88, Midway, w
+
+[airport3]
+name = Newark
+code = NW
+runways =
+	rwy5, 04L, N40.6754, W74.1795, 26.0, 11000, 0, 0, 10
+	rwy6, 04R, N40.6776, W74.1742, 26.0, 10000, 0, 0, 11
+	rwy7, 11, N40.7028, W74.1807, 95.0, 6800, 0, 0, 18
+inboundbeacon = EZ
+airlines =
+	coa, 10, a30b/b721/b722/b731/b732/b733/b735/b741/b742/b752/b772/dc10/md82, continental, nswe
+	ual, 5, b721/b722/b732/b733/b735/b74s/b741/b742/b744/b762/dc10/dc87, united, nswe
+	dal, 3, a310/b722/b732/b733/b762/b763/dc93/md88/md90, delta, nsw
+	asq, 2, e135/e145, acey, sw
+	sab, 1, a310/b741/b742/b743/md11, Sabena, n
+	eww, 1, b722/dc86/dc10, emery, sw
+	vir, 1, a343/b741/b742/b744/b763, virgin, n
+	mxa, 1, a319/a320/b752, Mexicana, s
+	awe, 2, a320/b721/b722/b731/b732/b752/dc93/f100, cactus, w
+	afr, 1, a310/a342/a343/b741/b742/b743/b744/dc10/l101, air france, n
+	kia, 1, b722, kiwi, s
+	spa, 1, b732, Sierra pacific, s
+	ups, 1, b721/b722/b74r/b741/b742/b763/dc87, brown tail, w
+	nks, 1, dc92/dc93/dc94/md81/md82/md83, spirit wings, sw
+	ajm, 1, a30b/a310/a319/a320/b722/b741/dc86/md83, Jamaica, s
+	aca, 1, a319/a320/b722/b732/crj1/dc93, air canada, w
+	kha, 1, b722/b733/l101, kitty hawk, s
+	twa, 3, b712/b721/b722/b741/b742/b752/b762/b763/dc91/dc93/dc94/dc95/l101/md81/md82/md83, twa, nswe
+	ely, 1, b742/b743/b744/b762/b763, el al, n
+	kkb, 1, b732, khaki blue, s
+	aru, 1, b721/b733/b752/dc93/md83/md88/md90, Aruba, s
+	kmr, 1, b722/b733, kom star, w
+	pzr, 1, b722, phaser, w
+	nwa, 2, a320/b721/b722/b741/b742/b743/b744/b752/dc91/dc93/dc95/dc10/md82, northwest, nsw
+	mep, 1, b712/dc91/dc93/md81/md82/md88, midex, w
+	ein, 1, b741/b763/l101/md11, shamrock, n
+	fdx, 1, a306/a310/b721/b722/b741/b742/dc10/dc87/md11, fed ex, nsw
+	kfs, 1, b721/b722/b733/b734/dc91/dc93, kalitta, sw
+	cks, 1, b721/b722/b741/b742/b744/l101, connie, s
+	bbc, 1, dc10, Bangladesh, w
+	mas, 1, b742/b743/b744/b772/dc10/md11, malaysia, w
+	prh, 1, b733/b734/md90, pro hawk, w
+	sas, 1, b762/b763/dc10, scandinavian, n
+	trz, 1, a320/b722/b752, trans meridian, s
+	ctb, 1, b763/md11, dream flight, n
+	baw, 1, b741/b742/b744/b752/b763/b772/dc10/l101, speedbird, n
+	sia, 1, a310/a343/b742/b743/b744/b772, singapore, w
+	eth, 1, b743/b762, ethiopian, e
+	dlh, 1, a310/a342/a343/b742/b744/b763/dc10, lufthansa, n
+
+[configurations]
+config1 =
+	0, rwy3, landrev
+	0, rwy4, landstartrev
+	0, rwy1, start
+	0, rwy8, land
+	0, rwy9, startrev
+	0, rwy5, landstart
+	0, rwy6, landstart
+
+config2 =
+	0, rwy2, land
+	0, rwy3, landstart
+	0, rwy4, land
+	0, rwy1, start
+	0, rwy7, land
+	0, rwy5, startrev
+	0, rwy6, startrev
+	0, rwy8, start
+	0, rwy9, land
+
+config3 =
+	0, rwy1, start
+	0, rwy2, land
+	0, rwy3, start
+	0, rwy4, land
+	0, rwy7, land
+	0, rwy5, startrev
+	0, rwy6, startrev
+	0, rwy9, land
+	0, rwy8, start
+
+config4 =
+	0, rwy1, landrev
+	0, rwy2, landrev
+	0, rwy3, startrev
+	0, rwy4, startrev
+	0, rwy5, landstartrev
+	0, rwy6, landstartrev
+	0, rwy8, landrev
+	0, rwy9, startrev
+
+[planetypes]
+types =
+	B703, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Boeing
+	DC10, 2, 160, 250, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, Douglas
+	L101, 2, 160, 250, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, Lockheed
+	B721, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
+	B722, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
+	DC85, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
+	DC86, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
+	DC87, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
+	DC91, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Douglas
+	DC92, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Douglas
+	DC93, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Douglas
+	DC94, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Douglas
+	DC95, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Douglas
+	CONC, 2, 170, 400, 2.2, 2.4, 1440, 2000, 150, 165, 1.1, 2.0, Concorde
+	T154, 4, 160, 250, 2.9, 3.2, 1440, 1560, 133, 150, 1.1, 1.3, Tupolev
+	MD90, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, McDonnell Douglas

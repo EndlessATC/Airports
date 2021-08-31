@@ -1,15 +1,15 @@
-# `RJTT` ACA 3.0.0
+# `RJTT` ACA 3.3.0
 
 This is an implementation of the Tokyo ACA (Approach Control Area) for [Endless ATC](https://steamcommunity.com/app/666610) featuring `RJTT` Tokyo International Airport (commonly referred to as Haneda) and `RJAA` Narita International Airport. JSDF-M base `RJTL` Shimofusa is also represented at very high scores (difficulties). The airspace ceiling is FL240.
 
-Based upon AIP Japan 2021/03/25 (Ministry of Land, Infrastructure, Transport and Tourism) (https://aisjapan.mlit.go.jp/). The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative. Coastline data from naturalearthdata.com.
+Based upon AIP Japan 2021/08/12 (Ministry of Land, Infrastructure, Transport and Tourism) (https://aisjapan.mlit.go.jp/). The choice of SIDs and STARs may not be 100% accurate to real life but should be reasonably accurate reflecting daytime IMC conditions. All aircraft are assumed to be RNAV capable; no conventional NAVAID-based SIDs or STARs are implemented unless there is no RNAV alternative. Coastline data from naturalearthdata.com.
 
 The Tokyo ACA is a very large terminal area containing two of Japan's largest airports. The traffic that can flow in and out of these two airports can be immense, but the terminal procedures published for these two airports are robust and can provide you the ability to handle the immense deluge of traffic that can pour into the area. Most of the controller's work should be sequencing arrivals and monitoring a few key merge points for conflicts. Scores of 40 or higher should be possible to maintain with minimal delay vectoring.
 
-STARs are implemented as approach transitions. To activate an approach, an aircraft must be flying direct to an applicable fix, then the APP button can be activated. Multiple approaches may be available from a fix. Press the APP button again  before issuing the approach clearance (do not long press) will select the next approach available from that fix. If the aircraft is already on an approach from that fix, you will need to cancel the approach clearance first before issuing another approach clearance.
+STARs are implemented as approach transitions. To activate an approach, an aircraft must be flying direct to an applicable fix, then the APP button can be activated. Multiple approaches may be available from a fix. Pressing the APP button again before issuing the approach clearance (do not long press) will select the next approach available from that fix. If the aircraft is already on an approach from that fix, you will need to cancel the approach clearance first before issuing another approach clearance.
 
 JSDF-M base `RJTE` Tateyama and JSDF-G bases `RJTK` Kisarazu, `RJAK` Kasumigaura are not represented as it appears traffic should mostly be military helicopters, which are difficult to represent in this game. 
-`RJTO` Oshima/`RJAN` Niijima are not represented as traffic is either helicopters or traffic to `RJTF` Chofu in `RJTY` Yokota ACA. Unfortunately traffic to `RJTY` is difficult to represent as `RJTT` ACA has airspace on top of most of `RJTY` ACA, meaning that within the game, it is not possible to get planes to "spawn" from the appropriate region. However, the runways for `RJTO`, `RJAN`, and `RJTF` are shown on the radar map.
+`RJTO` Oshima/`RJAN` Niijima are not represented as traffic is either helicopters or traffic to `RJTF` Chofu in `RJTY` Yokota ACA. Unfortunately traffic to `RJTY` is difficult to represent as `RJTT` ACA has airspace on top of most of `RJTY` ACA, meaning that within the game, it is not possible to get planes to "spawn" from the appropriate region. However, the runways for `RJTO`, `RJAN`, `RJTF`, `RJTE`, and `RJTK` are shown on the radar map.
 
 ## Airports
 
@@ -288,3 +288,32 @@ Note that traffic data (`airlines = `) is expanded by a python script `expand_ai
 	- Reduced frequency of traffic at `RJTL` to 1/3 of previous.
 	- Implement ILS Y 16L/16R approaches at `RJAA`
 	- Implement ILS X 34L/ILS Y 34R approaches at `RJTT`
+*	3.1.0 - 2021/05/31
+	- Corrected definition of `TEMIS`, shouldn't affect gameplay
+	- Revised ILS Z 34L at `RJTT`
+		- removed -5000 altitude restriction at `ARLON`
+		- ILS intercept changed to 15.5nmi from runway (D15.7 `IHA`/0.6nmi from `APOLO`)
+			- previously, the ILS intercept was at `ARLON`
+		- In reality, there was no restriction at `ARLON` in the first place (rather, there was a +5000 restriction at `CREAM`
+	- Corrected coordinates of `RJTL` runway, shouldn't affect gameplay
+	- Implemented tower frequencies
+*	3.2.0 - 2021/07/06
+	- Add handoff callsign / frequency support for departures
+	- Additions/corrections to rare traffic.
+*	3.3.0 - 2021/07/18
+	- Implement different entry altitudes for each entrypoint
+	- Implement different initial climb altitudes for each departure
+	- Arrival entrypoints changed for most arrival routes to waypoints along the ACA boundary
+	- Arrivals are automatically cleared for a relevant STAR
+		- This is a temporary measure until  4.5.1 releases
+		- this will be changed so that　aircraft will only be cleared to the first fix of the STAR and hold there
+		- Clearing aircraft via the STAR will then be the responsibility of approach control (you)
+	- Correct pronunciation for `TETRA` departures from `RJAA`
+	- Add 200kts restriction at `ARLON` for ILS Z 34L at `RJTT` to prevent certain aircraft such as `B772` from overshooting the GS
+	- Add inactive `RJTK` Kisarazu and `RJTE` Tateyama
+		- Add `KZT` Kisarazu and `TET` Tateyama TACANs
+	- ANA `B737`s retired
+	- Made some rare traffic unique (no more than one will appear at any one time)
+*	3.4.0 - pending release of 4.5.1
+	- Upon entering the ACA, planes will fly along any airways to the beginning of the STAR and hold
+		- Approach (you) will be responsible for clearing for the STAR

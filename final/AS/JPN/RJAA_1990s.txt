@@ -1,0 +1,166 @@
+# 1990-1999
+# Accurate planes
+# Not every airline (i only had 2 videos to go by)
+# Accurate callsigns
+# Questions? Dm me on Discord Toru Hagakure#5499
+
+[airspace]
+elevation = 141
+center = N35.7647018433, E140.386001587
+magneticvar = -6.397
+beacons =
+	NRE, N35.78230, E140.36301, 0, Narita
+	HKE, N35.80900, E140.37500, 0, Hokuso
+	TYE, N35.78360, E140.26300, 0, Sakura
+	TLE, N36.02120, E140.20599, 0, Ami
+	SHT, N35.80190, E140.00999, 0, Shimofusa
+	CVC, N35.72650, E140.79900, 0, Choshi
+	SNE, N35.93480, E139.98100, 0, Moriya
+	HUT, N36.18830, E140.41499, 0, Hyakuri
+	KWE, N35.60900, E139.81500, 0, Kohtoh
+	SYE, N36.01090, E139.83900, 0, Sekiyado
+	KZE, N35.40240, E139.90300, 0, Kisarazu
+	HME, N35.56230, E139.76100, 0, Haneda
+	HM, N35.55880, E139.75500, 0, Haneda
+	OJC, N35.18350, E140.37100, 0, Onjuku
+	MI, N35.91840, E139.61400, 0, Omiya
+	RB, N35.55970, E139.54100, 0, Eda
+	YLT, N35.84000, E139.41499, 0, Iruma
+	TN, N35.71830, E139.39999, 0, Shin-Tachikawa
+	NJA, N35.44580, E139.45399, 0, Atsugi
+	HYE, N35.25580, E139.58800, 0, Yokosuka
+	DF, N35.57980, E139.37601, 0, Zama
+	JD, N36.48980, E139.86301, 0, Nikko
+	XR, N35.51500, E139.39500, 0, Kastner
+	YU, N35.19910, E139.61501, 0, Yokosuka
+	JDT, N36.51690, E139.87601, 0, Utsunomiya
+	PQ, N34.99390, E139.87500, 0, Tateyama
+	PQE, N34.94640, E139.89600, 0, Tateyama
+	TET, N34.97080, E139.83800, 0, Tateyama
+
+line1 =
+	N36.73188, E140.72988
+	N36.50278, E140.62734
+	N36.44531, E140.61885
+	N36.38560, E140.61924
+	N36.30781, E140.59160
+	N36.23135, E140.57354
+	N36.14243, E140.59043
+	N36.05923, E140.62197
+	N35.84570, E140.75957
+	N35.78252, E140.81348
+	N35.72495, E140.87402
+	N35.66128, E140.63926
+	N35.63203, E140.59688
+	N35.51025, E140.45742
+	N35.39478, E140.41289
+	N35.26699, E140.41650
+	N35.22114, E140.39297
+	N35.18145, E140.35469
+	N35.15503, E140.31475
+	N35.09648, E140.15889
+	N35.03828, E140.05918
+	N34.94731, E139.95977
+	N34.89961, E139.92041
+	N34.91489, E139.84395
+	N34.95693, E139.79922
+	N35.00986, E139.84326
+	N35.07217, E139.82969
+	N35.23232, E139.85146
+	N35.29668, E139.82646
+	N35.34526, E139.90615
+	N35.42300, E139.94414
+	N35.48521, E140.02715
+	N35.54043, E140.08633
+	N35.58516, E140.09688
+	N35.63335, E140.04365
+	N35.66821, E139.98750
+	N35.66836, E139.90977
+	N35.65806, E139.83477
+	N35.61211, E139.78633
+	N35.54956, E139.77012
+	N35.52036, E139.77393
+	N35.49482, E139.76777
+	N35.40913, E139.65000
+	N35.31948, E139.66553
+	N35.27397, E139.70000
+	N35.25239, E139.74404
+	N35.22153, E139.73086
+	N35.14927, E139.67500
+	N35.14214, E139.63594
+	N35.24326, E139.56406
+	N35.29854, E139.47441
+	N35.29810, E139.36348
+	N35.27803, E139.24941
+	N35.21074, E139.16270
+	N35.15488, E139.13408
+	N35.09712, E139.11582
+	N34.95649, E139.12197
+	N34.83916, E139.08604
+
+line2 =
+	N34.77588, E139.42617
+	N34.77544, E139.37002
+
+[airport1]
+name = Narita International Airport, Narita
+code = RJAA
+runways =
+	rwy1, 16L, N35.8027, E140.38, 149.5, 8202, 0, 0, 135
+	rwy2, 16R, N35.7744, E140.368, 150.0, 13123, 0, 0, 130
+airlines =
+	ana, 10, b722/b732/b74r/b741/b742/b744/b762/b763/l101, all nippon, nswe
+	jal, 7, b734/b74r/b741/b742/b743/b744/b762/b763/dc10/md11, japan air, nswe
+	akx, 5, b735, alfa wing, nswe
+	jaa, 3, b741/b742/b743/b763/dc86/dc10, asia, sew
+	jac, 2, sf34, commuter, nw
+	nwa, 1, b741/b742/b744/dc10, northwest, e
+	cca, 2, b703/b733/b74s/b742/b744/b762/b763, air china, w
+	aal, 1, b74s/b762/b763/b772/dc10/md11, american, e
+	ual, 1, b74s/b741/b742/b744/dc10, united, e
+	sva, 1, a306/a343/b703/b74s/b741/b742/b743/b744/b772/dc10/l101/md11, saudia, w
+	cpa, 1, a342/a343/b742/b743/b744/b772/l101, cathay, w
+	mas, 1, a332/a333/b742/b743/b744/b772/dc10/md11, Malaysian, s
+	alk, 1, a343/l101, sri Lankan, w
+	swr, 1, a310/a332/b743/dc10/md11, swiss air, w
+	dal, 1, a310/b762/b763/b772/l101/md11, delta, e
+	coa, 1, b741/b742/b772/dc10, continental, e
+	nca, 1, b74r/b742, nippon cargo, we
+	sas, 1, b762/b763/dc10, scandinavian, w
+	qfa, 1, b742/b743/b744/b763, qantas, s
+	ira, 1, a30b/a306/b74s/b741/b742/b744, Iran air, w
+	jas, 1, a30b/a306/b772/dc94/dc10/md81/md87/md90, air system, ns
+	aic, 1, a30b/a310/b703/b742/b743/dc87/il62/l101, air india, w
+	cdn, 1, b744/b763/dc10, Canadian, e
+	afr, 1, a30b/a310/a342/a343/b741/b742/b743/b744/b762/b763/dc10/l101, air france, w
+	baw, 1, b741/b742/b744/b763/b772/dc10/l101, speedbird, w
+	fdx, 1, b741/b742/dc10/md11, fed ex, e
+	ups, 1, b74r/b741/b742, brown tail, e
+	aza, 1, a30b/b742/b763/md11, Alitalia, w
+	vda, 1, a124/il76, volga, w
+	paa, 1, b741/b742, clipper, e
+	vir, 1, a343/b741/b742/b744/b763, virgin, w
+	tha, 1, a30b/a306/a310/a333/b742/b743/b744/b772/dc10/md11, thai, s
+	gia, 1, a30b/a306/b741/b742/b743/b744/dc10/md11, indonesia, s
+	cmi, 1, b742/dc10, air Mike, e
+	thy, 1, a343, turkish, w
+	sia, 1, a310/a343/b742/b743/b744/b752/b772, singapore, s
+	sab, 1, a310/a342/a343/b741/b742/b743/md11, Beeline, w
+	ibe, 1, a30b/a343/b742/b763/dc10/l101, iberia, w
+	pia, 1, a30b/a310/b703/b742/b743/b744, pakistan, w
+	vrg, 1, b742/b743/b744/b762/b763/md11, varig, e
+	aar, 1, a321/b734/b735/b744/b763, asiana, w
+	klm, 1, a310/b742/b743/b744/b763/dc10/md11, klm, w
+	kal, 1, a30b/a306/a332/b722/b74s/b742/b743/b744/b772/dc10/md11, korean air, w
+	fji, 1, b742/b762/b763, Fiji, s
+	dlh, 1, a306/a310/a342/b742/b744/b763/dc10, lufthansa, w
+
+[planetypes]
+types =
+	DC86, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
+	DC10, 2, 160, 250, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, Douglas
+	B722, 4, 160, 250, 2.9, 3.2, 1000, 1560, 131, 144, 1.1, 1.3, Boeing
+	L101, 2, 160, 250, 2.3, 2.7, 1000, 1440, 140, 157, 1.1, 1.3, Lockheed
+	DC94, 5, 160, 250, 2.9, 3.2, 1000, 1560, 130, 145, 1.1, 1.3, Boeing
+	B703, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Boeing
+	A124, 2, 170, 250, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov

@@ -1,0 +1,313 @@
+#Made by obamna#9667
+#Including KBNA, North config
+#DM me on discord if you have any questions, comments, suggestions etc!
+
+[airspace]
+radius = 45
+elevation = 599
+usa = true
+transition = 18001
+descendaltitude = 11000
+ceiling = 13000
+automatic = true
+name = nashville approach, nashville departure
+center = N36.1245002747, W86.6781997681
+magneticvar = -1.565
+beacons =
+	BNA, N36.13700, W86.68480, 0, Nashville
+	BAWLS, N35.52.23.901, W87.20.26.232, 0, Balls
+	CARAP, N36.28.35.226, W85.58.13.860, 0, Ca Rap
+	PEKIE, N36.39.49.155, W87.00.13.807, 0, Pecky
+	HIMAT, N35.39.39.636, W86.03.33.760, 0, Hi Mat
+
+boundary =
+	N36.40.58.840, W86.55.56.603
+	N36.38.57.765, W86.09.55.074
+	N36.26.58.026, W85.58.58.656
+	N36.14.04.277, W85.52.58.099
+	N35.53.56.565, W85.53.57.185
+	N35.40.57.907, W86.04.53.939
+	N35.38.57.912, W86.12.51.835
+	N35.36.56.263, W86.40.54.872
+	N35.41.55.653, W87.06.56.715
+	N35.51.59.304, W87.18.56.171
+	N36.25.15.939, W87.20.01.396
+
+[airport1]
+name = Nashville International Airport
+code = KBNA
+runways =
+	rwy1, 2C, N36.1033, W86.688, 18.0, 8001, 455, 0, 569
+	rwy2, 2L, N36.1177, W86.6865, 17.6, 7703, 0, 0, 599
+	rwy3, 2R, N36.1127, W86.6676, 18.0, 8000, 0, 0, 590
+	rwy4, 13, N36.1413, W86.6954, 133.3, 11030, 801, 741, 543
+
+climbaltitude = 4000
+
+sids = 
+	BGDDY, N36.05.54.056, W87.13.00.254, Big Daddy
+	PARDN, N36.18.54.445, W87.30.06.411, Pardon
+	MERRL, N36.26.05.569, W87.08.40.864, Merrel
+	GDOGG, N36.45.25.682, W86.44.23.996, G Dog
+	KRSTA, N36.43.30.428, W86.23.49.038, Krista
+	PREDS, N36.41.44.730, W86.03.47.244, Preds
+	CHADM, N36.18.47.991, W85.48.34.199, Chad M
+	TAZMO, N36.02.53.728, W85.47.11.299, Tazmo
+	EVVAN, N35.44.20.500, W85.42.35.300, Evan
+	TIPPN, N35.22.59.490, W86.23.22.117, Tippin
+	FLAME, N35.32.41.004, W86.46.17.987, Flame
+	DRURY, N35.37.34.272, W87.10.25.157, Drury
+
+entrypoints = 
+	244, BAWLS
+	057, CARAP
+	322, PEKIE
+	131, HIMAT
+
+airlines =
+	ual, 1, a320, united
+	ual, 1, b738, united
+	ual, 1, b739, united, w
+	baw, 1, b789, speedbird, e
+	fft, 1, a320, frontier
+	fft, 1, a321, frontier
+	fft, 1, a20n, frontier
+	swa, 4, b738, southwest, nswe
+	swa, 4, b737, southwest, nswe
+	swa, 2, b38m, southwest, nswe
+	skw, 1, crj9, sky west
+	skw, 1, crj7, sky west
+	skw, 1, e75l, sky west
+	jbu, 1, e190, jet blue, nse
+	eny, 1, e75l, on voy
+	nks, 1, a321, spirit wings
+	nks, 1, a320, spirit wings
+	nks, 1, a20n, spirit wings
+	nks, 1, a319, spirit wings
+	aal, 1, b738, american
+	aal, 1, a321, american
+	aal, 1, a320, american
+	aal, 1, b38m, american
+	rpa, 1, e75l, brickyard
+	dal, 1, a319, delta
+	dal, 1, a321, delta
+	dal, 1, b739, delta
+	dal, 1, b738, delta
+	asa, 1, B739, Alaska, n
+	aay, 3, A319/A320, Allegiant
+	edv, 1, crj9, endevor
+	fdx, 1, a306/b763, fedex, new
+	ujc, 1, e135, ultimate, n
+	scx, 1, b738, sun country, n
+	wja, 1, b736, west jet, n
+	wen, 1, dh8d, encore, e
+	kap, 1, c402, kair
+	btq, 1, pc12, boutique, w
+	gaj, 1, b350, gamma jet
+	vte, 1, e135, volunteer, w
+	snr, 1, b744/b763, redbud
+	vda, 1, a124, vole ga
+
+[area1]
+# Feeder West
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N35.59.03.542, W87.18.55.525
+	N35.59.49.433, W87.16.41.887
+	N36.05.07.355, W86.51.38.796
+	N35.45.58.865, W86.58.59.084
+	N35.48.33.730, W87.14.49.660
+	N35.51.10.085, W87.10.34.184
+	N35.59.50.141, W87.16.44.677
+
+[area2]
+# Feeder East
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N35.41.12.654, W86.40.19.573
+	N36.02.35.414, W86.31.52.053
+	N35.46.53.538, W86.02.55.600
+	N35.45.59.532, W86.00.35.959
+	N35.46.53.538, W86.02.55.600
+	N35.38.57.333, W86.12.42.367
+	N35.41.13.095, W86.40.12.130
+
+[area3]
+# Final
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N35.45.58.865, W86.58.59.084
+	N35.41.12.654, W86.40.19.573
+	N36.05.39.531, W86.30.52.921
+	N36.07.32.490, W86.40.35.636
+	N36.07.50.542, W86.50.29.687
+
+[area4]
+# Feeder West
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N36.36.26.903, W87.02.47.053
+	N36.12.34.296, W86.48.22.904
+
+[area5]
+# Feeder West
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N36.15.47.857, W86.40.52.520
+	N36.40.52.243, W86.55.53.442
+	
+[area6]
+# Feeder East
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N36.15.44.207, W86.33.41.242
+	N36.30.57.030, W86.02.36.996
+
+[area7]
+# Feeder East
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N36.09.11.785, W86.30.33.837
+	N36.24.43.238, W85.57.54.355
+
+[area8]
+# Tower Area
+shape = polygon
+altitude = 0
+labelpos = N0.0, W0.0
+points =
+	N36.07.50.542, W86.50.29.687
+	N36.10.25.220, W86.49.30.277
+	N36.11.03.519, W86.49.09.677
+	N36.11.53.262, W86.48.33.446
+	N36.12.42.881, W86.47.48.427
+	N36.13.22.567, W86.46.59.223
+	N36.14.02.947, W86.45.55.718
+	N36.14.29.962, W86.44.59.090	
+	N36.14.54.254, W86.44.00.327
+	N36.15.13.716, W86.42.37.488
+	N36.15.22.568, W86.41.25.865
+	N36.15.26.886, W86.40.11.042
+	N36.15.22.342, W86.39.04.101
+	N36.15.09.550, W86.37.45.248
+	N36.14.50.635, W86.36.37.515
+	N36.14.25.486, W86.35.33.213
+	N36.13.54.103, W86.34.32.341
+	N36.13.16.612, W86.33.43.688
+	N36.12.40.931, W86.32.56.095
+	N36.11.56.293, W86.32.09.793
+	N36.11.09.167, W86.31.37.831
+	N36.10.16.658, W86.31.05.984
+	N36.09.25.219, W86.30.46.202
+	N36.08.29.387, W86.30.33.109
+	N36.07.37.238, W86.30.26.531
+	N36.06.45.246, W86.30.30.939
+	N36.05.39.531, W86.30.52.921
+	N36.07.32.490, W86.40.35.636
+	N36.07.50.542, W86.50.29.687
+
+[approach1]
+runway = rwy1
+beacon = BAWLS
+route1 =
+	069
+	N35.52.23.901, W87.20.26.232, 10000, 250
+	N35.54.10.614, W87.16.02.253
+	N35.57.11.774, W87.07.45.853, 6000
+	N35.58.32.105, W86.55.07.148, 4000
+	N35.59.07.088, W86.49.41.284, 4000, 210
+	end, 109
+
+[approach2]
+runway = rwy2
+beacon = BAWLS
+route1 =
+	069
+	N35.52.23.901, W87.20.26.232, 10000, 250
+	N35.54.10.614, W87.16.02.253
+	N35.57.11.774, W87.07.45.853, 6000
+	N35.58.32.105, W86.55.07.148, 4000
+	N35.59.07.088, W86.49.41.284, 4000, 210
+	end, 109
+
+[approach3]
+runway = rwy3
+beacon = CARAP
+route1 =
+	242
+	N36.28.35.226, W85.58.13.860
+	N36.26.39.715, W86.02.32.893
+	N36.23.00.702, W86.10.13.951, 11000, 250
+	N36.14.31.965, W86.27.47.284, 8000, 250
+	N36.13.00.506, W86.30.56.594, 7000, 250
+	N36.10.16.670, W86.32.02.547, 6000, 220
+	N36.06.10.916, W86.33.41.477, 5000, 210
+	end, 199
+	
+[approach4]
+runway = rwy1
+beacon = PEKIE
+route1 =
+	157
+	N36.39.49.155, W87.00.13.807
+	N36.36.16.677, W86.58.08.151
+	N36.29.08.960, W86.53.44.956, 11000, 250
+	N36.14.18.603, W86.44.46.548, 6000, 250
+	N36.07.37.612, W86.47.15.542, 5000, 210
+	end, 199
+
+[approach5]
+runway = rwy2
+beacon = PEKIE
+route1 =
+	157
+	N36.39.49.155, W87.00.13.807
+	N36.36.16.677, W86.58.08.151
+	N36.29.08.960, W86.53.44.956, 11000, 250
+	N36.14.18.603, W86.44.46.548, 6000, 250
+	N36.07.37.612, W86.47.15.542, 5000, 210
+	end, 199
+
+[approach6]
+runway = rwy3
+beacon = HIMAT
+route1 =
+	315
+	N35.39.39.636, W86.03.33.760, 11000, 250
+	N35.42.26.447, W86.07.13.834
+	N35.47.27.625, W86.14.00.157, 10000, 250
+	N35.50.33.959, W86.24.38.718, 6000, 250
+	end, 289
+
+[configurations]
+#North OPS
+config1 =
+	0, rwy2, land
+	0, rwy3, land
+	0, rwy4, startrev, 310, nosid
+
+#North OPS, 2C
+config2 = 
+	0, rwy1, land
+	0, rwy2, start, 019, nosid
+	0, rwy3, land
+
+[planetypes]
+types =
+	C402, 6, 100, 230, 2.9, 3.2, 1000, 1400, 60, 100, 1.1, 1.3, Cessna
+	E45X, 5, 160, 250, 2.9, 3.2, 1000, 1550, 122, 134, 1.1, 1.3, Embraer
+	J328, 5, 160, 250, 2.9, 3.2, 1000, 1560, 122, 134, 1.1, 1.3, Dornier

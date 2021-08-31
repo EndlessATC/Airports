@@ -1,0 +1,1370 @@
+[airspace]
+radius = 65
+elevation = 257
+floor = 1600 				; minimum selectable altitude
+descendaltitude = 20000 	; minimum initial altitude for arrivals
+ceiling = 20000				; maximum selectable altitude
+above = 22000 				; maximum departure altitude when SID is enabled (must be above ceiling)
+transitionaltitude = 5000	; highest altitude displayed in feet instead of flight level
+separation = 3				; minimum allowed distance between aircraft in NM
+center = N53.3536987305, W2.27495002747
+usa = false
+magneticvar = -2.482
+beacons =
+    MCT, N53.356944, W2.262222, -232, Manchester
+    AMLET, N53.268611, W1.988333, 0, Amlet
+    ARTHA, N53.783056, W2.285278, 0, Artha
+    ASMIM, N53.446111, W2.653056, 0, Asmim
+    BAROS, N53.24.22, W003.26.43, 0, Baros
+#    BARTN, N53.28.14, W002.25.41, 0, Barton
+    BEGAM, N54.156944, W2.120833, 0, Begam
+    BURNI, N53.727222, W2.517778, 0, Burni
+    CROFT, N53.37.37, W002.32.20, 0, Croft
+    DAYNE, N53.238611, W2.029167, 312, Dayne
+    DESIG, N53.527222, W1.892778, 0, De sig
+    EKLAD, N53.253889, W2.824722, 0, Eklad
+    GASKO, N54.224722, W1.955833, 0, Gasko
+    GOLES, N53.608056, W1.083333, 0, Goles
+    HONLY, N52.356667, W1.663611, 0, Honiley
+    IBRAR, N53.531667, W3.686389, 0, Eye brar
+    KEGUN, N53.11.33, W003.09.01, -004, Kegun
+    KUXEM, N53.253056, W2.679722, 0, Cooksem
+    LAKEY, N54.238889, W2.981111, 0, Lakey
+    LESTA, N52.740833, W1.071944, 0, Lesster
+    LISTO, N53.143333, W2.199167, 0, Listo
+    LPL, N53.20.23, W002.43.30, 086, Liverpool
+    MALUD, N53.413333, W3.608333, 0, Malud
+    MIRSI, N53.538056, W2.711667, 061, Mirsi
+    MONTY, N52.892778, W3.173889, 0, Monty
+    NANTI, N53.08.15, W002.34.01, 0, Naan tea
+    PEDIG, N52.44.48, W001.43.10, 0, Pedig
+    PENIL, N53.615833, W3.663611, 0, Penil
+    POL, N53.743889, W2.103333, 0, Pole Hill
+    REXAM, N53.066667, W3.160278, 0, Rexham
+    ROSUN, N53.668889, W2.349167, 172, Row sun
+    RUGER, N53.28.58, W003.26.52. 0, Ruger
+    SANBA, N53.139444, W2.334167, 0, Sanba
+    SETEL, N54.0125, W2.435833, 0, Setel
+    SONEX, N53.498056, W2.1725, 0, Sonex
+    TABLY, N53.271944, W2.450556, 0, Tably
+    TIPOD, N53.26.08, W003.17.05, 117, Tipod
+    TNT, N53.053889, W1.67, 0, Trent
+    UPTON, N53.586944, W1.300833, 0, Upton
+    WAL, N53.23.31, W003.08.04, 0, Wallasey
+    WHI, N53.11.06, W002.37.23, 0, White gate
+    XOBRO, N53.471389, W2.421667, Xobro
+    XUMAT, N53.465833, W2.473056, Xumat
+
+handoff =
+	360, ScCTR, Scottish control, 128.055
+
+line1 =
+	N53.71616, W0.46138
+	N53.72539, W0.56768
+	N53.72402, W0.65991
+	N53.69438, W0.48506
+
+line2 =
+	N52.39312, W4.09976
+	N52.47515, W4.05054
+	N52.54175, W3.98032
+	N52.55762, W4.04844
+	N52.60786, W4.07891
+	N52.65884, W4.07070
+	N52.70405, W4.03926
+	N52.76074, W4.06743
+	N52.82002, W4.11753
+	N52.86616, W4.11475
+	N52.91548, W4.10146
+	N52.91284, W4.22915
+
+line3 =
+	N53.21895, W4.11104
+	N53.30269, W3.80928
+	N53.30762, W3.76421
+	N53.29790, W3.64590
+	N53.31055, W3.52959
+	N53.34067, W3.42773
+	N53.34717, W3.32617
+	N53.26030, W3.09756
+	N53.39468, W3.16558
+	N53.42686, W3.06475
+	N53.30537, W2.91855
+	N53.29258, W2.86416
+	N53.31021, W2.74951
+	N53.33071, W2.79375
+	N53.33193, W2.84541
+	N53.35024, W2.91309
+	N53.38921, W2.96997
+	N53.51284, W3.06460
+	N53.58623, W3.05947
+	N53.66255, W2.99570
+	N53.73276, W2.92510
+	N53.74673, W2.98433
+	N53.77358, W3.03179
+	N53.84385, W3.04536
+	N53.90591, W3.02676
+	N53.96069, W2.89985
+	N54.04385, W2.86240
+	N54.13530, W2.84648
+	N54.17725, W2.86758
+	N54.17051, W2.99351
+	N54.15342, W3.05474
+	N54.12632, W3.10967
+	N54.12793, W3.16597
+	N54.22910, W3.32153
+	N54.30562, W3.41025
+
+line4 =
+	N53.21807, W4.20039
+	N53.26431, W4.08428
+	N53.30576, W4.04937
+	N53.30283, W4.15488
+	N53.32144, W4.19678
+
+
+[area1]
+shape = polygon
+altitude = 2800
+name = MVA
+labelpos = N53.31.44, W002.04.00
+points =
+    N53.33.51, W002.09.41
+    N53.34.30, W002.04.00
+    N53.29.06, W001.56.17
+    N53.25.41, W001.58.38
+
+
+[area2]
+shape = polygon
+altitude = 3100
+name = MVA
+labelpos = N53.26.27, W001.56.50
+points =
+    N53.24.06, W002.00.14
+    N53.25.41, W001.58.38
+    N53.29.06, W001.56.17
+    N53.27.30, W001.54.00
+    N53.22.07, W001.57.35
+
+
+[area3]
+shape = polygon
+altitude = 2900
+name = MVA
+labelpos = N53.18.54, W002.02.30
+points =
+    N53.24.06, W002.00.14
+    N53.22.07, W001.57.35
+    N53.09.16, W002.05.58
+    N53.13.58, W002.10.29
+
+
+[area4]
+shape = polygon
+altitude = 2400
+labelpos = N53.25.28, W002.20.10
+draw = 4
+points =
+    N53.13.58, W002.10.29
+    N53.11.08, W002.37.44
+    N53.27.00, W002.37.44
+    N53.30.05, W002.41.10
+    N53.31.10, W002.31.00
+    N53.20.55, W002.31.00
+    N53.26.25, W002.23.00
+    N53.33.51, W002.09.41
+    N53.25.41, W001.58.38
+
+
+[area5]
+shape = polygon
+altitude = 3500
+name = MVA
+labelpos = N53.33.59, W001.54.48
+points =
+    N53.34.30, W002.04.00
+    N53.36.50, W001.52.00
+    N53.27.28, W001.46.05
+    N53.27.02, W001.49.50
+    N53.07.30, W002.01.05
+    N53.10.43, W002.05.03
+    N53.27.30, W001.54.00
+
+
+[area6]
+shape = polygon
+altitude = 3500
+name = CB
+labelpos = N53.29.51, W002.23.21
+points =
+    N53.33.51, W002.09.41
+    N53.26.25, W002.23.00
+    N53.20.55, W002.31.00
+    N53.31.10, W002.31.00
+
+
+[area7]
+shape = polygon
+altitude = 2100
+name = GP
+labelpos = N53.22.38, W002.51.22
+points =
+    N53.18.55, W003.16.47
+    N53.23.09, W003.12.05
+    N53.27.34, W003.03.10
+    N53.30.05, W002.41.10
+    N53.27.00, W002.37.44
+    N53.11.08, W002.37.44
+    N53.11.05, W002.54.08
+    N53.14.27, W003.01.40
+    N53.16.09, W003.07.23
+
+
+[airport1]
+name = Manchester Airport
+code = EGCC
+runways =
+	rwy1, 05L, N53.3451, W2.29274, 52, 10000, 1401, 600, 212, 3, 52.5, 3, 230, 0, 0, 0, 0, 118.630
+	rwy2, 05R, N53.332, W2.31066, 51, 9997, 604, 604, 186, 3, 50, 3, 232.5, 0, 0, 0, 0, 118.630
+
+climbaltitude = 5000
+
+airlines =
+    EIN, 1, a320/atr72, Shamrock, w
+    AFR, 3, e170/e190, Airfrans, s
+    AUR, 1, e195, Ayline, s
+    BGH, 2, a320, Balkan Holidays, e
+    SHT, 2, a320/a325, Shuttle, ns
+    BEL, 1, a319, Bee-line, s
+    EZY, 8, a320, Easy
+    EZY, 3, a319/a32n, Easy
+    UAE, 1, a320/a380, Emirates, s
+    FIN, 1, a319, Finnair, n
+    IBE, 1, a320, Iberia, s
+    IRA, 1, a332, Iranair, s
+    EXS, 10, b738, Channex, es
+    EXS, 5, a321/b738/b752, Channex, esw
+    KLM, 3, b737/b738/e190. KLM, e
+    LOG, 6, at72/e135/e145, Logan, w
+    DLH, 5, a320/a321/crj9, Lufthansa, sw
+    PGT, 1, a320, Sun Turk, s
+    QTR, 1, b788, Qatari, e
+    RYR, 5, b738, Ryanair, esw
+    SAS, 1, crj9, Scandinavian, ne
+    SWR, 1, a220, Swiss, ne
+    TAP, 2, a320/e190, Air Portugal, s
+    TOM, 7, b38m/b767, Tomjet, es
+    TOM, 4, b738/b788/b789, Tomjet, es
+    TRK, 1, a333, Turkish Republic, es
+    VLG, 1, a320, Vueling, s
+    G-EABC, 2, c162/c172/c182/c25a/c25b/c25c/c560/c680/c750/dh8a/dh8d/e110/e120/e50p/e55p/g280/gl5t/glf4/glf5/glf6/lj35/lj60/p208/p28b
+
+
+entrypoints =
+    015, GASKO
+    065, GOLES
+    080, GOLES
+    133, LESTA
+    211, MONTY
+    232, MONTY
+    277, MALUD
+    285, IBRAR
+    290, PENIL
+    338, LAKEY
+
+
+[airport2]
+name = Liverpool John Lennon Airport
+code = GP
+runways =
+	rwy3, 09, N53.3329, W2.86602, 87, 7500, 200, 0, 59, 3, 87, 3, 267, 0, 0, 0, 0, 126.355
+
+climbaltitude = 4000
+
+airlines =
+    EZY, 8, a319/a320, Easy
+    EZY, 1, a32n, Easy
+    LOG, 3, at46/e135/e145, Logan, w
+    RYR, 8, b737, Ryanair, esw
+    RYR, 3, b738, Ryanair, esw
+    WZZ, 5, a21n/a320/a321, Wizzair, e
+    WUK, 1, a321, Wizz Go, e
+    G-EABC, 1, c162/c172/c182/c25a/c25b/c25c/c560/c680/c750/dh8a/dh8d/e110/e120/e50p/e55p/g280/gl5t/glf4/glf5/glf6/lj35/lj60/p208/p28b
+
+
+entrypoints =
+    008, CROFT
+    061, POL
+    081, DESIG
+    132, LESTA
+    166, PEDIG
+    211, MONTY
+    232, MONTY
+    277, MALUD
+    290, PENIL
+    330, CROFT
+
+
+# CONFIG
+[configurations]
+config1 =
+    0, rwy1, landrev
+    0, rwy2, startrev
+    7, rwy3, landstartrev
+#    12, rwy2, landstartrev
+
+config2 =
+    0, rwy1, start
+    0, rwy2, land
+    7, rwy3, landstart
+#    12, rwy1, landstart
+
+
+[departure1]
+runway = rwy1, rev
+route1 =
+    SANBA, Sanba 1 Romeo
+    N53.327778, W2.33
+    N53.326111, W2.391667
+    N53.271944, W2.450556
+    N53.139444, W2.334167
+    
+route2 =
+    KUXEM, Cooksem 1 Romeo
+    N53.327778, W2.33
+    N53.32, W2.476667
+    N53.301389, W2.583611
+    N53.253056, W2.679722
+    
+route3 =
+    EKLAD, Eklad 1 Romeo
+    N53.327778, W2.33
+    N53.32, W2.476667
+    N53.296667, W2.610556
+    N53.282778, W2.690556
+	N53.253889, W2.824722
+
+route4 =
+    MONTY, Monty 1 Romeo
+    N53.327778, W2.33
+    N53.32, W2.476667
+    N53.296667, W2.610556
+    N53.2875, W2.663889
+    N53.276111, W2.734444
+    N52.892778, W3.173889
+
+route5 =
+    POL, Pole Hill
+    N53.327778, W2.33
+    N53.465833, W2.473056
+    N53.743889, W2.103333
+
+route6 =
+    SONEX, Sonex
+    N53.327778, W2.33
+    N53.465833, W2.473056
+    N53.498056, W2.1725
+
+
+[departure2]
+runway = rwy2, rev
+route1 =
+    SANBA, Sanba 1 Yankee
+    N53.322222, W2.33
+    N53.326111, W2.391667
+    N53.271944, W2.450556
+    N53.139444, W2.334167
+
+route2 =
+    KUXEM, Cooksem 1 Yankee
+    N53.322222, W2.33
+    N53.32, W2.476667
+    N53.301389, W2.583611
+    N53.253056, W2.679722
+
+route3 =
+    EKLAD, Eklad 1 Yankee
+    N53.322222, W2.33
+    N53.32, W2.476667
+    N53.296667, W2.610556
+    N53.282778, W2.690556
+	N53.253889, W2.824722
+
+route4 =
+    MONTY, Monty 1 Yankee
+    N53.322222, W2.33
+    N53.32, W2.476667
+    N53.296667, W2.610556
+    N53.2875, W2.663889
+    N53.276111, W2.734444
+    N52.892778, W3.173889
+
+route5 =
+    POL, Pole Hill
+    N53.322222, W2.33
+    N53.465833, W2.473056
+    N53.743889, W2.103333
+
+route6 =
+    SONEX, Sonex
+    N53.322222, W2.33
+    N53.465833, W2.473056
+    N53.498056, W2.1725
+
+
+[departure3]
+runway = rwy1
+route1 =
+    ASMIM, Asmim
+    N53.378056, W2.219167
+    N53.471389, W2.421667
+    N53.446111, W2.653056
+
+route2 =
+    LISTO, Listo
+    N53.385556, W2.225556
+    N53.369167, W2.189722
+    N53.346389, W2.173333
+	N53.143333, W2.199167
+
+route3 =
+    MONTY, Monty 1 Siera
+    N53.378056, W2.219167
+    N53.471389, W2.421667
+    N53.391944, W3.134444
+    N52.892778, W3.173889
+
+route4 =
+    POL, Pole Hill
+    N53.425, W2.108056
+    N53.743889, W2.103333
+
+route5 =
+    DESIG, Desig
+    N53.527222, W1.892778
+
+
+[departure4]
+runway = rwy2
+route1 =
+    ASMIM, Asmim
+    N53.378056, W2.219167
+    N53.471389, W2.421667
+    N53.446111, W2.653056
+
+route2 =
+    LISTO, Listo
+    N53.385556, W2.225556
+    N53.369167, W2.189722
+    N53.346389, W2.173333
+    N53.143333, W2.199167
+
+route3 =
+    MONTY, Monty 1 Zulu
+    N53.378056, W2.219167
+    N53.471389, W2.421667
+    N53.391944, W3.134444
+    N52.892778, W3.173889
+
+route4 =
+    POL, Pole Hill
+    N53.425, W2.108056
+    N53.743889, W2.103333
+
+route5 =
+    DESIG, Desig
+    N53.527222, W1.892778
+
+
+# EGGP
+[departure5]
+runway = rwy3
+route1 =
+    BARTN, Barton 1 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   WAL R081 D16
+    N53.25.58, W002.41.34
+#   WAL R081 D20
+    N53.26.34, W002.34.58
+#   BARTN
+    N53.28.14, W002.25.41
+
+route2 =
+    POL, Pole Hill 5 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   POL R242 D26
+    N53.32.20, W002.44.48
+#   POL
+    N53.44.38, W002.06.12
+
+route3 =
+    REXAM, Rexham 2 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   POL R224 D30
+    N53.22.59, W002.41.07
+#   POL R224 D44
+    N53.12.49, W002.57.12
+#   POL R224 D50
+    N53.08.27, W003.04.04
+#   REXHAM
+    N53.04.00, W003.09.37
+
+route4 =
+    WAL, Wallasey 2 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   WAL R095 D11
+    N53.22.32, W002.49.43
+#   WAL
+    N53.23.31, W003.08.04
+
+route5 =
+    NANTI, Naan tea 2 Victor
+#   I-LVR R059 D1
+    N53.20.17, W002.50.02, 4000
+#   NANTI
+    N53.08.15, W002.34.01
+
+
+[departure6]
+runway = rwy3, rev
+route1 =
+    BARTN, Barton 1 Tango
+#   I-LQ R266 D1.5
+    N53.19.51, W002.53.27, 4000
+#   WAL R081 D10
+    N53.25.04, W002.51.30
+#   WAL R081 D16
+    N53.25.58, W002.41.34
+#   WAL R081 D20
+    N53.26.34, W002.34.58
+#   BARTN
+    N53.28.14, W002.25.41
+
+route2 =
+    POL, Pole Hill 4 Tango
+#   I-LQ R266 D1.5
+    N53.19.51, W002.53.27, 4000
+#   POL R242 D32
+    N53.29.28, W002.53.40
+#   POL R242 D26
+    N53.32.20, W002.44.48
+#   POL
+    N53.44.38, W002.06.12
+
+route3 =
+    REXAM, Rexham 2 Tango
+#   I-LQ R266 D8
+    N53.19.23, W003.04.18, 4000
+#   WAL R184 D6
+    N53.17.29, W003.08.46
+#   WAL R184 D15
+    N53.08.34, W003.09.49
+#   REXHAM
+    N53.04.00, W003.09.37
+
+route4 =
+    WAL, Wallasey 2 Tango
+#   I-LQ R266 D1.5
+    N53.19.51, W002.53.27, 4000
+#   WAL
+    N53.23.31, W003.08.04
+
+route5 =
+    NANTI, Naan tea 2 Tango
+#   I-LQ R266 D1.5
+    N53.19.51, W002.53.27, 4000
+#   WAL R128 D17
+    N53.13.01, W002.45.43
+#   NANTI
+    N53.08.15, W002.34.01
+
+
+# STAR - DAYNE
+[approach1]
+runway = rwy1
+beacon = LESTA
+
+route1 =
+    312
+#   LESTA
+    N52.740833, W1.071944
+#   TNT R132 D25
+    N52.774167, W1.158611, 20000
+#   DAYNE
+    N53.238611, W2.029167, 8000
+    end, hold
+
+
+[approach2]
+runway = rwy1, rev
+beacon = LESTA
+
+route1 =
+    312
+#   LESTA
+    N52.740833, W1.071944
+#   TNT R132 D25
+    N52.774167, W1.158611, 20000
+#   DAYNE
+    N53.238611, W2.029167, 8000
+    end, hold
+
+
+[approach3]
+runway = rwy2
+beacon = LESTA
+
+route1 =
+    312
+#   LESTA
+    N52.740833, W1.071944, 20000
+#   TNT R132 D25
+    N52.774167, W1.158611, 20000
+#   DAYNE
+    N53.238611, W2.029167, 8000
+    end, hold
+
+
+[approach4]
+runway = rwy2, rev
+beacon = LESTA
+
+route1 =
+    312
+#   LESTA
+    N52.740833, W1.071944
+#   TNT R132 D25
+    N52.774167, W1.158611, 20000
+#   DAYNE
+    N53.238611, W2.029167, 8000
+    end, hold
+
+
+# STAR - MIRSI
+[approach5]
+runway = rwy1
+beacon = MONTY
+
+route1 =
+    004
+#   MONTY
+    N52.892778, W3.173889, 20000
+#   REXAM
+    N53.066667, W3.160278, 18000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach6]
+runway = rwy1, rev
+beacon = MONTY
+
+route1 =
+    004
+#   MONTY
+    N52.892778, W3.173889, 20000
+#   REXAM
+    N53.066667, W3.160278, 18000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach7]
+runway = rwy2
+beacon = MONTY
+
+route1 =
+    004
+#   MONTY
+    N52.892778, W3.173889, 20000
+#   REXAM
+    N53.066667, W3.160278, 18000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach8]
+runway = rwy2, rev
+beacon = MONTY
+
+route1 =
+    004
+#   MONTY
+    N52.892778, W3.173889, 20000
+#   REXAM
+    N53.066667, W3.160278, 18000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach9]
+runway = rwy1
+beacon = MALUD
+
+route 1 =
+    096
+#   MALUD
+    N53.413333, W3.608333, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach10]
+runway = rwy1, rev
+beacon = MALUD
+
+route 1 =
+    096
+#   MALUD
+    N53.413333, W3.608333, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach11]
+runway = rwy2
+beacon = MALUD
+
+route 1 =
+    096
+#   MALUD
+    N53.413333, W3.608333, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach12]
+runway = rwy2, rev
+beacon = MALUD
+
+route 1 =
+    096
+#   MALUD
+    N53.413333, W3.608333, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach13]
+runway = rwy1
+beacon = IBRAR
+
+route 1 =
+    113
+#   IBRAR
+    N53.531667, W3.686389, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach14]
+runway = rwy1, rev
+beacon = IBRAR
+
+route 1 =
+    113
+#   IBRAR
+    N53.531667, W3.686389, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach15]
+runway = rwy2
+beacon = IBRAR
+
+route 1 =
+    113
+#   IBRAR
+    N53.531667, W3.686389, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach16]
+runway = rwy2, rev
+beacon = IBRAR
+
+route 1 =
+    113
+#   IBRAR
+    N53.531667, W3.686389, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach17]
+runway = rwy1
+beacon = PENIL
+
+route 1 =
+    127
+#   PENIL
+    N53.615833, W3.663611, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach18]
+runway = rwy1, rev
+beacon = PENIL
+
+route 1 =
+    127
+#   PENIL
+    N53.615833, W3.663611, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach19]
+runway = rwy2
+beacon = PENIL
+
+route 1 =
+    127
+#   PENIL
+    N53.615833, W3.663611, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+[approach20]
+runway = rwy2, rev
+beacon = PENIL
+
+route 1 =
+    127
+#   PENIL
+    N53.615833, W3.663611, 17000
+#   WALLASEY
+    N53.391944, W3.134444, 15000, 270
+#   MIRSI
+    N53.538056, W2.711667, 14000, 230
+    end, hold
+
+
+# STAR - ROSUN (East)
+[approach21]
+runway = rwy1
+beacon = GOLES
+
+route 1 =
+    278
+#   GOLES
+    N53.608056, W1.083333, 17000
+#   POL
+    N53.743889, W2.103333, 10000, 250
+#   BURNI
+    N53.727222, W2.517778, 8000
+#   Direct North of BURNI to enforce right turn into ROSUN
+    N53.793889, W2.517778
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach22]
+runway = rwy1, rev
+beacon = GOLES
+
+route 1 =
+    278
+#   GOLES
+    N53.608056, W1.083333, 17000
+#   POL
+    N53.743889, W2.103333, 10000, 250
+#   BURNI
+    N53.727222, W2.517778, 8000
+#   Direct North of BURNI to enforce right turn into ROSUN
+    N53.793889, W2.517778
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach23]
+runway = rwy2
+beacon = GOLES
+
+route 1 =
+    278
+#   GOLES
+    N53.608056, W1.083333, 17000
+#   POL
+    N53.743889, W2.103333, 10000, 250
+#   BURNI
+    N53.727222, W2.517778, 8000
+#   Direct North of BURNI to enforce right turn into ROSUN
+    N53.793889, W2.517778
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach24]
+runway = rwy2, rev
+beacon = GOLES
+
+route 1 =
+    278
+#   GOLES
+    N53.608056, W1.083333, 17000
+#   POL
+    N53.743889, W2.103333, 10000, 250
+#   BURNI
+    N53.727222, W2.517778, 8000
+#   Direct North of BURNI to enforce right turn into ROSUN
+    N53.793889, W2.517778
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+# STAR - ROSUN (North)
+[approach25]
+runway = rwy1
+beacon = GASKO
+
+route 1 =
+    191
+#   GASKO
+    N54.224722, W1.955833, 20000
+#   BEGAM
+    N54.156944, W2.120833
+#   SETEL
+    N54.0125, W2.435833, 14000
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach26]
+runway = rwy1, rev
+beacon = GASKO
+
+route 1 =
+    191
+#   GASKO
+    N54.224722, W1.955833, 20000
+#   BEGAM
+    N54.156944, W2.120833
+#   SETEL
+    N54.0125, W2.435833, 14000
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach27]
+runway = rwy2
+beacon = GASKO
+
+route 1 =
+    191
+#   GASKO
+    N54.224722, W1.955833, 20000
+#   BEGAM
+    N54.156944, W2.120833
+#   SETEL
+    N54.0125, W2.435833, 14000
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach28]
+runway = rwy2, rev
+beacon = GASKO
+
+route 1 =
+    191
+#   GASKO
+    N54.224722, W1.955833, 20000
+#   BEGAM
+    N54.156944, W2.120833
+#   SETEL
+    N54.0125, W2.435833, 14000
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach29]
+runway = rwy1
+beacon = LAKEY
+
+route 1 =
+    148
+#   LAKEY
+    N54.238889, W2.981111, 20000
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach30]
+runway = rwy1, rev
+beacon = LAKEY
+
+route 1 =
+    148
+#   LAKEY
+    N54.238889, W2.981111, 20000
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach31]
+runway = rwy2
+beacon = LAKEY
+
+route 1 =
+    148
+#   LAKEY
+    N54.238889, W2.981111, 20000
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+[approach32]
+runway = rwy2, rev
+beacon = LAKEY
+
+route 1 =
+    148
+#   LAKEY
+    N54.238889, W2.981111, 20000
+#   ROSUN
+    N53.668889, W2.349167, 7000, 230
+    end, hold
+
+
+# STAR - KEGUN
+[approach33]
+runway = rwy3, rev
+beacon = MONTY
+
+route 1 =
+    004
+#   MONTY
+    N52.53.34, W003.10.26, 16000
+#   KEGUN
+    N53.11.33, W003.09.01, 12000
+#   TORGO
+    N53.07.57, W003.15.59, 8000
+#   KEGUN
+    N53.11.33, W003.09.01, 7000, 210
+    end, hold
+
+
+[approach34]
+runway = rwy3, rev
+beacon = PEDIG
+
+route 1 =
+    307
+#   PEDIG
+    N52.44.48, W001.43.10, 16000
+#   NANTI
+    N53.08.15, W002.34.01, 10000
+#   KEGUN
+    N53.11.33, W003.09.01
+#   TORGO
+    N53.07.57, W003.15.59, 8000
+#   KEGUN
+    N53.11.33, W003.09.01, 7000, 210
+    end, hold
+
+
+[approach35]
+runway = rwy3, rev
+beacon = LESTA
+
+route 1 =
+    312
+#   LESTA
+    N52.44.27, W001.04.19, 20000
+#   TNT
+    N53.03.14, W001.40.12, 15000
+#   NANTI
+    N53.08.15, W002.34.01, 10000
+#   KEGUN
+    N53.11.33, W003.09.01
+#   TORGO
+    N53.07.57, W003.15.59, 8000
+#   KEGUN
+    N53.11.33, W003.09.01, 7000, 210
+    end, hold
+
+
+# STAR - TIPOD
+[approach36]
+runway = rwy3
+beacon = MONTY
+
+route 1 =
+    004
+#   MONTY
+    N52.53.34, W003.10.26, 16000
+#   KEGUN
+    N53.11.33, W003.09.01, 13000
+#   WAL
+    N53.23.31, W003.08.04, 10000
+#   BAROS
+    N53.24.22, W003.26.43, 8000
+#   TIPOD
+    N53.26.08, W003.17.05, 7000, 210
+    end, hold
+
+
+[approach37]
+runway = rwy3
+beacon = PEDIG
+
+route 1 =
+    307
+#   PEDIG
+    N52.44.48, W001.43.10, 16000
+#   NANTI
+    N53.08.15, W002.34.01, 10000
+#   KEGUN
+    N53.11.33, W003.09.01
+#   WAL
+    N53.23.31, W003.08.04
+#   BAROS
+    N53.24.22, W003.26.43, 8000
+#   TIPOD
+    N53.26.08, W003.17.05, 7000, 210
+    end, hold
+
+
+[approach38]
+runway = rwy3
+beacon = LESTA
+
+route 1 =
+    312
+#   LESTA
+    N52.44.27, W001.04.19, 20000
+#   TNT
+    N53.03.14, W001.40.12, 15000
+#   NANTI
+    N53.08.15, W002.34.01, 10000
+#   KEGUN
+    N53.11.33, W003.09.01
+#   WAL
+    N53.23.31, W003.08.04
+#   BAROS
+    N53.24.22, W003.26.43, 8000
+#   TIPOD
+    N53.26.08, W003.17.05, 7000, 210
+    end, hold
+
+
+[approach39]
+runway = rwy3
+beacon = PENIL
+
+route 1 =
+    137
+#   PENIL
+    N53.36.57, W003.39.49, 17000
+#   RUGER
+    N53.28.58, W003.26.52, 10000
+#   TIPOD
+    N53.26.08, W003.17.05, 7000, 210
+    end, hold
+
+
+[approach40]
+runway = rwy3
+beacon = MALUD
+
+route 1 =
+    084
+#   MALUD
+    N53.28.58, W003.26.52, 10000
+#   TIPOD
+    N53.26.08, W003.17.05, 7000, 210
+    end, hold
+
+
+[approach41]
+runway = rwy3
+beacon = CROFT
+
+route 1 =
+    058
+#   CROFT
+    N53.37.37, W002.32.20, 15000
+#   WAL
+    N53.23.31, W003.08.04, 10000
+#   BAROS
+    N53.24.22, W003.26.43, 8000
+#   TIPOD
+    N53.26.08, W003.17.05, 7000, 210
+    end, hold
+
+
+[approach42]
+runway = rwy3
+beacon = POL
+
+route 1 =
+    061
+#   POL
+    N53.44.38, W002.06.12, 17000
+#   WAL
+    N53.23.31, W003.08.04, 10000
+#   BAROS
+    N53.24.22, W003.26.43, 8000
+#   TIPOD
+    N53.26.08, W003.17.05, 7000, 210
+    end, hold
+
+
+[approach43]
+runway = rwy3
+beacon = DESIG
+
+route 1 =
+    081
+#   DESIG
+    N53.31.38, W001.53.34, 17000
+#   WAL
+    N53.23.31, W003.08.04, 10000
+#   BAROS
+    N53.24.22, W003.26.43, 8000
+#   TIPOD
+    N53.26.08, W003.17.05, 7000, 210
+    end, hold
+
+
+# APPROACH - EGGP 27
+[approach44]
+runway = rwy3, rev
+beacon = LPL
+
+route 1 =
+    086
+#   LPL
+    N53.20.23, W002.43.30, 6000, 185
+#   LPL R059 D9.8
+    N53.25.25, W002.29.25, 4000
+#   LPL R086 D9
+    N53.21.00, W002.28.28, 3500
+#   Intercept 9.3NM @ 3000'
+    9.3, 3000, 185
+
+
+# APPROACH - EGGP 9
+[approach45]
+runway = rwy3
+beacon = LPL
+
+route 1 =
+    086
+#   LPL
+    N53.20.23, W002.43.30, 6000, 220
+#   LPL R279 D10.7
+    N53.22.02, W003.01.12, 4000
+#   LPL R266 D10
+    N53.19.40, W003.00.12, 3000
+#   Intercept 7.5NM @ 2500'
+    7.5, 2500, 220
+
+
+# APPROACH - EGCC 23R RNAV
+[approach46]
+runway = rwy1, rev
+beacon = TINVA,  N53.32.57, W002.04.49, 0, Tinva
+
+route 1 =
+    142
+#   TINVA
+    N53.32.57, W002.04.49, 3500, 185
+#   C23LI
+    N53.29.22, W002.00.07
+#   Intercept C23LF
+    9.1, 3000, 185
+
+
+[approach47]
+runway = rwy1, rev
+beacon = OSNAP,  N53.25.12, W001.54.21, 0, Osnap
+
+route 1 =
+    322
+#   OSNAP
+    N53.25.12, W001.54.21, 3500, 185
+#   C23LI
+    N53.29.22, W002.00.07
+#   Intercept C23LF
+    9.1, 3000, 185
+
+
+[approach48]
+runway = rwy2
+beacon = MCT
+
+route 1 =
+    232
+#   MCT
+    N53.21.25, W002.15.44, 3500, 210
+#   MCT R218 D14
+    N53.10.23, W002.30.06, 3000
+#   Intercept 11NM @ 3000'
+    11, 3000, 210

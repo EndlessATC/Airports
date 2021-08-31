@@ -1,4 +1,4 @@
-# EDDM v1.2
+# EDDM v1.4
 # Munich Airport "Franz Josef Strauß" in the south of Germany.
 
 [airspace]
@@ -8,11 +8,15 @@ center = N48.353802, E11.7861
 magneticvar = 1.596
 floor = 3700
 descendaltitude = 11000
-ceiling = 13000
+ceiling = 12500
 above = 19000
 transitionaltitude = 6000
 usa = false
 speedrestriction = 2, 250
+name = munich radar, munich radar
+handoff =
+	360, München Radar, munich radar, 128.625
+	180, München Radar, munich radar, 132.405
 
 boundary = 
 	N48.705608, E11.9316
@@ -158,8 +162,8 @@ line2 =
 name = Munich Airport
 code = EDDM
 runways =
-	rwyn, 08L, N48.3628, E11.7676, 83.4, 13123, 0, 0, 1467
-	rwys, 08R, N48.3407, E11.751, 83.4, 13123, 0, 0, 1486
+	rwyn, 08L, N48.3628, E11.7676, 83.4, 13123, 0, 0, 1467, 3, 0, 3, 0, 0, 0, 0, 0, 118.705
+	rwys, 08R, N48.3407, E11.751, 83.4, 13123, 0, 0, 1486, 3, 0, 3, 0, 0, 0, 0, 0, 120.505
 
 entrypoints = 
 	40, landu
@@ -342,14 +346,6 @@ route4 =
 # DM053, AMPEG, MERSI
 
 route5 = 
-	OBA6S, obaxa six sierra
-	N48.337669, E11.709431
-	N48.230222, E11.706375
-	N48.094592, E11.739131
-	N48.012222, E11.665556
-# DM049, DM068, DM069, OBAXA
-
-route6 = 
 	ROT3S, rotax three sierra
 	N48.337669, E11.709431
 	N48.287569, E11.708006
@@ -358,7 +354,7 @@ route6 =
 	N47.977450, E12.384081
 # DM049, DM050, OTT, LAKOL, ROTAX
 
-route7 = 
+route6 = 
 	TUL3S, tulsi six sierra
 	N48.337669, E11.709431
 	N48.287569, E11.708006
@@ -366,7 +362,7 @@ route7 =
 	N47.701608, E11.788758
 # DM049, DM050, OTT, TULSI
 
-route8 = 
+route7 = 
 	TUR7S, turbu seven sierra
 	N48.337669, E11.709431
 	N48.287569, E11.708006
@@ -374,7 +370,7 @@ route8 =
 	N47.914083, E11.948703
 # DM049, DM050, OTT, TURBU
 
-route9 = 
+route8 = 
 	VAV3S, vavor three sierra
 	N48.337669, E11.709431
 	N48.287569, E11.708006
@@ -987,7 +983,7 @@ route1 =
 	N48.068056, E11.350000
 	N48.238289, E11.555086
 	N48.302456, E12.409128
-	end, 260
+	end, 080
 # BETOS, DM452, DM459
 
 [approach49]

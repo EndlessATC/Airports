@@ -1,0 +1,58 @@
+
+# KRVL by Lemuria#0685
+# General aviation airport
+# V0.1 early alpha
+#####################
+# sources at bottom #
+#####################
+
+[airspace]
+radius = 27
+ceiling = 7500
+floor = 2000
+elevation = 818
+center = N40.40.39, W77.37.37
+usa = true
+beacons =
+#rwy 06 chart beacons
+ COFAX, N40.18.46.730, W77.58.00.990
+ STROH, N40.36.56.310, W77.43.09.060
+ LUCKS, N40.31.21.930, W77.51.27.300
+ OTUCA, N40.35.23.920, W77.45.26.960
+ EYOCE, N40.35.07.030, W77.55.47.700
+#rwy 24 chart beacons
+ OCPUC, N40.49.54.310, W77.43.40.920
+ UZAWI, N40.53.40.470, W77.28.00.920
+ VEHSY, N40.46.07.980, W77.19.21.410
+ EZUCE, N40.45.53.290, W77.29.44.150
+ COMOL, N40.44.00.870, W77.32.33.390
+
+[airport1]
+name = Mifflin County Airport
+code = KRVL
+entrypoints =
+ 045, LUCKS
+ 090, LUCKS
+ 135, LUCKS
+ 180, LUCKS
+ 235, LUCKS
+ 270, LUCKS
+ 315, LUCKS
+ 360, LUCKS
+runways =
+ rwya, 6, 0, 0, 059, 5001
+airlines =
+# general aviation, common
+ n-123ab, 100, c172/c175/c162/c120/c140/c180/c182/c185/c188
+ n-1234a, 40,  c172
+ c-abcd,  10,  c175/c162
+ c-123ab, 7,   c162
+ n-123ab, 1,   glf5
+
+# # #
+# sources
+# rwy 06 chart
+# https://aeronav.faa.gov/d-tpp/2107/05979R6.PDF
+## miscellaneous ##
+# airnav listing
+# https://www.airnav.com/airport/KRVL

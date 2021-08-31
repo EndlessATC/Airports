@@ -1,0 +1,3864 @@
+# See the example.txt airport for all possible sections and items to add to this file.
+
+[airspace]
+radius = 55			; airspace radius in NM
+zoom = 7.0 			; default zoom level, increase to zoom in
+elevation = 13 			; ground altitude in feet
+floor = 1800 			; minimum selectable altitude
+descendaltitude = 12000 	; minimum initial altitude for arrivals
+ceiling = 13000 		; maximum selectable altitude
+above = 14000 			; maximum departure altitude when SID is enabled (must be above ceiling)
+transitionaltitude = 18000	; highest altitude displayed in feet instead of flight level
+speedrestriction = 20, 230 	; radius in NM, and speed in knots
+usa = true			; American-style callsign pronunciation and runway names
+metric = false			; display altitudes in metres instead of feet
+separation = 3			; minimum allowed distance between aircraft in NM
+center = N42.36429977, W71.00520325
+magneticvar = -14.364
+beacons =
+	BOS, N42.35740, W70.98950, 0, Boston
+	IMR, N42.09790, W70.67530, 0, Marshfield
+	LWM, N42.74040, W71.09480, 0, Lawrence
+	IHM, N42.00280, W71.19710, 0, Mansfield
+	PYM, N41.84750, W70.80270, 0, Plymouth
+	PSM, N43.08446, W70.83199, 0, pease
+	ENE, N43.42567, W70.61353, 0, kennebunk
+	MHT, N42.86850, W71.36950, 0, Manchester
+	PVC, N42.06890, W70.22360, 0, Provincetown
+	PVD, N41.72430, W71.42960, 0, Providence
+	PSM, N43.08450, W70.83200, 0, Pease
+	PUT, N41.95550, W71.84410, 0, Putnam
+	FMH, N41.73260, W70.44090, 0, Otis
+	LFV, N42.01720, W70.03730, 0, Marconi
+	GDM, N42.54600, W72.05820, 0, Gardner
+	ACK, N41.28189, W70.02671, 0, nantucket
+	SEY, N41.16744, W71.57609, 0, sandy point
+	MVY, N41.39621, W70.61272, 0, martha's vineyard
+
+# BOS beacons
+    AADMS, N42.35.07.53, W071.19.08.13, aadms
+    ADDDA, N42.36.20.25, W070.46.55.46, addda
+    ANSLY, N41.55.25.95, W070.58.18.81, ansly
+    AUTUM, N42.33.01.17, W071.35.32.36, autum
+    AWLIN, N41.33.22.48, W071.59.56.97, awlin
+    AYBEE, N42.26.26.01, W070.31.40.48, aybee
+    BADCA, N42.36.27.95, W071.42.43.21, badca
+    BANKI, N41.35.44.39, W071.52.03.63, banki
+    BBOGG, N42.05.56.98, W070.41.09.06, bbogg
+    BECHH, N42.20.12.83, W070.50.16.49, bechh
+    BEREI, N42.00.32.09, W070.48.20.74, berei
+    BOXRS, N42.06.16.24, W071.04.17.45, boxrs
+    BRGIT, N42.33.25.12, W070.41.52.30, brgit
+    BRODI, N42.23.12.97, W070.55.18.28, brodi
+    BRONC, N42.30.53.93, W071.43.21.61, bronc
+    CHERS, N42.24.18.51, W070.55.47.58, chers
+    CRADL, N42.00.36.88, W070.45.47.55, cradl
+    ERNEI, N41.56.41.29, W071.12.30.68, ernei
+    ETHYN, N42.19.33.13, W070.33.19.59, ethyn
+    EURRO, N42.39.02.67, W070.05.16.55, eurro
+    FERNZ, N41.50.35.40, W069.46.53.11, fernz
+    FLUTI, N42.24.44.74, W070.53.11.93, fluti
+    FOSTY, N41.50.35.46, W071.38.31.34, fosty
+    GGABE, N42.16.29.28, W070.57.03.28, ggabe
+    GOSHI, N42.02.11.09, W071.09.47.14, goshi
+    GRGIO, N42.35.09.36, W070.33.54.40, grgio
+    GRIFI, N42.18.42.17, W070.56.05.73, grifi
+    HEFTY, N41.54.19.19, W071.33.50.39, hefty
+    HNOVR, N42.32.07.43, W070.49.47.85, hnovr
+    HOKDU, N42.20.43.93, W070.33.55.81, hokdu
+    HRRIS, N42.27.40.77, W071.09.21.69, hrris
+    ISLAY, N42.29.46.42, W071.03.39.16, islay
+    IYANA, N42.03.16.48, W070.49.40.68, iyana
+    JAYNA, N41.49.15.90, W071.12.13.60, jayna
+    JEWIT, N41.41.45.92, W071.49.33.18, jewit
+    JFUND, N42.35.11.34, W071.49.15.93, jfund
+    JOBEE, N42.10.41.96, W070.59.32.15, jobee
+    JOODY, N41.47.07.37, W071.17.15.23, joody
+    KLEBB, N42.06.30.28, W070.36.58.08, klebb
+    KRANN, N41.51.18.69, W071.07.24.46, krann
+    LEEZI, N42.41.02.21, W070.44.36.30, leezi
+    LOBBY, N42.30.15.53, W071.36.34.04, lobby
+    LONEY, N42.28.55.22, W069.54.42.21, loney
+    LWLND, N42.34.56.56, W071.01.06.27, lwlnd
+    NUNZO, N42.01.51.20, W071.12.13.36, nunzo
+    ONDEC, N42.32.47.83, W072.03.56.71, ondec
+    OOSHN, N42.36.05.44, W070.13.52.37, ooshn
+    PLGRM, N42.23.15.44, W070.51.19.79, plgrm
+    PROVI, N41.43.25.46, W071.25.54.17, provi
+    PTRIK, N42.31.38.24, W070.49.14.28, ptrik
+    PUDJJ, N42.28.48.58, W070.17.48.68, pudjj
+    RDHOK, N42.29.36.10, W071.03.20.94, rdhok
+    REVER, N42.26.27.48, W070.57.41.31, rever
+    ROBUC, N41.40.44.11, W071.35.06.42, robuc
+    RODEE, N42.35.58.22, W069.56.54.94, rodee
+    RUIZE, N41.28.45.63, W072.12.33.94, ruize
+    SCITU, N42.16.43.48, W070.45.38.19, scitu
+    SEHAG, N42.28.04.94, W070.47.06.19, sehag
+    SOBAH, N42.14.14.45, W070.08.43.28, sobah
+    SOFEE, N41.50.35.42, W071.15.32.13, sofee
+    SPYSD, N42.26.58.45, W071.01.37.25, spysd
+    SSAAM, N42.37.55.51, W071.23.09.86, ssaam
+    TAALE, N42.37.34.55, W070.46.18.74, taale
+    TKMAN, N42.34.54.97, W071.10.51.19, tkman
+    TTERI, N42.31.46.46, W070.30.54.94, tteri
+    WAATR, N42.27.28.16, W070.49.31.96, waatr
+    WACHU, N42.39.08.71, W071.28.51.95, wachu
+    WINTA, N42.30.12.45, W071.21.59.67, winta
+    WOONS, N41.57.02.07, W071.30.25.34, woons
+
+# BOS dep beacons
+    CLAWW, N42.23.25.27, W070.48.47.67, claw
+    HYLND, N42.46.51.12, W071.16.31.08, hylund
+    SSOXS, N41.50.12.62, W070.44.46.26, socks
+    BRUWN, N41.36.09.68, W070.13.45.81, bruwn
+    LBSTA, N42.48.00.00, W070.36.48.70, labsta
+    PATSS, N42.05.20.66, W071.42.39.03, patss
+    REVSS, N42.20.43.57, W071.48.37.07, revss
+    TJAYY, N42.18.18.19, W070.57.37.75, tjay
+    CELTK, N42.15.59.05, W070.06.12.33, celtik
+    BLZZR, N42.13.02.39, W071.45.36.59, blazer
+
+
+# BVY beacons
+    BCATS, N42.29.45.89, W071.50.33.89, bcats
+    BLATT, N41.49.37.10, W072.00.54.94, blatt
+    DREEM, N42.21.42.65, W071.44.34.13, dreem
+    DVANY, N41.51.44.56, W072.18.11.25, dvany
+    EEGUL, N42.37.31.23, W073.08.16.51, eegul
+    EXXRO, N42.34.38.27, W071.11.35.48, exxro
+    GASSE, N42.15.46.19, W071.51.17.51, gasse
+    GOLEE, N42.29.43.42, W071.38.36.68, golee
+    GRAYM, N42.06.04.27, W072.01.53.49, graym
+    HAUKS, N42.31.13.98, W072.15.26.78, hauks
+    HFD, N41.38.27.98, W072.32.50.71, hartford
+    MOGUL, N41.43.22.76, W072.00.32.87, mogul
+    ORW, N41.33.23.05, W071.59.57.67, norwich
+    PAISN, N41.50.22.56, W072.07.02.55, paisn
+    RIKAH, N42.33.05.03, W071.25.07.23, rikah
+    TERIA, N42.36.19.75, W072.57.33.67, teria
+    WANLA, N42.25.09.39, W071.39.40.53, wanla
+    WIPOR, N41.39.23.07, W072.10.37.67, wipor
+    WORIA, N42.29.47.18, W072.04.04.95, woria
+    ZELKA, N42.29.41.90, W071.33.12.27, zelka
+
+
+line1 =
+	N41.46675, W71.39307
+	N41.48525, W71.36533
+	N41.54229, W71.35449
+	N41.57183, W71.36431
+	N41.57056, W71.38398
+	N41.51504, W71.40342
+	N41.46675, W71.39307
+
+line2 =
+	N41.44854, W70.67373
+	N41.37358, W70.76050
+
+line3 =
+	N41.37632, W70.50991
+	N41.41479, W70.52534
+	N41.45723, W70.61602
+	N41.44854, W70.67373
+
+line4 =
+	N41.46938, W71.34624
+	N41.46460, W71.29092
+	N41.49194, W71.24141
+	N41.65430, W71.23203
+	N41.63823, W71.26445
+	N41.62002, W71.28018
+	N41.56050, W71.30747
+	N41.50630, W71.31816
+	N41.46938, W71.34624
+
+line5 =
+	N41.39746, W70.04121
+	N41.37441, W70.04360
+
+line6 =
+	N41.37896, W71.52285
+	N41.45371, W71.44380
+	N41.63330, W71.42656
+	N41.70273, W71.36367
+	N41.79531, W71.39014
+	N41.78623, W71.35918
+	N41.76226, W71.33062
+	N41.71987, W71.31074
+	N41.68125, W71.27109
+	N41.70654, W71.23379
+	N41.74404, W71.17832
+	N41.74570, W71.14873
+	N41.64111, W71.20430
+	N41.51641, W71.18843
+	N41.48940, W71.16855
+	N41.53809, W71.07979
+	N41.54854, W70.97422
+	N41.71484, W70.70112
+	N41.71011, W70.66646
+	N41.60811, W70.65537
+	N41.55830, W70.66807
+	N41.53423, W70.65713
+	N41.58247, W70.48135
+	N41.62690, W70.40469
+	N41.67734, W70.05952
+	N41.68398, W69.98677
+	N41.67715, W69.94863
+	N41.71045, W69.93384
+	N41.80786, W69.94160
+	N41.96128, W69.97788
+	N42.07832, W70.10894
+	N42.09712, W70.15986
+	N42.10103, W70.20352
+	N42.09121, W70.24106
+	N42.07104, W70.23652
+	N42.03511, W70.19624
+	N42.06279, W70.17256
+	N42.03013, W70.11025
+	N41.97969, W70.09004
+	N41.87231, W70.00610
+	N41.82617, W70.00142
+	N41.76987, W70.13501
+	N41.72896, W70.29546
+	N41.75728, W70.42666
+	N41.80332, W70.51470
+	N41.93862, W70.54893
+	N41.98706, W70.65615
+	N42.02158, W70.64521
+	N42.04043, W70.61768
+	N42.22886, W70.73828
+	N42.26494, W70.81797
+	N42.30000, W70.99673
+	N42.33110, W71.04619
+	N42.43198, W70.93047
+	N42.49663, W70.87090
+	N42.55259, W70.83115
+	N42.57036, W70.75186
+	N42.61665, W70.66143
+	N42.62324, W70.61294
+	N42.64971, W70.60415
+	N42.67178, W70.62397
+	N42.67397, W70.65483
+	N42.66460, W70.69687
+	N42.66929, W70.73569
+	N42.72124, W70.78135
+	N42.77402, W70.80029
+	N42.82534, W70.82905
+	N42.87676, W70.80610
+	N42.94058, W70.77764
+	N43.07002, W70.73311
+	N43.10933, W70.69116
+	N43.13442, W70.64233
+	N43.34883, W70.52070
+
+[airport1]
+##############################################################
+
+name = Boston Logan International Airport
+code = KBOS
+
+runways =
+	BOS_04L_22R, 4L, N42.358013, W71.014330, 19.7, 7864, 0, 819, 17, 3, 25.6
+	BOS_04R_22L, 4R, N42.351071, W71.011809, 19.7, 10006, 1155, 1199, 19, 3, 19.6
+	BOS_09_27, 9, N42.355775, W71.012877, 76.6, 7001, 0, 0, 17, 3, 76.6
+	BOS_14_32, 14, N42.356614, W71.023254, 125.7, 5000, 0, 0, 16, 2.91, 125.6, 0, 316.6
+	BOS_15L_33R, 15L, N42.373203, W71.008602, 135.2, 2557, 0, 0, 15, 3, 135.2
+	BOS_15R_33L, 15R, N42.374284, W71.017907, 135.2, 10083, 882, 0, 19, 3, 134.6, 3, 316.6
+	BOS_22L_LAHSO, 22L, N42.376915, W70.999296, 199.7, 6400, 1199, 1155, 19, 3, 199.6
+
+climbaltitude = 5000
+
+airlines = jbu, 10, bcs3/a320/a321/a21n/e190, JetBlue, nsw
+	aal, 4, a319/a320/a321/a21n/b734/b738/b38m/b752/e190/md81/md82/md83, american, sw
+	aal, 1, a332/a333/b752/b762/b763/b772/b77w/b788/b789, american, e
+	ual, 2, a319/a320/b735/b737/b738/b739/b39m/b3xm/b752/b753, united, sw
+	eny, 2, e140/e145/e170/e175, envoy, s
+	jia, 2, crj7/crj9, blue streak, sw
+	dal, 2, bcs1/bcs3/a319/a320/a321/b737/b738/b739/b752/b753/md88/md90, delta, sw
+	dal, 1, a332/a333/a339/a359/b744/b763/b764/b772/b77l, delta, e
+	pdt, 1, e145/dh8a/dh8c, piedmont, nsw
+	edv, 1, crj2/crj7/crj9, endeavor, sw
+	uca, 1, b190/dh8b/dh8c/e145/e45x, commutair, sw
+	rpa, 1, e170/e75s/e75l, brickyard, sw
+	aza, 1, a332/b763/b772/b77w, Alitalia, e
+	ein, 1, a21n/a332/a333/b752, shamrock, e
+	aca, 1, bcs3/a319/a320/a321/b738/b38m/e190, air canada, w
+	jza, 1, crj2/crj9/dh8a/dh8c/dh8d, jazz, w
+	skv, 1, e75s/e75l, maple, w
+	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, Alaska, w
+	btq, 1, pc12, boutique, s
+	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, s
+	cpa, 1, a333/a343/a359/a35k/b744/b772/b773/b77w, Cathay, w
+	baw, 1, a35k/a388/b744/b772/b77w/b788/b789/b78x, speedbird, e
+	afr, 1, a332/a343/a359/b744/b772/b77w/b789, air france, e
+	rzo, 1, a21n, azores, e
+	kap, 1, c402, cair, n
+	tcv, 1, b752, cabo verde, e
+	hal, 1, a332/b763, hawaiian, w
+	ice, 1, b38m/b39m/b752/b753/b763, ice air, e
+	fft, 1, a318/a319/a320/a20n/a321/a21n, frontier flight, w
+	swa, 3, b733/b735/b737/b37m/b738/b38m, southwest, sw
+	chh, 1, a332/a333/a346/a359/b788/b789, Hainan, w
+	poe, 1, dh8d, porter, w
+	sil, 1, at46/at76/sf34, silver wings, n
+	jal, 1, a359/b744/b772/b773/b77w/b788/b789, japan air, w
+	fdx, 1, a306/a310/b721/b722/b752/b763/b77l/at43/at72/at76/dc10/md11, fed ex, w
+	ups, 1, a306/b752/b763/b744/b748/md11, u p s, w
+	gti, 1, b738/b762/b763/b744/b748, giant, w
+	ibe, 1, a21n/a332/a333/a343/a346/a359, iberia, e
+	ely, 1, b744/b772/b788/b789, el al, e
+	klm, 1, a332/a333/b744/b772/b77w/b789/b78x/md11, klm, e
+	cmp, 1, b738/b38m/b39m/b3xm, copa, s
+	tam, 1, a319/a320/a20n/a321/a21n, tam, s
+	nrs, 1, b788/b789, red nose, e
+	sas, 1, a333/a343/a359, scandinavian, e
+	eal, 1, b762/b763, eastern, s
+	bos, 1, a332, mistral, e
+	uae, 1, a332/a343/a345/a388/b772/b77l/b773/b77w, emirates, e
+	dlh, 1, a333/a343/a346/a359/b744/b748, Lufthansa, e
+	nks, 2, a319/a19n/a320/a20n/a321/a21n, spirit wings, s
+	swr, 1, a332/a333/a343/b77w, swiss, e
+	qtr, 1, a332/a333/a346/a359/a35k/b77l/b77w/b788/b789, qatari, e
+	ram, 1, b788/b789, royal air maroc, e
+	kal, 1, b77w/b744/b748/a332/b772/b773/b789/a333, korean air, w
+	scx, 1, b737/b738/b734, sun country, w
+	thy, 1, a332/a333/a343/a359/b77w/b789, turkish, e
+	tap, 1, a21n/a332/a333/a339/a343, air portugal, e
+	gpd, 1, pc12/c25b, good speed, s
+	vir, 1, a332/a333/a339/a343/a346/a35k/b744/b789, virgin, e
+	wja, 1, b736/b737/b37m/b738/b38m/b3xm, west jet, w
+	wen, 1, dh8d, encore, w
+	cal, 1, b744/b77l, dynasty, w
+	sva, 1, b742/b743/b744/b748/b77l/md11, saudia, e
+	cks, 1, b742/b744/b763/b77l, connie, sw
+	lco, 1, b763, lan cargo, s
+	eva, 1, b744/b77l/md11, eva, w
+# special
+	bel, 1, a332/a333, beeline, n
+	csa, 1, a333, csa, n
+	plm, 1, a332/a333/b744, pullman, n
+	bvn, 1, c208, show me, s
+	nos, 1, b763/b789, moon flower, n
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, sw
+	jdi, 1, cl30/cl35/e135/gl5t/glex/glf6, jedi, n
+	ujc, 1, e135/j328, ultimate, s
+
+
+sids =
+    SSOXS, N41.836839, W70.746183, socks
+    BLZZR, N42.217331, W71.760164, blazer
+    BRUWN, N41.602689, W70.229392, bruwn
+    CELTK, N42.266403, W70.103425, celtik
+    HYLND, N42.780867, W71.275300, hyland
+    LBSTA, N42.800000, W70.613528, labsta
+    PATSS, N42.089072, W71.710842, patss
+    REVSS, N42.345436, W71.810297, revss
+
+entrypoints =
+    280, GDM
+    180, PVD
+    320, JFUND
+    060, EURRO
+    240, ONDEC
+    210, ROBUC
+
+[airport2]
+# For prop instructions
+name = Boston Logan International Airport
+code = BO
+
+runways =
+    BOSP_04L_22R, 4L, N42.358013, W71.014330, 19.7, 7864, 0, 819, 17, 3, 25.6
+	BOSP_04R_22L, 4R, N42.351071, W71.011809, 19.7, 10006, 1155, 1199, 19, 3, 19.6
+	BOSP_09_27, 9, N42.355775, W71.012877, 76.6, 7001, 0, 0, 17, 3, 76.6
+	BOSP_14_32, 14, N42.356614, W71.023254, 125.7, 5000, 0, 0, 16, 2.91, 125.6, 0, 316.6
+	BOSP_15L_33R, 15L, N42.373203, W71.008602, 135.2, 2557, 0, 0, 15, 3, 135.2
+	BOSP_15R_33L, 15R, N42.374284, W71.017907, 135.2, 10083, 882, 0, 19, 3, 134.6, 3, 316.6
+	BOSP_22L_LAHSO, 22L, N42.376915, W70.999296, 199.7, 6400, 1199, 1155, 19, 3, 199.6
+
+climbaltitude = 3000
+
+airlines =
+	n-123ab, 2, c172/p28a/c182
+
+sids =
+	bosox,	N42.201944,	W71.627778
+	burdy,	N41.955278,	W70.951944
+	dunkk,	N42.081667,	W70.656389
+	fredo,	N41.905556,	W70.582222
+	glyde,	N42.267500,	W71.811944
+	mht
+	lfv
+	psm
+
+entrypoints =
+    180, PVD
+    240, GRAYM
+    270, DREEM
+    270, EEGUL
+    18, ZELKA
+    140, WIPOR
+    360, BOS
+
+##############################################################
+[airport3]
+
+name = Norwood Memorial Airport
+code = KOWD
+
+runways =
+	OWD_10_28, 10, N42.7575, W71.422167, 89.0, 3995
+	OWD_17_35, 17, N42.1937, W71.177856, 155.0, 4007
+
+climbaltitude = 2000
+
+airlines =
+	n-123ab, 3, c182/p28a/c700
+
+sids =
+	bosox
+	burdy
+	dunkk
+	fredo
+	glyde
+	mht
+	lfv
+	psm
+	pvd
+
+entrypoints =
+    240, GRAYM
+    270, DREEM
+    270, EEGUL
+    018, ZELKA
+    140, WIPOR
+    360, BOS
+
+##############################################################
+[airport4]
+
+name = Lawrence Municipal
+code = KLWM
+
+runways =
+	LWM_14_32, 14, N42.720961, W71.129505, 122.0, 3654
+	LWM_05_23, 5, N42.710722, W71.129096, 38.0, 5001
+
+climbaltitude = 2000
+
+airlines =
+	n-123ab, 3, c182/p28a/c700
+	n-6969r, 2, fa7x/glex/glf4/glf5/glf6
+
+sids =
+	bosox
+	burdy
+	dunkk
+	fredo
+	glyde
+	mht
+	lfv
+	psm
+	pvd
+
+entrypoints =
+    240, GRAYM
+    270, DREEM
+    270, EEGUL
+    018, ZELKA
+    140, WIPOR
+    360, BOS
+
+
+##############################################################
+[airport5]
+
+name = Beverly Regional Airport
+code = KBVY
+
+runways =
+	BVY_16_34, 16, N42.591942, W70.921866, 141.0, 5001
+	BVY_09_27, 9, N42.579761, W70.924724, 74.0, 4755
+
+climbaltitude = 2000
+
+airlines =
+	n-123ab, 3, c182/p28a/c700
+
+sids =
+	bosox
+	burdy
+	dunkk
+	fredo
+	glyde
+	mht
+	lfv
+	psm
+	pvd
+
+entrypoints =
+    240, GRAYM
+    270, DREEM
+    270, EEGUL
+    018, ZELKA
+    140, WIPOR
+    360, BOS
+
+##############################################################
+[configurations]
+##############################################################
+
+## score, identifier, use, <offsetheading>, <nosid>
+# score is the score (skill) at which the runway will be activated
+# identifier is a unique runway name specified earlier
+# use is a string (without spaces) that may contain these words: start, land, rev, int, track
+# where rev means reversed use (opposite direction), int means intersection departure (takeoffs begin 30% down the rwy), track means backtrack after landing
+# offsetheading means planes will fly a specific heading just after takeoff (especially useful for allowing parallel takeoffs with divergent headings)
+# nosid option means planes will depart on the given offsetheading, with SID mode disabled
+# when rwy configurations are omited, two configs are automatically created, one for each rwy direction, with all runways active
+
+# 4/9 VFR config - simultaneous appr at 12 score (61 AAR)
+config1 =
+    0, BOS_09_27,   start
+    0, BOSP_09_27,   start, 060, nosid
+    0, BOSP_04L_22R,  start, 360, nosid
+    0, BOS_04R_22L,   land
+    0, OWD_17_35, landstartrev, 170, nosid
+    0, BVY_16_34, landstartrev, 160, nosid
+    0, LWM_14_32, landstartrev, 140, nosid
+    0, BOS_04L_22R,  land
+
+# 22/27 LAHSO config - LAHSO at 12 score (48 AAR)
+config2 =
+	0, BOSP_04L_22R, startlandrev, 240, nosid
+    0, BOS_22L_LAHSO, land
+    0, BOS_04R_22L, startrev, 140
+    0, BOS_04L_22R, startrev, 140
+    0, OWD_17_35, landstart, 170, nosid
+    0, LWM_05_23, landstartrev, 50, nosid
+    0, BVY_16_34, landstart, 160, nosid
+    0, BOS_09_27, landrev
+
+# 15/15 config (32 AAR, low ADR)
+config3 =
+	0, BOS_15R_33L, landstart
+	0, BOSP_09_27, start, 070, nosid
+	0, BVY_16_34, landstart, 160, nosid
+	0, OWD_17_35, landstart, 170, nosid
+	0, LWM_14_32, landstart, 140, nosid
+
+# 15/9 LAHSO config - LAHSO at 9 score (32 AAR)
+config4 =
+	0, BOS_15R_33L, landstart
+	0, BOSP_09_27, start, 060, nosid
+	0, BOS_09_27, start
+	0, BVY_16_34, landstart, 160, nosid
+	0, OWD_17_35, landstart, 170, nosid
+	0, LWM_14_32, landstart, 140, nosid
+
+# 33/27 config (36 AAR)
+config5 =
+	0, BOS_15R_33L, landstartrev
+	0, BOS_09_27, startlandrev
+	0, OWD_17_35, landstartrev, 170, nosid
+	0, LWM_14_32, landstartrev, 140, nosid
+	0, BVY_09_27, landstartrev, 270, nosid
+
+# 33+32/33 config - simultaneous appr at 9 score (44 AAR)
+config6 =
+	0, BOS_15R_33L, landstartrev
+	0, BOS_14_32, landrev
+	0, OWD_17_35, landstartrev, 170, nosid
+	0, LWM_14_32, landstartrev, 140, nosid
+	0, BVY_09_27, landstartrev, 270, nosid
+
+# 27/33 config (36 AAR)
+config7 =
+	0, BOS_09_27, landrev
+	0, BOS_15R_33L, startlandrev
+	0, OWD_17_35, landstartrev, 170, nosid
+	0, LWM_14_32, landstartrev, 140, nosid
+	0, BVY_09_27, landstartrev, 270, nosid
+
+##############################################################
+[area1]
+##############################################################
+shape = polygon
+altitude = 0
+draw = 1
+labelpos = N1.0, W1.0
+points =
+	N42.858056, W71.106389
+    N42.779167, W70.888056
+    N42.749444, W70.712778
+    N42.696667, W70.637222
+    N42.718889, W70.415278
+    N42.613333, W70.513889
+    N42.537222, W70.305278
+    N42.098889, W70.308611
+    N41.767778, W70.661944
+    N41.771944, W71.086111
+    N41.831389, W71.422500
+    N42.016389, W71.354722
+    N42.097778, W71.481111
+    N42.058611, W71.642778
+    N42.372222, W71.816944
+    N42.466111, W71.837222
+    N42.551389, W71.872222
+    N42.661389, W71.408889
+    N42.705000, W71.393611
+    N42.858056, W71.106389
+	
+##################################################
+[departure1]
+runway = BOS_04R_33L
+
+route1 =
+    BLZZR4.BLZZR, blazer four
+    N42.26.23.24, W070.57.59.97
+# NHANT
+    N42.27.38.74, W070.51.07.04
+# HURBE
+    N42.25.28.48, W070.45.13.44
+# ORRRR
+    N42.18.15.54, W070.43.46.94
+# CHWDH
+    N42.14.31.29, W070.49.32.29
+# STEEM
+    N42.11.44.30, W070.56.57.03
+# DEDHM
+    N42.13.02.39, W071.45.36.59
+# BLZZR
+
+route2 =
+    BRUWN5.BRUWN, bruwn five
+    N42.26.23.24, W070.57.59.97
+# NHANT
+    N42.27.38.74, W070.51.07.04
+# HURBE
+    N42.25.28.48, W070.45.13.44
+# ORRRR
+    N42.22.38.40, W070.43.40.17
+# FENWY
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N41.36.09.68, W070.13.45.81
+# BRUWN
+
+route3 =
+    CELTK5.CELTK, celtik five
+    N42.26.23.24, W070.57.59.97
+# NHANT
+    N42.27.38.74, W070.51.07.04
+# HURBE
+    N42.25.28.48, W070.45.13.44
+# ORRRR
+    N42.22.24.06, W070.36.48.72
+# TONNI
+    N42.15.59.05, W070.06.12.33
+# CELTK
+
+route4 =
+    HYLND5.HYLND, hylund five
+    N42.26.23.24, W070.57.59.97
+# NHANT
+    N42.27.38.74, W070.51.07.04
+# HURBE
+    N42.30.28.20, W070.47.29.61
+# STAYC
+    N42.34.47.62, W070.49.39.40
+# SHAAN
+    N42.46.51.12, W071.16.31.08
+# HYLND
+
+route5 =
+    LBSTA6.LBSTA, labsta six
+    N42.26.23.24, W070.57.59.97
+# NHANT
+    N42.27.38.74, W070.51.07.04
+# HURBE
+    N42.30.28.20, W070.47.29.61
+# STAYC
+    N42.40.34.24, W070.38.27.06
+# SHAUN
+    N42.48.00.00, W070.36.48.70
+# LBSTA
+
+route6 =
+    PATSS5.PATSS, patss five
+    N42.26.23.24, W070.57.59.97
+# NHANT
+    N42.27.38.74, W070.51.07.04
+# HURBE
+    N42.25.28.48, W070.45.13.44
+# ORRRR
+    N42.18.15.54, W070.43.46.94
+# CHWDH
+    N42.14.31.29, W070.49.32.29
+# STEEM
+    N42.11.44.30, W070.56.57.03
+# DEDHM
+    N42.05.20.66, W071.42.39.03
+# PATSS
+
+route7 =
+    REVSS4.REVSS, revss four
+    N42.26.23.24, W070.57.59.97
+# NHANT
+    N42.27.38.74, W070.51.07.04
+# HURBE
+    N42.25.28.48, W070.45.13.44
+# ORRRR
+    N42.18.15.54, W070.43.46.94
+# CHWDH
+    N42.14.31.29, W070.49.32.29
+# STEEM
+    N42.11.44.30, W070.56.57.03
+# DEDHM
+    N42.20.43.57, W071.48.37.07
+# REVSS
+
+route8 =
+    SSOXS5.SSOXS, socks five
+    N42.26.23.24, W070.57.59.97
+# NHANT
+    N42.27.38.74, W070.51.07.04
+# HURBE
+    N42.25.28.48, W070.45.13.44
+# ORRRR
+    N42.22.38.40, W070.43.40.17
+# FENWY
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N42.08.21.83, W070.36.47.48
+# JSTER
+    N41.50.12.62, W070.44.46.26
+# SSOXS
+
+
+##################################################
+[departure2]
+runway = BOS_09_27
+
+route1 =
+    BLZZR4.BLZZR, blazer four
+    N42.23.25.27, W070.48.47.67
+# CLAWW
+    N42.22.38.40, W070.43.40.17
+# FENWY
+    N42.16.24.05, W070.43.21.25
+# GLLET
+    N42.12.44.02, W070.49.37.63
+# WYMTH
+    N42.11.44.30, W070.56.57.03
+# DEDHM
+    N42.13.02.39, W071.45.36.59
+# BLZZR
+
+route2 =
+    BRUWN5.BRUWN, bruwn five
+    N42.23.25.27, W070.48.47.67
+# CLAWW
+    N42.22.38.40, W070.43.40.17
+# FENWY
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N41.36.09.68, W070.13.45.81
+# BRUWN
+
+route3 =
+    CELTK5.CELTK, celtik five
+    N42.23.25.27, W070.48.47.67
+# CLAWW
+    N42.22.38.40, W070.43.40.17
+# FENWY
+    N42.18.45.42, W070.38.15.02
+# SCOAR
+    N42.15.59.05, W070.06.12.33
+# CELTK
+
+route4 =
+    HYLND5.HYLND, hylund five
+    N42.23.25.27, W070.48.47.67
+# CLAWW
+    N42.26.45.35, W070.45.35.21
+# CORRT
+    N42.30.28.20, W070.47.29.61
+# STAYC
+    N42.46.51.12, W071.16.31.08
+# HYLND
+
+route5 =
+    LBSTA6.LBSTA, labsta six
+    N42.23.25.27, W070.48.47.67
+# CLAWW
+    N42.28.47.73, W070.43.35.17
+# CLMPP
+    N42.40.34.24, W070.38.27.06
+# SHAUN
+    N42.48.00.00, W070.36.48.70
+# LBSTA
+
+route6 =
+    PATSS5.PATSS, patss five
+    N42.23.25.27, W070.48.47.67
+# CLAWW
+    N42.22.38.40, W070.43.40.17
+# FENWY
+    N42.16.24.05, W070.43.21.25
+# GLLET
+    N42.12.44.02, W070.49.37.63
+# WYMTH
+    N42.11.44.30, W070.56.57.03
+# DEDHM
+    N42.05.20.66, W071.42.39.03
+# PATSS
+
+route7 =
+    REVSS4.REVSS, revss four
+    N42.23.25.27, W070.48.47.67
+# CLAWW
+    N42.22.38.40, W070.43.40.17
+# FENWY
+    N42.16.24.05, W070.43.21.25
+# GLLET
+    N42.12.44.02, W070.49.37.63
+# WYMTH
+    N42.11.44.30, W070.56.57.03
+# DEDHM
+    N42.20.43.57, W071.48.37.07
+# REVSS
+
+route8 =
+    SSOXS5.SSOXS, socks five
+    N42.23.25.27, W070.48.47.67
+# CLAWW
+    N42.22.38.40, W070.43.40.17
+# FENWY
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N42.08.21.83, W070.36.47.48
+# JSTER
+    N41.50.12.62, W070.44.46.26
+# SSOXS
+
+
+##################################################
+[departure3]
+runway = BOS_15R_33L
+
+route1 =
+    BLZZR4.BLZZR, blazer four
+    N42.18.55.28, W070.54.10.54
+# FOXXX
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.13.02.39, W071.45.36.59
+# BLZZR
+
+route2 =
+    BRUWN5.BRUWN, bruwn five
+    N42.18.55.28, W070.54.10.54
+# FOXXX
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N41.36.09.68, W070.13.45.81
+# BRUWN
+
+route3 =
+    CELTK5.CELTK, celtik five
+    N42.18.55.28, W070.54.10.54
+# FOXXX
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.45.42, W070.38.15.02
+# SCOAR
+    N42.15.59.05, W070.06.12.33
+# CELTK
+
+route4 =
+    HYLND5.HYLND, hylund five
+    N42.18.55.28, W070.54.10.54
+# FOXXX
+    N42.20.31.61, W070.45.13.67
+# BOATT
+    N42.26.49.28, W070.42.35.12
+# HEARR
+    N42.32.00.65, W070.45.57.30
+# MARBB
+    N42.46.51.12, W071.16.31.08
+# HYLND
+
+route5 =
+    LBSTA6.LBSTA, labsta six
+    N42.18.55.28, W070.54.10.54
+# FOXXX
+    N42.20.31.61, W070.45.13.67
+# BOATT
+    N42.26.49.28, W070.42.35.12
+# HEARR
+    N42.40.34.24, W070.38.27.06
+# SHAUN
+    N42.48.00.00, W070.36.48.70
+# LBSTA
+
+route6 =
+    PATSS5.PATSS, patss five
+    N42.18.55.28, W070.54.10.54
+# FOXXX
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.05.20.66, W071.42.39.03
+# PATSS
+
+route7 =
+    REVSS4.REVSS, revss four
+    N42.18.55.28, W070.54.10.54
+# FOXXX
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.20.43.57, W071.48.37.07
+# REVSS
+
+route8 =
+    SSOXS5.SSOXS, socks five
+    N42.18.55.28, W070.54.10.54
+# FOXXX
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N42.08.21.83, W070.36.47.48
+# JSTER
+    N41.50.12.62, W070.44.46.26
+# SSOXS
+
+
+##################################################
+[departure4]
+runway = BOS_04R_22L, rev
+
+route1 =
+    BLZZR4.BLZZR, blazer four
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.13.02.39, W071.45.36.59
+# BLZZR
+
+route2 =
+    BRUWN5.BRUWN, bruwn five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N41.36.09.68, W070.13.45.81
+# BRUWN
+
+route3 =
+    CELTK5.CELTK, celtik five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.45.42, W070.38.15.02
+# SCOAR
+    N42.15.59.05, W070.06.12.33
+# CELTK
+
+route4 =
+    HYLND5.HYLND, hylund five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.31.61, W070.45.13.67
+# BOATT
+    N42.26.49.28, W070.42.35.12
+# HEARR
+    N42.32.00.65, W070.45.57.30
+# MARBB
+    N42.46.51.12, W071.16.31.08
+# HYLND
+
+route5 =
+    LBSTA6.LBSTA, labsta six
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.31.61, W070.45.13.67
+# BOATT
+    N42.26.49.28, W070.42.35.12
+# HEARR
+    N42.40.34.24, W070.38.27.06
+# SHAUN
+    N42.48.00.00, W070.36.48.70
+# LBSTA
+
+route6 =
+    PATSS5.PATSS, patss five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.05.20.66, W071.42.39.03
+# PATSS
+
+route7 =
+    REVSS4.REVSS, revss four
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.20.43.57, W071.48.37.07
+# REVSS
+
+route8 =
+    SSOXS5.SSOXS, socks five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N42.08.21.83, W070.36.47.48
+# JSTER
+    N41.50.12.62, W070.44.46.26
+# SSOXS
+
+
+##################################################
+[departure5]
+runway = BOS_04L_22R, rev
+
+route1 =
+    BLZZR4.BLZZR, blazer four
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.13.02.39, W071.45.36.59
+# BLZZR
+
+route2 =
+    BRUWN5.BRUWN, bruwn five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N41.36.09.68, W070.13.45.81
+# BRUWN
+
+route3 =
+    CELTK5.CELTK, celtik five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.45.42, W070.38.15.02
+# SCOAR
+    N42.15.59.05, W070.06.12.33
+# CELTK
+
+route4 =
+    HYLND5.HYLND, hylund five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.31.61, W070.45.13.67
+# BOATT
+    N42.26.49.28, W070.42.35.12
+# HEARR
+    N42.32.00.65, W070.45.57.30
+# MARBB
+    N42.46.51.12, W071.16.31.08
+# HYLND
+
+route5 =
+    LBSTA6.LBSTA, labsta six
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.31.61, W070.45.13.67
+# BOATT
+    N42.26.49.28, W070.42.35.12
+# HEARR
+    N42.40.34.24, W070.38.27.06
+# SHAUN
+    N42.48.00.00, W070.36.48.70
+# LBSTA
+
+route6 =
+    PATSS5.PATSS, patss five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.05.20.66, W071.42.39.03
+# PATSS
+
+route7 =
+    REVSS4.REVSS, revss four
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.18.12.90, W070.42.49.48
+# JAITE
+    N42.11.16.32, W070.44.00.45
+# HEWMO
+    N42.09.34.89, W070.56.26.99
+# KENWI
+    N42.20.43.57, W071.48.37.07
+# REVSS
+
+route8 =
+    SSOXS5.SSOXS, socks five
+    N42.18.18.19, W070.57.37.75
+# TJAYY
+    N42.20.00.78, W070.48.05.48
+# BRRRO
+    N42.17.36.11, W070.41.01.52
+# BUCYK
+    N42.08.21.83, W070.36.47.48
+# JSTER
+    N41.50.12.62, W070.44.46.26
+# SSOXS
+
+
+##################################################
+[departure6]
+runway = BOS_09_27, rev
+
+route1 =
+    BLZZR4.BLZZR, blazer four
+    N42.16.31.48, W071.07.41.78
+# KIRAA
+    N42.13.02.39, W071.45.36.59
+# BLZZR
+
+route2 =
+    BRUWN5.BRUWN, bruwn five
+    N42.16.31.48, W071.07.41.78
+# KIRAA
+    N42.09.09.66, W071.02.24.39
+# COLYN
+    N42.00.32.09, W070.48.20.74
+# BEREI
+    N41.36.09.68, W070.13.45.81
+# BRUWN
+
+route3 =
+    CELTK5.CELTK, celtik five
+    N42.16.31.48, W071.07.41.78
+# KIRAA
+    N42.09.09.66, W071.02.24.39
+# COLYN
+    N42.15.59.05, W070.06.12.33
+# CELTK
+
+route4 =
+    HYLND5.HYLND, hylund five
+    N42.16.31.48, W071.07.41.78
+# KIRAA
+    N42.17.21.83, W071.13.06.18
+# GLOWB
+    N42.22.48.26, W071.15.28.72
+# HRALD
+    N42.46.51.12, W071.16.31.08
+# HYLND
+
+route5 =
+    LBSTA6.LBSTA, labsta six
+    N42.16.31.48, W071.07.41.78
+# KIRAA
+    N42.17.21.83, W071.13.06.18
+# GLOWB
+    N42.22.48.26, W071.15.28.72
+# HRALD
+    N42.30.41.97, W071.09.09.58
+# CAMWI
+    N42.48.00.00, W070.36.48.70
+# LBSTA
+
+route6 =
+    PATSS5.PATSS, patss five
+    N42.16.31.48, W071.07.41.78
+# KIRAA
+    N42.05.20.66, W071.42.39.03
+# PATSS
+
+route7 =
+    REVSS4.REVSS, revss four
+    N42.16.31.48, W071.07.41.78
+# KIRAA
+    N42.17.21.83, W071.13.06.18
+# GLOWB
+    N42.20.43.57, W071.48.37.07
+# REVSS
+
+route8 =
+    SSOXS5.SSOXS, socks five
+    N42.16.31.48, W071.07.41.78
+# KIRAA
+    N42.09.09.66, W071.02.24.39
+# COLYN
+    N41.50.12.62, W070.44.46.26
+# SSOXS
+
+route9 =
+    WYLYY3.CYOTI, wyley three
+    N42.18.02.96, W071.06.02.40
+# WYLYY
+    N42.09.23.83, W071.15.25.55
+# CYOTI
+
+
+##################################################
+[departure7]
+runway = BOS_15R_33L, rev
+
+route1 =
+    BLZZR4.BLZZR, blazer four
+    N42.24.45.85, W071.05.55.09
+# TEKKK
+    N42.20.37.08, W071.21.04.57
+# EXXXX
+    N42.13.02.39, W071.45.36.59
+# BLZZR
+
+route2 =
+    BRUWN5.BRUWN, bruwn five
+    N42.24.45.85, W071.05.55.09
+# TEKKK
+    N42.21.17.92, W071.12.31.70
+# COUSY
+    N42.15.19.94, W071.09.36.29
+# CBEAR
+    N42.09.09.66, W071.02.24.39
+# COLYN
+    N42.00.32.09, W070.48.20.74
+# BEREI
+    N41.36.09.68, W070.13.45.81
+# BRUWN
+
+route3 =
+    CELTK5.CELTK, celtik five
+    N42.24.45.85, W071.05.55.09
+# TEKKK
+    N42.21.17.92, W071.12.31.70
+# COUSY
+    N42.15.19.94, W071.09.36.29
+# CBEAR
+    N42.09.09.66, W071.02.24.39
+# COLYN
+    N42.15.59.05, W070.06.12.33
+# CELTK
+
+route4 =
+    HYLND5.HYLND, hylund five
+    N42.24.45.85, W071.05.55.09
+# TEKKK
+    N42.30.41.97, W071.09.09.58
+# CAMWI
+    N42.46.51.12, W071.16.31.08
+# HYLND
+
+route5 =
+    LBSTA6.LBSTA, labsta six
+    N42.24.45.85, W071.05.55.09
+# TEKKK
+    N42.30.41.97, W071.09.09.58
+# CAMWI
+    N42.48.00.00, W070.36.48.70
+# LBSTA
+
+route6 =
+    PATSS5.PATSS, patss five
+    N42.24.45.85, W071.05.55.09
+# TEKKK
+    N42.21.17.92, W071.12.31.70
+# COUSY
+    N42.05.20.66, W071.42.39.03
+# PATSS
+
+route7 =
+    REVSS4.REVSS, revss four
+    N42.24.45.85, W071.05.55.09
+# TEKKK
+    N42.23.44.55, W071.20.44.54
+# DUBYU
+    N42.20.43.57, W071.48.37.07
+# REVSS
+
+route8 =
+    SSOXS5.SSOXS, socks five
+    N42.24.45.85, W071.05.55.09
+# TEKKK
+    N42.21.17.92, W071.12.31.70
+# COUSY
+    N42.15.19.94, W071.09.36.29
+# CBEAR
+    N42.09.09.66, W071.02.24.39
+# COLYN
+    N41.50.12.62, W070.44.46.26
+# SSOXS
+
+######################################################
+# STARS
+######################################################
+
+# ##################################################
+# [approach1]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_04L_22R
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210 ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210 ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210 ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach2]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_04L_22R
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 250 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 250 ; KRANN
+#     end, 074
+
+# ##################################################
+# [approach3]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_04L_22R
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250 ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210 ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210 ; WOONS
+#     end, 060
+
+# ##################################################
+# [approach4]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_04R_22L
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+
+# ##################################################
+# [approach5]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_04R_22L
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 250 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 250 ; KRANN
+#     end, 074
+
+# ##################################################
+# [approach6]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOS_04R_22L
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 14000, 330 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 14000, 330 ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 14000, 330 ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 14000, 330 ; WOONS
+#     end, 060
+
+# ##################################################
+# [approach7]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_09_27
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+
+# ##################################################
+# [approach8]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_09_27
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+
+# ##################################################
+# [approach9]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_09_27
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+
+# ##################################################
+# [approach10]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_14_32
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+
+# ##################################################
+# [approach11]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_14_32
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+#
+# ##################################################
+# [approach12]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_14_32
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+
+# ##################################################
+# [approach13]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_15L_33R
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach14]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_15L_33R
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+#
+# ##################################################
+# [approach15]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_15L_33R
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+#
+# ##################################################
+# [approach16]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_15R_33L
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach17]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_15R_33L
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+#
+# ##################################################
+# [approach18]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_15R_33L
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+#
+# ##################################################
+# [approach19]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_04R_22L, rev
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach20]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_04R_22L, rev
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+
+# ##################################################
+# [approach21]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_04R_22L, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+#
+# ##################################################
+# [approach22]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_04L_22R, rev
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach23]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_04L_22R, rev
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+#
+# ##################################################
+# [approach24]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_04L_22R, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+#
+# ##################################################
+# [approach25]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_09_27, rev
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach26]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_09_27, rev
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+#
+# ##################################################
+# [approach27]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_09_27, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+#
+# ##################################################
+# [approach28]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_14_32, rev
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach29]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_14_32, rev
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+#
+# ##################################################
+# [approach30]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_14_32, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+#
+# ##################################################
+# [approach31]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_15R_33L, rev
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach32]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_15R_33L, rev
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+#
+# ##################################################
+# [approach33]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_15R_33L, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+#
+# ##################################################
+# [approach34]
+# ##################################################
+# # GDM.GDM4
+# runway = BOSP_15L_33R, rev
+# beacon = GDM
+#
+# route1 =
+#     N42.32.45.32, W072.03.29.48, 11000, 250 ; GDM
+#     N42.30.53.93, W071.43.21.61, 11000, 250 ; BRONC
+#     N42.30.15.53, W071.36.34.04, 9000, 210  ; LOBBY
+#     N42.26.27.48, W070.57.41.31, 6000, 210  ; REVER
+#     N42.21.26.82, W070.59.22.37, 6000, 210  ; BOS
+#     end, 210
+#
+# ##################################################
+# [approach35]
+# ##################################################
+# # PVD.ORW7
+# runway = BOS_15L_33R, rev
+# beacon = PVD
+#
+# route1 =
+#     N41.43.27.63, W071.25.46.71, 11000, 270 ; PVD
+#     N41.51.18.69, W071.07.24.46, 11000, 270 ; KRANN
+#     end, 074
+#
+# ##################################################
+# [approach36]
+# ##################################################
+# # ORW.WOONS2
+# runway = BOSP_15L_33R, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.41.45.92, W071.49.33.18, 11000, 250 ; JEWIT
+#     N41.50.35.46, W071.38.31.34, 8000, 250  ; FOSTY
+#     N41.54.19.19, W071.33.50.39, 7000, 210  ; HEFTY
+#     N41.57.02.07, W071.30.25.34, 7000, 210  ; WOONS
+#     end, 060
+
+##################################################
+[approach37]
+##################################################
+# ONDEC.JFUND2
+runway = BOS_04R_22L
+beacon = ONDEC
+
+route1 =
+    N42.32.47.83, W072.03.56.71, 11000, 330 ; ONDEC
+    N42.35.11.34, W071.49.15.93, 11000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.26.58.45, W071.01.37.25, 7000, 220 ; SPYSD
+    N42.18.42.17, W070.56.05.73, 7000, 220 ; GRIFI
+    N42.16.29.28, W070.57.03.28, 6000, 220 ; GGABE
+    N42.10.41.96, W070.59.32.15, 6000, 210 ; JOBEE
+    end, 212
+
+##################################################
+[approach38]
+##################################################
+# JFUND.JFUND2
+runway = BOS_04R_22L
+beacon = JFUND
+
+route1 =
+    N42.35.11.34, W071.49.15.93, 14000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.26.58.45, W071.01.37.25, 7000, 220 ; SPYSD
+    N42.18.42.17, W070.56.05.73, 7000, 220 ; GRIFI
+    N42.16.29.28, W070.57.03.28, 6000, 220 ; GGABE
+    N42.10.41.96, W070.59.32.15, 6000, 210 ; JOBEE
+    end, 212
+
+##################################################
+[approach39]
+##################################################
+# FERNZ.OOSHN5
+runway = BOS_04R_22L
+beacon = FERNZ
+
+route1 =
+    N41.50.35.40, W069.46.53.11, 14000, 330 ; FERNZ
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.24.44.74, W070.53.11.93, 9000, 250 ; FLUTI
+    N42.18.42.17, W070.56.05.73, 9000, 250 ; GRIFI
+    N42.16.29.28, W070.57.03.28, 6000, 220 ; GGABE
+    N42.10.41.96, W070.59.32.15, 6000, 210 ; JOBEE
+    end, 212
+
+##################################################
+[approach40]
+##################################################
+# PROVI.OOSHN5
+runway = BOS_04R_22L
+beacon = PROVI
+
+route1 =
+    N41.43.25.46, W071.25.54.17, 14000, 330 ; PROVI
+    N42.03.16.48, W070.49.40.68, 14000, 330 ; IYANA
+    N42.06.30.28, W070.36.58.08, 14000, 330 ; KLEBB
+    N42.14.14.45, W070.08.43.28, 14000, 330 ; SOBAH
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.24.44.74, W070.53.11.93, 9000, 250 ; FLUTI
+    N42.18.42.17, W070.56.05.73, 9000, 250 ; GRIFI
+    N42.16.29.28, W070.57.03.28, 6000, 220 ; GGABE
+    N42.10.41.96, W070.59.32.15, 6000, 210 ; JOBEE
+    end, 212
+
+##################################################
+[approach41]
+##################################################
+# EURRO.OOSHN5
+runway = BOS_04R_22L
+beacon = EURRO
+
+route1 =
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.24.44.74, W070.53.11.93, 9000, 250 ; FLUTI
+    N42.18.42.17, W070.56.05.73, 9000, 250 ; GRIFI
+    N42.16.29.28, W070.57.03.28, 6000, 220 ; GGABE
+    N42.10.41.96, W070.59.32.15, 6000, 210 ; JOBEE
+    end, 212
+
+##################################################
+[approach42]
+##################################################
+# ONDEC.JFUND2
+runway = BOS_15R_33L
+beacon = ONDEC
+
+route1 =
+    N42.32.47.83, W072.03.56.71, 11000, 330 ; ONDEC
+    N42.35.11.34, W071.49.15.93, 11000, 330 ; JFUND
+    N42.36.27.95, W071.42.43.21, 9000, 250 ; BADCA
+    N42.39.08.71, W071.28.51.95, 7000, 210 ; WACHU
+    N42.37.55.51, W071.23.09.86, 7000, 210 ; SSAAM
+    N42.35.07.53, W071.19.08.13, 7000, 210 ; AADMS
+    end, 148
+
+##################################################
+[approach43]
+##################################################
+# JFUND.JFUND2
+runway = BOS_15R_33L
+beacon = JFUND
+
+route1 =
+    N42.35.11.34, W071.49.15.93, 14000, 330 ; JFUND
+    N42.36.27.95, W071.42.43.21, 9000, 250 ; BADCA
+    N42.39.08.71, W071.28.51.95, 7000, 210 ; WACHU
+    N42.37.55.51, W071.23.09.86, 7000, 210 ; SSAAM
+    N42.35.07.53, W071.19.08.13, 7000, 210 ; AADMS
+    end, 148
+
+##################################################
+[approach44]
+##################################################
+# FERNZ.OOSHN5
+runway = BOS_15R_33L
+beacon = FERNZ
+
+route1 =
+    N41.50.35.40, W069.46.53.11, 14000, 330 ; FERNZ
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.35.09.36, W070.33.54.40, 9000, 250 ; GRGIO
+    N42.33.25.12, W070.41.52.30, 7000, 250 ; BRGIT
+    N42.32.07.43, W070.49.47.85, 5000, 220 ; HNOVR
+    N42.29.36.10, W071.03.20.94, 5000, 210 ; RDHOK
+    N42.34.54.97, W071.10.51.19, 5000, 210 ; TKMAN
+    end, 328
+
+##################################################
+[approach45]
+##################################################
+# PROVI.OOSHN5
+runway = BOS_15R_33L
+beacon = PROVI
+
+route1 =
+    N41.43.25.46, W071.25.54.17, 14000, 330 ; PROVI
+    N42.03.16.48, W070.49.40.68, 14000, 330 ; IYANA
+    N42.06.30.28, W070.36.58.08, 14000, 330 ; KLEBB
+    N42.14.14.45, W070.08.43.28, 14000, 330 ; SOBAH
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.35.09.36, W070.33.54.40, 9000, 250 ; GRGIO
+    N42.33.25.12, W070.41.52.30, 7000, 250 ; BRGIT
+    N42.32.07.43, W070.49.47.85, 5000, 220 ; HNOVR
+    N42.29.36.10, W071.03.20.94, 5000, 210 ; RDHOK
+    N42.34.54.97, W071.10.51.19, 5000, 210 ; TKMAN
+    end, 328
+
+##################################################
+[approach46]
+##################################################
+# EURRO.OOSHN5
+runway = BOS_15R_33L
+beacon = EURRO
+
+route1 =
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.35.09.36, W070.33.54.40, 9000, 250 ; GRGIO
+    N42.33.25.12, W070.41.52.30, 7000, 250 ; BRGIT
+    N42.32.07.43, W070.49.47.85, 5000, 220 ; HNOVR
+    N42.29.36.10, W071.03.20.94, 5000, 210 ; RDHOK
+    N42.34.54.97, W071.10.51.19, 5000, 210 ; TKMAN
+    end, 328
+
+# ##################################################
+# [approach47]
+# ##################################################
+# # RUIZE.ROBUC3
+# runway = BOS_15R_33L
+# beacon = RUIZE
+#
+# route1 =
+#     N41.28.45.63, W072.12.33.94, 14000, 330 ; RUIZE
+#     N41.33.22.48, W071.59.56.97, 14000, 330 ; AWLIN
+#     N41.35.44.39, W071.52.03.63, 14000, 330 ; BANKI
+#     N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+#     N41.47.07.37, W071.17.15.23, 12000, 260 ; JOODY
+#     N41.49.15.90, W071.12.13.60, 11000, 250 ; JAYNA
+#     N42.06.16.24, W071.04.17.45, 8000, 250 ; BOXRS
+#     N42.24.18.51, W070.55.47.58, 6000, 220 ; CHERS
+#     N42.29.36.10, W071.03.20.94, 6000, 210 ; RDHOK
+#     N42.34.54.97, W071.10.51.19, 6000, 210 ; TKMAN
+#     end, 328
+
+##################################################
+[approach48]
+##################################################
+# ROBUC.ROBUC3
+runway = BOS_15R_33L
+beacon = ROBUC
+
+route1 =
+    N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+    N41.43.25.46, W071.25.54.17, 11000, 260 ; PROVI
+    N41.47.07.37, W071.17.15.23, 11000, 260 ; JOODY
+    N41.49.15.90, W071.12.13.60, 11000, 250 ; JAYNA
+    N42.06.16.24, W071.04.17.45, 8000, 250 ; BOXRS
+    N42.24.18.51, W070.55.47.58, 6000, 220 ; CHERS
+    N42.29.36.10, W071.03.20.94, 6000, 210 ; RDHOK
+    N42.34.54.97, W071.10.51.19, 6000, 210 ; TKMAN
+    end, 328
+
+##################################################
+[approach49]
+##################################################
+# ONDEC.JFUND2
+runway = BOS_04R_22L, rev
+beacon = ONDEC
+
+route1 =
+    N42.32.47.83, W072.03.56.71, 11000, 330 ; ONDEC
+    N42.35.11.34, W071.49.15.93, 11000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.29.46.42, W071.03.39.16, 6000, 220 ; ISLAY
+    N42.34.56.56, W071.01.06.27, 6000, 210 ; LWLND
+    end, 035
+
+##################################################
+[approach50]
+##################################################
+# JFUND.JFUND2
+runway = BOS_04R_22L, rev
+beacon = JFUND
+
+route1 =
+    N42.35.11.34, W071.49.15.93, 14000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.29.46.42, W071.03.39.16, 6000, 220 ; ISLAY
+    N42.34.56.56, W071.01.06.27, 6000, 210 ; LWLND
+    end, 035
+
+##################################################
+[approach51]
+##################################################
+# FERNZ.OOSHN5
+runway = BOS_04R_22L, rev
+beacon = FERNZ
+
+route1 =
+    N41.50.35.40, W069.46.53.11, 14000, 330 ; FERNZ
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.35.09.36, W070.33.54.40, 9000, 250 ; GRGIO
+    N42.33.25.12, W070.41.52.30, 7000, 250 ; BRGIT
+    N42.36.20.25, W070.46.55.46, 6000, 220 ; ADDDA
+    N42.41.02.21, W070.44.36.30, 6000, 210 ; LEEZI
+    end, 035
+
+##################################################
+[approach52]
+##################################################
+# PROVI.OOSHN5
+runway = BOS_04R_22L, rev
+beacon = PROVI
+
+route1 =
+    N41.43.25.46, W071.25.54.17, 14000, 330 ; PROVI
+    N42.03.16.48, W070.49.40.68, 14000, 330 ; IYANA
+    N42.06.30.28, W070.36.58.08, 14000, 330 ; KLEBB
+    N42.14.14.45, W070.08.43.28, 14000, 330 ; SOBAH
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.35.09.36, W070.33.54.40, 9000, 250 ; GRGIO
+    N42.33.25.12, W070.41.52.30, 7000, 250 ; BRGIT
+    N42.36.20.25, W070.46.55.46, 6000, 220 ; ADDDA
+    N42.41.02.21, W070.44.36.30, 6000, 210 ; LEEZI
+    end, 035
+
+##################################################
+[approach53]
+##################################################
+# EURRO.OOSHN5
+runway = BOS_04R_22L, rev
+beacon = EURRO
+
+route1 =
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.35.09.36, W070.33.54.40, 9000, 250 ; GRGIO
+    N42.33.25.12, W070.41.52.30, 7000, 250 ; BRGIT
+    N42.36.20.25, W070.46.55.46, 6000, 220 ; ADDDA
+    N42.41.02.21, W070.44.36.30, 6000, 210 ; LEEZI
+    end, 035
+
+# ##################################################
+# [approach54]
+# ##################################################
+# # RUIZE.ROBUC3
+# runway = BOS_04R_22L, rev
+# beacon = RUIZE
+#
+# route1 =
+#     N41.28.45.63, W072.12.33.94, 14000, 330 ; RUIZE
+#     N41.33.22.48, W071.59.56.97, 14000, 330 ; AWLIN
+#     N41.35.44.39, W071.52.03.63, 14000, 330 ; BANKI
+#     N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+#     N41.47.07.37, W071.17.15.23, 12000, 260 ; JOODY
+#     N41.51.18.69, W071.07.24.46, 11000, 250 ; KRANN
+#     N42.00.36.88, W070.45.47.55, 8000, 250 ; CRADL
+#     N42.06.30.28, W070.36.58.08, 8000, 250 ; KLEBB
+#     N42.19.33.13, W070.33.19.59, 5000, 250 ; ETHYN
+#     N42.31.38.24, W070.49.14.28, 5000, 220 ; PTRIK
+#     N42.37.34.55, W070.46.18.74, 5000, 210 ; TAALE
+#     end, 035
+
+##################################################
+[approach55]
+##################################################
+# ROBUC.ROBUC3
+runway = BOS_04R_22L, rev
+beacon = ROBUC
+
+route1 =
+    N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+    N41.43.25.46, W071.25.54.17, 11000, 260 ; PROVI
+    N41.47.07.37, W071.17.15.23, 11000, 260 ; JOODY
+    N41.51.18.69, W071.07.24.46, 11000, 250 ; KRANN
+    N42.00.36.88, W070.45.47.55, 8000, 250 ; CRADL
+    N42.06.30.28, W070.36.58.08, 8000, 250 ; KLEBB
+    N42.19.33.13, W070.33.19.59, 5000, 250 ; ETHYN
+    N42.31.38.24, W070.49.14.28, 5000, 220 ; PTRIK
+    N42.37.34.55, W070.46.18.74, 5000, 210 ; TAALE
+    end, 035
+
+##################################################
+[approach56]
+##################################################
+# ONDEC.JFUND2
+runway = BOS_09_27, rev
+beacon = ONDEC
+
+route1 =
+    N42.32.47.83, W072.03.56.71, 11000, 330 ; ONDEC
+    N42.35.11.34, W071.49.15.93, 11000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.26.58.45, W071.01.37.25, 7000, 220 ; SPYSD
+    N42.26.27.48, W070.57.41.31, 7000, 220 ; REVER
+    N42.28.04.94, W070.47.06.19, 6000, 210 ; SEHAG
+    end, 093
+
+##################################################
+[approach57]
+##################################################
+# JFUND.JFUND2
+runway = BOS_09_27, rev
+beacon = JFUND
+
+route1 =
+    N42.35.11.34, W071.49.15.93, 14000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.26.58.45, W071.01.37.25, 7000, 220 ; SPYSD
+    N42.26.27.48, W070.57.41.31, 7000, 220 ; REVER
+    N42.28.04.94, W070.47.06.19, 6000, 210 ; SEHAG
+    end, 093
+
+##################################################
+[approach58]
+##################################################
+# FERNZ.OOSHN5
+runway = BOS_09_27, rev
+beacon = FERNZ
+
+route1 =
+    N41.50.35.40, W069.46.53.11, 14000, 330 ; FERNZ
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.28.48.58, W070.17.48.68, 9000, 250 ; PUDJJ
+    N42.26.26.01, W070.31.40.48, 6000, 210 ; AYBEE
+    18, 5000, 210
+
+##################################################
+[approach59]
+##################################################
+# PROVI.OOSHN5
+runway = BOS_09_27, rev
+beacon = PROVI
+
+route1 =
+    N41.43.25.46, W071.25.54.17, 14000, 330 ; PROVI
+    N42.03.16.48, W070.49.40.68, 14000, 330 ; IYANA
+    N42.06.30.28, W070.36.58.08, 14000, 330 ; KLEBB
+    N42.14.14.45, W070.08.43.28, 14000, 330 ; SOBAH
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.28.48.58, W070.17.48.68, 9000, 250 ; PUDJJ
+    N42.26.26.01, W070.31.40.48, 6000, 210 ; AYBEE
+    18, 5000, 210
+
+##################################################
+[approach60]
+##################################################
+# EURRO.OOSHN5
+runway = BOS_09_27, rev
+beacon = EURRO
+
+route1 =
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.28.48.58, W070.17.48.68, 9000, 250 ; PUDJJ
+    N42.26.26.01, W070.31.40.48, 6000, 210 ; AYBEE
+    18, 5000, 210
+
+# ##################################################
+# [approach61]
+# ##################################################
+# # RUIZE.ROBUC3
+# runway = BOS_09_27, rev
+# beacon = RUIZE
+#
+# route1 =
+#     N41.28.45.63, W072.12.33.94, 14000, 330 ; RUIZE
+#     N41.33.22.48, W071.59.56.97, 14000, 330 ; AWLIN
+#     N41.35.44.39, W071.52.03.63, 14000, 330 ; BANKI
+#     N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+#     N41.47.07.37, W071.17.15.23, 12000, 260 ; JOODY
+#     N41.51.18.69, W071.07.24.46, 11000, 250 ; KRANN
+#     N42.00.36.88, W070.45.47.55, 8000, 250 ; CRADL
+#     N42.06.30.28, W070.36.58.08, 8000, 250 ; KLEBB
+#     N42.20.43.93, W070.33.55.81, 5000, 210 ; HOKDU
+#     end, 024
+
+##################################################
+[approach62]
+##################################################
+# ROBUC.ROBUC3
+runway = BOS_09_27, rev
+beacon = ROBUC
+
+route1 =
+    N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+    N41.43.25.46, W071.25.54.17, 11000, 260 ; PROVI
+    N41.47.07.37, W071.17.15.23, 11000, 260 ; JOODY
+    N41.51.18.69, W071.07.24.46, 11000, 250 ; KRANN
+    N42.00.36.88, W070.45.47.55, 8000, 250 ; CRADL
+    N42.06.30.28, W070.36.58.08, 8000, 250 ; KLEBB
+    N42.20.43.93, W070.33.55.81, 5000, 210 ; HOKDU
+    end, 024
+
+##################################################
+[approach63]
+##################################################
+# ONDEC.JFUND2
+runway = BOS_14_32, rev
+beacon = ONDEC
+
+route1 =
+    N42.32.47.83, W072.03.56.71, 11000, 330 ; ONDEC
+    N42.35.11.34, W071.49.15.93, 11000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.26.58.45, W071.01.37.25, 7000, 220 ; SPYSD
+    N42.23.12.97, W070.55.18.28, 6000, 220 ; BRODI
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+##################################################
+[approach64]
+##################################################
+# JFUND.JFUND2
+runway = BOS_14_32, rev
+beacon = JFUND
+
+route1 =
+    N42.35.11.34, W071.49.15.93, 14000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.26.58.45, W071.01.37.25, 7000, 220 ; SPYSD
+    N42.23.12.97, W070.55.18.28, 6000, 220 ; BRODI
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+##################################################
+[approach65]
+##################################################
+# FERNZ.OOSHN5
+runway = BOS_14_32, rev
+beacon = FERNZ
+
+route1 =
+    N41.50.35.40, W069.46.53.11, 14000, 330 ; FERNZ
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.23.15.44, W070.51.19.79, 9000, 250 ; PLGRM
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+##################################################
+[approach66]
+##################################################
+# PROVI.OOSHN5
+runway = BOS_14_32, rev
+beacon = PROVI
+
+route1 =
+    N41.43.25.46, W071.25.54.17, 14000, 330 ; PROVI
+    N42.03.16.48, W070.49.40.68, 14000, 330 ; IYANA
+    N42.06.30.28, W070.36.58.08, 14000, 330 ; KLEBB
+    N42.14.14.45, W070.08.43.28, 14000, 330 ; SOBAH
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.23.15.44, W070.51.19.79, 9000, 250 ; PLGRM
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+##################################################
+[approach67]
+##################################################
+# EURRO.OOSHN5
+runway = BOS_14_32, rev
+beacon = EURRO
+
+route1 =
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.23.15.44, W070.51.19.79, 9000, 250 ; PLGRM
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+# ##################################################
+# [approach68]
+# ##################################################
+# # RUIZE.ROBUC3
+# runway = BOS_14_32, rev
+# beacon = RUIZE
+#
+# route1 =
+#     N41.28.45.63, W072.12.33.94, 14000, 330 ; RUIZE
+#     N41.33.22.48, W071.59.56.97, 14000, 330 ; AWLIN
+#     N41.35.44.39, W071.52.03.63, 14000, 330 ; BANKI
+#     N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+#     N41.47.07.37, W071.17.15.23, 12000, 260 ; JOODY
+#     N41.49.15.90, W071.12.13.60, 11000, 250 ; JAYNA
+#     N41.55.25.95, W070.58.18.81, 8000, 240 ; ANSLY
+#     N42.00.32.09, W070.48.20.74, 6000, 220 ; BEREI
+#     N42.05.56.98, W070.41.09.06, 6000, 210 ; BBOGG
+#     end, 059
+
+##################################################
+[approach69]
+##################################################
+# ROBUC.ROBUC3
+runway = BOS_14_32, rev
+beacon = ROBUC
+
+route1 =
+    N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+    N41.43.25.46, W071.25.54.17, 11000, 260 ; PROVI
+    N41.47.07.37, W071.17.15.23, 11000, 260 ; JOODY
+    N41.49.15.90, W071.12.13.60, 11000, 250 ; JAYNA
+    N41.55.25.95, W070.58.18.81, 8000, 240 ; ANSLY
+    N42.00.32.09, W070.48.20.74, 6000, 220 ; BEREI
+    N42.05.56.98, W070.41.09.06, 6000, 210 ; BBOGG
+    end, 059
+
+##################################################
+[approach70]
+##################################################
+# ONDEC.JFUND2
+runway = BOS_15R_33L, rev
+beacon = ONDEC
+
+route1 =
+    N42.32.47.83, W072.03.56.71, 11000, 330 ; ONDEC
+    N42.35.11.34, W071.49.15.93, 11000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.26.58.45, W071.01.37.25, 7000, 220 ; SPYSD
+    N42.23.12.97, W070.55.18.28, 6000, 220 ; BRODI
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+##################################################
+[approach71]
+##################################################
+# JFUND.JFUND2
+runway = BOS_15R_33L, rev
+beacon = JFUND
+
+route1 =
+    N42.35.11.34, W071.49.15.93, 14000, 330 ; JFUND
+    N42.33.01.17, W071.35.32.36, 11000, 270 ; AUTUM
+    N42.30.12.45, W071.21.59.67, 8000, 250 ; WINTA
+    N42.27.40.77, W071.09.21.69, 8000, 250 ; HRRIS
+    N42.26.58.45, W071.01.37.25, 7000, 220 ; SPYSD
+    N42.23.12.97, W070.55.18.28, 6000, 220 ; BRODI
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+##################################################
+[approach72]
+##################################################
+# FERNZ.OOSHN5
+runway = BOS_15R_33L, rev
+beacon = FERNZ
+
+route1 =
+    N41.50.35.40, W069.46.53.11, 14000, 330 ; FERNZ
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.23.15.44, W070.51.19.79, 9000, 250 ; PLGRM
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+##################################################
+[approach73]
+##################################################
+# PROVI.OOSHN5
+runway = BOS_15R_33L, rev
+beacon = PROVI
+
+route1 =
+    N41.43.25.46, W071.25.54.17, 14000, 330 ; PROVI
+    N42.03.16.48, W070.49.40.68, 14000, 330 ; IYANA
+    N42.06.30.28, W070.36.58.08, 14000, 330 ; KLEBB
+    N42.14.14.45, W070.08.43.28, 14000, 330 ; SOBAH
+    N42.28.55.22, W069.54.42.21, 11000, 330 ; LONEY
+    N42.35.58.22, W069.56.54.94, 11000, 330 ; RODEE
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.23.15.44, W070.51.19.79, 9000, 250 ; PLGRM
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+##################################################
+[approach74]
+##################################################
+# EURRO.OOSHN5
+runway = BOS_15R_33L, rev
+beacon = EURRO
+
+route1 =
+    N42.39.02.67, W070.05.16.55, 10000, 330 ; EURRO
+    N42.36.05.44, W070.13.52.37, 9000, 250 ; OOSHN
+    N42.31.46.46, W070.30.54.94, 9000, 250 ; TTERI
+    N42.27.28.16, W070.49.31.96, 9000, 250 ; WAATR
+    N42.23.15.44, W070.51.19.79, 9000, 250 ; PLGRM
+    N42.20.12.83, W070.50.16.49, 5000, 220 ; BECHH
+    N42.16.43.48, W070.45.38.19, 5000, 210 ; SCITU
+    end, 150
+
+# ##################################################
+# [approach75]
+# ##################################################
+# # RUIZE.ROBUC3
+# runway = BOS_15R_33L, rev
+# beacon = RUIZE
+#
+# route1 =
+#     N41.28.45.63, W072.12.33.94, 14000, 330 ; RUIZE
+#     N41.33.22.48, W071.59.56.97, 14000, 330 ; AWLIN
+#     N41.35.44.39, W071.52.03.63, 14000, 330 ; BANKI
+#     N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+#     N41.47.07.37, W071.17.15.23, 12000, 260 ; JOODY
+#     N41.49.15.90, W071.12.13.60, 11000, 250 ; JAYNA
+#     N41.55.25.95, W070.58.18.81, 8000, 240 ; ANSLY
+#     N42.00.32.09, W070.48.20.74, 6000, 220 ; BEREI
+#     N42.05.56.98, W070.41.09.06, 6000, 210 ; BBOGG
+#     end, 059
+
+##################################################
+[approach76]
+##################################################
+# ROBUC.ROBUC3
+runway = BOS_15R_33L, rev
+beacon = ROBUC
+
+route1 =
+    N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+    N41.43.25.46, W071.25.54.17, 11000, 260 ; PROVI
+    N41.47.07.37, W071.17.15.23, 11000, 260 ; JOODY
+    N41.49.15.90, W071.12.13.60, 11000, 250 ; JAYNA
+    N41.55.25.95, W070.58.18.81, 8000, 240 ; ANSLY
+    N42.00.32.09, W070.48.20.74, 6000, 220 ; BEREI
+    N42.05.56.98, W070.41.09.06, 6000, 210 ; BBOGG
+    end, 059
+
+# ##################################################
+# [approach77]
+# ##################################################
+# # RUIZE.ROBUC3
+# runway = BOS_04L_22R
+# beacon = RUIZE
+#
+# route1 =
+#     N41.28.45.63, W072.12.33.94, 14000, 330 ; RUIZE
+#     N41.33.22.48, W071.59.56.97, 14000, 330 ; AWLIN
+#     N41.35.44.39, W071.52.03.63, 14000, 330 ; BANKI
+#     N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+#     N41.47.07.37, W071.17.15.23, 12000, 260 ; JOODY
+#     N41.50.35.42, W071.15.32.13, 9000, 220 ; SOFEE
+#     N41.56.41.29, W071.12.30.68, 7000, 220 ; ERNEI
+#     N42.01.51.20, W071.12.13.36, 6000, 210 ; NUNZO
+#     end, 017
+
+##################################################
+[approach78]
+##################################################
+# ROBUC.ROBUC3
+runway = BOS_04L_22R
+beacon = ROBUC
+
+route1 =
+    N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+    N41.43.25.46, W071.25.54.17, 11000, 260 ; PROVI
+    N41.47.07.37, W071.17.15.23, 11000, 260 ; JOODY
+    N41.50.35.42, W071.15.32.13, 9000, 220 ; SOFEE
+    N41.56.41.29, W071.12.30.68, 7000, 220 ; ERNEI
+    N42.01.51.20, W071.12.13.36, 6000, 210 ; NUNZO
+    end, 017
+
+##################################################
+[approach79]
+##################################################
+# RUIZE.ROBUC3
+runway = BOS_04R_22L
+beacon = RUIZE
+
+route1 =
+    N41.28.45.63, W072.12.33.94, 14000, 330 ; RUIZE
+    N41.33.22.48, W071.59.56.97, 14000, 330 ; AWLIN
+    N41.35.44.39, W071.52.03.63, 14000, 330 ; BANKI
+    N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+    N41.47.07.37, W071.17.15.23, 12000, 260 ; JOODY
+    N41.50.35.42, W071.15.32.13, 9000, 220 ; SOFEE
+    N41.56.41.29, W071.12.30.68, 7000, 220 ; ERNEI
+    N42.02.11.09, W071.09.47.14, 6000, 210 ; GOSHI
+    18, 5000, 210
+
+##################################################
+[approach80]
+##################################################
+# ROBUC.ROBUC3
+runway = BOS_04R_22L
+beacon = ROBUC
+
+route1 =
+    N41.40.44.11, W071.35.06.42, 12000, 260 ; ROBUC
+    N41.43.25.46, W071.25.54.17, 11000, 260 ; PROVI
+    N41.47.07.37, W071.17.15.23, 11000, 260 ; JOODY
+    N41.50.35.42, W071.15.32.13, 9000, 220 ; SOFEE
+    N41.56.41.29, W071.12.30.68, 7000, 220 ; ERNEI
+    N42.02.11.09, W071.09.47.14, 6000, 210 ; GOSHI
+    18, 5000, 210
+
+
+# ##################################################
+# [approach81]
+# ##################################################
+# # HFD.DREEM2
+# runway = BVY_09_27
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 14000, 330 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+#     end, 097
+
+# ##################################################
+# [approach82]
+# ##################################################
+# # ORW.DREEM2
+# runway = BVY_09_27
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 14000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 14000, 330 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+#     end, 097
+
+##################################################
+[approach83]
+##################################################
+# WIPOR.DREEM2
+runway = BVY_09_27
+beacon = WIPOR
+
+route1 =
+    N41.39.23.07, W072.10.37.67, 14000, 330 ; WIPOR
+    N41.50.22.56, W072.07.02.55, 14000, 330 ; PAISN
+    N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+    end, 097
+
+##################################################
+[approach84]
+##################################################
+# DREEM.DREEM2
+runway = BVY_09_27
+beacon = DREEM
+
+route1 =
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach85]
+# ##################################################
+# # HFD.GRAYM6
+# runway = BVY_09_27
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 11000, 250 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+# ##################################################
+# [approach86]
+# ##################################################
+# # ORW.GRAYM6
+# runway = BVY_09_27
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 11000, 250 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 11000, 250 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+##################################################
+[approach87]
+##################################################
+# GRAYM.GRAYM6
+runway = BVY_09_27
+beacon = GRAYM
+
+route1 =
+    N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+    N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+    end, 056
+
+##################################################
+[approach88]
+##################################################
+# EEGUL.ZELKA2
+runway = BVY_09_27
+beacon = EEGUL
+
+route1 =
+    N42.37.31.23, W073.08.16.51, 14000, 330 ; EEGUL
+    N42.36.19.75, W072.57.33.67, 14000, 330 ; TERIA
+    N42.31.13.98, W072.15.26.78, 14000, 330 ; HAUKS
+    N42.29.47.18, W072.04.04.95, 11000, 330 ; WORIA
+    N42.29.45.89, W071.50.33.89, 8000, 330 ; BCATS
+    N42.29.43.42, W071.38.36.68, 6000, 330 ; GOLEE
+    N42.29.41.90, W071.33.12.27, 6000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+##################################################
+[approach89]
+##################################################
+# ZELKA.ZELKA2
+runway = BVY_09_27
+beacon = ZELKA
+
+route1 =
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach90]
+# ##################################################
+# # HFD.DREEM2
+# runway = BVY_16_34
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 14000, 330 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+#     end, 097
+
+# ##################################################
+# [approach91]
+# ##################################################
+# # ORW.DREEM2
+# runway = BVY_16_34
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 14000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 14000, 330 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+#     end, 097
+
+##################################################
+[approach92]
+##################################################
+# WIPOR.DREEM2
+runway = BVY_16_34
+beacon = WIPOR
+
+route1 =
+    N41.39.23.07, W072.10.37.67, 14000, 330 ; WIPOR
+    N41.50.22.56, W072.07.02.55, 14000, 330 ; PAISN
+    N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+    end, 097
+
+##################################################
+[approach93]
+##################################################
+# DREEM.DREEM2
+runway = BVY_16_34
+beacon = DREEM
+
+route1 =
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach94]
+# ##################################################
+# # HFD.GRAYM6
+# runway = BVY_16_34
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 11000, 250 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+# ##################################################
+# [approach95]
+# ##################################################
+# # ORW.GRAYM6
+# runway = BVY_16_34
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 11000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 11000, 250 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+##################################################
+[approach96]
+##################################################
+# GRAYM.GRAYM6
+runway = BVY_16_34
+beacon = GRAYM
+
+route1 =
+    N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+    N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+    end, 056
+
+##################################################
+[approach97]
+##################################################
+# EEGUL.ZELKA2
+runway = BVY_16_34
+beacon = EEGUL
+
+route1 =
+    N42.37.31.23, W073.08.16.51, 14000, 330 ; EEGUL
+    N42.36.19.75, W072.57.33.67, 14000, 330 ; TERIA
+    N42.31.13.98, W072.15.26.78, 14000, 330 ; HAUKS
+    N42.29.47.18, W072.04.04.95, 11000, 330 ; WORIA
+    N42.29.45.89, W071.50.33.89, 8000, 330 ; BCATS
+    N42.29.43.42, W071.38.36.68, 6000, 330 ; GOLEE
+    N42.29.41.90, W071.33.12.27, 6000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+##################################################
+[approach98]
+##################################################
+# ZELKA.ZELKA2
+runway = BVY_16_34
+beacon = ZELKA
+
+route1 =
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach99]
+# ##################################################
+# # HFD.DREEM2
+# runway = BVY_09_27, rev
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 14000, 330 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+#     end, 097
+#
+# ##################################################
+# [approach100]
+# ##################################################
+# # ORW.DREEM2
+# runway = BVY_09_27, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 14000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 14000, 330 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+#     end, 097
+
+##################################################
+[approach101]
+##################################################
+# WIPOR.DREEM2
+runway = BVY_09_27, rev
+beacon = WIPOR
+
+route1 =
+    N41.39.23.07, W072.10.37.67, 14000, 330 ; WIPOR
+    N41.50.22.56, W072.07.02.55, 14000, 330 ; PAISN
+    N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+    end, 097
+
+##################################################
+[approach102]
+##################################################
+# DREEM.DREEM2
+runway = BVY_09_27, rev
+beacon = DREEM
+
+route1 =
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach103]
+# ##################################################
+# # HFD.GRAYM6
+# runway = BVY_09_27, rev
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 11000, 250 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+#
+# ##################################################
+# [approach104]
+# ##################################################
+# # ORW.GRAYM6
+# runway = BVY_09_27, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 11000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 11000, 250 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+##################################################
+[approach105]
+##################################################
+# GRAYM.GRAYM6
+runway = BVY_09_27, rev
+beacon = GRAYM
+
+route1 =
+    N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+    N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+    end, 056
+
+##################################################
+[approach106]
+##################################################
+# EEGUL.ZELKA2
+runway = BVY_09_27, rev
+beacon = EEGUL
+
+route1 =
+    N42.37.31.23, W073.08.16.51, 14000, 330 ; EEGUL
+    N42.36.19.75, W072.57.33.67, 14000, 330 ; TERIA
+    N42.31.13.98, W072.15.26.78, 14000, 330 ; HAUKS
+    N42.29.47.18, W072.04.04.95, 11000, 330 ; WORIA
+    N42.29.45.89, W071.50.33.89, 8000, 330 ; BCATS
+    N42.29.43.42, W071.38.36.68, 6000, 330 ; GOLEE
+    N42.29.41.90, W071.33.12.27, 6000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+##################################################
+[approach107]
+##################################################
+# ZELKA.ZELKA2
+runway = BVY_09_27, rev
+beacon = ZELKA
+
+route1 =
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach108]
+# ##################################################
+# # HFD.DREEM2
+# runway = BVY_16_34, rev
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 14000, 330 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+#     end, 097
+#
+# ##################################################
+# [approach109]
+# ##################################################
+# # ORW.DREEM2
+# runway = BVY_16_34, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 14000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 14000, 330 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+#     end, 097
+
+##################################################
+[approach110]
+##################################################
+# WIPOR.DREEM2
+runway = BVY_16_34, rev
+beacon = WIPOR
+
+route1 =
+    N41.39.23.07, W072.10.37.67, 14000, 330 ; WIPOR
+    N41.50.22.56, W072.07.02.55, 14000, 330 ; PAISN
+    N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+    end, 097
+
+##################################################
+[approach111]
+##################################################
+# DREEM.DREEM2
+runway = BVY_16_34, rev
+beacon = DREEM
+
+route1 =
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 14000, 330 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach112]
+# ##################################################
+# # HFD.GRAYM6
+# runway = BVY_16_34, rev
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 11000, 250 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+#
+# ##################################################
+# [approach113]
+# ##################################################
+# # ORW.GRAYM6
+# runway = BVY_16_34, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 11000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 11000, 250 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+##################################################
+[approach114]
+##################################################
+# GRAYM.GRAYM6
+runway = BVY_16_34, rev
+beacon = GRAYM
+
+route1 =
+    N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+    N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+    end, 056
+
+##################################################
+[approach115]
+##################################################
+# EEGUL.ZELKA2
+runway = BVY_16_34, rev
+beacon = EEGUL
+
+route1 =
+    N42.37.31.23, W073.08.16.51, 14000, 330 ; EEGUL
+    N42.36.19.75, W072.57.33.67, 14000, 330 ; TERIA
+    N42.31.13.98, W072.15.26.78, 14000, 330 ; HAUKS
+    N42.29.47.18, W072.04.04.95, 11000, 330 ; WORIA
+    N42.29.45.89, W071.50.33.89, 8000, 330 ; BCATS
+    N42.29.43.42, W071.38.36.68, 6000, 330 ; GOLEE
+    N42.29.41.90, W071.33.12.27, 6000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+##################################################
+[approach116]
+##################################################
+# ZELKA.ZELKA2
+runway = BVY_16_34, rev
+beacon = ZELKA
+
+route1 =
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach117]
+# ##################################################
+# # HFD.DREEM2
+# runway = LWM_05_23
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 14000, 330 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     end, 076
+#
+# ##################################################
+# [approach118]
+# ##################################################
+# # ORW.DREEM2
+# runway = LWM_05_23
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 14000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 14000, 330 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     end, 076
+
+##################################################
+[approach119]
+##################################################
+# WIPOR.DREEM2
+runway = LWM_05_23
+beacon = WIPOR
+
+route1 =
+    N41.39.23.07, W072.10.37.67, 14000, 330 ; WIPOR
+    N41.50.22.56, W072.07.02.55, 14000, 330 ; PAISN
+    N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    end, 076
+
+##################################################
+[approach120]
+##################################################
+# DREEM.DREEM2
+runway = LWM_05_23
+beacon = DREEM
+
+route1 =
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    end, 076
+
+# ##################################################
+# [approach121]
+# ##################################################
+# # HFD.GRAYM6
+# runway = LWM_05_23
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 11000, 250 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+#
+# ##################################################
+# [approach122]
+# ##################################################
+# # ORW.GRAYM6
+# runway = LWM_05_23
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 11000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 11000, 250 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+##################################################
+[approach123]
+##################################################
+# GRAYM.GRAYM6
+runway = LWM_05_23
+beacon = GRAYM
+
+route1 =
+    N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+    N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+    end, 056
+
+##################################################
+[approach124]
+##################################################
+# EEGUL.ZELKA2
+runway = LWM_05_23
+beacon = EEGUL
+
+route1 =
+    N42.37.31.23, W073.08.16.51, 14000, 330 ; EEGUL
+    N42.36.19.75, W072.57.33.67, 14000, 330 ; TERIA
+    N42.31.13.98, W072.15.26.78, 14000, 330 ; HAUKS
+    N42.29.47.18, W072.04.04.95, 11000, 330 ; WORIA
+    N42.29.45.89, W071.50.33.89, 8000, 330 ; BCATS
+    N42.29.43.42, W071.38.36.68, 6000, 330 ; GOLEE
+    N42.29.41.90, W071.33.12.27, 6000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+##################################################
+[approach125]
+##################################################
+# ZELKA.ZELKA2
+runway = LWM_05_23
+beacon = ZELKA
+
+route1 =
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach126]
+# ##################################################
+# # HFD.DREEM2
+# runway = LWM_14_32,
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 14000, 330 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     end, 076
+#
+# ##################################################
+# [approach127]
+# ##################################################
+# # ORW.DREEM2
+# runway = LWM_14_32,
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 14000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 14000, 330 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     end, 076
+
+##################################################
+[approach128]
+##################################################
+# WIPOR.DREEM2
+runway = LWM_14_32,
+beacon = WIPOR
+
+route1 =
+    N41.39.23.07, W072.10.37.67, 14000, 330 ; WIPOR
+    N41.50.22.56, W072.07.02.55, 14000, 330 ; PAISN
+    N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    end, 076
+
+##################################################
+[approach129]
+##################################################
+# DREEM.DREEM2
+runway = LWM_14_32,
+beacon = DREEM
+
+route1 =
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    end, 076
+
+# ##################################################
+# [approach130]
+# ##################################################
+# # HFD.GRAYM6
+# runway = LWM_14_32,
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 11000, 250 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+# ##################################################
+# [approach131]
+# ##################################################
+# # ORW.GRAYM6
+# runway = LWM_14_32,
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 11000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 11000, 250 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+##################################################
+[approach132]
+##################################################
+# GRAYM.GRAYM6
+runway = LWM_14_32,
+beacon = GRAYM
+
+route1 =
+    N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+    N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+    end, 056
+
+##################################################
+[approach133]
+##################################################
+# EEGUL.ZELKA2
+runway = LWM_14_32,
+beacon = EEGUL
+
+route1 =
+    N42.37.31.23, W073.08.16.51, 14000, 330 ; EEGUL
+    N42.36.19.75, W072.57.33.67, 14000, 330 ; TERIA
+    N42.31.13.98, W072.15.26.78, 14000, 330 ; HAUKS
+    N42.29.47.18, W072.04.04.95, 11000, 330 ; WORIA
+    N42.29.45.89, W071.50.33.89, 8000, 330 ; BCATS
+    N42.29.43.42, W071.38.36.68, 6000, 330 ; GOLEE
+    N42.29.41.90, W071.33.12.27, 6000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+##################################################
+[approach134]
+##################################################
+# ZELKA.ZELKA2
+runway = LWM_14_32,
+beacon = ZELKA
+
+route1 =
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach135]
+# ##################################################
+# # HFD.DREEM2
+# runway = LWM_05_23, rev
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 14000, 330 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     end, 076
+
+# ##################################################
+# [approach136]
+# ##################################################
+# # ORW.DREEM2
+# runway = LWM_05_23, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 14000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 14000, 330 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     end, 076
+
+##################################################
+[approach137]
+##################################################
+# WIPOR.DREEM2
+runway = LWM_05_23, rev
+beacon = WIPOR
+
+route1 =
+    N41.39.23.07, W072.10.37.67, 14000, 330 ; WIPOR
+    N41.50.22.56, W072.07.02.55, 14000, 330 ; PAISN
+    N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    end, 076
+
+##################################################
+[approach138]
+##################################################
+# DREEM.DREEM2
+runway = LWM_05_23, rev
+beacon = DREEM
+
+route1 =
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    end, 076
+
+# ##################################################
+# [approach139]
+# ##################################################
+# # HFD.GRAYM6
+# runway = LWM_05_23, rev
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 11000, 250 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+#
+# ##################################################
+# [approach140]
+# ##################################################
+# # ORW.GRAYM6
+# runway = LWM_05_23, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 11000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 11000, 250 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+##################################################
+[approach141]
+##################################################
+# GRAYM.GRAYM6
+runway = LWM_05_23, rev
+beacon = GRAYM
+
+route1 =
+    N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+    N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+    end, 056
+
+##################################################
+[approach142]
+##################################################
+# EEGUL.ZELKA2
+runway = LWM_05_23, rev
+beacon = EEGUL
+
+route1 =
+    N42.37.31.23, W073.08.16.51, 14000, 330 ; EEGUL
+    N42.36.19.75, W072.57.33.67, 14000, 330 ; TERIA
+    N42.31.13.98, W072.15.26.78, 14000, 330 ; HAUKS
+    N42.29.47.18, W072.04.04.95, 11000, 330 ; WORIA
+    N42.29.45.89, W071.50.33.89, 8000, 330 ; BCATS
+    N42.29.43.42, W071.38.36.68, 6000, 330 ; GOLEE
+    N42.29.41.90, W071.33.12.27, 6000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+##################################################
+[approach143]
+##################################################
+# ZELKA.ZELKA2
+runway = LWM_05_23, rev
+beacon = ZELKA
+
+route1 =
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+# ##################################################
+# [approach144]
+# ##################################################
+# # HFD.DREEM2
+# runway = LWM_14_32, rev
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 14000, 330 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     end, 076
+#
+# ##################################################
+# [approach145]
+# ##################################################
+# # ORW.DREEM2
+# runway = LWM_14_32, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 14000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 14000, 330 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+#     N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+#     N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+#     N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+#     end, 076
+
+##################################################
+[approach146]
+##################################################
+# WIPOR.DREEM2
+runway = LWM_14_32, rev
+beacon = WIPOR
+
+route1 =
+    N41.39.23.07, W072.10.37.67, 14000, 330 ; WIPOR
+    N41.50.22.56, W072.07.02.55, 14000, 330 ; PAISN
+    N42.06.04.27, W072.01.53.49, 14000, 330 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 14000, 330 ; GASSE
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    end, 076
+
+##################################################
+[approach147]
+##################################################
+# DREEM.DREEM2
+runway = LWM_14_32, rev
+beacon = DREEM
+
+route1 =
+    N42.21.42.65, W071.44.34.13, 14000, 330 ; DREEM
+    N42.25.09.39, W071.39.40.53, 14000, 330 ; WANLA
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 14000, 330 ; RIKAH
+    end, 076
+
+# ##################################################
+# [approach148]
+# ##################################################
+# # HFD.GRAYM6
+# runway = LWM_14_32, rev
+# beacon = HFD
+#
+# route1 =
+#     N41.38.27.98, W072.32.50.71, 14000, 330 ; HFD
+#     N41.51.44.56, W072.18.11.25, 11000, 250 ; DVANY
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+#
+# ##################################################
+# [approach149]
+# ##################################################
+# # ORW.GRAYM6
+# runway = LWM_14_32, rev
+# beacon = ORW
+#
+# route1 =
+#     N41.33.23.05, W071.59.57.67, 14000, 330 ; ORW
+#     N41.43.22.76, W072.00.32.87, 11000, 330 ; MOGUL
+#     N41.49.37.10, W072.00.54.94, 11000, 250 ; BLATT
+#     N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+#     N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+#     N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+#     end, 056
+
+##################################################
+[approach150]
+##################################################
+# GRAYM.GRAYM6
+runway = LWM_14_32, rev
+beacon = GRAYM
+
+route1 =
+    N42.06.04.27, W072.01.53.49, 8000, 250 ; GRAYM
+    N42.15.46.19, W071.51.17.51, 5000, 210 ; GASSE
+    N42.21.42.65, W071.44.34.13, 5000, 210 ; DREEM
+    end, 056
+
+##################################################
+[approach151]
+##################################################
+# EEGUL.ZELKA2
+runway = LWM_14_32, rev
+beacon = EEGUL
+
+route1 =
+    N42.37.31.23, W073.08.16.51, 14000, 330 ; EEGUL
+    N42.36.19.75, W072.57.33.67, 14000, 330 ; TERIA
+    N42.31.13.98, W072.15.26.78, 14000, 330 ; HAUKS
+    N42.29.47.18, W072.04.04.95, 11000, 330 ; WORIA
+    N42.29.45.89, W071.50.33.89, 8000, 330 ; BCATS
+    N42.29.43.42, W071.38.36.68, 6000, 330 ; GOLEE
+    N42.29.41.90, W071.33.12.27, 6000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+##################################################
+[approach152]
+##################################################
+# ZELKA.ZELKA2
+runway = LWM_14_32, rev
+beacon = ZELKA
+
+route1 =
+    N42.29.41.90, W071.33.12.27, 14000, 330 ; ZELKA
+    N42.33.05.03, W071.25.07.23, 6000, 210 ; RIKAH
+    N42.34.38.27, W071.11.35.48, 6000, 210 ; EXXRO
+    end, 097
+
+[planetypes]
+types =
+	B721, 4, 160, 250, 2.9, 3.2, 1000, 1560, 131, 144, 1.1, 1.3, Boeing
+	B722, 4, 160, 250, 2.9, 3.2, 1000, 1560, 131, 144, 1.1, 1.3, Boeing
+	DC10, 2, 160, 250, 2.1, 2.9, 1000, 1440, 145, 160, 1.1, 1.3, Douglas
+	C402, 6, 100, 230, 2.9, 3.2, 1000, 1400, 60, 100, 1.1, 1.3, Cessna
+	E45X, 5, 160, 250, 2.9, 3.2, 1000, 1550, 122, 134, 1.1, 1.3, Embraer
+	J328, 5, 160, 250, 2.9, 3.2, 1000, 1560, 122, 134, 1.1, 1.3, Dornier

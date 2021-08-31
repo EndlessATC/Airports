@@ -1,5 +1,5 @@
 [meta]
-header = RJTT ACA 3.0.0
+header = RJTT ACA 3.3.0
 	See RJTT_readme.md
 callsigns = True
 
@@ -15,6 +15,7 @@ transitionaltitude = 13999
 speedrestriction = 100, 250
 usa = false
 metric = false
+automatic = true
 center = N035.38, E140.35
 magneticvar = -8
 beacons =
@@ -26,11 +27,14 @@ beacons =
 	HUC, N36.11.13.22, E140.24.49.42, 0, Hya Koo Ree
 	MOE, N34.04.15.75, E139.33.40.64, 58, Oyama
 	JD, N36.29.14.81, E139.51.47.22, 241, Nikko
+	KZT, N35.23.49.40, E139.54.16.19, 0, Kisarazu
+	TET, N34.58.15, E139.50.17, 0, Tateyama
 #COMMON
 	AKAGI, N36.23.28.33, E139.41.56.28, !, Akagi
 	AGRIS, N36.25.14.70, E139.56.33.13, !, Agris
 	GULBO, N35.26.32.86, E141.45.09.55, !, Gulbo
 	BORLO, N35.16.33.77, E141.44.55.61, !, Borlo
+	TOPIT, N34.11.41.45, E139.59.42.20, 0, Topit
 #RJTT
 	CHIBA, N35.35.22.20, E140.03.59.96, 91, Chee Bah
 	INUBO, N35.43.35.29, E140.47.57.94, !, Inubo
@@ -114,12 +118,12 @@ beacons =
 	AROSA, N34.42.01.72, E140.41.57.29, 0, Arosa
 	AVEEY, N34.41.55.89, E140.21.57.97, 314, Aveey
 	DAIGO, N36.44.39.72, E140.20.59.46, !, Daigo
-	DOLBA, N34.42.02.98, E141.26.07.08, !, Dolba
+	DOLBA, N34.42.02.98, E141.26.07.08, 0, Dolba
 	ESKEN, N36.05.01.09, E140.41.22.76, !, Esken
 	GODIN, N36.24.25.34, E140.16.55.89, 197, Godin
 	KAIHO, N35.18.57.83, E139.46.42.43, 353, Kai ho
 	LAFIT, N34.48.25.97, E140.07.32.37, !, Lafit
-	LALID, N35.56.38.75, E141.45.52.07, !, Lalid
+	LALID, N35.56.38.75, E141.45.52.07, 0, Lalid
 	LD224, N35.32.52.5, E140.02.00.0, !, Lima Delta 2 2 4
 	LD225, N35.26.14.1, E139.53.53.4, !, Lima Delta 2 2 5
 	LUTNA, N34.17.53.60, E140.09.33.98, !, Lutna
@@ -133,17 +137,16 @@ beacons =
 	RUSDA, N35.56.47.49, E140.57.29.87, !, Rusda
 	SALLY, N34.53.33.89, E139.55.40.09, !, Sally
 	SCOUT, N35.06.24.07, E139.53.56.83, !, Scout
-	SELNO, N34.17.03.62, E139.07.28.68, !, Selno
+	SELNO, N34.17.03.62, E139.07.28.68, 0, Selno
 	SHAFT, N35.22.27.42, E140.13.13.31, 330, Shaft
 	SLICK, N35.04.12.71, E139.51.19.99, !, Slick
 	SOLAR, N34.59.09.24, E139.45.18.45, !, Solar
 	SPARK, N35.03.11.95, E140.14.16.72, !, Spark
-	SPENS, N34.42.53.37, E139.00.05.46, !, Spens
+	SPENS, N34.42.53.37, E139.00.05.46, 0, Spens
 	STING, N34.51.57.89, E140.14.53.44, 67, Sting
 	STOCK, N35.04.38.74, E140.30.02.93, !, Stock
 	STOWE, N35.03.25.91, E140.31.11.38, !, Stowe
-	TEDIX, N36.37.51.81, E140.19.37.41, !-197, Tedix
-	TOPIT, N34.11.41.45, E139.59.42.20, !, Topit
+	TEDIX, N36.37.51.81, E140.19.37.41, -197, Tedix
 	TT250, N35.01.29.7, E140.03.08.5, !, Tango Tango 2 5 0
 	TT251, N34.59.57.7, E140.11.36.0, !, Tango Tango 2 5 1
 	TT252, N35.00.39.9, E140.20.13.0, !, Tango Tango 2 5 2
@@ -386,16 +389,16 @@ beacons =
 	MAMAS, N34.27.33.98, E140.08.57.99, !, Mamas
 	GLARE, N36.00.47.83, E140.19.37.34, !, Glare
 	GLAXY, N36.30.59.70, E140.38.57.51, !, Galaxy
-	GURIP, N36.33.16.42, E140.37.36.49, !-205, Gurip
+	GURIP, N36.33.16.42, E140.37.36.49, -205, Gurip
 	KARMA, N35.50.42.86, E140.55.12.44, -168, Karma
-	LESPO, N35.46.36.00, E141.45.37.79, !, Lespo
+	LESPO, N35.46.36.00, E141.45.37.79, 0, Lespo
 	LUBLA, N35.32.35.04, E141.25.50.78, 341, Lubla
 	PLEIA, N36.07.34.84, E140.47.45.41, 141, Pleia
 	REGZA, N35.39.25.80, E141.08.09.06, !, Regza
 	RUTAS, N34.43.49.26, E140.40.34.19, 65, Rutas
 	SUPOK, N35.46.14.13, E141.28.10.04, 276, Supok
 	SWAMP, N36.19.14.44, E140.32.17.02, -205, Swamp
-	VAGLA, N35.01.33.45, E141.44.34.81, !, Vagla
+	VAGLA, N35.01.33.45, E141.44.34.81, 0, Vagla
 	VENUS, N35.04.40.08, E140.43.09.73, 13, Venus
 	VIXEN, N36.13.35.93, E140.39.47.14, !, Vixen
 #16L
@@ -495,6 +498,32 @@ beacons =
 #FAF
 	COSMO, N35.34.36.41, E140.30.38.59, !, Cosmo
 	LAPIS, N35.34.37.27, E140.32.33.16, !, Lapis
+
+handoff = 
+#T13 (Musashi Sector)
+	!KAGNA, Tokyo Control, Tokyo Control, 132.1
+	!SEDRI, Tokyo Control, Tokyo Control, 132.1
+	!MITOP, Tokyo Control, Tokyo Control, 132.1
+	!DALMA, Tokyo Control, Tokyo Control, 292.4
+#T12 (Kanto West Sector)
+	!NINOX, Tokyo Control, Tokyo Control, 120.5
+	!RITLA, Tokyo Control, Tokyo Control, 120.5
+	!BEKLA, Tokyo Control, Tokyo Control, 120.5
+	!TEPEX, Tokyo Control, Tokyo Control, 120.5
+#T10 (Kanto South B Sector)
+	!NURLI, Tokyo Control, Tokyo Control, 125.9
+	!NORIS, Tokyo Control, Tokyo Control, 125.9
+	!IRNOK, Tokyo Control, Tokyo Control, 125.9
+	!MERED, Tokyo Control, Tokyo Control, 318.2
+#T05 (Kazusa Sector)
+	!ANSAD, Tokyo Control, Tokyo Control, 120.97
+	!BORLO, Tokyo Control, Tokyo Control, 120.97
+	!GULBO, Tokyo Control, Tokyo Control, 120.97
+#T03 (Kanto North Sector)
+	!KIMIN, Tokyo Control, Tokyo Control, 124.1
+	!AGRIS, Tokyo Control, Tokyo Control, 124.1
+	!CLARK, Tokyo Control, Tokyo Control, 124.1
+	!JD, Tokyo Control, Tokyo Control, 276.1
 
 boundary = 
 #2
@@ -633,26 +662,26 @@ line2 =
 	N34.77588, E139.42617
 	N34.77544, E139.37002
 
-[airport1]
+[airport]
 name = Tokyo International Airport
 code = RJTT
 runways =
 #A RWY
-	RJTTRWYA, 34L, N035.32.11.760, E139.47.08.410, 329.88, 9842.52, 0, 1574.8, 18, 3, 329.88, 3, 149.88
+	RJTTRWYA, 34L, N035.32.11.760, E139.47.08.410, 329.88, 9842.52, 0, 1574.8, 18, 0, 329.88, 0, 149.88, 0, 0, 0, 0, 118.1
 ##duplicate for afternoon ops
-	RJTTRWYA2, 34L, N035.32.11.760, E139.47.08.410, 329.88, 9842.52, 0, 1574.8, 18, 3, 329.88, 3, 149.88
+	RJTTRWYA2, 34L, N035.32.11.760, E139.47.08.410, 329.88, 9842.52, 0, 1574.8, 18, 0, 329.88, 0, 149.88, 0, 0, 0, 0, 118.1
 #B RWY
-	RJTTRWYB, 22, N035.34.02.880, E139.46.37.610, 215.01, 8200, 0, 0, 35
+	RJTTRWYB, 22, N035.34.02.880, E139.46.37.610, 215.01, 8200, 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 118.57
 ##duplicate for LDA
-	RJTTRWYBLDA, 22C, N35.36.19.28, E139.46.16, 270, 8200, 0, 0, 35
+	RJTTRWYBLDA, 22C, N35.36.19.28, E139.46.16, 270, 8200, 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 118.57
 #C RWY
-	RJTTRWYC, 34R, N035.32.22.90, E139.48.18.490, 329.88, 11023.62, 1181.1, 1279.53, 21
+	RJTTRWYC, 34R, N035.32.22.90, E139.48.18.490, 329.88, 11023.62, 1181.1, 1279.53, 21, 0, 0, 0, 0, 0, 0, 0, 0, 124.35
 ##duplicate for afternoon ops
-	RJTTRWYC2, 34R, N035.32.22.90, E139.48.18.490, 329.88, 11023.62, 1181.1, 1279.53, 21
+	RJTTRWYC2, 34R, N035.32.22.90, E139.48.18.490, 329.88, 11023.62, 1181.1, 1279.53, 21, 0, 0, 0, 0, 0, 0, 0, 0, 124.35
 #D RWY
-	RJTTRWYD, 23, N035.32.26.150, E139.49.19.610, 222.56, 8200, 0, 0, 55, 3, 224.56
+	RJTTRWYD, 23, N035.32.26.150, E139.49.19.610, 222.56, 8200, 0, 0, 55, 3, 224.56, 0, 0, 0, 0, 0, 0, 124.35
 ##duplicate for LDA
-	RJTTRWYDLDA, 23C, N35.34.16.51, E139.49.58, 270, 8200, 0, 0, 55
+	RJTTRWYDLDA, 23C, N35.34.16.51, E139.49.58, 270, 8200, 0, 0, 55, 0, 0, 0, 0, 0, 0, 0, 0, 124.35
 
 climbaltitude = 15000
 
@@ -681,37 +710,17 @@ sids =
 
 entrypoints = 
 #Y71 SPENS Y71 XAC
-	243, XAC
-	243, XAC
-	243, XAC
-	243, XAC
-	243, XAC
-	243, XAC
-	243, XAC
-	243, XAC
-	243, XAC
-	243, XAC
+	242, SPENS, 22000, *10
 #Y21 SELNO Y21 AKSEL
-	222, RUNSO
-	222, RUNSO
-	222, RUNSO
-	222, RUNSO
-	222, RUNSO
-	222, RUNSO
+	223, SELNO, 23000, *6
 #Y824 DOLBA Y824 AROSA
-	119, AROSA
+	123, DOLBA, 22000
 #Y87 TOPIT Y875 AROSA
-	200, RURER
+	193, TOPIT, 22000
 #Y10 GODIN
-	0, GODIN
-	0, GODIN
-	0, GODIN
-	0, GODIN
-	0, GODIN
-	0, GODIN
-	0, GODIN
+	359, TEDIX, 16000, *7
 #Y807 LALID Y807 POLIX
-	67, MILIT
+	64, LALID, 16000
 
 airlines = 
 #rjcc
@@ -732,7 +741,7 @@ airlines =
 #domestic
 	ana, 400, b772/b773/b789, nsw
 	ana, 600, b763/b788, nsw
-	ana, 800, b737/b738/a320/a321/a21n, nsw
+	ana, 800, b738/a320/a321/a21n, nsw
 	jal, 400, b772/b773/a359, nsw
 	jal, 600, b763/b788, nsw
 	jal, 900, b738, nsw
@@ -791,7 +800,7 @@ airlines =
 	vda, 5, a124, nswe
 	adb, 1, a124, nswe
 #jasdf
-	_jf-1, 10, b77w, nswe
+	_jf-1-, 10, b77w, nswe
 	cygns-1, 10, b77w, nswe
 #jcg
 	jcg-11, 100, glf5, nsw
@@ -802,54 +811,63 @@ airlines =
 	ja-12ab, 5, c25m/c525/c25a/c510/hdjt/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f2th, nswe
 	ja-1234, 5, c25m/c525/c25a/c510/hdjt/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f2th, nswe
 	n-123ab, 5, b737/b738/b763/a319, nswe
-	_af-1, 1, b744, we
-	code-1, 1, b744, w
-	_cf-1, 1, a310, we
-	cotam-1, 1, a332, nw
+#vip
+	_af-1-, 1, b742, we
+	code-1-, 1, b744, w
+	_cf-1-, 1, a310, we
+	cotam-1-, 1, a332, nw
 	bga-1, 1, a3st/a337, nswe
-	m-abcd, 1, a343, nw
-	ur-aba, 1, a319, nw
-	svw, 2, a318/a319/b739/b763/glex, nswe
+	m-iabu-, 1, a343, nw
+	ukn, 1, a319, nw
+	svw, 3, a318/a319/b739/b763/glex, nswe
 	auh, 1, b772/b773/b788/b789, w
 	aws, 1, b737, w
-	hb-abc, 1, a319, w
-	ph-gov, 1, b737, nw
-	lx-lti, 1, a318, nw
-	qaf, 1, a332/a342/a343/a345/b748, w
-	gaf-1, 1, a343, nw
+	num, 1, a319, w
+	ph-gov-, 1, b737, nw
+	qaf, 1, a342/a343/a345/b748, w
+	gaf-1-, 1, a343, nw
 	sva, 1, a342, w
-	aic-1, 1, b744, w
-	5u-grn, 1, b737, w
-	ame-1, 1, a310, nw
-	brs-1, 1, a319, we
-	asy-1, 1, b737, sw
-	ssg-1, 1, a319, nw
+	aic-1-, 1, b744, w
+	niger-1-, 1, b737, w
+	ame-1-, 1, a310, nw
+	brs-1-, 1, a319, we
+	brs, 1, e190, we
+	asy-1-, 1, b737, sw
+	ssg-1-, 1, a319, nw
 	saa, 1, a346, w
-	trk-1, 1, a332/b748, w
-	cca-1, 1, b744, w
-	ivy0-1, 1, a319, w
+	trk-1-, 1, a332/b748, w
+	cca-1-, 1, b744/a332, w
+	ivy-01-, 1, a319, w
 	b-1234, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/fa7x, w
 	vjt, 1, glex, nswe
 	d-abcd, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/fa8x, n
 	cf-abc, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f900, e
 	vp-abc, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f900/b737, nw
-	2-abcd, 1, b788, w
-	kac-1, 1, a345, w
-	bah-1, 1, glf6, w
+	2-abcd-, 1, b788, w
+	kug-1-, 1, a345, w
+	bah-1-, 1, glf6/b764, w
 	b-12345, 2, c25m/c525/c25a/c510/hdjt/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/e135, sw
-	rsd-1, 1, il96, w
+	rsd-1-, 1, il96, w
+	tua, 1, b77l, nw
+	orf, 1, b74s, w
+	rmaf-100, 1, b738, w
+	v8-oas-, 1, b788, w
+	sui, 1, f900, n
+	bec-001-, 1, a332, nw
+	vp-cmd-, 1, glf5, w
+	3a-mga-, 1, fa8x, nw
 
 
-[airport2]
+[airport]
 name = Narita
-code = AA
+code = AA, RJAA
 traffic = 3
 
 runways =
 #A RWY
-	RJAARWYA, 34L, N35.44.35.96, E140.23.26.66, 329.51, 13123.36, 0, 0, 135
+	RJAARWYA, 34L, N35.44.35.96, E140.23.26.66, 329.51, 13123.36, 0, 0, 135, 0, 0, 0, 0, 0, 0, 0, 0, 118.2
 #B RWY
-	RJAARWYB, 34R, N35.47.08.82, E140.23.31.72, 329.51, 8202.1, 0, 0, 137
+	RJAARWYB, 34R, N35.47.08.82, E140.23.31.72, 329.51, 8202.1, 0, 0, 137, 0, 0, 0, 0, 0, 0, 0, 0, 118.35
 
 climbaltitude = 7000
 
@@ -873,24 +891,15 @@ sids =
 
 entrypoints = 
 #Y81 RUTAS
-	209, BAFFY
-	209, BAFFY
-	209, BAFFY
-	209, BAFFY
-	209, BAFFY
-	209, BAFFY
-	209, BAFFY
+	207, MOE, 30000, *7
 #Y87 BAFFY Y81 RUTAS
-	190, BAFFY
-#Y813 LUBLA
-	115, LUBLA
+	193, TOPIT, 24000
+#Y813 VAGLA
+	107, VAGLA, 15000
 #Y30 SWAMP/(R211 SWAMP)
-	12, SWAMP
-	12, SWAMP
-	12, SWAMP
-	12, SWAMP
+	12, GURIP, 15000, *4
 #Y809 SUPOK
-	73, SUPOK
+	73, LESPO, 15000
 
 airlines = 
 	ana, 800, b77w, nse
@@ -1066,21 +1075,27 @@ airlines =
 	vp-abc, 1, c25m/c525/c25a/c510/glf4/glf5/glf6/lj35/lj60/gl5t/glex/cl30/cl35/cl60/f900/b737, nw
 	n-123ab, 5, b737/b738/b763/a319, nswe
 	vjt, 1, glex, nswe
-#	ja-123a, 100, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, nswe
-#	ja-12ab, 100, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, nswe
-#	ja-1234, 100, be58/p46t/t206/c172/kodi/p68/pa46/c25m/c525/c25a/hdjt/glf5/glf6, nswe
+#vip
+	qaf, 2, a319/a332, nw
+	3dc-sdf-, 1, a343, w
+	iam, 1, a319, nw
+	idaf-1-, 1, b738, w
+	rmf, 1, a320, w
+	a6-cas-, 1, a318, w
+	sva, 1, b77l, w
+	esw, 1, glf6, w
+	rja, 1, glf6, w
 
 
-
-[airport3]
+[airport]
 name = Shimofusa
-code = TL
+code = TL, RJTL
 inboundbeacon = MESSE
 
 traffic = 180
 
 runways =
-	RJTLRWY, 19, N35.809078, N140.011968, 179, 7400, 0, 0, 91
+	RJTLRWY, 19, N35.809078, E140.011968, 179, 7400, 0, 0, 91, 0, 0, 0, 0, 0, 0, 0, 0, 325.4
 
 climbaltitude = 3000
 
@@ -1093,17 +1108,17 @@ sids =
 
 entrypoints = 
 #Y71 XAC
-	243, XAC
+	243, XAC, 24000
 #MERED KAMOG
-	135, KAMOG
+	135, KAMOG, 8000
 #KOGAR LEMUM
-#	330, TOHNE
+#	330, TOHNE, 5000
 #HAGAR KIDOR
-	350, ASEKI
+	350, ASEKI, 10000
 
 airlines = 
 	atlas-12, 100, p3, ns
-	tmboy-1, 10, ys11, ns
+	tmby-1, 10, ys11, ns
 	tryer-1, 1, h25b, w
 	tarsel-12, 1, be9l, nsw
 	neptn-12, 1, p1, nsw
@@ -1112,7 +1127,7 @@ airlines =
 	cupid-1, 1, lj35, sw
 
 
-[airport4]
+[airport]
 name = Chofu
 code = TF
 inboundbeacon = HME
@@ -1120,7 +1135,7 @@ inboundbeacon = HME
 traffic = 60
 
 runways =
-	RJTFRWY, 17, N35.40.29.98, E139.31.35.94, 163.2, 2624.67, 0, 0, 139
+	RJTFRWY, 17, N35.40.29.98, E139.31.35.94, 163.2, 2624.67, 0, 0, 139, 0, 0, 0, 0, 0, 0, 0, 0, 130.8
 
 sids = 
 	!KOSKA
@@ -1132,28 +1147,46 @@ sids =
 
 climbaltitude = 7000
 
-[airport5]
+[airport]
 name = Oshima
 code = TO
 inboundbeacon = XAC
 traffic = 60
 
 runways = 
-	RJTORWY, 03, N34.46.27.00, E139.21.24.87, 20.15, 5905.51, 0, 0, 129
+	RJTORWY, 03, N34.46.27.00, E139.21.24.87, 20.15, 5905.51, 0, 0, 129, 0, 0, 0, 0, 0, 0, 0, 0, 118.6
 
 climbaltitude = 4000
 
-[airport6]
+[airport]
 name = Niijima
 code = AN
 inboundbeacon = XAC
 traffic = 60
 
 runways = 
-	RJANRWY, 11, N34.22.13.11, E139.15.51.44, 102.32, 2624.67, 0, 0, 94
+	RJANRWY, 11, N34.22.13.11, E139.15.51.44, 102.32, 2624.67, 0, 0, 94, 0, 0, 0, 0, 0, 0, 0, 0, 124.3
+
+[airport]
+name = Kisarazu
+code = TK
+inboundbeacon = KZT
+traffic = 1000
+
+runways = 
+	RJTKRWY, 02, N35.390328, E139.907316, 15.38, 6000, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 236.8
+
+[airport]
+name = Tateyama
+code = TE
+inboundbeacon = TET
+traffic = 1000
+
+runways = 
+	RJTERWY, 09, N34.986864105152655, E139.82756895368658, 85.11, 984.25, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 233.8
 
 #TOKYO CTR 3000/SFC / TOKYO PCA NR1 4000/3000 (EXC 3000)
-[area1]
+[area]
 shape = circle
 altitude = 4001
 radius = 5
@@ -1161,7 +1194,7 @@ position = N35.33.12, E139.46.52
 labelpos = N35.33.22, E139.43.52
 
 #TOKYO PCA NR1 SOUTH 4000/700
-[area2]
+[area]
 shape = polygon
 altitude = 4001
 draw = 1
@@ -1177,7 +1210,7 @@ points =
 	N35.28.12, E139.47.09
 
 #TOKYO PCA NR1 SOUTH 5000/1000
-[area3]
+[area]
 shape = polygon
 altitude = 5001
 draw = 1
@@ -1193,7 +1226,7 @@ points =
 	N35.25.57, E139.48.45
 
 #TOKYO PCA NR1 SOUTH 6000/1500
-[area4]
+[area]
 shape = polygon
 altitude = 6001
 draw = 1
@@ -1209,7 +1242,7 @@ points =
 	N35.23.47, E139.50.18
 
 #TOKYO PCA NR1 SOUTH 6000/2000
-[area5]
+[area]
 shape = polygon
 altitude = 6001
 draw = 1
@@ -1225,7 +1258,7 @@ points =
 	N35.22.28, E139.51.14
 
 #TOKYO PCA NR1 SOUTH 6000/2500
-[area6]
+[area]
 shape = polygon
 altitude = 6001
 draw = 1
@@ -1241,7 +1274,7 @@ points =
 	N35.19.57, E139.53.00
 
 #TOKYO PCA NR1 SOUTH 6000/3000
-[area7]
+[area]
 shape = polygon
 altitude = 6001
 draw = 1
@@ -1257,7 +1290,7 @@ points =
 	N35.18.20, E139.54.09
 
 #TOKYO PCA NR1 EAST 4000/700
-[area8]
+[area]
 shape = polygon
 altitude = 4001
 draw = 1
@@ -1277,7 +1310,7 @@ points =
 	N35.32.13, E139.52.53
 
 #TOKYO PCA NR1 EAST 5000/1000
-[area9]
+[area]
 shape = polygon
 altitude = 5001
 draw = 3
@@ -1301,7 +1334,7 @@ points =
 	N35.37.58, E139.52.35
 
 #TOKYO PCA NR1 EAST 6000/1500
-[area10]
+[area]
 shape = polygon
 altitude = 6001
 draw = 3
@@ -1326,7 +1359,7 @@ points =
 
 #TOKYO PCA NR1 EAST 6000/2000
 #display
-[area11]
+[area]
 shape = polygon
 altitude = -1
 draw = 3
@@ -1350,7 +1383,7 @@ points =
 	N35.41.05, E139.56.23
 
 #effective (cutout for RJTL)
-[area12]
+[area]
 shape = polygon
 altitude = 6001
 draw = 8
@@ -1375,7 +1408,7 @@ points =
 
 #TOKYO PCA NR1 EAST 6000/2500
 #display
-[area13]
+[area]
 shape = polygon
 altitude = -1
 draw = 3
@@ -1403,7 +1436,7 @@ points =
 	N35.42.57, E139.58.39
 
 #effective (cutout for RJTL)
-[area14]
+[area]
 shape = polygon
 altitude = 6001
 draw = 6
@@ -1424,7 +1457,7 @@ points =
 
 #TOKYO PCA NR1 EAST 6000/3000
 #display
-[area15]
+[area]
 shape = polygon
 altitude = -1
 draw = 3
@@ -1450,7 +1483,7 @@ points =
 	N35.45.02, E139.59.05
 
 #effective (cutout for RJTL)
-[area16]
+[area]
 shape = polygon
 altitude = 6001
 draw = 5
@@ -1471,7 +1504,7 @@ points =
 
 #TOKYO PCA NR1 EAST 6000/3500
 #display only
-[area17]
+[area]
 shape = polygon
 altitude = -1
 draw = 3
@@ -1489,7 +1522,7 @@ points =
 	N35.45.23, E139.55.26
 
 #effective (cutout for RJTL)
-[area18]
+[area]
 shape = polygon
 altitude = 6001
 draw = 3
@@ -1503,7 +1536,7 @@ points =
 	N35.47.33, E139.55.16
 
 #TOKYO PCA NR2 4000/700 (EXC 4000 & 700)
-[area19]
+[area]
 shape = polygon
 altitude = 4000
 draw = 1
@@ -1519,7 +1552,7 @@ points =
 	N35.38.12, E139.47.00
 
 #TOKYO PCA NR2 4000/1000 (EXC 4000 & 1000)
-[area20]
+[area]
 shape = polygon
 altitude = 4000
 draw = 1
@@ -1535,7 +1568,7 @@ points =
 	N35.40.00, E139.45.44
 
 #TOKYO PCA NR2 4500/1500 (EXC 4500 & 1500)
-[area21]
+[area]
 shape = polygon
 altitude = 4500
 draw = 1
@@ -1555,7 +1588,7 @@ points =
 	N35.41.19, E139.44.48
 
 #TOKYO PCA NR2 6000/2000 (EXC 6000 & 2000)
-[area22]
+[area]
 shape = polygon
 altitude = 6000
 draw = 1
@@ -1571,7 +1604,7 @@ points =
 	N35.42.39, E139.43.57
 
 #NARITA CTR 3000/SFC
-[area23]
+[area]
 shape = circle
 altitude = 3001
 name = AA
@@ -1581,7 +1614,7 @@ labelpos = N35.47.55, E140.25.58
 draw = 2.45, 7.65
 
 #NARITA CTR 3000/SFC
-[area24]
+[area]
 shape = polygon
 altitude = 3001
 name = AA
@@ -1594,7 +1627,7 @@ points =
 	N35.48.26, E140.17.49
 
 #NARITA PCA SOUTH 4000/700
-[area25]
+[area]
 shape = polygon
 altitude = 4001
 name = AA
@@ -1607,7 +1640,7 @@ points =
 	N35.43.52, E140.28.45
 
 #NARITA PCA SOUTH 5000/1500
-[area26]
+[area]
 shape = polygon
 altitude = 5001
 name = AA
@@ -1620,7 +1653,7 @@ points =
 	N35.40.08, E140.31.28
 
 #NARITA PCA SOUTH 6000/2000
-[area27]
+[area]
 shape = polygon
 altitude = 6001
 name = AA
@@ -1633,7 +1666,7 @@ points =
 	N35.37.51, E140.33.08
 
 #NARITA PCA SOUTH 6000/3000
-[area28]
+[area]
 shape = polygon
 altitude = 6001
 name = AA
@@ -1646,7 +1679,7 @@ points =
 	N35.35.39, E140.34.43
 
 #NARITA PCA NORTH 6000/700
-[area29]
+[area]
 shape = polygon
 altitude = 6001
 name = AA
@@ -1661,7 +1694,7 @@ points =
 	N35.52.38, E140.22.25
 
 #NARITA PCA NORTH 6000/1500
-[area30]
+[area]
 shape = polygon
 altitude = 6001
 name = AA
@@ -1676,7 +1709,7 @@ points =
 	N35.52.09, E140.17.02
 
 #NARITA PCA NORTH 6000/2000
-[area31]
+[area]
 shape = polygon
 altitude = 6001
 name = AA
@@ -1691,7 +1724,7 @@ points =
 	N35.57.43, E140.18.43
 
 #NARITA PCA NORTH 6000/3000
-[area32]
+[area]
 shape = polygon
 altitude = 6001
 name = AA
@@ -1712,7 +1745,7 @@ points =
 	N36.00.23, E140.17.23
 
 #KASUMIGAURA CTR 3000/SFC (EXC 3000)
-[area33]
+[area]
 shape = circle
 altitude = 3000
 name = AK
@@ -1721,7 +1754,7 @@ position = N36.02.05, E140.11.34
 labelpos = N36.05.05, E140.08.00
 
 #TOKYO ACA FL240/FL180 (EXC FL180)
-[area34]
+[area]
 shape = polygon
 altitude = 18001
 name = TY
@@ -1738,7 +1771,7 @@ points =
 	N36.02.23, E139.18.42
 
 #TOKYO ACA FL240/12000 (EXC 12000)
-[area35]
+[area]
 shape = polygon
 altitude = 12001
 name = TY
@@ -1759,7 +1792,7 @@ points =
 	N35.56.26, E139.09.39
 
 #TOKYO ACA FL240/FL140 (EXC FL140)
-[area36]
+[area]
 shape = polygon
 altitude = 14001
 name = TY
@@ -1778,7 +1811,7 @@ points =
 	N35.21.34, E139.08.12
 
 #TOKYO ACA FL240/8000 (EXC 8000)
-[area37]
+[area]
 shape = polygon
 altitude = 8001
 name = TY
@@ -1813,7 +1846,7 @@ points =
 	N35.52.18, E139.26.08
 
 #TOKYO ACA FL240/13000 (EXC 13000)
-[area38]
+[area]
 shape = polygon
 altitude = 13001
 name = AH
@@ -1828,7 +1861,7 @@ points =
 	N36.35.40, E140.28.12
 
 #TOKYO ACA FL240/10000 (EXC 10000)
-[area39]
+[area]
 shape = polygon
 altitude = 10001
 name = AH
@@ -1853,7 +1886,7 @@ points =
 	N36.35.40, E140.28.12
 
 #TOKYO ACA FL240/7000 (EXC 7000)
-[area40]
+[area]
 shape = polygon
 altitude = 7001
 name = AH
@@ -1884,7 +1917,7 @@ points =
 	N36.37.52, E140.19.37
 
 #TOKYO ACA FL240/8000 over RJAH, WEST (EXC 8000)
-[area41]
+[area]
 shape = polygon
 altitude = 8001
 name = AH
@@ -1905,7 +1938,7 @@ points =
 	N36.11.52, E140.26.23
 
 #TOKYO ACA FL240/8000 over RJAH, EAST (EXC 8000)
-[area42]
+[area]
 shape = polygon
 altitude = 8001
 name = AH
@@ -1924,7 +1957,7 @@ points =
 	N36.05.03, E141.00.17
 
 #TOKYO ACA FL240/6000
-[area43]
+[area]
 shape = polygon
 altitude = 6000
 name = AH
@@ -1953,7 +1986,7 @@ points =
 	N36.05.03, E141.00.17
 
 #TOKYO ACA FL240/5000
-[area44]
+[area]
 shape = polygon
 altitude = 5000
 name = AH
@@ -1970,7 +2003,7 @@ points =
 	N36.02.50, E140.38.03
 
 #TOKYO ACA FL240/4000
-[area45]
+[area]
 shape = polygon
 altitude = 4000
 name = AH
@@ -1989,7 +2022,7 @@ points =
 	N36.04.07, E140.31.12
 
 #TOKYO ACA FL240/2500 (EXC 2500)
-[area46]
+[area]
 shape = polygon
 altitude = 2501
 name = AH
@@ -2006,7 +2039,7 @@ points =
 	N35.57.32, E140.29.39
 
 #TOKYO ACA FL240/1800 (EXC 1800)
-[area47]
+[area]
 shape = polygon
 altitude = 1801
 name = AH
@@ -2023,7 +2056,7 @@ points =
 	N36.00.23, E140.17.23
 
 #TOKYO ACA FL240/3000
-[area48]
+[area]
 shape = polygon
 altitude = 3000
 name = AH
@@ -2044,7 +2077,7 @@ points =
 	N36.00.23, E140.17.23
 
 #TOKYO ACA FL240/4000
-[area49]
+[area]
 shape = polygon
 altitude = 4000
 name = AH
@@ -2067,7 +2100,7 @@ points =
 	N36.07.05, E140.11.34
 
 #UTSUNOMIYA ACA 4000/SFC
-[area50]
+[area]
 shape = circle
 altitude = 4001
 name = TU
@@ -2077,7 +2110,7 @@ labelpos = N36.22.00, E139.56.33.13
 draw = 4.55, 6.39
 
 #R-116
-[area51]
+[area]
 shape = polygon
 altitude = 12001
 name = R-116
@@ -2089,7 +2122,7 @@ points =
 	N34.31.12, E140.07.48
 
 #KISARAZU CTR BLW 1000, BLW 1500, BLW 2000
-[area52]
+[area]
 shape = circle
 altitude = 1500
 name = TK
@@ -2098,7 +2131,7 @@ position = N35.23.53.81, E139.54.35.34
 labelpos = N35.26.42, E139.57.47
 
 #SHIMOFUSA CTR 2000/SFC
-[area53]
+[area]
 shape = circle
 altitude = 2001
 name = TL
@@ -2107,7 +2140,7 @@ position = N35.47.56, E140.00.44
 labelpos = N35.48.56, E140.03.44
 
 #TATEYAMA CTR 2000/SFC
-[area54]
+[area]
 shape = circle
 altitude = 2001
 name = TE
@@ -2116,7 +2149,7 @@ position = N34.59.15, E139.49.55
 labelpos = N35.00.15, E139.46.55
 
 #OSHIMA IZ 3000/SFC
-[area55]
+[area]
 shape = circle
 altitude = 3001
 name = TO
@@ -2125,7 +2158,7 @@ position = N34.46.55, E139.21.37
 labelpos = N34.47.55, E139.23.37
 
 #NIIJIMA IZ 3000/SFC
-[area56]
+[area]
 shape = circle
 altitude = 3001
 name = AN
@@ -2134,7 +2167,7 @@ position = N34.22.10, E139.16.07
 labelpos = N34.23.10, E139.18.07
 
 #YOKOTA ACA 8000/SFC (EXC 8000)
-[area57]
+[area]
 shape = polygon
 altitude = 8001
 labelpos = N35.49.51, E139.36.00
@@ -2149,35 +2182,35 @@ points =
 #end cut-out
 
 #SHAFT arcs
-[area58]
+[area]
 shape = circle
 altitude = -1
 radius = 5
 position = N35.22.27.42, E140.13.13.31
 draw = 3.8, 5.28835
 
-[area59]
+[area]
 shape = circle
 altitude = -1
 radius = 10
 position = N35.22.27.42, E140.13.13.31
 draw = 3.8, 5.28835
 
-[area60]
+[area]
 shape = circle
 altitude = -1
 radius = 15
 position = N35.22.27.42, E140.13.13.31
 draw = 3.8, 5.28835
 
-[area61]
+[area]
 shape = circle
 altitude = -1
 radius = 20
 position = N35.22.27.42, E140.13.13.31
 draw = 3.8, 5.28835
 
-[area62]
+[area]
 shape = circle
 altitude = -1
 radius = 25
@@ -2185,28 +2218,28 @@ position = N35.22.27.42, E140.13.13.31
 draw = 3.8, 5.28835
 
 #WEDGE arcs
-[area63]
+[area]
 shape = circle
 altitude = -1
 radius = 5
 position = N35.09.00.44, E139.58.46.52
 draw = 4, 5.88176
 
-[area64]
+[area]
 shape = circle
 altitude = -1
 radius = 10
 position = N35.09.00.44, E139.58.46.52
 draw = 4, 5.88176
 
-[area65]
+[area]
 shape = circle
 altitude = -1
 radius = 15
 position = N35.09.00.44, E139.58.46.52
 draw = 4, 5.88176
 
-[area66]
+[area]
 shape = circle
 altitude = -1
 radius = 20
@@ -2214,21 +2247,21 @@ position = N35.09.00.44, E139.58.46.52
 draw = 4, 5.88176
 
 #CREAM arcs
-[area67]
+[area]
 shape = circle
 altitude = -1
 radius = 5
 position = N35.17.43.35, E140.06.12.42
 draw = 5.8, 7.4351
 
-[area68]
+[area]
 shape = circle
 altitude = -1
 radius = 10
 position = N35.17.43.35, E140.06.12.42
 draw = 5.8, 7.4351
 
-[area69]
+[area]
 shape = circle
 altitude = -1
 radius = 15
@@ -2236,21 +2269,21 @@ position = N35.17.43.35, E140.06.12.42
 draw = 5.8, 7.4351
 
 #NEURO arcs
-[area70]
+[area]
 shape = circle
 altitude = -1
 radius = 5
 position = N35.57.27.61, E139.54.41.30
 draw = 5.8, 7.4002
 
-[area71]
+[area]
 shape = circle
 altitude = -1
 radius = 10
 position = N35.57.27.61, E139.54.41.30
 draw = 5.8, 7.4002
 
-[area72]
+[area]
 shape = circle
 altitude = -1
 radius = 15
@@ -2258,28 +2291,28 @@ position = N35.57.27.61, E139.54.41.30
 draw = 5.8, 7.4002
 
 #PEAKS arcs
-[area73]
+[area]
 shape = circle
 altitude = -1
 radius = 5
 position = N35.25.07.15, E140.43.52.65
 draw = 4.5, 6.70206
 
-[area74]
+[area]
 shape = circle
 altitude = -1
 radius = 10
 position = N35.25.07.15, E140.43.52.65
 draw = 4.5, 6.70206
 
-[area75]
+[area]
 shape = circle
 altitude = -1
 radius = 15
 position = N35.25.07.15, E140.43.52.65
 draw = 4.5, 6.70206
 
-[area76]
+[area]
 shape = circle
 altitude = -1
 radius = 20
@@ -2287,21 +2320,21 @@ position = N35.25.07.15, E140.43.52.65
 draw = 4.5, 6.70206
 
 #CASIO arcs
-[area77]
+[area]
 shape = circle
 altitude = -1
 radius = 5
 position = N35.50.21.35, E140.35.56.06
 draw = 5.4, 7
 
-[area78]
+[area]
 shape = circle
 altitude = -1
 radius = 10
 position = N35.50.21.35, E140.35.56.06
 draw = 5.4, 7
 
-[area79]
+[area]
 shape = circle
 altitude = -1
 radius = 15
@@ -2314,36 +2347,36 @@ draw = 5.4, 7
 #---RJTT 34 IAFs
 
 #ILS Z RWY 34L
-[approach1]
+[approach]
 runway = RJTTRWYA
 beacon = APOLO
-route1 = @!ILSZ34L
+route = @ILSZ34L
 	337
-	!ARLON
-	19.4, 5000, 200
+	!ARLON, 0, 200
+	15.5, 5000, 200
 #APOLO +5000
 
-[approach2]
+[approach]
 runway = RJTTRWYA
 beacon = ARLON
 
-route1 = 
+route = 
 	337
 	@ILSZ34L
 
 #ILS Z RWY 34L
-route2 = 
+route = 
 	76
 	@ILSZ34L
 
 #ILS Z RWY 34L from CREAM
-route3 = @ILSZ34LCREAM
+route = @ILSZ34LCREAM
 	256
 	!CREAM
 	@ILSZ34L
 
 #ILS X RWY 34L
-route4 = @ILSX34L
+route = @ILSX34L
 	110
 	!KAIHO, 4000, 180
 	!AVION, 2000
@@ -2352,36 +2385,36 @@ route4 = @ILSX34L
 #AZURE
 
 #ILS Z RWY 34R
-[approach3]
+[approach]
 runway = RJTTRWYC
 beacon = CACAO
 
-route1 = @!ILSZ34R
+route = @!ILSZ34R
 	270
 	!CAMEL
 	17.6, 4000, 200
 #CACAO
 	
 
-[approach4]
+[approach]
 runway = RJTTRWYC
 beacon = CAMEL
 
 #ILS Z RWY 34R from CREAM
-route1 = @ILSZ34RCREAM
+route = @ILSZ34RCREAM
 	270
 	!CREAM, 4000
 	!CLOAK
 	@ILSZ34R
 
 #ILS Z RWY 34R from ARLON
-route2 = @ILSZ34RARLON
+route = @ILSZ34RARLON
 	6
 	!ARLON
 	@ILSZ34R
 
 #ILS Y RWY 34R
-route3 = @ILSY34R
+route = @ILSY34R
 	110
 	!KAIHO, 4000, 180
 	!CURVY, 2000
@@ -2389,30 +2422,30 @@ route3 = @ILSY34R
 	6.4, 1500, 160
 #CREST
 
-[approach5]
+[approach]
 runway = RJTTRWYA
 beacon = ARLON
 
 #ILS Z RWY 34L
-route1 = 
+route = 
 	337
 	@ILSZ34L
 
-[approach6]
+[approach]
 runway = RJTTRWYC
 beacon = ARLON
 
 #ILS Z RWY 34R from ARLON
-route1 = 
+route = 
 	6
 	@ILSZ34RARLON
 
-[approach7]
+[approach]
 runway = RJTTRWYC
 beacon = CREAM
 
 #ILS Z RWY 34R from CREAM
-route1 = 
+route = 
 	247
 	@ILSZ34RCREAM
 
@@ -2425,29 +2458,29 @@ route1 =
 #	256
 #	@ILSZ34LCREAM
 
-[approach8]
+[approach]
 runway = RJTTRWYA
 beacon = KAIHO
 
-route1 = 
+route = 
 	353
 	@ILSX34L
 
-[approach9]
+[approach]
 runway = RJTTRWYC
 beacon = KAIHO
 
-route1 = 
+route = 
 	353
 	@ILSY34R
 
 
 #---RJTT 34L A STARs
 
-[approach10]
+[approach]
 runway = RJTTRWYA
 beacon = XAC
-route1 = @XAC1A
+route = @XAC1A
 	98
 	!XAC
 	!ACORN, 13000, 230, !68
@@ -2460,10 +2493,10 @@ route1 = @XAC1A
 	@ILSZ34L
 
 
-[approach11]
+[approach]
 runway = RJTTRWYA
 beacon = RUNSO
-route1 = @Y21AKSEL1A
+route = @Y21AKSEL1A
 	74
 	!RUNSO
 	!AKSEL, 12000, 230, !38@AKSEL1A
@@ -2474,10 +2507,10 @@ route1 = @Y21AKSEL1A
 	@WEDGE34L
 
 
-[approach12]
+[approach]
 runway = RJTTRWYA
 beacon = RURER
-route1 = @Y875AROSA1A
+route = @Y875AROSA1A
 	7
 	!RURER
 	!AROSA, !277@AROSA1A
@@ -2491,10 +2524,10 @@ route1 = @Y875AROSA1A
 
 #---RJTT 34R C STARs
 
-[approach13]
+[approach]
 runway = RJTTRWYC
 beacon = GODIN
-route1 = @GODIN1C
+route = @GODIN1C
 	197
 	!GODIN
 	!CHIPS, 13000, !197@CHIPS34R
@@ -2507,10 +2540,10 @@ route1 = @GODIN1C
 	!EDDIE, 8000, 210, !186
 	@ILSZ34RCREAM
 
-[approach14]
+[approach]
 runway = RJTTRWYC
 beacon = MILIT
-route1 = @Y807POLIX1C
+route = @Y807POLIX1C
 	278
 	!MILIT
 	!RUSDA, !277
@@ -2521,10 +2554,10 @@ route1 = @Y807POLIX1C
 
 #---RJTT 34R 2C STARs
 
-[approach15]
+[approach]
 runway = RJTTRWYC
 beacon = XAC
-route1 = @XAC2C
+route = @XAC2C
 	98
 	!XAC
 	!CLONE, !95@CLONE34R
@@ -2538,22 +2571,22 @@ route1 = @XAC2C
 	@ILSZ34RCREAM
 
 
-[approach16]
+[approach]
 runway = RJTTRWYC
 beacon = RUNSO
 
-route1 = @Y21AKSEL2C
+route = @Y21AKSEL2C
 	38
 	!RUNSO
 	!AKSEL, !38@AKSEL2C
 	@CLONE34R
 
 
-[approach17]
+[approach]
 runway = RJTTRWYC
 beacon = RURER
 
-route1 = @Y875AROSA2C
+route = @Y875AROSA2C
 	74
 	!RURER
 	!AROSA, !277@AROSA2C
@@ -2562,11 +2595,11 @@ route1 = @Y875AROSA2C
 	!TT461
 	@CIVIC34R
 
-[approach18]
+[approach]
 runway = RJTTRWYC
 beacon = WEDGE
 
-route1 = @WEDGE34R
+route = @WEDGE34R
 	9
 	!WEDGE, 8000
 	@ILSZ34RARLON
@@ -2574,21 +2607,21 @@ route1 = @WEDGE34R
 
 #---RJTT 34L/34R 1K STARs (partial)
 
-[approach19]
+[approach]
 runway = RJTTRWYA
 beacon = UMUKI
 
-route1 = @UMUKI34L
+route = @UMUKI34L
 	300
 	!UMUKI
 	@ILSX34L
 
 
-[approach20]
+[approach]
 runway = RJTTRWYC
 beacon = UMUKI
 
-route1 = @UMUKI34R
+route = @UMUKI34R
 	300
 	!UMUKI
 	@ILSY34R
@@ -2598,28 +2631,28 @@ route1 = @UMUKI34R
 
 #ILS RWY 22
 
-[approach21]
+[approach]
 runway = RJTTRWYB
 beacon = NITRO
 
-route1 = @!ILS22
+route = @!ILS22
 	222
 	!NEXUS, 5000, 200
 	16.8, 5000, 200
 #NITRO 5000
 
 
-[approach22]
+[approach]
 runway = RJTTRWYB
 beacon = NEXUS
 
-route1 = @ILS22NYLON
+route = @ILS22NYLON
 	300
 	!NYLON, 5000
 	!NIFTY, 5000
 	@ILS22
 
-route2 = @ILS22STEAM
+route = @ILS22STEAM
 	175
 	!STEAM
 	!NINJA
@@ -2627,56 +2660,56 @@ route2 = @ILS22STEAM
 
 
 #ILS Z RWY 23
-[approach23]
+[approach]
 runway = RJTTRWYD
 beacon = SALVO
 
-route1 = @!ILSZ23
+route = @!ILSZ23
 	232
 	!SMILE, 4000, 200
 	17.1, 4000, 200
 #SALVO
 
-[approach24]
+[approach]
 runway = RJTTRWYD
 beacon = SMILE
 
-route1 = @ILSZ23STEAM
+route = @ILSZ23STEAM
 	160
 	!STEAM, 4000
 	!SWEET, 4000
 	!SNAKE, 4000
 	@ILSZ23
 
-route2 = @ILSZ23NYLON
+route = @ILSZ23NYLON
 	322
 	!NYLON
 	@ILSZ23
 
 
-[approach25]
+[approach]
 runway = RJTTRWYB
 beacon = NYLON
 
-route1 = 
+route = 
 	300
 	@ILS22NYLON
 
 
-[approach26]
+[approach]
 runway = RJTTRWYD
 beacon = NYLON
 
-route1 = 
+route = 
 	322
 	@ILSZ23NYLON
 
 
-[approach27]
+[approach]
 runway = RJTTRWYD
 beacon = STEAM
 
-route1 = 
+route = 
 	160
 	@ILSZ23STEAM
 
@@ -2692,11 +2725,11 @@ route1 =
 
 #---RJTT 1N
 
-[approach28]
+[approach]
 runway = RJTTRWYB
 beacon = XAC
 
-route1 = @XAC1N
+route = @XAC1N
 	98
 	!XAC
 	!ACORN, 13000, 230, !68
@@ -2710,11 +2743,11 @@ route1 = @XAC1N
 	@ILS22NYLON
 
 
-[approach29]
+[approach]
 runway = RJTTRWYB
 beacon = RUNSO
 
-route1 = @Y21AKSEL1N
+route = @Y21AKSEL1N
 	38
 	!RUNSO
 	!AKSEL, 12000, 230, !38@AKSEL1N
@@ -2726,11 +2759,11 @@ route1 = @Y21AKSEL1N
 	@SHAFTILS22
 
 
-[approach30]
+[approach]
 runway = RJTTRWYB
 beacon = RURER
 
-route1 = @Y875AROSA1N
+route = @Y875AROSA1N
 	74
 	!RURER
 	!AROSA, !277@AROSA1N
@@ -2744,11 +2777,11 @@ route1 = @Y875AROSA1N
 
 #---RJTT 2N STARs
 
-[approach31]
+[approach]
 runway = RJTTRWYD
 beacon = XAC
 
-route1 = @XAC2N
+route = @XAC2N
 	98
 	!XAC
 	!AKSEL, 12000, 230, !38@AKSEL2N
@@ -2759,21 +2792,21 @@ route1 = @XAC2N
 	@ILSZ23NYLON
 
 
-[approach32]
+[approach]
 runway = RJTTRWYD
 beacon = RUNSO
 
-route1 = @Y21AKSEL2N
+route = @Y21AKSEL2N
 	74
 	!RUNSO
 	@AKSEL2N
 
 
-[approach33]
+[approach]
 runway = RJTTRWYD
 beacon = RURER
 
-route1 = @Y875AROSA2N
+route = @Y875AROSA2N
 	7
 	!RURER
 	!AROSA, !277@AROSA2N
@@ -2783,11 +2816,11 @@ route1 = @Y875AROSA2N
 
 #---RJTT 1S STARs
 
-[approach34]
+[approach]
 runway = RJTTRWYD
 beacon = GODIN
 
-route1 = @GODIN1S
+route = @GODIN1S
 	217
 	!GODIN
 	!NOVEL, !264
@@ -2795,11 +2828,11 @@ route1 = @GODIN1S
 	@ILSZ23STEAM
 
 
-[approach35]
+[approach]
 runway = RJTTRWYD
 beacon = MILIT
 
-route1 = @Y807POLIX1S
+route = @Y807POLIX1S
 	278
 	!MILIT
 	!RUSDA, !277
@@ -2811,11 +2844,11 @@ route1 = @Y807POLIX1S
 #---RJTT 16 IAFs
 
 #ILS RWY 16L
-[approach36]
+[approach]
 runway = RJTTRWYC2, rev
 beacon = !SANDY
 
-route1 = @ILS16L
+route = @ILS16L
 	217
 	!SANDY, 4500, 185
 	!LABAN, 4000
@@ -2826,11 +2859,11 @@ route1 = @ILS16L
 
 
 #ILS RWY 16R
-[approach37]
+[approach]
 runway = RJTTRWYA2, rev
 beacon = !NATTY
 
-route1 = @ILS16R
+route = @ILS16R
 	252
 	!NATTY
 	!RANGY, 3000
@@ -2842,11 +2875,11 @@ route1 = @ILS16R
 
 #---RJTT R STARs
 
-[approach38]
+[approach]
 runway = RJTTRWYA2, rev
 beacon = GODIN
 
-route1 = @GODINR
+route = @GODINR
 	197
 	!GODIN
 	!NOVEL, 8000, 210, !264
@@ -2859,11 +2892,11 @@ route1 = @GODINR
 	@ILS16R
 
 
-[approach39]
+[approach]
 runway = RJTTRWYA2, rev
 beacon = MILIT
 
-route1 = @Y807POLIXR
+route = @Y807POLIXR
 	278
 	!MILIT
 	!RUSDA, !277
@@ -2872,11 +2905,11 @@ route1 = @Y807POLIXR
 	@GODINR
 
 
-[approach40]
+[approach]
 runway = RJTTRWYA2, rev
 beacon = XAC
 
-route1 = @XACR
+route = @XACR
 	98
 	!XAC
 	!ACORN, !68
@@ -2892,11 +2925,11 @@ route1 = @XACR
 	@NEURO16R
 
 
-[approach41]
+[approach]
 runway = RJTTRWYA2, rev
 beacon = RUNSO
 
-route1 = @Y21AKSELR
+route = @Y21AKSELR
 	74
 	!RUNSO
 	!AKSEL, !38@AKSELR
@@ -2904,11 +2937,11 @@ route1 = @Y21AKSELR
 	@SCOUT16R
 
 
-[approach42]
+[approach]
 runway = RJTTRWYA2, rev
 beacon = RURER
 
-route1 = @Y875AROSAR
+route = @Y875AROSAR
 	74
 	!RURER
 	!AROSA, !277@AROSAR
@@ -2921,11 +2954,11 @@ route1 = @Y875AROSAR
 
 #---RJTT L STARs
 
-[approach43]
+[approach]
 runway = RJTTRWYC2, rev
 beacon = XAC
 
-route1 = @XACL
+route = @XACL
 	98
 	!XAC
 	!ACORN, 13000, 230, !68
@@ -2944,11 +2977,11 @@ route1 = @XACL
 	@ILS16L
 
 
-[approach44]
+[approach]
 runway = RJTTRWYC2, rev
 beacon = RUNSO
 
-route1 = @Y21AKSELL
+route = @Y21AKSELL
 	74
 	!RUNSO
 	!AKSEL, !38@AKSELL
@@ -2960,11 +2993,11 @@ route1 = @Y21AKSELL
 	@SHAFT16L
 
 
-[approach45]
+[approach]
 runway = RJTTRWYC2, rev
 beacon = RURER
 
-route1 = @Y875AROSAL
+route = @Y875AROSAL
 	74
 	!RURER
 	!AROSA, !277@AROSAL
@@ -2978,22 +3011,22 @@ route1 = @Y875AROSAL
 
 #---RJTT 22/23 LDA IAFs
 
-[approach46]
+[approach]
 runway = RJTTRWYBLDA
 beacon = BONDO
 
-route1 = @LDAX22
+route = @LDAX22
 	277
 	!BONUS, 5000, 200
 	17.4, 5000, 200
 #BONDO 5000
 
 
-[approach47]
+[approach]
 runway = RJTTRWYBLDA
 beacon = BONUS
 
-route1 = @LDAW22BACON
+route = @LDAW22BACON
 	7
 	!BACON, 7000
 	!BIBLO, 6000
@@ -3001,29 +3034,29 @@ route1 = @LDAW22BACON
 	16, 5000, 200
 #BONDO 5000
 
-route2 = @LDAX22DATUM
+route = @LDAX22DATUM
 	187
 	!DATUM
 	!DYUKE
 	@LDAX22
 
 
-[approach48]
+[approach]
 runway = RJTTRWYDLDA
 beacon = DAMBO
 
-route1 = @!LDAX23
+route = @!LDAX23
 	277
 	!DOYLE, 4000, 200
 	15, 4000, 200
 #DAMBO, 4000, 200
 
 
-[approach49]
+[approach]
 runway = RJTTRWYDLDA
 beacon = DOYLE
 
-route1 = @LDAW23DATUM
+route = @LDAW23DATUM
 	187
 	!DATUM, 4500
 	!DARIO
@@ -3032,35 +3065,35 @@ route1 = @LDAW23DATUM
 #DEANE
 #DAMBO =4000
 
-route2 = @LDAX23BACON
+route = @LDAX23BACON
 	7
 	!BACON
 	@LDAX23
 
 
-[approach50]
+[approach]
 runway = RJTTRWYBLDA
 beacon = BACON
 
-route1 = 
+route = 
 	351
 	@LDAW22BACON
 
 
-[approach51]
+[approach]
 runway = RJTTRWYDLDA
 beacon = BACON
 
-route1 = 
+route = 
 	322
 	@LDAX23BACON
 
 
-[approach52]
+[approach]
 runway = RJTTRWYDLDA
 beacon = DATUM
 
-route1 = 
+route = 
 	143
 	@LDAW23DATUM
 
@@ -3075,11 +3108,11 @@ route1 =
 
 #---RJTT 1B STARs
 
-[approach53]
+[approach]
 runway = RJTTRWYBLDA
 beacon = XAC
 
-route1 = @XAC1B
+route = @XAC1B
 	98
 	!XAC
 	!ACORN, 13000, 230, !68
@@ -3093,11 +3126,11 @@ route1 = @XAC1B
 	@LDAW22BACON
 
 
-[approach54]
+[approach]
 runway = RJTTRWYBLDA
 beacon = RUNSO
 
-route1 = @Y21AKSEL1B
+route = @Y21AKSEL1B
 	74
 	!RUNSO
 	!AKSEL, 12000, 230, !38@AKSEL1B
@@ -3109,11 +3142,11 @@ route1 = @Y21AKSEL1B
 	@SHAFTLDA22
 
 
-[approach55]
+[approach]
 runway = RJTTRWYBLDA
 beacon = RURER
 
-route1 = @Y875AROSA1B
+route = @Y875AROSA1B
 	74
 	!RURER
 	!AROSA, !277@AROSA1B
@@ -3128,11 +3161,11 @@ route1 = @Y875AROSA1B
 #---RJTT 2B STARs
 
 #Y71 XAC XAC2B
-[approach56]
+[approach]
 runway = RJTTRWYDLDA
 beacon = XAC
 
-route1 = @XAC2B
+route = @XAC2B
 	98
 	!XAC
 	!AKSEL, 12000, 230, !38@AKSEL2B
@@ -3143,21 +3176,21 @@ route1 = @XAC2B
 	@LDAX23BACON
 
 
-[approach57]
+[approach]
 runway = RJTTRWYDLDA
 beacon = RUNSO
 
-route1 = @Y21AKSEL2B
+route = @Y21AKSEL2B
 	74
 	!RUNSO
 	@AKSEL2B
 
 
-[approach58]
+[approach]
 runway = RJTTRWYDLDA
 beacon = RURER
 
-route1 = @Y875AROSA2B
+route = @Y875AROSA2B
 	74
 	!RURER
 	!AROSA, !277@AROSA2B
@@ -3167,11 +3200,11 @@ route1 = @Y875AROSA2B
 
 #---RJTT D STARs
 
-[approach59]
+[approach]
 runway = RJTTRWYDLDA
 beacon = GODIN
 
-route1 = @GODIN1D
+route = @GODIN1D
 	217
 	!GODIN
 	!NOVEL, !264
@@ -3180,11 +3213,11 @@ route1 = @GODIN1D
 	@LDAW23DATUM
 
 
-[approach60]
+[approach]
 runway = RJTTRWYDLDA
 beacon = MILIT
 
-route1 = @Y807POLIX1D
+route = @Y807POLIX1D
 	278
 	!MILIT
 	!RUSDA, !277
@@ -3193,59 +3226,190 @@ route1 = @Y807POLIX1D
 	@GODIN1D
 
 
+#---RJTT arrival airways
+
+[approach]
+beacon = SPENS
+
+route = @Y71
+	98
+	!SPENS
+	!XAC
+#	end, hold
+	@XAC1A, @XAC1N, @XAC1B, @XACL
+
+
+[approach]
+beacon = SELNO
+
+route = @Y21
+	69
+	!SELNO
+	!RUNSO
+	!AKSEL
+#	end, hold
+	@AKSEL1A, @AKSEL1N, @AKSEL1B, @AKSELL
+
+
+[approach]
+beacon = TOPIT
+
+route = @Y875
+	1
+	!TOPIT
+	!LUTNA
+	!RURER
+	!AROSA
+#	end, hold
+	@AROSA1A, @AROSA1N, @AROSA1B, @AROSAL
+
+
+[approach]
+beacon = DOLBA
+
+route = @Y824
+	277
+	!DOLBA
+	!PEDLA
+	!AROSA
+#	end, hold
+	@AROSA1A, @AROSA1N, @AROSA1B, @AROSAL
+
+
+[approach]
+beacon = LALID
+
+route = @Y807
+	253
+	!LALID
+	!MILIT
+	!RUSDA
+	!ESKEN
+	!POLIX
+#	end, hold
+	@POLIX1C, @POLIX1S, @POLIX1D, @POLIXR
+
+
+[approach]
+beacon = TEDIX
+
+route = @Y10
+	197
+	!TEDIX
+	!GODIN
+#	end, hold
+	@GODIN1C, @GODIN1S, @GODIN1D, @GODINR
+
+
 
 #===RJTT SIDs
 
-[departure1]
+[commondeparture]
+airport = RJTT
+
+route = @!ROVER2A
+	!TORAM
+	!PLUTO
+	!KAIJI
+	!SPOON
+	!ROVER
+
+route = @!BEKLA2A
+	!TORAM
+	!PLUTO
+	!KAIJI
+	!INTEL
+	!RAGOS
+	!BEKLA
+
+route = @!RITLA2A
+	!TORAM
+	!PLUTO
+	!KAIJI
+	!INTEL
+	!LAYER
+	!TIARA
+	!RITLA
+
+route = @!AKAGI
+	!CLARK
+#	!AKAGI
+
+route = @!BRUCE
+	!BRUCE
+	!AGRIS
+
+route = @!INUBO
+	!BRUCE
+	!LEWIS
+	!SILVA
+	!INUBO
+
+route = @!Y808
+	!GULBO
+
+route = @!Y830
+	!BORLO
+
+route = @!Y820
+	!SARLU
+	!ANSAD
+
+route = @!NINOX3
+	!TT502
+	!LOCUP
+	!BAYGE
+	!SEIKO
+	!NINOX
+
+route = @!LAXAS3
+	!TT502
+	!LOCUP
+	!TAURA
+	!IMOLA
+	!LAXAS
+
+route = @!Y56
+	!KAGNA
+
+route = @!VAMOS3
+	!TT502
+	!LOCUP
+	!VAMOS
+
+route = @!TATEYAMA
+	!UTIBO
+
+route = @!DRAKY
+	!DRAKY
+	!XAC
+
+route = @!B586
+	!NURLI
+
+route = @!RUTAS2
+	6000
+	!TT502
+	!LOCUP
+	!VAMOS
+	!UTIBO
+	!RUTAS
+
+
+[departure]
 runway = RJTTRWYC
 
-route1 = @34R:ROVER2B
+route = @ROVER2B
 	!ARAKA
 	!EDOJO
 	!OHEDO
 	!SPOON
 	!ROVER
 
-route2 = *3
-	ROVER 2B AKAGI TRANS, Rover Two Bravo Akagi Transition
-	@34R:ROVER2B
-	!CLARK
-#AKAGI
+route = @ROVER2C
+	@ROVER2B
 
-route3 = *12
-	ROVER 2B BRUCE TRANS, Rover Two Bravo Bruce Transition
-	@34R:ROVER2B
-	!BRUCE
-	!AGRIS
-
-route4 = @34R:ROVER2B.INUBO
-	@34R:ROVER2B
-	!BRUCE
-	!LEWIS
-	!SILVA
-	!INUBO
-
-#Y808
-route5 = 
-	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
-	@34R:ROVER2B.INUBO
-	!GULBO
-
-#Y830
-route6 = 
-	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
-	@34R:ROVER2B.INUBO
-	!BORLO
-
-#Y820
-route7 = 
-	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
-	@34R:ROVER2B.INUBO
-	!SARLU
-	!ANSAD
-
-route8 = *5
-	BEKLA 2B, Bekla Two Bravo
+route = @BEKLA2B
 	!ARAKA
 	!EDOJO
 	!OHEDO
@@ -3253,8 +3417,10 @@ route8 = *5
 	!RAGOS
 	!BEKLA
 
-route9 = *2
-	RITLA 2B, Ritla Two Bravo
+route = @BEKLA2C
+	@BEKLA2B
+
+route = @RITLA2B
 	!ARAKA
 	!EDOJO
 	!OHEDO
@@ -3263,11 +3429,69 @@ route9 = *2
 	!TIARA
 	!RITLA
 
-[departure2]
+route = @RITLA2C
+	@RITLA2B
+
+route = *3
+	ROVER 2B AKAGI TRANS, Rover Two Bravo Akagi Transition
+	15000
+	@ROVER2B
+	@!AKAGI
+
+route = *12
+	ROVER 2B BRUCE TRANS, Rover Two Bravo Bruce Transition
+	15000
+	@ROVER2B
+	@!BRUCE
+
+route = 
+	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
+	15000
+	@ROVER2B
+	@!INUBO
+	@!Y808
+
+route = 
+	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
+	15000
+	@ROVER2B
+	@!INUBO
+	@!Y830
+
+route = 
+	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
+	15000
+	@ROVER2B
+	@!INUBO
+	@!Y820
+
+route = *5
+	BEKLA 2B, Bekla Two Bravo
+	20000
+	@BEKLA2B
+
+route = *2
+	RITLA 2B, Ritla Two Bravo
+	20000
+	@RITLA2B
+
+
+[departure]
 runway = RJTTRWYD, rev
 
-route1 = *2
-	BEKLA 2B, Bekla Two Bravo
+route = @ROVER2A
+	!PLUTO
+	!KAIJI
+	!SPOON
+	!ROVER
+
+route = @ROVER2B
+	@ROVER2A
+
+route = @ROVER2C
+	@ROVER2A
+
+route = @BEKLA2A
 	!TT501
 	!TT502
 	!LOCUP
@@ -3276,8 +3500,14 @@ route1 = *2
 	!LAYER
 	!BEKLA
 
-route2 = *10
-	RITLA 2B, Ritla Two Bravo
+route = @BEKLA2B
+	@BEKLA2A
+
+route = @BEKLA2C
+	@BEKLA2A
+
+route = @RITLA2A
+	!TT501
 	!TT501
 	!TT502
 	!LOCUP
@@ -3287,56 +3517,94 @@ route2 = *10
 	!TIARA
 	!RITLA
 
-route3 = *12
+route = @RITLA2B
+	@RITLA2A
+
+route = @RITLA2C
+	@RITLA2A
+
+route = @NINOX3
+	!TT501
+	@!NINOX3
+
+route = @LAXAS3
+	!TT501
+	@!LAXAS3
+
+route = @VAMOS3
+	!TT501
+	@!VAMOS3
+
+route = @RUTAS2
+	!TT501
+	@!RUTAS2
+
+route = *2
+	BEKLA 2B, Bekla Two Bravo
+	20000
+	@BEKLA2B
+
+route = *10
+	RITLA 2B, Ritla Two Bravo
+	20000
+	@RITLA2B
+
+route = *12
 	NINOX 3, Ninox Three
-	!TT501
-	!TT502
-	!LOCUP
-	!BAYGE
-	!SEIKO
-	!NINOX
+	20000
+	@NINOX3
 
-route4 = @05:LAXAS3
-	!TT501
-	!TT502
-	!LOCUP
-	!TAURA
-	!IMOLA
-	!LAXAS
-
-#Y56
-route5 = *16
+route = *16
 	LAXAS 3, Laxas Three
-	@05:LAXAS3
-	!KAGNA
+	20000
+	@LAXAS3
+	@!Y56
 
-route6 = @05:VAMOS3
-	!TT501
-	!TT502
-	!LOCUP
-	!VAMOS
-
-#B586
-route7 = 
+route = 
 	VAMOS 3 DRAKY TRANS, Vamos Three Draky Transition
-	@05:VAMOS3
-	!DRAKY
-	!XAC
-	!NURLI
+	9000
+	@VAMOS3
+	@!DRAKY
+	@!B586
 
-[departure3]
+
+[departure]
 runway = RJTTRWYA, rev
 
-route1 = *2
-	BEKLA 2B, Bekla Two Bravo
+route = @ROVER2A
+	!T6R11
+	!WELDA
+	!PLUTO
+	!KAIJI
+	!SPOON
+	!ROVER
+
+route = @ROVER2B
+	@ROVER2A
+
+route = @ROVER2C
+	@ROVER2A
+
+route = @BEKLA2A
 	!T6R13
 	!HATBA
 	!KAMAT
 	!LAYER
 	!BEKLA
 
-route2 = *10
-	RITLA 2B, Ritla Two Bravo
+route = @BEKLA2B
+	@BEKLA2A
+
+route = @BEKLA2C
+	!T6R11
+	!WELDA
+	!PLUTO
+	!KAIJI
+	!INTEL
+	!RAGOS
+	!BEKLA
+
+route = @RITLA2A
 	!T6R13
 	!HATBA
 	!KAMAT
@@ -3344,42 +3612,69 @@ route2 = *10
 	!TIARA
 	!RITLA
 
-route3 = *12
-	NINOX 3, Ninox Three
+route = @RITLA2B
+	@RITLA2A
+
+route = @RITLA2C
+	!T6R11
+	!WELDA
+	!PLUTO
+	!KAIJI
+	!INTEL
+	!LAYER
+	!TIARA
+	!RITLA
+
+route = @NINOX3
 	!T6R12
 	!TT631
 	!BAYGE
 	!SEIKO
 	!NINOX
 
-route4 = @16R:LAXAS3
+route = @LAXAS3
 	!T6R11
 	!TAURA
 	!IMOLA
 	!LAXAS
 
-#Y56
-route5 = *16
-	LAXAS 3, Laxas Three
-	@16R:LAXAS3
-	!KAGNA
-
-route6 = @16R:VAMOS3
+route = @VAMOS3
 	!T6R11
 	!VAMOS
 
-#B586
-route7 = 
-	VAMOS 3 DRAKY TRANS, Vamos Three Draky Transition
-	@16R:VAMOS3
-	!DRAKY
-	!XAC
-	!NURLI
+route = *2
+	BEKLA 2B, Bekla Two Bravo
+	20000
+	@BEKLA2B
 
-[departure4]
+route = *10
+	RITLA 2B, Ritla Two Bravo
+	20000
+	@RITLA2B
+
+route = *12
+	NINOX 3, Ninox Three
+	20000
+	@NINOX3
+
+route = *16
+	LAXAS 3, Laxas Three
+	20000
+	@LAXAS3
+	@!Y56
+
+route = 
+	VAMOS 3 DRAKY TRANS, Vamos Three Draky Transition
+	9000
+	@VAMOS3
+	@!DRAKY
+	@!B586
+
+
+[departure]
 runway = RJTTRWYC, rev
 
-route1 = @16L:ROVER2B
+route = @ROVER2A
 	!T6L23
 	!WELDA
 	!PLUTO
@@ -3387,189 +3682,10 @@ route1 = @16L:ROVER2B
 	!SPOON
 	!ROVER
 
-route2 = *3
-	ROVER 2B AKAGI TRANS, Rover Two Bravo Akagi Transition
-	@16L:ROVER2B
-	!CLARK
-#AKAGI
+route = @ROVER2B
+	@ROVER2A
 
-route3 = *12
-	ROVER 2B BRUCE TRANS, Rover Two Bravo Bruce Transition
-	@16L:ROVER2B
-	!BRUCE
-	!AGRIS
-
-route4 = @16L:ROVER2B.INUBO
-	@16L:ROVER2B
-	!BRUCE
-	!LEWIS
-	!SILVA
-	!INUBO
-
-#Y808
-route5 = 
-	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
-	@16L:ROVER2B.INUBO
-	!GULBO
-
-#Y830
-route6 = 
-	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
-	@16L:ROVER2B.INUBO
-	!BORLO
-
-#Y820
-route7 = 
-	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
-	@16L:ROVER2B.INUBO
-	!SARLU
-	!ANSAD
-
-route8 = *5
-	BEKLA 2B, Bekla Two Bravo
-	!T6L23
-	!WELDA
-	!PLUTO
-	!KAIJI
-	!INTEL
-	!RAGOS
-	!BEKLA
-
-route9 = *2
-	RITLA 2B, Ritla Two Bravo
-	!T6L23
-	!WELDA
-	!PLUTO
-	!KAIJI
-	!INTEL
-	!LAYER
-	!TIARA
-	!RITLA
-
-[departure5]
-runway = RJTTRWYB
-
-route1 = *10
-	RITLA 2C, Ritla Two Charlie
-	!HOBBS
-	!BASSA
-	!UMUKI
-	!PIPER
-	!SATOL
-	!CURVA
-	!RITLA
-
-route2 = *12
-	NINOX 3, Ninox Three
-	!HOBBS
-	!BASSA
-	!UMUKI
-	!PIPER
-	!SATOL
-	!CURVA
-	!NINOX
-
-route3 = @22:LAXAS3
-	!HOBBS
-	!BASSA
-	!UMUKI
-	!PIPER
-	!SATOL
-	!IMOLA
-	!LAXAS
-
-#Y56
-route4 = *16
-	LAXAS 3, Laxas Three
-	@22:LAXAS3
-	!KAGNA
-
-route5 = @22:VAMOS3
-	!HOBBS
-	!BASSA
-	!VAMOS
-
-#B586
-route6 = 
-	VAMOS 3 DRAKY TRANS, Vamos Three Draky Transition
-	@22:VAMOS3
-	!DRAKY
-	!XAC
-	!NURLI
-
-[departure6]
-runway = RJTTRWYA2, rev
-
-route1 = @16R:ROVER1C
-	!T6R11
-	!WELDA
-	!PLUTO
-	!KAIJI
-	!SPOON
-	!ROVER
-
-route2 = *3
-	ROVER 1C AKAGI TRANS, Rover One Charlie Akagi Transition
-	@16R:ROVER1C
-	!CLARK
-#AKAGI
-
-route3 = *12
-	ROVER 1C BRUCE TRANS, Rover One Charlie Bruce Transition
-	@16R:ROVER1C
-	!BRUCE
-	!AGRIS
-
-route4 = @16R:ROVER1C.INUBO
-	@16R:ROVER1C
-	!BRUCE
-	!LEWIS
-	!SILVA
-	!INUBO
-
-#Y808
-route5 = 
-	ROVER 1C INUBO TRANS, Rover One Charlie Inubo Transition
-	@16R:ROVER1C.INUBO
-	!GULBO
-
-#Y830
-route6 = 
-	ROVER 1C INUBO TRANS, Rover One Charlie Inubo Transition
-	@16R:ROVER1C.INUBO
-	!BORLO
-
-#Y820
-route7 = 
-	ROVER 1C INUBO TRANS, Rover One Charlie Inubo Transition
-	@16R:ROVER1C.INUBO
-	!SARLU
-	!ANSAD
-
-route8 = *5
-	BEKLA 2C, Bekla Two Charlie
-	!T6R11
-	!WELDA
-	!PLUTO
-	!KAIJI
-	!INTEL
-	!BEKLA
-
-route9 = *2
-	RITLA 2C, Ritla Two Charlie
-	!T6R11
-	!WELDA
-	!PLUTO
-	!KAIJI
-	!INTEL
-	!LAYER
-	!TIARA
-	!RITLA
-
-[departure7]
-runway = RJTTRWYC2, rev
-
-route1 = @16L:ROVER1C
+route = @ROVER2C
 	!T6L31
 	!DAMBO
 	!T6L32
@@ -3578,114 +3694,324 @@ route1 = @16L:ROVER1C
 	!SPOON
 	!ROVER
 
-route2 = *3
-	ROVER1C.AKAGI, Rover Two Charlie Akagi Transition
-	@16L:ROVER1C
-	!CLARK
-#AKAGI
+route = @BEKLA2A
+	!T6L23
+	!WELDA
+	!PLUTO
+	!KAIJI
+	!INTEL
+	!RAGOS
+	!BEKLA
 
-route3 = *12
-	ROVER1C.AGRIS, Rover Two Charlie Bruce Transition
-	@16L:ROVER1C
-	!BRUCE
-	!AGRIS
+route = @BEKLA2B
+	@BEKLA2A
 
-route4 = @16L:ROVER1C.INUBO
-	@16L:ROVER1C
-	!BRUCE
-	!LEWIS
-	!SILVA
-	!INUBO
+route = @BEKLA2C
+	@BEKLA2A
 
-#Y808
-route5 = 
-	ROVER 1C INUBO TRANS, Rover Two Charlie Inubo Transition
-	@16L:ROVER1C.INUBO
-	!GULBO
+route = @RITLA2A
+	!T6L23
+	!WELDA
+	!PLUTO
+	!KAIJI
+	!INTEL
+	!LAYER
+	!TIARA
+	!RITLA
 
-#Y830
-route6 = 
-	ROVER 1C INUBO TRANS, Rover Two Charlie Inubo Transition
-	@16L:ROVER1C.INUBO
-	!BORLO
+route = @RITLA2B
+	@RITLA2A
 
-#Y820
-route7 = 
-	ROVER 1C INUBO TRANS, Rover Two Charlie Inubo Transition
-	@16L:ROVER1C.INUBO
-	!SARLU
-	!ANSAD
+route = @RITLA2C
+	!T6L23
+	!WELDA
+	!PLUTO
+	!KAIJI
+	!INTEL
+	!LAYER
+	!RITLA
+
+route = @NINOX3
+	!T6L22
+	!TT631
+	!BAYGE
+	!SEIKO
+	!NINOX
+
+route = @LAXAS3
+	!T6L21
+	!TAURA
+	!IMOLA
+	!LAXAS
+
+route = @VAMOS3
+	!T6L21
+	!VAMOS
+
+route = @RUTAS2
+	!T6L21
+	!VAMOS
+	!UTIBO
+	!RUTAS
+
+route = *3
+	ROVER 2B AKAGI TRANS, Rover Two Bravo Akagi Transition
+	15000
+	@ROVER2B
+	@!AKAGI
+
+route = *12
+	ROVER 2B BRUCE TRANS, Rover Two Bravo Bruce Transition
+	15000
+	@ROVER2B
+	@!BRUCE
+
+route = 
+	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
+	15000
+	@ROVER2B
+	@!INUBO
+	@!Y808
+
+route = 
+	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
+	15000
+	@ROVER2B
+	@!INUBO
+	@!Y830
+
+route = 
+	ROVER 2B INUBO TRANS, Rover Two Bravo Inubo Transition
+	15000
+	@ROVER2B
+	@!INUBO
+	@!Y820
+
+route = *5
+	BEKLA 2B, Bekla Two Bravo
+	20000
+	@BEKLA2B
+
+route = *2
+	RITLA 2B, Ritla Two Bravo
+	20000
+	@RITLA2B
+
+
+[departure]
+runway = RJTTRWYB
+
+route = @RITLA2C
+	!HOBBS
+	!BASSA
+	!UMUKI
+	!PIPER
+	!SATOL
+	!CURVA
+	!RITLA
+
+route = @NINOX3
+	!HOBBS
+	!BASSA
+	!UMUKI
+	!PIPER
+	!SATOL
+	!CURVA
+	!NINOX
+
+route = @LAXAS3
+	!HOBBS
+	!BASSA
+	!UMUKI
+	!PIPER
+	!SATOL
+	!IMOLA
+	!LAXAS
+
+route = @VAMOS3
+	!HOBBS
+	!BASSA
+	!VAMOS
+
+route = *10
+	RITLA 2C, Ritla Two Charlie
+	20000
+	@RITLA2C
+
+route = *12
+	NINOX 3, Ninox Three
+	20000
+	@NINOX3
+
+route = *16
+	LAXAS 3, Laxas Three
+	20000
+	@LAXAS3
+	@!Y56
+
+route = 
+	VAMOS 3 DRAKY TRANS, Vamos Three Draky Transition
+	9000
+	@VAMOS3
+	@!DRAKY
+	@!B586
+
+
+[departure]
+runway = RJTTRWYA2, rev
+baserunway = RJTTRWYA, rev
+
+route = *3
+	ROVER 2C AKAGI TRANS, Rover Two Charlie Akagi Transition
+	15000
+	@ROVER2C
+	@!AKAGI
+
+route = *12
+	ROVER 2C BRUCE TRANS, Rover Two Charlie Bruce Transition
+	15000
+	@ROVER2C
+	@!BRUCE
+
+route = 
+	ROVER 2C INUBO TRANS, Rover Two Charlie Inubo Transition
+	15000
+	@ROVER2C
+	@!INUBO
+	@!Y808
+
+route = 
+	ROVER 2C INUBO TRANS, Rover Two Charlie Inubo Transition
+	15000
+	@ROVER2C
+	@!INUBO
+	@!Y830
+
+route = 
+	ROVER 2C INUBO TRANS, Rover Two Charlie Inubo Transition
+	15000
+	@ROVER2C
+	@!INUBO
+	@!Y820
+
+route = *5
+	BEKLA 2C, Bekla Two Charlie
+	20000
+	@BEKLA2C
+
+route = *2
+	RITLA 2C, Ritla Two Charlie
+	20000
+	@RITLA2C
+
+
+[departure]
+runway = RJTTRWYC2, rev
+baserunway = RJTTRWYC, rev
+
+route = *3
+	ROVER 2C AKAGI TRANS, Rover Two Charlie Akagi Transition
+	15000
+	@ROVER2C
+	@!AKAGI
+
+route = *12
+	ROVER 2C AGRIS TRANS, Rover Two Charlie Bruce Transition
+	15000
+	@ROVER2C
+	@!BRUCE
+
+route = 
+	ROVER 2C INUBO TRANS, Rover Two Charlie Inubo Transition
+	15000
+	@ROVER2C
+	@!INUBO
+	@!Y808
+
+route = 
+	ROVER 2C INUBO TRANS, Rover Two Charlie Inubo Transition
+	15000
+	@ROVER2C
+	@!INUBO
+	@!Y830
+
+route = 
+	ROVER 2C INUBO TRANS, Rover Two Charlie Inubo Transition
+	15000
+	@ROVER2C
+	@!INUBO
+	@!Y820
 
 
 #===RJAA approaches
 #---RJAA 34 IAFs
 
-[approach61]
+[approach]
 runway = RJAARWYA
 beacon = COSMO
 
-route1 = @!ILS34L
+route = @!ILS34L
 	337
 	!GIINA
 	15.4, 4000, 220
 #COSMO
 
 
-[approach62]
+[approach]
 runway = RJAARWYA
 beacon = GIINA
 
-route1 = @ILS34LTYLER
+route = @ILS34LTYLER
 	337
 	!TYLER, 4000
 	@ILS34L
 
-route2 = @ILS34LELGAR
+route = @ILS34LELGAR
 	260
 	!ELGAR, 4000
 	!HARPS
 	@ILS34L
 
 
-[approach63]
+[approach]
 runway = RJAARWYB
 beacon = LAPIS
 
-route1 = @!ILSZ34R
+route = @!ILSZ34R
 	337
 	!TEMIS
 	17.5, 5000, 220
 #LAPIS
 
-[approach64]
+[approach]
 runway = RJAARWYB
-beacon = TEMIS, N35.32.01.71, E140.34.24.81, 333, Temis
+beacon = TEMIS
 
-route1 = @ILSZ34RTYLER
+route = @ILSZ34RTYLER
 	360
 	!TYLER
 	@ILSZ34R
 
-route2 = @ILSZ34RELGAR
+route = @ILSZ34RELGAR
 	270
 	!ELGAR
 	!FIONA
 	@ILSZ34R
 
-[approach65]
+[approach]
 runway = RJAARWYA
 beacon = TYLER
 
-route1 = 
+route = 
 	337
 	@ILS34LTYLER
 
 
-[approach66]
+[approach]
 runway = RJAARWYB
 beacon = TYLER
 
-route1 = 
+route = 
 	360
 	@ILSZ34RTYLER
 
@@ -3699,21 +4025,21 @@ route1 =
 #	@ILSZ34RELGAR
 
 
-[approach67]
+[approach]
 runway = RJAARWYA
 beacon = ELGAR
-route1 = 
+route = 
 	260
 	@ILS34LELGAR
 
 
 #---RJAA 34R STARs
 
-[approach68]
+[approach]
 runway = RJAARWYB
 beacon = BAFFY
 
-route1 = @Y81RUTAST
+route = @Y81RUTAST
 	58
 	!BAFFY
 	!MAMAS, !58
@@ -3728,11 +4054,11 @@ route1 = @Y81RUTAST
 	@ILSZ34RTYLER
 
 
-[approach69]
+[approach]
 runway = RJAARWYB
 beacon = SWAMP
 
-route1 = @SWAMPT
+route = @SWAMPT
 	205
 	!SWAMP
 	!VIXEN, !140
@@ -3747,11 +4073,11 @@ route1 = @SWAMPT
 	@PEAKS34R
 
 
-[approach70]
+[approach]
 runway = RJAARWYB
 beacon = SUPOK
 
-route1 = @SUPOKT
+route = @SUPOKT
 	276
 	!SUPOK
 	!SOFIA, 9000, 220, !276@SOFIA34R
@@ -3764,11 +4090,11 @@ route1 = @SUPOKT
 
 
 #Y813 LUBLA LUBLAT
-[approach71]
+[approach]
 runway = RJAARWYB
 beacon = LUBLA
 
-route1 = @LUBLAT
+route = @LUBLAT
 	341
 	!LUBLA
 	@SOFIA34R
@@ -3777,11 +4103,11 @@ route1 = @LUBLAT
 #---RJAA 34L STARs
 
 #Y81 RUTAS RUTASE/Y87 BAFFY Y81 RUTAS RUTASE
-[approach72]
+[approach]
 runway = RJAARWYA
 beacon = BAFFY
 
-route1 = @Y81RUTASE
+route = @Y81RUTASE
 	58
 	!BAFFY
 	!MAMAS, !58
@@ -3794,11 +4120,11 @@ route1 = @Y81RUTASE
 	@ILS34LELGAR
 
 
-[approach73]
+[approach]
 runway = RJAARWYA
 beacon = SWAMP
 
-route1 = @SWAMPE
+route = @SWAMPE
 	205
 	!SWAMP
 	!VIXEN, !140
@@ -3809,11 +4135,11 @@ route1 = @SWAMPE
 	@CORGI34L
 
 
-[approach74]
+[approach]
 runway = RJAARWYA
 beacon = SUPOK
 
-route1 = @SUPOKE
+route = @SUPOKE
 	276
 	!SUPOK
 	!PLOKY, 9000, !275
@@ -3821,22 +4147,22 @@ route1 = @SUPOKE
 
 
 #Y813 LUBLA LUBLAE
-[approach75]
+[approach]
 runway = RJAARWYA
 beacon = LUBLA
 
-route1 = 
+route = @LUBLAE
 	341
 	!LUBLA
 	@TORCH34L
 
 
 #34L from PEAKS
-[approach76]
+[approach]
 runway = RJAARWYA
 beacon = PEAKS
 
-route1 = 
+route = 
 	330
 	!PEAKS, 6000
 	@ILS34LTYLER
@@ -3844,22 +4170,22 @@ route1 =
 
 #---RJAA 16 IAFs
 
-[approach77]
+[approach]
 runway = RJAARWYA, rev
 beacon = GREBE
 
-route1 = @!ILSZ16R
+route = @!ILSZ16R
 	157
 	!KOALA, 4000, 220
 	14.6, 4000, 220
 #GREBE
 
 
-[approach78]
+[approach]
 runway = RJAARWYA, rev
 beacon = KOALA
 
-route1 = @ILSZ16RNORMA
+route = @ILSZ16RNORMA
 	314
 	!NORMA
 	!ACELA, 7000
@@ -3867,7 +4193,7 @@ route1 = @ILSZ16RNORMA
 	!BROOK
 	@ILSZ16R
 
-route2 = @ILSZ16RGEMIN
+route = @ILSZ16RGEMIN
 	342
 	!GEMIN
 	!ACELA, 7000
@@ -3876,28 +4202,28 @@ route2 = @ILSZ16RGEMIN
 	@ILSZ16R
 
 
-[approach79]
+[approach]
 runway = RJAARWYA, rev
 beacon = PERCH
 
-route1 = @ILSY16R
+route = @ILSY16R
 	157
 	!KONAN, 4000
 #PERCH
 	8.1, 2800, 180
 
 
-[approach80]
+[approach]
 runway = RJAARWYA, rev
 beacon = KONAN
 
-route1 = @ILSY16RGEMIN
+route = @ILSY16RGEMIN
 	279
 	!GEMIN
 	!GLARE
 	@ILSY16R
 
-route2 = @ILSY16RNORMA
+route = @ILSY16RNORMA
 	278
 	!NORMA
 	!CURIO
@@ -3905,22 +4231,22 @@ route2 = @ILSY16RNORMA
 	@ILSY16R
 
 
-[approach81]
+[approach]
 runway = RJAARWYB, rev
 beacon = CYGNY
 
-route1 = @!ILSZ16L
+route = @!ILSZ16L
 	157
 	!METIS
 	13.3, 3000, 185
 #CYGNY
 
 
-[approach82]
+[approach]
 runway = RJAARWYB, rev
 beacon = METIS
 
-route1 = @ILSZ16LNORMA
+route = @ILSZ16LNORMA
 	292
 	!NORMA
 	!LUNAR, 5000
@@ -3928,7 +4254,7 @@ route1 = @ILSZ16LNORMA
 	!LARKS
 	@ILSZ16L
 
-route2 = @ILSZ16LGEMIN
+route = @ILSZ16LGEMIN
 	314
 	!GEMIN
 	!MARCH, 3000, 185
@@ -3936,27 +4262,27 @@ route2 = @ILSZ16LGEMIN
 	@ILSZ16L
 
 
-[approach83]
+[approach]
 runway = RJAARWYB, rev
 beacon = BIRDY
 
-route1 = @ILSY16L
+route = @ILSY16L
 	157
 	!AMITY, 4000
 	!SDF6L, 3500, 180
 	5.1, 1800, 160
 
-[approach84]
+[approach]
 runway = RJAARWYB, rev
 beacon = AMITY
 
-route1 = @ILSY16LGEMIN
+route = @ILSY16LGEMIN
 	281
 	!GEMIN
 	!GLARE, 24000, 230
 	@ILSY16L
 
-route2 = @ILSY16LNORMA
+route = @ILSY16LNORMA
 	280
 	!NORMA
 	!CURIO
@@ -3964,29 +4290,29 @@ route2 = @ILSY16LNORMA
 	@ILSY16L
 
 
-[approach85]
+[approach]
 runway = RJAARWYA, rev
 beacon = GEMIN
 
-route1 = 
+route = 
 	342
 	@ILSZ16RGEMIN
 
 
-[approach86]
+[approach]
 runway = RJAARWYB, rev
 beacon = GEMIN
 
-route1 = 
+route = 
 	314
 	@ILSZ16LGEMIN
 
 
-[approach87]
+[approach]
 runway = RJAARWYA, rev
 beacon = NORMA
 
-route1 = 
+route = 
 	314
 	@ILSZ16RNORMA
 
@@ -4003,11 +4329,11 @@ route1 =
 #---RJAA 16L STARs
 
 #Y81 RUTAS RUTASG/Y87 BAFFY Y81 RUTASG
-[approach88]
+[approach]
 runway = RJAARWYB, rev
 beacon = BAFFY
 
-route1 = @Y81RUTASG
+route = @Y81RUTASG
 	58
 	!BAFFY
 	!MAMAS, !58
@@ -4023,11 +4349,11 @@ route1 = @Y81RUTASG
 
 
 #Y30/R211 SWAMP SWAMPG
-[approach89]
+[approach]
 runway = RJAARWYB, rev
 beacon = SWAMP
 
-route1 = @SWAMPG
+route = @SWAMPG
 	205
 	!SWAMP
 	!VIXEN, !140
@@ -4039,11 +4365,11 @@ route1 = @SWAMPG
 	@CASIO16L
 
 
-[approach90]
+[approach]
 runway = RJAARWYB, rev
 beacon = SUPOK
 
-route1 = @SUPOKG
+route = @SUPOKG
 	276
 	!SUPOK
 	!AA657, 24000, 250
@@ -4055,11 +4381,11 @@ route1 = @SUPOKG
 	@CASIO16L
 
 
-[approach91]
+[approach]
 runway = RJAARWYB, rev
 beacon = LUBLA
 
-route1 = @LUBLAG
+route = @LUBLAG
 	341
 	!LUBLA
 	!REGZA, 8000, !214
@@ -4072,11 +4398,11 @@ route1 = @LUBLAG
 
 #---RJAA 16R STARs
 
-[approach92]
+[approach]
 runway = RJAARWYA, rev
 beacon = BAFFY
 
-route1 = @Y81RUTASN
+route = @Y81RUTASN
 	58
 	!BAFFY
 	!MAMAS, !58
@@ -4087,11 +4413,11 @@ route1 = @Y81RUTASN
 	@ILSZ16RNORMA
 
 
-[approach93]
+[approach]
 runway = RJAARWYA, rev
 beacon = SWAMP
 
-route1 = @SWAMPG
+route = @SWAMPG
 	205
 	!SWAMP
 	!VIXEN, !140
@@ -4102,44 +4428,145 @@ route1 = @SWAMPG
 	@BARON16R
 
 
-[approach94]
+[approach]
 runway = RJAARWYA, rev
 beacon = SUPOK
 
-route1 = @SUPOKG
+route = @SUPOKG
 	276
 	!SUPOK
 	!AA657
 	@BARON16R
 
 
-[approach95]
+[approach]
 runway = RJAARWYA, rev
 beacon = LUBLA
 
-route1 = @LUBLAG
+route = @LUBLAG
 	341
 	!LUBLA
 	!REGZA
 	@BARON16R
 	
 
-[approach96]
+[approach]
 runway = RJAARWYA, rev
 beacon = CASIO
 
-route1 = @CASIO16R
+route = @CASIO16R
 	280
 	!CASIO, 6000, !280
 	@ILSZ16RGEMIN
 
 
+#---RJAA arrival airways
+
+[approach]
+beacon = MOE
+
+route = @Y81
+	58
+	!MOE
+	!BAFFY
+	!MAMAS, 24000
+	!RUTAS
+#	end, hold
+	@RUTAST, @RUTASG
+
+
+[approach]
+beacon = TOPIT
+
+route = @Y81
+	1
+	!TOPIT
+	!BAFFY
+	!MAMAS, 24000
+	!RUTAS
+#	end, hold
+	@RUTAST, @RUTASG
+
+
+[approach]
+beacon = VAGLA
+
+route = @Y813
+	290
+	!VAGLA
+	!LUBLA
+#	end, hold
+	@LUBLAT, @LUBLAG
+
+
+[approach]
+beacon = LESPO
+
+route = @Y809
+	290
+	!LESPO
+	!SUPOK
+#	end, hold
+	@SUPOKT, @SUPOKG
+
+
+[approach]
+beacon = GURIP
+
+route = @Y30
+	205
+	!GURIP
+	!SWAMP
+#	end, hold
+	@SWAMPT, @SWAMPG
+
+
 #===RJAA SIDs
 
-[departure8]
+[commondeparture]
+airport = RJAA
+
+route = @!AGRIS
+	!RADIX
+	!WHARF
+	!AGRIS
+
+route = @!KIMIN
+	!RADIX
+	!WHARF
+	!KIMIN
+
+route = @!ENPAR
+	!RAMBA
+	!ENPAR
+
+route = @!Y16
+	!NIXIS
+	!TEPEX
+
+route = @!Y60
+	!IGNOT
+	!MITOP
+
+route = @!Y50
+	!TOKIS
+	!SEDRI
+
+route = @!Y823
+	!GULIS
+	!IRNOK
+
+route = @!SAMUS
+	!PABLO
+	!NORIS
+#	!HANAR
+#	!SAMUS
+
+
+[departure]
 runway = RJAARWYA
 
-route1 = @34L:TETRA8
+route = @TETRA8
 	!ARIES
 	!A4L11
 	!A4L12
@@ -4149,30 +4576,7 @@ route1 = @34L:TETRA8
 	!ASTON
 	!TETRA
 
-route2 = *6
-	TETRA 8 ENPAR TRANS, Tetra Eight (.{5}) Transition
-	@34L:TETRA8
-	!RAMBA
-	!ENPAR
-	!NIXIS
-	!TEPEX
-
-route3 = 
-	TETRA 8 AGRIS TRANS, Tetra Eight (.{5}) Transition
-	@34L:TETRA8
-	!RADIX
-	!WHARF
-	!AGRIS
-
-route4 = 
-	TETRA 8 KIMIN TRANS, Tetra Eight (.{5}) Transition
-	@34L:TETRA8
-	!RADIX
-	!WHARF
-	!KIMIN
-
-route5 = *5
-	REDEK 2, Redek Two
+route = @REDEK2
 	!ARIES
 	!A4L11
 	!A4L12
@@ -4183,11 +4587,8 @@ route5 = *5
 	!GULID
 	!PORCO
 	!REDEK
-	!IGNOT
-	!MITOP
 
-route6 = *7
-	PIGOK 2, Pigok Two
+route = @PIGOK2
 	!ARIES
 	!A4L11
 	!A4L12
@@ -4198,11 +4599,8 @@ route6 = *7
 	!ADRIA
 	!ROSSO
 	!PIGOK
-	!TOKIS
-	!SEDRI
 
-route7 = 
-	GULBO 2, Gulbo Two
+route = @GULBO2
 	!ARIES
 	!A4L11
 	!A4L12
@@ -4213,8 +4611,7 @@ route7 =
 	!CUPID
 	!GULBO
 
-route8 = 
-	BORLO 2, Borlo Two
+route = @BORLO2
 	!ARIES
 	!A4L11
 	!A4L12
@@ -4225,7 +4622,7 @@ route8 =
 	!CUPID
 	!BORLO
 
-route9 = @34L:OLVAN2
+route = @OLVAN2
 	!ARIES
 	!A4L11
 	!A4L12
@@ -4235,26 +4632,64 @@ route9 = @34L:OLVAN2
 	!CHUMS
 	!OLVAN
 
-#Y823
-route10 = 
+route = *6
+	TETRA 8 ENPAR TRANS, Tetra Eight Enpar Transition
+	7000
+	@TETRA8
+	@!ENPAR
+	@!Y16
+
+route = 
+	TETRA 8 AGRIS TRANS, Tetra Eight Agris Transition
+	7000
+	@TETRA8
+	@!AGRIS
+
+route = 
+	TETRA 8 KIMIN TRANS, Tetra Eight Kimin Transition
+	7000
+	@TETRA8
+	@!KIMIN
+
+route = *5
+	REDEK 2, Redek Two
+	7000
+	@REDEK2
+	@!Y60
+
+route = *7
+	PIGOK 2, Pigok Two
+	7000
+	@PIGOK2
+	@!Y50
+
+route = 
+	GULBO 2, Gulbo Two
+	7000
+	@GULBO2
+
+route = 
+	BORLO 2, Borlo Two
+	7000
+	@BORLO2
+
+route = 
 	OLVAN 2, Olvan Two
-	@34L:OLVAN2
-	!GULIS
-	!IRNOK
+	7000
+	@OLVAN2
+	@!Y823
 
-#OLVAN2.SAMUS
-route11 = *3
+route = *3
 	OLVAN 2 SAMUS TRANS, Olvan Two Samus Transition
-	@34L:OLVAN2
-	!PABLO
-	!NORIS
-#	!HANAR
-#	!SAMUS
+	7000
+	@OLVAN2
+	@!SAMUS
 
-[departure9]
+
+[departure]
 runway = RJAARWYB
 
-route1 = @34R:TETRA8
+route = @TETRA8
 	!BOXER
 	!A4R21
 	!A4R22
@@ -4263,33 +4698,7 @@ route1 = @34R:TETRA8
 	!ASTON
 	!TETRA
 
-route2 = *6
-	TETRA 8 ENPAR TRANS, Tetra Eight (.{5}) Transition
-	@34R:TETRA8
-	!RAMBA
-	!ENPAR
-	!NIXIS
-	!TEPEX
-
-#TETRA8.AGRIS
-route3 = 
-	TETRA 8 AGRIS TRANS, Tetra Eight (.{5}) Transition
-	@34R:TETRA8
-	!RADIX
-	!WHARF
-	!AGRIS
-
-#TETRA8.KIMIN
-route4 = 
-	TETRA 8 KIMIN TRANS, Tetra Eight (.{5}) Transition
-	@34R:TETRA8
-	!RADIX
-	!WHARF
-	!KIMIN
-
-#REDEK2
-route5 = *5
-	REDEK 2, Redek Two
+route = @REDEK2
 	!BOXER
 	!A4R21
 	!A4R22
@@ -4298,11 +4707,8 @@ route5 = *5
 	!GULID
 	!PORCO
 	!REDEK
-	!IGNOT
-	!MITOP
 
-route6 = *7
-	PIGOK 2, Pigok Two
+route = @PIGOK2
 	!BOXER
 	!A4R21
 	!A4R22
@@ -4311,11 +4717,8 @@ route6 = *7
 	!GULID
 	!ROSSO
 	!PIGOK
-	!TOKIS
-	!SEDRI
 
-route7 = 
-	GULBO 2, Gulbo Two
+route = @GULBO2
 	!BOXER
 	!A4R21
 	!A4R22
@@ -4325,8 +4728,7 @@ route7 =
 	!CUPID
 	!GULBO
 
-route8 = 
-	BORLO 2, Borlo Two
+route = @BORLO2
 	!BOXER
 	!A4R21
 	!A4R22
@@ -4336,7 +4738,7 @@ route8 =
 	!CUPID
 	!BORLO
 
-route9 = @34R:OLVAN2
+route = @OLVAN2
 	!BOXER
 	!A4R21
 	!A4R22
@@ -4345,117 +4747,158 @@ route9 = @34R:OLVAN2
 	!LUCCA
 	!OLVAN
 
-#Y823
-route10 = 
+route = *6
+	TETRA 8 ENPAR TRANS, Tetra Eight Enpar Transition
+	24000
+	@TETRA8
+	@!ENPAR
+	@!Y16
+
+route = 
+	TETRA 8 AGRIS TRANS, Tetra Eight Agris Transition
+	24000
+	@TETRA8
+	@!AGRIS
+
+route = 
+	TETRA 8 KIMIN TRANS, Tetra Eight Kimin Transition
+	23000
+	@TETRA8
+	@!KIMIN
+
+route = *5
+	REDEK 2, Redek Two
+	24000
+	@REDEK2
+	@!Y60
+
+route = *7
+	PIGOK 2, Pigok Two
+	24000
+	@PIGOK2
+	@!Y50
+
+route = 
+	GULBO 2, Gulbo Two
+	23000
+	@GULBO2
+
+route = 
+	BORLO 2, Borlo Two
+	23000
+	@BORLO2
+
+route = 
 	OLVAN 2, Olvan Two
-	@34R:OLVAN2
-	!GULIS
-	!IRNOK
+	23000
+	@OLVAN2
+	@!Y823
 
-#OLVAN2.SAMUS
-route11 = *3
+route = *3
 	OLVAN 2 SAMUS TRANS, Olvan Two Samus Transition
-	@34R:OLVAN2
-	!PABLO
-	!NORIS
-#	!HANAR
-#	!SAMUS
+	24000
+	@OLVAN2
+	@!SAMUS
 
-[departure10]
+[departure]
 runway = RJAARWYA, rev
 
-route1 = @16R:TETRA8
+route = @TETRA8
 	!ASPEN
 	!A6R11
 	!A6R13
 	!A6R14
 	!TETRA
 
-#TETRA8.ENPAR
-route2 = *6
-	TETRA 8 ENPAR TRANS, Tetra Eight (.{5}) Transition
-	@16R:TETRA8
-	!RAMBA
-	!ENPAR
-	!NIXIS		
-	!TEPEX
-
-#TETRA8.AGRIS
-route3 = 
-	TETRA 8 AGRIS TRANS, Tetra Eight (.{5}) Transition
-	@16R:TETRA8
-	!RADIX
-	!WHARF
-	!AGRIS
-
-#TETRA8.KIMIN
-route4 = 
-	TETRA 8 KIMIN TRANS, Tetra Eight (.{5}) Transition
-	@16R:TETRA8
-	!RADIX
-	!WHARF
-	!KIMIN
-
-#REDEK2
-route5 = *5
-	REDEK 2, Redek Two
+route = @REDEK2
 	!ASPEN
 	!A6R12
 	!KUJYU
 	!REDEK
-	!IGNOT
-	!MITOP
 
-route6 = *7
-	PIGOK 2, Pigok Two
+route = @PIGOK2
 	!ASPEN
 	!A6R12
 	!KUJYU
 	!PIGOK
-	!TOKIS
-	!SEDRI
 
-route7 = 
-	GULBO 2, Gulbo Two
+route = @GULBO2
 	!ASPEN
 	!A6R12
 	!OLVAN
 	!TAPIR
 	!GULBO
 
-route8 = 
-	BORLO 2, Borlo Two
+route = @BORLO2
 	!ASPEN
 	!A6R12
 	!OLVAN
 	!GRAYL
 	!BORLO
 
-route9 = @16R:OLVAN2
+route = @OLVAN2
 	!ASPEN
 	!A6R12
 	!OLVAN
 
-#Y823
-route10 = 
+route = *6
+	TETRA 8 ENPAR TRANS, Tetra Eight Enpar Transition
+	24000
+	@TETRA8
+	@!ENPAR
+	@!Y16
+
+route = 
+	TETRA 8 AGRIS TRANS, Tetra Eight Agris Transition
+	24000
+	@TETRA8
+	@!AGRIS
+
+route = 
+	TETRA 8 KIMIN TRANS, Tetra Eight Kimin Transition
+	23000
+	@TETRA8
+	@!KIMIN
+
+route = *5
+	REDEK 2, Redek Two
+	24000
+	@REDEK2
+	@!Y60
+
+route = *7
+	PIGOK 2, Pigok Two
+	24000
+	@PIGOK2
+	@!Y50
+
+route = 
+	GULBO 2, Gulbo Two
+	23000
+	@GULBO2
+
+route = 
+	BORLO 2, Borlo Two
+	23000
+	@BORLO2
+
+route = 
 	OLVAN 2, Olvan Two
-	@16R:OLVAN2
-	!GULIS
-	!IRNOK
+	23000
+	@OLVAN2
+	@!Y823
 
-route11 = *3
+route = *3
 	OLVAN 2 SAMUS TRANS, Olvan Two Samus Transition
-	@16R:OLVAN2
-	!PABLO
-	!NORIS
-#	!HANAR
-#	!SAMUS
+	24000
+	@OLVAN2
+	@!SAMUS
 
 
-[departure11]
+[departure]
 runway = RJAARWYB, rev
 
-route1 = @16L:TETRA8
+route = @TETRA8
 	!BEAMS
 	!A6L21
 	!AA631
@@ -4463,30 +4906,7 @@ route1 = @16L:TETRA8
 	!PHLOX
 	!TETRA
 
-route2 = *6
-	TETRA 8 ENPAR TRANS, Tetra Eight (.{5}) Transition
-	@16L:TETRA8
-	!RAMBA
-	!ENPAR
-	!NIXIS		
-	!TEPEX
-
-route3 = 
-	TETRA 8 AGRIS TRANS, Tetra Eight (.{5}) Transition
-	@16L:TETRA8
-	!RADIX
-	!WHARF
-	!AGRIS
-
-route4 = 
-	TETRA 8 KIMIN TRANS, Tetra Eight (.{5}) Transition
-	@16L:TETRA8
-	!RADIX
-	!WHARF
-	!KIMIN
-
-route5 = *5
-	REDEK 2, Redek Two
+route = @REDEK2
 	!BEAMS
 	!A6L21
 	!AA631
@@ -4494,11 +4914,8 @@ route5 = *5
 	!ACURE
 	!PAGOT
 	!REDEK
-	!IGNOT
-	!MITOP
 
-route6 = *7
-	PIGOK 2, Pigok Two
+route = @PIGOK2
 	!BEAMS
 	!A6L21
 	!AA631
@@ -4506,55 +4923,88 @@ route6 = *7
 	!ACURE
 	!PAGOT
 	!PIGOK
-	!TOKIS
-	!SEDRI
 
-route7 = 
-	GULBO 2, Gulbo Two
+route = @GULBO2
 	!BEAMS
 	!A6L21
 	!OLVAN
 	!TAPIR
 	!GULBO
 
-route8 = 
-	BORLO 2, Borlo Two
+route = @BORLO2
 	!BEAMS
 	!A6L21
 	!OLVAN
 	!GRAYL
 	!BORLO
 
-route9 = @16R:OLVAN2
+route = @OLVAN2
 	!BEAMS
 	!A6L21
 	!OLVAN
 
-#Y823
-route10 = 
-	OLVAN 2, Olvan Two
-	@16R:OLVAN2
-	!GULIS
-	!IRNOK
+route = *6
+	TETRA 8 ENPAR TRANS, Tetra Eight Enpar Transition
+	24000
+	@TETRA8
+	@!ENPAR
+	@!Y16
 
-#OLVAN2.SAMUS
-route11 = *3
+route = 
+	TETRA 8 AGRIS TRANS, Tetra Eight Agris Transition
+	24000
+	@TETRA8
+	@!AGRIS
+
+route = 
+	TETRA 8 KIMIN TRANS, Tetra Eight Kimin Transition
+	23000
+	@TETRA8
+	@!KIMIN
+
+route = *5
+	REDEK 2, Redek Two
+	24000
+	@REDEK2
+	@!Y60
+
+route = *7
+	PIGOK 2, Pigok Two
+	24000
+	@PIGOK2
+	@!Y50
+
+route = 
+	GULBO 2, Gulbo Two
+	23000
+	@GULBO2
+
+route = 
+	BORLO 2, Borlo Two
+	23000
+	@BORLO2
+
+route = 
+	OLVAN 2, Olvan Two
+	23000
+	@OLVAN2
+	@!Y823
+
+route = *3
 	OLVAN 2 SAMUS TRANS, Olvan Two Samus Transition
-	@16R:OLVAN2
-	!PABLO
-	!NORIS
-#	!HANAR
-#	!SAMUS
+	24000
+	@OLVAN2
+	@!SAMUS
 
 
 #===RJTL approaches
 
 #ILS Y/Z RWY 19
-[approach97]
+[approach]
 runway = RJTLRWY
 beacon = BANDO, N35.59.19.71, E140.00.25.22
 
-route1 = 
+route = 
 	189
 #ASEKI +4000
 	N36.05.06.75, E140.01.14.20
@@ -4566,7 +5016,7 @@ route1 =
 #JOBAN =2000
 #	N35.54.16.43, E140.00.34.98
 
-route2 = 
+route = 
 	166
 #TOHNE +3000
 	N36.03.56.84, E139.52.53.88
@@ -4585,11 +5035,11 @@ route2 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach98]
+[approach]
 runway = RJTLRWY
 beacon = ASEKI
 
-route1 = 
+route = 
 	189
 #ASEKI +4000
 	N36.05.06.75, E140.01.14.20
@@ -4602,11 +5052,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach99]
+[approach]
 runway = RJTLRWY
 beacon = TOHNE
 
-route1 = 
+route = 
 	164
 #TOHNE +3000
 	N36.03.56.84, E139.52.53.88
@@ -4626,11 +5076,11 @@ route1 =
 
 
 #HAGAR KIDOR ASEKI
-[approach100]
+[approach]
 runway = RJTLRWY
 beacon = KIDOR, N36.11.37.64, E140.01.29.24
 
-route1 = 
+route = 
 	189
 #KIDOR +5000
 	N36.11.37.64, E140.01.29.24
@@ -4646,11 +5096,11 @@ route1 =
 
 
 #KOGAR LEMUM TOHNE
-[approach101]
+[approach]
 runway = RJTLRWY
 beacon = LEMUM
 
-route1 = 
+route = 
 	99
 #LEMUM +4000
 	N36.08.06.03, E139.50.52.37
@@ -4672,11 +5122,11 @@ route1 =
 
 
 #Y71 XAC Y588 OMIYA SYE TOHNE
-[approach102]
+[approach]
 runway = RJTLRWY
 beacon = XAC
 
-route1 = 
+route = 
 	99
 #XAC +7000
 	N34.42.44.11, E139.24.50.46
@@ -4707,11 +5157,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach103]
+[approach]
 runway = RJTLRWY
 beacon = HATSU, N34.58.35.56, E139.29.53.09
 
-route1 = 
+route = 
 	22
 #HATSU +5000
 	N34.58.35.56, E139.29.53.09
@@ -4740,11 +5190,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach104]
+[approach]
 runway = RJTLRWY
 beacon = KOSKA, N35.15.20.97, E139.35.15.08
 
-route1 = 
+route = 
 	22
 #KOSKA +5000
 	N35.15.20.97, E139.35.15.08
@@ -4771,11 +5221,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach105]
+[approach]
 runway = RJTLRWY
 beacon = EDARR, N35.33.25.74, E139.32.29.63
 
-route1 = 
+route = 
 	360
 #EDARR +5000
 	N35.33.25.74, E139.32.29.63
@@ -4800,11 +5250,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach106]
+[approach]
 runway = RJTLRWY
 beacon = OMIYA, N35.55.05.96, E139.35.48.54
 
-route1 = 
+route = 
 	15
 #OMIYA +5000
 	N35.55.05.96, E139.35.48.54
@@ -4827,11 +5277,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach107]
+[approach]
 runway = RJTLRWY
 beacon = SYE
 
-route1 = 
+route = 
 	72
 #SYE +3000
 	N36.00.39.33, E139.50.21.02
@@ -4853,11 +5303,11 @@ route1 =
 
 
 #MERED KAMOG OJT TSUGA SHT TOHNE
-[approach108]
+[approach]
 runway = RJTLRWY
 beacon = KAMOG
 
-route1 = 
+route = 
 	324
 #KAMOG +6000
 	N34.46.26.75, E140.50.22.38
@@ -4884,11 +5334,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach109]
+[approach]
 runway = RJTLRWY
 beacon = OJT, N35.11.02.89, E140.22.17.14
 
-route1 = 
+route = 
 	286
 #OJT +5000
 	N35.11.02.89, E140.22.17.14
@@ -4913,11 +5363,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach110]
+[approach]
 runway = RJTLRWY
 beacon = TSUGA, N35.36.13.73, E140.09.59.28
 
-route1 = 
+route = 
 	346
 #TSUGA
 	N35.36.13.73, E140.09.59.28
@@ -4940,11 +5390,11 @@ route1 =
 #	N35.54.16.43, E140.00.34.98
 
 
-[approach111]
+[approach]
 runway = RJTLRWY
 beacon = SHT, N35.48.07, E140.00.35
 
-route1 = 
+route = 
 	335
 #SHT
 	N35.48.07, E140.00.35
@@ -4968,11 +5418,11 @@ route1 =
 #---RJTL 01 approaches
 
 #ILS Y/Z RWY 19 circle to land 01
-[approach112]
+[approach]
 runway = RJTLRWY, rev
 beacon = BANDO, N35.59.19.71, E140.00.25.22
 
-route1 = 
+route = 
 	189
 #ASEKI +4000
 	N36.05.06.75, E140.01.14.20
@@ -4994,7 +5444,7 @@ route1 =
 #RWY01
 #	N35.788840, E140.012419
 
-route2 = 
+route = 
 	166
 #TOHNE +3000
 	N36.03.56.84, E139.52.53.88
@@ -5023,11 +5473,11 @@ route2 =
 #	N35.788840, E140.012419
 
 
-[approach113]
+[approach]
 runway = RJTLRWY, rev
 beacon = ASEKI
 
-route1 = 
+route = 
 	189
 #ASEKI +4000
 	N36.05.06.75, E140.01.14.20
@@ -5050,11 +5500,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach114]
+[approach]
 runway = RJTLRWY, rev
 beacon = TOHNE
 
-route1 = 
+route = 
 	164
 #TOHNE +3000
 	N36.03.56.84, E139.52.53.88
@@ -5084,11 +5534,11 @@ route1 =
 
 
 #HAGAR KIDOR ASEKI
-[approach115]
+[approach]
 runway = RJTLRWY, rev
 beacon = KIDOR, N36.11.37.64, E140.01.29.24
 
-route1 = 
+route = 
 	189
 #KIDOR +5000
 	N36.11.37.64, E140.01.29.24
@@ -5114,11 +5564,11 @@ route1 =
 
 
 #KOGAR LEMUM TOHNE
-[approach116]
+[approach]
 runway = RJTLRWY, rev
 beacon = LEMUM
 
-route1 = 
+route = 
 	99
 #LEMUM +4000
 	N36.08.06.03, E139.50.52.37
@@ -5150,11 +5600,11 @@ route1 =
 
 
 #Y71 XAC Y588 OMIYA SYE TOHNE
-[approach117]
+[approach]
 runway = RJTLRWY, rev
 beacon = XAC
 
-route1 = 
+route = 
 	99
 #XAC +7000
 	N34.42.44.11, E139.24.50.46
@@ -5195,11 +5645,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach118]
+[approach]
 runway = RJTLRWY, rev
 beacon = HATSU, N34.58.35.56, E139.29.53.09
 
-route1 = 
+route = 
 	22
 #HATSU +5000
 	N34.58.35.56, E139.29.53.09
@@ -5238,11 +5688,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach119]
+[approach]
 runway = RJTLRWY, rev
 beacon = KOSKA, N35.15.20.97, E139.35.15.08
 
-route1 = 
+route = 
 	22
 #KOSKA +5000
 	N35.15.20.97, E139.35.15.08
@@ -5279,11 +5729,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach120]
+[approach]
 runway = RJTLRWY, rev
 beacon = EDARR, N35.33.25.74, E139.32.29.63
 
-route1 = 
+route = 
 	360
 #EDARR +5000
 	N35.33.25.74, E139.32.29.63
@@ -5318,11 +5768,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach121]
+[approach]
 runway = RJTLRWY, rev
 beacon = OMIYA, N35.55.05.96, E139.35.48.54
 
-route1 = 
+route = 
 	15
 #OMIYA +5000
 	N35.55.05.96, E139.35.48.54
@@ -5355,11 +5805,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach122]
+[approach]
 runway = RJTLRWY, rev
 beacon = SYE
 
-route1 = 
+route = 
 	72
 #SYE +3000
 	N36.00.39.33, E139.50.21.02
@@ -5391,11 +5841,11 @@ route1 =
 
 
 #MERED KAMOG OJT TSUGA SHT TOHNE
-[approach123]
+[approach]
 runway = RJTLRWY, rev
 beacon = KAMOG
 
-route1 = 
+route = 
 	324
 #KAMOG +6000
 	N34.46.26.75, E140.50.22.38
@@ -5432,11 +5882,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach124]
+[approach]
 runway = RJTLRWY, rev
 beacon = OJT, N35.11.02.89, E140.22.17.14
 
-route1 = 
+route = 
 	286
 #OJT +5000
 	N35.11.02.89, E140.22.17.14
@@ -5471,11 +5921,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach125]
+[approach]
 runway = RJTLRWY, rev
 beacon = TSUGA, N35.36.13.73, E140.09.59.28
 
-route1 = 
+route = 
 	346
 #TSUGA
 	N35.36.13.73, E140.09.59.28
@@ -5508,11 +5958,11 @@ route1 =
 #	N35.788840, E140.012419
 
 
-[approach126]
+[approach]
 runway = RJTLRWY, rev
 beacon = SHT, N35.48.07, E140.00.35
 
-route1 = 
+route = 
 	335
 #SHT
 	N35.48.07, E140.00.35
@@ -5546,10 +5996,10 @@ route1 =
 
 #===RJTL departures
 
-[departure12]
+[departure]
 runway = RJTLRWY
 
-route1 = 
+route = 
 	WEST 5, West Five
 #SHT (R173T) D2.5
 	N35.45.38, E140.00.51
@@ -5566,7 +6016,7 @@ route1 =
 #DALMA
 	N35.00.49.78, E138.51.22.12
 
-route2 = 
+route = 
 	NIKKO 2, Nikko Two
 #SHT (R173T) D2.5
 	N35.45.38, E140.00.51
@@ -5577,7 +6027,7 @@ route2 =
 #JD
 	N36.29.14.81, E139.51.47.22
 
-route3 = 
+route = 
 	TSUGA 4, Tsuga Four
 #RWY HDG to 600, left to intercept SHT R155 (SHT R155 D5)
 	N35.43.53, E140.03.51
@@ -5591,10 +6041,10 @@ route3 =
 	N34.14.17.40, E141.26.29.06
 
 
-[departure13]
+[departure]
 runway = RJTLRWY, rev
 
-route1 = 
+route = 
 	WEST 5, West Five
 #SHT (R359T) D2.5
 	N35.50.37, E140.00.32
@@ -5609,7 +6059,7 @@ route1 =
 #DALMA
 	N35.00.49.78, E138.51.22.12
 
-route2 = 
+route = 
 	NIKKO 2, Nikko Two
 #SHT (R359T) D2
 	N35.50.07, E140.00.32
@@ -5620,7 +6070,7 @@ route2 =
 #JD
 	N36.29.14.81, E139.51.47.22
 
-route3 = 
+route = 
 	TSUGA 4, Tsuga Four
 #SHT (R359T) D2
 	N35.50.07, E140.00.32
@@ -5668,9 +6118,9 @@ config2 =
 #RJAA departing/arriving 16L/16R
 #RJTL departing/arriving 19
 config3 = 
+	0, RJTTRWYB, start
 	0, RJTTRWYC2, landstartrev
 	0, RJTTRWYA2, landstartrevint
-	0, RJTTRWYB, start
 	10, RJAARWYB, landstartrev
 	10, RJAARWYA, landstartrev
 	45, RJTLRWY, landstart

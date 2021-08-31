@@ -6,12 +6,15 @@ elevation = 107
 metric = false
 center = N38.9656, E121.5389
 magneticvar = -7
-above = 21700
-ceiling = 9900
-descendaltitude =8900
+above = 29100
+ceiling = 11800
+descendaltitude =25600
 floor = 1960
 transitionlevel = 11800
-speedrestriction =28,230
+speedrestriction =28,230,10000,240
+localizerspeed =100, 250
+separation = 5
+name = approach, departure
 beacons =
 	DBL, N38.9522, E121.5675, 0, Dalian
 	ANRAT,N38.6514,E119.9511
@@ -31,10 +34,9 @@ beacons =
 	TANIB,N38.3692,E121.0839
 	UDETI,N38.6847,E122.1517
 	VENOS,N38.9056,E122.3183
-
 	FC, N38.8683, E121.62833, 0, Fu jia zhuang
-	CHI,N39.2667,E122.6167,CHANG HAI
-
+	CHI,N39.2667,E122.6167,0,CHANG HAI
+	
 	TL102,N38.9764,E121.2589
 	TL103,N38.9803,E121.1431
 	TL104,N39.0844,E121.1556
@@ -95,11 +97,17 @@ boundary =
 	N38.25,E120
 	N39.5,E119.84
 	N39.9,E119.35
+handoff =
+	90, ZYTL AP02, Dalian approach, 119.6
+	180, ZYTL AP02, Dalian approach, 119.6
+	0, ZYTL AP03, Dalian approach, 121.05
+	270, ZYTL AP01, Dalian approach, 123.85
 [airport1]
 name = Zhoushuizi Airport
 code = ZYTL
 runways =
-	rwy1, 10,N38.968, E121.533,96,10826.92, 0,0,100,3.5 ,92.5
+	rwy1, 10,N38.968, E121.533,96,10826.92, 0,0,100,3.3 ,92.5,3,276,D8.1 IZF,8.1,D5.9 IKD,5.9,118.25
+climbaltitude = 3940
 sids=
 	CHI
 	SANKO
@@ -112,14 +120,337 @@ entrypoints =
 	217,NIXEP
 	270,ANRAT
 airlines =
-	CSN,51,a320/a321/B738,China Southern
-	CHH,22,b738,Hainan
-	CCA,21,b738,Air China
-	CES,29,a319/a321/a320/b738/b737,China Eastern
-	GCR,16,e195,Bohai
-	HXA,21,e195,China Express
-	CCD,11,b738,Xiang jian
-	CSZ,12,b738,Shen zhen
+	CES,3,A319,China Eastern,NW
+	CES,3,A320,China Eastern,NW
+	CUA,3,B737,Lianhang,NW
+	CSN,7,A320,China Southern,NW
+	CDG,5,B738,Shandong,NW
+	CDG,2,B737,Shandong,NW
+	HXA,1,A320,China Express,NW
+	HXA,6,CRJ9,China Express,NW
+	CUA,3,B737,Lianhang,NW
+	CES,4,A320,China Eastern,NW
+	CSN,1,A320,China Southern,NW
+	CSN,4,A320,China Southern,NW
+	CDG,1,B737,Shandong,NW
+	CES,7,A320,China Eastern,NW
+	CSN,3,A320,China Southern,NW
+	CSN,4,A320,China Southern,NW
+	CSH,5,B738,Shanghai Air,NW
+	CSH,2,B73H,Shanghai Air,NW
+	CDG,1,B738,Shandong,NW
+	CDG,1,B738,Shandong,NW
+	HXA,3,CRJ9,China Express,NW
+	HXA,1,A320,China Express,NW
+	CSN,3,A321,China Southern,NW
+	HXA,2,A320,China Express,NW
+	CES,4,A319,China Eastern,NW
+
+	HXA,2,A320,China Express,NE
+	HXA,2,CRJ9,China Express,NE
+	HXA,2,A320,China Express,NE
+	CGN,2,B738,Chang'an,NE
+	CHH,1,B738,Hainan,NE
+	CCA,7,B738,Air China,NE
+	CCA,7,B738,Air China,NE
+	CCA,7,B738,Air China,NE
+	CCA,7,B738,Air China,NE
+	CCA,7,B738,Air China,NE
+	CCA,7,B738,Air China,NE
+	CCA,6,B738,Air China,NE
+	CCA,7,B738,Air China,NE
+	CHH,7,B738,Hainan,NE
+	CHH,7,B738,Hainan,NE
+	HXA,4,A320,China Express,NE
+	CGH,2,A320,Welkin,NE
+	RLH,2,B733,Sendi,NE
+	GCR,1,E190,Bohai,NE
+	CES,6,A320,China Eastern,NE
+	CCA,6,B738,Air China,NE
+	CCA,6,B738,Air China,NE
+	CSN,7,A321,China Southern,NE
+	CSN,7,A321,China Southern,NE
+	CSN,7,A321,China Southern,NE
+	CSN,7,A321,China Southern,NE
+	CSN,1,A321,China Southern,NE
+	CSN,6,A320,China Southern,NE
+	CSN,5,A320,China Southern,NE
+	CSN,2,A321,China Southern,NE
+	CSN,1,A321,China Southern,NE
+	CSN,1,A320,China Southern,NE
+	CSN,1,A320,China Southern,NE
+	CCA,1,B738,Air China,NE
+	CCA,6,B738,Air China,NE
+	CCA,1,B738,Air China,NE
+	CCA,4,B738,Air China,NE
+	CSN,6,A321,China Southern,NE
+	CSN,1,A320,China Southern,NE
+	HXA,4,CRJ9,China Express,NE
+	CDC,2,B73F,Hualong	,NE
+	GCR,7,E195,Bohai,NE
+	GCR,2,A321,Bohai,NE
+	GCR,4,A320,Bohai,NE
+	GCR,4,E195,Bohai,NE
+	CXA,6,B738,Xiamen Air,NE
+
+	KAL,1,B77W,Korean Air,SW
+	JTL,4,B789,Jet Linx,SW
+	ANA,1,B763,All Nippon,SW
+	ANA,5,B76F,All Nippon,SW
+	GCR,7,E195,Bohai,SW
+	JOY,7,MA60,Joy Air,SW
+	CQH,1,A320,Air Spring,SW
+	CQH,2,A320,Air Spring,SW
+	CQH,7,A320,Air Spring,SW
+	CQH,7,A320,Air Spring,SW
+	CQH,1,A320,Air Spring,SW
+	CCA,7,B738,Air China,SW
+	CCA,7,B738,Air China,SW
+	CSN,5,A320,China Southern,SW
+	CSN,2,A321,China Southern,SW
+	CSN,7,A321,China Southern,SW
+	CSN,7,A321,China Southern,SW
+	CSN,7,A321,China Southern,SW
+	CSN,7,A321,China Southern,SW
+	CSN,1,A321,China Southern,SW
+	CSN,6,A320,China Southern,SW
+	CSN,2,A321,China Southern,SW
+	CSN,5,A320,China Southern,SW
+	CSH,7,B738,Shanghai Air,SW
+	CSH,4,B73H,Shanghai Air,SW
+	CSH,3,B738,Shanghai Air,SW
+	HXA,2,A320,China Express,SW
+	DKH,7,A321,Air Juneyao,SW
+	DKH,7,A320,Air Juneyao,SW
+	DKH,7,A321,Air Juneyao,SW
+	DKH,6,A321,Air Juneyao,SW
+	DKH,1,A320,Air Juneyao,SW
+	CES,7,A320,China Eastern,SW
+	CES,4,A319,China Eastern,SW
+	CES,3,A320,China Eastern,SW
+	CES,4,A321,China Eastern,SW
+	CES,7,A320,China Eastern,SW
+	CES,4,A320,China Eastern,SW
+	CES,7,A321,China Eastern,SW
+	CES,3,A320,China Eastern,SW
+	CES,7,A320,China Eastern,SW
+	CES,3,A319,China Eastern,SW
+	FZA,1,B738,Strait Air,SW
+	FZA,2,B737,Strait Air,SW
+	HXA,3,A320,China Express,SW
+
+	GCR,6,E195,Bohai,SE
+	GCR,4,E195,Bohai,SE
+	GCR,2,E195,Bohai,SE
+	GCR,2,E195,Bohai,SE
+	GCR,2,E190,Bohai,SE
+	GCR,1,E190,Bohai,SE
+	GCR,1,E195,Bohai,SE
+	JOY,7,MA60,JoyAir,SE
+	JOY,6,MA60,JoyAir,SE
+	JOY,1,MA60,JoyAir,SE
+	CES,1,A320,ChinaEastern,SE
+	CES,1,B738,ChinaEastern,SE
+	CES,2,B737,ChinaEastern,SE
+	CES,5,A320,ChinaEastern,SE
+	CES,6,A320,ChinaEastern,SE
+	CCA,7,B738,AirChina,SE
+	CSN,7,A320,ChinaSouthern,SE
+	CSN,6,A321,ChinaSouthern,SE
+	CES,1,B738,ChinaEastern,SE
+	CES,6,B73E,ChinaEastern,SE
+	QDA,3,A32N,SkyLegend,SE
+	CDG,7,B737,Shandong,SE
+	CDG,7,B738,Shandong,SE
+	CDG,6,B738,Shandong,SE
+	CHH,4,B738,Hainan,SE
+	CHH,7,B738,Hainan,SE
+	CSH,1,B738,ShanghaiAir,SE
+	CSH,5,B73H,ShanghaiAir,SE
+	CSH,1,B73E,ShanghaiAir,SE
+	CCA,4,B738,AirChina,SE
+	EPA,7,B738,DonghaiAir,SE
+	CES,4,A320,ChinaEastern,SE
+	CSN,2,A320,ChinaSouthern,SE
+	CSN,4,A321,ChinaSouthern,SE
+	CDC,3,B73F,Hualong,SE
+	CQN,1,A32N,Chongqing,SE
+	CQN,6,A320,Chongqing,SE
+	CSC,5,A321,Sichuan,SE
+	CSC,3,A321,Sichuan,SE
+	CSC,2,A320,Sichuan,SE
+	CSC,2,A319,Sichuan,SE
+	CDC,1,A320,Hualong,SE
+	CDC,3,A320,Hualong,SE
+	UEA,4,A320,UnitedEagle,SE
+	CCA,7,B738,AirChina,SE
+	RLH,7,B737,Sendi,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	CXA,6,B738,XiamenAir,SE
+	CDG,3,B738,Shandong,SE
+	CDG,7,B738,Shandong,SE
+	CDG,7,B738,Shandong,SE
+	CDG,3,B738,Shandong,SE
+	CDG,7,B738,Shandong,SE
+	CDG,7,B738,Shandong,SE
+	CDG,4,B738,Shandong,SE
+	CQH,3,A320,AirSpring,SE
+	CQH,1,A320,AirSpring,SE
+	CCA,7,B738,AirChina,SE
+	HXA,3,CRJ9,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	HXA,2,A320,ChinaExpress,SE
+	CDC,4,A320,Hualong,SE
+	HXA,6,A320,ChinaExpress,SE
+	CES,7,A320,ChinaEastern,SE
+	CSC,2,A320,Sichuan,SE
+	CSC,1,A319,Sichuan,SE
+	OKA,4,B73E,OkayJet,SE
+	FZA,1,B738,StraitAir,SE
+	FZA,2,B737,StraitAir,SE
+	CHH,6,B738,Hainan,SE
+	CHH,1,B738,Hainan,SE
+	CES,7,B73E,ChinaEastern,SE
+	HXA,4,A320,ChinaExpress,SE
+	CCA,3,B738,AirChina,SE
+	CGH,4,A320,Welkin,SE
+	CCA,7,B738,AirChina,SE
+	CES,4,B737,ChinaEastern,SE
+	CSN,4,A320,ChinaSouthern,SE
+	CSN,3,A321,ChinaSouthern,SE
+	CSN,7,A320,ChinaSouthern,SE
+	CSN,7,A320,ChinaSouthern,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	GCR,6,A320,Bohai,SE
+	GCR,2,E195,Bohai,SE
+	GCR,5,E190,Bohai,SE
+	CHH,7,B738,Hainan,SE
+	CBJ,6,A320,CapitalJet,SE
+	CBJ,1,A319,CapitalJet,SE
+	CES,7,A320,ChinaEastern,SE
+	JYH,7,B738,TransJade,SE
+	CSN,5,B738,ChinaSouthern,SE
+	CSN,2,B73G,ChinaSouthern,SE
+	GCR,2,E195,Bohai,SE
+	CHH,7,B738,Hainan,SE
+	CXA,7,B738,XiamenAir,SE
+	CHB,6,A320,WestChina,SE
+	CSZ,3,B738,Shenzhen,SE
+	CCA,3,B738,AirChina,SE
+	CSN,6,A320,ChinaSouthern,SE
+	CSN,7,A320,ChinaSouthern,SE
+	CSN,6,A320,ChinaSouthern,SE
+	CSN,1,A321,ChinaSouthern,SE
+	LKE,1,B738,LuckyAir,SE
+	LKE,5,B737,LuckyAir,SE
+	LKE,1,B736,LuckyAir,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	CSN,7,A320,ChinaSouthern,SE
+	CSN,5,A320,ChinaSouthern,SE
+	CSN,7,A320,ChinaSouthern,SE
+	CHH,7,B738,Hainan,SE
+	CDC,3,A320,Hualong,SE
+	CSC,2,A321,Sichuan,SE
+	CSC,5,A320,Sichuan,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	CHB,3,A319,WestChina,SE
+	CHB,1,A320,WestChina,SE
+	CSC,1,A319,Sichuan,SE
+	CSC,2,A321,Sichuan,SE
+	CSC,4,A320,Sichuan,SE
+	CCA,7,B738,AirChina,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	CXA,7,B738,XiamenAir,SE
+	CSN,5,A320,ChinaSouthern,SE
+	CQN,3,A320,Chongqing,SE
+	CSZ,1,A32N,Shenzhen,SE
+	CSZ,6,A320,Shenzhen,SE
+	JYH,4,B738,TransJade,SE
+	UEA,3,A320,UnitedEagle,SE
+	CHH,7,B738,Hainan,SE
+	CES,7,B738,ChinaEastern,SE
+	CSZ,7,A320,Shenzhen,SE
+	CYZ,1,B73F,ChinaPost,SE
+	CSN,7,A320,ChinaSouthern,SE
+	CSN,7,A321,ChinaSouthern,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	DKH,7,A321,AirJuneyao,SE
+	DKH,7,A320,AirJuneyao,SE
+	CXA,7,B738,XiamenAir,SE
+	CES,7,A320,ChinaEastern,SE
+	CES,7,A320,ChinaEastern,SE
+	CES,7,A320,ChinaEastern,SE
+	CES,1,A32N,ChinaEastern,SE
+	CES,7,A320,ChinaEastern,SE
+	CES,7,A320,ChinaEastern,SE
+	CES,3,A320,ChinaEastern,SE
+	CSZ,4,B738,Shenzhen,SE
+	CSZ,7,A320,Shenzhen,SE
+	JYH,3,B738,TransJade,SE
+	CES,7,A321,ChinaEastern,SE
+	CES,1,A321,ChinaEastern,SE
+	CES,6,A320,ChinaEastern,SE
+	CSN,7,A321,ChinaSouthern,SE
+	UEA,7,A320,UnitedEagle,SE
+	CHH,2,B738,Hainan,SE
+	CXA,7,B738,XiamenAir,SE
+	CXA,7,B738,XiamenAir,SE
+	CDG,7,B738,Shandong,SE
+	CQH,1,A32N,AirSpring,SE
+	CQH,2,A320,AirSpring,SE
+	CSN,7,A321,ChinaSouthern,SE
+	CHH,7,B738,Hainan,SE
+	CBJ,5,A320,CapitalJet,SE
+	CBJ,2,A319,CapitalJet,SE
+	CES,4,B737,ChinaEastern,SE
+	HXA,3,CRJ9,ChinaExpress,SE
+	CSN,7,B738,ChinaSouthern,SE
+	CHH,7,B738,Hainan,SE
+	CES,7,A320,ChinaEastern,SE
+	CJX,3,B738,AirCrane,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	CSZ,5,B738,Shenzhen,SE
+	HXA,2,A320,ChinaExpress,SE
+	CUA,4,B737,Lianhang,SE
+	CUA,3,B737,Lianhang,SE
+	CSZ,7,A320,Shenzhen,SE
+	CXA,7,B738,XiamenAir,SE
+	CSN,7,A321,ChinaSouthern,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
+	CSN,3,A320,ChinaSouthern,SE
+	CSN,4,A321,ChinaSouthern,SE
+	CSN,7,A320,ChinaSouthern,SE
+	CSN,3,A321,ChinaSouthern,SE
+	CSN,1,A32N,ChinaSouthern,SE
+	CSN,3,A321,ChinaSouthern,SE
+	JYH,3,B738,TransJade,SE
+	JYH,4,B738,TransJade,SE
+	CSN,4,A320,ChinaSouthern,SE
+	CSN,5,A321,ChinaSouthern,SE
+	CSN,2,A320,ChinaSouthern,SE
+	CSN,5,A320,ChinaSouthern,SE
+	CSN,2,A321,ChinaSouthern,SE
+	CSN,4,A320,ChinaSouthern,SE
+	CSN,3,A320,ChinaSouthern,SE
+	CSN,7,A320,ChinaSouthern,SE
+	CSN,6,A320,ChinaSouthern,SE
+	CSN,7,A320,ChinaSouthern,SE
+	HXA,2,A320,ChinaExpress,SE
+	HXA,1,CRJ9,ChinaExpress,SE
 
 [area1]
 shape = polygon		
@@ -135,7 +466,7 @@ points =
 
 [area2]
 shape = polygon		
-altitude = 46000
+altitude = 21700
 name = ZY(R)612		
 labelpos = -59.83, 13.23 
 points =
@@ -550,7 +881,7 @@ route2=
 
 [approach2]
 runway =rwy1
-beacon = CHI,N39.2667,E122.6167,CHANG HAI
+beacon = CHI,N39.2667,E122.6167
 route1=
 	40
 	N39.2667,E122.6167
@@ -655,10 +986,10 @@ route2=
 	9.7,2000,210
 [approach6]
 runway =rwy1,rev
-beacon =CHI,N39.2667,E122.6167,CHANG HAI
+beacon =CHI,N39.2667,E122.6167
 route1=
 	40
-	N39.2667,E122.6167,CHANG HAI
+	N39.2667,E122.6167,
 	N38.9056,E122.3183
 	N38.9245,E122.0672,2960,210
 	N38.9381,E121.8931,2960

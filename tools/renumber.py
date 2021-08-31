@@ -9,14 +9,16 @@ def process(args, file=None):
 
     Sections are renumbered from 1. Sections do not need to be numbered
     in the input. Routes, however, need to be numbered in the input.
+    Returns the renumbered contents of the file as a list of lines as a
+    list of `str`.
 
     Args:
         `args`: An `argparse.Namespace`. The command line args from the invoking module.
         `file`: The file to process. Defaults to `input_file` in `args`."""
 
-    header_re = re.compile(r"^(?:\[(?P<header>(?:approach)|(?:transition)|(?:departure)|(?:area))\d*\])|^(?:route\d+ *= *)")
+    header_re = re.compile(r"^(?:\[(?P<header>(?:approach)|(?:transition)|(?:(?:common)?departure)|(?:area)|(?:airport))\d*\])|^(?:route\d? *= *)")
 
-    def number_approach(match, indexes={'approach': 0, 'transition': 0, 'departure': 0, 'area': 0, 'route': 0}):
+    def number_approach(match, indexes={'approach': 0, 'transition': 0, 'departure': 0, 'area': 0, 'route': 0, 'airport': 0, 'commondeparture': 0}):
         header = match.group("header")
         if header:
             indexes['route'] = 0
@@ -25,14 +27,26 @@ def process(args, file=None):
         indexes[header] += 1
         return header == 'route' and f"{header}{indexes[header]} = " or f"[{header}{indexes[header]}]"
 
-    if file is None:
-        file = args.input_file
-
     result = []
 
     with open(file, 'r', newline='') as input_file:
         for line in input_file:
             result.append(header_re.sub(number_approach, line))
+
+    return result
+
+
+def process_to_file(args, file=None):
+    """Same as `process()`, but writes the renumbered result to a file.
+
+    Args:
+        `args`: An `argparse.Namespace`. The command line args from the invoking module.
+        `file`: The file to process. Defaults to `input_file` in `args`."""
+
+    result = process(args)
+
+    if file is None:
+        file = args.input_file
 
     with open(file, 'w', newline='') as output_file:
         output_file.writelines(result)
