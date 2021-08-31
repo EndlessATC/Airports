@@ -430,7 +430,7 @@ route = @HABIK
 
 A departure route can start with `@<name>` which makes the route a "segment". A segment will not be output in the product. This segment will be available for reference in the current `[departure]`. This is useful for defining initial departure segments unique to specific runways.
 
-Alternatively, a departure route can start with `@!<name>` which also makes the route a "segment", but available to all subsequent `[departure]`s including the current one. This is useful for defining transition segments common to all runways.
+Alternatively, a departure route can start with `@!<name>` which also makes the route a "segment", but available to all subsequent `[departure]`s for the same airport including the current one. This is useful for defining transition segments common to all runways.
 
 To use these segments, a departure route can include after the route name line an unlimited number of `@<name>` lines , which will be substituted with the respective segment.
 
@@ -448,7 +448,7 @@ route = @TAROH3
 	!OT26D
 	!TAROH
 
-# MIHO TRANSITION available in all [departure]s
+# MIHO TRANSITION available in all [departure]s for the airport this runway belongs to
 route = @!MIHO
 	!MIHOU
 
@@ -500,6 +500,25 @@ route = *4
 	@!SHTLE
 ```
 
+For organizational purposes, you can define shared segments in a `[commondeparture]` section:
+
+```INI
+#this section will not be in the outputted product
+[commondeparture]
+airport = OS
+
+#you still need to define with @! to make them shared by airport
+route = @!KILAP
+	!KMANO
+	!KILAP
+
+route = @!WASYU
+	!KULUL
+	!KTE
+	!UTAZU
+	!WASYU
+```
+
 ## Changelog
 *	0.8.0 - 2021/02/20
 	- Added generated approaches feature
@@ -544,3 +563,8 @@ route = *4
 		- The approach route is not extended with the linked approach
 	- Airlines can be defined with two dashes to define unique traffic
 		- Pronunciation generation added to support this
+*	0.12.0 - 2021/08/30
+	- Add simple error checking for entrypoints
+	- Bug fix for approaches terminating in holds that connect to another approach
+	- `[commondeparture]` feature for defining departures per airport
+	- Allow second argument in `[airport] code=` to define full ICAO code for secondary airports
