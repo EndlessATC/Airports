@@ -3305,7 +3305,7 @@ route = @Y10
 #===RJTT SIDs
 
 [commondeparture]
-common = RJTT
+airport = RJTT
 
 route = @!ROVER2A
 	!TORAM
@@ -4524,7 +4524,7 @@ route = @Y30
 #===RJAA SIDs
 
 [commondeparture]
-common = RJAA
+airport = RJAA
 
 route = @!AGRIS
 	!RADIX
