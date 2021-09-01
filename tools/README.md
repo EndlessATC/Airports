@@ -1,4 +1,4 @@
-# Endless ATC Custom Airport Tools 0.11.0
+# Endless ATC Custom Airport Tools 0.13.0
 
 In this directory are a few tools useful for writing Endless ATC airport files. You can see examples of its usage in `RJTT` and `RJBB`.
 
@@ -144,8 +144,9 @@ airlines =
 
 ### Auto airlines callsigns
 
-If callsigns is enabled in meta, callsigns can be omitted in `airlines=`. They will be resolved using the list in `common.ini` in the directory where these tools are located. 
-You can override these callsign definitions (or add local callsigns) in a `common.ini` in the directory of the source file.
+If callsigns is enabled in meta, callsigns can be omitted in `airlines=`. They will be resolved using the list in the base data source, the `common.ini` in the directory where these tools are located. 
+You can override these callsign definitions (or add local callsigns) in a common data source, which can be called upon by a source file by specifying a list of names in `[meta] common_data=`. A file `common_<name>.ini` will be searched for in a source directory under the input directory and loaded to overwrite any declarations in the base data source.
+
 ```INI
 [meta]
 header = RJTT ACA 3.3.0
@@ -173,6 +174,7 @@ airlines =
 	cygns-1, 10, b77w, cygnus, nswe
 	jf-1, 10, b77w, japan force, nswe
 ```
+
 
 ### Unique aircraft callsign resolution (requires `callsigns = True`)
 
@@ -568,3 +570,11 @@ route = @!WASYU
 	- Bug fix for approaches terminating in holds that connect to another approach
 	- `[commondeparture]` feature for defining departures per airport
 	- Allow second argument in `[airport] code=` to define full ICAO code for secondary airports
+*	0.13.0 - 2021/08/31
+	- Remove legacy processor, it probably was broken long time ago anyway
+	- Handle the case when `[airspace] boundary=` does not exist
+	- Handle the case when `[airspace] handoff=` does not exist
+	- Decouple common data sources from the directory tree
+		- Now common data sources can be specified in `[meta] common_data=`
+		- Values can be multi-line; each line will load another common data source
+		- Common data sources will be searched for similar to normal source files
