@@ -2,6 +2,7 @@
 header = ROAH ACA 1.0.0
 	See ROAH_readme.md
 callsigns = true
+common_data = JPN
 
 [airspace]
 radius = 80

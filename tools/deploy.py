@@ -53,12 +53,8 @@ def main(args):
         for file in glob.glob(path, recursive=True):
             print(f'Found {file}')
             if args.build:
-                preprocess = None
-                if not args.legacy:
-                    preprocess = renumber.process(args, file)
+                preprocess = renumber.process(args, file)
                 file = expand.process(args, file, preprocess)
-                if args.legacy:
-                    renumber.process_to_file(args, file)
             if args.deploy and not args.parse_only:
                 result = shutil.copy(file, destination)
                 print(f"Copied {file} to {result}")
@@ -99,7 +95,5 @@ if __name__ == "__main__":
         help="Tests loading of shared callsigns. Actual output is not based on shared callsigns.")
     parser.add_argument('-a', '--draw-all-areas', action = 'store_true',
         help="Ignore draw= in [area]s while building.")
-    parser.add_argument('-l', '--legacy',
-        action="store_true", help="Use legacy processing method.")
 
     main(parser.parse_args())

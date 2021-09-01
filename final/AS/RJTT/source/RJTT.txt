@@ -2,6 +2,7 @@
 header = RJTT ACA 3.3.0
 	See RJTT_readme.md
 callsigns = True
+common_data = JPN
 
 [airspace]
 radius = 100

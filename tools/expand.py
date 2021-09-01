@@ -4,6 +4,7 @@ import configparser
 from copy import deepcopy
 from dataclasses import dataclass
 from itertools import chain
+import glob
 import os
 import re
 from typing import ClassVar, Optional
@@ -936,299 +937,250 @@ def process(args, input_file=None, preprocessed_input=None):
     else:
         output_file = os.path.join(os.path.dirname(input_file), args.output_path, os.path.basename(input_file))
     print(f"Building {input_file} to {output_file}")
+    source = configparser.ConfigParser()
+    if preprocessed_input is None:
+        source.read(input_file)
+    else:
+        source.read_file(preprocessed_input, input_file)
 
     config = configparser.ConfigParser()
     config.read("common.ini")
-    config.read(os.path.join(os.path.dirname(input_file), "common.ini"))
+
+    # read optional header to be written in output
+    header = ''
+    if 'meta' in source:
+        if 'header' in source['meta']:
+            header = ["# " + line for line in source['meta']['header'].splitlines()]
+            header.extend([
+                "",
+                f"# This file is generated from the source file {os.path.relpath(input_file, os.path.dirname(output_file))} using expand.py.",
+                "# All comments have been stripped, and edits are not made directly to this file.",
+                "# If you would like to contribute, or see the author's comments, please refer to the source file.",
+                "",
+                ""])
+            header = "\n".join(header)
+        if 'callsigns' not in source['meta']:
+            Airline.use_callsigns = False
+        else:
+            Airline.use_callsigns = source['meta'].getboolean('callsigns')
+        if args.test_callsigns:
+            Airline.test_callsigns = True
+        if 'common_data' in source['meta']:
+            for common_data_source in source['meta']['common_data'].splitlines():
+                found = False
+                common_data_filename = f"common_{common_data_source.strip()}.ini"
+                for common_data_file in glob.glob(os.path.join(
+                        args.input_dir,
+                        "**",
+                        args.source_dir,
+                        common_data_filename), recursive=True):
+                    if found:
+                        raise RuntimeError(
+                            f"Found more than one common data source {common_data_filename}")
+                    config.read(common_data_file)
+                    found = True
+                if not found:
+                    raise RuntimeError(f"Could not find common data source {common_data_filename}")
+        # remove meta section so it won't be written in output
+        del source['meta']
     Airline.initialize(config['expand.callsigns'] if 'expand.callsigns' in config else {},
         config['expand.phonetic'])
     default_gateways = config['expand.gateways'] if 'expand.gateways' in config else {}
 
-    if 'legacy' not in args or not args.legacy:
-        source = configparser.ConfigParser()
-        if preprocessed_input is None:
-            source.read(input_file)
-        else:
-            source.read_file(preprocessed_input, input_file)
+    airspace = source['airspace']
 
-        # read optional header to be written in output
-        header = ''
-        if 'meta' in source:
-            if 'header' in source['meta']:
-                header = ["# " + line for line in source['meta']['header'].splitlines()]
-                header.extend([
-                    "",
-                    f"# This file is generated from the source file {os.path.relpath(input_file, os.path.dirname(output_file))} using expand.py.",
-                    "# All comments have been stripped, and edits are not made directly to this file.",
-                    "# If you would like to contribute, or see the author's comments, please refer to the source file.",
-                    "",
-                    ""])
-                header = "\n".join(header)
-            if 'callsigns' not in source['meta']:
-                Airline.use_callsigns = False
-            else:
-                Airline.use_callsigns = source['meta'].getboolean('callsigns')
-            if args.test_callsigns:
-                Airline.test_callsigns = True
-            # remove meta section so it won't be written in output
-            del source['meta']
+    Fix.initialize(airspace.getfloat('magneticvar'))
 
-        airspace = source['airspace']
+    # add runways to fix database
+    airports = {section: source[section] for section in source if section.startswith('airport')}
+    if pygeodesy:
+        for airport_data in airports.values():
+            runways = airport_data['runways'].strip().splitlines()
+            for runway_definition in runways:
+                RunwayFix.from_definition(runway_definition).reciprocal()
 
-        Fix.initialize(airspace.getfloat('magneticvar'))
+    Fix('_CTR', *airspace['center'].split(","), heading='!')
 
-        # add runways to fix database
-        airports = {section: source[section] for section in source if section.startswith('airport')}
-        if pygeodesy:
-            for airport_data in airports.values():
-                runways = airport_data['runways'].strip().splitlines()
-                for runway_definition in runways:
-                    RunwayFix.from_definition(runway_definition).reciprocal()
-
-        Fix('_CTR', *airspace['center'].split(","), heading='!')
-
+    if 'beacons' in airspace:
         # build a fix database from [airspace] beacons=
         for definition in airspace['beacons'].strip().splitlines():
             Fix(*definition.split(","))
 
         airspace['beacons'] = "\n".join(process_beacons(Fix.fixes))
 
+    if 'handoff' in airspace:
         airspace['handoff'] = "\n".join(process_handoffs(airspace['handoff'], Fix.fixes['_CTR']))
 
+    if 'boundary' in airspace:
         airspace['boundary'] = "\n".join(
             process_fix_list(airspace['boundary'].splitlines(), Fix.fixes))
 
-        areas = {section: source[section] for section in source if section.startswith('area')}
+    areas = {section: source[section] for section in source if section.startswith('area')}
 
-        for area_data in areas.values():
-            if 'points' in area_data:
-                area_data['points'] = "\n".join(
-                    process_fix_list(area_data['points'].splitlines(), Fix.fixes))
-            if args.draw_all_areas and 'draw' in area_data:
-                del area_data['draw']
-            if 'position' in area_data:
-                area_position = area_data['position'].strip()
-                if area_position in Fix.fixes:
-                    area_data['position'] = Fix.fixes[area_position].short_def
-            if 'labelpos' in area_data:
-                area_position = area_data['labelpos'].strip()
-                if area_position in Fix.fixes:
-                    area_data['labelpos'] = Fix.fixes[area_position].short_def
+    for area_data in areas.values():
+        if 'points' in area_data:
+            area_data['points'] = "\n".join(
+                process_fix_list(area_data['points'].splitlines(), Fix.fixes))
+        if args.draw_all_areas and 'draw' in area_data:
+            del area_data['draw']
+        if 'position' in area_data:
+            area_position = area_data['position'].strip()
+            if area_position in Fix.fixes:
+                area_data['position'] = Fix.fixes[area_position].short_def
+        if 'labelpos' in area_data:
+            area_position = area_data['labelpos'].strip()
+            if area_position in Fix.fixes:
+                area_data['labelpos'] = Fix.fixes[area_position].short_def
 
-        # process airport sections
-        runway_to_airport = {}
+    # process airport sections
+    runway_to_airport = {}
 
-        for airport_data in airports.values():
+    for airport_data in airports.values():
 
-            airport_code = airport_data['code']
-            airport_code, _, airport_code_full = airport_code.partition(',')
-            if airport_code_full:
-                airport_data['code'] = airport_code
-                airport_code = airport_code_full
+        airport_code = airport_data['code']
+        airport_code, _, airport_code_full = airport_code.partition(',')
+        if airport_code_full:
+            airport_data['code'] = airport_code
+            airport_code = airport_code_full
 
-            runways = airport_data['runways'].strip().splitlines()
-            for runway_definition in runways:
-                runway_id, _, _ = runway_definition.partition(',')
-                runway_to_airport[runway_id] = airport_code.strip()
+        runways = airport_data['runways'].strip().splitlines()
+        for runway_definition in runways:
+            runway_id, _, _ = runway_definition.partition(',')
+            runway_to_airport[runway_id] = airport_code.strip()
 
-            gateways = dict((tuple(map(str.strip, gateway.split(","))) for gateway in airport_data['gateways'].strip().splitlines()),
-                **default_gateways) if 'gateways' in airport_data else None
+        gateways = dict((tuple(map(str.strip, gateway.split(","))) for gateway in airport_data['gateways'].strip().splitlines()),
+            **default_gateways) if 'gateways' in airport_data else None
 
-            if 'airlines' in airport_data:
-                airlines = [Airline(*airline.split(","), gateways=gateways)
-                    for airline in airport_data['airlines'].splitlines() if airline]
-                airport_data['airlines'] = "\n".join(process_airlines_list(airlines))
+        if 'airlines' in airport_data:
+            airlines = [Airline(*airline.split(","), gateways=gateways)
+                for airline in airport_data['airlines'].splitlines() if airline]
+            airport_data['airlines'] = "\n".join(process_airlines_list(airlines))
 
-            if 'sids' in airport_data:
-                airport_data['sids'] = "\n".join(
-                    process_sids_fix_list(airport_data['sids'].splitlines(), Fix.fixes))
+        if 'sids' in airport_data:
+            airport_data['sids'] = "\n".join(
+                process_sids_fix_list(airport_data['sids'].splitlines(), Fix.fixes))
 
-            if 'entrypoints' in airport_data:
-                airport_data['entrypoints'] = "\n".join(
-                    process_entrypoints_list(airport_data['entrypoints'].splitlines(), Fix.fixes))
+        if 'entrypoints' in airport_data:
+            airport_data['entrypoints'] = "\n".join(
+                process_entrypoints_list(airport_data['entrypoints'].splitlines(), Fix.fixes))
 
-        # process approach/transition sections
-        approaches = {section: source[section] for section in source
-            if section.startswith('approach') or section.startswith('transition')}
-        tagged_approach_routes = {}
-        generated_approaches = {}
-        highest_app_index = 0
-        discarded_approaches = deque()
+    # process approach/transition sections
+    approaches = {section: source[section] for section in source
+        if section.startswith('approach') or section.startswith('transition')}
+    tagged_approach_routes = {}
+    generated_approaches = {}
+    highest_app_index = 0
+    discarded_approaches = deque()
 
-        for approach_section, approach_data in approaches.items():
-            approach_runway = approach_data.get('runway', fallback=None)
-            approach_debug = approach_data.getboolean('debug')
-            if approach_runway is not None:
-                approach_runway_id, _, approach_runway_direction = approach_runway.partition(',')
-                approach_runway = approach_runway_id.strip(), approach_runway_direction.strip()
+    for approach_section, approach_data in approaches.items():
+        approach_runway = approach_data.get('runway', fallback=None)
+        approach_debug = approach_data.getboolean('debug')
+        if approach_runway is not None:
+            approach_runway_id, _, approach_runway_direction = approach_runway.partition(',')
+            approach_runway = approach_runway_id.strip(), approach_runway_direction.strip()
+        else:
+            discarded_approaches.append(approach_section)
+        if 'beacon' in approach_data and ',' not in approach_data['beacon']:
+            approach_beacon = approach_data['beacon'].removeprefix("!")
+            if approach_beacon in Fix.fixes and Fix.fixes[approach_beacon].heading.startswith('!'):
+                approach_data['beacon'] = Fix.fixes[approach_beacon].full_def
             else:
-                discarded_approaches.append(approach_section)
-            if 'beacon' in approach_data and ',' not in approach_data['beacon']:
-                approach_beacon = approach_data['beacon'].removeprefix("!")
-                if approach_beacon in Fix.fixes and Fix.fixes[approach_beacon].heading.startswith('!'):
-                    approach_data['beacon'] = Fix.fixes[approach_beacon].full_def
-                else:
-                    approach_data['beacon'] = approach_beacon
-            else:
-                approach_beacon = approach_data['beacon']
-            for option in approach_data:
-                if option.startswith('route'):
-                    new_generated_approaches = process_approach_fix_list(approach_data[option].splitlines(),
-                         approach_runway, Fix.fixes, tagged_approach_routes, approach_beacon, approach_debug)
-                    if approach_runway is not None:
-                        generated_approach = new_generated_approaches[approach_runway][0]
+                approach_data['beacon'] = approach_beacon
+        else:
+            approach_beacon = approach_data['beacon']
+        for option in approach_data:
+            if option.startswith('route'):
+                new_generated_approaches = process_approach_fix_list(approach_data[option].splitlines(),
+                     approach_runway, Fix.fixes, tagged_approach_routes, approach_beacon, approach_debug)
+                if approach_runway is not None:
+                    generated_approach = new_generated_approaches[approach_runway][0]
 
-                        if generated_approach['beacon'] != approach_beacon:
-                            raise RuntimeError(f'''Unexpected behaviour during approach processing.
+                    if generated_approach['beacon'] != approach_beacon:
+                        raise RuntimeError(f'''Unexpected behaviour during approach processing.
 A single runway approach generated an approach with a mismatched beacon.
 Defined beacon was {generated_approach.beacon}, actual beacon was {approach_beacon}.''')
 
-                        approach_data[option] = generated_approach['heading'] + "\n" + "\n".join(
-                            generated_approach['route'])
-                        new_generated_approaches[approach_runway] = new_generated_approaches[approach_runway][1:]
-                    for runway, new_generated_approaches_for_runway in new_generated_approaches.items():
-                        if runway in generated_approaches:
-                            generated_approaches[runway].extend(new_generated_approaches_for_runway)
-                        elif isinstance(runway, tuple):
-                            generated_approaches[runway] = new_generated_approaches_for_runway
-
-        # find highest approach index as we need to add more approaches
-        for section in source:
-            if section.startswith('approach'):
-                highest_app_index = max(highest_app_index, int(section[8:]))
-
-        for runway, generated_approaches_for_runway in generated_approaches.items():
-            for generated_approach in generated_approaches_for_runway:
-                if not generated_approach['heading']:
-                    continue
-                if discarded_approaches:
-                    section = discarded_approaches.popleft()
-                else:
-                    highest_app_index += 1
-                    section = f'approach{highest_app_index}'
-                beacon = generated_approach['beacon']
-                if Fix.fixes[beacon].heading.startswith('!'):
-                    beacon = Fix.fixes[beacon].full_def
-                source[section] = {
-                    "runway": ', '.join(runway),
-                    "beacon": beacon,
-                    "route1": generated_approach['heading'] + "\n" + "\n".join(
+                    approach_data[option] = generated_approach['heading'] + "\n" + "\n".join(
                         generated_approach['route'])
-                }
+                    new_generated_approaches[approach_runway] = new_generated_approaches[approach_runway][1:]
+                for runway, new_generated_approaches_for_runway in new_generated_approaches.items():
+                    if runway in generated_approaches:
+                        generated_approaches[runway].extend(new_generated_approaches_for_runway)
+                    elif isinstance(runway, tuple):
+                        generated_approaches[runway] = new_generated_approaches_for_runway
 
-        # process departure sections
-        common_departures = [source[section] for section in sorted(source) if section.startswith('commondeparture')]
-        departures = [source[section] for section in sorted(source) if section.startswith('departure')]
-        tagged_departures = {None: {}}
+    # find highest approach index as we need to add more approaches
+    for section in source:
+        if section.startswith('approach'):
+            highest_app_index = max(highest_app_index, int(section[8:]))
 
-        for departure_data in common_departures:
-            if 'airport' not in departure_data:
-                raise RuntimeError(f'''A [commondeparture] exists with no airport specified.''')
+    for runway, generated_approaches_for_runway in generated_approaches.items():
+        for generated_approach in generated_approaches_for_runway:
+            if not generated_approach['heading']:
+                continue
+            if discarded_approaches:
+                section = discarded_approaches.popleft()
+            else:
+                highest_app_index += 1
+                section = f'approach{highest_app_index}'
+            beacon = generated_approach['beacon']
+            if Fix.fixes[beacon].heading.startswith('!'):
+                beacon = Fix.fixes[beacon].full_def
+            source[section] = {
+                "runway": ', '.join(runway),
+                "beacon": beacon,
+                "route1": generated_approach['heading'] + "\n" + "\n".join(
+                    generated_approach['route'])
+            }
 
-        for departure_data in chain(common_departures, departures):
-            if 'airport' in departure_data:
-                departure_airport = departure_data['airport']
-                departure_runway = None
-                departure_base_runway = None
-            elif 'runway' not in departure_data:
-                raise RuntimeError(f'''A departure exists with no runway. Aborting.
+    # process departure sections
+    common_departures = [source[section] for section in sorted(source) if section.startswith('commondeparture')]
+    departures = [source[section] for section in sorted(source) if section.startswith('departure')]
+    tagged_departures = {None: {}}
+
+    for departure_data in common_departures:
+        if 'airport' not in departure_data:
+            raise RuntimeError(f'''A [commondeparture] exists with no airport specified.''')
+
+    for departure_data in chain(common_departures, departures):
+        if 'airport' in departure_data:
+            departure_airport = departure_data['airport']
+            departure_runway = None
+            departure_base_runway = None
+        elif 'runway' not in departure_data:
+            raise RuntimeError(f'''A departure exists with no runway. Aborting.
 The contents of the departure section are as follows:
 {"".join(departure_data.values())}''')
-            else:
-                departure_runway = departure_data['runway']
-                departure_runway = departure_runway.partition(',')
-                departure_airport = runway_to_airport[departure_runway[0]]
-                departure_base_runway = departure_data.get('baserunway', fallback=None)
-                if departure_base_runway is not None:
-                    departure_base_runway = departure_base_runway.partition(',')
-                    del departure_data['baserunway']
-            routes = {int(option.removeprefix('route')): departure_data[option]
-                for option in departure_data if option.startswith('route')}
-            processed_routes = []
-            for route_index in sorted(routes):
-                processed_routes.extend("\n".join(route) for route in
-                    process_repeatable_departure_fix_list(
-                        routes[route_index].splitlines(), departure_runway, departure_airport,
-                        Fix.fixes, tagged_departures, departure_base_runway)
-                    if route)
-                del departure_data[f'route{route_index}']
-            departure_data.update(enumerate_routes(processed_routes, start=1))
+        else:
+            departure_runway = departure_data['runway']
+            departure_runway = departure_runway.partition(',')
+            departure_airport = runway_to_airport[departure_runway[0]]
+            departure_base_runway = departure_data.get('baserunway', fallback=None)
+            if departure_base_runway is not None:
+                departure_base_runway = departure_base_runway.partition(',')
+                del departure_data['baserunway']
+        routes = {int(option.removeprefix('route')): departure_data[option]
+            for option in departure_data if option.startswith('route')}
+        processed_routes = []
+        for route_index in sorted(routes):
+            processed_routes.extend("\n".join(route) for route in
+                process_repeatable_departure_fix_list(
+                    routes[route_index].splitlines(), departure_runway, departure_airport,
+                    Fix.fixes, tagged_departures, departure_base_runway)
+                if route)
+            del departure_data[f'route{route_index}']
+        departure_data.update(enumerate_routes(processed_routes, start=1))
 
-        common_departures = [section for section in source if section.startswith('commondeparture')]
-        for section in common_departures:
-            del source[section]
+    common_departures = [section for section in source if section.startswith('commondeparture')]
+    for section in common_departures:
+        del source[section]
 
-        # write output file
-        if not args.parse_only:
-            with open(output_file, 'w', newline='') as airport_file:
-                airport_file.write(header)
-                source.write(airport_file)
+    # write output file
+    if not args.parse_only:
+        with open(output_file, 'w', newline='') as airport_file:
+            airport_file.write(header)
+            source.write(airport_file)
 
-    # legacy processor in regex. Don't use for new projects.
-    else:
-        pattern = re.compile(r"^(?P<airport_section>\[airport(?P<airport_id>\d*)\])|(?P<airline_entry>#!\t(?P<airline_code>[-\w]*), (?P<airline_frequency>\d*), (?P<airline_parameters>[\w/d]*, [-\w ]*, [nswe]*))|(?P<result_marker>#!expansionoutput(?P<result_id>\d+))|(?P<result_end_marker>#!expansionoutputend)|(?P<sid_marker>#!sid(?P<sid_frequency>[\d]+)x)")
-
-        result = {'output': []}
-        airport = 0
-        ignore_lines = False
-        ignore_one_line = False
-        sid_frequency = 0
-        sid_lines = []
-
-        with open(input_file, 'r', newline='') as airport_file:
-            for line in airport_file:
-                match = pattern.match(line)
-                if match:
-                    if match['airport_section']:
-                        airport = match['airport_id']
-                        if airport not in result:
-                            result[airport] = []
-
-                    elif match['airline_entry']:
-                        total_frequency = int(match['airline_frequency'])
-                        frequencies = []
-                        while total_frequency > 10:
-                            frequencies.append(10)
-                            total_frequency -= 10
-                        frequencies.append(total_frequency)
-                        for frequency in frequencies:
-                            result[airport].append(
-                                f"\t{match['airline_code']}, {frequency}, {match['airline_parameters']}\n"
-                            )
-
-                    elif match['result_marker']:
-                        result['output'].append(line)
-                        for result_line in result[match['result_id']]:
-                            result['output'].append(result_line)
-                        ignore_lines = True
-
-                    elif match['result_end_marker']:
-                        ignore_lines = False
-
-                    elif match['sid_marker']:
-                        sid_frequency = int(match['sid_frequency']) - 1
-                        ignore_one_line = True
-
-                if sid_frequency:
-                    if line.isspace():
-                        for _ in range(sid_frequency):
-                            result['output'].extend(sid_lines)
-                        sid_frequency = 0
-                        sid_lines = []
-                    elif not len(sid_lines):
-                        sid_lines.append("\n")
-                    else:
-                        sid_lines.append(line)
-
-                if not ignore_lines and not ignore_one_line:
-                    result['output'].append(line)
-
-                if ignore_one_line:
-                    ignore_one_line = False
-
-        if not args.parse_only:
-            with open(output_file, 'w', newline='') as airport_file:
-                airport_file.writelines(result['output'])
     return output_file if not args.parse_only else None
 
 
@@ -1267,16 +1219,5 @@ if __name__ == "__main__":
         tagged as it wouldn't make any sense.''')
     parser.add_argument('input_file')
     parser.add_argument('output_file', nargs='?')
-    parser.add_argument('-l', '--legacy', action="store_true",
-        help='''Use legacy processing method. Don't use for new projects.
-        \n\n
-        #!expansionoutput<airport_id> can be inserted on its own line in a source file terminated by
-        #!expansionoutputend on a following line. This block, which should remain empty, will be used
-        to write the result of expanding any airline definitions in a #! comment. Any #! definitions
-        with frequency greater are split into entries with max 10 frequency each.
-        \n\n
-        #!sid<n>x can be inserted before any "routex =" declaration in a [departure] section to repeat the
-        route <n> times. This can be used to adjust the distribution of traffic on each SID. Note the
-        numbering of each "route" will not be adjusted. See renumber.py for such operation.''')
 
     process(parser.parse_args())

@@ -2,6 +2,7 @@
 header = RJBB ACA 3.1.0
 	See RJBB_readme.md
 callsigns = True
+common_data = JPN
 
 [airspace]
 radius = 100
