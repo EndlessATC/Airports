@@ -262,22 +262,151 @@ entrypoints =
 	230, RIVER
 
 airlines =
-	TRA,	4,	B737/B738,	Transavia,	nswe
-	KLM,	10,	B737/B738/B744/B789/B788/A333/B77L/B77W/E190/E170, KLM,	nswe
-	AFR,	2,	A319/A320,	Air France,	s
-	BAW,	3,	A319/A320/A321, Speedbird,	w
-	DEL,	4,	A333/B77L/B77W, Delta,	w
-	CSN,	1,	A380/B77W,	China Southern,	e
-	SIA,	1,	A350,	Singapore,	e
-	AAL,	1,	B788,	American,	w
-	UEA,	1,	A380, Emirates,	e
-	DLH,	2,	A319/A320/A321, Lufthansa, e
-	EIN,	1,	A320, Shamrock,	w
-	AWB,	2,	B744,	Airbridge Cargo, es
-	CDN,	1,	B738,	Dutch Corendon,	esw
-
+	tra, 4, b737/b738, transavia, es
+	klm, 10, a332/a333/b737/b738/b739/b772/b77w/b789/b78x/e75s/e75l/e190/e295/e75s, klm, nswe
+	afr, 2, a318/a319/a320/a321/crjx, air france, s
+	baw, 3, a319/a320/a321/b788, speedbird, w
+	dal, 4, a332/a333/a339/a359, delta, w
+	csn, 1, a388/b77w, china southern, e
+	sia, 1, a359, singapore, e
+	aal, 1, b772/b77w/b788/b789, american, w
+	uae, 1, a388/b773/b77w, emirates, e
+	dlh, 2, a319/a320/a20n/a321/a21n, lufthansa, e
+	clh, 2, crj9, hansaline, e
+	ein, 1, a320/a321, shamrock, w
+	abw, 2, b744/b748, air bridge cargo, esw
+	cdn, 1, b738, dutch corendon, esw
+	aee, 2, a320/a20n/a321, aegean, e
+	afl, 2, a320/a333/b738, aeroflot, e
+	amx, 1, b788/b789, aeromexico, w
+	mac, 1, a320, nawras, s
+	kzr, 2, a20n, astanaline, e
+	aca, 2, a333/b77w/b788/b789, air canada, w
+	cao, 1, b77l, air china freight, e
+	aea, 2, a332/b738/b788, europa, s
+	amc, 1, a20n, air malta, e
+	asl, 1, a319, air serbia, e
+	tsc, 2, a332/a333, transat, w
+	bti, 3, bcs3, air baltic, e
+	aza, 2, a320/a321/e195, alitalia, s
+	aja, 1, b738, anadolu jet, e
+	aiz, 2, a21n/b753, arkia, es
+	gti, 1, b744, giant, nswe
+	aua, 2, a320/a319, austrian, e
+	tpa, 1, a332, tampa, s
+	bru, 1, e195/b738, belarus avia, e
+	bms, 3, b738, blue messenger, e
+	lzb, 1, a319, flying bulgaria, e
+	clx, 2, b744/b748, cargolux, nswe
+	cpa, 1, a35k, cathay, e
+	cal, 2, a359/b744, dynasty, e
+	ckk, 1, b77l, cargo king, e
+	ces, 1, a359/b77w, china eastern, e
+	cai, 4, b738, corendon, es
+	ctn, 1, a319/a320, croatia, e
+	csa, 1, a319/at75, csa, e
+	bcs, 3, a306/b752, eurotrans, nswe
+	ezy, 5, a319/a320/a20n, easy, nswe
+	msr, 1, a20n, egyptair, e
+	ely, 1, b738/b789, el al, e
+	uae, 1, b77l/b744, emirates, es
+	etd, 2, b78x, etihad, e
+	etd, 1, b77l, etihad, e
+	ewg, 3, a320/a20n, eurowings, e
+	eva, 2, b78x, eva air, e
+	fdx, 1, b752, fed ex, nswe
+	fin, 2, a321/e190, finnair, e
+	gia, 2, a339/b77w, indonesia, e
+	tgz, 1, b738, tamazi, e
+	ibs, 2, a320/a321, iberexpress, s
+	ice, 1, b3m8/752/b763, ice air, w
+	ira, 2, a332, iran air, e
+	ira, 1, a30b, iran air, e
+	exs, 2, b738, channex, we
+	cks, 1, b744, connie, e
+	kqa, 1, b788, kenya, e
+	klc, 4, e75s/e75l/e190/e295, city, nswe
+	kal, 2, a333, korean air, e
+	kal, 1, b744/b77l, korean air,  e
+	kac, 1, b77w, kuwaiti, e
+	lco, 1, b763/b77w, lan cargo, s
+	lot, 2, b738/b38m/e195, lot, e
+	mph, 1, b744, martinair, es
+	mgl, 2, b738/b763, mongol air, e
+	mnb, 1, a30b/a332, black sea, e
+	nca, 1, b748, nippon cargo, e
+	nax, 3, b738, nor shuttle, e
+	ohy, 1, a320, onur air, e
+	pgt, 2, a20n/a321/a21n, sunturk, e
+	qtr, 2, b77w, qatari, e
+	qtr, 2, b748/b77l, qatari, e
+	ram, 1, a321/b738, royal air maroc, s
+	rja, 1, a319/a321, jordanian, es
+	ryr, 1, b738, ryanair, w
+	sva, 1, b78x, saudia, e
+	sva, 1, b744/b77l, saudia, e
+	sas, 2, a319/a320/a20n/crj9/b736, scandinavian, e              
+	azg, 1, b744/b748, silk west, e                           
+	sqc, 2, b744, sing cargo, esw                             
+	ero, 1, b738, echo romeo, esw                             
+	sxs, 1, b738, sun express, es                             
+	yzr, 2, b744, yangtze river, e                           
+	swr, 2, bcs3/a320/a321/e290, swiss, e                    
+	tap, 3, a319/a320/a20n/a321/a332, air portugal, s           
+	rot, 2, b737/b738, tarom, e
+	jaf, 2, a320/b738/b38m/b788, beauty, nswe
+	tfl, 3, b738/b38m/b788/b7m8, orange, nswe
+	tar, 1, a20n, tunair, s
+	thy, 2, a320/a21n/a333/a359/b738/b77w/b789, turkish, e
+	thy, 2, a332, turkish, e
+	aui, 1, b738/e195, ukraine international, e
+	kzu, 2, a30b, universal cargo, e
+	ual, 3, b788/b789/b78x, united, w
+	svr, 1, a320/a20n/b7m8, sverdovsk air, e
+	vlg, 2, a319/a320/a20n/a321, vueling, s
+	cxa, 1, b788/b789, xiamen air, e
+	csn, 2, b77l, china southern, e
+	mea, 1, a320, cedar jet, s
+	eca, 1, c525, dark knight, nswe
+        hvn, 1, a358, viet nam airlines, e 
+        eju, 3, a319/a20n/a320, alpine , es
+        slm, 1, a343, surinam airways, s
+        bla, 2, b7m8/b738, blue air, e
+        ibe, 2, a333/a320, iberia, s
+        ubd, 1, b734, urair, e
+        lae, 3, b763, lan columbia, s
+        fhy, 2, a320, freebird air, e
+        aic, 2, b77w/b788, air india, e
+        cwc, 1, b744, ace freight, nswe
+        tay, 2, b744, quality, nswe
+        wja, 1, b789, westjet, w
+        dhk, 2, b752, dhl, nswe 
+        ezs, 1, a319, topswiss, e 
+        mas, 2, a333/a332, malaysian airlines, e
+        kkk, 1, a321, atlas global, e
+        tvs, 2, b737, skytravel, e 
+        wow, 1, a321, wow air, w 
+# special
+	adb, 1, a124, antonov bureau, e
+	ph-yyh, 1, tbm7/tbm8/tbm9, n
+	ph-iii, 1, lj24/lj28/lj35/lj40/lj45/lj36/lj55/lj60/lj70/lj75, nw
+	ph-jli, 1, glex/gl5t/gl7t/gl8t, w
+	ph-ikl, 1, g150/g280/galx/glf1/glf2/glf3, e
+	ph-qll, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c56x/c560/c650/c68a/c680/c700/c750, sw
+	ph-lmx, 1, c55b, e
+	ph-mmk, 1, e35l/e50p/e55p/e545/e550, e
+	ph-bbb, 1, fa7x/fa8x, w
+	ph-kgu, 1, f900/fa20/fa50/fa2t/fa5x, e
+	ph-yux, 1, h25b/h25c/hdjt, e
+	n-919ik, 1, gl5t/gl7t/gl8t, w
+	n-828tt, 1, glf4/glf5/glf6, w
+	d-dddd, 1, pc12/pc24/hdjt/prm1, w
+	d-mjkk, 1, hdjt/h25b/h25c/ha4t, w
+	jdi, 1, c56x/cl30/cl35/e35l/e550/h25b/hdjt/lj75/pc12/prm1, jedi, e
+        ph-eak, 2, glf6, nswe
+        
 [airport2]
-name = Rotterdam The Hague Airport
+name = Rotterdam
 code = RD
 climbaltitude = 3000
 traffic = 5
@@ -285,9 +414,21 @@ runways =
 	rwy7, 06, N51.9521, E4.42824, 57.0, 7218, 656, 656, -15
 
 airlines =
-	TRA,	6,	B737/B738,	Transavia,	nswe
-	CDN,	3,	B738,	Dutch Corendon,	esw
-
+	tra, 6, b737/b738, transavia, nswe
+	cdn, 3, b738, dutch corendon, esw
+	ph-yyu, 2, cl30/cl35/cl60, nwe
+	ph-gih, 2, galx/glf2/glf3/glf4/glf5/glf6, w
+	ph-kkk, 1, e35l/e50p/e55p/e545/e550, e
+	ph-jjm, 1, ga5c/ga6c/galx, e
+	ph-pop, 1, tbm7/tbm8/tbm9, ns
+	ph-bob, 1, prm1, e
+	ph-ddf, 1, c56x/c68a, e
+	ph-qwe, 1, gl5t/gl7t/gl8t/glex/glf5/glf6, w
+	n-9999t, 1, gl8t, w
+	c-salt, 1, glex, w
+        ph-iro, 1, c172, e
+        cfe, 3, e195, cityflyer
+        clh, 1, crj9, hansaline, e
 entrypoints =
 	020, PAM
 	080, PAM
@@ -872,48 +1013,15 @@ config6 =
 	0, rwy3, landrev
 	0, rwy7, startland
 
+[planetypes]
 types =
-	A306, 3, 160, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A319, 4, 135, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A320, 4, 135, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A20N, 4, 135, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A321, 4, 135, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A21N, 4, 135, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A330, 2, 145, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A332, 2, 145, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A333, 2, 145, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-  A359, 2, 145, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Airbus
-	B737, 4, 150, 290, 2.9, 3.2, 800, 4000, 115, 125, 1.1, 1.2, Boeing
-  B738, 4, 150, 290, 2.9, 3.2, 800, 4000, 115, 125, 1.1, 1.2, Boeing
-  B739, 4, 150, 290, 2.9, 3.2, 800, 4000, 115, 125, 1.1, 1.2, Boeing
-  B744, 2, 160, 300, 2.9, 3.2, 800, 4000, 115, 125, 1.1, 1.2, Boeing
-  B748, 2, 160, 300, 2.9, 3.2, 800, 4000, 115, 125, 1.1, 1.2, Boeing
-  B752, 3, 145, 300, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Boeing
-  B753, 3, 145, 300, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Boeing
-  B762, 3, 160, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Boeing
-  B763, 3, 160, 290, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Boeing
-  B77L, 2, 160, 280, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Boeing
-  B77W, 2, 160, 280, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Boeing
-  B788, 2, 160, 300, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Boeing
-  B789, 2, 160, 300, 2.9, 3.2, 800, 3500, 115, 125, 1.1, 1.2, Boeing
-  BCS1, 4, 130, 300, 2.9, 3.2, 800, 4000, 115, 125, 1.1, 1.2, Airbus
-  BE20, 6, 100, 250, 2.9, 3.2, 500, 1500, 115, 125, 1.1, 1.2, Beech
-  BE33, 6,  70, 170, 2.9, 3.2, 500, 1200, 115, 125, 1.1, 1.2, Beech
-  BE40, 6, 150, 270, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Beech
-  B350, 6, 120, 250, 2.9, 3.2, 500, 2000, 115, 125, 1.1, 1.2, Beech
-  C172, 6,  60, 160, 2.9, 3.2, 500, 1000, 115, 125, 1.1, 1.2, Cessna
-  C182, 6,  65, 171, 2.9, 3.2, 500, 1000, 115, 125, 1.1, 1.2, Cessna
-  C208, 6,  85, 186, 2.9, 3.2, 500, 2000, 115, 125, 1.1, 1.2, Cessna
-  C68A, 6, 150, 270, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Cessna
-  CL60, 5, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Embraer
-  CRJ2, 5, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Canadair
-  CRJ7, 5, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Canadair
-  E135, 5, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Embraer
-  E45X, 5, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Embraer
-  E55P, 5, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Embraer
-  E75L, 5, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Embraer
-  GLF4, 5, 145, 300, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Gulfstream
-  H25B, 6, 138, 300, 2.9, 3.2, 800, 3000, 115, 125, 1.1, 1.2, Hawker
-  LJ60, 5, 145, 300, 2.9, 3.2, 1000, 4000, 115, 125, 1.1, 1.2, Learjet
-  MD11, 3, 160, 300, 2.9, 3.2, 1000, 3500, 115, 125, 1.1, 1.2, McDonnell Douglas
-  PC12, 6,  85, 186, 2.9, 3.2, 500, 2000, 115, 125, 1.1, 1.2, Pilatus
+	E295, 5, 160, 250, 2.9, 3.2, 1440, 1560, 124, 134, 1.1, 1.3, Embraer
+	A124, 2, 170, 250, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov
+	GALX, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	G150, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	H25B, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	F2TH, 5, 160, 250, 2.3, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Dassault
+	H25C, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	HA4T, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	HDJT, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Honda Jet
+	PRM1, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Beech Jet
