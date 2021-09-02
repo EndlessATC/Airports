@@ -1,4 +1,4 @@
-# ENBR v1.1
+# ENBR v1.1.5
 # Bergen Flesland, BGO
 # Questions? Dm me on disc. Jannk04#9379
 
@@ -7,8 +7,8 @@
 [airspace]
 radius = 200
 elevation = 165
-floor = 1000
-descendaltitude = 9000		; minimum initial altitude for arrivals
+floor = 1500
+descendaltitude = 7000       	
 ceiling = 15000
 diversionaltitude = 10000
 above = 17000
@@ -288,7 +288,6 @@ config2 =
 
 shape = polygon
 altitude = 1500
-name = CTR
 points = 
 	N060.07.07, E005.02.01
 	N060.08.09, E005.22.43
@@ -303,7 +302,6 @@ points =
 
 shape = polygon
 altitude = 1000
-name = 55 
 points = 
 	N59.36.28, E004.29.53 
 	N59.41.13, E006.12.08 
@@ -319,7 +317,6 @@ points =
 
 shape = polygon
 altitude = 1000
-name = 35
 points = 
 	N60.50.10, E04.27.40 
 	N60.50.10, E05.18.15 
@@ -557,7 +554,7 @@ beacon = BADAB, N59.24.53, E05.55.55, 0, badab two november
 route1 = 
 	0
 	N59.24.53, E05.55.55
- 	N59.26.05, E05.53.03, 9000
+ 	N59.26.05, E05.53.03, 
 	N59.40.17, E05.50.44 
 	N59.49.25, E05.49.05 
 	N60.08.00, E05.42.23 
@@ -579,7 +576,7 @@ beacon = PESUR, N60.14.35.71, E06.35.07.30, 0, pesur three november
 route1 = 
 	0
 	N60.14.35.71, E06.35.07.30
-	N60.21.49, E06.06.50, 8000
+	N60.21.49, E06.06.50, 
 	N60.28.47, E05.36.34, 6000
 	N60.32.15, E05.36.47 
 	N60.35.32, E05.34.22 
@@ -638,7 +635,7 @@ beacon = MODNI, N60.02.28, E03.58.29, 0, modni two november
 route1 = 
 	0 
 	N60.02.28, E03.58.29
-	N60.14.00, E04.20.10, 9000 
+	N60.14.00, E04.20.10,  
 	N60.21.53, E04.34.40  
 	N60.24.19, E04.43.32, 6000
 	N60.27.35, E04.41.06 
@@ -698,7 +695,7 @@ beacon = PESUR, N60.14.35.71, E06.35.07.30, 0, pesur three papa
 route1 =
 	110
 	N60.14.35.710, E06.35.07.30
-	N60.13.33, E05.50.49, 8000
+	N60.13.33, E05.50.49, 
 	N60.10.51, E05.42.14, 6500
 	N60.07.32, E05.44.27  
 	N60.04.18, E05.44.35  
@@ -749,7 +746,7 @@ beacon = BADAB, N59.24.53, E05.55.55, 0, badab two papa
 route1 =
 	210
 	N59.24.53, E05.55.55
-	N59.26.03, E05.52.58, 9000 
+	N59.26.03, E05.52.58,  
 	N59.40.20, E05.50.30 
 	N59.49.26, E05.49.06 
 	N59.58.24, E05.52.43 
@@ -770,7 +767,7 @@ beacon = LUNUR, N60.50.42, E06.04.28, 0, lunur three papa
 route1 = 
 	060
 	N60.50.42, E06.04.28
-	N60.26.10, E05.50.46, 8000
+	N60.26.10, E05.50.46, 
 	N60.10.51, E05.42.14 
 	N60.07.32, E05.44.27  
 	N60.04.18, E05.44.35, 6500  
