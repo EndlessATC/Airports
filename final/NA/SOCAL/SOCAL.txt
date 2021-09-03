@@ -16,7 +16,7 @@ magneticvar = 12.466
 descendaltitude = 10000
 above = 26000
 name = so cal approach, so cal departure
-separation = 0
+separation = 2.5
 beacons =
 	LAX, N33.93310, W118.43200, 0, Los Angeles
 	SMO, N34.01020, W118.45700, 0, Santa Monica
@@ -1006,7 +1006,7 @@ airlines = swa, 3, b733/b735/b737/b37m/b738/b38m, southwest, ne
 	n-5511z, 1, c25a/c25b/c25c/c500/c501/c510/c525/c550/c560/c56x/c650/c680/c68a/c700/c750, ne
 	n-899rr, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, e
 	n-85524, 1, c25m/c55b, ne
-	n-18tl, 1, h25b/h25c/ha4t, e
+	n-18tl, 1, be40/h25b/h25c/ha4t, e
 	c-htty, 1, astr/g150/g280/glf2/glf3, n
 	c-yyzz, 1, galx/glf2, n
 	c-vgyh, 1, f2th/fa20/fa30/fa50, n
@@ -1129,6 +1129,7 @@ airlines =
 	n-577wh, 1, e35l/e50p/e55p/e545/e550, e
 	c-sadf, 1, astr/g150/g280/galx/glf2/glf3, n
 	n-56yh, 1, gl5t/gl7t/gl8t/glex, n
+	n-9824k, 1, be40/h25b/h25c/ha4t, e
 # special
 	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, ne
 	bvn, 1, c208, show me, e
@@ -1376,7 +1377,7 @@ airlines =
 	n-1555p, 1, b748/b77l/b77w/b778/b779/b788/b789, nw
 	n-790pp, 1, pc12/pc24/prm1, ne
 	n-74ga, 1, a332/a343/a345/a346/a359, n
-	n-456qq, 1, h25b/h25c/ha4t, e
+	n-456qq, 1, be40/h25b/h25c/ha4t, e
 	c-ttyy, 1, cl30/cl35/cl60, n
 	c-azee, 1, b737/b738/b38m/b39m/b3jm, n
 	c-ffrq, 1, e35l/e50p/e55p/e545/e550, n
@@ -1474,7 +1475,7 @@ airlines =
 	n-0066j, 1, fa6x/fa7x/fa8x, n
 	n-5671q, 1, gl5t/gl7t/gl8t/glex, n
 	n-92ik, 1, tbm7/tbm8/tbm9, e
-	n-55tg, 1, h25b/h25c/ha4t, e
+	n-55tg, 1, be40/h25b/h25c/ha4t, e
 	n-69ll, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, e
 	n-11xx, 1, ga5c/ga6c, n
 	n-425pu, 1, b37m/b3jm, e
@@ -1708,7 +1709,7 @@ airlines =
 	n-5667, 2, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, e
 	n-193ll, 1, glf4/glf5/glf6, n
 	n-22th, 1, pc12/pc24, e
-	n-4321m, 1, astr/g150/galx, e
+	n-4321m, 1, astr/g150, e
 	n-001jk, 1, astr/glf2/glf3, e
 	n-0909m, 1, g150/g280/ga5c/ga6c/galx, ne
 	n-1222f, 1, fa6x/fa7x/fa8x, n
@@ -1722,7 +1723,7 @@ airlines =
 	n-623hj, 1, pc12/pc24/prm1, e
 	n-9389v, 1, astr/g150/glf2/glf3, n
 	c-ooik, 1, e35l/e550, n
-	c-piao, 1, e55p/pc24, n
+	c-piao, 1, astr/be40/h25b, n
 	c-volk, 1, h25b/h25c/ha4t/hdjt, n
 	c-xtpi, 1, f2th/fa20/fa30
 	d-xlqp, 1, gl7t/gl8t, n
@@ -1785,6 +1786,7 @@ airlines =
 	amf, 1, b190/e120/sw4, amflight, w
 	n-5998j, 1, gl5t/gl7t/gl8t/glex, n
 	n-108mi, 1, b37m/b38m/b39m/b3jm, e
+	n-9173g, 1, a332/a343/a345/a346/a359, e
 # specials 
 	plm, 1, a332/a333/b744, pullman, n
 	ujc, 1, j328, ultimate, e
@@ -1829,7 +1831,7 @@ airlines =
 	n-1886x, 4, gl5t/gl7t/gl8t/glex, n
 	n-0963t, 3, fa6x/fa7x/fa8x, n
 	n-214kj, 2, glf4/glf5/glf6, ne
-	n-177yh, 1, f2th/f900/fa20/fa50, nw
+	n-177yh, 1, f2th/f900/fa10/fa20/fa50, nw
 	n-683rt, 1, cl30/cl35/cl60/crj2/crj7/crj9, nw
 	n-223gg, 1, e35l/e50p/e55p/e545/e550, nw
 	n-6991w, 1, glf2/glf3, w
@@ -1839,7 +1841,8 @@ airlines =
 	n-899mq, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, n
 	n-123gm, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, nw
 	n-28uh, 1, g150/ga5c/ga6c/galx/glf2, nw
-	n-00po, 1, g150/g280, n
+	n-00po, 1, astr/g150/g280, n
+	n-1389l, 1, be40/ha4t, n
 	c-vvga, 1, e35l/e545/e550, w
 	c-sdff, 1, cl30/cl35/cl60, n
 	c-ylqw, 1, c55b/c56x/c750, n
@@ -1920,13 +1923,14 @@ types =
 	B721, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
 	B722, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
 	DC10, 2, 160, 300, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, Douglas
-	DC87, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
+	DC87, 3, 160, 300, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
 	A225, 1, 180, 300, 2.2, 2.4, 1000, 1400, 155, 180, 1.1, 1.3, Antonov
 	J328, 5, 160, 300, 2.9, 3.2, 1440, 1560, 120, 132, 1.1, 1.3, Dornier
 	E45X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 120, 132, 1.1, 1.3, Embraer
 	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
 	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
 	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	BE40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3
 	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3
 	HDJT, 6, 140, 300, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3
 	PRM1, 6, 140, 300, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3
