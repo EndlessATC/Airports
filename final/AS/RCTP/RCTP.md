@@ -72,7 +72,7 @@ If you are Taiwan flightsim/ATC Enthusiast, please join the development of this 
 * from [Taoyuan Airport Co.](https://www.taoyuan-airport.com)
 * Special Thanks: README.md template from RJTT_readme.md by [ckwng](https://github.com/AdamJCavanaugh/EndlessATCAirports/commits?author=ckwng)
 ## Changelog
-* 1.0 - 2021/00/00 - Initial version.
+* 1.0 - 2021/09/13 - Initial version.
 ## License
 All Rights Reserved
 Copyright (c) 2021 ycohui
