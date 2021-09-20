@@ -652,7 +652,7 @@ airlines =
 	jbu, 1, a320/a321/a21n/e190, jet blue, ne
 	fft, 1, a318/a319/a320/a20n/a321/a21n, frontier flight, ne
 	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, Alaska, n
-	mho, 1, c208, Mahaylo, w
+	mho, 1, c208, Mahalo, w
 	baw, 1, a35k/a388/b744/b772/b77w/b788/b789/b78x, speedbird, n
 	afr, 1, a332/a343/a359/a388/b744/b772/b77w/b789, air france, n
 	hal, 1, a21n/a332/b763, hawaiian, w
@@ -668,7 +668,7 @@ airlines =
 	ice, 1, b763, ice air, n
 	etd, 1, a332/a333/a345/a346/a388/b77w/b789/b78x, etihad, n
 	qfa, 1, a332/a333/a388/b744/b789, qantas, s
-	anz, 1, b744/b763/b772/b77w/b788/b789/b78x, New Zealand, s
+	anz, 1, b744/b763/b772/b77w/b789/b78x, New Zealand, s
 	fdx, 1, a306/a310/b721/b722/b752/b763/b77l/dc10/md10/md11, fed ex, nwe
 	ups, 1, a306/b752/b763/b744/b748/dc87/md11, u p s, nwe
 	abw, 1, b742/b743/b744/b748/b77l, air bridge cargo, w
@@ -2375,11 +2375,12 @@ airlines =
 	uaf, 3, dc10/k35r, u s air force, ne
 	uaf, 3, c30j/c130/c17, u s air force, ne
 	uaf, 3, c17, u s air force, e
-	uaf, 3, b52, us air force, e
+	uaf, 3, b52, u s air force, e
 	gti, 1, b738/b763, giant, e
 	scx, 1, b738, sun country, e
 # specials
 	af2-, 1, b752, air force two, e
+	adb, 1, a124/a225, antonov bureau, n
 
 entrypoints =
 	340, PMD
