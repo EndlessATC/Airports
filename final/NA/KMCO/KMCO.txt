@@ -1,0 +1,166 @@
+# Orlando Metropolitan Area airports: KMCO, KSFB, KORL
+
+[airspace]
+elevation = 96
+usa = true
+transition = 18001
+center = N28.4293994904, W81.3089981079
+magneticvar = -4.476
+beacons =
+	MCO, N28.43000, W81.30500, 0, Orlando International
+	ORL, N28.54270, W81.33500, 0, Orlando Executive
+	OR, N28.50730, W81.43420, 0, Herny
+	ISM, N28.28940, W81.43420, 0, Kissimmee
+	SFB, N28.78490, W81.24330, 0, Sanford
+	GGL, N28.59310, W80.81640, 0, Geiger Lake
+	COI, N28.34080, W80.68840, 0, Merritt Island
+	TTS, N28.62620, W80.69580, 0, Kennedy Space Center
+	LEE, N28.81820, W81.80730, 0, Leesburg
+	SQT, N28.09950, W80.70080, 0, Satellite
+	COF, N28.23770, W80.61180, 0, Patrick
+	MLB, N28.10530, W80.63530, 0, Melbourne
+	EVB, N29.05420, W80.94140, 0, New Smyrna Beach
+	DA, N29.14410, W81.14770, 0, Tomok
+	LAL, N27.98620, W82.01390, 0, Lakeland
+	RHZ, N28.22710, W82.15710, 0, Zephyrhills
+	LA, N27.93540, W82.07580, 0, Wirey
+	PCM, N28.00250, W82.15670, 0, Plant City
+	OC, N29.05640, W82.22320, 0, Jumpi
+	VRB, N27.67840, W80.48960, 0, Vero Beach
+	VEP, N27.66410, W80.41960, 0, Vero Beach
+	OCF, N29.17750, W82.22630, 0, Ocala
+
+##############################################################
+# Coastline from naturalearthdata.com.file.
+line1 =
+	N27.67861, W80.35552
+	N27.79453, W80.39575
+	N27.85054, W80.43691
+	N27.64341, W80.37607
+
+line2 =
+	N27.74600, W82.62603
+	N27.77725, W82.61099
+	N27.87324, W82.59658
+	N27.89775, W82.63379
+
+line3 =
+	N27.95845, W82.57959
+	N27.87788, W82.52061
+	N27.86792, W82.49814
+	N27.90283, W82.44570
+	N27.86289, W82.40576
+	N27.83540, W82.40054
+	N27.77114, W82.43052
+	N27.67827, W82.52085
+
+line4 =
+	N28.18091, W80.65010
+	N28.27217, W80.68638
+	N28.38101, W80.74863
+	N28.56064, W80.78721
+	N28.63560, W80.81841
+	N28.75767, W80.83818
+	N28.75894, W80.80869
+	N28.73247, W80.77100
+	N28.68296, W80.77988
+	N28.63281, W80.76592
+	N28.60093, W80.70024
+	N28.57852, W80.68848
+	N28.51621, W80.72905
+	N28.46289, W80.73174
+	N28.34497, W80.69351
+	N28.37490, W80.66548
+	N28.45220, W80.65391
+	N28.51802, W80.63286
+	N28.52290, W80.60693
+	N28.32036, W80.62285
+	N28.17759, W80.61001
+	N27.93447, W80.49956
+	N27.90068, W80.45688
+	N28.07007, W80.53315
+	N28.18086, W80.57285
+	N28.27158, W80.58496
+	N28.36470, W80.58115
+	N28.42646, W80.56782
+	N28.48608, W80.52412
+	N28.55640, W80.56431
+	N29.04985, W80.90000
+
+##############################################################
+[area1]
+# DISNEY WORLD THEME PARK, ORLANDO, Florida
+# https://tfr.faa.gov/save_pages/detail_4_3634.html
+shape = circle
+altitude = 3000 ; minimum allowed altitude in feet
+name = WDW
+radius = 3 ; NM
+position = 28.412500N,81.582222W
+labelpos = 28.4200N,81.590W
+
+##############################################################
+[airport1]
+name = Orlando International Airport
+code = KMCO
+runways =
+	rwy1, 17L, N28.4437, W81.2826, 179.5, 9000, 0, 0, 90
+	rwy2, 17R, N28.4356, W81.2959, 179.0, 10000, 0, 0, 90
+	rwy3, 18L, N28.4483, W81.3223, 179.0, 12005, 0, 0, 93
+	rwy4, 18R, N28.4483, W81.327, 179.0, 12004, 0, 0, 93
+inboundbeacon = MCO
+# https://orlandoairports.net/flights/
+airlines = 
+	dal, 8, bcs1/bcs3/a319/a320/a321/a332/a333/a339/a359/b712/b737/b738/b739/b744/b752/b753/b763/b764/b772/b77l/md88/md90, delta, nswe
+	swa, 5, b733/b735/b737/b37m/b738/b38m, southwest, nw
+	ual, 3, a319/a320/b735/b737/b738/b739/b39m/b3xm/b744/b752/b753/b763/b764/b772/b77w/b788/b789/b78x, united, nswe
+	aal, 5, a319/a320/a321/a21n/a332/a333/b738/b38m/b752/b763/b772/b77w/b788/b789/e190/md81/md82/md83, american, nswe
+	nks, 3, a319/a19n/a320/a20n/a321/a21n, spirit wings, nw
+	jbu, 3, a320/a321/a21n/e190, jet blue, nw
+	fft, 2, a318/a319/a320/a20n/a321/a21n, frontier flight, nw
+	asa, 2, a319/a320/a21n/b737/b738/b739/b39m, Alaska, nw
+	baw, 1, a35k/a388/b744/b772/b77w/b788/b789/b78x, speedbird, ne
+	hal, 1, a21n/a332/b763, hawaiian, w
+	uae, 1, a343/a345/a388/b744/b772/b77l/b773/b77w, emirates, e
+	aca, 1, bcs3/a319/a320/a321/b738/b38m/b763/b788/b789, air canada, n
+	amx, 1, b737/b738/b38m/b39m, aeromexico, w
+	klm, 1, a332/a333/b744/b772/b77w/b789/b78x, klm, ne
+	dlh, 1, a333/a343/a346/a359/a388/b744/b748, Lufthansa, ne
+	ein, 1, a332/a333, shamrock, ne
+	gec, 1, md11/b77l, Lufthansa cargo, ne
+	vir, 1, a332/a333/a339/a343/a346/a35k/b744/b789, virgin, ne
+	scx, 1, b737/b738, sun country, nw
+	nrs, 1, b788/b789, red nose, n
+	wja, 1, b736/b737/b738/b37m/b38m/b3xm, west jet, n
+	fdx, 3, a306/a310/b721/b722/b752/b763/b77l/md10/md11, fed ex, nwe
+	ups, 3, a306/b752/b763/b744/b748/md11, u p s, nwe
+##############################################################
+[airport2]
+name = Orlando Sanford International Airport
+code = KSFB
+runways =
+	rwy5, 09C, N28.7785, W81.2455, 90.0, 3578, 0, 0, 52
+	rwy6, 09L, N28.7817, W81.256, 90.0, 9600, 1000, 600, 55
+	rwy7, 09R, N28.7699, W81.2356, 89.9, 3500, 0, 0, 46
+	rwy8, 18, N28.7833, W81.2348, 180.0, 6003, 0, 0, 49
+inboundbeacon = SFB
+# https://flysfb.com/flights/airlines/
+# https://en.wikipedia.org/wiki/List_of_airline_codes
+airlines = 
+	aay, 95, a319/a320, allegiant, nwe
+	fle, 1, b737, flair, n
+	wsw, 1, b737/b738, swoop, n
+	scx, 1, b737/b738, sun country, wse
+	slm, 1, b737, surinam, s
+	way, 1, a320, wamos, e; uncertain about details on wamos air
+
+##############################################################
+[airport3]
+name = Orlando Executive
+# https://www.airnav.com/airport/KORL
+code = KORL
+runways =
+	rwy9, 07, N28.54283, W81.33927, 67.0, 3578, 6004, 0, 106
+#	rwy10, 13, N28.5487996, W81.341291283, 131.0, 4625, 0, 0, 104
+inboundbeacon = ORL
+airlines =
+	n-1234,	1,	c172
