@@ -211,8 +211,7 @@ beacons =
 #	PADRZ, N33.11.38.000, W117.51.43.000, 0, Padders
 #	CWARD, N33.23.02.450, W117.54.33.380, 0, See Ward
 # HLYWD Star
-#	HLWYD, N34.06.15.250, W116.17.55.630, 0, Hollywood
-	BRUEN, N34.04.23.350, W116.35.18.210, 0, Sea Voo
+	BRUEN, N34.04.23.350, W116.35.18.210, 0, Hollywood
 	AVATR, N34.02.42.680, W116.53.16.750, 0, Avatar
 #	DAAAY, N34.01.35.990, W117.01.51.660, 0, Day
 #	WADUP, N34.00.11.300, W117.13.44.830, 0, Whaddup
@@ -667,7 +666,7 @@ airlines =
 	qxe, 1, crj7/dh8b/dh8d/e75l, horizon, n
 	wow, 1, a333, wow air, n
 	ice, 1, b763, ice air, n
-	etd, 1, a332/a333/a345/a346/a388/b77w/b789/b78x, etihad, n
+	etd, 1, a332/a333/a345/a346/a35k/a388/b77l/b77w/b789/b78x, etihad, n
 	qfa, 1, a332/a333/a388/b744/b748/b789, qantas, ns
 	anz, 1, b744/b763/b772/b77w/b789/b78x, New Zealand, s
 	fdx, 1, a306/a310/b721/b722/b752/b763/b77l/dc10/md10/md11, fed ex, nwe
@@ -759,6 +758,7 @@ airlines =
 	sjx, 1, a339/a359/a35k, star walker, w
 	ujc, 1, j328, ultimate, e
 	tcx, 1, a332/b763, kestral, n
+	xoj, 1, c750/cl30, exo jet, ne
 	csa, 1, a333, csa, n
 	azq, 1, a124/il76, silk line, n
 	
@@ -997,6 +997,7 @@ airlines = swa, 8, b733/b735/b737/b37m/b738/b38m, southwest, new
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	tcx, 1, a332/b763, kestral, n
 	csa, 1, a333, csa, n
+	xoj, 1, c750/cl30, exo jet, ne
 	adb, 1, a124/a225, antonov bureau, n
 	kye, 1, b744/md11, sky cube, e
 
@@ -1147,6 +1148,7 @@ airlines = swa, 3, b733/b735/b737/b37m/b738/b38m, southwest, ne
 	ujc, 1, j328, ultimate, e
 	jsx, 1, e135/e145, big stripe, e
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	xoj, 1, c750/cl30, exo jet, ne
 	rsp, 1, e50p, red stripe, e
 
 entrypoints =
@@ -1265,6 +1267,7 @@ airlines =
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	bvn, 1, c208, show me, e
 	jdi, 1, gl5t/glex/glf6, jedi, n
+	xoj, 1, c750/cl30, exo jet, ne
 	ujc, 1, e135/j328, ultimate, e
 	jsx, 1, e135/e145, big stripe, e
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
@@ -1397,6 +1400,7 @@ airlines =
 	tcx, 1, a332/b763, kestral, n
 	jsx, 1, e135/e145, big stripe, e
 	azq, 1, a124/il76, silk line, n
+	xoj, 1, c750/cl30, exo jet, ne
 	csa, 1, a333, csa, n
 	kye, 1, b744/md11, sky cube, e
 	
@@ -1533,6 +1537,7 @@ airlines =
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	jdi, 1, gl5t/glex/glf6, jedi, n
+	xoj, 1, c750/cl30, exo jet, ne
 	rsp, 1, e50p, red stripe, e
 	
 entrypoints =
@@ -1640,6 +1645,7 @@ airlines =
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, ne
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	xoj, 1, c750/cl30, exo jet, ne
 	jdi, 1, gl5t/glex/glf6, jedi, n
 
 entrypoints =
@@ -1713,6 +1719,7 @@ airlines =
 	tcx, 1, a332/b763, kestral, n
 	adb, 1, a124, antonov bureau, n
 	ewg, 1, a332/a333/a343, eurowings, n
+	xoj, 1, c750/cl30, exo jet, ne
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	kye, 1, b744/md11, sky cube, e
 	
@@ -1902,6 +1909,7 @@ airlines =
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	jdi, 1, gl5t/glex/glf6, jedi, n
+	xoj, 1, c750/cl30, exo jet, ne
 	rsp, 1, e50p, red stripe, e
 	
 entrypoints =
@@ -1964,6 +1972,7 @@ airlines =
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, ne
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	pbr, 1, c56x/c750/g150/hdjt, polar bear, n
+	xoj, 1, c750/cl30, exo jet, ne
 	jdi, 1, gl5t/glex/glf6, jedi, n
 	tcx, 1, a332/b763, kestral, n
 	csa, 1, a333, csa, n
@@ -2030,6 +2039,7 @@ airlines =
 	pbr, 1, c56x/c750/g150/hdjt, polar bear, n
 	jdi, 1, gl5t/glex/glf6, jedi, n
 	jsx, 1, e135/e145, big stripe, e
+	xoj, 1, c750/cl30, exo jet, ne
 	rsp, 1, e50p, red stripe, e
 
 entrypoints =
@@ -2112,6 +2122,7 @@ airlines =
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, e
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, ne
 	pbr, 1, c56x/c750/g150/hdjt, polar bear, n
+	xoj, 1, c750/cl30, exo jet, ne
 	jdi, 1, gl5t/glex/glf6, jedi, n
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 
@@ -2184,6 +2195,7 @@ airlines =
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, ne
 	pbr, 1, c56x/c750/g150/hdjt, polar bear, n
 	jdi, 1, gl5t/glex/glf6, jedi, n
+	xoj, 1, c750/cl30, exo jet, ne
 	rsp, 1, e50p, red stripe, e
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	
@@ -2256,6 +2268,7 @@ airlines =
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, ne
 	pbr, 1, c56x/c750/g150/hdjt, polar bear, n
 	jdi, 1, gl5t/glex/glf6, jedi, n
+	xoj, 1, c750/cl30, exo jet, ne
 	rsp, 1, e50p, red stripe, e
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	
@@ -2310,6 +2323,7 @@ airlines =
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, e
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	jdi, 1, gl5t/glex/glf6, jedi, n
+	xoj, 1, c750/cl30, exo jet, ne
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, e
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 	
@@ -2367,6 +2381,7 @@ airlines =
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, e
 	ujc, 1, j328, ultimate, e
 	jdi, 1, gl5t/glex/glf6, jedi, n
+	xoj, 1, c750/cl30, exo jet, ne
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 
 entrypoints =
