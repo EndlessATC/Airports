@@ -69,14 +69,14 @@ runways =
 	rwy2, 07R, N39.8240, W104.720, 90.5, 12000, 0, 0, 5347
 	rwy3, 08R, N39.8776, W104.662, 90.5, 12000, 0, 0, 5351
 	rwy4, 08L, N39.887, W104.662, 90.5, 15000, 0, 0, 5351
-	rwy5, 16L, N39.897, W104.687, 180.5, 12000, 0, 0, 5347
-	rwy6, 16C, N39.8958, W104.696, 180.5, 16000, 0, 0, 5319
-	rwy7, 17L, N39.865, W104.641, 180.5, 12000, 0, 0, 5325
-	rwy8, 17C, N39.865, W104.649, 180.5, 12000, 0, 0, 5360
-	rwy9, 17R, N39.8612, W104.66, 180.5, 12000, 0, 0, 5375
-	rwy10, 18, N39.865, W104.625, 180.5, 12000, 0, 0, 5380
-	rwy11, 16R, N39.887, W104.710, 180.5, 12000, 0, 0, 5330
-	rwy12, 15, N39.887, W104.723, 180.5, 12000, 0, 0, 5350
+	rwy5, 16L, N39.897, W104.687, 180.5, 12000, 0, 0, 5347, 3, 180.5, 0, 0, 0, 0, 0, 0, 135.3
+	rwy6, 16C, N39.8958, W104.696, 180.5, 16000, 0, 0, 5319, 3, 180.5, 0, 0, 0, 0, 0, 0, 135.3
+	rwy7, 17L, N39.865, W104.641, 180.5, 12000, 0, 0, 5325, 3, 180.5, 0, 0, 0, 0, 0, 0, 135.3
+	rwy8, 17C, N39.865, W104.649, 180.5, 12000, 0, 0, 5360, 3, 180.5, 0, 0, 0, 0, 0, 0, 135.3
+	rwy9, 17R, N39.8612, W104.66, 180.5, 12000, 0, 0, 5375, 3, 180.5, 0, 0, 0, 0, 0, 0, 135.3
+	rwy10, 18, N39.865, W104.625, 180.5, 12000, 0, 0, 5380, 3, 180.5, 0, 0, 0, 0, 0, 0, 135.3
+	rwy11, 16R, N39.887, W104.710, 180.5, 12000, 0, 0, 5330, 3, 180.5, 0, 0, 0, 0, 0, 0, 135.3
+	rwy12, 15, N39.887, W104.723, 180.5, 12000, 0, 0, 5350, 3, 180.5, 0, 0, 0, 0, 0, 0, 135.3
 
 airlines =	fft, 8, a318/a319/a320/a20n/a321/a21n, frontier flight, swe
 	dal, 2, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, swe
@@ -86,7 +86,7 @@ airlines =	fft, 8, a318/a319/a320/a20n/a321/a21n, frontier flight, swe
 	asq, 2, e145/e45x, acey, swe
 	aal, 2, a319/a320/a321/a21n/b738/b38m/b752/e190/md81/md82/md83, american, swe
 	swa, 5, b737/b738/b38m/b733/b735/b37m, southwest, swe
-	eny, 1, e140/e145/e170/e175, envoy, sw
+	eny, 1, e140/e145/e170/e75s/e75l, envoy, sw
 	nks, 1, a319/a19n/a320/a20n/a321/a21n, spirit wings, swe
 	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, se
 	jbu, 1, a320/a321/a21n/e190, jet blue, swe
@@ -97,8 +97,8 @@ airlines =	fft, 8, a318/a319/a320/a20n/a321/a21n, frontier flight, swe
 	cay, 1, b733/b38m, cayman, s
 	scx, 1, b738/b737/b734, sun country, nswe
 	voi, 1, a319/a320/a20n/a321/a21n, volaris, s
-	ice, 1, b752/b753/b763, ice air, n
-	lym, 1, e120/e145/j328/lj24/sw3/sw4, key lime, w
+	ice, 1, b38m/b39m/b752/b753/b763, ice air, n
+	lym, 1, e120/e145/j328/lj24/sw4, key lime, w
 	cmp, 1, b738/b38m/b39m/b3xm, copa, s
 	ana, 1, b744/b772/b773/b77w/b788/b789/b78x, all nippon, n
 	nrs, 1, b788/b789, red nose, n
@@ -119,7 +119,7 @@ airlines =	fft, 8, a318/a319/a320/a20n/a321/a21n, frontier flight, swe
 	abx, 1, b762/b763, abex, s
 	jza, 1, dh8a/dh8c/dh8d/crj2/crj9, jazz, n
 # Special
-	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, we
+	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, we
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, e
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	jdi, 1, gl5t/glex/glf6, jedi, n
@@ -134,6 +134,8 @@ airlines =	fft, 8, a318/a319/a320/a20n/a321/a21n, frontier flight, swe
 	crk, 1, a332/a333/a359, bauhinia, w
 	sjx, 1, a339/a359/a35k, star walker, w
 	maa, 1, a332/a333/b762/b763, mas carga, s
+	tcx, 1, a332/b752/b763, kestral, n
+	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, we
 	
 entrypoints =
 	051, DEN
@@ -179,8 +181,8 @@ config1 =
         0, rwy12, land
         0, rwy5, land
         0, rwy6, land
-        0, rwy8, landrev
         0, rwy7, landrev
+        0, rwy8, landrev
         0, rwy9, landrev
         0, rwy10, landrev
 
@@ -197,3 +199,7 @@ types =
 	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
 	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
 	HDJT, 6, 140, 300, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3
+	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3
+	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3
+	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3
+	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3
