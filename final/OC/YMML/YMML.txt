@@ -1,3 +1,7 @@
+# YMML Melbourne International Airport
+# By WayaWaya48, created from the YMML_gen.txt file found in the 'raw' folder.
+# Version 1.1
+
 [airspace]
 radius = 65
 zoom = 1
@@ -98,7 +102,7 @@ line3 =
 	S38.49082, E145.31445
 	S38.47217, E145.28789
 	S38.45859, E145.21777
-separation = 5
+separation = 3
 transition = 10001
 descendaltitude = 9000 
 floor = 2500
