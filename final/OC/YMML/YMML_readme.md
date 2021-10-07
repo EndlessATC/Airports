@@ -49,3 +49,4 @@ I personally have not found any issues. If you have, feel free to tell me. Thank
 ## Changelog
 
 * 1.0.0 - 11/07/2021 - Initial Version
+* 1.1.0 - 07/10/2021 - Added ATC handoff callsigns, changed flow rate, added Virgin Australia A320
