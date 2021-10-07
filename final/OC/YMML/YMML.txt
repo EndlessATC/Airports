@@ -1,7 +1,3 @@
-# YMML Melbourne International Airport
-# By WayaWaya48, created from the YMML_gen.txt file found in the 'raw' folder.
-# Version 1.0
-
 [airspace]
 radius = 65
 zoom = 1
@@ -40,6 +36,12 @@ beacons =
 	PASCO, S37.7180, E144.95967, Pasco
 	JADEL, S37.56150, E144.95283, Jadel
 	KIKEX, S37.48633, E144.94317, Kickex
+
+handoff =
+	000, Melbourne Centre, melbin center, 124.0
+	090, Melbourne Centre, melbin center, 124.0
+	180, Melbourne Centre, melbin center, 124.0
+	270, Melbourne Centre, melbin center, 124.0
 	
 line1 =
 	S38.66699, E145.79082
@@ -96,7 +98,7 @@ line3 =
 	S38.49082, E145.31445
 	S38.47217, E145.28789
 	S38.45859, E145.21777
-separation = 2
+separation = 5
 transition = 10001
 descendaltitude = 9000 
 floor = 2500
@@ -111,6 +113,8 @@ runways =
 	RWYNS, 16, S37.6532, E144.835, 171, 11998, 0, 0, 432, 3, 171, 3, 346.48
 climbaltitude = 5000
 
+flow = 45
+
 airlines =
 	QFA, 10, B738, Qantas, swne
 	QFA, 5, A332/A333/B789, Qantas, wne
@@ -118,6 +122,7 @@ airlines =
 	JST, 10, A320/A321, Jetstar, swne
 	JST, 4, B788, Jetstar, nwe
 	VOZ, 10, B738, Velocity, swne
+	VOZ, 1, A320, Velocity, w
 	RXA, 3, B738/SF34, Rex, swne
 	ACI, 1, A320, Air Calin, n
 	ACA, 1, B789, Air Canada, ne
