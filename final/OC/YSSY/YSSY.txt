@@ -1,0 +1,319 @@
+# YSSY Sydney International Airport
+# This is an implementation of YSSY Sydney Airport into the [Endless ATC]#(https://steamcommunity.com/app/666610) game.
+
+[airspace]
+elevation = 21
+radius = 60
+transitionaltitude = 10000
+speedrestriction = 10000, 250
+usa = false
+floor = 0
+above = 28000
+ceiling = 25000
+name = approach
+diversionaltitude = 14000
+seperation = 3
+automatic = true
+descendaltitude = 15000
+center = S33.9460983276, E151.177001953
+magneticvar = 12.157
+beacons =
+	SY, S33.94280, E151.18099, 0, Sydney
+	SANAD, S31.386333333333, E151.41233333333, 0, Sanad
+	OLTIN, S32.552166666667, E151.2575, 0, Oltin
+	YAKKA, S33.1915, E151.22316666667, 0, yacka
+	MEPIL, S33.402666666667, E151.21133333333, 170, Mepill
+	LANOL, S33.609333333333, E151.19983333333, 0, Lanole
+	MARLN, S34.0347, E152.067, 0, Marlin
+	BIKUS, S34.005666666667, E151.77933333333, Bikus
+	WHALE, S33.985, E151.578, Whale
+	PRAWN, S33.964166666667, E151.37933333333, prawn
+	MANFA, S34.043333333333, E151.34666666667, manfa
+	JAKLN, S34.147, E151.37333333333, Jacklin
+	BIGEM, S34.181166666667, E150.65266666667, bigem
+	RIVET, S34.2808, E150.43, Rivet
+	TAMMI, S34.102166666667, E150.828, Tammy
+	BOOGI, S34.0225, E151.0045, boogy
+	DUDOK, S34.08, E151.07716666667, dudock
+	NASHO, S34.195, E151.10666666667, nasho
+	BOREE, S33.2373, E151.044, boree
+	VASRA, S33.367166666667, E151.069, vasra
+	DALAR, S33.537, E151.07033333333, dalar
+	DUMOP, S33.651333333333, E151.09966666667, dumop
+	URDEN, S33.746666666667, E151.12433333333, urden
+	BEROW, S33.613333333333, E151.11616666667, berow
+	OVILS, S33.701666666667, E151.13333333333, Ovils
+	JENTL, S33.811166666667, E151.155, jentel
+	ZONKA, S33.958, E151.1125, zonka
+	ANKUB, S33.9866, E150.976, ankub
+	KADOM, S33.7108, E150.3, kadom
+	WOL, S34.5579, E150.791, wollongong
+	HALAS, S33.847833333333, E151.26233333333, halas
+	ENTRA, S33.5831, E151.697, entra
+	MARUB, S33.9317, E151.482
+	RIC, S33.5969, E150.776, richmond
+	DUNES, S34.0267, E151.175, dunes
+	DEENA, S34.1067, E151.202, deena
+	KAMPI, S34.1617, E151.22, kampi
+	KEVIN, S34.1365, E151.371, kevin
+	JULIA, S34.2492, E151.325, julia
+	ABBEY, S34.403, E151.095, abbey
+	TONUX, S33.7178, E151.128, tonux
+	SOSIJ, S34.1723, E151.235, sosig
+	ENDEV, S34.1801, E151.248, endev
+	
+
+line1 =
+	S33.09863, E151.66836
+	S33.20186, E151.60771
+	S33.30098, E151.53008
+	S33.34746, E151.48379
+	S33.39736, E151.46338
+	S33.52158, E151.43203
+	S33.54395, E151.35752
+	S33.58096, E151.29209
+	S33.69932, E151.32275
+	S33.83486, E151.28838
+	S33.92666, E151.28027
+	S33.98506, E151.24463
+	S33.96406, E151.20166
+	S33.97344, E151.16787
+	S34.00527, E151.12480
+	S34.01523, E151.19121
+	S34.02969, E151.23154
+	S34.16250, E151.08994
+	S34.29707, E150.96035
+	S34.38662, E150.92744
+	S34.49912, E150.87129
+	S34.74922, E150.82188
+	S34.89219, E150.78105
+
+[airport1]
+name = Sydney Kingsford Smith International Airport
+code = YSSY
+runways =
+	rwy16L, 16L, S33.9496, E151.188, 168.0, 7999, 758, 125, 16, 3, 168.0, 3, 348.0, 120.5
+	rwy16R, 16R, S33.9294, E151.172, 168.0, 12999, 279, 0, 8, 3, 168.0,3, 348.0, 120.5
+
+climbaltitude = 5000
+
+flow = 45
+
+airlines =
+	QFA, 10, B738, Qantas, swne
+	QFA, 5, A332/A333/B789, Qantas, wne
+	QFA, 3, A388, Qantas, wne
+	JST, 10, A320/A321, Jetstar, swne
+	JST, 4, B788, Jetstar, nwe
+	VOZ, 10, B738, Velocity, swne
+	RXA, 3, B738/SF34, Rex, swne
+	ACI, 1, A320, Air Calin, n
+	ACA, 1, B789, Air Canada, ne
+	AIC, 1, B789, Air India, wn
+	ANZ, 4, A320/A20N/A21N/B789/B772/B77W, Air New Zealand, sw
+	CBJ, 1, A333, Capital Jet, n
+	CPA, 2, A333/A359/A35X/B77W, Cathay, n
+	CAL, 1, A333, Dynasty, n
+	CES, 1, A333, China Eastern, n
+	CSN, 1, A333/A388, China Southern, n
+	UAE, 3, A380/B77W, Emirates, wn
+	ETD, 2, B789, Etihad, wn
+	FJI, 1, B738/A332, Fiji, ne
+	GIA, 2, A333, Indonesia, wn
+	CHH, 1, A333, Hainan, n
+	JAL, 1, B788, Japan Air, n
+	LAN, 1, B789, LAN, s
+	MAS, 2, A333/B772, Malaysian, wn
+	PAL, 1, A333, Philippine, n
+	QTR, 3, B789, Qatari, wn
+	RBA, 2, A20N/B788, Brunei, n
+	TGW, 1, B789, Scooter, nw
+	CSC, 1, A333, Si Chuan, n
+	SIA, 4, A359/A35X/B78X/A388/B77W/B772, Singapore, nw
+	ALK, 1, A333, Sri Lankan, nw
+	THA, 2, A359, Thai, n
+	UAL, 1, B78X, United, ne
+	HVN, 1, B789/A359, Vietnam Airlines, n
+	CXA, 1, B789, Xiamen Air, n
+	MXD, 1, B739, Malindo, nw
+	AVN, 1, B738, Air Van, n
+	AAR, 1, B772, Asiana, n
+
+entrypoints = 
+	3, YAKKA
+	98, MARLN
+	242, RIVET
+	353, BOREE
+
+[departure1]
+runway = rwy16R, rev
+route1 =	
+	WOL2, wollongong two
+	S33.875, E150.994
+	S33.9866, E150.976
+	S34.5579, E150.791
+
+route2 = 
+	KADOM1, kadom one
+	S33.875, E150.994
+	S33.7108, E150.3
+
+route3 =
+	RIC5, richmond 5
+	S33.918, E151.169
+	S33.5969, E150.776
+
+[departure2]
+runway = rwy16L, rev
+route1 = 
+	ENTRA4, entra four
+	S33.928, E151.184
+	S33.847833333333, E151.26233333333
+	S33.5831, E151.697
+
+route2 = 
+	MARUB5, marub five
+	S33.928, E151.184
+	S33.940, E151.275
+	S33.9317, E151.482
+	S34.107, E151.552
+	S34.5579, E150.791
+
+	
+
+[departure3]
+runway = rwy16R
+route1 = 
+	DEEN7WOL, deena seven wollongong
+	S34.0267, E151.175
+	S34.1067, E151.202
+	S34.1617, E151.22
+	S34.5579, E150.791
+
+route2 = 
+	DEEN7RIC, deena seven richmond
+	S34.0267, E151.175
+	S34.1067, E151.202
+	S33.9866, E150.976
+	S33.5969, E150.776
+
+route4 = 
+	DEEN7KAD, deena seven kadom
+	S34.0267, E151.175
+	S34.1067, E151.202
+	S33.9866, E150.976
+	S33.7108, E150.3
+
+route5 = 
+	KAMPI5, kampee five
+	S34.0267, E151.175
+	S34.1617, E151.22
+	S34.365, E151.297
+
+[departure4]
+runway = rwy16L
+route1 = 
+	ABBEY3, abbey three
+	S33.987, E151.195
+	S34.011, E151.272
+	S34.1365, E151.371
+	S34.192, E151.413
+	S34.2492, E151.325
+	S34.403, E151.095
+	S34.5579, E150.791
+
+route2 = 
+	KEVIN6, kevin six
+	S33.987, E151.195
+	S34.011, E151.272
+	S34.1365, E151.371
+	S34.145, E151.428
+	S33.5831, E151.697
+
+[approach1]
+runway = rwy16L
+beacon = YAKKA
+route1 = 
+	183, MEPI3, mepil three
+	S33.1915, E151.22316666667
+	S33.402666666667, E151.21133333333, 8000
+	S33.609333333333, E151.19983333333, 7000
+	end, 170
+
+[approach3]
+runway = rwy16L
+beacon = MARLN
+route1 = 
+	277, MARL5, marlin five
+	S34.0347, E152.067
+	S34.005666666667, E151.77933333333, 
+	S33.985, E151.578, 9000
+	S33.964166666667, E151.37933333333, 
+	end, 278
+
+
+
+[approach4]
+runway = rwy16L, rev
+beacon = MARLN
+route1 = 
+	277, MARL5, marlin five
+	S34.0347, E152.067
+	S34.005666666667, E151.77933333333,
+	S33.985, E151.578, 9000
+	S33.964166666667, E151.37933333333, 
+	S34.043333333333, E151.34666666667
+	S34.147, E151.37333333333
+	end, 155
+
+[approach5]
+runway = rwy16R
+beacon = RIVET
+route1 = 
+	62, RIVE3, rivet three
+	S34.2808, E150.43
+	S34.181166666667, E150.65266666667
+	S34.102166666667, E150.828, 9000
+	S34.0225, E151.0045
+	end, 49
+
+[approach6]
+runway = rwy16R, rev
+beacon = RIVET
+route1 = 
+	62, RIVE3, rivet three
+	S34.2808, E150.43
+	S34.181166666667, E150.65266666667
+	S34.102166666667, E150.828, 9000
+	S34.0225, E151.0045
+	S34.08, E151.07716666667
+	S34.195, E151.10666666667
+	end, 155
+
+[approach7]
+runway = rwy16R,
+beacon = BOREE
+route1 = 
+	172, BORE3P, boree three papa
+	S33.2373, E151.044
+	S33.367166666667, E151.069
+	S33.537, E151.07033333333, 5000
+	S33.651333333333, E151.09966666667, 3000
+	S33.746666666667, E151.12433333333, 3000, 185
+	11.2, 3000, 185
+
+[approach8]
+runway = rwy16R, rev
+beacon = BOREE
+route1 = 
+	172, BORE3PL, boree three papa
+	S33.2373, E151.044
+	S33.367166666667, E151.069
+	S33.613333333333, E151.11616666667, 9000
+	S33.701666666667, E151.13333333333
+	S33.811166666667, E151.155
+	S34.08, E151.07716666667
+	S34.195, E151.10666666667
+	end, 155
+	
+	
