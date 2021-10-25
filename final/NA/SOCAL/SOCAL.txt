@@ -693,6 +693,7 @@ airlines =
 	ces, 1, a332/a333/a343/a346/a359/b77w/b789, china eastern, w
 	cao, 1, b744/b77l, air china freight, n
 	cks, 1, b742/b744/b77l, connie, ne
+	bos, 1, a332, mistral, n
 	tht, 1, a343/b789, tahiti airlines, w
 	aah, 1, b733/b763, aloha, w
 	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, nse
@@ -1335,7 +1336,7 @@ name = Ontario
 code = ON
 runways =
 	rwy12, 08L, N34.0569, W117.623, 90.0, 12198, 0, 0, 943, 3, 90.0, 0, 0, 0, 0, 0, 0, 120.6
-	rwy13, 08R, N34.055, W117.616, 90.0, 10200, 0, 0, 935
+	rwy13, 08R, N34.055, W117.616, 90.0, 10200, 0, 0, 935, 3, 90.0, 0, 0, 0, 0, 0, 0, 120.6
 traffic = 4
 airlines =
 	ups, 10, a306/b744/b748/b752/b763/dc87/md11, u p s, new
@@ -1367,7 +1368,8 @@ airlines =
 	aah, 1, b733/b763, aloha, e
 	aip, 1, b190, alpine air, n
 	amf, 1, b190/e120/sw4, amflight, ne
-	ajt, 1, a321/b721/b722/b762/b763, amerijet, e
+	ajt, 1, b721/b722/b762/b763, amerijet, e
+	awc, 1, a321, zap, e
 	mge, 1, b722/b752, magellan, n
 	cks, 1, b742/b744, connie, we
 	n-6969r, 1, f2th/fa6x/fa7x/fa8x, n
@@ -2361,7 +2363,7 @@ airlines =
 	skw, 1, crj2/crj7/crj9/e75s/e75l, skywest, ne
 	awi, 1, crj2, wisconsin, e
 	n-0192x, 1, f2th/f900/fa10/fa20/fa50, e
-	n-7283z, 1, e35l/e50p/e55p/e545/e550, e
+	n-7283z, 1, e35l/e50p/e55p/e545/e550, n
 	n-523op, 1, astr/g150/g280/galx/glf2, e
 # specials
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, e
@@ -2478,8 +2480,7 @@ entrypoints =
 sids =
 	VCV
 	TRM
-	
-	
+
 [approach41]
 runway = rwy36
 beacon = PMD
@@ -2503,6 +2504,74 @@ route78 =
 	N34.09.58.790, W117.13.56.040
 	N34.07.11.290, W117.17.17.890
 	end, 170
+	
+[airport20]
+name = Riverside
+code = RV
+runways =
+	rwy39, 09, 46.44, 10.92, 103.0, 5401, 0, 0, 760, 3, 103.0, 0, 0, 0, 0, 0, 0, 121.0
+	rwy40, 16, 46.56, 11.08, 179.0, 2850, 0, 0, 776
+traffic = 30
+inboundbeacon = RAL
+airlines =
+	n-153gg, 9, e35l/e50p/e55p/e545/e550, ne
+	n-0162b, 5, f2th/f900/fa10/fa20/fa50, ne
+	n-525az, 3, cl30/cl35/cl60, n
+	n-989hh, 1, astr/g150/galx/glf2/glf3, ne
+	n-646cr, 1, glf5/glf6/glf7/glf8, n
+	n-442jn, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, ne
+	n-056ww, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, ne
+	n-672fj, 1, c210/p210/t210, e
+	n-707nb, 1, be40/h25b/h25c/ha4t, ne
+	n-422vv, 1, crj2/crj7/crj9, e
+	n-115gb, 1, m600/p46t/pc12/pc24/prm1/sf50, e
+	n-617zz, 1, gl5t/gl7t/gl8t/glex, n
+	n-611qq, 1, da62/m20p/m20t/t210/p210, e
+	n-9192h, 1, g280/ga4c/ga5c/ga6c/glf2/glf3, ne
+	n-6472b, 1, fa6x/fa7x/fa8x, n
+	n-916py, 1, tbm7/tbm8/tbm9, e
+	n-7667m, 1, b58t/be9l/be9t/bt36, e
+	c-uhax, 1, c55b/c56x, n
+	c-plam, 1, f2th/f900, n
+# specials
+	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
+	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, ne
+	xoj, 1, c750/cl30, exo jet, ne
+	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, ne
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	rsp, 1, e50p, red stripe, e
+
+entrypoints =
+	340, PMD
+	070, DAWNA
+	
+sids = 
+	VCV
+	TRM
+	
+[approach43]
+runway = rwy26
+beacon = PMD
+route69 =
+	340, ZIGGY7, Ziggy Seven
+	N34.63140, W118.06400
+	N34.25.45.340, W117.37.21.330
+	N34.23.19.130, W117.32.04.570
+	N34.20.28.200, W117.25.55.310
+	N34.17.58.700, W117.20.33.180
+	N34.07.11.290, W117.17.17.890
+	end, 245
+	
+[approach44]
+runway = rwy26
+beacon = DAWNA
+route70 =
+	020, ZIGGY7, Ziggy Seven
+	N34.15.53.920, W117.06.47.020
+	N34.13.07.590, W117.10.08.250
+	N34.09.58.790, W117.13.56.040
+	N34.07.11.290, W117.17.17.890
+	end, 245
 
 [configurations]
 config1 =
@@ -2514,6 +2583,7 @@ config1 =
 	0, rwy9, landstartrev
 	0, rwy10, landstartrev
 	0, rwy12, landstartrev
+	0, rwy13, landrev
 	0, rwy14, landstart
 	0, rwy17, landstartrev
 	0, rwy18, landstart
@@ -2528,6 +2598,7 @@ config1 =
 	0, rwy31, landstart
 	0, rwy34, landstart
 	0, rwy36, landstart
+	0, rwy39, landstart
 
 [planetypes]
 types =
@@ -2559,7 +2630,7 @@ types =
 	EA50, 6, 110, 280, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
 	PC12, 6, 120, 280, 2.9, 3.2, 1000, 1440, 70, 100, 1.1, 1.3
 	BE9L, 6, 110, 260, 2.9, 3.2, 1000, 1440, 83, 98, 1.1, 1.3
-	P46T, 6, 110, 250, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3
+	P46T, 6, 110, 250, 2.9, 3.2, 1000, 1440, 70, 100, 1.1, 1.3
 	C208, 6, 120, 250, 2.9, 3.2, 1000, 1300, 100, 115, 1.1, 1.3
 	M600, 6, 110, 250, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3
 	B58T, 6, 100, 230, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
@@ -2589,4 +2660,4 @@ types =
 	P28R, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	P28U, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	P28T, 6, 100, 180, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
-	M20T, 6, 100, 240, 2.9, 3.2, 1000, 1300, 60, 80, 1.1, 1.3
+	M20T, 6, 100, 240, 2.9, 3.2, 1000, 1400, 60, 80, 1.1, 1.3
