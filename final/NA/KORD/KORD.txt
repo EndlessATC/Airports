@@ -363,6 +363,7 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/glf3/glf4/glf5/glf6/h25b, twilight, sw
 	ujc, 1, j328, ultimate, w
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	mnb, 1, a332, black sea, e
 
 entrypoints =
 	225, NEWRK
@@ -702,7 +703,8 @@ airlines =
 	csa, 1, a333, csa, e
 	bel, 1, a332/a333, beeline, e
 	wow, 1, a320/a20n/a321/a21n, wow air, e
-	adb, 1, a124, antonov bureau, e
+	adb, 1, a124/a225, antonov bureau, e
+	azq, 1, a124/il76, silk line, e
 	ujc, 1, j328, ultimate, w
 	
 entrypoints =
