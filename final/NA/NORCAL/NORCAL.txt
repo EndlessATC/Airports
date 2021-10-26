@@ -406,7 +406,7 @@ airlines =
 	qxe, 2, crj7/dh8b/dh8d/e75l, horizon, nse
 	ein, 1, a332/a333, shamrock, n
 	amx, 1, b737/b738/b38m/b39m, aeromexico, e
-	aca, 1, bcs3/a3e19/a320/a321/b738/b38m/b763, air canada, n
+	aca, 1, bcs3/a319/a320/a321/b738/b38m/b763, air canada, n
 	jza, 1, crj2/crj9/dh8a/dh8c/dh8d/e75s/e75l, jazz, n
 	skv, 1, e75s/e75l, maple, n
 	cca, 1, a332/a333/a343/a359/b744/b748/b763/b772/b77w/b789, air china, w
@@ -672,13 +672,13 @@ airlines =
 	
 entrypoints =
 	124, SKIZM
-	064, BANND
+	080, BANND
 	239, PIRAT
 
 [departure3]
 runway = rwy7, rev
 route11 =
-	CNDEL5, Sin Dell Five
+	CNDEL5, Candle Five
 	N37.45.42.130, W122.18.16.830
 	N37.46.59.770, W122.20.12.330
 	N37.29.23.230, W122.28.28.480
@@ -686,7 +686,7 @@ route11 =
 	N36.00.00.000, W121.50.00.000
 	
 route12 =
-	CNDEL5, Sin Dell Five
+	CNDEL5, Candle Five
 	N37.45.42.130, W122.18.16.830
 	N37.46.59.770, W122.20.12.330
 	N37.24.41.750, W122.20.19.980
@@ -743,8 +743,8 @@ route28 =
 	064
 	N37.45.35.690, W121.03.42.580
 	N37.43.24.190, W121.16.18.770
-	N37.41.13.540, W121.40.18.420
-	N37.40.14.580, W121.50.18.490
+	N37.41.13.540, W121.40.18.420, 7000
+	N37.40.14.580, W121.50.18.490, 5000
 	end, 230
 	
 [approach8]
@@ -797,7 +797,7 @@ airlines =
 	hal, 1, a21n/a332/b763, hawaiian, w
 	jbu, 1, bcs3/a320/a321/a21n/e190, jetblue, e
 	dlh, 1, a333/a343/a346/a359/b744/b748, lufthansa, n
-	clh, 1, a343, hansaline, n
+	clh, 1, a343, honsaline, n
 	ual, 1, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b752/b753, united, e
 	uca, 1, dh8b/dh8c/e145/e45x, commutair, e
 	gjs, 1, crj7, lindbergh, e
@@ -810,6 +810,7 @@ airlines =
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, e
 	ujc, 1, j328, ultimate, e
+	adb, 1, a124/a225, antonov bureau, n
 	jsx, 1, e135/e145, big stripe, s
 	nos, 1, b763/b789, moon flower, n
 	sjx, 1, a339/a359/a35k, star walker, w
@@ -849,7 +850,7 @@ route17 =
 runway = rwy10, rev
 beacon = ORRCA
 route31 =
-	340, RISTI1, Ristie One
+	030, RISTI1, Ristie One
 	N38.26.37.170, W121.33.05.840
 	N37.54.25.690, W121.28.49.360
 	N37.49.22.310, W121.28.09.730
@@ -932,7 +933,7 @@ airlines =
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, se
 
 entrypoints =
-	040, POZUR
+	040, POZUR, 8000
 	080, PNNEN
 	
 [departure5]
@@ -970,7 +971,7 @@ route34 =
 	059
 	N38.58.17.340, W121.05.02.430, 8000
 	N38.53.28.010, W121.23.14.700, 4500
-	N38.50.12.040, W121.29.29.000, 3000
+	N38.50.12.040, W121.29.29.000, 3000, 220
 	N38.48.08.560, W121.34.42.440
 	5.5, 1700, 160
 	
@@ -981,8 +982,8 @@ route34 =
 	059
 	N38.58.17.340, W121.05.02.430, 8000
 	N38.53.28.010, W121.23.14.700, 4500
-	N38.50.12.040, W121.29.29.000, 3000
-	N38.79500, W121.59900
+	N38.50.12.040, W121.29.29.000, 3000, 180
+	N38.79500, W121.59900, 1600, 160
 	5.0, 1400, 150
 	
 [approach15]
@@ -1078,7 +1079,6 @@ airlines =
 	
 entrypoints =
 	360, SGD
-	110, SGD
 
 [departure6]
 runway = rwy15
