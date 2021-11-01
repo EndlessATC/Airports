@@ -1,4 +1,4 @@
-# ENBR v2.0
+# ENBR v2.1
 # Bergen Flesland, BGO
 # Questions/bugs? Dm me on Discord
 # Discord: Jannik04#9379
@@ -6,18 +6,20 @@
 
 
 [airspace]
-radius = 200
+
+radius = 65
 elevation = 165
 floor = 2500
 descendaltitude = 10000       	
 ceiling = 15000
 diversionaltitude = 10000
 above = 17000
+zoom = 4
 transitionaltitude = 7000
 speedrestriction = 25, 250
 localizerspeed = 6, 160
 metric = false
-seperation = 1.5
+seperation = 3.0
 automatic = true
 name = Flesland Approach, Flesland Approach
 center = N60.29339981, E5.218140125
@@ -31,8 +33,11 @@ beacons =
 	LUNUR, N60.50.42, E06.04.28, 284, LUNUR
 	ETNOR, N60.37.42, E03.57.30, -050, ETNOR
 	MODNI, N60.02.28, E03.58.29, 0, MODNI
-	REVTA, N59.52.06, E06.21.10, 090, REVTA 
+	REVTA, N59.52.06, E06.21.10, 180, REVTA 
+	STORD, N59.47.16, E05.20.36, 0, STORD   
 	
+
+
 
 handoff =
 	090, Polaris, Polaris Control, 134.925
@@ -44,16 +49,8 @@ handoff =
 	350, Polaris, Polaris Control, 134.925
 	
 
-boundary =  
-	N59.36.28, E004.29.53 
-	N59.41.13, E006.12.08 
-	N59.57.17, E006.14.51 
-	N60.43.02, E006.00.06 
-	N60.54.29, E005.42.03 
-	N61.00.05, E005.28.47 
-	N61.00.03, E004.29.53 
-	N60.15.16, E004.19.49 
-	N59.37.08, E004.29.43    
+  
+ 
 	
 line1 =
 	N61.19385, E4.86162
@@ -240,17 +237,24 @@ entrypoints =
 
 
 Airlines =
-	SAS, 5, A319/A320/A20N/A321/A21N/AT76/B734/B735/B736/B737/B738/CRJ9/MD82/MD87, Scandinavian, nswe
-	NAX, 5, B738/B38M, Norshuttle, nswe
-	DLH, 1, A319/A320/A20N/A321/A21N/B733/B735, Lufthansa, s
-	CLH, 1, CRJ7/CRJ9/E190/E195, Hansaline, s
-	BTI, 2, BCS3/B733/B735/DH8D, Air Baltic, s
+	SAS, 2, A319/A320/A20N/B737/B738/CRJ9, Scandinavian, nswe
+	NOZ, 2, B738/B38M/B737, Norseman, nswe
+	DLH, 1, CRJ7/CRJ9/E190/E195, Lufthansa, s
+	BTI, 1, BCS3, Air Baltic, s
+	FIN, 2, AT72, Finnar, s
+	CPZ, 1, B738, Compas, s
 	VLG, 1, A320/A20N/A321/A21N, Vueling, s
-	FOX, 6, B738, Greenstar, s
+	FOX, 2, B738, Greenstar, s
 	WIF, 4, DH8A/DH8B/DH8C/DH8D/E290, wideroe, n
-	KLM, 2, B737/B738/B739/E75S/E75L/E190/E295, KLM, s
-	AFR, 1, A318/A319/A320/A321, Air France, s
-	WZZ, 2, A320/A20N/A321/A21N, Wizz Air, se
+	KLM, 1, B737/B738/B739/E75S/E75L/E190/E295, KLM, s
+	AFR, 1, A318/A319/A320, Air France, s
+	WZZ, 1, A320/A20N/A321/A21N, Wizz Air, se
+	
+
+####################################################################
+####################################################################
+####################################################################
+	
 
 [airport2]
 name = Stord Sorstokken
@@ -269,19 +273,23 @@ entrypoints =
 
 Airlines = 
 	DTR, 3, AT43/AT7, Danish, nswe
-	
+
+
+
 	
 
 	
 [configurations]
 
 config1 =
-	0, rwy1, landstartt
+	0, rwy1, landstart
 	0, rwy2, landstart
+
 
 config2 =
 	0, rwy1, landstartrev
 	0, rwy2, landstartrev
+
 
 [area1]
 
@@ -300,8 +308,8 @@ points =
 
 shape = polygon
 altitude = 2000
-name = FLESLAND CTR
-labelpos = -3, -8
+name = FLESLAND
+labelpos = -4, 0
 points = 
 	N59.36.28, E004.29.53 
 	N59.41.13, E006.12.08 
@@ -467,6 +475,101 @@ radius = 4
 position = N60.29.16, E05.00.53
 draw = 8, 9.5
 
+[area18]
+
+shape = polygon
+altitude = 6000
+name = 
+labelpos = 20, 22
+points = 
+	N60.36.28, E004.29.53 
+	N60.36.28, E004.29.53 
+
+[area19]
+
+shape = polygon
+altitude = 7000
+name = 
+labelpos = 25, -20
+points = 
+	N60.36.28, E004.29.53 
+	N60.36.28, E004.29.53 
+
+[area20]
+
+shape = polygon
+altitude = 6000
+name = 
+labelpos = 15, -23
+points = 
+	N60.36.28, E004.29.53 
+	N60.36.28, E004.29.53 
+
+[area21]
+
+shape = polygon
+altitude = 4000
+name = 
+labelpos = 10, -15
+points = 
+	N60.36.28, E004.29.53 
+	N60.36.28, E004.29.53 
+
+[area22]
+
+shape = polygon
+altitude = 5000
+name = 
+labelpos = 12, 0
+points = 
+	N60.36.28, E004.29.53 
+	N60.36.28, E004.29.53 
+
+[area23]
+
+shape = polygon
+altitude = 3000
+name = 
+labelpos = -15, -2
+points = 
+	N60.36.28, E004.29.53 
+	N60.36.28, E004.29.53 
+
+[area24]
+
+shape = polygon
+altitude = 4000
+name = 
+labelpos = -1, 25
+points = 
+	N60.36.28, E004.29.53 
+	N60.36.28, E004.29.53 
+
+[area25]
+
+shape = polygon
+altitude = 3000
+name = 
+labelpos = -5, 16
+points = 
+	N60.36.28, E004.29.53 
+	N60.36.28, E004.29.53 
+
+[area26]
+
+shape = polygon
+altitude = -1
+name =
+points =
+	N59.36.28, E004.29.53 
+	N59.41.13, E006.12.08 
+	N59.57.17, E006.14.51 
+	N60.43.02, E006.00.06 
+	N60.54.29, E005.42.03 
+	N61.00.05, E005.28.47 
+	N61.00.03, E004.29.53 
+	N60.15.16, E004.19.49 
+	N59.37.08, E004.29.43
 
 [departure1]
 
@@ -634,7 +737,6 @@ route1 =
 	N59.48.24, E05.38.39  
 	N60.0.37.90, E06.21.01.90
 #TINIG2B
-
 
 
 
@@ -1942,3 +2044,11 @@ route1 =
 types =
 	E295, 5, 160, 250, 2.9, 3.2, 1440, 1560, 124, 134, 1.1, 1.3, Embraer
 	E290, 5, 160, 250, 2.9, 3.2, 1440, 1560, 124, 134, 1.1, 1.3, Embraer
+	S92A, 5, 90, 120, 2.9, 3.2, 1400, 1600, 90, 105, 1.1, 1.2, Sikorsky
+	A124, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Gulfstream
+	G150, 6, 160, 300, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Gulfstream
+	C172, 6, 80, 150, 2.9, 3.2, 1100, 1200, 80, 130, 1.1, 1.3, Cessna
+	C152, 6, 80, 150, 2.9, 3.2, 1100, 1200, 80, 130, 1.1, 1.3, Cessna
+	DA62, 6, 80, 150, 2.9, 3.2, 1100, 1200, 80, 130, 1.1, 1.3, Dimaond
+	DA40, 6, 80, 150, 2.9, 3.2, 1100, 1200, 80, 130, 1.1, 1.3, Diamond
