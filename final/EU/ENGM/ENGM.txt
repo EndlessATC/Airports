@@ -1,5 +1,5 @@
 # ENGM, Oslo Gardermoen, OSL
-# V1.0 // NOT COMPLETED !!
+# V1.1 // NOT COMPLETED !!
 # Questions/bugs? Dm me on discord
 #Discord: Jannik04#9379
 
@@ -896,9 +896,8 @@ entrypoints =
 
 Airlines =
 	SAS, 5, A319/A320/A20N/A321/A21N/AT76/B734/B735/B736/B737/B738/CRJ9/MD82/MD87, Scandinavian, nswe
-	NAX, 5, B738/B38M, Norshuttle, nswe
-	DLH, 1, A319/A320/A20N/A321/A21N/B733/B735, Lufthansa, s
-	CLH, 1, CRJ7/CRJ9/E190/E195, Hansaline, s
+	NOZ, 5, B738/B38M, Norseman, nswe
+	DLH, 1, A319/A320/A20N/A321/A21N/CRJ7/CRJ9/E190/E195, Lufthansa, s
 	BTI, 2, BCS3/B733/B735/DH8D, Air Baltic, s
 	VLG, 1, A320/A20N/A321/A21N, Vueling, s
 	FOX, 6, B738, Greenstar, s
@@ -911,9 +910,9 @@ Airlines =
 	FDX, 1, B752/B763, fed ex, w
 	UPS, 1, A306/B752/B763, u p s, w
 	UAE, 1, B772/B77l/B773/B77w, emirates, e
-	SWR, 1, A332/A333/, swiss, e
+	SWR, 1, A332/A333, swiss, e
 	QTR, 1, A359/A35k/B77l/B77w/B788/B789, qatari, e
-	KAL, 1, B772/B773/B789/ korean air, w
+	KAL, 1, B772/B773/B789, korean air, w
 	THY, 1, A332/A333/A343, turkish, e
 	TAP, 1, A21N/A332, air portugal, e
 
@@ -2706,7 +2705,7 @@ route1 =
 [approach75]
 
 runway = rwyw
-beacon = ERULO, N059.59.28.000,	E010.46.01.000, 0, erulo
+beacon = ERULO, N059.59.28.000,	E010.46.01.000, 0, RNP oscar
 route1 = 
 	0
 	N059.59.28.000,	E010.46.01.000, 5000, 200
@@ -2719,7 +2718,7 @@ route1 =
 [approach76]
 
 runway = rwyw
-beacon = SUBZO, N060.01.17.000,	E011.18.32.000, 0, subzo
+beacon = SUBZO, N060.01.17.000,	E011.18.32.000, 0, RNP east
 route1 = 
 	0
 	N060.01.17.000,	E011.18.32.000, 5000, 200
@@ -2732,7 +2731,7 @@ route1 =
 [approach77]
 
 runway = rwyw
-beacon = MONCI, N059.57.07.000,	E011.08.05.000, 0, monci
+beacon = MONCI, N059.57.07.000,	E011.08.05.000, 0, RNP south
 route1 = 
 	0
 	N059.57.07.000,	E011.08.05.000, 5000, 200
@@ -2749,7 +2748,7 @@ route1 =
 [approach78]
 
 runway = rwyw
-beacon = ELVUN, N060.06.27.000,	E010.41.51.000, 0, elvun
+beacon = ELVUN, N060.06.27.000,	E010.41.51.000, 0, RNP west
 route1 = 
 	0
 	N060.06.27.000,	E010.41.51.000, 5000, 200
@@ -2759,6 +2758,64 @@ route1 =
 	N060.06.17.000,	E011.00.08.000, 2400, 160
 	N060.07.54.000,	E011.02.32.000, 1800
 	3.3, 1600
+
+[approach79]
+
+runway = rwye
+beacon = RUWOL, N060.05.12.000, E010.43.16.000, RNP west
+route1 =
+	0
+	N060.05.12.000,	E010.43.16.000, 5000, 200
+	N060.04.38.000,	E010.52.15.000, 4000
+	N060.04.55.000,	E010.55.53.000, 3500
+	N060.05.37.000,	E011.00.34.000, 2500, 160
+	N060.07.20.000,	E011.04.27.000, 1800
+	3.3, 1600
+
+[approach80]
+
+runway = rwye
+beacon = TAVRE, N059.55.39.000,	E011.10.40.000, RNP south
+route1 =
+	0
+	N059.55.39.000,	E011.10.40.000, 5000, 200
+	N059.59.21.000,	E011.04.46.000, 3500
+	N060.01.42.000,	E011.04.56.000
+	N060.04.03.000,	E011.05.16.000, 3000
+	N060.06.04.000,	E011.04.17.000, 2200, 160
+	N060.07.20.000,	E011.04.27.000, 1800
+	3.3, 1600
+
+[approach81]
+
+runway = rwye
+beacon = SIFZO, N059.58.35.000,	E010.49.49.000, RNP oscar
+route1 =
+	0
+	N059.58.35.000,	E010.49.49.000, 5000, 200
+	N060.00.42.000,	E010.51.14.000, 4000
+	N060.02.06.000,	E010.52.37.000
+	N060.04.06.000,	E010.55.08.000, 3500, 195
+	N060.05.20.000,	E010.58.13.000
+	N060.05.35.000,	E011.00.38.000, 2500, 160
+	N060.07.20.000,	E011.04.35.000, 1800
+	3.3, 1600
+
+[approach82]
+
+runway = rwye
+beacon = LUVOX, N060.02.36.000,	E011.21.24.000, RNP east
+route1 =
+	0
+	N060.02.36.000,	E011.21.24.000, 5000, 200
+	N060.02.37.000,	E011.10.44.000, 4000
+	N060.03.45.000,	E011.06.01.000, 3000
+	N060.05.12.000,	E011.04.42.000, 2500, 180
+	N060.06.01.000,	E011.04.22.000
+	N060.07.22.000,	E011.04.32.000, 1800
+	3.3, 1600
+
+
 
 
 
