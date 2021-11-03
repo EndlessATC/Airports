@@ -1253,7 +1253,7 @@ airlines =
 	uca, 1, dh8b/dh8c/e145/e45x, commutair, n
 	wja, 1, b736/b737/b37m/b738/b38m/b3xm, westjet, n
 	fdx, 1, b721/b722/b752, fed ex, e
-	ups, 1, b752, u p s, ne
+	ups, 1, b752/dc87, u p s, ne
 	n-951xz, 1, f2th/fa6x/fa7x/fa8x, n
 	n-157kl, 1, glf3/glf4/glf5/glf6/glf7/glf8, n
 	n-577wh, 1, e35l/e50p/e55p/e545/e550, e
@@ -1491,7 +1491,7 @@ route36 =
 name = Van Nuys
 code = VN
 runways =
-	rwy14, 16R, -7.72, 15.64, 176.0, 8001, 0, 0, 802, 3, 164.0, 0, 0, 0, 0, 0, 0, 119.3
+	rwy14, 16R, -7.72, 15.64, 176.0, 8001, 0, 0, 802, 3, 176.0, 0, 0, 0, 0, 0, 0, 119.3
 	rwy15, 16L, -7.64, 15.66, 176.0, 4013, 0, 0, 802
 traffic = 8
 inboundbeacon = VNY
@@ -1511,10 +1511,9 @@ airlines =
 	n-9999a, 1, b737/b37m/b738/b38m/b739/b39m/b3jm, e
 	n-0199u, 1, bcs1/a318/a319/a19n/a320/a20n/a321, ne
 	n-1555p, 1, b748/b77l/b77w/b778/b779/b788/b789, nw
-	n-790pp, 1, m600/p46t/pc12/pc24, ne
+	n-790pp, 1, m600/p46t/pc12/pc24/prm1, ne
 	n-74ga, 1, a332/a343/a345/a346/a359, n
 	n-456qq, 1, be40/h25b/h25c/ha4t, e
-	n-78xa, 1, prm1/m600/sf50, n
 	n-83972, 1, be9l/be9t/c402/p46t, n
 	n-727nm, 1, c210/t210/sf50, ne
 	c-ttyy, 1, cl30/cl35/cl60, n
@@ -1595,7 +1594,7 @@ route52 =
 	N34.32.57.000, W118.25.56.000
 	N34.32.09.600, W118.29.26.800, 6000
 	N34.28.49.230, W118.30.57.690, 5000
-	end, 189
+	14.5, 5000, 200
 
 [airport7]
 name = Palmdale
@@ -1623,6 +1622,15 @@ airlines =
 	n-69ll, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, e
 	n-11xx, 1, ga4c/ga5c/ga6c, n
 	n-425pu, 1, b37m/b3jm, e
+	n-0999h, 1, p28a/p28b/p28r, n
+	n-76776, 1, p28t/p28u/p32r/p32t, ne
+	n-67562, 1, c172/c177/c182/c206/c210/c402, e
+	n-4541g, 1, c72r/c77r/c82r/c82s/c82t, n
+	n-0717g, 1, c210/p210/t206/t210, n
+	n-56gh, 1, aest/evot/pay1/pay2/s22t/sr22, n
+	n-67yy, 1, da42/da62/m20p/m20t, ne
+	n-11cc, 1, be33/be35/be36/be55/be58, e
+	n-00do, 1, b58t/be9l/be9t/bt36, e
 	n-633mq, 1, a332/a343/a345/a346/a359, n
 	n-25pq, 1, glf5/glf6/glf7/glf8, n
 	n-647hn, 1, p46t/pc12/pc24/prm1, ne
@@ -1632,7 +1640,7 @@ airlines =
 	c-mool, 1, ga4c/ga5c/ga6c, n
 	c-zzae, 1, bcs1/a19n/a20n, n
 	d-eath, 1, gl7t/gl8t, n
-	d-llmi, 1, b778/b788/b789, n
+	oo-lmi, 1, b778/b788/b789, n
 # specials
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, e
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, ne
@@ -1768,7 +1776,7 @@ route58 =
 name = Santa Monica
 code = SM
 runways =
-	rwy19, 21, -3.18, 3.69, 224.0, 3500, 0, 0, 170, 3.5, 213.0, 0, 0, 0, 0, 0, 0, 120.1
+	rwy19, 21, -3.18, 3.69, 224.0, 3500, 0, 0, 170, 3.5, 224.0, 0, 0, 0, 0, 0, 0, 120.1
 traffic = 55
 inboundbeacon = SMO
 airlines =
@@ -1778,7 +1786,7 @@ airlines =
 	n-8227l, 1, c402/da62/p210, e
 	n-48hj, 1, c72r/c82r/c82t/p28r, n
 	n-166as, 1, c177/c206/c210, n
-	n-86mn, 1, da40/da42/da62, n
+	n-86mn, 1, da42/da62, n
 	n-91az, 1, s22t/sr22/t206/t210, n
 	n-01xx, 1, ea50/m600/sf50, ne
 	n-9275x, 1, be9l/be9t/c402/p46t, e
@@ -1858,7 +1866,7 @@ route63 =
 name = Montgomery
 code = MG
 runways =
-	rwy20, 28R, 76.61, -52.00, 295.0, 4598, 0, 0, 427, 3, 281.0, 0, 0, 0, 0, 0, 0, 119.2
+	rwy20, 28R, 76.61, -52.00, 295.0, 4598, 0, 0, 427, 3, 295.0, 0, 0, 0, 0, 0, 0, 119.2
 	rwy21, 28L, 76.40, -52.03, 295.0, 3401, 0, 0, 421
 	rwy22, 23, 76.32, -51.69, 245.0, 3400, 0, 0, 425
 traffic = 27
@@ -1995,7 +2003,7 @@ route65 =
 name = Palomar
 code = PM
 runways =
-	rwy25, 06, N33.07.37.71, W117.17.13.10, 79.0, 4897, 0, 0, 330, 3.2, 65.0, 0, 0, 0, 0, 0, 0, 118.6
+	rwy25, 06, N33.07.37.71, W117.17.13.10, 79.0, 4897, 0, 0, 330, 3.2, 79.0, 0, 0, 0, 0, 0, 0, 118.6
 traffic = 30
 inboundbeacon = OCN
 airlines =
@@ -2081,7 +2089,7 @@ route68 =
 name = San Bernardino
 code = BD
 runways =
-	rwy26, 06, 53.44, 22.35, 70.0, 10000, 0, 0, 1084, 3, 57.0, 0, 0, 0, 0, 0, 0, 119.45
+	rwy26, 06, 53.44, 22.35, 70.0, 10000, 0, 0, 1084, 3, 70.0, 0, 0, 0, 0, 0, 0, 119.45
 traffic = 20
 airlines =
 	ups, 6, a306/b752/b763/dc87/md11, u p s, new
@@ -2154,7 +2162,7 @@ route70 =
 name = Zamperini Field
 code = TA
 runways =
-	rwy27, 29R, 5.43, -7.06, 308.0, 5001, 0, 0, 97, 4, 294.0, 0, 0, 0, 0, 0, 0, 133.075
+	rwy27, 29R, 5.43, -7.06, 308.0, 5001, 0, 0, 97, 4, 308.0, 0, 0, 0, 0, 0, 0, 133.075
 	rwy28, 29L, 5.24, -7.08, 308.0, 3000, 0, 0, 103
 traffic = 35
 airlines =
@@ -2222,7 +2230,7 @@ route72 =
 name = Camarillo
 code = CA
 runways =
-	rwy29, 08, -37.35, 8.32, 90.0, 6013, 0, 0, 63, 3, 76.0, 0, 0, 0, 0, 0, 0, 128.2
+	rwy29, 08, -37.35, 8.32, 90.0, 6013, 0, 0, 63, 3, 90.0, 0, 0, 0, 0, 0, 0, 128.2
 traffic = 48
 inboundbeacon = CMA
 airlines =
@@ -2447,7 +2455,7 @@ route76 =
 name = Chino
 code = CN
 runways =
-	rwy36, 26L, 37.70, 10.17, 269.0, 7000, 0, 0, 637, 3, 169.0, 0, 0, 0, 0, 0, 0, 118.5
+	rwy36, 26L, 37.70, 10.17, 269.0, 7000, 0, 0, 637, 3, 269.0, 0, 0, 0, 0, 0, 0, 118.5
 	rwy37, 26R, 37.33, 10.18, 269.0, 4858, 0, 0, 650
 	rwy38, 21, 37.28, 10.46, 224.0, 4919, 0, 0, 636
 traffic = 10
@@ -2720,6 +2728,7 @@ airlines =
 	n-67531, 1, da62/c210/p210/t210, n
 	n-56723, 1, cl30/cl35/cl60, n
 	n-0998j, 1, crj2/crj7/crj9, n
+	n-6726l, 1, ga4c/ga5c/ga6c, n
 	n-99621, 1, be40/h25b/h25c/ha4t/hdjt, n
 	n-8892t, 1, aest/evot/m600/p46t, n
 	n-87372, 1, b58t/be9l/be9t, n
@@ -2757,7 +2766,65 @@ route9 =
 	N34.01.37.830, W118.21.30.220, 6000
 	N34.01.59.640, W118.17.55.250, 6000
 	end, 071
+	
+[airport24]
+name = Gillespie Field
+code = GP
+runways =
+	rwy46, 09L, 83.67, -49.80, 102.0, 5342, 0, 0, 359, 4.5, 102.0, 0, 0, 0, 0, 0, 0, 120.7
+	rwy47, 09R, 83.94, -49.88, 102.0, 2738, 0, 0, 366
+	rwy48, 17, 84.08, -49.72, 179.0, 4145, 0, 0, 366
+traffic = 27
+inboundbeacon = NKX
+airlines =
+	dpj, 9, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, ne
+	eja, 6, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, e
+	lxj, 3, cl30/cl35/e55p/e545/e550/glex/glf4/glf6/lj70/lj75, flex jet, n
+	n-59ua, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, e
+	n-0900h, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, ne
+	n-78766, 1, c172/c72r/c77r/m20p/m20t, e
+	n-66526, 1, c72r/c82r/c82s/c82t/p28t, e
+	n-98988, 1, bt36/c210/p210/t210, e
+	n-45421, 1, p28a/p28b/p28r/p28t/p28u, n
+	n-67162, 1, e35l/e50p/e55p/e545/e550, ne
+	n-05462, 1, gl5t/gl7t/gl8t/glex, n
+	n-65445, 1, f2th/f900/fa10/fa20/fa50, n
+	n-14521, 1, glf3/glf4/glf5/glf6/glf7/glf8, n
+	n-09090, 1, astr/g150/g280/ga5c/ga6c/galx/glf2, n
+	n-56789, 1, ga4c/ga5c/ga6c, e
+	n-45212, 1, be40/h25b/h25c/ha4t/hdjt, ne
+	n-7286a, 1, fa6x/fa7x/fa8x, n
+	n-6752g, 1, da42/da62/p210, e
+	n-78887, 1, p46t/pay1/pay2, e
+	n-00000, 1, tbm7/tbm8/tbm9, e
+	n-11223, 1, cl30/cl35/cl60, n
+	n-5566t, 1, crj2/crj7/crj9, n
+	n-8899y, 1, p28t/p28u/p32r/p32t, e
+	n-7875o, 1, m600/p46t/pc12/pc21/prm1, ne
+	n-72816, 1, c177/c182/c402/c82r/c82t, n
+	n-89898, 1, aest/evot/s22t/sf50/sr22, e
+	n-6273y, 1, b58t/be58/be9l/be9t/bt36, e
+# specials
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	xoj, 1, c750/cl30, exo jet, n
+	rsp, 1, e50p, red stripe, n
+	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
 
+entrypoints =
+	110, NKX, 8000
+	130, NKX, 7000
+	
+[departure15]
+runway = rwy46
+route66 =
+	CWARD2, See Ward Two
+	N33.03.48.440, W117.43.45.230
+	N33.11.38.000, W117.51.43.000
+	N33.23.02.450, W117.54.33.380
+	N33.37.24.970, W117.59.47.040
+	N33.78330, W118.05500
+	
 [configurations]
 config1 =
 	0, rwy1, landrev
@@ -2787,6 +2854,7 @@ config1 =
 	0, rwy41, landstartrev
 	0, rwy42, landstart
 	0, rwy44, landstart
+	0, rwy46, landstart
 
 [planetypes]
 types =
