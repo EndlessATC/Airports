@@ -14,6 +14,7 @@ usa = true
 transition = 18001
 name = washington approach, washington departure
 automatic = true
+separation = 0
 center = N38.94449997, W77.45580292
 magneticvar = -10.561
 beacons =
@@ -401,7 +402,7 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	asz, 1, a339, sensa, n
 	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, w
 	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, sw
-	ity, 1, a332/a339, i t arrow, n
+	ity, 1, a332/a339, it arrow, n
 	ana, 1, b744/b772/b77w/b788/b789/b78x, all nippon, n
 	aal, 1, a319/a320/a321/a21n/b738/b38m/b752/e190/md81/md82/md83, american, nsw
 	eny, 1, e140/e145/e170/e75s/e75l, envoy, nsw
@@ -458,6 +459,7 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	ujc, 1, j328, ultimate, w
 	azq, 1, a124/il76, silk line, n
 	viv, 1, a320/a20n/a21n, aeroenlaces, s
+	mnb, 1, a332, black sea, n
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, w
 
@@ -746,7 +748,7 @@ route31 =
 	N38.04.16.370, W77.17.54.530, 13000
 	N38.12.02.820, W77.15.27.990, 10000
 	N38.20.12.690, W77.11.52.300, 9000
-	N38.31.07.190, W77.00.33.360, 7000
+	N38.31.07.190, W77.00.33.360, 5000
 	end, 008
 
 [airport3]
@@ -807,6 +809,7 @@ airlines =
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	tcx, 1, a332/b752/b763, kestral, n
 	maa, 1, a332/a333/b762/b763, mas carga, s
+	mnb, 1, a332, black sea, n
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, w
 
 entrypoints =
