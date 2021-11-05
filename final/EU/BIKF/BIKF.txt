@@ -1,10 +1,10 @@
 
 [airspace]
-elevation = 171
+elevation = 169
 center = N63.9850006104, W22.6056003571
 magneticvar = -17.021
-descendaltitude = 10000
-transitionaltitude = 8000
+descendaltitude = 11000
+transitionaltitude = 7000
 ceiling = 19000
 above = 29000
 automatic = true
@@ -135,15 +135,17 @@ sids =
 	SORIR,N064.24.12.650,W024.41.31.520,SORIR
 airlines =
 	TRA, 2,	b737/b738,	Transavia,	e
-	KLM, 2,	b737/b738/e190/e170, KLM,	e
-	AFR, 2,	a319/a320,	Air France,	e
-	BAW, 3,	a319/a320/a321, Speedbird,	e
-	DLH, 2,	a319/a320/a321, Lufthansa, e
+	KLM, 1,	b737/b738/e190/e170, KLM,	e
+	AFR, 1,	a319/a320,	Air France,	e
+	BAW, 2,	a319/a320/a321, Speedbird,	e
+	DLH, 1,	a319/a320/a321, Lufthansa, e
 	FIN, 2, a319/a320/a321, Finnair, e
 	ICE, 10, B752/B763/B738/B38M/B39M, ICE Air, nswe
-
-	DLH, 3, e190/a319/a320, lufthansa, e
-	BRU, 1, e75l, belarus avia, s
+	FPY, 5, a321, PLAYER, se,
+	SAS, 2, a320/a321/a330, Scandinavian, e
+	WZZ, 2, a320/a21n, Wizzair, e
+	BTI, 1, a220, Air Baltic, e
+	BBD, 2, B734, Bluebird, e
 runways =
 	rwy1, 01, N63.9645, W22.6055, 1.0, 10019, 0, 0, 135
 	rwy2, 10, N63.985, W22.655, 90.0, 10056, 43, 43, 111
