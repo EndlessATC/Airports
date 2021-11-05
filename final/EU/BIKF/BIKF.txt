@@ -7,8 +7,10 @@ descendaltitude = 10000
 transitionaltitude = 8000
 ceiling = 19000
 above = 29000
+separation = 3
 automatic = true
 radius = 100
+name = keflavik approach, keflavik departure
 beacons =
 	ASRUN,N063.33.26.978,W020.34.54.339,0,ASRUN
 	BASLU,N063.11.19.478,W021.16.19.711,0,BASLU
@@ -112,6 +114,11 @@ line1 =
 	N64.94585, W23.48530
 	N64.95278, W23.35269
 	N64.95801, W23.31460
+handoff =
+	090, Reykjavik Control, Reykjavik Control, 119.7
+	180, Reykjavik Control, Reykjavik Control, 119.7
+	270, Reykjavik Control, Reykjavik Control, 119.7
+	360, Reykjavik Control, Reykjavik Control, 119.7
 
 [airport1]
 name = Keflavik International Airport
