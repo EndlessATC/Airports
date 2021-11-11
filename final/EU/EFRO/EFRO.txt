@@ -8,6 +8,7 @@ descendaltitude = 10000
 ceiling = 12000
 above = 14000
 transitionaltitude = 5001
+diversionaltitude = 1000
 usa = false
 metric = false
 speedrestriction = 50, 250, 14000, 250
@@ -369,22 +370,20 @@ route16 =
 	N66.960555555556, E25.961111111111
 
 
-
-
 [approach1]
 runway = rwy1
-beacon = VEKIP, N66.756416666667, E25.9346, -025, vek-kip
+beacon = VEKIP, N66.756416666667, E25.9346, -025, vek-ipp
 route1 = 
-	025
+	025, VEKIP, vek-ipp transition eye-ell-ess
 	N66.756416666667, E25.9346, 14000, 240
 	N66.706027777778, E26.101491666667, 14000, 180
 	5.6, 2400, 160
 
 [approach2]
 runway = rwy1
-beacon = TUTUT, N66.655463888889, E26.267705555556, 0, tut-tut
+beacon = TUTUT, N66.655463888889, E26.267705555556, 0, tut-utt
 route1 = 
-	015
+	015, TUTUT, tut-utt transition eye-ell-ess
 	N66.655463888889, E26.267705555556, 14000, 240
 	N66.706027777778, E26.101491666667, 14000, 180
 	5.6, 2400, 160
@@ -393,7 +392,7 @@ route1 =
 runway = rwy1
 beacon = NIPAK, N66.706027777778, E26.101491666667, 205, nip-pack
 route1 = 
-	205
+	205, NIPAK, nip-pack transition eye-ell-ess
 	N66.706027777778, E26.101491666667, 14000, 180
 	5.6, 2400, 160
 
@@ -401,7 +400,7 @@ route1 =
 runway = rwy1
 beacon = MIPGO, N66.471377777778, E25.393330555556, 030, mip-go
 route1 = 
-	025
+	025, MIPGO, mip-go
 	N66.471377777778, E25.393330555556
 	N66.604166666667, E25.642777777778
 	N66.756416666667, E25.9346, 14000, 240
@@ -409,9 +408,9 @@ route1 =
 
 [approach5]
 runway = rwy1
-beacon = EKNOM, N66.604166666667, E25.642777777778, 030, mip-go
+beacon = EKNOM, N66.604166666667, E25.642777777778, 030, eck-nohm
 route1 = 
-	025
+	025, EKNOM, mip-go
 	N66.604166666667, E25.642777777778
 	N66.756416666667, E25.9346, 14000, 240
 	end, hold
@@ -420,7 +419,7 @@ route1 =
 runway = rwy1
 beacon = ARFUT
 route1 = 
-	341
+	341, ARFUT1C, are-foot one charlie
 	N66.317222222222, E26.369166666667, 10000, 250
 	N66.655463888889, E26.267705555556, 14000, 240
 	N66.706027777778, E26.101491666667
@@ -430,7 +429,7 @@ route1 =
 runway = rwy1
 beacon = MARXO
 route1 = 
-	280
+	280, MARXO1C, marks-oh one charlie
 	N66.604722222222, E26.748888888889, 10000, 250
 	N66.706027777778, E26.101491666667, 14000, 240
 	end, hold
@@ -439,7 +438,7 @@ route1 =
 runway = rwy1
 beacon = NEMGU
 route1 = 
-	053
+	053, NEMGU2C, nem-goo two charlie
 	N66.34, E24.694166666667, 10000, 250
 	N66.471377777778, E25.393330555556
 	N66.604166666667, E25.642777777778
@@ -450,7 +449,7 @@ route1 =
 runway = rwy1
 beacon = NEPIX
 route1 = 
-	005
+	005, NEPIX2C, nep-icks two charlie
 	N66.108333333333, E25.124166666667, 10000, 250
 	N66.471377777778, E25.393330555556
 	N66.604166666667, E25.642777777778
@@ -461,7 +460,7 @@ route1 =
 runway = rwy1
 beacon = OSLIT
 route1 = 
-	105
+	105, OSLIT2C, oz-lit two charlie
 	N66.8625, E25.406388888889, 10000, 250
 	N66.756416666667, E25.9346, 14000, 240
 	end, hold
@@ -470,7 +469,7 @@ route1 =
 runway = rwy1
 beacon = RENVI
 route1 = 
-	015
+	015, RENVI2C, ren-vee two charlie
 	N66.076111111111, E25.531666666667, 10000, 250
 	N66.655463888889, E26.267705555556, 14000, 240
 	N66.706027777778, E26.101491666667
@@ -480,7 +479,7 @@ route1 =
 runway = rwy1
 beacon = ROTKO
 route1 = 
-	156
+	156, ROTKO2C, rot-koe two charlie
 	N66.960555555556, E25.961111111111, 10000, 250
 	N66.706027777778, E26.101491666667, 14000, 240
 	end, hold
@@ -491,16 +490,16 @@ route1 =
 runway = rwy1, rev
 beacon = OTGUS, N66.371566666667, E25.724822222222, 0, otgus
 route1 = 
-	240
+	240, OTGUS, from otgus for the are enn pee
 	N66.371566666667, E25.724822222222, 14000, 240
 	N66.421561111111, E25.559405555556, 14000, 180
 	5.4, 2400, 160
 	
 [approach14]
 runway = rwy1, rev
-beacon = MIPGO
+beacon = MIPGO, N66.471377777778, E25.393330555556, 030, mip-go
 route1 = 
-	180
+	180, MIPGO, from mip-go for the are enn pee
 	N66.471377777778, E25.393330555556, 14000, 240
 	N66.421561111111, E25.559405555556, 14000, 180
 	5.4, 2400, 160
@@ -509,7 +508,7 @@ route1 =
 runway = rwy1, rev
 beacon = ROPOV, N66.421561111111, E25.559405555556, -025, rop-ov
 route1 = 
-	025
+	025, ROPOV, from rop-ov for the are enn pee
 	N66.421561111111, E25.559405555556, 14000, 180
 	5.4, 2400, 160
 
@@ -517,7 +516,7 @@ route1 =
 runway = rwy1, rev
 beacon = ARFUT
 route1 = 
-	270
+	270, ARFUT1D, are-foot one delta
 	N66.317222222222, E26.369166666667, 10000, 250
 	N66.371566666667, E25.724822222222, 14000, 240
 	N66.421561111111, E25.559405555556
@@ -527,7 +526,7 @@ route1 =
 runway = rwy1, rev
 beacon = MARXO
 route1 = 
-	229
+	229, MARXO1D, marx-oh one delta
 	N66.604722222222, E26.748888888889, 10000, 250
 	N66.371566666667, E25.724822222222, 14000, 240
 	N66.421561111111, E25.559405555556
@@ -537,7 +536,7 @@ route1 =
 runway = rwy1, rev
 beacon = NEMGU
 route1 = 
-	064
+	064, NEMGU2D, nem-goo two delta
 	N66.34, E24.694166666667, 10000, 250
 	N66.421561111111, E25.559405555556
 	end, hold
@@ -546,7 +545,7 @@ route1 =
 runway = rwy1, rev
 beacon = NEPIX
 route1 = 
-	017
+	017, NEPIX2D, nep-icks two delta
 	N66.108333333333, E25.124166666667, 10000, 250
 	N66.421561111111, E25.559405555556
 	end, hold
@@ -555,7 +554,7 @@ route1 =
 runway = rwy1, rev
 beacon = OSLIT
 route1 = 
-	169
+	169, OSLIT2D, oz-lit two delta
 	N66.8625, E25.406388888889, 10000, 250
 	N66.471377777778, E25.393330555556, 14000, 240
 	N66.421561111111, E25.559405555556
@@ -565,7 +564,7 @@ route1 =
 runway = rwy1, rev
 beacon = RENVI
 route1 = 
-	350
+	350, RENVI2D, ren-vee two delta
 	N66.076111111111, E25.531666666667, 10000, 250
 	N66.421561111111, E25.559405555556
 	end, hold
@@ -574,7 +573,7 @@ route1 =
 runway = rwy1, rev
 beacon = ROTKO
 route1 = 
-	193
+	193, ROTKO2D, rot-koe two delta
 	N66.960555555556, E25.961111111111, 10000, 250
 	N66.471377777778, E25.393330555556, 14000, 240
 	N66.421561111111, E25.559405555556
