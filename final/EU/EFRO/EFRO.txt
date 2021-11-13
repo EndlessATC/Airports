@@ -13,7 +13,7 @@ usa = false
 metric = false
 speedrestriction = 50, 250, 14000, 250
 localizerspeed = 8, 160
-separation = 5
+separation = 3
 automatic = true
 name = rovaniemi radar, rovaniemi radar
 

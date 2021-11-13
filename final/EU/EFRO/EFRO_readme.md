@@ -1,4 +1,4 @@
-Endless ATC [EFRO - Rovaniemi] v2.0 by Zac. Join the Endless ATC discord at https://discord.gg/v4wDGh3
+Endless ATC EFRO v2.1 by Zac. Join the Endless ATC discord at https://discord.gg/v4wDGh3
 
 ---------------------------------------------------------
 
@@ -10,7 +10,7 @@ Aircraft should generally fly an arrival and not be vectored at all. Where neces
 
 The initial climb for all departures is 5000ft. Since some TMA exit points are also entry points, be extremely cautious giving anything above FL90 initially.
 
-The minimum separation in the TMA is 5nm. Aircraft on the localiser must be separated by 7nm, as per ICAO single runway mixed mode minima. Departures via the same exit point must be separated by 12nm on TMA exit.
+The minimum separation in the TMA is 3nm. Aircraft on the localiser must be separated by 7nm, as per ICAO single runway minima.
 
 All arrivals which have a downwind, provided there is no need to hold, should be issued descent to be level at 6000ft abeam the airport. This will allow for continous descent. Passing around 7000ft, if no traffic is conflicting, they should be given descent to 3000ft and allowed to establish on the approach without further input.
 
@@ -20,3 +20,4 @@ Changelog
 
 v1.0 - 26/04/2021 - Initial release
 v2.0 - 11/11/2021
+v2.1 - 13/11/2021 - Fixed minimum separaration
