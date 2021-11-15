@@ -16,6 +16,7 @@ magneticvar = 12.466
 speedrestriction = 13, 220, 10000, 250
 floor = 1500
 descendaltitude = 10000
+letters = 50
 above = 26000
 name = so cal approach, so cal departure
 separation = 0
@@ -761,6 +762,7 @@ airlines =
 	csa, 1, a333, csa, n
 	azq, 1, a124/il76, silk line, n
 	yzr, 1, b744, yangtze river, w
+	vjt, 1, gl5t/gl7t/glex, vista jet, n
 	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, ne
 	
 entrypoints =
@@ -1093,7 +1095,7 @@ route19 =
 name = Hollywood Burbank
 code = UR
 runways =
-	rwy5, 08, N34.1979, W118.369, 90.9, 5801, 0, 0, 727, 3, 90.9, 0, 0, 0, 0, 0, 0, 118.7
+	rwy5, 08, N34.1979, W118.369, 90.9, 5801, 0, 0, 727, 3, 90.9, 0, 0, 0, 0, 0, 0, 118.7, Burbank Tower
 	rwy6, 15, N34.2123, W118.36, 167.1, 6886, 0, 0, 768
 traffic = 23
 inboundbeacon = PAI
@@ -1131,7 +1133,7 @@ airlines = swa, 3, b733/b735/b737/b37m/b738/b38m, southwest, ne
 	n-63553, 1, ga7c/ga8c/glf5/glf6, n
 	n-5511z, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, ne
 	n-899rr, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, e
-	n-18tl, 1, be40/h25b/h25c/ha4t, e
+	n-18tl, 1, be40/h25b/h25c/ha4t/hdjt/ww24, e
 	n-029jk, 1, f2th/fa10/fa50/ha4t, e
 	n-53434, 1, b58t/be9l/be9t/bt36, n
 	n-5263x, 1, m600/p46t/pc12/pc21/prm1, n
@@ -1232,7 +1234,7 @@ route25 =
 name = Orange County
 code = NA
 runways =
-	rwy10, 02L, N33.6678, W117.874, 27.8, 5700, 0, 0, 54, 3, 27.8, 0, 0, 0, 0, 0, 0, 126.8
+	rwy10, 02L, N33.6678, W117.874, 27.8, 5700, 0, 0, 54, 3, 27.8, 0, 0, 0, 0, 0, 0, 126.8, John Wayne Tower
 	rwy11, 02R, N33.674, W117.868, 27.8, 2886, 0, 0, 52
 traffic = 12
 inboundbeacon = NA
@@ -1521,7 +1523,7 @@ airlines =
 	n-74ga, 1, a332/a343/a345/a346/a359, n
 	n-456qq, 1, be40/h25b/h25c/ha4t, e
 	n-83972, 1, be9l/be9t/c402/p46t, n
-	n-727nm, 1, c210/t210/sf50, ne
+	n-727nm, 1, c210/t210/sf50/ww24, ne
 	c-ttyy, 1, cl30/cl35/cl60, n
 	c-azee, 1, b737/b738/b38m/b39m/b3jm, n
 	c-ffrq, 1, e35l/e50p/e55p/e545/e550, n
@@ -1642,7 +1644,7 @@ airlines =
 	n-25pq, 1, ga7c/ga8c/glf5/glf6, n
 	n-647hn, 1, p46t/pc12/pc24/prm1, ne
 	c-plie, 1, g150/g280/galx/glf2, n
-	c-aqqw, 1, c55b/c56x/c750, n
+	c-aqqw, 1, c55b/c56x/c750/ww24, n
 	c-word, 1, a318/a319/a321, n
 	c-mool, 1, ga4c/ga5c/ga6c, n
 	c-zzae, 1, bcs1/a19n/a20n, n
@@ -1672,7 +1674,7 @@ route53 =
 name = San Diego
 code = SD
 runways =
-	rwy18, 09, N32.7371, W117.204, 106.0, 9401, 0, 0, 14, 3, 106.0, 0, 0, 0, 0, 0, 0, 118.3
+	rwy18, 09, N32.7371, W117.204, 106.0, 9401, 0, 0, 14, 3, 106.0, 0, 0, 0, 0, 0, 0, 118.3, Lindbergh Tower
 traffic = 3
 inboundbeacon = AN
 airlines = 
@@ -1886,7 +1888,7 @@ airlines =
 	n-5667, 2, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, e
 	n-193ll, 1, ga7c/ga8c/glf4/glf5/glf6, n
 	n-22th, 1, p46t/pc12/pc24, e
-	n-4321m, 1, astr/g150, e
+	n-4321m, 1, astr/g150/ww24, e
 	n-001jk, 1, astr/glf2/glf3, e
 	n-0909m, 1, g150/g280/ga4c/ga5c/ga6c/galx, ne
 	n-1222f, 1, fa6x/fa7x/fa8x, n
@@ -2024,7 +2026,7 @@ airlines =
 	n-177yh, 1, f2th/f900/fa10/fa20/fa50, new
 	n-683rt, 1, cl30/cl35/cl60/crj2/crj7/crj9, new
 	n-223gg, 1, e35l/e50p/e55p/e545/e550, ne
-	n-6991w, 1, glf2/glf3, e
+	n-6991w, 1, glf2/glf3/ww24, e
 	n-11qa, 1, astr/g150/g280/galx/glf2, ne
 	n-50oo, 1, p46t/pc12/pc24, n
 	n-226hh, 1, h25b/h25c/ha4t, n
@@ -2032,7 +2034,7 @@ airlines =
 	n-123gm, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, nw
 	n-28uh, 1, g150/ga4c/ga5c/ga6c/galx/glf2, nw
 	n-00po, 1, astr/g150/g280, n
-	n-8293, 1, be9l/be9t, e
+	n-8293, 1, be9l/be9t/ww24, e
 	n-1389l, 1, be40/ea50/ha4t, n
 	c-vvga, 1, e35l/e545/e550, w
 	c-sdff, 1, cl30/cl35/cl60, n
@@ -2123,7 +2125,7 @@ airlines =
 	n-5783, 1, tbm7/tbm8/tbm9, n
 	c-vvyt, 1, ea50/m600/pc24, n
 	c-plik, 1, cl30/cl35/cl60, n
-	c-oaqs,1, crj2/crj7/crj9, n
+	c-oaqs,1, crj2/crj7/crj9/ww24, n
 	d-ploq, 1, gl7t/gl8t, n
 	d-meat, 1, ga7c/ga8c/glf6, n
 	oo-ikl, 1, b748/b778/b779, n
@@ -2175,7 +2177,7 @@ route70 =
 name = Zamperini Field
 code = TA
 runways =
-	rwy27, 29R, 5.43, -7.06, 308.0, 5001, 0, 0, 97, 4, 308.0, 0, 0, 0, 0, 0, 0, 133.075
+	rwy27, 29R, 5.43, -7.06, 308.0, 5001, 0, 0, 97, 4, 308.0, 0, 0, 0, 0, 0, 0, 133.075, Torrance Tower
 	rwy28, 29L, 5.24, -7.08, 308.0, 3000, 0, 0, 103
 traffic = 35
 airlines =
@@ -2196,7 +2198,7 @@ airlines =
 	n-328oo, 1, astr/g150/g280, e
 	n-117gn, 1, hdjt/p46t/sf50, e
 	n-9927n, 1, be9l/p46t/pc12, ne
-	c-xxxx, 1, c55b/c56x/c750, n
+	c-xxxx, 1, c55b/c56x/c750/ww24, n
 	c-klmq, 1, glf2/glf3, n
 	c-oqwe, 1, c700/e35l/g280/lj60/pc24, n
 	c-vroo, 1, be40/ha4t, n
@@ -2253,7 +2255,7 @@ airlines =
 	n-77yh, 1, astr/g150/g280, e
 	n-91oo, 1, glf2/glf3/glf4, n
 	n-00gh, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, n
-	n-7263j, 1, ea50/p46t/sf50, n
+	n-7263j, 1, ea50/p46t/sf50/ww24, n
 	n-1234p, 1, f2th/f900/fa10/fa20/fa50, e
 	n-782nm, 1, tbm7/tbm8/tbm9, e
 	n-9876q, 1, fa6x/fa7x/fa8x, n
@@ -2318,14 +2320,14 @@ runways =
 traffic = 50
 inboundbeacon = CMA
 airlines =
-	n-78t, 6, be40/h25b/h25c/ha4t, e
+	n-78t, 6, be40/h25b/h25c/ha4t/hdjt, e
 	n-11a, 3, cl30/cl35/cl60, e
 	n-26x, 1, gl5t/gl7t/gl8t/glex, e
 	n-65t, 1, ga7c/ga8c/glf4/glf5/glf6, e
 	n-829bb, 1, b38m/b39m/b3jm, e
 	n-00q, 1, a318/a319/a19n/a320/a20n, e
 	n-1255a, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, e
-	n-5162o, 1, pc12/pc24/prm1, e
+	n-5162o, 1, pc12/pc24/prm1/ww24, e
 	n-6271t, 1, m600/p46t/sf50, e
 	n-888q, 1, fa6x/fa7x/fa8x, e
 	n-625gb, 1, astr/g150/g280/galx/glf2, e
@@ -2334,7 +2336,6 @@ airlines =
 	n-54v, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, n
 	n-99i, 1, e35l/e50p/e55p/e545/e550, n
 	n-53q, 1, astr/g280/glf2/glf3, e
-	n-62c, 1, h25c/hdjt, e
 	n-0762h, 1, crj2/crj7/crj9, e
 	n-552gb, 1, b58t/be9l/be9t, e
 	n-34g, 1, m20p/m20t/t210/p210, e
@@ -2433,7 +2434,7 @@ route75 =
 name = March Reserve
 code = MR
 runways =
-	rwy34, 32, 56.86, 8.40, 329.0, 13302, 0, 0, 1488, 3, 329.0, 0, 0, 0, 0, 0, 0, 127.65
+	rwy34, 32, 56.86, 8.40, 329.0, 13302, 0, 0, 1488, 3, 329.0, 0, 0, 0, 0, 0, 0, 127.65, March Tower
 	rwy35, 30, 56.48, 9.42, 315.0, 3061, 0, 0, 1507
 traffic = 35
 inboundbeacon = RIV
@@ -2567,7 +2568,7 @@ airlines =
 	n-6472b, 1, fa6x/fa7x/fa8x, n
 	n-916py, 1, tbm7/tbm8/tbm9, e
 	n-7667m, 1, b58t/be9l/be9t/bt36, e
-	c-uhax, 1, c55b/c56x, n
+	c-uhax, 1, c55b/c56x/ww24, n
 	c-plam, 1, f2th/f900, n
 # specials
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
@@ -2614,7 +2615,7 @@ route70 =
 name = William J Fox
 code = WF
 runways =
-	rwy41, 24, -0.84, 48.75, 252.0, 7201, 0, 0, 2334, 3, 252.0, 0, 0, 0, 0, 0, 0, 118.525
+	rwy41, 24, -0.84, 48.75, 252.0, 7201, 0, 0, 2334, 3, 252.0, 0, 0, 0, 0, 0, 0, 118.525, Fox Tower
 traffic = 35
 inboundbeacon = GWF
 airlines =
@@ -2630,7 +2631,7 @@ airlines =
 	n-66273, 1, bcs1/a318/a319/a19n/a320/a20n/a321, e
 	n-00283, 1, a332/a343/a345/a346/a359, e
 	n-77865, 1, e35l/e50p/e55p/e545/e550, se
-	n-2273g, 1, pc12/pc24/prm1, e
+	n-2273g, 1, pc12/pc24/prm1/ww24, e
 	n-72737, 1, tbm7/tbm8/tbm9, se
 	n-66545, 1, aest/evot/m600/p46t, e
 	n-82738, 1, ga7c/ga8c/glf4/glf5/glf6, e
@@ -2681,7 +2682,7 @@ airlines =
 	n-88293, 1, astr/g150/g280/galx, n
 	n-27772, 1, f2th/f900/fa10/fa20/fa50, e
 	n-99888, 1, glf2/glf3/glf4, e
-	n-6279h, 1, pc12/pc24/prm1, e
+	n-6279h, 1, pc12/pc24/prm1/ww24, e
 	n-7288v, 1, fa6x/fa7x/fa8x, n
 	n-8827g, 1, ga7c/ga8c/glf4/glf5/glf6, n
 	n-6789u, 1, astr/g280/ga4c/ga5c/ga6c/glf2, e
@@ -2748,7 +2749,7 @@ airlines =
 	n-54321, 1, ga7c/ga8c/glf4/glf5/glf6, n
 	n-09876, 1, astr/g150/g280/galx, n
 	n-78967, 1, galx/glf2/glf3, n
-	n-5625g, 1, pc12/pc24/prm1, n
+	n-5625g, 1, pc12/pc24/prm1/ww24, n
 	n-67531, 1, da62/c210/p210/t210, n
 	n-56723, 1, cl30/cl35/cl60, n
 	n-0998j, 1, crj2/crj7/crj9, n
@@ -2796,7 +2797,7 @@ route9 =
 name = Gillespie Field
 code = GP
 runways =
-	rwy46, 09L, 83.67, -49.80, 102.0, 5342, 0, 0, 359, 4.5, 102.0, 0, 0, 0, 0, 0, 0, 120.7
+	rwy46, 09L, 83.67, -49.80, 102.0, 5342, 0, 0, 359, 4.5, 102.0, 0, 0, 0, 0, 0, 0, 120.7, Gillespie
 	rwy47, 09R, 83.94, -49.88, 102.0, 2738, 0, 0, 366
 	rwy48, 17, 84.08, -49.72, 179.0, 4145, 0, 0, 366
 traffic = 27
@@ -2829,6 +2830,7 @@ airlines =
 	n-72816, 1, c177/c182/c402/c82r/c82t, n
 	n-89898, 1, aest/evot/s22t/sf50/sr22, e
 	n-6273y, 1, b58t/be58/be9l/be9t/bt36, e
+	n-7876c, 1, pc12/pc24/prm1/ww24, e
 # specials
 	jdi, 1, gl5t/glex/glf6, jedi, n
 	xoj, 1, c750/cl30, exo jet, n
@@ -2917,6 +2919,7 @@ airlines =
 	rot, 1, b38m, tarom, e
 	vti, 1, b789, vistara, w
 	sej, 1, b738/b38m, spice jet, w
+	sbi, 1, b38m, siberian, w
 	awc, 1, b462/b463/b733/b763/c500/c525/rj1h, zap, e
 	n-98787, 1, e35l/e50p/e55p/e545/e550, e
 	n-00998, 1, f2th/f900/fa10/fa20/fa50, e
@@ -2998,6 +3001,7 @@ types =
 	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	HDJT, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
 	PRM1, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	WW24, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
 	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
