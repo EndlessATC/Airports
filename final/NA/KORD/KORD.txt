@@ -265,12 +265,12 @@ code = KORD
 runways =
 	rwy1, 04L, N41.9817, W87.9139, 39.0, 7500, 0, 0, 656
 	rwy2, 04R, N41.9533, W87.8994, 42.0, 8075, 0, 0, 661
-	rwy3, 09L, N42.0028, W87.9267, 90.0, 7500, 0, 0, 668, 3, 90.0, 0, 0, 0, 0, 0, 0, 128.15
-	rwy4, 09R, N41.9839, W87.9184, 90.0, 7967, 0, 0, 660, 3, 90.0, 0, 0, 0, 0, 0, 0, 132.7
-	rwy5, 10C, N41.9657, W87.9315, 90.0, 10801, 0, 0, 669, 3, 90.0, 0, 0, 0, 0, 0, 0, 132.7
+	rwy3, 09L, N42.0028, W87.9267, 90.0, 7500, 0, 0, 668, 3, 90.0, 0, 0, 0, 0, 0, 0, 128.15, O Hare Tower
+	rwy4, 09R, N41.9839, W87.9308, 90.0, 11245, 0, 0, 660, 3, 90.0, 0, 0, 0, 0, 0, 0, 132.7, O Hare Tower
+	rwy5, 10C, N41.9657, W87.9315, 90.0, 10801, 0, 0, 669, 3, 90.0, 0, 0, 0, 0, 0, 0, 132.7, O Hare Tower
 	rwy6, 10L, N41.969, W87.9315, 90.0, 13000, 0, 0, 672
-	rwy7, 10R, N41.96, W87.9250, 90.0, 7500, 0, 0, 680, 3, 90.0, 0, 0, 0, 0, 0, 0, 133.0
-	rwy15, 09C, N41.989, W87.9315, 90.0, 11245, 0, 0, 680, 3, 90.0, 0, 0, 0, 0, 0, 0, 128.15
+	rwy7, 10R, N41.96, W87.9250, 90.0, 7500, 0, 0, 680, 3, 88.0, 3, 271.0, 0, 0, 0, 0, 133.0, O Hare Tower
+	rwy15, 09C, N41.989, W87.9315, 90.0, 11245, 0, 0, 680, 3, 90.0, 0, 0, 0, 0, 0, 0, 128.15, O Hare Tower
 airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/b762/b763/b764/b772/b77w/b788/b789/b78x, united, nswe
 	awi, 9, crj2, Wisconsin, swe
 	gjs, 6, crj7, lindbergh, se
@@ -368,7 +368,7 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	ujc, 1, j328, ultimate, w
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	mnb, 1, a332, black sea, e
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
 
 entrypoints =
 	225, NEWRK
@@ -587,7 +587,7 @@ airlines = swa, 6, b733/b735/b737/b738/b38m/b37m, southwest, swe
 	usc, 1, c208/lj35, star check, n
 	n-8244y, 1, gl5t/gl7t/gl8t/glex, s
 	n-992xx, 1, ga7c/ga8c/glf4/glf5/glf6, e
-	n-0172j, 1, h25b/h25c/ha4t, w
+	n-0172j, 1, be40/h25b/h25c/h25x/ha4t, w
 	n-615bn, 1, fa6x/fa7x/fa8x, e
 	n-5432j, 1, b37m/b38m/b39m/b3jm, we
 # Specials
@@ -598,7 +598,7 @@ airlines = swa, 6, b733/b735/b737/b738/b38m/b37m, southwest, swe
 	qxe, 1, crj7/dh8b/dh8d/e75l, horizon, w
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, swe
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
 
 entrypoints =
 	225, STKNY
@@ -712,7 +712,7 @@ airlines =
 	adb, 1, a124/a225, antonov bureau, e
 	azq, 1, a124/il76, silk line, e
 	ujc, 1, j328, ultimate, w
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, sw
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, sw
 	
 entrypoints =
 	050, MK
@@ -743,13 +743,13 @@ airlines =
 	n-7281x, 5, astr/g150/g280/galx/glf2/glf3, w
 	n-901jm, 3, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, we
 	n-617hn, 1, gl5t/gl7t/gl8t/glex, e
-	n-126oo, 1, be40/h25b/h25c/ha4t/hdjt, w
+	n-126oo, 1, be40/h25b/h25c/h25x/ha4t/hdjt, w
 	n-6666t, 1, p46t/pc12/pc24/prm1, sw
 	n-111at, 1, be9l/be9t/m600/p46t, w
 	n-526zx, 1, fa6x/fa7x/fa8x, e
 	n-0001i, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, sw
 	n-7881a, 1, ga7c/ga8c/glf4/glf5/glf6, e
-	n-4656q, 1, cl30/cl35/cl60/crj2/crj7/crj9, sw
+	n-4656q, 1, cl30/cl35/cl60/cl65/cl85/cl87/cl89, sw
 	n-8811h, 1, e35l/e50p/e55p/e545/e550, sw
 	n-8877k, 1, g280/galx/glf2/glf3, sw
 	n-0182h, 1, ga4c/ga5c/ga6c, w
@@ -761,11 +761,11 @@ airlines =
 	n-210ss, 1, c210/p210/t210, w
 	n-099ik, 1, c82s/c82t/p210/t206/t210, w
 	n-7877h, 1, p32r/p32t/m20p/m20t
-	c-uhja, 1, c55b/c56x/c750, n
-	c-vvvv, 1, e545/e550, n
-	c-yham, 1, astr/g150, n
-	c-cccc, 1, lj55/lj75, n
-	c-cqam, 1, be40/ha4t, n
+	cg-hja, 1, c55b/c56x/c750, n
+	cf-vvv, 1, e545/e550, n
+	cf-ham, 1, astr/g150, n
+	cg-ccc, 1, lj55/lj75, n
+	cf-qam, 1, be40/h25x/ha4t, n
 	d-olma, 1, gl7t/glex, e
 	bya, 1, dh8b/e120/sw4, berry, n
 # specials
@@ -775,7 +775,7 @@ airlines =
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/c55b/c68a/glf5/c56x, exec jet, sw
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/glf3/glf4/glf5/glf6/h25b, twilight, sw
 	rsp, 1, e50p, red stripe, w
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
 
 entrypoints =
 	280, OBK
@@ -808,18 +808,18 @@ airlines =
 	n-987ba, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, w
 	n-5445v, 1, f2th/f900/fa10/fa20/fa50, w
 	n-556yy, 1, tbm7/tbm8/tbm9, w
-	n-5511g, 1, cl30/cl35/cl60, w
-	n-7887j, 1, crj2/crj7/crj9, s
+	n-5511g, 1, cl30/cl35/cl60/cl65, w
+	n-7887j, 1, cl85/cl87/cl89, s
 	n-9989y, 1, astr/g150/g280/galx/glf2/glf3, w
 	n-09990, 1, m600/p46t/pc12/pc24/prm1, s
-	n-7766p, 1, be40/h25b/h25c/ha4t/hdjt, w
+	n-7766p, 1, be40/h25b/h25c/h25x/ha4t/hdjt, w
 	n-5141o, 1, fa6x/fa7x/fa8x, e
 	n-166as, 1, e35l/e50p/e55p/e545/e550, w
 	n-7676h, 1, ga4c/ga5c/ga6c/ga7c/ga8c, w
 # specials
 	maa, 1, a332/a333/b762/b763, mas carga, s
 	jdi, 1, gl5t/glex/glf6, jedi, n
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/glf3/glf4/glf5/glf6/h25b, twilight, sw
 	cwc, 1, b744/md11, challenge cargo, s
 	adb, 1, a124/a225, antonov bureau, n
@@ -906,10 +906,10 @@ types =
 	B721, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
 	B722, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
 	A124, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3
-	C402, 6, 100, 230, 2.9, 3.2, 1000, 1400, 60, 90, 1.1, 1.3
+	C402, 6, 100, 230, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
 	J328, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	E45X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 116, 125, 1.1, 1.3
-	A225, 1, 180, 300, 2.2, 2.4, 1000, 1400, 155, 180, 1.1, 1.3
+	A225, 1, 180, 300, 2.2, 2.4, 1000, 1400, 160, 180, 1.1, 1.3
 	DC87, 3, 160, 300, 2.3, 2.7, 1000, 1440, 127, 134, 1.1, 1.3
 	DC10, 2, 160, 300, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3
 	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
@@ -921,23 +921,24 @@ types =
 	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
-	P46T, 6, 110, 250, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3
-	C208, 6, 110, 250, 2.9, 3.2, 1000, 1440, 105, 115, 1.1, 1.3
-	BE9L, 6, 110, 260, 2.9, 3.2, 1000, 1440, 83, 98, 1.1, 1.3
-	M600, 6, 110, 250, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	P46T, 6, 110, 250, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
+	C208, 6, 110, 250, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	BE9L, 6, 110, 260, 2.9, 3.2, 1440, 1560, 83, 98, 1.1, 1.3
+	M600, 6, 110, 250, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
 	PRM1, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
-	B58T, 6, 100, 230, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
-	S22T, 6, 100, 200, 2.9, 3.2, 1000, 1300, 80, 90, 1.1, 1.3
+	B58T, 6, 100, 230, 2.9, 3.2, 1440, 1560, 80, 100, 1.1, 1.3
+	S22T, 6, 100, 200, 2.9, 3.2, 1440, 1560, 80, 90, 1.1, 1.3
 	P28A, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 90, 1.1, 1.3
 	P28B, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	P28R, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
-	P28U, 6, 100, 180, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
-	P28T, 6, 100, 180, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
+	P28U, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
+	P28T, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
 	C72R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	C77R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	BE35, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
 	P32R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
-	P32T, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
+	P32T, 6, 100, 180, 2.9, 3.2, 1000, 1440, 80, 100, 1.1, 1.3
 	C82R, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	C82T, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	C82S, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
@@ -946,4 +947,4 @@ types =
 	C177, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	C206, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	C182, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
-	M20T, 6, 100, 240, 2.9, 3.2, 1000, 1400, 60, 80, 1.1, 1.3
+	M20T, 6, 100, 240, 2.9, 3.2, 1440, 1560, 60, 80, 1.1, 1.3
