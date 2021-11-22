@@ -1,5 +1,5 @@
 # ENGM, Oslo Gardermoen, OSL
-# V2.0 // Completed !!
+# V2.1 // Completed 
 # Questions/bugs? Dm me on discord
 #Discord: Jannik04#9379
 
@@ -873,8 +873,8 @@ line8 =
 name = Oslo Gardermoen Airport
 code = ENGM
 runways =
-	rwyw, 01L, N60.185, E11.0737, 16.0, 11811, 0, 0, 656, 3.2, 0, 3, 0, 0, 0, 0, 0, 118.3, Gardermoen-West-Tower
-	rwye, 01R, N60.1758, E11.1078, 16.0, 9678, 0, 0, 670, 3.2, 0, 3, 0, 0, 0, 0, 0, 120.1, Gardermoen-East-Tower
+	rwyw, 01L, N60.185, E11.0737, 16.0, 11811, 0, 0, 656, 3.2, 0, 3, 0, 0, 0, 0, 0, 118.3, Gardermoen Tower
+	rwye, 01R, N60.1758, E11.1078, 16.0, 9678, 0, 0, 670, 3.2, 0, 3, 0, 0, 0, 0, 0, 120.1, Gardermoen Tower
 
 climbaltitude = 7000
 
@@ -912,7 +912,7 @@ Airlines =
 	UAE, 1, B772/B77l/B773/B77w, emirates, e
 	SWR, 1, A332/A333, swiss, e
 	QTR, 1, A359/A35k/B77l/B77w/B788/B789, qatari, e
-	KAL, 1, B772/B773/B789, korean air, w
+	KAL, 1, B772/B789, korean air, w
 	THY, 1, A332/A333/A343, turkish, e
 	TAP, 1, A21N/A332, air portugal, e
 	MDT, 2, CRJ2/CRJ9, midnight, nswe
@@ -4257,10 +4257,7 @@ beacon = ZATCO, N060.24.10.000,	E010.53.49.000, 0, RNP west
 	3.3, 1600
 
 
-[planetypes]
-types =
-	C402, 6, 100, 230, 2.9, 3.2, 1000, 1400, 60, 100, 1.1, 1.3, Cessna
-	E45X, 5, 160, 250, 2.9, 3.2, 1000, 1550, 122, 134, 1.1, 1.3, Embraer
+
 
 
 
