@@ -2442,11 +2442,12 @@ runways =
 traffic = 35
 inboundbeacon = RIV
 airlines =
-	uaf, 3, dc10/k35r, u s air force, ne
-	uaf, 3, c30j/c130/c17, u s air force, ne
+	uaf, 9, k35r, u s air force, ne
+	uaf, 6, c30j/c130/c17, u s air force, ne
 	uaf, 3, c17, u s air force, e
 	uaf, 3, b52, u s air force, e
 	uaf, 2, tex2, u s air force, ne
+	uaf, 1, dc10, u s air force, n
 	gti, 1, b738/b763, giant, e
 	scx, 1, b738, sun country, e
 # specials
@@ -3101,13 +3102,68 @@ entrypoints =
 	
 [departure16]
 runway = rwy54
-route66 =
+route80 =
 	CWARD2, See Ward Two
 	N33.03.48.440, W117.43.45.230
 	N33.11.38.000, W117.51.43.000
 	N33.23.02.450, W117.54.33.380
 	N33.37.24.970, W117.59.47.040
 	N33.78330, W118.05500
+	
+[airport29]
+name = Miramar
+code = MM
+runways =
+	rwy55, 06L, 74.37, -49.68, 75.0, 12000, 0, 0, 426, 3, 75.0, 0, 0, 0, 0, 0, 0, 135.2
+	rwy56, 06R, 75.01, -49.46, 75.0, 8001, 0, 0, 430
+traffic = 45
+inboundbeacon = NKX
+airlines =
+	uaf, 6, tex2, u s air force, ne
+	uaf, 4, k35r, u s air force, ne
+	uaf, 2, c17, u s air force, ne
+	uaf, 1, c30j/c130, u s air force, e
+	usn, 1, tex2, u s navy, e
+	
+entrypoints =
+	100, NKX
+	130, NKX
+
+sids =
+	JLI
+	TRM
+	
+[airport30]
+name = North Island
+code = NI
+runways =
+	rwy57, 36, 74.49, -60.50, 15.0, 8000, 0, 0, 19, 3, 15.0, 0, 0, 0, 0, 0, 0, 135.1
+	rwy58, 11, 74.26, -59.74, 121.0, 7500, 0, 0, 19
+traffic = 45
+inboundbeacon = NZY
+airlines =
+	uaf, 6, be9l, u s air force,  e
+	usn, 5, tex2, u s navy, e
+	uaf, 4, c30j/c130, u s air force, e
+	uaf, 3, tex2, u s air force, e
+	uaf, 2, c17, u s air force, e
+	uaf, 1, k35r, u s air force, e
+	
+entrypoints =
+	120, TOPGN, 8000
+	
+sids =
+	JLI
+	TRM
+
+[approach49]
+runway = rwy57
+beacon = TOPGN
+route81 =
+	130, CHASR2, Chaser Two
+	N32.38.38.670, W116.34.36.440, 8000
+	N32.37.29.900, W116.45.05.870, 5000
+	end, 250
 
 [configurations]
 config1 =
@@ -3143,6 +3199,8 @@ config1 =
 	0, rwy51, landstart
 	0, rwy53, landstart
 	0, rwy54, landstart
+	0, rwy55, landstartrev
+	0, rwy57, landstart
 
 [planetypes]
 types =
@@ -3192,14 +3250,14 @@ types =
 	P32R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	P32T, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
 	C82R, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
-	C82T, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
-	C82S, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
+	C82T, 6, 100, 170, 2.9, 3.2, 1000, 1440, 80, 100, 1.1, 1.3
+	C82S, 6, 100, 170, 2.9, 3.2, 1000, 1440, 80, 100, 1.1, 1.3
 	C172, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	C177, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	C206, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	C182, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
 	P28B, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
-	T206, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
+	T206, 6, 100, 170, 2.9, 3.2, 1000, 1440, 80, 100, 1.1, 1.3
 	BT36, 6, 100, 200, 2.9, 3.2, 1440, 1560, 80, 100, 1.1, 1.3
 	BE35, 6, 100, 180, 2.9, 3.2, 1440, 1560, 80, 100, 1.1, 1.3
 	C210, 6, 100, 200, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
