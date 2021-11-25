@@ -1,9 +1,15 @@
 
 # Hong Kong TMA / VHHH Hong Kong
 __Important Notes__	
+
 This is a such simpler version develop for Mobile EATC player.The folder going to store in your phone is: `\\Android\data\com.dirgtrats.endlessatc\files`
  Height Measurement to be used are Feet and  NM, included China Airspace. Otherwise specifically stated.
-## Information
+
+> *Version 1.6 Remarks*: 
+>
+> VHHH Runway is 07C/25C & 07R/25L; According to AIRAC 2112 activate from 2021/12/02. There is **NO** any 07L until the runway IRL inuse.  
+
+## Backgrond Information
 This is an implementation of the Hong Kong FIR and TMA for [Endless ATC](https://steamcommunity.com/app/666610) featuring `VHHH` Hong Kong International Airport. The airspace ceiling is FL250.
 
 This Map ONLY include Hong Kong Terminal Control Area and some Extended Section on Zhuhai TCA.
@@ -32,15 +38,15 @@ All visible fixes on the map have a defined hold including many fixes along the 
 - `SIERA`: Northern route from ZGZU (Guangzhou) FIR
 #### Departure SID
 - `BEKOL`: Northern Route, No TTR, No Handoff below S0690 / F226.
-- `LAKES`: Northeast Route, TTR V1/V13, Handoff at F230 (Auto-Handoff)
-- `OCEAN`: Eastern Route, TTR V2/V3/V4/V5, Handoff at F250 (Auto-Handoff)
-- `PECAN`: Southwest Route: TTR V10/V11/V12, Handoff at F160
+- `LAKES`: Northeast Route, TTR V1/V13
+- `OCEAN`: Eastern Route, TTR V2/V3/V4/V5
+- `PECAN`: Southwest Route: TTR V10/V11/V12
 
 #### Standard Missed Approach
-- `07L`: Track to `DEDEE`, climb 5000ft
+- `07C`: Track to `DEDEE`, climb 5000ft
 - `07R`: Track to `GUAVA`, climb 5000ft
 - `25L`: Track to `PRAWN`, climb 5000ft
-- `25R`: Track to `SMT`, climb 5000ft before crossing Localizer
+- `25C`: Track to `SMT`, climb 5000ft before crossing Localizer
 
 
 #### Operations
@@ -128,6 +134,8 @@ Shall Not expect simualtion in EATC
 Everything is still missing ;(
 ### Kai Tak Airport
 Runway 13 Final Approach Required Manual Checking the Conflicts with VHHH Departures
+
+Runway 31 STAR - FAP unreliable.
 ### Macau Airport
 All Issues Included inside Macau Airport / Special Operation
 ## Disclaimer
@@ -144,16 +152,20 @@ For further infomative version, consider PC version developed by ckwng.
 * from Hong Kong Government
 * Special Thanks: README.md template from RJTT_readme.md by [ckwng](https://github.com/AdamJCavanaugh/EndlessATCAirports/commits?author=ckwng)
 ## Changelog
-* 1.0 ( / ) - 2020/12/31 - Initial version.
-* 1.1 ( / ) - 2021/01/01 - HotFix: North Border
-* 1.2 ( / ) - 2021/01/03 - Included ZGZUTM04 Airspace / VMMC Border line.
-* 1.3 (p1.3) - 2021/01/10 - File Name Conflict Update, Extra Information Inc.
-* 1.4 (p1.4) - 2021/01/18 - VMMC/MCU Macau Airport Integration (VHHX Reserve Name Update)
+* 1.0 - 2020/12/31 - Initial version.
+* 1.1 - 2021/01/01 - HotFix: North Border
+* 1.2 - 2021/01/03 - Included ZGZUTM04 Airspace / VMMC Border line.
+* 1.3 - 2021/01/10 - File Name Conflict Update, Extra Information Inc.
+* 1.4 - 2021/01/18 - VMMC/MCU Macau Airport Integration (VHHX Reserve Name Update)
 	* 1.4 Suppliments: Game File Clean-up Comments, Readme file remove extra lines
-* 1.5 (p1.5) - 2021/08/31 - EATC v4.6 Update Support
+* 1.5 - 2021/08/31 - EATC v4.6 Update Support
 	* Map Data Update
 	* Handoff Frequency
 	* Standard Missed Approach Procedure
+* 1.6 - 2021/11/25 - AIRAC 2112 Update (2021/12/02)
+	* Runway Rename: 07L/25R -> 07C/25C
+		* Change of Runway Identifier
+		* Change of SID / STAR 
 ## License
 All Rights Reserved
 Copyright (c) 2021 ycohui
