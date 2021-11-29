@@ -1499,7 +1499,7 @@ route36 =
 name = Van Nuys
 code = VN
 runways =
-	rwy14, 16R, -7.72, 15.64, 176.0, 8001, 0, 0, 802, 3, 176.0, 0, 0, 0, 0, 0, 0, 119.3
+	rwy14, 16R, -7.72, 15.64, 176.0, 8001, 0, 0, 802, 3.5, 176.0, 0, 0, 0, 0, 0, 0, 119.3
 	rwy15, 16L, -7.64, 15.66, 176.0, 4013, 0, 0, 802
 flow = 30
 inboundbeacon = VNY
@@ -1706,7 +1706,7 @@ airlines =
 	uca, 1, dh8b/dh8c/e145/e45x, commutair, e
 	gjs, 1, crj7, lindbergh, e
 	wja, 1, b736/b737/b37m/b738/b38m/b3xm, westjet, n
-	amf, 1, b190/e120/sw4, amflight, n
+	amf, 1, e120/sw4, amflight, n
 	abx, 1, b762/b763, abex, n
 	fdx, 1, a306/a310/b721/b722/b752/b763/dc10/md10/md11, fed ex, n
 	bvn, 1, c208, show me, n
@@ -2442,12 +2442,16 @@ runways =
 traffic = 35
 inboundbeacon = RIV
 airlines =
-	uaf, 9, k35r, u s air force, ne
-	uaf, 6, c30j/c130/c17, u s air force, ne
-	uaf, 3, c17, u s air force, e
+	uaf, 9, k35e/k35r, u s air force, ne
+	uaf, 6, c30j/c130/c135/c17, u s air force, ne
+	uaf, 3, c17/p8, u s air force, e
 	uaf, 3, b52, u s air force, e
 	uaf, 2, tex2, u s air force, ne
-	uaf, 1, dc10, u s air force, n
+	uaf, 1, dc10/b762, u s air force, n
+	uaf, 1, e3cf/e3tf, u s air force, e
+	uaf, 1, b703/b737/b742, u s air force, n
+	uaf, 1, e6/e737/e767, u s air force, n
+	uaf, 1, p8, u s air force, e
 	gti, 1, b738/b763, giant, e
 	scx, 1, b738, sun country, e
 # specials
@@ -3120,10 +3124,14 @@ traffic = 45
 inboundbeacon = NKX
 airlines =
 	uaf, 6, tex2, u s air force, ne
-	uaf, 4, k35r, u s air force, ne
+	uaf, 4, b762/k35e/k35r, u s air force, ne
 	uaf, 2, c17, u s air force, ne
-	uaf, 1, c30j/c130, u s air force, e
+	uaf, 2, dc10/e3cf/e3tf/ke3, u s air force, e
+	uaf, 1, c30j/c130/c135, u s air force, e
 	usn, 1, tex2, u s navy, e
+	uaf, 1, p8, u s air force, e
+	uaf, 1, e6/e737/e767, u s air force, ne
+	uaf, 1, b703/b742, u s air force, e
 	
 entrypoints =
 	100, NKX
@@ -3144,10 +3152,13 @@ inboundbeacon = NZY
 airlines =
 	uaf, 6, be9l, u s air force,  e
 	usn, 5, tex2, u s navy, e
-	uaf, 4, c30j/c130, u s air force, e
+	uaf, 4, c30j/c130/c135, u s air force, e
 	uaf, 3, tex2, u s air force, e
-	uaf, 2, c17, u s air force, e
-	uaf, 1, k35r, u s air force, e
+	uaf, 2, c17/e767, u s air force, e
+	uaf, 1, b762/k35e/k35r, u s air force, e
+	uaf, 1, p8, u s air force, e
+	uaf, 1, e3cf/e3tf/ke3, us air force, e
+	uaf, 1, b703/e6/k35e, u s air force, e
 	
 entrypoints =
 	120, TOPGN, 8000
@@ -3216,9 +3227,19 @@ types =
 	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	MD90, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
-	C17, 2, 160, 300, 2.9, 3.2, 1000, 1440, 145, 160, 1.1, 1.3
-	K35R, 3, 160, 300, 2.9, 3.2, 1000, 1440, 127, 134, 1.1, 1.3
-	B52, 2, 170, 300, 2.9, 3.2, 1000, 1440, 150, 165, 1.1, 1.3
+	C17, 2, 160, 300, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3
+	B703, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3
+	K35R, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3
+	K35E, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3
+	C135, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3
+	KE3, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3
+	E3CF, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3
+	E3TF, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3
+	E767, 3, 160, 300, 2.3, 2.7, 1000, 1440, 135, 152, 1.1, 1.3
+	E737, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
+	P8, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
+	E6, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3
+	B52, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 165, 1.1, 1.3
 	C130, 4, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	C30J, 4, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	BE40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
