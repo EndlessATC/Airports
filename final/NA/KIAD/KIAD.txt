@@ -4,6 +4,7 @@
 # Special airlines
 # More A380's than normal
 # B3JM is MAX 10 BBJ
+# Ashlyn is my gf name :D
 # For questions dm me on discord Toru Hagakure#5499
 
 [airspace]
@@ -15,6 +16,7 @@ transition = 18001
 name = washington approach, washington departure
 automatic = true
 separation = 0
+letters = 50
 center = N38.94449997, W77.45580292
 magneticvar = -10.561
 beacons =
@@ -47,128 +49,132 @@ beacons =
 	MTN, N39.33090, W76.41130, 0, Martin
 	NHK, N38.28600, W76.40320, 0, Patuxent
 	PXT, N38.28780, W76.40020, 0, Patuxent
-	RAMAY, N38.57.38.570, W78.12.59.010, 0, Ramay
-	BUNZZ, N38.52.21.370, W77.55.36.980, 0, Buns
-	LOULU, N38.53.43.230, W77.42.39.790, 0, Lulu
-	RIGNZ, N39.09.32.270, W77.18.23.900, 0, Riggins
-	JCOBY, N39.08.10.570, W77.10.20.800, 0, Jacoby
-	GRIIM, N39.06.25.180, W76.59.20.400, 0, Grimm
-	SOOKI, N39.07.06.180, W76.31.20.230, 0, Sooki
-	RIISE, N39.00.33.660, W76.39.41.130, 0, Rise
-	BAUGH, N38.56.48.030, W76.53.07.140, 0, Bau
-	AMEEE, N38.24.34.350, W76.42.50.500, 0, Amy
-	JERES, N39.38.34.400, W77.27.18.200, 0, Jerries
-	MIXNN, N39.15.12.000, W77.20.24.000, 0, Mixin
-	TRING, N39.02.00.000, W77.20.51.600, 0, Tring
-	STAYO, N38.46.33.600, W77.21.25.200, 0, Stayo
-	BARIN, N38.35.10.920, W77.21.50.090, 0, Barrin
-	BUTRZ, N38.31.35.700, W77.47.40.450, 0, Butters
-	CLTCH, N38.26.51.620, W77.54.20.140, 0, Clutch
-	KERRK, N38.10.33.770, W78.23.35.860, 0, Kirk
-	KASDY, N38.29.57.170, W77.23.30.010, 0, Kassidy
-	DOCTR, N39.00.35.580, W76.24.50.750, 0, Doctor
-	AGARD, N39.02.36.890, W76.04.11.140, 0, A Gaurd
-	COINZ, N38.34.52.910, W77.22.23.580, 0, Coins
-	CRAIN, N39.26.42.060, W77.24.15.460, 0, Crane
-	REXOE, N39.21.33.170, W77.28.07.540, 0, Rex O
-	COVUR, N39.21.32.660, W77.27.12.490, 0, Cover
-	OOGLE, N39.25.07.230, W77.23.28.210, 0, Oogle
-	LITEY, N39.21.31.860, W77.25.47.630, 0, Litty
-	BEEZY, N39.14.25.810, W77.28.13.810, 0, Beezy
-	DIMKE, N39.18.32.780, W77.27.15.780, 0, Dim Key
-	YYANG, N39.18.32.010, W77.25.50.370, 0, Yang
-	HOOSR, N39.13.34.290, W77.27.20.150, 0, Hoosr
-	DADEY, N39.13.52.680, W77.25.54.590, 0, Daddy
-	KUKSE, N39.08.50.860, W77.34.28.650, 0, Cooks
-	ELISN, N38.56.04.350, W77.34.47.640, 0, Elsin
-	MIKEJ, N38.37.57.450, W77.35.00.920, 0, Mike J
-	SIGBE, N39.24.37.200, W77.21.49.200, 0, Sigbe
-	MOWAT, N39.15.57.600, W77.21.36.600, 0, Mout
-	YACKK, N38.54.28.800, W77.21.25.200, 0, Yak
-	TICON, N38.40.45.600, W77.21.42.600, 0, Tike on
-	MAPEL, N39.30.24.590, W77.35.48.340, 0, Maple
-	BASYL, N39.25.01.900, W77.31.07.410, 0, Basel
-	MAQUE, N39.25.29.300, W77.30.14.070, 0, Mack
-	SUNYJ, N38.57.04.950, W77.37.23.900, 0, Sunny J
-	IDORE, N39.23.51.500, W77.34.06.190, 0, Eye Door
-	KUKSE, N39.08.50.860, W77.34.28.650, 0, Cooks
-	HUSEL, N39.09.51.600, W77.21.27.600, 0, Hussel
-	SIYOB, N38.51.12.510, W77.34.22.900, 0, Sigh Obb
-	GIBBZ, N38.57.56.870, W77.45.34.530, 0, Gibbs
-	THZMN, N39.01.19.850, W77.51.56.050, 0, Thighs Man
-	MONNK, N39.10.03.120, W78.08.24.010, 0, Monk
-	VCTRY, N38.45.43.630, W77.06.49.280, 0, Victory
-	HEROO, N38.37.37.420, W77.06.22.270, 0, Hero
-	RLLLL, N38.50.55.110, W77.18.20.230, 0, Rill
-	LETZZ, N38.54.42.360, W77.27.02.400, 0, Lets
-	ALWYZ, N38.59.00.660, W77.39.16.540, 0, Always
-	SEPII, N39.00.33.120, W77.45.13.740, 0, September Eleventh
-	FORGT, N39.02.07.340, W77.51.19.250, 0, Forget
-	NEVVR, N39.04.13.290, W77.59.30.170, 0, Never
+#	RAMAY, N38.57.38.570, W78.12.59.010, 0, Ramay
+#	BUNZZ, N38.52.21.370, W77.55.36.980, 0, Buns
+#	LOULU, N38.53.43.230, W77.42.39.790, 0, Lulu
+#	RIGNZ, N39.09.32.270, W77.18.23.900, 0, Riggins
+#	JCOBY, N39.08.10.570, W77.10.20.800, 0, Jacoby
+#	GRIIM, N39.06.25.180, W76.59.20.400, 0, Grimm
+#	SOOKI, N39.07.06.180, W76.31.20.230, 0, Sooki
+#	RIISE, N39.00.33.660, W76.39.41.130, 0, Rise
+#	BAUGH, N38.56.48.030, W76.53.07.140, 0, Bau
+#	AMEEE, N38.24.34.350, W76.42.50.500, 0, Amy
+#	JERES, N39.38.34.400, W77.27.18.200, 0, Jerries
+#	MIXNN, N39.15.12.000, W77.20.24.000, 0, Mixin
+#	TRING, N39.02.00.000, W77.20.51.600, 0, Tring
+#	STAYO, N38.46.33.600, W77.21.25.200, 0, Stayo
+#	BARIN, N38.35.10.920, W77.21.50.090, 0, Barrin
+#	BUTRZ, N38.31.35.700, W77.47.40.450, 0, Butters
+#	CLTCH, N38.26.51.620, W77.54.20.140, 0, Clutch
+#	KERRK, N38.10.33.770, W78.23.35.860, 0, Kirk
+#	KASDY, N38.29.57.170, W77.23.30.010, 0, Kassidy
+#	DOCTR, N39.00.35.580, W76.24.50.750, 0, Doctor
+#	AGARD, N39.02.36.890, W76.04.11.140, 0, A Gaurd
+#	COINZ, N38.34.52.910, W77.22.23.580, 0, Coins
+#	CRAIN, N39.26.42.060, W77.24.15.460, 0, Crane
+#	REXOE, N39.21.33.170, W77.28.07.540, 0, Rex O
+#	COVUR, N39.21.32.660, W77.27.12.490, 0, Cover
+#	OOGLE, N39.25.07.230, W77.23.28.210, 0, Oogle
+#	LITEY, N39.21.31.860, W77.25.47.630, 0, Litty
+#	BEEZY, N39.14.25.810, W77.28.13.810, 0, Beezy
+#	DIMKE, N39.18.32.780, W77.27.15.780, 0, Dim Key
+#	YYANG, N39.18.32.010, W77.25.50.370, 0, Yang
+#	HOOSR, N39.13.34.290, W77.27.20.150, 0, Hoosr
+#	DADEY, N39.13.52.680, W77.25.54.590, 0, Daddy
+#	KUKSE, N39.08.50.860, W77.34.28.650, 0, Cooks
+#	ELISN, N38.56.04.350, W77.34.47.640, 0, Elsin
+#	MIKEJ, N38.37.57.450, W77.35.00.920, 0, Mike J
+#	SIGBE, N39.24.37.200, W77.21.49.200, 0, Sigbe
+#	MOWAT, N39.15.57.600, W77.21.36.600, 0, Mout
+#	YACKK, N38.54.28.800, W77.21.25.200, 0, Yak
+#	TICON, N38.40.45.600, W77.21.42.600, 0, Tike on
+#	MAPEL, N39.30.24.590, W77.35.48.340, 0, Maple
+#	BASYL, N39.25.01.900, W77.31.07.410, 0, Basel
+#	MAQUE, N39.25.29.300, W77.30.14.070, 0, Mack
+#	SUNYJ, N38.57.04.950, W77.37.23.900, 0, Sunny J
+#	IDORE, N39.23.51.500, W77.34.06.190, 0, Eye Door
+#	KUKSE, N39.08.50.860, W77.34.28.650, 0, Cooks
+#	HUSEL, N39.09.51.600, W77.21.27.600, 0, Hussel
+#	SIYOB, N38.51.12.510, W77.34.22.900, 0, Sigh Obb
+#	GIBBZ, N38.57.56.870, W77.45.34.530, 0, Gibbs
+#	THZMN, N39.01.19.850, W77.51.56.050, 0, Thighs Man
+#	MONNK, N39.10.03.120, W78.08.24.010, 0, Monk
+#	VCTRY, N38.45.43.630, W77.06.49.280, 0, Victory
+#	HEROO, N38.37.37.420, W77.06.22.270, 0, Hero
+#	RLLLL, N38.50.55.110, W77.18.20.230, 0, Rill
+#	LETZZ, N38.54.42.360, W77.27.02.400, 0, Lets
+#	ALWYZ, N38.59.00.660, W77.39.16.540, 0, Always
+#	SEPII, N39.00.33.120, W77.45.13.740, 0, September Eleventh
+#	FORGT, N39.02.07.340, W77.51.19.250, 0, Forget
+#	NEVVR, N39.04.13.290, W77.59.30.170, 0, Never
 	WEWIL, N39.06.05.980, W78.06.51.760, 0, We Will
-	CUKLI, N38.59.10.330, W77.16.34.810, 0, Cook Lee
-	REVGE, N38.53.59.460, W77.04.14.240, 0, Ravage
-	RGIII, N38.58.00.540, W77.08.48.380, 0, Reggie
-	BEBLE, N38.54.55.810, W77.06.26.920, 0, Be Bull
-	BRUTL, N38.43.58.660, W77.30.20.260, 0, Brutal
-	UDIYU, N39.00.48.210, W77.34.28.450, 0, You Dee You
-	MATTC, N39.14.22.750, W77.34.31.880, 0, Matt See
+#	CUKLI, N38.59.10.330, W77.16.34.810, 0, Cook Lee
+#	REVGE, N38.53.59.460, W77.04.14.240, 0, Ravage
+#	RGIII, N38.58.00.540, W77.08.48.380, 0, Reggie
+#	BEBLE, N38.54.55.810, W77.06.26.920, 0, Be Bull
+#	BRUTL, N38.43.58.660, W77.30.20.260, 0, Brutal
+#	UDIYU, N39.00.48.210, W77.34.28.450, 0, You Dee You
+#	MATTC, N39.14.22.750, W77.34.31.880, 0, Matt See
 	OVIEE, N39.44.32.590, W77.39.03.690, 0, Oh Vee
 	HYPER, N39.41.02.160, W77.13.30.340, 0, Hyper
 	MOSLE, N39.13.08.410, W78.14.15.890, 0, Moss Lee
-	COLIN, N38.05.59.230, W76.39.50.850, 0, Colin
-	SWANN, N39.09.05.280, W76.13.43.940, 0, Swan
-	DELRO, N39.57.55.710, W76.37.31.240, 0, Dell Row
-	PLDGE, N39.09.51.330, W78.21.58.720, 0, Pledge
-	BUBBI, N39.27.03.290, W78.08.14.710, 0, Bubby
+#	COLIN, N38.05.59.230, W76.39.50.850, 0, Colin
+#	SWANN, N39.09.05.280, W76.13.43.940, 0, Swan
+#	DELRO, N39.57.55.710, W76.37.31.240, 0, Dell Row
+#	PLDGE, N39.09.51.330, W78.21.58.720, 0, Pledge
+#	BUBBI, N39.27.03.290, W78.08.14.710, 0, Bubby
 	KEESH, N39.30.38.330, W78.24.08.140, 0, Keesh
-	SHEPH, N39.27.03.310, W77.57.55.050, 0, Chef
-	EAGLL, N39.27.02.080, W77.44.07.710, 0, Eagle
-	ANTHM, N39.26.47.560, W77.21.47.670, 0, Anthem
-	JABRR, N39.26.04.460, W77.03.57.570, 0, Jabber
-	ROKTT, N39.27.07.150, W77.13.32.840, 0, Rocked
-	OLBAY, N39.25.13.320, W76.44.07.760, 0, Olbay
-	CRABZ, N39.21.34.820, W76.30.45.570, 0, Crabs
-	FINNZ, N39.16.43.300, W76.26.55.870, 0, Fins
-	RAAYY, N39.12.25.880, W76.23.37.090, 0, Ray
-	BROSS, N39.11.28.400, W75.52.49.880, 0, Bross
-	CAPKO, N38.42.20.520, W76.44.42.540, 0, Cap Co
-	JAYOH, N38.33.00.310, W76.55.53.860, 0, Jay Oh
-	WALKN, N38.21.56.950, W77.05.44.540, 0, Walk In
-	DFORT, N38.13.41.680, W77.07.54.660, 0, Dee Fort
-	BOSLY, N39.10.36.650, W76.43.31.320, 0, Boss Lee
-	RAISN, N39.02.24.550, W76.39.18.370, 0, Rasin
-	STABL, N38.55.15.220, W76.31.06.100, 0, Stable
-	OHSSS, N38.50.45.460, W76.30.28.480, 0, Os
-	CONLE, N38.41.30.260, W76.35.01.620, 0, Con Lee
-	FIXET, N38.35.34.770, W77.04.16.320, 0, Fix It
-	JDUBB, N38.17.59.410, W77.38.59.760, 0, Jay Dubb
-	CASLY, N38.03.14.420, W77.51.39.730, 0, Cas Lee
-	BEWEE, N38.59.29.190, W76.27.14.230, 0, Be We
-	VERRY, N38.48.28.510, W77.29.42.960, 0, Very
-	MIIDY, N38.52.09.490, W76.17.48.460, 0, Mighty
-	KAPTN, N38.55.41.790, W76.29.51.720, 0, Captain
-	NAVEY, N38.58.10.990, W76.35.29.260, 0, Navy
-	ANCRR, N39.01.52.150, W76.43.43.600, 0, Anchor
-	LURRL, N39.04.30.980, W76.49.39.010, 0, Lure
-	HUNNN, N39.05.23.100, W76.52.54.350, 0, Hun
-	CAVLR, N38.14.21.140, W77.29.00.900, 0, Cavler
+#	SHEPH, N39.27.03.310, W77.57.55.050, 0, Chef
+#	EAGLL, N39.27.02.080, W77.44.07.710, 0, Eagle
+#	ANTHM, N39.26.47.560, W77.21.47.670, 0, Anthem
+#	JABRR, N39.26.04.460, W77.03.57.570, 0, Jabber
+#	ROKTT, N39.27.07.150, W77.13.32.840, 0, Rocked
+#	OLBAY, N39.25.13.320, W76.44.07.760, 0, Olbay
+#	CRABZ, N39.21.34.820, W76.30.45.570, 0, Crabs
+#	FINNZ, N39.16.43.300, W76.26.55.870, 0, Fins
+#	RAAYY, N39.12.25.880, W76.23.37.090, 0, Ray
+#	BROSS, N39.11.28.400, W75.52.49.880, 0, Bross
+#	CAPKO, N38.42.20.520, W76.44.42.540, 0, Cap Co
+#	JAYOH, N38.33.00.310, W76.55.53.860, 0, Jay Oh
+#	WALKN, N38.21.56.950, W77.05.44.540, 0, Walk In
+#	DFORT, N38.13.41.680, W77.07.54.660, 0, Dee Fort
+#	BOSLY, N39.10.36.650, W76.43.31.320, 0, Boss Lee
+#	RAISN, N39.02.24.550, W76.39.18.370, 0, Rasin
+#	STABL, N38.55.15.220, W76.31.06.100, 0, Stable
+#	OHSSS, N38.50.45.460, W76.30.28.480, 0, Os
+#	CONLE, N38.41.30.260, W76.35.01.620, 0, Con Lee
+#	FIXET, N38.35.34.770, W77.04.16.320, 0, Fix It
+#	JDUBB, N38.17.59.410, W77.38.59.760, 0, Jay Dubb
+#	CASLY, N38.03.14.420, W77.51.39.730, 0, Cas Lee
+#	BEWEE, N38.59.29.190, W76.27.14.230, 0, Be We
+#	VERRY, N38.48.28.510, W77.29.42.960, 0, Very
+#	MIIDY, N38.52.09.490, W76.17.48.460, 0, Mighty
+#	KAPTN, N38.55.41.790, W76.29.51.720, 0, Captain
+#	NAVEY, N38.58.10.990, W76.35.29.260, 0, Navy
+#	ANCRR, N39.01.52.150, W76.43.43.600, 0, Anchor
+#	LURRL, N39.04.30.980, W76.49.39.010, 0, Lure
+#	HUNNN, N39.05.23.100, W76.52.54.350, 0, Hun
+#	CAVLR, N38.14.21.140, W77.29.00.900, 0, Cavler
 	MEEGO, N38.09.30.810, W77.32.06.560, 0, Me Go
-	TRUTH, N38.46.36.080, W76.06.38.370, 0, Truth
+#	TRUTH, N38.46.36.080, W76.06.38.370, 0, Truth
 	BILIT, N38.45.15.820, W76.03.57.590, 0, Bill It
 	TRISH, N39.30.12.430, W76.22.25.990, 0, Trish
-	FREEE, N39.34.42.980, W76.15.58.510, 0, Free
+#	FREEE, N39.34.42.980, W76.15.58.510, 0, Free
 	TROYZ, N39.41.02.400, W76.07.05.670, 0, Troys
-	WUUDI, N39.22.14.130, W76.25.05.740, 0, Woody
-	STALK, N39.23.15.230, W76.43.22.780, 0, Stalk
-	CAPSS, N38.12.02.820, W77.15.27.990, 0, Caps
+#	WUUDI, N39.22.14.130, W76.25.05.740, 0, Woody
+#	STALK, N39.23.15.230, W76.43.22.780, 0, Stalk
+#	CAPSS, N38.12.02.820, W77.15.27.990, 0, Caps
 	BULII, N38.04.16.370, W77.17.54.530, 0, Bully
-	HOYAS, N38.20.12.690, W77.12.52.300, 0, Hoyas
-	HALLL, N38.31.07.190, W77.00.33.680, 0, Hall
-	WONCE, N39.13.00.380, W76.53.26.450, 0, Once
-	TERPZ, N39.13.20.710, W77.08.20.290, 0, Terps
-	LITME, N39.05.25.700, W77.14.54.660, 0, Lit Me
-	FOXHL, N39.02.49.980, W77.22.12.240, 0, Fox Hall
+#	HOYAS, N38.20.12.690, W77.12.52.300, 0, Hoyas
+#	HALLL, N38.31.07.190, W77.00.33.680, 0, Hall
+#	WONCE, N39.13.00.380, W76.53.26.450, 0, Once
+#	LINSE, N39.22.08.580, W77.18.04.800, 0, Lindsey
+#	TERPZ, N39.13.20.710, W77.08.20.290, 0, Terps
+#	FOXHL, N39.02.49.980, W77.22.12.240, 0, Fox Hall
+#	GABBE, N38.36.49.740, W77.38.28.840, 0, Gabby
+#	HIICH, N38.42.41.330, W77.43.31.220, 0, Hitch
+#	RNLDI, N38.46.54.650, W77.54.39.330, 0, Renaldi
+#	ASHLN, N39.15.14.680, W78.18.35.110, 0, Ashlyn
 
 boundary =
 	N39.38.45.506, W78.36.47.009
@@ -387,9 +393,9 @@ line5 =
 name = Washington Dulles
 code = KIAD
 runways =
-	rwy1, 01C, N38.9390, W77.4620, 1.0, 11501, 0, 0, 286, 3, 1.0, 0, 0, 0, 0, 0, 0, 120.25
-	rwy2, 01L, N38.9450, W77.4780, 1.0, 9400, 0, 0, 286, 3, 1.0, 0, 0, 0, 0, 0, 0, 134.425
-	rwy3, 01R, N38.9240, W77.4390, 1.0, 11500, 0, 0, 312, 3, 1.0, 0, 0, 0, 0, 0, 0, 120.1
+	rwy1, 01C, N38.9390, W77.4620, 1.0, 11501, 0, 0, 286, 3, 1.0, 0, 0, 0, 0, 0, 0, 120.25, Dulles Tower
+	rwy2, 01L, N38.9450, W77.4780, 1.0, 9400, 0, 0, 286, 3, 1.0, 0, 0, 0, 0, 0, 0, 134.425, Dulles Tower
+	rwy3, 01R, N38.9240, W77.4390, 1.0, 11500, 0, 0, 312, 3, 1.0, 0, 0, 0, 0, 0, 0, 120.1, Dulles Tower
 	rwy4, 12, N38.9438, W77.4904, 110.6, 10501, 0, 0, 310
 airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/b762/b763/b764/b772/b77w/b788/b789/b78x, united, nsw
 	uca, 9, e45x, commutair, nsw
@@ -464,9 +470,10 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	azq, 1, a124/il76, silk line, n
 	viv, 1, a320/a20n/a21n, aeroenlaces, s
 	mnb, 1, a332, black sea, n
+	dah, 1, a332, air algerie, n
 	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, w
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/galx/gl5t/glex/glf3/glf4/glf5/glf6/glf7/h25b/h25c/lj45/lj60/prm1, gama jet, nw
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, nw
 
 entrypoints =
 	190, MEEGO
@@ -703,7 +710,7 @@ airlines =
 	n-412xb, 1, fa6x/fa7x/fa8x, n
 	n-828yh, 1, ga7c/ga8c/glf4/glf5/glf6, n
 	n-5213b, 1, g150/g280/galx/glf2/glf3, w
-	n-1111v, 1, h25b/h25c/ha4t, w
+	n-1111v, 1, h25b/h25c/h25x/ha4t, w
 # specials
 	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
 	jdi, 1, cl30/cl35/e35l/e550/gl5t/glex/glf6, jedi, n
@@ -711,7 +718,7 @@ airlines =
 	ujc, 1, e135/j328, ultimate, w
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, w
 	qxe, 1, crj7/dh8b/dh8d/e75l, horizon, w
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/galx/gl5t/glex/glf3/glf4/glf5/glf6/glf7/h25b/h25c/lj45/lj60/prm1, gama jet, nw
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, nw
 
 entrypoints =
 	285, WEWIL
@@ -802,7 +809,7 @@ airlines =
 	n-6969r, 1, fa6x/fa7x/fa8x, n
 	n-553gg, 1, gl5t/gl7t/gl8t/glex, n
 	n-223xq, 1, b737/b738/b39m/b3jm, w
-	n-0001j, 1, h25b/h25c/ha4t, w
+	n-0001j, 1, h25b/h25c/h25x/ha4t, w
 	n-625fg, 1, g280/galx/glf3, w
 # specials
 	csa, 1, a333, csa, n
@@ -817,7 +824,7 @@ airlines =
 	maa, 1, a332/a333/b762/b763, mas carga, s
 	mnb, 1, a332, black sea, n
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, w
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/galx/gl5t/glex/glf3/glf4/glf5/glf6/glf7/h25b/h25c/lj45/lj60/prm1, gama jet, nw
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, nw
 
 entrypoints =
 	296, KEESH
@@ -981,7 +988,7 @@ route30 =
 name = Martin State
 code = MS
 runways =
-	rwy12, 15, 51.97, 13.84, 135.0, 6997, 0, 0, 21, 4, 135.0, 0, 0, 0, 0, 0, 0, 121.3
+	rwy12, 15, 51.97, 13.84, 135.0, 6997, 0, 0, 21, 4, 135.0, 2.9, 315.0, 0, 0, 0, 0, 121.3, Martin Tower
 inboundbeacon = MTN
 airlines =
 	n-898yy, 8, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, nsw
@@ -989,10 +996,10 @@ airlines =
 	n-676gg, 2, e35l/e50p/e55p/e545/e550/ea50, sw
 	n-7877o, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, nsw
 	n-656ph, 1, gl5t/gl7t/gl8t/glex, n
-	n-76543, 1, cl30/cl35/cl60, w
-	n-12345, 1, crj2/crj7/crj9, w
+	n-76543, 1, cl30/cl35/cl60/cl65, w
+	n-12345, 1, cl85/cl87/cl89, w
 	n-778bb, 1, astr/g150/g280/glf2/glf3, w
-	n-6726v, 1, be40/h25b/h25c/ha4t/hdjt, w
+	n-6726v, 1, be40/h25b/h25c/h25x/ha4t/hdjt, w
 	n-9889h, 1, b58t/pc12/pc24/prm1, s
 	n-6762z, 1, tbm7/tbm8/tbm9, s
 	n-7755a, 1, b737/b738/b38m/b3jm, e
@@ -1001,21 +1008,22 @@ airlines =
 	n-0988h, 1, f2th/f900/fa10/fa20/fa50, w
 	n-9988u, 1, fa6x/fa7x/fa8x, e
 	n-727tt, 1, g280/galx/glf2/glf3, s
-	c-vvht, 1, ea50/sf50, w
-	c-aere, 1, f2th/fa20, w
-	c-ikja, 1, lj70/lj75, w
+	cf-vht, 1, ea50/sf50, w
+	cf-ere, 1, f2th/fa20, w
+	cf-kja, 1, lj70/lj75, w
 	usc, 1, c208/lj35, star check, w
 # specials
-	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/galx/gl5t/glex/glf3/glf4/glf5/glf6/glf7/h25b/h25c/lj45/lj60/prm1, gama jet, w
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, w
 	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
 	jdi, 1, cl30/cl35/e35l/e550/gl5t/glex/glf6, jedi, n
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, w
+	bvn, 1, c208, show me, n
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, sw
 	vjt, 1, gl5t/gl7t/glex, vista jet, n
 	
 entrypoints =
 	296, KEESH
-	120, BILIT
+	100, BILIT
 	055, TROYZ
 
 [departure5]
@@ -1024,7 +1032,6 @@ route31 =
 	TERPZ7, Terps Seven
 	N39.13.00.380, W76.53.26.450
 	N39.13.20.710, W77.08.20.290
-	N39.05.25.700, W77.14.54.660
 	N39.02.49.980, W77.22.12.240
 	N38.57.38.570, W78.12.59.010
 	
@@ -1034,7 +1041,6 @@ route32 =
 	TERPZ7, Terps Seven
 	N39.13.00.380, W76.53.26.450
 	N39.13.20.710, W77.08.20.290
-	N39.05.25.700, W77.14.54.660
 	N39.02.49.980, W77.22.12.240
 	N38.57.38.570, W78.12.59.010
 
@@ -1116,6 +1122,171 @@ route38 =
 	N39.16.43.300, W76.26.55.870, 5000
 	N39.12.25.880, W76.23.37.090, 4000
 	end, 160
+	
+[airport5]
+name = Frederick
+code = FD
+runways =
+	rwy13, 05, 8.68, 26.59, 40.0, 5219, 0, 0, 306, 3, 40.0, 0, 0, 0, 0, 0, 0, 132.4
+	rwy14, 30, 9.32, 27.05, 296.0, 3599, 0, 0, 284
+inboundbeacon = FDK
+airlines =
+	n-982gf, 9, ga4c/ga5c/ga6c/ga7c/ga8c, n
+	n-718hh, 6, gl5t/gl7t/gl8t/glex, nw
+	n-109ik, 3, cl30/cl35/cl60/cl65/cl85/cl87/cl89, se
+	n-151vf, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, s
+	n-111fa, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, s
+	n-627gb, 1, b58t/pc12/pc24/prm1, n
+	n-516vo, 1, ga7c/ga8c/glf4/glf5/glf6, n
+	n-782qp, 1, astr/g150/g280/galx/glf2/glf3, s
+	n-117xx, 1, f2th/f900/fa10/fa20/fa50, w
+	n-177pm, 1, fa6x/fa7x/fa8x, n
+	n-099gt, 1, be40/h25b/h25c/h25x/ha4t/hdjt, s
+	n-7878u, 1, tbm7/tbm8/tbm9, w
+	n-878tv, 1, e35l/e50p/e55p/e545/e550, nw
+# specials
+	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, s
+	jdi, 1, gl5t/glex/glf6m jedi, n
+	xoj, 1, c750/cl30, exo jet, w
+	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	vjt, 1, gl5t/gl7t/glex, vista jet, n
+	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, sw
+	lxj, 1, cl30/cl35/e55p/e545/e550/glex/glf4/glf6/lj70/lj75, flex jet, s
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, sw
+
+entrypoints =
+	360, FDK
+	090, FDK
+	180, FDK
+
+[departure7]
+runway = rwy13
+route39 =
+	TERPZ7, Terps Seven
+	N39.22.08.580, W77.18.04.800
+	N39.13.20.710, W77.08.20.290
+	N39.02.49.980, W77.22.12.240
+	N38.57.38.570, W78.12.59.010
+	
+[airport6]
+name = Hagerstown
+code = HT
+runways =
+	rwy15, 09, -4.38, 47.74, 80.0, 7000, 0, 0, 664, 3, 80.0, 0, 0, 0, 0, 0, 0, 120.3
+	rwy16, 02, -3.92, 47.52, 15.0, 3165, 0, 0, 692
+inboundbeacon = HGR
+airlines =
+	n-714tg, 9, cl30/cl35/cl60/cl65/cl85/cl87/cl89, nw
+	n-9881v, 6, astr/g150/g280/glf2/glf3, w
+	n-1412c, 3, g280/galx/glf2/glf3, w
+	n-121cc, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, nw
+	n-1415x, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, sw
+	n-0985b, 1, ga7c/ga8c/glf4/glf5/glf6, n
+	n-1617u, 1, fa6x/fa7x/fa8x, n
+	n-1775h, 1, e35l/e50p/e55p/e545/e550, sw
+	n-17714, 1, b58t/pc12/pc24/prm1, w
+	n-016uj, 1, gl5t/gl7t/gl8t/glex, n
+	n-15165, 1, tbm7/tbm8/tbm9, n
+	n-1112o, 1, be40/h25b/h25c/h25x/ha4t/hdjt, sw
+	n-1886q, 1, f2th/f900/fa10/fa20/fa50, nw
+	n-9898b, 1, a318/a319/a19n/a320/a20n/a321, sw
+	n-7676v, 1, b737/b738/b38m/b3jm, w
+	n-7152f, 1, ga4c/ga5c/ga6c, n
+	cg-yha, 1, lj70/lj75, n
+	cg-oll, 1, f2th/f900/fa20, n
+	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, s
+# specials
+	ujc, 1, j328, ultimate, s
+	jsx, 1, e135/e145, big stripe, w
+	lxj, 1, cl30/cl35/e55p/e545/e550/glex/glf4/glf6/lj70/lj75, flex jet, w
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	vjt, 1, gl5t/gl7t/glex, vista jet, n
+	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, sw
+	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, nw
+	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, w
+	
+entrypoints =
+	360, HGR, 8000
+	180, HGR
+	090, HGR
+	
+sids =
+	LUA
+	HGR
+	
+[airport7]
+name = Manassas
+code = MN
+runways =
+	rwy17, 16L, -4.74, -12.35, 151.0, 6200, 0, 0, 192, 3, 151.0, 0, 0, 0, 0, 0, 0, 133.1
+	rwy18, 16R, -4.85, -12.38, 151.0, 3715, 0, 0, 185
+airlines =
+	gaj, 9, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, nw
+	eja, 6, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, w
+	dpj, 3, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, w
+	n-1716v, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, nw
+	n-1614x, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, n
+	n-1552z, 1, gl5t/gl7t/gl8t/glex, n
+	n-177aa, 1, b58t/pc12/pc24/prm1, w
+	n-6677c, 1, be40/h25b/h25c/h25x/ha4t/hdjt, nw
+	n-0990o, 1, ga7c/ga8c/glf4/glf5/glf6, n
+	n-1551g, 1, astr/g150/g280/galx/glf2/glf3, w
+	n-1234b, 1, f2th/f900/fa10/fa20/fa50, w
+	n-7161i, 1, fa6x/fa7x/fa8x, n
+	n-7816t, 1, tbm7/tbm8/tbm9, n
+	n-6564y, 1, e35l/e50p/e55p/e545/e550, w
+	n-54321, 1, a318/a319/a19n/a320/a20n/a321, w
+	n-67890, 1, b737/b37m/b738/b39m/b3jm, n
+	n-16173, 1, cl30/cl35/cl60/cl65, w
+	n-6761r, 1, cl85/cl87/cl89, n
+	cg-yyt, 1, ga4c/ga5c/ga6c, n
+	cf-xax, 1, b739/b39m, n
+	cg-ujm, 1, h25x/ha4t, n
+# specials
+	lxj, 1, cl30/cl35/e55p/e545/e550/glex/glf4/glf6/lj70/lj75, flex jet, w
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	vjt, 1, gl5t/gl7t/glex, vista jet, n
+	xoj, 1, c750/cl30, exo jet, w
+	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	
+entrypoints =
+	030, HYPER
+	300, MOSLE
+	
+[departure8]
+runway = rwy17
+route40 =
+	HIICH2, Hitch Two
+	N38.36.49.740, W77.38.28.840
+	N38.42.41.330, W77.43.31.220
+	N38.46.54.650, W77.54.39.330
+	
+[approach28]
+runway = rwy17
+beacon = HYPER
+route41 =
+	030, HYPER8, Hyper Eight
+	N39.41.02.160, W77.13.30.340, 10000
+	N39.26.42.060, W77.24.15.460, 6000
+	N39.08.50.869, W77.34.28.650, 5000
+	N38.56.04.350, W77.34.47.640
+	N38.37.57.450, W77.35.00.920
+	end, 191
+	
+[approach29]
+runway = rwy17
+beacon = MOSLE
+route42 =
+	314, GIBBZ4, Gibbs Four
+	N39.13.08.410, W78.14.15.890, 11000
+	N39.10.03.120, W78.08.24.010, 10000
+	N39.01.19.850, W77.51.56.050, 7000
+	N38.57.56.870, W77.45.34.530
+	N38.57.04.950, W77.37.23.900
+	N38.51.12.510, W77.34.22.900
+	N38.37.57.450, W77.35.00.920
+	end, 191
 
 [configurations]
 config1 =
@@ -1127,6 +1298,9 @@ config1 =
 	0, rwy9, startrev
 	0, rwy11, landrev
 	0, rwy12, landstartrev
+	0, rwy13, landstart
+	0, rwy15, landstart
+	0, rwy17, landstart
 
 config2 =
 	0, rwy1, landrev
@@ -1137,6 +1311,9 @@ config2 =
 	0, rwy9, start
 	0, rwy11, land
 	0, rwy12, landstart
+	0, rwy13, landstart
+	0, rwy15, landstart
+	0, rwy17, landstart
 
 [planetypes]
 types =
@@ -1148,9 +1325,9 @@ types =
 	A124, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov
 	A225, 1, 180, 300, 2.2, 2.4, 1000, 1400, 160, 180, 1.1, 1.3, Antonov
 	J328, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3, Dornier
-	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3, Gulfstream
-	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3, Gulfstream
-	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3, Gulfstream
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	HDJT, 6, 160, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
 	PRM1, 6, 160, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
 	EA50, 6, 160, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
@@ -1159,5 +1336,6 @@ types =
 	BE40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
 	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
-	B58T, 6, 110, 230, 2.9, 3.2, 1000, 1440, 100, 110, 1.1, 1.3
+	B58T, 6, 110, 230, 2.9, 3.2, 1440, 1560, 100, 110, 1.1, 1.3
