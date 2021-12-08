@@ -1,0 +1,198 @@
+
+[airspace]
+
+radius = 40				
+zoom = 7.0 				
+elevation = 16			
+floor = 1000				
+descendaltitude = 14000			
+ceiling = 12000 				
+above = 14000 				
+transitionaltitude = 16000		
+speedrestriction = 10, 220, 10000, 250 	
+localizerspeed = 30, 200		
+usa = true				
+metric = false				
+separation = 3				
+automatic = true			
+name = Jorge Newbery approach, Jorge Newbery departure		
+center = S34.3358, W58.2490	
+magneticvar = -9			
+
+
+beacons =
+	FDO, S34.2708, W58.3507, San Fernando
+        PAL, S34.3662, W58.3690, Palomar
+        EZE, S34.4947, W58.3217, Ezeiza
+        ENO, S34.3378, W58.4745, Moreno
+        SNT, S34.1333, W59.2648, Areco
+        PTA, S34.5855, W57.5390, La Plata
+        ATOVO, S34.356, W59.910, ATOVO
+        BIVAM, S33.5817, W58.5674, BIVAM
+        PAPIX, S34.2495, W58.012, PAPIX
+        LANDA, S33.5443, W58.3452, LANDA
+        PAGON, S33.5518, W58.4326, PAGON
+        NEPIS, S34.3432, W59.3616, NEPIS
+        GEBEM, S35.1184, W59.959, GEBEM
+        GBE, S35.4488, W58.2795, GBE
+
+handoff =
+	45, Carrasco, Carrasco Tower, 116.9
+        90, Carrasco, Carrasco Tower, 116.9
+        115, Ezeiza, Ezeiza Tower, 116.5
+        180, Ezeiza, Ezeiza Tower, 116.5
+        270, Ezeiza, Ezeiza Tower, 116.5
+        360, Ezeiza, Ezeiza Tower, 116.5
+
+line1 = 
+	S33.4595, W58.3079
+        S33.5012, W58.2692
+        S33.5368, W58.2750
+        S33.5402, W58.2609
+        S33.5655, W58.2535
+        S34.0380, W58.2552
+        S34.1340, W58.2247
+        S34.1212, W58.2280
+        S34.1647, W58.2799
+        S34.1593, W58.3211
+        S34.1741, W58.3279
+        S34.1598, W58.3793
+        S34.1612, W58.3809
+        S34.1675, W58.3586
+        S34.1833, W58.3269
+        S34.1822, W58.3130
+        S34.2099, W58.2855
+        S34.2452, W58.3148
+        S34.2514, W58.3092
+        S34.2613, W58.3172
+        S34.2567, W58.3315
+        S34.2578, W58.3313
+        S34.2649, W58.3210
+        S34.2696, W58.3040
+        S34.2759, W58.3002
+        S34.2780, W58.2961
+        S34.2819, W58.2946
+        S34.2877, W58.2884
+        S34.2901, W58.2874
+        S34.2974, W58.2875
+        S34.3049, W58.2841
+        S34.3081, W58.2809
+        S34.3108, W58.2816
+        S34.3156, W58.2776
+        S34.3158, W58.2736
+        S34.3213, W58.2689
+        S34.3214, W58.2664
+        S34.3234, W58.2639
+        S34.3250, W58.2598
+        S34.3290, W58.2571
+        S34.3311, W58.2547
+        S34.3325, W58.2495
+        S34.3339, W58.2466
+        S34.3365, W58.2438
+        S34.3382, W58.2421
+        S34.3381, W58.2385
+        S34.3424, W58.2354
+        S34.3411, W58.2342
+        S34.3410, W58.2286
+        S34.3499, W58.2158
+        S34.3531, W58.2155
+        S34.3542, W58.2195
+        S34.3561, W58.2185
+        S34.3571, W58.2208
+        S34.3583, W58.2198
+        S34.3567, W58.2160
+        S34.3576, W58.2122
+        S34.3613, W58.2078
+        S34.3640, W58.2073
+        S34.3662, W58.2041
+        S34.3740, W58.2025
+        S34.3758, W58.2005
+        S34.3773, W58.2088
+        S34.3803, W58.2048
+        S34.3794, W58.2017
+        S34.3814, W58.1998
+        S34.3867, W58.1993
+        S34.3954, W58.1892
+        S34.4009, W58.1805
+        S34.4211, W58.1408
+        S34.4201, W58.1371
+        S34.4226, W58.1381
+        S34.4303, W58.1258
+        S34.4407, W58.1172
+        S34.4672, W58.122
+        S34.4993, W57.5661
+        S34.4961, W57.5239
+
+line2=
+        S35.2696, W58.4898
+        S35.2678, W58.4761
+        S35.2812, W58.4712
+        S35.2821, W58.4909
+        S35.2736, W58.4926
+          
+[airport1]
+
+name = Aeroparque Jorge Newbery	
+code = SABE			
+
+runways = 
+	rwy1, 13, S34.3324, W58.2551, 126.0, 6890, 0, 416, 18,	4, 126.0, 4, 306.0, 127.90
+
+climbaltitude = 6000 		
+
+sids = 
+	ATOVO
+        LANDA
+        PAPIX
+        PTA
+        GEBEM
+        URINO
+        EZE
+
+entrypoints = 
+	090 
+        045 
+        360 
+        315
+        270
+        225
+
+airlines =
+        ARG, 10, B738, Argentina, nws
+        ARG, 3, B737, Argentina
+        ARG, 9, E190, Argentina
+        ARG, 2, B38M, Argentina, nws
+        FBZ, 2, B738, Flybondi, nws
+        JES, 2, A320, Jetsamrt, nws
+        LPE, 1, A320, Latam Peru, w
+        LAN, 1, A320/A321, Latam Chile, w
+        TAM, 1, A320, Latam Brasil, n
+        AZP, 1, CRJ2, Paranair, n
+
+
+[area1]
+
+shape = polygon		
+altitude = 5000	
+name = X		
+points =
+        S34.3206, W58.2779
+        S34.3299, W58.3001
+        S34.3691, W58.3186
+        S34.3919, W58.3172
+        S34.4230, W58.2764
+        S34.3976, W58.2548
+        S34.3963, W58.2397
+        S34.3949, W58.2312
+        S34.3795, W58.2095
+        S34.3734, W58.2137
+        S34.3564, W58.2187
+
+[configurations]
+
+config1 =
+	0, rwy1, startlandrev, 045, nosid
+
+config2 =
+        0, rwy1, startland, 045, nosid
+	
