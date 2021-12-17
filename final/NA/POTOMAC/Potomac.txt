@@ -458,7 +458,7 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	nos, 1, b763/b789, moon flower, n
 	wow, 1, a320/a20n/a321/a21n, wow air, n
 	jdi, 1, cl30/cl35/e35l/e550/gl5t/glex/glf6, jedi, n
-	css, 1, b744, shun feng, n
+	css, 1, b744, shun fung, n
 	crk, 1, a332/a333/a359, bauhinia, n
 	cao, 1, b742/b744/b77l, air china freight, w
 	maa, 1, a332/a333/b762/b763, mas carga, s
