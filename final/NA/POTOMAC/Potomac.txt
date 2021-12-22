@@ -406,12 +406,11 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	afl, 1, a332/a333/a359/b77w/il96, aeroflot, n
 	jza, 1, dh8a/dh8c/dh8d/crj2/crj9, jazz, n
 	cca, 1, a332/a333/a343/a359/b744/b748/b772/b77w/b789, air china, n
-	afr, 1, a332/a343/a359/a388/b744/b772/b77w/b789, air france, n
+	afr, 1, a332/a343/a359/a388/b744/b772/b77w/b789, air frans, n
 	aic, 1, a332/b744/b77l/b77w/b788, air india, n
-	asz, 1, a339, sensa, n
 	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, w
 	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, sw
-	ity, 1, a332/a339, it arrow, n
+	ity, 1, a332/a339/a359, it arrow, n
 	ana, 1, b744/b772/b77w/b788/b789/b78x, all nippon, n
 	aal, 1, a319/a320/a321/a21n/b738/b38m/b752/e190/md81/md82/md83, american, nsw
 	eny, 1, e140/e145/e170/e75s/e75l, envoy, nsw
@@ -452,6 +451,17 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	ups, 1, a306/b752/b763/dc87/md11, u p s, w
 	bvn, 1, c208, show me, n
 	mtn, 1, at43/at72/at76, mountain, n
+	cfs, 1, at43/at72/at76, empire, w
+	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, nw
+	xoj, 1, c750/cl30, exo jet, sw
+	ejm, 1, be40/c25a/c25b/c25c/c550/c560/c56x/c680/c68a/c700/c750/cl30/cl35/cl60/cl65/e35l/e50p/e55p/e550/f2th/f900/fa50/g150/g280/galx/gl5t/glex/glf4/glf5/glf6/h25b/h25c/h25x/lj40/lj45/lj60/lj75, jet speed, w
+	lxj, 1, cl30/cl35/e55p/e545/e550/glex/glf4/glf6/lj70/lj75, flex jet, w
+	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
+	gaj, 1, astr/b350/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, nw
+	n-746vf, 1, gl5t/gl7t/gl8t/glex, n
+	n-4435v, 1, ga7c/ga8c/glf4/glf5/glf6, n
+	n-73667, 1, fa6x/fa7x/fa8x, n
+	n-4552b, 1, ga5c/ga6c/ga7c/ga8c, n
 # specials
 	csa, 1, a333, csa, n
 	plm, 1, a332/a333/b744, pullman, n
@@ -472,9 +482,7 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	mnb, 1, a332, black sea, n
 	dah, 1, a332/b763, air algerie, n
 	vjt, 1, gl5t/gl7t/glex, vista jet, n
-	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, w
-	gaj, 1, astr/b350/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, nw
 
 entrypoints =
 	190, MEEGO
@@ -681,7 +689,7 @@ route1 =
 name = Reagan National
 code = DC
 runways =
-	rwy5, 01, N38.8424, W77.0368, 355.5, 6869, 0, 0, 12, 3, 355.5, 0, 0, 0, 0, 0, 0, 119.1
+	rwy5, 01, N38.8424, W77.0368, 355.5, 6869, 0, 0, 12, 3, 355.5, 0, 0, 0, 0, 0, 0, 119.1, Washington Tower
 	rwy6, 04, N38.8423, W77.0408, 26.0, 4911, 0, 0, 13
 	rwy7, 15, N38.8617, W77.0438, 142.7, 5204, 0, 0, 15
 traffic = 8
@@ -781,6 +789,7 @@ airlines =
 	swa, 10, b733/b735/b737/b37m/b738/b38m, southwest, nsw
 	nks, 5, a319/a19n/a320/a20n/a321/a21n, spirit wings, nsw
 	gti, 3, b738/b744/b748/b762/b763, giant, sw
+	ati, 1, b762/b763, air transport, w
 	jza, 1, dh8a/dh8c/dh8d/crj2/crj9, jazz, n
 	skv, 1, e75s/e75l, maple, n
 	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, w
@@ -794,7 +803,7 @@ airlines =
 	btq, 1, pc12, boutique, w
 	baw, 1, a35k/b744/b772/b77w/b788/b789/b78x, speedbird, n
 	cfg, 1, a332/a339/b763, condor, n
-	vte, 1, e135, volunteer, s
+	vte, 1, c560/c56x/crj2/e35l/e135/glex, volunteer, s
 	dal, 1, bcs1/bcs3/a319/a320/a321/a21n/b712/b737/b738/b739/b752/b753/md88/md90, delta, sw
 	edv, 1, crj2/crj7/crj9, endeavour, s
 	skw, 1, crj2/crj7/crj9/e75s/e75l, sky west, w
@@ -810,17 +819,21 @@ airlines =
 	fdx, 1, a306/a310/at43/at72/at76/b721/b722/b752/b763/dc10/md10/md11, fed ex, nw
 	bvn, 1, c208, show me, nw
 	mtn, 1, at43/at72/at76/c208, mountain, n
+	cfs, 1, at43/at72/at76, empire, w
+	cks, 1, b742/b744, connie, w
 	ups, 1, a306/b752/b763/dc87/md11, u p s, w
+	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
+	ejm, 1, be40/c25a/c25b/c25c/c550/c560/c56x/c680/c68a/c700/c750/cl30/cl35/cl60/cl65/e35l/e50p/e55p/e550/f2th/f900/fa50/g150/g280/galx/gl5t/glex/glf4/glf5/glf6/h25b/h25c/h25x/lj40/lj45/lj60/lj75, jet speed, sw
+	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, w
 	n-6969r, 1, fa6x/fa7x/fa8x, n
 	n-553gg, 1, gl5t/gl7t/gl8t/glex, n
 	n-223xq, 1, b737/b738/b39m/b3jm, w
 	n-0001j, 1, h25a/h25b/h25c/h25x/ha4t, w
-	n-625fg, 1, ga6c/ga7c/ga8c, n
+	n-625fg, 1, ga6c/ga7c/ga8c/glf5/glf6, n
 # specials
 	csa, 1, a333, csa, n
 	bel, 1, a332/a333, beeline, n
 	plm, 1, a332/a333/b744, pullman, n
-	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
 	jdi, 1, cl30/cl35/e35l/e550/gl5t/glex/glf6, jedi, n
 	nrs, 1, b788/b789, red nose, n
 	mnu, 1, crj2/crj7/crj9, mainer, s
@@ -1009,13 +1022,14 @@ airlines =
 	n-12345, 1, cl85/cl87/cl89, w
 	n-778bb, 1, astr/g150/g280/glf2/glf3, w
 	n-6726v, 1, be40/be4w/h25a/h25b/h25c/h25x/ha4t/hdjt, w
-	n-9889h, 1, b58t/pc12/pc24/prm1, s
+	n-9889h, 1, b58t/m600/p46t/pc12/pc24/prm1, s
 	n-6762z, 1, tbm7/tbm8/tbm9, s
 	n-7755a, 1, b737/b738/b38m/b3jm, e
 	n-0998y, 1, bcs1/a318/a319/a19n/a320/a20n/a321, w
 	n-1233x, 1, ga4c/ga5c/ga6c, w
 	n-0988h, 1, f2th/f900/fa10/fa20/fa50, w
 	n-9988u, 1, fa6x/fa7x/fa8x, e
+	n-4671i, 1, c10t/c210/p210/t210, s
 	n-888ff, 1, pay1/pay2/pay3/pat4/pay4, n
 	n-727tt, 1, g280/galx/glf2/glf3, s
 	cf-vht, 1, ea50/sf50, w
@@ -1311,7 +1325,7 @@ route42 =
 name = Leesburg
 code = LB
 runways =
-	rwy19, 17, -3.53, 9.09, 161.0, 5500, 0, 0, 378
+	rwy19, 17, -3.53, 9.09, 161.0, 5500, 0, 0, 378, 3, 161.0, 0, 0, 0, 0, 0, 0, 120.5
 traffic = 35
 airlines =	
 	n-414ik, 9, jcom/ww23/ww24, nw
@@ -1370,7 +1384,65 @@ route44 =
 [approach31]
 runway = rwy19
 beacon = HYPER
-route41 =
+route45 =
+	030, HYPER8, Hyper Eight
+	N39.41.02.160, W77.13.30.340, 10000
+	N39.26.42.060, W77.24.15.460, 6000
+	N39.08.50.869, W77.34.28.650, 5000
+	N38.56.04.350, W77.34.47.640
+	N38.37.57.450, W77.35.00.920
+	end, 191
+	
+[airport9]
+name = Martinsburg
+code = MB
+runways =
+	rwy20, 26, -18.45, 31.25, 251.0, 8815, 0, 0, 550, 3, 251.0, 0, 0, 0, 0, 0, 0, 124.3
+traffic = 35
+airlines =
+	n-453vf, 9, gl5t/gl7t/gl8t/glex, n
+	n-6637c, 6, fa6x/fa7x/fa8x, n
+	n-2223l, 3, e35l/e50p/e55p/e545/e550, nw
+	n-5356v, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, n
+	n-152zy, 1, astr/g150/g250/g280/galx/glf2/glf3, nw
+	n-552ca, 1, pay1/pay2/pay3/pat4/pay4, n
+	n-2525i, 1, c10t/c210/p210/t210, n
+	n-5252v, 1, b58t/m600/p46t/pc12/pc24/prm1, n
+	n-25354, 1, f2th/f900/fa10/fa20/fa50, n
+	n-534jm, 1, tbm7/tbm8/tbm9, n
+	n-4425c, 1, cl30/cl35/cl60/cl65/cl85/cl87/cl89, nw
+	n-5142p, 1, ga4c/ga5c/ga6c/ga7c/ga8c, n
+	n-4214i, 1, jcom/ww23/ww24, n
+	n-1414t, 1, be40/be4w/h25a/h25b/h25c/h25x/ha4t/hdjt, n
+	n-4142a, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c55b/c560/c56x/c650/c680/c68a/c700/c750, nw
+# specials
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	vjt, 1, gl5t/gl7t/glex, vista jet, n
+	xoj, 1, c750/cl30, exo jet, n
+	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
+	gaj, 1, astr/b350/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/cl85/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, nw
+	lxj, 1, cl30/cl35/e55p/e545/e550/glex/glf4/glf6/lj70/lj75, flex jet, nw
+	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, n
+	nje, 1, glex, fraction, n
+	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, n
+	ejm, 1, be40/c25a/c25b/c25c/c550/c560/c56x/c680/c68a/c700/c750/cl30/cl35/cl60/cl65/e35l/e50p/e55p/e550/f2th/f900/fa50/g150/g280/galx/gl5t/glex/glf4/glf5/glf6/h25b/h25c/h25x/lj40/lj45/lj60/lj75, jet speed, nw
+	dpj, 1, c25a/c25b/c55b/c560/c55b/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, n
+
+entrypoints =
+	030, HYPER
+
+[departure10]
+runway = rwy20
+route46 =
+	CLTCH3, Clutch three
+	N38.31.35.700, W77.47.40.450
+	N38.26.51.620, W77.54.20.140
+	N38.10.33.770, W78.23.35.860
+	
+[approach32]
+runway = rwy20
+beacon = HYPER
+route45 =
 	030, HYPER8, Hyper Eight
 	N39.41.02.160, W77.13.30.340, 10000
 	N39.26.42.060, W77.24.15.460, 6000
@@ -1393,6 +1465,7 @@ config1 =
 	0, rwy15, landstart
 	0, rwy17, landstart
 	0, rwy19, landstart
+	0, rwy20, landstart
 
 config2 =
 	0, rwy1, landrev
@@ -1407,6 +1480,7 @@ config2 =
 	0, rwy15, landstart
 	0, rwy17, landstart
 	0, rwy19, landstart
+	0, rwy20, landstart
 
 [planetypes]
 types =
@@ -1444,4 +1518,8 @@ types =
 	PC12, 6, 120, 280, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
 	M600, 6, 110, 250, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
 	P46T, 6, 110, 250, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
-	B58T, 6, 110, 230, 2.9, 3.2, 1440, 1560, 100, 110, 1.1, 1.3
+	B58T, 6, 110, 230, 2.9, 3.2, 1440, 1560, 80, 100, 1.1, 1.3
+	C10T, 6, 100, 220, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
+	C210, 6, 100, 200, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
+	T210, 6, 100, 200, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
+	P210, 6, 100, 200, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
