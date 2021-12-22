@@ -319,7 +319,7 @@ airlines =
 	gia, 2, a339/b77w, indonesia, e
 	tgz, 1, b738, tamazi, e
 	ibs, 2, a320/a321, iberexpress, s
-	ice, 1, b3m8/752/b763, ice air, w
+	ice, 1, b38m/752/b763, ice air, w
 	ira, 2, a332, iran air, e
 	ira, 1, a30b, iran air, e
 	exs, 2, b738, channex, we
@@ -355,14 +355,14 @@ airlines =
 	tap, 3, a319/a320/a20n/a321/a332, air portugal, s           
 	rot, 2, b737/b738, tarom, e
 	jaf, 2, a320/b738/b38m/b788, beauty, nswe
-	tfl, 3, b738/b38m/b788/b7m8, orange, nswe
+	tfl, 3, b738/b38m/b788, orange, nswe
 	tar, 1, a20n, tunair, s
 	thy, 2, a320/a21n/a333/a359/b738/b77w/b789, turkish, e
 	thy, 2, a332, turkish, e
 	aui, 1, b738/e195, ukraine international, e
 	kzu, 2, a30b, universal cargo, e
 	ual, 3, b788/b789/b78x, united, w
-	svr, 1, a320/a20n/b7m8, sverdovsk air, e
+	svr, 1, a320/a20n/b38m, sverdovsk air, e
 	vlg, 2, a319/a320/a20n/a321, vueling, s
 	cxa, 1, b788/b789, xiamen air, e
 	csn, 2, b77l, china southern, e
@@ -371,7 +371,7 @@ airlines =
         hvn, 1, a358, viet nam airlines, e 
         eju, 3, a319/a20n/a320, alpine , es
         slm, 1, a343, surinam airways, s
-        bla, 2, b7m8/b738, blue air, e
+        bla, 2, b38m/b738, blue air, e
         ibe, 2, a333/a320, iberia, s
         ubd, 1, b734, urair, e
         lae, 3, b763, lan columbia, s
