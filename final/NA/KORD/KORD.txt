@@ -671,7 +671,7 @@ inboundbeacon = MK
 traffic = 7
 airlines =
 	swa, 7, b733/b735/b737/b37m/b738/b38m, southwest, sew
-	frg, 5, b190/c402/e120, freight runners, sw
+	frg, 5, b190/c402/e120/sb20, freight runners, sw
 	awi, 4, crj2, wisconsin, sw
 	uca, 3, e45x, commutair, w
 	uca, 1, dh8b/dh8c/e145, commutair, w
@@ -827,6 +827,7 @@ airlines =
 	gti, 3, b738/b763, giant, sw
 	kal, 1, b744/b748/b77l, korean air, w
 	run, 1, b744, cargo turk, n
+	lgt, 1, b744, long tail, w
 	n-7888b, 1, gl5t/gl7t/gl8t/glex, e
 	n-5142t, 1, ga7c/ga8c/glf4/glf5/glf6, e
 	n-1423r, 1, lj23/lj24/lj25/lj28/lj31/lj35/lj36/lj40/lj45/lj55/lj60/lj70/lj75, w
