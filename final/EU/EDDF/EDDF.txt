@@ -1,4 +1,4 @@
-# EDDF v1.0
+# EDDF v2.0 prerelease
 # This file is generated.
 # Full readme can be accessed here:
 # https://github.com/AdamJCavanaugh/EndlessATCAirports/blob/master/final/EU/DEU/EDDF_Readme.md
@@ -9,11 +9,20 @@ center = N50.033333, E8.570556
 magneticvar = 0.277
 floor = 1500
 descendaltitude = 11000
-ceiling = 13000
-above = 15000
+ceiling = 10000
+above = 11000
 transitionaltitude = 6000
 usa = false
-speedrestriction = 2, 250
+speedrestriction = 6, 250, 7000, 250
+automatic = true
+name = langen radar, langen radar
+diversionaltitude = 10000
+handoff =
+	340, Langen Radar, langen radar, 127.625
+	260, Langen Radar, langen radar, 129.675
+	180, Langen Radar, langen radar, 129.355
+	090, Langen Radar, langen radar, 125.200
+	030, Langen Radar, langen radar, 124.430
 
 beacons =
 	FFM, N50.0537, E8.637, 0, Frankfurt
@@ -21,39 +30,39 @@ beacons =
 	MTR, N50.27630, E8.84863, 0, Metro
 	CHA, N49.9211, E9.0398, 284, Charlie
 	TAU, N50.25050, E8.16252, 0, Taunus
-	KNG, N49.76220, E9.09167, 0, Konig
-	HDM, N49.56560, E8.46381, 0, Coleman
-	HDM, N49.53450, E8.39050, 0, Coleman
-	MND, N49.47060, E8.51598, 0, Mannheim
 	GED, N50.41190, E9.24916, 0, Gedern
-	GIN, N50.63560, E8.81932, 0, Giessen
-	HDL, N49.38600, E8.59676, 0, Heidelberg
-	SIL, N50.68000, E8.13850, 0, Siegerland
-	NKR, N49.33670, E8.73291, 0, Neckar
-	SLD, N50.70680, E8.07851, 0, Siegerland
-	HAB, N50.09310, E9.78154, 0, Hammelburg
-	KIR, N49.85020, E7.36958, 0, Kirn
-	HAN, N49.96490, E7.28088, 0, Hahn
-	FUL, N50.59250, E9.57217, 0, Fulda
-	RMS, N49.43470, E7.58565, 0, Ramstein
-	NMN, N50.36780, E7.31367, 0, Mendig
-	COL, N50.78350, E7.59419, 0, Cola
-	ZWN, N49.22910, E7.41789, 0, Zweibrucken
-	ZBN, N49.22760, E7.41658, 0, Zweibrucken
-	ZND, N49.20930, E7.39578, 0, Zweibrucken
 	KERAX, N50.475, E9.5819, 197, kerax
 	SPESA, N49.8622, E9.3483, 284, shpesa
 	ROLIS, N50.4351, E7.8252, -158, rolis
 	RAMOB, N50.1114, E7.6839, 122, ramob
 
+# starting top left corner, then to the top right
 boundary =
- 	N49.6200, E9.8030
-	N49.5550, E9.5060
-	N49.5680, E8.4690
-	N49.7830, E7.4700
-	N50.3678, E7.3136
-	N50.6100, E7.7280
-	N50.7400, E9.9190
+	N50.1942, E7.6803
+	N50.3180, E8.3540
+	N50.3816, E8.3659
+	N50.3770, E8.5660
+	N50.4449, E8.6189
+	N50.4680, E8.8080
+	N50.4210, E8.9110
+	N50.5731, E9.6597
+	N50.4375, E9.7186
+	N50.3622, E9.6044
+	N49.9242, E9.7047
+	N49.7556, E9.5150
+	N49.6561, E9.4019
+	N49.6547, E9.2736
+	N49.7419, E9.0933
+	N49.7408, E8.9581
+	N49.7397, E8.8142
+	N49.7369, E8.6131
+	N49.6140, E8.6010
+	N49.6190, E8.4550
+	N49.6800, E8.4510
+	N49.6628, E8.1675
+	N49.7692, E7.8719
+	N49.8019, E7.7800
+	N49.8322, E7.6958
 
 line1 =
 	N49.21400, E8.41730
@@ -96,56 +105,56 @@ name = Frankfurt am Main Airport
 code = EDDF
 climbaltitude = 4000
 runways =
-	rwyn, 07L, N50.0371, E8.49708, 69.6, 9186,  0, 0, 305, 3, 0, 3, 0, 0, 0, 0, 0, 136.5
+	rwyn, 07L, N50.0371, E8.49708, 69.6, 9186,  0, 0, 305, 3.2, 0, 3, 0, 0, 0, 0, 0, 136.5
 	rwyc, 07C, N50.0326, E8.53463, 69.6, 13123, 0, 0, 329
 	rwys, 07R, N50.0275, E8.53417, 69.6, 13123, 0, 0, 328, 3, 0, 3, 0, 0, 0, 0, 0, 119.905
 	rwy18, 18, N50.0344, E8.52593, 179.8, 13123, 0, 0, 326
 
 entrypoints = 
-	340, rolis
-	020, kerax
+	310, rolis, 9000
+	40, kerax, 10000
 	070, kerax
-	090, spesa
-	120, spesa
-	190, spesa
-	300, ramob
+	090, spesa, 9000
+	120, spesa, 10000
+	160, spesa
+	280, ramob, 8000
 
 airlines =
-	AAL, 3, 	A332/B788/B789, American, nw
+	AAL, 3, 	A332/B788/B789/b772, American, nw
 	AAR, 2, 	A359/B744/A388, asiana, ne
+	ABD, 1,     B744, atlanta
 	ABW, 5,		B744/B748, AIRBRIDGECARGO, new
 	ACA, 5,		B788/B789/B77W, Air Canada, nw
 	AEA, 1,		B738, Europa, sw
 	AEE, 4, 	A320/A321/A20N/A21N, Aegean, se
-	AER, 5, 	a320/a321/b738/b77w, Aeroflot, ne
-	AFR, 5,		A318/A319, Airfrans, nw
+	AER, 5, 	a320/a321/b738/b77w/a359, Aeroflot, ne
+	AFR, 5,		A318/A319/e170/e190, Airfrans, w
 	AIC, 1, 	B788, air india, se
 	ALK, 1, 	A333, srilankan, se
 	AMC, 3, 	A320/A20N, Air Malta, s
 	ANA, 3,		B77W/B789, All Nippon, ne
-	ANA, 3, 	B77L, all nippon
+	ANA, 1, 	B77L, all nippon
+	ABE, 1,     CRJX, air nostrum
 	ASL, 1, 	A319, air serbia, se
 	AUA, 5,		dh8d/A320/A319, Austrian, es
 	AUI, 2, 	B738/E190, Ukraine International, e
 	AWT, 1, 	B734, albawings, se
-	AZA, 5, 	A319/A320/A321/E175, Alitalia, s
 	BAW, 6, 	a319/a320/a21n/a20n, Speedbird, n
 	BCS, 2, 	a306/b752, eurotrans, n
-	BLA, 1, 	B735/B738, Blue Air, se
-	BOX, 8, 	B77L, german cargo
+	BLA, 1, 	B735/B738/B38M, Blue Air, se
+	BOX, 7, 	B77L, german cargo
 	BRU, 1, 	E175, Belarus Avia, ne
 	BTI, 2, 	bcs3, Air Baltic, ne
 	CAI, 1, 	B738, Corendon, sew
 	CAL, 4,		A359/B77W/B744, dynasty, se
 	CAO, 2, 	B77L, airchina freight
-	CCA, 2, 	a359/b77w/b748, Air China, ne
+	CCA, 3, 	a359/b77w/b748/b789, Air China, ne
 	CES, 2, 	A332/A359, china eastern, ne
 	CFE, 2,		e190, flyer, n
 	CFG, 6,		B752/B753/B763, Condor, sew
 	CFG, 7, 	A320/A321, Condor, sew
 	CKK, 2, 	B744/B77L, cargo king
-	CLH, 3, 	CRJ9, Hansaline
-	CPA, 1, 	A359, cathay, ne
+	CPA, 1, 	A359/A35K, cathay, ne
 	CPA, 2, 	B744/B748/B77W, cathay
 	cs-abc, 1, 	CL30/C560, 0, swne
 	CSA, 1, 	AT75, c s a lines, e
@@ -155,16 +164,17 @@ airlines =
 	D-abcd, 1,  C525/C560/E135/J328/A318/A319, 0, swne
 	DAH, 1, 	B736/B738/A332, air algerie, s
 	DAL, 3, 	B763/B764/A332/A333/B77L, Delta, nw
-	DLA, 4, 	e195, Dolomiti, s
+	DLA, 8, 	e195, Dolomiti, s
+	DLH, 3, 	CRJ9, Lufthansa
 	DLH, 3,		A388, Lufthansa
-	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
-	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
-	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
-	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
-	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
-	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
-	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
-	DLH, 5,		A359, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E190/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E190/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E190/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E190/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E190/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E190/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E190/E195/CRJ9, Lufthansa
+	DLH, 3,		A359, Lufthansa
 	DLH, 10,	A346/A343/B748/B744, Lufthansa
 	DLH, 5,	A346/A343/B748/B744, Lufthansa
 	DLH, 10,	A333, Lufthansa
@@ -177,12 +187,12 @@ airlines =
 	FIN, 2, 	A320/A321, Finnair, n
 	GEC, 10, 	B77L/MD11, lufthansa cargo
 	GFA, 1, 	A320/A20N/A21N, gulf air, s
-	HOP, 2,		e170/e190, air hop, w
-	HVN, 1, 	A359/B78X, viet nam airlines, ne
+	HVN, 1, 	A359/B789/B78X, viet nam airlines, ne
 	IAW, 1, 	A320, iraqi, se
 	IBE, 3, 	A319/A320/A20N/A321, Iberia, sw
 	ICE, 1, 	b752/b753/b763/b38m, Iceland air, n
 	IRA, 1, 	A332, iran air, se
+	ITY, 5, 	A319/A320, itarrow, s
 	JAL, 2, 	B788/B789, japan air, ne
 	KAC, 1, 	a20n/B77W, Kuwaiti, se
 	KAL, 1, 	B77L/B77W/B748, korean air, ne
@@ -199,20 +209,21 @@ airlines =
 	MSC, 1,		A320, air cairo, s
 	MSR, 2,		B738/B789, Egyptair, s
 	NMB, 1, 	A332, namibia, s
+	OCN, 2,     A332/A320, ocean, sw
 	OHY, 1, 	A21N, onur air, se
 	OMA, 1, 	A333, Oman Air, s
 	PGT, 2, 	A320/A20N/B738, Sunturk, se
 	QTR, 1, 	b77l, qatari
 	QTR, 3, 	b77w/A388, Qatari, se
 	RAM, 1, 	B738/E190/B788, royal air maroc, sw
-	RJA, 1,		a319/a321, Jordanian, nse
+	RJA, 1,		a319/a321, Jordanian, se
 	ROT, 1, 	A318/B738/B733, Tarom, se
-	RYR, 3, 	B738, Ryanair, n
+	RYR, 3, 	B738/B38M, Ryanair
 	RZO, 1, 	A320/A21N, azores, sw
 	SAA, 1,	 	a332/a343/a346, springbok, s
 	SAS, 3, 	crj9/a20n/b738/b737, Scandinavian, n
 	SBI, 2, 	b738/a320/a20n, Siberian, ne
-	SIN, 3, 	B77W/A388, Singapore, se
+	SIA, 3, 	B77W/A388, Singapore, se
 	SMR, 1, 	B739, somon air, e
 	SVA, 1, 	B77L/B744, saudia
 	SVA, 1, 	B789/B78X, Saudia, se
@@ -223,13 +234,14 @@ airlines =
 	TAP, 4, 	a319/a320/a20n/a21n/a321, Airportugal, sw
 	TAR, 1, 	A319/A320, Tunair, s
 	THA, 2, 	B77W/A388, Thai, se
-	THY, 1, 	a319/a320/a332/a333, Turkish, se
-	THY, 5, 	a321/a21n/b738/b77L, Turkish, se
+	THY, 1, 	a319/a320/a332/a333/b744, Turkish, se
+	THY, 5, 	a321/a21n/b738/b77L/B38M/B39M, Turkish, se
 	TUA, 1, 	B738/B752, turkmenistan, e
 	TUI, 5, 	B738, Tui jet, swe
+	TUI, 1, 	B38M, Tui jet, swe
 	UAE, 3, 	B77L, emirates
 	UAE, 3, 	B77W/A388, Emirates, se
-	UAL, 8, 	b78x/b789/b788/b763/b764/B77W, United, nw
+	UAL, 8, 	b78x/b789/b788/b763/b764/B77W/B772, United, nw
 	UZB, 1, 	A20N/B788, Uzbek, e
 	VDA, 1, 	A124/IL76, Volga, nswe
 
@@ -252,12 +264,12 @@ config2 =
 [departure1]
 runway = rwy18
 route1 = 
-	ANE9L, aneki niner lima
+	ANE1L, aneki one lima
 	N49.7817, E8.5414
 	N49.3173, E8.4804
 
 route2 = 
-	CIN3S, cindy three sierra
+	CIN4S, cindy four sierra
 	N49.9667, E8.5264
 	N49.9496, E8.5736
 	N49.7621, E9.0915
@@ -272,7 +284,7 @@ route3 =
 	N49.8608, E7.7756
 
 route4 =
-	SUL2S, sulus two sierra
+	SUL3S, sulus three sierra
 	N49.9667, E8.5264
 	N49.9496, E8.5736
 	N49.7621, E9.0915
@@ -293,8 +305,8 @@ route5 =
 [departure2]
 runway = rwyc, rev
 route1 = 
-	MAR6M, marun six mike
-	N49.9618, E8.4712
+	MAR7M, marun seven mike
+	N49.9618, E8.4712, 7000
 	N49.9052, E8.4451
 	N49.9152, E8.3641
 	N49.9517, E8.3402
@@ -306,7 +318,7 @@ route1 =
 
 route2 = 
 	MAR6F, marun six foxtrot
-	N50.0265, E8.5098
+	N50.0265, E8.5098, 5000
 	N50.0306, E8.4468
 	N50.1165, E8.3225
 	N50.2909, E8.4051
@@ -315,8 +327,8 @@ route2 =
 	N50.8212, E8.6719
 
 route3 = 
-	OBO1M, oboka one mike
-	N49.9618, E8.4712
+	OBO2M, oboka two mike
+	N49.9618, E8.4712, 7000
 	N49.9146, E8.4494
 	N49.885, E8.3731
 	N49.8906, E8.2658
@@ -328,7 +340,7 @@ route3 =
 
 route4 =
 	OBO2G, oboka two golf
-	N50.0306, E8.4468
+	N50.0306, E8.4468, 5000
 	N50.0111, E8.2836
 	N50.0584, E8.1211
 	N50.2549, E7.7379
@@ -337,8 +349,8 @@ route4 =
 	N50.7449, E7.338
 
 route5 =
-	TOB6M, tobak six mike
-	N50.0275, E8.5133
+	TOB7M, tobak seven mike
+	N50.0275, E8.5133, 7000
 	N49.9618, E8.4712
 	N49.9052, E8.4451
 	N49.9152, E8.3641
@@ -350,7 +362,7 @@ route5 =
 
 route6 =
 	TOB7F, tobak seven foxtrot
-	N50.0265, E8.5098
+	N50.0265, E8.5098, 5000
 	N50.0306, E8.4468
 	N50.1165, E8.3225
 	N50.2909, E8.4051
@@ -359,38 +371,41 @@ route6 =
 
 [departure3]
 runway = rwyc
-route1 = 
-	KOM3D, komib three delta
-	N50.0727, E8.7107
-	N50.0576, E8.8436
-	N50.0645, E9.2834
-	N50.2001, E9.6762
-	N50.1996, E10.0106
-	N50.0734, E10.2427
 
-route2 = 
+route1 = 
 	MAR5E, marun five echo
-	N50.0569, E8.637
+	N50.0569, E8.637, 5000
 	N50.1003, E8.6341
 	N50.3267, E8.6189
 	N50.4449, E8.6189
 	N50.7217, E8.6578
 	N50.8212, E8.6719
 
-route3 = 
+route2 = 
 	MAR9D, marun niner delta
-	N50.0569, E8.637
+	N50.0569, E8.637, 5000
 	N50.0727, E8.7107
 	N50.2763, E8.8486
 	N50.5716, E8.7858
 	N50.7252, E8.7159
 	N50.8212, E8.6719
 
-route4 = 
+route3 = 
 	OBO1D, oboka one delta
-	N50.0569, E8.637
+	N50.0569, E8.637, 5000
 	N50.0727, E8.7107
 	N50.2763, E8.8486
+	N50.3267, E8.6189
+	N50.3816, E8.3659
+	N50.2903, E7.9112
+	N50.3617, E7.6649
+	N50.5581, E7.5296
+	N50.7449, E7.338
+
+route4 = 
+	OBO1E, oboka one echo
+	N50.0569, E8.637, 5000
+	N50.1003, E8.6341
 	N50.3267, E8.6189
 	N50.3816, E8.3659
 	N50.2903, E7.9112
@@ -399,17 +414,6 @@ route4 =
 	N50.7449, E7.338
 
 route5 = 
-	OBO1E, oboka one echo
-	N50.0569, E8.637
-	N50.1003, E8.6341
-	N50.3267, E8.6189
-	N50.3816, E8.3659
-	N50.2903, E7.9112
-	N50.3617, E7.6649
-	N50.5581, E7.5296
-	N50.7449, E7.338
-
-route6 = 
 	SUL1D, sulus one delta
 	N50.0727, E8.7107
 	N50.0576, E8.8436
@@ -419,16 +423,16 @@ route6 =
 	N50.0734, E10.2427
 	N50.0752, E10.7288
 
-route7 = 
+route6 = 
 	TOB9D, tobak niner delta
-	N50.0727, E8.7107
+	N50.0727, E8.7107, 5000
 	N50.2763, E8.8486
 	N50.5716, E8.7858
 
 # actually rwys, swapped because of weird ordering logic in the game
 [approach1]
 runway = rwyn
-beacon = SPESA, N49.8622, E9.3483, 284, shpesa 1 charlie
+beacon = SPESA, N49.8622, E9.3483, 284, shpesa 3 charlie
 route1 =
 	284
 	N49.8622, E9.3483
@@ -439,7 +443,7 @@ route1 =
 
 [approach2]
 runway = rwys
-beacon = CHA, N49.9211, E9.0398, 284, shpesa 1 charlie via charlie
+beacon = CHA, N49.9211, E9.0398, 284, shpesa 3 charlie via charlie
 route1 =
 	284
 	N49.9211, E9.0398
@@ -450,7 +454,7 @@ route1 =
 # actually rwyn, swapped because of weird ordering logic in the game
 [approach3]
 runway = rwys
-beacon = SPESA, N49.8622, E9.3483, 284, shpesa 1 delta
+beacon = SPESA, N49.8622, E9.3483, 284, shpesa 3 delta
 route1 =
 	284
 	N49.8622, E9.3483
@@ -462,7 +466,7 @@ route1 =
 
 [approach4]
 runway = rwyn
-beacon = KERAX, N50.475, E9.5819, 197, kerax 1 delta
+beacon = KERAX, N50.475, E9.5819, 197, kerax 3 delta
 route1 =
 	284
 	N50.475, E9.5819
@@ -473,7 +477,7 @@ route1 =
 
 [approach5]
 runway = rwys
-beacon = KERAX, N50.475, E9.5819, 197, kerax 1 charlie
+beacon = KERAX, N50.475, E9.5819, 197, kerax 3 charlie
 route1 =
 	284
 	N50.475, E9.5819
@@ -487,7 +491,7 @@ route1 =
 
 [approach6]
 runway = rwyn
-beacon = ROLIS, N50.4351, E7.8252, -158, rolis 1 delta
+beacon = ROLIS, N50.4351, E7.8252, -158, rolis 3 delta
 route1 =
 	284
 	N50.4351, E7.8252
@@ -499,7 +503,7 @@ route1 =
 
 [approach7]
 runway = rwys
-beacon = ROLIS, N50.4351, E7.8252, -158, rolis 1 charlie
+beacon = ROLIS, N50.4351, E7.8252, -158, rolis 3 charlie
 route1 =
 	284
 	N50.4351, E7.8252
@@ -624,7 +628,7 @@ beacon = DF644, N49.7882, E7.917, 0, delta foxtrot six four four
 # actually rwys, swapped because of weird ordering logic in the game
 [approach29]
 runway = rwyn, rev
-beacon = SPESA, N49.8622, E9.3483, 284, shpesa 1 bravo
+beacon = SPESA, N49.8622, E9.3483, 284, shpesa 3 bravo
 route1 =
 	284
 	N49.8622, E9.3483
@@ -636,7 +640,7 @@ route1 =
 
 [approach30]
 runway = rwys, rev
-beacon = CHA, N49.9211, E9.0398, 284, shpesa 1 bravo via charlie
+beacon = CHA, N49.9211, E9.0398, 284, shpesa 3 bravo via charlie
 route1 =
 	284
 	N49.9211, E9.0398
@@ -647,7 +651,7 @@ route1 =
 
 [approach31]
 runway = rwys, rev
-beacon = KERAX, N50.475, E9.5819, 197, kerax 1 bravo
+beacon = KERAX, N50.475, E9.5819, 197, kerax 3 bravo
 route1 =
 	284
 	N50.475, E9.5819
@@ -661,7 +665,7 @@ route1 =
 
 [approach32]
 runway = rwys, rev
-beacon = ROLIS, N50.4351, E7.8252, -158, rolis 1 bravo
+beacon = ROLIS, N50.4351, E7.8252, -158, rolis 3 bravo
 route1 =
 	284
 	N50.4351, E7.8252
@@ -739,7 +743,7 @@ beacon = DF617, N50.0504, E9.5978, 0, delta foxtrot six one seven
 
 [approach46]
 runway = rwyn, rev
-beacon = KERAX, N50.475, E9.5819, 197, kerax 1 alpha
+beacon = KERAX, N50.475, E9.5819, 197, kerax 3 alpha
 route1 =
 	284
 	N50.475, E9.5819
@@ -753,7 +757,7 @@ route1 =
 # actually rwyn, swapped because of weird ordering logic in the game
 [approach47]
 runway = rwys, rev
-beacon = SPESA, N49.8622, E9.3483, 284, shpesa 1 alpha
+beacon = SPESA, N49.8622, E9.3483, 284, shpesa 3 alpha
 route1 =
 	284
 	N49.8622, E9.3483
@@ -767,7 +771,7 @@ route1 =
 
 [approach48]
 runway = rwyn, rev
-beacon = ROLIS, N50.4351, E7.8252, -158, rolis 1 alpha
+beacon = ROLIS, N50.4351, E7.8252, -158, rolis 3 alpha
 route1 =
 	284
 	N50.4351, E7.8252
@@ -792,55 +796,59 @@ route1 =
 
 [approach50]
 runway = rwyn, rev
-beacon = DF401, N49.9932, E7.9494, 0, delta foxtrot four zero one
+beacon = ETARU, N50.2856, E8.1122, 0, etaru
 
 [approach51]
 runway = rwyn, rev
-beacon = DF402, N50.073, E8.2715, 0, delta foxtrot four zero two
+beacon = DF401, N49.9932, E7.9494, 0, delta foxtrot four zero one
 
 [approach52]
+runway = rwyn, rev
+beacon = DF402, N50.073, E8.2715, 0, delta foxtrot four zero two
+
+[approach53]
 runway = rwyn, rev
 beacon = DF403, N50.0967, E8.375, 0, delta foxtrot four zero three
 
 # <removeWaypoints>
 
-[approach53]
+[approach54]
 runway = rwyn, rev
 beacon = DF407, N50.3949, E9.1756, 0, delta foxtrot four zero seven
 
-[approach54]
+[approach55]
 runway = rwyn, rev
 beacon = DF408, N50.3118, E8.8194, 0, delta foxtrot four zero eight
 
-[approach55]
+[approach56]
 runway = rwyn, rev
 beacon = DF409, N50.1704, E8.6833, 0, delta foxtrot four zero niner
 
-[approach56]
+[approach57]
 runway = rwyn, rev
 beacon = DF410, N50.1927, E8.7777, 0, delta foxtrot four one zero
 
-[approach57]
+[approach58]
 runway = rwyn, rev
 beacon = DF411, N50.2157, E8.8752, 0, delta foxtrot four one one
 
-[approach58]
+[approach59]
 runway = rwyn, rev
 beacon = DF412, N50.2386, E8.9729, 0, delta foxtrot four one two
 
-[approach59]
+[approach60]
 runway = rwyn, rev
 beacon = DF413, N50.2614, E9.0707, 0, delta foxtrot four one three
 
-[approach60]
+[approach61]
 runway = rwyn, rev
 beacon = DF414, N50.2841, E9.1685, 0, delta foxtrot four one four
 
-[approach61]
+[approach62]
 runway = rwyn, rev
 beacon = DF415, N50.3068, E9.2665, 0, delta foxtrot four one five
 
-[approach62]
+[approach63]
 runway = rwyn, rev
 beacon = DF416, N50.3293, E9.3645, 0, delta foxtrot four one six
 
@@ -899,35 +907,3 @@ points =
 	N50.0750, E7.9750
 	N50.3117, E8.9544
 	N50.3747, E9.2231
-
-[area4]
-shape = polygon
-altitude = 3500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-#draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-points =
-	N50.5731, E9.6597
-	N50.4375, E9.7186
-	N50.3622, E9.6044
-	N49.9242, E9.7047
-	N49.7556, E9.5150
-	N49.6561, E9.4019
-	N49.6547, E9.2736
-	N49.7419, E9.0933
-	N49.7408, E8.9581
-	N49.7397, E8.8142
-	N49.7369, E8.6131
-	N49.6869, E8.6064
-	N49.6628, E8.1675
-	N49.7692, E7.8719
-	N49.8019, E7.7800
-	N49.8322, E7.6958
-	N49.9547, E7.6906
-	N50.1942, E7.6803
-	N50.2478, E7.9483
-	N50.3411, E7.9661
-	N50.3714, E8.1203
-	N50.3083, E8.2597
-	N50.4625, E9.0658
-	N50.5203, E9.3708
-	N50.5731, E9.6597
