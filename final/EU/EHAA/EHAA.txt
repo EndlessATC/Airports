@@ -5,14 +5,14 @@ center = N52.3495, E5.6328333333333
 magneticvar = 2
 floor = 1200
 descendaltitude = 7000
-ceiling = 24000
+ceiling = 26000
 above = 12000
-transitionaltitude = 6999
+transitionaltitude = 3000
 diversionaltitude = 13000
 usa = false
 metric = false
-localizerspeed = 15, 200, 5, 170
-speedrestriction = 19000, 300, 10000, 250
+localizerspeed = 15, 200, 10, 170
+speedrestriction = 19000, 300, 10000, 250, 7000, 220
 separation = 3
 name = amsterdam radar, amsterdam radar
 automatic = true
@@ -28,59 +28,29 @@ beacons =
 	RR, N52.00440, E4.76905, 0, Rotterdam Locator
 	RTM, N51.97370, E4.48097, 0, Rotterdam
 	ROT, N51.89760, E4.55435, 0, Rotterdam
-	STD, N51.74130, E4.24349, 0, Stad
 	HSD, N51.72270, E3.85818, 0, Haamstede
-	SUGOL, N52.52556, E3.96722, 0, SUGOL
-	RIVER, N51.91278, E4.13250, 0, RIVER
+	SUGOL, N52.52556, E3.96722, 290, SUGOL
+	RIVER, N51.91278, E4.13250, 221, RIVER
         ZL, N50.93400, E5.79261, 0, Maastricht Locator Zl
-	NW, N51.01940, E5.87834, 0, Maastricht
+	NW, N51.01940, E5.87834, 031, Maastricht
 	GUL, N50.80730, E5.89546, 0, Gull
-	MAS, N50.97190, E5.96043, 0, Maastricht
-	GIX, N50.96330, E6.04520, 0, Geilenkirchen
-	ONL, N50.70110, E5.54917, 0, Liege
+	MAS, N50.97190, E5.96043, 0, Maastricht	
 	THN, N51.18340, E5.83339, 0, Thorn
-	LGE, N50.65390, E5.47056, 0, Liege
 	BBL, N51.17030, E5.46639, 0, Kleine Brogel
-	LG, N50.65010, E5.46677, 0, Liege
 	LNO, N50.58580, E5.71028, 0, Olno
-	ONT, N51.21330, E5.55750, 0, Kleine Brogel
-	FLO, N50.87670, E5.13444, 0, Flora
-	SPI, N50.51470, E5.62333, 0, Sprimont
-	SLV, N50.47810, E5.91306, 0, Spa
-	MHD, N51.23490, E6.49197, 0, Monchengladbach
-	MHV, N51.23730, E6.49024, 0, Monchengladbach
-	MGB, N51.22730, E6.50541, 0, Monchengladbach
+	ONT, N51.21330, E5.55750, 0, Kleine Brogel	
 	EHV, N51.44810, E5.37500, 0, Eindhoven
 	EHN, N51.4679, E5.39486, 0, Eindhoven
-	LMA, N51.37080, E6.39500, 0, Lima
-	BUN, N51.11860, E4.84194, 0, Bruno
-	BBE, N50.75640, E4.76806, 0, Beauvechain
 	PH, N51.56280, E5.50556, 0, Eindhoven
-	DUS, N51.28320, E6.75373, 0, Dusseldorf
 	NID, N51.60000, E6.14148, 0, Niederrhein
-	OB, N50.92030, E4.61639, 0, Brussels
-	HUL, N50.74940, E4.64167, 0, Huldenberg
-	VKL, N51.65560, E5.70694, 0, Volkel
-	BUB, N50.90220, E4.53806, 0, Brussels
-	ONW, N51.16750, E4.56639, 0, Antwerpen
-	LJ, N50.92710, E7.06229, 0, Koln/Bonn
-	OZ, N50.82690, E4.46694, 0, Brussels
-	LI, N51.34700, E6.89128, 0, Dusseldorf
-	GZR, N51.56610, E4.93361, 0, Gilze Rijen
-	ANT, N51.19060, E4.47250, 0, Antwerpen
-	ONC, N50.48940, E4.55528, 0, Charleroi
-	CC, N50.46890, E4.48472, 0, Charleroi Lctr
-	BFS, N50.24140, E4.65306, 0, Florennes
-	BOT, N51.58580, E7.02301, 0, Bottrop
-	BUE, N50.17870, E7.06950, 0, Buchel
-        EEL, N53.16390, E6.66668, 037, Eelde
+	VKL, N51.65560, E5.70694, 0, Volkel	
+	GZR, N51.56610, E4.93361, 0, Gilze Rijen	
+        EEL, N53.16390, E6.66668, 0, Eelde
 	STK, N52.99670, E6.89567, 0, Stadskanaal
 	ENW, N53.38910, E7.22914, 0, Emden
 	EMD, N53.39390, E7.24169, 0, Emden
-	LWD, N53.22360, E5.75194, 0, Leeuwarden
-	WTM, N53.55430, E7.72517, 0, Wittmundhafen
-	FRT, N52.45000, E5.50772, 0, Lelystad
-	BET, N52.28780, E7.38567, 0, Rheine Bentlage
+	LWD, N53.22360, E5.75194, 0, Leeuwarden	
+	FRT, N52.45000, E5.50772, 0, Lelystad	
         TWN, N52.276333333333, E6.8898333333333, 0, twente	
 	WO, N53.451666666667, E5.6771666666667, 0, ameland	
 	TGE, N52.242666666667, E6.0503333333333, 0, teuge
@@ -91,7 +61,7 @@ beacons =
         denut, N51.2365, E3.654, 0, denut
         helen, N51.2355, E3.8685, 0, helen
         relbi, N52.118333333333, E6.8136111111111, 0, relbi 
-        artip, N52.511213888889, E5.5690805555556, 0, artip
+        artip, N52.511213888889, E5.5690805555556, 072, artip
         etpos, N52.585166666667, E3.4143333333333, 0, etpos
         sulut, N52.447833333333, E3.4211666666667, 0, sulut
         robvi, N52.5715, E3.7765, 0, robvi
@@ -101,70 +71,28 @@ beacons =
         norku, N52.215666666667, E6.9763333333333, 0, norku
         sonsa, N52.331, E6.7456666666667, 0, sonsa
         robis, N52.4685, E6.4671666666667, 0, robis
-        narso, N52.715333333333, E6.7095, 0, narso
-        eh600, N52.5956, E5.18028, 0, echo-hotel600
-        narix, N52.652666666667, E4.9761666666667, 0, narix
-        eh604, N52.589419444444, E4.8372583333333, 0, echo-hotel604
-        eh606, N52.422441666667, E4.3879138888889, 0, echo-hotel606
-        eh621, N52.462702777778, E4.7210972222222, 0, echo-hotel621
+        narso, N52.715333333333, E6.7095, 0, narso     
+        narix, N52.652666666667, E4.9761666666667, 0, narix      
         yenzo, N51.720666666667, E3.6426666666667, 0, yenzo
-        inbam, N52.353166666667, E5.2528333333333, 0, inbam
-        eh665, N52.2464, E5.04167, 0, echo-hotel665
-        eh667, N52.1106, E4.90944, 0, echo-hotel667
-        eh668, N52.1106, E4.80139, 0, echo-hotel668
-        eh669, N52.1553, E4.76472, 0, echo-hotel669
-        eh636, N52.1885, E4.7679, 0, echo-hotel636
-        eh629, N52.519166666667, E4.757, 0, echo-hotel629
-        sidni, N52.487, E4.7543333333333, 0, sidni
-        eh615, N52.3267, E5.04528, 0, echo-hotel615
-        tidvo, N52.326666666667, E5.051, 0,  tidvo
-        eh649, N52.4678, E5.02417, 0, echo-hotel649
-        eh650, N52.4303, E4.97028, 0, echo-hotel650
-        eh645, N52.5125, E4.72806, 0, echo-hotel645
-        eh804, N52.2508, E5.02028, 0, echo-hotel804
-        eh619, N52.1031, E4.76, 0,  echo-hotel619
-        eh618, N52.1536, E4.72389, 0,  echo-hotel618
-        eh657, N52.1331, E4.59222, 0, echo-hotel657
-        eh612, N52.3281, E4.37583, 0, echo-hotel612
-        soksi, N52.2374, E4.36443, 0, soksi
-        eh613, N52.2092, E4.4625, 0,  echo-hotel613
-        eh614, N52.2081, E4.52694, 0, echo-hotel614
-        eh609, N52.2346, E4.59575, 0, echo-hotel609
-        eh616, N52.2536, E4.64528, 0, echo-hotel616
-        eh605, N52.0664, E4.11611, 0, echo-hotel605
-        eh610, N52.2053, E4.22167, 0, echo-hotel610
-        eh611, N52.3314, E4.68278, 0, echo-hotel611
-        nirsi, N52.5839, E4.51337, 0, nirsi
-        eh607, N52.5839, E4.64694, 0, echo-hotel607
-        eh630, N52.4338, E4.74946, 0, echo-hotel630
-        eh608, N52.5394, E4.72806, 0, echo-hotel608
+        inbam, N52.353166666667, E5.2528333333333, 0, inbam      
+        sidni, N52.487, E4.7543333333333, 0, sidni       
+        tidvo, N52.326666666667, E5.051, 0,  tidvo      
+        soksi, N52.2374, E4.36443, 0, soksi     
+        nirsi, N52.5839, E4.51337, 0, nirsi      
         pevos, N52.4932, E4.72389, 0, pevos
         peser, N51.6147, E4.52694, 0, peser
         lutex, N52.681433333333, E3.4685472222222, 0, lutex
-        noven, N52.7102, E5.89845, 0, noven
-        eh625, N52.4861, E4.75417, 0, echo-hotel625
-        zwa05, N52.4145, E4.7471666666667, 0, zwa05
-        olgax, N52.1729, E4.72552, 0, olgax
-        eh672, N52.447166666667, E5.1078333333333, 0, echo-hotel672
-        eh648, N52.5311, E4.98917, 0, echo-hotel648
-        eh671, N52.460833333333, E4.9665, 0, echo-hotel671
-        eh621, N52.4627, E4.7211, 0, echo-hotel621
+        noven, N52.7102, E5.89845, 0, noven    
+        olgax, N52.1729, E4.72552, 0, olgax       
         rkn, N52.1332, E6.76388, 0, rekken
         wdt, N51.4475, E4.34389, 0, woensdrecht
-        masos, N51.7993, E3.59647, 0, masos
+        masos, N51.7993, E3.59647, 018, masos
         inket, N51.8146, E4.77196, 0, inket
         tenli, N52.2465, E6.25014, 0, tenli
-        flevo, N52.3853, E5.60217, 0, flevo
-        eh254, N51.8608, E3.90361, 0, echo-hotel254
-        eh251, N51.8464, E4.16528, 0, echo-hotel251
-        eh250, N51.8972, E4.29139, 0, echo-hotel250
-        rimbu, N51.416833333333, E3.8658333333333, 0, rimbu
-        eh258, N51.9836, E4.72694, 0, echo-hotel258
-        eh253, N52.0444, E4.66056, 0, echo-hotel253
-        eh252, N52.0175, E4.5925, 0, echo-hotel252
-        rovox, N51.9594, E4.67843, 0, rovox
-        eh241, N52.0233, E4.60667, 0, echo-hotel241
-        hdr, N52.9069, E4.76583, 0, den helder
+        flevo, N52.3853, E5.60217, 0, flevo    
+        rimbu, N51.416833333333, E3.8658333333333, 0, rimbu      
+        rovox, N51.9594, E4.67843, 0, rovox      
+        hdr, N52.9069, E4.76583, 189, den helder
         BADEX, N52.442361111111, E6.3468611111111, 0, bad-ex
 	EKNON, N52.771722222222, E6.03025, 0, eck-non
 	NILMI, N52.566027777778, E6.0880277777778, 0, nil-me
@@ -175,10 +103,7 @@ beacons =
         sopvi, N51.249722222222, E5.9016666666667, 0, sopvi
         rumer, N51.620555555556, E5.8844444444444, 0, rumer
         ronsa, N51.504166666667, E4.4416666666667, 0, ronsa
-        woody, N51.405555555556, E4.3663888888889, 0, woody
-        eh556, N51.502833333333, E5.193, 0, echo-hotel556
-        eh570, N51.368055555556, E5.6277777777778, 0, echo-hotel570
-        eh575, N51.483888888889, E5.6552777777778, 0, echo-hotel575
+        woody, N51.405555555556, E4.3663888888889, 0, woody  
         rusal, N51.380833333333, E5.1347222222222, 0, rusal
         mitsa, N51.285555555556, E5.3525, 0, mitsa
         somem, N51.340277777778, E5.6319444444444, 0, somem
@@ -205,10 +130,49 @@ beacons =
         temlu, N53.4744, E6.86361, 0, temlu
         kubat, N53.3364, E6.99361, 0, kubat
         dobak, N53.2133, E7.21694, 0, dobak
-        sompo, N53.3989, E6.94944, 0, sompo
+        olwof, N53.398833333333, E6.96, 0, olwof
         tenli, N52.2465, E6.25014, 0, tenli
         dln, N52.0572, E5.87278, 0, deelen
-        
+        basgu, N51.912333333333, E5.8498333333333, 0, basgu
+        oklov, N51.615833333333, E6.0365, 0, oklov
+        dofmu, N51.741333333333, E4.2435, 154, dofmu
+        kakko, N51.8975, E4.5543333333333, 206, kakko
+        rd254, N51.860833333333, E3.9058333333333, 0, romeo-echo254
+        netex, N51.328, E6.2744444444444, 0, netex
+        eh307, N51.077333333333, E5.9416666666667, 0, echo-hotel307
+        bobmo, N51.112666666667, E6.0055555555556, 0, bobmo
+        modru, N51.0175, E6.0944444444444, 0, modru
+        nvo, N50.822666666667, E6.6388888888889, 0, noervenich
+        baxim, N50.956666666667, E6.0566666666667, 0, baxim
+        bemti, N50.772166666667, E5.7933333333333, 0, bemti
+        dinak, N51.016333333333, E6.0005555555556, 0, dinak
+        bogru, N51.051833333333, E5.9211111111111, 0, bogru
+        tolko, N53.119, E6.3711111111111, 0, tolko
+        berir, N50.7715, E5.785, 0, berir
+        omfar, N52.655166666667, E6.4605555555556, -229, omfar
+        hecti, N53.215333333333, E6.7851666666667, 052, hecti
+        ehoji, N51.467666666667, E5.4027777777778, 213, ehoji
+        edupo, N51.9755, E5.8375, 0, edupo
+        andik, N52.739166666667, E5.2733333333333, 0, andik
+        bergi, N52.748833333333, E4.3647222222222, 0, bergi
+        arnem, N52.096333333333, E6.0836111111111, 0, arnem
+        idrid, N51.996333333333, E3.4963333333333, 0, idrid
+        lunix, N52.109833333333, E5.5653333333333, 0, lunix
+        neptu, N51.904833333333, E5.3875, 0, neptu
+        somel, N51.940833333333, E4.0927777777778, 0, somel
+        tulip, N52.367666666667, E3.8625, 0, tulip
+        amgod, N52.975166666667, E3.6863888888889, 0, amgod
+        napro, N51.855666666667, E6.059, 0, napro
+        abned, N51.849333333333, E3.175, 0, abned
+        velni, N51.526666666667, E6.2019444444444, 0, velni
+        roldu, N52.8895, E6.2094444444444, 0, roldu
+        sompo, N53.3989, E6.94944, 0, sompo
+        tebro, N51.894166666667, E6.5908333333333, 0, tebro
+      
+
+
+
+
 handoff =
 	007, copenhagen area control, copenhagen area control, 134.680
 	249, london center, londen center, 135.425
@@ -327,20 +291,6 @@ boundary =
          N51.120269, E6.081947
          N51.10835, E6.052211
          N51.063603, E5.975261
-         N51.0353, E5.943636
-         N51.041086, E5.925014
-         N51.059422, E5.897511
-         N51.053061, E5.886111
-         N51.043608, E5.864167
-         N51.034725, E5.871958
-         N51.027794, E5.871958
-         N51.018914, E5.869436
-         N51.012208, E5.875567
-         N50.999147, E5.898028
-         N50.993875, E5.900836
-         N50.975825, E5.891094
-         N50.972789, E5.891667
-         N50.977775, E5.984717
          N50.973592, E6.028892
          N50.9611, E6.010558
          N50.956403, E6.013881
@@ -600,7 +550,7 @@ boundary =
          N52.235817, E7.052481
          N52.215306, E6.980289
          N52.183908, E6.958342
-         N52.167236, E6.896408
+         N52.117789, E6.836933 
 
 line1 =
       N53.24624, E4.90791
@@ -1026,9 +976,9 @@ name = Amsterdam Airport Schiphol
 code = EHAM
 climbaltitude = 6000
 runways =
-	rwy1, 04, N52.3004, E4.78348, 41.0, 6608, 0, 0, -13, 3, 41.0, 3, 221.0, 0, 0, 0, 0, 119.225, Schiphol Tower
+	rwy1, 04, N52.3004, E4.78348, 41.0, 6608, 0, 0, -13, 3, 41.0, 3, 221.0, 0, 0, 0, 0, 119.225, 
 	rwy2, 06, N52.2879, E4.73402, 58.0, 11483, 820, 0, -11
-	rwy3, 09, N52.3166, E4.74635, 87.0, 11329, 294, 0, -12
+	rwy3, 09, N52.3166, E4.74635, 87.0, 11329, 294, 0, -12, 3, 87.0, 0, 0, 0, 0, 0, 0, 118.100
 	rwy4, 18C, N52.3314, E4.74003, 183.0, 10826, 0, 1476, -13, 3, 183.0, 0, 0, 0, 0, 0, 0, 118.105
 	rwy5, 18L, N52.3213, E4.77996, 183.0, 11155, 1887, 0, -12
 	rwy6, 18R, N52.3627, E4.71193, 183.0, 12467, 886, 0, -13
@@ -1078,6 +1028,7 @@ airlines =
          csn, 3, a388, china southern, e
          sia, 4, a359, singapore, e
          aal, 3, b788, american, w
+         aal, 2, b789, american, w
          uae, 5, a388, emirates, e
          uae, 3, b77W, emirates, e
          uae, 4, b77l, emirates, swe
@@ -1111,8 +1062,8 @@ airlines =
          tsc, 2, a333, air transat, w
          tsc, 1, a21n, air transat, w
          bti, 2, bcs3, air baltic, e
-         ita, 3, a320, it-arrow, se
-         ita, 2, a321, it-arrow, se
+         ity, 3, a320, it-arrow, se
+         ity, 2, a321, it-arrow, se
          aiz, 3, a21n, arkia, se
          gti, 2, b747, giant, nswe
          aua, 3, e195, austrian, se
@@ -1132,8 +1083,8 @@ airlines =
          ctn, 4, a319, croatia, se
          csa, 3, a319, csa, e
          bcs, 2, b752, eurotrans, sw
-         eju, 3, a320, alpine, nswe
-         eju, 4, a20n, alpine, nswe
+         eju, 2, a320, alpine, nswe
+         eju, 3, a20n, alpine, nswe
          msr, 3, b738, egyptair, se
          msr, 3, a20n, egyptair, se
          ely, 2, b738, el al, se
@@ -1167,7 +1118,7 @@ airlines =
          mnb, 1, a30b, black sea, e
          nca, 2, b748, nipppon cargo, e
          nax, 3, b738, nor shutlle, e
-         pgt, 2, a20n, sun turk, e
+         pgt, 2, a20n/b738, sun turk, e
          qtr, 3, b77w, qatari, e
          qtr, 4, b77l, qatari, e
          qtr, 1, b748, qatari, e
@@ -1243,33 +1194,34 @@ airlines =
          bla, 2, b38m, blue air, e
          bcs, 2, a306, eurotrans, nswe
          aea, 1, b789, europa, s
-         ual, 2, b763, united, w
-         dal, 2, b763, delta, w
+         ual, 2, b763/b764, united, w
+         dal, 2, b763/b764, delta, w
          cao, 2, b744, air china freight, e
          rot, 2, b738, tarom, e
          swr, 2, e290, swiss, e
          cpa, 3, a359, cathay, e
          PNX, 6, JS32, Spinner, e
 	 PNX, 4, JS32, Spinner, nsw
-	 PH-AAA, 1, C152/P28A/C172, 0, nswe
-	 PH-AAA, 1, C152/P28A/C172, 0, nswe
-	 PH-AAA, 1, C152/P28A/C172, 0, nswe
-	 PH-AAA, 1, C152/P28A/C172, 0, nswe
-	 G-AAAA, 1, C152/P28A/C172, 0, nswe
-	 OO-AAA, 1, C152/P28A/C172/C182/SR22, 0, nswe
-	 D-AAAA, 1, C152/P28A/C172/C182/SR22, 0, nswe
-	 N-0000A, 1, C172/SR22, 0, nswe
-	 PH-AAA, 3, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
-	 PH-AAA, 2, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
-	 PH-AAA, 4, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
-	 PH-AAA, 2, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
-	 G-AAAA, 3, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
-	 OO-AAA, 2, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
-	 D-AAAA, 4, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
-	 N-0000A, 2, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
+	 PH-AAA, 0.2, C152/P28A/C172, 0, nswe
+	 PH-AAA, 0.2, C152/P28A/C172, 0, nswe
+	 PH-AAA, 0.2, C152/P28A/C172, 0, nswe
+	 PH-AAA, 0.2, C152/P28A/C172, 0, nswe
+	 G-AAAA, 0.2, C152/P28A/C172, 0, nswe
+	 OO-AAA, 0.4, C152/P28A/C172/C182/SR22, 0, nswe
+	 D-AAAA, 0.4, C152/P28A/C172/C182/SR22, 0, nswe
+	 N-0000A, 0.2, C172/SR22, 0, nswe
+	 PH-AAA, 0.7, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
+	 PH-AAA, 0.7, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
+	 PH-AAA, 0.7, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
+	 PH-AAA, 0.7, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
+	 G-AAAA, 0.7, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
+	 OO-AAA, 0.7, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
+	 D-AAAA, 0.7, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
+	 N-0000A, 0.7, C182/EC20/SR22/E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525, 0, nswe
          fpy, 2, a21n, player, w
          sxs, 2, b738/b38m, sunexpress, e
          gjt, 2, a320, getjet, se
+         
 
 [departure1]
 runway = rwy5
@@ -2168,13 +2120,13 @@ route1 =
 [departure45]
 runway = rwy8, rev
 route1 =
-        lopik3s
-        N52.273833333333, E4.6975
-        N52.1735, E4.7461666666667
-        N52.155333333333, E4.918
-        N51.930833333333, E5.1291666666667
-        N51.39, E5.367
-        N51.2655, E5.421
+       lopik3s
+       N52.273833333333, E4.6975
+       N52.1735, E4.7461666666667
+       N52.155333333333, E4.918
+       N51.930833333333, E5.1291666666667
+       N51.39, E5.367
+       N51.2655, E5.421
 
 [departure46]
 runway = rwy8, rev
@@ -2249,12 +2201,12 @@ route4 =
 [departure49]
 runway = rwy1
 route1 =
-        arnem3f
-        N52.305333333333, E4.907
-        N52.244, E5.257
-        N52.230333333333, E5.5288333333333
-        N52.096333333333, E6.0766666666667
-        N51.981, E7.0335
+       arnem3f
+       N52.305333333333, E4.907
+       N52.244, E5.257
+       N52.230333333333, E5.5288333333333
+       N52.096333333333, E6.0766666666667
+       N51.981, E7.0335
 
 route2 =
        arnem3f
@@ -2443,7 +2395,7 @@ route1 =
 runway = rwy9
 beacon = toppa, N53.4025, E3.5616666666667, 169, toppa 
 route1 = 
-       169
+       169, toppa two alfa
        N53.4025, E3.5616666666667, 25000
        N52.760833333333, E3.7466666666667
        N52.5715, E3.7765
@@ -2482,8 +2434,8 @@ route4 =
 runway = rwy9
 beacon = molix, N52.822, E3.06867, 119, molix
 route5 = 
-       119
-       N52.822, E3.06867, 20000, 250
+       119, molix two alfa
+       N52.822, E3.06867, 23000, 250
        N52.681433333333, E3.4685472222222
        N52.5715, E3.7765
        N52.52556, E3.96722 , 7000, 250
@@ -2504,8 +2456,8 @@ route6 =
 runway = rwy9
 beacon = lamso, N52.7329, E2.99436, 119, lamso
 route7 =
-       119
-       N52.7329, E2.99436, 20000, 280
+       119, lamso two alfa
+       N52.7329, E2.99436, 23000, 280
        N52.585166666667, E3.4143333333333
        N52.52556, E3.96722, 7000, 250
        end, 090
@@ -2525,7 +2477,7 @@ route8 =
 runway = rwy9
 beacon = redfa, N52.114586111111, E2.4879472222222, 058, redfa
 route9 = 
-       058
+       058, redfa one alfa
        N52.114586111111, E2.4879472222222, 23000, 250
        N52.447833333333, E3.4211666666667
        N52.52556, E3.96722 , 7000, 250
@@ -2546,7 +2498,7 @@ route10 =
 runway = rwy9
 beacon = denut, N51.2365, E3.654, 358, denut
 route11 = 
-        358
+        358, denut three alfa
         N51.2365, E3.654, 24000, 250
         N51.720666666667, E3.6426666666667
         N51.91278, E4.13250 , 7000, 250
@@ -2574,7 +2526,7 @@ route13 =
 runway = rwy9
 beacon = helen, N51.2355, E3.8685, 358, helen
 route14 =
-        358
+        358, helen two alfa
         N51.2355, E3.8685, 24000, 250
         N51.72270, E3.85818
         N51.91278, E4.13250 , 7000, 250
@@ -2594,7 +2546,7 @@ route15 =
 runway = rwy9
 beacon = peser, N51.6147, E4.52694, 305, peser
 route16 = 
-        305
+        305, peser three alfa
         N51.6147, E4.52694, 7000, 250
         N51.74130, E4.24349
         N51.91278, E4.13250, 7000, 250
@@ -2605,7 +2557,7 @@ route16 =
 runway = rwy9
 beacon = rkn, N52.1332, E6.76388, 307, rekken
 route17 = 
-        307
+        307, rekken two alfa
         N52.1332, E6.76388, 18000, 250
         N52.4905, E6.024
         N52.511213888889, E5.5690805555556 , 7000, 250
@@ -2634,7 +2586,7 @@ route19 =
 runway = rwy9
 beacon = norku, N52.215666666667, E6.9763333333333, 308, norku
 route20 = 
-        308
+        308, norku two alfa
         N52.215666666667, E6.9763333333333, 20000, 250
         N52.331, E6.7456666666667
         N52.4685, E6.4671666666667
@@ -2666,7 +2618,7 @@ route22 =
 runway = rwy9
 beacon = eel, N53.16390, E6.66668, 225, eelde
 route23 = 
-        225
+        225, eelde one alfa
         N53.16390, E6.66668, 26000, 250
         N52.7102, E5.89845
         N52.511213888889, E5.5690805555556, 7000, 250
@@ -2689,7 +2641,7 @@ route24 =
 runway = rwy4
 beacon = toppa, N53.4025, E3.5616666666667, 169 , toppa
 route25 = 
-        169
+        169, toppa two alfa
         N53.4025, E3.5616666666667, 25000, 250
         N52.760833333333, E3.7466666666667
         N52.5715, E3.7765
@@ -2701,8 +2653,8 @@ route25 =
 runway = rwy4
 beacon = molix, N52.822, E3.06867, 119, molix
 route26 = 
-        119
-        N52.822, E3.06867, 20000, 280
+        119, molix two alfa
+        N52.822, E3.06867, 23000, 280
         N52.681433333333, E3.4685472222222
         N52.5715, E3.7765
         N52.52556, E3.96722, 7000, 250
@@ -2713,8 +2665,8 @@ route26 =
 runway = rwy4
 beacon = lamso, N52.7329, E2.99436, 119, lamso
 route27 =
-        119
-        N52.7329, E2.99436, 20000, 280
+        119, lamso two alfa
+        N52.7329, E2.99436, 23000, 280
         N52.585166666667, E3.4143333333333
         N52.52556, E3.96722, 7000, 250
         end, 090
@@ -2725,7 +2677,7 @@ route27 =
 runway = rwy4
 beacon = redfa, N52.114586111111, E2.4879472222222, 059, redfa
 route28 = 
-        059
+        059, redfa 1 alfa
         N52.114586111111, E2.4879472222222, 23000, 250
         N52.447833333333, E3.4211666666667
         N52.52556, E3.96722, 7000, 250
@@ -2739,7 +2691,7 @@ route28 =
 runway = rwy4
 beacon = denut, N51.2365, E3.654, 358, denut
 route29 = 
-        358
+        358, denut three alfa
         N51.2365, E3.654, 24000, 250
         N51.720666666667, E3.6426666666667
         N51.91278, E4.13250, 7000, 250
@@ -2750,7 +2702,7 @@ route29 =
 runway = rwy4
 beacon = helen, N51.2355, E3.8685, 358, helen
 route30 = 
-        358
+        358, helen two alfa
         N51.2355, E3.8685, 24000, 250
         N51.72270, E3.85818
         N51.91278, E4.13250, 7000, 250
@@ -2771,7 +2723,7 @@ route31 =
 runway = rwy4
 beacon = peser, N51.6147, E4.52694, 305, peser
 route32 = 
-        305
+        305, peser three alfa
         N51.6147, E4.52694, 7000, 250
         N51.74130, E4.24349
         N51.91278, E4.13250, 7000, 250
@@ -2783,7 +2735,7 @@ route32 =
 runway = rwy4
 beacon = rkn, N52.1332, E6.76388, 307, rekken
 route33 = 
-        307
+        307, rekken two alfa
         N52.1332, E6.76388, 18000, 250
         N52.4905, E6.024
         N52.511213888889, E5.5690805555556, 7000, 250
@@ -2795,7 +2747,7 @@ route33 =
 runway = rwy4
 beacon = norku, N52.215666666667, E6.9763333333333, 307, norku
 route34 = 
-        307
+        307, norku two alfa
         N52.215666666667, E6.9763333333333, 20000, 250
         N52.331, E6.7456666666667
         N52.4685, E6.4671666666667
@@ -2808,7 +2760,7 @@ route34 =
 runway = rwy4
 beacon = eel, N53.16390, E6.66668, 224, eelde
 route35 = 
-        224
+        224, eelde one alfa
         N53.16390, E6.66668, 26000, 250
         N52.7102, E5.89845
         N52.511213888889, E5.5690805555556, 7000, 250
@@ -2819,7 +2771,7 @@ route35 =
 runway = rwy4, rev
 beacon = toppa, N53.4025, E3.5616666666667, 169, toppa
 route36 = 
-        169
+        169, toppa two alfa
         N53.4025, E3.5616666666667, 25000, 250
         N52.760833333333, E3.7466666666667
         N52.5715, E3.7765
@@ -2866,8 +2818,8 @@ route39 =
 runway = rwy4, rev
 beacon = molix, N52.822, E3.06867, 119, molix
 route40 = 
-        119
-        N52.822, E3.06867, 20000, 250
+        119, molix two alfa
+        N52.822, E3.06867, 23000, 250
         N52.681433333333, E3.4685472222222
         N52.5715, E3.7765
         N52.52556, E3.96722, 7000, 250
@@ -2892,8 +2844,8 @@ route41 =
 runway = rwy4, rev
 beacon = lamso, N52.7329, E2.99436, 119, lamso
 route42 =
-        119
-        N52.7329, E2.99436, 20000, 280
+        119, lamso two alfa
+        N52.7329, E2.99436, 23000, 280
         N52.585166666667, E3.4143333333333
         N52.52556, E3.96722, 7000, 250
         end, 135
@@ -2915,7 +2867,7 @@ route43 =
 runway = rwy4, rev
 beacon = redfa, N52.114586111111, E2.4879472222222, 058, redfa
 route44 =  
-        058
+        058, redfa one alfa
         N52.114586111111, E2.4879472222222, 23000, 250
         N52.447833333333, E3.4211666666667
         N52.52556, E3.96722, 7000, 250
@@ -2936,7 +2888,7 @@ route45 =
 runway = rwy4, rev
 beacon = denut, N51.2365, E3.654, 358, denut
 route46 = 
-        358
+        358, denut three alfa
         N51.2365, E3.654, 24000, 250
         N51.720666666667, E3.6426666666667
         N51.91278, E4.13250, 7000, 250
@@ -2964,7 +2916,7 @@ route48 =
 runway = rwy4, rev
 beacon = helen, N51.2355, E3.8685, 358, helen
 route49 = 
-        358
+        358, helen two alfa
         N51.2355, E3.8685, 24000, 250
         N51.72270, E3.85818
         N51.91278, E4.13250, 7000, 250
@@ -2984,7 +2936,7 @@ route50 =
 runway = rwy4, rev
 beacon = peser, N51.6147, E4.52694, 305, peser
 route51 = 
-        305
+        305, peser three alfa
         N51.6147, E4.52694, 7000, 250
         N51.74130, E4.24349
         N51.91278, E4.13250, 7000, 250
@@ -2996,7 +2948,7 @@ route51 =
 runway = rwy8
 beacon = toppa, N53.4025, E3.5616666666667, 169, toppa
 route52 = 
-        169
+        169, toppa two alfa
         N53.4025, E3.5616666666667, 25000, 250
         N52.760833333333, E3.7466666666667
         N52.5715, E3.7765
@@ -3038,8 +2990,8 @@ route55 =
 runway = rwy8
 beacon = molix, N52.822, E3.06867, 119, molix
 route56 =  
-        119
-        N52.822, E3.06867, 20000, 250
+        119, molix two alfa
+        N52.822, E3.06867, 23000, 250
         N52.681433333333, E3.4685472222222
         N52.5715, E3.7765
         N52.52556, E3.96722, 7000, 250
@@ -3062,8 +3014,8 @@ route57 =
 runway = rwy8
 beacon = lamso, N52.7329, E2.99436, 119, lamso
 route58 =
-        119
-        N52.7329, E2.99436, 20000, 280
+        119, lamso two alfa
+        N52.7329, E2.99436, 23000, 280
         N52.585166666667, E3.4143333333333
         N52.52556, E3.96722, 7000, 250
         end, 135
@@ -3086,7 +3038,7 @@ route59 =
 runway = rwy8
 beacon = redfa, N52.114586111111, E2.4879472222222, 073,
 route60 = 
-        073
+        073, redfa one alfa
         N52.114586111111, E2.4879472222222, 23000, 250
         N52.447833333333, E3.4211666666667
         N52.52556, E3.96722, 7000, 250
@@ -3109,7 +3061,7 @@ route61 =
 runway = rwy8
 beacon = denut, N51.2365, E3.654, 358, denut
 route62 = 
-        358
+        358, denut three alfa
         N51.2365, E3.654, 24000, 250
         N51.720666666667, E3.6426666666667
         N51.91278, E4.13250, 7000, 250
@@ -3141,7 +3093,7 @@ route64 =
 runway = rwy8
 beacon = helen, N51.2355, E3.8685, 358, helen
 route65 = 
-        358
+        358, helen two alfa
         N51.2355, E3.8685, 23000, 250
         N51.72270, E3.85818
         N51.91278, E4.13250, 7000, 250
@@ -3161,7 +3113,7 @@ route66 =
 runway = rwy8
 beacon = peser, N51.6147, E4.52694, 305, peser
 route67 = 
-        305
+        305, peser three alfa
         N51.6147, E4.52694, 7000, 250 
         N51.74130, E4.24349
         N51.91278, E4.13250, 7000, 250
@@ -3174,7 +3126,7 @@ route67 =
 runway = rwy8
 beacon = rkn, N52.1332, E6.76388, 307, rekken
 route68 = 
-        307
+        307, rekken two alfa
         N52.1332, E6.76388, 18000, 250
         N52.4905, E6.024
         N52.511213888889, E5.5690805555556, 7000, 250
@@ -3207,7 +3159,7 @@ route70 =
 runway = rwy8
 beacon = norku, N52.215666666667, E6.9763333333333, 308, norku
 route71 = 
-        308
+        308, norku two alfa
         N52.215666666667, E6.9763333333333, 20000, 250
         N52.331, E6.7456666666667
         N52.4685, E6.4671666666667
@@ -3248,7 +3200,7 @@ route73 =
 runway = rwy8
 beacon = eel, N53.16390, E6.66668, 225, eelde
 route74 = 
-        225
+        225, eelde one alfa
         N53.16390, E6.66668, 26000, 250
         N52.7102, E5.89845 
         N52.511213888889, E5.5690805555556, 7000, 250
@@ -3272,7 +3224,7 @@ route75 =
 runway = rwy1, rev
 beacon = toppa, N53.4025, E3.5616666666667, 169, toppa
 route76 = 
-        169
+        169, toppa two alfa
         N53.4025, E3.5616666666667, 25000, 250
         N52.760833333333, E3.7466666666667
         N52.5715, E3.7765
@@ -3319,8 +3271,8 @@ route79 =
 runway = rwy1, rev
 beacon = molix, N52.822, E3.06867, 119, molix
 route80 = 
-        119
-        N52.822, E3.06867, 20000, 250
+        119, molix two alfa
+        N52.822, E3.06867, 23000, 250
         N52.681433333333, E3.4685472222222
         N52.52556, E3.96722, 7000, 250
         end, 090
@@ -3344,8 +3296,8 @@ route81 =
 runway = rwy1, rev
 beacon = lamso, N52.7329, E2.99436, 119, lamso
 route82 =
-        119
-        N52.7329, E2.99436, 20000, 280
+        119, lamso two alfa
+        N52.7329, E2.99436, 23000, 280
         N52.585166666667, E3.4143333333333
         N52.52556, E3.96722, 7000, 250
         end, 090
@@ -3369,7 +3321,7 @@ route83 =
 runway = rwy1, rev
 beacon = redfa, N52.114586111111, E2.4879472222222, 058, redfa
 route84 =  
-        058
+        058, redfa one alfa
         N52.114586111111, E2.4879472222222, 23000, 250
         N52.447833333333, E3.4211666666667
         N52.52556, E3.96722, 7000, 250
@@ -3391,7 +3343,7 @@ route85 =
 runway = rwy1, rev
 beacon = denut, N51.2365, E3.654, 358, denut
 route86 = 
-        358
+        358, denut three alfa
         N51.2365, E3.654, 23000, 250
         N51.720666666667, E3.6426666666667
         N51.91278, E4.13250, 7000, 250
@@ -3423,7 +3375,7 @@ route88 =
 runway = rwy1, rev
 beacon = helen, N51.2355, E3.8685, 358, helen
 route89 = 
-        358
+        358, helen two alfa
         N51.2355, E3.8685, 23000, 250
         N51.72270, E3.85818
         N51.91278, E4.13250, 7000, 250
@@ -3443,7 +3395,7 @@ route90 =
 runway = rwy1, rev
 beacon = peser, N51.6147, E4.52694, 305, peser
 route91 = 
-        305
+        305, peser three alfa
         N51.6147, E4.52694, 7000, 250
         N51.74130, E4.24349
         N51.91278, E4.13250, 7000, 250
@@ -3456,7 +3408,7 @@ route91 =
 runway = rwy1, rev
 beacon = rkn, N52.1332, E6.76388, 307, rekken
 route92 = 
-        307
+        307, rekken two alfa
         N52.1332, E6.76388, 18000, 250
         N52.4905, E6.024
         N52.511213888889, E5.5690805555556, 7000, 250
@@ -3484,7 +3436,7 @@ route94 =
 runway = rwy1, rev
 beacon = norku, N52.215666666667, E6.9763333333333, 308, norku
 route95 = 
-        308
+        308, norku two alfa
         N52.215666666667, E6.9763333333333, 20000, 250
         N52.331, E6.7456666666667
         N52.4685, E6.4671666666667
@@ -3519,7 +3471,7 @@ route97 =
 runway = rwy1, rev
 beacon = eel, N53.16390, E6.66668, 225, eelde
 route98 = 
-        225
+        225, eelde one alfa
         N53.16390, E6.66668, 26000, 250
         N52.7102, E5.89845
         N52.511213888889, E5.5690805555556, 7000, 250
@@ -3541,7 +3493,7 @@ route99 =
 runway = rwy3, rev
 beacon = toppa, N53.4025, E3.5616666666667, 169, toppa
 route100 = 
-         169
+         169, toppa two alfa
          N53.4025, E3.5616666666667, 25000, 250
          N52.760833333333, E3.7466666666667
          N52.5715, E3.7765
@@ -3585,8 +3537,8 @@ route103 =
 runway = rwy3, rev
 beacon = molix, N52.822, E3.06867, 119, molix
 route104 = 
-         119
-         N52.822, E3.06867, 20000, 250
+         119, molix two alfa
+         N52.822, E3.06867, 23000, 250
          N52.681433333333, E3.4685472222222
          N52.5715, E3.7765
          N52.52556, E3.96722, 7000, 250
@@ -3612,8 +3564,8 @@ route105 =
 runway = rwy3, rev
 beacon = lamso, N52.7329, E2.99436, 119, lamso
 route106 =
-         119
-         N52.7329, E2.99436, 20000, 280
+         119, lamso two alfa
+         N52.7329, E2.99436, 23000, 280
          N52.585166666667, E3.4143333333333
          N52.52556, E3.96722, 7000, 250
          end, 090
@@ -3637,7 +3589,7 @@ route107 =
 runway = rwy3, rev
 beacon = redfa, N52.114586111111, E2.4879472222222, 058, redfa
 route108 = 
-         058
+         058, redfa one alfa
          N52.114586111111, E2.4879472222222, 23000, 250
          N52.447833333333, E3.4211666666667
          N52.52556, E3.96722, 7000, 250
@@ -3659,7 +3611,7 @@ route109 =
 runway = rwy3, rev
 beacon = denut, N51.2365, E3.654, 358, denut
 route110 = 
-         358
+         358, denut three alfa
          N51.2365, E3.654, 24000, 250
          N51.720666666667, E3.6426666666667 
          N51.91278, E4.13250, 7000, 250
@@ -3691,7 +3643,7 @@ route112 =
 runway = rwy3, rev
 beacon = helen, N51.2355, E3.8685, 358, helen
 route113 = 
-         358
+         358, helen two alfa
          N51.2355, E3.8685, 24000, 250
          N51.72270, E3.85818
          N51.91278, E4.13250, 7000, 250
@@ -3712,7 +3664,7 @@ route114 =
 runway = rwy3, rev
 beacon = peser, N51.6147, E4.52694, 305, peser
 route115 = 
-         305
+         305, peser three alfa
          N51.6147, E4.52694, 7000, 250
          N51.74130, E4.24349
          N51.91278, E4.13250, 7000, 250
@@ -3724,7 +3676,7 @@ route115 =
 runway = rwy3, rev
 beacon = rkn, N52.1332, E6.76388, 307, rekken
 route116 =
-         307
+         307, rekken two alfa
          N52.1332, E6.76388, 18000, 250
          N52.4905, E6.024
          N52.511213888889, E5.5690805555556, 7000, 250
@@ -3756,7 +3708,7 @@ route118 =
 runway = rwy3, rev
 beacon = norku, N52.215666666667, E6.9763333333333, 310, norku
 route119 =
-         310
+         310, norku two alfa
          N52.215666666667, E6.9763333333333, 20000, 250
          N52.331, E6.7456666666667
          N52.4685, E6.4671666666667
@@ -3792,7 +3744,7 @@ route121 =
 runway = rwy3, rev
 beacon = eel, N53.16390, E6.66668, 225, eelde
 route122 = 
-         225
+         225, eelde one alfa
          N53.16390, E6.66668, 26000, 250
          N52.7102, E5.89845
          N52.511213888889, E5.5690805555556, 7000, 250
@@ -3816,7 +3768,7 @@ route123 =
 runway = rwy5, rev
 beacon = rkn, N52.1332, E6.76388, 307, rekken
 route124 = 
-         307
+         307, rekken two alfa
          N52.1332, E6.76388, 18000, 250
          N52.4905, E6.024
          N52.511213888889, E5.5690805555556  
@@ -3864,7 +3816,7 @@ route126 =
 runway = rwy5, rev
 beacon = norku, N52.215666666667, E6.9763333333333, 307, norku
 route127 = 
-         307
+         307, norku one alfa
          N52.215666666667, E6.9763333333333, 20000, 250
          N52.331, E6.7456666666667
          N52.4685, E6.4671666666667
@@ -3913,7 +3865,7 @@ route129 =
 runway = rwy5, rev
 beacon = eel, N53.16390, E6.66668, 225, eelde
 route130 = 
-         225
+         225, eelde one alfa
          N53.16390, E6.66668, 26000, 250
          N52.7102, E5.89845
          N52.511213888889, E5.5690805555556
@@ -3952,7 +3904,7 @@ route131 =
 name = Rotterdam
 code = RD
 climbaltitude = 3000
-traffic = 25
+traffic = 15
 runways =
 	rwy10, 06, N51.9521, E4.42824, 57.0, 7218, 656, 656, -15
 
@@ -4011,10 +3963,9 @@ entrypoints =
             233, costa
             226, denut
             223, helen
-            224, inket
             115, soneb
             037, eel 
-            247, masos
+            006, masos
 
 [departure62]
 runway = rwy10
@@ -4216,347 +4167,379 @@ route1 =
        N51.405666666667, E4.3665
 
 
-[approach132]
-runway = rwy10
-beacon = toppa, N53.4025, E3.5616666666667, 178, toppa
-route132 = 
-         178
-         N53.4025, E3.5616666666667
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
-[approach133]
-runway = rwy10
-beacon = masos, N51.7993, E3.59647, 178, masos
-route133 =
-         178
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
-[approach134]
-runway = rwy10 
-beacon = molix, N52.822, E3.06867, 161, molix
-route134 =
-         161
-         N52.822, E3.06867
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
-
-[approach135]
-runway = rwy10
-beacon = lamso, N52.7329, E2.99436, 157, lamso
-route135 =
-         157
-         N52.7329, E2.99436
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
- 
-
-
-[approach136]
-runway = rwy10
-beacon = redfa, N52.114586111111, E2.4879472222222, 114, redfa
-route136 =
-         114
-         N52.114586111111, E2.4879472222222
-         N51.7993, E3.59647, 5000, 250
-         end, hold 
-
-
-
-
-[approach137]
-runway = rwy10
-beacon = coa, N51.347333333333, E3.3536666666667, 053, costa
-route137 =
-         053 
-         N51.347333333333, E3.3536666666667
-         N51.74130, E4.24349
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-
-
-[approach138]
-runway = rwy10
-beacon = denut, N51.2365, E3.654, 035, denut
-route138 =
-         035
-         N51.2365, E3.654
-         N51.416833333333, E3.8658333333333
-         N51.74130, E4.24349
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-
-[approach139]
-runway = rwy10
-beacon = helen, N51.2355, E3.8685, 358, helen
-route139 =
-         358
-         N51.2355, E3.8685 
-         N51.416833333333, E3.8658333333333
-         N51.74130, E4.24349
-         N51.89760, E4.55435, 2000, 250
-         end, hold 
-
-[approach140]
-runway = rwy10
-beacon = rkn, N52.1332, E6.76388, 288, rekken
-route140 =
-         288
-         N52.1332, E6.76388
-         N52.2465, E6.25014
-         N52.3853, E5.60217, 7000
-         N52.33480, E5.09216
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-
-[approach141]
-runway = rwy10
-beacon = tenli, N52.2465, E6.25014, 288, tenli
-route141 =
-         288
-         N52.2465, E6.25014
-         N52.3853, E5.60217, 7000
-         N52.33480, E5.09216
-         N51.89760, E4.55435, 2000, 250
-         end, hold
- 
-
-[approach142]
-runway = rwy10
-beacon = flevo, N52.3853, E5.60217, 259, flevo
-route142 =
-         259
-         N52.3853, E5.60217, 7000
-         N52.33480, E5.09216
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-[approach143]
-runway = rwy10
-beacon = soneb, N52.023666666667, E6.7641666666667, 303, soneb
-route143 =
-         303
-         N52.023666666667, E6.7641666666667
-         N52.2465, E6.25014
-         N52.3853, E5.60217, 7000
-         N52.33480, E5.09216
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-[approach144]
-runway = rwy10
-beacon = eel, N53.16390, E6.66668, 239, eelde
-route144 =
-         239
-         N53.16390, E6.66668
-         N52.678166666667, E5.2431666666667
-         N52.334833333333, E5.0921666666667
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-[approach145]
-runway = rwy10
-beacon = enkos, N52.678166666667, E5.2431666666667, 194, enkos
-route145 =
-         194
-         N52.678166666667, E5.2431666666667
-         N52.334833333333, E5.0921666666667
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-[approach146]
-runway = rwy10
-beacon = inket, N51.8146, E4.77196, 300, inket
-route146 =
-         300
-         N51.8146, E4.77196
-         N51.8975, E4.5543333333333, 2000, 250
-         end, hold
-
-     
-[approach147]
-runway = rwy10, rev
-beacon = eel, N53.16390, E6.66668, 239, eelde
-route147 =
-         239
-         N53.16390, E6.66668
-         N52.678166666667, E5.2431666666667
-         N52.334833333333, E5.0921666666667
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-[approach148]
-runway = rwy10, rev
-beacon = enkos, N52.678166666667, E5.2431666666667, 194, enkos
-route148 =
-         194
-         N52.678166666667, E5.2431666666667
-         N52.334833333333, E5.0921666666667
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-[approach149]
-runway = rwy10, rev
-beacon = rkn, N52.1332, E6.76388, 288, rekken
-route149 =
-         288
-         N52.1332, E6.76388
-         N52.2465, E6.25014
-         N52.3853, E5.60217, 7000
-         N52.33480, E5.09216
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-[approach150]
-runway = rwy10, rev
-beacon = tenli, N52.2465, E6.25014, 288, tenli
-route150 =
-         288
-         N52.2465, E6.25014
-         N52.3853, E5.60217, 7000
-         N52.33480, E5.09216
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-[approach151]
-runway = rwy10, rev
-beacon = flevo, N52.3853, E5.60217, 259, flevo
-route151 =
-         259
-         N52.3853, E5.60217, 7000
-         N52.33480, E5.09216
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-
-[approach152]
-runway = rwy10, rev
-beacon = soneb, N52.023666666667, E6.7641666666667, 303, soneb
-route152 =
-         303
-         N52.023666666667, E6.7641666666667
-         N52.2465, E6.25014
-         N52.3853, E5.60217, 7000
-         N52.33480, E5.09216
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-
-[approach153]
-runway = rwy10, rev
-beacon = coa, N51.347333333333, E3.3536666666667, 053, costa
-route153 =
-         053 
-         N51.347333333333, E3.3536666666667
-         N51.74130, E4.24349
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-
-[approach154]
-runway = rwy10, rev
-beacon = denut, N51.2365, E3.654, 035, denut
-route154 =
-         035
-         N51.2365, E3.654
-         N51.416833333333, E3.8658333333333
-         N51.74130, E4.24349
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-[approach155]
-runway = rwy10, rev
-beacon = helen, N51.2355, E3.8685, 358, helen
-route155 =
-         358
-         N51.2355, E3.8685 
-         N51.416833333333, E3.8658333333333
-         N51.74130, E4.24349
-         N51.89760, E4.55435, 2000, 250
-         end, hold
-
-
-[approach156]
-runway = rwy10, rev
-beacon = toppa, N53.4025, E3.5616666666667, 178, toppa
-route156 = 
-         178
-         N53.4025, E3.5616666666667
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
-
-
-[approach157]
-runway = rwy10, rev
-beacon = molix, N52.822, E3.06867, 161, molix
-route157 =
-         161
-         N52.822, E3.06867
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
-
-
-[approach158]
-runway = rwy10, rev
-beacon = lamso, N52.7329, E2.99436, 157, lamso
-route158 =
-         157
-         N52.7329, E2.99436
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
-
-[approach159]
-runway = rwy10, rev
-beacon = redfa, N52.114586111111, E2.4879472222222, 114, redfa
-route159 =
-         114
-         N52.114586111111, E2.4879472222222
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
-
-
-[approach160]
-runway = rwy10, rev
-beacon = masos, N51.7993, E3.59647, 018, masos
-route160 =
-         114
-         N51.7993, E3.59647, 5000, 250
-         end, hold
-
-
-
 [approach161]
-runway = rwy10, rev
-beacon = inket, N51.8146, E4.77196, 300, inket
+runway = rwy10
+beacon = toppa, N53.4025, E3.5616666666667, 178, toppa
 route161 =
-         300
-         N51.8146, E4.77196
-         N51.8975, E4.5543333333333, 2000, 250
+         178, toppa three romeo
+         N53.4025, E3.5616666666667
+         N51.7993, E3.59647, 5000, 220
          end, hold
 
+[approach162]
+runway = rwy10
+beacon = molix, N52.822, E3.06867, 161, molix
+route162 =
+         161, molix three romeo
+         N52.822, E3.06867
+         N51.7993, E3.59647, 5000, 220
+         end, hold
+
+[approach163]
+runway = rwy10
+beacon = lamso, N52.7329, E2.99436, 157, lamso
+route163 =
+         157, lamso three alfa
+         N52.7329, E2.99436
+         N51.7993, E3.59647, 5000, 220
+         end, hold
+
+[approach164]
+runway = rwy10
+beacon = redfa, N52.114586111111, E2.4879472222222, 114, redfa
+route164 =
+         114, redfa three alfa
+         N52.114586111111, E2.4879472222222
+         N51.7993, E3.59647, 5000, 220
+         end, hold
+
+[approach165]
+runway = rwy10
+beacon = coa, N51.347333333333, E3.3536666666667, 053, costa
+route165 =
+         053, costa two romeo
+         N51.347333333333, E3.3536666666667
+         N51.741333333333, E4.2435, 6000, 200
+         end, hold
+
+
+[approach166]
+runway = rwy10
+beacon = denut, N51.2365, E3.654, 035, denut
+route166 =
+         035, denut two romeo
+         N51.2365, E3.654
+         N51.416833333333, E3.8658333333333
+         N51.741333333333, E4.2435, 6000, 200
+         end, hold
+
+
+[approach167]
+runway = rwy10
+beacon = rimbu, N51.416833333333, E3.8658333333333, 035, rimbu
+route167 =
+         035
+         N51.416833333333, E3.8658333333333
+         N51.741333333333, E4.2435, 6000, 200
+         end, hold
+
+[approach168]
+runway = rwy10
+beacon = helen, N51.2355, E3.8685, 358, helen
+route168 =
+         358, helen four romeo
+         N51.2355, E3.8685
+         N51.741333333333, E4.2435, 6000, 200
+         end, hold
+
+
+
+[approach169]
+runway = rwy10
+beacon = soneb, N52.023666666667, E6.7641666666667, 303, soneb
+route169 =
+         303, soneb three romeo
+         N52.023666666667, E6.7641666666667
+         N52.2465, E6.25014
+         N52.3853, E5.60217, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+[approach170]
+runway = rwy10
+beacon = tenli, N52.2465, E6.25014, 288, tenli
+route170 =
+         288, 
+         N52.2465, E6.25014
+         N52.3853, E5.60217, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+[approach171]
+runway = rwy10
+beacon = flevo, N52.3853, E5.60217, 259, flevo
+route171 =
+         259
+         N52.3853, E5.60217, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+
+[approach172]
+runway = rwy10
+beacon = rkn, N52.1332, E6.76388, 288, rekken           
+route172 =
+         288, rekken three romeo
+         N52.1332, E6.76388
+         N52.2465, E6.25014
+         N52.3853, E5.60217, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+[approach173]
+runway = rwy10
+beacon = eel, N53.16390, E6.66668, 239, eelde
+route173 =
+         239, eelde three romeo
+         N53.16390, E6.66668
+         N52.678166666667, E5.2431666666667, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+[approach174]
+runway = rwy10
+beacon = enkos, N52.678166666667, E5.2431666666667, 194, enkos
+route174 =
+         194, enkos three romeo
+         N52.678166666667, E5.2431666666667, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+############################################
+############################################
+############################################
+#transitions rwy06
+
+[approach175]
+runway = rwy10
+beacon = masos, N51.7993, E3.59647, 088, masos
+route175 =
+         088
+         N51.7993, E3.59647
+         N51.860833333333, E3.9058333333333
+         N51.8645, E4.2169444444444
+         N51.897333333333, E4.2966666666667
+         6.2, 2000, 180
+
+[approach176]
+runway = rwy10
+beacon = dofmu, N51.741333333333, E4.2435, 334, dofmu
+route176 =
+         334
+         N51.741333333333, E4.2435
+         N51.801833333333, E4.2086111111111
+         N51.8645, E4.2169444444444
+         N51.897333333333, E4.2966666666667
+         6.2, 2000, 180
+
+[approach177]
+runway = rwy10
+beacon = kakko, N51.8975, E4.5543333333333, 230, kakko
+route177 =
+         230
+         N51.8975, E4.5543333333333
+         N51.741333333333, E4.2435
+         N51.801833333333, E4.2086111111111
+         N51.8645, E4.2169444444444
+         N51.897333333333, E4.2966666666667
+         6.2, 2000, 180
+
+
+
+[approach178]
+runway = rwy10, rev
+beacon = toppa, N53.4025, E3.5616666666667, 178, toppa
+route178 =
+         178, toppa three romeo
+         N53.4025, E3.5616666666667
+         N51.7993, E3.59647, 5000, 220
+         end, hold
+
+[approach179]
+runway = rwy10, rev
+beacon = molix, N52.822, E3.06867, 161, molix
+route179 =
+         161, molix three romeo
+         N52.822, E3.06867
+         N51.7993, E3.59647, 5000, 220
+         end, hold
+
+[approach180]
+runway = rwy10, rev
+beacon = lamso, N52.7329, E2.99436, 157, lamso
+route180 =
+         157, lamso three romeo
+         N52.7329, E2.99436
+         N51.7993, E3.59647, 5000, 220
+         end, hold
+
+[approach181]
+runway = rwy10, rev
+beacon = redfa, N52.114586111111, E2.4879472222222, 114, redfa
+route181 =
+         114, redfa three arrival
+         N52.114586111111, E2.4879472222222
+         N51.7993, E3.59647, 5000, 220
+         end, hold
+
+[approach182]
+runway = rwy10, rev
+beacon = coa, N51.347333333333, E3.3536666666667, 053, costa
+route182 =
+         053, costa two romeo
+         N51.347333333333, E3.3536666666667
+         N51.741333333333, E4.2435, 6000, 200
+         end, hold
+
+
+[approach183]
+runway = rwy10, rev
+beacon = denut, N51.2365, E3.654, 035, denut
+route183 =
+         035, denut two romeo
+         N51.2365, E3.654
+         N51.416833333333, E3.8658333333333
+         N51.741333333333, E4.2435, 6000, 200
+         end, hold
+
+
+[approach184]
+runway = rwy10, rev
+beacon = rimbu, N51.416833333333, E3.8658333333333, 035, rimbu
+route184 =
+         035
+         N51.416833333333, E3.8658333333333
+         N51.741333333333, E4.2435, 6000, 200
+         end, hold
+
+[approach185]
+runway = rwy10, rev
+beacon = helen, N51.2355, E3.8685, 358, helen
+route185 =
+         358, helen four romeo
+         N51.2355, E3.8685
+         N51.741333333333, E4.2435, 6000, 200
+         end, hold
+
+
+
+[approach186]
+runway = rwy10, rev
+beacon = soneb, N52.023666666667, E6.7641666666667, 303, soneb
+route186 =
+         303, soneb three romeo
+         N52.023666666667, E6.7641666666667
+         N52.2465, E6.25014
+         N52.3853, E5.60217, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+[approach187]
+runway = rwy10, rev
+beacon = tenli, N52.2465, E6.25014, 288, tenli
+route187 =
+         288
+         N52.2465, E6.25014
+         N52.3853, E5.60217, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+[approach188]
+runway = rwy10, rev
+beacon = flevo, N52.3853, E5.60217, 259, flevo
+route188 =
+         259
+         N52.3853, E5.60217, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+
+[approach189]
+runway = rwy10, rev
+beacon = rkn, N52.1332, E6.76388, 288, rekken           
+route189 =
+         288, rekken three romeo
+         N52.1332, E6.76388
+         N52.2465, E6.25014
+         N52.3853, E5.60217, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+[approach190]
+runway = rwy10, rev
+beacon = eel, N53.16390, E6.66668, 239, eelde
+route190 =
+         239, eelde three romeo
+         N53.16390, E6.66668
+         N52.678166666667, E5.2431666666667, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+[approach191]
+runway = rwy10, rev
+beacon = enkos, N52.678166666667, E5.2431666666667, 194, enkos
+route191 =
+         194, enkos three romeo
+         N52.678166666667, E5.2431666666667, 7000, 250
+         N52.3348, E5.09216
+         N51.8975, E4.5543333333333, 5000, 220
+         end, hold
+
+########################
+########################
+########################
+#transition rwy24
+
+[approach192]
+runway = rwy10, rev
+beacon = masos, N51.7993, E3.59647, 080, masos
+route192 =
+         080
+         N51.7993, E3.59647
+         N51.8975, E4.5543333333333, 2500, 230
+         N52.004333333333, E4.7708333333333
+         N52.049333333333, E4.7727777777778
+         N52.0445, E4.6677777777778
+         N52.0175, E4.5986111111111 
+         N51.998, E4.55
+         6.2, 2000, 160
+
+
+[approach193]
+runway = rwy10, rev
+beacon = dofmu, N51.741333333333, E4.2435, 050, dofmu
+route193 =
+         050
+         N51.741333333333, E4.2435
+         N51.8975, E4.5543333333333, 2500, 230
+         N52.004333333333, E4.7708333333333
+         N52.049333333333, E4.7727777777778
+         N52.0445, E4.6677777777778
+         N52.0175, E4.5986111111111 
+         6.2, 2000, 160
+
+[approach194]
+runway = rwy10, rev
+beacon = kakko, N51.8975, E4.5543333333333, 050, kakko
+route194 =
+         050
+         N51.8975, E4.5543333333333, 2500, 230
+         N52.004333333333, E4.7708333333333
+         N52.049333333333, E4.7727777777778
+         N52.0445, E4.6677777777778
+         N52.0175, E4.5986111111111 
+         6.2, 2000, 160
 
 ######################################################################################
 ######################################################################################
@@ -4572,7 +4555,7 @@ code = LE
 runways =
 	rwy11, 05, N52.446644444444, E5.5028055555556, 047.54, 8858.268, 974.64, 980.10, -12, 3, 047.54, 3, 227.55, 0, 0, 0, 0, 135.180
 inboundbeacon = FRT
-traffic = 32
+traffic = 20
 
 entrypoints =
             043, EKNON, 6000
@@ -4890,10 +4873,10 @@ route1 =
 
 
 
-[approach162]
+[approach195]
 runway = rwy11
 beacon = ASBES, N52.407277777778, E5.623, 0, as-bess
-route162 = 
+route195 = 
          239
          N52.407277777778, E5.623, 3000
          N52.374166666667, E5.527
@@ -4902,27 +4885,27 @@ route162 =
          N52.354166666667, E5.338, 1700, 160
          5.2, 1700, 160
 
-[approach163]
+[approach196]
 runway = rwy11
 beacon = UPLOS, N52.354166666667, E5.338, 0, up-loss
-route163 = 
+route196 = 
          046
          N52.354166666667, E5.338, 1700, 160
          5.2, 1700, 160
 
-[approach164]
+[approach197]
 runway = rwy11
 beacon = XIDES, N52.313916666667, E5.3949166666667, 0, zie-dees
-route164 = 
+route197 = 
          317
          N52.313916666667, E5.3949166666667, 2000, 185
          N52.354166666667, E5.338, 1700, 160
          5.2, 1700, 160
 
-[approach165]
+[approach198]
 runway = rwy11
 beacon = LE118, N52.539444444444, E6.01, 0, lima echo one one eight
-route165 = 
+route198 = 
          239
          N52.539444444444, E6.01, 5000
          N52.407277777778, E5.623, 3000
@@ -4932,10 +4915,10 @@ route165 =
          N52.354166666667, E5.338, 1700, 160
          5.2, 1700, 160
 
-[approach166]
+[approach199]
 runway = rwy11
 beacon = LE137, N52.344722222222, E5.4591666666667, 0, lima echo one three seven
-route166 = 
+route199 = 
          239
          N52.374166666667, E5.527
          N52.344722222222, E5.4591666666667, 2000
@@ -4943,10 +4926,10 @@ route166 =
          N52.354166666667, E5.338, 1700, 160
          5.2, 1700, 160
 	
-[approach167]
+[approach200]
 runway = rwy11
 beacon = EKNON
-route167 = 
+route200 = 
          181
          N52.771722222222, E6.03025
          N52.539444444444, E6.01, 5000
@@ -4957,10 +4940,10 @@ route167 =
          N52.354166666667, E5.338, 1700, 160
          5.2, 1700, 160
 
-[approach168]
+[approach201]
 runway = rwy11
 beacon = NILMI
-route168 = 
+route201 = 
          306
          N52.566027777778, E6.0880277777778, 6000
          N52.539444444444, E6.01, 5000
@@ -4971,10 +4954,10 @@ route168 =
          N52.354166666667, E5.338, 1700, 160
          5.2, 1700, 160
 
-[approach169]
+[approach202]
 runway = rwy11
 beacon = BADEX
-route169 = 
+route202 = 
          306
          N52.442361111111, E6.3468611111111
          N52.566027777778, E6.0880277777778, 6000
@@ -4986,47 +4969,47 @@ route169 =
          N52.354166666667, E5.338, 1700, 160
          5.2, 1700, 160
 
-[approach170]
+[approach203]
 runway = rwy11, rev
 beacon = KUVOS, N52.586083333333, E5.7535, 0, koo-vos
-route170 = 
+route203 = 
          226
          N52.586083333333, E5.7535, 3000
          9.3, 3000, 160
 
-[approach171]
+[approach204]
 runway = rwy11, rev
 beacon = IDGOK, N52.619083333333, E5.8131944444444, 0, id-gock
-route171 = 
+route204 = 
          219
          N52.619083333333, E5.8131944444444
          N52.586083333333, E5.7535, 3000
          9.3, 3000, 160
 
-[approach172]
+[approach205]
 runway = rwy11, rev
 beacon = LE122, N52.680833333333, 5.9008333333333, 0, lima echo one two two
-route172 = 
+route205 = 
          219
          N52.680833333333, E5.9008333333333, 5000
          N52.619083333333, E5.8131944444444
          N52.586083333333, E5.7535, 3000
          9.3, 3000, 160
 
-[approach173]
+[approach206]
 runway = rwy11, rev
 beacon = LE110, N52.618333333333, E5.9778333333333, 0, lima echo one one zero
-route173 = 
+route206 = 
          306
          N52.618333333333, E5.9778333333333, 5000
          N52.619083333333, E5.8131944444444
          N52.586083333333, E5.7535, 3000
          9.3, 3000, 160
 
-[approach174]
+[approach207]
 runway = rwy11, rev
 beacon = NILMI
-route174 = 
+route207 = 
          306
          N52.566027777778, E6.0880277777778, 6000
          N52.618333333333, E5.9778333333333, 5000
@@ -5034,10 +5017,10 @@ route174 =
          N52.586083333333, E5.7535, 3000
          9.3, 3000, 160
 
-[approach175]
+[approach208]
 runway = rwy11, rev
 beacon = BADEX
-route175 = 
+route208 = 
          306
          N52.442361111111, E6.3468611111111
          N52.566027777778, E6.0880277777778, 6000
@@ -5046,10 +5029,10 @@ route175 =
          N52.586083333333, E5.7535, 3000
          9.3, 3000, 160
 
-[approach176]
+[approach209]
 runway = rwy11, rev
 beacon = EKNON
-route176 = 
+route209 = 
          219
          N52.771722222222, E6.03025
          N52.680833333333, E5.9008333333333, 5000
@@ -5079,12 +5062,10 @@ entrypoints =
             178, olno, 7000
             233, costa, 5000
             226, denut, 18000
-            223, helen, 7000
             285, lamso, 23000
             285, molix, 23000
             309, toppa, 25000
-            224, inket, 7000
-            216, lopik, 7000
+            
 airlines =
 	 TRA, 8, B737/B738, Transavia, nswe
 	 TUI, 5, B738/B788, Orange, nswe
@@ -5274,432 +5255,422 @@ route1 =
        N51.405666666667, E4.3665
 
 
-#elsik2e
-[approach177]
+
+[approach210]
 runway = rwy12
-beacon = elsik, N51.195, E4.99861, 041, elsik
-route177 =
-         041
-         N51.195, E4.99861
-         N51.46780, E5.39500, 3000, 220
+beacon = toppa, N53.4025, E3.5616666666667, 173, toppa
+route210 =
+         173, toppa four echo
+         N53.4025, E3.5616666666667
+         N51.722833333333, E3.8583333333333
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
          end, hold
 
-[approach178]
+
+
+[approach211]
 runway = rwy12
-beacon = ehn, N51.4679, E5.39486, 041, eindhoven
-route178 =
-         041
-         N51.4679, E5.39486, 3000, 220
+beacon = likdo, N51.527777777778, E4.5405555555556, 053, likdo
+route211 =
+         053
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
          end, hold
 
-[approach179]
+[approach212]
 runway = rwy12
-beacon =  osgos, N51.1833, E5.91591, 351, osgos
-route179 =
-         351
-         N51.1833, E5.91591
-         N51.249722222222, E5.9016666666667
-         N51.4679, E5.39486, 3000, 220
+beacon = tupak, N51.689444444444, E4.9275, 113, tupak
+route212 =
+         113
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
          end, hold
 
-[approach180]
+
+[aproach213]
 runway = rwy12
-beacon = sopvi, N51.249722222222, E5.9016666666667, 303, sopvi
-route180 =
-         303
-         N51.249722222222, E5.9016666666667
-         N51.4679, E5.39486, 3000, 220
+beacon = molix, N52.822, E3.06867, 155, molix
+route213 =
+         155, molix four echo
+         N52.822, E3.06867
+         N51.722833333333, E3.8583333333333
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
          end, hold
 
-[approach181]
+[approach214]
 runway = rwy12
-beacon = LNO, N50.58580, E5.71028, 014, olno
-route181 =
-         014
-         N50.58580, E5.71028 
-         N51.0957, E5.93441
-         N51.1833, E5.91591
-         N51.249722222222, E5.9016666666667
-         N51.4679, E5.39486, 3000, 220
+beacon = lamso, N52.7329, E2.99436, 151, lamso
+route214 =
+         151
+         N52.7329, E2.99436, lamso four echo
+         N51.722833333333, E3.8583333333333
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
          end, hold
 
-[approach182]
+
+[approach215]
 runway = rwy12
-beacon = eduma, N51.0957, E5.93441, 351, eduma
-route182 =
-         351
-         N51.0957, E5.93441
-         N51.1833, E5.91591
-         N51.249722222222, E5.9016666666667
-         N51.4679, E5.39486, 3000, 220
+beacon = redfa, N52.114586111111, E2.4879472222222, 114, redfa
+route215 =
+         114, redfa four echo
+         N52.114586111111, E2.4879472222222
+         N51.722833333333, E3.8583333333333
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
          end, hold
 
-[approach183]
-runway = rwy12
-beacon = rumer, N51.620555555556, E5.8844444444444, 242, rumer
-route183 =
-         242
-         N51.620555555556, E5.8844444444444
-         N51.4679, E5.39486, 3000, 220
-         end, hold
 
-[approach184]
+[approach216]
 runway = rwy12
-beacon = rotek, N51.6311, E6.10331, 248, rotek
-route184 =
-         248
-         N51.6311, E6.10331
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach185]
-runway = rwy12
-beacon = coa, N51.347333333333, E3.3536666666667, 077, costa
-route185 =
-         077
+beacon = costa, N51.347333333333, E3.3536666666667, 077, costa
+route216 =
+         077, costa five echo
          N51.347333333333, E3.3536666666667
          N51.416833333333, E3.8658333333333
          N51.527777777778, E4.5405555555556
          N51.689444444444, E4.9275
          N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
          end, hold
 
-[approach186]
+[approach217]
 runway = rwy12
 beacon = rimbu, N51.416833333333, E3.8658333333333, 075, rimbu
-route186 =
+route217 =
          075
          N51.416833333333, E3.8658333333333
          N51.527777777778, E4.5405555555556
          N51.689444444444, E4.9275
          N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
          end, hold
 
-[approach187]
-runway = rwy12 
-beacon = likdo,  N51.527777777778, E4.5405555555556, 053, likkdo
-route187 =
-         053
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
 
-[approach188]
-runway = rwy12
-beacon = tupak, N51.689444444444, E4.9275, 113, tupak
-route188 =
-         113
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach189]
-runway = rwy12
-beacon = iptas, N51.638055555556, E5.1086111111111, 132, ipptas
-route189 =
-         132
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach190]
+[approach218]
 runway = rwy12
 beacon = denut, N51.2365, E3.654, 035, denut
-route190 =
-         035
+route218 =
+         035, denut two echo
          N51.2365, E3.654
          N51.416833333333, E3.8658333333333
          N51.527777777778, E4.5405555555556
          N51.689444444444, E4.9275
          N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
          end, hold
 
-
-[approach191]
+[approach219]
 runway = rwy12
-beacon = helen, N51.2355, E3.8685, 358, helen
-route191 =
-          358
-          N51.2355, E3.8685
-          N51.416833333333, E3.8658333333333
-          N51.527777777778, E4.5405555555556
-          N51.689444444444, E4.9275
-          N51.638055555556, E5.1086111111111
-          N51.4679, E5.39486, 3000, 220
-          end, hold
-
-[approach192]
-runway = rwy12
-beacon = redfa, N52.114586111111, E2.4879472222222, 114, redfa
-route192 = 
-         114
-         N52.114586111111, E2.4879472222222
-         N51.72270, E3.85818
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach193]
-runway = rwy12
-beacon = toppa, N53.4025, E3.5616666666667, 173, toppa
-route193 =
-         173
-         N53.4025, E3.5616666666667
-         N51.72270, E3.85818
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-
-[approach194]
-runway = rwy12
-beacon = molix, N52.822, E3.06867, 155, molix
-route194 =
-         155
-         N52.822, E3.06867
-         N51.72270, E3.85818
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach195]
-runway = rwy12
-beacon = lamso, N52.7329, E2.99436, 151, lamso
-route195 =
-         151
-         N52.7329, E2.99436
-         N51.72270, E3.85818
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-
-
-[approach196]
-runway = rwy12, rev
-beacon = elsik, N51.195, E4.99861, 041, elsik
-route196 =
-         041
-         N51.195, E4.99861
-         N51.46780, E5.39500, 3000, 220
-         end, hold
-
-[approach197]
-runway = rwy12, rev
-beacon = ehn, N51.4679, E5.39486, 041, eindhoven
-route197 =
-         041
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach198]
-runway = rwy12, rev
-beacon =  osgos, N51.1833, E5.91591, 351, osgos
-route198 =
-         351
-         N51.1833, E5.91591
-         N51.249722222222, E5.9016666666667
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach199]
-runway = rwy12, rev
-beacon = sopvi, N51.249722222222, E5.9016666666667, 303, sopvi
-route199 =
-         303
-         N51.249722222222, E5.9016666666667
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach200]
-runway = rwy12, rev
 beacon = LNO, N50.58580, E5.71028, 014, olno
-route200 =
-         014
-         N50.58580, E5.71028 
+route219 =
+         014, olno four echo
+         N50.58580, E5.71028
          N51.0957, E5.93441
          N51.1833, E5.91591
-         N51.249722222222, E5.9016666666667
-         N51.4679, E5.39486, 3000, 220
          end, hold
 
-[approach201]
-runway = rwy12, rev
+[approach220]
+runway = rwy12
 beacon = eduma, N51.0957, E5.93441, 351, eduma
-route201 =
+route220 =
          351
          N51.0957, E5.93441
          N51.1833, E5.91591
-         N51.249722222222, E5.9016666666667
-         N51.4679, E5.39486, 3000, 220
          end, hold
 
-[approach202]
-runway = rwy12, rev
-beacon = rumer, N51.620555555556, E5.8844444444444, 242, rumer
-route202 =
-         242
-         N51.620555555556, E5.8844444444444
-         N51.4679, E5.39486, 3000, 220
-         end, hold
 
-[approach203]
-runway = rwy12, rev
+[approach221]
+runway = rwy12
 beacon = rotek, N51.6311, E6.10331, 248, rotek
-route203 =
-         248
+route221 =
+         248, rotek three echo
          N51.6311, E6.10331
-         N51.4679, E5.39486, 3000, 220
+         N51.615833333333, E6.0365
          end, hold
 
-[approach204]
+[approach222]
+runway = rwy12
+beacon = basgu, N51.912333333333, E5.8498333333333, 175, basgu
+route222 =
+         175
+         N51.912333333333, E5.8498333333333
+         N51.620555555556, E5.8844444444444
+         end, hold
+
+
+
+
+
+########################
+########################
+#transitions rwy21
+
+
+[approach223]
+runway = rwy12
+beacon = iptas, N51.638055555556, E5.1086111111111, 103, iptas
+route223 =
+         103
+         N51.638055555556, E5.1086111111111
+         N51.622, E5.2025
+         N51.620166666667, E5.3448333333333
+         N51.642222222222, E5.4275
+         N51.595666666667, E5.5381666666667
+         10, 2000, 200
+
+
+[approach224]
+runway = rwy12
+beacon = sopvi, N51.249722222222, E5.9016666666667, 342, sopvi
+route224 =
+         342   
+         N51.249722222222, E5.9016666666667
+         N51.341166666667, E5.8591666666667
+         N51.449722222222, E5.8083333333333
+         N51.510666666667, E5.7065
+         N51.546666666667, E5.6461666666667
+         N51.595666666667, E5.5381666666667
+         10, 2000, 200
+
+[approach225]
+runway = rwy12
+beacon = oklov, N51.615833333333, E6.0365, 216, oklov
+route225 =
+         216
+         N51.615833333333, E6.0365
+         N51.5045, E5.8968333333333
+         N51.449722222222, E5.8083333333333
+         N51.510666666667, E5.7065
+         N51.546666666667, E5.6461666666667
+         N51.595666666667, E5.5381666666667
+         9, 2000, 200
+
+
+[approach226]
+runway = rwy12
+beacon = rumer, N51.620555555556, E5.8844444444444, 223, rumer
+route226 =
+         223
+         N51.620555555556, E5.8844444444444
+         N51.603166666667, E5.8563333333333
+         N51.562166666667, E5.79
+         N51.546666666667, E5.6461666666667
+         N51.595666666667, E5.5381666666667
+         9, 2000, 200
+
+
+[approach227]
 runway = rwy12, rev
-beacon = coa, N51.347333333333, E3.3536666666667, 077, costa
-route204 =
-         077
+beacon = toppa, N53.4025, E3.5616666666667, 173, toppa
+route227 =
+         173, toppa four echo
+         N53.4025, E3.5616666666667
+         N51.722833333333, E3.8583333333333
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
+         end, hold
+
+
+
+[approach228]
+runway = rwy12, rev
+beacon = likdo, N51.527777777778, E4.5405555555556, 053, likdo
+route228 =
+         053
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
+         end, hold
+
+[approach229]
+runway = rwy12, rev
+beacon = tupak, N51.689444444444, E4.9275, 113, tupak
+route229 =
+         113
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
+         end, hold
+
+
+[aproach230]
+runway = rwy12, rev
+beacon = molix, N52.822, E3.06867, 155, molix
+route230 =
+         155, molix four echo
+         N52.822, E3.06867
+         N51.722833333333, E3.8583333333333
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
+         end, hold
+
+[approach231]
+runway = rwy12, rev
+beacon = lamso, N52.7329, E2.99436, 151, lamso
+route231 =
+         151, molix four echo
+         N52.7329, E2.99436
+         N51.722833333333, E3.8583333333333
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
+         end, hold
+
+
+[approach232]
+runway = rwy12, rev
+beacon = redfa, N52.114586111111, E2.4879472222222, 114, redfa
+route232 =
+         114, redfa four echo
+         N52.114586111111, E2.4879472222222
+         N51.722833333333, E3.8583333333333
+         N51.527777777778, E4.5405555555556
+         N51.689444444444, E4.9275
+         N51.638055555556, E5.1086111111111
+         end, hold
+
+
+[approach233]
+runway = rwy12, rev
+beacon = costa, N51.347333333333, E3.3536666666667, 077, costa
+route233 =
+         077, costa five echo
          N51.347333333333, E3.3536666666667
          N51.416833333333, E3.8658333333333
          N51.527777777778, E4.5405555555556
          N51.689444444444, E4.9275
          N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
          end, hold
 
-[approach205]
+[approach234]
 runway = rwy12, rev
 beacon = rimbu, N51.416833333333, E3.8658333333333, 075, rimbu
-route205 =
+route234 =
          075
          N51.416833333333, E3.8658333333333
          N51.527777777778, E4.5405555555556
          N51.689444444444, E4.9275
          N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
          end, hold
 
-[approach206]
-runway = rwy12, rev
-beacon = likdo,  N51.527777777778, E4.5405555555556, 053, likkdo
-route206 =
-         053
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
 
-[approach207]
-runway = rwy12, rev
-beacon = tupak, N51.689444444444, E4.9275, 113, tupak
-route207 =
-         113
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach208]
-runway = rwy12, rev
-beacon = iptas, N51.638055555556, E5.1086111111111, 132, ipptas
-route208 =
-         132
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
-
-[approach209]
+[approach235]
 runway = rwy12, rev
 beacon = denut, N51.2365, E3.654, 035, denut
-route209 =
-         035
-         N51.2365, E3.654, 18000
+route235 =
+         035, denut two echo
+         N51.2365, E3.654
          N51.416833333333, E3.8658333333333
          N51.527777777778, E4.5405555555556
          N51.689444444444, E4.9275
          N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
+         end, hold
+
+[approach236]
+runway = rwy12, rev
+beacon = LNO, N50.58580, E5.71028, 014, olno
+route236 =
+         014, olno four echo
+         N50.58580, E5.71028
+         N51.0957, E5.93441
+         N51.1833, E5.91591
+         end, hold
+
+[approach237]
+runway = rwy12, rev
+beacon = eduma, N51.0957, E5.93441, 351, eduma
+route237 =
+         351
+         N51.0957, E5.93441
+         N51.1833, E5.91591
          end, hold
 
 
-[approach210]
+[approach238]
 runway = rwy12, rev
-beacon = helen, N51.2355, E3.8685, 358, helen
-rroute210 =
-          358
-          N51.2355, E3.8685
-          N51.416833333333, E3.8658333333333
-          N51.527777777778, E4.5405555555556
-          N51.689444444444, E4.9275
-          N51.638055555556, E5.1086111111111
-          N51.4679, E5.39486, 3000, 220
-          end, hold
+beacon = rotek, N51.6311, E6.10331, 248, rotek
+route238 =
+         248, rotek three echo
+         N51.6311, E6.10331
+         N51.615833333333, E6.0365
+         end, hold
 
-[approach211]
+[approach239]
 runway = rwy12, rev
-beacon = redfa, N52.114586111111, E2.4879472222222, 114, redfa
-route211 = 
-         114
-         N52.114586111111, E2.4879472222222
-         N51.72270, E3.85818
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
+beacon = basgu, N51.912333333333, E5.8498333333333, 175, basgu
+route239 =
+         175
+         N51.912333333333, E5.8498333333333
+         N51.620555555556, E5.8844444444444
+         end, hold
+
+
+
+
+##########################
+#########################
+#transitions rwy03
+
+[approach240]
+runway = rwy12, rev
+beacon = iptas, N51.638055555556, E5.1086111111111, 103, iptas
+route240 =
+         103
          N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
+         N51.622, E5.2025
+         N51.511333333333, E5.171
+         N51.380833333333, E5.1347222222222
+         N51.331833333333, E5.2421666666667
+         8, 2000, 200
 
-[approach212]
+[approach241]
 runway = rwy12, rev
-beacon = toppa, N53.4025, E3.5616666666667, 173, toppa
-route212 =
-         173
-         N53.4025, E3.5616666666667
-         N51.72270, E3.85818
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
+beacon = sopvi, 51.249722222222, 5.9016666666667, 296, sopvi
+route241 =
+         296
+         N51.249722222222, E5.9016666666667
+         N51.2895, E5.7838333333333
+         N51.317833333333, E5.6991666666667
+         N51.340277777778, E5.6319444444444
+         N51.302833333333, E5.44
+         N51.285555555556, E5.3525
+         N51.331833333333, E5.2421666666667
+         8, 2000, 200
 
-
-[approach213]
+[approach242]
 runway = rwy12, rev
-beacon = molix, N52.822, E3.0686666666667, 155, molix
-route213 =
-         155
-         N52.822, E3.0686666666667
-         N51.72270, E3.85818
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
+beacon = oklov, N51.615833333333, E6.0365, 216, oklov
+route242 =
+         216
+         N51.615833333333, E6.0365
+         N51.5045, E5.8968333333333
+         N51.449722222222, E5.8083333333333
+         N51.340333333333, E5.6318333333333
+         N51.302833333333, E5.44
+         N51.285555555556, E5.3525
+         N51.331833333333, E5.2421666666667
+         8, 2000, 200
 
-[approach214]
+[approach243]
 runway = rwy12, rev
-beacon = lamso, N52.7329, E2.99436, 151, lamso
-route214 =
-         151
-         N52.7329, E2.99436
-         N51.72270, E3.85818
-         N51.527777777778, E4.5405555555556
-         N51.689444444444, E4.9275
-         N51.638055555556, E5.1086111111111
-         N51.4679, E5.39486, 3000, 220
-         end, hold
+beacon = rumer, N51.620555555556, E5.8844444444444, 194, rumer
+route243 =
+         194
+         N51.620555555556, E5.8844444444444
+         N51.449722222222, E5.8083333333333
+         N51.340277777778, E5.6319444444444
+         N51.302833333333, E5.44
+         N51.285555555556, E5.3525
+         N51.331833333333, E5.2421666666667
+         8, 2000, 200
+
+
 
 
 #########################################################################
@@ -6009,58 +5980,58 @@ route1 =
 
 
 
-[approach215]
+[approach244]
 runway = rwy13
 beacon = temlu, N53.4744, E6.86361, 188, temlu
-route215 =
-         188
+route244 =
+         188, temlu two golf
          N53.4744, E6.86361
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
-[approach216]
+[approach245]
 runway = rwy13
-beacon = hecti,  N53.215333333333, E6.7851666666667, 188, hecti
-route216 =
+beacon = hecti, N53.215333333333, E6.7851666666667, 188, hecti
+route245 =
          188
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
 
-[approach217]
+[approach246]
 runway = rwy13
-beacon = sompo, N53.3989, E6.94944, 206, sompo
-route217 =
-         206
-         N53.3989, E6.94944
+beacon = olwof, N53.398833333333, E6.96, 206, olwof
+route246 =
+         206, olwof one golf
+         N53.398833333333, E6.96
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
 
 
-[approach218]
+[approach247]
 runway = rwy13
 beacon = kubat, N53.3364, E6.99361, 224, kubat
-route218 =
-         224
+route247 =
+         224, kubat two golf
          N53.3364, E6.99361
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
-[approach219]
+[approach248]
 runway = rwy13
 beacon = dobak, N53.2133, E7.21694, 268, dobak
-route219 =
-         268
+route248 =
+         268, dobak two golf
          N53.2133, E7.21694
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
-[approach220]
+[approach249]
 runway = rwy13
 beacon = rkn, N52.1332, E6.76388, 306, rekken
-route220 =
-         306
+route249 =
+         306, rekken two golf
          N52.1332, E6.76388
          N52.381666666667, E6.2516666666667
          N52.784, E6.2566666666667
@@ -6068,11 +6039,11 @@ route220 =
          N53.0315, E6.3958333333333, 2000, 175
          end, hold
 
-[approach221]
+[approach250]
 runway = rwy13
 beacon = tenli, N52.2465, E6.25014, 359, tenli
-route221 =
-         359
+route250 =
+         359, tenli two golf
          N52.2465, E6.25014
          N52.381666666667, E6.2516666666667
          N52.784, E6.2566666666667
@@ -6081,114 +6052,130 @@ route221 =
          end, hold
 
 
-[approach222]
+[approach251]
 runway = rwy13
 beacon = ostir, N52.901, E6.21852, 044, ostir
-route222 =
-         044
+route251 =
+         044, ostir two golf
          N52.901, E6.21852
          N53.0315, E6.3958333333333, 2000, 175
          end, hold
 
-[approach223]
+[approach252]
 runway = rwy13
 beacon = grony, N53.1055, E6.05497, 079, grony
-route223 =
-         079
+route252 =
+         079, grony two golf
          N53.1055, E6.05497
          N53.0315, E6.3958333333333, 2000, 175
          end, hold
 
-
-
-[approach224]
+[approach253]
 runway = rwy13, rev
 beacon = temlu, N53.4744, E6.86361, 188, temlu
-route224 =
-         188
+route253 =
+         188, temlu two golf
          N53.4744, E6.86361
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
-[approach225]
+[approach254]
 runway = rwy13, rev
-beacon = hecti,  N53.215333333333, E6.7851666666667, 188, hecti
-route225 =
-         188
+beacon = olwof, N53.398833333333, E6.96, 206, olwof
+route254 =
+         206, olwof one golf
+         N53.398833333333, E6.96
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
-
-[approach226]
-runway = rwy13, rev
-beacon = sompo, N53.3989, E6.94944, 206, sompo
-route226 =
-         206
-         N53.3989, E6.94944
-         N53.215333333333, E6.7851666666667, 2000, 220
-         end, hold
-
-
-
-[approach227]
+[approach255]
 runway = rwy13, rev
 beacon = kubat, N53.3364, E6.99361, 224, kubat
-route227 =
-         224
+route255 =
+         224, kubat two golf
          N53.3364, E6.99361
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
-[approach228]
+[approach256]
 runway = rwy13, rev
 beacon = dobak, N53.2133, E7.21694, 268, dobak
-route228 =
-         268
+route256 =
+         268, dobak two golf
          N53.2133, E7.21694
          N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
-[approach229]
+[approach257]
 runway = rwy13, rev
 beacon = rkn, N52.1332, E6.76388, 306, rekken
-route229 =
-         306
+route257 =
+         306, rekken two golf
          N52.1332, E6.76388
-         N52.381666666667, E6.2516666666667
-         N52.784, E6.2566666666667
-         N52.901666666667, E6.3828333333333
-         N53.0315, E6.3958333333333, 2000, 175
+         N52.3815, E6.2527777777778
+         N52.784, E6.2611111111111
+         N52.901833333333, E6.3936111111111
+         N53.119, E6.3711111111111, 8000, 250
          end, hold
 
-[approach230]
+[approach258]
 runway = rwy13, rev
 beacon = tenli, N52.2465, E6.25014, 359, tenli
-route230 =
-         359
+route258 =
+         359, tenli two golf
          N52.2465, E6.25014
-         N52.381666666667, E6.2516666666667
-         N52.784, E6.2566666666667
-         N52.901666666667, E6.3828333333333
-         N53.0315, E6.3958333333333, 2000, 175
+         N52.3815, E6.2527777777778
+         N52.784, E6.2611111111111
+         N52.901833333333, E6.3936111111111
+         N53.119, E6.3711111111111, 8000, 250
          end, hold
 
-
-[approach231]
+[approach259]
 runway = rwy13, rev
-beacon = ostir, N52.901, E6.21852, 044, ostir
-route231 =
-         044
-         N52.901, E6.21852
-         N53.0315, E6.3958333333333, 2000, 175
-         end, hold
+beacon = tolko, N53.119, E6.3711111111111, 031, tolko
+route259 =
+         031, tolko two golf
+         N53.119, E6.3711111111111, 8000, 250
+         N53.236833333333, E6.4994444444444    
+         N53.306666666667, E6.7380555555556, 3500, 220
+         N53.254166666667, E6.8075
+         N53.208, E6.7775, 2000, 160
+         N53.1875, E6.7272222222222
+         6.2, 2000, 160
 
-[approach232]
+[approach260]
+runway = rwy13, rev
+beacon = gg742, N53.208, E6.7775, 230, golf-golf742
+route260 =
+         230
+         N53.208, E6.7775, 2000, 160
+         N53.1875, E6.7272222222222
+         6.2, 2000, 160
+
+[approach261]
 runway = rwy13, rev
 beacon = grony, N53.1055, E6.05497, 079, grony
-route232 =
-         079
+route261 =
+         079, grony two golf
          N53.1055, E6.05497
-         N53.0315, E6.3958333333333, 2000, 175
+         N53.119, E6.3711111111111, 8000, 250
+         end, hold
+
+[approach262]
+runway = rwy13, rev
+beacon = ostir, N52.901, E6.21852, 037, ostir
+route262 =
+         037, ostir two golf
+         N52.901, E6.21852
+         N53.0315, E6.4047222222222, 2000, 175
+         end, hold
+
+[approach263]
+runway = rwy13, rev
+beacon = hecti, N53.215333333333, E6.7851666666667, 230, hecti
+route263 =
+         230
+         N53.215333333333, E6.7851666666667, 2000, 220
          end, hold
 
 ###############################################################
@@ -6277,95 +6264,96 @@ route1 =
        N52.930666666667, E4.8035
        N53.0351, E5.02955
 
-[approach233]
+[approach264]
 runway = rwy14
 beacon = gikov, N53.1097, E4.53677,  144, gikov
-route233 =
-         144
+route264 =
+         144, gikov two hotel
          N53.1097, E4.53677
          N52.9069, E4.76583
          end, hold
 
-[approach234]
+[approach265]
 runway = rwy14
-beacon = gikov, N53.1097, E4.53677,  130, gikov
-route234 =
+beacon = gikov, N53.1097, E4.53677, 130, gikov
+route265 =
+         130, gikov two julliet
          N53.1097, E4.53677
          N52.985, E4.77273 
          N52.9069, E4.76583
          end, hold
 
-[approach235]
+[approach266]
 runway = rwy14
 beacon = atrix, N53.1385, E4.62464, 158, atrix
-route235 =
-         158
+route266 =
+         158, atrix two hotel
          N53.1385, E4.62464
          N52.9069, E4.76583
          end, hold
 
-[approach236]
+[approach267]
 runway = rwy14
 beacon = atrix, N53.1385, E4.62464, 134, atrix
-route236 =
-         134
+route267 =
+         134, atrix two julliet
          N53.1385, E4.62464
          N53.0448, E4.77812
          N52.985, E4.77273 
          N52.9069, E4.76583
          end, hold
 
-[approach237]
+[approach268]
 runway = rwy14
 beacon = peror, N53.0351, E5.02955, 229, peror
-route237 =
-         229
+route268 =
+         229, peror two hotel
          N53.0351, E5.02955
          N52.9069, E4.76583
          end, hold
 
-[approach238]
+[approach269]
 runway = rwy14
 beacon = kolav, N53.0272, E4.35, 098, kolav
-route238 =
-         098
+route269 =
+         098,kolav two julliet
          N53.0272, E4.35
          N52.985, E4.77273 
          N52.9069, E4.76583
          end, hold
 
-[approach239]
+[approach270]
 runway = rwy14
 beacon = kolav, N53.0272, E4.35, 114, kolav
-route239 =
-         114
+route270 =
+         114, kolav two hotel
          N53.0272, E4.35
          N52.9069, E4.76583
          end, hold
 
-[approach240]
+[approach271]
 runway = rwy14
 beacon = lergo, N52.8848, E4.35, 083, lergo
-route240 =
-         083
+route271 =
+         083, lergo two hotel
          N52.8848, E4.35
          N52.9069, E4.76583
          end, hold
 
-[approach241]
+[approach272]
 runway = rwy14
 beacon = nakon, N52.7794, E4.42463, 057, nakon
-route241 =
-         057
+route272 =
+         057, nakon one hotel
          N52.7794, E4.42463
          N52.9069, E4.76583
          end, hold
 
-[approach242]
+[approach273]
 runway = rwy14
 beacon = nexar, N52.7824, E4.72024, 011, nexar
-route242 =
-         011
+route273 =
+         011, nexar one hotel
          N52.7824, E4.72024
          N52.9069, E4.76583
          end, hold
@@ -6373,96 +6361,97 @@ route242 =
 
 
 
-[approach243]
+[approach274]
 runway = rwy14, rev
 beacon = kolav, N53.0272, E4.35, 098, kolav
-route243 =
-         098
+route274 =
+         098, kolav two julliet
          N53.0272, E4.35
          N52.985, E4.77273 
          N52.9069, E4.76583
          end, hold
 
-[approach244]
+[approach275]
 runway = rwy14, rev
 beacon = kolav, N53.0272, E4.35, 114, kolav
-route244 =
-         114
+route275 =
+         114, kolav two hotel
          N53.0272, E4.35
          N52.9069, E4.76583
          end, hold
 
-[approach245]
+[approach276]
 runway = rwy14, rev
 beacon = lergo, N52.8848, E4.35, 083, lergo
-route245 =
-         083
+route276 =
+         083, lergo two hotel
          N52.8848, E4.35
          N52.9069, E4.76583
          end, hold
 
-[approach246]
+[approach277]
 runway = rwy14, rev
 beacon = nakon, N52.7794, E4.42463, 057, nakon
-route246 =
-         057
+route277 =
+         057, nakon one hotel
          N52.7794, E4.42463
          N52.9069, E4.76583
          end, hold
 
-[approach247]
+[approach278]
 runway = rwy14, rev
 beacon = nexar, N52.7824, E4.72024, 011, nexar
-route247 =
-         011
+route278 =
+         011, nexar one hotel
          N52.7824, E4.72024
          N52.9069, E4.76583
          end, hold
 
 
-[approach248]
+[approach279]
 runway = rwy14, rev
 beacon = gikov, N53.1097, E4.53677,  144, gikov
-route248 =
-         144
+route279 =
+         144, gikov two hotel
          N53.1097, E4.53677
          N52.9069, E4.76583
          end, hold
 
-[approach249]
+[approach280]
 runway = rwy14, rev
-beacon = gikov, N53.1097, E4.53677,  130, gikov
-route249 =
+beacon = gikov, N53.1097, E4.53677, 130, gikov
+route280 =
+         130, gikov two julliet
          N53.1097, E4.53677
          N52.985, E4.77273 
          N52.9069, E4.76583
          end, hold
 
-[approach250]
+[approach281]
 runway = rwy14, rev
 beacon = atrix, N53.1385, E4.62464, 158, atrix
-route250 =
-         158
+route281 =
+         158, atrix two hotel
          N53.1385, E4.62464
          N52.9069, E4.76583
          end, hold
 
-[approach251]
+[approach282]
 runway = rwy14, rev
 beacon = atrix, N53.1385, E4.62464, 134, atrix
-route251 =
-         134
+route282 =
+         134, atrix two julliet
          N53.1385, E4.62464
          N53.0448, E4.77812
          N52.985, E4.77273 
          N52.9069, E4.76583
          end, hold
 
-[approach252]
+[approach283]
 runway = rwy14, rev
 beacon = peror, N53.0351, E5.02955, 229, peror
-route252 =
-         229
+route283 =
+         229, peror two hotel
          N53.0351, E5.02955
          N52.9069, E4.76583
          end, hold
@@ -6483,8 +6472,11 @@ runways =
 
 traffic = 60
 entrypoints =
-            358, Lno
-            337, nvo
+            288, nvo
+            239, modru
+            217, netex
+            012, LNO
+            177, rumer
 airlines =
 	  PNX, 6, JS32, Spinner, e
 	  PNX, 4, JS32, Spinner, sw
@@ -6524,15 +6516,6 @@ airlines =
         
 
 
-
-
-
-
-
-
-
-
-
 [departure146]
 runway = rwy15
 route1 =
@@ -6556,7 +6539,7 @@ route1 =
 [departure148]
 runway = rwy15
 route1 =
-       norvenich2a
+       noervenich2a
        N50.948666666667, E5.8576666666667
        N50.814, E5.9463333333333
        N50.818333333333, E6.0576666666667
@@ -6609,49 +6592,287 @@ route1 =
        N50.585833333333, E5.7103333333333
 
 
-[approach243]
+[approach284]
 runway = rwy15
-beacon = Lno, N50.5858, E5.71028, 012, olno
-route244 =
-         012
-         N50.5858, E5.71028
-         N50.7722, E5.7825
-         N51.019333333333, E5.8783333333333
+beacon = rumer, N51.620555555556, E5.8844444444444, 177, rumer
+route284 =
+         177, rumer two mike
+         N51.620555555556, E5.8844444444444
+         N51.249722222222, E5.9016666666667
+         N51.1833, E5.91591
+         N51.077333333333, E5.9416666666667
+         N51.01940, E5.87834
          end, hold
 
-
-
-[approach253]
+[approach285]
 runway = rwy15
-beacon = nvo, N50.8227, E6.63654, 288, noervenich 
-route253 =
-         288
-         N50.8227, E6.63654
-         N50.9567, E6.04722
-         N50.9719, E5.96043
-         N51.0194, E5.87834
+beacon = sopvi, N51.249722222222, E5.9016666666667, 171, sopvi
+route285 =
+         171
+         N51.249722222222, E5.9016666666667
+         N51.1833, E5.91591
+         N51.077333333333, E5.9416666666667
+         N51.01940, E5.87834
          end, hold
 
-[approach254]
+[approach286]
+runway = rwy15
+beacon = osgos, N51.1833, E5.91591, 171, osgos
+route286 =
+         171
+         N51.1833, E5.91591
+         N51.077333333333, E5.9416666666667
+         N51.01940, E5.87834
+         end, hold
+
+[approach287]
+runway = rwy15
+beacon = eh307, N51.077333333333, E5.9416666666667, 210, echo-hotel307
+route287 =
+         210
+         N51.077333333333, E5.9416666666667
+         N51.01940, E5.87834
+         end, hold
+
+[approach288]
+runway = rwy15
+beacon = netex, N51.328, E6.2744444444444, 217, netex
+route288 =
+         217, netex one mike
+         N51.328, E6.2744444444444
+         N51.112666666667, E6.0055555555556
+         N51.01940, E5.87834
+         end, hold
+
+[approach289]
+runway = rwy15
+beacon = bobmo, N51.112666666667, E6.0055555555556, 217, bobmo
+route289 =
+         217
+         N51.112666666667, E6.0055555555556
+         N51.01940, E5.87834
+         end, hold
+
+[approach290]
+runway = rwy15
+beacon = modru, N51.0175, E6.0944444444444, 239, modru
+route290 =
+         239, modru one mike
+         N51.0175, E6.0944444444444
+         N50.97190, E5.96043
+         N51.01940, E5.87834
+         end, hold
+
+[approach291]
+runway = rwy15
+beacon = nvo, N50.822666666667, E6.6388888888889, 288, noervenich
+route291 =
+         288, norvenich two mike
+         N50.822666666667, E6.6388888888889
+         N50.956666666667, E6.0566666666667
+         N50.97190, E5.96043
+         N51.01940, E5.87834
+         end, hold
+
+[approach292]
+runway = rwy15
+beacon = baxim, N50.956666666667, E6.0566666666667, 284, baxim
+route292 =
+         284
+         N50.956666666667, E6.0566666666667
+         N50.97190, E5.96043
+         N51.01940, E5.87834
+         end, hold
+
+[approach293]
+runway = rwy15
+beacon = LNO, N50.58580, E5.71028, 012, olno
+route293 =
+         012, olno one mike
+         N50.58580, E5.71028
+         N50.772166666667, E5.7933333333333
+         N51.01940, E5.87834
+         end, hold
+
+[approach294]
 runway = rwy15, rev
-beacon = Lno, N50.5858, E5.71028, 012, olno
-route254 =
+beacon = bemti, N50.772166666667, E5.7933333333333, 012, bemti
+route294 =
          012
-         N50.5858, E5.71028
-         N50.7722, E5.7825
-         N51.019333333333, E5.8783333333333
+         N50.772166666667, E5.7933333333333
+         N51.01940, E5.87834
          end, hold
 
-[approach255]
+
+[approach295]
 runway = rwy15, rev
-beacon = nvo, N50.8227, E6.63654, 288, noervenich 
-route255 =
-         288
-         N50.8227, E6.63654
-         N50.9567, E6.04722
-         N50.9719, E5.96043
-         N51.0194, E5.87834
+beacon = rumer, N51.620555555556, E5.8844444444444, 177, rumer
+route295 =
+         177, rumer two mike
+         N51.620555555556, E5.8844444444444
+         N51.249722222222, E5.9016666666667
+         N51.1833, E5.91591
+         N51.077333333333, E5.9416666666667
+         N51.01940, E5.87834
          end, hold
+
+[approach296]
+runway = rwy15, rev
+beacon = sopvi, N51.249722222222, E5.9016666666667, 171, sopvi
+route296 =
+         171
+         N51.249722222222, E5.9016666666667
+         N51.1833, E5.91591
+         N51.077333333333, E5.9416666666667
+         N51.01940, E5.87834
+         end, hold
+
+[approach297]
+runway = rwy15, rev
+beacon = osgos, N51.1833, E5.91591, 171, osgos
+route297 =
+         171
+         N51.1833, E5.91591
+         N51.077333333333, E5.9416666666667
+         N51.01940, E5.87834
+         end, hold
+
+[approach298]
+runway = rwy15, rev
+beacon = eh307, N51.077333333333, E5.9416666666667, 210, echo-hotel307
+route298 =
+         210
+         N51.077333333333, E5.9416666666667
+         N51.01940, E5.87834
+         end, hold
+
+[approach290]
+runway = rwy15, rev
+beacon = netex, N51.328, E6.2744444444444, 217, netex
+route290 =
+         217, netex one mike
+         N51.328, E6.2744444444444
+         N51.112666666667, E6.0055555555556
+         N51.01940, E5.87834
+         end, hold
+
+[approach291]
+runway = rwy15, rev
+beacon = bobmo, N51.112666666667, E6.0055555555556, 217, bobmo
+route291 =
+         217
+         N51.112666666667, E6.0055555555556
+         N51.01940, E5.87834
+         end, hold
+
+[approach292]
+runway = rwy15, rev
+beacon = modru, N51.0175, E6.0944444444444, 239, modru
+route292 =
+         239, modru one mike
+         N51.0175, E6.0944444444444
+         N50.97190, E5.96043
+         N51.01940, E5.87834
+         end, hold
+
+[approach293]
+runway = rwy15, rev
+beacon = nvo, N50.822666666667, E6.6388888888889, 288, noervenich
+route293 =
+         288, norvenich two mike
+         N50.822666666667, E6.6388888888889
+         N50.956666666667, E6.0566666666667
+         N50.97190, E5.96043
+         N51.01940, E5.87834
+         end, hold
+
+[approach294]
+runway = rwy15, rev
+beacon = baxim, N50.956666666667, E6.0566666666667, 284, baxim
+route294 =
+         284
+         N50.956666666667, E6.0566666666667
+         N50.97190, E5.96043
+         N51.01940, E5.87834
+         end, hold
+
+[approach295]
+runway = rwy15, rev
+beacon = LNO, N50.58580, E5.71028, 012, olno
+route295 =
+         012, olno one mike
+         N50.58580, E5.71028
+         N50.772166666667, E5.7933333333333
+         N51.01940, E5.87834
+         end, hold
+
+
+[approac296]
+runway = rwy15, rev
+beacon = bemti, N50.772166666667, E5.7933333333333, 012, bemti
+route296 =
+         012
+         N50.772166666667, E5.7933333333333
+         N51.01940, E5.87834
+         end, hold
+
+#transition rwy03
+[approach297]
+runway = rwy15
+beacon = NW, N51.01940, E5.87834, 183 maastricht
+route297 =
+         183, ababi one alfa
+         N51.01940, E5.87834
+         N50.837, E5.8561111111111, 3500, 220
+         N50.7715, E5.785, 3000, 210
+         N50.818833333333, E5.6827777777778, 2000, 210
+         N50.840833333333, E5.7086111111111, 1800, 160
+         4.0, 1000, 160
+
+[approach298]
+runway = rwy15
+beacon = berir, N50.7715, E5.785, 303, berir
+route298 =
+         303, berir one alfa
+         N50.7715, E5.785, 3000, 210
+         N50.818833333333, E5.6827777777778, 2000, 210
+         N50.840833333333, E5.7086111111111, 1800, 160
+         4.0, 1000, 160
+
+
+
+
+#transitionsrwy21
+[approach299]
+runway = rwy15, rev
+beacon = bogru, N51.051833333333, E5.9211111111111, 211, bogru
+route299 =
+         211, bogru one bravo
+         N51.051833333333, E5.9211111111111, 3000, 210
+         N51.01940, E5.87834
+         N51.0105, E5.8725
+         6.3, 2500, 160
+
+[approach300]
+runway = rwy15, rev
+beacon = dinak, N51.016333333333, E6.0005555555556, 301, dinak
+route299 =
+         301, dinak one bravo
+         N51.016333333333, E6.0005555555556, 4000
+         N51.01940, E5.87834, 3000, 210
+         N51.0105, E5.8725
+         6.3, 2500, 160
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6701,7 +6922,7 @@ code = MZ
 runways =
         rwy24, 09, N51.5115, E3.7295, 089, 3280, 623, 377, 6, 3, 0, 0, 0, 0, 119.25
 
-[airport16]
+
 
 
 
@@ -6898,8 +7119,8 @@ points =
 [area11]
 #Brussels control area East Four A
 shape = polygon
-altitude = -
-name = KD
+altitude = -1
+name = x
 draw = 0
 labelpos = N0.0, E0.0
 points =
@@ -6914,7 +7135,6 @@ shape = polygon
 altitude = -1
 name = x
 draw = 0
-labelpos = N53.172, E5.288
 points =
        N55, E5
        N55, E6.5
@@ -7093,8 +7313,8 @@ points =
 [area20]
 #Nieuw Milligen terminal control area A
 shape = polygon
-altitude = 5500
-name = x
+altitude = -1
+name = X
 draw = 0
 points =
        N53.666666666667, E6.5
@@ -8009,8 +8229,8 @@ points =
 [area57]
 #Nieuw Milligen terminal control area A
 shape = polygon
-altitude = -1
-name = x
+altitude = 5500
+name = KD
 draw = 0
 labelpos = N0.0, E0.0
 points =
@@ -8256,7 +8476,7 @@ points =
 
 
 [area78]
-#Amsterdam control area west
+
 shape = polygon
 altitude = 5500
 name = X
@@ -8277,15 +8497,13 @@ points =
        N52.195833333333, E5.0733333333333
 
 [area80]
-#Nieuw Milligen control area North
 shape = polygon
 altitude = 5500
-name = x
-draw = 0
+name = X
 labelpos = N53.172, E5.288
 points =
-       N55, E5
-       N55, E5
+       N55.0, E5.0
+       N55.0, E5.0
 
 
 [configurations]
