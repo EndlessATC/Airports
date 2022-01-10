@@ -5,6 +5,7 @@
 # Navedata such as beacons, STARs, SIDs, and final approach data from https://skyvector.com/
 # Operating airlines for KIAH https://www.fly2houston.com/iah/airlines
 # Operation airlines for KHOU https://www.fly2houston.com/hou/airlines
+# Rules for starting an approach at the IF https://blog.aopa.org/aopa/2014/01/28/three-ways-to-start-an-instrument-approach-vectors-iaf-and-intermediate-fix-if/
 # Traffic patterns from my aviation knowledge and living in the Houston area
 #
 # This build is intended match the traffic flow during calm / prevaling wind conditions. Therefore,
@@ -82,7 +83,7 @@ letters = 2
 separation = 3
 automatic = true
 name = houston approach, houston departure
-center = N29.848, W95.060
+center = N29.8078, W95.2985
 magneticvar = 2.3
 
 beacons =
@@ -90,6 +91,7 @@ beacons =
 	HOOTI, N30.1153, W94.7353, 0, HOOTI
 #	GRIZL, N30.0345, W94.7698, 0, GRIZL
 	ZAPPO, N30.0078, W94.8195, 0, ZAPPO
+	RAIDS, N30.0078, W94.9973, 0, RAIDS
 	PEPBI, N30.2827, W95.4297, 344, PEPBI 
 
 # KIAH 26L Approach Becons and Missed Approach Hold
@@ -97,6 +99,7 @@ beacons =
 	GARRR, N29.9757, W94.7627, 0, GARRR
 	VANNN, N29.9937, W94.8200, 0, VANNN
 #	MKAYE, N29.9945, W94.9158, 0, MKAYE
+	GRIEG, N29.9940, W94.9975, 0, GRIEG
 	LUCEP, N29.9932, W95.7838, 270, LUCEP
 
 # KIAH 27 Approach Becons and Missed Approach Hold
@@ -107,6 +110,7 @@ beacons =
 #	GEYGR, N29.9132, W94.8093, 0, GEYGR
 #	SYYKO, N29.9615, W94.8622, 0, SYYKO
 #	TRANN, N29.9787, W94.9163, 0, TRANN
+	DENTO, N29.9782, W94.9968, 0, DENTO
 	TICOY, N29.7018, W95.5918, 215, TICOY
 
 # KIAH DOBI TWO ARRIVAL, KIAH26L at ODISS>BOZZZ
@@ -155,9 +159,11 @@ beacons =
 #	VZEEE, N30.1522, W94.6245, 0, VZEEE
 #	SOFFT, N30.0695, W94.6150, 0, SOFFT
 
-# KHOU 13R MISSED APCH FIX
+# KHOU 13R IF AND MISSED APCH FIX
+	JABBS, N29.8067, W95.4705, 0, JABBS
 	VUH, N29.2702, W94.8683, 0, VUH
 # KHOU 22 MISSED APCH FIX
+	KAFDO, N29.8012, W95.1077, 0, KAFDO
 	ACOLA, N29.4613, W95.5057, 221, ACOLA
 
 # KHOU BAYY FOUR ARRIVAL (STARTS AT BAYYY SEE SOUL ONE FOR POSITION)
@@ -180,6 +186,38 @@ beacons =
 #	VILLI, N29.6287, W95.3873, 0, VILLI
 #	MAAHH, N29.6057, W95.1495, 0, MAAHH
 
+# KHOU KIDDZ FOUR ARRIVAL > CRSTY
+	KIDDZ, N30.2238, W96.2158, 0, KIDDZ
+	SNIFY, N30.1585, W96.1813, 0, SNIFY
+	QTRBK, N30.0602, W96.1283, 0, QTRBK
+	RVEEE, N29.8280, W95.9950, 0, RVEEE
+	AAHZZ, N29.7312, W95.9323, 0, AAHZZ
+	GLUVR, N29.6520, W95.8813, 0, GLUVR
+
+# KHOU PUCKS FOUR ARRIVAL ENTRY BAYYY
+	PUCKS, N29.4087, W94.6630, 0, PUCKS
+	SQRLL, N29.4367, W94.6978, 0, SQRLL
+	KEMAH, N29.5220, W94.8013, 0, KEMAH
+	WWILD, N29.5555, W94.8427, 0, WWILD
+	JCNTO, N29.7143, W95.0383, 0, JCNTO
+
+# KHOU TKNIQ THREE DOCCC > FRDDY OR DOCCC > KEMAH
+	TKNIQ, N29.2402, W94.4668, 0, TKNIQ
+	DOCCC, N29.3628, W94.6772, 0, DOCC
+
+# KHOU WAPPL SIX
+	WAPPL, N30.2322, W94.3313, 0, WAPPL
+	WLMOR, N30.1532, W94.6252, 0, WLMOR
+	HUDZY, N30.1045, W94.8093, 0, HUDZY
+	CLWSN, N30.0740, W94.9188, 0, CLWSN
+	SWWAA, N30.0095, W95.1577, 0, SWWAA
+	PUSHN, N29.8613, W95.2012, 0, PUSHN
+	BUGZY, N29.7637, W95.2318, 0, BUGZY
+# KHOU WAPPL SIX > VILLI
+	PRTCH, N29.7240, W95.2433, 0, PRTCH
+	MOLLR, N29.6570, W95.2772, 0, MOLLR
+# KHOU WAPPL SIX > MAAHH
+	RTWNG, N29.6360, W95.2263, 0, RTWNG
 
 line1 =
 	N29.13633, W95.08965
@@ -221,9 +259,9 @@ name = George Bush Intercontinental Houston Airport, Houston
 code = KIAH
 
 runways =
-	rwyKIAH26R, 26R, N30.0072, W95.3303, 270, 9000, 0, 0, 94, 3, 270, 3, 90, RAIDS, 17.4, KICKM, 16.9, 120.725, Houston Tower
-	rwyKIAH26L, 26L, N29.9935, W95.3253, 270, 9402, 0, 0, 93, 3, 270, 3, 90, GRIEG, 17.01, JELLI, 17.1, 125.35, Houston Tower
-	rwyKIAH27, 27, N29.9777, W95.3025, 270, 10000, 0, 0, 84, 3, 270, 3, 90, DENTO, 15.9, MEDIC, 18.2, 135.15, Houston Tower
+	rwyKIAH26R, 26R, N30.0072, W95.3303, 270, 9000, 0, 0, 94, 3, 270, 3, 90
+	rwyKIAH26L, 26L, N29.9935, W95.3253, 270, 9402, 0, 0, 93, 3, 270, 3, 90
+	rwyKIAH27, 27, N29.9777, W95.3025, 270, 10000, 0, 0, 84, 3, 270, 3, 90
 	rwyKIAH15L, 15L, N29.9878, W95.3578, 152.0, 12001, 0, 0, 95
 	rwyKIAH15R, 15R, N29.9878, W95.3613, 152.0, 9999, 0, 0, 95
 
@@ -302,9 +340,9 @@ airlines =
 name = Houston Hobby
 code = OU
 runways =
-	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44, KAFDO, 12.2, CARCO, 14.3, 118.7, TOWER 
+	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44 
 	rwyKHOU13L, 13L, N29.6526, W95.2839, 133.9, 5148, 0, 0, 45
-	rwyKHOU13R, 13R, N29.6510, W95.2855, 134, 7599, 0, 0, 44, 3, 134, 3, 314, JABBS, 13.6, BUNER, 16.4, 118.7, TOWER
+	rwyKHOU13R, 13R, N29.6510, W95.2855, 134, 7599, 0, 0, 44, 3, 134, 3, 314
 
 flow = 10
 
@@ -328,7 +366,7 @@ airlines =
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
 	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
-	
+
 ##############################################################	
 [configurations]
 ##############################################################
@@ -343,7 +381,7 @@ config1=
 	0, rwyKHOU13R, land
 
 ##############################################################
-[approach1]
+[approach1001]
 ##############################################################
 
 # Final Approach to KIAH26R from HOOTI
@@ -361,7 +399,7 @@ route1 =
 	17.4, 4000, 200
 
 ##############################################################
-[approach2]
+[approach1002]
 ##############################################################
 
 # Final Approach to KIAH26R from ZAPPO
@@ -375,7 +413,7 @@ route1 =
 	17.4, 4000, 200
 
 ##############################################################
-[approach3]
+[approach1003]
 ##############################################################
 
 # Final Approach to KIAH 26L from BOZZZ
@@ -393,7 +431,7 @@ route1 =
 	17.01, 5000, 200
 
 ##############################################################
-[approach4]
+[approach1004]
 ##############################################################
 
 # Final Approach to KIAH 26L VANNN
@@ -409,7 +447,7 @@ route1 =
 	17.01, 5000, 200
 
 ##############################################################
-[approach5]
+[approach1005]
 ##############################################################
 
 # Final Approach to KIAH 26L from GARRR
@@ -427,7 +465,7 @@ route1 =
 	17.01, 5000, 200
 
 ##############################################################
-[approach6]
+[approach1006]
 ##############################################################
 
 # Final Approach to KIAH 27 from CLSIK
@@ -447,7 +485,7 @@ route1 =
 	15.9, 2000, 200
 
 ##############################################################
-[approach7]
+[approach1007]
 ##############################################################
 
 # Final Approach to KIAH 27 from SILLS
@@ -463,14 +501,14 @@ route1 =
 	15.9, 2000, 200
 
 ##############################################################
-[approach8]
+[approach1008]
 ##############################################################
 
 # Final Approach to KIAH 27 from RDFSH
 runway = rwyKIAH27
 beacon = RDFSH
 route1 = 
-	313, ILS227, RDFSH ILS 27
+	313, ILS227, RDFSH I L S 2 7
 # RDFSH
 	N29.8292, W94.7158, 6000, 210
 # GEYGR
@@ -480,10 +518,52 @@ route1 =
 # TRANN
 	N29.9787, W94.9163, 3000
 # DENTO ILS 27 Intercept
-	15.9, 2000, 200
+	15.9, 2000
 
 ##############################################################
-[approach9]
+[approach1009]
+##############################################################
+
+# Final Approach to KIAH 27 from DENTO
+runway = rwyKIAH27
+beacon = DENTO
+route1 = 
+	313, ILS227, DENTO I L S 2 7
+# DENTO
+	N29.9782, W94.9968, 2000, 210
+# DENTO ILS 27 Intercept
+	10, 2000
+
+##############################################################
+[approach1010]
+##############################################################
+
+# Final Approach to KIAH26R from RAIDS
+runway = rwyKIAH26R
+beacon = RAIDS
+route1 =
+	200, ILS26R, RAIDS I L S 2 6 R
+# RAIDS
+	N30.0078, W94.9973, 4000, 210
+# ILS 26R Intercept
+	15, 4000
+
+##############################################################
+[approach1011]
+##############################################################
+
+# Final Approach to KIAH 26L from GRIEG
+runway = rwyKIAH26L
+beacon = GRIEG
+route1 = 
+	287, ILS26L, GRIEG I L S 2 6 L
+# GRIEG
+	N29.9940, W94.9975, 5000, 210
+# ILS 26L Intercept
+	15, 4000
+
+##############################################################
+[approach1101]
 ##############################################################
 
 # DOOBI TWO ARRIVAL Expect KIAH 26L
@@ -505,7 +585,7 @@ route1 =
 	END, 216
 
 ##############################################################
-[approach10]
+[approach1102]
 ##############################################################
 
 # DRILLER FIVE TO 26R VIA SKLER
@@ -525,7 +605,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach11]
+[approach1103]
 ##############################################################
 
 # DRILLER FIVE TO 26L VIA ZOEEE
@@ -545,7 +625,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach12]
+[approach1104]
 ##############################################################
 
 # DRILLER FIVE TO 27 VIA BYSUN
@@ -569,7 +649,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach13]
+[approach1105]
 ##############################################################
 
 # LINKK ONE ARRIVAL TO GARRR 26L OR 26R
@@ -587,7 +667,7 @@ route1 =
 	END, 290
 
 ##############################################################
-[approach14]
+[approach1106]
 ##############################################################
 
 # LINKK ONE ARRIVAL TO RDFSH
@@ -605,7 +685,7 @@ route1 =
 	END, 313
 
 ##############################################################
-[approach15]
+[approach1107]
 ##############################################################
 
 # MSCOT FOUR ARRIVAL SKLER
@@ -625,7 +705,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach16]
+[approach1108]
 ##############################################################
 
 # MSCOT FOUR ARRIVAL ZOEEE
@@ -645,7 +725,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach17]
+[approach1109]
 ##############################################################
 
 # MSCOT FOUR ARRIVAL BYSUN
@@ -669,7 +749,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach18]
+[approach1110]
 ##############################################################
 
 # SOULL ONE TO GARRR
@@ -687,7 +767,7 @@ route1 =
 	END, 290
 
 ##############################################################
-[approach19]
+[approach1111]
 ##############################################################
 
 # SOULL ONE TO RDFSH
@@ -705,7 +785,7 @@ route1 =
 	END, 336
 
 ##############################################################
-[approach20]
+[approach1112]
 ##############################################################
 
 # TEJAS FOUR TO 26R
@@ -729,7 +809,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach21]
+[approach1113]
 ##############################################################
 
 # TEJAS FOUR TO 26L
@@ -754,7 +834,7 @@ route1 =
 
 
 ##############################################################
-[approach22]
+[approach1114]
 ##############################################################
 
 # TEJAS FOUR TO 27
@@ -780,7 +860,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach23]
+[approach1115]
 ##############################################################
 
 # ZEEKK TWO TO HOOTI 26R
@@ -799,7 +879,7 @@ route1 =
 # END
 	END, 194
 ##############################################################
-[approach24]
+[approach1116]
 ##############################################################
 
 # ZEEKK TWO TO BOZZZ 26L
@@ -817,7 +897,7 @@ route1 =
 	END, 216
 
 ##############################################################
-[approach25]
+[approach1117]
 ##############################################################
 
 # ZEEKK TWO TO CLSIK 27
@@ -839,9 +919,36 @@ route1 =
 	N30.0030, W94.6268, 4000, 210
 # END
 	END, 185
+##############################################################
+[approach2001]
+##############################################################
+
+# ILS AAPPROACH TO 13 STARTING AT JABBS
+runway = rwyKHOU13R
+beacon = JABBS
+route1 = 
+	049, ILS13R, JABBS I L S 1 3 R
+# JABBS
+	N29.8067, W95.4705, 2000, 210
+# INTERCEPT ADJUSTED TO FIT THE SIMULATION
+	10, 2000
 
 ##############################################################
-[approach26]
+[approach2002]
+##############################################################
+
+# ILS AAPPROACH TO 22 STARTING AT KAFDO
+runway = rwyKHOU22
+beacon = KAFDO
+route1 = 
+	049, ILS22, KAFDO I L S 2 2
+# KAFDO
+	N29.8012, W95.1077, 2000, 210
+# INTERCEPT ADJUSTED TO FIT THE SIMULATION
+	10, 2000
+
+##############################################################
+[approach2101]
 ##############################################################
 
 # BAYYY FOUR TO 13R
@@ -867,7 +974,7 @@ route1 =
 	END, 311
 
 ##############################################################
-[approach27]
+[approach2102]
 ##############################################################
 
 # BELLR FOUR TO 13R
@@ -889,7 +996,7 @@ route1 =
 	END, 42
 
 ##############################################################
-[approach28]
+[approach2103]
 ##############################################################
 
 # BELLR FOUR TO 22
