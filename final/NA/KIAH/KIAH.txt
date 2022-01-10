@@ -4,6 +4,7 @@
 # Template file was forked from https://github.com/EndlessATC/Airports
 # Navedata such as beacons, STARs, SIDs, and final approach data from https://skyvector.com/
 # Operating airlines for KIAH https://www.fly2houston.com/iah/airlines
+# Operation airlines for KHOU https://www.fly2houston.com/hou/airlines
 # Traffic patterns from my aviation knowledge and living in the Houston area
 #
 # This build is intended match the traffic flow during calm / prevaling wind conditions. Therefore,
@@ -27,6 +28,7 @@
 # - only entry waypoints for STARs and missed approach holds are visible
 # - commented out beacons are provied for reference for STARs and SIDs
 # - moved center of airspace to better match the working airspace
+# - removed random green line that was to the west of airspace
 #
 # Airport 1
 # - set climbaltitude = 3000 to match SIDS real life
@@ -37,13 +39,21 @@
 # - updated airlines airplane types to match equipment that flies into KIAH
 # - increased frequency of United Airlines to 10, they fill the skies here
 #
+# Airport 2
+# - set climbaltitude = 3000 to match SIDS real life
+# - update airliner list
+# - added flow of 10
+#
 # Configurations
 # -Removed config2
 # -updated config1 to match calm / prevailing wind pattern
 #
-# KIAH Approachs
+# KIAH Transitions and Arrivals Approaches 1-25
 # - added instrument approach procedures for 26R, 26L, and 27, activates ILS LOC automatically
 # - modified, added the following STARs DOBI TWO, DRLLR FIVE, LINKK ONE, SOULL ONE, TEJAS FOUR, and ZEEKK TWO
+#
+# KHOU Arivvals Approaches 26-
+# - modified, added the followign STARs, BAYYY4, BELLR4
 #
 # Version 1.0
 # Author Unknown
@@ -55,7 +65,7 @@
 [airspace]
 ##############################################################
 
-radius = 55
+radius = 70
 zoom = 4.0 
 elevation = 97
 floor = 1500
@@ -122,22 +132,22 @@ beacons =
 	LINKK, N29.5305, W94.2967, 0, LINKK
 #	GILLL, N29.6765, W94.5478, 0, GILLL
 
-#KIAH MSCOT FOUR FEEDS INTO DOMNO
+# KIAH MSCOT FOUR FEEDS INTO DOMNO
 	MSCOT, N30.2610, W95.8293, 0, MSCOT
 #	HWKII, N30.1813, W95.6640, 0, HWKII
 
-#KIAH SOULL ONE ARRIVAL
+# KIAH SOULL ONE ARRIVAL
 	BAYYY, N29.3788, W94.3710, 0, BAYYY
 #	SOULL, N29.5138, W94.5803, 0, SOULL
 
-#KIAH TEJAS FOUR ARRIVAL FEEDS INTO DRLLR
+# KIAH TEJAS FOUR ARRIVAL FEEDS INTO DRLLR
 	TEJAS, N29.6877, W95.9037, 0, TEJAS
 #	RIDLR, N29.7823, W95.7050, 0, RIDLR
 #	BEEEP, N29.8473, W95.5642, 0, BEEEP
 #	HOWLN, N29.8937, W95.4658, 0, HOWLN
 #	SHIVV, N29.8935, W95.3733, 0, SHIVV
 
-#KIAH ZEEKK TWO ARRIVAL
+# KIAH ZEEKK TWO ARRIVAL
 	ZEEKK, N30.5367, W94.5047, 0, ZEEKK
 #	BLUUZ, N30.3577, W94.6465, 0, BLUUZ
 #	TABRR, N30.2292, W94.6907, 0, TABRR
@@ -145,9 +155,30 @@ beacons =
 #	VZEEE, N30.1522, W94.6245, 0, VZEEE
 #	SOFFT, N30.0695, W94.6150, 0, SOFFT
 
-#KHOU
-	EFD, N29.6607, W95.2805, 0, EFD
+# KHOU 13R MISSED APCH FIX
+	VUH, N29.2702, W94.8683, 0, VUH
+# KHOU 22 MISSED APCH FIX
+	ACOLA, N29.4613, W95.5057, 221, ACOLA
 
+# KHOU BAYY FOUR ARRIVAL (STARTS AT BAYYY SEE SOUL ONE FOR POSITION)
+#	PUCKS, N29.4092, W94.6635, 0, PUCKS
+#	FRDDY, N29.4877, W94.8782, 0, FRDDY
+#	FIGGG, N29.5827, W95.1413, 0, FIGGG
+#	IVEEE, N29.6117, W95.3022, 0, IVEEE
+#	VILLI, N29.6293, W95.3873, 0, VILLI
+#	ALLLY, N29.6617, W95.4260, 0, ALLLY
+
+# KHOU BELLR FOUR ARRIVAL
+	BELLR, N29.3257, W96.0892, 0, BELLR
+#	HNTRR, N29.4708, W95.8790, 0, HNTRR
+# KHOU BELLER FOUR TO 13R
+#	HACKT, N29.6060, W95.6552, 0, HACKT
+#	CRSTY, N29.6395, W95.6003, 0, CRSTY
+#	SEUSS, N29.6632, W95.5738, 0, SEUSS
+# KHOU BELLER FOUR TO 22
+#	AWSTN, N29.5827, W95.5310, 0, AWSTN
+#	VILLI, N29.6287, W95.3873, 0, VILLI
+#	MAAHH, N29.6057, W95.1495, 0, MAAHH
 
 
 line1 =
@@ -181,35 +212,6 @@ line2 =
 	N29.38428, W94.75962
 	N29.48452, W94.57446
 	N29.67041, W94.09966
-
-line3 =
-	N30.79068, W96.65428
-	N30.61015, W96.51191
-	N30.55142, W96.39357
-	N30.48522, W96.31895
-	N30.41158, W96.28794
-	N30.37639, W96.24195
-	N30.37967, W96.18097
-	N30.36238, W96.13121
-	N30.32451, W96.09258
-	N30.25828, W96.09860
-	N30.16369, W96.14924
-	N30.09170, W96.15301
-	N30.04233, W96.10992
-	N29.93122, W96.07814
-	N29.75836, W96.05762
-	N29.66573, W96.03033
-	N29.64711, W95.97912
-	N29.63173, W95.90541
-	N29.60101, W95.75800
-	N29.55882, W95.65589
-	N29.50523, W95.59915
-	N29.41823, W95.57158
-	N29.29788, W95.57320
-	N29.20561, W95.58912
-	N29.14137, W95.61933
-	N29.07430, W95.56979
-	N29.00433, W95.44045
 
 ##############################################################
 [airport1]
@@ -300,32 +302,33 @@ airlines =
 name = Houston Hobby
 code = OU
 runways =
-	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44, KAFDO, 10.9, CARCO, 14.3, 118.7, TOWER 
+	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44, KAFDO, 12.2, CARCO, 14.3, 118.7, TOWER 
 	rwyKHOU13L, 13L, N29.6526, W95.2839, 133.9, 5148, 0, 0, 45
 	rwyKHOU13R, 13R, N29.6510, W95.2855, 134, 7599, 0, 0, 44, 3, 134, 3, 314, JABBS, 13.6, BUNER, 16.4, 118.7, TOWER
 
-inboundbeacon = EFD
+flow = 10
+
+climbaltitude = 3000
+
+entrypoints=
+	130, BAYYY
+	240, BELLR
 
 airlines = 
-	swa, 10, b733/b735/b737/b37m/b738/b38m, southwest, nswe
+# Commerical Airliners
+	aay, 1, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, n
 	dal, 3, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, e
-	aay, 2, a319/a320/b752/md81/md82/md83/md87/md88, allegiant, we
-	eny, 1, e140/e145/e170/e175, envoy, we
-	pdt, 1, dh8a/dh8c/e145, piedmont, e
-	rpa, 1, e170/e75s/e75l, brickyard, e
-	skw, 1, crj7/e175, sky west, n
-	jia, 1, crj7/crj9, blue streak, w
-	jsx, 1, e135/e145, big stripe, ew
-	usc, 1, c208/lj35, star check, n
-	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, n
-	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, n
-# specials
-	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, new
-	ujc, 1, e135/j328, ultimate, e
-	jdi, 1, gl5t/glex/glf5/glf6, jedi, n
-	viv, 1, a320/a20n/a21n, aeroenlaces, s
-	
+	swa, 10, b733/b735/b737/b37m/b738/b38m, southwest, nswe
 
+# Commuter
+	ash, 1, crj7/crj9, air shuttle, n
+	skw, 1, crj7/e175, sky west, n
+	jsx, 1, e135/e145, big stripe, ew
+
+# Private
+	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
+	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
+	
 ##############################################################	
 [configurations]
 ##############################################################
@@ -709,7 +712,7 @@ route1 =
 runway = rwyKIAH26R
 beacon = TEJAS 
 route1 =
-	59, TEJAS4 ZOEEE, TEJAS 4 ZOEEE
+	59, TEJAS4, TEJAS 4 ZOEEE
 # TEJAS
 	N29.6877, W95.9037, 13000, 250
 # RIDLR
@@ -733,7 +736,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = TEJAS 
 route1 =
-	59, TEJAS4 SMOCR, TEJAS 4 SMOCR
+	59, TEJAS4, TEJAS 4 SMOCR
 # TEJAS
 	N29.6877, W95.9037, 13000, 250
 # RIDLR
@@ -758,7 +761,7 @@ route1 =
 runway = rwyKIAH27
 beacon = TEJAS 
 route1 =
-	59, TEJAS4 SHIVV, TEJAS 4 SHIVV
+	59, TEJAS4, TEJAS 4 SHIVV
 # TEJAS
 	N29.6877, W95.9037, 13000, 250
 # RIDLR
@@ -784,7 +787,7 @@ route1 =
 runway = rwyKIAH26R
 beacon = ZEEKK
 route1 =
-	211, ZEEKK2 TABRR, ZEEKK 2 TABRR
+	211, ZEEKK2, ZEEKK 2 TABRR
 # ZEEKK
 	N30.5367, W94.5047, 13000, 250
 # BLUUZ
@@ -803,7 +806,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = ZEEKK
 route1 =
-	211, ZEEKK2 ODISS, ZEEKK 2 ODISS
+	211, ZEEKK2, ZEEKK 2 ODISS
 # ZEEKK
 	N30.5367, W94.5047, 13000, 250
 # BLUUZ
@@ -821,7 +824,7 @@ route1 =
 runway = rwyKIAH27
 beacon = ZEEKK
 route1 =
-	211, ZEEKK2 PPUNK, ZEEKK 2 PPUNK
+	211, ZEEKK2, ZEEKK 2 PPUNK
 # ZEEKK
 	N30.5367, W94.5047, 13000, 250
 # BLUUZ
@@ -836,6 +839,76 @@ route1 =
 	N30.0030, W94.6268, 4000, 210
 # END
 	END, 185
+
+##############################################################
+[approach26]
+##############################################################
+
+# BAYYY FOUR TO 13R
+runway = rwyKHOU13R
+beacon = BAYYY
+route1 = 
+	274, BAYYY4, BAYYY 4
+# BAYYY
+	N29.3788, W94.3710, 17000, 280
+# PUCKS
+	N29.4092, W94.6635, 12000
+# FRDDY
+	N29.4877, W94.8782, 9000, 240
+# FIGGG
+	N29.5827, W95.1413, 7000
+# IVEEE
+	N29.6117, W95.3022, 6000, 210
+# VILLI
+	N29.6293, W95.3873
+# ALLLY
+	N29.6617, W95.4260
+# END
+	END, 311
+
+##############################################################
+[approach27]
+##############################################################
+
+# BELLR FOUR TO 13R
+runway = rwyKHOU13R
+beacon = BELLR
+route1 = 
+	049, BELLR4, BELLR 4
+# BELLR
+	N29.3257, W96.0892, 12000, 250
+# HNTRR
+	N29.4708, W95.8790, 9000
+# HACKT
+	N29.6060, W95.6552, 7000
+# CRSTY
+	N29.6395, W95.6003, 6000, 210
+# SEUSS
+	N29.6632, W95.5738
+# END
+	END, 42
+
+##############################################################
+[approach28]
+##############################################################
+
+# BELLR FOUR TO 22
+runway = rwyKHOU22
+beacon = BELLR
+route1 = 
+	049, BELLR4, BELLR 4
+# BELLR
+	N29.3257, W96.0892, 12000, 250
+# HNTRR
+	N29.4708, W95.8790, 9000
+# AWSTN
+	N29.5827, W95.5310, 7000, 210
+# VILLI
+	N29.6287, W95.3873, 6000
+# MAAHH
+	N29.6057, W95.1495
+# END
+	END, 110
 
 ##############################################################
 [planetypes]
