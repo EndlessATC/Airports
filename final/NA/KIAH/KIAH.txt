@@ -8,9 +8,7 @@
 # Rules for starting an approach at the IF https://blog.aopa.org/aopa/2014/01/28/three-ways-to-start-an-instrument-approach-vectors-iaf-and-intermediate-fix-if/
 # Traffic patterns from my aviation knowledge and living in the Houston area
 #
-# This build is intended match the traffic flow during calm / prevaling wind conditions. Therefore,
-# this file only has one runway configuration and the STARs that feed those runways. SIDs are also
-# matched to the most common depature runways.
+# This build is intended match the traffic flow during calm / prevaling wind conditions focused on arrivals from the east. Therefore, this file only has one runway configuration and the STARs that feed those runways. SIDs are also matched to the most common depature runways. 13R is the common arrival for Hobby. 22 and 4 can flip as they are crosswind for a prevailing SE wind. I chose 22.
 #		
 # General
 # - Added formatting to make major sections stand out
@@ -30,6 +28,7 @@
 # - commented out beacons are provied for reference for STARs and SIDs
 # - moved center of airspace to better match the working airspace
 # - removed random green line that was to the west of airspace
+# - added airspace boundary to restrict size of playing area. Generally marks 15000 foot entry point for STARs
 #
 # Airport 1
 # - set climbaltitude = 3000 to match SIDS real life
@@ -49,12 +48,15 @@
 # -Removed config2
 # -updated config1 to match calm / prevailing wind pattern
 #
-# KIAH Transitions and Arrivals Approaches 1-25
-# - added instrument approach procedures for 26R, 26L, and 27, activates ILS LOC automatically
+# KIAH Transitions to Final Approach Approaches 1001-1011
+# - added instrument approach transitions, aircraft assigned these procedures will follow a route to ILS and switch over and lock automatically
+#
+# KIAH Arrivals 1101-1117
 # - modified, added the following STARs DOBI TWO, DRLLR FIVE, LINKK ONE, SOULL ONE, TEJAS FOUR, and ZEEKK TWO
 #
-# KHOU Arivvals Approaches 26-
-# - modified, added the followign STARs, BAYYY4, BELLR4
+# KHOU Transitions to final Approach Approaches 2001-2002
+# - added instrument approach transitions, aircraft assigned these procedures will follow a route to ILS and switch over and lock automatically
+# - modified, added the followign STARs, BAYYY FOUR, BELLR FOUR ,KIDDZ FOUR, PUCKS FOUR, TKNIQ THREE, and WAPPL SIX
 #
 # Version 1.0
 # Author Unknown
@@ -218,13 +220,45 @@ beacons =
 # KHOU WAPPL SIX > MAAHH
 #	RTWNG, N29.6360, W95.2263, 0, RTWNG
 
+# COMMON DEPATURES
+# BELTWY SEVEN (NORTHWEST) KIAH26L KHOU13R KHOU22
+#	DREMR, N30.3018, W95.4192, 0, DREMR
+#	LITLD, N30.5053, W95.4688, 0, LITLD
+#	BLTWY, N30.6062, W95.4915, 0, BLTWY
+# LURIC EIGHT (NORTHEAST) KIAH26L KHOU13R KHOU22
+#	KNTKY, N30.0868, W95.2613, 0, KNTKY
+#	PEETY, N30.2510, W95.1297, 0, PEETY
+#	DARTR, N30.4037, W95.0072, 0, DARTR
+#	MUSIQ, N30.5533, W94.8927, 0, MUSIQ
+#	CLAVN, N31.0077, W94.5418, 0, CLAVN
+# STYCK EIGHT (NORTHWEST) KIAH26L KHOU13R KHOU22
+#	BBYSE, N30.0955, W95.4042, 0, BBYSE
+#	SPICR, N30.2757, W95.5050, 0, SPICR
+#	WLLIS, N30.5348, W95.6522, 0, WLLIS
+#	STYCK, N31.1250, W95.9683, 0, STYCK
+# WYLSN EIGHT (NORTH) KIAH26L KHOU13R KHOU22
+#	WYLSN, N30.3083, W95.3225, 0, WYLSN
+#	MONNT, N30.4780, W95.3122, 0, MONNT
+# INDIE EIGHT
+
+# KIAH Depatures
+# BNDTO FIVE (WEST)
+# FLYZA FIVE (SOUTHEAST)
+# GUMBY THREE (EAST)
+# MMUGS FOUR (EAST)
+# PITZZ FOUR (SOUTHWEST)
+
+# KHOU DEPATURES
+# ELOCO FIVE (EAST)
+# PEECE FIVE (SOUTHEAST)
+# PTRON SEVEN (SOUTHWEST)
+# RETYR SIX (NORTHWEST)
+
 boundary =
 # WEST OF KIDDZ
 	-59.56, 17.23
-# ABOVE SUUNR
+# NORTH OF SUUNR
 	-44.04, 32.05
-# DRLLR
-	-19.55, 32.55
 # WEST OF ZEEKK
 	26.20, 34.27 
 # NORTH ZEEKK
@@ -380,7 +414,7 @@ flow = 10
 climbaltitude = 3000
 
 entrypoints=
-	70, WLMOR
+	60, WLMOR
 	120, BAYYY
 	130, TKNIQ
 	240, BELLR
@@ -407,12 +441,108 @@ airlines =
 
 config1= 
 	0, rwyKIAH26R, land
-	0, rwyKIAH26L, land
+	0, rwyKIAH26L, landstart
 	0, rwyKIAH27, land
 #	0, rwyKIAH15R, start
 #	0, rwyKIAH15L, start
-	0, rwyKHOU22, land
-	0, rwyKHOU13R, land
+	0, rwyKHOU22, landstart
+	0, rwyKHOU13R, landstart
+
+##############################################################
+[departure101]
+##############################################################
+
+runway = rwyKIAH26L
+			
+route1 = 
+	BELTWY7, BELTWY SEVEN
+	N30.3018, W95.4192
+	N30.5053, W95.4688
+	N30.6062, W95.4915
+
+route2 =
+	LURIC8, LURIC EIGHT
+	N30.0868, W95.2613
+	N30.2510, W95.1297
+	N30.4037, W95.0072
+	N30.5533, W94.8927
+	N31.0077, W94.5418
+
+route3 =
+	STYCK8, STYCK EIGHT
+	N30.0955, W95.4042
+	N30.2757, W95.5050
+	N30.5348, W95.6522
+	N31.1250, W95.9683
+
+route4 = 
+	WYLSN8, WYLSN EIGHT
+	N30.3083, W95.3225
+	N30.4780, W95.3122
+
+##############################################################
+[departure201]
+##############################################################
+
+runway = rwyKHOU13R
+			
+route1 = 
+	BELTWY7, BELTWY SEVEN
+	N30.3018, W95.4192
+	N30.5053, W95.4688
+	N30.6062, W95.4915
+
+route2 =
+	LURIC8, LURIC EIGHT
+	N30.0868, W95.2613
+	N30.2510, W95.1297
+	N30.4037, W95.0072
+	N30.5533, W94.8927
+	N31.0077, W94.5418
+
+route3 =
+	STYCK8, STYCK EIGHT
+	N30.0955, W95.4042
+	N30.2757, W95.5050
+	N30.5348, W95.6522
+	N31.1250, W95.9683
+
+route4 = 
+	WYLSN8, WYLSN EIGHT
+	N30.3083, W95.3225
+	N30.4780, W95.3122
+
+##############################################################
+[departure202]
+##############################################################
+
+runway = rwyKHOU22
+			
+route1 = 
+	BELTWY7, BELTWY SEVEN
+	N30.3018, W95.4192
+	N30.5053, W95.4688
+	N30.6062, W95.4915
+
+route2 =
+	LURIC8, LURIC EIGHT
+	N30.0868, W95.2613
+	N30.2510, W95.1297
+	N30.4037, W95.0072
+	N30.5533, W94.8927
+	N31.0077, W94.5418
+
+route3 =
+	STYCK8, STYCK EIGHT
+	N30.0955, W95.4042
+	N30.2757, W95.5050
+	N30.5348, W95.6522
+	N31.1250, W95.9683
+
+route4 = 
+	WYLSN8, WYLSN EIGHT
+	N30.3083, W95.3225
+	N30.4780, W95.3122
 
 ##############################################################
 [approach1001]
@@ -429,8 +559,8 @@ route1 =
 	N30.0345, W94.7698, 6000 
 # ZAPPO
 	N30.0078, W94.8195, 5000
-# RAIDS ILS 26R Intercept
-	17.4, 4000, 200
+# ILS 26R Intercept
+	20, 4000, 200
 
 ##############################################################
 [approach1002]
@@ -443,8 +573,8 @@ route1 =
 	200, ILS26R, ZAPPO I L S 2 6 R
 # ZAPPO
 	N30.0078, W94.8195, 5000
-# RAIDS ILS 26R Intercept
-	17.4, 4000, 200
+# ILS 26R Intercept
+	20, 4000, 200
 
 ##############################################################
 [approach1003]
@@ -461,8 +591,8 @@ route1 =
 	N29.9937, W94.8200, 7000, 210
 # KKAYE 
 	N29.9945, W94.9158, 7000
-# GRIEG ILS 26L Intercept
-	17.01, 5000, 200
+# ILS 26L Intercept
+	20, 5000, 200
 
 ##############################################################
 [approach1004]
@@ -477,8 +607,8 @@ route1 =
 	N29.9937, W94.8200, 7000, 210
 # KKAYE 
 	N29.9945, W94.9158, 7000
-# GRIEG ILS 26L Intercept
-	17.01, 5000, 200
+# ILS 26L Intercept
+	20, 5000, 200
 
 ##############################################################
 [approach1005]
@@ -495,8 +625,8 @@ route1 =
 	N29.9937, W94.8200, 7000, 210
 # KKAYE 
 	N29.9945, W94.9158, 7000
-# GRIEG ILS 26L Intercept
-	17.01, 5000, 200
+# ILS 26L Intercept
+	20, 5000, 200
 
 ##############################################################
 [approach1006]
@@ -515,8 +645,8 @@ route1 =
 	N29.9783, W94.8195, 3000
 # TRANN
 	N29.9787, W94.9163, 3000
-# DENTO ILS 27 Intercept
-	15.9, 2000, 200
+# ILS 27 Intercept
+	19, 2000, 200
 
 ##############################################################
 [approach1007]
@@ -531,8 +661,8 @@ route1 =
 	N29.9783, W94.8195, 3000
 # TRANN
 	N29.9787, W94.9163, 3000
-# DENTO ILS 27 Intercept
-	15.9, 2000, 200
+# ILS 27 Intercept
+	19, 2000, 200
 
 ##############################################################
 [approach1008]
@@ -551,8 +681,8 @@ route1 =
 	N29.9615, W94.8622, 3000
 # TRANN
 	N29.9787, W94.9163, 3000
-# DENTO ILS 27 Intercept
-	15.9, 2000
+# ILS 27 Intercept
+	19, 2000
 
 ##############################################################
 [approach1009]
