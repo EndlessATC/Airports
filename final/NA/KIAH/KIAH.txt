@@ -66,8 +66,8 @@
 [airspace]
 ##############################################################
 
-radius = 70
-zoom = 4.0 
+radius = 60
+zoom = 4.75 
 elevation = 97
 floor = 1500
 descendaltitude = 15000
@@ -83,7 +83,7 @@ letters = 2
 separation = 3
 automatic = true
 name = houston approach, houston departure
-center = N29.8078, W95.2985
+center = N29.8885, W95.2563
 magneticvar = 2.3
 
 beacons =
@@ -137,7 +137,8 @@ beacons =
 #	GILLL, N29.6765, W94.5478, 0, GILLL
 
 # KIAH MSCOT FOUR FEEDS INTO DOMNO
-	MSCOT, N30.2610, W95.8293, 0, MSCOT
+	SUUNR, N30.3615, W96.0358, 0, SUUNR
+#	MSCOT, N30.2610, W95.8293, 0, MSCOT
 #	HWKII, N30.1813, W95.6640, 0, HWKII
 
 # KIAH SOULL ONE ARRIVAL
@@ -166,7 +167,7 @@ beacons =
 	KAFDO, N29.8012, W95.1077, 0, KAFDO
 	ACOLA, N29.4613, W95.5057, 221, ACOLA
 
-# KHOU BAYY FOUR ARRIVAL (STARTS AT BAYYY SEE SOUL ONE FOR POSITION)
+# KHOU BAYYY FOUR ARRIVAL (STARTS AT BAYYY SEE SOUL ONE FOR POSITION)
 #	PUCKS, N29.4092, W94.6635, 0, PUCKS
 #	FRDDY, N29.4877, W94.8782, 0, FRDDY
 #	FIGGG, N29.5827, W95.1413, 0, FIGGG
@@ -188,36 +189,66 @@ beacons =
 
 # KHOU KIDDZ FOUR ARRIVAL > CRSTY
 	KIDDZ, N30.2238, W96.2158, 0, KIDDZ
-	SNIFY, N30.1585, W96.1813, 0, SNIFY
-	QTRBK, N30.0602, W96.1283, 0, QTRBK
-	RVEEE, N29.8280, W95.9950, 0, RVEEE
-	AAHZZ, N29.7312, W95.9323, 0, AAHZZ
-	GLUVR, N29.6520, W95.8813, 0, GLUVR
+#	SNIFY, N30.1585, W96.1813, 0, SNIFY
+#	QTRBK, N30.0602, W96.1283, 0, QTRBK
+#	RVEEE, N29.8280, W95.9950, 0, RVEEE
+#	AAHZZ, N29.7312, W95.9323, 0, AAHZZ
+#	GLUVR, N29.6520, W95.8813, 0, GLUVR
 
 # KHOU PUCKS FOUR ARRIVAL ENTRY BAYYY
-	PUCKS, N29.4087, W94.6630, 0, PUCKS
-	SQRLL, N29.4367, W94.6978, 0, SQRLL
-	KEMAH, N29.5220, W94.8013, 0, KEMAH
-	WWILD, N29.5555, W94.8427, 0, WWILD
-	JCNTO, N29.7143, W95.0383, 0, JCNTO
+#	SQRLL, N29.4367, W94.6978, 0, SQRLL
+#	KEMAH, N29.5220, W94.8013, 0, KEMAH
+#	WWILD, N29.5555, W94.8427, 0, WWILD
+#	JCNTO, N29.7143, W95.0383, 0, JCNTO
 
 # KHOU TKNIQ THREE DOCCC > FRDDY OR DOCCC > KEMAH
 	TKNIQ, N29.2402, W94.4668, 0, TKNIQ
-	DOCCC, N29.3628, W94.6772, 0, DOCC
+#	DOCCC, N29.3628, W94.6772, 0, DOCC
 
 # KHOU WAPPL SIX
-	WAPPL, N30.2322, W94.3313, 0, WAPPL
 	WLMOR, N30.1532, W94.6252, 0, WLMOR
-	HUDZY, N30.1045, W94.8093, 0, HUDZY
-	CLWSN, N30.0740, W94.9188, 0, CLWSN
-	SWWAA, N30.0095, W95.1577, 0, SWWAA
-	PUSHN, N29.8613, W95.2012, 0, PUSHN
-	BUGZY, N29.7637, W95.2318, 0, BUGZY
+#	HUDZY, N30.1045, W94.8093, 0, HUDZY
+#	CLWSN, N30.0740, W94.9188, 0, CLWSN
+#	SWWAA, N30.0095, W95.1577, 0, SWWAA
+#	PUSHN, N29.8613, W95.2012, 0, PUSHN
+#	BUGZY, N29.7637, W95.2318, 0, BUGZY
 # KHOU WAPPL SIX > VILLI
-	PRTCH, N29.7240, W95.2433, 0, PRTCH
-	MOLLR, N29.6570, W95.2772, 0, MOLLR
+#	PRTCH, N29.7240, W95.2433, 0, PRTCH
+#	MOLLR, N29.6570, W95.2772, 0, MOLLR
 # KHOU WAPPL SIX > MAAHH
-	RTWNG, N29.6360, W95.2263, 0, RTWNG
+#	RTWNG, N29.6360, W95.2263, 0, RTWNG
+
+boundary =
+# WEST OF KIDDZ
+	-59.56, 17.23
+# ABOVE SUUNR
+	-44.04, 32.05
+# DRLLR
+	-19.55, 32.55
+# WEST OF ZEEKK
+	26.20, 34.27 
+# NORTH ZEEKK
+	37.69, 47.57
+# EAST OF DOOBI
+	53.82, 33.06 
+# EAS OF WLMOR
+	44.35, 20.56 
+# NORTH OF LINKK
+	51.10, -11.59 
+# EAST OF LINKK
+	59.16, -16.83 
+# SOUTH OF TKNIQ
+	45.00, -44.04 
+# SOUTHEAST OF VUH
+	30.74, -40.62 
+# SOUTHEAST OF BELLR
+	-32.45, -38.70 
+# SOUTH OF BELLR
+	-42.83, -42.83 
+# WEST OF BELLR
+	-49.99, -34.37 
+# SOUTH OF TEJAS
+	-39.00, -19.25 
 
 line1 =
 	N29.13633, W95.08965
@@ -268,13 +299,13 @@ runways =
 climbaltitude = 3000
 
 entrypoints = 
-	30, ZEEKK
-	45, DOOBI
-	310, DRLLR
+	40, ZEEKK
+	50, DOOBI
 	110, LINKK
-	300, MSCOT
-	130, BAYYY
-	260, TEJAS
+	120, BAYYY
+	250, TEJAS
+	310, SUUNR	
+	320, DRLLR
 
 airlines = 
 # Main Passenger Airliners
@@ -349,8 +380,11 @@ flow = 10
 climbaltitude = 3000
 
 entrypoints=
-	130, BAYYY
+	70, WLMOR
+	120, BAYYY
+	130, TKNIQ
 	240, BELLR
+	300, KIDDZ
 
 airlines = 
 # Commerical Airliners
@@ -690,9 +724,11 @@ route1 =
 
 # MSCOT FOUR ARRIVAL SKLER
 runway = rwyKIAH26R
-beacon = MSCOT
+beacon = SUUNR
 route1 =
 	116, MSCOT4, MSCOT 4 SKLER
+# SUUNR
+	N30.3615, W96.0358, 14000, 280
 # MSCOT
 	N30.2610, W95.8293, 10000
 # HWKII
@@ -710,9 +746,11 @@ route1 =
 
 # MSCOT FOUR ARRIVAL ZOEEE
 runway = rwyKIAH26L
-beacon = MSCOT
+beacon = SUUNR
 route1 =
 	116, MSCOT4, MSCOT 4 ZOEEE
+# SUUNR
+	N30.3615, W96.0358, 14000, 280
 # MSCOT
 	N30.2610, W95.8293, 10000
 # HWKII
@@ -730,9 +768,11 @@ route1 =
 
 # MSCOT FOUR ARRIVAL BYSUN
 runway = rwyKIAH27
-beacon = MSCOT
+beacon = SUUNR
 route1 =
 	116, MSCOT4, MSCOT 4 BYSUN
+# SUUNR
+	N30.3615, W96.0358, 14000, 280
 # MSCOT
 	N30.2610, W95.8293, 10000
 # HWKII
@@ -1012,6 +1052,190 @@ route1 =
 	N29.5827, W95.5310, 7000, 210
 # VILLI
 	N29.6287, W95.3873, 6000
+# MAAHH
+	N29.6057, W95.1495
+# END
+	END, 110
+
+##############################################################
+[approach2104]
+##############################################################
+
+# KIDDZ FOUR TO 13R
+runway = rwyKHOU13R
+beacon = KIDDZ
+route1 = 
+	152, KIDDZ4, KIDDZ 4 SEUSS
+# KIDDZ
+	N30.2238, W96.2158, 13000, 280
+# SNIFY
+	N30.1585, W96.1813, 12000, 270
+# QTRBK
+	N30.0602, W96.1283
+# RVEEE
+	N29.8280, W95.9950, 11000
+# AAHZZ
+	N29.7312, W95.9323, 10000
+# GLUVR
+	N29.6520, W95.8813, 9000, 240
+# CRSTY
+	N29.6395, W95.6003, 6000, 210
+# SEUSS
+	N29.6632, W95.5738
+# END
+	END, 42
+
+##############################################################
+[approach2105]
+##############################################################
+
+# KIDDZ FOUR TO 22
+runway = rwyKHOU22
+beacon = KIDDZ
+route1 = 
+	152, KIDDZ4, KIDDZ 4 VILLI
+# KIDDZ
+	N30.2238, W96.2158, 13000, 280
+# SNIFY
+	N30.1585, W96.1813, 12000, 270
+# QTRBK
+	N30.0602, W96.1283
+# RVEEE
+	N29.8280, W95.9950, 11000
+# AAHZZ
+	N29.7312, W95.9323, 10000
+# GLUVR
+	N29.6520, W95.8813, 9000, 240
+# CRSTY
+	N29.6395, W95.6003, 6000, 210
+# VILLI
+	N29.6287, W95.3873
+# MAAHH
+	N29.6057, W95.1495
+# END
+	END, 110
+
+##############################################################
+[approach2106]
+##############################################################
+
+# PUCKS FOUR TO 22
+runway = rwyKHOU22
+beacon = BAYYY
+route1 = 
+	152, PUCKS4, PUCKS 4
+# BAYYY
+	N29.3788, W94.3710, 13000, 250
+# PUCKS
+	N29.4092, W94.6635, 10000
+# SQRLL
+	N29.4367, W94.6978, 8000
+# KEMAH
+	N29.5220, W94.8013, 6000
+# WWILD
+	N29.5555, W94.8427, 6000, 210
+# JCNTO
+	N29.7143, W95.0383, 4000
+# END
+	END, 310
+
+##############################################################
+[approach2107]
+##############################################################
+
+# TIKNIQ THREE TO 22
+runway = rwyKHOU22
+beacon = TKNIQ
+route1 = 
+	301, TIKNIQ3, TIKNIQ3 KEMAH
+# TKNIQ
+	N29.2402, W94.4668, 12000, 250
+# DOCCC
+	N29.3628, W94.6772, 10000
+# KEMAH
+	N29.5220, W94.8013, 6000
+# END
+	END, 310
+
+##############################################################
+[approach2108]
+##############################################################
+
+# TIKNIQ THREE TO 13R
+runway = rwyKHOU13R
+beacon = TKNIQ
+route1 = 
+	301, TIKNIQ3, TIKNIQ3 FRDDY
+# TKNIQ
+	N29.2402, W94.4668, 12000, 250
+# DOCCC
+	N29.3628, W94.6772, 10000
+# FRDDY
+	N29.4877, W94.8782, 9000, 240
+# FIGGG
+	N29.5827, W95.1413, 7000
+# IVEEE
+	N29.6117, W95.3022, 6000, 210
+# VILLI
+	N29.6293, W95.3873
+# ALLLY
+	N29.6617, W95.4260
+# END
+	END, 311
+
+##############################################################
+[approach2109]
+##############################################################
+
+# WAPPL SIX TO KHOU13R
+runway = rwyKHOU13R
+beacon = WLMOR
+route1 = 
+	250, WAPPL6, WAPPL6 PRTCH
+# WLMOR
+	N30.1532, W94.6252, 15000
+# HUDZY
+	N30.1045, W94.8093
+# CLWSN
+	N30.0740, W94.9188, 12000, 280
+# SWWAA
+	N30.0095, W95.1577, 10000, 250
+# PUSHN
+	N29.8613, W95.2012, 8000
+# BUGZY
+	N29.7637, W95.2318
+# PRTCH
+	N29.7240, W95.2433, 7000
+# MOLLR
+	N29.6570, W95.2772, 6000, 210
+# VILLI
+	N29.6293, W95.3873
+# ALLLY
+	N29.6617, W95.4260
+# END
+	END, 311
+
+##############################################################
+[approach2110]
+##############################################################
+
+# WAPPL SIX TO KHOU22
+runway = rwyKHOU22
+beacon = WLMOR
+route1 = 
+	250, WAPPL6, WAPPL6 RTWNG
+# WLMOR
+	N30.1532, W94.6252, 15000
+# HUDZY
+	N30.1045, W94.8093
+# CLWSN
+	N30.0740, W94.9188, 12000, 280
+# SWWAA
+	N30.0095, W95.1577, 10000, 250
+# PUSHN
+	N29.8613, W95.2012, 8000
+# RTWNG
+	N29.6360, W95.2263, 7000, 210
 # MAAHH
 	N29.6057, W95.1495
 # END
