@@ -25,7 +25,7 @@
 # - set automatic to true, aircraft follow the STAR as the would in real life
 # - removed excess waypoints
 # - only entry waypoints for STARs and missed approach holds are visible
-# - commented out beacons are provied for reference for STARs and SIDs
+# - departure end route beacons shown
 # - moved center of airspace to better match the working airspace
 # - removed random green line that was to the west of airspace
 # - added airspace boundary to restrict size of playing area. Generally marks 15000 foot entry point for STARs
@@ -69,7 +69,7 @@
 ##############################################################
 
 radius = 60
-zoom = 4.75 
+zoom = 5 
 elevation = 97
 floor = 1500
 descendaltitude = 15000
@@ -163,12 +163,6 @@ beacons =
 	BLING, N30.0315, W94.0190, 0, BLING
 	SPINY, N29.8540, W94.0447, 0, SPINY
 	SBI, N29.6877, W94.0387, 0, SBI
-
-# KHOU DEPATURES
-# ELOCO FIVE (EAST)
-# PEECE FIVE (SOUTHEAST)
-# PTRON SEVEN (SOUTHWEST)
-# RETYR SIX (NORTHWEST)
 
 boundary =
 # WEST OF KIDDZ
@@ -637,6 +631,127 @@ route7 =
 	N29.6877, W94.0387
 
 ##############################################################
+[departure201]
+##############################################################
+
+runway = rwyKHOU13R
+			
+route1 = 
+	BELTWY7, BELTWY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 =
+	LURIC8, LURIC EIGHT
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route3 =
+	STYCK8, STYCK EIGHT
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route4 = 
+	WYLSN8, WYLSN EIGHT
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+route5 = 
+	INDIE8, INDIE EIGHT
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route6 =
+	ELOCO5, ELOCO FIVE
+# ELOCO
+	N29.5878, W95.0195
+# CHPEE
+	N29.6368, W94.8412
+# GRIPY
+	N29.7460, W94.5392
+# YOKEM
+	N29.7223, W94.3425
+# SBI
+	N29.6877, W94.0387
+
+route7 =
+	HOODO7, HOODO SEVEN
+# VUH
+	N29.2702, W94.8683
+
+route8 =
+	PEECE5, PEECE FIVE
+# PEECE
+	N29.4855, W95.1213
+# VUH
+	N29.2702, W94.8683
+
+route9 =
+	PTRON7, PTRON SEVEN SKUBA
+# PTRON
+	N29.4408, W95.2147
+# SKUBA
+	N29.1957, W95.7912
+
+route10 =
+	PTRON7, PTRON SEVEN RIIGG
+# PTRON
+	N29.4408, W95.2147
+# RIIGG
+	N28.9027, W95.6177
+
+route11 =
+	RETYR6, RETYR SIX ZUUUU
+# RETYR
+	N29.7240, W95.7943
+# MNNKE
+	N29.7682, W95.8788
+# ZUUUU
+	N30.0985, W96.2393
+
+route12 = 
+	RETYR6, RETYR SIX BOCCK
+# RETYR
+	N29.7240, W95.7943
+# MNNKE
+	N29.7682, W95.8788
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667
+
+route13 =
+	RETYR6, RETYR SIX WEEED
+# RETYR
+	N29.7240, W95.7943
+# MNNKE
+	N29.7682, W95.8788
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+##############################################################
 [departure202]
 ##############################################################
 
@@ -687,57 +802,75 @@ route5 =
 # SUSHI
 	N30.5920, W95.0732
 
+route6 =
+	ELOCO5, ELOCO FIVE
+# ELOCO
+	N29.5878, W95.0195
+# CHPEE
+	N29.6368, W94.8412
+# GRIPY
+	N29.7460, W94.5392
+# YOKEM
+	N29.7223, W94.3425
+# SBI
+	N29.6877, W94.0387
 
-##############################################################
-[departure201]
-##############################################################
+route7 =
+	HOODO7, HOODO SEVEN
+# VUH
+	N29.2702, W94.8683
 
-runway = rwyKHOU13R
-			
-route1 = 
-	BELTWY7, BELTWY SEVEN
-# DREMR
-	N30.3018, W95.4192
-# LITLD
-	N30.5053, W95.4688
-# BELTWY
-	N30.6062, W95.4915
+route8 =
+	PEECE5, PEECE FIVE
+# PEECE
+	N29.4855, W95.1213
+# VUH
+	N29.2702, W94.8683
 
-route2 =
-	LURIC8, LURIC EIGHT
-# KNTKY
-	N30.0868, W95.2613
-# PEETY
-	N30.2510, W95.1297
-# DARTR
-	N30.4037, W95.0072
-# MUSIQ
-	N30.5533, W94.8927
+route9 =
+	PTRON7, PTRON SEVEN SKUBA
+# PTRON
+	N29.4408, W95.2147
+# SKUBA
+	N29.1957, W95.7912
 
-route3 =
-	STYCK8, STYCK EIGHT
-# BBYSE
-	N30.0955, W95.4042
-# SPICR
-	N30.2757, W95.5050
-# WLLIS
-	N30.5348, W95.6522
+route10 =
+	PTRON7, PTRON SEVEN RIIGG
+# PTRON
+	N29.4408, W95.2147
+# RIIGG
+	N28.9027, W95.6177
 
-route4 = 
-	WYLSN8, WYLSN EIGHT
-# WYLSN
-	N30.3083, W95.3225
-# MONNT
-	N30.4780, W95.3122
+route11 =
+	RETYR6, RETYR SIX ZUUUU
+# RETYR
+	N29.7240, W95.7943
+# MNNKE
+	N29.7682, W95.8788
+# ZUUUU
+	N30.0985, W96.2393
 
-route5 = 
-	INDIE8, INDIE EIGHT
-# RENNK
-	N30.2915, W95.2225
-# COLET
-	N30.4503, W95.1615
-# SUSHI
-	N30.5920, W95.0732
+route12 = 
+	RETYR6, RETYR SIX BOCCK
+# RETYR
+	N29.7240, W95.7943
+# MNNKE
+	N29.7682, W95.8788
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667
+
+route13 =
+	RETYR6, RETYR SIX WEEED
+# RETYR
+	N29.7240, W95.7943
+# MNNKE
+	N29.7682, W95.8788
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
 
 ##############################################################
 [approach1001]
