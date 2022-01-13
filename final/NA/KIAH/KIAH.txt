@@ -54,6 +54,10 @@
 # KIAH Arrivals 1101-1117
 # - modified, added the following STARs DOBI TWO, DRLLR FIVE, LINKK ONE, SOULL ONE, TEJAS FOUR, and ZEEKK TWO
 #
+# KIAH Departues 101-103
+# - depatures are defined by approach flow! departuress set for west flow
+# - modeified, added the following SIDs BELTWY SEVEN, LURIC EIGHT, STYCK EIGHT, WYLSN EIGHT, INDIE EIGHT, BNDTO FIVE, HOODO, FLYZA, RITAA, and MMUGS
+#
 # KHOU Transitions to final Approach Approaches 2001-2002
 # - added instrument approach transitions, aircraft assigned these procedures will follow a route to ILS and switch over and lock automatically
 # - modified, added the followign STARs, BAYYY FOUR, BELLR FOUR ,KIDDZ FOUR, PUCKS FOUR, TKNIQ THREE, and WAPPL SIX
@@ -302,7 +306,7 @@ airlines =
 	clu, 1, b744, firebird, n
 	cks, 1, b742/b744/b763/b77l, connie, e
 	ups, 1, a306/b744/b748/b752/b763/dc87/md11, u p s, n
-	gec, 1, b77l/md11, lufthansa cargo, n
+	gec, 1, b77l, lufthansa cargo, n
 	fdx, 1, a306/a310/b721/b722/b752/b763/b77l/dc10/md11, fed ex, n
 	pac, 1, b744/b748, polar, n	
 	
@@ -353,7 +357,7 @@ airlines =
 
 config1= 
 	0, rwyKIAH26R, land
-	0, rwyKIAH26L, landstart
+	0, rwyKIAH26L, land
 	0, rwyKIAH27, land
 	0, rwyKIAH15R, start
 	0, rwyKIAH15L, start
@@ -362,103 +366,6 @@ config1=
 
 ##############################################################
 [departure101]
-##############################################################
-
-runway = rwyKIAH26L
-			
-route1 = 
-	BELTWY7, BELTWY SEVEN
-# DREMR
-	N30.3018, W95.4192
-# LITLD
-	N30.5053, W95.4688
-# BELTWY
-	N30.6062, W95.4915
-
-route2 =
-	LURIC8, LURIC EIGHT
-# KNTKY
-	N30.0868, W95.2613
-# PEETY
-	N30.2510, W95.1297
-# DARTR
-	N30.4037, W95.0072
-# MUSIQ
-	N30.5533, W94.8927
-
-route3 =
-	STYCK8, STYCK EIGHT
-# BBYSE
-	N30.0955, W95.4042
-# SPICR
-	N30.2757, W95.5050
-# WLLIS
-	N30.5348, W95.6522
-
-route4 = 
-	WYLSN8, WYLSN EIGHT
-# WYLSN
-	N30.3083, W95.3225
-# MONNT
-	N30.4780, W95.3122
-
-route5 = 
-	INDIE8, INDIE EIGHT
-# RENNK
-	N30.2915, W95.2225
-# COLET
-	N30.4503, W95.1615
-# SUSHI
-	N30.5920, W95.0732
-
-# BNDTO5 TO CUZZZ
-route6 =
-	BNDTO5, BNDTO FIVE CUZZZ
-#SCAMM
-	N29.9568, W95.4990
-# SHAAK
-	N29.9683, W95.5738
-# BNDTO
-	N29.9778, W95.6375
-# CUZZZ
-	N30.0712, W96.0638
-# ZUUUU
-	N30.0985, W96.2393
-
-# BNDTO5 TO FFOAM
-route7 =
-	BNDTO5, BNDTO FIVE FFOAM
-# SCAMM
-	N29.9568, W95.4990
-# SHAAK
-	N29.9683, W95.5738
-# BNDTO
-	N29.9778, W95.6375
-# FFOAM
-	N29.9293, W95.9613
-# BOCCK
-	N29.9377, W96.9613
-# MNURE
-	N29.9938, W96.5667
-
-# BNDTO5 TO BAAKE
-route8 =
-	BNDTO5, BNDTO FIVE BAAKE
-# SCAMM
-	N29.9568, W95.4990
-# SHAAK 
-	N29.9683, W95.5738
-# BNDTO
-	N29.9778, W95.6375
-# BAAKE
-	N29.8477, W95.9300
-# WEEED
-	N29.7802, W96.1827
-# WAILN
-	N29.8085, W96.5713
-
-##############################################################
-[departure102]
 ##############################################################
 
 runway = rwyKIAH15R
@@ -545,8 +452,66 @@ route7 =
 # WAILN
 	N29.8085, W96.5713
 
+route8 = 
+	BELTWY7, BELTWY SEVEN
+# RIGHT TURN
+	-8.00, 1.00
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route9 =
+	LURIC8, LURIC EIGHT
+# RIGHT TURN
+	-8.00, 1.00
+	-7.57, 5.86
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10 =
+	STYCK8, STYCK EIGHT
+# RIGHT TURN
+	-8.00, 1.00
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route11 = 
+	WYLSN8, WYLSN EIGHT
+# RIGHT TURN
+	-8.00, 1.00
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+route12 = 
+	INDIE8, INDIE EIGHT
+# RIGHT TURN
+	-8.00, 1.00
+	-7.57, 5.86
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+
 ##############################################################
-[departure103]
+[departure102]
 ##############################################################
 
 runway = rwyKIAH15L
