@@ -45,8 +45,8 @@
 # - added flow of 7
 #
 # Configurations
-# - updated config1 to match calm / prevailing wind pattern
-# - added config2, config3, and config to use any runway pattern at hobby aiport
+# - updated config1 and config2 to match calm / prevailing wind pattern
+# - added config3 and config 4 to use any runway pattern at hobby aiport
 #
 # KIAH Transitions to Final Approach Approaches 1001-1011
 # - added instrument approach transitions, aircraft assigned these procedures will follow a route to ILS and switch over and lock automatically
@@ -54,16 +54,19 @@
 # KIAH Arrivals 1101-1117
 # - modified, added the following STARs DOBI TWO, DRLLR FIVE, LINKK ONE, SOULL ONE, TEJAS FOUR, and ZEEKK TWO
 #
-# KIAH Departues 101-103
+# KIAH Departues 101-102
 # - depatures are defined by approach flow! departuress set for west flow
 # - modeified, added the following SIDs BELTWY SEVEN, LURIC EIGHT, STYCK EIGHT, WYLSN EIGHT, INDIE EIGHT, BNDTO FIVE, HOODO, FLYZA, RITAA, and MMUGS
 #
-# KHOU Transitions to final Approach Approaches 2001-2002
+# KHOU Transitions to final Approach Approaches 2001-2005
 # - added instrument approach transitions, aircraft assigned these procedures will follow a route to ILS and switch over and lock automatically
 #
 # KHOU arrials
-# - modified, added the followign STARs, BAYYY FOUR, BELLR FOUR ,KIDDZ FOUR, PUCKS FOUR, TKNIQ THREE, and WAPPL SIX
+# - modified, added the followign STARs, BAYYY FOUR, BELLR FOUR ,KIDDZ FOUR, PUCKS FOUR, TKNIQ THREE, SOULL ONE, and WAPPL SIX
 #
+# KHOU departures
+# - added BELTWY SEVEN, LURIC EIGHT, STYCK EIGHT, WYLSN EIGHT, INDIE EIGHT, ELOCO FIVE, HOODO SEVEN,  PTRON SEVEN, and RETYR SIX to all four runways.
+# 
 # Version 1.0
 # Author Unknown
 # A380's for funzies
@@ -336,7 +339,7 @@ runways =
 	rwyKHOU13L, 13L, N29.6526, W95.2839, 133.9, 5148, 0, 0, 45
 	rwyKHOU13R, 13R, N29.6510, W95.2855, 134, 7599, 0, 0, 44, 3, 134, 3, 314
 
-flow = 7
+flow = 10
 
 climbaltitude = 3000
 
@@ -876,7 +879,7 @@ route13 =
 	N29.8085, W96.5713
 
 ##############################################################
-[departure203
+[departure203]
 ##############################################################
 
 # KHOU runway4 depatures
@@ -1504,9 +1507,9 @@ route1 =
 # BAYYY
 	N29.3788, W94.3710, 13000, 250
 # SOULL
-	N29.5138, W94.5803, 6000, 240
+	N29.5138, W94.5803, 10000, 240
 # GARRR
-	N29.9757, W94.7627, 3000, 210
+	N29.9757, W94.7627, 7000, 210
 # END
 	END, 290
 
@@ -2205,6 +2208,28 @@ route1 =
 	N29.6923, W95.1997, 6000, 210
 # END
 	END, 126
+
+##############################################################
+[approach2120]
+##############################################################
+
+# BELLR FOUR TO 31L
+runway = rwyKHOU13R, rev
+beacon = BELLR
+route1 = 
+	049, BELLR4, BELLR 4
+# BELLR
+	N29.3257, W96.0892, 12000, 250
+# HNTRR
+	N29.4708, W95.8790, 9000
+# AWSTN
+	N29.5827, W95.5310, 7000, 210
+# VILLI
+	N29.6287, W95.3873, 6000
+# RJAAY
+	N29.5640, W95.3070
+# END
+	END, 130
 
 ##############################################################
 [planetypes]
