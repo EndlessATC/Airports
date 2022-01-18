@@ -1,0 +1,1803 @@
+[airspace]
+elevation = 1604
+floor = 3600
+ceiling = 24500
+transitionaltitude = 3500
+usa = false
+metric = false
+letters = 220
+name = Cordoba Control, Cordoba Control
+center = S31°18.79', W64°12.22'
+magneticvar = -6.180
+
+beacons =
+	    CBA, S31°18.79', W64°12.22', 0, Cordoba
+	    H-NDB/LI, S31.28610, W64.20740, 0, Villa Dolores
+        B-NDB, S31.43830, W64.27500, 0, Escuela De Aviacion
+        GEMOP, S31°1.31', W63°11.42', 0, GEMOP
+        GENAS, S31°27.91', W63°8.85', 0, GENAS
+        MAVBI, S31°15.57', W63°8.16', 0, MAVBI
+        TREJO, S30°46.59', W63°20.30', 0, TREJO
+        ASISA, S31°40.10', W63°12.72', 0, ASISA
+        SIMES, S32°01.96', W63°29.88', 0, SISME
+        LOGET, S30°23.68', W64°14.05', 0, LOGET
+        DONKA, S30°24.55', W64°23.60', 0, DONKA
+        SIBOL, S30°29.45', W64°40.71', 0, SIBOL
+        PAMAK, S31°23.40', W65°16.24', 0, PAMAK
+        ALDEX, S31°39.61', W65°11.79', 0, ALDEX    
+        GUVUX, S31°28.57', W64°22.87', 0, GUVUX
+        RIQUE, S31°30.44', W63°39.91', RIQUE
+        ETEPO, S30°43.30', W65°1.10', ETEPO
+        PAGAR, S31°26.61', W63°50.66', PAGAR
+
+boundary =
+         S31.834, W65.089, END1
+         S31°39.61', W65°11.78', ALDEX
+         S31.524, W65.234, 
+         S31°23.40', W65°16.24', PAMAK
+         S31.215, W65.249, 
+         S31.038, W65.227, A1
+         S30.887, W65.133, 
+         S30.734, W65.038, A2
+         S30.614, W64.861, 
+         S30°29.45', W64°40.71', SIBOL
+         S30°24.55', W64°23.60', DONKA
+         S30.410, W64.118, LOGET GHOST
+         S30.448, W63.841, B1
+         S30.535, W63.667, 
+         S30.619, W63.499, B2
+         S30.806, W63.321, TREJO GHOST
+         S31°1.31', W63°11.42', GEMOP
+         S31°15.57', W63°8.16', MAVBI
+         S31°27.91', W63°8.85', GENAS
+         S31°40.10', W63°12.72', ASISA
+         S31.843, W63.327, B3
+         S32°01.96', W63°29.88', SISME
+         S32.133, W63.714, END2
+
+
+line1 =
+	  S30.80137, W62.86040
+	  S30.75078, W62.93145
+	  S30.69170, W62.97930
+      S30.64863, W62.93096
+    
+handoff = 
+        360, Cordoba ACC, Cordoba Center South, 126.5
+        090, Cordoba ACC, Cordoba Center South, 126.5
+        180, Cordoba ACC, Cordoba Center South, 126.5
+        270, Cordoba ACC, Cordoba Center South, 126.5
+
+[airport1]
+name = Cordoba - Ingeniero Ambrosio Taravella International Airport, Ambrosio Taravella International
+code = SACO
+runways =
+	    SACO_19_01, 19, S31°17.74', W64°12.51', 180, 10499, 60, 129, 1604, 0, 0, 0, 0, GP6.1, 6.1, GP6.1, 6.1, 118.3, Cordoba Tower
+	    SACO_23_05, 23, S31°18.54', W64°11.48', 224, 7218, 0, 1060, 1542, 0, 0, 0, 0, GP9.5, 9.5, GP9.5, 9.5, 118.3, Cordoba Tower
+    
+climbaltitude = 4500
+
+entrypoints =
+            360, LOGET, 16000
+            055, TREJO, 20000
+            115, ASISA, 16000
+            140, SISMES, 20000
+            250, ALDEX, 20000
+            
+airlines = 
+         ARG1518-, 0.4, E190, ARHENTINA1518, n, SARI
+         ARG1519-, 0.4, E190, ARHENTINA1519, n, SARI
+         ARG1401-, 0.1, B738, ARHENTINA1401, e, SABE
+         ARG1501-, 0.6, E190, ARHENTINA1501, e, SABE
+         ARG1503-, 0.4, E190/B738, ARHENTINA1503, e, SABE       
+         ARG1505-, 0.6, E190/B738, ARHENTINA1505, e, SABE
+         ARG1507-, 0.5, E190, ARHENTINA1507, e, SABE
+         ARG1509-, 0,1, B738, ARHENTINA1509, e, SABE
+         ARG1529-, 0.5, B738, ARHENTINA1529, e, SABE
+         ARG1531-, 0.7, B738, ARHENTINA1531, e, SABE
+         ARG1919-, 0.4, B738, ARHENTINA1919, e, SABE
+         ARG1927-, 0.1, B738, ARHENTINA1927, e, SABE
+         FBZ5015-, 0.3, B738, BOHNDI5015, e, SABE
+         FBZ5017-, 0.3, B738, BOHNDI5017, e, SABE
+         JES3267-, 0.3, A320, SMARTBIRD3267, e, SABE
+         JES3269-, 0.2, A320, SMARTBIRD3269, e, SABE
+         ARG1402-, 0.1, B738, ARHENTINA1402, e, SABE
+         ARG1500-, 0.8, E190, ARHENTINA1500, e, SABE
+         ARG1502-, 0.6, B738, ARHENTINA1502, e, SABE
+         ARG1504-, 0.6, B738, ARHENTINA1504, e, SABE
+         ARG1506-, 0.5, E190, ARHENTINA1506, e, SABE
+         ARG1508-, 0.1, B738, ARHENTINA1508, e, SABE
+         ARG1528-, 0.5, B738, ARHENTINA1528, e, SABE
+         ARG1530-, 0.7, B738, ARHENTINA1530, e, SABE
+         ARG1918-, 0.4, B738, ARHENTINA1918, e, SABE
+         ARG1926-, 0.1, E190, ARHENTINA1926, e, SABE
+         FBZ5016-, 0.4, B738, BOHNDI5016, e, SABE
+         FBZ5018-, 0.5, B738, BOHNDI5018, e, SABE
+         JES3266-, 0.6, A320, SMARTBIRD3266, e, SABE
+         JES3268-, 0.2, A320, SMARTBIRD3268, e, SABE
+         ARG1508-, 0.2, B738, ARHENTINA1508, s, SAWH
+         ARG1534-, 0.2, B738, ARHENTINA1534, s, SAWC
+         ARG1535-, 0.2, B738, ARHENTINA1535, s, SAWC
+         ARG1514-, 0.3, E190, ARHENTINA1514, s, SAZN
+         FBZ5470-, 0.2, B738, BOHNDI5470, s, SAZN
+         ARG1512-, 0.1, B738, ARHENTINA1512, s, SAZS
+         ARG1513-, 0.4, E190, ARHENTINA1513, s, SAZS
+         FBZ5444-, 0.3, B738, BOHNDI5444, s, SAZS
+         JES3720-, 0.3, A320, SMARTBIRD3720, s, SAZS
+         FBZ5445-, 0.4, B738, BOHNDI5445, s, SAZS
+         JES3721-, 0.3, A320, SMARTBIRD3721, s, SAZS
+         ARG1402-, 0.1, B738, ARHENTINA1402, w, SAME
+         ARG1506-, 0.5, E190, ARHENTINA1506, w, SAME
+         ARG1507-, 0.3, E190, ARHENTINA1507, w, SAME
+         LAN487-, 0.2, A320, LANCHILE487, w, SCEL
+         LAN491-, 0.2, A320, LANCHILE491, w, SCEL
+         LAN492-, 0.2, A320/A321, LANCHILE492, w, SCEL
+         LAN486-, 0.2, A320, LANCHILE486, w, SCEL
+         LPE2436-, 0.4, A320, LANPERU2436, n, SPJC
+         LPE2437-, 0.4, A320, LANPERU2437, n, SPJC
+         CMP100-, 0.4, B738, COPAH100, n, MPTO
+         CMP101-, 0.4, B738, COPAH101, n, MPTO
+         ARG1524-, 0.3, E190/B738, ARHENTINA1524, n, SANT
+         ARG1525-, 0.3, E190/B738, ARHENTINA1525, n, SANT
+         ARG1516-, 0.4, E190/B738, ARHENTINA1516, n, SASA
+         FBZ5482-, 0.1, B738, BOHNDI5482, n, SASA
+         ARG1517-, 0.6, E190/B738, ARHENTINA1517, n, SASA
+         ARG1523-, 0.1, E190, ARHENTINA1523, n, SASJ
+         ARG1522-, 0.1, E190, ARHENTINA1522, n, SASJ
+         
+[airport2]
+name = Escuela de Aviacion Militar Airport, Military Aviation Airport
+code = CE
+
+runways =
+	    SACE_02_20, 02, S31.449642743800247, W64.28479612608571, 020, 4400,	1160, 617, 1646, 0, 0, 0, 0, 0, 0, 0, 0, 120.6, Escuela Tower
+        SACE_34_16, 34, S31.446970419643705, W64.25611990795778, 340, 4237, 450, 878, 1594, 0, 0, 0, 0, 0, 0, 0, 0, 120.6, Escuela Tower
+        
+traffic = 45
+inboundbeacon = B-NDB
+entrypoints =
+            360, 16000
+            045, 16000
+            090, 16000
+            180, 16000
+            235, 16000
+            270, 16000
+            300, 16000
+            330, 16000
+            
+airlines =
+         TC66-, 0.1, C130, TANGOCHARLIE66, 
+         TC61-, 0.1, C130, TANGOCHARLIE61,
+         E505-, 0.1, G120, ECHO505,
+         TC52-, 0.1, F28, TANGOCHARLIE52,
+         A130-, 0.1, TUCA, ALPHA130,
+         E506-, 0.1, G120, ECHO506
+         E302-, 0.1, TEX2, ECHO302
+         A568-, 0.1, IA58, ALPHA568
+         E311-, 0.1, TEX2, ECHO311
+         E300-, 0.1, TEX2, ECHO300
+         E301-, 0.1, TEX2, ECHO301
+         E307-, 0.1, TEX2, ECHO307
+         E504-, 0.1, G120, ECHO504
+         AR001-, 0.1, IA63, ALPHAROMEO001
+         E508-, 0.1, G120, ECHO508
+         TC70-, 0.1, C130, TANGOCHARLIE70
+         E510-, 0.1, G120, ECHO510
+         E308-, 0.1, TEX2, ECHO308
+         C196-, 0.1, A4, CHARLIE196
+         E821-, 0.1, IA63, ECHO821
+         C935-, 0.1, A4, CHARLIE935
+         T50-, 0.1, F28, TANGO50,
+         A583-, 0.1, IA58, ALPHA583
+         T33-, 0.1, SF34, TANGO33
+         E130-, 0.1, TUCA, ECHO130
+         A105-, 0.1, TUCA, ALPHA105
+         TC70-, 0.1, C130, TANGOCHARLIE70
+         A585-, 0.1, IA58, ALPHA585
+         E820-, 0.1, IA63, ECHO820
+         EX03-, 0.1, IA63, ECHOXRAY03
+         C923-, 0.1, A4, CHARLIE923
+         E116-, 0.1, TUCA, ECHO116
+         E121-, 0.1, TUCA, ECHO121
+         E119-, 0.1, TUCA, ECHO119
+         E124-, 0.1, TUCA, ECHO124
+         E092-, 0.1, T34P, ECHO092
+         EX086-, 0.1, T34P, ECHOXRAY086
+         EX034-, 0.1, T34P, ECHOXRAY034
+         EX044-, 0.1, T34P, ECHOXRAY044
+         EX04-, 0.1, IA63, ECHOXRAY04
+         OVX501-, 0.1, IA58, OSCARVICTORXRAY501
+         EX044-, 0.1, T34P, ECHOXRAY044
+         AR004-, 0.1, IA63, ALPHAROMEO004
+         A582-, 0.1, IA58, ALPHA582
+         PG394-, 0.1, C190, PAPAGOLF394
+         A705-, 0.1, IA63, ALPHA705
+         E309-, 0.1, TEX2, ECHO309
+         T10-, 0.1, LJ60, TANGO10
+         E822-, 0.1, IA63, ECHO822
+         E117-, 0.1, TUCA, ECHO117
+         E017-, 0.1, T34P, ECHO017
+         
+climbaltitude = 4500
+
+
+[airport3]
+name = Coronel Olmedo Airport, Coronel Olmedo Airport
+code = CD
+
+runways =
+	    SACD_04_22, 04, S31.49222529540106, W64.14601681530758, 040, 4245, 50, 255, 1416, 0, 0, 0, 0, 0, 0, 0, 0, 123.5, Olmedo Tower
+        
+traffic = 45
+inboundbeacon = CBA
+entrypoints =
+            360, 4500
+            045, 4500
+            090, 4500
+            180, 4500
+            235, 4500
+            270, 4500
+            300, 4500
+            330, 4500   
+            
+airlines =
+         LV-KKP, 1, C180,
+         LV-XYZ, 1, C150
+         LV-NYM, 1, C170
+         LV-KLO, 1, P28A
+         LV-MIA, 1, P28B
+         LV-OPQ, 1, BE35
+         LV-NOL, 1, SR22
+         LV-KLL, 1, PA38
+         LV-OVC, 1, PA34
+         LV-IUY, 1, P32R
+         
+climbaltitude = 4500
+
+sids =
+     RIOTERC, S32.173, W64.114, RIO TERCERO
+     OLIVA, S32.043, W63.568, OLIVA
+     RIOPRIM, S31.331, W63.622, RIO PRIMERO
+     LAPUERT, S30.893, W63.255, LA PUERTA
+     JESUSMA, S30.410, W64.130, JESUS MARIA
+
+[airport4]
+name = La Cumbre Airport, La Coombre Airport
+code = CC
+
+runways =
+	    SACC_32_14, 32, S31.01096802748259, W64.52718155390755, 320, 4792, 100, 100, 3733, 0, 0, 0, 0, 0, 0, 0, 0, 121.5, Unicom
+        
+traffic = 45
+inboundbeacon = CBA
+entrypoints =
+            360, 4500
+            045, 4500
+            090, 4500
+            180, 4500
+            235, 4500
+            270, 4500
+            300, 4500
+            330, 4500   
+            
+airlines =
+         LV-KKP, 1, C180,
+         LV-XYZ, 1, C150
+         LV-NYM, 1, C170
+         LV-KLO, 1, P28A
+         LV-MIA, 1, P28B
+         LV-OPQ, 1, BE35
+         LV-NOL, 1, SR22
+         LV-KLL, 1, PA38
+         LV-OVC, 1, PA34
+         LV-IUY, 1, P32R
+
+climbaltitude = 4500
+
+
+[planetypes] 
+types =
+      C130, 4, 140, 250, 2.8, 3.2, 1400, 1700, 110, 140, 1.3, 1.5, 
+      G120, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3, 
+      TUCA, 5, 140, 270, 2.8, 3.2, 1400, 1800, 100, 140, 1.2, 1.5, 
+      TEX2, 5, 140, 270, 2.6, 3.0, 1400, 1800, 100, 140, 1.2, 1.5, 
+      IA58, 5, 140, 270, 2.6, 3.0, 1400, 1800, 100, 140, 1.2, 1.5, 
+      IA63, 5, 150, 280, 3.0, 4.0, 2000, 3000, 115, 125, 1.5, 1.8, 
+      A4, 5, 150, 280, 3.0, 4.0, 2000, 3000, 115, 125, 1.5, 1.8, 
+      T34P, 4, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3, 
+      F28, 5, 150, 240, 2.8, 3.2, 2200, 2600, 124, 133, 1.2, 1.3
+      SR22, 6, 110, 150, 2.8, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
+      C190, 6, 110, 150, 2.8, 3.2, 1000, 1400, 80, 100, 1.1, 1.3
+      PA38, 6, 60, 100, 2.9, 3.2, 800, 1000, 50, 70, 1.1, 1.3
+      PA34, 6, 100, 200, 2.9, 3.2, 1440, 1560, 70, 90, 1.1, 1.3
+      P32R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3
+      
+      
+[area1]
+shape = polygon
+altitude = 6000
+name = CO9
+draw = 0
+labelpos = S30.897, W64.291, 
+points =
+       S30.979, W64.216, EE1
+       S30.981, W64.275, ARC
+       S30.989, W64.332, EE2
+       S30.860, W64.387, EE3
+       S30.850, W64.308, INT
+       S30.844, W64.221, EE4
+       
+[area2]
+shape = polygon
+altitude = 8000
+name = CO8
+draw = 0
+labelpos = S30.599, W64.358, 
+points =      
+       S30.860, W64.387, EE3
+       S30.850, W64.308, INT
+       S30.844, W64.221, EE4
+       S30.410, W64.239, EE5
+       S30°24.55', W64°23.60', INT
+       S30.453, W64.546, EE6
+       
+[area3]
+shape = polygon
+altitude = 7000
+name = CO6
+draw = 0
+labelpos = S31.253, W64.397, 
+points =   
+        S31.318, W64.302, D5, AA1
+        S31.327, W64.494, D15, AA2
+        S31.247, W64.473, INT
+        S31.167, W64.443, D15 R307, AA3
+        S31.238, W64.330, D8 307, AA4
+        S31.214, W64.307, INT
+        S31.195, W64.276, INT
+        S31.189, W64.252, AA5
+        S31.235, W64.233, AA6
+        S31.240, W64.248, INT
+        S31.256, W64.265, INT
+        S31.278, W64.281, INT
+        S31.298, W64.293, INT
+      
+[area4]
+shape = polygon
+altitude = 8000
+name = CO7
+draw = 0
+labelpos = S31.151, W64.345, 
+points =          
+        S31.167, W64.443, AA3
+        S31.238, W64.330, AA4
+        S31.214, W64.307, INT
+        S31.195, W64.276, INT
+        S31.189, W64.252, AA5
+        S31.076, W64.298, BB1
+        S31.119, W64.374, 
+        
+        
+[area5]
+shape = polygon
+altitude = 8000
+name = CO5
+draw = 0
+labelpos = S31.204, W64.605, 
+points =          
+        S31.327, W64.494, AA2
+        S31.247, W64.473, INT
+        S31.167, W64.443, AA3
+        S31.023, W64.678, CC2
+        S31.180, W64.741, INT
+        S31.341, W64.788, CC1
+        
+[area6]
+shape = polygon
+altitude = 9000
+name = CC
+draw = 0
+labelpos = S30.929, W64.796, 
+points =          
+        S31.341, W64.788, CC1
+        S31.362, W65.267, CC3
+        S31.038, W65.227, A1
+        S30.734, W65.038, A1
+        S30°29.45', W64°40.71', SIBOL
+        S30.453, W64.546, EE6
+        S30.860, W64.387, EE3
+        S30.989, W64.332, EE2
+        S31.076, W64.298, BB1
+        S31.119, W64.374, INT
+        S31.167, W64.443, AA3
+        S31.023, W64.678, CC2
+        S31.180, W64.741, INT
+        
+[area7]
+shape = polygon
+altitude = 6000
+name = CO4
+draw = 0
+labelpos = S31.419, W64.394, 
+points = 
+        S31.321, W64.359, DD4
+        S31.327, W64.494, AA2
+        S31.385, W64.482, INT
+        S31.437, W64.454, INT
+        S31.486, W64.405, INT
+        S31.528, W64.352, DD1
+        S31.446, W64.294, DD3
+        S31.426, W64.322, INT
+        S31.401, W64.342, INT
+        S31.364, W64.357, INT
+
+        
+[area8]
+shape = polygon
+altitude = 7000
+name = CO3
+draw = 0
+labelpos = S31.478, W64.553, 
+points = 
+        S31.327, W64.494, AA2
+        S31.385, W64.482, INT
+        S31.437, W64.454, INT
+        S31.486, W64.405, INT
+        S31.528, W64.352, DD1
+        S31.742, W64.502, DD2
+        S31.614, W64.639, INT
+        S31.456, W64.755, INT
+        S31.341, W64.788, CC1
+        
+[area9]
+shape = polygon
+altitude = 11000
+name = CO2
+draw = 0
+labelpos = S31.650, W64.886, 
+points = 
+       S31.742, W64.502, DD2
+       S31.614, W64.639, INT
+       S31.456, W64.755, INT
+       S31.341, W64.788, CC1
+       S31.362, W65.267, CC3
+       S31°23.40', W65°16.24', PAMAK
+       S31°39.61', W65°11.79', ALDEX
+       S31.834, W65.089, END1
+       S31.933, W64.635, ANDI
+
+[area10]
+shape = polygon
+altitude = 7000
+name = CO1
+draw = 0
+labelpos = S31.879, W64.391, 
+points = 
+       S31.933, W64.635, ANDI
+       S32.016, W64.251, XX1
+       S31.791, W64.237, XX2
+       S31.772, W64.372, INT
+       S31.742, W64.502, DD2
+       
+[configurations]
+config1 =
+        0, SACO_19_01, land
+        0, SACO_23_05, startrev
+        0, SACE_02_20, landstartrev
+        0, SACE_34_16, landstarttrackrev
+        0, SACD_04_22, landstartrev
+        0, SACC_32_14, landstartrev
+        
+config2 =
+        0, SACO_19_01, landtrackrev
+        0, SACO_23_05, startrev
+        0, SACE_02_20, landstart
+        0, SACE_34_16, landstart
+        0, SACD_04_22, landstarttrack
+        0, SACC_32_14, landstarttrack
+        
+config3 =  
+        0, SACO_19_01, startrev
+        0, SACO_23_05, landrevtrack
+        0, SACE_02_20, landstart
+        0, SACE_34_16, landstart
+        0, SACD_04_22, landstarttrack
+        0, SACC_32_14, landstarttrack
+        
+config4 = 
+        0, SACO_19_01, landstart
+        0, SACO_23_05, startlandtrev
+        0, SACE_02_20, landstartrev
+        0, SACE_34_16, landstarttrackrev
+        0, SACD_04_22, landstartrev
+        0, SACC_32_14, landstartrev'
+        
+config5 =
+        0, SACO_19_01, startlandtrackrev
+        0, SACO_23_05, startlandrev
+        0, SACE_02_20, landstart
+        0, SACE_34_16, landstart
+        0, SACD_04_22, landstarttrack
+        0, SACC_32_14, landstarttrack
+        
+config6 =  
+        0, SACO_19_01, startland
+        0, SACO_23_05, land
+        0, SACE_02_20, landstart
+        0, SACE_34_16, landstart
+        0, SACD_04_22, landstarttrack
+        0, SACC_32_14, landstarttrack
+              
+
+[departure1]
+runway = SACO_19_01
+route1 =
+       ASEMI1, ASEMI 1
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95', 
+       S32°01.96', W63°29.88', 
+         
+route2 =
+       ASEMI2, ASEMI 2
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95',
+       S31°53.21', W63°22.87', 
+       
+route3 =
+       GENAS1, GENAS1
+       S31.342, W64.052, 
+       S31°27.91', W63°8.85', 
+
+route4 =
+       IRAVO1, IRAVO1
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31°1.31', W63°11.42',
+       
+route5 =
+       IRAVO2, IRAVO2
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S30°46.59', W63°20.30', 
+       
+           
+route6 =
+       IRAVO3, IRAVO3
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59',
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S30°23.68', W64°14.05', 
+       
+       
+route7 =
+       IRAVO4, IRAVO4
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,  
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S30°24.55', W64°23.60', 
+       
+       
+route8 =
+       IRAVO5, IRAVO5
+       S31.288, W64.132,
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+       S30°29.45', W64°40.71', 
+        
+        
+route9 =
+       IRAVO6, IRAVO6
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+             
+route10 =
+        IRAVO7, IRAVO7
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278,
+        S31.197, W64.344,
+        S30°43.30', W65°1.09',
+       
+route11 =
+        IRAVO8, IRAVO8
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039, 
+        S31.207, W64.054, 
+        S31.172, W64.100,
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397,
+        S31°23.40', W65°16.24', 
+        
+        
+route12 =
+        IRAVO9, IRAVO9
+        S31.288, W64.132,
+        S31°15.79', W64°3.59',
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397, 
+        S31.370, W64.386, 
+        S31°39.61', W65°11.79', 
+        
+[departure2]
+runway = SACO_19_01, rev
+route1 =
+       ASEMI1, ASEMI 1
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95', 
+       S32°01.96', W63°29.88', 
+         
+route2 =
+       ASEMI2, ASEMI 2
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95',
+       S31°53.21', W63°22.87', 
+       
+route3 =
+       GENAS1, GENAS1
+       S31.342, W64.052, 
+       S31°27.91', W63°8.85', 
+
+route4 =
+       IRAVO1, IRAVO1
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31°1.31', W63°11.42',
+       
+route5 =
+       IRAVO2, IRAVO2
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S30°46.59', W63°20.30', 
+       
+           
+route6 =
+       IRAVO3, IRAVO3
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59',
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S30°23.68', W64°14.05', 
+       
+       
+route7 =
+       IRAVO4, IRAVO4
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,  
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S30°24.55', W64°23.60', 
+       
+       
+route8 =
+       IRAVO5, IRAVO5
+       S31.288, W64.132,
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+       S30°29.45', W64°40.71', 
+        
+        
+route9 =
+       IRAVO6, IRAVO6
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+             
+route10 =
+        IRAVO7, IRAVO7
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278,
+        S31.197, W64.344,
+        S30°43.30', W65°1.09',
+       
+route11 =
+        IRAVO8, IRAVO8
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039, 
+        S31.207, W64.054, 
+        S31.172, W64.100,
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397,
+        S31°23.40', W65°16.24', 
+        
+        
+route12 =
+        IRAVO9, IRAVO9
+        S31.288, W64.132,
+        S31°15.79', W64°3.59',
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397, 
+        S31.370, W64.386, 
+        S31°39.61', W65°11.79', 
+        
+[departure3]
+runway = SACO_23_05, rev
+route1 =
+       ASEMI1, ASEMI 1
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95', 
+       S32°01.96', W63°29.88', 
+         
+route2 =
+       ASEMI2, ASEMI 2
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95',
+       S31°53.21', W63°22.87', 
+       
+route3 =
+       GENAS1, GENAS1
+       S31.342, W64.052, 
+       S31°27.91', W63°8.85', 
+
+route4 =
+       IRAVO1, IRAVO1
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31°1.31', W63°11.42',
+       
+route5 =
+       IRAVO2, IRAVO2
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S30°46.59', W63°20.30', 
+       
+           
+route6 =
+       IRAVO3, IRAVO3
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59',
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S30°23.68', W64°14.05', 
+       
+       
+route7 =
+       IRAVO4, IRAVO4
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,  
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S30°24.55', W64°23.60', 
+       
+       
+route8 =
+       IRAVO5, IRAVO5
+       S31.288, W64.132,
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+       S30°29.45', W64°40.71', 
+        
+        
+route9 =
+       IRAVO6, IRAVO6
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+             
+route10 =
+        IRAVO7, IRAVO7
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278,
+        S31.197, W64.344,
+        S30°43.30', W65°1.09',
+       
+route11 =
+        IRAVO8, IRAVO8
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039, 
+        S31.207, W64.054, 
+        S31.172, W64.100,
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397,
+        S31°23.40', W65°16.24', 
+        
+        
+route12 =
+        IRAVO9, IRAVO9
+        S31.288, W64.132,
+        S31°15.79', W64°3.59',
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397, 
+        S31.370, W64.386, 
+        S31°39.61', W65°11.79', 
+
+[departure4]
+runway = SACE_02_20
+route1 =
+       ASEMI1, ASEMI 1
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95', 
+       S32°01.96', W63°29.88', 
+         
+route2 =
+       ASEMI2, ASEMI 2
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95',
+       S31°53.21', W63°22.87', 
+       
+route3 =
+       GENAS1, GENAS1
+       S31.342, W64.052, 
+       S31°27.91', W63°8.85', 
+
+route4 =
+       IRAVO1, IRAVO1
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31°1.31', W63°11.42',
+       
+route5 =
+       IRAVO2, IRAVO2
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S30°46.59', W63°20.30', 
+       
+           
+route6 =
+       IRAVO3, IRAVO3
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59',
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S30°23.68', W64°14.05', 
+       
+       
+route7 =
+       IRAVO4, IRAVO4
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,  
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S30°24.55', W64°23.60', 
+       
+       
+route8 =
+       IRAVO5, IRAVO5
+       S31.288, W64.132,
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+       S30°29.45', W64°40.71', 
+        
+        
+route9 =
+       IRAVO6, IRAVO6
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+             
+route10 =
+        IRAVO7, IRAVO7
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278,
+        S31.197, W64.344,
+        S30°43.30', W65°1.09',
+       
+route11 =
+        IRAVO8, IRAVO8
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039, 
+        S31.207, W64.054, 
+        S31.172, W64.100,
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397,
+        S31°23.40', W65°16.24', 
+        
+        
+route12 =
+        IRAVO9, IRAVO9
+        S31.288, W64.132,
+        S31°15.79', W64°3.59',
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397, 
+        S31.370, W64.386, 
+        S31°39.61', W65°11.79', 
+
+[departure5]
+runway = SACE_34_16
+route1 =
+       ASEMI1, ASEMI 1
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95', 
+       S32°01.96', W63°29.88', 
+         
+route2 =
+       ASEMI2, ASEMI 2
+       S31.368, W64.129, 
+       S31°23.83', W64°4.95',
+       S31°53.21', W63°22.87', 
+       
+route3 =
+       GENAS1, GENAS1
+       S31.342, W64.052, 
+       S31°27.91', W63°8.85', 
+
+route4 =
+       IRAVO1, IRAVO1
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31°1.31', W63°11.42',
+       
+route5 =
+       IRAVO2, IRAVO2
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S30°46.59', W63°20.30', 
+       
+           
+route6 =
+       IRAVO3, IRAVO3
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59',
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S30°23.68', W64°14.05', 
+       
+       
+route7 =
+       IRAVO4, IRAVO4
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,  
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S30°24.55', W64°23.60', 
+       
+       
+route8 =
+       IRAVO5, IRAVO5
+       S31.288, W64.132,
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039,   
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+       S30°29.45', W64°40.71', 
+        
+        
+route9 =
+       IRAVO6, IRAVO6
+       S31.288, W64.132, 
+       S31°15.79', W64°3.59', 
+       S31.223, W64.039, 
+       S31.207, W64.054, 
+       S31.172, W64.100, 
+       S31.152, W64.153, 
+       S31.147, W64.198, 
+       S31.146, W64.229, 
+       S31.162, W64.278, 
+             
+route10 =
+        IRAVO7, IRAVO7
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278,
+        S31.197, W64.344,
+        S30°43.30', W65°1.09',
+       
+route11 =
+        IRAVO8, IRAVO8
+        S31.288, W64.132, 
+        S31°15.79', W64°3.59', 
+        S31.223, W64.039, 
+        S31.207, W64.054, 
+        S31.172, W64.100,
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397,
+        S31°23.40', W65°16.24', 
+        
+        
+route12 =
+        IRAVO9, IRAVO9
+        S31.288, W64.132,
+        S31°15.79', W64°3.59',
+        S31.223, W64.039,  
+        S31.207, W64.054, 
+        S31.172, W64.100, 
+        S31.152, W64.153, 
+        S31.147, W64.198, 
+        S31.146, W64.229, 
+        S31.162, W64.278, 
+        S31.197, W64.344, 
+        S31.229, W64.372, 
+        S31.280, W64.394, 
+        S31.321, W64.397, 
+        S31.370, W64.386, 
+        S31°39.61', W65°11.79',
+        
+[departure6]
+runway = SACE_02_20, rev
+route1 =
+       SIMES1A, SIMES 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S32°01.96', W63°29.88', SIMES TRANS
+route2 =
+       ASISA1A, ASISA 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S31°40.10', W63°12.72', ASISA
+       
+route3 =
+       GENAS1A, GENAS 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S31°27.91', W63°8.85', GENAS TRANS
+       
+route4 =
+       MAVBI1A, MAVBI 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S31.581, W64.193, D16 R180
+       S31°18.79', W64°12.22', CBA
+       S31°15.57', W63°8.16', MAVBI TRANS
+       
+route5 =
+       GEMOP1A, GEMOP 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S31.581, W64.193, D16 R180
+       S31°18.79', W64°12.22', CBA
+       S31°1.31', W63°11.42', GEMOP TRANS
+       
+route6 =
+       TREJO1A, TREJO 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S31.581, W64.193, D16 R180
+       S31°18.79', W64°12.22', CBA 
+       S30°46.59', W63°20.30', TREJO TRANS
+       
+route7 =
+       LOGET1A, LOGET 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S31.581, W64.193, D16 R180
+       S31°18.79', W64°12.22', CBA 
+       S30°23.68', W64°14.05', LOGET TRANS
+       
+route8 =
+       DONKA1A, DONKA 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S31.581, W64.193, D16 R180
+       S31°18.79', W64°12.22', CBA 
+       S30°24.55', W64°23.60', DONKA TRANS
+       
+route9 =
+       SIBOL1A, SIBOL 1 ALPHA
+       S31.552, W64.344, D16 R209
+       S31.581, W64.193, D16 R180
+       S31°18.79', W64°12.22', CBA 
+       S30°29.45', W64°40.71', SIBOL
+       
+route10 =
+        PAMAK1A, PAMAK 1 ALPHA
+        S31.552, W64.344, D16 R209
+        S31.581, W64.193, D16 R180
+        S31°18.79', W64°12.22', CBA 
+        S31°23.40', W65°16.24', PAMAK
+       
+route11 =
+        ALDEX1A, ALDEX 1 ALPHA
+        S31.552, W64.344, D16 R209
+        S31.581, W64.193, D16 R180
+        S31°18.79', W64°12.22', CBA 
+        S31°39.61', W65°11.79', ALDEX
+
+[departure7]
+runway = SACE_34_16, rev
+route1 = 
+       SISMES1B, SISMES 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S32°01.96', W63°29.88', SIMES TRANS
+       
+route2 =
+       ASISA1B, ASISA 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S31°40.10', W63°12.72', ASISA
+       
+route3 =
+       GENAS1B, GENAS 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S31°27.91', W63°8.85', GENAS TRANS
+       
+route4 =
+       MAVBI1B, MAVBI 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S31.552, W64.344, D16 R209
+       S31°18.79', W64°12.22', CBA
+       S31°15.57', W63°8.16', MAVBI TRANS
+       
+route5 =
+       GEMOP1B, GEMOP 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S31.552, W64.344, D16 R209
+       S31°18.79', W64°12.22', CBA
+       S31°1.31', W63°11.42', GEMOP TRANS
+       
+route6 =
+       TREJO1B, TREJO 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S31.552, W64.344, D16 R209
+       S31°18.79', W64°12.22', CBA
+       S30°46.59', W63°20.30', TREJO TRANS
+       
+route7 =
+       LOGET1B, LOGET 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S31.552, W64.344, D16 R209
+       S31°18.79', W64°12.22', CBA
+       S30°23.68', W64°14.05', LOGET TRANS
+       
+route8 =
+       DONKA1B, DONKA 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S31.552, W64.344, D16 R209
+       S31°18.79', W64°12.22', CBA
+       S30°24.55', W64°23.60', DONKA TRANS
+
+route9 =
+       SIBOL1B, SIBOL 1 BRAVO
+       S31.581, W64.193, D16 R180
+       S31.552, W64.344, D16 R209
+       S31°18.79', W64°12.22', CBA
+       S30°29.45', W64°40.71', SIBOL
+       
+route10 =
+        PAMAK1B, PAMAK 1 BRAVO
+        S31.581, W64.193, D16 R180
+        S31.552, W64.344, D16 R209
+        S31°18.79', W64°12.22', CBA
+        S31°23.40', W65°16.24', PAMAK
+       
+route11 =
+        ALDEX1B, ALDEX 1 BRAVO
+        S31.581, W64.193, D16 R180
+        S31.552, W64.344, D16 R209
+        S31°18.79', W64°12.22', CBA
+        S31°39.61', W65°11.79', ALDEX
+
+
+[departure8]
+runway = SACD_04_22
+route1 =
+       RIOTERC, RIO TERCERO
+       S32.173, W64.114, 
+       
+route2 =       
+       OLIVA, OLIVA
+       S32.043, W63.568,
+       
+route3 =
+       RIOPRIM, RIO PRIMERO
+       S31.331, W63.622,
+       
+route4 =
+       LAPUERT, LA PUERTA
+       S30.893, W63.255, 
+      
+route5 = 
+       JESUSMA, JESUS MARIA
+       S31.304, W63.912,
+       S30.980, W64.097,
+       S30.410, W64.130, 
+
+[departure9]
+runway = SACD_04_22, rev
+route1 =
+       RIOTERC, RIO TERCERO
+       S32.173, W64.114, 
+       
+route2 =       
+       OLIVA, OLIVA
+       S32.043, W63.568,
+       
+route3 =
+       RIOPRIM, RIO PRIMERO
+       S31.331, W63.622,
+       
+route4 =
+       LAPUERT, LA PUERTA
+       S30.893, W63.255, 
+      
+route5 = 
+       JESUSMA, JESUS MARIA
+       S31.304, W63.912,
+       S30.980, W64.097, 
+       S30.410, W64.130, 
+
+
+[departure10]
+runway = SACC_32_14
+route1 =
+       RIOTER2, RIO TERCERO CUMBRE
+       S31.012, W64.334, 
+       S30.980, W64.097,     
+       S31.304, W63.912,
+       S32.173, W64.114,
+       
+route2 =
+       OLIVA2, OLIVA CUMBRE
+       S31.012, W64.334,
+       S30.980, W64.097,     
+       S31.304, W63.912,
+       S32.043, W63.568,
+       
+route3 =
+       RIOPRI2, RIO PRIMERO CUMBRE
+       S31.012, W64.334,
+       S30.980, W64.097,     
+       S31.304, W63.912,
+       S31.331, W63.622,
+       
+route4 =
+       LAPUER2, LA PUERTA CUMBRE
+       S31.012, W64.334,
+       S30.980, W64.097,           
+       S30.893, W63.255, 
+       
+route5 = 
+       JESUSM2, JESUS MARIA CUMBRE
+       S31.012, W64.334,
+       S30.980, W64.097, 
+       S30.410, W64.130, 
+       
+       
+[departure11]
+runway = SACC_32_14, rev
+route1 =
+       RIOTER2, RIO TERCERO CUMBRE
+       S30.980, W64.097,     
+       S31.304, W63.912,
+       S32.173, W64.114,
+       
+route2 =
+       OLIVA2, OLIVA CUMBRE
+       S30.980, W64.097,     
+       S31.304, W63.912,
+       S32.043, W63.568,
+       
+route3 =
+       RIOPRI2, RIO PRIMERO CUMBRE
+       S30.980, W64.097,     
+       S31.304, W63.912,
+       S31.331, W63.622,
+       
+route4 =
+       LAPUER2, LA PUERTA CUMBRE
+       S30.980, W64.097,           
+       S30.893, W63.255, 
+       
+route5 = 
+       JESUSM2, JESUS MARIA CUMBRE
+       S30.980, W64.097, 
+       S30.410, W64.130, 
+       
+[approach1]
+runway = SACO_23_05
+beacon = RIQUE
+route1 =
+       320, RNP23, RNP 
+       S31°30.44', W63°39.91', 9000, RIQUE
+       S31°22.06', W63°50.03', 6000, CO528
+       S31°16.95', W63°56.19', 4000, 220, NUXAB
+       S31°11.63', W64°3.68', 4000, 180, RENUK
+       S31°15.23', W64°7.75', 3000, SILAV
+       4.6, 3000, 0
+       
+
+       
+[approach2]
+runway = SACO_23_05, rev
+beacon = TREJO
+route1 =
+       230, TREJO1X, TREJO 1 XRAY
+       S31°8.25', W63°43.96', 10000, CO801
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach3]
+runway = SACO_23_05, rev
+beacon = GEMOP
+route1 =
+       263, GEMOP1X, GEMOP 1 XRAY
+       S31°8.25', W63°43.96', 10000, CO801
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach4]
+runway = SACO_23_05, rev
+beacon = MAVBI
+route1 =
+       290, MAVBI1X, MAVBI 1 XRAY
+       S31°8.25', W63°43.96', 10000, CO801
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach5]
+runway = SACO_23_05, rev
+beacon = GENAS
+route1 =
+       310, GENASX, GENAS 1 XRAY
+       S31°8.25', W63°43.96', 10000, CO801
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach6]
+runway = SACO_23_05, rev
+beacon = ASISA
+route1 =
+       299, ASISA1X, ASISA 1 XRAY
+       S31°30.44', W63°39.91', 10000, RIQUE
+       S31°8.25', W63°43.96', 10000, CO801
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach7]
+runway = SACO_23_05, rev
+beacon = SIMES
+route1 =
+       357, SIMES1X, SIMES 1 XRAY
+       S31°30.44', W63°39.91', 10000, RIQUE
+       S31°8.25', W63°43.96', 10000, CO801
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+
+
+[approach8]
+runway = SACO_23_05, rev
+beacon = LOGET
+route1 =
+       185, LOGET1X, LOGET 1 XRAY
+       S30°48.79', W64°13.32', 10000, CO800
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach9]
+runway = SACO_23_05, rev
+beacon = DONKA
+route1 =
+       166, DONKA1X, DONKA 1 XRAY
+       S30°48.79', W64°13.32', 10000, CO800
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach10]
+runway = SACO_23_05, rev
+beacon = SIBOL
+route1 =
+       135, SIBOL1X, SIBOL 1 XRAY
+       S30°48.79', W64°13.32', 10000, CO800
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach11]
+runway = SACO_23_05, rev
+beacon = ETEPO
+route1 =
+       103, ETEPO1X, ETEPO 1 XRAY
+       S30°47.51', W64°24.84', 10000, CO809
+       S30°48.16', W64°19.08', 10000, CO810
+       S30°48.79', W64°13.32', 10000, CO800      
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach12]
+runway = SACO_23_05, rev
+beacon = PAMAK
+route1 =
+       084, PAMAK1X, PAMAK 1 XRAY
+       S31°18.71', W64°47.24', 11000, CO802
+       S31°12.63', W64°27.04', 9000, CO807
+       S31°9.97', W64°18.24', 8000, CO808
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach13]
+runway = SACO_23_05, rev
+beacon = ALDEX
+route1 =
+       050, ALDEX1X, ALDEX 1 XRAY
+       S31°18.71', W64°47.24', 11000, CO802
+       S31°12.63', W64°27.04', 9000, CO807
+       S31°9.97', W64°18.24', 8000, CO808
+       S31°8.30', W64°12.75', 8000, IRETI
+       S31°22.44', W64°28.79', 7000, 200, CO009 
+       S31°26.40', W64°25.47', 6000, CO008
+       S31°28.57', W64°22.87', 6000, 160, GUVUX
+       S31°25.17', W64°19.00', 6000, CO006
+       S31°23.73', W64°17.37', 2000, ESUBO
+       6, 2000, 0
+       
+[approach14]
+runway = SACO_19_01
+beacon = RIQUE
+route1 =
+       320, RNP19, RNP 
+       S31°30.44', W63°39.91', 11000, RIQUE
+       S31°22.06', W63°50.03', 8000, CO528
+       S31°12.30', W64°1.77', 5000, XONEN
+       S31°8.06', W64°6.84', 4500, 220, PUPAT
+       S31°8.72', W64°12.66', 4500, 180, AGUAD
+       S31°13.37', W64°12.59', 3000, RAXOB
+       4.4, 3000, 0
+       
+       
+[approach15]
+runway = SACO_19_01, rev
+beacon = PAGAR
+route1 =
+       279, RNP01, RNP 
+       S31°26.61', W63°50.66', 5000, 220, PAGAR
+       S31°26.10', W64°2.92', 3500, ILPEN
+       S31°26.10', W64°9.87', 3500, 180, ESONA
+       S31.408, W64.208, 2500,
+       S31°22.40', W64°12.44', 2500, 
+       5, 2500, 0
+       
+[approach16]
+runway = SACO_19_01, 
+beacon = CBA
+route1 =
+       023, ILSZ, I L S ZULU
+       S31°18.79', W64°12.22', CBA 
+       S31.152, W64.157, 3600, 9 DME GP
+       S31.194, W64.209, 3600, 6.1 DME GP
+       S31.238, W64.209, 2700, 3.5 DME GP 
+       3.5, 2700, 0
+
+[approach17]
+runway = SACO_19_01, 
+beacon = 9DME-GP, S31.157, W64.208, 
+route1 =
+       185, ILSY, I L S YANKEE
+       S31.157, W64.208, 3600, 9 DME GP
+       S31.194, W64.209, 3600, 6.1 DME GP
+       S31.238, W64.209, 2700, 3.5 DME GP 
+       3.5, 2700, 0
+       
+       
+[approach18]
+runway = SACO_19_01, 
+beacon = 15DME-VOR, S31.286, W63.915,
+route1 =
+       005, ILSX, I L S XRAY
+       S31.286, W63.915, 5000, D15 R090
+       S31.222, W63.931, 5000, D15 R075
+       S31.164, W63.969, 5000, D15 R060
+       S31.118, W64.022, 5000, D15 R045
+       S31.083, W64.085, 5000, D15 R030
+       S31.068, W64.161, 5000, D15 R015
+       S31.064, W64.206, 5000, D15 R006
+       S31.157, W64.208, 3600, 9 DME GP
+       S31.194, W64.209, 3600, 6.1 DME GP
+       S31.238, W64.209, 2700, 3.5 DME GP 
+       3.5, 2700, 0
+       
+[approach19]
+runway = SACO_19_01, 
+beacon = CBA-ALT, S31.394, W64.231,
+route1 = 
+       023, ILSW, I L S WHISKY
+       S31.394, W64.231, 6000
+       S31°18.79', W64°12.22', 6000
+       S31.068, W64.161, 5000, D15 R015
+       S31.157, W64.208, 3600, 9 DME GP
+       S31.194, W64.209, 3600, 6.1 DME GP
+       S31.238, W64.209, 2700, 3.5 DME GP 
+       3.5, 2700, 0
+       
+[approach20]
+runway = SACO_23_05
+beacon = CBA
+route1 =
+       005, VOR23, V O R
+       S31°18.79', W64°12.22'
+       S31.283, W63.875, 6000, D17 R090
+       S31.209, W63.895, 6000, D17 R075
+       S31.144, W63.936, 6000, D17 R060
+       S31.114, W63.972, 6000, D17 R052
+       S31.197, W64.064, 4500, D10 R052
+       S31.202, W64.071, 4500, D9.5 R052
+       S31.256, W64.131, 3000, D5 R052
+       4.5, 3000, 0
+       
+[approach21]
+runway = SACO_23_05, 
+beacon = CBA-ALT, S31.394, W64.231 
+route1 =
+       VOR23, V O R
+       S31.394, W64.231, 6000,
+       S31.053, W64.072, 6000, 
+       S31.053, W64.072, 6000, D17 R030
+       S31.092, W63.999, 6000, D17 R045
+       S31.114, W63.972, 6000, D17 R052
+       S31.197, W64.064, 4500, D10 R052
+       S31.202, W64.071, 4500, D9.5 R052
+       S31.256, W64.131, 3000, D5 R052
+       4.5, 3000, 0
+       
+
+       
+
+
+
+
+
+
+
+
+
+
+       
+       
+
+       
+
+       
+       
+       
+        
+
+
+       
+       
+       
+
+
+       
+
+      
+      
+       
+
+
+
+         
+         
+         
+         
+
+         
