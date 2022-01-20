@@ -18,31 +18,31 @@
 # - set magneticvar to 2.3, to match variation as of 1/2022
 # - added missing default items lines (pulled form example.txt)
 # - removed boundary box and used default airspace circle
-# - update airspace radius to 55 nm
+# - update airspace radius to 60 nm
 # - set transition airspace to 18000'
 # - set ceiling to 10000 feet to match top of class B
 # - set above to 12000 feet (exit class B airspace)
 # - set automatic to true, aircraft follow the STAR as the would in real life
 # - removed excess waypoints
 # - only entry waypoints for STARs and missed approach holds are visible
-# - departure end route beacons shown
 # - moved center of airspace to better match the working airspace
 # - removed random green line that was to the west of airspace
 # - added airspace boundary to restrict size of playing area. Generally marks 15000 foot entry point for STARs
+# - letters set to 0; should be airline then flight number
 #
 # Airport 1
 # - set climbaltitude = 3000 to match SIDS real life
-# - defined runways by calm / prevaling wind to remove rev keyword
+# - primary runways defined for west flow arrivals
 # - changed runway identifier to be more descriptive
-# - updated entry points to match added / removed STARs
+# - updated entry points to match 15,000 transition of STARs
 # - updated the airlines to match airlines operating KIAH as of 1/2022
-# - updated airlines airplane types to match equipment that flies into KIAH
+# - updated airlines / airplane types to match equipment that flies into KIAH
 # - increased frequency of United Airlines to 10, they fill the skies here
 #
 # Airport 2
 # - set climbaltitude = 3000 to match SIDS real life
-# - update airliner list
-# - added flow of 7
+# - updated airliner list
+# - added flow of 10
 #
 # Configurations
 # - updated config1 and config2 to match calm / prevailing wind pattern
@@ -52,10 +52,10 @@
 # - added instrument approach transitions, aircraft assigned these procedures will follow a route to ILS and switch over and lock automatically
 #
 # KIAH Arrivals 1101-1117
-# - modified, added the following STARs DOBI TWO, DRLLR FIVE, LINKK ONE, SOULL ONE, TEJAS FOUR, and ZEEKK TWO
+# - modified, added the following STARs DOBI TWO, DRLLR FIVE, LINKK ONE, SOULL ONE, TEJAS FOUR, and ZEEKK TWO. STARs are used for west flow arrivals
 #
 # KIAH Departues 101-102
-# - depatures are defined by approach flow! departuress set for west flow
+# - depatures are defined by approach flow! departuress set for west flow arrivals
 # - modeified, added the following SIDs BELTWY SEVEN, LURIC EIGHT, STYCK EIGHT, WYLSN EIGHT, INDIE EIGHT, BNDTO FIVE, HOODO, FLYZA, RITAA, and MMUGS
 #
 # KHOU Transitions to final Approach Approaches 2001-2005
@@ -65,7 +65,7 @@
 # - modified, added the followign STARs, BAYYY FOUR, BELLR FOUR ,KIDDZ FOUR, PUCKS FOUR, TKNIQ THREE, SOULL ONE, and WAPPL SIX
 #
 # KHOU departures
-# - added BELTWY SEVEN, LURIC EIGHT, STYCK EIGHT, WYLSN EIGHT, INDIE EIGHT, ELOCO FIVE, HOODO SEVEN,  PTRON SEVEN, and RETYR SIX to all four runways.
+# - added BELTWY SEVEN, LURIC EIGHT, STYCK EIGHT, WYLSN EIGHT, INDIE EIGHT, ELOCO FIVE, HOODO SEVEN,  PTRON SEVEN, and RETYR SIX for all 4 runways.
 # 
 # Version 1.0
 # Author Unknown
@@ -90,7 +90,7 @@ diversionaltitude = 7000
 transition = 18000
 usa = true
 metric = false
-letters = 2
+letters = 0
 separation = 3
 automatic = true
 name = houston approach, houston departure
@@ -98,74 +98,76 @@ center = N29.8885, W95.2563
 magneticvar = 2.3
 
 beacons =
+# VOR IAH
+	IAH, N29.9583, W95.3465, 0, Humble V O R
 # KIAH 26R Approach Becons and Missed Approach Hold
-	HOOTI, N30.1153, W94.7353, 0, HOOTI
-	ZAPPO, N30.0078, W94.8195, 0, ZAPPO
+	HOOTI, N30.1153, W94.7353, 0, who tea
+	ZAPPO, N30.0078, W94.8195, 0, ZAP PO
 	RAIDS, N30.0078, W94.9973, 0, RAIDS
 	PEPBI, N30.2827, W95.4297, 164, PEPBI 
 
 # KIAH 26L Approach Becons and Missed Approach Hold
-	BOZZZ, N30.0097, W94.7677, 0, BOZZZ
-	GARRR, N29.9757, W94.7627, 0, GARRR
-	VANNN, N29.9937, W94.8200, 0, VANNN
+	BOZZZ, N30.0097, W94.7677, 0, BOZ
+	GARRR, N29.9757, W94.7627, 0, GAR
+	VANNN, N29.9937, W94.8200, 0, VAN
 	GRIEG, N29.9940, W94.9975, 0, GRIEG
 	LUCEP, N29.9932, W95.7838, 90, LUCEP
 
 # KIAH 27 Approach Becons and Missed Approach Hold
-	CLSIK, N30.0030, W94.6268, 0, CLSIK
+	CLSIK, N30.0030, W94.6268, 0, classic
 	SILLS, N29.9783, W94.8195, 0, SILLS
-	RDFSH, N29.8292, W94.7158, 0, RDFSH
+	RDFSH, N29.8292, W94.7158, 0, redfish
 	DENTO, N29.9782, W94.9968, 0, DENTO
 	TICOY, N29.7018, W95.5918, 35, TICOY
 
 # KIAH DOBI TWO ARRIVAL, KIAH26L at ODISS>BOZZZ
-	DOOBI, N30.4017, W94.4062, 0, DOOBI
+	DOOBI, N30.4017, W94.4062, 0, DOBI
 
 # KIAH DRLLR FIVE ARRIVAL, THREE ROUTES SPLITS AT DOMNO
-	DRLLR, N30.3587, W95.7392, 0, DRLLR
+	DRLLR, N30.3587, W95.7392, 0, DRiLLeR
 
 # KIAH LINKK ONE ARRIVAL TO 27 AND 26L
-	LINKK, N29.5305, W94.2967, 0, LINKK
+	LINKK, N29.5305, W94.2967, 0, LINK
 
 # KIAH MSCOT FOUR FEEDS INTO DOMNO
-	SUUNR, N30.3615, W96.0358, 0, SUUNR
+	SUUNR, N30.3615, W96.0358, 0, SUNR
 
 # KIAH SOULL ONE ARRIVAL
-	BAYYY, N29.3788, W94.3710, 0, BAYYY
+	BAYYY, N29.3788, W94.3710, 0, BAY
 
 # KIAH TEJAS FOUR ARRIVAL FEEDS INTO DRLLR
-	TEJAS, N29.6877, W95.9037, 0, TEJAS
+	TEJAS, N29.6877, W95.9037, 0, TExAS
 
 # KIAH ZEEKK TWO ARRIVAL
-	ZEEKK, N30.5367, W94.5047, 0, ZEEKK
+	ZEEKK, N30.5367, W94.5047, 0, ZEEK
 
 # KHOU 13R IF AND MISSED APCH FIX
 	JABBS, N29.8067, W95.4705, 0, JABBS
-	VUH, N29.2702, W94.8683, 300, VUH
+	VUH, N29.2702, W94.8683, 300, SCHOLES V O R
 
 # KHOU 22 MISSED APCH FIX
 	KAFDO, N29.8012, W95.1077, 0, KAFDO
-	ACOLA, N29.4613, W95.5057, 041, ACOLA
+	ACOLA, N29.4613, W95.5057, 041, A COLA
 
 # KHOU 04 IAF, IF, AND MISSED APCH FIX
-	GEEEO, N29.4812, W95.6497, 0, GEEEO
+	GEEEO, N29.4812, W95.6497, 0, GEO
 	CARCO, N29.4680, W95.4753, 0, CARCO
-	MHF, N29.5485, W94.7475, 110, MHF
+	MHF, N29.5485, W94.7475, 110, TRINITY V O R
 
 # KHOU 31L IF
 	BUNER, N29.4473, W95.0440, 0, BUNER
 
 # KHOU BELLR FOUR ARRIVAL
-	BELLR, N29.3257, W96.0892, 0, BELLR
+	BELLR, N29.3257, W96.0892, 0, BELLaiRe
 
 # KHOU KIDDZ FOUR ARRIVAL > CRSTY
-	KIDDZ, N30.2238, W96.2158, 0, KIDDZ
+	KIDDZ, N30.2238, W96.2158, 0, KIDZ
 
 # KHOU TKNIQ THREE DOCCC > FRDDY OR DOCCC > KEMAH
-	TKNIQ, N29.2402, W94.4668, 0, TKNIQ
+	TKNIQ, N29.2402, W94.4668, 0, technique
 
 # KHOU WAPPL SIX
-	WLMOR, N30.1532, W94.6252, 0, WLMOR
+	WLMOR, N30.1532, W94.6252, 0, wilmor
 
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
@@ -275,22 +277,22 @@ airlines =
 # Main Passenger Airliners
 	amx, 1, b738, areo mexico, w
 	aca, 1, a319/a320/a321/b738/b38m/bcs3, air canada, n
-	cca, 1, b744/b748/b77w/b789, air china, n
+	cca, 1, b748/b77w/b789, air china, n
 	afr, 1, b772/b77l/b77w/b789, air france, n
-	anz, 1, b744/b772/b77w/b789/b78x, New Zealand, w
-	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, n
+	anz, 1, b772/b77w/b789/b78x, New Zealand, w
+	asa, 1, a319/a320/a21n/b737/b738/b739, alaska, n
 	aal, 2, md81/md82/md83, american, ne
-	ana, 1, b744/b772/b773/b77w/b788/b789/b78x, all nippon, n
+	ana, 1, b772/b773/b77w/b788/b789/b78x, all nippon, n
 	ava, 1, a320, avianca, w
 	baw, 2, b772/b77w/b788/b789/b78x, speedbird, n
 	dal, 2, bcs1/bcs3/a319/a320/a321/b712/b737/b738/b739/b752/b753/md88/md90, delta, ne
-	uae, 1, b772/b77l/b773/b77w, emirates, n
+	uae, 1, a380/b772/b77l/b773/b77w, emirates, n
 	eth, 1, b772/b77l/b773/b77w, ethiopian, n
-	eva, 1, b744/b77w/b789/b78x, eva, n
+	eva, 1, b77w/b789/b78x, eva, n
 	fft, 1, a318/a319/a320/a20n/a321/a21n, frontier flight, new
 	jbu, 1, a320/a321/a21n/e190, JetBlue, n
-	klm, 1, b744/b772/b77w/b789/b78x, klm, n
-	dlh, 1, a380/b744/b748, lufthansa, n
+	klm, 1, b772/b77w/b789/b78x, klm, n
+	dlh, 1, a333/a380/b748/b772/b771/b77w, lufthansa, n
 	qtr, 1, b77l/b77w/b788/b789, qatari, n
 	sia, 1, b772/b773/b77w/b78x, singapore, n
 	swa, 3, b733/b735/b737/b37m/b738/b38m, southwest, n
@@ -412,12 +414,12 @@ config4=
 runway = rwyKIAH15R
 
 route1 = 
-	HOODO7, HOODO SEVEN
+	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
 
 route2 = 
-	FLYZA5, FLYZA FIVE
+	FLYZA5, FLY ZA FIVE
 # TTAPS
 	N29.8892, W95.2395
 # BOTLL
@@ -430,7 +432,7 @@ route2 =
 	N29.2702, W94.8683
 
 route3 = 
-	RITAA6, RITAA SIX SKUBA
+	RITAA6, RITA SIX SCUBA
 # WINEO
 	N29.6617, W95.1568
 # RITAA
@@ -439,7 +441,7 @@ route3 =
 	N29.1957, W95.7912
 
 route4 = 
-	RITAA6, RITAA SIX RIIGG
+	RITAA6, RITA SIX RIG
 # WINEO
 	N29.6617, W95.1568
 # RITAA
@@ -449,7 +451,7 @@ route4 =
 
 # BNDTO5 TO CUZZZ
 route5 =
-	BNDTO5, BNDTO FIVE CUZZZ
+	BNDTO5, BANDITO FIVE CUZ
 #SCAMM
 	N29.9568, W95.4990
 # SHAAK
@@ -463,7 +465,7 @@ route5 =
 
 # BNDTO5 TO FFOAM
 route6 =
-	BNDTO5, BNDTO FIVE FFOAM
+	BNDTO5, BANDITO FIVE FOAM
 # SCAMM
 	N29.9568, W95.4990
 # SHAAK
@@ -479,7 +481,7 @@ route6 =
 
 # BNDTO5 TO BAAKE
 route7 =
-	BNDTO5, BNDTO FIVE BAAKE
+	BNDTO5, BANDITO FIVE BAKE
 # SCAMM
 	N29.9568, W95.4990
 # SHAAK 
@@ -494,7 +496,7 @@ route7 =
 	N29.8085, W96.5713
 
 route8 = 
-	BELTWY7, BELTWY SEVEN
+	BELTWY7, BELT WAY SEVEN
 # RIGHT TURN
 	-8.00, 1.00
 # DREMR
@@ -505,7 +507,7 @@ route8 =
 	N30.6062, W95.4915
 
 route9 =
-	LURIC8, LURIC EIGHT
+	LURIC8, LYRIC EIGHT
 # RIGHT TURN
 	-8.00, 1.00
 # KNTKY
@@ -518,7 +520,7 @@ route9 =
 	N30.5533, W94.8927
 
 route10 =
-	STYCK8, STYCK EIGHT
+	STYCK8, STICK EIGHT
 # RIGHT TURN
 	-8.00, 1.00
 # BBYSE
@@ -529,7 +531,7 @@ route10 =
 	N30.5348, W95.6522
 
 route11 = 
-	WYLSN8, WYLSN EIGHT
+	WYLSN8, WILSON EIGHT
 # RIGHT TURN
 	-8.00, 1.00
 # WYLSN
@@ -556,12 +558,12 @@ route12 =
 runway = rwyKIAH15L
 
 route1 = 
-	HOODO7, HOODO SEVEN
+	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
 
 route2 = 
-	FLYZA5, FLYZA FIVE
+	FLYZA5, FLY ZA FIVE
 # TTAPS
 	N29.8892, W95.2395
 # BOTLL
@@ -574,7 +576,7 @@ route2 =
 	N29.2702, W94.8683
 
 route3 = 
-	RITAA6, RITAA SIX SKUBA
+	RITAA6, RITA SIX SCUBA
 # WINEO
 	N29.6617, W95.1568
 # RITAA
@@ -583,7 +585,7 @@ route3 =
 	N29.1957, W95.7912
 
 route4 = 
-	RITAA6, RITAA SIX RIIGG
+	RITAA6, RITA SIX RIG
 # WINEO
 	N29.6617, W95.1568
 # RITAA
@@ -592,7 +594,7 @@ route4 =
 	N28.9027, W95.6177
 
 route5 =
-	MMUGS4, MMUGS FOUR MMALT
+	MMUGS4, MUGS FOUR MALT
 # TTAPS
 	N29.8892, W95.2395
 # BOTLL
@@ -607,7 +609,7 @@ route5 =
 	N30.0315, W94.0190
 
 route6 =
-	MMUGS4, MMUGS FOUR HHOPS
+	MMUGS4, MUGS FOUR HOPS
 # TTAPS
 	N29.8892, W95.2395
 # BOTLL
@@ -622,7 +624,7 @@ route6 =
 	N29.8540, W94.0447
 
 route7 =
-	MMUGS4, MMUGS FOUR GRAYN
+	MMUGS4, MUGS FOUR GRAY N
 # TTAPS
 	N29.8892, W95.2395
 # BOTLL
@@ -643,7 +645,7 @@ route7 =
 runway = rwyKHOU13R
 			
 route1 = 
-	BELTWY7, BELTWY SEVEN
+	BELTWY7, BELT WAY SEVEN
 # DREMR
 	N30.3018, W95.4192
 # LITLD
@@ -652,7 +654,7 @@ route1 =
 	N30.6062, W95.4915
 
 route2 =
-	LURIC8, LURIC EIGHT
+	LURIC8, LYRIC EIGHT
 # KNTKY
 	N30.0868, W95.2613
 # PEETY
@@ -663,7 +665,7 @@ route2 =
 	N30.5533, W94.8927
 
 route3 =
-	STYCK8, STYCK EIGHT
+	STYCK8, STICK EIGHT
 # BBYSE
 	N30.0955, W95.4042
 # SPICR
@@ -672,7 +674,7 @@ route3 =
 	N30.5348, W95.6522
 
 route4 = 
-	WYLSN8, WYLSN EIGHT
+	WYLSN8, WILSON EIGHT
 # WYLSN
 	N30.3083, W95.3225
 # MONNT
@@ -688,7 +690,7 @@ route5 =
 	N30.5920, W95.0732
 
 route6 =
-	ELOCO5, ELOCO FIVE
+	ELOCO5, L LOCO FIVE
 # ELOCO
 	N29.5878, W95.0195
 # CHPEE
@@ -701,33 +703,33 @@ route6 =
 	N29.6877, W94.0387
 
 route7 =
-	HOODO7, HOODO SEVEN
+	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
 
 route8 =
-	PEECE5, PEECE FIVE
+	PEECE5, PEACE FIVE
 # PEECE
 	N29.4855, W95.1213
 # VUH
 	N29.2702, W94.8683
 
 route9 =
-	PTRON7, PTRON SEVEN SKUBA
+	PTRON7, PATRON SEVEN SCUBA
 # PTRON
 	N29.4408, W95.2147
 # SKUBA
 	N29.1957, W95.7912
 
 route10 =
-	PTRON7, PTRON SEVEN RIIGG
+	PTRON7, PATRON SEVEN RIG
 # PTRON
 	N29.4408, W95.2147
 # RIIGG
 	N28.9027, W95.6177
 
 route11 =
-	RETYR6, RETYR SIX ZUUUU
+	RETYR6, RETIRE SIX ZU
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -736,7 +738,7 @@ route11 =
 	N30.0985, W96.2393
 
 route12 = 
-	RETYR6, RETYR SIX BOCCK
+	RETYR6, RETIRE SIX BOCK
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -747,7 +749,7 @@ route12 =
 	N29.9938, W96.5667
 
 route13 =
-	RETYR6, RETYR SIX WEEED
+	RETYR6, RETIRE SIX WEED
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -764,7 +766,7 @@ route13 =
 runway = rwyKHOU22
 			
 route1 = 
-	BELTWY7, BELTWY SEVEN
+	BELTWY7, BELT WAY SEVEN
 # DREMR
 	N30.3018, W95.4192
 # LITLD
@@ -773,7 +775,7 @@ route1 =
 	N30.6062, W95.4915
 
 route2 =
-	LURIC8, LURIC EIGHT
+	LURIC8, LYRIC EIGHT
 # KNTKY
 	N30.0868, W95.2613
 # PEETY
@@ -784,7 +786,7 @@ route2 =
 	N30.5533, W94.8927
 
 route3 =
-	STYCK8, STYCK EIGHT
+	STYCK8, STICK EIGHT
 # BBYSE
 	N30.0955, W95.4042
 # SPICR
@@ -793,7 +795,7 @@ route3 =
 	N30.5348, W95.6522
 
 route4 = 
-	WYLSN8, WYLSN EIGHT
+	WYLSN8, WILSON EIGHT
 # WYLSN
 	N30.3083, W95.3225
 # MONNT
@@ -809,7 +811,7 @@ route5 =
 	N30.5920, W95.0732
 
 route6 =
-	ELOCO5, ELOCO FIVE
+	ELOCO5, L LOCO FIVE
 # ELOCO
 	N29.5878, W95.0195
 # CHPEE
@@ -822,33 +824,33 @@ route6 =
 	N29.6877, W94.0387
 
 route7 =
-	HOODO7, HOODO SEVEN
+	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
 
 route8 =
-	PEECE5, PEECE FIVE
+	PEECE5, PEACE FIVE
 # PEECE
 	N29.4855, W95.1213
 # VUH
 	N29.2702, W94.8683
 
 route9 =
-	PTRON7, PTRON SEVEN SKUBA
+	PTRON7, PATRON SEVEN SCUBA
 # PTRON
 	N29.4408, W95.2147
 # SKUBA
 	N29.1957, W95.7912
 
 route10 =
-	PTRON7, PTRON SEVEN RIIGG
+	PTRON7, PATRON SEVEN RIG
 # PTRON
 	N29.4408, W95.2147
 # RIIGG
 	N28.9027, W95.6177
 
 route11 =
-	RETYR6, RETYR SIX ZUUUU
+	RETYR6, RETIRE SIX ZU
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -857,7 +859,7 @@ route11 =
 	N30.0985, W96.2393
 
 route12 = 
-	RETYR6, RETYR SIX BOCCK
+	RETYR6, RETIRE SIX BOCK
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -868,7 +870,7 @@ route12 =
 	N29.9938, W96.5667
 
 route13 =
-	RETYR6, RETYR SIX WEEED
+	RETYR6, RETIRE SIX WEED
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -886,7 +888,7 @@ route13 =
 runway = rwyKHOU22, rev
 			
 route1 = 
-	BELTWY7, BELTWY SEVEN
+	BELTWY7, BELT WAY SEVEN
 # DREMR
 	N30.3018, W95.4192
 # LITLD
@@ -895,7 +897,7 @@ route1 =
 	N30.6062, W95.4915
 
 route2 =
-	LURIC8, LURIC EIGHT
+	LURIC8, LYRIC EIGHT
 # KNTKY
 	N30.0868, W95.2613
 # PEETY
@@ -906,7 +908,7 @@ route2 =
 	N30.5533, W94.8927
 
 route3 =
-	STYCK8, STYCK EIGHT
+	STYCK8, STICK EIGHT
 # BBYSE
 	N30.0955, W95.4042
 # SPICR
@@ -915,7 +917,7 @@ route3 =
 	N30.5348, W95.6522
 
 route4 = 
-	WYLSN8, WYLSN EIGHT
+	WYLSN8, WILSON EIGHT
 # WYLSN
 	N30.3083, W95.3225
 # MONNT
@@ -931,7 +933,7 @@ route5 =
 	N30.5920, W95.0732
 
 route6 =
-	ELOCO5, ELOCO FIVE
+	ELOCO5, L LOCO FIVE
 # ELOCO
 	N29.5878, W95.0195
 # CHPEE
@@ -944,33 +946,33 @@ route6 =
 	N29.6877, W94.0387
 
 route7 =
-	HOODO7, HOODO SEVEN
+	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
 
 route8 =
-	PEECE5, PEECE FIVE
+	PEECE5, PEACE FIVE
 # PEECE
 	N29.4855, W95.1213
 # VUH
 	N29.2702, W94.8683
 
 route9 =
-	PTRON7, PTRON SEVEN SKUBA
+	PTRON7, PATRON SEVEN SCUBA
 # PTRON
 	N29.4408, W95.2147
 # SKUBA
 	N29.1957, W95.7912
 
 route10 =
-	PTRON7, PTRON SEVEN RIIGG
+	PTRON7, PATRON SEVEN RIG
 # PTRON
 	N29.4408, W95.2147
 # RIIGG
 	N28.9027, W95.6177
 
 route11 =
-	RETYR6, RETYR SIX ZUUUU
+	RETYR6, RETIRE SIX ZU
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -979,7 +981,7 @@ route11 =
 	N30.0985, W96.2393
 
 route12 = 
-	RETYR6, RETYR SIX BOCCK
+	RETYR6, RETIRE SIX BOCK
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -990,7 +992,7 @@ route12 =
 	N29.9938, W96.5667
 
 route13 =
-	RETYR6, RETYR SIX WEEED
+	RETYR6, RETIRE SIX WEED
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -1007,7 +1009,7 @@ route13 =
 runway = rwyKHOU13R, rev
 			
 route1 = 
-	BELTWY7, BELTWY SEVEN
+	BELTWY7, BELT WAY SEVEN
 # DREMR
 	N30.3018, W95.4192
 # LITLD
@@ -1016,7 +1018,7 @@ route1 =
 	N30.6062, W95.4915
 
 route2 =
-	LURIC8, LURIC EIGHT
+	LURIC8, LYRIC EIGHT
 # KNTKY
 	N30.0868, W95.2613
 # PEETY
@@ -1027,7 +1029,7 @@ route2 =
 	N30.5533, W94.8927
 
 route3 =
-	STYCK8, STYCK EIGHT
+	STYCK8, STICK EIGHT
 # BBYSE
 	N30.0955, W95.4042
 # SPICR
@@ -1036,7 +1038,7 @@ route3 =
 	N30.5348, W95.6522
 
 route4 = 
-	WYLSN8, WYLSN EIGHT
+	WYLSN8, WILSON EIGHT
 # WYLSN
 	N30.3083, W95.3225
 # MONNT
@@ -1052,7 +1054,7 @@ route5 =
 	N30.5920, W95.0732
 
 route6 =
-	ELOCO5, ELOCO FIVE
+	ELOCO5, L LOCO FIVE
 # ELOCO
 	N29.5878, W95.0195
 # CHPEE
@@ -1065,33 +1067,33 @@ route6 =
 	N29.6877, W94.0387
 
 route7 =
-	HOODO7, HOODO SEVEN
+	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
 
 route8 =
-	PEECE5, PEECE FIVE
+	PEECE5, PEACE FIVE
 # PEECE
 	N29.4855, W95.1213
 # VUH
 	N29.2702, W94.8683
 
 route9 =
-	PTRON7, PTRON SEVEN SKUBA
+	PTRON7, PATRON SEVEN SCUBA
 # PTRON
 	N29.4408, W95.2147
 # SKUBA
 	N29.1957, W95.7912
 
 route10 =
-	PTRON7, PTRON SEVEN RIIGG
+	PTRON7, PATRON SEVEN RIG
 # PTRON
 	N29.4408, W95.2147
 # RIIGG
 	N28.9027, W95.6177
 
 route11 =
-	RETYR6, RETYR SIX ZUUUU
+	RETYR6, RETIRE SIX ZU
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -1100,7 +1102,7 @@ route11 =
 	N30.0985, W96.2393
 
 route12 = 
-	RETYR6, RETYR SIX BOCCK
+	RETYR6, RETIRE SIX BOCK
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -1111,7 +1113,7 @@ route12 =
 	N29.9938, W96.5667
 
 route13 =
-	RETYR6, RETYR SIX WEEED
+	RETYR6, RETIRE SIX WEED
 # RETYR
 	N29.7240, W95.7943
 # MNNKE
@@ -1129,11 +1131,11 @@ route13 =
 runway = rwyKIAH26R
 beacon = HOOTI
 route1 =
-	200, ILS26R, HOOTI I L S 2 6 R
+	200, ILS26R, I L S 2 6 RIGHT WHO TEA 
 # HOOTI
 	N30.1153, W94.7353, 6000, 210
 # GRIZL
-	N30.0345, W94.7698, 6000 
+	N30.0345, W94.7698, 6000
 # ZAPPO
 	N30.0078, W94.8195, 5000
 # ILS 26R Intercept at NEWLY
@@ -1147,7 +1149,7 @@ route1 =
 runway = rwyKIAH26R
 beacon = ZAPPO
 route1 =
-	200, ILS26R, ZAPPO I L S 2 6 R
+	200, ILS26R, I L S 2 6 RIGHT ZAP PO 
 # ZAPPO
 	N30.0078, W94.8195, 5000, 210
 # ILS 26R Intercept
@@ -1161,7 +1163,7 @@ route1 =
 runway = rwyKIAH26R
 beacon = RAIDS
 route1 =
-	200, ILS26R, RAIDS I L S 2 6 R
+	200, ILS26R, I L S 2 6 RIGHT RAIDS 
 # RAIDS
 	N30.0078, W94.9973, 4000, 210
 # ILS 26R Intercept
@@ -1175,7 +1177,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = BOZZZ
 route1 = 
-	248, ILS26L, BOZZZ I L S 2 6 L
+	248, ILS26L, I L S 2 6 LEFT BOZZ 
 # BOZZZ
 	N30.0097, W94.7677, 8000, 210
 # VANNN
@@ -1193,7 +1195,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = VANNN
 route1 = 
-	248, ILS26L, VANNN I L S 2 6 L
+	248, ILS26L, I L S 2 6 LEFT  VAN
 # VANNN
 	N29.9937, W94.8200, 7000, 210
 # MKAYE 
@@ -1209,7 +1211,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = GARRR
 route1 = 
-	287, ILS26L, GARRR I L S 2 6 L
+	287, ILS26L, I L S 2 6 LEFT GAR 
 # GARRR
 	N29.9757, W94.7627, 7000
 # VANNN
@@ -1227,7 +1229,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = GRIEG
 route1 = 
-	287, ILS26L, GRIEG I L S 2 6 L
+	287, ILS26L, I L S 2 6 LEFT GRIEG 
 # GRIEG
 	N29.9940, W94.9975, 5000, 210
 # ILS 26L Intercept
@@ -1241,13 +1243,13 @@ route1 =
 runway = rwyKIAH27
 beacon = CLSIK
 route1 = 
-	246, ILS227, CLSIK I L S 2 7
+	246, ILS227, I L S 2 7 CLASSIC
 # CLSIK
 	N30.0030, W94.6268, 4000, 210
 # GRUNG
 	N29.9780, W94.7003, 4000
 # SILLS
-	N29.9783, W94.8195, 3000
+	N29.9783, W94.8195, 4000
 # TRANN
 	N29.9787, W94.9163, 3000
 # ILS 27 Intercept
@@ -1261,9 +1263,9 @@ route1 =
 runway = rwyKIAH27
 beacon = SILLS
 route1 = 
-	246, ILS227, SILLS I L S 2 7
+	246, ILS227, I L S 2 7 SILLS 
 # SILLS
-	N29.9783, W94.8195, 3000
+	N29.9783, W94.8195, 4000
 # TRANN
 	N29.9787, W94.9163, 3000
 # ILS 27 Intercept
@@ -1277,7 +1279,7 @@ route1 =
 runway = rwyKIAH27
 beacon = RDFSH
 route1 = 
-	313, ILS227, RDFSH I L S 2 7
+	313, ILS227, I L S 2 7 RED FISH 
 # RDFSH
 	N29.8292, W94.7158, 6000, 210
 # GEYGR
@@ -1297,7 +1299,7 @@ route1 =
 runway = rwyKIAH27
 beacon = DENTO
 route1 = 
-	313, ILS227, DENTO I L S 2 7
+	313, ILS227, I L S 2 7 DENTO 
 # DENTO
 	N29.9782, W94.9968, 2000, 210
 # DENTO ILS 27 Intercept
@@ -1311,7 +1313,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = DOOBI
 route1 = 
-	215, DOOBI2, DOBI TWO ARRIVAL
+	215, DOOBI2, DOOBIE TWO
 # DOOBI
 	N30.4017, W94.4062, 15000, 250 
 # HHART
@@ -1333,7 +1335,7 @@ route1 =
 runway = rwyKIAH26R
 beacon = DRLLR
 route1 = 
-	136, DRLLR5, DRLLR 5 SKLER
+	136, DRLLR5, DRILLER 5 SKYLER
 # DRLLR
 	N30.3587, W95.7392, 13000, 250
 # PTROL
@@ -1353,7 +1355,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = DRLLR
 route1 = 
-	136, DRLLR5, DRLLR 5 ZOEEE
+	136, DRLLR5, DRILLER 5 ZOE
 # DRLLR
 	N30.3587, W95.7392, 14000, 250
 # PTROL
@@ -1373,7 +1375,7 @@ route1 =
 runway = rwyKIAH27
 beacon = DRLLR
 route1 =
-	136, DRLLR5, DRLLR 5 BYSUN
+	136, DRLLR5, DRILLER 5 BISON
 # DRLLR
 	N30.3587, W95.7392, 15000, 250
 # PTROL
@@ -1397,7 +1399,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = LINKK
 route1 =
-	301, LINKK1, LINKK 1 GARRR
+	301, LINKK1, LINK 1 GAR
 # LINKK
 	N29.5305, W94.2967, 13000, 250
 # GILL
@@ -1415,7 +1417,7 @@ route1 =
 runway = rwyKIAH27
 beacon = LINKK
 route1 =
-	301, LINKK1, LINKK 1 RDFSH
+	301, LINKK1, LINK 1 RED FISH
 # LINKK
 	N29.5305, W94.2967, 13000, 250
 # GILL
@@ -1433,7 +1435,7 @@ route1 =
 runway = rwyKIAH26R
 beacon = SUUNR
 route1 =
-	116, MSCOT4, MSCOT 4 SKLER
+	116, MSCOT4, MASCOT 4 SKYLER
 # SUUNR
 	N30.3615, W96.0358, 14000, 280
 # MSCOT
@@ -1455,7 +1457,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = SUUNR
 route1 =
-	116, MSCOT4, MSCOT 4 ZOEEE
+	116, MSCOT4, MASCOT 4 ZOE
 # SUUNR
 	N30.3615, W96.0358, 14000, 280
 # MSCOT
@@ -1477,7 +1479,7 @@ route1 =
 runway = rwyKIAH27
 beacon = SUUNR
 route1 =
-	116, MSCOT4, MSCOT 4 BYSUN
+	116, MSCOT4, MASCOT 4 BISON
 # SUUNR
 	N30.3615, W96.0358, 14000, 280
 # MSCOT
@@ -1503,7 +1505,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = BAYYY
 route1 =
-	312, SOULL1, SOULL 1 GARRR
+	312, SOULL1, SOUL 1 GAR
 # BAYYY
 	N29.3788, W94.3710, 13000, 250
 # SOULL
@@ -1521,7 +1523,7 @@ route1 =
 runway = rwyKIAH27
 beacon = BAYYY
 route1 =
-	312, SOULL1, SOULL 1 RDFSH
+	312, SOULL1, SOUL 1 RED FISH
 # BAYYY
 	N29.3788, W94.3710, 13000, 250
 # SOULL
@@ -1539,7 +1541,7 @@ route1 =
 runway = rwyKIAH26R
 beacon = TEJAS 
 route1 =
-	59, TEJAS4, TEJAS 4 ZOEEE
+	59, TEJAS4, TEXAS 4 ZOE
 # TEJAS
 	N29.6877, W95.9037, 13000, 250
 # RIDLR
@@ -1563,7 +1565,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = TEJAS 
 route1 =
-	59, TEJAS4, TEJAS 4 SMOCR
+	59, TEJAS4, TEXAS 4 SYCAMOR
 # TEJAS
 	N29.6877, W95.9037, 13000, 250
 # RIDLR
@@ -1587,7 +1589,7 @@ route1 =
 runway = rwyKIAH27
 beacon = TEJAS 
 route1 =
-	59, TEJAS4, TEJAS 4 SHIVV
+	59, TEJAS4, TEXAS 4 SHIV
 # TEJAS
 	N29.6877, W95.9037, 13000, 250
 # RIDLR
@@ -1613,7 +1615,7 @@ route1 =
 runway = rwyKIAH26R
 beacon = ZEEKK
 route1 =
-	211, ZEEKK2, ZEEKK 2 TABRR
+	211, ZEEKK2, ZEEK2 TABER
 # ZEEKK
 	N30.5367, W94.5047, 13000, 250
 # BLUUZ
@@ -1632,7 +1634,7 @@ route1 =
 runway = rwyKIAH26L
 beacon = ZEEKK
 route1 =
-	211, ZEEKK2, ZEEKK 2 ODISS
+	211, ZEEKK2, ZEEK 2 ODIS
 # ZEEKK
 	N30.5367, W94.5047, 13000, 250
 # BLUUZ
@@ -1650,7 +1652,7 @@ route1 =
 runway = rwyKIAH27
 beacon = ZEEKK
 route1 =
-	211, ZEEKK2, ZEEKK 2 PPUNK
+	211, ZEEKK2, ZEEK 2 PUNK
 # ZEEKK
 	N30.5367, W94.5047, 13000, 250
 # BLUUZ
@@ -1674,7 +1676,7 @@ route1 =
 runway = rwyKHOU13R
 beacon = JABBS
 route1 = 
-	049, ILS13R, JABBS I L S 1 3 R
+	049, ILS13R, I L S 1 3 R JABS 
 # JABBS
 	N29.8067, W95.4705, 2000, 210
 # INTERCEPT ADJUSTED TO FIT THE SIMULATION
@@ -1688,7 +1690,7 @@ route1 =
 runway = rwyKHOU22
 beacon = KAFDO
 route1 = 
-	049, ILS22, KAFDO I L S 2 2
+	049, ILS22, I L S 2 2 KAFDO 
 # KAFDO
 	N29.8012, W95.1077, 2000, 210
 # INTERCEPT ADJUSTED TO FIT THE SIMULATION
@@ -1702,7 +1704,7 @@ route1 =
 runway = rwyKHOU22, rev
 beacon = GEEEO
 route1 = 
-	4, ILS04, GEEEO I L S 0 4
+	4, ILS04, I L S 0 4 GEO 
 # GEEO
 	N29.4812, W95.6497, 6000, 210
 # CARCO
@@ -1717,7 +1719,7 @@ route1 =
 runway = rwyKHOU22, rev
 beacon = CARCO
 route1 = 
-	4, ILS04, CARCO I L S 0 4
+	4, ILS04, I L S 0 4 CARCO 
 # CARCO
 	N29.4680, W95.4753, 4000, 210
 # ILS INTERCEPT
@@ -1731,7 +1733,7 @@ route1 =
 runway = rwyKHOU13R, rev
 beacon = BUNER
 route1 = 
-	311, ILS13R, BUNER I L S 3 1 L
+	311, ILS13R, I L S 3 1 L BUNER 
 # BUNER
 	N29.4473, W95.0440, 4000, 210
 # ILS INTERCEPT
@@ -1745,7 +1747,7 @@ route1 =
 runway = rwyKHOU13R
 beacon = BAYYY
 route1 = 
-	274, BAYYY4, BAYYY 4
+	274, BAYYY4, BAY 4 IVY
 # BAYYY
 	N29.3788, W94.3710, 17000, 280
 # PUCKS
@@ -1771,7 +1773,7 @@ route1 =
 runway = rwyKHOU13R
 beacon = BELLR
 route1 = 
-	049, BELLR4, BELLR 4
+	049, BELLR4, BELLAIRE 4 HACK IT
 # BELLR
 	N29.3257, W96.0892, 12000, 250
 # HNTRR
@@ -1793,7 +1795,7 @@ route1 =
 runway = rwyKHOU22
 beacon = BELLR
 route1 = 
-	049, BELLR4, BELLR 4
+	049, BELLR4, BELLAIRE 4 AUSTIN
 # BELLR
 	N29.3257, W96.0892, 12000, 250
 # HNTRR
@@ -1815,7 +1817,7 @@ route1 =
 runway = rwyKHOU13R
 beacon = KIDDZ
 route1 = 
-	152, KIDDZ4, KIDDZ 4 SEUSS
+	152, KIDDZ4, KIDS 4 CHRISTY
 # KIDDZ
 	N30.2238, W96.2158, 13000, 280
 # SNIFY
@@ -1843,7 +1845,7 @@ route1 =
 runway = rwyKHOU22
 beacon = KIDDZ
 route1 = 
-	152, KIDDZ4, KIDDZ 4 VILLI
+	152, KIDDZ4, KIDS 4 MA
 # KIDDZ
 	N30.2238, W96.2158, 13000, 280
 # SNIFY
@@ -1873,7 +1875,7 @@ route1 =
 runway = rwyKHOU22
 beacon = BAYYY
 route1 = 
-	152, PUCKS4, PUCKS 4
+	152, PUCKS4, PUCKS 4 SQUIRREL
 # BAYYY
 	N29.3788, W94.3710, 13000, 250
 # PUCKS
@@ -1897,7 +1899,7 @@ route1 =
 runway = rwyKHOU22
 beacon = TKNIQ
 route1 = 
-	301, TIKNIQ3, TIKNIQ3 KEMAH
+	301, TIKNIQ3, TECHNIQUE 3 KEY MAH
 # TKNIQ
 	N29.2402, W94.4668, 12000, 250
 # DOCCC
@@ -1915,7 +1917,7 @@ route1 =
 runway = rwyKHOU13R
 beacon = TKNIQ
 route1 = 
-	301, TIKNIQ3, TIKNIQ3 FRDDY
+	301, TIKNIQ3, TECHNIQUE 3 FREDDY
 # TKNIQ
 	N29.2402, W94.4668, 12000, 250
 # DOCCC
@@ -1941,7 +1943,7 @@ route1 =
 runway = rwyKHOU13R
 beacon = WLMOR
 route1 = 
-	250, WAPPL6, WAPPL6 PRTCH
+	250, WAPPL6, WAPPLE 6 PRITCH
 # WLMOR
 	N30.1532, W94.6252, 15000
 # HUDZY
@@ -1973,7 +1975,7 @@ route1 =
 runway = rwyKHOU22
 beacon = WLMOR
 route1 = 
-	250, WAPPL6, WAPPL6 RTWNG
+	250, WAPPL6, WAPPLE 6 RIGHT WING
 # WLMOR
 	N30.1532, W94.6252, 15000
 # HUDZY
@@ -1999,7 +2001,7 @@ route1 =
 runway = rwyKHOU22, rev
 beacon = BAYYY
 route1 = 
-	274, BAYYY4, BAYYY 4
+	274, BAYYY4, BAY 4 SHUG
 # BAYYY
 	N29.3788, W94.3710, 17000, 280
 # PUCKS
@@ -2023,7 +2025,7 @@ route1 =
 runway = rwyKHOU22, rev
 beacon = BELLR
 route1 = 
-	049, BELLR4, BELLR 4
+	049, BELLR4, BELLAIRE 4 GEO
 # BELLR
 	N29.3257, W96.0892, 12000, 250
 # HNTRR
@@ -2041,7 +2043,7 @@ route1 =
 runway = rwyKHOU22, rev
 beacon = KIDDZ
 route1 = 
-	152, KIDDZ4, KIDDZ 4 SEUSS
+	152, KIDDZ4, KIDS 4 GLUVER
 # KIDDZ
 	N30.2238, W96.2158, 13000, 280
 # SNIFY
@@ -2067,7 +2069,7 @@ route1 =
 runway = rwyKHOU22, rev
 beacon = TKNIQ
 route1 = 
-	301, TIKNIQ3, TIKNIQ3 FRDDY
+	301, TIKNIQ3, TECHNIQUE 3 SHUG
 # TKNIQ
 	N29.2402, W94.4668, 12000, 250
 # DOCCC
@@ -2091,7 +2093,7 @@ route1 =
 runway = rwyKHOU22, rev
 beacon = WLMOR
 route1 = 
-	250, WAPPL6, WAPPL6 PRTCH
+	250, WAPPL6, WAPPLE 6 SHUG
 # WLMOR
 	N30.1532, W94.6252, 15000
 # HUDZY
@@ -2121,7 +2123,7 @@ route1 =
 runway = rwyKHOU13R, rev
 beacon = KIDDZ
 route1 = 
-	152, KIDDZ4, KIDDZ 4 RJAAY
+	152, KIDDZ4, KIDS 4 R JAY
 # KIDDZ
 	N30.2238, W96.2158, 13000, 280
 # SNIFY
@@ -2151,7 +2153,7 @@ route1 =
 runway = rwyKHOU13R, rev
 beacon = BAYYY
 route1 = 
-	152, PUCKS4, PUCKS 4
+	152, PUCKS4, PUCKS 4 BLUE
 # BAYYY
 	N29.3788, W94.3710, 13000, 250
 # PUCKS
@@ -2171,7 +2173,7 @@ route1 =
 runway = rwyKHOU13R, rev
 beacon = TKNIQ
 route1 = 
-	301, TIKNIQ3, TIKNIQ3 MMOOW
+	301, TIKNIQ3, TECHNIQUE 3 MOOW
 # TKNIQ
 	N29.2402, W94.4668, 12000, 250
 # DOCCC
@@ -2189,7 +2191,7 @@ route1 =
 runway = rwyKHOU13R, rev
 beacon = WLMOR
 route1 = 
-	250, WAPPL6, WAPPL6 PRTCH
+	250, WAPPL6, WAPPLE 6 YOU BETTER
 # WLMOR
 	N30.1532, W94.6252, 15000
 # HUDZY
@@ -2217,7 +2219,7 @@ route1 =
 runway = rwyKHOU13R, rev
 beacon = BELLR
 route1 = 
-	049, BELLR4, BELLR 4
+	049, BELLR4, BELLAIRE 4 R JAY
 # BELLR
 	N29.3257, W96.0892, 12000, 250
 # HNTRR
