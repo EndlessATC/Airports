@@ -1,4 +1,4 @@
-# EDDS v2.0
+# EDDS v2.2
 # Flughafen Stuttgart, STR
 # Questions/bugs? Dm me on Discord
 # Discord: Jannik04#9379
@@ -7,10 +7,11 @@
 
 
 
+
 [airspace]
-elevation = 450
+elevation = 1276
 floor = 1500
-center = N48.6898994446, E9.22196006775
+center = N048.41.31.000, E009.13.30.000
 magneticvar = 1.187
 radius = 40
 descendaltitude = 10000       	
@@ -19,7 +20,6 @@ diversionaltitude = 10000
 above = 14000
 zoom = 4
 transitionaltitude = 5000
-speedrestriction = 25, 250
 localizerspeed = 6, 160
 metric = false
 seperation = 3.0
@@ -112,7 +112,6 @@ boundary =
 	N048.07.35.000,	E007.35.03.000
 	N048.06.47.000,	E007.34.46.000
 	N048.06.07.000,	E007.34.39.000
-	
 
 
 beacons =
@@ -137,21 +136,22 @@ beacons =
 	SCHWAEBISH HALL, N049.06.17.000, E009.44.33.000
 	UNTERMUNKHEIM, N049.09.15.000, E009.43.46.000
 	MAINHARDT, N049.04.38.000, E009.34.03.000
+	STR, N048.41.31.000, E009.13.30.000, 0, Stuttgart
 	
 	
 handoff =
-	220, Zürich Arrival, Swiss Arrival, 135.225
- 	240, Zürich Arrival, Swiss Arrival, 135.225
-	250, Reims Control, Reims Control, 128.300
-	270, Reims Control, Reims Control, 128.300
-	280, Langen Radar, Langen Radar, 125.050
-	040, Langen Radar, Langen Radar, 125.050
-	050, München Radar, Müncehen Radar, 132.550
-	100, München Radar, Müncehen Radar, 132.550
-	110, Swiss Radar, Swiss Radar, 124.375
-	200, Swiss Radar, Swiss Radar, 124.375
-	
-
+	300, Langen Radar, Langen Radar, 129.675
+	340, Langen Radar, Langen Radar, 129.675
+	010, Langen Radar, Langen Radar, 125.200
+	060, Langen Radar, Langen Radar, 125.200
+	065, München Radar, München Radar, 128.630
+	100, München Radar, München Radar, 128.630 
+	110, München Radar, München Radar, 132.445
+	145, München Radar, München Radar, 132.445
+	220, Reims Control, Reims Control, 128.300
+	240, Reims Control, Reims Control, 128.300
+	245, Langen Radar, Langen Radar, 129.335
+	295, Langen Radar, Langen Radar, 129.335
 
 
 line1 =
@@ -203,6 +203,7 @@ line4 =
 	N49.50509, E8.42184
 	N49.61124, E8.38081
 
+
 [airport1]
 name = Stuttgart Airport
 code = EDDS
@@ -236,13 +237,14 @@ airlines =
 	AFL, 1, 	B737/B738, Aeroflot, w
 	AFR, 1,		A318/A319, Airfrance, nw
 	ASL, 1, 	A319/A320, Air Serbia, s
-	AUA, 5,		dh8d/A320/A319, Austrian, es
+	AUA, 5,		DH8D/A320/A319, Austrian, es
 	BCS, 2, 	a306/b752, eurotrans, n
 	BMS, 1, 	B737, Blue Air, e
 	BTI, 2, 	A220/B737, Air Baltic, ne
 	BAW, 1, 	A319/A320, Speedbird, wn
 	CFG, 7, 	A320/A321, Condor, sew
 	CLH, 3, 	CRJ9, Hansaline
+	CAI, 1		B738, Corendon, se
 	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
 	ENT, 1, 	B737, Enter, e
 	EWG, 4, 	A319/A320/A32N, Eurowings
@@ -260,7 +262,7 @@ airlines =
 	SXS, 3, 	B738, Sunexpress, se
 	TAP, 4, 	a319/a320/a20n/a21n/a321, Airportugal, sw
 	VLG, 2, 	A320, Vueling, s
-	THY, 1, 	a319/a320, Turkish, se
+	THY, 1, 	A319/A320/A321, Turkish, se
 	TUI, 5, 	B738, Tui jet, swe
 
 
@@ -1838,6 +1840,7 @@ entrypoints =
 airlines = 
 	D-abcd, 5,  C525/C560/E135/J328/A318/A319, 0, swne
 	ADB, 2, A124/A225, n
+traffic = 2
 	
 [airport3]
 name = Karlsruhe Baden-Baden Airport
@@ -1859,26 +1862,13 @@ entrypoints =
 airlines = 
 	D-abcd, 5,  C525/C560/E135/J328/A318/A319, 0, swne
 	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
+traffic = 2	
 
 [airport4]
-name = Schabish-Hall Weckrieden
+name = Schwabish-Hall Weckrieden
 code = TX
 runways =
-	rwy4, 09, N049.07.07.000, E009.47.03.000, 94.0, 5143, 830, 830, 487, 3.2, 0, 3, 0, 0, 0, 0, 0, 121.750
+	rwy4, 09, N049.07.07.000, E009.47.03.000, 94.0, 5143, 830, 830, 487, 3.2, 0, 3, 0, 0, 0, 0, 0, 129.220, Schwabish-Hall Information
 climbaltitude = 1000
 
 sids =
@@ -1892,45 +1882,67 @@ sids =
 
 
 entrypoints = 
-	0, GERAB
-	0, UNTER
-	0, KUPFE
-	0, BRAUN
+	030, GERABRONN, 3000
+	025, KUPFERZELL, 3000
+
 
 airlines = 
-	D-abcd, 5,  C172, 0, swne
+	D-abcd, 1,  C172, 0, swne
 	
 
+traffic = 1
+
+[approach200]
+runway = rwy4
+beacon = GERABRONN, N049.15.01.000, E009.55.23.000
+route1 = 
+	0
+	N049.15.01.000, E009.55.23.000
+	N049.11.50.000,	E009.47.49.000
+	N049.11.01.000,	E009.39.13.000
+	N049.08.23.000,	E009.38.40.000
+	4, 1000, 100
+
+[approach201]
+runway = rwy4
+beacon = KUPFERZELL, N049.13.32.000, E009.41.35.000
+route1 = 
+	0
+	N049.13.32.000, E009.41.35.000
+	N049.11.01.000,	E009.39.13.000
+	N049.08.23.000,	E009.38.40.000
+	4, 1000, 100
 
 
+[approach202]
+runway = rwy4,rev
+beacon = GERABRONN, N049.15.01.000, E009.55.23.000
+route1 = 
+	0
+	N049.15.01.000, E009.55.23.000
+	N049.08.55.000,	E009.55.41.000
+	N049.06.39.000,	E009.57.10.000
+	4, 1000, 100
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[approach203]
+runway = rwy4,rev
+beacon = KUPFERZELL, N049.13.32.000, E009.41.35.000
+route1 = 
+	0
+	N049.13.32.000, E009.41.35.000
+	N049.08.55.000,	E009.55.41.000
+	N049.06.39.000,	E009.57.10.000
+	4, 1000, 100
 
 
 
 
 
 [airport5]
-name = Schabish-Hall 
+name = Schwabish-Hall 
 code = TY
 runways =
-	rwy5, 10, N049.07.07.000, E009.47.03.000, 104.0, 5143, 830, 830, 487, 3.2, 0, 3, 0, 0, 0, 0, 0, 129.22
+	rwy5, 10, N049.07.07.000, E009.47.03.000, 104.0, 5143, 830, 830, 487, 3.2, 0, 3, 0, 0, 0, 0, 0, 129.220, Schwabish-Hall Information
 climbaltitude = 1000
 
 sids =
@@ -1945,32 +1957,12 @@ sids =
 
 
 airlines = 
-	D-abcd, 5,  C172, 0, swne
+	D-abcd, 2,  C172, 0, swne
 	
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+traffic = 1
 
 
 ############### Configs ###############
@@ -1981,14 +1973,14 @@ config1 =
 	0, rwy1, landstart
 	0, rwy2, landstart
 	0, rwy3, landstart
-	0, rwy4, start
+	0, rwy4, land
 	0, rwy5, start
 
 config2 =
 	0, rwy1, landstartrev
 	0, rwy2, landstartrev
 	0, rwy3, landstartrev
-	0, rwy4, startrev
+	0, rwy4, landrev
 	0, rwy5, startrev
 
 ############### Areas ###############
@@ -2098,47 +2090,49 @@ points =
 shape = polygon
 altitude = -1
 points = 
-	N048.41.49.000,	E008.57.43.000
-	N048.47.08.000,	E009.26.58.000
-	N048.41.32.000,	E009.29.26.000
-	N048.35.53.000,	E009.00.11.000
+	N048.43.10.000,	E009.05.56.000
+	N048.48.51.000,	E009.02.46.000
+	N048.51.03.000,	E009.14.38.000
+	N048.45.19.000,	E009.17.13.000
+	N048.47.08.000,	E009.27.01.000
+	N048.41.28.000,	E009.29.31.000
+	N048.35.59.000,	E009.00.17.000
+	N048.41.36.000,	E008.57.45.000
 
 [area5]
 
 shape = polygon
-altitude = 3500
-labelpos = -8, 0
+altitude = -1
 points = 
-	N048.41.49.000,	E008.57.43.000
-	N048.41.49.000,	E008.57.43.000
+	N048.46.52.000,	E008.52.50.000
+	N048.48.36.000,	E008.54.00.000
+	N048.49.41.000,	E008.54.44.000
+	N048.50.40.000,	E008.55.58.000
+	N048.49.41.000,	E008.54.44.000
+	N048.48.36.000,	E008.54.00.000
+	N048.46.52.000,	E008.52.50.000
 
 [area6]
 
 shape = polygon
-altitude = 4500
-labelpos = -3, 8
+altitude = -1
 points = 
-	N048.41.49.000,	E008.57.43.000
-	N048.41.49.000,	E008.57.43.000
+	N048.53.48.000,	E009.29.03.000
+	N048.54.47.000,	E009.27.05.000
+	N048.55.39.000,	E009.24.44.000
+	N048.56.00.000,	E009.23.15.000
+	N048.55.39.000,	E009.24.44.000
+	N048.54.47.000,	E009.27.05.000
+	N048.53.48.000,	E009.29.03.000
 
 [area7]
 
 shape = polygon
-altitude = 5500
-labelpos = 0, 12
+altitude = -1
 points = 
-	N048.41.49.000,	E008.57.43.000
-	N048.41.49.000,	E008.57.43.000
-	
+	N048.42.46.000,	E009.37.24.000
+	N048.31.16.000,	E009.07.44.000
 
-[area8]
-
-shape = polygon
-altitude = 6500
-labelpos = 5, 17
-points = 
-	N048.41.49.000,	E008.57.43.000
-	N048.41.49.000,	E008.57.43.000
 
 [area9]
 
@@ -2300,19 +2294,86 @@ points =
 
 
 
+[area18]
 
+shape = polygon
+altitude = -1
+points = 
+	N048.45.18.000,	E009.17.16.000
+	N048.38.41.000,	E009.14.42.000
+	N048.41.27.000,	E009.29.23.000
 
+[area19]
 
+shape = polygon
+altitude = 4500
+labelpos = -3.5, 10.5
+points =
+	N048.41.31.000, E009.13.30.000
+	N048.41.31.000, E009.13.30.000
 
+[area20]
 
+shape = polygon
+altitude = 3300
+labelpos = 7, 4
+points =
+	N048.41.31.000, E009.13.30.000
+	N048.41.31.000, E009.13.30.000
 
+[area21]
 
+shape = polygon
+altitude = 3500
+labelpos = 12, 2
+points =
+	N048.41.31.000, E009.13.30.000
+	N048.41.31.000, E009.13.30.000
 
+[area22]
 
+shape = polygon
+altitude = 3000
+labelpos = 4.5, 1
+points =
+	N048.41.31.000, E009.13.30.000
+	N048.41.31.000, E009.13.30.000
 
+[area23]
 
+shape = polygon
+altitude = 3300
+labelpos = -4.5, 0
+points =
+	N048.41.31.000, E009.13.30.000
+	N048.41.31.000, E009.13.30.000
 
+[area24]
 
+shape = polygon
+altitude = 4000
+labelpos = 12, -2
+points =
+	N048.41.31.000, E009.13.30.000
+	N048.41.31.000, E009.13.30.000
+
+[area25]
+
+shape = polygon
+altitude = 3400
+labelpos = 16, 27
+points =
+	N048.41.31.000, E009.13.30.000
+	N048.41.31.000, E009.13.30.000
+
+[area26]
+
+shape = polygon
+altitude = 3500
+labelpos = -10, 3
+points =
+	N048.41.31.000, E009.13.30.000
+	N048.41.31.000, E009.13.30.000
 
 
 
