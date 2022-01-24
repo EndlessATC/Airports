@@ -438,7 +438,7 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	qtr, 1, a332/a333/a346/a359/a35k/a388/b77l/b77w/b788/b789, qatari, n
 	ram, 1, b788/b789, royal air maroc, n
 	sva, 1, a333/a343/b741/b742/b743/b744/b772/b77w/b789/b78x/md11, saudia, n
-	sas, 1, a333/a343/a359, Scandinavian, n
+	sas, 1, a21l/a333/a343/a359, Scandinavian, n
 	fdy, 1, c208/c550, friendly, w
 	swa, 1, b733/b735/b737/b37m/b738/b38m, southwest, sw
 	scx, 1, b737/b738, sun country, w
@@ -451,7 +451,7 @@ airlines = ual, 20, a319/a320/b735/b737/b738/b739/b38m/b39m/b3xm/b744/b752/b753/
 	ups, 1, a306/b752/b763/dc87/md11, u p s, w
 	bvn, 1, c208, show me, n
 	mtn, 1, at43/at72/at76, mountain, n
-	cfs, 1, at43/at72/at76, empire, w
+	cfs, 1, at43/at72/c208, empire, nw
 	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl5t/gl7t/c55b/c68a/glf5/c56x, exec jet, nw
 	xoj, 1, c750/cl30, exo jet, sw
 	ejm, 1, be40/c25a/c25b/c25c/c550/c560/c56x/c680/c68a/c700/c750/cl30/cl35/cl60/cl65/e35l/e50p/e55p/e550/f2th/f900/fa50/g150/g280/galx/gl5t/glex/glf4/glf5/glf6/h25b/h25c/h25x/lj40/lj45/lj60/lj75, jet speed, w
