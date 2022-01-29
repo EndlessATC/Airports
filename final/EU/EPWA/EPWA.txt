@@ -1,4 +1,4 @@
-# EPWA v1.1.1
+# EPWA v1.1.2
 # Warsaw Chopin International Airport
 # Credits: MoDrazzz
 # See README_EN.MD for description!
@@ -106,16 +106,16 @@ airlines =
 	BTI, 1, a220/dh8d, AIR BALTIC, NE
 	AFR, 2, a319/a320, AIRFRANS, W
 	AUA, 3, a319/a320/dh8d/e195, AUSTRIAN, S
-	BRU, 3, b737/b738/e175/e195, BELAVIA, E
-	BAW, 3, a319/a320/a321/a32n/a21n, SPEEDBIRD, W
+	BRU, 0, b737/b738/e175/e195, BELAVIA, E
+	BAW, 2, a319/a320/a321/a32n/a21n, SPEEDBIRD, W
 	ELY, 1, b738/b739, EL AL, S
 	ENT, 4, b738/b38m, ENTERAIR, SW
-	UAE, 1, b777, EMIRATES, S
+	UAE, 1, b77W, EMIRATES, S
 	FIN, 2, a319/a320/a321, FINNAIR, N
-	KLM, 3, e175/e190/b738, KLM, W
+	KLM, 3, e175/e190/b737/b738, KLM, W
 	DLH, 3, a319/a320/a32n/a21n, LUFTHANSA, W
-	QTR, 1, b787, QATARI, S
-	RYS, 2, b738, MAGIC SUN, S
+	QTR, 1, b788, QATARI, S
+	RYS, 0, b738, MAGIC SUN, S
 	SWR, 1, a319/a320/a321, SWISS, SW
 	TAP, 1, a319/a320/a321, AIR PORTUGAL, SW
 	THY, 1, a319/a320/a321/a333, TURKISH, SW
@@ -123,34 +123,24 @@ airlines =
 	TVS, 2, b738/b38m, SKY TRAVEL, S
 	WZZ, 7, a320/a321/a32n/a21n, WIZZAIR, NSW
 #   CARGO
-   DHL, 2, a306/b757, DAHL, W
-   BCS, 2, a306/b757, EUROTRANS, W
+   BCS, 2, a306/b757/b767, EUROTRANS, W
    SRN, 2, sf34, SPRINTAIR, NSWE
    UPS, 2, b767, UPS, W
 #   SPECIAL
    PLF, 1, e170/e190/b738, POLISH AIR FORCE, NSWE
 #	ent, 3, b738/b38m, enterair, sw
-#	spl, 2, a320, planet, nsw
 #	klm, 1, e170, KLM, w
 #	dlh, 1, a320/a319/a321, lufthansa, w
-#	ewe, 1, a320, eurowings, w
 #	baw, 1, a319/a320/a321/a32n/a21n, speedbird, w
-#	dhl, 1, b757/b767, dhl, nwse
-#	clx, 1, b777, cargolux, nwse
 #	UPS, 2, B767, u p s, NWSE
-#	gec, 2, B772, lUFTHANSA cARGO, WSN
 #	lot, 10, b787/b738/dh8d/e170/e175, lot, nswe
 #	wzz, 6, a320/a321/a32n/a21n, wizzair, nswe
 #	ent, 2, b738/b38m, enterair, sw
-#	spl, 2, a320, planet, nsw
 #	klm, 1, e170, KLM, w
 #	dlh, 2, a320/a319/a321, lufthansa, ws
 #	clh, 3, e175/e190/crj9, centreline, ws
-#	ewe, 1, a320, eurowings, ws
 #	baw, 1, a319/a320, speedbird, nw
-#	dhl, 1, b757/b767, dhl, nwse
 #	UPS, 2, A332/B744/B767, u p s, NWSE
-#	gec, 2, B772/MD11, lUFTHANSA cARGO, WSN
 
 [airport2]
 
@@ -1534,7 +1524,7 @@ route3 =
 	N52.3829, E21.2779
 	N52.2596, E21.0241
     N51.9489, E20.5723
-	N52.3911, E20.2360
+	N51.6530, E20.3999
     N51.3878, E20.3600
 # MO866 MO827 MO828 MO859 MO818 NITKI NIPUS EVINA
 
@@ -2271,25 +2261,6 @@ route1 =
     N52.470583,E20.859750, 3000
 	7.0, 2900, 180
 # GOGUS GIPOS FALNE ADOXO BIMPA KUXEN MO804 PAVZA IMWEG MO994 MO998
-
-[approach146]
-runway = rwy4
-beacon = MO934, N52.4898, E20.0688, 139, MIKE OSCAR NINER THREE FOUR
-route1 =
-    139
-    N52.4898, E20.0688
-    N52.4696, E20.1970, 0, 250
-    N52.5050, E20.5005, 0, 220
-    N52.5548, E20.7558
-    N52.5859, E20.9164, 6000, 220
-    N52.6059, E21.0208
-    N52.6258, E21.1251, 6000, 220
-    N52.5463, E21.1658
-    N52.5265, E21.0620, 5000
-    N52.5066, E20.9579
-    N52.4941, E20.8929, 3000
-    9.6, 3000, 180
-# MO934 DOMUV MO933 TITLU MO932 MO931 MO929 MO928 MO927 MO926 XENIS
 
 [approach147]
 runway = rwy4
