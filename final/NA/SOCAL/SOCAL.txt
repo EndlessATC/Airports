@@ -3857,7 +3857,7 @@ entrypoints =
 	090, PSP, 10000
 	
 [departure18]
-runway = rwy71
+runway = rwy76
 route71 =
 	HAWWC3, Hawk Three
 	N33.54.54.920, W118.24.50.760
@@ -3867,7 +3867,7 @@ route71 =
 	N34.08.35.000, W119.00.37.000
 	
 [approach58]
-runway = rwy71
+runway = rwy76
 beacon = PSP
 route72 =
 	080, KAYOH7, Kay Oh Seven
