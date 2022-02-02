@@ -1,3 +1,32 @@
+# Version 2.1
+# Incoporates suggestions and recommendations from Discord reviewers ARH1 and obamna
+#
+# Beacons
+# - removed approach and missed approach beacons for KHOU 22 and 31L
+# - Added DOMNO beacon for KIAH downwind entries
+# - Added SHUUG beacon for KHOU4 downwind entries
+# - Added VILLI beacon for KHOU13R downwin entries
+# 
+# Airport 1
+# -set climbaltitude = 4000
+#
+# Airport 2
+# -set climbaltitude = 5000
+#
+# Configurations
+# - delted config3 and config4
+# - config1 D13R and A4
+# - config2 D22 and A13R
+#
+# Depatures
+# - removed KHOU 4 and 31L depatures
+#
+# Approaches
+# - removed approaches for KHOU 22 and 31L
+# - added DRLLER and TEJAS entry points at DOMNO and HOWLN
+# - added BAYYY entry point at SHUUG
+# - added BAYYY entry point at VILLI
+#
 # Version 2.0
 # David Garza locodave@gmail.com
 #
@@ -125,6 +154,7 @@ beacons =
 
 # KIAH DRLLR FIVE ARRIVAL, THREE ROUTES SPLITS AT DOMNO
 	DRLLR, N30.3587, W95.7392, 0, DRiLLeR
+	DOMNO, N30.0940, W95.4843, 0, domino
 
 # KIAH LINKK ONE ARRIVAL TO 27 AND 26L
 	LINKK, N29.5305, W94.2967, 0, LINK
@@ -134,9 +164,11 @@ beacons =
 
 # KIAH SOULL ONE ARRIVAL
 	BAYYY, N29.3788, W94.3710, 0, BAY
+	
 
 # KIAH TEJAS FOUR ARRIVAL FEEDS INTO DRLLR
 	TEJAS, N29.6877, W95.9037, 0, TExAS
+	HOWLN, N29.8937, W95.4658, 0, HOWLIN
 
 # KIAH ZEEKK TWO ARRIVAL
 	ZEEKK, N30.5367, W94.5047, 0, ZEEK
@@ -145,17 +177,10 @@ beacons =
 	JABBS, N29.8067, W95.4705, 0, JABBS
 	VUH, N29.2702, W94.8683, 300, SCHOLES V O R
 
-# KHOU 22 MISSED APCH FIX
-	KAFDO, N29.8012, W95.1077, 0, KAFDO
-	ACOLA, N29.4613, W95.5057, 041, A COLA
-
 # KHOU 04 IAF, IF, AND MISSED APCH FIX
 	GEEEO, N29.4812, W95.6497, 0, GEO
 	CARCO, N29.4680, W95.4753, 0, CARCO
 	MHF, N29.5485, W94.7475, 110, TRINITY V O R
-
-# KHOU 31L IF
-	BUNER, N29.4473, W95.0440, 0, BUNER
 
 # KHOU BELLR FOUR ARRIVAL
 	BELLR, N29.3257, W96.0892, 0, BELLaiRe
@@ -165,7 +190,8 @@ beacons =
 
 # KHOU TKNIQ THREE DOCCC > FRDDY OR DOCCC > KEMAH
 	TKNIQ, N29.2402, W94.4668, 0, technique
-
+	SHUUG, N29.5563, W95.2423, 0, SHUG
+	VILLI, N29.6293, W95.3873, 0, villi
 # KHOU WAPPL SIX
 	WLMOR, N30.1532, W94.6252, 0, wilmor
 
@@ -262,7 +288,7 @@ runways =
 	rwyKIAH15L, 15L, N29.9878, W95.3578, 152.0, 12001, 0, 0, 95
 	rwyKIAH15R, 15R, N29.9878, W95.3613, 152.0, 9999, 0, 0, 95
 
-climbaltitude = 3000
+climbaltitude = 4000
 
 entrypoints = 
 	40, ZEEKK
@@ -343,7 +369,7 @@ runways =
 
 flow = 10
 
-climbaltitude = 3000
+climbaltitude = 5000
 
 entrypoints=
 	60, WLMOR
@@ -371,41 +397,25 @@ airlines =
 [configurations]
 ##############################################################
 
+# KHOU A4 D13R
 config1= 
 	0, rwyKIAH26R, land
 	0, rwyKIAH26L, land
 	0, rwyKIAH27, land
 	0, rwyKIAH15R, start
 	0, rwyKIAH15L, start
-	0, rwyKHOU22, landstart
-	0, rwyKHOU13R, landstart
+	0, rwyKHOU22, landrev
+	0, rwyKHOU13R, start
 
+# KHOU A13R D22
 config2= 
 	0, rwyKIAH26R, land
 	0, rwyKIAH26L, land
 	0, rwyKIAH27, land
 	0, rwyKIAH15R, start
 	0, rwyKIAH15L, start
-	0, rwyKHOU22, landstartrev
-	0, rwyKHOU13R, landstart
-
-config3= 
-	0, rwyKIAH26R, land
-	0, rwyKIAH26L, land
-	0, rwyKIAH27, land
-	0, rwyKIAH15R, start
-	0, rwyKIAH15L, start
-	0, rwyKHOU22, landstart
-	0, rwyKHOU13R, landstartrev
-
-config4= 
-	0, rwyKIAH26R, land
-	0, rwyKIAH26L, land
-	0, rwyKIAH27, land
-	0, rwyKIAH15R, start
-	0, rwyKIAH15L, start
-	0, rwyKHOU22, landstartrev
-	0, rwyKHOU13R, landstartrev
+	0, rwyKHOU22, start
+	0, rwyKHOU13R, land
 
 ##############################################################
 [departure101]
@@ -475,7 +485,7 @@ route6 =
 # FFOAM
 	N29.9293, W95.9613
 # BOCCK
-	N29.9377, W96.9613
+	N29.9377, W96.2083
 # MNURE
 	N29.9938, W96.5667
 
@@ -881,249 +891,6 @@ route13 =
 	N29.8085, W96.5713
 
 ##############################################################
-[departure203]
-##############################################################
-
-# KHOU runway4 depatures
-runway = rwyKHOU22, rev
-			
-route1 = 
-	BELTWY7, BELT WAY SEVEN
-# DREMR
-	N30.3018, W95.4192
-# LITLD
-	N30.5053, W95.4688
-# BELTWY
-	N30.6062, W95.4915
-
-route2 =
-	LURIC8, LYRIC EIGHT
-# KNTKY
-	N30.0868, W95.2613
-# PEETY
-	N30.2510, W95.1297
-# DARTR
-	N30.4037, W95.0072
-# MUSIQ
-	N30.5533, W94.8927
-
-route3 =
-	STYCK8, STICK EIGHT
-# BBYSE
-	N30.0955, W95.4042
-# SPICR
-	N30.2757, W95.5050
-# WLLIS
-	N30.5348, W95.6522
-
-route4 = 
-	WYLSN8, WILSON EIGHT
-# WYLSN
-	N30.3083, W95.3225
-# MONNT
-	N30.4780, W95.3122
-
-route5 = 
-	INDIE8, INDIE EIGHT
-# RENNK
-	N30.2915, W95.2225
-# COLET
-	N30.4503, W95.1615
-# SUSHI
-	N30.5920, W95.0732
-
-route6 =
-	ELOCO5, L LOCO FIVE
-# ELOCO
-	N29.5878, W95.0195
-# CHPEE
-	N29.6368, W94.8412
-# GRIPY
-	N29.7460, W94.5392
-# YOKEM
-	N29.7223, W94.3425
-# SBI
-	N29.6877, W94.0387
-
-route7 =
-	HOODO7, HOO DO SEVEN
-# VUH
-	N29.2702, W94.8683
-
-route8 =
-	PEECE5, PEACE FIVE
-# PEECE
-	N29.4855, W95.1213
-# VUH
-	N29.2702, W94.8683
-
-route9 =
-	PTRON7, PATRON SEVEN SCUBA
-# PTRON
-	N29.4408, W95.2147
-# SKUBA
-	N29.1957, W95.7912
-
-route10 =
-	PTRON7, PATRON SEVEN RIG
-# PTRON
-	N29.4408, W95.2147
-# RIIGG
-	N28.9027, W95.6177
-
-route11 =
-	RETYR6, RETIRE SIX ZU
-# RETYR
-	N29.7240, W95.7943
-# MNNKE
-	N29.7682, W95.8788
-# ZUUUU
-	N30.0985, W96.2393
-
-route12 = 
-	RETYR6, RETIRE SIX BOCK
-# RETYR
-	N29.7240, W95.7943
-# MNNKE
-	N29.7682, W95.8788
-# BOCCK
-	N29.9377, W96.2083
-# MNURE
-	N29.9938, W96.5667
-
-route13 =
-	RETYR6, RETIRE SIX WEED
-# RETYR
-	N29.7240, W95.7943
-# MNNKE
-	N29.7682, W95.8788
-# WEEED
-	N29.7802, W96.1827
-# WAILN
-	N29.8085, W96.5713
-
-##############################################################
-[departure204]
-##############################################################
-
-runway = rwyKHOU13R, rev
-			
-route1 = 
-	BELTWY7, BELT WAY SEVEN
-# DREMR
-	N30.3018, W95.4192
-# LITLD
-	N30.5053, W95.4688
-# BELTWY
-	N30.6062, W95.4915
-
-route2 =
-	LURIC8, LYRIC EIGHT
-# KNTKY
-	N30.0868, W95.2613
-# PEETY
-	N30.2510, W95.1297
-# DARTR
-	N30.4037, W95.0072
-# MUSIQ
-	N30.5533, W94.8927
-
-route3 =
-	STYCK8, STICK EIGHT
-# BBYSE
-	N30.0955, W95.4042
-# SPICR
-	N30.2757, W95.5050
-# WLLIS
-	N30.5348, W95.6522
-
-route4 = 
-	WYLSN8, WILSON EIGHT
-# WYLSN
-	N30.3083, W95.3225
-# MONNT
-	N30.4780, W95.3122
-
-route5 = 
-	INDIE8, INDIE EIGHT
-# RENNK
-	N30.2915, W95.2225
-# COLET
-	N30.4503, W95.1615
-# SUSHI
-	N30.5920, W95.0732
-
-route6 =
-	ELOCO5, L LOCO FIVE
-# ELOCO
-	N29.5878, W95.0195
-# CHPEE
-	N29.6368, W94.8412
-# GRIPY
-	N29.7460, W94.5392
-# YOKEM
-	N29.7223, W94.3425
-# SBI
-	N29.6877, W94.0387
-
-route7 =
-	HOODO7, HOO DO SEVEN
-# VUH
-	N29.2702, W94.8683
-
-route8 =
-	PEECE5, PEACE FIVE
-# PEECE
-	N29.4855, W95.1213
-# VUH
-	N29.2702, W94.8683
-
-route9 =
-	PTRON7, PATRON SEVEN SCUBA
-# PTRON
-	N29.4408, W95.2147
-# SKUBA
-	N29.1957, W95.7912
-
-route10 =
-	PTRON7, PATRON SEVEN RIG
-# PTRON
-	N29.4408, W95.2147
-# RIIGG
-	N28.9027, W95.6177
-
-route11 =
-	RETYR6, RETIRE SIX ZU
-# RETYR
-	N29.7240, W95.7943
-# MNNKE
-	N29.7682, W95.8788
-# ZUUUU
-	N30.0985, W96.2393
-
-route12 = 
-	RETYR6, RETIRE SIX BOCK
-# RETYR
-	N29.7240, W95.7943
-# MNNKE
-	N29.7682, W95.8788
-# BOCCK
-	N29.9377, W96.2083
-# MNURE
-	N29.9938, W96.5667
-
-route13 =
-	RETYR6, RETIRE SIX WEED
-# RETYR
-	N29.7240, W95.7943
-# MNNKE
-	N29.7682, W95.8788
-# WEEED
-	N29.7802, W96.1827
-# WAILN
-	N29.8085, W96.5713
-
-##############################################################
 [approach1001]
 ##############################################################
 
@@ -1243,7 +1010,7 @@ route1 =
 runway = rwyKIAH27
 beacon = CLSIK
 route1 = 
-	246, ILS227, I L S 2 7 CLASSIC
+	246, ILS27, I L S 2 7 CLASSIC
 # CLSIK
 	N30.0030, W94.6268, 4000, 210
 # GRUNG
@@ -1263,7 +1030,7 @@ route1 =
 runway = rwyKIAH27
 beacon = SILLS
 route1 = 
-	246, ILS227, I L S 2 7 SILLS 
+	246, ILS27, I L S 2 7 SILLS 
 # SILLS
 	N29.9783, W94.8195, 4000
 # TRANN
@@ -1279,7 +1046,7 @@ route1 =
 runway = rwyKIAH27
 beacon = RDFSH
 route1 = 
-	313, ILS227, I L S 2 7 RED FISH 
+	313, ILS27, I L S 2 7 RED FISH 
 # RDFSH
 	N29.8292, W94.7158, 6000, 210
 # GEYGR
@@ -1299,7 +1066,7 @@ route1 =
 runway = rwyKIAH27
 beacon = DENTO
 route1 = 
-	313, ILS227, I L S 2 7 DENTO 
+	313, ILS27, I L S 2 7 DENTO 
 # DENTO
 	N29.9782, W94.9968, 2000, 210
 # DENTO ILS 27 Intercept
@@ -1351,6 +1118,22 @@ route1 =
 [approach1103]
 ##############################################################
 
+# DRILLER FIVE TO 26R VIA SKLER
+runway = rwyKIAH26R
+beacon = DOMNO
+route1 = 
+	136, DRLLR5, DRILLER 5 SKYLER
+# DOMNO
+	N30.0940, W95.4843, 8000, 240
+# SKLER
+	N30.0935, W95.2277, 6000, 210
+# END
+	END, 87
+
+##############################################################
+[approach1104]
+##############################################################
+
 # DRILLER FIVE TO 26L VIA ZOEEE
 runway = rwyKIAH26L
 beacon = DRLLR
@@ -1368,7 +1151,23 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach1104]
+[approach1105]
+##############################################################
+
+# DRILLER FIVE TO 26L VIA ZOEEE
+runway = rwyKIAH26L
+beacon = DOMNO
+route1 = 
+	136, DRLLR5, DRILLER 5 ZOE
+# DOMNO
+	N30.0940, W95.4843, 9000, 240
+# ZOEEE
+	N30.0938, W95.2910, 7000, 210
+# END
+	END, 87
+
+##############################################################
+[approach1106]
 ##############################################################
 
 # DRILLER FIVE TO 27 VIA BYSUN
@@ -1392,7 +1191,27 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach1105]
+[approach1107]
+##############################################################
+
+# DRILLER FIVE TO 27 VIA BYSUN
+runway = rwyKIAH27
+beacon = DOMNO
+route1 =
+	136, DRLLR5, DRILLER 5 BISON
+# DOMNO
+	N30.0940, W95.4843, 10000, 240
+# BYSUN
+	N29.9813, W95.3720, 6000
+# SMOCR
+	N29.8943, W95.2843
+# PRAYY
+	N29.8928, W95.1915, 6000, 210
+# END
+	END, 87
+
+##############################################################
+[approach1108]
 ##############################################################
 
 # LINKK ONE ARRIVAL TO GARRR 26L OR 26R
@@ -1410,7 +1229,7 @@ route1 =
 	END, 290
 
 ##############################################################
-[approach1106]
+[approach1109]
 ##############################################################
 
 # LINKK ONE ARRIVAL TO RDFSH
@@ -1428,7 +1247,7 @@ route1 =
 	END, 313
 
 ##############################################################
-[approach1107]
+[approach1110]
 ##############################################################
 
 # MSCOT FOUR ARRIVAL SKLER
@@ -1450,7 +1269,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach1108]
+[approach1111]
 ##############################################################
 
 # MSCOT FOUR ARRIVAL ZOEEE
@@ -1472,7 +1291,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach1109]
+[approach1112]
 ##############################################################
 
 # MSCOT FOUR ARRIVAL BYSUN
@@ -1498,7 +1317,7 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach1110]
+[approach1113]
 ##############################################################
 
 # SOULL ONE TO GARRR
@@ -1516,7 +1335,7 @@ route1 =
 	END, 290
 
 ##############################################################
-[approach1111]
+[approach1114]
 ##############################################################
 
 # SOULL ONE TO RDFSH
@@ -1534,7 +1353,7 @@ route1 =
 	END, 336
 
 ##############################################################
-[approach1112]
+[approach1115]
 ##############################################################
 
 # TEJAS FOUR TO 26R
@@ -1558,7 +1377,25 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach1113]
+[approach1116]
+##############################################################
+
+# TEJAS FOUR TO 26R
+runway = rwyKIAH26R
+beacon = HOWLN 
+route1 =
+	59, TEJAS4, TEXAS 4 ZOE
+# HOWLN
+	N29.8937, W95.4658, 6000, 240
+# ZOEEE
+	N30.0938, W95.2910
+# SKLER
+	N30.0935, W95.2277, 6000, 210
+# END
+	END, 87
+
+##############################################################
+[approach1117]
 ##############################################################
 
 # TEJAS FOUR TO 26L
@@ -1582,7 +1419,25 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach1114]
+[approach1118]
+##############################################################
+
+# TEJAS FOUR TO 26L
+runway = rwyKIAH26L
+beacon = HOWLN 
+route1 =
+	59, TEJAS4, TEXAS 4 SYCAMOR
+# HOWLN
+	N29.8937, W95.4658, 6000, 240
+# SMOCR
+	N29.8943, W95.2843
+# PRAYY
+	N29.8928, W95.1915, 6000, 210
+# END
+	END, 87
+
+##############################################################
+[approach1119]
 ##############################################################
 
 # TEJAS FOUR TO 27
@@ -1608,7 +1463,27 @@ route1 =
 	END, 87
 
 ##############################################################
-[approach1115]
+[approach1120]
+##############################################################
+
+# TEJAS FOUR TO 27
+runway = rwyKIAH27
+beacon = HOWLN 
+route1 =
+	59, TEJAS4, TEXAS 4 SHIV
+# HOWLN
+	N29.8937, W95.4658, 6000, 240
+# SHIVV
+	N29.8935, W95.3733
+# SMOCR
+	N29.8943, W95.2843
+# PRAYY
+	N29.8928, W95.1915, 6000, 210
+# END
+	END, 87
+
+##############################################################
+[approach1121]
 ##############################################################
 
 # ZEEKK TWO TO HOOTI 26R
@@ -1627,7 +1502,7 @@ route1 =
 # END
 	END, 194
 ##############################################################
-[approach1116]
+[approach1122]
 ##############################################################
 
 # ZEEKK TWO TO BOZZZ 26L
@@ -1645,7 +1520,7 @@ route1 =
 	END, 216
 
 ##############################################################
-[approach1117]
+[approach1123]
 ##############################################################
 
 # ZEEKK TWO TO CLSIK 27
@@ -1682,19 +1557,6 @@ route1 =
 # INTERCEPT ADJUSTED TO FIT THE SIMULATION
 	6.5, 2000
 
-##############################################################
-[approach2002]
-##############################################################
-
-# ILS APPROACH TO 22 STARTING AT KAFDO
-runway = rwyKHOU22
-beacon = KAFDO
-route1 = 
-	049, ILS22, I L S 2 2 KAFDO 
-# KAFDO
-	N29.8012, W95.1077, 2000, 210
-# INTERCEPT ADJUSTED TO FIT THE SIMULATION
-	6.5, 2000
 
 ##############################################################
 [approach2003]
@@ -1724,20 +1586,6 @@ route1 =
 	N29.4680, W95.4753, 4000, 210
 # ILS INTERCEPT
 	7.3, 2000
-
-##############################################################
-[approach2005]
-##############################################################
-
-# ILS APPROACH TO 31l STARTING AT BUNER
-runway = rwyKHOU13R, rev
-beacon = BUNER
-route1 = 
-	311, ILS13R, I L S 3 1 L BUNER 
-# BUNER
-	N29.4473, W95.0440, 4000, 210
-# ILS INTERCEPT
-	13, 4000
 
 ##############################################################
 [approach2101]
@@ -1787,27 +1635,6 @@ route1 =
 # END
 	END, 42
 
-##############################################################
-[approach2103]
-##############################################################
-
-# BELLR FOUR TO 22
-runway = rwyKHOU22
-beacon = BELLR
-route1 = 
-	049, BELLR4, BELLAIRE 4 AUSTIN
-# BELLR
-	N29.3257, W96.0892, 12000, 250
-# HNTRR
-	N29.4708, W95.8790, 9000
-# AWSTN
-	N29.5827, W95.5310, 7000, 210
-# VILLI
-	N29.6287, W95.3873, 6000
-# MAAHH
-	N29.6057, W95.1495
-# END
-	END, 110
 
 ##############################################################
 [approach2104]
@@ -1837,77 +1664,6 @@ route1 =
 # END
 	END, 42
 
-##############################################################
-[approach2105]
-##############################################################
-
-# KIDDZ FOUR TO 22
-runway = rwyKHOU22
-beacon = KIDDZ
-route1 = 
-	152, KIDDZ4, KIDS 4 MA
-# KIDDZ
-	N30.2238, W96.2158, 13000, 280
-# SNIFY
-	N30.1585, W96.1813, 12000, 270
-# QTRBK
-	N30.0602, W96.1283
-# RVEEE
-	N29.8280, W95.9950, 11000
-# AAHZZ
-	N29.7312, W95.9323, 10000
-# GLUVR
-	N29.6520, W95.8813, 9000, 240
-# CRSTY
-	N29.6395, W95.6003, 6000, 210
-# VILLI
-	N29.6287, W95.3873
-# MAAHH
-	N29.6057, W95.1495
-# END
-	END, 110
-
-##############################################################
-[approach2106]
-##############################################################
-
-# PUCKS FOUR TO 22
-runway = rwyKHOU22
-beacon = BAYYY
-route1 = 
-	152, PUCKS4, PUCKS 4 SQUIRREL
-# BAYYY
-	N29.3788, W94.3710, 13000, 250
-# PUCKS
-	N29.4092, W94.6635, 10000
-# SQRLL
-	N29.4367, W94.6978, 8000
-# KEMAH
-	N29.5220, W94.8013, 6000
-# WWILD
-	N29.5555, W94.8427, 6000, 210
-# JCNTO
-	N29.7143, W95.0383, 4000
-# END
-	END, 310
-
-##############################################################
-[approach2107]
-##############################################################
-
-# TIKNIQ THREE TO 22
-runway = rwyKHOU22
-beacon = TKNIQ
-route1 = 
-	301, TIKNIQ3, TECHNIQUE 3 KEY MAH
-# TKNIQ
-	N29.2402, W94.4668, 12000, 250
-# DOCCC
-	N29.3628, W94.6772, 10000
-# KEMAH
-	N29.5220, W94.8013, 6000
-# END
-	END, 310
 
 ##############################################################
 [approach2108]
@@ -1966,32 +1722,6 @@ route1 =
 	N29.6617, W95.4260
 # END
 	END, 311
-
-##############################################################
-[approach2110]
-##############################################################
-
-# WAPPL SIX TO KHOU22
-runway = rwyKHOU22
-beacon = WLMOR
-route1 = 
-	250, WAPPL6, WAPPLE 6 RIGHT WING
-# WLMOR
-	N30.1532, W94.6252, 15000
-# HUDZY
-	N30.1045, W94.8093
-# CLWSN
-	N30.0740, W94.9188, 12000, 280
-# SWWAA
-	N30.0095, W95.1577, 10000, 250
-# PUSHN
-	N29.8613, W95.2012, 8000
-# RTWNG
-	N29.6360, W95.2263, 7000, 210
-# MAAHH
-	N29.6057, W95.1495
-# END
-	END, 110
 
 ##############################################################
 [approach2111]
@@ -2119,119 +1849,33 @@ route1 =
 [approach2116]
 ##############################################################
 
-# KIDDZ FOUR TO 31L
-runway = rwyKHOU13R, rev
-beacon = KIDDZ
+# BAYYY FOUR TO 4
+runway = rwyKHOU22, rev
+beacon = SHUUG
 route1 = 
-	152, KIDDZ4, KIDS 4 R JAY
-# KIDDZ
-	N30.2238, W96.2158, 13000, 280
-# SNIFY
-	N30.1585, W96.1813, 12000, 270
-# QTRBK
-	N30.0602, W96.1283
-# RVEEE
-	N29.8280, W95.9950, 11000
-# AAHZZ
-	N29.7312, W95.9323, 10000
-# GLUVR
-	N29.6520, W95.8813, 9000, 240
-# CRSTY
-	N29.6395, W95.6003, 6000, 210
-# VILLI
-	N29.6287, W95.3873
-# RJAAY
-	N29.5640, W95.3070
+	274, BAYYY4, BAY 4 SHUG
+# SHUUG 
+	N29.5563, W95.2423, 6000, 210
+# EMARR
+	N29.5403, W95.2688, 6000, 210
 # END
-	END, 130
+	END, 222
 
 ##############################################################
 [approach2117]
 ##############################################################
 
-# PUCKS FOUR TO 31L
-runway = rwyKHOU13R, rev
-beacon = BAYYY
+# BAYYY FOUR TO 13R
+runway = rwyKHOU13R
+beacon = VILLI
 route1 = 
-	152, PUCKS4, PUCKS 4 BLUE
-# BAYYY
-	N29.3788, W94.3710, 13000, 250
-# PUCKS
-	N29.4092, W94.6635, 10000
-# BLEAU
-	N29.4135, W94.7110, 8000
-# MMOOW
-	N29.4302, W94.8742, 6000, 210
-# END
-	END, 274
-
-##############################################################
-[approach2118]
-##############################################################
-
-# TIKNIQ THREE TO 31L
-runway = rwyKHOU13R, rev
-beacon = TKNIQ
-route1 = 
-	301, TIKNIQ3, TECHNIQUE 3 MOOW
-# TKNIQ
-	N29.2402, W94.4668, 12000, 250
-# DOCCC
-	N29.3628, W94.6772, 10000
-# MMOOW
-	N29.4302, W94.8742, 6000, 210
-# END
-	END, 274
-
-##############################################################
-[approach2119]
-##############################################################
-
-# WAPPL SIX TO 31L
-runway = rwyKHOU13R, rev
-beacon = WLMOR
-route1 = 
-	250, WAPPL6, WAPPLE 6 YOU BETTER
-# WLMOR
-	N30.1532, W94.6252, 15000
-# HUDZY
-	N30.1045, W94.8093
-# CLWSN
-	N30.0740, W94.9188, 12000, 280
-# SWWAA
-	N30.0095, W95.1577, 10000, 250
-# PUSHN
-	N29.8613, W95.2012, 8000
-# BUGZY
-	N29.7637, W95.2318
-# PRTCH
-	N29.7240, W95.2433, 7000
-# UBETR
-	N29.6923, W95.1997, 6000, 210
-# END
-	END, 126
-
-##############################################################
-[approach2120]
-##############################################################
-
-# BELLR FOUR TO 31L
-runway = rwyKHOU13R, rev
-beacon = BELLR
-route1 = 
-	049, BELLR4, BELLAIRE 4 R JAY
-# BELLR
-	N29.3257, W96.0892, 12000, 250
-# HNTRR
-	N29.4708, W95.8790, 9000
-# AWSTN
-	N29.5827, W95.5310, 7000, 210
+	274, BAYYY4, BAY 4 VILLI
 # VILLI
-	N29.6287, W95.3873, 6000
-# RJAAY
-	N29.5640, W95.3070
+	N29.6293, W95.3873, 6000
+# ALLLY
+	N29.6617, W95.4260
 # END
-	END, 130
+	END, 311
 
 ##############################################################
 [planetypes]
