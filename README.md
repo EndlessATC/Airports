@@ -1,10 +1,14 @@
 # EndlessATCAirports
 
-[startgrid](https://startgrid.itch.io/), developer of the most excellent game [Endless ATC](https://startgrid.itch.io/endlessatc) (also on [Steam](http://store.steampowered.com/app/666610/Endless_ATC/) and [Android](https://play.google.com/store/apps/details?id=com.dirgtrats.atcradar)) has recently added the ability to import custom airports as well as provided about 3000 raw airport configuration files. They're not intended as ready-to-play airports, but more as a starting point to create a new airport file. The files in this collection are automatically composed out of free databases, and the quality and completeness may differ per file. In any case, the files are not finished, so you'll have to add more properties (like SIDs and runway configurations) yourself. Best practice would be to pick one airport you would like to work on from the collection, copy that file to the game, and start expanding it, bit by bit, with more data. You can also start from scratch, googling all data and properties yourself.
+[startgrid](https://startgrid.itch.io/) is the developer of the game [Endless ATC](https://startgrid.itch.io/endlessatc) (also available on [Steam](http://store.steampowered.com/app/666610/Endless_ATC/) and [Android](https://play.google.com/store/apps/details?id=com.dirgtrats.atcradar)). 
+
+This github is managed by moderators of the discord server. Please join [here](https://discord.gg/v4wDGh3).
+
+You can find "raw" airport files [here](https://github.com/EndlessATC/Raw_Airports). These are automatically generated files with only the basics. They're not intended as ready-to-play airports, but as a starting point to create a new airport file. You'll have to fix issues with the raw file as well add properties (like SIDs, STARs and runway configurations) yourself. We recommend starting with a simple airport - single runway airports with simple airspace are a good starting point.
 
 ## Usage
 
-Use a text editor, together with the included example.txt file as a guide, to create a working file in the locations folder of the game. The example file is pretty big, but most of the properties in it are only optional. In theory, just a runway and an airport code is enough data to create a minimal, playable file. You can always decide to add more detail later. First thing to do is to make sure  the '#code = ' item in the [airport1] section is un-commented to make the airport appear in-game at the bottom of the airport menu. So just remove the # at the beginning of that line. Carefully put each item in the correct section, in the same format as the example. Start the game every now and then to make sure it still works as expected.
+Use a text editor, together with the included example.txt file as a guide, to create a working file in the locations folder of the game. In theory, just a runway and an airport code is enough data to create a minimal, playable file. You can always decide to add more detail later. First thing to do is to make sure  the '#code = ' item in the [airport1] section is un-commented to make the airport appear in-game at the bottom of the airport menu. So just remove the # at the beginning of that line. Carefully put each item in the correct section, in the same format as the example. Start the game every now and then to make sure it still works as expected.
 
 ## Contributing
 
@@ -43,7 +47,7 @@ Is it encouraged to cite any references that you used while creating your file, 
 
 If you wish to include personal information (such as your contact information), this is allowed, although not necessary.
 
-It may be best to add a markdown file with the same airport code in the same directory with references, information, and a change log (e.g. `final/EU/LSZH/LSZH.md`)
+It may be best to add a readme file in markdown format with the same airport code in the same directory with references, information, and a change log (e.g. `final/EU/LSZH/LSZH_readme.md`)
 
 ## Credits
 
