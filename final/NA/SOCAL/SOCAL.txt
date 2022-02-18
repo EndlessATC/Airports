@@ -1389,6 +1389,15 @@ route27 =
 	N33.34.38.200, W117.14.22.800
 	N33.37.44.210, W116.59.51.910
 	N33.36.39.620, W116.20.12.960
+	N33.36.11.930, W116.02.32.300
+
+route28 =
+	HAWWC3, Hawk Three
+	N33.54.54.920, W118.24.50.760
+	N34.00.26.890, W118.29.40.100
+	N34.03.12.780, W118.35.34.079
+	N34.03.04.690, W118.45.38.920
+	N34.08.35.000, W119.00.37.000
 	
 [approach11]
 runway = rwy10, rev
@@ -1582,8 +1591,8 @@ route36 =
 name = Van Nuys
 code = VN
 runways =
-	rwy14, 16R, -7.72, 15.64, 176.0, 8001, 0, 0, 802, 3.5, 176.0, 0, 0, 0, 0, 0, 0, 119.3
-	rwy15, 16L, -7.64, 15.66, 176.0, 4013, 0, 0, 802
+	rwy14, 16R, N34.225, W118.491, 176.0, 8001, 0, 0, 802, 3.5, 176.0, 0, 0, 0, 0, 0, 0, 119.3
+	rwy15, 16L, N34.226, W118.490, 176.0, 4013, 0, 0, 802
 flow = 30
 inboundbeacon = VNY
 airlines = 
@@ -3367,6 +3376,7 @@ airlines =
 	ana, 1, b735/b737/b763/b744/b74d/b772/b773, all nippon, w
 	jal, 1, b744/b74d/b772/b773, japan air, w
 	woa, 1, b744/md11, world, e
+	edw, 1, a332/a333, edelweiss, e
 	sia, 1, b744/b772/b773, singapore
 	cal, 1, a343/b744, dynasty, w
 	mph, 1, b744/md11, martinair, ne
@@ -3502,7 +3512,7 @@ airlines =
 	n-673ik, 1, s22t/sf50/sr22, n
 	n-164ty, 1, p32r/p32t, e
 # specials
-	gaj, 1, b350, gama jet, e
+	gaj, 1, b350, gama jet, es
 	dcm, 1, pay3/pay4, dot com, e
 
 entrypoints =
