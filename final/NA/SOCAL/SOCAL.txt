@@ -1829,7 +1829,7 @@ airlines =
 	nos, 1, b763/b789, moon flower, n
 	tcx, 1, a332/b763, kestral, n
 	adb, 1, a124/a225, antonov bureau, n
-	dcm, 1, fa7x/fa8x/gl5t/glf4, dot com, e
+	dcm, 1, fa7x/fa8x/gl5t/gl7t/glex/glf6, dot com, e
 	ewg, 1, a332/a333/a343, eurowings, n
 	xoj, 1, c750/cl30, exo jet, ne
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
