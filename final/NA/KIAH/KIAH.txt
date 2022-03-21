@@ -1,3 +1,12 @@
+# Version 2.2
+# Beacons
+# - Added the Freddy beacon for th BAYYY 4 arrival
+#
+# Approaches
+# - Changed runways to change APP sequence for TEJAS arrival selection, defaults to 27
+# - Added BAYYY4 arrial starting at Freddy for KHOU
+# - Changed runways to change APP sequence for SOULL arrival selction, defaults to 27
+#
 # Version 2.1
 # Incoporates suggestions and recommendations from Discord reviewers ARH1 and obamna
 #
@@ -190,6 +199,7 @@ beacons =
 
 # KHOU TKNIQ THREE DOCCC > FRDDY OR DOCCC > KEMAH
 	TKNIQ, N29.2402, W94.4668, 0, technique
+	FRDDY, N29.4877, W94.8782, 0, freddy
 	SHUUG, N29.5563, W95.2423, 0, SHUG
 	VILLI, N29.6293, W95.3873, 0, villi
 # KHOU WAPPL SIX
@@ -1321,7 +1331,7 @@ route1 =
 ##############################################################
 
 # SOULL ONE TO GARRR
-runway = rwyKIAH26L
+runway = rwyKIAH27
 beacon = BAYYY
 route1 =
 	312, SOULL1, SOUL 1 GAR
@@ -1339,7 +1349,7 @@ route1 =
 ##############################################################
 
 # SOULL ONE TO RDFSH
-runway = rwyKIAH27
+runway = rwyKIAH26L
 beacon = BAYYY
 route1 =
 	312, SOULL1, SOUL 1 RED FISH
@@ -1357,7 +1367,7 @@ route1 =
 ##############################################################
 
 # TEJAS FOUR TO 26R
-runway = rwyKIAH26R
+runway = rwyKIAH27
 beacon = TEJAS 
 route1 =
 	59, TEJAS4, TEXAS 4 ZOE
@@ -1381,7 +1391,7 @@ route1 =
 ##############################################################
 
 # TEJAS FOUR TO 26R
-runway = rwyKIAH26R
+runway = rwyKIAH27
 beacon = HOWLN 
 route1 =
 	59, TEJAS4, TEXAS 4 ZOE
@@ -1441,7 +1451,7 @@ route1 =
 ##############################################################
 
 # TEJAS FOUR TO 27
-runway = rwyKIAH27
+runway = rwyKIAH26R
 beacon = TEJAS 
 route1 =
 	59, TEJAS4, TEXAS 4 SHIV
@@ -1467,7 +1477,7 @@ route1 =
 ##############################################################
 
 # TEJAS FOUR TO 27
-runway = rwyKIAH27
+runway = rwyKIAH26R
 beacon = HOWLN 
 route1 =
 	59, TEJAS4, TEXAS 4 SHIV
@@ -1876,6 +1886,48 @@ route1 =
 	N29.6617, W95.4260
 # END
 	END, 311
+
+##############################################################
+[approach2118]
+##############################################################
+
+# BAYYY FOUR TO 13R
+runway = rwyKHOU13R
+beacon = FRDDY
+route1 = 
+	274, BAYYY4, BAY 4 Freddy
+# FRDDY
+	N29.4877, W94.8782, 9000, 240
+# FIGGG
+	N29.5827, W95.1413, 7000
+# IVEEE
+	N29.6117, W95.3022, 6000, 210
+# VILLI
+	N29.6293, W95.3873
+# ALLLY
+	N29.6617, W95.4260
+# END
+	END, 311
+
+##############################################################
+[approach2119]
+##############################################################
+
+# BAYYY FOUR TO 4
+runway = rwyKHOU22, rev
+beacon = FRDDY
+route1 = 
+	274, BAYYY4, BAY 4 freddy
+# FRDDY
+	N29.4877, W94.8782, 9000, 240
+# FIGGG
+	N29.5827, W95.1413, 7000
+# SHUUG 
+	N29.5563, W95.2423, 6000, 210
+# EMARR
+	N29.5403, W95.2688, 6000, 210
+# END
+	END, 222
 
 ##############################################################
 [planetypes]

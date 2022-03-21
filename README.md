@@ -52,3 +52,5 @@ It may be best to add a readme file in markdown format with the same airport cod
 ## Credits
 
 [startgrid](https://startgrid.itch.io/)
+
+[Discord users](https://discord.gg/v4wDGh3)
