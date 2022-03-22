@@ -1,4 +1,4 @@
-# Custom Airport File For Yankee Approach, Y90
+# Custom Airport File For Bradley (Yankee) Approach, Y90
 
 ##############################################################
 [airspace]
@@ -20,7 +20,7 @@ metric = false				; display altitudes in metres instead of feet
 letters = 50				; occurrence of letters in callsigns (defaults at one in 2, or one in 50 for usa; 0=never; 100=rarely)
 separation = 3				; minimum allowed distance between aircraft in NM
 automatic = true			; entering arrivals will follow an approach route when flying inbound an approach beacon
-name = yankee approach, yankee departure		; atc callsign pronunciation for arrivals, atc callsign pronunciation for departures
+name = bradley approach, bradley departure		; atc callsign pronunciation for arrivals, atc callsign pronunciation for departures
 center = N41°56.34',	W72°41.06'	; lat/long location of center of radar display (required when using lat/long coordinates elsewhere in this file)
 magneticvar = -13.6			; magnetic variance; east = positive (used to rotate lat/long coordinates if used elsewhere in this file)
 
