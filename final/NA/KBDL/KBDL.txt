@@ -506,7 +506,7 @@ climbaltitude = 7000 		; maximum initial climb altitude in feet for departures
 
 sids = 
 	veers,	N41.54.37.120,	W073.17.11.760,	veers
-	bowan,	N42.06.23.140,	W073.31.28.950,	bowan
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
 	thumb,	N41.31.23.960,	W072.21.31.800,	thumb
 	gdm
 	put
@@ -654,7 +654,7 @@ climbaltitude = 3000
 
 sids = 
 	veers,	N41.54.37.120,	W073.17.11.760,	veers
-	bowan,	N42.06.23.140,	W073.31.28.950,	bowan
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
 	thumb,	N41.31.23.960,	W072.21.31.800,	thumb
 	gdm
 	put
@@ -673,9 +673,9 @@ entrypoints =
 	191,	MAD
 	192,	MAD
 	193,	MAD
-	134,	graym
-	135,	graym
-	136,	graym
+	134,	graym,	11000
+	135,	graym,	11000
+	136,	graym,	11000
 	245,	judds,	9000
 	
 ## true_heading, <beaconname>, <altitude>
@@ -772,7 +772,7 @@ climbaltitude = 4000 		; maximum initial climb altitude in feet for departures
 
 sids = 
 	veers,	N41.54.37.120,	W073.17.11.760,	veers
-	bowan,	N42.06.23.140,	W073.31.28.950,	bowan
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
 	thumb,	N41.31.23.960,	W072.21.31.800,	thumb
 	gdm
 	put
@@ -789,7 +789,7 @@ entrypoints =
 	020,	cef,	6000
 	315,	STELA
 	192,	MAD
-	135,	graym
+	135,	graym,	11000
 	245,	judds,	9000
 	
 ## true_heading, <beaconname>, <altitude>
@@ -869,7 +869,7 @@ climbaltitude = 5000 		; maximum initial climb altitude in feet for departures
 
 sids = 
 	veers,	N41.54.37.120,	W073.17.11.760,	veers
-	bowan,	N42.06.23.140,	W073.31.28.950,	bowan
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
 	gdm
 	orw
 	put
@@ -887,7 +887,7 @@ entrypoints =
 	075,	glyde,	4000
 	315,	STELA
 	192,	mad
-	135,	graym
+	135,	graym,	11000
 	245,	judds,	9000
 	
 ## true_heading, <beaconname>, <altitude>
@@ -969,7 +969,7 @@ climbaltitude = 3000 		; maximum initial climb altitude in feet for departures
 
 sids = 
 	veers,	N41.54.37.120,	W073.17.11.760,	veers
-	bowan,	N42.06.23.140,	W073.31.28.950,	bowan
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
 	thumb,	N41.31.23.960,	W072.21.31.800,	thumb
 	gdm
 	ctr
