@@ -1,0 +1,1918 @@
+# Custom Airport File For Bradley (Yankee) Approach, Y90
+
+##############################################################
+[airspace]
+##############################################################
+
+radius = 30				; airspace radius in NM
+zoom = 5.0 				; default zoom level, increase to zoom in
+elevation = 173				; ground altitude in feet
+floor = 2500 				; minimum selectable altitude (1100 to 2500 above elevation)
+descentaltitude = 11000 		; minimum initial altitude for arrivals (1000+ above floor)
+ceiling = 12000 			; maximum selectable altitude (1000+ above descentaltitude)
+above = 14000 				; maximum departure altitude when SID is enabled (2000+ above ceiling)
+speedrestriction = 10, 200, 10000, 250 	; radius in NM, speed in knots within radius, <altitude, speed below altitude>
+localizerspeed = 30, 200		; distance to touchdown in NM, speed restriction in knots on localizers
+diversionaltitude = 7000		; maximum altitude at which departures will be a diversion at the boundary (defaults to ceiling altitude)
+transitionaltitude = 18001		; highest altitude displayed in feet instead of flight level
+usa = true				; American-style callsign pronunciation and runway names
+metric = false				; display altitudes in metres instead of feet
+letters = 50				; occurrence of letters in callsigns (defaults at one in 2, or one in 50 for usa; 0=never; 100=rarely)
+separation = 3				; minimum allowed distance between aircraft in NM
+automatic = true			; entering arrivals will follow an approach route when flying inbound an approach beacon
+name = bradley approach, bradley departure		; atc callsign pronunciation for arrivals, atc callsign pronunciation for departures
+center = N41°56.34',	W72°41.06'	; lat/long location of center of radar display (required when using lat/long coordinates elsewhere in this file)
+magneticvar = -13.6			; magnetic variance; east = positive (used to rotate lat/long coordinates if used elsewhere in this file)
+
+
+beacons =
+	nelie,	N41.56.27.640,	W072.41.18.880,	0,	nelly
+	baf,	N42.1619592,	W72.7161994,	-275,	barnes
+	cef,	N42.1975444,	W72.5263139,	0,	westover
+	hfd,	N41.6411047,	W72.5474181,	334,	hartford
+	ctr,	N42.2913186,	W72.9493942,	275,	chester
+	pwl,	N41.7697714,	W73.6005514,	0,	pawling
+	put,	N41.9554603,	W71.8440947,	0,	putnam
+	orw,	N41.5564036,	W71.9993533,	0,	norwich
+	gdm,	N42.5459208,	W72.0581883,	0,	gardner
+	bos,	N42.3574500,	W70.9895483,	0,	boston
+	ccc,	N40.9296189,	W72.7988583,	0,	calverton
+	mad,	N41.3138611,	W72.6922028,	0,	madison
+	gon,	N41.3304019,	W72.0519847,	0,	groton
+	alb,	N42.7472806,	W73.8031839,	0,	albany
+	cam,	N42.9942889,	W73.3440189,	0,	cambridge
+	pvd,	N41.7243425,	W71.4296411,	0,	providence
+	bdr,	N41.1607056,	W73.1244864,	0,	bridgeport
+	dpk,	N40.7917497,	W73.3036578,	0,	deer park
+	hto,	N40.9189958,	W72.3167044,	0,	hampton
+
+	keynn,	N42.47.39.990,	W072.17.30.350,	0,	keen
+	briss,	N41°42.16',	W73°01.00',	341,	briss
+	stela,	N42.16.53.150,	W073.09.14.160,	147,	stela
+	ign,	N41.6654497,	W73.8222244,	0,	kingston
+	judds,	N41.38.04.820,	W073.06.29.680,	0,	judds
+	blatt,	N41.49.37.100,	W072.00.54.940,	0,	blat
+	graym,	N42.06.04.270,	W072.01.53.490,	0,	graham
+	speno,	N42.16.48.550,	W072.09.14.700,	-109,	speno
+
+	bizex,	N41.17.02.860,	W073.34.50.200,	0,	bizex
+	cloww,	N42.43.53.500,	W071.51.16.500,	0,	clow
+	witny,	N42.02.57.820,	W072.14.11.960,	0,	witny
+	glyde,	N42.16.03.840,	W071.48.42.760,	0,	glide
+
+## name, position, <holdingheading>, <pronunciation>
+# the first given beacon will be the default beacon for arrivals inbound the main airport
+# when holdingheading is 0 or omitted, planes will hold there using the plane's current heading
+# when a holdingheading is given, planes will fly that heading (or magnetic course) on the inbound leg when flying the holding
+# when holdingheading is negative, planes will make left-hand turns instead of right-hand turns
+
+boundary = 
+	N42.26.00,	W71.44.00
+	N42.22.00,	W71.35.00
+	N42.06.00,	W71.29.00
+	N42.03.45,	W71.38.45
+	N41.59.45,	W71.55.30
+	N41.48.10,	W72.03.45
+	N41.36.25,	W72.09.15
+	N41.29.00,	W72.28.00
+	N41.16.30,	W72.33.00
+	N41.17.04,	W72.44.30
+	N41.19.51,	W72.48.04
+	N41.22.09,	W73.00.00
+	N41.28.25,	W73.12.00
+	N41.35.15,	W73.12.50
+	N41.35.15,	W73.18.00
+	N42.03.10,	W73.22.40
+	N42.11.00,	W73.23.15
+	N42.38.00,	W73.00.03
+	N42.35.50,	W72.51.10
+	N42.32.30,	W72.44.00
+	N42.32.14,	W72.41.19
+	N42.25.00,	W72.17.10
+	N42.24.20,	W72.00.10
+	N42.27.00,	W71.50.00
+
+
+## positions
+# pointlist of optional airspace boundary polygon; this will override the default (circular) airspace radius.
+# last point is automatically connected to first point
+
+handoff =
+	040,	Boston Center,	boston center,	123.75
+	085,	Boston Center,	boston center,	133.42
+	160,	Boston Center,	boston center,	133.42
+	205,	Boston Center,	boston center,	134.0
+	270,	Boston Center,	boston center,	128.1
+	290,	Boston Center,	boston center,	127.65
+	
+## heading, atc callsign, callsign pronunciation, <radio frequency>
+# optional handoff readbacks for departures; only used when sound mode 3 is enabled in-game
+# heading determines which atc station will be selected by a plane: the closest to the heading from the center of the screen towards the plane's (last) SID point
+
+#Terrain Lines
+
+#Connecticut and Rhode Island Shore
+line1 =
+	N40°51.41', W73°47.68'
+	N40°56.73', W73°41.95'
+	N41°0.22', W73°37.71'
+	N41°0.34', W73°34.83'
+	N41°3.26', W73°27.53'
+	N41°5.32', W73°23.46'
+	N41°7.06', W73°18.76'
+	N41°7.61', W73°17.03'
+	N41°7.27', W73°15.83'
+	N41°8.70', W73°14.02'
+	N41°8.76', W73°12.87'
+	N41°9.60', W73°11.96'
+	N41°9.07', W73°7.92'
+	N41°9.48', W73°6.32'
+	N41°10.50', W73°6.07'
+	N41°12.70', W73°3.19'
+	N41°12.30', W73°0.92'
+	N41°15.15', W72°57.67'
+	N41°18.00', W72°54.49'
+	N41°14.96', W72°54.25'
+	N41°14.56', W72°53.05'
+	N41°15.12', W72°48.85'
+	N41°15.98', W72°46.50'
+	N41°16.17', W72°45.27'
+	N41°14.81', W72°42.63'
+	N41°15.02', W72°41.15'
+	N41°16.32', W72°40.03'
+	N41°16.39', W72°34.64'
+	N41°15.12', W72°32.74'
+	N41°16.20', W72°28.25'
+	N41°16.76', W72°23.88'
+	N41°15.89', W72°23.47'
+	N41°16.36', W72°20.67'
+	N41°16.70', W72°20.88'
+	N41°16.73', W72°22.39'
+	N41°17.24', W72°21.09'
+	N41°17.49', W72°21.40'
+	N41°17.35', W72°22.05'
+	N41°17.75', W72°22.02'
+	N41°18.14', W72°21.49'
+	N41°19.47', W72°21.06'
+	N41°21.04', W72°22.57'
+	N41°20.42', W72°21.31'
+	N41°20.12', W72°21.04'
+	N41°18.28', W72°20.57'
+	N41°16.89', W72°19.55'
+	N41°17.17', W72°15.44'
+	N41°17.98', W72°13.95'
+	N41°17.24', W72°12.56'
+	N41°19.07', W72°12.01'
+	N41°19.21', W72°10.65'
+	N41°18.33', W72°6.54'
+	N41°19.39', W72°4.97'
+
+	N41°19.29', W72°3.78'
+	N41°19.23', W71°59.29'
+	N41°20.44', W71°56.49'
+	N41°19.79', W71°54.34'
+	N41°20.38', W71°52.94'
+	N41°18.71', W71°51.62'
+	N41°19.76', W71°45.69'
+	N41°19.63', W71°45.03'
+	N41°22.48', W71°32.22'
+
+	N41°21.86', W71°29.29'
+	N41°24.92', W71°27.19'
+	N41°28.60', W71°25.34'
+	N41°31.90', W71°25.09'
+	N41°34.79', W71°26.70'
+	N41°38.46', W71°24.39'
+	N41°40.21', W71°25.31'
+	N41°40.28', W71°26.67'
+	N41°41.43', W71°26.98'
+	N41°41.20', W71°23.46'
+	N41°40.23', W71°22.71'
+
+	N41°42.27', W71°21.70'
+	N41°47.43', W71°23.37'
+	N41°48.10', W71°23.09'
+	N41°44.90', W71°21.73'
+	N41°43.61', W71°20.41'
+	N41°43.28', W71°18.46'
+	N41°42.27', W71°17.53'
+	N41°40.58', W71°18.37'
+	N41°39.08', W71°17.90'
+	N41°40.71', W71°16.92'
+	N41°38.71', W71°15.75'
+	N41°40.42', W71°14.23'
+	N41°42.16', W71°14.00'
+	N41°42.64', W71°11.71'
+	N41°39.71', W71°12.33'
+
+	N41°33.83', W71°12.73'
+	N41°30.13', W71°12.46'
+	N41°27.34', W71°11.68'
+	N41°30.39', W71°5.60'
+	N41°29.79', W71°2.53'
+	N41°30.72', W70°58.93'
+	N41°31.84', W70°58.76'
+	N41°32.01', W70°57.88'
+	N41°31.19', W70°57.20'
+	N41°32.55', W70°55.86'
+	N41°34.86', W70°56.27'
+
+
+
+
+
+
+#Connecticut River
+line2 =
+	N41°21.04', W72°22.57'
+	N41°23.87', W72°25.44'
+	N41°25.51', W72°26.09'
+	N41°28.01', W72°28.47'
+	N41°30.35', W72°33.01'
+	N41°31.35', W72°33.32'
+	N41°32.76', W72°32.89'
+	N41°33.52', W72°33.94'
+	N41°33.96', W72°36.07'
+	N41°33.68', W72°38.45'
+	N41°34.14', W72°38.76'
+	N41°34.77', W72°38.70'
+	N41°35.76', W72°37.99'
+	N41°36.39', W72°36.94'
+	N41°37.40', W72°37.65'
+	N41°38.35', W72°37.68'
+	N41°39.09', W72°37.34'
+	N41°39.97', W72°37.62'
+	N41°40.24', W72°37.37'
+	N41°40.66', W72°36.44'
+	N41°41.07', W72°36.35'
+	N41°41.30', W72°36.81'
+	N41°41.40', W72°37.59'
+	N41°41.60', W72°38.11'
+	N41°42.00', W72°37.74'
+	N41°42.34', W72°37.06'
+	N41°42.76', W72°37.40'
+	N41°43.03', W72°38.39'
+	N41°43.45', W72°38.76'
+	N41°43.82', W72°38.76'
+	N41°44.44', W72°38.48'
+	N41°45.32', W72°39.01'
+	N41°45.96', W72°39.56'
+	N41°46.54', W72°39.53'
+	N41°47.09', W72°38.79'
+	N41°48.75', W72°38.64'
+	N41°49.90', W72°38.17'
+
+	N41°52.13', W72°37.06'
+	N41°55.98', W72°37.28'
+	N41°57.06', W72°36.66'
+	N41°58.20', W72°36.54'
+	N41°59.17', W72°36.10'
+	N42°0.50', W72°36.50'
+	N42°3.21', W72°36.57'
+	N42°4.77', W72°35.30'
+	N42°5.39', W72°35.30'
+	N42°6.01', W72°35.76'
+	N42°6.72', W72°37.15'
+	N42°7.36', W72°37.46'
+	N42°8.30', W72°37.12'
+	N42°9.10', W72°37.62'
+	N42°9.56', W72°37.77'
+	N42°10.84', W72°37.77'
+	N42°11.21', W72°37.37'
+	N42°11.96', W72°35.86'
+	N42°12.44', W72°35.55'
+	N42°12.79', W72°35.92'
+	N42°13.25', W72°36.75'
+	N42°13.73', W72°36.97'
+	N42°13.98', W72°37.59'
+	N42°14.30', W72°37.77'
+	N42°15.49', W72°36.87'
+	N42°16.10', W72°36.07'
+	N42°16.97', W72°36.26'
+	N42°17.50', W72°37.06'
+	N42°18.12', W72°36.66'
+	N42°19.62', W72°35.33'
+
+	N42°19.85', W72°35.92'
+	N42°20.86', W72°38.37'
+	N42°20.99', W72°38.37'
+	N42°21.21', W72°37.77'
+	N42°21.22', W72°35.71'
+	N42°21.60', W72°35.34'
+	N42°22.52', W72°35.65'
+	N42°24.04', W72°35.40'
+	N42°24.05', W72°34.70'
+	N42°24.81', W72°34.62'
+	N42°26.87', W72°35.44'
+	N42°27.64', W72°35.40'
+	N42°28.81', W72°34.52'
+	N42°30.01', W72°34.06'
+	N42°30.63', W72°33.42'
+	N42°31.06', W72°33.65'
+	N42°31.70', W72°34.12'
+
+	N42°33.70', W72°33.38'
+	N42°34.67', W72°33.90'
+	N42°35.29', W72°35.05'
+	N42°36.05', W72°34.64'
+	N42°36.73', W72°33.42'
+	N42°35.96', W72°32.46'
+	N42°36.31', W72°31.01'
+	N42°35.85', W72°30.23'
+	N42°36.34', W72°29.59'
+	N42°37.08', W72°29.06'
+	N42°38.05', W72°29.43'
+	N42°38.46', W72°29.24'
+	N42°39.05', W72°28.36'
+	N42°39.61', W72°28.27'
+
+	N42°40.05', W72°28.58'
+	N42°40.72', W72°28.44'
+	N42°41.55', W72°28.69'
+	N42°42.58', W72°27.45'
+	N42°44.08', W72°27.68'
+	N42°45.18', W72°28.56'
+	N42°46.39', W72°29.82'
+	N42°46.01', W72°30.62'
+	N42°46.32', W72°31.06'
+	N42°46.89', W72°30.71'
+	N42°48.37', W72°32.54'
+	N42°52.68', W72°33.36'
+
+# Long Island North Shore
+line3 =
+
+	N40°45.31', W72°47.36'
+	N40°53.79', W72°19.00'
+	N40°58.67', W72°5.90'
+	N41°3.15', W71°52.56'
+	N41°4.64', W71°51.20'
+	N41°5.14', W71°53.96'
+	N41°4.39', W71°57.29'
+	N41°3.40', W71°57.38'
+	N41°1.91', W72°0.96'
+	N40°59.98', W72°6.89'
+
+	N41°1.60', W72°8.00'
+	N41°3.34', W72°9.69'
+	N41°2.28', W72°11.30'
+	N41°2.47', W72°12.70'
+	N41°2.68', W72°15.63'
+	N41°1.04', W72°15.67'
+	N41°0.35', W72°17.69'
+	N41°2.53', W72°18.68'
+	N41°1.94', W72°20.08'
+	N41°0.60', W72°18.96'
+	N41°0.29', W72°20.82'
+	N41°0.35', W72°22.47'
+	N40°57.12', W72°24.61'
+	N40°56.74', W72°26.75'
+	N40°53.85', W72°29.51'
+	N40°54.66', W72°32.48'
+
+	N40°55.53', W72°37.50'
+	N40°56.12', W72°34.54'
+	N40°58.67', W72°31.98'
+	N40°59.64', W72°28.60'
+	N40°59.70', W72°26.50'
+	N41°2.22', W72°26.26'
+	N41°2.28', W72°23.29'
+	N41°3.71', W72°25.18'
+	N41°5.98', W72°22.05'
+	N41°8.24', W72°18.10'
+	N41°8.09', W72°15.59'
+
+
+	N41°9.75', W72°14.65'
+	N41°8.76', W72°21.19'
+	N41°5.37', W72°26.68'
+	N41°2.42', W72°31.02'
+	N40°59.69', W72°36.13'
+	N40°58.45', W72°50.03'
+	N40°58.45', W73°5.02'
+	N40°58.24', W73°9.58'
+	N40°55.33', W73°9.20'
+	N40°55.04', W73°15.51'
+	N40°55.58', W73°20.79'
+	N40°57.41', W73°23.70'
+
+	N40°54.71', W73°23.31'
+	N40°54.55', W73°25.84'
+	N40°56.12', W73°26.50'
+	N40°56.83', W73°29.41'
+
+	N40°55.71', W73°29.85'
+	N40°54.78', W73°32.83'
+	N40°54.88', W73°34.60'
+	N40°53.94', W73°38.23'
+	N40°52.51', W73°39.63'
+
+#Quabbin Reservoir
+line4 =
+	N42°27.54', W72°23.15'
+	N42°20.05', W72°21.88'
+	N42°18.71', W72°22.56'
+	N42°16.99', W72°21.14'
+	N42°17.84', W72°20.58'
+	N42°18.50', W72°21.14'
+	N42°18.98', W72°19.99'
+	N42°18.59', W72°18.73'
+	N42°17.95', W72°18.48'
+	N42°18.11', W72°17.92'
+	N42°19.87', W72°17.68'
+	N42°22.79', W72°16.69'
+	N42°23.00', W72°15.05'
+	N42°23.36', W72°14.22'
+	N42°25.49', W72°12.67'
+	N42°25.81', W72°12.86'
+	N42°25.30', W72°13.41'
+	N42°23.59', W72°14.90'
+	N42°23.73', W72°16.04'
+	N42°24.87', W72°15.55'
+	N42°25.49', W72°15.89'
+	N42°26.69', W72°15.33'
+	N42°28.08', W72°15.70'
+	N42°27.40', W72°16.29'
+	N42°27.47', W72°16.66'
+	N42°30.02', W72°16.84'
+	N42°31.16', W72°17.99'
+	N42°29.70', W72°18.17'
+	N42°29.63', W72°18.67'
+	N42°28.27', W72°18.82'
+	N42°28.08', W72°19.35'
+	N42°25.69', W72°19.22'
+	N42°25.01', W72°19.44'
+	N42°21.20', W72°19.19'
+	N42°20.17', W72°19.96'
+	N42°19.35', W72°20.15'
+	N42°18.93', W72°21.17'
+	N42°19.48', W72°21.23'
+	N42°20.90', W72°20.89'
+	N42°24.25', W72°21.88'
+	N42°27.54', W72°23.15'
+
+
+#Wachusett Reservoir
+line5 =
+	N42°24.19', W71°41.45'
+	N42°23.46', W71°41.63'
+	N42°22.98', W71°43.42'
+	N42°21.95', W71°44.01'
+	N42°21.61', W71°45.06'
+	N42°20.63', W71°45.00'
+	N42°20.72', W71°45.62'
+	N42°21.50', W71°45.59'
+	N42°22.14', W71°46.67'
+	N42°22.46', W71°46.54'
+	N42°22.25', W71°45.31'
+	N42°23.00', W71°44.38'
+	N42°23.30', W71°43.70'
+	N42°23.62', W71°44.04'
+	N42°24.05', W71°43.98'
+	N42°24.40', W71°42.53'
+	N42°24.19', W71°41.45'
+
+
+
+
+##############################################################
+[airport1]
+##############################################################
+
+name = Bradley International (Windsor Locks) Airport, bradley	; name of the main airport, <pronunciation>
+code = KBDL			; four letter code, displayed in airport menu (required; remove the #)
+
+runways = 
+	BDL_06_24,	6,	N41°55.92',	W72°41.79',	44.4,	9510,	0,	0,	173,	3,	44.4,	3,	224.4,	JANID,	8.0,	SURLE,	10.5,	120.3,	bradley tower
+	BDL_15_33,	15,	N41°56.54',	W72°41.60',	134.4,	6847,	0,	0,	168.8,	3.6,	134.4,	3,	314.4,	BREEN,	6.0,	HOMEY,	5.0,	120.3,	bradley tower
+	BDL_24_LAHSO,	24,	N41°57.04',	W72°40.33',	224.4,	5700,	0,	0,	160.9,	3,	224.4,	3,	44.4,	SURLE,	10.5,	Error,	0,	120.3,	bradley tower
+	BDL_33_LAHSO,	33,	N41°55.76',	W72°40.52',	314.4,	4400,	0,	0,	168.5,	3,	314.4,	3,	134.4,	HOMEY,	5.0,	Error,	0,	120.3,	bradley tower
+
+
+## identifier, name, position, true_heading, <length>, <displaced>, <displaced2>, <elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>, <tower frequency>, <tower pronunciation>
+# identifier is a unique name used to define a runway usage configuration later in this file
+# name is one or two digits, optionally suffixed with an L, R or C character
+# position is the location of the beginning of the runway (including displaced threshold)
+# length is in feet
+# displaced threshold length in feet, displaced2 is for the other end of the runway
+# elevation is in feet, and must be within 1000 feet difference from the airspace ground elevation defined above
+# glideslope is the angle in degrees; the default value is 3.0
+# localizer is the true heading in degrees of the ILS until touchdown; by default it's the same as runway true heading, but a small offset is allowed
+# beacon is an optional point on the localizer at a certain distance (NM) from the (displaced) threshold
+# second beacon is a point on the localizer when runway is used in opposite direction (rev)
+# tower frequency is used for handoff readbacks
+
+climbaltitude = 7000 		; maximum initial climb altitude in feet for departures
+
+sids = 
+	veers,	N41.54.37.120,	W073.17.11.760,	veers
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
+	thumb,	N41.31.23.960,	W072.21.31.800,	thumb
+	gdm
+	put
+	pvd
+	ctr
+	keynn
+
+## name, position, <pronunciation>
+# you may also give just the name of a beacon from the beacon list
+
+entrypoints = 
+	020,	nelie,	10000
+	313,	STELA
+	314,	STELA
+	315,	STELA
+	316,	STELA
+	317,	STELA
+	190,	MAD
+	191,	MAD
+	192,	MAD
+	193,	MAD
+	194,	MAD
+	070,	nelie
+	245,	judds,	9000
+	
+## true_heading, <beaconname>, <altitude>
+# this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
+# inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
+# optional descentaltitude for this entrypoint; otherwise the default descentaltitude is used
+
+airlines =
+	jbu,	14,	a320,								jetblue,		nsw
+	swa,	10,	b737/b738/b37m/b38m,						southwest,		nsw
+	aal,	4,	a319/a320/a321/a21n/b738/b38m,					american,		nsw
+	nks,	4,	a319/a320/a321/a19n/a20n/a21n,					spirit wings,		sw
+	dal,	3,	a319/b738/b739/b712,						delta,			nsw
+
+	ual,	2,	a319/b737/b738/b739,						united,			nsw
+	fft,	2,	a320/a321/a20n,							frontier flight,	nsw
+	scx,	1,	b738,								sun country,		nsw
+
+	edv,	6,	crj2/crj7/crj9,							endeavor,		nsw
+	eny,	6,	e170/e75l,							envoy,			nsw
+
+	pdt,	1.5,	e145,								piedmont,		s
+	jia,	6,	crj7/crj9,							blue streak,		nsw
+	rpa,	3,	e75l,								brickyard,		nsw
+
+	skw,	1,	crj9,								sky west,		nsw
+	uca,	1,	e145,								commute air,		nsw
+	gjs,	1,	crj7,								lindberg,		nsw
+	ash,	1,	e75l,								air shuttle,		nsw
+
+	swq,	0.05,	b734,								swiftflight
+
+	jza,	0.3,	dh8d/crj2/crj7/crj9,						jazz,			n
+	mxy,	1,	E190/E195,							moxy,			sw
+
+	fdx,	2,	b763,								fedex,			nsw
+	ups,	2,	a300/b752/b763/md11,						u p s,			nsw
+	atn,	1.5,	b762/b763,							air transport,		nsw
+	wig,	0.25,	c208/be20,							wiggins,		ne
+	frg,	0.25,	be99,								freight runners,	ne
+
+	rli,	0.05,	c25b,								reliant
+
+	kii,	0.25,	b734,								dragster,	nsw
+
+	rch,		0.1,	c130/c17/c5m/b733/b762,					reach
+	pat,		0.05,	glf4/glf5,						pat
+	cmb,		0.05,	b737/b738/b752/b762,					camber,		ne
+
+	eja,		0.75,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	exec jet,	nsw
+	lxj,		0.3,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	flex jet,	nsw
+	dpj,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet card,	sw
+	jtl,		0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet links,	sw
+
+	jas,		0.05,	fa7x/gl7t,													jet setter,	sw
+	kow,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	cowboy,		sw
+	noj,		0.05,	be20/c525/c25b/lj45/pc24/g150/cl35/f2th/cl60/fa7x,								nova jet,	sw
+	jcy,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet city,	sw
+	mad,		0.05,	cl30/c680/c56x/c25b/c55b,											malone,		sw
+	ejm,		0.05,	glex/cl60,													jet speed,	sw
+
+	twy,		0.1,	cl60/glex/glf5/glf6,												twilight,	sw
+	tff,		0.05,	cl60,														talon flight,	sw
+	gaj,		0.1,	b350,														gamma jet
+	fth,		0.05,	c750,														foothills,	sw
+	enk,		0.05,	h25b,														sunbird,	sw
+	siy,		0.05,	h25b,														serenity,	sw
+
+	glt,		0.05,	pc12/c25b/c56x/c680/be20,											gaslight,	sw
+	tek,		0.05,	pc12/lj45,													Eigh tech,	sw
+	cns,		0.1,	pc12,														chronos
+	lbq,		0.05,	pc12,														lab-quest
+	cst,		0.05,	pc12,														shoreline
+
+	LN901LM-,	0.02,	be20,			medevac one lima mike,	n
+
+	n-123ab,	1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,					0,	nsw
+	n-123ab,	0.25,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0,	nsw
+	n-123ab,	0.01,	b734/dh8d/e190,																				0,	nsw
+
+	n-123ab,	0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,					0
+	n-123ab,	0.1,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0
+
+## name, amount, planetype, pronunciation, <direction>
+# name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
+# amount determines the relative likelihood of appearance (e.g. 0=never, 0.1=rarely, 1=occasionally, 10=frequently, etc)
+# planetype determines the plane characteristics (optionally put a dash (/) between multiple types)
+# pronuniation is the (airline) callsign
+# direction lets the plane arrive/depart in (roughly) a preferred direction:
+# give the direction as a string containing one or more of the letters nwse, for north west south east,
+# but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
+# tip: you can add the same airline multiple times, for example with different planetypes, in order to get different likelihoods per planetype
+
+flow = 38
+
+##############################################################
+[airport2]
+##############################################################
+
+name = Westfield-Barnes Regional Airport, barnes
+code = BA
+
+runways = 
+	BAF_02_20,	2,	N42°8.72',	W72°43.13',	10.2,	9000,	0,	0,	260.4,	3.01,	10.2,	3,	190.2,	POPPI,	11.6,	WESIE,	5.9,	118.9,	westfield tower
+	BAF_15_33,	15,	N42°9.85',	W72°43.31',	140.2,	5000,	490,	0,	261.5,	3,	140.2,	3,	320.2,	0,	0,	0,	0,	118.9,	westfield tower
+
+
+## identifier, name, position, true_heading, <length>, <displaced>, <displaced2>, <elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>, <tower frequency>, <tower pronunciation>
+# identifier is a unique name used to define a runway usage configuration later in this file
+# name is one or two digits, optionally suffixed with an L, R or C character
+# position is the location of the beginning of the runway (including displaced threshold)
+# length is in feet
+# displaced threshold length in feet, displaced2 is for the other end of the runway
+# elevation is in feet, and must be within 1000 feet difference from the airspace ground elevation defined above
+# glideslope is the angle in degrees; the default value is 3.0
+# localizer is the true heading in degrees of the ILS until touchdown; by default it's the same as runway true heading, but a small offset is allowed
+# beacon is an optional point on the localizer at a certain distance (NM) from the (displaced) threshold
+# second beacon is a point on the localizer when runway is used in opposite direction (rev)
+# tower frequency is used for handoff readbacks
+
+climbaltitude = 3000
+
+sids = 
+	veers,	N41.54.37.120,	W073.17.11.760,	veers
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
+	thumb,	N41.31.23.960,	W072.21.31.800,	thumb
+	gdm
+	put
+	pvd
+	ctr
+	keynn
+
+## name, position, <pronunciation>
+# you may also give just the name of a beacon from the beacon list
+
+inboundbeacon = baf
+
+entrypoints = 
+	020,	baf,	6000
+	315,	STELA
+	191,	MAD
+	192,	MAD
+	193,	MAD
+	134,	graym,	11000
+	135,	graym,	11000
+	136,	graym,	11000
+	245,	judds,	9000
+	
+## true_heading, <beaconname>, <altitude>
+# this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
+# inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
+# optional descentaltitude for this entrypoint; otherwise the default descentaltitude is used
+
+airlines =
+	wig,		0.25,	c208/be20,							wiggins,		ne
+	frg,		0.25,	be99,								freight runners,	ne
+
+	eja,		0.4,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	exec jet
+	lxj,		0.3,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	flex jet
+	dpj,		0.2,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet card
+	jtl,		0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet links
+	kow,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	cowboy
+	noj,		0.05,	be20/c525/c25b/lj45/pc24/g150/cl35/f2th/cl60/fa7x,								nova jet
+	jcy,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet city
+	glt,		0.05,	pc12/c25b/c56x/c680/be20,											gaslight
+	tek,		0.05,	pc12/lj45,													Eigh tech
+	mad,		0.05,	cl30/c680/c56x/c25b/c55b,											malone
+	cst,		0.05,	pc12,														shoreline
+
+	obi01-,		0.5,	F15,							oh bee one,	swe
+	obi02-,		0.5,	F15,							oh bee two,	swe
+	rippa01-,	0.5,	F15,							rippa one,	swe
+	rippa02-,	0.5,	F15,							rippa two,	swe
+	chosn01-,	0.5,	F15,							chosen one,	swe
+	chosn02-,	0.5,	F15,							chosen two,	swe
+	fury46-,	0.5,	F15,							fury four six,	swe
+
+	rch,		1,	c130/c17/c5m/b733/b762,					reach
+	cnv,		0.25,	c130/c17/b733/b762,					convoy
+	pat,		0.25,	glf4/glf5,						pat
+
+	slam53-,	0.75,	k35r,							slam five three,	swn
+	slam54-,	0.75,	k35r,							slam five four,		swn
+	maine86-,	0.25,	k35r,							main eight six,		ne
+	maine85-,	0.25,	k35r,							main eight five,	ne
+	pudgy69-,	0.4,	b762,							pudgy six niner,	s
+	pudgy68-,	0.4,	b762,							pudgy six eight,	s
+	rolo99-,	0.25,	b762,							rolo niner niner,	n
+	rolo98-,	0.25,	b762,							rolo niner eight,	n
+	
+	cap,		0.2,	c172/c182,						cap
+
+	lbq,		0.05,	pc12,							lab-quest
+
+	LN901LM-,	0.02,	be20,			medevac one lima mike,	n
+
+	n-123ab,	1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,					0
+	n-123ab,	1,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0
+	n-123ab,	0.01,	b734/dh8d/e190,																				0
+
+
+## name, amount, planetype, pronunciation, <direction>
+# name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
+# amount determines the relative likelihood of appearance (e.g. 0=never, 0.1=rarely, 1=occasionally, 10=frequently, etc)
+# planetype determines the plane characteristics (optionally put a dash (/) between multiple types)
+# pronuniation is the (airline) callsign
+# direction lets the plane arrive/depart in (roughly) a preferred direction:
+# give the direction as a string containing one or more of the letters nwse, for north west south east,
+# but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
+# tip: you can add the same airline multiple times, for example with different planetypes, in order to get different likelihoods per planetype
+
+flow = 1
+
+##############################################################
+[airport3]
+##############################################################
+
+name = Westover ARB/Metro Airport, westover
+code = CE
+
+runways = 
+	CEF_05_23,	5,	N42°10.65',	W72°32.88',	34.2,	11598,	1202,	0,	234.1,	3,	34.2,	3,	214.2,	BIGEE,	6.0,	BELCH,	6.3,	134.85,	westover tower
+	CEF_15_33,	15,	N42°12.39',	W72°32.52',	135.2,	7082,	0,	0,	240.9,	3,	135.2,	3,	315.2,	0,	0,	0,	0,	134.85,	westover tower
+
+
+## identifier, name, position, true_heading, <length>, <displaced>, <displaced2>, <elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>, <tower frequency>, <tower pronunciation>
+# identifier is a unique name used to define a runway usage configuration later in this file
+# name is one or two digits, optionally suffixed with an L, R or C character
+# position is the location of the beginning of the runway (including displaced threshold)
+# length is in feet
+# displaced threshold length in feet, displaced2 is for the other end of the runway
+# elevation is in feet, and must be within 1000 feet difference from the airspace ground elevation defined above
+# glideslope is the angle in degrees; the default value is 3.0
+# localizer is the true heading in degrees of the ILS until touchdown; by default it's the same as runway true heading, but a small offset is allowed
+# beacon is an optional point on the localizer at a certain distance (NM) from the (displaced) threshold
+# second beacon is a point on the localizer when runway is used in opposite direction (rev)
+# tower frequency is used for handoff readbacks
+
+climbaltitude = 4000 		; maximum initial climb altitude in feet for departures
+
+sids = 
+	veers,	N41.54.37.120,	W073.17.11.760,	veers
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
+	thumb,	N41.31.23.960,	W072.21.31.800,	thumb
+	gdm
+	put
+	pvd
+	ctr
+	keynn
+
+## name, position, <pronunciation>
+# you may also give just the name of a beacon from the beacon list
+
+inboundbeacon = cef
+
+entrypoints = 
+	020,	cef,	6000
+	315,	STELA
+	192,	MAD
+	135,	graym,	11000
+	245,	judds,	9000
+	
+## true_heading, <beaconname>, <altitude>
+# this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
+# inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
+# optional descentaltitude for this entrypoint; otherwise the default descentaltitude is used
+
+airlines =
+	wig,		0.25,	c208/be20,							wiggins,		ne
+	frg,		0.25,	be99,								freight runners,	ne
+
+	eja,		0.4,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	exec jet
+	lxj,		0.3,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	flex jet
+	dpj,		0.2,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet card
+	jtl,		0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet links
+	kow,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	cowboy
+	noj,		0.05,	be20/c525/c25b/lj45/pc24/g150/cl35/f2th/cl60/fa7x,								nova jet
+	jcy,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet city
+	glt,		0.05,	pc12/c25b/c56x/c680/be20,											gaslight
+	tek,		0.05,	pc12/lj45,													Eigh tech
+	mad,		0.05,	cl30/c680/c56x/c25b/c55b,											malone
+
+	lbq,		0.05,	pc12,														lab-quest
+	cst,		0.05,	pc12,														shoreline
+
+	rch,		0.5,	c130/c17/c5m/b733/b762,					reach
+	cnv,		0.25,	c130/c17/b733,						convoy
+	pat,		0.25,	glf4/glf5,						pat
+
+	cap,		1,	c172/c182,													cap
+
+	LN901LM-,	0.02,	be20,			medevac one lima mike,	n
+
+	n-123ab,	1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,					0
+	n-123ab,	1,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0
+	n-123ab,	0.01,	b734/dh8d/e190,																				0
+
+
+## name, amount, planetype, pronunciation, <direction>
+# name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
+# amount determines the relative likelihood of appearance (e.g. 0=never, 0.1=rarely, 1=occasionally, 10=frequently, etc)
+# planetype determines the plane characteristics (optionally put a dash (/) between multiple types)
+# pronuniation is the (airline) callsign
+# direction lets the plane arrive/depart in (roughly) a preferred direction:
+# give the direction as a string containing one or more of the letters nwse, for north west south east,
+# but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
+# tip: you can add the same airline multiple times, for example with different planetypes, in order to get different likelihoods per planetype
+
+flow = 0.5
+
+##############################################################
+[airport4]
+##############################################################
+
+name = Worcester Regional Airport, wustuh
+code = OR
+
+runways = 
+	ORH_11_29,	11,	N42°16.04',	W71°53.45',	93.8,	7001,	0,	0,	980,	3,	93.8,	3,	273.8,	RILOC,	5.5,	SPAGS,	5.3,	120.5,	wustuh tower
+	ORH_15_33,	15,	N42°16.37',	W71°52.72',	137.7,	5000,	0,	0,	1008,	3.6,	137.7,	3.03,	317.7,	0,	0,	PAMLA,	10.2,	120.5,	wustuh tower
+
+
+## identifier, name, position, true_heading, <length>, <displaced>, <displaced2>, <elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>, <tower frequency>, <tower pronunciation>
+# identifier is a unique name used to define a runway usage configuration later in this file
+# name is one or two digits, optionally suffixed with an L, R or C character
+# position is the location of the beginning of the runway (including displaced threshold)
+# length is in feet
+# displaced threshold length in feet, displaced2 is for the other end of the runway
+# elevation is in feet, and must be within 1000 feet difference from the airspace ground elevation defined above
+# glideslope is the angle in degrees; the default value is 3.0
+# localizer is the true heading in degrees of the ILS until touchdown; by default it's the same as runway true heading, but a small offset is allowed
+# beacon is an optional point on the localizer at a certain distance (NM) from the (displaced) threshold
+# second beacon is a point on the localizer when runway is used in opposite direction (rev)
+# tower frequency is used for handoff readbacks
+
+climbaltitude = 5000 		; maximum initial climb altitude in feet for departures
+
+sids = 
+	veers,	N41.54.37.120,	W073.17.11.760,	veers
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
+	gdm
+	orw
+	put
+	pvd
+	ctr
+	keynn
+
+## name, position, <pronunciation>
+# you may also give just the name of a beacon from the beacon list
+
+inboundbeacon = graym
+
+entrypoints = 
+	040,	speno,	4000
+	075,	glyde,	4000
+	315,	STELA
+	192,	mad
+	135,	graym,	11000
+	245,	judds,	9000
+	
+## true_heading, <beaconname>, <altitude>
+# this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
+# inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
+# optional descentaltitude for this entrypoint; otherwise the default descentaltitude is used
+
+airlines =
+	jbu,		0.5,	e190,			jetblue,	s
+	edv,		0.2,	crj9/crj7,		endeavor,	sw
+
+	rpa,		0.1,	e75l,			brickyard,	s
+
+	wig,		0.25,	c208/be20,		wiggins,		ne
+	frg,		0.25,	be99,			freight runners,	ne
+
+	eja,		0.4,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	exec jet
+	lxj,		0.3,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	flex jet
+	dpj,		0.2,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet card
+	jtl,		0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet links
+	kow,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	cowboy
+	noj,		0.05,	be20/c525/c25b/lj45/pc24/g150/cl35/f2th/cl60/fa7x,								nova jet
+	jcy,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet city
+	glt,		0.05,	pc12/c25b/c56x/c680/be20,											gaslight
+	tek,		0.05,	pc12/lj45,													Eigh tech
+	mad,		0.05,	cl30/c680/c56x/c25b/c55b,											malone
+
+	rch,		0.1,	c130/c17/c5m/b733/b762,					reach
+	pat,		0.02,	glf4/glf5,						pat
+
+	lbq,		0.05,	pc12,														lab-quest
+	cst,		0.05,	pc12,														shoreline
+
+	LN901LM-,	0.02,	be20,			medevac one lima mike,	n
+
+	n-123ab,	1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,					0
+	n-123ab,	1,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0
+	n-123ab,	0.01,	b734/dh8d/e190,																				0
+
+
+## name, amount, planetype, pronunciation, <direction>
+# name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
+# amount determines the relative likelihood of appearance (e.g. 0=never, 0.1=rarely, 1=occasionally, 10=frequently, etc)
+# planetype determines the plane characteristics (optionally put a dash (/) between multiple types)
+# pronuniation is the (airline) callsign
+# direction lets the plane arrive/depart in (roughly) a preferred direction:
+# give the direction as a string containing one or more of the letters nwse, for north west south east,
+# but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
+# tip: you can add the same airline multiple times, for example with different planetypes, in order to get different likelihoods per planetype
+
+flow = 1.5
+
+##############################################################
+[airport5]
+##############################################################
+
+name = Hartford-Brainard Regional Airport, hartford
+code = HF
+
+runways = 
+	HFD_02_20,	2,	N41°43.90',	W72°38.99',	8.9,	4417,	411,	560	11,	4,	8.9,	4,	188.9,	0,	0,	0,	0,	119.6,	brainard tower
+	HFD_11_29,	11,	N41°44.05',	W72°39.45',	98.9,	2314,	0,	265,	12,	4,	98.9,	4,	278.9,	0,	0,	0,	0,	119.6,	brainard tower
+	HFD_02_LDA,	2,	N41.73277,	W72.64957,	358,	1000,	0,	0,	11,	3.47,	348,	3.47,	188.9,	LOMIS,	5.8,	0,	0,	119.6,	brainard tower
+
+## identifier, name, position, true_heading, <length>, <displaced>, <displaced2>, <elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>, <tower frequency>, <tower pronunciation>
+# identifier is a unique name used to define a runway usage configuration later in this file
+# name is one or two digits, optionally suffixed with an L, R or C character
+# position is the location of the beginning of the runway (including displaced threshold)
+# length is in feet
+# displaced threshold length in feet, displaced2 is for the other end of the runway
+# elevation is in feet, and must be within 1000 feet difference from the airspace ground elevation defined above
+# glideslope is the angle in degrees; the default value is 3.0
+# localizer is the true heading in degrees of the ILS until touchdown; by default it's the same as runway true heading, but a small offset is allowed
+# beacon is an optional point on the localizer at a certain distance (NM) from the (displaced) threshold
+# second beacon is a point on the localizer when runway is used in opposite direction (rev)
+# tower frequency is used for handoff readbacks
+
+climbaltitude = 3000 		; maximum initial climb altitude in feet for departures
+
+sids = 
+	veers,	N41.54.37.120,	W073.17.11.760,	veers
+	mobbs,	N42.07.30.840,	W073.15.36.590,	mobbs
+	thumb,	N41.31.23.960,	W072.21.31.800,	thumb
+	gdm
+	ctr
+	pvd
+	put
+	keynn
+
+## name, position, <pronunciation>
+# you may also give just the name of a beacon from the beacon list
+
+inboundbeacon = hfd
+
+entrypoints = 
+	040,	witny,	10000
+	315,	STELA
+	190,	hfd,	5000
+	135,	hfd,	6000
+	245,	hfd,	7000
+	
+## true_heading, <beaconname>, <altitude>
+# this is where new arrivals enter at the boundary (approximately), e.g. 090 means planes will enter from the east, heading 270 (westbound)
+# inbound beacon is optional; choose a beacon name from the beacon list above; otherwise the first beacon from that list is chosen automatically
+# optional descentaltitude for this entrypoint; otherwise the default descentaltitude is used
+
+airlines =
+	lbq,		0.05,	pc12,														lab-quest
+	cst,		0.05,	pc12,														shoreline
+
+	LN901LM-,	0.02,	be20,			medevac one lima mike,	n
+
+	n-123ab,	1,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20/pc12/tbm7,	0
+
+
+## name, amount, planetype, pronunciation, <direction>
+# name is the 3 letter airline code, or a private regristration (with a land code, dash(-), and then the format)
+# amount determines the relative likelihood of appearance (e.g. 0=never, 0.1=rarely, 1=occasionally, 10=frequently, etc)
+# planetype determines the plane characteristics (optionally put a dash (/) between multiple types)
+# pronuniation is the (airline) callsign
+# direction lets the plane arrive/depart in (roughly) a preferred direction:
+# give the direction as a string containing one or more of the letters nwse, for north west south east,
+# but make sure there are actually entrypoints defined at those directions (approximately); w needs an entrypoint near 270
+# tip: you can add the same airline multiple times, for example with different planetypes, in order to get different likelihoods per planetype
+
+flow = 0.5
+
+##############################################################
+# KBDL Class C
+##############################################################
+[area1]
+##############################################################
+shape = circle		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+radius = 5		; radius of circle in NM
+position = N41°56.34',	W72°41.06'	; position of circle center
+labelpos = N41.884, W72.680		; <position of label>
+
+##############################################################
+# KBAF Class D
+##############################################################
+[area2]
+##############################################################
+shape = circle
+altitude = 0
+radius = 5
+name = ba
+position = N42°9.48',	W72°42.95'
+#labelpos = N42.127,	W72.684
+draw = 0.705, 5.6549999
+##############################################################
+[area3]
+##############################################################
+shape = polygon
+altitude = 2800
+radius = 5
+name = ba
+labelpos = N42.127,	W72.684
+points =
+	N42.225, W72.650
+	N42.195, W72.658
+	N42.168, W72.653
+	N42.143, W72.637
+	N42.124, W72.614
+	N42.104, W72.631
+	N42.085, W72.665
+	N42.077, W72.694
+	N42.078, W72.747
+	N42.094, W72.788
+	N42.114, W72.811
+	N42.137, W72.824
+	N42.165, W72.827
+	N42.193, W72.817
+	N42.220, W72.792
+	N42.239, W72.744
+	N42.239, W72.693
+
+draw = 17
+
+##############################################################
+# KCEF Class D
+##############################################################
+[area4]
+##############################################################
+shape = circle
+altitude = 2700
+radius = 5.5
+name = ce
+position = N42°11.64',	W72°32.09'
+labelpos = N42.161,	W72.483
+
+##############################################################
+# KORH Class D
+##############################################################
+[area5]
+##############################################################
+shape = circle
+altitude = 3500
+radius = 5.5
+name = OR
+position = N42°16.03',	W71°52.54'
+labelpos = N42.237, W71.882
+
+##############################################################
+# KHFD Class D
+##############################################################
+[area6]
+##############################################################
+shape = circle
+altitude = 2500
+radius = 5
+name = HF
+position = N41°44.20',	W72°38.97'
+labelpos = N41.719,	W72.717
+
+
+##############################################################
+[area11]
+##############################################################
+shape = polygon
+altitude = 10000
+name = HF
+points = 
+	N41.29.00,	W72.28.00
+	N41.16.30,	W72.33.00
+	N41.17.04,	W72.44.30
+	N41.19.51,	W72.48.04
+	N41.25.13,	W72.43.23
+	N41.25.30,	W72.40.50
+
+labelpos = N41.361, W72.614
+
+##############################################################
+[area12]
+##############################################################
+shape = polygon
+altitude = 7000
+name = HF
+points = 
+	N41.19.51,	W72.48.04
+	N41.22.09,	W73.00.00
+	N41.28.25,	W73.12.00
+	N41.35.15,	W73.12.50
+	N41.35.40,	W73.00.00
+	N41.26.00,	W73.00.00
+	N41.25.00,	W72.55.45
+	N41.25.13,	W72.43.23
+
+labelpos = N41.415, W73.004
+
+##############################################################
+[area13]
+##############################################################
+shape = polygon
+altitude = 6000
+name = ALB
+points = 
+	N42.03.10,	W73.22.40
+	N42.11.00,	W73.23.15
+	N42.38.00,	W73.00.03
+	N42.35.50,	W72.51.10
+	N42.32.30,	W72.44.00
+	N42.26.40,	W72.50.40
+	N42.22.17,	W72.58.30
+
+labelpos = N42.383, W73.144
+
+##############################################################
+# MVAs
+##############################################################
+[area50]
+shape = polygon
+name = X
+altitude = 3800
+points = 
+	N41.933,	W73.358
+	N41.92011,	W73.21864
+	N42.07806,	W73.22163
+	N42.15667,	W73.01919
+	N42.29088,	W72.94736
+	N42.564,	W72.782
+	N42.699,	W73.045
+	N41.99571,	W74.0213
+
+labelPos = N42.158, W73.168
+
+draw = 3
+
+[area51]
+shape = polygon
+name = X
+altitude = 3000
+points = 
+	N42.452,	W72.405
+	N42.40755,	W72.65452
+	N42.37076,	W72.69398
+	N42.09554,	W72.80177
+	N41.90446,	W72.87648
+	N41.87793,	W73.01106
+	N41.63615,	W73.14865
+	N41.35.15,	W73.18.00
+	N41.933,	W73.358
+	N41.92011,	W73.21864
+	N42.07806,	W73.22163
+	N42.15667,	W73.01919
+	N42.29088,	W72.94736
+	N42.564,	W72.782
+	N42.48022,	W72.24938
+
+labelPos = N41.915, W73.099
+
+draw = 8
+
+#Used to clarify altitude in upper corner
+[area52]
+shape = circle
+name = ALB
+altitude = 6000
+radius = 0
+position = N42.530, W72.776
+labelpos = N42.539, W72.787
+draw = 6.28, 6.28
+
+[area54]
+shape = polygon
+name = X
+altitude = 3000
+points =
+	N42.04827,	W71.70503
+	N42.09557,	W71.91549
+	N42.1062,	W71.96275
+	N42.10558,	W71.96852
+	N42.10517,	W71.97432
+	N42.10497,	W71.98015
+	N42.10495,	W71.98243
+	N42.10506,	W71.98812
+	N42.10537,	W71.9938
+	N42.10589,	W71.99946
+	N42.10661,	W72.00507
+	N42.10754,	W72.01063
+	N42.10867,	W72.01612
+	N42.11,		W72.02152
+	N42.11152,	W72.02684
+	N42.11323,	W72.03204
+	N42.11513,	W72.03713
+	N42.11722,	W72.04208
+	N42.11948,	W72.0469
+	N42.12192,	W72.05155
+	N42.12452,	W72.05604
+	N42.12728,	W72.06035
+	N42.13019,	W72.06448
+	N42.13325,	W72.0684
+	N42.13645,	W72.07212
+	N42.13978,	W72.07562
+	N42.14324,	W72.0789
+	N42.14681,	W72.08194
+	N42.14715,	W72.08222
+	N42.15083,	W72.085
+	N42.15462,	W72.08753
+	N42.15848,	W72.08981
+	N42.16243,	W72.09184
+	N42.16645,	W72.09359
+	N42.17052,	W72.09508
+	N42.17464,	W72.0963
+	N42.1788,	W72.09724
+	N42.183,	W72.09791
+	N42.1872,	W72.0983
+	N42.19142,	W72.09841
+	N42.19564,	W72.09824
+	N42.19985,	W72.09779
+	N42.20403,	W72.09706
+	N42.20818,	W72.09606
+	N42.21229,	W72.09478
+	N42.21635,	W72.09324
+	N42.22035,	W72.09142
+	N42.22428,	W72.08934
+	N42.22812,	W72.08701
+	N42.23188,	W72.08442
+	N42.23554,	W72.08159
+	N42.24443,	W72.07322
+	N42.413,	W72.199
+	N42.48022,	W72.24938
+	N42.470,	W71.981
+
+	N42.356,	W71.906
+	N42.345,	W71.940
+	N42.327,	W71.970
+	N42.289,	W71.996
+	N42.263,	W71.999
+	N42.224,	W71.985
+	N42.190,	W71.943
+	N42.176,	W71.892
+	N42.177,	W71.850
+	N42.188,	W71.815
+
+#	N42.45159,	W71.52475
+#	N42.098,	W71.401
+
+
+labelpos = N42.132, W71.870
+draw = 13
+
+[area55]
+shape = polygon
+altitude = 3000
+name = X
+points = 
+	N42.356,	W71.906
+	N42.470,	W71.981
+	N42.45159,	W71.52475
+	N42.098,	W71.401
+	N42.04827,	W71.70503
+	N42.188,	W71.815
+	N42.211,	W71.779
+	N42.250,	W71.756
+	N42.281,	W71.755
+	N42.313,	W71.770
+	N42.337,	W71.798
+	N42.356,	W71.852
+
+draw = 12
+
+labelpos = N42.229, W71.623
+
+
+[area56]
+shape = circle
+radius = 3.025
+altitude = 2700
+name = X
+position = N41.518, W73.019
+labelPos = N41.520, W73.044
+
+
+[area57]
+shape = circle
+radius = 3.15
+altitude = 3000
+name = X
+position = N41.7015, W72.8325
+labelPos = N41.7015, W72.8325
+
+[area58]
+shape = circle
+radius = 3.05
+altitude = 2600
+name = X
+position = N42.3635, W72.423
+labelPos = N42.364, W72.423
+
+[area59]
+shape = circle
+name = X
+altitude = 2500
+radius = 0
+position = N41.940, W72.441
+labelpos = N41.940, W72.441
+draw = 6.28, 6.28
+
+[area60]
+shape = polygon
+name = X
+altitude = 0
+points =
+	N42.27.00,	W71.50.00
+	N42.22.30,	W71.49.10
+	N42.03.45,	W71.38.45
+
+draw = 1
+
+##############################################################
+[configurations]
+##############################################################
+
+#Wind Calm
+config1 =
+	0,	BDL_06_24,	startlandint,		075,	nosid
+	0,	BDL_15_33,	startrev,		328,	nosid
+	0,	BDL_33_LAHSO,	land
+
+	0,	BAF_02_20,	startlandrev,		204,	nosid
+	0,	CEF_05_23,	startlandrev,		228,	nosid
+
+	0,	ORH_11_29,	startland,		108,	nosid
+	0,	ORH_15_33,	start,			153,	nosid
+
+	0,	HFD_02_20,	start,			022,	nosid
+	0,	HFD_02_LDA,	land
+
+#Landing West
+config2 =
+	0,	BDL_06_24,	startrevint,		238,	nosid
+	0,	BDL_15_33,	startlandrev,		328,	nosid
+	0,	BDL_24_LAHSO,	land
+
+	0,	BAF_02_20,	startlandrev,		204,	nosid
+	0,	CEF_05_23,	startlandrev,		228,	nosid
+
+	0,	ORH_11_29,	startlandrevtrack,	288,	nosid
+	0,	ORH_15_33,	startlandrev,		333,	nosid
+
+	0,	HFD_02_20,	start,			022,	nosid
+	0,	HFD_02_LDA,	land
+
+#Landing North
+config3 =
+	0,	BDL_06_24,	startlandint,		075,	nosid
+	0,	BDL_33_LAHSO,	land
+
+	0,	BAF_02_20,	startland,		024,	nosid
+	0,	CEF_05_23,	startland,		048,	nosid
+
+	0,	ORH_11_29,	startland,		108,	nosid
+	0,	ORH_15_33,	start,			153,	nosid
+
+	0,	HFD_02_20,	start,			022,	nosid
+	0,	HFD_02_LDA,	land
+
+#Landing East
+config4 =
+	0,	BDL_06_24,	startlandint,		075,	nosid
+	0,	BDL_15_33,	startland,		148,	nosid
+
+	0,	BAF_02_20,	startlandrev,		204,	nosid
+	0,	CEF_05_23,	startlandrev,		228,	nosid
+
+	0,	ORH_11_29,	startland,		108,	nosid
+	0,	ORH_15_33,	start,			153,	nosid
+
+	0,	HFD_02_20,	start,			022,	nosid
+	0,	HFD_02_LDA,	land
+
+#Landing South
+config5 =
+	0,	BDL_06_24,	startrevint,		238,	nosid
+	0,	BDL_15_33,	startland,		148,	nosid
+	0,	BDL_24_LAHSO,	land
+
+	0,	BAF_02_20,	startlandrev,		204,	nosid
+	0,	CEF_05_23,	startlandrev,		228,	nosid
+
+	0,	ORH_11_29,	startland,		108,	nosid
+	0,	ORH_15_33,	start,			153,	nosid
+
+	0,	HFD_02_20,	startlandrev,		202,	nosid
+
+## score, identifier, usage, <offsetheading>, <nosid>
+# score is the score (skill) at which the runway will be activated
+# identifier is a unique runway name specified earlier
+# usage is a string (without spaces) that may contain these words: start, land, rev, int, track
+# where rev means reversed use (opposite direction), int means intersection departure (takeoffs begin 30% down the rwy), track means backtrack after landing
+# offsetheading means planes will fly a specific heading just after takeoff (especially useful for allowing parallel takeoffs with divergent climbout headings)
+# nosid option means planes will depart on the given offsetheading, with SID mode disabled
+# the list must be ordered with increasing score values (as in this example 0, 7, 8)
+# when rwy configurations are omited, two configs are automatically created, one for each rwy direction, with all runways active
+
+##############################################################
+# Deer Park 3 STAR DPK3
+##############################################################
+[approach1]
+##############################################################
+runway = BDL_06_24
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach2]
+##############################################################
+runway = BDL_06_24,	rev
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach3]
+##############################################################
+runway = BDL_15_33
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach4]
+##############################################################
+runway = BDL_15_33,	rev
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach5]
+##############################################################
+runway = BDL_24_LAHSO
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach6]
+##############################################################
+runway = BDL_33_LAHSO
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach7]
+##############################################################
+runway = BDL_33_LAHSO
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach8]
+##############################################################
+runway = BAF_02_20
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach9]
+##############################################################
+runway = BAF_02_20,	rev
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach10]
+##############################################################
+runway = CEF_05_23
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+[approach11]
+##############################################################
+runway = CEF_05_23,	rev
+beacon = MAD
+route1 =
+	360,	DPK3,	deer park three
+	N41.3138611,	W72.6922028
+	N41°42.16',	W73°01.00'
+	end,	hold
+
+##############################################################
+# V1 Routing for ORH
+##############################################################
+[approach12]
+##############################################################
+runway = ORH_11_29,	rev
+beacon = MAD
+route1 =
+	360,	V1,	victor 1
+	N41.3138611,	W72.6922028
+	N41.6411047,	W72.5474181
+	N42.06.04.270,	W072.01.53.490
+	end,	hold
+
+##############################################################
+[approach13]
+##############################################################
+runway = ORH_11_29
+beacon = MAD
+route1 =
+	360,	V1,	victor 1
+	N41.3138611,	W72.6922028
+	N41.6411047,	W72.5474181
+	N42.06.04.270,	W072.01.53.490
+	end,	hold
+
+##############################################################
+# Stela One STELA1 STAR
+##############################################################
+[approach21]
+##############################################################
+runway = BDL_06_24
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42°08.72',	W72°58.02'
+	end,	hold
+
+##############################################################
+[approach22]
+##############################################################
+runway = BDL_06_24,	rev
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42°08.72',	W72°58.02'
+	end,	hold
+
+##############################################################
+[approach23]
+##############################################################
+runway = BDL_15_33
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42°08.72',	W72°58.02'
+	end,	hold
+
+##############################################################
+[approach24]
+##############################################################
+runway = BDL_15_33,	rev
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42°08.72',	W72°58.02'
+	end,	hold
+
+##############################################################
+[approach25]
+##############################################################
+runway = BDL_24_LAHSO
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42°08.72',	W72°58.02'
+	end,	hold
+
+##############################################################
+[approach26]
+##############################################################
+runway = BDL_33_LAHSO
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42°08.72',	W72°58.02'
+	end,	hold
+
+##############################################################
+[approach27]
+##############################################################
+runway = BAF_02_20
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42.1619592,	W72.7161994
+	end,	hold
+
+##############################################################
+[approach28]
+##############################################################
+runway = BAF_02_20,	rev
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42.1619592,	W72.7161994
+	end,	hold
+
+##############################################################
+[approach29]
+##############################################################
+runway = CEF_05_23
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42.1619592,	W72.7161994
+	end,	hold
+
+##############################################################
+[approach30]
+##############################################################
+runway = CEF_05_23,	rev
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42.1619592,	W72.7161994
+	end,	hold
+
+##############################################################
+[approach31]
+##############################################################
+runway = ORH_11_29
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42.1619592,	W72.7161994
+	end,	hold
+
+
+##############################################################
+[approach32]
+##############################################################
+runway = ORH_11_29,	rev
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42.1619592,	W72.7161994
+	end,	hold
+
+##############################################################
+[approach33]
+##############################################################
+runway = HFD_02_LDA
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42°08.72',	W72°58.02'
+	end,	hold
+
+##############################################################
+[approach34]
+##############################################################
+runway = HFD_02_20,	rev
+beacon = STELA
+route1 =
+	360,	STELA1,	stela one
+	N42.16.53.150,	W073.09.14.160
+	N42°12.52',	W73°03.22'
+	N42°08.72',	W72°58.02'
+	end,	hold
+
+##############################################################
+# BDL ILS, RNAV
+##############################################################
+[approach101]
+##############################################################
+runway = BDL_06_24
+beacon = PENNA,	N41.48.07.670,	W072.51.58.530,		058,	penna
+route1 =
+	360,	ILS6,	I L S
+	N41.48.07.670,	W072.51.58.530
+	10,	3000
+
+##############################################################
+[approach102]
+##############################################################
+runway = BDL_06_24,	rev
+beacon = KIBBE,	N42.06.15.930,	W072.28.11.180,		-238,	kibbe
+route1 =
+	360,	ILS24,	I L S
+	N42.06.15.930,	W072.28.11.180
+	10.5,	3000
+
+##############################################################
+[approach103]
+##############################################################
+runway = BDL_24_LAHSO
+beacon = KIBBE,	N42.06.15.930,	W072.28.11.180,		-238,	kibbe
+route1 =
+	360,	ILS24,	I L S
+	N42.06.15.930,	W072.28.11.180
+	10.5,	3000
+
+##############################################################
+[approach104]
+##############################################################
+runway = BDL_15_33
+beacon = DOCEB,	N42.04.11.360,	W072.52.05.810,		148,	doceb
+route1 =
+	360,	RNAV15,	R nav
+	N42.04.11.360,	W072.52.05.810
+	10.5,	3500
+
+##############################################################
+[approach105]
+##############################################################
+runway = BDL_15_33,	rev
+beacon = HADUX,	N41.48.08.540,	W072.30.07.710,		328,	hadux
+route1 =
+	360,	ILS33,	I L S
+	N41.48.08.540,	W072.30.07.710
+	10,	3000
+
+##############################################################
+[approach106]
+##############################################################
+runway = BDL_33_LAHSO
+beacon = HADUX,	N41.48.08.540,	W072.30.07.710,		328,	hadux
+route1 =
+	360,	ILS33,	I L S
+	N41.48.08.540,	W072.30.07.710
+	10,	3000
+
+##############################################################
+# BAF ILS, RNAV
+##############################################################
+[approach111]
+##############################################################
+runway = BAF_02_20,	rev
+beacon = LEADS,	N42.22.26.650,	W072.39.47.570,		204,	leads
+route1 =
+	360,	ILS20,	I L S
+	N42.22.26.650,	W072.39.47.570
+	10,	3500
+
+##############################################################
+[approach112]
+##############################################################
+runway = BAF_02_20
+beacon = KUFOP,	N41.58.10.650,	W072.52.28.940,		0,	kufop
+route1 =
+	360,	RNAV2,	R nav
+	N41.58.10.650,	W072.52.28.940
+	11.5,	3000
+
+##############################################################
+[planetypes]
+##############################################################
+
+types = 
+	GALX, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	G150, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	H25B, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	F2TH, 5, 160, 250, 2.3, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Falcon
+	H25C, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	HA4T, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	HDJT, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Honda Jet
+	PRM1, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Beech Jet
+	EVOT, 6, 110, 250, 2.9, 3.2, 1000, 1400, 70, 100, 1.1, 1.3,	evolution
+
+	BE20, 5, 140, 200, 2.7, 3.0, 1400, 1560, 100, 126, 1.1, 1.3, King Air
+	BE99, 5, 140, 230, 2.7, 3.0, 1400, 1560, 100, 126, 1.1, 1.3, Beech
+	B350, 5, 140, 230, 2.7, 3.0, 1400, 1560, 100, 126, 1.1, 1.3, King Air
+	F15,  4, 160, 400, 3.2, 3.5, 1500, 2500, 100, 140, 3.0, 4.0, Eagle
+	C208, 6, 100, 140, 3.0, 3.2, 1100, 1300, 70, 100, 0.8, 1.0, Caravan
+
+	M20T, 6, 100, 210, 2.9, 3.2, 1000, 1400, 60, 80, 1.1, 1.3,	mooney
+	P46T, 6, 100, 180, 2.9, 3.2, 1000, 1440, 70, 100, 1.1, 1.3,	meridian
+	AEST, 6, 100, 210, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3,	aerostar
+	M600, 6, 100, 180, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3,	meridian
+	B58T, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3,	baron
+	C402, 6, 100, 200, 2.9, 3.2, 1000, 1400, 60, 90, 1.1, 1.3,	twin cessna
+	C72R, 6, 100, 140, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skyhawk
+	C77R, 6, 100, 140, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cardinal
+	P32R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	saratoga
+	P32T, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3,	saratoga
+	C82R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skylane
+	C82T, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skylane
+	C82S, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skylane
+	C172, 6, 100, 130, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skyhawk
+	C177, 6, 100, 130, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cardinal
+	C206, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	stationair
+	C182, 6, 100, 140, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skylane
+	T206, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	stationair
+	BT36, 6, 100, 180, 2.9, 3.2, 1000, 1400, 70, 100, 1.1, 1.3,	bonanza
+	C210, 6, 100, 160, 2.9, 3.2, 1000, 1300, 60, 90, 1.1, 1.3,	centurion
+	T210, 6, 100, 170, 2.9, 3.2, 1000, 1300, 60, 90, 1.1, 1.3,	centurion
+	P210, 6, 100, 170, 2.9, 3.2, 1000, 1300, 60, 90, 1.1, 1.3,	centurion
+	DA42, 6, 100, 160, 2.9, 3.2, 1000, 1300, 70, 90, 1.1, 1.3,	twin star
+	DA62, 6, 100, 170, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3,	diamond
+	SR22, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 90, 1.1, 1.3,	cirrus
+	S22T, 6, 100, 280, 2.9, 3.2, 1000, 1300, 80, 90, 1.1, 1.3,	cirrus
+	P28A, 6, 100, 140, 2.9, 3.2, 1000, 1300, 80, 90, 1.1, 1.3,	cherokee
+	P28B, 6, 100, 150, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cherokee
+	P28R, 6, 100, 150, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cherokee
+	P28U, 6, 100, 150, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cherokee
+	P28T, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cherokee
+
+	C130, 4, 130, 220, 2.9, 3.2, 1100, 1300, 85, 120, 1.1, 1.3,	hercules
+	C17, 3, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, globemaster
+	C5M, 3, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, globemaster
+	K35R, 3, 145, 300, 2.6, 3.0, 1440, 1560, 131, 146, 1.2, 1.3, stratotanker
+
+## type, category, minspeed, maxspeed, minturnrate, maxturnrate, mindescentrate, maxdescentrate, minfinalapproachspeed, maxfinalapproachspeed, minaccelrate, maxaccelrate, <manufacturer>
+# custom [planetypes] are only needed when using unknown custom types in the airlinelists above (game will show warnings on startup for missing types), or to override default type properties
+# category is the weight category: 1 to 6, meaning superheavy=1, upperheavy, lowerheavy, uppermedium, lowermedium, light=6
+# speeds in knots
+# turnrate is in degrees per second
+# descentrate is in feet per minute
+# approachspeeds in knots, may be below minspeed
+# accelrate is in knots per second
+# manufacturer name is optional, and only used for private callsign pronunciation in usa mode
+# example of default values for b737, 4, 160, 250, 2.6, 3.0, 1440, 1560, 131, 144, 1.2, 1.3
