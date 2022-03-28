@@ -17,7 +17,7 @@ speedrestriction = 13, 220, 10000, 250
 floor = 1500
 descendaltitude = 24000
 letters = 50
-above = 30000
+above = 28000
 name = so cal approach, so cal departure
 separation = 0
 beacons =
@@ -693,19 +693,21 @@ airlines =
 	nks, 2, a319/a19n/a320/a20n/a321/a21n, spirit wings, ne
 	jbu, 1, bcs3/a320/a321/a21n/e190, jet blue, ne
 	fft, 1, a318/a319/a320/a20n/a321/a21n, frontier flight, ne
-	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, Alaska, n
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, Alaska, n
 	mho, 1, c208, Mahaylo, w
 	fdy, 1, c208, friendly, e
 	baw, 1, a35k/a388/b744/b772/b77w/b788/b789/b78x, speedbird, n
 	afr, 1, a332/a343/a359/a388/b744/b772/b77w/b789, air frans, n
 	hal, 1, a21n/a332/b763, hawaiian, w
 	tsc, 1, a310/a321/a21l/a332/a333, air transat, n
+	rpa, 1, e170/e75s/e75l, brickyard, ne
 	ncr, 1, b744, national cargo, e
 	afl, 1, a332/a333/a359/b77w/il96, aeroflot, n
 	eva, 1, a332/a333/b77w/b77l/b744/md11/b789/b78x, eva, w
 	uae, 1, a343/a345/a388/b744/b772/b77l/b77w, emirates, n
 	qtr, 1, a332/a333/a346/a359/a35k/b748/b77l/b77w/b788/b789, qatari, n
 	ely, 1, b744/b772/b788/b789, el al, n
+	cfg, 1, a332/a339/b763, condor, n
 	aca, 1, bcs3/a319/a320/a321/b738/b38m/b763/b788/b789, air canada, n
 	qxe, 1, crj7/dh8b/dh8d/e75l, horizon, n
 	wow, 1, a333, wow air, n
@@ -730,9 +732,11 @@ airlines =
 	eal, 1, b762/b763/b772/b77w, eastern, e
 	skw, 1, crj2/crj7/crj9/e75s/e75l, sky west, nse
 	amx, 1, b737/b738/b38m/b39m, aeromexico, e
-	sli, 1, e145/e190, costera, e
+	sli, 1, e145/e170/e75s/e190, costera, e
 	awi, 1, crj2, wisconsin, e
 	gjs, 1, crj7, lindbergh, e
+	fbu, 1, a333/a359/a35k, french bee, n
+	mxy, 1, bcs3/e190/e195, moxy, e
 	eny, 1, e75s/e75l, envoy, ne
 	klm, 1, a332/a333/b744/b772/b77w/b789/b78x, klm, n
 	fji, 1, a332/a333/a359/b744/b763, Fiji, w
@@ -741,9 +745,10 @@ airlines =
 	csn, 1, a332/a333/a359/a388/b744/b77l/b77w/b788/b789, china southern, w
 	ces, 1, a332/a333/a343/a346/a359/b77w/b789, china eastern, w
 	cao, 1, b742/b744/b77l, air china freight, n
-	cks, 1, b742/b744/b77l, connie, ne
+	cks, 1, b742/b744/b763/b77l, connie, ne
 	bos, 1, a332, mistral, n
 	tht, 1, a343/b789, tahiti airlines, w
+	gia, 1, a332/a333, indonesia, w
 	aah, 1, b733/b763, aloha, w
 	aay, 1, a319/a320/b37m/b38m/b752/md81/md82/md83/md87/md88, allegiant, nse
 	ein, 1, a332/a333, shamrock, n
@@ -763,13 +768,13 @@ airlines =
 	cxa, 1, b788/b789, xiamen air, w
 	ibe, 1, a332/a333/a343/a346/a359, iberia, n
 	chh, 1, a332/a333/a346/a359/b788/b789, Hainan, w
-	ity, 1, a332/a339, it arrow, n
+	ity, 1, a332/a339/a359, it arrow, n
 	viv, 1, a320/a20n/a21n, aeroenlaces, e
 	voi, 1, a319/a320/a20n/a321/a21n, volaris, e
 	voc, 1, a319, Costa rican, e
 	scx, 1, b737/b738, sun country, ne
 	aar, 1, a333/a359/a388/b744/b763/b772, asiana, w
-	cmp, 1, b738/b38m/b39m/b3xm, copa, e
+	cmp, 1, b737/b738/b38m/b39m/b3xm, copa, e
 	thy, 1, a332/a333/a343/a359/b77w/b789, turkish, n
 	btq, 1, pc12, boutique, e
 	cpa, 1, a333/a343/a359/a35k/b744/b748/b772/b77w, Cathay, n
@@ -777,6 +782,7 @@ airlines =
 	aij, 1, a320/a20n/su95, abc aerolineas, e
 	sva, 1, a333/a343/b741/b742/b743/b744/b772/b77w/b789/b78x/md11, saudia, n
 	nrs, 1, b788/b789, red nose, n
+	amf, 1, b190/e120/sw4, amflight, e
 	bav, 1, b789, bamboo, w
 	sia, 1, a333/a345/a359/a388/b772/b77w/b78x, singapore, w
 	sas, 1, a333/a343/a359, Scandinavian, n
@@ -786,12 +792,13 @@ airlines =
 	ava, 1, a318/a319/a320/a20n/a321/a21n, avianca, e
 	tai, 1, a319/a320/a20n/a321, taca, e
 	lrc, 1, a319/a320/a321, lacsa, e
+	vos, 1, a20n, jetsal, e
 	fin, 1, a333/a359, finnair, n
 	pal, 1, a333/a343/a359/b744/b77w, Philippine, w
 	csc, 1, a332/a333/a359, Sis shuan, w
 	clx, 1, b744/b748, cargolux, n
 	ujc, 1, j328, ultimate, e
-	wsn, 1, j328, wingspan, e
+	wsn, 1, b350/j328, wingspan, e
 	sqc, 1, b744, sing cargo, w
 	cwc, 1, b744/md11, challenge cargo, e
 	maa, 1, a332/a333/b762/b763, mas carga, e
@@ -1165,7 +1172,7 @@ airlines =
 	swa, 3, b733/b735/b737/b37m/b738/b38m, southwest, ne
 	vxp, 2, b733/b734/b737/b738, avelo, e
 	wsn, 1, cl30/lj45/pc12, wingspan, e
-	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, Alaska, n
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, Alaska, n
 	qxe, 1, crj7/dh8b/dh8d/e75l, horizon, n
 	aal, 1, a319/a320/a321/a21n/b738/b38m/e190/md81/md82/md83, american, ne
 	eny, 1, e140/e145/e170/e75s/e75l, envoy, e
@@ -1315,7 +1322,7 @@ airlines =
 	swa, 5, b733/b735/b737/b37m/b738/b38m, southwest, ne
 	aal, 3, a319/a320/a321/a21n/b738/b38m/b752/e190/md81/md82/md83, american, e
 	aca, 1, bcs3/a319/a320/a321/b738/b38m/e190, air canada, n
-	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, n
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, alaska, n
 	qxe, 1, crj7/dh8b/dh8d/e75l, horizon, n
 	aay, 1, a319/a320/b37m/b38m/b752/md81/md82/md83/md87/md88, allegiant, ne
 	dal, 1, bcs1/bcs3/a319/a320/a321/a21n/b712/b737/b738/b739/b752/b753/md88/md90, delta, ne
@@ -1445,7 +1452,7 @@ airlines =
 	cfs, 2, at43/at72/c208, empire, e
 	pcm, 2, c208, pac valley, w
 	atn, 2, b752/b762/b763/dc87, air transport, e
-	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, n
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, alaska, n
 	aal, 1, a319/a320/a321/a21n/b738/b38m/b752/e190/md81/md82/md83, american, e
 	eny, 1, e140/e145/e170/e75s/e75l, envoy, e
 	jia, 1, crj7/crj9, blue streak, e
@@ -1591,8 +1598,8 @@ route36 =
 name = Van Nuys
 code = VN
 runways =
-	rwy14, 16R, N34.225, W118.491, 176.0, 8001, 0, 0, 802, 3.5, 176.0, 0, 0, 0, 0, 0, 0, 119.3
-	rwy15, 16L, N34.226, W118.490, 176.0, 4013, 0, 0, 802
+	rwy14, 16R, -7.72, 15.64, 176.0, 8001, 0, 0, 802, 3.5, 176.0, 0, 0, 0, 0, 0, 0, 119.3
+	rwy15, 16L, -7.64, 15.66, 176.0, 4013, 0, 0, 802
 flow = 30
 inboundbeacon = VNY
 airlines = 
@@ -1777,7 +1784,7 @@ flow = 40
 inboundbeacon = AN
 airlines = 
 	swa, 9, b733/b735/b737/b37m/b738/b38m, southwest, nwe
-	asa, 5, a319/a320/a21n/b734/b737/b738/b739/b39m, alaska, nwe
+	asa, 5, a319/a320/a21n/b734/b737/b738/b38m/b739/b39m/b3xm, alaska, nwe
 	qxe, 4, crj7/dh8b/dh8d/e75l, horizon, ne
 	aay, 2, a319/a320/b37m/b38m/b752/md81/md82/md83/md87/md88, allegiant, ne
 	jza, 1, dh8a/dh8c/dh8d/crj2/crj9/e75s/e75l, jazz, n
@@ -1829,7 +1836,7 @@ airlines =
 	nos, 1, b763/b789, moon flower, n
 	tcx, 1, a332/b763, kestral, n
 	adb, 1, a124/a225, antonov bureau, n
-	dcm, 1, fa7x/fa8x/gl5t/gl7t/glex/glf6, dot com, e
+	dcm, 1, fa7x/fa8x/gl5t/glf4, dot com, e
 	ewg, 1, a332/a333/a343, eurowings, n
 	xoj, 1, c750/cl30, exo jet, ne
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, ne
@@ -2064,7 +2071,7 @@ traffic = 12
 inboundbeacon = PSP
 airlines =
 	swa, 4, b733/b735/b737/b37m/b738/b38m, southwest, new
-	asa, 3, a319/a320/a21n/b737/b738/b739/b39m, alaska, ne
+	asa, 3, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, alaska, ne
 	qxe, 2, crj7/dh8b/dh8d/e75l, horizon, ne
 	aca, 1, bcs3/a319/a320/a321/b738/b38m, air canada, n
 	rou, 1, a319/a320/a321, rouge, n
@@ -2517,7 +2524,7 @@ runways =
 	rwy33, 15R, N34.4303, W119.841, 165.7, 4184, 0, 0, 8
 traffic = 35
 airlines =
-	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, ns
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, alaska, ns
 	aal, 1, a319/a320/a321/a21n/b738/b38m/b752/e190/md81/md82/md83, american, e
 	eny, 1, e140/e145/e170/e75s/e75l, envoy, e
 	jia, 1, crj7/crj9, blue streak, e
@@ -3046,7 +3053,7 @@ airlines =
 	aij, 1, a320/a20n/a321/a21n/su95, abc aerolineas, e
 	anz, 1, b744/b772/b77w, new zealand, w
 	kal, 1, b38m, korean air, w
-	asa, 1, b39m, alaska, n
+	asa, 1, b38m/b39m/b3xm, alaska, n
 	arg, 1, a342/a343/b744, argentina, e
 	aay, 1, b752/md81/md82/md83/md87/md88, allegiant, e
 	aea, 1, b38m/b789, europa, e
@@ -3376,7 +3383,6 @@ airlines =
 	ana, 1, b735/b737/b763/b744/b74d/b772/b773, all nippon, w
 	jal, 1, b744/b74d/b772/b773, japan air, w
 	woa, 1, b744/md11, world, e
-	edw, 1, a332/a333, edelweiss, e
 	sia, 1, b744/b772/b773, singapore
 	cal, 1, a343/b744, dynasty, w
 	mph, 1, b744/md11, martinair, ne
@@ -3405,7 +3411,7 @@ runways =
 	rwy62, 11, N35.241, W120.647, 124.0, 6101, 0, 0, 162, 3, 124.0, 0, 0, 0, 0, 0, 0, 124.0
 traffic = 55
 airlines =
-	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, n
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, alaska, n
 	qxe, 1, crj7/dh8b/dh8d/e75l, horizon, n
 	eny, 1, e140/e145/e170/e75s/e75l, envoy, e
 	pdt, 1, dh8a/dh8c/e145, piedmont, e
@@ -3422,7 +3428,7 @@ airlines =
 	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, e
 	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, e
 	pbr, 1, c56x/c750/g150/galx/hdjt, polar bear, n
-	dcm, 1, gl7t/ga7c/ga8c/glf4/glf5/glf6, dot com, e
+	dcm, 1, fa7x/fa8x/gl5t/gl7t/glf4/glf5/glf6, dot com, e
 	xoj, 1, c750/cl30, exo jet, ne
 
 entrypoints =
@@ -3512,7 +3518,7 @@ airlines =
 	n-673ik, 1, s22t/sf50/sr22, n
 	n-164ty, 1, p32r/p32t, e
 # specials
-	gaj, 1, b350, gama jet, es
+	gaj, 1, b350, gama jet, e
 	dcm, 1, pay3/pay4, dot com, e
 
 entrypoints =
@@ -3733,8 +3739,8 @@ airlines =
 	xoj, 1, c750/cl30, exo jet, ne
 
 entrypoints =
-	360, VBG
-	330, VBG
+	360, VBG, 15000
+	330, VBG, 15000
 	
 sids = 
 	GWF
@@ -3921,18 +3927,18 @@ config1 =
 	0, rwy42, landstart
 	0, rwy44, landstart
 	0, rwy46, landstart
-	0, rwy49, landstart
+	0, rwy49, land
 	0, rwy51, landstart
 	0, rwy53, landstart
 	0, rwy54, landstart
 	0, rwy55, landstartrev
 	0, rwy57, landstart
-	0, rwy58, landstart
+	0, rwy58, land
 	0, rwy62, landstart
 	0, rwy64, landstart
 	0, rwy65, landstart
 	0, rwy66, landstart
-	0, rwy67, landstart
+	0, rwy67, landstarttrack
 	0, rwy68, landstart
 	0, rwy70, landstart
 	0, rwy71, landstart
