@@ -15,6 +15,7 @@
 elevation = 13
 radius = 60
 usa = true
+name = new york approach, new york departure
 transition = 18001
 center = N40.63980103, W73.77890015
 speedrestriction = 0, 220, 10000, 250
