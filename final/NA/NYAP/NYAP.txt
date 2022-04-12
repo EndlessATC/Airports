@@ -1,41 +1,40 @@
 #This is the full "New York Approach", combining the EWR, LGA, and JFK sectors into one huge, busy mess.
 #This sector has VERY high traffic rates if you play in flow mode - JFK and EWR will both have around 20 planes an hour
-#LGA around 17, and so on, decreasing throughout the remaining secondaries. I've added in arrival routes which will descend and vector planes 
-#based off of the flow routes listed on the VATSIM SOPs. They technically aren't published procedures, but I just imagine that those planes
+#LGA around 17, and so on, decreasing throughout the remaining secondaries. At first, only the big three (JFK, EWR, and LGA) will be open, with TEB and HPN opening at a skill of 30. The remaining airports open at a skill of 40. #I've added in arrival routes which will descend and vector planes based off of the flow routes listed on the VATSIM SOPs. They technically aren't published procedures, but I just imagine that those planes
 #are being handled by other controllers, while you only step in to resolve conflicts (which there will be a lot of). Your main jobs will be as follows:
 #1. Give planes final radar vectors to the ILS/RNAV fix - the arrival routes will end before the glide, so you've got to get them onto it
 #2. Manage departures - NYAP has basically no published SIDs for whatever reason, so everything will need to be radar vectored to their exits.
 #3. Manage arrivals into secondaries - none of the secondary airports have arrival routes, they still require radar vectors all the way. TEB in particular will be a thorn on your side.
 #This map also has a few special approaches. KEWR, KLGA, and KJFK each have some configurations where they use RNAV approaches (Landing 29 EWR, 31 LGA, and 13L JFK) rather than vectoring flights into the ILS, as they would conflict with other airports. In those cases, all you need to do is send the flight direct to the respective fix (TETER/GRITY for 29 EWR, GACAR for 31 LGA, and ASALT for 13L JFK) and hit APP. The plane will do the rest.
 #If you think you can handle all of these enjoy! If not, then I recommend starting on skill mode, to let things slowly build up.
-#NOTE - I've noticed some strange glitches causing planes to freeze when the sweep speed is too high. I recommend setting it to 0.5s for best results.
+#NOTE - I've noticed some strange glitches causing planes to freeze when the sweep speed is too high. I recommend setting it to 0.5s for best results. LGA arrivals following its southern approaches also don't always descend to 4000 at the right point, so keep an eye on that as well.
 #Have Fun!! :) ~CessnaSkyhawk
 
 [airspace]
 elevation = 13
-radius = 60
-usa = true
-name = new york approach, new york departure
-transition = 18001
-center = N40.63980103, W73.77890015
-speedrestriction = 0, 220, 10000, 250
-magneticvar = -14.089
-floor = 1100 			; minimum selectable altitude
+floor = 1100
 descendaltitude = 14000 	; minimum initial altitude for arrivals
 ceiling = 19000 		; maximum selectable altitude
 above = 21000 			; maximum departure altitude when SID is enabled (must be above ceiling)
+transition = 18001
+speedrestriction = 0, 220, 10000, 250
+usa = true
+letters = 100000000
 automatic = true
+name = new york approach, new york departure
+center = N40.63980103, W73.77890015
+magneticvar = -14.089
 beacons =
 #JFK Beacons
-    JFK, N40.37.58.40, W073.46.17.00, kennedy
-	COL, N40.3116294, W74.1597286, colts neck
-    CAMRN, N40.01.02.29, W073.51.39.81, cameron
+    JFK, N40.37.58.40, W073.46.17.00, 0, Kennedy
+	COL, N40.3116294, W74.1597286, 0, Colts Neck
+    CAMRN, N40.01.02.29, W073.51.39.81, 0, Cameron
 	CRI, N40.61247222, W73.89444444, 0, Canarsie
-    DPK, N40.47.30.30, W073.18.13.17, deer park
-    LENDY, N40.54.53.41, W074.08.06.93, lendy
-    LGA, N40.47.01.38, W073.52.06.96, la guardia
-    ROBER, N40.41.07.67, W073.01.57.40, rober
-    BRAND, N40.02.06.28, W074.44.09.50, brandz
+    DPK, N40.47.30.30, W073.18.13.17, 0, Deer Park
+    LENDY, N40.54.53.41, W074.08.06.93, 0, Lendy
+    LGA, N40.47.01.38, W073.52.06.96, 0, Luh Guardia
+    ROBER, N40.41.07.67, W073.01.57.40, 0, Rober
+    BRAND, N40.02.06.28, W074.44.09.50, 0, Brand
 #EWR Beacons
 	TEB, N40.84870, W74.06220, 0, Teterboro
 	JFK, N40.63290, W73.77140, 0, Kennedy
@@ -56,7 +55,7 @@ beacons =
 	KORRY, N40.093842, W74.651544, 0, Cory
 	BEUTY, N40.569197, W75.011478, 0, Beauty
 	VALRE, N41.435328, W73.881736, 0, Valerie
-	CMK, N41.28008889, W73.58132778, 0, Carmel
+	CMK, N41.28008889, W73.58132778, 0, Car A Mel
 #SID Beacons
 	
 handoff = 
@@ -1174,16 +1173,13 @@ sids =
 	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
 	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
 	WHITE, N40.00.24.320, W74.15.04.61, White
-	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
-	LANNA, N40.33.35.070, W75.01.39.810, Lana
-	PARKE, N40.40.59.460, W75.04.35.320, Park
-	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
-	NEWEL, N40.55.19.000, W75.10.15.000, New el
 	COATE, N41.07.59.025, W74.41.27.998, Coat
 	NEION, N41.13.30.755, W74.34.33.442, Neon
 	HAAYS, N41.19.01.596, W74.27.43.902, Hays
 	GAYEL, N41.24.13.828, W74.21.09.686, Gail
 	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	BETTE, N40.559333, W73.011667, Betty
+	HAPIE, N40.3865, W72.982833, Happy
 
 entrypoints =
     180, CAMRN, 11000
@@ -1198,6 +1194,7 @@ airlines =
 	afl, 1, b773/a332/a333, aeroflot, e
 	cca, 1, b773/b748, air china, n
 	afr, 1, a388/b773/b789/a332, airfrans, e
+	afr, 0.5, conc, airfrans concorde, e
 	aza, 1, a332/b773, alitalia, e
 	aua, 1, b763, austrian, e
 	ahy, 1, b788, azal, e
@@ -1245,12 +1242,12 @@ airlines =
 	uzb, 1, b788, uzbek, e
 	vir, 1, a351/b744/b789, virgin, e
 	vol, 1, a320, volaris, s
-	voc, 1, a319, costa rican, s
+	voc, 1, a319, coasta rican, s
 	wja, 1, b738, westjet, n 
 	cxa, 1, b789, xiamen air, n
 #Terminal 5
 	jbu, 30, e190/a319/a320/a321/a21n/bcs3, jetblue
-	kap, 1, c402/p212, cape air, e
+	kap, 1, c402, cape air, e
 	ein, 1, a333/b752, shamrock, e 
 	hal, 1, a333, hawaiian, w
 	tap, 1, a339, air portugal, e
@@ -1301,8 +1298,7 @@ airlines =
 	wsw, 1, b738/b38m, swoop, n
 	n-324ch, 1, b737
 	fth, 1, c750, foothills
-	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6
-	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/pc12/pc24/b350
 	
 [airport2]
 name = Republic Airport, republic
@@ -1318,23 +1314,24 @@ entrypoints =
 sids =
     DEEZZ, N41.11145, W73.777833, deez
 	RBV
-	ARD, N40.25330, W74.90760, 0, Yardley
+	ARD, N40.25330, W74.90760, Yardley
 	BDR, N41.09.38.54, W073.07.28.15, bridgeport
 
-traffic = 16
+flow = 1.25
+
+climbaltitude = 2000
 
 airlines =
 	lxj, 1, e55p/glf4/cl35, flexjet
 	eja, 2, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
 	fth, 1, c750, foothills
 	cns, 2, pc12/pc24, chronos
-	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6
-	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex
-	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/pc12/pc24/b350
 	gaj, 2, b350/c56x, gama jet
 	ejm, 1, glf5/cl60, jet speed
 	cwg, 1, e35l/glf4, clear wing
-	n-781pt, 6, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-781pt, 4.5, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 1.5, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
 
 #NYC Buildings 
 [area99]
@@ -1671,7 +1668,7 @@ route1 =
 	N40.349, W73.954, 4000
 	N40.239, W73.661
 	N40.700, W73.377, 4000
-	N40.700, W73.377, 2000
+	N40.700, W73.377, 3000
 	end, 310
 route2 =
 	206, IGN1, kingston one
@@ -1681,7 +1678,7 @@ route2 =
 	N40.349, W73.954, 4000
 	N40.239, W73.661
 	N40.700, W73.377, 4000
-	N40.700, W73.377, 2000
+	N40.700, W73.377, 3000
 	end, 310
 	
 [approach10]
@@ -1732,9 +1729,9 @@ runway = 04L_JK, rev
 beacon = ROBER
 route1 =
 	170, ROBER2, rober two
-	N40.41.07.67, W073.01.57.40, 12000, 250
-	N40.41.13.08, W073.20.36.28, 4000
-	N40.839, W73.432, 4000
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	N40.41.13.08, W073.20.36.28, 5000
+	N40.839, W73.432, 5000
 	N40.839, W73.432, 3000
 	end, 280
 
@@ -1743,7 +1740,7 @@ runway = 04R_JK, rev
 beacon = ROBER
 route1 =
 	170, ROBER2, rober two
-	N40.41.07.67, W073.01.57.40, 12000, 250
+	N40.41.07.67, W073.01.57.40, 9000, 250
 	N40.41.07.67, W073.01.57.40, 5000
 	N40.700, W73.377, 5000
 	N40.700, W73.377, 3000
@@ -1807,7 +1804,7 @@ runways =
 	
 climbaltitude = 3000
 
-traffic = 2
+flow = 10
 
 sids = 
 	GREKI, N41.480008, W73.314161, Greki
@@ -1834,12 +1831,13 @@ entrypoints =
 	231, RBV, 7000
 
 airlines =
-	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
-	gjs, 8, crj7, lindbergh
-	rpa, 8, e75l/e170, brickyard
+	ual, 15, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	gjs, 11, crj7, lindbergh
+	rpa, 11, e75l/e170, brickyard
 	ups, 3, md11/b763, u p s
 	fdx, 2, a306/md11/b77l/b763/b752, fed ex
-	fdx, 1, c208, fed ex
+	mtn, 1, c208, mountain
+	wig, 1, c208, mainer
 	jbu, 4, a320/a321/a21n/e190, jet blue
 	fft, 3, a20n/a321, frontier flight
 	aal, 2, a320/b738/b38m, american
@@ -1871,27 +1869,25 @@ airlines =
 	mlt, 1, a332, maleth, w
 	n-324ch, 1, b737
 	fth, 1, c750, foothills
-	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6
-	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/b350/pc12/pc24
 	
 [airport4]
-name = Teterboro
+name = Teterboro Airport, teterboro
 code = TB
 runways =
 	19_TB, 19, N40.855764, W74.059111, 183, 7000, 0, 0, 6, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
 	24_TB, 24, N40.857739, W74.054097, 228, 6013, 0, 0, 7, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
 	
-traffic = 4.8
+flow = 4.17
 
-climbaltitude = 1000
+climbaltitude = 1100
 
 airlines =
 	lxj, 1, e55p/glf4/cl35, flexjet
 	eja, 2, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
 	fth, 1, c750, foothills
 	cns, 2, pc12/pc24, chronos
-	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6
-	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/b350/pc12/pc24
 	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
 	gaj, 2, b350/c56x, gama jet
 	ejm, 1, glf5/cl60, jet speed
@@ -1911,22 +1907,21 @@ entrypoints =
 	297, MUGZY, 6000
 
 [airport5]
-name = Caldwell
+name = Essex County Airport, caldwell
 code = CW
 runways =
-	22_CW, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwelltower
+	22_CW, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
 	28_CW, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
 
-traffic = 19
+flow = 0.524
 
 climbaltitude = 2000
 
 airlines =
-	cns, 0.1, pc12/pc24, chronos
-	gaj, 0.1, b350/c56x, gama jet
-	n-744hj, 0.1, g280/glf1/glf2/glf3/glf4/glf5/glf6
-	n-845yy, 0.1, fa5x/fa7x/fa8x/gl5t/gl7t/glex
-	n-781pt, 3.6, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-744hj, 0.4, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/b350/pc12/pc24
+	n-781pt, 2.7, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+	n-12345, 0.9, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+
 
 sids = 
 	SBJ
@@ -1939,23 +1934,21 @@ entrypoints =
 	297, MUGZY, 5000
 
 [airport6]
-name = Morristown
+name = Morristown Municipal Airport, morristown
 code = MU
 runways =
 	23_MU, 23, N40.80641, W74.40647, 216, 5998, 0, 0, 183, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
 	31_MU, 31, N40.79649, W74.41134, 294, 3997, 0, 0, 181, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
 	
-traffic = 16
+flow = 0.625
 
 climbaltitude = 2000
 
 airlines =
 	lxj, 1, e55p/glf4/cl35, flexjet
 	eja, 2, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
-	fth, 1, c750, foothills
 	cns, 2, pc12/pc24, chronos
-	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6
-	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/b350/pc12/pc24
 	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
 	gaj, 2, b350/c56x, gama jet
 	ejm, 1, glf5/cl60, jet speed
@@ -2090,7 +2083,7 @@ points =
 	N41.37805, W74.54018	
 [area22]
 shape = polygon		; circle or polygon
-altitude = 6000		; minimum allowed altitude in feet
+altitude = 5000		; minimum allowed altitude in feet
 name = AVP
 labelpos =  N41.217, W74.875
 draw = 3
@@ -2116,7 +2109,7 @@ points =
 
 [area24]
 shape = polygon		; circle or polygon
-altitude = 6000		; minimum allowed altitude in feet
+altitude = 5000		; minimum allowed altitude in feet
 name = ABE
 labelpos =  N40.537, W75.071
 draw = 5
@@ -2350,8 +2343,8 @@ beacon = RBV
 route =
 	100, BRAND1, brand one
 	N40.20240, W74.49500, 7000
-	N40.434, W74.519, 7000
-	N40.434, W74.519, 6000	
+	N40.484, W74.516, 7000
+	N40.484, W74.516, 6000	
 	N40.830386, W74.560189
 	N40.891, W74.438, 6000
 	N40.891, W74.438, 5000
@@ -2366,8 +2359,8 @@ beacon = RBV
 route =
 	100, BRAND1, brand one
 	N40.20240, W74.49500, 7000
-	N40.434, W74.519, 7000
-	N40.434, W74.519, 6000	
+	N40.484, W74.516, 7000
+	N40.484, W74.516, 6000
 	N40.830386, W74.560189
 	N40.891, W74.438, 6000
 	N40.891, W74.438, 5000
@@ -2485,8 +2478,8 @@ beacon = RBV
 route =
 	100, BRAND1, brand one
 	N40.20240, W74.49500, 7000
-	N40.267, W74.457, 7000
-	N40.267, W74.457, 3000
+	N40.286, W74.445, 7000
+	N40.286, W74.445, 3000
 	end, 040
 
 [transition38]
@@ -2495,8 +2488,8 @@ beacon = RBV
 route =
 	100, BRAND1, brand one
 	N40.20240, W74.49500, 7000
-	N40.267, W74.457, 7000
-	N40.267, W74.457, 3000
+	N40.286, W74.445, 7000
+	N40.286, W74.445, 3000
 	end, 040
 
 [transition39]
@@ -2673,7 +2666,7 @@ runways =
 
 climbaltitude = 5000
 
-traffic = 2.4
+flow = 10
 
 sids = 
 	GREKI, N41.480008, W73.314161, Greki
@@ -2708,17 +2701,10 @@ airlines =
 	nks, 2, a320/a20n/a321, spirit wings
 	ual, 2, a319/a320/b737/b38m, united
 	fft, 2, a20n, frontier flight
-	jza, 1, e75s, jazz
-	aca, 1, bcs3/a320, air canada
-
-#[area7]
-#shape = circle		; circle or polygon
-#altitude = 2500		; minimum allowed altitude in feet
-#name = LG
-#radius = 6		; radius of circle in NM
-#position = N40.7772500, W73.8726111	; position of circle center
-#labelpos = N40.707, W73.800	; <position of label>
-#draw = -.56, 4.19
+	jza, 1, e75s, jazz, n
+	aca, 1, bcs3/a320, air canada, n
+	ash, 1, e175, air shuttle
+	n-744hj, 1, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/pc12/pc24/b350
 
 [airport8]
 name = Westchester County Airport, westchester
@@ -2729,16 +2715,14 @@ runways =
 
 climbaltitude = 3000
 
-traffic = 6
+flow = 3.33
 
 airlines =
 	lxj, 1, e55p/glf4/cl35, flexjet
 	eja, 2, c680/glf4/glex/c68a/c700/cl30/cl60/e55p, execjet
 	fth, 1, c750, foothills
 	cns, 2, pc12/pc24, chronos
-	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6
-	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex
-	n-781pt, 1, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/pc12/pc24/b350
 	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
 	gaj, 2, b350, gama jet
 	jit, 1, hdjt, jet it
@@ -2753,7 +2737,7 @@ airlines =
 entrypoints = 
 	055, ALIXX, 4000
 	012, VALRE, 6000
-	
+
 [airport9]
 name = Danbury Municipal Airport, danbury
 code = DB
@@ -2763,10 +2747,12 @@ runways =
 
 climbaltitude = 2000
 
-traffic = 20
+flow = 0.25
 
 airlines =
-	n-781pt, 3.6, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-781pt, 0.675, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+	n-12345, 0.225, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+	n-744hj, 0.1, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/pc12/pc24/b350
 	
 sids = 
 	DPK
@@ -2956,7 +2942,7 @@ route1 =
 	289, HAARP3, harp three
 	N41.435328, W73.881736, 9000
 	N41.343722, W73.798608, 8000
-	N41.116353, W73.593483
+	N41.116353, W73.593483, 4000
 	N41.077211, W73.626053
 	N40.913, W73.917
 	N40.661, W74.086
@@ -2971,7 +2957,7 @@ route1 =
 	289, HAARP3, harp three
 	N41.435328, W73.881736, 9000
 	N41.343722, W73.798608, 8000
-	N41.116353, W73.593483
+	N41.116353, W73.593483, 4000
 	N40.835, W73.654
 	N40.753, W74.005
 	N40.661, W74.086
@@ -3146,198 +3132,365 @@ route1 =
 	N41.343722, W73.798608
 	end
 
+#Additional Non-Active Airports
+#Optional Non-Active Airports
+[airport10]
+name = Linden
+code = LD
+runways =
+	27_LD, 27, N40.61848, W74.23928, 256, 4140, 541, 462, 22
+
+[airport11]
+name = Lincon Park
+code = LP
+runways =
+	19_LP, 19, N40.95115, W74.31489, 175, 2767, 95, 690, 181
+	
+[airport12]
+name = Greenwood Lake
+code = GL
+runways =
+	24_GL, 24, N41.13158, W74.34188, 228, 3471, 0, 0, 789
+	
+[airport13]
+name = Sussex
+code = SX
+runways =
+	21_SX, 21, N41.20287, W74.62204, 196, 3506, 756, 466, 421
+	
+[airport14]
+name = Aeroflex-Andover
+code = AN
+runways =
+	21_AN, 21, N41.01117, W74.73673, 201, 1981, 0, 0, 582
+
+[airport15]
+name = Somerset
+code = SM
+runways =
+	30_SM, 30, N40.62467, W74.66664, 289, 2739, 200, 0, 106
+
+[airport16]
+name = Princeton
+code = PT
+runways =
+	28_PT, 28, N40.39914, W74.654076, 269, 3499, 369, 0, 128
+	
+[airport17]
+name = Central Jersey Regional Airport
+code = CJ
+runways =
+	25_CJ, 25, N40.52672, W74.59386, 236, 3507, 262, 580, 85
+	
+[airport18]
+name = Solberg-Hunterdon Airport
+code = SB
+runways =
+	22_SB, 22, N40.58431, W74.73291, 209, 5598, 1300, 1301, 189
+	28_SB, 28, N40.58271, W74.73621, 261, 2010, 0, 0, 178 
+	31_SB, 31, N40.584, W74.73154, 299, 3444, 0, 0, 151.1
+	
+[airport19]
+name = Hackettstown
+code = HT
+runways =
+	23_HT, 23, N40.82417, W74.85194, 243, 2200, 0, 0, 670
+
+[airport20]
+name = Old Bridge
+code = OB
+runways =
+	24_OB, 24, N40.33264, W74.34329, 224, 3594, 400, 600, 87
+
+[airport21]
+name = Sky Manor
+code = SM
+runways =
+	25_SM, 25, N40.56820, W74.97510, 234, 2900, 0, 0, 560
+
+[airport22]
+name = Warwick
+code = WW
+runways =
+	21_WW, 21, N41.29005, W74.28525, 223, 2150, 0, 0, 540
+	
+[airport23]
+name = Hilltop
+code = HT
+runways =
+	27_HT, 27, N41.08382, W74.33438, 283, 2150, 0, 0, 921
+
+[airport24]
+name = Trenton-Robbinsville
+code = TR
+runways =
+	29_TR, 29, N40.21346, W74.59525, 276, 4275, 300, 398, 118
+
+[airport25]
+name = Trenton
+code = TN
+runways =
+	24_TN, 24, N40.28110, W74.80599, 226, 6006, 0, 0, 192
+	34_TN, 34, N40.27285, W74.80829, 326, 4800, 0, 0, 174
+		
+[airport26]
+name = Alexandria
+code = AL
+runways =
+	26_AL, 26, N40.58871, W75.01520, 244, 2550, 0, 0, 480
+	31_AL, 31, N40.58692, W75.01667, 298, 1804, 0, 0, 480
+
+[airport27]
+name = Long Island MacArthur Airport
+code = LI
+runways =
+	24_LI, 24, N40.80220, W73.09461, 225, 7006, 0, 0, 92.3
+	33L_LI, 33L, N40.79220, W73.09414, 315, 5186, 0, 0, 78.5
+	33R_LI, 33L, N40.79287, W73.09027, 315, 3175, 0, 0, 81.4
+
+[airport28]
+name = Brookhaven
+code = BH
+runways =
+	24_BH, 24, N40.80220, W73.09461, 225, 4201, 0, 0, 81.2
+	33_BH, 33, N40.82975, W72.86223, 315, 4222, 0, 0, 60.3
+
+[airport29]
+name = Trinca Airport
+code = TR
+runways =
+	24_TR, 24, N40.96973, W74.77784, 240, 1924, 0, 0, 600
+
+	
+#Primary Airports (JFK, EWR, and LGA) - always open
+#Secondary Airports (TEB and HPN) - 30
+#Tertiary Airports (MMU, FRG, CDW, and DXR) - 40
 [configurations]
-#Calm Winds Flow
+#Alpha Flow
 config1 =
-	0, 13L_JK, landstartrev, 090, nosid
-	0, 13R_JK, landstartrev, 170, nosid
-	0, 01_RP, landstartrev, 220, nosid
+	0, 04L_JK, landstartrev, 220, nosid
+	0, 04R_JK, landrev
 	0, 04L_NK, startrev, 190, nosid
 	0, 04R_NK, landrev
-	0, 19_TB, land
-	0, 24_TB, start, 283, nosid
-	0, 22_CW, landstart, 180, nosid
-	0, 23_MU, landstart, 160, nosid
 	0, dummy_NK, landrev
 	0, 04_LG, landrev
-	0, 13_LG, startrev, 314, nosid
-	0, dummy13_LG, landrev	
-	0, 16_WC, landstart, 320, nosid
-	0, 08_DB, landstart, 080, nosid
-#N Winds 1 Flow  
+	0, 13_LG, startrev, 314, nosid	
+	0, dummy13_LG, landrev
+	30, 19_TB, land
+	30, 24_TB, start, 283, nosid
+	30, 16_WC, landstart, 320, nosid
+	40, 01_RP, landstartrev, 220, nosid
+	40, 23_MU, landstart, 160, nosid
+	40, 22_CW, landstart, 180, nosid
+	40, 08_DB, landstart, 080, nosid	
+	
+#Bravo Flow 
 config2 =
-	0, 04L_JK, landstart, 100, nosid
-	0, 04R_JK, landstart, 100, nosid
-	0, 01_RP, landstart, 010, nosid
+	0, 13L_JK, landstartrev, 270, nosid
+	0, 13R_JK, landstartrev, 170, nosid
+	0, 04L_NK, startrev, 190, nosid
+	0, 04R_NK, landrev
+	0, dummy_NK, landrev
+	0, 04_LG, landrev
+	0, 13_LG, startrev, 314, nosid	
+	0, dummy13_LG, landrev			
+	30, 19_TB, land
+	30, 24_TB, start, 283, nosid
+	30, 16_WC, landstartrev, 295, nosid
+	40, 01_RP, landstartrev, 220, nosid
+	40, 23_MU, landstart, 160, nosid
+	40, 22_CW, landstart, 180, nosid
+	40, 08_DB, startrev, 260, nosid
+		
+#Charlie Flow
+config3 =
+	0, 13L_JK, landstartrev, 270, nosid
+	0, 13R_JK, landstartrev, 170, nosid
+	0, 04L_NK, startrev, 190, nosid
+	0, 11N_NK, landrev	
+	0, dummy_NK, landrev	
+	0, 04_LG, landrev
+	0, 13_LG, startrev, 314, nosid
+	0, dummy13_LG, landrev		
+	30, 24_TB, startland, 283, nosid
+	30, 16_WC, landstartrev, 295, nosid	
+	40, 14_RP, landstartrev, 010, nosid	
+	40, 23_MU, landstart, 160, nosid
+	40, 22_CW, landstart, 180, nosid
+	40, 08_DB, startrev, 260, nosid
+	
+#Delta Flow	
+config4 =
+	0, 13L_JK, landstartrev, 270, nosid
+	0, 13R_JK, landstartrev, 170, nosid
 	0, 04L_NK, start, 060, nosid
-	0, 04R_NK, land
-	0, 19_TB, startrev, 040, nosid
-	0, 24_TB, landrev
-	0, 22_CW, landstartrev, 360, nosid
-	0, 23_MU, landstartrev, 340, nosid
+	0, 11S_NK, landrev	
+	0, dummy_NK, land	
+	0, 04_LG, landrev
+	0, 13_LG, startrev, 314, nosid	
+	0, dummy13_LG, landrev
+	30, 19_TB, startrev, 040, nosid
+	30, 24_TB, landrev
+	30, 16_WC, landstartrev, 320, nosid
+	40, 14_RP, landstartrev, 010, nosid		
+	40, 22_CW, landstartrev, 360, nosid
+	40, 23_MU, landstartrev, 340, nosid
+	40, 08_DB, startrev, 260, nosid	
+
+#Echo Flow  
+config5 =
+	0, 13L_JK, landstartrev, 270, nosid
+	0, 13R_JK, landstartrev, 170, nosid
+	0, 04L_NK, start, 060, nosid
+	0, 11S_NK, landrev	
+	0, dummy_NK, land	
+	0, 04_LG, start, 040, nosid
+	0, 13_LG, landrev
+	30, 19_TB, startrev, 040, nosid
+	30, 24_TB, landrev
+	30, 16_WC, landstartrev, 320, nosid
+	40, 14_RP, landstartrev, 010, nosid		
+	40, 22_CW, landstartrev, 360, nosid
+	40, 23_MU, landstartrev, 340, nosid
+	40, 08_DB, startrev, 260, nosid	
+	
+#Foxtrot Flow  
+config6 =
+	0, 13L_JK, landstartrev, 270, nosid
+	0, 13R_JK, landstartrev, 170, nosid
+	0, 04L_NK, start, 060, nosid
+	0, 04R_NK, land	
 	0, dummy_NK, land
 	0, 04_LG, start, 040, nosid
 	0, 13_LG, landrev
-	0, 16_WC, landstartrev, 320, nosid
-	0, 08_DB, landstart, 080, nosid
-#N Winds 2 Flow  	
-config3 =
+	30, 19_TB, startrev, 040, nosid
+	30, 24_TB, landrev
+	30, 16_WC, landstartrev, 320, nosid
+	40, 14_RP, landstartrev, 010, nosid		
+	40, 22_CW, landstartrev, 360, nosid
+	40, 23_MU, landstartrev, 340, nosid
+	40, 08_DB, startrev, 260, nosid	
+
+#Golf Flow  
+config7 =
 	0, 04L_JK, landstart, 100, nosid
 	0, 04R_JK, landstart, 100, nosid
-	0, 01_RP, landstart, 010, nosid
 	0, 04L_NK, start, 060, nosid
-	0, 04R_NK, land
-	0, 19_TB, startrev, 040, nosid
-	0, 24_TB, landrev
-	0, 22_CW, landstartrev, 360, nosid
-	0, 23_MU, landstartrev, 340, nosid
-	0, dummy_NK, land
-	0, 04_LG, land
-	0, 13_LG, startrev, 314, nosid
-	0, 16_WC, landstartrev, 320, nosid
-	0, 08_DB, landstart, 080, nosid	
-	0, dummy04_LG, landrev
-#NE Winds Flow
-config4 =
-	0, 04L_JK, landstart, 100, nosid
-	0, 04R_JK, landstart, 100, nosid
-	0, 01_RP, landstart, 010, nosid	
-	0, 04L_NK, start, 060, nosid
-	0, 04R_NK, land
-	0, 24_TB, landstartrev, 040, nosid
-	0, 22_CW, landstartrev, 360, nosid
-	0, 23_MU, landstartrev, 340, nosid
-	0, dummy_NK, land
-	0, 04_LG, landstart, 040, nosid
-	0, 16_WC, landstartrev, 295, nosid
-	0, 08_DB, landstart, 080, nosid	
-	0, dummy04_LG, land
-#E Winds 1 Flow	
-config5 =
-	0, 04L_JK, landstart, 100, nosid
-	0, 04R_JK, landstart, 100, nosid
-	0, 14_RP, landstart, 220, nosid
-	0, 04L_NK, start, 060, nosid
-	0, 04R_NK, land
-	0, 24_TB, landstartrev, 040, nosid
-	0, 22_CW, landstartrev, 360, nosid
-	0, 23_MU, landstartrev, 340, nosid
-	0, dummy_NK, land
-	0, 04_LG, land
-	0, 13_LG, start, 130, nosid
-	0, 16_WC, landstart, 320, nosid
-	0, 08_DB, landstart, 080, nosid	
-	0, dummy04_LG, land
-#E Winds 2 Flow	
-config6 =
-	0, 04L_JK, landstart, 100, nosid
-	0, 04R_JK, landstart, 100, nosid
-	0, 14_RP, landstart, 220, nosid
-	0, 04L_NK, start, 060, nosid
-	0, 04R_NK, land
-	0, 24_TB, landstartrev, 040, nosid
-	0, 22_CW, landstartrev, 360, nosid
-	0, 23_MU, landstartrev, 340, nosid
+	0, 04R_NK, land	
 	0, dummy_NK, land
 	0, 04_LG, start, 040, nosid
-	0, 13_LG, land
-	0, 16_WC, landstart, 320, nosid
-	0, 08_DB, landstart, 080, nosid	
-#SE Winds Flow
-config7 =
+	0, 13_LG, landrev
+	30, 19_TB, startrev, 040, nosid
+	30, 24_TB, landrev
+	30, 16_WC, landstartrev, 320, nosid
+	40, 01_RP, landstart, 010, nosid	
+	40, 22_CW, landstartrev, 360, nosid
+	40, 23_MU, landstartrev, 340, nosid
+	40, 08_DB, landstart, 080, nosid	
+	
+#Hotel Flow  
+config8 =
+	0, 04L_JK, landstart, 100, nosid
+	0, 04R_JK, landstart, 100, nosid
+	0, 04L_NK, start, 060, nosid
+	0, 04R_NK, land	
+	0, dummy_NK, land
+	0, 04_LG, land
+	0, 13_LG, start, 130, nosid		
+	0, dummy04_LG, land
+	30, 19_TB, startrev, 040, nosid
+	30, 24_TB, landrev
+	30, 16_WC, landstart, 320, nosid
+	40, 01_RP, landstart, 010, nosid	
+	40, 22_CW, landstartrev, 360, nosid
+	40, 23_MU, landstartrev, 340, nosid
+	40, 08_DB, landstart, 080, nosid	
+	
+#India Flow  
+config9 =
 	0, 04R_JK, landrev
 	0, 13L_JK, startland, 140, nosid
-	0, 13R_JK, start, 140, nosid		
-	0, 14_RP, landstart, 220, nosid
-	0, 04L_NK, startrev, 190, nosid
-	0, 04R_NK, landrev
-	0, 19_TB, land
-	0, 24_TB, start, 283, nosid
-	0, 22_CW, landstart, 180, nosid
-	0, 23_MU, landstart, 160, nosid
-	0, dummy_NK, landrev
-	0, 13_LG, startland, 130, nosid	
-	0, 16_WC, landstart, 320, nosid
-	0, 08_DB, landstart, 080, nosid	
-#S Winds Flow
-config8 =
-	0, 04L_JK, landstartrev, 220, nosid
+	0, 13R_JK, start, 140, nosid
+	0, 04L_NK, start, 060, nosid
+	0, 04R_NK, land	
+	0, dummy_NK, land
+	0, 04_LG, land
+	0, 13_LG, start, 130, nosid		
+	0, dummy04_LG, land	
+	30, 19_TB, startrev, 040, nosid
+	30, 24_TB, landrev
+	30, 16_WC, landstart, 320, nosid
+	40, 14_RP, landstart, 220, nosid	
+	40, 22_CW, landstartrev, 360, nosid
+	40, 23_MU, landstartrev, 340, nosid
+	40, 08_DB, landstart, 080, nosid	
+	
+#Juliet Flow  
+config10 =
 	0, 04R_JK, landrev
-	0, 01_RP, landstartrev, 220, nosid
+	0, 13L_JK, startland, 140, nosid
+	0, 13R_JK, start, 140, nosid
 	0, 04L_NK, startrev, 190, nosid
 	0, 04R_NK, landrev
-	0, 19_TB, land
-	0, 24_TB, start, 283, nosid
-	0, 22_CW, landstart, 180, nosid
-	0, 23_MU, landstart, 160, nosid
+	0, dummy_NK, landrev
+	0, 13_LG, startland, 130, nosid
+	30, 19_TB, land
+	30, 24_TB, start, 283, nosid
+	30, 16_WC, landstart, 320, nosid
+	40, 14_RP, landstart, 220, nosid	
+	40, 23_MU, landstart, 160, nosid
+	40, 22_CW, landstart, 180, nosid
+	40, 08_DB, landstart, 080, nosid
+	
+#Kilo Flow  
+config11 =
+	0, 04R_JK, landrev
+	0, 13L_JK, startland, 140, nosid
+	0, 13R_JK, start, 140, nosid
+	0, 04L_NK, startrev, 190, nosid
+	0, 04R_NK, landrev
 	0, dummy_NK, landrev
 	0, 04_LG, landrev
 	0, 13_LG, start, 130, nosid	
 	0, dummy13_LG, land	
-	0, 16_WC, landstart, 320, nosid
-	0, 08_DB, landstart, 080, nosid
-	0, dummy13_LG, land			
-#SW Winds Flow
-config9 =
+	30, 19_TB, land
+	30, 24_TB, start, 283, nosid
+	30, 16_WC, landstart, 320, nosid
+	40, 14_RP, landstart, 220, nosid	
+	40, 23_MU, landstart, 160, nosid
+	40, 22_CW, landstart, 180, nosid
+	40, 08_DB, landstart, 080, nosid
+	
+#Lima Flow  
+config12 =
 	0, 04L_JK, landstartrev, 220, nosid
 	0, 04R_JK, landrev
-	0, 01_RP, landstartrev, 220, nosid
 	0, 04L_NK, startrev, 190, nosid
 	0, 04R_NK, landrev
-	0, 24_TB, landstart, 283, nosid
-	0, 22_CW, landstart, 180, nosid
-	0, 23_MU, landstart, 160, nosid
-	0, dummy_NK, landrev	
-	0, 04_LG, startlandrev, 220, nosid #add sids
-	0, 16_WC, landstart, 320, nosid
-	0, 08_DB, landstart, 080, nosid	
-	0, dummy13_LG, land		
-#W Winds Flow 1
-config10 =
-	0, 13L_JK, landstartrev, 090, nosid
-	0, 13R_JK, landstartrev, 170, nosid
-	0, 14_RP, landstartrev, 010, nosid	
-	0, 04L_NK, startrev, 190, nosid
-	0, 11N_NK, landrev
-	0, 24_TB, landstart, 283, nosid
-	0, 22_CW, landstart, 180, nosid
-	0, 23_MU, landstart, 160, nosid
 	0, dummy_NK, landrev
 	0, 04_LG, landrev
-	0, 13_LG, startrev, 314, nosid
-	0, dummy13_LG, landrev	
-	0, 16_WC, landstartrev, 320, nosid
-	0, 08_DB, landstart, 080, nosid	
-#W Winds Flow 2
-config11 =
-	0, 04L_JK, landstartrev, 220, nosid
-	0, 04R_JK, landrev
-	0, 01_RP, landstartrev, 220, nosid
-	0, 04L_NK, startrev, 190, nosid
-	0, 11N_NK, landrev
-	0, 24_TB, landstart, 283, nosid
-	0, 22_CW, landstart, 180, nosid
-	0, 23_MU, landstart, 160, nosid
-	0, dummy_NK, landrev	
-	0, 13_LG, startlandrev, 314, nosid	
-	0, 16_WC, landstart, 320, nosid
-	0, 08_DB, landstart, 080, nosid	
-	0, dummy13_LG, land		
-#NW Winds Folds	
-config12 =
-	0, 13L_JK, landstartrev, 090, nosid
-	0, 13R_JK, landstartrev, 170, nosid
-	0, 14_RP, landstartrev, 010, nosid
-	0, 04L_NK, start, 060, nosid
-	0, 11S_NK, landrev
-	0, 19_TB, startrev, 040, nosid
-	0, 24_TB, landrev
-	0, 22_CW, landstartrev, 360, nosid
-	0, 23_MU, landstartrev, 340, nosid
-	0, dummy_NK, land
-	0, 13_LG, startlandrev, 314, nosid	
-	0, 16_WC, landstartrev, 295, nosid
-	0, 08_DB, landstart, 080, nosid	
+	0, 13_LG, start, 130, nosid		
+	0, dummy13_LG, land	
+	30, 19_TB, land
+	30, 24_TB, start, 283, nosid
+	30, 16_WC, landstart, 320, nosid
+	40, 01_RP, landstartrev, 220, nosid	
+	40, 23_MU, landstart, 160, nosid
+	40, 22_CW, landstart, 180, nosid
+	40, 08_DB, startrev, 260, nosid
+	
+
+#JFK = 1200 flights/day (1) 	20	2
+#EWR = 1200 flights/day	(1)		20	2
+#LGA = 1000 flights/day (.833)	16.7 2.4
+#TEB = 500 flights/day	(.417)	8.34 4.80	
+#HPN = 400 flights/day	(.333)	6.67 6.00 
+#//Halving FRG, MMU, CDW, and DXB because they are big VFR airports
+#FRG = 150 flights/day	(.125)	2.5	 16
+#MMU = 75 flights/day	(.0625)	1.25 16	
+#CDW = 62.5 flights/day	(.0521)	1.042 19 
+#DXR = 30 flights/day	(.025)	0.5 40 
+#move light departures to usinf vors (cdw, mmu, dxr), also maybe shift cdw to much more heavily favor props
 	
 [planetypes]
 types =
@@ -3358,4 +3511,6 @@ types =
 	da40, 6, 80, 130, 2.8, 3.2, 550, 800, 80, 120, 1.2, 1.3, diamond
 	conc, 2, 190, 400, 2.2, 2.4, 1440, 2000, 165, 180, 1.1, 2.0, Concorde
 	p212, 6, 90, 170, 2.8, 3.2, 800, 1200, 75, 120, 1.2, 1.3
+	hdjt, 6, 140, 250, 2.8, 3.2, 1500, 1800, 115, 125, 1.3, 1.5, honda jet
+	f2th, 5, 160, 250, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, falcon
 	
