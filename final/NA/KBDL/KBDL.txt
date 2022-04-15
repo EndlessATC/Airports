@@ -1,11 +1,11 @@
-# Custom Airport File For Bradley (Yankee) Approach, Y90
+# Custom Airport File For Bradley (Yankee) Approach, Y90 v1.1
 
 ##############################################################
 [airspace]
 ##############################################################
 
 radius = 30				; airspace radius in NM
-zoom = 5.0 				; default zoom level, increase to zoom in
+zoom = 5 				; default zoom level, increase to zoom in
 elevation = 173				; ground altitude in feet
 floor = 2500 				; minimum selectable altitude (1100 to 2500 above elevation)
 descentaltitude = 11000 		; minimum initial altitude for arrivals (1000+ above floor)
@@ -948,9 +948,8 @@ name = Hartford-Brainard Regional Airport, hartford
 code = HF
 
 runways = 
-	HFD_02_20,	2,	N41°43.90',	W72°38.99',	8.9,	4417,	411,	560	11,	4,	8.9,	4,	188.9,	0,	0,	0,	0,	119.6,	brainard tower
+	HFD_02_20,	2,	N41°43.90',	W72°38.99',	8.9,	4417,	411,	560,	11,	3,	348,	4,	188.9,	LOMIS,	5.8,	0,	0,	119.6,	brainard tower
 	HFD_11_29,	11,	N41°44.05',	W72°39.45',	98.9,	2314,	0,	265,	12,	4,	98.9,	4,	278.9,	0,	0,	0,	0,	119.6,	brainard tower
-	HFD_02_LDA,	2,	N41.73277,	W72.64957,	358,	1000,	0,	0,	11,	3.47,	348,	3.47,	188.9,	LOMIS,	5.8,	0,	0,	119.6,	brainard tower
 
 ## identifier, name, position, true_heading, <length>, <displaced>, <displaced2>, <elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>, <tower frequency>, <tower pronunciation>
 # identifier is a unique name used to define a runway usage configuration later in this file
@@ -1374,8 +1373,7 @@ config1 =
 	0,	ORH_11_29,	startland,		108,	nosid
 	0,	ORH_15_33,	start,			153,	nosid
 
-	0,	HFD_02_20,	start,			022,	nosid
-	0,	HFD_02_LDA,	land
+	0,	HFD_02_20,	startland,		022,	nosid
 
 #Landing West
 config2 =
@@ -1389,8 +1387,7 @@ config2 =
 	0,	ORH_11_29,	startlandrevtrack,	288,	nosid
 	0,	ORH_15_33,	startlandrev,		333,	nosid
 
-	0,	HFD_02_20,	start,			022,	nosid
-	0,	HFD_02_LDA,	land
+	0,	HFD_02_20,	startland,		022,	nosid
 
 #Landing North
 config3 =
@@ -1403,8 +1400,7 @@ config3 =
 	0,	ORH_11_29,	startland,		108,	nosid
 	0,	ORH_15_33,	start,			153,	nosid
 
-	0,	HFD_02_20,	start,			022,	nosid
-	0,	HFD_02_LDA,	land
+	0,	HFD_02_20,	startland,		022,	nosid
 
 #Landing East
 config4 =
@@ -1417,8 +1413,7 @@ config4 =
 	0,	ORH_11_29,	startland,		108,	nosid
 	0,	ORH_15_33,	start,			153,	nosid
 
-	0,	HFD_02_20,	start,			022,	nosid
-	0,	HFD_02_LDA,	land
+	0,	HFD_02_20,	startland,		022,	nosid
 
 #Landing South
 config5 =
@@ -1836,7 +1831,7 @@ beacon = LEADS,	N42.22.26.650,	W072.39.47.570,		204,	leads
 route1 =
 	360,	ILS20,	I L S
 	N42.22.26.650,	W072.39.47.570
-	10,	3500
+	10.5,	3500
 
 ##############################################################
 [approach112]

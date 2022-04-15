@@ -1,4 +1,4 @@
-#KBTV Burlington Approach		v1.0		4/2/2022
+#KBTV Burlington Approach		v1.1		4/2/2022
 
 ##Overview
 
@@ -10,6 +10,16 @@ Managing BTV is primarily about carefully managing the flow of GA and jet traffi
 
 IRL, BTV also delegates an arrival corridor, 8,000-10,000 ft, to YUL for the purpose of handling large YUL arrival volume, but this is not implemented, nor is it depicted.
 
+
+## Changelog
+v1.0
+Initial Release
+
+v1.1
+Update for Endless ATC v5.0
+Tweak BTV RWY 1 approach course to more closely match RNAV 1 approach course
+Tweak BTV runway alignments to be closer to actual alignment
+Update military fighter callsigns to be more accurate
 
 
 ##Burlington International Airport, KBTV

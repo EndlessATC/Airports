@@ -1,3 +1,5 @@
+# Custom Airport File For Burlington Approach, KBTV, v1.1
+
 ##############################################################
 [airspace]
 ##############################################################
@@ -546,8 +548,8 @@ name = Burlington International Airport, burlington	; name of the main airport, 
 code = KBTV						; four letter code, displayed in airport menu (required; remove the #)
 
 runways = 
-	BTV_15_33,	15,	N44°28.84',	W73°9.95',	131,	8319,	0,	500,	305.5,	3,	131,	3.4,	311,	STAEV,	11.7,	EHIKO,	9.8,	118.3,	burlington tower
-	BTV_01_19,	1,	N44°27.83',	W73°9.06',	351,	4112,	225,	500,	333.7,	3.25,	001,	3.5,	165,	CESAL,	5.9,	,	0,	118.3,	burlington tower
+	BTV_15_33,	15,	N44°28.84',	W73°9.95',	130.8,	8319,	0,	500,	305.5,	3,	131.9,	3.4,	311,	STAEV,	11.7,	EHIKO,	9.8,	118.3,	burlington tower
+	BTV_01_19,	1,	N44°27.83',	W73°9.06',	351.4,	4112,	225,	500,	333.7,	3.25,	3.5,	3.9,	165,	CESAL,	5.9,	,	0,	118.3,	burlington tower
 
 ## identifier, name, position, true_heading, <length>, <displaced>, <displaced2>, <elevation>, <glideslope>, <localizer>, <glideslope2>, <localizer2>, <beaconname, distance>, <beaconname2, distance2>, <tower frequency>, <tower pronunciation>
 # identifier is a unique name used to define a runway usage configuration later in this file
@@ -626,10 +628,10 @@ airlines =
 	wig,	1.5,	be99/e110,					wiggins,		se
 
 
-	rippa01-,	0.15,	F35A,							rippa one,		swe
-	rippa02-,	0.15,	F35A,							rippa two,		swe
-	fang01-,	0.15,	F35A,							fang one,		swe
-	fang02-,	0.15,	F35A,							fang two,		swe
+	chsty11-,	0.15,	F35A,							chesty one one,		swe
+	chsty12-,	0.15,	F35A,							chesty one two,		swe
+	corsr11-,	0.15,	F35A,							corsair one one,	swe
+	corsr12-,	0.15,	F35A,							corsair one two,	swe
 
 	rch,		0.25,	C17/C5M/C130/B752,					reach
 
@@ -1923,10 +1925,10 @@ route1 =
 [approach6]
 ##############################################################
 runway = BTV_01_19
-beacon = fobux,	N44.263, 	W73.156,	-015,	fobux
+beacon = fobux,	N44.264,	W73.168,	-015,	fobux
 route1	=
 	010,	RNAV,	R-nav
-	N44.263, 	W73.156
+	N44.264,	W73.168
 	11.5,	4000
 
 ##############################################################
@@ -1937,7 +1939,7 @@ beacon = jenax,	N44°16.18',	W73°17.02',	jenax
 route1	=
 	010,	RNAV,	R-nav
 	N44°16.18',	W73°17.02'
-	N44.263, 	W73.156
+	N44.264,	W73.168
 	11.5,	4000
 
 
