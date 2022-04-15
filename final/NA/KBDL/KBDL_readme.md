@@ -1,4 +1,4 @@
-#Y90 Bradley (Yankee) Approach		v1.0		3/18/22
+#Y90 Bradley (Yankee) Approach		v1.1		3/18/22
 
 ##Overview
 
@@ -10,7 +10,13 @@ Managing Y90 is primarily about juggling multiple airports with heavily conflict
 
 IRL, Y90 also provides en-route service for many KBOS satellite arrivals (KBED, KBVY, KMHT, KASH), descending them from ZBW airspace so they can enter A90 airspace well below KBOS arrival traffic, as well as providing departure and en-route services for KOXC, KBDR and KHVN climbing to Center altitudes (being routed north towards RONGE/VEERS before being put on course to climb above NY arrivals)
 
-
+## Changelog
+V1.0
+Initial Release
+v1.1
+Update for Endless ATC v5.0
+Switch from separate fake runway to implement HFD LDA 2 approach to localizer course on real HFD RWY 2
+Fix issue where joining BAF ILS 20 via LEADS resulted in the aircraft above the glideslope
 
 ## Bradley International (Windsor Locks) Airport, KBDL
 
