@@ -1,7 +1,7 @@
 # Charlotte
 # Includes future and retired planes
 # all work was done from mobile
-# special airline Pullman
+# special airlines
 
 [airspace]
 elevation = 748
@@ -9,6 +9,7 @@ usa = true
 descendaltitude = 10000
 transition = 18001
 above = 20000
+name = Charlotte Approach, Charlotte Departure
 center = N35.2140007019, W80.9430999756
 magneticvar = -7.510
 beacons =
@@ -148,53 +149,59 @@ line2 =
 	N36.10586, W81.34890
 
 [airport1]
-name = Charlotte Douglas, Charlotte
+name = Charlotte Douglas International Airport
 code = KCLT
 runways =
 	rwy1, 05, N35.2091, W80.9497, 48.5, 7502, 0, 0, 706
-	rwy2, 18C, N35.2271, W80.9531, 176.0, 10000, 0, 0, 742
-	rwy3, 18L, N35.2244, W80.9361, 176.0, 8677, 0, 0, 746
-	rwy4, 18R, N35.225, W80.9674, 176.0, 9000, 0, 0, 742
-airlines =	aal, 10, a319/a320/a321/a21n/a332/a333/b734/b738/b38m/b752/b762/b763/b772/b77w/b788/b789/e190/md81/md82/md83, american, nsw
-	eny, 5, e140/e145/e170/e175, envoy, nsw
-	pdt, 3, e145/dh8a/dh8c, piedmont, nsw
-	jia, 2, crj7/crj9, blue streak, sw
-	jza, 1, dh8a/dh8c/dh8d/crj2/crj9, jazz, n
+	rwy2, 18C, N35.2271, W80.9531, 176.0, 10000, 0, 0, 742, 3, 176.0, 0, 0, 0, 0, 0, 0, 126.4, Charlotte Tower
+	rwy3, 18L, N35.2244, W80.9361, 176.0, 8677, 0, 0, 746, 3, 176.0, 0, 0, 0, 0, 0, 0, 118.1, Charlotte Tower
+	rwy4, 18R, N35.225, W80.9674, 176.0, 9000, 0, 0, 742, 3, 176.0, 0, 0, 0, 0, 0, 0, 133.35, Charlotte Tower
+airlines =	
+	aal, 20, a319/a320/a321/a21n/a332/a333/b738/b38m/b752/b763/b772/b77w/b788/b789/e190/md81/md82/md83, american, nsw
+	eny, 9, e140/e145/e75s/e75l, envoy, nsw
+	pdt, 5, dh8a/dh8c/e145, piedmont, nsw
+	jia, 3, crj7/crj9, blue streak, sw
+	ash, 2, crj9/e75s/e75l, air shuttle, sw
+	eny, 1, e170, envoy, s
+	jza, 1, crj2/crj9/dh8a/dh8c/dh8d/e75s/e75l, jazz, n
 	skv, 1, e75s/e75l, maple, n
-	vte, 1, e135, volunteer, w
-	asa, 1, a319/a320/a21n/b737/b738/b739/b39m, alaska, w
-	dal, 1, bcs1/bcs3/a319/a320/a321/b737/b738/b739/b752/b753/md88/md90, delta, nsw
-	ual, 1, a319/a320/b735/b737/b738/b739/b39m/b3xm/b752/b753, united, nsw
-	uca, 1, b190/dh8b/dh8c/e145/e45x, commutair, w
-	asq, 1, e145/e45x, acey, w
+	vte, 1, c560/c56x/crj2/e35l/e135/glex, volunteer, w
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, alaska, w
+	dal, 1, bcs1/bcs3/a319/a320/a321/a21n/b737/b738/b739/b752/b753/md88/md90, delta, nsw
+	ual, 1, a319/a320/b735/b737/b738/b38m/b739/b39m/b3xm/b752/b753, united, nsw
+	uca, 1, dh8b/dh8c/e145/e45x, commutair, w
 	awi, 1, crj2, wisconsin, w
+	gjs, 1, crj7, lindbergh, w
 	edv, 1, crj2/crj7/crj9, endeavor, nsw
-	ujc, 1, e135/j328, ultimate, w
+	ujc, 1, j328, ultimate, w
 	fft, 1, a318/a319/a320/a321/a20n/a21n, frontier flight, ws
 	rpa, 1, e170/e75s/e75l, brickyard, nsw
 	dlh, 1, a333/a343/a346/a359/b744/b748, lufthansa, n
 	voi, 1, a319/a320/a20n/a321/a21n, volaris, s
-	jbu, 2, a320/a321/a21n/e190, jetblue, nws
-	swa, 2, b737/b738/b38m/b735/b733/b37m, southwest, nsw
+	jbu, 2, bcs3/a320/a321/a21n/e190, jetblue, nws
+	swa, 2, b733/b735/b737/b37m/b738/b38m, southwest, nsw
 	amf, 1, b190/e120/sw4, amflight, w
 	usc, 1, lj35/c208, star check, w
 	gti, 1, b738/b763, giant, w
-	fdx, 1, a306/a310/b721/b722/b752/b763/dc10/md11, fed ex, w
+	fdx, 1, a306/a310/b721/b722/b752/b763/dc10/md10/md11, fed ex, w
 	ups, 1, a306/b752/b763/dc87/md11, u p s, w
 	wig, 1, c208/e110, Wiggins airways, w
 # specials
 	plm, 1, a332/a333/b744, pullman, n
 	csa, 1, a333, csa, n
 	bel, 1, a332/a333, beeline, n
-	jdi, 1, cl30/cl35/e35l/gl5t/glex/glf5/glf6, jedi, n
-	tcx, 1, a332/b752/b763, kestal, n
-	viv, 1, a320/a20n/a21n, aeroenlaces, s
-	bvn, 1, c208, show me, w
-	sjx, 1, a339/a359/a35k, star walker, w
-	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card, sw
-	nrs, 1, b788/b789, red nose, n
+	vkg, 1, a332/a333, viking, n
+	dcm, 1, fa7x/fa8x/gl5t/gl7t/glex/glf6, dot com, nsw
+	jdi, 1, cl30/cl35/e35l/e550/gl5t/glex/glf6, jedi, n
+	adb, 1, a124/a225, antonov bureau, n
+	viv, 1, a320/a20n/a321/a21n, aeroenlaces, s
+	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, nsw
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, nsw
+	bvn, 1, c208, show me, ws
+	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/g150/galx/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, sw
 	nos, 1, b763/b789, moon flower, n
-	maa, 1, b762/b763, mas carga, s
+	cfs, 1, at43/at72/c208, empire, w
+	maa, 1, a332/a333/b762/b763, mas carga, s
 
 entrypoints =
 	031, SLPOH
@@ -448,9 +455,21 @@ config2 =
 
 [planetypes]
 types =
-	B721, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
-	B722, 4, 160, 250, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, Boeing
-	DC10, 2, 160, 250, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, Douglas
-	E45X, 5, 160, 250, 2.9, 3.2, 1440, 1560, 122, 134, 1.1, 1.3, Embraer
-	J328, 5, 160, 250, 2.9, 3.2, 1440, 1560, 122, 134, 1.1, 1.3, Dornier
-	DC87, 3, 160, 250, 2.3, 2.7, 1000, 1440, 138, 148, 1.1, 1.3, Douglas
+	B721, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
+	B722, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
+	A124, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3
+	A225, 1, 180, 300, 2.2, 2.4, 1000, 1400, 160, 180, 1.1, 1.2
+	DC10, 2, 160, 300, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3
+	E45X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 116, 125, 1.1, 1.3
+	J328, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	DC87, 3, 160, 300, 2.3, 2.7, 1000, 1440, 127, 134, 1.1, 1.3
+	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25A, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	PRM1, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3

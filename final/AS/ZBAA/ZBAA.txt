@@ -1,0 +1,4239 @@
+#ZBAA TMA
+#Beijing Approach
+#Version: 1.2.0
+#Created by JaredHu
+#Based on AIRAC 2109
+#Including ZBAA, ZBAD, ZBTJ
+#Update Log:
+#1.0.0 - 210910 - release
+#1.1.0 - 210910 - add waypoint - add score config (AD: 10; TJ: 16)
+#1.2.0 - 210920 - add airlines - fix TJ runway operation rules
+#Airlines infomation: based on 2021.9.18 depatures data
+
+[airspace]
+radius = 100
+zoom = 1
+elevation = 115
+floor = 1999
+descendaltitude = 14800
+ceiling = 19700
+above = 21700
+transitionaltitude = 10800
+speedrestriction = 100, 250,10000,250
+usa = false
+metric = true
+automatic = true
+center = N39.805278, E116.518889
+magticvar = -6
+separation = 5
+beacons =
+	HUR, N40.330000, E116.748333, 0, HUAI ROU
+	PEK, N40.048333, E116.735000, 0, GUAN ZHUANG
+	VYK, N39.195000, E116.571667, 0, DA WANG ZHUANG
+	SZY, N40.106667, E116.430000, 0, SHA ZI YANG
+	TAJ, N39.111319, E117.356836, 0, TIAN JIN
+	AVBOX, N38.647778, E116.378056
+	BELAX, N38.720000, E115.526389
+	BOTPU, N39.985278, E115.475000
+	BUMDU, N40.713889, E117.281944
+	DOTRA, N40.757222, E116.801944
+	DUGEB, N38.661944, E115.803889
+	DUMAP, N38.591389, E118.029167
+	ELAPU, N40.209167, E115.502778
+	ELKUR, N38.639722, E116.665000
+	GUVBA, N40.433333, E115.530556
+	IDKEX, N40.777778, E116.566667
+	IGMOR, N38.830833, E118.031667
+	LULTA, N39.973333, E117.214167
+	MUGLO, N39.070278, E118.034444
+	OMDEK, N38.655000, E116.090833
+	OSUBA, N40.736389, E117.037222
+	PEGSO, N38.944722, E115.505278
+	RUSDO, N39.761111, E115.447500
+boundary=
+	N40.777778, E116.566667
+	N40.602778, E116.551944
+	N40.423889, E116.419167
+	N40.433333, E115.530556
+	N39.666667, E115.436111
+	N38.667500, E115.531389
+	N38.647778, E116.378056
+	N38.591389, E118.029167
+	N39.070278, E118.034444
+	N39.154722, E117.500278
+	N39.426667, E117.313056
+	N40.350556, E117.145278
+	N40.713889, E117.281944
+line1 =
+	N38.12666, E118.80000
+	N38.12637, E118.66709
+line2 =
+	N38.18340, E118.01494
+	N38.31167, E117.76670
+	N38.42422, E117.65605
+	N38.62515, E117.55781
+	N38.69146, E117.55381
+	N38.85288, E117.61670
+	N39.13447, E117.78467
+	N39.19126, E117.86572
+	N39.22676, E118.04092
+	N39.19507, E118.14785
+	N39.06709, E118.29785
+	N39.11802, E118.47197
+	N39.17686, E118.62637
+	N39.16050, E118.75244
+	N39.17212, E118.82646
+
+[airport1]
+name = Beijing Capital International Airport
+code = ZBAA
+runways =
+	AAW, 36L, N40.073444, E116.574167, 352.98, 10499, 0, 0, 107
+	AAC, 36R, N40.055444, E116.600139, 352.98, 12467, 0, 0, 98
+	AAE, 01, N40.058889, E116.617611, 352.98, 12467, 0, 0, 84, 3.2, 0, 3.2, 0
+climbaltitude = 3900
+sids = 
+	BOTPU, N39.985278, E115.475000
+	DOTRA, N40.757222, E116.801944
+	ELKUR, N38.639722, E116.665000
+	IDKEX, N40.777778, E116.566667
+	IGMOR, N38.830833, E118.031667
+	LULTA, N39.973333, E117.214167
+	MUGLO, N39.070278, E118.034444
+	RUSDO, N39.761111, E115.447500
+entrypoints = 
+	306, GUVBA, 13800
+	207, DUGEB, 16700
+	188, AVBOX, 16700
+	135, DUMAP, 16700
+	022, OSUBA, 11800
+airlines =
+	CSS, 1, B733, shun feng
+	THY, 1, B77W, turkish
+	CAO, 1, B77L, air china freight
+	CSS, 1, B752, shun feng
+	CSS, 1, B763, shun feng
+	CAO, 1, B752, air china freight
+	CSS, 1, B752, shun feng
+	CSS, 1, B763, shun feng
+	YZR, 1, B733, yangtze river
+	CYZ, 1, B733, china post
+	AHK, 1, A306, air hong kong
+	HVN, 1, A321, viet nam
+	CHH, 1, A333, hai nan
+	GEC, 1, B77L, lufthansa cargo
+	CCA, 1, A359, air china
+	CYZ, 1, B734, china post
+	YZR, 1, B733, yangtze river
+	CSS, 1, B752, shun feng
+	CSS, 1, B752, shun feng
+	YZR, 1, B733, yangtze river
+	YZR, 1, B733, yangtze river
+	CSS, 1, B752, shun feng
+	CSS, 1, B733, shun feng
+	YZR, 1, B733, yangtze river
+	CCA, 1, A333, air china
+	CYZ, 1, B733, china post
+	TUA, 1, B77L, turkmenistan
+	CCA, 1, A359, air china
+	CCA, 1, A333, air china
+	ABW, 1, B744, air bridge cargo
+	CSS, 1, B752, shun feng
+	CCA, 1, A359, air china
+	CCA, 1, B77W, air china
+	CSS, 1, B733, shun feng
+	CCA, 1, B789, air china
+	CYZ, 1, B733, china post
+	CCA, 1, A359, air china
+	CCA, 1, B77W, air china
+	CCA, 1, A359, air china
+	CCA, 1, A359, air china
+	CCA, 1, A333, air china
+	CDC, 1, A20N, hua long
+	CCA, 1, B738, air china
+	CCA, 1, A320, air china
+	CCA, 1, B738, air china
+	CCA, 1, A319, air china
+	CCA, 1, A20N, air china
+	CCA, 1, B738, air china
+	CCA, 1, A332, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CNM, 1, B738, meng yuan
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china express
+	CNM, 1, B738, meng yuan
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, A319, air china
+	CCA, 1, B737, air china
+	CCA, 1, A319, air china
+	CHH, 1, B738, hai nan
+	CSC, 1, A319, si chuan air
+	CSC, 1, A320, si chuan air
+	CCA, 1, A20N, air china
+	CHH, 1, B738, hai nan
+	HXA, 1, CRJ9, china express
+	CCA, 1, A20N, air china
+	GDC, 1, B738, grand china
+	CCD, 1, B738, xiang jian
+	CCD, 1, B738, xiang jian
+	CCA, 1, B738, air china
+	CCA, 1, CRJ7, air china
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	HXA, 1, CRJ9, china express
+	CHH, 1, B738, hai nan
+	CCA, 1, A319, air china
+	CCA, 1, A321, air china
+	CDC, 1, B738, hua long
+	CDC, 1, B738, hua long
+	CSZ, 1, A20N, shen zhen air
+	HXA, 1, CRJ9, china express
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, A319, air china
+	HXA, 1, CRJ9, china express
+	CHH, 1, B738, hai nan
+	CES, 1, A333, china eastern
+	GDC, 1, B738, grand china
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, A332, hai nan
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CCA, 1, A21N, air china
+	CCA, 1, A321, air china
+	CHH, 1, B738, hai nan
+	HXA, 1, CRJ9, china express
+	CHH, 1, B788, hai nan
+	CCA, 1, B738, air china
+	CCA, 1, B737, air china
+	CCA, 1, B737, air china
+	CCA, 1, B77W, air china
+	CCA, 1, B738, air china
+	CNM, 1, B738, meng yuan
+	CCA, 1, A321, air china
+	CCA, 1, A359, air china
+	CCA, 1, A333, air china
+	GDC, 1, B738, grand china
+	CSZ, 1, A333, shen zhen air
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	LKE, 1, A320, lucky air
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, A20N, air china
+	CCA, 1, A20N, air china
+	CSC, 1, A320, si chuan air
+	CCA, 1, B737, air china
+	CHH, 1, A333, hai nan
+	CHH, 1, B738, hai nan
+	CCA, 1, CRJ7, air china
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, B738, air china
+	CSZ, 1, B738, shen zhen air
+	CSC, 1, A320, si chuan air
+	CCD, 1, B738, xiang jian
+	CCA, 1, B738, air china
+	CCA, 1, B77W, air china
+	CCA, 1, A332, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, B789, hai nan
+	CCA, 1, A333, air china
+	CCA, 1, A333, air china
+	CCA, 1, B77W, air china
+	CHH, 1, A333, hai nan
+	CES, 1, A333, china eastern
+	CHH, 1, A332, hai nan
+	CHH, 1, B788, hai nan
+	CCA, 1, A20N, air china
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china express
+	CHH, 1, B738, hai nan
+	CHH, 1, A332, hai nan
+	CHH, 1, A333, hai nan
+	CCA, 1, A21N, air china
+	CCA, 1, A20N, air china
+	CCA, 1, B321, air china
+	CCA, 1, B738, air china
+	CDC, 1, A21N, hua long
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CCD, 1, B738, xiang jian
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, A321, air china
+	CCA, 1, B77W, air china
+	CCA, 1, A321, air china
+	CCA, 1, A332, air china
+	CCA, 1, A319, air china
+	CCA, 1, A320, air china
+	CCA, 1, A319, air china
+	CES, 1, A333, china eastern
+	CCA, 1, A321, air china
+	CHH, 1, A333, hai nan
+	CHH, 1, B738, hai nan
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CCD, 1, B738, xiang jian
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CHH, 1, A332, hai nan
+	SIA, 1, A359, singapore
+	CCA, 1, B737, air china
+	CCA, 1, A319, air china
+	CCA, 1, B738, air china
+	CCA, 1, B789, air china
+	CCA, 1, B738, air china
+	CHH, 1, B789, hai nan
+	CES, 1, A333, china eastern
+	CCA, 1, B789, air china
+	CCA, 1, A320, air china
+	CDG, 1, B738, shan dong
+	CCA, 1, B789, air china
+	CCA, 1, B738, air china
+	CCA, 1, A359, air china
+	CCA, 1, B738, air china
+	CSC, 1, A320, si chuan air
+	CCA, 1, A332, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, A321, air china
+	CCA, 1, B77W, air china
+	CCA, 1, B77W, air china
+	CCA, 1, A20N, air china
+	CCA, 1, A320, air china
+	CCA, 1, A333, air china
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CCA, 1, A20N, air china
+	CHH, 1, A333, hai nan
+	CCA, 1, A319, air china
+	CDG, 1, B738, shan dong
+	CCD, 1, B738, xiang jian
+	CDG, 1, B738, shan dong
+	CCA, 1, A21N, air china
+	CCA, 1, A21N, air china
+	CCA, 1, A332, air china
+	CCA, 1, A21N, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, A359, air china
+	CCA, 1, B748, air china
+	CES, 1, A333, china eastern
+	CCA, 1, B738, air china
+	CSZ, 1, B738, shen zhen air
+	CCA, 1, B744, air china
+	CCA, 1, A20N, air china
+	CCA, 1, A320, air china
+	CCA, 1, A321, air china
+	CCA, 1, A321, air china
+	CDG, 1, B738, shan dong
+	CSC, 1, A320, si chuan air
+	CCA, 1, A333, air china
+	CCA, 1, B738, air china
+	CHH, 1, B789, hai nan
+	CHH, 1, B738, hai nan
+	CES, 1, A321, china eastern
+	CCA, 1, A321, air china
+	CCA, 1, B77W, air china
+	CCA, 1, B77W, air china
+	CCA, 1, B748, air china
+	CES, 1, B77W, china eastern
+	CCA, 1, A333, air china
+	CCA, 1, A319, air china
+	HXA, 1, CRJ9, china express
+	CNM, 1, B738, meng yuan
+	CCA, 1, A320, air china
+	CJX, 1, B738, air crane
+	CCA, 1, B748, air china
+	CCA, 1, A332, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, A333, air china
+	CES, 1, B77W, china eastern
+	CSC, 1, A359, si chuan air
+	CCA, 1, A332, air china
+	CCA, 1, A20N, air china
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CCA, 1, A20N, air china
+	CCD, 1, B738, xiang jian
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CHH, 1, A333, hai nan
+	CES, 1, A332, china eastern
+	CCA, 1, A332, air china
+	CCA, 1, B789, air china
+	CPA, 1, A333, cathay
+	CNM, 1, B738, meng yuan
+	CNM, 1, B738, meng yuan
+	CCA, 1, CRJ7, air china
+	AMU, 1, A321, air macao
+	CSZ, 1, A333, shen zhen air
+	CCA, 1, B738, air china
+	CCA, 1, A319, air china
+	CCA, 1, A332, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CGZ, 1, A20N, colorful
+	CNM, 1, B738, meng yuan
+	CCA, 1, B737, air china
+	CCA, 1, B738, air china
+	CCA, 1, A320, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, B738, air china
+	CCA, 1, B77W, air china
+	CCA, 1, A333, air china
+	CCA, 1, B738, air china
+	CHH, 1, B789, hai nan
+	CHH, 1, A333, hai nan
+	CES, 1, B77W, china eastern
+	CCA, 1, A332, air china
+	CCA, 1, CRJ7, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CDG, 1, B738, shan dong
+	CCA, 1, B737, air china
+	CCA, 1, A20N, air china
+	CCA, 1, A321, air china
+	CCA, 1, A332, air china
+	CCA, 1, A320, air china
+	KNA, 1, B738, kun ming air
+	CCA, 1, B738, air china
+	CNM, 1, B738, meng yuan
+	CCA, 1, A321, air china
+	CES, 1, A321, china eastern
+	CCA, 1, B77W, air china
+	CSC, 1, A332, si chuan air
+	CCA, 1, A321, air china
+	CPA, 1, A333, cathay
+	CSZ, 1, B738, shen zhen air
+	CDG, 1, B738, shan dong
+	CCA, 1, A321, air china
+	CCA, 1, A333, air china
+	CCA, 1, CRJ7, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, A321, air china
+	CCA, 1, B77W, air china
+	CCA, 1, B77W, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, B788, hai nan
+	CES, 1, B77W, china eastern
+	CSZ, 1, B738, shen zhen air
+	CCA, 1, A320, air china
+	ANA, 1, B789, all nippon
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china expree
+	CCA, 1, A319, air china
+	CCA, 1, B789, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, B789, air china
+	CCA, 1, A332, air china
+	CCA, 1, A332, air china
+	CHH, 1, A333, hai nan
+	CES, 1, A321, china eastern
+	CCA, 1, A319, air china
+	CSZ, 1, A333, shen zhen air
+	CCA, 1, B738, air china
+	CCA, 1, A333, air china
+	CCA, 1, A333, air china
+	CCA, 1, A321, air china
+	TBA, 1, A332, china tibet
+	CCA, 1, B738, air china
+	CCA, 1, B77W, air china
+	CCA, 1, B77W, air china
+	CCA, 1, B738, air china
+	CCA, 1, A320, air china
+	CCD, 1, B738, xiang jian
+	CHH, 1, B738, hai nan
+	CHH, 1, A332, hai nan
+	CES, 1, A333, china eastern
+	CAO, 1, B77L, air china freight
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CCA, 1, A319, air china
+	CCA, 1, A333, air china
+	CCA, 1, B738, air china
+	CHH, 1, A332, hai nan
+	CCA, 1, B738, air china
+	CCA, 1, B789, air china
+	CCA, 1, A332, air china
+	CCA, 1, A21N, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, A333, hai nan
+	CDG, 1, B738, shan dong
+	CSC, 1, A320, si chuan air
+	CCA, 1, B77L, air china
+	CCA, 1, A319, air china
+	CCD, 1, B738, xiang jian
+	CCA, 1, A321, air china
+	CCA, 1, A359, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, B77W, air china
+	CHH, 1, B788, hai nan
+	CHH, 1, B738, hai nan
+	CCA, 1, A320, air china
+	CES, 1, A333, china eastern
+	GDC, 1, B738, grand china
+	CCA, 1, B738, air china
+	AMU, 1, A321, air macao
+	CCA, 1, B737, air china
+	CCA, 1, A319, air china
+	AAL, 1, B788, american
+	CCA, 1, B77W, air china
+	CCA, 1, A20N, air china
+	CDG, 1, B738, shan dong
+	CCA, 1, A333, air china
+	CCA, 1, B738, air china
+	CCA, 1, A320, air china
+	SIA, 1, A359, singapore
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCD, 1, B738, xiang jian
+	CPA, 1, B77W, cathay
+	CCA, 1, A321, air china
+	CSZ, 1, A333, shen zhen air
+	CCD, 1, B738, xiang jian
+	CCA, 1, B738, air china
+	CCD, 1, B738, xiang jian
+	CCA, 1, B738, air china
+	CHH, 1, B788, hai nan
+	CES, 1, A333, china eastern
+	CCA, 1, A20N, air china
+	CCA, 1, A321, air china
+	CCD, 1, B738, xiang jian
+	CHH, 1, A332, hai nan
+	CCA, 1, B738, air china
+	CHH, 1, A333, hai nan
+	CCA, 1, A320, air china
+	CCA, 1, A320, air china
+	CNM, 1, B738, meng yuan
+	CCA, 1, B738, air china
+	CCA, 1, B737, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, A20N, air china
+	CCA, 1, A21N, air china
+	CCA, 1, A321, air china
+	CCA, 1, A359, air china
+	CHH, 1, A332, hai nan
+	CES, 1, A333, china eastern
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	AFR, 1, B77W, air frans
+	CCA, 1, A20N, air china
+	CSC, 1, A320, si chuan air
+	CCA, 1, CRJ7, air china
+	CGH, 1, A320, welkin
+	CCA, 1, B77W, air china
+	CCA, 1, A333, air china
+	CCA, 1, A20N, air china
+	CCA, 1, A321, air china
+	CHH, 1, B789, hai nan
+	CCA, 1, A321, air china
+	CES, 1, A333, china eastern
+	CCA, 1, B77W, air china
+	CCA, 1, A321, air china
+	CCD, 1, B738, xiang jian
+	CCA, 1, B738, air china
+	CCA, 1, A21N, air china
+	CSC, 1, A320, si chuan air
+	CCA, 1, B738, air china
+	CCA, 1, A332, air china
+	CES, 1, A359, china eastern
+	CCA, 1, B738, air china
+	CCA, 1, A332, air china
+	CES, 1, A359, china eastern
+	CCA, 1, B738, air china
+	CCA, 1, B77W, air china
+	CCA, 1, A321, air china
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CSC, 1, A333, si chuan air
+	CCA, 1, B737, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, B789, air china
+	CCA, 1, A20N, air china
+	CCA, 1, A20N, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CHH, 1, A333, hai nan
+	CCA, 1, A321, air china
+	CES, 1, B77W, china eastern
+	CSZ, 1, B738, shen zhen air
+	AAL, 1, B789, american
+	CCA, 1, B738, air china
+	CDG, 1, B738, shan dong
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, A319, air china
+	CCA, 1, A319, air china
+	CCA, 1, A333, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CES, 1, A332, china eastern
+	CCA, 1, B77W, air china
+	CSZ, 1, B738, shen zhen air
+	CSC, 1, A321, si chuan air
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CCA, 1, A321, air china
+	GDC, 1, B738, grand china
+	CES, 1, B77W, china eastern
+	CCA, 1, B738, air china
+	CCA, 1, A359, air china
+	CDG, 1, B738, shan dong
+	CCA, 1, A20N, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, A321, air china
+	CCA, 1, A320, air china
+	GDC, 1, B738, grand china
+	CCA, 1, B738, air china
+	CAL, 1, A333, dynasty
+	CCD, 1, B738, xiang jian
+	CCA, 1, A333, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, A332, air china
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CNM, 1, B738, meng yuan
+	CCA, 1, A20N, air china
+	CSC, 1, A359, si chuan air
+	CHH, 1, B738, hai nan
+	CCA, 1, B738, air china
+	CCA, 1, A321, air china
+	CCA, 1, B789, air china
+	CES, 1, B77W, china eastern
+	CSZ, 1, A333, shen zhen air
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CCA, 1, B738, air china
+	CHH, 1, A333, hai nan
+	CYZ, 1, B733, china post
+	CHH, 1, B738, hai nan
+	CCA, 1, A333, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CES, 1, B77W, china eastern
+	CCA, 1, A319, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CCA, 1, B77L, air china
+	CDG, 1, B738, shan dong
+	CDG, 1, B738, shan dong
+	CSC, 1, A21N, si chuan air
+	CCA, 1, A320, air china
+	CCA, 1, A20N, air china
+	CCD, 1, B738, xiang jian
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CSZ, 1, A320, shen zhen air
+	CSZ, 1, B738, shen zhen air
+	CSC, 1, A320, si chuan air
+	CDG, 1, B738, shan dong
+	CHH, 1, B738, hai nan
+	CSC, 1, A319, si chuan air
+	CCA, 1, A359, air china
+	CSC, 1, A320, si chuan air
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CHH, 1, B738, hai nan
+	CYZ, 1, B733, china post
+	CDG, 1, B738, shan dong
+	CHH, 1, B738, hai nan
+	CDG, 1, B738, shan dong
+	CSZ, 1, B738, shen zhen air
+	AHK, 1, A306, air hong kong
+	CCA, 1, B77W, air china
+
+[airport2]
+name = Beijing Daxing International Airport
+code = AD
+runways =
+	ADWW, 35L, N39.483111, E116.392694, 353.03, 12467, 0, 0, 77
+	ADW, 35R, N39.483944, E116.401472, 353.03, 12467, 0, 0, 77
+	ADE, 01L, N39.471333, E116.431333, 353.05, 11155, 0, 0, 73
+	ADEE, 11L, N39.516694, E116.431222, 103.05, 12467, 0, 0, 68
+climbaltitude = 3000
+sids = 
+	DOTRA, N40.757222, E116.801944
+	ELKUR, N38.639722, E116.665000
+	IDKEX, N40.777778, E116.566667
+	MUGLO, N39.070278, E118.034444
+	PEGSO, N38.944722, E115.505278
+	OMDEK, N38.655000, E116.090833
+entrypoints = 
+	188, AVBOX, 11800
+	135, DUMAP, 12800
+	032, BUMDU, 14800
+	294, ELAPU, 12800
+	220, BELAX, 11800
+airlines =
+	CSS, 1, B733, shun feng
+	CSS, 1, B752, shun feng
+	CDC, 1, B733, hua long
+	CYZ, 1, B733, china post
+	CSS, 1, B733, shun feng
+	CDC, 1, B733, hua long
+	CSS, 1, B733, shun feng
+	CSS, 1, B733, shun feng
+	CSS, 1, B733, shun feng
+	CYZ, 1, B733, china post
+	HBH, 1, B738, he bei air
+	CSH, 1, B738, shang hai air
+	CSN, 1, A21N, china southern
+	DKH, 1, A320, air juneyao
+	CSN, 1, A321, china southern
+	CBJ, 1, A319, capital jet
+	CSN, 1, A321, china southern
+	CES, 1, B737, china eastern
+	EPA, 1, B738, dong hai air
+	CSN, 1, B738, china southern
+	CBJ, 1, A320, capital jet
+	CSN, 1, B738, china southern
+	CBJ, 1, A320, capital jet
+	CBJ, 1, A320, capital jet
+	CBJ, 1, A333, capital jet
+	CXA, 1, B738, xia men air
+	CXA, 1, B738, xia men air
+	CES, 1, A320, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	HXA, 1, CRJ9, china express
+	CXA, 1, B738, xia men air
+	CSN, 1, B738, china southern
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CES, 1, A333, china eastern
+	CES, 1, A321, china eastern
+	HBH, 1, B738, he bei air
+	CES, 1, A321, china eastern
+	CSN, 1, A321, china southern
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CCA, 1, B738, air china
+	CUA, 1, B738, lian hang
+	CES, 1, A321, china eastern
+	CUA, 1, B738, lian hang
+	CUA, 1, B737, lian hang
+	CES, 1, A321, china eastern
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CSN, 1, B738, china southern
+	CSN, 1, A320, china southern
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CES, 1, A321, china eastern
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	CSN, 1, A320, china southern
+	HXA, 1, CRJ9, china express
+	HBH, 1, B738, he bei air
+	CCA, 1, B738, air china
+	CBJ, 1, A320, capital jet
+	CSN, 1, A320, china southern
+	CSN, 1, A321, china southern
+	CES, 1, A321, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A21N, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	CCA, 1, B738, air china
+	CSN, 1, A21N, china southern
+	CUA, 1, B738, lian hang
+	CSN, 1, A320, china southern
+	CUA, 1, B738, lian hang
+	CES, 1, A320, china eastern
+	CES, 1, A321, china eastern
+	CXA, 1, B738, xia men air
+	CES, 1, A320, china eastern
+	HBH, 1, B738, he bei air
+	BJN, 1, B738, air jing hua
+	CSN, 1, A321, china southern
+	CSN, 1, A320, china southern
+	CUA, 1, B737, lian hang
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CES, 1, A321, china eastern
+	CES, 1, B738, china eastern
+	CES, 1, A332, china eastern
+	CCA, 1, B738, air china
+	CES, 1, B738, china eastern
+	CES, 1, B737, china eastern
+	HBH, 1, B738, he bei air
+	CCA, 1, B738, air china
+	CSN, 1, A321, china southern
+	CSN, 1, A333, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CSN, 1, A320, china southern
+	CSN, 1, A320, china southern
+	CSN, 1, B738, china southern
+	HBH, 1, B738, he bei air
+	CBJ, 1, A320, capital jet
+	CUA, 1, B738, lian hang
+	CES, 1, A321, china eastern
+	CSN, 1, A320, china southern
+	CUA, 1, B738, lian hang
+	HBH, 1, B738, he bei air
+	CSN, 1, A321, china southern
+	CSN, 1, A320, china southern
+	CUA, 1, B737, lian hang
+	CSN, 1, A333, china southern
+	CSN, 1, B738, china southern
+	CUA, 1, B738, lian hang
+	CES, 1, A321, china eastern
+	CES, 1, A333, china eastern
+	CCA, 1, B738, air china
+	CSN, 1, B738, china southern
+	CSN, 1, A332, china southern
+	CXA, 1, B738, xia men air
+	CES, 1, A332, china eastern
+	HBH, 1, B738, he bei air
+	CQN, 1, A20N, chong qing
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, A21N, china southern
+	CSN, 1, A320, china southern
+	CSN, 1, A320, china southern
+	CUA, 1, B738, lian hang
+	CES, 1, A333, china eastern
+	CXA, 1, B738, xia men air
+	CSN, 1, A321, china southern
+	CES, 1, B738, china eastern
+	CSN, 1, A359, china southern
+	CSN, 1, A21N, china southern
+	CUA, 1, B738, lian hang
+	HBH, 1, B738, he bei air
+	CUA, 1, B738, lian hang
+	CUA, 1, B737, lian hang
+	CSN, 1, A333, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, B738, china southern
+	CUA, 1, B738, lian hang
+	CES, 1, A320, china eastern
+	CSN, 1, A21N, china southern
+	CSN, 1, A321, china southern
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CES, 1, A321, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, B77W, china southern
+	CUA, 1, B738, lian hang
+	CES, 1, A320, china eastern
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china express
+	CSN, 1, A320, china southern
+	CES, 1, A320, china eastern
+	CDG, 1, B738, shan dong
+	CSN, 1, A320, china southern
+	CSH, 1, B738, shang hai air
+	CCA, 1, B738, air china
+	CES, 1, A320, china eastern
+	CES, 1, A320, china eastern
+	CES, 1, A321, china eastern
+	CES, 1, B738, china eastern
+	CCA, 1, B738, air china
+	CSN, 1, A333, china southern
+	CSN, 1, A332, china southern
+	CUA, 1, B737, lian hang
+	CSN, 1, A320, china southern
+	CXA, 1, B738, xia men air
+	CES, 1, A320, china eastern
+	CSN, 1, A21N, china southern
+	DKH, 1, A321, air juneyao
+	CES, 1, A320, china eastern
+	CSN, 1, B737, china southern
+	CSN, 1, A333, china southern
+	CSN, 1, A320, china southern
+	CSN, 1, A321, china southern
+	CES, 1, B738, china eastern
+	CES, 1, A320, china eastern
+	CCA, 1, B738, air china
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CES, 1, A320, china eastern
+	CQN, 1, A20N, chong qing
+	CSN, 1, A320, china southern
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CCA, 1, A21N, air china
+	CES, 1, A321, china eastern
+	CSN, 1, A332, china southern
+	CSN, 1, A333, china southern
+	CSN, 1, A321, china southern
+	CES, 1, A320, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A333, china southern
+	CSN, 1, B738, china southern
+	CXA, 1, B738, xia men air
+	CBJ, 1, A332, capital jet
+	CSN, 1, A321, china southern
+	CCA, 1, A321, air china
+	CSN, 1, A321, china southern
+	CES, 1, A321, china eastern
+	CSN, 1, B738, china southern
+	CSN, 1, B738, china southern
+	CSN, 1, B738, china southern
+	CES, 1, B737, china eastern
+	CSN, 1, A320, china southern
+	CES, 1, A321, china eastern
+	CCA, 1, A320, air china
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CSN, 1, B738, china southern
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CSN, 1, A333, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, B738, china southern
+	CSN, 1, B738, china southern
+	CCA, 1, B738, air china
+	CXA, 1, B738, xia men air
+	CXA, 1, B738, xia men air
+	CSN, 1, A320, china southern
+	CES, 1, A320, china eastern
+	CSN, 1, A21N, china southern
+	CSN, 1, A321, china southern
+	CCA, 1, A320, air china
+	CSN, 1, A321, china southern
+	CUA, 1, B738, lian hang
+	CSN, 1, A359, china southern
+	CUA, 1, B738, lian hang
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CUA, 1, B738, lian hang
+	CXA, 1, B738, xia men air
+	CES, 1, A320, china eastern
+	CSN, 1, A21N, china southern
+	CSN, 1, A332, china southern
+	CES, 1, B737, china eastern
+	CSN, 1, A320, china southern
+	CES, 1, A321, china eastern
+	CCA, 1, B738, air china
+	HBH, 1, B738, he bei air
+	CUA, 1, B737, lian hang
+	CSN, 1, B789, china southern
+	CSN, 1, A321, china southern
+	CES, 1, A321, china eastern
+	CCA, 1, B738, air china
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CSN, 1, A321, china southern
+	CUA, 1, B738, lian hang
+	CSN, 1, B738, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, A320, china southern
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CXA, 1, B738, xia men air
+	CES, 1, B738, china eastern
+	CSN, 1, B738, china southern
+	HBH, 1, B738, he bei air
+	CSN, 1, A332, china southern
+	CSN, 1, B788, china southern
+	CSN, 1, B738, china southern
+	CES, 1, A333, china eastern
+	HBH, 1, B738, he bei air
+	CCA, 1, B738, air china
+	CSN, 1, B738, china southern
+	CSN, 1, B738, china southern
+	CSN, 1, A320, china southern
+	CSN, 1, A333, china southern
+	CXA, 1, B738, xia men air
+	CES, 1, A321, china eastern
+	HBH, 1, B738, he bei air
+	CSN, 1, B77W, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, B738, china southern
+	CSN, 1, A320, china southern
+	CES, 1, A321, china eastern
+	CBJ, 1, A319, capital jet
+	CES, 1, A333, china eastern
+	BJN, 1, B738, air jing hua
+	CBJ, 1, A320, capital jet
+	CSN, 1, A20N, china southern
+	CCA, 1, B738, air china
+	CXA, 1, B738, xia men air
+	CSN, 1, A320, china southern
+	CSN, 1, A333, china southern
+	CSN, 1, A21N, china southern
+	CSN, 1, A333, china southern
+	CSN, 1, B738, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	HBH, 1, B738, he bei air
+	CXA, 1, B738, xia men air
+	CES, 1, A321, china eastern
+	CSN, 1, A320, china southern
+	CSN, 1, A320, china southern
+	HBH, 1, B738, he bei air
+	CSN, 1, A321, china southern
+	HBH, 1, B738, he bei air
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	BJN, 1, B738, air jing hua
+	CCA, 1, B738, air china
+	CSN, 1, A21N, china southern
+	CSN, 1, A320, china southern
+	CXA, 1, B788, xia men air
+	CES, 1, B738, china eastern
+	CUA, 1, B738, lian hang
+	CXA, 1, B738, xia men air
+	CES, 1, A332, china eastern
+	CSN, 1, A320, china southern
+	CES, 1, A320, china eastern
+	CSN, 1, A320, china southern
+	CSN, 1, A321, china southern
+	CES, 1, B738, china eastern
+	CSN, 1, A320, china southern
+	CES, 1, A320, china eastern
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CES, 1, A332, china eastern
+	CSN, 1, A21N, china southern
+	CSN, 1, A21N, china southern
+	CES, 1, A321, china eastern
+	BJN, 1, B738, air jing hua
+	CUA, 1, B738, lian hang
+	CUA, 1, B737, lian hang
+	CSN, 1, B738, china southern
+	CUA, 1, B738, lian hang
+	CSN, 1, A321, china southern
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CSN, 1, A321, china southern
+	CSN, 1, B738, china southern
+	CXA, 1, B738, xia men air
+	CJX, 1, B738, air crane
+	CSN, 1, A321, china southern
+	CSN, 1, A333, china southern
+	CSN, 1, B738, china southern
+	CCA, 1, B738, air china
+	CXA, 1, B738, xia men air
+	CSN, 1, A321, china southern
+	CSN, 1, B738, china southern
+	CUA, 1, B738, lian hang
+	CES, 1, A332, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	CES, 1, A319, china eastern
+	CSN, 1, A321, china southern
+	CXA, 1, B738, xia men air
+	CES, 1, A333, china eastern
+	CUA, 1, B738, lian hang
+	HBH, 1, B738, he bei air
+	CSN, 1, B789, china southern
+	CBJ, 1, A320, capital jet
+	CES, 1, A321, china eastern
+	CUA, 1, B738, lian hang
+	CES, 1, B738, china eastern
+	CSN, 1, A320, china southern
+	KNA, 1, B738, kun ming air
+	CCA, 1, B738, air china
+	CSN, 1, A320, china southern
+	CSN, 1, A320, china southern
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CSN, 1, A333, china southern
+	CSN, 1, A332, china southern
+	CES, 1, A321, china eastern
+	CES, 1, A320, china eastern
+	CES, 1, A321, china eastern
+	CES, 1, A320, china eastern
+	CES, 1, A320, china eastern
+	CSN, 1, A321, china southern
+	CUA, 1, B738, lian hang
+	CBJ, 1, A320, capital jet
+	CUA, 1, B738, lian hang
+	CUA, 1, B738, lian hang
+	CSN, 1, B738, china southern
+	CES, 1, B737, china eastern
+	CSN, 1, B738, china southern
+	CSN, 1, A321, china southern
+	CSN, 1, A21N, china southern
+	CSN, 1, B788, china southern
+	CUA, 1, B738, lian hang
+	CCA, 1, B737, air china
+	CSN, 1, A321, china southern
+	CES, 1, B738, china eastern
+	CES, 1, B738, china eastern
+	CES, 1, B738, china eastern
+	CES, 1, A321, china eastern
+	CSN, 1, B738, china southern
+	CES, 1, A320, china eastern
+	CSN, 1, A321, china southern
+	CSN, 1, A321, china southern
+	CCA, 1, B738, air china
+	CUA, 1, B738, lian hang
+	AMU, 1, A320, air macao
+	CCA, 1, B738, air china
+	CSN, 1, A332, china southern
+	CSN, 1, A333, china southern
+	CES, 1, A320, china eastern
+	CES, 1, A320, china eastern
+	CSN, 1, B738, china southern
+	CSN, 1, A320, china southern
+	CES, 1, A320, china eastern
+	CCA, 1, B738, air china
+	CES, 1, A321, china eastern
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CSN, 1, B738, china southern
+	CCA, 1, A321, air china
+	CSN, 1, A21N, china southern
+	CSN, 1, B738, china southern
+	CSH, 1, B738, shang hai air
+	CXA, 1, B738, xia men air
+	CUA, 1, B738, lian hang
+	CES, 1, A321, china eastern
+	CES, 1, A320, china eastern
+	CES, 1, B738, china eastern
+	CCA, 1, A321, air china
+	CCA, 1, B738, air china
+	CSN, 1, A333, china southern
+	CSN, 1, A333, china southern
+	CSN, 1, B738, china southern
+	CES, 1, A321, china eastern
+	CDG, 1, B738, shan dong
+	CXA, 1, B738, xia men air
+	CSN, 1, A20N, china southern
+	CXA, 1, B738, xia men air
+	CXA, 1, B738, xia men air
+	CSN, 1, A321, china southern
+	CES, 1, B738, china eastern
+	CCA, 1, A320, air china
+	CCA, 1, A320, air china
+	CSN, 1, A321, china southern
+	CES, 1, A320, china eastern
+	CSN, 1, A332, china southern
+	CBJ, 1, A332, capital jet
+	CES, 1, A332, china eastern
+	CES, 1, B738, china eastern
+	CSN, 1, B738, china southern
+	CSN, 1, B738, china southern
+	CES, 1, A320, china eastern
+	CSN, 1, A320, china southern
+	CES, 1, A321, china eastern
+	CES, 1, A320, china eastern
+	CCA, 1, A20N, air china
+	CES, 1, B738, china eastern
+	CES, 1, A320, china eastern
+	CES, 1, A320, china eastern
+	CBJ, 1, A320, capital jet
+	CES, 1, B737, china eastern
+
+[airport3]
+name = Tianjin Binhai International Airport
+code = TJ
+runways =
+	TJW, 34L, N39.111389, E117.354167, 334.0, 11811, 0, 0, 6
+	TJE, 34R, N39.115444, E117.378556, 334.0, 10499, 0, 0, 5
+climbaltitude = 3000
+sids = 
+	BOTPU, N39.985278, E115.475000
+	ELKUR, N38.639722, E116.665000
+	IDKEX, N40.777778, E116.566667
+	IGMOR, N38.830833, E118.031667
+	MUGLO, N39.070278, E118.034444
+	PEGSO, N38.944722, E115.505278
+	OMDEK, N38.655000, E116.090833
+entrypoints = 
+	306, GUVBA, 19700
+	188, AVBOX, 8900
+	135, DUMAP, 7900
+airlines =
+	CDC, 1, B733, hua long
+	LHA, 1, B733, air canton
+	YZR, 1, B744, yangtze river
+	LHA, 1, B733, air canton
+	HYT, 1, B733, quick air
+	YZR, 1, B744, yangtze river
+	YZR, 1, B733, yangtze river
+	YZR, 1, B733, yangtze river
+	HYT, 1, B733, quick air
+	CSS, 1, B733, shun feng
+	CSS, 1, B733, shun feng
+	YZR, 1, B744, yangtze river
+	YZR, 1, B733, yangtze river
+	LHA, 1, B733, air canton
+	YZR, 1, B733, yangtze river
+	YZR, 1, B744, yangtze river
+	CYZ, 1, B733, china post
+	CSC, 1, A320, si chuan air
+	GCR, 1, A321, bo hai
+	HXA, 1, CRJ9, china express
+	CSC, 1, A321, si chuan air
+	CUA, 1, B738, lian hang
+	CSC, 1, A320, si chuan air
+	CSC, 1, A321, si chuan air
+	CCA, 1, B738, air china
+	OKA, 1, B739, okayjet
+	CXA, 1, B738, xia men air
+	CCA, 1, B737, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	OKA, 1, B738, okayjet
+	OKA, 1, B739, okayjet
+	CCA, 1, B738, air china
+	CSC, 1, A321, si chuan air
+	CXA, 1, B738, xia men air
+	GCR, 1, A20N, bo hai
+	GCR, 1, A320, bo hai
+	CXA, 1, B738, xia men air
+	GCR, 1, A20N, bo hai
+	CCA, 1, B738, air china
+	CSH, 1, B738, shang hai air
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, B737, air china
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CXA, 1, B738, xia men air
+	GCR, 1, A320, bo hai
+	GCR, 1, A332, bo hai
+	CXA, 1, B738, xia men air
+	OKA, 1, B738, okayjet
+	GCR, 1, A320, bo hai
+	GCR, 1, A320, bo hai
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	GCR, 1, E190, bo hai
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	GCR, 1, A320, bo hai
+	GCR, 1, E190, bo hai
+	GCR, 1, A320, bo hai
+	GCR, 1, E190, bo hai
+	CES, 1, B737, china eastern
+	OKA, 1, B738, okayjet
+	CCA, 1, B738, air china
+	CSN, 1, B737, china southern
+	GCR, 1, E195, bo hai
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CCA, 1, B737, air china
+	GCR, 1, A20N, bo hai
+	OKA, 1, B738, okayjet
+	CCA, 1, B738, air china
+	CSN, 1, A321, china southern
+	CDG, 1, B738, shan dong
+	CSC, 1, A321, si chuan air
+	HXA, 1, CRJ9, china express
+	OKA, 1, B738, okayjet
+	TBA, 1, A320, china tibet
+	CSC, 1, A321, si chuan air
+	CSC, 1, A321, si chuan air
+	DKH, 1, A320, air juneyao
+	OKA, 1, B738, okayjet
+	CXA, 1, B738, xia men air
+	OKA, 1, B739, okayjet
+	GCR, 1, E195, bo hai
+	OKA, 1, B738, okayjet
+	CQH, 1, A320, air spring
+	CSN, 1, A321, china southern
+	CCA, 1, A320, air china
+	CHH, 1, B738, hai nan
+	CXA, 1, B738, xia men air
+	CBJ, 1, A319, china capital jet
+	JYH, 1, B738, trans jade
+	JOY, 1, B738, joy air
+	QDA, 1, A320, sky legend
+	CSZ, 1, A320, shen zhen air
+	CCA, 1, A21N, air china
+	CCA, 1, B738, air china
+	CXA, 1, B738, xia men air
+	CDG, 1, B738, shan dong
+	CCA, 1, A320, air china
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	CSH, 1, B738, shang hai air
+	OKA, 1, B739, okayjet
+	FXT, 1, B738, flex flight
+	HXA, 1, CRJ9, china express
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china express
+	OKA, 1, B739, okayjet
+	HXA, 1, CRJ9, china express
+	OKA, 1, B738, okayjet
+	CCA, 1, A319, air china
+	UEA, 1, A320, united eagle
+	CXA, 1, B738, xia men air
+	AMU, 1, A320, air macao
+	GCR, 1, A320, bo hai
+	CSZ, 1, A320, shen zhen air
+	CSH, 1, B738, shang hai air
+	HXA, 1, CRJ9, china express
+	CSN, 1, B738, china southern
+	HXA, 1, CRJ9, china express
+	HXA, 1, A320, china express
+	OKA, 1, B738, okayjet
+	RLH, 1, B737, sen di
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	HXA, 1, A320, china express
+	HXA, 1, CRJ9, china express
+	FZA, 1, B738, strait air
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	CBG, 1, E190, green city
+	CSH, 1, B738, shang hai air
+	HXA, 1, CRJ9, china express
+	GCR, 1, E190, bo hai
+	CES, 1, A320, china eastern
+	CSC, 1, A319, si chuan air
+	CCA, 1, B737, air china
+	HXA, 1, CRJ9, china express
+	CES, 1, B738, china eastern
+	CSN, 1, A333, china southern
+	HXA, 1, CRJ9, china express
+	GCR, 1, A321, bo hai
+	HXA, 1, CRJ9, china express
+	CCA, 1, B738, air china
+	CDG, 1, B738, shan dong
+	HXA, 1, CRJ9, china express
+	GCR, 1, A320, bo hai
+	HXA, 1, CRJ9, china express
+	GCR, 1, A320, bo hai
+	CHH, 1, B738, hai nan
+	LKE, 1, B738, lucky air
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	GCR, 1, A333, bo hai
+	GCR, 1, A332, bo hai
+	OKA, 1, B739, okayjet
+	CCA, 1, B738, air china
+	CCA, 1, B737, air china
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	CES, 1, A320, china eastern
+	CCA, 1, B738, air china
+	CXA, 1, B738, xia men air
+	HXA, 1, CRJ9, china express
+	AAR, 1, B744, asiana
+	CSC, 1, A320, si chuan air
+	HXA, 1, CRJ9, china express
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	GCR, 1, A20N, bo hai
+	HXA, 1, CRJ9, china express
+	GCR, 1, E195, bo hai
+	CSC, 1, A321, si chuan air
+	GCR, 1, E195, bo hai
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	DKH, 1, A320, air juneyao
+	KAL, 1, B744, korean air
+	EPA, 1, B738, dong hai air
+	CCA, 1, B737, air china
+	HXA, 1, A320, china express
+	HXA, 1, CRJ9, china express
+	CSN, 1, A332, china southern
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	CCA, 1, A320, air china
+	GCR, 1, A320, bo hai
+	CCA, 1, B738, air china
+	CUA, 1, B737, lian hang
+	CXA, 1, B738, xia men air
+	GCR, 1, E190, bo hai
+	CSC, 1, A321, si chuan air
+	CCA, 1, B738, air china
+	CCA, 1, B738, air china
+	CCA, 1, B737, air china
+	CSN, 1, A321, china southern
+	GCR, 1, E190, bo hai
+	CSZ, 1, B738, shen zhen air
+	CCA, 1, A320, air china
+	CSZ, 1, B738, shen zhen air
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	CCA, 1, B738, air china
+	HXA, 1, CRJ9, china express
+	GCR, 1, A20N, bo hai
+	OKA, 1, B738, okayjet
+	CSN, 1, A321, china southern
+	CSH, 1, B738, shang hai air
+	FXT, 1, B738, flex flight
+	CSC, 1, A321, si chuan air
+	CCA, 1, B737, air china
+	GCR, 1, A320, bo hai
+	HXA, 1, CRJ9, china express
+	CXA, 1, B738, xia men air
+	HXA, 1, CRJ9, china express
+	GCR, 1, A320, bo hai
+	HXA, 1, CRJ9, china express
+	CCA, 1, B738, air china
+	GCR, 1, E190, bo hai
+	GCR, 1, A20N, bo hai
+	GCR, 1, A320, bo hai
+	CXA, 1, B738, xia men air
+	TBA, 1, A320, china tibet
+	HXA, 1, CRJ9, china express
+	CES, 1, A321, china eastern
+	CCA, 1, B738, air china
+	CSN, 1, B738, china southern
+	HXA, 1, CRJ9, china express
+	HXA, 1, CRJ9, china express
+	GCR, 1, A320, bo hai
+	CXA, 1, B738, xia men air
+	CSN, 1, B738, china southern
+	TBA, 1, A319, china tibet
+	OKA, 1, B739, okayjet
+	CCA, 1, B738, air china
+	UEA, 1, A320, united eagle
+	CGZ, 1, E190, colorful
+	HXA, 1, CRJ9, china express
+	CSZ, 1, A320, shen zhen air
+	RLH, 1, B737, sen di
+	HXA, 1, CRJ9, china express
+	CSH, 1, B738, shang hai air
+	CSN, 1, B738, china southern
+	GCR, 1, A320, bo hai
+	CXA, 1, B738, xia men air
+	HXA, 1, CRJ9, china express
+	CXA, 1, B738, xia men air
+	CCA, 1, A319, air china
+	QDA, 1, A320, sky legend
+	CJX, 1, B738, air crane
+	CSC, 1, A321, si chuan air
+	GCR, 1, A320, bo hai
+	HXA, 1, CRJ9, china express
+	CCA, 1, B738, air china
+	OKA, 1, B739, okayjet
+	CGZ, 1, E190, colorful
+	GCR, 1, A320, bo hai
+	HXA, 1, CRJ9, china express
+	JYH, 1, B738, trans jade
+	GCR, 1, E195, bo hai
+	HXA, 1, CRJ9, china express
+	CBJ, 1, A321, china capital jet
+	CXA, 1, B738, xia men air
+	CCA, 1, B738, air china
+	CHH, 1, B738, hai nan
+	CXA, 1, B738, xia men air
+	TBA, 1, A319, china tibet
+	HVN, 1, A321, viet nam
+	GCR, 1, E195, bo hai
+	GCR, 1, E190, bo hai
+	LKE, 1, B738, lucky air
+	CES, 1, A20N, china eastern
+	HXA, 1, CRJ9, china express
+	CSC, 1, A321, si chuan air
+	CDG, 1, B738, shan dong
+	CCA, 1, B738, air china
+	OKA, 1, B738, okayjet
+	CSC, 1, A320, si chuan air
+	CSN, 1, A320, china southern
+	JOY, 1, B738, joy air
+	HXA, 1, CRJ9, china express
+	OKA, 1, B738, okayjet
+	CES, 1, A20N, china eastern
+	YZR, 1, B733, yangtze river
+	CSS, 1, B752, shun feng
+
+[area1]
+shape = polygon
+altitude = 48900
+name = ZB(P)001
+draw = 1
+labelpos = N39.910000, E116.352500
+points = 
+	N39.816667, E116.475000
+	N39.983333, E116.475000
+	N39.983333, E116.250000
+	N39.816667, E116.250000
+	N39.816667, E116.475000
+
+[area2]
+shape = polygon
+altitude = 13123
+name = FDA
+draw = 1
+labelpos = N41.358334, E116.325000
+points = 
+	N42.050000, E116.233333
+	N41.933333, E115.766667
+	N40.666667, E116.416667
+	N40.800000, E116.850000
+	N42.050000, E116.233333
+
+[area3]
+shape = polygon
+altitude = -1
+draw = 1
+points = 
+	N39.426667, E117.313056
+	N39.291389, E116.670000
+	N39.014167, E116.717222
+	N38.647778, E116.378056
+
+[configurations]
+config1 =
+	0, AAW, landstart
+	0, AAC, landstart
+	0, AAE, landstart
+	10, ADWW, land
+	10, ADW, start
+	10, ADE, land
+	10, ADEE, start
+	16, TJE, land
+	16, TJW, landstart
+
+config2 =
+	0, AAW, landstartrev
+	0, AAC, landstartrev
+	0, AAE, landstartrev
+	10, ADWW, landrev
+	10, ADW, startrev
+	10, ADE, landrev
+	10, ADEE, start
+	16, TJE, landrev
+	16, TJW, landstartrev
+
+[departure1]
+runway = AAW
+route1 = 
+	RUSD9ZD
+	N40.225833, E116.437778, 3000
+	N40.226111, E116.028889, 9800
+	N40.225833, E115.856389, 12800
+	N40.170806, E115.807833, 13800
+	N39.761111, E115.447500, 18700
+route2 = 
+	IGMO9XD
+	N40.225833, E116.437778, 3000
+	N40.226111, E116.028889, 9800
+	N39.765000, E115.940833, 17700
+	N39.169167, E116.021944, 19700
+	N39.137778, E116.741111
+	N38.830833, E118.031667
+route3 = 
+	MUGL9XD
+	N40.225833, E116.437778, 3000
+	N40.226111, E116.028889, 9800
+	N39.765000, E115.940833, 17700
+	N39.169167, E116.021944, 19700
+	N39.137778, E116.741111
+	N39.070278, E118.034444
+route4 = 
+	ELKU9YD
+	N40.225833, E116.437778, 3000
+	N40.226111, E116.028889, 9800
+	N39.765000, E115.940833, 17700
+	N39.169167, E116.021944, 19700
+	N38.639722, E116.665000
+
+[departure2]
+runway = AAC
+route1 = 
+	RUSD9YD
+	N40.225833, E116.437778, 4900
+	N40.226111, E116.028889, 9800
+	N40.225833, E115.856389, 12800
+	N40.170806, E115.807833, 13800
+	N39.761111, E115.447500
+route2 = 
+	DOTR9YD
+	N40.228889, E116.781944, 4900
+	N40.257694, E117.043694, 6900
+	N40.413611, E117.014722, 13800
+	N40.512500, E116.953889
+	N40.757222, E116.801944
+route3 = 
+	IDKE9YD
+	N40.228889, E116.781944, 4900
+	N40.257694, E117.043694, 6900
+	N40.413611, E117.014722, 13800
+	N40.493444, E116.917083
+	N40.777778, E116.566667
+route4 = 
+	BOTP9ZD
+	N40.316389, E116.558333, 4900
+	N40.315778, E115.928611, 13800
+	N40.315000, E115.743611, 14800
+	N39.985278, E115.475000
+route5 = 
+	LULT9YD
+	N40.228889, E116.781944, 4900
+	N40.257694, E117.043694, 6900
+	N39.973333, E117.214167, 7900
+route6 = 
+	IGMO9ZD
+	N40.316389, E116.558333, 4900
+	N40.315778, E115.928611, 13800
+	N39.764750, E115.824306, 19700
+	N39.173806, E115.905750
+	N39.169167, E116.021944
+	N39.137778, E116.741111
+	N38.830833, E118.031667
+route7 = 
+	MUGL9ZD
+	N40.316389, E116.558333, 4900
+	N40.315778, E115.928611, 13800
+	N39.764750, E115.824306, 19700
+	N39.173806, E115.905750
+	N39.169167, E116.021944
+	N39.137778, E116.741111
+	N39.070278, E118.034444
+route8 = 
+	ELKU9ZD
+	N40.316389, E116.558333, 4900
+	N40.315778, E115.928611, 13800
+	N39.764750, E115.824306, 19700
+	N39.173806, E115.905750
+	N39.169167, E116.021944
+	N38.639722, E116.665000
+
+[departure3]
+runway = AAE
+route1 = 
+	DOTR9ZD
+	N40.167278, E116.654306, 3000
+	N40.182472, E116.827028
+	N40.257694, E117.043694, 6900
+	N40.413611, E117.014722, 13800
+	N40.512500, E116.953889
+	N40.757222, E116.801944
+route2 = 
+	IDKE9ZD
+	N40.167278, E116.654306, 3000
+	N40.182472, E116.827028
+	N40.257694, E117.043694, 6900
+	N40.413611, E117.014722, 13800
+	N40.493444, E116.917083
+	N40.777778, E116.566667
+route3 = 
+	LULT9ZD
+	N40.167278, E116.654306, 3000
+	N40.182472, E116.827028
+	N40.257694, E117.043694, 6900
+	N39.973333, E117.214167, 7900
+route4 = 
+	IGMO9YD
+	N40.167278, E116.654306, 3000
+	N40.182472, E116.827028
+	N40.257694, E117.043694, 6900
+	N39.973333, E117.214167, 7900
+	N39.107389, E117.357500, 19700
+	N38.830833, E118.031667
+route5 = 
+	MUGL9YD
+	N40.167278, E116.654306, 3000
+	N40.182472, E116.827028
+	N40.257694, E117.043694, 6900
+	N39.973333, E117.214167, 7900
+	N39.107389, E117.357500, 19700
+	N39.070278, E118.034444
+
+[departure4]
+runway = AAW, rev
+route1 = 
+	BOTP8ZD
+	N39.895278, E116.537222, 3000
+	N39.757278, E116.509389, 4900
+	N39.746083, E116.336222, 7900
+	N39.725222, E116.022083, 12800
+	N39.857278, E115.746778, 13800
+	N39.985278, E115.475000, 15700
+route2 = 
+	RUSD8ZD
+	N39.895278, E116.537222, 3000
+	N39.757278, E116.509389, 4900
+	N39.746083, E116.336222, 7900
+	N39.725222, E116.022083, 12800
+	N39.741333, E115.770083, 13800
+	N39.761111, E115.447500, 18700
+
+[departure5]
+runway = AAC, rev
+route1 = 
+	RUSD8YD
+	N39.879222, E116.627778, 3900
+	N39.644083, E116.663583, 7900
+	N39.585583, E116.050417, 15700
+	N39.599222, E115.838778
+	N39.761111, E115.447500, 18700
+route2 = 
+	ELKU8ZD
+	N39.879222, E116.627778, 3900
+	N39.644083, E116.663583, 7900
+	N39.326250, E116.712444, 13800
+	N39.137778, E116.741111, 16700
+	N38.914194, E116.706806, 18700
+	N38.639722, E116.665000
+route3 = 
+	MUGL8ZD
+	N39.879222, E116.627778, 3900
+	N39.644083, E116.663583, 7900
+	N39.326250, E116.712444, 13800
+	N39.137778, E116.741111, 16700
+	N39.124111, E117.026500, 18700
+	N39.085000, E117.774167, 19700
+	N39.070278, E118.034444
+route4 = 
+	IGMO8ZD
+	N39.879222, E116.627778, 3900
+	N39.644083, E116.663583, 7900
+	N39.326250, E116.712444, 13800
+	N39.137778, E116.741111, 16700
+	N39.124111, E117.026500, 18700
+	N39.085000, E117.774167, 19700
+	N38.830833, E118.031667
+route5 = 
+	IDKE8YD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N40.413611, E117.014722, 13800
+	N40.777778, E116.566667
+route6 = 
+	DOTR8YD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N40.413611, E117.014722, 13800
+	N40.757222, E116.801944
+route7 = 
+	BOTP8XD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N40.413611, E117.014722, 13800
+	N40.279222, E115.999417, 15700
+	N39.985278, E115.475000, 19700
+
+[departure6]
+runway = AAE, rev
+route1 = 
+	IDKE8ZD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N40.413611, E117.014722, 13800
+	N40.777778, E116.566667
+route2 = 
+	DOTR8ZD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N40.413611, E117.014722, 13800
+	N40.757222, E116.801944
+route3 = 
+	LULT8ZD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N39.973333, E117.214167, 7900
+route4 = 
+	IGMO8YD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N39.973333, E117.214167, 7900
+	N39.107389, E117.357500, 19700
+	N39.085000, E117.774167
+	N38.830833, E118.031667
+route5 = 
+	MUGL8YD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N39.973333, E117.214167, 7900
+	N39.107389, E117.357500, 19700
+	N39.085000, E117.774167
+	N39.070278, E118.034444
+route6 = 
+	BOTP8YD
+	N39.978889, E116.695556, 1000, 200
+	N40.000194, E116.885722, 3900
+	N40.022306, E117.087139, 6900
+	N40.413611, E117.014722, 13800
+	N40.279222, E115.999417, 15700
+	N39.985278, E115.475000
+
+[departure7]
+runway = ADEE
+route1 = 
+	IDKE01D
+	N39.490556, E116.641389, 2000, 200
+	N39.545833, E116.786667, 3900
+	N39.599722, E116.928611, 4900
+	N39.682778, E117.149444, 8900
+	N40.068611, E117.078611, 15700
+	N40.413611, E117.014722
+	N40.777778, E116.566667, 17700
+route2 = 
+	DOTR01D
+	N39.490556, E116.641389, 2000, 200
+	N39.545833, E116.786667, 3900
+	N39.599722, E116.928611, 4900
+	N39.682778, E117.149444, 8900
+	N40.068611, E117.078611, 15700
+	N40.413611, E117.014722
+	N40.757222, E116.801944, 17700
+route3 = 
+	ELKU01D
+	N39.490556, E116.641389, 2000, 200
+	N39.476944, E116.767222, 3900
+	N39.339167, E116.837222, 5900
+	N39.128333, E116.943611, 7900
+	N38.948056, E117.034167, 9800
+	N38.639722, E116.665000, 1300
+route4 = 
+	MUGL01D
+	N39.490556, E116.641389, 2000, 200
+	N39.476944, E116.767222, 3900
+	N39.339167, E116.837222, 5900
+	N39.128333, E116.943611, 7900
+	N39.113889, E117.234167, 9800
+	N39.070278, E118.034444
+
+[departure8]
+runway = ADW
+route1 = 
+	OMDE01D
+	N39.681944, E116.370278, 3000
+	N39.673056, E116.270278, 3900, 220
+	N39.658056, E116.104722, 4900
+	N39.594722, E115.953056, 5900
+	N39.447778, E115.976944, 7900
+	N39.169167, E116.021944, 12800
+	N39.051389, E116.037778, 13800
+	N38.655000, E116.090833
+route2 = 
+	PEGS01D
+	N39.681944, E116.370278, 3000
+	N39.673056, E116.270278, 3900, 220
+	N39.658056, E116.104722, 4900
+	N39.594722, E115.953056, 5900
+	N39.447778, E115.976944, 7900
+	N39.169167, E116.021944, 12800
+	N38.944722, E115.505278
+
+[departure9]
+runway = ADW, rev
+route1 = 
+	OMDE11D
+	N39.340833, E116.423333, 2000
+	N39.077500, E116.464444, 6900
+	N38.836389, E116.250556, 11800
+	N38.655000, E116.090833, 13800
+route2 = 
+	PEGS11D
+	N39.340833, E116.423333, 2000
+	N39.206389, E116.108889, 5900
+	N39.154167, E115.987500, 7900
+	N38.944722, E115.505278
+
+[departure10]
+runway = TJE
+route1 = 
+	IDKE7YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N39.117778, E117.141667, 12800
+	N39.385000, E117.023333
+	N39.513611, E116.965556
+	N39.639722, E117.157222, 13800
+	N40.068611, E117.078611, 17700
+	N40.413611, E117.014722, 18700
+	N40.777778, E116.566667, 19700
+route2 = 
+	BOTP7YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N39.117778, E117.141667, 12800
+	N39.385000, E117.023333
+	N39.513611, E116.965556
+	N39.639722, E117.157222, 13800
+	N40.068611, E117.078611, 17700
+	N40.125000, E116.368333, 18700
+	N39.985278, E115.475000, 19700
+route3 = 
+	ELKU7YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N38.639722, E116.665000, 13800
+route4 = 
+	OMDE7YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N38.639722, E116.665000, 13800
+	N38.655000, E116.090833, 14800
+route5 = 
+	PEGS7YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N38.639722, E116.665000, 13800
+	N38.655000, E116.090833, 14800
+	N38.944722, E115.505278
+route6 = 
+	IGMO7YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.830833, E118.031667, 9800
+route7 = 
+	MUGL7YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N39.070278, E118.034444, 8900
+
+[departure11]
+runway = TJW
+route1 = 
+	IDKE5YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N39.117778, E117.141667, 12800
+	N39.385000, E117.023333
+	N39.513611, E116.965556
+	N39.639722, E117.157222, 13800
+	N40.068611, E117.078611, 17700
+	N40.413611, E117.014722, 18700
+	N40.777778, E116.566667, 19700
+route2 = 
+	BOTP5YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N39.117778, E117.141667, 12800
+	N39.385000, E117.023333
+	N39.513611, E116.965556
+	N39.639722, E117.157222, 13800
+	N40.068611, E117.078611, 17700
+	N40.125000, E116.368333, 18700
+	N39.985278, E115.475000, 19700
+route3 = 
+	ELKU5YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N38.639722, E116.665000, 13800
+route4 = 
+	OMDE5YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N38.639722, E116.665000, 13800
+	N38.655000, E116.090833, 14800
+route5 = 
+	PEGS5YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.998611, E117.716667, 6900, 240
+	N39.016667, E117.370833, 11800
+	N38.639722, E116.665000, 13800
+	N38.655000, E116.090833, 14800
+	N38.944722, E115.505278
+route6 = 
+	IGMO5YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N38.830833, E118.031667, 9800
+route7 = 
+	MUGL5YD
+	N39.100000, E117.493056, 3000, 220
+	N39.087500, E117.726389, 5900
+	N39.070278, E118.034444, 8900
+
+[departure12]
+runway = TJE, rev
+route1 = 
+	IDKE6ZD
+	N38.970000, E117.468333, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.929167, E117.225000, 12800
+	N39.385000, E117.023333
+	N39.513611, E116.965556
+	N39.639722, E117.157222, 13800
+	N40.068611, E117.078611, 17700
+	N40.413611, E117.014722, 18700
+	N40.777778, E116.566667, 19700
+route2 = 
+	BOTP6ZD
+	N38.970000, E117.468333, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.929167, E117.225000, 12800
+	N39.385000, E117.023333
+	N39.513611, E116.965556
+	N39.639722, E117.157222, 13800
+	N40.068611, E117.078611, 17700
+	N40.125000, E116.368333, 18700
+	N39.985278, E115.475000, 19700
+route3 = 
+	ELKU6ZD
+	N38.970000, E117.468333, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.639722, E116.665000, 14800
+route4 = 
+	OMDE6ZD
+	N38.970000, E117.468333, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.639722, E116.665000, 13800
+	N38.655000, E116.090833, 14800
+route5 = 
+	PEGS6ZD
+	N38.970000, E117.468333, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.639722, E116.665000, 13800
+	N38.655000, E116.090833, 14800
+	N38.944722, E115.505278
+route6 = 
+	MUGL6ZD
+	N38.970000, E117.468333, 3000
+	N38.997778, E117.705278, 6900
+	N39.070278, E118.034444
+route7 = 
+	IGMO6ZD
+	N38.970000, E117.468333, 3000
+	N38.997778, E117.705278, 6900
+	N38.830833, E118.031667
+
+[departure13]
+runway = TJW, rev
+route1 = 
+	IDKE4ZD
+	N38.965833, E117.443889, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.929167, E117.225000, 12800
+	N39.385000, E117.023333
+	N39.513611, E116.965556
+	N39.639722, E117.157222, 13800
+	N40.068611, E117.078611, 17700
+	N40.413611, E117.014722, 18700
+	N40.777778, E116.566667, 19700
+route2 = 
+	BOTP4ZD
+	N38.965833, E117.443889, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.929167, E117.225000, 12800
+	N39.385000, E117.023333
+	N39.513611, E116.965556
+	N39.639722, E117.157222, 13800
+	N40.068611, E117.078611, 17700
+	N40.125000, E116.368333, 18700
+	N39.985278, E115.475000, 19700
+route3 = 
+	ELKU4ZD
+	N38.965833, E117.443889, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.639722, E116.665000, 13800
+route4 = 
+	OMDE4ZD
+	N38.965833, E117.443889, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.639722, E116.665000, 13800
+	N38.655000, E116.090833, 14800
+route5 = 
+	PEGS4ZD
+	N38.965833, E117.443889, 3000
+	N38.997778, E117.705278, 6900
+	N38.908611, E117.722222, 7900, 220
+	N38.894722, E117.603889, 8900
+	N38.930000, E117.397778, 11800
+	N38.639722, E116.665000, 13800
+	N38.655000, E116.090833, 14800
+	N38.944722, E115.505278
+route6 = 
+	MUGL4ZD
+	N38.965833, E117.443889, 3000
+	N38.997778, E117.705278, 6900
+	N39.070278, E118.034444
+route7 = 
+	IGMO4ZD
+	N38.965833, E117.443889, 3000
+	N38.997778, E117.705278, 6900
+	N38.830833, E118.031667
+
+[approach1]
+runway = AAE
+beacon = GUVBA
+route1 = 101, GUV9YA, guvba niner yankee alpha
+	N40.433333, E115.530556, 14800
+	N40.421111, E116.595556, 9800
+	N40.419722, E116.679167, 9800
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach2]
+runway = AAW
+beacon = GUVBA
+route1 = 101, GUV9ZA, guvba niner zulu alpha
+	N40.433333, E115.530556, 14800
+	N40.335583, E115.592111, 12800
+	N39.773139, E115.942389, 9800
+	N39.605722, E116.409417, 7900, 200
+	N39.627639, E116.643167, 6900, 180
+	21.8, 5900, 180
+
+[approach3]
+runway = AAC
+beacon = GUVBA
+route1 = 101, GUV9ZA, guvba niner zulu alpha
+	N40.433333, E115.530556, 14800
+	N40.335583, E115.592111, 12800
+	N39.773139, E115.942389, 9800
+	N39.605722, E116.409417, 7900, 200
+	N39.629778, E116.666389, 6900, 180
+	20.9, 6900, 180
+
+[approach4]
+runway = AAE
+beacon = OSUBA
+route1 = 199, OSU9ZA, osuba niner zulu alpha
+	N40.736389, E117.037222, 12800
+	N40.610028, E116.893694, 9800
+	N40.419722, E116.679167, 9800
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach5]
+runway = AAW
+beacon = DUGEB
+route1 = 033, DUG9ZA, dugeb niner zulu alpha
+	N38.661944, E115.803889, 17700
+	N38.846917, E116.125306, 16700
+	N39.056944, E116.495278, 14800
+	N39.499722, E116.426111, 8900
+	N39.605722, E116.409417, 7900, 200
+	N39.627639, E116.643167, 6900, 180
+	21.8, 5900, 180
+
+[approach6]
+runway = AAC
+beacon = DUGEB
+route1 = 033, DUG9ZA, dugeb niner zulu alpha
+	N38.661944, E115.803889, 17700
+	N38.846917, E116.125306, 16700
+	N39.056944, E116.495278, 14800
+	N39.499722, E116.426111, 8900
+	N39.605722, E116.409417, 7900, 200
+	N39.629778, E116.666389, 6900, 180
+	20.9, 6900, 180
+
+[approach7]
+runway = AAW
+beacon = AVBOX
+route1 = 022, AVB9ZA, avbox niner zulu alpha
+	N38.647778, E116.378056, 17700
+	N39.056944, E116.495278, 14800
+	N39.499722, E116.426111, 8900
+	N39.605722, E116.409417, 7900, 200
+	N39.627639, E116.643167, 6900, 180
+	21.8, 5900, 180
+
+[approach8]
+runway = AAC
+beacon = AVBOX
+route1 = 022, AVB9ZA, avbox niner zulu alpha
+	N38.647778, E116.378056, 17700
+	N39.056944, E116.495278, 14800
+	N39.499722, E116.426111, 8900
+	N39.605722, E116.409417, 7900, 200
+	N39.629778, E116.666389, 6900, 180
+	20.9, 6900, 180
+
+[approach9]
+runway = AAE
+beacon = DUMAP
+route1 = 299, DUM9ZA
+	N38.591389, E118.029167, 17700
+	N38.859167, E117.256389, 17700
+	N39.035611, E117.178583, 16700
+	N39.384889, E117.023250, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach10]
+runway = AAW
+beacon = AA441, N39.605722, E116.409417
+route1 = 089, ILSz36L
+	N39.605722, E116.409417, 7900, 200
+	N39.627639, E116.643167, 6900, 180
+	21.8, 5900, 180
+
+[approach11]
+runway = AAC
+beacon = AA441, N39.605722, E116.409417
+route1 = 089, ILSz36R
+	N39.605722, E116.409417, 7900, 200
+	N39.629778, E116.666389, 6900, 180
+	20.9, 6900, 180
+
+[approach12]
+runway = AAE
+beacon = AA421, N39.656389, E116.796667
+route1 = 269, ILSz01
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach13]
+runway = AAW, rev
+beacon = GUVBA
+route1 = 101, GUVB8ZA
+	N40.433333, E115.530556, 14800
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach14]
+runway = AAW, rev
+beacon = DUGEB
+route1 = 101, DUGE8ZA
+	N38.661944, E115.803889, 17700
+	N39.028889, E116.200278, 16700
+	N39.425139, E116.140417
+	N39.711250, E116.096611, 16700
+	N39.828361, E116.078556, 14800
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333, 9800
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+route2 = 101, DUGE8YA
+	N38.661944, E115.803889, 17700
+	N39.028889, E116.200278, 16700
+	N39.425139, E116.140417
+	N39.711250, E116.096611, 16700
+	N39.828361, E116.078556, 14800
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333, 9800
+	N40.230278, E115.725222
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach15]
+runway = AAE, rev
+beacon = AVBOX
+route1 = 022, AVBO8ZA
+	N38.647778, E116.378056, 17700
+	N38.859167, E117.256389, 17700
+	N39.033194, E117.179639, 16700
+	N39.384889, E117.023167, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach16]
+runway = AAC, rev
+beacon = AVBOX
+route1 = 022, AVBO8ZA
+	N38.647778, E116.378056, 17700
+	N38.859167, E117.256389, 17700
+	N39.033194, E117.179639, 16700
+	N39.384889, E117.023167, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach17]
+runway = AAE, rev
+beacon = DUMAP
+route1 = 119, DUMA8ZA
+	N38.591389, E118.029167, 17700
+	N38.859167, E117.256389, 17700
+	N39.033194, E117.179639, 16700
+	N39.384889, E117.023167, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach18]
+runway = AAC, rev
+beacon = DUMAP
+route1 = 119, DUMA8ZA
+	N38.591389, E118.029167, 17700
+	N38.859167, E117.256389, 17700
+	N39.033194, E117.179639, 16700
+	N39.384889, E117.023167, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach19]
+runway = AAE, rev
+beacon = OSUBA
+route1 = 199, OSUB8ZA
+	N40.736389, E117.037222, 12800
+	N40.678111, E116.971000, 11800
+	N40.535222, E116.809333, 9800
+	N40.230167, E116.856278, 6900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach20]
+runway = AAC, rev
+beacon = OSUBA
+route1 = 199, OSUB8ZA
+	N40.736389, E117.037222, 12800
+	N40.678111, E116.971000, 11800
+	N40.535222, E116.809333, 9800
+	N40.230167, E116.856278, 6900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach21]
+runway = AAW, rev
+beacon = AA581, N40.405917, E116.450361
+route1 = 096, ILSz18R
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach22]
+runway = AAE, rev
+beacon = AA521, N40.372222, E116.686556
+route1 = 269, ILSz19
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach23]
+runway = AAC, rev
+beacon = AA521, N40.372222, E116.686556
+route1 = 269, ILSz18L
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach24]
+runway = ADWW
+beacon = AVBOX
+route1 = 022
+	N38.647778, E116.378056, 11800
+	N39.016389, E116.465833, 6900, 210
+	N39.107222, E116.451111, 5900
+	12.1, 3900, 180
+
+[approach25]
+runway = ADE
+beacon = AVBOX
+route1 = 022
+	N38.647778, E116.378056, 11800
+	N39.016389, E116.465833, 6900, 210
+	N39.110556, E116.486944, 5900
+	9.1, 3000, 180
+
+[approach26]
+runway = ADWW
+beacon = DUMAP
+route1 = 119
+	N38.591389, E118.029167, 12800
+	N38.895556, E117.149722, 7900
+	N39.026667, E116.762500, 5900
+	N39.134722, E116.746111, 4900
+	N39.123333, E116.624722, 3900, 210
+	N39.107222, E116.451111, 3900
+	12.1, 3900, 180
+
+[approach27]
+runway = ADE
+beacon = DUMAP
+route1 = 119
+	N38.591389, E118.029167, 12800
+	N38.895556, E117.149722, 7900
+	N39.026667, E116.762500, 5900
+	N39.134722, E116.746111, 4900
+	N39.123333, E116.624722, 3900, 210
+	N39.110556, E116.486944, 3900
+	9.1, 3000, 180
+
+[approach28]
+runway = ADWW
+beacon = BUMDU
+route1 = 028
+	N40.713889, E117.281944, 14800
+	N40.357500, E117.025000, 14800
+	N40.120833, E116.856389, 13800
+	N39.969444, E116.748889, 11800
+	N39.592500, E116.807222, 5900
+	N39.570556, E116.555833, 3900
+	N39.260278, E116.603889
+	N39.123333, E116.624722, 3900, 210
+	N39.107222, E116.451111, 3900
+	12.1, 3900, 180
+
+[approach29]
+runway = ADE
+beacon = BUMDU
+route1 = 028
+	N40.713889, E117.281944, 14800
+	N40.357500, E117.025000, 14800
+	N40.120833, E116.856389, 13800
+	N39.969444, E116.748889, 11800
+	N39.592500, E116.807222, 5900
+	N39.570556, E116.555833, 3900
+	N39.260278, E116.603889
+	N39.123333, E116.624722, 3900, 210
+	N39.110556, E116.486944, 3900
+	9.1, 3000, 180
+
+[approach30]
+runway = ADWW
+beacon = AD621, N39.123333, E116.624722
+route1 = 269
+	N39.123333, E116.624722, 3900, 210
+	N39.107222, E116.451111, 3900
+	12.1, 3900, 180
+
+[approach31]
+runway = ADE
+beacon = AD621, N39.123333, E116.624722
+route1 = 269
+	N39.123333, E116.624722, 3900, 210
+	N39.110556, E116.486944, 3900
+	9.1, 3000, 180
+
+[approach32]
+runway = ADWW
+beacon = AD645, N39.016389, E116.465833
+route1 = 359
+	N39.016389, E116.465833, 6900, 210
+	N39.107222, E116.451111, 5900
+	12.1, 3900, 180
+
+[approach33]
+runway = ADE
+beacon = AD645, N39.016389, E116.465833
+route1 = 017
+	N39.016389, E116.465833, 6900, 210
+	N39.110556, E116.486944, 5900
+	9.1, 3000, 180
+
+[approach34]
+runway = ADWW
+beacon = ELAPU
+route1 = 281
+	N40.209167, E115.502778, 12800
+	N39.898333, E115.605000, 12800
+	N39.455000, E115.749167, 11800
+	N39.498056, E116.129167, 8900
+	N39.264722, E116.165556
+	N39.082222, E116.192222, 5900, 210
+	N39.107222, E116.451111, 5900
+	12.1, 3900, 180
+
+[approach35]
+runway = ADE
+beacon = ELAPU
+route1 = 281
+	N40.209167, E115.502778, 12800
+	N39.898333, E115.605000, 12800
+	N39.455000, E115.749167, 11800
+	N39.498056, E116.129167, 8900
+	N39.264722, E116.165556
+	N39.082222, E116.192222, 5900, 210
+	N39.110556, E116.486944, 5900
+	9.1, 3000, 180
+
+[approach36]
+runway = ADWW
+beacon = BELAX
+route1 = 251
+	N38.720000, E115.526389, 11800
+	N38.933611, E115.991111
+	N39.082222, E116.192222, 5900, 210
+	N39.107222, E116.451111, 5900
+	12.1, 3900, 180
+
+[approach37]
+runway = ADE
+beacon = BELAX
+route1 = 251
+	N38.720000, E115.526389, 11800
+	N38.933611, E115.991111
+	N39.082222, E116.192222, 5900, 210
+	N39.110556, E116.486944, 5900
+	9.1, 3000, 180
+
+[approach38]
+runway = ADWW
+beacon = AD661, N39.082222, E116.192222
+route1 = 089
+	N39.082222, E116.192222, 5900, 210
+	N39.107222, E116.451111, 5900
+	12.1, 3900, 180
+
+[approach39]
+runway = ADE
+beacon = AD661, N39.082222, E116.192222
+route1 = 089
+	N39.082222, E116.192222, 5900, 210
+	N39.110556, E116.486944, 5900
+	9.1, 3000, 180
+
+[approach40]
+runway = ADE, rev
+beacon = AVBOX
+route1 = 022
+	N38.647778, E116.378056, 11800
+	N39.070000, E116.633056, 5900
+	N39.260278, E116.603889
+	N39.463056, E116.572500
+	N39.570556, E116.555833, 3000
+	N39.805278, E116.518889, 2000, 210
+	N39.792222, E116.380556
+	5.9, 2000, 160
+
+[approach41]
+runway = ADE, rev
+beacon = DUMAP
+route1 = 119
+	N38.591389, E118.029167, 12800
+	N38.895556, E117.149722, 7900
+	N39.026667, E116.762500, 5900
+	N39.070000, E116.633056, 5900
+	N39.260278, E116.603889
+	N39.463056, E116.572500
+	N39.570556, E116.555833, 3000
+	N39.805278, E116.518889, 2000, 210
+	N39.792222, E116.380556
+	5.9, 2000, 160
+
+[approach42]
+runway = ADE, rev
+beacon = BUMDU
+route1 = 028
+	N40.713889, E117.281944, 14800
+	N40.120833, E116.856389, 13800
+	N39.969444, E116.748889, 11800
+	N39.592500, E116.807222, 5900
+	N39.570556, E116.555833, 3000
+	N39.805278, E116.518889, 2000, 210
+	N39.792222, E116.380556
+	5.9, 2000, 160
+
+[approach43]
+runway = ADWW, rev
+beacon = ELAPU
+route1 = 281
+	N40.209167, E115.502778, 12800
+	N39.898333, E115.605000, 12800
+	N39.455000, E115.749167, 11800
+	N39.498056, E116.129167, 8900
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.788889, E116.344167, 3900
+	12.1, 3900, 180
+
+[approach44]
+runway = ADE, rev
+beacon = ELAPU
+route1 = 281
+	N40.209167, E115.502778, 12800
+	N39.898333, E115.605000, 12800
+	N39.455000, E115.749167, 11800
+	N39.498056, E116.129167, 8900
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.792222, E116.380556, 3900
+	5.9, 2000, 160
+
+[approach45]
+runway = ADWW, rev
+beacon = BELAX
+route1 = 251
+	N38.720000, E115.526389, 11800
+	N38.960556, E116.050000
+	N39.028889, E116.200278, 11800
+	N39.264722, E116.165556
+	N39.390833, E116.145556, 7900
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.788889, E116.344167, 3900
+	12.1, 3900, 180
+
+[approach46]
+runway = ADE, rev
+beacon = BELAX
+route1 = 251
+	N38.720000, E115.526389, 11800
+	N38.960556, E116.050000
+	N39.028889, E116.200278, 11800
+	N39.264722, E116.165556
+	N39.390833, E116.145556, 7900
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.792222, E116.380556, 3900
+	5.9, 2000, 160
+
+[approach47]
+runway = ADWW, rev
+beacon = AD761, N39.775556, E116.204444
+route1 = 089
+	N39.775556, E116.204444, 4900, 210
+	N39.788889, E116.344167, 3900
+	12.1, 3900, 180
+
+[approach48]
+runway = ADE, rev
+beacon = AD761, N39.775556, E116.204444
+route1 = 089
+	N39.775556, E116.204444, 4900, 210
+	N39.792222, E116.380556, 3900
+	5.9, 2000, 160
+
+[approach49]
+runway = ADE, rev
+beacon = AD721, N39.805278, E116.518889
+route1 = 269
+	N39.805278, E116.518889, 2000, 210
+	N39.792222, E116.380556
+	5.9, 2000, 160
+
+[approach50]
+runway = TJE
+beacon = GUVBA
+route1 = 101
+	N40.433333, E115.530556, 19700
+	N40.413611, E117.014722, 19700
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+route2 = 102
+	N40.433333, E115.530556, 19700
+	N40.413611, E117.014722, 19700
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.117778, E117.141667, 7900
+	N38.783333, E117.183333, 3900
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.796944, E117.572778, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach51]
+runway = TJW
+beacon = GUVBA
+route1 = 101
+	N40.433333, E115.530556, 19700
+	N40.413611, E117.014722, 19700
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.117778, E117.141667, 7900
+	N38.783333, E117.183333, 3900
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+route2 = 102
+	N40.433333, E115.530556, 19700
+	N40.413611, E117.014722, 19700
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach52]
+runway = TJE
+beacon = DUMAP
+route1 = 119
+	N38.591389, E118.029167, 7900
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach53]
+runway = TJW
+beacon = DUMAP
+route1 = 119
+	N38.591389, E118.029167, 7900
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach54]
+runway = TJE
+beacon = AVBOX
+route1 = 202
+	N38.647778, E116.378056, 8900
+	N38.846944, E116.853889, 4900
+	N38.783333, E117.183333, 3900
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.796944, E117.572778, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+	
+[approach55]
+runway = TJW
+beacon = AVBOX
+route1 = 202
+	N38.647778, E116.378056, 8900
+	N38.846944, E116.853889, 4900
+	N38.783333, E117.183333, 3900
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach55]
+runway = TJE
+beacon = TJ840, N38.775556, E117.585833
+route1 = 304
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach56]
+runway = TJE
+beacon = TJ830, N38.796944, E117.572778
+route1 = 340
+	N38.796944, E117.572778, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach57]
+runway = TJW
+beacon = TJ820, N38.789722, E117.554167
+route1 = 070
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach58]
+runway = TJE, rev
+beacon = GUVBA
+route1 = 101
+	N40.433333, E115.530556, 19700
+	N40.413611, E117.014722, 19700
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach59]
+runway = TJW, rev
+beacon = GUVBA
+route1 = 101
+	N40.433333, E115.530556, 19700
+	N40.413611, E117.014722, 19700
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.117778, E117.141667, 7900
+	N38.783333, E117.183333
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach60]
+runway = TJE, rev
+beacon = DUMAP
+route1 = 119
+	N38.591389, E118.029167, 7900
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach61]
+runway = TJW, rev
+beacon = DUMAP
+route1 = 119
+	N38.591389, E118.029167, 7900
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach62]
+runway = TJE, rev
+beacon = AVBOX
+route1 = 202
+	N38.647778, E116.378056, 8900
+	N38.775000, E116.683333, 5900
+	N38.847778, E116.853889, 4900
+	N38.783333, E117.183333
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach63]
+runway = TJW, rev
+beacon = AVBOX
+route1 = 202
+	N38.647778, E116.378056, 8900
+	N38.775000, E116.683333, 5900
+	N38.847778, E116.853889, 4900
+	N38.783333, E117.183333
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach64]
+runway = TJE, rev
+beacon = TJ961, N39.204167, E117.454167
+route1 = 070
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach65]
+runway = TJW, rev
+beacon = TJ961, N39.204167, E117.454167
+route1 = 070
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach66]
+runway = TJE, rev
+beacon = TJ960, N39.300000, E117.391667
+route1 = 340
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach67]
+runway = TJW, rev
+beacon = TJ960, N39.300000, E117.391667
+route1 = 340
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach68]
+runway = TJE, rev
+beacon = TJ919, N39.213333, E117.163056
+route1 = 340
+	N39.213333, E117.163056, 3000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach69]
+runway = TJW, rev
+beacon = TJ919, N39.213333, E117.163056
+route1 = 340
+	N39.213333, E117.163056, 3000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach70]
+runway = AAE
+beacon = AA423, N40.419722, E116.679167
+route1 = 101
+	N40.419722, E116.679167, 9800
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach71]
+runway = AAE
+beacon = AA422, N40.038056, E116.738333
+route1 = 179
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach72]
+runway = AAE
+beacon = AA428, N39.035611, E117.178583
+route1 = 347
+	N39.035611, E117.178583, 16700
+	N39.384889, E117.023250, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach73]
+runway = AAE
+beacon = AA427, N39.384889, E117.023250
+route1 = 347
+	N39.384889, E117.023250, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach74]
+runway = AAE
+beacon = AA426, N39.535833, E116.955556
+route1 = 347
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach75]
+runway = AAE
+beacon = AA425, N40.050833, E116.878056
+route1 = 359
+	N40.050833, E116.878056
+	N40.038056, E116.738333, 7900
+	N39.656389, E116.796667, 4900, 200
+	N39.645778, E116.681222, 3900, 180
+	12.1, 3900, 180
+
+[approach76]
+runway = AAW
+beacon = AA442, N39.499722, E116.426111
+route1 = 359
+	N39.499722, E116.426111, 8900
+	N39.605722, E116.409417, 7900, 200
+	N39.627639, E116.643167, 6900, 180
+	21.8, 5900, 180
+
+[approach77]
+runway = AAC
+beacon = AA442, N39.499722, E116.426111
+route1 = 359
+	N39.499722, E116.426111, 8900
+	N39.605722, E116.409417, 7900, 200
+	N39.629778, E116.666389, 6900, 180
+	20.9, 6900, 180
+
+[approach78]
+runway = AAW, rev
+beacon = AA567, N39.425139, E116.140417
+route1 = 359
+	N39.425139, E116.140417
+	N39.711250, E116.096611, 16700
+	N39.828361, E116.078556, 14800
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333, 9800
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+route2 = 358
+	N39.425139, E116.140417
+	N39.711250, E116.096611, 16700
+	N39.828361, E116.078556, 14800
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333
+	N40.230278, E115.725222, 9800
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach79]
+runway = AAW, rev
+beacon = AA566, N39.711250, E116.096611
+route1 = 359
+	N39.711250, E116.096611, 16700
+	N39.828361, E116.078556, 14800
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333, 9800
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+route2 = 358
+	N39.711250, E116.096611, 16700
+	N39.828361, E116.078556, 14800
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333
+	N40.230278, E115.725222, 9800
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach80]
+runway = AAW, rev
+beacon = AA565, N39.828361, E116.078556
+route1 = 359
+	N39.828361, E116.078556, 14800
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333, 9800
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+route2 = 358
+	N39.828361, E116.078556, 14800
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333
+	N40.230278, E115.725222, 9800
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach81]
+runway = AAW, rev
+beacon = AA564, N40.037028, E116.046250
+route1 = 359
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333, 9800
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+route2 = 358
+	N40.037028, E116.046250, 11800
+	N40.216111, E116.018333
+	N40.230278, E115.725222, 9800
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach82]
+runway = AAW, rev
+beacon = AA563, N40.216111, E116.018333
+route1 = 359
+	N40.216111, E116.018333, 9800
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+route2 = 358
+	N40.216111, E116.018333
+	N40.230278, E115.725222, 9800
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach83]
+runway = AAW, rev
+beacon = AA562, N40.230278, E115.725222
+route1 = 280
+	N40.230278, E115.725222, 9800
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach84]
+runway = AAW, rev
+beacon = AA561, N40.423639, E115.740778
+route1 = 010
+	N40.423639, E115.740778
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach85]
+runway = AAW, rev
+beacon = AA582, N40.403333, E116.156389
+route1 = 100
+	N40.403333, E116.156389, 8900
+	N40.405917, E116.450361, 4900, 200
+	N40.406417, E116.521028, 4900, 180
+	12.0, 3900, 180
+
+[approach86]
+runway = AAE, rev
+beacon = AA547, N39.033194, E117.179639
+route1 = 347
+	N39.033194, E117.179639, 16700
+	N39.384889, E117.023167, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach87]
+runway = AAE, rev
+beacon = AA546, N39.384889, E117.023167
+route1 = 347
+	N39.384889, E117.023167, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach88]
+runway = AAE, rev
+beacon = AA545, N39.535833, E116.955556
+route1 = 347
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach89]
+runway = AAE, rev
+beacon = AA544, N40.050833, E116.878056
+route1 = 359
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach90]
+runway = AAE, rev
+beacon = AA543, N40.038194, E116.738306
+route1 = 269
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach91]
+runway = AAE, rev
+beacon = AA522, N40.217389, E116.710611
+route1 = 359
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach92]
+runway = AAE, rev
+beacon = AA523, N40.230167, E116.856278
+route1 = 179
+	N40.230167, E116.856278, 6900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.361472, E116.569472, 3900, 180
+	11.3, 3900, 180
+
+[approach93]
+runway = AAC, rev
+beacon = AA547, N39.033194, E117.179639
+route1 = 347
+	N39.033194, E117.179639, 16700
+	N39.384889, E117.023167, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach94]
+runway = AAC, rev
+beacon = AA546, N39.384889, E117.023167
+route1 = 347
+	N39.384889, E117.023167, 14800
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach95]
+runway = AAC, rev
+beacon = AA545, N39.535833, E116.955556
+route1 = 347
+	N39.535833, E116.955556, 13800
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach96]
+runway = AAC, rev
+beacon = AA544, N40.050833, E116.878056
+route1 = 359
+	N40.050833, E116.878056
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach97]
+runway = AAC, rev
+beacon = AA543, N40.038194, E116.738306
+route1 = 269
+	N40.038194, E116.738306, 7900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach98]
+runway = AAC, rev
+beacon = AA522, N40.217389, E116.710611
+route1 = 359
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach99]
+runway = AAC, rev
+beacon = AA523, N40.230167, E116.856278
+route1 = 179
+	N40.230167, E116.856278, 6900
+	N40.217389, E116.710611, 5900
+	N40.372222, E116.686556, 3900, 200
+	N40.359889, E116.552250, 3900, 180
+	16.2, 3900, 180
+
+[approach100]
+runway = ADWW
+beacon = AD647, N39.134722, E116.746111
+route1 = 359
+	N39.134722, E116.746111, 4900
+	N39.123333, E116.624722, 3900, 210
+	N39.107222, E116.451111, 3900
+	12.1, 3900, 180
+
+[approach101]
+runway = ADE
+beacon = AD647, N39.134722, E116.746111
+route1 = 359
+	N39.134722, E116.746111, 4900
+	N39.123333, E116.624722, 3900, 210
+	N39.110556, E116.486944, 3900
+	9.1, 3000, 180
+
+[approach102]
+runway = ADWW
+beacon = AD623, N39.592500, E116.807222
+route1 = 179
+	N39.592500, E116.807222, 5900
+	N39.570556, E116.555833, 3900
+	N39.260278, E116.603889
+	N39.123333, E116.624722, 3900, 210
+	N39.107222, E116.451111, 3900
+	12.1, 3900, 180
+
+[approach103]
+runway = ADWW
+beacon = AD622, N39.570556, E116.555833
+route1 = 269
+	N39.570556, E116.555833, 3900
+	N39.260278, E116.603889
+	N39.123333, E116.624722, 3900, 210
+	N39.107222, E116.451111, 3900
+	12.1, 3900, 180
+
+[approach104]
+runway = ADWW
+beacon = AD646, N39.260278, E116.603889
+route1 = 179
+	N39.260278, E116.603889
+	N39.123333, E116.624722, 3900, 210
+	N39.107222, E116.451111, 3900
+	12.1, 3900, 180
+
+[approach105]
+runway = ADE
+beacon = AD623, N39.592500, E116.807222
+route1 = 179
+	N39.592500, E116.807222, 5900
+	N39.570556, E116.555833, 3900
+	N39.260278, E116.603889
+	N39.123333, E116.624722, 3900, 210
+	N39.110556, E116.486944, 3900
+	9.1, 3000, 180
+
+[approach106]
+runway = ADE
+beacon = AD622, N39.570556, E116.555833
+route1 = 269
+	N39.570556, E116.555833, 3900
+	N39.260278, E116.603889
+	N39.123333, E116.624722, 3900, 210
+	N39.110556, E116.486944, 3900
+	9.1, 3000, 180
+
+[approach107]
+runway = ADE
+beacon = AD646, N39.260278, E116.603889
+route1 = 179
+	N39.260278, E116.603889
+	N39.123333, E116.624722, 3900, 210
+	N39.110556, E116.486944, 3900
+	9.1, 3000, 180
+
+[approach108]
+runway = ADWW
+beacon = AD682, N39.498056, E116.129167
+route1 = 089
+	N39.498056, E116.129167, 8900
+	N39.264722, E116.165556
+	N39.082222, E116.192222, 5900, 210
+	N39.107222, E116.451111, 5900
+	12.1, 3900, 180
+
+[approach109]
+runway = ADWW
+beacon = AD768, N39.264722, E116.165556
+route1 = 179
+	N39.264722, E116.165556
+	N39.082222, E116.192222, 5900, 210
+	N39.107222, E116.451111, 5900
+	12.1, 3900, 180
+
+[approach110]
+runway = ADE
+beacon = AD682, N39.498056, E116.129167
+route1 = 089
+	N39.498056, E116.129167, 8900
+	N39.264722, E116.165556
+	N39.082222, E116.192222, 5900, 210
+	N39.110556, E116.486944, 5900
+	9.1, 3000, 180
+
+[approach111]
+runway = ADE
+beacon = AD768, N39.264722, E116.165556
+route1 = 179
+	N39.264722, E116.165556
+	N39.082222, E116.192222, 5900, 210
+	N39.110556, E116.486944, 5900
+	9.1, 3000, 180
+
+[approach112]
+runway = ADE, rev
+beacon = AD646, N39.260278, E116.603889
+route1 = 359
+	N39.260278, E116.603889
+	N39.463056, E116.572500, 3000
+	N39.570556, E116.555833
+	N39.805278, E116.518889, 2000, 210
+	N39.792222, E116.380556
+	5.9, 2000, 160
+
+[approach113]
+runway = ADE, rev
+beacon = AD741, N39.463056, E116.572500
+route1 = 359
+	N39.463056, E116.572500, 3000
+	N39.570556, E116.555833
+	N39.805278, E116.518889, 2000, 210
+	N39.792222, E116.380556
+	5.9, 2000, 160
+
+[approach114]
+runway = ADE, rev
+beacon = AD722, N39.570556, E116.555833
+route1 = 359
+	N39.570556, E116.555833, 3000
+	N39.805278, E116.518889, 2000, 210
+	N39.792222, E116.380556
+	5.9, 2000, 160
+
+[approach115]
+runway = ADE, rev
+beacon = AD723, N39.592500, E116.807222
+route1 = 179
+	N39.592500, E116.807222, 5900
+	N39.570556, E116.555833, 3000
+	N39.805278, E116.518889, 2000, 210
+	N39.792222, E116.380556
+	5.9, 2000, 160
+
+[approach116]
+runway = ADE, rev
+beacon = AD768, N39.264722, E116.165556
+route1 = 359
+	N39.264722, E116.165556
+	N39.390833, E116.145556, 7900
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.792222, E116.380556, 3900
+	5.9, 2000, 160
+
+[approach117]
+runway = ADE, rev
+beacon = AD763, N39.390833, E116.145556
+route1 = 359
+	N39.390833, E116.145556, 7900
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.792222, E116.380556, 3900
+	5.9, 2000, 160
+
+[approach118]
+runway = ADE, rev
+beacon = AD783, N39.498056, E116.129167
+route1 = 359
+	N39.498056, E116.129167
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.792222, E116.380556, 3900
+	5.9, 2000, 160
+
+[approach119]
+runway = ADE, rev
+beacon = AD762, N39.764444, E116.088333
+route1 = 359
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.792222, E116.380556, 3900
+	5.9, 2000, 160
+
+[approach120]
+runway = ADWW, rev
+beacon = AD768, N39.264722, E116.165556
+route1 = 359
+	N39.264722, E116.165556
+	N39.390833, E116.145556, 7900
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.788889, E116.344167, 3900
+	12.1, 3900, 180
+
+[approach121]
+runway = ADWW, rev
+beacon = AD763, N39.390833, E116.145556
+route1 = 359
+	N39.390833, E116.145556, 7900
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.788889, E116.344167, 3900
+	12.1, 3900, 180
+
+[approach122]
+runway = ADWW, rev
+beacon = AD783, N39.498056, E116.129167
+route1 = 359
+	N39.498056, E116.129167
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.788889, E116.344167, 3900
+	12.1, 3900, 180
+
+[approach123]
+runway = ADWW, rev
+beacon = AD762, N39.764444, E116.088333
+route1 = 359
+	N39.764444, E116.088333, 5900
+	N39.775556, E116.204444, 4900, 210
+	N39.788889, E116.344167, 3900
+	12.1, 3900, 180
+
+[approach124]
+runway = TJE
+beacon = TJ868, N39.639722, E117.157222
+route1 = 178
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach125]
+runway = TJE
+beacon = TJ867, N39.426944, E117.195833
+route1 = 178
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach126]
+runway = TJE
+beacon = TJ866, N39.283333, E117.341667
+route1 = 148
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach127]
+runway = TJE
+beacon = TJ865, N39.097222, E117.537500
+route1 = 148
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach128]
+runway = TJE
+beacon = TJ863, N38.780556, E117.950000
+route1 = 217
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach129]
+runway = TJE
+beacon = TJ841, N38.695833, E117.775000
+route1 = 304
+	N38.695833, E117.775000, 4900
+	N38.775556, E117.585833, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach130]
+runway = TJE
+beacon = TJ884, N39.117778, E117.141667
+route2 = 229
+	N39.117778, E117.141667, 7900
+	N38.783333, E117.183333, 3900
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.796944, E117.572778, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach131]
+runway = TJE
+beacon = TJ823, N38.783333, E117.183333
+route2 = 180
+	N38.783333, E117.183333, 3900
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.796944, E117.572778, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach132]
+runway = TJE
+beacon = TJ822, N38.672222, E117.255556
+route2 = 159
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.796944, E117.572778, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach133]
+runway = TJE
+beacon = TJ821, N38.750000, E117.452778
+route2 = 070
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.796944, E117.572778, 3000, 200
+	N38.952778, E117.478056, 2000, 180
+	6.2, 2000, 160
+
+[approach134]
+runway = TJW
+beacon = TJ868, N39.639722, E117.157222
+route1 = 178
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach135]
+runway = TJW
+beacon = TJ867, N39.426944, E117.195833
+route1 = 178
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach136]
+runway = TJW
+beacon = TJ866, N39.283333, E117.341667
+route1 = 148
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach137]
+runway = TJW
+beacon = TJ865, N39.097222, E117.537500
+route1 = 148
+	N39.097222, E117.537500, 9800
+	N39.083333, E117.816667, 7900
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach138]
+runway = TJW
+beacon = TJ863, N38.780556, E117.950000
+route1 = 217
+	N38.780556, E117.950000, 6900, 220
+	N38.661111, E117.858333, 5900
+	N38.695833, E117.775000, 4900
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach139]
+runway = TJW
+beacon = TJ841, N38.695833, E117.775000
+route1 = 304
+	N38.695833, E117.775000, 4900
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach140]
+runway = TJW
+beacon = TJ884, N39.117778, E117.141667
+route2 = 229
+	N39.117778, E117.141667, 7900
+	N38.783333, E117.183333, 3900
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach141]
+runway = TJW
+beacon = TJ823, N38.783333, E117.183333
+route2 = 180
+	N38.783333, E117.183333, 3900
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach142]
+runway = TJW
+beacon = TJ822, N38.672222, E117.255556
+route2 = 159
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach143]
+runway = TJW
+beacon = TJ821, N38.750000, E117.452778
+route2 = 070
+	N38.750000, E117.452778
+	N38.789722, E117.554167
+	N38.789722, E117.554167, 3000, 200
+	N38.950000, E117.455000, 2000, 180
+	6.2, 2000, 160
+
+[approach144]
+runway = TJE, rev
+beacon = TJ989, N39.639722, E117.157222
+route1 = 178
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach145]
+runway = TJE, rev
+beacon = TJ988, N39.426944, E117.195833
+route1 = 178
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach146]
+runway = TJE, rev
+beacon = TJ987, N39.283333, E117.341667
+route1 = 148
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach147]
+runway = TJE, rev
+beacon = TJ962, N39.097222, E117.537500
+route1 = 148
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach148]
+runway = TJE, rev
+beacon = TJ964, N38.780556, E117.950000
+route1 = 167
+	N38.780556, E117.950000, 5900, 240
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach149]
+runway = TJE, rev
+beacon = TJ944, N38.683333, E117.700000
+route1 = 295
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach150]
+runway = TJE, rev
+beacon = TJ923, N38.750000, E117.452778
+route1 = 295
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach151]
+runway = TJE, rev
+beacon = TJ922, N38.869444, E117.380556
+route1 = 340
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach152]
+runway = TJE, rev
+beacon = TJ921, N38.994444, E117.302778
+route1 = 340
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach153]
+runway = TJE, rev
+beacon = TJ920, N39.116667, E117.225000
+route1 = 340
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach154]
+runway = TJW, rev
+beacon = TJ989, N39.639722, E117.157222
+route1 = 178
+	N39.639722, E117.157222, 16700
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach155]
+runway = TJW, rev
+beacon = TJ988, N39.426944, E117.195833
+route1 = 178
+	N39.426944, E117.195833, 13800
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach156]
+runway = TJW, rev
+beacon = TJ987, N39.283333, E117.341667
+route1 = 148
+	N39.283333, E117.341667, 11800
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach157]
+runway = TJW, rev
+beacon = TJ962, N39.097222, E117.537500
+route1 = 148
+	N39.097222, E117.537500, 7900
+	N39.083333, E117.816667, 5900, 240
+	N38.780556, E117.950000
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach158]
+runway = TJW, rev
+beacon = TJ964, N38.780556, E117.950000
+route1 = 167
+	N38.780556, E117.950000, 5900, 240
+	N38.633333, E117.883333
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach159]
+runway = TJW, rev
+beacon = TJ944, N38.683333, E117.700000
+route1 = 295
+	N38.683333, E117.700000, 5900
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach160]
+runway = TJW, rev
+beacon = TJ923, N38.750000, E117.452778
+route1 = 295
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach161]
+runway = TJW, rev
+beacon = TJ922, N38.869444, E117.380556
+route1 = 340
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach162]
+runway = TJW, rev
+beacon = TJ921, N38.994444, E117.302778
+route1 = 340
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach163]
+runway = TJW, rev
+beacon = TJ920, N39.116667, E117.225000
+route1 = 340
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach164]
+runway = TJE, rev
+beacon = TJ925, N38.783333, E117.183333
+route1 = 110
+	N38.783333, E117.183333
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach165]
+runway = TJE, rev
+beacon = TJ924, N38.672222, E117.255556
+route1 = 159
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.261111, E117.288889, 2000
+	6.2, 2000, 160
+
+[approach166]
+runway = TJW, rev
+beacon = TJ925, N38.783333, E117.183333
+route1 = 110
+	N38.783333, E117.183333
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
+
+[approach167]
+runway = TJW, rev
+beacon = TJ924, N38.672222, E117.255556
+route1 = 159
+	N38.672222, E117.255556
+	N38.750000, E117.452778
+	N38.869444, E117.380556
+	N38.994444, E117.302778
+	N39.116667, E117.225000, 3900
+	N39.204167, E117.454167, 3000
+	N39.300000, E117.391667, 2000, 200
+	N39.252500, E117.266389, 2000
+	6.2, 2000, 160
