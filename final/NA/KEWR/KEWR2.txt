@@ -279,7 +279,7 @@ line7 =
 	
 [airport1]
 name = Newark Liberty International Airport, newark
-code = EWR2
+code = KEWR
 runways =
 	04L_NK, 04L, N40.67540000, W74.17950000, 26.0, 11000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	04R_NK, 04R, N40.67760000, W74.17420000, 26.0, 10000, 0, 0, 11, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
@@ -308,15 +308,7 @@ sids =
 
 entrypoints = 
 	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
 	231, DYLIN, 8000
-	231, DYLIN, 8000
-	231, DYLIN, 8000
-	231, DYLIN, 8000
-	284, SWEET, 7000
-	284, SWEET, 7000
 	284, SWEET, 7000
 	284, SWEET, 7000
 	215, RBV, 7000

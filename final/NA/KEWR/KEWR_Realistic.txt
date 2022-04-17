@@ -24,7 +24,7 @@ beacons =
 	MUGZY, N41.030128, W74.969361, 0, Mug Ze
 	LEMOR, 41°17'51''N, 74°38'3''W, 0, Lee More
 	SEAVY, 41°12.51'N, 74°19.59'W, 0, Sea Vee
-	TYKES, 40°17.37'N, 74°23.10'W, 0, Brand	
+	TYKES, 40°17.37'N, 74°23.10'W, 0, Brand
 	
 handoff = 
 	340, LIBN, New York Departure, 118.17
@@ -279,11 +279,12 @@ line7 =
 	
 [airport1]
 name = Newark Liberty International Airport, newark
-code = EWR2
+code = KEWR
 runways =
 	04L_NK, 04L, N40.67540000, W74.17950000, 26.0, 11000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	04R_NK, 04R, N40.67760000, W74.17420000, 26.0, 10000, 0, 0, 11, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
-	11_NK, 11, N40.70280000, W74.180700000, 95.0, 6800, 0, 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11N_NK, 11, N40.70280000, W74.180700000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11S_NK, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	dummy_NK, 00, S40.702800, E74.180700, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	
 climbaltitude = 5000
@@ -369,7 +370,8 @@ code = NK
 runways =
 	04L_NKP, 04L, N40.67540000, W74.17950000, 26.0, 11000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	04R_NKP, 04R, N40.67760000, W74.17420000, 26.0, 10000, 0, 0, 11, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
-	11_NKP, 11, N40.702800, W74.180700, 95.0, 6800, 0, 0, 0, 3, 0, 3, 12.68, 0, 0, 0, 0, 118.3, newark tower
+	11N_NKP, 11, N40.702800, W74.1807000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11S_NKP, 11, N40.702800, W74.180700, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	dummy_NKP, 00, S40.702800, E74.180700, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	
 climbaltitude = 5000
@@ -596,12 +598,35 @@ beacon = CRANK
 route1 =
 	209, FLOSI4, flossy four
 	N41.416608, W74.388869, 7000, 250
-	N41.289706, W74.443406
-	N41.067542, W74.538308
-	end
+	N41.361, W74.413
+	N40.954, W74.142
+	end, 115
 	
-#DYLIN4 - SW Flow
 [approach2]
+runway = 11N_NK, rev
+beacon = CRANK
+route1 =
+	209, FLOSI4, flossy four
+	N41.416608, W74.388869, 7000, 250
+	N41.361, W74.413
+	N40.954, W74.142
+	end, 115
+
+[approach3]
+runway = dummy_NK, rev
+beacon = CRANK
+route1 =
+	209, FLOSI4, flossy four
+	N41.416608, W74.388869, 7000, 250
+	N41.289706, W74.443406
+	N41.067542, W74.5383084
+	N40.891, W74.438
+	N40.974, W74.274
+	N40.954, W74.142
+	end, 115
+
+#DYLIN4 - SW Flow
+[approach4]
 runway = 04R_NK, rev
 beacon = DYLIN
 route1 =
@@ -611,68 +636,199 @@ route1 =
 	N40.422714, W74.669528
 	N40.606953, W74.620269
 	N40.830386, W74.560189
-	end
+	N40.891, W74.438
+	N40.974, W74.274
+	N40.954, W74.142
+	end, 115
+	
+[approach5]
+runway = 11N_NK, rev
+beacon = DYLIN
+route1 =
+	060, DYLIN4, dylin four
+	N40.287469, W74.859792, 8000, 250
+	N40.310122, W74.828011
+	N40.422714, W74.669528
+	N40.606953, W74.620269
+	N40.830386, W74.560189
+	N40.891, W74.438
+	N40.974, W74.274	
+	N40.954, W74.142
+	end, 115
 	
 #FQM - SW Flow
-[approach3]
+[approach6]
 runway = 04R_NK, rev
 beacon = SWEET
 route1 =
 	122, FQM3, williamsport three
 	N40.828272, W74.924319, 7000
-	end
-	
+	N40.891, W74.438
+	N40.974, W74.274
+	N40.954, W74.142
+	end, 115
+
+[approach7]
+runway = 11N_NK, rev
+beacon = SWEET
+route1 =
+	122, FQM3, williamsport three
+	N40.828272, W74.924319, 7000
+	N40.891, W74.438
+	N40.974, W74.274
+	N40.954, W74.142
+	end, 115
+
+[approach8]
+runway = dummy_NK, rev
+beacon = SWEET
+route1 =
+	122, FQM3, williamsport three
+	N40.828272, W74.924319, 7000
+	N40.664, W74.607
+	N40.830386, W74.560189
+	N40.891, W74.438
+	N40.974, W74.274
+	N40.954, W74.142
+	end, 115
+
 #BRAND - SW Flow
-[approach4]
+[approach9]
 runway = 04R_NK, rev
 beacon = RBV
 route =
 	100, BRAND1, brand one
 	N40.20240, W74.49500
-	end
+	N40.830386, W74.560189
+	N40.891, W74.438
+	N40.974, W74.274
+	N40.954, W74.142
+	end, 115
 
+[approach10]
+runway = 11N_NK, rev
+beacon = RBV
+route =
+	100, BRAND1, brand one
+	N40.20240, W74.49500
+	N40.830386, W74.560189
+	N40.891, W74.438
+	N40.974, W74.274
+	N40.954, W74.142
+	end, 115
+
+[approach11]
+runway = dummy_NK, rev
+beacon = RBV
+route =
+	100, BRAND1, brand one
+	N40.20240, W74.49500
+	N40.422714, W74.669528
+	N40.606953, W74.620269
+	N40.830386, W74.560189
+	N40.891, W74.438
+	N40.974, W74.274
+	N40.954, W74.142
+	end, 115
 
 #FLOSI4 - NE Flow
-[approach5]
+[approach12]
 runway = 04R_NK
 beacon = CRANK
 route1 =
 	209, FLOSI4, flossy four
 	N41.416608, W74.388869, 7000, 250
 	N41.289706, W74.443406
-	N41.067542, W74.538308
-	end
+	N41.067542, W74.5383084
+	N40.505, W74.562
+	end, 110
 
-[approach6]
+[approach13]
+runway = 11S_NK, rev
+beacon = CRANK
+route1 =
+	209, FLOSI4, flossy four
+	N41.416608, W74.388869, 7000, 250
+	N41.289706, W74.443406
+	N41.067542, W74.5383084
+	N40.505, W74.562
+	end, 110
+
+#PHLBO - NE Flow
+[approach14]
 runway = 04R_NK
 beacon = DYLIN
 route1 =
 	060, DYLIN4, dylin four
 	N40.287469, W74.859792, 8000, 250
-	N40.310122, W74.828011
-	N40.422714, W74.669528
-	N40.606953, W74.620269
-	N40.830386, W74.560189
-	end
+	N40.505, W74.562
+	end, 110
+
+[approach15]
+runway = 11S_NK, rev
+beacon = DYLIN
+route1 =
+	060, DYLIN4, dylin four
+	N40.287469, W74.859792, 8000, 250
+	N40.505, W74.562
+	end, 110
 
 #FQM - NE Flow
-[approach7]
+[approach16]
 runway = 04R_NK
 beacon = SWEET
 route1 =
 	122, FQM3, williamsport three
 	N40.828272, W74.924319, 7000
-	end
+	N40.637, W74.556
+	N40.505, W74.562
+	end, 110
+
+[approach17]
+runway = 11S_NK, rev
+beacon = SWEET
+route1 =
+	122, FQM3, williamsport three
+	N40.828272, W74.924319, 7000
+	N40.637, W74.556
+	N40.505, W74.562
+	end, 110
+
+[approach18]
+runway = dummy_NK
+beacon = SWEET
+route1 =
+	122, FQM3, williamsport three
+	N40.828272, W74.924319, 7000
+	N40.846, W74.547
+	N40.505, W74.562
+	end, 110
 
 #BRAND - NE Flow
-[approach8]
+[approach19]
 runway = 04R_NK
 beacon = RBV
 route =
 	100, BRAND1, brand one
 	N40.20240, W74.49500
-	end
+	end, 040
 
+[approach20]
+runway = 11S_NK, rev
+beacon = RBV
+route =
+	100, BRAND1, brand one
+	N40.20240, W74.49500
+	end, 040
+
+[approach21]
+runway = dummy_NK
+beacon = RBV
+route =
+	100, BRAND1, brand one
+	N40.20240, W74.49500
+	N40.497, W74.475
+	end, 110
 
 ###KEWR Prop Arrivals
 ###CMK V623 SAX
@@ -695,7 +851,16 @@ route =
 	end
 	
 [approach24]
-runway = 11_NKP, rev
+runway = 11N_NKP, rev
+beacon = SEAVY
+route =
+	100
+	41°12.51'N, 74°19.59'W
+	N41.06750, W74.53830
+	end
+	
+[approach25]
+runway = 11S_NKP, rev
 beacon = SEAVY
 route =
 	100
@@ -1246,33 +1411,60 @@ route =
     N40.99580, W74.86900
 	end
 	
-###EWR RNAVs
-#Land RNAV 29
+###EWR Jet RNAVs
+#Land RNAV 29 SW Flow
 [approach87]
-runway = 11_NK, rev
-beacon = CASHH, 40°25.54'N, 74°11.20'W, 0, Cash 
+runway = 11N_NK, rev
+beacon = TETER, N40.8665, W74.06283, 0, Tee Ter
 route1 =
 	130, RNAV,	arnaav  
-	40°25.54'N, 74°11.20'W, 3000
-	40°30.61'N, 74°05.84'W
-	40°33.94'N, 74°02.28'W 
-	40°39.41'N, 74°02.73'W, 2000
-	40°41.09'N, 74°03.92'W, 1400
-	2.4, 500, 200
-	
-#Land RNAV 29 Props
+	N40.8665, W74.06283, 3000
+	N40.82194, W74.09083, 2500, 200
+	N40.76417, W74.0722 
+	N40.69767, W74.062722, 834, 200
+	2.4, 800, 200
+
+#Land RNAV 29 NE Flow
 [approach88]
-runway = 11_NKP, rev
-beacon = CASHH, 40°25.54'N, 74°11.20'W, 0, Cash
+runway = 11S_NK, rev
+beacon = GRITY, N40.5156667, W74.277, 0, Gritty
+route1 =
+	130, RNAV,	arnaav 
+	N40.5156667, W74.277, 3000
+	N40.6046667, W74.2205, 3000, 230
+	N40.6425, W74.1496667
+	N40.646, W74.1055, 2000
+	N40.6526667, W74.086, 1000, 
+	N40.6978333, W74.106, 500
+	2.4, 500, 200
+
+###EWR Prop RNAVs
+#Land RNAV 29 SW Flow
+[approach89]
+runway = 11N_NKP, rev
+beacon = TETER, N40.8665, W74.06283, 0, Tee Ter
 route1 =
 	130, RNAV,	arnaav  
-	40°25.54'N, 74°11.20'W, 3000
-	40°30.61'N, 74°05.84'W
-	40°33.94'N, 74°02.28'W, 3000, 210
-	40°39.41'N, 74°02.73'W, 2000
-	40°41.09'N, 74°03.92'W, 1400
+	N40.8665, W74.06283, 3000
+	N40.82194, W74.09083, 2500, 200
+	N40.76417, W74.0722 
+	N40.69767, W74.062722, 834, 200
+	2.4, 800, 200
+
+#Land RNAV 29 NE Flow
+[approach90]
+runway = 11S_NKP, rev
+beacon = GRITY, N40.5156667, W74.277, 0, Gritty
+route1 =
+	130, RNAV,	arnaav 
+	N40.5156667, W74.277, 3000
+	N40.6046667, W74.2205, 3000, 230
+	N40.6425, W74.1496667
+	N40.646, W74.1055, 2000
+	N40.6526667, W74.086, 1000, 
+	N40.6978333, W74.106, 500
 	2.4, 500, 200
-	
+
 [area3]
 shape = circle		; circle or polygon
 altitude = 2700		; minimum allowed altitude in feet
@@ -1506,10 +1698,9 @@ points =
 
 	
 [configurations]
-#SE Winds Flow (Land 22L,11/Dep 22R EWR, Land 19/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
+#Alpha Flow (Land 22L/Dep 22R EWR, Land 19/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
 config1 =
-	0, 04L_NK, startrevintersection, 190, nosid
-	0, 11_NK, land, 
+	0, 04L_NK, startrev, 190, nosid
 	0, 04R_NK, landrev
 	0, dummy_NK, landrev
 	10, 19_TB, land
@@ -1519,28 +1710,12 @@ config1 =
 	15, 23_MU, landstart, 160, nosid
 	15, 23_MUP, landstart, 160, nosid
 	15, 04L_NKP, startrev, 190, nosid
-	15, 11_NKP, land, 
 	15, 04R_NKP, landrev
 
-#SW Flow (Land 22L,29/Dep 22R EWR, Land 19/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
+	
+#Bravo Flow (Land 4R/Dep 4L EWR, Land 6/Dep 1 TEB, Land/Dep 4 CDW, Land/Dep 5 MMU)
 config2 =
-	0, 04L_NK, startrevintersection, 190, nosid
-	0, 11_NK, landrev, 
-	0, 04R_NK, landrev
-	0, dummy_NK, landrev
-	10, 19_TB, land
-	10, 24_TB, start, 283, nosid
-	15, 22_CW, landstart, 180, nosid
-	15, 22_CWP, landstart, 180, nosid
-	15, 23_MU, landstart, 160, nosid
-	15, 23_MUP, landstart, 160, nosid
-	15, 04L_NKP, startrev, 190, nosid
-	15, 11_NKP, landrev, 
-	15, 04R_NKP, landrev
-#NW Flow (Land 4R,29/Dep 4L EWR, Land 6/Dep 1 TEB, Land/Dep 4 CDW, Land/Dep 5 MMU)	
-config3 =
 	0, 04L_NK, start, 060, nosid
-	0, 11_NK, landrev, 
 	0, 04R_NK, land
 	0, dummy_NK, land
 	10, 19_TB, startrev, 040, nosid
@@ -1550,26 +1725,62 @@ config3 =
 	15, 23_MU, landstartrev, 340, nosid
 	15, 23_MUP, landstartrev, 340, nosid
 	15, 04L_NKP, start, 060, nosid
-	15, 11_NKP, landrev, 
 	15, 04R_NKP, land
 	
-#NE Flow (Land 4R,11/Dep 4L EWR, Land 6/Dep 1 TEB, Land/Dep 4 CDW, Land/Dep 5 MMU)	MMU)	
+#Charlie Flow (Land 22L/Dep 22R EWR, Land/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
+config3 =
+	0, 04L_NK, startrev, 190, nosid
+	0, 04R_NK, landrev
+	0, dummy_NK, landrev
+	10, 24_TB, landstart, 283, nosid
+	15, 22_CW, landstart, 180, nosid
+	15, 22_CWP, landstart, 180, nosid
+	15, 23_MU, landstart, 160, nosid
+	15, 23_MUP, landstart, 160, nosid	
+	15, 04L_NKP, startrev, 190, nosid
+	15, 04R_NKP, landrev
+
+#Delta Flow (Land 29/Dep 22R EWR, Land 19/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
 config4 =
+	0, 04L_NK, startrevintersection, 190, nosid
+	0, 11N_NK, landrev
+	0, dummy_NK, landrev
+	10, 19_TB, land
+	10, 24_TB, start, 283, nosid
+	15, 22_CW, landstart, 180, nosid
+	15, 22_CWP, landstart, 180, nosid
+	15, 23_MU, landstart, 160, nosid
+	15, 23_MUP, landstart, 160, nosid
+	15, 04L_NKP, startrev, 190, nosid
+	15, 11N_NKP, landrev
+	
+#Echo Flow (Land 29/Dep 22R EWR, Land/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
+config5 =
+	0, 04L_NK, startrevintersection, 190, nosid
+	0, 11N_NK, landrev
+	0, dummy_NK, landrev
+	10, 24_TB, landstart, 283, nosid
+	15, 22_CW, landstart, 180, nosid
+	15, 22_CWP, landstart, 180, nosid
+	15, 23_MU, landstart, 160, nosid
+	15, 23_MUP, landstart, 160, nosid
+	15, 04L_NKP, startrev, 190, nosid
+	15, 11N_NKP, landrev
+
+#Foxtrot Flow (Land 29/Dep 4L EWR, Land 6/Dep 1 TEB, Land/Dep 4 CDW, Land/Dep 5 MMU)
+config6 =
 	0, 04L_NK, start, 060, nosid
-	0, 11_NK, land, 
-	0, 04R_NK, land
+	0, 11S_NK, landrev
 	0, dummy_NK, land
 	10, 19_TB, startrev, 040, nosid
 	10, 24_TB, landrev
 	15, 22_CW, landstartrev, 360, nosid
 	15, 22_CWP, landstartrev, 360, nosid
 	15, 23_MU, landstartrev, 340, nosid
-	15, 23_MUP, landstartrev, 340, nosid
+	15, 23_MUP, landstartrev, 340, nosid		
 	15, 04L_NKP, start, 060, nosid
-	15, 11_NKP, land, 
-	15, 04R_NKP, land
-
-
+	15, 11S_NKP, landrev
+	
 [planetypes]	
 types = 
 	c152, 6, 60, 100, 2.8, 3.2, 500, 500, 55, 75, 1.2, 1.3, cessna
