@@ -1,0 +1,2236 @@
+# Custom airport file
+# Save a copy of example.txt before editing it, to keep this file as a guide.
+# On Windows, place the txt file in the /locations/ folder of the game.
+# On android, place the txt file in /Android/data/com.dirgtrats.endlessatc/files/.
+# Copy, edit and use and share airport files at your own risk!
+
+# This example file has lots of comments (#), to use it as a guide
+# Uncomment the 'code = ' item in the [airport1] section below to make the airport appear in-game.
+
+# This file has several [sections] (but most are optional), namely:
+# [airspace]: various general properties
+# [airport1]: main airport
+# [airport2]: optional secondary airports
+# [area1]: optional restricted areas
+# [configurations]: optional runway usage configurations
+# [departure1]: optional runway departure routes
+# [approach1]: optional runway approach routes
+# [planetypes]: optional custom plane types
+# [scenario]: optional nonrandom traffic
+
+# Each section can have multiple items, each item with one or more properties. The format/order of properties are explained after a double hashtag (##) in this file.
+# Properties are comma separated. Multi-line properties (lists) MUST start with a tab or space at the beginning of each line.
+# Properties in this file that are explained between <brackets> are optional properties (do not include the brackets themselves).
+# If the game fails to load a property, or you omit, #comment or zero a property, the game may automatically use a default value instead.
+# Positions must be given either in x, y coordinates (in nautical miles, NM), with 0, 0 being the center of the screen, and 20.1, 12.82 being somewhere at the top left,
+# or, in latitude, longitude coordinates, which must be a comma separated pair, starting or ending with NWSE characters; two examples:
+# N51.47176,		W0.457859
+# 51°28'18.336''N,	0°27'28.2924''W
+# Lat/long coordinates (and true headings) are rotated automatically when a magnetic variance is defined; this is to align the radar display with the magnetic north,
+# to make a heading of 360 degrees appear as a vertical line on the radar screen.
+# X, y coordinates are simple screen coordinates; they are not rotated.
+# Either way, all positions consist of two values, seperated by a comma. Whether you want to use x,y or latlong coordinates is up to you.
+# For real world data it is probably easier to search the internet for the actual latlong coordinates.
+# Press the left Ctrl key in the sim to display the coordinates of the mouse position. These values are also copied into the Windows clipboard, to be easily pasted into a file.
+
+
+##############################################################
+[airspace]
+##############################################################
+
+radius = 30				; airspace radius in NM
+zoom = 6 				; default zoom level, increase to zoom in
+elevation = 1202			; ground altitude in feet
+floor = 3000 				; minimum selectable altitude (1100 to 2500 above elevation)
+descentaltitude = 10000 		; minimum initial altitude for arrivals (1000+ above floor)
+ceiling = 12000 			; maximum selectable altitude (1000+ above descentaltitude)
+above = 14000 				; maximum departure altitude when SID is enabled (2000+ above ceiling)
+speedrestriction = 15, 300, 10000, 250 	; radius in NM, speed in knots within radius, <altitude, speed below altitude>
+localizerspeed = 30, 200		; distance to touchdown in NM, speed restriction in knots on localizers
+diversionaltitude = 6000		; maximum altitude at which departures will be a diversion at the boundary (defaults to ceiling altitude)
+transitionaltitude = 18000		; highest altitude displayed in feet instead of flight level
+usa = true				; American-style callsign pronunciation and runway names
+metric = false				; display altitudes in metres instead of feet
+letters = 50				; occurrence of letters in callsigns (defaults at one in 2, or one in 50 for usa; 0=never; 100=rarely)
+separation = 3				; minimum allowed distance between aircraft in NM
+automatic = true			; entering arrivals will follow an approach route when flying inbound an approach beacon
+name = pittsburgh approach, pittsburgh departure		; atc callsign pronunciation for arrivals, atc callsign pronunciation for departures
+center = N40°29.49',	W80°13.96'	; lat/long location of center of radar display (required when using lat/long coordinates elsewhere in this file)
+magneticvar = -9.1			; magnetic variance; east = positive (used to rotate lat/long coordinates if used elsewhere in this file)
+
+
+beacons =
+	mmj,	N40.4880000,	W80.1938333,	0,	montour
+	ewc,	N40.8249328,	W80.2115456,	-182,	elwood city
+	agc,	N40.2786439,	W80.0408547,	128,	alleghany
+	hlg,	N40.2599019,	W80.5686247,	-223,	wheeling
+	air,	N40.0170242,	W80.8172289,	0,	bell-air
+	jst,	N40.3167256,	W78.8341664,	0,	johnstown
+	mgw,	N39.5567153,	W79.8604122,	0,	morgantown
+	bsv,	N40.7407064,	W81.4321172,	0,	briggs
+	fkl,	N41.4384983,	W79.8567058,	0,	franklin
+
+	nesto,	N40.11.40.050,	W079.42.49.490,		0,	nesto
+	demme,	N40.13.41.610,	W079.48.47.540,		0,	dem-E
+
+	wiske,	N40.07.44.890,	W080.40.33.940,		0,	whiskey
+	fewga,	N40.11.14.040,	W080.35.53.230,		0,	few-guh
+
+	grace,	N40.51.24.660,	W079.48.02.120,		0,	grace
+	haynz,	N40.46.31.240,	W079.49.21.230,		0,	hanes
+
+	cutta,	N40.52.34.510,	W080.38.35.650,		0,	cutta
+	jesey,	N40.44.30.910,	W080.29.04.870,		0,	jesse
+
+
+## name, position, <holdingheading>, <pronunciation>
+# the first given beacon will be the default beacon for arrivals inbound the main airport
+# when holdingheading is 0 or omitted, planes will hold there using the plane's current heading
+# when a holdingheading is given, planes will fly that heading (or magnetic course) on the inbound leg when flying the holding
+# when holdingheading is negative, planes will make left-hand turns instead of right-hand turns
+
+boundary = 
+	N40.11.30,	W80.46.00
+	N40.02.15,	W80.53.30
+	N39.54.00,	W80.38.00
+	N40.01.40,	W80.28.50
+	-15,		-25.9808
+	-11.4805,	-27.7163
+	-7.76457,	-28.9777
+	-3.91578,	-29.7433
+	0,		-30
+	3.91578,	-29.7433
+	7.76457,	-28.9777
+	11.4805,	-27.7163
+	15,		-25.9808
+	18.2628,	-23.8006
+	21.2132,	-21.2132
+	23.8006,	-18.2628
+	25.9808,	-15
+	27.7163,	-11.4805
+	28.9777,	-7.76457
+	29.7433,	-3.91578
+	30,		0
+	29.7433,	3.91578
+	28.9777,	7.76457
+	27.7163,	11.4805
+	25.9808,	15
+	23.8006,	18.2628
+	21.2132,	21.2132
+	18.2628,	23.8006
+	15,		25.9808
+	11.4805,	27.7163
+	7.76457,	28.9777
+	3.91578,	29.7433
+	0,		30
+	-3.91578,	29.7433
+	-7.76457,	28.9777
+	-11.4805,	27.7163
+	-15,		25.9808
+	-18.2628,	23.8006
+	-21.2132,	21.2132
+	-23.8006,	18.2628
+	-25.9808,	15
+	-27.7163,	11.4805
+	-28.9777,	7.76457
+	-29.7433,	3.91578
+	-30,		0
+	-29.7433,	-3.91578
+	-28.9777,	-7.76457
+	-27.7163,	-11.4805
+
+## positions
+# pointlist of optional airspace boundary polygon; this will override the default (circular) airspace radius.
+# last point is automatically connected to first point
+
+handoff =
+	090,	Cleveland Center,	cleveland center,	124.40
+	010,	Cleveland Center,	cleveland center,	126.72
+	200,	Cleveland Center,	cleveland center,	126.95
+	290,	Cleveland Center,	cleveland center,	120.60
+	
+## heading, atc callsign, callsign pronunciation, <radio frequency>
+# optional handoff readbacks for departures; only used when sound mode 3 is enabled in-game
+# heading determines which atc station will be selected by a plane: the closest to the heading from the center of the screen towards the plane's (last) SID point
+
+#Terrain Lines
+
+#West shore downstream Ohio River, west shore Beaver River
+line1 = 
+	N39.962, W80.751
+	N39°58.19', W80°44.79'
+	N39°59.03', W80°44.36'
+	N39°59.88', W80°44.47'
+	N40°0.54', W80°44.61'
+	N40°1.07', W80°44.50'
+	N40°1.70', W80°44.30'
+	N40°2.14', W80°44.20'
+	N40°2.89', W80°43.95'
+
+	N40°3.50', W80°44.00'
+	N40°3.77', W80°44.21'
+	N40°4.30', W80°44.45'
+	N40°4.91', W80°44.38'
+	N40°5.33', W80°43.89'
+	N40°5.85', W80°43.05'
+	N40°6.22', W80°42.59'
+	N40°6.76', W80°42.43'
+	N40°7.73', W80°42.63'
+	N40°8.40', W80°42.62'
+	N40°9.50', W80°42.24'
+	N40°10.82', W80°41.33'
+	N40°11.87', W80°40.21'
+	N40°14.37', W80°39.52'
+	N40°15.09', W80°38.92'
+	N40°15.63', W80°37.63'
+	N40°16.01', W80°37.23'
+	N40°16.48', W80°37.08'
+	N40°17.23', W80°37.01'
+	N40°18.52', W80°36.30'
+	N40°19.50', W80°36.10'
+	N40°20.01', W80°36.35'
+	N40°20.70', W80°36.76'
+	N40°21.33', W80°36.76'
+	N40°22.29', W80°36.43'
+	N40°22.87', W80°36.91'
+	N40°23.37', W80°37.81'
+	N40°23.70', W80°37.85'
+	N40°24.03', W80°37.27'
+	N40°24.52', W80°36.85'
+
+	N40°25.96', W80°36.83'
+	N40°26.70', W80°36.54'
+	N40°27.75', W80°35.87'
+	N40°28.51', W80°35.78'
+	N40°29.13', W80°36.11'
+	N40°30.22', W80°37.08'
+	N40°32.00', W80°37.87'
+	N40°33.62', W80°39.02'
+	N40°34.34', W80°40.01'
+	N40°35.05', W80°40.08'
+	N40°35.75', W80°39.45'
+	N40°36.57', W80°38.51'
+	N40°37.21', W80°37.76'
+	N40°37.58', W80°36.25'
+	N40°37.42', W80°35.41'
+	N40°36.95', W80°34.79'
+	N40°37.00', W80°34.31'
+	N40°37.71', W80°33.25'
+	N40°38.12', W80°32.00'
+	N40°38.24', W80°31.32'
+	N40°38.76', W80°30.12'
+	N40°38.83', W80°28.82'
+	N40°37.71', W80°27.33'
+	N40°37.67', W80°26.22'
+	N40°38.10', W80°25.58'
+
+	N40°38.86', W80°24.46'
+	N40°39.21', W80°22.84'
+	N40°40.60', W80°20.77'
+	N40°41.66', W80°17.81'
+	N40°41.88', W80°17.60'
+	N40°42.66', W80°18.00'
+	N40°43.04', W80°18.41'
+	N40°43.77', W80°18.80'
+	N40°44.13', W80°19.29'
+	N40°44.42', W80°19.31'
+	N40°45.21', W80°18.57'
+	N40°45.71', W80°19.01'
+	N40°46.06', W80°19.14'
+	N40°46.79', W80°19.37'
+	N40°46.94', W80°19.61'
+	N40°47.74', W80°20.03'
+	N40°48.00', W80°19.89'
+	N40°48.36', W80°19.38'
+	N40°49.54', W80°18.76'
+	N40°50.35', W80°19.00'
+	N40°50.66', W80°19.29'
+	N40°50.88', W80°19.53'
+	N40°51.18', W80°19.51'
+	N40°51.86', W80°19.19'
+	N40°52.63', W80°19.32'
+	N40°53.32', W80°20.20'
+	N40°53.95', W80°20.71'
+	N40°54.54', W80°21.45'
+	N40°54.55', W80°21.76'
+	N40°54.52', W80°22.13'
+	N40°54.79', W80°22.22'
+	N40°55.22', W80°22.15'
+	N40°55.33', W80°22.29'
+	N40°55.35', W80°22.53'
+	N40°55.76', W80°22.77'
+	N40°55.94', W80°22.64'
+	N40°56.24', W80°22.42'
+	N40°56.69', W80°22.56'
+	N40°56.87', W80°22.85'
+	N40°57.08', W80°22.84'
+	N40°57.42', W80°22.81'
+	N40°57.88', W80°23.35'
+	N40°58.08', W80°23.48'
+	N40°58.28', W80°23.27'
+	N40°58.53', W80°23.06'
+	N40°58.80', W80°23.23'
+
+#Beaver River confluence near New Castle
+line2 = 
+	N40°58.82', W80°23.12'
+	N40°58.59', W80°22.95'
+	N40°58.37', W80°22.96'
+	N40°58.07', W80°23.31'
+
+	N40°57.79', W80°23.00'
+	N40°57.47', W80°22.68'
+	N40°57.63', W80°22.52'
+	N40°58.11', W80°22.44'
+	N40°58.54', W80°21.99'
+	N40°58.90', W80°21.46'
+	N40°59.11', W80°21.35'
+
+#East shore Beaver River, North shore Ohio / Alleghany Rivers
+line3 = 
+	N40°59.18', W80°21.21'
+	N40°58.88', W80°21.30'
+	N40°58.51', W80°21.87'
+	N40°58.14', W80°22.26'
+	N40°57.92', W80°22.38'
+	N40°57.55', W80°22.46'
+	N40°57.29', W80°22.62'
+	N40°56.50', W80°22.27'
+	N40°56.18', W80°22.30'
+	N40°55.90', W80°22.40'
+	N40°55.47', W80°22.37'
+	N40°55.38', W80°22.12'
+	N40°55.12', W80°21.96'
+	N40°54.66', W80°22.11'
+	N40°54.59', W80°21.96'
+	N40°54.69', W80°21.68'
+	N40°54.64', W80°21.43'
+	N40°54.13', W80°20.80'
+	N40°53.60', W80°20.30'
+	N40°53.14', W80°19.74'
+	N40°52.79', W80°19.29'
+	N40°52.56', W80°19.18'
+	N40°51.81', W80°19.03'
+	N40°51.47', W80°19.12'
+	N40°51.16', W80°19.39'
+	N40°50.92', W80°19.40'
+
+	N40°50.53', W80°18.93'
+	N40°50.01', W80°18.73'
+	N40°49.57', W80°18.64'
+	N40°48.89', W80°18.95'
+	N40°48.06', W80°19.51'
+	N40°47.82', W80°19.85'
+	N40°47.05', W80°19.48'
+
+	N40°46.78', W80°19.20'
+	N40°46.30', W80°19.00'
+	N40°45.83', W80°18.94'
+	N40°45.35', W80°18.42'
+	N40°45.18', W80°18.44'
+	N40°44.85', W80°18.68'
+	N40°44.36', W80°19.18'
+	N40°44.18', W80°19.17'
+	N40°43.93', W80°18.80'
+	N40°43.32', W80°18.41'
+	N40°42.52', W80°17.75'
+	N40°41.87', W80°17.33'
+
+	N40°41.94', W80°16.94'
+	N40°41.84', W80°16.22'
+	N40°41.35', W80°15.56'
+	N40°40.89', W80°15.26'
+	N40°40.27', W80°15.29'
+	N40°39.93', W80°14.96'
+	N40°39.05', W80°14.27'
+	N40°38.54', W80°14.00'
+	N40°37.18', W80°14.02'
+	N40°35.47', W80°14.04'
+	N40°34.39', W80°13.70'
+	N40°33.28', W80°12.50'
+	N40°33.21', W80°12.18'
+	N40°32.96', W80°11.96'
+	N40°32.08', W80°11.23'
+	N40°31.77', W80°10.28'
+	N40°31.13', W80°8.30'
+	N40°30.72', W80°6.60'
+	N40°30.15', W80°5.13'
+	N40°29.95', W80°4.41'
+	N40°28.76', W80°2.83'
+	N40°28.32', W80°2.64'
+	N40°27.69', W80°2.09'
+	N40°27.22', W80°2.02'
+	N40°26.82', W80°1.54'
+	N40°26.66', W80°0.95'
+	N40°26.71', W80°0.40'
+	N40°26.98', W79°59.71'
+	N40°27.37', W79°59.20'
+	N40°27.89', W79°58.76'
+	N40°28.93', W79°57.74'
+	N40°29.30', W79°57.17'
+	N40°29.62', W79°55.76'
+	N40°29.45', W79°54.68'
+	N40°29.10', W79°53.56'
+	N40°29.06', W79°52.28'
+	N40°29.33', W79°51.65'
+	N40°29.60', W79°51.47'
+	N40°29.78', W79°51.13'
+	N40°29.95', W79°51.06'
+	N40°31.25', W79°51.17'
+	N40°31.77', W79°50.96'
+
+	N40°32.12', W79°50.54'
+	N40°32.41', W79°49.22'
+	N40°32.32', W79°48.00'
+	N40°32.11', W79°46.77'
+	N40°32.23', W79°46.41'
+	N40°32.52', W79°46.08'
+	N40°32.81', W79°45.99'
+	N40°33.16', W79°46.15'
+	N40°34.27', W79°46.62'
+	N40°34.35', W79°46.63'
+	N40°35.02', W79°46.46'
+	N40°35.59', W79°45.97'
+	N40°35.97', W79°44.86'
+	N40°36.35', W79°43.72'
+	N40°36.62', W79°43.30'
+	N40°37.21', W79°42.91'
+	N40°37.64', W79°42.15'
+	N40°38.29', W79°41.54'
+	N40°38.79', W79°41.44'
+	N40°39.78', W79°41.86'
+	N40°40.04', W79°41.79'
+	N40°40.16', W79°41.52'
+	N40°40.36', W79°40.52'
+	N40°40.55', W79°40.30'
+	N40°40.96', W79°40.16'
+	N40°41.22', W79°40.00'
+	N40°41.48', W79°39.72'
+	N40°41.68', W79°39.17'
+	N40°41.60', W79°38.79'
+	N40°41.47', W79°38.48'
+	N40°41.54', W79°37.68'
+
+#Southern shore Alleghany River, Eastern shore Monongahela River
+line4 =
+	N40°41.37', W79°37.63'
+	N40°41.22', W79°38.10'
+	N40°41.29', W79°38.50'
+	N40°41.52', W79°38.79'
+	N40°41.59', W79°39.13'
+	N40°41.53', W79°39.42'
+	N40°41.34', W79°39.68'
+	N40°40.89', W79°39.96'
+	N40°40.77', W79°39.93'
+
+	N40°40.69', W79°39.99'
+	N40°40.27', W79°40.39'
+	N40°40.13', W79°40.90'
+	N40°40.03', W79°41.47'
+	N40°39.77', W79°41.68'
+	N40°39.48', W79°41.56'
+	N40°39.44', W79°41.46'
+	N40°39.26', W79°41.52'
+	N40°38.65', W79°41.25'
+	N40°38.08', W79°41.49'
+	N40°37.20', W79°42.27'
+	N40°36.81', W79°42.97'
+	N40°36.34', W79°43.40'
+	N40°35.93', W79°44.21'
+	N40°35.78', W79°45.12'
+	N40°35.52', W79°45.69'
+	N40°35.02', W79°46.19'
+	N40°34.30', W79°46.39'
+	N40°33.13', W79°45.89'
+	N40°32.54', W79°45.85'
+	N40°32.15', W79°46.24'
+	N40°31.97', W79°46.72'
+	N40°32.08', W79°47.74'
+	N40°32.22', W79°48.60'
+	N40°32.20', W79°49.07'
+	N40°31.84', W79°50.17'
+	N40°31.37', W79°50.86'
+	N40°30.43', W79°50.89'
+	N40°30.04', W79°50.81'
+	N40°29.82', W79°50.93'
+	N40°29.45', W79°51.01'
+	N40°29.15', W79°51.44'
+	N40°28.90', W79°52.38'
+	N40°29.00', W79°53.72'
+	N40°29.41', W79°55.40'
+	N40°29.40', W79°56.23'
+	N40°29.11', W79°57.23'
+	N40°28.80', W79°57.63'
+	N40°27.85', W79°58.38'
+	N40°27.11', W79°59.23'
+	N40°26.72', W79°59.84'
+	N40°26.56', W80°0.64'
+	N40°26.46', W80°0.76'
+
+	N40°26.10', W80°0.11'
+	N40°26.03', W79°59.02'
+	N40°26.10', W79°58.48'
+	N40°25.75', W79°57.66'
+	N40°25.06', W79°57.15'
+	N40°24.21', W79°56.98'
+	N40°23.93', W79°56.39'
+	N40°24.08', W79°55.79'
+	N40°24.62', W79°55.28'
+	N40°24.94', W79°54.74'
+	N40°25.02', W79°54.27'
+	N40°24.70', W79°53.36'
+	N40°23.98', W79°52.34'
+	N40°23.36', W79°51.20'
+	N40°22.50', W79°50.32'
+	N40°22.06', W79°50.18'
+	N40°21.61', W79°50.34'
+	N40°21.38', W79°50.70'
+	N40°21.27', W79°51.40'
+	N40°21.25', W79°51.94'
+	N40°21.15', W79°52.16'
+	N40°21.20', W79°52.21'
+	N40°21.14', W79°52.74'
+	N40°20.84', W79°53.13'
+	N40°19.70', W79°53.85'
+
+	N40°19.11', W79°53.73'
+	N40°18.83', W79°53.21'
+	N40°18.54', W79°52.55'
+	N40°18.09', W79°52.12'
+	N40°17.65', W79°52.08'
+	N40°17.16', W79°52.47'
+	N40°16.63', W79°53.13'
+	N40°16.31', W79°53.48'
+	N40°15.86', W79°54.07'
+	N40°15.36', W79°54.70'
+	N40°14.90', W79°54.98'
+	N40°14.65', W79°55.37'
+	N40°14.51', W79°55.98'
+	N40°14.37', W79°56.61'
+	N40°14.31', W79°57.45'
+	N40°14.17', W79°57.85'
+	N40°13.88', W79°58.13'
+	N40°13.55', W79°58.15'
+	N40°13.00', W79°57.66'
+	N40°12.80', W79°57.20'
+	N40°12.70', W79°56.46'
+	N40°12.45', W79°55.64'
+	N40°11.94', W79°54.90'
+	N40°11.83', W79°54.18'
+	N40°11.76', W79°53.47'
+	N40°11.87', W79°52.41'
+	N40°11.78', W79°51.91'
+	N40°11.36', W79°51.26'
+	N40°10.90', W79°51.09'
+	N40°10.18', W79°51.30'
+	N40°9.87', W79°51.56'
+	N40°9.72', W79°52.01'
+	N40°9.85', W79°53.42'
+	N40°9.83', W79°53.78'
+	N40°9.69', W79°54.13'
+	N40°9.51', W79°54.31'
+	N40°9.22', W79°54.29'
+	N40°8.66', W79°53.93'
+	N40°8.38', W79°53.48'
+	N40°8.04', W79°53.37'
+	N40°7.48', W79°52.16'
+	N40°6.98', W79°51.06'
+	N40°6.21', W79°50.66'
+	N40°5.58', W79°50.40'
+	N40°5.11', W79°50.64'
+	N40°4.76', W79°51.29'
+	N40°4.63', W79°52.14'
+	N40°4.72', W79°52.69'
+	N40°4.85', W79°53.57'
+	N40°4.79', W79°53.90'
+	N40°4.65', W79°54.05'
+	N40°4.43', W79°53.95'
+	N40°4.36', W79°53.45'
+	N40°4.18', W79°53.02'
+	N40°4.03', W79°52.83'
+
+#Western shore Monongahela River, southern shore Ohio River
+line5 =
+	N39°58.25', W80°44.52'
+	N39°59.06', W80°44.14'
+	N39°59.55', W80°44.13'
+	N40°0.89', W80°44.37'
+	N40°1.84', W80°43.99'
+	N40°2.68', W80°43.73'
+	N40°3.52', W80°43.78'
+	N40°4.07', W80°43.57'
+	N40°4.62', W80°43.62'
+	N40°5.26', W80°43.53'
+	N40°5.79', W80°42.90'
+	N40°6.20', W80°42.35'
+	N40°6.84', W80°42.15'
+	N40°8.29', W80°42.34'
+	N40°9.22', W80°42.09'
+	N40°10.81', W80°41.02'
+
+	N40°11.75', W80°40.17'
+	N40°12.22', W80°39.87'
+	N40°13.55', W80°39.57'
+	N40°14.52', W80°39.07'
+	N40°14.97', W80°38.60'
+	N40°15.78', W80°37.11'
+	N40°16.08', W80°36.92'
+	N40°16.89', W80°36.77'
+	N40°17.39', W80°36.80'
+	N40°18.12', W80°36.36'
+	N40°18.68', W80°35.93'
+	N40°19.41', W80°35.86'
+	N40°20.08', W80°36.09'
+	N40°20.55', W80°36.55'
+	N40°21.06', W80°36.57'
+	N40°22.29', W80°36.30'
+	N40°22.76', W80°36.40'
+	N40°23.07', W80°36.86'
+	N40°23.29', W80°37.46'
+	N40°23.49', W80°37.68'
+	N40°23.74', W80°37.54'
+	N40°23.89', W80°37.07'
+	N40°24.37', W80°36.47'
+	N40°25.25', W80°36.25'
+	N40°26.48', W80°36.32'
+	N40°26.91', W80°36.19'
+	N40°27.97', W80°35.64'
+	N40°28.76', W80°35.62'
+	N40°29.50', W80°36.13'
+	N40°30.17', W80°36.80'
+	N40°31.35', W80°37.31'
+	N40°32.11', W80°37.57'
+	N40°32.99', W80°38.35'
+	N40°33.39', W80°38.41'
+	N40°33.74', W80°38.76'
+	N40°34.19', W80°39.54'
+	N40°34.59', W80°39.89'
+	N40°34.88', W80°39.94'
+	N40°35.35', W80°39.63'
+	N40°35.73', W80°39.22'
+	N40°36.60', W80°38.14'
+	N40°37.04', W80°37.43'
+	N40°37.40', W80°36.19'
+	N40°37.30', W80°35.65'
+	N40°36.80', W80°34.92'
+	N40°36.76', W80°34.33'
+	N40°37.57', W80°32.84'
+	N40°37.95', W80°31.56'
+	N40°38.54', W80°30.11'
+	N40°38.63', W80°29.08'
+	N40°38.27', W80°28.22'
+	N40°37.39', W80°27.09'
+	N40°37.31', W80°26.46'
+	N40°37.75', W80°25.78'
+	N40°38.44', W80°24.89'
+	N40°38.78', W80°24.01'
+	N40°38.97', W80°22.82'
+	N40°39.42', W80°21.88'
+	N40°40.13', W80°21.03'
+	N40°40.37', W80°20.69'
+	N40°40.63', W80°20.17'
+	N40°41.64', W80°17.34'
+
+	N40°41.72', W80°16.76'
+	N40°41.54', W80°16.24'
+	N40°40.89', W80°15.57'
+	N40°40.20', W80°15.52'
+	N40°39.67', W80°15.14'
+	N40°39.51', W80°14.83'
+	N40°38.59', W80°14.26'
+	N40°37.84', W80°14.20'
+	N40°35.63', W80°14.32'
+	N40°34.99', W80°14.13'
+	N40°34.13', W80°13.76'
+	N40°33.27', W80°12.82'
+	N40°32.35', W80°11.70'
+	N40°31.69', W80°10.99'
+	N40°31.49', W80°10.24'
+	N40°31.25', W80°9.64'
+	N40°30.93', W80°9.27'
+	N40°30.66', W80°8.45'
+	N40°30.53', W80°8.18'
+	N40°30.06', W80°6.58'
+	N40°29.71', W80°5.37'
+	N40°29.22', W80°4.21'
+	N40°29.09', W80°3.57'
+	N40°28.48', W80°2.90'
+	N40°27.98', W80°3.10'
+	N40°27.72', W80°2.97'
+	N40°26.71', W80°1.69'
+	N40°25.99', W80°0.05'
+	N40°25.91', W79°59.19'
+	N40°25.98', W79°58.63'
+	N40°25.75', W79°57.93'
+	N40°25.20', W79°57.46'
+	N40°24.29', W79°57.20'
+	N40°23.87', W79°56.81'
+	N40°23.79', W79°56.34'
+	N40°23.97', W79°55.63'
+	N40°24.45', W79°55.25'
+
+	N40°24.82', W79°54.70'
+	N40°24.92', W79°54.33'
+	N40°24.75', W79°53.71'
+	N40°24.45', W79°53.38'
+	N40°24.22', W79°52.85'
+	N40°23.62', W79°52.19'
+	N40°23.19', W79°51.21'
+	N40°22.47', W79°50.46'
+	N40°21.92', W79°50.35'
+	N40°21.62', W79°50.59'
+	N40°21.50', W79°51.00'
+	N40°21.31', W79°52.25'
+	N40°21.27', W79°52.72'
+	N40°21.01', W79°53.18'
+	N40°20.36', W79°53.78'
+	N40°19.70', W79°53.99'
+	N40°19.18', W79°53.97'
+	N40°18.81', W79°53.57'
+	N40°18.55', W79°52.89'
+	N40°18.15', W79°52.36'
+	N40°17.83', W79°52.25'
+	N40°17.51', W79°52.32'
+	N40°16.58', W79°53.38'
+	N40°15.58', W79°54.64'
+	N40°15.07', W79°55.04'
+	N40°14.72', W79°55.59'
+	N40°14.52', W79°56.60'
+	N40°14.43', W79°57.67'
+	N40°14.21', W79°58.10'
+	N40°13.83', W79°58.31'
+	N40°13.48', W79°58.25'
+	N40°12.81', W79°57.63'
+	N40°12.53', W79°56.33'
+	N40°12.19', W79°55.56'
+	N40°11.85', W79°55.01'
+	N40°11.72', W79°53.82'
+	N40°11.74', W79°52.64'
+
+	N40°11.27', W79°51.34'
+	N40°10.75', W79°51.28'
+	N40°10.36', W79°51.40'
+	N40°9.98', W79°51.74'
+	N40°9.83', W79°52.19'
+	N40°9.97', W79°53.32'
+	N40°9.91', W79°53.87'
+	N40°9.79', W79°54.22'
+	N40°9.44', W79°54.45'
+	N40°9.00', W79°54.32'
+	N40°8.55', W79°53.93'
+	N40°8.36', W79°53.61'
+	N40°7.96', W79°53.44'
+	N40°7.50', W79°52.38'
+	N40°6.89', W79°51.17'
+	N40°5.69', W79°50.55'
+	N40°5.30', W79°50.62'
+	N40°4.98', W79°51.04'
+	N40°4.79', W79°51.64'
+	N40°4.73', W79°52.30'
+	N40°4.91', W79°53.49'
+	N40°4.89', W79°53.89'
+	N40°4.74', W79°54.18'
+	N40°4.49', W79°54.16'
+	N40°4.32', W79°53.86'
+	N40°4.25', W79°53.30'
+	N40°3.99', W79°53.00'
+
+
+
+
+
+
+
+
+
+
+
+
+#Kiskiminetas River
+line6 = 
+	N40°40.77', W79°39.93'
+	N40°40.35', W79°39.21'
+	N40°40.13', W79°38.53'
+	N40°39.83', W79°38.21'
+	N40°39.34', W79°38.13'
+	N40°38.79', W79°37.50'
+	N40°38.59', W79°36.79'
+	N40°38.30', W79°36.53'
+	N40°37.86', W79°36.66'
+	N40°37.59', W79°36.59'
+	N40°37.46', W79°36.18'
+	N40°37.61', W79°35.88'
+
+#Youghuogheny River
+line7 =
+	N40°21.15', W79°52.16'
+	N40°20.83', W79°52.22'
+	N40°20.30', W79°51.71'
+	N40°19.49', W79°50.69'
+	N40°18.89', W79°50.28'
+	N40°18.74', W79°50.01'
+	N40°18.95', W79°49.51'
+	N40°19.22', W79°48.95'
+	N40°19.15', W79°48.06'
+	N40°19.00', W79°47.68'
+	N40°18.69', W79°47.60'
+	N40°18.44', W79°47.78'
+	N40°18.19', W79°48.33'
+	N40°18.01', W79°48.44'
+	N40°17.76', W79°48.34'
+	N40°17.64', W79°48.00'
+	N40°17.87', W79°47.66'
+	N40°17.96', W79°47.44'
+	N40°17.69', W79°47.03'
+	N40°17.33', W79°46.65'
+	N40°17.09', W79°46.70'
+	N40°16.95', W79°46.96'
+	N40°16.91', W79°47.60'
+	N40°16.75', W79°47.82'
+	N40°16.43', W79°47.84'
+	N40°15.83', W79°47.42'
+	N40°15.52', W79°47.47'
+	N40°14.43', W79°48.33'
+	N40°14.07', W79°48.42'
+	N40°13.84', W79°48.17'
+	N40°13.71', W79°46.48'
+	N40°13.61', W79°46.03'
+	N40°13.40', W79°45.93'
+	N40°12.81', W79°46.13'
+	N40°12.14', W79°46.22'
+	N40°11.86', W79°45.96'
+	N40°11.65', W79°45.59'
+	N40°11.41', W79°45.60'
+	N40°11.30', W79°45.75'
+	N40°11.08', W79°46.57'
+	N40°10.89', W79°46.71'
+	N40°10.72', W79°46.62'
+	N40°10.68', W79°46.15'
+	N40°10.51', W79°45.87'
+	N40°9.64', W79°45.53'
+	N40°9.49', W79°45.25'
+	N40°9.56', W79°44.91'
+	N40°9.46', W79°44.74'
+	N40°9.27', W79°44.75'
+
+#Wheeling Island
+line8 =
+	N40°5.10', W80°43.84'
+	N40°4.83', W80°43.89'
+	N40°4.07', W80°43.73'
+	N40°3.66', W80°43.93'
+	N40°4.16', W80°44.18'
+	N40°4.67', W80°44.23'
+	N40°4.90', W80°44.10'
+	N40°5.10', W80°43.84'
+
+
+line9 =
+	N40°29.52', W80°4.29'
+	N40°29.52', W80°4.76'
+	N40°30.07', W80°6.13'
+	N40°30.34', W80°7.01'
+	N40°30.49', W80°7.73'
+	N40°30.86', W80°8.38'
+	N40°30.87', W80°8.72'
+	N40°31.17', W80°9.33'
+	N40°31.23', W80°9.39'
+	N40°31.21', W80°9.24'
+	N40°31.10', W80°8.79'
+	N40°30.86', W80°8.04'
+	N40°30.65', W80°6.89'
+	N40°30.20', W80°5.62'
+	N40°30.03', W80°5.33'
+	N40°29.99', W80°4.95'
+	N40°29.76', W80°4.45'
+	N40°29.57', W80°4.27'
+	N40°29.52', W80°4.29'
+
+
+#Ambridge Reservoir
+line10 =
+	N40°35.60', W80°22.18'
+	N40°35.57', W80°22.11'
+	N40°35.21', W80°21.82'
+	N40°34.82', W80°21.35'
+	N40°34.82', W80°21.13'
+	N40°35.06', W80°21.08'
+	N40°34.79', W80°20.95'
+	N40°34.72', W80°20.85'
+	N40°34.61', W80°20.88'
+	N40°34.59', W80°20.74'
+	N40°34.42', W80°20.71'
+	N40°34.45', W80°20.96'
+	N40°34.55', W80°21.12'
+	N40°34.53', W80°21.30'
+	N40°34.61', W80°21.47'
+	N40°34.56', W80°21.68'
+	N40°34.60', W80°21.75'
+	N40°34.60', W80°22.07'
+	N40°34.48', W80°22.38'
+	N40°34.22', W80°22.72'
+	N40°34.13', W80°23.11'
+	N40°34.18', W80°23.18'
+	N40°34.19', W80°23.04'
+	N40°34.38', W80°22.65'
+	N40°34.65', W80°22.32'
+	N40°34.69', W80°22.08'
+	N40°34.81', W80°21.96'
+	N40°34.76', W80°21.72'
+	N40°34.90', W80°21.68'
+	N40°35.02', W80°21.73'
+	N40°35.11', W80°21.86'
+	N40°35.24', W80°22.04'
+	N40°35.51', W80°22.18'
+	N40°35.60', W80°22.18'
+
+#Cross Creek Lake
+line11 =
+	N40°15.47', W80°25.59'
+	N40°15.17', W80°25.23'
+	N40°14.93', W80°25.21'
+	N40°14.94', W80°24.91'
+	N40°15.02', W80°24.81'
+	N40°15.17', W80°24.31'
+	N40°15.04', W80°24.09'
+	N40°15.20', W80°23.82'
+	N40°15.09', W80°23.39'
+	N40°15.33', W80°23.15'
+	N40°15.43', W80°22.72'
+	N40°15.39', W80°22.16'
+	N40°15.47', W80°22.07'
+	N40°15.54', W80°22.15'
+	N40°15.66', W80°22.45'
+	N40°15.66', W80°22.85'
+	N40°15.49', W80°23.37'
+	N40°15.36', W80°23.53'
+	N40°15.40', W80°23.85'
+	N40°15.54', W80°24.00'
+	N40°15.63', W80°24.08'
+	N40°15.49', W80°24.29'
+	N40°15.48', W80°24.52'
+	N40°15.26', W80°24.79'
+	N40°15.27', W80°24.97'
+	N40°15.39', W80°25.08'
+	N40°15.45', W80°25.19'
+	N40°15.57', W80°25.23'
+	N40°15.61', W80°25.44'
+	N40°15.47', W80°25.59'
+
+#Lake Arthur
+line12 =
+	N40°58.06', W80°1.19'
+	N40°57.78', W80°1.58'
+	N40°57.57', W80°1.97'
+	N40°57.21', W80°2.03'
+	N40°56.98', W80°1.56'
+	N40°57.01', W80°1.06'
+	N40°57.13', W80°0.75'
+	N40°57.13', W79°59.89'
+	N40°57.04', W79°59.76'
+	N40°56.96', W79°59.84'
+	N40°56.84', W80°0.35'
+	N40°56.65', W80°0.49'
+	N40°56.72', W80°0.77'
+	N40°56.80', W80°0.95'
+	N40°56.80', W80°1.42'
+	N40°56.69', W80°1.61'
+	N40°56.73', W80°1.79'
+	N40°56.93', W80°2.07'
+	N40°56.85', W80°2.32'
+	N40°56.43', W80°2.04'
+	N40°56.10', W80°1.97'
+	N40°56.01', W80°2.16'
+	N40°56.37', W80°2.32'
+	N40°56.53', W80°2.51'
+	N40°56.73', W80°2.54'
+	N40°57.03', W80°3.17'
+	N40°56.81', W80°3.56'
+	N40°56.94', W80°4.69'
+	N40°56.82', W80°4.83'
+	N40°56.26', W80°4.64'
+	N40°55.90', W80°4.55'
+	N40°55.83', W80°4.37'
+	N40°55.28', W80°4.23'
+	N40°55.07', W80°4.38'
+	N40°55.37', W80°4.45'
+	N40°55.27', W80°4.88'
+	N40°55.49', W80°4.66'
+	N40°55.70', W80°5.00'
+	N40°55.90', W80°4.88'
+	N40°56.32', W80°5.02'
+	N40°56.31', W80°5.62'
+	N40°56.52', W80°5.19'
+	N40°56.61', W80°5.24'
+	N40°56.75', W80°5.63'
+	N40°56.99', W80°5.75'
+	N40°56.84', W80°6.56'
+	N40°56.91', W80°6.77'
+	N40°56.51', W80°7.44'
+	N40°56.08', W80°7.36'
+	N40°55.97', W80°7.58'
+	N40°56.27', W80°7.59'
+	N40°56.44', W80°7.87'
+	N40°56.71', W80°7.57'
+	N40°57.20', W80°7.12'
+	N40°57.59', W80°7.43'
+	N40°57.87', W80°7.38'
+	N40°58.15', W80°7.66'
+	N40°58.21', W80°7.64'
+	N40°58.02', W80°7.28'
+	N40°58.33', W80°6.71'
+	N40°58.33', W80°6.41'
+	N40°58.24', W80°6.62'
+	N40°57.95', W80°7.06'
+	N40°57.60', W80°6.79'
+	N40°57.48', W80°6.23'
+	N40°57.60', W80°6.00'
+	N40°57.57', W80°5.76'
+	N40°57.42', W80°5.64'
+	N40°57.39', W80°5.05'
+	N40°57.17', W80°5.05'
+	N40°57.35', W80°4.81'
+	N40°57.30', W80°4.28'
+	N40°57.57', W80°4.22'
+	N40°57.29', W80°3.98'
+	N40°57.26', W80°3.68'
+	N40°57.40', W80°3.67'
+	N40°57.25', W80°3.18'
+	N40°57.49', W80°3.05'
+	N40°57.23', W80°2.83'
+	N40°57.12', W80°2.53'
+	N40°57.33', W80°2.17'
+	N40°57.68', W80°2.11'
+	N40°58.04', W80°1.80'
+	N40°58.12', W80°1.44'
+
+
+
+
+
+
+
+
+
+##############################################################
+[airport1]
+##############################################################
+
+name = Pittsburgh International Airport, pittsburgh
+code = KPIT
+
+runways = 
+	PIT_10R_28L,	10R,	N40°29.20',	W80°15.11',	92,	11500,	0,	0,	1134.8,	3,	92,	3,	272,	starg,	5.6,	pittz,	5.7,	128.3,	pittsburgh tower
+	PIT_10C_28C,	10C,	N40°29.39',	W80°14.88',	92,	10775,	465,	602,	1140.2,	3,	92,	3,	272,	formm,	5.6,	suppr,	5.6,	128.3,	pittsburgh tower
+	PIT_10L_28R,	10L,	N40°30.14',	W80°16.27',	92,	10502,	0,	0,	1202.9,	3,	92,	3,	272,	racoo,	5.5,	zaiko,	5.6,	128.3,	pittsburgh tower
+	PIT_14_32,	14,	N40°29.76',	W80°13.49',	136.5,	8101,	0,	335,	1147.6,	3,	136.5,	3,	316.5,	bilre,	5.5,	wyler,	8.9,	128.3,	pittsburgh tower
+
+
+climbaltitude = 5000
+
+sids = 
+	ewc
+	jst
+	mgw
+	bsv
+	ahtiy,	N39.54.51.850,	W080.23.05.230,	ah-tee
+	keman,	N39.51.37.810,	W080.02.30.150,	keman
+	dilne,	N40.28.04.600,	W080.52.32.490,	dilne
+	tyroo,	N40.44.06.000,	W078.19.53.000,	tyroo
+
+entrypoints = 
+	033,	haynz
+	320,	jesey
+	224,	fewga
+	122,	demme
+
+airlines =
+#	usa,	8,	a319/a320/a321/b734,						U S air
+#	usa,	3,	b752/b762/a359,							U S air
+	swa,	7,	b737/b738/b37m/b38m,						southwest
+	jbu,	1.5,	e190,								jetblue
+	aal,	5.5,	a319/a320/a321/a21n/b738/b38m,					american,		sw
+	nks,	4,	a320/a20n,							spirit wings
+	dal,	3,	a319/a320/a321/b738/b739/b712/b752,				delta,			sw
+	ual,	1,	a320/b737/b738,							united
+	asa,	1,	b739,								alaska,			n
+
+	fft,	0.2,	a20n,								frontier flight,	s
+	scx,	1.25,	b738,								sun country
+	aay,	2,	a319/a320,							allegiant,		s
+
+	edv,	3,	crj7/crj9,							endeavor,		ne
+	eny,	3,	e145/e75l,							envoy,			sw
+
+	pdt,	0.75,	e145,								piedmont
+	jia,	1.5,	crj7/crj9,							blue streak
+	rpa,	8,	e75l/e170,							brickyard
+
+	skw,	6,	e75l/crj2/crj9,							sky west,		w
+	gjs,	0.25,	crj7,								lindberg,		ew
+	ash,	1.5,	e75l,								air shuttle,		sw
+	awi,	0.2,	crj2,								air wisconsin,		s
+
+	fdy,	2,	c208,								friendly,		nse
+	btq,	1.5,	pc12,								boutique,		e
+
+	qtr,	0.25,	b77w,								qatari,			ne
+	baw,	0.25,	b788,								speedbird,		ne
+	cfg,	0.1,	a339/b753/b763,							condor,			ne
+
+	jza,	0.5,	crj2,								jazz,			n
+	mxy,	1.5,	E190,								moxy,			se
+
+	fdx,	1,	a300/b763,							fedex,			s
+	ups,	1,	a300/b752/b763/md11,						u p s,			se
+	atn,	0.1,	b762/b763,							air transport,		nsw
+	wig,	0.5,	c208,								wiggins,		e
+
+	rch,		0.4,	c130/c17/c5m/b733,					reach
+	pat,		0.05,	glf4/glf5,						pat
+	pitt87-,	0.25,	k35r/b762/dc10,						pit eight seven
+	pitt62-,	0.25,	k35r/b762/dc10,						pit six two
+	pitt11-,	0.25,	k35r/b762/dc10,						pit one one
+
+	rvj,		1.5,	be40/c680,													rivers jet
+	pjc,		1,	c56x/c25b,													pittsburgh jet
+
+	eja,		0.75,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	exec jet
+	lxj,		0.3,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	flex jet
+	dpj,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet card
+	jtl,		0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet links
+
+	jas,		0.05,	fa7x/gl7t,													jet setter
+	kow,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	cowboy
+	noj,		0.05,	be20/c525/c25b/lj45/pc24/g150/cl35/f2th/cl60/fa7x,								nova jet
+	jcy,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet city
+	mad,		0.05,	cl30/c680/c56x/c25b/c55b,											malone
+	ejm,		0.05,	glex/cl60,													jet speed
+	pxg,		0.05,	c56x,														phoenix global
+
+	twy,		0.1,	cl60/glex/glf5/glf6,												twilight
+	tff,		0.05,	cl60,														talon flight
+	enk,		0.05,	h25b,														sunbird
+	siy,		0.05,	h25b,														serenity
+	rlj,		0.05,	h25b,														realjet
+
+	glt,		0.05,	pc12/c25b/c56x/c680/be20,											gaslight
+	tek,		0.05,	pc12/lj45,													Eigh tech
+	cns,		0.05,	pc12,														chronos
+	lbq,		0.05,	pc12,														lab-quest
+
+
+	n-123ab,	1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,						0
+	n-123ab,	0.25,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0
+	n-123ab,	0.01,	b734/dh8d/e190,																				0
+
+flow = 9
+##############################################################
+[airport2]
+##############################################################
+
+name = Allegheny County Airport, allegheny
+code = AG
+
+runways = 
+	AGC_10_28,	10,	N40°21.26',	W79°56.47',	89.9,	6501,	0,	0,	1249.4,	3,	90,	3,	272,	shans,	5.4,	gugte,	10.1,	121.1,	alleghany tower
+	AGC_13_31,	13,	N40°21.44',	W79°56.06',	119.9,	3825,	0,	0,	1245.2,	3,	119.9,	3,	299.9,	,	0,	,	0,	121.1,	allegheny tower
+
+climbaltitude = 3000
+
+sids = 
+	ewc
+	jst
+	mgw
+	bsv
+	fkl
+	ahtiy,	N39.54.51.850,	W080.23.05.230,	ah-tee
+	keman,	N39.51.37.810,	W080.02.30.150,	keman
+	dilne,	N40.28.04.600,	W080.52.32.490,	dilne
+	tyroo,	N40.44.06.000,	W078.19.53.000,	tyroo
+
+entrypoints = 
+	033,	grace,	10000
+	320,	cutta,	10000
+	224,	wiske,	7000
+	122,	agc,	5000
+
+airlines =
+	rvj,		0.25,	be40/c680,													rivers jet
+	pjc,		0.5,	c56x/c25b,													pittsburgh jet
+
+	eja,		0.4,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	exec jet
+	lxj,		0.3,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	flex jet
+	dpj,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet card
+	jtl,		0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet links
+
+	jas,		0.05,	fa7x/gl7t,													jet setter
+	kow,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	cowboy
+	noj,		0.05,	be20/c525/c25b/lj45/pc24/g150/cl35/f2th/cl60/fa7x,								nova jet
+	jcy,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet city
+	mad,		0.05,	cl30/c680/c56x/c25b/c55b,											malone
+	ejm,		0.05,	glex/cl60,													jet speed
+	pxg,		0.05,	c56x,														phoenix global
+
+	twy,		0.1,	cl60/glex/glf5/glf6,												twilight
+	tff,		0.05,	cl60,														talon flight
+	enk,		0.05,	h25b,														sunbird
+	siy,		0.05,	h25b,														serenity
+	rlj,		0.05,	h25b,														realjet
+
+	glt,		0.05,	pc12/c25b/c56x/c680/be20,											gaslight
+	tek,		0.05,	pc12/lj45,													Eigh tech
+	cns,		0.05,	pc12,														chronos
+	lbq,		0.05,	pc12,														lab-quest
+
+
+	n-123ab,	1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,					0
+	n-123ab,	1,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0
+
+flow = 2.3
+
+##############################################################
+[airport3]
+##############################################################
+
+name = Wheeling Ohio County Airport, wheeling
+code = HL
+
+runways = 
+	HLG_03_21,	3,	N40°10.11',	W80°39.08',	26,	5002,	0,	0,	1170,	3,	24.2,	3,	204.2,	boggs,	10.3,	bekse,	10.5,	118.1,	wheeling tower
+	HLG_16_34,	16,	N40°10.84',	W80°38.94',	151,	4499,	0,	0,	1171.4,	3,	149.2,	3,	329.2,	fapnu,	10,	cepgi,	11.6,	118.1,	wheeling tower
+
+climbaltitude = 4000
+
+sids = 
+	ewc
+	air
+	jst
+	mgw
+	bsv
+	fkl
+	ahtiy,	N39.54.51.850,	W080.23.05.230,	ah-tee
+	keman,	N39.51.37.810,	W080.02.30.150,	keman
+	tyroo,	N40.44.06.000,	W078.19.53.000,	tyroo
+
+entrypoints = 
+	033,	grace,	10000
+	320,	cutta,	10000
+	224,	hlg,	5000
+	122,	hlg,	5000
+
+airlines =
+	rvj,		0.25,	be40/c680,													rivers jet
+	pjc,		0.5,	c56x/c25b,													pittsburgh jet
+
+	eja,		0.4,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	exec jet
+	lxj,		0.3,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	flex jet
+	dpj,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet card
+	jtl,		0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet links
+
+	jas,		0.05,	fa7x/gl7t,													jet setter
+	kow,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	cowboy
+	noj,		0.05,	be20/c525/c25b/lj45/pc24/g150/cl35/f2th/cl60/fa7x,								nova jet
+	jcy,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet city
+	mad,		0.05,	cl30/c680/c56x/c25b/c55b,											malone
+	ejm,		0.05,	glex/cl60,													jet speed
+	pxg,		0.05,	c56x,														phoenix global
+
+	twy,		0.1,	cl60/glex/glf5/glf6,												twilight
+	tff,		0.05,	cl60,														talon flight
+	enk,		0.05,	h25b,														sunbird
+	siy,		0.05,	h25b,														serenity
+	rlj,		0.05,	h25b,														realjet
+
+	glt,		0.05,	pc12/c25b/c56x/c680/be20,											gaslight
+	tek,		0.05,	pc12/lj45,													Eigh tech
+	cns,		0.05,	pc12,														chronos
+	lbq,		0.05,	pc12,														lab-quest
+
+	cap,		0.15,	c182/c172,													cap
+
+
+	n-123ab,	1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,					0
+	n-123ab,	2,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0
+
+flow = 0.5
+
+##############################################################
+[airport4]
+##############################################################
+
+name = Beaver County Airport, beaver county
+code = BV
+
+runways = 
+	BVI_10_28,	10,	N40°46.37',	W80°23.97',	93.8,	4501,	0,	0,	1204.2,	3,	91.9,	3,	271.9,	JOKUB,	5.5,	ZILET,	5.1,	120.30,	beaver county tower
+
+climbaltitude = 4000 		; maximum initial climb altitude in feet for departures
+
+sids = 
+	ewc
+	jst
+	mgw
+	bsv
+	fkl
+	ahtiy,	N39.54.51.850,	W080.23.05.230,	ah-tee
+	keman,	N39.51.37.810,	W080.02.30.150,	keman
+	dilne,	N40.28.04.600,	W080.52.32.490,	dilne
+	tyroo,	N40.44.06.000,	W078.19.53.000,	tyroo
+
+entrypoints = 
+	033,	ewc,	4000
+	224,	wiske,	10000
+	122,	nesto,	10000
+
+
+airlines =
+	rvj,		0.25,	be40/c680,													rivers jet
+	pjc,		0.5,	c56x/c25b,													pittsburgh jet
+
+	eja,		0.4,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	exec jet
+	lxj,		0.3,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	flex jet
+	dpj,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet card
+	jtl,		0.1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet links
+
+	jas,		0.05,	fa7x/gl7t,													jet setter
+	kow,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	cowboy
+	noj,		0.05,	be20/c525/c25b/lj45/pc24/g150/cl35/f2th/cl60/fa7x,								nova jet
+	jcy,		0.05,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T,	jet city
+	mad,		0.05,	cl30/c680/c56x/c25b/c55b,											malone
+	ejm,		0.05,	glex/cl60,													jet speed
+	pxg,		0.05,	c56x,														phoenix global
+
+	twy,		0.1,	cl60/glex/glf5/glf6,												twilight
+	tff,		0.05,	cl60,														talon flight
+	enk,		0.05,	h25b,														sunbird
+	siy,		0.05,	h25b,														serenity
+	rlj,		0.05,	h25b,														realjet
+
+	glt,		0.05,	pc12/c25b/c56x/c680/be20,											gaslight
+	tek,		0.05,	pc12/lj45,													Eigh tech
+	cns,		0.05,	pc12,														chronos
+	lbq,		0.05,	pc12,														lab-quest
+
+
+	n-123ab,	1,	c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/GALX/G150/F2TH/H25B/H25C/HA4T/HDJT/PRM1/evot/pc12,					0
+	n-123ab,	1,	m20t/p46t/aest/m600/b58t/c402/c72r/c77r/p32r/p32t/c82r/c82t/c82s/c172/c177/c206/p28b/t206/bt36/c210/t210/p210/da42/da62/sr22/s22t/p28a/p28r/p28u/p28t/be99/be20,	0
+
+flow = 1.7
+
+##############################################################
+# KPIT Surface Area
+##############################################################
+[area1]
+##############################################################
+shape = circle		; circle or polygon
+altitude = 5000		; minimum allowed altitude in feet
+radius = 7		; radius of circle in NM
+position = N40°29.49',	W80°13.96'	; position of circle center
+labelpos = N40.443, W80.232		; <position of label>
+
+##############################################################
+# KAGC Surface Area
+##############################################################
+[area2]
+shape = circle
+altitude = 3800
+radius = 4
+name = AG
+position = N40°21.27',	W79°55.74'
+labelpos = N40.316,	W79.925
+
+##############################################################
+# KHLG Surface Area
+##############################################################
+[area3]
+shape = circle
+altitude = 3700
+radius = 4
+name = HL
+position = N40°10.50',	W80°38.78'
+labelpos = N40.173,	W80.701
+draw = -1.74, 3.64
+
+[area4]
+shape = polygon
+altitude = 3700
+name = HL
+points = 
+	N40°8.15', W80°43.00'
+	N40°7.41', W80°43.45'
+	N40°5.83', W80°39.25'
+	N40°6.51', W80°38.82'
+
+draw = 1
+##############################################################
+# KBVI Surface Area
+##############################################################
+[area5]
+shape = circle
+altitude = 3800
+radius = 4
+name = BV
+position = N40°46.35',	W80°23.49'
+labelpos = N40.734,	W80.396
+
+##############################################################
+# MVA Areas
+##############################################################
+[area6]
+shape = circle
+position = N40.533, W79.535
+labelpos = N40.527, W79.612
+radius = 5
+name = X
+altitude = 3100
+draw = 2, 4.1
+
+[area7]
+shape = polygon
+name = X
+altitude = 3400
+points =
+	N40.364,	W79.600
+	N40.36724,	W79.62328
+	N40.34349,	W79.63077
+	N40.32004,	W79.63978
+	N40.29694,	W79.65029
+	N40.27426,	W79.66228
+	N40.25205,	W79.67571
+	N40.23036,	W79.69055
+	N40.20925,	W79.70676
+	N40.18876,	W79.72432
+	N40.16895,	W79.74317
+	N40.14986,	W79.76327
+	N40.13155,	W79.78457
+	N40.11405,	W79.80702
+	N40.09742,	W79.83056
+	N39.972,	W79.611
+	N40.33723,	W79.40868
+
+labelPos = N40.316, W79.630
+draw = 3
+
+##############################################################
+[configurations]
+##############################################################
+
+#East Flow
+config1 =
+	0,	PIT_10R_28L,	land
+	0,	PIT_10C_28C,	start,			90,	nosid
+	0,	PIT_10L_28R,	land
+	0,	PIT_14_32,	startland,		150,	nosid
+
+	8,	BVI_10_28,	startland,		091,	nosid
+
+	12,	AGC_10_28,	startland,		90,	nosid
+	12,	AGC_13_31,	start,			150,	nosid
+
+
+	16,	HLG_03_21,	startland,		035,	nosid
+	16,	HLG_16_34,	startland,		159,	nosid
+
+
+#West Flow
+config2 =
+	0,	PIT_10R_28L,	startlandrevint,	250,	nosid
+	0,	PIT_10C_28C,	startrev,		280,	nosid
+	0,	PIT_10L_28R,	startlandrev,		310,	nosid
+	0,	PIT_14_32,	landrev
+
+	8,	BVI_10_28,	startlandrev,		281,	nosid
+
+	12,	AGC_10_28,	startlandrev,		250,	nosid
+	12,	AGC_13_31,	startrev,		040,	nosid
+
+	16,	HLG_03_21,	startlandrev,		215,	nosid
+	16,	HLG_16_34,	startlandrev,		340,	nosid
+
+
+##############################################################
+# STARS
+##############################################################
+# DEMME4
+##############################################################
+[approach1]
+runway = PIT_14_32,	rev
+beacon = nesto
+route1 =
+	360,	demme4,	dem-E four
+	N40.11.40.050,	W079.42.49.490
+	N40.13.41.610,	W079.48.47.540
+	N40.16.27.500,	W079.56.58.200,	6000
+	16
+
+[approach2]
+runway = PIT_14_32,	rev
+beacon = demme
+route1 =
+	360,	demme4,	dem-E four
+	N40.13.41.610,	W079.48.47.540
+	N40.16.27.500,	W079.56.58.200,	6000
+	16
+
+[approach3]
+runway = PIT_14_32,	rev
+beacon = grunz,	N40.16.27.500,	W079.56.58.200,	grunz
+route1 =
+	360,	demme4,	dem-E four
+	N40.16.27.500,	W079.56.58.200,	6000
+	16
+
+##############################################################
+[approach4]
+runway = PIT_10L_28R,	rev
+beacon = nesto
+route1 =
+	360,	demme4,	dem-E four
+	N40.11.40.050,	W079.42.49.490
+	N40.13.41.610,	W079.48.47.540
+	N40.18.35.220,	W079.49.45.790
+	N40.22.01.300,	W079.50.26.680
+	end,	071
+
+[approach5]
+runway = PIT_10L_28R,	rev
+beacon = demme
+route1 =
+	360,	demme4,	dem-E four
+	N40.13.41.610,	W079.48.47.540
+	N40.18.35.220,	W079.49.45.790
+	N40.22.01.300,	W079.50.26.680
+	end,	071
+
+[approach6]
+runway = PIT_10L_28R,	rev
+beacon = lmbrt,	N40.18.35.220,	W079.49.45.790,	lambert
+route1 =
+	360,	demme4,	dem-E four
+	N40.18.35.220,	W079.49.45.790
+	N40.22.01.300,	W079.50.26.680
+	end,	071
+
+[approach7]
+runway = PIT_10L_28R,	rev
+beacon = stilr,	N40.22.01.300,	W079.50.26.680,	stiller
+route1 =
+	360,	demme4,	dem-E four
+	N40.22.01.300,	W079.50.26.680
+	end,	071
+
+##############################################################
+[approach8]
+runway = PIT_10L_28R
+beacon = nesto
+route1 =
+	360,	demme4,	dem-E four
+	N40.11.40.050,	W079.42.49.490
+	N40.13.41.610,	W079.48.47.540
+	N40.24.09.120,	W080.12.57.330
+	N40.24.14.380,	W080.16.39.400
+	N40.24.25.610,	W080.22.53.090
+	end,	281
+
+[approach9]
+runway = PIT_10L_28R
+beacon = demme
+route1 =
+	360,	demme4,	dem-E four
+	N40.13.41.610,	W079.48.47.540
+	N40.24.09.120,	W080.12.57.330
+	N40.24.14.380,	W080.16.39.400
+	N40.24.25.610,	W080.22.53.090
+	end,	281
+
+[approach10]
+runway = PIT_10L_28R
+beacon = pengn,	N40.24.09.120,	W080.12.57.330,	0,	penguin
+route1 =
+	360,	demme4,	dem-E four
+	N40.24.09.120,	W080.12.57.330
+	N40.24.14.380,	W080.16.39.400
+	N40.24.25.610,	W080.22.53.090
+	end,	281
+
+[approach11]
+runway = PIT_10L_28R
+beacon = rivrz,	N40.24.14.380,	W080.16.39.400,	0,	rivers
+route1 =
+	360,	demme4,	dem-E four
+	N40.24.14.380,	W080.16.39.400
+	N40.24.25.610,	W080.22.53.090
+	end,	281
+
+[approach12]
+runway = PIT_10L_28R
+beacon = heinz,	N40.24.25.610,	W080.22.53.090,	0,	heinz
+route1 =
+	360,	demme4,	dem-E four
+	N40.24.25.610,	W080.22.53.090
+	end,	281
+
+##############################################################
+# FEWGA7
+##############################################################
+[approach21]
+runway = PIT_14_32,	rev
+beacon = wiske
+route1 =
+	360,	fewga7,	fewga seven
+	N40.07.44.890,	W080.40.33.940
+	N40.11.14.040,	W080.35.53.230
+	N40.15.56.920,	W080.29.34.430
+	N40.20.33.330,	W080.17.57.400
+	N40.20.30.750,	W080.13.50.720
+	N40.20.29.600,	W080.11.01.850
+	N40.15.55.950,	W080.05.18.350
+	end,	146
+
+[approach22]
+runway = PIT_14_32,	rev
+beacon = fewga
+route1 =
+	360,	fewga7,	fewga seven
+	N40.11.14.040,	W080.35.53.230
+	N40.15.56.920,	W080.29.34.430
+	N40.20.33.330,	W080.17.57.400
+	N40.20.30.750,	W080.13.50.720
+	N40.20.29.600,	W080.11.01.850
+	N40.15.55.950,	W080.05.18.350
+	end,	146
+
+[approach23]
+runway = PIT_14_32,	rev
+beacon = bblak, N40.15.56.920,	W080.29.34.430,	0,	be black
+route1 =
+	360,	fewga7,	fewga seven
+	N40.15.56.920,	W080.29.34.430
+	N40.20.33.330,	W080.17.57.400
+	N40.20.30.750,	W080.13.50.720
+	N40.20.29.600,	W080.11.01.850
+	N40.15.55.950,	W080.05.18.350
+	end,	146
+
+[approach24]
+runway = PIT_14_32,	rev
+beacon = goldh, N40.20.33.330,	W080.17.57.400,	0,	gold
+route1 =
+	360,	fewga7,	fewga seven
+	N40.20.33.330,	W080.17.57.400
+	N40.20.30.750,	W080.13.50.720
+	N40.20.29.600,	W080.11.01.850
+	N40.15.55.950,	W080.05.18.350
+	end,	146
+
+[approach25]
+runway = PIT_14_32,	rev
+beacon = mlkin, N40.20.29.600,	W080.11.01.850,	0,	mulkin
+route1 =
+	360,	fewga7,	fewga seven
+	N40.20.29.600,	W080.11.01.850		;mlkin
+	N40.15.55.950,	W080.05.18.350		;crsby
+	end,	146
+
+[approach26]
+runway = PIT_14_32,	rev
+beacon = crsby, N40.15.55.950,	W080.05.18.350,	0,	crosby
+route1 =
+	360,	fewga7,	fewga seven
+	N40.15.55.950,	W080.05.18.350
+	end,	146
+
+##############################################################
+[approach27]
+runway = PIT_10L_28R,	rev
+beacon = wiske
+route1 =
+	360,	fewga7,	fewga seven
+	N40.07.44.890,	W080.40.33.940
+	N40.11.14.040,	W080.35.53.230
+	N40.15.56.920,	W080.29.34.430
+	N40.20.33.330,	W080.17.57.400
+	N40.22.13.370,	W080.13.42.640
+	N40.24.00.620,	W080.09.11.020
+	N40.23.45.620,	W080.00.17.720
+	end,	101
+
+[approach28]
+runway = PIT_10L_28R,	rev
+beacon = fewga
+route1 =
+	360,	fewga7,	fewga seven
+	N40.11.14.040,	W080.35.53.230
+	N40.15.56.920,	W080.29.34.430
+	N40.20.33.330,	W080.17.57.400
+	N40.22.13.370,	W080.13.42.640
+	N40.24.00.620,	W080.09.11.020
+	N40.23.45.620,	W080.00.17.720
+	end,	101
+
+[approach29]
+runway = PIT_10L_28R,	rev
+beacon = bblak, N40.15.56.920,	W080.29.34.430,	0,	be black
+route1 =
+	360,	fewga7,	fewga seven
+	N40.15.56.920,	W080.29.34.430
+	N40.20.33.330,	W080.17.57.400
+	N40.22.13.370,	W080.13.42.640
+	N40.24.00.620,	W080.09.11.020
+	N40.23.45.620,	W080.00.17.720
+	end,	101
+
+[approach30]
+runway = PIT_10L_28R,	rev
+beacon = goldh, N40.20.33.330,	W080.17.57.400,	0,	gold
+route1 =
+	360,	fewga7,	fewga seven
+	N40.20.33.330,	W080.17.57.400
+	N40.22.13.370,	W080.13.42.640
+	N40.24.00.620,	W080.09.11.020
+	N40.23.45.620,	W080.00.17.720
+	end,	101
+
+[approach31]
+runway = PIT_10L_28R,	rev
+beacon = guinz, N40.24.00.620,	W080.09.11.020,	0,	guinz
+route1 =
+	360,	fewga7,	fewga seven
+	N40.24.00.620,	W080.09.11.020
+	N40.23.45.620,	W080.00.17.720
+	end,	101
+
+[approach32]
+runway = PIT_10L_28R,	rev
+beacon = cydny, N40.23.45.620,	W080.00.17.720,	0,	sydney
+route1 =
+	360,	fewga7,	fewga seven
+	N40.23.45.620,	W080.00.17.720
+	end,	101
+
+##############################################################
+[approach33]
+runway = PIT_10L_28R
+beacon = wiske
+route1 =
+	360,	fewga7,	fewga seven
+	N40.07.44.890,	W080.40.33.940
+	N40.11.14.040,	W080.35.53.230
+	N40.23.42.140,	W080.37.45.290
+	end,	301
+
+[approach34]
+runway = PIT_10L_28R
+beacon = fewga
+route1 =
+	360,	fewga7,	fewga seven
+	N40.11.14.040,	W080.35.53.230
+	N40.23.42.140,	W080.37.45.290
+	end,	301
+
+[approach35]
+runway = PIT_10L_28R
+beacon = lemew,	N40.23.42.140,	W080.37.45.290,	0,	lemew
+route1 =
+	360,	fewga7,	fewga seven
+	N40.23.42.140,	W080.37.45.290
+	end,	301
+
+##############################################################
+# HAYNZ7
+##############################################################
+[approach41]
+runway = PIT_10L_28R,	rev
+beacon = grace
+route1 =
+	360,	haynz7,	hanes seven
+	N40.51.24.660,	W079.48.02.120
+	N40.46.31.240,	W079.49.21.230
+	N40.37.02.480,	W079.51.54.580
+	end,	126
+
+[approach42]
+runway = PIT_10L_28R,	rev
+beacon = haynz
+route1 =
+	360,	haynz7,	hanes seven
+	N40.46.31.240,	W079.49.21.230
+	N40.37.02.480,	W079.51.54.580
+	end,	126
+
+[approach43]
+runway = PIT_10L_28R,	rev
+beacon = myron,	N40.37.02.480,	W079.51.54.580,	0,	myron
+route1 =
+	360,	haynz7,	hanes seven
+	N40.37.02.480,	W079.51.54.580
+	end,	126
+
+##############################################################
+[approach44]
+runway = PIT_14_32,	rev
+beacon = grace
+route1 =
+	360,	haynz7,	hanes seven
+	N40.51.24.660,	W079.48.02.120
+	N40.46.31.240,	W079.49.21.230
+	N40.37.02.480,	W079.51.54.580
+	N40.26.40.390,	W079.57.20.760
+	end,	166
+
+[approach45]
+runway = PIT_14_32,	rev
+beacon = haynz
+route1 =
+	360,	haynz7,	hanes seven
+	N40.46.31.240,	W079.49.21.230
+	N40.37.02.480,	W079.51.54.580
+	N40.26.40.390,	W079.57.20.760
+	end,	166
+
+[approach46]
+runway = PIT_14_32,	rev
+beacon = myron,	N40.37.02.480,	W079.51.54.580,	0,	myron
+route1 =
+	360,	haynz7,	hanes seven
+	N40.37.02.480,	W079.51.54.580
+	N40.26.40.390,	W079.57.20.760
+	end,	166
+
+[approach47]
+runway = PIT_14_32,	rev
+beacon = coppe,	N40.26.40.390,	W079.57.20.760,	0,	coppy
+route1 =
+	360,	haynz7,	hanes seven
+	N40.26.40.390,	W079.57.20.760
+	end,	166
+
+##############################################################
+[approach48]
+runway = PIT_10L_28R
+beacon = grace
+route1 =
+	360,	haynz7,	hanes seven
+	N40.51.24.660,	W079.48.02.120
+	N40.46.31.240,	W079.49.21.230
+	N40.34.42.720,	W080.05.50.860
+	N40.35.06.000,	W080.16.42.180
+	N40.35.21.290,	W080.22.56.550
+	end,	282
+
+[approach49]
+runway = PIT_10L_28R
+beacon = haynz
+route1 =
+	360,	haynz7,	hanes seven
+	N40.46.31.240,	W079.49.21.230
+	N40.34.42.720,	W080.05.50.860
+	N40.35.06.000,	W080.16.42.180
+	N40.35.21.290,	W080.22.56.550
+	end,	282
+
+[approach50]
+runway = PIT_10L_28R
+beacon = roosa,	N40.34.42.720,	W080.05.50.860,	0,	roosa
+route1 =
+	360,	haynz7,	hanes seven
+	N40.34.42.720,	W080.05.50.860
+	N40.35.06.000,	W080.16.42.180
+	N40.35.21.290,	W080.22.56.550
+	end,	282
+
+[approach51]
+runway = PIT_10L_28R
+beacon = terbl,	N40.35.06.000,	W080.16.42.180,	0,	ter-bull
+route1 =
+	360,	haynz7,	hanes seven
+	N40.35.06.000,	W080.16.42.180
+	N40.35.21.290,	W080.22.56.550
+	end,	282
+
+[approach52]
+runway = PIT_10L_28R
+beacon = towel,	N40.35.21.290,	W080.22.56.550,	0,	towel
+route1 =
+	360,	haynz7,	hanes seven
+	N40.35.21.290,	W080.22.56.550
+	end,	282
+
+##############################################################
+# JESEY4
+##############################################################
+[approach61]
+runway = PIT_10L_28R,	rev
+beacon = cutta
+route1 =
+	360,	jesey4,	jesse four
+	N40.52.34.510,	W080.38.35.650
+	N40.44.30.910,	W080.29.04.870
+	N40.35.09.720,	W080.18.25.940
+	N40.34.53.630,	W080.11.00.960
+	N40.34.42.720,	W080.05.50.860
+	end,	102
+
+[approach62]
+runway = PIT_10L_28R,	rev
+beacon = jesey
+route1 =
+	360,	jesey4,	jesse four
+	N40.44.30.910,	W080.29.04.870
+	N40.35.09.720,	W080.18.25.940
+	N40.34.53.630,	W080.11.00.960
+	N40.34.42.720,	W080.05.50.860
+	end,	102
+
+[approach63]
+runway = PIT_10L_28R,	rev
+beacon = krikk,	N40.35.09.720,	W080.18.25.940,	krik
+route1 =
+	360,	jesey4,	jesse four
+	N40.35.09.720,	W080.18.25.940
+	N40.34.53.630,	W080.11.00.960
+	N40.34.42.720,	W080.05.50.860
+	end,	102
+
+[approach64]
+runway = PIT_10L_28R,	rev
+beacon = ssoxx,	N40.34.53.630,	W080.11.00.960,	socks
+route1 =
+	360,	jesey4,	jesse four
+	N40.34.53.630,	W080.11.00.960
+	N40.34.42.720,	W080.05.50.860
+	end,	102
+
+[approach65]
+runway = PIT_10L_28R,	rev
+beacon = roosa,	N40.34.42.720,	W080.05.50.860,	roosa
+route1 =
+	360,	jesey4,	jesse four
+	N40.34.42.720,	W080.05.50.860
+	end,	102
+
+##############################################################
+[approach66]
+runway = PIT_14_32,	rev
+beacon = cutta
+route1 =
+	360,	jesey4,	jesse four
+	N40.52.34.510,	W080.38.35.650
+	N40.44.30.910,	W080.29.04.870
+	N40.35.09.720,	W080.18.25.940
+	N40.32.07.810,	W080.11.06.560
+	N40.28.52.540,	W080.03.16.910
+	end,	146
+
+[approach67]
+runway = PIT_14_32,	rev
+beacon = jesey
+route1 =
+	360,	jesey4,	jesse four
+	N40.44.30.910,	W080.29.04.870
+	N40.35.09.720,	W080.18.25.940
+	N40.32.07.810,	W080.11.06.560
+	N40.28.52.540,	W080.03.16.910
+	end,	146
+
+[approach68]
+runway = PIT_14_32,	rev
+beacon = krikk,	N40.35.09.720,	W080.18.25.940,	krik
+route1 =
+	360,	jesey4,	jesse four
+	N40.35.09.720,	W080.18.25.940
+	N40.32.07.810,	W080.11.06.560
+	N40.28.52.540,	W080.03.16.910
+	end,	146
+
+[approach69]
+runway = PIT_14_32,	rev
+beacon = progy,	N40.32.07.810,	W080.11.06.560,	progy
+route1 =
+	360,	jesey4,	jesse four
+	N40.32.07.810,	W080.11.06.560
+	N40.28.52.540,	W080.03.16.910
+	end,	146
+
+[approach70]
+runway = PIT_14_32,	rev
+beacon = pruit,	N40.28.52.540,	W080.03.16.910,	pruit
+route1 =
+	360,	jesey4,	jesse four
+	N40.28.52.540,	W080.03.16.910
+	end,	146
+
+##############################################################
+[approach71]
+runway = PIT_10L_28R
+beacon = cutta
+route1 =
+	360,	jesey4,	jesse four
+	N40.52.34.510,	W080.38.35.650
+	N40.44.30.910,	W080.29.04.870
+	N40.35.57.250,	W080.36.09.420
+	end,	251
+
+[approach72]
+runway = PIT_10L_28R
+beacon = jesey
+route1 =
+	360,	jesey4,	jesse four
+	N40.44.30.910,	W080.29.04.870
+	N40.35.57.250,	W080.36.09.420
+	end,	251
+
+[approach73]
+runway = PIT_10L_28R
+beacon = yinzz,	N40.35.57.250,	W080.36.09.420,	yinzz
+route1 =
+	360,	jesey4,	jesse four
+	N40.35.57.250,	W080.36.09.420
+	end,	251
+
+
+##############################################################
+# KBVI Routing
+##############################################################
+[approach81]
+runway = BVI_10_28
+beacon = wiske
+route1 = 360
+	N40.07.44.890,	W080.40.33.940
+	N40.8249328,	W80.2115456
+	end, hold
+
+[approach82]
+runway = BVI_10_28,	rev
+beacon = wiske
+route1 = 360
+	N40.07.44.890,	W080.40.33.940
+	N40.8249328,	W80.2115456
+	end, hold
+
+[approach83]
+runway = BVI_10_28
+beacon = nesto
+route1 = 360
+	N40.11.40.050,	W079.42.49.490
+	N40.8249328,	W80.2115456
+	end, hold
+
+[approach84]
+runway = BVI_10_28,	rev
+beacon = nesto
+route1 = 360
+	N40.11.40.050,	W079.42.49.490
+	N40.8249328,	W80.2115456
+	end, hold
+
+##############################################################
+# KHLG Routing
+##############################################################
+[approach85]
+runway = HLG_03_21
+beacon = grace
+route1 = 360
+	N40.51.24.660,	W079.48.02.120
+	N40.2599019,	W80.5686247
+	end, hold
+
+[approach86]
+runway = HLG_03_21,	rev
+beacon = grace
+route1 = 360
+	N40.51.24.660,	W079.48.02.120
+	N40.2599019,	W80.5686247
+	end, hold
+
+[approach87]
+runway = HLG_03_21
+beacon = cutta
+route1 = 360
+	N40.52.34.510,	W080.38.35.650
+	N40.2599019,	W80.5686247
+	end, hold
+
+[approach88]
+runway = HLG_03_21,	rev
+beacon = cutta
+route1 = 360
+	N40.52.34.510,	W080.38.35.650
+	N40.2599019,	W80.5686247
+	end, hold
+
+##############################################################
+# KAGC Routing
+##############################################################
+[approach89]
+runway = AGC_10_28
+beacon = grace
+route1 = 360
+	N40.51.24.660,	W079.48.02.120
+	N40.2786439,	W80.0408547
+	end, hold
+
+[approach90]
+runway = AGC_10_28,	rev
+beacon = grace
+route1 = 360
+	N40.51.24.660,	W079.48.02.120
+	N40.2786439,	W80.0408547
+	end, hold
+
+[approach91]
+runway = AGC_10_28
+beacon = cutta
+route1 = 360
+	N40.52.34.510,	W080.38.35.650
+	N40.2786439,	W80.0408547
+	end, hold
+
+[approach92]
+runway = AGC_10_28,	rev
+beacon = cutta
+route1 = 360
+	N40.52.34.510,	W080.38.35.650
+	N40.2786439,	W80.0408547
+	end, hold
+
+[approach93]
+runway = AGC_10_28
+beacon = wiske
+route1 = 360
+	N40.07.44.890,	W080.40.33.940
+	N40.2786439,	W80.0408547
+	end, hold
+
+[approach94]
+runway = AGC_10_28,	rev
+beacon = wiske
+route1 = 360
+	N40.07.44.890,	W080.40.33.940
+	N40.2786439,	W80.0408547
+	end, hold
+
+##############################################################
+# SIDS (not really, just to control departure headings)
+##############################################################
+
+##############################################################
+# AGC
+##############################################################
+[departure11]
+runway = AGC_10_28,	rev
+route1 = 
+	jst,	johnstown
+	N40.355,	W80.017
+	N40.3167256,	W78.8341664
+route2 =
+	mgw,	morgantown
+	N40.355,	W80.017
+	N39.5567153,	W79.8604122
+route3 = 
+	bsv,	briggs
+	N40.355,	W80.017
+	N40.7407064,	W81.4321172
+route4 =
+	ahtiy,	ah-tee
+	N40.355,	W80.017
+	N39.54.51.850,	W080.23.05.230
+route5 =
+	keman,	keman
+	N40.355,	W80.017
+	N39.51.37.810,	W080.02.30.150
+route6 =
+	dilne,	dilne
+	N40.355,	W80.017
+	N40.28.04.600,	W080.52.32.490
+
+[departure12]
+runway = AGC_13_31,	rev
+route1 =
+	ewc,	elwood city
+	N40.391,	W80.002
+	N40.8249328,	W80.2115456
+route2 =
+	jst,	johnstown
+	N40.391,	W80.002
+	N40.3167256,	W78.8341664
+route3 =
+	fkl,	franklin
+	N40.391,	W80.002
+	N41.4384983,	W79.8567058
+route4 =
+	tyroo,	tyroo
+	N40.391,	W80.002
+	N40.44.06.000,	W078.19.53.000
+
+
+##############################################################
+[planetypes]
+##############################################################
+
+types = 
+	GALX, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	G150, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	H25B, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	F2TH, 5, 160, 250, 2.3, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Falcon
+	H25C, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	HA4T, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	HDJT, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Honda Jet
+	PRM1, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Beech Jet
+
+	BE20, 5, 140, 200, 2.7, 3.0, 1400, 1560, 100, 126, 1.1, 1.3, King Air
+	BE40, 5, 140, 250, 2.9, 3.2, 1440, 1560, 113, 126, 1.1, 1.3, Beechjet
+	BE99, 5, 140, 220, 2.7, 3.0, 1400, 1560, 100, 126, 1.1, 1.3, Beech
+	B350, 5, 140, 210, 2.7, 3.0, 1400, 1560, 100, 126, 1.1, 1.3, King Air
+	F15,  4, 160, 400, 3.2, 3.5, 1500, 2500, 100, 140, 3.0, 4.0, Eagle
+	C208, 6, 140, 190, 3.0, 3.2, 1100, 1300, 70, 100, 0.8, 1.0, Caravan
+
+	M20T, 6, 100, 240, 2.9, 3.2, 1000, 1400, 60, 80, 1.1, 1.3,	mooney
+	P46T, 6, 110, 250, 2.9, 3.2, 1000, 1440, 70, 100, 1.1, 1.3,	meridian
+	AEST, 6, 110, 250, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3,	aerostar
+	M600, 6, 110, 250, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3,	merdian
+	EVOT, 6, 110, 250, 2.9, 3.2, 1000, 1400, 70, 100, 1.1, 1.3,	evolution
+	B58T, 6, 100, 230, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3,	baron
+	C402, 6, 100, 230, 2.9, 3.2, 1000, 1400, 60, 90, 1.1, 1.3,	twin cessna
+	C72R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skyhawk
+	C77R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cardinal
+	P32R, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	saratoga
+	P32T, 6, 100, 180, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3,	saratoga
+	C82R, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skylane
+	C82T, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skylane
+	C82S, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skylane
+	C172, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skyhawk
+	C177, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cardinal
+	C206, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	stationair
+	C182, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	skylane
+	P28B, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cherokee
+	T206, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	stationair
+	BT36, 6, 100, 200, 2.9, 3.2, 1000, 1400, 80, 100, 1.1, 1.3,	bonanza
+	C210, 6, 100, 200, 2.9, 3.2, 1000, 1300, 60, 90, 1.1, 1.3,	centurion
+	T210, 6, 100, 200, 2.9, 3.2, 1000, 1300, 60, 90, 1.1, 1.3,	centurion
+	P210, 6, 100, 200, 2.9, 3.2, 1000, 1300, 60, 90, 1.1, 1.3,	centurion
+	DA42, 6, 100, 190, 2.9, 3.2, 1000, 1300, 70, 90, 1.1, 1.3,	twin star
+	DA62, 6, 110, 200, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3,	diamond
+	SR22, 6, 100, 180, 2.9, 3.2, 1000, 1300, 80, 90, 1.1, 1.3,	cirrus
+	S22T, 6, 100, 200, 2.9, 3.2, 1000, 1300, 80, 90, 1.1, 1.3,	cirrus
+	P28A, 6, 100, 160, 2.9, 3.2, 1000, 1300, 80, 90, 1.1, 1.3,	cherokee
+	P28R, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cherokee
+	P28U, 6, 100, 170, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cherokee
+	P28T, 6, 100, 180, 2.9, 3.2, 1000, 1300, 80, 100, 1.1, 1.3,	cherokee
+
+	C130, 4, 130, 220, 2.9, 3.2, 1100, 1300, 85, 120, 1.1, 1.3,	hercules
+	C17, 3, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, globemaster
+	C5M, 3, 150, 250, 2.8, 3.2, 1400, 1800, 110, 140, 1.3, 1.5, globemaster
+	K35R, 3, 145, 300, 2.6, 3.0, 1440, 1560, 131, 146, 1.2, 1.3, stratotanker
+
+## type, category, minspeed, maxspeed, minturnrate, maxturnrate, mindescentrate, maxdescentrate, minfinalapproachspeed, maxfinalapproachspeed, minaccelrate, maxaccelrate, <manufacturer>
+# custom [planetypes] are only needed when using unknown custom types in the airlinelists above (game will show warnings on startup for missing types), or to override default type properties
+# category is the weight category: 1 to 6, meaning superheavy=1, upperheavy, lowerheavy, uppermedium, lowermedium, light=6
+# speeds in knots
+# turnrate is in degrees per second
+# descentrate is in feet per minute
+# approachspeeds in knots, may be below minspeed
+# accelrate is in knots per second
+# manufacturer name is optional, and only used for private callsign pronunciation in usa mode
+# example of default values for b737, 4, 160, 250, 2.6, 3.0, 1440, 1560, 131, 144, 1.2, 1.3
