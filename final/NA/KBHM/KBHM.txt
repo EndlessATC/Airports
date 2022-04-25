@@ -1,0 +1,601 @@
+#created by ebasck#4889
+[airspace]
+elevation = 650
+floor = 2000
+ceiling = 10000
+above = 11000
+usa = true
+transition = 18001
+automatic = true
+center = N33.56290054, W86.75350189
+magneticvar = -3.6
+beacons =
+	BHM, N33.56290054, W86.75350189, 0, Burlington
+	BH, N33.51130, W86.84560, 0, Mcden
+	TCL, N33.22389, W87.61806, 0, Tuscaloosa
+	GAD, N33.97889, W86.09667, 0, Northeast Alabama
+	PLR, N33.56472, W86.26000, 0, Saint Clair
+	
+	SHIMS, N33.80560, W87.27710, 0, Shims
+	NESTS, N33.67528, W87.35861, 0, Nests
+	LYMPH, N33.38306, W87.31167, 0, Lymph
+	HERKO, N33.07028, W86.85444, 0, Herco
+	WANDS, N33.16860, W86.38560, 0, Wands
+	KIOSK, N33.58160, W86.15350, 0, Kiosk
+	DIODE, N34.00990, W86.47920, 0, Diode
+	NULLS, N34.04010, W86.93820, 0, Nulls
+	
+	RHETT, N34.0636, W86.6777, Red
+	MRICA, N33.8917, W86.299, Mareeca
+	CHEHA, N33.375, W86.1987, Cheeha
+	GUMMP, N33.0757, W86.6185, Gump
+	DAYVS, N33.2344, W87.2022, Davis
+	JOEYE, N33.4928, W87.3444, Jo eye
+	KELCC, N33.9526, W87.1306, Kelsie see
+	VUZ, N33.67020, W86.89980, 0, Vulcan
+	
+	BEQ, N33.31190, W86.92320, 0, Bessemer
+	
+boundary =
+	N32.66670, W87.93190
+	N33.00580, W87.46889
+	N33.00580, W87.15472
+	N32.97056, W87.03417
+	N33.08750, W86.17833
+	N33.28083, W86.00000
+	N33.51833, W85.69222
+	N33.89806, W85.83028
+	N34.25694, W86.04472
+	N34.39389, W86.21667
+	N34.09028, W86.78611
+	N34.09028, W87.39306
+	N33.98389, W87.66500
+	N33.28917, W87.73500
+	N33.00000, W88.08861
+
+[airport1]
+name = Birmingham-Shuttlesworth International Airport
+code = KBHM
+runways =
+	rwy1, 06, N33.5548, W86.7716, 55.0, 10000, 0, 1770, 603, 3, 55.0, 0, 0, 0, 0, 0, 0, 119.9, Birmingham Tower
+	rwy2, 18, N33.5732, W86.7472, 180.0, 7100, 1045, 0, 644, 3, 180.0, 0, 0, 0, 0, 0, 0, 119.9, Birmingham Tower
+	
+climbaltitude = 4000
+
+sids =
+	RHETT, N34.0636, W86.6777, Ret
+	MRICA, N33.8917, W86.299, Mreeca
+	CHEHA, N33.375, W86.1987, Cheeha
+	GUMMP, N33.0757, W86.6185, Gump
+	DAYVS, N33.2344, W87.2022, Davis
+	JOEYE, N33.4928, W87.3444, Jo eye
+	KELCC, N33.9526, W87.1306, Kelsie see
+
+entrypoints =
+	290, SHIMS, 11000
+	276, NESTS, 11000
+	248, LYMPH, 11000
+	187, HERKO, 11000
+	133, WANDS, 11000
+	84, KIOSK, 11000
+	28, DIODE, 11000
+	334, NULLS, 11000
+
+airlines = 
+	aal, 1, a319/a320/a321/b38m, american
+	dal, 1, b739/b738/b712, delta
+	eny, 1, e75l/e145/e170, envoy
+	edv, 1, crj9, endeavor
+	jia, 1, crj7/crj9, blue streak
+	skw, 2, crj2/e75l/b737, skywest
+	swa, 1, b38m/b737/b738, southwest
+	fdx, 1, b752, fedex
+	ups, 1, b763/a306, UPS
+	ash, 1, e75l, air shuttle
+	n-12345, 2, c152/c172/c172/c172/c182/be35/be33/be36/be58/p28a/p28a/p28b/sf50
+	n-123ab, 2, c525/c550/c56x/c680/c750/c25c/fa7x/f900/fa50/lj35/lj60/gl5t/glex/cl30/cl35/g280/glf4/glf5/glf6/e545/e55p/e35l/js32/tbm7/pc12/be9t/be9l/e45x/p46t/gl7t
+	
+[airport2]
+name = Bessemer
+code = BS
+climbaltitude = 3000
+flow = 15
+runways =
+	rwy3, 05, N33.307334, W86.933778, 053, 6007, 0, 0, 700
+	
+sids =
+	north
+	south
+	east
+
+entrypoints =
+	290, BEQ, 6000
+	276, BEQ, 6000
+	248, BEQ, 6000
+	187, BEQ, 6000
+	133, BEQ, 6000
+	84, BEQ, 6000
+	28, BEQ, 6000
+	334, BEQ, 6000
+	
+airlines =
+	n-12345, 1, c152/c172/c172/c172/c182/be35/be33/be36/be58/p28a/p28a/p28b/sf50
+	n-123ab, 1, c525/c550/c56x/c680/c750/c25c/fa7x/f900/fa50/lj35/lj60/gl5t/glex/cl30/cl35/g280/glf4/glf5/glf6/e545/e55p/e35l/js32/tbm7/pc12/be9t/be9l/e45x/p46t/gl7t
+
+[airport3]
+name = Tuscaloosa
+code = TC
+climbaltitude = 3000
+flow = 6
+runways =
+	rwy4, 04, N33.210192, W87.619163, 044, 6499, 0, 0, 153, 3, 44.0, 0, 0, 0, 0, 0, 0, 126.3
+	rwy5, 12, N33.229141, W87.615911, 119, 4001, 0, 0, 167
+	
+airlines =
+	n-12345, 1, c152/c172/c172/c172/c182/be35/be33/be36/be58/p28a/p28a/p28b/sf50
+	n-123ab, 1, c525/c550/c56x/c680/c750/c25c/fa7x/f900/fa50/lj35/lj60/gl5t/glex/cl30/cl35/g280/glf4/glf5/glf6/e545/e55p/e35l/js32/tbm7/pc12/be9t/be9l/e45x/p46t/gl7t
+	
+entrypoints =
+	290, TCL, 6000
+	276, TCL, 6000
+	248, TCL, 6000
+	187, TCL, 6000
+	133, TCL, 6000
+	84, TCL, 6000
+	28, TCL, 6000
+	334, TCL, 6000
+	
+sids =
+	north
+	south
+	east
+	
+[airport4]
+name = Northeast Alabama
+code = NA
+climbaltitude = 3000
+flow = 3
+runways = 
+	rwy6, 06, N33.965869, W86.101015, 064, 6802, 0, 0, 569
+	rwy7, 18, N33.982377, W86.085935, 183, 4806, 0, 0, 569
+	
+airlines =
+	n-12345, 1, c152/c172/c172/c172/c182/be35/be33/be36/be58/p28a/p28a/p28b/sf50
+	n-123ab, 1, c525/c550/c56x/c680/c750/c25c/fa7x/f900/fa50/lj35/lj60/gl5t/glex/cl30/cl35/g280/glf4/glf5/glf6/e545/e55p/e35l/js32/tbm7/pc12/be9t/be9l/e45x/p46t/gl7t
+	
+entrypoints =
+	290, GAD, 6000
+	276, GAD, 6000
+	248, GAD, 6000
+	187, GAD, 6000
+	133, GAD, 6000
+	84, GAD, 6000
+	28, GAD, 6000
+	334, GAD, 6000
+	
+sids =
+	north
+	south
+	east
+	
+[airport5]
+name = St Clair
+code = SC
+climbaltitude = 3000
+flow = 5
+runways =
+	rwy8, 03, N33.552486, W86.252123, 026, 5001, 246, 0, 485
+
+airlines =
+	n-12345, 1, c152/c172/c172/c172/c182/be35/be33/be36/be58/p28a/p28a/p28b/sf50
+	n-123ab, 1, c525/c550/c56x/c680/c750/c25c/fa7x/f900/fa50/lj35/lj60/gl5t/glex/cl30/cl35/g280/glf4/glf5/glf6/e545/e55p/e35l/js32/tbm7/pc12/be9t/be9l/e45x/p46t/gl7t
+	
+entrypoints =
+	290, PLR, 6000
+	276, PLR, 6000
+	248, PLR, 6000
+	187, PLR, 6000
+	133, PLR, 6000
+	84, PLR, 6000
+	28, PLR, 6000
+	334, PLR, 6000
+	
+sids =
+	north
+	south
+	east
+	
+[configurations]
+config1 =
+	0, rwy1, startland
+	0, rwy2, startlandrev
+	0, rwy3, startland, 050, nosid
+	0, rwy4, startland, 040, nosid
+	0, rwy5, startrev, 360, nosid
+	0, rwy6, startland, 065, nosid
+	0, rwy7, startlandrev, 360, nosid
+	0, rwy8, startland, 030, nosid
+	
+config2 =
+	0, rwy1, startlandrev
+	0, rwy2, startland
+	0, rwy3, startlandrev, 230, nosid
+	0, rwy4, startlandrev, 220, nosid
+	0, rwy5, start, 120, nosid
+	0, rwy6, startlandrev, 245, nosid
+	0, rwy7, startland, 180, nosid
+	0, rwy8, startlandrev, 210, nosid
+
+[approach1]
+runway = rwy1
+beacon = NULLS
+route 1 = 180
+	N34.04010, W86.93820
+	N33.56290, W86.75350
+	end, hold
+	
+[approach2]
+runway = rwy1, rev
+beacon = NULLS
+route 1 = 180
+	N34.04010, W86.93820
+	N33.56290, W86.75350
+	end, hold
+
+[approach3]
+runway = rwy1
+beacon = DIODE
+route 1 = 180
+	N34.00990, W86.47920
+	N33.56290, W86.75350
+	end, hold
+	
+[approach4]
+runway = rwy1, rev
+beacon = DIODE
+route 1 = 180
+	N34.00990, W86.47920
+	N33.56290, W86.75350
+	end, hold
+
+[approach5]
+runway = rwy1
+beacon = KIOSK
+route 1 = 180
+	N33.58160, W86.15350
+	N33.56290, W86.75350
+	end, hold
+	
+[approach6]
+runway = rwy1, rev
+beacon = KIOSK
+route 1 = 180
+	N33.58160, W86.15350
+	N33.56290, W86.75350
+	end, hold
+
+[approach7]
+runway = rwy1
+beacon = WANDS
+route 1 = 180
+	N33.16860, W86.38560
+	N33.56290, W86.75350
+	end, hold
+	
+[approach8]
+runway = rwy1, rev
+beacon = WANDS
+route 1 = 180
+	N33.16860, W86.38560
+	N33.56290, W86.75350
+	end, hold
+	
+[approach9]
+runway = rwy1
+beacon = HERKO
+route 1 = 180
+	N33.07028, W86.85444
+	N33.56290, W86.75350
+	end, hold
+	
+[approach10]
+runway = rwy1, rev
+beacon = HERKO
+route 1 = 180
+	N33.07028, W86.85444
+	N33.56290, W86.75350
+	end, hold
+	
+[approach11]
+runway = rwy1
+beacon = LYMPH
+route 1 = 180
+	N33.38306, W87.31167
+	N33.56290, W86.75350
+	end, hold
+	
+[approach12]
+runway = rwy1, rev
+beacon = LYMPH
+route 1 = 180
+	N33.38306, W87.31167
+	N33.56290, W86.75350
+	end, hold
+	
+[approach13]
+runway = rwy1
+beacon = NESTS
+route 1 = 180
+	N33.67528, W87.35861
+	N33.56290, W86.75350
+	end, hold
+	
+[approach14]
+runway = rwy1, rev
+beacon = NESTS
+route 1 = 180
+	N33.67528, W87.35861
+	N33.56290, W86.75350
+	end, hold
+	
+[approach15]
+runway = rwy1
+beacon = SHIMS
+route 1 = 180
+	N33.80560, W87.27710
+	N33.56290, W86.75350
+	end, hold
+	
+[approach16]
+runway = rwy1, rev
+beacon = SHIMS
+route 1 = 180
+	N33.80560, W87.27710
+	N33.56290, W86.75350
+	end, hold
+	
+[area1]
+shape = polygon
+altitude = 4000
+name = J
+labelpos = N33.612, W85.850
+points = 
+	 N33.4606, W85.97032
+	 N33.33906, W86.01077
+	 N33.331, W85.935
+	 N33.51833, W85.69222
+	 N33.89806, W85.83028
+	 N33.920, W85.843
+	 N33.85114, W86.02845
+	 N33.82115, W86.01321
+	 N33.79056, W85.99977
+	 N33.75945, W85.98815
+	 N33.72789, W85.97837
+	 N33.69596, W85.97048
+	 N33.66374, W85.96447
+	 N33.63129, W85.96037
+	 N33.59871, W85.95819
+	 N33.56606, W85.95793
+	 N33.53343, W85.9596
+	 N33.50089, W85.96318
+	 N33.46853, W85.96868
+	 N33.4606, W85.97032
+	
+[area2]
+shape = polygon
+altitude = 3700
+name = A
+labelpos = N33.5, W87.40268
+points =
+	 N33.56495, W87.41696
+	 N33.56547, W87.41197
+	 N33.56578, W87.40695
+	 N33.56588, W87.40192
+	 N33.56578, W87.39689
+	 N33.56548, W87.39187
+	 N33.56497, W87.38687
+	 N33.56425, W87.38192
+	 N33.56334, W87.37701
+	 N33.56222, W87.37215
+	 N33.56091, W87.36738
+	 N33.5594, W87.36268
+	 N33.55771, W87.35808
+	 N33.55582, W87.35358
+	 N33.55376, W87.3492
+	 N33.55152, W87.34495
+	 N33.54911, W87.34083
+	 N33.54653, W87.33686
+	 N33.54379, W87.33305
+	 N33.5409, W87.3294
+	 N33.53787, W87.32593
+	 N33.53469, W87.32264
+	 N33.53139, W87.31954
+	 N33.52796, W87.31664
+	 N33.52442, W87.31395
+	 N33.52077, W87.31146
+	 N33.51702, W87.3092
+	 N33.51319, W87.30716
+	 N33.50928, W87.30534
+	 N33.50529, W87.30376
+	 N33.50125, W87.30242
+	 N33.49716, W87.30131
+	 N33.49302, W87.30045
+	 N33.48886, W87.29983
+	 N33.48467, W87.29945
+	 N33.48048, W87.29933
+	 N33.47628, W87.29945
+	 N33.47209, W87.29981
+	 N33.46793, W87.30042
+	 N33.46379, W87.30128
+	 N33.4597, W87.30238
+	 N33.45565, W87.30372
+	 N33.45166, W87.30529
+	 N33.44774, W87.3071
+	 N33.4439, W87.30914
+	 N33.44015, W87.3114
+	 N33.4365, W87.31387
+	 N33.43295, W87.31656
+	 N33.42951, W87.31946
+	 N33.4262, W87.32255
+	 N33.42302, W87.32583
+	 N33.41997, W87.3293
+	 N33.41708, W87.33294
+	 N33.41433, W87.33675
+	 N33.41174, W87.34072
+	 N33.40932, W87.34483
+	 N33.40707, W87.34908
+	 N33.405, W87.35345
+	 N33.40311, W87.35795
+	 N33.4014, W87.36255
+	 N33.39989, W87.36724
+	 N33.39857, W87.37202
+	 N33.39744, W87.37686
+	 N33.39652, W87.38177
+	 N33.3958, W87.38673
+	 N33.39528, W87.39172
+	 N33.39497, W87.39674
+	 N33.39486, W87.40177
+	 N33.39496, W87.4068
+	 N33.39527, W87.41181
+	 N33.39465, W87.4168
+	 N33.39423, W87.42183
+	 N33.39402, W87.42687
+	 N33.39402, W87.43192
+	 N33.39422, W87.43696
+	 N33.39463, W87.44199
+	 N33.39525, W87.44698
+	 N33.39607, W87.45193
+	 N33.39709, W87.45683
+	 N33.39831, W87.46166
+	 N33.39973, W87.46642
+	 N33.40134, W87.47109
+	 N33.40314, W87.47565
+	 N33.40512, W87.48011
+	 N33.40728, W87.48444
+	 N33.40962, W87.48864
+	 N33.41213, W87.49269
+	 N33.4148, W87.4966
+	 N33.41763, W87.50034
+	 N33.42061, W87.50392
+	 N33.42373, W87.50731
+	 N33.42698, W87.51051
+	 N33.43037, W87.51353
+	 N33.43387, W87.51633
+	 N33.43748, W87.51893
+	 N33.44119, W87.52132
+	 N33.445, W87.52348
+	 N33.44889, W87.52541
+	 N33.45286, W87.52712
+	 N33.45689, W87.52859
+	 N33.46097, W87.52982
+	 N33.4651, W87.5308
+	 N33.46927, W87.53155
+	 N33.47346, W87.53205
+	 N33.47766, W87.5323
+	 N33.48188, W87.5323
+	 N33.48608, W87.53206
+	 N33.49027, W87.53157
+	 N33.49444, W87.53083
+	 N33.49857, W87.52985
+	 N33.50265, W87.52863
+	 N33.50668, W87.52716
+	 N33.51065, W87.52547
+	 N33.51454, W87.52354
+	 N33.51834, W87.52138
+	 N33.52206, W87.51901
+	 N33.52567, W87.51641
+	 N33.52917, W87.51361
+	 N33.53255, W87.51061
+	 N33.53581, W87.50741
+	 N33.53893, W87.50402
+	 N33.5419, W87.50045
+	 N33.54473, W87.49671
+	 N33.5474, W87.49281
+	 N33.54991, W87.48876
+	 N33.55225, W87.48456
+	 N33.55442, W87.48024
+	 N33.55641, W87.47578
+	 N33.55821, W87.47122
+	 N33.55982, W87.46656
+	 N33.56124, W87.46181
+	 N33.56246, W87.45698
+	 N33.56349, W87.45208
+	 N33.56431, W87.44713
+	 N33.56493, W87.44214
+	 N33.56535, W87.43711
+	 N33.56556, W87.43207
+	 N33.56556, W87.42702
+	 N33.56536, W87.42198
+	 N33.56495, W87.41696
+
+[area3]
+shape = polygon
+altitude = 3200
+labelpos = N33.48, W86.80
+points =
+	N33.54943, W86.89473
+	N33.63466, W86.78049
+	N33.52366, W86.70228
+	N33.49384, W86.69261
+	N33.404, W86.844
+	N33.40589, W86.84915
+	N33.40831, W86.85435
+	N33.41093, W86.8594
+	N33.41376, W86.86429
+	N33.41679, W86.86901
+	N33.42, W86.87355
+	N33.4234, W86.87789
+	N33.42697, W86.88203
+	N33.4307, W86.88595
+	N33.43459, W86.88964
+	N33.43863, W86.89311
+	N33.44281, W86.89633
+	N33.44711, W86.8993
+	N33.45153, W86.90202
+	N33.45605, W86.90447
+	N33.46067, W86.90666
+	N33.46537, W86.90857
+	N33.47014, W86.9102
+	N33.47498, W86.91155
+	N33.47986, W86.91261
+	N33.48478, W86.91339
+	N33.48973, W86.91387
+	N33.49469, W86.91406
+	N33.49965, W86.91396
+	N33.5046, W86.91357
+	N33.50953, W86.91289
+	N33.51443, W86.91191
+	N33.51927, W86.91066
+	N33.52407, W86.90911
+	N33.52879, W86.90729
+	N33.53243, W86.90567
+	N33.53683, W86.90332
+	N33.54113, W86.90072
+	N33.54531, W86.89787
+	N33.54938, W86.89477
+	N33.54943, W86.89473
+[area4]
+shape = circle
+altitude = 3100
+name = P
+position = N34.082180, W86.903409
+labelpos = N34.045, W86.85
+radius = 6
+draw = 3.00, 6.30
+
+[area5]
+shape = circle
+altitude = 3100
+name = E
+position = N33.815072, W86.445191
+labelpos = N33.803, W86.448
+radius = 6
+
+[planetypes]
+types =
+	be9t, 6, 110, 260, 2.9, 3.2, 1440, 1560, 83, 98, 1.1, 1.3
+	be9l, 6, 110, 260, 2.9, 3.2, 1440, 1560, 83, 98, 1.1, 1.3
+	e45x, 5, 160, 300, 2.9, 3.2, 1440, 1560, 116, 125, 1.1, 1.3
+	p46t, 6, 110, 250, 2.9, 3.2, 1000, 1300, 70, 100, 1.1, 1.3
+	b721, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
+	pc12, 6, 120, 280, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
