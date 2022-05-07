@@ -749,7 +749,7 @@ runways =
 
 climbaltitude = 3000
 
-flow = 3
+flow = 7
 
 airlines =
 	lxj, 1, e55p/glf4/cl35, flexjet
