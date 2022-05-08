@@ -2610,7 +2610,7 @@ airlines =
 	eja, 1.0625, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet	
 	
 	#Military
-	USAF-111, 1.08, c17/b703/k35r/k35e/c135/ke3/e3cf/e3tf/e767/e737//b737/p8/p3/e6/b52/c130/c30j/f16, u s air force
+	USAF-111, 1.08, c17/b703/k35r/k35e/c135/ke3/e3cf/e3tf/e767/e737//b737/p8/p3/e6/b52/c130/c30j/f16/lj35, u s air force
 	af1, .01, b742, air force one
 	adb, .01, a124, antonov bureau
 	med, .01, pc12/lj35/c560, lifeguard

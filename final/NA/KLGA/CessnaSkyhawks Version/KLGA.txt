@@ -767,6 +767,7 @@ airlines =
 	cwg, 1, e35l, clear wing
 	jbu, 2, a320/e190, jetblue	
 	mxy, 1, bcs3, moxy
+	jsx, 1, e145, big stripe
 
 sids =
 	GREKI, N41.480008, W73.314161, Greki
