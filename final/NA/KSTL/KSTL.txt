@@ -2594,7 +2594,7 @@ airlines =
 #Other
 	dlh, 0.6, a330, lufthansa, e
 	nks, 0.6, a20n/a321, spirit wings
-	jza, 0.6, e75s, jazz, n	
+	jza, 0.6, crj2, jazz, n	
 	asa, 0.6, b738/b739, alaska, w
 	vtm, 0.6, dc91, aero nah vayz t s m, w
 		
