@@ -817,7 +817,7 @@ airlines =
 	afl, 1, b773/a332/a333, aeroflot, e
 	cca, 1, b773/b748, air china, n
 	afr, 3, a388/b773/b789/a332, airfrans, e
-	afr, 1, conc, airfrans concorde, e
+	afc, 1, conc, airfrans concorde, e
 	aza, 1, a332/b773, alitalia, e
 	aua, 1, b763, austrian, e
 	ahy, 1, b788, azal, e
@@ -1010,7 +1010,7 @@ entrypoints =
     325, LENDY, 19000
     063, ROBER, 12000
 
-flow = 2.5
+flow = 3
 
 climbaltitude = 2000
 
@@ -1043,7 +1043,7 @@ sids =
 	ARD, N40.25330, W74.90760, 0, Yardley
 	BDR, N41.09.38.54, W073.07.28.15, bridgeport
 
-flow = 2.5
+flow = 1
 
 climbaltitude = 2000
 
