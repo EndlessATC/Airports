@@ -12,6 +12,7 @@ diversionaltitude = 15000
 above = 21000 			; maximum departure altitude when SID is enabled (must be above ceiling)
 automatic = true
 name = new york approach, new york departure
+letters = 10000000000
 beacons =
     JFK, N40.37.58.40, W073.46.17.00, kennedy
 	CRI, N40.61247222, W73.89444444, 0, Canarsie

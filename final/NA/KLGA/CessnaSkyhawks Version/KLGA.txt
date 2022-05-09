@@ -9,6 +9,7 @@ automatic = true
 name = new york approach, new york departure
 center = N40.77719879, W73.87259674
 magneticvar = -12.289
+letters = 10000000000
 beacons =
 	LGA, N40.78790, W73.87710, 0, La Guardia
 	TEB, N40.84870, W74.06220, 0, Teterboro
