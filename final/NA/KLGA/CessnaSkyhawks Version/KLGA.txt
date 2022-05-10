@@ -723,6 +723,7 @@ airlines =
 	eja, .0625, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet	
 	af2, .01, b752, air force two
 	med, .01, pc12/lj35/c560, lifeguard
+	flc, .01, b350, flight check
 	
 	
 

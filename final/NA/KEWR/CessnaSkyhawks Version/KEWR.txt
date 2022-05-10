@@ -430,6 +430,7 @@ airlines =
 	af1, .01, b742, air force one
 	adb, .01, a225, antonov bureau
 	med, .01, pc12/lj35/c560, lifeguard
+	flc, .01, b350, flight check
 	
 [airport2]
 name = Newark Liberty International Airport, newark
