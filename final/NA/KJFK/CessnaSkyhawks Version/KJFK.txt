@@ -1564,7 +1564,7 @@ route1 =
 #NE Winds Flow Land/Dep 4L/R, Land/Dep 1 FRG)
 config1 =
 	0, 04L_JK, landstart, 100, nosid
-	0, 04R_JK, landstart, 100, nosid
+	0, 04R_JK, land, 100, nosid
 	0, dummy_JK, land
 	0, 04L_JKP, landstart, 100, nosid
 	12, 01_RP, landstart, 010, nosid
