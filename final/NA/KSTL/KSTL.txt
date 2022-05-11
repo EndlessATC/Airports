@@ -2610,10 +2610,11 @@ airlines =
 	eja, 1.0625, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet	
 	
 	#Military
-	USAF-111, 1.08, c17/b703/k35r/k35e/c135/ke3/e3cf/e3tf/e767/e737//b737/p8/p3/e6/b52/c130/c30j/f16/lj35, u s air force
+	USAF-111, 1.08, c17/b703/k35r/k35e/c135/ke3/e3cf/e3tf/e767/e737/p8/p3/e6/b52/c130/c30j/f16/lj35, u s air force
 	af1, .01, b742, air force one
 	adb, .01, a124, antonov bureau
 	med, .01, pc12/lj35/c560, lifeguard
+	flc, .01, b350, flight check
 	
 
 	
@@ -2639,6 +2640,8 @@ runways =
 
 climbaltitude = 3000
 
+traffic = 15
+
 entrypoints = 
 	185, CSX, 4000
 	345, CSX, 4000
@@ -2646,9 +2649,7 @@ entrypoints =
 	133, CSX, 4000
 	112, CSX, 4000
 	332, CSX, 4000
-
-traffic = 60
-
+	
 sids = 
 	KUIN, N39.9430174, W91.1944634, Quincy
 	KOWB, N37.7388342, W87.1668286, Owensboro
@@ -2676,9 +2677,7 @@ code = SP
 runways =
 	08L_SP, 8L, N38.66415, W90.66823, 078, 5000, 0, 0, 463.0, 3, 0, 3, 0, 0, 0, 0, 0, 124.75, spirit tower
 	08R_SP, 8R, N38.65771, W90.65972, 078, 7485, 0, 0, 461.3, 3, 0, 3, 0, 0, 0, 0, 0, 124.75, spirit tower
-
-traffic = 30
-
+	
 climbaltitude = 3000
 
 sids = 
@@ -2688,6 +2687,8 @@ sids =
 	KLAIR, N38.4112, W91.1602
 	SAJOY, N38.1959, W90.5561
 	SAGZA, N38.2279, W90.7522	
+
+traffic = 15
 
 entrypoints = 
 	215, DELMA, 13000
@@ -2712,8 +2713,6 @@ runways =
 	08L_SPP, 8L, N38.66415, W90.66823, 078, 5000, 0, 0, 463.0, 3, 0, 3, 0, 0, 0, 0, 0, 124.75, spirit tower
 	08R_SPP, 8R, N38.65771, W90.65972, 078, 7485, 0, 0, 461.3, 3, 0, 3, 0, 0, 0, 0, 0, 124.75, spirit tower
 
-traffic = 30
-
 climbaltitude = 2500
 
 sids = 
@@ -2725,6 +2724,9 @@ sids =
 	UIN, N39.8479, W91.2789, Quincy
 	SPI, N39.8397, W89.6777, Spinner
 
+	
+traffic = 30
+
 entrypoints = 
 	241, CSX, 4000
 	274, CSX, 4000
@@ -2734,9 +2736,11 @@ entrypoints =
 	109, CSX, 4000
 	175, CSX, 4000
 
+
 airlines =
-	n-781pt, 6, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
-	usc, 1, be55, star check
+	n-781pt, 0.75, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	usc, 0.1, be55, star check
 
 #St. Louis Downtown (CPS/DT)
 [area3]
@@ -2755,8 +2759,6 @@ runways =
 	12R_DT, 12R, N38.57398, W90.16501, 122, 7002, 0, 0, 412.4, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
 	05_DT, 5, N38.57237, W90.16854, 047, 2799, 0, 0, 410.0, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
 
-traffic = 60
-
 climbaltitude = 2000
 
 sids = 
@@ -2766,6 +2768,8 @@ sids =
 	KLAIR, N38.4112, W91.1602
 	SAJOY, N38.1959, W90.5561
 	SAGZA, N38.2279, W90.7522	
+
+traffic = 30
 
 entrypoints = 
 	215, DELMA, 13000
@@ -2787,8 +2791,6 @@ runways =
 	12R_DTP, 12R, N38.57398, W90.16501, 122, 7002, 0, 0, 412.4, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
 	05_DTP, 5, N38.57237, W90.16854, 047, 2799, 0, 0, 410.0, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
 
-traffic = 60
-
 climbaltitude = 2000
 
 sids = 
@@ -2800,6 +2802,8 @@ sids =
 	UIN, N39.8479, W91.2789, Quincy
 	SPI, N39.8397, W89.6777, Spinner
 
+traffic = 30
+
 entrypoints = 
 	241, CSX, 4000
 	274, CSX, 4000
@@ -2810,8 +2814,9 @@ entrypoints =
 	175, CSX, 4000
 
 airlines =	
-	bkn, 2, p28a/da20, billiken
-	n-781pt, 8, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	bkn, 1, p28a/da20, billiken
+	n-781pt, 0.75, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
 
 #St. Louis Regional (ALN/RG)
 [area4]
@@ -2828,10 +2833,10 @@ code = RG
 runways =
 	11_RG, 11, N38.89523, W90.05494, 113, 8099, 0, 0, 537.8, 3, 0, 3, 0, 0, 0, 0, 0, 126.0, regional tower
 	17_RG, 17, N38.89762, W90.05240, 173, 6500, 0, 0, 533.4, 3, 143, 3, 0, 0, 0, 0, 0, 126.0, regional tower
-	
-traffic = 120
 
 climbaltitude = 3000
+
+traffic = 120
 
 sids = 
 	PLESS, N37.8096, W88.9632
@@ -2855,10 +2860,10 @@ code = RG
 runways =
 	11_RGP, 11, N38.89523, W90.05494, 113, 8099, 0, 0, 537.8, 3, 0, 3, 0, 0, 0, 0, 0, 126.0, regional tower
 	17_RGP, 17, N38.89762, W90.05240, 173, 6500, 0, 0, 533.4, 3, 143, 3, 0, 0, 0, 0, 0, 126.0, regional tower
-	
-traffic = 120
 
 climbaltitude = 3000
+
+traffic = 60
 
 sids = 
 	VLA, N39.0938, W89.1622, Vandalia
@@ -2879,7 +2884,8 @@ entrypoints =
 	175, CSX, 4000
 
 airlines =
-	n-781pt, 1, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+	n-781pt, 0.75, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
 	
 #Mid-America/Scott AFB (BLV/MA)
 [area5]
@@ -2897,10 +2903,10 @@ code = MA
 runways =
 	14L_MA, 14L, N38.55617, W89.83347, 137, 10000, 0, 0, 441.4, 3, 0, 3, 0, 0, 0, 0, 0, 128.25, scott tower
 	14R_MA, 14R, N38.55181, W89.86191, 137, 8006, 0, 0, 459.1, 3, 0, 3, 0, 0, 0, 0, 0, 128.25, scott tower
-	
-traffic = 180
 
 climbaltitude = 3000
+
+traffic = 120
 
 sids = 
 	PLESS, N37.8096, W88.9632
@@ -2927,9 +2933,9 @@ runways =
 	14L_AFB, 14L, N38.55617, W89.83347, 137, 10000, 0, 0, 441.4, 3, 0, 3, 0, 0, 0, 0, 0, 253.5, scott tower
 	14R_AFB, 14R, N38.55181, W89.86191, 137, 8006, 0, 0, 459.1, 3, 0, 3, 0, 0, 0, 0, 0, 253.5, scott tower
 	
-traffic = 60
-	
 climbaltitude = 3000
+
+traffic = 30
 
 sids = 
 	PLESS, N37.8096, W88.9632
@@ -2947,7 +2953,7 @@ entrypoints =
 	111, EIKEL, 7000
 
 airlines =
-	USAF-111, 2, c17/b703/k35r/k35e/c135/ke3/e3cf/e3tf/e767/e737/b737/p8/p3/e6/b52/c130/c30j/f16, u s air force
+	USAF-111, 2, c17/b703/k35r/k35e/c135/ke3/e3cf/e3tf/e767/e737//p8/p3/e6/b52/c130/c30j/f16, u s air force
 
 	
 #KSTL Approaches
@@ -4156,7 +4162,7 @@ config1 =
 config2 =
 	0, 06_SL, land, 122
 	0, 12RB_SL, start, 122
-	0, 06_SLP, startland, 066
+	0, 06_SLP, startland, 066, nosid
 	10, 08R_SP, startland, 348, nosid
 	10, 08R_SPP, startland, 348, nosid
 	12, 12R_DT, startland, 122, nosid
@@ -4190,7 +4196,7 @@ config4 =
 	0, 11_SL, startrev, 302
 	0, 06_SL, landrev
 	0, 12R_SL, startrev, 302
-	0, 06_SLP, startlandrev, 246
+	0, 06_SLP, startlandrev, 246, nosid
 	10, 08R_SP, startlandrev, 258, nosid
 	10, 08R_SPP, startlandrev, 258, nosid
 	12, 12R_DT, startlandrev, 302, nosid
