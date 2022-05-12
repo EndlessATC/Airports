@@ -446,7 +446,7 @@ runways =
 	
 climbaltitude = 5000
 
-flow = 0.25
+traffic = 60
 
 sids = 
 	SBJ
@@ -470,9 +470,9 @@ runways =
 	19_TB, 19, N40.855764, W74.059111, 183, 7000, 0, 0, 6, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
 	24_TB, 24, N40.857739, W74.054097, 228, 6013, 0, 0, 7, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
 	
-flow = 15
+traffic = 4
 
-climbaltitude = 1100
+climbaltitude = 1500
 
 airlines =
 	lxj, 1, e55p/glf4/cl35, flexjet
@@ -499,6 +499,28 @@ entrypoints =
 	297, MUGZY, 6000
 	344, LEMOR, 7000
 
+	
+[airport4]
+name = Teterboro Airport, teterboro
+code = TB
+runways =
+	19_TBP, 19, N40.855764, W74.059111, 183, 7000, 0, 0, 6, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
+	24_TBP, 24, N40.857739, W74.054097, 228, 6013, 0, 0, 7, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
+	
+traffic = 240
+
+climbaltitude = 1500
+
+airlines =
+	n-781pt, 2.7, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.9, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	
+entrypoints = 
+	024, SEAVY, 5000
+	344, LEMOR, 6000
+	172, TYKES, 4000
+	297, MUGZY, 6000
+
 [area1]
 shape = circle		; circle or polygon
 altitude = 1800		; minimum allowed altitude in feet
@@ -508,23 +530,21 @@ position = N40.8501111, W74.0608333	; position of circle center
 labelpos = N40.859, W74.092	; <position of label>
 draw = -.07, 5.23
 
-[airport4]
+[airport5]
 name = Essex County Airport, caldwell
 code = CW
 runways =
 	22_CW, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwelltower
 	28_CW, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
 	
-flow = 0.75
+traffic = 60
 
 climbaltitude = 2000
 
 airlines =
-	cns, 2, pc12/pc24, chronos
-	gaj, 2, b350/c56x/cl35, gama jet
-	lxj, 1, e55p/glf4/cl35, flexjet
-	eja, 1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
-	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/pc12/pc24
+	cns, 1, pc12/pc24, chronos
+	n-600mm, 2, pc12/tbm7/m600
+	n-744hj, 1, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/pc24
 	
 sids = 
 	GREKI, N41.480008, W73.314161, Greki
@@ -550,14 +570,14 @@ entrypoints =
 	297, MUGZY, 6000
 	344, LEMOR, 7000
 	
-[airport5]
+[airport6]
 name = Essex County Airport, caldwell
 code = CW
 runways =
 	22_CWP, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwelltower
 	28_CWP, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
 	
-flow = 3
+traffic = 20
 
 climbaltitude = 2000
 
@@ -584,14 +604,14 @@ position = N40.8752247, W74.2813503	; position of circle center
 labelpos = N40.862, W74.255	; <position of label>
 draw = -2.41, 3.25		; <start and end angle of visible arc, in radians (orientated to the left), omit for a full circle>
 
-[airport6]
+[airport7]
 name = Morristown Municipal Airport, morristown
 code = MU
 runways =
 	23_MU, 23, N40.80641, W74.40647, 216, 5998, 0, 0, 183, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
 	31_MU, 31, N40.79649, W74.41134, 294, 3997, 0, 0, 181, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
 	
-flow = 2.75
+traffic = 30
 
 climbaltitude = 2000
 
@@ -631,14 +651,14 @@ entrypoints =
 	297, MUGZY, 6000
 	344, LEMOR, 7000
 	
-[airport7]
+[airport8]
 name = Morristown Municipal Airport, morristown
 code = MU
 runways =
 	23_MUP, 23, N40.80641, W74.40647, 216, 5998, 0, 0, 183, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
 	31_MUP, 31, N40.79649, W74.41134, 294, 3997, 0, 0, 181, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
 	
-flow = 1
+traffic = 20
 
 climbaltitude = 2000
 
@@ -1615,10 +1635,13 @@ config1 =
 	0, 04L_NK, startrevintersection, 190, nosid 
 	0, 04R_NK, landrev
 	0, dummy_NK, landrev
+	0, 04L_NKP, startrevintersection, 190, nosid 
 	0, 04R_NKP, landrev
 	0, dummy_NKP, landrev
 	10, 19_TB, land
 	10, 24_TB, start, 283, nosid
+#	10, 19_TBP, land
+#	10, 24_TBP, start, 283, nosid
 	12, 23_MU, landstart, 160, nosid
 	12, 23_MUP, landstart, 160, nosid
 	14, 22_CW, landstart, 180, nosid
@@ -1631,9 +1654,12 @@ config2 =
 	0, 04L_NK, startrevintersection, 190, nosid
 	0, 11N_NK, landrev
 	0, dummy_NK, landrev
+	0, 04L_NKP, startrevintersection, 190, nosid
 	0, 11N_NKP, landrev
 	10, 19_TB, land
 	10, 24_TB, start, 283, nosid
+#	10, 19_TBP, land
+#	10, 24_TBP, start, 283, nosid
 	12, 23_MU, landstart, 160, nosid
 	12, 23_MUP, landstart, 160, nosid
 	14, 22_CW, landstart, 180, nosid
@@ -1645,8 +1671,10 @@ config3 =
 	0, 04L_NK, startrevintersection, 190, nosid
 	0, 11N_NK, landrev
 	0, dummy_NK, landrev
+	0, 04L_NKP, startrevintersection, 190, nosid
 	0, 11N_NKP, landrev
 	10, 24_TB, landstart, 283, nosid
+#	10, 24_TBP, landstart, 283, nosid
 	12, 23_MU, landstart, 160, nosid
 	12, 23_MUP, landstart, 160, nosid
 	14, 22_CW, landstart, 180, nosid
@@ -1657,32 +1685,35 @@ config4 =
 	0, 04L_NK, start, 060, nosid
 	0, 11S_NK, landrev
 	0, dummy_NK, land
+	0, 04L_NKP, start, 060, nosid
 	0, 11S_NKP, landrev
 	10, 19_TB, startrev, 040, nosid
 	10, 24_TB, landrev
-	12, 23_MU, landstartrev, 340, nosid
-	12, 23_MUP, landstartrev, 340, nosid	
-	14, 22_CW, landstartrev, 360, nosid
-	14, 22_CWP, landstartrev, 360, nosid	
+#	10, 19_TBP, startrev, 040, nosid
+#	10, 24_TBP, landrev
+	12, 23_MU, landstartrev, 160, nosid
+	12, 23_MUP, landstartrev, 160, nosid	
+	14, 22_CW, landstartrev, 180, nosid
+	14, 22_CWP, landstartrev, 180, nosid	
 	
 #Echo Flow (Land 4R,11/Dep 4L EWR, Land 6/Dep 1 TEB, Land/Dep 4 CDW, Land/Dep 5 MMU)	MMU)	
 config5 =
 	0, 04L_NK, start, 060, nosid
 	0, 04R_NK, land
 	0, dummy_NK, land
+	0, 04L_NKP, start, 060, nosid
 	0, 04R_NKP, land
 	10, 19_TB, startrev, 040, nosid
 	10, 24_TB, landrev
-	12, 23_MU, landstartrev, 340, nosid
-	12, 23_MUP, landstartrev, 340, nosid
-	14, 22_CW, landstartrev, 360, nosid
-	14, 22_CWP, landstartrev, 360, nosid
+#	10, 19_TBP, startrev, 040, nosid
+#	10, 24_TBP, landrev
+	12, 23_MU, landstartrev, 160, nosid
+	12, 23_MUP, landstartrev, 160, nosid
+	14, 22_CW, landstartrev, 180, nosid
+	14, 22_CWP, landstartrev, 180, nosid
 	16, 11SOF_NK, landrev, 
 	16, 11SOF_NKP, landrev, 
 	
-
-	
-
 [planetypes]	
 types = 
 	c152, 6, 60, 100, 2.8, 3.2, 500, 500, 55, 75, 1.2, 1.3, cessna
@@ -1700,4 +1731,5 @@ types =
 	sr22, 6, 80, 180, 2.8, 3.2, 1000, 1000, 75, 90, 1.2, 1.3, cirrus	
 	da20, 6, 80, 130, 2.8, 3.2, 550, 800, 80, 120, 1.2, 1.3, diamond
 	da40, 6, 80, 130, 2.8, 3.2, 550, 800, 80, 120, 1.2, 1.3, diamond
+	m600, 6, 130, 230, 2.8, 3.2, 2200, 2400, 85, 160, 1.2, 1.3, malibu
 	a225, 1, 180, 300, 2.2, 2.4, 1000, 1400, 155, 180, 1.1, 1.3, Antonov

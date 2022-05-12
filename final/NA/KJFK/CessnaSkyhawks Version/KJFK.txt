@@ -11,8 +11,8 @@ ceiling = 19000 		; maximum selectable altitude
 diversionaltitude = 15000
 above = 21000 			; maximum departure altitude when SID is enabled (must be above ceiling)
 automatic = true
-name = new york approach, new york departure
 letters = 10000000000
+name = new york approach, new york departure
 beacons =
     JFK, N40.37.58.40, W073.46.17.00, kennedy
 	CRI, N40.61247222, W73.89444444, 0, Canarsie
@@ -979,7 +979,7 @@ entrypoints =
 
 climbaltitude = 5000	
 
-flow = 1
+traffic = 60
 
 airlines =
 	kap, 1, c402/p212, care, ne
@@ -1011,7 +1011,7 @@ entrypoints =
     325, LENDY, 19000
     063, ROBER, 12000
 
-flow = 3
+traffic = 30
 
 climbaltitude = 2000
 
@@ -1044,7 +1044,7 @@ sids =
 	ARD, N40.25330, W74.90760, 0, Yardley
 	BDR, N41.09.38.54, W073.07.28.15, bridgeport
 
-flow = 1
+traffic = 30
 
 climbaltitude = 2000
 

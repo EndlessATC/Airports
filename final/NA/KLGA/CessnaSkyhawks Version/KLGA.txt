@@ -751,7 +751,7 @@ runways =
 
 climbaltitude = 3000
 
-flow = 7
+traffic = 8
 
 airlines =
 	lxj, 1, e55p/glf4/cl35, flexjet
@@ -802,10 +802,10 @@ runways =
 
 climbaltitude = 3000
 
-flow = 1
+traffic = 60
 
 airlines =
-	kap, 0.5, c402/p210, care, ne
+	kap, 1, c402/p210, care, ne
 	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
 	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
 
@@ -836,7 +836,7 @@ runways =
 
 climbaltitude = 2000
 
-flow = 0.25
+traffic = 120
 
 sids = 
 	GREKI, N41.480008, W73.314161, Greki
@@ -857,7 +857,8 @@ sids =
 	BAYYS, N41.17.11.556, W72.57.59.176, Bays
 	
 airlines =
-	n-744hj, 0.1, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7
+	rli, 1, c25b/b350, reliant air
 
 entrypoints = 
 	055, ALIXX, 4000
@@ -870,7 +871,7 @@ runways =
 	08_DBP, 08, N41.36906, W73.48949, 70.0, 4421, 367, 734, 456.6, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
 	17_DBP, 17, N41.37587, W73.48297, 153.0, 3135, 223, 231, 451.5, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
 
-flow = 1.75
+traffic = 30
 
 climbaltitude = 2000
 
