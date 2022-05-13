@@ -1,0 +1,1618 @@
+###Created By CessnaSkyhawk
+[airspace]
+elevation = 21
+usa = true
+transition = 18001
+ceiling = 15000
+diversionaltitude = 5000
+automatic = true
+name = new york approach, new york departure
+center = N40.77719879, W73.87259674
+magneticvar = -12.289
+letters = 10000000000
+beacons =
+	LGA, N40.78790, W73.87710, 0, La Guardia
+	TEB, N40.84870, W74.06220, 0, Teterboro
+	JFK, N40.63290, W73.77140, 0, Kennedy
+
+	ALIXX, N41.181347, W73.393025, 0, Alex
+	KORRY, N40.093842, W74.651544, 0, Cory
+	BEUTY, N40.569197, W75.011478, 0, Beauty
+	VALRE, N41.435328, W73.881736, 203, Valerie
+	NOBBI, N41.424, W73.6378, 0, Nobby
+	CMK, N41.28008889, W73.58132778, 0, Carmel
+	
+
+	CRALY, 41°04.63'N, 73°37.56'W, -224, Cray Lee
+	PROUD, 40°37.79'N, 73°59.99'W, -045, Proud
+	DEPDY, 40°12.14'N, 74°29.71'W, 56, Dep Dee
+	DAMYR, 40°24.65'N, 74°13.88'W, -57, Dam Year
+	HARLM, 40°29.44'N, 74°44.95'W, 123, Harlem
+	
+handoff = 
+	340, LIBN, New York Departure, 118.17
+	280, LIBW, New York Departure, 120.85
+	180, LIBS, New York Departure, 124.75
+	040, LIBE, New York Departure, 126.80
+	
+boundary = 
+	N40.37.46.883, W74.58.12.005
+	N40.40.43.839, W74.58.09.305
+	N40.40.12.870, W74.55.30.191
+	N40.39.00.296, W74.51.38.784
+	N40.36.28.143, W74.51.26.757
+	N40.31.05.744, W74.36.54.182
+	N40.31.34.567, W74.25.49.545
+	N40.39.43.823, W74.06.27.737
+	N40.44.16.826, W74.15.34.700
+	N40.56.59.541, W74.18.43.591
+	N40.58.38.657, W74.16.40.312
+	N41.09.34.915, W74.10.03.386
+	N41.11.59.847, W74.15.23.768
+	N41.20.26.146, W74.03.30.599
+	N41.22.57.482, W73.59.46.458
+	N41.26.15.379, W73.57.42.837
+	N41.31.19.047, W73.51.57.883
+	N41.34.38.432, W73.41.05.360
+	N41.33.40.428, W73.35.43.113
+	N41.36.13.479, W73.30.51.253
+	N41.35.11.255, W73.16.17.773
+	N41.27.59.530, W73.17.46.020
+	N41.21.32.284, W73.23.02.960
+	N41.14.06.072, W73.26.03.123
+	N41.03.54.109, W73.25.14.964
+	N40.54.44.080, W73.19.50.633
+	N40.52.23.703, W73.34.44.295
+	N40.49.10.821, W73.36.48.862
+	N40.42.06.426, W73.44.11.108
+	N40.42.13.005, W73.46.35.627
+	N40.39.09.474, W73.48.32.329
+	N40.38.15.564, W73.48.30.238
+	N40.22.53.174, W74.00.28.491
+	N40.25.55.792, W74.04.46.142
+	N40.25.28.394, W74.05.05.736
+	N40.23.01.821, W74.10.53.334
+	N40.13.16.818, W74.21.44.697
+	N40.09.42.929, W74.21.46.145
+	N40.05.57.031, W74.24.01.535
+	N40.02.28.513, W74.29.30.211
+	N40.00.58.925, W74.34.36.899
+	N40.01.08.462, W74.37.41.453
+	N40.03.22.587, W74.42.31.009
+	N40.07.13.049, W74.43.21.737
+	N40.08.17.323, W74.45.15.899
+	N40.08.54.308, W74.48.51.016
+	N40.12.20.278, W74.44.42.921
+	N40.15.42.811, W74.41.20.694
+	N40.20.22.414, W74.57.12.741
+	N40.28.58.311, W75.03.53.235
+
+line1 =
+	N40.41411, W73.98323
+	N40.40785, W73.98814
+	N40.40953, W73.99
+	N40.42089, W74.05164
+	N40.43925, W74.08572
+	N40.44514, W74.11322
+	N40.45761, W74.13717
+	N40.44933, W74.15403
+	N40.45386, W74.15772
+	N40.44931, W74.15897
+	N40.45258, W74.17003
+	N40.46072, W74.18072
+	N40.44575, W74.19175
+	N40.43806, W74.20875
+	N40.44094, W74.20647
+	N40.44881, W74.20931
+	N40.46683, W74.26219
+	N40.47269, W74.26731
+	N40.48333, W74.26808
+	N40.48744, W74.27486
+	N40.49131, W74.27264
+	N40.49508, W74.28828
+	N40.49911, W74.29236
+	N40.50922, W74.29044
+	N40.50072, W74.28378
+	N40.49947, W74.26686
+	N40.51497, W74.25989
+	N40.52367, W74.25161
+	N40.54011, W74.25586
+	N40.55481, W74.25081
+	N40.56267, W74.23144
+	N40.56003, W74.22097
+	N40.56222, W74.21675
+	N40.59083, W74.20883
+	N40.60386, W74.19869
+	N40.61364, W74.19889
+	N40.61311, W74.20483
+	N40.623, W74.20603
+	N40.62423, W74.20309
+	N40.61694, W74.20178
+	N40.61392, W74.19731
+	N40.60144, W74.19717
+	N40.59031, W74.20583
+	N40.57983, W74.20603
+	N40.57506, W74.20917
+	N40.57303, W74.20725
+	N40.55964, W74.21342
+	N40.55681, W74.21914
+	N40.55747, W74.23061
+	N40.54478, W74.24883
+	N40.53311, W74.24325
+	N40.52083, W74.24383
+	N40.51494, W74.25508
+	N40.5045, W74.25797
+	N40.49681, W74.25333
+	N40.49739, W74.23881
+	N40.50233, W74.23356
+	N40.50447, W74.21781
+	N40.51264, W74.20722
+	N40.51078, W74.19575
+	N40.51997, W74.18592
+	N40.52414, W74.16839
+	N40.537, W74.1435
+	N40.5455, W74.14031
+	N40.54675, W74.13078
+	N40.54125, W74.13061
+	N40.53567, W74.14172
+	N40.53181, W74.13725
+	N40.54428, W74.12367
+	N40.54353, W74.11947
+	N40.55439, W74.10433
+	N40.58703, W74.06608
+	N40.60294, W74.05311
+	N40.62656, W74.07239
+	N40.64653, W74.07389
+	N40.65094, W74.08353
+	N40.64977, W74.09234
+	N40.6545, W74.08497
+	N40.65694, W74.08869
+	N40.66408, W74.08919
+	N40.66606, W74.10714
+	N40.66828, W74.10439
+	N40.66667, W74.0885
+	N40.66069, W74.07317
+	N40.66228, W74.06811
+	N40.66914, W74.07725
+	N40.67556, W74.09919
+	N40.6765, W74.07447
+	N40.68181, W74.07092
+	N40.68689, W74.07831
+	N40.68442, W74.07044
+	N40.69658, W74.06644
+	N40.68992, W74.05467
+	N40.69542, W74.05758
+	N40.69619, W74.04789
+	N40.69992, W74.04911
+	N40.70219, W74.04089
+	N40.70469, W74.04333
+	N40.70669, W74.03225
+	N40.71017, W74.03642
+	N40.71431, W74.03003
+	N40.72128, W74.03044
+	N40.72578, W74.02731
+	N40.73056, W74.03086
+	N40.73475, W74.02575
+	N40.75106, W74.02153
+	N40.75606, W74.02236
+	N40.75694, W74.0255
+	N40.76014, W74.02056
+	N40.76761, W74.01744
+	N40.76147, W74.00828
+	N40.72983, W74.01228
+	N40.70586, W74.01889
+	N40.70075, W74.01858
+	N40.69986, W74.01475
+	N40.70933, W73.99406
+	N40.71161, W73.97544
+	N40.72411, W73.97128
+	N40.73581, W73.97381
+	N40.745, W73.97125
+	N40.775, W73.94294
+	N40.78419, W73.94131
+	N40.79792, W73.92836
+	N40.79247, W73.92131
+	N40.79042, W73.93339
+	N40.785, W73.93542
+	N40.78203, W73.925
+	N40.79664, W73.91378
+	N40.80708, W73.90006
+	N40.80208, W73.87333
+	N40.81042, W73.86747
+	N40.81042, W73.86003
+	N40.80622, W73.85753
+	N40.80542, W73.84753
+	N40.81247, W73.84958
+	N40.8125, W73.84547
+	N40.82458, W73.84006
+	N40.80911, W73.83964
+	N40.80622, W73.83586
+	N40.80625, W73.83256
+	N40.81125, W73.83006
+	N40.81369, W73.81169
+	N40.80456, W73.79006
+	N40.81414, W73.80544
+	N40.81375, W73.80003
+	N40.81664, W73.79711
+	N40.81958, W73.79917
+	N40.82625, W73.8075
+	N40.82664, W73.81297
+	N40.83497, W73.81631
+	N40.84411, W73.81628
+	N40.84581, W73.81378
+	N40.85667, W73.81711
+	N40.86292, W73.81342
+	N40.86042, W73.80506
+	N40.84956, W73.79917
+	N40.86836, W73.79211
+	N40.87169, W73.78294
+	N40.87456, W73.78333
+	N40.875, W73.78711
+	N40.87828, W73.78381
+	N40.88206, W73.79006
+	N40.86794, W73.80169
+	N40.87081, W73.80375
+	N40.89164, W73.78128
+	N40.90122, W73.775
+	N40.89039, W73.77747
+	N40.90083, W73.76378
+	N40.91083, W73.76964
+	N40.91331, W73.76378
+	N40.91622, W73.765
+	N40.91039, W73.75833
+	N40.92, W73.74292
+	N40.92956, W73.74417
+	N40.93039, W73.73669
+	N40.92289, W73.73503
+	N40.92792, W73.73086
+	N40.92786, W73.72586
+	N40.94081, W73.72214
+	N40.94375, W73.73417
+	N40.94497, W73.72961
+	N40.94833, W73.73047
+	N40.94289, W73.72422
+	N40.94289, W73.71753
+	N40.94789, W73.69917
+	N40.95078, W73.69797
+	N40.95167, W73.70044
+	N40.95539, W73.69419
+	N40.94083, W73.69878
+	N40.94536, W73.69
+	N40.94372, W73.68506
+	N40.94831, W73.68542
+	N40.95083, W73.68131
+	N40.95581, W73.68211
+	N40.96331, W73.67711
+	N40.96997, W73.66544
+	N40.97544, W73.66836
+	N40.97247, W73.67294
+	N40.97914, W73.67131
+	N40.97703, W73.66756
+	N40.98744, W73.66292
+	N40.98789, W73.65669
+	N41.00789, W73.64169
+	N41.00206, W73.63672
+	N41.00372, W73.63169
+	N41.00125, W73.62753
+	N41.00414, W73.62458
+	N41.01414, W73.62878
+	N41.01417, W73.62544
+	N41.01703, W73.62667
+	N41.01039, W73.62167
+	N41.01619, W73.61922
+	N41.00956, W73.61753
+	N41.01956, W73.61333
+	N41.00956, W73.61331
+	N41.01706, W73.60083
+	N41.02494, W73.60044
+	N41.02833, W73.59547
+	N41.035, W73.59797
+	N41.03375, W73.59422
+	N41.04289, W73.58919
+	N41.02586, W73.59378
+	N41.01997, W73.58964
+	N41.01664, W73.59458
+	N41.01247, W73.59458
+	N41.01375, W73.58256
+	N41.02167, W73.57461
+	N41.02625, W73.57422
+	N41.01667, W73.56792
+	N41.00706, W73.5725
+	N41.00456, W73.57839
+	N41.00706, W73.58256
+	N41.00167, W73.58539
+	N41.00122, W73.5725
+	N41.01247, W73.56544
+	N41.02, W73.55464
+	N41.02456, W73.55422
+	N41.02208, W73.5475
+	N41.02667, W73.54375
+	N41.04167, W73.54464
+	N41.03581, W73.54297
+	N41.03375, W73.53839
+	N41.04086, W73.53128
+	N41.04789, W73.53083
+	N41.04083, W73.52881
+	N41.03414, W73.53378
+	N41.01708, W73.52833
+	N41.02331, W73.51958
+	N41.02917, W73.51711
+	N41.03331, W73.52211
+	N41.04125, W73.52172
+	N41.03872, W73.52
+	N41.03831, W73.50708
+	N41.04747, W73.50297
+	N41.05703, W73.50417
+	N41.05253, W73.49128
+	N41.04828, W73.4955
+	N41.04036, W73.48914
+	N41.05292, W73.4825
+	N41.045, W73.48375
+	N41.03542, W73.47839
+	N41.04664, W73.46967
+	N41.04747, W73.47711
+	N41.05086, W73.46872
+	N41.055, W73.46711
+	N41.055, W73.47128
+	N41.05914, W73.46878
+	N41.05917, W73.45794
+	N41.05208, W73.46167
+	N41.05625, W73.44836
+	N41.05917, W73.44792
+	N41.06, W73.45128
+	N41.07039, W73.44583
+	N41.05833, W73.44631
+	N41.05456, W73.43833
+	N41.05539, W73.4325
+	N41.06039, W73.43339
+	N41.06164, W73.44044
+	N41.06206, W73.43417
+	N41.06869, W73.43083
+	N41.06375, W73.42919
+	N41.06542, W73.42417
+	N41.07199, W73.42273
+	N41.06627, W73.4223
+	N40.92807, W73.34145
+	N40.92786, W73.34253
+	N40.92289, W73.34333
+	N40.92706, W73.34586
+	N40.93453, W73.36506
+	N40.95458, W73.3875
+	N40.95708, W73.39839
+	N40.95411, W73.40297
+	N40.95039, W73.40256
+	N40.95372, W73.39922
+	N40.95078, W73.39875
+	N40.94667, W73.40294
+	N40.9175, W73.40628
+	N40.92958, W73.39919
+	N40.92372, W73.38997
+	N40.92706, W73.38333
+	N40.93581, W73.38292
+	N40.935, W73.37711
+	N40.94125, W73.37914
+	N40.93411, W73.37208
+	N40.92914, W73.37958
+	N40.92539, W73.3775
+	N40.92956, W73.37417
+	N40.93039, W73.36833
+	N40.9225, W73.35125
+	N40.91664, W73.35297
+	N40.91255, W73.35865
+	N40.91596, W73.43275
+	N40.92081, W73.42708
+	N40.92997, W73.42875
+	N40.93625, W73.435
+	N40.93953, W73.46669
+	N40.94789, W73.48506
+	N40.94244, W73.49211
+	N40.93956, W73.49
+	N40.94289, W73.4875
+	N40.93997, W73.48711
+	N40.93664, W73.49375
+	N40.92328, W73.49625
+	N40.91994, W73.49047
+	N40.90957, W73.48555
+	N40.89689, W73.51863
+	N40.89914, W73.51792
+	N40.90247, W73.50714
+	N40.91081, W73.50964
+	N40.91961, W73.52167
+	N40.91039, W73.54753
+	N40.91711, W73.56833
+	N40.91208, W73.57839
+	N40.91039, W73.59419
+	N40.90536, W73.60003
+	N40.90375, W73.61339
+	N40.90042, W73.61669
+	N40.90289, W73.6325
+	N40.89456, W73.63417
+	N40.89792, W73.62753
+	N40.89667, W73.62289
+	N40.89289, W73.63247
+	N40.89536, W73.63919
+	N40.87497, W73.65711
+	N40.86583, W73.65631
+	N40.85667, W73.64717
+	N40.84747, W73.65375
+	N40.83747, W73.65297
+	N40.82417, W73.64622
+	N40.80456, W73.65167
+	N40.82417, W73.65625
+	N40.82917, W73.65208
+	N40.84583, W73.66875
+	N40.86039, W73.67669
+	N40.87208, W73.71339
+	N40.86706, W73.72086
+	N40.86872, W73.73003
+	N40.85667, W73.72792
+	N40.85081, W73.73881
+	N40.84333, W73.73125
+	N40.8375, W73.73122
+	N40.83539, W73.72758
+	N40.83956, W73.72583
+	N40.83872, W73.71831
+	N40.84208, W73.71169
+	N40.83539, W73.71083
+	N40.83872, W73.70333
+	N40.83497, W73.70047
+	N40.82581, W73.70794
+	N40.81994, W73.70625
+	N40.81414, W73.69958
+	N40.81581, W73.70964
+	N40.79958, W73.71169
+	N40.82003, W73.71792
+	N40.82372, W73.72169
+	N40.82956, W73.7325
+	N40.82956, W73.73836
+	N40.82622, W73.74086
+	N40.83453, W73.74339
+	N40.83872, W73.75417
+	N40.83167, W73.75708
+	N40.82167, W73.75381
+	N40.81497, W73.76464
+	N40.80833, W73.76378
+	N40.79914, W73.75047
+	N40.79747, W73.75456
+	N40.79078, W73.75378
+	N40.78417, W73.74622
+	N40.78119, W73.74667
+	N40.78164, W73.75464
+	N40.76872, W73.75586
+	N40.79789, W73.77669
+	N40.79786, W73.78089
+	N40.79292, W73.78258
+	N40.79119, W73.79253
+	N40.79619, W73.795
+	N40.79703, W73.80922
+	N40.80125, W73.81833
+	N40.79875, W73.82747
+	N40.79119, W73.8325
+	N40.79164, W73.83625
+	N40.79789, W73.83833
+	N40.79417, W73.85375
+	N40.78997, W73.85292
+	N40.78581, W73.85797
+	N40.78164, W73.84878
+	N40.76997, W73.84875
+	N40.76667, W73.84378
+	N40.76286, W73.84836
+	N40.7675, W73.85797
+	N40.76667, W73.85047
+	N40.77536, W73.85672
+	N40.78164, W73.87044
+	N40.78706, W73.87006
+	N40.78125, W73.88333
+	N40.77581, W73.88381
+	N40.77458, W73.8875
+	N40.78417, W73.89714
+	N40.78875, W73.89667
+	N40.79286, W73.90833
+	N40.77872, W73.92672
+	N40.77956, W73.93414
+	N40.77744, W73.93711
+	N40.77081, W73.93542
+	N40.76625, W73.94422
+	N40.74581, W73.96042
+	N40.72414, W73.96292
+	N40.71169, W73.97042
+	N40.70831, W73.97625
+	N40.70503, W73.97292
+	N40.70458, W73.97669
+	N40.70789, W73.98167
+	N40.70539, W73.995
+	N40.68289, W74.01086
+	N40.67939, W74.02144
+	N40.67369, W74.0195
+	N40.66914, W74.01319
+	N40.66653, W74.01556
+	N40.67092, W74.01969
+	N40.66419, W74.01836
+	N40.66892, W74.00711
+	N40.66664, W74.00256
+	N40.66003, W74.011
+	N40.66078, W74.01842
+	N40.65194, W74.02178
+	N40.65139, W74.02622
+	N40.64592, W74.02847
+	N40.64561, W74.03344
+	N40.63983, W74.03922
+	N40.6245, W74.04492
+	N40.61669, W74.04322
+	N40.60664, W74.03681
+	N40.59908, W74.00867
+	N40.59161, W73.99708
+	N40.58292, W73.99589
+	N40.5825, W73.98875
+	N40.58239, W74.01153
+	N40.58014, W74.01403
+	N40.57417, W74.01308
+	N40.57086, W74.00189
+	N40.57622, W73.93167
+	N40.58206, W73.93339
+	N40.58333, W73.95214
+	N40.58292, W73.91333
+	N40.58792, W73.90419
+	N40.58578, W73.89625
+	N40.58286, W73.89586
+	N40.58247, W73.903
+	N40.57789, W73.89586
+	N40.58042, W73.88083
+	N40.58503, W73.87622
+	N40.60244, W73.88044
+	N40.60625, W73.88331
+	N40.60581, W73.89542
+	N40.61161, W73.88878
+	N40.61667, W73.89544
+	N40.6225, W73.89544
+	N40.62875, W73.88586
+	N40.62786, W73.8825
+	N40.63872, W73.87586
+	N40.63622, W73.87253
+	N40.64375, W73.85589
+	N40.65208, W73.85417
+	N40.65164, W73.8505
+	N40.64833, W73.85211
+	N40.64539, W73.84833
+	N40.65122, W73.82083
+	N40.64539, W73.815
+	N40.64284, W73.80862
+	N40.63856, W73.80744
+	N40.62732, W73.81622
+	N40.64044, W73.82333
+	N40.63708, W73.82669
+	N40.63914, W73.83208
+	N40.63331, W73.83211
+	N40.63247, W73.83461
+	N40.62747, W73.83131
+	N40.61747, W73.83875
+	N40.61622, W73.82669
+	N40.61492, W73.82591
+	N40.58257, W73.8512
+	N40.58206, W73.85417
+	N40.57039, W73.87919
+	N40.56456, W73.92503
+	N40.55581, W73.93875
+	N40.54581, W73.94128
+	N40.55706, W73.91339
+	N40.56042, W73.88753
+	N40.56917, W73.86168
+	N40.51902, W73.90087
+	N40.42176, W73.97723
+	N40.44917, W73.98208
+	N40.46247, W73.99378
+	N40.47119, W73.99672
+	N40.47367, W74.00625
+	N40.48086, W74.01206
+	N40.47986, W74.016
+	N40.47519, W74.02008
+	N40.46914, W74.01919
+	N40.46564, W74.01003
+	N40.44631, W74.00486
+	N40.44953, W73.99919
+	N40.4475, W73.99461
+	N40.43081, W73.99461
+	N40.43128, W73.99089
+	N40.42494, W73.98708
+	N40.42081, W73.99125
+	N40.41497, W73.98294
+	N40.41411, W73.98323
+line2 =
+	N40.66949, W74.12735
+	N40.67575, W74.1399
+	N40.67661, W74.13975
+	N40.68311, W74.15244
+	N40.68089, W74.14481
+	N40.68661, W74.13767
+	N40.69153, W74.13739
+	N40.69592, W74.14175
+	N40.68911, W74.13433
+	N40.69581, W74.13019
+	N40.69794, W74.12333
+	N40.70314, W74.12069
+	N40.71922, W74.12297
+	N40.72, W74.11972
+	N40.71581, W74.11736
+	N40.7175, W74.10878
+	N40.72597, W74.10114
+	N40.72578, W74.098
+	N40.719, W74.09683
+	N40.71422, W74.10725
+	N40.70453, W74.10836
+	N40.70317, W74.10408
+	N40.69486, W74.11156
+	N40.68958, W74.10931
+	N40.68731, W74.11506
+	N40.68064, W74.11986
+	N40.67731, W74.119
+	N40.66949, W74.12735
+
+[airport1]
+name = La Guardia Airport, la guardia
+code = KLGA
+runways =
+	04_LG, 04, N40.7692, W73.8841, 32.0, 7000, 0, 0, 22, 3, 0, 3, 0, 0, 0, 0, 0, 118.7, la guardia tower
+	13_LG, 13, N40.7823, W73.8785, 122.0, 7000, 0, 0, 13, 2.8, 0, 3, 0, 0, 0, 0, 0, 118.7, la guardia tower
+	dummy_LG, 13, S40.7823, E73.8785, 122.0, 7000, 0, 0, 13
+
+climbaltitude = 5000	
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+
+entrypoints = 
+	249, BEUTY, 11000
+	222, KORRY, 11000
+	010, VALRE, 11000
+
+airlines =
+	aca, 2, bcs3/a320, air canada, n
+	jza, 2, e75s, jazz, n
+	aal, 10, b738/b38m/a319/a321, american
+	aal, 10, b738/b38m/a319/a321, american
+	aal, 2, b738/b38m/a319/a321, american
+	eny, 7.17, e145/e170/e75l, on voy
+	pdt, 7.17, e145, piedmont
+	jia, 7.17, crj7/crj9, blue streak
+	ash, 7.17, crj9, air shuttle
+	rpa, 7.17, e170/e75s/e75l, brickyard	
+	skw, 7.17, crj2/crj7/crj9/e175, skywest	
+	dal, 10, b738/b739/bcs1/bcs3/a319/a321, delta
+	dal, 10, b738/b739/bcs1/bcs3/a319/a321, delta
+	dal, 1, b738/b739/bcs1/bcs3/a319/a321, delta
+	edv, 10, crj2/crj7/crj9, endeavor
+	edv, 9, crj2/crj7/crj9, endeavor
+	rpa, 10, e170/e75s/e75l, brickyard
+	rpa, 9, e170/e75s/e75l, brickyard
+	skw, 10, crj2/crj7/crj9/e175, skywest
+	skw, 9, crj2/crj7/crj9/e175, skywest
+	fft, 5, a20n, frontier flight
+	jbu, 16, a320/e190, jet blue
+	swa, 13, b737/b37m/b738/b38m, southwest
+	nks, 10, a320/a20n/a321, spirit wings
+	ual, 4, a319/a320/b737/b38m, united
+	awi, 0.5, crj2, air wisconsin
+	uca, 0.5, e145, commutair
+	gjs, 0.5, crj5/crj7, lindbergh
+	ash, 0.5, e175, air shuttle
+	rpa, 0.5, e170/e75s/e75l, brickyard
+	skw, 0.5, crj2/crj7/crj9/e175, skywest	
+	wja, 1, b737/b738/b37m/b38m/b3xm, westjet, n
+#Private
+	fth, 0.25, c750, foothills
+	n-744hj, 0.6975, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/pc12/pc24
+	n-324ch, .25, b737
+	lxj, .0625, e55p/glf4/cl35, flexjet
+	gaj, .0625, b350/c56x/cl35, gama jet
+	dpj, .0625, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	eja, .0625, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet	
+	af2, .01, b752, air force two
+	med, .01, pc12/lj35/c560, lifeguard
+	flc, .01, b350, flight check
+	
+	
+
+	
+
+#NYC Buildings 
+[area1]
+shape = polygon		; circle or polygon
+altitude = 2900		; minimum allowed altitude in feet
+name = NYC
+labelpos =  N40.750, W74
+points =
+    N40.702, W74.020,
+	N40.761, W74.009
+	N40.765, W73.950,
+	N40.710, W73.972,
+	N40.699, W74.013
+
+[airport2]
+name = Westchester County Airport, westchester
+code = WC
+runways =
+	11_WC, 11, N41.0671, W73.7158, 102.0, 4451, 0, 1297, 398, 3, 0, 3, 0, 0, 0, 0, 0, 118.575, westchester tower
+	16_WC, 16, N41.0756, W73.7133, 150.0, 6548, 0, 0, 439, 3, 0, 3, 0, 0, 0, 0, 0, 118.575, westchester tower
+
+climbaltitude = 3000
+
+traffic = 8
+
+airlines =
+	lxj, 1, e55p/glf4/cl35, flexjet
+	eja, 2, c680/glf4/glex/c68a/c700/cl30/cl60/e55p, execjet
+	fth, 1, c750, foothills
+	cns, 2, pc12/pc24, chronos
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	gaj, 2, b350, gama jet
+	ejm, 1, glf5, jet speed
+	edv, 1, crj9, endeavor, e
+	awi, 1, crj2, air wisconsin, n
+	jia, 1, crj7, bluestreak, e
+	skw, 1, crj7, skywest
+	cwg, 1, e35l, clear wing
+	jbu, 2, a320/e190, jetblue	
+	mxy, 1, bcs3/e195, moxy
+	jsx, 1, e145, big stripe
+
+sids =
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+
+entrypoints = 
+	055, ALIXX, 4000
+	010, VALRE, 7000
+
+[airport3]
+name = Westchester County Airport, westchester
+code = WC
+runways =
+	11_WCP, 11, N41.0671, W73.7158, 102.0, 4451, 0, 1297, 398, 3, 0, 3, 0, 0, 0, 0, 0, 118.575, westchester tower
+	16_WCP, 16, N41.0756, W73.7133, 150.0, 6548, 0, 0, 439, 3, 0, 3, 0, 0, 0, 0, 0, 118.575, westchester tower
+
+climbaltitude = 3000
+
+traffic = 60
+
+airlines =
+	kap, 1, c402/p212, care, ne
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+
+sids = 
+	DPK, N40.47.30.30, W073.18.13.17, deer park
+	SAX, N41.06750, W74.53830, Sparta
+	BDR, N41.09.38.54, W073.07.28.15, bridgeport
+
+entrypoints = 
+	004, NOBBI, 6000
+	000, VALRE, 3000
+	055, ALIXX, 4000 
+
+[area2]
+shape = circle		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = WC		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 4		; radius of circle in NM
+position = N41.0669531, W73.7075661	; position of circle center
+labelpos = 9.31, 14.97	; <position of label>
+
+[airport4]
+name = Danbury Municipal Airport, danbury
+code = DB
+runways =
+	08_DB, 08, N41.36906, W73.48949, 70.0, 4421, 367, 734, 456.6, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
+	17_DB, 17, N41.37587, W73.48297, 153.0, 3135, 223, 231, 451.5, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
+
+climbaltitude = 2000
+
+traffic = 120
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	
+airlines =
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7
+	rli, 1, c25b/b350, reliant air
+
+entrypoints = 
+	055, ALIXX, 4000
+	010, VALRE, 7000
+	
+[airport5]
+name = Danbury Municipal Airport, danbury
+code = DB
+runways =
+	08_DBP, 08, N41.36906, W73.48949, 70.0, 4421, 367, 734, 456.6, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
+	17_DBP, 17, N41.37587, W73.48297, 153.0, 3135, 223, 231, 451.5, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
+
+traffic = 30
+
+climbaltitude = 2000
+
+sids = 
+	DPK, N40.47.30.30, W073.18.13.17, deer park
+	SAX, N41.06750, W74.53830, Sparta
+	BDR, N41.09.38.54, W073.07.28.15, bridgeport
+
+airlines =
+	n-781pt, 0.675, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+	n-12345, 0.225, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+
+entrypoints = 
+	004, NOBBI, 6000
+	000, VALRE, 3000
+	055, ALIXX, 4000 
+
+[area3]
+shape = circle		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = DB		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 6		; radius of circle in NM
+position = N41.3715344, W73.4821894	; position of circle center
+labelpos = 22.33, 33.44	; <position of label>
+draw = 0.01, 5.1
+
+#Airspace Areas
+[area4]
+shape = polygon		; circle or polygon
+altitude = 10000		; minimum allowed altitude in feet
+name = EWR		; <name, if omited then only planes inbound the main airport may enter this area>
+draw = 11
+labelpos = N40.520, W74.950	; <position of label>
+points =
+    N40.51897, W74.61620,
+    N40.51622, W74.67216,
+    N40.51527, W74.71053,
+    N40.48904, W74.74816,
+    N40.40139, W74.87641,
+    N40.35697, W74.79157,
+    N40.34161, W74.70414,
+    N40.27311, W74.62899,
+    N40.25837, W74.67634,
+    N40.26329, W74.69307,
+    N40.32736, W74.91052,
+    N40.33720, W74.94388,
+    N40.34164, W74.95699,
+    N40.48332, W75.06657,
+    N40.52505, W75.10694,
+    N40.62998, W74.97078,
+    N40.64253, W74.97028,
+	N40.67914, W74.96998,
+    N40.67089, W74.92692,
+    N40.65002, W74.86143,
+    N40.60832, W74.85834	
+
+[area5]
+shape = polygon		; circle or polygon
+altitude = 8000		; minimum allowed altitude in feet
+name = EWR		; <name, if omited then only planes inbound the main airport may enter this area>
+labelpos = N40.198, W74.651	; <position of label>
+draw = 12
+points =
+    N40.26329, W74.69307,
+    N40.25837, W74.67634,
+    N40.27311, W74.62899,
+    N40.28370, W74.59482,
+    N40.30833, W74.51530,
+    N40.29308, W74.47781,
+    N40.27497, W74.43006,
+    N40.26253, W74.39720,
+    N40.25101, W74.38842,
+    N40.22142, W74.36577,
+    N40.16249, W74.36561,
+    N40.09894, W74.40449,
+    N40.03971, W74.49942,
+    N40.01727, W74.58357,
+    N40.02030, W74.63134,
+    N40.05865, W74.71223,
+    N40.12115, W74.72467,
+    N40.13889, W74.75832,
+    N40.14860, W74.81809,
+    N40.20699, W74.74726,
+    N40.24640, W74.70723	
+
+[area6]
+shape = polygon		; circle or polygon
+altitude = 7000		; minimum allowed altitude in feet
+name = EWR
+labelpos = N40.493, W74.343	; <position of label>
+draw = 9
+points =
+    N40.61968, W74.21129,
+    N40.53235, W74.26731,
+    N40.53305, W74.24778,
+    N40.55107, W74.18086,
+    N40.52300, W74.19878,
+    N40.40753, W74.13009,
+    N40.39852, W74.15225,
+    N40.38402, W74.18735,
+    N40.38327, W74.19405,
+    N40.35485, W74.22951,
+    N40.34110, W74.27427,
+    N40.25101, W74.38842,
+    N40.26253, W74.39720,
+    N40.27497, W74.43006,
+    N40.33359, W74.40708,
+    N40.52611, W74.43326,
+    N40.52618, W74.43327
+
+
+[area7]
+shape = polygon		; circle or polygon
+altitude = 9000		; minimum allowed altitude in feet
+name = EWR
+labelpos = N40.450, W74.700	; <position of label>
+draw = 9
+points =
+    N40.47795, W74.58811,
+    N40.47176, W74.58372,
+    N40.46317, W74.58098,
+    N40.28370, W74.59482,
+    N40.27311, W74.62899,
+    N40.34161, W74.70414,
+    N40.35697, W74.79157,
+    N40.40139, W74.87641,
+    N40.48904, W74.74816,
+    N40.51527, W74.71053,
+    N40.51622, W74.67216,
+    N40.51897, W74.61620,
+    N40.51930, W74.60831
+
+[area8]
+shape = polygon		; circle or polygon
+altitude = 8000		; minimum allowed altitude in feet
+name = EWR
+labelpos = N40.440, W74.530	; <position of label>
+draw = 1
+points =
+    N40.52611, W74.43326,
+    N40.33359, W74.40708,
+    N40.27497, W74.43006,
+    N40.29308, W74.47781,
+    N40.30833, W74.51530,
+    N40.28370, W74.59482,
+    N40.46317, W74.58098,
+    N40.47176, W74.58372,
+    N40.47795, W74.58811,
+    N40.51930, W74.60831	
+	
+[area9]
+shape = polygon		; circle or polygon
+altitude = 9000		; minimum allowed altitude in feet
+name = EWR
+labelpos = N40.855, W74.235	; <position of label>
+draw = 5
+points =
+    N40.87020, W74.14738,
+    N40.66222, W74.10979,
+    N40.71923, W74.22369,
+    N40.73953, W74.26431,
+    N40.95088, W74.31513,
+    N40.97987, W74.27975	
+
+[area10]
+shape = polygon		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = EWR
+labelpos = N41.060, W74.075	; <position of label>
+draw = 3
+points =
+    N41.13213, W74.11463,
+    N41.06143, W73.97874,
+    N40.95014, W73.98707,
+    N40.90032, W73.95410,
+    N40.89015, W73.96650,
+    N40.83491, W73.99814,
+    N40.89994, W74.01308,
+    N41.06134, W74.15561
+
+[area11]
+shape = polygon		; circle or polygon
+altitude = 2500		; minimum allowed altitude in feet
+name = JFK
+labelpos = N40.610, W73.925
+draw = 3
+points =
+    N40.53170, W74.00765,
+    N40.59009, W73.97186
+    N40.65054, W73.92529,
+    N40.65274, W73.81258,
+    N40.63925, W73.80916,
+    N40.52354, W73.89930
+	
+[area12]
+shape = polygon		; circle or polygon
+altitude = 4000		; minimum allowed altitude in feet
+name = JFK
+labelpos = N40.490, W74.010
+draw = 10
+points =
+    N40.43256, W74.08135,
+    N40.49752, W74.02850, 
+	N40.53170, W74.00765,
+    N40.52354, W73.89930,
+    N40.46810, W73.94235,
+    N40.46015, W73.94856,
+    N40.38143, W74.00974,
+    N40.38627, W74.01818,
+    N40.39152, W74.02685,
+    N40.39425, W74.03116,
+    N40.40585, W74.04830,
+    N40.41659, W74.06254,
+    N40.42455, W74.07223
+
+[area13]
+shape = polygon		; circle or polygon
+altitude = 6000		; minimum allowed altitude in feet
+name = EWR
+labelpos = N41.230, W74.200
+draw = 2
+points =
+    N41.34161, W74.06159,
+    N41.16130, W74.17097,
+    N41.20131, W74.26051
+	
+[area14]
+shape = polygon		; circle or polygon
+altitude = 5000		; minimum allowed altitude in feet
+name = EWR
+labelpos = N40.595, W74.220
+draw = 4
+points =
+    N40.66222, W74.10979,
+    N40.55107, W74.18086,
+    N40.53305, W74.24778,
+    N40.53235, W74.26731,
+    N40.61968, W74.21129
+
+[area15]
+shape = polygon		; circle or polygon
+altitude = 7000		; minimum allowed altitude in feet
+name = EWR
+labelpos = N40.290, W74.335
+draw = 3
+points =
+    N40.25101, W74.38842,
+    N40.34110, W74.27427,
+    N40.35485, W74.22951,
+    N40.38327, W74.19405,
+    N40.38402, W74.18735,
+    N40.30673, W74.26767,
+    N40.22142, W74.36577
+
+[area16]
+shape = polygon		; circle or polygon
+altitude = 1500		; minimum allowed altitude in feet
+name = JFK
+labelpos = N40.695, W73.860
+draw = 2
+points =
+    N40.65054, W73.92529,
+    N40.66593, W73.91307,
+    N40.67915, W73.90046,
+    N40.68216, W73.89665,
+    N40.68503, W73.89264,
+    N40.69031, W73.88428,
+    N40.69344, W73.87784,
+    N40.69472, W73.87502,
+    N40.69488, W73.87468,
+    N40.69623, W73.87145,
+    N40.69750, W73.86817,
+    N40.70584, W73.80878,
+    N40.70419, W73.77769,
+    N40.65274, W73.81258
+
+[area17]
+shape = polygon		; circle or polygon
+altitude = 5000		; minimum allowed altitude in feet
+name = EWR
+labelpos =  N41.000, W74.210
+draw = 1
+points =
+    N41.16130, W74.17097,
+    N41.13213, W74.11463,
+    N41.06134, W74.15561,
+	N40.982, W74.086,
+    N40.87020, W74.14738,
+    N40.97987, W74.27975
+
+[area18]
+shape = polygon		; circle or polygon
+altitude = 2000		; minimum allowed altitude in feet
+name = EWR
+labelpos =  N40.910, W74.102
+draw = 2
+points =
+	N40.982, W74.086,
+    N40.89994, W74.01308,
+    N40.83491, W73.99814,
+    N40.66222, W74.10979
+	N40.87020, W74.14738	
+
+[area19]
+shape = polygon		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = TERRAIN!!
+labelpos =  N41.530, W73.760
+draw = 3
+points =
+	N41.129, W74.107,
+	N41.473, W73.695,
+	N41.496, W73.449
+	N41.604, W73.514
+	N41.610, W73.902
+	N41.200, W74.257
+	
+[area20]
+shape = polygon		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = TERRAIN!!
+labelpos =  N41.288, W74.055
+draw = 3
+points =
+	N41.129, W74.107,
+	N41.473, W73.695,
+	N41.496, W73.449
+	N41.604, W73.514
+	N41.610, W73.902
+	N41.200, W74.257
+	
+[departure1]
+runway = 13_LG
+route1 =
+	GLDMN7, Goldman Seven
+	N40.712783, W73.825903
+	N40.668717, W73.892811
+	N40.703469, W73.969983
+
+route2 =
+	NTHNS5, Nathans Five
+	N40.712783, W73.825903
+	N40.671744, W73.836958
+	N40.622425, W73.886914
+	N40.527589, W73.963939
+
+route3 =
+	TNNIS6, Tennis Six
+	N40.800083, W73.757194
+	N40.879444, W73.703758
+
+###KLGA Jet Arrivals
+#MIP Arrival	
+[approach1]
+runway = dummy_LG
+beacon = BEUTY
+route1 =
+	123, MIP4, mill ton four
+	N40.569197, W75.011478, 10000, 250
+	N40.490744, W74.749092
+	N40.481, W74.716
+	N40.427886, W74.540753
+	N40.465, W74.403
+	N40.522, W74.188
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+
+[approach2]
+runway = dummy_LG
+beacon = HARLM
+route1 =
+	123, MIP4, mill ton four
+	N40.490744, W74.749092
+	N40.481, W74.716
+	N40.427886, W74.540753
+	N40.465, W74.403
+	N40.522, W74.188
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+	
+[approach3]
+runway = dummy_LG
+beacon = PROUD
+route1 =
+	123, MIP4, mill ton four
+	N40.629792, W73.999756
+	end, 045
+
+#APPLE/KORRY Arrival 
+[approach4]
+runway = dummy_LG
+beacon = KORRY
+route1 =
+	058, KORRY1, korry 1
+	N40.093842, W74.651544, 10000, 250
+	N40.202403, W74.495025
+	N40.289550, W74.385036
+	N40.374872, W74.276972
+	40°24.65'N, 74°13.88'W
+	N40.466, W74.161
+	N40.518533, W74.094089
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+
+[approach5]
+runway = dummy_LG
+beacon = DEPDY
+route1 =
+	058, KORRY1, korry 1
+	N40.202403, W74.495025
+	N40.289550, W74.385036
+	N40.374872, W74.276972
+	N40.374872, W74.276972
+	40°24.65'N, 74°13.88'W
+	N40.466, W74.161
+	N40.518533, W74.094089
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+
+[approach6]
+runway = dummy_LG
+beacon = DAMYR
+route1 =
+	058, KORRY1, korry 1
+	40°24.65'N, 74°13.88'W
+	N40.466, W74.161
+	N40.518533, W74.094089
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+
+#HAARP Arrival 
+[approach7]
+runway = dummy_LG
+beacon = VALRE
+route1 =	
+	289, HAARP3, harp three
+	N41.435328, W73.881736
+	N41.343722, W73.798608, 8000
+	N41.194, W73.663
+	N41.116353, W73.593483
+	N41.077211, W73.626053
+	N40.783717, W73.868600
+	end, 224
+	
+[approach8]
+runway = dummy_LG
+beacon = CRALY
+route1 =	
+	289, HAARP3, harp three
+	N41.077211, W73.626053
+	N40.783717, W73.868600
+	end, 224
+
+###KLGA RNAV/Visual Approaches
+#Park Visual 31
+[approach16]
+runway = 13_LG, rev
+beacon = GACAR, N40.696, W73.943
+route1 =
+	056, Park Visual, park visual
+	N40.696, W73.943, 2500, 180
+	N40.7186667, W73.9108333, 165
+	N40.7303333, W73.8443333
+	N40.7453333, W73.832
+	1, 300, 160
+
+###KHPN Jet Arrivals
+#HPN Arrivals (Landing 16)
+[approach17]
+runway = 16_WC
+beacon = ALIXX
+route1 = 
+	288, BOUNO4, bow no four
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+
+[approach18] 
+runway = 16_WC
+beacon = VALRE
+route1 = 
+	203, VALRE5, valre five
+	N41.435328, W73.881736, 6000
+	14.2, 5000, 210
+	
+#HPN Arrivals (Landing 34)
+[approach19]
+runway = 16_WC, rev
+beacon = ALIXX
+route1 = 
+	288, BOUNO4, bow no four
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+	
+[approach20] 
+runway = 16_WC, rev
+beacon = VALRE
+route1 = 
+	203, VALRE5, valre five
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end
+	
+###KHPN Prop Arrivals	
+#HPN Arrivals (Landing 16)
+[approach21]
+runway = 16_WCP
+beacon = NOBBI
+route1 = 
+	288, NOBBI5, nobby five
+	N41.424, W73.6378, 6000
+	N41.28008889, W73.58132778
+	N41.1917, W73.5308
+	N41.1164, W73.5935
+	end
+	
+[approach22] 
+runway = 16_WCP
+beacon = VALRE
+route1 = 
+	203
+	N41.435328, W73.881736, 3000
+	end, 157
+	
+#HPN Arrivals (Landing 34)
+[approach23]
+runway = 16_WCP, rev
+beacon = NOBBI
+route1 = 
+	288, NOBBI5, nobby five
+	N41.424, W73.6378, 6000
+	N41.28008889, W73.58132778
+	N41.1917, W73.5308
+	N41.1164, W73.5935
+	end
+	
+[approach24] 
+runway = 16_WCP, rev
+beacon = VALRE
+route1 = 
+	203
+	N41.435328, W73.881736, 3000
+	end, 157
+
+###KDXR Jet Arrivals
+[approach25]
+runway = 08_DB
+beacon = ALIXX
+route1 = 
+	288, BOUNO4, bow no four
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+
+[approach26] 
+runway = 08_DB
+beacon = VALRE
+route1 = 
+	203, VALRE5, valre five
+	N41.435328, W73.881736, 6000
+	14.2, 5000, 210
+
+[approach27]
+runway = 08_DB, rev
+beacon = ALIXX
+route1 = 
+	288, BOUNO4, bow no four
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+	
+[approach28] 
+runway = 08_DB, rev
+beacon = VALRE
+route1 = 
+	203, VALRE5, valre five
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end
+
+
+###KDXR Prop Arrivals
+#HPN Arrivals (Landing 16)
+[approach29]
+runway = 08_DBP
+beacon = NOBBI
+route1 = 
+	288, NOBBI5, nobby five
+	N41.424, W73.6378, 6000
+	N41.28008889, W73.58132778
+	N41.1917, W73.5308
+	N41.1164, W73.5935
+	end
+	
+[approach30] 
+runway = 08_DBP
+beacon = VALRE
+route1 = 
+	203
+	N41.435328, W73.881736, 3000
+	end, 157
+	
+#HPN Arrivals (Landing 34)
+[approach31]
+runway = 08_DBP, rev
+beacon = NOBBI
+route1 = 
+	288, NOBBI5, nobby five
+	N41.424, W73.6378, 6000
+	N41.28008889, W73.58132778
+	N41.1917, W73.5308
+	N41.1164, W73.5935
+	end
+	
+[approach32] 
+runway = 08_DBP, rev
+beacon = VALRE
+route1 = 
+	203
+	N41.435328, W73.881736, 3000
+	end, 157
+	
+[configurations]
+#Calm Winds Flow (Land 22/Dep 31 LGA, Land/Dep 16 HPN, Land/Dep 08 DXR)
+config1 =
+	0, 04_LG, landrev
+	0, 13_LG, startrev, 314, nosid
+	0, dummy_LG, land
+	10, 16_WC, landstart, 320, nosid
+#	10, 16_WCP, landstart, 320, nosid
+	14, 08_DB, landstart, 080, nosid
+	14, 08_DBP, landstart, 080, nosid
+#N Flow 1 (Land 31/Dep 4 LGA, Land/Dep 34 HPN, Land/Dep 08 DXR)	
+config2 =
+	0, 04_LG, start, 040, nosid
+	0, 13_LG, landrev
+	0, dummy_LG, land
+	10, 16_WC, landstartrev, 295, nosid
+#	10, 16_WCP, landstartrev, 295, nosid
+	14, 08_DB, startrev, 260, nosid
+	14, 08_DBP, startrev, 260, nosid
+#N Flow 2 (Land 4/Dep 31 LGA, Land/Dep 34 HPN, Land/Dep 08 DXR) ##
+config3 =
+	0, 04_LG, land
+	0, 13_LG, startrev, 314, nosid
+	0, dummy_LG, land
+	10, 16_WC, landstartrev, 295, nosid
+#	10, 16_WCP, landstartrev, 295, nosid
+	14, 08_DB, startrev, 260, nosid	
+	14, 08_DBP, startrev, 260, nosid	
+#NE Flow (Land 4/Dep 4 LGA, Land/Dep 34 HPN, Land/Dep 08 DXR)
+config4 =
+	0, 04_LG, landstart, 040, nosid
+	0, dummy_LG, land
+	10, 16_WC, landstartrev, 295, nosid
+#	10, 16_WCP, landstartrev, 295, nosid
+	14, 08_DB, landstart, 080, nosid
+	14, 08_DBP, landstart, 080, nosid
+#E Flow 1 (Land 4 /Dep 13 LGA, Land/Dep 16 HPN, Land/Dep 08 DXR)	
+config5 =
+	0, 04_LG, land
+	0, 13_LG, start, 130
+	0, dummy_LG, land
+	10, 16_WC, landstart, 320, nosid
+#	10, 16_WCP, landstart, 320, nosid
+	14, 08_DB, landstart, 080, nosid
+	14, 08_DBP, landstart, 080, nosid
+#E Flow 2 (Land 13 /Dep 4 LGA, Land/Dep 16 HPN, Land/Dep 08 DXR)	
+config6 =
+	0, 04_LG, start, 040, nosid
+	0, 13_LG, land
+	0, dummy_LG, land
+	10, 16_WC, landstart, 320, nosid
+#	10, 16_WCP, landstart, 320, nosid
+	14, 08_DB, landstart, 080, nosid
+	14, 08_DBP, landstart, 080, nosid
+#SE Flow (Land/Dep13 LGA, Land/Dep 16 HPN, Land/Dep 08 DXR)
+config7 =
+	0, 13_LG, startland, 130
+	0, dummy_LG, land
+	10, 16_WC, landstart, 320, nosid
+#	10, 16_WCP, landstart, 320, nosid
+	14, 08_DB, landstart, 080, nosid	
+	14, 08_DBP, landstart, 080, nosid	
+#S Flow (Land 22/Dep 13 LGA, Land/Dep 16 HPN, Land/Dep 08 DXR)
+config8 =
+	0, 04_LG, landrev
+	0, 13_LG, start, 130
+	0, dummy_LG, land
+	10, 16_WC, landstart, 320, nosid
+#	10, 16_WCP, landstart, 320, nosid
+	14, 08_DB, startrev, 260, nosid
+	14, 08_DBP, startrev, 260, nosid	
+#SW Flow (Land/Dep 22 LGA, Land/Dep 16 HPN, Land/Dep 08 DXR)
+config9 =
+	0, 04_LG, startlandrev, 220, nosid #add sids
+	0, dummy_LG, land
+	10, 16_WC, landstart, 320, nosid
+#	10, 16_WCP, landstart, 320, nosid
+	14, 08_DB, startrev, 260, nosid	
+	14, 08_DBP, startrev, 260, nosid	
+#W Flow (Land 22/Dep 31 LGA, Land/Dep 34 HPN, Land/Dep 08 DXR)
+config10 =
+	0, 04_LG, landrev
+	0, 13_LG, startrev, 314, nosid
+	0, dummy_LG, land
+	10, 16_WC, landstartrev, 320, nosid
+#	10, 16_WCP, landstartrev, 320, nosid
+	14, 08_DB, startrev, 260, nosid	
+	14, 08_DBP, startrev, 260, nosid	
+#NW Flow (Land/Dep 31 LGA, Land/Dep 34 HPN, Land/Dep 08 DXR)	
+config11 =
+	0, 13_LG, startlandrev, 314, nosid	
+	0, dummy_LG, land
+	10, 16_WC, landstartrev, 295, nosid
+#	10, 16_WCP, landstartrev, 295, nosid
+	14, 08_DB, startrev, 260, nosid	
+	14, 08_DBP, startrev, 260, nosid		
+	
+[planetypes]	
+types = 
+	c152, 6, 60, 100, 2.8, 3.2, 500, 500, 55, 75, 1.2, 1.3, cessna
+	c172, 6, 70, 120, 2.8, 3.2, 400, 500, 65, 85, 1.2, 1.3, skyhawk
+	c182, 6, 80, 140, 2.8, 3.2, 500, 500, 65, 85, 1.2, 1.3, skylane
+	c208, 6, 110, 170, 2.8, 3.2, 800, 1200, 75, 120, 1.2, 1.3, caravan
+	c402, 6, 120, 199, 2.8, 3.2, 800, 1200, 110, 150, 1.2, 1.3, cessna
+	be36, 6, 95, 160, 2.8, 3.2, 500, 500, 75, 120, 1.2, 1.3, bonanza
+	be55, 6, 125, 180, 2.8, 3.2, 800, 1500, 95, 160, 1.2, 1.3, baron
+	m20p, 6, 100, 160, 2.8, 3.2, 500, 500, 80, 125, 1.2, 1.3, mooney
+	p28a, 6, 70, 110, 2.8, 3.2, 500, 500, 65, 110, 1.2, 1.3, cherokee
+	p28b, 6, 100, 140, 2.8, 3.2, 500, 500, 70, 120, 1.2, 1.3, cherokee
+	pa34, 6, 110, 160, 2.8, 3.2, 500, 800, 80, 140, 1.2, 1.3, seneca
+	sr20, 6, 80, 160, 2.8, 3.2, 1000, 1000, 75, 90, 1.2, 1.3, cirrus	
+	sr22, 6, 80, 180, 2.8, 3.2, 1000, 1000, 75, 90, 1.2, 1.3, cirrus	
+	da20, 6, 80, 130, 2.8, 3.2, 550, 800, 80, 120, 1.2, 1.3, diamond
+	da40, 6, 80, 130, 2.8, 3.2, 550, 800, 80, 120, 1.2, 1.3, diamond
+	p212, 6, 90, 190, 2.8, 3.2, 800, 1200, 75, 120, 1.2, 1.3
+	

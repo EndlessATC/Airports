@@ -11,26 +11,64 @@
 radius = 40
 elevation = 618
 transition = 18001
-ceiling = 11000
+ceiling = 13000
 speedrestriction = 15, 220, 10000, 250
-floor = 2000
+floor = 1600
 automatic = true
 usa = true
-letters = 10000
+letters = 10000000
 name = saint louis approach, saint louis departure
 center = N38.748697, W90.370003
 magneticvar = -1.152
 beacons =
 	CSX, N38.75270, W90.36090, 0, Cardinal
-	STL, N38.86070, W90.48240, 0, St Louis
+	STL, N38.86070, W90.48240, 0, Saint Louis
 	TOY, N38.73920, W89.91860, 0, Troy
 	FTZ, N38.69450, W90.97130, 0, Foristell
-	GRE, N38.83420, W89.37230, 0, Greenville
 
 	QBALL, N38.1286667, W90.069, 0 , Q Ball
 	PETTI, N38.9963333, W89.594, 0, Petty
 	BGMAC, N38.697, W91.099, 0, Big Mac
 	LORLE, N39.3063333, W90.8386667, 0, Lorle
+	
+	BUUDD, N39.2464, W89.7237	
+	DELMA, N38.1372, W90.9123	
+	DIRTT, N39.2576, W91.0316	
+	JHAUN, N38.1391, W89.7958
+	SLVER, N38.0028, W90.3021	
+	DIXEE, N38.5805, W91.2083
+	FARMR, N39.4091, W90.7398	
+	EIKEL, N38.441, W89.3671
+	
+handoff = 
+	000, ZKC54, Kansas City Center, 127.460
+	
+boundary =
+    N39°24'10.636'', W90°27'30.545'',
+    N39°22'04.937'', W90°04'50.725'',
+    N39°22'00.516'', W90°04'00.653'',
+    N39°13'15.292'', W89°43'30.298'',
+    N39°11'30.272'', W89°40'59.686'',
+    N39°01'15.184'', W89°35'29.983'',
+    N38°54'30.199'', W89°32'30.221'',
+    N38°48'00.514'', W89°30'00.310'',
+    N38°41'00.301'', W89°30'00.101'',
+    N38°40'00.543'', W89°25'00.280'',
+    N38°33'00.095'', W89°18'59.607'',
+    N38°21'30.044'', W89°23'29.911'',
+    N38°05'32.696'', W89°46'26.531'',
+    N38°10'30.231'', W89°50'30.294'',
+    N38°02'00.129'', W90°19'00.127'',
+    N38°02'30.532'', W90°26'00.577'',
+    N38°08'00.025'', W90°42'00.023'',
+    N38°14'00.128'', W90°55'00.390'',
+    N38°22'59.837'', W91°05'00.532'',
+    N38°30'00.289'', W91°09'40.508'',
+    N38°45'59.981'', W91°13'00.595'',
+    N38°57'59.985'', W91°10'00.574'',
+    N39°07'59.779'', W91°03'40.309'',
+    N39°18'00.059'', W90°50'00.161'',
+    N39°22'30.076'', W90°40'00.646
 
 line1 =
 	N38.07372, W90.18144
@@ -2515,40 +2553,70 @@ line1 =
 	N38.07372, W90.18144
 	
 [airport1]
-name = St Louis Lambert International Airport
+name = St Louis Lambert International Airport, saint louis 
 code = KSTL
 runways =
-	rwy1, 6, N38.7467, W90.3812, 63.0, 7602, 0, 0, 551, 3, 0, 3, 0, 0, 0, 0, 0, 132.475, saint louis tower
-	rwy2, 11, N38.76, W90.4099, 122.2, 9001, 0, 0, 618, 3, 0, 3, 0, 0, 0, 0, 0, 132.475, saint louis tower
-	rwy3, 12L, N38.7518, W90.3663, 122.0, 9003, 0, 0, 528, 3, 0, 3, 0, 0, 0, 0, 0, 120.05, saint louis tower
-	rwy4, 12R, N38.7539, W90.3792, 122.0, 11019, 467, 201, 540, 3, 0, 3, 0, 0, 0, 0, 0, 118.5, saint louis tower
-	rwy5, 12R, N38.7539, W90.3792, 122.0, 11019, 467, 201, 540, 3, 0, 3, 0, 0, 0, 0, 0, 118.5, saint louis tower
+	06_SL, 6, N38.7467, W90.3812, 63.0, 7602, 0, 0, 551, 3, 0, 3, 0, 0, 0, 0, 0, 132.475, saint louis tower
+	11_SL, 11, N38.76, W90.4099, 122.2, 9001, 0, 0, 618, 3, 0, 3, 0, 0, 0, 0, 0, 132.475, saint louis tower
+	12L_SL, 12L, N38.7518, W90.3663, 122.0, 9003, 0, 0, 528, 3, 0, 3, 0, 0, 0, 0, 0, 120.05, saint louis tower
+	12R_SL, 12R, N38.7539, W90.3792, 122.0, 11019, 467, 201, 540, 3, 0, 3, 0, 0, 0, 0, 0, 118.5, saint louis tower
+	12RB_SL, 12R, N38.7539, W90.3792, 122.0, 11019, 467, 201, 540, 3, 0, 3, 0, 0, 0, 0, 0, 118.5, saint louis tower
 	
 #Runway 12R is duped to make it possible for it to use different SIDs when landing 6
 
 airlines =	
-	asq, 2, e145, express jet
-	uca, 2, e145, commutair
-	eny, 5, e170/e175, on voy
-	rpa, 5, e170/e75s/e75l, brickyard
-	skw, 5, crj2/crj7/crj9/e175, skywest
-	swa, 20, b737/b37m/b738/b38m, southwest
+#Southwest (60%)
+	swa, 10, b737/b37m/b738/b38m, southwest
+	swa, 10, b737/b37m/b738/b38m, southwest
+	swa, 10, b737/b37m/b738/b38m, southwest
+	swa, 10, b737/b37m/b738/b38m, southwest
+	swa, 10, b737/b37m/b738/b38m, southwest
+	swa, 10, b737/b37m/b738/b38m, southwest
+#American (16%)
 	aal, 8, a319/a320/a321/a21n/b738/b38m/e190, american
-	asa, 2, b738/b739, alaska
-	kap, 3, c402/p212, cape air
-	dal, 4, bcs1/bcs3/a320/a321/b737/b738/b739, delta
-	fft, 3, a318/a319/a320/a321/a20n/a21n, frontier flight
-	ual, 4, a319/a320/b735/b737/b738/b739/b39m/b3xm, united
-	fdx, 3, a306/a310/b752/b763/md11, fed ex
-	ups, 3, a306/b752/b763/md11, u p s
-	dlh, .5, a330, lufthansa
-	aco, 3, c208/b19, weber
-	scx, 1, b738, sun country
-	nks, 3, a20n/a321, spirit wings
-	jza, 1, e75s, jazz
-	jia, 3, crj7/crj9, blue streak
-	n-744hj, 3, g280/glf1/glf2/glf3/glf4/glf5/glf6
-	n-845yy, 3, fa5x/fa7x/fa8x/gl5t/gl7t/glex
+	eny, 4, e170/e175, on voy	
+	jia, 4, crj7/crj9, blue streak
+#Delta (11%)
+	dal, 2.75, bcs1/bcs3/a320/a321/b737/b738/b739/b757, delta
+	edv, 2.75, crj2/crj7/crj9, endeavor
+	rpa, 2.75, e170/e75s/e75l, brickyard
+	skw, 2.75, crj2/crj7/crj9/e175, skywest
+#United (6%)
+	ual, 1, a319/a320/b735/b737/b738/b739/b39m/b3xm, united
+	awi, 1, crj2, air wisconsin
+	uca, 1, e145, commutair
+	gjs, 1, crj5/crj7, lindbergh
+	ash, 1, e175, air shuttle
+	rpa, 1, e170/e75s/e75l, brickyard
+	skw, 1, crj2/crj7/crj9/e175, skywest	
+#Frontier (4%)
+	fft, 4, a318/a319/a320/a321/a20n/a21n, frontier flight	
+#Other
+	dlh, 0.6, a330, lufthansa, e
+	nks, 0.6, a20n/a321, spirit wings
+	jza, 0.6, crj2, jazz, n	
+	asa, 0.6, b738/b739, alaska, w
+	vtm, 0.6, dc91, aero nah vayz t s m, w
+		
+#Air Cargo (~2% of all flights)
+	fdx, 0.69, a306/a310/b752/b763/md11, fed ex
+	ups, 0.69, a306/b752/b763/md11, u p s
+	gti, 0.69, b763, giant
+	
+#General Aviation
+	n-744hj, 1.0625,	c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7/pc12/pc24
+	lxj, 1.0625, e55p/glf4/cl35, flexjet
+	dpj, 1.0625, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	eja, 1.0625, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet	
+	
+	#Military
+	USAF-111, 1.08, c17/b703/k35r/k35e/c135/ke3/e3cf/e3tf/e767/e737/p8/p3/e6/b52/c130/c30j/f16/lj35, u s air force
+	af1, .01, b742, air force one
+	adb, .01, a124, antonov bureau
+	med, .01, pc12/lj35/c560, lifeguard
+	flc, .01, b350, flight check
+	
+
 	
 entrypoints = 
 	067, PETTI, 10000
@@ -2556,15 +2624,43 @@ entrypoints =
 	267, BGMAC, 11000
 	334, LORLE, 11000
 	
-climbaltitude = 2500
+climbaltitude = 5000
 	
-[area1]
-shape = circle		; circle or polygon
-altitude = 3000		; minimum allowed altitude in feet
-radius = 6		; radius of circle in NM
-position = N38.748697, W90.370003	; position of circle center
-labelpos = 1.57, 3.33	; <position of label>
+[airport2]
+name = St Louis Lambert International Airport, saint louis 
+code =‎ ‎﻿﻿𝅶𝅶𝅶𝅶‎‎SL
+runways =
+	06_SLP, 6, N38.7467, W90.3812, 63.0, 7602, 0, 0, 551, 3, 0, 3, 0, 0, 0, 0, 0, 132.475, saint louis tower
+	11_SLP, 11, N38.76, W90.4099, 122.2, 9001, 0, 0, 618, 3, 0, 3, 0, 0, 0, 0, 0, 132.475, saint louis tower
+	12L_SLP, 12L, N38.7518, W90.3663, 122.0, 9003, 0, 0, 528, 3, 0, 3, 0, 0, 0, 0, 0, 120.05, saint louis tower
+	12R_SLP, 12R, N38.7539, W90.3792, 122.0, 11019, 467, 201, 540, 3, 0, 3, 0, 0, 0, 0, 0, 118.5, saint louis tower
+	12RB_SLP, 12R, N38.7539, W90.3792, 122.0, 11019, 467, 201, 540, 3, 0, 3, 0, 0, 0, 0, 0, 118.5, saint louis tower
 	
+#Runway 12R is duped to make it possible for it to use different SIDs when landing 6
+
+climbaltitude = 3000
+
+traffic = 15
+
+entrypoints = 
+	185, CSX, 4000
+	345, CSX, 4000
+	310, CSX, 4000
+	133, CSX, 4000
+	112, CSX, 4000
+	332, CSX, 4000
+	
+sids = 
+	KUIN, N39.9430174, W91.1944634, Quincy
+	KOWB, N37.7388342, W87.1668286, Owensboro
+	KMWA, N37.7549722, W89.0110833, Marion
+	KIRK, N40.0934722, W92.5449167, Kirksville
+	KBRL, N40.7829722, W91.1255833, Southeast Iowa Regional
+	KJBR, N35.8317111, W90.6464219, Jonesboro		
+
+airlines =	
+	kap, 1, c402/p212, care
+	aco, 1, c208, weber, s
 
 #Spirit of St. Louis (SUS/SP)
 [area2]
@@ -2575,12 +2671,76 @@ radius = 4		; radius of circle in NM
 position = N38.6621111, W90.6520556	; position of circle center
 labelpos = -13.75, -1.51	; <position of label>
 
-[airport2]
-name = Spirit of St. Louis Airport
+[airport3]
+name = Spirit of St. Louis Airport, spirit
 code = SP
 runways =
-	rwy6, 8L, N38.66415, W90.66823, 078, 5000, 0, 0, 463.0
-	rwy7, 8R, N38.65771, W90.65972, 078, 7485, 0, 0, 461.3
+	08L_SP, 8L, N38.66415, W90.66823, 078, 5000, 0, 0, 463.0, 3, 0, 3, 0, 0, 0, 0, 0, 124.75, spirit tower
+	08R_SP, 8R, N38.65771, W90.65972, 078, 7485, 0, 0, 461.3, 3, 0, 3, 0, 0, 0, 0, 0, 124.75, spirit tower
+	
+climbaltitude = 3000
+
+sids = 
+	PLESS, N37.8096, W88.9632
+	TWILA, N38.7871, W89.5525
+	CABIT, N38.9666, W91.1521
+	KLAIR, N38.4112, W91.1602
+	SAJOY, N38.1959, W90.5561
+	SAGZA, N38.2279, W90.7522	
+
+traffic = 15
+
+entrypoints = 
+	215, DELMA, 13000
+	317, DIRTT, 13000
+	047, BUUDD, 12000
+	117, ESSAR, 12000
+	177, SLVER, 12000
+
+airlines =
+	lxj, 1, e55p/glf4/cl35, flexjet
+	eja, 2, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	n-744hj, 2, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75/be40, jet card
+	lbq, 1, pc12/e50p, labquest
+	csj, 1, sf34, castle
+	usc, 1, lj35, star check
+
+[airport4]
+name = Spirit of St. Louis Airport, spirit
+code = SP
+runways =
+	08L_SPP, 8L, N38.66415, W90.66823, 078, 5000, 0, 0, 463.0, 3, 0, 3, 0, 0, 0, 0, 0, 124.75, spirit tower
+	08R_SPP, 8R, N38.65771, W90.65972, 078, 7485, 0, 0, 461.3, 3, 0, 3, 0, 0, 0, 0, 0, 124.75, spirit tower
+
+climbaltitude = 2500
+
+sids = 
+	VLA, N39.0938, W89.1622, Vandalia
+	ENL, N38.42, W89.159, Centralia
+	FAM, N37.6735, W90.2341, Farmington
+	VIH, N38.1541, W91.7068, Vichy
+	COU, N38.8108, W92.2183, Columbia
+	UIN, N39.8479, W91.2789, Quincy
+	SPI, N39.8397, W89.6777, Spinner
+
+	
+traffic = 30
+
+entrypoints = 
+	241, CSX, 4000
+	274, CSX, 4000
+	327, CSX, 4000
+	027, CSX, 4000
+	069, CSX, 4000
+	109, CSX, 4000
+	175, CSX, 4000
+
+
+airlines =
+	n-781pt, 0.75, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	usc, 0.1, be55, star check
 
 #St. Louis Downtown (CPS/DT)
 [area3]
@@ -2591,30 +2751,142 @@ radius = 4		; radius of circle in NM
 position = N38.5703611, W90.1550833	; position of circle center
 labelpos = 8.71, -11.55	; <position of label>
 
-[airport3]
-name = St. Louis Downtown Airport
+[airport5]
+name = St. Louis Downtown Airport, downtown
 code = DT
 runways =
-	rwy8, 12L, N38.57377, W90.15818, 122, 5301, 0, 0, 410.0
-	rwy9, 12R, N38.57398, W90.16501, 122, 7002, 0, 0, 412.4
-	rwy10, 5, N38.57237, W90.16854, 047, 2799, 0, 0, 410.0
+	12L_DT, 12L, N38.57377, W90.15818, 122, 5301, 0, 0, 410.0, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
+	12R_DT, 12R, N38.57398, W90.16501, 122, 7002, 0, 0, 412.4, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
+	05_DT, 5, N38.57237, W90.16854, 047, 2799, 0, 0, 410.0, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
 
-#St. Louis Regional (ALN/ST)
+climbaltitude = 2000
+
+sids = 
+	PLESS, N37.8096, W88.9632
+	TWILA, N38.7871, W89.5525
+	CABIT, N38.9666, W91.1521
+	KLAIR, N38.4112, W91.1602
+	SAJOY, N38.1959, W90.5561
+	SAGZA, N38.2279, W90.7522	
+
+traffic = 30
+
+entrypoints = 
+	215, DELMA, 13000
+	257, DIXEE, 13000
+	337, FARMR, 13000
+	047, BUUDD, 12000
+
+airlines =	
+	eja, 0.125, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	n-744hj, 2.625, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7
+	csj, 0.125, sf34, castle
+	skq, 0.125, pc12, skylab
+
+[airport6]
+name = St. Louis Downtown Airport, downtown
+code = DT
+runways =
+	12L_DTP, 12L, N38.57377, W90.15818, 122, 5301, 0, 0, 410.0, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
+	12R_DTP, 12R, N38.57398, W90.16501, 122, 7002, 0, 0, 412.4, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
+	05_DTP, 5, N38.57237, W90.16854, 047, 2799, 0, 0, 410.0, 3, 0, 3, 0, 0, 0, 0, 0, 119.925, downtown tower
+
+climbaltitude = 2000
+
+sids = 
+	VLA, N39.0938, W89.1622, Vandalia
+	ENL, N38.42, W89.159, Centralia
+	FAM, N37.6735, W90.2341, Farmington
+	VIH, N38.1541, W91.7068, Vichy
+	COU, N38.8108, W92.2183, Columbia
+	UIN, N39.8479, W91.2789, Quincy
+	SPI, N39.8397, W89.6777, Spinner
+
+traffic = 30
+
+entrypoints = 
+	241, CSX, 4000
+	274, CSX, 4000
+	327, CSX, 4000
+	027, CSX, 4000
+	069, CSX, 4000
+	109, CSX, 4000
+	175, CSX, 4000
+
+airlines =	
+	bkn, 1, p28a/da20, billiken
+	n-781pt, 0.75, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+
+#St. Louis Regional (ALN/RG)
 [area4]
 shape = circle		; circle or polygon
 altitude = 3000		; minimum allowed altitude in feet
-name = ST
+name = RG
 radius = 4		; radius of circle in NM
 position = N38.8899167, W90.0460000	; position of circle center
 labelpos = 15.0, 7.2	; <position of label>
 
-[airport4]
-name = St. Louis Regional Airport
-code = ST
+[airport7]
+name = St. Louis Regional Airport, regional
+code = RG
 runways =
-	rwy11, 11, N38.89523, W90.05494, 113, 8099, 0, 0, 537.8
-	rwy12, 17, N38.89762, W90.05240, 173, 6500, 0, 0, 533.4
+	11_RG, 11, N38.89523, W90.05494, 113, 8099, 0, 0, 537.8, 3, 0, 3, 0, 0, 0, 0, 0, 126.0, regional tower
+	17_RG, 17, N38.89762, W90.05240, 173, 6500, 0, 0, 533.4, 3, 143, 3, 0, 0, 0, 0, 0, 126.0, regional tower
 
+climbaltitude = 3000
+
+traffic = 120
+
+sids = 
+	PLESS, N37.8096, W88.9632
+	TWILA, N38.7871, W89.5525
+	CABIT, N38.9666, W91.1521
+	KLAIR, N38.4112, W91.1602
+	SAJOY, N38.1959, W90.5561
+	SAGZA, N38.2279, W90.7522	
+
+entrypoints = 
+	215, DELMA, 13000
+	337, FARMR, 13000
+
+airlines =
+	eja, 0.05, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	n-744hj, 0.95, c525/c550/c56x/c680/c750/c25c/fa5x/fa7x/fa8x/f900/fa50/lj35/lj60/glex/cl30/cl35/g280/glf1/glf2/glf3/glf4/glf5/gl5t/gl7t/glex/lj75/glf6/e545/e55p/tbm7
+	
+[airport8]
+name = St. Louis Regional Airport, regional
+code = RG
+runways =
+	11_RGP, 11, N38.89523, W90.05494, 113, 8099, 0, 0, 537.8, 3, 0, 3, 0, 0, 0, 0, 0, 126.0, regional tower
+	17_RGP, 17, N38.89762, W90.05240, 173, 6500, 0, 0, 533.4, 3, 143, 3, 0, 0, 0, 0, 0, 126.0, regional tower
+
+climbaltitude = 3000
+
+traffic = 60
+
+sids = 
+	VLA, N39.0938, W89.1622, Vandalia
+	ENL, N38.42, W89.159, Centralia
+	FAM, N37.6735, W90.2341, Farmington
+	VIH, N38.1541, W91.7068, Vichy
+	COU, N38.8108, W92.2183, Columbia
+	UIN, N39.8479, W91.2789, Quincy
+	SPI, N39.8397, W89.6777, Spinner
+
+entrypoints = 
+	241, CSX, 4000
+	274, CSX, 4000
+	327, CSX, 4000
+	027, CSX, 4000
+	069, CSX, 4000
+	109, CSX, 4000
+	175, CSX, 4000
+
+airlines =
+	n-781pt, 0.75, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/c402/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	
 #Mid-America/Scott AFB (BLV/MA)
 [area5]
 shape = circle		; circle or polygon
@@ -2625,19 +2897,69 @@ position = N38.5451731, W89.8351856	; position of circle center
 labelpos = 24.35, -13.55	; <position of label>
 	
 
-[airport5]
-name = Mid-America/Scott Air Force Base
+[airport9]
+name = Mid-America St. Louis Airport, mid america
 code = MA
 runways =
-	rwy13, 14L, N38.55617, W89.83347, 137, 10000, 0, 0, 441.4
-	rwy14, 14R, N38.55181, W89.86191, 137, 8006, 0, 0, 459.1
+	14L_MA, 14L, N38.55617, W89.83347, 137, 10000, 0, 0, 441.4, 3, 0, 3, 0, 0, 0, 0, 0, 128.25, scott tower
+	14R_MA, 14R, N38.55181, W89.86191, 137, 8006, 0, 0, 459.1, 3, 0, 3, 0, 0, 0, 0, 0, 128.25, scott tower
+
 climbaltitude = 3000
+
+traffic = 120
+
+sids = 
+	PLESS, N37.8096, W88.9632
+	TWILA, N38.7871, W89.5525
+	CABIT, N38.9666, W91.1521
+	KLAIR, N38.4112, W91.1602
+	SAJOY, N38.1959, W90.5561
+	SAGZA, N38.2279, W90.7522	
+
+entrypoints = 
+	215, DELMA, 13000
+	257, DIXEE, 13000
+	337, FARMR, 13000
+	047, BUUDD, 12000
+	111, EIKEL, 7000
+
+airlines =
+	aay, 1, a319/a320, allegiant	
+
+[airport10]
+name = Scott Air Force Base, scott air force base
+code = MA
+runways =
+	14L_AFB, 14L, N38.55617, W89.83347, 137, 10000, 0, 0, 441.4, 3, 0, 3, 0, 0, 0, 0, 0, 253.5, scott tower
+	14R_AFB, 14R, N38.55181, W89.86191, 137, 8006, 0, 0, 459.1, 3, 0, 3, 0, 0, 0, 0, 0, 253.5, scott tower
+	
+climbaltitude = 3000
+
 traffic = 30
+
+sids = 
+	PLESS, N37.8096, W88.9632
+	TWILA, N38.7871, W89.5525
+	CABIT, N38.9666, W91.1521
+	KLAIR, N38.4112, W91.1602
+	SAJOY, N38.1959, W90.5561
+	SAGZA, N38.2279, W90.7522	
+
+entrypoints = 
+	215, DELMA, 13000
+	257, DIXEE, 13000
+	337, FARMR, 13000
+	047, BUUDD, 12000
+	111, EIKEL, 7000
+
+airlines =
+	USAF-111, 2, c17/b703/k35r/k35e/c135/ke3/e3cf/e3tf/e767/e737//p8/p3/e6/b52/c130/c30j/f16, u s air force
+
 	
 #KSTL Approaches
 #AARCH2 for 29/30LR
 [approach1]
-runway = rwy1, rev
+runway = 06_SL, rev
 beacon = PETTI
 route1 =
 	249, AARCH2, A Arch Two
@@ -2649,7 +2971,7 @@ route1 =
 	end
 	
 [approach2]
-runway = rwy2, rev
+runway = 11_SL, rev
 beacon = PETTI
 route1 =
 	249, AARCH2, A Arch Two
@@ -2661,7 +2983,7 @@ route1 =
 	end
 	
 [approach3]
-runway = rwy3, rev
+runway = 12L_SL, rev
 beacon = PETTI
 route1 =
 	249, AARCH2, A Arch Two
@@ -2673,7 +2995,7 @@ route1 =
 	end
 	
 [approach4]
-runway = rwy4, rev
+runway = 12R_SL, rev
 beacon = PETTI
 route1 =
 	249, AARCH2, A Arch Two
@@ -2686,7 +3008,7 @@ route1 =
 	
 #AARCH2 for 11/12LR
 [approach5]
-runway = rwy1
+runway = 06_SL
 beacon = PETTI
 route1 =
 	250, AARCH2, A Arch Two
@@ -2700,7 +3022,7 @@ route1 =
 	end
 	
 [approach6]
-runway = rwy2
+runway = 11_SL
 beacon = PETTI
 route1 =
 	250, AARCH2, A Arch Two
@@ -2714,7 +3036,7 @@ route1 =
 	end
 	
 [approach7]
-runway = rwy3
+runway = 12L_SL
 beacon = PETTI
 route1 =
 	250, AARCH2, A Arch Two
@@ -2728,7 +3050,7 @@ route1 =
 	end
 	
 [approach8]
-runway = rwy4
+runway = 12R_SL
 beacon = PETTI
 route1 =
 	250, AARCH2, A Arch Two
@@ -2743,7 +3065,7 @@ route1 =
 
 #BOOSH3 for 29/30LR	
 [approach9]
-runway = rwy1, rev
+runway = 06_SL, rev
 beacon = QBALL
 route1 =
 	337, BOOSH3, Boosh Three
@@ -2753,7 +3075,7 @@ route1 =
 	end
 	
 [approach10]
-runway = rwy2, rev
+runway = 11_SL, rev
 beacon = QBALL
 route1 =
 	337, BOOSH3, Boosh Three
@@ -2763,7 +3085,7 @@ route1 =
 	end
 	
 [approach11]
-runway = rwy3, rev
+runway = 12L_SL, rev
 beacon = QBALL
 route1 =
 	337, BOOSH3, Boosh Three
@@ -2773,7 +3095,7 @@ route1 =
 	end
 	
 [approach12]
-runway = rwy4, rev
+runway = 12R_SL, rev
 beacon = QBALL
 route1 =
 	337, BOOSH3, Boosh Three
@@ -2784,7 +3106,7 @@ route1 =
 	
 #BOOSH3 for 11/12LR
 [approach13]
-runway = rwy1
+runway = 06_SL
 beacon = QBALL
 route1 =
 	337, BOOSH3, Boosh Three
@@ -2798,7 +3120,7 @@ route1 =
 	end
 	
 [approach14]
-runway = rwy2
+runway = 11_SL
 beacon = QBALL
 route1 =
 	337, BOOSH3, Boosh Three
@@ -2812,7 +3134,7 @@ route1 =
 	end
 	
 [approach15]
-runway = rwy3
+runway = 12L_SL
 beacon = QBALL
 route1 =
 	337, BOOSH3, Boosh Three
@@ -2826,7 +3148,7 @@ route1 =
 	end
 	
 [approach16]
-runway = rwy4
+runway = 12R_SL
 beacon = QBALL
 route1 =
 	337, BOOSH3, Boosh Three
@@ -2841,7 +3163,7 @@ route1 =
 	
 #KAYLA3 for 29/30LR	
 [approach17]
-runway = rwy1, rev
+runway = 06_SL, rev
 beacon = BGMAC
 route1 =
 	89, KAYLA3, Kayla Three
@@ -2855,7 +3177,7 @@ route1 =
 	end
 	
 [approach18]
-runway = rwy2, rev
+runway = 11_SL, rev
 beacon = BGMAC
 route1 =
 	89, KAYLA3, Kayla Three
@@ -2869,7 +3191,7 @@ route1 =
 	end
 	
 [approach19]
-runway = rwy3, rev
+runway = 12L_SL, rev
 beacon = BGMAC
 route1 =
 	89, KAYLA3, Kayla Three
@@ -2883,7 +3205,7 @@ route1 =
 	end
 	
 [approach20]
-runway = rwy4, rev
+runway = 12R_SL, rev
 beacon = BGMAC
 route1 =
 	89, KAYLA3, Kayla Three
@@ -2898,7 +3220,7 @@ route1 =
 	
 #KAYLA3 for 11/12LR	
 [approach21]
-runway = rwy1
+runway = 06_SL
 beacon = BGMAC
 route1 =
 	89, KAYLA3, Kayla Three
@@ -2909,7 +3231,7 @@ route1 =
 	end
 	
 [approach22]
-runway = rwy2
+runway = 11_SL
 beacon = BGMAC
 route1 =
 	89, KAYLA3, Kayla Three
@@ -2920,7 +3242,7 @@ route1 =
 	end
 	
 [approach23]
-runway = rwy3
+runway = 12L_SL
 beacon = BGMAC
 route1 =
 	89, KAYLA3, Kayla Three
@@ -2931,7 +3253,7 @@ route1 =
 	end
 	
 [approach24]
-runway = rwy4
+runway = 12R_SL
 beacon = BGMAC
 route1 =
 	89, KAYLA3, Kayla Three
@@ -2943,7 +3265,7 @@ route1 =
 	
 #LORLE3 for 29/30LR	
 [approach25]
-runway = rwy1, rev
+runway = 06_SL, rev
 beacon = LORLE
 route1 =
 	149, LORLE3, Lorle Three
@@ -2958,7 +3280,7 @@ route1 =
 	end
 	
 [approach26]
-runway = rwy2, rev
+runway = 11_SL, rev
 beacon = LORLE
 route1 =
 	149, LORLE3, Lorle Three
@@ -2973,7 +3295,7 @@ route1 =
 	end
 	
 [approach27]
-runway = rwy3, rev
+runway = 12L_SL, rev
 beacon = LORLE
 route1 =
 	149, LORLE3, Lorle Three
@@ -2988,7 +3310,7 @@ route1 =
 	end
 	
 [approach28]
-runway = rwy4, rev
+runway = 12R_SL, rev
 beacon = LORLE
 route1 =
 	149, LORLE3, Lorle Three
@@ -3003,7 +3325,7 @@ route1 =
 	end
 #LORLE3 for 11/12LR
 [approach29]
-runway = rwy1
+runway = 06_SL
 beacon = LORLE
 route1 =
 	149, LORLE3, Lorle Three
@@ -3013,7 +3335,7 @@ route1 =
 	end
 	
 [approach30]
-runway = rwy2
+runway = 11_SL
 beacon = LORLE
 route1 =
 	149, LORLE3, Lorle Three
@@ -3023,7 +3345,7 @@ route1 =
 	end
 	
 [approach31]
-runway = rwy3
+runway = 12L_SL
 beacon = LORLE
 route1 =
 	149, LORLE3, Lorle Three
@@ -3033,7 +3355,7 @@ route1 =
 	end
 	
 [approach32]
-runway = rwy4
+runway = 12R_SL
 beacon = LORLE
 route1 =
 	149, LORLE3, Lorle Three
@@ -3041,148 +3363,596 @@ route1 =
 	N39.207, W90.8075, 9000
 	N39.1421667, W90.7851667, 8000, 250
 	end
+ 
+###KSUS Approaches
+[approach33]
+runway = 08R_SP
+beacon = BUUDD, N39.2464, W89.7237
+route1 =
+	149, BUUDD3, Bud Three
+	N39.2464, W89.7237
+	N39.1488, W89.9186
+	N38.86070, W90.48240
+	N38.69450, W90.97130
+	end, 149
+
+[approach34]
+runway = 08R_SP, rev
+beacon = BUUDD, N39.2464, W89.7237
+route1 =
+	149, BUUDD3, Bud Three
+	N39.2464, W89.7237
+	N39.1488, W89.9186
+	N39.0682, W90.0787
+	N38.8827, W90.245
+	N38.75270, W90.36090
+	end, 215
+
+[approach35]
+runway = 08R_SP
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.5402, W90.8887
+	end, 349
+
+[approach36]
+runway = 08R_SP, rev
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.5923, W90.3782
+	end, 349
+
+[approach37]
+runway = 08R_SP
+beacon = DIRTT, N39.2576, W91.0316
+route1 =
+	149, DIRTT2, Dirt Two
+	N39.2576, W91.0316
+	N39.1531, W90.9645
+	N38.847, W91.0144
+	N38.69450, W90.97130
+	end, 149
 	
-#BUUDD3, DELMA4, FARMR3
-#KCPS Approaches
-#BUUDD3 for KCPS 30R 
+[approach38]
+runway = 08R_SP, rev
+beacon = DIRTT, N39.2576, W91.0316
+route1 =
+	149, DIRTT2, Dirt Two
+	N39.2576, W91.0316
+	N39.1531, W90.9645
+	N38.847, W91.0144
+	N38.5815, W90.7061
+	N38.5923, W90.3782
+	end, 349
+
+[approach39]
+runway = 08R_SP
+beacon = ESSAR, N38.3576, W90.1973
+route1 =
+	149, JHAUN1, Jhaun One
+	N38.3576, W90.1973
+	N38.5402, W90.8887
+	end, 346
+	
+[approach40]
+runway = 08R_SP, rev
+beacon = ESSAR, N38.3576, W90.1973
+route1 =
+	149, JHAUN1, Jhaun One
+	N38.3576, W90.1973
+	N38.5083, W90.3746
+	N38.5923, W90.3782
+	end, 346
+
+[approach41]
+runway = 08R_SP
+beacon = SLVER, N38.0028, W90.3021
+route1 =
+	149, SLVER1, Silver One
+	N38.0028, W90.3021
+	N38.127, W90.3279
+	N38.5402, W90.8887
+	end, 346
+	
+[approach42]
+runway = 08R_SP, rev
+beacon = SLVER, N38.0028, W90.3021
+route1 =
+	149, SLVER1, Silver One
+	N38.0028, W90.3021
+	N38.127, W90.3279
+	N38.5923, W90.3782
+	end, 346
+
+###KCPS Approaches
+[approach43]
+runway = 12R_DT
+beacon = BUUDD, N39.2464, W89.7237
+route1 =
+	149, BUUDD3, Bud Three
+	N39.2464, W89.7237
+	N39.1488, W89.9186
+	N39.0682, W90.0787
+	N38.8827, W90.245
+	N38.75270, W90.36090
+	end, 215
+
+[approach44]
+runway = 12R_DT, rev
+beacon = BUUDD, N39.2464, W89.7237
+route1 =
+	149, BUUDD3, Bud Three
+	N39.2464, W89.7237
+	N39.1488, W89.9186
+	N38.9759, W89.9609
+	N38.8053, W89.9304
+	N38.5243, W89.8245
+	end, 233
+	
+[approach45]
+runway = 12R_DT
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.5786, W90.3991
+	end, 080
+
+[approach46]
+runway = 12R_DT, rev
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.3576, W90.1973
+	N38.3746, W89.9943
+	end, 033
+	
+[approach47]
+runway = 12R_DT
+beacon = DIXEE, N38.5805, W91.2083
+route1 =
+	149, DIXEE3, Dixee Three
+	N38.5805, W91.2083
+	N38.5215, W90.9359
+	N38.5786, W90.3991
+	end, 082
+
+[approach48]
+runway = 12R_DT, rev
+beacon = DIXEE, N38.5805, W91.2083
+route1 =
+	149, DIXEE3, Dixee Three
+	N38.5805, W91.2083
+	N38.5215, W90.9359
+	N38.3576, W90.1973
+	N38.3746, W89.9943
+	end, 030	
+	
+[approach49]
+runway = 12R_DT
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	N38.8053, W89.9304
+	end, 185
+
+[approach50]
+runway = 12R_DT, rev
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	N38.8053, W89.9304
+	end, 185
+	
+###KALN Approaches
+[approach51]
+runway = 17_RG
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.75270, W90.36090
+	end, 039
+
+[approach52]
+runway = 11_RG, rev
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.75270, W90.36090
+	end, 039
+	
+[approach53]
+runway = 17_RG
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	end, 155
+
+[approach54]
+runway = 11_RG
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	N39.068, W90.2756
+	end, 191
+
+[approach55]
+runway = 11_RG, rev
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	N38.8848, W89.756
+	end, 210
+	
+###KBLV Approaches
+[approach56]
+runway = 14L_MA
+beacon = BUUDD, N39.2464, W89.7237
+route1 =
+	149, BUUDD3, Bud Three
+	N39.2464, W89.7237
+	N39.1488, W89.9186
+	N38.9759, W89.9609
+	N38.8053, W89.9304
+	N38.73920, W89.91860
+	end, 231
+
+[approach57]
+runway = 14L_MA, rev
+beacon = BUUDD, N39.2464, W89.7237
+route1 =
+	149, BUUDD3, Bud Three
+	N39.2464, W89.7237
+	N39.1488, W89.9186
+	N38.9759, W89.9609
+	N38.4837, W89.5626
+	end, 228
+	
+[approach58]
+runway = 14R_AFB
+beacon = BUUDD, N39.2464, W89.7237
+route1 =
+	149, BUUDD3, Bud Three
+	N39.2464, W89.7237
+	N39.1488, W89.9186
+	N38.9759, W89.9609
+	N38.8053, W89.9304
+	N38.73920, W89.91860
+	end, 231
+
+[approach59]
+runway = 14R_AFB, rev
+beacon = BUUDD, N39.2464, W89.7237
+route1 =
+	149, BUUDD3, Bud Three
+	N39.2464, W89.7237
+	N39.1488, W89.9186
+	N38.9759, W89.9609
+	N38.4837, W89.5626
+	end, 228	
+
+[approach60]
+runway = 14L_MA
+beacon = EIKEL, N38.441, W89.3671
+route1 =
+	149, ENL2, Centralia Two
+	N38.441, W89.3671
+	N38.4837, W89.5626
+	N38.73920, W89.91860
+	end, 228
+
+[approach61]
+runway = 14L_MA, rev
+beacon = EIKEL, N38.441, W89.3671
+route1 =
+	149, ENL2, Centralia Two
+	N38.441, W89.3671
+	N38.4837, W89.5626
+	end, 225
+	
+[approach62]
+runway = 14R_AFB
+beacon = EIKEL, N38.441, W89.3671
+route1 =
+	149, ENL2, Centralia Two
+	N38.441, W89.3671
+	N38.4837, W89.5626
+	N38.73920, W89.91860
+	end, 228
+
+[approach63]
+runway = 14R_AFB, rev
+beacon = EIKEL, N38.441, W89.3671
+route1 =
+	149, ENL2, Centralia Two
+	N38.441, W89.3671
+	N38.4837, W89.5626
+	end, 225
+	
+[approach64]
+runway = 14L_MA
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.3576, W90.1973
+	end, 084	
+
+[approach65]
+runway = 14L_MA, rev
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.3576, W90.1973
+	end, 084
+	
+[approach66]
+runway = 14R_AFB
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.3576, W90.1973
+	end, 084	
+
+[approach67]
+runway = 14R_AFB, rev
+beacon = DELMA, N38.1372, W90.9123
+route1 =
+	149, DELMA4, Delma Four
+	N38.1372, W90.9123
+	N38.3036, W90.8142
+	N38.3576, W90.1973
+	end, 084	
+		
+[approach68]
+runway = 14L_MA
+beacon = DIXEE, N38.5805, W91.2083
+route1 =
+	149, DIXEE3, Dixee Three
+	N38.5805, W91.2083
+	N38.5215, W90.9359
+	N38.3576, W90.1973
+	end, 084
+
+[approach69]
+runway = 14L_MA, rev
+beacon = DIXEE, N38.5805, W91.2083
+route1 =
+	149, DIXEE3, Dixee Three
+	N38.5805, W91.2083
+	N38.5215, W90.9359
+	N38.3576, W90.1973
+	end, 084		
+	
+[approach70]
+runway = 14R_AFB
+beacon = DIXEE, N38.5805, W91.2083
+route1 =
+	149, DIXEE3, Dixee Three
+	N38.5805, W91.2083
+	N38.5215, W90.9359
+	N38.3576, W90.1973
+	end, 084
+
+[approach71]
+runway = 14R_AFB, rev
+beacon = DIXEE, N38.5805, W91.2083
+route1 =
+	149, DIXEE3, Dixee Three
+	N38.5805, W91.2083
+	N38.5215, W90.9359
+	N38.3576, W90.1973
+	end, 084	
+	
+[approach72]
+runway = 14L_MA
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	N38.8053, W89.9304
+	N38.73920, W89.91860
+	end, 232
+
+[approach73]
+runway = 14L_MA, rev
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	N38.8053, W89.9304
+	N38.4837, W89.5626
+	end, 227
+
+[approach74]
+runway = 14R_AFB
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	N38.8053, W89.9304
+	N38.73920, W89.91860
+	end, 232
+
+[approach75]
+runway = 14R_AFB, rev
+beacon = FARMR, N39.4091, W90.7398
+route1 =
+	149, FARMR3, Farmer Three
+	N39.4091, W90.7398
+	N39.1337, W90.2607
+	N38.8053, W89.9304
+	N38.4837, W89.5626
+	end, 227		
 	
 #Runway 29 Departures (BERYY5, BGOOD5, BRAKK5, CHUUC5, DRUSE5, JHANY6)
 [departure1]
-runway = rwy2, rev			
+runway = 11_SL, rev			
 route1 = 
 	BERYY5, berry five
-	N38.7933333, W90.478, 2500
+	N38.7933333, W90.478, 5000
 	N38.76, W90.5416667
 	N38.1706667, W90.7756667
 route2 = 
 	BGOOD5, be good five
-	N38.7933333, W90.478, 2500
+	N38.7933333, W90.478, 5000
 	N38.76, W90.5416667
 	N38.6338333, W90.6391667
 	N38.4398333, W91.1173333
 route3 = 
 	BRAKK5, brakk five
-	N38.7933333, W90.478, 2500
-	N38.968, W91.1625
+	N38.7933333, W90.478, 5000
+	N38.968, W91.1625	
 route4 = 
 	CHUUC5, chuck five
-	N38.7933333, W90.478, 2500
+	N38.7933333, W90.478, 5000
 	N38.76, W90.5416667
 	N38.6878333, W90.5471667
 	N38.08916667, W90.5676667
 route5 = 
 	DRUSE5, drews five
-	N38.7933333, W90.478, 2500
+	N38.7933333, W90.478, 5000
 	N38.76, W90.5416667
 	N38.6878333, W90.5471667
 	N38.5375, W90.4131667	
 	N38.3293333, W89.7053333	
 route6 = 
 	JAHNY6, jah knee six
-	N38.7933333, W90.478, 2500
+	N38.7933333, W90.478, 5000
 	N38.76, W90.5416667
 	N38.6338333, W90.6391667
 	N38.296, W90.983
 	
 #Runway 30R Departures (EEMOS5, JHART7, KSHEE5, NATCA5,ROTRY5, TEDDD5, WHRLI7)
 [departure2]
-runway = rwy3, rev			
+runway = 12L_SL, rev			
 route1 = 
 	EEMOS5, E Moes five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.9783333, W90.4216667
 	N38.397, W90.4335
 route2 = 
 	JHART7, J Heart seven
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.88130526137863, W90.38953399102355
 	N38.90113310524501, W90.31304168144842
 	N38.88996392247769, W90.22885894218531
 	N38.79246639570035, W89.51083373462046
 route3 =
 	KSHEE5, Cashi five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.9783333, W90.4216667
 	N39.35914817939710, W90.54952239435397
 route4 =
 	NATCA5, Natca five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.88130526137863, W90.38953399102355
 	N39.33466918762890, W89.99800872244417
 route5 =
 	ROTRY5, Rotary five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N39.37714352849269, W90.21993255058317
 route6 =
 	TEDDD5, Ted five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.88130526137863, W90.38953399102355
 	N38.90113310524501, W90.31304168144842
 	N38.88996392247769, W90.22885894218531
 	N38.53661867002354, W89.57510375415576
 route7 =
 	WHRLI7, Whirly seven
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N39.10097200504934, W91.07494353696526	
 	
 #Runway 30L Departures (EEMOS5, JHART7, KSHEE5, NATCA5, ROTRY5, TEDDD5, WHRLI7) 
 [departure3]
-runway = rwy4, rev			
+runway = 12R_SL, rev			
 route1 = 
 	EEMOS5, E Moes five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.9783333, W90.4216667
 	N39.397, W90.4335
 route2 = 
 	JHART7, J Heart seven
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.88130526137863, W90.38953399102355
 	N38.90113310524501, W90.31304168144842
 	N38.88996392247769, W90.22885894218531
 	N38.79246639570035, W89.51083373462046
 route3 =
 	KSHEE5, Cashi five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.9783333, W90.4216667
 	N39.35914817939710, W90.54952239435397
 route4 =
 	NATCA5, Natca five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.88130526137863, W90.38953399102355
 	N39.33466918762890, W89.99800872244417
 route5 =
 	ROTRY5, Rotary five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N39.37714352849269, W90.21993255058317
 route6 =
 	TEDDD5, Ted five
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N38.88130526137863, W90.38953399102355
 	N38.90113310524501, W90.31304168144842
 	N38.88996392247769, W90.22885894218531
 	N38.53661867002354, W89.57510375415576
 route7 =
 	WHRLI7, Whirly seven
-	N38.8281667, W90.4175, 2500
+	N38.8281667, W90.4175, 5000
 	N39.10097200504934, W91.07494353696526	
 	
 #Runway 11 Departures (BERYY5, BGOOD5, BRAKK5, CHUUC5, DRUSE5, JHANY6)
 [departure4]
-runway = rwy2			
+runway = 11_SL			
 route1 = 
 	BERYY5, berry five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.17067963033370, W90.77618407649717
 route2 = 
 	BGOOD5, be good five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.60495913815178, W90.35616301934176
 	N38.60495913815178, W90.35616301934176
 route3 = 
 	BRAKK5, brakk five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.60495913815178, W90.35616301934176
 	N38.62126963346221, W90.48813628595165
@@ -3190,24 +3960,24 @@ route3 =
 	N38.96805792033977, W91.16242217466608
 route4 = 
 	CHUUC5, chuck five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.54553399537029, W90.38740538994921
 	N38.08912088835071, W90.56764983576137
 route5 = 
 	DRUSE5, drews five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.32932225826974, W89.70536040699601
 route6 = 
 	JAHNY6, jah knee six
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.60495913815178, W90.35616301934176
 	N38.29602633406791, W90.98307036801414
 
 route7 =
 	WHRLI7, Whirly seven
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.60495913815178, W90.35616301934176
 	N38.62126963346221, W90.48813628595165
@@ -3216,95 +3986,95 @@ route7 =
 	
 #Runway 12L Departures (EEMOS5, JHART7, KSHEE5, NATCA5, ROTRY5, TEDDD5, WHRLI7) 
 [departure5]
-runway = rwy3
+runway = 12L_SL
 route1 = 
 	EEMOS5, E Moes five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.75975906298794, W90.21093749443027
 	N38.83478699516545, W90.21203612724283
 	N39.39693836223291, W90.43354796807712
 route2 = 
 	JHART7, J Heart seven
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.72709030072829, W90.19356536308150
 	N38.79246639570035, W89.51083373462046
 route3 =
 	KSHEE5, Cashi five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.75975906298794, W90.21093749443027
 	N38.83478699516545, W90.21203612724283
 	N39.35914817939710, W90.54952239435397
 route4 =
 	NATCA5, Natca five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.75975906298794, W90.21093749443027
 	N39.33466918762890, W89.99800872244417	
 route5 =
 	ROTRY5, Rotary five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.75975906298794, W90.21093749443027
 	N38.83478699516545, W90.21203612724283
 	N39.37714352849269, W90.21993255058317
 route6 =
 	TEDDD5, Ted five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.72709030072829, W90.19356536308150
 	N38.53661867002354, W89.57510375415576
 
 #Runway 12R Departures (EEMOS5, JHART7, KSHEE5, NATCA5, ROTRY5, TEDDD5, WHRLI7) 
 [departure6]
-runway = rwy4
+runway = 12R_SL
 route1 = 
 	EEMOS5, E Moes five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.75975906298794, W90.21093749443027
 	N38.83478699516545, W90.21203612724283
 	N39.39693836223291, W90.43354796807712
 route2 = 
 	JHART7, J Heart seven
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.72709030072829, W90.19356536308150
 	N38.79246639570035, W89.51083373462046
 route3 =
 	KSHEE5, Cashi five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.75975906298794, W90.21093749443027
 	N38.83478699516545, W90.21203612724283
 	N39.35914817939710, W90.54952239435397
 route4 =
 	NATCA5, Natca five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.75975906298794, W90.21093749443027
 	N39.33466918762890, W89.99800872244417	
 route5 =
 	ROTRY5, Rotary five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.75975906298794, W90.21093749443027
 	N38.83478699516545, W90.21203612724283
 	N39.37714352849269, W90.21993255058317
 route6 =
 	TEDDD5, Ted five
-	N38.72757240748782, W90.25989531914037, 2500
+	N38.72757240748782, W90.25989531914037, 5000
 	N38.72709030072829, W90.19356536308150
 	N38.53661867002354, W89.57510375415576
 
 #Runway 12R Departures (Landing 06)(BERYY5, BGOOD5, BRAKK5, CHUUC5, DRUSE5, JHANY6)
 [departure7]
-runway = rwy5			
+runway = 12RB_SL			
 route1 = 
 	BERYY5, berry five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.17067963033370, W90.77618407649717
 route2 = 
 	BGOOD5, be good five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.60495913815178, W90.35616301934176
 	N38.60495913815178, W90.35616301934176
 route3 = 
 	BRAKK5, brakk five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.60495913815178, W90.35616301934176
 	N38.62126963346221, W90.48813628595165
@@ -3312,57 +4082,164 @@ route3 =
 	N38.96805792033977, W91.16242217466608
 route4 = 
 	CHUUC5, chuck five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.54553399537029, W90.38740538994921
 	N38.08912088835071, W90.56764983576137
 route5 = 
 	DRUSE5, drews five
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.32932225826974, W89.70536040699601
 route6 = 
 	JAHNY6, jah knee six
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.60495913815178, W90.35616301934176
 	N38.29602633406791, W90.98307036801414
-
 route7 =
 	WHRLI7, Whirly seven
-	N38.70233778433196, W90.29306029716982, 2500
+	N38.70233778433196, W90.29306029716982, 5000
 	N38.63580645505930, W90.29299163261904
 	N38.60495913815178, W90.35616301934176
 	N38.62126963346221, W90.48813628595165
 	N38.68411617197945, W90.62285613459298
 	N39.10097200504934, W91.07494353696526
-	
+route8 = 
+	EEMOS5, E Moes five
+	N38.72757240748782, W90.25989531914037, 5000
+	N38.75975906298794, W90.21093749443027
+	N38.83478699516545, W90.21203612724283
+	N39.39693836223291, W90.43354796807712
+route9 = 
+	JHART7, J Heart seven
+	N38.72757240748782, W90.25989531914037, 5000
+	N38.72709030072829, W90.19356536308150
+	N38.79246639570035, W89.51083373462046
+route10 =
+	KSHEE5, Cashi five
+	N38.72757240748782, W90.25989531914037, 5000
+	N38.75975906298794, W90.21093749443027
+	N38.83478699516545, W90.21203612724283
+	N39.35914817939710, W90.54952239435397
+route11 =
+	NATCA5, Natca five
+	N38.72757240748782, W90.25989531914037, 5000
+	N38.75975906298794, W90.21093749443027
+	N39.33466918762890, W89.99800872244417	
+route12 =
+	ROTRY5, Rotary five
+	N38.72757240748782, W90.25989531914037, 5000
+	N38.75975906298794, W90.21093749443027
+	N38.83478699516545, W90.21203612724283
+	N39.37714352849269, W90.21993255058317
+route13 =
+	TEDDD5, Ted five
+	N38.72757240748782, W90.25989531914037, 5000
+	N38.72709030072829, W90.19356536308150
+	N38.53661867002354, W89.57510375415576
 
 [configurations]
-#Land ILS 29,30R/ Dep 29,30L
+#East Winds
 config1 =
-	0, rwy2, startlandrev, 302
-	0, rwy3, landrev, 302
-	0, rwy4, startrev, 302
-#Land ILS 11,12R/ Dep 11,12L	
-config2 =
-	0, rwy2, startland, 122
-	0, rwy3, land, 122
-	0, rwy4, start, 122
-#The 6/24 configs may eventually be brought down to just one takeoff runway each.
-#Land ILS 24/ Dep 29,30L	
-config3 =
-	0, rwy1, landrev, 63
-	0, rwy2, startrev, 302
-	0, rwy4, startrev, 302
-#Land ILS 06/ Dep 12L,12R	
-config4 =
-	0, rwy1, land, 243
-	0, rwy3, start, 122
-	0, rwy5, start, 122
+	0, 11_SL, startland, 122
+	0, 12L_SL, land, 122
+	0, 12R_SL, start, 122
+	0, 11_SLP, startland, 212, nosid
+	0, 12L_SLP, land, 122, nosid
+	0, 12R_SLP, start, 032, nosid
+	10, 08R_SP, startland, 078, nosid
+	10, 08R_SPP, startland, 078, nosid
+	12, 12R_DT, startland, 122, nosid
+	12, 12R_DTP, startland, 122, nosid
+	12, 14R_AFB, startland, 137, nosid
+	14, 14L_MA, startland, 137, nosid
+	14, 17_RG, land
+	14, 11_RG, start, 113, nosid
+	14, 17_RGP, land, 078, nosid
+	14, 11_RGP, start, 113, nosid
 
+#North Winds Winds
+config2 =
+	0, 06_SL, land, 122
+	0, 12RB_SL, start, 122
+	0, 06_SLP, startland, 066, nosid
+	10, 08R_SP, startland, 348, nosid
+	10, 08R_SPP, startland, 348, nosid
+	12, 12R_DT, startland, 122, nosid
+	12, 12R_DTP, startland, 122, nosid
+	12, 14R_AFB, startland, 137, nosid
+	14, 14L_MA, startland, 137, nosid
+	14, 17_RG, land
+	14, 11_RG, start, 113, nosid
+	14, 17_RGP, land, 078, nosid
+	14, 11_RGP, start, 113, nosid	
+	
+#West Winds
+config3 =
+	0, 11_SL, startlandrev, 302
+	0, 12L_SL, landrev, 302
+	0, 12R_SL, startrev, 302
+	0, 11_SLP, startlandrev, 212, nosid
+	0, 12L_SLP, landrev, 302, nosid
+	0, 12R_SLP, startrev, 032, nosid
+	10, 08R_SP, startlandrev, 258, nosid
+	10, 08R_SPP, startlandrev, 258, nosid
+	12, 12R_DT, startlandrev, 302, nosid
+	12, 12R_DTP, startlandrev, 302, nosid
+	12, 14R_AFB, startlandrev, 317, nosid
+	14, 14L_MA, startlandrev, 317, nosid	
+	14, 11_RG, startlandrev, 293, nosid
+	14, 11_RGP, startlandrev, 293, nosid
+
+#South Winds
+config4 =
+	0, 11_SL, startrev, 302
+	0, 06_SL, landrev
+	0, 12R_SL, startrev, 302
+	0, 06_SLP, startlandrev, 246, nosid
+	10, 08R_SP, startlandrev, 258, nosid
+	10, 08R_SPP, startlandrev, 258, nosid
+	12, 12R_DT, startlandrev, 302, nosid
+	12, 12R_DTP, startlandrev, 302, nosid
+	12, 14R_AFB, startlandrev, 317, nosid
+	14, 14L_MA, startlandrev, 317, nosid	
+	14, 11_RG, startlandrev, 293, nosid
+	14, 11_RGP, startlandrev, 293, nosid
+	
 [planetypes]	
 types = 
-	c208, 6, 110, 190, 2.8, 3.2, 800, 1200, 120, 75, 1.2, 1.3, caravan
-	c402, 6, 120, 200, 2.8, 3.2, 800, 1200, 110, 150, 1.2, 1.3, cessna
-	p212, 6, 90, 170, 2.8, 3.2, 800, 1200, 80, 70, 1.2, 1.3
-
+	c152, 6, 60, 100, 2.8, 3.2, 500, 500, 55, 75, 1.2, 1.3, cessna
+	c172, 6, 70, 120, 2.8, 3.2, 400, 500, 65, 85, 1.2, 1.3, skyhawk
+	c182, 6, 80, 140, 2.8, 3.2, 500, 500, 65, 85, 1.2, 1.3, skylane
+	c208, 6, 110, 190, 2.8, 3.2, 800, 1200, 75, 120, 1.2, 1.3, caravan
+	c402, 6, 120, 199, 2.8, 3.2, 800, 1200, 110, 150, 1.2, 1.3, cessna
+	be36, 6, 95, 160, 2.8, 3.2, 500, 500, 75, 120, 1.2, 1.3, bonanza
+	be55, 6, 125, 180, 2.8, 3.2, 800, 1500, 95, 160, 1.2, 1.3, baron
+	m20p, 6, 100, 160, 2.8, 3.2, 500, 500, 80, 125, 1.2, 1.3, mooney
+	p28a, 6, 70, 110, 2.8, 3.2, 500, 500, 65, 110, 1.2, 1.3, cherokee
+	p28b, 6, 100, 140, 2.8, 3.2, 500, 500, 70, 120, 1.2, 1.3, cherokee
+	pa34, 6, 110, 160, 2.8, 3.2, 500, 800, 80, 140, 1.2, 1.3, seneca
+	sr20, 6, 80, 160, 2.8, 3.2, 1000, 1000, 75, 90, 1.2, 1.3, cirrus	
+	sr22, 6, 80, 180, 2.8, 3.2, 1000, 1000, 75, 90, 1.2, 1.3, cirrus	
+	da20, 6, 80, 130, 2.8, 3.2, 550, 800, 80, 120, 1.2, 1.3, diamond
+	da40, 6, 80, 130, 2.8, 3.2, 550, 800, 80, 120, 1.2, 1.3, diamond
+	p212, 6, 90, 190, 2.8, 3.2, 800, 1200, 75, 120, 1.2, 1.3
+	be40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	c17, 2, 160, 300, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, u s air force
+	b703, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3, u s air force
+	k35r, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3, u s air force
+	k35e, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3, u s air force
+	c135, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3, u s air force
+	ke3, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3, u s air force
+	e3cf, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3, u s air force
+	e3tf, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3, u s air force
+	e767, 3, 160, 300, 2.3, 2.7, 1000, 1440, 135, 152, 1.1, 1.3, u s air force
+	e737, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, u s air force
+	p8, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, u s air force
+	p3, 4, 160, 300, 2.9, 3.2, 1440, 1560, 135, 144, 1.1, 1.3, u s air force
+	e6, 3, 160, 300, 2.3, 3.7, 1000, 1440, 127, 134, 1.1, 1.3, u s air force
+	b52, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 165, 1.1, 1.3, u s air force
+	c130, 4, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3, u s air force
+	c30j, 4, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3, u s air force
+	f16, 6, 170, 400, 3.2, 5.0, 2000, 10000, 150, 200, 1.8, 2.3, u s air force
+	a124, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov
