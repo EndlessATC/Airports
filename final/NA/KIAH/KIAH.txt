@@ -92,7 +92,7 @@ beacons =
 	SHUUG, N29.5563, W95.2423, 0, SHUG
 	VILLI, N29.6293, W95.3873, 0, villi
 # KHOU WAPPL SIX
-	WLMOR, N30.1532, W94.6252, 0, wilmor
+	WAPPL, N30.13.99, W94.19.89, 0
 
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
@@ -166,12 +166,12 @@ runways =
 climbaltitude = 4000
 
 entrypoints = 
-	40, ZEEKK, 20000
-	50, DOOBI, 20000
-	110, LINKK, 20000
-	120, BAYYY, 20000
-	250, GMANN, 20000
-	310, SUUNR, 20000	
+	40, ZEEKK, 17000
+	50, DOOBI, 17000
+	110, LINKK, 16000
+	120, BAYYY, 16000
+	250, GMANN, 19000
+	310, SUUNR, 16000	
 	320, MPORT, 20000
 
 airlines = 
@@ -247,11 +247,11 @@ traffic = 10
 climbaltitude = 5000
 
 entrypoints=
-	60, WLMOR, 20000
-	120, BAYYY, 20000
-	130, TKNIQ, 20000
+	60, WAPPL, 27000
+	120, BAYYY, 24000
+	130, TKNIQ, 15000
 	240, BELLR, 16000
-	300, KIDDZ, 20000
+	300, KIDDZ, 16000
 
 airlines = 
 # Commerical Airliners
@@ -1590,9 +1590,11 @@ route1 =
 
 # WAPPL SIX TO KHOU13R
 runway = rwyKHOU13R
-beacon = WLMOR
+beacon = WAPPL
 route1 = 
 	250, WAPPL6, WAPPLE 6 PRITCH
+# WAPPL
+	N30.13.99, W94.19.89, 22000, 280
 # WLMOR
 	N30.1532, W94.6252, 15000
 # HUDZY
@@ -1714,9 +1716,11 @@ route1 =
 
 # WAPPL SIX TO 4
 runway = rwyKHOU22, rev
-beacon = WLMOR
+beacon = WAPPL
 route1 = 
 	250, WAPPL6, WAPPLE 6 SHUG
+# WAPPL
+	N30.13.99, W94.19.89, 22000, 280
 # WLMOR
 	N30.1532, W94.6252, 15000
 # HUDZY
