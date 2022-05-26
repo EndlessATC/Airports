@@ -5,7 +5,7 @@
 [airspace]
 ##############################################################
 
-radius = 60
+radius = 70
 zoom = 4 
 elevation = 97
 floor = 1500
@@ -108,38 +108,6 @@ beacons =
 #	BLING, N30.0315, W94.0190, 0, BLING
 #	SPINY, N29.8540, W94.0447, 0, SPINY
 #	SBI, N29.6877, W94.0387, 0, SBI
-
-boundary =
-# WEST OF KIDDZ
-	-59.56, 17.23
-# NORTH OF SUUNR
-	-44.04, 32.05
-# SOUTHWEST OF ZEEKK
-	30.39, 34.45
-# NORTHWEST OF ZEEKK
-	34.70, 45.91 
-# NORTHEAST OF ZEEKK
-	41.70, 45.35
-# EAST OF DOOBI
-	49.45, 31.75
-# EASt OF WLMOR
-	43.31, 25.23
-# NORTH OF LINKK
-	51.10, -11.59 
-# EAST OF LINKK
-	59.16, -16.83 
-# SOUTH OF TKNIQ
-	45.00, -44.04 
-# SOUTHEAST OF VUH
-	30.74, -40.62 
-# SOUTHEAST OF BELLR
-	-32.45, -38.70 
-# SOUTH OF BELLR
-	-42.83, -42.83 
-# WEST OF BELLR
-	-49.99, -34.37 
-# SOUTH OF TEJAS
-	-39.00, -19.25 
 
 handoff = 
 	0, Houston Center, Houston Center, 123.725
