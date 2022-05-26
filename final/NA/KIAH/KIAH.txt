@@ -7,7 +7,7 @@
 
 radius = 70
 zoom = 4 
-elevation = 97
+elevation = 0
 floor = 1500
 descendaltitude = 5000
 ceiling = 15000
@@ -235,7 +235,7 @@ airlines =
 [airport2]
 ##############################################################
 
-name = Houston Hobby
+name = Houston Hobby, Hobby
 code = OU
 runways =
 	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44, 0, 0, 0, 0, 118.7 
@@ -272,7 +272,7 @@ airlines =
 [airport3]
 ##############################################################
 
-name = David Wayne Hooks Memorial
+name = David Wayne Hooks Memorial, Hooks
 code = WH
 
 runways = 
@@ -283,7 +283,7 @@ runways =
 [airport4]
 ##############################################################
 
-name = Ellington
+name = Ellington, Ellington
 code = FD
 
 runways =
@@ -295,7 +295,7 @@ runways =
 [airport5]
 ##############################################################
 
-name = Houston Executive
+name = Houston Executive, Executive
 code = ME
 
 runways =
@@ -305,11 +305,22 @@ runways =
 [airport6]
 ##############################################################
 
-name = Sugar Land Regional
+name = Sugar Land Regional, Sugar Land
 code = GR
 
 runways =
 	rwyKSGR17, 17, N29.37.59.4, W95.39.27.0, 175, 8000, 380, 0, 81.1, 3, 175, 3, 355, 0, 0, 0, 0, 118.65
+
+##############################################################
+[airport7]
+##############################################################
+
+name = Scholes International, Scholes 
+code = LS
+
+runways =
+	rwyKGLS18, 18, N29.16.24.6, W94.51.32.4, 181, 6001, 0, 0, 5.6, 3, 181, 3, 320, 0, 0, 0, 0, 120.575
+	rwyKGLS14, 14, N29.16.18.0, W94.52.03.6, 140, 6000, 0, 0, 5.3, 3, 140, 3, 320, 0, 0, 0, 0, 120.575
 
 ##############################################################	
 [configurations]
