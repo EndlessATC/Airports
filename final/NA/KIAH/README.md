@@ -12,12 +12,15 @@ Update file to include changes to Endless ATC Version 5.0.3 and add class D airp
 ### Airport 1 George Bush Intercontinental Houston Airport
 - Added starting altitude to entry points
 - Added tower frequencies
-- Updated properties to matcch 5.0.3
-
-### Airport 2 Hobby
+- Updated properties to match 5.0.3
 
 ### STARs
 - Extended DRLLR approach start
+
+### Airport 2 Hobby
+- Added starting altitude to entry points
+- Added tower frequencies
+- Updated properties to match 5.0.3
 
 ## Version 2.2
 ### Beacons
