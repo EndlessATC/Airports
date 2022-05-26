@@ -113,10 +113,13 @@ beacons =
 # KCXO / KDWH WHAEL THREE
 #	WHAEL, N29.39.31.8, W96.30.25.8
 	COWZZ, N30.04.22.2, W96.12.46.2
-#	TNV, N30.17.18, W96.03.29.4
+	TNV, N30.17.18, W96.03.29.4, 118, NAVASOTA
 
 # KCXO ILS 14 IAF and Missed Approach
 	ALIBI, N30.4598, W95.4988, 140, ALIBI
+
+# KDWH ILS 17R
+	TUKII, N30.17.23.4, W95.35.10.8,0, TWO KEY
 
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
@@ -1626,10 +1629,9 @@ beacon = JABBS
 route1 = 
 	049, ILS13R, I L S 1 3 R JABS 
 # JABBS
-	N29.8067, W95.4705, 2000, 210
+	N29.8067, W95.4705, 0, 210
 # INTERCEPT ADJUSTED TO FIT THE SIMULATION
-	6.5, 2000
-
+	13, 4000
 
 ##############################################################
 [approach2003]
@@ -2082,11 +2084,11 @@ route1 =
 runway = rwyKCXO14
 beacon = ALIBI
 route1 = 
-	024, ILS14, I L S 14 ALIBI
+	024, ILS14, I L S 1 4 ALIBI
 # ALIBI
-	N30.4598, W95.4988, 2000, 210
+	N30.4598, W95.4988
 # ILS
-	6.5
+	6.5, 2000
 
 ##############################################################
 [approach4101]
@@ -2165,6 +2167,20 @@ route1 =
 	N30.17.18, W96.03.29.4
 # END
 	END, 70
+
+##############################################################
+[approach4001]
+##############################################################
+
+# ILS to DWH 17R
+runway = rwyKDWH17R
+beacon = TUKII
+route1 = 
+	024, ILS17R, I L S 1 7 R TWO KEY
+# TUKII
+	N30.17.23.4, W95.35.10.8
+# ILS
+	10, 3000
 
 ##############################################################
 [planetypes]
