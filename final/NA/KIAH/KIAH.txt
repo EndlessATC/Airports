@@ -115,6 +115,9 @@ beacons =
 	COWZZ, N30.04.22.2, W96.12.46.2
 #	TNV, N30.17.18, W96.03.29.4
 
+# KCXO ILS 14 IAF and Missed Approach
+	ALIBI, N30.4598, W95.4988, 140, ALIBI
+
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
 #	MUSIQ, N30.5533, W94.8927, 0, MUSIQ
@@ -2064,6 +2067,20 @@ route1 =
 	N30.17.18, W96.03.29.4
 # END
 	END, 70
+
+##############################################################
+[approach3001]
+##############################################################
+
+# ILS to CXO 14
+runway = rwyKCXO14
+beacon = ALIBI
+route1 = 
+	024, ILS14, I L S 14 ALIBI
+# ALIBI
+	N30.4598, W95.4988, 2000, 210
+# ILS
+	6.5
 
 ##############################################################
 [approach4101]
