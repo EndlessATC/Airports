@@ -62,7 +62,6 @@ beacons =
 
 # KIAH SOULL ONE ARRIVAL
 	BAYYY, N29.3788, W94.3710, 0, BAY
-	
 
 # KIAH TEJAS FOUR ARRIVAL FEEDS INTO DRLLR
 	GMANN, N29.32.51.0, W96.12.00, 0, G Man
@@ -93,6 +92,11 @@ beacons =
 	VILLI, N29.6293, W95.3873, 0, villi
 # KHOU WAPPL SIX
 	WAPPL, N30.13.59.4, W94.19.53.4, 0
+
+# KCXO / KDWH HUDZY FOUR
+	HUDZY, N30.06.12.6, W94.48.31.8
+	CLWSN, N30.04.25.2, W94.55.07.8
+	SWWAA, N30.00.31.2, W95.09.25.2
 
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
@@ -1953,6 +1957,46 @@ route1 =
 	N29.5403, W95.2688, 6000, 210
 # END
 	END, 222
+
+##############################################################
+[approach3101]
+##############################################################
+
+# HUDZY FOUR to CXO 14
+runway = rwyKCXO14
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4, 15000
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000, 280
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
+
+##############################################################
+[approach3101]
+##############################################################
+
+# HUDZY FOUR to DWH 14
+runway = rwyKDWH17R
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4, 15000
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000, 280
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
 
 ##############################################################
 [planetypes]
