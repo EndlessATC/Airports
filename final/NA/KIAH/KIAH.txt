@@ -98,6 +98,11 @@ beacons =
 #	CLWSN, N30.04.25.2, W94.55.07.8
 # 	SWWAA, N30.00.31.2, W95.09.25.2
 
+# KCXO / KDWH OHIIO FOUR STARTS at ZEEKK
+#	GESNR, 30.24.07.8, W94.42.00.0
+#	OHIIO, 30.08.17.4, W95.05.02.4
+#	PNUUT, 30.06.09.6, W95.08.07.2
+
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
 #	MUSIQ, N30.5533, W94.8927, 0, MUSIQ
@@ -286,6 +291,7 @@ runways =
 traffic = 5
 
 entrypoints=
+	40, ZEEKK, 20000
 	60, WAPPL, 20000
 
 airlines = 
@@ -309,6 +315,7 @@ runways =
 traffic = 6
 
 entrypoints=
+	40, ZEEKK, 20000
 	60, WAPPL, 20000
 
 airlines = 
@@ -1985,10 +1992,30 @@ route1 =
 	END, 190
 
 ##############################################################
+[approach3102]
+##############################################################
+
+# OHIIO FOUR to CXO 14
+runway = rwyKCXO14
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000, 280
+# GESNR
+	N30.24.07.8, W94.42.00.0, 10000
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
+
+##############################################################
 [approach4101]
 ##############################################################
 
-# HUDZY FOUR to DWH 14
+# HUDZY FOUR to DWH 17R
 runway = rwyKDWH17R
 beacon = WAPPL
 route1 = 
@@ -2003,6 +2030,26 @@ route1 =
 	N30.00.31.2, W95.09.25.2
 # END
 	END, 190
+
+##############################################################
+[approach4102]
+##############################################################
+
+# OHIIO FOUR to DWH 17R
+runway = rwyKDWH17R
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000, 280
+# GESNR
+	N30.24.07.8, W94.42.00.0, 10000
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
 
 ##############################################################
 [planetypes]
