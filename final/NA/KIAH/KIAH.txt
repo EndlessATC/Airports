@@ -238,20 +238,20 @@ airlines =
 name = Houston Hobby
 code = OU
 runways =
-	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44 
-	rwyKHOU13L, 13L, N29.6526, W95.2839, 133.9, 5148, 0, 0, 45
-	rwyKHOU13R, 13R, N29.6510, W95.2855, 134, 7599, 0, 0, 44, 3, 134, 3, 314
+	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44, 0, 0, 0, 0, 118.7 
+	rwyKHOU13L, 13L, N29.6526, W95.2839, 133.9, 5148, 0, 0, 45, 0, 0, 0, 0, 118.7
+	rwyKHOU13R, 13R, N29.6510, W95.2855, 134, 7599, 0, 0, 44, 3, 134, 3, 314, 0, 0, 0, 0, 118.7
 
-flow = 10
+traffic = 10
 
 climbaltitude = 5000
 
 entrypoints=
-	60, WLMOR
-	120, BAYYY
-	130, TKNIQ
-	240, BELLR
-	300, KIDDZ
+	60, WLMOR, 20000
+	120, BAYYY, 20000
+	130, TKNIQ, 20000
+	240, BELLR, 16000
+	300, KIDDZ, 20000
 
 airlines = 
 # Commerical Airliners
