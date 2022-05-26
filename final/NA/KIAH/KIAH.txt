@@ -51,7 +51,7 @@ beacons =
 	DOOBI, N30.4017, W94.4062, 0, DOBI
 
 # KIAH DRLLR FIVE ARRIVAL, THREE ROUTES SPLITS AT DOMNO
-	MPORT, N30.30.05, W95.52.34, 0, M Port
+	MPORT, N30.30.03, W95.52.20.4, 0, M Port
 	DOMNO, N30.0940, W95.4843, 0, domino
 
 # KIAH LINKK ONE ARRIVAL TO 27 AND 26L
@@ -65,7 +65,7 @@ beacons =
 	
 
 # KIAH TEJAS FOUR ARRIVAL FEEDS INTO DRLLR
-	GMANN, N29.32.85, W96.12.00, 0, G Man
+	GMANN, N29.32.51.0, W96.12.00, 0, G Man
 	HOWLN, N29.8937, W95.4658, 0, HOWLIN
 
 # KIAH ZEEKK TWO ARRIVAL
@@ -92,7 +92,7 @@ beacons =
 	SHUUG, N29.5563, W95.2423, 0, SHUG
 	VILLI, N29.6293, W95.3873, 0, villi
 # KHOU WAPPL SIX
-	WAPPL, N30.13.99, W94.19.89, 0
+	WAPPL, N30.13.59.4, W94.19.53.4, 0
 
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
@@ -276,8 +276,21 @@ name = David Wayne Hooks Memorial
 code = WH
 
 runways = 
-	rwyKDWH17R, 17R, N30.04.40, W95.33.29, 173, 7009, 1007, 0, 150, 3, 173, 3, 373, 0, 0, 0, 0, 118.4
-	rwyKDWH17L, 17L, N30.03.76, W95.33.13, 173, 3500, 0, 208, 149.9, 3, 353, 0, 0, 0, 0, 118.4
+	rwyKDWH17R, 17R, N30.04.24.00, W95.33.17.4, 173, 7009, 1007, 0, 150, 3, 173, 3, 373, 0, 0, 0, 0, 118.4
+	rwyKDWH17L, 17L, N30.03.45.6, W95.33.07.8, 173, 3500, 0, 208, 149.9, 3, 353, 0, 0, 0, 0, 118.4
+
+##############################################################
+[airport4]
+##############################################################
+
+name = Ellington
+code = FD
+
+runways =
+	rwyKEFD17R, 17R, N29.37.06.00, W95.09.51.6, 179, 9001, 0, 0, 31.9, 3, 179, 3, 359, 0, 0, 0, 0, 126.05
+	rwyKEFD17L, 17L, N29.37.06.6, W95.09.22.20, 179, 4609, 0, 0, 31, 3, 179, 3, 359, 0, 0, 0, 0, 126.05
+	rwyKEFD22, 22, N29.36.50.40, W95.08.43.8, 224, 8001, 0, 0, 30.3, 3, 224, 3, 44, 0, 0, 0, 0, 126.05
+
 
 ##############################################################	
 [configurations]
