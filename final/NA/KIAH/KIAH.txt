@@ -305,6 +305,8 @@ traffic = 5
 entrypoints=
 	40, ZEEKK, 20000
 	60, WAPPL, 20000
+	240, COWZZ, 7000
+	320, BAATS, 5000
 
 airlines = 
 # Private
@@ -329,6 +331,8 @@ traffic = 6
 entrypoints=
 	40, ZEEKK, 20000
 	60, WAPPL, 20000
+	240, COWZZ, 5000
+	320, BAATS, 7000
 
 airlines = 
 # Private
