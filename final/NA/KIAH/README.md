@@ -7,10 +7,15 @@ Update file to include changes to Endless ATC Version 5.0.3 and add class D airp
 - Set minimal altitude for arrivals to 5000 feet
 - Set above altitude to 10001 feet to clear the Bravo airspace
 - Added and removed lines to match example for 5.0.3
+- Added center handoff frequencies
+
+### Airport 1 George Bush Intercontinental Houston Airport
+- Added starting altitude to entry points
+- Added tower frequencies
 
 ## Version 2.2
 ### Beacons
-- Added the Freddy beacon for th BAYYY 4 arrival
+- Added the Freddy beacon for the BAYYY 4 arrival
 
 ### Approaches
 - Changed runways to change APP sequence for TEJAS arrival selection, defaults to 27

@@ -141,6 +141,14 @@ boundary =
 # SOUTH OF TEJAS
 	-39.00, -19.25 
 
+handoff = 
+	0, Houston Center, Houston Center, 123.725
+	45, Houston Center, Houston Center, 132.775
+	90, Houston Center, Houston Center, 123.825
+	135, Houston Center, Houston Center, 132.65
+	225, Houston Center, Houston Center, 124.725
+	270, Houston Center, Houston Center, 126.425
+
 line1 =
 	N29.13633, W95.08965
 	N29.14590, W95.03970
@@ -181,22 +189,22 @@ name = George Bush Intercontinental Houston Airport, Houston
 code = KIAH
 
 runways =
-	rwyKIAH26R, 26R, N30.0072, W95.3303, 270, 9000, 0, 0, 94, 3, 270, 3, 90
-	rwyKIAH26L, 26L, N29.9935, W95.3253, 270, 9402, 0, 0, 93, 3, 270, 3, 90
-	rwyKIAH27, 27, N29.9777, W95.3025, 270, 10000, 0, 0, 84, 3, 270, 3, 90
+	rwyKIAH26R, 26R, N30.0072, W95.3303, 270, 9000, 0, 0, 94, 3, 270, 3, 90, 0, 0, 0, 0, 120.725
+	rwyKIAH26L, 26L, N29.9935, W95.3253, 270, 9402, 0, 0, 93, 3, 270, 3, 90, 0, 0, 0, 0, 125.35
+	rwyKIAH27, 27, N29.9777, W95.3025, 270, 10000, 0, 0, 84, 3, 270, 3, 90, 0, 0, 0, 0, 135.15
 	rwyKIAH15L, 15L, N29.9878, W95.3578, 152.0, 12001, 0, 0, 95
 	rwyKIAH15R, 15R, N29.9878, W95.3613, 152.0, 9999, 0, 0, 95
 
 climbaltitude = 4000
 
 entrypoints = 
-	40, ZEEKK
-	50, DOOBI
-	110, LINKK
-	120, BAYYY
-	250, TEJAS
-	310, SUUNR	
-	320, DRLLR
+	40, ZEEKK, 20000
+	50, DOOBI, 20000
+	110, LINKK, 20000
+	120, BAYYY, 20000
+	250, TEJAS, 20000
+	310, SUUNR, 20000	
+	320, DRLLR, 20000
 
 airlines = 
 # Main Passenger Airliners
