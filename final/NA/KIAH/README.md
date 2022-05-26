@@ -1,5 +1,13 @@
 # History
 
+## Version 3.0
+Update file to include changes to Endless ATC Version 5.0.3 and add class D airports in the Houston area.
+
+### Airspace
+- Set minimal altitude for arrivals to 5000 feet
+- Set above altitude to 10001 feet to clear the Bravo airspace
+- Added and removed lines to match example for 5.0.3
+
 ## Version 2.2
 ### Beacons
 - Added the Freddy beacon for th BAYYY 4 arrival

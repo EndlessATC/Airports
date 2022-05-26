@@ -1,5 +1,5 @@
 # Version 3.0
-# David Carlos Garza locodave@gmail.com
+# https://github.com/david-garza
 
 ##############################################################
 [airspace]
@@ -9,16 +9,14 @@ radius = 60
 zoom = 4 
 elevation = 97
 floor = 1500
-descendaltitude = 15000
+descendaltitude = 5000
 ceiling = 10000
-above = 12000
+above = 10001
+transitionaltitude = 18000
 speedrestriction = 10000, 250
-localizerspeed = 30, 200
-diversionaltitude = 7000
-transition = 18000
+localizerspeed = 30, 210
 usa = true
 metric = false
-letters = 0
 separation = 3
 automatic = true
 name = houston approach, houston departure
@@ -28,8 +26,9 @@ magneticvar = 2.3
 beacons =
 # VOR IAH
 	IAH, N29.9583, W95.3465, 0, Humble V O R
+
 # KIAH 26R Approach Becons and Missed Approach Hold
-	HOOTI, N30.1153, W94.7353, 0, who tea
+	HOOTI, N30.1153, W94.7353, 0, who t
 	ZAPPO, N30.0078, W94.8195, 0, ZAP PO
 	RAIDS, N30.0078, W94.9973, 0, RAIDS
 	PEPBI, N30.2827, W95.4297, 164, PEPBI 
