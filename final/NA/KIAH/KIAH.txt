@@ -441,13 +441,13 @@ config1=
 	0, rwyKIAH15L, start
 	0, rwyKHOU22, landrev
 	0, rwyKHOU13R, start
-	0, rwyKEFD22, startlandrev
-	0, rwyKDWH17R, startland
-	0, rwyKTME18, startland
-	0, rwyKSGR17, startland
-	0, rwyKCXO14, startland
-	0, rwyKGLS14, land
-	0, rwyKGLS18, start
+#	0, rwyKEFD22, startlandrev
+	0, rwyKDWH17R, land
+#	0, rwyKTME18, startland
+#	0, rwyKSGR17, startland
+	0, rwyKCXO14, land
+#	0, rwyKGLS14, land
+#	0, rwyKGLS18, start
 
 # KHOU A13R D22
 config2= 
@@ -458,13 +458,13 @@ config2=
 	0, rwyKIAH15L, start
 	0, rwyKHOU22, start
 	0, rwyKHOU13R, land
-	0, rwyKEFD17R, startland
-	0, rwyKDWH17R, startland
-	0, rwyKTME18, startland
-	0, rwyKSGR17, startland
-	0, rwyKCXO14, startland
-	0, rwyKGLS14, land
-	0, rwyKGLS18, start
+#	0, rwyKEFD17R, startland
+	0, rwyKDWH17R, land
+#	0, rwyKTME18, startland
+#	0, rwyKSGR17, startland
+	0, rwyKCXO14, land
+#	0, rwyKGLS14, land
+#	0, rwyKGLS18, start
 
 ##############################################################
 [departure101]
