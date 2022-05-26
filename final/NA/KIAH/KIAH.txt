@@ -91,12 +91,12 @@ beacons =
 	SHUUG, N29.5563, W95.2423, 0, SHUG
 	VILLI, N29.6293, W95.3873, 0, villi
 # KHOU WAPPL SIX
-	WAPPL, N30.13.59.4, W94.19.53.4, 0
+	WAPPL, N30.13.59.4, W94.19.53.4, 0, WAPPLE
 
 # KCXO / KDWH HUDZY FOUR
-	HUDZY, N30.06.12.6, W94.48.31.8
-	CLWSN, N30.04.25.2, W94.55.07.8
-	SWWAA, N30.00.31.2, W95.09.25.2
+# 	HUDZY, N30.06.12.6, W94.48.31.8
+#	CLWSN, N30.04.25.2, W94.55.07.8
+# 	SWWAA, N30.00.31.2, W95.09.25.2
 
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
@@ -285,6 +285,9 @@ runways =
 
 traffic = 5
 
+entrypoints=
+	60, WAPPL, 20000
+
 airlines = 
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
@@ -304,6 +307,9 @@ runways =
 	rwyKDWH17L, 17L, N30.03.45.6, W95.33.07.8, 173, 3500, 0, 208, 149.9, 3, 353, 0, 0, 0, 0, 118.4
 
 traffic = 6
+
+entrypoints=
+	60, WAPPL, 20000
 
 airlines = 
 # Private
@@ -1979,7 +1985,7 @@ route1 =
 	END, 190
 
 ##############################################################
-[approach3101]
+[approach4101]
 ##############################################################
 
 # HUDZY FOUR to DWH 14
