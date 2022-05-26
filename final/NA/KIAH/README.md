@@ -13,6 +13,9 @@ Update file to include changes to Endless ATC Version 5.0.3 and add class D airp
 - Added starting altitude to entry points
 - Added tower frequencies
 
+### STARs
+- Extended DRLLR approach start
+
 ## Version 2.2
 ### Beacons
 - Added the Freddy beacon for the BAYYY 4 arrival
