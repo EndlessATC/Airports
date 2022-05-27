@@ -114,7 +114,7 @@ beacons =
 
 # KCXO / KDWH WHAEL THREE
 #	WHAEL, N29.39.31.8, W96.30.25.8
-	COWZZ, N30.04.22.2, W96.12.46.2
+	COWZZ, N30.04.22.2, W96.12.46.2, 0, COWS
 	TNV, N30.17.18, W96.03.29.4, 118, NAVASOTA
 
 # KCXO ILS 14 IAF and Missed Approach
@@ -363,6 +363,9 @@ runways =
 
 traffic = 18
 
+entrypoints=
+	310, COWZZ, 9000
+
 airlines = 
 # Commuter
 	ash, 1, crj7/crj9, air shuttle, n
@@ -446,7 +449,7 @@ config1=
 	0, rwyKIAH15L, start
 	0, rwyKHOU22, landrev
 	0, rwyKHOU13R, start
-#	0, rwyKEFD22, startlandrev
+	0, rwyKEFD22, landrev
 	0, rwyKDWH17R, startland
 #	0, rwyKTME18, startland
 #	0, rwyKSGR17, startland
@@ -464,7 +467,7 @@ config2=
 	0, rwyKIAH15L, start
 	0, rwyKHOU22, start
 	0, rwyKHOU13R, land
-#	0, rwyKEFD17R, startland
+	0, rwyKEFD17R, land
 	0, rwyKDWH17R, startland
 #	0, rwyKTME18, startland
 #	0, rwyKSGR17, startland
@@ -2589,6 +2592,38 @@ route1 =
 	N30.17.23.4, W95.35.10.8
 # ILS
 	10, 3000
+
+##############################################################
+[approach5101]
+##############################################################
+
+# BLUBL FOUR to KEFD17R
+runway = rwyKEFD17R
+beacon = COWZZ
+route1 = 
+	024, BLUBL4, Blue Bell 4
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# SNDAY
+	N29.56.25.2, 96.09.40.8, 9000
+# END
+	END, 153
+
+##############################################################
+[approach5102]
+##############################################################
+
+# BLUBL FOUR to 
+runway = rwyKEFD22
+beacon = COWZZ
+route1 = 
+	024, BLUBL4, Blue Bell 4
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# SNDAY
+	N29.56.25.2, 96.09.40.8, 9000
+# END
+	END, 153
 
 ##############################################################
 [planetypes]
