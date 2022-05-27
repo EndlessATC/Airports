@@ -315,7 +315,7 @@ traffic = 5
 entrypoints=
 	40, ZEEKK, 20000
 	60, WAPPL, 20000
-	240, COWZZ, 25000
+	240, COWZZ, 20000
 	320, BAATS, 10000
 
 airlines = 
@@ -341,7 +341,7 @@ traffic = 6
 entrypoints=
 	40, ZEEKK, 20000
 	60, WAPPL, 20000
-	240, COWZZ, 25000
+	240, COWZZ, 20000
 	320, BAATS, 10000
 
 airlines = 
@@ -2496,7 +2496,7 @@ beacon = ALIBI
 route1 = 
 	024, ILS14, I L S 1 4 ALIBI
 # ALIBI
-	N30.4598, W95.4988
+	N30.4598, W95.4988, 0, 210
 # ILS
 	6.5, 2000
 
