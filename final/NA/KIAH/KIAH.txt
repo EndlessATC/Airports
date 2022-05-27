@@ -449,7 +449,7 @@ config1=
 	0, rwyKHOU22, landrev
 	0, rwyKHOU13R, start
 #	0, rwyKEFD22, startlandrev
-	0, rwyKDWH17R, starland
+	0, rwyKDWH17R, startland
 #	0, rwyKTME18, startland
 #	0, rwyKSGR17, startland
 	0, rwyKCXO14, startland
