@@ -5,7 +5,7 @@
 [airspace]
 ##############################################################
 
-radius = 70
+radius = 65
 zoom = 4 
 elevation = 0
 floor = 1500
@@ -20,7 +20,9 @@ metric = false
 separation = 3
 automatic = true
 name = houston approach, houston departure
-center = N29.8885, W95.2563
+# -4.23, -0.91 (N29.8545, W95.1999, IAH R127/D9.9)
+
+center = N29.8545, W95.1999
 magneticvar = 2.3
 
 beacons =
@@ -447,10 +449,10 @@ config1=
 	0, rwyKHOU22, landrev
 	0, rwyKHOU13R, start
 #	0, rwyKEFD22, startlandrev
-	0, rwyKDWH17R, land
+	0, rwyKDWH17R, starland
 #	0, rwyKTME18, startland
 #	0, rwyKSGR17, startland
-	0, rwyKCXO14, land
+	0, rwyKCXO14, startland
 #	0, rwyKGLS14, land
 #	0, rwyKGLS18, start
 
@@ -464,10 +466,10 @@ config2=
 	0, rwyKHOU22, start
 	0, rwyKHOU13R, land
 #	0, rwyKEFD17R, startland
-	0, rwyKDWH17R, land
+	0, rwyKDWH17R, startland
 #	0, rwyKTME18, startland
 #	0, rwyKSGR17, startland
-	0, rwyKCXO14, land
+	0, rwyKCXO14, startland
 #	0, rwyKGLS14, land
 #	0, rwyKGLS18, start
 
@@ -943,6 +945,36 @@ route13 =
 	N29.7802, W96.1827
 # WAILN
 	N29.8085, W96.5713
+
+##############################################################
+[departure301]
+##############################################################
+
+runway = rwyKCXO14
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+##############################################################
+[departure401]
+##############################################################
+
+runway = rwyKEFD17R
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
 
 ##############################################################
 [approach1001]
