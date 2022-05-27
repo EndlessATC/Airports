@@ -364,7 +364,7 @@ runways =
 traffic = 18
 
 entrypoints=
-	310, COWZZ, 9000
+	290, COWZZ, 9000
 
 airlines = 
 # Commuter
@@ -2614,7 +2614,7 @@ route1 =
 ##############################################################
 
 # BLUBL FOUR to 
-runway = rwyKEFD22
+runway = rwyKEFD22, rev
 beacon = COWZZ
 route1 = 
 	024, BLUBL4, Blue Bell 4
