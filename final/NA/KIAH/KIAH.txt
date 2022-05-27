@@ -190,6 +190,8 @@ runways =
 	rwyKIAH15L, 15L, N29.9878, W95.3578, 152.0, 12001, 0, 0, 95
 	rwyKIAH15R, 15R, N29.9878, W95.3613, 152.0, 9999, 0, 0, 95
 
+traffic = 2
+
 climbaltitude = 4000
 
 entrypoints = 
@@ -318,7 +320,6 @@ airlines =
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
 	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
-	n-1234a, 1, DC87
 
 climbaltitude = 3000
 
@@ -345,7 +346,6 @@ airlines =
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
 	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
-	n-1234a, 1, DC87
 
 climbaltitude = 3000
 
@@ -372,7 +372,6 @@ airlines =
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
 	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
-	n-1234a, 1, DC87
 
 climbaltitude = 3000
 
@@ -392,7 +391,6 @@ airlines =
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
 	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
-	n-1234a, 1, DC87
 
 climbaltitude = 3000
 
@@ -413,7 +411,6 @@ airlines =
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
 	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
-	n-1234a, 1, DC87
 
 climbaltitude = 3000
 
@@ -433,7 +430,6 @@ airlines =
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
 	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
-	n-1234a, 1, DC87
 
 climbaltitude = 3000
 
