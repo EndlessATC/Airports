@@ -960,9 +960,9 @@ route1 =
 # HOOTI
 	N30.1153, W94.7353, 6000, 210
 # GRIZL
-	N30.0345, W94.7698, 6000
+	N30.0345, W94.7698
 # ZAPPO
-	N30.0078, W94.8195, 5000
+	N30.0078, W94.8195
 # ILS 26R Intercept at NEWLY
 	21.6, 5000
 
@@ -976,7 +976,7 @@ beacon = ZAPPO
 route1 =
 	200, ILS26R, I L S 2 6 RIGHT ZAP PO 
 # ZAPPO
-	N30.0078, W94.8195, 5000, 210
+	N30.0078, W94.8195
 # ILS 26R Intercept
 	21.6, 5000
 
@@ -990,9 +990,9 @@ beacon = RAIDS
 route1 =
 	200, ILS26R, I L S 2 6 RIGHT RAIDS 
 # RAIDS
-	N30.0078, W94.9973, 4000, 210
+	N30.0078, W94.9973
 # ILS 26R Intercept
-	10.2, 3000
+	16.0, 5000
 
 ##############################################################
 [approach1004]
