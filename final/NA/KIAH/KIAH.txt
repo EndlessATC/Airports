@@ -137,6 +137,10 @@ beacons =
 	DIZGY, N29.50.10.2, W95.34.49.8, 0, DIZGY
 	POPAM, N29.28.06.0, W95.38.33.0, -350, POP AM
 
+# KGLS ILS 14
+	UCENU, N29.25.57.0, W95.01.15.6
+	DELVE, N29.08.06.6, W95.15.33.0, 63, DELVE
+
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
 #	MUSIQ, N30.5533, W94.8927, 0, MUSIQ
@@ -488,7 +492,7 @@ config1=
 	0, rwyKEFD22, landrev
 	0, rwyKEFD17R, land
 	0, rwyKSGR17, land	
-#	0, rwyKGLS14, land
+	0, rwyKGLS14, land
 #	0, rwyKGLS18, start
 #	0, rwyKTME18, startland	
 
@@ -508,7 +512,7 @@ config2=
 	0, rwyKEFD22, landrev
 	0, rwyKEFD17R, land
 	0, rwyKSGR17, land
-#	0, rwyKGLS14, land
+	0, rwyKGLS14, land
 #	0, rwyKGLS18, start
 #	0, rwyKTME18, startland
 
