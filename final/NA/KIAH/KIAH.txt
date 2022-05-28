@@ -2642,7 +2642,7 @@ route1 =
 
 # RNAV to KEFD 04
 runway = rwyKEFD22, rev
-beacon = ZITIB
+beacon = FODGE
 route1 = 
 	024, ILS04, I L S 4 FODGE
 # FODGE
