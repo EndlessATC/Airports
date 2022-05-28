@@ -486,6 +486,7 @@ config1=
 	0, rwyKCXO01, startrev
 	0, rwyKDWH17R, startland
 	0, rwyKEFD22, landrev
+	0, rwyKEFD17R, land
 	0, rwyKSGR17, land	
 #	0, rwyKGLS14, land
 #	0, rwyKGLS18, start
@@ -504,6 +505,7 @@ config2=
 	0, rwyKCXO14, startland
 	0, rwyKCXO01, startrev
 	0, rwyKDWH17R, startland
+	0, rwyKEFD22, landrev
 	0, rwyKEFD17R, land
 	0, rwyKSGR17, land
 #	0, rwyKGLS14, land
