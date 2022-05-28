@@ -506,7 +506,7 @@ config2=
 	0, rwyKDWH17R, startland
 	0, rwyKEFD17R, land
 	0, rwyKSGR17, land
-	0, rwyKGLS14, land
+#	0, rwyKGLS14, land
 #	0, rwyKGLS18, start
 #	0, rwyKTME18, startland
 
@@ -2939,6 +2939,51 @@ route1 =
 # END
 	END, 175
 
+##############################################################
+[approach6001]
+##############################################################
+
+# RNAV TO KSGR 17
+runway = rwyKSGR17
+beacon = BASGE
+route1 = 
+	250, RNAV17, R NAV 17 BASGE
+# BASGE
+	N29.49.21.0, W95.46.17.4
+# EBOKE
+	N29.49.43.8, W95.40.36.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach6002]
+##############################################################
+
+# RNAV TO KSGR 17
+runway = rwyKSGR17
+beacon = DIZGY
+route1 = 
+	250, RNAV17, R NAV 17 DIZGY
+# DIZGY
+	N29.50.10.2, W95.34.49.8
+# EBOKE
+	N29.49.43.8, W95.40.36.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach6003]
+##############################################################
+
+# RNAV TO KSGR 17
+runway = rwyKSGR17
+beacon = EBOKE
+route1 = 
+	250, RNAV17, R NAV 17 EBOKE
+# EBOKE
+	N29.49.43.8, W95.40.36.6
+# ILS
+	10, 3000
 
 ##############################################################
 [planetypes]
