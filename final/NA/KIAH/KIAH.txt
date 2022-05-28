@@ -440,6 +440,14 @@ runways =
 
 traffic = 37
 
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 23000
+	130, TKNIQ, 13000
+	240, BELLR, 13000
+	290, COWZZ, 9000
+	300, KIDDZ, 13000
+
 airlines = 
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
@@ -3108,6 +3116,20 @@ route1 =
 	N29.37.10.2, W95.13.31.2, 8000
 # END
 	END, 175
+
+##############################################################
+[approach7001]
+##############################################################
+
+# RNAV TO KGLS 14
+runway = rwyKGLS14
+beacon = UCENU
+route1 = 
+	250, ILS14, ILS 14
+# UCENU
+	N29.25.57.0, W95.01.15.6
+# ILS
+	10, 3000
 
 ##############################################################
 [planetypes]
