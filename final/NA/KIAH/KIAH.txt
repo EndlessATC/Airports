@@ -403,6 +403,13 @@ runways =
 
 traffic = 17
 
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 23000
+	130, TKNIQ, 13000
+	240, BELLR, 13000
+	290, COWZZ, 9000
+
 airlines = 
 # Private
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
@@ -441,6 +448,13 @@ runways =
 	rwyKTME18, 18, N29.48.51.0, W95.53.52.80, 179, 6610, 0, 0, 165.9, 3, 179, 3, 359, 0, 0, 0, 0, 126.975
 
 traffic = 77
+
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 23000
+	130, TKNIQ, 13000
+	240, BELLR, 13000
+	290, COWZZ, 9000
 
 airlines = 
 # Private
