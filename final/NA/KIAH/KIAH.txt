@@ -3221,7 +3221,39 @@ route1 =
 runway = rwyKGLS14
 beacon = UCENU
 route1 = 
-	250, ILS14, ILS 14
+	250, RNAV14, R NAV 14 UCENU
+# UCENU
+	N29.25.57.0, W95.01.15.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach7002]
+##############################################################
+
+# RNAV TO KGLS 14
+runway = rwyKGLS14
+beacon = FOMAH
+route1 = 
+	250, RNAV14, R NAV 14 FOMAH
+# FOMAH
+	N29.19.30.0, W95.09.58.8
+# UCENU
+	N29.25.57.0, W95.01.15.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach7003]
+##############################################################
+
+# RNAV TO KGLS 14
+runway = rwyKGLS14
+beacon = BOBLE
+route1 = 
+	250, RNAV14, R NAV 14 BOBLE
+# BOBLE
+	N29.32.22.8, W94.52.28.2
 # UCENU
 	N29.25.57.0, W95.01.15.6
 # ILS
