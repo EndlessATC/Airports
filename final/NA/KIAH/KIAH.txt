@@ -124,7 +124,7 @@ beacons =
 	CLEEP, N30.17.42.0, W95.10.19.8, 199, CLEEP
 
 # KDWH RNAV 17R
-	BRKMN, N30.23.30., W95.47.49.2
+	BRKMN, N30.23.30.0, W95.47.49.2
 	TUFFS, N30.14.28.8, W95.41.37.8
 	OILER, N30.15.13.8, W95.34.51.6
 	WATSI, N30.15.56.4, W95.28.08.4
@@ -2681,11 +2681,59 @@ route1 =
 
 # ILS to DWH 17R
 runway = rwyKDWH17R
-beacon = TUKII
+beacon = OILER
 route1 = 
-	024, ILS17R, I L S 1 7 R TWO KEY
-# TUKII
-	N30.17.23.4, W95.35.10.8
+	024, RNAV17R, R NAV 1 7 R OILER
+# OILER
+	N30.15.13.8, W95.34.51.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach4002]
+##############################################################
+
+# ILS to DWH 17R
+runway = rwyKDWH17R
+beacon = TUFFS
+route1 = 
+	024, RNAV17R, R NAV 1 7 R TUFFS
+# TUFFS
+	N30.14.28.8, W95.41.37.8
+# OILER
+	N30.15.13.8, W95.34.51.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach4003]
+##############################################################
+
+# ILS to DWH 17R
+runway = rwyKDWH17R
+beacon = BRKMN
+route1 = 
+	024, RNAV17R, R NAV 1 7 R BRKMN
+# BRKMN
+	N30.23.30.0, W95.47.49.2
+# OILER
+	N30.15.13.8, W95.34.51.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach4004]
+##############################################################
+
+# ILS to DWH 17R
+runway = rwyKDWH17R
+beacon = WATSI
+route1 = 
+	024, RNAV17R, R NAV 1 7 R WATSI
+# WATSI
+	N30.15.56.4, W95.28.08.4
+# OILER
+	N30.15.13.8, W95.34.51.6
 # ILS
 	10, 3000
 
