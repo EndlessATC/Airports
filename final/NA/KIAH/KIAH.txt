@@ -504,15 +504,15 @@ config1=
 	0, rwyKIAH26R, land
 	0, rwyKIAH26L, land
 	0, rwyKIAH27, land
-	0, rwyKIAH15R, start
-	0, rwyKIAH15L, start
+	0, rwyKIAH15R, start, 270
+	0, rwyKIAH15L, start, 135
 	0, rwyKHOU22, landrev
 	0, rwyKHOU13R, start
 	0, rwyKCXO14, startland
 	0, rwyKCXO01, startrev
 	0, rwyKDWH17R, startland
 	0, rwyKEFD22, landrev
-	0, rwyKEFD17R, startland
+	0, rwyKEFD17R, startland, 90
 	0, rwyKSGR17, startland	
 	0, rwyKGLS14, startland
 	0, rwyKGLS18, start
@@ -524,15 +524,15 @@ config2=
 	0, rwyKIAH26R, land
 	0, rwyKIAH26L, land
 	0, rwyKIAH27, land
-	0, rwyKIAH15R, start
-	0, rwyKIAH15L, start
+	0, rwyKIAH15R, start, 270
+	0, rwyKIAH15L, start, 135
 	0, rwyKHOU22, start
 	0, rwyKHOU13R, land
 	0, rwyKCXO14, startland
 	0, rwyKCXO01, startrev
 	0, rwyKDWH17R, startland
 	0, rwyKEFD22, landrev
-	0, rwyKEFD17R, startland
+	0, rwyKEFD17R, startland, 90
 	0, rwyKSGR17, startland
 	0, rwyKGLS14, startland
 	0, rwyKGLS18, start
@@ -630,9 +630,6 @@ route7 =
 
 route8 = 
 	BELTWY7, BELT WAY SEVEN
-# RIGHT TURN
-# -12.19, 5.91 (N29.9613, W95.4288, IAH R270/D4.3)
-	N29.9613, W95.4288
 # DREMR
 	N30.3018, W95.4192
 # LITLD
@@ -642,8 +639,6 @@ route8 =
 
 route9 =
 	LURIC8, LYRIC EIGHT
-# RIGHT TURN
-	N29.9613, W95.4288
 # KNTKY
 	N30.0868, W95.2613
 # PEETY
@@ -655,8 +650,6 @@ route9 =
 
 route10 =
 	STYCK8, STICK EIGHT
-# RIGHT TURN
-	N29.9613, W95.4288
 # BBYSE
 	N30.0955, W95.4042
 # SPICR
@@ -666,8 +659,6 @@ route10 =
 
 route11 = 
 	WYLSN8, WILSON EIGHT
-# RIGHT TURN
-	N29.9613, W95.4288
 # WYLSN
 	N30.3083, W95.3225
 # MONNT
@@ -675,8 +666,6 @@ route11 =
 
 route12 = 
 	INDIE8, INDIE EIGHT
-# RIGHT TURN
-	N29.9613, W95.4288
 # RENNK
 	N30.2915, W95.2225
 # COLET
@@ -1443,9 +1432,6 @@ runway = rwyKEFD17R
 			
 route1 = 
 	BELTWY7, BELT WAY SEVEN
-# 8.06, -15.22 (N29.5950, W95.0572, IAH R143/D26.5)
-# LEFT TURN
-	N29.5950, W95.0572
 # DREMR
 	N30.3018, W95.4192
 # LITLD
@@ -1455,8 +1441,6 @@ route1 =
 
 route2 = 
 	BORRN4, BORN 4 ZU
-# LEFT TURN
-	N29.5950, W95.0572
 # BORRN
 	N29.54.08.4, W95.45.25.2
 # DILRE
@@ -1466,8 +1450,6 @@ route2 =
 
 route3 =
 	BORRN4, BORN 4 BOCK
-# LEFT TURN
-	N29.5950, W95.0572
 # BORRN
 	N29.54.08.4, W95.45.25.2
 # DILRE
@@ -1479,8 +1461,6 @@ route3 =
 
 route4 = 
 	BORRN4, BORN 4 WEED
-# LEFT TURN
-	N29.5950, W95.0572
 # BORRN
 	N29.54.08.4, W95.45.25.2
 # DILRE
@@ -1499,8 +1479,6 @@ route5 =
 
 route6 = 
 	INDIE8, INDIE EIGHT
-# LEFT TURN
-	N29.5950, W95.0572
 # RENNK
 	N30.2915, W95.2225
 # COLET
@@ -1510,8 +1488,6 @@ route6 =
 
 route7 =
 	KARRR6, CAR 7 SCUBA
-# LEFT TURN
-	N29.5950, W95.0572
 # KARRR
 	N29.22.48, W95.22.34.2
 # KAVCY
@@ -1521,8 +1497,6 @@ route7 =
 
 route8 =
 	KARRR6, CAR 7 RIG
-# LEFT TURN
-	N29.5950, W95.0572
 # KARRR
 	N29.22.48, W95.22.34.2
 # KAVCY
@@ -1532,8 +1506,6 @@ route8 =
 
 route9 =
 	LURIC8, LYRIC EIGHT
-# LEFT TURN
-	N29.5950, W95.0572
 # KNTKY
 	N30.0868, W95.2613
 # PEETY
@@ -1545,8 +1517,6 @@ route9 =
 
 route10=
 	MMALT5, MALT 5 HOURN
-# LEFT TURN
-	N29.5950, W95.0572
 # MMALT
 	N29.52.15.6, W94.47.01.2
 # MOOKI
@@ -1558,8 +1528,6 @@ route10=
 
 route11=
 	MMALT5, MALT 5 JAY
-# LEFT TURN
-	N29.5950, W95.0572
 # MMALT
 	N29.52.15.6, W94.47.01.2
 # MOOKI
@@ -1571,8 +1539,6 @@ route11=
 
 route12=
 	MMALT5, MALT 5 YOKEM
-# LEFT TURN
-	N29.5950, W95.0572
 # MMALT
 	N29.52.15.6, W94.47.01.2
 # MOOKI
@@ -1584,8 +1550,6 @@ route12=
 
 route13 =
 	STYCK8, STICK EIGHT
-# LEFT TURN
-	N29.5950, W95.0572
 # BBYSE
 	N30.0955, W95.4042
 # SPICR
@@ -1595,8 +1559,6 @@ route13 =
 
 route14 = 
 	WYLSN8, WILSON EIGHT
-# LEFT TURN
-	N29.5950, W95.0572
 # WYLSN
 	N30.3083, W95.3225
 # MONNT
