@@ -509,15 +509,15 @@ config1=
 	0, rwyKIAH26R, land
 	0, rwyKIAH26L, land
 	0, rwyKIAH27, land
-	0, rwyKIAH15R, start, 240
-	0, rwyKIAH15L, start, 60
+	0, rwyKIAH15R, start, 240, nosid
+	0, rwyKIAH15L, start, 105, nosid
 	0, rwyKHOU22, landrev
 	0, rwyKHOU13R, start
 	0, rwyKCXO14, startland
 	0, rwyKCXO01, startrev
 	0, rwyKDWH17R, startland
 	0, rwyKEFD22, landrev
-	0, rwyKEFD17R, startland, 90
+	0, rwyKEFD17R, startland, 90, nosid
 	0, rwyKSGR17, startland	
 	0, rwyKGLS14, startland
 	0, rwyKGLS18, startland
@@ -529,15 +529,15 @@ config2=
 	0, rwyKIAH26R, land
 	0, rwyKIAH26L, land
 	0, rwyKIAH27, land
-	0, rwyKIAH15R, start, 240
-	0, rwyKIAH15L, start, 90
+	0, rwyKIAH15R, start, 240, nosid
+	0, rwyKIAH15L, start, 105, nosid
 	0, rwyKHOU22, start
 	0, rwyKHOU13R, land
 	0, rwyKCXO14, startland
 	0, rwyKCXO01, startrev
 	0, rwyKDWH17R, startland
 	0, rwyKEFD22, landrev
-	0, rwyKEFD17R, startland, 60
+	0, rwyKEFD17R, startland, 90, nosid
 	0, rwyKSGR17, startland
 	0, rwyKGLS14, startland
 	0, rwyKGLS18, startland
