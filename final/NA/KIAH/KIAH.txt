@@ -147,7 +147,12 @@ beacons =
 	FOMAH, N29.19.30.0, W95.09.58.8
 	BOBLE, N29.32.22.8, W94.52.28.2
 	UCENU, N29.25.57.0, W95.01.15.6
-	DELVE, N29.08.06.6, W95.15.33.0, 63, DELVE
+	DELVE, N29.08.06.6, W95.15.33.0, 271, DELVE
+
+# KGLS RNAV 18
+	TARCU, N29°29.23', W95°2.89'
+	OMEHU, N29.29.04.8, W94.51.25.8
+	PICIP, N29.28.55.2, W94.39.59.4
 
 # KTME RNAV 18
 	BIMTE, N30.00.36.0, W95.59.51.6
@@ -515,7 +520,7 @@ config1=
 	0, rwyKEFD17R, startland, 90
 	0, rwyKSGR17, startland	
 	0, rwyKGLS14, startland
-	0, rwyKGLS18, start
+	0, rwyKGLS18, startland
 	0, rwyKTME18, startland	
 
 
@@ -535,7 +540,7 @@ config2=
 	0, rwyKEFD17R, startland, 60
 	0, rwyKSGR17, startland
 	0, rwyKGLS14, startland
-	0, rwyKGLS18, start
+	0, rwyKGLS18, startland
 	0, rwyKTME18, startland
 
 ##############################################################
@@ -3953,6 +3958,52 @@ route1 =
 	N29.32.22.8, W94.52.28.2
 # UCENU
 	N29.25.57.0, W95.01.15.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach7004]
+##############################################################
+
+# RNAV TO KGLS 18
+runway = rwyKGLS18
+beacon = TARCU
+route1 = 
+	250, RNAV18, R NAV 18 TARCU
+# TARCU
+	N29°29.23', W95°2.89'
+# OMEHU
+	N29.29.04.8, W94.51.25.8
+# ILS
+	10, 3000
+
+##############################################################
+[approach7005]
+##############################################################
+
+# RNAV TO KGLS 18
+runway = rwyKGLS18
+beacon = OMEHU
+route1 = 
+	250, RNAV18, R NAV 18 OMEHU
+# OMEHU
+	N29.29.04.8, W94.51.25.8
+# ILS
+	10, 3000
+
+##############################################################
+[approach7006]
+##############################################################
+
+# RNAV TO KGLS 18
+runway = rwyKGLS18
+beacon = PICIP
+route1 = 
+	250, RNAV18, R NAV 18 PICIP
+# PICIP
+	N29.28.55.2, W94.39.59.4
+# OMEHU
+	N29.29.04.8, W94.51.25.8
 # ILS
 	10, 3000
 
