@@ -1,3 +1,30 @@
+# Houston Georege Bush Intercontinental Airport and Satellite Fields
+This airport file set KIAH as the main airport and includes 7 additional satellite airports that service the Houston area. The traffic pattern is west flow into KIAH.
+
+## Features
+### STARs
+Aircraft entering the airspace are assigned and will automatically follow a start unless otherwise assigned by the user. STARs to class B airports have altitude and speed profiles that the aircraft will follow unless otherwise assigned by the user.
+
+Some of the STARs have multiple routes that the user can assign. See below for how to assign a particular star route.
+
+### ILS / RNAV Approaches
+Aircraft can be assigned and will automatically fly an assigned ILS / RNAV approach. The aircraft descend and then capture the ILS / RNAV glideslope automatically. Aircraft must be able to descend in time to able to capture the approache, if they are too high, they will miss approach! Plan accordingly!
+
+# Airports
+## KIAH - George Bush Intercontinental Airport 
+### SIDs from 15R and 15L
+- BELTWY SEVEN
+- BNDTO FIVE
+- FLYZA FIVE
+- HOODO7 SEVEN
+- INDIE EIGHT
+- LURIC EIGHT
+- RITAA SIX
+- STYCK EIGHT
+- WYLSN EIGHT
+
+### STARs
+
 # History
 
 ## Version 3.0
@@ -6,21 +33,33 @@ Update file to include changes to Endless ATC Version 5.0.3 and add class D airp
 ### Airspace
 - Set minimal altitude for arrivals to 5000 feet
 - Set above altitude to 15001 feet to clear the Bravo airspace
-- Added and removed lines to match example for 5.0.3
+- Added and removed lines of code to match example template for Endless ATC version 5.0.3
 - Added center handoff frequencies
 
 ### Airport 1 George Bush Intercontinental Houston Airport
 - Added starting altitude to entry points
 - Added tower frequencies
-- Updated properties to match 5.0.3
-
-### STARs
-- Extended DRLLR approach start
+- Updated properties to support Endless ATC version 5.0.3
 
 ### Airport 2 Hobby
 - Added starting altitude to entry points
 - Added tower frequencies
-- Updated properties to match 5.0.3
+- Updated properties to support Endless ATC version 5.0.3
+- traffic flow is set to 3x real life traffic flow
+
+### New Class D Aiports
+- KCXO : Conroe Reginal Airport with RNAV with RNAV approach
+- KDWH : David Wayne Hooks with RNAV with RNAV approach
+- KEFD : Ellington Field with RNAV with RNAV approach
+- KSGR : Suglar Land with RNAV with RNAV approach
+- KGLS : Scholes / Galveston with RNAV approaches
+- KTME : Houston Executive with RNAV approach
+
+### New STARS
+- Added STARs that feed into the new class D airports
+
+### New SIDS
+- Added SIDs that lead traffic away from the new class D airports
 
 ## Version 2.2
 ### Beacons
