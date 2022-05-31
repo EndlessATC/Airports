@@ -1,10 +1,10 @@
 # Houston Georege Bush Intercontinental Airport and Satellite Fields
 This airport file set KIAH as the main airport and includes 7 additional satellite airports that service the Houston area. The traffic pattern is west flow into KIAH.
 
-## Airspace Configuration Maps
-### 13R KHOU Arrival configuration
+# Airspace Configuration Maps
+## 13R KHOU Arrival configuration
 ![13R](images/config13R.png)
-### 04 KHOU Arrival configuration
+## 04 KHOU Arrival configuration
 ![04](images/config04.png)
 
 ## Features
@@ -15,6 +15,15 @@ STARs to KIAH have multiple routes that the user can assign. See below for how t
 
 ### ILS / RNAV Approaches
 Aircraft can be assigned and will automatically fly an assigned ILS / RNAV approach. The aircraft descend and then capture the ILS / RNAV glideslope automatically. Aircraft must be able to descend in time to able to capture the approache, if they are too high, they will miss approach! Plan accordingly!
+
+## SID / STAR Routes
+STARs / ILS and RNAV approaches are in <span style="color:green">**GREEN**</span>
+
+SIDs are in <span style="color:purple">**MAGNETA**</span>
+## 13R KHOU Arrival configuration
+![13R Routes](images/route13R.png)
+## 04 KHOU Arrival configuration
+![04R Routes](images/route04.png)
 
 # Airports
 ## KIAH - George Bush Intercontinental Airport 
@@ -36,6 +45,7 @@ Aircraft can be assigned and will automatically fly an assigned ILS / RNAV appro
 - MSCOT FOUR 26R, 26L, and 27 user assignable
 - SOULL ONE 26L and 27 user assignable
 - TEJAS FOUR 26R, 26L, and 27 user assignable
+
 
 # History
 
