@@ -1,11 +1,11 @@
 # Houston Georege Bush Intercontinental Airport and Satellite Fields
-This airport file set KIAH as the main airport and includes 7 additional satellite airports that service the Houston area. The traffic pattern is west flow into KIAH.
+This airport file sets KIAH as the main airport and includes 7 additional satellite airports that service the Houston area. The traffic pattern is west flow into KIAH.
 
 # Airspace Configuration Maps
-## 13R KHOU Arrival configuration
-![13R](images/config13R.png)
 ## 04 KHOU Arrival configuration
-![04](images/config04.png)
+![04](images/config13R.png)
+## 13R KHOU Arrival configuration
+![13R](images/config04.png)
 
 ## Features
 ### STARs
@@ -14,7 +14,7 @@ Aircraft entering the airspace are assigned and will automatically follow a STAR
 STARs to KIAH have multiple routes that the user can assign. See below for how to assign a particular STAR route.
 
 ### ILS / RNAV Approaches
-Aircraft can be assigned and will automatically fly an assigned ILS / RNAV approach. The aircraft descend and then capture the ILS / RNAV glideslope automatically. Aircraft must be able to descend in time to able to capture the approache, if they are too high, they will miss approach! Plan accordingly!
+Aircraft can be assigned and will automatically fly an assigned ILS / RNAV approach. The aircraft will descend and then capture the ILS / RNAV glideslope automatically. Aircraft must be able to descend in time to capture the approach, if they are too high, they will miss approach! Plan accordingly!
 
 ## SID / STAR Routes
 STARs / ILS and RNAV approaches are in <span style="color:green">**GREEN**</span>
@@ -26,7 +26,7 @@ SIDs are in <span style="color:purple">**MAGNETA**</span>
 ![04R Routes](images/route04.png)
 
 # Airports
-## KIAH - George Bush Intercontinental Airport 
+## KIAH - George Bush Intercontinental Airport - Class B
 ### SIDs from 15R and 15L
 - BELTWY SEVEN
 - BNDTO FIVE
@@ -40,12 +40,42 @@ SIDs are in <span style="color:purple">**MAGNETA**</span>
 
 ### STARs
 - DOOBI TWO 26L
-- DRILLER FIVE 26R, 26L, and 27 user assignable
+- DRILLER FIVE 26R, 26L, and 27 user assignable; downwind entry at DOMNO
 - LINKK ONE 26L and 27 user assignable
 - MSCOT FOUR 26R, 26L, and 27 user assignable
 - SOULL ONE 26L and 27 user assignable
-- TEJAS FOUR 26R, 26L, and 27 user assignable
+- TEJAS FOUR 26R, 26L, and 27 user assignable; downwind entry at HOWLN
 
+### ILS Approaches
+User can assign ILS approaches by selecting any ILS route entry beacons. Automatic ILS approaches are provided for the 26R, 26L, and 27.
+
+### Missed Approach Beacons / Hold Beacons
+- 26R PEPBI
+- 26L LUCEP
+- 27 TICOY
+
+## KHOU - Hobby Airport - Class B
+### SIDs from 13R and 22
+- BELTWY SEVEN
+- BNDTO FIVE
+- FLYZA FIVE
+- HOODO SEVEN
+- INDIE EIGHT
+- LURIC EIGHT
+- RITAA SIX
+- STYCK EIGHT
+- WYLSN EIGHT
+
+### STARs
+- BAYYY FOUR; downwind at VILLI for 13R and SHUUG for 04; entry at FRDDY south of BOBLE
+- BELLR FOUR
+- KIDDZ FOUR
+- TIKNIQ THREE
+- WAPPL SIX
+
+### Missed Approach Beacons / Hold Beacons
+- 04 MHF
+- 13R VUH (Scholes / Galveston)
 
 # History
 
