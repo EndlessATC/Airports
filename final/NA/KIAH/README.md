@@ -128,6 +128,37 @@ The below beacons are perfect for circling traffic down to the satellite airport
 - KSGR is POPAM
 - MTME is EBERE
 
+# Assigning STARs / Instrument Approaches
+
+## Route Transitions
+
+To assign an aircraft to a STAR, first select the aircraft then move the mouse around the aircraft. Any transition, triangle beacons, that lead to the destination airport will turn blue. In the example below, flight UAL9946, can be assigned MSCOT or DRLLR via the SUNNR, MPORT, or DOMNO transitions. All other transitions and beacons can only be hold beacons for UAL9946.
+
+![Transitions](images/airport_star.png)
+
+## Activating the Route
+
+To activate the route, select the beacon just like you would a hold beacon. To assign / activate the route, you must press the APP button. Some STARs like DRLLR have several routes that start at the transition. To view each route option, continue to press the APP button.
+
+![APP](images/app_button.png)
+
+## Route Infomation
+
+While cyling through the route, the waypoints, altitude, and speed plan will be displayed. In the example below, flight AAL138 will follow the DOOBI2 arrival. It will automatically descend to 15,000' and reduce speed to 250 kts. By the next waypoint, it will automatically descend to 10,000' and slow to 230 kts.
+
+**STARs will not capture glideslopes**
+
+![route info](images/route_info.png)
+
+## ILS / RNAV Routes
+Assigning ILS / RNAV routes clear the aircraft to land on that runway. The aircraft will fly the route and capture the ILS / RNAV automatically. If it can descend in time.
+
+In the example below, ACA6550 was assigned ILS 26R via the HOOTI transition. It will descend to 6,000' for HOOTI, then 5,000' for ZAPPO. It will then capture the ILS glideslope for 26R and land.
+
+**All ILS / RNAV routes will capture glideslopes and land**
+
+![ILS / RNAV](images/approach.png)
+
 # History
 
 ## Version 3.0
