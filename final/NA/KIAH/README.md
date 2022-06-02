@@ -40,19 +40,19 @@ SIDs are in <span style="color:purple">**MAGNETA**</span>
 
 ### STARs
 - DOOBI TWO 26L
-- DRILLER FIVE 26R, 26L, and 27 user assignable; downwind entry at DOMNO
+- DRILLER FIVE 26R, 26L, and 27 user assignable; downwind transition at DOMNO
 - LINKK ONE 26L and 27 user assignable
 - MSCOT FOUR 26R, 26L, and 27 user assignable
 - SOULL ONE 26L and 27 user assignable
-- TEJAS FOUR 26R, 26L, and 27 user assignable; downwind entry at HOWLN
+- TEJAS FOUR 26R, 26L, and 27 user assignable; downwind transition at HOWLN
 
 ### ILS Approaches
-User can assign ILS approaches by selecting any ILS route entry beacons. Automatic ILS approaches are provided for the 26R, 26L, and 27.
+User can assign ILS approaches by selecting any ILS route transition beacon. Automatic ILS approaches are provided for 26R, 26L, and 27.
 
 ### Missed Approach Beacons / Hold Beacons
-- 26R PEPBI
-- 26L LUCEP
-- 27 TICOY
+- 26R is PEPBI
+- 26L is LUCEP
+- 27 is TICOY
 
 ## KHOU - Hobby Airport - Class B
 ### SIDs from 13R and 22
@@ -67,15 +67,66 @@ User can assign ILS approaches by selecting any ILS route entry beacons. Automat
 - WYLSN EIGHT
 
 ### STARs
-- BAYYY FOUR; downwind at VILLI for 13R and SHUUG for 04; entry at FRDDY south of BOBLE
+- BAYYY FOUR; downwind transition at VILLI for 13R and SHUUG for 04; late transition at FRDDY south of BOBLE
 - BELLR FOUR
 - KIDDZ FOUR
 - TIKNIQ THREE
 - WAPPL SIX
 
 ### Missed Approach Beacons / Hold Beacons
-- 04 MHF
-- 13R VUH (Scholes / Galveston)
+- 04 is MHF
+- 13R is VUH (Scholes / Galveston)
+
+## Satellite Airports - Class D
+
+The traffic frequency is adjusted to match the traffic frequency for each Class D airport. This may change in later versions.
+
+SIDs and STARS apply to all satellite airports unless noted
+
+### SIDs
+
+- BELTWY SEVEN
+- BORRN FOUR
+- HOODO SEVEN
+- INDIE EIGHT
+- KARRR SIX
+- LURIC EIGHT
+- MMALT FIVE
+- STYCK EIGHT
+- WYLSN EIGHT
+
+### STARs
+#### All Airports
+
+- HUDZY FOUR
+- OHIIO FOUR
+
+#### KCXO and KDWH only
+
+- RIICE EIGHT
+- WHAEL THREE
+
+#### KCXO, KDWH, KEFD, KGLS, KSGR, and KTME only
+- BLUBL FOUR
+- TKNIQ THREE
+- TSHRT ONE
+- WAPPL SIX
+
+##### KEFD and KGLS only
+- SNIFY ONE
+
+### RNAV
+A left and right traffic RNAV approach transition is provide for all satellite airports except KEFD.
+
+#### Miss approach / Hold Beacons
+The below beacons are perfect for circling traffic down to the satellite airport without conflicting with other traffic.
+
+- KCXO is CLEEP
+- KDWH is KOHRY
+- KEFD is WATFO
+- KGLS is DELVE
+- KSGR is POPAM
+- MTME is EBERE
 
 # History
 
