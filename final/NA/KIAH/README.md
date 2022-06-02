@@ -49,7 +49,7 @@ SIDs are in <span style="color:purple">**MAGNETA**</span>
 ### ILS Approaches
 User can assign ILS approaches by selecting any ILS route transition beacon. Automatic ILS approaches are provided for 26R, 26L, and 27.
 
-### Missed Approach Beacons / Hold Beacons
+### Missed Approach  / Hold Beacons
 - 26R is PEPBI
 - 26L is LUCEP
 - 27 is TICOY
@@ -67,21 +67,19 @@ User can assign ILS approaches by selecting any ILS route transition beacon. Aut
 - WYLSN EIGHT
 
 ### STARs
-- BAYYY FOUR; downwind transition at VILLI for 13R and SHUUG for 04; late transition at FRDDY south of BOBLE
+- BAYYY FOUR; downwind transition at VILLI for 13R and at SHUUG for 04; additional transition at FRDDY south of BOBLE
 - BELLR FOUR
 - KIDDZ FOUR
 - TIKNIQ THREE
 - WAPPL SIX
 
-### Missed Approach Beacons / Hold Beacons
+### Missed Approach  / Hold Beacons
 - 04 is MHF
 - 13R is VUH (Scholes / Galveston)
 
 ## Satellite Airports - Class D
 
 The traffic frequency is adjusted to match the traffic frequency for each Class D airport. This may change in later versions.
-
-SIDs and STARS apply to all satellite airports unless noted
 
 ### SIDs
 
@@ -116,9 +114,9 @@ SIDs and STARS apply to all satellite airports unless noted
 - SNIFY ONE
 
 ### RNAV
-A left and right traffic RNAV approach transition is provide for all satellite airports except KEFD.
+A left and right traffic RNAV approach transition is provided for all satellite airports except KEFD. KEFD 22 is right traffic to remain in the Class D airspace. KEFD 17 only has one initial approach fix on the runway centerline.
 
-#### Miss approach / Hold Beacons
+#### Missed Approach / Hold Beacons
 The below beacons are perfect for circling traffic down to the satellite airport without conflicting with other traffic.
 
 - KCXO is CLEEP
