@@ -1,145 +1,36 @@
-# Version 2.2
-# Beacons
-# - Added the Freddy beacon for th BAYYY 4 arrival
-#
-# Approaches
-# - Changed runways to change APP sequence for TEJAS arrival selection, defaults to 27
-# - Added BAYYY4 arrial starting at Freddy for KHOU
-# - Changed runways to change APP sequence for SOULL arrival selction, defaults to 27
-#
-# Version 2.1
-# Incoporates suggestions and recommendations from Discord reviewers ARH1 and obamna
-#
-# Beacons
-# - removed approach and missed approach beacons for KHOU 22 and 31L
-# - Added DOMNO beacon for KIAH downwind entries
-# - Added SHUUG beacon for KHOU4 downwind entries
-# - Added VILLI beacon for KHOU13R downwin entries
-# 
-# Airport 1
-# -set climbaltitude = 4000
-#
-# Airport 2
-# -set climbaltitude = 5000
-#
-# Configurations
-# - delted config3 and config4
-# - config1 D13R and A4
-# - config2 D22 and A13R
-#
-# Depatures
-# - removed KHOU 4 and 31L depatures
-#
-# Approaches
-# - removed approaches for KHOU 22 and 31L
-# - added DRLLER and TEJAS entry points at DOMNO and HOWLN
-# - added BAYYY entry point at SHUUG
-# - added BAYYY entry point at VILLI
-#
-# Version 2.0
-# David Garza locodave@gmail.com
-#
-# Template file was forked from https://github.com/EndlessATC/Airports
-# Navedata such as beacons, STARs, SIDs, and final approach data from https://skyvector.com/
-# Operating airlines for KIAH https://www.fly2houston.com/iah/airlines
-# Operation airlines for KHOU https://www.fly2houston.com/hou/airlines
-# Rules for starting an approach at the IF https://blog.aopa.org/aopa/2014/01/28/three-ways-to-start-an-instrument-approach-vectors-iaf-and-intermediate-fix-if/
-# Traffic patterns from my aviation knowledge and living in the Houston area
-#
-# This build is intended match the traffic flow during calm / prevaling wind conditions focused on arrivals from the east. Therefore, this file only has one runway configuration and the STARs that feed those runways. SIDs are also matched to the most common depature runways. 13R is the common arrival for Hobby. 22 and 4 can flip as they are crosswind for a prevailing SE wind. I chose 22.
-#		
-# General
-# - Added formatting to make major sections stand out
-# - Included comments on approach / departure section to describe which beacons are used to define route
-#
-# Airspace updates
-# - set magneticvar to 2.3, to match variation as of 1/2022
-# - added missing default items lines (pulled form example.txt)
-# - removed boundary box and used default airspace circle
-# - update airspace radius to 60 nm
-# - set transition airspace to 18000'
-# - set ceiling to 10000 feet to match top of class B
-# - set above to 12000 feet (exit class B airspace)
-# - set automatic to true, aircraft follow the STAR as the would in real life
-# - removed excess waypoints
-# - only entry waypoints for STARs and missed approach holds are visible
-# - moved center of airspace to better match the working airspace
-# - removed random green line that was to the west of airspace
-# - added airspace boundary to restrict size of playing area. Generally marks 15000 foot entry point for STARs
-# - letters set to 0; should be airline then flight number
-#
-# Airport 1
-# - set climbaltitude = 3000 to match SIDS real life
-# - primary runways defined for west flow arrivals
-# - changed runway identifier to be more descriptive
-# - updated entry points to match 15,000 transition of STARs
-# - updated the airlines to match airlines operating KIAH as of 1/2022
-# - updated airlines / airplane types to match equipment that flies into KIAH
-# - increased frequency of United Airlines to 10, they fill the skies here
-#
-# Airport 2
-# - set climbaltitude = 3000 to match SIDS real life
-# - updated airliner list
-# - added flow of 10
-#
-# Configurations
-# - updated config1 and config2 to match calm / prevailing wind pattern
-# - added config3 and config 4 to use any runway pattern at hobby aiport
-#
-# KIAH Transitions to Final Approach Approaches 1001-1011
-# - added instrument approach transitions, aircraft assigned these procedures will follow a route to ILS and switch over and lock automatically
-#
-# KIAH Arrivals 1101-1117
-# - modified, added the following STARs DOBI TWO, DRLLR FIVE, LINKK ONE, SOULL ONE, TEJAS FOUR, and ZEEKK TWO. STARs are used for west flow arrivals
-#
-# KIAH Departues 101-102
-# - depatures are defined by approach flow! departuress set for west flow arrivals
-# - modeified, added the following SIDs BELTWY SEVEN, LURIC EIGHT, STYCK EIGHT, WYLSN EIGHT, INDIE EIGHT, BNDTO FIVE, HOODO, FLYZA, RITAA, and MMUGS
-#
-# KHOU Transitions to final Approach Approaches 2001-2005
-# - added instrument approach transitions, aircraft assigned these procedures will follow a route to ILS and switch over and lock automatically
-#
-# KHOU arrials
-# - modified, added the followign STARs, BAYYY FOUR, BELLR FOUR ,KIDDZ FOUR, PUCKS FOUR, TKNIQ THREE, SOULL ONE, and WAPPL SIX
-#
-# KHOU departures
-# - added BELTWY SEVEN, LURIC EIGHT, STYCK EIGHT, WYLSN EIGHT, INDIE EIGHT, ELOCO FIVE, HOODO SEVEN,  PTRON SEVEN, and RETYR SIX for all 4 runways.
-# 
-# Version 1.0
-# Author Unknown
-# A380's for funzies
-# Some special airlines :)
-
+# Version 3.0
+# https://github.com/david-garza
 
 ##############################################################
 [airspace]
 ##############################################################
 
-radius = 60
+radius = 65
 zoom = 4 
-elevation = 97
+elevation = 0
 floor = 1500
-descendaltitude = 15000
-ceiling = 10000
-above = 12000
-speedrestriction = 10000, 250
-localizerspeed = 30, 200
-diversionaltitude = 7000
-transition = 18000
+descendaltitude = 5000
+ceiling = 18000
+above = 18001
+transitionaltitude = 18001
+speedrestriction = 0, 0, 10000, 250
+localizerspeed = 30, 210
 usa = true
 metric = false
-letters = 0
 separation = 3
 automatic = true
 name = houston approach, houston departure
-center = N29.8885, W95.2563
+# -4.23, -0.91 (N29.8545, W95.1999, IAH R127/D9.9)
+
+center = N29.8545, W95.1999
 magneticvar = 2.3
 
 beacons =
 # VOR IAH
 	IAH, N29.9583, W95.3465, 0, Humble V O R
+
 # KIAH 26R Approach Becons and Missed Approach Hold
-	HOOTI, N30.1153, W94.7353, 0, who tea
+	HOOTI, N30.1153, W94.7353, 0, who t
 	ZAPPO, N30.0078, W94.8195, 0, ZAP PO
 	RAIDS, N30.0078, W94.9973, 0, RAIDS
 	PEPBI, N30.2827, W95.4297, 164, PEPBI 
@@ -162,7 +53,7 @@ beacons =
 	DOOBI, N30.4017, W94.4062, 0, DOBI
 
 # KIAH DRLLR FIVE ARRIVAL, THREE ROUTES SPLITS AT DOMNO
-	DRLLR, N30.3587, W95.7392, 0, DRiLLeR
+	MPORT, N30.30.03, W95.52.20.4, 0, M Port
 	DOMNO, N30.0940, W95.4843, 0, domino
 
 # KIAH LINKK ONE ARRIVAL TO 27 AND 26L
@@ -173,10 +64,9 @@ beacons =
 
 # KIAH SOULL ONE ARRIVAL
 	BAYYY, N29.3788, W94.3710, 0, BAY
-	
 
 # KIAH TEJAS FOUR ARRIVAL FEEDS INTO DRLLR
-	TEJAS, N29.6877, W95.9037, 0, TExAS
+	GMANN, N29.32.51.0, W96.12.00, 0, G Man
 	HOWLN, N29.8937, W95.4658, 0, HOWLIN
 
 # KIAH ZEEKK TWO ARRIVAL
@@ -203,7 +93,72 @@ beacons =
 	SHUUG, N29.5563, W95.2423, 0, SHUG
 	VILLI, N29.6293, W95.3873, 0, villi
 # KHOU WAPPL SIX
-	WLMOR, N30.1532, W94.6252, 0, wilmor
+	WAPPL, N30.13.59.4, W94.19.53.4, 0, WAPPLE
+
+# KCXO / KDWH HUDZY FOUR
+# 	HUDZY, N30.06.12.6, W94.48.31.8
+#	CLWSN, N30.04.25.2, W94.55.07.8
+# 	SWWAA, N30.00.31.2, W95.09.25.2
+
+# KCXO / KDWH OHIIO FOUR STARTS at ZEEKK
+#	GESNR, 30.24.07.8, W94.42.00.0
+#	OHIIO, 30.08.17.4, W95.05.02.4
+#	PNUUT, 30.06.09.6, W95.08.07.2
+
+# KCXO / KDWH RIICE EIGHT
+	BAATS, N30.31.36, W95.56.22.8, BATS
+#	RICE, N30.27.09, W95.51.42.6
+#	BRKMN, N30.23.26.4, W95.47.49.2
+#	MLRRR, N30.12.18, W95.36.11.4
+#	LYYTE, N30.06.21, W95.30.00
+
+# KCXO / KDWH WHAEL THREE
+#	WHAEL, N29.39.31.8, W96.30.25.8
+	COWZZ, N30.04.22.2, W96.12.46.2, 0, COWS
+
+# KCXO RNAV 14
+	CEKRU, N30.28.08.4, W95.39.09.0
+	AXTEP, N30.31.46.2, W95.33.09.0
+	HEKRI, N30.35.18.6, W95.27.08.4
+	CLEEP, N30.17.42.0, W95.10.19.8, 199, CLEEP
+
+# KDWH RNAV 17R
+	BRKMN, N30.23.30.0, W95.47.49.2
+	TUFFS, N30.14.28.8, W95.41.37.8
+	OILER, N30.15.13.8, W95.34.51.6
+	WATSI, N30.15.56.4, W95.28.08.4
+	KOHRY, N29.52.19.8, W95.31.34.2, -348, KOHRY
+
+# KEFD RNAV 4
+	ZITIB, N29.23.30, W95.13.57, 0, ZITIB
+	FODGE, N29.27.42, W95.18.57, 0, FODGE
+	WATFO, N29.23.57, W94.58.04.2, -316, WATFO
+
+# KEFD RNAV 17 R
+	ZORLU, N29.49.15.6, W95.10.11.4, 0, ZORLU
+
+# KSGR RNAV 17
+	BASGE, N29.49.21.0, W95.46.17.4, 0, BASGE
+	EBOKE, N29.49.43.8, W95.40.36.6, 0, EBOKE
+	DIZGY, N29.50.10.2, W95.34.49.8, 0, DIZGY
+	POPAM, N29.28.06.0, W95.38.33.0, -350, POP AM
+
+# KGLS RNAV 14
+	FOMAH, N29.19.30.0, W95.09.58.8
+	BOBLE, N29.32.22.8, W94.52.28.2
+	UCENU, N29.25.57.0, W95.01.15.6
+	DELVE, N29.08.06.6, W95.15.33.0, 271, DELVE
+
+# KGLS RNAV 18
+	TARCU, N29°29.23', W95°2.89'
+	OMEHU, N29.29.04.8, W94.51.25.8
+	PICIP, N29.28.55.2, W94.39.59.4
+
+# KTME RNAV 18
+	BIMTE, N30.00.36.0, W95.59.51.6
+	CAGSO, N30.00.37.8, W95.54.06.0
+	ACECI, N30.00.43.8, W95.48.20.4
+	EBERE, N29.36.43.8, W95.59.25.8, 0, EBERE
 
 # Depature End point Beacons
 #	BLTWY, N30.6062, W95.4915, 0, BLTWY
@@ -220,37 +175,13 @@ beacons =
 #	SPINY, N29.8540, W94.0447, 0, SPINY
 #	SBI, N29.6877, W94.0387, 0, SBI
 
-boundary =
-# WEST OF KIDDZ
-	-59.56, 17.23
-# NORTH OF SUUNR
-	-44.04, 32.05
-# SOUTHWEST OF ZEEKK
-	30.39, 34.45
-# NORTHWEST OF ZEEKK
-	34.70, 45.91 
-# NORTHEAST OF ZEEKK
-	41.70, 45.35
-# EAST OF DOOBI
-	49.45, 31.75
-# EASt OF WLMOR
-	43.31, 25.23
-# NORTH OF LINKK
-	51.10, -11.59 
-# EAST OF LINKK
-	59.16, -16.83 
-# SOUTH OF TKNIQ
-	45.00, -44.04 
-# SOUTHEAST OF VUH
-	30.74, -40.62 
-# SOUTHEAST OF BELLR
-	-32.45, -38.70 
-# SOUTH OF BELLR
-	-42.83, -42.83 
-# WEST OF BELLR
-	-49.99, -34.37 
-# SOUTH OF TEJAS
-	-39.00, -19.25 
+handoff = 
+	0, Houston Center, Houston Center, 123.725
+	45, Houston Center, Houston Center, 132.775
+	90, Houston Center, Houston Center, 123.825
+	135, Houston Center, Houston Center, 132.65
+	225, Houston Center, Houston Center, 124.725
+	270, Houston Center, Houston Center, 126.425
 
 line1 =
 	N29.13633, W95.08965
@@ -292,22 +223,22 @@ name = George Bush Intercontinental Houston Airport, Houston
 code = KIAH
 
 runways =
-	rwyKIAH26R, 26R, N30.0072, W95.3303, 270, 9000, 0, 0, 94, 3, 270, 3, 90
-	rwyKIAH26L, 26L, N29.9935, W95.3253, 270, 9402, 0, 0, 93, 3, 270, 3, 90
-	rwyKIAH27, 27, N29.9777, W95.3025, 270, 10000, 0, 0, 84, 3, 270, 3, 90
+	rwyKIAH26R, 26R, N30.0072, W95.3303, 270, 9000, 0, 0, 94, 3, 270, 3, 90, 0, 0, 0, 0, 120.725
+	rwyKIAH26L, 26L, N29.9935, W95.3253, 270, 9402, 0, 0, 93, 3, 270, 3, 90, 0, 0, 0, 0, 125.35
+	rwyKIAH27, 27, N29.9777, W95.3025, 270, 10000, 0, 0, 84, 3, 270, 3, 90, 0, 0, 0, 0, 135.15
 	rwyKIAH15L, 15L, N29.9878, W95.3578, 152.0, 12001, 0, 0, 95
 	rwyKIAH15R, 15R, N29.9878, W95.3613, 152.0, 9999, 0, 0, 95
 
 climbaltitude = 4000
 
 entrypoints = 
-	40, ZEEKK
-	50, DOOBI
-	110, LINKK
-	120, BAYYY
-	250, TEJAS
-	310, SUUNR	
-	320, DRLLR
+	40, ZEEKK, 15000
+	50, DOOBI, 17000
+	110, LINKK, 16000
+	120, BAYYY, 14000
+	250, GMANN, 17000
+	310, SUUNR, 13000	
+	320, MPORT, 17000
 
 airlines = 
 # Main Passenger Airliners
@@ -370,23 +301,23 @@ airlines =
 [airport2]
 ##############################################################
 
-name = Houston Hobby
+name = Houston Hobby, Hobby
 code = OU
 runways =
-	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44 
-	rwyKHOU13L, 13L, N29.6526, W95.2839, 133.9, 5148, 0, 0, 45
-	rwyKHOU13R, 13R, N29.6510, W95.2855, 134, 7599, 0, 0, 44, 3, 134, 3, 314
+	rwyKHOU22, 22, N29.6542, W95.2687, 224, 7602, 0, 0, 42, 3, 224, 3, 44, 0, 0, 0, 0, 118.7 
+	rwyKHOU13L, 13L, N29.6526, W95.2839, 133.9, 5148, 0, 0, 45, 0, 0, 0, 0, 118.7
+	rwyKHOU13R, 13R, N29.6510, W95.2855, 134, 7599, 0, 0, 44, 3, 134, 3, 314, 0, 0, 0, 0, 118.7
 
-flow = 10
+traffic = 6.0
 
 climbaltitude = 5000
 
 entrypoints=
-	60, WLMOR
-	120, BAYYY
-	130, TKNIQ
-	240, BELLR
-	300, KIDDZ
+	60, WAPPL, 23000
+	120, BAYYY, 18000
+	130, TKNIQ, 13000
+	240, BELLR, 12000
+	300, KIDDZ, 13000
 
 airlines = 
 # Commerical Airliners
@@ -403,6 +334,172 @@ airlines =
 	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
 	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
 
+##############################################################
+[airport3]
+##############################################################
+
+name = Conroe/North Houston Regional, Conroe
+code = XO
+
+runways =
+	rwyKCXO14, 14, N30.21.45.6, W95.25.13.80, 145, 7501, 0, 0, 234.1, 3, 145, 3, 325, 0, 0, 0, 0, 124.125
+	rwyKCXO01, 01, N30.20.44.4, W95.25.10.2, 17, 5000, 0, 0, 229.6, 3.15, 17, 3, 197, 0, 0, 0, 0, 124.125
+
+traffic = 50.98
+
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 18000
+	240, COWZZ, 20000
+	320, BAATS, 10000
+
+airlines = 
+# Private
+	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
+	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
+
+climbaltitude = 3000
+
+##############################################################
+[airport4]
+##############################################################
+
+name = David Wayne Hooks Memorial, Hooks
+code = WH
+
+runways = 
+	rwyKDWH17R, 17R, N30.04.24.00, W95.33.17.4, 173, 7009, 1007, 0, 150, 3, 173, 3, 373, 0, 0, 0, 0, 118.4
+	rwyKDWH17L, 17L, N30.03.45.6, W95.33.07.8, 173, 3500, 0, 208, 149.9, 3, 353, 0, 0, 0, 0, 118.4
+
+traffic = 51.30
+
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 18000
+	240, COWZZ, 20000
+	320, BAATS, 10000
+
+airlines = 
+# Private
+	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
+	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
+
+climbaltitude = 3000
+
+##############################################################
+[airport5]
+##############################################################
+
+name = Ellington, Ellington
+code = FD
+
+runways =
+	rwyKEFD17R, 17R, N29.37.06.00, W95.09.51.6, 179, 9001, 0, 0, 31.9, 3, 179, 3, 359, 0, 0, 0, 0, 126.05
+	rwyKEFD17L, 17L, N29.37.06.6, W95.09.22.20, 179, 4609, 0, 0, 31, 3, 179, 3, 359, 0, 0, 0, 0, 126.05
+	rwyKEFD22, 22, N29.36.50.40, W95.08.43.8, 224, 8001, 0, 0, 30.3, 3, 224, 3, 44, 0, 0, 0, 0, 126.05
+
+traffic = 31.33
+
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 23000
+	130, TKNIQ, 13000
+	240, BELLR, 13000
+	290, COWZZ, 9000
+	300, KIDDZ, 13000
+
+airlines = 
+# Commuter
+	ash, 1, crj7/crj9, air shuttle, n
+	skw, 1, crj7/e175, sky west, n
+	jsx, 1, e135/e145, big stripe, ew
+
+# Private
+	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
+	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
+
+climbaltitude = 3000
+
+##############################################################
+[airport6]
+##############################################################
+
+name = Sugar Land Regional, Sugar Land
+code = GR
+
+runways =
+	rwyKSGR17, 17, N29.37.59.4, W95.39.27.0, 175, 8000, 380, 0, 81.1, 3, 175, 3, 355, 0, 0, 0, 0, 118.65
+
+traffic = 77.51
+
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 23000
+	130, TKNIQ, 13000
+	240, BELLR, 13000
+	290, COWZZ, 9000
+
+airlines = 
+# Private
+	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
+	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
+
+climbaltitude = 3000
+
+##############################################################
+[airport7]
+##############################################################
+
+name = Scholes International at Galveston, Scholes 
+code = LS
+
+runways =
+	rwyKGLS18, 18, N29.16.24.6, W94.51.32.4, 181, 6001, 0, 0, 5.6, 3, 181, 3, 320, 0, 0, 0, 0, 120.575
+	rwyKGLS14, 14, N29.16.18.0, W94.52.03.6, 140, 6000, 0, 0, 5.3, 3, 140, 3, 320, 0, 0, 0, 0, 120.575
+
+traffic = 402.20
+
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 23000
+	130, TKNIQ, 13000
+	240, BELLR, 13000
+	290, COWZZ, 9000
+	300, KIDDZ, 13000
+
+airlines = 
+# Private
+	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
+	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
+
+climbaltitude = 3000
+
+##############################################################
+[airport8]
+##############################################################
+
+name = Houston Executive, Executive
+code = ME
+
+runways =
+	rwyKTME18, 18, N29.48.51.0, W95.53.52.80, 179, 6610, 0, 0, 165.9, 3, 179, 3, 359, 0, 0, 0, 0, 126.975
+
+traffic = 652.32
+
+entrypoints=
+	40, ZEEKK, 15000
+	60, WAPPL, 23000
+	130, TKNIQ, 13000
+	240, BELLR, 13000
+	290, COWZZ, 9000
+
+airlines = 
+# Private
+	n-744hj, 1, g280/glf1/glf2/glf3/glf4/glf5/glf6, news
+	n-845yy, 1, fa5x/fa7x/fa8x/gl5t/gl7t/glex, news
+
+climbaltitude = 3000
+
 ##############################################################	
 [configurations]
 ##############################################################
@@ -416,6 +513,16 @@ config1=
 	0, rwyKIAH15L, start
 	0, rwyKHOU22, landrev
 	0, rwyKHOU13R, start
+	0, rwyKCXO14, startland
+	0, rwyKCXO01, startrev
+	0, rwyKDWH17R, startland
+	0, rwyKEFD22, landrev
+	0, rwyKEFD17R, startland
+	0, rwyKSGR17, startland	
+	0, rwyKGLS14, startland
+	0, rwyKGLS18, startland
+	0, rwyKTME18, startland	
+
 
 # KHOU A13R D22
 config2= 
@@ -426,6 +533,15 @@ config2=
 	0, rwyKIAH15L, start
 	0, rwyKHOU22, start
 	0, rwyKHOU13R, land
+	0, rwyKCXO14, startland
+	0, rwyKCXO01, startrev
+	0, rwyKDWH17R, startland
+	0, rwyKEFD22, landrev
+	0, rwyKEFD17R, startland
+	0, rwyKSGR17, startland
+	0, rwyKGLS14, startland
+	0, rwyKGLS18, startland
+	0, rwyKTME18, startland
 
 ##############################################################
 [departure101]
@@ -437,6 +553,8 @@ route1 =
 	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
+# HOODO
+	N28.59.57.0, W94.21.16.2
 
 route2 = 
 	FLYZA5, FLY ZA FIVE
@@ -518,7 +636,7 @@ route7 =
 route8 = 
 	BELTWY7, BELT WAY SEVEN
 # RIGHT TURN
-	-8.00, 1.00
+	N29°57.66', W95°25.48'
 # DREMR
 	N30.3018, W95.4192
 # LITLD
@@ -529,7 +647,7 @@ route8 =
 route9 =
 	LURIC8, LYRIC EIGHT
 # RIGHT TURN
-	-8.00, 1.00
+	N29°57.66', W95°25.48'
 # KNTKY
 	N30.0868, W95.2613
 # PEETY
@@ -542,7 +660,7 @@ route9 =
 route10 =
 	STYCK8, STICK EIGHT
 # RIGHT TURN
-	-8.00, 1.00
+	N29°57.66', W95°25.48'
 # BBYSE
 	N30.0955, W95.4042
 # SPICR
@@ -553,7 +671,7 @@ route10 =
 route11 = 
 	WYLSN8, WILSON EIGHT
 # RIGHT TURN
-	-8.00, 1.00
+	N29°57.66', W95°25.48'
 # WYLSN
 	N30.3083, W95.3225
 # MONNT
@@ -562,7 +680,7 @@ route11 =
 route12 = 
 	INDIE8, INDIE EIGHT
 # RIGHT TURN
-	-8.00, 1.00
+	N29°57.66', W95°25.48'
 # RENNK
 	N30.2915, W95.2225
 # COLET
@@ -581,6 +699,7 @@ route1 =
 	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
+	N28.59.57.0, W94.21.16.2
 
 route2 = 
 	FLYZA5, FLY ZA FIVE
@@ -710,7 +829,7 @@ route5 =
 	N30.5920, W95.0732
 
 route6 =
-	ELOCO5, L LOCO FIVE
+	ELOCO5, L LOCO FIVE YOKEM
 # ELOCO
 	N29.5878, W95.0195
 # CHPEE
@@ -726,6 +845,7 @@ route7 =
 	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
+	N28.59.57.0, W94.21.16.2
 
 route8 =
 	PEECE5, PEACE FIVE
@@ -847,6 +967,7 @@ route7 =
 	HOODO7, HOO DO SEVEN
 # VUH
 	N29.2702, W94.8683
+	N28.59.57.0, W94.21.16.2
 
 route8 =
 	PEECE5, PEACE FIVE
@@ -901,6 +1022,1145 @@ route13 =
 	N29.8085, W96.5713
 
 ##############################################################
+[departure301]
+##############################################################
+
+runway = rwyKCXO14
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 = 
+	BORRN7, BORN 4 ZU
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# ZUUUU
+	N30.0985, W96.2393
+
+route3 =
+	BORRN7, BORN 4 BOCK
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667 
+
+route4 = 
+	BORRN7, BORN 4 WEED
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+route5 =
+	HOODO7, HOO DO SEVEN
+# VUH
+	N29.2702, W94.8683
+	N28.59.57.0, W94.21.16.2
+
+route6 = 
+	INDIE8, INDIE EIGHT
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route7 =
+	KARRR6, CAR 6 SCUBA
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# SKUBA
+	N29.1957, W95.7912
+
+route8 =
+	KARRR6, CAR 6 RIG
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# RIIGG
+	N28.9027, W95.6177
+
+route9 =
+	LURIC8, LYRIC EIGHT
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10=
+	MMALT5, MALT 5 HOURN
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# HOURN
+	N29.9970, W94.3045
+# BLING
+	N30.0315, W94.0190
+
+route11=
+	MMALT5, MALT 5 JAY
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# JAAYE
+	N29.8625, W94.3217
+# SPINY
+	N29.8540, W94.0447
+
+route12=
+	MMALT5, MALT 5 YOKEM
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# YOKEM
+	N29.7212, W94.3432
+# SBI
+	N29.6877, W94.0387
+
+route13 =
+	STYCK8, STICK EIGHT
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route14 = 
+	WYLSN8, WILSON EIGHT
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+##############################################################
+[departure302]
+##############################################################
+
+runway = rwyKCXO01, rev
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 = 
+	BORRN7, BORN 4 ZU
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# ZUUUU
+	N30.0985, W96.2393
+
+route3 =
+	BORRN7, BORN 4 BOCK
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667 
+
+route4 = 
+	BORRN7, BORN 4 WEED
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+route5 =
+	HOODO7, HOO DO SEVEN
+# VUH
+	N29.2702, W94.8683
+	N28.59.57.0, W94.21.16.2
+
+route6 = 
+	INDIE8, INDIE EIGHT
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route7 =
+	KARRR6, CAR 6 SCUBA
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# SKUBA
+	N29.1957, W95.7912
+
+route8 =
+	KARRR6, CAR 6 RIG
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# RIIGG
+	N28.9027, W95.6177
+
+route9 =
+	LURIC8, LYRIC EIGHT
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10=
+	MMALT5, MALT 5 HOURN
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# HOURN
+	N29.9970, W94.3045
+# BLING
+	N30.0315, W94.0190
+
+route11=
+	MMALT5, MALT 5 JAY
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# JAAYE
+	N29.8625, W94.3217
+# SPINY
+	N29.8540, W94.0447
+
+route12=
+	MMALT5, MALT 5 YOKEM
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# YOKEM
+	N29.7212, W94.3432
+# SBI
+	N29.6877, W94.0387
+
+route13 =
+	STYCK8, STICK EIGHT
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route14 = 
+	WYLSN8, WILSON EIGHT
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+##############################################################
+[departure401]
+##############################################################
+
+runway = rwyKDWH17R
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 = 
+	BORRN4, BORN 4 ZU
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# ZUUUU
+	N30.0985, W96.2393
+
+route3 =
+	BORRN4, BORN 4 BOCK
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667 
+
+route4 = 
+	BORRN4, BORN 4 WEED
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+route5 =
+	HOODO7, HOO DO SEVEN
+# VUH
+	N29.2702, W94.8683
+# HOODO
+	N28.59.57.0, W94.21.16.2
+
+route6 = 
+	INDIE8, INDIE EIGHT
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route7 =
+	KARRR6, CAR 6 SCUBA
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# SKUBA
+	N29.1957, W95.7912
+
+route8 =
+	KARRR6, CAR 6 RIG
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# RIIGG
+	N28.9027, W95.6177
+
+route9 =
+	LURIC8, LYRIC EIGHT
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10=
+	MMALT5, MALT 5 HOURN
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# HOURN
+	N29.9970, W94.3045
+# BLING
+	N30.0315, W94.0190
+
+route11=
+	MMALT5, MALT 5 JAY
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# JAAYE
+	N29.8625, W94.3217
+# SPINY
+	N29.8540, W94.0447
+
+route12=
+	MMALT5, MALT 5 YOKEM
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# YOKEM
+	N29.7212, W94.3432
+# SBI
+	N29.6877, W94.0387
+
+route13 =
+	STYCK8, STICK EIGHT
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route14 = 
+	WYLSN8, WILSON EIGHT
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+##############################################################
+[departure501]
+##############################################################
+
+runway = rwyKEFD17R
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# 8.24, -14.99 (N29.5987, W95.0537, IAH R142/D26.4)
+# LEFT TURN
+	N29.5987, W95.0537
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 = 
+	BORRN4, BORN 4 ZU
+# LEFT TURN
+	N29.5987, W95.0537
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# ZUUUU
+	N30.0985, W96.2393
+
+route3 =
+	BORRN4, BORN 4 BOCK
+# LEFT TURN
+	N29.5987, W95.0537
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667 
+
+route4 = 
+	BORRN4, BORN 4 WEED
+# LEFT TURN
+	N29.5987, W95.0537
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+route5 =
+	HOODO7, HOO DO SEVEN
+# VUH
+	N29.2702, W94.8683
+# HOODO
+	N28.59.57.0, W94.21.16.2
+
+route6 = 
+	INDIE8, INDIE EIGHT
+# LEFT TURN
+	N29.5987, W95.0537
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route7 =
+	KARRR6, CAR 6 SCUBA
+# RWY HEADING 
+	N29.5401, W95.1640
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# SKUBA
+	N29.1957, W95.7912
+
+route8 =
+	KARRR6, CAR 6 RIG
+# RWY HEADING 
+	N29.5401, W95.1640
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# RIIGG
+	N28.9027, W95.6177
+
+route9 =
+	LURIC8, LYRIC EIGHT
+# LEFT TURN
+	N29.5987, W95.0537
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10=
+	MMALT5, MALT 5 HOURN
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# HOURN
+	N29.9970, W94.3045
+# BLING
+	N30.0315, W94.0190
+
+route11=
+	MMALT5, MALT 5 JAY
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# JAAYE
+	N29.8625, W94.3217
+# SPINY
+	N29.8540, W94.0447
+
+route12=
+	MMALT5, MALT 5 YOKEM
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# YOKEM
+	N29.7212, W94.3432
+# SBI
+	N29.6877, W94.0387
+
+route13 =
+	STYCK8, STICK EIGHT
+# LEFT TURN
+	N29.5987, W95.0537
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route14 = 
+	WYLSN8, WILSON EIGHT
+# LEFT TURN
+	N29.5987, W95.0537
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+##############################################################
+[departure601]
+##############################################################
+
+runway = rwyKSGR17
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 = 
+	BORRN4, BORN 4 ZU
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# ZUUUU
+	N30.0985, W96.2393
+
+route3 =
+	BORRN4, BORN 4 BOCK
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667 
+
+route4 = 
+	BORRN4, BORN 4 WEED
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+route5 =
+	HOODO7, HOO DO SEVEN
+# VUH
+	N29.2702, W94.8683
+# HOODO
+	N28.59.57.0, W94.21.16.2
+
+route6 = 
+	INDIE8, INDIE EIGHT
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route7 =
+	KARRR6, CAR 6 SCUBA
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# SKUBA
+	N29.1957, W95.7912
+
+route8 =
+	KARRR6, CAR 6 RIG
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# RIIGG
+	N28.9027, W95.6177
+
+route9 =
+	LURIC8, LYRIC EIGHT
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10=
+	MMALT5, MALT 5 HOURN
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# HOURN
+	N29.9970, W94.3045
+# BLING
+	N30.0315, W94.0190
+
+route11=
+	MMALT5, MALT 5 JAY
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# JAAYE
+	N29.8625, W94.3217
+# SPINY
+	N29.8540, W94.0447
+
+route12=
+	MMALT5, MALT 5 YOKEM
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# YOKEM
+	N29.7212, W94.3432
+# SBI
+	N29.6877, W94.0387
+
+route13 =
+	STYCK8, STICK EIGHT
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route14 = 
+	WYLSN8, WILSON EIGHT
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+##############################################################
+[departure701]
+##############################################################
+
+runway = rwyKGLS14
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 = 
+	BORRN4, BORN 4 ZU
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# ZUUUU
+	N30.0985, W96.2393
+
+route3 =
+	BORRN4, BORN 4 BOCK
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667 
+
+route4 = 
+	BORRN4, BORN 4 WEED
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+route5 =
+	HOODO7, HOO DO SEVEN
+# VUH
+	N29.2702, W94.8683
+# HOODO
+	N28.59.57.0, W94.21.16.2
+
+route6 = 
+	INDIE8, INDIE EIGHT
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route7 =
+	KARRR6, CAR 6 SCUBA
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# SKUBA
+	N29.1957, W95.7912
+
+route8 =
+	KARRR6, CAR 6 RIG
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# RIIGG
+	N28.9027, W95.6177
+
+route9 =
+	LURIC8, LYRIC EIGHT
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10=
+	MMALT5, MALT 5 HOURN
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# HOURN
+	N29.9970, W94.3045
+# BLING
+	N30.0315, W94.0190
+
+route11=
+	MMALT5, MALT 5 JAY
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# JAAYE
+	N29.8625, W94.3217
+# SPINY
+	N29.8540, W94.0447
+
+route12=
+	MMALT5, MALT 5 YOKEM
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# YOKEM
+	N29.7212, W94.3432
+# SBI
+	N29.6877, W94.0387
+
+route13 =
+	STYCK8, STICK EIGHT
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route14 = 
+	WYLSN8, WILSON EIGHT
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+##############################################################
+[departure702]
+##############################################################
+
+runway = rwyKGLS18
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 = 
+	BORRN4, BORN 4 ZU
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# ZUUUU
+	N30.0985, W96.2393
+
+route3 =
+	BORRN4, BORN 4 BOCK
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667 
+
+route4 = 
+	BORRN4, BORN 4 WEED
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+route5 =
+	HOODO7, HOO DO SEVEN
+# VUH
+	N29.2702, W94.8683
+# HOODO
+	N28.59.57.0, W94.21.16.2
+
+route6 = 
+	INDIE8, INDIE EIGHT
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route7 =
+	KARRR6, CAR 6 SCUBA
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# SKUBA
+	N29.1957, W95.7912
+
+route8 =
+	KARRR6, CAR 6 RIG
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# RIIGG
+	N28.9027, W95.6177
+
+route9 =
+	LURIC8, LYRIC EIGHT
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10=
+	MMALT5, MALT 5 HOURN
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# HOURN
+	N29.9970, W94.3045
+# BLING
+	N30.0315, W94.0190
+
+route11=
+	MMALT5, MALT 5 JAY
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# JAAYE
+	N29.8625, W94.3217
+# SPINY
+	N29.8540, W94.0447
+
+route12=
+	MMALT5, MALT 5 YOKEM
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# YOKEM
+	N29.7212, W94.3432
+# SBI
+	N29.6877, W94.0387
+
+route13 =
+	STYCK8, STICK EIGHT
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route14 = 
+	WYLSN8, WILSON EIGHT
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+##############################################################
+[departure801]
+##############################################################
+
+runway = rwyKTME18
+			
+route1 = 
+	BELTWY7, BELT WAY SEVEN
+# DREMR
+	N30.3018, W95.4192
+# LITLD
+	N30.5053, W95.4688
+# BELTWY
+	N30.6062, W95.4915
+
+route2 = 
+	BORRN4, BORN 4 ZU
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# ZUUUU
+	N30.0985, W96.2393
+
+route3 =
+	BORRN4, BORN 4 BOCK
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# BOCCK
+	N29.9377, W96.2083
+# MNURE
+	N29.9938, W96.5667 
+
+route4 = 
+	BORRN4, BORN 4 WEED
+# BORRN
+	N29.54.08.4, W95.45.25.2
+# DILRE
+	N29.54.25.2, W95.53.57.6
+# WEEED
+	N29.7802, W96.1827
+# WAILN
+	N29.8085, W96.5713
+
+route5 =
+	HOODO7, HOO DO SEVEN
+# VUH
+	N29.2702, W94.8683
+# HOODO
+	N28.59.57.0, W94.21.16.2
+
+route6 = 
+	INDIE8, INDIE EIGHT
+# RENNK
+	N30.2915, W95.2225
+# COLET
+	N30.4503, W95.1615
+# SUSHI
+	N30.5920, W95.0732
+
+route7 =
+	KARRR6, CAR 6 SCUBA
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# SKUBA
+	N29.1957, W95.7912
+
+route8 =
+	KARRR6, CAR 6 RIG
+# KARRR
+	N29.22.48, W95.22.34.2
+# KAVCY
+	N29.17.54.6, W95.27.46.8
+# RIIGG
+	N28.9027, W95.6177
+
+route9 =
+	LURIC8, LYRIC EIGHT
+# KNTKY
+	N30.0868, W95.2613
+# PEETY
+	N30.2510, W95.1297
+# DARTR
+	N30.4037, W95.0072
+# MUSIQ
+	N30.5533, W94.8927
+
+route10=
+	MMALT5, MALT 5 HOURN
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# HOURN
+	N29.9970, W94.3045
+# BLING
+	N30.0315, W94.0190
+
+route11=
+	MMALT5, MALT 5 JAY
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# JAAYE
+	N29.8625, W94.3217
+# SPINY
+	N29.8540, W94.0447
+
+route12=
+	MMALT5, MALT 5 YOKEM
+# MMALT
+	N29.52.15.6, W94.47.01.2
+# MOOKI
+	N29.52.09, W94.36.41.4
+# YOKEM
+	N29.7212, W94.3432
+# SBI
+	N29.6877, W94.0387
+
+route13 =
+	STYCK8, STICK EIGHT
+# BBYSE
+	N30.0955, W95.4042
+# SPICR
+	N30.2757, W95.5050
+# WLLIS
+	N30.5348, W95.6522
+
+route14 = 
+	WYLSN8, WILSON EIGHT
+# WYLSN
+	N30.3083, W95.3225
+# MONNT
+	N30.4780, W95.3122
+
+##############################################################
 [approach1001]
 ##############################################################
 
@@ -912,11 +2172,11 @@ route1 =
 # HOOTI
 	N30.1153, W94.7353, 6000, 210
 # GRIZL
-	N30.0345, W94.7698, 6000
+	N30.0345, W94.7698
 # ZAPPO
 	N30.0078, W94.8195, 5000
 # ILS 26R Intercept at NEWLY
-	21.6, 5000
+	21.6
 
 ##############################################################
 [approach1002]
@@ -928,9 +2188,9 @@ beacon = ZAPPO
 route1 =
 	200, ILS26R, I L S 2 6 RIGHT ZAP PO 
 # ZAPPO
-	N30.0078, W94.8195, 5000, 210
+	N30.0078, W94.8195, 5000
 # ILS 26R Intercept
-	21.6, 5000
+	21.6
 
 ##############################################################
 [approach1003]
@@ -942,9 +2202,9 @@ beacon = RAIDS
 route1 =
 	200, ILS26R, I L S 2 6 RIGHT RAIDS 
 # RAIDS
-	N30.0078, W94.9973, 4000, 210
+	N30.0078, W94.9973
 # ILS 26R Intercept
-	10.2, 3000
+	16.0, 5000
 
 ##############################################################
 [approach1004]
@@ -958,11 +2218,11 @@ route1 =
 # BOZZZ
 	N30.0097, W94.7677, 8000, 210
 # VANNN
-	N29.9937, W94.8200, 7000, 210
+	N29.9937, W94.8200
 # MKAYE 
 	N29.9945, W94.9158, 7000
 # ILS 26L Intercept
-	17.1, 5000
+	16.0, 5000
 
 ##############################################################
 [approach1005]
@@ -974,11 +2234,11 @@ beacon = VANNN
 route1 = 
 	248, ILS26L, I L S 2 6 LEFT  VAN
 # VANNN
-	N29.9937, W94.8200, 7000, 210
+	N29.9937, W94.8200
 # MKAYE 
 	N29.9945, W94.9158, 7000
 # ILS 26L Intercept
-	17.1, 5000
+	16.0, 5000
 
 ##############################################################
 [approach1006]
@@ -992,11 +2252,11 @@ route1 =
 # GARRR
 	N29.9757, W94.7627, 7000
 # VANNN
-	N29.9937, W94.8200, 7000, 210
+	N29.9937, W94.8200
 # MKAYE 
 	N29.9945, W94.9158, 7000
 # ILS 26L Intercept
-	17.1, 5000
+	16.0, 5000
 
 ##############################################################
 [approach1007]
@@ -1008,9 +2268,9 @@ beacon = GRIEG
 route1 = 
 	287, ILS26L, I L S 2 6 LEFT GRIEG 
 # GRIEG
-	N29.9940, W94.9975, 5000, 210
+	N29.9940, W94.9975
 # ILS 26L Intercept
-	9.9, 3000
+	16.0, 5000
 
 ##############################################################
 [approach1008]
@@ -1024,13 +2284,11 @@ route1 =
 # CLSIK
 	N30.0030, W94.6268, 4000, 210
 # GRUNG
-	N29.9780, W94.7003, 4000
+	N29.9780, W94.7003
 # SILLS
 	N29.9783, W94.8195, 4000
-# TRANN
-	N29.9787, W94.9163, 3000
 # ILS 27 Intercept
-	15.9, 2000, 200
+	21.6, 3000
 
 ##############################################################
 [approach1009]
@@ -1043,10 +2301,8 @@ route1 =
 	246, ILS27, I L S 2 7 SILLS 
 # SILLS
 	N29.9783, W94.8195, 4000
-# TRANN
-	N29.9787, W94.9163, 3000
-# ILS 27 Intercept
-	15.9, 2000, 200
+# ILS
+	21.6, 3000
 
 ##############################################################
 [approach1010]
@@ -1062,11 +2318,11 @@ route1 =
 # GEYGR
 	N29.9132, W94.8093, 4000
 # SYYKO
-	N29.9615, W94.8622, 3000
+	N29.9615, W94.8622
 # TRANN
 	N29.9787, W94.9163, 3000
 # ILS 27 Intercept
-	15.9, 2000
+	16.0
 
 ##############################################################
 [approach1011]
@@ -1078,9 +2334,9 @@ beacon = DENTO
 route1 = 
 	313, ILS27, I L S 2 7 DENTO 
 # DENTO
-	N29.9782, W94.9968, 2000, 210
+	N29.9782, W94.9968
 # DENTO ILS 27 Intercept
-	8.7, 2000
+	13, 3000
 
 ##############################################################
 [approach1101]
@@ -1110,9 +2366,11 @@ route1 =
 
 # DRILLER FIVE TO 26R VIA SKLER
 runway = rwyKIAH26R
-beacon = DRLLR
+beacon = MPORT
 route1 = 
 	136, DRLLR5, DRILLER 5 SKYLER
+# MPORT
+	N30.30.05, W95.52.34, 17000
 # DRLLR
 	N30.3587, W95.7392, 13000, 250
 # PTROL
@@ -1146,9 +2404,11 @@ route1 =
 
 # DRILLER FIVE TO 26L VIA ZOEEE
 runway = rwyKIAH26L
-beacon = DRLLR
+beacon = MPORT
 route1 = 
 	136, DRLLR5, DRILLER 5 ZOE
+# MPORT
+	N30.30.05, W95.52.34, 17000
 # DRLLR
 	N30.3587, W95.7392, 14000, 250
 # PTROL
@@ -1182,9 +2442,11 @@ route1 =
 
 # DRILLER FIVE TO 27 VIA BYSUN
 runway = rwyKIAH27
-beacon = DRLLR
+beacon = MPORT
 route1 =
 	136, DRLLR5, DRILLER 5 BISON
+# MPORT
+	N30.30.05, W95.52.34, 17000
 # DRLLR
 	N30.3587, W95.7392, 15000, 250
 # PTROL
@@ -1266,7 +2528,7 @@ beacon = SUUNR
 route1 =
 	116, MSCOT4, MASCOT 4 SKYLER
 # SUUNR
-	N30.3615, W96.0358, 14000, 280
+	N30.3615, W96.0358, 12000
 # MSCOT
 	N30.2610, W95.8293, 10000
 # HWKII
@@ -1288,7 +2550,7 @@ beacon = SUUNR
 route1 =
 	116, MSCOT4, MASCOT 4 ZOE
 # SUUNR
-	N30.3615, W96.0358, 14000, 280
+	N30.3615, W96.0358, 12000
 # MSCOT
 	N30.2610, W95.8293, 10000
 # HWKII
@@ -1310,7 +2572,7 @@ beacon = SUUNR
 route1 =
 	116, MSCOT4, MASCOT 4 BISON
 # SUUNR
-	N30.3615, W96.0358, 14000, 280
+	N30.3615, W96.0358, 12000
 # MSCOT
 	N30.2610, W95.8293, 10000
 # HWKII
@@ -1368,11 +2630,15 @@ route1 =
 
 # TEJAS FOUR TO 26R
 runway = rwyKIAH27
-beacon = TEJAS 
+beacon = GMANN 
 route1 =
 	59, TEJAS4, TEXAS 4 ZOE
+# GMANN
+	N29.32.85, W96.12.00, 16000
+# CITTE
+	N29.36.68, W96.03.94
 # TEJAS
-	N29.6877, W95.9037, 13000, 250
+	N29.6877, W95.9037, 12000, 250
 # RIDLR
 	N29.7823, W95.7050, 10000
 # BEEEP
@@ -1410,9 +2676,13 @@ route1 =
 
 # TEJAS FOUR TO 26L
 runway = rwyKIAH26L
-beacon = TEJAS 
+beacon = GMANN 
 route1 =
 	59, TEJAS4, TEXAS 4 SYCAMOR
+# GMANN
+	N29.32.85, W96.12.00, 16000
+# CITTE
+	N29.36.68, W96.03.94, 16000
 # TEJAS
 	N29.6877, W95.9037, 13000, 250
 # RIDLR
@@ -1452,11 +2722,15 @@ route1 =
 
 # TEJAS FOUR TO 27
 runway = rwyKIAH26R
-beacon = TEJAS 
+beacon = GMANN 
 route1 =
 	59, TEJAS4, TEXAS 4 SHIV
+# GMANN
+	N29.32.85, W96.12.00, 16000
+# CITTE
+	N29.36.68, W96.03.94, 16000
 # TEJAS
-	N29.6877, W95.9037, 13000, 250
+	N29.6877, W95.9037, 12000, 250
 # RIDLR
 	N29.7823, W95.7050, 10000
 # BEEEP
@@ -1563,10 +2837,9 @@ beacon = JABBS
 route1 = 
 	049, ILS13R, I L S 1 3 R JABS 
 # JABBS
-	N29.8067, W95.4705, 2000, 210
+	N29.8067, W95.4705, 0, 210
 # INTERCEPT ADJUSTED TO FIT THE SIMULATION
-	6.5, 2000
-
+	13, 4000
 
 ##############################################################
 [approach2003]
@@ -1582,7 +2855,7 @@ route1 =
 # CARCO
 	N29.4680, W95.4753, 4000
 # ILS INTERCEPT
-	7.3, 2000
+	13.0
 ##############################################################
 [approach2004]
 ##############################################################
@@ -1593,9 +2866,9 @@ beacon = CARCO
 route1 = 
 	4, ILS04, I L S 0 4 CARCO 
 # CARCO
-	N29.4680, W95.4753, 4000, 210
+	N29.4680, W95.4753, 4000
 # ILS INTERCEPT
-	7.3, 2000
+	13.0
 
 ##############################################################
 [approach2101]
@@ -1607,7 +2880,7 @@ beacon = BAYYY
 route1 = 
 	274, BAYYY4, BAY 4 IVY
 # BAYYY
-	N29.3788, W94.3710, 17000, 280
+	N29.3788, W94.3710, 17000
 # PUCKS
 	N29.4092, W94.6635, 12000
 # FRDDY
@@ -1656,9 +2929,9 @@ beacon = KIDDZ
 route1 = 
 	152, KIDDZ4, KIDS 4 CHRISTY
 # KIDDZ
-	N30.2238, W96.2158, 13000, 280
+	N30.2238, W96.2158, 13000
 # SNIFY
-	N30.1585, W96.1813, 12000, 270
+	N30.1585, W96.1813, 12000
 # QTRBK
 	N30.0602, W96.1283
 # RVEEE
@@ -1707,15 +2980,17 @@ route1 =
 
 # WAPPL SIX TO KHOU13R
 runway = rwyKHOU13R
-beacon = WLMOR
+beacon = WAPPL
 route1 = 
 	250, WAPPL6, WAPPLE 6 PRITCH
+# WAPPL
+	N30.13.99, W94.19.89, 22000
 # WLMOR
 	N30.1532, W94.6252, 15000
 # HUDZY
 	N30.1045, W94.8093
 # CLWSN
-	N30.0740, W94.9188, 12000, 280
+	N30.0740, W94.9188, 12000
 # SWWAA
 	N30.0095, W95.1577, 10000, 250
 # PUSHN
@@ -1743,7 +3018,7 @@ beacon = BAYYY
 route1 = 
 	274, BAYYY4, BAY 4 SHUG
 # BAYYY
-	N29.3788, W94.3710, 17000, 280
+	N29.3788, W94.3710, 17000
 # PUCKS
 	N29.4092, W94.6635, 12000
 # FRDDY
@@ -1785,9 +3060,9 @@ beacon = KIDDZ
 route1 = 
 	152, KIDDZ4, KIDS 4 GLUVER
 # KIDDZ
-	N30.2238, W96.2158, 13000, 280
+	N30.2238, W96.2158, 13000
 # SNIFY
-	N30.1585, W96.1813, 12000, 270
+	N30.1585, W96.1813, 12000
 # QTRBK
 	N30.0602, W96.1283
 # RVEEE
@@ -1831,15 +3106,17 @@ route1 =
 
 # WAPPL SIX TO 4
 runway = rwyKHOU22, rev
-beacon = WLMOR
+beacon = WAPPL
 route1 = 
 	250, WAPPL6, WAPPLE 6 SHUG
+# WAPPL
+	N30.13.99, W94.19.89, 22000
 # WLMOR
 	N30.1532, W94.6252, 15000
 # HUDZY
 	N30.1045, W94.8093
 # CLWSN
-	N30.0740, W94.9188, 12000, 280
+	N30.0740, W94.9188, 12000
 # SWWAA
 	N30.0095, W95.1577, 10000, 250
 # PUSHN
@@ -1928,6 +3205,1152 @@ route1 =
 	N29.5403, W95.2688, 6000, 210
 # END
 	END, 222
+
+##############################################################
+[approach3101]
+##############################################################
+
+# HUDZY FOUR to CXO 14
+runway = rwyKCXO14
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
+
+##############################################################
+[approach3102]
+##############################################################
+
+# OHIIO FOUR to CXO 14
+runway = rwyKCXO14
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000
+# GESNR
+	N30.24.07.8, W94.42.00.0
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
+
+##############################################################
+[approach3103]
+##############################################################
+
+# RIICE EIGHT to CXO 14
+runway = rwyKCXO14
+beacon = BAATS
+route1 = 
+	133, RIICE8, RICE 8 BATS
+# BAATS
+	N30.31.36, W95.56.22.8
+# RICE
+	N30.27.09, W95.51.42.6
+# BRKMN
+	N30.23.26.4, W95.47.49.2
+# MLRRR 
+	N30.12.18, W95.36.11.4
+# LYYTE
+	N30.06.21, W95.30.00
+#END
+	END, 85
+
+##############################################################
+[approach3104]
+##############################################################
+
+# WHAEL THREE to CXO 14
+runway = rwyKCXO14
+beacon = COWZZ
+route1 = 
+	024, WHAEL3, WHALE 3 COWS
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# TNV
+	N30.17.18, W96.03.29.4
+# END
+	END, 70
+
+##############################################################
+[approach3001]
+##############################################################
+
+# RNAV to CXO 14
+runway = rwyKCXO14
+beacon = CEKRU
+route1 = 
+	024, RNAV14, R NAV 1 4 CEKRU
+# CEKRU
+	N30.28.08.4, W95.39.09.0
+# AXTEP
+	N30.31.46.2, W95.33.09.0
+# ILS
+	10, 3000
+
+##############################################################
+[approach3002]
+##############################################################
+
+# RNAV to CXO 14
+runway = rwyKCXO14
+beacon = AXTEP
+route1 = 
+	024, RNAV14, R NAV 1 4 AXTEP
+# AXTEP
+	N30.31.46.2, W95.33.09.0
+# ILS
+	10, 3000
+
+##############################################################
+[approach3003]
+##############################################################
+
+# RNAV to CXO 14
+runway = rwyKCXO14
+beacon = HEKRI
+route1 = 
+	024, RNAV14, R NAV 1 4 HEKRI
+# HEKRI
+	N30.35.18.6, W95.27.08.4
+# AXTEP
+	N30.31.46.2, W95.33.09.0
+# ILS
+	10, 3000
+
+##############################################################
+[approach4101]
+##############################################################
+
+# HUDZY FOUR to DWH 17R
+runway = rwyKDWH17R
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
+
+##############################################################
+[approach4102]
+##############################################################
+
+# OHIIO FOUR to DWH 17R
+runway = rwyKDWH17R
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000
+# GESNR
+	N30.24.07.8, W94.42.00.0
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
+
+##############################################################
+[approach4103]
+##############################################################
+
+# RIICE EIGHT DWH 17R
+runway = rwyKDWH17R
+beacon = BAATS
+route1 = 
+	133, RIICE8, RICE 8 BATS
+# BAATS
+	N30.31.36, W95.56.22.8
+# RICE
+	N30.27.09, W95.51.42.6
+# BRKMN
+	N30.23.26.4, W95.47.49.2
+# MLRRR 
+	N30.12.18, W95.36.11.4
+# LYYTE
+	N30.06.21, W95.30.00
+#END
+	END, 85
+
+##############################################################
+[approach4104]
+##############################################################
+
+# WHAEL THREE to DWH 17R
+runway = rwyKDWH17R
+beacon = COWZZ
+route1 = 
+	024, WHAEL3, WHALE 3 COWS
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# TNV
+	N30.17.18, W96.03.29.4
+# END
+	END, 70
+
+##############################################################
+[approach4001]
+##############################################################
+
+# ILS to DWH 17R
+runway = rwyKDWH17R
+beacon = OILER
+route1 = 
+	024, RNAV17R, R NAV 1 7 R OILER
+# OILER
+	N30.15.13.8, W95.34.51.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach4002]
+##############################################################
+
+# ILS to DWH 17R
+runway = rwyKDWH17R
+beacon = TUFFS
+route1 = 
+	024, RNAV17R, R NAV 1 7 R TUFFS
+# TUFFS
+	N30.14.28.8, W95.41.37.8
+# OILER
+	N30.15.13.8, W95.34.51.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach4003]
+##############################################################
+
+# ILS to DWH 17R
+runway = rwyKDWH17R
+beacon = BRKMN
+route1 = 
+	024, RNAV17R, R NAV 1 7 R BRKMN
+# BRKMN
+	N30.23.30.0, W95.47.49.2
+# OILER
+	N30.15.13.8, W95.34.51.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach4004]
+##############################################################
+
+# ILS to DWH 17R
+runway = rwyKDWH17R
+beacon = WATSI
+route1 = 
+	024, RNAV17R, R NAV 1 7 R WATSI
+# WATSI
+	N30.15.56.4, W95.28.08.4
+# OILER
+	N30.15.13.8, W95.34.51.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach5001]
+##############################################################
+
+# RNAV to KEFD 17R
+runway = rwyKEFD17R
+beacon = ZORLU
+route1 = 
+	024, RNAV17R, R NAV 1 7 R
+# ZORLU
+	N29.49.15.6, W95.10.11.4
+# ILS
+	10, 3000
+
+##############################################################
+[approach5002]
+##############################################################
+
+# RNAV to KEFD 04
+runway = rwyKEFD22, rev
+beacon = ZITIB
+route1 = 
+	024, RNAV04, R NAV 4 ZITIB
+# ZITIB
+	N29.23.30, W95.13.57
+# FODGE
+	N29.27.42, W95.18.57
+# ILS
+	10, 3000
+
+##############################################################
+[approach5003]
+##############################################################
+
+# RNAV to KEFD 04
+runway = rwyKEFD22, rev
+beacon = FODGE
+route1 = 
+	024, RNAV04, R NAV 4 FODGE
+# FODGE
+	N29.27.42, W95.18.57
+# ILS
+	10, 3000
+
+##############################################################
+[approach5101]
+##############################################################
+
+# BLUBL FOUR to KEFD17R
+runway = rwyKEFD17R
+beacon = COWZZ
+route1 = 
+	024, BLUBL4, Blue Bell 4
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# SNDAY
+	N29.56.25.2, W96.09.40.8, 9000
+# END
+	END, 153
+
+##############################################################
+[approach5102]
+##############################################################
+
+# BLUBL FOUR to KEFD 4
+runway = rwyKEFD22, rev
+beacon = COWZZ
+route1 = 
+	024, BLUBL4, Blue Bell 4
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# SNDAY
+	N29.56.25.2, W96.09.40.8, 9000
+# END
+	END, 153
+
+##############################################################
+[approach5103]
+##############################################################
+
+# HUDZY FOUR to KEFD17R
+runway = rwyKEFD17R
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
+
+##############################################################
+[approach5104]
+##############################################################
+
+# HUDZY FOUR to KEFD 4
+runway = rwyKEFD22, rev
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
+
+##############################################################
+[approach5105]
+##############################################################
+
+# OHIIO FOUR to KEFD17R
+runway = rwyKEFD17R
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000
+# GESNR
+	N30.24.07.8, W94.42.00.0
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
+
+##############################################################
+[approach5106]
+##############################################################
+
+# OHIIO FOUR to KEFD 4
+runway = rwyKEFD22, rev
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000
+# GESNR
+	N30.24.07.8, W94.42.00.0
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
+
+##############################################################
+[approach5107]
+##############################################################
+
+# SNIFY ONE to KEFD17R
+runway = rwyKEFD17R
+beacon = KIDDZ
+route1 = 
+	226, SNIFY1, SNIFY 1
+# KIDDZ
+	N30.2238, W96.2158, 12000
+# SNIFY
+	N30.09.27.6, W96.10.50.4, 12000
+# END
+	END, 135
+
+##############################################################
+[approach5108]
+##############################################################
+
+# SNIFY ONE to KEFD 4
+runway = rwyKEFD22, rev
+beacon = KIDDZ
+route1 = 
+	226, SNIFY1, SNIFY 1
+# KIDDZ
+	N30.2238, W96.2158, 12000
+# SNIFY
+	N30.09.27.6, W96.10.50.4, 12000
+# END
+	END, 135
+
+##############################################################
+[approach5109]
+##############################################################
+
+# TIKNIQ THREE TO KEFD17R
+runway = rwyKEFD17R
+beacon = TKNIQ
+route1 = 
+	301, TIKNIQ3, TECHNIQUE 3
+# TKNIQ
+	N29.2402, W94.4668, 12000
+# DOCCC
+	N29.3628, W94.6772
+# MMOOW
+	N29.25.46.2, W94.52.25.2
+# END
+	END, 274
+
+##############################################################
+[approach5110]
+##############################################################
+
+# TIKNIQ THREE TO KEFD 4
+runway = rwyKEFD22, rev
+beacon = TKNIQ
+route1 = 
+	301, TIKNIQ3, TECHNIQUE 3
+# TKNIQ
+	N29.2402, W94.4668, 12000
+# DOCCC
+	N29.3628, W94.6772
+# MMOOW
+	N29.25.46.2, W94.52.25.2
+# END
+	END, 274
+
+##############################################################
+[approach5111]
+##############################################################
+
+# TSHRT ONE TO KEFD17R
+runway = rwyKEFD17R
+beacon = BELLR
+route1 = 
+	301, TSHRT1, T SHIRT 1
+# BELLR
+	N29.3257, W96.0892, 12000, 250
+# TSHRT
+	N29.32.10.8, W95.50.28.2, 12000
+# END
+	END, 75
+
+##############################################################
+[approach5112]
+##############################################################
+
+# TSHRT ONE TO KEFD 4
+runway = rwyKEFD22, rev
+beacon = BELLR
+route1 = 
+	301, TSHRT1, T SHIRT 1
+# BELLR
+	N29.3257, W96.0892, 12000, 250
+# TSHRT
+	N29.32.10.8, W95.50.28.2, 12000
+# END
+	END, 75
+
+##############################################################
+[approach5113]
+##############################################################
+
+# WAPPL SIX TO KEFD17R
+runway = rwyKEFD17R
+beacon = WAPPL
+route1 = 
+	250, WAPPL6, WAPPLE 6
+# WAPPL
+	N30.13.99, W94.19.89, 22000
+# WLMOR
+	N30.1532, W94.6252, 15000
+# HUDZY
+	N30.1045, W94.8093
+# CLWSN
+	N30.0740, W94.9188, 12000
+# SWWAA
+	N30.0095, W95.1577, 10000, 250
+# PUSHN
+	N29.8613, W95.2012, 8000
+# BUGZY
+	N29.7637, W95.2318
+# PLKTN
+	N29.37.10.2, W95.13.31.2, 8000
+# END
+	END, 175
+
+##############################################################
+[approach5114]
+##############################################################
+
+# WAPPL SIX TO KEFD 4
+runway = rwyKEFD22, rev
+beacon = WAPPL
+route1 = 
+	250, WAPPL6, WAPPLE 6
+# WAPPL
+	N30.13.99, W94.19.89, 22000
+# WLMOR
+	N30.1532, W94.6252, 15000
+# HUDZY
+	N30.1045, W94.8093
+# CLWSN
+	N30.0740, W94.9188, 12000
+# SWWAA
+	N30.0095, W95.1577, 10000, 250
+# PUSHN
+	N29.8613, W95.2012, 8000
+# BUGZY
+	N29.7637, W95.2318
+# PLKTN
+	N29.37.10.2, W95.13.31.2, 8000
+# END
+	END, 175
+
+##############################################################
+[approach6001]
+##############################################################
+
+# RNAV TO KSGR 17
+runway = rwyKSGR17
+beacon = BASGE
+route1 = 
+	250, RNAV17, R NAV 17 BASGE
+# BASGE
+	N29.49.21.0, W95.46.17.4
+# EBOKE
+	N29.49.43.8, W95.40.36.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach6002]
+##############################################################
+
+# RNAV TO KSGR 17
+runway = rwyKSGR17
+beacon = DIZGY
+route1 = 
+	250, RNAV17, R NAV 17 DIZGY
+# DIZGY
+	N29.50.10.2, W95.34.49.8
+# EBOKE
+	N29.49.43.8, W95.40.36.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach6003]
+##############################################################
+
+# RNAV TO KSGR 17
+runway = rwyKSGR17
+beacon = EBOKE
+route1 = 
+	250, RNAV17, R NAV 17 EBOKE
+# EBOKE
+	N29.49.43.8, W95.40.36.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach6101]
+##############################################################
+
+# BLUBL FOUR to KSGR 17
+runway = rwyKSGR17
+beacon = COWZZ
+route1 = 
+	024, BLUBL4, Blue Bell 4
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# SNDAY
+	N29.56.25.2, W96.09.40.8, 9000
+# END
+	END, 153
+
+##############################################################
+[approach6102]
+##############################################################
+
+# HUDZY FOUR to KSGR 17
+runway = rwyKSGR17
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
+
+##############################################################
+[approach6103]
+##############################################################
+
+# OHIIO FOUR to KSGR 17
+runway = rwyKSGR17
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000
+# GESNR
+	N30.24.07.8, W94.42.00.0
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
+
+##############################################################
+[approach6104]
+##############################################################
+
+# TIKNIQ THREE TO KSGR 17
+runway = rwyKSGR17
+beacon = TKNIQ
+route1 = 
+	301, TIKNIQ3, TECHNIQUE 3
+# TKNIQ
+	N29.2402, W94.4668, 12000
+# DOCCC
+	N29.3628, W94.6772
+# MMOOW
+	N29.25.46.2, W94.52.25.2
+# END
+	END, 274
+
+##############################################################
+[approach6105]
+##############################################################
+
+# TSHRT ONE TO KSGR 17
+runway = rwyKSGR17
+beacon = BELLR
+route1 = 
+	301, TSHRT1, T SHIRT 1
+# BELLR
+	N29.3257, W96.0892, 12000, 250
+# TSHRT
+	N29.32.10.8, W95.50.28.2, 12000
+# END
+	END, 75
+
+##############################################################
+[approach6106]
+##############################################################
+
+# WAPPL SIX TO KSGR 17
+runway = rwyKSGR17
+beacon = WAPPL
+route1 = 
+	250, WAPPL6, WAPPLE 6
+# WAPPL
+	N30.13.99, W94.19.89, 22000
+# WLMOR
+	N30.1532, W94.6252, 15000
+# HUDZY
+	N30.1045, W94.8093
+# CLWSN
+	N30.0740, W94.9188, 12000
+# SWWAA
+	N30.0095, W95.1577, 10000, 250
+# PUSHN
+	N29.8613, W95.2012, 8000
+# BUGZY
+	N29.7637, W95.2318
+# PLKTN
+	N29.37.10.2, W95.13.31.2, 8000
+# END
+	END, 175
+
+##############################################################
+[approach7001]
+##############################################################
+
+# RNAV TO KGLS 14
+runway = rwyKGLS14
+beacon = UCENU
+route1 = 
+	250, RNAV14, R NAV 14 UCENU
+# UCENU
+	N29.25.57.0, W95.01.15.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach7002]
+##############################################################
+
+# RNAV TO KGLS 14
+runway = rwyKGLS14
+beacon = FOMAH
+route1 = 
+	250, RNAV14, R NAV 14 FOMAH
+# FOMAH
+	N29.19.30.0, W95.09.58.8
+# UCENU
+	N29.25.57.0, W95.01.15.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach7003]
+##############################################################
+
+# RNAV TO KGLS 14
+runway = rwyKGLS14
+beacon = BOBLE
+route1 = 
+	250, RNAV14, R NAV 14 BOBLE
+# BOBLE
+	N29.32.22.8, W94.52.28.2
+# UCENU
+	N29.25.57.0, W95.01.15.6
+# ILS
+	10, 3000
+
+##############################################################
+[approach7004]
+##############################################################
+
+# RNAV TO KGLS 18
+runway = rwyKGLS18
+beacon = TARCU
+route1 = 
+	250, RNAV18, R NAV 18 TARCU
+# TARCU
+	N29°29.23', W95°2.89'
+# OMEHU
+	N29.29.04.8, W94.51.25.8
+# ILS
+	10, 3000
+
+##############################################################
+[approach7005]
+##############################################################
+
+# RNAV TO KGLS 18
+runway = rwyKGLS18
+beacon = OMEHU
+route1 = 
+	250, RNAV18, R NAV 18 OMEHU
+# OMEHU
+	N29.29.04.8, W94.51.25.8
+# ILS
+	10, 3000
+
+##############################################################
+[approach7006]
+##############################################################
+
+# RNAV TO KGLS 18
+runway = rwyKGLS18
+beacon = PICIP
+route1 = 
+	250, RNAV18, R NAV 18 PICIP
+# PICIP
+	N29.28.55.2, W94.39.59.4
+# OMEHU
+	N29.29.04.8, W94.51.25.8
+# ILS
+	10, 3000
+
+##############################################################
+[approach7101]
+##############################################################
+
+# BLUBL FOUR to KGLS 14
+runway = rwyKGLS14
+beacon = COWZZ
+route1 = 
+	024, BLUBL4, Blue Bell 4
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# SNDAY
+	N29.56.25.2, W96.09.40.8, 9000
+# END
+	END, 153
+
+##############################################################
+[approach7102]
+##############################################################
+
+# HUDZY FOUR to KGLS 14
+runway = rwyKGLS14
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
+
+##############################################################
+[approach7103]
+##############################################################
+
+# OHIIO FOUR to KGLS 14
+runway = rwyKGLS14
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000
+# GESNR
+	N30.24.07.8, W94.42.00.0
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
+
+##############################################################
+[approach7104]
+##############################################################
+
+# SNIFY ONE to KGLS 14
+runway = rwyKGLS14
+beacon = KIDDZ
+route1 = 
+	226, SNIFY1, SNIFY 1
+# KIDDZ
+	N30.2238, W96.2158, 12000
+# SNIFY
+	N30.09.27.6, W96.10.50.4, 12000
+# END
+	END, 135
+
+##############################################################
+[approach7105]
+##############################################################
+
+# TIKNIQ THREE TO KGLS 14
+runway = rwyKGLS14
+beacon = TKNIQ
+route1 = 
+	301, TIKNIQ3, TECHNIQUE 3
+# TKNIQ
+	N29.2402, W94.4668, 12000
+# DOCCC
+	N29.3628, W94.6772
+# MMOOW
+	N29.25.46.2, W94.52.25.2
+# END
+	END, 274
+
+##############################################################
+[approach7106]
+##############################################################
+
+# TSHRT ONE TO KGLS 14
+runway = rwyKGLS14
+beacon = BELLR
+route1 = 
+	301, TSHRT1, T SHIRT 1
+# BELLR
+	N29.3257, W96.0892, 12000, 250
+# TSHRT
+	N29.32.10.8, W95.50.28.2, 12000
+# END
+	END, 75
+
+##############################################################
+[approach7107]
+##############################################################
+
+# WAPPL SIX TO KGLS 14
+runway = rwyKGLS14
+beacon = WAPPL
+route1 = 
+	250, WAPPL6, WAPPLE 6
+# WAPPL
+	N30.13.99, W94.19.89, 22000
+# WLMOR
+	N30.1532, W94.6252, 15000
+# HUDZY
+	N30.1045, W94.8093
+# CLWSN
+	N30.0740, W94.9188, 12000
+# SWWAA
+	N30.0095, W95.1577, 10000, 250
+# PUSHN
+	N29.8613, W95.2012, 8000
+# BUGZY
+	N29.7637, W95.2318
+# PLKTN
+	N29.37.10.2, W95.13.31.2, 8000
+# END
+	END, 175
+
+##############################################################
+[approach5107]
+##############################################################
+
+# SNIFY ONE to KGLS 14
+runway = rwyKGLS14
+beacon = KIDDZ
+route1 = 
+	226, SNIFY1, SNIFY 1
+# KIDDZ
+	N30.2238, W96.2158, 12000
+# SNIFY
+	N30.09.27.6, W96.10.50.4, 12000
+# END
+	END, 135
+
+##############################################################
+[approach8001]
+##############################################################
+
+# RNAV TO KTME 18
+runway = rwyKTME18
+beacon = BIMTE
+route1 = 
+	250, RNAV14, R NAV 14 BIMTE
+# BIMTE
+	N30.00.36.0, W95.59.51.6
+# CAGSO
+	N30.00.37.8, W95.54.06.0
+# ILS
+	10, 3000
+
+##############################################################
+[approach8002]
+##############################################################
+
+# RNAV TO KTME 18
+runway = rwyKTME18
+beacon = ACECI
+route1 = 
+	250, RNAV14, R NAV 14 ACECI
+# ACECI
+	N30.00.43.8, W95.48.20.4
+# CAGSO
+	N30.00.37.8, W95.54.06.0
+# ILS
+	10, 3000
+
+##############################################################
+[approach8003]
+##############################################################
+
+# RNAV TO KTME 18
+runway = rwyKTME18
+beacon = CAGSO
+route1 = 
+	250, RNAV14, R NAV 14 CAGSO
+# CAGSO
+	N30.00.37.8, W95.54.06.0
+# ILS
+	10, 3000
+
+##############################################################
+[approach8101]
+##############################################################
+
+# BLUBL TO KTME 18
+runway = rwyKTME18
+beacon = COWZZ
+route1 = 
+	024, BLUBL4, Blue Bell 4
+# COWZZ
+	N30.04.22.2, W96.12.46.2
+# SNDAY
+	N29.56.25.2, W96.09.40.8, 9000
+# END
+	END, 153
+
+##############################################################
+[approach8102]
+##############################################################
+
+# HUDZY FOUR to KTME 18
+runway = rwyKTME18
+beacon = WAPPL
+route1 = 
+	235, HUDZY4, HUDZY 4 WAPPLE
+# WAPPL
+	N30.13.59.4, W94.19.53.4
+# HUDZY
+	N30.06.12.6, W94.48.31.8, 14000
+# CLWSN
+	N30.04.25.2, W94.55.07.8
+# SWWAA
+	N30.00.31.2, W95.09.25.2
+# END
+	END, 190
+
+##############################################################
+[approach8103]
+##############################################################
+
+# OHIIO FOUR to KTME 18
+runway = rwyKTME18
+beacon = ZEEKK
+route1 = 
+	226, OHIIO4, OHIO 4 ZEEK
+# ZEEKK
+	N30.5367, W94.5047, 17000
+# GESNR
+	N30.24.07.8, W94.42.00.0
+# OHIIO
+	N30.08.17.4, W95.05.02.4
+# PNUUT
+	N30.06.09.6, W95.08.07.2
+# END
+	END, 225
+
+##############################################################
+[approach8104]
+##############################################################
+
+# TIKNIQ THREE TO KTME 18
+runway = rwyKTME18
+beacon = TKNIQ
+route1 = 
+	301, TIKNIQ3, TECHNIQUE 3
+# TKNIQ
+	N29.2402, W94.4668, 12000
+# DOCCC
+	N29.3628, W94.6772
+# MMOOW
+	N29.25.46.2, W94.52.25.2
+# END
+	END, 274
+
+##############################################################
+[approach8105]
+##############################################################
+
+# TSHRT ONE TO KTME 18
+runway = rwyKTME18
+beacon = BELLR
+route1 = 
+	301, TSHRT1, T SHIRT 1
+# BELLR
+	N29.3257, W96.0892, 12000, 250
+# TSHRT
+	N29.32.10.8, W95.50.28.2, 12000
+# END
+	END, 75
+
+##############################################################
+[approach7107]
+##############################################################
+
+# WAPPL SIX TO KTME 18
+runway = rwyKTME18
+beacon = WAPPL
+route1 = 
+	250, WAPPL6, WAPPLE 6
+# WAPPL
+	N30.13.99, W94.19.89, 22000
+# WLMOR
+	N30.1532, W94.6252, 15000
+# HUDZY
+	N30.1045, W94.8093
+# CLWSN
+	N30.0740, W94.9188, 12000
+# SWWAA
+	N30.0095, W95.1577, 10000, 250
+# PUSHN
+	N29.8613, W95.2012, 8000
+# BUGZY
+	N29.7637, W95.2318
+# PLKTN
+	N29.37.10.2, W95.13.31.2, 8000
+# END
+	END, 175
 
 ##############################################################
 [planetypes]
