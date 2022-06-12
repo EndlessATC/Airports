@@ -3,7 +3,7 @@
 [airspace]
 elevation = 75
 floor = 2000
-decentaltitude = 10000
+descentaltitude = 10000
 ceiling = 15000
 above = 20000
 speedrestriction = 20, 210
@@ -11,6 +11,7 @@ transitionaltitude = 11000
 usa = false
 metric = false
 automatic = true
+separation = 3
 center = N14.5086, E121.019997
 magneticvar = -1.259
 zoom = 1
@@ -32,7 +33,12 @@ beacons =
 	AYIFF, N014.49.57.000, E121.04.59.002, 152, AYIFF
 	ESTEL, N014.13.14.999, E120.30.07.999, 062, ESTEL
 	BORIS, N014.02.48.998, E121.16.55.999, 322, BORIS
-	
+	KIBOK, N014.59.06.000, E120.23.53.002, 0, KIBOK
+	OLIVA, N014.56.58.000, E120.43.20.000, 0, OLIVA
+	RAYAT, N015.07.04.001, E120.49.03.000, 0, RAYAT
+	BABAN, N015.30.48.000, E120.28.28.000, 0, BABAN
+	MALIB, N015.41.05.000, E120.29.44.999, 0, MALIB
+
 boundary = 
 	N013.51.13.000,	E119.56.15.000
 	N013.41.53.000,	E120.01.51.000
@@ -86,7 +92,7 @@ boundary =
 	N014.02.52.000,	E120.02.56.000
 
 handoff =
-	0, MNL_CTR, manila control, 119.3
+	0, MNL_CTR, manila control, 119.300
 
 line1 =
 	N13.52241, E120.46836
@@ -510,6 +516,20 @@ airlines =
 	ryl, 7, a320/a319, double gold, nwse
 	ryl, 7, a320/a319, double gold, nwse
 	ryl, 7, a320/a319, double gold, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
+	apg, 10, a320/a321, cool red, nwse
 	sia, 6, a359, singapore, w
 	sia, 6, a359, singapore, w
 	sia, 6, a359, singapore, w
@@ -535,17 +555,21 @@ airlines =
 [airport2]
 name = Diosdado Macapagal International Airport
 code = LC
-flow = 10
+flow = 5
 runways =
 	rwy3, 02, N15.1744, E120.558, 21.1, 10499, 0, 0, 466
 
 entrypoints = 
-	0, CIA
+	199, KIBOK
+	351, MALIB
+	174, OLIVA
+	102, RAYAT
+	324, BABAN
 
 [airport3]
 name = Subic Bay International Airport
 code = RPLB
-flow = 10
+flow = 5
 runways =
 	rwy4, 07, N14.789532, E120.259204, 67.0, 9003, 0, 0, 47
 
@@ -566,6 +590,11 @@ config2 =
 config3 = 
 	0, rwy1, startlandrev
 	0, rwy2, start
+	0, rwy3, startland
+	0, rwy4, startland
+config4 = 
+	0, rwy1, startlandrev
+	0, rwy2, startrev
 	0, rwy3, startland
 	0, rwy4, startland
 
@@ -1120,9 +1149,102 @@ route1 =
 	N014.43.50.999, E121.08.35.002
 	12, 5000, 200
 
+[approach54]
+runway = rwy3
+beacon = MALIB, N015.41.05.000, E120.29.44.999, 0, MALIB
+route1 = 
+	0
+	N015.41.05.000, E120.29.44.999
+	N015.28.17.001,	E120.31.25.000
+	N015.11.12.801,	E120.33.38.301
+	N015.04.25.000,	E120.38.16.001
+	N014.58.06.000,	E120.35.46.000
+	11, 5000, 200
+
+[approach55]
+runway = rwy3
+beacon = BABAN, N015.30.48.000, E120.28.28.000, 0, BABAN
+route1 = 
+	0
+	N015.30.48.000, E120.28.28.000
+	N015.28.17.001,	E120.31.25.000
+	N015.11.12.801,	E120.33.38.301
+	N015.04.25.000,	E120.38.16.001
+	N014.58.06.000,	E120.35.46.000
+	11, 5000, 200
+
+[approach56]
+runway = rwy3
+beacon = RAYAT, N015.07.04.001, E120.49.03.000, 0, RAYAT
+route1 = 
+	0
+	N015.07.04.001, E120.49.03.000
+	N014.58.06.000,	E120.35.46.000
+	11, 5000, 200
+
+[approach57]
+runway = rwy3
+beacon = OLIVA, N014.56.58.000, E120.43.20.000, 0, OLIVA
+route1 = 
+	0
+	N014.56.58.000, E120.43.20.000
+	N014.58.06.000,	E120.35.46.000
+	11, 5000, 200
+
+[approach58]
+runway = rwy3, rev
+beacon = KIBOK, N014.59.06.000, E120.23.53.002, 0, KIBOK
+route1 = 
+	0
+	N014.59.06.000, E120.23.53.002
+	N015.25.12.000,	E120.33.00.000
+	11, 5000, 200
+
+[approach59]
+runway = rwy3, rev
+beacon = BABAN, N015.30.48.000, E120.28.28.000, 0, BABAN
+route1 = 
+	0
+	N015.30.48.000, E120.28.28.000
+	N015.25.12.000,	E120.33.00.000
+	11, 5000, 200
+
+[approach60]
+runway = rwy3, rev
+beacon = MALIB, N015.41.05.000, E120.29.44.999, 0, MALIB
+route1 = 
+	0
+	N015.41.05.000, E120.29.44.999
+	N015.25.12.000,	E120.33.00.000
+	11, 5000, 200
+
+[approach61]
+runway = rwy3, rev
+beacon = OLIVA, N014.56.58.000, E120.43.20.000, 0, OLIVA
+route1 = 
+	0
+	N014.56.58.000, E120.43.20.000
+	N015.08.19.000,	E120.41.48.999
+	N015.14.17.002,	E120.41.19.000
+	N015.21.02.002,	E120.43.59.002
+	11, 5000, 200
+
+
+[approach62]
+runway = rwy3, rev
+beacon = RAYAT, N015.07.04.001, E120.49.03.000, 0, RAYAT
+route1 = 
+	0
+	N015.07.04.001, E120.49.03.000
+	N015.08.19.000,	E120.41.48.999
+	N015.14.17.002,	E120.41.19.000
+	N015.21.02.002,	E120.43.59.002
+	11, 5000, 200
+
+
 [departure1]
 runway = rwy1
-route1 = ccb2r, cabanatuan two romeo
+route1 = cab2r, cabanatuan two romeo
 	N014.34.24.000, E121.07.46.000
 	N014.42.19.000, E121.07.52.000
 	N014.53.46.000, E121.03.54.101
@@ -1176,7 +1298,7 @@ route9 = jom2r, jom two romeo
 
 [departure2]
 runway = rwy2
-route1 = cab2p, cabanautan two papa
+route1 = cab2p, cabanatuan two papa
 	N014.25.55.898,	E121.05.54.802
 	N014.21.26.798,	E121.00.18.799
 	N014.35.34.501,	E120.48.22.900
@@ -1256,7 +1378,36 @@ route9 = jom2p, jom two papa
 	N014.31.31.401,	E121.27.27.800
 	N014.42.17.540,	E122.19.47.932
 
-[departure3]
-runway = rwy2, rev
-route1 = harb1, harbo one
-	N014.37.05.402, E120.54.22.299
+[departure4]
+runway = rwy3
+route1 = baya4r, bayan four romeo
+	N015.08.21.002,	E120.43.44.001
+	N015.01.00.999,	E120.41.59.000
+	N014.49.53.001,	E120.39.20.002
+route2 = rian4r, riano four romeo
+	N015.21.02.999, E120.49.03.000
+
+[departure5]
+runway = rwy3, rev
+route1 = mali1c, malib one charlie
+	N015.11.12.801,	E120.33.38.301
+	N015.41.05.000,	E120.29.44.999
+route2 = kibo2f, kibok two foxtrot
+	N015.11.12.801,	E120.33.38.301
+	N014.59.06.000,	E120.23.53.002
+route3 = rian2d, riano two delta
+	N015.08.35.000,	E120.32.36.000
+	N015.12.32.000,	E120.35.37.000
+	N015.21.02.999,	E120.49.03.000
+route4 = raya2d, rayat two delta
+	N015.08.35.000,	E120.32.36.000
+	N015.09.26.000,	E120.40.23.000
+	N015.07.04.001,	E120.49.03.000
+route5 = oliv2f, oliva two foxtrot
+	N015.08.35.000,	E120.32.36.000
+	N015.02.46.000,	E120.39.15.000
+	N014.56.58.000,	E120.43.20.000
+route6 = baya2d, bayan two delta
+	N015.08.35.000,	E120.32.36.000
+	N015.02.10.000,	E120.36.18.000
+	N014.49.53.001,	E120.39.20.002
