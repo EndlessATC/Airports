@@ -1,0 +1,865 @@
+# Lyon Approach
+
+[airspace]
+zoom = 1.0
+elevation = 821
+floor = 2000
+descendaltitude = 15000
+ceiling = 12500
+above = 14000
+transitionaltitude = 5500
+speedrestriction = 50, 300, 10500, 250
+usa = false
+metric = false
+separation = 3
+automatic = true
+name = lyon approach, lyon departure
+center = N45.745528, E5.090583
+magneticvar = 1
+
+boundary =
+	N46.5, E4.4
+	N46.5, E4.674722
+	N46.5, E4.833333
+	N46.5, E5.585833
+	N46.477222, E5.606111
+	N46.242222, E5.801111
+	N46.173333, E5.661667
+	N45.928056, E5.662778
+	N45.716667, E5.489444
+	N45.685556, E5.498056
+	N45.635278, E5.955
+	N45.605556, E5.982778
+	N45.455556, E5.979167
+	N45.449167, E5.908611
+	N45.330556, E5.937222
+	N45.106667, E5.773611
+	N45.0, E5.521111
+	N45.0, E5.328333
+	N44.666667, E5.023333
+	N44.666667, E4.851389
+	N44.668611, E4.454722
+	N44.904444, E4.171667
+	N45.136944, E4.042222
+	N45.581667, E4.108889
+	N45.969444, E3.898056
+	N46.05, E3.853889
+	N46.175, E4.05
+	N46.5, E4.4
+
+beacons =
+	LSE, N45.745528, E5.090583, 0, lima sierra echo
+	TALAR, N45.956389, E4.604361, 121, talar
+	ARBON, N45.283278, E4.890167, 016, arbon
+	GOMET, N45.360194, E5.488000, 344, gomet
+	RIPTU, N46.106944, E5.329167, 204, riptu
+	INGUV, N45.529667, E5.11675, 0, inguv
+
+handoff =
+	360, Marseille Control, marseille, 135.400
+
+[airport1]
+name = Lyon Saint-Exupery
+code = LFLL
+runways =
+	rwy35L, 35L, N45.710747, E5.090300110, 354, 13123, 0, 0, 821, 0, 0, 0, 0, 0, 0, 0, 0, 120.45
+	rwy35R, 35R, N45.711006, E5.094781111, 354, 8759, 0, 0, 821, 0, 0, 0, 0, 0, 0, 0, 0, 120.45
+
+climbaltitude = 7000
+
+sids =
+	BUBLI, N48.773167, E4.148167
+	BAXIR, N48.792667, E3.869000
+	LANVI, N48.312000, E5.796333
+	RANUX, N49.139667, E4.360667
+	DIKOL, N49.138500, E4.047500
+	NURMO, N49.826333, E2.753500
+	ATREX, N49.786833, E2.366833
+	OPALE, N49.900167, E1.883500
+	EVX, N49.029500, E1.219167
+	LGL, N48.792833, E0.529333
+	AGOPA, N48.086000, E2.008167
+	ERIXU, N48.084333, E2.258833
+	LATRA, N48.084333, E2.515833
+	OKASI, N48.085333, E2.777667
+	PILUL, N48.084500, E3.048167
+
+entrypoints =
+	316, TALAR, 15000
+	038, RIPTU, 10000
+	212, ARBON, 15000
+	150, GOMET, 15000
+
+airlines =
+	afr, 4,	A319/A320/A321, Airfrans
+	afr, 4,	A318/A319/A320/A321/E170/E190, Airfrans
+	hop, 2, 	E170/E190, Airhop
+	tay, 1, 	B738, Beauty
+	tap, 2,	A319/A320/A321, Air Portugal, 	s
+	ibe, 2,	A319/A320/A321, Iberia, 		s
+	dlh, 3,	A319/A320/A321, Lufthansa, 		e
+	klm, 3,	A319/A320/A321, KLM,			n
+	vlg, 1,	A319/A320/A321, Vueling,		s
+	bel, 1,	A319/A320/A321, Beeline,		n
+	aua, 1,	A319/A320/A321, Austrian,		e
+	dah, 2,	B738, Air Algerie,	s
+	tsc, 1,	A310, Air Transat,	n
+	aca-12, 2,	A333, Air Canada,		n
+	fpo, 2,	B738, French Post
+	ibs, 1,	A319/A320/A321, Iberexpres, 	s
+	tui, 1,	B738, Tuifly
+	tvf, 3,	B738, France Soleil
+	eju, 10,	A319/A320/A321, Alpine
+	eju, 5,	A319/A320/A321, Alpine
+	mac, 2,	A319/A320/A321, Arabia Maroc, 	s
+	ram, 2,	B738, Royalair Maroc,	s
+	thy, 2,	A319/A320/A321/B738, Turkish, 		s
+	aee, 1,	A319/A320/A321, Aegean,			s
+	ein,11,	A319/A320/A321, Shamrock,		n
+	tar, 2,	A319/A320/A321, Tunair,			s
+	ctn, 1,	A319/A320/A321, Croatia,		s
+	pgt, 2,	A319/A320/A321, Sunturk,		s
+	afl, 1,	A319/A320/A321, Aeroflot		n
+	lbt, 3,	A319/A320/A321, Nouvelair,		s
+	uae, 1,	B77W, Emirates		s
+	seh, 1,	A319/A320/A321, Air Crete,		s
+	wzz, 1,	A319/A320/A321, WizzAir
+	szn, 1,	A339, Sensa,			s
+    sxs, 1,	B738, Sunexpress,		s
+	baw, 3,	A319/A320/A321, Speedbird,		n
+	amc, 1,	A319/A320/A321, Air Malta,		s
+	crl, 2,	A332, Corsair
+	sqp, 1,	B738, SkyUp,			s
+	qtr, 1,	B789, Qatari,			s
+	exs, 1,	B738, Channex,			s
+
+[airport2]
+name = Lyon Bron
+code = LY
+runways =
+	rwy34, 34, N45.7193278, E4.947613, 342, 5971, 0, 0, 659, 0, 0, 0, 0, 0, 0, 0, 0, 118.1
+
+traffic = 0.2
+
+climbaltitude = 7000
+
+sids =
+	VESAN, N50.373833, E2.024667
+	ABB, N50.137167, E1.854667
+
+entrypoints =
+	316, TALAR, 9000
+	038, RIPTU, 10000
+	212, ARBON, 9000
+	150, GOMET, 10000
+
+airlines =
+	ryr, 10, B738, Ryanair
+	ryr, 10, B738, Ryanair
+	wzz, 4, A320, Wizzair, ne
+	wzz, 1, A21N, Wizzair, ne
+	sqp, 2, B738, Skyup, n
+	mld, 1, A319, Air Moldova, e
+
+[airport3]
+name = Grenoble
+code = LS
+runways =
+	rwy27, 27, N45.361160, E5.3471864, 268, 10006, 0, 0, 659, 0, 0, 0, 0, 0, 0, 0, 0, 118.1
+
+traffic = 0.2
+
+climbaltitude = 7000
+
+sids =
+	VESAN, N50.373833, E2.024667
+	ABB, N50.137167, E1.854667
+
+entrypoints =
+	038, RIPTU, 7000
+	212, ARBON, 7000
+	150, GOMET, 10000
+
+airlines =
+	ryr, 10, B738, Ryanair
+	ryr, 10, B738, Ryanair
+	wzz, 4, A320, Wizzair, ne
+	wzz, 1, A21N, Wizzair, ne
+	sqp 2, B738, Skyup, n
+	mld, 1, A319, Air Moldova, e
+
+[configurations]
+
+config1 =
+	0, rwy35R, landrev
+	0, rwy35L, startrev
+	0, rwy34, startlandrev
+	0, rwy27, startlandrev
+
+config1 =
+	0, rwy35R, land
+	0, rwy35L, start
+	0, rwy34, startland
+	0, rwy27, startland
+
+[departures1]
+runway = rwy35L
+route1 =
+	ROMAM, romam two november
+	N45.814805, E5.076614
+	N45.362361, E5.152972
+	N45.102647, E5.163447
+
+[departures2]
+runway = rwy35L
+route1 =
+	RISOR, risor two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.655833, E5.293056
+	N45.506944, E5.626944
+	N45.538333, E5.964167
+
+[departures3]
+runway = rwy35L
+route1 =
+	BELUS, belus two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.655833, E5.293056
+	N45.675278, E5.593889
+
+[departures4]
+runway = rwy35L
+route1 =
+	MABES, mabes two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.921667, E5.058611
+	N46.324056, E4.985194
+	N46.340222, E5.265056
+
+[departures5]
+runway = rwy35L
+route1 =
+	MOKIP, mokip two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.921667, E5.058611
+	N46.324056, E4.985194
+	N46.448889, E5.093611
+
+[departures6]
+runway = rwy35L
+route1 =
+	ALURA, alura two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.921667, E5.058611
+	N46.324056, E4.985194
+	N46.448889, E5.093611
+
+[departures7]
+runway = rwy35L
+route1 =
+	BUSIL, busil two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.921667, E5.058611
+	N46.293611, E4.721944
+
+[departures8]
+runway = rwy35L
+route1 =
+	BELEP, belep two november
+	N45.927861, E5.063806
+	N45.828194, E4.826444
+	N45.780972, E4.713056
+	N45.730056, E4.514
+	N45.791667, E4.131667
+
+[departures9]
+runway = rwy35L
+route1 =
+	REPSI, repsi two november
+	N45.927861, E5.063806
+	N45.828194, E4.826444
+	N45.780972, E4.713056
+	N45.708028, E4.648861
+	N45.522389, E4.275278
+
+[departures10]
+runway = rwy35L
+route1 =
+	MURRO, murro two november
+	N45.927861, E5.063806
+	N45.828194, E4.826444
+	N45.780972, E4.713056
+	N45.708028, E4.648861
+	N45.332917, E4.375556
+
+[departures11]
+runway = rwy35L
+route1 =
+	EB, echo bravo two november
+	N45.927861, E5.063806
+	N45.828194, E4.826444
+	N45.780972, E4.713056
+	N45.637944, E4.283528
+
+[approach1]
+
+runway = rwy35R
+beacon = TALAR
+route1 =
+	147, TAL, talar one november
+	N45.956389, E4.604361, 10000, 250
+	N45.556444, E4.883417
+	end, 153.0
+
+[approach2]
+
+runway = rwy35R
+beacon = RIPTU
+route1 =
+	147, RIP, riptu one november
+	N46.106944, E5.329167, 7000, 250
+	end, 179.0
+
+[approach3]
+
+runway = rwy35R
+beacon = GOMET
+route1 =
+	147, GOM, gomet one november
+	N45.360194, E5.488000, 10000, 250
+	end, 290.0
+
+[approach4]
+
+runway = rwy35R
+beacon = ARBON
+route1 =
+	147, ARB, arbon one november
+	N45.283278, E4.890167, 7000, 250
+	end, 060.0
+
+[approach5]
+
+runway = rwy34
+beacon = TALAR
+route1 =
+	147, TAL, talar one november
+	N45.956389, E4.604361, 10000, 250
+	N45.556444, E4.883417
+	end, 153.0
+
+[approach6]
+
+runway = rwy34
+beacon = RIPTU
+route1 =
+	147, RIP, riptu one november
+	N46.106944, E5.329167, 7000, 250
+	end, 179.0
+
+[approach7]
+
+runway = rwy34
+beacon = GOMET
+route1 =
+	147, GOM, gomet one november
+	N45.360194, E5.488000, 10000, 250
+	end, 290.0
+
+[approach8]
+
+runway = rwy34
+beacon = ARBON
+route1 =
+	147, ARB, arbon one november
+	N45.283278, E4.890167, 7000, 250
+	end, 060.0
+
+[approach9]
+
+runway = rwy35R
+beacon = INGUV
+route1 =
+	147, ILS, inguv
+	N45.529667, E5.11675
+	8.9
+
+[approach10]
+
+runway = rwy27
+beacon = ARBON
+route1 =
+	147, ARB, arbon one echo
+	N45.283278, E4.890167, 7000, 250
+	end, 060.0
+
+[approach11]
+
+runway = rwy27
+beacon = GOMET
+route1 =
+	147, GOM, gomet one echo
+	N45.360194, E5.488000, 10000, 250
+	end, 250.0
+
+[approach12]
+
+runway = rwy27
+beacon = RIPTU
+route1 =
+	147, RTP, riptu one echo
+	N46.106944, E5.329167, 7000, 250
+	end, 180.0
+
+
+[area1] # TMA LFLL TMA 1 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.055277, E5.266389
+	N45.623611, E5.398056
+	N45.553055, E5.419722
+	N45.515759, E5.366867
+	N45.485767, E5.305488
+	N45.463668, E5.237578
+	N45.452500, E5.181944
+	N45.440555, E5.181944
+	N45.383889, E4.883333
+	N45.556389, E4.883333
+	N45.633889, E4.923889
+	N45.655556, E4.915278
+	N45.678611, E4.870000
+	N45.726666, E4.687222
+	N45.869444, E4.646666
+	N45.912209, E4.676917
+	N45.959802, E4.724671
+	N46.000884, E4.783542
+	N46.034209, E4.851741
+	N46.058763, E4.927197
+	N46.073800, E5.007616
+	N46.078864, E5.090555
+	N46.073800, E5.173494
+	N46.058763, E5.253914
+
+[area2] # TMA LFLL TMA 10 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.581667, E5.528056
+	N45.597778, E5.697222
+	N45.451111, E5.725833
+	N45.448611, E5.566667
+
+[area3] # TMA LFLL TMA 11 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.066667, E5.389722
+	N45.288611, E5.594444
+	N45.448611, E5.566667
+	N45.451111, E5.725833
+	N45.597778, E5.697222
+	N45.581667, E5.528056
+	N45.685556, E5.498056
+	N45.632222, E5.983333
+	N45.455556, E5.979167
+	N45.449167, E5.908611
+	N45.438333, E5.788889
+	N45.302500, E5.703611
+	N45.216667, E5.650000
+	N45.088056, E5.520278
+
+[area4] # TMA LFLL TMA 12 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.500000, E4.400000
+	N46.500000, E4.674722
+	N46.500000, E4.833333
+	N46.500000, E5.585833
+	N46.477222, E5.606111
+	N46.242222, E5.801111
+	N46.173333, E5.661667
+	N46.165733, E5.647746
+	N46.147246, E5.621108
+	N46.125829, E5.599500
+	N46.102133, E5.583579
+	N46.076879, E5.573828
+	N46.050833, E5.570545
+	N46.024788, E5.573828
+	N45.999533, E5.583579
+	N45.975837, E5.599500
+	N45.954421, E5.621108
+	N45.935933, E5.647746
+	N45.928056, E5.662778
+	N45.716667, E5.489444
+	N45.685556, E5.498056
+	N45.632222, E5.983333
+	N45.455556, E5.979167
+	N45.449167, E5.908611
+	N45.330556, E5.937222
+	N45.106667, E5.773611
+	N45.000000, E5.521111
+	N45.000000, E5.328333
+	N44.666667, E5.023333
+	N44.666667, E4.851389
+	N44.668611, E4.454722
+	N44.904444, E4.171667
+	N45.136944, E4.042222
+	N45.581667, E4.108889
+	N45.969444, E3.898056
+	N46.050000, E3.853889
+	N46.175000, E4.050000
+
+[area5] # TMA LFLL TMA 13 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.553056, E5.419722
+	N45.447222, E5.488611
+	N45.440556, E5.181944
+	N45.452500, E5.181944
+	N45.463668, E5.237578
+	N45.485767, E5.305488
+
+[area6] # TMA LFLL TMA 14 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.969444, E3.898056
+	N45.923889, E4.290278
+	N45.283333, E4.616667
+	N45.266667, E4.533333
+	N45.200000, E4.316667
+
+[area7] # TMA LFLL TMA 14.1 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.938611, E3.915000
+	N45.884722, E4.310556
+	N45.283333, E4.616667
+	N45.266667, E4.533333
+	N45.066667, E4.638889
+	N44.666667, E4.851389
+	N44.668611, E4.454722
+	N44.904444, E4.171667
+	N45.136944, E4.042222
+	N45.581667, E4.108889
+
+[area8] # TMA LFLL TMA 15 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.449722, E5.635278
+	N45.304444, E5.635278
+	N45.291389, E5.607778
+	N45.269167, E5.555833
+	N45.186111, E5.133889
+	N45.249722, E4.890000
+	N45.280833, E4.886389
+	N45.256111, E4.991667
+	N45.255556, E5.333889
+	N45.310278, E5.533889
+	N45.342222, E5.585000
+	N45.448611, E5.566667
+
+[area9] # TMA LFLL TMA 16 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.449167, E5.908611
+	N45.330556, E5.937222
+	N45.106667, E5.773611
+	N45.000000, E5.521111
+	N45.000000, E5.328333
+	N45.066667, E5.389722
+	N45.088056, E5.520278
+	N45.216667, E5.650000
+	N45.302500, E5.703611
+	N45.438333, E5.788889
+
+[area10] # TMA LFLL TMA 2 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.142222, E5.370278
+	N45.685556, E5.498056
+	N45.581667, E5.528056
+	N45.448611, E5.566667
+	N45.447778, E5.523889
+	N45.440556, E5.181944
+	N45.383889, E4.883333
+	N45.280833, E4.886389
+	N45.280833, E4.766667
+	N45.467222, E4.696111
+	N45.581111, E4.651944
+	N45.878333, E4.537222
+	N46.083866, E4.683763
+	N46.128021, E4.774127
+	N46.160555, E4.874105
+	N46.180480, E4.980661
+	N46.187189, E5.090555
+	N46.180480, E5.200450
+	N46.160555, E5.307005
+
+[area11] # TMA LFLL Tma 3 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.342222, E5.585000
+	N45.310278, E5.533889
+	N45.256111, E5.333889
+	N45.256111, E4.991667
+	N45.280833, E4.886389
+	N45.383889, E4.883333
+	N45.440833, E5.181944
+	N45.448611, E5.566667
+
+[area12] # TMA LFLL TMA 4 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.433333, E4.816667
+	N46.363333, E5.407778
+	N46.237222, E5.576389
+	N46.060278, E5.570556
+	N45.975838, E5.599500
+	N45.999533, E5.583579
+	N46.024788, E5.573829
+	N46.050833, E5.570545
+	N45.975278, E5.600278
+	N45.916667, E5.485556
+	N45.856111, E5.450556
+	N45.448611, E5.566667
+	N45.288611, E5.594444
+	N45.066667, E5.389722
+	N45.066667, E4.638889
+	N45.266667, E4.533333
+	N45.283333, E4.616667
+	N45.923889, E4.290278
+	N46.086111, E4.203611
+	N46.203611, E4.661389
+
+[area13] # TMA LFLL TMA 5 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.755278, E4.584722
+	N45.499167, E4.683333
+	N45.525000, E4.495000
+	N45.734167, E4.388611
+
+[area14] # TMA LFLL TMA 6 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.066667, E5.389722
+	N44.666667, E5.023333
+	N44.666667, E4.851389
+	N45.066667, E4.638889
+
+[area15] # TMA LFLL TMA 7 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.218056, E4.670833
+	N46.203611, E4.661389
+	N46.086111, E4.203611
+	N45.923889, E4.290278
+	N45.969444, E3.898056
+	N46.050000, E3.853889
+	N46.175000, E4.050000
+	N46.374167, E4.263889
+
+[area16] # TMA LFLL TMA 7.1 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.500000, E4.674722
+	N46.307222, E4.731111
+	N46.218056, E4.670833
+	N46.203611, E4.661389
+	N46.086111, E4.203611
+	N45.884722, E4.310556
+	N45.938611, E3.915000
+	N46.050000, E3.853889
+	N46.175000, E4.050000
+	N46.374167, E4.263889
+	N46.500000, E4.400000
+
+[area17] # TMA LFLL TMA 7.2 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.500000, E4.674722
+	N46.500000, E4.833333
+	N46.500000, E5.585833
+	N46.477222, E5.606111
+	N46.363333, E5.407778
+	N46.433333, E4.816667
+	N46.307222, E4.731111
+
+[area18] # TMA LFLL TMA 8 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.363333, E5.407778
+	N46.477222, E5.606111
+	N46.242222, E5.801111
+	N46.173333, E5.661667
+	N46.165733, E5.647746
+	N46.147246, E5.621108
+	N46.125829, E5.599500
+	N46.102133, E5.583579
+	N46.076879, E5.573829
+	N46.060278, E5.570556
+	N46.237222, E5.576389
+
+[area19] # TMA LFLL TMA 8.1 Oyonnax nord Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N46.477222, E5.606111
+	N46.312222, E5.743333
+	N46.237222, E5.576389
+	N46.363333, E5.407778
+
+[area20] # TMA LFLL TMA 9 Lyon
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.916667, E5.485556
+	N45.975278, E5.600278
+	N45.954421, E5.621108
+	N45.935933, E5.647746
+	N45.928056, E5.662778
+	N45.716667, E5.489444
+	N45.856111, E5.450556
+
+[area21] # Tower CTR LFLL CTR Saint-Exupéry
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.837778, E5.200000
+	N45.585833, E5.241667
+	N45.578250, E5.220972
+	N45.570528, E5.200583
+	N45.564167, E5.179361
+	N45.559194, E5.157472
+	N45.555611, E5.135083
+	N45.553500, E5.112333
+	N45.552833, E5.089417
+	N45.553639, E5.066528
+	N45.555556, E5.063333
+	N45.742222, E5.001944
+	N45.800000, E5.000000
+	N45.865000, E4.945278
+	N45.872667, E4.961222
+	N45.880444, E4.976806
+	N45.887194, E4.993278
+	N45.892889, E5.010472
+	N45.897444, E5.028306
+	N45.900833, E5.046583
+	N45.903056, E5.065194
+	N45.904083, E5.084028
+	N45.903889, E5.102889
+	N45.902500, E5.121667
+	N45.899917, E5.140194
+	N45.896944, E5.148056
+	N45.854167, E5.153611
+
+[area22] # Tower CTR LFLY CTR Lyon Bron
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.864444, E4.945278
+	N45.800000, E5.000000
+	N45.742222, E5.001944
+	N45.570278, E5.058611
+	N45.564194, E5.039611
+	N45.558944, E5.020222
+	N45.554917, E5.000278
+	N45.552194, E4.979917
+	N45.551944, E4.971667
+	N45.844444, E4.842778
+	N45.849583, E4.858222
+	N45.854833, E4.873417
+	N45.859056, E4.889194
+	N45.862278, E4.905417
+	N45.864444, E4.921972
+	N45.865528, E4.938694
+
+[area23] # Tower CTR LFLS CTR Grenoble Isère
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.447222, E5.488611
+	N45.437250, E5.498667
+	N45.426361, E5.506861
+	N45.414972, E5.513722
+	N45.403222, E5.519194
+	N45.391139, E5.523278
+	N45.378861, E5.525889
+	N45.366472, E5.527028
+	N45.354028, E5.526694
+	N45.341667, E5.524889
+	N45.329472, E5.521611
+	N45.317528, E5.516917
+	N45.308889, E5.513333
+	N45.256111, E5.333889
+	N45.256111, E5.055556
+	N45.416667, E5.055556
+	N45.440556, E5.181944
