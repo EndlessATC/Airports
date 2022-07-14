@@ -1,0 +1,152 @@
+# MALAGA (LEMGS) Airport North RWY 31 Landing Departures 31Configuration by Ivan IVAO 318732
+
+
+[airspace]
+radius = 60
+zoom = 7.0 ; To check
+elevation = 53
+descendaltitude = 10000
+ceiling = 10000
+above = 18500
+transitionaltitude = 6000
+speedrestriction = 50, 250, 10000, 210 	
+usa = false
+metric = false
+separation = 5
+automatic = true
+center = N36.4046, W4.2950
+magneticvar = -2.344
+beacons =
+#FIX
+      
+        ETROV, N36.1117, W4.1350, 0, ETROV
+        PISAV, N36.3251, W3.9000, 0, PISAV
+        IF, N36.2816, W4.1202, 0, IF
+        KURET, N36.2389, W4.4919, 0, KURET
+        VIBAS, N37.2332, W3.3751, 0, VIBAS
+        MOSUK, N36.8457, W3.4230, 0, MOSUK
+        INKAL, N36.3600, W3.6500, 0, INKAL
+        PIMOS, N35.8801, W4.6517, 0, PIMOS
+        PEKOP, N35.6000, W3.2627, 0, PEKOP
+        NESDA, N36.5651, W3.5327, 0, NESDA
+#VOR
+        SVL, N37.0039, W5.5545, 0, SEVILLA
+        AGP, N36.4104, W4.2914, 0, AGP
+        MLG, N36.4043, W4.3024, 0, MALAGA	
+	RMA, N36.3870, W4.2750, 0, RMA NDB
+	GM,  N36.4535, W4.3717, 0, GM NDB
+	MGA, N36.5451, W4.1710, 0, MALAGA
+	MAR, N36.7719, W4.7423, 0, MARTIN
+	GDA, N36.9216, W3.8100, 0, GRANADA
+	VJF, N36.1421, W5.5831, 0, VEJER
+        JRZ, N36.485500, W6.485500, 0, JEREZ
+        BAENA, N37.340600, W4.195500, 0, BAENA
+        VULPE, N37.5140, W4.6154, 0, VULPE
+        BLN, N38.0909, W3.3729, 0, BAILEN
+
+handoff =
+	090, sevilla radar, sevilla radar, 132.75
+
+line1 =
+        N36.2217, W6.0841
+	N36.0104, W5.3737
+	N36.01017, W5.4328
+	N36.0125, W5.2154
+	N36.0638, W5.2244
+	N36.0724, W5.1848
+	N36.0333, W5.1649
+	N36.1534, W5.1000
+	N36.2353, W5.0609
+	N36.2718, W4.4940
+	N36.2545, W4.4001
+	N36.2733, W4.3349
+	N36.2933, W4.3262
+	N36.3110, W4.3025
+	N36.3133, W4.2817
+	N36.3325, W4.2637
+	N36.3935, W4.2128
+	N36.4017, W4.1928
+	N36.3948, W4.1558
+	N36.3958, W4.0831
+	N36.4034, W4.0238
+	N36.4039, W4.0216
+        N36.4047, W4.0155
+	N36.4154, W4.0004
+	N36.4138, W3.9710
+        N36.4129, W3.4644
+	N36.4012, W3.3954 
+        N36.3944, W3.1931
+	N36.4026, W3.1727
+
+[airport1]
+name = Málaga Airport NORTH
+code = MG31
+runways =
+        rwy1, 31, N36.3955, W4.2868, 310.0, 10500, 0, 0, 52
+        rwy2, 30, N36.4036, W4.2761, 300.0, 11000, 0, 0, 52
+
+climbaltitude = 6000
+
+sids = 
+
+         SVL, N37.0039, W5.5545, 0, Sevilla
+         BLN, N38.0909, W3.3729, 0, Bailen
+         VJF, N36.1421, W5.5831, 0, VEJER
+
+entrypoints = 
+        360, MAR, 15000
+        030, MOSUK, 10000
+        180,  PIMOS, 15000
+        270,  MAR, 10000
+        220,  PIMOS, 10000
+	090,  INKAL, 6000
+	
+
+airlines =
+	IBE,	8,  a320,	iberia
+	AEA,	6,  b738,	europa
+        AEA,	1,  AT45,	europa
+        ANE,	1,  E195,	air nostrum
+	IBS,    1,  a320,       iberexpress
+	RYR,    3,  b738,       ryanair
+	KLM,    2,  b738,       klm
+	TAP,    1,  a320,       tapportugal
+	DLH,    2,  a320,       lufthansa
+	ETH,    1,  b789,       etihad
+	WZZ,    1,  a319,       wizzair
+	EZY,    1,  a320,       easy
+	VLG,    3,  a320,       vueling
+	SWT,    1,  atz,        swift
+	BAW,    1,  a320,       speedbird
+	TUY,    1,  b738,       tuy flight
+        AFR,    1,  a319,       airfrance
+
+
+[configurations]
+
+
+# Planes take off 30 and land 31 
+north =
+	0,	rwy1,	landstart
+	
+
+##############################################################
+[area1]
+##############################################################
+shape = circle		
+radius = 10		
+position = 0, -0	; position of circle center
+
+##############################################################
+[area2]
+##############################################################
+shape = polygon		
+radius = 10		
+points =
+	N36.1017, W4.1250
+	N36.3051, W3.9010
+	N36.7819, W4.5739
+	N36.5753, W4.7955
+        N36.1017, W4.1250
+	
+
