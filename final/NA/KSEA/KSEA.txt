@@ -1019,7 +1019,7 @@ config4 =
 
 [area1]
 shape = circle
-altitude = 3000
+altitude = 0
 radius = 5
 position = N47.5606, W122.2348
 
