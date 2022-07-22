@@ -1,92 +1,73 @@
-# Seattle Tacoma airport
-# Includes special airlines :)
+# Seattle Tacoma International Airport
+# v2.1
+# Original data by startgrid and TheArlan
+# Updated data and overhaul by wolflumin
+
 
 [airspace]
-elevation = 433
+elevation = 432
 radius = 45
+zoom = 4
+floor = 1800
 descendaltitude = 12000
-above = 25000
+ceiling = 13000
+above = 15000
 usa = true
-transition = 18001
+transitionaltitude = 18000
+automatic = true
 center = N47.449001, W122.308998
+name = Seattle Approach, Seattle Departure
 magneticvar = 18.037
+
 beacons =
 	SEA, N47.43540, W122.31000, 0, Seattle
 	RNT, N47.49540, W122.21500, 0, Renton
-	SZ, N47.53240, W122.30700, 0, Parkk
-	ODD, N47.36410, W122.30900, 0, Dondo
-	BF, N47.63250, W122.38900, 0, Nolla
-	PWT, N47.49230, W122.75700, 0, Kitsap
+	BFI, N47.31.41.900, W122.18.08.000, 0, Boeing Field
+	PWT, N47.49230, W122.75700, 0, Bremerton
 	TCM, N47.14770, W122.47500, 0, Mcchord
-	GR, N47.15020, W122.60500, 0, Graye
-	CAN, N47.41060, W122.83900, 0, Carney
-	PAE, N47.91980, W122.27800, 0, Paine
-	LAC, N47.00800, W122.55600, 0, Lacomas
-	MNC, N47.24810, W123.08600, 0, Mason Co
-	PA, N48.05280, W122.28900, 0, Ritts
+	PAE, N47.91980, W122.27800, 149, Paine
+	TIW, N47.16.04.600, W122.34.41.200, Tacoma Narrows
 	OLM, N46.97160, W122.90200, 0, Olympia
-	AW, N48.07610, W122.15400, 0, Waton
 	CVV, N48.24470, W122.72400, 0, Penn Cove
-	K, N48.13990, W123.40200, 0, Ediz Hook
-# BANGR Sid
-	CAVOB, N47.23.46.290, W122.18.30.050, 0, Cavob
-	OTLIE, N47.23.52.170, W122.18.41.620, 0, Ott Lee
-	DODVE, N47.29.55.590, W122.18.26.800, 0, Dod V
-	NESOE, N47.29.55.640, W122.18.38.450, 0, Ness Oh
-	WUREL, N47.33.19.520, W122.18.36.660, 0, Worel
-	ATOME, N47.36.27.230, W122.21.47.610, 0, Atom
-	BREMM, N47.37.12.000, W122.28.06.000, 0, Brem
-	RENBE, N47.19.13.310, W122.18.41.560, 0, Ren Be
-	RICHR, N47.18.24.080, W122.26.15.230, 0, Richer
-	TOMRE, N47.20.07.640, W122.31.00.820, 0, Tomer
-	BANGR, N47.38.38.050, W122.54.53.690, 0, Banger
-# HAROB Sid
-	EMRLD, N47.18.56.990, W122.46.10.790, 0, Emerald
-	HAROB, N47.14.36.000, W123.02.27.000, 0, Harob
-# SEATTLE Sid
-	YDC, N49.2289, W120.2242, 0, Princeton
 	BTG, N45.4487, W122.3549, 0, Battle Ground
-	EPH, N47.0146, W120.2750, 0, Ephrata
-# HAWKZ Star
+	CHINS, N46.48.41.400, W120.75.07.800, 0, Chins
+	BANGR, N47.38.38.050, W122.54.53.690, 0, Banger
+	HAROB, N47.14.36.000, W123.02.27.000, 0, Harob
 	HAWKZ, N46.47.04.930, W122.44.20.290, 0, Hawks
-	LIINE, N46.50.39.190, W122.40.06.620, 0, Line
-	FOOTT, N46.54.29.830, W122.34.48.930, 0, Foot
-	GOALZ, N46.58.56.840, W122.28.06.600, 0, Goals
-	SONDR, N47.07.25.690, W122.20.56.300, 0, Sonder
-	PIKEZ, N46.56.15.940, W122.33.43.270, 0, Pikes
-	COFAY, N47.04.43.830, W122.30.01.570, 0, Coffee
-	BREVE, N47.11.23.740, W122.28.48.460, 0, Breve
-	NETTZ, N47.21.09.000, W122.27.19.000, 0, Nets
-	KWEST, N47.24.32.890, W122.27.19.140, 0, Kay West
-	VASHN, N47.30.41.410, W122.27.19.320, 0, Vashen
-# MARNR Star
-	MARNR, N48.02.19.920, W122.50.59.670, 0, Marner
-	BOANE, N47.59.06.000, W122.43.31.000, 0, Bone
-	NEHOS, N47.55.25.820, W122.28.14.210, 0, Neos
-	GRIFY, N47.46.09.020, W122.24.07.430, 0, Griffy
-	PNELA, N47.55.29.990, W122.44.48.580, 0, Panayla
-	VEGGN, N47.43.17.780, W122.33.51.330, 0, Veagan
-	UNITT, N47.34.30.200, W122.27.49.340, 0, Unit
-	WUBET, N47.28.07.900, W122.27.52.920, 0, Woo Bet
-	SHIPZ, N47.21.29.060, W122.27.56.510, 0, Ships
-	EMMSS, N47.17.59.170, W122.27.58.320, 0, Emms
-# GLASR Star
+	JAWBN, N48.01.54.300, W122.50.35.700, 0, Jawbone
+	MARNR, N48.02.19.920, W122.50.59.670, 0, Mariner
 	GLASR, N47.51.15.400, W121.11.34.090, 0, Glazer
-	JAKSN, N47.53.11.210, W121.42.13.380, 0, Jackson
-	WOODI, N47.46.07.460, W121.51.47.700, 0, Woody
-	HETHR, N47.33.32.570, W122.08.41.860, 0, Heather
+	SKYKO, N47.46.01.900, W121.25.44.000, 0, Skyko
+	ELMAA, N47.08.53.000, W123.24.34.400, 0, ELMA
+	ISBRG, N47.37.40.700, W122.37.02.500, 0, Iceburg
+	JEFPO, N47.43.44.800, W122.27.35.100, 0, Jeffpo
+	OZWLD, N47.32.34.000, W122.35.03.900, 0, Ozwald
+	SUMMA, N46.37.04.300, W121.59.18.000, 0, Soomah
+	ALDER, N46.49.17.600, W122.24.51.200, 168, Alder
+
+boundary = 
+	N48.0025, W122.0754
+	N48.0150, W122.5811
+	N47.9274, W122.8639
+	N47.3857, W122.9929
+	N47.3906, W123.1778
+	N47.2837, W123.2949
+	N46.8997, W123.3203
+	N46.6332, W122.2321
+	N46.9922, W121.8817
+	N47.3054, W121.5356
+	N47.4831, W121.5321
+	N47.8291, W121.7190
+	
+handoff = 
+	350, Seattle Center, seattle center, 134.95
+	045, Seattle Center, seattle center, 127.05
+	100, Seattle Center, seattle center, 120.8
+	165, Seattle Center, seattle center, 126.6
+	235, Seattle Center, seattle center, 128.3
+	290, Seattle Center, seattle center, 125.1
 
 line1 =
-	N48.38657, W123.91694
-	N48.33354, W123.59463
-	N48.32280, W123.57314
-	N48.34497, W123.53647
-	N48.40010, W123.48457
-	N48.42725, W123.44590
-	N48.40649, W123.33452
-	N48.41104, W123.31064
-
-line2 =
 	N47.20474, W122.85308
 	N47.18506, W122.86260
 	N47.18613, W122.87676
@@ -96,7 +77,7 @@ line2 =
 	N47.21631, W122.84917
 	N47.20474, W122.85308
 
-line3 =
+line2 =
 	N47.42168, W122.50684
 	N47.35801, W122.50991
 	N47.39023, W122.46855
@@ -110,7 +91,7 @@ line3 =
 	N47.48877, W122.48647
 	N47.42168, W122.50684
 
-line4 =
+line3 =
 	N47.69058, W122.51724
 	N47.70396, W122.54976
 	N47.69775, W122.56011
@@ -122,12 +103,7 @@ line4 =
 	N47.68267, W122.50786
 	N47.69058, W122.51724
 
-line5 =
-	N48.43467, W122.89004
-	N48.42153, W122.83657
-	N48.43135, W122.82090
-
-line6 =
+line4 =
 	N48.08008, W122.50283
 	N48.02544, W122.52383
 	N48.15664, W122.57275
@@ -160,7 +136,7 @@ line6 =
 	N47.98545, W122.36675
 	N48.08008, W122.50283
 
-line7 =
+line5 =
 	N48.44639, W122.66250
 	N48.43330, W122.63779
 	N48.42866, W122.58257
@@ -271,27 +247,37 @@ line7 =
 	N48.11953, W123.29443
 	N48.16846, W123.97578
 
-line8 =
-	N46.98447, W123.98604
-	N46.96318, W123.84287
-
-line9 =
-	N46.70869, W123.95771
-	N46.66001, W123.88916
-	N46.53335, W123.91240
-
-line10 =
-	N48.25693, W120.62505
-	N48.27939, W120.62827
-
 [airport1]
 name = Seattle Tacoma International Airport, Seattle
 code = KSEA
 runways =
-	rwy1, 16C, N47.4638, W122.311, 180.0, 9426, 0, 0, 430
-	rwy2, 16L, N47.4638, W122.308, 180.0, 11900, 0, 0, 432
-	rwy3, 16R, N47.4638, W122.318, 180.0, 9426, 0, 0, 430
-airlines =asa, 20, a319/a320/a21n/b734/b737/b738/b739/b39m, alaska, nse
+	rwy1, 16C, N47.4638, W122.311, 180.0, 9426, 0, 0, 430, 3, 180.0, 3, 0.0, SODOE, 4.4, TIFYS, 5.2, 119.9, seattle tower
+	rwy2, 16L, N47.4638, W122.308, 180.0, 11901, 0, 0, 432, 3, 180.0, 3, 0.0, DGLAS, 4.4, BUCKK, 5.0, 119.9, seattle tower
+	rwy3, 16R, N47.4638, W122.318, 180.0, 8500, 0, 0, 415, 3, 180.0, 3, 0.0, FINKA, 4.5, JALON, 5.2, 120.95, seattle tower
+	
+climbaltitude = 3000
+
+sids =
+	BANGR
+	ELMAA
+	HAROB
+	ISBRG
+	JEFPO
+	OZWLD
+	SUMMA
+	BTG
+
+entrypoints =
+	160, CHINS
+	070, GLASR
+	200, HAWKZ
+	315, JAWBN
+	330, MARNR
+	230, OLM
+	065, SKYKO
+
+airlines =
+	asa, 20, a319/a320/a21n/b734/b737/b738/b739/b39m, alaska, nse
 	qxe, 10, crj7/dh8b/dh8d/e175, horizon, se
 	dal, 4, bcs1/bcs3/a319/a320/a321/a332/a333/a339/a359/b712/b737/b738/b739/b752/b753/b763/b764/b772/b77l/md88/md90, delta, nswe
 	edv, 2, crj2/crj7/crj9, endeavor, sew
@@ -350,236 +336,1552 @@ airlines =asa, 20, a319/a320/a21n/b734/b737/b738/b739/b39m, alaska, nse
 	ujc, 1, j328, ultimate, s
 	wow, 1, a333, wow air, n
 	sjx, 1, a339/a359/a35k, star walker, w
-	
-entrypoints =
-	205, HAWKZ
-	330, MARNR
-	055, JAKSN
-	
+
+##########   BOEING FIELD   ##########
+[airport2]
+name = Boeing Field
+code = BF
+runways =
+	rwy4, 14R, N47.5405, W122.311, 150.0, 10007, 0, 887, 18, 3, 0, 3, 0, NAN, 0.0, NAN, 0.0, 120.6, Boeing Tower
+	rwy5, 14L, N47.538, W122.307, 150.0, 3709, 250, 375, 17, 3, 0, 3, 0, NAN, 0.0, NAN, 0.0, 118.3, Boeing Tower
+
+flow = 11
+inboundbeacon = BFI
+climbaltitude = 1200
+
 sids =
-	BTG
-	YDC
-	EPH
+	CBAIN, N47.37.23.700, W122.24.41.500, kobain
+	NRVNA, N47.22.19.500, W122.10.10.200, nirvana
+	ZIGED, N47.19.41.300, W122.7.49.600, zig ed
+
+entrypoints =
+	160, CHINS
+	070, GLASR
+	315, JAWBN
+	230, OLM
+	065, SKYKO
 	
+
+airlines =
+	boe, 0.4, b734/b737/b738/b739/b39m/b752/b778, boeing, nswe
+	ken, 0.5, c208/pc12/dhc6, kenmore, nw
+	eja, 0.7, c68a/e55p/c56x, exec jet, nswe
+	dpj, 0.3, e55p/c750/b350, jet card, wse
+	ups, 0.4, b763/b772/b773/b77w/b788/b789, U P S, sw
+	n-580sr, 1, sr22
+	n-306pp, 1, c172
+	n-34ma, 1, pa32
+	n-116aa, 1, c25b
+	n-345ma, 1, lj45
+	n-925lr, 1, be36
+	n-41866, 1, p32r
+	n-374ma, 1, c172
+	n-146st, 1, pa46
+	n-6163y, 1, t206
+	n-886jm, 1, s22t
+	n-399ta, 1, be36
+	n-130ja, 1, c172
+	n-185gg, 1, c185
+	n-4188d, 1, pa46
+	n-20618, 1, c172
+	n-726mj, 1, lj45
+	n-250sr, 1, c560
+	n-26xl, 1, c56x
+	n-420st, 1, hdjt
+	n-524gt, 1, pc12
+	n-4797s, 1, pa32
+	n-1185f, 1, c172
+	n-705ja, 1, c172
+	n-41866, 1, p32r
+	n-74767, 1, r44
+	n-45517, 1, c150
+	n-577nd, 1, c172	
+
+	
+########################################
+###          SIDS AND STARS          ###
+###         AIRAC CYCLE 2207         ###
+########################################
+
+##########  KSEA DEPARTURE SIDS   ##########
 [departure1]
 runway = rwy2
+## RWY 16L ##
 route1 =
 	BANGR9, Banger Nine
-	N47.23.46.290, W122.18.30.050
+	N47.23.46.300, W122.18.30.000, 3000
 	N47.19.13.310, W122.18.41.560
 	N47.18.24.080, W122.26.15.230
 	N47.20.07.640, W122.31.00.820
 	N47.38.38.050, W122.54.53.690
-	
+# CAVOB RENBE^030 RICHR TOMRE BANGR/^100
+
 route2 =
 	HAROB6, Harob Six
-	N47.23.46.290, W122.18.30.050
+	N47.23.46.300, W122.18.30.000, 3000
 	N47.19.13.310, W122.18.41.560
 	N47.18.24.080, W122.26.15.230
 	N47.18.56.990, W122.46.10.790
 	N47.14.36.000, W123.02.27.000
+# CAVOB RENBE^030 RICHR EMRLD HAROB^100
 
-route17 =
-	SEA7, Seattle Seven
+route3 =
+	SUMMA2, Soomah Two
+	N47.15.07.800, W122.18.34.800
+	N46.37.04.300, W121.59.18.000
+# NEVJO, SUMMA
+
+route4 =
+	SEA8, Seattle Eight
 	N49.2289, W120.2242
 
-route18 =
-	SEA7, Seattle Seven
+route5 =
+	SEA8, Seattle Eight
 	N45.4487, W122.3549
 
-route19 =
-	SEA7, Seattle Seven
+route6 =
+	SEA8, Seattle Eight
 	N47.0146, W120.2750
 	
 [departure2]
 runway = rwy1
-route3 =
+## RWY 16C ##
+route1 =
 	BANGR9, Banger Nine
-	N47.23.52.170, W122.18.41.620
+	N47.23.52.200, W122.18.41.600, 3000
 	N47.19.13.310, W122.18.41.560
 	N47.18.24.080, W122.26.15.230
 	N47.20.07.640, W122.31.00.820
 	N47.38.38.050, W122.54.53.690
-	
-route4 =
+# OTLIE RENBE^030 RICHR TOMRE BANGR/^100
+
+route2 =
 	HAROB6, Harob Six
-	N47.23.52.170, W122.18.41.620
+	N47.23.52.200, W122.18.41.600, 3000
 	N47.19.13.310, W122.18.41.560
 	N47.18.24.080, W122.26.15.230
 	N47.18.56.990, W122.46.10.790
 	N47.14.36.000, W123.02.27.000
+# OTLIE RENBE^030 RICHR EMRLD HAROB^100
 
-route14 =
-	SEA7, Seattle Seven
+route3 =
+	SUMMA2, Soomah Two
+	N47.15.07.800, W122.18.34.800
+	N46.37.04.300, W121.59.18.000
+# NEVJO, SUMMA
+
+route4 =
+	SEA8, Seattle Eight
 	N49.2289, W120.2242
 
-route15 =
-	SEA7, Seattle Seven
+route5 =
+	SEA8, Seattle Eight
 	N45.4487, W122.3549
 
-route16 =
-	SEA7, Seattle Seven
+route6 =
+	SEA8, Seattle Eight
 	N47.0146, W120.2750
 	
 [departure3]
 runway = rwy2, rev
-route4 =
+## RWY 34R ##
+route1 =
 	BANGR9, Banger Nine
-	N47.29.55.590, W122.18.26.800
+	N47.29.55.590, W122.18.26.800, 3100
 	N47.33.19.520, W122.18.36.660
 	N47.36.27.230, W122.21.47.610
 	N47.37.12.000, W122.28.06.000
 	N47.38.38.050, W122.54.53.690
-	
-route5 =
+# DODVE WUREL^031 ATOME BREMM BANGR^100
+
+route2 =
 	HAROB6, Harob Six
-	N47.29.55.590, W122.18.26.800
+	N47.29.55.590, W122.18.26.800, 3100
 	N47.33.19.520, W122.18.36.660
 	N47.36.27.230, W122.21.47.610
 	N47.37.12.000, W122.28.06.000
 	N47.14.36.000, W123.02.27.000
+# DODVE WUREL^031 ATOME BREMM HAROB^100
 
-route20 =
-	SEA7, Seattle Seven
+route3 =
+	ISBRG1, Iceburg One
+	N47.29.55.590, W122.18.26.800, 3100
+	N47.33.19.520, W122.18.36.660
+	N47.36.27.230, W122.21.47.610
+	N47.37.12.000, W122.28.06.000
+	N47.37.40.700, W122.37.02.500
+# DODVE WUREL^031 ATOME BREMM ISBRG
+
+route4 =
+	JEFPO1, Jeffpo One
+	N47.29.55.590, W122.18.26.800, 3100
+	N47.33.19.520, W122.18.36.660
+	N47.36.27.230, W122.21.47.610
+	N47.38.25.100, W122.27.27.400
+	N47.43.44.800, W122.27.35.100
+# DODVE WUREL^031 ATOME CENEX JEFPO
+
+route5 =
+	OZWLD1, Oswald One
+	N47.29.55.590, W122.18.26.800, 3100
+	N47.33.19.520, W122.18.36.660
+	N47.36.27.230, W122.21.47.610
+	N47.37.12.000, W122.28.06.000
+	N47.32.34.000, W122.35.03.900
+# DODVE WUREL^031 ATOME BREMM OZWLD
+
+route6 =
+	SUMMA2, Soomah Two
+	N47.34.07.200, W122.18.34.800, 4000
+	N46.37.04.300, W121.59.18.000
+# NEZUG^040, SUMMA
+
+route7 =
+	SEA8, Seattle Eight
 	N49.2289, W120.2242
 
-route21 =
-	SEA7, Seattle Seven
+route8 =
+	SEA8, Seattle Eight
 	N45.4487, W122.3549
 
-route22 =
-	SEA7, Seattle Seven
+route9 =
+	SEA8, Seattle Eight
 	N47.0146, W120.2750
 	
 [departure4]
 runway = rwy1, rev
-route6 =
+## RWY 34C ##
+route1 =
 	BANGR9, Banger Nine
-	N47.29.55.640, W122.18.38.450
+	N47.29.55.600, W122.18.38.500, 3100
 	N47.33.19.520, W122.18.36.660
 	N47.36.27.230, W122.21.47.610
 	N47.37.12.000, W122.28.06.000
 	N47.38.38.050, W122.54.53.690
-	
-route7 =
+# NESOE WUREL^031 ATOME BREMM BANGR^100
+
+route2 =
 	HAROB6, Harob Six
-	N47.29.55.640, W122.18.38.450
+	N47.29.55.600, W122.18.38.500, 3100
 	N47.33.19.520, W122.18.36.660
 	N47.36.27.230, W122.21.47.610
 	N47.37.12.000, W122.28.06.000
 	N47.14.36.000, W123.02.27.000
+# NESOE WUREL^031 ATOME BREMM HAROB^100
 
-route23 =
-	SEA7, Seattle Seven
+route3 =
+	ISBRG1, Iceburg One
+	N47.29.55.600, W122.18.38.500, 3100
+	N47.33.19.520, W122.18.36.660
+	N47.36.27.230, W122.21.47.610
+	N47.37.12.000, W122.28.06.000
+	N47.37.40.700, W122.37.02.500
+# NESOE WUREL^031 ATOME BREMM ISBRG
+
+route4 =
+	JEFPO1, Jeffpo One
+	N47.29.55.600, W122.18.38.500, 3100
+	N47.33.19.520, W122.18.36.660
+	N47.36.27.230, W122.21.47.610
+	N47.38.25.100, W122.27.27.400
+	N47.43.44.800, W122.27.35.100
+# NESOE WUREL^031 ATOME CENEX JEFPO
+
+route5 =
+	OZWLD1, Oswald One
+	N47.29.55.600, W122.18.38.500, 3100
+	N47.33.19.520, W122.18.36.660
+	N47.36.27.230, W122.21.47.610
+	N47.37.12.000, W122.28.06.000
+	N47.32.34.000, W122.35.03.900
+# NESOE WUREL^031 ATOME BREMM OZWLD
+
+route6 =
+	SUMMA2, Soomah Two
+	N47.34.07.200, W122.18.34.800, 4000
+	N46.37.04.300, W121.59.18.000
+# NEZUG^040, SUMMA
+
+route7 =
+	SEA8, Seattle Eight
 	N49.2289, W120.2242
 
-route24 =
-	SEA7, Seattle Seven
+route8 =
+	SEA8, Seattle Eight
 	N45.4487, W122.3549
 
-route25 =
-	SEA7, Seattle Seven
+route9 =
+	SEA8, Seattle Eight
 	N47.0146, W120.2750
-	
+
+##########  KBFI DEPARTURE SIDS   ##########
+[departure5]
+runway = rwy4
+## RWY 14R ##
+route1 =
+	NRVNA1, Nirvana One
+	N47.22.19.500, W122.10.10.200, 2000
+	N46.6264, W123.0222
+# NRVNA-2000 exit S
+
+route2 =
+	NRVNA1, Nirvana One
+	N47.22.19.500, W122.10.10.200, 2000
+	N47.5832, W121.0505
+# NRVNA-2000 exit E
+
+route3 =
+	NRVNA1, Nirvana One
+	N47.22.19.500, W122.10.10.200, 2000
+	N46.6648, W121.6496
+# NRVNA-2000 exit E
+
+route4 =
+	NRVNA1, Nirvana One
+	N47.22.19.500, W122.10.10.200, 2000
+	N48.2958, W121.8774
+# NRVNA-2000 exit N
+
+route5 =
+	NRVNA1, Nirvana One
+	N47.22.19.500, W122.10.10.200, 2000
+	N46.5190, W122.3733
+# NRVNA-2000 exit S
+
+route6 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N46.6264, W123.0222
+# ZIGED-2000 exit S
+
+route7 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N47.5832, W121.0505
+# ZIGED-2000 exit E
+
+route8 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N46.6648, W121.6496
+# ZIGED-2000 exit E
+
+route9 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N48.2958, W121.8774
+# ZIGED-2000 exit N
+
+route10 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N46.5190, W122.3733
+# ZIGED-2000 exit S
+
+[departure6]
+runway = rwy5
+## RWY 14L ##
+route1 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N46.6264, W123.0222
+# ZIGED-2000 exit S
+
+route2 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N47.5832, W121.0505
+# ZIGED-2000 exit E
+
+route3 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N46.6648, W121.6496
+# ZIGED-2000 exit E
+
+route4 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N48.2958, W121.8774
+# ZIGED-2000 exit N
+
+route5 =
+	KENT8, Kent Eight
+	N47.19.41.300, W122.07.49.600, 2000
+	N46.5190, W122.3733
+# ZIGED-2000 exit S
+
+[departure7]
+runway = rwy4, rev
+## RWY 32L ##
+route1 =
+	CBAIN1, Cobain One
+	N47.33.38.400, W122.19.42.400, 1600
+	N47.35.28.000, W122.21.17.700
+	N47.37.20.700, W122.24.41.500
+	N46.6264, W123.0222
+# hdg GNEXX-1600 KURRT CBAIN-2100 exit S
+
+route2 =
+	CBAIN1, Cobain One
+	N47.33.38.400, W122.19.42.400, 1600
+	N47.35.28.000, W122.21.17.700
+	N47.37.20.700, W122.24.41.500
+	N47.5832, W121.0505
+# hdg GNEXX-1600 KURRT CBAIN-2100 exit E
+
+route3 =
+	CBAIN1, Cobain One
+	N47.33.38.400, W122.19.42.400, 1600
+	N47.35.28.000, W122.21.17.700
+	N47.37.20.700, W122.24.41.500
+	N46.6648, W121.6496
+# hdg GNEXX-1600 KURRT CBAIN-2100 exit E
+
+route4 =
+	CBAIN1, Cobain One
+	N47.33.38.400, W122.19.42.400, 1600
+	N47.35.28.000, W122.21.17.700
+	N47.37.20.700, W122.24.41.500
+	N48.2958, W121.8774
+# hdg GNEXX-1600 KURRT CBAIN-2100 exit N
+
+route5 =
+	CBAIN1, Cobain One
+	N47.33.38.400, W122.19.42.400, 1600
+	N47.35.28.000, W122.21.17.700
+	N47.37.20.700, W122.24.41.500
+	N46.5190, W122.3733
+# hdg GNEXX-1600 KURRT CBAIN-2100 exit S
+
+route6 =
+	NEEDLE1, Needle One
+	-12.73, 14.67
+	N46.6264, W123.0222
+# exit S
+
+route7 =
+	NEEDLE1, Needle One
+	-12.73, 14.67
+	N46.5190, W122.3733
+#  exit S
+
+route8 =
+	NEEDLE1, Needle One
+	-12.73, 14.67
+	N46.6648, W121.6496
+# exit E
+
+
+##########   ARRIVAL STARS KSEA  ##########
+
+######################
+##    SOUTH FLOW    ##
+######################
+
 [approach1]
 runway = rwy3
-beacon = HAWKZ
-route8 =
-	205
-	N46.47.04.930, W122.44.20.290, 12000
-	N46.50.39.190, W122.40.06.620, 12000
-	N46.56.15.940, W122.33.43.270, 12000
-	N47.04.43.830, W122.30.01.570, 11000
-	N47.11.23.740, W122.28.48.460, 10000
-	N47.21.09.000, W122.27.19.000, 8000
-	N47.24.32.890, W122.27.19.140, 7000
-	N47.30.41.410, W122.27.19.320, 6000
-	end, 344
-	
+## RWY 16R ##
+beacon = CHINS
+route1 =
+	284, CHINS4, Chins Four
+	N46.48.41.400, W120.75.07.800, 16000, 270
+	N47.04.28.100, W121.30.58.300, 16000, 270
+	N47.12.33.800, W121.48.36.400, 15000, 0
+	N47.21.42.400, W122.08.45.500, 12000, 250
+	end, 343
+# RADDY-160@270 HUMPP-150 AUBRN-120@250 exit343
+
 [approach2]
 runway = rwy3
-beacon = MARNR
-route9 =
-	330
-	N48.02.19.920, W122.50.59.670, 12000
-	N47.59.06.000, W122.43.31.000, 11000
-	N47.55.25.820, W122.28.14.210, 8000
-	N47.46.09.020, W122.24.07.430, 6000
-	end, 147
-	
-[approach3]
-runway = rwy2
-beacon = JAKSN
-route10 =
-	055
-	N47.53.11.210, W121.42.13.380, 12000
-	N47.46.07.460, W121.51.47.700, 10000
-	N47.33.32.570, W122.08.41.860, 8000
-	end, 340
-	
-[approach4]
-runway = rwy3, rev
-beacon = HAWKZ
-route11 =
-	205
-	N46.47.04.930, W122.44.20.290, 12000
-	N46.50.39.190, W122.40.06.620, 12000
-	N46.54.29.830, W122.34.48.930, 10000
-	N46.58.56.840, W122.28.06.600, 8000
-	N47.07.25.690, W122.20.56.300, 6000
-	end, 360
-	
-[approach5]
-runway = rwy3, rev
-beacon = MARNR
-route12 =
-	330
-	N48.02.19.920, W122.50.59.670, 12000
-	N47.55.29.990, W122.44.48.580, 12000
-	N47.43.17.780, W122.33.51.330, 11000
-	N47.34.30.200, W122.27.49.340, 10000
-	N47.28.07.900, W122.27.52.920, 8000
-	N47.21.29.060, W122.27.56.510, 7000
-	N47.17.59.170, W122.27.58.320, 6000
-	end, 164
-	
-[approach6]
-runway = rwy2, rev
-beacon = JAKSN
-route13 =
-	055
-	N47.53.11.210, W121.42.13.380, 12000
-	N47.46.07.460, W121.51.47.700, 10000
-	N47.33.32.570, W122.08.41.860, 8000
-	end, 163
+## RWY 16R ##
+beacon = GLASR
+route1 =
+	255, GLASR1, Glazer One
+	N47.51.15.400, W121.11.34.090, 12000, 250
+	N47.53.11.200, W121.42.13.400, 12000, 250
+	N47.46.07.500, W121.51.47.700, 0, 0
+	N47.33.32.600, W122.08.41.900, 0, 250
+	end, 250
+# JAKSN-120@250 WOODI HETHR@250 exit250
 
+[approach3]
+runway = rwy3
+## RWY 16R ##
+beacon = HAWKZ
+route1 =
+	343, HAWKZ7, Hawks Seven
+	N46.47.04.930, W122.44.20.290, 12000, 250
+	N46.50.39.190, W122.40.06.620, 12000, 250
+	N46.56.15.940, W122.33.43.270, 12000, 250
+	N47.04.43.830, W122.30.01.570, 0, 0
+	N47.11.23.740, W122.28.48.460, 10000, 250
+	N47.21.09.000, W122.27.19.000, 8000, 230
+	N47.24.32.890, W122.27.19.140, 7000, 0
+	N47.30.41.410, W122.27.19.320, 6000, 210
+	end, 344
+# LIINE PIKEZ-120@250 COFAY BREVE-100@250 NETTZ-080@230 KWEST-070 VASHN-060@210
+
+[approach4]
+runway = rwy3
+## RWY 16R ##
+beacon = JAWBN
+route1 =
+	152, JAWBN6, Jawbone Six
+	N48.01.54.300, W122.50.35.700, 12000, 250
+	N47.56.49.800, W122.46.00.100, 12000, 250
+	N47.37.15.700, W122.28.27.200, 0, 0
+	end, 070
+# DIGGN-120@250 ALKIA exit070
+
+[approach5]
+runway = rwy3
+## RWY 16R ##
+beacon = MARNR
+route1 =
+	132, MARNR7, Mariner Seven
+	N48.02.19.920, W122.50.59.670, 11000, 250
+	N47.59.06.000, W122.43.31.000, 11000, 250
+	N47.55.25.820, W122.28.14.210, 8000, 230
+	N47.46.09.020, W122.24.07.430, 6000, 210
+	end, 147
+# BOANE-110@250 NEHOS-080@230 GRIFY-060@210 exit147
+
+[approach6]
+runway = rwy3
+## RWY 16R ##
+beacon = OLM
+route1 =
+	341, OLYMPIA2, Olympia Two
+	N46.97160, W122.90200, 17000, 270
+	N47.02.49.300, W122.48.21.200, 17000, 270
+	N47.13.21.500, W122.34.51.600, 13000, 250
+	N47.17.52.000, W122.29.02.900, 0, 0
+	end, 343
+# LACEE-170@270 ARVAD-130@250 FOURT exit343
+
+[approach7]
+runway = rwy3
+## RWY 16R ##
+beacon = SKYKO
+route1 =
+	266, SKYKO1, Skyko One
+	N47.46.01.900, W121.25.44.00, 12000, 0
+	N47.49.51.700, W121.46.44.300, 12000, 0
+	N47.33.32.600, W122.08.41.900, 10000, 0
+	end, 250
+# HUVUS-120 HETHR-100 exit250
+
+######################
+##    NORTH FLOW    ##
+######################
+
+[approach8]
+runway = rwy3, rev
+## RWY 34L ##
+beacon = CHINS
+route1 =
+	284, CHINS4, Chins Four
+	N46.48.41.400, W120.75.07.800, 16000, 270
+	N46.48.41.400, W120.57.07.800, 16000, 270
+	N47.04.28.100, W121.30.58.300, 12000, 250
+	N47.12.33.800, W121.48.36.400, 0, 0
+	N47.21.42.400, W122.08.45.500, 0, 0
+	end, 250
+# RADDY-120@250 HUMPP AUBRN exit250
+
+[approach9]
+runway = rwy3, rev
+## RWY 34L ##
+beacon = GLASR
+route1 =
+	255, GLASR1, Glazer One
+	N47.51.15.400, W121.11.34.090, 16000, 270
+	N47.53.11.200, W121.42.13.400, 16000, 270
+	N47.46.07.500, W121.51.47.700, 14000, 0
+	N47.33.32.600, W122.08.41.900, 12000, 250
+	end, 163
+# JAKSN-160@270 WOODI-140 HETHR-120@250 exit163
+
+[approach10]
+runway = rwy3, rev
+## RWY 34L ##
+beacon = HAWKZ
+route1 =
+	343, HAWKZ7, Hawks Seven
+	N46.47.04.930, W122.44.20.290, 0, 0
+	N46.50.39.190, W122.40.06.620, 0, 0
+	N46.54.29.800, W122.34.48.900, 10000, 250
+	N46.58.56.800, W122.28.06.600, 8000, 0
+	N47.07.25.700, W122.20.56.300, 6000, 230
+	end, 014
+# LIINE FOOTT-100@250 GOALZ-080 SONDR-060@230 exit014
+
+[approach11]
+runway = rwy3, rev
+## RWY 34L ##
+beacon = MARNR
+route1 =
+	132, MARNR7, Mariner Seven
+	N48.02.19.920, W122.50.59.670, 12000, 270
+	N47.55.30.000, W122.44.48.600, 12000, 270
+	N47.43.17.800, W122.33.51.300, 11000, 250
+	N47.34.30.200, W122.27.49.300, 10000, 230
+	N47.28.07.900, W122.27.52.900, 8000, 0
+	N47.21.29.100, W122.27.56.500, 7000, 210
+	N47.17.59.200, W122.27.58.300, 0, 0
+	end, 164
+# PNELA-120@270 VEGGN-110@250 UNITT-100@230 WUBET-080 SHIPZ-070@210 EMMSS exit164
+
+[approach12]
+runway = rwy3, rev
+## RWY 34L ##
+beacon = JAWBN
+route1 =
+	152, JAWBN6, Jawbone Six
+	N48.01.54.300, W122.50.35.700, 12000, 250
+	N47.55.30.000, W122.44.48.600, 12000, 270
+	N47.43.17.800, W122.33.51.300, 11000, 250
+	N47.34.30.200, W122.27.49.300, 10000, 230
+	N47.28.07.900, W122.27.52.900, 8000, 0
+	N47.21.29.100, W122.27.56.500, 7000, 210
+	N47.17.59.200, W122.27.58.300, 0, 0
+	end, 164
+# PNELA-120@270 VEGGN-110@250 UNITT-100@230 WUBET-080 SHIPZ-070@210 EMMSS exit164
+
+[approach13]
+runway = rwy3, rev
+## RWY 34L ##
+beacon = OLM
+route1 =
+	341, OLYMPIA2, Olympia Two
+	N46.97160, W122.90200, 13000, 270
+	N47.02.49.300, W122.48.21.200, 13000, 250
+	N47.13.21.500, W122.34.51.600, 0, 0
+	N47.17.52.000, W122.29.02.900, 0, 0
+	end, 070
+# LACEE-130@250 ARVAD FOURT exit070
+
+[approach14]
+runway = rwy3, rev
+## RWY 34L ##
+beacon = SKYKO
+route1 =
+	266, SKYKO1, Skyko One
+	N47.46.01.900, W121.25.44.000, 12000, 0
+	N47.49.51.700, W121.46.44.300, 12000, 0
+	N47.33.32.600, W122.08.41.900, 10000, 0
+	end, 163
+# HUVUS-120 HETHR-100 exit163
+
+## No approaches for BFI as GA tend to be vectored more than use a STAR and can't split airliners out
+
+##########   CONFIGS FOR RUNWAYS   ##########
+## I am splitting these into KSEA only or KSEA and KBFI together so that you can decide whether or not you want BFI aircraft at all in your play session
 [configurations]
 config1 =
+## South Flow: 16R LND and 16L T/O No BFI
+## Progression adds additional center T/O and parallel landing rwy
 	0, rwy3, land
-	0, rwy2, startland
-	0, rwy1, start
+	0, rwy2, start
+	8, rwy1, start
+	11, rwy2, startland
 
+## North Flow: 134L LND and 16R T/O No BFI
+## Progression adds additional center T/O and parallel landing rwy
 config2 =
-	0, rwy1, startrev
-	0, rwy2, landstartrev
-	0, rwy3, landrev
+	0, rwy3, revland
+	0, rwy2, revstart
+	8, rwy1, revstart
+	11, rwy2, revstartland
 
-config3 = 
-	0, rwy2, landstart
+config3 =
+## South Flow: 16R LND and 16L T/O WITH BFI
+## Progression adds additional center T/O and parallel landing rwy
 	0, rwy3, land
+	0, rwy2, start
+	0, rwy4, startland
+	8, rwy1, start
+	11, rwy2, startland
+	11, rwy5, start
 
+## North Flow: 134L LND and 16R T/O WITH BFI
+## Progression adds additional center T/O and parallel landing rwy
 config4 =
-	0, rwy2, landstartrev
-	0, rwy3, landrev
+	0, rwy3, revland
+	0, rwy2, revstart
+	0, rwy4, revstartland
+	8, rwy1, revstart
+	11, rwy2, revstartland
+	11, rwy5 revstart
 
-[airport2]
-name = Boeing Field
-code = FI
-runways =
-	rwy4, 14L, N47.538, W122.307, 140.0, 3709, 250, 375, 21
-	rwy5, 14R, N47.5405, W122.311, 140.0, 10007, 0, 887, 17
-inboundbeacon = SZ
+##########   MAP LINES, SHAPES, POIS   ##########
+
+[area1]
+shape = circle
+altitude = 3000
+radius = 5
+position = N47.5606, W122.2348
+
+## MOA ##
+[area2]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-6.58, -23.10
+	-8.57, -22.76
+	-10.83, -23.31
+	-13.16, -24.68
+	-13.44, -25.92
+
+[area3]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-14.40, -28.80
+	-14.95, -29.96
+	-15.01, -33.87
+
+[area4]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-14.33, -36.27
+	-13.99, -38.12
+	-12.89, -39.70
+
+[area5]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-10.35, -40.66
+	-7.27, -41.07
+	-5.55, -39.70
 	
+[area6]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-3.29, -38.32
+	-1.51, -36.54
+	
+[area7]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-0.55, -35.31
+	0.07, -34.01
+	0.14, -31.95
+
+[area8]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-0.96, -27.56
+	-1.37, -25.98
+	-2.74, -24.20
+	-4.18, -23.79
+
+## BOXES ##
+
+[area9]
+shape = polygon
+altitude = 0
+draw = 0
+points =
+	-23.91, 32.73
+	-26.18, 32.59
+	-25.70, 29.15
+	-23.22, 29.70
+
+[area10]
+shape = polygon
+altitude = 0
+draw = 0
+points =
+	-13.64, 2.83
+	-15.23, 2.48
+	-15.09, 1.65
+	-13.71, 2.14
+
+###########   AIRSPACE GUIDES   ###########
+## NORTH ##
+[area11]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-48.03, 22.12
+	-45.89, 21.77
+
+[area12]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-33.07, 20.60
+	-30.32, 20.26
+
+[area13]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-18.53, 29.63
+	-18.19, 31.21
+
+[area14]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-17.71, 32.45
+	-16.61, 36.38
+
+[area15]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-14.81, 41.82
+	-14.33, 43.82
+	-12.20, 44.44
+
+[area16]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	0.55, 48.16
+	2.55, 48.71
+	3.17, 46.44
+
+[area17]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	4.82, 39.41
+	5.51, 37.21
+
+[area18]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	6.68, 32.04
+	7.17, 30.04
+
+[area19]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	8.41, 24.74
+	8.82, 22.94
+	8.27, 21.29
+	8.82, 22.94
+	7.10, 22.39
+
+[area20]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	1.58, 20.67
+	-0.69, 20.60
+
+[area21]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-5.10, 19.57
+	-7.17, 18.95
+
+[area22]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-9.85, 17.98
+	-10.96, 17.43
+	-10.75, 16.47
+	-10.96, 17.43
+	-11.64, 21.43
+	-12.33, 23.01
+
+[area23]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-12.68, 24.80
+	-13.71, 25.91
+	-16.12, 31.70
+
+[area24]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-16.61, 33.07
+	-17.23, 34.31
+
+## EAST ##
+[area25]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	7.79, 19.64
+	7.17, 17.57
+
+[area26]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	6.41, 15.16
+	5.58, 12.20
+
+[area27]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	24.80, 17.71
+	23.56, 17.43
+
+[area28]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	20.67, 16.74
+	19.43, 16.33
+
+[area29]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	14.81, 15.37
+	13.57, 15.23
+	12.82, 13.37
+
+[area30]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	11.42, 10.66
+	10.75, 9.58
+
+[area31]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	8.34, 5.17
+	7.79, 4.00
+	8.06, 3.10
+	7.03, 2.76
+
+[area32]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	4.33, 2.13
+	3.58, 1.86
+	3.16, 3.03
+
+## GLASR ENTRY GATE ##
+[area33]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	11.49, 32.33
+	10.39, 28.82
+
+[area34]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	18.44, 29.37
+	16.65, 25.25
+
+## CHINS ENTRY GATE ##
+[area35]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	32.54, 1.65
+	34.53, 1.93
+
+[area36]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	31.92, -6.47
+	28.07, -5.50
+
+[area37]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	30.20, -11.97
+	26.90, -11.14
+
+##############
+[area38]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	8.39, 1.31
+	8.53, -0.07
+
+[area39]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	8.60, -0.76
+	8.67, -1.10
+	7.43, -1.93
+	8.67, -1.10
+	9.49, -1.44
+
+[area40]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	12.80, -2.68
+	14.79, -3.30
+	
+[area41]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	16.92, -4.20
+	18.71, -4.82
+
+#[area42]
+#shape = polygon
+#altitude = 0
+#draw = 1
+#points =
+#	21.39, -5.85
+#	22.43, -6.19
+
+#[area43]
+#shape = polygon
+#altitude = 0
+#draw = 1
+#points =
+#	24.01, -6.74
+#	25.66, -7.29
+
+#[area44]
+#shape = polygon
+#altitude = 0
+#draw = 1
+#points =
+#	27.86, -8.05
+#	29.17, -8.53
+
+[area42]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	21.25, -5.09
+	22.81, -5.04
+
+[area43]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	24.50, -4.96
+	26.47, -4.96
+
+[area44]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	30.34, -5.02
+	28.24, -5.02
+
+[area45]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	26.97, -15.00
+	25.59, -15.07
+
+[area46]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	24.35, -14.86
+	22.98, -14.38
+
+[area47]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	18.78, -12.73
+	17.54, -12.31
+
+[area48]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	13.35, -10.59
+	11.97, -10.11
+
+[area49]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	8.05, -8.60
+	6.60, -8.05
+
+[area50]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	6.33, -8.74
+	7.64, -9.84
+	8.19, -11.90
+
+[area51]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	8.94, -15.62
+	9.22, -17.13
+	7.84, -15.82
+	9.22, -17.13
+	7.77, -16.79
+	9.22, -17.13
+	11.35, -17.06
+	9.22, -17.13
+	10.66, -23.25
+
+[area52]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	15.68, -16.37
+	16.92, -16.24
+	18.02, -16.17
+	16.92, -16.24
+	17.61, -19.12
+
+[area53]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	18.78, -25.04
+	19.67, -29.24
+	18.99, -29.44
+	19.67, -29.24
+	22.84, -28.69
+
+[area54]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	13.21, -30.82
+	8.60, -31.85
+
+[area55]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	13.21, -30.82
+	8.60, -31.85
+
+## SOUTH ##
+## HAWKZ ENTRY GATE ##
+[area56]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	2.13, -47.26
+	1.65, -44.23
+
+[area57]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-10.39, -45.26
+	-10.25, -42.17
+
+## OLM ENTRY GATE ##
+[area58]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-11.90, -42.99
+	-12.18, -46.09
+
+[area59]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-20.57, -41.27
+	-23.59, -46.36
+
+##############
+[area60]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-28.96, -44.09
+	-30.68, -46.36
+
+[area61]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-33.16, -28.96
+	-31.71, -28.07
+
+[area62]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-25.25, -12.18
+	-24.83, -14.65
+	-21.87, -12.93
+	-24.83, -14.65
+	-24.21, -17.61
+
+[area63]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-23.94, -21.53
+	-23.46, -22.77
+	-24.76, -23.66
+	-23.46, -22.77
+	-21.67, -22.29
+	-23.46, -22.77
+	-21.87, -23.80
+
+[area64]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-17.75, -24.83
+	-18.37, -25.59
+	-15.41, -27.10
+
+[area65]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-11.56, -29.44
+	-7.64, -31.44
+	-4.47, -31.92
+
+[area66]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	1.10, -32.95
+	3.30, -33.09
+	5.37, -32.54
+	4.88, -30.61
+
+[area67]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	4.47, -27.65
+	3.78, -25.86
+
+[area68]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	9.08, -18.64
+	7.84, -18.99
+
+[area69]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	2.68, -19.67
+	0.83, -19.88
+	0.55, -18.78
+	0.83, -19.88
+	-0.34, -19.95
+	-0.55, -18.85
+
+[area70]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-2.68, -24.21
+	-3.03, -22.56
+	-4.20, -20.64
+
+[area71]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-6.47, -19.40
+	-4.95, -19.12
+	-5.71, -17.75
+
+[area72]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-12.04, -20.64
+	-14.03, -21.12
+	-12.73, -19.26
+	-14.03, -21.12
+	-12.93, -22.36
+	-14.03, -21.12
+	-16.03, -21.46
+
+[area73]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-10.73, -24.76
+	-9.49, -26.14
+	-10.18, -30.13
+
+## WEST ##
+[area74]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-17.20, -10.04
+	-15.06, -8.80
+	-13.76, -8.39
+
+[area75]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-11.14, -7.84
+	-9.63, -7.43
+
+[area76]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-18.71, 8.60
+	-12.31, 6.05
+	-12.45, 12.24
+	-12.31, 6.05
+	-9.49, 4.95
+	-7.36, -3.03
+	-3.71, -1.99
+	-7.36, -3.03
+	-6.47, -6.47
+	-7.70, -7.02
+	-6.47, -6.47
+	-7.29, -8.19
+	-7.09, -13.69
+	-6.47, -16.44
+	-7.09, -13.69
+	-7.29, -8.19
+	-6.47, -6.47
+	-3.44, -7.43
+	-3.16, -9.15
+	-3.44, -7.43
+	-0.14, -8.67
+	1.44, -14.45
+	2.34, -14.79
+	1.44, -14.45
+	-1.99, -13.48
+	-2.68, -11.76
+	-1.99, -13.48
+	-1.44, -15.13
+
+[area77]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-20.29, 9.08
+	-22.84, 9.91
+
+[area78]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-27.17, 11.56
+	-29.17, 12.24
+
+[area79]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-12.38, 14.79
+	-12.45, 16.23
+	-11.56, 17.06
+
+[area80]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-10.27, -40.86
+	-10.20, -38.86
+
+[area81]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-10.13, -34.18
+	-10.13, -31.83
+
+[area82]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-6.06, -22.33
+	-5.58, -21.43
+
+[area83]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-3.93, -17.64
+	-3.38, -16.33
+
+[area84]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-1.17, -11.58
+	-0.83, -10.75
+
+[area85]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-22.81, 27.22
+	-21.84, 26.25
+
+[area86]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-18.26, 22.19
+	-16.95, 20.88
+
+[area87]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-13.92, 17.64
+	-12.40, 16.12
+
+[area88]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-2.07, 11.37
+	-2.55, 13.99
+	-4.27, 15.23
+
+[area89]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-25.74, 26.78
+	-22.82, 26.38
+
+## MARNR ENTRY GATE ##
+[area90]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	-29.89, 22.59
+	-27.81, 21.15
+
+## LANDMARKS ##
+[area90]
+shape = polygon
+altitude = 0
+draw = 0
+points =
+	-3.48, 11.03
+	-3.63, 10.19
+	-2.73, 10.02
+	-2.60, 10.88
+
 [planetypes]
 types =
 	B721, 4, 160, 250, 2.9, 3.2, 1000, 1560, 131, 144, 1.1, 1.3, Boeing
