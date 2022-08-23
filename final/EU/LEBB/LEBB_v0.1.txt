@@ -1,16 +1,18 @@
-# Bilbao Airport by Josu Blanco v0.1
+# Bilbao Airport by Josu Blanco v0.1 and Daniel De la Cueva v0.2
 # Thanks to IVAO-ES
 # v0.1: Functional MRVA, SIDs for both config, STARs for rwy 30 only, real airlines.
 #		ACTIVATE THE APPROACH FROM SARRA TO ENABLE THE ILS
+# v0.2.0: Boundary with LEVT CTA added
+# v0.2.1: Descent altitudes corrected
 
 [airspace]
-radius = 50
+radius = 130
 elevation = 138
 center = N43.3011016846, W2.91060996056
 floor = 4000
-descendaltitude = 15000
-ceiling = 13000
-above = 14000
+descendaltitude = 10000
+ceiling = 14000
+above = 15000
 transitionaltitude = 6000
 separation = 5
 automatic = true
