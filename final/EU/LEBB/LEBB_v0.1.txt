@@ -1601,8 +1601,27 @@ route 1 =
 	N43.17406, W2.56619
 	11.3, 4400, 180
 
-# BLV APP
+# ASPES APP
 [approach7]
+runway = rwy2
+beacon = ASPES
+route1 = 
+	180
+	N43.49572, W3.15664, # ASPES
+	N043.27.25.026, W003.12.28.225, # ARC TO INTERCEPT
+	N043.27.09.708, W003.12.39.376,
+	N043.26.48.569, W003.12.51.299,
+	N043.26.26.245, W003.12.58.031,
+	N043.25.40.976, W003.12.55.563,
+	N043.25.19.248, W003.12.46.481,
+	N043.24.58.860, W003.12.32.436,
+	N043.24.40.516, W003.12.13.741,
+	N043.24.24.840, W003.11.51.220,
+	N43.40333, W3.19056, # IF
+	9.8, 3500, 220
+
+# BLV APP
+[approach8]
 runway = rwy2
 beacon = BLV
 route1 = 
@@ -1630,7 +1649,7 @@ route1 =
 	N43.40333, W3.19056, # IF
 	9.8, 3500, 180
 
-[approach8]
+[approach9]
 runway = rwy2
 beacon = SANBI
 route1 =
@@ -1640,7 +1659,7 @@ route1 =
 	9.8, 3500, 220
 
 
-[approach 9]
+[approach 10]
 runway = rwy2
 beacon = SOMAN
 route1 =
@@ -1662,7 +1681,7 @@ route1 =
 
 
 # CEGAM3T RWY 12
-[approach10]
+[approach11]
 runway = rwy2
 beacon = CEGAM
 route1 = 
@@ -1692,7 +1711,7 @@ route1 =
 	9.8, 3500, 180
 
 # DGO1T RWY 12
-[approach11]
+[approach12]
 runway = rwy2
 beacon = DGO
 route1 = 
@@ -1723,7 +1742,7 @@ route1 =
 	9.8, 3500, 180
 
 # SNR3T RWY12
-[approach12]
+[approach13]
 runway = rwy2
 beacon = SNR
 route 1 =
