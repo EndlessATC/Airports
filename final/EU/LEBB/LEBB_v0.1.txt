@@ -1,10 +1,12 @@
 # Bilbao Airport by Josu Blanco v0.1 and Daniel De la Cueva v0.2
 # Thanks to IVAO-ES
-# v0.1: Functional MRVA, SIDs for both config, STARs for rwy 30 only, real airlines.
-#		ACTIVATE THE APPROACH FROM SARRA TO ENABLE THE ILS
+# v0.1: Functional MRVA, SIDs and STARs for both config, real airlines.
+#		ACTIVATE THE APPROACH FROM THE IAF TO ENABLE THE ILS
 # v0.2.0: Boundary with LEVT CTA added
 # v0.2.1: Descent altitudes corrected
 # v0.2.2: SSN2A and PPN2E departures corrected
+# v0.2.3: STARs and approaches added for rwy 12
+
 
 [airspace]
 radius = 130
