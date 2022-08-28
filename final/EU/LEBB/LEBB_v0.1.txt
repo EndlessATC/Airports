@@ -4,6 +4,7 @@
 #		ACTIVATE THE APPROACH FROM SARRA TO ENABLE THE ILS
 # v0.2.0: Boundary with LEVT CTA added
 # v0.2.1: Descent altitudes corrected
+# v0.2.2: SSN2A and PPN2E departures corrected
 
 [airspace]
 radius = 130
@@ -530,6 +531,7 @@ entrypoints =
 	282, BLV
 	325, DOSUL
 	350, MAPAX
+	086, SNR
 
 airlines =
 	AEA,	3,	E195, europa, s
