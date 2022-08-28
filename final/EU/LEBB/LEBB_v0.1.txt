@@ -1602,6 +1602,17 @@ route 1 =
 	N43.17406, W2.56619
 	11.3, 4400, 180
 
+# SNR3T RWY12
+[approach7]
+runway = rwy2
+beacon = SNR
+route 1 =
+	086
+	N43.44972, W3.90250, # SNR
+	N43.48528, W3.32000, # SANBI
+	N43.40333, W3.19056, # IF
+	9.8, 3500, 220
+
 [configurations]
 config1 =
 	0,  rwy2, 	startlandrev
