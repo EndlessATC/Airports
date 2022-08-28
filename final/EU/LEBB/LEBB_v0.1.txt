@@ -1594,16 +1594,6 @@ route1 =
 	16, 14000, 220
 
 [approach6]
-runway = rwy2
-beacon = SANBI
-route1 =
-	090
-	N43.48528, W3.32000, # SANBI
-	N43.40333, W3.19056, # IF
-	9.8, 3500, 220
-
-
-[approach7]
 runway = rwy2, rev
 beacon = SARRA
 route 1 =
@@ -1612,7 +1602,7 @@ route 1 =
 	11.3, 4400, 180
 
 # BLV APP
-[approach8]
+[approach7]
 runway = rwy2
 beacon = BLV
 route1 = 
@@ -1640,9 +1630,39 @@ route1 =
 	N43.40333, W3.19056, # IF
 	9.8, 3500, 180
 
+[approach8]
+runway = rwy2
+beacon = SANBI
+route1 =
+	090
+	N43.48528, W3.32000, # SANBI
+	N43.40333, W3.19056, # IF
+	9.8, 3500, 220
+
+
+[approach 9]
+runway = rwy2
+beacon = SOMAN
+route1 =
+	000
+	N043.20.19.200, W003.16.30.400, # SOMAN
+	N043.23.22.030, W003.15.29.102, # ARC TO INTERCEPT
+	N043.23.39.417, W003.15.16.553,
+	N043.23.55.047, W003.15.00.156,
+	N043.24.08.550, W003.14.40.286,
+	N043.24.19.413, W003.14.17.724,
+	N043.24.27.334, W003.13.58.055,
+	N043.24.32.138, W003.13.26.739,
+	N043.24.33.717, W003.12.59.990,
+	N043.24.32.021, W003.12.32.968,
+	N043.24.27.045, W003.12.06.828,
+	N43.40333, W3.19056, # IF
+	9.8, 3500, 220
+
+
 
 # CEGAM3T RWY 12
-[approach9]
+[approach10]
 runway = rwy2
 beacon = CEGAM
 route1 = 
@@ -1672,7 +1692,7 @@ route1 =
 	9.8, 3500, 180
 
 # DGO1T RWY 12
-[approach10]
+[approach11]
 runway = rwy2
 beacon = DGO
 route1 = 
@@ -1703,7 +1723,7 @@ route1 =
 	9.8, 3500, 180
 
 # SNR3T RWY12
-[approach11]
+[approach12]
 runway = rwy2
 beacon = SNR
 route 1 =
