@@ -23,7 +23,8 @@ magneticvar = -1.53
 beacons =
 	BLV, N43.30440, W2.93588, 0, Bilbao
 	DGO, N42.45331, W2.88069, 0, Domingo
-	SNR, N43.44980, W3.90241, 0, Santander
+	SNR, N43.44980, W3.90241, 0, Santander,
+	VRA, N42.73194, W2.86556, 0, Vitoria
 	CEGAM, N42.98372, W2.23636, 0, Cegam
 	DOSUL, N43.68056, W3.31667, 0, Dosul
 	MAPAX, N43.68375, W3.04408, 0, Mapax
