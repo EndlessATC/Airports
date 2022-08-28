@@ -1593,8 +1593,17 @@ route1 =
 	N43.17406, W2.56619,
 	16, 14000, 220
 
-
 [approach6]
+runway = rwy2
+beacon = SANBI
+route1 =
+	090
+	N43.48528, W3.32000, # SANBI
+	N43.40333, W3.19056, # IF
+	9.8, 3500, 220
+
+
+[approach7]
 runway = rwy2, rev
 beacon = SARRA
 route 1 =
@@ -1603,7 +1612,7 @@ route 1 =
 	11.3, 4400, 180
 
 # BLV APP
-[approach7]
+[approach8]
 runway = rwy2
 beacon = BLV
 route1 = 
@@ -1633,7 +1642,7 @@ route1 =
 
 
 # CEGAM3T RWY 12
-[approach8]
+[approach9]
 runway = rwy2
 beacon = CEGAM
 route1 = 
@@ -1663,7 +1672,7 @@ route1 =
 	9.8, 3500, 180
 
 # DGO1T RWY 12
-[approach9]
+[approach10]
 runway = rwy2
 beacon = DGO
 route1 = 
@@ -1694,7 +1703,7 @@ route1 =
 	9.8, 3500, 180
 
 # SNR3T RWY12
-[approach10]
+[approach11]
 runway = rwy2
 beacon = SNR
 route 1 =
