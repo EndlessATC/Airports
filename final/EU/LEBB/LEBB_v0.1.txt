@@ -1651,6 +1651,7 @@ route1 =
 	N43.40333, W3.19056, # IF
 	9.8, 3500, 180
 
+# SANBI APP
 [approach9]
 runway = rwy2
 beacon = SANBI
@@ -1660,7 +1661,7 @@ route1 =
 	N43.40333, W3.19056, # IF
 	9.8, 3500, 220
 
-
+# SOMAN APP
 [approach 10]
 runway = rwy2
 beacon = SOMAN
