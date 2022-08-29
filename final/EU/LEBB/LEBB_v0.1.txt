@@ -1215,7 +1215,6 @@ route5 = MAP3A, Mapax tree alpha
  	N43.68375, W3.04408
 
 route6 = PPN2E, Pamplona two echo
-	N43.29667, W2.89917,
  	N43.32389, W2.97306,
  	N43.32389, W2.97306,
  	N43.32479, W2.97499,
