@@ -7,7 +7,6 @@
 # v0.2.2: SSN2A and PPN2E departures corrected
 # v0.2.3: STARs and approaches added for rwy 12
 
-
 [airspace]
 radius = 130
 elevation = 138
