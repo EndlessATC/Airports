@@ -1251,7 +1251,6 @@ route6 = PPN2E, Pamplona two echo
  	N42.73375, W1.702
 
 route7 = SSN2A, San sebastian two alpha
-	N43.29667, W2.89917,
  	N43.32389, W2.97306,
  	N43.32389, W2.97306,
  	N43.32479, W2.97499,
