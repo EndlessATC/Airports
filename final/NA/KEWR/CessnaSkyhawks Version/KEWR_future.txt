@@ -5,7 +5,7 @@ transition = 18001
 ceiling = 11000
 diversionaltitude = 5000
 speedrestriction = 16, 220, 10000, 250
-floor = 1500
+floor = 2000
 automatic = true
 letters = 10000000000
 name = new york approach, new york departure
@@ -17,23 +17,22 @@ beacons =
 	SBJ, N40.58300, W74.74170, 0, Solberg
 	SAX, N41.06750, W74.53830, 0, Sparta
 	BWZ, N40.79840, W74.82180, 0, Broadway
+	RBV, N40.20240, W74.49500, -60, Robbinsville
 	STW, N40.99580, W74.86900, 0, Stillwater
 
 	CRANK, N41.416608, W74.388869, 0, Crank
 	SWEET, N40.828272, W74.924319, 0, Sweet
-	ESJAY, N41°14.04', W74°04.07', 0, s jay
 	REGLE, N40.403428, W74.995489, 0, Reg Le
 	MUGZY, N41.030128, W74.969361, 0, Mug Ze
 	LEMOR, 41°17'51''N, 74°38'3''W, 0, Lee More
 	SEAVY, 41°12.51'N, 74°19.59'W, 0, Sea Vee
-	TYKES, 40°17.37'N, 74°23.10'W, 0, tykes
-	KORRY, N40.093842, W74.651544, 0, Cory
-	
+	TYKES, 40°17.37'N, 74°23.10'W, 0, Brand
+	ESJAY, N41°14.04', W74°04.07', 0, s jay
 
 	METRO, 40°25.36'N, 74°40.17'W, -60, Metro
 	SHAFF, 41°17.38'N, 74°26.60'W, -211, Shaff
 	MERSR, 40°18.61'N, 74°49.68'W, 60, Mercer
-	WATJA, N40.20240, W74.49500, 0, Wawth Juh
+	KORRY, N40.093842, W74.651544, 0, Cory
 	
 handoff = 
 	340, LIBN, New York Departure, 118.17
@@ -298,10 +297,11 @@ line7 =
 	
 [airport1]
 name = Newark Liberty International Airport, newark
-code = KEWR
+code = EWR2
 runways =
 	04L_NK, 04L, N40.67540000, W74.17950000, 26.0, 11000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	04R_NK, 04R, N40.67760000, W74.17420000, 26.0, 10000, 0, 0, 11, 2.95, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	23_NK, 23, N40.69996793043219, W74.17939538006867, 206.0, 10000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	11LAHSO_NK, 11, N40.70280000, W74.180700000, 95.0, 5700, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	11N_NK, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	11S_NK, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
@@ -341,26 +341,6 @@ entrypoints =
 	355, CRANK, 7000
 	355, CRANK, 7000
 	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	355, CRANK, 7000
-	231, MERSR, 8000
-	231, MERSR, 8000
-	231, MERSR, 8000
-	231, MERSR, 8000
-	231, MERSR, 8000
-	231, MERSR, 8000
-	231, MERSR, 8000
-	231, MERSR, 8000
-	231, MERSR, 8000
-	231, MERSR, 8000
 	231, MERSR, 8000
 	231, MERSR, 8000
 	231, MERSR, 8000
@@ -381,20 +361,9 @@ entrypoints =
 	284, SWEET, 6000
 	284, SWEET, 6000
 	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	284, SWEET, 6000
-	180, WATJA, 6000
-	180, WATJA, 6000
-	180, WATJA, 6000
-	
+	215, KORRY, 7000
+	180, TYKES, 6000
+
 airlines =
 #Passenger
 	ein, 1, a321, shammrock, ne
@@ -448,6 +417,7 @@ airlines =
 	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
 	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
 	ual, 8, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	uac, 5, ovrt, united s s t
 	gjs, 10, crj7, lindbergh
 	gjs, 10, crj7, lindbergh
 	gjs, 10, crj7, lindbergh
@@ -456,6 +426,7 @@ airlines =
 	rpa, 10, e170/e75s/e75l, brickyard
 	rpa, 10, e170/e75s/e75l, brickyard
 	rpa, 1.5, e170/e75s/e75l, brickyard
+	qfa, 1, a35k, qantas, nw
 #Cargo
 	ajt, 2, b763, amerijet
 	csb, 3, b762, cargo south, w
@@ -495,13 +466,14 @@ airlines =
 	adb, 0.1, a225, antonov bureau
 	med, 0.1, pc12/lj35/be20/c560, med evac
 	flc, 0.1, b350, flight check
-
+	
 [airport2]
 name = Newark Liberty International Airport, newark
 code = NK
 runways =
 	04L_NKP, 04L, N40.67540000, W74.17950000, 26.0, 11000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	04R_NKP, 04R, N40.67760000, W74.17420000, 26.0, 10000, 0, 0, 11, 2.95, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	23_NKP, 23, N40.69996793043219, W74.17939538006867, 206.0, 10000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	11LAHSO_NKP, 11, N40.70280000, W74.180700000, 95.0, 5700, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	11N_NKP, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
 	11S_NKP, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
@@ -510,35 +482,152 @@ runways =
 	
 climbaltitude = 2500
 
-traffic = 90
+traffic = 45
 
 sids = 
 	SBJ
 	SAX
 	BDR, N41.09.38.54, W073.07.28.15, bridgeport
-	BREZY, N41°09.50', W74°08.09', breezey
 
 entrypoints = 
 	024, ESJAY, 4000
 	344, LEMOR, 6000
 	297, MUGZY, 6000
-	231, MERSR, 5000
 
 airlines =
-	wig, 1, c208, wiggins airways, nw
-	mtn, 1, c208, mountain, se
-	
+	wig, 1, c208/c408, wiggins airways, nw
+	mtn, 1, c208/c408, mountain, s
+	ash, 1, es19, air shuttle
+
 [airport3]
-name = Teterboro Airport, teterboro
-code = TB
+name = Essex County Airport, caldwell
+code = CW
 runways =
-	19_TB, 19, N40.855764, W74.059111, 183, 7000, 0, 0, 6, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
-	24_TB, 24, N40.857739, W74.054097, 228, 6013, 0, 0, 7, 3, 217.438, 3, 0, 0, 0, VINGS, 12.2, 119.5, teterboro tower
+	22_CW, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3.1, 0, 3, 0, 0, 0, YOVUN, 11.6, 119.8, caldwell tower
+	28_CW, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
 	
-traffic = 4
+traffic = 12
 
-climbaltitude = 1500
+climbaltitude = 2000
 
+airlines =
+	eja, 10, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	lxj, 4, e55p/glf4/cl35, flexjet
+	mak, 5, m600, mack lee
+	n-744hj, 7, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx
+	dpj, 1, c25a/c25b/c560/c56x/c680/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	gaj, 1, b350/c56x/cl35, gama jet
+	ejm, 1, glf5/cl60, jet speed
+	lak, 1, c560/c56x, redlake
+	twy, 1, glf4/glf5/f900/cl60, twilight
+	asp, 1, c25a/e545, airsprint
+	xoj, 1, cl30, exo jet
+	gpd, 1, pc12, goodspeed, n
+	xen, 1, f2th, zen jet
+	mln, 1, g280, millenium	
+	lbq, 1, pc12, labquest
+	med, 1, pc12/lj35/be20/c560, med evac
+	cns, 1, pc12/pc24, chronos
+	c-abcd, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx
+	hrt, 1, b350/c560/c56x/cl30/cl35/cl60/galx/lj45, chartright
+	tor, 1, be10/c550/e55p, homerun
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	
+entrypoints = 	
+	240, REGLE, 7000
+	297, MUGZY, 6000
+	344, LEMOR, 7000
+	024, ESJAY, 4000
+	
+[airport4]
+name = Essex County Airport, caldwell
+code = CW
+runways =
+	22_CWP, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3.1, 0, 3, 0, 0, 0, YOVUN, 11.6, 119.8, caldwell tower
+	28_CWP, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
+	
+traffic = 20
+
+climbaltitude = 2000
+
+airlines =
+	n-781pt, 1, c152/c172/c182/be36/be55/be58/m20p/p28a/p28b/pa34/sr20/sr22/dv20/da40
+	n-1234e, 1, c152/c172/c182/be36/be55/be58/m20p/p28a/p28b/pa34/sr20/sr22/dv20/da40
+	n-12345, 1, c152/c172/c182/be36/be55/be58/m20p/p28a/p28b/pa34/sr20/sr22/dv20/da40
+	fto, 2, c208, wagner, e
+
+sids = 
+	SBJ
+	SAX
+	BDR, N41.09.38.54, W073.07.28.15, bridgeport
+
+entrypoints = 	
+	024, ESJAY, 4000
+	024, ESJAY, 4000
+	344, LEMOR, 6000
+	344, LEMOR, 6000
+	344, LEMOR, 6000
+	297, MUGZY, 6000
+	297, MUGZY, 6000
+	240, SBJ, 5000
+	240, SBJ, 5000
+	172, TYKES, 4000
+
+[area2]
+shape = circle		; circle or polygon
+altitude = 2700		; minimum allowed altitude in feet
+name = CW		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 4		; radius of circle in NM
+position = N40.8752247, W74.2813503	; position of circle center
+labelpos = N40.862, W74.255	; <position of label>
+draw = -2.41, 3.25		; <start and end angle of visible arc, in radians (orientated to the left), omit for a full circle>
+
+[airport5]
+name = Morristown Municipal Airport, morristown
+code = MU
+runways =
+	23_MU, 23, N40.80641, W74.40647, 216, 5998, 0, 0, 183, 3, 0, 3.5, 0, 0, 0, KWITE, 11, 118.1, morristown tower
+	31_MU, 31, N40.79649, W74.41134, 294, 3997, 0, 0, 181, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
+	
+traffic = 8
+
+climbaltitude = 2000
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	
 airlines =
 ####Regulars
 	eja, 20, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
@@ -592,211 +681,14 @@ airlines =
 	xx-abc, 0.2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
 	xa-abc, 0.2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
 	qqe, 0.1, glf6, q rex, e
-
 	
 entrypoints = 
-	240, REGLE, 7000
-	240, REGLE, 7000
-	297, MUGZY, 6000
-	297, MUGZY, 6000
-	344, LEMOR, 7000
-	344, LEMOR, 7000
-	344, LEMOR, 7000
-	024, ESJAY, 4000
-	
-[airport4]
-name = Teterboro Airport, teterboro
-code = TB
-runways =
-	19_TBP, 19, N40.855764, W74.059111, 183, 7000, 0, 0, 6, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
-	24_TBP, 24, N40.857739, W74.054097, 228, 6013, 0, 0, 7, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
-	
-traffic = 720
-
-climbaltitude = 1500
-
-airlines =
-	n-781pt, 1, c182/be36/be55/be58/m20p/pa34/sr20/sr22/da40
-	n-1234e, 1, c182/be36/be55/be58/m20p/pa34/sr20/sr22/da40
-	n-12345, 1, c182/be36/be55/be58/m20p/pa34/sr20/sr22/da40
-	lbq, 1, be58, labquest
-	
-entrypoints = 
-	024, ESJAY, 4000
-	024, ESJAY, 4000
-	344, LEMOR, 6000
-	344, LEMOR, 6000
-	297, MUGZY, 6000
-	297, MUGZY, 6000
-	240, SBJ, 5000
-	240, SBJ, 5000
-	172, TYKES, 4000
-
-[area1]
-shape = circle		; circle or polygon
-altitude = 1800		; minimum allowed altitude in feet
-name = TB		; <name, if omited then only planes inbound the main airport may enter this area>
-radius = 4		; radius of circle in NM
-position = N40.8501111, W74.0608333	; position of circle center
-labelpos = N40.859, W74.092	; <position of label>
-draw = 0.03, 5.29
-
-[airport5]
-name = Essex County Airport, caldwell
-code = CW
-runways =
-	22_CW, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3.1, 0, 3, 0, 0, 0, YOVUN, 11.6, 119.8, caldwell tower
-	28_CW, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
-	
-traffic = 60
-
-climbaltitude = 2000
-
-airlines =
-####Regulars
-	cns, 7, pc12, chronos, e
-	cns, 2, pc12, chronos
-####Common
-	gpd, 5, pc12, goodspeed, e
-	n-600mm, 5, pc12/tbm8/m600/p46t/sf50	
-	mak1-, 3, e50p/m600, mack lee one
-	mak2-, 3, m600, mack lee two		
-####Rare	
-	n-744hj, 0.5, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx
-	eja, 0.1, c56x/c680/c68a/c700/cl30/cl60/e55p, exec jet
-	dpj, 0.1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/lj45/lj60/lj75, jet card
-	tek, 0.1, pc12, a tech, e
-
-sids = 
-	GREKI, N41.480008, W73.314161, Greki
-	MERIT, N41.381950, W73.137431, Merit
-	SHIPP, N40.19.36.719, W73.14.37.735, Ship
-	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
-	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
-	WHITE, N40.00.24.320, W74.15.04.61, White
-	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
-	LANNA, N40.33.35.070, W75.01.39.810, Lana
-	PARKE, N40.40.59.460, W75.04.35.320, Park
-	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
-	NEWEL, N40.55.19.000, W75.10.15.000, New el
-	COATE, N41.07.59.025, W74.41.27.998, Coat
-	NEION, N41.13.30.755, W74.34.33.442, Neon
-	HAAYS, N41.19.01.596, W74.27.43.902, Hays
-	GAYEL, N41.24.13.828, W74.21.09.686, Gail
-	BAYYS, N41.17.11.556, W72.57.59.176, Bays
-	
-entrypoints = 	
 	240, REGLE, 7000
 	297, MUGZY, 6000
 	344, LEMOR, 7000
 	024, ESJAY, 4000
 	
 [airport6]
-name = Essex County Airport, caldwell
-code = CW
-runways =
-	22_CWP, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3.1, 0, 3, 0, 0, 0, YOVUN, 11.6, 119.8, caldwell tower
-	28_CWP, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
-	
-traffic = 20
-
-climbaltitude = 2000
-
-airlines =
-	n-781pt, 1, c152/c172/c182/be36/be55/be58/m20p/p28a/p28b/pa34/sr20/sr22/dv20/da40
-	n-1234e, 1, c152/c172/c182/be36/be55/be58/m20p/p28a/p28b/pa34/sr20/sr22/dv20/da40
-	n-12345, 1, c152/c172/c182/be36/be55/be58/m20p/p28a/p28b/pa34/sr20/sr22/dv20/da40
-	fto, 1, c208, wagner, e
-	n-404jd, 0.5, c402
-
-sids = 
-	SBJ
-	SAX
-	BDR, N41.09.38.54, W073.07.28.15, bridgeport
-	BREZY, N41°09.50', W74°08.09', breezey
-
-entrypoints = 	
-	024, ESJAY, 4000
-	024, ESJAY, 4000
-	344, LEMOR, 6000
-	344, LEMOR, 6000
-	344, LEMOR, 6000
-	297, MUGZY, 6000
-	297, MUGZY, 6000
-	240, SBJ, 5000
-	240, SBJ, 5000
-	172, TYKES, 4000
-
-[area2]
-shape = circle		; circle or polygon
-altitude = 2700		; minimum allowed altitude in feet
-name = CW		; <name, if omited then only planes inbound the main airport may enter this area>
-radius = 4		; radius of circle in NM
-position = N40.8752247, W74.2813503	; position of circle center
-labelpos = N40.862, W74.255	; <position of label>
-draw = -2.41, 3.25		; <start and end angle of visible arc, in radians (orientated to the left), omit for a full circle>
-
-[airport7]
-name = Morristown Municipal Airport, morristown
-code = MU
-runways =
-	23_MU, 23, N40.80641, W74.40647, 216, 5998, 0, 0, 183, 3, 0, 3.5, 0, 0, 0, KWITE, 11, 118.1, morristown tower
-	31_MU, 31, N40.79649, W74.41134, 294, 3997, 0, 0, 181, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
-	
-traffic = 30
-
-climbaltitude = 2000
-
-sids = 
-	GREKI, N41.480008, W73.314161, Greki
-	MERIT, N41.381950, W73.137431, Merit
-	SHIPP, N40.19.36.719, W73.14.37.735, Ship
-	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
-	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
-	WHITE, N40.00.24.320, W74.15.04.61, White
-	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
-	LANNA, N40.33.35.070, W75.01.39.810, Lana
-	PARKE, N40.40.59.460, W75.04.35.320, Park
-	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
-	NEWEL, N40.55.19.000, W75.10.15.000, New el
-	COATE, N41.07.59.025, W74.41.27.998, Coat
-	NEION, N41.13.30.755, W74.34.33.442, Neon
-	HAAYS, N41.19.01.596, W74.27.43.902, Hays
-	GAYEL, N41.24.13.828, W74.21.09.686, Gail
-	BAYYS, N41.17.11.556, W72.57.59.176, Bays
-	
-airlines =
-####Regulars
-	eja, 10, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
-	n-744hj, 8, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
-	lxj, 5, e55p/glf4/cl35, flexjet
-	skq, 3, pc12, skylab
-	gaj, 2, b350/c56x/cl35, gama jet
-	gpd, 2, pc12, goodspeed, e
-####Common
-	fth, 1, c750, foothills
-	cns, 1, pc12/pc24, chronos
-	rlj, 1, h25b/lj60, real jet, w
-	twy, 1, glf4/glf5/f900/cl60, twilight
-####Uncommon
-	dpj, 0.2, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
-	ejm, 0.2, glf5/cl60, jet speed
-	xoj, 0.2, c750/cl30, exo jet
-	lak, 0.2, c560/c56x, redlake
-	wwi, 0.2, cl60, worldwide
-	lbq, 0.2, pc12, labquest
-	xen, 0.2, f2th, zen jet
-	enk, 0.2, h25b, sunbird, s
-####Rare
-	af1-, 0.01, b752, air force one, s
-
-entrypoints = 
-	240, REGLE, 7000
-	297, MUGZY, 6000
-	344, LEMOR, 7000
-	024, ESJAY, 4000
-	
-[airport8]
 name = Morristown Municipal Airport, morristown
 code = MU
 runways =
@@ -811,7 +703,6 @@ sids =
 	SBJ
 	SAX
 	BDR, N41.09.38.54, W073.07.28.15, bridgeport
-	BREZY, N41°09.50', W74°08.09', breezey
 	
 airlines =
 	n-781pt, 1, c152/c172/c182/be36/be55/be58/m20p/p28a/p28b/pa34/sr20/sr22/dv20/da40
@@ -823,12 +714,12 @@ entrypoints =
 	024, ESJAY, 4000
 	344, LEMOR, 6000
 	344, LEMOR, 6000
+	344, LEMOR, 6000
 	297, MUGZY, 6000
 	297, MUGZY, 6000
 	240, SBJ, 5000
 	240, SBJ, 5000
 	172, TYKES, 4000
-
 		
 ###KEWR Jet Arrivals
 #FLOSI4
@@ -940,7 +831,7 @@ route1 =
 
 #BRAND
 [approach11]
-runway = dummy_NKP
+runway = dummy_NK
 beacon = KORRY
 route =
 	100, BRAND1, brand one
@@ -949,7 +840,7 @@ route =
 	end, 061
 	
 [approach12]
-runway = dummy_NKP, rev
+runway = dummy_NK, rev
 beacon = KORRY
 route =
 	100, BRAND1, brand one
@@ -958,21 +849,21 @@ route =
 	end, 061	
 
 
-#WATJA
+#RBV
 [approach17]
 runway = dummy_NK
-beacon = WATJA
+beacon = TYKES
 route =
-	100, WATJA
+	100, RBV, Robbinsville
 	N40.20240, W74.49500
 	40°25.36'N, 74°40.17'W
 	end
 	
 [approach18]
 runway = dummy_NK, rev
-beacon = WATJA
+beacon = TYKES
 route =
-	100, WATJA
+	100, RBV, Robbinsville
 	N40.20240, W74.49500
 	40°25.36'N, 74°40.17'W
 	end
@@ -1024,7 +915,6 @@ runway = dummy_NKP
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach27]
@@ -1032,27 +922,26 @@ runway = dummy_NKP, rev
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 
-###ARD
+###TYKES
 [approach30]
 runway = dummy_NKP
-beacon = MERSR
+beacon = TYKES
 route =
 	100
-	40°18.61'N, 74°49.68'W
-	40°25.36'N, 74°40.17'W
+	40°17.37'N, 74°23.10'W
+	N40.58300, W74.74170
 	end, hold
 	
 [approach31]
 runway = dummy_NKP, rev
-beacon = MERSR
+beacon = TYKES
 route =
 	100
-	40°18.61'N, 74°49.68'W
-	40°25.36'N, 74°40.17'W
+	40°17.37'N, 74°23.10'W
+	N40.58300, W74.74170
 	end, hold
 	
 ###STW
@@ -1137,7 +1026,6 @@ runway = 19_TB
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach45]
@@ -1145,7 +1033,6 @@ runway = 24_TB
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach46]
@@ -1153,7 +1040,6 @@ runway = 24_TB, rev
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 
 
@@ -1195,7 +1081,6 @@ runway = 19_TBP
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach51]
@@ -1203,7 +1088,6 @@ runway = 24_TBP
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach52]
@@ -1211,7 +1095,6 @@ runway = 24_TBP, rev
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 #TYKES
@@ -1315,7 +1198,6 @@ runway = 22_CW
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach64]
@@ -1323,13 +1205,12 @@ runway = 22_CW, rev
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
-###KCDW Prop Arrivals
+
 #CMK V623 SAX
 [approach65]
-runway = 22_CWP
+runway = 22_CW
 beacon = ESJAY
 route =
 	100
@@ -1339,7 +1220,7 @@ route =
 	end, hold
 	
 [approach66]
-runway = 22_CWP, rev
+runway = 22_CW, rev
 beacon = ESJAY
 route =
 	100
@@ -1347,14 +1228,14 @@ route =
 	41°12.51'N, 74°19.59'W
 	N41.06750, W74.53830
 	end, hold
-	
+
+###KCDW Prop Arrivals	
 #LEMOR
 [approach67]
 runway = 22_CWP
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach68]
@@ -1362,7 +1243,6 @@ runway = 22_CWP, rev
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 #TYKES
@@ -1448,7 +1328,6 @@ runway = 23_MU
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach78]
@@ -1456,13 +1335,12 @@ runway = 23_MU, rev
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 
-####KMMU Prop Arrivals
+
 #CMK V623 SAX
 [approach79]
-runway = 23_MUP
+runway = 23_MU
 beacon = ESJAY
 route =
 	100
@@ -1472,7 +1350,7 @@ route =
 	end, hold
 	
 [approach80]
-runway = 23_MUP, rev
+runway = 23_MU, rev
 beacon = ESJAY
 route =
 	100
@@ -1481,13 +1359,13 @@ route =
 	N41.06750, W74.53830
 	end, hold
 	
+####KMMU Prop Arrivals	
 #LEMOR
 [approach81]
 runway = 23_MUP
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 [approach82]
@@ -1495,7 +1373,6 @@ runway = 23_MUP, rev
 beacon = LEMOR
 route =
 	100
-	41°17'51''N, 74°38'3''W
 	end
 	
 #TYKES
@@ -1546,8 +1423,8 @@ route1 =
 	N40.8665, W74.06283, 3000
 	N40.82194, W74.09083, 2500, 200
 	N40.76417, W74.0722 
-	N40.69767, W74.062722, 834, 160
-	2.4, 800, 160
+	N40.69767, W74.062722, 834, 200
+	2.4, 800, 200
 
 #Land RNAV 29 NE Flow
 [approach88]
@@ -1561,7 +1438,7 @@ route1 =
 	N40.646, W74.1055, 2000
 	N40.6526667, W74.086, 1000, 
 	N40.6978333, W74.106, 500
-	2.4, 500, 160
+	2.4, 500, 200
 
 ###EWR Prop RNAVs
 #Land RNAV 29 SW Flow
@@ -1573,8 +1450,8 @@ route1 =
 	N40.8665, W74.06283, 3000
 	N40.82194, W74.09083, 2500, 200
 	N40.76417, W74.0722 
-	N40.69767, W74.062722, 834, 160
-	2.4, 800, 160
+	N40.69767, W74.062722, 834, 200
+	2.4, 800, 200
 
 #Land RNAV 29 NE Flow
 [approach90]
@@ -1588,7 +1465,7 @@ route1 =
 	N40.646, W74.1055, 2000
 	N40.6526667, W74.086, 1000, 
 	N40.6978333, W74.106, 500
-	2.4, 500, 160
+	2.4, 500, 200
 	
 #Long RNAV
 [approach91]
@@ -1601,7 +1478,7 @@ route1 =
 	40°33.94'N, 74°02.28'W 
 	40°39.41'N, 74°02.73'W, 2000
 	40°41.09'N, 74°03.92'W, 1400
-	2.4, 500, 160
+	2.4, 500, 200
 	
 #Land RNAV 29 Props
 [approach92]
@@ -1614,7 +1491,7 @@ route1 =
 	40°33.94'N, 74°02.28'W, 3000, 210
 	40°39.41'N, 74°02.73'W, 2000
 	40°41.09'N, 74°03.92'W, 1400
-	2.4, 500, 160
+	2.4, 500, 200	
 
 [area3]
 shape = circle		; circle or polygon
@@ -1984,106 +1861,30 @@ runways =
 config1 =
 	0, 04L_NK, startrevintersection, 190, nosid 
 	0, 04R_NK, landrev
+	0, 23_NK, startland, 263, nosid
 	0, dummy_NK, landrev
 	0, 04L_NKP, startrevintersection, 190, nosid 
 	0, 04R_NKP, landrev
 	0, dummy_NKP, landrev
-	10, 19_TB, land
-	10, 24_TB, start, 283, nosid
-#	10, 19_TBP, land
-#	10, 24_TBP, start, 283, nosid
-	12, 23_MU, landstart, 160, nosid
-	12, 23_MUP, landstart, 160, nosid
-	14, 22_CW, landstart, 180, nosid
-	14, 22_CWP, landstart, 180, nosid
-	16, 11LAHSO_NK, land,
-	16, 11LAHSO_NKP, land, 
-
-#Bravo Flow (Land 22L,11/Dep 22R EWR, Land/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
-config2 =
-	0, 04L_NK, startrevintersection, 190, nosid 
-	0, 04R_NK, landrev
-	0, dummy_NK, landrev
-	0, 04L_NKP, startrevintersection, 190, nosid 
-	0, 04R_NKP, landrev
-	0, dummy_NKP, landrev
-	10, 24_TB, landstart, 283, nosid
-#	10, 24_TBP, landstart, 283, nosid
-	12, 23_MU, landstart, 160, nosid
-	12, 23_MUP, landstart, 160, nosid
-	14, 22_CW, landstart, 180, nosid
-	14, 22_CWP, landstart, 180, nosid
-	16, 11LAHSO_NK, land,
-	16, 11LAHSO_NKP, land, 
-
-#Charlie Flow (Land 29/Dep 22R EWR, Land 19/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
-config3 =
-	0, 04L_NK, startrevintersection, 190, nosid
-	0, 11N_NK, landrev
-	0, dummy_NK, landrev
-	0, dummy_NKP, landrev
-	0, 04L_NKP, startrevintersection, 190, nosid
-	0, 11N_NKP, landrev
-	10, 19_TB, land
-	10, 24_TB, start, 283, nosid
-#	10, 19_TBP, land
-#	10, 24_TBP, start, 283, nosid
-	12, 23_MU, landstart, 160, nosid
-	12, 23_MUP, landstart, 160, nosid
-	14, 22_CW, landstart, 180, nosid
-	14, 22_CWP, landstart, 180, nosid
+	0, 23_NKP, startland, 263, nosid
+	0, 23_MU, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
 
 
-#Delta Flow (Land 29/Dep 22R EWR, Land/Dep 24 TEB, Land/Dep 22 CDW, Land/Dep 23 MMU)
-config4 =
-	0, 04L_NK, startrevintersection, 190, nosid
-	0, 11N_NK, landrev
-	0, dummy_NK, landrev
-	0, dummy_NKP, landrev
-	0, 04L_NKP, startrevintersection, 190, nosid
-	0, 11N_NKP, landrev
-	10, 24_TB, landstart, 283, nosid
-#	10, 24_TBP, landstart, 283, nosid
-	12, 23_MU, landstart, 160, nosid
-	12, 23_MUP, landstart, 160, nosid
-	14, 22_CW, landstart, 180, nosid
-	14, 22_CWP, landstart, 180, nosid
-	
-#Echo Flow (Land 29/Dep 4L EWR, Land 6/Dep 1 TEB, Land/Dep 4 CDW, Land/Dep 5 MMU)	
-config5 =
-	0, 04L_NK, start, 060, nosid
-	0, 11S_NK, landrev
-	0, dummy_NK, land
-	0, dummy_NKP, landrev
-	0, 04L_NKP, start, 060, nosid
-	0, 11S_NKP, landrev
-	10, 19_TB, startrev, 040, nosid
-	10, 24_TB, landrev
-#	10, 19_TBP, startrev, 040, nosid
-#	10, 24_TBP, landrev
-	12, 23_MU, landstartrev, 160, nosid
-	12, 23_MUP, landstartrev, 160, nosid	
-	14, 22_CW, landstartrev, 180, nosid
-	14, 22_CWP, landstartrev, 180, nosid	
-	
 #Foxtrot Flow (Land 4R,11/Dep 4L EWR, Land 6/Dep 1 TEB, Land/Dep 4 CDW, Land/Dep 5 MMU)	MMU)	
-config6 =
-	0, 04L_NK, start, 060, nosid
+config2 =
+	0, 04L_NK, start, 215, nosid
 	0, 04R_NK, land
+	0, 23_NK, startlandrev, 020, nosid
 	0, dummy_NK, land
 	0, dummy_NKP, land
 	0, 04L_NKP, start, 060, nosid
 	0, 04R_NKP, land
-	10, 19_TB, startrev, 040, nosid
-	10, 24_TB, landrev
-#	10, 19_TBP, startrev, 040, nosid
-#	10, 24_TBP, landrev
-	12, 23_MU, landstartrev, 160, nosid
-	12, 23_MUP, landstartrev, 160, nosid
-	14, 22_CW, landstartrev, 180, nosid
-	14, 22_CWP, landstartrev, 180, nosid
-	16, 11SOF_NK, landrev, 
-	16, 11SOF_NKP, landrev, 
+	0, 23_NKP, landrev
+	0, 23_MU, landstartrev, 340, nosid
+	0, 22_CW, landstartrev, 360, nosid
+#	0, 11LAHSO_NK, land,
+#	0, 11LAHSO_NKP, land, 
 	
 [planetypes]	
 types = 
