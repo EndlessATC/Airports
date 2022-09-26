@@ -1,0 +1,138 @@
+# MALAGA (LEMGS) Airport south RWY 12 Landing RWY 13 DeparturesConfiguration by Ivan IVAO 318732
+
+
+[airspace]
+radius = 50
+zoom = 7.0 ; To check
+elevation = 53
+descendaltitude = 10000
+ceiling = 10000
+above = 18500
+transitionaltitude = 6000
+speedrestriction = 50, 250, 10000, 210 	
+usa = false
+metric = false
+separation = 5
+automatic = true
+center = N36.4046, W4.2950
+magneticvar = -2.344
+beacons =
+#FIX
+        TOLSU IAF, N36.8619, W4.301500, 0, Malaga
+        OMIGO IAF, 36.9300, W4.7323, 0, Malaga
+        NEPUR, N36.6500, W4.6323, 0, Malaga
+        PIMOS, N35.8801, W4.6517, 0, Malaga
+        PEKOP, N35.6000, W3.2627, 0, Malaga
+        IF, N36.5200, W4.5353, 0, Malaga
+        NESDA, N36.5651, W3.5327, 0, Malaga
+        XILVI, N36.3551, W3.9010, 0, Malaga
+#VOR
+        SVL, N37.0039, W5.5545, 0, Sevilla
+        AGP, N36.4104, W4.2914, 0, Malaga
+        MLG, N36.4043, W4.3024, 0, Malaga	
+	RMA, N36.3932, W4.2836, 0, Malaga
+	GM,  N36.4535, W4.3717, 0, Malaga
+	MGA, N36.5451, W4.1710, 0, Malaga
+        14.2, N36.8880, W4.1065, 0, Martin
+	MAR, N36.7719, W4.7423, 0, Martin
+	GDA, N36.9216, W3.8100, 0, Granada
+	VJF, N36.1421, W5.5831, 0, VEJER
+        JRZ, N36.485500, W6.485500, 0, JEREZ
+        BAENA, N37.340600, W4.195500, 0, Malagaa
+        VULPE, N37.5140, W4.6154, 0, Malagaa
+
+
+handoff =
+	090, sevilla radar, sevilla radar, 132.75
+
+line1 =
+        N36.2517, W6.1241
+	N36.0404, W5.4137
+	N36.02017, W5.3628
+	N36.0425, W5.2554
+	N36.0938, W5.2644
+	N36.1024, W5.2248
+	N36.0633, W5.2049
+	N36.1834, W5.1400
+	N36.2653, W5.0809
+	N36.3018, W4.5340
+	N36.2845, W4.4401
+	N36.3033, W4.3749
+	N36.3233, W4.3662
+	N36.3410, W4.3425
+	N36.3433, W4.3217
+	N36.3625, W4.3037
+	N36.4235, W4.2528
+	N36.4317, W4.2328
+	N36.4248, W4.1958
+	N36.4258, W4.1231
+	N36.4334, W4.0638
+	N36.4339, W4.0616
+        N36.4347, W4.0555
+	N36.4454, W4.0404
+	N36.4438, W4.0110
+        N36.4429, W3.4844
+	N36.4312, W3.4354 
+        N36.4244, W3.2331
+	N36.4326, W3.2127
+line2 =
+	N35.5010, W5.3450
+	N35.5427, W5.2923
+	N35.5439, W5.2407
+	N35.5419, W5.1719
+	N35.5005, W5.2106
+	N35.5650, W5.1436
+	N35.3152, W5.0949
+
+line3 =
+        N36.1117, W4.1050
+	N36.3051, W3.9010
+	N36.7819, W4.5639
+	N36.5853, W4.7955
+        N36.1117, W4.1050
+
+[airport1]
+name = Málaga Airport SOUTH
+code = MG12
+runways =
+        rwy1, 13, N36.4104, W4.3045, 131.0, 10500, 0, 0, 52
+        rwy2, 12, N36.4127, W4.3028, 120.0, 11000, 0, 0, 52
+
+climbaltitude = 7000
+
+entrypoints = 
+        340, OMIGO, 15000
+        090,  TOLSU, 15000
+	200,  MAR, 8000
+	140,  MGA, 10000
+        180,  MGA, 10000
+
+airlines =
+	IBE,	8,	a320,		iberia
+	AEA,	6,	b738,		europa
+        AEA,	1,	AT45,		europa
+        ANE,	1,	E195,		air nostrum
+	IBS,    1,  a320,       iberexpress
+	RYR,    3,  b738,       ryanair
+	KLM,    2,  b738,       klm
+	TAP,    1,  a320,       tapportugal
+	DLH,    2,  a320,       lufthansa
+	ETH,    1,  b789,       etihad
+	WZZ,    1,  a319,       wizzair
+	EZY,    1,  a320,       easy
+	VLG,    3,  a320,       vueling
+	SWT,    1,  atz,        swift
+	BAW,    1,  a320,       speedbird
+	TUY,    1,  b738,       tuy flight
+        AFR,    1,  a319,       airfrance
+
+
+[configurations]
+
+# Planes take off 13 and land 12 (this is unlikely and since it is used with winds from the south, it usually means there is a storm)
+north =
+	0,	rwy1,	start
+	0,	rwy2,	land
+
+
+	

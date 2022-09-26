@@ -4052,6 +4052,7 @@ runways =
 config1 =
 	0, 04L_JK, landstartrev, 220, nosid
 	0, 04R_JK, landrev
+	0, 13R_JK, startrevintersection, 223, nosid
 	0, dummy_JK, landrev
 	0, 04L_JKP, landstartrev, 220, nosid
 	0, 04R_JKP, landrev
@@ -4063,18 +4064,18 @@ config1 =
 	0, 04_LG, landrev
 	0, 13_LG, startrev, 314, nosid	
 	0, dummy_LG, land
-	20, 19_TB, land
-	20, 24_TB, start, 283, nosid
-	30, 16_WC, landstart, 320, nosid
-	30, 16_WCP, landstart, 320, nosid
-	40, 01_RP, landstartrev, 220, nosid
-	40, 01_RPP, landstartrev, 220, nosid
-	40, 23_MU, landstart, 160, nosid
-	40, 23_MUP, landstart, 160, nosid
-	40, 22_CW, landstart, 180, nosid
-	40, 22_CWP, landstart, 180, nosid
-	40, 08_DB, landstart, 080, nosid	
-	40, 08_DBP, landstart, 080, nosid
+	0, 19_TB, land
+	0, 24_TB, start, 283, nosid
+	0, 16_WC, landstart, 320, nosid
+	0, 16_WCP, landstart, 320, nosid
+	0, 01_RP, landstartrev, 220, nosid
+	0, 01_RPP, landstartrev, 220, nosid
+	0, 23_MU, landstart, 160, nosid
+	0, 23_MUP, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
+	0, 22_CWP, landstart, 180, nosid
+	0, 08_DB, landstart, 080, nosid	
+	0, 08_DBP, landstart, 080, nosid
 	
 #Bravo Flow 
 config2 =
@@ -4091,18 +4092,18 @@ config2 =
 	0, 04_LG, landrev
 	0, 13_LG, startrev, 314, nosid	
 	0, dummy_LG, land			
-	20, 19_TB, land
-	20, 24_TB, start, 283, nosid
-	30, 16_WC, landstartrev, 295, nosid
-	30, 16_WCP, landstartrev, 295, nosid
-	40, 01_RP, landstartrev, 220, nosid
-	40, 01_RPP, landstartrev, 220, nosid
-	40, 23_MU, landstart, 160, nosid
-	40, 23_MUP, landstart, 160, nosid
-	40, 22_CW, landstart, 180, nosid
-	40, 22_CWP, landstart, 180, nosid
-	40, 08_DB, startrev, 260, nosid
-	40, 08_DBP, startrev, 260, nosid
+	0, 19_TB, land
+	0, 24_TB, start, 283, nosid
+	0, 16_WC, landstartrev, 295, nosid
+	0, 16_WCP, landstartrev, 295, nosid
+	0, 01_RP, landstartrev, 220, nosid
+	0, 01_RPP, landstartrev, 220, nosid
+	0, 23_MU, landstart, 160, nosid
+	0, 23_MUP, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
+	0, 22_CWP, landstart, 180, nosid
+	0, 08_DB, startrev, 260, nosid
+	0, 08_DBP, startrev, 260, nosid
 		
 #Charlie Flow
 config3 =
@@ -4119,17 +4120,17 @@ config3 =
 	0, 04_LG, landrev
 	0, 13_LG, startrev, 314, nosid
 	0, dummy_LG, land		
-	20, 24_TB, startland, 283, nosid
-	30, 16_WC, landstartrev, 295, nosid	
-	30, 16_WCP, landstartrev, 295, nosid	
-	40, 14_RP, landstartrev, 00, nosid	
-	40, 14_RPP, landstartrev, 00, nosid	
-	40, 23_MU, landstart, 160, nosid
-	40, 23_MUP, landstart, 160, nosid
-	40, 22_CW, landstart, 180, nosid
-	40, 22_CWP, landstart, 180, nosid
-	40, 08_DB, startrev, 260, nosid
-	40, 08_DBP, startrev, 260, nosid
+	0, 24_TB, startland, 283, nosid
+	0, 16_WC, landstartrev, 295, nosid	
+	0, 16_WCP, landstartrev, 295, nosid	
+	0, 14_RP, landstartrev, 00, nosid	
+	0, 14_RPP, landstartrev, 00, nosid	
+	0, 23_MU, landstart, 160, nosid
+	0, 23_MUP, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
+	0, 22_CWP, landstart, 180, nosid
+	0, 08_DB, startrev, 260, nosid
+	0, 08_DBP, startrev, 260, nosid
 	
 #Delta Flow	
 config4 =
@@ -4146,18 +4147,18 @@ config4 =
 	0, 04_LG, landrev
 	0, 13_LG, startrev, 314, nosid	
 	0, dummy_LG, land
-	20, 19_TB, startrev, 035, nosid
-	20, 24_TB, landrev
-	30, 16_WC, landstartrev, 320, nosid
-	30, 16_WCP, landstartrev, 320, nosid
-	40, 14_RP, landstartrev, 00, nosid	
-	40, 14_RPP, landstartrev, 00, nosid		
-	40, 22_CW, landstartrev, 360, nosid
-	40, 22_CWP, landstartrev, 360, nosid
-	40, 23_MU, landstartrev, 335, nosid
-	40, 23_MUP, landstartrev, 335, nosid
-	40, 08_DB, startrev, 260, nosid	
-	40, 08_DBP, startrev, 260, nosid	
+	0, 19_TB, startrev, 035, nosid
+	0, 24_TB, landrev
+	0, 16_WC, landstartrev, 320, nosid
+	0, 16_WCP, landstartrev, 320, nosid
+	0, 14_RP, landstartrev, 00, nosid	
+	0, 14_RPP, landstartrev, 00, nosid		
+	0, 22_CW, landstartrev, 360, nosid
+	0, 22_CWP, landstartrev, 360, nosid
+	0, 23_MU, landstartrev, 335, nosid
+	0, 23_MUP, landstartrev, 335, nosid
+	0, 08_DB, startrev, 260, nosid	
+	0, 08_DBP, startrev, 260, nosid	
 	
 #Echo Flow  
 config5 =
@@ -4174,18 +4175,18 @@ config5 =
 	0, 04_LG, start, 035, nosid
 	0, 13_LG, landrev
 	0, dummy_LG, land
-	20, 19_TB, startrev, 035, nosid
-	20, 24_TB, landrev
-	30, 16_WC, landstartrev, 320, nosid
-	30, 16_WCP, landstartrev, 320, nosid
-	40, 14_RP, landstartrev, 00, nosid
-	40, 14_RPP, landstartrev, 00, nosid		
-	40, 22_CW, landstartrev, 360, nosid
-	40, 22_CWP, landstartrev, 360, nosid
-	40, 23_MU, landstartrev, 335, nosid
-	40, 23_MUP, landstartrev, 335, nosid
-	40, 08_DB, startrev, 260, nosid	
-	40, 08_DBP, startrev, 260, nosid	
+	0, 19_TB, startrev, 035, nosid
+	0, 24_TB, landrev
+	0, 16_WC, landstartrev, 320, nosid
+	0, 16_WCP, landstartrev, 320, nosid
+	0, 14_RP, landstartrev, 00, nosid
+	0, 14_RPP, landstartrev, 00, nosid		
+	0, 22_CW, landstartrev, 360, nosid
+	0, 22_CWP, landstartrev, 360, nosid
+	0, 23_MU, landstartrev, 335, nosid
+	0, 23_MUP, landstartrev, 335, nosid
+	0, 08_DB, startrev, 260, nosid	
+	0, 08_DBP, startrev, 260, nosid	
 	
 #Foxtrot Flow  
 config6 =
@@ -4202,23 +4203,24 @@ config6 =
 	0, 04_LG, start, 035, nosid
 	0, 13_LG, landrev
 	0, dummy_LG, land
-	20, 19_TB, startrev, 035, nosid
-	20, 24_TB, landrev
-	30, 16_WC, landstartrev, 320, nosid
-	30, 16_WCP, landstartrev, 320, nosid
-	40, 14_RP, landstartrev, 00, nosid	
-	40, 14_RPP, landstartrev, 00, nosid		
-	40, 22_CW, landstartrev, 360, nosid
-	40, 22_CWP, landstartrev, 360, nosid
-	40, 23_MU, landstartrev, 335, nosid
-	40, 23_MUP, landstartrev, 335, nosid
-	40, 08_DB, startrev, 260, nosid
-	40, 08_DBP, startrev, 260, nosid		
+	0, 19_TB, startrev, 035, nosid
+	0, 24_TB, landrev
+	0, 16_WC, landstartrev, 320, nosid
+	0, 16_WCP, landstartrev, 320, nosid
+	0, 14_RP, landstartrev, 00, nosid	
+	0, 14_RPP, landstartrev, 00, nosid		
+	0, 22_CW, landstartrev, 360, nosid
+	0, 22_CWP, landstartrev, 360, nosid
+	0, 23_MU, landstartrev, 335, nosid
+	0, 23_MUP, landstartrev, 335, nosid
+	0, 08_DB, startrev, 260, nosid
+	0, 08_DBP, startrev, 260, nosid		
 
 #Golf Flow  
 config7 =
 	0, 04L_JK, landstart, 100, nosid
 	0, 04R_JK, landstart, 100, nosid
+	0, 13R_JK, startrevintersection, 223, nosid
 	0, dummy_JK, land
 	0, 04L_JKP, landstart, 100, nosid
 	0, 04R_JKP, landstart, 100, nosid
@@ -4230,23 +4232,24 @@ config7 =
 	0, 04_LG, start, 035, nosid
 	0, 13_LG, landrev
 	0, dummy_LG, land
-	20, 19_TB, startrev, 035, nosid
-	20, 24_TB, landrev
-	30, 16_WC, landstartrev, 320, nosid
-	30, 16_WCP, landstartrev, 320, nosid
-	40, 01_RP, landstart, 00, nosid
-	40, 01_RPP, landstart, 00, nosid	
-	40, 22_CW, landstartrev, 360, nosid
-	40, 22_CWP, landstartrev, 360, nosid
-	40, 23_MU, landstartrev, 335, nosid
-	40, 23_MUP, landstartrev, 335, nosid
-	40, 08_DB, landstart, 080, nosid	
-	40, 08_DBP, landstart, 080, nosid	
+	0, 19_TB, startrev, 035, nosid
+	0, 24_TB, landrev
+	0, 16_WC, landstartrev, 320, nosid
+	0, 16_WCP, landstartrev, 320, nosid
+	0, 01_RP, landstart, 00, nosid
+	0, 01_RPP, landstart, 00, nosid	
+	0, 22_CW, landstartrev, 360, nosid
+	0, 22_CWP, landstartrev, 360, nosid
+	0, 23_MU, landstartrev, 335, nosid
+	0, 23_MUP, landstartrev, 335, nosid
+	0, 08_DB, landstart, 080, nosid	
+	0, 08_DBP, landstart, 080, nosid	
 	
 #Hotel Flow  
 config8 =
 	0, 04L_JK, landstart, 100, nosid
 	0, 04R_JK, landstart, 100, nosid
+	0, 13R_JK, startrevintersection, 223, nosid
 	0, dummy_JK, land
 	0, 04L_JKP, landstart, 100, nosid
 	0, 04R_JKP, landstart, 100, nosid
@@ -4258,18 +4261,18 @@ config8 =
 	0, 04_LG, land
 	0, 13_LG, start, 180, nosid		
 	0, dummy_LG, land
-	20, 19_TB, startrev, 035, nosid
-	20, 24_TB, landrev
-	30, 16_WC, landstart, 320, nosid
-	30, 16_WCP, landstart, 320, nosid
-	40, 01_RP, landstart, 00, nosid
-	40, 01_RPP, landstart, 00, nosid		
-	40, 22_CW, landstartrev, 360, nosid
-	40, 22_CWP, landstartrev, 360, nosid
-	40, 23_MU, landstartrev, 335, nosid
-	40, 23_MUP, landstartrev, 335, nosid
-	40, 08_DB, landstart, 080, nosid	
-	40, 08_DBP, landstart, 080, nosid
+	0, 19_TB, startrev, 035, nosid
+	0, 24_TB, landrev
+	0, 16_WC, landstart, 320, nosid
+	0, 16_WCP, landstart, 320, nosid
+	0, 01_RP, landstart, 00, nosid
+	0, 01_RPP, landstart, 00, nosid		
+	0, 22_CW, landstartrev, 360, nosid
+	0, 22_CWP, landstartrev, 360, nosid
+	0, 23_MU, landstartrev, 335, nosid
+	0, 23_MUP, landstartrev, 335, nosid
+	0, 08_DB, landstart, 080, nosid	
+	0, 08_DBP, landstart, 080, nosid
 	
 #India Flow  
 config9 =
@@ -4287,18 +4290,18 @@ config9 =
 	0, 04_LG, land
 	0, 13_LG, start, 180, nosid		
 	0, dummy_LG, land
-	20, 19_TB, startrev, 035, nosid
-	20, 24_TB, landrev
-	30, 16_WC, landstart, 320, nosid
-	30, 16_WCP, landstart, 320, nosid
-	40, 14_RP, landstart, 220, nosid	
-	40, 14_RPP, landstart, 220, nosid
-	40, 22_CW, landstartrev, 360, nosid
-	40, 22_CWP, landstartrev, 360, nosid
-	40, 23_MU, landstartrev, 335, nosid
-	40, 23_MUP, landstartrev, 335, nosid
-	40, 08_DB, landstart, 080, nosid	
-	40, 08_DBP, landstart, 080, nosid	
+	0, 19_TB, startrev, 035, nosid
+	0, 24_TB, landrev
+	0, 16_WC, landstart, 320, nosid
+	0, 16_WCP, landstart, 320, nosid
+	0, 14_RP, landstart, 220, nosid	
+	0, 14_RPP, landstart, 220, nosid
+	0, 22_CW, landstartrev, 360, nosid
+	0, 22_CWP, landstartrev, 360, nosid
+	0, 23_MU, landstartrev, 335, nosid
+	0, 23_MUP, landstartrev, 335, nosid
+	0, 08_DB, landstart, 080, nosid	
+	0, 08_DBP, landstart, 080, nosid	
 	
 #Juliet Flow  
 config10 =
@@ -4315,18 +4318,18 @@ config10 =
 	0, dummy_NK, landrev
 	0, 13_LG, startland, 180, nosid
 	0, dummy_LG, land
-	20, 19_TB, land
-	20, 24_TB, start, 283, nosid
-	30, 16_WC, landstart, 320, nosid
-	30, 16_WCP, landstart, 320, nosid
-	40, 14_RP, landstart, 220, nosid	
-	40, 14_RPP, landstart, 220, nosid
-	40, 23_MU, landstart, 160, nosid
-	40, 23_MUP, landstart, 160, nosid
-	40, 22_CW, landstart, 180, nosid
-	40, 22_CWP, landstart, 180, nosid
-	40, 08_DB, landstart, 080, nosid
-	40, 08_DBP, landstart, 080, nosid
+	0, 19_TB, land
+	0, 24_TB, start, 283, nosid
+	0, 16_WC, landstart, 320, nosid
+	0, 16_WCP, landstart, 320, nosid
+	0, 14_RP, landstart, 220, nosid	
+	0, 14_RPP, landstart, 220, nosid
+	0, 23_MU, landstart, 160, nosid
+	0, 23_MUP, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
+	0, 22_CWP, landstart, 180, nosid
+	0, 08_DB, landstart, 080, nosid
+	0, 08_DBP, landstart, 080, nosid
 	
 #Kilo Flow  
 config11 =
@@ -4344,23 +4347,24 @@ config11 =
 	0, 04_LG, landrev
 	0, 13_LG, start, 180, nosid	
 	0, dummy_LG, land
-	20, 19_TB, land
-	20, 24_TB, start, 283, nosid
-	30, 16_WC, landstart, 320, nosid
-	30, 16_WCP, landstart, 320, nosid
-	40, 14_RP, landstart, 220, nosid	
-	40, 14_RPP, landstart, 220, nosid
-	40, 23_MU, landstart, 160, nosid
-	40, 23_MUP, landstart, 160, nosid
-	40, 22_CW, landstart, 180, nosid
-	40, 22_CWP, landstart, 180, nosid
-	40, 08_DB, landstart, 080, nosid
-	40, 08_DBP, landstart, 080, nosid
+	0, 19_TB, land
+	0, 24_TB, start, 283, nosid
+	0, 16_WC, landstart, 320, nosid
+	0, 16_WCP, landstart, 320, nosid
+	0, 14_RP, landstart, 220, nosid	
+	0, 14_RPP, landstart, 220, nosid
+	0, 23_MU, landstart, 160, nosid
+	0, 23_MUP, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
+	0, 22_CWP, landstart, 180, nosid
+	0, 08_DB, landstart, 080, nosid
+	0, 08_DBP, landstart, 080, nosid
 	
 #Lima Flow  
 config12 =
 	0, 04L_JK, landstartrev, 220, nosid
 	0, 04R_JK, landrev
+	0, 13R_JK, startrevintersection, 223, nosid
 	0, dummy_JK, landrev
 	0, 04L_JKP, landstartrev, 220, nosid
 	0, 04R_JKP, landrev
@@ -4372,18 +4376,18 @@ config12 =
 	0, 04_LG, landrev
 	0, 13_LG, start, 180, nosid		
 	0, dummy_LG, land
-	20, 19_TB, land
-	20, 24_TB, start, 283, nosid
-	30, 16_WC, landstart, 320, nosid
-	30, 16_WCP, landstart, 320, nosid
-	40, 01_RP, landstartrev, 220, nosid	
-	40, 01_RPP, landstartrev, 220, nosid	
-	40, 23_MU, landstart, 160, nosid
-	40, 23_MUP, landstart, 160, nosid
-	40, 22_CW, landstart, 180, nosid
-	40, 22_CWP, landstart, 180, nosid
-	40, 08_DB, startrev, 260, nosid
-	40, 08_DBP, startrev, 260, nosid	
+	0, 19_TB, land
+	0, 24_TB, start, 283, nosid
+	0, 16_WC, landstart, 320, nosid
+	0, 16_WCP, landstart, 320, nosid
+	0, 01_RP, landstartrev, 220, nosid	
+	0, 01_RPP, landstartrev, 220, nosid	
+	0, 23_MU, landstart, 160, nosid
+	0, 23_MUP, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
+	0, 22_CWP, landstart, 180, nosid
+	0, 08_DB, startrev, 260, nosid
+	0, 08_DBP, startrev, 260, nosid	
 
 #JFK = 1200 flights/day (1) 	20	2
 #EWR = 1200 flights/day	(1)		20	2

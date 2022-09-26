@@ -1,0 +1,4758 @@
+[airspace]
+elevation = 13
+usa = true
+transition = 18001
+center = N40.63980103, W73.77890015
+speedrestriction = 16, 220, 10000, 250
+magneticvar = -14.089
+floor = 1500 			; minimum selectable altitude
+descendaltitude = 14000 	; minimum initial altitude for arrivals
+ceiling = 19000 		; maximum selectable altitude
+diversionaltitude = 15000
+above = 21000 			; maximum departure altitude when SID is enabled (must be above ceiling)
+automatic = true
+letters = 10000000000
+name = new york approach, new york departure
+beacons =
+#VORs
+    JFK, N40.37.58.40, W073.46.17.00, kennedy
+	CRI, N40.61247222, W73.89444444, 0, Canarsie
+	COL, N40.3116294, W74.1597286, colts neck
+	DPK, N40.47.30.30, W073.18.13.17, deer park
+	CCC, N40.92960, W72.79890, 0, Calverton
+    LGA, N40.47.01.38, W073.52.06.96, la guardia
+	TEB, N40.84870, W74.06220, 0, Teterboro
+	SBJ, N40.58300, W74.74170, 0, Solberg
+	SAX, N41.06750, W74.53830, 0, Sparta
+	BWZ, N40.79840, W74.82180, 0, Broadway
+	RBV, N40.20240, W74.49500, -60, Robbinsville
+	STW, N40.99580, W74.86900, 0, Stillwater	
+	CMK, N41.28008889, W73.58132778, 0, Carmel
+	FOK, N40.83780, W72.63180, 0, Suffolk County
+	BDR, N41.16070, W73.12450, 0, Bridgeport
+	HVN, N41.26230, W72.88520, 0, New Haven
+	MAD, N41.31380, W72.69220, 0, Madison
+	HTO, N40.91900, W72.31670, 0, Hampton
+	IGN, N41.66550, W73.82230, 0, Kingston
+	HUO, N41.40970, W74.59160, 0, Huguenot
+	PWL, N41.76980, W73.60050, 354, Pawling
+	BDR, N41.16070, W73.12450, 0, Bridgeport
+	DNY, N42.17830, W74.95690, 0, De Lancey
+#	FJC, N40°43.60', W75°27.28'
+	HFD, N41°38.47', W72°32.85'
+#	BAF, N42°09.72', W72°42.97'	
+#	HNK, N42°03.78', W75°18.98',
+	
+	
+    CAMRN, N40.01.02.29, W073.51.39.81, cameron
+    LENDY, N40.54.53.41, W074.08.06.93, lendy
+	HARTY, 41°04.27'N, 75°05.39'W, 0, Hearty
+	PRNCE, 41°58.41'N, 74°28.20'W, 0, Prince
+#	LOLLY, 41°23.13'N, 74°03.81'W, 0, lolly
+#	DOORE, 41°01.69'N, 74°22.06'W, 0, Door
+    ROBER, N40.41.07.67, W073.01.57.40, rober
+	PARCH, 41°05.95'N, 72°07.24'W, 0, Parch
+	ZIGGI, 40°03.12'N, 74°00.82'W, 0, Ziggy
+#	CRANK, N41.416608, W74.388869, 0, Crank
+#	DYLIN, N40.287469, W74.859792, 0, Dylan
+	WEETS, N41°51.45', W74°11.86'
+#	NELIE, N41°56.46', W72°41.31'
+	TALCO, N42°03.77', W74°06.46'
+	FLOSI, N41°32.61', W74°20.05', 
+	SWEET, N40.828272, W74.924319, 0, Sweet
+	REGLE, N40.403428, W74.995489, 0, Reg Le
+	MUGZY, N41.030128, W74.969361, 0, Mug Ze
+#	SORRY, 41°28'72''N, 73°01'04''W, 0 ,sorry
+#	LEMOR, 41°17'51''N, 74°38'3''W, 0, Lee More
+#	SEAVY, 41°12.51'N, 74°19.59'W, 0, Sea Vee
+	SAGES, 42°02.77'N, 74°19.17'W
+#	TYKES, 40°17.37'N, 74°23.10'W, 0, Brand
+	METRO, 40°25.36'N, 74°40.17'W, -60, Metro
+	SHAFF, 41°17.38'N, 74°26.60'W, -211, Shaff
+	MERSR, 40°18.61'N, 74°49.68'W, 60, Mercer
+	KORRY, N40.093842, W74.651544, 0, Cory
+	ALIXX, N41.181347, W73.393025, 0, Alex
+	BOUNO, 40°21.93'N, 73°27.42'W, 
+#	SOUND, 40°51.86'N, 73°09.38'W, 
+#	GWENY, 40°55.66'N, 73°01.62'W,
+#	ZAHNN, 41°1.61'N, 72°49.43'W, 
+#	EILEN, 41°09.41'N, 72°51.44'W, 
+#	WESTO, 41°09.48'N, 72°56.01'W, 
+	WIGAN, 42°05.11'N, 73°48.90'W, 
+	VEERS, 41°54.62'N, 73°17.20'W, 
+	KORRY, N40.093842, W74.651544, 0, Cory
+	BEUTY, N40.569197, W75.011478, 0, Beauty
+	VALRE, N41.435328, W73.881736, 203, Valerie
+#	STOTT, 42°20.12'N, 73°43.02'W, -224, Stott
+#	CYPER, 42°06.54'N, 74°16.43'W, -224, Cypher
+	PETER, 42°12.32'N, 74°31.84'W, -224
+	DUNEE, 40°19.41'N, 73°02.43'W
+#	NOBBI, N41.424, W73.6378, 0, Nobby
+	CRALY, 41°04.63'N, 73°37.56'W, -224, Cray Lee
+	PROUD, 40°37.79'N, 73°59.99'W, -045, Proud
+	DAMYR, 40°24.65'N, 74°13.88'W, -57, Dam Year
+	HARLM, 40°29.44'N, 74°44.95'W, 123, Harlem
+	SARDI, N40°31.44', W72°47.93', 0, Sardi
+	RICED, N40°36.72', W72°41.53', 0, riced
+#	KEYED, 41°00.86'N, 72°41.53'W
+	LOVES, N41°32.33', W73°29.29', -156, loves
+#	CREAM, N41°8.93', W72°31.31', 0, cream
+#	SEALL, N41°23.56', W72°50.84', 0 seal
+	WANDI, N41°22.56', W72°08.03', 0, wandy
+	ARCAV, N40°57.96', W71°47.93', 0, arr cav
+	ATHOS, N42°14.82', W73°48.73'
+#	MANEE, N41°27.16', W74°26.31'
+	HELON, N41°40.05', W74°16.83'
+	TRESA, N41°52.83', W73°49.11'
+	RAGER, N41°34.10', W74°54.77'
+#	FLIPS, N41°56.51', W74°23.71'
+	BRISS, N41°42.16', W73°01.00'
+	
+handoff = 
+	340, LIBN, New York Departure, 118.17
+	280, LIBW, New York Departure, 120.85
+	180, LIBS, New York Departure, 124.75
+	040, LIBE, New York Departure, 126.80
+
+boundary = 
+    N40.03355278, W73.71678889
+    N40.06298611, W73.67481944
+    N40.09182222, W73.63765278
+    N40.21133583, W73.46443750
+    N40.23725111, W73.43697444 		
+#ZNY
+	N40.4020, W73.2285
+	N40.2804, W72.9600
+	N40.6579, W72.4906
+	N40.6841, W72.1658
+#PVD
+	N40.45.56.70, W71.51.34.50
+	N40.9431, W71.8630
+	N41.04.34.77, W72.11.18.19
+	N41.07.26.74, W72.14.55.67
+	N41.20.05.61, W72.21.59.18
+	N41.28.57.71, W72.27.47.99
+	N41.29.00,	W72.28.00
+	N41.25.30,	W72.40.50
+	N41.25.13,	W72.43.23
+	N41.25.00,	W72.55.45
+	N41.26.00,	W73.00.00
+	N41.35.40,	W73.00.00
+	N41.35.15,	W73.12.50
+	N41.35.15,	W73.12.50
+	N41.6224, W73.1915
+	N41.8030, W73.2211
+	N42.0817, W73.3535
+	N42.0044, W73.4429
+	N42.0157, W74.0138
+	N42.1672, W73.9797
+	N42.2017, W74.2864
+	N42.1472, W74.8892
+	N42.0284, W74.9602
+	N42.0320, W74.9855
+	N42.0187, W75.0603
+	N41.9941, W75.1067
+	N41.9539, W75.1269
+	N41.8953, W75.1219
+	N41.8424, W75.0959
+	N41.6000, W74.8956
+	N41.5492, W74.7666
+	N41.3315, W74.8328
+#
+	N41.18.01.729, W74.50.50.573
+	N41.11.26.684, W74.59.17.164
+	N41.06.48.736, W74.51.43.872
+	N41.03.12.403, W74.52.18.904
+	N40.59.30.848, W74.56.30.523
+	N40.57.46.338, W74.56.21.176
+	N40.57.07.753, W74.59.08.908
+	N40.44.27.696, W74.58.26.937
+	N40.37.49.614, W74.58.01.736
+	N40.31.30.604, W75.06.12.737
+	N40.28.50.491, W75.03.47.900
+	N40.20.27.068, W74.57.16.251
+	N40.12.24.143, W74.41.28.797
+	N40.08.13.913, W74.45.18.572
+	N40.07.07.454, W74.43.14.407
+	N40.01.12.378, W74.37.44.259
+	N40.08.33.129, W74.27.04.621
+	N40.24996028, W74.33294528
+    N40.15420583, W73.99997306
+    N40.13753194, W73.89581917
+	N40.06392917, W73.79860389
+
+line1 =
+	N41.01504, W72.10190
+	N41.05146, W72.15127
+	N41.04678, W72.18389
+	N41.02407, W72.28745
+	N40.97217, W72.40898
+	N40.93379, W72.46133
+	N40.91479, W72.51660
+	N40.92134, W72.58086
+	N40.98604, W72.50977
+	N41.03853, W72.42739
+	N41.15303, W72.27412
+	N41.12554, W72.37256
+	N41.02700, W72.54365
+	N40.99185, W72.62510
+	N40.97207, W72.82881
+	N40.96597, W73.03379
+	N40.95688, W73.11128
+	N40.92983, W73.18584
+	N40.92422, W73.27817
+	N40.94380, W73.37271
+	N40.94111, W73.40723
+	N40.92676, W73.44087
+	N40.91997, W73.48740
+	N40.91963, W73.57383
+	N40.90620, W73.60977
+	N40.88125, W73.64282
+	N40.83804, W73.65225
+	N40.87002, W73.69521
+	N40.83369, W73.75723
+	N40.79165, W73.87925
+	N40.72534, W73.96455
+	N40.68315, W74.00337
+	N40.63867, W74.03203
+	N40.58120, W74.01489
+	N40.59883, W73.92900
+	N40.65161, W73.87520
+	N40.65596, W73.82266
+	N40.64097, W73.79917
+	N40.62178, W73.80132
+	N40.57051, W73.89956
+	N40.59272, W73.76675
+	N40.59990, W73.62090
+	N40.66357, W73.26553
+	N40.65151, W73.22852
+	N40.65420, W73.19429
+	N40.77783, W72.76284
+	N40.79062, W72.67607
+	N40.82578, W72.55557
+	N40.87539, W72.42808
+	N40.89414, W72.33896
+	N41.06069, W71.90322
+	N41.04429, W72.00396
+	N41.01504, W72.10190
+
+line2 =
+	N40.61460, W74.18818
+	N40.51870, W74.23589
+	N40.52285, W74.18813
+	N40.54185, W74.13853
+	N40.58647, W74.07969
+	N40.61543, W74.06738
+	N40.64932, W74.06875
+	N40.65845, W74.10049
+	N40.61460, W74.18818
+
+line3 =
+	N39.93813, W74.11763
+	N39.97598, W74.09600
+	N39.99312, W74.06460
+	N39.82910, W74.08398
+
+line4 =
+	N39.92305, W74.04893
+	N40.07300, W74.02832
+	N40.17134, W74.00400
+	N40.25054, W73.97197
+	N40.32837, W73.95762
+	N40.40034, W73.97227
+	N40.45215, W73.99844
+	N40.42983, W74.04985
+	N40.45625, W74.24150
+	N40.52861, W74.26421
+	N40.60801, W74.22671
+	N40.64800, W74.18716
+	N40.67324, W74.15312
+	N40.68730, W74.11626
+	N40.71963, W74.06733
+	N40.75640, W74.02549
+	N40.91426, W73.92720
+	N40.99224, W73.91006
+	N40.99609, W73.90923
+	N41.13579, W73.91768
+	N41.24971, W73.96992
+	N41.21807, W73.92534
+	N41.17061, W73.88223
+	N41.05518, W73.87197
+	N40.91245, W73.90674
+	N40.83877, W73.94858
+	N40.75137, W73.98711
+	N40.77695, W73.94722
+	N40.81611, W73.91069
+	N40.83140, W73.85127
+	N40.87842, W73.77900
+	N40.96587, W73.67139
+	N40.99185, W73.63047
+	N41.02187, W73.58301
+	N41.17583, W73.18228
+	N41.21646, W73.02373
+	N41.28516, W72.92471
+	N41.26587, W72.84717
+	N41.27578, W72.47939
+	N41.31216, W72.37104
+	N41.29165, W72.26528
+	N41.32612, W72.07388
+	N41.34106, W71.92993
+	N41.33550, W71.84238
+	N41.33091, W71.76929
+
+line5 =
+	N41.76541, W73.94804
+	N41.57364, W73.98372
+	N41.45959, W73.98403
+	N41.33125, W73.96008
+	N41.28112, W73.96920
+	N41.24973, W73.96995
+
+##########
+#Airports#
+##########
+[airport1]
+name = John F Kennedy International Airport, kennedy
+code = N90*
+runways =
+	04L_JK, 04L, N40.622, W73.7856, 31.0, 12079, 0, 0, 12, 3, 0, 3, 0, 0, 0, 0, 0, 123.9, kennedy tower
+	04R_JK, 04R, N40.6254, W73.7703, 30.6, 8400, 0, 0, 13, 3, 0, 3, 0, 0, 0, 0, 0, 119.1, kennedy tower
+	13L_JK, 13L, N40.6578, W73.7902, 121.0, 10000, 0, 0, 13, 3, 0, 3, 0, 0, 0, 0, 0, 119.1, kennedy tower
+	13R_JK, 13R, N40.6484, W73.8167, 121.0, 14511, 0, 0, 13, 3, 0, 3, 0, 0, 0, 0, 0, 123.9, kennedy tower
+	dummy_JK, 13R, S40.6484, E73.8167, 121.0, 14511, 0, 0, 13, 3, 0, 3, 0, 0, 0, 0, 0, 123.9, kennedy tower
+
+inboundbeacon = LENDY	
+
+sids =
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	BETTE, N40.559333, W73.011667, Betty
+	HAPIE, N40.3865, W72.982833, Happy
+	
+entrypoints =
+    180, CAMRN, 11000
+    293, HARTY, 21000
+	327, PRNCE, 20000
+    063, PARCH, 22000
+
+climbaltitude = 5000	
+
+airlines =
+#Terminal 1
+	afl, 1, b773/a332/a333, aeroflot, e
+	cca, 1, b773/b748, air china, n
+	afr, 3, a388/b773/b789/a332, airfrans, e
+	afc, 1, conc, airfrans concorde, e
+	aza, 1, a332/b773, alitalia, e
+	aua, 1, b763, austrian, e
+	ahy, 1, b788, azal, e
+	bel, 1, a333, bee line, e
+	cay, 1, b733, cayman, s
+	eva, 1, b773, eva, n
+	jal, 1, b773, japan air, n
+	kal, 1, a388/b773, korean air, n
+	dlh, 2, a346/a388/b748/a333, lufthansa, e
+	pal, 1, a359, philippine, n
+	ram, 1, b788/b789, royal air maroc, e
+	sva, 3, b773, saudia, e
+	thy, 1, a333/b773/b789, turkish, e
+	viv, 1, a20n, aeroenlaces, s
+#Terminal 4
+	dal, 10, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b738/b739/b752/b763/b764, delta
+	dal, 10, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b738/b739/b752/b763/b764, delta
+	dal, 10, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b738/b739/b752/b763/b764, delta
+	dal, 10, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b738/b739/b752/b763/b764, delta
+	dal, 10, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b738/b739/b752/b763/b764, delta
+	dal, 10, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b738/b739/b752/b763/b764, delta
+	dal, 10, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b738/b739/b752/b763/b764, delta
+	dal, 4, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b738/b739/b752/b763/b764, delta
+	edv, 10, crj2/crj7/crj9, endeavor
+	edv, 0.333, crj2/crj7/crj9, endeavor
+	skw, 10, crj2/crj7/crj9/e75l, sky west
+	skw, 0.333, crj2/crj7/crj9/e75l, sky west
+	rpa, 10, e75l/e170, brickyard
+	rpa, 0.333, e75l/e170, brickyard
+	amx, 1, b738/b789, aeromexico, s
+	sli, 1, e190, costera, s
+	aea, 1, a332, europa, e
+	aic, 1, b773, air india, e
+	asl, 1, a332, air serbia, e
+	aar, 1, a359/a388, asiana, n
+	ava, 4, a319/a332, avianca, s
+	tai, 2, a321, taca, s
+	bwa, 9, b738, caribbean, s
+	cal, 1, b773, dynasty, n
+	csn, 1, b773/b789, china southern, n
+	eal, 1, b763, eastern
+	msr, 1, b773, egyptair, e
+	ely, 1, b744/b789, el al, e
+	uae, 2, a388/b773, emirates, e
+	etd, 1, a388/b789, etihad, e
+	chh, 1, b789, hainan, n
+	kqa, 1, b788, kenya, e
+	klm, 1, a333/b744/b772/b773/b789/b78x, k l m, e
+	kac, 1, b773, kuwaiti, e
+	tam, 1, a359/b773, tam, s
+	lan, 2, b763/b789, lanchile, s
+	sin, 2, a388/a359, singapore, n
+	saa, 1, a346, springbok, s
+	swr, 2, a333/b773, swiss, e
+	uzb, 1, b788, uzbek, e
+	vir, 2, a351/b744/b789, virgin, e
+	vol, 1, a320, volaris, s
+	voc, 2, a319, costa rican, s
+	wja, 1, b738, westjet, n 
+	cxa, 1, b789, xiamen air, n
+#Terminal 5
+	jbu, 10, e190/a319/a320/a321/a21n/bcs3, jetblue
+	jbu, 10, e190/a319/a320/a321/a21n/bcs3, jetblue
+	jbu, 10, e190/a319/a320/a321/a21n/bcs3, jetblue
+	jbu, 10, e190/a319/a320/a321/a21n/bcs3, jetblue
+	jbu, 10, e190/a319/a320/a321/a21n/bcs3, jetblue
+	jbu, 10, e190/a319/a320/a321/a21n/bcs3, jetblue
+	jbu, 10, e190/a319/a320/a321/a21n/bcs3, jetblue
+	jbu, 10, e190/a319/a320/a321/a21n/bcs3, jetblue
+	jbu, 8, e190/a319/a320/a321/a21n/bcs3, jetblue
+	ein, 3, a333/b752, shamrock, e 
+	hal, 1, a333, hawaiian, w
+	tap, 1, a339, air portugal, e
+#Terminal 7
+	arg, 1, a332, argentina, s
+	asa, 4, a320/a20n/b738/b739, alaska, w
+	ana, 2, b773, all nippon, n
+	baw, 10, a318/b744/b772, speedbird, e
+	bac, 5, conc, speedbird concorde, e
+	ewg, 1, a343, eurowings, e
+	ibe, 1, a359/a333, iberia, e
+	ice, 1, b752/b763, iceair, e
+	lot, 2, b788/b789, lot, e
+	aui, 1, b772, ukraine international, e
+	ual, 2, b763, united, w
+#Terminal 8
+	aal, 10, a319/a320/a321/a21n/b738/b38m/b772/b773, american
+	aal, 10, a319/a320/a321/a21n/b738/b38m/b772/b773, american
+	aal, 10, a319/a320/a321/a21n/b738/b38m/b772/b773, american
+	aal, 10, a319/a320/a321/a21n/b738/b38m/b772/b773, american
+	aal, 5, a319/a320/a321/a21n/b738/b38m/b772/b773, american
+	eny, 2.33, e145/e170/e75l, on voy
+	pdt, 2.33, e145, piedmont
+	jia, 2.33, crj7/crj9, blue streak
+	ash, 2.33, crj9, air shuttle
+	rpa, 2.33, e170/e75s/e75l, brickyard	
+	skw, 2.33, crj2/crj7/crj9/e175, skywest	
+	cpa, 1, b773/a351, cathay, n
+	eth, 2, b788, ethiopian, e
+	fin, 2, a333/a359, finnair
+	lne, 1, b767, aerolane, s
+	qfa, 1, b789, qantas, e
+	qtr, 1, a359/a351/b773, qatari, e
+	rja, 1, b788, jordanian, e
+#Cargo
+	tno, 1, a306, aerounion, s
+	gti, 7, b744, giant
+	icl, 2, b744, cal, e
+	icv, 2, b748, cargolux italia, e
+	ups, 5, md11/b763/a306/b752, u p s
+	fdx, 3, a306/md11/b77l/b763/b752, fed ex
+	slq, 1, b190, skylink, n
+	cks, 1, b744, connie, e
+	clx, 7, b748, cargolux
+	lgt, 1, b744, longtail, s
+	mn, 1, a332/a333/a306, blacksea, e
+	css, 1, b752/b763, shun feng, w
+	nca, 1, b748, nippon cargo, w
+#Other
+	szn, 1, a339, sensa, e
+	rzo, 3, a321, azores, e
+	cfg, 1, b763/b753/a339, condor, e
+	ces, 1, b773/b789, china eastern, n
+	cmp, 1, b38m/b39m, copa, s
+	fle, 1, b738/b38m, flair, n
+	ity, 1, a332/a359, itarrow, e
+	nos, 1, b789, moonflower, e
+	sna, 2, a320/a321, cana, s
+	wsw, 1, b738/b38m, swoop, n
+	anz, 1, b789, new zealand, w
+#Private
+	fth, 1, c750, foothills
+	n-744hj, 2.75, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	n-324ch, .25, b737
+	lxj, .25, e55p/glf4/cl35, flexjet
+	gaj, .25, b350/c56x/cl35, gama jet
+	dpj, .25, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	eja, .25, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet	
+	af1-, .01, b742, air force one
+	adb, .01, a225, antonov bureau
+	med, .01, pc12/lj35/c560, lifeguard
+	flc, .01, b350, flight check
+	
+[airport2]
+name = John F Kennedy International Airport, kennedy
+code = JK
+runways =
+	04L_JKP, 04L, N40.622, W73.7856, 31.0, 12079, 0, 0, 12, 3, 0, 3, 0, 0, 0, 0, 0, 123.9, kennedy tower
+	04R_JKP, 04R, N40.6254, W73.7703, 30.6, 8400, 0, 0, 13, 3, 0, 3, 0, 0, 0, 0, 0, 119.1, kennedy tower
+	13L_JKP, 13L, N40.6578, W73.7902, 121.0, 10000, 0, 0, 13, 3, 0, 3, 0, 0, 0, 0, 0, 119.1, kennedy tower
+	13R_JKP, 13R, N40.6484, W73.8167, 121.0, 14511, 0, 0 13, 3, 0, 3, 0, 0, 0, 0, 0, 123.9, kennedy tower
+
+sids =
+    DEEZZ, N41.11145, W73.777833, deez
+	BDR
+	
+entrypoints =
+    047, DPK, 3000
+
+climbaltitude = 5000	
+
+airlines =
+	kap, 1, c402/p212, care, ne
+	
+[airport3]
+name = Republic Airport, republic
+code = RP
+runways =	
+	14_RP, 14, N40.73339, W73.41993, 132, 6833, 676, 0, 77.8, 3, 0, 3, 0, 0, 0, 0, 0, 118.8, republic tower
+	01_RP, 01, N40.72177, W73.41427, 359, 5516, 0, 0, 63.5, 3, 0, 3, 0, 0, 0, 0, 0, 118.8, republic tower
+
+sids =
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	BETTE, N40.559333, W73.011667, Betty
+	HAPIE, N40.3865, W72.982833, Happy
+	
+entrypoints =
+    180, CAMRN, 11000
+    293, HARTY, 21000
+	327, PRNCE, 20000
+    063, PARCH, 22000
+
+traffic = 120
+
+climbaltitude = 2000
+
+airlines =
+	lxj, 1, e55p/glf4/cl35, flexjet
+	eja, 2, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	fth, 1, c750, foothills
+	cns, 2, pc12/pc24, chronos
+	n-744hj, 2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	gaj, 2, b350/c56x, gama jet
+	ejm, 1, glf5/cl60, jet speed
+	cwg, 1, e35l/glf4, clear wing
+	ujc, 1, j328, ultimate air shuttle
+	
+[airport4]
+name = Republic Airport, republic
+code = RP
+runways =	
+	14_RPP, 14, N40.73339, W73.41993, 132, 6833, 676, 0, 77.8, 3, 0, 3, 0, 0, 0, 0, 0, 118.8, republic tower
+	01_RPP, 01, N40.72177, W73.41427, 359, 5516, 0, 0, 63.5, 3, 0, 3, 0, 0, 0, 0, 0, 118.8, republic tower
+
+entrypoints =
+    047, DPK, 3000
+	260, COL, 4000
+	200, ZIGGI, 8000
+
+sids =
+    DEEZZ, N41.11145, W73.777833, deez
+	RBV
+	ARD, N40.25330, W74.90760, 0, Yardley
+	BDR
+
+climbaltitude = 2000
+
+airlines =
+	n-781pt, .75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, .25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40	
+
+[airport5]
+name = Newark Liberty International Airport, newark
+code = NK
+runways =
+	04L_NK, 04L, N40.67540000, W74.17950000, 26.0, 11000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	04R_NK, 04R, N40.67760000, W74.17420000, 26.0, 10000, 0, 0, 11, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11LAHSO_NK, 11, N40.70280000, W74.180700000, 95.0, 5700, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11N_NK, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11S_NK, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11SOF_NK, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	dummy_NK, 00, S40.702800, E74.180700, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	
+climbaltitude = 5000
+
+inboundbeacon = SAX	
+
+traffic = 3
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+
+entrypoints = 
+	355, TALCO, 14000
+	010, TALCO, 14000
+	320, HELON, 8000
+	029, FLOSI, 8000
+	243, MERSR, 8000
+	243, MERSR, 8000
+	243, MERSR, 8000
+	243, MERSR, 8000
+	284, SWEET, 6000		
+	284, SWEET, 6000
+	284, SWEET, 6000
+	284, SWEET, 6000
+
+airlines =
+#Passenger
+	ein, 1, a321, shammrock, ne
+	aca, 2, bcs3/a320, air canada, n
+	jza, 3, e75s, jazz, n
+	aic, 1, b77w, air india, ne
+	asa, 4, b739, alaska, w
+	aay, 3, a319/a320, allegiant
+	aal, 5, a320/b738/b38m, american
+	eny, 0.5, e170/e175, on voy	
+	jia, 0.5, crj7/crj9, blue streak
+	aua, 1, b763, austrian, ne
+	baw, 2, b772, speedbird, e
+	dal, 8, a320/bcs1/b712/b738/b739, delta
+	edv, 1.7, crj2/crj7/crj9, endeavor
+	rpa, 1.7, e170/e75s/e75l, brickyard
+	skw, 1.7, crj2/crj7/crj9/e175, skywest
+	ely, 1, b789, el al, ne
+	uae, 2, b77w, emirates, ne
+	eth, 2, b788, ethiopian, ne
+	fbu, 1, a359, french bee, ne
+	ice, 1, b38m, ice air, ne
+	jbu, 10, a320/a321/a21n/e190, jet blue
+	jbu, 10, a320/a321/a21n/e190, jet blue
+	jbu, 10, a320/a321/a21n/e190, jet blue
+	jbu, 3, a320/a321/a21n/e190, jet blue
+	djt, 3, a21n, dream jet, ne
+	lot, 1, b788/b789, lot, ne
+	dlh, 3, b748/a359, lufthansa, ne
+	poe, 10, dh8d, porter, n
+	poe, 5, dh8d, porter, n
+	sas, 3, a359/a21n, scandinavian, ne
+	sin, 1, a359, singapore, n
+	nks, 10, a20n/a321, spirit wings
+	nks, 8, a20n/a321, spirit wings
+	scx, 3, b738, sun country
+	swr, 2, a333/a343, swiss, ne
+	tap, 1, a333/a21n, air portugal, e
+	thy, 1, a359/b789, turkish, ne
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 10, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	ual, 8, a319/a320/b789/b78x/b772/b77w/b763/b764/b752/b737/b738/b38m/b739/b39m, united
+	gjs, 10, crj7, lindbergh
+	gjs, 10, crj7, lindbergh
+	gjs, 10, crj7, lindbergh
+	gjs, 1.5, crj7, lindbergh
+	rpa, 10, e170/e75s/e75l, brickyard
+	rpa, 10, e170/e75s/e75l, brickyard
+	rpa, 10, e170/e75s/e75l, brickyard
+	rpa, 1.5, e170/e75s/e75l, brickyard
+#Cargo
+	ajt, 2, b763, amerijet
+	csb, 3, b762, cargo south, w
+	cjt, 1, b762/b752, cargo jet, ns
+	gti, 1, b77l/b763, giant
+	nac, 1, b733/b734/b763, yukon, w
+	fdx, 10, a306/md11/b77l/b763/b752, fed ex
+	fdx, 10, a306/md11/b77l/b763/b752, fed ex
+	fdx, 6, a306/md11/b77l/b763/b752, fed ex
+	cks, 2, b744, connie
+	ups, 9, md11/b763, u p s
+#Private	
+	n-744hj, 4, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	eja, 2, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	ejm, 0.5, glf5/cl60, jet speed
+	lxj, 0.5, e55p/glf4/cl35, flexjet
+	swq, 0.5, b737, swiftflight
+	dpj, 0.5, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	cns, 0.5, pc12/pc24, chronos
+	gaj, 0.5, b350/c56x/cl35, gama jet
+	mnu, 0.5, crj2, mainer
+	fth, 0.1, c750, foothills
+	asp, 0.1, c25a/e545, airsprint
+	lak, 0.1, c560/c56x, redlake
+	twy, 0.1, glf4/glf5/f900/cl60, twilight
+	xoj, 0.1, c750/cl30, exo jet
+	vjt, 0.1, glex/cl35/cl60/gl5t/gl7t, vista jet, ne
+	xen, 0.1, f2th, zen jet
+	wwi, 0.1, cl60, worldwide
+	rlj, 0.1, h25b/lj60, real jet, w	
+	jit, 0.1, hdjt, jet it
+	tff, 0.1, glf4/glf5/cl60, talon
+	okc, 0.1, be40/be4w/h25a/e135, thunder wings, e
+	n-324ch, 0.5, b737
+#Special
+	af1-, 0.1, b742, air force one
+	adb, 0.1, a225, antonov bureau
+	med, 0.1, pc12/lj35/be20/c560, med evac
+	flc, 0.1, b350, flight check
+	
+[airport6]
+name = Newark Liberty International Airport, newark
+code = NK
+runways =
+	04L_NKP, 04L, N40.67540000, W74.17950000, 26.0, 11000, 0, 0, 10, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	04R_NKP, 04R, N40.67760000, W74.17420000, 26.0, 10000, 0, 0, 11, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11LAHSO_NKP, 11, N40.70280000, W74.180700000, 95.0, 5700, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11N_NKP, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11S_NKP, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	11SOF_NKP, 11, N40.70280000, W74.18070000, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	dummy_NKP, 00, S40.702800, E74.180700, 95.0, 6800, 0, 298, 18, 3, 0, 3, 0, 0, 0, 0, 0, 118.3, newark tower
+	
+climbaltitude = 2500
+
+sids = 
+	SBJ
+	SAX
+	BDR
+
+entrypoints = 
+	344, LEMOR, 6000
+	344, LEMOR, 6000
+	344, LEMOR, 6000
+	344, LEMOR, 6000
+	240, SBJ, 5000
+	240, SBJ, 5000
+	240, SBJ, 5000
+	240, SBJ, 5000
+	024, SEAVY, 5000
+	297, MUGZY, 6000
+
+airlines =
+	wig, 1, c208, wiggins airways, n
+	mtn, 1, c208, mountain, s
+	
+[airport7]
+name = Teterboro Airport, teterboro
+code = TB
+runways =
+	19_TB, 19, N40.855764, W74.059111, 183, 7000, 0, 0, 6, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
+	24_TB, 24, N40.857739, W74.054097, 228, 6013, 0, 0, 7, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
+	
+traffic = 6
+
+climbaltitude = 1500
+
+airlines =
+	lxj, 2, e55p/glf4/cl35, flexjet
+	eja, 4, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	fth, 1, c750, foothills
+	cns, 0.5, pc12/pc24, chronos
+	n-744hj, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	gaj, 1, b350/c56x/cl35, gama jet
+	ejm, 1, glf5/cl60, jet speed
+	gpd, 0.5, pc12, goodspeed, n
+	cwg, 0.1, e35l/glf4, clear wing
+	xen, 0.1, f2th, zen jet
+	qqe, 0.1, glf6, q rex, e
+	mln, 0.1, g280, millenium	
+	wwi, 0.1, cl60, worldwide
+	jas, 0.1, glex, jet setter
+	pjc, 0.1, c25b, pittsburgh jet
+	new, 0.1, cl60, northeastern
+	lbq, 0.1, pc12, labquest
+#	hrt, 0.1, , chartright
+	lak, 1, c560/c56x, redlake
+	twy, 1, glf4/glf5/f900/cl60, twilight
+	asp, 1, c25a/e545, airsprint, n
+	xoj, 1, c750/cl30, x o jet
+	
+
+entrypoints = 
+	250, REGLE, 7000
+	293, MUGZY, 6000
+	355, SAGES, 14000
+	010, SAGES, 14000
+	044, HFD, 6000
+
+	
+[airport8]
+name = Teterboro Airport, teterboro
+code = TB
+runways =
+	19_TBP, 19, N40.855764, W74.059111, 183, 7000, 0, 0, 6, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
+	24_TBP, 24, N40.857739, W74.054097, 228, 6013, 0, 0, 7, 3, 0, 3, 0, 0, 0, 0, 0, 119.5, teterboro tower
+	
+traffic = 240
+
+climbaltitude = 1500
+
+airlines =
+	n-781pt, 2.7, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.9, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	
+entrypoints = 
+	024, SEAVY, 5000
+	344, LEMOR, 6000
+	172, TYKES, 4000
+	297, MUGZY, 6000
+	095, TEB, 4000
+	240, SBJ, 5000
+	
+[airport9]
+name = Essex County Airport, caldwell
+code = CW
+runways =
+	22_CW, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
+	28_CW, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
+	
+traffic = 720
+
+climbaltitude = 2000
+
+airlines =
+	eja, 2, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	n-744hj, 0.5, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	cns, 1, pc12/pc24, chronos
+	n-600mm, 1, pc12/tbm7/m60
+	mak1-, 1, m600, maklee one
+	mak2-, 1, m600, maklee two
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	
+entrypoints = 	
+	250, REGLE, 7000
+	293, MUGZY, 6000
+	355, SAGES, 14000
+	010, SAGES, 14000
+	044, HFD, 6000
+	
+[airport10]
+name = Essex County Airport, caldwell
+code = CW
+runways =
+	22_CWP, 22, N40.87830, W74.27846, 210, 4552, 135, 375, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
+	28_CWP, 28, N40.87815, W74.27555, 263, 3719, 550, 344, 172, 3, 0, 3, 0, 0, 0, 0, 0, 119.8, caldwell tower
+	
+traffic = 20
+
+climbaltitude = 2000
+
+airlines =
+	n-781pt, 3, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 1, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	fto, 2, c208, wagner, e
+
+sids = 
+	SBJ
+	SAX
+	BDR
+
+entrypoints = 	
+	024, SEAVY, 5000
+	344, LEMOR, 6000
+	172, TYKES, 4000
+	297, MUGZY, 6000
+	095, TEB, 4000
+	240, SBJ, 5000
+	
+[airport11]
+name = Morristown Municipal Airport, morristown
+code = MU
+runways =
+	23_MU, 23, N40.80641, W74.40647, 216, 5998, 0, 0, 183, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
+	31_MU, 31, N40.79649, W74.41134, 294, 3997, 0, 0, 181, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
+	
+traffic = 240
+
+climbaltitude = 2000
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	
+airlines =
+	lxj, 1, e55p/glf4/cl35, flexjet
+	eja, 1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	fth, 1, c750, foothills
+	cns, 1, pc12/pc24, chronos
+	n-744hj, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	gaj, 1, b350/c56x/cl35, gama jet
+	ejm, 1, glf5/cl60, jet speed
+	skq, 1, pc12, skylab
+	twy, 1, glf4/glf5/f900/cl60, twilight
+	
+entrypoints = 
+	250, REGLE, 7000
+	293, MUGZY, 6000
+	355, SAGES, 14000
+	010, SAGES, 14000
+	044, HFD, 6000
+	
+[airport12]
+name = Morristown Municipal Airport, morristown
+code = MU
+runways =
+	23_MUP, 23, N40.80641, W74.40647, 216, 5998, 0, 0, 183, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
+	31_MUP, 31, N40.79649, W74.41134, 294, 3997, 0, 0, 181, 3, 0, 3, 0, 0, 0, 0, 0, 118.1, morristown tower
+	
+traffic = 30
+
+climbaltitude = 2000
+
+sids = 
+	SBJ
+	SAX
+	BDR
+	
+airlines =
+	n-781pt, 4.5, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 1.5, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	
+entrypoints = 
+	024, SEAVY, 5000
+	344, LEMOR, 6000
+	172, TYKES, 4000
+	297, MUGZY, 6000
+	095, TEB, 4000
+	240, SBJ, 5000
+	
+[airport13]
+name = La Guardia Airport, la guardia
+code = LG
+runways =
+	04_LG, 04, N40.7692, W73.8841, 32.0, 7000, 0, 0, 22, 3, 0, 3, 0, 0, 0, 0, 0, 118.7, la guardia tower
+	13_LG, 13, N40.7823, W73.8785, 122.0, 7000, 0, 0, 13, 2.8, 0, 3, 0, 0, 0, 0, 0, 118.7, la guardia tower
+	dummy_LG, 13, S40.7823, E73.8785, 122.0, 7000, 0, 0, 13
+
+climbaltitude = 5000	
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+
+entrypoints = 
+	249, BEUTY, 11000
+	222, KORRY, 11000
+	333, PETER, 19000
+	005, VALRE, 17000
+
+traffic = 4	
+
+airlines =
+	aca, 2, bcs3/a320, air canada, n
+	jza, 2, e75s, jazz, n
+	aal, 10, b738/b38m/a319/a321, american
+	aal, 10, b738/b38m/a319/a321, american
+	aal, 2, b738/b38m/a319/a321, american
+	eny, 7.17, e145/e170/e75l, on voy
+	pdt, 7.17, e145, piedmont
+	jia, 7.17, crj7/crj9, blue streak
+	ash, 7.17, crj9, air shuttle
+	rpa, 7.17, e170/e75s/e75l, brickyard	
+	skw, 7.17, crj2/crj7/crj9/e175, skywest	
+	dal, 10, b738/b739/bcs1/bcs3/a319/a321, delta
+	dal, 10, b738/b739/bcs1/bcs3/a319/a321, delta
+	dal, 1, b738/b739/bcs1/bcs3/a319/a321, delta
+	edv, 10, crj2/crj7/crj9, endeavor
+	edv, 9, crj2/crj7/crj9, endeavor
+	rpa, 10, e170/e75s/e75l, brickyard
+	rpa, 9, e170/e75s/e75l, brickyard
+	skw, 10, crj2/crj7/crj9/e175, skywest
+	skw, 9, crj2/crj7/crj9/e175, skywest
+	fft, 5, a20n, frontier flight
+	jbu, 16, a320/e190, jet blue
+	swa, 13, b737/b37m/b738/b38m, southwest
+	nks, 10, a320/a20n/a321, spirit wings
+	ual, 4, a319/a320/b737/b38m, united
+	awi, 0.5, crj2, air wisconsin
+	uca, 0.5, e145, commutair
+	gjs, 0.5, crj5/crj7, lindbergh
+	ash, 0.5, e175, air shuttle
+	rpa, 0.5, e170/e75s/e75l, brickyard
+	skw, 0.5, crj2/crj7/crj9/e175, skywest	
+	wja, 1, b737/b738/b37m/b38m/b3xm, westjet, n
+#Private
+	fth, 0.25, c750, foothills
+	n-744hj, 0.6975, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	n-324ch, .25, b737
+	lxj, .0625, e55p/glf4/cl35, flexjet
+	gaj, .0625, b350/c56x/cl35, gama jet
+	dpj, .0625, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	eja, .0625, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet	
+	af2, .01, b752, air force two
+	med, .01, pc12/lj35/c560, lifeguard
+	flc, .01, b350, flight check
+	
+[airport14]
+name = Westchester County Airport, westchester
+code = WC
+runways =
+	11_WC, 11, N41.0671, W73.7158, 102.0, 4451, 0, 1297, 398, 3, 0, 3, 0, 0, 0, 0, 0, 118.575, westchester tower
+	16_WC, 16, N41.0756, W73.7133, 150.0, 6548, 0, 0, 439, 3, 0, 3, 0, 0, 0, 0, 0, 118.575, westchester tower
+
+climbaltitude = 3000
+
+traffic = 12
+
+airlines =
+	lxj, 1, e55p/glf4/cl35, flexjet
+	eja, 2, c680/glf4/glex/c68a/c700/cl30/cl60/e55p, execjet
+	fth, 1, c750, foothills
+	cns, 2, pc12/pc24, chronos
+	n-744hj, 2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	gaj, 2, b350, gama jet
+	ejm, 1, glf5, jet speed
+	edv, 1, crj9, endeavor, e
+	awi, 1, crj2, air wisconsin, n
+	jia, 1, crj7, bluestreak, e
+	skw, 1, crj2/crj7, skywest
+	cwg, 1, e35l, clear wing
+	jbu, 2, a320/e190, jetblue	
+	mxy, 1, bcs3/e195, moxy
+	jsx, 1, e145, big stripe
+
+sids =
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	NYACK, N41°07.49', W73°59.22', nyack
+
+entrypoints = 
+	203, BOUNO, 17000
+	190, BOUNO, 17000
+	328, WEETS, 7000
+	359, WIGAN, 7000
+	024, VEERS, 7000
+
+[airport15]
+name = Westchester County Airport, westchester
+code = WC
+runways =
+	11_WCP, 11, N41.0671, W73.7158, 102.0, 4451, 0, 1297, 398, 3, 0, 3, 0, 0, 0, 0, 0, 118.575, westchester tower
+	16_WCP, 16, N41.0756, W73.7133, 150.0, 6548, 0, 0, 439, 3, 0, 3, 0, 0, 0, 0, 0, 118.575, westchester tower
+
+climbaltitude = 3000
+
+traffic = 60
+
+airlines =
+	kap, 1, c402/p212, care, ne
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+
+sids = 
+	DPK
+	SAX
+	BDR
+	SBJ
+
+entrypoints = 
+	004, NOBBI, 6000
+	000, VALRE, 3000
+	055, ALIXX, 4000 
+	
+[airport16]
+name = Danbury Municipal Airport, danbury
+code = DB
+runways =
+	08_DB, 08, N41.36906, W73.48949, 70.0, 4421, 367, 734, 456.6, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
+	17_DB, 17, N41.37587, W73.48297, 153.0, 3135, 223, 231, 451.5, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
+
+climbaltitude = 2000
+
+traffic = 720
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	SHIPP, N40.19.36.719, W73.14.37.735, Ship
+	WAVEY, N40.13.54.416, W73.23.26.364, Wavy
+	DIXIE, N40.05.44.492, W74.09.37.077, Dixie
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BAYYS, N41.17.11.556, W72.57.59.176, Bays
+	NYACK, N41°07.49', W73°59.22', nyack
+	
+airlines =
+	n-744hj, 2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	rli, 1, c25b/b350, reliant air
+
+entrypoints = 
+	128, DUNEE, 9000
+	328, WEETS, 7000
+	359, WIGAN, 7000
+	024, VEERS, 7000
+	
+[airport17]
+name = Danbury Municipal Airport, danbury
+code = DB
+runways =
+	08_DBP, 08, N41.36906, W73.48949, 70.0, 4421, 367, 734, 456.6, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
+	17_DBP, 17, N41.37587, W73.48297, 153.0, 3135, 223, 231, 451.5, 3, 0, 3, 0, 0, 0, 0, 0, 119.4, danbury tower
+
+traffic = 30
+
+climbaltitude = 2000
+
+sids = 
+	DPK
+	SAX
+	BDR
+	SBJ
+
+airlines =
+	n-781pt, 0.675, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+	n-12345, 0.225, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40/pc12
+
+entrypoints = 
+	004, NOBBI, 6000
+	000, VALRE, 3000
+	055, ALIXX, 4000 
+	
+[airport18]
+name = Long Island Mac Arthur Airport, long island
+code = LI
+runways =
+	24_LI, 24, N40.80220, W73.09461, 225, 7006, 0, 0, 92.3
+	33L_LI, 33L, N40.79220, W73.09414, 315, 5186, 0, 0, 78.5
+	33R_LI, 33R, N40.79287, W73.09027, 315, 3175, 0, 0, 81.4
+	
+entrypoints = 
+	128, SARDI, 7000
+	059, WANDI, 11000
+	078, ARCAV, 10000
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BEADS, N40°44.08', W 072°32.57', beads
+
+climbaltitude = 3000
+
+traffic = 90
+
+airlines =
+	swa, 10, b737, southwest, sw
+	fft, 5, a20n, frontier flight, s
+	mxy, 2, e190, moxy, s
+	pdt, 2, e145, piedmont, w
+	n-744hj, 0.5, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	eja, 0.25, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	cns, 0.25, pc12/pc24, chronos
+	dpj, 0.25, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	jas, 0.25, glex, jet setter
+
+[airport19]
+name = Long Island Mac Arthur Airport, long island
+code = LI
+runways =
+	24_LIP, 24, N40.80220, W73.09461, 225, 7006, 0, 0, 92.3
+	33L_LIP, 33L, N40.79220, W73.09414, 315, 5186, 0, 0, 78.5
+	33R_LIP, 33R, N40.79287, W73.09027, 315, 3175, 0, 0, 81.4	
+
+entrypoints = 
+	338, LOVES, 6000
+	283, BDR, 5000
+	319, CREAM, 5000
+	048, CREAM, 4000
+	010, SEALL, 4000
+
+[airport20]
+name = Igor I Sikorsky Memorial Airport, bridgeport
+code = BP
+runways =
+	29_BP, 29, N41.16446717943694, W73.11784086191919, 278, 4759, 364, 0, 6.5
+	24_BP, 24, N41.16613280211594, W73.11995240342547, 225, 4677, 320, 0, 6.7
+	
+entrypoints = 
+	128, RICED, 9000
+	078, ARCAV, 8000
+	333, PETER, 17000
+	359, ATHOS, 7000
+
+traffic = 720
+	
+climbaltitude = 2000
+	
+airlines =
+	n-744hj, 2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	eja, 0.25, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	ecj, 0.25, h25b, eastcoast jet
+	ejm, 0.25, glf5/cl60, jet speed
+	cns, 0.5, pc12/pc24, chronos
+	dpj, 0.25, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	twy, 0.25, f900, twilight
+	
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BEADS, N40°44.08', W 072°32.57', beads
+	SOARS, N41°30.70', W73°16.30', soars
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+	
+[airport21]
+name = Igor I Sikorsky Memorial Airport, bridgeport
+code = BP
+runways =
+	29_BPP, 29, N41.16446717943694, W73.11784086191919, 278, 4759, 364, 0, 6.5
+	24_BPP, 24, N41.16613280211594, W73.11995240342547, 225, 4677, 320, 0, 6.7
+	
+entrypoints = 
+	338, LOVES, 6000
+	283, BDR, 5000
+	319, CREAM, 5000
+	048, CREAM, 4000
+	010, SEALL, 4000
+	
+sids = 
+	SAX
+	CMK
+	HUO
+	BDR
+	MAD
+	HTO
+	DPK
+	JFK
+	SBJ
+	BWZ
+
+climbaltitude = 2000
+
+airlines =
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	pgn, 0.5, c208, perergine
+	
+[airport22]
+name = Tweed-New Haven Airport, new haven
+code = NH
+runways =
+	20_NH, 20, N41.27141151239538, W72.88721867998521, 183, 5600, 352, 0, 12.6
+	
+entrypoints = 
+	128, RICED, 9000
+	078, ARCAV, 8000
+	333, PETER, 17000
+	359, ATHOS, 7000
+	
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays0
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BEADS, N40°44.08', W 072°32.57', beads
+	SOARS, N41°30.70', W73°16.30', soars
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+
+climbaltitude = 2000
+
+traffic = 60
+
+airlines =
+	vxp, 1, b737, avelo, s
+	n-744hj, 0.2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	cns, 0.2, pc12/pc24, chronos
+	eja, 0.2, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	dpj, 0.2, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	ejm, 0.2, glf5/cl60, jet speed
+	
+[airport23]
+name = Tweed-New Haven Airport, new haven
+code = NH
+runways =
+	20_NHP, 20, N41.27141151239538, W72.88721867998521, 183, 5600, 352, 0, 12.6	
+	
+entrypoints = 
+	338, LOVES, 6000
+	283, BDR, 5000
+	319, CREAM, 5000
+	048, CREAM, 4000
+	010, SEALL, 4000
+	
+sids = 
+	SAX
+	CMK
+	HUO
+	BDR
+	MAD
+	HTO
+	DPK
+	JFK
+	SBJ
+	BWZ
+
+traffic = 60
+
+climbaltitude = 2000
+
+airlines =
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	
+[airport24]
+name = Waterbury-Oxford Airport, oxford
+code = WO
+runways =
+	36_WO, 36, N41.48614556009206, W73.13688521068644, 351, 5801, 500, 0, 680.1
+	
+	
+traffic = 720
+	
+entrypoints = 
+	128, RICED, 9000
+	078, ARCAV, 8000
+	333, PETER, 17000
+	359, ATHOS, 7000
+		
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BEADS, N40°44.08', W 072°32.57', beads
+	SOARS, N41°30.70', W73°16.30', soars
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+
+climbaltitude = 2000
+
+airlines =
+	n-744hj, 2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	eja, 0.1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	ejm, 0.1, glf5/cl60, jet speed
+	dpj, 0.1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	cns, 0.5, pc12/pc24, chronos
+	gpd, 1, pc12, goodspeed, n	
+	
+[airport25]
+name = Waterbury-Oxford Airport, oxford
+code = WO
+runways =
+	36_WOP, 36, N41.48614556009206, W73.13688521068644, 351, 5801, 500, 0, 680.1
+	
+entrypoints = 
+	338, LOVES, 6000
+	283, BDR, 5000
+	319, CREAM, 5000
+	048, CREAM, 4000
+	010, SEALL, 4000
+	
+sids = 
+	SAX
+	CMK
+	HUO
+	BDR
+	MAD
+	HTO
+	DPK
+	JFK
+	SBJ
+	BWZ
+	
+climbaltitude = 2000
+	
+airlines =
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	
+[airport26]
+name = Francis S. Gabreski Airport, suffolk county
+code = FG
+runways =
+	24_FG, 24, N40.854448739409555, W72.61703855001144, 223, 9002, 0, 0, 66.1
+	19_FG, 19, N40.848639382194975, W72.63777221904306, 177, 5100, 0, 0, 64.2
+	33_FG, 33, N41.16613280211594, W-73.11995240342547, 313, 5002, 0, 0, 48.1
+
+entrypoints = 
+	128, SARDI, 7000
+	059, WANDI, 11000
+	078, ARCAV, 6000
+
+traffic = 720
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BEADS, N40°44.08', W 072°32.57', beads
+	SOARS, N41°30.70', W73°16.30', soars
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+
+climbaltitude = 2000
+
+traffic = 720
+
+airlines =
+	n-744hj, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	eja, 3, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	ejm, 1, glf5/cl60, jet speed
+	cns, 1, pc12/pc24, chronos
+	twy, 1, f900, twilight
+	jas, 1, glex, jet setter
+	USAF-111, 0.25, c130, u s air force
+	af1-, 0.05, b742, air force one 
+	
+[airport27]
+name = Francis S. Gabreski Airport, suffolk county
+code = FG
+runways =
+	24_FGP, 24, N40.854448739409555, W72.61703855001144, 223, 9002, 0, 0, 66.1
+	19_FGP, 19, N40.848639382194975, W72.63777221904306, 177, 5100, 0, 0, 64.2
+	33_FGP, 33, N41.16613280211594, W-73.11995240342547, 313, 5002, 0, 0, 48.1
+	
+entrypoints = 
+	338, LOVES, 6000
+	283, BDR, 5000
+	319, CREAM, 5000
+	048, CREAM, 4000
+	010, SEALL, 4000
+
+sids = 
+	SAX
+	CMK
+	HUO
+	BDR
+	MAD
+	HTO
+	DPK
+	JFK
+	SBJ
+	BWZ
+
+climbaltitude = 2000
+	
+airlines =
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	fto, 0.25, c208, wagner, w	
+	
+[airport28]
+name = Town of East Hampton Airport, east hampton
+code = EH
+runways =
+	28_EH, 28, N40.95910987198505, W72.244906941516, 269, 4225, 0, 0, 30.2
+	34_EH, 34, N40.95762710700328, W72.2476106712547, 329, 2060, 0, 0, 29.8
+
+entrypoints = 
+	128, SARDI, 7000
+	059, WANDI, 11000
+	078, ARCAV, 6000
+
+traffic = 720
+
+sids = 
+	GREKI, N41.480008, W73.314161, Greki
+	MERIT, N41.381950, W73.137431, Merit
+	WHITE, N40.00.24.320, W74.15.04.61, White
+	COATE, N41.07.59.025, W74.41.27.998, Coat
+	NEION, N41.13.30.755, W74.34.33.442, Neon
+	HAAYS, N41.19.01.596, W74.27.43.902, Hays
+	GAYEL, N41.24.13.828, W74.21.09.686, Gail
+	BEADS, N40°44.08', W 072°32.57', beads
+	SOARS, N41°30.70', W73°16.30', soars
+	BIGGY, N40.25.10.620, W74.58.21.730, Biggy
+	LANNA, N40.33.35.070, W75.01.39.810, Lana
+	PARKE, N40.40.59.460, W75.04.35.320, Park
+	ZIMMZ, N40.48.11.000, W75.07.25.000, Zimms
+	NEWEL, N40.55.19.000, W75.10.15.000, New el
+
+climbaltitude = 2000
+
+airlines =
+	n-744hj, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	eja, 1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	cns, 1, pc12/pc24, chronos
+	lxj, 1, e55p/glf4/cl35, flexjet
+	rli, 1, c25b/b350, reliant air, n
+	gpd, 1, pc12, goodspeed, n
+	
+[airport29]
+name = Town of East Hampton Airport, east hampton
+code = EH
+runways =
+	28_EHP, 28, N40.95910987198505, W72.244906941516, 269, 4225, 0, 0, 30.2
+	34_EHP, 34, N40.95762710700328, W72.2476106712547, 329, 2060, 0, 0, 29.8
+
+entrypoints = 
+	338, LOVES, 6000
+	283, BDR, 5000
+	319, CREAM, 5000
+	048, CREAM, 4000
+	010, SEALL, 4000
+
+sids = 
+	SAX
+	CMK
+	HUO
+	BDR
+	MAD
+	HTO
+	DPK
+	JFK
+	SBJ
+	BWZ
+
+climbaltitude = 2000
+	
+airlines =
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	fto, 0.5, c208, wagner, w
+	pgn, 0.5, c208, pegerine
+	
+[airport30]
+name = New York Stewart International Airport, stewart
+code = SW
+runways =
+	09_SW, 9, N41.5008, W74.1305, 78.3, 11818, 2000, 0, 482
+	16_SW, 16, N41.5111, W74.1018, 149.5, 6006, 0, 0, 471
+
+climbaltitude = 3000
+
+entrypoints =
+	327, DNY, 7000
+	359, TRESA, 4000
+	032, BRISS, 12000
+	310, RAGER, 5000
+
+sids = 
+	HNK
+	WEARD, 41°45.73'N, 74°31.50'W
+	LANNA
+	BIGGY
+	SBJ
+	COL
+	WHITE
+	HFD
+	IGN
+	PWL
+	STUBY, N41°54.13', W73°26.23', stew bee
+	
+traffic = 60
+	
+airlines =
+	aay, 1, a319/a320, allegiant, ew
+	fft, 1, a20n, frontier flight, ew
+	fpy, 1, a20n/a21n, player, n
+	fdx, 1, a306/md11/b77l/b763/b752, fed ex, w
+	ups, 1, md11/b763, u p s, w
+	cks, 1, b744, connie, w
+	eja, 1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	cns, 1, pc12/pc24, chronos
+	n-744hj, 2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	dpj, 0.5, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	gaj, 0.5, b350/c56x/cl35, gama jet
+	twy, 0.25, f900/cl60, twilight
+	ejm, 1, glf5/cl60, jet speed
+	wal, 0.5, md83, doral
+	sam, 0.5, b737/b757/b742/glf4/gl5/lj35, special air mission
+	af1-, .1, b742, air force one
+	adb, .1, a225, antonov bureau
+	med, .1, pc12/lj35/c560, lifeguard
+	flc, .1, b350, flight check
+	USAF-111, 1, c130/c17, u s air force
+	
+[airport31]
+name = New York Stewart International Airport, stewart
+code = SW
+runways =
+	09_SWP, 9, N41.5008, W74.1305, 78.3, 11818, 2000, 0, 482
+	16_SWP, 16, N41.5111, W74.1018, 149.5, 6006, 0, 0, 471
+
+climbaltitude = 2000
+
+entrypoints =
+	338, MANEE
+	
+sids = 
+	HUO
+	COATL
+	VALRE
+	LOVES
+	BRISS
+	HIDAL, N42°15.84', W73°29.89', hi doll
+		
+[airport32]
+name = Hudson Valley Regional Airport, DUTCHESS COUNTY 
+code = DC
+runways =
+	06_DC, 6, N41.62194121119888, W73.89197717827106, 051, 5001, 0, 115, 154.8
+	15_DC, 15, N41.630219153839555, W73.88514751192164, 139, 2744, 0, 0, 155.6
+
+traffic = 720
+
+entrypoints =
+	327, DNY, 7000
+	359, TRESA, 4000
+	032, BRISS, 12000
+	310, RAGER, 5000
+
+sids = 
+	HNK
+	WEARD, 41°45.73'N, 74°31.50'W
+	LANNA
+	BIGGY
+	SBJ
+	COL
+	WHITE
+	HFD
+	IGN
+	PWL
+	STUBY, N41°54.13', W73°26.23', stew bee
+	MOONI, N41°37.89', W73°19.32', moon knee
+
+airlines =
+	eja, 1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	dpj, 0.25, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	cns, 1, pc12/pc24, chronos
+
+
+[airport33]
+name = Hudson Valley Regional Airport, DUTCHESS COUNTY 
+code = DC
+runways =
+	06_DCP, 6, N41.62194121119888, W73.89197717827106, 051, 5001, 0, 115, 154.8
+	15_DCP, 15, N41.630219153839555, W73.88514751192164, 139, 2744, 0, 0, 155.6
+
+sids = 
+	HUO
+	COATL
+	VALRE
+	LOVES
+	BRISS
+	HIDAL, N42°15.84', W73°29.89', hi doll
+	
+airlines =
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+
+[airport34]
+name = Orange County Airport, orange county
+code = OC
+runways =
+	04_OC, 4, N41.50805715298006, W74.268168965682, 022, 5006, 0, 0, 335, 3, 0, 3, 0, 0, 0, 0, 0, 122.725, orange county traffic
+	08_OC, 8, N41.506271224744694, W74.26805260143591, 066, 3664, 0, 0, 352, 3, 068.4, 3, 0, 0, 0, 0, 0, 122.725, orange county traffic
+
+traffic = 720
+
+entrypoints =
+	327, DNY, 7000
+	359, TRESA, 4000
+	310, RAGER, 5000
+	
+sids = 
+	HNK
+	WEARD, 41°45.73'N, 74°31.50'W
+	LANNA
+	BIGGY
+	SBJ
+	COL
+	WHITE
+	HFD
+	IGN
+	PWL
+	STUBY, N41°54.13', W73°26.23', stew bee
+	
+airlines =
+	eja, 1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	cns, 1, pc12/pc24, chronos
+	
+[airport35]
+name = Orange County Airport, orange county
+code = OC
+runways =
+	04_OCP, 4, N41.50805715298006, W74.268168965682, 022, 5006, 0, 0, 335, 3, 0, 3, 0, 0, 0, 0, 0, 122.725, orange county traffic
+	08_OCP, 8, N41.506271224744694, W74.26805260143591, 066, 3664, 0, 0, 352, 3,  068.4, 3, 0, 0, 0, 0, 0, 122.725, orange county traffic
+
+sids = 
+	HUO
+	COATL
+	VALRE
+	LOVES
+	BRISS
+	HIDAL, N42°15.84', W73°29.89', hi doll
+	
+airlines =
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	
+[airport36]
+name = Sullivan County International Airport, sullivan county
+code = SC
+runways =
+	15_SC, 15, N41.70856095284768, W74.801966883415, 143, 6298, 298, 300, 1380, 3, 0, 3, 0, 0, 0, 0, 0, 122.8, sullivan county traffic
+
+traffic = 720
+
+entrypoints =
+	327, DNY, 7000
+	359, TRESA, 4000
+	310, RAGER, 5000
+	
+sids = 
+	HNK
+	WEARD, 41°45.73'N, 74°31.50'W
+	LANNA
+	BIGGY
+	SBJ
+	COL
+	WHITE
+	HFD
+	IGN
+	PWL
+	STUBY, N41°54.13', W73°26.23', stew bee
+	
+airlines =
+	eja, 1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	cns, 1, pc12/pc24, chronos	
+	
+[airport37]
+name = Sullivan County International Airport, sullivan county
+code = SC
+runways =
+	15_SCP, 15, N41.70856095284768, W74.801966883415, 143, 6298, 298, 300, 1380, 3, 0, 3, 0, JIBOT, 11.5, 0, 0, 122.8, sullivan county traffic
+
+sids = 
+	HUO
+	COATL
+	VALRE
+	LOVES
+	BRISS
+	HIDAL, N42°15.84', W73°29.89', hi doll
+
+airlines =
+	n-781pt, 0.75, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+	n-12345, 0.25, c152/c172/c182/be36/be55/m20p/p28a/p28b/pa34/sr20/sr22/da20/da40
+
+#######
+#Areas#
+#######
+###KFRG Delta
+[area1]
+shape = circle		; circle or polygon
+altitude = 2600		; minimum allowed altitude in feet
+name = RP
+radius = 5.3		; radius of circle in NM
+position = N40.7292744, W73.4134206	; position of circle center
+labelpos = N40.727, W73.480	; <position of label>
+draw = 0.436332, 3.14159		; <start and end angle of visible arc, in radians (orientated to the left), omit for a full circle>	
+
+[area2]
+shape = circle		; circle or polygon
+altitude = 2600		; minimum allowed altitude in feet
+name = RP
+radius = 4.2		; radius of circle in NM
+position = N40.7292744, W73.4134206	; position of circle center
+labelpos = N40.727, W73.480	; <position of label>
+draw = -3.14159, 0.436332		; <start and end angle of visible arc, in radians (orientated to the left), omit for a full circle>	
+
+[area3]
+shape = polygon		; circle or polygon
+altitude = 2600		; minimum allowed altitude in feet
+name = RP
+labelpos =  N40.727, W73.480
+points =
+    N40.772, W73.350,
+    N40.786, W73.337
+
+[area4]
+shape = polygon		; circle or polygon
+altitude = 2600		; minimum allowed altitude in feet
+name = RP
+labelpos =  N40.727, W73.480
+points =
+    N40.713, W73.528,
+    N40.716, W73.504
+
+###WRI Airspace
+[area5]
+shape = polygon		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = WRI
+labelpos =  N40.300, W74.215
+draw = 2
+points =
+    N40.15421, W73.99997,
+    N40.19181, W74.02218,
+    N40.27295, W73.97470,
+    N40.32096, W73.99434,
+    N40.35413, W74.05857,
+    N40.37241, W74.05792,
+    N40.38154, W74.05878,
+    N40.39101, W74.06053,
+    N40.40041, W74.06314,
+    N40.40968, W74.06661,
+    N40.42213, W74.07284,
+    N40.42817, W74.07645,
+    N40.43269, W74.08124,	
+    N40.42489, W74.08773,
+    N40.38402, W74.18735,
+    N40.24996, W74.33295
+[area6]
+shape = polygon		; circle or polygon
+altitude = 7000		; minimum allowed altitude in feet
+name = WRI
+labelpos =  N40.179, W74.649
+draw = 5
+points =
+    N40.225, W74.728,
+    N40.24637, W74.70729,
+    N40.25502, W74.66501,
+    N40.26432, W74.61938,
+    N40.26908, W74.59596,
+    N40.26927, W74.59489,
+    N40.29305, W74.47779,
+    N40.27507, W74.43011,
+    N40.26252, W74.39720,
+    N40.22145, W74.36577,
+    N40.14436, W74.45269,
+    N40.02031, W74.63139,
+    N40.12114, W74.72465,
+    N40.13893, W74.75835
+	
+[area7]
+shape = polygon		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = WRI
+labelpos =  N40.362, W74.334
+draw = 0
+points =
+    N40.34313, W74.40834,
+    N40.34513, W74.40512,
+    N40.36716, W74.36747,
+    N40.46161, W74.20115,
+    N40.47558, W74.17045,
+    N40.40752, W74.13015,
+    N40.38400, W74.18734,
+    N40.30675, W74.26762,
+    N40.22145, W74.36577,
+    N40.26252, W74.39720,
+    N40.27507, W74.43011,
+    N40.32282, W74.41127,
+    N40.33359, W74.40702,
+    N40.34310, W74.4083,	
+[area8]
+shape = polygon		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = WRI
+labelpos =  N40.308, W74.455
+draw = 1
+points =
+    N40.29305, W74.47779,
+    N40.33056, W74.43330,
+    N40.34313, W74.40834,
+    N40.33359, W74.40702,
+    N40.27507, W74.43011
+
+###PHL Airspace
+[area9]
+shape = polygon		; circle or polygon
+altitude = 5000		; minimum allowed altitude in feet
+name = PHL
+labelpos =  N40.383, W74.952
+draw = 5
+points =
+    N40.48331, W75.06656,
+	N40.40135, W74.87645
+    N40.35695, W74.79158,
+    N40.34162, W74.70408,
+    N40.26432, W74.61938,
+    N40.25502, W74.66501,
+    N40.26328, W74.69305,
+	N40.225, W74.728,
+    N40.33721, W74.94390,
+    N40.34164, W74.95703
+[area10]
+shape = polygon		; circle or polygon
+altitude = 6000		; minimum allowed altitude in feet
+name = PHL
+labelpos =  N40.260, W74.696
+draw = 1
+points =
+    N40.24637, W74.70729,
+    N40.26328, W74.69305,
+    N40.25502, W74.66501
+##AVP Airspace
+[area11]
+shape = polygon		; circle or polygon
+altitude = 5000		; minimum allowed altitude in feet
+name = AVP
+labelpos =  N41.217, W74.875
+draw = 2
+points =
+    N41.11388, W74.86385,
+    N41.22295, W74.71826,
+    N41.24533, W74.75556
+    N41.30288, W74.85133,
+    N41.19159, W74.99187,
+
+###ABE Airspace
+[area12]
+shape = polygon		; circle or polygon
+altitude = 5000		; minimum allowed altitude in feet
+name = ABE
+labelpos =  N40.537, W75.071
+draw = 5
+points =
+    N40.67915, W74.96994,
+    N40.67087, W74.92696,
+    N40.51393, W74.97362,
+    N40.49085, W75.00464,
+    N40.48331, W75.06656,
+    N40.52507, W75.10691,
+    N40.62997, W74.97073,
+    N40.64252, W74.97027,
+    N40.67668, W74.97001	
+[area13]
+shape = polygon		; circle or polygon
+altitude = 6000		; minimum allowed altitude in feet
+name = ABE
+labelpos =  N40.813, W74.972
+draw = 5
+points =
+    N40.952, W74.985,
+    N40.94344, W74.94157,
+    N40.67087, W74.92696,
+    N40.67087, W74.92696,
+    N40.67915, W74.96994,
+    N40.67917, W74.96994,
+    N40.74425, W74.97780,
+    N40.88975, W74.98335
+###ZNY
+[area14]
+shape = polygon
+altitude = 4000
+labelpos = N40.5, W72.9522
+name = ZNY
+points =
+	N40.6579, W72.4906
+	N40.2804, W72.9600
+	N40.4020, W73.2285
+	N40.5315, W73.0595
+	N40.5531, W73.0410
+	
+### MVAs & Terrain
+[area15]
+shape = polygon
+altitude = 5700
+labelpos = N42.0996, W74.4469
+name = MVA
+points =
+	N42.0517, W74.0062
+	N41.9111, W74.4747
+	N41.9225, W74.6681
+	N42.1674, W74.6481
+	N42.2017, W74.2864
+	N42.1672, W73.9797
+
+[area16]
+shape = polygon
+altitude = 2600
+labelpos = N41.7567, W74.2855
+name = TERRAIN!
+points =
+	N41.7429, W74.3533
+	N41.6744, W74.3348
+	N41.7250, W74.1671
+	N41.7649, W74.1908
+	N41.7719, W74.2971
+	
+### KTEB Delta
+[area17]
+shape = circle		; circle or polygon
+altitude = 1800		; minimum allowed altitude in feet
+name = TB		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 4		; radius of circle in NM
+position = N40.8501111, W74.0608333	; position of circle center
+labelpos = N40.859, W74.092	; <position of label>
+### KCDW Delta
+[area18]
+shape = circle		; circle or polygon
+altitude = 2700		; minimum allowed altitude in feet
+name = CW		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 4		; radius of circle in NM
+position = N40.8752247, W74.2813503	; position of circle center
+labelpos = N40.862, W74.255	; <position of label>
+draw = -2.41, 3.25		; <start and end angle of visible arc, in radians (orientated to the left), omit for a full circle>
+
+### KMMU Delta
+[area19]
+shape = circle		; circle or polygon
+altitude = 2700		; minimum allowed altitude in feet
+name = MU		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 4		; radius of circle in NM
+position = N40.7993383, W74.4148886	; position of circle center
+labelpos = N40.832, W74.427	; <position of label>
+### KHPN Delta
+[area20]
+shape = circle		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = WC		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 4		; radius of circle in NM
+position = N41.0669531, W73.7075661	; position of circle center
+labelpos = N41.085, W73.781	; <position of label>
+### KDXR Delta
+[area21]
+shape = circle		; circle or polygon
+altitude = 3000		; minimum allowed altitude in feet
+name = DB		; <name, if omited then only planes inbound the main airport may enter this area>
+radius = 6		; radius of circle in NM
+position = N41.3715344, W73.4821894	; position of circle center
+labelpos = 22.33, 33.44	; <position of label>
+### KBDR Delta
+[area22]
+shape = circle
+altitude = 2500
+name = BP
+radius = 5
+labelpos = N41.2111, W73.1931
+position = N41.1634808, W73.1261758
+draw = -3.2,1.35
+	
+[area23]
+shape = circle
+altitude = 2500
+name = BP
+radius = 7
+labelpos = N0, W0
+position = N41.1634808, W73.1261758
+draw = 1.33,3.12
+
+[area24]
+shape = polygon
+altitude = 0
+labelpos = N0, W0
+draw = 1
+points =
+	N41.2464, W73.1253
+	N41.2802, W73.1247
+	
+[area25]
+shape = polygon
+altitude = 0
+labelpos = N0, W0
+draw = 1
+points =
+	N41.1437, W73.2779
+	N41.1488, W73.2342
+### KHVN Delta
+[area26]
+shape = circle
+altitude = 2500
+name = NH
+radius = 5
+labelpos = N41.2827, W72.8355
+position = N41.2637494, W72.8868006
+
+### KOKC Delta
+[area27]
+shape = circle
+altitude = 3200
+name = WO
+radius = 5
+labelpos = N41.4968, W73.2084
+position = N41°28.70',	W73°08.11'
+### KFOK Delta
+[area28]
+shape = circle
+altitude = 2600
+name = SC
+radius = 5
+labelpos = N40.8702, W72.7146
+position = N40.8436186, W72.6318119
+
+### KJPX Delta
+[area29]
+shape = circle
+altitude = 2000
+name = EH
+radius = 4
+labelpos = N41.0000, W72.2780
+position = N40°57.57', W72°15.10'
+### KJSD Delta
+[area30]
+shape = circle
+altitude = 2500
+name = JSD
+radius = 4
+labelpos = N41.2852, W73.0727
+position = N41.2473333, W73.0977611
+draw = -0.94, 2.55
+
+### KSWF Delta
+[area31]
+shape = circle
+altitude = 3000
+name = SW
+radius = 5
+labelpos = N41.5487, W74.1515
+position = N41.5041111, W74.1048333
+
+### KPOU Delta
+[area32]
+shape = circle
+altitude = 2700
+name = DC
+radius = 4
+labelpos = N41.6674, W73.9256
+position = N41.6265833, W73.8841944
+
+### R-5206
+[area33]
+shape = polygon		; circle or polygon
+altitude = 5000		; minimum allowed altitude in feet
+name = R-5206
+labelpos = N41.3651, W74.0183
+points =
+	41°23'08''N, 73°59'59''W
+	41°23'08''N, 73°59'41''W
+	41°22'32''N, 73°58'57''W
+	41°22'18''N, 73°58'57''W
+	41°20'04''N, 74°00'41''W
+	41°21'24''N, 74°02'37''W
+	
+### NYC
+[area34]
+shape = polygon		; circle or polygon
+altitude = 2900		; minimum allowed altitude in feet
+name = NYC
+labelpos =  N40.750, W74
+points =
+    N40.702, W74.020,
+	N40.761, W74.009
+	N40.765, W73.950,
+	N40.710, W73.972,
+	N40.699, W74.013
+	
+###KJFK Jet Arrivals
+#CAMRN4 Arrival
+[approach1]
+runway = dummy_JK
+beacon = CAMRN
+route1 =
+	123, CAMRN4, cameron four
+	N40.0173, W73.86106, 11000, 250
+	end, 041
+
+[approach2]
+runway = dummy_JK, rev
+beacon = CAMRN
+route1 =
+	123, CAMRN4, cameron four
+	N40.0173, W73.86106, 11000, 250
+	end, 041
+
+#IGN1/LENDY Arrival
+[approach3]
+runway = dummy_JK
+beacon = HARTY
+route1 =
+	170, LENDY7, lendy seven
+	41°04.27'N, 75°05.39'W, 21000
+	N40.99580, W74.86900
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach4]
+runway = dummy_JK, rev
+beacon = HARTY
+route1 =
+	170, LENDY7, lendy seven
+	41°04.27'N, 75°05.39'W, 21000
+	N40.99580, W74.86900
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach5]
+runway = dummy_JK
+beacon = LENDY
+route1 =
+	170, LENDY7, lendy seven
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach6]
+runway = dummy_JK, rev
+beacon = LENDY
+route1 =
+	170, LENDY7, lendy seven
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+#IGN1 Arrival
+[approach7]
+runway = dummy_JK
+beacon = PRNCE
+route1 =
+	170, IGN1, Kingston one
+	41°58.41'N, 74°28.20'W
+	N41.66550, W73.82230
+	41°23.13'N, 74°03.81'W
+	41°01.69'N, 74°22.06'W
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach8]
+runway = dummy_JK, rev
+beacon = PRNCE
+route1 =
+	170, IGN1, Kingston one
+	41°58.41'N, 74°28.20'W
+	N41.66550, W73.82230
+	41°23.13'N, 74°03.81'W
+	41°01.69'N, 74°22.06'W
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+#ROBER2/PARCH3 Arrival
+[approach9]
+runway = dummy_JK
+beacon = PARCH
+route1 =
+	170, PARCH3, parch three
+	41°05.95'N, 72°07.24'W
+	N40.92960, W72.79890, 12000, 250
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	N40.37.58.40, W073.46.17.00
+	end, 278	
+
+[approach10]
+runway = dummy_JK, rev
+beacon = PARCH
+route1 =
+	170, PARCH3, parch three
+	41°05.95'N, 72°07.24'W
+	N40.92960, W72.79890, 12000, 250
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	40°41.22'N, 73°20.60'W,
+	40°45.63'N, 73°37.82'W,
+	end, 302
+
+[approach11]
+runway = dummy_JK
+beacon = ROBER
+route1 =
+	170, PARCH3, parch three
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	N40.37.58.40, W073.46.17.00
+	end, 278
+	
+[approach12]
+runway = dummy_JK, rev
+beacon = ROBER
+route1 =
+	170, PARCH3, parch three
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	40°41.22'N, 73°20.60'W,
+	40°45.63'N, 73°37.82'W,
+	end, 302
+
+#13L RNAV
+[approach13]
+runway = 13L_JK
+beacon = ASALT, N40.31.39.32, W073.57.50.18
+route1 =
+	170, RNAV,	arnaav  
+	N40.31.39.32, W073.57.50.18, 3000, 200
+	N40.37.20.73, W073.53.12.89, 2000
+	N40.6566667, W73.861, 1246
+	N40.6671667, W73.8363333, 835
+	1.2, 456, 160
+	
+#13R RNAV
+[approach14]
+runway = 13R_JK
+beacon = ASALT, N40.31.39.32, W073.57.50.18
+route1 =
+	170, RNAV,	arnaav  
+	N40.31.39.32, W073.57.50.18, 3000, 200
+	N40.604, W73.902, 2000
+	N40.6525, W73.8641667, 921
+	1.4, 520, 160
+
+###KJFK Prop Arrivals
+#13L RNAV
+[approach15]
+runway = 13L_JKP
+beacon = ASALT, N40.31.39.32, W073.57.50.18
+route1 =
+	170, RNAV,	arnaav  
+	N40.31.39.32, W073.57.50.18, 3000, 200
+	N40.37.20.73, W073.53.12.89, 2000
+	N40.6566667, W73.861, 1246
+	N40.6671667, W73.8363333, 835
+	1.2, 456, 160
+	
+#13R RNAV
+[approach16]
+runway = 13R_JKP
+beacon = ASALT, N40.31.39.32, W073.57.50.18
+route1 =
+	170, RNAV,	arnaav  
+	N40.31.39.32, W073.57.50.18, 3000, 200
+	N40.604, W73.902, 2000
+	N40.6525, W73.8641667, 921
+	1.4, 520, 160
+	
+###KFRG Jet Arrivals
+#CAMRN4 Arrival
+[approach17]
+runway = 14_RP
+beacon = CAMRN
+route1 =
+	123, CAMRN4, cameron four
+	N40.0173, W73.86106, 11000, 250
+	end, 041
+
+[approach18]
+runway = 14_RP, rev
+beacon = CAMRN
+route1 =
+	123, CAMRN4, cameron four
+	N40.0173, W73.86106, 11000, 250
+	end, 041
+
+[approach19]
+runway = 01_RP
+beacon = CAMRN
+route1 =
+	123, CAMRN4, cameron four
+	N40.0173, W73.86106, 11000, 250
+	end, 041
+
+[approach20]
+runway = 01_RP, rev
+beacon = CAMRN
+route1 =
+	123, CAMRN4, cameron four
+	N40.0173, W73.86106, 11000, 250
+	end, 041
+
+#IGN1/LENDY Arrival
+[approach21]
+runway = 14_RP
+beacon = HARTY
+route1 =
+	170, LENDY7, lendy seven
+	41°04.27'N, 75°05.39'W, 21000
+	N40.99580, W74.86900
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach22]
+runway = 14_RP, rev
+beacon = HARTY
+route1 =
+	170, LENDY7, lendy seven
+	41°04.27'N, 75°05.39'W, 21000
+	N40.99580, W74.86900
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+	
+[approach23]
+runway = 01_RP
+beacon = HARTY
+route1 =
+	170, LENDY7, lendy seven
+	41°04.27'N, 75°05.39'W, 21000
+	N40.99580, W74.86900
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach24]
+runway = 01_RP, rev
+beacon = HARTY
+route1 =
+	170, LENDY7, lendy seven
+	41°04.27'N, 75°05.39'W, 21000
+	N40.99580, W74.86900
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach25]
+runway = 14_RP
+beacon = LENDY
+route1 =
+	170, LENDY7, lendy seven
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach26]
+runway = 14_RP, rev
+beacon = LENDY
+route1 =
+	170, LENDY7, lendy seven
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach27]
+runway = 01_RP
+beacon = LENDY
+route1 =
+	170, LENDY7, lendy seven
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+	
+[approach28]
+runway = 01_RP, rev
+beacon = LENDY
+route1 =
+	170, LENDY7, lendy seven
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+#IGN1 Arrival
+[approach29]
+runway = 14_RP
+beacon = PRNCE
+route1 =
+	170, IGN1, Kingston one
+	41°58.41'N, 74°28.20'W
+	N41.66550, W73.82230
+	41°23.13'N, 74°03.81'W
+	41°01.69'N, 74°22.06'W
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach30]
+runway = 14_RP, rev
+beacon = PRNCE
+route1 =
+	170, IGN1, Kingston one
+	41°58.41'N, 74°28.20'W
+	N41.66550, W73.82230
+	41°23.13'N, 74°03.81'W
+	41°01.69'N, 74°22.06'W
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+[approach31]
+runway = 01_RP
+beacon = PRNCE
+route1 =
+	170, IGN1, Kingston one
+	41°58.41'N, 74°28.20'W
+	N41.66550, W73.82230
+	41°23.13'N, 74°03.81'W
+	41°01.69'N, 74°22.06'W
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+	
+[approach32]
+runway = 01_RP, rev
+beacon = PRNCE
+route1 =
+	170, IGN1, Kingston one
+	41°58.41'N, 74°28.20'W
+	N41.66550, W73.82230
+	41°23.13'N, 74°03.81'W
+	41°01.69'N, 74°22.06'W
+	N40.54.53.41, W074.08.06.93, 19000, 250
+	N40.47.01.38, W073.52.06.96
+	end, 135
+
+#ROBER2/PARCH3 Arrival
+[approach33]
+runway = 14_RP
+beacon = PARCH
+route1 =
+	170, PARCH3, parch three
+	41°05.95'N, 72°07.24'W
+	N40.92960, W72.79890, 12000, 250
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	end	
+
+[approach34]
+runway = 14_RP, rev
+beacon = PARCH
+route1 =
+	170, PARCH3, parch three
+	41°05.95'N, 72°07.24'W
+	N40.92960, W72.79890, 12000, 250
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	end
+
+[approach35]
+runway = 01_RP
+beacon = PARCH
+route1 =
+	170, PARCH3, parch three
+	41°05.95'N, 72°07.24'W
+	N40.92960, W72.79890, 12000, 250
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	end	
+
+[approach36]
+runway = 01_RP, rev
+beacon = PARCH
+route1 =
+	170, PARCH3, parch three
+	41°05.95'N, 72°07.24'W
+	N40.92960, W72.79890, 12000, 250
+	N40.41.07.67, W073.01.57.40, 9000, 250
+	end
+	
+###KFRG Prop Arrivals
+[approach37]
+runway = 01_RPP
+beacon = ZIGGI
+route1 =
+	170 
+	40°03.12'N, 74°00.82'W, 8000
+	40°03.12'N, 74°00.82'W, 4000
+	end, 057
+	
+[approach38]
+runway = 14_RPP
+beacon = ZIGGI
+route1 =
+	170 
+	40°03.12'N, 74°00.82'W, 8000
+	40°03.12'N, 74°00.82'W, 4000
+	end, 057
+	
+[approach39]
+runway = 01_RPP, rev
+beacon = ZIGGI
+route1 =
+	170 
+	40°03.12'N, 74°00.82'W, 8000
+	40°03.12'N, 74°00.82'W, 4000
+	end, 083
+	
+[approach40]
+runway = 14_RPP, rev
+beacon = ZIGGI
+route1 =
+	170 
+	40°03.12'N, 74°00.82'W, 8000
+	40°03.12'N, 74°00.82'W, 2000
+	end, 061
+
+###KEWR Jet Arrivals 
+#FLOSI4
+[approach41]
+runway = dummy_NK
+beacon = TALCO
+route1 =
+	180, FLOSI4, flossy four hannah transition
+	N42°03.77', W74°06.46'
+	N41°51.45', W74°11.86'
+	N41°40.05', W74°16.83'
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+route2 =
+	270, FLOSI4, flossy four barnes transition
+	N42°03.77', W74°06.46'
+	N41°51.45', W74°11.86'
+	N41°40.05', W74°16.83'
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+	
+[approach42]
+runway = dummy_NK
+beacon = HELON
+route1 =
+	209, FLOSI4, flossy four hancock transition
+	N41°40.05', W74°16.83'
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+
+[approach43]
+runway = dummy_NK
+beacon = FLOSI
+route1 =
+	270, FLOSI4, flossy four nelly transition
+	N41.66550, W73.82230
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180	
+route2 =
+	290, FLOSI4, flossy four
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+route3 =
+	250, FLOSI4, flossy four
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+	
+[approach44]
+runway = dummy_NK
+beacon = SHAFF
+route1 =
+	209, FLOSI4, flossy four
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+
+[approach45]
+runway = dummy_NK, rev
+beacon = TALCO
+route1 =
+	180, FLOSI4, flossy four hannah transition
+	N42°03.77', W74°06.46'
+	N41°51.45', W74°11.86'
+	N41°40.05', W74°16.83'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+route2 =
+	270, FLOSI4, flossy four barnes transition
+	N42°03.77', W74°06.46'
+	N41°51.45', W74°11.86'
+	N41°40.05', W74°16.83'
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180	
+	
+[approach46]
+runway = dummy_NK, rev
+beacon = HELON
+route1 =
+	209, FLOSI4, flossy four hancock transition
+	N41°40.05', W74°16.83'
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+
+[approach47]
+runway = dummy_NK, rev
+beacon = FLOSI
+route1 =
+	270, FLOSI4, flossy four nelly transition
+	N41.66550, W73.82230
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180	
+route2 =
+	290, FLOSI4, flossy four
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+route3 =
+	250, FLOSI4, flossy four
+	N41°32.61', W74°20.05'
+	N41.416608, W74.388869, 7000, 250
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180
+	
+[approach48]
+runway = dummy_NK, rev
+beacon = SHAFF
+route1 =
+	209, FLOSI4, flossy four
+	41°17.38'N, 74°26.60'W
+	N41.06750, W74.53830
+	40°49.82'N, 74°33.61'W
+	40°39.34'N, 74°33.05'W
+	end, 180	
+	
+#PHLBO3
+[approach49]
+runway = dummy_NK
+beacon = MERSR
+route1 =
+	060, PHLBO3, Fill Bow four
+	40°18.61'N, 74°49.68'W, 8000, 250
+	40°25.36'N, 74°40.17'W
+	40°36.42'N, 74°37.22'W
+	40°49.82'N, 74°33.61'W
+	end, 025
+
+[approach50]
+runway = dummy_NK, rev
+beacon = MERSR
+route1 =
+	060, PHLBO3, Fill Bow four
+	40°18.61'N, 74°49.68'W, 8000, 250
+	40°25.36'N, 74°40.17'W
+	40°36.42'N, 74°37.22'W
+	40°49.82'N, 74°33.61'W
+	end, 025
+
+[approach51]
+runway = dummy_NK
+beacon = METRO
+route1 =
+	060, PHLBO3, Fill Bow four
+	40°25.36'N, 74°40.17'W
+	40°36.42'N, 74°37.22'W
+	40°49.82'N, 74°33.61'W
+	end, 025
+
+[approach52]
+runway = dummy_NK, rev
+beacon = METRO
+route1 =
+	060, PHLBO3, Fill Bow four
+	40°25.36'N, 74°40.17'W
+	40°36.42'N, 74°37.22'W
+	40°49.82'N, 74°33.61'W
+	end, 025	
+#FQM
+[approach53]
+runway = dummy_NK
+beacon = SWEET
+route1 =
+	122, FQM3, williamsport three
+	N40.828272, W74.924319, 7000
+	end, 122
+
+[approach54]
+runway = dummy_NK, rev
+beacon = SWEET
+route1 =
+	122, FQM3, williamsport three
+	N40.828272, W74.924319, 7000
+	end, 122
+
+#BRAND
+[approach55]
+runway = dummy_NK
+beacon = KORRY
+route =
+	100, BRAND1, brand one
+	N40.093842, W74.651544, 7000, 250
+	N40.20240, W74.49500
+	end, 061
+	
+[approach56]
+runway = dummy_NK, rev
+beacon = KORRY
+route =
+	100, BRAND1, brand one
+	N40.093842, W74.651544, 7000, 250
+	N40.20240, W74.49500
+	end, 061	
+	
+###KEWR Prop Arrivals
+
+###KTEB Jet Arrivals 
+#MAZIE3
+[approach57]
+runway = 19_TB
+beacon = REGLE
+route1 =
+	059, MAZIE3, mazie three
+	N40.403428, W74.995489, 7000
+	N40.58300, W74.74170
+	end
+
+[approach58]
+runway = 24_TB
+beacon = REGLE
+route1 =
+	059, MAZIE3, mazie three
+	N40.403428, W74.995489, 7000
+	N40.58300, W74.74170
+	end
+
+[approach59]
+runway = 24_TB, rev
+beacon = REGLE
+route1 =
+	059, MAZIE3, mazie three
+	N40.403428, W74.995489, 7000
+	N40.58300, W74.74170
+	end
+
+#LVZ4
+[approach60]
+runway = 19_TB
+beacon = MUGZY
+route1 =
+	125, LVZ4, wilkes barre four
+	N41.030128, W74.969361, 6000
+	N40.99580, W74.86900
+	end
+
+[approach61]
+runway = 24_TB
+beacon = MUGZY
+route1 =
+	125, LVZ4, wilkes barre four
+	N41.030128, W74.969361, 6000
+    N40.99580, W74.86900
+	end
+
+[approach62]
+runway = 24_TB, rev
+beacon = MUGZY
+route1 =
+	125, LVZ4, wilkes barre four
+	N41.030128, W74.969361, 6000
+    N40.99580, W74.86900
+	end
+
+#LEMOR
+[approach63]
+runway = 19_TB
+beacon = SAGES
+route =
+	100
+	42°02.77'N, 74°19.17'W
+	41°45.73'N, 74°31.50'W
+	N41.40970, W74.59160
+	41°17'51''N, 74°38'3''W
+	end
+	
+[approach64]
+runway = 24_TB
+beacon = SAGES
+route =
+	100
+	42°02.77'N, 74°19.17'W
+	41°45.73'N, 74°31.50'W
+	N41.40970, W74.59160
+	41°17'51''N, 74°38'3''W
+	end
+	
+[approach65]
+runway = 24_TB, rev
+beacon = SAGES
+route =
+	100
+	42°02.77'N, 74°19.17'W
+	41°45.73'N, 74°31.50'W
+	N41.40970, W74.59160
+	41°17'51''N, 74°38'3''W
+	end
+
+#HFD
+[approach66]
+runway = 19_TB
+beacon = HFD
+route =
+	100
+	N41°38.47', W72°32.85'
+	N41.28008889, W73.58132778
+	41°12.51'N, 74°19.59'W
+	N41.06750, W74.53830
+	end
+
+[approach68]
+runway = 24_TB
+beacon = HFD
+route =
+	100
+	N41°38.47', W72°32.85'
+	N41.28008889, W73.58132778
+	41°12.51'N, 74°19.59'W
+	N41.06750, W74.53830
+	end
+	
+[approach68]
+runway = 24_TB, rev
+beacon = HFD
+route =
+	100
+	N41°38.47', W72°32.85'
+	N41.28008889, W73.58132778
+	41°12.51'N, 74°19.59'W
+	N41.06750, W74.53830
+	end
+
+###KCDW Jet Arrivals 
+#MAZIE3
+[approach69]
+runway = 22_CW
+beacon = REGLE
+route1 =
+	059, MAZIE3, mazie three
+	N40.403428, W74.995489, 7000
+	N40.58300, W74.74170
+	end
+
+[approach70]
+runway = 22_CW, rev
+beacon = REGLE
+route1 =
+	059, MAZIE3, mazie three
+	N40.403428, W74.995489, 7000
+	N40.58300, W74.74170
+	end
+
+#LVZ4
+[approach71]
+runway = 22_CW
+beacon = MUGZY
+route1 =
+	125, LVZ4, wilkes barre four
+	N41.030128, W74.969361, 6000
+	N40.99580, W74.86900
+	end
+
+[approach72]
+runway = 22_CW, rev
+beacon = MUGZY
+route1 =
+	125, LVZ4, wilkes barre four
+	N41.030128, W74.969361, 6000
+    N40.99580, W74.86900
+	end
+
+#LEMOR
+[approach73]
+runway = 22_CW
+beacon = SAGES
+route =
+	100
+	42°02.77'N, 74°19.17'W
+	41°45.73'N, 74°31.50'W
+	N41.40970, W74.59160
+	41°17'51''N, 74°38'3''W
+	end
+	
+[approach74]
+runway = 22_CW, rev
+beacon = SAGES
+route =
+	100
+	42°02.77'N, 74°19.17'W
+	41°45.73'N, 74°31.50'W
+	N41.40970, W74.59160
+	41°17'51''N, 74°38'3''W
+	end
+
+#HFD
+[approach75]
+runway = 22_CW
+beacon = HFD
+route =
+	100
+	N41°38.47', W72°32.85'
+	N41.28008889, W73.58132778
+	41°12.51'N, 74°19.59'W
+	N41.06750, W74.53830
+	end
+
+[approach76]
+runway = 22_CW, rev
+beacon = HFD
+route =
+	100
+	N41°38.47', W72°32.85'
+	N41.28008889, W73.58132778
+	41°12.51'N, 74°19.59'W
+	N41.06750, W74.53830
+	end
+	
+###KMMU Jet Arrivals 
+#MAZIE3
+[approach77]
+runway = 23_MU
+beacon = REGLE
+route1 =
+	059, MAZIE3, mazie three
+	N40.403428, W74.995489, 7000
+	N40.58300, W74.74170
+	end
+
+[approach78]
+runway = 23_MU, rev
+beacon = REGLE
+route1 =
+	059, MAZIE3, mazie three
+	N40.403428, W74.995489, 7000
+	N40.58300, W74.74170
+	end
+
+#LVZ4
+[approach79]
+runway = 23_MU
+beacon = MUGZY
+route1 =
+	125, LVZ4, wilkes barre four
+	N41.030128, W74.969361, 6000
+	N40.99580, W74.86900
+	end
+
+[approach80]
+runway = 23_MU, rev
+beacon = MUGZY
+route1 =
+	125, LVZ4, wilkes barre four
+	N41.030128, W74.969361, 6000
+    N40.99580, W74.86900
+	end
+
+#LEMOR
+[approach81]
+runway = 23_MU
+beacon = SAGES
+route =
+	100
+	42°02.77'N, 74°19.17'W
+	41°45.73'N, 74°31.50'W
+	N41.40970, W74.59160
+	41°17'51''N, 74°38'3''W
+	end
+	
+[approach82]
+runway = 23_MU, rev
+beacon = SAGES
+route =
+	100
+	42°02.77'N, 74°19.17'W
+	41°45.73'N, 74°31.50'W
+	N41.40970, W74.59160
+	41°17'51''N, 74°38'3''W
+	end
+
+#HFD
+[approach83]
+runway = 23_MU
+beacon = HFD
+route =
+	100
+	N41°38.47', W72°32.85'
+	N41.28008889, W73.58132778
+	41°12.51'N, 74°19.59'W
+	N41.06750, W74.53830
+	end
+
+[approach84]
+runway = 23_MU, rev
+beacon = HFD
+route =
+	100
+	N41°38.47', W72°32.85'
+	N41.28008889, W73.58132778
+	41°12.51'N, 74°19.59'W
+	N41.06750, W74.53830
+	end
+
+###KLGA Jet Arrivals 
+#MIP Arrival	
+[approach85]
+runway = dummy_LG
+beacon = BEUTY
+route1 =
+	123, MIP4, mill ton four
+	N40.569197, W75.011478, 10000, 250
+	N40.490744, W74.749092, 10000
+	N40.490744, W74.749092, 9000
+	N40.481, W74.716
+	N40.427886, W74.540753, 9000
+	N40.427886, W74.540753, 8000
+	N40.465, W74.403, 8000
+	N40.465, W74.403, 7000
+	N40.522, W74.188, 7000
+	N40.522, W74.188, 4000
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+
+[approach86]
+runway = dummy_LG
+beacon = HARLM
+route1 =
+	123, MIP4, mill ton four
+	N40.490744, W74.749092, 10000
+	N40.490744, W74.749092, 9000
+	N40.481, W74.716
+	N40.427886, W74.540753, 9000
+	N40.427886, W74.540753, 8000
+	N40.465, W74.403, 8000
+	N40.465, W74.403, 7000
+	N40.522, W74.188, 7000
+	N40.522, W74.188, 4000
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+	
+[approach87]
+runway = dummy_LG
+beacon = PROUD
+route1 =
+	123, MIP4, mill ton four
+	N40.629792, W73.999756
+	end, 045
+
+#APPLE/KORRY Arrival 
+[approach88]
+runway = dummy_LG
+beacon = KORRY
+route1 =
+	058, KORRY1, korry 1
+	N40.093842, W74.651544, 10000, 250
+	N40.202403, W74.495025, 8000, 250
+	N40.289550, W74.385036, 8000
+	N40.289550, W74.385036, 7000
+	N40.374872, W74.276972
+	40°24.65'N, 74°13.88'W
+	N40.466, W74.161, 7000
+	N40.466, W74.161, 4000
+	N40.518533, W74.094089
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+
+[approach89]
+runway = dummy_LG
+beacon = RBV
+route1 =
+	058, KORRY1, korry 1
+	N40.202403, W74.495025, 8000, 250
+	N40.289550, W74.385036, 8000
+	N40.289550, W74.385036, 7000
+	N40.374872, W74.276972
+	40°24.65'N, 74°13.88'W
+	N40.466, W74.161, 7000
+	N40.466, W74.161, 4000
+	N40.518533, W74.094089
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+
+[approach90]
+runway = dummy_LG
+beacon = DAMYR
+route1 =
+	058, KORRY1, korry 1
+	40°24.65'N, 74°13.88'W
+	N40.466, W74.161, 7000
+	N40.466, W74.161, 4000
+	N40.518533, W74.094089
+	N40.556136, W74.062253
+	N40.629792, W73.999756
+	end, 045
+
+#HAARP Arrival 
+[approach92]
+runway = dummy_LG
+beacon = PETER
+route1 =	
+	289, HAARP3, harp three rockdale transition
+	42°12.32'N, 74°31.84'W
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.66550, W73.82230
+	N41.435328, W73.881736
+	N41.343722, W73.798608, 8000
+	N41.194, W73.663
+	N41.116353, W73.593483
+	N41.077211, W73.626053
+	N40.783717, W73.868600
+	end, 224
+	
+[approach93]
+runway = dummy_LG
+beacon = VALRE
+route1 =	
+	195, HAARP3, harp three
+	N41.435328, W73.881736
+	N41.343722, W73.798608, 8000
+	N41.194, W73.663
+	N41.116353, W73.593483
+	N41.077211, W73.626053
+	N40.783717, W73.868600
+	end, 224
+route2 =	
+	225, HAARP3, harp three
+	N41.435328, W73.881736
+	N41.343722, W73.798608, 8000
+	N41.194, W73.663
+	N41.116353, W73.593483
+	N41.077211, W73.626053
+	N40.783717, W73.868600
+	end, 224
+route3 =	
+	211, HAARP3, harp three albany transition
+	N41.76980, W73.60050
+	N41.66550, W73.82230
+	N41.435328, W73.881736
+	N41.343722, W73.798608, 8000
+	N41.194, W73.663
+	N41.116353, W73.593483
+	N41.077211, W73.626053
+	N40.783717, W73.868600
+	end, 224
+	
+[approach94]
+runway = dummy_LG
+beacon = CRALY
+route1 =	
+	289, HAARP3, harp three
+	N41.077211, W73.626053
+	N40.783717, W73.868600
+	end, 224
+
+###KLGA RNAV/Visual Approaches
+#Park Visual 31
+[approach95]
+runway = 13_LG, rev
+beacon = GACAR, N40.696, W73.943
+route1 =
+	056, Park Visual, park visual
+	N40.696, W73.943, 2500, 180
+	N40.7186667, W73.9108333, 0, 165
+	N40.7303333, W73.8443333
+	N40.7453333, W73.832
+	1, 300, 160
+	
+###KHPN Jet Arrivals
+#HPN Arrivals (Landing 16)
+[approach96]
+runway = 16_WC
+beacon = BOUNO
+route1 = 
+	049, BOUNO4, bow no four sea isle transition
+	40°21.93'N, 73°27.42'W, 17000
+	N40.47.30.30, W073.18.13.17, 15000, 250
+	40°51.86'N, 73°09.38'W, 13000
+	40°55.66'N, 73°01.62'W, 11000
+	41°1.61'N, 72°49.43'W
+	41°09.41'N, 72°51.44'W
+	41°09.48'N, 72°56.01'W, 6000
+	N41.16070, W73.12450	
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+route2 = 
+	070, BOUNO4, bow no four coyle transition
+	40°21.93'N, 73°27.42'W, 17000
+	N40.47.30.30, W073.18.13.17, 15000, 250
+	40°51.86'N, 73°09.38'W, 13000
+	40°55.66'N, 73°01.62'W, 11000
+	41°1.61'N, 72°49.43'W
+	41°09.41'N, 72°51.44'W
+	41°09.48'N, 72°56.01'W, 6000
+	N41.16070, W73.12450	
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+
+[approach97] 
+runway = 16_WC
+beacon = WEETS
+route1 = 
+	203, VALRE5, valre five delancey transition
+	N41°51.45', W74°11.86'
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	14.2, 5000, 210
+	
+[approach98] 
+runway = 16_WC
+beacon = WIGAN
+route1 = 
+	203, VALRE5, valre five albany transition
+	42°05.11'N, 73°48.90'W
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	14.2, 5000, 210
+	
+[approach99] 
+runway = 16_WC
+beacon = VEERS
+route1 = 
+	203, VALRE5, valre five veers transition
+	41°54.62'N, 73°17.20'W
+	N41.76980, W73.60050
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	14.2, 5000, 210
+	
+#HPN Arrivals (Landing 34)
+[approach100]
+runway = 16_WC, rev
+beacon = BOUNO
+route1 = 
+	049, BOUNO4, bow no four sea isle transition
+	40°21.93'N, 73°27.42'W, 17000
+	N40.47.30.30, W073.18.13.17, 15000, 250
+	40°51.86'N, 73°09.38'W, 13000
+	40°55.66'N, 73°01.62'W, 11000
+	41°1.61'N, 72°49.43'W
+	41°09.41'N, 72°51.44'W
+	41°09.48'N, 72°56.01'W, 6000
+	N41.16070, W73.12450	
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+route2 = 
+	070, BOUNO4, bow no four coyle transition
+	40°21.93'N, 73°27.42'W, 17000
+	N40.47.30.30, W073.18.13.17, 15000, 250
+	40°51.86'N, 73°09.38'W, 13000
+	40°55.66'N, 73°01.62'W, 11000
+	41°1.61'N, 72°49.43'W
+	41°09.41'N, 72°51.44'W
+	41°09.48'N, 72°56.01'W, 6000
+	N41.16070, W73.12450	
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+	
+[approach101] 
+runway = 16_WC, rev
+beacon = WEETS
+route1 = 
+	203, VALRE5, valre five delancey transition
+	N41°51.45', W74°11.86'
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end
+	
+[approach102] 
+runway = 16_WC, rev
+beacon = WIGAN
+route1 = 
+	203, VALRE5, valre five albany transition
+	42°05.11'N, 73°48.90'W
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end
+
+[approach103] 
+runway = 16_WC, rev
+beacon = VEERS
+route1 = 
+	203, VALRE5, valre five veers transition
+	41°54.62'N, 73°17.20'W
+	N41.76980, W73.60050
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end	
+	
+###KDXR Jet Arrivals
+[approach104]
+runway = 08_DB
+beacon = DUNEE
+route1 = 
+	288, RICED4, riced four dune transition
+	40°19.41'N, 73°02.43'W
+	N40°31.44', W72°47.93'
+	N40°36.72', W72°41.53', 9000
+	41°00.86'N, 72°41.53'W
+	N41.16070, W73.12450
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+
+[approach105]
+runway = 08_DB
+beacon = RICED
+route1 = 
+	288, RICED4, riced four
+	N40°36.72', W72°41.53', 9000
+	41°00.86'N, 72°41.53'W
+	N41.16070, W73.12450
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+
+[approach106] 
+runway = 08_DB
+beacon = WEETS
+route1 = 
+	203, VALRE5, valre five delancey transition
+	N41°51.45', W74°11.86'
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end
+	
+[approach107] 
+runway = 08_DB
+beacon = WIGAN
+route1 = 
+	203, VALRE5, valre five albany transition
+	42°05.11'N, 73°48.90'W
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end
+
+[approach108] 
+runway = 08_DB
+beacon = VEERS
+route1 = 
+	203, VALRE5, valre five veers transition
+	41°54.62'N, 73°17.20'W
+	N41.76980, W73.60050
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end	
+
+[approach109]
+runway = 08_DB, rev
+beacon = DUNEE
+route1 = 
+	288, RICED4, riced four dune transition
+	40°19.41'N, 73°02.43'W
+	N40°31.44', W72°47.93'
+	N40°36.72', W72°41.53', 9000
+	41°00.86'N, 72°41.53'W
+	N41.16070, W73.12450
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+
+[approach110]
+runway = 08_DB, rev
+beacon = RICED
+route1 = 
+	288, RICED4, riced four
+	N40°36.72', W72°41.53', 9000
+	41°00.86'N, 72°41.53'W
+	N41.16070, W73.12450
+	N41.181347, W73.393025, 4000
+	N41.191667, W73.530756
+	end
+
+[approach111] 
+runway = 08_DB, rev
+beacon = WEETS
+route1 = 
+	203, VALRE5, valre five delancey transition
+	N41°51.45', W74°11.86'
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end
+	
+[approach112] 
+runway = 08_DB, rev
+beacon = WIGAN
+route1 = 
+	203, VALRE5, valre five albany transition
+	42°05.11'N, 73°48.90'W
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end
+
+[approach113] 
+runway = 08_DB, rev
+beacon = VEERS
+route1 = 
+	203, VALRE5, valre five veers transition
+	41°54.62'N, 73°17.20'W
+	N41.76980, W73.60050
+	N41.66550, W73.82230
+	N41.435328, W73.881736, 6000
+	N41.116353, W73.593483
+	end	
+
+#KISP Arrivals
+[approach114]
+runway = 24_LI
+beacon = SARDI
+route1 =
+	0, SARDI, Direct SARDI
+	N40°31.44', W72°47.93', 7000, 250
+	N40.92960, W72.79890
+	end
+
+[approach115]
+runway = 24_LI, rev
+beacon = SARDI
+route1 =
+	0, SARDI, Direct SARDI
+	N40°31.44', W72°47.93', 7000, 250
+	N40.92960, W72.79890
+	end
+
+[approach116]
+runway = 33L_LI
+beacon = SARDI
+route1 =
+	0, SARDI, Direct SARDI
+	N40°31.44', W72°47.93', 7000, 250
+	N40.92960, W72.79890
+	end
+	
+[approach117]
+runway = 33L_LI, rev
+beacon = SARDI
+route1 =
+	0, SARDI, Direct SARDI
+	N40°31.44', W72°47.93', 7000, 250
+	N40.92960, W72.79890
+	end
+	
+[approach118]
+runway = 24_LI
+beacon = WANDI
+route1 =
+	0, NELIE3, Nelly three
+	N41°22.56', W72°08.03', 11000, 250
+	N40.92960, W72.79890
+	end
+
+[approach119]
+runway = 24_LI, rev
+beacon = WANDI
+route1 =
+	0, NELIE3, Nelly three
+	N41°22.56', W72°08.03', 11000, 250
+	N40.92960, W72.79890
+	end
+
+[approach120]
+runway = 33L_LI
+beacon = WANDI
+route1 =
+	0, NELIE3, Nelly three
+	N41°22.56', W72°08.03', 11000, 250
+	N40.92960, W72.79890
+	end
+
+[approach121]
+runway = 33L_LI, rev
+beacon = WANDI
+route1 =
+	0, NELIE3, Nelly three
+	N41°22.56', W72°08.03', 11000, 250
+	N40.92960, W72.79890
+	end
+	
+[approach122]
+runway = 24_LI
+beacon = ARCAV
+route1 =
+	0, ARCAV, Direct Arr Cav
+	N40°57.96', W71°47.93', 10000, 250
+	N40.91900, W72.31670
+	N40.92960, W72.79890
+	end
+
+[approach123]
+runway = 24_LI, rev
+beacon = ARCAV
+route1 =
+	0, ARCAV, Direct Arr Cav
+	N40°57.96', W71°47.93', 10000, 250
+	N40.91900, W72.31670
+	N40.92960, W72.79890
+	end
+
+[approach124]
+runway = 33L_LI
+beacon = ARCAV
+route1 =
+	0, ARCAV, Direct Arr Cav
+	N40°57.96', W71°47.93', 10000, 250
+	N40.91900, W72.31670
+	N40.92960, W72.79890
+	end
+
+[approach125]
+runway = 33L_LI, rev
+beacon = ARCAV
+route1 =
+	0, ARCAV, Direct Arr Cav
+	N40°57.96', W71°47.93', 10000, 250
+	N40.91900, W72.31670
+	N40.92960, W72.79890
+	end
+
+##KBDR JET Arrivals
+#RICED-KEYED
+[approach126]
+runway = 29_BP
+beacon = RICED
+route1 =
+	0, RICED, Direct RICED
+	N40°36.72', W72°41.53', 9000, 250
+	N41°00.86', W72°41.53'
+	end
+	
+[approach127]
+runway = 29_BP, rev
+beacon = RICED
+route1 =
+	0, RICED, Direct RICED
+	N40°36.72', W72°41.53', 9000, 250
+	N41°00.86', W72°41.53'
+	end	
+
+#ARCAV-KEYED
+[approach128]
+runway = 29_BP
+beacon = ARCAV
+route1 =
+	0, HTO, Direct HTO
+	N40°57.96', W71°47.93', 8000, 250
+	N40.91900, W72.31670
+	N41°00.86', W72°41.53'
+	end
+	
+[approach129]
+runway = 29_BP, rev
+beacon = ARCAV
+route1 =
+	0, HTO, Direct HTO
+	N40°57.96', W71°47.93', 6000, 250
+	N40.91900, W72.31670
+	N41°00.86', W72°41.53'
+	end		
+	
+#BDR1
+[approach130]
+runway = 29_BP
+beacon = PETER
+route1 =
+	096, BDR1, Bridgeport one delancey transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+route2 =
+	127, BDR1, Bridgeport one rockdale transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end	
+[approach131]
+runway = 29_BP
+beacon = ATHOS
+route1 =
+	096, BDR1, Bridgeport one albany transition
+	N42°14.82', W73°48.73'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+	
+[approach132]
+runway = 29_BP, rev
+beacon = PETER
+route1 =
+	096, BDR1, Bridgeport one delancey transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+route2 =
+	127, BDR1, Bridgeport one rockdale transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end	
+[approach133]
+runway = 29_BP, rev
+beacon = ATHOS
+route1 =
+	096, BDR1, Bridgeport one albany transition
+	N42°14.82', W73°48.73'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+	
+[approach134]
+runway = 29_BP
+beacon = LOVES
+route1 =
+	0, BDR1, Bridgeport one
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+
+[approach135]
+runway = 29_BP, rev
+beacon = LOVES
+route1 =
+	0, BDR1, Bridgeport one
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+
+##KHVN JET Arrivals
+#RICED-KEYED
+[approach136]
+runway = 20_NH
+beacon = RICED
+route1 =
+	0, RICED, Direct RICED
+	N40°36.72', W72°41.53', 9000, 250
+	N41°00.86', W72°41.53'
+	end
+	
+[approach137]
+runway = 20_NH, rev
+beacon = RICED
+route1 =
+	0, RICED, Direct RICED
+	N40°36.72', W72°41.53', 9000, 250
+	N41°00.86', W72°41.53'
+	end	
+
+#ARCAV-KEYED
+[approach138]
+runway = 20_NH
+beacon = ARCAV
+route1 =
+	0, HTO, Direct HTO
+	N40°57.96', W71°47.93', 8000, 250
+	N40.91900, W72.31670
+	N41°00.86', W72°41.53'
+	end
+	
+[approach139]
+runway = 20_NH, rev
+beacon = ARCAV
+route1 =
+	0, HTO, Direct HTO
+	N40°57.96', W71°47.93', 6000, 250
+	N40.91900, W72.31670
+	N41°00.86', W72°41.53'
+	end		
+	
+#BDR1
+[approach140]
+runway = 20_NH
+beacon = PETER
+route1 =
+	096, BDR1, Bridgeport one delancey transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+route2 =
+	127, BDR1, Bridgeport one rockdale transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end	
+[approach141]
+runway = 20_NH
+beacon = ATHOS
+route1 =
+	096, BDR1, Bridgeport one albany transition
+	N42°14.82', W73°48.73'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+	
+[approach142]
+runway = 20_NH, rev
+beacon = PETER
+route1 =
+	096, BDR1, Bridgeport one delancey transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+route2 =
+	127, BDR1, Bridgeport one rockdale transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end	
+[approach143]
+runway = 20_NH, rev
+beacon = ATHOS
+route1 =
+	096, BDR1, Bridgeport one albany transition
+	N42°14.82', W73°48.73'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+	
+[approach144]
+runway = 20_NH
+beacon = LOVES
+route1 =
+	0, BDR1, Bridgeport one
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+
+[approach145]
+runway = 20_NH, rev
+beacon = LOVES
+route1 =
+	0, BDR1, Bridgeport one
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+
+##KHVN JET Arrivals
+#RICED-KEYED
+[approach146]
+runway = 36_WO
+beacon = RICED
+route1 =
+	0, RICED, Direct RICED
+	N40°36.72', W72°41.53', 9000, 250
+	N41°00.86', W72°41.53'
+	end
+	
+[approach147]
+runway = 36_WO, rev
+beacon = RICED
+route1 =
+	0, RICED, Direct RICED
+	N40°36.72', W72°41.53', 9000, 250
+	N41°00.86', W72°41.53'
+	end	
+
+#ARCAV-KEYED
+[approach148]
+runway = 36_WO
+beacon = ARCAV
+route1 =
+	0, HTO, Direct HTO
+	N40°57.96', W71°47.93', 8000, 250
+	N40.91900, W72.31670
+	N41°00.86', W72°41.53'
+	end
+	
+[approach149]
+runway = 36_WO, rev
+beacon = ARCAV
+route1 =
+	0, HTO, Direct HTO
+	N40°57.96', W71°47.93', 6000, 250
+	N40.91900, W72.31670
+	N41°00.86', W72°41.53'
+	end		
+	
+#BDR1
+[approach150]
+runway = 36_WO
+beacon = PETER
+route1 =
+	096, BDR1, Bridgeport one delancey transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+route2 =
+	127, BDR1, Bridgeport one rockdale transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end	
+[approach151]
+runway = 36_WO
+beacon = ATHOS
+route1 =
+	096, BDR1, Bridgeport one albany transition
+	N42°14.82', W73°48.73'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+	
+[approach152]
+runway = 36_WO, rev
+beacon = PETER
+route1 =
+	096, BDR1, Bridgeport one delancey transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+route2 =
+	127, BDR1, Bridgeport one rockdale transition
+	42°12.32'N, 74°31.84'W, 17000
+	42°06.54'N, 74°16.43'W
+	N41°52.83', W73°49.11'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end	
+[approach153]
+runway = 36_WO, rev
+beacon = ATHOS
+route1 =
+	096, BDR1, Bridgeport one albany transition
+	N42°14.82', W73°48.73'
+	N41.76980, W73.60050
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+	
+[approach154]
+runway = 36_WO
+beacon = LOVES
+route1 =
+	0, BDR1, Bridgeport one
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end
+
+[approach155]
+runway = 36_WO, rev
+beacon = LOVES
+route1 =
+	0, BDR1, Bridgeport one
+	N41°32.33', W73°29.29', 6000, 250
+	N41°14.00', W73°11.63''
+	end	
+	
+##KFOK Jet Arrivals
+#SARDI-HTO Arrival	
+[approach156]
+runway = 24_FG
+beacon = SARDI
+route1 =
+	0, SARDI, Direct SARDI
+	N40°31.44', W72°47.93', 7000, 250
+	N40.91900, W72.31670
+	end
+
+[approach157]
+runway = 24_FG, rev
+beacon = SARDI
+route1 =
+	0, SARDI, Direct SARDI
+	N40°31.44', W72°47.93', 7000, 250
+	N40.91900, W72.31670
+	end
+
+[approach158]
+runway = 24_FG
+beacon = WANDI
+route1 =
+	0, NELIE3, Nelly three
+	N41°22.56', W72°08.03', 11000, 250
+	N40.92960, W72.79890
+	end
+
+[approach159]
+runway = 24_FG, rev
+beacon = WANDI
+route1 =
+	0, NELIE3, Nelly three
+	N41°22.56', W72°08.03', 11000, 250
+	N40.92960, W72.79890
+	end
+
+[approach160]
+runway = 24_FG
+beacon = ARCAV
+route1 =
+	0, ARCAV, Direct Arr Cav
+	N40°57.96', W71°47.93', 6000, 250
+	N40.91900, W72.31670
+	end
+
+[approach161]
+runway = 24_FG, rev
+beacon = ARCAV
+route1 =
+	0, ARCAV, Direct Arr Cav
+	N40°57.96', W71°47.93', 6000, 250
+	N40.91900, W72.31670
+	end
+
+##KJPX Jet Arrivals
+#SARDI-HTO Arrival	
+[approach162]
+runway = 28_EH
+beacon = SARDI
+route1 =
+	0, SARDI, Direct SARDI
+	N40°31.44', W72°47.93', 7000, 250
+	N40.91900, W72.31670
+	end
+
+[approach163]
+runway = 28_EH, rev
+beacon = SARDI
+route1 =
+	0, SARDI, Direct SARDI
+	N40°31.44', W72°47.93', 7000, 250
+	N40.91900, W72.31670
+	end
+
+[approach164]
+runway = 28_EH
+beacon = WANDI
+route1 =
+	0, NELIE3, Nelly three
+	N41°22.56', W72°08.03', 11000, 250
+	N40.92960, W72.79890
+	end
+
+[approach165]	
+runway = 28_EH, rev
+beacon = WANDI
+route1 =
+	0, NELIE3, Nelly three
+	N41°22.56', W72°08.03', 11000, 250
+	N40.92960, W72.79890
+	end
+
+[approach166]
+runway = 28_EH
+beacon = ARCAV
+route1 =
+	0, ARCAV, Direct Arr Cav
+	N40°57.96', W71°47.93', 6000, 250
+	N40.91900, W72.31670
+	end
+
+[approach167]
+runway = 28_EH, rev
+beacon = ARCAV
+route1 =
+	0, ARCAV, Direct Arr Cav
+	N40°57.96', W71°47.93', 6000, 250
+	N40.91900, W72.31670
+	end
+
+##KSWF Jet Arrivals
+#HUD4
+[approach168]
+runway = 09_SW
+beacon = BRISS
+route1 =
+	0, HUD4, Hudson Four
+	N41°42.16', W73°01.00'
+	N41.76980, W73.60050
+	N41°52.83', W73°49.11'
+	end
+[approach169]
+runway = 09_SW, rev
+beacon = BRISS
+route1 =
+	0, HUD4, Hudson Four
+	N41°42.16', W73°01.00'
+	N41.76980, W73.60050
+	N41°52.83', W73°49.11'
+	end
+[approach170]
+runway = 09_SW
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach171]
+runway = 09_SW, rev
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach172]
+runway = 09_SW
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach173]
+runway = 09_SW, rev
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach174]
+runway = 09_SW
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'	
+	end
+[approach175]
+runway = 09_SW, rev
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'
+	end
+	
+##KPOU Jet Arrivals
+#HUD4
+[approach176]
+runway = 06_DC
+beacon = BRISS
+route1 =
+	0, HUD4, Hudson Four
+	N41°42.16', W73°01.00'
+	N41.76980, W73.60050
+	N41°52.83', W73°49.11'
+	end
+[approach177]
+runway = 06_DC, rev
+beacon = BRISS
+route1 =
+	0, HUD4, Hudson Four
+	N41°42.16', W73°01.00'
+	N41.76980, W73.60050
+	N41°52.83', W73°49.11'
+	end
+[approach178]
+runway = 06_DC
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach179]
+runway = 06_DC, rev
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach180]
+runway = 06_DC
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach181]
+runway = 06_DC, rev
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach182]
+runway = 06_DC
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'	
+	end
+[approach183]
+runway = 06_DC, rev
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'
+	end
+
+##KMGJ Jet Arrivals
+[approach183]
+runway = 04_OC
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach184]
+runway = 04_OC, rev
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach185]
+runway = 04_OC
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach186]
+runway = 04_OC, rev
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach187]
+runway = 04_OC
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'	
+	end
+[approach188]
+runway = 04_OC, rev
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'
+	end
+[approach189]
+runway = 08_OC
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach190]
+runway = 08_OC, rev
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach191]
+runway = 08_OC
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach192]
+runway = 08_OC, rev
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach193]
+runway = 08_OC
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'	
+	end
+[approach194]
+runway = 08_OC, rev
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'
+	end	
+	
+##KMSV Jet Arrivals
+[approach195]
+runway = 15_SC
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach196]
+runway = 15_SC, rev
+beacon = TRESA
+route1 =
+	0, TRESA, direct TRESA
+	N41°52.83', W73°49.11'
+	end
+[approach197]
+runway = 15_SC
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach198]
+runway = 15_SC, rev
+beacon = DNY
+route1 =
+	0, FLIPS, FLIPS
+	N42.17830, W74.95690
+	N41°56.51', W74°23.71'
+	end
+[approach199]
+runway = 15_SC
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'	
+	end
+[approach200]
+runway = 15_SC, rev
+beacon = RAGER
+route1 =
+	0, RAGER, RAGER
+	N41°34.10', W74°54.77'
+	end
+	
+#####
+#EWR#
+#####
+[configurations]
+config1 =
+	0, 04L_JK, landstartrev, 220, nosid
+	0, 04R_JK, landrev
+	0, dummy_JK, landrev
+	0, 01_RP, landstartrev, 220, nosid
+	0, 04L_NK, startrev, 190, nosid 
+	0, 04R_NK, landrev
+	0, dummy_NK, landrev
+	0, 19_TB, land
+	0, 24_TB, start, 283, nosid
+	0, 23_MU, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
+	0, 04_LG, landrev
+	0, 13_LG, startrev, 314, nosid
+	0, dummy_LG, land
+	0, 16_WC, landstart, 320, nosid
+	0, 08_DB, landstart, 080, nosid
+	0, 33L_LI, startlandrev, 149, nosid
+	0, 29_BP, startlandrev, 111, nosid	
+	0, 20_NH, startlandrev, 016, nosid
+	0, 36_WO, startland, 360, nosid
+	0, 24_FG, startlandrev, 240, nosid
+	0, 28_EH, startlandrev, 100, nosid
+	0, 09_SW, startlandrev, 270, nosid
+	0, 06_DC, startlandrev, 240, nosid
+	0, 04_OC, startlandrev, 220, nosid
+	0, 15_SC, startland, 150, nosid
+config2 =
+	0, 04R_JK, landrev
+	0, 13L_JK, land
+	0, 13R_JK, start, 155, nosid
+	0, dummy_JK, landrev
+	0, 14_RP, landstart, 220, nosid
+	0, 04L_NK, startrev, 190, nosid 
+	0, 04R_NK, landrev
+	0, dummy_NK, landrev
+	0, 19_TB, land
+	0, 24_TB, start, 283, nosid
+	0, 23_MU, landstart, 160, nosid
+	0, 22_CW, landstart, 180, nosid
+	0, 04_LG, landrev
+	0, 13_LG, start, 180, nosid
+	0, dummy_LG, land
+	0, 16_WC, landstart, 320, nosid
+	0, 08_DB, landstart, 080, nosid
+	0, 33L_LI, startlandrev, 149, nosid
+	0, 29_BP, startlandrev, 111, nosid	
+	0, 20_NH, startlandrev, 016, nosid
+	0, 36_WO, startland, 360, nosid
+	0, 24_FG, startlandrev, 240, nosid
+	0, 28_EH, startlandrev, 100, nosid
+	0, 09_SW, startland, 090, nosid
+	0, 06_DC, startland, 060, nosid
+	0, 04_OC, startland, 040, nosid
+	0, 15_SC, startland, 150, nosid	
+	
+#[configurations]
+##NE Winds Flow Land/Dep 4L/R, Land/Dep 1 FRG)
+#config1 =
+#	0, 04L_JK, landstart, 100, nosid
+#	0, 04R_JK, land, 100, nosid
+#	0, dummy_JK, land
+#	0, 04L_JKP, landstart, 100, nosid
+#	12, 01_RP, landstart, 010, nosid
+#	12, 01_RPP, landstart, 010, nosid
+#
+##SE Winds Flow Land 13L, 22L/Dep 13L/R, Land/Dep 14 FRG)
+#config2 =
+#	0, 04R_JK, landrev
+#	0, 13L_JK, land
+#	0, 13R_JK, start, 155, nosid
+#	0, dummy_JK, landrev
+#	0, 04R_JKP, landrev
+#	0, 13L_JKP, startland, 090, nosid
+#	12, 14_RP, landstart, 220, nosid
+#	12, 14_RPP, landstart, 220, nosid
+#	
+##SW Winds Flow Land 22L/R/Dep 22R, Land/Dep 19 FRG)
+#config3 =
+#	0, 04L_JK, landstartrev, 220, nosid
+#	0, 04R_JK, landrev
+#	0, dummy_JK, landrev
+#	0, 04L_JKP, landstartrev, 150, nosid
+#	0, 04R_JKP, landrev
+#	12, 01_RP, landstartrev, 220, nosid
+#	12, 01_RPP, landstartrev, 220, nosid
+#	
+##NW Winds Flow Land/Dep 31L/R, Land/Dep 32 FRG)
+#config4 =
+#	0, 13L_JK, landrev
+#	0, 13R_JK, landstartrev, 170, nosid
+#	0, dummy_JK, land
+#	0, 13L_JKP, landstartrev, 090, nosid
+#	0, 13R_JKP, landrev
+#	12, 14_RP, landstartrev, 010, nosid
+#	12, 14_RPP, landstartrev, 010, nosid
+	
+[planetypes]	
+types = 
+#general aviation
+	c152, 6, 60, 100, 2.8, 3.2, 500, 1000, 60, 70, 1.2, 1.3, cessna
+	c172, 6, 70, 120, 2.8, 3.2, 500, 1000, 70, 80, 1.2, 1.3, skyhawk
+	c182, 6, 80, 140, 2.8, 3.2, 500, 1000, 75, 85, 1.2, 1.3, skylane
+	c208, 6, 110, 170, 2.8, 3.2, 800, 1200, 100, 110, 1.2, 1.3, caravan
+	c402, 6, 120, 199, 2.8, 3.2, 800, 1200, 110, 120, 1.2, 1.3, cessna
+	be36, 6, 90, 160, 2.8, 3.2, 500, 1000, 85, 95, 1.2, 1.3, bonanza
+	be55, 6, 110, 180, 2.8, 3.2, 800, 1200, 95, 105, 1.2, 1.3, baron
+	be58, 6, 110, 180, 2.8, 3.2, 800, 1200, 95, 105, 1.2, 1.3, baron
+	m20p, 6, 90, 160, 2.8, 3.2, 500, 1000, 75, 85, 1.2, 1.3, mooney
+	p28a, 6, 70, 110, 2.8, 3.2, 500, 1000, 66, 76, 1.2, 1.3, cherokee
+	p28b, 6, 80, 130, 2.8, 3.2, 500, 1000, 75, 85, 1.2, 1.3, cherokee
+	pa34, 6, 100, 160, 2.8, 3.2, 500, 1000, 84, 94, 1.2, 1.3, seneca
+	sr20, 6, 80, 150, 2.8, 3.2, 500, 1000, 79, 89, 1.2, 1.3, cirrus	
+	sr22, 6, 80, 180, 2.8, 3.2, 500, 1000, 79, 89, 1.2, 1.3, cirrus	
+	dv20, 6, 70, 120, 2.8, 3.2, 500, 1000, 64, 74, 1.2, 1.3, katana
+	da40, 6, 70, 140, 2.8, 3.2, 500, 1000, 73, 83, 1.2, 1.3, diamond star
+#private aircraft
+	tbm7, 6, 150, 290, 2.8, 3.2, 2200, 2400, 90, 100, 1.1, 1.3, t b m
+	tbm8, 6, 150, 300, 2.8, 3.2, 2200, 2400, 90, 100, 1.1, 1.3, t b m
+	tbm9, 6, 150, 300, 2.8, 3.2, 2200, 2400, 90, 100, 1.1, 1.3, t b m
+	p46t, 6, 150, 260, 2.8, 3.2, 2200, 2400, 95, 105, 1.1, 1.3, malibu
+	m600, 6, 150, 270, 2.8, 3.2, 2200, 2400, 95, 105, 1.1, 1.3, malibu
+	pc12, 6, 150, 270, 2.8, 3.2, 2200, 2400, 95, 105, 1.1, 1.3, pilatus
+	sf50, 6, 150, 300, 2.8, 3.2, 2200, 2400, 95, 105, 1.1, 1.3, vision
+	b350, 6, 150, 300, 2.8, 3.2, 2200, 2400, 105, 110, 1.2, 1.3, king air	
+	be20, 6, 140, 300, 2.8, 3.2, 2200, 2400, 110, 115, 1.2, 1.3, king air
+	hdjt, 6, 140, 300, 2.8, 3.2, 2200, 2600, 112, 126, 1.1, 1.3, honda jet 
+	pc24, 6, 150, 300, 2.8, 3.2, 2200, 2600, 100, 110, 1.1, 1.3, pilatus
+	c2, 6, 150, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, citation
+	c5, 6, 150, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, citation
+	c6, 6, 150, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, citation
+	c7, 6, 150, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, citation
+	e545, 6, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, legacy
+	e550, 6, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, legacy
+	e50p, 6, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, phenom
+	e55p, 6, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, phenom
+	lj, 6, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, lear jet
+	h25a, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, hawker
+	h25b, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, hawker
+	h25c, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, hawker
+	ha4t, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, hawker
+	be40, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, beech jet
+	be4w, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, necks int
+	f2th, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, falcon
+	fa5x, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, falcon
+	fa6x, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, falcon
+	fa7x, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, falcon
+	fa8x, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, falcon
+	f900, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, falcon
+	cl30, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, challenger
+	cl35, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, challenger
+	cl60, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, challenger
+	g150, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, gulfstream
+	g280, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, gulfstream
+	galx, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.1, 1.3, gulfstream
+	glf2, 4, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, gulfstream
+	glf3, 4, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, gulfstream
+	glf4, 4, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, gulfstream
+	glf5, 4, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, gulfstream
+	glf6, 4, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, gulfstream
+	ga4c, 4, 160, 300, 2.8, 3.2, 2200, 2600, 113, 122, 1.2, 1.3, gulfstream	
+	ga5c, 4, 160, 300, 2.8, 3.2, 2200, 2600, 113, 122, 1.2, 1.3, gulfstream	
+	ga6c, 4, 160, 300, 2.8, 3.2, 2200, 2600, 113, 122, 1.2, 1.3, gulfstream	
+	ga7c, 4, 160, 300, 2.8, 3.2, 2200, 2600, 113, 122, 1.2, 1.3, gulfstream	
+	ga8c, 4, 160, 300, 2.8, 3.2, 2200, 2600, 113, 122, 1.2, 1.3, gulfstream	
+	gl5t, 4, 160, 300, 2.8, 3.2, 2200, 2600, 113, 122, 1.2, 1.3, bombardier
+	gl7t, 4, 160, 300, 2.8, 3.2, 2200, 2600, 113, 122, 1.2, 1.3, bombardier
+	glex, 4, 160, 300, 2.8, 3.2, 2200, 2600, 113, 122, 1.2, 1.3, global express
+	e35l, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, legacy
+#military
+	c17, 2, 160, 300, 2.3, 2.7, 2000, 2300, 145, 160, 1.1, 1.3, u s air force globe master
+	k35r, 3, 160, 300, 2.3, 3.7, 2000, 2300, 127, 134, 1.1, 1.3, u s air force stratotanker
+	k35e, 3, 160, 300, 2.3, 3.7, 2000, 2300, 127, 134, 1.1, 1.3, u s air force stratotanker
+	c130, 4, 160, 300, 2.9, 3.2, 2400, 2600, 110, 120, 1.1, 1.3, u s air force hercules
+	f15, 5, 170, 500, 3.2, 5.0, 2000, 10000, 150, 160, 1.8, 2.3, u s air force eagle
+	f18, 5, 170, 500, 3.2, 5.0, 2000, 10000, 150, 160, 1.8, 2.3, u s air force hornet
+#airliners
+	dc91, 3, 160, 300, 2.3, 2.7, 2300, 2500, 127, 134, 1.1, 1.3, mcdonnell douglas
+	conc, 2, 190, 500, 2.2, 2.4, 2000, 2300, 165, 180, 1.1, 2.0, Concorde
+	p212, 6, 110, 190, 2.8, 3.2, 800, 1200, 95, 105, 1.2, 1.3, tek nam
+#special
+	a124, 2, 170, 300, 2.3, 2.7, 2000, 2300, 150, 170, 1.1, 1.2, Antonov
+	a225, 1, 180, 300, 2.2, 2.4, 2000, 2300, 155, 180, 1.1, 1.3, Mriya
+#future planes
+	c408, 6, 110, 190, 2.8, 3.2, 800, 1200, 95, 105, 1.2, 1.3, sky courier
+	ovrt, 4, 180, 500, 2.2, 2.4, 2000, 2300, 158, 173, 1.1, 3.0, overture
+	es19, 6, 110, 190, 2.8, 3.2, 800, 1200, 95, 105, 1.2, 1.3, heart
+#default planes (minus some specials)
+	a300, 3, 160, 300, 2.2, 2.4, 2000, 2300, 145, 157, 1.1, 1.2, airbus
+	a330, 2, 160, 300, 2.3, 2.7, 2000, 2300, 133, 144, 1.1, 1.2, airbus
+	a340, 2, 160, 300, 2.2, 2.5, 1900, 2100, 138, 155, 1.1, 1.2, airbus
+	a350, 2, 160, 300, 2.3, 2.7, 2000, 2300, 133, 144, 1.1, 1.2, airbus
+	a380, 1, 160, 300, 2.2, 2.4, 2000, 2300, 136, 148, 1.1, 1.2, airbus
+	b747, 2, 160, 300, 2.2, 2.4, 2000, 2300, 142, 158, 1.1, 1.2, boeing
+	b757, 3, 160, 300, 2.3, 2.7, 2000, 2300, 123, 131, 1.1, 1.2, boeing
+	b767, 3, 160, 300, 2.3, 2.7, 2000, 2300, 135, 152, 1.1, 1.2, boeing
+	b777, 2, 160, 300, 2.3, 2.7, 2000, 2300, 136, 154, 1.1, 1.2, boeing
+	b787, 2, 160, 300, 2.3, 2.7, 2000, 2300, 134, 147, 1.1, 1.2, boeing
+	e120, 6, 160, 300, 2.3, 2.7, 2300, 2700, 95, 105, 1.3, 1.5, brasilia
+	md11, 3, 160, 300, 2.3, 2.7, 2000, 2300, 146, 159, 1.1, 1.2, mcdonnell douglas
+	md88, 4, 160, 300, 2.6, 3.0, 2300, 2500, 131, 144, 1.2, 1.3, mcdonnell douglas
+	a310, 3, 160, 300, 2.8, 3.2, 2300, 2600, 135, 145, 1.4, 1.5, airbus
+	a318, 4, 160, 300, 2.8, 3.2, 2300, 2600, 122, 129, 1.4, 1.5, airbus
+	a319, 4, 160, 300, 2.7, 3.1, 2200, 2500, 124, 130, 1.2, 1.3, airbus
+	a19, 4, 160, 300, 2.7, 3.1, 2200, 2500, 124, 130, 1.2, 1.3, airbus
+	a320, 4, 160, 300, 2.6, 3.0, 2200, 2500, 127, 135, 1.2, 1.3, airbus
+	a20, 4, 160, 300, 2.6, 3.0, 2200, 2500, 127, 135, 1.2, 1.3, airbus
+	a21, 4, 160, 300, 2.6, 3.0, 2200, 2500, 127, 135, 1.2, 1.3, airbus
+	b739, 4, 160, 300, 2.6, 3.0, 2400, 2600, 131, 144, 1.2, 1.3, boeing
+	b738, 4, 160, 300, 2.6, 3.0, 2400, 2600, 131, 144, 1.2, 1.3, boeing
+	b737, 4, 160, 300, 2.6, 3.0, 2400, 2600, 131, 144, 1.2, 1.3, boeing
+	b733, 5, 160, 300, 2.6, 3.0, 2400, 2600, 131, 144, 1.2, 1.3, boeing
+	b734, 5, 160, 300, 2.6, 3.0, 2400, 2600, 131, 144, 1.2, 1.3, boeing
+	b736, 5, 160, 300, 2.6, 3.0, 2400, 2600, 131, 144, 1.2, 1.3, boeing
+	b3, 4, 160, 300, 2.6, 3.0, 2400, 2600, 131, 144, 1.2, 1.3, boeing
+	b712, 5, 160, 300, 2.6, 3.0, 2300, 2500, 131, 144, 1.2, 1.3, boeing
+	rj, 5, 160, 300, 2.8, 3.2, 2300, 2600, 120, 129, 1.4, 1.5, avro
+	crj, 5, 160, 300, 2.8, 3.2, 2300, 2700, 115, 129, 1.4, 1.5, c r j
+	dh8d, 5, 150, 300, 2.9, 3.3, 2600, 2900, 108, 119, 1.5, 1.6, de havilland
+	at, 5, 150, 300, 2.9, 3.3, 2600, 2900, 105, 119, 1.5, 1.6, a t r
+	b19, 6, 150, 300, 2.9, 3.3, 2600, 2900, 105, 115, 1.5, 1.5, beechcraft
+	js, 6, 150, 300, 2.9, 3.3, 2600, 2900, 105, 115, 1.5, 1.5, jet stream
+	e14, 5, 160, 300, 2.8, 3.2, 2400, 2600, 116, 125, 1.2, 1.3, em bree ehr
+	e17, 5, 160, 300, 2.8, 3.2, 2400, 2600, 117, 126, 1.2, 1.3, em bree ehr
+	e75, 5, 160, 300, 2.8, 3.2, 2400, 2600, 117, 128, 1.2, 1.3, em bree ehr
+	bcs, 5, 160, 300, 2.8, 3.2, 2400, 2600, 117, 128, 1.2, 1.3, airbus
+	e19, 5, 160, 300, 2.8, 3.2, 2300, 2600, 118, 127, 1.2, 1.3, em bree ehr
+	f70, 5, 160, 300, 2.8, 3.2, 2200, 2600, 120, 131, 1.2, 1.3, fokker
+	f50, 5, 150, 270, 2.8, 3.2, 2300, 2600, 118, 122, 1.2, 1.3, fokker
+	f100, 5, 160, 300, 2.8, 3.2, 2200, 2600, 124, 133, 1.2, 1.3, fokker
+	sb20, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 125, 1.2, 1.3, saab
+	sf34, 5, 160, 300, 2.8, 3.2, 2200, 2600, 110, 125, 1.2, 1.3, saab
+	su95, 4, 160, 300, 2.8 ,3.2, 2200, 2600, 115, 125, 1.2, 1.3, sukhoi
+	il96, 2, 160, 300, 2.8, 3.2, 2000, 2300, 140, 155, 1.2, 1.3, ilyushin
+	b46, 5, 160, 300, 2.8, 3.2, 2200, 2400, 112, 118, 1.2, 1.3, bae
+	j328, 6, 160, 300, 2.8, 3.2, 2200, 2600, 110, 120, 1.2, 1.3, dornier
+	
