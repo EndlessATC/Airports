@@ -1,0 +1,382 @@
+# Cincinnati
+# Made by Jacob (Bombardier Global 7500#5499)
+# Hub for DHL
+# special airlines
+# Retired and future airplanes
+# Antonovs
+
+[airspace]
+radius = 52
+elevation = 896
+usa = true
+letters = 50
+separation = 0
+transition = 18001
+name = Cincinnati Approach, Cincinnati Departure
+center = N39.0488014221, W84.6678009033
+automatic = true
+magneticvar = -3.587
+beacons =
+	CVG, N39.01600, W84.70330, 0, Cincinnati
+	UR, N39.04570, W84.77300, 0, Burln
+	LUK, N39.15960, W84.34130, 0, Cincinnati
+	ISZ, N39.24880, W84.38960, 0, Cincinnati Blue Ash
+	MDE, N39.22270, W84.35540, 0, Madeira
+	HAO, N39.37290, W84.57210, 0, Hamilton
+	PWF, N39.07670, W84.21540, 0, Sportys
+	OXD, N39.50750, W84.78060, 0, Oxford
+	HKF, N39.49880, W84.44750, 0, Hook
+	FLM, N38.64950, W84.31060, 0, Falmouth
+	MW, N39.57830, W84.32350, 0, Onida
+	GEO, N38.88200, W83.88520, 0, Georgetown
+	IMS, N38.76090, W85.46050, 0, Madison
+	HW, N39.35350, W83.87580, 0, Cubla
+	RID, N39.75510, W84.83880, 0, Richmond
+	OVO, N39.04980, W85.60110, 0, North Vernon
+	CEV, N39.69760, W85.13440, 0, Connersville
+	MXQ, N39.42970, W83.80120, 0, Midwest
+	SQ, N39.77690, W85.12990, 0, Pnthr
+	AT, N39.84700, W84.33480, 0, Bruny
+	IL, N39.49190, W83.73670, 0, Airbo
+	FGX, N38.53810, W83.74690, 0, Flemingsburg
+	XEN, N39.71510, W83.92990, 0, Xenia
+	ABB, N38.58880, W85.63600, 0, Nabb
+	FFO, N39.81900, W84.05550, 0, Patterson
+	XW, N38.57360, W83.64700, 0, Flmng
+	UWL, N39.88000, W85.31880, 0, New Castle
+	JV, N38.47400, W85.73720, 0, Catch
+	SGH, N39.83650, W83.84500, 0, Springfield
+	XSF, N39.83810, W83.84060, 0, Springfield
+	CCJ, N39.87360, W83.77910, 0, Clark Co
+	BQM, N38.23020, W85.66470, 0, Bowman
+	IIU, N38.10350, W85.57740, 0, Louisville
+
+# BNGLE4 Sid
+#	BONLE, N39.02.46.370, W84.50.18.540, 0, Bonnel
+#	AMMOT, N39.11.55.290, W84.52.18.980, 0, Ammott
+#	BNGLE, N39.33.01.130, W84.24.32.270, 0, Bangle
+#	RIKLE, N39.49.50.000, W84.07.18.000, 0, Rickle
+# 18L
+#	CAMUM, N38.57.26.790, W84.37.53.440, 0, Camum
+#	ANTEO, N38.56.05.000, W84.34.36.370, 0, Anteo
+#	CODKO, N38.56.04.950, W84.29.59.380, 0, Cod Co
+#	JBETH, N38.59.54.990, W84.26.17.410, 0, Jay Beth
+#	FOPAS, N39.05.16.400, W84.24.52.600, 0, Fopass
+# CHCHLL5 Sid
+#	CULED, N38.52.54.760, W84.52.18.000, 0, Culled
+#	CHCLL, N38.28.49.680, W84.58.42.580, 0, Churchill
+#	PONIE, N38.19.50.070, W85.03.16.720, 0, Pony
+# 18L
+#	ZEGUL, N38.49.44.130, W84.35.07.640, 0, Zeagull
+# GIPLE6 Sid
+#	HIPAS, N38.52.49.900, W84.39.42.830, 0, Hippas
+#	GIPLE, N38.52.40.760, W84.02.49.770, 0, Gippel
+#	HOBNO, N38.48.44.590, W83.44.31.410, 0, Hob No
+#	RHOMM, N38.45.52.680, W83.31.21.050, 0, Rom
+# JBNCH5 Sid 18L
+#	FEBLU, N38.53.51.720, W84.41.05.010, 0, Febloo
+#	GUMRE, N38.53.53.810, W84.45.57.300, 0, Gum Ree
+#	HERMM, N38.58.40.780, W84.52.48.600, 0, Herm
+#	JBNCH, N39.34.52.850, W85.01.21.310, 0, Jay Bench
+# CEGRM5 Star
+	CEGRM, N39.31.05.400, W85.29.06.040, 0, Cegram
+#	BCATT, N39.28.11.580, W85.23.50.460, 0, Bee Cat
+# GAVNN6 Star
+	GAVNN, N38.36.52.970, W83.55.31.210, 0, Gavin
+#	KNEDY, N38.39.39.380, W84.00.48.590, 0, Kennedy
+#	AAJAY, N38.55.56.440, W84.32.33.670, 0, AJ
+#	BACAS, N39.07.41.000, W84.32.27.000, 0, Backas
+#	OGIRE, N39.24.53.000, W84.32.30.000, 0, Ogire
+# SARGO3 Star
+	SARGO, N38.40.08.060, W85.27.47.700, 0, Sargo
+#	TYOTA, N38.42.33.630, W85.22.13.090, 0, Toyota
+#	FIDEK, N38.57.49.000, W84.46.48.000, 0, Fidek
+#	BAMGE, N39.07.42.000, W84.46.43.000, 0, Bamgee
+#	AGEBE, N39.24.53.000, W84.46.48.000, 0, Agebee
+# TIGRR3 Star
+	JARSO, N39.35.30.260, W83.54.42.050, 0, Jar So
+#	TIGRR, N39.29.24.210, W84.03.10.780, 0, Tiger
+#	CHARZ, N39.23.34.100, W84.11.15.140, 0, Chars
+
+handoff =
+	090, Indianapolis center, Indi Center, 124.77
+	180, Indianapolis center, Indi Center, 121.17
+	270, Indianapolis center, Indi Center, 121.17
+	360, Indianapolis center, Indi Center, 124.77
+
+line1 =
+	N38.69366, W85.18604
+	N38.70412, W85.21112
+	N38.72704, W85.24663
+	N38.73720, W85.30675
+	N38.72996, W85.40543
+	N38.68309, W85.44478
+	N38.59658, W85.42483
+	N38.53021, W85.45868
+	N38.48401, W85.54632
+	N38.42303, W85.60890
+	N38.34730, W85.64642
+	N38.30136, W85.70629
+	N38.28521, W85.78845
+	N38.21503, W85.85493
+	N38.09091, W85.90568
+
+line2 =
+	N38.63891, W83.20347
+	N38.62741, W83.35697
+	N38.67950, W83.46058
+	N38.69986, W83.53838
+	N38.68278, W83.61631
+	N38.64953, W83.68987
+	N38.66937, W83.75227
+	N38.73123, W83.82808
+	N38.77422, W83.94838
+	N38.79838, W84.11323
+	N38.86520, W84.22728
+	N38.97470, W84.29043
+	N39.04992, W84.35802
+	N39.09090, W84.43006
+	N39.10283, W84.50887
+	N39.08578, W84.59455
+	N39.09446, W84.66054
+	N39.12890, W84.70694
+	N39.12500, W84.76591
+	N39.08268, W84.83743
+	N39.03971, W84.86060
+	N38.99604, W84.83549
+	N38.96057, W84.83660
+	N38.93323, W84.86388
+	N38.91290, W84.85417
+	N38.89954, W84.80745
+	N38.86838, W84.78963
+	N38.81939, W84.80074
+	N38.76957, W84.90125
+	N38.71355, W85.09390
+	N38.69725, W85.13552
+	N38.69038, W85.16989
+	N38.69366, W85.18611
+
+[airport1]
+name = Cincinnati Northern Kentucky International Airport
+code = KCVG
+runways =
+	rwy1, 09, N39.0464, W84.6951, 90.0, 12001, 0, 0, 883
+	rwy2, 18C, N39.0647, W84.6686, 180.0, 11000, 0, 0, 875, 3, 180.0, 0, 0, 0, 0, 0, 0, 118.3, Cincinnati Tower
+	rwy3, 18L, N39.0559, W84.6467, 180.0, 10000, 0, 0, 886, 3, 180.0, 0, 0, 0, 0, 0, 0, 118.975, Cincinnati Tower
+	rwy4, 18R, N39.0709, W84.6837, 180.0, 8000, 0, 0, 866, 3, 180.0, 0, 0, 0, 0, 0, 0, 133.325, Cincinnati Tower
+airlines =
+	abx, 10, b762/b763, abex, nswe
+	pac, 8, b744/b748/b763/b77l, polar, nswe
+	cks, 5, b744/b763/b77l, connie, nswe
+	box, 5, b77l, german cargo, new
+	gti, 4, b744/b748/b763/b77l, giant, nswe
+	bcs, 3, a306/a332/a333/b752, eurotrans, nswe
+	swq, 3, b734/b738, swift flight, nswe
+	abr, 2, a306/a333, contract, e
+	dhk, 2, b752/b763/b77l, world express, e
+	soo, 2, b734/b738/b742/b743/b744/b77l, southern air, nswe
+	csb, 1, b762, cargo south, nswe
+	ajt, 1, b762, amerijet, e
+	kfs, 1, b734, kalitta, nswe
+	kii, 1, b734, dragster, nswe
+	ash, 1, b734/b738/crj9/e75s/e75l, air shuttle, nswe
+	jza, 1, crj2/crj9/dh8a/dh8c/dh8d/e75s/e75l, jazz, n
+	skv, 1, e75s/e75l, maple, n
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, alaska, w
+	aay, 1, a319/a320/b37m/b38m/b752/md81/md82/md83/md87/md88, allegiant, we
+	aal, 1, a319/a320/a321/a21n/b738/b38m/b752/e190/md81/md82/md83, american, swe
+	eny, 1, e140/e145/e75s/e75l, envoy, swe
+	pdt, 1, dh8a/dh8c/e145, piedmont, swe
+	jia, 1, crj7/crj9, blue streak, swe
+	dal, 1, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b737/b738/b739/b744/b752/b753/b763/b764/b772/b77l/md88/md90, delta, nswe
+	edv, 1, crj2/crj7/crj9, endeavour, swe
+	rpa, 1, e170/e75s/e75l, brickyard, swe
+	skw, 1, crj2/crj7/crj9/e75s/e75l, skywest, swe
+	fft, 1, a318/a319/a320/a20n/a321/a21n, frontier flight, sw
+	swa, 1, b733/b735/b737/b37m/b738/b38m, southwest, sw
+	scx, 1, b737/b738, sun country, nw
+	ual, 1, a319/a320/b735/b737/b738/b38m/b739/b39m/b3xm/b752/b753, united, nw
+	uca, 1, dh8b/dh8c/e145/e45x, commutair, ns
+	awi, 1, crj2, wisconsin, s
+	gjs, 1, crj7, lindbergh, n
+	viv, 1, a320/a20n/a321/a21n/b733, aeroenlaces, s
+	abw, 1, b742/b743/b744/b748/b77l, air bridge cargo, nw
+	atn, 1, b752/b762/b763/dc87, air transport, swe
+	cjt, 1, b752/b762/b763, cargo jet, w
+	csj, 1, c208/sf34, castle, w
+	fdx, 1, a306/a310/b721/b722/b752/b763/dc10/md10/md11, fed ex, s
+	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/g150/galx/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, nswe
+	dcm, 1, fa7x/fa8x/ga6c/gl5t/gl7t/glex/glf6, dot com, nswe
+	n-0000a, 1, gl5t/gl7t/gl8t/glex, nswe
+	n-000aa, 1, ga7c/ga8c/glf5/glf6, nswe
+	n-00aa, 1, jcom/ww23/ww24, nswe
+	n-0000a, 1, f2th/fa6x/fa7x/fa8x, nswe
+	n-000aa, 1, be40/h25a/h25b/h25c/h25x/ha4t, nswe
+# specials
+	ujc, 1, j328, ultimate, e
+	jdi, 1, gl5t/glex/glf6, jedi, n
+	plm, 1, a332/a333/b744, pullman, n
+	bvn, 1, c208, show me, s
+	vkg, 1, a332/a333, viking, n
+	cao, 1, b742/b744/b77l, air china freight, w
+	cns, 1, pc12/pc24, kronose, se
+	kye, 1, b744/md11, sky cube, s
+	cwc, 1, b744/md11, challenge cargo, s
+	jsx, 1, e135/e145, big stripe, w
+	cns, 1, pc12/pc24, kronose, swe
+	nos, 1, b763/b789, moon flower, n
+	mnu, 1, crj1/crj2/crj7/crj9, mainer, e
+	pbr, 1, c56x/c750/g150/galx, polar bear, n
+	vjt, 1, gl5t/gl7t/glex, vista jet, n
+	twy, 1, c56x/c680/cl30/cl35/cl60/e35l/f2th/f900/fa7x/ga5c/ga6c/gl5t/glex/glf3/glf4/glf5/glf6/h25b, twilight, swe
+	eja, 1, e55p/c680/c560/cl35/glf4/glex/c750/cl60/gl7t/c55b/c68a/glf5/c56x, exec jet, swe
+	gaj, 1, astr/c25a/c510/c525/c550/c56x/c680/c750/cl30/cl35/cl60/crj2/e35l/e55p/f2th/f900/fa7x/g150/g280/ga7c/galx/gl5t/glex/glf3/glf4/glf5/glf6/h25b/h25c/lj45/lj60/prm1, gama jet, swe
+
+entrypoints =
+	305, CEGRM
+	235, SARGO
+	128, GAVNN
+	045, JARSO
+
+[departure1]
+runway = rwy1, rev
+route1 =
+	BNGLE4, Bangle Four
+	N39.02.46.370, W84.50.18.540
+	N39.11.55.290, W84.52.18.980
+	N39.33.01.130, W84.24.32.270
+	N39.49.50.000, W84.07.18.000
+
+route2 =
+	CHCHLL5, Churchill Five
+	N39.02.46.370, W84.50.18.540
+	N38.52.54.760, W84.52.18.000
+	N38.28.49.680, W84.58.42.580
+	N38.19.50.070, W85.03.16.720
+	N38.10350, W85.57740
+
+route3 =
+	GIPLE6, Gippel Six
+	N39.02.46.370, W84.50.18.540
+	N38.52.54.760, W84.52.18.000
+	N38.52.49.900, W84.39.42.830
+	N38.52.40.760, W84.02.49.770
+	N38.48.44.590, W83.44.31.410
+	N38.45.52.680, W83.31.21.050
+
+route4 =
+	JBNCH5, Jay Bench Five
+	N39.02.46.370, W84.50.18.540
+	N39.34.52.850, W85.01.21.310
+
+[departure2]
+runway = rwy3
+route1 =
+	BNGLE4, Bangle Four
+	N38.57.26.790, W84.37.53.440
+	N38.56.05.000, W84.34.36.370
+	N38.56.04.950, W84.29.59.380
+	N38.59.54.990, W84.26.17.410
+	N39.05.16.400, W84.24.52.600
+	N39.33.01.130, W84.24.32.270
+	N39.49.50.000, W84.07.18.000
+
+route2 =
+	CHCLL5, Churchill Five
+	N38.57.26.790, W84.37.53.440
+	N38.49.44.130, W84.35.07.640
+	N38.28.49.680, W84.58.42.580
+	N38.19.50.070, W85.03.16.720
+	N38.10350, W85.57740
+
+route3 =
+	GIPLE6, Gippel Six
+	N38.57.26.790, W84.37.53.440
+	N38.56.05.000, W84.34.36.370
+	N38.56.04.950, W84.29.59.380
+	N38.52.40.760, W84.02.49.770
+	N38.48.44.590, W83.44.31.410
+	N38.45.52.680, W83.31.21.050
+
+route4 =
+	JBNCH5, Jay Bench Five
+	N38.57.26.790, W84.37.53.440
+	N38.53.51.720, W84.41.05.010
+	N38.53.53.810, W84.45.57.300
+	N38.58.40.780, W84.52.48.600
+	N39.34.52.850, W85.01.21.310
+
+[approach1]
+runway = rwy4
+beacon = CEGRM
+route1 =
+	310, CEGRM5, Cegram Five
+	N39.31.05.400, W85.29.06.040
+	N39.28.11.580, W85.23.50.460
+	end, 100
+
+[approach2]
+runway = rwy4
+beacon = SARGO
+route2 =
+	225, SARGO3, Sargo Three
+	N38.40.08.060, W85.27.47.700
+	N38.42.33.630, W85.22.13.090
+	N38.57.49.000, W84.46.48.000
+	N39.07.42.000, W84.46.43.000
+	N39.24.53.000, W84.46.48.000
+	end, 004
+
+[approach3]
+runway = rwy3
+beacon = GAVNN
+route3 =
+	128, GAVNN6, Gavin Six
+	N38.36.52.970, W83.55.31.210
+	N38.39.39.380, W84.00.48.590
+	N38.55.56.440, W84.32.33.670
+	N39.07.41.000, W84.32.27.000
+	N39.24.53.000, W84.32.30.000
+	end, 006
+
+[approach4]
+runway = rwy3
+beacon = JARSO
+route4 =
+	045, TIGRR3, Tiger Three
+	N39.35.30.260, W83.54.42.050
+	N39.29.24.210, W84.03.10.780
+	N39.23.34.100, W84.11.15.140
+	end, 265
+
+[configurations]
+config1 =
+	0, rwy1, startrev
+	0, rwy2, land
+	0, rwy3, landstart
+	0, rwy4, land
+
+[planetypes]
+types =
+	B721, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
+	B722, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3
+	DC10, 2, 160, 300, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3
+	J328, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	E45X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 116, 125, 1.1, 1.3
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	A124, 2, 170, 300, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.2
+	A225, 1, 180, 300, 2.2, 2.4, 1000, 1400, 160, 180, 1.0, 1.1
+	WW23, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	WW24, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	JCOM, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25A, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	BE40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HDJT, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	PRM1, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
