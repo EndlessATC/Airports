@@ -175,6 +175,7 @@ airlines =
 	abr, 2, a306/a333, contract, e
 	dhk, 2, b752/b763/b77l, world express, e
 	soo, 2, b734/b738/b742/b743/b744/b77l, southern air, nswe
+	dpj, 2, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/g150/galx/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, nswe
 	csb, 1, b762, cargo south, nswe
 	ajt, 1, b762, amerijet, e
 	kfs, 1, b734, kalitta, nswe
@@ -188,7 +189,7 @@ airlines =
 	eny, 1, e140/e145/e75s/e75l, envoy, swe
 	pdt, 1, dh8a/dh8c/e145, piedmont, swe
 	jia, 1, crj7/crj9, blue streak, swe
-	dal, 1, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b737/b738/b739/b744/b752/b753/b763/b764/b772/b77l/md88/md90, delta, nswe
+	dal, 1, bcs1/bcs3/a319/a320/a321/a21n/a332/a333/a339/a359/b712/b737/b738/b739/b3xm/b744/b752/b753/b763/b764/b772/b77l/md88/md90, delta, nswe
 	edv, 1, crj2/crj7/crj9, endeavour, swe
 	rpa, 1, e170/e75s/e75l, brickyard, swe
 	skw, 1, crj2/crj7/crj9/e75s/e75l, skywest, swe
@@ -205,7 +206,6 @@ airlines =
 	cjt, 1, b752/b762/b763, cargo jet, w
 	csj, 1, c208/sf34, castle, w
 	fdx, 1, a306/a310/b721/b722/b752/b763/dc10/md10/md11, fed ex, s
-	dpj, 1, c25a/c25b/c55b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/g150/galx/glf4/glf5/h25b/ha4t/lj45/lj60/lj75, jet card, nswe
 	dcm, 1, fa7x/fa8x/ga6c/gl5t/gl7t/glex/glf6, dot com, nswe
 	n-0000a, 1, gl5t/gl7t/gl8t/glex, nswe
 	n-000aa, 1, ga7c/ga8c/glf5/glf6, nswe
@@ -219,7 +219,8 @@ airlines =
 	bvn, 1, c208, show me, s
 	vkg, 1, a332/a333, viking, n
 	cao, 1, b742/b744/b77l, air china freight, w
-	cns, 1, pc12/pc24, kronose, se
+	jat, 1, a320/a20n/a21n, rock smart, s
+	cns, 1, pc12/pc24, chronos, se
 	kye, 1, b744/md11, sky cube, s
 	cwc, 1, b744/md11, challenge cargo, s
 	jsx, 1, e135/e145, big stripe, w
