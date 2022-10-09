@@ -1,12 +1,11 @@
-# KICT (Release 0.1 2022-09-30)
+# KICT (Release 0.1 2022-10-08)
 # By: WeatherDan (Discord: WeatherDan#3671)
 #
 # Notes/Errata:
 # 1 Wichita Approach airspace is only 20nm, but that doesn't really work well
 # with the game's approaches. So it's set to 30 nm for ease of gameplay.
 # 2 Artifically reduced the amount of C172 trafffic for difficulty's sake. 
-# 3 ICT has no approach or departure procedures aside from the ILS/RNAV;
-# the ones defined here are arbitrary. 
+# 3 ICT has no approach or departure procedures aside from the ILS/RNAV.
 # 4 Custom planetypes listed below taken from CessnaSkyhawk's list on Discord
 # https://discord.com/channels/760583423084593173/800082195757924413/1022738842576490557
 # 
