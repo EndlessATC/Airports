@@ -6473,8 +6473,8 @@ points =
 [area8]
 shape = polygon
 altitude = -1
-name = X
-labelpos = N0.0 E0.0
+name = x
+labelpos = N0.0, E0.0
 points =
        N3.3961666666667, E100.26666666667
        N3.1628333333333, E100.51666666667
