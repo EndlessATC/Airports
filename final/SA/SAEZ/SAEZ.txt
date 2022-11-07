@@ -4,6 +4,7 @@
 #THE AIRPORT IS STIL IN THE DEVELOPMENT
 
 [airspace]
+radius = 80
 zoom = 5.0
 descentaltitude = 18000
 ceiling = 14000
