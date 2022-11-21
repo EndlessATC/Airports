@@ -188,10 +188,6 @@ airlines =
          4R-AAA, 0.1, E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525/b200/b350, 0, nswe
          B-0000, 0.1, E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525/b200/b350, 0, nswe
          RDPL-0000, 0.1, E35L/CL30/CL35/GLF6/GLEX/GLF4/C56X/GLF5/C25B/LJ45/C525/b200/b350, 0, nswe
-        
-
-#####
-#cargo ops
          clx, 2, b748, cargolux, nswe
          fdx, 2, b77l/b763, fed-ex, nswe
          hkc, 2, a332, bauhinia, ne
