@@ -1,4 +1,4 @@
-# EDDM v1.4
+# EDDM v1.5
 # Munich Airport "Franz Josef Strauß" in the south of Germany.
 
 [airspace]
@@ -167,96 +167,85 @@ runways =
 
 entrypoints = 
 	40, landu
-	100, napsa
-	120, napsa
-	130, napsa
-	220, betos
-	230, betos
-	300, rokil
-	320, rokil
+	100, napsa, 9000
+	120, napsa, 10000
+	130, napsa, 11000
+	220, betos, 9000
+	230, betos, 10000
+	300, rokil, 9000
+	320, rokil, 10000
 
 climbaltitude = 7000
 
 airlines =
-	AAL, 1, 	A332/B788, American, nw
-	ABW, 1,		B744/B748, AIRBRIDGECARGO, new
-	ACA, 1,		B789/B77W, Air Canada, nw
+	AAL, 1, 	B788/B772, American, nw
+	ACA, 1,		B788/B789/B77W, Air Canada, nw
 	AEA, 1,		B738/E195, Europa, sw
 	AEE, 2, 	A320/A321/A20N/A21N, Aegean, se
-	AER, 2, 	a320/a321/b738, Aeroflot, ne
-	AFR, 3,		A318/A319/A320/A321, Airfrans, nw
+	AFR, 3,		E190/BCS3/A318/A319/A320/A321, Airfrans, nw
 	AMC, 1, 	A320/A20N, Air Malta, s
 	ANA, 1,		B789, All Nippon, ne
 	AUA, 2,		A320/A319, Austrian, e
 	AUI, 2, 	B738/E190, Ukraine International, e
-	AVA, 1,		B788, Avianca, w
-	AZA, 2, 	A319/A320/E175, Alitalia, s
-	AZO, 1, 	SU95, Azimuth, ne
-	BAW, 3, 	a319/a320/a21n/a20n, Speedbird, nw
+	BAW, 3, 	a319/a320/a321/a21n/a20n, Speedbird, nw
 	BCS, 1, 	a306/b752, eurotrans, n
-	BLA, 1, 	B735/B738, Blue Air, se
-	BRU, 1, 	E175, Belarus Avia, ne
+	BLA, 1, 	B735/B738/B38M, Blue Air, se
 	BTI, 1, 	bcs3, Air Baltic, ne
-	CAI, 1, 	B738, Corendon, sew
+	CAI, 1, 	B738/B38M, Corendon, sew
 	CCA, 1, 	a359/b77w, Air China, ne
-	CFG, 1,		B752/B753/B763, Condor, sew
+	CFG, 1,		B752/B753/B763/A321, Condor, sew
 	CFG, 3, 	A320, Condor, sew
-	CLH, 3, 	CRJ9, Hansaline
 	cs-abc, 1, 	CL30/C560, 0, swne
 	CTN, 1, 	dh8d, Croatian, se
-	D-abcd, 1,  C525/C560/E135/J328/A318/A319/A359, 0, swne
+	D-abcd, 1,  C525/C560/E135/J328/A318/A319/A20N/A19N/A359, 0, swne
 	DAL, 1, 	B763/B764/A332/A333, Delta, nw
 	DLA, 3, 	e195, Dolomiti, s
-	DLH, 10,	A319/A320/A20N/A321/E195/CRJ9, Lufthansa
-	DLH, 10,	A319/A320/A20N/A321/E195/CRJ9, Lufthansa
-	DLH, 10,	A319/A320/A20N/A321/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
+	DLH, 10,	A319/A320/A20N/A21N/A321/E195/CRJ9, Lufthansa
 	DLH, 2,		A346/A388, Lufthansa
-	DLH, 2,		A359, Lufthansa
+	DLH, 4,		A359, Lufthansa
 	EIN, 1,		a320, Shamrock, nw
 	ELY, 1, 	B738/B739, Elal, s
-	ETD, 1, 	B77W/B789/B78X, Etihad, se
+	ETD, 1, 	B789/B78X, Etihad, se
+	EVA, 1,		B789/B77W, EVA, se
 	EWG, 10, 	A320/A319, Eurowings
 	EZY, 2,		A319/A320/A20N, Easy, nw
-	FDX, 1, 	B77L, Fedex, nw
-	FIN, 2, 	A320/A321, Finnair, n
-	IBE, 2, 	A319/A320/A321, Iberia, sw
-	IBK, 2,		B738, Nortrans
-	ICE, 1, 	b752/b753/b763, Iceland air, n
-	KAC, 1, 	a20n/B77W, Kuwaiti, se
-	KLM, 2, 	b738/b737/e190/e175, KLM, nw
+	FIN, 2, 	E190/A319/A320/A321, Finnair, n
+	IBE, 2, 	A319/A320/A20N/A321, Iberia, sw
+	ICE, 1, 	b752/b753/b763/b38m/b39m, Iceland air, n
+	ITY, 2, 	A319/A320, itarrow, s
+	KAC, 1, 	a320/a20n/B77W, Kuwaiti, se
+	KLM, 2, 	b739/b738/b737/e190/e175/e295, KLM, nw
 	LGL, 1, 	dh8d, Luxair, nw
-	LOT, 2, 	b738/e170/e190/e195, Pollot, e
-	MSR, 1,		B738, Egyptair, s
-	NAX, 1, 	B738, Norshuttle, n
-	OMA, 1, 	A333, Oman Air, s
+	LOT, 2, 	b738/b38m/e170/e190/e195, Pollot, e
+	MSR, 1,		B738/A20N, Egyptair, s
+	NOZ, 1, 	B738, NORSEMAN, n
+	OCN, 4, 	A320, Ocean, se
+	OCN, 2, 	A333, Ocean, nw
+	OMA, 1, 	B788/B789, Oman Air, s
 	PGT, 2, 	A320/A20N/B738, Sunturk, se
-	QTR, 2, 	b77w/a359, Qatari, se
-	RAM, 1, 	B738/E190, royal air maroc, sw
+	QTR, 2, 	a359/B788/B789, Qatari, se
 	RJA, 1,		a319/a321, Jordanian, nse
 	ROT, 1, 	A318/B738/B733, Tarom, se
-	RYR, 1, 	B738, Ryanair, n
-	SAA, 1,	 	a332/a343/a346, springbok, s
-	SAS, 3, 	crj9/a20n/b738/b737, Scandinavian, n
-	SBI, 1, 	b738/a320/a20n, Siberian, ne
-	SDM, 1, 	A319, Rossiya, ne
-	SIN, 1, 	B77W/a359, Singapore, se
+	SAS, 3, 	crj9/a20n/b737, Scandinavian, n
+	SEH, 1, 	A20N, Air crete, se
+	SIN, 1, 	a359, Singapore, se
+	SMR, 1, 	B739, Somon Air, e
 	SVA, 1, 	a320/a333, Saudia, se
-	SVR, 1, 	A20N, SVERDLOVSK AIR, ne
-	SWR, 2, 	bcs1/bcs3, Swiss, sw
-	SXS, 3, 	B738, Sunexpress, se
+	SWR, 2, 	bcs1/bcs3/e290, Swiss, sw
+	SXS, 3, 	B738/B38M, Sunexpress, se
 	TAP, 2, 	a319/a320/a20n/a21n/a321/e190, Airportugal, nsw
-	TAR, 1, 	A319/A320, Tunair, s
-	THA, 1, 	B77W, Thai, se
+	TAR, 1, 	A319/A320/A20N, Tunair, s
+	THA, 1, 	B77W/A359, Thai, se
 	THY, 1, 	a319/a320/a332/a333, Turkish, se
-	THY, 3, 	a321/a21n/b738, Turkish, se
+	THY, 3, 	a321/a21n/b738/B38M/B39M, Turkish, se
 	TUI, 3, 	B738, Tuifly, swe
 	UAE, 1, 	B77W/A388, Emirates, se
-	UAL, 3, 	b78x/b789/b788/b763/b764, United, nw
+	UAL, 3, 	b78x/b789/b788/b763/b764/B77W, United, nw
 	UZB, 1, 	A20N, Uzbek, e
-	VDA, 1, 	A124/IL76, Volga, nswe
 	VUE, 1, 	a319/a320/A20N/a321, Vueling, s
-	WIF, 1, 	E190, Wideroe, n
-# TODO fix missing E290
+	WIF, 1, 	E290, Wideroe, n
 
 [departure1]
 runway = rwyn, rev
@@ -355,7 +344,7 @@ route5 =
 # DM049, DM050, OTT, LAKOL, ROTAX
 
 route6 = 
-	TUL3S, tulsi six sierra
+	TUL7S, tulsi seven sierra
 	N48.337669, E11.709431
 	N48.287569, E11.708006
 	N48.180394, E11.816536
@@ -434,7 +423,7 @@ route6 =
 # DM080, DM092, DM467, ROTAX
 
 route7 =
-	TUL2E, tulsi two echo
+	TUL3E, tulsi three echo
 	N48.356147, E11.954686
 	N48.293889, E12.027778
 	N48.071133, E12.014789
