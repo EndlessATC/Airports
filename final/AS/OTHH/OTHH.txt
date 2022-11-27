@@ -114,7 +114,14 @@ entrypoints =
             043, bayan
             267, ginto
 
-
+sids =
+     alsem, N25.451, E52.726666666667, alsem
+     alven, N25.905, E51.890277777778, alven
+     bundu, N25.006666666667, E52.489833333333, bundu
+     namla, N25.092166666667, E52.558333333333, namla
+     patom, N25.972666666667, E51.316944444444, patom
+     salwa, N25.2605, E50.522222222222, salwa
+     vaxim, N25.6785, E52.372222222222, vaxim
 
 airlines =
          qtr, 7, a320, qatari, nswe
@@ -190,7 +197,7 @@ airlines =
          ltc, 2, a333, latcharter, n
          bru, 2, e295, belarus avia, n
          thy, 1, a21n, turkish, n
-         
+         klm, 1, b772, klm, n
           
 
 
