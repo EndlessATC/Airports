@@ -6,25 +6,29 @@ Second hub of Lufthansa, offering many international and intercontinental routes
 
 ## Some tips on how it can be played
 
-- The approaches are meant to help coordination during high traffic. During low traffic, controllers usually skip the transitions completely and vector to final, sometimes giving directs to waypoints.
+- The approaches are meant to help coordination during high traffic. During low traffic, controllers usually skip the transitions completely and vector to final, sometimes giving directs to waypoints. In Munich there are usually no fully programmed approaches, vectoring at least onto the ILS is your job :)
 - Departures are cleared to FL70, meaning that they might have to pass below approaching traffic following the transitions. This is one reason why vectoring arriving planes can be handy, as you can keep more space between arrivals and departures.
-- Maximum Skill Cap 16 works fine so that some planes can still depart between the arrivals.
+- Maximum Skill Cap 16 works fine so that some planes can still depart between the arrivals. Both runways are usually not at full landing capacity unlike EDDF because they need to be shared between departures and arrivals.
+- Cargo Aircraft preferably land on the southern runway to reduce their taxi time. Apart from that, both runways can be freely used in practice. Both runways are 4000m / 13100 ft long. The distance between the runways is enough for fully independent arrivals.
 
 ## Already working:
 - most SIDs exist
 - various transitions and approach waypoints
 - real airspaces
-- pre-covid airlines
 
-## TODOs, help wanted!
+## TODOs
+- fix planes getting "diverted" because they can't climb fast enough
 - general aviation traffic missing, maybe government traffic
-- special cargo traffic missing, for example antonovs
 - airline traffic frequency balance probably not ideal
 - check if airspace height restrictions make sense
 - check if some SIDs can be removed because they are barely used in real life
-- check if arrival entry directions make sense, same for descent altitude
 
 ## Changelog
+
+### v1.5
+
+- Updates airlines/planes active in 2022 or which are likely to come back soon
+- Adjusted initial descents
 
 ### v1.4
 
