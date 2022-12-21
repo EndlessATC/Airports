@@ -678,9 +678,9 @@ sids =
 	BAYYS, N41.17.11.556, W72.57.59.176, Bays
 
 entrypoints = 
-	249, BEUTY, 11000
-	249, BEUTY, 11000
-	249, BEUTY, 11000
+	249, BEUTY, 10000
+	249, BEUTY, 10000
+	249, BEUTY, 10000
 	222, KORRY, 11000
 	222, KORRY, 11000
 	222, KORRY, 11000
@@ -726,7 +726,7 @@ airlines =
 	wja, 1, b737/b738/b37m/b38m/b3xm, westjet, n
 #Private
 	fth, 0.5, c750, foothills
-	n-744hj, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	n-744hj, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/ea50/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
 	n-324ch, .1, b737
 	lxj, 0.5, e55p/glf4/cl35, flexjet
 	cns, 1, pc12/pc24, chronos
@@ -762,27 +762,35 @@ runways =
 
 climbaltitude = 3000
 
-traffic = 6
+traffic = 5
 
 airlines =
 	lxj, 1, e55p/glf4/cl35, flexjet
-	eja, 1, c680/glf4/glex/c68a/c700/cl30/cl60/e55p, execjet
+	eja, 3, c680/glf4/glex/c68a/c700/cl30/cl60/e55p, execjet
 	fth, 1, c750, foothills
 	cns, 1, pc12/pc24, chronos
-	n-744hj, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
+	n-744hj, 2, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/ea50/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
 	dpj, 1, c25a/c25b/c560/c56x/c680/c750/cl30/cl35/cl60/e55p/fa7x/glf4/glf5/lj45/lj60/lj75, jet card
+	jit, 1, hdjt, jet it
 	gaj, 1, b350, gama jet
 	ejm, 1, glf5, jet speed
-	edv, 1, crj9, endeavor, e
-	awi, 1, crj2, air wisconsin, n
-	jia, 1, crj7, bluestreak, e
-	skw, 1, crj7, skywest
+	edv, 2, crj9, endeavor, e
+	awi, 2, crj2, air wisconsin, n
+	jia, 2, crj7, bluestreak, e
+	skw, 2, crj7, skywest
 	cwg, 1, e35l, clear wing
-	jbu, 2, a320/e190, jetblue, e	
-	mxy, 1, bcs3/e195, moxy
+	jbu, 6, a320/e190, jetblue, e	
+	mxy, 2, bcs3/e195, moxy
 	jsx, 1, e145, big stripe
 	gpd, 1, c525/pc12, goodspeed, e
 	vte, 1, e135/e145, volunteer, se
+	lak, 1, c560/c56x, redlake
+	twy, 1, glf4/glf5/f900/cl60, twilight
+	xoj, 1, c750/cl30, exo jet
+	asp, 0.5, c25a/e545, airsprint
+	jtl, 0.5, g150/glf4/glf5/cl60/f2th/e35l/c750/c680/e550/cl30/galx/fa50/g150/g280/c650/c56x/h25b/lj45/be40/c550/c25b/c25c/lj40/e55p, jet linx, w
+	edg, 0.5, g280/glf4/glf5/glf6/glex/cl30/cl35/cl60, jet edge
+	c-abcd, 0.5, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/ea50/e545/e550/e50p/e55p/e35l/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx/glf2/glf3/glf4/glf5/glf6/ga4c/ga5c/ga6c/ga7c/ga8c/gl5t/gl7t/glex
 
 sids =
 	GREKI, N41.480008, W73.314161, Greki
@@ -803,6 +811,7 @@ sids =
 	BAYYS, N41.17.11.556, W72.57.59.176, Bays
 
 entrypoints = 
+	055, ALIXX, 4000
 	055, ALIXX, 4000
 	010, VALRE, 7000
 
@@ -871,10 +880,11 @@ sids =
 	BAYYS, N41.17.11.556, W72.57.59.176, Bays
 	
 airlines =
-	n-744hj, 1, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/e545/e550/e50p/e55p/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx
-	rli, 5, c25c/b350, reliant air
-	cns, 1, pc12/pc24, chronos
-	lxj, 0.1, e55p/glf4/cl35, flexjet
+	n-744hj, 3, tbm7/tbm8/tbm9/p46t/m600/pc12/pc24/sf50/be20/b350/be40/be4w/hdjt/c525/c550/c56x/c680/c750/c25a/c25b/c25c/ea50/e545/e550/e50p/e55p/p180/lj35/lj40/lj45/lj55/lj60/lj70/lj75/h25a/h25b/h25c/ha4t/f2th/fa5x/fa6x/fa7x/fa8x/f900/cl30/cl35/cl60/g150/g280/galx
+	rli, 3, c25c/b350, reliant air
+	cns, 3, pc12/pc24, chronos
+	eja, 1, c56x/c680/glf4/glex/c68a/c700/cl30/cl60/e55p, exec jet
+	lxj, 0.2, e55p/glf4/cl35, flexjet
 
 entrypoints = 
 	055, ALIXX, 4000
@@ -1517,6 +1527,90 @@ route1 =
 	N41.435328, W73.881736, 3000
 	end, 157
 	
+##Departures
+#[departure1]
+#runway = 13_LG
+#route1 =
+#	LGA7, Maspeth Climb
+#	N40°42.77', W73°49.55'
+#	N40°40.12', W73°53.57'
+#	N40°42.21', W73°58.20'
+#	N40.8218, W74.0662
+#	N41.0340, W74.2477
+#	N41.07.59.025, W74.41.27.998
+#route2 =
+#	LGA7, Maspeth Climb
+#	N40°42.77', W73°49.55'
+#	N40°40.12', W73°53.57'
+#	N40°42.21', W73°58.20'
+#	N40.8218, W74.0662
+#	N41.0340, W74.2477
+#	N41.13.30.755, W74.34.33.442
+#route3 =
+#	LGA7, Maspeth Climb
+#	N40°42.77', W73°49.55'
+#	N40°40.12', W73°53.57'
+#	N40°42.21', W73°58.20'
+#	N40.8218, W74.0662
+#	N41.0340, W74.2477
+#	N41.19.01.596, W74.27.43.902
+#route4 =
+#	LGA7, Maspeth Climb
+#	N40°42.77', W73°49.55'
+#	N40°40.12', W73°53.57'
+#	N40°42.21', W73°58.20'
+#	N40.8218, W74.0662
+#	N41.0340, W74.2477
+#	N41.24.13.828, W74.21.09.686	
+#route5 =
+#	LGA7, Maspeth Climb
+#	N40°42.77', W73°49.55'
+#	N40°40.12', W73°53.57'
+#	N40°42.21', W73°58.20'
+#	N40.8218, W74.0662
+#	N40.8114, W74.2783
+#	N40.33.35.070, W75.01.39.810
+#route6 =
+#	LGA7, Maspeth Climb
+#	N40°42.77', W73°49.55'
+#	N40°40.12', W73°53.57'
+#	N40°42.21', W73°58.20'
+#	N40.8218, W74.0662
+#	N40.8114, W74.2783
+#	N40.40.59.460, W75.04.35.320
+#route7 =
+#	LGA7, Maspeth Climb
+#	N40°42.77', W73°49.55'
+#	N40°40.12', W73°53.57'
+#	N40°42.21', W73°58.20'
+#	N40.8218, W74.0662
+#	N40.8114, W74.2783
+#	N40.55.19.000, W75.10.15.000
+#route8 =
+#	LGA7, Maspeth Climb
+#	N40°42.77', W73°49.55'
+#	N40°40.12', W73°53.57'
+#	N40°42.21', W73°58.20'
+#	N40.8218, W74.0662
+#	N40.8114, W74.2783
+#	N40.48.11.000, W75.07.25.000
+#route9 =
+#	LGA7, Coney Climb
+#	N40.6962, W73.8308
+#	N40.61247222, W73.89444444
+#	N40.3116294, W74.1597286
+#	N40.05.44.492, W74.09.37.077
+#route10 =
+#	LGA7, Coney Climb
+#	N40.6962, W73.8308
+#	N40.61247222, W73.89444444
+#	N40.3116294, W74.1597286
+#	N40.00.24.320, W74.15.04.61	
+#route11 =
+#	LGA7, Whitestone Climb
+#	N40°42.77', W73°49.55'
+#	N41.381950, W73.137431
+#
 [configurations]
 #Calm Winds Flow (Land 22/Dep 31 LGA, Land/Dep 16 HPN, Land/Dep 08 DXR)
 config1 =
@@ -1573,7 +1667,7 @@ config6 =
 	14, 08_DBP, landstart, 080, nosid
 #SE Flow (Land/Dep13 LGA, Land/Dep 16 HPN, Land/Dep 08 DXR)
 config7 =
-	0, 13_LG, startland, 180, nosid
+	0, 13_LG, startland, 180
 	0, dummy_LG, land
 	10, 16_WC, landstart, 320, nosid
 #	10, 16_WCP, landstart, 320, nosid
@@ -1639,21 +1733,23 @@ types =
 	tbm9, 6, 150, 300, 2.8, 3.2, 1320, 1440, 90, 100, 1.1, 1.3, t b m
 	p46t, 6, 150, 260, 2.8, 3.2, 1320, 1440, 95, 105, 1.1, 1.3, malibu
 	m600, 6, 150, 270, 2.8, 3.2, 1320, 1440, 95, 105, 1.1, 1.3, malibu
-	pc12, 6, 150, 270, 2.8, 3.2, 1320, 1440, 95, 105, 1.1, 1.3, pilatus
+	pc12, 6, 150, 270, 2.8, 3.2, 1320, 1440, 95, 105, 1.1, 1.3, puh la tuhs
 	sf50, 6, 150, 300, 2.8, 3.2, 1320, 1440, 95, 105, 1.1, 1.3, vision
 	b350, 6, 150, 300, 2.8, 3.2, 1320, 1440, 105, 110, 1.2, 1.3, king air	
 	be20, 6, 140, 300, 2.8, 3.2, 1320, 1440, 110, 115, 1.2, 1.3, king air
 	hdjt, 6, 140, 300, 2.8, 3.2, 1320, 1560, 112, 126, 1.1, 1.3, honda jet 
-	pc24, 6, 150, 300, 2.8, 3.2, 1320, 1560, 100, 110, 1.1, 1.3, pilatus
+	pc24, 6, 150, 300, 2.8, 3.2, 1320, 1560, 100, 110, 1.1, 1.3, puh la tuhs
 	c2, 6, 150, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, citation
 	c5, 6, 150, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, citation
-	c6, 6, 150, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, citation
-	c7, 6, 150, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, citation
+	ea50, 6, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, eclipse
 	e545, 6, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, legacy
 	e550, 6, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, legacy
 	e50p, 6, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, phenom
 	e55p, 6, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, phenom
+	p180, 6, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, avanti
 	lj, 6, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, lear jet
+	c6, 5, 150, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, citation
+	c7, 5, 150, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.2, 1.3, citation
 	h25a, 5, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.1, 1.3, hawker
 	h25b, 5, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.1, 1.3, hawker
 	h25c, 5, 160, 300, 2.8, 3.2, 1320, 1560, 110, 120, 1.1, 1.3, hawker
@@ -1692,11 +1788,19 @@ types =
 	k35e, 3, 160, 300, 2.3, 3.7, 1200, 1380, 127, 134, 1.1, 1.3, u s air force stratotanker
 	c130, 4, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3, u s air force hercules
 	f15, 5, 170, 500, 3.2, 5.0, 2000, 10000, 150, 160, 1.8, 2.3, u s air force eagle
+	f16, 5, 170, 500, 3.2, 5.0, 2000, 10000, 150, 160, 1.8, 2.3, u s air force fighting falcon
 	f18, 5, 170, 500, 3.2, 5.0, 2000, 10000, 150, 160, 1.8, 2.3, u s air force hornet
+	t38, 6, 170, 500, 3.2, 5.0, 2000, 10000, 150, 160, 1.8, 2.3, talon
+	ta4j, 6, 160, 300, 2.9, 3.2, 1440, 1560, 140, 150, 1.2, 1.3, a 4 skyhawk
+	tex2, 6, 110, 280, 2.9, 3.2, 1440, 1560, 95, 105, 1.1, 1.3, texan
 #airliners
-	dc91, 3, 160, 300, 2.3, 2.7, 1380, 1500, 127, 134, 1.1, 1.3, mcdonnell douglas
+	dc8, 3, 160, 300, 2.3, 2.7, 1380, 1500, 127, 134, 1.1, 1.3, douglas
+	dc9, 3, 160, 300, 2.3, 2.7, 1380, 1500, 127, 134, 1.1, 1.3, douglas
+	dc10, 2, 160, 300, 2.3, 2.7, 1000, 1440, 145, 160, 1.1, 1.3, douglas
 	conc, 2, 190, 500, 2.2, 2.4, 1200, 1380, 165, 180, 1.1, 2.0, Concorde
 	p212, 6, 110, 190, 2.8, 3.2, 800, 1200, 95, 105, 1.2, 1.3, tek nam
+	b721, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, boeing
+	b722, 4, 160, 300, 2.9, 3.2, 1440, 1560, 131, 144, 1.1, 1.3, boeing
 #special
 	a124, 2, 170, 300, 2.3, 2.7, 1200, 1380, 150, 170, 1.1, 1.2, Antonov
 	a225, 1, 180, 300, 2.2, 2.4, 1200, 1380, 155, 180, 1.1, 1.3, Mriya
