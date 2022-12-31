@@ -206,4 +206,4 @@ Generally, maximum tailwind component of 10 knots is allowed for landings. If pl
 |   2.0   | 31 December 2022 |  BestBearrr  | Initial release of updated TMA |
 |   1.3   |  11 August 2021  |    Jacob     |               -                |
 
-_Disclaimer: Information included herein is not guaranteed to be true-to-life. This file is intended for recreational use only._
+_Disclaimer: Information included herein is not meant to be true-to-life. This file is intended for recreational use only._
