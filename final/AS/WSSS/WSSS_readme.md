@@ -6,10 +6,13 @@ This file replicates the Singapore TMA, featuring Singapore Changi Airport (WSSS
 
 Airspace ceiling is set at FL240.
 
+Transition Altitude is 11000ft, while Transition Level is FL130.
+This means that any altitude in between is not to be used (like FL120).
+
 ### Features:
 
 * Simulates current operations (year 2022) at WSSS
-  * New third runway 02R/20L in use, while runway 02C/20C is closed for development works
+  * New third runway 02R/20L in use, while runway 02C/20C is closed for Changi East development works
 * SIDs and STARs, as well as 'unique' approaches to runways
 * Accurate representation of airlines and plane types as much as possible
 
@@ -66,7 +69,7 @@ Speed control: 180 knots by 8 NM from touchdown and thereafter 150 knots until 4
 
 * Departures & Arrivals to/from the North and West: Note minimum altitude restrictions in the area!
 
-  * **Also take note of WIDD (Batam) Control Zone. Planes must overfly at or above 4000ft!** 
+  * Also take note of **WIDD (Batam) Control Zone**. Planes must overfly **at or above 4000ft**! 
 
 * **Departures from runway 02R / 20L**
 
@@ -80,7 +83,7 @@ Speed control: 180 knots by 8 NM from touchdown and thereafter 150 knots until 4
 | 02C / 20C |   A / B    |
 | 02R / 20L |   C / D    |
 
-**STAR Suffix - Runway 02 is 'A'; Runway 20 is 'B'**.
+**STAR Suffix - Runway 02 is 'A', Runway 20 is 'B'**.
 
 Arriving planes converge at four waypoints (known as "entry gates").
 
@@ -89,13 +92,19 @@ Arriving planes converge at four waypoints (known as "entry gates").
 * South: `REMES`
 * West: `BOBAG`
 
-Holdings are typically used at these waypoints during periods of high traffic loads. 
+Holdings are typically used at these waypoints during periods of high traffic.
 
-All STARs end at a waypoint that is near the final approach area (Rwy 02: `SANAT`/`SAMKO` Rwy 20: `BIDUS`/`NYLON`/`BIPOP`). Then, planes are radar vectored to final.
+All STARs end at a waypoint that is near the final approach area (Rwy 02: `SANAT`/`SAMKO` Rwy 20: `BIDUS`/`NYLON`/`BIPOP`). Then, planes are radar vectored to final. 
 
 Feel free to use radar vectors at any time for sequencing / to avoid weather.
 
 More information on the approach procedures:
+
+* **ILS Approach to runway 02L / 20R**
+
+  Usually, planes are cleared to intercept the localizer first, and only when established on the localizer that they are cleared for the ILS approach (localizer + glideslope).
+
+  Most of the time, planes are cleared to descend to **2500ft** to intercept, but other altitudes are alright too.
 
 * **RNP Approach to runway 02R / 20L**
 
@@ -113,7 +122,7 @@ More information on the approach procedures:
 
 * **Wake Turbulence Separation** 
 
-  ICAO RECAT separation is applied between arriving aircraft.
+  ICAO RECAT separation is applied between landing aircraft.
 
 
 
@@ -173,7 +182,7 @@ Generally, maximum tailwind component of 10 knots is allowed for landings. If pl
 
 
 
-### Known Issues/Limitations:
+### Known Issues/Limitations
 
 ------
 
@@ -187,7 +196,7 @@ Generally, maximum tailwind component of 10 knots is allowed for landings. If pl
 
 
 
-### Many thanks to the following resources:
+### Many thanks to the following resources
 
 ------
 
@@ -206,4 +215,4 @@ Generally, maximum tailwind component of 10 knots is allowed for landings. If pl
 |   2.0   | 31 December 2022 |  BestBearrr  | Initial release of updated TMA |
 |   1.3   |  11 August 2021  |    Jacob     |               -                |
 
-_Disclaimer: Information included herein is not meant to be true-to-life. This file is intended for recreational use only._
+_Disclaimer: The information included herein is not meant to be true-to-life. This file is intended for recreational use only._
