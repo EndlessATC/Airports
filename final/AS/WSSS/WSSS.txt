@@ -1,32 +1,155 @@
-# This is an automatically generated airport file for Endless ATC.
-# Feel free to improve, use and share this file, at your own risk.
-# Data from ourairports.com.
-# Coastline from naturalearthdata.com.
-# See the example.txt airport for all possible sections and items to add to this file.
+#___________________________________________________________
+#     _____ _____   ___________    ____  ____  ____  ______
+#    / ___//  _/ | / / ____/   |  / __ \/ __ \/ __ \/ ____/
+#    \__ \ / //  |/ / / __/ /| | / /_/ / / / / /_/ / __/   
+#   ___/ // // /|  / /_/ / ___ |/ ____/ /_/ / _, _/ /___   
+#  /____/___/_/ |_/\____/_/  |_/_/    \____/_/ |_/_____/   
+#___________________________________________________________
+#
+# Singapore TMA v2.0
+# 	by BestBearrr
+#
+# Refer to WSSS_readme.md for more information!
 
 [airspace]
-radius = 40
+radius = 150
+zoom = 3
 elevation = 22
+floor = 1500
+descendaltitude = 15000
+ceiling = 22000
+above = 24000
+transitionaltitude = 11000
+speedrestriction = 40, 250, 10000, 250
+localizerspeed = 8, 150
+usa = false
+metric = false
+separation = 3
+automatic = true
+name = Singapore Approach, Singapore Departure
 center = N1.35019, E103.994003
-magneticvar = 0.202
+magneticvar = 0.383
 beacons =
-	BED, N1.31626, E103.96400, 0, Bedok
-	VTK, N1.41539, E104.02200, 0, Tekong
-	PLA, N1.37337, E103.91200, 0, Paya Lebar
+#	BED, N1.31626, E103.96400, 0, Bedok
+	VTK, N1.41539, E104.02200, 0, VICTOR TANGO KILO
+#	PLA, N1.37337, E103.91200, 0, Paya Lebar
 	PU, N1.42333, E103.93300, 0, Papa Uniform
-	SEL, N1.41653, E103.86500, 0, Seletar
-	KK, N1.52164, E103.99000, 0, Kong Kong
-	AG, N1.42333, E103.82300, 0, Sembawang
-	SJ, N1.22259, E103.85400, 0, Sinjon
-	BTM, N1.13688, E104.13300, 0, Batam
-	BM, N1.12126, E104.11100, 0, Batam
-	TNG, N1.39333, E103.71200, 0, Tengah
-	JB, N1.49994, E103.71200, 0, Jaybee
-	JR, N1.67494, E103.66000, 0, Johor Bahru
-	VJR, N1.72986, E103.62200, 0, Johor Bahru
-	TG, N1.04945, E103.38500, 0, Tanjung Balai
-	TI, N0.91973, E104.52600, 0, Tanjung Pinang
-	TPG, N0.90354, E104.51500, 0, Tanjung Pinang
+#	SEL, N1.41653, E103.86500, 0, Seletar
+#	KK, N1.52164, E103.99000, 0, Kong Kong *replaced by RNAV waypoint OMKOM
+#	AG, N1.42333, E103.82300, 0, Sembawang
+	SJ, N1.22259, E103.85400, 0, Sin jon
+	BTM, 1°8'13''N, 104°7'58''E, 0, BRAVO TANGO MIKE
+#	BM, N1.12126, E104.11100, 0, Batam
+#	TNG, N1.39333, E103.71200, 0, Tengah
+#	JB, N1.49994, E103.71200, 0, Jaybee *replaced by RNAV waypoint GUMPU
+#	JR, N1.67494, E103.66000, 0, Johor Bahru
+#	VJR, N1.72986, E103.62200, 0, Johor Bahru
+#	TG, N1.04945, E103.38500, 0, Tanjung Balai
+#	TI, N0.91973, E104.52600, 0, Tanjung Pinang
+#	TPG, N0.90354, E104.51500, 0, Tanjung Pinang
+#FIR BOUNDARIES
+	FIRJ3, 0°16'6''S, 104°9'18''E, 0, f i r j 3
+	PARDI, 0°34'0''S, 104°13'0''E. 0, PARDI
+	SAMKO, 1°5'30''N, 103°52'55''E, -348, SAMKO
+	NYLON, 1°36'57''N, 104°6'24''E, -203, NYLON
+	HOSBA, 1°19'48''N, 104°24'18''E, 0, HOSBA
+#BOBAG ENTRY GATE (ARAMA, ASUNA AND LELIB3B STARS)
+	TOPOR, 1°44'12''N, 102°53'30''E, 0, TOPOR
+	ARAMA, 1°36'54''N, 103°7'12''E, 0, ARAMA
+	BOBAG, 1°2'30''N, 103°29'54''E, 082, BOBAG
+	BOKIP, 1°4'21''N, 103°43'53''E, 0, BOKIP
+	ASUNA, 0°59'48''N, 103°9'54''E, 0, ASUNA
+	DOVAN, 1°19'38''N, 104°12'49''E, 0, DOU VEN
+	BIPOP, 1°31'22''N, 104°10'18''E, 0, BIPOP
+	LELIB, 1°27'29''N, 103°24'50''E, 0, LEH LIB
+	GUMPU, 1°29'59.50''N, 103°42'43.20''E, 0, GUM POOL
+	ALFA, 1°30'33''N, 103°49'42''E, 0, ALFA
+	BIDUS, 1°35'54''N, 103°57'55''E, 0, BIDUS
+#PASPU ENTRY GATE (ELALO AND MABAL STARS)
+	ELALO, 4°12'40''N, 104°33'29''E, -174, ELALO
+	KANLA, 3°45'56''N, 104°36'6''E, 0, KANLA
+	KILOT, 3°2'17''N, 104°40'23''E, -227, KI LOT
+	PIBAP, 2°30'23''N, 104°6'18''E, -180, PIBAP
+	PASPU, 1°59'15''N, 104°6'18''E, -180, PASS POOL
+	POSUB, 1°27'25''N, 104°7'48''E, 0, POSUB
+	SANAT, 1°7'49''N, 103°59'30''E, 0, SANAT
+	MABAL, 3°28'26''N, 105°12'36''E, -231, MABAL
+	NUFFA, 2°53'41''N, 103°38'30''E, 0, NUFFA
+#LAVAX ENTRY GATE (KARTO, OBDOS and SURGA STARS)
+	TOMAN, 1°21'47''N, 105°47'17''E, 0, TOMAN
+	KARTO, 1°11'24''N, 105°33'43''E, -269, KARTO
+	KEXAS, 1°10'19''N, 104°48'18''E, 0, KEX SESS
+	LAVAX, 1°9'50''N, 104°27'14''E, -269, LA VAX
+	IGNON, 1°8'47''N, 104°12'57''E, 0, IGNON
+	RUVIK, 1°14'22''N, 104°20'33''E, 0, RULE VIK
+	OBDOS, 0°25'3''N, 106°55'51''E, 0, OBDOS
+	IKAGO, 0°38'16''N, 105°29'31''E, 0, YI KA GO
+	IKIMA, 0°43'14''N, 104°55'0''E, 291, YI KI MA
+	IBULA, 0°50'36''N, 104°36'0''E, 0, YI BULA
+	SURGA, 0°36'57''S, 106°31'19''E, 0, SURGA
+	
+#REMES ENTRY GATE (REPOV STAR)
+	REPOV, 0°16'23''N, 104°3'0''E, -348, REE POTH
+	REMES, 0°43'42''N, 103°57'35''E, 348, REHMIS
+#RNP02R
+	LUVUL, 1°14'44.21''N, 103°58'02.76''E, 0, LOO VUL
+#	MOPSI, 1°16'34.76''N, 103°58'49.43''E, 0, MOPSI
+#RNP20L	
+	OBGIS, 1°25'56.83''N, 104°2'46.74''E, 0, ORB GEES
+#SELETAR WAYPOINTS
+	PONJO, 1°16'29''N, 103°46'29''E, 0, pawn jo
+	RECHI, 1°20'33''N, 103°49'8''E, 0, reh chee
+	SETHI, 1°24'39''N, 103°50'6''E, 0, sethi
+#	POINT ALFA
+	OMKOM, 1°31'12.40''N, 103°59'9.90''E, OMKOM
+	VIS03A, -4.47, 9.47, 0, expect to join left hand downwind runway 03
+	VIS03B, -7.03, 7.44, 0, expect to join left hand downwind runway 03
+	VIS21, -3.00, 11.12, 0, expect straight in final runway 2 1
+
+boundary =
+	-68.55, 13.22
+	N0.9683, E102.9726
+	N0.4885, E103.2827
+	N0.1529, E103.6827
+	N0.1623, E104.5351
+#IKAGO
+	N0.4414, E105.6227
+#SURGA
+#	S0.7719, E106.5812
+#OBDOS
+#	N0.5404, E107.2533
+#TOMAN
+	N0.8094, E105.8052
+	N1.4144, E105.8386
+#near LUSMO
+	N2.5479, E105.4409
+#KILOT
+	N3.2261, E104.7166
+#MABAL
+#	N3.6210, E105.3118
+#ELALO
+#	N4.3317, E104.5428
+#	N3.8854, E104.0926
+#NUFFA
+	-18.09, 102.64
+	-33.27, 89.16
+#AROSO
+	-26.10, 50.08
+#SABKA
+	-47.10, 31.59
+#TOPOR
+	-58.44, 26.65
+
+
+
+
+handoff =
+	360, Singapore Radar, Singapore Radar, 133.8
+	300, Singapore Radar, Singapore Radar, 133.25
+	270, Singapore Radar, Singapore Radar, 133.25
+	150, Singapore Radar, Singapore Radar, 134.4
+	070, Singapore Radar, Singapore Radar, 134.2
+
 
 line1 =
 	N0.71548, E102.84941
@@ -153,18 +276,329 @@ line12 =
 	N0.87988, E104.22705
 	N0.89673, E104.17051
 
-line13 =
-	N1.44707, E103.81797
-	N1.42344, E103.70527
-	N1.32554, E103.65020
-	N1.26538, E103.81992
-	N1.33145, E103.96973
-	N1.36523, E103.99639
-	N1.39224, E103.96084
-	N1.41597, E103.90898
-	N1.44707, E103.81797
+#	Singapore coastline
+line13=
+	N1.360057, E104.033609
+    N1.309584, E104.012803
+    N1.311312, E104.00644
+    N1.309663, E104.000233
+    N1.316732, E103.980357
+    N1.310527, E103.949011
+    N1.293181, E103.892614
+    N1.267422, E103.859681
+    N1.265679, E103.841665
+    N1.266841, E103.831591
+    N1.263147, E103.824429
+    N1.26342, E103.804717
+    N1.270975, E103.795135
+    N1.255154, E103.785498
+    N1.25926, E103.778599
+    N1.272781, E103.786648
+    N1.278584, E103.776737
+    N1.268238, E103.770823
+    N1.280445, E103.750181
+    N1.285317, E103.753028
+    N1.28581, E103.756259
+    N1.278365, E103.769071
+    N1.283692, E103.772316
+    N1.290605, E103.760716
+    N1.294656, E103.763125
+    N1.297338, E103.759785
+    N1.296517, E103.749436
+    N1.302165, E103.729373
+    N1.299625, E103.683827
+    N1.289227, E103.666449
+    N1.299483, E103.651702
+    N1.301271, E103.649444
+    N1.310114, E103.657537
+    N1.311337, E103.656219
+    N1.305128, E103.64982
+    N1.308797, E103.646338
+    N1.315383, E103.651796
+    N1.317358, E103.649914
+    N1.311243, E103.643421
+    N1.316324, E103.637304
+    N1.311243, E103.634858
+    N1.284807, E103.650197
+    N1.279068, E103.646432
+    N1.279136, E103.640421
+    N1.269963, E103.639728
+    N1.269845, E103.643318
+    N1.26096, E103.643494
+    N1.261464, E103.616275
+    N1.254439, E103.616396
+    N1.253712, E103.644383
+    N1.248625, E103.643899
+    N1.245354, E103.634448
+    N1.245302, E103.616379
+    N1.23381, E103.618373
+    N1.233564, E103.620629
+    N1.23057, E103.620342
+    N1.230488, E103.615583
+    N1.218261, E103.615298
+    N1.215363, E103.625322
+    N1.220386, E103.639821
+    N1.210086, E103.642945
+    N1.220048, E103.606297
+    N1.246726, E103.606212
+    N1.246895, E103.60883
+    N1.264455, E103.60959
+    N1.264708, E103.606634
+    N1.277288, E103.611448
+    N1.281015, E103.618121
+    N1.289515, E103.619856
+    N1.293832, E103.617395
+    N1.318627, E103.626561
+    N1.319331, E103.624305
+    N1.314172, E103.622435
+    N1.314809, E103.620901
+    N1.319547, E103.621199
+    N1.329482, E103.627707
+    N1.328795, E103.629722
+    N1.345261, E103.636004
+    N1.349829, E103.634481
+#TUAS CHKPT
+    N1.351548, E103.638362
+    N1.392583, E103.662414
+    N1.405661, E103.662494
+    N1.413675, E103.671175
+    N1.425378, E103.674292
+    N1.431741, E103.68581
+    N1.435225, E103.695813
+    N1.449694, E103.712635
+    N1.451209, E103.723926
+    N1.440528, E103.743703
+    N1.437574, E103.751887
+    N1.439089, E103.761965
+    N1.449391, E103.769543
+    N1.470769, E103.80836
+    N1.469053, E103.822351
+    N1.468602, E103.82765
+    N1.457219, E103.847232
+    N1.455538, E103.850502
+    N1.451624, E103.852238
+    N1.449348, E103.847672
+    N1.453058, E103.845849
+    N1.448046, E103.846109
+    N1.449055, E103.853256
+    N1.448437, E103.854819
+    N1.443815, E103.856312
+    N1.437159, E103.847415
+    N1.433215, E103.85192
+    N1.440683, E103.858075
+    N1.434558, E103.862535
+    N1.425618, E103.857439
+    N1.412525, E103.849229
+    N1.41097, E103.849114
+    N1.407589, E103.842615
+    N1.409546, E103.837358
+    N1.408863, E103.829571
+    N1.402924, E103.827965
+    N1.403045, E103.829491
+    N1.405174, E103.83029
+    N1.406656, E103.835554
+    N1.406012, E103.836451
+    N1.403953, E103.83385
+    N1.402009, E103.833867
+    N1.39827, E103.835069
+    N1.397965, E103.839998
+    N1.402676, E103.842402
+    N1.40008, E103.844269
+    N1.400434, E103.845256
+    N1.403636, E103.844796
+    N1.407648, E103.851298
+    N1.414706, E103.858767
+    N1.423986, E103.864171
+    N1.424707, E103.866915
+    N1.426634, E103.869215
+    N1.427614, E103.869109
+    N1.431878, E103.875339
+    N1.431672, E103.879151
+    N1.418634, E103.900535
+    N1.421745, E103.910291
+    N1.421136, E103.912663
+    N1.412638, E103.914604
+    N1.408638, E103.917241
+    N1.403002, E103.924425
+    N1.399668, E103.930784
+    N1.390294, E103.937895
+    N1.381467, E103.960399
+    N1.391388, E103.974777
+	N1.393657, E103.981162
+    N1.389815, E103.998118
+    N1.37121, E104.008442
+	N1.360057, E104.033609
 
+#	PULAU UBIN
 line14 =
+	N1.417192, E103.959124
+    N1.419642, E103.970181
+    N1.417296, E103.979308
+    N1.418443, E103.988382
+    N1.416775, E103.991198
+    N1.410666, E103.990805
+    N1.408067, E103.992373
+    N1.407753, E103.977988
+    N1.405737, E103.97382
+    N1.404438, E103.974223
+    N1.401884, E103.970279
+    N1.399734, E103.958224
+    N1.40166, E103.957417
+    N1.405961, E103.952667
+    N1.405782, E103.951143
+    N1.407933, E103.948947
+    N1.40959, E103.948141
+    N1.412816, E103.940656
+    N1.414115, E103.939715
+    N1.415907, E103.934113
+    N1.41761, E103.934293
+    N1.417251, E103.930797
+    N1.423479, E103.926315
+    N1.424778, E103.929497
+    N1.427869, E103.93362
+    N1.421642, E103.948992
+    N1.420343, E103.948365
+	N1.417192, E103.959124
+
+#	TEKONG
+line15 =
+	N1.420133, E104.008917
+    N1.423621, E104.009239
+    N1.428988, E104.014285
+    N1.421904, E104.020834
+    N1.420079, E104.024645
+    N1.413157, E104.027061
+    N1.412868, E104.030656
+    N1.41861, E104.029153
+    N1.425479, E104.028562
+    N1.425264, E104.037258
+    N1.431382, E104.042734
+    N1.429182, E104.049766
+    N1.429504, E104.053309
+    N1.432185, E104.056532
+    N1.418579, E104.081322
+    N1.409265, E104.085372
+    N1.405378, E104.087641
+    N1.387964, E104.083062
+    N1.367642, E104.045887
+    N1.381036, E104.030132
+    N1.394492, E104.041034
+    N1.395636, E104.038046
+    N1.402566, E104.035057
+    N1.403518, E104.031344
+    N1.402664, E104.030556
+    N1.400792, E104.031476
+    N1.400004, E104.034203
+    N1.394059, E104.037159
+    N1.392877, E104.038441
+    N1.391005, E104.037817
+    N1.384337, E104.031771
+    N1.391399, E104.037291
+    N1.399281, E104.032527
+    N1.398198, E104.031509
+    N1.396424, E104.032905
+    N1.395537, E104.031886
+    N1.397278, E104.029258
+    N1.399314, E104.028174
+    N1.39874, E104.027106
+    N1.396588, E104.026318
+    N1.396276, E104.024231
+    N1.396769, E104.023328
+    N1.396457, E104.022983
+    N1.391891, E104.025053
+    N1.3902, E104.023936
+    N1.386751, E104.024083
+    N1.384419, E104.026597
+    N1.384157, E104.026203
+    N1.390386, E104.020125
+    N1.401774, E104.015243
+    N1.401706, E104.025819
+    N1.404462, E104.029826
+    N1.40746, E104.028297
+    N1.41149, E104.030165
+    N1.412163, E104.02854
+    N1.41157, E104.026558
+    N1.408797, E104.024071
+    N1.409581, E104.012501
+	N1.420133, E104.008917	
+
+#	SELETAR ISLAND
+line16 =
+	N1.437284, E103.865002
+    N1.444066, E103.859651
+    N1.44561, E103.859839
+    N1.449285, E103.857872
+    N1.449552, E103.856993
+    N1.449797, E103.856932
+    N1.449933, E103.857285
+    N1.449758, E103.858458
+    N1.440459, E103.865662
+    N1.438811, E103.866041
+    N1.437284, E103.865002
+
+#	SENTOSA
+line17 =
+	N1.259674, E103.806533
+    N1.258943, E103.814583
+    N1.260076, E103.81821
+    N1.257505, E103.823286
+    N1.255485, E103.82493
+    N1.254607, E103.828197
+    N1.254796, E103.831441
+    N1.254175, E103.83333
+    N1.253355, E103.837022
+    N1.254139, E103.838455
+    N1.253569, E103.840297
+    N1.253744, E103.841635
+    N1.252231, E103.841824
+    N1.252569, E103.844312
+    N1.253245, E103.845717
+    N1.253266, E103.846458
+    N1.252151, E103.848486
+    N1.242413, E103.841741
+    N1.238605, E103.836397
+    N1.239051, E103.835849
+    N1.23789, E103.8336
+    N1.237945, E103.832327
+	N1.259674, E103.806533
+	
+#	BRANI ISLAND
+line18 =
+	N1.26019, E103.824162
+    N1.263674, E103.830449
+    N1.263859, E103.836221
+    N1.257904, E103.842508
+    N1.256872, E103.840609
+    N1.257001, E103.83978
+    N1.255471, E103.836645
+    N1.254881, E103.836405
+    N1.256503, E103.831261
+    N1.256714, E103.831688
+    N1.257206, E103.831849
+    N1.257454, E103.831131
+    N1.256975, E103.830978
+    N1.257045, E103.830704
+    N1.256767, E103.830635
+    N1.256668, E103.829388
+    N1.256926, E103.8287
+    N1.257284, E103.82845
+    N1.257723, E103.826703
+    N1.258565, E103.825306
+    N1.26019, E103.824162
+
+#default sg line13 =
+#	N1.44707, E103.81797
+#	N1.42344, E103.70527
+#	N1.32554, E103.65020
+#	N1.26538, E103.81992
+#	N1.33145, E103.96973
+#	N1.36523, E103.99639
+#	N1.39224, E103.96084
+#	N1.41597, E103.90898
+#	N1.44707, E103.81797
+
+#idk wats this will figure it out later
+line20 =
 	N1.79233, E102.89688
 	N1.54614, E103.35684
 	N1.49785, E103.40000
@@ -192,149 +626,2593 @@ line14 =
 [airport1]
 name = Singapore
 code = WSSS
+
 runways =
-	rwy1, 02C, N1.3288, E103.985, 23.0, 13123, 0, 0, 15
-	rwy2, 02L, N1.34897, E103.978, 23.0, 13123, 0, 2429, 22
-	rwy3, 02R, N1.3327, E104.004, 23.0, 9015, 0, 0, 22
+	rwy1, 02L, 1°20'56.27''N, 103°58'38.82''E, 23.02, 13123, 0, 2427.82, 22, 3, 23, 3, 203, 0, 0, 0, 0, 118.6, Singapore Tower
+	rwy2, 02C, 1°19'43.51''N, 103°59'5.86''E, 23.02, 13123, 0, 0, 14, 3, 23, 3, 203, 0, 0, 0, 0, 118.25, Singapore Tower
+	rwy3, 02R, 1°19'20.59''N, 103°59'59.45''E, 23.01, 13123, 0, 0, 16, 3, 23, 3, 203, 0, 0, 0, 0, 131.4, Singapore Tower
+
+climbaltitude = 3000
+
+sids =
+#RWY 02L
+#	TOPOM, 1°29'55''N, 104°2'27''E, TOPOM
+#	ATRUM, 1°32'56''N, 104°0'57''E, ATRUM
+#RWY 02C
+#RWY 20R
+#	LEDOX, 1°16'42''N, 103°56'51''E, LEDOX
+#	LETGO, 1°14'11''N, 103°55'48''E, LETGO
+#	DIVSA, 1°11'5''N, 104°3'3''E, DIVSA
+#	DOSPA, 1°14'59''N, 104°4'41''E, DOSPA
+	AKOMA, 1°45'22''N, 103°54'43''E, AKOMA
+#	AGVAR, 1°47'19''N, 103°41'45''E, AGVAR
+	SABKA, 1°50'51''N, 103°17'13''E, SABKA
+	MASBO, 2°2'48''N, 102°52'51''E, MASBO
+#	AKMET, 1°53'55''N, 103°43'39''E, AKMET
+	AROSO, 2°8'46''N, 103°24'21''E, AROSO
+	VMR, 2°23'18''N, 103°52'18''E, VICTOR MIKE ROMEO
+	TOMAN, 1°21'47''N, 105°47'17''E, TOMAN
+#	DOKTA, 1°26'06''N, 104°10'40''E, DOKTA
+	DOGRA, 1°5'25''N, 104°14'23''E, DOGRA
+	DOSNO, 0°47'57''N, 104°14'09''E, DOSNO
+	ANITO, 0°17'0''S, 104°52'0''E, ANITO
+	VENPA, 0°21'41''N, 104°49'55''E, VENPA
+	VENIX, 0°21'56''S, 106°5'21''E, VENIX
+	ATKAX, 0°5'12''N, 106°59'46''E, ATKAX
+	BAVUS, 0°0'0''N, 109°0'0''E, BAVUS
+	KADAR, 0°6'47''S, 107°43'42''E, KADAR
+#	AGROT, 1°1'8''N, 103°58'8''E, AGROT
+	ABVIP, 1°0'8''N, 103°50'32''E, ABVIP
+	ADMIM, 0°57'33''N, 103°30'33''E, ADMIM
+	
+
+entrypoints =
+#017 KILOT simulates ELALO | 028 KILOT simulates MABAL | 112 IKAGO simulates OBDOS | 120 IKAGO simulates SURGA
+	290, ARAMA, 21000
+	290, ARAMA, 21000
+	290, ARAMA, 21000
+	290, ARAMA, 21000
+	290, ARAMA, 21000
+	290, ARAMA, 21000
+	290, ARAMA, 21000
+	250, ASUNA, 17000
+	340, NUFFA, 31000
+	340, NUFFA, 31000
+	340, NUFFA, 31000
+	340, NUFFA, 31000
+	017, KILOT, 31000
+	017, KILOT, 31000
+	017, KILOT, 31000
+	017, KILOT, 31000
+	028, KILOT, 32000
+	028, KILOT, 32000
+	080, TOMAN, 35000
+	080, TOMAN, 35000
+	080, TOMAN, 35000
+	112, IKAGO, 36000
+	112, IKAGO, 36000
+	112, IKAGO, 36000
+	120, IKAGO, 34000
+	120, IKAGO, 34000
+	120, IKAGO, 34000
+	175, REPOV, 20000
+	175, REPOV, 20000
+	175, REPOV, 20000
+	175, REPOV, 20000
+	175, REPOV, 20000
+	
 airlines =
-	sia, 10, a333/a345/a359/a388/b738/b38m/b744/b772/b773/b77w/b78x, singapore, nswe
-	tgw, 5, a319/a320/a20n/a21n/b772/b788/b789, scooter, nsw
-	sqc, 3, b744, sing cargo, nswe
-	cca, 1, a319/a320/a20n/a321/a21n/a332/a333/b737/b738/b38m/b752, air china, n
-	afr, 1, a332/a343/a359/b744/b772/b77w/b789, air france, n
-	aic, 1, a310/a319/a320/a20n/a321/a332/b772, air india, n
+# Correct as at 26 Dec 2022.
+	sia, 7, a359/a388/b773/b77w/b78x, singapore, nsew
+	sia, 5, b738/b38m, singapore, nswe
+	sia, 3, b744, singapore, nsew
+	sia, 1, b77l, singapore, ne
+	tgw, 5, a320/a20n/a21n, scooter, nsew
+	tgw, 3, b788/b789, scooter, nsew
+#	sqc, 3, b744, sing cargo, nsew
+	cca, 1, a320/a20n/a321/a21n/a332/a359/b738/b38m, air china, n
+	aci, 1, a339, air calin, e
+	afr, 1, a359/b772/b77w/b789, air france, nw
+	aic, 1, a320/a20n/a321/b788, air india, n
+	aiq, 1, a320/a20n/a21n, thai asia, n
 	axb, 1, b738, express india, n
-	mau, 1, a332/a339/a343/a359, air mauritius, w
-	anz, 1, b744/b763/b772/b77w/b789/b78x, new zealand, s
-	ang, 1, b737/b738/b763, Niugini, e
-	axm, 1, a320/a20n/a21n, red cap, s
-	xax, 1, a333/a339, xanadu, s
-	ana, 1, b737/b744/b763/b772/b77l/b773/b77w/b788/b789/b78x, all nippon, n
-	aar, 1, a333/b744/b763/b772, asiana, n
-	bkp, 1, a319/a320, bangkok air, n
-	btk, 1, a320/a20n/b738/b739, batik, s
-	bbc, 1, b738/b77w, Bangladesh, n
-	baw, 1, a35k/a388/b744/b772/b77w/b788/b789/b78x, speedbird, n
-	cpa, 1, a21n/a333/a343/b744/b772/b748, cathay, n
-	ceb, 1, a320/a20n/a21n, cebu, e
-	cal, 1, a21n/a333/b738/b744/b77l, dynasty, n
-	ces, 1, a306/a319/a320/a20n/a321/a21n/a332/a333/b737/b738/b38m, china eastern, n
-	csn, 1, a306/a319/a320/a20n/a321/a21n/a332/a333/b737/b738/b38m/b752, china southern, n
-	cqn, 1, a319/a320/a20n/a21n, Chong qing, n
-	drk, 1, a319/a20n, royal Bhutan, n
-	uae, 1, a332/a343/a345/a388/b744/b772/b77l/b773/b77w, emirates, w
-	eth, 1, a359/b77l/b77w/b788/b789, ethiopian, w
-	etd, 1, a332/a333/a345/a346/a35k/b744/b748/b77l/b77w/b789/b78x, etihad, w
-	eva, 1, a321/a332/a333/b744/b77l/md11, eva, n
-	fji, 1, a332/a333/a359/b744/b763, Fiji, s
-	fin, 1, a333/a359, finnair, n
-	gia, 1, a332/a333/b738/b38m/crjx, Indonesia, e
-	gfa, 1, a332/a343/b77w/b789, gulf air, w
+	mau, 1, a332/a339/a359, air mauritius, w
+	anz, 1, b77w/b789, new zealand, se
+	ang, 1, b763, niugini, e
+	apz, 1, b789, air premia, n
+	axm, 2, a320/a20n/a21n, red cap, ew
+#	xax, 1, a333/a339, xanadu, w
+	ana, 1, b763/b788/b789, all nippon, n
+	ajx, 1, b789, air japan, n
+	aar, 1, a333/a359/b744/b763, asiana, n
+	bkp, 1, a319, bangkok air, n
+	btk, 1, a320/a20n/b738, batik, s
+	bbc, 1, b738, Bangladesh, nw
+	bav, 1, a320/a20n/a321/a21n, bamboo, n
+	baw, 1, a388/b77w/b789, speedbird, nsw
+	cpa, 1, a333/a359/b744/b748/b77w, cathay, n
+	ceb, 1, a320/a20n/a321/a21n, cebu, e
+	cal, 1, a333/a359/b744, dynasty, n
+	ces, 1, a320/a20n/a321/a332/a333/b737/b738/b77w/b789, china eastern, n
+	csn, 1, a320/a20n/a321/a21n/a332/a333/a359/b737/b738/b77w/b789, china southern, n
+	cqn, 1, a319/a320/a20n/a21n, chong qing, n
+	ctv, 1, a320/a20n, super green, s
+	dlh, 1, a343/a359/b748, lufthansa, nw
+	drk, 1, a319/a20n, royal bhutan, ne
+	uae, 1, a388/b77l/b77w, emirates, nsw
+	eth, 1, b788, ethiopian, w
+	etd, 1, b789, etihad, w
+	eva, 1, a333/b77l/b77w, eva, n
+	fji, 1, a332/a333, fiji, e
+	fin, 1, a359, finnair, nw
+	gia, 1, a332/a333/a339/b738/b77w, indonesia, s
+	gfa, 1, b789, gulf air, w
 	cbg, 1, a320/a20n, green city, n
-	chh, 1, a332/a333/b738/b38m/b763, Hainan, n
+	chh, 1, b738, hainan, n
 	hbh, 1, b737/b738, hebei air, n
-	igo, 1, a320/a20n/a21n, I fly, n
-	awq, 1, a320, wagon air, e
-	jal, 1, b738/b763, japan air, n
+	hke, 1, a320/a20n, hong kong shuttle, n
+	igo, 1, a320/a20n/a21n, i fly, nw
+	awq, 1, a320, wagon air, se
+	jal, 1, b763/b789, japan air, n
 	jst, 1, b788, jet star, s
-	jsa, 1, a320, jet star asia, e
-	jja, 1, b738/b38m, jeju air, n
-	dkh, 1, a320/a20n/a321/a21n, air juneyao, n
-	klm, 1, a332/a333/b744/b772/b77w/b789/b78x, klm, n
-	kal, 1, bcs3/a306/a332/a333/b738/b38m/b739/b744/b748/b77l, Korean air, n
-	lni, 1, b738/b38m/b739/b39m/b3xm, lion inter, e
-	lot, 1, b788/b789, lot, n
-	dlh, 1, a333/a343/a346/a359/a388/b744/b748, lufthansa, n
-	mas, 1, a332/a333/b738/b38m/b3xm, Malaysian, e
-	mxd, 1, at76/b738/b739, malindo, e
-	mma, 1, a319/a320, Myanmar, n
-	uba, 1, b738/b38m, union air, n
+	jsa, 1, a320, jet star asia, nsew
+	jja, 1, b738, jeju air, n
+	dkh, 1, a320/a20n/a321/a21n/b789, air juneyao, n
+	kal, 1, a333/b744/b748/b77w, korean air, n
+	klm, 1, b772/b77w, klm, ne
+	kme, 1, a319/a320, giant ibis, n
+	lni, 1, b738/b38m/b739/b39m, lion inter, e
+	lot, 1, b788, lot, nw
+	mas, 1, a333/b738/b38m, malaysian, we
+	mxd, 1, b738/b38m, malindo, e
+	mma, 1, a320, myanmar, n
+	uba, 1, b738, union air, n
 	pic, 1, a320, pacific, n
-	pal, 1, a319/a320/a321/a21n/a333, Philippine, n
+	pal, 1, a320/a321/a21n/a333, philippine, e
 	apg, 1, a320, cool red, e
-	qfa, 1, a332/a333/a388/b744/b763/b789, qantas, s
-	qtr, 1, a332/a333/a346/a359/a35k/b748/b77l/b77w/b788/b789, qatari, w
+	qfa, 1, a332/a333/a388/b789, qantas, sew
+	qfa, 1, e190, qantas, e
+	qtr, 1, a359/a35k/b77l/b77w/b788/b789, qatari, w
 	rge, 1, b737/b738, regent, n
-	rba, 1, a320/a20n, Brunei, n
-	sva, 1, a333/a343/b741/b742/b743/b744/b762/b763/b772/b77w/b789/b78x/md11, saudia, w
-	cdg, 1, b737/b738/b38m, shandong, n
-	csz, 1, a319/a320/a20n/a333/b738/b38m/b739, shenzhen air, n
-	csc, 1, a319/a320/a20n/a321/a21n/a332/a333, sis shuan, n
+	rba, 1, a320/a20n/b788, brunei, n
+	sjx, 1, a339, star walker, n
+	sva, 1, b789, saudia, w
+	cdg, 1, b737/b738, shandong, n
+	csz, 1, a320/a20n/b738, shenzhen air, n
+	csc, 1, a320/a20n/a332/a333, si shuan, n
 	cqh, 1, a320/a20n/a21n, air spring, n
-	alk, 1, a320/a20n/a321/a21n/a332/a333/a343, sri Lankan, n
-	swr, 1, a332/a333/a343/b77w, swiss, n
-	aiq, 1, a320/a20n/a21n, thai Asia, n
-	tha, 1, a333/a345/b744/b77w/b788, thai, n
+	alk, 1, a332/a333, sri lankan, w
+#	sej, 1, b738, spice jet, nw
+	swr, 1, b77w, swiss, nw
+	tha, 1, a359/b77w/b789, thai, n
 	tlm, 1, b738/b739/b39m, mentari, n
-	thy, 1, a332/a333/a343/a359/b77w/b789, turkish, n
-	ual, 1, b744/b772/b77w/b788/b789/b78x, united, n
+	thy, 1, b744/b77w/b789, turkish, w
+	tvj, 1, a320/a321, thai viet jet, n
+	twb, 1, a333, teeway, n
+	tzp, 1, b788, zippy, n
+	ual, 1, b789, united, e
 	cuh, 1, b738, lou lan, n
-	ubg, 1, b738/b38m, bangla star, n
-	vjc, 1, a320/a321/b38m/b3xm, vietjet air, n
-	hvn, 1, a321/a21n, vietnam airlines, n
+	ubg, 1, b738, bangla star, nw
+	vjc, 1, a320/a321/a21n, vietjet air, n
+	hvn, 1, a321/a21n/a359, vietnam airlines, n
 	vti, 1, a320/a20n/a21n/b738, vistara, n
-	cxa, 1, b737/b738/b38m/b3xm, xiamen air, n
+	cxa, 1, b738, xiamen air, n
+#	CARGO
 	box, 1, b77l, german cargo, w
-	abw, 1, b742/b743/b744/b748/b77l, air bridge cargo, ne
+	abd, 1, b744, atlanta, nw
+	abw, 1, b744/b748/b77l, air bridge cargo, new
 	ahk, 1, a306/a332/a333, air hong kong, n
 	tay, 1, b744, quality, w
 	cad, 1, b733/b734, cardig air, e
-	clx, 1, b744/b748, cargolux, ew
-	ckk, 1, b744/b742/b77l/md11, cargo king, n
-	fdx, 1, a306/a310/b752/b763/b77l/md10/md11, fed ex, new
+	clx, 1, b744/b748, cargolux, new
+	ckk, 1, b744/b77l, cargo king, n
+	ctj, 1, b733/b738, tian jin cargo, n
+	fdx, 1, a306/b752/b763/b77l/md11, fed ex, new
 	crk, 1, a332, bauheenia, n
-	cks, 1, b742/b744, connie, e
-	kmi, 1, b734, kay mile air, e
-	myu, 1, b732/b733/b734, my indo, e
-	nep, 1, b733, warispan, e
-	nca, 1, b742/b744/b748, nippon cargo, n
+	cks, 1, b744/b77l, connie, we
+	gti, 1, b744/b748/b77l, n
+	kmi, 1, b734/b738, kay mile air, ns
+	myu, 1, b732/b733/b734, my indo, ns
+	nep, 1, b733, warisan, w
+	nca, 1, b748, nippon cargo, n
 	pac, 1, b744/b748, polar, ne
-	rmy, 1, b734/b762, raya express, e
+	rmy, 1, b734/b762, raya express, w
 	css, 1, b733/b734/b752/b763, shun feng, n
 	azg, 1, b744/b748, silk west, w
-	sej, 1, a343/b737/b738, spice jet, n
 	tmg, 1, b733, tri lines, ne
-	ups, 1, a306/b744/b748/b752/b763/md11, u p s, new
-	hyt, 1, b733/b752, quick air, n
+	tmn, 1, b763, tasman, s
+	ups, 1, b744/b748/b752/b763, u p s, new
+	hyt, 1, b733/b752/b763, quick air, n
+	yzr, 1, b733/b734, yang zi river, n
 
 [airport2]
 name = Seletar
 code = SL
 runways =
-	rwy6, 03, N1.41044, E103.863, 33.0, 6023, 0, 0, 36
-inboundbeacon = SEL
-airlines = 
-	ffm, 4, at75/b738, firefly, e
+	wsslrwy1, 03, N1.41044, E103.863, 33.33, 6023, 0, 0, 36, 3.2, 033, 3.5, 213, 0, 0, 0, 0, 118.45, Seletar Tower
 
-[airport3]
-name = Hang Nadim
-code = DD
-runways =
-	rwy4, 04, N1.10745, E104.107, 42.0, 13270, 0, 0, 125
-inboundbeacon = BM
-airlines =
-	lni, 5, a333/a339/b733/b734/b738/b38m/b739/b39m/b3xm/b744/md82/md90, lion inter, new
-	ctv, 2, a320/a20n/a339, super green, ew
-	btk, 1, a320/a20n/b738/b739, batik, s
-	gia, 1, b738/b38m/crjx, Indonesia, e
-	mxd, 1, at76/b738/b739, malindo, e
-	sva, 1, a333/a343/b741/b742/b743/b744/b762/b763/b772/b77w/b789/b78x/md11, saudia, w
-	sjy, 1, b732/b733/b734/b735/b738/b739, sriwijaya, e
-	sqs, 1, c208, sky queen, s
-	won, 1, at75/at76/dh8c, wings abadi, s
-	rph, 1, b732, republic express, e
+traffic = 18
+#inboundbeacon = SEL
 
-[airport4]
-name = Senai
-code = KJ
-runways =
-	rwy5, 16, N1.65548, E103.664, 160.0, 12467, 0, 0, 135
-inboundbeacon = JR
+climbaltitude = 3000
+
+#sids =
+#	SABKA, 1°50'51''N, 103°17'13''E, SABKA
+#	AROSO, 2°8'46''N, 103°24'21''E, AROSO
+#	VMR, 2°23'18''N, 103°52'18''E, VICTOR MIKE ROMEO
+#	TOMAN, 1°21'47''N, 105°47'17''E, TOMAN
+#	VENPA, 0°21'41''N, 104°49'55''E, VENPA
+#	ANITO, 0°17'0''S, 104°52'0''E, ANITO
+#	ADMIM, 0°57'33''N, 103°30'33''E, ADMIM
+
+#make "STAR"? end with vector after PASPU, LELIB, HOSBA, TPG, REPOV	(make these the entrypoints?)
+entrypoints =
+	290, LELIB, 
+	290, LELIB,
+	290, LELIB,
+	290, LELIB,
+	340, OMKOM,
+	017, OMKOM,
+	090, OMKOM,
+	112, SAMKO,
+	175, SAMKO,
+
 airlines = 
-	axm, 5, a320/a20n/a21n, red cap, nswe
-	ffm, 1, at75/b738, firefly, se
-	awq, 1, a320, wagon air, e
-	jna, 1, b738/b772, jin air, n
-	mas, 1, b738/b38m/b3xm, Malaysian, e
-	mxd, 1, at76/b738/b739, malindo, e
-	aiq, 1, a320/a20n/a21n, thai Asia, n
+	ffm, 6, at75, firefly, w
+	jst, 1, a320, jet star, s
+	voz, 1, b738, velocity, s
+	qlk, 1, b717/f100, q link, se
+	vjt, 2, gl7t/glex/gl5t/cl35/cl60, vista,
+	medic-12, 1, lj45/lj60, medic,
+	vh-abc, 2, glex/gl5t/gl7t/cl35/cl60/be9l/lj45/lj60,
+	n-12345, 2, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	n-1234a, 2, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	n-123ab, 2, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	n-123a, 2, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	n-12ab, 2, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	9h-abc, 2, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	b-1234, 2, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	vp-abc, 2, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	g-abcd, 1, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	d-abcd, 1, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	t7-abc, 1, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+	rp-c1234, 1, glex/gl5t/gl7t/cl35/cl60/lj45/lj60,
+
+#[airport3]
+#name = Paya Lebar
+#code = AP
+#runways = wsaprwy1, 02, 1°20'41.08''N, 103°54'10.36''E, 023, 12401, 0, 0, 43, 3, 23, 3, 203, 0, 0, 0, 0, 118.05, Paya Lebar Tower
+
+#climbaltitude = 3000
+
+#[airport3]
+#name = Hang Nadim
+#code = DD
+#runways =
+#	rwy4, 04, N1.10745, E104.107, 42.0, 13270, 0, 0, 125
+#inboundbeacon = BM
+#airlines =
+#	lni, 5, a333/a339/b733/b734/b738/b38m/b739/b39m/b3xm/b744/md82/md90, lion inter, new
+#	ctv, 2, a320/a20n/a339, super green, ew
+#	btk, 1, a320/a20n/b738/b739, batik, s
+#	gia, 1, b738/b38m/crjx, Indonesia, e
+#	mxd, 1, at76/b738/b739, malindo, e
+#	sva, 1, a333/a343/b741/b742/b743/b744/b762/b763/b772/b77w/b789/b78x/md11, saudia, w
+#	sjy, 1, b732/b733/b734/b735/b738/b739, sriwijaya, e
+#	sqs, 1, c208, sky queen, s
+#	won, 1, at75/at76/dh8c, wings abadi, s
+#	rph, 1, b732, republic express, e
+
+#[airport4]
+#name = Senai
+#code = KJ
+#runways =
+#	rwy5, 16, N1.65548, E103.664, 160.0, 12467, 0, 0, 135
+#inboundbeacon = JR
+#airlines = 
+#	axm, 5, a320/a20n/a21n, red cap, nswe
+#	ffm, 1, at75/b738, firefly, se
+#	awq, 1, a320, wagon air, e
+#	jna, 1, b738/b772, jin air, n
+#	mas, 1, b738/b38m/b3xm, Malaysian, e
+#	mxd, 1, at76/b738/b739, malindo, e
+#	aiq, 1, a320/a20n/a21n, thai Asia, n
+
+#DELEGATED AIRSPACE (1 - 18)
+
+#  JOHOR BAHRU TMA
+#[area1] [redundant]
+#shape = polygon
+#altitude = 6000
+#name = Johor Bahru TMA
+#draw = 1
+#points =
+#	1°44'4''N, 103°15'7''E
+#	1°30'22''N, 103°34'37''E
+#	1°31'22''N, 103°40'26''E
+#	1°32'5''N, 103°42'52''E
+#	1°32'3''N, 103°50'56''E
+#	2°3'17''N, 103°48'16''E
+
+[area1]
+shape = circle
+altitude = 0
+name = Johor Bahru TMA
+radius = 25
+position = 1°39'50.4''N, 103°39'39.2''E
+draw = 1.22173, 3.01942
+
+#	JOHOR TMA RESTRICTION
+[area2]
+shape = polygon
+altitude = 4000
+name = WMKJ
+labelpos = -24.11, 19.59
+draw = 6
+points = 
+	-24.88, 9.39
+	-44.35, 23.06
+	-33.46, 39.65
+	-11.48, 42.04
+	-9.28, 11.18
+	-17.31, 10.53
+
+
+
+#  AREA B, D, F (3 - 9)
+[area3]
+shape = polygon
+altitude = 0
+name = BDF outline
+draw = 1
+points =
+	1°45'29''N, 103°13'5''E
+	1°42'25''N, 103°17'28''E
+	1°30'22''N, 103°34'37''E
+	1°26'0''N, 103°40'55''E
+	N1.3627, E103.6308
+	1°17'0''N, 103°36'0''E
+	1°13'0''N, 103°30'0''E
+	1°22'3''N, 103°2'9''E
+	
+[area4]
+shape = circle
+altitude = 0
+name = B
+radius = 35
+position = N1.22259, E103.85400
+draw = 2.40855, 3.05
+
+#	B restriction
+[area5]
+shape = polygon
+altitude = 3000
+name = B
+labelpos = -30.07, 0.28
+draw = 4
+points =
+	-29.70, -7.80
+	-42.75, -3.44
+	-34.43, 15.15
+	-19.16, 4.66
+
+[area6]
+shape = circle
+altitude = 0
+name = D
+radius = 45
+position = N1.22259, E103.85400
+draw = 2.43, 3.02
+
+#	D restriction
+[area7]
+shape = polygon
+altitude = 5500
+name = D
+labelpos = -43.89, 10.40
+draw = 4
+points =
+	-44.63, -2.30
+	-52.41, -0.29
+	-42.69, 20.96
+	-35.86, 16.36
+
+[area8]
+shape = circle
+altitude = 0
+name = F
+radius = 50
+position = N1.22259, E103.85400
+draw = 2.45, 2.99
+
+#	F restriction
+[area9]
+shape = polygon
+altitude = 9500
+name = F
+labelpos = -48.33, 19.11
+draw = 5
+points =
+	-57.23, 1.39
+	-46.74, 23.77
+	-43.31, 21.38
+	-50.04, 11.17
+	-53.15, 0.26
+
+#  AREA A, C, E, H (10 - 18)
+[area10]
+shape = polygon
+altitude = 0
+name = ACEH outline
+draw = 1
+points =
+	1°28'25''N, 103°50'9''E
+	1°27'28''N, 103°43'2''E
+	1°26'0''N, 103°40'55''E
+	1°30'22''N, 103°34'37''E
+	1°31'30''N, 103°42'36''E
+	1°32'6''N, 103°50'31''E
+	2°22'5''N, 103°47'24''E
+	2°52'34''N, 103°33'40''E
+	2°54'32''N, 103°43'41''E
+	3°38'22''N, 103°41'39''E
+	2°36'0''N, 104°45'0''E
+	1°20'0''N, 104°20'0''E
+	1°20'0''N, 104°5'28''E
+#	thence along Msia SG intl boundary to:
+	N1.346715, E104.083470
+	N1.357538, E104.077852
+	N1.384630, E104.087814
+	N1.394240, E104.090731
+	N1.399758, E104.091240
+	N1.405865, E104.090940
+	N1.412338, E104.089032
+	N1.417622, E104.086686
+	5.13, 4.70
+#	which is N1.4283, E104.0799, VTK R077/D3.6)
+
+#	intl bdry from VTK to PU
+#	N1.430794, E104.074717
+#	N1.434563, E104.069470
+#	N1.439817, E104.055827
+#	N1.443759, E104.039047
+#	N1.438977, E104.021466
+#	N1.420484, E104.001268
+
+[area11]
+shape = polygon
+altitude = 0
+name = ACEH outline
+draw = 1
+points =
+	N1.4446, E103.9815
+	N1.4395, E103.9136
+
+[area12]
+shape = circle
+altitude = 0
+name = A
+radius = 30
+position = N1.42333, E103.93300
+draw = 0.30, 1.81
+
+#	A restriction
+[area13]
+shape = polygon
+altitude = 2000
+name = A
+labelpos = 14.26, 22.12
+draw = 5
+points =
+	N1.6123, E103.8683
+	N1.9064, E103.8345
+	N1.8471, E104.1862
+	N1.5742, E104.4029
+	N1.6268, E104.0923
+
+[area14]
+shape = circle
+altitude = 0
+name = C
+radius = 61
+position = N1.42333, E103.93300
+draw = 0.84, 1.76
+
+#	C restriction
+[area15]
+shape = polygon
+altitude = 5500
+name = C
+labelpos = 18.65, 49.42
+draw = 7
+points =
+	N1.9358, E103.8307
+	N2.4206, E103.8046
+	N2.3737, E104.2608
+	N2.1718, E104.5952
+	N1.6236, E104.4121
+	N1.8699, E104.2203
+	N1.9393, E104.0269
+
+[area16]
+shape = circle
+altitude = 0
+name = E
+radius = 90
+position = N1.42333, E103.93300
+draw = 1.15, 1.75
+
+#	E restriction
+[area17]
+shape = polygon
+altitude = 12000
+name = E
+labelpos = 4.90, 84.23
+draw = 6
+points =
+	N2.4668, E103.7796
+	N2.8461, E103.6071
+	N2.7809, E104.5459
+	N2.5957, E104.7329
+	N2.2097, E104.6059
+	N2.4244, E104.2298
+
+#	H restriction
+[area18]
+shape = polygon
+altitude = 14500
+name = H
+labelpos = -5.60, 109.82
+draw = 4
+points =
+	-15.47, 94.66
+	-17.05, 133.19
+	29.69, 88.86
+	8.56, 94.66
+
+#LATA A B C
+
+#[area19]
+#shape = polygon
+#altitude = 0
+#name = LATA A
+#draw = 0
+#points =
+#	1°24'23''N, 103°47'14''E
+#	1°23'27''N, 103°49'22''E
+#	1°22'32''N, 103°50'16''E
+#	1°21'33''N, 103°48'7''E
+
+[area20]
+shape = polygon
+altitude = 0
+name = LATA B
+draw = 0
+points =
+	1°26'50''N, 103°46'19''E
+	1°22'5''N, 103°49'10''E
+	1°22'32''N, 103°50'16''E
+	1°22'27''N, 103°51'58''E
+	1°25'37''N, 103°53'19''E
+	1°27'27''N, 103°49'21''E
+
+[area21]
+shape = polygon
+altitude = 0
+name = LATA C
+draw = 0
+points =
+	1°26'50''N, 103°46'19''E
+	1°22'49''N, 103°45'40''E
+	1°21'0''N, 103°46'54''E
+	1°22'5''N, 103°49'10''E
+	1°26'50''N, 103°46'19''E
+
+#CONTROL ZONES (areas 31 - 46)
+#	SELETAR
+[area31]
+shape = polygon
+altitude = 0
+name = SELETAR CTR
+draw = 1
+points =
+	1°27'3''N, 103°50'9''E
+	1°28'25''N, 103°50'9''E
+	1°29'0''N, 103°54'25''E
+	1°25'34''N, 103°54'54''E
+#	thence along intl boundary
+	1°25'56''N, 103°53'26''E
+	1°22'27''N, 103°51'58''E
+	1°22'32''N, 103°50'16''E
+	1°23'27''N, 103°49'22''E
+	1°26'7''N, 103°50'53''E
+
+#	SEMBAWANG ATZ
+[area32]
+shape = circle
+altitude = 0
+name = WSAG ATZ
+radius = 2
+position = 1°25'27''N, 103°48'56''E
+draw = 0.314159, 4.92183
+
+#	CHANGI CTR
+[area33]
+shape = polygon
+altitude = 0
+name = CHANGI CTR
+draw = 1
+points =
+	1°33'0''N, 104°1'49''E
+	1°30'42''N, 104°6'54''E
+	1°25'42''N, 104°4'48''E
+#	thence along FIR BDRY
+
+[area34]
+shape = polygon
+altitude = 0
+name = CHANGI CTR
+draw = 1
+points =
+	1°20'0''N, 104°12'18''E
+	1°0'18''N, 103°55'24''E
+	1°11'0''N, 103°51'34''E
+	1°33'0''N, 104°1'49''E
+
+#	TENGAH ATZ
+[area35]
+shape = polygon
+altitude = 0
+name = TENGAH ATZ
+draw = 1
+points =
+	1°27'28''N, 103°43'2''E
+	1°26'20''N, 103°45'44''E
+	1°21'50''N, 103°45'24''E
+	1°18'45''N, 103°44'14''E
+	1°8'42''N, 103°43'36''E
+
+[area36]
+shape = circle
+altitude = 0
+name = TENGAH ATZ
+radius = 14
+position = 1°22'42''N, 103°42'3''E
+draw = 3.85, 4.88
+
+#	PAYA LEBAR CTR
+[area37]
+shape = polygon
+altitude = 0
+name = PAYA LEBAR CTR
+draw = 1
+points =
+	1°11'0''N, 103°51'34''E
+	1°33'0''N, 104°1'49''E
+	1°32'0''N, 103°53'44''E
+	1°25'34''N, 103°54'54''E
+
+[area38]
+shape = polygon
+altitude = 0
+name = PAYA LEBAR CTR
+draw = 1
+points =
+	1°25'44''N, 103°53'20''E
+	1°22'27''N, 103°51'58''E
+	1°22'32''N, 103°50'16''E
+	1°21'0''N, 103°46'54''E
+	1°20'25''N, 103°45'39''E
+	1°18'35''N, 103°44'59''E
+	1°11'0''N, 103°44'59''E
+	1°11'0''N, 103°51'34''E
+
+#	BATAM CTR
+[area39]
+shape = polygon
+altitude = 4000
+name = WIDD
+labelpos = 9.83, -16.97
+draw = 1
+points =
+	1°0'18''N, 103°55'30''E
+	0°53'15''N, 104°3'35''E
+	1°13'5''N, 104°20'29''E
+	1°20'0''N, 104°12'24''E
+
+#	TANJUNG PINANG NORTH CTR	
+[area40]
+shape = polygon
+altitude = 0
+name = TANJUNG PINANG NORTH CTR
+draw = 1
+points =
+	0°42'36''N, 104°16'54''E
+	0°53'15''N, 104°3'35''E
+	1°0'18''N, 103°55'30''E
+	1°20'0''N, 104°12'24''E
+	1°13'5''N, 104°20'29''E
+	1°9'42''N, 104°35'0''E
+	
+[area41]
+shape = circle
+altitude = 0
+name = TANJUNG PINANG NORTH CTR
+radius = 27
+position = 1°8'13''N, 104°7'58''E
+draw = -1.24, 0.08
+
+#WIDN north restriction
+[area42]
+shape = polygon
+altitude = 4000
+name = WIDN
+labelpos = 23.58, -27.31
+draw = 4
+points =
+	4.43, -27.61
+	21.00, -8.15
+	35.20, -11.35
+	17.49, -37.85
+
+#	TANJUNG PINANG SOUTH CTR
+[area43]
+shape = polygon
+altitude = 0
+name = TANJUNG PINANG SOUTH CTR
+draw = 1
+points =
+	0°24'48''N, 104°37'0''E
+	0°42'36''N, 104°16'54''E
+
+[area44]
+shape = polygon
+altitude = 0
+name = TANJUNG PINANG SOUTH CTR
+draw = 1
+points =
+	1°9'42''N, 104°35'0''E
+	1°3'42''N, 105°0'18''E
+
+[area45]
+shape = circle
+altitude = 0
+name = TANJUNG PINANG SOUTH CTR
+radius = 30
+position = N0.91973, E104.52600
+draw = -1.41, 0.33
+
+#WIDN south restriction
+[area46]
+shape = polygon
+altitude = 7000
+name = WIDN
+labelpos = 41.14, -46.04
+draw = 6
+points =
+	18.80, -38.56
+	27.68, -32.62
+	35.11, -20.93
+	35.79, -11.77
+	60.57, -17.63
+	37.65, -54.61
+
+	
+#RESTRICTED AREAS (areas 51-54)
+[area51]
+shape = circle
+altitude = 10000
+name = WSR38
+radius = 1
+position = 1°18'7''N, 103°50'31''E
+labelpos = 1°18'30''N, 103°50'13''E
+#draw =
+
+[area52]
+shape = circle
+altitude = 5000
+name = WMP228
+radius = 2
+position = 1°28'45''N, 103°43'34''E
+labelpos = -16.33, 7.48
+draw = -0.785398, 4.01426
+
+#	polygon complements WMP228 circle
+[area53]
+shape = polygon
+altitude = 0
+draw = 1
+points =
+	N1.4553, E103.7031
+	N1.4621, E103.7255
+	N1.4555, E103.7492
+
+#	Pengerang Integrated Complex (PIC) Safety Area
+[area54]
+shape = polygon
+altitude = 2000
+name = PIC
+labelpos = 9.10, 1.50
+draw = 0
+points =
+	1°22'45''N, 104°7'5''E
+	1°22'45''N, 104°8'31''E
+	1°23'6''N, 104°9'54''E
+	1°23'1''N, 104°10'56''E
+	1°22'32''N, 104°10'58''E
+	1°21'14''N, 104°10'57''E
+	1°20'38''N, 104°9'39''E
+	1°20'31''N, 104°8'13''E
+	1°21'36''N, 104°7'4''E
+
+[configurations]
+
+config1 =
+	0, rwy1, land
+	0, rwy3, startland, 023, nosid
+	8, wsslrwy1, landstart, 360, nosid
+	15, rwy1, landstart
+	
+config2 =
+	0, rwy1, landrev
+	0, rwy3, startlandrev, 203, nosid
+	8, wsslrwy1, landstartrev, 213, nosid
+	15, rwy1, landstartrev
+
+#RWY 02L SIDS
+#	MASBO 4x (1-4)
+#	AROSO 4x (5-8)
+#	VMR 6x (9-14)
+#	TOMAN 4x (15-18)
+#	BAVUS 1x (19) 
+#	KADAR 4x (20-23)
+#	VENIX 4x (24-28)
+#	ANITO 5x (29-33) 
+#	ADMIM 1x (34)
+[departure1]
+runway = rwy1
+route1 =
+	MASBO2E, MASBO TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	1°47'19''N, 103°41'45''E
+	1°50'51''N, 103°17'13''E
+	2°2'48''N, 102°52'51''E
+route2 =
+	MASBO2E, MASBO TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	1°47'19''N, 103°41'45''E
+	1°50'51''N, 103°17'13''E
+	2°2'48''N, 102°52'51''E
+route3 =
+	MASBO2E, MASBO TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	1°47'19''N, 103°41'45''E
+	1°50'51''N, 103°17'13''E
+	2°2'48''N, 102°52'51''E
+route4 =
+	MASBO2E, MASBO TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	1°47'19''N, 103°41'45''E
+	1°50'51''N, 103°17'13''E
+	2°2'48''N, 102°52'51''E	
+route5 =
+	AROSO2E, AROSO TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	1°53'55''N, 103°43'39''E
+	2°8'46''N, 103°24'21''E
+route6 =
+	AROSO2E, AROSO TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	1°53'55''N, 103°43'39''E
+	2°8'46''N, 103°24'21''E
+route7 =
+	AROSO2E, AROSO TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	1°53'55''N, 103°43'39''E
+	2°8'46''N, 103°24'21''E
+route8 =
+	AROSO2E, AROSO TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	1°53'55''N, 103°43'39''E
+	2°8'46''N, 103°24'21''E
+route9 =
+	VMR5E, MERSING FIVE ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route10 =
+	VMR5E, MERSING FIVE ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route11 =
+	VMR5E, MERSING FIVE ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route12 =
+	VMR5E, MERSING FIVE ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route13 =
+	VMR5E, MERSING FIVE ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route14 =
+	VMR5E, MERSING FIVE ECHO
+	1°29'55''N, 104°2'27''E
+	1°32'56''N, 104°0'57''E
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route15 =
+	TOMAN2E, TOMAN TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°19'48''N, 104°24'18''E
+	1°21'47''N, 105°47'17''E
+route16 =
+	TOMAN2E, TOMAN TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°19'48''N, 104°24'18''E
+	1°21'47''N, 105°47'17''E
+route17 =
+	TOMAN2E, TOMAN TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°19'48''N, 104°24'18''E
+	1°21'47''N, 105°47'17''E
+route18 =
+	TOMAN2E, TOMAN TWO ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°19'48''N, 104°24'18''E
+	1°21'47''N, 105°47'17''E
+route19 =
+	BAVUS1E, BAVUS ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°0'0''N, 109°0'0''E
+route20 =
+	KADAR1E, KADAR ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°6'47''S, 107°43'42''E
+route21 =
+	KADAR1E, KADAR ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°6'47''S, 107°43'42''E
+route22 =
+	KADAR1E, KADAR ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°6'47''S, 107°43'42''E
+route23 =
+	KADAR1E, KADAR ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°6'47''S, 107°43'42''E
+route24 =
+	VENIX1E, VENIX ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route25 =
+	VENIX1E, VENIX ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route26 =
+	VENIX1E, VENIX ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route27 =
+	VENIX1E, VENIX ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route28 =
+	VENIX1E, VENIX ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route29 =
+	ANITO6E, ANITO SIX ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route30 =
+	ANITO6E, ANITO SIX ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route31 =
+	ANITO6E, ANITO SIX ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route32 =
+	ANITO6E, ANITO SIX ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route33 =
+	ANITO6E, ANITO SIX ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route34 =
+	ADMIM1E, ADMIM ONE ECHO
+	1°29'55''N, 104°2'27''E
+	1°26'06''N, 104°10'40''E
+	1°5'25''N, 104°14'23''E
+	1°1'8''N, 103°58'8''E
+	1°0'8''N, 103°50'32''E
+	0°57'33''N, 103°30'33''E
+	0°59'48''N, 103°9'54''E
+
+#RWY 02C SIDS
+
+#RWY 02R SIDS
+[departure3]
+runway = rwy3
+route1 =
+	CHA1C MASBO, CHUNG YI ONE CHARLIE
+	1°50'51''N, 103°17'13''E #SABKA
+route2 =
+	CHA1C MASBO, CHUNG YI ONE CHARLIE
+	1°50'51''N, 103°17'13''E #SABKA
+route3 =
+	CHA1C MASBO, CHUNG YI ONE CHARLIE
+	1°50'51''N, 103°17'13''E #SABKA
+route4 =
+	CHA1C MASBO, CHUNG YI ONE CHARLIE
+	1°50'51''N, 103°17'13''E #SABKA
+route5 =
+	CHA1C AROSO, CHUNG YI ONE CHARLIE
+	2°8'46''N, 103°24'21''E
+route6 =
+	CHA1C AROSO, CHUNG YI ONE CHARLIE
+	2°8'46''N, 103°24'21''E
+route7 =
+	CHA1C AROSO, CHUNG YI ONE CHARLIE
+	2°8'46''N, 103°24'21''E
+route8 =
+	CHA1C AROSO, CHUNG YI ONE CHARLIE
+	2°8'46''N, 103°24'21''E
+route9 =
+	CHA1C VMR, CHUNG YI ONE CHARLIE
+	2°23'18''N, 103°52'18''E
+route10 =
+	CHA1C VMR, CHUNG YI ONE CHARLIE
+	2°23'18''N, 103°52'18''E
+route11 =
+	CHA1C VMR, CHUNG YI ONE CHARLIE
+	2°23'18''N, 103°52'18''E
+route12 =
+	CHA1C VMR, CHUNG YI ONE CHARLIE
+	2°23'18''N, 103°52'18''E
+route13 =
+	CHA1C VMR, CHUNG YI ONE CHARLIE
+	2°23'18''N, 103°52'18''E
+route14 =
+	CHA1C VMR, CHUNG YI ONE CHARLIE
+	2°23'18''N, 103°52'18''E
+route15 =
+	CHA1C TOMAN, CHUNG YI ONE CHARLIE
+	1°21'47''N, 105°47'17''E
+route16 =
+	CHA1C TOMAN, CHUNG YI ONE CHARLIE
+	1°21'47''N, 105°47'17''E
+route17 =
+	CHA1C TOMAN, CHUNG YI ONE CHARLIE
+	1°21'47''N, 105°47'17''E
+route18 =
+	CHA1C TOMAN, CHUNG YI ONE CHARLIE
+	1°21'47''N, 105°47'17''E
+route19 =
+	CHA1C BAVUS, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route20 =
+	CHA1C KADAR, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route21 =
+	CHA1C KADAR, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route22 =
+	CHA1C KADAR, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route23 =
+	CHA1C KADAR, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route24 =
+	CHA1C VENIX, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route25 =
+	CHA1C VENIX, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route26 =
+	CHA1C VENIX, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route27 =
+	CHA1C VENIX, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route28 =
+	CHA1C VENIX, CHUNG YI ONE CHARLIE
+	0°21'41''N, 104°49'55''E #VENPA
+route29 =
+	CHA1C ANITO, CHUNG YI ONE CHARLIE
+	0°17'0''S, 104°52'0''E
+route30 =
+	CHA1C ANITO, CHUNG YI ONE CHARLIE
+	0°17'0''S, 104°52'0''E
+route31 =
+	CHA1C ANITO, CHUNG YI ONE CHARLIE
+	0°17'0''S, 104°52'0''E
+route32 =
+	CHA1C ANITO, CHUNG YI ONE CHARLIE
+	0°17'0''S, 104°52'0''E
+route33 =
+	CHA1C ANITO, CHUNG YI ONE CHARLIE
+	0°17'0''S, 104°52'0''E
+route34 =
+	CHA1C ADMIM, CHUNG YI ONE CHARLIE
+	0°57'33''N, 103°30'33''E
+
+#RWY 20R SIDS
+[departure4]
+runway = rwy1, rev
+route1 =
+	MASBO4F, MASBO FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	1°47'19''N, 103°41'45''E
+	1°50'51''N, 103°17'13''E
+	2°2'48''N, 102°52'51''E
+route2 =
+	MASBO4F, MASBO FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	1°47'19''N, 103°41'45''E
+	1°50'51''N, 103°17'13''E
+	2°2'48''N, 102°52'51''E
+route3 =
+	MASBO4F, MASBO FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	1°47'19''N, 103°41'45''E
+	1°50'51''N, 103°17'13''E
+	2°2'48''N, 102°52'51''E
+route4 =
+	MASBO4F, MASBO FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	1°47'19''N, 103°41'45''E
+	1°50'51''N, 103°17'13''E
+	2°2'48''N, 102°52'51''E
+route5 =
+	AROSO4F, AROSO FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	1°53'55''N, 103°43'39''E
+	2°8'46''N, 103°24'21''E
+route6 =
+	AROSO4F, AROSO FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	1°53'55''N, 103°43'39''E
+	2°8'46''N, 103°24'21''E
+route7 =
+	AROSO4F, AROSO FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	1°53'55''N, 103°43'39''E
+	2°8'46''N, 103°24'21''E
+route8 =
+	AROSO4F, AROSO FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	1°53'55''N, 103°43'39''E
+	2°8'46''N, 103°24'21''E
+route9 =
+	VMR8F, MERSING EIGHT FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route10 =
+	VMR8F, MERSING EIGHT FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route11 =
+	VMR8F, MERSING EIGHT FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route12 =
+	VMR8F, MERSING EIGHT FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route13 =
+	VMR8F, MERSING EIGHT FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route14 =
+	VMR8F, MERSING EIGHT FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°14'59''N, 104°4'41''E
+	N1.41539, E104.02200
+	1°45'22''N, 103°54'43''E
+	2°23'18''N, 103°52'18''E
+route15 =
+	TOMAN4F, TOMAN FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	1°14'22''N, 104°20'33''E
+	1°19'48''N, 104°24'18''E
+	1°21'47''N, 105°47'17''E
+route16 =
+	TOMAN4F, TOMAN FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	1°14'22''N, 104°20'33''E
+	1°19'48''N, 104°24'18''E
+	1°21'47''N, 105°47'17''E
+route17 =
+	TOMAN4F, TOMAN FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	1°14'22''N, 104°20'33''E
+	1°19'48''N, 104°24'18''E
+	1°21'47''N, 105°47'17''E
+route18 =
+	TOMAN4F, TOMAN FOUR FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	1°14'22''N, 104°20'33''E
+	1°19'48''N, 104°24'18''E
+	1°21'47''N, 105°47'17''E
+route19 =
+	BAVUS3F, BAVUS THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°0'0''N, 109°0'0''E
+route20 =
+	KADAR3F, KADAR THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°6'47''S, 107°43'42''E
+route21 =
+	KADAR3F, KADAR THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°6'47''S, 107°43'42''E
+route22 =
+	KADAR3F, KADAR THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°6'47''S, 107°43'42''E
+route23 =
+	KADAR3F, KADAR THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°5'12''N, 106°59'46''E
+	0°6'47''S, 107°43'42''E
+route24 =
+	VENIX3F, VENIX THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route25 =
+	VENIX3F, VENIX THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route26 =
+	VENIX3F, VENIX THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route27 =
+	VENIX3F, VENIX THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route28 =
+	VENIX3F, VENIX THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°21'41''N, 104°49'55''E
+	0°21'56''S, 106°5'21''E
+	0°36'57''S, 106°31'19''E
+route29 =
+	ANITO7F, ANITO SEVEN FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route30 =
+	ANITO7F, ANITO SEVEN FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route31 =
+	ANITO7F, ANITO SEVEN FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route32 =
+	ANITO7F, ANITO SEVEN FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route33 =
+	ANITO7F, ANITO SEVEN FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°11'5''N, 104°3'3''E
+	1°8'13''N, 104°7'58''E
+	1°5'25''N, 104°14'23''E
+	0°47'57''N, 104°14'09''E
+	0°17'0''S, 104°52'0''E
+route34 =
+	ADMIM3F, ADMIM THREE FOXTROT
+	1°16'42''N, 103°56'51''E
+	1°14'11''N, 103°55'48''E
+	1°5'30''N, 103°52'55''E
+	1°0'8''N, 103°50'32''E
+	0°57'33''N, 103°30'33''E
+	0°59'48''N, 103°9'54''E
+	
+
+#RWY 20C SIDS
+
+#RWY 20L SIDS
+[departure6]
+runway = rwy3, rev
+route1 =
+	CHA1D MASBO, CHUNG YI ONE DELTA
+	1°50'51''N, 103°17'13''E #SABKA
+route2 =
+	CHA1D MASBO, CHUNG YI ONE DELTA
+	1°50'51''N, 103°17'13''E #SABKA
+route3 =
+	CHA1D MASBO, CHUNG YI ONE DELTA
+	1°50'51''N, 103°17'13''E #SABKA
+route4 =
+	CHA1D MASBO, CHUNG YI ONE DELTA
+	1°50'51''N, 103°17'13''E #SABKA
+route5 =
+	CHA1D AROSO, CHUNG YI ONE DELTA
+	2°8'46''N, 103°24'21''E
+route6 =
+	CHA1D AROSO, CHUNG YI ONE DELTA
+	2°8'46''N, 103°24'21''E
+route7 =
+	CHA1D AROSO, CHUNG YI ONE DELTA
+	2°8'46''N, 103°24'21''E
+route8 =
+	CHA1D AROSO, CHUNG YI ONE DELTA
+	2°8'46''N, 103°24'21''E
+route9 =
+	CHA1D VMR, CHUNG YI ONE DELTA
+	2°23'18''N, 103°52'18''E
+route10 =
+	CHA1D VMR, CHUNG YI ONE DELTA
+	2°23'18''N, 103°52'18''E
+route11 =
+	CHA1D VMR, CHUNG YI ONE DELTA
+	2°23'18''N, 103°52'18''E
+route12 =
+	CHA1D VMR, CHUNG YI ONE DELTA
+	2°23'18''N, 103°52'18''E
+route13 =
+	CHA1D VMR, CHUNG YI ONE DELTA
+	2°23'18''N, 103°52'18''E
+route14 =
+	CHA1D VMR, CHUNG YI ONE DELTA
+	2°23'18''N, 103°52'18''E
+route15 =
+	CHA1D TOMAN, CHUNG YI ONE DELTA
+	1°21'47''N, 105°47'17''E
+route16 =
+	CHA1D TOMAN, CHUNG YI ONE DELTA
+	1°21'47''N, 105°47'17''E
+route17 =
+	CHA1D TOMAN, CHUNG YI ONE DELTA
+	1°21'47''N, 105°47'17''E
+route18 =
+	CHA1D TOMAN, CHUNG YI ONE DELTA
+	1°21'47''N, 105°47'17''E
+route19 =
+	CHA1D BAVUS, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route20 =
+	CHA1D KADAR, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route21 =
+	CHA1D KADAR, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route22 =
+	CHA1D KADAR, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route23 =
+	CHA1D KADAR, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route24 =
+	CHA1D VENIX, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route25 =
+	CHA1D VENIX, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route26 =
+	CHA1D VENIX, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route27 =
+	CHA1D VENIX, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route28 =
+	CHA1D VENIX, CHUNG YI ONE DELTA
+	0°21'41''N, 104°49'55''E #VENPA
+route29 =
+	CHA1D ANITO, CHUNG YI ONE DELTA
+	0°17'0''S, 104°52'0''E
+route30 =
+	CHA1D ANITO, CHUNG YI ONE DELTA
+	0°17'0''S, 104°52'0''E
+route31 =
+	CHA1D ANITO, CHUNG YI ONE DELTA
+	0°17'0''S, 104°52'0''E
+route32 =
+	CHA1D ANITO, CHUNG YI ONE DELTA
+	0°17'0''S, 104°52'0''E
+route33 =
+	CHA1D ANITO, CHUNG YI ONE DELTA
+	0°17'0''S, 104°52'0''E
+route34 =
+	CHA1D ADMIM, CHUNG YI ONE DELTA
+	0°57'33''N, 103°30'33''E
+
+#WSSL
+#	RWY 03
+[departure7]
+runway = wsslrwy1
+route1 =
+	MASBO, 
+	1°50'51''N, 103°17'13''E #SABKA
+route2 =
+	MASBO, 
+	1°50'51''N, 103°17'13''E #SABKA
+route3 =
+	MASBO, 
+	1°50'51''N, 103°17'13''E #SABKA
+route4 =
+	MASBO, 
+	1°50'51''N, 103°17'13''E #SABKA
+route5 =
+	AROSO, 
+	2°8'46''N, 103°24'21''E
+route6 =
+	AROSO, 
+	2°8'46''N, 103°24'21''E
+route7 =
+	AROSO, 
+	2°8'46''N, 103°24'21''E
+route8 =
+	AROSO, 
+	2°8'46''N, 103°24'21''E
+route9 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route10 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route11 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route12 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route13 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route14 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route15 =
+	TOMAN, 
+	1°21'47''N, 105°47'17''E
+route16 =
+	TOMAN, 
+	1°21'47''N, 105°47'17''E
+route17 =
+	TOMAN, 
+	1°21'47''N, 105°47'17''E
+route18 =
+	TOMAN, 
+	1°21'47''N, 105°47'17''E
+route19 =
+	BAVUS, 
+	0°21'41''N, 104°49'55''E #VENPA
+route20 =
+	KADAR, 
+	0°21'41''N, 104°49'55''E #VENPA
+route21 =
+	KADAR, 
+	0°21'41''N, 104°49'55''E #VENPA
+route22 =
+	KADAR, 
+	0°21'41''N, 104°49'55''E #VENPA
+route23 =
+	KADAR, 
+	0°21'41''N, 104°49'55''E #VENPA
+route24 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route25 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route26 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route27 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route28 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route29 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route30 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route31 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route32 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route33 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route34 =
+	ADMIM, 
+	0°57'33''N, 103°30'33''E
+
+#	RWY 21
+[departure7]
+runway = wsslrwy1,rev
+route1 =
+	MASBO, 
+	1°50'51''N, 103°17'13''E #SABKA
+route2 =
+	MASBO, 
+	1°50'51''N, 103°17'13''E #SABKA
+route3 =
+	MASBO, 
+	1°50'51''N, 103°17'13''E #SABKA
+route4 =
+	MASBO, 
+	1°50'51''N, 103°17'13''E #SABKA
+route5 =
+	AROSO, 
+	2°8'46''N, 103°24'21''E
+route6 =
+	AROSO, 
+	2°8'46''N, 103°24'21''E
+route7 =
+	AROSO, 
+	2°8'46''N, 103°24'21''E
+route8 =
+	AROSO, 
+	2°8'46''N, 103°24'21''E
+route9 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route10 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route11 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route12 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route13 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route14 =
+	VMR, 
+	2°23'18''N, 103°52'18''E
+route15 =
+	TOMAN, 
+	1°21'47''N, 105°47'17''E
+route16 =
+	TOMAN, 
+	1°21'47''N, 105°47'17''E
+route17 =
+	TOMAN, 
+	1°21'47''N, 105°47'17''E
+route18 =
+	TOMAN, 
+	1°21'47''N, 105°47'17''E
+route19 =
+	BAVUS, 
+	0°21'41''N, 104°49'55''E #VENPA
+route20 =
+	KADAR, 
+	0°21'41''N, 104°49'55''E #VENPA
+route21 =
+	KADAR, 
+	0°21'41''N, 104°49'55''E #VENPA
+route22 =
+	KADAR, 
+	0°21'41''N, 104°49'55''E #VENPA
+route23 =
+	KADAR, 
+	0°21'41''N, 104°49'55''E #VENPA
+route24 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route25 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route26 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route27 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route28 =
+	VENIX, 
+	0°21'41''N, 104°49'55''E #VENPA
+route29 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route30 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route31 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route32 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route33 =
+	ANITO, 
+	0°17'0''S, 104°52'0''E
+route34 =
+	ADMIM, 
+	0°57'33''N, 103°30'33''E
+
+
+#WSSS approaches (1-2)
+#	RNP 02R
+[approach1]
+runway = rwy3
+beacon = LUVUL
+route1 =
+	023, RNP02R, RNP 
+	1°14'44.21''N, 103°58'02.76''E, 1700, 150
+	5, 1700, 150
+
+#	RNP 20L
+[approach2]
+runway = rwy3, rev
+beacon = OBGIS
+route1 =
+	203, RNP20L, RNP
+	1°25'56.83''N, 104°2'46.74''E, 1700, 150
+	5, 1700, 150
+
+#WSSL approaches (3-8)
+#	JOIN VIA SJ RWY 03
+[approach3]
+runway = wsslrwy1
+beacon = SJ
+route1 =
+	033, SJ03, track for SIN JON PAWN JO REH CHEE visual
+	N1.22259, E103.85400, 4000, 170
+	1°16'29''N, 103°46'29''E, 3000, 160
+	1°20'33''N, 103°49'8''E, 1500, 140
+	4.9, 1500,
+
+#	JOIN VIA SJ RWY 03 (DCT PONJO)
+[approach4]
+runway = wsslrwy1
+beacon = PONJO
+route1 =
+	033, PON03, track for PAWN JO REH CHEE visual
+	1°16'29''N, 103°46'29''E, 3000, 160
+	1°20'33''N, 103°49'8''E, 1500, 140
+	4.9, 1500,
+
+#	JOIN VIA SJ RWY 21
+[approach5]
+runway = wsslrwy1, rev
+beacon = SJ
+route1 =
+	033, SJ21, track for SIN JON PAWN JO REH CHEE SETHI visual
+	N1.22259, E103.85400, 4000, 170
+	1°16'29''N, 103°46'29''E, 3000, 170
+	1°20'33''N, 103°49'8''E, 1500, 160
+	1°24'39''N, 103°50'6''E, , 150
+	-7.36, 7.02
+#		which is N1.4682, E103.8719
+#	-6.61, 5.53
+#		which is N1.4432, E103.8843
+	-6.12, 6.32
+#		which is N1.4563, E103.8925
+	1.3, 500,
+
+#	JOIN VIA SJ RWY 21 (DCT PONJO)
+[approach6]
+runway = wsslrwy1, rev
+beacon = PONJO
+route1 =
+	033, PON21, track for SIN JON PAWN JO REH CHEE SETHI visual
+	1°16'29''N, 103°46'29''E, 3000, 170
+	1°20'33''N, 103°49'8''E, 1500, 160
+	1°24'39''N, 103°50'6''E, , 140
+	-7.36, 7.02
+#		which is N1.4682, E103.8719
+#	-6.61, 5.53
+#		which is N1.4432, E103.8843
+	-6.12, 6.32
+#		which is N1.4563, E103.8925
+	1.3, 500,
+
+#	VISUAL LEFT-HAND DOWNWIND RWY 03
+[approach7]
+runway = wsslrwy1
+beacon = VIS03A
+route1 =
+	213, VIS03, join left hand downwind visual
+	-4.47, 9.47
+	-6.04, 7.00, 1500, 160
+	-8.69, 5.12, 1500, 140
+	-10.13, 2.64
+	-9.00, 1.89
+	1.3, 500,
+
+[approach8]
+runway = wsslrwy1
+beacon = VIS03B
+route1 =
+	213, VIS03, join left hand downwind visual
+	-7.03, 7.44, 1500, 160
+	-8.69, 5.12, 1500, 140
+	-10.13, 2.64
+	-9.00, 1.89
+	1.3, 500,
+
+#	VISUAL STRAIGHT-IN RWY 21
+[approach9]
+runway = wsslrwy1, rev
+beacon = VIS21
+route1 =
+	213, VIS21, join direct final for visual
+	-3.00, 11.12, 2000, 160
+	5.5, 2000, 150
+
+#STAR RWY 02 (10-16)
+[approach10]
+runway = rwy1
+beacon = ARAMA
+route1 = 
+	117, ARAMA1A, ARAMA ONE ALPHA
+	1°36'54''N, 103°7'12''E, , 250
+	N1.3643, E103.2890, 15000, 
+	1°2'30''N, 103°29'54''E, , 220
+	1°4'21''N, 103°43'53''E
+	1°5'30''N, 103°52'55''E, , 190
+	end, 082
+
+[approach11]
+runway = rwy1
+beacon = ASUNA
+route1 =
+	082, ASUNA1A, ASUNA ONE ALPHA
+	0°59'48''N, 103°9'54''E, , 250
+	1°2'30''N, 103°29'54''E, , 220
+	1°4'21''N, 103°43'53''E
+	1°5'30''N, 103°52'55''E, , 190
+	end, 082
+
+[approach12]
+runway = rwy1
+beacon = NUFFA
+route1 =
+	137, NUFFA02, FLIGHT PLANNED ROUTE
+	2°53'41''N, 103°38'30''E
+	2°30'23''N, 104°6'18''E, , 250
+	1°59'15''N, 104°6'18''E, , 220
+	1°48'0''N, 104°6'18''E, 13000,
+	1°36'57''N, 104°6'24''E
+	1°27'25''N, 104°7'48''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 203
+
+[approach13]
+runway = rwy1
+beacon = KILOT
+route1 =
+	174, ELALO1A, ELALO ONE ALPHA
+	3°2'17''N, 104°40'23''E
+	2°30'23''N, 104°6'18''E, , 250
+	1°59'15''N, 104°6'18''E, , 220
+	1°48'0''N, 104°6'18''E, 13000,
+	1°36'57''N, 104°6'24''E
+	1°27'25''N, 104°7'48''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 203
+route2 =
+	231, MABAL2A, MABAL TWO ALPHA
+	3°2'17''N, 104°40'23''E
+	2°30'23''N, 104°6'18''E, , 250
+	1°59'15''N, 104°6'18''E, , 220
+	1°48'0''N, 104°6'18''E, 13000,
+	1°36'57''N, 104°6'24''E
+	1°27'25''N, 104°7'48''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 203
+
+#[approach14]
+#runway = rwy1
+#beacon = MABAL
+#route1 =
+#	231, MABAL2A, MABAL TWO ALPHA
+#	3°28'26''N, 105°12'36''E
+#	3°2'17''N, 104°40'23''E
+#	2°30'23''N, 104°6'18''E, , 250
+#	1°59'15''N, 104°6'18''E, , 220
+#	1°48'0''N, 104°6'18''E, 13000,
+#	1°36'57''N, 104°6'24''E
+#	1°27'25''N, 104°7'48''E
+#	1°7'49''N, 103°59'30''E, , 190
+#	end, 203
+
+[approach14]
+runway = rwy1
+beacon = TOMAN
+route1 =
+	233, KARTO1A, KARTO ONE ALPHA
+	1°21'47''N, 105°47'17''E
+	1°11'24''N, 105°33'43''E
+	1°10'19''N, 104°48'18''E, ,250
+	N1.1649, E104.6254, 14000,
+	1°9'50''N, 104°27'14''E, , 220
+	1°8'47''N, 104°12'57''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 266
+
+[approach15]
+runway = rwy1
+beacon = IKAGO
+route1 =
+	279, OBDOS1A, OBDOS ONE ALPHA
+#	0°25'3''N, 106°55'51''E
+	0°38'16''N, 105°29'31''E
+	0°43'14''N, 104°55'0''E
+	N0.8158, E104.6673, 17000,
+	0°50'36''N, 104°36'0''E, , 250
+	1°9'50''N, 104°27'14''E, , 220
+	1°8'47''N, 104°12'57''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 266
+route2 =
+	320, SURGA1A, SURGA ONE ALPHA
+#	0°36'57''S, 106°31'19''E
+	0°38'16''N, 105°29'31''E
+	0°43'14''N, 104°55'0''E
+	N0.8158, E104.6673, 17000,
+	0°50'36''N, 104°36'0''E, , 250
+	1°9'50''N, 104°27'14''E, , 220
+	1°8'47''N, 104°12'57''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 266
+
+#[approach16]
+#runway = rwy1
+#beacon = SURGA
+#route1 =
+#	300, SURGA1A, SURGA ONE ALPHA
+#	0°36'57''S, 106°31'19''E
+#	0°38'16''N, 105°29'31''E
+#	0°43'14''N, 104°55'0''E
+#	N0.8158, E104.6673, 17000,
+#	0°50'36''N, 104°36'0''E, , 250
+#	1°9'50''N, 104°27'14''E, , 220
+#	1°8'47''N, 104°12'57''E
+#	1°7'49''N, 103°59'30''E, , 190
+#	end, 266
+
+[approach16]
+runway = rwy1
+beacon = REPOV
+route1 =
+	348, REPOV1A, REE POTH ONE ALPHA
+	0°16'23''N, 104°3'0''E, , 250
+	N0.5053, E104.0057, 14000, 
+	0°43'42''N, 103°57'35''E, , 220
+	1°5'30''N, 103°52'55''E, , 190
+	end, 348
+	
+#STAR RWY 20 (20 - 27)
+[approach20]
+runway = rwy1, rev
+beacon = ARAMA
+route1 =
+	0, ARAMA1B, ARAMA ONE BRAVO
+	1°36'54''N, 103°7'12''E, , 250
+	N1.3643, E103.2890, 18000, 
+	1°2'30''N, 103°29'54''E, , 220
+	1°5'30''N, 103°52'55''E
+	1°8'13''N, 104°7'58''E, , 220
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach21]
+runway = rwy1, rev
+beacon = ASUNA
+route1 =
+	0, ASUNA1B, ASUNA ONE BRAVO
+	0°59'48''N, 103°9'54''E, , 250
+	1°2'30''N, 103°29'54''E, , 220
+	1°5'30''N, 103°52'55''E
+	1°8'13''N, 104°7'58''E, , 220
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach22]
+runway = rwy1, rev
+beacon = NUFFA
+route1 =
+	0, NUFFA20, FLIGHT PLANNED ROUTE
+	2°53'41''N, 103°38'30''E
+	2°30'23''N, 104°6'18''E, , 250
+	2°8'0''N, 104°6'18''E, 13000,
+	1°59'15''N, 104°6'18''E, , 220
+	1°36'57''N, 104°6'24''E, , 190
+	end, 180
+
+[approach23]
+runway = rwy1, rev
+beacon = KILOT
+route1 =
+	174, ELALO1B, ELALO ONE BRAVO
+	3°2'17''N, 104°40'23''E
+	2°30'23''N, 104°6'18''E, , 250
+	2°8'0''N, 104°6'18''E, 13000,
+	1°59'15''N, 104°6'18''E, , 220
+	1°36'57''N, 104°6'24''E, , 190
+	end, 180
+route2 =
+	231, MABAL2B, MABAL TWO BRAVO
+	3°2'17''N, 104°40'23''E
+	2°30'23''N, 104°6'18''E, , 250
+	2°8'0''N, 104°6'18''E, 13000,
+	1°59'15''N, 104°6'18''E, , 220
+	1°36'57''N, 104°6'24''E, , 190
+	end, 180
+
+[approach24]
+runway = rwy1, rev
+beacon = TOMAN
+route1 =
+	0, KARTO1B, KARTO ONE BRAVO
+	1°21'47''N, 105°47'17''E
+	1°11'24''N, 105°33'43''E
+	1°10'19''N, 104°48'18''E, , 250
+	N1.1649, E104.6254, 14000,
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach25]
+runway = rwy1, rev
+beacon = IKAGO
+route1 =
+	279, OBDOS1B, OBDOS ONE BRAVO
+	0°38'16''N, 105°29'31''E
+	0°43'14''N, 104°55'0''E
+	N0.8158, E104.6673, 17000,
+	0°50'36''N, 104°36'0''E, , 250
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+route2 =
+	320, SURGA1B, SURGA ONE BRAVO
+	0°38'16''N, 105°29'31''E
+	0°43'14''N, 104°55'0''E
+	N0.8158, E104.6673, 17000,
+	0°50'36''N, 104°36'0''E, , 250
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach26]
+runway = rwy1, rev
+beacon = REPOV
+route1 =
+	348, REPOV1B, REE POTH ONE BRAVO
+	0°16'23''N, 104°3'0''E, , 250
+	N0.5203, E103.9998, 14000, 
+	0°43'42''N, 103°57'35''E, , 220
+	1°8'13''N, 104°7'58''E, , 220
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach27]
+runway = rwy1, rev
+beacon = LELIB
+route1 =
+	0, LELIB3B, LELIB THREE BRAVO
+	1°27'29''N, 103°24'50''E, , 250
+# add altitude control waypoint here
+	1°29'59.50''N, 103°42'43.20''E, , 220
+	1°30'33''N, 103°49'42''E
+	1°35'54''N, 103°57'55''E, , 190
+	end, 057
+
+#INTERMEDIATE STARS RWY 02 (100 - 111)
+#	BOBAG
+[approach100]
+runway = rwy1
+beacon = BOBAG
+route1 =
+	0, BOBAG02, DIRECT BOBAG REJOIN STAR
+	1°2'30''N, 103°29'54''E, , 220
+	1°4'21''N, 103°43'53''E
+	1°5'30''N, 103°52'55''E, , 190
+	end, 082
+
+[approach101]
+runway = rwy1
+beacon = BOKIP
+route1 =
+	0, BOKIP02, DIRECT BOKIP REJOIN STAR
+	1°4'21''N, 103°43'53''E
+	1°5'30''N, 103°52'55''E, , 190
+	end, 082
+
+#	PASPU
+[approach102]
+runway = rwy1
+beacon = PIBAP
+route1 =
+	0, PIBAP02, DIRECT PIBAP REJOIN STAR
+	2°30'23''N, 104°6'18''E, , 250
+	1°59'15''N, 104°6'18''E, , 220
+	1°48'0''N, 104°6'18''E, 13000,
+	1°36'57''N, 104°6'24''E
+	1°27'25''N, 104°7'48''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 203
+
+[approach103]
+runway = rwy1
+beacon = PASPU
+route1 =
+	0, PASPU02, DIRECT PASS POOL REJOIN STAR
+	1°59'15''N, 104°6'18''E, , 220
+	1°48'0''N, 104°6'18''E, 13000,
+	1°36'57''N, 104°6'24''E
+	1°27'25''N, 104°7'48''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 203
+
+[approach104]
+runway = rwy1
+beacon = NYLON
+route1 =
+	0, NYLON02, DIRECT NYLON REJOIN STAR
+	1°36'57''N, 104°6'24''E
+	1°27'25''N, 104°7'48''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 203
+
+[approach105]
+runway = rwy1
+beacon = POSUB
+route1 =
+	0, POSUB02, DIRECT POSUB REJOIN STAR
+	1°27'25''N, 104°7'48''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 203
+
+#	LAVAX
+[approach106]
+runway = rwy1
+beacon = KARTO
+route1 =
+	0, KARTO02, DIRECT KARTO REJOIN STAR
+	1°11'24''N, 105°33'43''E
+	1°10'19''N, 104°48'18''E, , 250
+	N1.1649, E104.6254, 14000,
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+	
+[approach107]
+runway = rwy1
+beacon = KEXAS
+route1 =
+	0, KEXAS02, DIRECT KEX SESS REJOIN STAR
+	1°10'19''N, 104°48'18''E, , 250
+	N1.1649, E104.6254, 14000,
+	1°9'50''N, 104°27'14''E, , 220
+	1°8'47''N, 104°12'57''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 266
+
+[approach108]
+runway = rwy1
+beacon = LAVAX
+route1 =
+	0, LAVAX02, DIRECT LA VAX REJOIN STAR
+	1°9'50''N, 104°27'14''E, , 220
+	1°8'47''N, 104°12'57''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 266
+
+[approach109]
+runway = rwy1
+beacon = IGNON
+route1 =
+	0, IGNON02, DIRECT IGNON REJOIN STAR
+	1°8'47''N, 104°12'57''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 266
+
+[approach110]
+runway = rwy1
+beacon = IKIMA
+route1 =
+	0, IKIMA02, DIRECT YI KI MA REJOIN STAR
+	0°43'14''N, 104°55'0''E
+	N0.8158, E104.6673, 17000,
+	0°50'36''N, 104°36'0''E, , 250
+	1°9'50''N, 104°27'14''E, , 220
+	1°8'47''N, 104°12'57''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 266
+
+[approach111]
+runway = rwy1
+beacon = IBULA
+route1 =
+	0, IBULA02, DIRECT YI BULA REJOIN STAR
+	0°50'36''N, 104°36'0''E, , 250
+	1°9'50''N, 104°27'14''E, , 220
+	1°8'47''N, 104°12'57''E
+	1°7'49''N, 103°59'30''E, , 190
+	end, 266
+
+#	REMES
+[approach112]
+runway = rwy1
+beacon = REMES
+route1 =
+	0, REMES02, DIRECT REHMIS REJOIN STAR
+	0°43'42''N, 103°57'35''E, , 220
+	1°5'30''N, 103°52'55''E, , 190
+	end, 348
+
+#INTERMEDIATE STARS RWY 20 (120 - 134)
+#	BOBAG
+[approach120]
+runway = rwy1, rev
+beacon = BOBAG
+route1 =
+	0, BOBAG20, DIRECT BOBAG REJOIN STAR
+	1°2'30''N, 103°29'54''E, , 220
+	1°5'30''N, 103°52'55''E
+	1°8'13''N, 104°7'58''E, , 220
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach121]
+runway = rwy1, rev
+beacon = SAMKO
+route1 =
+	0, SAMKO20, DIRECT SAMKO REJOIN STAR
+	1°5'30''N, 103°52'55''E
+	1°8'13''N, 104°7'58''E, , 220
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach122]
+runway = rwy1, rev
+beacon = BTM
+route1 =
+	0, BTM20, DIRECT BRAVO TANGO MIKE REJOIN STAR
+	1°8'13''N, 104°7'58''E, , 220
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach123]
+runway = rwy1, rev
+beacon = DOVAN
+route1 =
+	0, DOVAN20, DIRECT DOU VEN REJOIN STAR
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+#	PASPU
+[approach124]
+runway = rwy1, rev
+beacon = PIBAP
+route1 =
+	0, PIBAP20, DIRECT PIBAP REJOIN STAR
+	2°30'23''N, 104°6'18''E, , 250
+	2°8'0''N, 104°6'18''E, 13000,
+	1°59'15''N, 104°6'18''E, , 220
+	1°36'57''N, 104°6'24''E, , 190
+	end, 180
+
+[approach125]
+runway = rwy1, rev
+beacon = PASPU
+route1 =
+	0, PASPU20, DIRECT PASS POOL REJOIN STAR
+	1°59'15''N, 104°6'18''E, , 220
+	1°36'57''N, 104°6'24''E, , 190
+	end, 180
+
+#	LAVAX
+[approach126]
+runway = rwy1, rev
+beacon = KARTO
+route1 =
+	0, KARTO20, DIRECT KARTO REJOIN STAR
+	1°11'24''N, 105°33'43''E
+	1°10'19''N, 104°48'18''E, , 250
+	N1.1649, E104.6254, 14000,
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach127]
+runway = rwy1, rev
+beacon = KEXAS
+route1 =
+	0, KEXAS20, DIRECT KEX SESS REJOIN STAR
+	1°10'19''N, 104°48'18''E, , 250
+	N1.1649, E104.6254, 14000,
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach128]
+runway = rwy1, rev
+beacon = LAVAX
+route1 =
+	0, LAVAX20, DIRECT LA VAX REJOIN STAR
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach129]
+runway = rwy1, rev
+beacon = RUVIK
+route1 =
+	0, RUVIK20, DIRECT RUVIK REJOIN STAR
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach130]
+runway = rwy1, rev
+beacon = IKIMA
+route1 =
+	0, IKIMA20, DIRECT YI KI MA REJOIN STAR
+	0°43'14''N, 104°55'0''E
+	N0.8158, E104.6673, 17000,
+	0°50'36''N, 104°36'0''E, , 250
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+[approach131]
+runway = rwy1, rev
+beacon = IBULA
+route1 =
+	0, IBULA20, DIRECT YI BULA REJOIN STAR
+	0°50'36''N, 104°36'0''E, , 250
+	1°9'50''N, 104°27'14''E, , 220
+	1°14'22''N, 104°20'33''E
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+#	REMES
+[approach132]
+runway = rwy1, rev
+beacon = REMES
+route1 =
+	0, REMES20, DIRECT REH MIS REJOIN STAR
+	0°43'42''N, 103°57'35''E, , 220
+	1°8'13''N, 104°7'58''E, , 220
+	1°19'38''N, 104°12'49''E
+	1°31'22''N, 104°10'18''E, , 190
+	end, 348
+
+#	LELIB
+[approach133]
+runway = rwy1, rev
+beacon = GUMPU
+route1 =
+	0, GUMPU20, DIRECT GUM POOL REJOIN STAR
+	1°29'59.50''N, 103°42'43.20''E, , 220
+	1°30'33''N, 103°49'42''E
+	1°35'54''N, 103°57'55''E, , 190
+	end, 057
+
+[approach134]
+runway = rwy1, rev
+beacon = ALFA
+route1 =
+	0, ALFA20, DIRECT ALFA REJOIN STAR
+	1°30'33''N, 103°49'42''E
+	1°35'54''N, 103°57'55''E, , 190
+	end, 057
+
+#[planetypes]
+#types =
+#
+#types = 
+#	f200, 5, 140, 230, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, big jet
+#	c271, 6, 90, 120, 2.9, 3.2, 1400, 1600, 90, 105, 1.1, 1.2, singleprop
+## type, category, minspeed, maxspeed, minturnrate, maxturnrate, mindescendrate, maxdescendrate, minfinalapproachspeed, maxfinalapproachspeed, minaccelrate, maxaccelrate, <manufacturer>
+# custom [planetypes] are only needed when using unknown custom types in the airlinelists above (game will show warnings on startup for missing types), or to override default type properties
+# category is the weight category: 1 to 6, meaning superheavy=1, upperheavy, lowerheavy, uppermedium, lowermedium, light=6
+# speeds in knots
+# turnrate is in degrees per second
+# descendrate is in feet per minute
+# approachspeeds in knots, may be below minspeed
+# accelrate is in knots per second
+# manufacturer name is optional, and only used for private callsign pronunciation in usa mode
+# example of default values for b737, 4, 160, 250, 2.6, 3.0, 1440, 1560, 131, 144, 1.2, 1.3
+
+	
