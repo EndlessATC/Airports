@@ -1,0 +1,1354 @@
+# VERSION 1.1, Publically released by Flight ATC on 2023-01-16. DO NOT REDISTRIBUTE OR REPRODUCE ANY PART OF THIS FILE.
+
+#The Canadian Maritimes, including the South of New Brunswick, Nova Scotia, and PEI!
+#Custom Moncton Centre sector made by Flight ATC #4898 with collaboration from Bombardier Global 7500 #5499 from Flight ATC's Aviation Discord Server https://discord.gg/Sdj7F2EtB3
+
+####################################################################################################################
+# INFORMATION
+
+# Aerodrome & Enroute Frequencies
+
+# RADAR
+# Boston-CTR 124.25
+# Gander-CTR 132.3
+# Gander-CTR 134.9
+# Halifax-TML 119.2
+# Moncton-CTR 134.35
+
+# TOWER
+# CYFC/FC-Fredericton International Airport-TWR 119.0
+# CYHZ/HZ-Halifax/Stanfield International Airport-TWR 118.4
+# CYQM/QM-Moncton/Greater Moncton Romeo LeBlanc International Airport-TWR 120.8
+
+# FLIGHT SERVICE STATION
+# CYSJ/SJ-Saint John Airport-FSS 118.5
+# CYYG/YG-Charlottetown International Airport-FSS 118.0
+# CYQY/QY-Sydney/J.A. Douglas McCurdy Airport-FSS (RAAS Charlottetown Radio) 122.0
+
+# ADVISORY
+# CFH4/H4-Fox Harbour Airport-UNICOM 122.2
+# CYID/ID-Digby Municipal Airport-UNICOM 122.8
+# CYPD/PD-Port Hawkesburry Airport-UNICOM 122.8
+# CYQI/QI-Yarmouth Airport-UNICOM 123.0
+# CYSU/SU-Summerside Airport-UNICOM 122.95
+# CYTN/TN-Trenton Airport-UNICOM 122.8
+
+
+# ILS Equipped Runways (conventional vectors) Y/N
+
+# CFH4/H4-Fox Harbour Airport-ALL ELSE/N
+# CYFC/FC-Fredericton International Airport-RWY09/Y, ALL ELSE/N
+# CYHZ/HZ-Halifax/Stanfield International Airport-RWY05/N, RWY14/Y, RWY23/Y, RWY32/N
+# CYID/ID-Digby Municipal Airport-ALL ELSE/N
+# CYPD/PD-Port Hawkesburry Airport-ALL ELSE/N
+# CYQI/QI-Yarmouth Airport-ALL ELSE/N
+# CYQM/QM-Moncton/Greater Moncton Romeo LeBlanc International Airport-RWY06/Y, RWY29/Y, ALL ELSE/N
+# CYQY/QY-Sydney/J.A. Douglas McCurdy Airport-RWY06/Y, ALL ELSE/N
+# CYSJ/SJ-Saint John Airport-RWY05/Y, RWY23/Y, ALL ELSE/N
+# CYSU/SU-Summerside Airport-ALL ELSE/N
+# CYTN/TN-Trenton Airport-ALL ELSE/N
+# CYYG/YG-Charlottetown International Airport-RWY03/Y, ALL ELSE/N
+
+# END INFORMATION
+####################################################################################################################
+
+# Flight ATC made this file
+
+[airspace]
+elevation = 477
+zoom = -100.0
+usa = true
+transition = 18001
+center = N44.8807983398, W63.5085983276
+magneticvar = -19.265
+floor = 1700
+ceiling = 60000
+above = 20000
+descentaltitude = 15000
+diversionaltitude = 10000
+transitionaltitude = 17999
+letters = 80
+usa = true
+separation = 3
+automatic = true
+name = Moncton Centre, Moncton Centre
+handoff = 
+	360, Moncton Centre, Moncton Center, 134.35
+	090, Gander Centre, Gander Center, 132.3
+	180, Gander Centre, Gander Center, 134.9
+	270, Boston Center, Boston Center, 124.25
+
+beacons =
+#radio
+	YHZ, N44.92310, W63.40180, 0, Halifax v o r
+	UAW, N44.63810, W63.49650, 0, Shearwater Tack Anne
+	SJ, N45.39170, W65.81880, 0, Saint John n d b
+	YSJ, N45.40720, W65.87080, 0, Saint John v o r
+	YZX, N44.92290, W65.10190, 0, Greenwood n d b
+	YFC, N45.89530, W66.41890, 0, Fredericton v o r
+	UZX, N44.9846, W64.9166, 0, Greenwood Tack Anne
+	FC, N45.91730, W66.59970, 0, Fredericton n d b
+	GF, N45.02390, W64.81030, 0, Aylesford n d b
+	YYG, N46.29750, W63.11970, 0, Charlotte town v o r
+	5B, N46.39690, W63.88170, 0, Summerside n d b
+	QM, N46.11000, W64.58180, 0, Moncton n d b
+	YQM, N46.18900, W64.57070, 0, Moncton v o r
+	YQY, N46.15340, W60.05590, 0, Sydney v o r
+	QY, N46.21150, W59.97560, 0, Sydney n d b
+	YQI, N43.825013, W66.082423, 0, Yarmouth d m e
+	ZST, N45.22790, W65.95800, 0, Alpine n d b
+	ZQM, N46.03840, W64.78320, 0, Riverview n d b
+
+#gps
+	ETGAR, N44.420837, W64.164895, 0, Edgar
+	MUVOX, N44.858649, W64.205218, 0, Move Oxe
+	AGMIR, N45.231001, W61.955609, 0, Agg mirror
+	BOSUB, N45.200629, W62.936171, 0, Bow Sub
+
+boundary = 
+	N46.42034, W67.41660
+	N46.6685, W64.9639
+	N48.25797, W61.93281
+	N46.13955, W58.55901
+	N41.72224, W66.84515
+	N42.47990, W66.68030
+	N42.57700, W66.61437
+	N44.75302, W66.76822
+	N45.68983, W67.80998
+	N46.05298, W67.80449
+	N46.09545, W67.55324
+	N46.24563, W67.41038
+
+###
+
+line1 =
+#nova scotia
+	N45.84602, W64.29210
+	N45.38264, W64.91495
+	N45.31634, W64.70311
+	N45.40796, W64.06297
+	N45.36318, W63.37618
+	N45.35201, W63.37125
+	N45.35201, W63.37125
+	N45.17813, W64.15700
+	N45.10067, W64.21195
+	N45.09680, W64.38229
+	N45.30183, W64.36580
+	N45.23615, W64.45921
+	N44.73133, W65.72301
+	N44.26141, W66.35491
+	N44.25417, W66.32657
+	N44.56694, W65.84166
+	N44.34168, W66.09507
+	N44.08196, W66.18573
+	N43.75174, W66.11979
+	N43.37779, W65.64999
+	N44.29691, W64.25009
+	N44.55177, W64.33252
+	N44.68074, W63.90392
+	N44.50481, W63.92041
+	N44.47739, W63.50280
+	N44.61738, W63.56988
+	N44.64424, W63.54241
+	N44.58904, W63.44557
+	N44.70967, W62.89997
+	N45.08884, W61.72134
+	N45.23787, W61.02899
+	N45.34602, W60.97405
+	N45.34602, W61.46583
+	N45.40127, W61.47127
+	N45.48095, W61.22673
+	N45.71910, W60.25416
+	N45.87221, W60.15250
+	N45.94098, W59.80908
+	N46.17718, W59.83381
+	N46.32334, W60.54813
+	N46.84289, W60.31024
+	N46.89919, W60.51904
+	N47.01161, W60.38167
+	N47.04342, W60.62344
+	N46.24778, W61.30461
+	N46.04954, W61.51432
+	N45.69788, W61.45388
+	N45.62881, W61.88796
+	N45.91984, W61.93192
+	N45.61729, W62.46492
+	N45.78600, W63.36606
+	N46.02294, W64.06876
+	
+line2 = 
+#new brunswick
+	N45.84602, W64.29210
+	N45.88629, W64.57238
+	N45.60661, W64.77019
+	N45.10119, W66.46258
+	N44.75302, W66.76822
+	N45.68983, W67.80998
+	N46.05298, W67.80449
+	N46.09545, W67.55324
+	N46.24563, W67.41038
+
+line3 = 
+#new brunswick east coast
+	N46.02294, W64.06876
+	N46.11408, W63.77284
+	N46.23004, W64.27287
+	N46.22529, W64.56684
+	N46.6685, W64.9639
+
+line4 = 
+#prince edward island
+	N46.63579, W64.40266
+	N46.94029, W64.17737
+	N47.03953, W63.98505
+	N46.88966, W63.96033
+	N46.61316, W63.83944
+	N46.49612, W63.88615
+	N46.43372, W63.71856
+	N46.56411, W63.67185
+	N46.48478, W63.30645
+	N46.42994, W63.27073
+	N46.45831, W62.63883
+	N46.45831, W62.63883
+	N46.33336, W62.27343
+	N46.34662, W62.39706
+	N45.97204, W62.48773
+	N45.96440, W62.84489
+	N46.06735, W62.96028
+	N46.15489, W62.86412
+	N46.24610, W63.14161
+	N46.12636, W63.24875
+	N46.22521, W63.63888
+	N46.34283, W63.80647
+	N46.42426, W63.93285
+	N46.37693, W63.98231
+	N46.41101, W64.12242
+	N46.59619, W64.11693
+	N46.63579, W64.40266
+
+line5 = 
+# Confederation Bridge
+	N46.142700, W63.840983
+	N46.254622, W63.701442
+
+line6 = 
+# CYZX RWY08
+	N44.981502, W64.932631
+	N44.990931, W64.905051
+
+line7 = 
+# CYZX RWY12
+	N44.983404, W64.932323
+	N44.977697, W64.902692
+
+# Flight ATC made this file
+
+###
+
+[airport1]
+name = Halifax/Stanfield International Airport, Halifax
+code = CYHZ
+runways =
+	rwy1, 5, N44.8686, W63.525, 35.0, 10500, 0, 361, 449, 3, 35.0, 3, 215.0, 0, 0, 0, 0, 118.4, Halifax Tower
+	rwy2, 14, N44.8936, W63.5183, 126.0, 7700, 0, 0, 435, 3, 126.0, 3, 306.0, 0, 0, 0, 0, 118.4, Halifax Tower
+
+climbaltitude = 5000
+sids = 
+	KEVLU, N44.362566, W64.119505, Kev loo
+	ARDEE, N45.120257, W64.391759, Ardee
+	PAULO, N45.259836, W63.334124, Paulo
+	IGTAS, N45.088755, W62.984503, Igtass
+
+entrypoints = 
+	270, MUVOX, 23000
+	350, MUVOX, 25000
+	090, AGMIR, 24000
+	200, ETGAR, 15000
+	030, BOSUB, 28000
+
+airlines = 
+	ACA, 8, BCS3/B77L/B77W/A320/A321/B38M/A333/B788/B789, Air Canada, swen
+	SKV, 6, E75S/E75L/DH8D, Maple, ews
+	JZA, 4, DH8D/CRJ2/CRJ7/CRJ9/E75S/E75L, Jazz, w
+	WJA, 6, B738/B37M/B737/B38M, WestJet, ensw
+	ROU, 4, A319/A321/A320, Rouge, s
+	SWG, 3, B738/b38m, Sun Wing, sw
+	POE, 3, DH8D, Porter, ws
+	TSC, 3, A321, Air Transat, swe
+	AAL, 3, B738/A321/E75S/E75L, American, s
+	PSC, 1, SF34, Pascan, w
+	FLE, 3, B738, Flair, w
+	PVL, 3, DH8D, Provincial, en
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34, Pascan, nw
+	DAT, 2, B38M, Dauntless, w
+	CFG, 2, B763, Condor, e
+	WSW, 4, B738, Swoop, nw
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+	CJT, 3, B763/B752, Cargo Jet, w
+	FDX, 2, B752, Fed x, swe
+	KYE, 1, B744, Sky Cube, e
+	KAL, 1, B77L, Korean Air, we
+	NVC101-, 1, CRJ2, Naav Can 1 O 1, w
+
+[approach1]
+# FUNDY FIVE 05
+runway = rwy1
+beacon = MUVOX, N44.858649, W64.205218, 0, Move Oxe
+route1 = 
+	290, FUNDY5, Fundy five runway 5 transition
+	N44.858649, W64.205218
+	N44.731330, W63.658463
+	end, hold
+
+[approach3]
+# FUNDY FIVE 14
+runway = rwy2
+beacon = MUVOX, N44.858649, W64.205218, 0, Move Oxe
+route1 = 
+	290, FUNDY5, Fundy five runway 1 4 transition
+	N44.858649, W64.205218
+	N44.876238, W63.819634
+	N44.927063, W63.778060
+	end, 323
+
+[approach4]
+# FUNDY FIVE 23
+runway = rwy1, rev
+beacon = MUVOX, N44.858649, W64.205218, 0, Move Oxe
+route1 = 
+	290, FUNDY5, Fundy five runway 2 3 transition
+	N44.858649, W64.205218
+	N44.976676, W63.563466
+	end, 053
+
+[approach5]
+# FUNDY FIVE 32
+runway = rwy2, rev
+beacon = MUVOX, N44.858649, W64.205218, 0, Move Oxe
+route1 = 
+	290, FUNDY5, Fundy five runway 3 2 transition
+	N44.858649, W64.205218
+	N44.791321, W63.514939
+	end, 143
+
+[approach6]
+# PEGGY FIVE 05
+runway = rwy1
+beacon = ETGAR, N44.420837, W64.164895, 0, Edgar
+route1 = 
+	220, PEGGY5, Peggy five runway 5 transition
+	N44.420837, W64.164895
+	N44.731330, W63.658463
+	end, hold
+
+[approach7]
+# PEGGY FIVE 14
+runway = rwy2
+beacon = ETGAR, N44.420837, W64.164895, 0, Edgar
+route1 = 
+	220, PEGGY5, Peggy five runway 1 4 transition
+	N44.420837, W64.164895
+	N44.927063, W63.778060
+	end, 323
+
+[approach8]
+# PEGGY FIVE 23
+runway = rwy1, rev
+beacon = ETGAR, N44.420837, W64.164895, 0, Edgar
+route1 = 
+	220, PEGGY5, Peggy five runway 2 3 transition
+	N44.420837, W64.164895
+	N44.684913, W63.564175
+	end, 053
+
+[approach9]
+# PEGGY FIVE 32
+runway = rwy2, rev
+beacon = ETGAR, N44.420837, W64.164895, 0, Edgar
+route1 = 
+	220, PEGGY5, Peggy five runway 3 2 transition
+	N44.420837, W64.164895
+	N44.718737, W63.368458
+	end, 143
+
+[approach10]
+# LIRLA FIVE 05
+runway = rwy1
+beacon = AGMIR, N45.231001, W61.955609, 0, Agg Mirror
+route1 = 
+	130, LIRLA5, Lerla five runway 5 transition
+	N45.231001, W61.955609
+	N45.018483, W62.835591
+	N44.796660, W63.460179
+	end, 233
+
+[approach11]
+# LIRLA FIVE 14
+runway = rwy2
+beacon = AGMIR, N45.231001, W61.955609, 0, Agg Mirror
+route1 = 
+	130, LIRLA5, Lerla five runway 1 4 transition
+	N45.231001, W61.955609
+	N45.018483, W62.835591
+	N44.979716, W63.483915
+	end, 323
+
+[approach12]
+# LIRLA FIVE 23
+runway = rwy1, rev
+beacon = AGMIR, N45.231001, W61.955609, 0, Agg Mirror
+route1 = 
+	130, LIRLA5, Lerla five runway 1 4 transition
+	N45.231001, W61.955609
+	N45.018483, W62.835591
+	N45.025702, W63.368909
+	end, hold
+
+[approach14]
+# LIRLA FIVE 32
+runway = rwy2, rev
+beacon = AGMIR, N45.231001, W61.955609, 0, Agg Mirror
+route1 = 
+	130, LIRLA5, Lerla five runway 1 4 transition
+	N45.231001, W61.955609
+	N45.018483, W62.835591
+	N44.855555, W63.233935
+	end, 143
+
+[approach15]
+# CABOT FIVE 05
+runway = rwy1
+beacon = BOSUB, N45.200629, W62.936171, 0, Bow Sub
+route1 = 
+	030, CABOT5, Cabow five runway 5 transition
+	N45.200629, W62.936171
+	N44.986343, W63.261928
+	end, 233
+
+[approach16]
+# CABOT FIVE 14
+runway = rwy2
+beacon = BOSUB, N45.200629, W62.936171, 0, Bow Sub
+route1 = 
+	030, CABOT5, Cabow five runway 1 4 transition
+	N45.200629, W62.936171
+	N44.979716, W63.483915
+	end, 323
+
+[approach17]
+# CABOT FIVE 23
+runway = rwy1, rev
+beacon = BOSUB, N45.200629, W62.936171, 0, Bow Sub
+route1 = 
+	030, CABOT5, Cabow five runway 2 3 transition
+	N45.200629, W62.936171
+	N45.025702, W63.368909
+	end, hold
+
+[approach18]
+# CABOT FIVE 32
+runway = rwy1, rev
+beacon = BOSUB, N45.200629, W62.936171, 0, Bow Sub
+route1 = 
+	030, CABOT5, Cabow five runway 3 2 transition
+	N45.200629, W62.936171
+	N44.855555, W63.233935
+	end, 143
+
+[approach2]
+# LOCALIZER 05
+runway = rwy1
+beacon = ODKAS, N44.731330, W63.658463, Odd Cass
+route1 = 
+	050, L, Localizer
+	N44.731330, W63.658463
+	5.8, 1800, 180
+
+[approach13]
+# RNAV Z 23
+runway = rwy1, rev
+beacon = LEROS, N45.025702, W63.368909, Lerous
+route1 = 
+	050, RZ, Are Naav Zulu
+	N45.025702, W63.368909
+	4.4, 1900, 180
+
+[approach19]
+# RNAV Z 32
+runway = rwy2, rev
+beacon = VOKIL, N44.786325, W63.302596, Vocal
+route1 = 
+	140, RZ, Are Naav Zulu
+	N44.786325, W63.302596
+	4.0, 1800, 180
+
+[approach20]
+# RNAV Z 14
+runway = rwy2
+beacon = TETAR, N44.988286, W63.710677, Tea Tar
+route1 = 
+	320, RZ, Are Naav Zulu
+	N44.988286, W63.710677
+	4.1, 1800, 180
+
+[area1]
+# Halifax TCA
+shape = circle
+altitude = 12500
+radius = 35
+position = N44.8807983398, W63.5085983276
+labelpos = N45.1091, W63.6242
+
+[area2]
+# Halifax CZ
+shape = circle
+altitude = 3500
+radius = 7
+position = N44.8807983398, W63.5085983276
+labelpos = N44.9460, W63.5350
+
+[area3]
+# Shearwater CZ
+shape = circle
+altitude = 3500
+radius = 5
+name = AW
+position = N44.63810, W63.49650
+labelpos = N44.6038, W63.4760
+
+[area8]
+# Greenwood CZ
+shape = circle
+altitude = 5000
+radius = 7
+name = ZX
+position = N44.9846, W64.9165
+labelpos = N45.0407, W64.9495
+
+###
+
+[airport2]
+name = Saint John Airport, Saint John
+code = SJ
+flow = 5
+runways =
+	rwy3, 5, N45.302191, W65.894927, 31.0, 7201, 0, 197, 296, 3, 31.0, 3, 211.0, 0, 0, 0, 0, 118.5, Saint John Radio
+	rwy4, 32, N45.322573, W65.882204, 300.0, 5100, 0, 0, 314, 3, 300.0, 3, 120.0, 0, 0, 0, 0, 118.5, Saint John Radio
+
+climbaltitude = 5000
+sids = 
+	CAAPE, N45.299449, W65.305872, Cape
+	MOWND, N45.382156, W66.662784, Mowned
+	SATUX, N45.942280, W66.182478, Say Tucks
+
+entrypoints = 
+	270, YSJ, 15000
+	350, YSJ, 19000
+	090, YSJ, 28000
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+	JZA, 4, DH8D, Jazz, w
+	WJA, 6, B738/B37M/B737/B38M/B3XM, WestJet, ensw
+	FLE, 3, B738, Flair, w
+	PVL, 3, DH8D, Provincial, en
+	WSW, 3, B738, Swoop, w
+	SWG, 3, B738, Sun Wing, ws
+	NVC101-, 1, CRJ2, Naav Can 1 O 1, w
+
+[approach21]
+# SJ RNAV Z 05
+runway = rwy3
+beacon = CROSI, N45.165000, W66.005, 0, Crossy
+route1 = 
+	230, RZ, Are Naav Zulu
+	N45.165000, W66.005
+	4.2, 1700, 180
+
+[approach22]
+# SJ RNAV Z 14
+runway = rwy4, rev
+beacon = EBGID, N45.407334, W66.082789, 0, EBGID
+route1 = 
+	320, RZ, Are Naav Zulu
+	N45.407334, W66.082789
+	4.1, 1700, 180
+
+[approach23]
+# SJ RNAV Z 23
+runway = rwy3, rev
+beacon = BOOTI, N45.525786, W65.701988, 0, Booty
+route1 = 
+	050, RZ, Are Naav Zulu
+	N45.525786, W65.701988
+	4.5, 1800, 180
+
+[approach24]
+# SJ RNAV Z 32
+runway = rwy4
+beacon = DUGVO, N45.244730, W65.693620, 0, Dug Vough
+route1 = 
+	140, RZ, Are Naav Zulu
+	N45.244730, W65.693620
+	4.2, 1700, 180
+
+[area6]
+# Saint John CZ
+shape = circle
+radius = 5
+altitude = 3400
+name = SJ
+position = N45.322573, W65.882204
+labelpos = N45.32081, W65.9383
+
+###
+
+[airport3]
+name = Moncton/Greater Moncton Romeo LeBlanc International Airport, Moncton
+code = QM
+flow = 8
+runways =
+	rwy5, 6, N46.1056, W64.695, 43.5, 10001, 0, 0, 223, 3, 43.5, 3, 223.5, 0, 0, 0, 0, 120.8, Moncton Tower
+	rwy6, 11, N46.1067, W64.695, 88.5, 8000, 0, 0, 222, 3, 88.5, 3, 268.5, 0, 0, 0, 0, 120.8, Moncton Tower
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+	ACA, 8, BCS3/A320/A321/B38M/A333/B788, Air Canada, swen
+	SKV, 6, E75S/E75L/DH8D, Maple, ews
+	JZA, 4, DH8D, Jazz, w
+	WJA, 6, B738/B37M/B737/B38M/B3XM/B789, WestJet, ensw
+	FLE, 3, B738, Flair, w
+	PVL, 3, DH8D, Provincial, en
+	WSW, 4, B738, Swoop, nw
+	CJT, 3, B752/B763, Cargo jet, w
+	FDX, 2, B752, Fed x, se
+	POE, 2, DH8D, Porter, w
+	ROU, 3, A319/A320/A321, Rouge, swe
+	TSC, 1, A321, Air Transat, se
+	SWG, 1, B738/B38M, Sun wing, s
+	GTI, 1, B744, Giant, se
+	CKS, 1, B744, Cony, se
+	BBD, 1, B734, Blue Cargo, n
+	VAL, 1, BE9L, Voyageur, n
+	CF-ABC, 8, da20, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, da20, Charlie Golf Alpha Bravo Charlie
+	NVC101-, 1, CRJ2, Naav Can 1 O 1, w
+
+sids = 
+	ITPAX, N46.110098, W65.116815, Itpax
+	SATUX, N45.942280, W66.182478, Say Tucks
+	CAAPE, N45.299449, W65.305872, Cape
+
+entrypoints = 
+	090, YQM, 20000
+	350, YQM, 17000
+	030, YQM, 20000
+	210, YQM, 27000
+
+[approach25]
+# QM NDB 06
+runway = rwy5
+beacon = ZQM, N46.03840, W64.78320, 0, Riverview n d b
+route1 = 
+	240, N, n d b
+	N46.03840, W64.78320
+	5.5, 1200, 160
+
+[approach26]
+# QM RNAV Z 11
+runway = rwy6
+beacon = AXAMO, N46.098871, W64.957709, 0, Axamo
+route1 = 
+	290, RZ, Are Naav Zulu
+	N46.098871, W64.957709
+	4.3, 1700, 180
+
+[approach27]
+# QM VOR 24
+runway = rwy5, rev
+beacon = BIMKU, N46.268527, W64.458446, 0, BimKoo
+route1 = 
+	060, V, v o r
+	N46.268527, W64.458446
+	N46.18900, W64.57070, 1600
+	5.3, 1000, 160
+
+[approach28]
+# QM NDB 29
+runway = rwy6, rev
+beacon = QM, N46.11000, W64.58180, 0, Moncton n d b
+route1 = 
+	110, N, n d b
+	N46.11000, W64.58180, 900
+	3.4, 900, 160
+
+[area9]
+# Moncton CZ
+shape = circle
+altitude = 3500
+radius = 7
+name = QM
+position = N46.1056, W64.695
+labelpos = N46.0511, W64.6552
+
+###
+
+[airport4]
+name = Charlottetown Airport, Charlottetown
+code = YG
+flow = 5
+runways =
+	rwy7, 3, N46.2797, W63.1275, 9.3, 7002, 0, 0, 155, 3, 9.3, 3, 189.3, 0, 0, 0, 0, 118.0, Charlottetown Radio
+	rwy8, 10, N46.2939, W63.129, 78.9, 7000, 0, 0, 158, 3, 78.9, 3, 258.9, 0, 0, 0, 0, 118.0, Charlottetown Radio
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+	ACA, 8, BCS3/A320/A321/B38M, Air Canada, swen
+	SKV, 6, E75S/E75L/DH8D, Maple, ews
+	JZA, 4, DH8D, Jazz, w
+	WJA, 6, B738/B37M/B737/B38M/B3XM, WestJet, ensw
+	FLE, 3, B738, Flair, w
+	PVL, 3, DH8D, Provincial, en
+	WSW, 4, B738, Swoop, nw
+	NVC101-, 1, CRJ2, Naav Can 1 O 1, w
+
+sids = 
+	ITPAX, N46.110098, W65.116815, Itpax
+	YSY
+
+entrypoints = 
+	050, YYG, 16000
+	180, YYG, 21000
+	270, YYG, 25000
+
+[approach29]
+# YG RNAV Z 03
+runway = rwy7
+beacon = VILRI, N46.027683, W63.185400, 0, Ville Ree
+route1 = 
+	210, RZ, Are Naav Zulu
+	N46.027683, W63.185400
+	5.6, 2000, 160
+
+[approach30]
+# YG VOR DME 10
+runway = rwy8
+beacon = IKBIT, N46.240821, W63.344860, 0, Ick Bit
+route1 = 
+	280, V, v o r d m e
+	N46.240821, W63.344860
+	3.6, 1200, 180
+
+[approach31]
+# YG RNAV Z 21
+runway = rwy7, rev
+beacon = OTETI, N46.459346, W63.067824, 0, O Tett e
+route1 = 
+	030, RZ, Are Naav Zulu
+	N46.459346, W63.067824
+	4.0, 1500, 180
+
+[approach32]
+# YG VOR DME 28
+runway = rwy8, rev
+beacon = TIBAS, N46.309164, W62.878604, 0, Tea Bass
+route1 = 
+	100, V, v o r d m e
+	N46.309164, W62.878604
+	4.0, 900, 180
+
+[area10]
+# Charlottetown CZ
+shape = circle
+altitude = 3200
+radius = 5
+name = YG
+position = N46.2939, W63.129
+labelpos = N46.2621, W63.0861
+
+###
+
+[airport5]
+name = Fredericton Airport
+code = FC
+flow = 5
+runways =
+	rwy9, 9, N45.863, W66.5523, 70.7, 8005, 0, 0, 64, 3, 70.7, 3, 250.7, 0, 0, 0, 0, 119.0, Fredericton Tower
+	rwy10, 15, N45.8744, W66.5394, 131.1, 6000, 0, 0, 53, 3, 131.1, 3, 311.1, 0, 0, 0, 0, 119.0, Fredericton Tower
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+	ACA, 8, BCS3/A320/A321/B38M, Air Canada, swen
+	SKV, 6, E75S/E75L/DH8D, Maple, ews
+	JZA, 4, DH8D, Jazz, w
+	WJA, 6, B738/B37M/B737/B38M/B3XM, WestJet, ensw
+	FLE, 3, B738, Flair, w
+	PVL, 3, DH8D, Provincial, en
+	WSW, 4, B738, Swoop, nw
+	ROU, 4, A319/A320/A321, Rouge, ew
+	TSC, 3, A321, Air Transat, e
+	SWG, 2, B738, Sun wing, ws
+	NVC101-, 1, CRJ2, Naav Can 1 O 1, w
+
+sids = 
+	HARDI, N45.606555, W67.102955, Hardy
+	KENSU, N46.051653, W65.896432, Kenzoo
+
+entrypoints = 
+	090, YFC, 22000
+	180, YSJ, 20000
+	270, YFC, 19000
+	330, YFC, 11000
+
+[approach33]
+# FC RNAV Z 09
+runway = rwy9
+beacon = OMPAP, N45.883248, W66.818611, 0, Ommpap
+route1 = 
+	360, RZ, Are Naav Zulu
+	N45.883248, W66.818611, 4000
+	11, 4000, 190
+
+[approach34]
+# FC RNAV Z 15
+runway = rwy10
+beacon = UDMUV, N45.984608, W66.724694, 0, Uddmuv
+route1 = 
+	330, RX, Are Naav X ray
+	N45.984608, W66.724694
+	3.2, 1500, 180
+
+[approach35]
+# FC VOR 27
+runway = rwy9, rev
+beacon = GADIB, N45.945044, W66.229437, 0, Gaddib
+route1 = 
+	090, V, v o r
+	N45.945044, W66.229437
+	4.6, 900, 160
+
+[area7]
+# Fredericton CZ
+shape = circle
+altitude = 3500
+radius = 5
+name = FC
+position = N45.8744, W66.5394
+labelpos = N45.9084, W66.5092
+
+[area11]
+# CFB Gagetown firing area CYR724
+shape = polygon
+altitude = 25000
+name = CYR724
+labelpos = N45.6347, W66.3564
+points = 
+	N45.79751, W66.47578
+	N45.84773, W66.40504
+	N45.58321, W66.08290
+	N45.43412, W66.29033
+	N45.55150, W66.53554
+	N45.66769, W66.58430
+
+[area12]
+# Confederation Bridge CYR754
+shape = polygon
+altitude = 500
+name = CYR754
+labelpos = N46.20403, W63.75996
+points = 
+	N46.28852, W63.73661
+	N46.22398, W63.63839
+	N46.10848, W63.79637
+	N46.15652, W63.92069
+	
+
+###
+
+[airport6]
+name = Sydney/J.A. Douglas McCurdy Airport, Sydney
+code = QY
+flow = 4
+runways =
+	rwy11, 6, N46.1538, W60.0612, 46.0, 7070, 0, 0, 194, 3, 46.0, 3, 226.0, 0, 0, 0, 0, 122.0, Charlottetown Radio
+	rwy12, 18, N46.1689, W60.0422, 164.9, 5997, 0, 0, 191, 3, 164.9, 3, 344.9, 0, 0, 0, 0, 122.0, Charlottetown Radio
+
+sids = 
+	YQY
+	YYG
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34/PC12, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+	SKV, 6, E75S/E75L/DH8D, Maple, ews
+	JZA, 4, DH8D, Jazz, w
+	PVL, 3, DH8D, Provincial, en
+
+entrypoints = 
+	150, YQY, 8000
+	180, YQY, 11000
+	330, YQY, 19000
+
+[approach36]
+# QY RNAV Z 06
+runway = rwy11
+beacon = MITOX, N46.0394, W60.2297, 0, Me talks
+route1 = 
+	240, RZ, Are Naav Zulu
+	N46.0394, W60.2297
+	3.3, 1600, 180
+
+[approach37]
+# QY RNAV Z 18
+runway = rwy12
+beacon = KINIP, N46.335277, W60.115756, 0, Kinnip
+route1 = 
+	360, RZ, Are Naav Zulu
+	N46.335277, W60.115756
+	4.3, 1600, 180
+
+[approach38]
+# QY RNAV Z 24
+runway = rwy11, rev
+beacon = GAGBU, N46.268864, W59.871418, 0, Gagboo
+route1 = 
+	060, RZ, Are Naav Zulu
+	N46.268864, W59.871418
+	4.3, 1600, 180
+
+[approach39]
+# QY RNAV Z 36
+runway = rwy12, rev
+beacon = ALVUX, N45.988745, W59.973175, 0, All vucks
+route1 = 
+	180, RZ, Are Naav Zulu
+	N45.988745, W59.973175
+	3.3, 1600, 180
+
+[area5]
+#Sydney CZ
+shape = circle
+altitude = 3200
+name = QY
+radius = 5
+position = N46.1689, W60.0422
+labelpos = N46.1755, W60.1053
+
+###
+
+[airport7]
+name = Yarmouth Airport, Yarmouth
+code = QI
+flow = 4
+runways = 
+	rwy13, 6, N43.817440, W66.097348, 41.0, 6002, 0, 0, 135, 3, 41.0, 3, 221.0, 0, 0, 0, 0, 123.0, Yarmouth Unicom
+	rwy14, 33, N43.827982, W66.079180, 312.0, 4999, 0, 0, 102, 3, 312.0, 3, 132.0, 0, 0, 0, 0, 123.0, Yarmouth Unicom
+
+sids = 
+	YQI
+	YSJ
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34/PC12, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+
+entrypoints = 
+	180, YQI, 16000
+	270, YQI, 11000
+	350, YQI, 20000
+
+[approach40]
+# QI RNAV Y 06
+runway = rwy13
+beacon = DUSDO, N43.6865, W66.2577, 0, Dust o
+route1 = 
+	240, RY, Are Naav Yankee
+	N43.6865, W66.2577
+	4.4, 1600, 180
+
+[approach41]
+# QI RNAV Y 15
+runway = rwy14, rev
+beacon = SIDPU, N43.9543, W66.2754, Sidd Pooh
+route1 = 
+	330, RY, Are Naav Yankee
+	N43.9543, W66.2754
+	4.5, 1600, 180
+
+[approach42]
+# QI RNAV Y 24
+runway = rwy13, rev
+beacon = PENLA, N43.97717, W65.90682, Penn Lah
+route1 = 
+	060, RY, Are Naav Yankee
+	N43.97717, W65.90682
+	4.5, 1600, 180
+
+[approach43]
+# QI RNAV Y 33
+runway = rwy14
+beacon = BEXOD, N43.7169, W65.8944, Becks Odd
+route1 = 
+	150, RY, Are Naav Yankee
+	N43.7169, W65.8944
+	4.6, 1600, 180
+
+[area4]
+# Yarmouth CZ
+shape = circle
+altitude = 3100
+radius = 5
+name = QI
+position = N43.825013, W66.082423
+labelpos = N43.8114, W66.1417
+
+###
+
+[airport8]
+name = Fox Harbour Airport, Fox Harbour Airport
+code = H4
+flow = 2
+runways = 
+	rwy15, 33, N45.866268, W63.453396, 305.0, 4885, 80, 0, 52, 3, 305.0, 3, 125.0, 0, 0, 0, 0, 122.2, Fox Harbour Unicom
+
+sids = 
+	YZX
+	YYG
+	YQM
+
+entrypoints = 
+	090, YYG, 12000
+	330, YQM, 11000
+	220, YHZ, 13000
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, PC12, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+
+[approach44]
+# H4 RNAV 15
+runway = rwy15, rev
+beacon = MESBU, N45.9716, W63.6583, Mezz Boo
+route1 = 
+	330, R, Are Naav
+	N45.9716, W63.6583
+	4.2, 1100, 180
+
+[approach45]
+# H4 RNAV 33
+runway = rwy15
+beacon = MUSVU, N45.7720, W63.2626, Muzz Voo
+route1 = 
+	150, R, Are Naav
+	N45.7720, W63.2626
+	5, 1100, 180
+
+###
+
+[airport9]
+name = Trenton Airport, Trenton
+code = TN
+flow = 2
+runways = 
+	rwy16, 6, N45.606716, W62.628610, 46.0, 5377, 0, 0, 311, 3, 46.0, 3, 226.0, 0, 0, 0, 0, 122.8, Trenton Unicom
+
+sids = 
+	YYG
+	YQY
+
+entrypoints = 
+	090, YQY, 10000
+	350, YQM, 13000
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, PC12, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+
+[approach46]
+# TN RNAV 06
+runway = rwy16
+beacon = VOKEN, N45.4915, W62.7988, Vogh Can
+route1 = 
+	240, R, Are Naav
+	N45.4915, W62.7988
+	5.2, 2000, 180
+
+[approach47]
+# TN RNAV 24
+runway = rwy16, rev
+beacon = AGDUS, N45.7355, W62.4417, Aggdus
+route1 = 
+	060, R, Are Naav
+	N45.7355, W62.4417
+	5.1, 1900, 180
+
+###
+
+[airport10]
+name = Digby Municipal Airport, Digby Muni
+code = ID
+flow = 3
+runways = 
+	rwy17, 6, N44.542028, W65.790765, 42.0, 3957, 0, 0, 460, 3, 42.0, 3, 222.0, 0, 0, 0, 0, 122.8, Digby Unicom
+
+sids = 
+	YQI
+	YZX
+	YSJ
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, PC12, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+
+[approach48]
+# ID RNAV 06
+runway = rwy17
+beacon = OVEXA, N44.4187, W65.9477, 0, Oh Vexa
+route1 = 
+	240, R, Are Naav
+	N44.4187, W65.9477
+	4.0, 1800, 180
+
+[approach49]
+# ID RNAV 24
+runway = rwy17, rev
+beacon = MUXEL, N44.6733, W65.6236, 0, Mucks L
+route1 = 
+	060, R, Are Naav
+	N44.6733, W65.6236
+	3.9, 1800, 180
+
+###
+
+[airport11]
+name = Port Hawkesbury Airport, Port Hawks Burry
+code = PD
+flow = 2
+runways = 
+	rwy18, 11, N45.656511, W61.377889, 91.0, 5000, 0, 0, 332, 3, 91.0, 3, 271.0, 0, 0, 0, 0, 122.8, Hawks Burry Unicom
+
+sids = 
+	YYG
+	YQY
+	YQM
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+
+[approach50]
+# PD RNAV 11
+runway = rwy18
+beacon = KAVRI, N45.6616, W61.6406, 0, Cavalry
+route1 = 
+	290, R, Are Naav
+	N45.6616, W61.6406
+	4.1, 2000, 180
+
+[approach51]
+# PD RNAV 29
+runway = rwy18, rev
+beacon = SEPNA, N45.6546, W61.1393, 0, Sepnah
+route1 = 
+	110, R, Are Naav
+	N45.6546, W61.1393
+	5.3, 2100, 200
+
+###
+
+[airport12]
+name = Summerside City Airport, Summerside
+code = SU
+flow = 5
+runways = 
+	rwy19, 5, N46.431777, W63.842482, 36.0, 8000, 0, 0, 48, 3, 36.0, 3, 216.0, 0, 0, 0, 0, 122.95, Summerside Unicom
+
+sids = 
+	YYG
+	YQM
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34/PC12, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+
+[approach52]
+# SU NDB 05
+runway = rwy19
+beacon = 5B, N46.39690, W63.88170, 0, Summerside n d b
+route1 = 
+	230, N, n d b
+	N46.39690, W63.88170
+	2.5, 550, 160
+
+[approach53]
+# SU RNAV 23
+runway = rwy19, rev
+beacon = OMSAR, N46.6076, W63.6662, 0, Ommsaar
+route1 = 
+	050, R, Are Naav
+	N46.6076, W63.6662
+	4.7, 1600, 180
+
+# Flight ATC made this file
+
+###
+
+[planetypes]
+types = 
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G250, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HDJT, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	PRM1, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	BE40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	BE4W, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25A, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	WW23, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	WW24, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	JCOM, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	C172, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C72R, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82R, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82T, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82S, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	P28A, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28B, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28R, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28U, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28S, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28T, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	DA20, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Diamond
+###
+
+[configurations]
+#north-east flow
+config1 = 
+	0, rwy1, landstart, 053, nosid
+	0, rwy2, startrev, 323, nosid
+	0, rwy3, land, 049, nosid
+	0, rwy4, landstart, 015, nosid
+	0, rwy5, landstarttrack, 061, nosid
+	0, rwy6, start, 106, nosid
+	0, rwy7, start, 027, nosid
+	0, rwy8, landtrack, 097, nosid
+	0, rwy9, land, 087, nosid
+	0, rwy10, startlandtrack, 040, nosid
+	0, rwy11, startlandtrack, 065, nosid
+	0, rwy12, starttrack, 184, nosid
+	0, rwy13, startlandtrack
+	0, rwy15, startlandtrack
+	0, rwy16, startlandtrack
+	0, rwy17, startlandtrack
+	0, rwy18, startlandtrack
+	0, rwy19, startland
+
+#north-east flow2
+config2 = 
+	0, rwy1, landstart, 053, nosid
+	0, rwy2, startlandrev, 323, nosid
+	0, rwy3, land, 049, nosid
+	0, rwy4, landstart, 015, nosid
+	0, rwy5, landstarttrack, 061, nosid
+	0, rwy6, start, 106, nosid
+	0, rwy7, start, 027, nosid
+	0, rwy8, landtrack, 097, nosid
+	0, rwy9, land, 087, nosid
+	0, rwy10, startlandtrack, 040, nosid
+	0, rwy11, startlandtrack, 065, nosid
+	0, rwy12, starttrack, 184, nosid
+	0, rwy13, startlandtrack
+	0, rwy15, startlandtrack
+	0, rwy16, startlandtrack
+	0, rwy17, startlandtrack
+	0, rwy18, startlandtrack
+	0, rwy19, startland
+
+#south-west flow	
+config3 = 
+	0, rwy1, landstartrev, 233, nosid
+	0, rwy2, start, 143, nosid
+	0, rwy3, landrev, 229, nosid
+	0, rwy4, landstartrev, 138, nosid
+	0, rwy5, landstarttrackrev, 241, nosid
+	0, rwy6, startrev, 286, nosid
+	0, rwy7, startrev, 207, nosid
+	0, rwy8, landtrackrev, 277, nosid
+	0, rwy9, landrev, 267, nosid
+	0, rwy10, starttrackrev, 328, nosid
+	0, rwy11, startlandtrackrev, 245, nosid
+	0, rwy12, starttrackrev, 004, nosid
+	0, rwy13, startlandtrackrev
+	0, rwy15, startlandtrackrev
+	0, rwy16, startlandtrackrev
+	0, rwy17, startlandtrackrev
+	0, rwy18, startlandtrackrev
+	0, rwy19, startlandrev
+
+#south-west flow 2	
+config4 = 
+	0, rwy1, landstartrev, 233, nosid
+	0, rwy2, landstart, 143, nosid
+	0, rwy3, landrev, 229, nosid
+	0, rwy4, landstartrev, 138, nosid
+	0, rwy5, landstarttrackrev, 241, nosid
+	0, rwy6, startrev, 286, nosid
+	0, rwy7, startrev, 207, nosid
+	0, rwy8, landtrackrev, 277, nosid
+	0, rwy9, landrev, 267, nosid
+	0, rwy10, starttrackrev, 328, nosid
+	0, rwy11, startlandtrackrev, 245, nosid
+	0, rwy12, starttrackrev, 004, nosid
+	0, rwy13, startlandtrackrev
+	0, rwy15, startlandtrackrev
+	0, rwy16, startlandtrackrev
+	0, rwy17, startlandtrackrev
+	0, rwy18, startlandtrackrev
+	0, rwy19, startlandrev
+
+# Flight ATC made this file

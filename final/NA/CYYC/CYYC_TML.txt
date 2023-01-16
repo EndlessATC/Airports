@@ -1,0 +1,609 @@
+# VERSION 2.0, Publically released by Flight ATC on 2022-07-21. DO NOT REDISTRIBUTE OR REPRODUCE ANY PART OF THIS FILE.
+
+# Calgary Terminal Sector (featuring Canada's longest runway; 17L) created by Flight ATC #4898; help with airspace and boundaries from Nils #8911
+# Join the Discord server at https://discord.gg/Sdj7F2EtB3
+
+#AIRSPACE
+[airspace]
+elevation = 3557
+usa = true
+transition = 18001
+center = N51.113899231, W114.019996643
+radius = 30
+name = Calgary Arrival, Calgary Departure
+automatic = true
+floor = 4500
+descendaltitude = 12000
+ceiling = 12000
+above = 18000
+transitionaltitude = 17999
+separation = 1
+handoff = 360, Edmonton Centre, Edmonton Centre, 135.02
+diversionaltitude = 13000
+letters = 80
+speedrestriction = 0, 0, 10000, 250
+
+beacons =
+#Radio Nav
+	YYC, N51.11510, W113.88200, 0, Calgary
+	K2, N51.71030, W114.10900, 0, Olds-Didsbury
+	9G, N51.78000, W114.68300, 0, Sundre
+
+#Star Entrypoints
+	IGVEP, N50.713354, W114.649088, 0, Iggvep
+	ADVOX, N51.577861, W114.587295, 0, Addvocks
+	EBGAL, N50.700029, W113.370127, 0, Ebbgal
+	BIRKO, N51.477197, W113.262693, 0, Berk Oh
+
+line1 = 
+#Bow River North Bank
+
+line2 =
+#Bow River South Bank
+	N51.19837, W114.78066
+	N51.19553, W114.47965
+	N51.09432, W114.19731
+	N50.99864, W114.04079
+	N50.90852, W114.01006
+	N50.85049, W113.94040
+	N50.82452, W113.83178
+	N50.79907, W113.58107
+	N50.81253, W113.44707
+	N50.84785, W113.31003
+
+line97 = 
+#CEF4 RWY12
+	N51.25882, W113.92732
+	N51.26861, W113.94159
+
+line98 = 
+#CYBW RWY08
+	N51.104813, W114.378712
+	N51.104793, W114.364372
+	
+line99 = 
+#CYBW RWY17
+	N51.112176, W114.378723
+	N51.098569, W114.378713
+
+
+#AIRPORTS
+[airport1]
+name = Calgary International Airport
+code = CYYC
+runways =
+	rwy1, 8, N51.1042, W114.03, 90.0, 6200, 0, 0, 3531, 3, 090, 3, 270, 0, 0, 0, 0, 118.4, Calgary Tower
+	rwy2, 11, N51.1264, W114.037, 119.5, 8000, 0, 0, 3547, 3, 119.5, 3, 299.5, 0, 0, 0, 0, 118.4, Calgary Tower
+	rwy3, 17L, N51.1483, W113.99, 180.0, 14000, 0, 0, 3606, 3, 180, 3, 360, 0, 0, 0, 0, 118.7, Calgary Tower
+	rwy4, 17R, N51.1314, W114.021, 180.0, 12675, 0, 0, 3556, 3, 180, 3, 360, 0, 0, 0, 0, 118.4, Calgary Tower
+
+climbaltitude = 7000
+
+sids = 
+	DUMRA, N50.652165, W114.245814, Dumra
+	ROVMA, N50.976742, W114.553275, Rove Maa
+	AGMAK, N51.216607, W114.581262, Agg Mack
+	PEVLU, N51.499700, W114.135832, Pevloo
+	SAXOL, N51.471727, W113.581116, Sax All
+	VETBI, N51.203810, W113.423079, Vet be
+	NOSIV, N50.914473, W113.278242, No Sivv
+	GADKI, N50.737922, W113.666547, Gad key
+	UBVAL, N50.656174, W113.887276, Ubb Vaal
+	OTARA, N50.619594, W114.044541, Oh Tara
+
+entrypoints = 
+	225, IGVEP, 16000
+	315, ADVOX, 16000
+	045, BIRKO, 21000
+	135, EBGAL, 14000
+
+airlines = 
+	aca, 7, bcs3/a319/a320/a321/a333/b38m/b763/b77l/b77w/b788/b789/e190, air canada, nswe
+	jza, 5, crj2/crj9/dh8a/dh8c/dh8d/e75s/e75l, jazz, nswe
+	wja, 7, b736/b737/b37m/b738/b38m/b3xm/b763/b789, westjet, nswe
+	wen, 5, dh8d, encore, nwse
+	pco, 5, sf34, pasco, w
+	akn, 3, B190, Alkan Air, wens
+	crn, 3, B350/C560, Carson Air, wen
+	glr, 3, b190/dh8a/dh8c, glacier, nwe
+	amx, 1, b737/b738/b38m/b39m/b788, aeromexico, s
+	rou, 1, a319/a320/a321/b763, rouge, se
+	cca, 1, a332/a333/a343/a359/b744/b748/b763/b772/b77w/b789, air china, w
+	afr, 1, a332/a343/a359/b744/b772/b77w/b789, air frans, n
+	aic, 1, a332/b744/b77l/b77w/b788, air india, w
+	anz, 1, b744/b772/b77w/b789/b78x, new zealand, s
+	ant, 1, at43/b732/b734/b735, air north, n
+	tsc, 1, a310/a321/a21l/a332/a333, air transat, e
+	asa, 1, a319/a320/a21n/b737/b738/b38m/b739/b39m/b3xm, alaska, s
+	qxe, 1, crj7/dh8b/dh8d/e75l, horizon, s
+	ana, 1, b744/b772/b77w/b788/b789/b78x, all nippon, w
+	aal, 1, a319/a320/a321/a21n/b738/b38m/b752/e190/md81/md82/md83, american, se
+	eny, 1, e75s/e75l, envoy, s
+	skw, 1, crj2/crj7/crj9/e75s/e75l, sky west, se
+	cbj, 1, a332/a333, capital jet, w
+	baw, 1, a35k/b744/b772/b77w/b788/b789/b78x, speedbird, n
+	crn, 1, c560, carson air, e
+	cpa, 1, a333/a343/a359/a35k/b744/b77w, cathay, w
+	cal, 1, a333/a343/a359/b744/b77w, dynasty, w
+	ces, 1, a332/a333/a343/a346/a359/b77w/b789, china eastern, w
+	csn, 1, a332/a333/a343/a359/b744/b772/b77l/b77w/b788/b789, china southern, w
+	cfg, 1, a332/a339/b763, condor, n
+	dal, 1, bcs1/bcs3/a319/a320/a321/a21n/b737/b738/b739/b752/b753/md88/md90, delta, se
+	eva, 1, a332/a333/b744/b77w/b789/b78x, eva, w
+	fle, 1, b734/b738/b38m, flair, se
+	ice, 1, b38m/b39m/b752/b763, ice air, e
+	jal, 1, a359/a35k/b744/b772/b77w/b788/b789, japan air, w
+	jbu, 1, bcs3/a320/a321/a21n/e190, jetblue, e
+	klm, 1, a332/a333/b744/b772/b77w/b789/b78x/md11, klm, n
+	kal, 1, a332/a333/b744/b748/b772/b77l/b77w/b789/b78x, korean air, w
+	dlh, 1, a333/a343/a346/a359/b744/b748/b789, lufthansa, n
+	dat, 1, b737/b38m, dauntless, e
+	pal, 1, a333/a343/a359/b744/b77w, philippine, sw
+	qfa, 1, a332/a333/b744/b789, qantas, s
+	csc, 1, a332/a333/a359, si shuan, w
+	sia, 1, a333/a345/a359/b744/b772/b77w/b78x, singapore, s
+	scx, 1, b737/b738, sun country, e
+	swg, 1, b738/b38m, sun wing, e
+	thy, 1, a332/a333/a343/a359/b77w/b789, turkish, n
+	ual, 1, a319/a320/b735/b737/b738/b38m/b739/b39m/b3xm/b752/b753, united, se
+	cxa, 1, b788/b789, xiamen air, w
+	cjt, 1, b752/b762/b763, cargo jet, se
+	ckk, 1, b744/b77l/md11, cargo king, w
+	gti, 1, b77l, giant, s
+	fdx, 1, a306/a310/b721/b722/b752/b763/dc10/md10/md11, fed ex, se
+	mal, 1, at72/b752/c208, morning star, e
+	kfs, 1, cvlt, flight craft, e
+	slq, 1, b190/c208, sky link, se
+	ups, 1, a306/b752/b763/dc87/md11, u p s, se
+	N-123AB, 0.5, C172/c77r, sw
+	N-12AB, 2, astr/g150/ga5c/ga6c/galx, sw
+	D-AAAA, 0.5, gl5t/gl7t/glex, e
+	N-1234A, 2, c210/epic/jcom/p210/t210/ww23/ww24, s
+	CG-AAA,	0.5, C172/C182/C82R/P28A/P28S/P28U, sew
+	CG-AAA, 0.5, b58t/c10t/m600/p46t, we
+	CF-AAA, 2, be40/be4w/h25a/h25b/h25c/h25x/ha4t, swe
+	CF-AAA,	0.5, C172/C72R/C182/c82s/P28B/P28T, sew
+	TGO, 1, B350, Transport, ew
+	NVC, 1, CRJ2, Naav Can, e
+	wsw, 2, b738, swoop, e
+	BFL, 1, L2P, Buffalo, n
+	CGZPU-, 0.5, PAY4, Golf Zulu Papa Uniform, w
+
+[airport2]
+name = Calgary Springbank Airport, Springbank
+code = BW
+runways =
+	rwy6, 35, N51.09852, W114.37872, 360.0, 5000, 0, 0, 3940, 3, 360, 3, 180, 0, 0, 0, 0, 120.7, Springbank Tower
+	rwy7, 8, N51.10480, W114.37850, 090.0, 3423, 0, 0, 3935, 3, 090, 3, 270, 0, 0, 0, 0, 120.7, Springbank Tower
+
+climbaltitude = 7000
+
+flow = 3
+
+sids = 
+	DUMRA, N50.652165, W114.245814, Dumra
+	ROVMA, N50.976742, W114.553275, Rove Maa
+	AGMAK, N51.216607, W114.581262, Agg Mack
+	PEVLU, N51.499700, W114.135832, Pevloo
+	SAXOL, N51.471727, W113.581116, Sax All
+	VETBI, N51.203810, W113.423079, Vet be
+	NOSIV, N50.914473, W113.278242, No Sivv
+	GADKI, N50.737922, W113.666547, Gad key
+	UBVAL, N50.656174, W113.887276, Ubb Vaal
+	OTARA, N50.619594, W114.044541, Oh Tara
+
+entrypoints = 
+	225, IGVEP, 12000
+	315, ADVOX, 16000
+	045, BIRKO, 21000
+	135, EBGAL, 14000
+
+airlines = 
+	N-123AB, 2, C172/c77r, sw
+	N-12AB, 2, astr/g150/ga5c/ga6c/galx, sw
+	D-AAAA, 1, gl5t/gl7t/glex, e
+	N-1234A, 2, c210/epic/jcom/p210/t210/ww23/ww24, s
+	CG-AAA,	3, C172/C182/C82R/P28A/P28S/P28U, sew
+	CG-AAA, 3, b58t/c10t/m600/p46t, we
+	CF-AAA, 2, be40/be4w/h25a/h25b/h25c/h25x/ha4t, swe
+	CF-AAA,	3, C172/C72R/C182/c82s/P28B/P28T, sew
+	CGMDF-, 0.5, PAY2, Golf Mike Delta Foxtrot, w
+
+#AREAS
+[area1]
+shape = polygon
+#name = yyc ns
+altitude = 4800
+draw = 1
+points =
+  N51.306000, W114.283333
+  N50.940000, W114.283333
+
+[area2]
+shape = polygon
+#name = yyc ew n
+altitude = 6600
+draw = 1
+points =
+  -6.73, 0.55
+  N51.123000, W114.282667
+
+[area3]
+shape = polygon
+#name = yyc ew s
+altitude = 6600
+draw = 1
+points =
+  N51.066000, W114.175167
+  N51.066667, W114.283000
+
+[area4]
+shape = circle
+altitude = 6600
+#name = SFC
+radius = 7
+draw =  -2.63, 3.16
+position = N51.122500, W114.013333
+labelpos = N51.094333, W114.109667
+
+[area5]
+shape = circle
+#name =  55
+radius = 15
+draw = -2.32, 2.34
+position = N51.122500, W114.013333
+
+[area6]
+shape = circle
+altitude = 5500
+name = BW
+radius = 5
+draw = -1.28, -0.73
+position = N51.105000, W114.379500
+labelpos = N51.129500, W114.433833
+
+[area7]
+shape = circle 
+#name = ybw se
+radius = 5
+draw = 0.74, 1.28
+position = N51.105000, W114.379500
+
+[area8]
+shape = circle
+#name = ybw w
+radius = 5
+draw = 1.88, 4.44
+position = N51.105000, W114.379500
+
+[area9]
+shape = polygon
+#name = ybw n
+draw = 1
+points =
+  -15.10, 4.23
+  N51.220833, W114.418333
+  N51.221000, W114.339667
+  -12.09, 4.24
+  
+[area10]
+shape = polygon
+#name = ybw s
+draw = 1
+points =
+  -15.04, -5.32
+  N50.982167, W114.418167
+  N50.982333, W114.339500
+  -12.13, -5.31
+
+[area11]
+shape = circle
+#name = 80
+radius = 20
+position = N51.122500, W114.013333
+
+[area12]
+shape = circle
+#name = 80
+radius = 24
+draw = 2.47, 3.81
+position = N51.122500, W114.013333
+
+
+[area13]
+shape = polygon
+altitude = 6000
+#name = 80
+draw = 1
+points =
+  N51.330000, W114.428667
+  N51.371167, W114.511667
+
+[area14]
+shape = polygon
+altitude = 6000
+#name = 80
+draw = 1
+points =
+  N50.922333, W114.436000  
+  N50.882500, W114.519667
+  -19.16, -13.62
+
+#CONFIGS
+[configurations]
+
+config1 = 
+	0,	rwy4, startlandrev, 360, nosid
+	0,	rwy3, landrev, 360, nosid
+	0,	rwy2, startrev, 300, nosid
+	0,	rwy6, startland, 360, nosid
+	0,	rwy7, startrev, 270, nosid
+
+config2 = 
+	0,	rwy4, startlandrev, 360, nosid
+	0,	rwy3, landrev, 360, nosid
+	0,	rwy2, startlandrev, 300, nosid
+	0,	rwy6, startland, 360, nosid
+	0,	rwy7, startrev, 270, nosid
+
+config3 = 
+	0,	rwy4, startlandrev, 360, nosid
+	0,	rwy6, startland, 360, nosid
+	0,	rwy7, startrev, 270, nosid
+
+config3 = 
+	0,	rwy2, startlandrev, 300, nosid
+	0,	rwy6, startland, 360, nosid
+	0,	rwy7, startrev, 270, nosid
+
+config5 = 
+	0,	rwy4, startrev, 360, nosid
+	0,	rwy2, landrev, 300, nosid
+	0,	rwy6, startland, 360, nosid
+	0,	rwy7, startrev, 270, nosid
+
+#APPORACHES
+[approach1]
+runway = rwy4, rev
+beacon = SELEV,	N51.056028, W114.163076, 165, Sellev
+route1 = 
+	000, RY, R Naav Yankee
+	N51.056028, W114.163076, 8000, 210
+	N51.022917, W114.161830, 7400, 200
+	N50.976896, W114.074245, 5800, 180
+	4.4, 5000, 180
+	
+[approach2]
+runway = rwy4, rev
+beacon = VESGA, N50.919793, W114.327238, 054, Vezgah
+route1 = 
+	000, RY, R Naav Yankee
+	N50.919793, W114.327238, 9000, 210
+	N50.976896, W114.074245, 5800, 180
+	4.4, 5000, 180
+
+[approach3]
+runway = rwy4, rev
+beacon = GABOL, N50.916872, W114.021147, -360, Gabbol
+route1 = 
+	000, RY, R Naav Yankee
+	N50.916872, W114.021147, 6500
+	4.4, 5000, 180
+
+[approach4]
+runway = rwy4, rev
+beacon = LIBUX, N51.060648, W113.848622, 186, Libucks
+route1 = 
+	000, RY, R Naav Yankee
+	N51.060648, W113.848622, 8000, 210
+	N51.060432, W113.847767, 7000
+	N50.983255, W113.901059, 6300, 180
+	4.4, 5000, 180
+
+[approach5]
+runway = rwy3, rev
+beacon = LIBUX, N51.060648, W113.848622, 165, Libucks
+route1 = 
+	000, RY, R Naav Yankee
+	N51.060648, W113.848622, 8000, 210
+	N51.020848, W113.856334, 7400, 200
+	N50.987959, W113.952628, 5900, 180
+	4.9, 5000, 180
+
+[approach6]
+runway = rwy3, rev
+beacon = TIDUK, N50.938892, W113.686953, 275, Tidduck
+route1 = 000, RY, R Naav Yankee
+	N50.938892, W113.686953, 9000, 220
+	N50.987959, W113.952628, 5900, 180
+	4.9, 5000, 180
+
+[approach7]
+runway = rwy3, rev
+beacon = TASBU, N50.928991, W113.989992, 360, Tazboo
+route1 = 000, RY, R Naav Yankee
+	N50.928991, W113.989992, 6500
+	4.9, 5000, 180
+
+[approach8]
+runway = rwy3, rev
+beacon = SELEV,	N51.056028, W114.163076, 165, Sellev
+route1 = 000, RY, R Naav Yankee
+	N51.056028, W114.163076, 8000, 210
+	N51.024304, W114.154250, 7100
+	N50.978877, W114.080071, 6000, 180
+	4.9, 5000, 180
+
+[approach11]
+runway = rwy2, rev
+beacon = HENRI, N51.026218, W113.760061, 300, Henry
+route1 = 000, R, R Naav
+	N51.026218, W113.760061
+	5.3, 4800, 180
+
+[approach12]
+runway = rwy4, rev
+beacon = IGVEP, N50.713354, W114.649088, 0, Iggvep
+route1 = 000, IGVEP6, Iggvep six runway 3 5 transition
+	N50.713354, W114.649088, 13000, 230
+	N50.919793, W114.327238, 9000
+	N50.917289, W114.151571, 9000, 210
+	end, 180
+
+[approach13]
+runway = rwy2, rev
+beacon = IGVEP, N50.713354, W114.649088, 0, Iggvep
+route1 = 000, IGVEP6, Iggvep six runway 2 9 transition
+	N50.713354, W114.649088, 16000
+	N50.919793, W114.327238, 10000
+	N51.016520, W114.164220, 10000, 250
+	N51.025860, W114.062557, 8000, 210
+	end, 120
+
+[approach14]
+runway = rwy4, rev
+beacon = ADVOX, N51.577861, W114.587295, 0, Addvocks
+route1 = 000, FLAAM6, Flame six runway 3 5 transition
+	N51.577861, W114.587295, 16000
+	N51.281427, W114.159875
+	N51.056028, W114.163076, 8000, 210
+	end, 180
+
+[approach15]
+runway = rwy2, rev
+beacon = ADVOX, N51.577861, W114.587295, 0, Addvocks
+route1 = 000, FLAAM6, Flame six runway 2 9 transition
+	N51.577861, W114.587295, 16000
+	N51.281427, W114.159875
+	N51.056028, W114.163076, 8000, 210
+	end, 120
+	
+
+[approach16]
+runway = rwy4, rev
+beacon = BIRKO, N51.477197, W113.262693, 0, Berk Oh
+route1 = 000, BIRKO5, Berk Oh five runway 3 5 transition
+	N51.477197, W113.262693, 21000
+	N51.171963, W113.850150, 10000, 250
+	N51.060648, W113.848622, 8000, 210
+	end, 180
+
+[approach17]
+runway = rwy2, rev
+beacon = BIRKO, N51.477197, W113.262693, 0, Berk Oh
+route1 = 000, BIRKO5, Berk Oh five runway 2 9 transition
+	N51.477197, W113.262693, 15000
+	N51.171963, W113.850150, 9000, 250
+	end, 120
+	
+[approach18]
+runway = rwy4, rev
+beacon = EBGAL, N50.700029, W113.370127, 0, Ebbgal
+route1 = 000, TIDUK6, Tidduck six runway 3 5 transition
+	N50.700029, W113.370127, 14000, 230
+	N50.938892, W113.686953, 14000, 220
+	N50.931262, W113.854141, 7500, 210
+	end, 180
+
+[approach19]
+runway = rwy2, rev
+beacon = EBGAL, N50.700029, W113.370127, 0, Ebbgal
+route1 = 000, TIDUK6, Tidduck six runway 2 9 transition
+	N50.700029, W113.370127, 14000, 230
+	N50.938892, W113.686953, 9000, 220
+	N51.026218, W113.760061, 6500, 200
+	end, hold
+
+### SPRINGBANK APPROACHES
+[approach30]
+runway = rwy6
+beacon = SEKEM, N50.9303, W114.3778, 360, Seek m
+route = 000, R, R Naav
+	N50.9303, W114.3778, 5500, 200
+	4.1, 5300
+
+[approach31]
+runway = rwy6
+beacon = IGVEP, N50.713354, W114.649088, 0, Iggvep
+route = 000, BRAGG4, Brag four
+	N50.713354, W114.649088, 12000
+	N50.9303, W114.3778, 6000
+	end, hold
+
+[approach32]
+runway = rwy6
+beacon = EBGAL, N50.700029, W113.370127, 0, Ebbgal
+route = 000, ELBOW3, Elbow three
+	N50.700029, W113.370127, 12000
+	N50.8290, W114.2869
+	N50.9303, W114.3778, 6000
+	end, hold
+
+[approach33]
+runway = rwy6
+beacon = ADVOX, N51.577861, W114.587295, 0, Addvocks
+route = 000, KIPEV3, Key pev three
+	N51.577861, W114.587295, 12000
+	N50.9307, W114.5776, 7000
+	end, 180
+
+[approach34]
+runway = rwy6
+beacon = BIRKO, N51.477197, W113.262693, 0, Berk Oh
+route = 000, MADYN2, Maiden two
+	N51.477197, W113.262693, 12000
+	N51.4808, W114.2795, 8000
+	N51.3270, W114.5052
+	end, 180
+
+[planetypes]
+types = 
+	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25A, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G250, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	WW23, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	WW24, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	JCOM, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	BE40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	BE4W, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25A, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	EPIC, 6, 120, 300, 2.9, 3.2, 1440, 1560, 80, 100, 1.1, 1.3
+	PAT4, 6, 120, 300, 2.9, 3.2, 1440, 1560, 80, 100, 1.1, 1.3
+	PAY2, 6, 120, 280, 2.9, 3.2, 1440, 1560, 80, 100, 1.1, 1.3
+	M600, 6, 110, 250, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
+	EVOT, 6, 110, 250, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
+	P46T, 6, 110, 250, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
+	B58T, 6, 100, 230, 2.9, 3.2, 1440, 1560, 80, 100, 1.1, 1.3
+	CVLT, 5, 140, 230, 2.9, 3.2, 1440, 1560, 106, 120, 1.1, 1.3
+	C10T, 6, 100, 220, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
+	C210, 6, 100, 200, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
+	T210, 6, 100, 200, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
+	P210, 6, 100, 200, 2.9, 3.2, 1440, 1560, 60, 90, 1.1, 1.3
+	C172, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	C72R, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	C77R, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	C182, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	C82R, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	C82S, 6, 60, 130, 2.9, 3.2, 1000, 1400, 60, 75, 1.1, 1.2
+	P28A, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	P28B, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	P28R, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	P28S, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	P28T, 6, 60, 120, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	P28U, 6, 60, 130, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	VRV8, 6, 60, 130, 2.9, 3.2, 1000, 1300, 60, 75, 1.1, 1.2
+	B350, 6, 130, 300, 2.9, 3.2, 1440, 1560, 90, 110, 1.1, 1.2
+	L2P, 5, 90, 180, 2.9, 3.2, 1440, 1560, 70, 100, 1.1, 1.3
+
+#Flight ATC #4898

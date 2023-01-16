@@ -1,0 +1,469 @@
+#VERSION 1.4, Publically released by Flight ATC on 2022-11-05. DO NOT REDISTRIBUTE OR REPRODUCE ANY PART OF THIS FILE.
+
+#Montreal Terminal Sector, with Mirabel and St Hubert Airports. Made by Flight ATC#4898
+#Join the Discord server at https://discord.gg/Sdj7F2EtB3
+
+
+[airspace]
+radius = 30
+elevation = 118
+floor = 2000
+ceiling = 12500
+above = 12501
+transitionlevel = 18000
+usa = true
+transition = 18001
+center = N45.4706001282, W73.7407989502
+magneticvar = -14.060
+automatic = true
+name = Montreal Arrival, Montreal Departure
+handoff =
+	180, Boston Center, Boston center, 120.35
+	360, Montreal Centre, Montreal center, 134.97
+	090, Montreal Centre, Montreal center, 134.97
+	270, Montreal Centre, Montreal center, 134.97
+
+beacons =
+	YUL, N45.61500, W73.97170, 0, Montreal v o r
+	ZMR, N45.62470, W74.08810, 0, Hermas n d b
+	ZHU, N45.56420, W73.34670, 0, Hoo bois n d b
+	ZMX, N45.74140, W73.92050, 0, Janvier
+	ZMM, N45.68060, W74.18520, 0, Joly n d b
+
+	HABBS, N45.204640, W74.425945, -057, Habbs
+	EMPEK, N45.917030, W74.343683, 000, Empeck
+	LATTS, N44.896460, W73.577704, Latts
+
+line1 =
+	N45.56143, W73.68745
+	N45.51572, W73.85293
+	N45.44141, W73.96055
+	N45.44194, W73.92021
+	N45.46763, W73.77534
+	N45.44912, W73.64355
+	N45.46909, W73.56650
+	N45.48984, W73.55166
+	N45.54644, W73.53887
+	N45.70474, W73.47607
+	N45.70117, W73.52246
+	N45.56143, W73.68745
+
+line2 =
+	N45.58550, W73.69531
+	N45.69448, W73.57236
+	N45.67183, W73.72466
+	N45.57358, W73.85771
+	N45.56489, W73.81592
+	N45.58550, W73.69531
+
+line3 =
+	N46.44209, W72.24014
+	N46.40479, W72.36616
+	N46.35269, W72.49619
+	N46.18184, W72.73345
+	N46.10361, W72.98994
+	N46.01006, W73.15957
+	N45.86367, W73.25303
+	N45.75781, W73.36885
+	N45.63232, W73.46528
+	N45.58677, W73.48418
+	N45.45898, W73.51880
+	N45.42510, W73.55811
+	N45.39546, W73.76465
+	N45.24141, W74.04980
+	N45.18828, W74.26904
+	N45.04160, W74.56631
+	N45.00386, W74.70889
+	N45.20640, W74.35830
+	N45.21445, W74.34043
+	N45.32402, W74.09810
+	N45.34512, W73.97383
+	N45.43335, W73.99961
+	N45.49287, W74.24766
+	N45.53105, W74.31509
+	N45.50186, W74.03784
+	N45.56416, W73.89741
+	N45.65493, W73.79785
+	N45.71118, W73.71187
+	N45.73823, W73.47661
+	N45.89985, W73.28354
+	N46.02500, W73.17969
+	N46.06631, W73.14541
+	N46.12026, W73.02192
+	N46.20972, W72.98101
+	N46.26240, W72.84268
+	N46.28730, W72.68013
+
+line4 =
+	N44.63755, W73.44380
+	N44.77490, W73.39985
+	N44.93608, W73.38286
+	N45.01802, W73.34678
+	N45.02876, W73.32393
+	N44.95596, W73.30796
+	N44.91401, W73.29639
+	N44.91265, W73.28506
+	N44.94248, W73.25542
+	N45.02168, W73.20400
+	N45.07300, W73.14683
+	N45.07798, W73.10400
+	N45.04614, W73.08784
+	N45.00933, W73.11084
+	N44.98545, W73.16274
+	N44.95659, W73.19268
+	N44.91909, W73.17251
+	N44.87397, W73.17622
+	N44.70713, W73.19443
+	N44.58643, W73.21372
+	N44.56323, W73.22690
+	N44.54180, W73.26255
+	N44.50684, W73.25562
+	N44.49326, W73.22852
+
+line5 =
+	N45.57531, W75.16714
+	N45.64218, W74.86418
+	N45.65137, W74.71722
+	N45.63220, W74.57723
+	N45.56094, W74.37757
+	N45.53107, W74.31510
+
+line6 =
+	N45.00387, W74.70887
+	N44.99906, W74.76246
+	N45.00392, W74.85664
+	N44.97012, W74.99614
+	N44.89938, W75.17938
+	N44.77228, W75.40126
+
+line7 =
+	N46.17744, W72.99133
+	N46.16013, W73.07856
+	N46.12354, W73.14630
+	N46.07062, W73.17718
+	N46.04417, W73.16395
+
+[airport1]
+name = Montreal Trudeau International, Montreal
+code = CYUL
+runways =
+	rwy1, 6L, N45.4611, W73.765, 42.7, 11000, 0, 0, 96, 3, 42.7, 3, 222.7, 0, 0, 0, 0, 119.3, Trudeau tower
+	rwy2, 6R, N45.4577, W73.7414, 41.3, 9600, 0, 0, 98, 3, 41.3, 3, 221.3, 0, 0, 0, 0, 119.3, Trudeau tower
+	rwy3, 10, N45.4625, W73.765, 87.5, 7000, 0, 0, 96, 3, 87.5, 3, 267.5, 0, 0, 0, 0, 119.9, Trudeau tower
+
+climbaltitude = 5000
+
+sids = 
+	YUL
+	ZHU
+
+entrypoints = 
+	320,	EMPEK, 10000
+	260,	HABBS, 10000
+	180,	LATTS
+
+airlines = 
+	ACA, 8, BCS3/B77L/B77W/A320/A321/B38M/A333/B788/B789, Air Canada, swe
+	SKV, 6, E75S/E75L/DH8D, Maple, ew
+	WJA, 6, B738/B37M/B737/B38M/B3XM/B789, WestJet, ew
+	ROU, 4, B763/A319, Rouge, s
+	AKT, 2, B734/B737/B732,	Arctic,	nw
+	AFR, 2, B772/b77w, Air France,	e
+	SWR, 2, A333/A343, Swiss, e
+	EDV, 4, CRJ7, endeavour, sw
+	rpa, 3, e75s/e75l, brickyard, sw
+	SWG, 3, B738/b38m, Sun Wing, sw
+	POE, 4, DH8D, Porter, wes
+	ENY, 3, E145/E75S/E75L, Envoy, s
+	AIE, 3, B734, Inuit, n
+	QTR, 2, A359/a35k, Qatari, e
+	CRQ, 3, DH8A, Cree, wn
+	KLM, 2, A333, klm, e
+	SWG, 4, B738/b38m, Sun wing, se
+	TSC, 3, A321, Air Transat, swe
+	AAL, 3, B738/A321, American, s
+	ROU, 3, A319/A321, Rouge, es
+	AMX, 2, B737/b738/b38m/b39m, Aero Mexico, s
+	PSC, 1, SF34, Pascan, e
+	FLE, 3, B738, Flair, we
+	PVL, 3, DH8D, Provincial, ew
+	
+
+[airport2]
+name = Montreal Saint Hubert, Saint Hubert
+code = HU
+runways =
+	rwy4, 6L, N45.5108, W73.4291, 47.0, 7840, 1100, 0, 86, 3, 47.0, 3, 227.0, 0, 0, 0, 0, 118.4, Saint Hubert tower
+	rwy5, 6R, N45.5114, W73.4147, 47.1, 3920, 0, 0, 84, 3, 47.1, 3, 227.1, 0, 0, 0, 0, 118.4, Saint Hubert tower
+	rwy6, 10, N45.5108, W73.4261, 83.7, 2800, 0, 0, 87, 3, 83.7, 3, 263.7, 0, 0, 0, 0, 118.4, Saint Hubert tower
+
+climbaltitude = 3000
+inboundbeacon = ZHU
+flow = 4
+
+sids = 
+	YUL
+	ZHU
+
+entrypoints = 
+	210,	YJN
+	170,	YJN
+	330,	YUL
+	030,	UL
+
+airlines = 
+	CF-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Foxtrot Alpha Bravo Charlie
+	CG-ABC, 8, c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s, Charlie Golf Alpha Bravo Charlie
+	PSC, 4, SF34, Pascan
+	n-000aa, 1, h25a/h25b/h25c/h25x/ha4t, 
+	n-0000a, 1, jcom/ww23/ww24, s
+	HYD, 1, DH8D, Hydro
+
+[airport3]
+name = Montreal Mirabel International, Mirabel
+code = MX
+runways = 
+	rwy7, 6, -8.73, 14.64, 44.0, 12000, 0, 0, 256, 3, 44.0, 3, 224.0, 0, 0, 0, 0, 119.1, Mirabel tower
+	rwy8, 11, -11.10, 15.30, 097.0, 12000, 0, 0, 247, 3, 094.0, 3, 277.0, 0, 0, 0, 0, 119.1, Mirabel tower
+
+climbaltitude = 3000
+
+flow = 7
+
+sids = 
+	YUL
+	ZMX
+
+entrypoints = 
+	210,	YJN
+	170,	YJN
+	330,	YUL
+	030,	UL
+
+airlines = 
+	FDX, 4, MD11/B752, Fed ex
+	CJT, 4, B763/B752, Cargo Jet
+	UPS, 4, B752, U P S
+	HYD, 1, DH8D, Hydro
+
+######
+#APPROACHES
+#NORTH FLOW
+
+[approach1]
+runway = rwy2
+beacon = HABBS, N45.204640, W74.425945, -057, Habbs
+route = 
+	000, ALOET3, Alouet three runway 6 right transition
+	N45.204640, W74.425945, 12000
+	45.306126, W73.938058, 3000
+	end, hold
+
+[approach2]
+runway = rwy1
+beacon = HABBS, N45.204640, W74.425945, -057, Habbs
+route = 
+	000, ALOET3, Alouet three runway 6 left transition
+	N45.204640, W74.425945, 8000
+	45.316633, W73.954947, 3000
+	end, hold
+
+[approach3]
+runway = rwy2
+beacon = EMPEK, N45.917030, W74.343683, 0, Empeck
+route = 
+	000, LFLER6, Lafleur six runway 0 6 transition
+	N45.917030, W74.343683, 11000
+	N45.753836, W74.155941, 5000
+	N45.484533, W73.897673, 4000
+	end, 237
+
+[approach4]
+runway = rwy2
+beacon = LATTS, N44.896460, W73.577704, 0, Latts
+route = 
+	000, CARTR4, Carter four runway 0 6 transition
+	N44.896460, W73.577704, 11000
+	N45.295381, W73.600405, 9000
+	N45.364112, W73.704037, 3000
+	end, 237
+
+[approach5]
+runway = rwy8
+beacon = MEMDO, N45.724962, W74.223488, 110, Mem Dough
+route = 
+	000, V, V O R D M E
+	N45.724962, W74.223488, 2100
+	3.0, 1100, 180
+
+[approach6]
+runway = rwy7
+beacon = LOVLI, N45.5085, W74.2502, 060, Lovely
+route = 
+	000, I, I L S
+	N45.5085, W74.2502, 3000
+	10, 2500, 200
+
+[approach7]
+runway = rwy4
+beacon = LOBDO, N45.3982, W73.6019, -060, Lobb Dough
+route = 
+	000, R, Are Naav
+	N45.3982, W73.6019, 3000
+	4, 1400, 180
+
+[approach8]
+runway = rwy5
+beacon = KETUV, N45.3954, W73.5925, 060, Kay Tuv
+route = 
+	000, R, Are Naav
+	N45.3954, W73.5925, 3000
+	4, 1400, 180
+
+#SOUTH FLOW
+
+[approach9]
+runway = rwy1, rev
+beacon = HABBS, N45.204640, W74.425945, -057, Habbs
+route = 
+	000, ALOET3, Alouet three runway 2 4 transition
+	N45.204640, W74.425945, 16000
+	N45.375836, W74.016313
+	end, 057
+
+[approach10]
+runway = rwy2, rev
+beacon = HABBS, N45.204640, W74.425945, -057, Habbs
+route = 
+	000, ALOET3, Alouet three runway 2 4 transition
+	N45.204640, W74.425945, 16000
+	N45.375836, W74.016313
+	end, 057
+
+[approach11]
+runway = rwy2, rev
+beacon = EMPEK, N45.917030, W74.343683, 0, Empeck
+route = 
+	000, LFLER6, Lafleur six runway 2 4 transition
+	N45.917030, W74.343683, 11000
+	N45.753836, W74.155941, 5000
+	N45.597850, W73.748581
+	end, 057
+
+[approach12]
+runway = rwy2, rev
+beacon = LATTS, N44.896460, W73.577704, 0, Latts
+route = 
+	000, CARTR4, Carter four runway 2 4 transition
+	N44.896460, W73.577704, 11000
+	N45.295381, W73.600405, 9000
+	N45.393774, W73.600270
+	end, 057
+
+[approach13]
+runway = rwy8, rev
+beacon = GABGI, N45.642381, W73.813077, Gabb Gee
+route = 
+	000, R, Are Naav
+	N45.642381, W73.813077
+	3.7, 1500, 180
+
+[area1]
+shape = polygon
+altitude = 2000
+name = HU
+labelpos = 14.00, 3.00
+points = 
+	5.96,	-5.92
+	5.34,	-4.05
+	8.37,	-1.42
+	12.73,	5.78
+	18.56,	7.30
+	19.49,	2.58
+	18.60,	0.13
+	17.70,	0.13
+	15.40,	-2.76
+
+[area2]
+shape = polygon
+altitude = 3000
+labelpos = 5.55,	0.13
+points = 
+	10.83,	2.64
+	-5.75,	2.64
+	-5.96,	-5.75
+	5.96,	-5.92
+	5.34,	-4.05
+	8.37,	-1.42
+
+[area3]
+shape = circle
+altitude = 2000
+name = MX
+radius = 10
+position = -9.08, 15.31
+labelpos = -9.08, 20.00
+
+[area8]
+shape = polygon
+altitude = 1
+labelpos = -75.00, 75.00
+points = 
+	-75.00,	-31.00
+	75.00,	-31.00
+
+[configurations]
+config1 = 
+	0,	rwy1,	start,	057, nosid
+	0,	rwy2,	land,	057, nosid
+	0,	rwy6,	startrev,	220, nosid
+	0,	rwy7,	landstart,	060, nosid
+	7,	rwy1,	landstart,	057, nosid
+	7,	rwy2,	landstart,	057, nosid
+	7,	rwy4,	startland,	062, nosid
+	7,	rwy8,	startland,	113, nosid
+	10,	rwy5,	startland,	062, nosid
+	
+config2 = 
+	0,	rwy1,	startrev,	237, nosid
+	0,	rwy2,	landrev,	237, nosid
+	0,	rwy6,	start,	220, nosid
+	0,	rwy7,	landstartrev,	240, nosid
+	7,	rwy1,	landstartrev,	237, nosid
+	7,	rwy2,	landstartrev,	237, nosid
+	7,	rwy4,	startlandrev,	242, nosid
+	7,	rwy8,	startlandrev,	293, nosid
+	10,	rwy5,	startlandrev,	242, nosid
+
+[planetypes]
+types = 
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G250, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HDJT, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	PRM1, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	BE40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	BE4W, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25A, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	WW23, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	WW24, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	JCOM, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	C172, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C72R, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82R, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82T, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82S, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	P28A, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28B, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28R, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28U, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28S, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28T, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+
+	

@@ -1,0 +1,636 @@
+# VERSION 1.0, Publically released by Flight ATC on 2022-11-17. DO NOT REDISTRIBUTE OR REPRODUCE ANY PART OF THIS FILE.
+
+#Austro Control Innsbruck Airport Secor! made by Flight ATC#4898
+# Join the Discord server at https://discord.gg/Sdj7F2EtB3
+
+[airspace]
+elevation = 1907
+
+center = N47.41493, E11.73601
+
+magneticvar = 1.277
+
+transitionaltitude = 10000
+
+floor = 2000
+
+ceiling = 24500
+
+above = 25000
+
+name = Innsbruck Radar, Innsbruck Radar
+
+automatic = true
+
+radius = 55
+
+beacons =
+	INN, N47.23000, E11.40190, 0, Innsbruck
+	KTI, N47.21550, E11.02780, 0, Kuhtai
+	RTT, N47.43090, E11.94010, 225, Rattenberg
+	EUR, N47.73500, E11.24940, 0, Eurach
+	BZO, N46.46360, E11.32190, 0, Bolzano
+	OBI, N48.08060, E11.28540, 0, Oberpfaffenhofen
+	KPT, N47.74580, E10.34970, 0, Kempten
+	LAB, N48.06530, E10.88080, 0, Landsberg
+	SBG, N47.96748, E12.89390, 0, Salzburg
+	PAT, N47.20864, E11.46021, 0, Patscherkofel
+
+	NANIT, N47.39308, E12.34626, 0, Nanit
+	TULSI, N47.70389, E11.79250, 0, Tulsi
+	XEBIX, N47.39617, E10.47701, 0, Xebix
+	MADEB, N47.31961, E10.28695, 0, Madeb
+	ELMEM, N47.28685, E10.56763, 328, Elmem
+
+handoff =
+	090, Vienna ACC, Vienna Control, 118.55
+	270, Vienna ACC, Vienna Control, 118.55
+	180, Milan ACC, Milan Control, 118.67
+
+line1 =
+	N47.56253, E12.12288
+	N47.56674, E12.13167
+
+[airport1]
+name = Innsbruck Airport
+code = LOWI
+runways =
+	rwy1, 8, N47.2588, E11.3309, 81.0, 6562, 339, 0, 1907, 3, 81.0, 3, 261.0, 0, 0, 0, 0, 120.1, Innsbruck Tower
+	rwy2, 8, N47.2588, E11.3309, 81.0, 6562, 339, 0, 1907, 3, 81.0, 3, 261.0, 0, 0, 0, 0, 120.1, Innsbruck Tower
+	rwy3, 8, N47.2588, E11.3309, 81.0, 6562, 339, 0, 1907, 3, 81.0, 3, 261.0, 0, 0, 0, 0, 120.1, Innsbruck Tower
+
+entrypoints = 
+	360, TULSI, 9500
+	060, SBG, 9500
+	080, NANIT, 15000
+	270, XEBIX, 13000
+	260, MADEB, 13000
+
+airlines = 
+	OE-AAA, 0.5, C172/C182/c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s/da20, 0, nsew
+	F-AAAA, 0.5, C172/C182/c72r/C172/c82r/c28s/c82t/P28a/p28b/p28u/p28r/p28t/p28s/da20, 0, nsew
+	TRA, 4, B738, Transavia, nw
+	AUA, 5, E75S/E75L, Austrian, nwe
+	EZY, 4, A320, Easy, nw
+	DLA, 3, E75S/E75L, Dolomiti, ns
+	FTY, 2, C25A, Fly Tyrol, nw
+	TJS, 2, C650, Tyroljet, nw
+	GAC, 3, C510, Dream Team, nswe
+
+[approach1]
+runway = rwy1
+beacon = NANIT, N47.39308, E12.34626, 0, Nanit
+route1 = 
+	090, NANI2A, Nanit two alpha
+	N47.39308, E12.34626, 15000
+	N47.43090, E11.94010, 9500
+	end, hold
+
+[approach2]
+runway = rwy1, rev
+beacon = NANIT, N47.39308, E12.34626, 0, Nanit
+route1 = 
+	090, NANI2A, Nanit two alpha
+	N47.39308, E12.34626, 15000
+	N47.43090, E11.94010, 9500
+	end, hold
+
+[approach3]
+runway = rwy1, rev
+beacon = TULSI, N47.70389, 11.792500, 0, Tulsi
+route1 = 
+	330, TULS3A, Tulsi three alpha
+	N47.70389, E11.79250, 9500
+	N47.43090, E11.94010
+	end, hold
+
+[approach4]
+runway = rwy1
+beacon = TULSI, N47.70389, 11.792500, 0, Tulsi
+route1 = 
+	330, TULS3A, Tulsi three alpha
+	N47.70389, 11.792500, 9500
+	N47.43090, E11.94010
+	end, hold
+
+[approach5]
+runway = rwy1, rev
+beacon = SBG, N47.96748, E12.89390, 0, Salzburg
+route1 = 
+	040, SBG3A, Salzburg three alpha
+	N47.96748, E12.89390, 9500
+	N47.43090, E11.94010
+	end, hold
+
+[approach6]
+runway = rwy1
+beacon = SBG, N47.96748, E12.89390, 0, Salzburg
+route1 = 
+	040, SBG3A, Salzburg three alpha
+	N47.96748, E12.89390, 9500
+	N47.43090, E11.94010
+	end, hold
+
+[approach7]
+runway = rwy1
+beacon = RTT, N47.43090, E11.94010, 225, Rattenberg
+route1 = 
+	080, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+route2 = 
+	360, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+route3 = 
+	090, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+route4 = 
+	180, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+route5 = 
+	270, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+[approach8]
+runway = rwy1, rev
+beacon = RTT, N47.43090, E11.94010, 225, Rattenberg
+route1 = 
+	080, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+route2 = 
+	360, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+route3 = 
+	090, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+route4 = 
+	180, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+route5 = 
+	270, RTT1B, Rattenberg one bravo
+	N47.43090, E11.94010, 13000
+	N47.28685, E10.56763
+	end, hold
+
+[approach9]
+runway = rwy1, rev
+beacon = XEBIX, N47.39617, E10.47701, 0, Xebix
+route1 = 
+	320, XEBI1B, Xebix one bravo
+	N47.39617, E10.47701, 13000
+	N47.28685, E10.56763
+	end, hold
+
+[approach10]
+runway = rwy1
+beacon = XEBIX, N47.39617, E10.47701, 0, Xebix
+route1 = 
+	320, XEBI1B, Xebix one bravo
+	N47.39617, E10.47701, 13000
+	N47.28685, E10.56763
+	end, hold
+
+[approach11]
+runway = rwy1, rev
+beacon = MADEB, N47.31961, E10.28695, 0, Madeb
+route1 = 
+	270, MADE1B, Madeb one bravo
+	N47.31961, E10.28695
+	N47.28685, E10.56763
+	end, hold
+
+[approach12]
+runway = rwy1
+beacon = MADEB, N47.31961, E10.28695, 0, Madeb
+route1 = 
+	270, MADE1B, Madeb one bravo
+	N47.31961, E10.28695
+	N47.28685, E10.56763
+	end, hold
+
+[approach13]
+runway = rwy2
+beacon = ELMEM, N47.28685, E10.56763, 328, Elmem
+route1 = 
+	320, BREN4B, Breno four bravo
+	N47.28685, E10.56763, 14000
+	N47.17124, E10.66207
+	N46.98093, E11.37176
+	N47.11518, E11.75905
+	N47.21700, E11.89740, 12000
+	N47.43090, E11.94010, 9500
+	end, hold
+
+[approach14]
+runway = rwy1
+beacon = ELMEM, N47.28685, E10.56763, 328, Elmem
+route1 = 
+	320, ELME1A, Elmem one alpha
+	N47.28685, E10.56763, 14000
+	N47.03720, E11.52770
+	N47.11518, E11.75905
+	N47.21700, E11.89740, 12000
+	N47.43090, E11.94010, 9500
+	end, hold
+
+[approach15]
+runway = rwy2, rev
+beacon = ELMEM, N47.28685, E10.56763, 328, Elmem
+route1 = 
+	320, BREN4B, Breno four bravo
+	N47.28685, E10.56763, 14000
+	N47.17124, E10.66207
+	N46.98093, E11.37176
+	N47.11518, E11.75905
+	N47.21700, E11.89740, 12000
+	N47.43090, E11.94010, 9500
+	end, hold
+
+[approach16]
+runway = rwy1, rev
+beacon = ELMEM, N47.28685, E10.56763, 328, Elmem
+route1 = 
+	320, ELME1A, Elmem one alpha
+	N47.28685, E10.56763, 14000
+	N47.03720, E11.52770
+	N47.11518, E11.75905
+	N47.21700, E11.89740, 12000
+	N47.43090, E11.94010, 9500
+	end, hold
+
+##########
+
+[approach17]
+runway = rwy2, rev
+beacon = RTT, N47.43090, E11.94010, 225, Rattenberg
+route1 = 
+	040, LR, Localizer Romeo
+	N47.43090, E11.94010
+	N47.31630, E11.86610, 9500, 180
+	9, 4400, 200
+
+route2 = 
+	0360, LR, Localizer Romeo
+	N47.43090, E11.94010
+	N47.31630, E11.86610, 9500, 180
+	9, 4400, 200
+
+route3 = 
+	090, LR, Localizer Romeo
+	N47.43090, E11.94010
+	N47.31630, E11.86610, 9500, 180
+	9, 4400, 200
+
+route4 = 
+	180, LR, Localizer Romeo
+	N47.43090, E11.94010
+	N47.31630, E11.86610, 9500, 180
+	9, 4400, 200
+
+route5 = 
+	270, LR, Localizer Romeo
+	N47.43090, E11.94010
+	N47.31630, E11.86610, 9500, 180
+	9, 4400, 200
+
+[approach18]
+runway = rwy2
+beacon = ELMEM, N47.28685, E10.56763, 328, Elmem
+route1 = 
+	260, RZ, R N P Zulu
+	N47.28685, E10.56763, 13000, 200
+	N47.32460, E11.09640, 8300, 160
+	3, 2500, 160
+
+route2 = 
+	360, RZ, R N P Zulu
+	N47.28685, E10.56763, 13000, 200
+	N47.32460, E11.09640, 8300, 160
+	3, 2500, 160
+
+route3 = 
+	090, RZ, R N P Zulu
+	N47.28685, E10.56763, 13000, 200
+	N47.32460, E11.09640, 8300, 160
+	3, 2500, 160
+
+route4 = 
+	180, RZ, R N P Zulu
+	N47.28685, E10.56763, 13000, 200
+	N47.32460, E11.09640, 8300, 160
+	3, 2500, 160
+
+route5 = 
+	270, RZ, R N P Zulu
+	N47.28685, E10.56763, 13000, 200
+	N47.32460, E11.09640, 8300, 160
+	3, 2500, 160
+
+[approach19]
+runway = rwy3, rev
+beacon = RTT, N47.43090, E11.94010, 225, Rattenberg
+route1 = 
+	050, RZ, R N P Zulu
+	N47.43090, E11.94010, 13000, 200
+	N47.3768, E11.8306, 6200
+	3.7, 3000, 180
+
+route2 = 
+	360, RZ, R N P Zulu
+	N47.43090, E11.94010, 13000, 200
+	N47.3768, E11.8306, 6200
+	3.7, 3000, 180
+
+route3 = 
+	090, RZ, R N P Zulu
+	N47.43090, E11.94010, 13000, 200
+	N47.3768, E11.8306, 6200
+	3.7, 3000, 180
+
+route4 = 
+	180, RZ, R N P Zulu
+	N47.43090, E11.94010, 13000, 200
+	N47.3768, E11.8306, 6200
+	3.7, 3000, 180
+
+route5 = 
+	270, RZ, R N P Zulu
+	N47.43090, E11.94010, 13000, 200
+	N47.3768, E11.8306, 6200
+	3.7, 3000, 180
+
+[approach20]
+runway = rwy3, rev
+beacon = WI610, N47.3862, E11.7819, 0, Whisky India 6 1 0
+route = 
+	000, RE, R N P Echo
+	N47.3862, E11.7819, 9400, 200
+	9.1, 4700, 180
+
+[approach21]
+runway = rwy1
+beacon = D42OEV, N47.2724, E11.4587, 263, 4 point 2 d m e oscar echo victor
+route = 
+	000, VIS, Visual procedure
+	N47.2724, E11.4587, 5000, 160
+	N47.2078, E11.3591, 3700
+	N47.2078, E11.2735
+	N47.2300, E11.2634
+	2.5, 2000, 160
+
+[approach22]
+runway = rwy1, rev
+beacon = D42OEV, N47.2724, E11.4587, 263, 4 point 2 d m e oscar echo victor
+route = 
+	000, VIS, Visual procedure
+	N47.2724, E11.4587, 3700, 160
+	2.5, 2000, 160
+
+[approach23]
+runway = rwy1, rev
+beacon = KUDAV, N47.2057, E11.2057, 065, Koodav
+route = 
+	000, LDW, Localizer D M E West
+	N47.2057, E11.2057, 11500
+	N47.3172, E11.4984, 5000, 160
+	2.5, 2000, 160
+
+[approach24]
+runway = rwy1, rev
+beacon = ADWIG, N47.3162, E11.8659, 254, Add Wig
+route = 
+	000, LDE, Localizer D M E East
+	N47.3162, E11.8659, 9500, 200
+	6.3, 3500
+
+##########
+
+[departure1]
+runway = rwy1
+route1 = UNKE2J, Unken two juliett
+	N47.2724, E11.4587, 6700
+	N47.2513, E11.4765
+	N47.2190, E11.3639
+	N47.2394, E11.3446
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.8432, E12.5699
+
+[departure2]
+runway = rwy2
+route1 = UNKE2J, Unken two juliett
+	N47.2724, E11.4587, 6700
+	N47.2513, E11.4765
+	N47.2190, E11.3639
+	N47.2394, E11.3446
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.8432, E12.5699
+
+[departure3]
+runway = rwy3
+route1 = UNKE2J, Unken two juliett
+	N47.2724, E11.4587, 6700
+	N47.2513, E11.4765
+	N47.2190, E11.3639
+	N47.2394, E11.3446
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.8432, E12.5699
+
+[departure4]
+runway = rwy1
+route1 = OBED3J, Obedi three juliett
+	N47.2724, E11.4587, 6700
+	N47.2513, E11.4765
+	N47.2190, E11.3639
+	N47.2394, E11.3446
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.3884, E13.3363
+
+[departure5]
+runway = rwy2
+route1 = OBED3J, Obedi three juliett
+	N47.2724, E11.4587, 6700
+	N47.2513, E11.4765
+	N47.2190, E11.3639
+	N47.2394, E11.3446
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.3884, E13.3363
+
+
+[departure6]
+runway = rwy3
+route1 = OBED3J, Obedi three juliett
+	N47.2724, E11.4587, 6700
+	N47.2513, E11.4765
+	N47.2190, E11.3639
+	N47.2394, E11.3446
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.3884, E13.3363
+
+[departure7]
+runway = rwy1, rev
+route1 = OBED3J, Obedi three juliett
+	N47.23000, E11.40190, 6700
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.3884, E13.3363
+
+[departure8]
+runway = rwy2, rev
+route1 = OBED3J, Obedi three juliett
+	N47.23000, E11.40190, 6700
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.3884, E13.3363
+
+[departure9]
+runway = rwy3, rev
+route1 = OBED3J, Obedi three juliett
+	N47.23000, E11.40190, 6700
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.3884, E13.3363
+
+[departure10]
+runway = rwy1, rev
+route1 = OBED3J, Obedi three juliett
+	N47.23000, E11.40190, 6700
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.8432, E12.5699
+
+[departure11]
+runway = rwy2, rev
+route1 = OBED3J, Obedi three juliett
+	N47.23000, E11.40190, 6700
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.8432, E12.5699
+
+[departure12]
+runway = rwy3, rev
+route1 = OBED3J, Obedi three juliett
+	N47.23000, E11.40190, 6700
+	N47.2724, E11.4587
+	N47.43090, E11.94010, 9500
+	N47.8432, E12.5699
+
+[area1]
+shape = polygon
+altitude = 7000
+labelpos = N47.23446, E11.34668
+points = 
+	N47.32240, E11.05535
+	N47.28985, E11.22294
+	N47.41493, E11.73601
+	N47.29823, E11.79096
+	N47.13321, E11.16937
+	N47.18408, E11.01002
+	N47.25028, E11.03681
+	N47.27217, E10.99835
+	N47.30197, E10.98942
+	N47.32570, E11.00453
+
+[area2]
+shape = polygon
+altitude = 24500
+labelpos = N47.29280, E11.34668
+points = 
+	N47.29023, E10.65838
+	N47.30233, E10.68929
+	N47.32570, E11.00453
+	N47.32240, E11.05535
+	N47.28985, E11.22294
+	N47.41493, E11.73601
+	N47.57783, E11.72163
+	N47.57731, E11.75983
+	N47.61044, E12.21067
+	N47.66224, E12.18492
+	N47.71167, E12.15882
+	N47.72183, E12.23609
+	N47.68742, E12.26425
+	N47.70359, E12.45210
+	N47.59147, E12.23334
+	N47.36531, E12.12447
+	N47.29823, E11.79096
+	N47.20910, E11.45490
+	N47.12763, E11.49476
+	N47.12835, E11.41539
+	N47.18940, E11.38100
+	N47.13321, E11.16937
+	N47.18408, E11.01002
+	N47.25028, E11.03681
+	N47.27570, E10.68640
+
+[configurations]
+config1 = 
+	0, rwy1, landstarttrack
+	0, rwy2, landstarttrack
+	0, rwy3, landstarttrack
+
+config2 = 
+	0, rwy1, landstarttrackrev
+	0, rwy2, landstarttrackrev
+	0, rwy3, landstarttrackrev
+
+[planetypes]
+types = 
+	GALX, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G150, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	G250, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	ASTR, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	F2TH, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HDJT, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	PRM1, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	BE40, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	BE4W, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	HA4T, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25A, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25B, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25C, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	H25X, 5, 160, 300, 2.9, 3.2, 1440, 1560, 110, 120, 1.1, 1.3
+	WW23, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	WW24, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	JCOM, 6, 140, 300, 2.9, 3.2, 1440, 1560, 105, 115, 1.1, 1.3
+	C172, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C72R, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82R, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82T, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	C82S, 6, 90, 140, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Cessna
+	P28A, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28B, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28R, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28U, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28S, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	P28T, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Piper
+	DA20, 6, 90, 120, 2.9, 3.2, 1400, 1600, 115, 125, 1.1, 1.2, Diamond
