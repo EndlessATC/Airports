@@ -88,12 +88,33 @@ runways =
 
 climbaltitude = 5000
 
-#airlines =
-
-
-
-
-
+airlines =
+   AEE, 1, A320/A32N/A321, Aegean, e 
+	 EIN, 2, A320/A32N/A321, Shamrock, n 
+	 ABN, 1, A319/A320, Air albania, e 
+	 DAH, 1, B736/B737/B738, Air algerie, e 
+	 BTI, 1, A223, Air baltic, e 
+	 ACA, 1, A333/B773/B772/B788/B789, Air canada, w 
+	 AEA, 1, B738, Europa, ne 
+	 AFR, 1, A223/A319/A320/A32N/A321, Airfrans, e 
+	 TSC, 1, A321, Air transat, nw 
+	 AAL, 1, B772/B773/B788/B789, nw 
+	 BAW, 2, A320/A32N/A321, Speedbird, ne 
+	 BEL, 1, A319/A320, Bee-line, ne 
+	 DAL, 1, A332/A333/A339/A359/B763/B764, Delta, nw 
+	 EJU, 4, A320/A32N/A321, Alpine, ne 
+	 UAE, 1, A380/B772/B773, Emirates, e 
+	 EWG, 1, A320/A32N/A321, Eurowings, e 
+	 RYR, 4, B738/B73M, Ryanair, ne 
+	 FIN, 1, A320/A32N/A321, Finnair, ne 
+	 KLM, 2, B738, KLM, ne 
+	 DLH, 1, A320/A32N/A321, Lufthansa, ne 
+	 TAP, 10, A319/A320/A32N/A321, Air portugal, nswe 
+	 TAP, 5, A339, Air portugal, nswe 
+	 THY, 1, A320/A32N/A321, e 
+   WZZ, 2, A320/A32N/A321, Wizz air, e 
+	 UAL, 1, B763/B764/B772/B773/B788/B789/B787, United, nw 
+	 TAM, 1, B763/B773/B789, Tam, sw
 
 
 [area1]
