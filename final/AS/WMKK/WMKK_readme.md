@@ -15,7 +15,7 @@ This means that any altitude in between is not to be used (like FL120).
 * SIDs and STARs, including the new Point Merge System for arrivals 
 * Accurate representation of airlines and plane types as much as possible
 
-This file provides a brief overview of the operations at the airports. Check out the sections below for more information about each airport!
+This readme file provides a brief overview of the operations at the airports. Check out the sections below for more information about each airport!
 
 The table below shows the skill points at which an airport or runway is unlocked.
 
@@ -86,7 +86,7 @@ A quick description about how the Point Merge System works:
 
 * In periods of high traffic, it may be prudent to meter aircraft before streaming them into the sequencing legs at the entry points. This is to avoid the PMS from "overflowing", which increases the risks of loss of separation and makes it difficult to sequence traffic effectively.
   * Metering can be achieved by speed reduction, flying extra track miles, or holding.
-* Take care to avoid instances of loss of separation between aircraft on the inner and outer leg. By design, the inner leg is designed to be higher than the outer leg. Be careful in descending aircraft on eithersequencing legs to the same merge point. Consider dissociating direct to and descent clearances whenever appropriate.
+* Take care to avoid instances of loss of separation between aircraft on the inner and outer leg. By design, the inner leg is designed to be higher than the outer leg. Be careful in descending aircraft on either sequencing legs to the same merge point. Consider dissociating direct to and descent clearances whenever appropriate.
 * Further reading: https://www.eurocontrol.int/concept/point-merge
 
 Each STAR leads to a point merge system. WMKK has four point merge systems:
