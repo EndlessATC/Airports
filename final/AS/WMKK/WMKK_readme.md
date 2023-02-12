@@ -76,7 +76,7 @@ Feel free to radar vector departing aircraft to facilitate separation between ar
 
 The Lumpur TMA uses the Point Merge technique to sequence arrivals.
 
-<img src="images/point-merge-diagram.png" style="zoom: 50%;" />
+<img src="https://www.eurocontrol.int/sites/default/files/styles/max_960x960/public/2019-10/point-merge-diagraom-1.png" style="zoom: 50%;" />
 
 *Credits: Eurocontrol*
 
