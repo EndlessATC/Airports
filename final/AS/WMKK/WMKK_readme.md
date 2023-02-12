@@ -2,6 +2,8 @@
 
 Version 1.1 *by BestBearrr*
 
+Thanks to *dunnebokter12* for developing v1.0!
+
 This file replicates the Lumpur TMA, featuring Kuala Lumpur International Airport (WMKK) and Subang Airport (WMSA).
 
 Transition Altitude is 11000ft, while Transition Level is FL130.
