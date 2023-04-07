@@ -22,6 +22,7 @@ beacons =
     CROFT, N53.37.37, W002.32.20, 0, Croft
     DAYNE, N53.238611, W2.029167, 312, Dayne
     DESIG, N53.527222, W1.892778, 0, De sig
+    DIZZE, N53.845206, W2.542475, 0, Dizzy
     EKLAD, N53.253889, W2.824722, 0, Eklad
     GASKO, N54.224722, W1.955833, 0, Gasko
     GOLES, N53.608056, W1.083333, 0, Goles
@@ -40,6 +41,7 @@ beacons =
     PEDIG, N52.44.48, W001.43.10, 0, Pedig
     PENIL, N53.615833, W3.663611, 0, Penil
     POL, N53.743889, W2.103333, 0, Pole Hill
+    QUSHI, N53.108139, W1.774836, 0, Q She
     REXAM, N53.066667, W3.160278, 0, Rexham
     ROSUN, N53.668889, W2.349167, 172, Row sun
     RUGER, N53.28.58, W003.26.52. 0, Ruger
@@ -56,7 +58,7 @@ beacons =
     XUMAT, N53.465833, W2.473056, Xumat
 
 handoff =
-	360, ScCTR, Scottish control, 128.055
+	360, AC North, London control, 133.700
 
 line1 =
 	N53.71616, W0.46138
@@ -355,13 +357,13 @@ route4 =
     N52.892778, W3.173889
 
 route5 =
-    POL, Pole Hill
+    POL5R, Pole Hill 5 Romeo
     N53.327778, W2.33
     N53.465833, W2.473056
     N53.743889, W2.103333
 
 route6 =
-    SONEX, Sonex
+    SONEX, Sonex 1 Romeo
     N53.327778, W2.33
     N53.465833, W2.473056
     N53.498056, W2.1725
@@ -401,13 +403,13 @@ route4 =
     N52.892778, W3.173889
 
 route5 =
-    POL, Pole Hill
+    POL1Y, Pole Hill 1 Yankee
     N53.322222, W2.33
     N53.465833, W2.473056
     N53.743889, W2.103333
 
 route6 =
-    SONEX, Sonex
+    SONEX, Sonex 1 Yankee
     N53.322222, W2.33
     N53.465833, W2.473056
     N53.498056, W2.1725
@@ -416,13 +418,13 @@ route6 =
 [departure3]
 runway = rwy1
 route1 =
-    ASMIM, Asmim
+    ASMIM, Asmim 1 Sierra
     N53.378056, W2.219167
     N53.471389, W2.421667
     N53.446111, W2.653056
 
 route2 =
-    LISTO, Listo
+    LISTO, Listo 2 Sierra
     N53.385556, W2.225556
     N53.369167, W2.189722
     N53.346389, W2.173333
@@ -436,25 +438,25 @@ route3 =
     N52.892778, W3.173889
 
 route4 =
-    POL, Pole Hill
+    POL4S, Pole Hill 4 Sierra
     N53.425, W2.108056
     N53.743889, W2.103333
 
 route5 =
-    DESIG, Desig
+    DESIG, Desig 1 Sierra
     N53.527222, W1.892778
 
 
 [departure4]
 runway = rwy2
 route1 =
-    ASMIM, Asmim
+    ASMIM, Asmim 1 Zulu
     N53.378056, W2.219167
     N53.471389, W2.421667
     N53.446111, W2.653056
 
 route2 =
-    LISTO, Listo
+    LISTO, Listo 2 Zulu
     N53.385556, W2.225556
     N53.369167, W2.189722
     N53.346389, W2.173333
@@ -468,12 +470,12 @@ route3 =
     N52.892778, W3.173889
 
 route4 =
-    POL, Pole Hill
+    POL1Z, Pole Hill 1 Zulu
     N53.425, W2.108056
     N53.743889, W2.103333
 
 route5 =
-    DESIG, Desig
+    DESIG, Desig 1 Zulu
     N53.527222, W1.892778
 
 
@@ -593,8 +595,10 @@ route1 =
     312, LESTA1M, LESTA ONE MIKE
 #   LESTA
     N52.740833, W1.071944, 20000
-#   TNT R132 D25
-    N52.774167, W1.158611
+#   TNT
+    N53.053889, W1.67
+#   QUSHI
+    N53.108139, W1.774836, , 250
 #   DAYNE
     N53.238611, W2.029167, 8000, 230
     end, hold
@@ -608,8 +612,10 @@ route1 =
     312, LESTA1M, LESTA ONE MIKE
 #   LESTA
     N52.740833, W1.071944, 20000
-#   TNT R132 D25
-    N52.774167, W1.158611
+#   TNT
+    N53.053889, W1.67
+#   QUSHI
+    N53.108139, W1.774836, , 250
 #   DAYNE
     N53.238611, W2.029167, 8000, 230
     end, hold
@@ -623,8 +629,10 @@ route1 =
     312, LESTA1M, LESTA ONE MIKE
 #   LESTA
     N52.740833, W1.071944, 20000
-#   TNT R132 D25
-    N52.774167, W1.158611
+#   TNT
+    N53.053889, W1.67
+#   QUSHI
+    N53.108139, W1.774836, , 250
 #   DAYNE
     N53.238611, W2.029167, 8000, 230
     end, hold
@@ -638,8 +646,10 @@ route1 =
     312, LESTA1M, LESTA ONE MIKE
 #   LESTA
     N52.740833, W1.071944, 20000
-#   TNT R132 D25
-    N52.774167, W1.158611
+#   TNT
+    N53.053889, W1.67
+#   QUSHI
+    N53.108139, W1.774836, , 250
 #   DAYNE
     N53.238611, W2.029167, 8000, 230
     end, hold
@@ -907,8 +917,10 @@ route 1 =
     N53.743889, W2.103333, , 250
 #   BURNI
     N53.727222, W2.517778
-#   Direct North of BURNI to enforce right turn into ROSUN
-    N53.793889, W2.517778
+#   NW of BURNI to enforce right turn to ROSUN
+    N53.793889, W2.617778
+#   West of the previous to continue the right hand turn
+    N53.793889, W2.449167
 #   ROSUN
     N53.668889, W2.349167, 7000, 230
     end, hold
@@ -926,8 +938,10 @@ route 1 =
     N53.743889, W2.103333, , 250
 #   BURNI
     N53.727222, W2.517778
-#   Direct North of BURNI to enforce right turn into ROSUN
-    N53.793889, W2.517778
+#   NW of BURNI to enforce right turn to ROSUN
+    N53.793889, W2.617778
+#   West of the previous to continue the right hand turn
+    N53.793889, W2.449167
 #   ROSUN
     N53.668889, W2.349167, 7000, 230
     end, hold
@@ -945,8 +959,10 @@ route 1 =
     N53.743889, W2.103333, , 250
 #   BURNI
     N53.727222, W2.517778
-#   Direct North of BURNI to enforce right turn into ROSUN
-    N53.793889, W2.517778
+#   NW of BURNI to enforce right turn to ROSUN
+    N53.793889, W2.617778
+#   West of the previous to continue the right hand turn
+    N53.793889, W2.449167
 #   ROSUN
     N53.668889, W2.349167, 7000, 230
     end, hold
@@ -964,8 +980,10 @@ route 1 =
     N53.743889, W2.103333, , 250
 #   BURNI
     N53.727222, W2.517778
-#   Direct North of BURNI to enforce right turn into ROSUN
-    N53.793889, W2.517778
+#   NW of BURNI to enforce right turn to ROSUN
+    N53.793889, W2.617778
+#   West of the previous to continue the right hand turn
+    N53.793889, W2.449167
 #   ROSUN
     N53.668889, W2.349167, 7000, 230
     end, hold
@@ -1048,6 +1066,8 @@ route 1 =
     148, LAKEY1M, LAKEY ONE MIKE
 #   LAKEY
     N54.238889, W2.981111, 20000
+#   DIZZE
+    N53.845206, W2.542475, , 250
 #   ROSUN
     N53.668889, W2.349167, 7000, 230
     end, hold
@@ -1061,6 +1081,8 @@ route 1 =
     148, LAKEY1M, LAKEY ONE MIKE
 #   LAKEY
     N54.238889, W2.981111, 20000
+#   DIZZE
+    N53.845206, W2.542475, , 250
 #   ROSUN
     N53.668889, W2.349167, 7000, 230
     end, hold
@@ -1074,6 +1096,8 @@ route 1 =
     148, LAKEY1M, LAKEY ONE MIKE
 #   LAKEY
     N54.238889, W2.981111, 20000
+#   DIZZE
+    N53.845206, W2.542475, , 250
 #   ROSUN
     N53.668889, W2.349167, 7000, 230
     end, hold
@@ -1087,6 +1111,8 @@ route 1 =
     148, LAKEY1M, LAKEY ONE MIKE
 #   LAKEY
     N54.238889, W2.981111, 20000
+#   DIZZE
+    N53.845206, W2.542475, , 250
 #   ROSUN
     N53.668889, W2.349167, 7000, 230
     end, hold

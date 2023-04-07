@@ -13,6 +13,14 @@ There are two configurations, one Easterly and one Westerly, which start with on
 
 Airlines and the aircraft they use have been approximated using data available on [Flightradar24](https://www.flightradar24.com/data/airports/man) and random private traffic has been added in.
 
+## New Features in V2!!
+
+- STARs are now all named, e.g. LESTA1M.
+- Missing waypoints added and even incorporated into the STARs, e.g. QUSHI in LESTA1M.
+- All STARs have updated constraints, e.g. FL70 and 230 knots or less by MIRSI.
+- Fixed a bug in which the LISBO1M (previously GOLES) arrival would have planes turn right momentarily than immediately left to ROSUN, instead of continuing the right turn.
+- SIDs given pronounciations.
 ## Changelog
 
 * v1.0 - 2021-08-03 - Initial release
+* v2.0 - 2023-04-07 - EGCC Revamp by VJC009
