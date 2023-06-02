@@ -23,6 +23,7 @@ Airlines and the aircraft they use have been approximated using data available o
 ## Future Plans
 
 - Add missing SIDs.
+- Add SROs.
 - Redo coordinates.
 - Redo sector boundaries.
 
