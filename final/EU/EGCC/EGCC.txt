@@ -22,6 +22,7 @@ beacons =
     CROFT, N53.37.37, W002.32.20, 0, Croft
     DAYNE, N53.238611, W2.029167, 312, Dayne
     DESIG, N53.527222, W1.892778, 0, De sig
+    DIZZE, N53.845206, W2.542475, 0, Dizzy
     EKLAD, N53.253889, W2.824722, 0, Eklad
     GASKO, N54.224722, W1.955833, 0, Gasko
     GOLES, N53.608056, W1.083333, 0, Goles
@@ -40,6 +41,7 @@ beacons =
     PEDIG, N52.44.48, W001.43.10, 0, Pedig
     PENIL, N53.615833, W3.663611, 0, Penil
     POL, N53.743889, W2.103333, 0, Pole Hill
+    QUSHI, N53.108139, W1.774836, 0, Q She
     REXAM, N53.066667, W3.160278, 0, Rexham
     ROSUN, N53.668889, W2.349167, 172, Row sun
     RUGER, N53.28.58, W003.26.52. 0, Ruger
@@ -56,7 +58,7 @@ beacons =
     XUMAT, N53.465833, W2.473056, Xumat
 
 handoff =
-	360, ScCTR, Scottish control, 128.055
+	360, AC North, London control, 133.700
 
 line1 =
 	N53.71616, W0.46138
@@ -226,7 +228,7 @@ name = Manchester Airport
 code = EGCC
 runways =
 	rwy1, 05L, N53.3451, W2.29274, 52, 10000, 1401, 600, 212, 3, 52.5, 3, 230, 0, 0, 0, 0, 118.630
-	rwy2, 05R, N53.332, W2.31066, 51, 9997, 604, 604, 186, 3, 50, 3, 232.5, 0, 0, 0, 0, 118.630
+	rwy2, 05R, N53.332, W2.31066, 51, 9997, 604, 604, 186, 3, 50, 3, 232.5, 0, 0, 0, 0, 119.405
 
 climbaltitude = 5000
 
@@ -355,13 +357,13 @@ route4 =
     N52.892778, W3.173889
 
 route5 =
-    POL, Pole Hill
+    POL5R, Pole Hill 5 Romeo
     N53.327778, W2.33
     N53.465833, W2.473056
     N53.743889, W2.103333
 
 route6 =
-    SONEX, Sonex
+    SONEX, Sonex 1 Romeo
     N53.327778, W2.33
     N53.465833, W2.473056
     N53.498056, W2.1725
@@ -401,13 +403,13 @@ route4 =
     N52.892778, W3.173889
 
 route5 =
-    POL, Pole Hill
+    POL1Y, Pole Hill 1 Yankee
     N53.322222, W2.33
     N53.465833, W2.473056
     N53.743889, W2.103333
 
 route6 =
-    SONEX, Sonex
+    SONEX, Sonex 1 Yankee
     N53.322222, W2.33
     N53.465833, W2.473056
     N53.498056, W2.1725
@@ -416,13 +418,13 @@ route6 =
 [departure3]
 runway = rwy1
 route1 =
-    ASMIM, Asmim
+    ASMIM, Asmim 1 Sierra
     N53.378056, W2.219167
     N53.471389, W2.421667
     N53.446111, W2.653056
 
 route2 =
-    LISTO, Listo
+    LISTO, Listo 2 Sierra
     N53.385556, W2.225556
     N53.369167, W2.189722
     N53.346389, W2.173333
@@ -436,25 +438,25 @@ route3 =
     N52.892778, W3.173889
 
 route4 =
-    POL, Pole Hill
+    POL4S, Pole Hill 4 Sierra
     N53.425, W2.108056
     N53.743889, W2.103333
 
 route5 =
-    DESIG, Desig
+    DESIG, Desig 1 Sierra
     N53.527222, W1.892778
 
 
 [departure4]
 runway = rwy2
 route1 =
-    ASMIM, Asmim
+    ASMIM, Asmim 1 Zulu
     N53.378056, W2.219167
     N53.471389, W2.421667
     N53.446111, W2.653056
 
 route2 =
-    LISTO, Listo
+    LISTO, Listo 2 Zulu
     N53.385556, W2.225556
     N53.369167, W2.189722
     N53.346389, W2.173333
@@ -468,12 +470,12 @@ route3 =
     N52.892778, W3.173889
 
 route4 =
-    POL, Pole Hill
+    POL1Z, Pole Hill 1 Zulu
     N53.425, W2.108056
     N53.743889, W2.103333
 
 route5 =
-    DESIG, Desig
+    DESIG, Desig 1 Zulu
     N53.527222, W1.892778
 
 
@@ -590,13 +592,15 @@ runway = rwy1
 beacon = LESTA
 
 route1 =
-    312
+    312, LESTA1M, LESTA ONE MIKE
 #   LESTA
     N52.740833, W1.071944
-#   TNT R132 D25
-    N52.774167, W1.158611, 20000
+#   TNT
+    N53.053889, W1.67
+#   QUSHI
+    N53.108139, W1.774836, , 250
 #   DAYNE
-    N53.238611, W2.029167, 8000
+    N53.238611, W2.029167, , 230
     end, hold
 
 
@@ -605,13 +609,15 @@ runway = rwy1, rev
 beacon = LESTA
 
 route1 =
-    312
+    312, LESTA1M, LESTA ONE MIKE
 #   LESTA
     N52.740833, W1.071944
-#   TNT R132 D25
-    N52.774167, W1.158611, 20000
+#   TNT
+    N53.053889, W1.67
+#   QUSHI
+    N53.108139, W1.774836, , 250
 #   DAYNE
-    N53.238611, W2.029167, 8000
+    N53.238611, W2.029167, , 230
     end, hold
 
 
@@ -620,13 +626,15 @@ runway = rwy2
 beacon = LESTA
 
 route1 =
-    312
+    312, LESTA1M, LESTA ONE MIKE
 #   LESTA
-    N52.740833, W1.071944, 20000
-#   TNT R132 D25
-    N52.774167, W1.158611, 20000
+    N52.740833, W1.071944
+#   TNT
+    N53.053889, W1.67
+#   QUSHI
+    N53.108139, W1.774836, , 250
 #   DAYNE
-    N53.238611, W2.029167, 8000
+    N53.238611, W2.029167, , 230
     end, hold
 
 
@@ -635,13 +643,15 @@ runway = rwy2, rev
 beacon = LESTA
 
 route1 =
-    312
+    312, LESTA1M, LESTA ONE MIKE
 #   LESTA
     N52.740833, W1.071944
-#   TNT R132 D25
-    N52.774167, W1.158611, 20000
+#   TNT
+    N53.053889, W1.67
+#   QUSHI
+    N53.108139, W1.774836, , 250
 #   DAYNE
-    N53.238611, W2.029167, 8000
+    N53.238611, W2.029167, , 230
     end, hold
 
 
@@ -651,15 +661,15 @@ runway = rwy1
 beacon = MONTY
 
 route1 =
-    004
+    004, AXCIS1M, AXE SISS ONE MIKE DIRECT MONTY
 #   MONTY
-    N52.892778, W3.173889, 20000
+    N52.892778, W3.173889
 #   REXAM
-    N53.066667, W3.160278, 18000
+    N53.066667, W3.160278
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -668,15 +678,15 @@ runway = rwy1, rev
 beacon = MONTY
 
 route1 =
-    004
+    004, AXCIS1M, AXE SISS ONE MIKE DIRECT MONTY
 #   MONTY
-    N52.892778, W3.173889, 20000
+    N52.892778, W3.173889
 #   REXAM
-    N53.066667, W3.160278, 18000
+    N53.066667, W3.160278
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -685,15 +695,15 @@ runway = rwy2
 beacon = MONTY
 
 route1 =
-    004
+    004, AXCIS1M, AXE SISS ONE MIKE DIRECT MONTY
 #   MONTY
-    N52.892778, W3.173889, 20000
+    N52.892778, W3.173889
 #   REXAM
-    N53.066667, W3.160278, 18000
+    N53.066667, W3.160278
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -702,15 +712,15 @@ runway = rwy2, rev
 beacon = MONTY
 
 route1 =
-    004
+    004, AXCIS1M, AXE SISS ONE MIKE DIRECT MONTY
 #   MONTY
-    N52.892778, W3.173889, 20000
+    N52.892778, W3.173889
 #   REXAM
-    N53.066667, W3.160278, 18000
+    N53.066667, W3.160278
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -719,13 +729,13 @@ runway = rwy1
 beacon = MALUD
 
 route 1 =
-    096
+    096, MALUD1M, MALUDD ONE MIKE
 #   MALUD
-    N53.413333, W3.608333, 17000
+    N53.413333, W3.608333
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -734,13 +744,13 @@ runway = rwy1, rev
 beacon = MALUD
 
 route 1 =
-    096
+    096, MALUD1M, MALUDD ONE MIKE
 #   MALUD
-    N53.413333, W3.608333, 17000
+    N53.413333, W3.608333
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -749,13 +759,13 @@ runway = rwy2
 beacon = MALUD
 
 route 1 =
-    096
+    096, MALUD1M, MALUDD ONE MIKE
 #   MALUD
-    N53.413333, W3.608333, 17000
+    N53.413333, W3.608333
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -764,13 +774,13 @@ runway = rwy2, rev
 beacon = MALUD
 
 route 1 =
-    096
+    096, MALUD1M, MALUDD ONE MIKE
 #   MALUD
-    N53.413333, W3.608333, 17000
+    N53.413333, W3.608333
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -779,13 +789,13 @@ runway = rwy1
 beacon = IBRAR
 
 route 1 =
-    113
+    113, MAKUX1M, MACKUCKS ONE MIKE DIRECT IBRAR
 #   IBRAR
-    N53.531667, W3.686389, 17000
+    N53.531667, W3.686389
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -794,13 +804,13 @@ runway = rwy1, rev
 beacon = IBRAR
 
 route 1 =
-    113
+    113, MAKUX1M, MACKUCKS ONE MIKE DIRECT IBRAR
 #   IBRAR
-    N53.531667, W3.686389, 17000
+    N53.531667, W3.686389
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -809,13 +819,13 @@ runway = rwy2
 beacon = IBRAR
 
 route 1 =
-    113
+    113, MAKUX1M, MACKUCKS ONE MIKE DIRECT IBRAR
 #   IBRAR
-    N53.531667, W3.686389, 17000
+    N53.531667, W3.686389
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -824,13 +834,13 @@ runway = rwy2, rev
 beacon = IBRAR
 
 route 1 =
-    113
+    113, MAKUX1M, MACKUCKS ONE MIKE DIRECT IBRAR
 #   IBRAR
-    N53.531667, W3.686389, 17000
+    N53.531667, W3.686389
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -839,13 +849,13 @@ runway = rwy1
 beacon = PENIL
 
 route 1 =
-    127
+    127, PENIL1M, PENNILL ONE MIKE
 #   PENIL
-    N53.615833, W3.663611, 17000
+    N53.615833, W3.663611
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -854,13 +864,13 @@ runway = rwy1, rev
 beacon = PENIL
 
 route 1 =
-    127
+    127, PENIL1M, PENNILL ONE MIKE
 #   PENIL
-    N53.615833, W3.663611, 17000
+    N53.615833, W3.663611
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -869,13 +879,13 @@ runway = rwy2
 beacon = PENIL
 
 route 1 =
-    127
+    127, PENIL1M, PENNILL ONE MIKE
 #   PENIL
-    N53.615833, W3.663611, 17000
+    N53.615833, W3.663611
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -884,13 +894,13 @@ runway = rwy2, rev
 beacon = PENIL
 
 route 1 =
-    127
+    127, PENIL1M, PENNILL ONE MIKE
 #   PENIL
-    N53.615833, W3.663611, 17000
+    N53.615833, W3.663611
 #   WALLASEY
-    N53.391944, W3.134444, 15000, 270
+    N53.391944, W3.134444, , 250
 #   MIRSI
-    N53.538056, W2.711667, 14000, 230
+    N53.538056, W2.711667, , 230
     end, hold
 
 
@@ -900,17 +910,19 @@ runway = rwy1
 beacon = GOLES
 
 route 1 =
-    278
+    278, LIBSO1M, LIBSO ONE MIKE DIRECT GOLES 
 #   GOLES
-    N53.608056, W1.083333, 17000
+    N53.608056, W1.083333
 #   POL
-    N53.743889, W2.103333, 10000, 250
+    N53.743889, W2.103333, , 250
 #   BURNI
-    N53.727222, W2.517778, 8000
-#   Direct North of BURNI to enforce right turn into ROSUN
-    N53.793889, W2.517778
+    N53.727222, W2.517778
+#   NW of BURNI to enforce right turn to ROSUN
+    N53.793889, W2.617778
+#   West of the previous to continue the right hand turn
+    N53.793889, W2.449167
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -919,17 +931,19 @@ runway = rwy1, rev
 beacon = GOLES
 
 route 1 =
-    278
+    278, LIBSO1M, LIBSO ONE MIKE DIRECT GOLES 
 #   GOLES
-    N53.608056, W1.083333, 17000
+    N53.608056, W1.083333
 #   POL
-    N53.743889, W2.103333, 10000, 250
+    N53.743889, W2.103333, , 250
 #   BURNI
-    N53.727222, W2.517778, 8000
-#   Direct North of BURNI to enforce right turn into ROSUN
-    N53.793889, W2.517778
+    N53.727222, W2.517778
+#   NW of BURNI to enforce right turn to ROSUN
+    N53.793889, W2.617778
+#   West of the previous to continue the right hand turn
+    N53.793889, W2.449167
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -938,17 +952,19 @@ runway = rwy2
 beacon = GOLES
 
 route 1 =
-    278
+    278, LIBSO1M, LIBSO ONE MIKE DIRECT GOLES 
 #   GOLES
-    N53.608056, W1.083333, 17000
+    N53.608056, W1.083333
 #   POL
-    N53.743889, W2.103333, 10000, 250
+    N53.743889, W2.103333, , 250
 #   BURNI
-    N53.727222, W2.517778, 8000
-#   Direct North of BURNI to enforce right turn into ROSUN
-    N53.793889, W2.517778
+    N53.727222, W2.517778
+#   NW of BURNI to enforce right turn to ROSUN
+    N53.793889, W2.617778
+#   West of the previous to continue the right hand turn
+    N53.793889, W2.449167
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -957,17 +973,19 @@ runway = rwy2, rev
 beacon = GOLES
 
 route 1 =
-    278
+    278, LIBSO1M, LIBSO ONE MIKE DIRECT GOLES 
 #   GOLES
-    N53.608056, W1.083333, 17000
+    N53.608056, W1.083333
 #   POL
-    N53.743889, W2.103333, 10000, 250
+    N53.743889, W2.103333, , 250
 #   BURNI
-    N53.727222, W2.517778, 8000
-#   Direct North of BURNI to enforce right turn into ROSUN
-    N53.793889, W2.517778
+    N53.727222, W2.517778
+#   NW of BURNI to enforce right turn to ROSUN
+    N53.793889, W2.617778
+#   West of the previous to continue the right hand turn
+    N53.793889, W2.449167
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -977,15 +995,15 @@ runway = rwy1
 beacon = GASKO
 
 route 1 =
-    191
+    191, TILNI1M, TILLNEE ONE MIKE DIRECT GASKO
 #   GASKO
-    N54.224722, W1.955833, 20000
+    N54.224722, W1.955833
 #   BEGAM
     N54.156944, W2.120833
 #   SETEL
-    N54.0125, W2.435833, 14000
+    N54.0125, W2.435833, , 250
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -994,15 +1012,15 @@ runway = rwy1, rev
 beacon = GASKO
 
 route 1 =
-    191
+    191, TILNI1M, TILLNEE ONE MIKE DIRECT GASKO
 #   GASKO
-    N54.224722, W1.955833, 20000
+    N54.224722, W1.955833
 #   BEGAM
     N54.156944, W2.120833
 #   SETEL
-    N54.0125, W2.435833, 14000
+    N54.0125, W2.435833, , 250
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -1011,15 +1029,15 @@ runway = rwy2
 beacon = GASKO
 
 route 1 =
-    191
+    191, TILNI1M, TILLNEE ONE MIKE DIRECT GASKO
 #   GASKO
-    N54.224722, W1.955833, 20000
+    N54.224722, W1.955833
 #   BEGAM
     N54.156944, W2.120833
 #   SETEL
-    N54.0125, W2.435833, 14000
+    N54.0125, W2.435833, , 250
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -1028,15 +1046,15 @@ runway = rwy2, rev
 beacon = GASKO
 
 route 1 =
-    191
+    191, TILNI1M, TILLNEE ONE MIKE DIRECT GASKO
 #   GASKO
-    N54.224722, W1.955833, 20000
+    N54.224722, W1.955833
 #   BEGAM
     N54.156944, W2.120833
 #   SETEL
-    N54.0125, W2.435833, 14000
+    N54.0125, W2.435833, , 250
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -1045,11 +1063,13 @@ runway = rwy1
 beacon = LAKEY
 
 route 1 =
-    148
+    148, LAKEY1M, LAKEY ONE MIKE
 #   LAKEY
-    N54.238889, W2.981111, 20000
+    N54.238889, W2.981111
+#   DIZZE
+    N53.845206, W2.542475, , 250
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -1058,11 +1078,13 @@ runway = rwy1, rev
 beacon = LAKEY
 
 route 1 =
-    148
+    148, LAKEY1M, LAKEY ONE MIKE
 #   LAKEY
-    N54.238889, W2.981111, 20000
+    N54.238889, W2.981111
+#   DIZZE
+    N53.845206, W2.542475, , 250
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -1071,11 +1093,13 @@ runway = rwy2
 beacon = LAKEY
 
 route 1 =
-    148
+    148, LAKEY1M, LAKEY ONE MIKE
 #   LAKEY
-    N54.238889, W2.981111, 20000
+    N54.238889, W2.981111
+#   DIZZE
+    N53.845206, W2.542475, , 250
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -1084,11 +1108,13 @@ runway = rwy2, rev
 beacon = LAKEY
 
 route 1 =
-    148
+    148, LAKEY1M, LAKEY ONE MIKE
 #   LAKEY
-    N54.238889, W2.981111, 20000
+    N54.238889, W2.981111
+#   DIZZE
+    N53.845206, W2.542475, , 250
 #   ROSUN
-    N53.668889, W2.349167, 7000, 230
+    N53.668889, W2.349167, , 230
     end, hold
 
 
@@ -1100,13 +1126,13 @@ beacon = MONTY
 route 1 =
     004
 #   MONTY
-    N52.53.34, W003.10.26, 16000
+    N52.53.34, W003.10.26
 #   KEGUN
-    N53.11.33, W003.09.01, 12000
+    N53.11.33, W003.09.01
 #   TORGO
-    N53.07.57, W003.15.59, 8000
+    N53.07.57, W003.15.59
 #   KEGUN
-    N53.11.33, W003.09.01, 7000, 210
+    N53.11.33, W003.09.01, , 210
     end, hold
 
 
@@ -1117,15 +1143,15 @@ beacon = PEDIG
 route 1 =
     307
 #   PEDIG
-    N52.44.48, W001.43.10, 16000
+    N52.44.48, W001.43.10
 #   NANTI
-    N53.08.15, W002.34.01, 10000
+    N53.08.15, W002.34.01
 #   KEGUN
     N53.11.33, W003.09.01
 #   TORGO
-    N53.07.57, W003.15.59, 8000
+    N53.07.57, W003.15.59
 #   KEGUN
-    N53.11.33, W003.09.01, 7000, 210
+    N53.11.33, W003.09.01, , 210
     end, hold
 
 
@@ -1136,17 +1162,17 @@ beacon = LESTA
 route 1 =
     312
 #   LESTA
-    N52.44.27, W001.04.19, 20000
+    N52.44.27, W001.04.19
 #   TNT
-    N53.03.14, W001.40.12, 15000
+    N53.03.14, W001.40.12
 #   NANTI
-    N53.08.15, W002.34.01, 10000
+    N53.08.15, W002.34.01
 #   KEGUN
     N53.11.33, W003.09.01
 #   TORGO
-    N53.07.57, W003.15.59, 8000
+    N53.07.57, W003.15.59
 #   KEGUN
-    N53.11.33, W003.09.01, 7000, 210
+    N53.11.33, W003.09.01, , 210
     end, hold
 
 
@@ -1158,15 +1184,15 @@ beacon = MONTY
 route 1 =
     004
 #   MONTY
-    N52.53.34, W003.10.26, 16000
+    N52.53.34, W003.10.26
 #   KEGUN
-    N53.11.33, W003.09.01, 13000
+    N53.11.33, W003.09.01
 #   WAL
-    N53.23.31, W003.08.04, 10000
+    N53.23.31, W003.08.04
 #   BAROS
-    N53.24.22, W003.26.43, 8000
+    N53.24.22, W003.26.43
 #   TIPOD
-    N53.26.08, W003.17.05, 7000, 210
+    N53.26.08, W003.17.05, , 210
     end, hold
 
 
@@ -1177,17 +1203,17 @@ beacon = PEDIG
 route 1 =
     307
 #   PEDIG
-    N52.44.48, W001.43.10, 16000
+    N52.44.48, W001.43.10
 #   NANTI
-    N53.08.15, W002.34.01, 10000
+    N53.08.15, W002.34.01
 #   KEGUN
     N53.11.33, W003.09.01
 #   WAL
     N53.23.31, W003.08.04
 #   BAROS
-    N53.24.22, W003.26.43, 8000
+    N53.24.22, W003.26.43
 #   TIPOD
-    N53.26.08, W003.17.05, 7000, 210
+    N53.26.08, W003.17.05, , 210
     end, hold
 
 
@@ -1198,19 +1224,19 @@ beacon = LESTA
 route 1 =
     312
 #   LESTA
-    N52.44.27, W001.04.19, 20000
+    N52.44.27, W001.04.19
 #   TNT
-    N53.03.14, W001.40.12, 15000
+    N53.03.14, W001.40.12
 #   NANTI
-    N53.08.15, W002.34.01, 10000
+    N53.08.15, W002.34.01
 #   KEGUN
     N53.11.33, W003.09.01
 #   WAL
     N53.23.31, W003.08.04
 #   BAROS
-    N53.24.22, W003.26.43, 8000
+    N53.24.22, W003.26.43
 #   TIPOD
-    N53.26.08, W003.17.05, 7000, 210
+    N53.26.08, W003.17.05, , 210
     end, hold
 
 
@@ -1221,11 +1247,11 @@ beacon = PENIL
 route 1 =
     137
 #   PENIL
-    N53.36.57, W003.39.49, 17000
+    N53.36.57, W003.39.49
 #   RUGER
-    N53.28.58, W003.26.52, 10000
+    N53.28.58, W003.26.52
 #   TIPOD
-    N53.26.08, W003.17.05, 7000, 210
+    N53.26.08, W003.17.05, , 210
     end, hold
 
 
@@ -1236,9 +1262,9 @@ beacon = MALUD
 route 1 =
     084
 #   MALUD
-    N53.28.58, W003.26.52, 10000
+    N53.28.58, W003.26.52
 #   TIPOD
-    N53.26.08, W003.17.05, 7000, 210
+    N53.26.08, W003.17.05, , 210
     end, hold
 
 
@@ -1249,13 +1275,13 @@ beacon = CROFT
 route 1 =
     058
 #   CROFT
-    N53.37.37, W002.32.20, 15000
+    N53.37.37, W002.32.20
 #   WAL
-    N53.23.31, W003.08.04, 10000
+    N53.23.31, W003.08.04
 #   BAROS
-    N53.24.22, W003.26.43, 8000
+    N53.24.22, W003.26.43
 #   TIPOD
-    N53.26.08, W003.17.05, 7000, 210
+    N53.26.08, W003.17.05, , 210
     end, hold
 
 
@@ -1266,13 +1292,13 @@ beacon = POL
 route 1 =
     061
 #   POL
-    N53.44.38, W002.06.12, 17000
+    N53.44.38, W002.06.12
 #   WAL
-    N53.23.31, W003.08.04, 10000
+    N53.23.31, W003.08.04
 #   BAROS
-    N53.24.22, W003.26.43, 8000
+    N53.24.22, W003.26.43
 #   TIPOD
-    N53.26.08, W003.17.05, 7000, 210
+    N53.26.08, W003.17.05, , 210
     end, hold
 
 
@@ -1283,13 +1309,13 @@ beacon = DESIG
 route 1 =
     081
 #   DESIG
-    N53.31.38, W001.53.34, 17000
+    N53.31.38, W001.53.34
 #   WAL
-    N53.23.31, W003.08.04, 10000
+    N53.23.31, W003.08.04
 #   BAROS
-    N53.24.22, W003.26.43, 8000
+    N53.24.22, W003.26.43
 #   TIPOD
-    N53.26.08, W003.17.05, 7000, 210
+    N53.26.08, W003.17.05, , 210
     end, hold
 
 
@@ -1301,13 +1327,13 @@ beacon = LPL
 route 1 =
     086
 #   LPL
-    N53.20.23, W002.43.30, 6000, 185
+    N53.20.23, W002.43.30, , 185
 #   LPL R059 D9.8
-    N53.25.25, W002.29.25, 4000
+    N53.25.25, W002.29.25
 #   LPL R086 D9
-    N53.21.00, W002.28.28, 3500
+    N53.21.00, W002.28.28
 #   Intercept 9.3NM @ 3000'
-    9.3, 3000, 185
+    9.3, , 185
 
 
 # APPROACH - EGGP 9
@@ -1318,13 +1344,13 @@ beacon = LPL
 route 1 =
     086
 #   LPL
-    N53.20.23, W002.43.30, 6000, 220
+    N53.20.23, W002.43.30, , 220
 #   LPL R279 D10.7
-    N53.22.02, W003.01.12, 4000
+    N53.22.02, W003.01.12
 #   LPL R266 D10
-    N53.19.40, W003.00.12, 3000
+    N53.19.40, W003.00.12
 #   Intercept 7.5NM @ 2500'
-    7.5, 2500, 220
+    7.5, , 220
 
 
 # APPROACH - EGCC 23R RNAV
@@ -1335,11 +1361,11 @@ beacon = TINVA,  N53.32.57, W002.04.49, 0, Tinva
 route 1 =
     142
 #   TINVA
-    N53.32.57, W002.04.49, 3500, 185
+    N53.32.57, W002.04.49, , 185
 #   C23LI
     N53.29.22, W002.00.07
 #   Intercept C23LF
-    9.1, 3000, 185
+    9.1, , 185
 
 
 [approach47]
@@ -1349,11 +1375,11 @@ beacon = OSNAP,  N53.25.12, W001.54.21, 0, Osnap
 route 1 =
     322
 #   OSNAP
-    N53.25.12, W001.54.21, 3500, 185
+    N53.25.12, W001.54.21, , 185
 #   C23LI
     N53.29.22, W002.00.07
 #   Intercept C23LF
-    9.1, 3000, 185
+    9.1, , 185
 
 
 [approach48]
@@ -1363,8 +1389,8 @@ beacon = MCT
 route 1 =
     232
 #   MCT
-    N53.21.25, W002.15.44, 3500, 210
+    N53.21.25, W002.15.44, , 210
 #   MCT R218 D14
-    N53.10.23, W002.30.06, 3000
+    N53.10.23, W002.30.06
 #   Intercept 11NM @ 3000'
-    11, 3000, 210
+    11, , 210
