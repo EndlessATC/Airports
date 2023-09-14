@@ -1721,211 +1721,196 @@ route3 = RBO2R, Robledillo two romeo
 	N40.85386, W3.24664
 
 [approach1]
-# ADUXO1D
+# ADUXO2D
 runway = rwy1
 beacon = ADUXO
 route1 = 
 	250
-	N40.51233, W2.06428,
-	N40.39167, W2.32222,
-	N40.2605, W2.60014,
-	N40.25508, W3.17633,
-	15.5, 6000, 250
+	N40.512222, W2.064167,
+	N40.391667, W2.322222,
+	N40.391667, W2.322222,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+	15.5, 8000, 250
 
 [approach2]
-# BANEV2D
+# BANEV3D
 runway = rwy1				; runway identifier, <reversed use>
 beacon = BANEV		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	207
-	N41.50261, W2.51453,
-	N41.32356, W2.62978,
-	N40.98031, W2.59917,
-	N40.82894, W2.59565, 
-	N40.77976, W2.64423,
-	N40.65633, W2.81672,
-	N40.59179, W2.87326,
- 	N40.2791, W3.10296,
- 	N40.2791, W3.10296,
- 	N40.27324, W3.10793,
- 	N40.26804, W3.11398,
- 	N40.2636, W3.12099,
- 	N40.26003, W3.12879,
- 	N40.2574, W3.1372,
- 	N40.25578, W3.14604,
- 	N40.2552, W3.1551,
- 	N40.25508, W3.17633,
- 	15.5, 6000, 250
+	N41.502500, W2.514444,
+	N41.323611, W2.629722,
+	N41.323611, W2.629722,
+	N40.980278, W2.599167,
+	N40.980278, W2.599167,
+	N40.829167, W2.587222,
+	N40.829167, W2.587222,
+	N40.656111, W2.816667,
+	N40.656111, W2.816667,
+	N40.416111, W3.009722,
+	N40.416111, W3.009722,
+	N40.258056, W3.136111,
+ 	15.5, 8000, 250
 
 [approach3]
-# MORAL4C
+# MORAL5C
 runway = rwy2				; runway identifier, <reversed use>
 beacon = MORAL		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	328
-	N39.0, W3.54217,
-	N39.62538, W4.05971,
- 	N39.62538, W4.05971,
- 	N39.6323, W4.06484,
- 	N39.63965, W4.06918,
- 	N39.64727, W4.07264,
- 	N39.6551, W4.07517,
- 	N39.66309, W4.07676,
- 	N39.67115, W4.0774,
- 	N39.67922, W4.07708,
- 	N39.68723, W4.0758,
- 	N39.69512, W4.07358,
- 	N39.70282, W4.07042,
- 	N39.71027, W4.06636,
- 	N39.71739, W4.06144,
- 	N39.72414, W4.05569,
- 	N39.73044, W4.04915,
- 	N39.73626, W4.0419
- 	N39.81106, W3.93931,
+	N39.000000, W3.541944,
+	N39.422500, W3.885000,
+	N39.422500, W3.885000,
+	N39.563333, W4.000556,
+	N39.563333, W4.000556,
+	N39.686944, W4.102778,
+	N39.686944, W4.102778,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
  	15.5, 6000, 250
 
 [approach4]
-# NASOS1D
-runway = rwy1				; runway identifier, <reversed use>
-beacon = NASOS		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
-
-route1 = 
-	022
-	N39.39914, W3.02778,
-	N40.2605, W2.60014,
-	N40.25508, W3.17633,
-	15.5, 6000, 250
-
-[approach5]
-# NONTU2C
+# NONTU3C
 runway = rwy2				; runway identifier, <reversed use>
 beacon = NONTU		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	186
-	N41.50031, W4.169,
-	N41.26572, W4.19533,
-	N40.36870, W4.24942,
-	N40.16859, W3.50114,
- 	N40.16859, W3.50114,
- 	N40.16714, W3.49367,
- 	N40.1666, W3.48602,
- 	N40.16696, W3.47834,
- 	N40.16823, W3.47083,
- 	N40.17036, W3.46366,
- 	N40.17332, W3.457,
- 	N40.17703, W3.45102,
- 	N40.19631, W3.42444,
+	N41.500278, W4.168889,
+	N41.265556, W4.195278,
+	N40.868333, W4.219167,
+	N40.525000, W4.240000,
+	N40.343056, W4.146667,
+	N40.242222, W3.746111,
+	N40.242222, W3.746111,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
  	15.5, 6000, 250
 
-[approach6]
-# PRADO2D
+[approach5]
+# PRADO3D
 runway = rwy1				; runway identifier, <reversed use>
 beacon = PRADO		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	300
-	N40.1475, W2.01033,
-	N40.25911, W2.29009,
-	N40.2605, W2.60014,
-	N40.25508, W3.17633,
-	15.5, 6000, 250
+	N40.147222, W2.010278,
+	N40.262222, W2.282222,
+	N40.262222, W2.282222,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+	15.5, 8000, 250
 
-[approach7]
-# RIDAV3C
+[approach6]
+# RIDAV4C
 runway = rwy2				; runway identifier, <reversed use>
 beacon = RIDAV		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	118
-	N40.53525, W5.80828,
-	N39.96950, W4.33747,
-	N39.79867, W4.07409,
- 	N39.79867, W4.07409,
- 	N39.79395, W4.06578,
- 	N39.78999, W4.0569,
- 	N39.78683, W4.0475,
- 	N39.78448, W4.0377,
- 	N39.78299, W4.02763,
- 	N39.78237, W4.01741,
- 	N39.78263, W4.00716,
- 	N39.78377, W3.99701,
- 	N39.78577, W3.98709,
- 	N39.78861, W3.97752,
- 	N39.79226, W3.96841,
- 	N39.79666, W3.95989,
- 	N39.80176, W3.95205,
- 	N39.81106, W3.93931,
+	N40.535000, W5.808056,
+	N40.185556, W4.890833,
+	N40.185556, W4.890833,
+	N39.969444, W4.337222,
+	N39.969444, W4.337222,
+	N39.917778, W4.255833,
+	N39.917778, W4.255833,
+	N39.834722, W4.121944,
+	N39.834722, W4.121944,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
  	15.5, 6000, 250
 
-[approach8]
-# SOTUK2C
+[approach7]
+# SOTUK4C
 runway = rwy2				; runway identifier, <reversed use>
 beacon = SOTUK		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	047
-	N39.19367, W4.74639,
-	N39.81106, W3.93931,
-	N40.19631, W3.42444,
+	N39.193611, W4.746389,
+	N39.518889, W4.323889,
+	N39.518889, W4.323889,
+	N39.686944, W4.102778,
+	N39.686944, W4.102778,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
 	15.5, 6000, 250
 
-[approach9]
+[approach8]
 # TERSA2Z
 runway = rwy1				; runway identifier, <reversed use>
 beacon = TERSA		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	222
-	N40.72503, W2.13783,
-	N40.77976, W2.64423,
-	N40.65633, W2.81672,
-	N40.59179, W2.87326,
- 	N40.2791, W3.10296,
- 	N40.2791, W3.10296,
- 	N40.27324, W3.10793,
- 	N40.26804, W3.11398,
- 	N40.2636, W3.12099,
- 	N40.26003, W3.12879,
- 	N40.2574, W3.1372,
- 	N40.25578, W3.14604,
- 	N40.2552, W3.1551,
- 	N40.25508, W3.17633,
- 	15.5, 6000, 250
+	N40.725000, W2.137778,
+	N40.755556, W2.393611,
+	N40.755556, W2.393611,
+	N40.785278, W2.644722,
+	N40.785278, W2.644722,
+	N40.656111, W2.816667,
+	N40.656111, W2.816667,
+	N40.416111, W3.009722,
+	N40.416111, W3.009722,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+ 	15.5, 8000, 250
 
-[approach10]
-# VILLA2D
+[approach9]
+# VILLA3D
 runway = rwy1				; runway identifier, <reversed use>
 beacon = VILLA		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	325
-	N40.23294, W2.41044,
-	N40.25853, W2.44097,
-	15.5, 6000, 250
+	N40.232778, W2.410278,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+	15.5, 8000, 250
 
-[approach11]
+[approach10]
 # ZMR4C
 runway = rwy2				; runway identifier, <reversed use>
 beacon = ZMR		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	139
-	N41.53019, W5.63969,
-	N40.62461, W4.54989,
-	N40.36870, W4.24942,
-	N40.16859, W3.50114,
- 	N40.16859, W3.50114,
- 	N40.16714, W3.49367,
- 	N40.1666, W3.48602,
- 	N40.16696, W3.47834,
- 	N40.16823, W3.47083,
- 	N40.17036, W3.46366,
- 	N40.17332, W3.457,
- 	N40.17703, W3.45102,
- 	N40.19631, W3.42444
+	N41.530000, W5.639444,
+	N40.624444, W4.549722,
+	N40.624444, W4.549722,
+	N40.343056, W4.146667,
+	N40.242222, W3.746111,
+	N40.242222, W3.746111,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
 	15.5, 6000, 250
 
 [configurations]
