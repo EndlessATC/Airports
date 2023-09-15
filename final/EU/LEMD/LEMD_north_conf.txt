@@ -1,6 +1,6 @@
 # Madrid Airport North Configuration by Josu Blanco v1.0 and Daniel de la Cueva v2.0
 # Thanks to IVAO-ES
-# v0.1: funnels, 32L and 32R ils-z, real airlines.
+# v0.1: MRVA, funnels, 32L and 32R ils-z, real airlines.
 # v0.2: Fixes: Traffic from BAN and ORBIS enter an infinite holding pattern fixed. General internal bugfixes.
 #		Improvements: ILS-Z NAV procedures added from ASBIN and TOBEK.
 # v0.3: STAR implementation. Bugfixes.
@@ -1008,7 +1008,7 @@ line32 =
 	N40.169167, W3.460556,
 
 [airport1]
-name = Adolfo Suarez Madrid Barajas Airport North Configuration by Josu Blanco v1.0
+name = Adolfo Suarez Madrid Barajas Airport North Configuration by Josu Blanco and Daniel De la Cueva v2.0
 code = MADN
 runways =
 	rwy1, 32R, N40.47357, W3.53619, 324.2, 11483, 0, 1640, 1942, 3, 323, 3, 323
