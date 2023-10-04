@@ -1,31 +1,32 @@
-# Madrid Airport North Configuration by Josu Blanco v0.3
+# Madrid Airport North Configuration by Josu Blanco v1.0 and Daniel de la Cueva v2.0
 # Thanks to IVAO-ES
 # v0.1: MRVA, funnels, 32L and 32R ils-z, real airlines.
 # v0.2: Fixes: Traffic from BAN and ORBIS enter an infinite holding pattern fixed. General internal bugfixes.
 #		Improvements: ILS-Z NAV procedures added from ASBIN and TOBEK.
-# v0.3: Funnel 8nm and altitude fixes
+# v0.3: STAR implementation. Bugfixes.
+# v1.0: Working STARs, SID implementation, MRVA implementation, funnel fix to 8nm, fixes to arriving tfc.
+# v2.0: Independent parallel approaches changes implementation
 
-# El Center es PDT
 [airspace]
 elevation = 1998
-center = N40.25290, W3.34803
+center = N40.55290, W3.34803
 magneticvar = -1.537
-descendaltitude = 14000 		; minimum initial altitude for arrivals
-ceiling = 14000 			; maximum selectable altitude
+descendaltitude = 24000 		; minimum initial altitude for arrivals
+ceiling = 23000 			; maximum selectable altitude
 above = 24000 			; maximum departure altitude when SID is enabled (must be above ceiling)
 transition = 14001		; lowest altitude in feet to be displayed as flight level
-speedrestriction = 40, 220 	; radius in NM, and speed in knots
+speedrestriction = 18, 220 	; radius in NM, and speed in knots
 separation = 3			; minimum allowed distance between aircraft in NM
-radius = 70			; airspace radius in NM
-
+automatic = true			; entering arrivals will follow an approach route when flying inbound an approach beacon
+radius = 150
 
 beacons =
-# FIXes
 	ADUXO, N40.51233, W2.06428, 250, Aduxo
-	ASBIN, N40.25508, W3.17633, -270, Asbin
 	AVILA, N40.62461, W4.54989, -140, Avila
 	BANEV, N41.50261, W2.51453, 0, Banev
 	BUREX, N39.81106, W3.93931, 047, Burex
+	DAQSE, N40.34308, W4.14669, 108, Daqse
+	FAFEQ, N40.16918, W3.46069, 046, Fafeq
 	MORAL, N39.0, W3.54217, 0, Moral
 	NASOS, N39.39914, W3.02778, 0, Nasos
 	NONTU, N41.50031, W4.169, 0, Nontu
@@ -34,23 +35,26 @@ beacons =
 	PINAR, N40.98031, W2.59917, 0, Pinar
 	PRADO, N40.1475, W2.01033, 300, Prado
 	RIDAV, N40.53525, W5.80828, 0, Ridav
-	ROFIX, N40.21333, W3.79167, 151, Rofix
+	RUDBI, N40.25816, W3.13611, 270, Rudbi
 	SIRGU, N40.2605, W2.60014, -270, Sirgu
 	SOTUK, N39.19367, W4.74639, 0, Sotuk
 	TERSA, N40.72503, W2.13783, 224, Tersa
-	TOBEK, N40.19631, W3.42444, 048, Tobek
+	URRIF, N40.24230, W3.74630, 0, Urrif
 	VILLA, N40.23294, W2.41044, 0, Villa
-
-# VORes
+	YUNYE, N40.04408, W3.62894, 0, Yunye
 	BAN, N41.32356, W2.62978, 208, Barahona
-	CJN, N40.37200, W2.54461, 0, Castejon
-	NVS, N40.36870, W4.24942, 0, Navas
 	PDT, N40.25290, W3.34803, 0, Perales
 	TLD, N39.96950, W4.33747, 130, Toledo
 	VTB, N39.78080, W3.46403, 0, Villatobas
 	ZMR, N41.53019, W5.63969, 0, Zamora
-	
 
+boundary =
+	-125, -100,
+	-125, 70,
+	80, 70,
+	80, -100,
+
+# EMBUDOS 32L
 
 line1 =
  	N40.1950,W3.59843,
@@ -866,129 +870,145 @@ line22 =
  	N40.3063,W3.39114,
  	N40.1095,W3.34377,
 
-
 # STARs
-# ADUXO1D
+# ADUXO2D
+line23 =
+	N40.512222, W2.064167,
+	N40.391667, W2.322222,
+	N40.391667, W2.322222,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+	
+
+# BANEV3D
+line24 =
+	N41.502500, W2.514444,
+	N41.323611, W2.629722,
+	N41.323611, W2.629722,
+	N40.980278, W2.599167,
+	N40.980278, W2.599167,
+	N40.829167, W2.587222,
+	N40.829167, W2.587222,
+	N40.656111, W2.816667,
+	N40.656111, W2.816667,
+	N40.416111, W3.009722,
+	N40.416111, W3.009722,
+	N40.258056, W3.136111,
+
+# MORAL5C
+line25 =
+	N39.000000, W3.541944,
+	N39.422500, W3.885000,
+	N39.422500, W3.885000,
+	N39.563333, W4.000556,
+	N39.563333, W4.000556,
+	N39.686944, W4.102778,
+	N39.686944, W4.102778,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
+
+# NONTU3C
+line26 =
+	
+	N41.500278, W4.168889,
+	N41.265556, W4.195278,
+	N40.868333, W4.219167,
+	N40.525000, W4.240000,
+	N40.343056, W4.146667,
+	N40.242222, W3.746111,
+	N40.242222, W3.746111,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
+
+# PRADO3D
+line27 =
+	N40.147222, W2.010278,
+	N40.262222, W2.282222,
+	N40.262222, W2.282222,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+
+# RIDAV4C
+line28 =
+	N40.535000, W5.808056,
+	N40.185556, W4.890833,
+	N40.185556, W4.890833,
+	N39.969444, W4.337222,
+	N39.969444, W4.337222,
+	N39.917778, W4.255833,
+	N39.917778, W4.255833,
+	N39.834722, W4.121944,
+	N39.834722, W4.121944,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
+
+# SOTUK4C
+line29 =
+	N39.193611, W4.746389,
+	N39.518889, W4.323889,
+	N39.518889, W4.323889,
+	N39.686944, W4.102778,
+	N39.686944, W4.102778,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
+
+# TERSA3Z
+line30 =
+	N40.725000, W2.137778,
+	N40.755556, W2.393611,
+	N40.755556, W2.393611,
+	N40.785278, W2.644722,
+	N40.785278, W2.644722,
+	N40.656111, W2.816667,
+	N40.656111, W2.816667,
+	N40.416111, W3.009722,
+	N40.416111, W3.009722,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+
+# VILLA3D
 line31 =
-	N40.51233, W2.06428,
-	N40.39167, W2.32222,
-	N40.2605, W2.60014
+	N40.232778, W2.410278,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
 
-# BANEV2D
+# ZMR5C
 line32 =
-	N41.50261, W2.51453,
-	N41.32356, W2.62978,
-	N40.98031, W2.59917,
-	N40.82894, W2.59565, 
-	N40.77976, W2.64423,
-	N40.65633, W2.81672,
-	N40.59179, W2.87326,
- 	N40.2791, W3.10296,
- 	N40.2791, W3.10296,
- 	N40.27324, W3.10793,
- 	N40.26804, W3.11398,
- 	N40.2636, W3.12099,
- 	N40.26003, W3.12879,
- 	N40.2574, W3.1372,
- 	N40.25578, W3.14604,
- 	N40.2552, W3.1551,
- 	N40.25508, W3.17633
-
-# MORAL4C
-line33 =
-	N39.0, W3.54217,
-	N39.62538, W4.05971,
- 	N39.62538, W4.05971,
- 	N39.6323, W4.06484,
- 	N39.63965, W4.06918,
- 	N39.64727, W4.07264,
- 	N39.6551, W4.07517,
- 	N39.66309, W4.07676,
- 	N39.67115, W4.0774,
- 	N39.67922, W4.07708,
- 	N39.68723, W4.0758,
- 	N39.69512, W4.07358,
- 	N39.70282, W4.07042,
- 	N39.71027, W4.06636,
- 	N39.71739, W4.06144,
- 	N39.72414, W4.05569,
- 	N39.73044, W4.04915,
- 	N39.73626, W4.0419
- 	N39.81106, W3.93931
-
-# NASOS1D
-line34 =
-	N39.39914, W3.02778
-	N40.2605, W2.60014
-
-# NONTU2C
-line35 =
-	N41.50031, W4.169,
-	N41.26572, W4.19533,
-	N40.36870, W4.24942
-	N40.16859, W3.50114,
- 	N40.16859, W3.50114,
- 	N40.16714, W3.49367,
- 	N40.1666, W3.48602,
- 	N40.16696, W3.47834,
- 	N40.16823, W3.47083,
- 	N40.17036, W3.46366,
- 	N40.17332, W3.457,
- 	N40.17703, W3.45102,
- 	N40.19631, W3.42444
-
-# PRADO2D
-line36 =
-	N40.1475, W2.01033,
-	N40.25911, W2.29009,
-	N40.2605, W2.60014,
-	N40.25508, W3.17633
-
-# RIDAV3C
-line37 =
-	N40.53525, W5.80828,
-	N39.96950, W4.33747,
-	N39.79867, W4.07409,
- 	N39.79867, W4.07409,
- 	N39.79395, W4.06578,
- 	N39.78999, W4.0569,
- 	N39.78683, W4.0475,
- 	N39.78448, W4.0377,
- 	N39.78299, W4.02763,
- 	N39.78237, W4.01741,
- 	N39.78263, W4.00716,
- 	N39.78377, W3.99701,
- 	N39.78577, W3.98709,
- 	N39.78861, W3.97752,
- 	N39.79226, W3.96841,
- 	N39.79666, W3.95989,
- 	N39.80176, W3.95205,
- 	N39.81106, W3.93931
-
-# SOTUK2C
-line38 =
-	N39.19367, W4.74639,
-	N39.81106, W3.93931,
-	N40.19631, W3.42444
-
-# TERSA2Z
-line39 =
-	N40.72503, W2.13783,
-	N40.77976, W2.64423
-
-# VILLA2D
-line40 =
-	N40.23294, W2.41044,
-	N40.25853, W2.44097
-
-# ZMR4C
-line41 =
-	N41.53019, W5.63969,
-	N40.62461, W4.54989,
-	N40.36870, W4.24942
+	N41.530000, W5.639444,
+	N40.624444, W4.549722,
+	N40.624444, W4.549722,
+	N40.343056, W4.146667,
+	N40.242222, W3.746111,
+	N40.242222, W3.746111,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
 
 [airport1]
-name = Adolfo Suarez Madrid Barajas Airport North Configuration by Josu Blanco v0.2
+name = Adolfo Suarez Madrid Barajas Airport North Configuration by Josu Blanco and Daniel De la Cueva v2.0
 code = MADN
 runways =
 	rwy1, 32R, N40.47357, W3.53619, 324.2, 11483, 0, 1640, 1942, 3, 323, 3, 323
@@ -999,17 +1019,16 @@ runways =
 climbaltitude = 13000 		; maximum initial climb altitude in feet for departures
 
 entrypoints = 
-	328,    NVS
-	293,    AVILA
-	267,    TLD
-	226,    BUREX
-	188,    BUREX
-	097,    PRADO
-	108,    SIRGU
-	076,    ADUXO
-	062,    TERSA
-	027,    PINAR
-	
+	310,    NONTU
+	294,    ZMR
+	275,    RIDAV
+	237,    SOTUK
+	214,    MORAL
+	145,    PRADO
+	160,    VILLA
+	093,    ADUXO
+	061,    TERSA
+	354,    BANEV
 
 airlines =
 	IBE,	8,	a320,		iberia
@@ -1029,39 +1048,23 @@ airlines =
 	RAM,    1,  b738,       royal air maroc
 
 
+# MRVAS
 
-# MRVA PERIMETRO	
+# MRVA 5500 del sur
 ##############################################################
 [area1]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 5500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.41667, W3.31667	; <position of label>
 points =
-	N41.175, W4.61111,
-	N41.5, W4.20417,
-	N41.50167, W2.36889,
-	N41.3, W2.5,
-	N41.26167, W2.5,
-	N41.03333, W2.5,
-	N41.03444, W2.15833,
-	N40.50694, W2.15833,
-	N40.08889, W2.15833,
-	N40.0, W2.29444,
-	N40.0, W2.36667,
-	N39.88917, W2.46333,
-	N39.82028, W2.56861,
-	N39.59028, W2.91806,
-	N39.55278, W4.13472,
-	N39.66139, W4.26806,
-	N39.93889, W4.61111,
-	N40.19556, W4.61111,
-	N40.26139, W4.61111,
-	N40.48083, W4.61111,
-	N40.6875, W4.61111,
-	N41.175, W4.61111, 
+	N40.52194, W3.28472,
+ 	N40.33806, W3.11889,
+ 	N40.33583, W3.20722,
+ 	N40.36389, W3.34833,
+ 	N40.38472, W3.38389,
 
 # MRVA 4000 Sur
 ##############################################################
@@ -1069,8 +1072,8 @@ points =
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 4000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name =
+draw = 0
 labelpos = N40.33333, W3.56667	; <position of label>
 points =
 	N40.125, W3.45833,
@@ -1097,8 +1100,8 @@ points =
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 5000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.6, W3.4	; <position of label>
 points =
 	N40.62389, W3.52528,
@@ -1106,7 +1109,9 @@ points =
 	N40.71694, W3.41167,
 	N40.63694, W3.2875,
 	N40.52194, W3.28472,
+	N40.38472, W3.38389,
 	N40.46556, W3.39778,
+	N40.58417, W3.41833,
 
 # MRVA 5000 Sur	
 ##############################################################
@@ -1114,40 +1119,28 @@ points =
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 5000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.28333, w3.25	; <position of label>
 points =
-	N40.52194, W3.28472
-	N40.33806, W3.11889
- 	N40.33583, W3.20722
- 	N40.36389, W3.34833
- 	N40.38472, W3.38389
+	N40.33806, W3.11889,
+ 	N40.24583, W3.03611,
+ 	N40.1875, W3.02333,
+ 	N40.09417, W3.1575,
+ 	N40.24083, W3.2825,
+ 	N40.33889, W3.37611,
+ 	N40.38472, W3.38389,
+ 	N40.36389, W3.34833,
+ 	N40.33583, W3.20722,
 
-# MRVA 5500 Sur	
+# MRVA 4500
 ##############################################################
 [area5]
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 5500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N40.41667, W3.31667	; <position of label>
-points =
-	N40.33806, W3.11889
- 	N40.24583, W3.03611
- 	N40.1875, W3.02333
- 	N40.09417, W3.1575
- 	N40.24083, W3.2825
-
-# MRVA 4500
-##############################################################
-[area6]
-##############################################################
-shape = polygon		; circle or polygon
 altitude = 4500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.08333, W3.63333	; <position of label>
 points =
 	N40.09417, W3.1575,
@@ -1163,16 +1156,28 @@ points =
  	N40.65056, W3.62583,
  	N40.66917, W3.59722,
  	N40.72611, W3.52306,
- 	N40.71611, W3.52333
+ 	N40.71611, W3.52333,
+ 	N40.62389, W3.52528,
+ 	N40.62806, W3.58167, 
+	N40.56361, W3.7425, 
+	N40.52694, W3.71667, 
+	N40.53111, W3.68194, 
+	N40.52167, W3.63806, 
+	N40.48944, W3.61833, 
+	N40.45611, W3.61278, 
+	N40.39472, W3.66111, 
+	N40.225, W3.59222, 
+	N40.125, W3.45833,
+	N40.24083, W3.2825,
 
 # MRVA 6500 al lado de 4000
 ##############################################################
-[area7]
+[area6]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 6500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.675, W3.75	; <position of label>
 points =
 	N40.60139, W3.79167,
@@ -1184,53 +1189,69 @@ points =
 
 # MRVA 5500 al norte
 ##############################################################
-[area8]
+[area7]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 5500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.76667, W3.58333	; <position of label>
 points =
+	N40.66917, W3.59722,
+	N40.65056, W3.62583,
+	N40.68444, W3.61583,
+	N40.74056, W3.61333,
 	N40.775, W3.65778,
  	N40.80861, W3.58333,
  	N40.82861, W3.5675,
  	N40.86306, W3.54028,
  	N40.81917, W3.45333,
  	N40.75, W3.49222,
- 	N40.72611, W3.52306
+ 	N40.72611, W3.52306,
 
 # MRVA 6000 al este
+##############################################################
+[area8]
+##############################################################
+shape = polygon		; circle or polygon
+altitude = 6000		; minimum allowed altitude in feet
+name = X
+draw = 0
+labelpos = N40.66667, W3.0	; <position of label>
+points =
+ 	N40.01306, W3.43194
+ 	N39.97722, W3.28417,
+ 	N39.99861, W3.01778,
+ 	N40.28833, W2.40028,
+ 	N40.50194, W2.39833,
+ 	N40.73056, W2.44194,
+ 	N40.90111, W2.95444,
+ 	N40.76889, W3.09806,
+ 	N40.8, W3.31389,
+ 	N40.89056, W3.47056,
+ 	N40.8825, W3.52472,
+	N40.86306, W3.54028,
+	N40.81917, W3.45333, 
+	N40.75, W3.49222, 
+	N40.72611, W3.52306, 
+	N40.71611, W3.52333,  
+	N40.71694, W3.41167, 
+	N40.63694, W3.2875, 
+	N40.52194, W3.28472,
+	N40.33806, W3.11889, 
+	N40.24583, W3.03611, 
+	N40.1875, W3.02333, 
+	N40.09417, W3.1575, 
+	N40.01306, W3.43194,
+
+# MRVA 5000 (9000) en VTB
 ##############################################################
 [area9]
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 6000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N40.66667, W3.0	; <position of label>
-points =
-	N40.86306, W3.54028,
- 	N40.8825, W3.52472,
- 	N40.89056, W3.47056,
- 	N40.8, W3.31389,
- 	N40.76889, W3.09806,
- 	N40.90111, W2.95444,
- 	N40.73056, W2.44194,
- 	N40.50194, W2.39833,
- 	N40.28833, W2.40028,
- 	N39.99861, W3.01778,
- 	N39.97722, W3.28417,
- 	N40.01306, W3.43194
-
-# MRVA 5000 (9000) en VTB
-##############################################################
-[area10]
-##############################################################
-shape = polygon		; circle or polygon
 altitude = 5000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N39.86667, W3.55	; <position of label>
 points =
 	N39.97722, W3.28417,
@@ -1240,15 +1261,17 @@ points =
  	N39.78889, W3.75222,
  	N39.93778, W3.66444,
  	N40.01306, W3.62
+	N40.01306, W3.43194, 
+	N39.97722, W3.28417,
 
 # MRVA 4000 cerca de rofix
 ##############################################################
-[area11]
+[area10]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 4000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.08333, W3.91667	; <position of label>
 points =
 	N39.93778, W3.66444,
@@ -1256,19 +1279,24 @@ points =
  	N40.11056, W4.05,
  	N40.19556, W4.03972,
  	N40.24806, W3.98833,
- 	N40.22222, W3.88278
+ 	N40.22222, W3.88278, 
+	N40.13583, W3.77083, 
+	N40.0275, W3.70639, 
+	N40.01306, W3.62,
+	N39.93778, W3.66444,
 
 # MRVA 5500 al oeste
 ##############################################################
-[area12]
+[area11]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 5500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N39.91667, W3.86667	; <position of label>
 points =
-	N39.78889, W3.75222,
+	N39.93778, W3.66444,
+ 	N39.78889, W3.75222,
  	N39.83806, W3.84139,
  	N39.90944, W3.9875,
  	N40.25639, W4.34278,
@@ -1277,16 +1305,26 @@ points =
  	N40.50806, W4.05028,
  	N40.57, W4.02917,
  	N40.55722, W3.94167,
- 	N40.60139, W3.79167
+ 	N40.60139, W3.79167,
+ 	N40.60139, W3.79167, 
+	N40.57667, W3.78056, 
+	N40.50528, W3.9425, 
+	N40.40083, W3.95361, 
+	N40.22222, W3.88278,
+ 	N40.24806, W3.98833,
+ 	N40.19556, W4.03972,
+ 	N40.11056, W4.05,
+	N40.05083, W3.98194,
+	N39.93778, W3.66444,
 
-# MRVA 5500 al oeste
+# MRVA 7000 al noroeste
 ##############################################################
-[area13]
+[area12]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 7000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.63333, W3.93333	; <position of label>
 points =
 	N40.57, W4.02917,
@@ -1296,16 +1334,22 @@ points =
  	N40.81444, W3.69222,
  	N40.81806, W3.66333,
  	N40.89806, W3.5675,
- 	N40.82861, W3.5675
+ 	N40.82861, W3.5675, 
+	N40.80861, W3.58333, 
+	N40.775, W3.65778, 
+	N40.67361, W3.86444, 
+	N40.60139, W3.79167,
+	N40.55722, W3.94167,
+	N40.57, W4.02917,
 
 # MRVA 7500 al norte
 ##############################################################
-[area14]
+[area13]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 7500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.9, W3.68056	; <position of label>
 points =
 	N40.81444, W3.69222,
@@ -1313,16 +1357,17 @@ points =
  	N40.90333, W3.72111,
  	N40.93306, W3.76667,
  	N40.97389, W3.66472,
- 	N40.89806, W3.5675
+ 	N40.89806, W3.5675,
+ 	N40.81806, W3.66333,
 
 # MRVA 6500 al norte
 ##############################################################
-[area15]
+[area14]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 6500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.89444, W3.55	; <position of label>
 points =
 	N40.97389, W3.66472,
@@ -1331,50 +1376,64 @@ points =
  	N40.92306, W3.3775,
  	N40.90694, W3.35889,
  	N40.84944, W3.34417,
- 	N40.8, W3.31389
+ 	N40.8, W3.31389, 
+	N40.89056, W3.47056, 
+	N40.8825, W3.52472, 
+	N40.86306, W3.54028, 
+	N40.82861, W3.5675,
+	N40.89806, W3.5675,
+	N40.97389, W3.66472,
 
 # MRVA 7500 al noreste
+##############################################################
+[area15]
+##############################################################
+shape = polygon		; circle or polygon
+altitude = 7500		; minimum allowed altitude in feet
+name = X
+draw = 0
+labelpos = N40.89694, W3.32361	; <position of label>
+points =
+	N40.90111, W2.95444,
+	N40.95333, W3.46,
+	N41.03667, W3.50972,
+	N40.99528, W3.58667,
+ 	N41.03667, W3.50972,
+ 	N40.95333, W3.46,
+ 	N40.90111, W2.95444,
+
+# MRVA 8000 al este
 ##############################################################
 [area16]
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 7500		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N40.89694, W3.32361	; <position of label>
+altitude = 8000		; minimum allowed altitude in feet
+name = X
+draw = 0
+labelpos = N41.03333, W2.91667	; <position of label>
 points =
-	N40.99528, W3.58667,
- 	N41.03667, W3.50972,
- 	N40.95333, W3.46,
- 	N40.90111, W2.95444
+	N41.03333, W2.5,
+	N41.26167, W2.5,
+ 	N41.26167, W2.77306,
+ 	N41.24306, W2.85833,
+ 	N41.15972, W3.00556,
+ 	N41.01861, W3.25556,
+ 	N41.08028, W3.32889,
+ 	N41.08056, W3.42778,
+	N41.03667, W3.50972,
+	N41.03667, W3.50972, 
+	N40.95333, W3.46, 
+	N40.90111, W2.95444,
+	N40.73056, W2.44194,
 
-# MRVA 8000 al este
+# MRVA 9000 al norte
 ##############################################################
 [area17]
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 8000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N41.03333, W2.91667	; <position of label>
-points =
-	N41.03667, W3.50972,
- 	N41.08056, W3.42778,
- 	N41.08028, W3.32889,
- 	N41.01861, W3.25556,
- 	N41.15972, W3.00556,
- 	N41.24306, W2.85833,
- 	N41.26167, W2.77306,
- 	N41.26167, W2.5
-
-# MRVA 9000 al norte
-##############################################################
-[area18]
-##############################################################
-shape = polygon		; circle or polygon
 altitude = 9000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name =  
+draw = 0
 labelpos = N41.04083, W3.63333	; <position of label>
 points =
 	N40.72389, W3.80056,
@@ -1384,16 +1443,29 @@ points =
  	N41.0175, W3.77361,
  	N41.12278, W3.4675,
  	N41.17028, W3.18722,
- 	N41.15972, W3.00556
+ 	N41.15972, W3.00556,
+ 	N41.15972, W3.00556,
+ 	N41.01861, W3.25556,
+ 	N41.08028, W3.32889,
+ 	N41.08056, W3.42778,
+ 	N41.03667, W3.50972,
+ 	N40.99528, W3.58667,
+ 	N40.97389, W3.66472,
+ 	N40.97389, W3.66472,
+ 	N40.93306, W3.76667,
+ 	N40.90333, W3.72111,
+ 	N40.86639, W3.68861,
+ 	N40.81444, W3.69222,
+ 	N40.72389, W3.80056,
 
 # MRVA 10000 al norte
 ##############################################################
-[area19]
+[area18]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 10000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N41.08806, W3.83333	; <position of label>
 points =
 	N40.84333, W3.80972,
@@ -1403,188 +1475,648 @@ points =
  	N41.01556, W4.04528,
  	N41.12278, W3.96417,
  	N41.18222, W3.46778,
- 	N41.17028, W3.18722
+ 	N41.17028, W3.18722,
+ 	N41.12278, W3.4675,
+ 	N41.0175, W3.77361,
+ 	N40.92667, W3.8325,
+ 	N40.84333, W3.80972,	
+	
 
-# MRVA 11000 al norte
+# MRVA 10000 al este
+##############################################################
+[area19]
+##############################################################
+shape = polygon		; circle or polygon
+altitude = 10000		; minimum allowed altitude in feet
+name = X
+draw = 0
+labelpos = N41.31667, W3.0	; <position of label>
+points =
+	N41.41111, W3.08417, 
+	N41.41778, W2.87389, 
+	N41.3, W2.5,
+	N41.26167, W2.5,
+	N41.26167, W2.77306,
+	N41.24306, W2.85833,
+	N41.15972, W3.00556,
+	N41.17028, W3.18722,
+
+# MRVA 11000
 ##############################################################
 [area20]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 11000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N41.22792, W3.87597	; <position of label>
+name = X
+draw = 0
+labelpos = N41.3000, W3.97556	; <position of label>
 points =
+	N40.66917, W4.25778, 
+	N40.6875, W4.61111,
+	N41.175, W4.61111,
+	N41.5, W4.20417,
+	N41.50167, W2.36889,
+	N41.3, W2.5,
+	N41.41778, W2.87389,
+	N41.41111, W3.08417,
+	N41.41778, W2.87389, 
+	N41.3, W2.5,
+	N41.26167, W2.5,
+	N41.26167, W2.77306,
+	N41.24306, W2.85833,
+	N41.15972, W3.00556,
+	N41.17028, W3.18722,
+	N41.18222, W3.46778,
+	N41.12278, W3.96417,
+	N41.01556, W4.04528,
+	N40.8925, W4.02278,
+	N40.90556, W3.95778,
+	N40.88417, W3.86639,
+	N40.84333, W3.80972,
+	N40.78444, W3.80417,
+	N40.72389, W3.80056,
+	N40.6975, W3.86528,
 	N40.65722, W4.03611,
- 	N40.66917, W4.25778,
- 	N41.07528, W4.29806,
- 	N41.26556, W4.19528,
- 	N41.38833, W3.67972,
- 	N41.41111, W3.08417,
- 	N41.17028, W3.18722
 
-# MRVA 10000 al este
+# MRVA 7000 este
 ##############################################################
 [area21]
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 10000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N41.31667, W3.0	; <position of label>
+altitude = 7000		; minimum allowed altitude in feet
+name = X
+draw = 0
+labelpos = N40.8, W2.33333	; <position of label>
 points =
-	N41.41111, W3.08417, 
-	N41.41778, W2.87389, 
-	N41.3, W2.5
+	N41.03333, W2.5, 
+	N40.73056, W2.44194, 
+	N40.50194, W2.39833, 
+	N40.50694, W2.15833, 
+	N41.03444, W2.15833, 
+	N41.03333, W2.5,
 
-# MRVA 12000
+# MRVA 8000 este
 ##############################################################
 [area22]
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 12000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N41.41306, W3.97556	; <position of label>
+altitude = 8000		; minimum allowed altitude in feet
+name = X
+draw = 0
+labelpos = N40.0, W2.63333	; <position of label>
 points =
-	N40.66917, W4.25778, 
-	N40.6875, W4.61111,
-	N40.66917, W4.25778,
-	
-# MRVA 7000 este
+	N40.50194, W2.39833, 
+	N40.50694, W2.15833, 
+	N40.08889, W2.15833, 
+	N40.0, W2.29444, 
+	N40.0, W2.36667, 
+	N39.88917, W2.46333,
+	N39.82028, W2.56861,
+	N39.82028, W3.32
+	N39.97722, W3.28417,
+ 	N39.99861, W3.01778,
+ 	N40.28833, W2.40028,
+ 	N40.50194, W2.39833,
+
+# MRVA 8000 (10500)
 ##############################################################
 [area23]
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 7000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N40.8, W2.33333	; <position of label>
+altitude = 8000		; minimum allowed altitude in feet
+name = X
+draw = 0
+labelpos = N39.65, W3.55	; <position of label>
 points =
-	N41.03333, W2.5, 
-	N40.73056, W2.44194,
-	N41.03333, W2.5
+	N39.83806, W3.84139,
+	N39.78889, W3.75222,
+	N39.725, W3.42889,
+	N39.82, W3.40722,
+	N39.82028, W3.32,
+	N39.82028, W2.56861,
+ 	N39.59028, W2.91806,
+ 	N39.55278, W4.13472,
+ 	N39.66139, W4.26806,
+ 	N39.83806, W3.84139,
 
-# MRVA 8000 este
+# MRVA 7000 oeste
 ##############################################################
 [area24]
 ##############################################################
 shape = polygon		; circle or polygon
-altitude = 8000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N40.0, W2.63333	; <position of label>
-points =
-	N40.50194, W2.39833, 
-	N40.50694, W2.15833,
-	N40.50194, W2.39833
-
-# MRVA 8000 este
-##############################################################
-[area25]
-##############################################################
-shape = polygon		; circle or polygon
-altitude = 8000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N40.0, W2.63333	; <position of label>
-points =
-	N39.82028, W3.32, 
-	N39.82028, W2.56861,
-	N39.82028, W3.32
-	
-# MRVA 8000 (10500)
-##############################################################
-[area26]
-##############################################################
-shape = polygon		; circle or polygon
-altitude = 8000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
-labelpos = N39.65, W3.55	; <position of label>
-points =
-	N39.83806, W3.84139, 
-	N39.66139, W4.26806,
-	N39.83806, W3.84139
-
-# MRVA 7000 oeste
-##############################################################
-[area27]
-##############################################################
-shape = polygon		; circle or polygon
 altitude = 7000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.03333, W4.36667	; <position of label>
 points =
+	N40.19556, W4.61111,
+	N39.93889, W4.61111,
+	N39.66139, W4.26806
+	N39.83806, W3.84139,
+ 	N39.90944, W3.9875,
+ 	N40.25639, W4.34278,
+ 	N40.37944, W4.17389,
 	N40.485, W4.0725,
  	N40.45556, W4.29722,
  	N40.36444, W4.39667,
  	N40.27889, W4.45778,
- 	N40.19556, W4.61111
+ 	N40.19556, W4.61111,
 
 # MRVA 9000 oeste
 ##############################################################
-[area28]
+[area25]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 9000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.36667, W4.58333	; <position of label>
 points =
 	N40.26139, W4.61111,
  	N40.30806, W4.50417,
  	N40.42306, W4.50417,
- 	N40.48083, W4.61111
+ 	N40.48083, W4.61111,
+ 	N40.26139, W4.61111,
 
-# MRVA 8000 oeste mismo area que el 28 pero por label
+
+# MRVA 8000 oeste
 ##############################################################
-[area29]
+[area26]
 ##############################################################
 shape = polygon		; circle or polygon
 altitude = 8000		; minimum allowed altitude in feet
-#name = X		; <name, if omited then planes inbound the main airport may enter this area>
-draw = 1		; <number of invisible lines at the end of the polygon, omit for a full polygon>
+name = X
+draw = 0
 labelpos = N40.53333, W4.41667	; <position of label>
 points =
-	N40.26139, W4.61111,
+	N40.485, W4.0725,
+ 	N40.45556, W4.29722,
+ 	N40.36444, W4.39667,
+ 	N40.27889, W4.45778,
+ 	N40.19556, W4.61111,
+ 	N40.26139, W4.61111,
  	N40.30806, W4.50417,
  	N40.42306, W4.50417,
- 	N40.48083, W4.61111
+ 	N40.48083, W4.61111,
+ 	N40.6875, W4.61111, 
+ 	N40.66917, W4.25778,
+ 	N40.65722, W4.03611,
+ 	N40.57, W4.02917,
+ 	N40.50806, W4.05028,
+ 	N40.485, W4.0725,
 
-##############################################################
-[configurations]
-##############################################################
+[departure1]
+#Departures from RWY36L
+runway = rwy4, rev
 
-config1 =
-	0,	rwy1,	land
-	0,	rwy2,	land
+route1 = BAR7L, Bardi seven lima
+	N40.530000, W3.574722,
+	N40.546389, W3.575278,
+	N40.546389, W3.575278,
+	N40.557222, W3.577222,
+	N40.557222, W3.577222,
+	N40.568056, W3.580278,
+	N40.568056, W3.580278,
+	N40.580278, W3.585556,
+	N40.580278, W3.585556,
+	N40.582778, W3.588611,
+	N40.582778, W3.588611,
+	N40.584722, W3.592222,
+	N40.584722, W3.592222,
+	N40.586111, W3.596111,
+	N40.586111, W3.596111,
+	N40.587222, W3.600278,
+	N40.587222, W3.600278,
+	N40.592222, W3.625556,
+	N40.592222, W3.625556,
+	N40.640278, W3.678611,
+	N40.640278, W3.678611,
+	N40.625278, W4.526389,
+	N40.625278, W4.526389,
+	N40.625000, W4.531944,
+	N40.625000, W4.531944,
+	N40.624444, W4.537500,
+	N40.624444, W4.537500,
+	N40.623611, W4.542778,
+	N40.623611, W4.542778,
+	N40.622500, W4.548333,
+	N40.622500, W4.548333,
+	N40.620833, W4.553333,
+	N40.620833, W4.553333,
+	N40.616944, W4.563333,
+	N40.616944, W4.563333,
+	N40.438333, W4.876944,
+	N40.438333, W4.876944,
+	N40.583333, W6.302222,
+	N40.583333, W6.302222,
 
+route2 = CCS6L, Caceres six lima
+	N40.530000, W3.574722,
+	N40.546389, W3.575278,
+	N40.546389, W3.575278,
+	N40.557222, W3.577222,
+	N40.557222, W3.577222,
+	N40.568056, W3.580278,
+	N40.568056, W3.580278,
+	N40.580278, W3.585556,
+	N40.580278, W3.585556,
+	N40.582778, W3.588611,
+	N40.582778, W3.588611,
+	N40.584722, W3.592222,
+	N40.584722, W3.592222,
+	N40.586111, W3.596111,
+	N40.586111, W3.596111,
+	N40.587222, W3.600278,
+	N40.587222, W3.600278,
+	N40.592222, W3.625556,
+	N40.592222, W3.625556,
+	N40.640278, W3.678611,
+	N40.640278, W3.678611,
+	N40.625278, W4.526389,
+	N40.625278, W4.526389,
+	N40.625000, W4.531944,
+	N40.625000, W4.531944,
+	N40.624444, W4.537500,
+	N40.624444, W4.537500,
+	N40.623611, W4.542778,
+	N40.623611, W4.542778,
+	N40.622500, W4.548333,
+	N40.622500, W4.548333,
+	N40.620833, W4.553333,
+	N40.620833, W4.553333,
+	N40.616944, W4.563333,
+	N40.616944, W4.563333,
+	N40.438333, W4.876944,
+	N40.438333, W4.876944,
+	N39.524167, W6.434444,
+	N39.524167, W6.434444,
 
-##############################################################
-[transition1]
-##############################################################
-# ILS-Z 32L
+route3 = SIE6L, Somosierra six lima
+	N40.530000, W3.574722,
+	N40.546389, W3.575278,
+	N40.546389, W3.575278,
+	N40.557222, W3.577222,
+	N40.557222, W3.577222,
+	N40.568056, W3.580278,
+	N40.568056, W3.580278,
+	N40.580278, W3.585556,
+	N40.580278, W3.585556,
+	N40.582778, W3.588611,
+	N40.582778, W3.588611,
+	N40.584722, W3.592222,
+	N40.584722, W3.592222,
+	N40.586111, W3.596111,
+	N40.586111, W3.596111,
+	N40.587222, W3.600278,
+	N40.587222, W3.600278,
+	N40.592222, W3.625556,
+	N40.592222, W3.625556,
+	N40.640278, W3.678611,
+	N40.640278, W3.678611,
+	N41.151667, W3.604722,
+	N41.151667, W3.604722,
+
+route4 = VTB6L, Villatobas six lima
+	N40.530000, W3.574722,
+	N40.546389, W3.575278,
+	N40.546389, W3.575278,
+	N40.557222, W3.577222,
+	N40.557222, W3.577222,
+	N40.568056, W3.580278,
+	N40.568056, W3.580278,
+	N40.580278, W3.585556,
+	N40.580278, W3.585556,
+	N40.582778, W3.588611,
+	N40.582778, W3.588611,
+	N40.584722, W3.592222,
+	N40.584722, W3.592222,
+	N40.586111, W3.596111,
+	N40.586111, W3.596111,
+	N40.587222, W3.600278,
+	N40.587222, W3.600278,
+	N40.592222, W3.625556,
+	N40.592222, W3.625556,
+	N40.663056, W3.703611,
+	N40.663056, W3.703611,
+	N40.607500, W3.799444,
+	N40.607500, W3.799444,
+	N40.468889, W3.557500,
+	N40.468889, W3.557500,
+	N39.780556, W3.464167,
+	N39.780556, W3.464167,
+
+route5 = ZMR7L, Zamora seven lima
+	N40.530000, W3.574722,
+	N40.546389, W3.575278,
+	N40.546389, W3.575278,
+	N40.557222, W3.577222,
+	N40.557222, W3.577222,
+	N40.568056, W3.580278,
+	N40.568056, W3.580278,
+	N40.580278, W3.585556,
+	N40.580278, W3.585556,
+	N40.582778, W3.588611,
+	N40.582778, W3.588611,
+	N40.584722, W3.592222,
+	N40.584722, W3.592222,
+	N40.586111, W3.596111,
+	N40.586111, W3.596111,
+	N40.587222, W3.600278,
+	N40.587222, W3.600278,
+	N40.592222, W3.625556,
+	N40.592222, W3.625556,
+	N40.640278, W3.678611,
+	N40.640278, W3.678611,
+	N40.780278, W3.658333,
+	N40.780278, W3.658333,
+	N41.015000, W4.223056,
+	N41.015000, W4.223056,
+	N41.530000, W5.639722,
+	N41.530000, W5.639722,
+
+[departure2]
+#Departures from RWY36R
+runway = rwy3, rev
+
+route1 = NAN2R, Nando two romeo
+	N40.534444, W3.559167,
+	N40.534444, W3.559167,
+	N40.593611, W3.538056,
+	N40.593611, W3.538056,
+	N40.753611, W3.359167,
+	N40.753611, W3.359167,
+	N40.703333, W3.271944,
+	N40.703333, W3.271944,
+	N40.402778, W3.113611,
+	N40.402778, W3.113611,
+	N40.132778, W2.806944,
+	N40.132778, W2.806944,
+	N39.988611, W2.174444,
+
+route2 = PIN2R, Pinar tree romeo
+	N40.532500, W3.559167,
+	N40.534444, W3.559167,
+	N40.534444, W3.559167,
+	N40.593611, W3.538056,
+	N40.593611, W3.538056,
+	N40.853889, W3.246389,
+	N40.853889, W3.246389,
+	N40.980278, W2.599167,
+	N40.980278, W2.599167,
+
+route3 = RBO3R, Robledillo tree romeo
+	N40.532500, W3.559167,
+	N40.534444, W3.559167,
+	N40.534444, W3.559167,
+	N40.593611, W3.538056,
+	N40.593611, W3.538056,
+	N40.853889, W3.246389,
+	N40.853889, W3.246389,
+
+[approach1]
+# ADUXO2D
+runway = rwy1
+beacon = ADUXO
+route1 = 
+	250
+	N40.512222, W2.064167,
+	N40.391667, W2.322222,
+	N40.391667, W2.322222,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+	N40.25816, W3.13611, # RUDBI
+	N40.27094, W3.23266, # MD570
+	N40.28319, W3.32583, # MD575
+	11.9, 5000, 210
+
+[approach2]
+# BANEV3D
+runway = rwy1				; runway identifier, <reversed use>
+beacon = BANEV		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	207
+	N41.502500, W2.514444,
+	N41.323611, W2.629722,
+	N41.323611, W2.629722,
+	N40.980278, W2.599167,
+	N40.980278, W2.599167,
+	N40.829167, W2.587222,
+	N40.829167, W2.587222,
+	N40.656111, W2.816667,
+	N40.656111, W2.816667,
+	N40.416111, W3.009722,
+	N40.416111, W3.009722,
+	N40.258056, W3.136111,
+ 	N40.25816, W3.13611, # RUDBI
+	N40.27094, W3.23266, # MD570
+	N40.28319, W3.32583, # MD575
+	11.9, 5000, 210
+
+[approach3]
+# MORAL5C
 runway = rwy2				; runway identifier, <reversed use>
-beacon = TOBEK		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+beacon = MORAL		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	328
+	N39.000000, W3.541944,
+	N39.422500, W3.885000,
+	N39.422500, W3.885000,
+	N39.563333, W4.000556,
+	N39.563333, W4.000556,
+	N39.686944, W4.102778,
+	N39.686944, W4.102778,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556, # FAFEQ
+	N40.20888, W3.41413, # MD470
+	N40.25258, W3.38230, # MD475
+	12.2, 4000, 210
+
+[approach4]
+# NONTU3C
+runway = rwy2				; runway identifier, <reversed use>
+beacon = NONTU		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	186
+	N41.500278, W4.168889,
+	N41.265556, W4.195278,
+	N40.868333, W4.219167,
+	N40.525000, W4.240000,
+	N40.343056, W4.146667,
+	N40.242222, W3.746111,
+	N40.242222, W3.746111,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556, # FAFEQ
+	N40.20888, W3.41413, # MD470
+	N40.25258, W3.38230, # MD475
+	12.2, 4000, 210
+
+[approach5]
+# PRADO3D
+runway = rwy1				; runway identifier, <reversed use>
+beacon = PRADO		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	300
+	N40.147222, W2.010278,
+	N40.262222, W2.282222,
+	N40.262222, W2.282222,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+	N40.25816, W3.13611, # RUDBI
+	N40.27094, W3.23266, # MD570
+	N40.28319, W3.32583, # MD575
+	11.9, 5000, 210
+
+[approach6]
+# RIDAV4C
+runway = rwy2				; runway identifier, <reversed use>
+beacon = RIDAV		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	118
+	N40.535000, W5.808056,
+	N40.185556, W4.890833,
+	N40.185556, W4.890833,
+	N39.969444, W4.337222,
+	N39.969444, W4.337222,
+	N39.917778, W4.255833,
+	N39.917778, W4.255833,
+	N39.834722, W4.121944,
+	N39.834722, W4.121944,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556, # FAFEQ
+	N40.20888, W3.41413, # MD470
+	N40.25258, W3.38230, # MD475
+	12.2, 4000, 210
+
+[approach7]
+# SOTUK4C
+runway = rwy2				; runway identifier, <reversed use>
+beacon = SOTUK		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
 	047
-	N40.19631, W3.42444, 5000, 220
-	15.6, 5000, 220
+	N39.193611, W4.746389,
+	N39.518889, W4.323889,
+	N39.518889, W4.323889,
+	N39.686944, W4.102778,
+	N39.686944, W4.102778,
+	N39.810833, W3.939167,
+	N39.810833, W3.939167,
+	N39.921667, W3.792222,
+	N39.921667, W3.792222,
+	N40.043889, W3.628889,
+	N40.043889, W3.628889,
+	N40.169167, W3.460556, # FAFEQ
+	N40.20888, W3.41413, # MD470
+	N40.25258, W3.38230, # MD475
+	12.2, 4000, 210
 
-##############################################################
-[transition2]
-##############################################################
-# ILS-Z 32R
+[approach8]
+# TERSA2Z
 runway = rwy1				; runway identifier, <reversed use>
-beacon = ASBIN		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+beacon = TERSA		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
 route1 = 
-	270
-	N40.25508, W3.17633, 6000, 220
-	16.3, 5000, 220
+	222
+	N40.725000, W2.137778,
+	N40.755556, W2.393611,
+	N40.755556, W2.393611,
+	N40.785278, W2.644722,
+	N40.785278, W2.644722,
+	N40.656111, W2.816667,
+	N40.656111, W2.816667,
+	N40.416111, W3.009722,
+	N40.416111, W3.009722,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+ 	N40.25816, W3.13611, # RUDBI
+	N40.27094, W3.23266, # MD570
+	N40.28319, W3.32583, # MD575
+	11.9, 5000, 210
 
-	
+[approach9]
+# VILLA3D
+runway = rwy1				; runway identifier, <reversed use>
+beacon = VILLA		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
 
+route1 = 
+	325
+	N40.232778, W2.410278,
+	N40.260278, W2.600000,
+	N40.260278, W2.600000,
+	N40.258056, W3.136111,
+	N40.258056, W3.136111,
+	N40.25816, W3.13611, # RUDBI
+	N40.27094, W3.23266, # MD570
+	N40.28319, W3.32583, # MD575
+	11.9, 5000, 210
+
+[approach10]
+# ZMR4C
+runway = rwy2				; runway identifier, <reversed use>
+beacon = ZMR		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	139
+	N41.530000, W5.639444,
+	N40.624444, W4.549722,
+	N40.624444, W4.549722,
+	N40.343056, W4.146667,
+	N40.242222, W3.746111,
+	N40.242222, W3.746111,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556,
+	N40.169167, W3.460556, # FAFEQ
+	N40.20888, W3.41413, # MD470
+	N40.25258, W3.38230, # MD475
+	12.2, 4000, 210
+
+[transition1]
+# ILS-Z 32L
+runway = rwy2				; runway identifier, <reversed use>
+beacon = FAFEQ		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	323
+	N40.169167, W3.460556, # FAFEQ
+	N40.20888, W3.41413, # MD470
+	N40.25258, W3.38230, # MD475
+	12.2, 4000, 210
+
+[transition2]
+# ILS-Z 32R
+runway = rwy1				; runway identifier, <reversed use>
+beacon = RUDBI		; selectable beacon to enable NAV mode; define a beacon, or choose a name from beacon list above
+
+route1 = 
+	323
+	N40.25816, W3.13611, # RUDBI
+	N40.27094, W3.23266, # MD570
+	N40.28319, W3.32583, # MD575
+	11.9, 5000, 210
+
+[configurations]
+config1 =
+	0,	rwy1,	land
+	0,	rwy2,	land
+	0,  rwy3,   startrev
+	0,  rwy4,   startrev
