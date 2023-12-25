@@ -6,7 +6,7 @@
 #  !!IF ANY ARRIVALS FLY OUT OF YOUR AIRSPACE WHILE FOLLOWING A STAR PLEASE CONTACT US!!
 #  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # 
-#  VERSION 1.0
+#  VERSION 1.1
 #
 #  LONDON NORTH CONTROL FOR ENDLESS ATC
 #
@@ -26,7 +26,7 @@ floor = 1100
 descendaltitude = 10000
 ceiling = 30000
 above = 37000
-transitionaltitude = 6000
+transitionaltitude = 5000
 speedrestriction = 10000, 250
 localizerspeed = 4, 160
 usa = false
@@ -80,9 +80,12 @@ beacons =
     NWI, N52.677542, E1.291503, 268, NORWICH
     KIM, N53.574025, W0.353781, 202, HUMBERSIDE
     TD, N54.560522, W1.333639, 228, TEESIDE
+    TIPOD, N53.435556, W3.284722, 117, TIP POD
+    KEGUN, N53.1925, W3.150278, -183, KEG GUN
+    IOM, N54.066978, W4.763472, 079, ISLE OF MAN
+
 
 boundary = 
-        N54.943971111111, W1.9338786111111
         N55.035833333333, W2.0083333333333
         N55.0625, W2.0055555555556
         N55.192777777778, W1.5188888888889
@@ -170,7 +173,8 @@ boundary =
         N54.25, W3.5513888888889
         N54.25, W3.0830619444444
         N54.25, W2.1666666666667
-        N54.943971111111, W1.9338786111111
+        N54.732222222222, W2.0011111111111
+        N55.035833333333, W2.0083333333333
 
 handoff = 
     283, Shannon Control, Shannon Control, 134.260
@@ -13680,6 +13684,14 @@ runways =
 entrypoints = 
     005, TD, 8000
 
+[airport8]
+name = Isle of Man Airport
+code = NS
+runways =
+	NS, 08, N54.0817, W4.63694, 77.9, 5751, 951, 459, 29
+entrypoints =
+	292, IOM, 4000
+
 [configurations]
 config1 = 
         0, CCN, startlandrev
@@ -13691,6 +13703,7 @@ config1 =
         21, SH, startland
         27, NJ1, startland
         30, NV, startland
+        33, NS, startland
 
 config2 = 
         0, CCN, startland
@@ -13702,3 +13715,4 @@ config2 =
         23, SH, startlandrev
         28, NJ1, startlandrev
         31, NV, startlandrev
+        34, NS, startlandrev
