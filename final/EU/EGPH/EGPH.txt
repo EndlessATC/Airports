@@ -1,0 +1,230 @@
+[airspace]
+radius = 50
+elevation = 136
+floor = 3000 				; minimum selectable altitude
+descendaltitude = 24000 	; minimum initial altitude for arrivals
+ceiling = 11000				; maximum selectable altitude
+above = 14000 				; maximum departure altitude when SID is enabled (must be above ceiling)
+transitionaltitude = 6000	; highest altitude displayed in feet instead of flight level
+separation = 3				; minimum allowed distance between aircraft in NM
+automatic = true
+center = N55.95, W3.3725
+usa = false
+name = Edinburgh Radar, Edinburgh Radar
+magneticvar = -1.21
+
+beacons =
+    EDN, N55.978472222222, W3.2854444444444, 294, Edinburgh
+    ESKDO, N55.298888888889, W3.20425, 0, Essk Dough
+    GRICE, N56.196666666667, W3.6855, 0, Grice
+    HAVEN, N55.461111111111, W2.9963055555556, 0, Hayven
+    PTH, N56.442388888889, W3.3686111111111, 0, Perth
+    STIRA, N56.133916666667, W3.8336111111111, 233, Steer Aah
+    TARTN, N55.717194444444, W3.1385277777778, -15, Tart Enn
+    TLA, N55.499111111111, W3.3528055555556, 0, Talla
+
+handoff =
+	360, Unicom, Unicom, 122.800
+
+[area1]
+shape = polygon
+points =
+    N55.627052222222, W3.6309383333333
+    N55.690561944444, W2.9196383333333
+    N56.002186388889, W2.8136394444444
+    N56.116655, W2.9355375
+    N56.116643055556, W3.4939552777778
+    N56.233285277778, W3.5498063888889
+    N56.232918055556, W3.7491836111111
+    N55.95667, W3.9047263888889
+    N55.801666666667, W3.9030555555556
+
+[airport1]
+name = Edinburgh Airport
+code = EGPH
+runways =
+	rwy1, 24, N55.954905555556, W3.3579611111111, 240, 8300, 692.257, 702.1, 105, 3, 240, 3, 60, 0, 0, 0, 0, 118.705, Edinburgh Tower
+
+climbaltitude = 6000
+
+airlines =
+    ACA, 1, b789, Air Canada, w
+    AEE, 1, a20n, Ay Jee An, se
+    AFR, 3, e170/e190, Airfrans, s
+    BEL, 1, a319, Bee-line, s
+    BTI, 1, bcs3, Air Baltic, e
+    DAL, 1, b763, Delta, w
+    DHK, 1, b752, World express, se
+    DLH, 3, a320/a321/crj9, Lufthansa, sw
+    EDW, 1, a320, Edel Weeze, e
+    EIN, 5, a320/atr72, Shamrock, w
+    EWG, 2, a320/b738, Eurowings, se
+    EXS, 7, b738, Channex, es
+    EZY, 6, a320, Easy
+    EZY, 3, a319/a32n, Easy
+    FIN, 1, a319, Finnair, n
+    IBE, 1, a320, Iberia, s
+    KLM, 3, b737/b738/e190, KLM, e
+    LOG, 5, at72/e135/e145, Logan, w
+    NOZ, 1, b738, Nordic, e
+    NPT, 2, b734, Neptune, s
+    NSZ, 1, b38m, Rednose, se
+    QTR, 1, b788/a359, Qatari, e
+    RKU, 2, b738, Bluemax, esw
+    RYR, 7, b738, Ryanair, esw
+    SAS, 1, crj9, Scandinavian, ne
+    SHT, 4, a320/e190, Shuttle, ns
+    SXS, 1, b38m, Sunexpress, se
+    TAY, 1, b737, Quality, se
+    TRK, 1, a333, Turkish Republic, es
+    UAL, 1, b752, United, w
+    VIR, 1, a351, Virgin, w
+    VLG, 1, a320, Vueling, s
+    WJA, 1, b38m, Westjet, w
+
+entrypoints =
+    166, ESKDO
+    140, HAVEN
+    222, TLA
+    225, TLA
+    037, PTH
+
+# CONFIG
+[configurations]
+config1 =
+    0, rwy1, land
+config2 =
+    0, rwy1, landrev
+
+# STAR - STIRA
+
+[approach1]
+runway = rwy1
+beacon = PTH
+
+route1 =
+    217, PTH1G, PERTH ONE GOLF
+#   PTH
+    N56.442388888889, W3.3686111111111
+#   GRICE
+    N56.196666666667, W3.6855, , 250
+#   STIRA
+    N56.133916666667, W3.8336111111111, , 230
+    end, hold
+
+# STAR - TARTN
+
+[approach2]
+runway = rwy1
+beacon = TLA
+
+route1 =
+    071, GIRV1E, INBOUND TALLA
+#   TLA
+    N55.499111111111, W3.3528055555556, , 250
+#   TARTN
+    N55.717194444444, W3.1385277777778, , 230
+    end, hold
+
+[approach3]
+runway = rwy1
+beacon = TLA
+
+route1 =
+    068, TUNS1E, INBOUND TALLA
+#   TLA
+    N55.499111111111, W3.3528055555556, , 250
+#   TARTN
+    N55.717194444444, W3.1385277777778, , 230
+    end, hold
+
+[approach4]
+runway = rwy1
+beacon = ESKDO
+
+route1 =
+    339, INPI1E, INBOUND ESSK Dough
+#   ESKDO
+    N55.298888888889, W3.20425, , 250
+#   TARTN
+    N55.717194444444, W3.1385277777778, , 230
+    end, hold
+
+[approach5]
+runway = rwy1
+beacon = HAVEN
+
+route1 =
+    301, AGPE1E, INBOUND HAYVEN
+#   HAVEN
+    N55.461111111111, W2.9963055555556, , 250
+#   TARTN
+    N55.717194444444, W3.1385277777778, , 230
+    end, hold
+
+## 06
+# STAR - STIRA
+
+[approach6]
+runway = rwy1, rev
+beacon = PTH
+
+route1 =
+    217, PTH1G, PERTH ONE GOLF
+#   PTH
+    N56.442388888889, W3.3686111111111
+#   GRICE
+    N56.196666666667, W3.6855, , 250
+#   STIRA
+    N56.133916666667, W3.8336111111111, , 230
+    end, hold
+
+# STAR - TARTN
+
+[approach7]
+runway = rwy1, rev
+beacon = TLA
+
+route1 =
+    071, GIRV1E, INBOUND TALLA
+#   TLA
+    N55.499111111111, W3.3528055555556, , 250
+#   TARTN
+    N55.717194444444, W3.1385277777778, , 230
+    end, hold
+
+[approach8]
+runway = rwy1, rev
+beacon = TLA
+
+route1 =
+    068, TUNS1E, INBOUND TALLA
+#   TLA
+    N55.499111111111, W3.3528055555556, , 250
+#   TARTN
+    N55.717194444444, W3.1385277777778, , 230
+    end, hold
+
+[approach9]
+runway = rwy1, rev
+beacon = ESKDO
+
+route1 =
+    339, INPI1E, INBOUND ESSK Dough
+#   ESKDO
+    N55.298888888889, W3.20425, , 250
+#   TARTN
+    N55.717194444444, W3.1385277777778, , 230
+    end, hold
+
+[approach10]
+runway = rwy1, rev
+beacon = HAVEN
+
+route1 =
+    301, AGPE1E, INBOUND HAYVEN
+#   HAVEN
+    N55.461111111111, W2.9963055555556, , 250
+#   TARTN
+    N55.717194444444, W3.1385277777778, , 230
+    end, hold
