@@ -32,7 +32,7 @@ beacons =
       COTTO, S00.44.03.50, E119.27.43.40, 65, Choto
       NURKO, S00.26.25.40, E120.03.37.60, 245, Nurko
       DILAM, S00.56.29.30, E120.23.04.80, 0, Deelum
-      NIVEK, S02.40.46.00, E118.44.59.80, 0, Roodal
+      NIVEK, S02.40.46.00, E118.44.59.80, 0, Neefek
       ABIJU, S01.15.45.60, E119.13.18.60, 0, Abeeju
       KALKU, S00.50.09.80, E118.29.53.70, 0, Kalku
       GAHRU, S00.18.42.80, E119.58.56.10, 155, Gahru
